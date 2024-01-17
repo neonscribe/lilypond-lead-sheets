@@ -1,0 +1,125 @@
+%% -*- Mode: LilyPond -*-
+
+\include "../Include/lead-sheets.ily"
+
+\header {
+  title = "Oh, Lady Be Good"
+  subtitle = \instrument
+  poet = "Ira Gershwin"
+  composer = "George Gershwin"
+  copyright = "© 1924 WB Music Corp."
+}
+
+refrainLyricsA = \lyricmode {
+  Oh, sweet and love -- ly la -- dy, be good. __
+  Oh, la -- dy, be good __ to me! __
+  
+  I am so aw -- f'ly mis -- un -- der -- stood, __
+  So la -- dy, be good __ to me. __
+}
+
+refrainLyricsBOne = \lyricmode {
+  Oh, please have some pi -- ty, __
+  I'm all a -- lone in this big ci -- ty.
+}
+
+refrainLyricsBTwo = \lyricmode {
+  This is tu -- lip weath -- er __
+  So let's put two and two to -- geth -- er.
+}
+
+refrainLyricsC = \lyricmode {
+  I tell you I'm just a lone -- some babe in the wood, __
+  So la -- dy, be good __ to me.
+}
+
+refrainSRBChords = \chordmode {
+  g1:6 c1:9 g2:6 \chordInsideParens{ c2:9 } b2:m7 e2:7.9-
+  a1:m7 d1:7.9- g2:6 e2:m7 a2:m7 d2:7.9-
+
+  g1:6 c1:9 g2:6 \chordInsideParens{ c2:9 } b2:m7 e2:7.9-
+  a1:m7 d1:7.9- g1:6 d2:m7 g2:7
+  
+  c1:6 cs1:dim7 g1:6
+  \chordOpenParen{ fs2:m7.5- }
+  \chordCloseParen{ b2:7.9-.5+ }
+  e1:m7 a1:9 a1:m7 d1:7.9-
+
+  g1:6 c1:9 g2:6 \chordInsideParens{ c2:9 } b2:m7 e2:7.9-
+  a1:m7 d1:7.9- g2:6
+  \chordOpenParen{ e2:7.9- }
+  a2:m7
+  \chordCloseParen{ d2:7.9- }
+}
+
+refrainJoelChords = \chordmode {
+  g1 c1:7 g1:6 b2:m7 bf2:m7
+  a1:m7 d1:7 g2 e2:7 a2:m7 d2:7
+
+  g1 c1:7 g1:6 b2:m7 bf2:m7
+  a1:m7 d1:7 g1 d2:m7 g2:7
+  
+  c1 cs1:dim7 g1 g1
+  a1:7 a1:7 d1:7 d1:7
+
+  g1 c1:7 g1:6 b2:m7 bf2:m7
+  a1:m7 d1:7 g2:6
+  \chordOpenParen{ e2:7 }
+  a2:m7
+  \chordCloseParen{ d2:7 }
+}
+
+refrainChords = \refrainJoelChords
+
+refrainKey = g
+
+refrainMelody = \relative f'' {
+  \time 4/4
+  \key \refrainKey \major
+  \clef \whatClef
+  \tempo "Medium Fast Swing" 4 = 180
+
+  \mark \markup{ \box "A1" }
+  
+  d2 c4 b4 | d2 d2 | \tuplet 3/2 { d4 b4 g4 } d2~ | d2 d'2 |
+  \break
+  \tuplet 3/2 { d4 c4 a4 } d,2~ | d2 b'2 | g1~ | g2 r2 |
+  
+  \bar "||"
+  \break
+
+  \mark \markup{ \box "A2" }
+  
+  d'2 c4 b4 | d2 d2 | \tuplet 3/2 { d4 b4 g4 } d2~ | d2 d'2 |
+  \break
+  \tuplet 3/2 { d4 c4 a4 } d,2~ | d2 b'2 | g1~ | g2 r2 |
+  
+  \bar "||"
+  \break
+
+  \mark \markup{ \box "B" }
+  
+  e'1 | r4 e4 e4 e4 | e2 d2~ | d2 r2 |
+  \break
+  r4 b4 b4 b4 | b4 b4 b4 b4 | b2 a2 | r4 b4 c4 cs4 |
+  
+  \bar "||"
+  \break
+
+  \mark \markup{ \box "A3" }
+
+  d2 c4 b4 | d2 d2 | \tuplet 3/2 { d4 b4 g4 } d2~ | d2 e'2 |
+  \break
+  \tuplet 3/2 { d4 c4 a4 } d,2~ | d2 b'2 | g1 | r1 |
+  
+  \bar "|."
+}
+
+\include "../Include/paper.ily"
+
+\markup {
+  % Leave a gap after the header
+  \vspace #1
+}
+
+\include "../Include/refrain-a1-b2-c1.ily"
