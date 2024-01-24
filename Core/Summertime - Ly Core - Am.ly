@@ -53,8 +53,40 @@ refrainJoelChords = \chordmode {
   c2/g c2 b2:m7.5- e2:7 a1:m7 \chordInsideParens{ e1:7 }
 }
 
-refrainChords = \refrainJoelChords
+refrainTonjaChords = \chordmode {
+  s2
+  
+  a1:m7 b2:m7.5- e2:7.9- a1:m7 a2:m7 a2:7.9-
+  d1:m7 d1:m7 b1:m7.5- e1:7.9-
+  a1:m7 b2:m7.5- e2:7.9- a1:m7 d2:m7 g2:7
+  c2:maj7 a2:m7 b2:m7.5- e2:7.5+ a1:m7 b2:m7.5- e2:7.9-
 
+  a1:m7 b2:m7.5- e2:7.9- a1:m7 a2:m7 a2:7.9-
+  d1:m7 d1:m7 b1:m7.5- e1:7.9-
+  a1:m7 b2:m7.5- e2:7.9- a1:m7 d2:m7 g2:7
+  c2:maj7 a2:m7 b2:m7.5- e2:7.5+ a1:m7
+  \chordOpenParen{ b2:m7.5- }
+  \chordCloseParen{ e2:7.9- }
+}
+
+refrainVanillaChords = \chordmode {
+  s2
+  
+  a1:m e1:7 a1:m a2:m a2:7
+  d1:m d1:m e1:7 e1:7
+  a1:m e1:7 a1:m d2:m7 g2:7
+  c1 b2:m7.5- e2:7 a1:m e1:7
+
+  a1:m e1:7 a1:m a2:m a2:7
+  d1:m d1:m e1:7 e1:7
+  a1:m e1:7 a1:m d2:m7 g2:7
+  c1 b2:m7.5- e2:7 a1:m
+  \chordInsideParens{ e1:7 }
+}
+
+refrainChords = #(if (and (defined? 'useJoelChords) useJoelChords)
+		  refrainJoelChords
+		  refrainTonjaChords)
 refrainKey = a
 
 refrainMelody = \relative f'' {

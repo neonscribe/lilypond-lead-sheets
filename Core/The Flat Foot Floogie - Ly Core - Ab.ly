@@ -7,7 +7,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 \include "../Include/lead-sheets.ily"
 
 \header {
-  title = "Flat Foot Floogie"
+  title = "Flat Foot Floogie (with a Floy Floy)"
   subtitle = \instrument
   poet = ""
   composer = "Slim Gaillard, Slam Stewart and Bud Green"

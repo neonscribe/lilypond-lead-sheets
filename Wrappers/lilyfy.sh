@@ -113,7 +113,7 @@ for file in *.ly; do
     else
 	lilypond "$file"
 	if [ $? -eq 0 ]; then
-	    mv "${file%.ly}.pdf" "../"
+	    mv "${file%.ly}.pdf" "../Others/"
 	fi
     fi
 done

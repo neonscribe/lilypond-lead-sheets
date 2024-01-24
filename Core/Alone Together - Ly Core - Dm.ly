@@ -18,7 +18,7 @@ A -- bove the world, __ we're not too proud
 to cling __ to -- ge -- ther, __ we're strong
 as long as we're __ to -- ge -- ther. __
 
-A get -- ther. __ Our
+"A -" get -- ther. __ Our
 
 love __ is as deep as the sea. __
 Our love __ is as great as a love __ can be,
@@ -30,7 +30,7 @@ refrainLyricsTwo = \lyricmode {
 _ lone __ to -- ge -- ther, __ the blind -- ing rain, __
 The star -- less night, __ were not in vain. __
 For we're __ to -- ge -- ther __ and what is there
-To fear __ to
+To fear __ "to -"
 }
 
 refrainChords = \chordmode {

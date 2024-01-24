@@ -10,6 +10,7 @@ mkdir -p 'Baritone Voice/Bass'
 mkdir -p 'Baritone Voice/Bb'
 mkdir -p 'Baritone Voice/Eb'
 
+mkdir -p Others
 mkdir -p Book
 mkdir -p Midi
 
