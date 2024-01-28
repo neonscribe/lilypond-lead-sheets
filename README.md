@@ -49,3 +49,7 @@ typesetting in general here. The shell script `makebook.sh` processes
 each of the `.tex.` files that match a given prefix, running `latex`
 twice to make sure the table of contents is correct. The output goes
 to the `Book` folder.
+
+Here's an example of the output:
+
+![At Sundown lead sheet](At Sundown - Ly - F Standard.png "At Sundown lead sheet")
