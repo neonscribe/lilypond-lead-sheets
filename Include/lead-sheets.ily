@@ -8,5 +8,6 @@
 \include "presets.ily"
 \include "utilities.ily"
 \include "swing.ly"
+\include "parens.ily"
 
 \version "2.22"

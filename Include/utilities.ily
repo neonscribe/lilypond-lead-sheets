@@ -82,7 +82,7 @@ sect =
       ((> a 2) (set! a (- a 4)) (set! n (+ n 1)))
       ((< a -2) (set! a (+ a 4)) (set! n (- n 1))))
     ;; We do not mess with c flat, b sharp, etc.
-     (cond
+     '(cond
       ;; Avoid b sharp and e sharp
       ((and (> a 1) (or (eq? n 6) (eq? n 2)))
        (set! a (- a 2))

@@ -9,24 +9,33 @@
   subtitle = \instrument
   poet = "Ira Gershwin"
   composer = "George Gershwin"
-  copyright = "© 1930 New World Music Corp."
+  copyright = "© 1930 New World Music Corporation"
 }
 
 refrainLyrics = \lyricmode {
+Em -- brace me, My sweet em -- brace -- a -- ble you. __
+Em -- brace me, You ir -- re -- place -- a -- ble you. __
+Just one look at you, my heart grew tip -- sy in me. __
+You and you a -- lone bring out the gyp -- sy in me. __
+I love all the man -- y charms a -- bout you. __
+A -- bove all I want my arms a -- bout you. __
+Don't be a naught -- y ba -- by, Come to pa -- pa,
+Come to pa -- pa, do!
+My sweet em -- brace -- a -- ble you.
 }
 
 refrainChords = \chordmode {
   g1:6 bf1:dim7 a1:m7 d2:7 b4:m7.5- e4:7.9-
   a1:m7 c2:m6 f2:9 g2:maj7 a4:m7 bf4:dim7 g2:6 c4:7 b4:7
   
-  e2:m e2:m7+ e2:m7 e2:m6 b2:m7 x2 x2:m7.5- x2
-  fs2:m7 x2 x4 x4 ef2:7 x1:sus d2:7 af2:9.11+
+  e2:m e2:m7+ e2:m7 e2:m6 b2:m7 b2:m7/a gs2:m7.5- g2:m6
+  fs2:m7 b2:7.5+ e2:m7 a4:9 ef4:7 d1:sus7 d2:7 af2:9.11+
 
   g1:6 bf1:dim7 a1:m7 d2:7 b4:m7.5- e4:7.9-
   a1:m7 c2:m6 f2:9 g1:maj7 d2:m7 g2:7.5+
   
   c1:maj7 fs2:m7.5- b2:7 e2:m e2:m/d cs2:m7.5- c2:m6
-  b2:m7 e2:7.90 a2:m7.5- d2:7 g1:6
+  b2:m7 e2:7.9- a2:m7.5- d2:7 g1:6
   \chordOpenParen{ a2:m7 }
   \chordCloseParen{ d2:7 }
 }
@@ -37,29 +46,36 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 120
+  \tempo "Ballad" 4 = 100
 
   \mark \markup{ \box "A1" }
   
   r4 e4 fs4 g4 | r4 e4 fs4 g4 | a8 r8 r8 d,8 d4 d4~ | d1 |
-  r4 a4 b4 c4 | r4 a4 b4 c4 | d8 r8 r8 g,8 g4 g4~ | g1 |
+  r4 a'4 b4 c4 | r4 a4 b4 c4 | d8 r8 r8 g,8 g4 g4~ | g1 |
   
   \bar "||"
   \break
 
   \mark \markup{ \box "B" }
   
-  b4 g4 a4 g4 | b4 g4 a4 g4 | b8 r8 r8 fs8
+  b4 g4 b4 g4 | b4 g4 b4 g4 | b8 r8 r8 fs8 fs4 fs4~ | fs1 |
+  a4 fs4 a4 fs4 | g4 a4 b4 cs4 | d8 r8 r8 d,8 d4 d4~ | d1 |
   
   \bar "||"
   \break
 
   \mark \markup{ \box "A2" }
   
+  r4 e4 fs4 g4 | r4 e4 fs4 g4 | a8 r8 r8 d,8 d4 d4~ | d1 |
+  r4 a'4 b4 c4 | r4 a4 b4 c4 | d8 r8 r8 g,8 g4 g4~ | g1 |
+  
   \bar "||"
   \break
 
   \mark \markup{ \box "C" }
+  
+  r4 d'4 c4 b4 | c4 b4 a4 b4 | r4 g8 g8 g8 g8 g8 g8 | g8 g8 b2. |
+  r4 b4 c4 d4 | ef8 r8 r8 g,8 fs2 | g1~ | g4 r4 r2 |
 
   \bar "|."
 }
