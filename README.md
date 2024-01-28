@@ -52,4 +52,5 @@ to the `Book` folder.
 
 Here's an example of the output:
 
-![At Sundown lead sheet](At Sundown - Ly - F Standard.png "At Sundown lead sheet")
+![At Sundown - Ly - F Standard](https://github.com/neonscribe/lilypond-lead-sheets/assets/11048418/7436116d-9c73-49ba-96fb-a761ad6b1ebe)
+
