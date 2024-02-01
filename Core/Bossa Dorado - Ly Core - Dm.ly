@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
 
   a,8 f'8 a,8 f'8~ f2 | r8 a,8 a'8 bf8 a8 f8 d8 a8 | gs8 f'8 gs,8 e'8~ e2 | r8 gs,8 f'8 gs,8 f'8 gs,8 f'8 gs,8 |
   \break
-  g8 f'8 g,8 e'8~ e2 | r8 g8 g8 f8 g8 g8 f8 d8~ | d1-"- play outro last time" | r1 |
+  g8 f'8 g,8 e'8~ e2 | r8 g8 g8 f8 g8 g8 f8 d8~ | d1-"play outro last time" | r1 |
   
   \bar "|."
 }

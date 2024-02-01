@@ -6,4 +6,4 @@ instrument = "Alto Voice Key"
 whatKey = g
 whatClef = "treble"
 
-\include "../Core/Triste - Ly Core - A.ly"
+\include "../Core/Triste - Ly Core - Bb.ly"

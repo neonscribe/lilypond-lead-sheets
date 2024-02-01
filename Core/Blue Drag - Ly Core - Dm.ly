@@ -136,8 +136,17 @@ outroMelody = \relative f {
   \vspace #1
 }
 
+$(if (defined? 'introKeyOverride)
+  (set! whatKey introKeyOverride))
+
 \include "../Include/intro.ily"
 
+$(if (defined? 'refrainKeyOverride)
+  (set! whatKey refrainKeyOverride))
+
 \include "../Include/refrain.ily"
+
+$(if (defined? 'outroKeyOverride)
+  (set! whatKey outroKeyOverride))
 
 \include "../Include/outro.ily"

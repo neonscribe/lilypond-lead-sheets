@@ -83,10 +83,10 @@ refrainMelody = \relative c' {
     \new Voice
     { \voiceTwo
       \magnifyMusic 0.63 {
-	e'8\rest e4. f4 fs8 g8 }
+	e8\rest e4. f4 fs8 g8 }
     }
     { \voiceOne
-      e,1 
+      e1 
     }
   >>
   \oneVoice
@@ -96,10 +96,10 @@ refrainMelody = \relative c' {
     \new Voice
     { \voiceTwo
       \magnifyMusic 0.63 {
-	g'8\rest g4. fs4 f8 e8 }
+	g8\rest g4. fs4 f8 e8 }
     }
     { \voiceOne
-      e,1
+      e1
     }
   >>
   \oneVoice
@@ -115,10 +115,10 @@ refrainMelody = \relative c' {
     \new Voice
     { \voiceTwo
       \magnifyMusic 0.63 {
-	e'8\rest e4. f4 fs8 g8 }
+	e8\rest e4. f4 fs8 g8 }
     }
     { \voiceOne
-      e,1 
+      e1 
     }
   >>
   \oneVoice
@@ -128,10 +128,10 @@ refrainMelody = \relative c' {
     \new Voice
     { \voiceTwo
       \magnifyMusic 0.63 {
-	g'8\rest g4. fs4 f8 e8 }
+	g8\rest g4. fs4 f8 e8 }
     }
     { \voiceOne
-      e,1
+      e1
     }
   >>
   \oneVoice
@@ -155,10 +155,10 @@ refrainMelody = \relative c' {
     \new Voice
     { \voiceTwo
       \magnifyMusic 0.63 {
-	e'8\rest e4. f4 fs8 g8 }
+	e8\rest e4. f4 fs8 g8 }
     }
     { \voiceOne
-      e,1 
+      e1 
     }
   >>
   \oneVoice

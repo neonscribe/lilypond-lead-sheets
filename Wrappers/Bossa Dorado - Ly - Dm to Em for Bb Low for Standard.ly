@@ -3,7 +3,7 @@
 \include "english.ly"
 
 instrument = "Bb Low for Standard Key"
-whatKey = e
+whatKey = e,
 whatClef = "treble"
 
 \include "../Core/Bossa Dorado - Ly Core - Dm.ly"

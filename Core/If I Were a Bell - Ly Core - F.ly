@@ -57,12 +57,12 @@ refrainMelody = \relative f' {
     <<
       \new Voice
       { \voiceTwo
-	\ottava #2
+	\ottava #1
 	a''2 f2 | g2 c,2 | c2 g'2 | a2 f2 | a2 f2 | g2 c,2 | c2 g'2 | a2 f2 |
       }
 
       { \voiceOne
-	s1 | s1 | s1 | s1 | s1 | s1 | s1 | r2 a4 a4 |
+	s1 | s1 | s1 | s1 | s1 | s1 | s1 | r2 a,4 a4 |
       }
     >>
   \oneVoice
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \mark \markup{ \box "A1" }
   
   \ottava #0
-  a,,8 f8 f8 f8~ f8 a4 a8 | a8 f8 g4 a8 f8 g4 | a4. c,8~ c2~ | c4 r4 c'4 c4 |
+  a,8 f8 f8 f8~ f8 a4 a8 | a8 f8 g4 a8 f8 g4 | a4. c,8~ c2~ | c4 r4 c'4 c4 |
   \break
   c8 a8 a8 a8~ a8 c8 c8 c8~ | c8 a8 a8 a8~ a8 c8 a4 | d4. g,8~ g2~ | g2 r8 a4 g8 |
   

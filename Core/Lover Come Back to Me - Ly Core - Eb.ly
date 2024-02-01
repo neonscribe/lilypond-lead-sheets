@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+#(set-global-staff-size 18)
+
 \include "../Include/lead-sheets.ily"
 
 \header {
@@ -148,7 +150,7 @@ refrainMelody = \relative f' {
   } }
 
   \bar "||"
-  \pageBreak
+  % \pageBreak
 
   \mark \markup{ \box "B" }
 

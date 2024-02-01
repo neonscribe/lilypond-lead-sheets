@@ -4,6 +4,6 @@
 
 instrument = "Bb for Standard Key"
 whatKey = d
-whatClef = treble
+whatClef = "treble"
 
 \include "../Core/Night and Day - Ly Core - C.ly"
