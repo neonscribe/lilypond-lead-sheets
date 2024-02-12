@@ -9,7 +9,9 @@ Bash shell. Shell scripts, with .sh extensions, all begin with `#!/bin/bash`
 
 LilyPond 2.24
 
-LaTeX
+LuaLaTeX
+
+I use the widely available Symbola font in LuaLaTeX to obtain sharp and flat glyphs.
 
 That's about it. I use MacTeX for my TeX installation, and Homebrew
 for LilyPond. Bash is included in MacOS as an alternative to zsh.
@@ -52,5 +54,6 @@ to the `Book` folder.
 
 Here's an example of the output:
 
-![At Sundown - Ly - F Standard](https://github.com/neonscribe/lilypond-lead-sheets/assets/11048418/7436116d-9c73-49ba-96fb-a761ad6b1ebe)
+![At Sundown - Ly - F Standard](https://github.com/neonscribe/lilypond-lead-sheets/assets/11048418/18384623-0b43-45c4-b978-1d39b1dd6228)
+
 
