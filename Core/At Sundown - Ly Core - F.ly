@@ -39,6 +39,22 @@ refrainiRealChords = \chordmode {
   \chordCloseParen{ c2:7 }
 }
 
+refrainHLChords = \chordmode {
+  s2
+
+  g1:m7 c1:7 f2:6 bf2:7 a2:m7 d2:7
+  g1:m7 c1:7 f1:6 f2:6 ef2:7
+  d1:7 d1:7 g1:7 g1:7
+  c1:7 c2:7 c2:7.5+ f1:6 f2:6 d2:7
+
+  g1:m7 c1:7 f2:6 bf2:7 a2:m7 d2:7
+  g1:m7 c1:7 f1:6 f2:6 ef2:7
+  d1:7 d1:7 g1:7 g1:7
+  g1:m7 c1:7 f1:6
+  \chordOpenParen{ a2:m7 }
+  \chordCloseParen{ d2:7 }
+}
+
 refrainFHChords = \chordmode {
   s2
 
@@ -55,7 +71,7 @@ refrainFHChords = \chordmode {
   \chordCloseParen{ c2:7 }
 }
 
-refrainChords = \refrainiRealChords
+refrainChords = \refrainHLChords
 
 refrainKey = f
 
@@ -70,36 +86,36 @@ refrainMelody = \relative f'' {
 
   \mark \markup{ \box "A1" }
   
-  d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f4. d8~ d2~ | d4 r4 c'8 b8 c8 cs8 |
+  d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f2 d2~ | d2 c'8 b8 c8 cs8 |
   \break
-  d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f4. d8~ d2~ | d4 r4 r2 |
+  d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f2 d2~ | d2 r2 |
   
   \bar "||"
   \break
 
   \mark \markup{ \box "B" }
   
-  d2 fs4 a4 | c2 b4 c4 | e4. b8~ b2~ | b2 e2 |
+  d2 fs4 a4 | c2 b4 c4 | e2 b2~ | b2 e2 |
   \break
-  d4. e,8~ e2~ | e2 e'2 | d4. a8~ a2~ | a4 r4 c8 b8 c8 cs8 |
+  d2 e,2~ | e2 e'2 | d2 a2~ | a2 c8 b8 c8 cs8 |
   
   \bar "||"
   \break
 
   \mark \markup{ \box "A2" }
   
-  d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f4. d8~ d2~ | d4 r4 c'8 b8 c8 cs8 |
+  d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f2 d2~ | d2 c'8 b8 c8 cs8 |
   \break
-  d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f4. d8~ d2~ | d4 r4 r2 |
-
+  d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f2 d2~ | d2 r2 |
+  
   \bar "||"
   \break
 
   \mark \markup{ \box "C" }
 
-  d2 fs4 a4 | c2 b4 c4 | e4. b8~ b2~ | b2 e2 |
+  d2 fs4 a4 | c2 b4 c4 | e2 b2~ | b2 e2 |
   \break
-  d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f1~ | f2. r4 |
+  d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f1 | r1 |
 
   \bar "|."
 }

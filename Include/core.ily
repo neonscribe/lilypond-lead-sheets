@@ -26,7 +26,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing"
+  \tempo "Medium" 4 = 120
 
   \mark \markup{ \box "A1" }
   

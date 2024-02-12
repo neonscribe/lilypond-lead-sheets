@@ -1,4 +1,6 @@
 \documentclass{book}
+\usepackage{fontspec}
+\setmainfont{symbola}
 \usepackage[margin=0.5in]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr,bookmark,pdfpages,tocloft,nextpage}
@@ -8,8 +10,6 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 \fancyhead[LO,RE]{\thepage}}
-\pdfminorversion=7
-\pdfinclusioncopyfonts=1
 
 \let\origevenpage\cleartoevenpage
 \newcommand{\clearemptytoevenpage}{%
@@ -56,7 +56,7 @@
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Hawaii Five-O Theme - Ly - Cm Standard"}
 
 \phantomsection
-\addcontentsline{toc}{section}{Here Comes the Bride - Bb}
+\addcontentsline{toc}{section}{Here Comes the Bride - B♭}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Here Comes the Bride - Ly - Bb Standard"}
 
 \phantomsection
@@ -82,7 +82,7 @@
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Jesusita in Chihuahua - Ly - G Standard"}
 
 \phantomsection
-\addcontentsline{toc}{section}{Just My Kind - Ab}
+\addcontentsline{toc}{section}{Just My Kind - A♭}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Just My Kind - Ly - Ab Standard"}
 
 \phantomsection
@@ -116,7 +116,7 @@
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Sleepwalk - Ly - C Standard"}
 
 \phantomsection
-\addcontentsline{toc}{section}{Star Trek - Bb}
+\addcontentsline{toc}{section}{Star Trek - B♭}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Star Trek - Ly - Bb Standard"}
 
 \phantomsection
@@ -146,7 +146,7 @@
 \clearemptytoevenpage
 
 \phantomsection
-\addcontentsline{toc}{section}{You Don't Know Me - Eb}
+\addcontentsline{toc}{section}{You Don't Know Me - E♭}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/You Don't Know Me - Ly - Eb Standard"}
 
 

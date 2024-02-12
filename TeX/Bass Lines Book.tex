@@ -1,4 +1,6 @@
 \documentclass{book}
+\usepackage{fontspec}
+\setmainfont{symbola}
 \usepackage[margin=0.5in]{geometry}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr,bookmark,pdfpages,tocloft,nextpage}
@@ -8,8 +10,6 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 \fancyhead[LO,RE]{\thepage}}
-\pdfminorversion=7
-\pdfinclusioncopyfonts=1
 
 \let\origevenpage\cleartoevenpage
 \newcommand{\clearemptytoevenpage}{%
@@ -41,10 +41,10 @@
 
 \phantomsection
 \addcontentsline{toc}{section}{Starting A Rumor - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass Line/Starting A Rumor - Ly - G Bass Line for Standard'}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass Line/Starting A Rumor - Ly - G Bass Line for Standard"}
 
 \phantomsection
 \addcontentsline{toc}{section}{The Bottle Never Lets Me Down - Em}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass Line/The Bottle Never Lets Me Down - Ly - Em Bass Line for Standard''}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass Line/The Bottle Never Lets Me Down - Ly - Em Bass Line for Standard"}
 
 \end{document}
