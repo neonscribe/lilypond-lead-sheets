@@ -192,3 +192,18 @@ tiedNoteToSkip = #(define-music-function (music) (ly:music?)
                     (if old-flag (skip-of-length evt) res))))          
            (else (ly:music-property music 'duration #f)))) 
     music)))
+
+
+glissDown =
+#(define-music-function (note)
+  (ly:music?)
+  "Contemporary glissando down"
+  #{
+  \override Glissando.style = #'zigzag
+    \cadenzaOn
+  #note
+  \hideNotes
+  c,,4
+  \unHideNotes
+  \cadenzaOff
+  #})

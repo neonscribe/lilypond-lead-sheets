@@ -7,44 +7,43 @@
       \override ChordName.font-size = #+3
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
-     \transpose \refrainKey \whatKey {
-       \refrainChords
+     \transpose \introKey \whatKey {
+       \introChords
 	}
       }
       }
     \new Staff {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
-	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
-	  \refrainMelodyOne
+	\noDoubleAccidentalMusic \transpose \introKey \whatKey {
+	  \introMelody
 	  }
 	}
     }
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
-      \refrainMelodyOne
+      \noDoubleAccidentalMusic \transpose \introKey \whatKey {
+      \introMelody
       } }
       #} )
     \new Lyrics \lyricsto "voiceMelody"
     {
-      \refrainLyrics
+      \introLyrics
     }
     \new Staff {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
-	\transpose \refrainKey \whatKey {
-	  \refrainMelodyTwo
-	  }
+	% Don't transpose bass line
+	  \introBass
 	}
     }
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
-      \refrainMelodyTwo
-      } }
+	% Don't transpose bass line
+      \introBass
+      }
       #} )
   >>
   \layout { ragged-bottom = ##t ragged-right = ##f }
@@ -58,44 +57,43 @@
       \override ChordName.font-size = #+3
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
-     \transpose \refrainKey \whatKey {
-       \refrainChords
+     \transpose \introKey \whatKey {
+       \introChords
 	}
       }
       }
     \new Staff \with {midiInstrument = "overdriven guitar"} {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
-	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
-	  \refrainMelodyOne
+	\noDoubleAccidentalMusic \transpose \introKey \whatKey {
+	  \introMelody
 	  }
 	}
     }
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
-      \refrainMelodyOne
+      \noDoubleAccidentalMusic \transpose \introKey \whatKey {
+      \introMelody
       } }
       #} )
     \new Lyrics \lyricsto "voiceMelody"
     {
-      \refrainLyrics
+      \introLyrics
     }
     \new Staff \with {midiInstrument = "brass section"} {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
-	\transpose \refrainKey \whatKey {
-	  \refrainMelodyTwo
-	  }
+	% Don't transpose bass line
+	  \introBass
 	}
     }
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
-      \refrainMelodyTwo
-      } }
+	% Don't transpose bass line
+      \introBass
+      }
       #} )
   >>
   \midi{}

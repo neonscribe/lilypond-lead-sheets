@@ -32,20 +32,13 @@ refrainChords = \chordmode {
   d1:m c1 d1:m f1
   d1:m c1 f1 a1:7
   d1:m d1:m g1 bf2 c2
-  d1:m c4 s2. d1:m c1 d1:m
+  d1:m c4 r2. d1:m c1 d1:m
 }
 
 refrainKey = c
 refrainKeyTwo = cs
 refrainKeyThree = d
 
-bandBreak =
-#(define-music-function (expr) (ly:music?)
-  "mark a break in the music where the band drops out"
-  #{ \ottava #1
-     \set Staff.ottavation = #"break"
-     \transpose c c'' { \relative f' { #expr } }
-     \ottava #0 #})
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -86,7 +79,7 @@ refrainMelody = \relative f' {
   c4. g8~ g2 | r4 g8 g8 f8 bf4 g8~ | g1 | r4 g8 g8 bf8 d4 c8~ |
   c4. g'8~ g2 | r4 f8 f8 d8 bf8 r8 g'8~ | g1~ | g1 |
   r4 af4 g8 f8 ef8 c8 | g8 f8 ef8 c8~ c2 | r4 c''4 a8 g8 f8 d8 | c8 bf8 af8 bf8~ bf8 c8 d4 |
-  c4. g'8~ g2 | r4 \bandBreak { f8 f8 d8 bf4 } \relative f'' { c8~ | c1 | r4 f8 f8 d8 f8 bf8 c8~ | c1 | }
+  c4. g'8~ g2 | r4 f8 f8 d8 bf4 c8~ | c1 | r4 f8 f8 d8 f8 bf8 c8~ | c1 |
   } }
 
   \bar "|."

@@ -4,6 +4,7 @@
   indent = 0.
   tagline = ""
   ragged-bottom = ##t
+  ragged-right = ##f
   oddHeaderMarkup = \markup { 
     \fill-line 
     { 

@@ -33,5 +33,5 @@
     }
       #} )
   >>
-  \midi{} \layout { ragged-bottom = ##t }
+  \midi{} \layout { ragged-bottom = ##t ragged-right = ##f }
 }

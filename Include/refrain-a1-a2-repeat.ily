@@ -43,7 +43,7 @@
       >>
     }
   >>
-  \layout { ragged-bottom = ##t }
+  \layout { ragged-bottom = ##t ragged-right = ##f }
 }
 
 \score {
