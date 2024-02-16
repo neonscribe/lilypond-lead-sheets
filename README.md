@@ -1,9 +1,12 @@
 # lilypond-lead-sheets
+
 Create lead sheets using LilyPond and TeX
 
 This supercedes the lilypond-hacks repository.
 
 ## Requirements
+
+Python3.
 
 Bash shell. Shell scripts, with .sh extensions, all begin with `#!/bin/bash`
 
@@ -11,7 +14,11 @@ LilyPond 2.24
 
 LuaLaTeX
 
-I use the widely available Symbola font in LuaLaTeX to obtain sharp and flat glyphs.
+There's a python script `Wrappers/makesheet.py` for generating
+boilerplate core and wrapper files.
+
+I use the widely available Symbola font in LuaLaTeX to obtain sharp
+and flat glyphs.
 
 That's about it. I use MacTeX for my TeX installation, and Homebrew
 for LilyPond. Bash is included in MacOS as an alternative to zsh.
@@ -24,7 +31,7 @@ for PDF and MIDI files.
 The LilyPond code that specifies the overall layout, lyrics, chords
 and melody for each song is found in the `Core` folder.
 
-Modularity in this LilyPond code is achieved by using named variables
+Modularity in this LilyPond code base is achieved by using named variables
 as parameters and `\include` files that refer to those parameters. The
 top level code is in the `Wrappers` folder. Each file in `Wrappers`
 includes a file in `Core` that does most of the work.
@@ -42,8 +49,8 @@ script `lilyfy.sh` processes all the files in `Wrappers`. The
 destination folder of each PDF is determined by the name of the file.
 
 I chose to use `english.ly` note naming in LilyPond. Chord names use
-the Brandt and Roemer standard, as seen in the Sher Music New Real
-Books.
+the Brandt and Roemer standard, approximatey what is used in the Sher
+Music New Real Books.
 
 The `TeX` folder has LaTeX files that assemble PDF files and create
 a table of contents. There's nothing specific to LilyPond or music
