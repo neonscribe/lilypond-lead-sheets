@@ -12,7 +12,7 @@
 	}
       }
       }
-    \new Staff \with {midiInstrument = "overdriven guitar"} {
+    \new Staff {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \introKey \whatKey {
@@ -48,7 +48,7 @@
 	}
       }
       }
-    \new Staff {
+    \new Staff \with {midiInstrument = "overdriven guitar"} {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \introKey \whatKey {

@@ -5,6 +5,8 @@
     { \context ChordNames 
       {
       \override ChordName.font-size = #+3
+      $(if (and (defined? 'chordSize) chordSize)
+	#{ \override ChordName.font-size = \chordSize #} )
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
      \transpose \refrainKey \whatKey {

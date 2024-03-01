@@ -190,14 +190,14 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-fretDiagrams = \chordmode {
+chordDiagrams = \chordmode {
   a:m6 s af:dim7.13- s g:m6 s c:9 s f:maj7 s f:m6 s e:m7
   a:m7 g:m7 c:sus9 f:6 f:m7 s bf:9 s
   e:7.9- s a:7.9- s d:m7 s g:sus9 s g:7.9- a:7.9-.13- s af:dim7
 }
 
 %%% Only with the Bossa Songbook chords
-%%% \include "../Include/fret-diagrams.ily"
+%%% \include "../Include/chord-diagrams.ily"
 
 \markup {
   %% Leave a gap after the fret diagrams

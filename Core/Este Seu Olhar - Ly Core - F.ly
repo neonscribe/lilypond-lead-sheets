@@ -92,11 +92,8 @@ refrainMelody = \relative f' {
 \include "../Include/refrain-two-verses.ily"
 
 
-fretDiagrams =
-#(if (and (defined? 'guitarChords) guitarChords)
-  #{
-  \chordmode {
-  f:maj7 fs:dim7 g:m7 gs:dim7
+chordDiagrams = \chordmode {
+  f1:maj7 fs:dim7 g:m7 gs:dim7
   a:m7 a:7.13- bf:maj7 bf:m6
 
   f:maj7/a af:dim7 c:7/bf
@@ -104,16 +101,11 @@ fretDiagrams =
 
   c:m7/g
   g:13 g:7.13- c:7.9-
-} #} #{
-  \chordmode {
-  s4
 }
-  #}
-  )
 
 \markup {
   % Leave a gap after the refrain
   \vspace #2
 }
 
-\include "../Include/fret-diagrams.ily"
+\include "../Include/chord-diagrams.ily"

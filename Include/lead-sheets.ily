@@ -2,6 +2,8 @@
 
 \pointAndClickOff
 
+printNoteNames = #(ly:get-option 'print-note-names)
+
 \include "jazz-chords.ily"
 \include "modern-codas.ily"
 \include "english.ly"

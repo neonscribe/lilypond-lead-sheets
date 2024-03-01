@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+#(define-bar-line "||-:|." ":|." "||" ".|")
+
 #(define (begin-parenthesis-ignatzek-chord-names in-pitches bass inversion context)
    (markup #:line ("(" (ignatzek-chord-names in-pitches bass inversion context))))
 
@@ -156,7 +158,7 @@ noDoubleAccidentalMusic =
      (ly:music-set-property! music 'pitch p)))
    music))
 
-naturalizeMusic = #(define-music-function (m) (ly:music?) (naturalize m))
+naturalizeMusic = #(define-music-function (m) (ly:music?) (no-double-accidental m))
 
 startParenthesis = {
   \once \override Parentheses.font-size = 5

@@ -212,6 +212,9 @@ jazzChordsMusic =
 	<c ees g bes d' f'>-\markup{ \jcMinor \jcEleventh }
 	<c ees ges bes d' f'>-\markup{ \jcMinor \jcSeventh \jcFlatFive \jcRaise{ "(11)" } }
 
+	% So What
+	<c f bes ees' g'>-\markup{ \jcMinor \jcSeventh \jcRaise{ "(ADD 4)" } } 
+
 	%% Thirteens
 	
 	<c e g b d' f' a'>-\markup{ \jcMajor \jcThirteenth }
@@ -290,7 +293,7 @@ jazzChordsAdd = #(append
 
 #(define (chord-name->jazz-markup pitch lowercase?)
 
-  (let* ((pitch (naturalize-pitch pitch))
+  (let* ((pitch (no-double-accidental-pitch pitch))
 	 (alt (ly:pitch-alteration pitch)))
 
   (make-line-markup

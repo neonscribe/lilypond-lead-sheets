@@ -15,14 +15,13 @@ introLyrics = \lyricmode {
 
 introChords = \chordmode {
   s8
-  s4 s8 df8:7.9+ df2:7.9+ df2:7.9+ s2
-  s4 s8 c8:7.9+ c2:7.9+ c2:7.9+ s2
-  s4 s8 df8:7.9+ df2:7.9+ df2:7.9+ s2
-  s4 s8 c8:7.9+ c2:7.9+ c2:7.9+ s2
+  s4 s8 df8*9:7.9+ s2
+  s4 s8 c8*9:7.9+ s2
+  s4 s8 df8*9:7.9+ s2
+  s4 s8 c8*9:7.9+ s2
 }
 
-introGuitar = {
-  \time 4/4
+introKicksOverTime = {
   \partial 8 s8 |
   r4 r8 df8~ df2~ | df2 r2 | r4 r8 c8~ c2~ | c2 r2 |
   r4 r8 df8~ df2~ | df2 r2 | r4 r8 c8~ c2~ | c2 r2 |
@@ -36,7 +35,7 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 130
 
-  \mark \markup{ "Intro" }
+  \mark \markup{ \box "Intro" }
   
   \partial 8 a8 |
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 a'8 |
@@ -45,32 +44,32 @@ introMelody = \relative f' {
   \bar "|."
 }
 
-endingLyrics = \lyricmode {
+outroLyrics = \lyricmode {
 }
 
-endingChords = \chordmode {
+outroChords = \chordmode {
   s8
-  s4 s8 df8:7.9+ df2:7.9+ df2:7.9+ s2
-  s4 s8 c8:7.9+ c2:7.9+ c2:7.9+ s2
-  s4 s8 df8:7.9+ df2:7.9+ df2:7.9+ s2
-  s4 s8 c8:7.9+ c2:7.9+ c2:7.9+ s2
+  s4 s8 df8*9:7.9+ s2
+  s4 s8 c8*9:7.9+ s2
+  s4 s8 df8*9:7.9+ s2
+  s4 s8 c8*5:7.9+ s1
 }
 
-endingGuitar = {
+outroKicksOverTime = {
   \time 4/4
   \partial 8 s8 | r4 r8 df8~ df2~ | df2 r2 | r4 r8 c8~ c2~ | c2 r2 |
   r4 r8 df8~ df2~ | df2 r2 | r4 r8 c8~ c2\fermata | r1 |
 }
 
-endingKey = af
+outroKey = af
 
-endingMelody = \relative f' {
+outroMelody = \relative f' {
   \time 4/4
   \key af \major
   \clef \whatClef
   \tempo "Medium" 4 = 130
 
-  \mark \markup{ "Ending" }
+  \mark \markup{ \box "Outro" }
   
   \partial 8 a8 |
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 a'8 |
@@ -87,11 +86,11 @@ endingMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/intro-with-guitar.ily"
+\include "../Include/intro-with-kicks.ily"
 
 \markup {
   % Leave a gap between
   \vspace #4
 }
 
-\include "../Include/ending-with-guitar.ily"
+\include "../Include/outro-with-kicks.ily"
