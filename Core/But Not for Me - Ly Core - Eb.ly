@@ -1,8 +1,10 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
+
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 18) #}
+)
 
 \header {
   title = "But Not for Me"

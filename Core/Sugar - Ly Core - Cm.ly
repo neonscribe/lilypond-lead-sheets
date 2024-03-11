@@ -139,7 +139,7 @@ refrainKicksOverTime = \relative f' {
   \vspace #1
 }
 
-\include "../Include/intro-with-bass.ily"
+\include "../Include/intro-with-bass-no-note-names.ily"
 
 \include "../Include/refrain-with-kicks.ily"
 

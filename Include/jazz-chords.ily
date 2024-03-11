@@ -89,6 +89,8 @@ jazzChordsMusic =
 	
 	% major sept
 	<c e g b>-\markup{ \jcMajorSeventh }
+	<c e g a b>-\markup{ \jcMajorSeventh \jcRaise{ "(ADD 6)" } }
+	<c e g b fis'>-\markup{ \jcMajorSeventh \jcSharpEleventh }
 	<c e gis b>-\markup{ \jcAugmented \jcMajorSeventhModifier }
 	<c e ges b>-\markup\jcRaise{ \jcMajorSeventh \jcFlatFive }
 	

@@ -157,6 +157,13 @@ refrainMelody = \relative c'' {
 	  }
 	}
     }
+    $(if (and (defined? 'printNoteNames) printNoteNames)
+      #{ 
+      \new NoteNames \tiedNoteToSkip { 
+      \noDoubleAccidentalMusic \transpose c \whatKey {
+      \refrainMelody
+      } }
+      #} )
     \new Lyrics \lyricsto "voiceMelody"
     {
       <<

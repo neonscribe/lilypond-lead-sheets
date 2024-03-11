@@ -91,6 +91,8 @@ refrainMelody = \relative c'' {
   \bar "||"
   \break
 
+  \pageBreak
+  
   \mark \markup { \box "B" }
   ef8 f8 gf8 af8 c4. bf8 | af1 |
   \allowBreak
@@ -101,8 +103,6 @@ refrainMelody = \relative c'' {
   bf8 af8 gf8 bf,8 f'8 ef4. | ff'8 ef8 df8 bf8 ff'8 ef4. |
   \bar "||"
 
-  \pageBreak
-  
   \mark \markup { \box "A3" }
   c8 g8 e8 c8 b8 b'4. | bf8 f8 d8 bf8 a8 a'4. |
   \allowBreak

@@ -15,7 +15,7 @@
     \new Staff {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
-	\transpose \refrainKey \whatKey {
+	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody
 	  }
 	}
@@ -58,7 +58,7 @@
     \new Staff \with {midiInstrument = "overdriven guitar"} {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
-	\transpose \refrainKey \whatKey {
+	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody
 	  }
 	}

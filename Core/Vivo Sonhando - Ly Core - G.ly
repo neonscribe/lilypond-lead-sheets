@@ -178,6 +178,13 @@ normal = {
 	  }
 	}
     }
+    $(if (and (defined? 'printNoteNames) printNoteNames)
+      #{ 
+      \new NoteNames \tiedNoteToSkip { 
+      \noDoubleAccidentalMusic \transpose g \whatKey {
+      \refrainMelody
+      } }
+      #} )
     \new Lyrics \lyricsto "voiceMelody"
     {
     <<

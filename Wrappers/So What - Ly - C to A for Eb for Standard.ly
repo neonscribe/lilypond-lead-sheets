@@ -5,7 +5,7 @@
 \include "english.ly"
 
 instrument = "Eb for Standard Key"
-whatKey = a
+whatKey = a,
 whatClef = "treble"
 
 chordChart = ##t

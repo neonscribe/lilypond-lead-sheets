@@ -2,11 +2,11 @@
 
 % #(set-global-staff-size 18)
 
+\include "../Include/lead-sheets.ily"
+
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 17) #}
 )
-
-\include "../Include/lead-sheets.ily"
 
 \header {
   title = "Charade"

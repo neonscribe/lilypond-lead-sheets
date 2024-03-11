@@ -282,7 +282,7 @@ soloMelody = \relative f' {
 }
 
 
-\include "../Include/refrain.ily"
+\include "../Include/refrain-no-note-names.ily"
 \include "../Include/solo.ily"
 \include "../Include/coda.ily"
 

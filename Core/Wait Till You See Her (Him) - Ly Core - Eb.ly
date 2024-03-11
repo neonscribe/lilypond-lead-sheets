@@ -2,6 +2,10 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 16) #}
+)
+
 \header {
   title = "Wait Till You See Her (Him)"
   subtitle = \instrument

@@ -2,7 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-%%% SRB (alternate chords, also found in 557 Standards, based on Miles Davis-Gil Evans)
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 18) #}
+)
 
 \header {
   title = "Summertime"
@@ -23,6 +25,8 @@ refrainLyrics = \lyricmode {
   But till that morn -- in' __ there's a no -- thin' can harm you __
   With Dad -- dy and Mam -- my stand -- in' by. __
 }
+
+%%% SRB (alternate chords, also found in 557 Standards, based on Miles Davis-Gil Evans)
 
 refrainSRBChords = \chordmode {
   s2

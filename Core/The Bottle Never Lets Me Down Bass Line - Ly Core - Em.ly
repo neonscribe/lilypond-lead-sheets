@@ -2,6 +2,10 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 18) #}
+)
+
 \header {
   title = "The Bottle Never Lets Me Down"
   subtitle = "Bass Line from Sarah Shook's 2018 album Years"

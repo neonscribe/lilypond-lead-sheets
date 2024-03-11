@@ -1,8 +1,10 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
+
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 18) #}
+)
 
 \header {
   title = "Star Eyes"
@@ -100,7 +102,7 @@ refrainMelody = \relative f' {
   \break
 
   \textCoda
-  \bar ".|:"
+  \bar ".|:-|."
   \repeat volta 4 {
   ef,4-. r4 bf'4-. ef4-. | af,4-. r8 df8 r8 cf8 r8 ff,8 | 
   }

@@ -1,10 +1,14 @@
 %% -*- Mode: LilyPond -*-
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
+\include "../Include/lead-sheets.ily"
+
+$(if (string=? instrument "Alto Voice Key")
   #{ #(set-global-staff-size 18) #}
 )
 
-\include "../Include/lead-sheets.ily"
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 16) #}
+)
 
 \header {
   title = "I Cried for You"

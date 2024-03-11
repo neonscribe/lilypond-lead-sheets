@@ -2,6 +2,10 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 18) #}
+)
+
 \header {
   title = "Mood Indigo"
   subtitle = \instrument
@@ -51,7 +55,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Slow"
+  \tempo "Ballad" 4 = 85
 
   \mark \markup{ \box "A" }
   

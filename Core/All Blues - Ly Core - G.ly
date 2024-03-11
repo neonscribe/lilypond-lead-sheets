@@ -109,6 +109,4 @@ refrainBass = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-bass.ily"
-
-\markup { "First four bars of " \box { "Intro" } " vamp before solos." }
+\include "../Include/refrain-with-bass-no-note-names.ily"

@@ -2,6 +2,10 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 16) #}
+)
+
 \header {
   title = "Chega de Saudade (No More Blues)"
   subtitle = \instrument

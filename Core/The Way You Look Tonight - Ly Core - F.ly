@@ -226,7 +226,7 @@ codaMelody = \relative g' {
 
 \include "../Include/intro.ily"
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain-two-verses-no-note-names.ily"
 
 \include "../Include/coda.ily"
 

@@ -160,13 +160,13 @@ $(if (and (defined? 'chordChart) chordChart) #{
     {
       <<
   \new ChordNames
-  \noDoubleAccidentalMusic \transpose \refrainKey \whatKey { \chordDiagrams }
+  \transpose \refrainKey \whatKey { \chordDiagrams }
   $(if (and (defined? 'guitarChords) guitarChords)
     #{ \new FretBoards
-	  \noDoubleAccidentalMusic \transpose \refrainKey \whatKey { \chordDiagrams } #} )
+	  \transpose \refrainKey \whatKey { \chordDiagrams } #} )
   $(if (and (defined? 'notationChords) notationChords)
     #{ \new Staff 
-          \noDoubleAccidentalMusic \transpose \refrainKey \whatKey { \chordDiagrams } #} )
+          \transpose \refrainKey \whatKey { \chordDiagrams } #} )
       >>
       \layout {
         \context {

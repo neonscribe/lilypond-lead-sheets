@@ -4,6 +4,10 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 18) #}
+)
+
 \header {
   title = "I'll Feel a Whole Lot Better"
   subtitle = "Transcription of Chris Hillman's bass line on The Byrds' 1965 recording"

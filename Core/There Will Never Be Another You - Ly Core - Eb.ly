@@ -2,6 +2,10 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 18) #}
+)
+
 \header {
   title = "There Will Never Be Another You"
   subtitle = \instrument

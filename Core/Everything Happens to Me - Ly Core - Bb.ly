@@ -10,6 +10,10 @@
   copyright = "© 1941 Dorsey Bros. Music"
 }
 
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 18) #}
+)
+
 refrainLyricsPre = \lyricmode {
 I
 }

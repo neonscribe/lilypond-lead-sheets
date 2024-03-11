@@ -216,7 +216,13 @@ refrainMelody = \relative f'' {
 	  }
 	}
     }
-
+    $(if (and (defined? 'printNoteNames) printNoteNames)
+      #{ 
+      \new NoteNames \tiedNoteToSkip { 
+      \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+      \refrainMelody
+      } }
+      #} )
     \new Lyrics \lyricsto "voiceMelody"
     {
       \leftbrace

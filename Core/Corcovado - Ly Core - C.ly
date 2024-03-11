@@ -126,7 +126,9 @@ refrainMelody = \relative f' {
 	r2 \tuplet 3/2 {a4 b4 c4 } |
 	b8 a4 e4 d4 e8~ | e1~ |
 	e8 b4 e4 ef4 d8~ |  d2 \tuplet 3/2 { g4 a4 bf4 } |
-	a8 g4 c4 a4 g8~ | g4 a4~ \tuplet 3/2 { a4 d,4 c4 } |
+	a8 g4 c4 a4 g8~ | 
+	\break
+	g4 a4~ \tuplet 3/2 { a4 d,4 c4 } |
 	d2. c4 | d2 e2~ |
 	e2 \tuplet 3/2 { g4 d4 c4 } | d2 \tuplet 3/2 { c4 b4 c4 } |
 	b2. d4 |
@@ -135,7 +137,7 @@ refrainMelody = \relative f' {
 	\pageBreak
 	\set Score.currentBarNumber = #1
   
-	\bar ".|:"
+	\bar ".|:-||"
 
 	\mark \markup{ \box "A" }
 
@@ -207,4 +209,4 @@ chordDiagrams = \chordmode {
 refrainLyricsLanguageOne = \refrainPortugueseLyrics
 refrainLyricsLanguageTwo = \refrainEnglishLyrics
 
-\include "../Include/refrain-two-languages.ily"
+\include "../Include/refrain-two-lang-no-note-names.ily"

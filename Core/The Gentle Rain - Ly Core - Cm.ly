@@ -1,8 +1,15 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
+
+$(if (or (string=? instrument "Baritone Voice Key")
+      (string=? instrument "Bass for Standard Key"))
+  #{ #(set-global-staff-size 18) #}
+)
+
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  #{ #(set-global-staff-size 16) #}
+)
 
 \header {
   title = "The Gentle Rain"

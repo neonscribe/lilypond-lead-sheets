@@ -234,6 +234,13 @@ refrainMelody = \relative g' {
 	  }
 	}
     }
+    $(if (and (defined? 'printNoteNames) printNoteNames)
+      #{ 
+      \new NoteNames \tiedNoteToSkip { 
+      \noDoubleAccidentalMusic \transpose f \whatKey {
+      \verseMelody
+      } }
+      #} )
     #(if objectGenderMale #{
       \new Lyrics = "lyrics" {
       \lyricsto "voiceMelody" \verseLyricsM
@@ -266,6 +273,13 @@ refrainMelody = \relative g' {
 	  }
 	}
     }
+    $(if (and (defined? 'printNoteNames) printNoteNames)
+      #{ 
+      \new NoteNames \tiedNoteToSkip { 
+      \noDoubleAccidentalMusic \transpose f \whatKey {
+      \refrainMelody
+      } }
+      #} )
     #(if objectGenderMale #{
       \new Lyrics = "lyrics" {
       \lyricsto "voiceMelody" \refrainLyricsM

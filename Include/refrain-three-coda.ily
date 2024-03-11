@@ -15,11 +15,18 @@
     \new Staff {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
-	\transpose \refrainKey \whatKey {
+	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody
 	  }
 	}
     }
+    $(if (and (defined? 'printNoteNames) printNoteNames)
+      #{ 
+      \new NoteNames \tiedNoteToSkip { 
+      \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+      \refrainMelody
+      } }
+      #} )
     \new Lyrics \lyricsto "voiceMelody"
     {
       \refrainLyricsPre
@@ -58,7 +65,7 @@
     \new Staff \with {midiInstrument = "overdriven guitar"} {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
-	\transpose \refrainKey \whatKey {
+	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody
 	  }
 	}

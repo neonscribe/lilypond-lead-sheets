@@ -109,7 +109,7 @@ refrainMelody = \relative f' {
   f2 r8 af8 bf8 cf8~( | cf8 bf8~ bf2) af8 f8~ | f1 | r1 |
 
   \bar "||"
-  \break
+  \pageBreak
 
   \mark \markup{ \box "B" }
 
@@ -122,7 +122,6 @@ refrainMelody = \relative f' {
   bf2 r4 g8 b8~ | b2 r4 g8 c8~ | c4 d8 bf8~ bf4 c8 g8~ | g4 r4 r2 |
 
   \bar "||"
-  \pageBreak
 
   \mark \markup{ \box "A2" }
   

@@ -85,7 +85,7 @@
     \new Staff \with {midiInstrument = "brass section"} {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
-	\transpose \refrainKey \whatKey {
+	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelodyTwo
 	  }
 	}
