@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Tenor Madness - B♭ to G}
+\addcontentsline{toc}{section}{Tenor Madness - Bb to G}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Tenor Madness - Ly - Bb to G for Eb for Standard"}
 
 %}

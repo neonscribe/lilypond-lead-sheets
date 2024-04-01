@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   title = "Once I Loved (Amor Em Paz)"
   subtitle = \instrument
   poet = "Ray Gilbert"
-  composer = "Antonio Carlos Jobim"
+  composer = "Antônio Carlos Jobim"
   copyright = "© 1965 Ipanema Music"
 }
 

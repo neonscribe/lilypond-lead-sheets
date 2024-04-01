@@ -6,7 +6,7 @@
   title = "Corcovado (Quiet Nights of Quiet Stars)"
   subtitle = \instrument
   poet = "Gene Lees"
-  composer = "Antonio Carlos Jobim"
+  composer = "Antônio Carlos Jobim"
   copyright = "© 1960 Jobim Music Ltda."
 }
 

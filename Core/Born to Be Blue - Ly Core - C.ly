@@ -57,7 +57,7 @@ refrainLyricsRepThree = \lyricmode {
 'cause I was born to be blue.
 }
 
-refrainChords = \chordmode {
+refrainSRBChords = \chordmode {
   c2:9 df:9 c2:9 gf2:9.11+ f2:9 ef:9
   af2:maj7 g2:7.5+.9- c2:m7 df2:9.11+ c2:m7 f2:9
 
@@ -74,6 +74,23 @@ refrainChords = \chordmode {
   f2:m7 af4:9 g4:7.5+.9- c2:6
   \chordInsideParens{ df2:9 }
 }
+
+refrainHLChords = \chordmode {
+  c2:7 df2:7 c2:7 gf2:7.5- f2:7 ef2:7 af2:maj7 d4:m7.5- g4:7.9-
+  c2:m7 df2:7 d2:m7 f2:7
+  
+  f2:m7 af2:7.5- g2:7 g2:7.5+
+
+  f2:m7 af4:7 g4:7.5+ c1:6
+
+  af2:m7 df2:7 af2:m7 df2:7 af2:m7 df2:7 gf1:maj7
+  df2:m7 gf2:7 cf2:maj7 af2:m7 f2:m7 bf2:7 ef2:maj7 d4:m7.5- g4:7.5+
+
+  c2:7 df2:7 c2:7 gf2:7.5- f2:7 ef2:7 af2:maj7 d4:m7.5- g4:7.9-
+  c2:m7 df2:7 d2:m7 f2:7 f2:m7 af4:7 g4:7.5+ c2:6 \chordInsideParens{ g2:7.5+ }
+}
+
+refrainChords = \refrainHLChords
 
 refrainKey = c
 

@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Four - E♭}
+\addcontentsline{toc}{section}{Four - Eb}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Four - Ly - Eb Standard"}
 
 %}

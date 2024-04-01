@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Tea for Two - A♭}
+\addcontentsline{toc}{section}{Tea for Two - Ab}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Tea for Two - Ly - Ab Standard"}
 
 %}

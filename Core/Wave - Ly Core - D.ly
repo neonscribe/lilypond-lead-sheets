@@ -12,7 +12,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   title = "Wave"
   subtitle = \instrument
   poet = ""
-  composer = "Antonio Carlos Jobim"
+  composer = "Antônio Carlos Jobim"
   copyright = "© 1967 Corcovado Music Corp."
 }
 

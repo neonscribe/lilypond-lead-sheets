@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{The World Is Waiting for the Sunrise Firehouse - B♭ to C}
+\addcontentsline{toc}{section}{The World Is Waiting for the Sunrise Firehouse - Bb to C}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/The World Is Waiting for the Sunrise Firehouse - Ly - Bb to C for Bb for Standard"}
 
 %}

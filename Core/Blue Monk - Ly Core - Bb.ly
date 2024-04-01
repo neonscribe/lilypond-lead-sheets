@@ -27,14 +27,19 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Slow" 4 = 65
 
-  d8 ef8 e8 f8~ f2 | g8 gs8 a8 bf8~ bf2 |
-  f8 g8 f8 e8 ef8 e,8 cs'8 d8~ | \tuplet 3/2 { d8 df4 } c2 r4 |
+  <d bf>8 <ef c>8 <e cs>8 <f d>8~ <f d>2 |
+  <g ef>8 <af f>8 <a fs>8 <bf g>8~ <bf g>2 |
+  <f d>8 <g ef>8 <f d>8 <e cs>8 <ef c>8 e,8 <cs' a>8 <d bf>8~ |
+  \tuplet 3/2 { <d bf>8 <cs a>4 } <c af>2 r4 |
   \break
-  g'8 gs8 a8 bf8~ bf2 | bf8 b8 c8 df8~ df2 |
-  f,8 g8 f8 e8 ef8 e,8 cs'8 d8~ | d2. \tuplet 3/2 { f8 f8 f8 } |
+  <g' ef>8 <gs f>8 <a fs>8 <bf g>8~ <bf g>2 |
+  <bf g>8 <b gs>8 <c a>8 <df bf>8~ <df bf>2 |
+  <f, d>8 <g ef>8 <f d>8 <e cs>8 <ef c>8 e,8 <cs' a>8 <d bf>8~ |
+  <d bf>2. \tuplet 3/2 { \repeat unfold 3 {\acciaccatura cs8 <f d>8 } } |
   \break
-  f8 f,8~ f2. | f'8 g8 f8 e8 ef8 e,8 cs'8 d8~ |
-  d4 f8 g8 f8 e8 ef8 e,8 | cs'8 d8~ d2 r4 |
+  \acciaccatura cs8 <f d>8 f,8~ f2. |
+  <f' d>8 <g ef>8 <f d>8 <e cs>8 <ef c>8 e,8 <cs' a>8 <d bf>8~ |
+  <d bf>4 <f d>8 <g ef>8 <f d>8 <e cs>8 <ef c>8 e,8 | <cs' a>8 <d bf>8~ <d bf>2 r4 |
   \bar "|."
 }
 

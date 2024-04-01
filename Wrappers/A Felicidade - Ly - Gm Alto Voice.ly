@@ -4,5 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = g
+whatClef = "treble"
 
 \include "../Core/A Felicidade - Ly Core - Am.ly"

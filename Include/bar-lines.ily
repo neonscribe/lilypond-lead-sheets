@@ -1,0 +1,2 @@
+\defineBarLine "|-|" #'("|" "|""|")
+\defineBarLine "||-||" #'("||" "||""||")

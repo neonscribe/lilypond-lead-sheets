@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   title = "Chega de Saudade (No More Blues)"
   subtitle = \instrument
   poet = "Vinicius de Moraes, Jon Hendricks & Jessie Cavanaugh"
-  composer = "Antonio Carlos Jobim"
+  composer = "Antônio Carlos Jobim"
   copyright = "© 1958 Editora Musical Arapuã, Sao Paulo, Brazil. © 1967 TRO-Hollis Music Inc., New York"
 }
 

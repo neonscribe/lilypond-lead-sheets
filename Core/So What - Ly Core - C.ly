@@ -134,11 +134,11 @@ chordDiagrams = {
   <d g c' f' a'>
   <f bf ef' af' c''>
   <ef af df' gf' bf'>
-  #} 
-#{
+  #}
+  #{
   \chordmode {
-  s4
-}
+    s4
+  }
   #}
 )
 }

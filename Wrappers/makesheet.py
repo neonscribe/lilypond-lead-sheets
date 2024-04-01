@@ -70,8 +70,8 @@ offset_to_file_note_name_flat = ['C', 'Db', 'D', 'Eb', 'E', 'F',
 offset_to_nice_note_name_sharp = ['C', 'C♯', 'D', 'D♯', 'E', 'F',
                                   'F♯', 'G', 'G♯', 'A', 'A♯', 'B']
 
-offset_to_nice_note_name_flat = ['C', 'D♭', 'D', 'E♭', 'E', 'F',
-                                  'G♭', 'G', 'A♭', 'A', 'B♭', 'B']
+offset_to_nice_note_name_flat = ['C', 'Db', 'D', 'Eb', 'E', 'F',
+                                  'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
 
 major_key_sharps = [ 0, 7,  2, 9 , 4, 11, 6,  1, 8, 3, 10,  5 ]
 major_key_flats =  [ 0, 5, 10, 3,  8,  1, 6, 11, 4, 9,  2,  7 ]
@@ -187,7 +187,7 @@ def key_name_for_file(key, is_minor):
 def key_name_for_nice(key, is_minor):
     file_key = key[0].upper()
     accidental_count = len(key) - 1
-    accidental_character = '♭'
+    accidental_character = 'b'
     if accidental_count > 0:
         if key[1] == 's':
             accidental_character = '♯'
@@ -245,9 +245,9 @@ if os.path.exists(in_core_file_name):
 
 core_file_contents = f"""%% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
-
 \\include "../Include/lead-sheets.ily"
+
+% #(set-global-staff-size 18)
 
 \\header {{
   title = "{song_title}"
@@ -455,7 +455,7 @@ write_wrapper_file({ 'file_title' : file_song_title ,
 # The lowest written note on the saxophone is Bb below middle C.
 # The lowest written note on the trumpet is F# below middle C.
 # The lowest written note on the clarinet is E below middle C.
-# The highest comfortable written note on the clarinet is G immediately above the treble staff
+# The highest comfortable written note on the clarinet is A above the treble staff
 
 # First we transpose for the saxophone, with the lowest note not below Bb below middle C
 # If the highest note in this part is not above G at the top of the treble staff,
@@ -481,14 +481,14 @@ transposition_offset = bb_low_note - low_note_offset
 bb_octave_key = key_offset + transposition_offset
 bb_octave_offset = bb_octave_key // 12 - key_offset // 12
 
-high_g_offset = 31
+high_a_offset = 33
 low_e_offset = 2
 
 bb_high_note = high_note_offset + transposition_offset
 bb_low_low_note = bb_low_note - 12
 
 
-if bb_high_note <= high_g_offset or bb_low_low_note < low_e_offset:
+if bb_high_note <= high_a_offset or bb_low_low_note < low_e_offset:
     write_wrapper_file({ 'file_title' : file_song_title ,
                          'nice_title' : song_title ,
                          'key_and_desc' : f"{file_key_name} to {bb_file_key} for Bb for Standard" ,

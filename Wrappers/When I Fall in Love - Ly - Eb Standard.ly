@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{When I Fall in Love - E♭}
+\addcontentsline{toc}{section}{When I Fall in Love - Eb}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/When I Fall in Love - Ly - Eb Standard"}
 
 %}

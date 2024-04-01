@@ -13,7 +13,7 @@ whatClef = "bass"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Undecided - B♭ Bass}
+\addcontentsline{toc}{section}{Undecided - Bb Bass}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Undecided - Ly - Bb Bass for Standard"}
 
 %}

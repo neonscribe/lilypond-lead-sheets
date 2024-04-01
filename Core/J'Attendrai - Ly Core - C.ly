@@ -12,6 +12,60 @@
   copyright = "© 1938 P. Leonardi, Milano, Italy"
 }
 
+NotRefrainLyrics = \lyricmode {
+J'attendrai
+Le jour et la nuit, j'attendrai toujours
+Ton retour l'attendrai
+Car l'oiseau qui s'enfuit vient chercher l'oubli
+Dans son nid
+Le temps passe et court
+En battant tristement
+Dans mon cœur si lourd
+Et pourtant, j'attendrai
+Ton retour
+Les fleurs palissent
+Le feu s'éteint
+L'ombre se glisse
+Dans le jardin
+L'horloge tisse
+Des sons très las
+Je crois entendre ton pas
+Le vent m'apporte Des bruits lointains
+Guettant ma porte
+J'écoute en vain
+Helas, plus rien
+Plus rien ne vient
+
+J'attendrai
+Le jour et la nuit, j'attendrai toujours
+Ton retour
+J'attendrai
+Car l'oiseau qui s'enfuit vient chercher l'oubli
+Dans son nid
+Le temps passe et court
+En battant tristement
+Dans mon cœur si lourd
+Et pourtant, j'attendrai
+Ton retour
+Reviens bien vite
+Les jours sont froids
+Et sans limite
+Les nuits sans toi
+Quand on se quitte
+On n'oublie tout
+Mais revenir est si doux
+Si ma tristesse
+Peut t'émouvoir
+Avec tendresse
+Reviens un soir Et dans tes bras
+Tout renaîtra
+Le temps passe et court
+En battant tristement
+Dans mon cœur si lourd
+Et pourtant, j'attendrai
+Ton retour
+}
+
 refrainLyrics = \lyricmode {
 }
 

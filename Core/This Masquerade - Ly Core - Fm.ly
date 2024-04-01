@@ -100,38 +100,30 @@ refrainMelody = \relative f' {
   \mark \markup{ \box "A1" }
   
   r4 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f4 c8 bf8 | af4. bf8 c4 af8 f8~ | f2 r2 |
-  \break
   r2 af8 g8 af8 ef'8~ | ef2. ef8 c8~ | c2 r2 | r1 |
-  \break
 
   r4 f,8 g8 af8 bf4 c8~ | c8 g'4 f8~ f8 cf8( bf8) af8~ | af4 bf8 c4 af4 f8~ | f2 r4 c8 f8~ |
-  \break
   f2 r8 af8 bf8 cf8~( | cf8 bf8~ bf2) af8 f8~ | f1 | r1 |
 
   \bar "||"
-  \pageBreak
+  \break
 
   \mark \markup{ \box "B" }
 
   r4 df'8 ef8 f4 gf8 f8~ | f4 ef8 df8~ df4 ef8 f8~ | f8 af,8( f8) af8~ af2 | r1 |
-  \break
   r8 af8 df8 ef8 f4 gf8 f8~ | f8 ef4. df4 af'8 af8( | f1) | r2 r4 r8 f8 |
-  \break
   d4 e8 f8~ f4 g8 af8~ | af8 g4. r8 g8 f8 g8~ | g4 g,8 g4 g8( e8) g8~ | g2 r4 g8 bf8~ |
-  \break
   bf2 r4 g8 b8~ | b2 r4 g8 c8~ | c4 d8 bf8~ bf4 c8 g8~ | g4 r4 r2 |
 
   \bar "||"
+  \break
 
   \mark \markup{ \box "A2" }
   
   r4 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f4 c8 bf8 | af4. bf8 c4 af8 f8~ | f2 r2 |
-  \break
   r4 r8 af8 af8 g8 af8 ef'8~ | ef2. ef8 c8~ | c2 r2 | r1 |
-  \break
 
   r8 c,8 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f8 cf8( bf8) af8~ | af4 bf8 c4 af4 f8~ | f2 r4 c8 f8~ |
-  \break
   f2 r8 af8 bf8 cf8~( | cf8 bf8~ bf2) af8 f'8~ | f1 | r1 |
 
   \bar "|."
@@ -164,9 +156,9 @@ outroMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/intro.ily"
+%% \include "../Include/intro.ily"
 \include "../Include/refrain.ily"
-\include "../Include/outro.ily"
+%% \include "../Include/outro.ily"
 
 performanceNotes =
 \markup {

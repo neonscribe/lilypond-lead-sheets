@@ -36,9 +36,9 @@ refrainMelody = \relative f' {
   \tempo "Medium-Up Bossa" 4 = 160
   
   \partial 4 g4 |
-  \bar "||"
   
-  \segnoSign
+  \bar ".|:"
+  \repeat volta 2 {
   g'4. f8 ef8 d8 r8 c8~ | c2~ c8 bf8 r8 af8~ |
   af2~ af8 g'8 r8 f8~ | f2. r4 |
   \bar "||"
@@ -55,9 +55,11 @@ refrainMelody = \relative f' {
   \break
   
   af4 g8 bf8~ bf4. af8 | af4 g8 bf8~ bf4. af8 \textToCodaLastTime |
-  g1~ | g2 r4 \dalSegnoNoCoda \parenthesize g4 |
+  g1~ | g2 r4
+  \override Parentheses.font-size = #5
+  \parenthesize g4 |
+  }
 
-  \bar "|."
   \break
   
   \textCoda

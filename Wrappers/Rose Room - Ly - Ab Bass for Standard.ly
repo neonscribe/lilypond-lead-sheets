@@ -13,7 +13,7 @@ whatClef = "bass"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Rose Room - A♭ Bass}
+\addcontentsline{toc}{section}{Rose Room - Ab Bass}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Rose Room - Ly - Ab Bass for Standard"}
 
 %}

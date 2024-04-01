@@ -6,9 +6,11 @@
   title = "Vivo Sonhando (Dreamer)"
   subtitle = \instrument
   poet = "Gene Lees"
-  composer = "Antonio Carlos Jobim"
+  composer = "Antônio Carlos Jobim"
   %% copyright = "© 1963 Jobim Music Ltda."
 }
+
+bossaRhythm = ##t
 
 introLyrics = \lyricmode {
 }

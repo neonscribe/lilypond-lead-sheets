@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   title = "How Insensitive"
   subtitle = \instrument
   poet = "Norman Gimbel"
-  composer = "Antonio Carlos Jobim"
+  composer = "Antônio Carlos Jobim"
   copyright = "© 1963 MCA-Duchess Music Corp."
 }
 

@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   title = "The Girl From Ipanema"
   subtitle = \instrument
   poet = "Norman Gimbel"
-  composer = "Antonio Carlos Jobim"
+  composer = "Antônio Carlos Jobim"
   copyright = "© 1963 Jobim Music"
 }
 

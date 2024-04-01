@@ -14,7 +14,7 @@ whatClef = "bass"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{All the Things You Are - A♭ Bass}
+\addcontentsline{toc}{section}{All the Things You Are - Ab Bass}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/All the Things You Are - Ly - Eb Bass for Alto Voice"}
 
 %}

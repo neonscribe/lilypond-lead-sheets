@@ -23,7 +23,7 @@ jcSharp = \markup{ \hspace #0.2 \raise #0.7 { \smaller \sharp } }
 
 % define your prefererred mode markers here
 jcMajor = \markup{ \jcSmall{ "MA" } }
-jcDiminished = \markup{ \jcRaise{ "o" } }
+jcDiminished = \markup{ \jcRaise{ "o7" } }
 jcMinor = \markup{ \jcSmall{ "MI" } }
 jcMinorSeventh = \markup{ \jcMinor \jcRaise{ "7" } }
 jcMajorSeventh = \markup{ \jcMajor \jcRaise{ "7" } }
@@ -38,6 +38,7 @@ jcMinorFlatSixth = \markup{ \jcMinor \jcRaise{ \jcFlat "6" } }
 jcNinth = \markup{ \jcRaise{ "9" } }
 jcMajorNinth = \markup{ \jcMajor \jcRaise{ "9" } }
 jcFlatFive = \markup{ \jcRaise{ "(" \jcFlat "5)" } }
+jcSharpFive = \markup{ \jcRaise{ "(" \jcSharp "5)" } }
 jcFlatNinth = \markup{ \jcRaise{ "(" \jcFlat "9)" } }
 jcSharpNinth = \markup{ \jcRaise{ "(" \jcSharp "9)" } }
 jcEleventh = \markup{ \jcRaise{ "11" } }
@@ -46,7 +47,7 @@ jcFlatEleventh = \markup{ \jcRaise{ "(" \jcFlat "11)" } }
 jcThirteenth = \markup{ \jcRaise{ "13" } }
 jcSharpThirteenth = \markup{ \jcRaise{ "(" \jcSharp "13)" } }
 jcFlatThirteenth = \markup{ \jcRaise{ "(" \jcFlat "13)" } }
-jcAugmented = \markup{ "+" }
+jcAugmented = \markup{ \jcRaise{ "(#5)" } }
 jcSus = \markup{ \jcSmall{ "SUS" } }
 jcSusTwo = \markup{ \jcSmall{ "SUS2" } }
 
@@ -91,7 +92,7 @@ jazzChordsMusic =
 	<c e g b>-\markup{ \jcMajorSeventh }
 	<c e g a b>-\markup{ \jcMajorSeventh \jcRaise{ "(ADD 6)" } }
 	<c e g b fis'>-\markup{ \jcMajorSeventh \jcSharpEleventh }
-	<c e gis b>-\markup{ \jcAugmented \jcMajorSeventhModifier }
+	<c e gis b>-\markup{ \jcMajorSeventh \jcAugmented }
 	<c e ges b>-\markup\jcRaise{ \jcMajorSeventh \jcFlatFive }
 	
 	
@@ -119,17 +120,30 @@ jazzChordsMusic =
 	<c e g d'>-\markup\jcRaise{ "(ADD 9)" }
 	<c e g b d'>-\markup{ \jcMajorNinth }
 	<c e g bes d'>-\markup{ \jcNinth }
-	<c e gis bes d'>-\markup{ \jcAugmented \jcNinth }
+	<c e gis bes d'>-\markup{ \jcNinth \jcAugmented }
 	<c e ges bes d'>-\markup{ \jcNinth \jcFlatFive }
 	<c f g d'>-\markup{ \jcNinth \jcSus }
 	
 	<c e g bes des'>-\markup{ \jcSeventh \jcFlatNinth }
 	<c e g bes dis'>-\markup{ \jcSeventh \jcSharpNinth }
 
-	<c e gis bes dis'>-\markup{ \jcAugmented \jcSeventh \jcSharpNinth }
+	<c e gis bes dis'>-\markup{ 
+	    \jcSeventh
+	    {\larger\larger\medium "(" } 
+	      \tiny { \column{ 
+	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
+	        \raise #2.5 \line{ \jcSharp "5" }  % the upper tension in the bracket
+	      } }
+	     \larger\larger\medium ")" }
 	<c e ges bes dis'>-\markup{ \jcSeventh \jcFlat }
-	<c e gis bes des'>-\markup{ \jcAugmented \jcSeventh \jcFlatNinth }
-	
+	<c e gis bes des'>-\markup{
+	    \jcSeventh
+	    {\larger\larger\medium "(" } 
+	      \tiny { \column{ 
+	        \raise #1.2 \line{ \jcFlat "9" } % the lower tension in the bracket
+	        \raise #2.5 \line{ \jcSharp "5" }  % the upper tension in the bracket
+	      } }
+	     \larger\larger\medium ")" }
 	<c e ges bes des'>-\markup {
 	    \jcSeventh
 	    {\larger\larger\medium "(" } 
@@ -137,7 +151,7 @@ jazzChordsMusic =
 	        \raise #1.2 \line{ \jcFlat "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "5" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" } 
+	     \larger\larger\medium ")" }
 	
 	<c e g bes cis' dis'>-\markup {
 	    \jcSeventh
@@ -146,16 +160,16 @@ jazzChordsMusic =
 	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" } 
+	     \larger\larger\medium ")" }
 	
 	<c e gis bes cis' dis'>-\markup{ 
-	    \jcAugmented \jcSeventh
+	    \jcSeventh \jcAugmented
 	    {\larger\larger\medium "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" } 
+	     \larger\larger\medium ")" }
 	
 	<c e ges bes cis' dis'>-\markup{ 
 	    \jcSeventh \jcFlatFive
@@ -164,7 +178,7 @@ jazzChordsMusic =
 	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" } 
+	     \larger\larger\medium ")" }
 	
 	% 6/9
 	<c e g a d'>-\markup{ \jcSixth "/" \jcSmall{ "9" } }
@@ -280,7 +294,7 @@ jazzChordsMusic =
 
 	% sevenths with sharp five and flat five won't be found, b13 and #11 match first!
 	<c e ges bes>-\markup{ \jcSeventh \jcFlatFive }
-	<c e gis bes>-\markup{ \jcAugmented \jcSeventh }
+	<c e gis bes>-\markup{ \jcSeventh \jcAugmented }
 }
 
 

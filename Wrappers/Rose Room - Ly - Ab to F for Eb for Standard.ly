@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Rose Room - A♭ to F}
+\addcontentsline{toc}{section}{Rose Room - Ab to F}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Rose Room - Ly - Ab to F for Eb for Standard"}
 
 %}

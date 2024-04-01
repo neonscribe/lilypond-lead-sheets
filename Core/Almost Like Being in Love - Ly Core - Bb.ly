@@ -10,14 +10,13 @@
   copyright = "© 1947 Lerner & Lowe"
 }
 
-refrainLyrics = \lyricmode {
+refrainLyricsOne = \lyricmode {
 What a day this has been!
 What a rare mood I'm in!
 Why, it's al -- most like be -- ing in love. __
-There's a smile on my face
-for the whole hu -- man race.
-Why, it's al -- most like be -- ing in love. __
-All the mu -- sic of life seems to be, __
+There's a
+
+mu -- sic of life seems to be, __
 like a bell that is ring -- ing for me. __
 And from the way that I feel
 when the bell starts to peal,
@@ -29,6 +28,13 @@ it's al -- most like be -- ing in love.
 it's al -- most like be -- ing in love.
 }
 
+refrainLyricsTwo = \lyricmode {
+_ _ smile on my face
+for the whole hu -- man race.
+Why, it's al -- most like be -- ing in love. __
+All the
+}
+
 refrainChords = \chordmode {
   bf2:7
 
@@ -36,9 +42,6 @@ refrainChords = \chordmode {
   c1:m7 f2:sus9 f2:7.9- bf1:6
   \chordOpenParen{ f2:m7 }
   \chordCloseParen{ bf2:7 }
-
-  ef1:maj7 f1:7 bf1:maj9 d2:m7 g2:7
-  c1:m7 f2:sus9 f2:7.9- bf1:6 bf1:6
 
   a1:m7 d1:7 g1:maj7 g1:maj7
   g1:m7 c1:7 a1:m7 d1:7
@@ -66,22 +69,12 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
 
-  \mark \markup{ \box "A1" }
+  \mark \markup{ \box "A1, A2" }
   
   d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 a4 |
   \break
   r4 bf4 g4 a4 | bf4 g2 a4 | bf1~ | bf4 r4 bf4 c4 |
-
-  \bar "||"
-  \break
-
-  \mark \markup{ \box "A2" }
-
-  d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 a4 |
-  \break
-  r4 bf4 g4 a4 | bf4 g2 a4 | bf1~ | bf4 r4 bf4 c4 |
-
-  \bar "||"
+  }
   \break
 
   \mark \markup{ \box "B" }
@@ -98,10 +91,6 @@ refrainMelody = \relative f' {
   d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 \textToCodaLastTime a4 |
   \break
   r4 bf4 g4 a4 | bf4 g2 a4 | bf1~ | bf4 r4 bf4 c4 |
-
-  }
-  
-  \pageBreak
 
   \bar "|."
 
@@ -122,7 +111,7 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain.ily"
+\include "../Include/refrain-two-verses.ily"
 
 performanceNotes =
 \markup {

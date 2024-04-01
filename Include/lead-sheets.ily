@@ -11,5 +11,6 @@ printNoteNames = #(ly:get-option 'print-note-names)
 \include "utilities.ily"
 \include "swing.ly"
 \include "parens.ily"
+\include "bar-lines.ily"
 
 \version "2.22"

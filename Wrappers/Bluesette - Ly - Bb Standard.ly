@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Bluesette - B♭}
+\addcontentsline{toc}{section}{Bluesette - Bb}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bluesette - Ly - Bb Standard"}
 
 %}

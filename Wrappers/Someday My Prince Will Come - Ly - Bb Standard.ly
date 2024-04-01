@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Someday My Prince Will Come - B♭}
+\addcontentsline{toc}{section}{Someday My Prince Will Come - Bb}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Someday My Prince Will Come - Ly - Bb Standard"}
 
 %}

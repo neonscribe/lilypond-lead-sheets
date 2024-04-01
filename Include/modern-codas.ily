@@ -55,6 +55,19 @@ dalSegno = {
   }
 }
 
+dalSegnoAfterSolos = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \mark
+  \markup {
+    \small
+    \bold
+    \italic "D.S. al Coda, after solos"
+  }
+}
+
 dalSegnoNoCoda = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #RIGHT

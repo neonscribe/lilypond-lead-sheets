@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Freddie Freeloader - B♭ to G}
+\addcontentsline{toc}{section}{Freddie Freeloader - Bb to G}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Freddie Freeloader - Ly - Bb to G for Eb for Standard"}
 
 %}

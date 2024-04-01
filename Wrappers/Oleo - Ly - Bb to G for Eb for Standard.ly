@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Oleo - B♭ to G}
+\addcontentsline{toc}{section}{Oleo - Bb to G}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Oleo - Ly - Bb to G for Eb for Standard"}
 
 %}

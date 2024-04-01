@@ -41,6 +41,25 @@ introMelody = \relative f {
   \bar "||"
 }
 
+NotRefrainLyrics = \lyricmode {
+Blue Drag, it sure is drag -- gin' me down
+I'm al -- most drag -- gin' the ground
+When I hear that blue drag
+
+That slow drag, it's such a new cra -- zy swing
+It's such a new ha -- zy thing
+I must have my blue drag
+
+Oh that rhy -- thm, that rhy -- thm
+Has brought me to this mys -- ter -- i -- ous craze
+Oh that rhy -- thm, that rhy -- thm
+Has got me in -- to this mys -- ter -- i -- ous haze
+
+Can't get e -- nough of blue drag
+Oh it's got my soul on fire, I know that
+I'll never tire of that low down blue drag
+}
+
 refrainLyrics = \lyricmode {
 }
 

@@ -136,23 +136,19 @@
 \storePredefinedDiagram #default-fret-table \chordmode { c:7.9- }
                         #guitar-tuning
                         #"x;3;2;3;2;x;"
-%{
-\storePredefinedDiagram #default-fret-table <e a d' g' b'>
-                        #guitar-tuning
-                        #"x;7;7;7;8;7;"
 
-\storePredefinedDiagram #default-fret-table <d g c' f' a'>
+\storePredefinedDiagram #default-fret-table \chordmode { ef:7.9+ }
                         #guitar-tuning
-                        #"x;5;5;5;6;5;"
+                        #"x;6;5;6;7;x;"
 
-\storePredefinedDiagram #default-fret-table <f bf ef' af' c''>
+\storePredefinedDiagram #default-fret-table \chordmode { af:7.11+ }
                         #guitar-tuning
-                        #"x;8;8;8;9;8;"
+                        #"4;x;4;5;3;x;"
 
-\storePredefinedDiagram #default-fret-table <ef af df' gf' bf'>
+\storePredefinedDiagram #default-fret-table \chordmode { bf:7.9+ }
                         #guitar-tuning
-                        #"x;6;6;6;7;6;"
-%}
+                        #"x;1;0;1;2;x;"
+
 $(if (and (defined? 'chordChart) chordChart) #{
 \markup {
   \fill-line {

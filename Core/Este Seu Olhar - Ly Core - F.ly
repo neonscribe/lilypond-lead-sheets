@@ -7,9 +7,11 @@
 \header {
   title = "Este Seu Olhar"
   subtitle = \instrument
-  composer = "Antonio Carlos Jobim"
+  composer = "Antônio Carlos Jobim"
   copyright = "© 1959 Editora Musical Arapuã"
 }
+
+bossaRhythm = ##t
 
 unsyncedrefrainLyrics = \lyricmode {
 }

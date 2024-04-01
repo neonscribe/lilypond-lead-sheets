@@ -1,6 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
+$(if (string=? instrument "Eb for Standard Key")
+  #{ #(set-global-staff-size 18) #} )
 
 \include "../Include/lead-sheets.ily"
 

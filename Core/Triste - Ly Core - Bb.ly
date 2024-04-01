@@ -9,9 +9,11 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 \header {
   title = "Triste"
   subtitle = \instrument
-  composer = "Antonio Carlos Jobim"
+  composer = "Antônio Carlos Jobim"
   copyright = "© 1967 Corcovado Music Corp."
 }
+
+bossaRhythm = ##t
 
 refrainPortugueseLyrics = \lyricmode {
   Tris -- te_é vi -- ver na so -- li -- dão __

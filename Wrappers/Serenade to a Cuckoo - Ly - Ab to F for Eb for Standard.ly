@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Serenade to a Cuckoo - A♭ to F}
+\addcontentsline{toc}{section}{Serenade to a Cuckoo - Ab to F}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Serenade to a Cuckoo - Ly - Ab to F for Eb for Standard"}
 
 %}

@@ -14,7 +14,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{All the Things You Are - A♭ to B♭}
+\addcontentsline{toc}{section}{All the Things You Are - Ab to Bb}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/All the Things You Are - Ly - Ab to Bb for Bb for Standard"}
 
 %}

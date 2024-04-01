@@ -8,9 +8,11 @@
   title = "A Felicidade"
   subtitle = \instrument
   poet = "Vinicius de Moraes"
-  composer = "Antonio Carlos Jobim"
+  composer = "Antônio Carlos Jobim"
   copyright = "© 1960 Editora Musical Arapuã Ltda"
 }
+
+bossaRhythm = ##t
 
 refrainLyricsOne = \lyricmode {
 Tris -- te -- za não tem fim __

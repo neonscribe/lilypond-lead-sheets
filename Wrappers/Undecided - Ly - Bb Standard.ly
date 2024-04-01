@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Undecided - B♭}
+\addcontentsline{toc}{section}{Undecided - Bb}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Undecided - Ly - Bb Standard"}
 
 %}
