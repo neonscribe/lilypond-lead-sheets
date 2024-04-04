@@ -3,7 +3,7 @@
 \include "english.ly"
 
 instrument = "Bass for Standard Key"
-whatKey = c,
+whatKey = c,,
 whatClef = "bass"
 
 \include "../Core/What Is This Thing Called Love - Ly Core - C.ly"

@@ -2,7 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+$(if (and (and (defined? 'printNoteNames) printNoteNames)
+          (string=? instrument "Bass for Standard Key"))
+   (set-global-staff-size 18))
 
 \header {
   title = "Memories of You"

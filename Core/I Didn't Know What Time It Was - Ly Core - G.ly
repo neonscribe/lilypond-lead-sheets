@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (and (defined? 'printNoteNames) printNoteNames)
+          (or (string=? instrument "Bb for Standard Key")
+              (string=? instrument "Eb for Standard Key")))
+   (set-global-staff-size 18))
+
 \header {
   title = "I Didn't Know What Time It Was"
   subtitle = \instrument

@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (and (defined? 'printNoteNames) printNoteNames)
+          (or (string=? instrument "Bass for Standard Key")
+              (string=? instrument "Alto Voice Key")))
+  (set-global-staff-size 18))
+
 \header {
   title = "I Let a Song Go Out of My Heart"
   subtitle = \instrument

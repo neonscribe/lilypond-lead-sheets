@@ -82,6 +82,7 @@ refrainMelody = \relative f' {
 
 \markup{ "Play head twice, before and after solos. After solos, second time D.S. al Coda" }
 
+%{
 \markup {
   \column {
     \vspace #1
@@ -104,3 +105,4 @@ refrainMelody = \relative f' {
     \line { \large { Blueness of the trueness of our love } }
   }
 }
+%}

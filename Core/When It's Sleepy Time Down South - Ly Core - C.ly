@@ -1,8 +1,10 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
+
+$(if (and (and (defined? 'printNoteNames) printNoteNames)
+          (string=? instrument "Eb for Standard Key"))
+   (set-global-staff-size 18))
 
 \header {
   title = "When It's Sleepy Time Down South"

@@ -2,7 +2,10 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+$(if (and (and (defined? 'printNoteNames) printNoteNames)
+          (or (string=? instrument "Bass for Standard Key")
+              (string=? instrument "Eb for Standard Key")))
+   (set-global-staff-size 18))
 
 \header {
   title = "Mean to Me"

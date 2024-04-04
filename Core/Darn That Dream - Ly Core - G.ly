@@ -1,9 +1,10 @@
 %% -*- Mode: LilyPond -*-
 
-$(if (string=? instrument "Eb for Standard Key")
-  #{ #(set-global-staff-size 18) #} )
-
 \include "../Include/lead-sheets.ily"
+
+$(if (or (string=? instrument "Eb for Standard Key")
+         (and (defined? 'printNoteNames) printNoteNames))
+  (set-global-staff-size 18))
 
 \header {
   title = "Darn That Dream"

@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (and (defined? 'printNoteNames) printNoteNames)
+          (or (string=? instrument "Bass for Standard Key")
+              (string=? instrument "Alto Voice Key")))
+  (set-global-staff-size 18))
+
 \header {
   title = "It's All Right With Me"
   subtitle = \instrument

@@ -4,8 +4,9 @@
 
 #(set-global-staff-size 18)
 
-$(if (string=? instrument "Bb for Standard Key")
-  #{ #(set-global-staff-size 16) #} )
+$(if (or (and (defined? 'printNoteNames) printNoteNames)
+         (string=? instrument "Bb for Standard Key"))
+  (set-global-staff-size 16))
 
 \header {
   title = "My One and Only Love"

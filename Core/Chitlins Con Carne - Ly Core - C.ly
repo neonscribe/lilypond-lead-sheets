@@ -2,7 +2,10 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (if (string=? instrument "Bass for Standard Key")
+   (set-global-staff-size 16)
+   (set-global-staff-size 18)))
 
 \header {
   title = "Chitlins Con Carne"

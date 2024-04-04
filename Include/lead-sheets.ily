@@ -2,7 +2,10 @@
 
 \pointAndClickOff
 
-printNoteNames = #(ly:get-option 'print-note-names)
+printNoteNames = 
+  #(if (defined? 'printNoteNames)
+    printNoteNames
+    (ly:get-option 'print-note-names))
 
 \include "jazz-chords.ily"
 \include "modern-codas.ily"

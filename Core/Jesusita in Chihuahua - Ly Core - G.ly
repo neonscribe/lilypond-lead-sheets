@@ -1,9 +1,5 @@
 %% -*- Mode: LilyPond -*-
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
-
 \include "../Include/lead-sheets.ily"
 
 \header {

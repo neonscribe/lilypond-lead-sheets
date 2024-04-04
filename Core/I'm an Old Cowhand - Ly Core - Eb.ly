@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (or (string=? instrument "Eb for Standard Key")
+         (and (and (defined? 'printNoteNames) printNoteNames)
+              (string=? instrument "Bb for Standard Key")))
+  (set-global-staff-size 18))
+
 \header {
   title = "I'm an Old Cowhand (From the Rio Grande)"
   subtitle = \instrument
@@ -85,11 +90,11 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Hollywood Cowboy Swing" 4 = 160
 
-  \mark \markup{ "Intro" }
+  \mark \markup{ \box "Intro" }
     g8 g8 f4 ef4 f4 | ef1 |
     g8 g8 f4 ef4 f4 | ef4
   \bar "!"
-  \mark \markup{ "Refrain" }
+  \mark \markup{ \box "Refrain" }
   bf'8 bf8 g4 ef4 |
   \bar ".|:"
   \repeat volta 4 {
@@ -119,7 +124,7 @@ refrainMelody = \relative f' {
   \bar "|."
   \break
 
-  \mark \markup{ "Pedal Steel Solo" }
+  \mark \markup{ \box "Pedal Steel Solo" }
   \set Score.currentBarNumber = #1
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

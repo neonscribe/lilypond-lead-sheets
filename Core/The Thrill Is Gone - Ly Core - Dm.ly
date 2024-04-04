@@ -1,8 +1,10 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
+
+$(if (and (and (defined? 'printNoteNames) printNoteNames)
+          (string=? instrument "Bass for Standard Key"))
+     (set-global-staff-size 18))
 
 \header {
   title = "The Thrill Is Gone"

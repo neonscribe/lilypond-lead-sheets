@@ -1,7 +1,5 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
 
 \header {
@@ -10,6 +8,9 @@
   poet = "Mike Stoller and Jerry Lieber"
   composer = "Bernie Miller"
   copyright = "© 1953 Atlantic Music Corp."
+}
+
+refrainLyrics = \lyricmode {
 }
 
 refrainLyricsOne = \lyricmode {
@@ -108,4 +109,7 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include
+#(if (and (defined? 'showLyrics) showLyrics)
+  "../Include/refrain-two-verses.ily"
+  "../Include/refrain.ily" )

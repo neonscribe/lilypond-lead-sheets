@@ -2,8 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (or (string=? instrument "Bb for Standard Key")
-      (string=? instrument "Eb for Standard Key"))
+$(if (or (and (defined? 'printNoteNames) printNoteNames)
+         (string=? instrument "Bb for Standard Key")
+         (string=? instrument "Eb for Standard Key"))
   #{ #(set-global-staff-size 18) #} )
 
 \header {

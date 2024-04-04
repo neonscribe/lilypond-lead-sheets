@@ -65,10 +65,11 @@ refrainLyrics = \lyricmode {
 
 refrainChords = \chordmode {
   d2:m d2:m/c b2:m7.5- bf2:7 d2:m d2:m/c b2:m7.5- bf2:7
-  d1:m e1:m7.5- bf2:7 a2:7 d2:m a2:7
-
-  d2:m d2:m/c b2:m7.5- bf2:7 d2:m d2:m/c b2:m7.5- bf2:7
-  d1:m e1:m7.5- bf2:7 a2:7 d1:m
+  d1:m e1:m7.5- bf2:7 a2:7 
+  
+  d2:m a2:7
+  
+  d1:m
 
   g1:m6 g1:m6 d1:m d1:m
   g1:m6 g1:m6 d2:m c2:7 bf2:7 a2:7
@@ -84,22 +85,18 @@ refrainMelody = \relative f'' {
   \key \refrainKey \minor
   \clef \whatClef
 
-  \mark \markup{ \box "A1" }
+  \mark \markup{ \box "A1, A2" }
   
+  \bar ".|:"
+  \repeat volta 2 {
   f8 a8 r8 f8 a4 a4 | f2 d4 r4 | f8 a8 r8 f8 a4 a4 | f2 r2 |
   \break
-  f8 a8 r8 f8 a4 a4 | g2 r4 d8 d8 | a'8 af8~ af4 g8 f8 d8 d8~ | d1 |
-  
-  \bar "||"
-  \break
-
-  \mark \markup{ \box "A2" }
-  
-  f8 a8 r8 f8 a4 a4 | f2 d4 r4 | f8 a8 r8 f8 a4 a4 | f2 r2 |
-  \break
-  f8 a8 r8 f8 a4 a4 | g2 r4 d8 d8 | a'8 af8~ af4 g8 f8 d8 d8~ | d2 r4 bf'8 a8 |
-  
-  \bar "||"
+  f8 a8 r8 f8 a4 a4 | g2 r4 d8 d8 | a'8 af8~ af4 g8 f8 d8 d8~ |
+  \alternative { \volta 1 {
+  d1 |
+  } \volta 2 {
+  d2 r4 bf'8 a8 |
+  } } }
   \break
 
   \mark \markup{ \box "B" }
