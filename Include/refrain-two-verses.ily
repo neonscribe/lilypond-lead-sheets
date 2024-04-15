@@ -3,6 +3,7 @@
 \score {
   <<
     { \context ChordNames 
+      \with { \consists #Bass_changes_equal_root_engraver }
       {
       \override ChordName.font-size = #+3
       \override ChordName.font-series = #'bold

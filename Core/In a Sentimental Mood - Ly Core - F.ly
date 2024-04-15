@@ -45,7 +45,7 @@ plete.
 refrainChords = \chordmode {
   s1
 
-  d2:m d2:m7+ d2:m7 d2:m7 d2:m g2:m7+ g2:m7 g4:m6 a4:7
+  d2:m d2:m7+ d2:m7 d2:m6 g2:m g2:m7+ g2:m7 g4:m6 a4:7
   d1:m d1:7 g2:m7 gf2:7
   
   f1:maj7
@@ -55,7 +55,7 @@ refrainChords = \chordmode {
   df2:maj7 bf2:m7 ef2:m7 af2:7 df2:maj7 bf2:7 ef2:7 af2:7
   df2:maj7 bf2:m7 ef2:m7 af2:7 g1:m7 c1:7
 
-  d2:m d2:m7+ d2:m7 d2:m7 d2:m g2:m7+ g2:m7 g4:m6 a4:7
+  d2:m d2:m7+ d2:m7 d2:m6 g2:m g2:m7+ g2:m7 g4:m6 a4:7
   d1:m d1:7 g2:m7 c2:7.9- f1:maj7
 }
 

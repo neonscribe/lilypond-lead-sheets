@@ -1,7 +1,5 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
 
 \header {
@@ -12,16 +10,11 @@
   copyright = "© 1959 Beechwood Music Corp."
 }
 
-refrainLyrics = \lyricmode {
+refrainLyricsOne = \lyricmode {
 Scotch and so -- da, mud in your eye,
 Ba -- by, do I feel high,
 Oh me, oh my,
-Do I __ feel high, __
-Dry mar -- tin -- i,
-Jig -- ger of gin,
-Oh, what a spell you've got me in,
-Oh my,
-Do I __ feel high. __
+Do I __ feel high, _
 Peo -- ple don't be -- lieve me,
 They think that I'm just brag -- ging __
 But I could feel the way I do,
@@ -32,12 +25,21 @@ Do I __ feel high -- er than a kite can fly!
 Give me lov -- ing, ba -- by, I feel high
 }
 
+refrainLyricsTwo = \lyricmode {
+Dry mar -- tin -- i,
+Jig -- ger of gin,
+Oh, what a spell you've got me in,
+Oh my,
+Do I __ feel _ high.
+}
+
 refrainChords = \chordmode {
   af1:maj7 df1:9 ef1:6 g2:m7 c2:7
-  f1:7 f2:m7 bf2:7 d1:m7 af2:m6 g2:7
+  f1:7 f2:m7 bf2:7
+  
+  d1:m7 af2:m6 g2:7
 
-  af1:maj7 df1:9 ef1:6 g2:m7 c2:7
-  f1:7 f2:m7 bf2:7 ef2:9 bf2:m7 ef2:9 ef2:9.5+
+  ef2:9 bf2:m7 ef2:9 ef2:9.5+
 
   af1:maj7 af1:maj7 ef2:maj7 f4:m7 bf4:7 ef1:maj7
   f1:9 f1:9 bf1:7 f2:m7 bf2:7
@@ -58,22 +60,18 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Slow Blues" 4 = 100
 
-  \mark \markup{ \box "A1" }
+  \mark \markup{ \box "A1, A2" }
   
+  \bar ".|:"
+  \repeat volta 2 {
   r8 g8 f8 g4 f4. | r4 \tuplet 3/2 { cf8 ef8 f8 } g2 | r4 \tuplet 3/2 { ef8 f8 g8 } bf8 c4. | d4 c8 bf4 c4. |
   \break
-  c,1 | r8 bf'8 g8( bf4) g4. | f1~ | f2. r4 |
-
-  \bar "||"
-  \break
-
-  \mark \markup{ \box "A2" }
-  
-  r8 g8 f8 g4 f4. | r4 \tuplet 3/2 { cf8 ef8 f8 } g2 | r4 \tuplet 3/2 { ef8 f8 g8 } bf8 c4. | d4 c8 bf4 c4. |
-  \break
-  c,1 | r8 bf'8 g8( bf4) g4. | f1~ | f2. r4 |
-
-  \bar "||"
+  c,1 | r8 bf'8 g8( bf4) g4. |
+  \alternative { \volta 1 {
+  f1~ | f2. r4 |
+  } \volta 2 {
+  f1~ | f2. r4 |
+  } } }
   \break
 
   \mark \markup{ \box "B" }
@@ -94,8 +92,6 @@ refrainMelody = \relative f' {
   r8 ef4 c8 ef8 c4. | bf8 c4. gf4 ef8 ef8~ | ef1 | r1 |
 
   \bar "|."
-
-
 }
 
 \include "../Include/paper.ily"
@@ -105,4 +101,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain.ily"
+\include "../Include/refrain-two-verses.ily"

@@ -25,6 +25,7 @@ My sweet em -- brace -- a -- ble you.
 }
 
 refrainChords = \chordmode {
+  \set chordChanges = ##t
   g1:6 bf1:dim7 a1:m7 d2:7 b4:m7.5- e4:7.9-
   a1:m7 c2:m6 f2:9 g2:maj7 a4:m7 bf4:dim7 g2:6 c4:7 b4:7
   
@@ -38,6 +39,7 @@ refrainChords = \chordmode {
   b2:m7 e2:7.9- a2:m7.5- d2:7 g1:6
   \chordOpenParen{ a2:m7 }
   \chordCloseParen{ d2:7 }
+  \set chordChanges = ##f
 }
 
 refrainKey = g

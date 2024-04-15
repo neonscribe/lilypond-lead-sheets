@@ -6,6 +6,7 @@
 
 instrument = "Standard Key"
 whatKey = f
+bassKey = f
 whatClef = "treble"
 
 \include "../Core/Bags Groove - Ly Core - F.ly"

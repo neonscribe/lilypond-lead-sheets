@@ -6,6 +6,7 @@
 
 instrument = "Bass for Standard Key"
 whatKey = f,
+bassKey = f
 whatClef = "bass"
 
 \include "../Core/Baby Elephant Walk - Ly Core - F.ly"

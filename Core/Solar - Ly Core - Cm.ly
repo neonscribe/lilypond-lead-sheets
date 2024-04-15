@@ -18,8 +18,11 @@ refrainLyrics = \lyricmode {
 refrainRealBookSixthChords = \chordmode {
   c1:m c1:m g1:m7 c1:7
   f1:maj7 f1:maj7 f1:m7 bf1:7
-  ef1:maj7 ef2:m7 af2:7 df1:maj7
+  ef1:maj7 ef2:m7 af2:7 df1:maj7 d2:m7.5-  g2:7.9-
 
+  c1:m c1:m g1:m7 c1:7
+  f1:maj7 f1:maj7 f1:m7 bf1:7
+  ef1:maj7 ef2:m7 af2:7 df1:maj7
   \chordOpenParen{ d2:m7.5- }
   \chordCloseParen{ g2:7.9- }
 }
@@ -34,7 +37,19 @@ refrainNewRealOneChords = \chordmode {
   ef1:maj7 ef2:m7 af2:7 df1:maj7 df1:maj7
 }
 
-refrainChords = \refrainNewRealOneChords
+refrainMixedChords = \chordmode {
+  c1:m7+ c1:m7+ g1:m7 c1:7
+  f1:maj7 f1:maj7 f1:m7 bf1:7
+  ef1:maj7 ef2:m7 af2:7 df1:maj7 d2:m7.5-  g2:7.9-
+
+  c1:m7+ c1:m7+ g1:m7 c1:7
+  f1:maj7 f1:maj7 f1:m7 bf1:7
+  ef1:maj7 ef2:m7 af2:7 df1:maj7
+  \chordOpenParen{ d2:m7.5- }
+  \chordCloseParen{ g2:7.9- }
+}
+
+refrainChords = \refrainMixedChords
 
 refrainKey = c
 

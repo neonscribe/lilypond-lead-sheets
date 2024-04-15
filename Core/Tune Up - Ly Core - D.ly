@@ -45,7 +45,7 @@ refrainMelody = \relative f' {
 
   \mark \markup{ \box "Head" }
   
-  \bar ".|:"
+  \bar ".|:-||"
   \repeat volta 2 {
   a'2. g4 | ef2 e4. f8~ | f1 | r1 |
   \break

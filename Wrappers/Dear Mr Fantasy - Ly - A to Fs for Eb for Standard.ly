@@ -5,7 +5,7 @@
 \include "english.ly"
 
 instrument = "Eb for Standard Key"
-whatKey = fs
+whatKey = gf
 whatClef = "treble"
 
 \include "../Core/Dear Mr Fantasy - Ly Core - A.ly"

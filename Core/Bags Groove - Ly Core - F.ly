@@ -55,6 +55,8 @@ refrainMelody = \relative f' {
 }
 
 refrainBass = \relative f' {
+  \time 4/4
+  \key \refrainKey \major
   \clef bass
 
   \partial 4 r4 |

@@ -6,6 +6,7 @@
 
 instrument = "Bb High for Standard Key"
 whatKey = f
+bassKey = f
 whatClef = "treble"
 
 \include "../Core/Sidewinder - Ly Core - Eb.ly"

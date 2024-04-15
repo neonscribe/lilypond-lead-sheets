@@ -6,6 +6,7 @@
 
 instrument = "Eb for Standard Key"
 whatKey = a
+bassKey = a,
 whatClef = "treble"
 
 \include "../Core/Footprints - Ly Core - Cm.ly"

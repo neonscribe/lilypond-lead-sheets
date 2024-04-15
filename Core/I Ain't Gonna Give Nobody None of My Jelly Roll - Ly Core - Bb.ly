@@ -32,7 +32,7 @@ refrainChords = \chordmode {
   bf1 bf1 c1:7 c1:7
   f1:7 f1:7 bf1 bf1
   g1:7 g1:7 c1:7 c1:7
-  c1:7 c1:7 f1:7 f1:7
+  c1:7 c1:7 f4:7 r4*6 f4:7
   
   bf1 bf1 c1:7 c1:7
   f1:7 f1:7 d1:7 d1:7
@@ -43,14 +43,6 @@ refrainChords = \chordmode {
 }
 
 refrainKey = bf
-
-bandBreak =
-#(define-music-function (expr) (ly:music?)
-  "mark a break in the music where the band drops out"
-  #{ \ottava #1
-     \set Staff.ottavation = #"break"
-     \transpose c c' { \relative f' { #expr } }
-     \ottava #0 #})
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -74,8 +66,7 @@ refrainMelody = \relative f' {
   
   af4 g4 fs8 g4 d'8~ | d2. r4 | d4 c4 b8 c4 g8~ | g2. c4 |
   \break
-  d8 d8 d4 d4. c8 | d8 d8 d4 d2 | r4 \bandBreak{ a4 c4 a4 | g8 a4 g8~ g4 }
-  \relative f' {
+  d8 d8 d4 d4. c8 | d8 d8 d4 d2 | r4 a4 c4 a4 | g8 a4 g8~ g4
   gs4 |
   
   \bar "||"
@@ -104,7 +95,6 @@ refrainMelody = \relative f' {
   bf8 a8 af4 g2 | d'8 cs8 d4 f8 d4. | bf2. r4 |
 
   \bar "|."
-  }
 }
 
 \include "../Include/paper.ily"

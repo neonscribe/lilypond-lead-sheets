@@ -83,7 +83,7 @@ refrainMelodyOne = \relative f' {
   \bar "|."
 }
 
-refrainMelodyTwo = \relative f' {
+refrainMelodyTwo = \relative f'' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef

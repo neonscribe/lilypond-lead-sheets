@@ -3,6 +3,7 @@
 \score {
   <<
     { \context ChordNames 
+      \with { \consists #Bass_changes_equal_root_engraver }
       {
       \override ChordName.font-size = #+3
       $(if (and (defined? 'chordSize) chordSize)
@@ -14,7 +15,8 @@
 	}
       }
       }
-    \new Staff {
+    \new Staff 
+      {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {

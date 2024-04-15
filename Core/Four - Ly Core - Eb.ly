@@ -38,11 +38,11 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Swing" 4 = 178
 
-  \partial 4. bf8 c8 d8 |
+  \partial 4. bf,8 c8 d8 |
   
   \bar ".|:"
   \repeat volta 2 {
-  r8 bf,8 c8 d8 r8 bf8 c8 d8 | r8 f8 ef8 d8 r8 bf8 c8 df8~ |
+  r8 bf8 c8 d8 r8 bf8 c8 d8 | r8 f8 ef8 d8 r8 bf8 c8 df8~ |
   df1 | r2 r8 ef8 f8 g8 |
   \break
   r8 ef8 f8 g8 r8 ef8 f8 g8 | r8 bf8 af8 g8 r8 ef8 f8 gf8~ |

@@ -18,7 +18,7 @@ There's a python script `Wrappers/makesheet.py` for generating
 boilerplate core and wrapper files.
 
 I use the widely available Symbola font in LuaLaTeX to obtain sharp
-and flat glyphs.
+and flat glyphs, and C059 font in TeX to match LilyPond fonts.
 
 That's about it. I use MacTeX for my TeX installation, and Homebrew
 for LilyPond. Bash is included in MacOS as an alternative to zsh.

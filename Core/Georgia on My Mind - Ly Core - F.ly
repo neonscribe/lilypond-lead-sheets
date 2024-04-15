@@ -27,6 +27,7 @@ Just an old sweet song keeps Geor -- gia on my mind. __
 }
 
 refrainChords = \chordmode {
+  \set chordChanges = ##t
   f1:maj7 e2:m7.5- a2:7 d2:m d2:m/c g2/b bf2:m6
   f2:maj7 d2:7 g2:m7 c2:7 a2:m7 d2:7.9- g2:m7 c2:7.5+
 
@@ -40,6 +41,7 @@ refrainChords = \chordmode {
   f2:maj7 d2:7 g2:m7 c2:7 f2:6 ef2:9 f2:6
   \chordOpenParen{ g4:m7 }
   \chordCloseParen{ c4:7 }
+  \set chordChanges = ##f
 }
 
 refrainKey = f

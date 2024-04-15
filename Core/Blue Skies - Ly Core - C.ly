@@ -26,6 +26,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
+  \set chordChanges = ##t
   a1:m a1:m/gs a1:m/g a1:m/fs
   c2 a2:7 d2:m7 g2:7 c1 b2:m7.5- e2:7
   
@@ -37,6 +38,7 @@ refrainChords = \chordmode {
 
   a1:m a1:m/gs a1:m/g a1:m/fs
   c2 a2:7 d2:m7 g2:7 c1 b2:m7.5- e2:7
+  \set chordChanges = ##f
 }
 
 refrainKey = c

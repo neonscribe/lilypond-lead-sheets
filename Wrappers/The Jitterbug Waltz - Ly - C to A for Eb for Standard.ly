@@ -5,7 +5,7 @@
 \include "english.ly"
 
 instrument = "Eb for Django Key"
-whatKey = c
+whatKey = a
 whatClef = "treble"
 
 djangoChords = ##t

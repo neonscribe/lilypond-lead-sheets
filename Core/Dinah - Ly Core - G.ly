@@ -1,8 +1,8 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
+
+% #(set-global-staff-size 18)
 
 \header {
   title = "Dinah"
@@ -29,6 +29,7 @@ just to be with Din -- ah Lee!
 }
 
 refrainChords = \chordmode {
+  \set chordChanges = ##t
   g2:maj7 e2:m7 a2:m7 d2:7 g2:maj7 c2:maj7 g2/b e2:m7
   a1:m7 d1:7 g2:6 bf2:dim7 a2:m7 d2:7
 
@@ -43,6 +44,7 @@ refrainChords = \chordmode {
   
   \chordOpenParen{ a2:m7 }
   \chordCloseParen{ d2:7 }
+  \set chordChanges = ##f
 }
 
 refrainKey = g

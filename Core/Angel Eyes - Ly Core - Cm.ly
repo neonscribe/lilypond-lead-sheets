@@ -43,7 +43,26 @@ _
 So
 }
 
-refrainChords = \chordmode {
+refrainNicoChords = \chordmode {
+  \set chordChanges = ##t
+  c4:m7 c4:m7/bf af2:7 c4:m7 c4:m7/bf af2:7 c2:m7 a2:m7.5- d2:m7.5- g2:7.5+
+  c4:m7 c4:m7/bf af2:7 c4:m7 c4:m7/bf a2:m7.5- af2:7 g2:7.5+
+
+  c2:m7 af4:7 g4:7.5+
+
+  c1:m6
+
+  bf2:m7 ef2:7 af2:maj7 a2:dim7 bf2:m7 ef2:7 af2:maj7 df2:maj7
+  a2:m7 d2:7 g2:maj7 c2:maj7 cs2:m7 fs2:7 d2:m7 g2:5+
+
+  c4:m7 c4:m7/bf af2:7 c4:m7 c4:m7/bf af2:7 c2:m7 a2:m7.5- d2:m7.5- g2:7.5+
+  c4:m7 c4:m7/bf af2:7 c4:m7 c4:m7/bf a2:m7.5- af2:7 g2:7.5+ c2:m7 \textToCodaLastTime c2:m7/bf
+
+  af2:7 g2:7.5+ c1:m6
+  \set chordChanges = ##f
+}
+
+refrainHLChords = \chordmode {
   c2:m7 d4:7.5- g4:7.5+ c2:m7 af2:7 c2:m7 a2:m7.5- d2:m7.5- g2:7.5+
   c2:m7 d4:7.5- g4:7.5+ c2:m7 a2:m7.5- af2:7 g2:7.5+
   
@@ -59,6 +78,8 @@ refrainChords = \chordmode {
 
   af2:7 g2:7.5+ c1:m6
 }
+
+refrainChords = \refrainNicoChords
 
 refrainKey = c
 

@@ -15,15 +15,15 @@
     \new Staff {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
-	% Don't transpose bass line
-	  \bassIntro
+      %% Only transpose bass line in the same octave
+      \transpose \refrainKey \bassKey { \bassIntro }
 	}
     }
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-	% Don't transpose bass line
-      \bassIntro
+      %% Only transpose bass line in the same octave
+      \transpose \refrainKey \bassKey { \bassIntro }
       }
       #} )
   >>
@@ -46,15 +46,15 @@
     \new Staff \with {midiInstrument = "brass section"} {
       #(set-accidental-style 'modern)
       \context Voice = "voiceMelody" { 
-	% Don't transpose bass line
-	  \bassIntro
+      %% Only transpose bass line in the same octave
+      \transpose \refrainKey \bassKey { \bassIntro }
 	}
     }
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-	% Don't transpose bass line
-      \bassIntro
+      %% Only transpose bass line in the same octave
+      \transpose \refrainKey \bassKey { \bassIntro }
       }
       #} )
   >>

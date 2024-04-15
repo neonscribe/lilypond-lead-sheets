@@ -6,6 +6,7 @@
 
 instrument = "Bb for Standard Key"
 whatKey = fs
+bassKey = fs'
 whatClef = "treble"
 
 \include "../Core/Troublant Bolero - Ly Core - E.ly"

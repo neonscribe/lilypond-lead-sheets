@@ -123,6 +123,8 @@ codaMelody = \relative f' {
 }
 
 codaBass = \relative f' {
+  \time 4/4
+  \key \codaKey \major
   \clef bass
   
   ef,4 r8 ef8 bf4 df4 | ef4 r8 ef8 bf4 df4 |

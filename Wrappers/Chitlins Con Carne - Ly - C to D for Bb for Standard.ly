@@ -6,6 +6,7 @@
 
 instrument = "Bb for Standard Key"
 whatKey = d
+bassKey = d
 whatClef = "treble"
 
 \include "../Core/Chitlins Con Carne - Ly Core - C.ly"
