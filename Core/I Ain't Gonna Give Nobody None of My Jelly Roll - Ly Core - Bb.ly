@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \partial 4 f4 |
   \bar "||"
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   f4 g8 g8 a4 g4 | a8 g4 a8~ a8 fs8 g4 | bf8 g4 g8~ g2~ | g2. g4 |
   \break
@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   af4 g4 fs8 g4 d'8~ | d2. r4 | d4 c4 b8 c4 g8~ | g2. c4 |
   \break
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   f8 g4. a4 g4 | a8 g4 a8~ a4 g4 | bf8 g4 g8~ g2~ | g2. gs4 |
   \break
@@ -81,16 +81,16 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   c8 g4 g8~ g4 g4 | g2. g4 | bf8 f4 f8 f4 fs4 | g2. bf4 |
   \break
   c4 bf4 cs4 bf4 | cs8 d4 a8 bf4 a8 bf8 | c4 d8 d8 c4 a4 | bf2. r4 |
 
-  \bar "|."
+  \bar "||-|."
   \break
 
-  \mark \markup{ "Tag" }
+  \textMark \markup{ \bold \box "Tag" }
   
   bf8 a8 af4 g2 | d'8 cs8 d4 f8 d4. | bf2. r4 |
 

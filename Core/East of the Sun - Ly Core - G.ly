@@ -27,19 +27,19 @@ East of the sun and west of the moon. __
 }
 
 refrainChords = \chordmode {
-  g1:maj7 g1:maj7 b1:m7 e1:9
-  a1:m7 a1:m7 c1:m6 c1:m6
+  g1:maj7 g1:maj7 b1:m7 e1:7
+  a1:m7 a1:m7 c1:m7 f1:7
 
   a1:m7 d1:7 fs2:m7.5- b2:7 e1:m7
-  a1:13 a1:13 a1:m7 d1:13
+  a1:7 a1:7 a1:m7 d1:7
 
-  g1:maj7 g1:maj7 b1:m7 e1:9
-  a1:m7 a1:m7 c1:m6 c1:m6
+  g1:maj7 g1:maj7 b1:m7 e1:7
+  a1:m7 a1:m7 c1:m7 f1:7
 
-  a2:m7 d2:7 fs2:m7.5- b2:7 e1:m7 a1:7
-  a1:m7 c1:m6 b1:m7 bf1:m7 
+  a2:m7 a2:m7/g fs2:m7.5- b2:7.9- e1:m7 a1:7
+  a1:m7 c2:m6 d2:7 b1:m7 bf1:m7 
   
-  a1:m7  d1:7 g1:maj7 
+  a1:m7  d1:7 g1:6
   \chordOpenParen{ a2:m7 }
   \chordCloseParen{ d2:7 }
 }
@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Swing" 4 = 140
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   \tuplet 3/2 { d4 d4 d4 } fs2~ | fs2 e2 | \tuplet 3/2 { b4 b4 b4 } fs'2~ | fs1 |
   \break
@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
 
   \tuplet 3/2 { c'4 c4 c4 } \tuplet 3/2 { d4 d4 d4 } | | b1 | \tuplet 3/2 { fs4 fs4 fs4 } b4 b4 | g2. g4 |
   \break
@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   \tuplet 3/2 { d,4 d4 d4 } fs2~ | fs2 e2 | b8 b8 b8 b8 fs'2~ | fs1 |
   \break
@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
 
   c'4 b4 d4. c8 | b4 a4 c4. b8 | g8 g8 g8 g8 b4 b8 b8 | fs4 fs4 a2 |
   \break

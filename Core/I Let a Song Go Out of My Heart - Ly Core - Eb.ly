@@ -88,7 +88,7 @@ refrainMelody = \relative g' {
   \clef \whatClef
   \tempo "Swing" 4 = 120
 
-  \mark \markup { \box "A1, A2" }
+  \textMark \markup { \bold \box "A1, A2" }
   \bar ".|:"
   \repeat volta 2 {
     ef8 f8 ef8 ef'8~ ef4. c8 |
@@ -111,7 +111,7 @@ refrainMelody = \relative g' {
   \bar "||"
   \break
   \set Score.currentBarNumber = #17
-  \mark \markup { \box "B" }
+  \textMark \markup { \bold \box "B" }
   af!1~ | af4 c4 c4 b4 | bf!1~ |
   bf8 bf4. c4 d4 |
   \break
@@ -119,7 +119,7 @@ refrainMelody = \relative g' {
   b1 | c8 fs,4.~ fs2 |
   \bar "||"
   \break
-  \mark \markup { \box "A3" }
+  \textMark \markup { \bold \box "A3" }
   ef8 f8 ef8 ef'8~ ef4. c8 |
   \tuplet 3/2 { bf8 c bf } ef,2. |
   r8 d'4. c8 bf8 g8 d8 |

@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Jazz Waltz" 4 = 170
 
-  \mark \markup{ \box "A1, A2" }
+  \textMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   d2. | a'2. | g2. | c,2. | d4 e4 f4 | g2 a4 | b2( g4 | e2) r4 |
   \break
@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   
   g2. | g'2 f4 | e2 c4 | g2. | d'4 e4 f4 | e2 d4 | e2 c4 | g2. | 
   \break

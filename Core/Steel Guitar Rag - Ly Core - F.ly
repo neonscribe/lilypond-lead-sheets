@@ -68,41 +68,41 @@ refrainMelody = \relative f' {
   \partial 2. c4 c8 d8 f4 |
   \bar "||"
 
-  \mark \markup{ \box "A" }
+  \textMark \markup{ \bold \box "A" }
   
   a1~ | a4 c,4 c8 d8 f4 | a1~ | a4 c,4 c8 d8 f4 | a2 a4 g4 | f4 d4 c4 a4 | f1~ | f4 c'4 c8 d8 f4 |
   
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   a2. a4 | c2. a4 | af2 af4 g4 | f4 c4 c8 d8 f4 | a2 a4 g4 | f4( d4) c4 a4 | f1~ | f2. a'4 |
 
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
 
   bf4 bf4 g4 f4 | d2. bf'4 | a2 f4( d4) | c2. c4 | b4 g'4 d4 b4 | g'4( d4) b2 | e4 c'4 g4 e4 | c'4 g4 e4 a4 |
   
   \bar "||"
   \break
 
-  \mark \markup{ \box "D" }
+  \textMark \markup{ \bold \box "D" }
   
    bf2 g4( f4) | d2. bf'4 | a2 f4( d4) | c2. c4 | b4 g'4 d4 b4 | c'4 g4 e4 c4 | f1~ | f2. gs4 |
   
   \bar "||"
 
-  \mark \markup{ \box "E" }
+  \textMark \markup{ \bold \box "E" }
   \break
   
   a4 f'4 c4 a4 | f'4 c4 a4 gs4 | a4 f'4 c4 c4 | f2. gs,4 | a4 f'4 c4 a4 | f'4 c4 a4 ds,4 | e4 c'4 g4 e4 | c'2. gs4 |
 
   \bar "||"
 
-  \mark \markup{ \box "F" }
+  \textMark \markup{ \bold \box "F" }
   \break
   
   a4 f'4 c4 a4 | f'4 c4 a4 cs,4 | d4 bf'4 f4 d4 | bf'4 bf4 bf8 bf8 bf4 | a2 a4 a4 | c2 c4 c4 | f1~ | f2. r4 |

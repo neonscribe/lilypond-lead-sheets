@@ -2,10 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (if (string=? instrument "Bass for Standard Key")
-   (set-global-staff-size 16)
-   (set-global-staff-size 18)))
+#(set-global-staff-size 16)
 
 \header {
   title = "Chitlins Con Carne"
@@ -36,7 +33,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Jazz/Bossa Nova" 4 = 130
 
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -49,12 +46,12 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \mark \markup{ \musicglyph #"scripts.segno" \box "A" }
+  \textMark \markup{ \musicglyph #"scripts.segno" \bold \box "A" }
   \bar ":|.|:"
   \repeat volta 2 {
   g'4 c,8 ef8~ ef4 r4 | r4 c8 c8 ef8 c8 f8 c8~ | c4 r4 r2 | r4 c8 c8 ef8 c8 f8 c8 |
   \break
-  g'4 c,8 ef8~ ef4 r4 | r4 c8 c8 ef8 c8 f8 c8~ | c4 r4 r2 | r4 c8 c8 ef8 c8 f8 \textToCodaLastTime c8 |
+  g'4 c,8 ef8~ ef4 r4 | r4 c8 c8 ef8 c8 f8 c8~ | c4 r4 r2 | r4 c8 c8 ef8 c8 f8 c8 \textToCodaLastTime |
   \break
   g'8 bf4.~ bf4 gf8 f8~ | f4. c8 ef8 c8 f8 c8~ | c4 r4 r2 | r4
   \override Parentheses.font-size = #5
@@ -62,9 +59,10 @@ refrainMelody = \relative f' {
   c8 c8 ef8 c8 f8 
   \endParenthesis \parenthesize
   c8 |
-  \break
   }
-  \textCoda
+
+  \textCodaBreak
+
   \bar ":|.|:"
   \repeat volta 2 {
   g'8 bf4.~ bf4 gf8 f8~ | f4. c8 ef8 c8 f8 c8~ | c4_"FINE" r4 r2 | r4 c8 c8 ef8 c8 f8 c8 |
@@ -103,5 +101,5 @@ refrainKicksOverTime = \relative f' {
 
 \include "../Include/refrain-with-bass-with-kicks.ily"
 
-\markup { "Play " { \box "Intro" } " then " { \box "A" } " twice. Solo on " { \box "A" }
+\markup { "Play " { \bold \box "Intro" } " then " { \bold \box "A" } " twice. Solo on " { \bold \box "A" }
 	  "After solos, pickup, D.S. al Coda, vamp on coda until cue at FINE." }

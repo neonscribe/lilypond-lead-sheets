@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Equinox"
   subtitle = \instrument
@@ -47,7 +45,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -100,7 +98,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
   
-  \mark \markup{ \box "Head" }
+  \textMark \markup{ \bold \box "Head" }
 
   \bar ".|:"
   \repeat volta 2 {
@@ -119,7 +117,7 @@ solosKey = cs
 bassSolos = \relative f' {
   \time 4/4
   \key \solosKey \minor
-  \mark \markup{ \box "Solos" }
+  \textMark \markup{ \bold \box "Solos" }
 
   \clef bass
   \bar ":|.|:"
@@ -137,7 +135,7 @@ bassSolos = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain.ily"
+\include "../Include/refrain-no-note-names.ily"
 \include "../Include/bass-solos.ily"
 
 \markup "Play head twice before and twice after solos, tag last four bars for ending."

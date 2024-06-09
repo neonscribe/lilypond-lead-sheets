@@ -41,7 +41,7 @@ refrainMelody = \relative f' {
   \partial 8 bf,8 |
   \bar "||"
 
-  \mark \markup{ \box "Head" \musicglyph #"scripts.segno" }
+  \textMark \markup{ \bold \box "Head" \musicglyph #"scripts.segno" }
   
   ef8 gf4 ef16 gf16 af8 gf4 ef16 df16 | ef8 gf4 ef16 df16 ef4. bf8 |
   \break
@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \bar "|."
   \break
 
-  \mark \markup{ \box "Solos" }
+  \textMark \markup{ \bold \box "Solos" }
   
   \bar ".|:-||"
   \repeat volta 2 {
@@ -70,9 +70,9 @@ refrainMelody = \relative f' {
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \dalSegno \rsq |
   }
-  \break
+  \bar "||-:|."
 
-  \textCoda
+  \textCodaBreak
   
   \tuplet 3/2 { as'4 gs4 fs4 } \tuplet 3/2 { ds4 cs4 bf4 } |
   af'1~\fermata | af1~\fermata | af1\fermata | 

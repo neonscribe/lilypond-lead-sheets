@@ -14,6 +14,8 @@
       }
     \new Staff {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \codaKey \whatKey {
 	  \codaMelody
@@ -22,8 +24,8 @@
     }
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
-      \new NoteNames  \tiedNoteToSkip{ 
-      \noDoubleAccidentalMusic \transpose \codaKey \whatKey {
+      \new NoteNames \tiedNoteToSkip { 
+      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \codaKey \whatKey {
       \codaMelody
       } }
       #} )

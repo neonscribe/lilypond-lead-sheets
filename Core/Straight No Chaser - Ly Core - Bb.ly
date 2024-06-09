@@ -46,9 +46,10 @@ refrainMelody = \relative f' {
   \break
   df8 d8 ef8 f,8 fs8 g8 gs8 a8~ | a8 bf8 b8 c8 cs8 d8 ef8 f,8 \textToCodaLastTime |
   bf8 c8 df8 d8 r2 | r1 |
-  \bar "|."
-  \break
-  \textCoda
+  \bar "||-|."
+
+  \textCodaBreak
+
   bf8 c8 df8 d8~ d2~ | d1 |
 
   \bar "|."

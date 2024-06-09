@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Dorothy Fields"
   composer = "Jimmy McHugh"
-  copyright = "© 1930 Shapiro Bernstein & Co. Inc."
+  copyright = "© 1930 Shapiro, Bernstein & Co. Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -32,7 +32,7 @@ refrainLyrics = \lyricmode {
   She meant me for some -- one ex -- act -- ly like you. __
 }
 
-refrainChords = \chordmode {
+refrainNRTwoChords = \chordmode {
   bf1 bf1 c1:7 c1:7
   f1:7 f1:7 bf1 c2:m7 f2:7
 
@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Fast Swing" 4 = 175
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   d'4 a4 c4 g4 | bf8 bf8~ bf2. | d4 a4 c4 g8 bf8~ | bf1 |
   \break
@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   d'4 a4 c4 g4 | bf8 bf8~ bf2. | d4 a4 c4 g8 bf8~ | bf1 |
   \break
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   c'4 c4 c2~ | c4 b4 d8 c8 bf8 a8 | bf4 bf4 bf2~ | bf4 g4 a4 bf4 |
   \break
@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   d'4 a4 c4 g4 | bf8 bf8~ bf2. | d4 a4 c4 g8 bf8~ | bf1 |
   \break

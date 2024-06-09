@@ -2,7 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+$(if (and (defined? 'printNoteNames) printNoteNames
+      (string=? instrument "Eb for Standard Key"))
+   (set-global-staff-size 18))
 
 \header {
   title = "Elena's Bossa"
@@ -50,7 +52,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 160
 
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -63,7 +65,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A1,A2" }
+  \textMark \markup{ \bold \box "A1,A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -79,7 +81,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B1" }
+  \textMark \markup{ \bold \box "B1" }
   
   f2 c8 d8 c8 b8~ | b2~ b8 f'8 e8 d8 | e2 b8 c8 b8 a8~ | a2 e'4. d16 c16 |
   \break
@@ -90,7 +92,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B2" }
+  \textMark \markup{ \bold \box "B2" }
   
   <f d>8 <f d>8 <f d>8 <f d>8 <f d>8 <e c>8 r8 <d b>8~ |
   <d b>4 r8 <d b>8 <d b>8 <d b>8 <c a>8 <d b>8 |

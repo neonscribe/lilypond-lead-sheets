@@ -1,12 +1,13 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
+$(set-global-staff-size 18)
+
+$(if (and (defined? 'printNoteNames) printNoteNames
+      (string=? instrument "Bass for Standard Key"))
+   (set-global-staff-size 16))
+
 
 \header {
   title = "Sophisticated Lady"
@@ -70,7 +71,7 @@ refrainMelody = \relative f' {
 
   \partial 4 gf4 |
 
-  \mark \markup{ \box "A1, A2" }
+  \textMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -85,7 +86,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   % \key g \major
   
   r8 d,4 b8 e4 b8 g'8~ | g8 e8 b'4 fs8 e'4 as,8 | b4 f2. | e8 c'8 ef,2. |
@@ -97,7 +98,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   f2~ f8 af8 c8 ef8 | gf4 f4 e4 ef8 c8 | g2~ g8 f8 af8 c8 | ef4 d4 df4 c8 f8 |
   \break

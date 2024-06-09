@@ -57,13 +57,13 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Waltz" 4 = 150
 
-  \mark \markup{ \box "A1,A2,A4" }
+  \textMark \markup{ \bold \box "A1,A2,A4" }
   
   \bar ".|:"
   \repeat volta 2 {
   c4 f4 g4 | af2 bf4 | c4 bf4 af4 | g4 f4 ef4 |
   df2. | c'2. | bf2.~ | bf2 r4 | c,4 e4 f4 | g2 af4 |
-  bf4 df4 c4 | bf4 af4 \textToCoda g4 |
+  bf4 df4 c4 | bf4 af4 g4 \textToCodaLastTime |
   \alternative { \volta 1 {
   f2.~ | f2.~ | f2. | R2.*1 |
   } \volta 2 {
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   f2. | f2. | f2. | g4 af4 g4 |
   f2. | f2. | f2. | g4 af4 g4 |
@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   
   c,4 f4 g4 | af2 bf4 | c4 bf4 af4 | g4 f4 ef4 |
   df2. | c'2. | bf2.~ | bf2 r4 |
@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   \key \refrainKey \major
 
@@ -103,12 +103,11 @@ refrainMelody = \relative f' {
   c2 c4 | cs2 cs4 | d2 d4 | e2 e4 |
   f2 f4 | g2 g4 | a2 r4 | bf4 a4 bf4 |
   c2.~ | c2.~ | c4 r4 c4 | d4 bf4 g4 |
-  c2.~ | c2.~ | c2.~ | c2 \daCapo r4 |
+  c2.~ | c2.~ | c2.~ | c2 r4 \daCapo |
 
   \bar "|."
-  \break
   
-  \textCoda
+  \textCodaBreak
   
   \key \refrainKey \minor
 

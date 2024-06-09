@@ -50,7 +50,7 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempo "Tex-Mex Country Rock" 4 = 136
 
-  \mark \markup{ \box "Verse 1" }
+  \textMark \markup{ \bold \box "Verse 1" }
   
   c2 c8 bf8 a8 a8 | bf8 bf8 a4 g4. g8 | c,4 e4 g4. c8 | a1 |
   \break
@@ -59,13 +59,13 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "Verse 2" }
+  \textMark \markup{ \bold \box "Verse 2" }
   
   c8 c8 c8 c8~ c8 bf8 a8 a8 | bf4 a4 g4. g8 | c,4. e8 g8 c4 a8~ | a2. a8 bf8 |
   \break
   c4 c8 c8 c8( bf8) a4~ | a8 bf8 a8 g8~ g2  | c,8 c8 e8 g8 bf4 a4 | f2. r8 c8 |
 
-  \mark \markup{ \box "Chorus" }
+  \textMark \markup{ \bold \box "Chorus" }
   
   a'8 g8 a8 g8 a8 g4 f8 | g4 bf8 d,8~ d4. d8 | c4 e4 g4. c8 | d4 c2. |
   \break

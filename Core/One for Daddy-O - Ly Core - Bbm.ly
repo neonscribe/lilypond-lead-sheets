@@ -88,4 +88,8 @@ codaMelody = \relative f' {
 
 \include "../Include/refrain.ily"
 
+\markup {
+  \vspace #2
+}
+
 \include "../Include/coda.ily"

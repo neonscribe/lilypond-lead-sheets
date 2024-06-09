@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Bossa Nova" 4 = 160
   
-  \mark \markup{ \box A }
+  \textMark \markup{ \bold \box A }
 
   r4 r8 bf4 a4 bf8 | a4 g8 d4 ef4 f8~ | f1~ | f1 |
   \break
@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
   
-  \mark \markup{ \box B }
+  \textMark \markup{ \bold \box B }
 
   r4 r8 bf4 a4 bf8 | a4 g8 d4 ef4 f8~ | f1~ | f1 |
   \break

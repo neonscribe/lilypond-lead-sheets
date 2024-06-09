@@ -50,14 +50,14 @@ refrainMelody = \relative g {
   \clef bass
   \tempo 4 = 134
 
-  \mark \markup { "Intro" }
+  \textMark \markup { "Intro" }
 
   r1 | r1 | r1 | r1
 
   \bar ".|:-||"
   \break
 
-  \mark \markup { "Verse" }
+  \textMark \markup { "Verse" }
   
   \repeat volta 2 {
 
@@ -75,9 +75,7 @@ refrainMelody = \relative g {
     d4 \xNote { d8 } d4 d8 cs4( | fs4) \xNote { fs8 } fs8~ fs4 fs4 |
     \break
     a,4 \xNote { a8 } a4 cs8 e8 cs8 | e4 \xNote { e8 } e4. \xNote { e8 } e8 |
-    d4 \xNote { d8 } d8~ d4
-    \textToCoda
-    d4 |
+    d4 \xNote { d8 } d8~ d4 d4 \textToCoda |
     
   }
   
@@ -95,7 +93,7 @@ refrainMelody = \relative g {
   \bar "||"
 
   \break
-  \mark \markup { "Solo" }
+  \textMark \markup { "Solo" }
   
   a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |
   a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |
@@ -115,10 +113,9 @@ refrainMelody = \relative g {
   e8 |
   \bar "||"
   
-  \break
+  \textCodaBreak
 
-  \textCoda
-      g8 g8 g8 g8 d4 g4 |
+  g8 g8 g8 g8 d4 g4 |
   \repeat volta 2 {
     a4. a8 e4. a8 | 
     g8 d8 g8 d8 g8 d8 g8 d8 |

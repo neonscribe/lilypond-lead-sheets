@@ -41,7 +41,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -53,8 +53,10 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \mark \markup{ \box "Solos" }
+  \textMark \markup{ \bold \box "Solos" }
   
+  \bar ":|.|:"
+  \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
@@ -64,13 +66,13 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  
-  \bar "||"
+  }
+
   \break
 
-  \mark \markup{ \box "Outro" }
+  \textMark \markup{ \bold \box "Outro" }
   
-  \bar ".|:"
+  \bar ":|.|:"
   \repeat volta 2 {
   a4 c4 e2 | a,4 c8 e8 r8 e4. | d4 f4 a2 | d,4 f8 a8 r8 a4. |
   \break

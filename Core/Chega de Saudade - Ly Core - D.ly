@@ -68,7 +68,36 @@ When we set -- tle down
 There'll be no more blues.
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
+  d1:m d1:m7/c e1:7/b e1:7
+  e1:m7.5- a1:7.9- d1:m e2:m7.5- a2:7.9-
+  
+  d1:m b2:m7.5- e2:7 a1:m7 a1:m7
+  bf1:maj7 bf1:maj7 a1:7.9- a1:7.9-
+  
+  d1:m d1:m7/c e1:7/b e1:7
+  e1:m7.5- a1:7.9- d1:m d1:7.9-
+  
+  g2:m g2:m7/f a2:7/e a2:7 d1:m d1:m7/c
+  b1:m7.5- bf1:m6 d1:m a1:7
+  
+  d1:maj7 b1:7.5+/ds e1:m7 e1:m7
+  a2:sus7 a2:7 a1:7 d1:dim7 d1:maj7
+
+  fs1:m7 f1:dim7 e1:m7 e1:m7
+  e1:7 e1:7 e1:m7.5- a1:7
+  
+  d2:maj7 d2:maj7/cs b1:m7 e1:7 e1:7
+  fs1:7 fs1:7 b2:m7 bf2:m7 a2:m7 d2:7.9-
+  
+  g1:maj7 g1:m7 fs1:m7 b2:7 b2:7.5+
+  e1:7 e2:m7 a2:sus7/g fs1:m7 b1:7.5+
+  
+  e1:7 e2:m7 a2:sus7 d1:6
+  \chordInsideParens{ a1:7.5+ }
+}
+
+refrainNewRealChords = \chordmode {
   d1:m d1:m7/c e1:7/b e1:7/b
   a1:7.9-.5+ a1:7.9-.5+ d1:m e2:m7.5- a2:7
   
@@ -97,6 +126,8 @@ refrainChords = \chordmode {
   \chordInsideParens{ a1:7.5+ }
 }
 
+refrainChords = \refrainHLChords
+
 refrainKey = d
 
 refrainMelody = \relative f' {
@@ -105,7 +136,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Bossa Nova" 4 = 150
 
-  \mark \markup{ \box "A" }
+  \textMark \markup{ \bold \box "A" }
   
   f4. a,2 d8~ | d2~ d8 f4 e8~ | e4. b2 d8~ | d2~ d8 e4 f8~ |
   \break
@@ -118,7 +149,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
 
   f'4. a,2 d8~ | d2~ d8 f4 e8~ | e4. b2 d8~ | d2~ d8 e4 f8~ |
   \break
@@ -132,7 +163,7 @@ refrainMelody = \relative f' {
   \pageBreak
 
   \key \refrainKey \major
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   fs2.. a8~ | a4. g4 ds4 fs8~ | fs4. e8 ds8 e4 b'8~ | b4 g8 e4 b4 d8~ |
   \break
@@ -145,7 +176,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "D" }
+  \textMark \markup{ \bold \box "D" }
   
   fs4. a,2 b8~ | b2~ b8 fs'4 e8~ | e4. b2 d8~ | d2~ d8 e4 fs8~ |
   \break

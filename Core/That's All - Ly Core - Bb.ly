@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \partial 4 d8 ef8 |
   \bar "||"
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   f8 a8 f8 d8 f8 a8 f8 d8 | f8 f8~ f2 d8 ef8 |
   f8 a8 f8 d8 f8 a8 f8 d8 | f2. g8 a8 | bf8 d8 bf8 g8 bf4. g8 |
@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
 
   f8 a8 f8 d8 f8 a8 f8 d8 | f8 f8~ f2 d8 ef8 |
   f8 a8 f8 d8 f8 a8 f8 d8 | f2. g8 a8 | bf8 d8 bf8 g8 bf4. g8 |
@@ -90,7 +90,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   g4 bf,8 bf'8 g4 bf,8 bf'8 | g4 g2 bf,8 bf'8 |
   g4 bf,8 bf'8 g4 bf,8 bf'8 | g2. c,8 c'8 |
@@ -100,7 +100,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \pageBreak
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   f8 a8 f8 d8 f8 a8 f8 d8 | f8 f8~ f2 d8 ef8 | f8 a8 f8 d8 f8 a8 f8 d8
   | f2. g8 a8 | bf8 d8 bf8 g8 bf4. g8 | bf8 d8 bf8 g8 bf4. g8 | f2. d4
@@ -145,6 +145,11 @@ codaMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
+
+\markup {
+  \vspace #2
+}
+
 \include "../Include/coda.ily"
 
 performanceNotes =

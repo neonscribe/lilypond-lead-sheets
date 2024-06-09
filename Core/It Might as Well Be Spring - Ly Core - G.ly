@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 130
 
-  \mark \markup{ \box "A" }
+  \textMark \markup{ \bold \box "A" }
 
   \partial 4 d8 d8 |
   
@@ -105,16 +105,17 @@ refrainMelody = \relative f' {
   
   \break
   \set Score.currentBarNumber = #17
-  \mark \markup { \box "B" }
+  \textMark \markup { \bold \box "B" }
 
   c4 c4 c8 d8 c8b8 | a4 f4 f2 |
   a8 f8 f8 f8 f4 e4 | g1 |
   \break
   c4 c4 c8 d8 c8 b8 | a4 fs4 fs4 g8 a8 |
-  b4 b4 cs4 cs4 | d2. d,8 \dalSegno d8 |
-  \bar "|."
-  \break
-  \textCoda
+  b4 b4 cs4 cs4 | d2. d,8 d8 \dalSegno |
+  \bar "||"
+
+  \textCodaBreak
+
   e8 e8 ds8 e8 fs!8 fs8 es8 fs8 | g4 g2 fs?8 g8 |
   a4 a4 a4 fs4 | b2. b8 c8 |
 

@@ -31,7 +31,7 @@ verseMelody = \relative f' {
   \clef \whatClef
   \tempo "Freely"
 
-  \mark \markup{ "Verse" }
+  \textMark \markup{ "Verse" }
   
   \partial 4 af8 g8 |
   \bar "||"
@@ -91,7 +91,7 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempo "Medium Ballad" 4 = 65
 
-  \mark \markup{ "Refrain" \box "A" }
+  \textMark \markup{ "Refrain" \bold \box "A" }
   
   r8 c8 b8 c8 bf4. af8 | g8 af8 g2. | r8 af8 g8 af8 g4. f8 | ef1 |
   \break
@@ -100,7 +100,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   r8 ef8 d8 ef8 d4. c8 | b2~ b8 g8 af8 g8 | c2. bf8 c8 | af2~ af8 g8 af8 g8 |
   \break

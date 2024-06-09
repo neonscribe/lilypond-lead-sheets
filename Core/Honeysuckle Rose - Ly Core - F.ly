@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Swing" 4 = 150
 
-  \mark \markup{ \box "A1,A2" }
+  \textMark \markup{ \bold \box "A1,A2" }
   \bar ".|:"
   \repeat volta 2 {
   c'8 bf8 d,8 f8 a2 |
@@ -67,14 +67,14 @@ refrainMelody = \relative f' {
   } } }
   \bar "||"
   \break
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
 
   f2 g2 | gs2 a2 | r4 bf8 c8~ c8 bf8 c4 | df4 c8 bf8~ bf2 |
   \break
   g2 a2 | as2 b2 | r4 c8 d8~ d8 c8 d4 | ef4 d8 c8~ c2 |
   \bar "||"
   \break
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   c8 bf8 d,8 f8 a2 |
   c8 bf8 d,8 f8 a2 |

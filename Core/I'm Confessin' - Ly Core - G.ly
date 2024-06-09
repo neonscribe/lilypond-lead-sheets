@@ -22,7 +22,7 @@ refrainLyrics = \lyricmode {
   
   I a -- fraid some -- day you'll leave me,
   Say -- ing “Can't we still be friends?”
-  If you go, you know you'l grieve me, All in life on you de -- pends.
+  If you go, you know you'll grieve me, All in life on you de -- pends.
   
   Am I guess -- in' that you love me,
   Dream -- ing dreams of you in vain,
@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 115
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
 
   d8 e8 fs8 g8 fs4 d4 | fs4 fs2. | d8 e8 fs8 g8 fs4 d4 | fs1 |
   \break
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   d,8 e8 fs8 g8 fs4 d4 | fs4 fs2. | d8 e8 fs8 g8 fs4 d4 | fs1 |
   \break
@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   f8 g8 a8 c8 b4 f4 | a4 a2. | g8 a8 b8 c8 b4 g4 | a1 |
   \break
@@ -94,7 +94,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   d,8 e8 fs8 g8 fs4 d4 | fs4 fs2. | d8 e8 fs8 g8 fs4 d4 | fs1 |
   \break

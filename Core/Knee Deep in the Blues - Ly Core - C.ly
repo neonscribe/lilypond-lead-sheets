@@ -30,7 +30,7 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempo "Western Swing" 4 = 160
 
-  \mark \markup{ "Intro" }
+  \textMark \markup{ "Intro" }
 
   \partial 2. g4 a4 c4 |
   \bar "||"
@@ -94,7 +94,7 @@ refrainMelody = \relative f' {
   \partial 4 g4 |
   \bar "||"
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   g2 a4 g4 | bf2 c4 c4 | a4. f8~ f2 | r1 |
   r4 e'4 c4 g4 | c4. bf8~ bf4 af4 | g2 r2 | r1 |
@@ -102,7 +102,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   r4 g4 a4 g4 | bf2 c4 c4 | a4. f8~ f2 | r1 |
   r4 e'4 c4 g4 | b2 a4 b4 | c1 | r1 |
@@ -110,7 +110,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   r4 f,4 a4 c4 | ef2 d4 c4 | a4 g2. | r1 |
   r4 f4 a4 c4 | ef2. c4 | g4. g4 a8 as4 | b2 r2 |
@@ -118,7 +118,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   r4 g4 a4 g4 | bf2 c4 c4 | a4. f8~ f2 | r2 r4 ds'4 |
   e2 c4 g4 | b2 a4 b4 | c1 | r1 |
@@ -146,7 +146,7 @@ soloMelody = \relative f' {
   \time 4/4
   \key \soloKey \major
 
-  \mark \markup{ "Solos" }
+  \textMark \markup{ "Solos" }
   \set Score.currentBarNumber = #1
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

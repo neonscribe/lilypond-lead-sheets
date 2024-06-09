@@ -2,7 +2,8 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 18))
 
 \header {
   title = "Troublant Bolero"
@@ -25,7 +26,7 @@ bassIntro = \relative f' {
   \clef bass
   \tempo "Bolero" 4 = 110
 
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
 
   r4 e,8 e8 ds4 e4 | e,4 e'8 e8 ds4 e4 | e,4 e'8 e8 ds4 e4 | e,4 e'8 e8 ds4 e4 |
    e,4 e'8 e8 ds4 e4 | e,4 e'8 e8 ds4 e4 | e,4 e'8 e8 ds4 e4 |
@@ -63,7 +64,7 @@ refrainMelody = \relative f' {
   \partial 2 b,2 |
   \bar "||"
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   b'1 | r4 gs8 a8 b4 g8 a8 | b4. b8~ b2 | r4 g8 a8 b4 a8 gs8 |
   a4. a8 a2 | g2.. fs16 e16 | fs1~ | fs4 r4 b,2 |
@@ -71,7 +72,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   b'1 | r4 gs8 a8 b4 g8 a8 | b4. b8~ b2 | r4 g8 a8 b4 a8 gs8 |
   a4. a8 a2 | fs2.. e16 ds16 | e1~ | e4 r4 e2 |
@@ -79,7 +80,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   <e' c>1~ | <e c>4 <c a>8 <d b>8 <e c>4 <d b>8 <cs as>8 | 
   <cs as>4. <ds b>8 <ds b>2~ | <ds b>4 <b g>8 <c a>8 <d b>4 <c a>8 <b gs>8 |
@@ -89,7 +90,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   b1 | r4 gs8 a8 b4 g8 a8 | b4. b8~ b2 | r4 g8 a8 b4 a8 gs8 |
   a1 | g2 \tuplet 3/2 { fs4 e4 d4 } | e1~ | e4 r4 r2 |

@@ -45,7 +45,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Swing" 4 = 160
 
-  \mark \markup{ \box "A" }
+  \textMark \markup{ \bold \box "A" }
   
   g,1 | c1 | ef1 | g1 |
   g1 | f2. c4 | ef1 | d2. g,4 |
@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   c2. d4 | ef2. \tuplet 3/2 { e8 f8 gf8 } | g2. g4 | bf2 bf,8 d8 f8 af8 |
   \break
@@ -64,7 +64,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   ef2.~ ef8 d16 ef16 | d1 | r4 d4 ef4 b4 | d2 c4 c,16 d16 ef16 g16 |
   \break
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "D" }
+  \textMark \markup{ \bold \box "D" }
   
   g1 | gf1 | g1 | af4 r8 c,8 d8 f8 af8 c8 |
   \break
@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "E1" }
+  \textMark \markup{ \bold \box "E1" }
   
   f8 r8 f8 c'8~ c4 r4 | r4 f,8 r8 g8 f8 ef8 d8 |
   ef8 d8 ef8 c'8~ c4 r4 | r4 ef,8 f8~ f8 ef8 d8 c8 |
@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "E2" }
+  \textMark \markup{ \bold \box "E2" }
   
   e8 f8~ f4 c'4 c4~ | c2. f,8 g8 |
   \tuplet 3/2 { ef4 d4 ef4 } c'2 | r8 d8 ef8 d8 f8 ef8 d8 ef8 |

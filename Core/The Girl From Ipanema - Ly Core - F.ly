@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Bossa Nova" 4 = 130
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   g4. e8 e8 d4 g8~ | g4 e8 e8~ e8 e8 d8 g8~ | g4 e4 e4 d8 g8~ | g8 g8 e8 e8~ e8 e8 d8 f8~ |
   \break
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   g'4. e8 e8 d4 g8~ | g4 e8 e8~ e8 e8 d8 g8~ | g4 e4 e4 d8 g8~ | g8 g8 e8 e8~ e8 e8 d8 f8~ |
   \break
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   f1~ | \tuplet 3/2 { f4 gf4 f4 } \tuplet 3/2 { ef4 f4 ef4 } |
   cs4. ds8~ ds2~ | ds2. r8 gs8~ |
@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   g4. e8 e8 d4 g8~ | g4 e8 e8~ e8 e8 d8 g8~ | g4 e4 e4 d8 g8~ | g8 g8 e8 e8~ e8 e8 d8 a'8~ |
   \break

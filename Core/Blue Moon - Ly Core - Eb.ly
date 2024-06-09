@@ -2,7 +2,8 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 18))
 
 \header {
   title = "Blue Moon"
@@ -63,7 +64,28 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ bf4:7 }
 }
 
-refrainChords = \refrainNewRealChords
+refrainAlternateChords = \chordmode {
+  s4
+  
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
+  df2:9.11+ c2:7.9+ b2:9 bf2:7.9+ a2:7.5- af2:m7 gf2:7 e2:maj7
+
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7 
+  df2:9.11+ c2:7.9+ b2:9 bf2:7.9+ a2:7.5- af2:m7 gf2:7.5- c2:7.9+.11+
+
+  f2:m7 bf2:7 ef1:6 f2:m7 bf2:7 ef1:6 
+  af2:m7 df2:7 gf1:maj7 bf2/f f2:7 f2:m7/bf bf2:7
+
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
+  df2:9.11+ c2:7.9+ b2:9 bf2:7.9+ a2:7.5- af2:m7
+  \chordOpenParen{ gf2:7 }
+  \chordCloseParen{ e2:maj7 }
+}
+
+refrainChords = 
+   $(if (and (defined? 'useAlternateChords) useAlternateChords)
+     refrainAlternateChords
+     refrainHLChords)
 
 refrainKey = ef
 
@@ -76,28 +98,28 @@ refrainMelody = \relative f' {
   \partial 4 bf4 |
   \bar "||"
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   bf1 | r8 af8 bf8 c8 bf8 bf8 af8 bf8~ | bf1 | r8 f8 g8 af8 g8 g8 f8 g8~ |
   g1 | r8 ef8 f8 g8 ef8 ef8 ef8 ef8~ | ef1 | r2 r4 bf'4 |
   
   \bar "||"
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   bf1 | r8 af8 bf8 c8 bf8 bf8 af8 bf8~ | bf8 bf4.~ bf2 | r8 f8 g8 af8 g8 g8 f8 g8~ |
   g8 g4.~ g2 | r8 ef8 f8 g8 ef8 ef8 ef8 ef8~ | ef8 ef4.~ ef2 | r2 r8 ef8 ef8 ef8 |
   
   \bar "||"
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   f8 f8 f8 f8 g4 g4 | ef8 ef4.~ ef8 ef8 ef8 ef8 | f8 f8 f8 f8 g4 g4 | ef2 r8 ef8 ef8 ef8 |
   ef8 ef8 ef8 ef8 f4 f4 | df8 df4.~ df8 df8 df8 df8 | d8 d8 d8 d8 f4 f4 | bf2. bf4 |
 
   \bar "||"
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   bf1 | r8 af8 bf8 c8 bf8 bf8 af8 bf8~ | bf1 | r8 f8 g8 af8 g8 g8 f8 g8~ |
   g1 | r8 ef8 f8 g8 ef8 ef8 ef8 ef8~ | ef1 | r1 |

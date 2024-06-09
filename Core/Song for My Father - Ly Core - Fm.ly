@@ -48,13 +48,13 @@ refrainMelody = \relative f' {
   \partial 8 r8 |
   \bar "||"
 
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
   
   r1 | r1 | r1 | r2 r8 c8-. f8-. af8-. |
   
   \break
 
-  \mark \markup{ \box "A1, A2" }
+  \textMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:-||"
   \repeat volta 2 {
@@ -72,13 +72,13 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   <ef c>8 <df bf>8 r8 <f df>8~ <f df>2~ | <f df>2 r8 <f df>8-. <f df>8-. <f df>8-. |
   <f df>8 <ef c>8 r8 <g ef>8~ <g ef>2~ | <g ef>2 r8 <ef c>8-. <ef c>8-. <ef c>8-. |
   \break
-  <ef c>8 <df bf>8 r8 <f df>8~ <f df>2 | r2 <af e>4. <bf g>8~ |
-  \textToCodaLastTime <bf g>1~ | <bf g>2 
+  <ef c>8 <df bf>8 r8 <f df>8~ <f df>2 | r2 <af e>4. <bf g>8~ \textToCodaLastTime |
+  <bf g>1~ | <bf g>2 
   {
     \override Parentheses.font-size = #5
     \startParenthesis \parenthesize r8
@@ -87,9 +87,9 @@ refrainMelody = \relative f' {
   } |
   
   \bar "|."
-  \break
   
-  \textCoda
+  \textCodaBreak
+
   <bf g>1~\repeatTie | <bf g>1 |
   \bar ".|:"
   \repeat volta 2 {

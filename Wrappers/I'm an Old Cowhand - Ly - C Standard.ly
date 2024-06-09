@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Standard Key"
+instrument = "Cowboy Key"
 whatKey = c
 whatClef = "treble"
 

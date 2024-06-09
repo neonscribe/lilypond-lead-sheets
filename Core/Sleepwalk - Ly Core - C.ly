@@ -41,7 +41,7 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempo "Slowly" 4 = 68
 
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
   
   \tuplet 3/2 { r8 e8 e8 } \tuplet 3/2 { e8 e8 e8 } \tuplet 3/2 { r8 a8 a8 } \tuplet 3/2 { a8 a8 a8 } |
   \tuplet 3/2 { r8 af,8 af8 } \tuplet 3/2 { af8 af8 af8 } bf4 \ottava #1 { \tuplet 3/2 { g''8 a8 e'8~ } |
@@ -51,7 +51,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   c2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 | c'2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 |
   \break
@@ -61,7 +61,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   c,2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 | c'2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 |
   \break
@@ -71,7 +71,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   a'8 a4. e'4~ \tuplet 3/2 { e8 d8 c8 } | af2 e'4~ \tuplet 3/2 { e8 d8 c8 } | 
   g2 a4~ \tuplet 3/2 { a8 ds,8 e8 } | g2~ g4. c,8 |
@@ -82,7 +82,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   c,2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 | c'2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 |
   \break

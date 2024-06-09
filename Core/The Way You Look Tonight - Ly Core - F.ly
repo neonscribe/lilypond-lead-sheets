@@ -53,7 +53,7 @@ introMelody = \relative g' {
 
   \tempo "Med.-Up Swing"
 
-  \mark \markup{ Intro }
+  \textMark \markup{ Intro }
   \bar ".|:"
 
   \repeat volta 2 {
@@ -90,7 +90,7 @@ refrainMelody = \relative g' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \mark \markup{ \box A }
+  \textMark \markup{ \bold \box A }
   \bar ".|:"
 
   \repeat volta 2 {
@@ -154,7 +154,7 @@ refrainMelody = \relative g' {
       \break
      }
   }
-  \mark \markup{ \box B }
+  \textMark \markup{ \bold \box B }
 
   c'2 c2 | c2 c2 | c4 ef4 df4 bf4~ | bf1 |
     \break
@@ -166,7 +166,7 @@ refrainMelody = \relative g' {
   \bar "||"
     \pageBreak
 
-  \mark \markup{ \box C }
+  \textMark \markup{ \bold \box C }
 
   c1 | f,1 | g4 a4 bf4 a4 | g1 |
     \break
@@ -190,7 +190,7 @@ refrainMelody = \relative g' {
       >>
      \oneVoice
 
-  \textToCoda
+  \textToCodaLastTime
   \bar "|."
 }
 
@@ -227,6 +227,10 @@ codaMelody = \relative g' {
 \include "../Include/intro.ily"
 
 \include "../Include/refrain-two-verses-no-note-names.ily"
+
+\markup {
+  \vspace #2
+}
 
 \include "../Include/coda.ily"
 

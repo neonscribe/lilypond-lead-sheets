@@ -56,7 +56,7 @@ refrainNicoChords = \chordmode {
   a2:m7 d2:7 g2:maj7 c2:maj7 cs2:m7 fs2:7 d2:m7 g2:5+
 
   c4:m7 c4:m7/bf af2:7 c4:m7 c4:m7/bf af2:7 c2:m7 a2:m7.5- d2:m7.5- g2:7.5+
-  c4:m7 c4:m7/bf af2:7 c4:m7 c4:m7/bf a2:m7.5- af2:7 g2:7.5+ c2:m7 \textToCodaLastTime c2:m7/bf
+  c4:m7 c4:m7/bf af2:7 c4:m7 c4:m7/bf a2:m7.5- af2:7 g2:7.5+ c2:m7 c2:m7/bf
 
   af2:7 g2:7.5+ c1:m6
   \set chordChanges = ##f
@@ -74,7 +74,7 @@ refrainHLChords = \chordmode {
   a2:m7 d2:7 g2:maj7 c2:maj7 cs2:m7 fs2:7 d2:m7 g2:5+
 
   c2:m7 d4:7.5- g4:7.5+ c2:m7 af2:7 c2:m7 a2:m7.5- d2:m7.5- g2:7.5+
-  c2:m7 d4:7.5- g4:7.5+ c2:m7 a2:m7.5- af2:7 g2:7.5+ c2:m7 \textToCodaLastTime c2:m7/bf
+  c2:m7 d4:7.5- g4:7.5+ c2:m7 a2:m7.5- af2:7 g2:7.5+ c2:m7 c2:m7/bf
 
   af2:7 g2:7.5+ c1:m6
 }
@@ -89,7 +89,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 110
 
-  \mark \markup{ \box "A1, A2" }
+  \textMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -105,7 +105,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   c8 c4.~ c8 c8 bf8 ef,8~ | ef8 ef4.~ ef2 | c'8 c4 c16 b16 c4 bf8 ef,8~ | ef2. c'4 |
   \break
@@ -114,18 +114,18 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   
   r8 c,8 g'8 gf8~ gf4. f8 | ef4 \tuplet 3/2 { ef8 c8 ef8~ } ef2 |
   r8 c8 ef8 g8 d'8 d8 c8 g8~ | g1 |
   \break
   r8 c,8 g'8 gf8~ gf4. f8 | ef8 ef8 c8 ef8~ ef4. c8 | ef8 c8 ef8 c8 ef4 ef8 c8~ |
-  c1 |
+  c1 \textToCodaLastTime |
   
-  \bar "|."
-  \break
+  \bar "||-|."
 
-  \textCoda
+  \textCodaBreak
+
   \tempo "Rubato"
 
   ef8 c8 ef8 c8 bf'8 g8( f8) g8~ | g1\fermata |

@@ -2,6 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 18))
+
 \header {
   title = "Almost Like Being in Love"
   subtitle = \instrument
@@ -36,24 +39,21 @@ All the
 }
 
 refrainChords = \chordmode {
-  bf2:7
+  s2
 
-  ef1:maj7 f1:7 bf1:maj9 d2:m7 g2:7
-  c1:m7 f2:sus9 f2:7.9- bf1:6
-  \chordOpenParen{ f2:m7 }
-  \chordCloseParen{ bf2:7 }
+  ef1:maj7 f1:7 d1:m7 g1:7
+  c1:m7 f2:sus9 f2:7.9- bf1:6 bf2:6
+  \chordInsideParens{ bf2:7.5+ }
 
-  a1:m7 d1:7 g1:maj7 g1:maj7
+  a1:m7 d1:7 g1:maj7 g1:6
   g1:m7 c1:7 a1:m7 d1:7
 
-  ef1:maj7 f1:7 bf1:maj9 d2:m7 g2:7
-  c1:m7 f2:sus9 f2:7.9- bf1:6
-  f2:m7
-  bf2:7
+  ef1:maj7 f1:7/ef d1:m7 g1:m7
+  c1:m7 f2:sus9 f2:7.9- bf1:6 f2:m7 bf2:7
 
   c1:m7 cs1:dim7 bf1:6/d cs1:dim7
-  c1:m9 c2:m9 f2:7.9- d1:7 d2:7 cs2:dim7
-  c1:m9 c2:m9 f2:7.9- bf1:6 bf1:6
+  c1:m7 f2:sus9 f2:7.9- d1:7 d2:7 cs2:dim7
+  c1:m7 f2:sus9 f2:7.9- bf1:6 bf1:6
 }
 
 refrainKey = bf
@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
 
-  \mark \markup{ \box "A1, A2" }
+  \textMark \markup{ \bold \box "A1, A2" }
   
   d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 a4 |
   \break
@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
 
   d2 a4 b4 | c2 e4 d4 | b1~ | b4 r4 g4 a4 |
   \break
@@ -86,15 +86,16 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
-  d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 \textToCodaLastTime a4 |
+  d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 a4 \textToCodaLastTime |
   \break
   r4 bf4 g4 a4 | bf4 g2 a4 | bf1~ | bf4 r4 bf4 c4 |
 
   \bar "|."
 
-  \textCoda
+  \textCodaBreak
+  
   bf2 g4 a4 | bf4 g2 g8 a8 | bf2 g4 a4 | bf4 g2 bf4 |
   \break
   d2 bf4 c4 | d4 d4 c2 | d1~ | d2 r4  bf4 |

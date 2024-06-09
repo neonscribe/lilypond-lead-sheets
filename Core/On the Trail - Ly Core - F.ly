@@ -25,7 +25,7 @@ verseMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 130
   
-  \mark \markup{ "Intro" }
+  \textMark \markup{ "Intro" }
   
   \tuplet 3/2 { c4 r4 c'4 } \tuplet 3/2 { c,4 r4 c'4 } | \tuplet 3/2 { c,4 r4 c'4 } \tuplet 3/2 { d,4 e4 f4 } |
   \tuplet 3/2 { c4 r4 c'4 } \tuplet 3/2 { c,4 r4 c'4 } | \tuplet 3/2 { c,4 r4 c'4 } \tuplet 3/2 { d,4 e4 f4 } |
@@ -65,7 +65,7 @@ refrainMelodyOne = \relative f' {
   \partial 4 a4 |
   \bar "||"
 
-  \mark \markup{ "Refrain" \box "A" }
+  \textMark \markup{ "Refrain" \bold \box "A" }
 
   c1 | r2 r4 a4 | c,1 | r2 r4 a'4 |
   \break
@@ -74,7 +74,7 @@ refrainMelodyOne = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   df1 | r2 r4 b4 | af1 | r2 r4 a4 |
   \break

@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Up" 4 = 206
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
@@ -64,7 +64,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   c8 c8 bf8 af8 bf4 af8 bf8 | c8 c8 bf8 af8 bf8 af4 bf8 |
   c8 c8 bf8 g8 bf4 g8 bf8 | c8 bf4.~ bf4 g8 bf8 |
@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |

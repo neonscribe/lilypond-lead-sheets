@@ -95,13 +95,12 @@ refrainMelody = \relative f' {
   b2.~ | b2.~ | b2.~ | b2. | c2.~ | c2 bf4 |
   c2.~ | c2 bf4 | c4 bf4 af4 | g2 d4 | f2 ef4 | c'4 bf4 af4 |
   g2 af4 | g2 d4 | ef4 g4 bf4 | d4 ef4 c4 |
-  bf2.~ | bf2.~ | bf2.~ |
-  \mark \markup { \small \italic "D.C. al Coda" }
-  bf2. |
+  bf2.~ | bf2.~ | bf2.~ | bf2. \daCapo |
 
   \bar "||"
-  \break
-  \textCoda
+
+  \textCodaBreak
+
   c2. ~ | c2. | r4 d4 c4 | d4 c4 d4 | bf2.~ | bf2. | r4 bf4 af4 |
   bf4 af4 bf4 | g2.~ | g2.~ | g2. | r4 f4 ef4 | f4 ef4 f4 | ef4 f4 ef4 |
   c'2. | d,2. | ef2.( | bf'2.) |

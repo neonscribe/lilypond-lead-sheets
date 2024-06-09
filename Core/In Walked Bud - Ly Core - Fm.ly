@@ -40,7 +40,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Up Swing" 4 = 180
 
-  \mark \markup{ \box "A1,A2" }
+  \textMark \markup{ \bold \box "A1,A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   f'8 g8 af4-. bf4 af8 bf8 | af4-. bf4 af8 bf8 af4-. |
   <<
@@ -87,7 +87,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   
   f8 c'4. r4 f,4-. | e8 c'4. r4 e,4-. | ef8 c'4. r4 ef,4 | d8 bf'8 r4 df,2 |
   \break
@@ -110,4 +110,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain.ily"
+\include "../Include/refrain-no-note-names.ily"

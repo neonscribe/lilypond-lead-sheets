@@ -39,7 +39,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   r4 cs8 d8 as'8 b4. | cs,8 d8 as'8 b8~ b4 r4 |
   r4 cs,8 d8 bf'8 e,4. | cs8 d8 bf'8 e,8~ e4 r4 |
@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   r4 ds8 e8 c'8 cs4. | ds,8 e8 c'8 cs8~ cs4 r4 |
   r4 ds,8 e8 c'8 fs,4. | ds8 e8 c'8 fs,8~ fs4 r4 |
@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   r2 cs8 ds8 fs8 gs8 | a4 gs8 a8 fs4 ds4 |
   r2 cs8 ds8 fs8 a8 | r8 a4 gs8 fs4 ds4 |
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   r4 ds,8 e8 c'8 cs4. | ds,8 e8 c'8 cs8~ cs4 r4 |
   r4 ds,8 e8 c'8 fs,4. | ds8 e8 c'8 fs,8~ fs4 r4 |
@@ -81,10 +81,9 @@ refrainMelody = \relative f' {
   r4 cs8 d8 as'8 b4. | cs,8 d8 as'8 b8~ b4 r4 |
   r4 cs,8 d8 bf'8 e,4. \textToCodaLastTime | cs8 d8 bf'8 e,8~ e4 r4 |
 
-  \bar "|."
-  \break
+  \bar "||-|."
 
-  \textCoda
+  \textCodaBreak
   
   cs8 d8 as'8 b8~ b4 a8 c8~ | c1\fermata
 

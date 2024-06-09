@@ -30,14 +30,14 @@ Beau -- ti -- ful
 refrainChords = \chordmode {
   s1
   
-  e1:m7.5- a1:7.5+ d1:m6 d1:m6
+  e1:m7.5- a1:7.5+ d1:m d1:m
   g1:m7 c1:7 f1:maj7 e2:m7.5- a2:7
   
-  d1:m7 g1:m7 bf1:7 a1:7
+  d1:m g1:m7 bf1:7.11+ a1:7
   
-  d1:m7 g1:7.11+ e1:m7.5- a1:7
+  d1:m g1:7.11+ e1:m7.5- a1:7
   
-  d2:m b2:7.9+ bf2:8 a2:7 d1:m d1:m
+  d2:m b2:7.9+ bf2:7 a2:7 d1:m d1:m
 }
 
 refrainKey = d
@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
 
   r8 d4. e4 f4 |
 
-  \mark \markup{ \box "A1, A2" }
+  \textMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B,C" }
+  \textMark \markup{ \bold \box "B,C" }
   
   e4. d8~ d4 a4 | c4. bf8~ bf4 d,4 | e1 | r8 e4. f4 g4 |
   \break

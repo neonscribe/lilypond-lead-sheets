@@ -2,6 +2,9 @@
 
 #(set-global-staff-size 18)
 
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 16))
+
 \include "../Include/lead-sheets.ily"
 
 \header {
@@ -42,16 +45,16 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempo "Fast Swing" 4 = 200
 
-  \mark \markup{ \box "Intro/Outro" }
+  \textMark \markup{ \bold \box "Intro/Outro" \musicglyph #"scripts.segno" }
   
   d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | 
   \break
-  d8 d8 d8 d8~ d2 \textToCoda | d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | d1 |
+  d8 d8 d8 d8~ d2 \textToCodaLastTime | d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | d1 |
   
   \bar ".|:-||"
   \break
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   \repeat volta 2 {
 
@@ -62,7 +65,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | \tuplet 3/2 { d8 ef8 d8 } cs8 d8 f8 ef8 bf8 c8 | d2 r2 |
   \break
@@ -71,7 +74,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   af4. bf8 cf8 df8 ef8 f8 | gf4. f8~ f4 r8 ef8~ | ef8 cf8 af8 gf8 f4 \tuplet 3/2 { gf8 af8 gf8 } | f1 |
   \break
@@ -80,16 +83,14 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   
   d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | \tuplet 3/2 { d8 ef8 d8 } cs8 d8 f8 ef8 bf8 c8 | d2 r2 |
   \break
-  c8 c4 c8 c8 cs8 d4 | bf4. g8~ g2 | \tuplet 3/2 { af4 af4 af4 } af8 bf4 g8~ | g2 r2 |
+  c8 c4 c8 c8 cs8 d4 | bf4. g8~ g2 | \tuplet 3/2 { af4 af4 af4 } af8 bf4 g8~ | g2 r2 \dalSegnoLastTime |
   }
 
-  \break
-  
-  \textCoda
+  \textCodaBreak
   
   d'8 d8 d8 d8~ d2 | r8 d8 df4 c4 b4 | bf8 a8 af8 g8 r8 d'8 g,4 |
   

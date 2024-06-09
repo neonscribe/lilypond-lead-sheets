@@ -14,6 +14,8 @@
       }
     \new Staff {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
 	% Transpose bass line only in the same octave
 	\transpose \solosKey \bassKey \bassSolos
@@ -23,7 +25,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
 	% Don't transpose bass line
-      \bassSolos
+      \removeWithTag modernCodas \bassSolos
       }
       #} )
   >>
@@ -45,6 +47,8 @@
       }
     \new Staff \with {midiInstrument = "brass section"} {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
 	% Don't transpose bass line
 	  \bassSolos
@@ -54,7 +58,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
 	% Don't transpose bass line
-      \bassSolos
+      \removeWithTag modernCodas \bassSolos
       }
       #} )
   >>

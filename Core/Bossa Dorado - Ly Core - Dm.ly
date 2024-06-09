@@ -44,7 +44,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Fast Gypsy Bossa" 4 = 184
 
-  \mark \markup{ \box { "Intro/Outro" } }
+  \textMark \markup{ \bold \box { "Intro/Outro" } }
   
   a4 f'4 a,8 f'8 a,8 as8~ | as8 f'4 as,8 as4 f'8 as,8 | b4 f'4 b,8 f'8 b,8 bf8~ | bf8 f'4 bf,8 bf4 f'8 bf,8 |
   \break
@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \bar "|."
   \break
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   a8 f'8 a,8 f'8~ f2 | r8 a,8 a'8 bf8 a8 f8 d8 a8 | gs8 f'8 gs,8 e'8~ e2 | r8 gs,8 f'8 gs,8 f'8 gs,8 f'8 gs,8 |
   \break
@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   a8 f'8 a,8 f'8~ f2 | r8 a,8 a'8 bf8 a8 f8 d8 a8 | gs8 f'8 gs,8 e'8~ e2 | r8 gs,8 f'8 gs,8 f'8 gs,8 f'8 gs,8 |
   \break
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   c8 ef8~ ef2 r8 d8 | c8 ef4 ef8 c8 ef4 ef8 | bf8 d8~ d2.~ | d2 r4 r8 e8 |
   \break
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   a,8 f'8 a,8 f'8~ f2 | r8 a,8 a'8 bf8 a8 f8 d8 a8 | gs8 f'8 gs,8 e'8~ e2 | r8 gs,8 f'8 gs,8 f'8 gs,8 f'8 gs,8 |
   \break

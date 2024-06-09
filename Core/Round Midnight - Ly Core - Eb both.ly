@@ -1,8 +1,7 @@
 \include "../Include/lead-sheets.ily"
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
+  (set-global-staff-size 16))
 
 \header {
   title = "'Round Midnight"
@@ -120,7 +119,7 @@ refrainMelody = \relative c' {
   \clef \whatClef
   \tempo "Slowly"
 
-  \mark \markup { \box "A" }
+  \textMark \markup { \bold \box "A" }
   \bar ".|:"
   \repeat volta 2 {
     r4 bf16 ef16 f16 bf16 gf4. bf,8 | ef8 ef4 ef8 bf'8 af4. |
@@ -128,7 +127,7 @@ refrainMelody = \relative c' {
     r4 ef16 gf16 bf16 df16 c4. gf8 | a4 af4 af4 g4 |
     \break
     r4 af16 cf16 ef16 gf16 f4. cf8 | bf2 r4 ef,8
-    \mark \markup { \musicglyph #"scripts.coda" }
+    \textMark \markup { \musicglyph #"scripts.coda" }
     f8 |
     \break
   }
@@ -143,19 +142,20 @@ refrainMelody = \relative c' {
   \bar "||"
   \break
   \set Score.currentBarNumber = #17
-  \mark \markup { \box "B" }
+  \textMark \markup { \bold \box "B" }
   \tuplet 3/2 { gf8 f8 gf8 } f4~ f4. ef8 | d8 bf8~ bf2 ef8 f8 |
   \tuplet 3/2 { gf8 f8 gf8 } f4~ f4. ef8 | d8 bf'4. r2 |
   \break
   cf4 cf8 cf8 bf8 bf4. | gf8 gf4 gf8 f4. bf8 |
   \break
   ef4 ef8 ef8 df4 df8 df8 | cf4 df8 cf8
-  \mark \markup { \small \italic "D.C. al Coda" }
+  \textMark \markup { \small \italic "D.C. al Coda" }
   bf2 |
   \bar "||"
-  \break
   \set Score.currentBarNumber = #31
-  \mark "Coda"
+
+  \textCodaBreak
+  
   gf4 f4 ef4 d4 | ef1 |
   \bar "|."
 }

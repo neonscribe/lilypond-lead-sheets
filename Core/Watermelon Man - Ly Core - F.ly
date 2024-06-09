@@ -32,8 +32,10 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Straight Eighths" 4 = 125
 
-  \mark \markup{ \box "Refrain" }
+  \textMark \markup{ \bold \box "Refrain" }
 
+  \bar ".|:"
+  \repeat volta 2 {
   ef'1~\mf\< | ef4\! f,8 f8 <c' af>8-- <d bf>4-> f,8~-> |
   \override Glissando.style = #'zigzag
   \cadenzaOn
@@ -62,8 +64,8 @@ refrainMelody = \relative f' {
   |
   \bar "|"
   r1 |
+  }
 
-  \bar "|."
 }
 
 \include "../Include/paper.ily"

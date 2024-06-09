@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq e,16 fs16 a16 c16~ c16 a16 c8 |
@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{  \musicglyph #"scripts.segno" \box "Verse 1" }
+  \textMark \markup{  \musicglyph #"scripts.segno" \bold \box "Verse 1" }
   
   g''8 g8 g8 a8~ a8 g8 e4 | d8 cs8 d8 e8~( e16 d16 cs8) r4 |
   \break
@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "Verse 2" }
+  \textMark \markup{ \bold \box "Verse 2" }
   
   g'8 g8 g8 a8~ a8 e8~ e16 e8. | d8 cs16 d16~ d8 e8~( e16 d16 cs8) r8 cs8 |
   \break
@@ -91,12 +91,12 @@ refrainMelody = \relative f' {
   \break
   g''8 g8 g8 a8~ a8 e16 d16~ d16 d8 c16 | d8 d8 c8 e16( d16~ d16 c16 a8) r8 a8 |
   \break
-  c16 d8. d8. d16~ d8 c8 e8 e8 | d16( cs16 a4.) \textToCoda r2 |
+  c16 d8. d8. d16~ d8 c8 e8 e8 | d16( cs16 a4.) r2 \textToCoda |
   
   \bar "||"
   \pageBreak
 
-  \mark \markup{ \box "Bridge" }
+  \textMark \markup{ \bold \box "Bridge" }
   
   fs'2.( cs4) | <a' \tweak font-size #-2 cs \tweak font-size #-2 e,>2. r4 |
   fs2.( cs4) | <a' \tweak font-size #-2 cs \tweak font-size #-2 e,>2. r4 |
@@ -108,7 +108,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "Verse 3" }
+  \textMark \markup{ \bold \box "Verse 3" }
   
   g8 g8 g8 a8~ a8 g8 e4 | d8 cs8 d8 e8~( e16 d16 cs8) r4 |
   \break
@@ -121,20 +121,19 @@ refrainMelody = \relative f' {
   d4 d8 cs16 d16~ d4 cs16 d8 e16~ | e8 e8~( e16 d16 cs8) r2 |
   \break
 
-  \mark \markup{ \box "Solos" }
+  \textMark \markup{ \bold \box "Solos" }
   
   \bar ".|:-||"
   \repeat volta 2 {
-  \rsq \rsq \rsq \mark \markup{ \italic "Repeat as desired" } \rsq  |
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \dalSegno \rsq |
+  \rsq \rsq \rsq \textMark \markup{ \italic "Repeat as desired" } \rsq  |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \dalSegno |
   }
-  \break
 
-  \textCoda
+  \textCodaBreak
   
   \bar ":|.|:"
   \repeat volta 2 {
-  \rsq \rsq \rsq \mark \markup{ \italic "Repeat until cue" } \rsq |
+  \rsq \rsq \rsq \textMark \markup{ \italic "Repeat until cue" } \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
   \break

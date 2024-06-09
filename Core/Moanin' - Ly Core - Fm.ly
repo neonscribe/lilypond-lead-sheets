@@ -45,8 +45,8 @@ refrainChords = \chordmode {
   s2 bf4./f f8 s1
   
   bf2:m7 af2:7 g2:7.9- c2:7.5+.9+ bf1/f f2:m b2:9.11+
-  bf2:m7 af2:7 g2:7.9- c2:7.5+.9+ f2:m df2/e 
-  ef2:6.9 d2:7.5-.9+ df1:maj7 c8*7:7.5+.9+ bf8*9/f f1:m
+  bf2:m7 af2:7 g2:7.9- c2:7.5+.9+ f2:m f2:m/e 
+  f2:m/ef d2:7.5-.9+ df1:maj7 c8*7:7.5+.9+ bf8*9/f f1:m
 }
 
 refrainKey = f
@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
 
   r8 f8 r8 f8 af8 af8 f8 c8 |
 
-  \mark \markup{ \box "A1, A2" \musicglyph #"scripts.segno" }
+  \textMark \markup{ \bold \box "A1, A2" \musicglyph #"scripts.segno" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   c'2^"(bass walks in four)" c16 bf16 af16 f16 bf8 f8 | af4. f8 ef8 c8 ef8 f8~ | f1~ | f4 r4 f4 f4 |
   \break
@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   
   ef4^"(rhythm resumes)" f2. | r8 f8 r8 f8 af4 bf8 bf16 cf16 |
   bf16 af16 f8 f2. | r8 f8 r8 f8 c'4 ef8 c16 cf16 |
@@ -94,7 +94,7 @@ refrainMelody = \relative f' {
 
   \pageBreak
 
-  \mark \markup{ \box "Solos A1, A2" }
+  \textMark \markup{ \bold \box "Solos A1, A2" }
 
   \bar ".|:-||"
   \repeat volta 2 {
@@ -106,7 +106,7 @@ refrainMelody = \relative f' {
   }
 
   \break
-  \mark \markup{ \box "Solos B" }
+  \textMark \markup{ \bold \box "Solos B" }
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -116,7 +116,7 @@ refrainMelody = \relative f' {
   \bar "||"
 
   \break
-  \mark \markup{ \box "Solos A3" }
+  \textMark \markup{ \bold \box "Solos A3" }
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -125,14 +125,13 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | 
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
-  r8 f8 r8 f8 af8 af8 f8 \dalSegnoAfterSolos
+  r8 f8 r8 f8 af8 af8 f8
   \endParenthesis \parenthesize
-  c8 |
+  c8 \dalSegnoAfterSolos |
 
   \bar "||"
-  \break
 
-  \textCoda
+  \textCodaBreak
   
   ef4 f2. | r2 f4 f4 |
   \bar "||"

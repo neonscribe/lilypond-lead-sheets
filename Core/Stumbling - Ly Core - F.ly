@@ -42,7 +42,7 @@ refrainMelodyOne = \relative c' {
   \clef \whatClef
   \tempo "Lively" 4 = 180
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   c8 d8 f8 g8 a4 -. c,8
     d8 % 2
     f8 g8 a4 -. c,8
@@ -58,7 +58,7 @@ refrainMelodyOne = \relative c' {
     r4 d4 f4 d4 % 9
 
     \bar "||"
-    \mark \markup{ \box "B" }
+    \textMark \markup{ \bold \box "B" }
 
     d8 e4 e8 ~ e2
     r4 e4 g4 e4 % 11
@@ -72,7 +72,7 @@ refrainMelodyOne = \relative c' {
 
     \bar "||"
     \break
-    \mark \markup{ \box "A2" }
+    \textMark \markup{ \bold \box "A2" }
 
     c,8 d8 f8 g8 a4
     -. c,8 d8 % 18
@@ -88,7 +88,7 @@ refrainMelodyOne = \relative c' {
     r4 a'4 a4 g4 % 25
 
     \bar "||"
-    \mark \markup{ \box "C" }
+    \textMark \markup{ \bold \box "C" }
 
     bes2 des,2 % 26
     r4 bes'4 bes4 bes4 % 27

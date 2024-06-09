@@ -91,6 +91,7 @@ refrainVanillaChords = \chordmode {
 refrainChords = #(if (and (defined? 'useJoelChords) useJoelChords)
 		  refrainJoelChords
 		  refrainTonjaChords)
+
 refrainKey = a
 
 refrainMelody = \relative f'' {
@@ -102,7 +103,7 @@ refrainMelody = \relative f'' {
   \partial 2 e4 c4 |
   \bar "||"
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   e1~ | e4 d8 c8 d8 e8 c4 | a2 e2~ | e4 r4 e'4 c4 |
   d8 d4.~ d2 | r4 c8 a8 c8 a8 c4 | b1~ | b2 r8 e4 c8 |
@@ -110,7 +111,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B1" }
+  \textMark \markup{ \bold \box "B1" }
   
   e8 e4 e8~ e2 | r4 d8 c8 d8 e8 c4 | a2 e2~ | e2 r4 e4 |
   g4 e8 g8 a4 c4 | e8( d4.) c2 | a1~ | a4 r4 \tuplet 3/2 { e'4 e4 c4 } |
@@ -118,7 +119,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   e4 e2. | r8 e8 d8 c8 d8( e8) c4 | a2 e2~ | e4 r4 e'4 c4 |
   d8 d4 d8~ d2 | r4 c8 a8 c8( a8) c4 | b1~ | b2 r8 e8 e8 c8 |
@@ -126,7 +127,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B2" }
+  \textMark \markup{ \bold \box "B2" }
   
   e8 e4.~ e2 | r4 d8 c8 d8 e8 c4 | a2 e2~ | e2 r4 e4 |
   g4 e8 g8 a4 c4 | e8( d4.) c2 | a1~ | a2 r2 |

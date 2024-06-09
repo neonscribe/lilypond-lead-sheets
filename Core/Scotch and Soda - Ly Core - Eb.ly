@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Slow Blues" 4 = 100
 
-  \mark \markup{ \box "A1, A2" }
+  \textMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   } } }
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   r8 ef8 f8 af4. bf4 | c4. ef,2 af8 | bf4. c8 af4 bf8 g8~ | g8 bf4.~ bf4 r8 g8 |
   \break
@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   r8 g8 f8 g4 f4. | r4 \tuplet 3/2 { cf8 ef8 f8 } g2 | r8 ef4 f8 g8 bf4 d8~ | d4 c8 bf4 c4. |
   \break

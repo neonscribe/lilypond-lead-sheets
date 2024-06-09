@@ -39,7 +39,7 @@ verseMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Ballad" 4 = 124
 
-  \mark \markup{ "Verse" }
+  \textMark \markup{ "Verse" }
   
   r8 c'8 e8 c8 d8 b8 c8 a8 | b8 a8 g2. | f8 e8 ds8 e8 c'8 b8 gs8 e8 | cs1 |
   \break
@@ -93,11 +93,11 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Ballad" 4 = 124
 
-  \mark \markup{ "Refrain" }
+  \textMark \markup{ "Refrain" }
   \partial 2 r8 b8 c8 cs8 |
   \bar "||"
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   d4 c4 a4 f4 | d4 f4 a4 e'4 | e1 | d8 c8 af8 f8 d4. d'8 |
   \break
@@ -106,7 +106,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   g4 g4 g2 | r8 d4 e8 g8 d8 ds8 g8 | e2 a2~ | a2. e'4 |
   \break
@@ -115,7 +115,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   d4 c4 a4 f4 | d4 f4 a4 e'4 | e1 | d8 c8 af8 f8 d4. d'8 |
   \break
@@ -124,7 +124,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   g4 gf4 f2~ | f2. c8 d8 | e4 g4 c4 e4 | b2. c4 |
   \break

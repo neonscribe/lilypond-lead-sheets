@@ -57,7 +57,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Moderato" 2 = 120
 
-  \mark \markup{ \box "A" }
+  \textMark \markup{ \bold \box "A" }
   
   f4\mf r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
   \break
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
 
   \bar "||"
   \break
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   d4 r4 g4 r4 | d4 r4 g4 r4 | c4 a4 g4 e4 | c4 r4 c4\sfz r4 | 
   \break
@@ -89,7 +89,7 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   \bar ".|:-||"
   
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   f4\mf r4 c4\ff r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
   f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
@@ -106,7 +106,7 @@ refrainMelody = \relative f' {
   
   \bar "||"
   \break
-  \mark \markup{ \box "D" }
+  \textMark \markup{ \bold \box "D" }
   
   f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
   f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |

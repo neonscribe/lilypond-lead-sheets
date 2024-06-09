@@ -67,8 +67,8 @@ offset_to_file_note_name_sharp = ['C', 'Cs', 'D', 'Ds', 'E', 'F',
 offset_to_file_note_name_flat = ['C', 'Db', 'D', 'Eb', 'E', 'F',
                                   'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
 
-offset_to_nice_note_name_sharp = ['C', 'C♯', 'D', 'D♯', 'E', 'F',
-                                  'F♯', 'G', 'G♯', 'A', 'A♯', 'B']
+offset_to_nice_note_name_sharp = ['C', 'C\\#', 'D', 'D\\#', 'E', 'F',
+                                  'F\\#', 'G', 'G\\#', 'A', 'A\\#', 'B']
 
 offset_to_nice_note_name_flat = ['C', 'Db', 'D', 'Eb', 'E', 'F',
                                   'Gb', 'G', 'Ab', 'A', 'Bb', 'B']
@@ -190,7 +190,7 @@ def key_name_for_nice(key, is_minor):
     accidental_character = 'b'
     if accidental_count > 0:
         if key[1] == 's':
-            accidental_character = '♯'
+            accidental_character = '\\#'
         for i in range(0, accidental_count):
             file_key += accidental_character
     if is_minor:
@@ -273,22 +273,22 @@ refrainMelody = \\relative f' {{
   \\clef \\whatClef
   \\tempo "Medium" 4 = 120
 
-  \\mark \\markup{{ \\box "A1" }}
+  \\textMark \\markup{{ \\bold \\box "A1" }}
   
   \\bar "||"
   \\break
 
-  \\mark \\markup{{ \\box "B" }}
+  \\textMark \\markup{{ \\bold \\box "B" }}
   
   \\bar "||"
   \\break
 
-  \\mark \\markup{{ \\box "A2" }}
+  \\textMark \\markup{{ \\bold \\box "A2" }}
   
   \\bar "||"
   \\break
 
-  \\mark \\markup{{ \\box "C" }}
+  \\textMark \\markup{{ \\bold \\box "C" }}
 
   \\bar "|."
 }}

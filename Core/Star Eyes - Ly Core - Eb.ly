@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Uptempo Latin" 4 = 198
   
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
   
   \bar ".|:"
   \repeat volta 12 {
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \mark \markup{ \box "A1, A2" }
+  \textMark \markup{ \bold \box "A1, A2" }
   
   \repeat volta 2 {
   f2 ef2 | r4 ef8 f8 g8 bf8 g8 bf8 | f2 ef2 | r4 ef8 f8 gf8 af8 bf8 c8 |
@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   ef4 ef4 ef4. af,8 | bf2. af4 | ef'4. ef8 cf8 ef,8 gf8 df'8 | bf1 |
   \break
@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   f2 ef2 | r4 ef8 f8 g8 bf8 g8 bf8 | f2 ef2 | r4 ef8 f8 gf8 af8 bf8 c8 |
   \break
@@ -99,9 +99,9 @@ refrainMelody = \relative f' {
   \break
   bf2. bf4 | af2 g2 | r4 f4 \tuplet 3/2 { af4 c4 ef4 } \textToCodaLastTime | ef2 r2 |
   \bar "|."
-  \break
 
-  \textCoda
+  \textCodaBreak
+
   \bar ".|:-|."
   \repeat volta 4 {
   ef,4-. r4 bf'4-. ef4-. | af,4-. r8 df8 r8 cf8 r8 ff,8 | 

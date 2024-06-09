@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Swing" 4 = 105
 
-  \mark \markup{ \box "A" }
+  \textMark \markup{ \bold \box "A" }
 
   \partial 8 f8 |
   
@@ -70,13 +70,14 @@ refrainMelody = \relative f' {
   \fourBarMelody
   \fourBarMelody
 
-  af8 bf8 cf8 bf8 af4 f4 \textToCoda | af4. bf8 r4 r8 f8 |
+  af8 bf8 cf8 bf8 af4 f4 \textToCodaLastTime | af4. bf8 r4 r8 f8 |
   af8 bf8 cf8 bf8 af8 f4 ef8~ | ef2. r8 f8 |
 
   }
-  \break
+  \bar "||-:|."
 
-  \textCoda
+  \textCodaBreak
+
   af4. bf8 r2 | cf8 bf8 ef,8 f8 af4 af4 | af1\fermata |
 
   \bar "|."

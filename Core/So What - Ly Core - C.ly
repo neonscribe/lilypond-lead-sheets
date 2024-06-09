@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
 
   d,8\rest d8 a'8 b8 c8 d8 e8 c8 |
 
-  \mark \markup{ \box "A1, A2" }
+  \textMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   } } }
   \bar "||"
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
 
   ef1 |
   ef,8\rest ef8 bf'8 c8 df8 ef8 f8 df8 | ef8 bf4.~ bf2 |  
@@ -81,19 +81,19 @@ refrainMelody = \relative f' {
   \bar "||"
 
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   
   d1 |
   d,8\rest d8 a'8 b8 c8 d8 e8 c8 | d8 a4.~ a2 |
   d,8\rest d8 a'8 b8 c8 d8 e8 c8 | d1 |
   d,8\rest e'4. e4 e4 | d4. a8~ a2 | r1 |
   
-  \mark \markup{ \box "Solos" }
+  \textMark \markup{ \bold \box "Solos" }
 
   \bar ".|:-|."
   \override MultiMeasureRest.expand-limit = 2
   \repeat volta 2 { \compressMMRests
-   { R1*16^\markup{ \box "A1" \box "A2" } R1*8^\markup{ \box "B" } R1*8^\markup{ \box "A3" } } }
+   { R1*16^\markup{ \bold \box "A1" \bold \box "A2" } R1*8^\markup{ \bold \box "B" } R1*8^\markup{ \bold \box "A3" } } }
 }
 
 refrainKicksOverTime = \relative f' {

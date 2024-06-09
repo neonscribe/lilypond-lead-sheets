@@ -1,8 +1,9 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
+
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 18))
 
 \header {
   title = "On the Sunny Side of the Street"
@@ -54,7 +55,7 @@ refrainMelody = \relative f' {
   \partial 4. e4 d8 |
   \bar "||"
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   c4 r8 d8 e8 g4 e'8~ | e2 r8 e4 ef8 | d8 c4. a4 f4 | e4. d8~ d2 |
   \break
@@ -63,7 +64,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   c4 r8 d8 e8 g4 e'8~ | e2 r8 e4 ef8 | d8 c4. a4 f4 | e4. d8~ d2 |
   \break
@@ -72,7 +73,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   c2 d,8 f4 e8~ | e2 c'4 c4 | c2 e,8 g4 f8~ | f2. c'4 |
   \break
@@ -81,7 +82,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   c4 r8 d8 e8 g4 e'8~ | e2 r8 e4 ef8 | d8 c4. a4 f4 | e4. d8~ d2 |
   \break
@@ -95,9 +96,8 @@ modulationCodaChords = \chordmode {
 }
 
 modulationCodaMelody = \relative f' {
-  \break
 
-  \textCoda
+  \textCodaBreak
   
   c'8 a4 f8~ f2~ | f2. as8 b8 | d8 b4 fs8~ fs2~ | fs2. gs8 a8 |
   c8 a4 f8~ f2 | e'2 e2 | d8( c4.)~ c2~ | \partial 4 c4 |

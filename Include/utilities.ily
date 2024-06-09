@@ -1,7 +1,5 @@
 %% -*- Mode: LilyPond -*-
 
-#(define-bar-line "||-:|." ":|." "||" ".|")
-
 #(define (begin-parenthesis-ignatzek-chord-names in-pitches bass inversion context)
    (markup #:line ("(" (ignatzek-chord-names in-pitches bass inversion context))))
 

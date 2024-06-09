@@ -110,7 +110,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Slowly" 4. = 70
 
-  \mark \markup{ "Intro" }
+  \textMark \markup{ "Intro" }
 
   bf4. \tuplet 4/6 { bf16( ef16 g16 c16 } bf4.) bf,4. |
   bf4. \tuplet 4/6 { bf16( d16 f16 c'16 } bf4.) bf,4. |
@@ -123,7 +123,7 @@ refrainMelody = \relative f' {
 
   \bar "||"
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   \set Score.currentBarNumber = #0
 
 
@@ -139,7 +139,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
 
   c4 bf8 bf4.~ bf4 bf,8 ef4 g8 |
   c4 bf8 bf4.~ bf4 ef8 ef4 f8 |
@@ -153,7 +153,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \pageBreak
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   c'4.~ c8 c8 d8 ef4.~ ef4 ef8 |
   d4 d8~ d8 c8 bf8 bf4.~ bf8 c8 bf8 |
@@ -170,7 +170,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   c4 bf8 bf4.~ bf4 bf,8 ef4 g8 |
   c4 bf8 bf4.~ bf4 ef8 ef4 f8 |
@@ -178,8 +178,8 @@ refrainMelody = \relative f' {
   f4 ef8 ef4.~ ef4 ef8 d4 c8 |
   c4 bf8 bf4.~ bf4 g8 c4 bf8 |
   bf4 af8 af4.~ af4 d,8 f4 af8 |
-  af4 g8~ g4.~^\markup{ "Turnaround to " \box "A1" } g2.~ |
-  \partial 8*8 g4.^\markup{ "Turnaround to " \box "B" } r4. r4 |
+  af4 g8~ g4.~^\markup{ "Turnaround to " \bold \box "A1" } g2.~ |
+  \partial 8*8 g4.^\markup{ "Turnaround to " \bold \box "B" } r4. r4 |
 
   \bar "|."
 }

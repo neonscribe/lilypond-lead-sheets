@@ -27,7 +27,7 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 126
 
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \mark \markup { \box "Refrain" }
+  \textMark \markup { \bold \box "Refrain" }
 
   \bar ".|:"
   \repeat volta 2 {
@@ -114,7 +114,7 @@ refrainMelody = \relative f' {
   }
   \break
   
-  \mark \markup { \box "Solos" }
+  \textMark \markup { \bold \box "Solos" }
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 

@@ -14,6 +14,8 @@
       }
     \new Staff {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \codaKey \whatKey {
 	  \codaMelody
@@ -23,7 +25,7 @@
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose \codaKey \whatKey {
+      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \codaKey \whatKey {
       \codaMelody
       } }
       #} )
@@ -33,6 +35,8 @@
     }
     \new Staff {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
       %% Only transpose bass line in the same octave
       \transpose \refrainKey \bassKey { \codaBass }
@@ -64,6 +68,8 @@
       }
     \new Staff \with {midiInstrument = "overdriven guitar"} {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \codaKey \whatKey {
 	  \codaMelody
@@ -73,7 +79,7 @@
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose \codaKey \whatKey {
+      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \codaKey \whatKey {
       \codaMelody
       } }
       #} )
@@ -83,6 +89,8 @@
     }
     \new Staff \with {midiInstrument = "brass section"} {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
       %% Only transpose bass line in the same octave
       \transpose \refrainKey \bassKey { \codaBass }
@@ -92,7 +100,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
       %% Only transpose bass line in the same octave
-      \transpose \refrainKey \bassKey { \codaBass }
+      \removeWithTag modernCodas \transpose \refrainKey \bassKey { \codaBass }
       }
       #} )
   >>

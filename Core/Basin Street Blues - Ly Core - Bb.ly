@@ -43,7 +43,7 @@ verseMelody = \relative f' {
   \clef \whatClef
   \tempo "Med. Slow Swing (Dixieland)" 4 = 110
 
-  \mark \markup{ "Verse" }
+  \textMark \markup{ \bold \box "Verse" }
   
   \partial 4 f8 f8 |
   \bar "||"
@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
 
   \set Score.currentBarNumber = #1
   
-  \mark \markup{ "Refrain" }
+  \textMark \markup{ \bold \box "Refrain" }
 
   \bar ".|:"
   \repeat volta 2 {

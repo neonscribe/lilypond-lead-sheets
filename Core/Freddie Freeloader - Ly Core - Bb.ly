@@ -31,7 +31,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 129
 
-  \mark \markup{ \box "A" }
+  \textMark \markup{ \bold \box "A" }
   
   \bar ".|:"
   \repeat volta 4 {

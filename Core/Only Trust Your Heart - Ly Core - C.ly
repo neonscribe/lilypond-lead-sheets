@@ -91,7 +91,7 @@ refrainMelody = \relative c'' {
   
   \tempo "Medium Bossa" 4 = 120
   
-  \mark \markup { \box "A1, A2" }
+  \textMark \markup { \bold \box "A1, A2" }
 
   \repeat volta 2 {
 
@@ -105,7 +105,7 @@ refrainMelody = \relative c'' {
   }
   \bar "||"
 
-  \mark \markup { \box "B" }
+  \textMark \markup { \bold \box "B" }
 
   \break
   a'1~ | a2 c4 a4 | f1~ | f2 a4 f4 |
@@ -113,7 +113,7 @@ refrainMelody = \relative c'' {
   d2 d'4 df4 | c2. b4 | e,2 c'4 b4 | bf1 |
   \break
 
-  \mark \markup { \box "A3" }
+  \textMark \markup { \bold \box "A3" }
 
   a4 b4 c4 b4 | d2~ d8 c8 b8 a8 | g4 a4 b4 a4 | c1 |
   \break
@@ -125,7 +125,7 @@ refrainMelody = \relative c'' {
   
   d4 e4 f2~ | f1 | e4 f4 g2~ | g1 |
   \break
-  c,4 d4 e2~ | e2 d2 | c1~ | c2.^\markup{ "to " \box "A1" } r4^\markup{ "to tag, bar 27" } |
+  c,4 d4 e2~ | e2 d2 | c1~ | c2.^\markup{ "to " \bold \box "A1" } r4^\markup{ "to tag, bar 27" } |
 
 }
 
@@ -151,6 +151,8 @@ refrainMelody = \relative c'' {
       }
     \new Staff {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
 	\transpose c \whatKey {
 	  \refrainMelody

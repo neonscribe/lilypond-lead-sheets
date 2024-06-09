@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
 
   \partial 4 a8 d8 |
 
-  \mark \markup{ \box "A1, A2" }
+  \textMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   } } }
   \bar "||"
   \break
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
 
   f1~ | f1~ | f1 | r2 r4 ef8 ff8 |
   \break
@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   d1~ | d1~ | d1 | r2 r4 c8 d8 |
   \break
@@ -158,4 +158,4 @@ refrainBass = \relative f' {
 
 \include "../Include/refrain-with-bass.ily"
 
-\markup { "Use chords and bass of " \box "A" " for intro and outro." }
+\markup { "Use chords and bass of " \bold \box "A" " for intro and outro." }

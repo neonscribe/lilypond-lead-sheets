@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \mark \markup{ \box "A" }
+  \textMark \markup{ \bold \box "A" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   r8 ef'8 g8 d8 f8 c8 | ef8 bf8 d8 af8 c8 g8 |
   bf8 f8 af8 ef8 g8 d8 | f8 c8 ef8 bf8 d8 g,8 |
@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   r8 c,8 ef8 c8 ef8 c8 | ef8 c8 ef8 c8 ef8 c8 | g'8 g4.~ g4~ | g2 r4 |
   \break
@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "D" }
+  \textMark \markup{ \bold \box "D" }
   
   \alternative { \volta 1 {
   r8 c,8 ef8 c8 ef8 c8 | ef8 c8 ef8 c8 ef8 c8 | d4 ef4 e4 | f4. d8 c8 cf8 |

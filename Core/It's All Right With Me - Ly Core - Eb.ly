@@ -25,7 +25,7 @@ peggyLeeIntroMelody = \relative f'' {
   \clef \whatClef
   \tempo "Fast Swing"
 
-  \mark \markup{ "Intro" }
+  \textMark \markup{ "Intro" }
 
   ef2 ef4. ef8~ | ef4 ef4. ef8 c4 | ef2 ef4. ef8~ | ef4 ef4. ef8 c4 |
   ef2 ef4. ef8~ | ef4 bf'8 af8 g8 ef8 c4 | ef8 ef4. ef4 ef8 g8~ | g4 r4
@@ -142,7 +142,7 @@ refrainMelody = \relative f' {
   \partial 2 c4 d4 |
   \bar "||"
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   ef2 g2~ | g2 c,4 d4 | ef2 g2~ | g2 c,4 d4 |
   ef2 f4 g4~ | g4 ef4 f4 g4 |  af2 c2~ | c2 b4 c4 |
@@ -152,7 +152,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
 
   ef2 g2~ | g2 c,4 d4 |  ef2 g2~ | g2 c,4 d4 |
   ef2 f4 g4~ | g4 ef4 f4 g4 |  af2 c2~ | c2 b4 c4 |
@@ -162,7 +162,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
 
   bf'2 bf4 c4 | df4 df2 bf4 |  a2 a4 bf4 |  c2. a4 |
   af2 af4 bf4 | cf4 cf2 af4 | g1~ | g2 r4 ef4 |
@@ -172,12 +172,12 @@ refrainMelody = \relative f' {
   \bar "||"
   \pageBreak
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   ef2 g2~ | g2 c,4 d4 | ef2 g2 | r2 c,4 d4 |
   ef2 f4 g4~ | g4 ef4 f4 g4 | af2 c2 | r2 b4 c4 |
   d2 c2 | r4 d,4 cs4 d4 | r4 c'2 b4 | bf2 c,4 d4 |
-  ef2 g2~ | g2. f4 | d1~ | d4 r4 ef4 f4 \textToCoda |
+  ef2 g2~ | g2. f4 | d1~ | d4 r4 ef4 f4 \textToCodaLastTime |
   g2 bf2~ | bf2 r4 b4 | c2 ef2~ | ef2. c4 |
   ef,1~ |  ef1~ | ef2 r2 | r1 |
 
@@ -216,6 +216,11 @@ codaMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
+
+\markup {
+  \vspace #2
+}
+
 \include "../Include/coda.ily"
 
 performanceNotes =

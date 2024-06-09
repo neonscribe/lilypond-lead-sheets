@@ -29,7 +29,7 @@ bassIntro = \relative f' {
   \clef bass
   \tempo "Bolero" 4 = 110
 
-  \mark \markup{ \box "Intro/Outro" }
+  \textMark \markup{ \bold \box "Intro/Outro" }
   
   c,4 g4 c4 b4 | bf4 f4 bf4 b4 | c4 g4 c4 b4 | bf4 f4 bf4 b4 |
   \bar "||"
@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \mark \markup{ "Refrain" \box "A1, A2" }
+  \textMark \markup{ "Refrain" \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   g,1~ | g2 a2 | bf1~ | bf2 c2 |
   \break
@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
   
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   
   r2 f4-. e8 g8~ | g1 | r2 e4-. c8 bf8~ | bf1 |
   \break
@@ -94,3 +94,5 @@ refrainMelody = \relative f' {
 \include "../Include/bass-intro-with-kicks.ily"
 
 \include "../Include/refrain.ily"
+
+\include "../Include/bass-intro-with-kicks.ily"

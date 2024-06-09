@@ -84,7 +84,7 @@ refrainMelody = \relative c' {
   
   e4 a8~ |
 
-  \mark \markup{ \box "A" }
+  \textMark \markup{ \bold \box "A" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -97,7 +97,7 @@ refrainMelody = \relative c' {
   }
   
   \bar "||"
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   e1 | r8 g4 f4 e4 e8~ | e8 d4 cs4 d4 f8~ | f4. f8 r8 e4 d8~ |
   d8 c4 b4 c4 e8~ | e8 d4 c4 b4 bf8~ | bf1 | r1 |
@@ -107,14 +107,14 @@ refrainMelody = \relative c' {
   a8 gs4 g4 c,4 e8~ | e8 ef4 d4 c4 a8~ | a1 | r1 |
   
   \bar "||"
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   r8 g4 a8 b8 c4 a8~ | \tuplet 3/2 { a4 b4 c4 } \tuplet 3/2 { d4 b4 a4 } | b4. b8~ b2 | r2 r4 r8 c8~ |
   c8 d4 e4 f4 d8~ | d8 e4 c4 e4 d8~ | d4. d8~ d2 | r2 r8 g4 g8~ |
   g4. d4 g4 g8~ | g4. g4 a4 a8~ | a4. e4 a4 a8~ | a4. a4. b4 |
   b4 a4 \tuplet 3/2 { g4 fs4 g4 } | a4. a8 r8 g4 fs8 | g8 g4 f4 e4 f8~ | f4. f4 e4 c8~ |
   
-  \mark \markup{ \box "D" }
+  \textMark \markup{ \bold \box "D" }
 
   c8 d4 e4 a4 e8~ | e8 d4 c4 a4 d8~ | d2 d2 | r2 r8 e4 a8~ |
   a8 gs4 g4 c,4 e8~ | e8 ds4 d4 c4 a8~ | a2 a2~ | a2 r2 |

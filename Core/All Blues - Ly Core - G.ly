@@ -32,7 +32,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 8 = 140
 
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
   
   \repeat tremolo 12 { g,32 a } | \repeat tremolo 12 { g32 a } |
   \repeat tremolo 12 { g32 a } | \repeat tremolo 12 { g32 a } |
@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "Head" }
+  \textMark \markup{ \bold \box "Head" }
   
   b'4.~ b4~ b16 d,16 | b'8 c16 b8. r4 r16 d,16 | b'16 c16 b4~ b4~ b16 d,16 | b'4. r4. |
   a4 bf8 c4 d8 | c4 bf8 a4~ a16 d,16 | b'2.~ | b4. r4 r16 g16 |
@@ -67,8 +67,6 @@ refrainBass = \relative f' {
   \key \refrainKey \major
   \clef bass
 
-  \mark \markup{ \box "Intro" }
-  
   g,,8. d'16 e16 d16 f8. d16 e16 d16 |
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
@@ -82,8 +80,6 @@ refrainBass = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "Head" }
-  
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
   g,8. d'16 e16 d16 f8. d16 e16 d16 |

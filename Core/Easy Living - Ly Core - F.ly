@@ -28,6 +28,7 @@ and I'm so in love, there's noth -- ing in life but you. __
 }
 
 refrainChords = \chordmode {
+  \set chordChanges = ##t
   f2:maj7 fs2:dim7 g2:m7 gs2:dim7 f2:maj7/a c4:m7 f4:7 bf2:maj7 ef2:7
   f2:maj7 d2:m7 g2:m7 c2:7 a2:7 d2:7 g2:m7 c2:7
 
@@ -43,6 +44,7 @@ refrainChords = \chordmode {
   \chordOpenParen{ af2:7 }
   df2:maj7
   \chordCloseParen{ c2:7 }
+  \set chordChanges = ##f
 }
 
 refrainKey = f
@@ -53,7 +55,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Ballad" 4 = 120
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
 
   \tuplet 3/2 { a4 d4 c4 } ef,2 | r8 d8 g8 bf8 d8 f4 e8 | 
   \tuplet 3/2 { b4 d4 c4 } f,2 | r8 d8 f8 a8 c4. bf8 | 
@@ -63,7 +65,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   \tuplet 3/2 { a4 d4 c4 } ef,2 | r8 d8 g8 bf8 d8 f4 e8 | 
   \tuplet 3/2 { b4 d4 c4 } f,2 | r8 d8 f8 a8 c4. bf8 | 
@@ -73,7 +75,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   af1 | \tuplet 3/2 { ef'4 f4 ff4 } \tuplet 3/2 { ef4 c4 bf4 } |
   af1 | e'8 f8 e8 f8 ef4 c8 bf8 |
@@ -84,7 +86,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   \tuplet 3/2 { a4 d4 c4 } ef,2 | r8 d8 g8 bf8 d8 f4 e8 | 
   \tuplet 3/2 { b4 d4 c4 } f,2 | r8 d8 f8 a8 c4. bf8 | 

@@ -59,7 +59,26 @@ refrainDFBChords = \chordmode {
   c2/e a2:7 d2:m7 g2:7 c2 ef2:dim7 d2:m7 g2:7
 }
 
-refrainChords = \refrainNewRealChords
+refrainHLChords = \chordmode {
+  c2 cs2:dim7 d2:m7 ds2:dim7 c2/e e2:7.5+ f2:6 bf2:9
+  c2 a2:7.9- d2:m7 g2:7 e2:7 a2:7 d2:7 g2:7
+
+  c2 cs2:dim7 d2:m7 ds2:dim7 c2/e e2:7.5+ f2:6 bf2:9
+  c2 a2:7.9- d2:m7 g2:7 c2:6 bf2:9 c2:6 e2:7.5+
+
+  a1:m f1:7/a d1:7/a a1:7
+  g2 gs2:dim7 a2:m7 d2:7 g2:7 a2:7 d2:7 g2:7
+
+  c2 cs2:dim7 d2:m7 ds2:dim7 c2/e e2:7.5+ f2:6 bf2:9
+  c2 a2:7.9- d2:m7 g2:7 c1:6
+  \chordOpenParen{ d2:m7 }
+  \chordCloseParen{ g2:7 }
+}
+
+refrainChords = 
+   $(if (and (defined? 'useDFBChords) useDFBChords)
+     refrainDFBChords
+     refrainHLChords)
 
 refrainKey = c
 
@@ -69,7 +88,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Slow to Fast" 4 = 100-180
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   r8 c8 d8 c8 g'8 g4. | r8 d8 e8 d8 a'2 | r8 g8 a8 g8 c8 c4 b8 | d8 c8 a8 e8~ e8 ef8 d4 |
   r8 c8 d8 c8 g'8 g4. | r8 d8 e8 d8 a'8 a4 g8 | c,1 | r1 |
@@ -77,7 +96,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   r8 c8 d8 c8 g'8 g4. | r8 d8 e8 d8 a'2 | r8 g8 a8 g8 c8 c4 b8 | d8 c8 a8 e8~ e8 ef8 d4 |
   \break
@@ -86,7 +105,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   r4 c'8 a8 c8 a4. | r4 c8 a8 c8 a4. | r4 c8 a8 c8 a4. | r4 cs8 a8 cs8 a4. |
   \break
   r4 d4 d4 d4 | d4 c4 b4 a4 | g2 a2 | e2 d2 |
@@ -94,7 +113,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   r8 c8 d8 c8 g'8 g4. | r8 d8 e8 d8 a'2 | r8 g8 a8 g8 c8 c4 b8 | d8 c8 a8 e8~ e8 ef8 d4 |
   \break

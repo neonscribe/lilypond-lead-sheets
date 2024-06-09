@@ -26,6 +26,8 @@
     }
     \new Staff {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \introKey \whatKey {
 	  \introMelody
@@ -35,7 +37,7 @@
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose \introKey \whatKey {
+      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \introKey \whatKey {
       \introMelody
       } }
       #} )
@@ -45,6 +47,8 @@
     }
     \new Staff {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
       %% Only transpose bass line in the same octave
       \transpose \refrainKey \bassKey { \introBass }
@@ -54,7 +58,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
       %% Only transpose bass line in the same octave
-      \transpose \refrainKey \bassKey { \introBass }
+      \removeWithTag modernCodas \transpose \refrainKey \bassKey { \introBass }
       }
       #} )
   >>
@@ -76,6 +80,8 @@
       }
     \new Staff \with {midiInstrument = "overdriven guitar"} {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \introKey \whatKey {
 	  \introMelody
@@ -85,7 +91,7 @@
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose \introKey \whatKey {
+      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \introKey \whatKey {
       \introMelody
       } }
       #} )
@@ -95,6 +101,8 @@
     }
     \new Staff \with {midiInstrument = "brass section"} {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
       %% Only transpose bass line in the same octave
       \transpose \refrainKey \bassKey { \introBass }
@@ -104,7 +112,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
       %% Only transpose bass line in the same octave
-      \transpose \refrainKey \bassKey { \introBass }
+      \removeWithTag modernCodas \transpose \refrainKey \bassKey { \introBass }
       }
       #} )
   >>

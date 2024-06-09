@@ -2,8 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (and (defined? 'printNoteNames) printNoteNames)
-          (string=? instrument "Bass for Standard Key"))
+$(if (and (defined? 'printNoteNames) printNoteNames
+      (or (string=? instrument "Eb for Standard Key")
+       (string=? instrument "Bass for Standard Key")))
    (set-global-staff-size 18))
 
 \header {
@@ -49,7 +50,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   bf,4 c4 c2 | c4 d4 d2 | d4 ef4 g4 bf4 | f'2. r4 |
   \break
@@ -58,7 +59,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   bf4 c4 c2 | c4 d4 d2 | d4 ef4 g4 bf4 | f'2. r4 |
   \break
@@ -67,7 +68,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   g4 c4 d4 ef4 | af,4 c4 d4 ef4 | g,4 c4 d4 ef4 | g,1 |
   \break
@@ -76,7 +77,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   bf,4 c4 c2 | c4 d4 d2 | d4 ef4 g4 bf4 | f'2. r4 |
   \break

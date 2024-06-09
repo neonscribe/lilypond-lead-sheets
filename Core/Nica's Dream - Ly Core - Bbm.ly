@@ -43,18 +43,18 @@ refrainMelody = \relative f' {
 
   \partial 4 f4 |
 
-  \mark \markup{ \box "A1, A2, A3" \musicglyph #"scripts.segno" }
+  \textMark \markup{ \bold \box "A1, A2, A3" \musicglyph #"scripts.segno" }
   
   \bar ".|:"
   \repeat volta 2 {
-  c'1~ | c4. bf8 r8 f4-. d8 | f1~ | f2. f4 |
+  c'1~ | c4. bf8 r8 f4-. df8 | f1~ | f2. f4 |
   \break
-  \tuplet 3/2 { c'4 df4 a4 } c2~ | c4. bf8 r8 f4-. d8 |
+  \tuplet 3/2 { c'4 df4 a4 } c2~ | c4. bf8 r8 f4-. df8 |
   \tuplet 3/2 { ef4 f4 df4 } ef2~ | ef2. df4 |
   \break
   bf'1~ | bf4. af8 r8 f4-. df8 | ef1~ | ef1 |
   \break
-  ef8 f8 ef8 f8 g2~ | g2 f4-. r8 df8 | c1~ |
+  ef8 f8 ef8 f8 gf2~ | gf2 f4-. r8 df8 | c1~ |
   \alternative { \volta 1 {
   c2. f4 |
   } \volta 2 {
@@ -63,18 +63,18 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   \tempo "Fast Swing" 4 = 260
   
-  r4 f4 df4. ef8 | f4 df2 ef4 | f4 g4 af4 bf8 cf8~ | cf2. bf4 |
+  r4 f4 df4. ef8 | f4 df2 ef4 | f4 gf4 af4 bf8 cf8~ | cf2. bf4 |
   \break
   a4 bf8 bf,8 r8 df4 ef8 | f4 df2 c4 | ef1 | fs8 d8 e8 fs8~ fs2 |
   \break
-  r4 f4 df4. ef8 | f4 df2 ef4 | f4 g4 af4 bf8 cf8~ | cf2. bf4 |
+  r4 f4 df4. ef8 | f4 df2 ef4 | f4 gf4 af4 bf8 cf8~ | cf2. bf4 |
   \break
   a4 bf8 bf,8 r8 df4 ef8 | f4 df2 c4 | ef2. f8 g8 | 
-  r8 f8_\markup{ "Solo " \box "A1" \box "A2" \box "B" \box "A3" }  e8 f8 df'4 a8 \dalSegnoSecondEnding c8\laissezVibrer |
+  r8 f8_\markup{ "Solo " \bold \box "A1" \bold \box "A2" \bold \box "B" \bold \box "A3" }  e8 f8 df'4 a8 \dalSegnoSecondEnding c8\laissezVibrer |
 
   \bar "|."
 }

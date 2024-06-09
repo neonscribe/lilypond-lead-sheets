@@ -79,7 +79,7 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempo "Med. Jazz Waltz"
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   c4 c4. af8 | g2 f4 | ef4 ef4. f8 | c2. |
   \break
@@ -87,7 +87,7 @@ refrainMelody = \relative f'' {
 
   \break
   \bar "||"
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
 
   c4 c4. af8 | g2 f4 | ef4 ef4. f8 | c2. |
   \break
@@ -95,14 +95,14 @@ refrainMelody = \relative f'' {
 
   \break
   \bar "||"
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   ef4 ef4. c8 | bf2 a4 | g4 g4. a8 | d,2. |
   \break
   ef4 g4. bf8 | ef2 ef4 | d2.~ | d2. |
 
   \break
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   \bar "||"
 
   c4 c4. af8 | g2 f4 | ef4 ef4. f8 | g4 g4. af8 |

@@ -53,7 +53,7 @@ refrainMelody = \relative c' {
   \partial 2 e4 f
   \bar "||"
 
-  \mark \markup{ \box A1 }
+  \textMark \markup{ \bold \box A1 }
   g2 b | a4 g e d | e1~ | e4 g e d |
   \break
   e4 g e d | e c'2 e,4 | g1~ | g2 a4 b
@@ -61,21 +61,21 @@ refrainMelody = \relative c' {
   \break
 
 
-  \mark \markup{ \box B }
+  \textMark \markup{ \bold \box B }
   c2 c | c4 d2 b4 | a2 a | g e4 fs |
   \break
   g2 g | g4 a2 fs4 | g1~ | g4 r4 e f |
   \bar "||"
   \break
   
-  \mark \markup{ \box A2 }
+  \textMark \markup{ \bold \box A2 }
   g2 b | a4 g e d | e1~ | e4 g e d |
   \break
   e4 g e d | e c'2 e,4 | g1~ | g2 a4 b |
   \bar "||"
   \break
 
-  \mark \markup{ \box C }
+  \textMark \markup{ \bold \box C }
   c2 c | c4 d2 b4 | bf2 bf | a g4 f |
   \break
   e2 e | d4 c'2 b4 | c1 | r1

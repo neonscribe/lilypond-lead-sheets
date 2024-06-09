@@ -26,7 +26,7 @@ I can't give you an -- y -- thing but love. __
 
 refrainChords = \chordmode {
   g1:maj7 b2:m7 b2:dim7 a1:m7 d1:7
-  g1:maj7 b2:m7 e2:m7 a1:m7 d1:m7
+  g1:maj7 b2:m7 e2:m7 a1:m7 d1:7
   
   d1:m7 g1:7 c1:maj7 c1:maj7
   a1:7 a1:7 a1:m7 d1:7
@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 140
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   g4 fs4 e4 g4 | fs4 e4 g4 e4 | a1 | a8( as8) b2. |
   \break
@@ -57,7 +57,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   g8 gs8 a2. | a8 as8 b2. | d4 c4 b4 a4~ | a1 |
   \break
@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   g4 fs4 e4 g4 | fs4 e4 g4 e4 | a1 | a8( as8) b2. |
   \break
@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   e4 fs4 g4 fs4 | a4 g4 fs4 g4 | d'1 | fs,4 e2. |
   \break

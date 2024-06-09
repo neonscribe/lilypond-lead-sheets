@@ -46,7 +46,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Straight Eighths" 4 = 168
   
-  \mark \markup{ \box "A" }
+  \textMark \markup{ \bold \box "A" }
   \partial 2. g8 g8 bf8 d4 c8~ |
   \bar "||"
 
@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   r4 af4 g8 f8 ef8 c8 | g8 f8 ef8 c8~ c2 | r4 c''4 a8 g8 f8 d8 | c8 bf8 af8 bf8~ bf8 c8 d4 |
   c4. g'8~ g2 | r4 f8 f8 d8 bf4 c8~ | c2~ c8 c8 c8 af8~ | af1 |
   \break
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   \key \refrainKeyTwo \minor
   
   \transpose \refrainKey \refrainKeyTwo {
@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   c4. g'8~ g2 | r4 f8 f8 d8 bf4 c8~ | c2. r8 af8~ | af1 |
   } }
   \break
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   \key \refrainKeyThree \minor
   
   \transpose \refrainKey \refrainKeyThree {

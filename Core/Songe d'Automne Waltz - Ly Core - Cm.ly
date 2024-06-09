@@ -40,7 +40,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Tempo di Valse" 4 = 100
 
-  \mark \markup{ \box "A" }
+  \textMark \markup{ \bold \box "A" }
   
   g2. | c2. | ef2. | g2. |
   \break
@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   c2. | ef2. | g2. | bf2. |
   \break
@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   ef2. | d2. | d2. | c2. |
   \break
@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "D" }
+  \textMark \markup{ \bold \box "D" }
   
   g2. | gf2. | g2. | af2 c4 |
   \break
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "E" }
+  \textMark \markup{ \bold \box "E" }
   
   \bar ".|:"
   \repeat volta 2 {

@@ -69,7 +69,7 @@ refrainMelody = \relative c'' {
   \clef \whatClef
   \tempo "Medium Swing Ballad" 4 = 80
 
-  \mark \markup { \box "A1" }
+  \textMark \markup { \bold \box "A1" }
   c8 g8 e8 c8 b8 b'4. | bf8 f8 d8 bf8 a8 a'4. |
   \allowBreak
   af8 bf8 af8 bf8 af4 e!4 | f1 |
@@ -80,7 +80,7 @@ refrainMelody = \relative c'' {
   \bar "||"
   \break
 
-  \mark \markup { \box "A2" }
+  \textMark \markup { \bold \box "A2" }
   c8 g8 e8 c8 b8 b'4. | bf8 f8 d8 bf8 a8 a'4. |
   \allowBreak
   af8 bf8 af8 bf8 af4 e!4 | f1 |
@@ -93,7 +93,7 @@ refrainMelody = \relative c'' {
 
   \pageBreak
   
-  \mark \markup { \box "B" }
+  \textMark \markup { \bold \box "B" }
   ef8 f8 gf8 af8 c4. bf8 | af1 |
   \allowBreak
   ef8 f8 gf8 af8 b!4. a8 | af1 |
@@ -103,18 +103,18 @@ refrainMelody = \relative c'' {
   bf8 af8 gf8 bf,8 f'8 ef4. | ff'8 ef8 df8 bf8 ff'8 ef4. |
   \bar "||"
 
-  \mark \markup { \box "A3" }
+  \textMark \markup { \bold \box "A3" }
   c8 g8 e8 c8 b8 b'4. | bf8 f8 d8 bf8 a8 a'4. |
   \allowBreak
   af8 bf8 af8 bf8 af4 e!4 | f1 |
   \allowBreak
-  f8 df8 bf8 g8 fs8 e'!4. | ef8 df8 \tuplet 3/2 { c8 df8 f8 } c'8 \textToCoda bf4. |
+  f8 df8 bf8 g8 fs8 e'!4. | ef8 df8 \tuplet 3/2 { c8 df8 f8 } c'8 bf4. \textToCodaLastTime |
   \allowBreak
   df8 bf8 \tuplet 3/2 { gf8 ef8 bf8 } f'4. af,8 | df1 |
-  \bar "||"
-  \break
+  \bar "||-|."
 
-  \textCoda
+  \textCodaBreak
+  
   df'8 bf8 \tuplet 3/2 { gf8 ef8 bf8 } f'4. af,8 |
   ef''8 c8 \tuplet 3/2 { af8 f8 c8 } g'4. bf,8 |
   \break

@@ -39,7 +39,7 @@ verseMelody = \relative f' {
   \clef \whatClef
   \tempo "Freely"
 
-  \mark \markup { \box "Verse" }
+  \textMark \markup { \bold \box "Verse" }
   
   d8 d8 d4 g4 a4 | b4 c8 b8 a4 g4 | d8 d8 d4 a'4 b4 | c4 d8 c8 b4 a4 |
   d,8 d8 d4 b'4 c4 | d4 e8 d8 c4 b4 | a1 | r1 |
@@ -76,7 +76,7 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 130
 
-  \mark \markup{ \box "Intro" }
+  \textMark \markup{ \bold \box "Intro" }
   
   \partial 8 a8 |
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 a'8 |
@@ -111,7 +111,7 @@ outroMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 130
 
-  \mark \markup{ \box "Outro" }
+  \textMark \markup{ \bold \box "Outro" }
   
   \partial 8 a8 |
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 a'8 |
@@ -119,6 +119,8 @@ outroMelody = \relative f' {
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2\fermata r4 | r1 |
 
   \bar "|."
+  
+  \pageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -153,7 +155,7 @@ refrainNewRealChords = \chordmode {
 
 refrainRealBookSixthChords = \chordmode {
   f1:m7 bf1:m7 ef1:7 af1:maj7
-  df1:maj7 d2:m7 g2:7 c1:maj7 c1:maj7
+  df1:maj7 g1:7 c1:maj7 c1:maj7
   
   c1:m7 f1:m7 bf1:7 ef1:maj7
   af1:maj7 a2:m7.5- d2:7 g1:maj7 g2:maj7 e2:7.9+
@@ -179,7 +181,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 130
 
-  \mark \markup{ "Refrain" \box "A1" }
+  \textMark \markup{ "Refrain" \bold \box "A1" }
   
   af1 | df2. af4 | g4 g4 g4 g4 | g4 c2 g4 |
   \break
@@ -188,7 +190,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   ef1 | af2. ef4 | d4 d4 d4 d4 | d4 g2 d4 |
   \break
@@ -197,7 +199,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   d4. c8 c2~ | c4 ds,4 e4 c'4 | b1~ | b4 d,4 g4 b4 |
   \break
@@ -206,7 +208,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   
   af1 | df2. af4 | g4 g4 g4 g4 | g4 c2 g4 |
   \break
@@ -225,6 +227,13 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
+\markup{ "Vocal performance is commonly verse, then refrain." }
+\markup{ "Instrumental performance is commonly intro, refrain, solos, refrain, outro." }
+
+\markup {
+  \vspace #1
+}
+
 savedWhatKey = \whatKey
 whatKey = \whatVerseKey
 \include "../Include/verse.ily"
@@ -233,8 +242,5 @@ whatKey = \savedWhatKey
 \include "../Include/intro-with-kicks.ily"
 
 \include "../Include/outro-with-kicks.ily"
-
-\markup{ "Vocal performance is commonly verse, then refrain." }
-\markup{ "Instrumental performance is commonly intro, refrain, solos, refrain, outro." }
 
 \include "../Include/refrain.ily"

@@ -36,7 +36,7 @@ refrainMelody = \relative f {
   \clef \whatClef
   \tempo "Bright Galactic Beguine" 4 = 150
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   g2 f'2~ | f4 e4 \tuplet 3/2 { d4 c4 b4 } | bf2 bf2~ | bf1 |
   \break
@@ -45,7 +45,7 @@ refrainMelody = \relative f {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   a2. b4 | cs4 d4 \tuplet 3/2 { e4 fs4 g4 } | a2 bf2~ | bf1 |
   \break
@@ -54,7 +54,7 @@ refrainMelody = \relative f {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   g,2 f'2~ | f4 e4 \tuplet 3/2 { d4 c4 b4 } | bf2 bf2~ | bf2. af4 |
   \break
@@ -63,7 +63,7 @@ refrainMelody = \relative f {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   a2. b4 | c4 d4 \tuplet 3/2 { e4 f4 e4 } | g2. g4 | bf2. a4 |
   \break

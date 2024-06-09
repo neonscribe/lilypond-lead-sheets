@@ -15,6 +15,8 @@
       }
     \new Staff {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody
@@ -24,7 +26,7 @@
      $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
       \refrainMelody
       } }
       #} )
@@ -58,6 +60,8 @@
       }
     \new Staff \with {midiInstrument = "overdriven guitar"} {
       #(set-accidental-style 'modern)
+      \override Score.Clef.break-visibility = #all-invisible
+      \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody
@@ -67,7 +71,7 @@
      $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
       \refrainMelody
       } }
       #} )

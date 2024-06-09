@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Fast Latin" 4 = 200
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   c'1~ | c1~ | c4 df4 c4 g4 | bf4 c4 e4 g,4 |
   bf1~ | bf1~ | bf4 c4 df4 c4 | df4 c4 b4 g4 |
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   c'1~ | c1~ | c4 df4 c4 g4 | bf4 c4 e4 g,4 |
   bf1~ | bf1~ | bf4 c4 df4 c4 | df4 c4 b4 g4 |
@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   %% Vocal bridge
   f'1~ | f4 gf4 f4 c4 | ef1 | df1 |
@@ -103,7 +103,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   c1~ | c1~ | c4 df4 c4 g4 | bf4 c4 e4 g,4 |
   bf1~ | bf1~ | bf4 c4 df4 c4 | df4 c4 b4 g4 |
@@ -111,10 +111,10 @@ refrainMelody = \relative f' {
   bf1~ | bf1~ | bf4 c4 b4 bf4 | a4 af4 gf4 e4 |
   f1~ | f1~ | f1~ | f2. r4 |
   
-  \bar "|."
+  \bar "||-|."
   \break
 
-  \mark \markup{ Instrumental alternative bridge \box "B" }
+  \textMark \markup{ Instrumental alternative bridge \bold \box "B" }
   %% Instrumental bridge
   f'1 | e2 c4. g8~ | g1~ | g4. f8 e4 f4 |
   c'1 | g2 f4. c8~ | c1 | r2 bf'8 c8 df8 d8 |

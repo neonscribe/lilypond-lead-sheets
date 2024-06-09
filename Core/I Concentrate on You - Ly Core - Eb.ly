@@ -67,7 +67,7 @@ refrainMelody = \relative f {
 
   \tempo "Medium" 4 = 100
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
 
   r4 bf4 c4 ef4 | d2. c4 | d4. d8 d2~ | d2. r4 |
   \break
@@ -82,7 +82,7 @@ refrainMelody = \relative f {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
 
   r4 bf4 c4 ef4 | d2. c4 | d4. d8 d2~ | d2. r4 |
   \break
@@ -99,7 +99,7 @@ refrainMelody = \relative f {
 
   \pageBreak
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
 
   c'2. c4 | cf2. cf4 | cf2 bf2~ | bf2 bf,4. bf8 |
   \break
@@ -114,7 +114,7 @@ refrainMelody = \relative f {
   \bar "||"
   \break
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
 
   r4 ef4 ef4 ef4 | d2. bf4 | c4. c8 c2~ | c2. r4 |
   \break

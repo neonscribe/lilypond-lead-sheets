@@ -54,6 +54,8 @@ jcSusTwo = \markup{ \jcSmall{ "SUS2" } }
 
 jazzChordsMusic =
 {
+	% Pedal
+	<c>-\markup{ \jcRaise{ \small "PEDAL" } }
 
 	% Duads
 	<c g>-\markup{ \jcRaise{ "5" } }
@@ -135,8 +137,15 @@ jazzChordsMusic =
 	        \raise #2.5 \line{ \jcSharp "5" }  % the upper tension in the bracket
 	      } }
 	     \larger\larger\medium ")" }
-	<c e ges bes dis'>-\markup{ \jcSeventh \jcFlat }
-	<c e gis bes des'>-\markup{
+	<c e ges bes dis'>-\markup{ 
+	    \jcSeventh
+	    {\larger\larger\medium "(" } 
+	      \tiny { \column{ 
+	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "5" }  % the upper tension in the bracket
+	      } }
+	     \larger\larger\medium ")" }
+	<c e gis bes des'>-\markup{ 
 	    \jcSeventh
 	    {\larger\larger\medium "(" } 
 	      \tiny { \column{ 
@@ -144,15 +153,14 @@ jazzChordsMusic =
 	        \raise #2.5 \line{ \jcSharp "5" }  % the upper tension in the bracket
 	      } }
 	     \larger\larger\medium ")" }
-	<c e ges bes des'>-\markup {
+	<c e ges bes des'>-\markup{ 
 	    \jcSeventh
 	    {\larger\larger\medium "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcFlat "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "5" }  % the upper tension in the bracket
-	      } } 
+	      } }
 	     \larger\larger\medium ")" }
-	
 	<c e g bes cis' dis'>-\markup {
 	    \jcSeventh
 	    {\larger\larger\medium "(" } 
@@ -176,6 +184,24 @@ jazzChordsMusic =
 	    {\larger\larger\medium "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
+	      } } 
+	     \larger\larger\medium ")" }
+	
+	<c e g bes dis' fis' >-\markup{ 
+	    \jcSeventh
+	    {\larger\larger\medium "(" } 
+	      \tiny { \column{ 
+	        \raise #1.2 \line{ \jcSharp "11" } % the lower tension in the bracket
+	        \raise #2.5 \line{ \jcSharp "9" }  % the upper tension in the bracket
+	      } } 
+	     \larger\larger\medium ")" }
+	
+	<c e g bes des' fis' >-\markup{ 
+	    \jcSeventh
+	    {\larger\larger\medium "(" } 
+	      \tiny { \column{ 
+	        \raise #1.2 \line{ \jcSharp "11" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
 	      } } 
 	     \larger\larger\medium ")" }

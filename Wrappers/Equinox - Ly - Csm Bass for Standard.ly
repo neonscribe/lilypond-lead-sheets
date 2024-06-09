@@ -5,7 +5,7 @@
 \include "english.ly"
 
 instrument = "Bass for Standard Key"
-whatKey = cs,,
+whatKey = cs,
 bassKey = cs'
 whatClef = "bass"
 

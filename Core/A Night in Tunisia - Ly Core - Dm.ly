@@ -5,8 +5,7 @@
 \include "../Include/lead-sheets.ily"
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+  (set-global-staff-size 18))
 
 \header {
   title = "A Night in Tunisia"
@@ -53,7 +52,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Latin" 4 = 140
   \clef bass
 
-  \mark \markup{ \box "Intro" " (bass)" }
+  \textMark \markup{ \bold \box "Intro" " (bass)" }
   \bar ".|:"
   \repeat volta 2 {
   ef,8 bf'8 df8 ef8~ ef8 df4 bf8 | d,8 f8 a8 b8~ b8 a4 f8 |
@@ -65,7 +64,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \partial 8 a8 |
   
-  \mark \markup{ \box "A1, A2, A3" \musicglyph #"scripts.segno" }
+  \textMark \markup{ \bold \box "A1, A2, A3" \musicglyph #"scripts.segno" }
   \bar ".|:"
   \repeat volta 2 {
   \tuplet 3/2 { bf8 df8 f8 } c'2 bf8 f8 | gs8 a4.~ a4. a,8 |
@@ -82,21 +81,20 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   c4. a8~ a4. g8 | fs4 ef'8 df8 d8 c4 a8 | bf8 g4 fs8~ fs4 a8 f8 | g8 a8 e4 r4 r8 bf'8~ |
   \break
   bf2 g4. f8 | e4 df'8 b8 c8 bf4 gs8 | a4. f8 g4 f8 e8~ | e2 r4 r8 \dalSegno a,8 |
   \bar "||"
-  \break
   
-  \textCoda
+  \textCodaBreak
   
   d4.\repeatTie_"Fine" a'8 r8 a4 a8~ |
   \bar "||"
   
 
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
   
   a4 g8 e8 a4 g8 e8 | a8 g8 e8 a8 r4 r8 a8~ | a4 g8 ef8 a4 g8 ef8 | a8 g8 ef8 a8 r4 r8 a8~ |
   \break
@@ -118,4 +116,4 @@ refrainMelody = \relative f' {
 
 \include "../Include/refrain.ily"
 
-\markup { "Solo " \box "A1" \box "A2" \box "B" \box "A3" ". After solos, D.S. al Fine (take repeat)." }
+\markup { "Solo " \bold \box "A1" \bold \box "A2" \bold \box "B" \bold \box "A3" ". After solos, D.S. al Fine (take repeat)." }

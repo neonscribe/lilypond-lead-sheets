@@ -92,7 +92,7 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempo 2 = 110
 
-  \mark \markup{ "Intro" }
+  \textMark \markup{ "Intro" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \bar ".|:-||"
   \break
@@ -100,13 +100,13 @@ refrainMelody = \relative f'' {
   \segnoSign
   \repeat volta 2 {
   r4
-  \mark \markup{ "Verse" }
+  \textMark \markup{ "Verse" }
   c4 c4 c4 | b4 a4 a4 b4 | c4 c4 b4 a4 | a2 r2 |
   r4 c4 c4 c4 | b4 a4 a4 b4 | c4 c4 b4 c4 | d2 r2 |
   r4 f4 f4 e4 | d4 d4 c4 d4 | e4 e4 d4 c4 | d2 r2 |
   \break
   
-  \mark \markup{ "Chorus" }
+  \textMark \markup{ "Chorus" }
   r2 bf4 c8 d8~ |
   \bar "||"
   d2 r2 | r2 bf4 c8 d8~ | d2 r2 |
@@ -121,18 +121,16 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
   
-  \mark \markup{ "Bridge" }
+  \textMark \markup{ "Bridge" }
   e4. e8 e4 e4 | e2 c4 d4 | e2 e4 g4 | f4 e4 d4 c4 |
   e2 d4 c4 | b4 b4 b4 a4 | cs2 r2 | r2 r4 e4 | e2 e4. e8 |
   d2 d2 | e2 d4 c4 | a2 r4 a4 | e'2 d4 c4 | a2 r2 |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq
-  \dalSegno
-  \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \dalSegno | 
   \bar "||"
-  \break
 
-  \textCoda
+  \textCodaBreak
+
   a2 r2 |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq\fermata

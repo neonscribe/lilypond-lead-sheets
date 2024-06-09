@@ -33,7 +33,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Fast" 4 = 236
 
-  \mark \markup{ \box "A1, A2" }
+  \textMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -44,7 +44,7 @@ refrainMelody = \relative f' {
 
   \break
 
-  \mark \markup{ \box "B1, B2" }
+  \textMark \markup{ \bold \box "B1, B2" }
   
   \key a \minor
   \bar ":|.|:"
@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
 
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   
   \key g \minor
   <f, d bf>4 r4 <g e c>4 r4 | <a f d>4 r8 <g e c>8 r2 | <f d bf>4 r4 <g e c>4 r4 | <a f d>4 r8 <g e c>8 r2 |
@@ -65,13 +65,13 @@ refrainMelody = \relative f' {
 
   \break
 
-  \mark \markup{ \box "Solos" }
+  \textMark \markup{ \bold \box "Solos" }
   
   \bar ".|:-|."
   \repeat volta 2 { \compressMMRests {
   \override MultiMeasureRest.expand-limit = 1 {
-  R1*6^\markup{ \box "A" }  R1*2 R1*6^\markup{ \box "A" } R1*2
-  R1*16^\markup{ \box "B" \box "B" } R1*6^\markup{ \box "A" } R1*2 
+  R1*6^\markup{ \bold \box "A" }  R1*2 R1*6^\markup{ \bold \box "A" } R1*2
+  R1*16^\markup{ \bold \box "B" \bold \box "B" } R1*6^\markup{ \bold \box "A" } R1*2 
 } } }
 }
 

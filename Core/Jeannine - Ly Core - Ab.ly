@@ -2,7 +2,8 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 18))
 
 \header {
   title = "Jeannine"
@@ -39,7 +40,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Up" 4 = 210
 
-  \mark \markup{ \box "A1,A2" }
+  \textMark \markup{ \bold \box "A1,A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -59,7 +60,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   af2~ af8 bf8 \tuplet 3/2 { c8 df8 ef8 } | f8 c8 df8g8~ g8 f8 g8 a8~ |
   a1 | r8 e4. \tuplet 3/2 { f4 g4 a4 } |
@@ -70,7 +71,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   
   r8 ef,8 r4 ef4 r4 | r8 ef8 r4 ef4 f4 | gf4 f8 ef8~ ef2~ | ef2. r4 |
   \break

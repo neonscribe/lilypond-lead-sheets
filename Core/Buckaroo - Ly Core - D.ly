@@ -36,7 +36,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Moderately bright" 4 = 190
 
-  \mark \markup{ \box "A1" }
+  \textMark \markup{ \bold \box "A1" }
   
   \repeat volta 2 {
 
@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
 
     \break
 
-    \mark \markup{ \box "A2" }
+    \textMark \markup{ \bold \box "A2" }
   
     r4 a4 d8 e8 fs8 g8~ | g4 fs4 e8 d4. |
     r4 d4 g8 a8 b8 c8~ | c4 b4 a8 g4. |
@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   r4 cs8 a8 b8 cs8 b8 a8 | d4 cs4 b8 cs4. |
   r4 a4 d8 e8 fs8 g8~ | g4 fs4 e8 d4. |
@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
     r4 a4 d8 e8 fs8 g8~ | g4 fs4 e8 d4. |
     r4 d4 g8 a8 b8 c8~ | c4 b4 a8 g4. |
@@ -97,11 +97,11 @@ refrainMelody = \relative f' {
 
     d2 b2 \textToCoda | d4 r4 r2 \daCapo |
 
-  \bar "||"
+  \bar "|."
 
+  \textCoda
   
-  
-  d4 \textCoda cs4 d2
+  d4 cs4 d2
 
   \bar "|."
 }

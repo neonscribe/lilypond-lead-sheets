@@ -30,7 +30,7 @@ daCapo = {
   \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \once
   \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \mark
+  \tag modernCodas \textEndMark
   \markup {
     \small
     \bold
@@ -47,11 +47,50 @@ dalSegno = {
   \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \once
   \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \mark
+  \tag modernCodas \textEndMark
   \markup {
     \small
     \bold
     \italic "D.S. al Coda"
+  }
+}
+
+dalSegnoSecondTime = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \tag modernCodas \textEndMark
+  \markup {
+    \small
+    \bold
+    \italic "2nd x, D.S. al Coda"
+  }
+}
+
+dalSegnoLastTime = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \tag modernCodas \textEndMark
+  \markup {
+    \small
+    \bold
+    \italic "Last time, D.S. al Coda"
+  }
+}
+
+dalSegnoWithRepeats = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \tag modernCodas \textEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.S. al Coda (with repeats)"
   }
 }
 
@@ -60,11 +99,24 @@ dalSegnoAfterSolos = {
   \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \once
   \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \mark
+  \tag modernCodas \textEndMark
   \markup {
     \small
     \bold
     \italic "D.S. al Coda, after solos"
+  }
+}
+
+dalSegnoAfterSolosWithRepeats = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \tag modernCodas \textEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.S. al Coda, after solos (with repeats)"
   }
 }
 
@@ -73,7 +125,7 @@ dalSegnoNoCoda = {
   \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \once
   \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \mark
+  \tag modernCodas \textEndMark
   \markup {
     \small
     \bold
@@ -86,7 +138,7 @@ dalSegnoSecondEnding = {
   \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \once
   \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \mark
+  \tag modernCodas \textEndMark
   \markup {
     \small
     \bold
@@ -99,7 +151,7 @@ daCapoNoCoda = {
   \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \once
   \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \mark
+  \tag modernCodas \textEndMark
   \markup {
     \small
     \bold
@@ -112,7 +164,7 @@ daCapoNoCoda = {
 textToCoda = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #0.770
-  \mark
+  \tag modernCodas \textEndMark
   \markup
   \line
   \general-align #Y #CENTER {
@@ -128,7 +180,7 @@ textToCoda = {
 textToCodaLastTime = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #0.770
-  \mark
+  \tag modernCodas \textEndMark
   \markup
   \line
   \general-align #Y #CENTER {
@@ -144,7 +196,7 @@ textToCodaLastTime = {
 textCoda = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #-0.15
-  \mark
+  \tag modernCodas \textMark
   \markup
   \line
   \general-align #Y #CENTER {
@@ -154,12 +206,30 @@ textCoda = {
   }
 }
 
+%%% includes the word "Coda" after the coda sign
+
+textCodaBreak = {
+  \break
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.15
+  \tag modernCodas \textMark
+  \markup {
+    \pad-around #3 {
+    \line
+    \general-align #Y #CENTER {
+      \musicglyph #"scripts.coda"
+      \large
+      \bold "Coda"
+      }
+    }
+  }
+}
+
 %%% just "Fine"
 
 textFine = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #-0.15
-  \mark
+  \tag modernCodas \textEndMark
   \markup
   \line
   \general-align #Y #CENTER {
@@ -177,7 +247,7 @@ dalSegnoI = {
   \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \once
   \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \mark
+  \tag modernCodas \textEndMark
   \markup {
     \small
     \bold
@@ -190,7 +260,7 @@ dalSegnoI = {
 textToCodaI = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #0.80
-  \mark
+  \tag modernCodas \textEndMark
   \markup
   \line
   \general-align #Y #CENTER {
@@ -206,7 +276,7 @@ textToCodaI = {
 textCodaI = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #-0.3375
-  \mark
+  \tag modernCodas \textMark
   \markup
   \line
   \general-align #Y #CENTER {
@@ -225,7 +295,7 @@ dalSegnoII = {
   \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \once
   \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \mark
+  \tag modernCodas \textEndMark
   \markup {
     \small
     \bold
@@ -238,7 +308,7 @@ dalSegnoII = {
 textToCodaII = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #0.80
-  \mark
+  \tag modernCodas \textEndMark
   \markup
   \line
   \general-align #Y #CENTER {
@@ -254,7 +324,7 @@ textToCodaII = {
 textCodaII = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #-0.3375
-  \mark
+  \tag modernCodas \textMark
   \markup
   \line
   \general-align #Y #CENTER {
@@ -273,7 +343,7 @@ dalSegnoSegnoII = {
   \override Score.RehearsalMark.self-alignment-X = #RIGHT
   \once
   \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \mark
+  \tag modernCodas \textEndMark
   \markup {
     \small
     \bold
@@ -284,7 +354,7 @@ dalSegnoSegnoII = {
 %%% Segno sign
 
 segnoSign = {
-  \mark
+  \tag modernCodas \textMark
   \markup {
     \musicglyph #"scripts.segno"
   }
@@ -293,10 +363,23 @@ segnoSign = {
 %%% Double Segno sign
 
 segnoSegnoSign = {
-  \mark
+  \tag modernCodas \textMark
   \markup {
     \musicglyph #"scripts.segno"
     \hspace #0.125
     \musicglyph #"scripts.segno"
+  }
+}
+
+repeatAndFade = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \tag modernCodas \textEndMark
+  \markup {
+    \small
+    \bold
+    \italic "Repeat and fade"
   }
 }

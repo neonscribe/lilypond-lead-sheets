@@ -34,7 +34,7 @@ verseMelody = \relative g' {
   \clef \whatClef
   \tempo "Freely or Medium"
 
-  \mark \markup{ "Verse" }
+  \textMark \markup{ "Verse" }
   
   \partial 4 c4 |
   \bar "||"
@@ -84,7 +84,7 @@ refrainMelody = \relative g' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \mark \markup{ "Refrain" \box "A1" }
+  \textMark \markup{ "Refrain" \bold \box "A1" }
   \tempo "Medium"
 
   \partial 2 a4 b4 |
@@ -97,7 +97,7 @@ refrainMelody = \relative g' {
 
   \bar "||"
   \break  
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
 
   f2. ds4 | e2~ e8 gs4 b8 | d2. b4 | c2~ c8 d4 cs8 |
   \break
@@ -106,7 +106,7 @@ refrainMelody = \relative g' {
   \bar "||"
   \break
   
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
 
   c1 | b2~ b8 a4 gs8 | a2 e2~ | e2 \tuplet 3/2 { e4 f4 g4 } |
   \break
@@ -114,7 +114,7 @@ refrainMelody = \relative g' {
 
   \bar "||"
   \break  
-  \mark \markup{ \box "C" }
+  \textMark \markup{ \bold \box "C" }
 
   a1 | g2 r8 a4 b8 | d2. c4 | a2 c4 d4 | 
   \break

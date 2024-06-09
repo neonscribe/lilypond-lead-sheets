@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (defined? 'printNoteNames) printNoteNames
+      (or (string=? instrument "Eb for Standard Key")
+       (string=? instrument "Bass for Standard Key")))
+   (set-global-staff-size 18))
+
 \header {
   title = "Oh, Lady Be Good"
   subtitle = \instrument
@@ -11,6 +16,7 @@
 }
 
 refrainLyricsA = \lyricmode {
+  _ _ _
   Oh, sweet and love -- ly la -- dy, be good. __
   Oh, la -- dy, be good __ to me! __
   
@@ -34,6 +40,8 @@ refrainLyricsC = \lyricmode {
 }
 
 refrainSRBChords = \chordmode {
+  s2.
+
   g1:6 c1:9 g2:6 \chordInsideParens{ c2:9 } b2:m7 e2:7.9-
   a1:m7 d1:7.9- g2:6 e2:m7 a2:m7 d2:7.9-
 
@@ -52,7 +60,46 @@ refrainSRBChords = \chordmode {
   \chordCloseParen{ d2:7.9- }
 }
 
+refrainHLChords = \chordmode {
+  s2.
+
+  g1:maj9 c1:9 g2:maj9 c2:9 b2:m7 e2:7.9-
+  a1:m7 d1:7 g2 e2:7.9+ a2:m7 d2:7
+
+  g1:maj9 c1:9 g2:maj9 c2:9 b2:m7 e2:7.9-
+  a1:m7 d1:7 g1:6 d2:m7 g2:9
+
+  c1:maj9 cs1:dim7 g1:maj9 g2:maj9 fs4:m7 b4:7
+  e2:m e2:m7+ e2:m7 e2:m6 a1:m7 d1:7
+
+  g1:maj9 c1:9 g2:maj9 c2:9 b2:m7 e2:7.9-
+  a1:m7 d1:7 g1:6 
+  \chordOpenParen{ a2:m7 }
+  \chordCloseParen{ d2:7 }
+}
+
+refrainDFBChords = \chordmode {
+  s2.
+
+  g1 c1:7 g1 g2/b bf2:dim7
+  a1:m7 d1:7 g2 e2:7 a2:m7 d2:7
+
+  g1 c1:7 g1 g2/b bf2:dim7
+  a1:m7 d1:7 g1 d2:m7 g2:7
+  
+  c1 cs1:dim7 g1 g1
+  a1:7 a1:7 d1:7 d1:7
+
+  g1 c1:7 g1 g2/b bf2:dim7
+  a1:m7 d1:7 g2
+  \chordOpenParen{ gs2:dim7 }
+  a2:m7
+  \chordCloseParen{ d2:7 }
+}
+
 refrainJoelChords = \chordmode {
+  s2.
+
   g1 c1:7 g1:6 b2:m7 bf2:m7
   a1:m7 d1:7 g2 e2:7 a2:m7 d2:7
 
@@ -69,17 +116,22 @@ refrainJoelChords = \chordmode {
   \chordCloseParen{ d2:7 }
 }
 
-refrainChords = \refrainJoelChords
+refrainChords = #(if (and (defined? 'useJoelChords) useJoelChords)
+		  refrainJoelChords
+		  refrainHLChords)
 
 refrainKey = g
 
-refrainMelody = \relative f'' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempo "Medium Fast Swing" 4 = 180
 
-  \mark \markup{ \box "A1" }
+  \partial 2. b4 c4 cs4 |
+  \bar "||"
+
+  \textMark \markup{ \bold \box "A1" }
   
   d2 c4 b4 | d2 d2 | \tuplet 3/2 { d4 b4 g4 } d2~ | d2 d'2 |
   \break
@@ -88,7 +140,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   
   d'2 c4 b4 | d2 d2 | \tuplet 3/2 { d4 b4 g4 } d2~ | d2 d'2 |
   \break
@@ -97,7 +149,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   
   e'1 | r4 e4 e4 e4 | e2 d2~ | d2 r2 |
   \break
@@ -106,7 +158,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
 
   d2 c4 b4 | d2 d2 | \tuplet 3/2 { d4 b4 g4 } d2~ | d2 e'2 |
   \break

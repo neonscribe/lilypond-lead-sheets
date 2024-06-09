@@ -29,7 +29,7 @@ verseMelody = \relative g' {
   \key \verseKey \major
   \clef \whatClef
 
-  \mark \markup{ "Verse" }
+  \textMark \markup{ "Verse" }
 
   a4 a2 g8 a8 | 
   b4 b2. | a4 a2 g8 e8 | fs1 |
@@ -108,7 +108,7 @@ refrainMelody = \relative g' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \mark \markup{ "Refrain" \box "A1" }
+  \textMark \markup{ "Refrain" \bold \box "A1" }
   \set Score.currentBarNumber = #1
   \tempo "Medium" 4 = 125
 
@@ -117,25 +117,25 @@ refrainMelody = \relative g' {
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
   \bar "||"
   \break
-  \mark \markup{ \box "A2" }
+  \textMark \markup{ \bold \box "A2" }
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
   \break
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
   \bar "||"
   \break
-  \mark \markup{ \box "B" }
+  \textMark \markup{ \bold \box "B" }
   b' c g a | b4. b8 b4 a | gs1 | r4 b b a |
   \break
   gs2. e4 | g2 \tuplet 3/2 { g4 a g } | fs1~ | fs2. r4
   \bar "||"
   \break
-  \mark \markup{ \box "A3" }
+  \textMark \markup{ \bold \box "A3" }
   fs4 g d e | fs1 | fs4 g fs g | d' d d4. df8 |
   \break
   c1 | r4 c \tuplet 3/2 { c d c } | b1 | r4 b a
   $(if (and (defined? 'rememberAllTheThings) rememberAllTheThings)
     #{ 
-    \mark \markup { \musicglyph #"scripts.coda" }
+    \textMark \markup { \musicglyph #"scripts.coda" }
     #} )
   g |
   \break
