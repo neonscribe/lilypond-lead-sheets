@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Jazz 5/4" 4 = 160
   
-  \textMark \markup{ \bold \box "A" }
+  \xTextMark \markup{ \bold \box "A" }
   
   b2 a4 \bar "!" g4 e4 | fs4 g4 fs4 \bar "!" e2 |
   \break
@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   g2 g4 \bar "!" g4 d4 | g2 e4 \bar "!" g2 |
   \break

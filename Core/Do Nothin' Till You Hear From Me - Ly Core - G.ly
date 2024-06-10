@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   
   \bar "||"
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
 
   \set Score.currentBarNumber = #1
 
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
 
   b1 | r8 c8 a8 as8 b8 d8 c8 a8 | b1 | r8 c8 a8 as8 b8 d8 c8 a8 |
   b8 g8 d8 c8~ c2 | r4 bf'4 b8 d,8 e8 g8~ | g1 | r2 r8 g8 g8 g8 |
@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   bf1 | g8 bf8 g8 g4 g8 g8 g8 | bf1 | g8 bf8 g8 g4 g8 g8 g8 |
   d'2. r8 d,8 | e8 g8 b8 fs2 g8 | a8 f8 fs8 a4 as8 b8 d8 |
@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   
   b1 | r8 c8 a8 as8 b8 d8 c8 a8 | b1 | r8 c8 a8 as8 b8 d8 c8 a8 |
   b8 g8 d8 c8~ c2 |
@@ -127,7 +127,7 @@ soloMelody = \relative f' {
   \key \soloKey \major
   \clef \whatClef
   
-  \textMark \markup{ "Solos" \bold \box "A1" }
+  \xTextMark \markup{ "Solos" \bold \box "A1" }
 
   \bar ".|:"
   
@@ -137,19 +137,19 @@ soloMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||"
   \break
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \bar "||"
   \break
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \bar "||"
   \break
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

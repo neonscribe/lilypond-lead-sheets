@@ -31,7 +31,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Up" 4 = 180
 
-  \textMark \markup{ \bold \box "Head" }
+  \xTextMark \markup{ \bold \box "Head" }
   
   \bar ".|:"
   \repeat volta 2 {

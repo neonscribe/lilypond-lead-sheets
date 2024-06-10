@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   <g \tweak font-size #-2 c \tweak font-size #-2 e>4) |
   \bar "||"
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   <e \tweak font-size #-2 g \tweak font-size #-2 c>4 r4 r2 | r2 
   <g \tweak font-size #-2 c \tweak font-size #-2 e>2 |
@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   <c \tweak font-size #-2 f \tweak font-size #-2 a>1~ |
   <c \tweak font-size #-2 f \tweak font-size #-2 a>2
@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   <g \tweak font-size #-2 c \tweak font-size #-2 e>4(
   <e \tweak font-size #-2 g \tweak font-size #-2 c>4) r2 | r2
@@ -114,7 +114,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
 
   <c \tweak font-size #-2 f \tweak font-size #-2 a>2 r2 | r2
   \acciaccatura <g c e>8

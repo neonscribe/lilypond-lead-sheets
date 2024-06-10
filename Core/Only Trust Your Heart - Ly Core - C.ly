@@ -91,7 +91,7 @@ refrainMelody = \relative c'' {
   
   \tempo "Medium Bossa" 4 = 120
   
-  \textMark \markup { \bold \box "A1, A2" }
+  \xTextMark \markup { \bold \box "A1, A2" }
 
   \repeat volta 2 {
 
@@ -105,7 +105,7 @@ refrainMelody = \relative c'' {
   }
   \bar "||"
 
-  \textMark \markup { \bold \box "B" }
+  \xTextMark \markup { \bold \box "B" }
 
   \break
   a'1~ | a2 c4 a4 | f1~ | f2 a4 f4 |
@@ -113,7 +113,7 @@ refrainMelody = \relative c'' {
   d2 d'4 df4 | c2. b4 | e,2 c'4 b4 | bf1 |
   \break
 
-  \textMark \markup { \bold \box "A3" }
+  \xTextMark \markup { \bold \box "A3" }
 
   a4 b4 c4 b4 | d2~ d8 c8 b8 a8 | g4 a4 b4 a4 | c1 |
   \break

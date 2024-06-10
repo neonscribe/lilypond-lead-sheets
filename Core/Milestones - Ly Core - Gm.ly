@@ -33,7 +33,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Fast" 4 = 236
 
-  \textMark \markup{ \bold \box "A1, A2" }
+  \xTextMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -44,7 +44,7 @@ refrainMelody = \relative f' {
 
   \break
 
-  \textMark \markup{ \bold \box "B1, B2" }
+  \xTextMark \markup{ \bold \box "B1, B2" }
   
   \key a \minor
   \bar ":|.|:"
@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
 
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   
   \key g \minor
   <f, d bf>4 r4 <g e c>4 r4 | <a f d>4 r8 <g e c>8 r2 | <f d bf>4 r4 <g e c>4 r4 | <a f d>4 r8 <g e c>8 r2 |
@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
 
   \break
 
-  \textMark \markup{ \bold \box "Solos" }
+  \xTextMark \markup{ \bold \box "Solos" }
   
   \bar ".|:-|."
   \repeat volta 2 { \compressMMRests {

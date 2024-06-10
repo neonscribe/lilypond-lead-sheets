@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 110
 
-  \textMark \markup{ \bold \box "A1, A2" }
+  \xTextMark \markup{ \bold \box "A1, A2" }
 
   \bar ".|:"
   \repeat volta 2 {
@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   c'4 a8 b8 c4 a8 b8 | c4. a8 \tuplet 3/2 { c4 d4 c4 } |
   b4 g8 a8 \tuplet 3/2 { b4 a4 g4 } | b1 |
@@ -93,7 +93,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   
   r8 d,8 e8 d8 g4 d8 e8 | f8 d8 a'8 g8~ g2 | r8 g8 a8 g8 c4 g8 a8 | bf8 g8 d'8 c8~ c2 |
   \break

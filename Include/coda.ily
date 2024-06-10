@@ -25,7 +25,7 @@
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \codaKey \whatKey {
+      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \codaKey \whatKey {
       \codaMelody
       } }
       #} )

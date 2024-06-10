@@ -35,7 +35,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Fast Swing" 4 = 280
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   r8 <d e>4-. <d e>8 a'4. <d, e>8 | r8 <d e>8 a'4~ a8 <d, e>8 r8 <d e>8 |
   a'2 <d, e>4-. <d e>8 a8 | r1 |
@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Head" }
+  \xTextMark \markup{ \bold \box "Head" }
   
   \bar ".|:-||"
   \repeat volta 2 {

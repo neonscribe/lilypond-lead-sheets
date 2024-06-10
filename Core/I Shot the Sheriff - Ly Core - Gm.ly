@@ -45,7 +45,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \textMark \markup{ \bold \box "A" }
+  \xTextMark \markup{ \bold \box "A" }
   
   d'4 c8 bf16 c16~ c8 d4. | r4 g,8 g8 bf8 bf8 c8 bf8 | d8 g,8 g4 r2 | r1 |
   \break
@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   r4 g8 g8 f4 d8 f8 | f8( g8) d4 r4 r8 bf8 |
   g'8 g4 g8 g8( f8) f4 | d2 r4 r8 bf8 |
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \bar "|."
   \break
 
-  \textMark \markup{ \bold \box "Outro" }
+  \xTextMark \markup{ \bold \box "Outro" }
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 

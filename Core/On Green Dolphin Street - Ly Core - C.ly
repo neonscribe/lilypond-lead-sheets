@@ -44,7 +44,7 @@ refrainMelody = \relative c'' {
   \clef \whatClef
 
   \tempo "Latin"
-  \textMark \markup{ \bold \box A }
+  \xTextMark \markup{ \bold \box A }
   c2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |
   \break
 
@@ -53,7 +53,7 @@ refrainMelody = \relative c'' {
   \break
 
   \tempo "Swing"
-  \textMark \markup{ \bold \box B }
+  \xTextMark \markup{ \bold \box B }
   g2 d4 e4 | f4 g4 af4 bf4 | g2 g2~ | g2. g4 |
   \break
   bf4 f2 g4 | af4 bf4 cf4 df4 | bf2 bf2~ | bf2 b2
@@ -61,7 +61,7 @@ refrainMelody = \relative c'' {
   \break
 
   \tempo "Latin"
-  \textMark \markup{ \bold \box A }
+  \xTextMark \markup{ \bold \box A }
   c2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |
   \break
   a2 a2~ | a2 \tuplet 3/2 { af4 f4 df4 } | g1~ | g2 r2
@@ -69,7 +69,7 @@ refrainMelody = \relative c'' {
   \break
   
   \tempo "Swing"
-  \textMark \markup{ \bold \box C }
+  \xTextMark \markup{ \bold \box C }
   g2 d4 e4 | f4 g4 gs4 e'4 | d2 c2 | c,4 d4 ds4 b'4 |
   \break
   a2 g2 | r4 g4 g4 g4 | g1~ | g1

@@ -37,7 +37,7 @@
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \introKey \whatKey {
+      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \introKey \whatKey {
       \introMelody
       } }
       #} )
@@ -78,7 +78,7 @@
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \introKey \whatKey {
+      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \introKey \whatKey {
       \introMelody
       } }
       #} )

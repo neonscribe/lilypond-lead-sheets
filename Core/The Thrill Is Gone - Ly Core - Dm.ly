@@ -3,7 +3,8 @@
 \include "../Include/lead-sheets.ily"
 
 $(if (and (and (defined? 'printNoteNames) printNoteNames)
-          (string=? instrument "Bass for Standard Key"))
+          (or (string=? instrument "Bass for Standard Key")
+	   (string=? instrument "Eb for Standard Key")))
      (set-global-staff-size 18))
 
 \header {
@@ -64,7 +65,7 @@ refrainMelody = \relative f' {
   \partial 4 a4 |
   \bar"||"
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
 
   a4 d,4 f2~ | f2. a4 | a4 d,4 f2~ | f2. r4 |
   \break
@@ -75,7 +76,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   a4 d,4 f2~ | f2. a4 | a4 d,4 f2~ | f2. r4 |
   \break
@@ -86,7 +87,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   f'2. e4 | f2. e4 | e2. d4 | e2. d4 |
   \break

@@ -34,7 +34,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Slow Funk" 4 = 85
 
-  \textMark \markup{ \bold \box "A" }
+  \xTextMark \markup{ \bold \box "A" }
   
   r4 g8 f8~ f4 d8 bf8 | c8 bf8 bf8 g8 bf4 c4 |
   r4 g'8 f8~ f4 d8 bf8 | c8 bf8 bf8 g8 bf4 c4 |
@@ -45,7 +45,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   f4 f4 g8 g4 af8~ | af4 af4 g8 g4 f8~ | f4 f4 g8 g4 af8~ | af4 af4 g8 g4 f8~ |
   \break

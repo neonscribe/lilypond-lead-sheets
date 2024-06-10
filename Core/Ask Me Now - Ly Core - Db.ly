@@ -69,7 +69,7 @@ refrainMelody = \relative c'' {
   \clef \whatClef
   \tempo "Medium Swing Ballad" 4 = 80
 
-  \textMark \markup { \bold \box "A1" }
+  \xTextMark \markup { \bold \box "A1" }
   c8 g8 e8 c8 b8 b'4. | bf8 f8 d8 bf8 a8 a'4. |
   \allowBreak
   af8 bf8 af8 bf8 af4 e!4 | f1 |
@@ -80,7 +80,7 @@ refrainMelody = \relative c'' {
   \bar "||"
   \break
 
-  \textMark \markup { \bold \box "A2" }
+  \xTextMark \markup { \bold \box "A2" }
   c8 g8 e8 c8 b8 b'4. | bf8 f8 d8 bf8 a8 a'4. |
   \allowBreak
   af8 bf8 af8 bf8 af4 e!4 | f1 |
@@ -93,7 +93,7 @@ refrainMelody = \relative c'' {
 
   \pageBreak
   
-  \textMark \markup { \bold \box "B" }
+  \xTextMark \markup { \bold \box "B" }
   ef8 f8 gf8 af8 c4. bf8 | af1 |
   \allowBreak
   ef8 f8 gf8 af8 b!4. a8 | af1 |
@@ -103,7 +103,7 @@ refrainMelody = \relative c'' {
   bf8 af8 gf8 bf,8 f'8 ef4. | ff'8 ef8 df8 bf8 ff'8 ef4. |
   \bar "||"
 
-  \textMark \markup { \bold \box "A3" }
+  \xTextMark \markup { \bold \box "A3" }
   c8 g8 e8 c8 b8 b'4. | bf8 f8 d8 bf8 a8 a'4. |
   \allowBreak
   af8 bf8 af8 bf8 af4 e!4 | f1 |

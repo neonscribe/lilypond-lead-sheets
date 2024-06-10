@@ -37,7 +37,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
 	% Transpose bass line in the same octave
-	  \removeWithTag modernCodas \transpose \introKey \bassKey { \bassIntro }
+	  \removeWithTag LLS \transpose \introKey \bassKey { \bassIntro }
       }
       #} )
   >>
@@ -73,7 +73,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
 	% Transpose bass line in the same octave
-	  \removeWithTag modernCodas \transpose \introKey \bassKey { \bassIntro }
+	  \removeWithTag LLS \transpose \introKey \bassKey { \bassIntro }
       }
       #} )
   >>

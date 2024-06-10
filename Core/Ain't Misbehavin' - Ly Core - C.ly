@@ -2,6 +2,12 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (defined? 'printNoteNames) printNoteNames
+      (or (string=? instrument "Eb for Django Key")
+       (string=? instrument "Bass for Original Key")
+       (string=? instrument "Bass for Django Key")))
+   (set-global-staff-size 18))
+
 \header {
   title = "Ain't Misbehavin'"
   subtitle = \instrument
@@ -88,7 +94,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Slow to Fast" 4 = 100-180
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   r8 c8 d8 c8 g'8 g4. | r8 d8 e8 d8 a'2 | r8 g8 a8 g8 c8 c4 b8 | d8 c8 a8 e8~ e8 ef8 d4 |
   r8 c8 d8 c8 g'8 g4. | r8 d8 e8 d8 a'8 a4 g8 | c,1 | r1 |
@@ -96,7 +102,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   r8 c8 d8 c8 g'8 g4. | r8 d8 e8 d8 a'2 | r8 g8 a8 g8 c8 c4 b8 | d8 c8 a8 e8~ e8 ef8 d4 |
   \break
@@ -105,7 +111,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   r4 c'8 a8 c8 a4. | r4 c8 a8 c8 a4. | r4 c8 a8 c8 a4. | r4 cs8 a8 cs8 a4. |
   \break
   r4 d4 d4 d4 | d4 c4 b4 a4 | g2 a2 | e2 d2 |
@@ -113,7 +119,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   r8 c8 d8 c8 g'8 g4. | r8 d8 e8 d8 a'2 | r8 g8 a8 g8 c8 c4 b8 | d8 c8 a8 e8~ e8 ef8 d4 |
   \break

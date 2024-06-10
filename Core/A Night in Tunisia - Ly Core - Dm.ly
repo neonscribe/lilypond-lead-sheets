@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Latin" 4 = 140
   \clef bass
 
-  \textMark \markup{ \bold \box "Intro" " (bass)" }
+  \xTextMark \markup{ \bold \box "Intro" " (bass)" }
   \bar ".|:"
   \repeat volta 2 {
   ef,8 bf'8 df8 ef8~ ef8 df4 bf8 | d,8 f8 a8 b8~ b8 a4 f8 |
@@ -64,7 +64,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \partial 8 a8 |
   
-  \textMark \markup{ \bold \box "A1, A2, A3" \musicglyph #"scripts.segno" }
+  \xTextMark \markup{ \bold \box "A1, A2, A3" \musicglyph #"scripts.segno" }
   \bar ".|:"
   \repeat volta 2 {
   \tuplet 3/2 { bf8 df8 f8 } c'2 bf8 f8 | gs8 a4.~ a4. a,8 |
@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   c4. a8~ a4. g8 | fs4 ef'8 df8 d8 c4 a8 | bf8 g4 fs8~ fs4 a8 f8 | g8 a8 e4 r4 r8 bf'8~ |
   \break
@@ -94,7 +94,7 @@ refrainMelody = \relative f' {
   \bar "||"
   
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
   
   a4 g8 e8 a4 g8 e8 | a8 g8 e8 a8 r4 r8 a8~ | a4 g8 ef8 a4 g8 ef8 | a8 g8 ef8 a8 r4 r8 a8~ |
   \break

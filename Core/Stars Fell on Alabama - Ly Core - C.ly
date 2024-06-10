@@ -35,7 +35,7 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Ballad" 4 = 92
 
-  \textMark \markup{ "Intro" }
+  \xTextMark \markup{ "Intro" }
   
   f8 f8 d8 d8 af'8 af4. | g8 g8 e8 e8 c'2 | c8 c8 a8 a8 d4 b4 | g1 |
   \bar "||"
@@ -76,7 +76,7 @@ verseMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Ballad" 4 = 92
 
-  \textMark \markup{ "Verse" }
+  \xTextMark \markup{ "Verse" }
   
   f8 f8 d8 d8 af'8 af4. | g8 g8 e8 e8 bf'2 |
   \break
@@ -186,7 +186,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Ballad" 4 = 92
 
-  \textMark \markup{ "Refrain" \bold \box "A1" }
+  \xTextMark \markup{ "Refrain" \bold \box "A1" }
   \set Score.currentBarNumber = #1
   
   e2 ds8 e8 ds8 e8 | a4 a2 g4 | e'2 ds8 e8 ds8 e8 | b2. bf4 |
@@ -195,7 +195,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
 
   e2 ds8 e8 ds8 e8 | a4 a2 g4 | e'2 ds8 e8 ds8 e8 | b2. bf4 |
   a2 gs8 a8 gs8 a8 | e4 e2 d4 | c1 | r2 r8 e8 f8 g8 |
@@ -203,7 +203,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   a4. a8 g8 f8 e8 d8 | b'4 b4. c8 d8 c8 | g4 g4. a8 b8 g8 | e2 r8 e8 f8 g8 |
   a4. a8 g8 f8 e8 d8 | c'4 c4. d8 e8 c8 | b4 b4. cs8 ds8 b8 | gs2 g2 |
@@ -211,7 +211,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
 
   e2 ds8 e8 ds8 e8 | a4 a2 g4 | e'2 ds8 e8 ds8 e8 | b2. bf4 |
   a2 gs8 a8 gs8 a8 | e4 e2 d4 | c1 | r2^\markup{ "to " \bold \box "A1" } r2^\markup{ "to " \bold \box "B" } |

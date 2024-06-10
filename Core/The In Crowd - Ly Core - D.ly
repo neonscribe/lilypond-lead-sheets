@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 140
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   r4 <d c fs>4 <d c fs>8 <d c fs>8 r8 <d c fs>8~ |
   <d c fs>4 <d c fs>4 <d c fs>8 <d c fs>8 r8 <d c fs>8 |
@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Head" }
+  \xTextMark \markup{ \bold \box "Head" }
   
   r4 \acciaccatura af'8 a4 g8 f8 d8 f8 | r8 g4.~ g2 |
   r4 \acciaccatura af8 a4 g8 f8 d8 f8~ | f8 d8 c8 <d c>8~ <d c>2 |
@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   
   
 
-  \textMark \markup{ \bold \box "Turnaround" }
+  \xTextMark \markup{ \bold \box "Turnaround" }
   
   d4 r8 c8~ c8 r8 a4 | r8 g4 r8 f4 c4 \textToCodaLastTime |
   

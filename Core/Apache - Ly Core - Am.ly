@@ -2,6 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 18))
+
 \header {
     title =  Apache
     subtitle = \instrument
@@ -21,7 +24,7 @@ refrainMelody =  \relative a' {
     \time 4/4 
     \key a \minor
     \tempo "Tom-Tom Straight Eighths" 4=130
-    \textMark \markup { Intro }
+    \xTextMark \markup { Intro }
     r4  a8 [  c8 ]  d8 [
      ef8 ]  d4 | % 2
     r4  a8 [  d8 ]  a'8 [  g8 ]
@@ -33,7 +36,7 @@ refrainMelody =  \relative a' {
     \bar ".|:-||"
     \break
     \repeat volta 2 {
-    \textMark \markup { \bold \box { A1 } }
+    \xTextMark \markup { \bold \box { A1 } }
     a,2  e4  a4 | % 6
      fs2  e4  d4 | % 7
      e2. r4 | % 8
@@ -53,7 +56,7 @@ refrainMelody =  \relative a' {
     R1 | % 21
     \bar "||"
      \break
-   \textMark \markup { \bold \box { B1 } }
+   \xTextMark \markup { \bold \box { B1 } }
      c8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 22
      c8 [  f16  f16 ]  f8 [  f8 ]
@@ -71,7 +74,7 @@ refrainMelody =  \relative a' {
     e1 | % 29
     \bar "||"
      \break
-   \textMark \markup { \bold \box { C1 } }
+   \xTextMark \markup { \bold \box { C1 } }
     r4  f4  a4  c4 | \barNumberCheck #30
      b2  c4  d4 | % 31
     \times 2/3  {
@@ -92,7 +95,7 @@ refrainMelody =  \relative a' {
     a1 | % 41
     \bar "||"
      \break
-   \textMark \markup { \bold \box { B2 } }
+   \xTextMark \markup { \bold \box { B2 } }
      c,8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 42
      c8 [  f16  f16 ]  f8 [  f8 ]
@@ -110,7 +113,7 @@ refrainMelody =  \relative a' {
     a1 | % 49
   }
     \break
-    \textMark \markup { Outro }
+    \xTextMark \markup { Outro }
     r4  a'8 [  c8 ]  d8 [  ef8 ]
      d4 | % 94
     r4  a8 [  d8 ]  a'8 [  g8 ]
@@ -155,7 +158,7 @@ refrainChords =  \chordmode {
 \include "../Include/refrain.ily"
 
 xxxx = {    \bar "||"
-    \textMark \markup { \bold \box { A2 } }
+    \xTextMark \markup { \bold \box { A2 } }
     a'2  e4  a4 | \barNumberCheck #50
      fs2  e4  d4 | % 51
      e2. r4 | % 52
@@ -173,7 +176,7 @@ xxxx = {    \bar "||"
      e2. r4 | % 64
     R1 | % 65
     \bar "||"
-    \textMark \markup { \bold \box { B3 } }
+    \xTextMark \markup { \bold \box { B3 } }
      c8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 66
      c8 [  f16  f16 ]  f8 [  f8 ]
@@ -190,7 +193,7 @@ xxxx = {    \bar "||"
     e1 ~ | % 72
     e1 | % 73
     \bar "||"
-    \textMark \markup { \bold \box { C2 } }
+    \xTextMark \markup { \bold \box { C2 } }
     r4  f4  a4  c4 | % 74
      b2  c4  d4 | % 75
     \times 2/3  {
@@ -208,7 +211,7 @@ xxxx = {    \bar "||"
      a2 ~ | % 84
     a1 | % 85
     \bar "||"
-    \textMark \markup { \bold \box { B4 } }
+    \xTextMark \markup { \bold \box { B4 } }
      c,8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 86
      c8 [  f16  f16 ]  f8 [  f8 ]

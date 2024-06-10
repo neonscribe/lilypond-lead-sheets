@@ -25,7 +25,7 @@
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
       \refrainMelody
       } }
       #} )
@@ -46,7 +46,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
       %% Only transpose bass line in the same octave
-      \removeWithTag modernCodas \transpose \refrainKey \bassKey { \refrainBass }
+      \removeWithTag LLS \transpose \refrainKey \bassKey { \refrainBass }
       }
       #} )
   >>
@@ -79,7 +79,7 @@
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
       \refrainMelody
       } }
       #} )
@@ -100,7 +100,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
       %% Only transpose bass line in the same octave
-      \removeWithTag modernCodas \transpose \refrainKey \bassKey { \refrainBass }
+      \removeWithTag LLS \transpose \refrainKey \bassKey { \refrainBass }
       }
       #} )
   >>

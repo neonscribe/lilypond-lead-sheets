@@ -31,7 +31,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Rock/Gospel Straight Eighths" 4 = 150
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -39,7 +39,7 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \textMark \markup{ \bold \box "Head" }
+  \xTextMark \markup{ \bold \box "Head" }
   
   \bar ":|.|:"
   \repeat volta 2 {

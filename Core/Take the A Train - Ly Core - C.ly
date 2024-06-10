@@ -3,7 +3,7 @@
 \include "../Include/lead-sheets.ily"
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
+  #{ #(set-global-staff-size 16) #}
 )
 
 \header {
@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 140
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   g1~ | g8 e'4. g,4 c4 | e8 gs,4.~ gs2~ | gs1 |
   \break
@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   g1~ | g8 e'4. g,4 c4 | e8 gs,4.~ gs2~ | gs1 |
   \break
@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   a8 c4.~ c2 | e8 f,4. a4 c4 | e8 a,4.~ a2~ | a1 |
   \break
@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   g1~ | g8 e'4. g,4 c4 | e8 gs,4.~ gs2~ | gs1 |
   \break

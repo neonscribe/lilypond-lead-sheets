@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 75
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   r4 ef4 \tuplet 3/2 { ef4 d4 ef4 } | g4 g2. |
   r4 ef4 \tuplet 3/2 { ef4 d4 ef4 } | g2 r2 |
@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   r4 ef4 ef4 ef4 | ef8 bf4 bf8~ bf4 bf4 |
   bf4 gf4 gf4 gf4~ | gf1 |
@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   r4 ef4 \tuplet 3/2 { ef4 d4 ef4 } | g4 g2. |
   r4 ef4 \tuplet 3/2 { ef4 d4 ef4 } | g2 r2 |
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
   
   r4 ef4 ef4 df4 | df4 c4 c4 bf4 |
   r4 af4 \tuplet 3/2 { af4 g4 f4  } | af1 |

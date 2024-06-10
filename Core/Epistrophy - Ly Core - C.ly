@@ -2,7 +2,8 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 16))
 
 \header {
   title = "Epistrophy"
@@ -39,7 +40,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   r4 cs8 d8 as'8 b4. | cs,8 d8 as'8 b8~ b4 r4 |
   r4 cs,8 d8 bf'8 e,4. | cs8 d8 bf'8 e,8~ e4 r4 |
@@ -50,7 +51,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   r4 ds8 e8 c'8 cs4. | ds,8 e8 c'8 cs8~ cs4 r4 |
   r4 ds,8 e8 c'8 fs,4. | ds8 e8 c'8 fs,8~ fs4 r4 |
@@ -61,7 +62,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   r2 cs8 ds8 fs8 gs8 | a4 gs8 a8 fs4 ds4 |
   r2 cs8 ds8 fs8 a8 | r8 a4 gs8 fs4 ds4 |
@@ -73,7 +74,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   r4 ds,8 e8 c'8 cs4. | ds,8 e8 c'8 cs8~ cs4 r4 |
   r4 ds,8 e8 c'8 fs,4. | ds8 e8 c'8 fs,8~ fs4 r4 |

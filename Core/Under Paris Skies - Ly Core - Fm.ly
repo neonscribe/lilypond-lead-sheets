@@ -1,8 +1,9 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
+
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 16))
 
 \header {
   title = "Sous le Ciel de Paris (Under Paris Skies)"
@@ -57,7 +58,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Waltz" 4 = 150
 
-  \textMark \markup{ \bold \box "A1,A2,A4" }
+  \xTextMark \markup{ \bold \box "A1,A2,A4" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -72,7 +73,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   f2. | f2. | f2. | g4 af4 g4 |
   f2. | f2. | f2. | g4 af4 g4 |
@@ -82,7 +83,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   
   c,4 f4 g4 | af2 bf4 | c4 bf4 af4 | g4 f4 ef4 |
   df2. | c'2. | bf2.~ | bf2 r4 |
@@ -92,7 +93,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
   
   \key \refrainKey \major
 

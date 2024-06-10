@@ -25,7 +25,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
 	% Don't transpose bass line
-      \removeWithTag modernCodas \bassSolos
+      \removeWithTag LLS \bassSolos
       }
       #} )
   >>
@@ -58,7 +58,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
 	% Don't transpose bass line
-      \removeWithTag modernCodas \bassSolos
+      \removeWithTag LLS \bassSolos
       }
       #} )
   >>

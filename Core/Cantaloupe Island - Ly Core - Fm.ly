@@ -33,13 +33,13 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Jazz Funk, Straight Eighths" 4 = 116
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   r1^"(Vamp)" | r1 | r1 | r2 r4 f8 f8 |
   
   \break
 
-  \textMark \markup{ \bold \box "Refrain" }
+  \xTextMark \markup{ \bold \box "Refrain" }
   
   \bar ".|:-||"
   \repeat volta 2 {

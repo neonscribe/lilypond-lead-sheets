@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq e,16 fs16 a16 c16~ c16 a16 c8 |
@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{  \musicglyph #"scripts.segno" \bold \box "Verse 1" }
+  \xTextMark \markup{  \musicglyph #"scripts.segno" \bold \box "Verse 1" }
   
   g''8 g8 g8 a8~ a8 g8 e4 | d8 cs8 d8 e8~( e16 d16 cs8) r4 |
   \break
@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Verse 2" }
+  \xTextMark \markup{ \bold \box "Verse 2" }
   
   g'8 g8 g8 a8~ a8 e8~ e16 e8. | d8 cs16 d16~ d8 e8~( e16 d16 cs8) r8 cs8 |
   \break
@@ -96,7 +96,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \pageBreak
 
-  \textMark \markup{ \bold \box "Bridge" }
+  \xTextMark \markup{ \bold \box "Bridge" }
   
   fs'2.( cs4) | <a' \tweak font-size #-2 cs \tweak font-size #-2 e,>2. r4 |
   fs2.( cs4) | <a' \tweak font-size #-2 cs \tweak font-size #-2 e,>2. r4 |
@@ -108,7 +108,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Verse 3" }
+  \xTextMark \markup{ \bold \box "Verse 3" }
   
   g8 g8 g8 a8~ a8 g8 e4 | d8 cs8 d8 e8~( e16 d16 cs8) r4 |
   \break
@@ -121,11 +121,11 @@ refrainMelody = \relative f' {
   d4 d8 cs16 d16~ d4 cs16 d8 e16~ | e8 e8~( e16 d16 cs8) r2 |
   \break
 
-  \textMark \markup{ \bold \box "Solos" }
+  \xTextMark \markup{ \bold \box "Solos" }
   
   \bar ".|:-||"
   \repeat volta 2 {
-  \rsq \rsq \rsq \textMark \markup{ \italic "Repeat as desired" } \rsq  |
+  \rsq \rsq \rsq \xTextMark \markup{ \italic "Repeat as desired" } \rsq  |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \dalSegno |
   }
 
@@ -133,7 +133,7 @@ refrainMelody = \relative f' {
   
   \bar ":|.|:"
   \repeat volta 2 {
-  \rsq \rsq \rsq \textMark \markup{ \italic "Repeat until cue" } \rsq |
+  \rsq \rsq \rsq \xTextMark \markup{ \italic "Repeat until cue" } \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
   \break

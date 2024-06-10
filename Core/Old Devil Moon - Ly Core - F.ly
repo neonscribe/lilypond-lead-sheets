@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Latin to Swing" 4 = 130
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   f1^\markup { Latin } | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
   \break
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B1" }
+  \xTextMark \markup{ \bold \box "B1" }
 
   c2 bf8 a4 f 8~ | f2 a4 bf4 | c2 bf8 a4 f8~ | f2 a4 bf4 |
   \break
@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
 
   f2 ef8 c8 ef8 g8~ | g2 \tuplet 3/2 { ef4 c4 ef4 } | a2^\markup { Swing } a2~ | a2 f8 d8 f8 a8~ |
   \break
@@ -95,7 +95,7 @@ refrainMelody = \relative f' {
 
   \pageBreak
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   f1^\markup { Latin } | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
   \break
@@ -103,14 +103,14 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B2" }
+  \xTextMark \markup{ \bold \box "B2" }
 
   c2 bf8 a4 f 8~ | f2 a4 bf4 | c2 bf8 a4 f8~ | f2 a4 bf4 |
   \break
 
   df2 cf8 bf4 gf8~ | gf2 a8 g4 f8~ | f1^\markup { Latin } | r2 ef8 c8 ef4 |
   
-  \textMark \markup{ \bold \box "D" }
+  \xTextMark \markup{ \bold \box "D" }
 
   f2 f2~ | f2 ef8 c8 ef4 | f1~ | f2 \tuplet 3/2 { ef'4 ef4 ef4 } |
   \break
@@ -122,7 +122,7 @@ refrainMelody = \relative f' {
 
   \repeat volta 2 {
     r1 |
-  \textMark \markup{ "Vamp" }
+  \xTextMark \markup{ "Vamp" }
     r1 |
   }
   r1 | 

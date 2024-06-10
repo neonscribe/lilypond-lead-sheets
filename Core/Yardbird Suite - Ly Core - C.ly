@@ -2,6 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 16))
+
 \header {
   title = "Yardbird Suite"
   subtitle = \instrument
@@ -63,7 +66,7 @@ refrainMelody = \relative g' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \textMark \markup{ \bold \box A1 }
+  \xTextMark \markup{ \bold \box A1 }
   \bar ".|:"
 
   \repeat volta 2 {
@@ -82,12 +85,12 @@ refrainMelody = \relative g' {
       \break
      }
   }
-  \textMark \markup{ \bold \box B }
+  \xTextMark \markup{ \bold \box B }
   e4. fs8 g8 e8 r8 a8 | r8 a8 a2. | g8 a8 g8 fs8 e8 b8 c8 cs8~ | cs2 r4 r8 bf8 |
   \break
   a4. a'8 r8 e8 f8 g8 | r8 g4. f8 e8 d8 cs8 | e4 a,8 e'2 a,8 | d8 e8 f8 g8 r2 |
   \bar "||"
-  \textMark \markup{ \bold \box A3 }
+  \xTextMark \markup{ \bold \box A3 }
   r8 c4. g4 a4 | bf4. af4 ef8 f8 g8~ | g2 g4. e8~ | e4 e8 f8 r8 ds8 e8 a8 |
   \break
   r8 a4.~ a2 \textToCodaLastTime |

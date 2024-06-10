@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
 
   r8 f8 r8 f8 af8 af8 f8 c8 |
 
-  \textMark \markup{ \bold \box "A1, A2" \musicglyph #"scripts.segno" }
+  \xTextMark \markup{ \bold \box "A1, A2" \musicglyph #"scripts.segno" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   c'2^"(bass walks in four)" c16 bf16 af16 f16 bf8 f8 | af4. f8 ef8 c8 ef8 f8~ | f1~ | f4 r4 f4 f4 |
   \break
@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   
   ef4^"(rhythm resumes)" f2. | r8 f8 r8 f8 af4 bf8 bf16 cf16 |
   bf16 af16 f8 f2. | r8 f8 r8 f8 c'4 ef8 c16 cf16 |
@@ -94,7 +94,7 @@ refrainMelody = \relative f' {
 
   \pageBreak
 
-  \textMark \markup{ \bold \box "Solos A1, A2" }
+  \xTextMark \markup{ \bold \box "Solos A1, A2" }
 
   \bar ".|:-||"
   \repeat volta 2 {
@@ -106,7 +106,7 @@ refrainMelody = \relative f' {
   }
 
   \break
-  \textMark \markup{ \bold \box "Solos B" }
+  \xTextMark \markup{ \bold \box "Solos B" }
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -116,7 +116,7 @@ refrainMelody = \relative f' {
   \bar "||"
 
   \break
-  \textMark \markup{ \bold \box "Solos A3" }
+  \xTextMark \markup{ \bold \box "Solos A3" }
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

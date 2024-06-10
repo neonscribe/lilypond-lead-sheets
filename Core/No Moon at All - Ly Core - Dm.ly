@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Up Swing"
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
 
   a8 f8 g8 a8~ a2 | r8 a8 e8 a8~ a2 | r8 a4 fs8 a8 g8 fs8 a8 | g4 d8 g8~ g2 |
   r8 g4 e8 g8 f8 e8 g8 | f8 b,8 c8 f8~ f8 d8 e8 d8~ | d1 | r1 |
@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
 
   a'8 f8 g8 a8~ a2 | r8 a8 e8 a8~ a2 | r8 a4 fs8 a8 g8 fs8 a8 | g4 d8 g8~ g2 |
   r8 g4 e8 g8 f8 e8 g8 | f8 b,8 c8 f8~ f8 d8 e8 d8~ | d1 | r1 |
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   r8 d4. fs8 a4 d,8~ | d4 fs8 a8~ a2 | r8 g4. b8 d4 g,8~ | g4 b8 d8~ d2 |
   \break
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   a8 f8 g8 a8~ a2 | r8 a8 e8 a8~ a2 | r8 a4 fs8 a8 g8 fs8 a8 | g4 d8 g8~ g2 |
   r8 g4 e8 g8 f8 e8 g8 | f8 b,8 c8 f8~ f8 d8 e8 d8~ | d1 | r1 |

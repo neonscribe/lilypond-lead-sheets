@@ -30,7 +30,7 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempo "Waltz" 4 = 180
 
-  \textMark \markup { "Intro" }
+  \xTextMark \markup { "Intro" }
 
   <f, a c>2.~ | <f a c>2 r8 <a c f>8 | <a c f>2.~ | <a c f>2 r8 <f' a c>8 |
   <f a c>2.~ | <f a c>2 r8 <a c f>8 | <a c f>2.~ |
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \textMark \markup { "Verse" }
+  \xTextMark \markup { "Verse" }
 
   \partial 4 d4 |
   \bar "||"
@@ -89,7 +89,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup { "Chorus" }
+  \xTextMark \markup { "Chorus" }
 
   c2 c4 | c2 c4 | c2 bf4 |
   r4 d4. d8 | c2 d4 | c2 bf4 | a2. | r2 c4 |

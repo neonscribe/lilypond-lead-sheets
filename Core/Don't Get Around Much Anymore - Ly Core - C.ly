@@ -78,7 +78,7 @@ refrainMelody = \relative c' {
 
   r8 e4 d8 c8 g8 f8 e8~ |
   \bar "||"
-  \textMark \markup{ \bold \box A1 }
+  \xTextMark \markup{ \bold \box A1 }
   <<
     \new Voice
     { \voiceTwo
@@ -110,7 +110,7 @@ refrainMelody = \relative c' {
   r8 e'4 d8 c g f e~ |
   \bar "||"
   \break
-  \textMark \markup{ \bold \box A2 }
+  \xTextMark \markup{ \bold \box A2 }
   <<
     \new Voice
     { \voiceTwo
@@ -142,14 +142,14 @@ refrainMelody = \relative c' {
 
   \bar "||"
   \break
-  \textMark \markup{ \bold \box B }
+  \xTextMark \markup{ \bold \box B }
 
   d'2 c8 a4 c8~ | c2. c4 | d2 c8 g4 e8~ | e2. c'4 |
   d2 c8 a4 c8~ | c1 | r8 b8 b b b a4 g8~ | g8 e'4 d8 c g f e~
 
   \bar "||"
   \break
-  \textMark \markup{ \bold \box C }
+  \xTextMark \markup{ \bold \box C }
 
   <<
     \new Voice
@@ -240,7 +240,7 @@ soloMelody = \relative f' {
   \key \soloKey \major
   \clef \whatClef
 
-  \textMark \markup{ "Solos" \bold \box "A1" }
+  \xTextMark \markup{ "Solos" \bold \box "A1" }
 
   \bar ".|:"
   
@@ -250,19 +250,19 @@ soloMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||"
   \break
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \bar "||"
   \break
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \bar "||"
   \break
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | }

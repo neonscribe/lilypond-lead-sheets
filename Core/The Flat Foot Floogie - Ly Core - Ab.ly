@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \noBreak
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   ef'4 df4 cf8 af8 f8 ef8 |
   \noBreak
@@ -102,7 +102,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
 
   ef'4 df4 cf8 af8 f8 ef8 | 
   \noBreak
@@ -123,7 +123,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   bf4 af4 bf8 df4 bf8~ |
   \noBreak
@@ -144,7 +144,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   ef'4 df4 cf8 af8 f8 ef8 |
   \noBreak

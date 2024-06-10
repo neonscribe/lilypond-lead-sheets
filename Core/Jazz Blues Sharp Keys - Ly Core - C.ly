@@ -28,7 +28,7 @@ refrainChordsInC = \chordmode {
 }
 
 refrainChords = \chordmode {
-  \textMark \markup { \hspace #10 \bold \box "Blues in C" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in C" }
 
   \bar ".|:"
   \repeat volta 2 {
@@ -37,7 +37,7 @@ refrainChords = \chordmode {
   \break
 
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in G" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in G" }
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -48,7 +48,7 @@ refrainChords = \chordmode {
   \break
 
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in D" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in D" }
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -59,7 +59,7 @@ refrainChords = \chordmode {
   \break
 
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in A" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in A" }
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -70,7 +70,7 @@ refrainChords = \chordmode {
   \pageBreak
 
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in E" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in E" }
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -81,7 +81,7 @@ refrainChords = \chordmode {
   \break
 
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in B" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in B" }
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -92,7 +92,7 @@ refrainChords = \chordmode {
   \break
 
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in F#" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in F#" }
 
   \bar ":|.|:"
   \repeat volta 2 {

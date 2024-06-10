@@ -50,14 +50,14 @@ refrainMelody = \relative g {
   \clef bass
   \tempo 4 = 134
 
-  \textMark \markup { "Intro" }
+  \xTextMark \markup { "Intro" }
 
   r1 | r1 | r1 | r1
 
   \bar ".|:-||"
   \break
 
-  \textMark \markup { "Verse" }
+  \xTextMark \markup { "Verse" }
   
   \repeat volta 2 {
 
@@ -93,7 +93,7 @@ refrainMelody = \relative g {
   \bar "||"
 
   \break
-  \textMark \markup { "Solo" }
+  \xTextMark \markup { "Solo" }
   
   a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |
   a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |

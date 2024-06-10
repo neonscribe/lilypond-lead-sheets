@@ -35,7 +35,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Swinging Latin" 2 = 105
 
-  \textMark \markup{ \bold \box "Head" }
+  \xTextMark \markup{ \bold \box "Head" }
   \bar ".|:"
   \repeat volta 2 {
   r4 g8 c8 r8 b8 r8 a8 | g4-. a4-. e4-. f4-. | g4-. c4-. b4-. c4-- | r1
@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \textMark \markup{ \bold \box "Solos" }
+  \xTextMark \markup{ \bold \box "Solos" }
   \bar ":|.|:"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

@@ -53,7 +53,7 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempo "Medium Swing" 4 = 140
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   c2 g2 | r8 f8 g8 f8 g4 f4 | c'2 ef,2 | r8 d8 ef8 d8 ef4 d4 |
   \break
@@ -62,7 +62,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   c2 g2 | r8 f8 g8 f8 g4 f4 | c'2 ef,2 | r8 d8 ef8 d8 ef4 d4 |
   \break
@@ -71,7 +71,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
 									       
   bf2 ef,2 | r8 bf'8 c8 bf8 c4 bf4 | bf2 e,2~ | \tuplet 3/2 { e4 e4 f4 } \tuplet 3/2 { g4 af4 bf4 }
   \break
@@ -80,7 +80,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   c2 g2 | r8 f8 g8 f8 g4 f4 | c'2 ef,2 | r8 d8 ef8 d8 ef4 d4 |
   \break

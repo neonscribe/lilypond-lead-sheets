@@ -28,13 +28,13 @@ introMelody = \relative f {
   \clef bass
   \tempo "Medium-Slow Swing" 4 = 115
   
-  \textMark \markup{ "Intro, bass only" }
+  \xTextMark \markup{ "Intro, bass only" }
 
   d4 c4 bf4 a4 | d4 c4 bf4 a4 | 
 
   \clef treble
 
-  \textMark \markup{ "guitars join" }
+  \xTextMark \markup{ "guitars join" }
 
   d''4 c4 bf4 a4 | d4 c4 bf4 a4 |
 
@@ -85,7 +85,7 @@ refrainMelody = \relative f'' {
   \key \refrainKey \minor
   \clef \whatClef
 
-  \textMark \markup{ \bold \box "A1, A2" }
+  \xTextMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -99,7 +99,7 @@ refrainMelody = \relative f'' {
   } } }
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   g8 g4 a8 f8 f4 g8 | e8 e4 f8 d8 e8 f8 g8 | a4. f8 a2~ | a4 r4 bf4. a8 |
   \break
@@ -108,7 +108,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   f8 a8 r8 f8 a4 a4 | f2 d4 r4 | f8 a8 r8 f8 a4 a4 | f2 r2 |
   \break
@@ -132,13 +132,13 @@ outroMelody = \relative f {
   \key \outroKey \minor
   \clef treble
   
-  \textMark \markup{ "Outro, bass and guitars" }
+  \xTextMark \markup{ "Outro, bass and guitars" }
 
   d''4 c4 bf4 a4 | d4 c4 bf4 a4 |
 
   \clef bass
 
-  \textMark \markup{ "bass only" }
+  \xTextMark \markup{ "bass only" }
 
   d,,4 c4 bf4 a4 | d4 c4 bf4 a4 | d1
 

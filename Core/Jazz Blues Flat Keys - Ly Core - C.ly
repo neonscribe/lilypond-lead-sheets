@@ -29,7 +29,7 @@ refrainChordsInC = \chordmode {
 
 refrainChords = \chordmode {
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in C" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in C" }
 
   \bar ".|:"
   \repeat volta 2 {
@@ -38,7 +38,7 @@ refrainChords = \chordmode {
   \break
 
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in F" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in F" }
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -49,7 +49,7 @@ refrainChords = \chordmode {
   \break
 
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in Bb" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in Bb" }
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -60,7 +60,7 @@ refrainChords = \chordmode {
   \break
 
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in Eb" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in Eb" }
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -75,14 +75,14 @@ refrainChords = \chordmode {
   \bar ":|.|:"
   \repeat volta 2 {
   \transpose c af {
-  \textMark \markup { \hspace #10 \bold \box "Blues in Ab" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in Ab" }
     \refrainChordsInC
   }
   }
   \break
 
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in Db" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in Db" }
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -93,7 +93,7 @@ refrainChords = \chordmode {
   \break
 
   \set Score.currentBarNumber = #1
-  \textMark \markup { \hspace #10 \bold \box "Blues in Gb" }
+  \xTextMark \markup { \hspace #10 \bold \box "Blues in Gb" }
 
   \bar ":|.|:"
   \repeat volta 2 {

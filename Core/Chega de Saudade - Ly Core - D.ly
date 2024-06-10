@@ -136,7 +136,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Bossa Nova" 4 = 150
 
-  \textMark \markup{ \bold \box "A" }
+  \xTextMark \markup{ \bold \box "A" }
   
   f4. a,2 d8~ | d2~ d8 f4 e8~ | e4. b2 d8~ | d2~ d8 e4 f8~ |
   \break
@@ -149,7 +149,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
 
   f'4. a,2 d8~ | d2~ d8 f4 e8~ | e4. b2 d8~ | d2~ d8 e4 f8~ |
   \break
@@ -163,7 +163,7 @@ refrainMelody = \relative f' {
   \pageBreak
 
   \key \refrainKey \major
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
   
   fs2.. a8~ | a4. g4 ds4 fs8~ | fs4. e8 ds8 e4 b'8~ | b4 g8 e4 b4 d8~ |
   \break
@@ -176,7 +176,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "D" }
+  \xTextMark \markup{ \bold \box "D" }
   
   fs4. a,2 b8~ | b2~ b8 fs'4 e8~ | e4. b2 d8~ | d2~ d8 e4 fs8~ |
   \break

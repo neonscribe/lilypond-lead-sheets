@@ -41,7 +41,7 @@ refrainMelody = \relative f'' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   \tempo \markup { "Charleston" \rhythm { 4. 8~ 2 } } 4 = 172
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -50,7 +50,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   \tempo "Easy Swing" 4 = 172
   
   cs8 e8 g8 b8 r8 b4 r8 | c,8 ef8 f8 b8~ b4. r8 | b,8 d8 fs8 a8 r8 a4 r8 | bf,8 df8 e8 a8~ a4 g4 |
@@ -60,7 +60,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   cs'8 e8 g8 b8 r8 b4 r8 | c,8 ef8 f8 b8~ b4. r8 | b,8 d8 fs8 a8 r8 a4 r8 | bf,8 df8 e8 a8~ a4 g4 |
   \break
@@ -69,14 +69,14 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   af8 bf8 c8 df8 ef4 ef8 ef8~ | ef2 r2 | a,8 b8 cs8 d8 e4 e8 e8~ | e2 r2 |
   
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   cs8 e8 g8 b8 r8 b4 r8 | c,8 ef8 f8 b8~ b4. r8 | b,8 d8 fs8 a8 r8 a4 r8 | bf,8 df8 e8 a8~ a4 g4 |
   \break

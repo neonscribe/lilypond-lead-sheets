@@ -32,7 +32,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Straight Eighths" 4 = 125
 
-  \textMark \markup{ \bold \box "Refrain" }
+  \xTextMark \markup{ \bold \box "Refrain" }
 
   \bar ".|:"
   \repeat volta 2 {

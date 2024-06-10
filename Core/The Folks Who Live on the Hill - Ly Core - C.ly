@@ -38,7 +38,7 @@ verseMelody = \relative g' {
   \clef \whatClef
   \tempo "Moderately"
 
-  \textMark \markup{ "Verse" }
+  \xTextMark \markup{ "Verse" }
   
   c4 g4 g4 c4 | c4 g4 g2 | c4 g4 g4 b4 | b1 |
   \break
@@ -110,7 +110,7 @@ refrainMelody = \relative g' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \textMark \markup{ "Refrain" \bold \box "A1,A2" }
+  \xTextMark \markup{ "Refrain" \bold \box "A1,A2" }
   \set Score.currentBarNumber = #1
   \tempo "Ballad" 4 = 70
   
@@ -140,14 +140,14 @@ refrainMelody = \relative g' {
 
   \break
   \set Score.currentBarNumber = #13
- \textMark \markup{ \bold \box "B" }
+ \xTextMark \markup{ \bold \box "B" }
   
   g'2~ g8 b8 c8 b8 | fs8 b8 c8 b8 b,8 fs'8 g8 fs8 | g2~ g8 g8 a8 g8 | b8 g8 a8 g8 b8 g8 a4 |
   g1 | r8 g8 a8 g8 a8 g8 a8 g8 |
 
   \bar "||"
   \break
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   e2 e2 | r8 f8 g8 a8 c8 c4 b8 | d4 a8 c8~ c2 | b4 f8 a8~ a2 |
   \break

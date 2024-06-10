@@ -2,7 +2,8 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 18))
 
 \header {
   title = "The Very Thought of You"
@@ -52,7 +53,7 @@ refrainMelody = \relative f' {
   \partial 4. c8 ef8 c8 |
   \bar "||"
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   ef8 ef8 ef2.~ | ef2~ ef8 c8 ef8 c8 | f8 f8 f2.~ | f2~ f8 f8 af8 f8 |
   \break
@@ -62,7 +63,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   ef4. c8 ef4. c8 | bf4 bf2 af4 | c4. af8 c4. af8 | g2. f4 |
   \break
@@ -71,7 +72,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   ef8 ef8 ef2.~ | ef2~ ef8 c8 ef8 c8 | f8 f8 f2.~ | f2~ f8 f8 af8 f8 |
   \break
@@ -81,7 +82,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
 
   ef4. c8 ef4. c8 | bf4 bf2 af4 | c4. af8 c4. af8 | f2~ f8 c8 ef8 c8 |
   \break

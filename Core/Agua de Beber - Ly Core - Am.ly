@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Bossa" 4 = 148
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   \repeat volta 2 {
   c'8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |
@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A" }
+  \xTextMark \markup{ \bold \box "A" }
   
   ds4. e8~ e4. c8~ | c2~ c8 a4 c8~ | c8 a4.~ a2 | r4 a8 c8~ c8 e4 g8~ |
   \break
@@ -89,7 +89,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   d1~ | d4 e8 d8 c8 a8 c4~ | c8 a8 a8 a8 r2 | r4 a8 a8 c8 e8 d4~ |
   \break
@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
   
   c,8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |
   c8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |
@@ -120,4 +120,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain.ily"
+\include "../Include/refrain-no-note-names.ily"

@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   
   \break
 
-  \textMark \markup{ \bold \box "Verse" }
+  \xTextMark \markup{ \bold \box "Verse" }
   
   \bar ":|.|:"
   \repeat volta 2 {
@@ -89,7 +89,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Bridge" }
+  \xTextMark \markup{ \bold \box "Bridge" }
   
   b'8 b8 b8 b8 a8 a8 a8 g8 g8 g8 a8. g16 | a4. r4. r4. r4 b,8 |
   \break
@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Verse" }
+  \xTextMark \markup{ \bold \box "Verse" }
   
   b4. cs8 b8 a8 gs4. fs8 a8 gs8 | e4. d8 a'8 cs,8 b2. |
   \break
@@ -107,7 +107,7 @@ refrainMelody = \relative f' {
 
   \break
 
-  \textMark \markup{ \bold \box "Outro" }
+  \xTextMark \markup{ \bold \box "Outro" }
 
   b'4. cs8 b8 a8 gs4. fs8 a8 gs8 | e4. d8_"ritard" a'8 cs,8 b2.\fermata |
 

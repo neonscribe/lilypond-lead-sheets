@@ -45,7 +45,7 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempo "Fast Swing" 4 = 200
 
-  \textMark \markup{ \bold \box "Intro/Outro" \musicglyph #"scripts.segno" }
+  \xTextMark \markup{ \bold \box "Intro/Outro" \musicglyph #"scripts.segno" }
   
   d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | 
   \break
@@ -54,7 +54,7 @@ refrainMelody = \relative f'' {
   \bar ".|:-||"
   \break
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   \repeat volta 2 {
 
@@ -65,7 +65,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | \tuplet 3/2 { d8 ef8 d8 } cs8 d8 f8 ef8 bf8 c8 | d2 r2 |
   \break
@@ -74,7 +74,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   af4. bf8 cf8 df8 ef8 f8 | gf4. f8~ f4 r8 ef8~ | ef8 cf8 af8 gf8 f4 \tuplet 3/2 { gf8 af8 gf8 } | f1 |
   \break
@@ -83,7 +83,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   
   d8 d8 d8 d8~ d2 | d8 d8 d8 d8~ d2 | \tuplet 3/2 { d8 ef8 d8 } cs8 d8 f8 ef8 bf8 c8 | d2 r2 |
   \break

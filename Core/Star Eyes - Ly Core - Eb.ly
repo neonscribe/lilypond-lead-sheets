@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Uptempo Latin" 4 = 198
   
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   \bar ".|:"
   \repeat volta 12 {
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \textMark \markup{ \bold \box "A1, A2" }
+  \xTextMark \markup{ \bold \box "A1, A2" }
   
   \repeat volta 2 {
   f2 ef2 | r4 ef8 f8 g8 bf8 g8 bf8 | f2 ef2 | r4 ef8 f8 gf8 af8 bf8 c8 |
@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   ef4 ef4 ef4. af,8 | bf2. af4 | ef'4. ef8 cf8 ef,8 gf8 df'8 | bf1 |
   \break
@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
   
   f2 ef2 | r4 ef8 f8 g8 bf8 g8 bf8 | f2 ef2 | r4 ef8 f8 gf8 af8 bf8 c8 |
   \break

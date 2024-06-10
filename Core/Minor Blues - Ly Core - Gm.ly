@@ -38,14 +38,14 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Fast Swing" 4 = 200
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   g,4 r4 bf4 r4 | a4. d8~ d8 c8 bf8 a8 | g4 r4 bf4 r4 | a4. d8~ d8 c8 bf8 a8 |
   
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Chorus 1" }
+  \xTextMark \markup{ \bold \box "Chorus 1" }
   
   g4-> r4 r8 bf8 d8 g8 | a2 g4-. fs,8 g8~ | g8 r8 r4 r8 bf8 d8 g8 | a2 g4-. fs,8 g8~ |
   \break
@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Chorus 2" }
+  \xTextMark \markup{ \bold \box "Chorus 2" }
   
   \tuplet 3/2 { c16( df16 c8) g8 } bf8 df8 \tuplet 3/2 { c16( df16 c8) g8 } bf8 df8 |
   \pitchedTrill c2\startTrillSpan df bf4\stopTrillSpan g4 | 

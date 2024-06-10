@@ -57,7 +57,7 @@ refrainMelody = \relative f' {
 
   \repeat volta 2 {
 
-  \textMark \markup{ \bold \box "Chorus" }
+  \xTextMark \markup{ \bold \box "Chorus" }
   
   e4 b8 d8~ d4. e8~ | e4 r4 r2 | e,8 e8 g8 bf8~ bf4 bf8 b8~ | b8 r8 e4 e8 d8 e4 |
   \break
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Verse" }
+  \xTextMark \markup{ \bold \box "Verse" }
   e4 e4 e8 e4 e8~ | e2 r4 r8 e8 | d4 d4 d8 e4 b8~ | b2 r2 |
   \break
   a8 a4 a4 a4 fs'8~ | fs8 fs4 fs8 fs8 e4 d8~ | d1~ | d4 r4 r4 e8 e8 |

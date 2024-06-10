@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
 
   \partial 4 f4 |
 
-  \textMark \markup{ \bold \box "A1, A2, A3" \musicglyph #"scripts.segno" }
+  \xTextMark \markup{ \bold \box "A1, A2, A3" \musicglyph #"scripts.segno" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   \tempo "Fast Swing" 4 = 260
   

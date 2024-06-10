@@ -51,21 +51,21 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 60
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   c'4 bf4 g4 f4 | g1 | c4 bf4 g4. ef8 | f8 g8 cf,2. | g'4 f4 ef4 c4 | ef1 |
   
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   c'4 bf4 g4 f4 | g1 | c4 bf4 g4. ef8 | f8 g8 cf,2. | g'4 f4 ef4 c4 | ef1 |
 
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   d8 d8 d8 d8~ d8 d4 d8 | d8 d4 d8 d8 d4 d8 | d8 d8 d8 d'8~ d4 c8 d8 | b1 |
   \break
@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   c4 bf4 g4 f4 | g1 | c4 bf4 g4. ef8 | f8 g8 cf,2. \textToCodaLastTime | g'4 f4 ef4 c4 | ef1 |
 

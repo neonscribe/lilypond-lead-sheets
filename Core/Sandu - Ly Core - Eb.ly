@@ -46,7 +46,7 @@ refrainMelody = \relative f' {
 
   \partial 8*5 ef8 g8 bf8 \tuplet 3/2 { c8 bf8 ef8 } |
 
-  \textMark \markup{ \bold \box "Head"  \musicglyph #"scripts.segno" }
+  \xTextMark \markup{ \bold \box "Head"  \musicglyph #"scripts.segno" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Solos" }
+  \xTextMark \markup{ \bold \box "Solos" }
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
@@ -89,7 +89,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
 
   \bar "|."
 }

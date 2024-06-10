@@ -23,7 +23,7 @@
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
       \refrainMelody
       } }
       #} )
@@ -70,7 +70,7 @@
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
-      \removeWithTag modernCodas \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
       \refrainMelody
       } }
       #} )

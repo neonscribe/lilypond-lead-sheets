@@ -28,7 +28,7 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Slow" 4 = 103
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
 
   <gs b>8 r8 <gs b>8 r8 <gs b>8 r8 <gs b>8 r8 | <gs b>8 r8 <gs b>4 <fs a>4 <e gs>4 |
   r8 fs8 a4 r8 e8 gs4 |
@@ -135,7 +135,7 @@ refrainMelody = \relative f' {
 
   \bar "||"
 
-  \textMark \markup{ \bold \box "Chorus" }
+  \xTextMark \markup{ \bold \box "Chorus" }
   
   g2 \tuplet 3/2 { g4 a4 b4 } | e,2 r2 |
   \break
@@ -154,7 +154,7 @@ refrainMelody = \relative f' {
 
   \break
 
-  \textMark \markup{ \bold \box "Verse" }
+  \xTextMark \markup{ \bold \box "Verse" }
   
   \bar ".|:-||"
   \repeat volta 3 {
@@ -168,7 +168,7 @@ refrainMelody = \relative f' {
 
   \bar "||"
 
-  \textMark \markup{ \bold \box "Chorus" }
+  \xTextMark \markup{ \bold \box "Chorus" }
   
   g2 \tuplet 3/2 { g4 a4 b4 } | e,2 r2 |
   \break

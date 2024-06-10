@@ -118,7 +118,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Bossa" 4 = 125
 
-  \textMark \markup { "Intro" }
+  \xTextMark \markup { "Intro" }
   
     <<
       \new Voice
@@ -139,7 +139,7 @@ refrainMelody = \relative f' {
   
 	\bar ".|:-||"
 
-	\textMark \markup{ \bold \box "A" }
+	\xTextMark \markup{ \bold \box "A" }
 
 	c4 s4 s2 |
       }
@@ -165,7 +165,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   r8 e4 d8 e8 d4 e8~ | e8 d4 e8~ e2 |
   r8 e4 d8 e8 d4 e8~ | e8 d8 e4. g4 d8~ |

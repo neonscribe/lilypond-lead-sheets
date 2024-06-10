@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Fast Swing" 4 = 180
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
     <<
       \new Voice
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \break
 
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   \ottava #0
   a,8 f8 f8 f8~ f8 a4 a8 | a8 f8 g4 a8 f8 g4 | a4. c,8~ c2~ | c4 r4 c'4 c4 |
@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   f8 f8 f4 f4 f8 bf8~ | bf2 r8 a4 g8 | f8 f8 f4 f8 f8 f8 c'8~ | c2 r8 a4 g8 |
   \break
@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   a8 f8 f8 f8~ f8 a4 a8 | a8 f8 g4 a8 f8 g4 | a4. c,8~ c2~ | c4 r4 c'4 c4 |
   \break
@@ -100,7 +100,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
   
   f8 f8 f4 f4 f4 | bf2 d8 b8 d4 | c1~ | c4 r4 a4 a4 |
   \break
@@ -116,4 +116,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain.ily"
+\include "../Include/refrain-no-note-names.ily"

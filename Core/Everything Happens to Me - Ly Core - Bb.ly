@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 60
   
-  \textMark \markup{ \bold \box "A" }
+  \xTextMark \markup{ \bold \box "A" }
 
   \partial 8 g8 |
 
@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   bf2. r8 bf8 |
   \bar "||"
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   bf8 bf8 bf8 bf8 df8 df8 cf8 df8 | bf8 bf8 bf2 r8 bf8 | bf8 bf8 bf8 bf8 cf8 gf8 f8 ef8 |
   bf'2. r8 bf8 | a8 a8 a8 a8 c8 c8 bf8 c8 | a8 a8 a2 r8 a8 |

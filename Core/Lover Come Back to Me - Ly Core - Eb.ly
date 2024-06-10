@@ -39,7 +39,7 @@ verseMelody = \relative f' {
   \time 2/2
   \key \verseKey \major
   \clef \whatClef
-  \textMark \markup{ "Verse" }
+  \xTextMark \markup{ "Verse" }
   \tempo "Freely"
 
   r8 g8 f8 ef8 d4 ef4 | g2 c,2 | r8 g'8 f8 ef8 bf4 c4 |
@@ -132,7 +132,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Bright"
 
-  \textMark \markup{ "Refrain" \bold \box "A" }
+  \xTextMark \markup{ "Refrain" \bold \box "A" }
 
   \bar ".|:"
 
@@ -156,7 +156,7 @@ refrainMelody = \relative f' {
   \bar "||"
   % \pageBreak
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
 
   \set Score.currentBarNumber = #33
 
@@ -169,7 +169,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
 
   r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 | 
   r4 ef4 ef4 f4 | g1 |

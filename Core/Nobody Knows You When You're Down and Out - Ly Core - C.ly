@@ -41,7 +41,7 @@ refrainMelody = \relative f' {
   \partial 4. r8 r8 r8 |
   \bar "||"
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   r4. r4. r4. r4. | r4. r4. r4. r4. |
   r4. r4. r4. r4. | r4. r4. r4. r4. | 
@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \repeat volta 2 {
   r4. r4.
-  \textMark \markup{ \bold \box "Verses, Chorus, Solos" }
+  \xTextMark \markup{ \bold \box "Verses, Chorus, Solos" }
   r4. r4. |
   r4. r4. r4. r4. |
   r4. r4. r4. r4. | r4. r4. r4. r4. | 
@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \textMark \markup{ \bold \box "Last Chorus and Outro" }
+  \xTextMark \markup{ \bold \box "Last Chorus and Outro" }
   
   r4. r4. r4. r4. | r4. r4. r4. r4. |
   r4. r4. r4. r4. | r4. r4. r4. r4. | 

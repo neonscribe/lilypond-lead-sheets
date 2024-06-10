@@ -106,7 +106,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad"
 
-  \textMark \markup "Intro"
+  \xTextMark \markup "Intro"
 
   R8*9 |
   r4. r8 r4 r4. |
@@ -120,7 +120,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup "Verse"
+  \xTextMark \markup "Verse"
 
   r4. gs8 b8. b16 cs8 cs4 |
   R8*9 |
@@ -152,7 +152,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup "Pre-Chorus"
+  \xTextMark \markup "Pre-Chorus"
 
   r4. r8 e8 cs'8 e8 e8 fs8 |
   e4. r4. r4. |
@@ -169,7 +169,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup "Chorus"
+  \xTextMark \markup "Chorus"
 
   a2.~ a8 a8 fs8 |
   e4. r4. r4 e8 |
@@ -186,13 +186,13 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup "Solo - Chorus"
+  \xTextMark \markup "Solo - Chorus"
   \repeat unfold 8 { R8*9 | }
 
   \bar "||"
   \break
 
-  \textMark \markup "Verse"
+  \xTextMark \markup "Verse"
 
   r4. r4 gs8 b8. b16 b8 |
   cs4 b8~ b4. r4. |
@@ -224,7 +224,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup "Pre-Chorus"
+  \xTextMark \markup "Pre-Chorus"
 
   cs4 e8~ e4. r8 cs8 gs'8~( |
   gs4 fs8) e4. r8 b8 b8 |
@@ -241,7 +241,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup "Chorus"
+  \xTextMark \markup "Chorus"
   
   a2.~ a8 a8 a8 |
   a4. r4. r4 e8 |
@@ -258,7 +258,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \pageBreak
 
-  \textMark \markup "Bridge"
+  \xTextMark \markup "Bridge"
 
   cs4 e8~ e4.~ e8 cs8 fs8 |
   e4. r4. r4. |
@@ -294,7 +294,7 @@ refrainMelody = \relative f' {
   \break
 
   \bar ".|:"
-  \textMark \markup "Chorus"
+  \xTextMark \markup "Chorus"
   \repeat volta 2 {
 
     a4 a8~ a4.~ a8 a8 fs8 |

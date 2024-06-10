@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
 
   d,8\rest d8 a'8 b8 c8 d8 e8 c8 |
 
-  \textMark \markup{ \bold \box "A1, A2" }
+  \xTextMark \markup{ \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   } } }
   \bar "||"
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
 
   ef1 |
   ef,8\rest ef8 bf'8 c8 df8 ef8 f8 df8 | ef8 bf4.~ bf2 |  
@@ -81,14 +81,14 @@ refrainMelody = \relative f' {
   \bar "||"
 
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   
   d1 |
   d,8\rest d8 a'8 b8 c8 d8 e8 c8 | d8 a4.~ a2 |
   d,8\rest d8 a'8 b8 c8 d8 e8 c8 | d1 |
   d,8\rest e'4. e4 e4 | d4. a8~ a2 | r1 |
   
-  \textMark \markup{ \bold \box "Solos" }
+  \xTextMark \markup{ \bold \box "Solos" }
 
   \bar ".|:-|."
   \override MultiMeasureRest.expand-limit = 2

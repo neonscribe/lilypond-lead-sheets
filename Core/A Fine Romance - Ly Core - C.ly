@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   
   \partial 4 e4 |
 
-  \textMark \markup{ \bold \box "A1,A2" }
+  \xTextMark \markup{ \bold \box "A1,A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   \alternative { \volta 1 {
   c4 b4 c4 d4 | \tuplet 3/2 { c4 b4 bf4 } a4 af4 | g2 g2~ | g2. g4 |
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
   } \volta 2 {
   c'4 b4 c4 d4 | \tuplet 3/2 { e4 d4 c4 } b4 bf4 |
   a1 | \tuplet 3/2 { c4 b4 bf4 } a4 af4 |

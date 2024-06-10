@@ -39,7 +39,7 @@ refrainMelody = \relative f' {
 
   \partial 8 c8 |
 
-  \textMark \markup { \bold \box "Refrain" }
+  \xTextMark \markup { \bold \box "Refrain" }
 
   \bar ".|:"
   \repeat volta 2 {
@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   }
   \break
   
-  \textMark \markup { \bold \box "Solos" }
+  \xTextMark \markup { \bold \box "Solos" }
   
   \bar ":|.|:"
   \repeat volta 2 {

@@ -185,7 +185,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 123
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
 
   a8. a16 a8. a16 a8. a16 a8. a16 | a8. a16 a8. a16 a16 a16 a8~ a16 a16 a8 |
   a8. a16 a8. a16 \tuplet 3/2 { a4 b4 c4 } | d2. c8 d8 |
@@ -195,7 +195,7 @@ refrainMelody = \relative f' {
   e8 a8~ |
 
   \break
-  \textMark \markup{ \bold \box "Verse 1" }
+  \xTextMark \markup{ \bold \box "Verse 1" }
 
   \bar ".|:-||"
   \repeat volta 2 {
@@ -213,7 +213,7 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   r4
-  \textMark \markup{ \musicglyph #"scripts.segno" \bold \box "Bridge" }
+  \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box "Bridge" }
   r8 cs8~ cs16 b8. cs4 | gs4.( fs8~ fs8 e4.) |
   r4 r8 cs8~ cs16 b8. cs8 e8~ | e8 cs4. r2 | r4 r8 b8~ b4 a8 b8 |
   \break
@@ -228,7 +228,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \pageBreak
 
-  \textMark \markup{ \bold \box "Verse 2, 3" }
+  \xTextMark \markup{ \bold \box "Verse 2, 3" }
 
   \key \refrainKey \minor
 
@@ -245,7 +245,7 @@ refrainMelody = \relative f' {
   \break
   \bar "||-||"
   r1 |
-  \textMark \markup{ \bold \box "Solo, Verse Changes" }
+  \xTextMark \markup{ \bold \box "Solo, Verse Changes" }
   r1 | r1 | r1 | r1 | r1 | r1 | r1 |
   \break
   r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 \dalSegnoWithRepeats | 
@@ -262,7 +262,7 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \repeat volta 2 {
   <a c>1) |
-  \textMark \markup{ \bold \box "Outro - Guitar Solo" }
+  \xTextMark \markup{ \bold \box "Outro - Guitar Solo" }
   r1 | r1 | r1 | r1 | r1 | r1 | r1 | 
   }
 }

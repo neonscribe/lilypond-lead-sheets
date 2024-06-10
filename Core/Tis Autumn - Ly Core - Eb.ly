@@ -29,7 +29,7 @@ verseMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Ballad or Freely"
 
-  \textMark \markup{ "Verse" }
+  \xTextMark \markup{ "Verse" }
   
   r8 bf8 bf8 bf8 bf8 bf4 g8 | c,8 c4. r8 ef'4 c8 |
   g8 g4 c,8 g'8 g4 d8( | c1) |
@@ -95,7 +95,7 @@ refrainMelody = \relative f'' {
   \partial 4 c4 |
   \bar "||"
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   ef8 c8 ef8 c8~ c4~ \tuplet 3/2 { c8 af8 g8 } | fs8 d'4 c8~ c2 |
   r8 d8 bf8 g8 bf8 bf4. | r8 d8 bf8 g8 e2 |
@@ -106,7 +106,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
 
   ef8 c8 ef8 c8~ c4~ \tuplet 3/2 { c8 af8 g8 } | fs8 d'4 c8~ c2 |
   r8 d8 bf8 g8 bf8 bf4. | r8 d8 bf8 g8 e2 |
@@ -116,7 +116,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \pageBreak
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   df4 ef8 ef8 c8 c4 ef,8 | f8 fs8 g8 ef'8 c8 c8~ \tuplet 3/2 { c8 b8( c8 } |
   f4~ \tuplet 3/2 { f8 ef8 c8 } g4~ \tuplet 3/2 { g8 ef8 g8 } |
@@ -126,7 +126,7 @@ refrainMelody = \relative f'' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   ef8 c8 ef8 c8~ c4~ \tuplet 3/2 { c8 af8 g8 } | fs8 d'4 c8~ c4 d8 bf8 |
   d4 bf8 g8 bf4. bf8 |

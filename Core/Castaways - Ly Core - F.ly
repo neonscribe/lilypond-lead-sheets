@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Bossa nova" 2 = 82
   
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   a4 f8 d8~ d2 | r2 c'4 bf4 | a4 f8 d8~ d2 |
   r2 r4 c8 d8~ | d8 a'4. r4 c,8 d8~ | d4 r4 a'4 c4 |
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   d4 e8 f4 g4 a8~ | a2 r8 g4 f8 |
   e4 g4 e4 r4 | r2 r4 r8 g,8 | c4 d8 ef4 f4 g8~ |
@@ -89,7 +89,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
 
   a4 f8 d8~ d2 | r2 c'4 bf4 | a4 f8 d8~ d2 |
   r2 r4 c8 d8~ | d8 a'4. r4 c,8 d8~ | d4 r4 a'4 c4 |

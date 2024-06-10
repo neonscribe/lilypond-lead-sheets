@@ -7,6 +7,7 @@ printNoteNames =
     printNoteNames
     (ly:get-option 'print-note-names))
 
+\include "text-mark.ily"
 \include "modern-codas.ily"
 \include "jazz-chords.ily"
 \include "english.ly"

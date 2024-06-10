@@ -94,13 +94,13 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   e4 a4 e'4 | g,4 e'4 a,4 | fs4 a4 e'4 | f,4 d'8 cs8 a4 |
   
   \break
 
-  \textMark \markup{ \bold \box "Verse"  \musicglyph #"scripts.segno" }
+  \xTextMark \markup{ \bold \box "Verse"  \musicglyph #"scripts.segno" }
   \bar ".|:-||"
   \repeat volta 2 {
   cs4 cs4 cs4 | cs4 b4 a4 | cs4 b4 a4 | cs8 b8 r4 a4 |
@@ -114,7 +114,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Pre-Chorus" }
+  \xTextMark \markup{ \bold \box "Pre-Chorus" }
   
   \key \preChorusKey \major
   
@@ -137,7 +137,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \pageBreak
 
-  \textMark \markup{ \bold \box "Chorus" }
+  \xTextMark \markup{ \bold \box "Chorus" }
   
   \key \chorusKey \major
   
@@ -171,7 +171,7 @@ refrainMelody = \relative f' {
   
   \break
 
-  \textMark \markup{ \bold \box "Outro" }
+  \xTextMark \markup{ \bold \box "Outro" }
   
   \bar ".|:-||"
   \repeat volta 2 {

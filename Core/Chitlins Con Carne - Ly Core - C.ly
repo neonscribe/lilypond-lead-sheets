@@ -33,7 +33,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Jazz/Bossa Nova" 4 = 130
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -46,7 +46,7 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \textMark \markup{ \musicglyph #"scripts.segno" \bold \box "A" }
+  \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box "A" }
   \bar ":|.|:"
   \repeat volta 2 {
   g'4 c,8 ef8~ ef4 r4 | r4 c8 c8 ef8 c8 f8 c8~ | c4 r4 r2 | r4 c8 c8 ef8 c8 f8 c8 |

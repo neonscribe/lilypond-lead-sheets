@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Swing" 4 = 140
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   e1~ | e4 e4 \tuplet 3/2 { e4 e4 e4 } | | f1~ | f2 \tuplet 3/2 { f4 f4 f4 } |
   \break
@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   c4. c,8 c2~ | c2 \tuplet 3/2 { c'4 c4 c4 } | c4. c,8  c2~ | c2 \tuplet 3/2 { c'4 c4 c4 } |
   \break
@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   e1~ | e4 e4 \tuplet 3/2 { e4 e4 e4 } | | f1~ | f2 \tuplet 3/2 { f4 f4 f4 } |
   \break
@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
   
   c2 bf4 af4 | g2. af4 | \tuplet 3/2 { b4 b4 b4 } b2~ | b2 \tuplet 3/2 { d4 c4 e,4 } |
   \break

@@ -45,7 +45,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
   
-  \textMark \markup{ \bold \box "Head" }
+  \xTextMark \markup{ \bold \box "Head" }
 
   \bar ".|:"
   \repeat volta 2 {
@@ -117,7 +117,7 @@ solosKey = cs
 bassSolos = \relative f' {
   \time 4/4
   \key \solosKey \minor
-  \textMark \markup{ \bold \box "Solos" }
+  \xTextMark \markup{ \bold \box "Solos" }
 
   \clef bass
   \bar ":|.|:"

@@ -108,12 +108,12 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Ballad"
   
-  \textMark \markup{ \bold \box "A" }
+  \xTextMark \markup{ \bold \box "A" }
   
   \partial 4 b4
 
   \set Score.repeatCommands = #'(start-repeat)
-  \textMark \markup { \musicglyph #"scripts.segno" }
+  \xTextMark \markup { \musicglyph #"scripts.segno" }
 
   d8 df8 c8 b8 bf8 a8 af8 e8 | g8 e4. g8 gf8 f8 e8 | ef4 d'8 b8~ b2~ | b2 r4 a4 |
   \break
@@ -123,7 +123,7 @@ refrainMelody = \relative f' {
 
   \set Score.repeatCommands = #'((volta "1, 3"))
   g8 g4 g8~ g2~ |
-  \textMark \markup { \small \italic "fine" }
+  \xTextMark \markup { \small \italic "fine" }
   g2 r4 b4 |
   \set Score.repeatCommands = #'(end-repeat)
 
@@ -133,11 +133,11 @@ refrainMelody = \relative f' {
 
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   b8 cs8 gs8 a8 b4 g8 a8 | b8 cs8 g8 a8 b4 c4 | a1~ | a2 r4 fs4 |
   a8 b8 fs8 g8 a4 fs8 g8 | a8 b8 f8 g8 a4 b8 g8~ | g1~ | g2 r4
-  \textMark \markup { \small \italic "D.S. al fine" }
+  \xTextMark \markup { \small \italic "D.S. al fine" }
   b4 |
   
   \bar "||"

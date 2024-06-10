@@ -2,7 +2,8 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+$(if (and (defined? 'printNoteNames) printNoteNames)
+  (set-global-staff-size 16))
 
 \header {
   title = "Goodbye Pork Pie Hat"
@@ -41,7 +42,7 @@ refrainMelody = \relative f' {
   \partial 8 bf,8 |
   \bar "||"
 
-  \textMark \markup{ \bold \box "Head" \musicglyph #"scripts.segno" }
+  \xTextMark \markup{ \bold \box "Head" \musicglyph #"scripts.segno" }
   
   ef8 gf4 ef16 gf16 af8 gf4 ef16 df16 | ef8 gf4 ef16 df16 ef4. bf8 |
   \break
@@ -60,7 +61,7 @@ refrainMelody = \relative f' {
   \bar "|."
   \break
 
-  \textMark \markup{ \bold \box "Solos" }
+  \xTextMark \markup{ \bold \box "Solos" }
   
   \bar ".|:-||"
   \repeat volta 2 {

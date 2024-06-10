@@ -60,7 +60,7 @@ refrainMelody = \relative g, {
   \clef bass
   \tempo "Swing" 4 = 136
 
-  \textMark \markup { "Intro" }
+  \xTextMark \markup { "Intro" }
 
     <<
       {
@@ -83,7 +83,7 @@ refrainMelody = \relative g, {
   \bar ".|:-||"
   \break
 
-  \textMark \markup { "Verse" }
+  \xTextMark \markup { "Verse" }
   
   \repeat volta 2 {
   g4 r4 d4 r4 | c4 r4 e4 fs4 | g4 r4 d4 r4 | g4 r4 c,4 r4 |
@@ -104,7 +104,7 @@ refrainMelody = \relative g, {
   \bar ".|:-||"
 
   \break
-  \textMark \markup{ "Chorus" }
+  \xTextMark \markup{ "Chorus" }
   
   \repeat volta 2 {
 
@@ -123,7 +123,7 @@ refrainMelody = \relative g, {
       r4 | g4 d4 e4 fs4 |
 
       \break
-      \textMark \markup { "Solo" }
+      \xTextMark \markup { "Solo" }
 
       g4 r4 d4 r4 | c4 r4 e4 fs4 | g4 r4 d4 r4 | g4 d4 e4 fs4 |
       g4 r4 d4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 |

@@ -30,7 +30,7 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
 
   \partial 2 d'4 df4 |
   \bar "||"
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \partial 2 c'8 cs4 d8~ |
   \bar "||"
 
-  \textMark \markup{ \bold \box "A" }
+  \xTextMark \markup{ \bold \box "A" }
 
   d1~ | d8 a4. a8 d,4. | a'2 g2 | r2 fs8 g4 c8~ |
   \break
@@ -89,7 +89,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   d1~ | d8 a4. a8 d,4. | a'2 g2 | r2 fs4 g4 |
   \break

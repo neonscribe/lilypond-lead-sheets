@@ -34,7 +34,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Bossa" 4 = 170
 
-  \textMark \markup { \bold \box "Head" }
+  \xTextMark \markup { \bold \box "Head" }
 
   \bar ".|:"
   \repeat volta 2 {
@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \break
   }
 
-  \textMark \markup { \bold \box "Outro" }
+  \xTextMark \markup { \bold \box "Outro" }
   
   r1 | r2 r4 f4 |
   

@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Fast Swing" 4 = 175
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   d'4 a4 c4 g4 | bf8 bf8~ bf2. | d4 a4 c4 g8 bf8~ | bf1 |
   \break
@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   d'4 a4 c4 g4 | bf8 bf8~ bf2. | d4 a4 c4 g8 bf8~ | bf1 |
   \break
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   c'4 c4 c2~ | c4 b4 d8 c8 bf8 a8 | bf4 bf4 bf2~ | bf4 g4 a4 bf4 |
   \break
@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   d'4 a4 c4 g4 | bf8 bf8~ bf2. | d4 a4 c4 g8 bf8~ | bf1 |
   \break

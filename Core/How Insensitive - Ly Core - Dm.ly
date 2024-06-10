@@ -118,7 +118,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Bossa Nova" 4 = 130
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   a1~ | a4 bf8 a8~ a8 bf4 a8~ | a1~ | a4 bf8 a8~ a8 bf4 a8~ |
   a2~ a8 gs4 a8 | c8 b4 bf8~ bf8 a4 a8~ | a4. g8~ g2~ | g2. r4 |
@@ -126,7 +126,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   g1~ | g4 a8 g8~ g8 a4 g8~ | g1~ | g4 a8 g8~ g8 a4 g8~ |
   g2 r8 fs4 g8 | bf8 a4 gs8~ gs8 g4 g8~ | g4. f8~ f2~ | f2. r4 |
@@ -134,7 +134,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   
   f1~ | f4 g8 f8~ f8 g4 f8~ | f1~ | f4 g8 f8~ f8 g4 a8~ |
   \break
@@ -143,12 +143,12 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A4" }
+  \xTextMark \markup{ \bold \box "A4" }
   
   f1~ | f4 g8 f8~ f8 g4 e8~ | e1~ | e4 \segnoSign f8 e8~ e8 f4 e8~ |
   \break
   e2 r8 ds8 e8 g8~ | g8 fs4 f4 e4 e8~ |
-  e4. d8~ \textMark \markup { \small \italic "fine" } d2 \textMark \markup { \small \italic "D.S. al fine" } | r1 |
+  e4. d8~ \xTextMark \markup { \small \italic "fine" } d2 \xTextMark \markup { \small \italic "D.S. al fine" } | r1 |
 
   \bar "|."
 }

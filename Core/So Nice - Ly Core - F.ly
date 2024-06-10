@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Bossa" 4 = 120
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   a,8 c8 d4 e8 ef8 d4 | a8 c8 d8 e8~ e8 ef8 d4 |
   a8 c8 d4 e8 ef8 d4 | gs,8 c8 d8 e8~ e8 ef8 d4 |
@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   r4 c4 c,2~ | c2 ef'8 d8 c8 bf8 | a1~ | a2 c8 b8 bf8 a8 |
   \break
@@ -95,7 +95,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \pageBreak
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   a,8 c8 d4 e8 ef8 d4 | a8 c8 d8 e8~ e8 ef8 d4 |
   a8 c8 d4 e8 ef8 d4 | gs,8 c8 d8 e8~ e8 ef8 d4 |
@@ -106,7 +106,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "C" }
+  \xTextMark \markup{ \bold \box "C" }
 
   r4 c4 c,2~ | c2 ef'8 d8 c8 bf8 | a1 | a1 |
   \break

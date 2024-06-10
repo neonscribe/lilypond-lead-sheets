@@ -59,13 +59,13 @@ refrainMelody = \relative g, {
   \clef bass
   \tempo 4 = 122
 
-  \textMark "Intro"
+  \xTextMark "Intro"
 
   c4 c4 c4 c4 | b4 b4 b4 g4 | e2 b'2 | e,2 b'4 g4 |
   \bar "||"
 
   \break
-  \textMark "Verse"
+  \xTextMark "Verse"
   
   e2 e2 | a2 a2 | e2 b'2 | e,2 b'2 |
   e,2 e2 | a2 a2 | e2 b'2 | e,2 fs4 g4 |
@@ -75,7 +75,7 @@ refrainMelody = \relative g, {
   \bar "||"
 
   \break
-  \textMark "Verse"
+  \xTextMark "Verse"
   
   e2 e2 | a2 a2 | e2 b'2 | e,2 b'4 g4 |
   e2 e2 | a2 a2 | e2 b'2 | e,2 fs4 g4 |
@@ -85,7 +85,7 @@ refrainMelody = \relative g, {
   \bar "||"
 
   \break
-  \textMark "Chorus"
+  \xTextMark "Chorus"
   
   a4 a4 c4 e4 | a,4 a4 c4 d4 | e4 e4 b4 d4 | e4 e4 d4 b4 |
   a4 a4 c4 e4 | a,4 a4 c4 e4 | b4 b4 fs'4 fs4 |
@@ -98,7 +98,7 @@ refrainMelody = \relative g, {
   \bar "||"
 
   \break
-  \textMark "Verse Solo"
+  \xTextMark "Verse Solo"
   
   e2 e4 g4 | a2 a4 b4 | e2 b2 | e,2 b'4 g4 |
   e2 e4 g4 | a4 a4 b4 d4 | e2 b4 d4 | e4 e4 d4 b4 |
@@ -108,14 +108,14 @@ refrainMelody = \relative g, {
   \bar "||"
 
   \break
-  \textMark "Verse"
+  \xTextMark "Verse"
   
   e2 e2 | a2 a2 | e2 b'2 | e,2 b'2 |
   e,2 e2 | a2 a2 | e2 b'2 | e,2 fs4 g4 |
   \break
   a2 e2 | a2 a4 b4 | e,2 b'2 | e,2 a4 b4 |
   c2 c2 | b2 b4 g4 | e1 |
-  \textMark "To Chorus"
+  \xTextMark "To Chorus"
   e4 e4 fs4 g4 |
   \bar "||"
   
@@ -126,7 +126,7 @@ refrainMelody = \relative g, {
   \bar ".|:"
   \repeat volta 3 {
     c4 c4 c4 c4 | 
-    \textMark "repeat 3x"
+    \xTextMark "repeat 3x"
     b4 b4 b4 b4 | 
   }
   a2 e'2 | a,2 a2 | e1 |

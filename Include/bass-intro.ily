@@ -25,7 +25,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
       %% Only transpose bass line in the same octave
-      \removeWithTag modernCodas \transpose \refrainKey \bassKey { \bassIntro }
+      \removeWithTag LLS \transpose \refrainKey \bassKey { \bassIntro }
       }
       #} )
   >>
@@ -58,7 +58,7 @@
       #{ 
       \new NoteNames \tiedNoteToSkip { 
       %% Only transpose bass line in the same octave
-      \removeWithTag modernCodas \transpose \refrainKey \bassKey { \bassIntro }
+      \removeWithTag LLS \transpose \refrainKey \bassKey { \bassIntro }
       }
       #} )
   >>

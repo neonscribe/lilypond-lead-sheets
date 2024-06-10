@@ -3,7 +3,7 @@
 \include "../Include/lead-sheets.ily"
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 18))
+  (set-global-staff-size 16))
 
 \header {
   title = "Almost Like Being in Love"
@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
 
-  \textMark \markup{ \bold \box "A1, A2" }
+  \xTextMark \markup{ \bold \box "A1, A2" }
   
   d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 a4 |
   \break
@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   }
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
 
   d2 a4 b4 | c2 e4 d4 | b1~ | b4 r4 g4 a4 |
   \break
@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 a4 \textToCodaLastTime |
   \break

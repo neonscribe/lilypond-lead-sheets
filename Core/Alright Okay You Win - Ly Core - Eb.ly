@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   \partial 8*3 bf8 c8 ef8~ |
   \bar "||"
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
 
   ef4 r4 r4 gf8 ef8~ | ef4 r4 r4 fs8 g8~ | g4 r4 r8 bf,8 c4 |
   ef4 f8 gf8~ gf8 b,8 c8 ef8~ |
@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
   
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
 
   ef4 r4 r4 gf8 ef8~ | ef4 r4 r4 fs8 g8~ | g4 r4 r8 bf,8 c4 |
   \bar "|"
@@ -106,7 +106,7 @@ refrainMelody = \relative f' {
   \pageBreak
   
   
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   r8 c'4 bf8~ bf8 g8 c,8 ef8~ | ef8 gf8 r4 r2 | r8 c8 bf8 gf8~ gf4 ef8 ef8~ | ef4 r4 r2 |
   \break
@@ -115,7 +115,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
   
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   ef4 r4 r4 gf8 ef8~ | ef4 r4 r4 fs8 g8~ | g4 r4 r8 bf,8 c4 |
   \bar "|"

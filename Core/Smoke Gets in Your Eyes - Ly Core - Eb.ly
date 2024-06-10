@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
 
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
   %% \break
@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \bar "||"
   %% \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
   %% \break
@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   ef,8 gf8 ef'4~ ef8 bf8 df8 cf8 |
   ef,8 gf8 bf4~ bf8 af8 \tuplet 3/2 { gf8 af,8 cf8 } |  gf'2 gf2 | gf1 |
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \bar "||"
   %% \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
 
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
   %% \break

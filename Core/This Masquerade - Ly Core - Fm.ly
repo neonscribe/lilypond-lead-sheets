@@ -100,7 +100,7 @@ refrainMelody = \relative f' {
   \key \refrainKey \minor
   \clef \whatClef
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   r4 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f4 c8 bf8 | af4. bf8 c4 af8 f8~ | f2 r2 |
   r2 af8 g8 af8 ef'8~ | ef2. ef8 c8~ | c2 r2 | r1 |
@@ -111,7 +111,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
 
   r4 df'8 ef8 f4 gf8 f8~ | f4 ef8 df8~ df4 ef8 f8~ | f8 af,8( f8) af8~ af2 | r1 |
   r8 af8 df8 ef8 f4 gf8 f8~ | f8 ef4. df4 af'8 af8( | f1) | r2 r4 r8 f8 |
@@ -121,7 +121,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   r4 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f4 c8 bf8 | af4. bf8 c4 af8 f8~ | f2 r2 |
   r4 r8 af8 af8 g8 af8 ef'8~ | ef2. ef8 c8~ | c2 r2 | r1 |

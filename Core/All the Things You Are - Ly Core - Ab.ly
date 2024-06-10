@@ -39,7 +39,7 @@ verseMelody = \relative f' {
   \clef \whatClef
   \tempo "Freely"
 
-  \textMark \markup { \bold \box "Verse" }
+  \xTextMark \markup { \bold \box "Verse" }
   
   d8 d8 d4 g4 a4 | b4 c8 b8 a4 g4 | d8 d8 d4 a'4 b4 | c4 d8 c8 b4 a4 |
   d,8 d8 d4 b'4 c4 | d4 e8 d8 c4 b4 | a1 | r1 |
@@ -76,7 +76,7 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 130
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   \partial 8 a8 |
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 a'8 |
@@ -111,7 +111,7 @@ outroMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 130
 
-  \textMark \markup{ \bold \box "Outro" }
+  \xTextMark \markup{ \bold \box "Outro" }
   
   \partial 8 a8 |
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 a'8 |
@@ -181,7 +181,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 130
 
-  \textMark \markup{ "Refrain" \bold \box "A1" }
+  \xTextMark \markup{ "Refrain" \bold \box "A1" }
   
   af1 | df2. af4 | g4 g4 g4 g4 | g4 c2 g4 |
   \break
@@ -190,7 +190,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   ef1 | af2. ef4 | d4 d4 d4 d4 | d4 g2 d4 |
   \break
@@ -199,7 +199,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   d4. c8 c2~ | c4 ds,4 e4 c'4 | b1~ | b4 d,4 g4 b4 |
   \break
@@ -208,7 +208,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   
   af1 | df2. af4 | g4 g4 g4 g4 | g4 c2 g4 |
   \break

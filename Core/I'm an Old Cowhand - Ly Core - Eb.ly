@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Hollywood Cowboy Swing" 4 = 160
 
-  \textMark \markup{ \bold \box "Intro" }
+  \xTextMark \markup{ \bold \box "Intro" }
     g8 g8 f4 ef4 f4 | ef1 |
     g8 g8 f4 ef4 f4 | ef4
 
@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "Refrain" }
+  \xTextMark \markup{ \bold \box "Refrain" }
   f1~ | f4 f8 f8 af4 g4 | ef1~ | ef4 bf'8 bf8 g4 ef4 |
   \break
   f1~ | f4 f8 f8 af4 g4 | bf1~ | bf2 r4 g8 bf8 |

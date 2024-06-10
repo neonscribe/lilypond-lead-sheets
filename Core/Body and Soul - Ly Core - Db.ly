@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 85
 
-  \textMark \markup{ \bold \box "A1,A2" }
+  \xTextMark \markup{ \bold \box "A1,A2" }
   \bar ".|:"
   \repeat volta 2 {
   r8 ef8 f8 ef8 f4 ef4 | bf'4 bf2. | r8 af8 bf8 af8 bf4 af4 | ef'4 df4 c4 bf4 |
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   %% \key \bridgeKeyOne \major
   
   r8 d8 e8 fs8 a8 a4 a8 | d8 d4 fs,8 a8 a4 g8 | fs8 fs4 d8 e4 cs8 a8~ | a1 |
@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
   \bar "||"
   \break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   %% \key \refrainKey \major
 
   r8 ef8 f8 ef8 f4 ef4 | bf'4 bf2. | r8 af8 bf8 af8 bf4 af4 | ef'4 df4 c4 bf4 |

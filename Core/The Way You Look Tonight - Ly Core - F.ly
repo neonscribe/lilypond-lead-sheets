@@ -53,7 +53,7 @@ introMelody = \relative g' {
 
   \tempo "Med.-Up Swing"
 
-  \textMark \markup{ Intro }
+  \xTextMark \markup{ Intro }
   \bar ".|:"
 
   \repeat volta 2 {
@@ -90,7 +90,7 @@ refrainMelody = \relative g' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \textMark \markup{ \bold \box A }
+  \xTextMark \markup{ \bold \box A }
   \bar ".|:"
 
   \repeat volta 2 {
@@ -154,7 +154,7 @@ refrainMelody = \relative g' {
       \break
      }
   }
-  \textMark \markup{ \bold \box B }
+  \xTextMark \markup{ \bold \box B }
 
   c'2 c2 | c2 c2 | c4 ef4 df4 bf4~ | bf1 |
     \break
@@ -166,7 +166,7 @@ refrainMelody = \relative g' {
   \bar "||"
     \pageBreak
 
-  \textMark \markup{ \bold \box C }
+  \xTextMark \markup{ \bold \box C }
 
   c1 | f,1 | g4 a4 bf4 a4 | g1 |
     \break

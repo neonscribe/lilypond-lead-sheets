@@ -63,14 +63,14 @@ refrainMelody = \relative g, {
   \clef bass
   \tempo 2 = 72
 
-  \textMark \markup { "Intro" }
+  \xTextMark \markup { "Intro" }
   
   e4 e4 g4 a4 | b4 b2. | c4 c2 g4~ | g1 |
   
   \bar "||"
   \break
 
-  \textMark \markup { "Verse 1" }
+  \xTextMark \markup { "Verse 1" }
   
   g1 | b1 | c1 | g1 | g1 b1 | c1 | d1 |
 
@@ -81,7 +81,7 @@ refrainMelody = \relative g, {
   \bar "||"
   \break
 
-  \textMark \markup { "Verse 2" }
+  \xTextMark \markup { "Verse 2" }
   
   g,1 | b1 | c1 | g1 | g1 | b1 | c2. g8( b8) | d2. c8( d8) |
 
@@ -92,7 +92,7 @@ refrainMelody = \relative g, {
   \bar "||"
   \break
 
-  \textMark \markup{ "Chorus 1" }
+  \xTextMark \markup{ "Chorus 1" }
   
   c4 c2 c4~ | c8 \xNote { c8 } a'4 g4 a4 | c,4 c2 c4~ | c4 d8 e8 g4 e4 |
   g1 | fs4 fs2 d4 | e2.. b8 | e8 \xNote { b8 } e2 b4 |
@@ -102,7 +102,7 @@ refrainMelody = \relative g, {
   \bar "||"
   \break
 
-  \textMark \markup{ "Solo" }
+  \xTextMark \markup{ "Solo" }
   
   g,4 g2. | b2.. \xNote { b8 } | c4 c2~ c8 b8 | g4 g2 d'4 |
   g,4 g2~ g8 \xNote { g8 } | b4 b2~ b8 \xNote { b8 } | c4 c2. | d8 d8 d8 d8 a8 b8 d4 |
@@ -113,7 +113,7 @@ refrainMelody = \relative g, {
   \bar "||"
   \break
 
-  \textMark \markup{ "Chorus 2" }
+  \xTextMark \markup{ "Chorus 2" }
   
   c4 c2 c4~ | c8 \xNote { c8 } a'4 g4 a4 | c,4 c2 c4~ | c4 d8 e8 g4 e4 |
   g1 | fs4 fs2 d4 | e4 e2~ e8 b8 | e4 e4. fs8 g4 |
@@ -124,7 +124,7 @@ refrainMelody = \relative g, {
   \bar "||"
   \pageBreak
 
-  \textMark \markup{ "Verse 3" }
+  \xTextMark \markup{ "Verse 3" }
   
   g,4 g2. | b4 b2. | c4 c2. | g4 g2 d'4 | g,4 g2. | b4 b2. | c4 c2. | d4 d2 b4 |
   \break
@@ -136,7 +136,7 @@ refrainMelody = \relative g, {
   \bar "||"
   \break
 
-  \textMark \markup{ "Outro Solo" }
+  \xTextMark \markup{ "Outro Solo" }
   
   g,4 g2~ g8 \xNote { g8 } | b4 b2. | c4 c2. | g4 g2. |
   g4 g2. | b4 b2. | c4 c2~ c8 e,8 | g8 e8 g4 b8 c8 d4 |

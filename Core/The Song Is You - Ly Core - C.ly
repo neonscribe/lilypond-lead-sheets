@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Up" 4 = 180
 
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   
   b4 c4 c4 b4 | b4 c4 c4 b4 | f1~ | f4 a4 \tuplet 3/2 { a4 af4 g4 } |
   g4 a4 a4 g4 | g4 a4 a4 g4 | d1~ | d4 f4 \tuplet 3/2 { f4 ds4 e4 } |
@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   \bar "||"
   %\break
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   
   b'4 c4 c4 b4 | b4 c4 c4 b4 | f1~ | f4 a4 \tuplet 3/2 { a4 af4 g4 } |
   g4 a4 a4 g4 | g4 a4 a4 g4 | d1~ | d4 f4 \tuplet 3/2 { f4 ds4 e4 } |
@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   \bar "||"
   %\break
 
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   
   e,4 b'4 b2~ | b4 b4 b4 b4 | b4 a4 a2~ | a1 |
   e4 ds'4 ds2~ | ds4 ds4 ds4 ds4 | ds4 cs4 cs2~ | cs1 |
@@ -99,7 +99,7 @@ refrainMelody = \relative f' {
   \bar "||"
   %\break
 
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   
   b4 c4 c4 b4 | b4 c4 c4 b4 | f'1~ | f4 a,4 \tuplet 3/2 { a4 af4 g4 } |
   g4 a4 a4 g4 | g4 a4 a4 g4 | c1~ | c4 f,4 \tuplet 3/2 { f4 ds4 e4 } |

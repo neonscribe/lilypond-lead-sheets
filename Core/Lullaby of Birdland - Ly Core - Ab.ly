@@ -28,7 +28,7 @@ introMelody = \relative c' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
   
-  \textMark \markup{ "Intro" }
+  \xTextMark \markup{ "Intro" }
   f8 f8 f8 f8 g4 g4 | ef4 ef8 f8~ f4 r4 | df8 df8 df8 df8 ef4 ef8 c8~ | c2. r4 |
   
   \bar "||"
@@ -69,26 +69,26 @@ refrainMelody = \relative c' {
   \clef \whatClef
   \tempo "Medium" 4 = 120
   
-  \textMark \markup{ \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "A1" }
   c'8 c8 bf8 af8 g8 f4. | df4 f8 e8~ e2 | c4 g'8 f8~ f2 | df4 c'8 bf8~ bf2 |
   ef8 ef8 df8 c8 bf8 af4 f8~ | f8 c'8 bf8 e,8~ e8 c'8 bf8 ef,8~ |
   ef2 r8 bf'8 af8 df,8~ | df8 af'8 g8 c,8~ c2 |
   \bar "||"
 
-  \textMark \markup{ \bold \box "A2" }
+  \xTextMark \markup{ \bold \box "A2" }
   c'8 c8 bf8 af8 g8 f4. | df4 f8 e8~ e2 | c4 g'8 f8~ f2 | df4 c'8 bf8~ bf2 |
   ef8 ef8 df8 c8 bf8 af4 f8~ | f8 c'8 bf8 e,8~ e8 c'8 bf8 ef,8~ |
   ef2 r8 ef8 g8 af8 | r1 |
   \bar "||"
   
-  \textMark \markup{ \bold \box "B" }
+  \xTextMark \markup{ \bold \box "B" }
   c4 df8 d8 ef8 c8 ef8 df8 | r8 bf4.~ bf4 r4 |
   bf4 b8 c8 df8 bf8 df8 c8~ | c2 r2 |
   c4 df8 d8 ef8 c8 ef8 df8 | r8 bf4.~ bf4 r4 |
   bf4 b8 c8 df8 bf8 df8 c8~ | c8 df8 c8 bf8 r2 |
   \bar "||"
   
-  \textMark \markup{ \bold \box "A3" }
+  \xTextMark \markup{ \bold \box "A3" }
   c8 c8 bf8 af8 g8 f4. | df4 f8 e8~ e2 | c4 g'8 f8~ f2 | df4 c'8 bf8~ bf2 |
   ef8 ef8 df8 c8 bf8 af4 f8~ | f8 c'8 bf8 e,8~ e8 c'8 bf8 ef,8~ |
   ef2 r8 ef8 g8 af8 | r1 |
