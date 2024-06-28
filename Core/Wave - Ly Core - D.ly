@@ -53,9 +53,9 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | r2 r8 b8 d8 cs8 |
   
-  \bar "||"
   \break
 
+  \bar ".|:-||"
   \xTextMark \markup{ \bold \box "A1, A2" }
   \repeat volta 2 {
   a2. r8 fs8 | g8 bf8 cs8 e8 g8 fs4 a8~ | a1 | r4 a8 a8~ a8 b4 a8~ |

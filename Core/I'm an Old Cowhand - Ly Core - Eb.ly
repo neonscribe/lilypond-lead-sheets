@@ -104,7 +104,7 @@ refrainMelody = \relative f' {
 
   \textCodaBreak
 
-  ef2 r2 | g4 g2 f4 | ef2 f2 | ef1~ | ef4 r4 r2 |
+  ef2 r2 | g4 g2 f4 | ef2 f2 | ef'1~ | ef4 r4 r2 |
 
   \bar "|."
 }

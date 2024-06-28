@@ -90,7 +90,7 @@ refrainChordsRealBookSixth = \chordmode {
 
 refrainChordsRealBookSixthNicoFixes = \chordmode {
   a1:m a1:m
-  ef1:7/af ef1:7/af g1:m7 c1:7
+  e1:7/gs e1:7/gs g1:m7 c1:7
   f1:maj7 bf1:7 a1:m a1:m7/g d1:7/fs f1:dim7
   
   d1:7/a d1:7/a af1:dim7 af1:dim7

@@ -4,6 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/When You're Smiling - Ly Core - Bb.ly"

@@ -4,6 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/Right or Wrong - Ly Core - G.ly"

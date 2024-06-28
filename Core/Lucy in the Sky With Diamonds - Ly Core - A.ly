@@ -107,7 +107,7 @@ refrainMelody = \relative f' {
   \break
   cs4 b8 a4. | cs2 cs4 | e4 d8 cs4. | a2. |
   \break
-  R2. | cs4 d4 e8 cs8~ | cs4 b4 a4 | cs4 b8 a8~ a4 |
+  R2.*1 | cs4 d4 e8 cs8~ | cs4 b4 a4 | cs4 b8 a8~ a4 |
   \break
   cs4 b4 r8 a8 | cs4 b4 a4 | e'4 d4 cs4 \textToCoda | a2.~ | a2.~ | a2 r4 | R2. |
 

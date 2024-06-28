@@ -4,6 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/At Sundown - Ly Core - F.ly"

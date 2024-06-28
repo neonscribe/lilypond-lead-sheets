@@ -28,7 +28,7 @@ and feel -- ing like some -- one in love.
 love __ feel -- ing like some -- one in love.
 }
 
-refrainChords = \chordmode {
+refrainNRChords = \chordmode {
   c2:maj7 e2:7/b a2:m7 a2:m7/g d2:7/fs f2:9.11+ e2:m7 a2:7
   d1:m7 g1:7 c1:maj7 g2:m7 c2:7
   
@@ -45,6 +45,26 @@ refrainChords = \chordmode {
 
   e1:7 a2:m7 a2:7 d1:m7 g1:7 c1:6 c1:6
 }
+
+refrainHLChords = \chordmode {
+  c2:maj7 c2:maj7/b a2:m7 a2:m7/g d2:7/fs g2:7/f e2:m7 a2:7
+  d1:m7 g1:7 c1:maj7 g2:m7 c2:7
+  
+  f1:6 b2:m7 e2:7 a1:maj7 a1:maj7
+  a1:m7 d1:7 d1:m7 g1:7.5+
+
+  c2:maj7 c2:maj7/b a2:m7 a2:m7/g d2:7/fs g2:7/f e2:m7 a2:7
+  d1:m7 g1:7 c1:maj7 g2:m7 c2:7
+
+  f1:6 b2:m7 e2:7 a1:maj7 ds1:dim7
+  e2:m7 a2:7 d2:m7 g2:7 c1:6
+  \chordOpenParen{ d2:m7 }
+  \chordCloseParen{ g2:7 }
+
+  e1:7 a2:m7 a2:7 d1:m7 g1:7 c1:6 c1:6
+}
+
+refrainChords = \refrainHLChords
 
 refrainKey = c
 

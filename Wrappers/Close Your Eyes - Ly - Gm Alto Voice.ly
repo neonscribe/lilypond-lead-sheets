@@ -5,7 +5,7 @@
 \include "english.ly"
 
 instrument = "Alto Voice"
-whatKey = g
+whatKey = g,
 whatClef = "treble"
 
 \include "../Core/Close Your Eyes - Ly Core - Fm.ly"

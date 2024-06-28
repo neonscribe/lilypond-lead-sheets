@@ -23,7 +23,7 @@ Some oth -- ers I've seen __ might nev -- er be mean, __
 Might nev -- er be cross __ or try to be boss, __
 but they would -- n't do, __
 for no -- bod -- y else __ game me a thrill, __
-with all your faluts __ I love you still. __
+with all your faults __ I love you still. __
 It had to be you, __ won -- der -- ful you, __
 had to be you. __
 }

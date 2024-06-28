@@ -15,7 +15,7 @@
 refrainLyrics = \lyricmode {
 }
 
-refrainChords = \chordmode {
+refrainDFBChords = \chordmode {
   s2.
   
   ef1:7 d1:7 g1 g1
@@ -28,6 +28,23 @@ refrainChords = \chordmode {
   c1:m c1:m g1 g1
   ef1:7 d1:7 g2 c2:m g1
 }
+
+refrainHLChords = \chordmode {
+  s2.
+  bf2:m7 ef2:7 a2:m7.5- d2:7.9- g2:6 a2:m7 b1:m7
+  bf2:m7 ef2:7 a2:m7.5- d2:7.9- g1:6 g1:6
+  
+  fs1:m7.5- b1:7 e1:m7 e1:m7
+  a2:7 af2:7 a1:7 d2:7 a2:m7 d1:7
+
+  bf2:m7 ef2:7 a2:m7.5- d2:7.9- g1:6 g1:6
+  ef2:m7 af2:7 d2:m7.5- g2:7.9- c1:maj7 c1:maj7
+  
+  c2:m7 f2:7 c2:m7 f2:7 g2:6 a2:m7 b1:m7
+  bf2:m7 ef2:7 a2:m7.5- d2:7.9- g2:6 c2:9 g1:6
+}
+
+refrainChords = \refrainHLChords
 
 refrainKey = g
 

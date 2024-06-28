@@ -2,8 +2,8 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice (8va)"
+instrument = "Alto Voice Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/Black Orpheus - Ly Core - Am.ly"

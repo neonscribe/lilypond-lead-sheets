@@ -19,7 +19,7 @@ I got it bad and that ain't good.
 My poor heart is sen -- ti -- men -- tal not made of wood;
 I got it bad and that ain't good.
 But when the week -- end's o -- ver and Mon -- day rolls a -- roun',
-I end up like a start out, just cry -- in' my heart out.
+I end up like I start out, just cry -- in' my heart out.
 He don't love me like I love him, no -- bod -- y could;
 I got it bad and that ain't good.
 }

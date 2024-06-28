@@ -47,11 +47,11 @@ refrainMelody = \relative f' {
   
   c'4~ \tuplet 3/2 { c8 g8 af8 } bf8 ef,4 f8 | g4~ \tuplet 3/2 { g8 af8 fs8 } g2 |
   \break
-  gf4 \tuplet 3/2 { gf8 ef4 } \tuplet 3/2 { g8 g8 f8~ } f8 ef8 | ef2 r8 g4. |
+  gf4 \tuplet 3/2 { gf8 ef4 } \tuplet 3/2 { gf8 gf8 f8~ } f8 ef8 | ef2 r8 g4. |
   \break
   c4~ \tuplet 3/2 { c8 g8 af8 } bf8 ef,4 f8 | g4~ \tuplet 3/2 { g8 af8 fs8 } g2 |
   \break
-  gf4 \tuplet 3/2 { gf8 ef4 } \tuplet 3/2 { g8 g8 f8~ } f8 ef8 | ef2. r4 |
+  gf4 \tuplet 3/2 { gf8 ef4 } \tuplet 3/2 { gf8 gf8 f8~ } f8 ef8 | ef2. r4 |
 
   \bar "||"
   \break

@@ -4,6 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/After You've Gone - Ly Core - G.ly"
