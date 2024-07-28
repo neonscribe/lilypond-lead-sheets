@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice"
+instrument = "Sarah Vaughan Key"
 whatKey = ef
 whatVerseKey = d
 whatClef = "treble"
@@ -14,7 +14,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{All the Things You Are - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/All the Things You Are - Ly - Eb Alto Voice"}
+\addcontentsline{toc}{section}{All the Things You Are - Eb}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/All the Things You Are - Ly - Eb Alto Voice"}
 
 %}

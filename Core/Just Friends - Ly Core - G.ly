@@ -25,7 +25,7 @@ refrainLyrics = \lyricmode {
   The sto -- ry ends and we're just friends. __
 }
 
-refrainChords = \chordmode {
+refrainNRChords = \chordmode {
   s2
   
   c1:maj7 c2:maj7 c2:6 c1:m7 f1:7
@@ -41,6 +41,24 @@ refrainChords = \chordmode {
   \chordOpenParen{ d2:sus7 }
   \chordCloseParen{ g2:7 }
 }
+
+refrainHLChords = \chordmode {
+  s2
+  
+  c1:maj7 c1:maj7 c1:m7 f1:7
+  g1:maj7 g1:maj7 bf1:m7 ef1:7
+  a1:m7 d1:7 fs2:m7.5- b2:7.9+ e1:m7
+  a1:7 a1:7 a2:m7 d2:7 d2:m7 g2:7
+  
+  c1:maj7 c1:maj7 c1:m7 f1:7
+  g1:maj7 g1:maj7 bf1:m7 ef1:7
+  a1:m7 d1:7 fs2:m7.5- b2:7.9+ e1:m7
+  a1:7 a2:m7 d2:7 g1:6
+  \chordOpenParen{ d2:m7 }
+  \chordCloseParen{ g2:7 }
+}
+
+refrainChords = \refrainHLChords
 
 refrainKey = g
 
@@ -84,7 +102,7 @@ refrainMelody = \relative f' {
 
   g4. e8 g4. e8 | fs2. a4 | a4. fs8 a4. fs8 | g4 a4 b4 d4 |
   \break
-  e2. e,4 | d'2 b2 | g1~ | g2. r4 |
+  e2. e,4 | d'2 b2 | g1 | r1 |
 
   \bar "|."
 }

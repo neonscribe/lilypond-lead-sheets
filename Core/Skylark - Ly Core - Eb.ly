@@ -43,7 +43,7 @@ refrainLyricsTwo = \lyricmode {
   And in your
 }
 
-refrainChords = \chordmode {
+refrainNewRealChords = \chordmode {
   ef2:6 f2:m7 ef2/g af2:maj7 ef2:maj7 a2:7 af2:maj7 ef2/g
   af2:maj7 ef2/g f2:7 bf2:7
 
@@ -60,6 +60,23 @@ refrainChords = \chordmode {
   \chordInsideParens{ bf2:7 }
 }
 
+refrainHLChords = \chordmode {
+  ef2:6 f2:m7 g2:m7 af2:maj7 ef2:maj7 a2:7 af2:maj7 g2:m7
+  c2:m7 f2:7 f2:m7 bf2:7
+  
+  ef2:6 c2:m7 f2:m7 bf2:7
+  
+  ef2:6 bf2:7 ef2:maj7 bf4:m7 ef4:7
+  
+  af2:maj7 f2:7 bf2:m7 ef2:7 af1:maj7 g2:m7.5- c2:7.9- 
+  f2:m7 df2:7/f bf4:m7 ef4:7 af2:maj7 g2:maj7 e2:m7 a4:7 d4:7 g4:6 bf4:7
+
+  ef2:6 f2:m7 g2:m7 af2:maj7 ef2:maj7 a2:7 af2:maj7 g2:m7
+  c2:m7 f2:7 f2:m7 bf2:7 ef2:6 b4:7 bf4:7 ef2:6 \chordInsideParens{ bf2:7 }
+}
+
+refrainChords = \refrainHLChords
+
 refrainKey = ef
 
 refrainMelody = \relative f'' {
@@ -74,18 +91,24 @@ refrainMelody = \relative f'' {
   \repeat volta 2 {
   c2 c2~ | c4 bf8 ef8 d8 c8 bf8 af8 | g8 g4 g8~ g2~ | g4 f8 c'8 bf8 g8 ef8 c8 |
   \break
-  ef8 ef4 ef8~ ef2~ | ef4 \tuplet 3/2 { ef8 f8 ef8 } \tuplet 3/2 { d8 af'4 } c,8 d8 |
+  ef8 ef4 ef8~ ef2~ |
+  ef4 \tuplet 3/2 { ef8 f8 ef8 } d8 af'8 c,8 d8 |
+  \break
   \alternative { \volta 1 {
-  ef2~ ef8 g8 bf8 ef8 | d8 c8 d8 ef8 bf2 |
+  ef2 r8 g8 bf8 ef8 | d8 c8 d8 ef8 bf2 |
   } \volta 2 {
-  ef,4 g8 bf8 df8 c8 bf8 af8 | bf2~ bf8 ef,8 g8 bf8 |
+  ef,4 g8 bf8 df8 c8 bf8 af8 | bf2 r8 ef,8 g8 bf8 |
   } } }
+
+  \bar "||"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
   
-  ef8 ef4 ef8~ ef2~ | ef4 \tuplet 3/2 { f8 ef8 d8 } df8 ef,8 g8 df'8 | c8 c4 c8~ c2~ |
-  c4 \tuplet 3/2 { df8 c8 bf8 } af8 g4. | f4 af8 c8 \tuplet 3/2 { cf8 bf8 af8 } f4 | c'8 ef8 f8 b,8 ef2 |
+  ef8 ef4 ef8~ ef2~ | ef4 \tuplet 3/2 { f8 ef8 d8 } df8 ef,8 g8 df'8 |
+  c8 c4 c8~ c2~ | c4 \tuplet 3/2 { df8 c8 bf8 } af8 g4. |
+  \break
+  f4 af8 c8 \tuplet 3/2 { cf8 bf8 af8 } f4 | c'8 ef8 f8 b,8 ef2 |
   b8 d8 e8 b8~ b8 g8 e8 d8 | b'8 bf8 af8 g8~ g8 bf4. |
   
   \bar "||"
@@ -95,7 +118,7 @@ refrainMelody = \relative f'' {
 
   c2 c2~ | c4 bf8 ef8 d8 c8 bf8 af8 | g8 g4 g8~ g2~ | g4 f8 c'8 bf8 g8 ef8 c8 |
   \break
-  ef8 ef4 ef8~ ef2~ | ef4 \tuplet 3/2 { ef8 f8 ef8 } \tuplet 3/2 { d8 af'4 } c,8 d8 | ef4 g8 bf8 df4 d4 | c2. r4 |
+  ef8 ef4 ef8~ ef2~ | ef4 \tuplet 3/2 { ef8 f8 ef8 } d8 af'8 c,8 d8 | ef4 g8 bf8 df4 d4 | c2 r2 |
   
   \bar "|."
 }

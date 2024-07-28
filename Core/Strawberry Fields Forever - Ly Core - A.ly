@@ -57,7 +57,7 @@ Straw -- ber -- ry Fields for -- ev -- er. __
 
 Liv -- ing is eas -- y with eyes closed, __
 mis -- un -- der -- stand -- ing all you see. __
-It's get -- thing hard to be some -- one, but it all works out;
+It's get -- ting hard to be some -- one, but it all works out;
 it does -- n't mat -- ter much to me.
 
 Let me take you down, __ 'cause I'm go -- ing to __

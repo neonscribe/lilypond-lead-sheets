@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Slow, or Very Fast" 2 = 92-130
+  \tempo "Medium Slow or Very Fast" 2 = 130
 
   \xTextMark \markup{ \bold \box "A1" }
   

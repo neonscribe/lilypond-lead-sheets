@@ -32,6 +32,7 @@ verseChords = \chordmode {
 }
 
 verseKey = g
+refrainKey = af
 
 verseMelody = \relative f' {
   \time 4/4
@@ -48,7 +49,7 @@ verseMelody = \relative f' {
   
   \bar "||"
 
-  \key af \major
+  \key \refrainKey \major
 }
 
 introLyrics = \lyricmode {
@@ -172,8 +173,6 @@ refrainRealBookSixthChords = \chordmode {
 }
 
 refrainChords = \refrainRealBookSixthChords
-
-refrainKey = af
 
 refrainMelody = \relative f' {
   \time 4/4

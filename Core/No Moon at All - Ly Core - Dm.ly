@@ -31,7 +31,7 @@ Just to think we fell in love
 and there's no moon at all. __
 }
 
-refrainChords = \chordmode {
+refrainNRChords = \chordmode {
   d1:m a1:7 d1:7.9- g1:6
   e1:m7.5- d2:m bf4:7 a4:7 d1:m bf2:7 a2:7
 
@@ -46,6 +46,24 @@ refrainChords = \chordmode {
   \chordOpenParen{ bf2:7 }
   \chordCloseParen{ a2:7 }
 }
+
+refrainHLChords = \chordmode {
+  d1:m6 a1:7.9-/cs d1:7/c g1/b
+  e1:m7.5-/bf d2:m/a bf4:7 a4:7.9- d1:m6 bf2:7 a2:7.9-
+
+  d1:m6 a1:7.9-/cs d1:7/c g1/b
+  e1:m7.5-/bf d2:m/a bf4:7 a4:7.9- d1:m6 d1:m6
+
+  d1:7 d1:7 g1:7 g1:7
+  c1:7 c1:7 f1:maj7 e2:m7.5- a2:7.5+
+
+  d1:m6 a1:7.9-/cs d1:7/c g1/b
+  e1:m7.5-/bf d2:m/a bf4:7 a4:7.9- d1:m6
+  \chordOpenParen{ bf2:7 }
+  \chordCloseParen{ a2:7.9- }
+}
+
+refrainChords = \refrainHLChords
 
 refrainKey = d
 

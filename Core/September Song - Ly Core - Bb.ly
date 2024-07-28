@@ -8,7 +8,7 @@
   title = "September Song"
   subtitle = \instrument
   poet = "Maxwell Anderson"
-  composer = "Kurl Weill"
+  composer = "Kurt Weill"
   copyright = "© 1938 Chappell & Co."
 }
 
