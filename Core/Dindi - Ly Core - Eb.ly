@@ -12,6 +12,8 @@
   copyright = "© 1965 Ipanema Music Inc."
 }
 
+bossaRhythm = ##t
+
 refrainPortugueseLyrics = \lyricmode {
 Ah, Din -- di. __ Se sou bes -- ses o bem que~_eu te que -- ro.
 O mun -- do se -- ri -- a, Din -- di, tu -- do, Din -- di, lin -- do, Din -- di.
@@ -59,7 +61,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Medium Bossa" 4 = 168
 
   \xTextMark \markup{ \bold \box "A1" }
   

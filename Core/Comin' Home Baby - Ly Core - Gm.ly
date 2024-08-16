@@ -38,7 +38,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Soul Jazz" 4 = 120
+  \tempo "Soul Jazz" 4 = 143
 
   \partial 4. g8 bf8 d8 |
   

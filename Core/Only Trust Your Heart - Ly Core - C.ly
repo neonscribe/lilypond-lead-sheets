@@ -89,7 +89,7 @@ refrainMelody = \relative c'' {
   \key c \major
   \clef \whatClef
   
-  \tempo "Medium Bossa" 4 = 120
+  \tempo "Medium Bossa" 4 = 122
   
   \xTextMark \markup { \bold \box "A1, A2" }
 
@@ -151,6 +151,7 @@ refrainMelody = \relative c'' {
       }
     \new Staff {
       #(set-accidental-style 'modern)
+      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
       \override Score.Clef.break-visibility = #all-invisible
       \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 

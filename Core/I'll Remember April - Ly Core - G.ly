@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Latin" 4 = 120
+  \tempo "Latin" 4 = 160
 
   \xTextMark \markup{ \bold \box "A1" }
 

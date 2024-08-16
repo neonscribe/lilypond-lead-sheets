@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Waltz"
+instrument = "Standard Key"
 whatKey = c
 whatClef = "treble"
 
@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Russian Lullaby Waltz - Cm}
+\addcontentsline{toc}{section}{Russian Lullaby (Waltz) - Cm}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Russian Lullaby Waltz - Ly - Cm Standard"}
 
 %}

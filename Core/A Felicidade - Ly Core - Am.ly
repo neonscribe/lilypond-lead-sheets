@@ -78,7 +78,7 @@ refrainMelody = \relative c' {
   \time 2/2
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Samba" 4 = 120
+  \tempo "Medium Samba" 4 = 107
 
   \partial 4.
   

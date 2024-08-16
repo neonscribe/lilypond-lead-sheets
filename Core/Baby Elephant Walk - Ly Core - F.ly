@@ -23,7 +23,7 @@ bassIntro = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef bass
-  \tempo "Medium" 4 = 120
+  \tempo "Medium" 4 = 122
   
   \xTextMark \markup{ \bold \box "Intro" }
 
@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Medium" 4 = 122
 
   \xTextMark \markup{ \bold \box "A1, A2" }
 

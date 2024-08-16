@@ -6,7 +6,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   (set-global-staff-size 16))
 
 \header {
-  title = "Any Time"
+  title = "Any Time (Anytime)"
   subtitle = \instrument
   poet = ""
   composer = "Herbert Happy Lawson"
@@ -28,7 +28,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Medium" 4 = 142
 
   \xTextMark \markup{ \bold \box "Intro" }
 

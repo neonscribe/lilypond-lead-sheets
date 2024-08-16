@@ -31,7 +31,7 @@ refrainLyricsTwo = \lyricmode {
 I still hear you say -- ing,
 “Dear one, hold me fast.”
 And I start in pray -- ing,
-“Oh Lord, please let this last.” __
+“Oh Lord, please let this last.”
 }
 
 refrainHLChords = \chordmode {
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 120
+  \tempo "Medium Ballad" 4 = 104
 
   \xTextMark \markup{ \bold \box "A1, A2" }
   

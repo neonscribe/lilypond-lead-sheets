@@ -86,7 +86,7 @@ refrainMelody = \relative g' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Swing" 4 = 120
+  \tempo "Swing" 4 = 114
 
   \xTextMark \markup { \bold \box "A1, A2" }
   \bar ".|:"

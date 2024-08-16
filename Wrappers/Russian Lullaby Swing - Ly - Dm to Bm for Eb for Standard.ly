@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Eb for Swing"
+instrument = "Eb for Standard Key"
 whatKey = b,
 whatClef = "treble"
 
@@ -13,7 +13,7 @@ whatClef = "treble"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Russian Lullaby Swing - Dm to Bm}
+\addcontentsline{toc}{section}{Russian Lullaby (Swing) - Dm to Bm}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Russian Lullaby Swing - Ly - Dm to Bm for Eb for Standard"}
 
 %}

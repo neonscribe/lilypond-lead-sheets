@@ -5,7 +5,7 @@
 \include "../Include/lead-sheets.ily"
 
 \header {
-  title = "Russian Lullaby"
+  title = "Russian Lullaby (Swing)"
   subtitle = \instrument
   poet = ""
   composer = "Irving Berlin"

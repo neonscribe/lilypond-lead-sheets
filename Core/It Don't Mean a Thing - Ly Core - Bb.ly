@@ -44,7 +44,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Fast Swing" 4 = 210
 
   \partial 4 d'4 |
   \bar "||"

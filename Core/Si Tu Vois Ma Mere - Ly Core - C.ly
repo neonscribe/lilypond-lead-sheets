@@ -64,7 +64,7 @@ refrainMelody = \relative fis' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Ballad" 4 = 80
 
     \partial 4 fis8 g8 | % 1
     e'8 g8 e2 fis,8 

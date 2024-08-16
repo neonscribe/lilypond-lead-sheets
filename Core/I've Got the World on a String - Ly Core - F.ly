@@ -64,7 +64,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Med.-Slow Swing" 4 = 120
+  \tempo "Med.-Slow Swing" 4 = 124
   
   \partial 4. c8 f8 a8 |
   \bar "||"

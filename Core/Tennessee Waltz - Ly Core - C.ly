@@ -17,29 +17,31 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 straightEighths = ##t
 
 refrainLyrics = \lyricmode {
-I was dan -- cing with my dar -- ling to the Ten -- ne -- ssee Waltz
-When an old friend I hap -- pen'd to see. __
+I was dan -- cing with my dar -- ling to the Ten -- nes -- see Waltz
+when an old friend I hap -- pen'd to see. __
 In -- tro -- duced her to my loved one and while they were dan -- cing
-My friend stole my sweet -- heart from me. __
+my friend stole my sweet -- heart from me. __
 
 I re -- mem -- ber the night and the Ten -- ne -- ssee Waltz.
-Now I know just how much I have lost.
+Now I know just how much I have lost. __
 Yes, I lost my lit -- tle dar -- ling on the night they were play -- ing
-The beau -- ti -- ful Ten -- ne -- ssee Waltz.
+the beau -- ti -- ful Ten -- nes -- see Waltz. __
 }
 
 refrainChords = \chordmode {
   s4
 
-  c2. c2. c2.:7 f2.
-  c2. c2. g2.:7 g2.:7
-  c2. c2. c2.:7 f2.
-  c2. g2.:7 c2. c2.
+  c2. c2.:maj7 c2.:7 f2.
+  c2. a2.:m7 d2.:m7 g2.:7
+  c2. c2.:maj7 c2.:7 f2.
+  c2. g2.:7 c2. c2 f4/g
 
   c2. e2.:7 f2. c2.
-  c2. c2. g2.:7 g2.:7
-  c2. c2. c2.:7 f2.
-  c2. g2.:7 c2. c2.
+  c2. a2.:m7 d2.:m7 g2.:7
+  c2. c2.:maj7 c2.:7 f2.
+  c2. g2.:7 c2.
+  \chordOpenParen{ d2:m7 }
+  \chordCloseParen{ g4:7 }
 }
 
 refrainKey = c
@@ -55,36 +57,36 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "A1" }
   
-  e4 g4 c,8 d8 | e4 g4 c8 d8 | e4 g4 e4 | c4( a4) c8 d8 |
+  e8 g4. c,8 d8 | e8 g4. c8 d8 | e8 g4. e8( d8) | c4( a4) c8 c8 |
   \break
-  c4 g4 e4 | a4 g4 e4 | d2.~ | d2 c8 d8 |
+  c4 g4. e8 | a8 g4. e4 | d2.~ | d2 c8 d8 |
 
   \bar "||"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
 
-  e4 g4 c,8 d8 | e4 g4 c8( d8) | e4 g4 e4 | c4 a4. c8 |
+  e8 g4. c,8 d8 | e8 g4. c8( d8) | e8 g4. e8( d8) | c4 a4 c4 |
   \break
-  c4 g4 e4 | a4 f4 d4 | c2.~ | c2 c'8 d8 |
+  c4 g4. e8 | a8 f4. d4 | c2.~ | c2 c'8 d8 |
 
   \bar "||"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
   
-  e4 g4. e8 | d2 e8 e8 | d4 c4 a4 | g2 a8 b8 |
+  e4 e4. e8 | d2 e8 d8 | c2 f,8 a8 | g2 c8 c8 |
   \break
-  c4 a4 g4 | e4 a4 g4 | d2.~ | d2 c8 d8 |
+  c2 g8 e8 | a8 g4. e4 | d2.~ | d2 c8 d8 |
   
   \bar "||"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }
   
-  e4 g4 c,8 d8 | e4 g4 c8 d8 | e4 g4 e4 | c4 a4. c8 |
+  e8 g4. c,8 d8 | e8 g4. d'8 d8 | e8 g4. e8( d8) | c4 a4. c8 |
   \break
-  c4 g4 e4 | a4 f4 d4 | c2.~ | c4 r2 |
+  c4 g4 e4 | a4 f4 d4 | c2.~ | c2 r4 |
 
   \bar "|."
 }

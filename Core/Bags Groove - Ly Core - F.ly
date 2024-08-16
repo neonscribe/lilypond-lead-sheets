@@ -32,7 +32,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Medium Up" 4 = 154
 
   \partial 4 f4-^ |
 

@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+instrument = "Doris Day Key"
 whatKey = f,
 whatClef = "treble"
 

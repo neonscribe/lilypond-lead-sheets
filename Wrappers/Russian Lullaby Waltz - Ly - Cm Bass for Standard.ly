@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Bass for Waltz"
+instrument = "Bass for Standard Key"
 whatKey = c,
 whatClef = "bass"
 
@@ -13,7 +13,7 @@ whatClef = "bass"
 %{
 
 \phantomsection
-\addcontentsline{toc}{section}{Russian Lullaby Waltz - Cm Bass}
+\addcontentsline{toc}{section}{Russian Lullaby (Waltz) - Cm Bass}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Russian Lullaby Waltz - Ly - Cm Bass for Standard"}
 
 %}

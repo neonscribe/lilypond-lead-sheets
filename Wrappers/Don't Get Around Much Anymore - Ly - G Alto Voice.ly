@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-instrument = "Alto Voice Key"
+instrument = "Dinah Washington Key"
 whatKey = g
 whatClef = "treble"
 

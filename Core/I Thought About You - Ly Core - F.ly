@@ -29,7 +29,7 @@ verseMelody = \relative g'' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 120
+  \tempo "Medium Ballad" 4 = 119
 
   \xTextMark \markup{ "Verse" }
   

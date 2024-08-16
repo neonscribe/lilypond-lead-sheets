@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Medium Ballad" 4 = 96
 
   \partial 2 gs4 a4 |
 

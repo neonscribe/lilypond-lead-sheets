@@ -21,10 +21,13 @@ refrainChordsInC = \chordmode {
   c1:7 f1:7 c1:7 g2:m7 c2:7
   \break
   \bar "||-||"
-  f1:7 fs1:dim7 c1:7 e2:m7.5- a2:7.9-
+  f1:7 fs1:dim7 c1:7 e2:m7 a2:7
   \break
   \bar "||-||"
-  d1:m7 g1:7 c2:7 a2:7.9- d2:m7 g2:7
+  d1:m7 g1:7 c2:7
+  \chordOpenParen{ a2:7 }
+  d2:m7 
+  \chordCloseParen{ g2:7 }
 }
 
 refrainChords = \chordmode {

@@ -26,7 +26,7 @@ introMelody = \relative c' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Medium" 4 = 122
   
   \xTextMark \markup{ "Intro" }
   f8 f8 f8 f8 g4 g4 | ef4 ef8 f8~ f4 r4 | df8 df8 df8 df8 ef4 ef8 c8~ | c2. r4 |
@@ -67,7 +67,7 @@ refrainMelody = \relative c' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Medium" 4 = 122
   
   \xTextMark \markup{ \bold \box "A1" }
   c'8 c8 bf8 af8 g8 f4. | df4 f8 e8~ e2 | c4 g'8 f8~ f2 | df4 c'8 bf8~ bf2 |

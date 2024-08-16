@@ -18,7 +18,7 @@ introMelody = \relative g' {
   \time 4/4
   \key f \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Medium" 4 = 117
 
   \xTextMark \markup{ "Intro" }
   
@@ -142,7 +142,7 @@ refrainMelody = \relative g' {
 
   \xTextMark \markup{ "Refrain" \bold \box "A1" }
   \set Score.currentBarNumber = #1
-  \tempo "Medium" 4 = 120
+  \tempo "Medium" 4 = 117
   
   c4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r2 r4 r8 f8 |
   \break
@@ -205,6 +205,7 @@ refrainMelody = \relative g' {
       }
     \new Staff {
       #(set-accidental-style 'modern)
+      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
       \override Score.Clef.break-visibility = #all-invisible
       \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
@@ -230,6 +231,7 @@ refrainMelody = \relative g' {
       }
     \new Staff {
       #(set-accidental-style 'modern)
+      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
       \override Score.Clef.break-visibility = #all-invisible
       \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 
@@ -271,6 +273,7 @@ refrainMelody = \relative g' {
       }
     \new Staff {
       #(set-accidental-style 'modern)
+      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
       \override Score.Clef.break-visibility = #all-invisible
       \override Score.KeySignature.break-visibility = #all-invisible
       \context Voice = "voiceMelody" { 

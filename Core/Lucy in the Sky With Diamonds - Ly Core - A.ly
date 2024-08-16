@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Medium" 4 = 135
 
   \xTextMark \markup{ \bold \box "Intro" }
   
@@ -131,7 +131,7 @@ refrainMelody = \relative f' {
       \smaller \general-align #Y #DOWN \note {2} #1
       )
     }
-  }
+  } 4 = 180
     a4 r4 r2 |
 
   \bar "||"
@@ -166,7 +166,7 @@ refrainMelody = \relative f' {
       \smaller \general-align #Y #DOWN \note {2} #1
       )
     }
-  }
+  } 4 = 180
   a2 r2 |
   
   \break

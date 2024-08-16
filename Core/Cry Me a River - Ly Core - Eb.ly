@@ -2,8 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
+$(if (or (and (defined? 'printNoteNames) printNoteNames)
+      (string=? instrument "Bb for Alto Voice Key"))
+  (set-global-staff-size 16)
 )
 
 \header {

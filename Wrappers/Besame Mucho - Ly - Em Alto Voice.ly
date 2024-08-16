@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+instrument = "Cesária Évora, Julie London, Diana Krall Key"
 whatKey = e
 whatClef = "treble"
 

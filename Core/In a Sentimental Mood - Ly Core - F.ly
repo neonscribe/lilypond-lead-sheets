@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 120
+  \tempo "Ballad" 4 = 108
 
   r4 f8 g8 a8 c8 d8 f8 |
 
