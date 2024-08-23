@@ -3,7 +3,7 @@
 \include "english.ly"
 
 instrument = "Alto Voice Key"
-whatKey = c'
+whatKey = bf,
 whatClef = "treble"
 
-\include "../Core/Cry Me a River - Ly Core - Eb.ly"
+\include "../Core/If I Were a Bell - Ly Core - F.ly"

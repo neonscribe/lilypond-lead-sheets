@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   
   g8 f8 g8 f8 e8 d4 g8~ | g8 f8 g8 f8 e8 d4 e8~ | e4 b8 a8~ a8 b4 a8~ | a1 |
   \break
-  a'8 g8 a8 g8 fs8 e4 a8~ | a8 g8 a8 g8 f2 | d8 d8 d8 d8 d8 d4 f8~ | f8 d8 d8 c8 d4. d8 |
+  a'8 g8 a8 g8 fs8 e4 a8~ | a8 g8 a8 g8 fs2 | d8 d8 d8 d8 d8 d4 f8~ | f8 d8 d8 c8 d4. d8 |
   
   \bar "||"
   \break

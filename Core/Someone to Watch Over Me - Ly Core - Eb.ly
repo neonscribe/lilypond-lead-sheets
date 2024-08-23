@@ -21,7 +21,7 @@ I'm a lit -- tle lamb who's lost in the wood.
 I know I could al -- ways be good to one who'll watch o -- ver me. __
 
 Al -- though he may not be the man some girls think of as hand -- some,
-to my ehart he car -- ries the key. __
+to my heart he car -- ries the key. __
 
 Won't you tell him please to put on some speed, fol -- low my lead,
 oh, how I need some -- one to watch o -- ver me. __

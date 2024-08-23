@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+instrument = "Dottie Reid (with Benny Goodman) Key"
 whatKey = c
 whatClef = "treble"
 

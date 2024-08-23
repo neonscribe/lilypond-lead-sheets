@@ -33,17 +33,17 @@ refrainChords = \chordmode {
   g1:7 g2:m7 c2:7 f1:maj7 f1:maj7
   a1:m7.5- d1:7 g1:7 g2:m7 c2:7
   
-  f2:maj7 f2:7 bf2:maj c2:7 f2:maj7 f2:7 bf2:maj7 c2:7
-  f1:maj7 b2:m7.5- e2:7 a2:maj7 e2:7 a2:maj7 d2:7
+  f2:maj7 f2:7 bf2:maj c2:7 f1:maj7 e2:m7.5- a2:7
+  d2:m7 d2:m7/c b2:m7.5- e2:7 a2:maj7 bf2:7.11+ a2:maj7 d2:7
 
   g1:7 g2:m7 c2:7 f1:maj7 f1:maj7
   a1:m7.5- d1:7 g1:7 g2:m7 c2:7
   
-  f2:maj7 f2:7 bf2:maj b2:dim7 f2:maj7 bf2:7 a2:m7.5- d2:7
+  f2:maj7 f2:7/a bf2:maj b2:dim7 f2:maj7/c bf2:7 a2:m7.5- d2:7
   g1:m7 c1:7 f1:maj7
 
-  \chordOpenParen{ g2:m7 }
-  \chordCloseParen{ c2:7 }
+  \chordOpenParen{ a2:m7 }
+  \chordCloseParen{ d2:7 }
 }
 
 refrainKey = f

@@ -73,6 +73,16 @@ refrainRealBookIIIChords = \chordmode {
   f2:m7 bf2:9 df2:7.11+ c2:7 f2:m7 bf2:13 ef1:6.9
 }
 
+refrainHLRealBookVIChords = \chordmode {
+  f2:m7 bf2:7 ef1:maj7 d2:m7.5- g2:7.5+ c1:m7
+  d2:m7.5- g2:7.5+ c1:m7 a2:m7.5- af2:9.11+ g2:sus7 g2:7
+  
+  c2:m7 d2:7 g1:7 c2:sus7 c2:7 f2:m7 c2:7.5+
+  f2:m7 bf2:7 g2:7.5+ c2:7.9- f2:m7 bf2:7.9- ef2:6
+  \chordOpenParen{ g4:m7 }
+  \chordCloseParen{ c4:7.5+.9- }
+}
+
 refrainColoradoCookbookChords = \chordmode {
   f2:m7 bf2:7 ef1:maj7 d2:m7.5- g2:7.9- c1:m7
   d2:m7.5- g2:7.9- c1:m7 d2:7 af2:7.11+ g1:7
@@ -81,7 +91,7 @@ refrainColoradoCookbookChords = \chordmode {
   f2:m7 bf2:9 df2:7.11+ c2:7 f2:m7 bf2:13 ef1:6.9
 }
 
-refrainChords = \refrainRealBookIIIChords
+refrainChords = \refrainHLRealBookVIChords
 
 refrainKey = ef
 
@@ -116,11 +126,14 @@ refrainMelody = \relative f'' {
   \vspace #1
 }
 
+%{
 \include "../Include/verse.ily"
 
 \markup {
   % Leave a gap after the verse
   \vspace #2
 }
+
+%}
 
 \include "../Include/refrain.ily"
