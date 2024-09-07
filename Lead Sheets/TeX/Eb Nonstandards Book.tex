@@ -1,0 +1,144 @@
+\documentclass{book}
+\usepackage{fontspec}
+\setmainfont{symbola}
+\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr,bookmark,pdfpages,tocloft,nextpage}
+\hypersetup{pdfpagelayout=TwoPageRight}
+\fancypagestyle{plain}{
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyhead[LE,RO]{\thepage}}
+
+\let\origevenpage\cleartoevenpage
+\newcommand{\clearemptytoevenpage}{%
+  \clearpage
+  {\pagestyle{empty}\origevenpage}%
+}
+
+\begin{document}
+
+\phantomsection
+\renewcommand{\contentsname}{Eb Nonstandards Book}
+\setlength{\cftbeforesecskip}{0cm}
+\renewcommand{\cftsecfont}{\small}
+\addcontentsline{toc}{section}{Table of Contents}
+\tableofcontents
+\clearemptytoevenpage
+
+\phantomsection
+\addcontentsline{toc}{section}{Any Time - F to D}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Any Time - Ly - F to D for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Apache - Am to Fsm}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Apache - Ly - Am to Fsm for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Ashokan Farewell - D to B}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Ashokan Farewell - Ly - D to B for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Castaways - F to D}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Castaways - Ly - F to D for Eb for Standard"}
+
+\clearemptytoevenpage
+
+\phantomsection
+\addcontentsline{toc}{section}{Dear Mr. Fantasy - A to F\#}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Dear Mr Fantasy - Ly - A to Fs for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Hard to Thrill - Am to F\#m}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Hard to Thrill - Ly - Am to Fsm for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Hawaii Five-O Theme - Cm to Am}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Hawaii Five-O Theme - Ly - Cm to Am for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Here Comes the Bride - Bb to G}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Here Comes the Bride - Ly - Bb to G for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Innocent When You Dream - F to D}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Innocent When You Dream - Ly - F to D for Eb for Standard"}
+
+\clearemptytoevenpage
+
+\phantomsection
+\addcontentsline{toc}{section}{I Shot the Sheriff - Gm to Em}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/I Shot the Sheriff - Ly - Gm to Em for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{It's All Your Fault - C to A}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/It's All Your Fault - Ly - C to A for Eb for Standard"}
+
+\clearemptytoevenpage
+
+\phantomsection
+\addcontentsline{toc}{section}{Jesusita in Chihuahua - G to E}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Jesusita in Chihuahua - Ly - G to E for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Just My Kind - Ab to F}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Just My Kind - Ly - Ab to F for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Knee Deep in the Blues - C to A}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Knee Deep in the Blues - Ly - C to A for Eb for Standard"}
+
+\clearemptytoevenpage
+
+\phantomsection
+\addcontentsline{toc}{section}{Lucy in the Sky With Diamonds - A to F\#}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Lucy in the Sky With Diamonds - Ly - A to Fs for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{My Adobe Hacienda - C to A}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/My Adobe Hacienda - Ly - C to A for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Norwegian Wood - E to Db}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Norwegian Wood - Ly - E to Db for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{On the Trail - F to D}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/On the Trail - Ly - F to D for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Sleepwalk - C to A}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Sleepwalk - Ly - C to A for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Star Trek - Bb to G}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Star Trek - Ly - Bb to G for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Stay a Little Longer - G to E}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Stay a Little Longer - Ly - G to E for Eb for Standard"}
+
+\clearemptytoevenpage
+
+\phantomsection
+\addcontentsline{toc}{section}{Strawberry Fields Forever - A to F\#}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Strawberry Fields Forever - Ly - A to Fs for Eb for Standard"}
+
+\phantomsection
+\addcontentsline{toc}{section}{Walk Don't Run - C to A}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Walk Don't Run - Ly - C to A for Eb for Standard"}
+
+\clearemptytoevenpage
+
+\phantomsection
+\addcontentsline{toc}{section}{While My Guitar Gently Weeps - Am to F\#m}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/While My Guitar Gently Weeps - Ly - Am to Fsm for Eb for Standard"}
+
+\clearemptytoevenpage
+
+\phantomsection
+\addcontentsline{toc}{section}{You Don't Know Me - Eb to C}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/You Don't Know Me - Ly - Eb to C for Eb for Standard"}
+
+\end{document}
