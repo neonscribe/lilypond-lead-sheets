@@ -22,7 +22,7 @@ Qui don -- ne un fris -- son.
 
 C'est si bon
 Ces pe -- tit's sen -- sa -- tions.
-Ça vaut moiux qu'un mil -- lion.
+Ça vaut mieux qu'un mil -- lion.
 Tell' -- ment, tell' -- ment c'est bon.
 C'est si
 }

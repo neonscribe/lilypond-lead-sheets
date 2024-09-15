@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+instrument = "Helen Forrest (with Harry James) Key"
 whatKey = ef
 whatClef = "treble"
 

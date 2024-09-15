@@ -2,8 +2,8 @@
 
 \include "english.ly"
 
-instrument = "Dinah Washington Key"
-whatKey = bf,
+instrument = "Ella Fitzgerald Key"
+whatKey = af,
 whatClef = "treble"
 
 \include "../Core/I Thought About You - Ly Core - F.ly"
