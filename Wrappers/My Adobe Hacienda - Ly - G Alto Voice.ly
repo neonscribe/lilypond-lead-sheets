@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+instrument = "Louise Massey (with The Westerners) Key"
 whatKey = g,
 whatClef = "treble"
 

@@ -107,6 +107,7 @@ jazzChordsMusic =
 	<c ees g b>-\markup{ \jcMinorMajorSeventh }
 	
 	<c ees ges bes>-\markup{ \jcMinorSeventh \jcFlatFive }
+	<c ees gis bes>-\markup{ \jcMinorSeventh \jcSharpFive }
 	<c ees ges beses>-\markup{ \jcDiminished }
 
 	% suspended
@@ -252,7 +253,7 @@ jazzChordsMusic =
 	<c ees g bes f'>-\markup{ \jcMinorSeventh \jcRaise{ "(ADD 11)" } }
 
 	<c ees g bes d' f'>-\markup{ \jcMinor \jcEleventh }
-	<c ees ges bes d' f'>-\markup{ \jcMinor \jcSeventh \jcFlatFive \jcRaise{ "(11)" } }
+	<c ees ges bes d' f'>-\markup{ \jcMinor \jcEleventh \jcFlatFive }
 
 	% So What
 	<c f bes ees' g'>-\markup{ \jcMinor \jcSeventh \jcRaise{ "(ADD 4)" } } 
@@ -260,8 +261,9 @@ jazzChordsMusic =
 	%% Thirteens
 	
 	<c e g b d' f' a'>-\markup{ \jcMajor \jcThirteenth }
+	<c e g b d' a'>-\markup{ \jcMajor \jcThirteenth }
 	<c ees g bes d' f' a'>-\markup{ \jcMinor \jcThirteenth }
-	<c ees g bes d' a'>-\markup{ \jcThirteenth }
+	<c ees g bes d' a'>-\markup{ \jcMinor \jcThirteenth }
 	<c e g bes d' f' a'>-\markup{ \jcThirteenth }
 	<c e g bes d' a'>-\markup{ \jcThirteenth }
 

@@ -12,15 +12,18 @@
   copyright = "© 1930 Donaldson Publishing Co."
 }
 
-refrainLyrics = \lyricmode {
+refrainLyrics = { \lyricmode {
 My ba -- by don't care for shows, my ba -- by don't care for clothes,
 my ba -- by just cares for me. __ My ba -- by don't care for furs and __ la -- ces, __
 my ba -- by don't care for high -- toned __ pla -- ces. __
-My ba -- by don't care for rings, or oth -- er ex -- pen -- sive things,
-she's sen -- si -- ble as can be. __
+My ba -- by don't care for rings, or oth -- er ex -- pen -- sive things, }
+#(if (and (defined? 'objectGenderMale) objectGenderMale)
+  #{ \lyricmode { he's } #}
+  #{ \lyricmode { she's } #} )
+\lyricmode {
+sen -- si -- ble as can be. __
 My ba -- by don't care who knows it, my ba -- by just cares for me. __
-
-}
+} }
 
 refrainChords = \chordmode {
   g2:6 d2:7.5+ g2:maj7 d2:7.5+ g2:6 d2:7.5+ g2:maj7 d2:7.5+

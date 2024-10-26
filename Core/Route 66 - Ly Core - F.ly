@@ -25,7 +25,7 @@ You'll see __ Am -- a ril -- lo, __
 Gal -- lup, New Mex -- i -- co, __
 Flag -- staff, Ar -- i zo -- na;
 don't for -- get Wi -- no -- na,
-King -- man, Bar -- stop, San __ Ber -- nar -- di -- no.
+King -- man, Bar -- stow, San __ Ber -- nar -- di -- no.
 Won't __ you get hip to this time -- ly tip:
 When you make that Cal -- i -- for -- nia trip,
 Get your kicks on Route _ six -- ty six.

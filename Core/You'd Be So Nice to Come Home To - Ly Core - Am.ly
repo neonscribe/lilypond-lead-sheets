@@ -28,7 +28,7 @@ verseChords = \chordmode {
 
 verseKey = a
 
-verseMelody = \relative g' {
+verseMelody = \relative f' {
   \time 2/2
   \key \verseKey \minor
   \clef \whatClef
@@ -36,7 +36,7 @@ verseMelody = \relative g' {
 
   \xTextMark \markup{ "Verse" }
   
-  \partial 4 c4 |
+  \partial 4 c'4 |
   \bar "||"
   
   b2 f4 g4 | a4 a2 e8 f8 | g8 a8 g4 d4 e4 | f4 c2 c8 d8 |
@@ -79,7 +79,7 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-refrainMelody = \relative g' {
+refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \minor
   \clef \whatClef

@@ -8,6 +8,8 @@ instrument = "Nina Simone Key"
 whatKey = a,
 whatClef = "treble"
 
+objectGenderMale = ##t
+
 \include "../Core/My Baby Just Cares for Me - Ly Core - G.ly"
 
 %{

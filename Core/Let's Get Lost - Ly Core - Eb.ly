@@ -23,7 +23,7 @@ To cel -- e -- brate this night we've found each oth -- er,
 mm, __ let's __ get lost. __
 }
 
-refrainRealJazzChords = \chordmode {
+refrainChords = \chordmode {
   ef1:maj7 a1:m7.5- ef1:maj7 a2:m7.5- d2:7
   g1:m7.5- c1:7 g1:m7.5- c1:7
   f1:m7 bf1:7 ef1:maj7 a2:m7.5- d2:7
@@ -31,14 +31,10 @@ refrainRealJazzChords = \chordmode {
 
   ef1:maj7 a1:m7.5- ef1:maj7 a2:m7.5- d2:7
   g1:m7.5- c1:7 g1:m7.5- c1:7
-  f1:m7 bf1:7 ef2:maj7 af2:7 g2:7 c2:7.5+
+  f1:m7 bf1:7 ef2:maj7 af2:7 g2:7 c2:m7
   f1:m7 bf1:7 ef1:6
-  \chordOpenParen{ bf2:sus7 }
-  \chordCloseParen{ bf2:7.9- }
-}
-
-refrainChords = \chordmode {
-  \refrainRealJazzChords
+  \chordOpenParen{ f2:m7 }
+  \chordCloseParen{ bf2:7 }
 }
 
 refrainKey = ef

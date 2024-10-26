@@ -43,7 +43,7 @@ refrainMelody = \relative c'' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \tempo "Latin"
+  \tempo "Latin" 4 = 160
   \xTextMark \markup{ \bold \box A }
   c2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |
   \break

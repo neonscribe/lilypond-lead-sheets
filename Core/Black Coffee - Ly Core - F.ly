@@ -112,7 +112,7 @@ refrainMelody = \relative f' {
 
   bf8 c8 bf8 af8 bf4. c8 | af8 f4.~ f4. f8 | bf8 c8 bf8 c8 df4 ef4 | c2~ c4. c8 |
   \break
-  df8 df8 df8 df8 df4. e8 | df8 df4.~ df4. bf8 |
+  df8 df8 df8 df8 df4. f8 | df8 df4.~ df4. bf8 |
   df8 df8 df8 df8 df,4. df'8 | \tuplet 3/2 { c8 c8 c8 } c8 c8 c,4. c8 |
   
   \bar "||"

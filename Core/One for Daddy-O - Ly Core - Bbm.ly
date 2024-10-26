@@ -41,12 +41,16 @@ refrainMelody = \relative f {
   bf4 af4 f8 ef8 r8 df8 |
 
   r4 bf4 df8 f8 g4 |
+  
+  \break
+
   bf4
   \magnifyMusic 0.63 { bf,4 df8 f8 g4 } |
 
+  \magnifyMusic 0.63 { bf4 } bf,4 df8 f8 g4 |
+
   \break
 
-  \magnifyMusic 0.63 { bf4 } bf,4 df8 f8 g4 |
   bf4 af4 f8 ef8 r8 df8 |
 
   r4 bf4 df8 f8 g4 |
@@ -54,7 +58,15 @@ refrainMelody = \relative f {
   \break
 
   af8 f8 af8 f8~ f4 af8 f8 \textToCodaLastTime | af8 f4. af8 f8 a8 bf8 |
-  r1 | r4 bf,4 df8 f8 g4
+
+  \break
+
+  r1 | r4 
+  \override Parentheses.font-size = #5
+  \startParenthesis \parenthesize
+  bf,4 df8 f8
+  \endParenthesis \parenthesize
+  g4
   }
 }
 
@@ -88,8 +100,6 @@ codaMelody = \relative f' {
 
 \include "../Include/refrain.ily"
 
-\markup {
-  \vspace #2
-}
-
 \include "../Include/coda.ily"
+
+\markup "Head is played twice before and twice after solos."

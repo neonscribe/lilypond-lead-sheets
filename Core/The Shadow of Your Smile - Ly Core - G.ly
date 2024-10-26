@@ -26,19 +26,20 @@ the sha -- dow of your smile.
 }
 
 refrainChords = \chordmode {
-  r8*5
+  s8*5
 
-  fs1:m7 b1:7 e1:m7 a1:9
+  fs1:m7 b1:7 e1:m7 a1:7
   a1:m7 d1:7 g1:maj7 c1:maj7
 
   fs1:m7.5- b1:7 e1:m7 e1:m7/d
   cs1:m7.5- fs1:7 fs1:m7.5- b4:7 r2.
   
-  fs1:m7 b1:7 e1:m7 a1:9
-  a1:m7 d2:7 c2:dim7 b1:m7.5- e1:7.9-
+  fs1:m7 b1:7 e1:m7 a1:7
+  a1:m7 d1:7 b1:m7.5- e1:7.9-
   
-  a1:m7 c2:m7 f2:9 b2:m7 f2:9 e1:7
-  a2:9 ef2:9 d2.:sus9 d4:7.9- g1:6 g4:6 r2.
+  a1:m7 c2:m7 f2:7 b1:m7 e1:7
+  a1:7 d2.:sus7 d4:7.9- g1:6
+  \chordInsideParens{ b1:7 }
 }
 
 refrainKey = g
@@ -54,7 +55,7 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "A1" }
   
-  cs2. fs4 | ds2. c4 | b1~ | b4. b,8 e8 fs8 g8 b8 |
+  cs,2. fs4 | ds2. c4 | b1~ | b4. b8 e8 fs8 g8 b8 |
   \break
   e,2. a4 | fs2. d4 | b'1~ | b2 c8 b8 a8 g8 |
 
@@ -65,7 +66,7 @@ refrainMelody = \relative f' {
   
   a2. c,4 | b2. a'4 | g1~ | g2 b8 a8 g8 fs8 |
   \break
-  g2. b,4 | as2. g'4 | fs1~ | fs4. b,8 e8 fs8 g8 b8 |
+  g2. c,4 | as2. g'4 | fs1~ | fs4. b,8 e8 fs8 g8 b8 |
 
   \bar "||"
   \break

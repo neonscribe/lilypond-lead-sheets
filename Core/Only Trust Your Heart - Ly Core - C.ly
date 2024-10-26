@@ -14,16 +14,25 @@
 
 bossaRhythm = ##t
 
-refrainLyricsAOne = \lyricmode {
+refrainLyricsOne = \lyricmode {
   Nev -- er trust the stars __ when you're a -- bout to fall in love,
   look for hid -- den signs __ be -- fore you
-}
 
-refrainLyricsAOneEnd = \lyricmode {
   start to sigh. __
+
+  "" _ _
+
+  Just
+
+  wait __ for a night __ when the skies are all bare, then if you still care
+
+  Nev -- er trust your dream __ when you're a -- bout to fall in love,
+  for your dream will quick -- ly fall a -- part. __
+
+  So if you're smart, __ real -- ly smart, __ on -- ly trust __ your heart. __
 }
 
-refrainLyricsATwo =
+refrainLyricsTwo = \lyricmode {
 #(if (and (defined? 'objectGenderMale) objectGenderMale)
 #{
 \lyricmode {
@@ -36,29 +45,11 @@ refrainLyricsATwo =
   Nev -- er trust the moon __ when you're a -- bout to taste her kiss,
   she knows all the lines, __ and she knows
 }
-  #}
-  )
+  #} )
 
-refrainLyricsATwoEnd = \lyricmode {
-  how to lie. __
-}
+  "" _ _
 
-refrainLyricsBstart = \lyricmode {
-  Just
-}
-
-refrainLyricsB = \lyricmode {
-  wait __ for a night __ when the skies are all bare, then if you still care
-}
-
-refrainLyricsAThree = \lyricmode {
-  Nev -- er trust your dream __ when you're a -- bout to fall in love,
-  for your dream will quick -- ly fall a -- part. __
-}
-
-
-refrainLyricsCoda = \lyricmode {
-  So if you're smart, __ real -- ly smart, __ on -- ly trust __ your heart. __
+  how to lie. __ ""
 }
 
 refrainChords = \chordmode {
@@ -80,30 +71,33 @@ refrainChords = \chordmode {
   f2:maj7/g g2:7.9- c1:6
 
   \chordOpenParen{ g2:m7 }
-  \chordCloseParen{ c4:7 }
-  \chordInsideParens{ a4:7 }
+  \chordCloseParen{ c2:7 }
 }
+
+refrainKey = c
 
 refrainMelody = \relative c'' {
   \time 2/2
-  \key c \major
+  \key \refrainKey \major
   \clef \whatClef
   
   \tempo "Medium Bossa" 4 = 122
   
   \xTextMark \markup { \bold \box "A1, A2" }
 
+  \bar ".|:"
   \repeat volta 2 {
-
-  a4 b4 c4 b4 | d2~ d8 c8 b8 a8 | g4 a4 b4 a4 | c1 |
+  a4 b4 c4 b4 | d2~ d8 c8 b8 a8 | g4 a4 b4 a4 |
   \break
-  f,4 g4 a4 g4 | b2~ b8 a8 g8 f8 | 
-
-  } \alternative {
-    { e4 f4 g2~ | g2. r4 | }
-    { e4 f4 g2~ | g2 r4 c,4 | }
-  }
+  c1 | f,4 g4 a4 g4 | b2~ b8 a8 g8 f8 | 
+  \break
+  \alternative { \volta 1 {
+  e4 f4 g2~ | g2. r4 |
+  } \volta 2 {
+  e4 f4 g2~ | g2 r4 c,4 |
+  } } }
   \bar "||"
+  \break
 
   \xTextMark \markup { \bold \box "B" }
 
@@ -111,6 +105,7 @@ refrainMelody = \relative c'' {
   a'1~ | a2 c4 a4 | f1~ | f2 a4 f4 |
   \break
   d2 d'4 df4 | c2. b4 | e,2 c'4 b4 | bf1 |
+  \bar "||"
   \break
 
   \xTextMark \markup { \bold \box "A3" }
@@ -119,14 +114,15 @@ refrainMelody = \relative c'' {
   \break
   f,4 g4 a4 g4 | b2~ b8 a8 g8 f8 | 
   e1~ | e2. a,4 |
+
   \bar "||"
   \break
 
-  
   d4 e4 f2~ | f1 | e4 f4 g2~ | g1 |
   \break
-  c,4 d4 e2~ | e2 d2 | c1~ | c2.^\markup{ "to " \bold \box "A1" } r4^\markup{ "to tag, bar 27" } |
+  c,4 d4 e2~ | e2 d2 | c1~ | c2. r4 |
 
+  \bar "|."
 }
 
 \include "../Include/paper.ily"
@@ -136,55 +132,7 @@ refrainMelody = \relative c'' {
   \vspace #1
 }
 
-
-\score {
-  <<
-    { \context ChordNames 
-      {
-      \override ChordName.font-size = #+3
-      \override ChordName.font-series = #'bold
-      \set chordChanges = ##t
-     \transpose c \whatKey {
-	\refrainChords
-	}
-      }
-      }
-    \new Staff {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
-      \context Voice = "voiceMelody" { 
-	\transpose c \whatKey {
-	  \refrainMelody
-	  }
-	}
-    }
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose c \whatKey {
-      \refrainMelody
-      } }
-      #} )
-    \new Lyrics \lyricsto "voiceMelody"
-    {
-      <<
-      \refrainLyricsAOne
-      \new Lyrics {
-	\set associatedVoice = "voiceMelody"
-	\refrainLyricsATwo }
-      >>
-      \refrainLyricsAOneEnd
-      \refrainLyricsATwoEnd
-      \refrainLyricsBstart
-      \refrainLyricsB
-      \refrainLyricsAThree
-      \refrainLyricsCoda
-    }
-  >>
-  \midi{} \layout { }
-}
+\include "../Include/refrain-two-verses.ily"
 
 performanceNotes =
 \markup {

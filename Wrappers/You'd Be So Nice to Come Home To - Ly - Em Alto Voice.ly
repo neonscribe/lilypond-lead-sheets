@@ -3,7 +3,7 @@
 \include "english.ly"
 
 instrument = "Alto Voice Key"
-whatKey = e,
+whatKey = e
 whatClef = "treble"
 
 \include "../Core/You'd Be So Nice to Come Home To - Ly Core - Am.ly"

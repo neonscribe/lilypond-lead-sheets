@@ -4,7 +4,7 @@
 
 objectGenderMale = ##t
 
-instrument = "Alto Voice Key"
+instrument = "Ethel Ennis Key"
 whatKey = f
 whatClef = "treble"
 

@@ -2,7 +2,17 @@
 
 \include "../Include/lead-sheets.ily"
 
-introChords = \chordmode {
+\header {
+  title = "Is You Is, or Is You Ain't (Ma' Baby)"
+  subtitle = \instrument
+  composer = "Billy Austin and Louis Jordan"
+  copyright = "© 1944 Leeds Music Corporation"
+}
+
+introLyrics = \lyricmode {
+}
+
+introHLChords = \chordmode {
   f2:m f2:m/ef df2:7 c2:7
   f2:m f2:m/ef df2:7 c2:7
   %{
@@ -14,9 +24,25 @@ introChords = \chordmode {
   %}
 }
 
+introNicoChords = \chordmode {
+  f2:m ef2 df2:7 c2:7
+  f2:m ef2 df2:7 c2:7
+  %{
+  %% Extended intro
+  f2:m ef2 df2:7 c2:7
+  f2:m ef2 df2:7 c2:7
+  f2:m ef2 df2:7 c2:7
+  f2:m ef2 df2:7 c2:7
+  %}
+}
+
+introChords = \introNicoChords
+
+introKey = f
+
 introMelody = \relative g' {
   \time 4/4
-  \key f \minor
+  \key \introKey \minor
   \clef \whatClef
   \tempo "Medium" 4 = 117
 
@@ -44,7 +70,7 @@ introMelody = \relative g' {
   \bar "||"
 }
 
-verseLyricsF = \lyricmode {
+verseObjectGenderFemaleLyrics = \lyricmode {
   I got -- ta gal who's al -- ways late,
   An -- y time we have a date,
   But I love her, __ Yes I love her. __
@@ -53,7 +79,7 @@ verseLyricsF = \lyricmode {
   'Cause I want her, __ I'm gon -- na ask her. __
 }
 
-verseLyricsM = \lyricmode {
+verseObjectGenderMaleLyrics = \lyricmode {
   I got -- ta man who's al -- ways late,
   An -- y time we have a date,
   But I love him, __ Yes I love him. __
@@ -62,25 +88,43 @@ verseLyricsM = \lyricmode {
   'Cause I want him, __ I'm gon -- na ask him. __
 }
 
-verseChords = \chordmode {
+verseLyrics =
+#(if (and (defined? 'objectGenderMale) objectGenderMale)
+  #{ \verseObjectGenderMaleLyrics #}
+  #{ \verseObjectGenderFemaleLyrics #} )
+
+verseHLChords = \chordmode {
   f2:m f2:m/ef df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
   bf1:7 bf1:7 ef1:7 c1:7
   f2:m f2:m/ef df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
   bf1:7 bf1:7 ef1:7 c1:7
 }
 
+verseNicoChords = \chordmode {
+  f2:m ef2 df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
+  bf1:7 bf1:7 ef1:7 c1:7
+  f2:m ef2 df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
+  bf1:7 bf1:7 ef1:7 c1:7
+}
+
+verseChords = \verseNicoChords
+
+verseKey = f
+
 verseMelody = \relative g' {
   \time 4/4
-  \key f \minor
+  \key \verseKey \minor
   \clef \whatClef
 
+  \tempo "Medium" 4 = 117
+  
   \xTextMark \markup{ "Verse" }
   
-  cf4 bf8 af8 bf4 af4 | bf8 af4 cf4. r4 | r2 bf8 af8 bf8 af8 | bf8 af4 cf4. f,8 af8 |
+  c4 bf8 af8 bf4 af4 | bf8 af4 c4. r4 | r2 bf8 af8 bf8 af8 | bf8 af4 c4. f,8 af8 |
   \break
   c8 c4.~ c2~ | c2. f,8 af8 | c8 c4.~ c2~ | c2. r4 |
   \break
-  cf4 bf8 af8 bf4 af4 | bf8 af4 cf4. r4 | r4 r8 af8 bf8 af8 bf8 af8 | bf8 af4 cf4. f,8 af8 |
+  c4 bf8 af8 bf4 af4 | bf8 af4 c4. r4 | r4 r8 af8 bf8 af8 bf8 af8 | bf8 af4 c4. f,8 af8 |
   \break
   c8 c4.~ c2~ | c2~ c8 f,8 af8 f8 || c'8 c4.~ c2~ | c2. r4 |
   
@@ -88,7 +132,7 @@ verseMelody = \relative g' {
   \pageBreak
 }
 
-refrainLyricsF = \lyricmode {
+refrainObjectGenderFemaleLyrics = \lyricmode {
   Is you is, or is you ain't, ma' ba -- by,
   The way you're act -- ing late -- ly makes me doubt. __
 
@@ -103,7 +147,7 @@ refrainLyricsF = \lyricmode {
   Or is ma' ba -- by still ma' ba -- by true. __
 }
 
-refrainLyricsM = \lyricmode {
+refrainObjectGenderMaleLyrics = \lyricmode {
   Is you is, or is you ain't, ma' ba -- by,
   The way you're act -- ing late -- ly makes me doubt. __
 
@@ -118,26 +162,54 @@ refrainLyricsM = \lyricmode {
   Or is ma' ba -- by still ma' ba -- by true. __
 }
 
-refrainChords = \chordmode {
-  f2:m c2:7/g f2:m/af c2:7/g f1:m f2:m b2:13
+refrainLyrics =
+#(if (and (defined? 'objectGenderMale) objectGenderMale)
+  #{ \refrainObjectGenderMaleLyrics #}
+  #{ \refrainObjectGenderFemaleLyrics #} )
+
+refrainHLChords = \chordmode {
+  f2:m c2:7/g f2:m/af c2:7/g f1:m f8*5:m cf4.:13
   bf1:7 bf2:m7 ef2:7 af1:6 df2:7 c2:7
 
-  f2:m c2:7/g f2:m/af c2:7/g f1:m f2:m b2:13
+  f2:m c2:7/g f2:m/af c2:7/g f1:m f8*5:m cf4.:13
   bf1:7 bf2:m7 ef2:7 af1:6 ef2:m7 af2:7
   
   df1:maj7 df1:m7 af1:maj7 ef2:m7 af2:7
-  df1:maj7 df1:m7 c2:m7.5- f2:7 bf2:m7 g4:m7.5- c4:7
+  df1:maj7 df1:m7 c2:m7.5- f2:7 bf4:m7 \chordSlash 1 g4:m7.5- c4:7
 
-  f2:m c2:7/g f2:m/af c2:7/g f1:m f2:m b2:13
-  bf1:7 bf2:m7 ef2:7 af1:6 ef2:m7 af2:7
+  f2:m c2:7/g f2:m/af c2:7/g f1:m f8*5:m cf4.:13
+  bf1:7 bf2:m7 ef2:7 af2:6 gf2:7.5- f1:7
+
   bf1:7 bf2:m7 ef2:7 af1:6
   \chordOpenParen{ df2:7 }
   \chordCloseParen{ c2:7 }
 }
 
+refrainNicoChords = \chordmode {
+  f2:m c2:7/g f2:m/af c2:7/g f1:m f8*5:m cf4.:13
+  bf1:9 ef1:13 af1:6 c1:7
+
+  f2:m c2:7/g f2:m/af c2:7/g f1:m f8*5:m cf4.:13
+  bf1:9 ef1:13 af1:6 af1:7
+  
+  df1:6 df1:m6 af1:maj7 ef1:m7
+  df1:6 df1:m6 c2:m7.5- f2:7 g2:m7.5- c2:7
+
+  f2:m c2:7/g f2:m/af c2:7/g f1:m f8*5:m cf4.:13
+  bf1:9 ef1:13 gf1:7 f1:7
+
+  bf1:9 ef1:13 af1:6
+  \chordOpenParen{ df2:7 }
+  \chordCloseParen{ c2:7 }
+}
+
+refrainChords = \refrainNicoChords
+
+refrainKey = f
+
 refrainMelody = \relative g' {
   \time 4/4
-  \key f \minor
+  \key \refrainKey \minor
   \clef \whatClef
 
   \xTextMark \markup{ "Refrain" \bold \box "A1" }
@@ -161,9 +233,9 @@ refrainMelody = \relative g' {
   \break
   \xTextMark \markup{ \bold \box "B" }
   
-  bf8 af4. bf4 af4 | bf8 af4. bf4 af8 c8~ | c8 ef,4.~ ef4 g8 f8~ | f2. af4 |
+  bf8 af4. bf4 af4 | bf8 af4. bf4 af8 c8~ | c8 ef,4.~ ef4 f8 gf8~ | gf2. af4 |
   \break
-  bf4 af4 bf4 af4 | bf4 af4 bf4 af4 | c4 c4 c4 c8 df8~ | df4 r4 r2 |
+  bf4 af4 bf4 af4 | bf4 af4 bf4 af4 | c4 c4 c4 c8 c8~ | c4 r4 r2 |
 
   \bar "||"
   \break
@@ -178,126 +250,22 @@ refrainMelody = \relative g' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\header {
-  title = "Is You Is, or Is You Ain't (Ma' Baby)"
-  subtitle = \instrument
-  composer = "Billy Austin and Louis Jordan"
-  copyright = "© 1944 Leeds Music Corporation"
+refrainKicksOverTime = \relative f' {
+  s1*3 f4 f4 f8 f4. s1*4
+  s1*3 f4 f4 f8 f4. s1*4
+  s1*8
+  s1*3 f4 f4 f8 f4.
 }
+
+\include "../Include/paper.ily"
 
 \markup {
   % Leave a gap after the header
   \vspace #1
 }
 
-\score {
-  <<
-    { \context ChordNames 
-      {
-      \override ChordName.font-size = #+3
-      \override ChordName.font-series = #'bold
-     \transpose f \whatKey {
-	\introChords
-	}
-      }
-      }
-    \new Staff {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
-      \context Voice = "voiceMelody" { 
-	\transpose f \whatKey {
-	  \introMelody
-	  }
-	}
-    }
-  >>
-  \midi{} \layout { ragged-right = ##f }
-}
+\include "../Include/intro.ily"
 
-\score {
-  <<
-    { \context ChordNames 
-      {
-      \override ChordName.font-size = #+3
-      \override ChordName.font-series = #'bold
-     \transpose f \whatKey {
-	\verseChords
-	}
-      }
-      }
-    \new Staff {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
-      \context Voice = "voiceMelody" { 
-	\transpose f \whatKey {
-	  \verseMelody
-	  }
-	}
-    }
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose f \whatKey {
-      \verseMelody
-      } }
-      #} )
-    #(if objectGenderMale #{
-      \new Lyrics = "lyrics" {
-      \lyricsto "voiceMelody" \verseLyricsM
-    }
-      #} #{
-      \new Lyrics = "lyrics" {
-      \lyricsto "voiceMelody" \verseLyricsF
-    }
-      #} )
-  >>
-  \midi{} \layout { }
-}
+\include "../Include/verse.ily"
 
-\score {
-  <<
-    { \context ChordNames 
-      {
-      \override ChordName.font-size = #+3
-      \override ChordName.font-series = #'bold
-     \transpose f \whatKey {
-	\refrainChords
-	}
-      }
-      }
-    \new Staff {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
-      \context Voice = "voiceMelody" { 
-	\transpose f \whatKey {
-	  \refrainMelody
-	  }
-	}
-    }
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose f \whatKey {
-      \refrainMelody
-      } }
-      #} )
-    #(if objectGenderMale #{
-      \new Lyrics = "lyrics" {
-      \lyricsto "voiceMelody" \refrainLyricsM
-    }
-      #} #{
-      \new Lyrics = "lyrics" {
-      \lyricsto "voiceMelody" \refrainLyricsF
-    }
-      #} )
-  >>
-  \midi{} \layout { }
-}
+\include "../Include/refrain-with-kicks.ily"

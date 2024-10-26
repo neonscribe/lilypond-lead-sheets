@@ -138,3 +138,32 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain-two-verses.ily"
+
+\markup {
+  \column {
+    \vspace #1
+\line { \large { Non, je ne pourrai jamais vivre sans toi, } }
+\line { \large { je ne pourrai pas, ne pars pas, j'en mourrai! } }
+\line { \large { Un instant sans toi et je n'existe pas, } }
+\line { \large { mais mon amour, ne me quitte pas. } }
+    \vspace #1
+\line { \large { Mon amour, je t'attendrai toute ma vie, } }
+\line { \large { reste près de moi, reviens, je t'en supplie! } }
+\line { \large { J'ai besoin de toi, je veux vivre pour toi, } }
+\line { \large { oh, mon amour, ne me quitte pas. } }
+    \vspace #1
+\line { \large { Ils se sont spars sur le quai d'une gare. } }
+\line { \large { Ils se sont loin dans un dernier regard. } }
+\line { \large { Oh, je t'aime ! Ne me quitte pas. } }
+    \vspace #1
+\line { \large { Non, je ne pourrai jamais vivre sans toi, } }
+\line { \large { je ne pourrai pas, ne pars pas, j'en mourrai! } }
+\line { \large { Un instant sans toi et je n'existe pas, } }
+\line { \large { mais mon amour, ne me quitte pas. } }
+    \vspace #1
+\line { \large { Mon amour, je t'attendrai toute ma vie, } }
+\line { \large { reste près de moi, reviens, je t'en supplie! } }
+\line { \large { J'ai besoin de toi, je veux vivre pour toi, } }
+\line { \large { oh, mon amour, ne me quitte pas. } }
+  }
+}

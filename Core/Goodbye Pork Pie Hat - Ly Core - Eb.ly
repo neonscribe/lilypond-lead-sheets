@@ -58,7 +58,6 @@ refrainMelody = \relative f' {
   \break
   fs2 ds2 \textToCodaLastTime | \tuplet 3/2 { as'4 gs4 fs4 } \tuplet 3/2 { ds4 cs4 bf4 } |
 
-  \bar "|."
   \break
 
   \xTextMark \markup{ \bold \box "Solos" }

@@ -16,7 +16,7 @@ refrainLyrics = \lyricmode {
 At last __ my love __ has come a -- long.
 My lone -- ly days are o -- ver and life __ is like a song. __
 
-At last __ the skies a -- bove are blue,
+At last __ the skies __ a -- bove are blue,
 My heart __ was wrapped in clo -- ver the night __ I looked at you.
 
 I found a dream that I can speak to, __
@@ -60,25 +60,25 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "A1" }
   
-  c1~ | c4 d8 ef8~ ef8.d16 c8. a16 | g1~ | g4 a8 bf8~ bf8. a16  g8. f16 |
+  c1~ | c4 d8 ef8~ ef8 d8 c8 a8 | g1 | r4 a8 bf8~ bf8 a8  g8 f8 |
   \break
-  e2 e2~ | e4 e8 g8~ g8. f16 e8. d16 | c1~ | c2 r4 g'4 |
+  e2 e2 | r4 e8 g8~ g8 f8 e8 d8 | c1~ | c2 r4 g'4 |
   
   \bar "||"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
   
-  c1~ | c4 d8 ef8~ ef8.d16 c8. a16 | g1~ | g4 a8 bf8~ bf8. a16  g8. f16 |
+  c1~ | c4 d8 ef8~ ef8 d8 c8 a8 | g1 | r4 a8 bf8~ bf8 a8  g8 f8 |
   \break
-  e2 e2~ | e4 e8 g8~ g8. f16 e8. d16 | c1~ | c8 r8 c4 d4 e4 |
+  e2 e2 | r4 e8 g8~ g8 f8 e8 d8 | c1 | r4 c4 d4 e4 |
   
   \bar "||"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
   
-  g4 f4 e4 d4 | e4 e4~ e8. e16 fs8. g16 | b4 a4 g4 fs4 | g2~ g8. g16 a8. b16 |
+  g4 f4 e4 d4 | e4 e4~ e8 e8 fs8 g8 | b4 a4 g4 fs4 | g2 r8 g8 a8 b8 |
   \break
   d4 c4 b4 a4 | b4 b2 c4 | a4 a4 a8 b4. | g2. g4 |
   
@@ -87,9 +87,9 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "A3" }
 
-  c1~ | c4 d8 ef8~ ef8.d16 c8. a16 | g1~ | g4 a8 bf8~ bf8. a16  g8. f16 |
+  c1~ | c4 d8 ef8~ ef8 d8 c8 a8 | g1 | r4 a8 bf8~ bf8 a8  g8 f8 |
   \break
-  e2 c'2~ | c8. c16 e8. c16 e4 g,4 | c1~ | c4 r4 r2 |
+  e2 c'2 | r8 c8 e8 c8 e4 g,4 | c1 | r1 |
   
   \bar "|."
 }

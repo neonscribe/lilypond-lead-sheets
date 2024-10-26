@@ -7,7 +7,7 @@
 \header {
   title = "Nuages"
   subtitle = \instrument
-  poet = ""
+  poet = "Jacques Larue"
   composer = "Django Reinhardt"
   copyright = "© 1940 Peter Maurice Music Ltd."
 }

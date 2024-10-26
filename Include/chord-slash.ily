@@ -4,7 +4,7 @@
 
 % Function to print a specified number of slashes
 chordSlash = #(define-music-function (count) (integer?)
-  #{
+#{
     \override ChordName.stencil = #ly:percent-repeat-interface::beat-slash
     \override ChordName.thickness = #0.48
     \override ChordName.slope = #1.7
