@@ -32,7 +32,7 @@ bassIntro = \relative f' {
    e,4 e'8 e8 ds4 e4 | e,4 e'8 e8 ds4 e4 | e,4 e'8 e8 ds4 e4 |
   \partial 2 e,4 r4 |
 
-  \bar "||"
+  \bar "$"
 }
 
 refrainLyrics = \lyricmode {
@@ -62,14 +62,14 @@ refrainMelody = \relative f' {
   \clef \whatClef
 
   \partial 2 b,2 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
   b'1 | r4 gs8 a8 b4 g8 a8 | b4. b8~ b2 | r4 g8 a8 b4 a8 gs8 |
   a4. a8 a2 | g2.. fs16 e16 | fs1~ | fs4 r4 b,2 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   b'1 | r4 gs8 a8 b4 g8 a8 | b4. b8~ b2 | r4 g8 a8 b4 a8 gs8 |
   a4. a8 a2 | fs2.. e16 ds16 | e1~ | e4 r4 e2 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -87,7 +87,7 @@ refrainMelody = \relative f' {
   <b gs>4. <c a>8 <c a>2 <cs a>4 <a fs>8 <b g>8 <c a>4 <b g>8 <as fs>8 | <b fs>1~ |
   <b fs>4 c4 \tuplet 3/2 { d4 c4 d4 } |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

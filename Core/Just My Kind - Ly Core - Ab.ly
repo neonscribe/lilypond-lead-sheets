@@ -54,7 +54,7 @@ refrainMelody = \relative f'' {
   \tempo "Slow to Medium Swing"
 
   \partial 8 c8~ |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -63,7 +63,7 @@ refrainMelody = \relative f'' {
   bf4 b8 c2 af8 | g4 af8 f2 c'8 |
   bf4 c4 d4 bf8 ef8~ | ef2. r8 c8~ |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -73,7 +73,7 @@ refrainMelody = \relative f'' {
   f8 af4. g4 f4 | ef8 gf4. f4 c4 |
   ef8 df4. c4 c8 af8~ | af2. af8 bf8~ |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -83,7 +83,7 @@ refrainMelody = \relative f'' {
   c4 c4 g'4 c,4 | g'4 gf8 f2 af8 |
   bf4 af4 g4 f4 | ef4 df8 bf2 c8~ |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

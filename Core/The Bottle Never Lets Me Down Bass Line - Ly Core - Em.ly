@@ -62,7 +62,7 @@ refrainMelody = \relative g, {
   \xTextMark "Intro"
 
   c4 c4 c4 c4 | b4 b4 b4 g4 | e2 b'2 | e,2 b'4 g4 |
-  \bar "||"
+  \bar "$"
 
   \break
   \xTextMark "Verse"
@@ -72,7 +72,7 @@ refrainMelody = \relative g, {
   \break
   a2 e2 | a2 a4 b4 | e,2 b'2 | e,2 a4 b4 |
   c2 c2 | b2 b4 g4 | e2. b'4 | e4 d4 b4 g4 |
-  \bar "||"
+  \bar "$"
 
   \break
   \xTextMark "Verse"
@@ -82,7 +82,7 @@ refrainMelody = \relative g, {
   \break
   a2 e2 | a2 a4 b4 | e2 b4 d4 | e2 a,4 b4 |
   c2 c2 | b2 b4 g4 | e1 | e4 e4 fs4 g4 |
-  \bar "||"
+  \bar "$"
 
   \break
   \xTextMark "Chorus"
@@ -95,7 +95,7 @@ refrainMelody = \relative g, {
   c4 c4 c4 c4 | b4 b4 b4 b4 | 
   \textToCoda
   a2 e'2 | a,2 a4 b4 | e,2 b'2 | e,4 e4 b'4 g4 | 
-  \bar "||"
+  \bar "$"
 
   \break
   \xTextMark "Verse Solo"
@@ -105,7 +105,7 @@ refrainMelody = \relative g, {
   \break
   a2 e2 | a4 a4 b4 d4 | e2 b4 d4 | e4 e4 a,4 b4 |
   c2 c4 g4 | b2 b4 fs4 | e2 b'2 | e,1 |
-  \bar "||"
+  \bar "$"
 
   \break
   \xTextMark "Verse"
@@ -117,7 +117,7 @@ refrainMelody = \relative g, {
   c2 c2 | b2 b4 g4 | e1 |
   \xTextMark "To Chorus"
   e4 e4 fs4 g4 |
-  \bar "||"
+  \bar "$"
   
   \textCodaBreak
 

@@ -53,7 +53,7 @@ refrainNicoChords = \chordmode {
   c1:m6
 
   bf2:m7 ef2:7 af2:maj7 a2:dim7 bf2:m7 ef2:7 af2:maj7 df2:maj7
-  a2:m7 d2:7 g2:maj7 c2:maj7 cs2:m7 fs2:7 d2:m7 g2:5+
+  a2:m7 d2:7 g2:maj7 c2:maj7 df2:m7 gf2:7 d2:m7 g2:5+
 
   c4:m7 c4:m7/bf af2:7 c4:m7 c4:m7/bf af2:7 c2:m7 a2:m7.5- d2:m7.5- g2:7.5+
   c4:m7 c4:m7/bf af2:7 c4:m7 c4:m7/bf a2:m7.5- af2:7 g2:7.5+ c2:m7 c2:m7/bf
@@ -71,7 +71,7 @@ refrainHLChords = \chordmode {
   c1:m6
   
   bf2:m7 ef2:7 af2:maj7 a2:dim7 bf2:m7 ef2:7 af2:maj7 df2:maj7
-  a2:m7 d2:7 g2:maj7 c2:maj7 cs2:m7 fs2:7 d2:m7 g2:5+
+  a2:m7 d2:7 g2:maj7 c2:maj7 df2:m7 gf2:7 d2:m7 g2:5+
 
   c4:m7 \chordSlash 1 d4:7.5- g4:7.5+ c2:m7 af2:7 c2:m7 a2:m7.5- d2:m7.5- g2:7.5+
   c4:m7 \chordSlash 1 d4:7.5- g4:7.5+ c2:m7 a2:m7.5- af2:7 g2:7.5+ c2:m7 c2:m7/bf
@@ -105,16 +105,16 @@ refrainMelody = \relative f' {
   } {
   c2.\repeatTie c'4 |
   } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
   
   c8 c4.~ c8 c8 bf8 ef,8~ | ef8 ef4.~ ef2 | c'8 c4 c16 b16 c4 bf8 ef,8~ | ef2. c'4 |
   \break
-  b2~ b8 a4 b16 a16 | d,8 d4.~ d4 r8 e8 | fs8 fs8 fs8 fs8~ fs4 fs8 g8~ | g1 |
+  b2~ b8 a4 b16 a16 | d,8 d4.~ d4 r8 ff8 | gf8 gf8 gf8 gf8~ gf4 gf8 g8~ | g1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

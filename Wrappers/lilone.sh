@@ -10,6 +10,11 @@ for file in *.ly; do
 	if [ $? -eq 0 ]; then
 	    mv "${file%.ly}.pdf" "../Standard/Bass Line/"
 	fi
+    elif [[ $file =~ "Guitar Solo for Standard.ly" ]]; then
+	$LILYPOND $ARGS "$file"
+	if [ $? -eq 0 ]; then
+	    mv "${file%.ly}.pdf" "../Standard/Guitar Solo/"
+	fi
     elif [[ $file =~ "Bass for Standard.ly" ]]; then
 	$LILYPOND $ARGS "$file"
 	if [ $? -eq 0 ]; then

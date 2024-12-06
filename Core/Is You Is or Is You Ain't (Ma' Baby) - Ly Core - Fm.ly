@@ -67,7 +67,7 @@ introMelody = \relative g' {
   f8 g8~ g2.~ | g2  af8 g8 f8 df8 | c4. f8 d2 | r1 |
   %}
   
-  \bar "||"
+  \bar "$"
 }
 
 verseObjectGenderFemaleLyrics = \lyricmode {
@@ -90,8 +90,8 @@ verseObjectGenderMaleLyrics = \lyricmode {
 
 verseLyrics =
 #(if (and (defined? 'objectGenderMale) objectGenderMale)
-  #{ \verseObjectGenderMaleLyrics #}
-  #{ \verseObjectGenderFemaleLyrics #} )
+  verseObjectGenderMaleLyrics
+  verseObjectGenderFemaleLyrics)
 
 verseHLChords = \chordmode {
   f2:m f2:m/ef df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
@@ -129,7 +129,8 @@ verseMelody = \relative g' {
   c8 c4.~ c2~ | c2~ c8 f,8 af8 f8 || c'8 c4.~ c2~ | c2. r4 |
   
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
@@ -220,7 +221,7 @@ refrainMelody = \relative g' {
   \break
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r1 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -229,7 +230,7 @@ refrainMelody = \relative g' {
   \break
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r2 r4 af4 |
 
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "B" }
   
@@ -237,7 +238,7 @@ refrainMelody = \relative g' {
   \break
   bf4 af4 bf4 af4 | bf4 af4 bf4 af4 | c4 c4 c4 c8 c8~ | c4 r4 r2 |
 
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "A3" }
 

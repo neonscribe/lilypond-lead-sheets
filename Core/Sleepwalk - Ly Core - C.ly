@@ -51,7 +51,7 @@ refrainMelody = \relative f'' {
   \tuplet 3/2 { e8 b4~ } b4~ b2 } \ottava #0 |
   \tuplet 3/2 { a,,4 a8~ } \tuplet 3/2 { a8 a8 a8 } b4. r8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A1" }
@@ -61,7 +61,7 @@ refrainMelody = \relative f'' {
   g4 e16 g16 e16 c16 a2 | r4 \tuplet 3/2 { r8 c8 c8 } e8 e4 e16 e16 |
   r4 \tuplet 3/2 { g8 a8 e'8 } b2 | r4 \tuplet 3/2 { c8 d8 a'8 } g2 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -71,7 +71,7 @@ refrainMelody = \relative f'' {
   g4 e16 g16 e16 c16 a2 | r4 \tuplet 3/2 { r8 c8 c8 } e8 e4 e16 e16 |
   c2 a8 a4 a16 a16 | c2~ c4. c8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -82,7 +82,7 @@ refrainMelody = \relative f'' {
   a'8 a4. e'4~ \tuplet 3/2 { e8 d8 c8 } | af2 e'4~ \tuplet 3/2 { e8 d8 c8 } |
   g4. g8 bf8 bf8 r8 bf8 | g4 bf'8 g8~ g4 r4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

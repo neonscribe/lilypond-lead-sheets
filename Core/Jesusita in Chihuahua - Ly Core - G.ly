@@ -131,7 +131,7 @@ refrainMelody = \relative f' {
     g2 r4 \bar "!" d'4\upbow |
     }}
   \bar ".|:-||"
-  \pageBreak
+  \xPageBreak
   \xTextMark \markup{ \bold \box "A'" }
   \repeat volta 2 {
     b'8\downbow d,8 d8 d8 a'8 d,8 d8 d8 | g8 d8 d8 d8 d8 d8 d8 d8 |
@@ -163,7 +163,7 @@ refrainMelody = \relative f' {
     }{
     d4 d4-. df4-. c4-. |
     }}
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "A" }
   

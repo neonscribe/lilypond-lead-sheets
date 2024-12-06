@@ -28,25 +28,25 @@ refrainLyrics = \lyricmode {
 
 refrainChords = \chordmode {
   s4
-  \bar "||"
+  \bar "$"
   \xTextMark \markup { \bold \box "A1" }
   c1 c1:maj7 c1:6 c1:7
   f1:maj7 f1:m7 c2:maj7 g2:7.5+ c1:maj7
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup { \bold \box "B" }
   e1:7.9- e1:7.9- a2:m11 e2:7 a1:m11
   \break
   d1:9 d1:9 d2.:m7 g4:7 d2.:m7 g4:7.5+
-  \bar "||"
+  \bar "$"
   \break
   
   \xTextMark \markup { \bold \box "A2" }
   c1 c1:maj7 c1:6 c1:7
   \break
   f1:maj7 f1:m7 c2:maj7 bf2:7 a1:7
-  \bar "||"
+  \bar "$"
   \break
   
   \xTextMark \markup { \bold \box "C" }

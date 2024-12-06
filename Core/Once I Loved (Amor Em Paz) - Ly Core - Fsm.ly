@@ -87,7 +87,7 @@ refrainMelody = \relative f' {
   b8 as4 cs8~ cs2 | b8 a4 cs4 b4 gs8~ |
   } }
 
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "B" }
   

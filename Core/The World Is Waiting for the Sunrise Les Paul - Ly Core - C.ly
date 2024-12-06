@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \partial 2 
   <f \tweak font-size #-2 b \tweak font-size #-2 d>4(
   <g \tweak font-size #-2 c \tweak font-size #-2 e>4) |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   <e \tweak font-size #-2 b \tweak font-size #-2 gs'>4(
   <d \tweak font-size #-2 b \tweak font-size #-2 gs'>2.) |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -89,7 +89,7 @@ refrainMelody = \relative f' {
   <f, \tweak font-size #-2 b \tweak font-size #-2 d>4(
   <g \tweak font-size #-2 c \tweak font-size #-2 e>4) |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -111,7 +111,7 @@ refrainMelody = \relative f' {
   <e \tweak font-size #-2 b \tweak font-size #-2 gs'>4(
   <d \tweak font-size #-2 b \tweak font-size #-2 gs'>2.) |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

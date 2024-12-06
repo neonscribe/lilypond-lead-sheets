@@ -50,8 +50,8 @@ New ba -- by, that's all. __
 
 refrainLyrics =
 #(if (and (defined? 'objectGenderMale) objectGenderMale)
-  #{ \refrainObjectGenderMaleLyrics #}
-  #{ \refrainObjectGenderFemaleLyrics #} )
+  refrainObjectGenderMaleLyrics
+  refrainObjectGenderFemaleLyrics)
 
 refrainChords = \chordmode {
   s2.
@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   \tempo "Fast Swing" 4 = 240
   
   \partial 2. gs8 a8~ a8 gs8 a4 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \break
   a4. a8~ a2 | r4 a8 c8~ c8 a8 g4 | f1 | r4 gs8 a8~ a8 gs8 a4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
   \break
   a4. a8~ a2 | r4 a8 c8~ c8 a8 g4 | f1~ | f1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -100,7 +100,7 @@ refrainMelody = \relative f' {
   \break
   r4 b8 bf8 b4 a8 b8 | a4 g8 a8 g4 g8 f8 | e8 f4 g8~ g2 | r4 gs8 a8~ a8 gs8 a4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

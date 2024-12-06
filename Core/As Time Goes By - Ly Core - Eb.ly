@@ -14,7 +14,7 @@
 
 refrainLyricsOne = \lyricmode {
 You must re -- mem -- ber this,
-a kill is still a kiss, a sigh is just a sigh.
+a kiss is still a kiss, a sigh is just a sigh.
 The fun -- da -- men -- tal things ap -- ply, as time goes by. __
 And
 _
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   ef1~ | ef2 r2 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \break
   g8 af8 g8 ef'8~ ef4 ef4 | ef8 d8 ef8 d8 f4 d4 | c4 c4 g4 g4 | bf2. r8 g8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

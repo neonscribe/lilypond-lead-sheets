@@ -39,7 +39,7 @@ refrainMelody = \relative f' {
   \tempo "Slow Blues" 4. = 54
 
   \partial 4. r8 r8 r8 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "Intro" }
   

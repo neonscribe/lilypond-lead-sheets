@@ -77,7 +77,7 @@ refrainMelody = \relative c'' {
   f8 df8 bf8 g8 fs8 e'!4. | ef8 df8 \tuplet 3/2 { c8 df8 f8 } c'8 bf4. |
   \allowBreak
   df8 bf8 \tuplet 3/2 { gf8 ef8 bf8 } f'4 e4 | f4 bf4 ef,4 af4 |
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup { \bold \box "A2" }
@@ -88,10 +88,10 @@ refrainMelody = \relative c'' {
   f8 df8 bf8 g8 fs8 e'!4. | ef8 df8 \tuplet 3/2 { c8 df8 f8 } c'8 bf4. |
   \allowBreak
   df8 bf8 \tuplet 3/2 { gf8 ef8 bf8 } f'4. af,8 | df1 |
-  \bar "||"
-  \break
 
-  \pageBreak
+  \bar "||"
+
+  \xPageBreak
   
   \xTextMark \markup { \bold \box "B" }
   ef8 f8 gf8 af8 c4. bf8 | af1 |
@@ -101,7 +101,7 @@ refrainMelody = \relative c'' {
   f'8 ef8 df8 f,8 c'4. ef8 | bf1 | 
   \allowBreak
   bf8 af8 gf8 bf,8 f'8 ef4. | ff'8 ef8 df8 bf8 ff'8 ef4. |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup { \bold \box "A3" }
   c8 g8 e8 c8 b8 b'4. | bf8 f8 d8 bf8 a8 a'4. |

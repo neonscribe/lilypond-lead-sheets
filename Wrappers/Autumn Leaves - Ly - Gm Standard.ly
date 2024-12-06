@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Jazz Standard Key"
+instrument = "Cannonball Adderley and Miles Davis Key"
 whatKey = g
 whatClef = "treble"
 

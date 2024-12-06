@@ -42,7 +42,7 @@ refrainMelody = \relative f' {
   
   c4 c4 c8 a'8 g8 e8 | c4 c4 c8 a'8 g8 e8 | c4 c4 c8 a'8 g8 e8 | c4 c4 c8 a'8 g8 a8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Chorus" }
@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \break
   c4 c4 b4 b4 | a4 a4 e'4 a4 | f4 f4 g4 a,8 b8 | c4 c4 c8 a'8 g8 a8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Verse" }
@@ -64,7 +64,7 @@ refrainMelody = \relative f' {
   \break
   g2 g2 | g2 f4 f4 | c4 c4 c8 a'8 g8 e8 | c4 c4 c8 a'8 g8 a8 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Outro" }

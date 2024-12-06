@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   \break
   fs4 d2 fs4 | g4 e4 fs4 g4 | a1~ | a2. g4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   \break
   a4. a8~ a8 e4 fs8 | g4. g8~ g8 d4 e8 | fs1~ | fs2 r4 e4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -106,7 +106,7 @@ refrainMelody = \relative f' {
   \break
   fs4 d2 fs4 | g4 e4 fs4 g4 | a1~ | a2. g4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }
@@ -126,7 +126,7 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/verse.ily"
-\pageBreak
+\xPageBreak
 \include "../Include/refrain.ily"
 
 \markup {

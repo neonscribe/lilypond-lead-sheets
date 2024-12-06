@@ -39,7 +39,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Gospel" 4 = 124
 
   \partial 4 f4 |
-  \bar "||"
+  \bar "$"
   
   c'2 a8 g4 f8~ | f2 d8 f4 f8~ | f2 d8 f4 f8~ | f2 r4 f4 |
   \break

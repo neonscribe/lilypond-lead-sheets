@@ -57,28 +57,28 @@ refrainMelody = \relative c'' {
   a2 e'2~ | e2 d2 | d,1~ | d2 e4 f4 |
   \break
   c'2 a4 g4 | c4 a2 g4 | d1~ | d1 |
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
   e2 f2 | g2 a4 bf4 | c1 | e,1 |
   \break
   c2 e2 | g2 bf2 | d1 | c1 |
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
   a2 e'2~ | e2 d2 | d,1~ | d2 e4 f4 |
   \break
   c'2 c2 | c2 bf2 | a1~ | a2 gs4 a4 |
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }
   d2 d2 | d2 d4 cs4 | d4 cs4 d4 d4~ | d4 a2 gs4 |
   \break
   a2 a2 | a2 a4 gs4 | a4 gs4 a4 a4~ | a4 d,2. |
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

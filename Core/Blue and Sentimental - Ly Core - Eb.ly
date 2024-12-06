@@ -65,21 +65,21 @@ refrainMelodyHalf = \relative f' {
   
   g8 af8 a8 bf8 d8 c4. | r8 ef,8 ef8 c8 g'8 g4. | r8 ef8 ef8 c8 g'8 g4 bf8 | g2. r4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
   
   g8 af8 a8 bf8 d8 c4. | r8 ef,8 ef8 c8 g'8 g4. | r8 ef8 ef8 c8 g'8 g4. | g8 bf8 g8 f8~ f4. ef8 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
   
   ef4 f8 ef8 gf4 f8 ef8 | g8 bf4 bf8~ bf4. ef,8 | ef4 f8 ef8 gf4 f8 ef8 | g8 bf4 bf8~ bf2 | 
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }
@@ -118,21 +118,21 @@ refrainMelody = \relative f' {
   
   g4 af4 a4 bf4 | d4 c2. | r4 ef,4 ef4 c4 | g'4 g2. | r4 ef4 ef4 c4 | g'4 g2 bf4 | g1~ | g2 r2 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
   
   g4 af4 a4 bf4 | d4 c2. | r4 ef,4 ef4 c4 | g'4 g2. | r4 ef4 ef4 c4 | g'4 g2. | g4 bf4 g4 f4~ | f2. ef4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
   
   ef2 f4 ef4 | gf2 f4 ef4 | g4 bf2 bf4~ | bf2. ef,4 | ef2 f4 ef4 | gf2 f4 ef4 | g4 bf2 bf4~ | bf1 | 
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

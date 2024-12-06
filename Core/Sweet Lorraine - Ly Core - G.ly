@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \tempo "Moderately Slow Swing" 4 = 82
 
   \partial 8 d8 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \break
   e4 e8 e8~ e4 r4 | r4 d8 e8 fs8 g8 a8 b8 | d1~ | d2 r4 r8 d,8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \break
   e4 e8 e8~ e4 r4 | r4 d8 e8 fs8 g8 a8 b8 | g1~ | g2 r4 r8 g8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -89,7 +89,7 @@ refrainMelody = \relative f' {
   \break
   r4 c8 e,8 b'8 c8 b8 e,8 | a8 a8 a2 r4 | r4 b8 e,8 b'8 c8 b8 e,8 | a2. r8 d,8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

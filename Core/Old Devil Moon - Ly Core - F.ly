@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   f1^\markup { Latin } | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
   \break
   a1 | bf8 bf8 bf8 bf8 bf4 d4 | c1~ | c2 c4^\markup { Swing } c4 |
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B1" }
@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \break
 
   df2 cf8 bf4 gf8~ | gf2 a8 g4 f8~ | f1^\markup { Latin } | r2 ef8 c8 ef8 f8~ |
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }
@@ -91,16 +91,17 @@ refrainMelody = \relative f' {
   \break
   a2 f8 d8 f8 b8~ | b2 \tuplet 3/2 { f4 d4 f4 } | c'2 c2~ | 
   c8^\markup { Stop (head only) } d4 af8 g8 f8 d8 c8 |
+
   \bar "||"
 
-  \pageBreak
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "A2" }
   
   f1^\markup { Latin } | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
   \break
   a1 | bf8 bf8 bf8 bf8 bf4 d4 | c1~ | c2 c4^\markup { Swing } c4 |
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B2" }

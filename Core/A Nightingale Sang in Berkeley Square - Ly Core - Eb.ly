@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   ef1 | r1 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -88,7 +88,8 @@ refrainMelody = \relative f' {
   r8 d8 e8 fs8 g8 a8 b8 c8 | d8 d4 b8~ b4. b8 | a4 a4 g4. g8 | c4 c4 bf4. bf,8 |
   
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "A2" }
   
@@ -97,7 +98,7 @@ refrainMelody = \relative f' {
   \break
   d4 bf4 c4. af8 | bf4 ef,4 bf'4. af8 | g8 af8 bf4 ef,4 ef4 | ef2 f2 | ef1 | r1 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

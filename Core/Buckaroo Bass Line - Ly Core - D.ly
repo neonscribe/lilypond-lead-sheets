@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   d2 r2 | r1 | g2 r2 | r1 |
   d2 r2 | r1 | a2 r2 | r1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2/1" }
@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   d2 a'2 | a,2 e'2 | d2 g2 | a2 a2 |
   d,2 g2 | a2 r2 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A1/2" }
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   d,2 a'2 | d,2 a'2 | g2 d2 | g2 g2 |
   d2 a'2 | d,2 d2 | a2 e'2 | a4 g4 fs4 e4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2/2" }
@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   d2 a'2 | a,2 e'2 | d2 g2 | a2 a2 |
   d,2 g2 | d2 cs4 b4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B/1" }
@@ -93,7 +93,7 @@ refrainMelody = \relative f' {
   a2 e'2 | a2 e2 | d2 a'2 | d,2 d2 |
   e2 r2 | r1 | r1 | r1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3/1" }
@@ -102,7 +102,7 @@ refrainMelody = \relative f' {
   d2 a'2 | a,2 b4 cs4 | d2 g2 | a2 a2 |
   d,2 g2 | a2 r2 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A1/3"  "Pedal Steel Solo" }
@@ -110,7 +110,7 @@ refrainMelody = \relative f' {
   d,2 a'2 | d,2 a'2 | g2 d2 | g2 g2 |
   d2 a'2 | d,2 cs4 b4 | a2 e'2 | a4 g4 fs4 e4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2/3"  "Pedal Steel Solo" }
@@ -119,7 +119,7 @@ refrainMelody = \relative f' {
   d2 a'2 | a,2 e'2 | d2 g2 | a2 a2 |
   d,2 g2 | d4 d4 cs4 b4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B/2" }
@@ -127,7 +127,7 @@ refrainMelody = \relative f' {
   a2 e'2 | a2 e2 | d2 a'2 | d,2 a'2 |
   e2 r2 | r1 | r1 | r1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3/2" }

@@ -15,7 +15,7 @@
 refrainLyricsOne = \lyricmode {
 If you ev -- er _ _ plan to mo -- tor west,
 trav -- el my way; take the high -- way that's the best.
-Get your kicks on Route _ six -- ty six.
+Get your kicks on Route _ Six -- ty Six.
 
 It
 
@@ -28,7 +28,7 @@ don't for -- get Wi -- no -- na,
 King -- man, Bar -- stow, San __ Ber -- nar -- di -- no.
 Won't __ you get hip to this time -- ly tip:
 When you make that Cal -- i -- for -- nia trip,
-Get your kicks on Route _ six -- ty six.
+Get your kicks on Route _ Six -- ty Six.
 }
 
 refrainLyricsTwo = \lyricmode {
@@ -37,7 +37,7 @@ winds _ from Chi -- ca -- go to L. A.,
 more than two _ thou -- sand miles _ all the way.
 }
 
-refrainChords = \chordmode {
+refrainNatKingColeChords = \chordmode {
   s2
   f1:6 bf1:7 f1:6 f1:7
   bf1:7 bf1:7 f1:6 d1:7.9+
@@ -58,6 +58,30 @@ refrainChords = \chordmode {
   g2:m7
   \chordCloseParen{ c2:7 }
 }
+
+refrainNatalieColeChords = \chordmode {
+  s2
+  f1:6 bf1:7 f1:6 f1:7
+  bf1:7 bf1:7 f1:6 a2:m7 d2:7
+  g1:m7 c1:7
+  
+  f2:6 d2:7 g2:m7 c2:7
+
+  f2:6 d2:7 g2:m7 c2:7
+
+  f4:7 r2. bf4:7 r2. f4:7 r4*7
+  bf1:7 bf1:7 f1:6 a2:m7 d2:7
+  g1:m7 c1:7 f2:7 d2:7 g2:m7 c2:7
+
+  f1:6 bf1:7 f1:6 f1:7
+  bf1:7 bf1:7 f1:6 a2:m7 d2:7
+  g1:m7 c1:7 f2:6
+  \chordOpenParen{ d2:7 }
+  g2:m7
+  \chordCloseParen{ c2:7 }
+}
+
+refrainChords = \refrainNatalieColeChords
 
 refrainKey = f
 
@@ -83,7 +107,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r1 | r2 r4 c'8 f,8 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -97,7 +121,7 @@ refrainMelody = \relative f' {
   c8 c8 bf8 a8 bf8 c8 r8 c8~ | c8 c8 bf8 a8 bf8 c4. |
   c8 c4. c8 c4 c8~ | c4 bf8 a8 bf8 c8 r8 f,8~ |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

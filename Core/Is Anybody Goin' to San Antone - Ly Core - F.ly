@@ -56,7 +56,7 @@ refrainMelody = \relative f'' {
   \break
   c8 c8 c8 c8 c8 bf8 a4~ | a8 bf4 a8 f2 | c8 c8 e8 g8 bf8 a8 g4 | f2. a8 bf8 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Verse 2" }

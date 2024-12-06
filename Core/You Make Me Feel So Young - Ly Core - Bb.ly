@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   c'4\repeatTie f,8 f8~ f4 bf8 a8~ | a2. r4 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -96,7 +96,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { c4 c4 c4 } c4 a4 | bf8 bf4.~ bf4 r8 ef8~ |
   ef8 ef8 d8 c8~ c8 bf4 bf8 | a4 g8 f8~ f4 r4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

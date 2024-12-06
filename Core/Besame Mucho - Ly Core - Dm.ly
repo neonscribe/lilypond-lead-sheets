@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { f4 e4 d4 } \tuplet 3/2 { e4 d4 cs4 }  |
   d1~ | d2. r4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -93,7 +93,8 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { e4 e4 e4 } \tuplet 3/2 { f4 f4 f4 } | e1 |
   
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "A2" }
   

@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   g8\repeatTie gs8 a8 bf8~ bf4 r4 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

@@ -139,7 +139,7 @@ refrainMelody = \relative c' {
       gf4 f4 ef4 d4 | ef2 r4 ef8 f8 |
     }
   }
-  \bar "||"
+  \bar "$"
   \break
   \set Score.currentBarNumber = #17
   \xTextMark \markup { \bold \box "B" }
@@ -151,7 +151,7 @@ refrainMelody = \relative c' {
   ef4 ef8 ef8 df4 df8 df8 | cf4 df8 cf8
   \xTextMark \markup { \small \italic "D.C. al Coda" }
   bf2 |
-  \bar "||"
+  \bar "$"
   \set Score.currentBarNumber = #31
 
   \textCodaBreak

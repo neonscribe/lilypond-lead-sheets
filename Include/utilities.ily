@@ -65,6 +65,12 @@ rse = {
   r8
 }
 
+xPageBreak = {
+  \pageBreak
+  \once \override Score.Clef.break-visibility = #begin-of-line-visible
+  \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
+}
+
 sect =
 #(define-music-function (s)
    (string?)

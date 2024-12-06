@@ -50,7 +50,8 @@ verseMelody = \relative f' {
   r4 d8 f8 a8 d,8 f8 a8 | \tuplet 3/2 { g4 e4 g4 } c2 | r8 g8 a8 f8 g8 e8 f8 d8 | \partial 2 c2 
 
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -95,7 +96,7 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ "Refrain" }
   \partial 2 r8 b8 c8 cs8 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -103,7 +104,7 @@ refrainMelody = \relative f' {
   \break
   c4 g4 c2 | b8 e8 b8 g8 e2 | r8 a8 c8 a8 f8 g8 e8 f8 | d2~ d8 e4 d8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -112,7 +113,7 @@ refrainMelody = \relative f' {
   \break
   e8 d8 c8 a8 e4 fs4 | b8 d,8 df8 c8~ c8 a'4 d,8 | g4 g4 a8 d8 d,8 a'8 | g2. c4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -121,7 +122,7 @@ refrainMelody = \relative f' {
   \break
   c4 g4 c2 | b8 e8 b8 g8 e2 | r8 a8 c8 a8 f8 g8 e8 f8 | d2~ d8 e4 d8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

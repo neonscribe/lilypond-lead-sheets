@@ -37,7 +37,7 @@ introMelody = \relative f' {
   \numericTimeSignature
   \time 4/4
   
-  \bar "||"
+  \bar "$"
 }
 
 introBass = \relative f' {
@@ -133,7 +133,7 @@ refrainMelody = \relative f' {
 
   r4 cs'8 cs8 d8 cs4 a8~ | a4 e8 fs8 b8 a4 g8~ |
 
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "Chorus" }
   
@@ -160,13 +160,15 @@ refrainMelody = \relative f' {
   \repeat volta 3 {
   \tuplet 3/2 { b4 b4 b4 } \tuplet 3/2 { b4 b4 b4 } |
   \tuplet 3/2 { b2 b4~ } b2 | r8 a8 a8 a8 cs8 b8 a8 gs8 | a16( gs16 fs4) r8 r2 |
-  \pageBreak
+
+  \xPageBreak
+
   r8 a8 a8 a8 gs8. fs16 e8 cs'8 | a8 a16 a16 a16( b16) a16( gs16) fs4 r4 |
   r8 a8 a8 a8 b8 a8 gs8 a8 | a1 |
   \break
   r4 cs8 cs8 d8 cs4 a8~ | a4 e8 fs8 b8 a4 g8~ |
 
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "Chorus" }
   

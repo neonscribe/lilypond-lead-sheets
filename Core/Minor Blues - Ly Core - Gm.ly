@@ -42,7 +42,7 @@ refrainMelody = \relative f' {
   
   g,4 r4 bf4 r4 | a4. d8~ d8 c8 bf8 a8 | g4 r4 bf4 r4 | a4. d8~ d8 c8 bf8 a8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Chorus 1" }
@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   r2 r8 g8 bf8 df8 |
   
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Chorus 2" }

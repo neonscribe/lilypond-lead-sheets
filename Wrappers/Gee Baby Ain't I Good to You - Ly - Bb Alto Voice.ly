@@ -4,9 +4,11 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+instrument = "Barbara Lea Key"
 whatKey = bf,
 whatClef = "treble"
+
+objectGenderMale = ##t
 
 \include "../Core/Gee Baby Ain't I Good to You - Ly Core - Eb.ly"
 

@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \tempo "Med. Ballad" 4 = 70
   
   \partial 4 cs8 d8 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A" }
   
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \break
   e4 e2 g4 | b4 g4 fs4 e4 | a1~ | a2. cs,8 d8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }

@@ -33,7 +33,7 @@ refrainMelody = \relative f' {
   \tempo "Slow Blues" 4 = 100
   
   \partial 4 d8 f8 |
-  \bar "||"
+  \bar "$"
   
   a4 a8 a8 g4. a8 | f8 d4. r4 a'4 | a4. a8 d4 bf8 a8~ | a2 r4 d,8 f8 |
   \break

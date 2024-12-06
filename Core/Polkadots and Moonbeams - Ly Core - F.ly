@@ -84,7 +84,7 @@ refrainMelody = \relative f' {
   \break
   e4 cs'2 e8 ef8 | d8 cs8 b8 a8 gs4 e4 | r8 a4 b8 a4 bf4 | c4 bf4 g4 r4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

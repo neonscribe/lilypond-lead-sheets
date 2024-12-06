@@ -18,7 +18,7 @@ We'll build a dream house __ of love, dear.
 Close to the sun in the day,
 Near to the moon at night.
 We'll live in a love -- ly way, dear,
-sharing our love in the pale moon -- light.
+liv -- ing on love and pale moon -- light.
 Just you and I, __ for -- ev -- er and a day. __
 Love will not die; __ we'll keep it that way. __
 Up a -- mong the stars we'll find a har -- mo -- ny of life to a love -- ly tune,
@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \break
   \tuplet 3/2 { e4 e4 e4 } b'4 b4~ | b2 a2 | c1 | ef,1 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \break
   \tuplet 3/2 { fs4 fs4 fs4 } a4 a4 | fs2 e2 | \tuplet 3/2 { c'4 c4 c4 } d4 d4 | b4 b4 a2 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \break
   \tuplet 3/2 { e4 e4 e4 } b'2~ | b2 a2 | \tuplet 3/2 { c4 c4 c4 } ef,2~ | ef1 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }
@@ -101,7 +101,7 @@ refrainMelody = \relative f' {
 \include "../Include/refrain.ily"
 
 $(if #(not (string-contains instrument "Standard"))
-     #{ \pageBreak #} )
+     #{ \xPageBreak #} )
 
 performanceNotes =
 \markup {

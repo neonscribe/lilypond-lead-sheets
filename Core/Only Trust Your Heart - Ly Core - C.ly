@@ -96,7 +96,7 @@ refrainMelody = \relative c'' {
   } \volta 2 {
   e4 f4 g2~ | g2 r4 c,4 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup { \bold \box "B" }
@@ -105,7 +105,7 @@ refrainMelody = \relative c'' {
   a'1~ | a2 c4 a4 | f1~ | f2 a4 f4 |
   \break
   d2 d'4 df4 | c2. b4 | e,2 c'4 b4 | bf1 |
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup { \bold \box "A3" }
@@ -115,7 +115,7 @@ refrainMelody = \relative c'' {
   f,4 g4 a4 g4 | b2~ b8 a8 g8 f8 | 
   e1~ | e2. a,4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   d4 e4 f2~ | f1 | e4 f4 g2~ | g1 |

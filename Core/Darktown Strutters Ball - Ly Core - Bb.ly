@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \tempo "Medium-Fast Swing" 4 = 165
   
   \partial 4 d8 c8 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A" }
   
@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \break
   r4 f4 g4 a4 | bf8 a4 g8~ g8 f8 g8 a8 | bf4 g4 bf4 g4 | bf4 a4 g8 f4 d8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }

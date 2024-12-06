@@ -18,28 +18,15 @@ refrainLyrics = \lyricmode {
 refrainChords = \chordmode {
   s2
   
-  c1:6 c2:6 cs2:dim7 d1:m7 d1:m7
-  g1:9 g1:9 c1:6 c1:6
-  a1:m7 a1:m7 d1:m7 d1:m7
-  d1:m7/g d1:m7/g
+  c1:6 c1:6 d1:m7 d1:m7
+  g1:9 g1:9 c1:6 c2:6 c2
+  a1:m a2:m a2:m7 d1:m7 d1:m7
+  f1:6/g f2.:6/g g4:7 c1:6 c2:6 g2:9
   
-  c1:6 c2:6 g2:9
-
-  c1:6 c2:6 g2:9
-
-  c1:6 c2:6 cs2:dim7 d1:m7 d1:m7
-  g1:9 g1:9 c1:6 c1:6
-  a1:m7 a1:m7 d1:m7 d1:m7
-  d1:m7/g d1:m7/g
-  
-  c1:6 c2:6 cs2:dim7 d1:m7 d1:m7
-  g1:9 g1:9 c1:6 c1:6
-  a1:m7 a1:m7 d1:m7 d1:m7
-  d1:m7/g d1:m7/g
-
-  c1:6 c2:6 g2:9
-
-  c1:6 c1:6
+  c1:6 c1:6 d1:m7 d1:m7
+  g1:9 g1:9 c1:6 c2:6 c2
+  a1:m a2:m a2:m7 d1:m7 d1:m7
+  f1:6/g f2.:6/g g4:7 c1:6 c2:6 g2:9
 }
 
 refrainKey = c
@@ -55,30 +42,21 @@ refrainMelody = \relative f' {
   a2 a2~ | a2 e4. g8 | a2 a2~ | a2 d,4. f8 |
   a2 a2~ | a2 d,4. f8 | a1~ | a2 g4. b8 |
   
+  \break
+
   d2 c2~ | c2 b4. a8 | c2  d,2~ | d2 e4. f8 |
-  c'2 d,2~ | d2 c'4 b4 |
+  c'2 d,2~ | d2 c'4 b4 | a1~ | a2 e4. g8 |
   
-  a1~ | a2 e4. g8 |
+  \break
+  \bar "$"
+
+  a2 a2~ | a2 e4. g8 | a2 a2~ | a2 d,4. f8 |
+  a2 a2~ | a2 d,4. f8 | a1~ | a2 g4. b8 |
   
-  a1~ | a2 e4. g8 |
-  
-  
-  
-  
-  \bar "||"
   \break
 
-  \xTextMark \markup{ \bold \box "B" }
-  
-  \bar "||"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
-  
-  \bar "||"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  d2 c2~ | c2 b4. a8 | c2  d,2~ | d2 e4. f8 |
+  c'2 d,2~ | d2 c'4 b4 | a1~ | a2 e4. g8 |
 
   \bar "|."
 }

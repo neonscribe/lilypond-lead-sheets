@@ -101,14 +101,14 @@ refrainMelody = \relative f'' {
   \tempo "Medium Ballad" 4 = 110
   
   \partial 2 e4 c4 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
   e1~ | e4 d8 c8 d8 e8 c4 | a2 e2~ | e4 r4 e'4 c4 |
   d8 d4.~ d2 | r4 c8 a8 c8 a8 c4 | b1~ | b2 r8 e4 c8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B1" }
@@ -116,7 +116,7 @@ refrainMelody = \relative f'' {
   e8 e4 e8~ e2 | r4 d8 c8 d8 e8 c4 | a2 e2~ | e2 r4 e4 |
   g4 e8 g8 a4 c4 | e8( d4.) c2 | a1~ | a4 r4 \tuplet 3/2 { e'4 e4 c4 } |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -124,7 +124,7 @@ refrainMelody = \relative f'' {
   e4 e2. | r8 e8 d8 c8 d8( e8) c4 | a2 e2~ | e4 r4 e'4 c4 |
   d8 d4 d8~ d2 | r4 c8 a8 c8( a8) c4 | b1~ | b2 r8 e8 e8 c8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B2" }

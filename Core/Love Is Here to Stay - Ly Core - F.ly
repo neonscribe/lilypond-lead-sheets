@@ -43,7 +43,7 @@ verseMelody = \relative g' {
   \xTextMark \markup{ "Verse" }
   
   \partial 4 a4 |
-  \bar "||"
+  \bar "$"
   
   c4 c4 a4 d,4 | e4 e2 a4 | c4 c4 a4 d,4 | e2. a4 |
   \break
@@ -56,7 +56,7 @@ verseMelody = \relative g' {
   \partial 4 a4
 
   \bar "||"
-  \pageBreak
+  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -107,7 +107,7 @@ refrainMelody = \relative g {
 
   \partial 2. c4 d4 a'4 |
   
-  \bar "||"
+  \bar "$"
   
   f1 | f8 g4 f8 g4 g4 | f1 | r4 c4 d4 c'4 |
   \break
@@ -117,7 +117,7 @@ refrainMelody = \relative g {
   \break
   f4 g4 e4 f4 | r8 g4 a8 fs4 g4 | d'1 | r4 c,4 d4 a'4 |
 
-  \bar "||"
+  \bar "$"
   \break  
   \xTextMark \markup{ \bold \box "B" }
 

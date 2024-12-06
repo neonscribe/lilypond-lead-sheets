@@ -49,7 +49,8 @@ verseMelody = \relative g' {
   g4 g4 g4 g4 | d'4 e4 d2\fermata | r4 ef,4 \tuplet 3/2 { ef4 ef4 ef4 } | g1 |
 
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 }
 
 refrainLyricsOne = \lyricmode {
@@ -145,7 +146,7 @@ refrainMelody = \relative g' {
   g'2~ g8 b8 c8 b8 | fs8 b8 c8 b8 b,8 fs'8 g8 fs8 | g2~ g8 g8 a8 g8 | b8 g8 a8 g8 b8 g8 a4 |
   g1 | r8 g8 a8 g8 a8 g8 a8 g8 |
 
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "A3" }
 

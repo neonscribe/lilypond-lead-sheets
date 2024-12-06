@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   \break
   a2 bf,2~ | bf2 \tuplet 3/2 { g'4 f4 e4 } | d1~ | d2 r4 c'4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \break
   b4. cs8 cs2 | d2. e4 | e1~ | e2 r4 e4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   \break
   ef4. ef8 ef2~ | ef4. d8 c4 bf8 a8 | g1~ | g2 r4 c4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

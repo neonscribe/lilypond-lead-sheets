@@ -25,7 +25,7 @@ peggyLeeIntroMelody = \relative f'' {
   ef2 ef4. ef8~ | ef4 ef4. ef8 c4 | ef2 ef4. ef8~ | ef4 ef4. ef8 c4 |
   ef2 ef4. ef8~ | ef4 bf'8 af8 g8 ef8 c4 | ef8 ef4. ef4 ef8 g8~ | g4 r4
   
-  \bar "||"
+  \bar "$"
 }
 
 refrainLyrics = \lyricmode {
@@ -135,7 +135,7 @@ refrainMelody = \relative f' {
   \tempo "Fast Swing" 4 = 200
   
   \partial 2 c4 d4 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -144,7 +144,7 @@ refrainMelody = \relative f' {
   d2 c2~ | c4 d,4 cs4 d4 | r4 c'2 b4 | bf2 c,4 d4 |
   ef2 g2~ | g2. f4 | d1 | r2 c4 d4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -154,7 +154,7 @@ refrainMelody = \relative f' {
   d2 c2~ | c4 d,4 cs4 d4 |  r4 c'2 b4 | bf2 c,4 d4 |
   ef2 g2~ | g2. f4 | ef1~ | ef2 r4 ef4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -165,7 +165,8 @@ refrainMelody = \relative f' {
   af2 af8 af4 af8 | af4 bf2 af4 | g1 | r2 c,4 d4 |
   
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "A3" }
 

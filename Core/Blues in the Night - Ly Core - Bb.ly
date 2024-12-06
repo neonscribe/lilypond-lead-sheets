@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Blues" 4 = 142
 
   \partial 8 f8 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -111,7 +111,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { df'8 c8 df8 } bf8 bf8 \tuplet 3/2 { af8 g8 af8 } f8 f8 |
   a8( bf4.~ bf4~ \tuplet 3/2 { bf8) g8 f8 } | bf,1 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -127,7 +127,8 @@ refrainMelody = \relative f' {
   a8( bf4.~ bf4~ \tuplet 3/2 { bf8) g8 f8 } | bf,2~ bf8 f'8 g8 bf8 |
   
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "C1" }
   
@@ -135,7 +136,7 @@ refrainMelody = \relative f' {
   \break
   af4. g8 af4. g8 | c2~ c8 bf8 c8 c8~ | c1~ | c2 r2 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C2" }
@@ -145,7 +146,7 @@ refrainMelody = \relative f' {
   af4. g8 af4. g8 | c2~ c8 bf8 c8 d8~ | d1~ | d2. \tuplet 3/2 { r8 f,8 bf8 } |
   af2.~ \tuplet 3/2 { af8 g8 ef'8 } | df2~ df4. f,8 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }

@@ -46,7 +46,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Bossa" 4 = 126
 
   \partial 8 r8 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "Intro" }
   
@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   <g ef>2\repeatTie r8 <ef c>8-. <ef c>8-. <ef c>8-. |
   } }
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }

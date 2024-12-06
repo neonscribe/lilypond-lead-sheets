@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
     g8 g8 f4 ef4 f4 | ef4
 
   bf'8 bf8 g4 ef4 |
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Refrain" }

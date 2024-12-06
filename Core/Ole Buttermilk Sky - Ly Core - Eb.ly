@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \tempo "Hollywood Cowboy Swing" 4 = 168
 
   \partial 2. bf,4 c8 ef8 f4 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \break
   ef4 ef4 ef2~ | ef4 bf8 bf8 c8 ef8 f4 | f8 ef8 c4 ef2~ | ef4 bf'4 c8 bf8 c4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \break
   g4 f4 f2 | g8 bf8 af8 g8 ef8 f4 ef8~ | ef1~ | ef8 ef8 ef8 bf8 ef8 f8 g4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -90,7 +90,8 @@ refrainMelody = \relative f' {
   af4 ef4 r8 af4. | bf4 ef,2 r8 bf8 | g'8 g8 g8 g8 f8 ef4 f8~ | f8 r8 bf,4 c8 ef8 f4 |
   
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -98,7 +99,7 @@ refrainMelody = \relative f' {
   \break
   ef4 ef4 ef2~ | ef4 bf8 bf8 c8 ef8 f4 | f8( ef8) c4 ef2~ | ef4 bf'4 c8 bf8 c4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -107,7 +108,7 @@ refrainMelody = \relative f' {
   \break
   g4 f4 f2 | g8 bf8 af8 g8 ef8 f4 ef8~ | ef1~ | ef4 bf'4 c8 bf8 c4 |
 
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "C" }
   

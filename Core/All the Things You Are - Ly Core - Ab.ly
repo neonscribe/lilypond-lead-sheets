@@ -47,7 +47,7 @@ verseMelody = \relative f' {
   d,8 d8 d4 g4 a4 | b4 c8 b8 a4 g4 | b,8 b8 b4 fs'4 g4 | a4 b8 a8 g4 fs4 |
   d8 d8 d4 g4 d4 | d8 d8 d4 a'4 d,4 | g1 | r4 e4 f4 g4 |
   
-  \bar "||"
+  \bar "$"
 
   \key \refrainKey \major
 }
@@ -121,7 +121,7 @@ outroMelody = \relative f' {
 
   \bar "|."
   
-  \pageBreak
+  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -186,7 +186,7 @@ refrainMelody = \relative f' {
   \break
   f4 f4 f4 f4 | f4 b2 f4 | e1~ | e1 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -195,7 +195,7 @@ refrainMelody = \relative f' {
   \break
   c4 c4 c4 c4 | c4 d8 ef8 d4 c4 | b1~ | b4 d4 g4 d'4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -204,7 +204,7 @@ refrainMelody = \relative f' {
   \break
   b4. a8 a2~ | a4 bf,4 b4 a'4 | gs1~ | gs1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

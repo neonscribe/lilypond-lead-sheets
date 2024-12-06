@@ -44,7 +44,7 @@ refrainMelody = \relative f' {
   \break
   f8 fs4 b8~ b4 a4 | g2. \tuplet 3/2 { e8 fs8 g8 } | a4 e4 a8 a4 a8~ | a1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }

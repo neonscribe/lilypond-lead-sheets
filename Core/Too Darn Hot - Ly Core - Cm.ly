@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   c2 bf2 | g4 r4 r4 g4 | 
   c2 bf2 | g4 r4 r4 g4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   \break
   c4 d8 ef8~ ef4 r4 | r4 ef8 d8 ef8 d8 c8 d8~ | d8 r8 r4 r2 | r2 r4 g,4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }
@@ -107,7 +107,7 @@ refrainMelody = \relative f' {
   g4 a8 bf8~ bf8 bf4 g8 | bf8 a8 g8 a8~ a8 g4 f8 | ef2 d2 |
   c4 r4 r4 g'4 |
   }
-  \pageBreak
+  \xPageBreak
 
   \override Score.Clef.break-visibility = #begin-of-line-visible
   \override Score.KeySignature.break-visibility = #begin-of-line-visible

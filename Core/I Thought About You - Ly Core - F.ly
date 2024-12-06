@@ -38,7 +38,7 @@ verseMelody = \relative g'' {
   d8 c8 a8 f2 f8 | e8 fs8 a8 cs4. d4 |
   e8 e8 e8 cs8~ cs2 | c8 c8 c8 a8~ a2 |
 
-  \bar "||"
+  \bar "$"
 }
 
 refrainLyrics = \lyricmode {
@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
   r8 f8 a8 c8 e8 ef8 d8 a8~ | a2 bf4 a4 | a8 f8 f8 f8~ f2~ | f2. r4 |
   r8 d8 f8 a8 c8 b8 bf8 a8~ | a2 g4 a4 | g8 gf8 f8 f8~ f2~ | f2. r4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -101,14 +101,15 @@ refrainMelody = \relative f' {
   e8 f8 e8 c4. b4 | e8 f8 e8 c4. b4 | a4 c8 c8~ c2 | g4 a8 a8~ a2 |
   
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "A2" }
 
   r8 f8 a8 c8 e8 ef8 d8 a8~ | a2 bf4 a4 | a8 f8 f8 f8~ f2~ | f2. r4 |
   r8 d8 f8 a8 c8 b8 bf8 a8~ | a2 g4 a4 | g8 gf8 f8 f8~ f2~ | f2. r8 f8 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

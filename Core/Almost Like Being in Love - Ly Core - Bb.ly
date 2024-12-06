@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   \break
   bf2 a4 bf4 | c4 g2 c4 | d1~ | d4 d4 d4 d4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }
@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
   \break
   r4 bf4 g4 a4 | bf4 g2 a4 | bf1~ | bf4 r4 bf4 c4 |
 
-  \bar "|."
+  \bar "||-|."
 
   \textCodaBreak
   

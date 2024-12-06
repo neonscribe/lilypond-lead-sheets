@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
       }
     >>
   \oneVoice
-  \bar "||"
+  \bar "$"
   \break
 
 
@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
   \break
   c8 a8 a8 a8~ a8 c8 c8 c8~ | c8 a8 a8 a8~ a8 c8 a4 | d4. g,8~ g2~ | g2 r8 a4 g8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   \break
   f8 f8 f4 f4 f8 d'8~ | d2 r8 c8 d8 e8~ | e8 cs8 d8 e8~ e8 cs8 d8 e8~ | e2 a,4 a4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   \break
   c8 a8 a8 a8~ a8 c8 c8 c8~ | c8 a8 a8 a8~ a8 c8 a4 | d4. g,8~ g2~ | g2 r8 a4 g8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

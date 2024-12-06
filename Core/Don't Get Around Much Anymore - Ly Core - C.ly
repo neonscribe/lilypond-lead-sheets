@@ -77,7 +77,7 @@ refrainMelody = \relative c' {
   \tempo "Medium Swing" 4 = 115
 
   r8 e4 d8 c8 g8 f8 e8~ |
-  \bar "||"
+  \bar "$"
   \xTextMark \markup{ \bold \box A1 }
   <<
     \new Voice
@@ -108,7 +108,7 @@ refrainMelody = \relative c' {
   c4. a8~ a2 |
   r8 e8 f fs g c, ds e | c1 |
   r8 e'4 d8 c g f e~ |
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box A2 }
   <<
@@ -140,14 +140,14 @@ refrainMelody = \relative c' {
   c4. a8~ a2 |
   r8 e8 f fs g c, ds e | c1~ | c2. r4
 
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box B }
 
   d'2 c8 a4 c8~ | c2. c4 | d2 c8 g4 e8~ | e2. c'4 |
   d2 c8 a4 c8~ | c1 | r8 b8 b b b a4 g8~ | g8 e'4 d8 c g f e~
 
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box C }
 
@@ -184,7 +184,7 @@ refrainMelody = \relative c' {
   c1 |
   r1 |
   \bar "|."
-  \pageBreak
+  \xPageBreak
 }
 
 codaLyrics = \lyricmode {
@@ -248,19 +248,19 @@ soloMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "A2" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "B" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "C" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 

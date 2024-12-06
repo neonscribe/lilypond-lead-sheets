@@ -95,7 +95,7 @@ refrainMelody = \relative f' {
   } }
     
   bf2. r8 bf8 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "B" }
   
@@ -105,7 +105,7 @@ refrainMelody = \relative f' {
   \dalSegno
   g8 |
   
-  \bar "||"
+  \bar "$"
 
   \textCodaBreak
 

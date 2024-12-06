@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   e4 b'4 a4 | e4 fs4 d4 | d4 a'4 g4 | c,2. |
   b4 c4 d4 | e4 fs4 g4 | a4 as4 b4 | c2. |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Minor B" }
@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   r4 b4 b4 | b2 e,4 | r4 a4 a4 | a2 ds,4 | 
   r4 g4 g4 | g2 b,4 | e2.~ | e2 e4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Major C" }

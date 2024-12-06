@@ -18,13 +18,13 @@ refrainLyrics = \lyricmode {
 refrainKey = c
 
 refrainChordsInC = \chordmode {
-  \bar "||-||"
+  \bar "$"
   c1:7 f1:7 c1:7 g2:m7 c2:7
 
-  \bar "||-||"
+  \bar "$"
   f1:7 fs1:dim7 c1:7 e2:m7 a2:7
 
-  \bar "||-||"
+  \bar "$"
   d1:m7 g1:7 c1:7
   bf2:m7
   ef2:7
@@ -33,10 +33,10 @@ refrainChordsInC = \chordmode {
 refrainChordsInCNoTurn = \chordmode {
   c1:7 f1:7 c1:7 g2:m7 c2:7
 
-  \bar "||-||"
+  \bar "$"
   f1:7 fs1:dim7 c1:7 e2:m7 a2:7
 
-  \bar "||-||"
+  \bar "$"
   d1:m7 g1:7 c1:7 c1:7
   \bar "|."
 }
@@ -87,7 +87,8 @@ refrainChords = \chordmode {
   \transpose c df {
     \refrainChordsInC
   }
-  \pageBreak
+
+  \xPageBreak
 
   \set Score.currentBarNumber = #1
   \xTextMark \markup { \hspace #10 \bold \box "Blues in Gb" }

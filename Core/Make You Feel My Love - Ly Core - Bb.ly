@@ -95,7 +95,7 @@ refrainMelody = \relative f' {
     \break
     r8 bf'8 bf8 bf8 c8 bf8 a8 g8 | f8 bf,4 bf8~ bf2 |
     d8 d8 d8 d8 d8 c8 bf8 c8 | c1 |
-    \bar "||"
+    \bar "$"
     \break
    \sect "Verse"
    r4 f8 f8 f8 f8 ef8 d8 | f8 bf,4 bf8~ bf2 |
@@ -119,7 +119,7 @@ refrainMelody = \relative f' {
   }
 
   \bar "|."
-  \pageBreak
+  \xPageBreak
 }
 
 \include "../Include/paper.ily"

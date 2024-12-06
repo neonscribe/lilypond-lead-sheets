@@ -42,7 +42,7 @@ refrainMelody = \relative f' {
   \tempo "Fast Bop" 4 = 234
 
   \partial 8 d8 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   c8 a4 f8 bf8 gs8 a8 f8 | r2 r4 r8 af8~ |
   af4 g8 f8 e8 g8 f8 c8 | f4 ef8 d8 r4 r8 df'8~ |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   d8 r8 r8 b8~ b8 a4 g8 | gs8 b8 d8 f8~ f4 e8 c8~ |
   c8 r8 r8 a8~ a8 g4 f8 | fs8 a8 c8 ef8~ ef4 d8 d,8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   c8 a4 f8 bf8 gs8 a8 f8 | r2 r4 r8 af8~ |
   af4 g8 f8 e8 g8 f8 c8 | f4 ef8 d8 r4 r8 df'8~ |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

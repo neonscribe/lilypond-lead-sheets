@@ -35,7 +35,7 @@ introMelody = \relative g' {
   fs'4. d4. b4~ | b8 d4. e4 g4 |
   f4. d4. bf4~ | bf8 a4. bf4 c4 |
 
-  \bar "||"
+  \bar "$"
 }
 
 outroLyrics = \lyricmode {
@@ -127,16 +127,24 @@ refrainMelody = \relative g' {
 
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
+
+  \bar "$"
   \break
+
   \xTextMark \markup { \bold \box "B" }
   c8 c8 c8 c8 c8 b8 c8 d8~ | d4. d8~ d2 | b4. b8 b4 b8 c8~ | c2. r4 |
   r8 a8 a8 a8 a8 gs8 a8 b8~ | b4. a8 \tuplet 3/2 { a4 b4 c4 } | d2. f4 | d2. r4 |
-  \break
-  \pageBreak
+
+  \bar "||"
+  \xPageBreak
+
   \xTextMark \markup { \bold \box "A2" }
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
+
+  \bar "$"
   \break
+  
   \xTextMark \markup { \bold \box "C" }
   c8 c8 c8 c4 b8 c8 d8~ | d4. d8~ d2 | b4. b8 b4 b8 c8~ | c2 e8 fs8 g8 a8~ |
   a2. r4 | r8 g4 fs8 e4 fs4 | g1~ | g1 |

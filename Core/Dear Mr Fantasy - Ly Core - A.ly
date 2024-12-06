@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq e,16 fs16 a16 c16~ c16 a16 c8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{  \musicglyph #"scripts.segno" \bold \box "Verse 1" }
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   d8 cs16 d16~ d8 e8~( e16 d16 cs8) d8 cs16 d16~ |
   \break
   d4 d8 cs16 d16~ d4 cs16 d8 e16~ | e8 e8~( e16 d16 cs8) r2 |
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Verse 2" }
@@ -94,7 +94,8 @@ refrainMelody = \relative f' {
   c16 d8. d8. d16~ d8 c8 e8 e8 | d16( cs16 a4.) r2 \textToCoda |
   
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "Bridge" }
   
@@ -105,7 +106,7 @@ refrainMelody = \relative f' {
   fs1 | <g \tweak font-size #-2 b \tweak font-size #-2 d,>1 |
   <gs \tweak font-size #-2 b \tweak font-size #-2 e,>1 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Verse 3" }

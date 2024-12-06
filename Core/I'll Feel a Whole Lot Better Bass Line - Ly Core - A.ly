@@ -90,7 +90,7 @@ refrainMelody = \relative g {
       a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |
     }
   }
-  \bar "||"
+  \bar "$"
 
   \break
   \xTextMark \markup { "Solo" }
@@ -111,7 +111,7 @@ refrainMelody = \relative g {
   a4 a4 e8 fs8 gs8 a8~ | a4 a4 e8 e8 gs8
   \dalSegno
   e8 |
-  \bar "||"
+  \bar "$"
   
   \textCodaBreak
 

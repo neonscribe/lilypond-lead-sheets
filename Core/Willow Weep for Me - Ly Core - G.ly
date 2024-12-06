@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   } {
   d1\repeatTie |
   } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
   g8 c8 \tuplet 3/2 { d8 c8 ef8~ } ef4. c8 | bf8 g8 \tuplet 3/2 { bf8 g8 b8~ } b4. g8 |
   c8 c8 d8 c8 bf8 c4 bf8 | af8 bf8 \tuplet 3/2 { c8 ef8 d8~ } d4 d4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }

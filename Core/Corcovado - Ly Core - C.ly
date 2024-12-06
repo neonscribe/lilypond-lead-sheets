@@ -134,9 +134,9 @@ refrainMelody = \relative f' {
 	b2. d4 |
 
 	\bar "||"
-	\pageBreak
-	\override Score.Clef.break-visibility = #begin-of-line-visible
-	\override Score.KeySignature.break-visibility = #begin-of-line-visible
+
+	\xPageBreak
+
 	\set Score.currentBarNumber = #1
   
 	\bar ".|:-||"
@@ -166,7 +166,7 @@ refrainMelody = \relative f' {
   r8 e4 d8 e8 d4 e8~ | e8 d4 e4 d8 f4~ |
   f8 e4 f8 e4 f4~ | f8 e4 d4 c4. |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }

@@ -105,7 +105,7 @@ refrainMelody = \relative f' {
   cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 | cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 |
   cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 | cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A1" }
@@ -118,7 +118,7 @@ refrainMelody = \relative f' {
   r2 |
   \time 4/4
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -131,7 +131,7 @@ refrainMelody = \relative f' {
   r2 |
   \time 4/4
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -141,7 +141,8 @@ refrainMelody = \relative f' {
   r4 ds4 cs2 | r8 cs8 cs8 cs8 ds8( cs8) cs4 | ds4.( cs8) cs4. cs8 | e8 e8 e8 e8 ds8 cs8 b8( cs8) |
 
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "Chorus" }
 
@@ -163,7 +164,7 @@ refrainMelody = \relative f' {
   \break
   cs4 cs8 b8~ b4 e8 cs8~ | cs4 cs8 b8~ b4 e8 cs8~ | cs4 cs8 b8~ b4 e8 cs8 | e8 e8 cs8 a8 b8 a8 b8( a8) \dalSegno |
   } } }
-  \bar "||"
+  \bar "$"
 
   \textCodaBreak
 

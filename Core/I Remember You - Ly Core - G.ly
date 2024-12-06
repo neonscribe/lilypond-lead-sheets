@@ -29,7 +29,7 @@ verseMelody = \relative g' {
   \key \verseKey \major
   \clef \whatClef
 
-  \xTextMark \markup{ "Verse" }
+  \xTextMark \markup{ \bold \box "Verse" }
 
   a4 a2 g8 a8 | 
   b4 b2. | a4 a2 g8 e8 | fs1 |
@@ -37,7 +37,8 @@ verseMelody = \relative g' {
   e4 fs8 g8 a4 b8 c8 | d8. d16 d2. |
   \break
   r4 c8 b8 a4 e8 g8 | b2. fs4 | g1~ | g2. r4
-  \bar "||"
+  \bar "$"
+  \pageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -56,14 +57,14 @@ refrainBopChords = \chordmode {
   g1:maj7 cs2:m11 fs:7 g1:maj7 d2:m7 g2:7
   c1:maj7 f1:7
   b2:m7 e2:7 a2:m7 d:7
-  %%
+
   g1:maj7 cs2:m11 fs:7 g1:maj7 d2:m7 g2:7
   c1:maj7 f1:7
   g1:maj7 d2:m7 g:7
-  %%
+
   c1:maj7 fs2:m7 b:7 e1:maj7 fs2:m7 b:7
   e1:maj7 e2:m7 a:7 d1:maj7 a2:m7 d:7
-  %%
+
   g1:maj7 cs2:m11 fs2:7 g1:maj7 b2:m7.5- e:7
   a1:m7 c2:m7 f:7 b1:m7 cs2:m7.5- c2:dim7
   b2:m7 e2:m7 a2:m7 d2:7 g2:maj7
@@ -108,26 +109,26 @@ refrainMelody = \relative g' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \xTextMark \markup{ "Refrain" \bold \box "A1" }
+  \xTextMark \markup{ \bold \box "Refrain" \bold \box "A1" }
   \set Score.currentBarNumber = #1
   \tempo "Medium" 4 = 125
 
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
   \break
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "A2" }
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
   \break
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "B" }
   b' c g a | b4. b8 b4 a | gs1 | r4 b b a |
   \break
   gs2. e4 | g2 \tuplet 3/2 { g4 a g } | fs1~ | fs2. r4
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "A3" }
   fs4 g d e | fs1 | fs4 g fs g | d' d d4. df8 |
@@ -154,6 +155,6 @@ refrainMelody = \relative g' {
 
 \include "../Include/verse.ily"
 
-\pageBreak
+\xPageBreak
 
 \include "../Include/refrain.ily"

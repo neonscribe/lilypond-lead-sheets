@@ -34,7 +34,7 @@ refrainMelody = \relative f' {
   \tempo "Medium" 4 = 140
 
   \partial 8 f8 |
-  \bar "||"
+  \bar "$"
   
   \bar ".|:"
   \repeat volta 2 {

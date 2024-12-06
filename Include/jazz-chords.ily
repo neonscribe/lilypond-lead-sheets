@@ -23,7 +23,8 @@ jcSharp = \markup{ \hspace #0.2 \raise #0.7 { \smaller \sharp } }
 
 % define your prefererred mode markers here
 jcMajor = \markup{ \jcSmall{ "MA" } }
-jcDiminished = \markup{ \jcRaise{ "o7" } }
+jcDiminished = \markup{ \jcRaise{ "o" } }
+jcDiminishedSeventh = \markup{ \jcRaise{ "o7" } }
 jcMinor = \markup{ \jcSmall{ "MI" } }
 jcMinorSeventh = \markup{ \jcMinor \jcRaise{ "7" } }
 jcMajorSeventh = \markup{ \jcMajor \jcRaise{ "7" } }
@@ -37,6 +38,7 @@ jcMinorSixth = \markup{ \jcMinor \jcRaise{ "6" } }
 jcMinorFlatSixth = \markup{ \jcMinor \jcRaise{ \jcFlat "6" } }
 jcNinth = \markup{ \jcRaise{ "9" } }
 jcMajorNinth = \markup{ \jcMajor \jcRaise{ "9" } }
+jcMinorNinth = \markup{ \jcMinor \jcRaise{ "9" } }
 jcFlatFive = \markup{ \jcRaise{ "(" \jcFlat "5)" } }
 jcSharpFive = \markup{ \jcRaise{ "(" \jcSharp "5)" } }
 jcFlatNinth = \markup{ \jcRaise{ "(" \jcFlat "9)" } }
@@ -70,7 +72,7 @@ jazzChordsMusic =
 	<c ees g>-\markup{ \jcMinor }
 	<c ees gis>-\markup{ \jcMinor \jcAugmented }
 
-	<c ees ges>-\markup{ \jcMinor \jcFlatFive }
+	<c ees ges>-\markup{ \jcDiminished }
 	<c d g>-\markup{ \jcSusTwo }
 	<c f g>-\markup{ \jcSus }
 
@@ -108,14 +110,14 @@ jazzChordsMusic =
 	
 	<c ees ges bes>-\markup{ \jcMinorSeventh \jcFlatFive }
 	<c ees gis bes>-\markup{ \jcMinorSeventh \jcSharpFive }
-	<c ees ges beses>-\markup{ \jcDiminished }
+	<c ees ges beses>-\markup{ \jcDiminishedSeventh }
 
 	% suspended
 	<c f g bes>-\markup{ \jcSeventh \jcSus }
 	<c d g bes>-\markup{ \jcSeventh \jcSusTwo }
 	<c f g bes des'>-\markup{ \jcSeventh \jcSus \jcFlatNinth }
-
-
+	<c f g bes d'>-\markup{ \jcNinth \jcSus }
+	<c f g bes d' a'>-\markup{ \jcThirteenth \jcSus }
 
 	% Ninths (including altered--incomplete)
 
@@ -215,7 +217,8 @@ jazzChordsMusic =
 
 	     
 	% minor
-	<c ees g bes d'>-\markup{ \jcMinor \jcNinth }
+	<c ees g bes d'>-\markup{ \jcMinorNinth }
+	<c ees ges bes d'>-\markup{ \jcMinorNinth \jcFlatFive}
 	<c ees g bes des'>-\markup{ \jcMinor \jcFlatNinth }
 	<c ees g b d'>-\markup{ \jcMinorMajorNinth }
 	
@@ -315,10 +318,10 @@ jazzChordsMusic =
 
 
 	% diminished flat 13
-	<c ees ges aes'>-\markup{ \jcDiminished \jcFlatThirteenth }
+	<c ees ges aes'>-\markup{ \jcDiminishedSeventh \jcFlatThirteenth }
 
 	% diminished seventh flat 13
-	<c ees ges beses aes'>-\markup{ \jcDiminished \jcFlatThirteenth }
+	<c ees ges beses aes'>-\markup{ \jcDiminishedSeventh \jcFlatThirteenth }
 
 	% sevenths with sharp five and flat five won't be found, b13 and #11 match first!
 	<c e ges bes>-\markup{ \jcSeventh \jcFlatFive }

@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Swing" 4 = 160
 
   \partial 4. c8 f8 c'8~ |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   c'8 f,4. f4. f8~ | f8 c8 f8 bf8 \tuplet 3/2 { a16 bf16 a16 } f8 d8 c8 |
   f8 c8 g'8 f8 r2 | r8 bf8 af8 gf8 f8 df8 gf8 df'8~ |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   df'8 gf,4. gf4. gf8~ | gf8 df8 gf8 cf8 bf8 gf8 \tuplet 3/2 { ef16 f16 ef16 } df8 |
   gf8 df8 af'8 gf8 r2 | r8 b8 a8 e8 g8 f8 \tuplet 3/2 { fs8 a8 ef'8 } |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
   bf4 \tuplet 3/2 { g8 f8 ef8 } f4 g8 af8 | r8 bf8 cf8 df8 bf8 af8 g8 af8 |
   df4 \tuplet 3/2 { bf8 af8 gf8 } af4 bf4-. | r8 a8 g8 f8 e8 c8 f8 c'8~ |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }
@@ -104,29 +104,30 @@ refrainMelody = \relative f' {
   f8 c8 g'8 f8 r2 | r1 |
 
   \bar "|."
-  \pageBreak
+
+  \xPageBreak
   
   \xTextMark \markup{ \bold \box "Solos" }
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \bar "||"
+  \bar "$"
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \bar "||"
+  \bar "$"
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \bar "||"
+  \bar "$"
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \bar "||"
+  \bar "$"
 
   \bar "|."  
 }

@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   \break
   df4. df,8 ef8 f8 gf8 af8 | bf2.. bf8 | af8 af4. bf4 af4 | f1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

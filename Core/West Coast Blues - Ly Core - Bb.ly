@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   ef'8 f8 ef8 df8 r8 e,8 | f8 af8 c8 bf8 g8 e8 | d'4 d4 bf8 f8 | af4 bf4 \tuplet 3/2 { f8 g8 bf8 } |
   d4 d4 bf8 f8 | af4 bf4 r4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Solos" }

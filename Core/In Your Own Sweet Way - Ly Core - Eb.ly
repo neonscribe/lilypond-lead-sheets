@@ -15,11 +15,11 @@
 refrainLyrics = \lyricmode {
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   s4
   
   a2:m11.5- d2:7.5-.9- g2:m7 c2:9 c2:m9 f2:13 bf2:6 ef2:maj7
-  af2:m7 df2:7 gf4.:maj7 cf8*5:maj9 c2:m7.5+ f2:13.9-
+  af2:m7 df2:7 gf2:maj7 cf2:maj9 c2:m7.5+ f2:13.9-
   
   bf1:6.9
 
@@ -31,6 +31,25 @@ refrainChords = \chordmode {
   a2:m11.5- d2:7.5-.9- g2:m7 c4:9 c4:7.9- c1:m11 gf4/f ef8:sus13 bf8*5:6.9
   af2:m7 df2:7 gf4.:maj7 cf8*5:maj9 c2:m7.5+ f2:13.9- bf1:1.3.5.9/f
 }
+
+refrainNRChords = \chordmode {
+  \chordInsideParens{ ef4:6 }
+  
+  a2:m7 d2:7 g2:m7 c2:7 c2:m7 f2:7 bf2:7 ef2:maj7
+  af2:m7 df2:7 gf2:maj7 cf2:maj7 f2:7.9+ cf2:7
+  
+  bf2:7 ef2:6
+
+  bf2:7 ef2:6
+
+  e2:m7 a2:7 d1:maj7 e2:m7 a2:7 d1:maj7
+  d2:m7 g2:7 e2:m7 a2:7 d2:m7.5- af2:7 g2:7 c2:m7
+  
+  a2:m7 d2:7 g2:m7 c2:7 c2:m7 f2:7 bf2:7 ef2:maj7
+  af2:m7 df2:7 gf2:maj7 cf2:maj7 f2:7.9+ cf2:7 bf1:7
+}
+
+refrainChords = \refrainNRChords
 
 refrainKey = ef
 
@@ -54,7 +73,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   f,4. f8 g8 a8 bf8 c8 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -65,7 +84,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { f4 f,4 c'8 f8 } \tuplet 3/2 { ef4 f,4 bf8 ef8 } |
   \tuplet 3/2 { d4 f,4 af8 d8 } c4 ef8 bf8 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

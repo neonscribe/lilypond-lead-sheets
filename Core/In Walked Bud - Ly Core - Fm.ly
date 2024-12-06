@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r8 af4.~ af2 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -84,7 +84,7 @@ refrainMelody = \relative f' {
   \oneVoice
   
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

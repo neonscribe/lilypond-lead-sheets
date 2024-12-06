@@ -52,6 +52,8 @@ refrainMelody = \relative f' {
 
 \include "../Include/refrain.ily"
 
+\markup "Bottom line is melody"
+
 \markup {
   \column {
     \vspace #1

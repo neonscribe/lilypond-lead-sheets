@@ -101,7 +101,7 @@ refrainMelody = \relative f' {
   f1~ | f2 c8 d8 e8 f8 |
   } }
 
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "B" }
   
@@ -110,7 +110,7 @@ refrainMelody = \relative f' {
   a4. e8 ef2~ | ef2~ ef8 f4 f8 | d'2. d4 | c2. bf4 |
   g1~ | g2~ g8 c,8 f8 g8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

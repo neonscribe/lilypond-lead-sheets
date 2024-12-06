@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \tempo "Ballad" 4 = 100
 
   \partial 2. cs8 d8 a'8 af8 g8 gf8 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A" }
   
@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   e2 ef2 | e4 e8 fs8 g8 a8 \tuplet 3/2 { b8 d8 f8 } | d2 ef2 |
   d4 cs,8 d8 a'8 af8 g8 gf8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }

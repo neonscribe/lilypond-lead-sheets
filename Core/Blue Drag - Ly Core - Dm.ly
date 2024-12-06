@@ -38,7 +38,7 @@ introMelody = \relative f {
 
   d''4 c4 bf4 a4 | d4 c4 bf4 a4 |
 
-  \bar "||"
+  \bar "$"
 }
 
 NotRefrainLyrics = \lyricmode {
@@ -105,7 +105,7 @@ refrainMelody = \relative f'' {
   \break
   g8 g4 a8 f8 f4 g8 | e8 e4 f8 d8 e8 f8 g8 | a4. f8 a2 | r1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

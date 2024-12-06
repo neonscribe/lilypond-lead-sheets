@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   g2. | d'4 c2 | b4. a8 g8 f8 | g2 c,4 |
   \break
   b'4. a8 g8 f8 | g2 c,4 | d2.~ | d2 e4 |
-  \bar "||"
+  \bar "$"
   \break
 
   \alternative { \volta 1 {

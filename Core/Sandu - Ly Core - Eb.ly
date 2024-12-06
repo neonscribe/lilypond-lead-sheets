@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r1^"Solo break" | r1 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Solos" }
@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   
   df,4 bf8 bf8 df8 ef8 r8 <a f,>8~ | <a f,>1\fermata |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

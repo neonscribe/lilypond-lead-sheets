@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
   f1 |
   } }
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -90,7 +90,7 @@ refrainMelody = \relative f' {
   bf4 g8 a8 bf4 g8 a8 | bf4 g8 a8 \tuplet 3/2 { bf4 c4 bf4 } |
   a2 \tuplet 3/2 { a4 g4 f4 } | a1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

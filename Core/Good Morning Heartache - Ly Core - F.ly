@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r8 c8 c8 c8 ef8 c4 e8 | f1 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   r4 g4 \tuplet 3/2 { bf4 g4 bf4 } | g2. r8 g8 |
   gf8 gf4 gf8~ gf8 af8 gf4 | f8 f4 f8~ f8 g8 f4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 120
+  \tempo "Medium Swing" 4 = 160
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   f1 | r4 c4 f4 g4 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \break
   af2 g4 g4~ | g4 d4 e4 f4 | af2 g4 g4~ | g1 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

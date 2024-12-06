@@ -12,7 +12,7 @@
   copyright = "© 1920 Jerome H. Remick & Co."
 }
 
-refrainLyrics = \lyricmode {
+refrainObjectGenderFemaleLyrics = \lyricmode {
   I found my love in A -- va -- lon __
   be -- side __ the bay. __
   I left my love in A -- va -- lon __
@@ -22,6 +22,22 @@ refrainLyrics = \lyricmode {
   and so I think I'll trav -- el on __
   to A -- va -- lon.
 }
+
+refrainObjectGenderMaleLyrics = \lyricmode {
+  I found my love in A -- va -- lon __
+  be -- side __ the bay. __
+  I left my love in A -- va -- lon __
+  and sailed __ a -- way. __
+  I dream of him and A -- va -- lon __
+  from dusk 'til dawn, __
+  and so I think I'll trav -- el on __
+  to A -- va -- lon.
+}
+
+refrainLyrics =
+#(if (and (defined? 'objectGenderMale) objectGenderMale)
+  refrainObjectGenderMaleLyrics
+  refrainObjectGenderFemaleLyrics)
 
 refrainChords = \chordmode {
   s2
@@ -50,7 +66,7 @@ refrainMelody = \relative f' {
   \tempo "Fast Swing" 4 = 220
 
   \partial 2 c2 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -58,7 +74,7 @@ refrainMelody = \relative f' {
   \break
   f1~ | f2 g2 | a1~ | a2 c,2 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -67,7 +83,7 @@ refrainMelody = \relative f' {
   \break
   a'1~ | a2 d,2 | a'1~ | a2 d,2 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -76,7 +92,7 @@ refrainMelody = \relative f' {
   \break
   g1~ | g2 a2 bf1~ | bf2 d,2 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

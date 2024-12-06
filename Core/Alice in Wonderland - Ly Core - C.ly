@@ -14,9 +14,7 @@
 
 refrainLyricsOne = \lyricmode {
 Al -- ice in Won -- der -- land, how do you get to Won -- der -- land?
-O -- ver the hill or un -- der -- land or just be -- hind the tree. __
-
-_
+O -- ver the hill or un -- der -- land or just be -- hind the tree. __ ""
 
 Where do stars go? Where is the cres -- cent moon? __ 
 They must be some -- where in the sun -- ny af -- ter -- noon.
@@ -27,7 +25,7 @@ O -- ver the hill or here or there? I won -- der where. __
 
 refrainLyricsTwo = \lyricmode {
 When clouds go roll -- ing by, they roll a -- way and leave the sky.
-Where is the land be -- yond the eye that peo -- ple can -- not _ see? __
+Where is the land be -- yond the eye that peo -- ple can -- not _ see? __ ""
 }
 
 refrainChords = \chordmode {
@@ -69,7 +67,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   c,2.~ | c2. |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -78,7 +76,7 @@ refrainMelody = \relative f' {
   \break
   fs2. | c'2. | b2 g4 | e2. | a2 g4 | f2 e4 | d2 c4 | b2. |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

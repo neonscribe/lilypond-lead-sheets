@@ -29,7 +29,14 @@ refrainNewRealChords = \chordmode {
   c1.:m11 c1.:m11
 }
 
-refrainChords = \refrainShorterBioChords
+refrainMattRybickiReggieWorkmanChords = \chordmode {
+  c1.:m11 c1.:m11 c1.:m11 c1.:m11
+  f1.:m11 f1.:m11 c1.:m11 c1.:m11
+  fs2.:m9.5- f2.:13.11+ e2.:9.5- a2.:7.13-.9+
+  c1.:m11 c1.:m11
+}
+
+refrainChords = \refrainMattRybickiReggieWorkmanChords
 
 refrainKey = c
 
@@ -49,7 +56,6 @@ refrainMelody = \relative f' {
   <b' fs>4 <b fs>4 <b fs>4 <b f>8 <d a>8~ <d a>4. <g, d>8 |
   <bf f>2.\glissando <g d>4. <c g>8 <g d>8 <gf df>8 |
   <f c>1.~ | <f c>1. |
-  
 
   \bar "|."
 }
@@ -66,8 +72,6 @@ refrainBass = \relative f' {
   \rsq \rsq \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq \rsq \rsq |
   c,4 g'4 c4 ef2~ ef8 g,8 | c,4 g'4 c4 ef2~ ef8 g,8 |
-
-  
 
   \bar "|."
 }

@@ -150,7 +150,7 @@ refrainMelody = \relative g' {
 	}
       >>
      \oneVoice
-      \bar "||"
+      \bar "$"
       \break
      }
   }
@@ -163,8 +163,10 @@ refrainMelody = \relative g' {
   ef2 ef2 | ef2 ef2 | ef4 f4 df4 c4~ | c1 |
     \break
   bf4 c2 af4 | g2 af2 | c1~ | c2. r4 |
+
   \bar "||"
-    \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box C }
 

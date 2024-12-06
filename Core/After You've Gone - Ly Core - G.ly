@@ -96,7 +96,7 @@ refrainMelody = \relative f' {
   c'1 | b1 | a4 ds,4 e4 b'4~ | b2 a2 |
   \break
   r4 as4 b4 g4 | a4 gs4 a4 fs4 | g4 as,4 b4 fs'4~ | fs2 e2 |
-  \bar "||"
+  \bar "$"
 
   \break
   \xTextMark \markup{ \bold \box "D" }

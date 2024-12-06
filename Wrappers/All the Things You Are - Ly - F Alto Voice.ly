@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Helen Forrest Key"
+instrument = "Mildred Bailey, Helen Forrest, Elly Ameling Key"
 whatKey = f
 whatVerseKey = e
 whatClef = "treble"

@@ -94,7 +94,7 @@ refrainMelody = \relative g' {
     r8 d'4. c8 bf8 g8 d8 |
     d'4 g,8 c8~ c2 |
     \break
-    f,8 g4 af4 a4 bf8~ |
+    f,8 g4 af8~ af8 a4 bf8~ |
     bf8 ef4.~ ef4. c8 |
   \break
   }
@@ -106,7 +106,7 @@ refrainMelody = \relative g' {
       \tuplet 3/2 { bf'8 c bf } ef,2.~ | ef4 bf'4 bf4 a4 |
     }
   }
-  \bar "||"
+  \bar "$"
   \break
   \set Score.currentBarNumber = #17
   \xTextMark \markup { \bold \box "B" }
@@ -115,7 +115,7 @@ refrainMelody = \relative g' {
   \break
   ef4 ef4 ef4 ef4 | ef4 df4 gf,4 af4 |
   b1 | c8 fs,4.~ fs2 |
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup { \bold \box "A3" }
   ef8 f8 ef8 ef'8~ ef4. c8 |
@@ -123,7 +123,7 @@ refrainMelody = \relative g' {
   r8 d'4. c8 bf8 g8 d8 |
   d'4 g,8 c8~ c2 |
   \break
-  f,8 g4 af4 a4 bf8~ |
+  f,8 g4 af8~ af8 a4 bf8~ |
   bf8 ef2. 
   c8 |
   \tuplet 3/2 { bf8 c bf } ef,2 f4 | ef1 |

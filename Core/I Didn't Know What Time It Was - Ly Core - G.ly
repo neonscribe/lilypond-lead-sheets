@@ -43,7 +43,7 @@ verseMelody = \relative g' {
   b8 g8 a8 b8 c8 a8 b8 c8 | d8 c8 b8 a8 g4 fs4 | e1 |
   r4 e4 ds4 e4 | a2 a2 | e2 e2 | g1~ | g2 r2 |
 
-  \bar "||"
+  \bar "$"
   \pageBreak
 }
 
@@ -99,7 +99,7 @@ refrainMelody = \relative g' {
   b2~ b8 fs4 g8 | a4 a4 a8 b8 g4 | b2~ b8 fs4 g8 | a1 |
   a2~ a8 e4 fs8 | g4 g4 g8 a8 fs4 | e4 e4 e8 fs8 d4 | c'1 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -107,14 +107,14 @@ refrainMelody = \relative g' {
   b2~ b8 fs4 g8 | a4 a4 a8 b8 g4 | b2~ b8 fs4 g8 | a1 |
   a2~ a8 e4 fs8 | g4 g4 g8 a8 fs4 | e4 e4 e8 fs8 d4 | d'1 |
 
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "B" }
   
   e2~ e8 d8 c8 b8 | a4 a8 fs8 a4 a8 fs8 | a4 a8 fs8 a4 af4 | g1 |
   e'2~ e8 d8 c8 b8 | a4 a8 fs8 a4 a8 fs8 | a4 a8 fs8 a4 g4 | d'1 |
 
-  \bar "||"
+  \bar "$"
   \break
   \xTextMark \markup{ \bold \box "A3" }
 

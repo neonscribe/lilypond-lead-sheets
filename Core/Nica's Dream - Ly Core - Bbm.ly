@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   c2.\repeatTie r4 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }

@@ -25,15 +25,15 @@ refrainChords = \chordmode {
   s2.
   
   c1:m7 f1:7 bf1:maj7 ef1:maj7
-  a1:m7.5- d1:7 g1:m g1:m
+  a1:m7.5- d1:7.9- g1:m g1:m
 
   c1:m7 f1:7 bf1:maj7 ef1:maj7
-  a1:m7.5- d1:7 g1:m g4:m r2.
+  a1:m7.5- d1:7.9- g1:m g4:m r2.
   
   a1:m7.5- d1:7.9- g1:m g1:m
   c1:m7 f1:7 bf1:maj7 ef1:maj7
 
-  a1:m7.5- d1:7.9- g2:m7 c2:7 f2:m7 bf2:7
+  a1:m7.5- d1:7.9- g2:m7 c2:7 f2:m7 bf2:6
   a1:m7.5- d1:7.9- g1:m g1:m
 }
 
@@ -46,7 +46,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Ballad" 4 = 110
   
   \partial 2. g4 a4 bf4 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \break
   c1~ | c4 d,4 e4 fs4 | bf1 | r4 g4 a4 bf4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \break
   c1~ | c4 a4 c4 bf4 | g1 | r2 fs4 g4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \break
   c1~ | c4 f,4 f'4 ef4 | d1~ | d2 cs4 d4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

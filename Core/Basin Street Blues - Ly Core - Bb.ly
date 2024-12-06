@@ -9,7 +9,7 @@
   copyright = "© 1928 - 1933 by Mayfair Music Corp., 1619 Broadway, New York, N.Y."
 }
 
-verseLyrics = \lyricmode {
+verseProblematicLyrics = \lyricmode {
   Won't -- cha come a -- long with me,
   \repeat unfold 5 { \skip 1 }
   To the Mis -- sis -- sip -- pi?
@@ -23,6 +23,23 @@ verseLyrics = \lyricmode {
   Where all the light and the dark folks meet, __
   Heav -- en on earth, they call __ it Bas -- in Street. __
 }
+
+verseLessRaciallyAwkwardLyrics = \lyricmode {
+  Won't -- cha come a -- long with me,
+  \repeat unfold 5 { \skip 1 }
+  To the Mis -- sis -- sip -- pi?
+  \repeat unfold 6 { \skip 1 }
+  We'll take the boat to the land of dreams, __
+  Steam down the riv -- er down __ to New __ Or -- leans. __
+  The band's there to meet us,
+  \repeat unfold 5 { \skip 1 }
+  Old friends to greet us,
+  \repeat unfold 5 { \skip 1 }
+  We'll see the place where the folks all meet, __
+  Heav -- en on earth, they call __ it Bas -- in Street. __
+}
+
+verseLyrics = \verseLessRaciallyAwkwardLyrics
 
 verseChords = \chordmode {
   \chordInsideParens{ f4:7 }
@@ -46,7 +63,7 @@ verseMelody = \relative f' {
   \xTextMark \markup{ \bold \box "Verse" }
   
   \partial 4 f8 f8 |
-  \bar "||"
+  \bar "$"
   
   d8 d8 ef4 e8 f4. | d8 d8 ef4 e8 f4. |
   \break
@@ -66,7 +83,7 @@ verseMelody = \relative f' {
   
 
   \bar "||"
-  \pageBreak
+  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -75,6 +92,7 @@ refrainLyrics = \lyricmode {
   You'll nev -- er know how nice it seems or just how much it real -- ly means,
   Glad to be, __ Yes, sir -- ree, __ where wel -- come's free, __
   Dear to me, __ Where I can lose __ my Ba -- sin Street blues. __
+  my Ba -- sin Street blues. __
 }
 
 refrainChords = \chordmode {
@@ -84,6 +102,9 @@ refrainChords = \chordmode {
   c1:9 f1:13
   bf4 bf4:7/d ef4:6 e4:dim7
   bf4/f b4:dim7 c4:m7 f4:7
+
+  f1:13
+  bf4 bf4:7/d ef4:6 e4:dim7
   bf4/f f8:7 bf8:6 s2
 }
 
@@ -99,30 +120,26 @@ refrainMelody = \relative f' {
   
   \xTextMark \markup{ \bold \box "Refrain" }
 
-  \bar ".|:"
-  \repeat volta 2 {
-    d8 d4 d8~ d2 | d8 d4 d8~ d4 r8 d8 |
+  d8 d4 d8~ d2 | d8 d4 d8~ d4 r8 d8 |
+  d8 a'4 d,8~ d2 |
   \break
-    d8 a'4 d,8~ d2 | a'8 a4 g8~ g4 d4 |
+  a'8 a4 g8~ g4 d4 |
+  d8 d4 d8~ d2 | d8 f4 d8~ d4 f4 |
+  c'8 c8 bf8 bf8 a8 a8 g8 g8 | bf8 bf8 a8 a8 g8 g8 f4 |
   \break
-    d8 d4 d8~ d2 | d8 f4 d8~ d4 f4 |
+  d8 d4 d8~ d2 | a'8 a4 fs8~ fs4 d4 |
+  d8 a'4 g8~ g2 |
   \break
-    c'8 c8 bf8 bf8 a8 a8 g8 g8 | bf8 bf8 a8 a8 g8 g8 f4 |
+  ef 8 ef4 d8~ d4 d4 |
+  d8 a'4 g8~ g2 \textToCodaLastTime | 
   \break
-    d8 d4 d8~ d2 | a'8 a4 fs8~ fs4 d4 |
-  \break
-    d8 a'4 g8~ g2 |
-    ef 8 ef4 d8~ d4 d4 |
-  \break
-    d8 a'4 g8~ g2 | 
-    r4 d4 f8 d8 c8 bf8~ | 
-  \break
-   bf1 |
-  }
-  \alternative {
-    { r1 }
-    { f'4 a8 bf8~ bf2\fermata }
-  }
+  r4 d4 f8 d8 c8 bf8~ | bf1 | r1 |
+  \bar "||-|."
+
+  \textCodaBreak
+
+  r4 d4 f8 d8 c8 bf8~ | bf1 | f'4 a8 bf8~ bf2\fermata |
+
   \bar "|."
 }
 

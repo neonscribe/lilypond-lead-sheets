@@ -175,6 +175,20 @@ textToCoda = {
   }
 }
 
+textToCodaFourthTime = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #0.770
+  \xTextEndMark
+  \markup
+  \line
+  \general-align #Y #CENTER {
+    \small
+    \bold
+    \italic "To Coda (4th X)  "
+    \musicglyph #"scripts.coda"
+  }
+}
+
 %%% includes the words "To Coda Last Time" before the Coda sign and centers the coda sign horizontally on the barline
 
 textToCodaLastTime = {

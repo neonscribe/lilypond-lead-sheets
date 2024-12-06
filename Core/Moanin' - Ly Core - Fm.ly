@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r2 f4 f4 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   c'2 c16 bf16 af16 f16 bf8 f8 | af4. f8 af8 f8 af8 c8~ |
   c2 ef8 c8 bf8 c8 | r8 f,8 r8 f8 af8 af8 f8 c8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }
@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
   \break
   bf16 af16 f8 f2. | r8 f8 r8 f8 af8 af8 f8 c8 \textToCodaLastTime | ef4 f2. | r1 |
 
-  \pageBreak
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "Solos A1, A2" }
 
@@ -113,7 +113,7 @@ refrainMelody = \relative f' {
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \bar "||"
+  \bar "$"
 
   \break
   \xTextMark \markup{ \bold \box "Solos A3" }
@@ -129,12 +129,12 @@ refrainMelody = \relative f' {
   \endParenthesis \parenthesize
   c8 \dalSegnoAfterSolos |
 
-  \bar "||"
+  \bar "$"
 
   \textCodaBreak
   
   ef4 f2. | r2 f4 f4 |
-  \bar "||"
+  \bar "$"
 
   c'2^"(bass walks in four)" c16 bf16 af16 f16 bf8 f8 | af4. f8 ef8 c8 ef8 f8~ | f1~ | f4 r4 f4 f4 |
   \break

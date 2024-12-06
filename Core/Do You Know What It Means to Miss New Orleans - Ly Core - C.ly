@@ -1,9 +1,8 @@
 %% -*- Mode: LilyPond -*-
 
-\include "../Include/lead-sheets.ily"
+#(set-global-staff-size 18)
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-   (set-global-staff-size 18))
+\include "../Include/lead-sheets.ily"
 
 \header {
   title = "Do You Know What It Means to Miss New Orleans"
@@ -32,9 +31,27 @@ Do you know what it means to miss New Or -- leans,
 when that's where you left your heart?
 And there's some -- thing more:
 I miss the one I care for more than I miss New Or -- leans.
+(Do you)
 }
 
-refrainChords = \chordmode {
+refrainHLPAChords = \chordmode {
+  s4
+
+  c2:maj7 g2:7.5+ c2:maj7 g2:7.5+ c2:maj7 f2:7 e4:7 e4:7.5+ a4:sus7 a4:7.5+
+  d2:m7 ef2:dim7 e2:m7 a2:7.5+ d2:m7 af2:7 g2:sus7 g2:7
+
+  c2:maj7 g2:7.5+ c2:maj7 g2:7.5+ c2:maj7 f2:7 e4:7 e4:7.5+ a4:sus7 a4:7.5+
+  d2:m7 ef2:dim7 e2:m7 a2:7.5+ d2:m7 g2:7 c1:6
+
+  bf2:m7 ef2:7 af2:6 f2:7.5+ bf2:m7 ef2:7 af1:6
+  a2:m7 d4:7 d4:7/c b2:m7 e2:m7 a2:m7 d2:7 g2:sus7 g2:7
+
+  c2:maj7 g2:7.5+ c2:maj7 g2:7.5+ c2:maj7 f2:7 e4:7 e4:7.5+ a4:sus7 a4:7.5+
+  d2:m7 ef2:dim7 e2:m7 a2:7.5+ d2:m7 g2:sus7 c2:6 
+  \chordInsideParens{ df2:maj7 }
+}
+
+refrainHLRBChords = \chordmode {
   s4
 
   c2:maj7 g2:7.5+ c2:maj7 a2:m7 e2:m7 a2:m7 d1:7
@@ -47,10 +64,49 @@ refrainChords = \chordmode {
   a2:m7 d2:7 g2:maj7 e2:m7 a2:m7 d2:7 d2:m7 g2:7
 
   c2:maj7 g2:7.5+ c2:maj7 a2:m7 e2:m7 a2:m7 d1:7
-  d2:m7 ds2:dim7 e2:m7 a2:7 d2:7 g2:7 c2:6
+  d2:m7 ds2:dim7 e2:m7 a2:7 d2:7 g2:7 c2:6 
   \chordOpenParen{ d4:m7 }
   \chordCloseParen{ g4:7 }
 }
+
+refrainNicoChords = \chordmode {
+  s4
+
+  c2:maj7 g2:7.5+ c2:maj7 a2:m7 e2:m7 a2:m7 d1:7
+  f2 fs2:dim7 c2/g a2:7 d2:m7 af2:7 g1:7
+
+  c2:maj7 g2:7.5+ c2:maj7 a2:m7 e2:m7 a2:m7 d1:7
+  f2 fs2:dim7 c2/g a2:7 d2:m7 g2:7 c1:6
+  
+  bf2:m7 ef2:7 af2:6 a2:m7.5- bf2:m7 ef2:7 af1:6
+  a2:m7 d2:7 g2:maj7 e2:m7 a2:m7 d2:7 d2:m7 g2:7
+
+  c2:maj7 g2:7.5+ c2:maj7 a2:m7 e2:m7 a2:m7 d1:7
+  f2 fs2:dim7 c2/g a2:7 d2:7 c2:6 
+  \chordOpenParen{ d4:m7 }
+  \chordCloseParen{ g4:7 }
+}
+
+refrainRBTwoChords = \chordmode {
+  s4
+
+  c2 g2:7.5+ c2 a2:m7 e2:m7 a2:m7 d1:7
+  f2:6 fs2:dim7 c2/g a2:7 d2:m7 af2:7 g1:7
+
+  c2 g2:7.5+ c2 a2:m7 e2:m7 a2:m7 d1:7
+  f2:6 fs2:dim7 c2/g a2:7 d2:m7 g4:7 g4:7.5+ c4 d4:m/c af4:7/c c4
+  
+  bf2:m7 ef2:7 af2:6 a2:dim7 bf2:m7 ef2:7 af1:6
+  a2:m7 d2:7 g2:maj7 fs4:m7 e4:m7 a2:m7 d2:7 g2:sus7 g2:7
+
+  c2 g2:7.5+ c2 a2:m7 e2:m7 a2:m7 d1:7
+  f2:6 fs2:dim7 c2/g a2:7 d2:7 g2:7 c4
+  \chordOpenParen{ af4:7 }
+  d4:m7/g 
+  \chordCloseParen{ g4:7 }
+}
+
+refrainChords = \refrainRBTwoChords
 
 refrainKey = c
 
@@ -61,7 +117,7 @@ refrainMelody = \relative f' {
   \tempo "Slow Swing" 4 = 126
 
   \partial 4 c8 d8 |
-  \bar "||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -69,7 +125,7 @@ refrainMelody = \relative f' {
   \break
   d8 cs8 d8 c'8~ c4. b8 | d8 df8 c8 b8 bf8 a4 e8 | g8 gf8 f8 c'8~ c4 ef,8 d8~ | d2 r4 c8 d8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -78,7 +134,7 @@ refrainMelody = \relative f' {
   \break
   d8 cs8 d8 c'8~ c4. b8 | d8 df8 c8 b8 bf8 a4 e8 | g8 gf8 f8  e8~ e4 g8 c8~ | c2 r4 c4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -87,14 +143,21 @@ refrainMelody = \relative f' {
   \break
   b2~ b8 a8 fs8 d8 | e8 fs8 d8 e8~ e8 fs8 g8 b8 | c8 d8 b8 c8~ c4 b8 d8~ | d2 r4 c,8 d8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }
 
   e8 g8 a8 b8~ b4. c8 | b8 a8 g8 a8~ a4. c8 | b8 a8 g8 a8~ a4 c4 | e,2. r8 ef8 |
   \break
-  d8 cs8 d8 c'8~ c4. b8 | d8 df8 c8 b8 bf8 a4. | e'8 c8 a8 e'8~ e8 a,8 e'4 | c2 r2 |
+  d8 cs8 d8 c'8~ c4. b8 | d8 df8 c8 b8 bf8 a4. | e'8 c8 a8 e'8~ e8 a,8 e'4 |
+  
+  c2 r4
+  \override Parentheses.font-size = #5
+  \startParenthesis \parenthesize
+  c8
+  \endParenthesis \parenthesize d8 |  
+  |
   
   \bar "|."
 }

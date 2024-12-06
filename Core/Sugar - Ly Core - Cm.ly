@@ -48,7 +48,7 @@ introMelody = \relative f' {
     >>
     \oneVoice
   } } }
-  \bar "||"
+  \bar "$"
 }
 
 introBass = \relative f' {

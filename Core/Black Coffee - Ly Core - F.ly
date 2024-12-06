@@ -62,8 +62,8 @@ refrainChords = \chordmode {
   s8
 
   f2:7.9+ gf2:7.9+ f2:7.9+ gf2:7.9+ f2:7.9+ gf2:7.9+ f2:7.9+ b2:13
-  bf1:9 bf1:9 f2:7.9+ gf2:7.9+ f2:7.9+ gf2:7.9+
-  g1:m7 g1:7/c
+  bf1:9 bf1:9 f2:7.9+ gf2:7.9+ f2:7.9+ d2:7.9-
+  g1:m7 c1:7.5+
 
   f2:7.9+ d2:7.9+ g2:m7 c2:7.9+
 
@@ -105,7 +105,7 @@ refrainMelody = \relative f' {
   } \volta 2 {  
   f1~ | f2 r4 f8 f8 |
   } } }
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -116,7 +116,8 @@ refrainMelody = \relative f' {
   df8 df8 df8 df8 df,4. df'8 | \tuplet 3/2 { c8 c8 c8 } c8 c8 c,4. c8 |
   
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "A3" }
 
@@ -124,7 +125,7 @@ refrainMelody = \relative f' {
   f8 f8 f8 c8 ef8 ef8 ef8 c8 | f8 f8 f8 c8 ef4 f4 |
   \break
   af8 d,4.~ d2 | \tuplet 3/2 { r4 c'4 bf4 } \tuplet 3/2 { af4 f4 d4 } |
-  c1 | r8 d8 \tuplet 3/2 { f8 a8 c8 } ef8 ef4 d8 |
+  c1 | r8 d8 \tuplet 3/2 { f8 a8 c8 } ef8 d4 a8 |
   \break
   bf8 a8 bf8 c8 a8 f4. | r8 d8 f8 af8 g4 f8 f8~ | f1~ | f2 r2 |
 

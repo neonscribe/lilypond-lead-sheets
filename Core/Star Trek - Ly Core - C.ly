@@ -42,7 +42,7 @@ refrainMelody = \relative f {
   \break
   g2 g'2~ | g4 f4 \tuplet 3/2 { e4 d4 c4 } | b2 b2~ | b2. bf4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -51,7 +51,7 @@ refrainMelody = \relative f {
   \break
   bf,2. c4 | d4 ef4 \tuplet 3/2 { f4 g4 af4 } | bf2 b2~ | b1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -60,7 +60,7 @@ refrainMelody = \relative f {
   \break
   g2 g'2~ | g4 f4 \tuplet 3/2 { e4 d4 c4 } | b2 b2~ | b2. bf4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

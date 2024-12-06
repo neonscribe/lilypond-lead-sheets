@@ -17,6 +17,7 @@ mkdir -p Midi
 mkdir -p Standard
 mkdir -p Standard/Bass
 mkdir -p 'Standard/Bass Line'
+mkdir -p 'Standard/Guitar Solo'
 mkdir -p Standard/Bb
 mkdir -p Standard/Eb
 

@@ -135,7 +135,7 @@ refrainMelody = \relative g, {
     }
   }
 
-  \bar "||"
+  \bar "$"
   \break
 
   g'4 r4 d4 r4 | c4 r4 c4 r4 | g'4 r4 d4 r4 | g4 r4 c,4 c4 |

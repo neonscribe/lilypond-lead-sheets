@@ -140,7 +140,7 @@ refrainMelody = \relative f' {
   \xTextMark \markup { \small \italic "D.S. al fine" }
   b4 |
   
-  \bar "||"
+  \bar "$"
 }
 
 \include "../Include/paper.ily"

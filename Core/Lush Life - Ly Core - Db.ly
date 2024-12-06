@@ -65,7 +65,7 @@ verseMelody = \relative f' {
   \break
   b8 b8 b4~ b8 a8 b8 a8 | af8 af8 af4~ af8 bf8 e,8 e8 | ef8 ef4. r4 r8 af,8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -75,7 +75,7 @@ verseMelody = \relative f' {
   \break
   b8 b8 b4~ b8 a8 b8 a8 | af8 af8 af4~ af8 bf8 e,8 e8 | ef8 ef4. r4 c'4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -84,7 +84,7 @@ verseMelody = \relative f' {
   \break
   c,4 c8 c8 d4. d8 | f4 f8 f8 af4. af8 | \tuplet 3/2 { c4 df4 bf4 } c4 c4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }
@@ -93,7 +93,7 @@ verseMelody = \relative f' {
   \break
   r4 ef4 ef4 f8 df8 | af'1~ | af2. r4 |
 
-  \bar "||"
+  \bar "$"
 }
 
 \include "../Include/paper.ily"
@@ -141,7 +141,7 @@ refrainMelody = \relative f' {
   af4. bf8 \tuplet 3/2 { b4 e4 a,4 } | af4. bf8 \tuplet 3/2 { c4 e4 b4 } | 
   bf4 \tuplet 3/2 { af8 df8 f8 } af4 a4 | c,2. df4 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -152,7 +152,7 @@ refrainMelody = \relative f' {
   af4. bf8 \tuplet 3/2 { b4 e4 a,4 } | af4. bf8 \tuplet 3/2 { c4 e4 b4 } |
   bf4 \tuplet 3/2 { af8 df8 f8 } gf4 af4 | bf2. r8 f8 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

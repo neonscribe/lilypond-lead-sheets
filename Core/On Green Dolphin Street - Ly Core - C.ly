@@ -49,7 +49,7 @@ refrainMelody = \relative c'' {
   \break
 
   a2 a2~ | a2 \tuplet 3/2 { af4 f4 df4 } | g1~ | g2 r2
-  \bar "||"
+  \bar "$"
   \break
 
   \tempo "Swing"
@@ -57,7 +57,7 @@ refrainMelody = \relative c'' {
   g2 d4 e4 | f4 g4 af4 bf4 | g2 g2~ | g2. g4 |
   \break
   bf4 f2 g4 | af4 bf4 cf4 df4 | bf2 bf2~ | bf2 b2
-  \bar "||"
+  \bar "$"
   \break
 
   \tempo "Latin"
@@ -65,7 +65,7 @@ refrainMelody = \relative c'' {
   c2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |
   \break
   a2 a2~ | a2 \tuplet 3/2 { af4 f4 df4 } | g1~ | g2 r2
-  \bar "||"
+  \bar "$"
   \break
   
   \tempo "Swing"

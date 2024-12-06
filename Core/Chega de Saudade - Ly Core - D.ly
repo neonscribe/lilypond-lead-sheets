@@ -145,7 +145,7 @@ refrainMelody = \relative f' {
   \break
   c4. bf8~ bf2~ | bf4 f'8 e4 d4 d8~ | d8 cs4 e8 cs4 bf4~ | bf2. r4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -159,7 +159,8 @@ refrainMelody = \relative f' {
   f8 d4 b4 d4 f8~ | f8 cs4 bf4 f'4 d8~ | d1 | r1 |
 
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \key \refrainKey \major
   \xTextMark \markup{ \bold \box "C" }
@@ -172,7 +173,7 @@ refrainMelody = \relative f' {
   \break
   fs8 e4 d8 b4 gs4~ | gs4 b8 cs4 e4 d8~ | d2.. cs8~ | cs1 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "D" }

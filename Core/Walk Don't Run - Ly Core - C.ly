@@ -48,7 +48,7 @@ refrainMelody =  \relative a' {
              d8  e8  d8 }
          c8  d4  e8 | % 12
         r8  gs8  gs8  gs8  gs8 
-        gs8  b,8  a8 \bar "||"
+        gs8  b,8  a8 \bar "$"
 	\break
         \xTextMark \markup { \bold \box { A2 } }  a'8  a,8  b8
          c4  d8  e8  f8 ~ | % 14
@@ -65,7 +65,7 @@ refrainMelody =  \relative a' {
              d8  e8  d8 }
          c8  d4  c8 ~ | \barNumberCheck #20
          c8  g8  a8  b8  c8  d8
-         e8  f8 \bar "||"
+         e8  f8 \bar "$"
 	\break
         \xTextMark \markup { \bold \box { B } }  g8 [  fs8  g8
          g8 ]  g2 | % 22
@@ -80,7 +80,7 @@ refrainMelody =  \relative a' {
          e4 | % 27
          c'2 ~  c4.  e,8 ~ | % 28
          e4  d4  c4  b4 | % 29
-	\bar "||"
+	\bar "$"
 	\break
         \xTextMark \markup { \bold \box { A3 } }  a'8  a,8  b8
          c4  d8  e8  f8 ~ | \barNumberCheck

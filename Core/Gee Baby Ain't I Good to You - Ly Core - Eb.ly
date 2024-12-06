@@ -12,7 +12,7 @@
   copyright = "© 1929 Michael H. Golden, Inc."
 }
 
-refrainLyrics = \lyricmode {
+refrainObjectGenderFemaleLyrics = \lyricmode {
 Love __ makes me treat you the way __ that I do,
 Gee ba -- by, ain't I good to you.
 There's noth -- in' too good for a girl __ that's so true,
@@ -22,6 +22,22 @@ A Cad -- il -- lac car, an' ev -- 'ry -- thing, __
 Love __ makes me treat you the way __ that I do,
 Gee ba -- by, ain't I good to you.
 }
+
+refrainObjectGenderMaleLyrics = \lyricmode {
+Love __ makes me treat you the way __ that I do,
+Gee ba -- by, ain't I good to you.
+There's noth -- in' too good for a guy __ that's so true,
+Gee ba -- by, ain't I good to you.
+Bought you a fur coat for Christ -- mas, a dia -- mond ring, __
+A Cad -- il -- lac car, an' ev -- 'ry -- thing, __
+Love __ makes me treat you the way __ that I do,
+Gee ba -- by, ain't I good to you.
+}
+
+refrainLyrics =
+#(if (and (defined? 'objectGenderMale) objectGenderMale)
+  refrainObjectGenderMaleLyrics
+  refrainObjectGenderFemaleLyrics)
 
 refrainChords = \chordmode {
   c2:7 af2:7 g2:7 c2:7 f2:7 bf2:7 ef2:6 g2:7
@@ -53,7 +69,7 @@ refrainMelody = \relative f' {
   \break
   gf4 \tuplet 3/2 { gf8 ef4 } \tuplet 3/2 { gf8 gf8 f8~ } f8 ef8 | ef2. r4 |
 
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }

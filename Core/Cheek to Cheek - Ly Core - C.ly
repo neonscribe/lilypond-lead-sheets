@@ -112,7 +112,8 @@ refrainMelody = \relative f' {
   } } }
 
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "C" }
   
@@ -120,7 +121,7 @@ refrainMelody = \relative f' {
   \break
   d4. f,8 f4 f4~ | f2 d'2 | c4. e,8 e4 e4~ | e2 d2 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A3" }

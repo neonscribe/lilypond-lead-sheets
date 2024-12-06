@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Bossa Nova" 4 = 110
 
   \partial 4 e4 |
-  \bar "||-||"
+  \bar "$"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \break
   c'2. b8 a8 | a2. g8 b8 | e,1~ | e2 r8 e8 f8 g8 |
   
-  \bar "||-||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "B" }
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \break
   f4. b,8 b2~ | b2 r8 b8 c8 d8 | e1~ | e2. e4 |
   
-  \bar "||-||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \break
   bf'2. a8 g8 | g2. f8 e8 | a1~ | a2. d,4 |
   
-  \bar "||-||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "C" }

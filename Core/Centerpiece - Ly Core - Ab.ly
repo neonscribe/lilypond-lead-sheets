@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \fourBarMelody
   \fourBarMelody
 
-  \bar "||"
+  \bar "$"
 
   \fourBarMelody
   \fourBarMelody

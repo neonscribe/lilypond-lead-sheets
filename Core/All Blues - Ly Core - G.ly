@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
     >>
     \oneVoice
   
-  \bar "||"
+  \bar "$"
   \break
 
   \xTextMark \markup{ \bold \box "Head" }
@@ -77,7 +77,7 @@ refrainBass = \relative f' {
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
   
-  \bar "||"
+  \bar "$"
   \break
 
   g,8. d'16 e16 d16 f8. d16 e16 d16 |

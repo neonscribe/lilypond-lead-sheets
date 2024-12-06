@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   r4 b4 c4 d4 | c4 b4 a4 g4 | a2. g4 | fs4 e2. |
   \break
   r4 a4 bf4 c4 | bf4 a4 g4 f4 | g8 a8 g2.~ | g2 r8 g4. |
-  \bar "||"
+  \bar "$"
   \break
   
   \tempo "Swing"
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   a2. a4 | a4 a4 b4 c4 | d4. d8~ d2~ | d2 e4. d8 |
   \break
   b4 c4 d4 c4~ | c2 b4 as4 | b1~ | b2 r8 b4. |
-  \bar "||"
+  \bar "$"
   \break
   
   \xTextMark \markup{ \bold \box "B" }
@@ -84,8 +84,10 @@ refrainMelody = \relative f' {
   d2. d4 | e4 c4 d4. b8 | a4 b2.~ | b4 b4 d4 c4 |
   \break
   b4 b2.~ | b2 \tuplet 3/2 { b4 a4 gs4 } | b1~ | b1 |
+
   \bar "||"
-  \pageBreak
+
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "A2" }
   \tempo "Latin"
@@ -93,7 +95,7 @@ refrainMelody = \relative f' {
   r4 b4 c4 d4 | c4 b4 a4 g4 | a2. g4 | fs4 e2. |
   \break
   r4 a4 bf4 c4 | bf2 \tuplet 3/2 { a4 g4 f4 } | g8 a8 g2.~ | g2 r8 g4. |
-  \bar "||"
+  \bar "$"
   \break
 
   \tempo "Swing"
