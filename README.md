@@ -61,6 +61,6 @@ to the `Book` folder.
 
 Here's an example of the output:
 
-![At Sundown - Ly - F Standard](https://github.com/neonscribe/lilypond-lead-sheets/assets/11048418/18384623-0b43-45c4-b978-1d39b1dd6228)
+![At Sundown - Ly - F Standard](https://github.com/user-attachments/assets/56d02e90-1e1d-4c94-843e-c155c8969727)
 
 
