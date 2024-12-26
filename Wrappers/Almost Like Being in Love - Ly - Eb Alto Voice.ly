@@ -4,6 +4,6 @@
 
 instrument = "Mildred Bailey, Nancy Wilson Key"
 whatKey = ef
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Almost Like Being in Love - Ly Core - Bb.ly"

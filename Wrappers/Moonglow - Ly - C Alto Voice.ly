@@ -6,7 +6,7 @@
 
 instrument = "Billie Holiday Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Moonglow - Ly Core - G.ly"
 

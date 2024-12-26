@@ -83,10 +83,7 @@ refrainMelody = \relative f' {
   d8 f8 g4 a8 af8 g4 | d8 f8 g8 a8~ a8 af8 g4 | 
   df8 f8 g4 a8 af8 g4 | df8 f8 g8 a8~ a8 af8 g4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   r4 c4 c,2~ | c2 ef'8 d8 c8 bf8 | a1~ | a2 c8 b8 bf8 a8 |
   \break
@@ -104,10 +101,7 @@ refrainMelody = \relative f' {
   d8 f8 g4 a8 af8 g4 | d8 f8 g8 a8~ a8 af8 g4 | 
   df8 f8 g4 a8 af8 g4 | df8 f8 g8 a8~ a8 af8 g4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
 
   r4 c4 c,2~ | c2 ef'8 d8 c8 bf8 | a1 | a1 |
   \break

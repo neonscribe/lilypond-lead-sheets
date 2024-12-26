@@ -4,6 +4,6 @@
 
 instrument = "Anita O'Day Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/When Sunny Gets Blue - Ly Core - F.ly"

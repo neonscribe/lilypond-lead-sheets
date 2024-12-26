@@ -6,7 +6,7 @@
 
 instrument = "Etta Jones Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/The Late Late Show - Ly Core - Ab.ly"
 

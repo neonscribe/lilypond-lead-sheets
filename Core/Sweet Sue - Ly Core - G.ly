@@ -44,36 +44,27 @@ refrainMelody = \relative f' {
   \tempo "Fast Swing" 4 = 180
 
   \partial 2 d4 e4 |
+  \bar "||"
 
-  \bar "$"
   \xTextMark \markup{ \bold \box "A1" }
   
   a4 a4 a2~ | a2 d,4 e4 | a4 a4 a2~ | a2 b2 | 
   \break
   e,1~ | e2 b'2 | e,1~ | e2 d4 e4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   a4 a4 a2~ | a2 d,4 e4 | a4 a4 a2~ | a2 b2 | 
   \break
   e,1~ | e2 b'2 | e,1~ | e2 b'4 c4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   d4 d4 d2~ | d2 b4 c4 | d4 d4 d2~ | d2 ds,4 e4 |
   \break
   c'4 c4 c4 c4 | c4 c4 b4 a4 | c1~ | c2 d,4 e4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   a4 a4 a2~ | a2 d,4 e4 | a4 a4 a2~ | a2 b2 | 
   \break

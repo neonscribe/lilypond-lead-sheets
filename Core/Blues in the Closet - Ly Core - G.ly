@@ -31,7 +31,7 @@ refrainMelody = \relative f' {
   \tempo "Bright Blues" 4 = 190
 
   \partial 8 g8~ |
-  \bar "$"
+  \bar "||"
   
   \xTextMark \markup{ \bold \box "Head" }
 

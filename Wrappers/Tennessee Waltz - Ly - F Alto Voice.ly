@@ -4,6 +4,6 @@
 
 instrument = "Patti Page Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Tennessee Waltz - Ly Core - C.ly"

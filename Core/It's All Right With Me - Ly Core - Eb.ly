@@ -25,10 +25,30 @@ peggyLeeIntroMelody = \relative f'' {
   ef2 ef4. ef8~ | ef4 ef4. ef8 c4 | ef2 ef4. ef8~ | ef4 ef4. ef8 c4 |
   ef2 ef4. ef8~ | ef4 bf'8 af8 g8 ef8 c4 | ef8 ef4. ef4 ef8 g8~ | g4 r4
   
-  \bar "$"
+  \bar "||"
 }
 
-refrainLyrics = \lyricmode {
+refrainObjectGenderFemaleLyrics = \lyricmode {
+It's the wrong time __ and the wrong place. __
+Tho' your face is charm -- ing, it's the wrong face. __
+It's not her face, __ but such a charm -- ing face
+That it's all right __ with me
+It's the wrong song __ in the wrong style. __
+Tho' your smile is love -- ly, it's the wrong smile __
+It's not her smile, __ but such a love -- ly smile
+That it's all right __ with me. __
+You can't know how hap -- py I am that we met,
+I'm strange -- ly at -- trac -- ted to you. __
+There's some -- one I'm try -- ing so hard to for -- get.
+Don't you want to for -- get some -- one, too?
+It's the wrong game __ with the wrong chips.
+Though your lips are temp -- ting, they're the wrong lips.
+They're not her lips, but they're such temp -- ting lips
+That, if some night, __ you're free, __ dear,
+it's all right, __ it's all right __ with me. __
+}
+
+refrainObjectGenderMaleLyrics = \lyricmode {
 It's the wrong time __ and the wrong place. __
 Tho' your face is charm -- ing, it's the wrong face. __
 It's not his face, __ but such a charm -- ing face
@@ -47,6 +67,11 @@ They're not his lips, but they're such temp -- ting lips
 That, if some night, __ you're free, __ dear,
 it's all right, __ it's all right __ with me. __
 }
+
+refrainLyrics =
+#(if (and (defined? 'objectGenderMale) objectGenderMale)
+  refrainObjectGenderMaleLyrics
+  refrainObjectGenderFemaleLyrics)
 
 refrainStandardsRealBookChords = \chordmode {
   s2
@@ -135,40 +160,31 @@ refrainMelody = \relative f' {
   \tempo "Fast Swing" 4 = 200
   
   \partial 2 c4 d4 |
-  \bar "$"
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBreak "A1"
   
   ef2 g2~ | g2 c,4 d4 | ef2 g2~ | g2 c,4 d4 |
   ef2 f4 g4~ | g4 ef4 f4 g4 |  af2 c2~ | c2 b4 c4 |
   d2 c2~ | c4 d,4 cs4 d4 | r4 c'2 b4 | bf2 c,4 d4 |
   ef2 g2~ | g2. f4 | d1 | r2 c4 d4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
 
   ef2 g2~ | g2 c,4 d4 |  ef2 g2~ | g2 c,4 d4 |
   ef2 f4 g4~ | g4 ef4 f4 g4 |  af2 c2~ | c2 b4 c4 |
   d2 c2~ | c4 d,4 cs4 d4 |  r4 c'2 b4 | bf2 c,4 d4 |
   ef2 g2~ | g2. f4 | ef1~ | ef2 r4 ef4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
 
   bf'2 bf4 c4 | df4 df2 bf4 |  a2 a4 bf4 |  c2. a4 |
   af2 af4 bf4 | cf4 cf2 af4 | g1~ | g2 r4 ef4 |
   bf'2 bf4 c4 | df4 df2 bf4 | a2 a4 bf4 | c2. a4 |
   af2 af8 af4 af8 | af4 bf2 af4 | g1 | r2 c,4 d4 |
   
-  \bar "||"
-
   \xPageBreak
 
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   ef2 g2~ | g2 c,4 d4 | ef2 g2 | r2 c,4 d4 |
   ef2 f4 g4~ | g4 ef4 f4 g4 | af2 c2 | r2 b4 c4 |

@@ -85,4 +85,4 @@ refrainBass = \relative f' {
 
 \include "../Include/refrain-with-bass.ily"
 
-\markup{ "Play head twice before and twice after solos." }
+\markup{ "Top line is melody. Play head twice before and twice after solos." }

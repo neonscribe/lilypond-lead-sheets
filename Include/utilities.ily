@@ -74,7 +74,32 @@ xPageBreak = {
 sect =
 #(define-music-function (s)
    (string?)
-  #{ \section \sectionLabel #s #} )
+  #{ \bar "||-||"
+     \break
+     \xTextMark \markup{ \bold \box #s } #} )
+
+sectStart =
+#(define-music-function (s)
+   (string?)
+  #{ \xTextMark \markup{ \bold \box #s } #} )
+
+
+sectNoBreak =
+#(define-music-function (s)
+   (string?)
+  #{ \bar "||-||"
+     \xTextMark \markup{ \bold \box #s } #} )
+
+sectNoBar =
+#(define-music-function (s)
+   (string?)
+  #{ \break
+     \xTextMark \markup{ \bold \box #s } #} )
+
+sectNoBarNoBreak =
+#(define-music-function (s)
+   (string?)
+  #{ \xTextMark \markup{ \bold \box #s } #} )
 
 
 #(define (no-double-accidental-pitch p)

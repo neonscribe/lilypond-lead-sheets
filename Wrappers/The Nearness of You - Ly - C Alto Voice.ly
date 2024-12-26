@@ -4,6 +4,6 @@
 
 instrument = "Abbey Lincoln, Norah Jones, Laufey Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/The Nearness of You - Ly Core - F.ly"

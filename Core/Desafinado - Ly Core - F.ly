@@ -100,28 +100,19 @@ refrainMelody = \relative f' {
   \break
   r8 d4 e8 f8 g4 f8~ | f8 e4 ds8~ ds8 e4 c'8~ | c8 ef,4 ef8~ ef2~ | ef1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   r8 d8 c'8 bf8 a8 g4 bf8~ | bf8 a4 ds,8~ ds8 e4 fs8~ | fs8 a4 fs8~ fs8 d4 ef8~ | ef1 |
   \break
   r8 af4 g8 f8 d4 a'8~ | a8 g4 f8~ f8 d4 f8~ | f8 df4 df8~ df2~ | df2 r2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   r8 c4 d8 e8 f4 e8~ | e8 d4 cs8~ cs8 d4 f8~ | f8 df4 df8~ df2~ | df1 |
   \break
   r8 d4 e8 f8 g4 f8~ | f8 e4 ds8~ ds8 e4 c'8~ | c8 ef,4 ef8~ ef2~ | ef1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   r8 c'4 bf8 a8 g4 bf8~ | bf8 a4 g8~ g8 f4 g8~ | g8 f4 g8~ g2~ | g1 |
   \break
@@ -137,28 +128,19 @@ refrainMelody = \relative f' {
   \break
   r8 e4 fs8 gs8 a4 b8~ | b8 a4 cs,8~ cs8 d4 e8~ | e8 fs4 e8~ e8 fs4 e8~ | e2 r8 e4 g8~ |
   
-  \bar "$"
-  \break
-  
-  \xTextMark \markup{ \bold \box "E" }
+  \sect "E"
 
   g8 a4 g8~ g8 a4 g8~ | g4 f8 e8~ e8 f4. | g4 d8 g8~ g8 d8 g4~ | g2 r8 d8 g8 a8 |
   \break
   bf8 a4 bf8~ bf8 a4 c8~ | c8 bf4 a8~ a8 bf4 g8~ | g1~ | g2 r2 |
 
-  \bar "$"
-  \break
-  
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   r8 c,4 d8 e8 f4 e8~ | e8 d4 cs8~ cs8 d4 f8~ | f8 df4 df8~ df2~ | df1 |
   \break
   r8 d4 e8 f8 g4 f8~ | f8 e4 ds8~ ds8 e4 d'8~ | d4. df8 c8 b4 bf8~ | bf8 d4.~ d4 a4 |
   
-  \bar "$"
-  \break
-  
-  \xTextMark \markup{ \bold \box "F" }
+  \sect "F"
   
   c4. bf8 a8 g4 bf8~ | bf8 a4 g8~ g8 f4 a8~ | a2~ a8 e4 g8~ | g2 r4 d8 e8 |
   \break

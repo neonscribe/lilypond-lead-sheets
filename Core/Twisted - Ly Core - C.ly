@@ -63,25 +63,13 @@ refrainMelody = \relative f' {
   f8 b8 b8 a8 b4 a8 f8 | b4 c8 a8~ a4 r8 b8 | g4 e8 f8 g4 
   
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "D" }
+  \sect "D"
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
 
   \bar "|."
 }

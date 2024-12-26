@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Blues" 4 = 142
 
   \partial 8 f8 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -111,10 +111,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { df'8 c8 df8 } bf8 bf8 \tuplet 3/2 { af8 g8 af8 } f8 f8 |
   a8( bf4.~ bf4~ \tuplet 3/2 { bf8) g8 f8 } | bf,1 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   d'4. f8 d8 bf8 g8 f8 | df'4. f8 df8 bf8 g8 f8 | cs'8 d4.~ d4. f,8 |
   \tuplet 3/2 { a8 bf8 f8 } a8 bf8~ bf2 |
@@ -136,20 +133,14 @@ refrainMelody = \relative f' {
   \break
   af4. g8 af4. g8 | c2~ c8 bf8 c8 c8~ | c1~ | c2 r2 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C2" }
+  \sect "C2"
   
   c4. bf8 c4. bf8 | ef4. df8 ef8 df8 ef8 f8 | bf,4. af8 bf4. af8 | df1 |
   \break
   af4. g8 af4. g8 | c2~ c8 bf8 c8 d8~ | d1~ | d2. \tuplet 3/2 { r8 f,8 bf8 } |
   af2.~ \tuplet 3/2 { af8 g8 ef'8 } | df2~ df4. f,8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   \tuplet 3/2 { a8 bf8 f8 } a8 bf8~ bf4. f8 | \tuplet 3/2 { a8 bf8 f8 } a8 bf8~ bf4. f8 |
   \tuplet 3/2 { a8 bf8 f8 } a8 bf8~ bf2 | d,2~ d4. bf8 |

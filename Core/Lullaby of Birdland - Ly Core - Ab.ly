@@ -17,7 +17,7 @@ introLyrics = \lyricmode {
 }
 
 introChords = \chordmode {
-  f2:m bf2:6 bf2:sus7 ef2:1.3.5.9 af2:sus7 df4.:6.9 gf8:9.11+ gf1:9.11+
+  f2:m bf2:6 bf2:sus7 ef2:1.3.5.9 af2:sus7 df4.:6.9 gf8*9:9.11+
 }
 
 introKey = af
@@ -28,10 +28,10 @@ introMelody = \relative c' {
   \clef \whatClef
   \tempo "Medium" 4 = 122
   
-  \xTextMark \markup{ "Intro" }
+  \xTextMark \markup{ "Sarah Vaughan Intro" }
   f8 f8 f8 f8 g4 g4 | ef4 ef8 f8~ f4 r4 | df8 df8 df8 df8 ef4 ef8 c8~ | c2. r4 |
   
-  \bar "$"
+  \bar "||"
 }
 
 refrainLyrics = \lyricmode {
@@ -69,26 +69,27 @@ refrainMelody = \relative c' {
   \clef \whatClef
   \tempo "Medium" 4 = 122
   
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectStart "A1"
+
   c'8 c8 bf8 af8 g8 f4. | df4 f8 e8~ e2 | c4 g'8 f8~ f2 | df4 c'8 bf8~ bf2 |
   ef8 ef8 df8 c8 bf8 af4 f8~ | f8 c'8 bf8 e,8~ e8 c'8 bf8 ef,8~ |
   ef2 r8 bf'8 af8 df,8~ | df8 af'8 g8 c,8~ c2 |
-  \bar "$"
 
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect"A2"
+
   c'8 c8 bf8 af8 g8 f4. | df4 f8 e8~ e2 | c4 g'8 f8~ f2 | df4 c'8 bf8~ bf2 |
   ef8 ef8 df8 c8 bf8 af4 f8~ | f8 c'8 bf8 e,8~ e8 c'8 bf8 ef,8~ |
   ef2 r8 ef8 g8 af8 | r1 |
-  \bar "$"
-  
-  \xTextMark \markup{ \bold \box "B" }
+
+  \sect "B"
+
   c4 df8 d8 ef8 c8 ef8 df8 | r8 bf4.~ bf4 r4 |
   bf4 b8 c8 df8 bf8 df8 c8~ | c2 r2 |
   c4 df8 d8 ef8 c8 ef8 df8 | r8 bf4.~ bf4 r4 |
   bf4 b8 c8 df8 bf8 df8 c8~ | c8 df8 c8 bf8 r2 |
-  \bar "$"
   
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
+
   c8 c8 bf8 af8 g8 f4. | df4 f8 e8~ e2 | c4 g'8 f8~ f2 | df4 c'8 bf8~ bf2 |
   ef8 ef8 df8 c8 bf8 af4 f8~ | f8 c'8 bf8 e,8~ e8 c'8 bf8 ef,8~ |
   ef2 r8 ef8 g8 af8 | r1 |
@@ -103,5 +104,6 @@ refrainMelody = \relative c' {
   \vspace #1
 }
 
-%%% \include "../Include/intro.ily"
+\include "../Include/intro.ily"
+\pageBreak
 \include "../Include/refrain.ily"

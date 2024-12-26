@@ -54,7 +54,7 @@ refrainMelody =  \relative a' {
      fs2  e4  d4 | % 19
      e2. r4 | \barNumberCheck #20
     R1 | % 21
-    \bar "$"
+    \bar "||-||"
      \break
    \xTextMark \markup { \bold \box { B1 } }
      c8 [  f16  f16 ]  f8 [  f8 ]
@@ -72,7 +72,7 @@ refrainMelody =  \relative a' {
      f16  f16 ] | % 27
     e1 ~ | % 28
     e1 | % 29
-    \bar "$"
+    \bar "||-||"
      \break
    \xTextMark \markup { \bold \box { C1 } }
     r4  f4  a4  c4 | \barNumberCheck #30
@@ -93,7 +93,7 @@ refrainMelody =  \relative a' {
          e4  d4  c4 }
      a2 ~ | \barNumberCheck #40
     a1 | % 41
-    \bar "$"
+    \bar "||-||"
      \break
    \xTextMark \markup { \bold \box { B2 } }
      c,8 [  f16  f16 ]  f8 [  f8 ]
@@ -157,7 +157,7 @@ refrainChords =  \chordmode {
 
 \include "../Include/refrain.ily"
 
-xxxx = {    \bar "$"
+xxxx = {    \bar "||-||"
     \xTextMark \markup { \bold \box { A2 } }
     a'2  e4  a4 | \barNumberCheck #50
      fs2  e4  d4 | % 51
@@ -175,7 +175,7 @@ xxxx = {    \bar "$"
      fs2  e4  d4 | % 63
      e2. r4 | % 64
     R1 | % 65
-    \bar "$"
+    \bar "||-||"
     \xTextMark \markup { \bold \box { B3 } }
      c8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 66
@@ -192,7 +192,7 @@ xxxx = {    \bar "$"
      f16  f16 ] | % 71
     e1 ~ | % 72
     e1 | % 73
-    \bar "$"
+    \bar "||-||"
     \xTextMark \markup { \bold \box { C2 } }
     r4  f4  a4  c4 | % 74
      b2  c4  d4 | % 75
@@ -210,7 +210,7 @@ xxxx = {    \bar "$"
          e4  d4  c4 }
      a2 ~ | % 84
     a1 | % 85
-    \bar "$"
+    \bar "||-||"
     \xTextMark \markup { \bold \box { B4 } }
      c,8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 86

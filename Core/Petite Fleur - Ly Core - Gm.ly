@@ -137,55 +137,40 @@ refrainMelody = \relative f' {
   \tempo "Ballad" 4 = 100
   
   g2\fermata a2\fermata | d,4-. r4 ef4. ef8 |
-  \bar "$"
 
-  \xTextMark \markup{ \bold \box "A" }
+  \sectNoBreak "A"
   
   d1 | r4 fs8 a8 \tuplet 3/2 { c4 ef4 d4 } | bf1 | r4 d,8 g8 \tuplet 3/2 { a4 bf4 g4 } |
   \break
   a1 | r4 e8 fs8 \tuplet 3/2 { g4 a4 fs4 } | d1 | r2 ef4. ef8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   d1 | r4 fs8 a8 \tuplet 3/2 { c4 ef4 d4 } | f1 | r4 d8 ef8 \tuplet 3/2 { f4 ef4 d4 } |
   \break
   ef1 | r4 c8 d8 \tuplet 3/2 { ef4 d4 c4 } | d1 | r4 bf8 c8 \tuplet 3/2 { d4 c4 bf4 } |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   c1 | r4 a8 bf8 \tuplet 3/2 { c4 bf4 a4 } | bf1 | r4 g8 a8 \tuplet 3/2 { bf4 a4 g4 } |
   \break
   a1 | e1 | a1 | r2 ef4. ef8 |
   
-  \bar "||"
-
   \xPageBreak
 
-  \xTextMark \markup{ \bold \box "D" }
+  \sect "D"
 
   d1 | r4 fs8 a8 \tuplet 3/2 { c4 ef4 d4 } | bf1 | r4 d,8 g8 \tuplet 3/2 { a4 bf4 g4 } |
   \break
   a2. c4 | bf2. a4 | g1 | r2 \tuplet 3/2 { g4 b4 d4 } |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "E" }
+  \sect "E"
 
   f1 | r4 d8 ef8 \tuplet 3/2 { f4 af4 g4 } | ef1 | r2 r8 ef8 ef8 ef8 |
   \break
   ef1 | r4 c8 d8 \tuplet 3/2 { ef4 gf4 f4 } | d2. ef4 | c4 r4 ef,4. ef8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "F" }
+  \sect "F"
 
   d1 | r4 fs8 a8 \tuplet 3/2 { c4 ef4 d4 } | bf1 | r4 d,8 g8 \tuplet 3/2 { a4 bf4 g4 } |
   \break

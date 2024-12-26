@@ -4,7 +4,7 @@
 
 instrument = "Billie Holiday (with Benny Goodman) Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 #(set-global-staff-size 18)
 

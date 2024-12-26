@@ -6,7 +6,7 @@
 
 instrument = "Rosemary Clooney Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/A Nightingale Sang in Berkeley Square - Ly Core - Eb.ly"
 

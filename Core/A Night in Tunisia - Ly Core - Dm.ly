@@ -78,20 +78,17 @@ refrainMelody = \relative f' {
   d2.\repeatTie  a'4 |
   } }  
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   c4. a8~ a4. g8 | fs4 ef'8 df8 d8 c4 a8 | bf8 g4 fs8~ fs4 a8 f8 | g8 a8 e4 r4 r8 bf'8~ |
   \break
   bf2 g4. f8 | e4 df'8 b8 c8 bf4 gs8 | a4. f8 g4 f8 e8~ | e2 r4 r8 \dalSegno a,8 |
-  \bar "$"
+  \bar "||-||"
   
   \textCodaBreak
   
   d4.\repeatTie_"Fine" a'8 r8 a4 a8~ |
-  \bar "$"
+  \bar "||-||"
   
 
   \xTextMark \markup{ \bold \box "C" }

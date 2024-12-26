@@ -51,31 +51,28 @@ refrainMelody = \relative c' {
   \tempo "Medium-Fast Swing" 4 = 150
 
   \partial 2 e4 f
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box A1 }
+
   g2 b | a4 g e d | e1~ | e4 g e d |
   \break
   e4 g e d | e c'2 e,4 | g1~ | g2 a4 b
-  \bar "$"
-  \break
 
+  \sect "B"
 
-  \xTextMark \markup{ \bold \box B }
   c2 c | c4 d2 b4 | a2 a | g e4 fs |
   \break
   g2 g | g4 a2 fs4 | g1~ | g4 r4 e f |
-  \bar "$"
-  \break
-  
-  \xTextMark \markup{ \bold \box A2 }
+
+  \sect "A2"
+
   g2 b | a4 g e d | e1~ | e4 g e d |
   \break
   e4 g e d | e c'2 e,4 | g1~ | g2 a4 b |
-  \bar "$"
-  \break
 
-  \xTextMark \markup{ \bold \box C }
+  \sect "C"
+
   c2 c | c4 d2 b4 | bf2 bf | a g4 f |
   \break
   e2 e | d4 c'2 b4 | c1 | r1

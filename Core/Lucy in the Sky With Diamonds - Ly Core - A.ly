@@ -111,10 +111,7 @@ refrainMelody = \relative f' {
   \break
   cs4 b4 r8 a8 | cs4 b4 a4 | e'4 d4 cs4 \textToCoda | a2.~ | a2.~ | a2 r4 | R2. |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Pre-Chorus" }
+  \sect "Pre-Chorus"
   
   \key \preChorusKey \major
   

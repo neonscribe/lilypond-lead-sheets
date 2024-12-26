@@ -66,20 +66,14 @@ refrainMelody = \relative f' {
   d2 \tuplet 3/2 { d4 c4 g'4 } | d2. c4 |
   g'1~ | g2 r2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B1" }
+  \sect "B1"
   
   \tuplet 3/2 { f4 gf4 f'4 } c2~ | c4 bf8 df8 c8 bf4 ef,8 |
   f2 f2~ | f2 \tuplet 3/2 { f4 ef4 bf'4 } |
   \break
   f2 \tuplet 3/2 { f4 ef4 bf'4 } | f2. ef4 | bf'1~ | bf2 r4 a4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C1" }
+  \sect "C1"
   
   \tuplet 3/2 { gs4 b4 cs4 } ds2~ | ds4 gs,8 ds'8 d4 g,8 d'8 |
   cs2 cs2~ | cs2 r2 |
@@ -87,10 +81,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { fs,4 a4 b4 } cs2~ | cs4 fs,8 cs'8 c4 f,8 c'8 |
   b1~ | b2 r4 e,4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C2" }
+  \sect "C2"
   
   \tuplet 3/2 { e4 g4 a4 } b2~ | b4 e,8 b'8 bf4 ef,8 bf'8 |
   a2 a2~ | a4 g4 a4 bf4 |
@@ -109,10 +100,7 @@ refrainMelody = \relative f' {
   d4. d8 \tuplet 3/2 { d4 c4 g'4 } | d2. c4 |
   g'1~ | g2 r2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B2" }
+  \sect "B2"
   
   \tuplet 3/2 { f4 gf4 f'4 } c2~ | c4 bf8 df8 \tuplet 3/2 { c4 bf4 ef,4 } |
   f2 f2~ | f2 \tuplet 3/2 { ef4 f4 ef4 } |

@@ -4,6 +4,6 @@
 
 instrument = "Jeri Southern Key"
 whatKey = a,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/No Moon at All - Ly Core - Dm.ly"

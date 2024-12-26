@@ -6,7 +6,7 @@
 
 instrument = "Sarah Vaughan, Peggy Lee, Blossom Dearie, Anita O'Day Key"
 whatKey = f
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Just in Time - Ly Core - Bb.ly"
 

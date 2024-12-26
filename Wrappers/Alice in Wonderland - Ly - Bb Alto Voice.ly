@@ -6,7 +6,7 @@
 
 instrument = "Rosemary Clooney Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Alice in Wonderland - Ly Core - C.ly"
 

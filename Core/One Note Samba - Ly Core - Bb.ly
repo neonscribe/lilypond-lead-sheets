@@ -46,7 +46,7 @@ refrainMelody = \relative f' {
   \tempo "Samba" 4 = 150
 
   \partial 4. f4 f8 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -54,20 +54,14 @@ refrainMelody = \relative f' {
   \break
   f4 f8 f8~ f8 f4 f8~ | f4. f8 r8 f4 f8 | f4 f8 f8~ f8 f4 f8~ | f2 r8 bf4 bf8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B1" }
+  \sect "B1"
   
   bf4 bf8 bf8~ bf8 bf4 bf8~ | bf8 bf8 bf4~ bf8 bf4 bf8 |
   bf4 bf8 bf8~ bf8 bf4 bf8~ | bf4. r8 r8 f4 f8 |
   \break
   f4 f8 f8~ f8 f4 f8~ | f8 f4 f8~ f8 f8 f4 | f4 f8 f8~ f8 f4 bf8 | r1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   bf8 c8 df8 ef8 df8 c8 bf8 af8 | gf8 f8 ef8 df8 c8 df8 ef8 f8 |
   c4. bf8 r8 c8 df8 f8 | c4. bf8 r2 |
@@ -75,19 +69,13 @@ refrainMelody = \relative f' {
   af'8 bf8 cf8 df8 cf8 bf8 af8 gf8 | ff8 ef8 df8 cf8 bf8 cf8 df8 ef8 |
   bf4. af8 r8 bf8 cf8 ef8 | gf4. f8 r8 f4 f8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   f4 f8 f8~ f8 f4 f8~ | f4. f8 r8 f4 f8 | f4 f8 f8~ f8 f4 f8~ | f2 r8 f4 f8 |
   \break
   f4 f8 f8~ f8 f4 f8~ | f4. f8 r8 f4 f8 | f4 f8 f8~ f8 f4 f8~ | f2 r8 bf4 bf8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B2" }
+  \sect "B2"
 
   bf4 bf8 bf8~ bf8 bf4 bf8~ | bf4. bf8 r8 bf4 bf8 |
   bf4 bf8 bf8~ bf8 bf4 bf8~ | bf2 r8 bf4 bf8 |

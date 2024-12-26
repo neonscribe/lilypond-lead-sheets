@@ -105,10 +105,7 @@ refrainMelody = \relative f' {
   } \volta 2 {  
   f1~ | f2 r4 f8 f8 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
 
   bf8 c8 bf8 af8 bf4. c8 | af8 f4.~ f4. f8 | bf8 c8 bf8 c8 df4 ef4 | c2~ c4. c8 |
   \break

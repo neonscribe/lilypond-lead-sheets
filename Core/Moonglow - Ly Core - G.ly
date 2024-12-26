@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Ballad" 4 = 104
 
-  \xTextMark \markup{ \bold \box "A1, A2" }
+  \sectStart "A1, A2"
   
   \bar ".|:"
   \repeat volta 2 {
@@ -86,18 +86,14 @@ refrainMelody = \relative f' {
   \break
   r4 r8 e,8 g8 e8 g4 | b4 b2. | r8 g4. g4 g4 | g4 g8 g8~ g2 |
   }
-  \break
 
-  \xTextMark \markup{ \bold \box "B" }
+  \sectNoBar "B"
   
   d'1~ | d4 d8 d8 cs8 cs8 c8 c8 | b1~ | b1 |
   \break
   b8 b8 b8 b8~ b2~ | b2 cs,8 e8 g8 b8 | b2. bf4 | a1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   r4 r8 e8 g8 e8 g4 | b4 b2. | r4 r8 e,8 g8 e8 g4 | b1 |
   \break
@@ -115,7 +111,7 @@ refrainMelody = \relative f' {
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \bar "$"
+  \bar "||-||"
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

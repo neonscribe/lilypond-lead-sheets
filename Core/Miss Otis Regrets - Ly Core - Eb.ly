@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \tempo "Slow Ballad or Medium" 4 = 110
 
   \partial 4 g8( af8) |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   

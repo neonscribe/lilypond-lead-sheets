@@ -43,10 +43,7 @@ refrainMelody = \relative f' {
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Head" }
+  \sect "Head"
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break

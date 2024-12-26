@@ -65,15 +65,15 @@ refrainMelody = \relative f' {
   \fourBarMelody
   \fourBarMelody
 
-  \bar "$"
+  \bar "||-||"
 
   \fourBarMelody
   \fourBarMelody
 
   af8 bf8 cf8 bf8 af4 f4 \textToCodaLastTime | af4. bf8 r4 r8 f8 |
   af8 bf8 cf8 bf8 af8 f4 ef8~ | ef2. r8 f8 |
-
   }
+
   \bar "||-:|."
 
   \textCodaBreak

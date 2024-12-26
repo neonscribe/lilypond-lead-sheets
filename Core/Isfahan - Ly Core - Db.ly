@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   \tempo "Ballad" 4 = 60
   
   \partial 8*3 c'8 \tuplet 3/2 { af8 f8 df8 } |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -67,29 +67,20 @@ refrainMelody = \relative f' {
   \break
   gs2. a4 | e'2 f8 gf8~ \tuplet 3/2 { gf8 g8 af8 } | ef1 | r4 df4 f4 af8 a8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   bf4~ \tuplet 3/2 { bf8 c8 b8 } bf8 g8~ \tuplet 3/2 { g8 bf8 a8 } | af1 |
   c4~ \tuplet 3/2 { c8 d8 df8 } c8 a8~ \tuplet 3/2 { a8 c8 cf8 } | bf1 |
   \break
   df4. ef8 df8 bf8~ \tuplet 3/2 { bf8 b8 c8 } | df2 ef2 | c1 | r2 r8 c8 \tuplet 3/2 { af8 f8 df8 } |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   c2. df4 | a'2 bf2 | \tuplet 3/2 { bf8 c8 f,8~ } f2. | r2 r8 af8 \tuplet 3/2 { f8 df8 a8 } |
   \break
   gs2. a4 | e'2 f4 gf4 | g1 | r2 r4 af4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
 
   a4 bf4 a4 bf4 | ef2 df4. c8 | b2 af4. f8 | r2 r8 c'8 \tuplet 3/2 { af8 f8 df8 } |
   \break

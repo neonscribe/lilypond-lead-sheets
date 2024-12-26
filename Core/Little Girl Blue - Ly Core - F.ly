@@ -106,18 +106,12 @@ refrainMelody = \relative f' {
   f2.~ | f2. |
   } } }
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Verse B" }
+  \sect "Verse B"
   
   a4 a4 a4 | a4 a4 a4 | f2.~ | f2. |
   a4 a4 a4 | a4 a4 a4 | c,2.~ | c2. |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Refrain A1,A2" }
+  \sect "Refrain A1,A2"
   
   \bar ".|:-||"
   \repeat volta 2 {
@@ -130,10 +124,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   f1~ | f4 c'4 c,4 d4 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Refrain B" }
+  \sect "Refrain B"
   
   e2. c'4 | c,4 d4 e4 g4 | a4 a2 c4 | a4 c4 a4 c4 | a4 a2 cs4 | a4 cs4 a4 cs4 |
   a2 bf2 | g2 a2 | f4 f2 f4 | a4 a4 g8 g8 g4 | f1~ | f2 r2 |

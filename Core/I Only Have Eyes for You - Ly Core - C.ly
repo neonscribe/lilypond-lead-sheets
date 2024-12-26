@@ -28,9 +28,9 @@ and I on -- ly have eyes __ for you. __
 }
 
 refrainLyricsTwo = \lyricmode {
-_ _ moon may be high, __ but I can't see a thing in the sky
-_ _ _ _ _ _ _ _ _ _
-you. __
+_ _ moon may be high, __ but I can't see a thing in the sky ""
+_ _ _ _ _ _ _ _ _
+you. __ ""
 }
 
 refrainChords = \chordmode {
@@ -74,28 +74,20 @@ refrainMelody = \relative f' {
   } \volta 2 {
   cs1~ | cs1 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   r4 d4 c4 a4 | g4 f4 e4 d4 | g2 g2~ | g1 |
   \break
   r4 d'4 c4 af4 | g4 f4 e4 d4 | g1 | bf2~ bf4. af8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   g2 f4. e8 | d2~ \tuplet 3/2 { d4 d4 e4 } |
   \tuplet 3/2 { g4 a4 g4 } \tuplet 3/2 { f4 g4 f4 } | d2~ \tuplet 3/2 { d4 g4 a4 } |
   \break
   \tuplet 3/2 { b4 d4 c4 } b2~ | b2 c2 |
 
-  \bar "$"
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sectNoBreak "C"
   
   ef1~ | ef2 f4. ef8 |
   \break

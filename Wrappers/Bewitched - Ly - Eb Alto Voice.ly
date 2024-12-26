@@ -6,7 +6,7 @@
 
 instrument = "Anita O'Day, Julie London Key"
 whatKey = ef,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Bewitched - Ly Core - C.ly"
 

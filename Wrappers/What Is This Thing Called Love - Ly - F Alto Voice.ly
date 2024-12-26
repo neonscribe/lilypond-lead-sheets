@@ -4,6 +4,6 @@
 
 instrument = "Billie Holiday Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/What Is This Thing Called Love - Ly Core - C.ly"

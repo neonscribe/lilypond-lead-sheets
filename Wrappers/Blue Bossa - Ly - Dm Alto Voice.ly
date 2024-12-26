@@ -4,6 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = d,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Blue Bossa - Ly Core - Cm.ly"

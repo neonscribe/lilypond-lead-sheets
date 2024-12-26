@@ -51,48 +51,33 @@ refrainMelody = \relative f' {
   g1 | f2. c4 | ef1 | d2. g,4 |
   
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   c2. d4 | ef2. \tuplet 3/2 { e8 f8 gf8 } | g2. g4 | bf2 bf,8 d8 f8 af8 |
   \break
   bf4 f8 bf8~ bf2 | r2 af8 bf8 af8 bf8 | g4 bf,8 g'8~ g2 | r4 r8 g8 a8 b8 c8 d8 |
   
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   ef2.~ ef8 d16 ef16 | d1 | r4 d4 ef4 b4 | d2 c4 c,16 d16 ef16 g16 |
   \break
   c1 | bf8 bf,8 df8 f8 bf8 r8 df8 f8 | bf8 f8 df8 bf8 f8 df8 bf8 r8 | ef2. d4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "D" }
+  \sect "D"
   
   g1 | gf1 | g1 | af4 r8 c,8 d8 f8 af8 c8 |
   \break
   ef1 | d2.~ d8 g,8 | d'8 c8~ c2. | r4 g8 g8 af8 g8 f8 e8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "E1" }
+  \sect "E1"
   
   f8 r8 f8 c'8~ c4 r4 | r4 f,8 r8 g8 f8 ef8 d8 |
   ef8 d8 ef8 c'8~ c4 r4 | r4 ef,8 f8~ f8 ef8 d8 c8 |
   \break
   ef4. gf,8 a8 c8 ef8 d8 | ef4. g,8 a8 c8 ef4 | d8 c8~ c4 c2 | r2 g'8 af8 g8 f8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "E2" }
+  \sect "E2"
   
   e8 f8~ f4 c'4 c4~ | c2. f,8 g8 |
   \tuplet 3/2 { ef4 d4 ef4 } c'2 | r8 d8 ef8 d8 f8 ef8 d8 ef8 |

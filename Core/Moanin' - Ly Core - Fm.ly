@@ -72,20 +72,14 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r2 f4 f4 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   c'2^"(bass walks in four)" c16 bf16 af16 f16 bf8 f8 | af4. f8 ef8 c8 ef8 f8~ | f1~ | f4 r4 f4 f4 |
   \break
   c'2 c16 bf16 af16 f16 bf8 f8 | af4. f8 af8 f8 af8 c8~ |
   c2 ef8 c8 bf8 c8 | r8 f,8 r8 f8 af8 af8 f8 c8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   ef4^"(rhythm resumes)" f2. | r8 f8 r8 f8 af4 bf8 bf16 cf16 |
   bf16 af16 f8 f2. | r8 f8 r8 f8 c'4 ef8 c16 cf16 |
@@ -94,7 +88,7 @@ refrainMelody = \relative f' {
 
   \xPageBreak
 
-  \xTextMark \markup{ \bold \box "Solos A1, A2" }
+  \sect "Solos A1, A2"
 
   \bar ".|:-||"
   \repeat volta 2 {
@@ -104,19 +98,17 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
+  \bar "||-:|."
 
-  \break
-  \xTextMark \markup{ \bold \box "Solos B" }
+  \sectNoBar "Solos B"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \bar "$"
 
-  \break
-  \xTextMark \markup{ \bold \box "Solos A3" }
+  \sect "Solos A3"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -129,12 +121,12 @@ refrainMelody = \relative f' {
   \endParenthesis \parenthesize
   c8 \dalSegnoAfterSolos |
 
-  \bar "$"
+  \bar "||-||"
 
   \textCodaBreak
   
   ef4 f2. | r2 f4 f4 |
-  \bar "$"
+  \bar "||"
 
   c'2^"(bass walks in four)" c16 bf16 af16 f16 bf8 f8 | af4. f8 ef8 c8 ef8 f8~ | f1~ | f4 r4 f4 f4 |
   \break

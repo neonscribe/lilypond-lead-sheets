@@ -86,20 +86,14 @@ refrainMelody = \relative f' {
   } \volta 2 {
   c'4\repeatTie f,8 f8~ f4 bf8 a8~ | a2. r4 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   bf2. g4 | af2 r4 c4 | bf4 bf8 bf8 bf8 g8 bf8 af8~ | af1 |
   \break
   \tuplet 3/2 { c4 c4 c4 } c4 a4 | bf8 bf4.~ bf4 r8 ef8~ |
   ef8 ef8 d8 c8~ c8 bf4 bf8 | a4 g8 f8~ f4 r4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   r8 d8 cs8 d8 ef4 d8 ef8~ | ef1 |
   r8 f8 e8 f8 \tuplet 3/2 { g4 g4 f4 } | \tuplet 3/2 { af4 af4 f4 } a2 |

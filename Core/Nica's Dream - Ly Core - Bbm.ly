@@ -60,10 +60,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   c2.\repeatTie r4 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   \tempo "Fast Swing" 4 = 260
   

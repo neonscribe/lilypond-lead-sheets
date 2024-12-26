@@ -6,7 +6,7 @@
 
 instrument = "Peggy Lee, Anita O'Day, Betty Carter, Annette Hanshaw Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Let's Fall in Love - Ly Core - C.ly"
 

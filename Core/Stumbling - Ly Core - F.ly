@@ -57,7 +57,7 @@ refrainMelodyOne = \relative c' {
 
     r4 d4 f4 d4 % 9
 
-    \bar "$"
+    \bar "||-||"
     \xTextMark \markup{ \bold \box "B" }
 
     d8 e4 e8 ~ e2
@@ -70,7 +70,7 @@ refrainMelodyOne = \relative c' {
     g4 c8 b8 % 16
     bes8 a8 g4 r4 c4 % 17
 
-    \bar "$"
+    \bar "||-||"
     \break
     \xTextMark \markup{ \bold \box "A2" }
 
@@ -87,7 +87,7 @@ refrainMelodyOne = \relative c' {
     d1 % 24
     r4 a'4 a4 g4 % 25
 
-    \bar "$"
+    \bar "||-||"
     \xTextMark \markup{ \bold \box "C" }
 
     bes2 des,2 % 26

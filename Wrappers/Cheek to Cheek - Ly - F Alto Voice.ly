@@ -6,7 +6,7 @@
 
 instrument = "Doris Day Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Cheek to Cheek - Ly Core - C.ly"
 

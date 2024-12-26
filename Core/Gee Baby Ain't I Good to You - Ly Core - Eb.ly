@@ -69,10 +69,7 @@ refrainMelody = \relative f' {
   \break
   gf4 \tuplet 3/2 { gf8 ef4 } \tuplet 3/2 { gf8 gf8 f8~ } f8 ef8 | ef2. r4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   r8 f8 \tuplet 3/2 { f8 e8 f8 } \tuplet 3/2 { f8 ef8 gf8~ } gf8 f8 |
   r8 fs8 \tuplet 3/2 { g8 c8 bf8~ } bf2 |

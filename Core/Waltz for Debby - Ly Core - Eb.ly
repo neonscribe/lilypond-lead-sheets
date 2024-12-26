@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   g2 af4 | g2 d4 | ef4 g4 bf4 | d4 ef4 c4 |
   bf2.~ | bf2.~ | bf2.~ | bf2. \daCapo |
 
-  \bar "$"
+  \bar "||-||"
 
   \textCodaBreak
 

@@ -6,7 +6,7 @@
 
 instrument = "Ella Fitzgerald Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Don't Fence Me In - Ly Core - F.ly"
 

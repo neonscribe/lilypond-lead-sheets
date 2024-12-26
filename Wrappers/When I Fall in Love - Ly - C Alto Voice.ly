@@ -6,7 +6,7 @@
 
 instrument = "Alto Voice Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/When I Fall in Love - Ly Core - Eb.ly"
 

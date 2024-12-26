@@ -4,6 +4,6 @@
 
 instrument = "Ella Fitzgerald Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/But Not for Me - Ly Core - Eb.ly"

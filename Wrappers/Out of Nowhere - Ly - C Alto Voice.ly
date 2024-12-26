@@ -4,6 +4,6 @@
 
 instrument = "Ella Fitzgerald (with Chick Webb) Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Out of Nowhere - Ly Core - G.ly"

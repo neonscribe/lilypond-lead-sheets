@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \tempo "Medium"
 
   \partial 4 bf4 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -75,28 +75,19 @@ refrainMelody = \relative f' {
   \break
   g1~ | g4 f4 f4 g4 | bf,1~ | bf2 c2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   ef4 d4 c4 bf4 | d2. e4 | g4. f8 f2~ | f2. g4 |
   \break
   bf4 a4 g4 f4 | g2 a4 bf4 | d4. c8 c2~ | c2 d2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   ef1~ | ef4 ef4 ef4 d4 | f1~ | f4 ef4 \tuplet 3/2 { d4 c4 bf4 } |
   \break
   d2 d2~ | d4 c4 bf4 a4 | c1~ | c2 bf2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
 
   a1~ | a4 g4 a4 bf4 | f1~ | f4 f4 f4 ef4 |
   \break

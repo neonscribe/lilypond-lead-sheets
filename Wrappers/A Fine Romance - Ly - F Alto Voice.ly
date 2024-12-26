@@ -6,7 +6,7 @@
 
 instrument = "Billie Holiday, Ella Fitzgerald Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/A Fine Romance - Ly Core - C.ly"
 

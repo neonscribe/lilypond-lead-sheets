@@ -4,6 +4,6 @@
 
 instrument = "Peggy Lee Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Alone Together - Ly Core - Dm.ly"

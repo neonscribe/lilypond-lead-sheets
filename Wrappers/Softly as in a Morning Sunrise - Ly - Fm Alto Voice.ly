@@ -4,6 +4,6 @@
 
 instrument = "Abbey Lincoln, June Christy Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Softly as in a Morning Sunrise - Ly Core - Cm.ly"

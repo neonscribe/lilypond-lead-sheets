@@ -32,7 +32,7 @@ bassIntro = \relative f' {
   \xTextMark \markup{ \bold \box "Intro/Outro" }
   
   c,4 g4 c4 b4 | bf4 f4 bf4 b4 | c4 g4 c4 b4 | bf4 f4 bf4 b4 |
-  \bar "$"
+  \bar "||"
 }
 
 refrainLyrics = \lyricmode {
@@ -72,10 +72,7 @@ refrainMelody = \relative f' {
   \break
   cs1~ | cs2 ef2 | e1~ | e1 |
 
-  \bar "$"
-  \break
-  
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   r2 f4-. e8 g8~ | g1 | r2 e4-. c8 bf8~ | bf1 |
   \break

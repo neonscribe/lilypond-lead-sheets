@@ -83,10 +83,7 @@ refrainMelody = \relative f' {
   \break
   bf2 a4 bf4 | c4 g2 c4 | d1~ | d4 d4 d4 d4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 a4 \textToCodaLastTime |
   \break

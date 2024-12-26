@@ -6,7 +6,7 @@
 
 instrument = "Sarah Vaughan, Dakota Staton Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/When Lights Are Low - Ly Core - Eb.ly"
 

@@ -6,7 +6,7 @@
 
 instrument = "June Christy, Margaret Whiting Key"
 whatKey = df
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/We Kiss in a Shadow - Ly Core - F.ly"
 

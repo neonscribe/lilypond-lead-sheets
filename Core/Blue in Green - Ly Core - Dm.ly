@@ -8,7 +8,7 @@
   title = "Blue in Green"
   subtitle = \instrument
   poet = ""
-  composer = "credited to Miles Davis, in fact composed by Bill Evans"
+  composer = "Bill Evans (credited to Miles Davis)"
   copyright = "© 1959 Jazz Horn Music"
 }
 
@@ -51,10 +51,7 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "A2" }
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
 
   \bar "|."
 }

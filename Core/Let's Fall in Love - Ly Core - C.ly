@@ -29,7 +29,7 @@ Now is the time for it, while we are young, let's fall in love.
 
 refrainLyricsTwo = \lyricmode {
 Let's close our eyes and make our own __ par -- a -- dise.
-Lit -- tle we know __ of it, still we can try __ to make a go _ _ _ of it. __
+Lit -- tle we know __ of it, still we can try __ to make a go _ _ _ of it. __ ""
 }
 
 refrainChords = \chordmode {
@@ -72,19 +72,13 @@ refrainMelody = \relative f' {
   } \volta 2 {
   e4.\repeatTie e8 e2~ | e1 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   e'1 | \tuplet 3/2 { d4 c4 b4 } a4 e8 f8 | fs2 b2~ | b2 a2 |
   \break
   d1 | \tuplet 3/2 { c4 b4 a4 } g4 e8 f8 | g2 bf2 | a2 b2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   c2 g4 e4 | a2 g8 b8 d8 c8~ | c2 g4 e4 | a2 f8 e8 d8 g8~ |
   \break

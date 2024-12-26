@@ -6,7 +6,7 @@
 
 instrument = "Blossom Dearie Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Moonlight Saving Time - Ly Core - F.ly"
 

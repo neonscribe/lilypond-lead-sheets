@@ -4,7 +4,7 @@
 
 instrument = "Dakota Staton Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 objectGenderMale = ##t
 

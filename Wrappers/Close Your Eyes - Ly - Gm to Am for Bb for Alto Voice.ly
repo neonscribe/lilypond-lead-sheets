@@ -6,7 +6,7 @@
 
 instrument = "Bb for Alto Voice"
 whatKey = a
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Close Your Eyes - Ly Core - Fm.ly"
 

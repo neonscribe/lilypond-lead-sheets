@@ -72,12 +72,13 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Slow, straight eighths" 4 = 76
 
-  \sect "Intro"
+  \sectStart "Intro"
+
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
 
-  \sect "Verse"
+  \sectNoBar "Verse"
+
   \bar ".|:-||"
   \repeat volta 2 {
     r4 f8 f8 f8 f8 ef8 d8 | f8 bf,4 bf8~ bf2 |
@@ -85,35 +86,34 @@ refrainMelody = \relative f' {
     \break
     r4 ef8 ef8 ef8 d8 d8 c8 | d8 bf4 bf8~ bf2 |
     r8 bf8 bf8 d8 bf8 bf4 bf8~ | bf2. r4 |
-    \break
   }
   
   \sect "Bridge"
+
+  \bar ":..:"
   \repeat volta 2 {
     r8 bf'8 bf8 bf8 bf8 bf8 a8 g8 | f4 bf,8 bf8~ bf4 r4 |
     r8 d8 d8 ef8 d8 c8 c8 bf8 | bf2 r2 |
     \break
     r8 bf'8 bf8 bf8 c8 bf8 a8 g8 | f8 bf,4 bf8~ bf2 |
     d8 d8 d8 d8 d8 c8 bf8 c8 | c1 |
-    \bar "$"
-    \break
-   \sect "Verse"
-   r4 f8 f8 f8 f8 ef8 d8 | f8 bf,4 bf8~ bf2 |
+
+    \sect "Verse"
+
+    r4 f8 f8 f8 f8 ef8 d8 | f8 bf,4 bf8~ bf2 |
     r4 f'8 f8 f8 f8 ef8 d8 | ef8 bf4 bf8~ bf2 |
     \break
     r4 ef8 ef8 ef8 d8 d8 c8 | d8 bf4 bf8~ bf2 |
     r8 bf8 bf8 d8 bf8 bf4 bf8~ | bf2. r4 |
-    \break
   }
   \alternative {
     {
       \sect "Solo"
       \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
       \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-      \break
       }
     {
-      \sect "Coda"
+      \sectNoBar "Coda"
       r8 bf8^\markup \italic "rit." bf8 d8 bf8 bf4 bf8~ | bf2\fermata r2 |
       }
   }

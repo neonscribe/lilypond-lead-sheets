@@ -66,10 +66,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   c1\repeatTie | r2 r8 g''4 g8~ |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   g4 \tuplet 3/2 { b,16 c16 b16 } a8 bf4 g'8 e8 | 
   f4 \tuplet 3/2 { a,16 bf16 a16 } g8 af4 f'8 d8 |
@@ -80,10 +77,7 @@ refrainMelody = \relative f' {
   df4 \tuplet 3/2 { f,16 gf16 f16 } ef8 e4. ef8 |
   r8 g,8 c8 d8 ef8 f8 g8 ef8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   fs2 f4. ef8 | r8 g,8 c8 d8 ef8 f8 g8 bf8 | a2 af4. g8 | r8 g,8 c8 d8 ef8 f8 g8 ef8 |
   \break
@@ -104,7 +98,7 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \bar "$"
+  \bar "||-||"
   \break
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

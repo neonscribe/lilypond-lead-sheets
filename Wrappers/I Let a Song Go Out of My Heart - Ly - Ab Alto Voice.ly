@@ -4,6 +4,6 @@
 
 instrument = "Catherine Russell Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/I Let a Song Go Out of My Heart - Ly Core - Eb.ly"

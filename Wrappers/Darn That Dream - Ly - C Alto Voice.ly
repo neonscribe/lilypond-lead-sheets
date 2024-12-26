@@ -3,6 +3,6 @@
 
 instrument = "Billie Holiday Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Darn That Dream - Ly Core - G.ly"

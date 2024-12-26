@@ -6,7 +6,7 @@
 
 instrument = "Helen Merrill Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Beautiful Love - Ly Core - Dm.ly"
 

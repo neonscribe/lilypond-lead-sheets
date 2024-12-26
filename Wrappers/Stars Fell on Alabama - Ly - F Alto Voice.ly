@@ -4,6 +4,6 @@
 
 instrument = "Billie Holiday, Doris Day Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Stars Fell on Alabama - Ly Core - C.ly"

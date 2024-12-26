@@ -33,7 +33,7 @@ refrainMelody = \relative f' {
   \tempo "Medium" 4 = 160
 
   \partial 2. \tuplet 3/2 { a8 bf8 a8 } gs4 a4 |
-  \bar "$"
+  \bar "||"
   
   bf4. a8~ a2 | r4 r8 a8 gs4 a4 | bf4. a8~ a2 | r2 a4 d4 |
   \break

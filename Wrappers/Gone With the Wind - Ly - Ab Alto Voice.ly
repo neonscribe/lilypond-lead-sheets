@@ -6,7 +6,7 @@
 
 instrument = "Maxine Sullivan (with Claude Thornhill), Sarah Vaughan Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Gone With the Wind - Ly Core - Eb.ly"
 

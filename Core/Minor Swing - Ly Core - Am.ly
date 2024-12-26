@@ -41,7 +41,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Swing" 4 = 210
 
-  \xTextMark \markup{ \bold \box "Intro" }
+  \sectStart "Intro"
   
   \bar ".|:"
   \repeat volta 2 {
@@ -51,16 +51,15 @@ refrainMelody = \relative f' {
   <e, a>4 <a c>4 \afterGrace <c e>2( { <d f>8 <c e>8) } | <b d>4 <d f>8 <f a>8 r2 |
   <d fs b>4 r4^"Bass Break" r2 | r1 |
   }
-  \break
 
-  \xTextMark \markup{ \bold \box "Solos" }
+  \sect "Solos"
   
   \bar ":|.|:"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \bar "$"
+  \bar "||-||"
   \break
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
@@ -68,9 +67,7 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   }
 
-  \break
-
-  \xTextMark \markup{ \bold \box "Outro" }
+  \sectNoBar "Outro"
   
   \bar ":|.|:"
   \repeat volta 2 {

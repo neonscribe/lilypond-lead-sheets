@@ -6,7 +6,7 @@
 
 instrument = "Betty Carter, Ella Fitzgerald Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Moonlight in Vermont - Ly Core - Eb.ly"
 

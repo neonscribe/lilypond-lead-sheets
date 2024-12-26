@@ -4,6 +4,6 @@
 
 instrument = "Abbey Lincoln, Eliane Elias Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/This Can't Be Love - Ly Core - G.ly"

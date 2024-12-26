@@ -6,7 +6,7 @@
 
 instrument = "Ella Fitzgerald Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Between the Devil and the Deep Blue Sea - Ly Core - G.ly"
 

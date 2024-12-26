@@ -6,7 +6,7 @@
 
 instrument = "Teresa Brewer Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 femaleSinger = ##t
 

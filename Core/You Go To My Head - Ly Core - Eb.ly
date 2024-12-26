@@ -66,8 +66,8 @@ refrainMelody = \relative g' {
   \tempo "Medium Bossa Nova"
 
   \partial 4 bf4 |
-  
-  \bar "$"
+  \bar "||"
+
   \xTextMark \markup{ \bold \box "A1" }
 
   bf'8 bf8 bf8 bf8~ bf2 | r4 bf8 bf8 af8 af8 bf8 bf8 | f8 f8 ef8 f8~ f2 |
@@ -76,10 +76,7 @@ refrainMelody = \relative g' {
   f8 f8 ef8 f8~ f2 | r4 ef8 ef8 gf8 gf8 f8 f8 |
   f8 ef8 ef8 ef8~ ef2 | r2 r4 bf4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
 
   bf'8 bf8 bf8 bf8~ bf2 | r4 bf8 bf8 af8 af8 bf8 bf8 | f8 f8 ef8 f8~ f2 |
   r4 ef8 ef8 gf8 gf8 f8 f8 |
@@ -87,10 +84,7 @@ refrainMelody = \relative g' {
   f8 f8 ef8 f8~ f2 | r4 ef8 ef8 gf8 gf8 f8 f8 |
   f'8 ef8 ef8 ef8~ ef2 | r2 r4 ef,4 |
     
-  \bar "$"
-  \break
-
-  \xTextMark \markup { \bold \box "B" }
+  \sect "B"
 
   f8 f8 f8 c'8~ c4 c8 c8 | fs,8 fs8 fs8 c'8~ c4 c8 c8 |
   bf4 g8 ef8 c8 ef8 g8 c8~ | c2. bf8 c8 |
@@ -100,7 +94,7 @@ refrainMelody = \relative g' {
   \bar "||"
   \xPageBreak
   
-  \xTextMark \markup { \bold \box "C" }
+  \sectNoBar "C"
 
   bf'8 bf8 bf8 bf8~ bf2 | r4 bf8 bf8 af8 af8 bf8 bf8 | f8 f8 ef8 f8~ f2 |
   r4 ef8 ef8 gf8 gf8 f8 f8 |
@@ -108,10 +102,7 @@ refrainMelody = \relative g' {
   f8 f8 ef8 f8~ f2 | r4 ef8 ef8 gf8 gf8 f8 f8 |
   f8 f8 ef8 bf'8~ bf2~ | bf2. bf8 b8 |
 
-  \break
-  \bar "$"
-
-  \xTextMark \markup { \bold \box "D" }
+  \sect "D"
 
   c4 c,4 d4 ef4 | g8 f4 af8~ af2 |
   \tuplet 3/2 { g4 ef4 g4 } \tuplet 3/2 { bf4 g4 bf4 } |

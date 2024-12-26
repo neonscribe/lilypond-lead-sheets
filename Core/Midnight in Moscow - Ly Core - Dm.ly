@@ -45,7 +45,7 @@ refrainMelody = \relative f' {
   \tempo "Swing" 4 = 170
 
   \partial 2 a,4 cs4 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A" }
   
@@ -53,19 +53,13 @@ refrainMelody = \relative f' {
   \break
   f4 a4 c4 c4 | d2 c4 bf4 | a1 | b2 cs2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B1" }
+  \sect "B1"
   
   e4 d4 a2~ | a4 f4 e4 d4 | a'4 g4 bf2~ | bf2 c8. c16 bf4 |
   \break
   a2 g4 f4 | a4 g4 f4 e4 | d2. r4 | b'2 cs2 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B2" }
+  \sect "B2"
   
   e4 d4 a2~ | a4 f4 e4 d4 | a'4 g4 bf2~ | bf2 c8. c16 bf4 |
   \break

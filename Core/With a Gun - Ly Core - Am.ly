@@ -108,7 +108,7 @@ refrainMelody = \relative f'' {
   
   \xTextMark \markup{ "Chorus" }
   r2 bf4 c8 d8~ |
-  \bar "$"
+  \bar "||-||"
   d2 r2 | r2 bf4 c8 d8~ | d2 r2 |
   r2 bf4 c4 | d2 c4 d4 | e2 d4 c4 | bf2 r2 |
   r2 bf4 c4 | f4. f8 g8 f4. | d2 f4 d4 | cs2 d4 cs4 |
@@ -118,7 +118,7 @@ refrainMelody = \relative f'' {
     { a2 r2 | r1 | }
     { a2 r2 | r2 c4 d4 | }
   }
-  \bar "$"
+  \bar "||-||"
   \break
   
   \xTextMark \markup{ "Bridge" }
@@ -127,7 +127,7 @@ refrainMelody = \relative f'' {
   d2 d2 | e2 d4 c4 | a2 r4 a4 | e'2 d4 c4 | a2 r2 |
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \dalSegno | 
-  \bar "$"
+  \bar "||-||"
 
   \textCodaBreak
 

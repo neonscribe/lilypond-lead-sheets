@@ -6,7 +6,7 @@
 
 instrument = "Patti Page, Sarah Vaughan Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Once in a While - Ly Core - Eb.ly"
 

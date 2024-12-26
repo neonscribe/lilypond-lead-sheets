@@ -4,6 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = ef
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Black Orpheus - Ly Core - Am.ly"

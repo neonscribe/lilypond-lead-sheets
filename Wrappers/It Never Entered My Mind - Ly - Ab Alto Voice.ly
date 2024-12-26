@@ -6,7 +6,7 @@
 
 instrument = "Alto Voice Key"
 whatKey = af
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/It Never Entered My Mind - Ly Core - F.ly"
 

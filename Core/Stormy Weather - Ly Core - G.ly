@@ -33,7 +33,7 @@ bare, gloom and mis -- 'ry ev -- 'ry -- where, storm -- y weath -- er. __
 Just can't get my poor self to -- geth -- er, __
 I'm wea -- ry all __ the
 _ _ _
-time, __ the time. __
+time, __ the time. __ ""
 }
 
 refrainChords = \chordmode {
@@ -78,10 +78,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   b8( g4.~ g4) g4 | e8( d4.~ d2) |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   e8 fs8 \tuplet 3/2 { g8 a8 g8~ } g8 g8 g8 g8 | g4. g8 b8 g4. |
   e8 fs8 \tuplet 3/2 { g8 a8 g8~ } g8 g8 g8 g8 | g4. g8 e8 d4. |
@@ -89,10 +86,7 @@ refrainMelody = \relative f' {
   e8 fs8 \tuplet 3/2 { g8 a8 g8~ } g8 g8 g8 g8 | g4. g8 c8 b4. |
   d4 b8 a8 g4 e4 | a2. as8 b8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   d2. as8 b8 | d8 b8 d8 df8 c4 as8 b8 | d8 d,4.~ d2 | a'8 a8 a8 a8 a4 g8 e8 |
   \break

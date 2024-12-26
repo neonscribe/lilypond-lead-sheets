@@ -6,7 +6,7 @@
 
 instrument = "Blossom Dearie Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Thou Swell - Ly Core - Eb.ly"
 

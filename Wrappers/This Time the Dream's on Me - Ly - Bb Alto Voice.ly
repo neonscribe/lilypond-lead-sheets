@@ -6,7 +6,7 @@
 
 instrument = "Annie Ross Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/This Time the Dream's on Me - Ly Core - G.ly"
 

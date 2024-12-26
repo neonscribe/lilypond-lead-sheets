@@ -4,6 +4,6 @@
 
 instrument = "Sarah Vaughan Key"
 whatKey = d
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Lullaby of Birdland - Ly Core - Ab.ly"

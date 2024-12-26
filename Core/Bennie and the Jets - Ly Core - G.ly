@@ -91,18 +91,12 @@ refrainMelody = \relative f' {
   r16 a16 e'16 d16 e16 d8 e16~ e16 d16 d16 b16~ b8 \tuplet 3/2 { d16 b16 e16~( } |
   e16 b8.~ b8) r8 r4 r8 r16 d16 | e16 d16 e16 d16 e8 d16 e16~ e16 d16 d16 b16 d8 b16 e16~ | e2 r4 r16 g8. |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Pre-Chorus" }
+  \sect "Pre-Chorus"
   
   g16 g16 g16 g16( e16) e16 e16 d16 e16 d8 d16~ d8 g8 |
   r16 b,16 c16 e16~ e16 b8 a16~ a8 r16 a16 a16 a16 a16 a16 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Chorus" }
+  \sect "Chorus"
   
 a16 a16 a16 b16 e,4 r4 r8 r16 g'16~ | g16 e16 e16 e16( d16) d16 d16 d16 b16 e8. r16 fs8 g16~ |
   g16 e16 e16( d16) e16 b16 a8 r4 r16 d16 e16 d16 |

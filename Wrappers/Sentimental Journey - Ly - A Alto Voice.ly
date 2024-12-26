@@ -6,7 +6,7 @@
 
 instrument = "Doris Day Key"
 whatKey = a,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Sentimental Journey - Ly Core - C.ly"
 

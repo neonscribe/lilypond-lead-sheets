@@ -50,10 +50,7 @@ refrainMelody = \relative f' {
   r4 <d c fs>4 <d c fs>8 <d c fs>8 r8 <d c fs>8~ |
   <d c fs>4 <d c fs>4 <d c fs>8 <d c fs>8 r8 <d c fs>8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Head" }
+  \sect "Head"
   
   r4 \acciaccatura af'8 a4 g8 f8 d8 f8 | r8 g4.~ g2 |
   r4 \acciaccatura af8 a4 g8 f8 d8 f8~ | f8 d8 c8 <d c>8~ <d c>2 |
@@ -62,7 +59,7 @@ refrainMelody = \relative f' {
   r8 gs8 a8 c8~ c4 \tuplet 3/2 { a16 g16 f16 } d8 | g8 d8 f4 d2 |
   \break
   
-  \bar "$"
+  \bar "||-||"
   \break
   
   r2 r8 f8 e8 d8~ | d8 f8 r8 e8 r8 d8 f4 | 
@@ -76,7 +73,7 @@ refrainMelody = \relative f' {
   r4 e2 fs4 | e8 d8 b8 e8 r2 | r8 e8 e8 d8 e4 r8 d8 |
   <a' e>8 <b fs>8~ <b fs>8 <c g>8~ <c g>2 |
   
-  \bar "$"
+  \bar "||-||"
   \break
   
   

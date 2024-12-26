@@ -6,7 +6,7 @@
 
 instrument = "Dinah Washington Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/September in the Rain - Ly Core - Eb.ly"
 

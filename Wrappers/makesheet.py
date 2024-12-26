@@ -273,22 +273,13 @@ refrainMelody = \\relative f' {{
   \\clef \\whatClef
   \\tempo "Medium" 4 = 120
 
-  \\xTextMark \\markup{{ \\bold \\box "A1" }}
+  \\sectStart "A1"
   
-  \\bar "||"
-  \\break
-
-  \\xTextMark \\markup{{ \\bold \\box "B" }}
+  \\sect "B"
   
-  \\bar "||"
-  \\break
+  \\sect "A2"
 
-  \\xTextMark \\markup{{ \\bold \\box "A2" }}
-  
-  \\bar "||"
-  \\break
-
-  \\xTextMark \\markup{{ \\bold \\box "C" }}
+  \\sect "C"
 
   \\bar "|."
 }}

@@ -4,6 +4,6 @@
 
 instrument = "Nancy Wilson Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/The Folks Who Live on the Hill - Ly Core - C.ly"

@@ -4,6 +4,6 @@
 
 instrument = "Doris Day, Jo Stafford, Keely Smith Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Autumn Leaves - Ly Core - Gm.ly"

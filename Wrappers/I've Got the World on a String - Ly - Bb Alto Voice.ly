@@ -4,6 +4,6 @@
 
 instrument = "Peggy Lee Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/I've Got the World on a String - Ly Core - F.ly"

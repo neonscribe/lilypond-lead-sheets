@@ -6,7 +6,7 @@
 
 instrument = "Sheila Jordan Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/If You Could See Me Now - Ly Core - Eb.ly"
 

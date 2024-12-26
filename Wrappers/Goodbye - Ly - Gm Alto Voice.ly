@@ -6,7 +6,7 @@
 
 instrument = "June Christy, Linda Ronstadt Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Goodbye - Ly Core - Cm.ly"
 

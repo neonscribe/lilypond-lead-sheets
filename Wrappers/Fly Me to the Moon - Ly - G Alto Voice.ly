@@ -6,7 +6,7 @@
 
 instrument = "Peggy Lee Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Fly Me to the Moon - Ly Core - C.ly"
 

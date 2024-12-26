@@ -6,7 +6,7 @@
 
 instrument = "Doris Day Key"
 whatKey = f
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Have Yourself a Merry Little Christmas - Ly Core - Bb.ly"
 

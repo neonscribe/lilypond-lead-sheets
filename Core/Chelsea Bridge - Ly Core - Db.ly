@@ -61,10 +61,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   df,2.\repeatTie af'8 a8 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   \key e \major
   
@@ -72,10 +69,7 @@ refrainMelody = \relative f' {
   \break
   gs4. a8 e'4 d8 c8 | b8 d4.~ d4 g,8 a8 | bf4 g8 bf8 d4 bf8 d8 | f4 bf,,8 c8 df8 ef8 \tuplet 3/2 { f8 g8 af8 } |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   a2. bf4 | g2. af4 | a4 bf4 g4 af4 | d,1 |
   \break

@@ -30,7 +30,7 @@ bassIntro = \relative f' {
   f,,8_"(Bass)" f8 gs8 a8 f8 f8 gs8 a8 | f8 f8 gs8 a8 f8 f8 gs8 a8 |
   f8 f8 gs8 a8 f8 f8 gs8 a8 | f8 f8 gs8 a8 f8 f8 gs8 a8 |
 
-  \bar "$"
+  \bar "||-||"
 }
 
 refrainLyrics = \lyricmode {
@@ -79,10 +79,7 @@ refrainMelody = \relative f' {
   } {
   ef8 f8 d8 d8 c8 c8 bf8 bf8 |
   } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Interlude" }
+  \sect "Interlude"
 
   a8 r8 a''4 r4 g8 g8 | r4 a4 r4 r8 c,,8 |
   f4 af8 f8 bf8 af4. | f4 f4 f8 f8 f8 r8 |
@@ -90,18 +87,12 @@ refrainMelody = \relative f' {
   f,4 af8 f8 bf8 bf8 af8 f8 | af8 bf8~ bf2 f8 af8~ |
   af2.~ af8 d8 | af8 f8 r4 r2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Turnaround" }
+  \sect "Turnaround"
 
   f'8. a16 c8 f8 a8 g8 f8 d8 | b8 c8 r4 r4 r8 c8 |
   g'4 g4 e8 c8 r8 c8 | f4 f4 ef16 f16 ef16 c16 bf8 gs8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   f8. a16 c8 f8 a8 g8 f8 d8 | b8 c8 r4 r2 |
   f,8. a16 c8 f8 a8 g8 f8 d8 | c2. d8 af8~ |

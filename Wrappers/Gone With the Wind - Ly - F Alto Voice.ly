@@ -6,7 +6,7 @@
 
 instrument = "Chris Connor Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Gone With the Wind - Ly Core - Eb.ly"
 

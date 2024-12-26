@@ -79,6 +79,7 @@ refrainMelody = \relative f' {
   
   \partial 4 bf8 bf8 |
   
+  \bar ".|:"
   \repeat volta 2 {
     
     bf2. bf8 bf8 | g4 bf2 bf8 bf8 | bf2. bf8 bf8 | af4 bf2 r8 bf8 |
@@ -97,7 +98,7 @@ refrainMelody = \relative f' {
     d8 d8 b'8 b8 e,8 e8 c'8 c8 | b2. r4 |
     f8 f8 d'8 d8 g,8 g8 ef'8 ef8 | d4 bf2 bf4 |
     d8 d8 g,8 g8 c8 c8 f,8 f8 | bf2. bf 8 bf8 |
-    \bar "$"
+    \bar "||-||"
     \break
 
     bf2. bf8 bf8 | g4 bf2 bf8 bf8 | bf2. bf8 bf8 | af4 bf2 r8 bf8 |

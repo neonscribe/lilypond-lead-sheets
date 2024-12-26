@@ -6,7 +6,7 @@
 
 instrument = "Rosemary Clooney Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/The Lady Is a Tramp - Ly Core - C.ly"
 

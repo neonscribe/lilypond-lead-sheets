@@ -4,6 +4,6 @@
 
 instrument = "Margaret Whiting Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Long Ago and Far Away - Ly Core - F.ly"

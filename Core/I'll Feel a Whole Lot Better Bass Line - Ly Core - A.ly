@@ -77,24 +77,18 @@ refrainMelody = \relative g {
     a,4 \xNote { a8 } a4 cs8 e8 cs8 | e4 \xNote { e8 } e4. \xNote { e8 } e8 |
     d4 \xNote { d8 } d8~ d4 d4 \textToCoda |
     
-  }
-  
-  \alternative {
-    {
+    \alternative { \volta 1 {
       e8 e8 e8 e8 e8 e8 e8 gs8 |
       \break
       a4 a4 e8 fs8 gs8 a8~ | a4 a4 e8 e8 fs8 e8 |
     }
-    {
+    \volta 2 {
       g8 g8 g8 g8 d4 g4 |
       a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |
-    }
-  }
-  \bar "$"
+    } } }
 
-  \break
-  \xTextMark \markup { "Solo" }
-  
+  \sect "Solo"
+
   a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |
   a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |
   \break
@@ -111,7 +105,8 @@ refrainMelody = \relative g {
   a4 a4 e8 fs8 gs8 a8~ | a4 a4 e8 e8 gs8
   \dalSegno
   e8 |
-  \bar "$"
+
+  \bar "||-|."
   
   \textCodaBreak
 

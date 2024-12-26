@@ -38,6 +38,7 @@ refrainMelody = \relative f' {
   \tempo "Medium" 4 = 166
 
   \partial 2 e4. g8 |
+  \bar "||"
   
   a2 a2~ | a2 e4. g8 | a2 a2~ | a2 d,4. f8 |
   a2 a2~ | a2 d,4. f8 | a1~ | a2 g4. b8 |
@@ -48,7 +49,7 @@ refrainMelody = \relative f' {
   c'2 d,2~ | d2 c'4 b4 | a1~ | a2 e4. g8 |
   
   \break
-  \bar "$"
+  \bar "||-||"
 
   a2 a2~ | a2 e4. g8 | a2 a2~ | a2 d,4. f8 |
   a2 a2~ | a2 d,4. f8 | a1~ | a2 g4. b8 |

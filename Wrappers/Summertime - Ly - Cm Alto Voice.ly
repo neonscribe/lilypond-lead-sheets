@@ -4,6 +4,6 @@
 
 instrument = "Mildred Bailey Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Summertime - Ly Core - Am.ly"

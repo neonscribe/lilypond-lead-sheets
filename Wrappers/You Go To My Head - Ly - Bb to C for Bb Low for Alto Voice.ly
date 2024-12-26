@@ -4,6 +4,6 @@
 
 instrument = "Bb Low for Alto Voice Key"
 whatKey = c,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/You Go To My Head - Ly Core - Eb.ly"

@@ -32,8 +32,8 @@ refrainChords = \chordmode {
   d1:m e2:m7.5- a2:7.9- d2:m e2:7 a2:m d2:9
   c2 a2:m d1:9 d2:m g4:7 g4:aug c1
 
-  e1:7 f2. a4:m e1:7 f2. a4:m
-  e1:7 f2. a4:m d1:9 g4:9 d4:m7.5- g2:7
+  e1:7 f4 \chordSlash 2 a4:m e1:7 f4 \chordSlash 2 a4:m
+  e1:7 f4 \chordSlash 2 a4:m d1:9 g4:9 d4:m7.5- g2:7
 
   d1:m e2:m7.5- a2:7.9- d2:m e2:7 a2:m d2:9
   c2 a2:m d1:9 d2:m g4:7 g4:aug c1
@@ -53,28 +53,19 @@ refrainMelody = \relative f' {
   \break
   r8 e8 e8 c8 c8 a8 a8 e8 | e1 | r4 d8 e8 g4 g4 | g1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   r8 f8 f8 f8 a2 | r8 g8 g8 g8 bf2 | r8 a8 a8 a8 b2 | r8 c8 c8 c8 e2 |
   \break
   r8 e8 e8 c8 c8 a8 a8 e8 | e1 | r4 d8 e8 g4 g4 | g1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   b8 b4 b8 b8 c4 d8 | c8 c4.~ c2 | b8 b4 b8 b8 c4 d8 | c1 |
   \break
   b8 b4 b8 b8 c4 d8 | c8 c4.~ c4 c8 c8 | e4 e4 e4 a,4 | d1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   r8 f,8 f8 f8 a2 | r8 g8 g8 g8 bf2 | r8 a8 a8 a8 b2 | r8 c8 c8 c8 e2 |
   \break

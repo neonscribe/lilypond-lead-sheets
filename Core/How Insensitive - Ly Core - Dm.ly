@@ -139,27 +139,18 @@ refrainMelody = \relative f' {
   a1~ | a4 bf8 a8~ a8 bf4 a8~ | a1~ | a4 bf8 a8~ a8 bf4 a8~ |
   a2~ a8 gs4 a8 | c8 b4 bf8~ bf8 a4 a8~ | a4. g8~ g2~ | g1 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   g1~ | g4 a8 g8~ g8 a4 g8~ | g1~ | g4 a8 g8~ g8 a4 g8~ |
   g2 r8 fs4 g8 | bf8 a4 gs8~ gs8 g4 g8~ | g4. f8~ f2~ | f1 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   f1~ | f4 g8 f8~ f8 g4 f8~ | f1~ | f4 g8 f8~ f8 g4 a8~ |
   \break
   a2. f4 | d4 e8 d8~ d8 e4 f8~ | f2 f2~ | f1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A4" }
+  \sect "A4"
   
   f1~ | f4 g8 f8~ f8 g4 e8~ | e1~ | e4 \segnoSign f8 e8~ e8 f4 e8~ |
   \break

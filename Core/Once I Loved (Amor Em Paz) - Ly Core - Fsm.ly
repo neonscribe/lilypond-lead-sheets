@@ -64,9 +64,9 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Slow Bossa Nova"
+  \tempo "Medium Slow Bossa Nova" 4 = 100
 
-  \xTextMark \markup{ \bold \box "A" }
+  \sectStart "A1,A2"
   
   \bar ".|:"
 
@@ -87,9 +87,7 @@ refrainMelody = \relative f' {
   b8 as4 cs8~ cs2 | b8 a4 cs4 b4 gs8~ |
   } }
 
-  \bar "$"
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   gs1 | b2~ b8 a4 fs8~ |
   \break

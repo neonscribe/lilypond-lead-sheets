@@ -6,7 +6,7 @@
 
 instrument = "Helen O' Connell Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Once in a While - Ly Core - Eb.ly"
 

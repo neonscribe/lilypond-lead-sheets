@@ -6,7 +6,7 @@
 
 instrument = "Julie London Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Goodbye - Ly Core - Cm.ly"
 

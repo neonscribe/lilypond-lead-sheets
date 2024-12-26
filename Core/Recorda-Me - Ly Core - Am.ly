@@ -36,9 +36,8 @@ refrainMelody = \relative f' {
   \tempo "Medium Bossa" 4 = 130
 
   r4 r8 e8 b'8 c8 e,8 c8 |
-  \bar "$"
 
-  \xTextMark \markup{ \bold \box "A" }
+  \sectNoBreak "A"
   
   fs2 r8 g8 a8 b8 | b4 a8 b8~ b8 c8 e,8 c8 |
   fs8 g4 a8~ a8 b4 b8~ | b8 a8 b8 a8 d8 ef8 g,8 ef8 |
@@ -46,10 +45,7 @@ refrainMelody = \relative f' {
   a2 r8 bf8 c8 d8 | d4 c8 d8~ d8 ef8 g,8 ef8 |
   a8 bf4 c8~ c8 d4 d8-. | r4 r8 c8 d4 c8 f,8~ |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   f1 | r8 ef8 f8 c'8~ c4 bf8 g8 | ef2~ ef8 d8 ef8 bf'8~ | bf2 af4-. f8 df8~ |
   \break

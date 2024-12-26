@@ -4,6 +4,6 @@
 
 instrument = "Ivie Anderson (with Duke Ellington) Key"
 whatKey = bf
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Mood Indigo - Ly Core - Ab.ly"

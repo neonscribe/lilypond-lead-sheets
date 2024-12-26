@@ -100,7 +100,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 60
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectStart "A1,A2"
 
   \repeat volta 2 {
   r8 c8 a8 g8 af8 df8 bf8 af8 | a8 c4.~ c2 | r8 g8 f8 ef8 g8 c8 g8 f8 |
@@ -111,18 +111,14 @@ refrainMelody = \relative f' {
   r8 c,8 d8 c8 ef8 c8 ef4 | c1 |
   } }
 
-  \bar "$"
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
 
   r8 bf'8 bf8 af8 bf4. af8 | bf8 df8 bf8 af8 bf8 df4. |
   bf8 df8 bf8 af8 bf4 af8 f8~ | f2 r8 df8 c8 df8 |
   af'2~ af8 gf8 ff8 ef8 | gf4 af4 bf8 cf4. |
   bf8 f8 g8 af8 \tuplet 3/2 { bf4 bf4 bf4 } | g2 g2 |
   
-  \bar "$"
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sectNoBreak "A3"
 
   r8 c8 a8 g8 af8 df8 bf8 af8 | a8 c4.~ c2 | r8 g8 f8 ef8 g8 c8 g8 f8 |
   ef2. r8 d8 | ef8 ef8 d8 ef8 g8( f4) c8 | \tuplet 3/2 { ef8 f8 ef8 } d8 ef8 g8( f4.) |

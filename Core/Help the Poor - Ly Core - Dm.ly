@@ -62,7 +62,8 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "Intro" }
   
   \partial 4 a8 c8 |
-  \bar "$"
+  \bar "||"
+  
   d2. a8 c8 | d8. f32 d32 c8 d8 r4 a8 c8 | d2. a8 c8 | d8. f32 d32 c8 d8 r8
   
   \break
@@ -86,22 +87,19 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r1 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Bridge" }
+  \sect "Bridge"
   
   r8 f8 g8 g8 g8 f8 g8 a8~ | a2 r2 | r8 f8 f8 a8 a8 g8 f8 a8~ | a2 r2 |
   \break
   r8 d8 d16 d16 e8 e8 e8 d8 f8 | d2 r8 d8 e8 d8 | 
   e8 d8 e4 r8 e8 e8 f8~ | f4\bendAfter #-1 r4 r8 d,8 f8 a8\laissezVibrer \dalSegno |
 
-  \bar "$"
+  \bar "||-||"
 
   \textCodaBreak
   
   r8 d,8 f8 a8~ a8 a8 g8 f8 | 
-  \bar "$"
+  \bar "||"
   f8( d4.) r2 | r8 g8 g8 f8 a8 f8 g4 | f8( d4.) r2 |
 
   \bar "|."

@@ -4,6 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = a,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Ask Me Now - Ly Core - Db.ly"

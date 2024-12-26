@@ -54,6 +54,7 @@ refrainMelody = \relative f' {
   \tempo "Slow Waltz" 4 = 100
 
   \partial 2 d4 d4 |
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -62,29 +63,20 @@ refrainMelody = \relative f' {
   \break
   d2. | c2. | e2. | d2 d4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   d2 g4 | g4 fs4 e4 |
   cs2 e4 | d2. |
   \break
   d2. | c2. | a'2. | g2 g4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   g2 bf4 | bf4 a4 g4 | f2 a4 | a4 g4 f4 |
   \break
   ef2 g4 | g4 f4. ef8 | d2.~ | d4 d4 d4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   d2 g4 | g4 fs4 e4 | cs2 e4 | d2. |
   \break

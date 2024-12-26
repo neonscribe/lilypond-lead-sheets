@@ -4,6 +4,6 @@
 
 instrument = "Astrud Gilberto Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/The Gentle Rain - Ly Core - Cm.ly"

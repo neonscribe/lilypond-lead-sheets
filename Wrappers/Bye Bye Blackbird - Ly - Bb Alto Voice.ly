@@ -4,6 +4,6 @@
 
 instrument = "Etta Jones Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Bye Bye Blackbird - Ly Core - F.ly"

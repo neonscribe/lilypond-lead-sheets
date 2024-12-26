@@ -6,7 +6,7 @@
 
 instrument = "Sarah Vaughan Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Bewitched - Ly Core - C.ly"
 

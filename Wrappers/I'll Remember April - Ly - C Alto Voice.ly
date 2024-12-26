@@ -4,6 +4,6 @@
 
 instrument = "Doris Day, June Christy, Carmen McRae Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/I'll Remember April - Ly Core - G.ly"

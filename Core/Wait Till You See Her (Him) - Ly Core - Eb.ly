@@ -78,31 +78,25 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempo "Med. Jazz Waltz"
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectStart "A1"
   
   c4 c4. af8 | g2 f4 | ef4 ef4. f8 | c2. |
   \break
   c4 ef4. af8 | c2 c4 | bf2.~ | bf2. |
 
-  \break
-  \bar "$"
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
 
   c4 c4. af8 | g2 f4 | ef4 ef4. f8 | c2. |
   \break
   c4 ef4. af8 | c2 c4 | bf2.~ | bf2. |
 
-  \break
-  \bar "$"
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   ef4 ef4. c8 | bf2 a4 | g4 g4. a8 | d,2. |
   \break
   ef4 g4. bf8 | ef2 ef4 | d2.~ | d2. |
 
-  \break
-  \xTextMark \markup{ \bold \box "C" }
-  \bar "$"
+  \sect "C"
 
   c4 c4. af8 | g2 f4 | ef4 ef4. f8 | g4 g4. af8 |
   \break
@@ -112,7 +106,6 @@ refrainMelody = \relative f'' {
   ef2. | c2. | d2. | bf2. |
   \break
   c4 c4. af8 | g2 f4 | ef2.~ | ef2 r4 |
-  
 
   \bar "|."
 }

@@ -6,7 +6,7 @@
 
 instrument = "Ethel Merman, Ella Fitzgerald, Helen Forrest (with Artie Shaw) Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Do I Love You - Ly Core - C.ly"
 

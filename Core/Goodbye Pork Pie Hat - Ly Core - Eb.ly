@@ -40,7 +40,7 @@ refrainMelody = \relative f' {
   \tempo "Ballad" 4 = 56
 
   \partial 8 bf,8 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "Head" \musicglyph #"scripts.segno" }
   

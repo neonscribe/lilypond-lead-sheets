@@ -74,10 +74,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   ef1~ | ef2 r2 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   
   f4 f4 f4 f8 gf8~ | gf1 | g4 g4 g4 g8 a8~ | a1 |
@@ -85,10 +82,7 @@ refrainMelody = \relative f' {
   bf4 bf4 bf4 bf4 | c4 c4 c4 c4 | f2~ f8 ef8 d8 c8 | bf1 |
 
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   bf8 bf8 bf8 ef8~ ef4 ef4 | ef8 bf8 bf8 bf8~ bf2 | g8 g8 g8 c8~ c4 c4 | c8 f,8 f8 f8~ f2 |
   \break

@@ -4,6 +4,6 @@
 
 instrument = "Eliane Elias Key"
 whatKey = c'
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Let's Get Lost - Ly Core - Eb.ly"

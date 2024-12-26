@@ -4,6 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Waltz for Debby - Ly Core - Eb.ly"

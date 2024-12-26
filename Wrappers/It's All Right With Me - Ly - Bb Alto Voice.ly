@@ -4,6 +4,8 @@
 
 instrument = "Peggy Lee Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
+
+objectGenderMale = ##t
 
 \include "../Core/It's All Right With Me - Ly Core - Eb.ly"

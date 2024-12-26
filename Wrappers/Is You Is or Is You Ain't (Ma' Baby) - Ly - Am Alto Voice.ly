@@ -4,7 +4,7 @@
 
 instrument = "Catherine Russell Key"
 whatKey = a,
-whatClef = "treble"
+whatClef = "treble_8"
 objectGenderMale = ##t
 
 \include "../Core/Is You Is or Is You Ain't (Ma' Baby) - Ly Core - Fm.ly"

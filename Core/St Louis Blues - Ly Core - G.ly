@@ -57,10 +57,7 @@ refrainMelody = \relative f' {
   } {
   g2 a2 | d4. c8~ c2 |
   } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   \key \refrainKey \major
   
   b8^\markup { Swing } d8 b8 g8~ g2 | r8 ds8 e8 g8 bf4 a8 g8~ | g1 | r1 |
@@ -69,10 +66,7 @@ refrainMelody = \relative f' {
   \break
   f8 a8 f8 d8~ d2 | r8 bf'4 bf8 bf4 a8 g8~ | g1 | r1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   g4 bf8 b8 g4 a8 b8 | g4 bf8 b8 g8 a8 b8 g8~ | g1 | r2 r4 bf8 b8 |
   \break

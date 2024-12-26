@@ -4,6 +4,6 @@
 
 instrument = "Carmen McRae Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Love Is Here to Stay - Ly Core - F.ly"

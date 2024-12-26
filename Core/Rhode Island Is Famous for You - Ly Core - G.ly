@@ -88,28 +88,19 @@ refrainMelody = \relative f' {
   \break
   fs4 d2 fs4 | g4 e4 fs4 g4 | a1~ | a2. g4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   b4. b8~ b8 fs4 g8 | a4. a8~ a8 e4 fs8 | g4. g8~ g2 | r2 r4 fs4 |
   \break
   a4. a8~ a8 e4 fs8 | g4. g8~ g8 d4 e8 | fs1~ | fs2 r4 e4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   d4 b2. | c4 b4 c4 d4 | e4 b2. | d4 c4 d4 e4 |
   \break
   fs4 d2 fs4 | g4 e4 fs4 g4 | a1~ | a2. g4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   b1 | b4 d4 b4 a4 | g4 e2 g4 | b8 d8 b2 a4 |
   \break
@@ -126,37 +117,30 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/verse.ily"
-\xPageBreak
-\include "../Include/refrain.ily"
 
 \markup {
   \column {
-    \line { \large { Cotton comes from Loosiana, } }
-    \line { \large { gophers from Montana and spuds from Idaho. } }
-    \line { \large { They plough land  } }
-    \line { \large { in the cow-land of Missoura,  } }
-    \line { \large { where most beef meant for roast beef } }
-    \line { \large { seems to grow. } }
-    \line { \large { Grand canyons come from Colorada, } }
-    \line { \large { gold comes from Nevada, } }
-    \line { \large { divorces also do, } }
-    \line { \large { and you, you come from Rhode Island, } }
-    \line { \large { and little old Rhode Island is famous for you! } }
-  }
-  \column {
-    \hspace #5
-  }
-  \column {
-    \line { \large { Pencils come from Pencilvania, } }
-    \line { \large { vests from Vest Virginia } }
-    \line { \large { and tents from Tentasee. } }
-    \line { \large { They know mink where they grow mink } }
-    \line { \large { in Wyomink. } }
+    \vspace #2
+    \line { \large { Copper comes from Arizona, peaches come from Georgia and lobsters come from Maine. } }
+    \line { \large { The wheat fields are the sweet fields of Nebraska, }}
+    \line { \large { and Kansas gets bonanzas from the grain. } }
+    \line { \large { Old whiskey comes from old Kentucky, ain't the country lucky? New Jersey gives us glue, } }
+    \line { \large { and you, you come from Rhode Island, and little old Rhode Island is famous for you! } }
+    \vspace #2
+    \line { \large { Cotton comes from Loosiana, gophers from Montana and spuds from Idaho. } }
+    \line { \large { They plough land in the cow-land of Missoura,  } }
+    \line { \large { where most beef meant for roast beef seems to grow. } }
+    \line { \large { Grand canyons come from Colorada, gold comes from Nevada, divorces also do, } }
+    \line { \large { and you, you come from Rhode Island, and little old Rhode Island is famous for you! } }
+    \vspace #2
+    \line { \large { Pencils come from Pencilvania, vests from Vest Virginia and tents from Tentasee. } }
+    \line { \large { They know mink where they grow mink in Wyomink. } }
     \line { \large { A camp chair in New Hampchair, that's for me. } }
-    \line { \large { And minnows come from Minnowsota, } }
-    \line { \large { coats come from Dacoata, } }
-    \line { \large { but why should you be blue, } }
-    \line { \large { for you, you come from Rhode Island, } }
-    \line { \large { and little old Rhode Island, it's famous for you! } }
+    \line { \large { And minnows come from Minnowsota, coats come from Dacoata, but why should you be blue, } }
+    \line { \large { for you, you come from Rhode Island, and little old Rhode Island, it's famous for you! } }
   }
 }
+
+\pageBreak
+
+\include "../Include/refrain.ily"

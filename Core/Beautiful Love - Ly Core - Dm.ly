@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Swing" 4 = 160
 
   r8 d4. e4 f4 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -59,28 +59,19 @@ refrainMelody = \relative f' {
   \break
   c2. bf4 | a4. g8 f4 g8 a8~ | a1 | r8 a4. b4 cs4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   e4. d8~ d4 a4 | c4. bf8~ bf4 d,4 | e1 | r8 e4. f4 g4 |
   \break
   a2.( d,4) | cs2. d4 | e1 | r8 d4. e4 f4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A1" }
+  \sect "A1"
   
   a2. g4 | f4. e8 d4 e8 f8~ | f1 | r8 f4. g4 a4 |
   \break
   c2. bf4 | a4. g8 f4 g8 a8~ | a1 | r8 a4. b4 cs4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   e4. d8~ d4 a4 | c4. bf8~ bf4 d,4 | e1 | r8 e4. f4 g4 |
   \break

@@ -4,6 +4,6 @@
 
 instrument = "Catherine Russell Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Blue and Sentimental - Ly Core - Eb.ly"

@@ -4,6 +4,6 @@
 
 instrument = "Eartha Kitt Key in English"
 whatKey = ef
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/C'est Si Bon English - Ly Core - Bb.ly"

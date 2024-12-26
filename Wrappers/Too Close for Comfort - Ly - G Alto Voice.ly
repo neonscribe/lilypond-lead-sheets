@@ -6,7 +6,7 @@
 
 instrument = "Rosemary Clooney Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Too Close for Comfort - Ly Core - C.ly"
 

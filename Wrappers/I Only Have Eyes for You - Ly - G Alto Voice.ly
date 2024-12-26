@@ -6,7 +6,7 @@
 
 instrument = "Billie Holiday Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/I Only Have Eyes for You - Ly Core - C.ly"
 

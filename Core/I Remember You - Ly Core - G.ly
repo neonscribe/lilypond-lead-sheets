@@ -37,7 +37,7 @@ verseMelody = \relative g' {
   e4 fs8 g8 a4 b8 c8 | d8. d16 d2. |
   \break
   r4 c8 b8 a4 e8 g8 | b2. fs4 | g1~ | g2. r4
-  \bar "$"
+  \bar "||"
   \pageBreak
 }
 
@@ -116,21 +116,21 @@ refrainMelody = \relative g' {
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
   \break
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "A2" }
+
+  \sect "A2"
+
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
   \break
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "B" }
+
+  \sect "B"
+
   b' c g a | b4. b8 b4 a | gs1 | r4 b b a |
   \break
   gs2. e4 | g2 \tuplet 3/2 { g4 a g } | fs1~ | fs2. r4
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "A3" }
+
+  \sect "A3"
+
   fs4 g d e | fs1 | fs4 g fs g | d' d d4. df8 |
   \break
   c1 | r4 c \tuplet 3/2 { c d c } | b1 | r4 b a
@@ -155,6 +155,6 @@ refrainMelody = \relative g' {
 
 \include "../Include/verse.ily"
 
-\xPageBreak
+\pageBreak
 
 \include "../Include/refrain.ily"

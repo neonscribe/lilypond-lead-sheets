@@ -6,7 +6,7 @@
 
 instrument = "Helen Forrest Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Deep Purple - Ly Core - F.ly"
 

@@ -5,8 +5,8 @@
 \include "english.ly"
 
 instrument = "Cesária Évora, Julie London, Diana Krall Key"
-whatKey = e
-whatClef = "treble"
+whatKey = e,
+whatClef = "treble_8"
 
 \include "../Core/Besame Mucho - Ly Core - Dm.ly"
 

@@ -28,8 +28,7 @@ refrainMelody = \relative f {
 
   \partial 2. bf4 df8 f8 g4 |
   
-  \bar ".|:"
-  
+  \bar ".|:"  
   \repeat volta 2 {
   
   bf4

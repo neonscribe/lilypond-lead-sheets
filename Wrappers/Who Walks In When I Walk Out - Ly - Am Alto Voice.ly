@@ -6,7 +6,7 @@
 
 instrument = "Alto Voice Key"
 whatKey = a,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Who Walks In When I Walk Out - Ly Core - Gm.ly"
 

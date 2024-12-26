@@ -68,8 +68,10 @@ refrainMelody = \relative f' {
     \oneVoice
     \break
     }
-  \bar "$"
+
+  \bar "||-||"
   \break
+
   cs4. cs8~ cs4 cs4~ | cs2
   <<
     {
@@ -95,10 +97,7 @@ refrainMelody = \relative f' {
   >>
   \oneVoice
 
-  \bar "$"
-  \break
-  
-  \xTextMark \markup{ \bold \box "Head" }
+  \sect "Head"
 
   \bar ".|:"
   \repeat volta 2 {

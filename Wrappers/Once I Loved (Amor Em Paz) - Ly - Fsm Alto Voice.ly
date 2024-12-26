@@ -4,6 +4,6 @@
 
 instrument = "Astrud Gilberto Key"
 whatKey = fs
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Once I Loved (Amor Em Paz) - Ly Core - Fsm.ly"

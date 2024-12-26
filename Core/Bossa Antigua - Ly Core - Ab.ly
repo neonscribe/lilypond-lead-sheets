@@ -37,6 +37,7 @@ refrainMelody = \relative c' {
   \tempo "Medium Bossa" 2 = 95
 
   \partial 2 c8 df4 ef8 |
+  \bar "||"
   
   f2~ f8 g4 af8 | bf2 bf,8 c4 df8 | ef8 ef4 ef8~ ef8 f8 g8 af8~ | af2 r8 bf,4 c8 |
   \break

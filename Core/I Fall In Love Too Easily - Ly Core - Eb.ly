@@ -34,7 +34,7 @@ verseMelody = \relative f' {
   \xTextMark \markup{ "Verse" }
   
   \partial 4 af8 g8 |
-  \bar "$"
+  \bar "||"
 
   f4 f8 f8 f4 f8 f8 | f8 g4.~ g4 af8 g8 |
   \break
@@ -107,10 +107,7 @@ refrainMelody = \relative f'' {
   \break
   r8 f8 e8 f8 ef4. d8 | c8 d8 ef8 g8~ g2 | r8 fs8 g8 a8 d4 d4 | d1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   r8 ef8 d8 ef8 d4. c8 | b2~ b8 g8 af8 g8 | c2. bf8 c8 | af2~ af8 g8 af8 g8 |
   \break

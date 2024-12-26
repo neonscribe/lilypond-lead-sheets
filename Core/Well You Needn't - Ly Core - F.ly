@@ -84,30 +84,21 @@ refrainMelody = \relative f' {
   a8 c8 f4-. c'4-- a8 f8 | ef'8 bf8 r4 r4 r8 b,8 |
   c8 f8 c4-- r8 b8 c8 f8 | c4-- r4 r4 r8 gs8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   a8 c8 f4-. c'4-- a8 f8 | ef'8 bf8 r4 r4 r8 gs,8 |
   a8 c8 f4-. c'4-- a8 f8 | bf8 gf8 r4 r4 r8 gs,8 |
   a8 c8 f4-. c'4-- a8 f8 | ef'8 bf8 r4 r4 r8 b,8 |
   c8 f8 c4-- r8 b8 c8 f8 | c4-- r4 r4 r8 df8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   ef8 af8 ef4~ ef8 df8 ef8 af8 | ef2 r4 r8 d8 |
   e8 a8 e4~ e8 d8 e8 a8 | e2 r4 r8 ef8 |
   f8 bf8 f8 e8 fs8 b8 fs8 ef8 | f8 bf8 f8 d8 e8 a8 e8 df8 |
   ef8 af8 ef8 c8 d8 g8 d8 c8 | cs8 fs8 cs8 c8 r4 r8 gs8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   a8 c8 f4-. c'4-- a8 f8 | ef'8 bf8 r4 r4 r8 gs,8 |
   a8 c8 f4-. c'4-- a8 f8 | bf8 gf8 r4 r4 r8 gs,8 |

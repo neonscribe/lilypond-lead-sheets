@@ -4,6 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/This Masquerade - Ly Core - Fm.ly"

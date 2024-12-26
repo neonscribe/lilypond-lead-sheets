@@ -6,6 +6,6 @@ objectGenderMale = ##t
 
 instrument = "Ethel Ennis Key"
 whatKey = f
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/My Foolish Heart - Ly Core - Bb.ly"

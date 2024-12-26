@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
   \tempo "Fast Swing" 4 = 210
 
   \partial 4 d'4 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -56,29 +56,20 @@ refrainMelody = \relative f' {
   r4 bf8 bf8~ bf8 bf8 bf4 | bf8 bf4 bf8 bf4 bf8 bf8~ |
   bf8 bf8 bf4 bf8 bf4 bf8 | bf4 r4 r4 bf4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   g2 g4 bf4 | d2~ d8 bf4 g8 | bf4 bf4 bf4 g4 | bf1 |
   \break
   r4 bf8 bf8~ bf8 bf8 bf4 | bf8 bf4 bf8 bf4 bf8 bf8~ |
   bf8 bf8 bf4 bf8 bf4 bf8 | bf2. c4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   c4 c4 c8 bf4 c8~ | c4 bf4 c8 bf4. | g1~ | g2. c4 |
   \break
   c4 c4 c8 c4. | c4 bf4 c8 c4. | f,1 | r2 r4 bf4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   g2 g4 bf4 | d2 g,4 bf4 | df2 c8 bf4 g8~ | g1 |
   \break

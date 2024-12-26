@@ -121,10 +121,7 @@ refrainMelody = \relative f' {
   \break
   d4. f,8 f4 f4~ | f2 d'2 | c4. e,8 e4 e4~ | e2 d2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   a'4 g2.~ | g2 e4 f4 | a4 g2.~ | g2 e4 f4 |
   \break

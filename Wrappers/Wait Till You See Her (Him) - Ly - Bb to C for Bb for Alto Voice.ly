@@ -4,7 +4,7 @@
 
 instrument = "Bb for Alto Voice Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 objectGenderMale = ##t
 

@@ -67,7 +67,7 @@ introMelody = \relative g' {
   f8 g8~ g2.~ | g2  af8 g8 f8 df8 | c4. f8 d2 | r1 |
   %}
   
-  \bar "$"
+  \bar "||"
 }
 
 verseObjectGenderFemaleLyrics = \lyricmode {
@@ -221,26 +221,19 @@ refrainMelody = \relative g' {
   \break
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r1 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
 
   c2. c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r1 |
   \break
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r2 r4 af4 |
 
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   bf8 af4. bf4 af4 | bf8 af4. bf4 af8 c8~ | c8 ef,4.~ ef4 f8 gf8~ | gf2. af4 |
   \break
   bf4 af4 bf4 af4 | bf4 af4 bf4 af4 | c4 c4 c4 c8 c8~ | c4 r4 r2 |
 
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   c4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r1 |
   \break

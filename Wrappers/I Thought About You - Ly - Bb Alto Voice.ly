@@ -4,6 +4,6 @@
 
 instrument = "Dinah Washington Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/I Thought About You - Ly Core - F.ly"

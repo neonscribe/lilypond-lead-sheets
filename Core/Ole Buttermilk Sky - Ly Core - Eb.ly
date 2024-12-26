@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \tempo "Hollywood Cowboy Swing" 4 = 168
 
   \partial 2. bf,4 c8 ef8 f4 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -71,19 +71,13 @@ refrainMelody = \relative f' {
   \break
   ef4 ef4 ef2~ | ef4 bf8 bf8 c8 ef8 f4 | f8 ef8 c4 ef2~ | ef4 bf'4 c8 bf8 c4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   bf1~ | bf4 ef8 c8 bf8 g8 f8 ef8 | g8 g8 g4 g2~ | g4 bf,8 c8 ef8 bf8 c8 ef8 |
   \break
   g4 f4 f2 | g8 bf8 af8 g8 ef8 f4 ef8~ | ef1~ | ef8 ef8 ef8 bf8 ef8 f8 g4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   af4 ef4 r8 af4. | bf4 ef,2. | c'8 c8 c8 c8 bf8 af4 bf8~ | bf2 ef,8 f8 g4 |
   \break
@@ -99,18 +93,13 @@ refrainMelody = \relative f' {
   \break
   ef4 ef4 ef2~ | ef4 bf8 bf8 c8 ef8 f4 | f8( ef8) c4 ef2~ | ef4 bf'4 c8 bf8 c4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   bf1~ | bf4 ef8 c8 bf8 g8 f8 ef8 | g8 g8 g4 g2~ | g4 bf,8 c8 ef8 bf8 c8 ef8 |
   \break
   g4 f4 f2 | g8 bf8 af8 g8 ef8 f4 ef8~ | ef1~ | ef4 bf'4 c8 bf8 c4 |
 
-  \bar "$"
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   bf1~ | bf4 bf,4 c8 ef8 f4 | g1~ | g2 bf,8 c8 ef4 |
   \break

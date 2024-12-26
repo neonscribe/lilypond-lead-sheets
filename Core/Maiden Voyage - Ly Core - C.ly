@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r2 r4 c8 f8 |
   } } }
-  \bar "$"
+  \bar "||-||"
   \break
   \xTextMark \markup{ \bold \box "B" }
 
@@ -64,10 +64,7 @@ refrainMelody = \relative f' {
   \break
   ff8 gf8 df2.~ | df1~ | df1 | r2 r4 a8 d8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   d1~ | d1~ | d1 | r2 r4 c8 d8 |
   \break
@@ -82,6 +79,8 @@ refrainBass = \relative f' {
   \clef bass
 
   \partial 4 s4 |
+
+  \bar ".|:"
   \repeat volta 2 {
   \improvisationOn
   d,4 d4~ d8 d4.~ | d4. d8~ d8

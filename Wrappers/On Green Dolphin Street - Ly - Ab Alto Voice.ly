@@ -4,6 +4,6 @@
 
 instrument = "Nancy Wilson (with George Shearing) Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/On Green Dolphin Street - Ly Core - C.ly"

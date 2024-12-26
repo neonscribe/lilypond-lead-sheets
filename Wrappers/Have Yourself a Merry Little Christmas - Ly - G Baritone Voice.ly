@@ -6,7 +6,7 @@
 
 instrument = "Frank Sinatra, Ella Fitzgerald, Barbra Streisand Key"
 whatKey = g
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Have Yourself a Merry Little Christmas - Ly Core - Bb.ly"
 

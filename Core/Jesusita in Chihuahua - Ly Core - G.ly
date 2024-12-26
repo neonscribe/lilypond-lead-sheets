@@ -81,6 +81,7 @@ refrainMelody = \relative f' {
   
   \partial 2. d4-.\upbow df4-. c4-. |
   
+  \bar ".|:"
   \repeat volta 2 {
 
   b2 c4-.( e4)-. | d2 cs4-.( d4)-. | g4 r8 d8( cs4 d4) | fs4-. e4-. ds4-. e4-. |
@@ -163,9 +164,8 @@ refrainMelody = \relative f' {
     }{
     d4 d4-. df4-. c4-. |
     }}
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "A" }
+
+  \sect "A"
   
   b2 c4-.( e4)-. | d2 cs4-.( d4)-. | g4 r8 d8( cs4 d4) | fs4-. e4-. ds4-. e4-. |
   \break

@@ -4,6 +4,6 @@
 
 instrument = "Nancy Wilson, Ella Fitzgerald, Blossom Dearie Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Satin Doll - Ly Core - C.ly"

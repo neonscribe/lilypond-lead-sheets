@@ -4,6 +4,6 @@
 
 instrument = "Dinah Washington Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/All of Me - Ly Core - C.ly"

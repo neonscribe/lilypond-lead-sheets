@@ -77,10 +77,7 @@ refrainMelody = \relative f' {
   bf1~ | bf1~ | bf4 c4 b4 bf4 | a4 af4 gf4 e4 |
   f1~ | f1~ | f1~ | f2. r4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   c'1~ | c1~ | c4 df4 c4 g4 | bf4 c4 e4 g,4 |
   bf1~ | bf1~ | bf4 c4 df4 c4 | df4 c4 b4 g4 |
@@ -88,10 +85,7 @@ refrainMelody = \relative f' {
   bf1~ | bf1~ | bf4 c4 b4 bf4 | a4 af4 gf4 e4 |
   f1~ | f1~ | f1~ | f2. r4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B*"
   
   %% Vocal bridge
   f'1~ | f4 gf4 f4 c4 | ef1 | df1 |
@@ -100,10 +94,7 @@ refrainMelody = \relative f' {
   ef1~ | ef4 f4 ef4 c4 | bf1 | f'2 e2 |
   ef2. f,4~ | f4 g4 af4 bf4 | c1~ | c2 c2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   c1~ | c1~ | c4 df4 c4 g4 | bf4 c4 e4 g,4 |
   bf1~ | bf1~ | bf4 c4 df4 c4 | df4 c4 b4 g4 |
@@ -114,14 +105,14 @@ refrainMelody = \relative f' {
   \bar "||-|."
   \break
 
-  \xTextMark \markup{ Instrumental alternative bridge \bold \box "B" }
+  \xTextMark \markup{ *Instrumental alternative bridge \bold \box "B" }
   %% Instrumental bridge
   f'1 | e2 c4. g8~ | g1~ | g4. f8 e4 f4 |
   c'1 | g2 f4. c8~ | c1 | r2 bf'8 c8 df8 d8 |
   \break
   ef1 | c2 bf4. f8~ | f1~ | f2 g4 ef4 |
   c'4. af8~ af2~ | af2 bf4 af4 | g2 g4. g8~ | g2 r2 |
-  \bar "$"
+  \bar "||-||"
   
 }
 

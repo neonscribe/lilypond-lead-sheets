@@ -6,7 +6,7 @@
 
 instrument = "Madeleine Peyroux Key"
 whatKey = ef
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/I Can't Stop Loving You - Ly Core - B.ly"
 

@@ -4,6 +4,6 @@
 
 instrument = "Judy Garland Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/How Long Has This Been Going On - Ly Core - G.ly"

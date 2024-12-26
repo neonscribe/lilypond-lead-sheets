@@ -8,7 +8,7 @@
   title = "A Child Is Born"
   subtitle = \instrument
   poet = ""
-  composer = "credited to Thad Jones, in fact composed by Roland Hanna"
+  composer = "Roland Hanna (credited to Thad Jones)"
   copyright = "© 1969 D'Accord Music, Inc."
 }
 
@@ -44,28 +44,19 @@ refrainMelody = \relative f' {
   \break
   d,2. | ef4 f4 bf4 | d2. | c2. |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   d,2. | ef4 f4 bf4 | d,2. | ef4 f4 bf4 |
   \break
   d,2. | e4 g4 c4 | d2. | f,2~ f8 ef8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   d2. | ef4 f4 bf4 | d,2. | ef4 f4 bf4 |
   \break
   d,2. | f4 bf4 d4 | f2. | ef2 gf,4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   f2. | ef4 f4 bf4 | d,2. |
   \break

@@ -105,10 +105,7 @@ refrainMelody = \relative f' {
   cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 | cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 |
   cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 | cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A1" }
+  \sect "A1"
   
   r2 as8 as8 as8 b8 | gs4 gs4 gs8 b8 as4 | r2 as8 as8 as8 b8 |
   \break
@@ -118,10 +115,7 @@ refrainMelody = \relative f' {
   r2 |
   \time 4/4
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   r2 as8 as8 as8 b8 | gs4 gs4 gs8 b8 as4 | r2 as8 as8 as8 b8 |
   \break
@@ -131,10 +125,7 @@ refrainMelody = \relative f' {
   r2 |
   \time 4/4
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   r4 ds'4 cs2~ | cs8 cs8 cs8 cs8 ds4 cs4 | ds4.( cs8) cs2 | r8 cs8 cs8 cs8 ds4 cs4 |
   \break
@@ -164,7 +155,7 @@ refrainMelody = \relative f' {
   \break
   cs4 cs8 b8~ b4 e8 cs8~ | cs4 cs8 b8~ b4 e8 cs8~ | cs4 cs8 b8~ b4 e8 cs8 | e8 e8 cs8 a8 b8 a8 b8( a8) \dalSegno |
   } } }
-  \bar "$"
+  \bar "||-||"
 
   \textCodaBreak
 

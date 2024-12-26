@@ -4,6 +4,6 @@
 
 instrument = "Blossom Dearie Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Lover Man - Ly Core - F.ly"

@@ -13,7 +13,7 @@
 }
 
 refrainLyrics = \lyricmode {
-Cra -- zy rhy -- thm, here's the door -- way, I'll go my way, you'l go your __ way.
+Cra -- zy rhy -- thm, here's the door -- way, I'll go my way, you'll go your __ way.
 Cra -- zy rhy -- thm, from now on __ we're through. __
 
 Here is where we have a show -- down, I'm too high -- hat, you're too low -- down,
@@ -57,28 +57,19 @@ refrainMelody = \relative f' {
   \break
   r8 a4 a8 g4 g4 | fs4 fs8 g8~ g8 a4. | g1~ | g4 r4 r2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   r8 a4 a8 g4 g4 | fs4 fs8 g8~ g8 g8 r4 | r8 a4 a8 g4 g4 | fs4 fs8 g8~ g8 g8 r4 |
   \break
   r8 a4 a8 g4 g4 | fs4 fs8 g8~ g8 a4. | g1~ | g4 a4 b4 c4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   r8 d4 d8 c4 c4 | b4 b8 c8~ c8 d4. | d8 c4 d8 c4 b4 | a1 |
   \break
   r8 c4 c8 b4 b4 | a4 a8 b8~ b8 c4. | c8 b4 c8 b2 | b8 a4 b8 a2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   r8 a4 a8 g4 g4 | fs4 fs8 g8~ g8 g8 r4 | r8 a4 a8 g4 g4 | fs4 fs8 g8~ g8 g8 r4 |
   \break

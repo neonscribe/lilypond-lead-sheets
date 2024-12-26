@@ -64,19 +64,13 @@ refrainMelody = \relative f' {
   } \volta 2 {
   g2\repeatTie r2 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   r4 r8 fs'8 ds8 cs8 b8 gs8 | b8 gs4 gs8~ gs2 | b4 b4 b8 c8 b8 gs8 | b4 ds8 fs8~ fs2 |
   \break
   r4 r8 fs8 e8 d8 b8 d8 | e8 e4 e8~ e4. e8 | f8 f8 e8 d8 c4 bf4 | a2 r2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A" }
+  \sect "A"
   
   r4 b2 d,4 | b'2 d2 | r4 b8 as8 b4 d,4 | b'4 d2. |
   \break

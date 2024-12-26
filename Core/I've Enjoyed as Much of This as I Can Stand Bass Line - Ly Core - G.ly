@@ -1,7 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-\version "2.22"
-\include "lead-sheets.ily"
+\include "../Include/lead-sheets.ily"
 
 \header {
   title = "I've Enjoyed as Much of This as I Can Stand"
@@ -60,7 +59,7 @@ refrainMelody = \relative g, {
   \clef bass
   \tempo "Swing" 4 = 136
 
-  \xTextMark \markup { "Intro" }
+  \sectStart "Intro"
 
     <<
       {
@@ -80,40 +79,36 @@ refrainMelody = \relative g, {
 
   g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 | g4 d4 e4 fs4 |
 
-  \bar ".|:-||"
-  \break
-
-  \xTextMark \markup { "Verse" }
+  \sectNoBar "Verse"
   
+  \bar ".|:-||"
   \repeat volta 2 {
   g4 r4 d4 r4 | c4 r4 e4 fs4 | g4 r4 d4 r4 | g4 r4 c,4 r4 |
   g'4 r4 d4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 | g4 d4 e4 fs4 |
 
   g4 r4 d4 r4 | c4 r4 e4 fs4 | g4 r4 d4 r4 | g4 r4 c,4 r4 |
   g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 |
-  }
+
   \alternative {
-    {
+    \volta 1 {
       g4 d4 e4 fs4 |
     }
-    {
+    \volta 2 {
       g4 r4 a,4 b4 |
-    }
-  }
+    } } }
 
-  \bar ".|:-||"
 
-  \break
-  \xTextMark \markup{ "Chorus" }
+  \sectNoBar "Chorus"
   
+  \bar ".|:-||"
   \repeat volta 2 {
 
   c4 r4 g'4 r4 | c,4 r4 g'4 r4 | g4 r4 d4 r4 | g4 d4 e4 fs4 |
   \break
   g4 r8 g8( d4) r4 | g4 r8 g8( d4) r4 | d4 r8 d8( a4) r4 |
-  }
+
   \alternative {
-    {
+    \volta 1 {
       d4 d4 e4 fs4 |
 
       \break
@@ -122,36 +117,32 @@ refrainMelody = \relative g, {
       g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4
       r4 | g4 d4 e4 fs4 |
 
-      \break
-      \xTextMark \markup { "Solo" }
+      \sect "Solo"
 
       g4 r4 d4 r4 | c4 r4 e4 fs4 | g4 r4 d4 r4 | g4 d4 e4 fs4 |
-      g4 r4 d4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 |
-
-      g4 g,4 a4 b4 |
+      \break
+      g4 r4 d4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 | g4 g,4 a4 b4 |
     }
-    {
+    \volta 2 {
       d4 c4 b4 a4 |
     }
-  }
+  } }
 
-  \bar "$"
+  \bar "||-||"
   \break
 
   g'4 r4 d4 r4 | c4 r4 c4 r4 | g'4 r4 d4 r4 | g4 r4 c,4 c4 |
-  %% g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 | g4 r4 c,4 c4 |
-  g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 |
-      
-  g4 d4 g2 |
+  \break
+  g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 | g4 d4 g2 |
 
   \bar "|."
 }
 
-\include "paper.ily"
+\include "../Include/paper.ily"
 
 \markup {
   % Leave a gap after the header
   \vspace #1
 }
 
-\include "refrain.ily"
+\include "../Include/refrain.ily"

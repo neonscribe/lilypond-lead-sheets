@@ -6,7 +6,7 @@
 
 instrument = "Sarah Vaughan Key"
 whatKey = d
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Comes Love - Ly Core - Gm.ly"
 

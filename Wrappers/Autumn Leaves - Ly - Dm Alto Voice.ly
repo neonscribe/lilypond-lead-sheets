@@ -4,6 +4,6 @@
 
 instrument = "Barbra Streisand Key"
 whatKey = d
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Autumn Leaves - Ly Core - Gm.ly"

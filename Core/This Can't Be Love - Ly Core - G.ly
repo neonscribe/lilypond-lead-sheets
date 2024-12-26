@@ -49,17 +49,17 @@ refrainMelody = \relative c'' {
   r4 g4 fs4 g4 | d4. g8 fs4 g4 | e2 g4 a4~ | a2. g4 |
   \break
   b4 r4 d,4 d4~ | d4 e4 g2 | a1~ | a2. r4 |
-  \bar "$"
+  \bar "||-||"
   \break
   r4 g4 fs4 g4 | d4 g4 fs4 g4 | e2 g4 a4~ | a2. g4 |
   \break
   d'4 r4 g,4 g4~ | g4 b4 a2 | g1~ | g4 b4 b4 b4 |
-  \bar "$"  
+  \bar "||-||"  
   \break
   cs,4 r4 e4 ds4~ | ds4 b'4 b8 b4. | d1 | r4 b4 b4 b4 |
   \break
   d1 | c1 | b1 | a1 |
-  \bar "$"
+  \bar "||-||"
   \break
   r4 g4 fs4 g4 | d4 g4 fs4 g4 | e2 g4 a4~ | a4 g4 a4 g4 |
   \break

@@ -54,28 +54,19 @@ refrainMelody = \relative f' {
   \break
   r8 g8 a8 g8 a4 a4 | a4 g8 a8~ a8 g8 a4 | e1~ | e1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   r4 e4 fs4 e4 | fs4 e8 fs8~ fs8 e8 fs4 | g1 | b,1 |
   \break
   r4 e4 fs4 e4 | fs4 e8 fs8~ fs8 e8 fs4 | g2 b2 | a2 b,2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   r4 c4 d4 c4 | d8 c4 d8~ d2 | r4 c4 d4 c4 | d8 c4 d8~ d2 |
   \break
   r4 g4 a4 g4 | a4 g8 a8~ a8 g8 a4 | b1~ | b1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   r4 c4 d4 c4 | d8 c4 d8~ d2 | r4 g,4 a4 g4 | a8 g4 a8~ a2 |
   \break

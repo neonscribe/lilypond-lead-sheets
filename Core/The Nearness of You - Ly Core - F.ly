@@ -89,8 +89,9 @@ refrainMelody = \relative f' {
   
   \partial 4. c8 f8 g8 |
 
-  \xTextMark \markup{ \bold \box "A" }
+  \sectNoBreak "A1,A2"
   
+  \bar ".|:"
   \repeat volta 2 {
   a2 c4 bf8 a8 | g4 bf2 a4 | f2 a4 g4 | e4 g2 f4 |
   c1~ | c8 d8 e8 f8 \tuplet 3/2 { g4 f4 e4 } |
@@ -101,19 +102,14 @@ refrainMelody = \relative f' {
   f1~ | f2 c8 d8 e8 f8 |
   } }
 
-  \bar "$"
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sectNoBar "B"
   
   g1~ | g4 e8 f8 g8 f4 e8 |
   \break
   a4. e8 ef2~ | ef2~ ef8 f4 f8 | d'2. d4 | c2. bf4 |
   g1~ | g2~ g8 c,8 f8 g8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   a2 c4 bf8 a8 | g4 bf2 a4 | f2 a4 g4 | e4 g2 f4 |
   \break

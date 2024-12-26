@@ -94,7 +94,7 @@ refrainMelody = \relative f' {
   \tempo "Medium" 4 = 160
 
   \partial 2 g4 b4 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A" }
   
@@ -106,10 +106,7 @@ refrainMelody = \relative f' {
   \break
   a8 a8 a4-. a2 | r2 g4 b4 | a1 | r2 c4 d4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   e1~ | e2 d4 c4 | e2 d4 c4 | e2 d4 c4 |
   \break

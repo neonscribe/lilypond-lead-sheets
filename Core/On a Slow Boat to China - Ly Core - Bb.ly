@@ -57,10 +57,7 @@ refrainMelody = \relative f' {
   d2 f4 a4 | g8 d4.~ d8 g4 d8 | ef2 g4 bf4 | a8 e4.~ e2 |
   \break
   f2 bf4 d4 | a2~ a8 c4. | g1~ | g2 r2 |
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   \alternative { \volta 1 {
   ef2 g4 bf4 | a8 e4.~ e8 a4 ef8 | f2 d'8 d4 d8~ | d1 |

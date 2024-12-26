@@ -86,19 +86,13 @@ refrainMelody = \relative f' {
   \break
   b'4. cs8 b8 a8 gs4. fs8 a8 gs8 | e4. d8 a'8 cs,8 b4. r4 e8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Bridge" }
+  \sect "Bridge"
   
   b'8 b8 b8 b8 a8 a8 a8 g8 g8 g8 a8. g16 | a4. r4. r4. r4 b,8 |
   \break
   b'8 b8 b8 b8 a8 a8 a8 g8 g8 g8 a8. g16 | a2. r2. |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Verse" }
+  \sect "Verse"
   
   b4. cs8 b8 a8 gs4. fs8 a8 gs8 | e4. d8 a'8 cs,8 b2. |
   \break

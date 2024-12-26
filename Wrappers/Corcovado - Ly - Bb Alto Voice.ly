@@ -4,7 +4,7 @@
 
 instrument = "Sylvia Telles Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 chordChart = ##t
 guitarChords = ##t

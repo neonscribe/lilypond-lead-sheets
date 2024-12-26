@@ -55,6 +55,7 @@ refrainMelody = \relative f' {
 
   \partial 2. e4 e8 d8 e4 |
 
+  \bar ".|:"
   \repeat volta 2 {
 
   \xTextMark \markup{ \bold \box "Chorus" }
@@ -68,10 +69,7 @@ refrainMelody = \relative f' {
   e8 e8 e8 e8~ e4. e8 | d8 d8 e8 b8~ b4 a8 g8 | a4 g4 bf8( a4) g8~ | g4 
   \volta 2 \fine
   r4 r4 e'8 e8 |
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Verse" }
+  \sect "Verse"
   e4 e4 e8 e4 e8~ | e2 r4 r8 e8 | d4 d4 d8 e4 b8~ | b2 r2 |
   \break
   a8 a4 a4 a4 fs'8~ | fs8 fs4 fs8 fs8 e4 d8~ | d1~ | d4 r4 r4 e8 e8 |

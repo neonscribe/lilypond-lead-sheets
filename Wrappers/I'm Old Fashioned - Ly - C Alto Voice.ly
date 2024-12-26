@@ -4,6 +4,6 @@
 
 instrument = "Blossom Dearie Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/I'm Old Fashioned - Ly Core - F.ly"

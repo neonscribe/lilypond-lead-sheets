@@ -34,15 +34,15 @@ refrainMelody = \relative f' {
   \tempo "Medium-Up Swing" 4 = 164
 
   \partial 8 f8 |
-  \bar "$"
+  \bar "||"
 
   bf8 c8 df8 d8 r8 f,8 bf8 c8 | df8 d8 ef8 df8 r4 r8 f,8 |
   bf8 c8 df8 d8 r8 f,8 bf8 c8 | df8 d8 r8 f,8 bf8 c8 df4 |
-  \bar "$"
+  \bar "||-||"
   \break
   r8 f,8 bf8 c8 df8 d8 ef8 df8 | r1 |
   r8 f,8 bf8 c8 df8 d8 r8 f,8 | bf8 c8 df8 d8 r8 f,8 bf8 c8 |
-  \bar "$"
+  \bar "||-||"
   \break
   df8 d8 ef8 f,8 fs8 g8 gs8 a8~ | a8 bf8 b8 c8 cs8 d8 ef8 f,8 \textToCodaLastTime |
   bf8 c8 df8 d8 r2 | r1 |

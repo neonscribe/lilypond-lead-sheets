@@ -7,7 +7,7 @@
 instrument = "Sarah Vaughan, Jo Stafford, Carmen McRae, Annie Ross Key"
 whatKey = ef
 whatVerseKey = d
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/All the Things You Are - Ly Core - Ab.ly"
 

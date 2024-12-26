@@ -138,17 +138,13 @@ refrainMelody = \relative g' {
     r1^\markup{ "Turnaround to " \bold \box "B" } |
   }
   
-
-  \break
   \set Score.currentBarNumber = #13
- \xTextMark \markup{ \bold \box "B" }
+  \sectNoBar "B"
   
   g'2~ g8 b8 c8 b8 | fs8 b8 c8 b8 b,8 fs'8 g8 fs8 | g2~ g8 g8 a8 g8 | b8 g8 a8 g8 b8 g8 a4 |
   g1 | r8 g8 a8 g8 a8 g8 a8 g8 |
 
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   e2 e2 | r8 f8 g8 a8 c8 c4 b8 | d4 a8 c8~ c2 | b4 f8 a8~ a2 |
   \break

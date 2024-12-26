@@ -37,7 +37,7 @@ verseMelody = \relative f' {
   \xTextMark \markup{ "Verse" }
   
   \partial 4 c'4 |
-  \bar "$"
+  \bar "||"
   
   b2 f4 g4 | a4 a2 e8 f8 | g8 a8 g4 d4 e4 | f4 c2 c8 d8 |
   e4 f4 g4 fs8 g8 | a8 b8 c4 d4 e8 d8~ | d1 | r2 r4 ef4 |
@@ -84,37 +84,29 @@ refrainMelody = \relative f' {
   \key \refrainKey \minor
   \clef \whatClef
 
-  \xTextMark \markup{ "Refrain" \bold \box "A1" }
   \tempo "Medium-Up Swing" 4 = 168
 
   \partial 2 a4 b4 |
   
-  \bar "$"
+  \sectNoBreak "A1"
   
   c1 | b2~ b8 a4 gs8 | a2 e2~ | e2 ds4 e4 |
   \break
   a1 | g2~ g8 e4 d8 | c1~ | c2 d4 e4 |
 
-  \bar "$"
-  \break  
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
 
   f2. ds4 | e2~ e8 gs4 b8 | d2. b4 | c2~ c8 d4 cs8 |
   \break
   e2. c4 | ef2 c4. b8 | b1~ | b2 a4 b4 |
   
-  \bar "$"
-  \break
-  
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
 
   c1 | b2~ b8 a4 gs8 | a2 e2~ | e2 \tuplet 3/2 { e4 f4 g4 } |
   \break
   a4 c4 a2 | g2~ g8 e4 c8 | d1~ | d2 e4 f4 |
 
-  \bar "$"
-  \break  
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
 
   a1 | g2 r8 a4 b8 | d2. c4 | a2 c4 d4 | 
   \break

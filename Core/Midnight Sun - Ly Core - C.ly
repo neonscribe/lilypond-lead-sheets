@@ -110,7 +110,7 @@ refrainMelody = \relative f' {
   
   \xTextMark \markup{ \bold \box "A" }
   
-  \partial 4 b4
+  \partial 4 b4 |
 
   \set Score.repeatCommands = #'(start-repeat)
   \xTextMark \markup { \musicglyph #"scripts.segno" }
@@ -140,7 +140,7 @@ refrainMelody = \relative f' {
   \xTextMark \markup { \small \italic "D.S. al fine" }
   b4 |
   
-  \bar "$"
+  \bar "||-||"
 }
 
 \include "../Include/paper.ily"

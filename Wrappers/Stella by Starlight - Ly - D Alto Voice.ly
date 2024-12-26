@@ -4,7 +4,7 @@
 
 instrument = "Anita O'Day Key"
 whatKey = d
-whatClef = "treble"
+whatClef = "treble_8"
 
 femaleSinger = ##t
 

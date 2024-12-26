@@ -6,7 +6,7 @@
 
 instrument = "Mildred Bailey Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/A Ghost of a Chance - Ly Core - C.ly"
 

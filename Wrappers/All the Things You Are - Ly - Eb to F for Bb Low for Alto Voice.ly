@@ -7,7 +7,7 @@
 instrument = "Bb Low for Alto Voice"
 whatKey = f
 whatVerseKey = e
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/All the Things You Are - Ly Core - Ab.ly"
 

@@ -6,7 +6,7 @@
 
 instrument = "Anita O'Day Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Chicago - Ly Core - C.ly"
 

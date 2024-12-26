@@ -4,6 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/These Foolish Things - Ly Core - Eb.ly"

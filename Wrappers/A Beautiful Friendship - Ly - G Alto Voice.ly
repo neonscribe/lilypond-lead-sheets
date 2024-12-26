@@ -4,6 +4,6 @@
 
 instrument = "Alexis Cole Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/A Beautiful Friendship - Ly Core - C.ly"

@@ -4,6 +4,6 @@
 
 instrument = "Julie London Key"
 whatKey = g
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Basin Street Blues - Ly Core - Bb.ly"

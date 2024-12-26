@@ -4,6 +4,6 @@
 
 instrument = "Bb High for Alto Voice Key"
 whatKey = f'
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Up Jumped Spring - Ly Core - Bb.ly"

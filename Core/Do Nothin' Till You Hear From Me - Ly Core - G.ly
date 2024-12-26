@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
 
   r8 c8 a8 as8 b8 d8 c8 a8 |
   
-  \bar "$"
+  \bar "||-||"
 
   \xTextMark \markup{ \bold \box "A1" }
 
@@ -68,27 +68,18 @@ refrainMelody = \relative f' {
   b1 | r8 c8 a8 as8 b8 d8 c8 a8 | b1 | r8 c8 a8 as8 b8 d8 c8 a8 |
   b8 g8 d8 c8~ c2 | r4 bf'4 b8 d,8 e8 g8~ | g1 | r8 c8 a8 as8 b8 d8 c8 a8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
 
   b1 | r8 c8 a8 as8 b8 d8 c8 a8 | b1 | r8 c8 a8 as8 b8 d8 c8 a8 |
   b8 g8 d8 c8~ c2 | r4 bf'4 b8 d,8 e8 g8~ | g1 | r2 r8 g8 g8 g8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   bf1 | g8 bf8 g8 g4 g8 g8 g8 | bf1 | g8 bf8 g8 g4 g8 g8 g8 |
   d'2. r8 d,8 | e8 g8 b8 fs2 g8 | a8 f8 fs8 a4 as8 b8 d8 |
   r8 c8 a8 as8 b8 d8 c8 a8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   b1 | r8 c8 a8 as8 b8 d8 c8 a8 | b1 | r8 c8 a8 as8 b8 d8 c8 a8 |
   b8 g8 d8 c8~ c2 |
@@ -135,19 +126,19 @@ soloMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \bar "$"
+  \bar "||-||"
   \break
   \xTextMark \markup{ \bold \box "A2" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \bar "$"
+  \bar "||-||"
   \break
   \xTextMark \markup{ \bold \box "B" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \bar "$"
+  \bar "||-||"
   \break
   \xTextMark \markup{ \bold \box "A3" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 

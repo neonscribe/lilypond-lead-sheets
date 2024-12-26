@@ -35,7 +35,7 @@ introMelody = \relative g' {
   fs'4. d4. b4~ | b8 d4. e4 g4 |
   f4. d4. bf4~ | bf8 a4. bf4 c4 |
 
-  \bar "$"
+  \bar "||"
 }
 
 outroLyrics = \lyricmode {
@@ -128,7 +128,7 @@ refrainMelody = \relative g' {
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
 
-  \bar "$"
+  \bar "||-||"
   \break
 
   \xTextMark \markup { \bold \box "B" }
@@ -142,7 +142,7 @@ refrainMelody = \relative g' {
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
 
-  \bar "$"
+  \bar "||-||"
   \break
   
   \xTextMark \markup { \bold \box "C" }

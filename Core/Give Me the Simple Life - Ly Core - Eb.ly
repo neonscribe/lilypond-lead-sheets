@@ -38,7 +38,7 @@ verseMelody = \relative f'' {
   c8 c8 c8 bf8 c8 c8 c8 bf8 | g8 g8 g2. |
   c8 c8 c8 bf8 c8 c8 c8 bf8 | g1 | d'8 d8 d8 bf8 d8 d8 d8 bf8 |
   a8 a8 a4~ a4. g8 | c8 c8 c8 af8 c8 c8 c8 af8 | f1 |
-  \bar "$"
+  \bar "||"
 }
 
 refrainLyricsAOneOne = \lyricmode {
@@ -133,17 +133,17 @@ refrainMelody = \relative f'' {
 
   \set Score.currentBarNumber = #1
 
-  \xTextMark \markup{ "Refrain" \bold \box "A1" }
+  \sectStart "A1"
   
   ef8 ef4 c8 bf8 af4 d8~ | d8 d4 bf8 af8 g4 c8~ | c8 c4 af8 g8 f4 ef8~ |
   ef2 r8 f4 g8~ | g8 g4 ef8 f8 ef4 c'8~ | c8 c4 ef,8 f8 ef4 ef'8~ |
   ef8 ef4 c8 bf8 g4 f8~ | f2. r8 ef'8~ |
-
+  
   \bar "||"
 
   \xPageBreak
 
-  \xTextMark \markup{ \bold \box "A2" }
+  \sectNoBar "A2"
 
   ef8 ef4 c8 bf8 af4 d8~ |
   d8 d4 bf8 af8 g4 c8~ | c8 c4 af8 g8 f4 ef8~ |
@@ -151,11 +151,8 @@ refrainMelody = \relative f'' {
   g8 g4 ef8 f8 ef4 c'8~ | c8 c4 ef,8 f8 ef4 ef'8~ |
   ef8 ef4 c8 bf8 g4 ef8~ |
   ef2. ef4 |
-  \bar "$"
-  \break
 
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   c'4 c4 c8 bf8 af8 c8 | bf4 bf2 ef,4 |
   c'4 c4 c8 bf8 af4 |
@@ -163,11 +160,8 @@ refrainMelody = \relative f'' {
   bf2. ef,4 | af4 af4 af8 g8 f8 af8 | g4 g2 g8 fs8 |
   \break
   g4 f4 ef8 g4 f8~ | f2. r8 ef'8~ |
-  \bar "$"
-  \break
 
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   ef8 ef4 c8 bf8 af4 d8~ | d8 d4 bf8 af8 g4 c8~ | c8 c4 af8 g8 f4 ef8~ |
   ef2 r8 f4 g8~ | g8 g4 ef8 f8 ef4 c'8~ | c8 c4 ef,8 f8 ef4 ef'8~ |

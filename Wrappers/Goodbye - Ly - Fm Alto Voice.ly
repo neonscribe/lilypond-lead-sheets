@@ -6,7 +6,7 @@
 
 instrument = "Rosemary Clooney (with Benny Goodman) Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Goodbye - Ly Core - Cm.ly"
 

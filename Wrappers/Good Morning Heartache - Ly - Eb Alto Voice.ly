@@ -6,7 +6,7 @@
 
 instrument = "Diana Ross, Etta Jones Key"
 whatKey = ef
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Good Morning Heartache - Ly Core - F.ly"
 

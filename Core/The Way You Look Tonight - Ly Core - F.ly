@@ -90,7 +90,8 @@ refrainMelody = \relative g' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \xTextMark \markup{ \bold \box A }
+  \sectStart "A1,A2"
+
   \bar ".|:"
 
   \repeat volta 2 {
@@ -150,11 +151,10 @@ refrainMelody = \relative g' {
 	}
       >>
      \oneVoice
-      \bar "$"
-      \break
      }
   }
-  \xTextMark \markup{ \bold \box B }
+
+  \sect "B"
 
   c'2 c2 | c2 c2 | c4 ef4 df4 bf4~ | bf1 |
     \break
@@ -164,11 +164,7 @@ refrainMelody = \relative g' {
     \break
   bf4 c2 af4 | g2 af2 | c1~ | c2. r4 |
 
-  \bar "||"
-
-  \xPageBreak
-
-  \xTextMark \markup{ \bold \box C }
+  \sect "C"
 
   c1 | f,1 | g4 a4 bf4 a4 | g1 |
     \break

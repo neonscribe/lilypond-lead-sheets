@@ -4,6 +4,6 @@
 
 instrument = "Dinah Washington Key"
 whatKey = ef
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/This Can't Be Love - Ly Core - G.ly"

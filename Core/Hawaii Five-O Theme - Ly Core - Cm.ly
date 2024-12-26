@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   
   \xTextMark \markup{ \bold \box "A" }
   \partial 2. g8 g8 bf8 d4 c8~ |
-  \bar "$"
+  \bar "||"
 
   
   c4. g8~ g2 | r4 g8 g8 f8 bf4 g8~ | g1 | r4 g8 g8 bf8 d4 c8~ |
@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \transpose \refrainKey \refrainKeyTwo {
     \relative f' {
       r4 g8 g8 bf8 d4 c8~ |
-      \bar "$"
+      \bar "||-||"
   c4. g8~ g2 | r4 g8 g8 f8 bf4 g8~ | g1 | r4 g8 g8 bf8 d4 c8~ |
   c4. g'8~ g2 | r4 f8 f8 d8 bf8 r8 g'8~ | g1~ | g1 |
   r4 af4 g8 f8 ef8 c8 | g8 f8 ef8 c8~ c2 | r4 c''4 a8 g8 f8 d8 | c8 bf8 af8 bf8~ bf8 c8 d4 |
@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \transpose \refrainKey \refrainKeyThree {
     \relative f' {
       r4 g8 g8 bf8 d4 c8~ |
-      \bar "$"
+      \bar "||-||"
   c4. g8~ g2 | r4 g8 g8 f8 bf4 g8~ | g1 | r4 g8 g8 bf8 d4 c8~ |
   c4. g'8~ g2 | r4 f8 f8 d8 bf8 r8 g'8~ | g1~ | g1 |
   r4 af4 g8 f8 ef8 c8 | g8 f8 ef8 c8~ c2 | r4 c''4 a8 g8 f8 d8 | c8 bf8 af8 bf8~ bf8 c8 d4 |

@@ -6,7 +6,7 @@
 
 instrument = "Chris Connor Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Moonlight in Vermont - Ly Core - Eb.ly"
 

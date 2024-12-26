@@ -8,7 +8,7 @@
   title = "Solar"
   subtitle = \instrument
   poet = ""
-  composer = "Miles Davis/Chuck Wayne"
+  composer = "Chuck Wayne (credited to Miles Davis)"
   copyright = "© 1954 Prestige Music"
 }
 
@@ -64,7 +64,7 @@ refrainMelody = \relative f' {
   r8 a4. gs4-. bf8 a8 | r8 c,4.~ c4 f8 g8 | af4-. af4 g4 bf8 af8~ | af2 r2 |
   \break
   r8 g8 f8 ef8 d4 c4-. | gf'4 f8 ef8 df4 c4-. | f2 r2 | r8 d8 d8 e8 f8 g8 af8 bf8 |
-  \bar "$"
+  \bar "||-||"
   \break
 
   b4 c4 d4. c8 | r8 c,4. f4. g8 | af4 af4 g4 bf8 af8~ | af2 r2 |

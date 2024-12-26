@@ -5,8 +5,8 @@
 \include "english.ly"
 
 instrument = "Jane Monheit Key"
-whatKey = d
-whatClef = "treble"
+whatKey = d,
+whatClef = "treble_8"
 
 \include "../Core/Christmas Time Is Here - Ly Core - F.ly"
 

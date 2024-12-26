@@ -4,6 +4,6 @@
 
 instrument = "Bb Hgh for Alto Voice Key"
 whatKey = a
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Stars Fell on Alabama - Ly Core - C.ly"

@@ -35,7 +35,7 @@ refrainLyricsTwo = \lyricmode {
 Hear the cra -- zy mu -- sic in the trees, __
 see the flow -- ers danc -- ing in the breeze; __
 Old Man Moon __ be -- gins to glow, __
-he's join -- ing in the _ _ _ late, late show. __
+he's join -- ing in the _ _ _ late, late show.
 }
 
 refrainChords = \chordmode {
@@ -74,10 +74,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   c4 c4 af2 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   r4 r8 cf8~ cf8 af8 bf8 af8 | f'4. cf8~ cf4 r4 |
   c4 c4 c8 df8 eff8 ef8~ | ef2 r2 |
@@ -85,10 +82,7 @@ refrainMelody = \relative f' {
   cf4 bf8( af8) bf4 af8 f'8~ | f4. cf8~ cf4 r8 c8~ |
   c8 ef4 c8 ef4 r8 f8~ | f4 cf4~ cf8 ef,4. |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   r8 ff4 gf8 af8 cf8 df8 cf8 | ef4 c8 f,8~ f4 r4 |
   r8 ff4 gf8 af8 cf8 df8 cf8 | ef4 c8 f,8~ f4 r4 |

@@ -6,7 +6,7 @@
 
 instrument = "Beverley Kenney Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 femaleSinger = ##t
 

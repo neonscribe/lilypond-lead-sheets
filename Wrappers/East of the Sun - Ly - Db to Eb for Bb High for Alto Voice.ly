@@ -4,6 +4,6 @@
 
 instrument = "Bb High for Alto Voice Key"
 whatKey = ef'
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/East of the Sun - Ly Core - G.ly"

@@ -4,7 +4,7 @@
 
 instrument = "June Christy Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "treble_8"
 
 femaleSinger = ##t
 

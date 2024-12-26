@@ -4,6 +4,6 @@
 
 instrument = "Lola Albright Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/How High the Moon - Ly Core - G.ly"

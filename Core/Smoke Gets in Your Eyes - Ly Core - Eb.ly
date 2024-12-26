@@ -51,25 +51,21 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Up" 4 = 171
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectStart "A1"
 
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
   %% \break
   d2 c8 bf8 c,8 ef8 | bf'2 c8 bf8 bf,8 c8 | g'1( | f1) |
   
-  \bar "$"
   %% \break
 
-  \xTextMark \markup{ \bold \box "A2" }
+  \sectNoBreak "A2"
   
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
   %% \break
   d2 c8 bf8 c,8 ef8 | bf'2 c8 bf8 bf,8 c8 | ef'1 | r1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   ef,8 gf8 ef'4~ ef8 bf8 df8 cf8 |
   ef,8 gf8 bf4~ bf8 af8 \tuplet 3/2 { gf8 af,8 cf8 } |  gf'2 gf2 | gf1 |
@@ -77,10 +73,9 @@ refrainMelody = \relative f' {
   ef8 gf8 ef'4~ ef8 bf8 df8 cf8 |
   ef,8 gf8 bf4~ bf8 af8 g8 f8 | g2 g2 | f1 |
   
-  \bar "$"
   %% \break
 
-  \xTextMark \markup{ \bold \box "A3" }
+  \sectNoBreak "A3"
 
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
   %% \break

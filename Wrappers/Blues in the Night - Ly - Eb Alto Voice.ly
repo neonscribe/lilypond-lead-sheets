@@ -6,7 +6,7 @@
 
 instrument = "Ella Fitzgerald, Julie London, Peggy Lee Key"
 whatKey = ef
-whatClef = "treble"
+whatClef = "treble_8"
 
 femaleSinger = ##t
 

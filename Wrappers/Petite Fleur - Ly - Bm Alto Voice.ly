@@ -6,7 +6,7 @@
 
 instrument = "Petula Clark Key"
 whatKey = b,
-whatClef = "treble"
+whatClef = "treble_8"
 
 petulaLyrics = ##t
 

@@ -6,7 +6,7 @@
 
 instrument = "Dinah Shore, Rosemary Clooney Key"
 whatKey = f
-whatClef = "treble"
+whatClef = "treble_8"
 
 femaleSinger = ##t
 

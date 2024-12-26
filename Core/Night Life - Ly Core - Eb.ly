@@ -59,37 +59,25 @@ refrainMelody = \relative f' {
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq bf8 c8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A1" }
+  \sect "A1"
   
   bf8 g4 ef8~ ef4 ef'4 | df2. c8 c8 | bf8 af8~ af2  ef8 c8 | cf2. r8 bf8 |
   \break
   g'8 g8~ g2 af8 g8 | f8 bf,4.~ bf4~ bf8 bf'16 g16 | bf8 g8~ g2. | r2 r4 bf8 c8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   bf8 g8~ g2 ef8 ef'8 | df2. c8 c8 | bf2~ bf8 af8 ef8 c8 | cf2. r8 bf8 |
   \break
   g'8 g8~ g2 af8 g8 | f8 bf,4.~ bf4~ bf8 d16 f16 | f8 ef8~ ef2. | r1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   ef'8 bf8 c8 bf8 df4. bf8 | a8 bf8~ bf2. | r1 | r1 |
   \break
   \tuplet 3/2 { bf8 bf8 bf8 } \tuplet 3/2 { af8 bf8 af8~ } af4. af8 | g8 bf,8~ bf2. | r1 | r2 r4 bf8 c8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   bf'2~ bf8 g8 ef8 ef'8 | df2. c8 c8 | bf2~ bf8 af8 ef8 c8 | cf2. r8 bf8 |
   \break

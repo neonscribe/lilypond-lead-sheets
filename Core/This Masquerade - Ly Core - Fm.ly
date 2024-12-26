@@ -108,20 +108,14 @@ refrainMelody = \relative f' {
   r4 f,8 g8 af8 bf4 c8~ | c8 g'4 f8~ f8 cf8( bf8) af8~ | af4 bf8 c4 af4 f8~ | f2 r4 c8 f8~ |
   f2 r8 af8 bf8 cf8~( | cf8 bf8~ bf2) af8 f8~ | f1 | r1 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
 
   r4 df'8 ef8 f4 gf8 f8~ | f4 ef8 df8~ df4 ef8 f8~ | f8 af,8( f8) af8~ af2 | r1 |
   r8 af8 df8 ef8 f4 gf8 f8~ | f8 ef4. df4 af'8 af8( | f1) | r2 r4 r8 f8 |
   d4 e8 f8~ f4 g8 af8~ | af8 g4. r8 g8 f8 g8~ | g4 g,8 g4 g8( e8) g8~ | g2 r4 g8 bf8~ |
   bf2 r4 g8 b8~ | b2 r4 g8 c8~ | c4 d8 bf8~ bf4 c8 g8~ | g4 r4 r2 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   r4 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f4 c8 bf8 | af4. bf8 c4 af8 f8~ | f2 r2 |
   r4 r8 af8 af8 g8 af8 ef'8~ | ef2. ef8 c8~ | c2 r2 | r1 |

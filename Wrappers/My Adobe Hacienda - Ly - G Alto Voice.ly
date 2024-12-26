@@ -4,6 +4,6 @@
 
 instrument = "Louise Massey (with The Westerners) Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/My Adobe Hacienda - Ly Core - C.ly"

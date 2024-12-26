@@ -40,10 +40,7 @@ refrainMelody = \relative f' {
   r8 <d e>4-. <d e>8 a'4. <d, e>8 | r8 <d e>8 a'4~ a8 <d, e>8 r8 <d e>8 |
   a'2 <d, e>4-. <d e>8 a8 | r1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Head" }
+  \sect "Head"
   
   \bar ".|:-||"
   \repeat volta 2 {

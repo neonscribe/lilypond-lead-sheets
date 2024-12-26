@@ -61,31 +61,25 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempo "Medium" 4 = 110
   
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectStart "A1"
   
   c4 g8 e8~ e2~ | e2 \tuplet 3/2 { c'4 d4 c4 } | b4 gs8 e8~ e2~ | e1 |
   \break
   a4. g8 e2~ | e4 ds4 \tuplet 3/2 { e4 bf'4 a4 } | g2 f2~ | f1 |
 
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   e4. ef8 d2~ | d2 \tuplet 3/2 { e4 gs4 b4 } | d2 c2~ | c1 |
   \break
   b4. bf8 a2~ | a2 \tuplet 3/2 { a4 d4 b4 } | a1 | b1 |
 
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   c4 g8 e8~ e2~ | e2 \tuplet 3/2 { c'4 d4 c4 } | b4 gs8 e8~ e2~ | e1 |
   \break
   a4. g8 e2~ | e4 ds4 \tuplet 3/2 { e4 bf'4 a4 } | g2 f2~ | f1 |
 
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   d'2 c4 b4 | d2. c4 | b2 e,4 g4 | b2. a4 |
   \break

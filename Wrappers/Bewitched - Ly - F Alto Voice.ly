@@ -6,7 +6,7 @@
 
 instrument = "Doris Day, Ella Fitzgerald, June Christy Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Bewitched - Ly Core - C.ly"
 

@@ -4,7 +4,7 @@
 
 instrument = "Blossom Dearie Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 objectGenderMale = ##t
 

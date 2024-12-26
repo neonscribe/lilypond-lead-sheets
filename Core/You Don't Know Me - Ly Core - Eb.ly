@@ -121,9 +121,8 @@ refrainMelody = \relative f' {
 
   bf,8 bf4 c8 |
 
-  \bar "$"
+  \sectNoBreak "A1"
 
-  \xTextMark \markup{ \bold \box "A1" }
   \set Score.currentBarNumber = #0
 
 
@@ -136,10 +135,7 @@ refrainMelody = \relative f' {
   af4 g8~ g4.~ g2.~ |
   g2. r4 bf8 bf4 c8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
 
   c4 bf8 bf4.~ bf4 bf,8 ef4 g8 |
   c4 bf8 bf4.~ bf4 ef8 ef4 f8 |
@@ -149,11 +145,12 @@ refrainMelody = \relative f' {
   bf4 af8 af4.~ af4 d,8 f4 af8 |
   af4 g8~ g4.~ g2.~ |
   g2. r4. r4 ef8 |
-
+  
   \bar "||"
+
   \xPageBreak
 
-  \xTextMark \markup{ \bold \box "B" }
+  \sectNoBar "B"
   
   c'4.~ c8 c8 d8 ef4.~ ef4 ef8 |
   d4 d8~ d8 c8 bf8 bf4.~ bf8 c8 bf8 |
@@ -167,10 +164,7 @@ refrainMelody = \relative f' {
   c4.~ c4 c8 c4 bf4 a8 c8 |
   bf2. r4 bf8 bf4 c8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   c4 bf8 bf4.~ bf4 bf,8 ef4 g8 |
   c4 bf8 bf4.~ bf4 ef8 ef4 f8 |

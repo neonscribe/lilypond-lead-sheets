@@ -6,7 +6,7 @@
 
 instrument = "Alto Voice Key"
 whatKey = df
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Tea for Two - Ly Core - Ab.ly"
 

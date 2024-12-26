@@ -4,6 +4,6 @@
 
 instrument = "Karrin Allyson Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/How High the Moon - Ly Core - G.ly"

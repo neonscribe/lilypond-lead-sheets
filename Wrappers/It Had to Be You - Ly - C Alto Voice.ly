@@ -6,7 +6,7 @@
 
 instrument = "Doris Day, Helen Forrest Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/It Had to Be You - Ly Core - G.ly"
 

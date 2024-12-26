@@ -74,9 +74,7 @@ refrainMelody = \relative f' {
   \break
   e'4 r4 g4 r4 | c,4 r4 e4 r4 | ef4 r4 a4 r4 | c,4 r4 ef4 r4 |
 
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   d4 r4 g4 r4 | d4 r4 g4 r4 | c4 a4 g4 e4 | c4 r4 c4\sfz r4 | 
   \break
@@ -86,10 +84,10 @@ refrainMelody = \relative f' {
 
   \xPageBreak
 
-  \repeat volta 2 {
   \bar ".|:-||"
+  \repeat volta 2 {
   
-  \xTextMark \markup{ \bold \box "C" }
+  \sectNoBar "C"
   
   f4\mf r4 c4\ff r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
   f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
@@ -104,9 +102,7 @@ refrainMelody = \relative f' {
   \break
   d'4 r4 g,4 r4 | d'4 r4 g4 r4 | c4 bf4 g4 e4 | c4 r4 c4\sfz r4 |
   
-  \bar "$"
-  \break
-  \xTextMark \markup{ \bold \box "D" }
+  \sect "D"
   
   f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
   f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |

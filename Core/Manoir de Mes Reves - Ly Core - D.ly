@@ -40,7 +40,7 @@ refrainMelody = \relative f' {
   \tempo "Ballad or Bossa" 4 = 110
 
   \partial 2 fs2 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -48,28 +48,19 @@ refrainMelody = \relative f' {
   \break
   a1~ | a4 r4 fs2 | e1~ | e2 b'2 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   d1~ | d4 r4 b2 | a1~ | a4 r8 d,8 e8 d8 cs8 d8 |
   \break
   fs8 fs8~ fs2.~ | fs4 r8 d8 e8 d8 cs8 d8 | f1~ | f2 fs2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   a1~ | a4 r4 fs2 | e1~ | e2 fs2 |
   \break
   a1~ | a4 r4 fs2 | e1~ | e2 b'2 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   d1~ | d4 r4 e2 | fs1~ | fs2 d2 |
   \break

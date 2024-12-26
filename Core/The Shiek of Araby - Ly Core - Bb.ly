@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \tempo "Medium" 4 = 112
 
   \partial 4 f8 fs8 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -57,28 +57,19 @@ refrainMelody = \relative f' {
   \break
   g2. f4 | c'2. d4 | bf1~ | bf2. a4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   c2. g4 | bf2. g4 | g1~ | g2. g4 |
   \break
   bf2. g4 | a2. f4 | g1~ | g2. f4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   g2. f4 | g2. f4 | g1~ | g2. f4 |
   \break
   g2. f4 | c'2. cs4 | d1~ | d2. d4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   ef2. d4 | ef2. d4 | d1~ | d2. a4 |
   \break

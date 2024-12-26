@@ -4,6 +4,6 @@
 
 instrument = "Ella Fitzgerald, Sarah Vaughan Key"
 whatKey = bf,,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/There Will Never Be Another You - Ly Core - Eb.ly"

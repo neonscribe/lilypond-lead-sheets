@@ -54,19 +54,13 @@ refrainMelody = \relative f' {
   } \volta 2 {
     e,2 e2 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   b'2. b4~ | b2 b,8 c8 e8 g8 | b2. b4~ | b2. r4 |
   \break
   r8 e4. d4 c4 | e2 d2 | b2. b4~ | b2 b2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   e1 | r8 ds,8 e8 e'8 ds4. c8 | b1~ | b1 |
   \break

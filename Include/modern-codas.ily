@@ -107,6 +107,19 @@ dalSegnoAfterSolos = {
   }
 }
 
+daCapoAfterSolos = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \xTextEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.C. al Coda, after solos"
+  }
+}
+
 dalSegnoAfterSolosWithRepeats = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #RIGHT

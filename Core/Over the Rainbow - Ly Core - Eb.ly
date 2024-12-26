@@ -70,18 +70,12 @@ refrainMelody = \relative f' {
   } \volta 2 {
   ef2. r8 bf'8 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   g8 bf8 g8 bf8 g8 bf8 g8 bf8 | af8 bf8 af8 bf8 af8 bf8 af8 bf8 | c2 c2~ | c2. r8 bf8 |
   g8 bf8 g8 bf8 g8 bf8 g8 bf8 | a8 c8 a8 c8 a8 c8 a8 c8 | d2 d2 | f2 c2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   ef,2 ef'2 | d4 bf8 c8 d4 ef4 | ef,2 c'2 | bf1 |
   c,2 af'2 | g4 ef8 f8 g4 af4 | f4 d8 ef8 f4 g4 \textToCodaLastTime | ef2 r2 |

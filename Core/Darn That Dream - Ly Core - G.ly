@@ -168,29 +168,20 @@ refrainMelody = \relative f' {
   \break
   b4 d4 c8 b8 a8 g8 | fs4 a4 f4 ef4 | d2 fs2 | d1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
 
   d4 g4 ef4. ef8 | e4 a4 f4. fs8 |
   g4 b4 gs8 a8 b8 c8 | d4 e4 b2 |
   b4 d4 c8 b8 a8 g8 | fs4 a4 f4 ef4 | d2 b'2 | g2. r4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   r8 g4 g8 f4 ef4 | c'4 c4 bf4. c8 |
   \tuplet 3/2 { d4 ef4 d4 } cs4 b4 |
   bf4 af4 f2 |
   r8 g4 g8 f4 ef4 | g4 a4 bf4. c8 | d8 d8 d8 d8~ d4 d,4 | bf'2 b2 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   d,4 g4 ef4. ef8 | e4 a4 f4. fs8 |
   g4 b4 gs8 a8 b8 c8 | d4 e4 b2 |

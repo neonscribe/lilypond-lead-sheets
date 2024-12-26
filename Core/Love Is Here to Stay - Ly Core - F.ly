@@ -43,7 +43,7 @@ verseMelody = \relative g' {
   \xTextMark \markup{ "Verse" }
   
   \partial 4 a4 |
-  \bar "$"
+  \bar "||"
   
   c4 c4 a4 d,4 | e4 e2 a4 | c4 c4 a4 d,4 | e2. a4 |
   \break
@@ -92,7 +92,7 @@ refrainChords = \chordmode {
   b2:m7.5- e2:7.9- a2:m7 d2:7 g2:m7 c2:7
   ef2:9.5- d2:7 g2:m7 gs2:dim7 a2:m7 d2:7
   g2:m7 c2:9 f1:6
-  \chordInsideParens{ d4:7 }
+  \chordInsideParens{ d1:7 }
 }
 
 refrainKey = f
@@ -102,33 +102,33 @@ refrainMelody = \relative g {
   \key \refrainKey \major
   \clef \whatClef
 
-  \xTextMark \markup{ "Refrain" \bold \box "A" }
   \tempo "Medium"
 
   \partial 2. c4 d4 a'4 |
   
-  \bar "$"
+  \sectNoBreak "A1"
   
   f1 | f8 g4 f8 g4 g4 | f1 | r4 c4 d4 c'4 |
   \break
   a1 | f8 g4 f8 g4 g4 | a1 | r4 e'4 e4 d4 |
-  \break
+
+  \sect "B"
+
   c2 d4. c8 | bf8 bf8 bf4 c4. bf8 | a4 a4 c4 bf4 | g4 a4 a4 g4 |
   \break
   f4 g4 e4 f4 | r8 g4 a8 fs4 g4 | d'1 | r4 c,4 d4 a'4 |
 
-  \bar "$"
-  \break  
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "A2"
 
   f1 | f8 g4 f8 g4 g4 | f1 | r4 c4 d4 c'4 |
   \break
   a1 | f8 g4 f8 g4 g4 | a1 | r4 e'4 e4. d8 |
-  \break
+
+  \sect "C"
+
   c8 c8 c4 d8 d4 c8 | bf8 bf8 bf4 c8 c4. | r8 a8 gs8 a8 c4 bf4 | g2 d'2 |
   \break
-  r4 c4 d4 a4 | c2 d,2 | f1 |
-  \partial 4 r4 |
+  r4 c4 d4 a4 | c2 d,2 | f1 | r1 |
   \bar "|."
 }
 

@@ -22,7 +22,7 @@ refrainChords = \chordmode {
   af1:7 af1:7 ef1:7 ef1:7
   s4 <bf>8*13 ef8
   
-  s4. f8*4:m7 e8:7.9+.11+ r1
+  s4. f2:m7 e8:7.9+.11+ r1
 
   r1 r1
   
@@ -65,10 +65,8 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r1^"Solo break" | r1 |
   } } }
-  \bar "$"
-  \break
 
-  \xTextMark \markup{ \bold \box "Solos" }
+  \sect "Solos"
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
@@ -86,10 +84,7 @@ refrainMelody = \relative f' {
   
   df,4 bf8 bf8 df8 ef8 r8 <a f,>8~ | <a f,>1\fermata |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
 
   \bar "|."
 }
@@ -99,9 +94,9 @@ refrainKicksOverTime = \relative f' {
   
   s1*8
   
-  r4 bf4 r4 bf4 r4 bf4 r4 bf8 ef8
+  r4 ef4 r4 ef4 r4 ef4 r4 ef8 ef8
   
-  r4 r8 f8 r4 r8 e8 s1
+  r4 r8 ef8 r4 r8 e8 s1
   
   s1*2
   

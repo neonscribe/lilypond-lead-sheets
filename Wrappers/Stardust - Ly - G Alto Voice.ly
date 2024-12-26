@@ -4,6 +4,6 @@
 
 instrument = "Samara Joy Key"
 whatKey = g,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Stardust - Ly Core - C.ly"

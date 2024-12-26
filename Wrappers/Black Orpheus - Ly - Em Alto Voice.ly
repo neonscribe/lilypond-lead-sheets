@@ -4,6 +4,6 @@
 
 instrument = "Rosemary Clooney, Vikki Carr Key"
 whatKey = e
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Black Orpheus - Ly Core - Am.ly"

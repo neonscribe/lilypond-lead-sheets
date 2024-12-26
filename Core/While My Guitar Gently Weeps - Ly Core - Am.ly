@@ -243,14 +243,14 @@ refrainMelody = \relative f' {
   r4 e4 c4 a8 b8~ | b4 r8 a8~ a8 g4 c8~ | c2 r2 | r1 |
 
   \break
-  \bar "$"
+  \bar "||-||"
   r1 |
   \xTextMark \markup{ \bold \box "Solo, Verse Changes" }
   r1 | r1 | r1 | r1 | r1 | r1 | r1 |
   \break
   r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 \dalSegnoWithRepeats | 
 
-  \bar "$"
+  \bar "||-||"
 
   \textCodaBreak
 

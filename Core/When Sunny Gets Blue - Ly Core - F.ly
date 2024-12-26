@@ -87,18 +87,12 @@ refrainMelody = \relative f' {
   d8 f8 g8 f8 c'4. bf8 | a1 |
   } }
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   fs8 g8 fs8 g8 a4. b8 | cs8 a8 a4 a8 fs8 fs4 | \tuplet 3/2 { fs4 d4 e4 } f4 g4 | a1 |
   f8 g8 f8 g8 a4. bf8 | b8 g8 g4 g8 e8 e4 | \tuplet 3/2 { e4 c4 d4 } e4 f4 | g2~ g4. c,8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   \tuplet 3/2 { a'4 g4 a4 } c,4. c8 | c'8 bf8 f8 df8 c'8 bf4. | r4 a16 g16 f16 e16 d4 g4 | e1 |
   d8 f8 g8 f8 \tuplet 3/2 { af8 f8 g8~ } g8 f8 | c8 f8 g8 f8 af8 f8 g8 f8 | a8 c8 d8 c8 \tuplet 3/2 { ef4 c4 af4 } | g2. r4 |

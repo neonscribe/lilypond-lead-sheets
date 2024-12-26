@@ -78,28 +78,19 @@ refrainFHMelody = \relative f'' {
   \break
   bf4. g8~ g2 | bf8 g8 bf8 g8~ g8 bf,4. | c8 g'8~ g2.~ | g4 r4 r2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   ef'4. c8~ c2 | ef8 c8 ef8 c8~ c8 g4. | bf8 g8 bf8 g8~ g2~ | g2. r4 |
   \break
   bf4. g8~ g2 | bf8 g8 bf8 g8~ g8 bf,4. | c8 ef8~ ef2.~ | ef4 r4 r2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   ef4. f8~ f2 | f8 g8 bf8 ef8~ ef8 c4. | bf8 g8 bf8 g8~ g8 ef4. | f2. r4 |
   \break
   f4. g8~ g2 | g8 a8 c8 f8~ f8 d4. | c4. b8~ b2 | c8( bf8 c8 bf8 c8) d4. |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   ef4. c8~ c2 | ef8 c8 ef8 c8~ c8 g4. | bf8 g8 bf8 g8~ g2~ | g2. r4 |
   \break
@@ -120,28 +111,19 @@ refrainDFBMelody = \relative f'' {
   \break
   a4 a8 fs8~ fs2 | a8 fs8 a8 fs8~ fs8 a,8 as8 b8~ | b1 | r1 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   d'2 b2 | d8 b8 d8 b8~ b8 fs8 g8 gs8 | a4 a8 fs8~ fs2 | r2 r8 fs8 g8 gs8 |
   \break
   a4 a8 fs8~ fs2 | a8 fs8 a8 fs8~ fs8 a,8 as8 b8~ | b1 | r1 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   d4. e8~ e2 | \tuplet 3/2 { e4 fs4 a4 } d4 b4 | \tuplet 3/2 { d4 b4 d4 } b4 d,8 e8~ | e1 |
   \break
   e4. fs8~ fs2 | \tuplet 3/2 { fs4 gs4 b4 } e4 cs4 | b2 a2 | b2 cs2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   d2 b2 | d8 b8 d8 b8~ b8 fs8 g8 gs8 | a4 a8 fs8~ fs2 | r2 r8 fs8 g8 gs8 |
   \break

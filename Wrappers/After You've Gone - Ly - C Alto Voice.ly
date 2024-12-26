@@ -4,6 +4,6 @@
 
 instrument = "Ruth Etting Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/After You've Gone - Ly Core - G.ly"

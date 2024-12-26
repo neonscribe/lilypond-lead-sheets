@@ -36,7 +36,7 @@ refrainMelody = \relative f' {
   \tempo "Fast Blues" 4 = 200
 
   \partial 8 c8 |
-  \bar "$"
+  \bar "||"
   
   b8 c8 f8 gs8 a8 f8 d8 f8~ | f8 d8 f8 r8 r8 f4 d8 |
   f8 r4 f8~ f8 d8 f8 d8 | af'8 a8 \tuplet 3/2 { f16 g16 f16 } d8 f8 g8 f8 f8 | 

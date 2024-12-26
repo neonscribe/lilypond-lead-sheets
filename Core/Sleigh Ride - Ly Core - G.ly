@@ -100,6 +100,7 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box "A1,A2" }
   
+  \bar ".|:"
   \repeat volta 2 {
   d4 e4 d8 b8 g4 | a4 b4 a8 fs8 e4 | d1~ | d4 e4 fs4 a4 |
   d4 e4 d8 b8 a8 g8 | a4 a8 b8 a8 g8 e4 |
@@ -119,10 +120,7 @@ refrainMelody = \relative f' {
   >>
   \oneVoice
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   %% \key b \major
 

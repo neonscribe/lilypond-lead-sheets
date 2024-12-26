@@ -46,7 +46,7 @@ verseMelody = \relative f' {
   ef2. r4 | r8 bf'8 a8 g8 fs4 g4 | bf2 c,2 |
   r8 d8 d8 ef8 f4 c4 | f2. r4 | gf8 df8 gf8 af8 cf8 bf8 af8 gf8 |
   af2 df,2 | ef8 bf8 ef8 f8 gf8 bf8 gf8 ef8 | f2. r4 |
-  \bar "$"
+  \bar "||-||"
 }
 
 refrainLyricsPreOne = \lyricmode {
@@ -153,7 +153,7 @@ refrainMelody = \relative f' {
   ef1 | d1 |
   } }
 
-  \bar "$"
+  \bar "||-||"
 
   \xTextMark \markup{ \bold \box "B" }
 
@@ -165,10 +165,7 @@ refrainMelody = \relative f' {
   c4 d4 ef4 f4 | g4 c4 b4 c4 | af4 c4 b4 c4 | g1 |
   \break
   g1 | c,4 d4 ef4 g4 | bf1 | f1 |
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
 
   r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 | 
   r4 ef4 ef4 f4 | g1 |

@@ -81,10 +81,7 @@ refrainMelody = \relative f' {
   } {
   f,2. r4 |
   } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   c'4 bf8 c8 ef8 df8 c8 bf8 | f4 ef8 f8 gf8 af8 f8 ef8 |
   df2 \tuplet 3/2 { fs4 g4 bf4 } | \tuplet 3/2 { b4 c4 ef4 } \tuplet 3/2 { e4 f4 af4 } |
@@ -92,10 +89,7 @@ refrainMelody = \relative f' {
   c,4 bf8 c8 ef8 df8 c8 bf8 | f4 ef8 f8 gf8 af8 f8 ef8 |
   c1 | r4 f8 g8 a8 c8 d8 f8 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   g1~ | g4 f8 g8 f8 e8 d8 c8 | a4 d8 a8~ a2~ | a4 a8 c8 d8 af8 g8 f8 |
   \break

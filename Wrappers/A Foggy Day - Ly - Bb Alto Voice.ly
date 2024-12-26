@@ -6,7 +6,7 @@
 
 instrument = "Carmen McRae Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/A Foggy Day - Ly Core - F.ly"
 

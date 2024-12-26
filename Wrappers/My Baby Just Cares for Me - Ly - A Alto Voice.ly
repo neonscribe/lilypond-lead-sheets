@@ -6,7 +6,7 @@
 
 instrument = "Nina Simone Key"
 whatKey = a,
-whatClef = "treble"
+whatClef = "treble_8"
 
 objectGenderMale = ##t
 

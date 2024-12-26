@@ -4,7 +4,7 @@
 
 instrument = "Carmen McRae Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 #(set-global-staff-size 16)
 

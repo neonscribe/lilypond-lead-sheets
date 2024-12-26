@@ -76,10 +76,7 @@ refrainMelody = \relative f' {
     g8 g8 f4 ef4 f4 | ef4
 
   bf'8 bf8 g4 ef4 |
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Refrain" }
+  \sect "Refrain"
   f1~ | f4 f8 f8 af4 g4 | ef1~ | ef4 bf'8 bf8 g4 ef4 |
   \break
   f1~ | f4 f8 f8 af4 g4 | bf1~ | bf2 r4 g8 bf8 |

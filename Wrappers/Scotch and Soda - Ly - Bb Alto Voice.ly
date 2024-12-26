@@ -4,6 +4,6 @@
 
 instrument = "Usha Iyer, Teresa Bright Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Scotch and Soda - Ly Core - Eb.ly"

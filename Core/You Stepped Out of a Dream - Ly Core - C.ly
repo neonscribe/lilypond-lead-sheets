@@ -65,28 +65,19 @@ refrainMelody = \relative f' {
   \break
   g4. g8 g2~ | g4 g4 \tuplet 3/2 { g4 f4 ef4 } | c'1~ | c2 \tuplet 3/2 { c4 c4 c4 } |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   c4. c,8 c2~ | c2 \tuplet 3/2 { c'4 c4 c4 } | c4. c,8  c2~ | c2 \tuplet 3/2 { c'4 c4 c4 } |
   \break
   c4. c,8  c2~ | c2 \tuplet 3/2 { c4 d4 c4 } | ef1 | e?2. r4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   e1~ | e4 e4 \tuplet 3/2 { e4 e4 e4 } | | f1~ | f2 \tuplet 3/2 { f4 f4 f4 } |
   \break
   \tuplet 3/2 { g4 g4 g4 } g2~ | g4 g4 \tuplet 3/2 { g4 f4 ef4 } | c'1 | r4 c4 c4 c4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
   
   c2 bf4 af4 | g2. af4 | \tuplet 3/2 { b4 b4 b4 } b2~ | b2 \tuplet 3/2 { d4 c4 e,4 } |
   \break

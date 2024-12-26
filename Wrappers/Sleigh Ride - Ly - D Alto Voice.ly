@@ -6,7 +6,7 @@
 
 instrument = "Gwen Stefani Key"
 whatKey = d
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Sleigh Ride - Ly Core - G.ly"
 

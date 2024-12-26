@@ -63,7 +63,7 @@ verseMelody = \relative f' {
   \xTextMark \markup{ \bold \box "Verse" }
   
   \partial 4 f8 f8 |
-  \bar "$"
+  \bar "||"
   
   d8 d8 ef4 e8 f4. | d8 d8 ef4 e8 f4. |
   \break

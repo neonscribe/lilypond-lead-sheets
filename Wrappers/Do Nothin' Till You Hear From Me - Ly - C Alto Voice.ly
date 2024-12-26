@@ -4,6 +4,6 @@
 
 instrument = "Ella Fitzgerald Key"
 whatKey = c'
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Do Nothin' Till You Hear From Me - Ly Core - G.ly"

@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   \tempo "Medium-Up Swing" 4 = 175
   
   \partial 8 ef8 |
-  \bar "$"
+  \bar "||"
   \noBreak
 
   \xTextMark \markup{ \bold \box "A1" }
@@ -99,10 +99,7 @@ refrainMelody = \relative f' {
   \noBreak
   af4 af8 af4. r8 ef8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
 
   ef'4 df4 cf8 af8 f8 ef8 | 
   \noBreak
@@ -120,10 +117,7 @@ refrainMelody = \relative f' {
   \noBreak
   af4 af8 af4. r4 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   bf4 af4 bf8 df4 bf8~ |
   \noBreak
@@ -141,10 +135,7 @@ refrainMelody = \relative f' {
   \noBreak
   cf8 af4 bf2 ef,8 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   ef'4 df4 cf8 af8 f8 ef8 |
   \noBreak

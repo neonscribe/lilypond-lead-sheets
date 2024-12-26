@@ -4,6 +4,6 @@
 
 instrument = "Alto Voice Key"
 whatKey = g
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Blue Monk - Ly Core - Bb.ly"

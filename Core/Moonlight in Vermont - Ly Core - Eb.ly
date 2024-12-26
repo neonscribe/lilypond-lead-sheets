@@ -55,27 +55,18 @@ refrainMelody = \relative f' {
   
   c'4 bf4 g4 f4 | g1 | c4 bf4 g4. ef8 | f8 g8 cf,2. | g'4 f4 ef4 c4 | ef1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   c'4 bf4 g4 f4 | g1 | c4 bf4 g4. ef8 | f8 g8 cf,2. | g'4 f4 ef4 c4 | ef1 |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   d8 d8 d8 d8~ d8 d4 d8 | d8 d4 d8 d8 d4 d8 | d8 d8 d8 d'8~ d4 c8 d8 | b1 |
   \break
   ef,8 ef8 ef8 ef8~ ef8 ef4 ef8 | ef8 ef4 ef8 ef8 ef4 ef8 |
   ef8 ef8 ef8 ef'8~ ef4 df8 ef8 | c2 cf2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   c4 bf4 g4 f4 | g1 | c4 bf4 g4. ef8 | f8 g8 cf,2. \textToCodaLastTime | g'4 f4 ef4 c4 | ef1 |
 

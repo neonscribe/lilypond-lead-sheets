@@ -32,7 +32,7 @@ Once you told me I was mis -- tak -- en,
 that I'd a -- wak -- en with the sun, __
 and or -- der or -- ange juice for one.
 _ _ _ _ _ _ _
-It nev -- er en -- tered my mind. __
+It nev -- er en -- tered my mind. __ ""
 }
 
 refrainChords = \chordmode {
@@ -73,19 +73,13 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r8 d8 f8 g8 a8 f8 a8 c8~ | c2 r2 |
   } } }
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   d2 f,4 f4~ | f2 r4 e4 | g2 f4 f4~ | f2 r4 e4 |
   \break
   a4 a4 bf4 bf4 | c4 c4 d4 d4 | e2 c4 c4~ | c2 r2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
   
   a4 a4 a4 a4 | r8 a8 g8 f8 e4 e4 | r8 f8 e8 d8 c4 c4 | f4 e8 c8~ c2 |
   \break

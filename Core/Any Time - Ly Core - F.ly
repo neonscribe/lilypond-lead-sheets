@@ -33,7 +33,7 @@ introMelody = \relative f' {
   \xTextMark \markup{ \bold \box "Intro" }
 
   \partial 2 d'4 df4 |
-  \bar "$"
+  \bar "||"
   c2. g4 | bf4 bf4 a4 g4 | f2 a4 c4 | f2
 }
 
@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   
   \partial 2 c'8 cs4 d8~ |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A" }
 
@@ -86,10 +86,7 @@ refrainMelody = \relative f' {
   \break
   b2. g8 f8~ | f4. g8 e8 d4. | g1 | r2 c8 cs4 d8~ |
 
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   d1~ | d8 a4. a8 d,4. | a'2 g2 | r2 fs4 g4 |
   \break

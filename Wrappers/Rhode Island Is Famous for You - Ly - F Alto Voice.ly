@@ -6,7 +6,7 @@
 
 instrument = "Blossom Dearie Key"
 whatKey = f
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Rhode Island Is Famous for You - Ly Core - G.ly"
 

@@ -6,7 +6,7 @@
 
 instrument = "Nina Simone Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/I Wish I Knew How It Would Feel to Be Free - Ly Core - F.ly"
 

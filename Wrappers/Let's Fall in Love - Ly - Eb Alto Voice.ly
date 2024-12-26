@@ -6,7 +6,7 @@
 
 instrument = "Diana Krall, Jeri Southern Key"
 whatKey = ef,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Let's Fall in Love - Ly Core - C.ly"
 

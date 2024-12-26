@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Ballad" 4 = 84
 
   \partial 4 ef4 |
-  \bar "$"
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -61,28 +61,19 @@ refrainMelody = \relative f' {
   \break
   \tuplet 3/2 { df4 df4 f4 } c4 df4 | ef4 f4 g4 af4 | df2 ef2 | c2. ef,4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A2" }
+  \sect "A2"
   
   \tuplet 3/2 { f4 f4 bf4 } f4 e4 | ef4 ef2 d4 | \tuplet 3/2 { df4 df4 f4 } c4 df4 | ef1 |
   \break
   \tuplet 3/2 { df4 df4 f4 } c4 df4 | ef4 f4 g4 af4 | df2 g,2 | af1 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sect "B"
   
   bf4 ef,4 f4. ef8 | bf'8 ef,8 f2 ef4 | af4 af4 af4 gf8 af8 | f1 |
   \break
   c'4 f,4 g4. f8 | c'8 f,8 g2 f4 | \tuplet 3/2 { bf4 bf4 bf4 } bf4 af4 | g2. gf4 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   \tuplet 3/2 { f4 f4 bf4 } f4 e4 | ef4 ef2 d4 | \tuplet 3/2 { df4 df4 f4 } c4 df4 | ef1 |
   \break

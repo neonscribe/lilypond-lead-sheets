@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \tempo "Uptempo Two-Feel" 4 = 224
 
   \partial 8 c8 |
-  \bar "$"
+  \bar "||"
 
 
   \xTextMark \markup{ \bold \box "Verse" }
@@ -58,10 +58,7 @@ refrainMelody = \relative f' {
   \break
   f8 d8 f8 g8 f4. d8 | f8 d8 f8 g8 f4 d8 c8 | f4 f4 g8 g8 a8 a8 | c,4 d4 f2 |
   
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "Chorus" }
+  \sect "Chorus"
   
   a8 a4. c2 | g8 a8 g8 f8 d4 f4 | a4 a4 g4. f8 | g8 a8 g8 f8 d4 f4 |
   \break
@@ -70,10 +67,7 @@ refrainMelody = \relative f' {
   g8 a8 g8 f8 |
   \time 4/4
   d4 f2. |
-  \bar "$"
-  \break
-  
-  \xTextMark \markup{ \bold \box "Solo" }
+  \sect "Solo"
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 

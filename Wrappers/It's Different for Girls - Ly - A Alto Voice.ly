@@ -6,7 +6,7 @@
 
 instrument = "Galen Ayers (with Siskin) Key"
 whatKey = a,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/It's Different for Girls - Ly Core - Fs.ly"
 

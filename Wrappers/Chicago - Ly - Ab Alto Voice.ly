@@ -6,7 +6,7 @@
 
 instrument = "Judy Garland Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Chicago - Ly Core - C.ly"
 

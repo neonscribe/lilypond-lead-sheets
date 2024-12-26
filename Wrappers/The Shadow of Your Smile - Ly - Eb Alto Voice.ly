@@ -6,7 +6,7 @@
 
 instrument = "Astrud Gilberto Key"
 whatKey = ef
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/The Shadow of Your Smile - Ly Core - G.ly"
 

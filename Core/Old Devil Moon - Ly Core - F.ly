@@ -73,19 +73,13 @@ refrainMelody = \relative f' {
   f1^\markup { Latin } | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
   \break
   a1 | bf8 bf8 bf8 bf8 bf4 d4 | c1~ | c2 c4^\markup { Swing } c4 |
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B1" }
+  \sect "B1"
 
   c2 bf8 a4 f 8~ | f2 a4 bf4 | c2 bf8 a4 f8~ | f2 a4 bf4 |
   \break
 
   df2 cf8 bf4 gf8~ | gf2 a8 g4 f8~ | f1^\markup { Latin } | r2 ef8 c8 ef8 f8~ |
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
 
   f2 ef8 c8 ef8 g8~ | g2 \tuplet 3/2 { ef4 c4 ef4 } | a2^\markup { Swing } a2~ | a2 f8 d8 f8 a8~ |
   \break
@@ -101,10 +95,7 @@ refrainMelody = \relative f' {
   f1^\markup { Latin } | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
   \break
   a1 | bf8 bf8 bf8 bf8 bf4 d4 | c1~ | c2 c4^\markup { Swing } c4 |
-  \bar "$"
-  \break
-
-  \xTextMark \markup{ \bold \box "B2" }
+  \sect "B2"
 
   c2 bf8 a4 f 8~ | f2 a4 bf4 | c2 bf8 a4 f8~ | f2 a4 bf4 |
   \break

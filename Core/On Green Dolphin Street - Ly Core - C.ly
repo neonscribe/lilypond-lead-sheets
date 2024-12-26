@@ -44,32 +44,30 @@ refrainMelody = \relative c'' {
   \clef \whatClef
 
   \tempo "Latin" 4 = 160
-  \xTextMark \markup{ \bold \box A }
+  \sectStart "A1"
+
   c2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |
   \break
 
   a2 a2~ | a2 \tuplet 3/2 { af4 f4 df4 } | g1~ | g2 r2
-  \bar "$"
-  \break
 
   \tempo "Swing"
-  \xTextMark \markup{ \bold \box B }
+  \sect "B"
+
   g2 d4 e4 | f4 g4 af4 bf4 | g2 g2~ | g2. g4 |
   \break
   bf4 f2 g4 | af4 bf4 cf4 df4 | bf2 bf2~ | bf2 b2
-  \bar "$"
-  \break
 
   \tempo "Latin"
-  \xTextMark \markup{ \bold \box A }
+  \sect "A2"
+
   c2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |
   \break
   a2 a2~ | a2 \tuplet 3/2 { af4 f4 df4 } | g1~ | g2 r2
-  \bar "$"
-  \break
-  
+
   \tempo "Swing"
-  \xTextMark \markup{ \bold \box C }
+  \sect "C"
+
   g2 d4 e4 | f4 g4 gs4 e'4 | d2 c2 | c,4 d4 ds4 b'4 |
   \break
   a2 g2 | r4 g4 g4 g4 | g1~ | g1

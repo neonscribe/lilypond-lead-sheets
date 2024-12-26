@@ -4,6 +4,6 @@
 
 instrument = "Anita O'Day, Laufey Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/It Could Happen to You - Ly Core - F.ly"
