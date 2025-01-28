@@ -23,7 +23,7 @@ But now all is gone, gone is the rap -- ture that thrilled my heart.
 Gone with the wind, the glad -- ness that filled my heart.
 
 Just like a flame, love burned bright -- ly then be -- came
-an emp --ty smoke dream that has gone, gone with the wind.
+an emp -- ty smoke dream that has gone, gone with the wind.
 }
 
 refrainChords = \chordmode {

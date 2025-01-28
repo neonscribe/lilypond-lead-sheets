@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 160
+  \tempo "Medium-Up Swing [Bill Evans Trio 1961]" 4 = 190
 
   r8 d4. e4 f4 |
   \bar "||"

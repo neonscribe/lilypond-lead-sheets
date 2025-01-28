@@ -46,7 +46,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key bf \major
   \clef \whatClef
-  \tempo "Medium" 4 = 130
+  \tempo "Medium [Jack Teagerden 1956]" 4 = 134
 
   \partial 4. <d bf'>8 <ef c'>8 <e cs'>8 |
   \bar "||"

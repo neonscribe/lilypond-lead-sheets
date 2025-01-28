@@ -87,7 +87,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad" 4 = 110
+  \tempo "Ballad [Nat King Cole 1953]" 4 = 75
 
   \xTextMark \markup{ \bold \box "A1, A2" }
   

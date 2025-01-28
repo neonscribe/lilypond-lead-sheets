@@ -33,7 +33,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Up" 4 = 220
+  \tempo "Up [Charlie Parker 1951]" 4 = 200
 
   \bar ".|:"
   \repeat volta 2 {
@@ -70,4 +70,4 @@ refrainMelody = \relative f' {
 
 \include "../Include/refrain.ily"
 
-\markup "Play head twice before and twice after solos, to coda on the very last repeat."
+\markup "Play head twice before and twice after solos, to coda on the final repeat."

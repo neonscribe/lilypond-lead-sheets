@@ -22,7 +22,7 @@ refrainLyrics = \lyricmode {
   If a breeze ca -- ress -- es me, it's real -- ly you stroll -- ing by.
   If I hear a mel -- o -- dy, it's mere -- ly the way you sigh.
   
-  Wher -- ev --er you are, you're near me; you dare me to be un -- true.
+  Wher -- ev -- er you are, you're near me; you dare me to be un -- true.
   Fun -- ny, each time I fall in love, it's al -- ways you.
 }
 

@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Bob Russell"
   composer = "Duke Ellington"
-  copyright = "© 1942 Robbins Music Corp."
+  copyright = "© 1942 Robbins Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

@@ -18,7 +18,7 @@ I look for my heart, it's per -- di -- do, __
 I lost it way down in Tor -- ri -- do __
 while chanc -- ing a dance __ fi -- es -- ta. __
 
-Bo -- le --ro, __
+Bo -- le -- ro, __
 She glanced as she danced a Bo -- le -- ro, __
 I said, tak -- ing off my som -- bre -- ro, __
 “Let's meet for a sweet __ si -- es -- ta.” __

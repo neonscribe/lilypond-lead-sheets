@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   
   c4. c,8 c2~ | c2 \tuplet 3/2 { c'4 c4 c4 } | c4. c,8  c2~ | c2 \tuplet 3/2 { c'4 c4 c4 } |
   \break
-  c4. c,8  c2~ | c2 \tuplet 3/2 { c4 d4 c4 } | ef1 | e?2. r4 |
+  c4. c,8  c2~ | c2 \tuplet 3/2 { c4 d4 c4 } | ef1 | e2. r4 |
   
   \sect "A2"
   

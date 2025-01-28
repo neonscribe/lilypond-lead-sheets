@@ -51,10 +51,10 @@ refrainChords = \chordmode {
 
   ef1:7 ef1:7 ef1:7 ef1:7
   af1:7 af1:7 ef1:7 ef2:7 c2:7
-  f1:m7 bf1:7 ef2:7 af2:7
+  f1:m7 bf1:7 ef2:7 af2:7 ef1:7
   
   ef1:7 ef1:7 ef1:7 ef1:7
-  af1:7 af1:7 ef4:7 r2. bf1:7 bf1:7
+  af1:7 af1:7 ef4:7 r2. bf1:7
 
   ef1:7 ef1:7 ef1:7 ef1:7
   af1:7 af1:7 ef1:7 ef2:7 c2:7
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 140
+  \tempo "Medium Swing [Peggy Lee 1958]" 4 = 140
   
   \partial 4. bf8 c8 ef8~ |
   \bar "||"

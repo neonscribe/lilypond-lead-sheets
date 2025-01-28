@@ -26,7 +26,7 @@ bassIntro = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef bass
-  \tempo "Latin" 4 = 115
+  \tempo "Latin [Wes Montgomery 1965]" 4 = 128
 
   \xTextMark \markup{ \bold \box "Intro" }
   
@@ -61,7 +61,6 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Latin" 4 = 115
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

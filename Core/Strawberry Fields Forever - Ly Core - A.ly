@@ -45,7 +45,7 @@ introBass = \relative f' {
   \key \introKey \major
   \clef bass
 
-  e2 ds2 | d1 | cs2 b2 | a4 cs4 |
+  e,2 ds2 | d1 | cs2 b2 | a4 cs4 |
 }
 
 refrainLyricsOne = \lyricmode {
@@ -130,6 +130,8 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
+  
+  \sectStart "Pre-Chorus"
 
   r4 cs'8 cs8 d8 cs4 a8~ | a4 e8 fs8 b8 a4 g8~ |
 
@@ -150,20 +152,20 @@ refrainMelody = \relative f' {
   \time 4/4
   b'8 a4.~ a2 |
 
-  \break
+  \xPageBreak
 
-  \xTextMark \markup{ \bold \box "Verse" }
+  \sectNoBar "Verse"
   
   \bar ".|:-||"
   \repeat volta 3 {
   \tuplet 3/2 { b4 b4 b4 } \tuplet 3/2 { b4 b4 b4 } |
-  \tuplet 3/2 { b2 b4~ } b2 | r8 a8 a8 a8 cs8 b8 a8 gs8 | a16( gs16 fs4) r8 r2 |
-
-  \xPageBreak
+  \tuplet 3/2 { b2 b4~ } b2 | r8 a8 a8 a8 cs8 b8 a8 gs8 | a16( gs16 fs4) r8 r2 | \bar "|p"
 
   r8 a8 a8 a8 gs8. fs16 e8 cs'8 | a8 a16 a16 a16( b16) a16( gs16) fs4 r4 |
   r8 a8 a8 a8 b8 a8 gs8 a8 | a1 |
-  \break
+
+  \sect "Pre-Chorus"
+
   r4 cs8 cs8 d8 cs4 a8~ | a4 e8 fs8 b8 a4 g8~ |
 
   \sectNoBreak "Chorus"

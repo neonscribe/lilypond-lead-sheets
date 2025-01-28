@@ -25,7 +25,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow" 4 = 65
+  \tempo "Medium Slow Blues [Thelonious Monk 1954]" 4 = 90
 
   <d bf>8 <ef c>8 <e cs>8 <f d>8~ <f d>2 |
   <g ef>8 <af f>8 <a fs>8 <bf g>8~ <bf g>2 |

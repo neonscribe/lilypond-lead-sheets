@@ -75,7 +75,6 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 130
 
   \xTextMark \markup{ \bold \box "Intro" }
   
@@ -110,7 +109,6 @@ outroMelody = \relative f' {
   \time 4/4
   \key af \major
   \clef \whatClef
-  \tempo "Medium" 4 = 130
 
   \xTextMark \markup{ \bold \box "Outro" }
   
@@ -178,7 +176,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 130
+  \tempo "Medium [Dizzy Gillespie 1945]" 4 = 126
 
   \xTextMark \markup{ "Refrain" \bold \box "A1" }
   

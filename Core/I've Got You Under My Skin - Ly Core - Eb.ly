@@ -21,7 +21,7 @@ I tried so __ not to give in. __
 I said to my -- self, “This af -- fair nev -- er will go so well.” __
 But why should I try to re -- sist when, dar -- ling, I know so well __
 I've got you __ un -- der my skin. __
-I'd sac -- ri --fice an -- y -- thing, come what might,
+I'd sac -- ri -- fice an -- y -- thing, come what might,
 for the sake of hav -- ing you near.
 In spite of a warn -- ing voice that comes in the night
 and re -- peats and re -- peats in my ear:

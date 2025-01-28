@@ -59,7 +59,7 @@ refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 110
+  \tempo "Medium [Billie Holiday 1941]" 4 = 110
   
   \sectStart "A1"
   

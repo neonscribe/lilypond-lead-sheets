@@ -28,7 +28,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Bright Blues" 4 = 190
+  \tempo "Bright Blues [Oscar Pettiford 1953]" 4 = 184
 
   \partial 8 g8~ |
   \bar "||"

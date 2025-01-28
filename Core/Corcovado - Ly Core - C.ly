@@ -116,7 +116,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Bossa" 4 = 125
+  \tempo "Medium Bossa [Stan Getz & João Gilberto 1964]" 4 = 130
 
   \xTextMark \markup { "Intro" }
   

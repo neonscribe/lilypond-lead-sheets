@@ -27,7 +27,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 168
+  \tempo "Medium Swing [Charlie Parker 1951]" 4 = 164
 
   \bar ".|:"
   \repeat volta 2 {

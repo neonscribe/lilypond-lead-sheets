@@ -45,7 +45,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Bossa" 4 = 148
+  \tempo "Medium Bossa [Astrud Gilberto 1965]" 4 = 144
 
   \xTextMark \markup{ \bold \box "Intro" }
   
@@ -61,6 +61,7 @@ refrainMelody = \relative f' {
   } } }
   
   \sect "A"
+  \sect "Refrain"
   
   ds4. e8~ e4. c8~ | c2~ c8 a4 c8~ | c8 a4.~ a2 | r4 a8 c8~ c8 e4 g8~ |
   \break
@@ -98,7 +99,7 @@ refrainMelody = \relative f' {
   r4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
-  a,8 c8~ c8 e4
+  a8 c8~ c8 e4
   \endParenthesis \parenthesize ds8\laissezVibrer |  
 
   \bar "|."

@@ -12,14 +12,16 @@
   copyright = "© 1925 Irving Berlin, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Yes, sir, that's my ba -- by.
 No, sir, don't mean “may -- be.”
 Yes, sir, that's my ba -- by now.
 
-_ _ _
+Yes, ma'am, we've de -- ci -- ded.
+No, ma'am, we won't hide it.
+Yes, ma'am, you're in -- vit -- ed now. __
 
-way, __ by the way __
+By the way, __ by the way __
 when we meet the preach -- er I'll say __
 
 Yes, sir, that's my ba -- by.
@@ -27,25 +29,17 @@ No, sir, don't mean “may -- be.”
 Yes, sir, that's my ba -- by now. __
 }
 
-refrainLyricsTwo = \lyricmode {
-Yes, ma'am, we've de -- ci -- ded.
-No, ma'am, we won't hide it.
-Yes, ma'am, you're in -- vit -- ed _ now. __
-By the
-}
-
 refrainChords = \chordmode {
   ef1:maj7 ef2:maj7 e2:dim7 f1:m7
-  bf1:7 f1:m7 bf1:7
+  bf1:7 f1:m7 bf1:7 ef1 f2:m7 bf2:sus9
   
-  ef1 f2:m7 bf2:sus9
-  
-  ef1 ef2 b4:9 bf4:9
+  ef1:maj7 ef2:maj7 e2:dim7 f1:m7
+  bf1:7 f1:m7 bf1:7 ef1 ef2 b4:9 bf4:9
   
   ef1:7 ef1:7 af1 af2 g4:13 gf4:13 
   f1:7 f1:7 bf1:7 bf1:7
   
-  ef2:maj7 af2:8 g2:m7 gf2:9 f1:m7 bf1:7
+  ef2:maj7 af2:9 g2:m7 gf2:9 f1:m7 bf1:7
   f1:m7 bf1:7 ef1
   \chordOpenParen{ f2:m7 }
   \chordCloseParen{ bf2:7 }
@@ -57,21 +51,24 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 140
+  \tempo "Medium [Etta Jones 1960]" 4 = 150
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectStart "A1"
   
-  \bar ".|:"
-  \repeat volta 2 {
   bf2 c2 | bf4 c4 c4 bf4 | bf2 c2 |
   bf4 c4 c4 bf4 |
   \break
   bf2 c2 | bf4 c4 g4 f4 |
-  \alternative { \volta 1 {
   ef1~ | ef1 |
-  } \volta 2 {
+
+  \sect "A2"
+  
+  bf'2 c2 | bf4 c4 c4 bf4 | bf2 c2 |
+  bf4 c4 c4 bf4 |
+  \break
+  bf2 c2 | bf4 c4 g4 f4 |
   ef1~ | ef2 fs4 g4 |
-  } } }
+
   \sect "B"
   
   ef1~ | ef2 b'4 c4 | af1~ | af2 g4 gf4 |
@@ -94,4 +91,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

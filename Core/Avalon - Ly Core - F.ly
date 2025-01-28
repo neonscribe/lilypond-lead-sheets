@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing" 4 = 220
+  \tempo "Fast Swing [Benny Goodman Quartet 1937]" 4 = 250
 
   \partial 2 c2 |
   \bar "||"

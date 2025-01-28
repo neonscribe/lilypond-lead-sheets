@@ -27,7 +27,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up" 4 = 161
+  \tempo "Medium-Up [Duke Ellington 1942]" 4 = 200
 
   g8-- g8-. r4 r2 | g8-- g8-. r4 g8-- g8-. r4 | g4. c8-> r2 | r1 |
   \break

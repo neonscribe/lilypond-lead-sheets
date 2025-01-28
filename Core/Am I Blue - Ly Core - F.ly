@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 137
+  \tempo "Medium [Ethel Waters 1929]" 4 = 130
 
   \partial 2 c8 d4 a'8~ |
 

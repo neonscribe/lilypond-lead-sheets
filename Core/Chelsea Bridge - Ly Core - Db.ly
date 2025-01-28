@@ -44,7 +44,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key df \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 55
+  \tempo "Medium Ballad [Duke Ellington 1941]" 4 = 98
 
   \partial 2. bf,8 c8 df8 ef8 \tuplet 3/2 { f8 g8 af8 } |
 

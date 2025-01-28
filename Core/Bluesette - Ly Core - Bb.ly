@@ -7,7 +7,7 @@
 \header {
   title = "Bluesette"
   subtitle = \instrument
-  poet = "Normal Gimbel"
+  poet = "Norman Gimbel"
   composer = "Toots Thielmans"
   copyright = "© 1961 Duchess Music Corporation"
 }
@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Jazz Waltz" 4 = 194
+  \tempo "Jazz Waltz [Toots Thielmans 1963]" 4 = 186
 
   \bar ".|:"
   \repeat volta 2 {

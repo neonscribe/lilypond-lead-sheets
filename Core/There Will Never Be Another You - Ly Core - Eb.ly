@@ -27,7 +27,7 @@ refrainLyrics = \lyricmode {
   if there will nev -- er ev -- er be an -- oth -- er you?
 }
 
-refrainChords = \chordmode {
+refrainNRChords = \chordmode {
   s4
 
   ef1:maj7 ef1:maj7 d1:m7.5- g1:7
@@ -48,6 +48,26 @@ refrainChords = \chordmode {
 
   \chordInsideParens{ bf2:7 }
 }
+
+refrainHLChords = \chordmode {
+  s4
+
+  ef1:maj7 ef1:maj7 d1:m7.5- g1:7
+  c1:m7 c1:m7 bf1:m7 ef1:7
+
+  af1:maj7 df1:9 ef1:maj7 c1:m7
+  f1:7 f1:7 f1:m7 bf1:7
+
+  ef1:maj7 ef1:maj7 d1:m7.5- g1:7
+  c1:m7 c1:m7 bf1:m7 ef1:7
+
+  af1:maj7 df1:9 ef1:maj7 a2:m7 d2:7
+  ef2:maj7 d2:7 g2:m7 c2:7 f2:m7 bf2:7 ef2
+
+  \chordInsideParens{ bf2:7 }
+}
+
+refrainChords = \refrainHLChords
 
 refrainKey = ef
 

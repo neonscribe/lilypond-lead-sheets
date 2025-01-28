@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 82
+  \tempo "Ballad [Mel Torme 1950]" 4 = 82
   
   \partial 4 g4 |
 

@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Bossa Nova" 4 = 110
+  \tempo "Medium Bossa Nova [Astrud Gilberto 1965]" 4 = 110
 
   \partial 4 e4 |
   \bar "||"

@@ -16,7 +16,7 @@ verseLyrics = \lyricmode {
   And now the pur -- ple dusk of twi -- light time
   steals a -- cross the mea -- dows of my heart.
   High up in the sky the lit -- tle stars climb,
-  Always re -- mind -- ing me that we're a -- part.
+  Al -- ways re -- mind -- ing me that we're a -- part.
   You wan -- dered down the lane and far a -- way,
   Leav -- ing be a song that will not die.
   Love is now the star dust of yes -- ter -- day.

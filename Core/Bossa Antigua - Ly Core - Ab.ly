@@ -34,7 +34,7 @@ refrainMelody = \relative c' {
   \key \refrainKey \major
   \clef \whatClef
   
-  \tempo "Medium Bossa" 2 = 95
+  \tempo "Medium Bossa [Paul Desmond 1965]" 2 = 95
 
   \partial 2 c8 df4 ef8 |
   \bar "||"

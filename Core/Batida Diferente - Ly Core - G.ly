@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Bossa" 4 = 200
+  \tempo "Fast Bossa [Sérgio Mendes 1966]" 4 = 200
   
   \partial 8 d8 |
   \bar "||"

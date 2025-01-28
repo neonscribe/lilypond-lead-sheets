@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Fats Waller"
-  copyright = "© 1942 Robbins Music Corp."
+  copyright = "© 1942 Robbins Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

@@ -42,7 +42,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 134
+  \tempo "Medium [John Lewis & Sacha Distel 1956]" 4 = 134
 
   \partial 4 e'8 g8 |
   \bar "||"

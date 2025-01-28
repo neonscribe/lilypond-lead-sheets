@@ -31,7 +31,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Jazz Funk, Straight Eighths" 4 = 116
+  \tempo "Medium Jazz Funk, Straight Eighths [Herbie Hancock 1964]" 4 = 116
 
   \xTextMark \markup{ \bold \box "Intro" }
   

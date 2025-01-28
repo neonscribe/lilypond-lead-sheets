@@ -19,7 +19,7 @@ Once in a while __ will you dream of the mo -- ments I shared with you,
 mo -- ments be -- fore we two drift -- ed a -- part. __
 In love's smol -- der -- ing em -- ber, one spark may re -- main.
 If love still can re -- mem -- ber, the spark may burn a -- gain.
-I know that I'll __ be con -- tent --ed with yes -- ter -- day's mem -- o -- ry
+I know that I'll __ be con -- tent -- ed with yes -- ter -- day's mem -- o -- ry
 know -- ing you think of me once in a while.
 }
 

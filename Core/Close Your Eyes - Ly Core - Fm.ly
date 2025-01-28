@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Slow" 4 = 102
+  \tempo "Medium [Tony Bennett 1955]" 4 = 162
   
   \partial 2 c'4. g8 |
   

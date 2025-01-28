@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "E.A. Swan"
-  copyright = "© 1931 Warner Bros, Inc."
+  copyright = "© 1931 Warner Bros. Inc."
 }
 
 refrainLyrics = \lyricmode {

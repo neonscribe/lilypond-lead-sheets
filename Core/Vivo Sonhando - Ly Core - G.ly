@@ -5,7 +5,7 @@
 \header {
   title = "Vivo Sonhando (Dreamer)"
   subtitle = \instrument
-  poet = "Gene Lees"
+  poet = "English lyrics by Gene Lees"
   composer = "Antônio Carlos Jobim"
   %% copyright = "© 1963 Jobim Music Ltda."
 }

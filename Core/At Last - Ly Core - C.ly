@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 100
+  \tempo "Slow Ballad 12/8 Feel [Etta James 1960]" 4 = 58
 
   \partial 4 g4 |
   \bar "||"

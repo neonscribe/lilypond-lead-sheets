@@ -33,7 +33,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Blues" 4 = 134
+  \tempo "Medium Blues [John Coltrane 1957]" 4 = 154
   
   \partial 8*5 bf8 df8 f8 df8 ef8~ |
 

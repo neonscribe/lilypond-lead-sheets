@@ -67,7 +67,7 @@ refrainKey = df
 refrainMelody = \relative c'' {
   \time 4/4
   \clef \whatClef
-  \tempo "Medium Swing Ballad" 4 = 80
+  \tempo "Ballad [Carmen McRae 1990]" 4 = 58
 
   \sectStart "A1"
 
