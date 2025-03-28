@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Benny Golson"
-  copyright = "© 1958 Ibbob Music, Inc."
+  copyright = \markup \small "© 1958 Ibbob Music, Inc."
 }
 
 refrainLyrics = \lyricmode {

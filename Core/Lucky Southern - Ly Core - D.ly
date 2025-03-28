@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Keith Jarrett"
-  copyright = "© 1972 Kundalini Music"
+  copyright = \markup \small "© 1972 Kundalini Music"
 }
 
 bossaRhythm = ##t

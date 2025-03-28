@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "W. C. Handy"
-  copyright = "© 1916 Pack & Handy Music Co. Inc."
+  copyright = \markup \small "© 1916 Pack & Handy Music Co. Inc."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -22,7 +22,7 @@ refrainLyricsThree = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
   
   bf4 f4:7 bf4 f4:7 bf4 f4:7 bf2
   
@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium [Jack Teagerden 1956]" 4 = 134
 
-  \partial 4. <d bf'>8 <ef c'>8 <e cs'>8 |
+  \partial 2 \invisEighth <d bf'>8 <ef c'>8 <e cs'>8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "Intro" }

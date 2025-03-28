@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Herbie Hancock"
-  copyright = "© 1962 Hancock Music"
+  copyright = \markup \small "© 1962 Hancock Music"
 }
 
 straightEighths = ##t

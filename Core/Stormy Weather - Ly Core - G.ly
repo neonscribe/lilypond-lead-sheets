@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Stormy Weather (Keeps Rainin' All the Time)"
   subtitle = \instrument
   poet = "Ted Koehler"
   composer = "Harold Arlen"
-  copyright = "© 1933 Mills Music Inc."
+  copyright = \markup \small "© 1933 Mills Music Inc."
 }
 
 refrainLyricsOne = \lyricmode {

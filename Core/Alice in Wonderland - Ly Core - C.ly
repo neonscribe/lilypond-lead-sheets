@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Bob Hilliard"
   composer = "Sammy Fain"
-  copyright = "© 1951 Walt Disney Music Company"
+  copyright = \markup \small "© 1951 Walt Disney Music Company"
 }
 
 refrainLyricsOne = \lyricmode {

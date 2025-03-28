@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Lush Life"
   subtitle = \instrument
   poet = ""
   composer = "Billy Strayhorn"
-  copyright = "© 1949 Tempo Music Inc."
+  copyright = \markup \small "© 1949 Tempo Music Inc."
 }
 
 verseLyrics = \lyricmode {
@@ -31,7 +29,7 @@ of a great love for me. __ Ah! Yes, I was wrong. A -- gain, I was wrong. __
 }
 
 verseChords = \chordmode {
-  s8
+  s4
   
   df2:6 cf2:7 df2:maj7 cf2:7 df2:maj7 cf2:7 df4:maj7 ef4:m7 e4:maj7 gf4:m7
   af2:m7 d2:7 df2:6 d2:7 df2:maj7 d2:7.5-
@@ -52,11 +50,11 @@ verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 110
+  \tempo "Ballad [Nat King Cole 1949]" 4 = 68
 
   \xTextMark \markup{ "Verse" }
   
-  \partial 8 af,8 |
+  \partial 4 \invisEighth af,8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

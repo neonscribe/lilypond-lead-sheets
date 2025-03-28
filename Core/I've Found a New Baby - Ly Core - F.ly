@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Jack Palmer and Spencer Williams"
-  copyright = "© 1926 Clarence Williams Music Publishing Co. Inc."
+  copyright = \markup \small "© 1926 Clarence Williams Music Publishing Co. Inc."
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Good Morning Heartache"
   subtitle = \instrument
   poet = ""
   composer = "Irene Higginbotham, Ervin Drake & Dan Fisher"
-  copyright = "© 1945 Fisher Music Corporation & Lindabet Music Corporation"
+  copyright = \markup \small "© 1945 Fisher Music Corporation & Lindabet Music Corporation"
 }
 
 refrainLyricsOne = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Freddie Hubbard"
-  copyright = "© 1972 Hubtones Music Co."
+  copyright = \markup \small "© 1972 Hubtones Music Co."
 }
 
 bridgeLyrics = \lyricmode {
@@ -71,7 +71,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   c1:m11 bf1:m11 df2:sus7 ef2:sus7 f2:sus7 g2:sus7
   c1:m11 bf1:m11 df2:sus7 ef2:sus7
@@ -99,7 +99,7 @@ refrainMelody = \relative f' {
   \key \refrainKey \minor
   \clef \whatClef
 
-  \partial 8 c'8~ |
+  \partial 4 \invisEighth c'8~ |
 
   \xTextMark \markup{ \bold \box "Head" \bold \box "A1,A2" "Bass pattern contiues on head" }
 

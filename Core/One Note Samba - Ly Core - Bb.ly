@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Newton Mendonça, Jon Hendricks"
   composer = "Antônio Carlos Jobim"
-  copyright = "© 1960 Jobim Music"
+  copyright = \markup \small "© 1960 Jobim Music"
 }
 
 bossaRhythm = ##t
@@ -18,7 +18,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
 
   d1:m7 df1:7 c1:m7 b1:7.5-
   d1:m7 df1:7 c1:m7 b1:7.5-
@@ -45,7 +45,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Samba" 4 = 150
 
-  \partial 4. f4 f8 |
+  \partial 2 \invisEighth f4 f8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

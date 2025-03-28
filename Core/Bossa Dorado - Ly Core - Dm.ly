@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Dorado Schmmitt"
-  copyright = "© 1986 Sterntaler Musikverlag GMBH"
+  copyright = \markup \small "© 1986 Sterntaler Musikverlag GMBH"
 }
 
 bossaRhythm = ##t

@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Arthur Johnson and Sam Coslow"
-  copyright = "© 1934 Famous Music Corporation"
+  copyright = \markup \small "© 1934 Famous Music Corporation"
 }
 
 refrainLyricsOne = \lyricmode {

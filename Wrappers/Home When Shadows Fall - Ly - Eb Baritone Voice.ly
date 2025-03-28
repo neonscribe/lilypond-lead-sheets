@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Baritone Voice Key"
+instrument = "Vic Damone Key"
 whatKey = ef
 whatClef = "treble"
 

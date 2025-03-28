@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Harry Williams"
   composer = "Art Hickman"
-  copyright = "© 1917 Art Hickman"
+  copyright = \markup \small "© 1917 Art Hickman"
 }
 
 refrainLyrics = \lyricmode {

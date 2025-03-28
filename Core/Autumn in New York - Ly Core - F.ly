@@ -2,15 +2,12 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 16))
-
 \header {
   title = "Autumn in New York"
   subtitle = \instrument
   poet = ""
   composer = "Vernon Duke"
-  copyright = "© 1934 Kay Duke Music"
+  copyright = \markup \small "© 1934 Kay Duke Music"
 }
 
 refrainLyricsOne = \lyricmode {
@@ -68,8 +65,10 @@ refrainMelody = \relative f' {
   c8 c4 a8 g4. f8 | af8 af4 f8 ef4. df8 | ef8 b4 c8 ef2~ | ef2 f2 |
   \break
   g8 d4 ef8 g2~ | g2 b2 | g1~ | g2. gs4 |
+  \bar "||"
   
-  \sect "A2"
+  \xPageBreak
+  \sectNoBarNoBreak "A2"
   
   a8 g8 f8 d8 c2~ | c8 d8 f8 bf8 d8 d4 c8 | d2 a2 | r1 |
   \break

@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 16))
+#(set-global-staff-size 18)
 
 \header {
   title = "This Masquerade"
   subtitle = \instrument
   poet = ""
   composer = "Leon Russell"
-  copyright = "© 1977 Skyhill Music"
+  copyright = \markup \small "© 1977 Skyhill Music"
 }
 
 introLyrics = \lyricmode {

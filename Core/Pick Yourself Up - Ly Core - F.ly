@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Dorothy Fields"
   composer = "Jerome Kern"
-  copyright = "© 1936 T.B. Harms, Inc."
+  copyright = \markup \small "© 1936 T.B. Harms, Inc."
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Irving Berlin"
-  copyright = "© 1927 Irving Berlin"
+  copyright = \markup \small "© 1927 Irving Berlin"
 }
 
 refrainLyrics = \lyricmode {
@@ -40,7 +40,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Swing" 4 = 190
+  \tempo "Swing [Jerry Garcia 1974]" 4 = 190
 
   \xTextMark \markup{ \bold \box "A1" }
   

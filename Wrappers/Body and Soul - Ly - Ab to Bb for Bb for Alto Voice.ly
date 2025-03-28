@@ -4,6 +4,6 @@
 
 instrument = "Bb for Billie Holiday, Sarah Vaughan Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/Body and Soul - Ly Core - Db.ly"

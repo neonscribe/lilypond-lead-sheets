@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "If You Could See Me Now"
   subtitle = \instrument
   poet = "Carl Sigman"
   composer = "Tadd Dameron"
-  copyright = "© 1946 Warner Bros. Corporation"
+  copyright = \markup \small "© 1946 Warner Bros. Corporation"
 }
 
 refrainLyricsOne = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Leonard Feather"
   composer = "Benny Golson"
-  copyright = "© 1956 Ibbob Music, Inc."
+  copyright = \markup \small "© 1956 Ibbob Music, Inc."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -29,9 +29,9 @@ love will whis -- per not e -- ter -- nal -- ly. __
 
 refrainLyricsTwo = \lyricmode {
 _ _ un -- til __ you bring __ back the thrill
-of a sen -- ti -- men -- tal tune __
+of a sen -- ti -- men -- tal tune
 
-_ _ _ _ _ _ _
+_ _ _ _ _ _ "_"
 
 that died too soon.
 }

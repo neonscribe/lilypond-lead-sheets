@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Sid Wyche and Mayme Watts"
-  copyright = "© 1955 Cherio Corp."
+  copyright = \markup \small "© 1955 Cherio Corp."
 }
 
 refrainLyrics = \lyricmode {
@@ -41,7 +41,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
   
   ef1:7 ef1:7 ef1:7 ef1:7
   af1:7 af1:7 ef1:7 ef2:7 c2:7
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Swing [Peggy Lee 1958]" 4 = 140
   
-  \partial 4. bf8 c8 ef8~ |
+  \partial 2 \invisEighth bf8 c8 ef8~ |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

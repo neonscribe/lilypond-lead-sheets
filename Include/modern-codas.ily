@@ -55,6 +55,19 @@ dalSegno = {
   }
 }
 
+dalSegnoAlFine = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \xTextEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.S. al Fine"
+  }
+}
+
 dalSegnoSecondTime = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #RIGHT
@@ -130,6 +143,19 @@ daCapoAlFineAfterSolos = {
     \small
     \bold
     \italic "D.C. al Fine, after solos"
+  }
+}
+
+dalSegnoAfterSolos = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \xTextEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.S. al Coda, after solos"
   }
 }
 

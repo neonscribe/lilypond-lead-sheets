@@ -1,6 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
 
@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Brooks Bowman"
-  copyright = "© 1934 Brooks Bowman"
+  copyright = \markup \small "© 1934 Brooks Bowman"
 }
 
 refrainLyrics = \lyricmode {
@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 140
+  \tempo "Medium" 4 = 120
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -90,17 +90,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-$(if #(not (string-contains instrument "Standard"))
-     #{ \xPageBreak #} )
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { Intro band last 8, bass walks, guitar in two, vocal chorus } }
-    \line { \huge { Guitar solo full chorus, Clarinet solo full chorus } }
-    \line { \huge { Vocal out chorus } }
-  }
-}
-
-\include "../Include/notes.ily"

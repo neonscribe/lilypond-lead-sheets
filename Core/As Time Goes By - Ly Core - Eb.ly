@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Herman Hupfeld"
-  copyright = "© 1931 Warner Bros. Inc."
+  copyright = \markup \small "© 1931 Warner Bros. Inc."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -35,7 +35,7 @@ No mat -- ter what the fu -- ture brings, as time goes _ _ by.
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   f2:m7 bf2:7 bf2:m6 bf2:7 ef2:6 f2:m7
   fs2:dim7 g2:m7 f1:7 f2:m7 bf2:7
@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad [Dooley Wilson 1942]" 4 = 72
 
-  \partial 8 g8 |
+  \partial 4 \invisEighth g8 |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

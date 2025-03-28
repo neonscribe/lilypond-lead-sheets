@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Witchcraft"
   subtitle = \instrument
   poet = "Carolyn Leigh"
   composer = "Cy Coleman"
-  copyright = "© 1957 Morley Music Co."
+  copyright = \markup \small "© 1957 Morley Music Co."
 }
 
 refrainLyrics = \lyricmode {

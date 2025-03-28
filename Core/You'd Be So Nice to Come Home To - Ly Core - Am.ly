@@ -6,7 +6,7 @@
   title = "You'd Be So Nice to Come Home To"
   subtitle = \instrument
   composer = "Cole Porter"
-  copyright = "© 1942 Chappell & Co."
+  copyright = \markup \small "© 1942 Chappell & Co."
 }
 
 verseLyrics = \lyricmode {

@@ -11,21 +11,21 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Johnny Burke"
   composer = "Jimmy Van Heusen"
-  copyright = "© 1944 Famous Music Corp."
+  copyright = \markup \small "© 1944 Famous Music Corp."
 }
 
 refrainLyrics = \lyricmode {
-Hide your heart from sight,
-Lock your dreams at night,
+Hide your heart from sight, __
+Lock your dreams at night, __
 It could hap -- pen to you.
 Don't count stars or you might stum -- ble.
 Some -- one drops a sigh,
-and down you tum -- ble.
-Keep an eye on spring,
-Run when church bells ring,
+and down __ you tum -- ble. __
+Keep an eye on spring, __
+Run when church bells ring, __
 It could hap -- pen to you.
 All I did was won -- der
-How your arms would be,
+how __ your arms would be, __
 And it hap -- pened to me!
 }
 
@@ -77,35 +77,8 @@ refrainMelody = \relative f' {
 
   \sect "C"
 
-  a2 a2 | a4 bf4 f4 g8 a8~ | a4 e4 g4 f8 c'8~ |
+  a2 a2 | a4 bf4 f4 g8 a8~ | a4 e4 g4 f8 c'8~ | c1 |
   \break
-  c1
-  \textToCodaLastTime
-  |
-  c,2 c2 | bf'4 g2 a4 | f1 | r1 |
-
-  \bar "|."
-}
-
-codaLyrics = \lyricmode {
-And it hap -- pened to me!
-And it hap -- pened to me!
-}
-
-codaChords = \chordmode {
- g1:m7 c1:7 a1:m7.5- d1:7.9-
- g1:m7 c1:7 f1:maj7 f1:maj7
-}
-
-codaKey = f
-
-codaMelody = \relative f' {
-  \time 4/4
-  \key \codaKey \major
-  \clef \whatClef
-
-  \textCoda
-  c2 c2 | bf'4 g2 a4 | c1 | r1 |
   c,2 c2 | bf'4 g2 a4 | f1 | r1 |
 
   \bar "|."
@@ -119,10 +92,3 @@ codaMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-\markup {
-  % Leave a gap before the coda
-  \vspace #2
-}
-
-\include "../Include/coda.ily"

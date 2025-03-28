@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 17) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "My Adobe Hacienda"
   subtitle = \instrument
   poet = ""
   composer = "Louise Massey and Lee Penny"
-  copyright = "© 1941 Peer International Corp."
+  copyright = \markup \small "© 1941 Peer International Corp."
 }
 
 refrainLyricsOne = \lyricmode {

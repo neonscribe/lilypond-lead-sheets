@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Robert Wells"
   composer = "Mel Tormé"
-  copyright = "© 1946 Edwin H. Morris & Co."
+  copyright = \markup \small "© 1946 Edwin H. Morris & Co."
 }
 
 refrainLyrics = \lyricmode {

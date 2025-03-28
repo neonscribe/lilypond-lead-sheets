@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Duke Jordan"
-  copyright = "© 1959 You Look Good Music Publishing"
+  copyright = \markup \small "© 1959 You Look Good Music Publishing"
 }
 
 refrainLyrics = \lyricmode {
@@ -83,8 +83,9 @@ refrainMelody = \relative f' {
   \break
   fs2 f4. ef8 | r2 \tuplet 3/2 { ef16 f16 ef16 } c8 ef8 c8~ \textToCodaLastTime |
   c1 | r1 |
+  \bar "||"
   
-  \break
+  \xPageBreak
 
   \xTextMark \markup{ \bold \box "Solos" }
   

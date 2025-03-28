@@ -1,6 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
 
@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Dick Smith"
   composer = "Felix Bernard"
-  copyright = "© 1934 Bregman, Vocco and Conn, Inc."
+  copyright = \markup \small "© 1934 Bregman, Vocco and Conn, Inc."
 }
 
 refrainLyricsOne = \lyricmode {

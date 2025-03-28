@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "We'll Be Together Again"
   subtitle = \instrument
   poet = "Frankie Laine"
   composer = "Carl Fischer"
-  copyright = "© 1945 Fischer-Carey Music"
+  copyright = \markup \small "© 1945 Fischer-Carey Music"
 }
 
 refrainLyrics = \lyricmode {

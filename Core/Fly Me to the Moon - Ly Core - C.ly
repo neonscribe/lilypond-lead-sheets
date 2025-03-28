@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Fly Me to the Moon"
   subtitle = \instrument
   poet = ""
   composer = "Bart Howard"
-  copyright = "© 1954 Hampshire House Publishing Corp."
+  copyright = \markup \small "© 1954 Hampshire House Publishing Corp."
 }
 
 refrainLyrics = \lyricmode {

@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   title = "Innocent When You Dream"
   subtitle = \instrument
   composer = "Tom Waits"
-  copyright = "© 1987 Jalma Music, Inc."
+  copyright = \markup \small "© 1987 Jalma Music, Inc."
 }
 
 straightEighths = ##t
@@ -114,6 +114,8 @@ refrainMelody = \relative f' {
 
 \include "../Include/intro.ily"
 \include "../Include/refrain.ily"
+
+\pageBreak
 
 \markup {
   \column {

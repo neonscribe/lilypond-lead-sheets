@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ed Anderson"
   composer = "Ted Grouya"
-  copyright = "© 1941 Tempo Music Inc."
+  copyright = \markup \small "© 1941 Tempo Music Inc."
 }
 
 refrainLyrics = \lyricmode {

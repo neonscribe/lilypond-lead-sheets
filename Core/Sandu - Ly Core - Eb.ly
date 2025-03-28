@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Clifford Brown"
-  copyright = "© 1955 Second Floor Music"
+  copyright = \markup \small "© 1955 Second Floor Music"
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8*5
+  s2.
   
   ef1:7 af1:7 ef1:7 ef1:7
   af1:7 af1:7 ef1:7 ef1:7
@@ -44,7 +44,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Swing" 4 = 138
 
-  \partial 8*5 ef8 g8 bf8 \tuplet 3/2 { c8 bf8 ef8 } |
+  \partial 2. r8 ef8 g8 bf8 \tuplet 3/2 { c8 bf8 ef8 } |
 
   \xTextMark \markup{ \bold \box "Head"  \musicglyph #"scripts.segno" }
   
@@ -90,7 +90,7 @@ refrainMelody = \relative f' {
 }
 
 refrainKicksOverTime = \relative f' {
-  s8*5
+  s2.
   
   s1*8
   

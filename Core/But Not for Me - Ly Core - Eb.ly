@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Ira Gershwin"
   composer = "George Gershwin"
-  copyright = "© 1930 New World Music Corporation"
+  copyright = \markup \small "© 1930 New World Music Corporation"
 }
 
 refrainLyricsOne = \lyricmode {
@@ -32,7 +32,7 @@ Al -- though I can't dis -- miss
 The mem' -- ry of his kiss,
 I guess he's not for me.
 
-He's knock -- ing
+(He's knock -- ing)
 }
 
 refrainLyricsTwo = \lyricmode {
@@ -98,8 +98,10 @@ refrainMelody = \relative f' {
   b2 c4 ef4 | r4 f,4 g4 af4 | a2 bf4 ef4 | r4 ef,4 f4 g4 |
   \break
   g2 af4 ef'4 | r4 ef4 c4 af4 | f1 | r4 f4 g4 f4 |
+  \bar "||"
   
-  \sect "A2"
+  \xPageBreak
+  \sectNoBarNoBreak "A2"
   
   g2 f4 ef4~ | ef4 f4 g4 f4 | g1 | r4 f4 g4 f4 |
   \break
@@ -109,7 +111,11 @@ refrainMelody = \relative f' {
 
   b2 c4 ef4 | r4 f,4 g4 af4 | a2 bf4 f'4 | r4 ef4 c4 af4 |
   \break
-  g1 | f1 | ef1 | r4 f4 g4 f4 |
+  g1 | f1 | ef1 | r4
+  \startParenthesis \parenthesize
+  f4 g4 
+  \endParenthesis \parenthesize 
+  f4 |
   }
 }
 

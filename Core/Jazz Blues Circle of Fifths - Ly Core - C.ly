@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Jazz Blues Circle of Fifths"
   subtitle = \instrument
   poet = ""
   composer = ""
-  copyright = ""
+  copyright = \markup \small ""
 }
 
 refrainLyrics = \lyricmode {

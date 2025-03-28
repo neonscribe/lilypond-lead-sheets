@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "John Lennon/Paul McCartney"
-  copyright = "© 1967 Northern Songs Ltd."
+  copyright = \markup \small "© 1967 Northern Songs Ltd."
 }
 
 introLyrics = \lyricmode {
@@ -159,7 +159,7 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \repeat volta 3 {
   \tuplet 3/2 { b4 b4 b4 } \tuplet 3/2 { b4 b4 b4 } |
-  \tuplet 3/2 { b2 b4~ } b2 | r8 a8 a8 a8 cs8 b8 a8 gs8 | a16( gs16 fs4) r8 r2 | \bar "|p"
+  \tuplet 3/2 { b2 b4~ } b2 | r8 a8 a8 a8 cs8 b8 a8 gs8 | a16( gs16 fs4) r8 r2 |
 
   r8 a8 a8 a8 gs8. fs16 e8 cs'8 | a8 a16 a16 a16( b16) a16( gs16) fs4 r4 |
   r8 a8 a8 a8 b8 a8 gs8 a8 | a1 |

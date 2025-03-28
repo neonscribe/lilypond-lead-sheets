@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Gene Lees"
   composer = "Bill Evans"
-  copyright = "© 1964 Acorn Music Corp."
+  copyright = \markup \small "© 1964 Acorn Music Corp."
 }
 
 refrainLyricsPre = \lyricmode {
@@ -50,8 +50,8 @@ prince and her sil -- ly old
 refrainLyricsCoda = \lyricmode {
 bear. __
 When she goes they will cry __
-as they whis -- per “good -- bye.”
-They __ will miss her I fear
+as they whis -- per “good -- bye.” __
+They will miss her I fear
 but then so will I. __
 }
 
@@ -78,19 +78,17 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Jazz Waltz"
 
-  \set Score.repeatCommands = #'(start-repeat)
-
+  \bar ".|:"
+  \repeat volta 2 {
   bf2. | ef,2. | af2. | d,2. | g2.~ | g2. | r4 f4 ef4 | d4 ef4 f4 | g2 f4 | ef4 f4 g4 |
-  
-  \set Score.repeatCommands = #'((volta "1, 3"))
+  \alternative { \volta 1,3 {
   af4 af g4 | f4 g4 af4 | 
   \textToCoda
   bf2.~ | bf2.~ | bf2.~ | bf2. |
-  \set Score.repeatCommands = #'(end-repeat)
   \break
-  \set Score.repeatCommands = #'((volta #f) (volta "2") end-repeat)
+  } \volta 2 {
   a2 g4 | fs4 g4 a4 |
-  \set Score.repeatCommands = #'((volta #f))
+  } } }
   
   b2.~ | b2.~ | b2.~ | b2. | c2.~ | c2 bf4 |
   c2.~ | c2 bf4 | c4 bf4 af4 | g2 d4 | f2 ef4 | c'4 bf4 af4 |

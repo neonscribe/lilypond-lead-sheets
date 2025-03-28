@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Archibald Joyce"
-  copyright = "© 1908 Francis, Day & Hunter"
+  copyright = \markup \small "© 1908 Francis, Day & Hunter"
 }
 
 refrainLyrics = \lyricmode {

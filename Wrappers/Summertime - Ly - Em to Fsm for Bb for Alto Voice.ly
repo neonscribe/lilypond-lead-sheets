@@ -4,6 +4,6 @@
 
 instrument = "Bb for Alto Voice Key"
 whatKey = fs
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/Summertime - Ly Core - Am.ly"

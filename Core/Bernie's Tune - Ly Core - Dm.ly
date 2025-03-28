@@ -10,7 +10,7 @@
   subtitle = \instrument
   poet = "Mike Stoller and Jerry Lieber"
   composer = "Bernie Miller"
-  copyright = "© 1953 Atlantic Music Corp."
+  copyright = \markup \small "© 1953 Atlantic Music Corp."
 }
 
 refrainLyrics = \lyricmode {

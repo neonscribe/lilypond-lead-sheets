@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Billy Strayhorn"
-  copyright = "© 1941 Billy Strayhorn Songs, Inc."
+  copyright = \markup \small "© 1941 Billy Strayhorn Songs, Inc."
 }
 
 refrainLyrics = \lyricmode {

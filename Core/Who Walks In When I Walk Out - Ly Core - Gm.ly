@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Ralph Freed, Al Hoffman and Al Goodhart"
-  copyright = "© 1933 Southern Music Pub. Co. Inc."
+  copyright = \markup \small "© 1933 Southern Music Pub. Co. Inc."
 }
 
 refrainLyrics = \lyricmode {

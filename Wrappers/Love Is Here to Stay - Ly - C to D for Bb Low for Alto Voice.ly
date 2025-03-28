@@ -4,6 +4,6 @@
 
 instrument = "Bb Low for Alto Voice Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/Love Is Here to Stay - Ly Core - F.ly"

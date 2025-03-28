@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Miles Davis/Eddie Vinson"
-  copyright = "© 1953 Prestige Music"
+  copyright = \markup \small "© 1953 Prestige Music"
 }
 
 refrainLyrics = \lyricmode {

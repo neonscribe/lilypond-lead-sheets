@@ -2,12 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
+#(set-global-staff-size 18)
+
 \header {
   title = "Don't Get Around Much Anymore"
   subtitle = \instrument
   poet = "Bob Russell"
   composer = "Duke Ellington"
-  copyright = "© 1942 Robbins Music Corporation"
+  copyright = \markup \small "© 1942 Robbins Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

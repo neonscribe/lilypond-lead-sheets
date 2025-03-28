@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "The Lady Is a Tramp"
   subtitle = \instrument
   poet = "Lorenz Hart"
   composer = "Richard Rodgers"
-  copyright = "© 1937 Chappell & Co., Inc."
+  copyright = \markup \small "© 1937 Chappell & Co., Inc."
 }
 
 refrainLyricsOne = \lyricmode {

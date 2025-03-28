@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Tommy Duncan"
-  copyright = "© 1947 Red River Songs, Inc."
+  copyright = \markup \small "© 1947 Red River Songs, Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -25,7 +25,7 @@ don't see why you don't stay a lit -- tle long -- er.
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   f2 f2/a bf2 b2:dim7 f2/c f2/a c1:7
   f2 f2/a bf2 b2:dim7 f2/c f2/a c2:7 f2
@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Uptempo Two-Feel" 4 = 224
 
-  \partial 8 c8 |
+  \partial 4 \invisEighth c8 |
   \bar "||"
 
 
@@ -86,6 +86,8 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
+
+\pageBreak
 
 \markup {
   \column 

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Yip Harburg"
   composer = "Harold Arlen"
-  copyright = "© 1938 Metro-Goldwyn-Mayer, Inc."
+  copyright = \markup \small "© 1938 Metro-Goldwyn-Mayer, Inc."
 }
 
 refrainLyricsOne = \lyricmode {

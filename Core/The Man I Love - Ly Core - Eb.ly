@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "The Man I Love"
   subtitle = \instrument
   poet = "Ira Gershwin"
   composer = "George Gershwin"
-  copyright = "© 1924 T.B. Harms & Co."
+  copyright = \markup \small "© 1924 T.B. Harms & Co."
 }
 
 refrainLyrics = \lyricmode {

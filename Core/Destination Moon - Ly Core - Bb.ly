@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Roy Alfred"
   composer = "Marvin Fisher"
-  copyright = "© 1951 Fred Fisher Music Co., Inc."
+  copyright = \markup \small "© 1951 Fred Fisher Music Co., Inc."
 }
 
 verseLyrics = \lyricmode {

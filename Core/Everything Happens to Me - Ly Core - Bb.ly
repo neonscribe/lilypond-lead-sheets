@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+#(set-global-staff-size 18)
+
 \include "../Include/lead-sheets.ily"
 
 \header {
@@ -7,7 +9,7 @@
   subtitle = \instrument
   poet = "Tom Adair"
   composer = "Matt Dennis"
-  copyright = "© 1941 Dorsey Bros. Music"
+  copyright = \markup \small "© 1941 Dorsey Bros. Music"
 }
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -54,7 +56,7 @@ Ev -- 'ry -- thing hap -- pens to me. __
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   c2:m7 f2:7 d2:m7 df2:dim7 c2:m7 f2:7 d2:m7.5- g2:7
   b2:dim7 c2:m7.5- d2:m7 g2:7
@@ -80,7 +82,7 @@ refrainMelody = \relative f' {
   
   \sectStart "A"
 
-  \partial 8 g8 |
+  \partial 4 \invisEighth g8 |
 
   \segnoSign
   

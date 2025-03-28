@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Mitchell Parish"
   composer = "Frank Perkins"
-  copyright = "© 1934 by Mills Music Inc., 1619 Broadway, New York, N.Y."
+  copyright = \markup \small "© 1934 by Mills Music Inc., 1619 Broadway, New York, N.Y."
 }
 
 firehouseIntroChords = \chordmode {

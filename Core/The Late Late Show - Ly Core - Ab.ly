@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Roy Alfred"
   composer = "Murray Berlin"
-  copyright = "© 1956 Kahl Music"
+  copyright = \markup \small "© 1956 Kahl Music"
 }
 
 refrainLyricsOne = \lyricmode {

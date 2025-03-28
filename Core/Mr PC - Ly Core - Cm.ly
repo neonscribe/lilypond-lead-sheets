@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "John Coltrane"
-  copyright = "© 1959 Jowcol Music"
+  copyright = \markup \small "© 1959 Jowcol Music"
 }
 
 refrainLyrics = \lyricmode {

@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "A Nightingale Sang in Berkeley Square"
   subtitle = \instrument
   poet = "Eric Maschwitz"
   composer = "Manning Sherwin"
-  copyright = "© 1940 The Peter Maurice Music Co. Ltd."
+  copyright = \markup \small "© 1940 The Peter Maurice Music Co. Ltd."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -35,7 +35,8 @@ a night -- in -- gale sang in Ber -- k'ley _ _ Square.
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
+
   ef2:maj7 c2:m7 g2:m7 bf4:m7 ef4:7 af2:maj7 g2:7.9- c2:m7 af2:m6
   ef2:maj7/bf bf2:sus7 ef2:7 af4:m7 df4:7 g2:m7 c2:m7 f2:m7 bf2:7
   
@@ -62,7 +63,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 110
 
-  \partial 8 bf,8 |
+  \partial 4 \invisEighth bf,8 |
 
   \xTextMark \markup{ \bold \box "A1" }
   

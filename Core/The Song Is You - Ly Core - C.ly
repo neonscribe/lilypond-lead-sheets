@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Oscar Hammerstein II"
   composer = "Jerome Kern"
-  copyright = "© 1932 T.B. Harms Co."
+  copyright = \markup \small "© 1932 T.B. Harms Co."
 }
 
 refrainLyrics = \lyricmode {

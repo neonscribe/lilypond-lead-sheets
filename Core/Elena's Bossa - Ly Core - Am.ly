@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Gonzalo Bergara"
-  copyright = "© 2008"
+  copyright = \markup \small "© 2008"
 }
 
 refrainLyrics = \lyricmode {

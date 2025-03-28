@@ -2,15 +2,13 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Born to Be Blue"
   subtitle = \instrument
   composer = "Mel Tormé & Robert Wells"
-  copyright = "© 1946 Wells Music Inc. and Arc Music"
+  copyright = \markup \small "© 1946 Wells Music Inc. and Arc Music"
 }
 
 refrainLyricsPreOne = \lyricmode {

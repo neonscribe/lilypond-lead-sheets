@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "In a Sentimental Mood"
   subtitle = \instrument
   poet = "Irving Mills and Manny Kurtz"
   composer = "Duke Ellington"
-  copyright = "© 1935 Milsons Music Publishing Corp."
+  copyright = \markup \small "© 1935 Milsons Music Publishing Corp."
 }
 
 refrainLyricsOne = \lyricmode {

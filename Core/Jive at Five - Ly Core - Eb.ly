@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Harry Edison & Count Basie"
-  copyright = "© 1941 Hallmark Music Publishing Company"
+  copyright = \markup \small "© 1941 Hallmark Music Publishing Company"
 }
 
 refrainLyrics = \lyricmode {

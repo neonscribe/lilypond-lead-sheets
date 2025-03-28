@@ -10,7 +10,7 @@
   subsubtitle = \instrument
   poet = ""
   composer = "Pyotr Il'yich Tchaikovsky (Пётр Ильич Чайковский)"
-  copyright = "1892"
+  copyright = \markup \small "1892"
 }
 
 refrainLyrics = \lyricmode {

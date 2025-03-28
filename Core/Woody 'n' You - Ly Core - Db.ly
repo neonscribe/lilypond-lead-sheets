@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Dizzy Gillespie"
-  copyright = "© 1943 Edwin H. Morris & Company"
+  copyright = \markup \small "© 1943 Edwin H. Morris & Company"
 }
 
 refrainLyrics = \lyricmode {

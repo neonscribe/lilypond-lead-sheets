@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ted Persons"
   composer = "Mercer Ellington"
-  copyright = "© 1942 Tempo Music Inc."
+  copyright = \markup \small "© 1942 Tempo Music Inc."
 }
 
 refrainLyrics = \lyricmode {

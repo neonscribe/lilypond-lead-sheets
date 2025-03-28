@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bobby Hebb"
-  copyright = "© 1966 Portable Music Company, Inc."
+  copyright = \markup \small "© 1966 Portable Music Company, Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -20,7 +20,7 @@ My sun -- ny one __ shines so sin -- cere.
 Sun -- ny one so true, __ I love you. __
 }
 
-refrainChords = \chordmode {
+refrainSRBChords = \chordmode {
   a1:m7 c1:7 f1:maj7 b2:m7 e2:7
   a1:m7 c1:7 f1:maj7 b2:m7 e2:7
   a1:m7 c1:7 f1:maj7 bf1:7 
@@ -30,13 +30,24 @@ refrainChords = \chordmode {
   \chordCloseParen{ e2:7.9-.5+ }
 }
 
+refrainHLRBChords = \chordmode {
+  a1:m c1:7 f1:maj7 b2:m7 e2:7
+  a1:m c1:7 f1:maj7 b2:m7 e2:7
+  a1:m c1:7 f1:maj7 bf1:7.11+ 
+  b1:m7 e1:7 a1:m
+  \chordOpenParen{ b2:m7.5- }
+  \chordCloseParen{ e2:7 }
+}
+
+refrainChords = \refrainHLRBChords
+
 refrainKey = a
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 130
+  \tempo "Medium [Bobby Hebb 1966]" 4 = 130
 
   e8 e4. r2 | r2 a8 g8 e8 d8 | c4 a4 c4 d8 e8~ | e2 r2 |
   \break

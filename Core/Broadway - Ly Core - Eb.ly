@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bill Byrd, Teddy McRae and Henri Woode"
-  copyright = "© 1940 Intersong U.S.A., Inc."
+  copyright = \markup \small "© 1940 Intersong U.S.A., Inc."
 }
 
 refrainLyricsOne = \lyricmode {

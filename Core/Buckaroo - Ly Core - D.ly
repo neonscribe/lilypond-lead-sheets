@@ -6,7 +6,7 @@
   title = "Buckaroo"
   subtitle = \instrument
   composer = "Bob Morris"
-  copyright = "© 1965 Tree Publishing Co., Inc."
+  copyright = \markup \small "© 1965 Tree Publishing Co., Inc."
 }
 
 straightEighths = ##t

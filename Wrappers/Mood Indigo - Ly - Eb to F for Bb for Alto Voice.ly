@@ -4,6 +4,6 @@
 
 instrument = "Bb for Alto Voice Key"
 whatKey = f'
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/Mood Indigo - Ly Core - Ab.ly"

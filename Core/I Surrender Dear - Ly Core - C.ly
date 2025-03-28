@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Gordon Clifford"
   composer = "Harry Barris"
-  copyright = "© 1931 Freed & Powers Ltd."
+  copyright = \markup \small "© 1931 Freed & Powers Ltd."
 }
 
 refrainLyrics = \lyricmode {

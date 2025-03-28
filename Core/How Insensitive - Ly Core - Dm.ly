@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Norman Gimbel"
   composer = "Antônio Carlos Jobim"
-  copyright = "© 1963 MCA-Duchess Music Corp."
+  copyright = \markup \small "© 1963 MCA-Duchess Music Corp."
 }
 
 bossaRhythm = ##t

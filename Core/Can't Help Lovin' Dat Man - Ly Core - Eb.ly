@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Oscar Hammerstein II"
   composer = "Jerome Kern"
-  copyright = "© 1927 T.B. Harms Company"
+  copyright = \markup \small "© 1927 T.B. Harms Company"
 }
 
 refrainLyricsOne = \lyricmode {

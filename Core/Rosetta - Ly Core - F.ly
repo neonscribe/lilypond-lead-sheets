@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Earl Hines and Henri Woode"
-  copyright = "© 1933 Morley Music Co., Inc."
+  copyright = \markup \small "© 1933 Morley Music Co., Inc."
 }
 
 refrainLyrics = \lyricmode {

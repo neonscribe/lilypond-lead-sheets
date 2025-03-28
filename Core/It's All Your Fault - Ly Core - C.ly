@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Cindy Walker"
-  copyright = "© 1943"
+  copyright = \markup \small "© 1943"
 }
 
 refrainLyrics = \lyricmode {

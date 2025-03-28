@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Sidney Bechet"
-  copyright = "© 1952 Chappell & Co., Inc."
+  copyright = \markup \small "© 1952 Chappell & Co., Inc."
 }
 
 refrainLyricsPetula = \lyricmode {

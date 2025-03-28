@@ -6,7 +6,7 @@
   title =  "Walk, Don't Run"
   subtitle = "as recorded by The Ventures"
   subsubtitle = \instrument
-  copyright =  "© 1960 Peermusic Ltd. and Mesa Verde Music Co."
+  copyright = \markup \small  "© 1960 Peermusic Ltd. and Mesa Verde Music Co."
   composer =  "Johnny Smith"
 }
 

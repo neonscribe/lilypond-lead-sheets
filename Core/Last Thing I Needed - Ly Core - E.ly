@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Gary Nunn and Donna Farar"
-  copyright = "© 1982 Nunn Publishing Co."
+  copyright = \markup \small "© 1982 Nunn Publishing Co."
 }
 
 straightEighths = ##t
@@ -149,8 +149,9 @@ refrainMelody = \relative f' {
   fs4. r4. r4. |
   R8*9 |
 
-  \bar "||-||"
-  \break
+  \bar "||"
+
+  \xPageBreak
 
   \xTextMark \markup "Pre-Chorus"
 
@@ -189,9 +190,9 @@ refrainMelody = \relative f' {
   \xTextMark \markup "Solo - Chorus"
   \repeat unfold 8 { R8*9 | }
 
-  \bar "||-||"
-  \break
+  \bar "||"
 
+  \xPageBreak
   \xTextMark \markup "Verse"
 
   r4. r4 gs8 b8. b16 b8 |

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Thelonious Monk & Denzil Best"
-  copyright = "© 1952 Second Floor Music"
+  copyright = \markup \small "© 1952 Second Floor Music"
 }
 
 refrainLyrics = \lyricmode {

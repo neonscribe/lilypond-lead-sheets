@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Django Reinhardt"
-  copyright = "© 1948 Publications Francis Day S.A."
+  copyright = \markup \small "© 1948 Publications Francis Day S.A."
 }
 
 introKey = e

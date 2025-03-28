@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ted Koehler and Billy Moll"
   composer = "Harry Barris"
-  copyright = "© 1931 Shapiro, Bernstein & Co., Inc."
+  copyright = \markup \small "© 1931 Shapiro, Bernstein & Co., Inc."
 }
 
 refrainLyrics = \lyricmode {

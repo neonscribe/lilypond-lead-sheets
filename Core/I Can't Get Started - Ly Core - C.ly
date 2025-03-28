@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Ira Gershwin"
   composer = "Vernon Duke"
-  copyright = "© 1935 Chappell & Co., Inc."
+  copyright = \markup \small "© 1935 Chappell & Co., Inc."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -55,7 +55,7 @@ refrainLyricsTwo = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
   
   c2:maj7 a2:m7 d2:m7 g2:7 e2:7 a2:m7 d2:7 g2:sus7
   c2:maj7 a2:m7 d2:m7 g2:7.9- bf2:7.5- a2:7 d2:7 g2:sus7
@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Slow" 4 = 100
 
-  \partial 4. c8 e8 g8 |
+  \partial 2 \invisEighth c8 e8 g8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

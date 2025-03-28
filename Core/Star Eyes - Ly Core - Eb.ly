@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Star Eyes"
   subtitle = \instrument
   poet = ""
   composer = "Don Raye and Gene dePaul"
-  copyright = "© 1943 Leo Feist, Inc."
+  copyright = \markup \small "© 1943 Leo Feist, Inc."
 }
 
 refrainLyricsOne = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Dizzy Gillespie"
-  copyright = "© 1954 Dizlo Music Corporation"
+  copyright = \markup \small "© 1954 Dizlo Music Corporation"
 }
 
 introKey = c

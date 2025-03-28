@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Burke"
   composer = "Jimmy Van Heusen"
-  copyright = "© 1949 Burke & Van Heusen, Inc."
+  copyright = \markup \small "© 1949 Burke & Van Heusen, Inc."
 }
 
 refrainLyrics = \lyricmode {

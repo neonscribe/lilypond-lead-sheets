@@ -2,14 +2,12 @@
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 16)
-
 \header {
   title = "C'est Si Bon (It's So Good)"
   subtitle = \instrument
   poet = "Andre Hornez/Jerry Seelen"
   composer = "Henri Betti"
-  copyright = "© 1947 Arpege Editions"
+  copyright = \markup \small "© 1947 Arpege Editions"
 }
 
 refrainChords = \chordmode {
@@ -59,8 +57,10 @@ refrainMelody = \relative f' {
   
   df2 bf4 af4 | gf 2 f4 ef4 | ef2 df2~ | df4 r4 bf'4 b4 |
   c2 bf4 a4 | g2 a4 bf4 | d1 | c4 r4 f,4 e4 |
+  \bar "||"
   
-  \sect "A3"
+  \xPageBreak
+  \sectNoBarNoBreak "A3"
   
   ef1~ | ef8 f4 g8 a8 g8 f4 | d1~ | d8 f4 g8 a8 g8 f4 |
   ef1~ | ef8 f8 g8 a8 d8 f4 f8~ | f1~ | f2 f4 e4 |

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Gus Kahn"
   composer = "Nacio Herb Brown"
-  copyright = "© 1940 EMI Feist Catalog, Inc."
+  copyright = \markup \small "© 1940 EMI Feist Catalog, Inc."
 }
 
 refrainLyrics = \lyricmode {

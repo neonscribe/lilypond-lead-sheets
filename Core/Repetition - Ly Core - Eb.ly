@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Neal Hefti"
-  copyright = "© 1947 Encino Music"
+  copyright = \markup \small "© 1947 Encino Music"
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Thelonious Monk"
-  copyright = "© 1948 Embassy Music Corporation"
+  copyright = \markup \small "© 1948 Embassy Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

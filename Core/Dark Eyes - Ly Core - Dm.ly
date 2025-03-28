@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Yevhen Hrebinka"
   composer = "Florian Hermann"
-  copyright = "1879"
+  copyright = \markup \small "1879"
 }
 
 refrainLyrics = \lyricmode {

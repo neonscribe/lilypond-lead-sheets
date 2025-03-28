@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "George Whiting"
   composer = "Walter Donaldson"
-  copyright = "© 1927 Leo Feist Inc."
+  copyright = \markup \small "© 1927 Leo Feist Inc."
 }
 
 refrainLyrics = \lyricmode {

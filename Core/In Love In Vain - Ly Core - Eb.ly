@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Leo Robin"
   composer = "Jerome Kern"
-  copyright = "© 1946 T.B. Harms Co."
+  copyright = \markup \small "© 1946 T.B. Harms Co."
 }
 
 refrainLyrics = \lyricmode {

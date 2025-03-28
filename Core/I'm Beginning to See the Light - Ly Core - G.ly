@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Don George"
   composer = "Johnny Hodges, Duke Ellington, Harry James"
-  copyright = "© 1944 Famous Music Corporation"
+  copyright = \markup \small "© 1944 Famous Music Corporation"
 }
 
 refrainLyrics = \lyricmode {
@@ -42,7 +42,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainRealBookSixthChords = \chordmode {
-  s8
+  s4
 
   g2:6 c2:m6 g2:6 e2:7 a2:7 d2:7 bf2:m7 ef2:7
   g2:6 fs2:7 f2:7 e2:7 a2:7 d2:7
@@ -70,7 +70,7 @@ refrainRealBookSixthChords = \chordmode {
 }
 
 refrainSimplifiedChords = \chordmode {
-  s8
+  s4
 
   g2:6 ef2:7 g1:6 g1:6 ef1:7
   g2: a2:m7 b2:m7 e2:7 a2:m7 d2:7 g2:6 d2:7
@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Med. Swing" 4 = 145
 
-  \partial 8 ds8 |
+  \partial 4 \invisEighth ds8 |
   \bar "||"
   
   \xTextMark \markup{ \bold \box "A1" }

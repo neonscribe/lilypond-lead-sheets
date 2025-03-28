@@ -6,7 +6,7 @@
   title = "Just My Kind"
   subtitle = \instrument
   composer = "Paul Sawyer"
-  copyright = "© 2019"
+  copyright = \markup \small "© 2019"
 }
 
 refrainLyrics = \lyricmode {
@@ -25,7 +25,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   af2:maj7 f2:m7 bf2:m7 ef2:7
   af2:maj7 f2:m7 bf2:m7 ef2:7
@@ -53,7 +53,7 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempo "Slow to Medium Swing"
 
-  \partial 8 c8~ |
+  \partial 4 \invisEighth c8~ |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

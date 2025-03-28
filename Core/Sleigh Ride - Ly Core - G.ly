@@ -1,6 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
 
@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Mitchell Parish"
   composer = "Leroy Anderson"
-  copyright = "© 1948 Woodbury Music Company"
+  copyright = \markup \small "© 1948 Woodbury Music Company"
 }
 
 refrainLyricsOne = \lyricmode {

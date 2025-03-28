@@ -5,7 +5,7 @@
   subtitle = \instrument
   poet = "Ned Washington"
   composer = "Bronislau Kaper"
-  copyright = "© 1947 Metro-Goldwyn Mayer Inc."
+  copyright = \markup \small "© 1947 Metro-Goldwyn Mayer Inc."
 }
 
 refrainLyrics = \lyricmode {

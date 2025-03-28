@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Goodbye"
   subtitle = \instrument
   poet = ""
   composer = "Gordon Jenkins"
-  copyright = "© 1935 Schuster and Miller, Inc."
+  copyright = \markup \small "© 1935 Schuster and Miller, Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -28,7 +28,7 @@ but kiss me as you go, __ good -- bye. __
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   af1:9 af1:7.5+ g1:7.5+ g1:7.9-
   c2:m c2:m7/bf c2:m6/a af2:13 c2:m af2:7 g2:7.9- c2:m6
@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 80
   
-  \partial 8 c8 |
+  \partial 4 \invisEighth c8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

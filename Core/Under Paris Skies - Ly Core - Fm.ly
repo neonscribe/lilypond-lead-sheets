@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Jean Drejac"
   composer = "Hubert Giraud"
-  copyright = "© 1951 Editions Choudens"
+  copyright = \markup \small "© 1951 Editions Choudens"
 }
 
 refrainLyrics = \lyricmode {

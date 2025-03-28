@@ -13,10 +13,7 @@
       }
       }
     \new Staff {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
+      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
 	% Transpose bass line only in the same octave
 	\transpose \solosKey \bassKey \bassSolos
@@ -47,10 +44,7 @@
       }
       }
     \new Staff \with {midiInstrument = "brass section"} {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
+      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
 	% Don't transpose bass line
 	  \bassSolos

@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 18))
+#(set-global-staff-size 18)
 
 \header {
   title = "My Favorite Things"
   subtitle = \instrument
   poet = "Oscar Hammerstein II"
   composer = "Richard Rodgers"
-  copyright = "© 1959 Richard Rodgers and Oscar Hammerstein II"
+  copyright = \markup \small "© 1959 Richard Rodgers and Oscar Hammerstein II"
 }
 
 refrainLyricsOne = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Jimmy Davis, Roger Ramirez and Jimmy Sherman"
-  copyright = "© 1941 MCA Music"
+  copyright = \markup \small "© 1941 MCA Music"
 }
 
 refrainLyricsOne = \lyricmode {

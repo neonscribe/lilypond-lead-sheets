@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Gene Lees"
   composer = "Antônio Carlos Jobim"
-  copyright = "© 1960 Jobim Music Ltda."
+  copyright = \markup \small "© 1960 Jobim Music Ltda."
 }
 
 bossaRhythm = ##t
@@ -118,7 +118,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Bossa [Stan Getz & João Gilberto 1964]" 4 = 130
 
-  \xTextMark \markup { "Intro" }
+  \sectStart "Intro"
   
     <<
       \new Voice
@@ -132,10 +132,6 @@ refrainMelody = \relative f' {
 	d2. c4 | d2 e2~ |
 	e2 \tuplet 3/2 { g4 d4 c4 } | d2 \tuplet 3/2 { c4 b4 c4 } |
 	b2. d4 |
-
-	\bar "||"
-
-	\xPageBreak
 
 	\set Score.currentBarNumber = #1
   
@@ -166,7 +162,11 @@ refrainMelody = \relative f' {
   r8 e4 d8 e8 d4 e8~ | e8 d4 e4 d8 f4~ |
   f8 e4 f8 e4 f4~ | f8 e4 d4 c4. |
 
-  \sect "B"
+	\bar "||"
+
+	\xPageBreak
+
+  \sectNoBarNoBreak "B"
   
   r8 e4 d8 e8 d4 e8~ | e8 d4 e8~ e2 |
   r8 e4 d8 e8 d4 e8~ | e8 d8 e4. g4 d8~ |

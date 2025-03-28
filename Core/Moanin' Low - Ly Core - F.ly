@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Howard Dietz"
   composer = "Ralph Rainger"
-  copyright = "© 1929 HARMS Inc."
+  copyright = \markup \small "© 1929 HARMS Inc."
 }
 
 refrainLyrics = \lyricmode {

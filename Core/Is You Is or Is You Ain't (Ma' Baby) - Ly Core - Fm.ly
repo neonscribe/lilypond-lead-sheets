@@ -6,7 +6,7 @@
   title = "Is You Is, or Is You Ain't (Ma' Baby)"
   subtitle = \instrument
   composer = "Billy Austin and Louis Jordan"
-  copyright = "© 1944 Leeds Music Corporation"
+  copyright = \markup \small "© 1944 Leeds Music Corporation"
 }
 
 introLyrics = \lyricmode {
@@ -44,7 +44,7 @@ introMelody = \relative g' {
   \time 4/4
   \key \introKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 117
+  \tempo "Medium-Slow [Diana Krall 1995]" 4 = 117
 
   \xTextMark \markup{ "Intro" }
   
@@ -116,8 +116,6 @@ verseMelody = \relative g' {
   \key \verseKey \minor
   \clef \whatClef
 
-  \tempo "Medium" 4 = 117
-  
   \xTextMark \markup{ "Verse" }
   
   c4 bf8 af8 bf4 af4 | bf8 af4 c4. r4 | r2 bf8 af8 bf8 af8 | bf8 af4 c4. f,8 af8 |
@@ -128,9 +126,8 @@ verseMelody = \relative g' {
   \break
   c8 c4.~ c2~ | c2~ c8 f,8 af8 f8 || c'8 c4.~ c2~ | c2. r4 |
   
-  \bar "||"
+  \bar "|."
 
-  \xPageBreak
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
@@ -194,7 +191,7 @@ refrainNicoChords = \chordmode {
   bf1:9 ef1:13 af1:6 af1:7
   
   df1:6 df1:m6 af1:maj7 ef1:m7
-  df1:6 df1:m6 c2:m7.5- f2:7 g2:m7.5- c2:7
+  df1:6 df1:m6 c1:m7 f2:7 c2:7
 
   f2:m c2:7/g f2:m/af c2:7/g f1:m f8*5:m cf4.:13
   bf1:9 ef1:13 gf1:7 f1:7
@@ -215,13 +212,14 @@ refrainMelody = \relative g' {
 
   \xTextMark \markup{ "Refrain" \bold \box "A1" }
   \set Score.currentBarNumber = #1
-  \tempo "Medium" 4 = 117
   
   c4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r2 r4 r8 f8 |
   \break
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r1 |
+  \bar "||"
 
-  \sect "A2"
+  \xPageBreak
+  \sectNoBarNoBreak "A2"
 
   c2. c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r1 |
   \break

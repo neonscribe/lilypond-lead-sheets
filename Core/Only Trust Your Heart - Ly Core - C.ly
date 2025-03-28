@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Sammy Cahn"
   composer = "Benny Carter"
-  copyright = "© 1964 Universal Music Company"
+  copyright = \markup \small "© 1964 Universal Music Company"
 }
 
 bossaRhythm = ##t

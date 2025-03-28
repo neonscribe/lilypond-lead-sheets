@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Jean Broussole"
   composer = "Sidney Bechet"
-  copyright = "© 1952"
+  copyright = \markup \small "© 1952"
 }
 
 refrainLyrics = \lyricmode {
@@ -64,7 +64,7 @@ refrainMelody = \relative fis' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 80
+  \tempo "Ballad [Sidney Bechet 1952]" 4 = 80
 
     \partial 4 fis8 g8 | % 1
     e'8 g8 e2 fis,8 

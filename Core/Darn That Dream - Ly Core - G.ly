@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 18))
+#(set-global-staff-size 18)
 
 \header {
   title = "Darn That Dream"
   subtitle = \instrument
   poet = "Eddie DeLange"
   composer = "Jimmy Van Heusen"
-  copyright = "© 1939 Lewis Music Publishing Co., Inc."
+  copyright = \markup \small "© 1939 Lewis Music Publishing Co., Inc."
 }
 
 refrainLyrics = \lyricmode {

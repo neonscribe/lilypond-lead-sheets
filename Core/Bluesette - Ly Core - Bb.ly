@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Norman Gimbel"
   composer = "Toots Thielmans"
-  copyright = "© 1961 Duchess Music Corporation"
+  copyright = \markup \small "© 1961 Duchess Music Corporation"
 }
 
 refrainLyricsOne = \lyricmode {

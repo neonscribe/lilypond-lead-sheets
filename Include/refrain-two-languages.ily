@@ -15,10 +15,7 @@ emphasize = {
       }
       }
     \new Staff {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
+      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody
@@ -59,10 +56,7 @@ emphasize = {
       }
       }
     \new Staff \with {midiInstrument = "overdriven guitar"} {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
+      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody

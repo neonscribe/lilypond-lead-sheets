@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Can't We Be Friends"
   subtitle = \instrument
   poet = "Paul James"
   composer = "Kay Swift"
-  copyright = "© 1929 HARMS Inc."
+  copyright = \markup \small "© 1929 HARMS Inc."
 }
 
 refrainLyricsOne = \lyricmode {

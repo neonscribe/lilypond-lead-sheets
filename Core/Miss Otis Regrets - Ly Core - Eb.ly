@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Miss Otis Regrets"
   subtitle = \instrument
   poet = ""
   composer = "Cole Porter"
-  copyright = "© 1934 Chappell & Co., Inc."
+  copyright = \markup \small "© 1934 Chappell & Co., Inc."
 }
 
 refrainLyricsOne = \lyricmode {

@@ -2,18 +2,12 @@
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
-
 \header {
   title = "Black Orpheus (Manha de Carnival, A Day in the Life of a Fool)"
   subtitle = \instrument
   poet = "Carl Sigmand"
   composer = "Luis Bonfa"
-  copyright = "© 1968 Chappell & Co."
+  copyright = \markup \small "© 1968 Chappell & Co."
 }
 
 bossaRhythm = ##t
@@ -85,9 +79,11 @@ refrainMelody = \relative f' {
   \break
   e1 \textToCodaLastTime | r2 e4 gs8 b8 | a1~ | a2. \parenthesize e4 |
 
-  \bar "||-|."
+  \bar "|."
 
-  \textCodaBreak
+  \xPageBreak
+
+  \textCoda
 
   r2 e4 gs8 b8 | a1~ | a2. a8 b8 |
   c4 d8 c8 b4 a8 b8 |

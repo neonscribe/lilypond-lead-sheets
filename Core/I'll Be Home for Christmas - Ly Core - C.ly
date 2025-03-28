@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "I'll Be Home for Christmas"
   subtitle = \instrument
   poet = "Kim Gannon"
   composer = "Walter Kent"
-  copyright = "© 1943 Gannon & Kent Music Co., Inc."
+  copyright = \markup \small "© 1943 Gannon & Kent Music Co., Inc."
 }
 
 refrainLyrics = \lyricmode {

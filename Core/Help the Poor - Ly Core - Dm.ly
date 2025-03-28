@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Charlie Singleton"
-  copyright = "© 1964 Warsing Music"
+  copyright = \markup \small "© 1964 Warsing Music"
 }
 
 refrainLyrics = \lyricmode {

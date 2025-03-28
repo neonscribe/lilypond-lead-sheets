@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Yip Harburg"
   composer = "Vernon Duke"
-  copyright = "© 1932 Kay Duke Music and Glocca Morra Music"
+  copyright = \markup \small "© 1932 Kay Duke Music and Glocca Morra Music"
 }
 
 refrainLyrics = \lyricmode {

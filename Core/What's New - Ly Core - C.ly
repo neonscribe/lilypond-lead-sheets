@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Johnny Burke"
   composer = "Bob Haggard"
-  copyright = "© 1939 M. Witmark & Sons, New York"
+  copyright = \markup \small "© 1939 M. Witmark & Sons, New York"
 }
 
 refrainLyrics = \lyricmode {

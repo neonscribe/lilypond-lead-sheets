@@ -2,15 +2,13 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "The Bottle Never Lets Me Down"
   subtitle = "Bass Line from Sarah Shook's 2018 album Years"
   composer = "Sarah Shook"
-  copyright = ""
+  copyright = \markup \small ""
 }
 
 refrainLyrics = \lyricmode {
@@ -126,7 +124,7 @@ refrainMelody = \relative g, {
   \bar ".|:"
   \repeat volta 3 {
     c4 c4 c4 c4 | 
-    \xTextMark "repeat 3x"
+    \xTextMark "play 3x"
     b4 b4 b4 b4 | 
   }
   a2 e'2 | a,2 a2 | e1 |

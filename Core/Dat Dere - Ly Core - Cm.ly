@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Bobby Timmons"
-  copyright = "© 1960 Upam Music Co."
+  copyright = \markup \small "© 1960 Upam Music Co."
 }
 
 refrainLyrics = \lyricmode {
@@ -18,7 +18,7 @@ refrainLyrics = \lyricmode {
 
 refrainChords = \chordmode {
   \set chordChanges = ##t
-  s8
+  s4
   
   c2:m7 c2:m7/bf a2:m7.5- af2:maj7 a2:m7.5- d2:7.9+ d2:m7.5- g2:7.9-
   c2:m7 c2:m7/bf a2:m7.5- af2:maj7 d2:m7.5- g2:7.5+ c2:m7 g2:7.5+
@@ -45,7 +45,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Swing" 4 = 135
 
-  \partial 8 c8 |
+  \partial 4 \invisEighth c8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

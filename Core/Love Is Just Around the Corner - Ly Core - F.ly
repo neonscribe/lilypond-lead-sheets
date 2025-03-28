@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Leo Robin"
   composer = "Lewis E. Gensler"
-  copyright = "© 1934 Famous Music Corporation"
+  copyright = \markup \small "© 1934 Famous Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

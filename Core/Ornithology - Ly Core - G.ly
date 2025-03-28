@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Charlie Parker and Bennie Harris"
-  copyright = "© 1946 Atlantic Music Corp."
+  copyright = \markup \small "© 1946 Atlantic Music Corp."
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
   
   g1:maj7 g1:maj7 g2:m7 c2:7 g2:m7 c2:7
   f1:maj7 f1:maj7 f1:m7 bf1:7
@@ -41,7 +41,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Fast Bop" 4 = 234
 
-  \partial 8 d8 |
+  \partial 4 \invisEighth d8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Roland Kirk"
-  copyright = "© 1964 Second Floor Music"
+  copyright = \markup \small "© 1964 Second Floor Music"
 }
 
 refrainLyrics = \lyricmode {

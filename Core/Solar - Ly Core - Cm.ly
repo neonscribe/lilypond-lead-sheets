@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Chuck Wayne (credited to Miles Davis)"
-  copyright = "© 1954 Prestige Music"
+  copyright = \markup \small "© 1954 Prestige Music"
 }
 
 refrainLyrics = \lyricmode {

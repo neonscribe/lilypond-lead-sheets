@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Eddie DeLange"
   composer = "Will Hudson and Irving Mills"
-  copyright = "© 1934 Mills Music, Inc."
+  copyright = \markup \small "© 1934 Mills Music, Inc."
 }
 
 refrainLyricsOne = \lyricmode {

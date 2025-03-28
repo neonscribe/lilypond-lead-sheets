@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Andy Razaf"
   composer = "Fats Waller and Harry Brooks"
-  copyright = "© 1929 Mills Music, Inc."
+  copyright = \markup \small "© 1929 Mills Music, Inc."
 }
 
 refrainLyrics = \lyricmode {

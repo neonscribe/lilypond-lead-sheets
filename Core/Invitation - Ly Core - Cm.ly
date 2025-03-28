@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Paul Francis Webster"
   composer = "Bronislau Kaper"
-  copyright = "© 1944 EMI Feist Catalog, Inc."
+  copyright = \markup \small "© 1944 EMI Feist Catalog, Inc."
 }
 
 refrainLyrics = \lyricmode {

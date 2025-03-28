@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Charlie Parker"
-  copyright = "© 1945 Atlantic Music Corp."
+  copyright = \markup \small "© 1945 Atlantic Music Corp."
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   f1:7 bf1:7 f1:7 f1:7
   bf1:7 b1:dim7 f2:7/c e2:7 
@@ -37,7 +37,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Fast Blues" 4 = 194
 
-  \partial 8 c8 |
+  \partial 4 \invisEighth c8 |
 
   \xTextMark \markup { \bold \box "Refrain" }
 

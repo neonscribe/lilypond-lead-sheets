@@ -7,26 +7,26 @@
   subtitle = \instrument
   poet = "Nancy Hamilton"
   composer = "Morgan Lewis"
-  copyright = "© 1940 Chappell & Co."
+  copyright = \markup \small "© 1940 Chappell & Co."
 }
 
 refrainLyrics = \lyricmode {
 Some -- where there's mu -- sic, __
 How faint the tune. __
 Some -- where there's hea -- ven, __
-How high the moon. __
+how high the moon. __
 There is no moon a -- bove
 when love is far a -- way too, __
 Till it comes true __
 That you love me as I love you.
 Some -- where there's mu -- sic, __
-It's where you are,
+it's where you are,
 Some -- where there's hea -- ven, __
-How near, how far. __
+how near, how far. __
 The dark -- est night would shine
-if you would come to me soon, __
+if you would come to me soon. __
 Un -- til you will, how still my heart,
-How high the moon. __
+how high the moon.
 }
 
 refrainChords = \chordmode {

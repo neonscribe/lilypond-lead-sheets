@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Don Redman & Andy Razaf"
   composer = "Don Redman"
-  copyright = "© 1929 Michael H. Golden, Inc."
+  copyright = \markup \small "© 1929 Michael H. Golden, Inc."
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

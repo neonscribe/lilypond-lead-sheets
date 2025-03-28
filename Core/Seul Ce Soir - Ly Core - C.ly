@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Rose Noel and Jean Casanova"
   composer = "Paul Durand"
-  copyright = "© 1940 Editions Musicales Europa"
+  copyright = \markup \small "© 1940 Editions Musicales Europa"
 }
 
 refrainLyrics = \lyricmode {

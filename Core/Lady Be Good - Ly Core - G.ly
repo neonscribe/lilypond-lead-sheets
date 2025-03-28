@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Ira Gershwin"
   composer = "George Gershwin"
-  copyright = "© 1924 WB Music Corp."
+  copyright = \markup \small "© 1924 WB Music Corp."
 }
 
 refrainLyricsA = \lyricmode {

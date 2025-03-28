@@ -1,19 +1,13 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
 
 \header {
   title = "Lover, Come Back to Me!"
   subtitle = \instrument
   poet = "Oscar Hammerstein II"
   composer = "Sigmund Romberg"
-  copyright = "© 1928 T.B. Harms, Inc."
+  copyright = \markup \small "© 1928 T.B. Harms, Inc."
 }
 
 verseLyrics = \lyricmode {
@@ -132,7 +126,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Bright"
 
-  \xTextMark \markup{ "Refrain" \bold \box "A" }
+  \sectStart "A"
 
   \bar ".|:"
 
@@ -153,9 +147,11 @@ refrainMelody = \relative f' {
   ef1 | d1 |
   } }
 
-  \bar "||-||"
+  \bar "||"
+  
+  \xPageBreak
 
-  \xTextMark \markup{ \bold \box "B" }
+  \sectNoBarNoBreak "B"
 
   \set Score.currentBarNumber = #33
 

@@ -10,7 +10,7 @@ $(if (and (defined? 'showLyrics) showLyrics)
   subtitle = \instrument
   poet = "Mike Perro"
   composer = "Thelonious Monk"
-  copyright = "© 1944 Regent Music Corporation"
+  copyright = \markup \small "© 1944 Regent Music Corporation"
 }
 
 refrainLyrics = \lyricmode { }
@@ -50,7 +50,7 @@ refrainLyricsTwo =  \lyricmode {
     }
 
 refrainChords = \chordmode {
-  s8
+  s4
   
   f1:7 gf1:7 f1:7 gf1:7
   f1:7 gf1:7 f1:7 f1:7
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 105
 
-  \partial 8 gs,8 |
+  \partial 4 \invisEighth gs,8 |
 
   \xTextMark \markup{ \bold \box "A1" }
   

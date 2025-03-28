@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Just Squeeze Me"
   subtitle = \instrument
   poet = "Lee Gaines"
   composer = "Duke Ellington"
-  copyright = "© 1946 Robbins Music Corporation"
+  copyright = \markup \small "© 1946 Robbins Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

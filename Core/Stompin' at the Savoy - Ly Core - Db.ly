@@ -4,16 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Stompin' at the Savoy"
   subtitle = \instrument
   poet = "Andy Razaf"
   composer = "Benny Goodman, Chick Webb and Edgar Sampson"
-  copyright = "© 1936 Robbins Music Corporation."
+  copyright = \markup \small "© 1936 Robbins Music Corporation."
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Milton Leeds"
   composer = "Alberto Dominguez"
-  copyright = "© 1939 Southern Music Publishing Co., Inc."
+  copyright = \markup \small "© 1939 Southern Music Publishing Co., Inc."
 }
 
 refrainLyrics = \lyricmode {

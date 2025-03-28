@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Charlie Parker"
-  copyright = "© 1951 Atlantic Music Corp."
+  copyright = \markup \small "© 1951 Atlantic Music Corp."
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
   
   f2:m7 bf2:7 ef2:6 c2:m7 f2:m7 bf2:7 ef2:6 c2:m7
   f2:m7 bf2:7 g2:m7 c2:7 f2:m7 bf2:7 ef1:6
@@ -39,7 +39,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Up Latin" 4 = 146
 
-  \partial 4. bf,8 ef8 g8 |
+  \partial 2 \invisEighth bf,8 ef8 g8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

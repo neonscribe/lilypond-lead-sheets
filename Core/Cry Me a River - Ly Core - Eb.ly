@@ -2,15 +2,13 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 16)
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Cry Me a River"
   subtitle = \instrument
   composer = "Arthur Hamilton"
-  copyright = "© 1953 Saunders Publications Inc."
+  copyright = \markup \small "© 1953 Saunders Publications Inc."
 }
 
 refrainLyrics = \lyricmode {

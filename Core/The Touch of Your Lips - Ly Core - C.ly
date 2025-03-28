@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Ray Noble"
-  copyright = "© 1936 Chappell & Co."
+  copyright = \markup \small "© 1936 Chappell & Co."
 }
 
 refrainLyrics = \lyricmode {
@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Ballad [Sarah Vaughan 1955]" 4 = 88
 
   \partial 4 c4 |
   \bar "||"

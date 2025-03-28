@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Harold Arlen"
-  copyright = "© 1941 Warner Bros. Inc."
+  copyright = \markup \small "© 1941 Warner Bros. Inc."
 }
 
 refrainLyrics = { \lyricmode {
@@ -65,7 +65,7 @@ My ma -- ma was right, there's blues __ in the night.
 } }
 
 refrainChords = \chordmode {
-  s8
+  s4
   
   bf1:6 bf1:6 bf1:6 bf1:7
   ef1:9 ef1:9 c2:7 f2:7 bf1
@@ -96,7 +96,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Slow Blues [Dinah Shore 1941]" 4 = 84
 
-  \partial 8 f8 |
+  \partial 4 \invisEighth f8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

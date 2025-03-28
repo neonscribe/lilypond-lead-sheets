@@ -9,8 +9,10 @@
   subtitle = \instrument
   poet = "Paul Francis Webster"
   composer = "Johnny Mandel"
-  copyright = "© 1965 Miller Music Corp."
+  copyright = \markup \small "© 1965 Miller Music Corp."
 }
+
+bossaRhythm = ##t
 
 refrainLyrics = \lyricmode {
 The sha -- dow of your smile when you are gone __
@@ -26,7 +28,7 @@ the sha -- dow of your smile.
 }
 
 refrainChords = \chordmode {
-  s8*5
+  s2.
 
   fs1:m7 b1:7 e1:m7 a1:7
   a1:m7 d1:7 g1:maj7 c1:maj7
@@ -50,7 +52,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Slow Bossa" 4 = 103
 
-  \partial 8*5 b,8 e8 fs8 g8 b8 |
+  \partial 2. r8 b,8 e8 fs8 g8 b8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

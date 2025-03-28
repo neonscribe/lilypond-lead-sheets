@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 18))
+#(set-global-staff-size 18)
 
 \header {
   title = "I Got It Bad and That Ain't Good"
   subtitle = \instrument
   poet = "Paul Francis Webster"
   composer = "Duke Ellington"
-  copyright = "© 1941 Robbins Music Corporation"
+  copyright = \markup \small "© 1941 Robbins Music Corporation"
 }
 
 refrainLyricsOne = \lyricmode {

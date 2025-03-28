@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Illinois Jacquet and Sir Charles Thompson"
-  copyright = "© 1947 Atlantic Music Corp."
+  copyright = \markup \small "© 1947 Atlantic Music Corp."
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
   
   c1:6 c1:6 af1:7 af1:7
   e2:m7 ef2:dim7 d2:m7 g2:7
@@ -40,7 +40,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Swing" 4 = 104
 
-  \partial 4. ds8 \tuplet 3/2 { e8 g8 b8 } |
+  \partial 2 \invisEighth ds8 \tuplet 3/2 { e8 g8 b8 } |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

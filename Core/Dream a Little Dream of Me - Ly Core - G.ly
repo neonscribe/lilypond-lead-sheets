@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Gus Kahn"
   composer = "W. Schwandt and F. Andree"
-  copyright = "© 1931 Davis, Coots & Engel, Inc."
+  copyright = \markup \small "© 1931 Davis, Coots & Engel, Inc."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 133
+  \tempo "Medium-Slow" 4 = 95
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Love Me or Leave Me"
   subtitle = \instrument
   poet = "Gus Kahn"
   composer = "Walter Donaldson"
-  copyright = "© 1928 Donaldson, Douglas & Gumble, Inc."
+  copyright = \markup \small "© 1928 Donaldson, Douglas & Gumble, Inc."
 }
 
 refrainLyrics = \lyricmode {

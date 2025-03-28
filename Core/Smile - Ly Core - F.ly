@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "John Turner and Geoffrey Parsons"
   composer = "Charlie Chaplin"
-  copyright = "© 1936, 1954 Bourne Co."
+  copyright = \markup \small "© 1936, 1954 Bourne Co."
 }
 
 refrainLyricsOne = \lyricmode {

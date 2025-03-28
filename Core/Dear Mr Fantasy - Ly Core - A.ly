@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 18))
+#(set-global-staff-size 18)
 
 \header {
   title = "Dear Mr. Fantasy"
   subtitle = \instrument
   poet = ""
   composer = "Steve Winwood, Chris Wood and Jim Capaldi"
-  copyright = "© 1968 F.S. Music, Ltd. and Island Music Ltd."
+  copyright = \markup \small "© 1968 F.S. Music, Ltd. and Island Music Ltd."
 }
 
 refrainLyrics = \lyricmode {

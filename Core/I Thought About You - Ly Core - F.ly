@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+#(set-global-staff-size 18)
+
 \include "../Include/lead-sheets.ily"
 
 \header {
@@ -7,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Jimmy Van Heusen"
-  copyright = "© 1939 Lewis Music Publishing Co."
+  copyright = \markup \small "© 1939 Lewis Music Publishing Co."
 }
 
 verseLyrics = \lyricmode {
@@ -146,10 +148,7 @@ codaMelody = \relative f'' {
 
 \include "../Include/verse.ily"
 
-\markup {
-  % Leave a gap after the verse
-  \vspace #2
-}
+\pageBreak
 
 \include "../Include/refrain.ily"
 

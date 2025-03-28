@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Once I Loved (Amor Em Paz)"
   subtitle = \instrument
   poet = "Ray Gilbert"
   composer = "Antônio Carlos Jobim"
-  copyright = "© 1965 Ipanema Music"
+  copyright = \markup \small "© 1965 Ipanema Music"
 }
 
 bossaRhythm = ##t

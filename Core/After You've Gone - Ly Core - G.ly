@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Henry Creamer"
   composer = "Turner Layton"
-  copyright = "© 1918 Morley Music Company"
+  copyright = \markup \small "© 1918 Morley Music Company"
 }
 
 refrainLyricsOne = \lyricmode {

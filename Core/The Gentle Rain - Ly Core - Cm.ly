@@ -12,7 +12,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Matt Dubey"
   composer = "Luiz Bonfá"
-  copyright = "© 1965 EMI Unart Catalog, Inc."
+  copyright = \markup \small "© 1965 EMI Unart Catalog, Inc."
 }
 
 bossaRhythm = ##t

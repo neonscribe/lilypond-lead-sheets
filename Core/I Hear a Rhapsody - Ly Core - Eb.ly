@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "George Fragos, Jack Baker and Dick Gasparre"
-  copyright = "© 1940 Broadcast Music Inc."
+  copyright = \markup \small "© 1940 Broadcast Music Inc."
 }
 
 refrainLyrics = \lyricmode {

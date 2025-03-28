@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "John Lennon/Paul McCartney"
-  copyright = "© 1966 Northern Songs Ltd."
+  copyright = \markup \small "© 1966 Northern Songs Ltd."
 }
 
 refrainLyricsOne = \lyricmode {

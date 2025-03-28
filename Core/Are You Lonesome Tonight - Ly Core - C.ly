@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Are You Lonesome Tonight"
   subtitle = \instrument
   poet = ""
   composer = "Roy Turk and Lou Handman"
-  copyright = "© 1926 Bourne, Inc."
+  copyright = \markup \small "© 1926 Bourne, Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -22,21 +22,26 @@ Do the chairs in your par -- lor seem emp -- ty and bare?
 Do you gaze at your door -- step and pic -- ture me there?
 Is your heart filled with pain? Shall I come back a -- gain?
 Tell me, dear, are you lone -- some to -- night?
+
+night? Tell me, dear, are you lone -- some to -- night?
 }
 
 refrainChords = \chordmode {
   s4
   
   c2. e2.:m a2.:m a2.:m
-  c2. c2.:7 f2. f2.
+  c2. c2.:7 f2.:6 f2.:6
   g2. g2. g2.:7 g2.:7
-  g2.:7 g2.:7 c2. c2.
+  g2.:7 g4:sus7 g2:7.5+ c2. c2.
   
-  c2.:7 c2.:7 f2. f2.
+  c2.:9 c2.:9 f2.:6 f2.:6
   d2. d2. d2.:m g2.
   c2. e2.:m d2. d2.
   d2.:m g2.:7 c2.
   \chordInsideParens{ g2.:7 }
+  
+  e2.:m d2. d2.:m g2.:7 c2. c2.
+
 }
 
 refrainKey = c
@@ -68,7 +73,13 @@ refrainMelody = \relative f' {
   \break
   c4 b4. c8 | b2 c8 cs8 | e4 d4. e8 | d2 gs,8 a8 |
   \break
-  c4 b4 a4 | b4 c4 d4 | c2. | r2. |
+  c4 b4 a4 | b4 c4 d4 \textToCodaLastTime | c2. | r2. |
+  
+  \bar "||-|."
+  
+  \textCodaBreak
+  
+  e2.~ | e4 r4 gs,8 a8 | c4 b4 a4 | b4 c4 \caesura d4 | c2. | r2. |
   
   \bar "|."
 }

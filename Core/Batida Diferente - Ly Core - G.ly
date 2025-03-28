@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Durval Ferreira & Maurício Einhorn"
-  copyright = "© 1963 Casa Editoras Musicais Brasileras Reunidas CEMBRA, São Paulo"
+  copyright = \markup \small "© 1963 Casa Editoras Musicais Brasileras Reunidas CEMBRA, São Paulo"
 }
 
 unsynchronizedRefrainLyrics = \lyricmode {
@@ -40,7 +40,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   g2:maj7 g2:6 d2:m7 g2:13 c2:maj7 c2:6.9 c2:m7 f2:9
   b2:m7 bf2:13 a2:m7 af2:13 b2:m7 bf2:13 a2:m7 af2:13
@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Fast Bossa [Sérgio Mendes 1966]" 4 = 200
   
-  \partial 8 d8 |
+  \partial 4 \invisEighth d8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

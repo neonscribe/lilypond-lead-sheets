@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Dick Rogers"
   composer = "Earle Hagen"
-  copyright = "© 1940 Shapiro, Bernstein & Co."
+  copyright = \markup \small "© 1940 Shapiro, Bernstein & Co."
 }
 
 refrainLyrics = \lyricmode {

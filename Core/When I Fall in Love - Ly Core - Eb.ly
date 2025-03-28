@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Edward Heyman"
   composer = "Victor Young"
-  copyright = "© 1952 Chappell & Co."
+  copyright = \markup \small "© 1952 Chappell & Co."
 }
 
 refrainLyrics = \lyricmode {

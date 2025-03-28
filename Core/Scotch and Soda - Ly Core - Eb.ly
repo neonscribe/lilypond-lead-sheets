@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "David Guard"
-  copyright = "© 1959 Beechwood Music Corp."
+  copyright = \markup \small "© 1959 Beechwood Music Corp."
 }
 
 refrainLyricsOne = \lyricmode {

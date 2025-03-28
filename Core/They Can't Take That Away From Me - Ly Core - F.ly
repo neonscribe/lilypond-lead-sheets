@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-     (set-global-staff-size 18))
+#(set-global-staff-size 18)
 
 \header {
   title = "They Can't Take That Away From Me"
   subtitle = \instrument
   poet = "Ira Gershwin"
   composer = "George Gershwin"
-  copyright = "© 1936 Chappell & Co."
+  copyright = \markup \small "© 1936 Chappell & Co."
 }
 
 refrainLyrics = \lyricmode {

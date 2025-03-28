@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Lorenz Hart"
   composer = "Richard Rodgers"
-  copyright = "© 1933 Famous Music Corp."
+  copyright = \markup \small "© 1933 Famous Music Corp."
 }
 
 refrainLyricsOne = \lyricmode {

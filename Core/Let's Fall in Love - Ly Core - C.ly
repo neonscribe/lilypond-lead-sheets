@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ted Koehler"
   composer = "Harold Arlen"
-  copyright = "© 1933 Bourne Corp."
+  copyright = \markup \small "© 1933 Bourne Corp."
 }
 
 refrainLyricsOne = \lyricmode {

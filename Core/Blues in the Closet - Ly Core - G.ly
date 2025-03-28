@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Oscar Pettiford"
-  copyright = "© 1955 Orpheus Music, Inc."
+  copyright = \markup \small "© 1955 Orpheus Music, Inc."
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
   g1:7 g1:7 g1:7 g1:7
   c1:7 c1:7 g1:7 g1:7
   a1:m7 d1:7 g1:7 g1:7
@@ -30,7 +30,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Bright Blues [Oscar Pettiford 1953]" 4 = 184
 
-  \partial 8 g8~ |
+  \partial 4 \invisEighth g8~ |
   \bar "||"
   
   \xTextMark \markup{ \bold \box "Head" }

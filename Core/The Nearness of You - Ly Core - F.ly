@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Ned Washington"
   composer = "Hoagy Carmichael"
-  copyright = "© 1937 Famous Music Corp."
+  copyright = \markup \small "© 1937 Famous Music Corp."
 }
 
 refrainLyricsPreOne = \lyricmode {
@@ -56,7 +56,7 @@ refrainLyricsRepThree = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
   
   f1:maj7 c2:m7 f2:7 bf1:maj7 bf1:dim7
   a2:m7 af2:7 g2:m7 c2:7
@@ -87,7 +87,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium"
   
-  \partial 4. c8 f8 g8 |
+  \partial 2 \invisEighth c8 f8 g8 |
 
   \sectNoBreak "A1,A2"
   

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Sam M. Lewis and Joe Young"
   composer = "Harry Akst"
-  copyright = "© 1925 B & G Akst Publishing Co."
+  copyright = \markup \small "© 1925 B & G Akst Publishing Co."
 }
 
 refrainLyrics = \lyricmode {

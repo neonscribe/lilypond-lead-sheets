@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "My Foolish Heart"
   subtitle = \instrument
   poet = "Ned Washington"
   composer = "Victor Young"
-  copyright = "© 1949 Joy Music, Inc., 1619 Broadway, New York, N.Y."
+  copyright = \markup \small "© 1949 Joy Music, Inc., 1619 Broadway, New York, N.Y."
 }
 
 refrainLyricsM = \lyricmode {

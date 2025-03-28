@@ -6,7 +6,7 @@
   title = "'Tis Autumn"
   subtitle = \instrument
   composer = "Henry Nemo"
-  copyright = "© 1941 Warner Bros. Inc."
+  copyright = \markup \small "© 1941 Warner Bros. Inc."
 }
 
 verseLyrics = \lyricmode {
@@ -90,7 +90,7 @@ refrainMelody = \relative f'' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad"
+  \tempo "Ballad [Nat King Cole 1949]" 4 = 60
   
   \partial 4 c4 |
   \bar "||"

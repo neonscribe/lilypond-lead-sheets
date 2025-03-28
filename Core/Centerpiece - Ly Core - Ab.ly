@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Jon Hendricks"
   composer = "Harry Edison"
-  copyright = "© 1960 Marissa Music"
+  copyright = \markup \small "© 1960 Marissa Music"
 }
 
 refrainLyrics = \lyricmode {
@@ -27,7 +27,7 @@ But no -- thin's a -- ny good with -- out you
 ba -- by you're my cen -- ter -- piece}
 
 refrainChords = \chordmode {
-  s8
+  s4
   
   af1:7 df1:7 af1:7 ef2:m7 af2:7.9-
   df1:7 d1:dim7 af1:7 c2:m7.5- f2:7.9-
@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "A" }
 
-  \partial 8 f8 |
+  \partial 4 \invisEighth f8 |
   
   \bar ".|:"
   

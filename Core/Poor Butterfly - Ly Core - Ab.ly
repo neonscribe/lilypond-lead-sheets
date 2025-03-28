@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "John L. Golden"
   composer = "Raymond Hubbell"
-  copyright = "© 1916 T.B. Harms and Francis, Day & Hunter"
+  copyright = \markup \small "© 1916 T.B. Harms and Francis, Day & Hunter"
 }
 
 refrainLyrics = \lyricmode {

@@ -6,7 +6,7 @@
 
 instrument = "Kaye Ballard, Nancy Wilson, Dinah Washington Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Fly Me to the Moon - Ly Core - C.ly"
 

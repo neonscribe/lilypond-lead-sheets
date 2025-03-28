@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Roland Hanna (credited to Thad Jones)"
-  copyright = "© 1969 D'Accord Music, Inc."
+  copyright = \markup \small "© 1969 D'Accord Music, Inc."
 }
 
 refrainLyrics = \lyricmode {

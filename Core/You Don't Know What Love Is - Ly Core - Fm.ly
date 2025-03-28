@@ -4,16 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "You Don't Know What Love Is"
   subtitle = \instrument
   poet = "Don Raye"
   composer = "Gene de Paul"
-  copyright = "© 1941 Universal Music Corp."
+  copyright = \markup \small "© 1941 Universal Music Corp."
 }
 
 refrainLyrics = \lyricmode {
@@ -38,7 +36,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
   
   f1:m7 df2:9 c2:7.9- f2:m6 g4:m7 c4:7.9- df1:7
   bf2:7 g4:m7.5- c4:7.9- f2:m7 af2:7 df1:7 g2:m7.5- c2:7.9-
@@ -64,7 +62,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 80
 
-  \partial 8 c8 |
+  \partial 4 \invisEighth c8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

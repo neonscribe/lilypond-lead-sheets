@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Stuart Gorrell"
   composer = "Hoagy Carmichael"
-  copyright = "© 1930 Southern Music Publishing Co., Inc."
+  copyright = \markup \small "© 1930 Southern Music Publishing Co., Inc."
 }
 
 refrainLyrics = \lyricmode {

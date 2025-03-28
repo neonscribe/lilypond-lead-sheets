@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Sam M. Lewis"
   composer = "John Klenner"
-  copyright = "© 1931 Metro-Goldwyn-Mayer, Inc."
+  copyright = \markup \small "© 1931 Metro-Goldwyn-Mayer, Inc."
 }
 
 refrainLyrics = \lyricmode {

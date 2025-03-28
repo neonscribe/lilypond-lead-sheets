@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bernice Petkere"
-  copyright = "© 1933 Miller Music Corporation"
+  copyright = \markup \small "© 1933 Miller Music Corporation"
 }
 
 refrainLyricsOne = \lyricmode {

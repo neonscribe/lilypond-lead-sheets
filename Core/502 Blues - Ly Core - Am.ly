@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "James Rowles"
-  copyright = "© 1958 Kudu Music"
+  copyright = \markup \small "© 1958 Kudu Music"
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   a2.:m7 df2.:maj7.5+ b2.:m7.5- e2.:7.9-
   a2.:m7 df2.:maj7.5+ b2.:m7.5- e2.:7.9-
@@ -37,7 +37,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium [Wayne Shorter 1966]" 4 = 116
 
-  \partial 8 e8 |
+  \partial 4 \invisEighth e8 |
   \bar "||"
 
   \sectStart "A1"

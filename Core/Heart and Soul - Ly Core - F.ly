@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Heart and Soul"
   subtitle = \instrument
   poet = "Frank Loesser"
   composer = "Hoagy Carmichael"
-  copyright = "© 1938 Famous Music Corporation"
+  copyright = \markup \small "© 1938 Famous Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

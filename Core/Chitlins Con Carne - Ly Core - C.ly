@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Kenny Burrell"
-  copyright = "© 1963 Elliot Music"
+  copyright = \markup \small "© 1963 Elliot Music"
 }
 
 refrainLyrics = \lyricmode {

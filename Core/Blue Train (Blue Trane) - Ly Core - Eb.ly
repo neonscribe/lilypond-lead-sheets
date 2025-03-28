@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "John Coltrane"
-  copyright = "© 1957 Jowcol Music"
+  copyright = \markup \small "© 1957 Jowcol Music"
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8*5
+  s2.
   
   ef1:7.9+ ef1:7.9+
   ef1:7.9+ ef1:7.9+ af1:7.11+ af1:7.11+
@@ -35,10 +35,10 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Blues [John Coltrane 1957]" 4 = 154
   
-  \partial 8*5 bf8 df8 f8 df8 ef8~ |
+  \partial 2. r8 bf8 df8 f8 df8 ef8~ |
 
   \bar ".|:"
-  \set Score.voltaSpannerDuration = #(ly:make-moment 1)
+  \override Score.VoltaBracket.musical-length = \musicLength 2
   \repeat volta 2 {
   ef1 | r4 r8 bf8 df8 f8 df8 ef8~ |
   \break

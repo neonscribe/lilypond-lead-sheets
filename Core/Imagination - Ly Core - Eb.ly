@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Burke"
   composer = "Jimmy Van Heusen"
-  copyright = "© 1939 ABC Music Corporation"
+  copyright = \markup \small "© 1939 ABC Music Corporation"
 }
 
 refrainLyricsOne = \lyricmode {
@@ -37,7 +37,7 @@ what to do. __ ""
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
 
   ef2:maj7 e2:dim7 f2:m7 bf2:7 ef2:maj7 bf2:m7 g2:m7.5- c2:7.9-
   f2:m f2:m7+ f2:m7 bf2:7
@@ -64,7 +64,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Ballad" 4 = 100
 
-  \partial 4. d8 ef8 f8 |
+  \partial 2 \invisEighth d8 ef8 f8 |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+#(set-global-staff-size 18)
+
 \include "../Include/lead-sheets.ily"
 \include "../Include/even-brace.ily"
 
@@ -8,7 +10,7 @@
   subtitle = \instrument
   poet = "Harry Ruby"
   composer = "Rube Bloom"
-  copyright = "© 1945 WB Music Corp."
+  copyright = \markup \small "© 1945 WB Music Corp."
 }
 
 verseLyrics = \lyricmode {
@@ -193,10 +195,7 @@ refrainMelody = \relative f'' {
       }
       }
     \new Staff {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
+      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose ef \whatKey {
 	  \refrainMelody

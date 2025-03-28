@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ballard MacDonald"
   composer = "James F. Hanley"
-  copyright = "© 1917 Shapiro, Bernstein & Co., Inc."
+  copyright = \markup \small "© 1917 Shapiro, Bernstein & Co., Inc."
 }
 
 refrainLyrics = \lyricmode {

@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Irving Berlin"
-  copyright = "© 1927 Irving Berlin"
+  copyright = \markup \small "© 1927 Irving Berlin"
 }
 
 refrainLyrics = \lyricmode {

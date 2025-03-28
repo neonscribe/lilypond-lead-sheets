@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "It Never Entered My Mind"
   subtitle = \instrument
   poet = "Lorenz Hart"
   composer = "Richard Rodgers"
-  copyright = "© 1940 Chappell & Co."
+  copyright = \markup \small "© 1940 Chappell & Co."
 }
 
 refrainLyricsOne = \lyricmode {

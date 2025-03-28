@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "This Time the Dream's on Me"
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Harold Arlen"
-  copyright = "© 1941 Warner Bros. Inc."
+  copyright = \markup \small "© 1941 Warner Bros. Inc."
 }
 
 refrainLyrics = \lyricmode {

@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Norman Gimbel"
   composer = "Michel Legrand"
-  copyright = "© 1964 Productions Michel Legrand, Paris, France"
+  copyright = \markup \small "© 1964 Productions Michel Legrand, Paris, France"
 }
 
 bossaRhythm = ##t

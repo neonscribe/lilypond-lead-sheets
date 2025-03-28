@@ -6,7 +6,7 @@
   title = "It's All Right With Me"
   subtitle = \instrument
   composer = "Cole Porter"
-  copyright = "© 1953 Chappell & Co."
+  copyright = \markup \small "© 1953 Chappell & Co."
 }
 
 peggyLeeIntroChords = \chordmode {
@@ -173,7 +173,7 @@ refrainHLChords = \chordmode {
   c1:m7 c1:m7 f1:m7 f1:m7
   bf1:7 bf1:7 g1:m7.5- c1:7
   f1:7 f1:7 bf1:7 bf1:7
-  ef1:maj7 ef1:7 af1:maj7 gf2:7 df2:7.5-
+  ef1:maj7 ef1:7 af1:maj7 gf2:7 gf2:7.5-
   f1:7 bf1:sus7 ef1:6
   \chordInsideParens{ g1:7.9- }
 }

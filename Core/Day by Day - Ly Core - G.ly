@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Sammy Cahn, Axel Stordahl, Paul Weston"
-  copyright = "© 1945 Barton Music Corp."
+  copyright = \markup \small "© 1945 Barton Music Corp."
 }
 
 refrainLyrics = \lyricmode {

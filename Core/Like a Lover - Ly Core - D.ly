@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Like a Lover (O Cantador)"
   subtitle = \instrument
   poet = "Nelson Motta/Alan and Marilyn Bergman"
   composer = "Dori Caymmi"
-  copyright = "© 1968 Bema Music, Inc."
+  copyright = \markup \small "© 1968 Bema Music, Inc."
 }
 
 bossaRhythm = ##t

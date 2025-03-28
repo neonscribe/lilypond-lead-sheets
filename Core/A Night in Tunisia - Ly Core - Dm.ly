@@ -12,7 +12,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Dizzy Gillespie and Frank Paparelli"
-  copyright = "© 1944 MCA Music Publishing Inc."
+  copyright = \markup \small "© 1944 MCA Music Publishing Inc."
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Gus Kahn"
   composer = "Isham Jones"
-  copyright = "© 1922 Tell Taylor Inc."
+  copyright = \markup \small "© 1922 Tell Taylor Inc."
 }
 
 refrainLyrics = \lyricmode {

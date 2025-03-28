@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Louis Poterat, Anna Sosenko"
   composer = "Dino Olivieri"
-  copyright = "© 1938 P. Leonardi, Milano, Italy"
+  copyright = \markup \small "© 1938 P. Leonardi, Milano, Italy"
 }
 
 NotRefrainLyrics = \lyricmode {

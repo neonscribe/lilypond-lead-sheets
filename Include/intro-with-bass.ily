@@ -13,10 +13,7 @@
       }
       }
     \new Staff {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
+      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \introKey \whatKey {
 	  \introMelody
@@ -35,10 +32,7 @@
       \introLyrics
     }
     \new Staff {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
+      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
       %% Only transpose bass line in the same octave
       \transpose \refrainKey \bassKey { \introBass }
@@ -69,10 +63,7 @@
       }
       }
     \new Staff \with {midiInstrument = "overdriven guitar"} {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
+      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose \introKey \whatKey {
 	  \introMelody
@@ -91,10 +82,7 @@
       \introLyrics
     }
     \new Staff \with {midiInstrument = "brass section"} {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
+      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
       %% Only transpose bass line in the same octave
       \transpose \refrainKey \bassKey { \introBass }

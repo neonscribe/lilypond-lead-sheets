@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Jack Lawrence"
   composer = "Walter Gross"
-  copyright = "© 1946 Edwin H. Morris & Co."
+  copyright = \markup \small "© 1946 Edwin H. Morris & Co."
 }
 
 refrainLyrics = \lyricmode {
@@ -26,7 +26,7 @@ You took my lips, __ you took my love __ so ten -- der -- ly.
 }
 
 refrainRealBookSecondVolIIChords = \chordmode {
-  s4.
+  s2
   
   ef1:maj7 af1:7.11+ ef1:m7 af1:7
   f1:m7 df1:7.11+ ef2:maj7 g4:m7 f4:m7 ef1:maj7
@@ -44,7 +44,7 @@ refrainRealBookSecondVolIIChords = \chordmode {
 }
 
 refrainNewRealChords = \chordmode {
-  s4.
+  s2
   
   ef1:maj7 af1:9.11+ ef1:m9 af1:13
   f1:m9 df1:9.11+ ef1:maj7 g2:m7 c2:7
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Ballad"
 
-  \partial 4. bf8 c8 ef8 |
+  \partial 2 \invisEighth bf8 c8 ef8 |
   \bar "||"
   
   \xTextMark \markup{ \bold \box "A1" }

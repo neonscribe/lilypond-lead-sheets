@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Gene Roddenberry"
   composer = "Alexander Courage"
-  copyright = "© 1966 Bruin Music Co."
+  copyright = \markup \small "© 1966 Bruin Music Co."
 }
 
 bossaRhythm = ##t

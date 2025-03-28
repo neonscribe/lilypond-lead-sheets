@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Billy Hayes and Jay Johnson"
-  copyright = "© 1948 Choice Music Inc."
+  copyright = \markup \small "© 1948 Choice Music Inc."
 }
 
 refrainLyrics = \lyricmode {

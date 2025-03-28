@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Betty Comden & Adolph Green"
   composer = "Leonard Bernstein"
-  copyright = "© 1945 Warner Bros. Inc."
+  copyright = \markup \small "© 1945 Warner Bros. Inc."
 }
 
 refrainLyricsOne = \lyricmode {

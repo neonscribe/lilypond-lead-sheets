@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Fred Fisher"
-  copyright = "© 1922 Fred Fisher, Inc."
+  copyright = \markup \small "© 1922 Fred Fisher, Inc."
 }
 
 refrainLyrics = \lyricmode {

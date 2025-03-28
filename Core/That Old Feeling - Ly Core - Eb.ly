@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Lew Brown and Sammy Fain"
-  copyright = "© 1937 Leo Feist Inc."
+  copyright = \markup \small "© 1937 Leo Feist Inc."
 }
 
 refrainLyrics = \lyricmode {

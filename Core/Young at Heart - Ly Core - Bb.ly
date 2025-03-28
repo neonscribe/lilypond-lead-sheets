@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Young at Heart"
   subtitle = \instrument
   poet = "Carolyn Leigh"
   composer = "Johnny Richards"
-  copyright = "© 1954 Sunbeam Music Corporation"
+  copyright = \markup \small "© 1954 Sunbeam Music Corporation"
 }
 
 refrainLyricsOne = \lyricmode {

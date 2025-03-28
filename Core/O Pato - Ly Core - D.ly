@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "English lyrics by Jon Hendricks"
   composer = "Jaime Silva, Neuza Teixera"
-  copyright = "© 1960 Fermata International Melodies, Inc."
+  copyright = \markup \small "© 1960 Fermata International Melodies, Inc."
 }
 
 bossaRhythm = ##t
@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Up Bossa [João Gilberto 1960]" 4 = 175
 
-  \partial 2 r8 a,8 d4 |
+  \partial 2 \invisEighth a,8 d4 |
   \repeat volta 2 {
   \sectStart "A1,A2"
 

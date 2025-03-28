@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Sonny Rollins"
-  copyright = "© 1956 Prestige Music"
+  copyright = \markup \small "© 1956 Prestige Music"
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   bf1:7 ef1:7 bf1:7 bf1:7
   ef1:7 ef1:7 bf1:7 g1:7.9+
@@ -31,7 +31,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Up" 4 = 175
 
-  \partial 8 d'8 |
+  \partial 4 \invisEighth d'8 |
   \bar "||"
 
   r8 bf4 g8 bf4 r8 df8 | r8 bf4 g8 bf4 r8 d8 |

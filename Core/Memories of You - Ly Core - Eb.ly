@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Andy Razaf"
   composer = "Eubie Blake"
-  copyright = "© 1930 Shapiro, Berstein & Co."
+  copyright = \markup \small "© 1930 Shapiro, Berstein & Co."
 }
 
 refrainLyrics = \lyricmode {

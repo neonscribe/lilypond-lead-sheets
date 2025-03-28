@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Horace Silver"
-  copyright = "© 1964 Ecaroh Music, Inc."
+  copyright = \markup \small "© 1964 Ecaroh Music, Inc."
 }
 
 bossaRhythm = ##t
@@ -20,9 +20,11 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
   
-  s1 s1 s1 s1
+  \chordOpenParen{ f1:m9 }
+  f1:m9 f1:m9
+  \chordCloseParen{ f1:m9 }
   
   f1:m9 f1:m9 ef1:9 ef1:9
   df1:9 c4:7 r2. f1:m9
@@ -31,10 +33,10 @@ refrainChords = \chordmode {
 
   f1:m9
   
-  ef1:m9 ef1:m9 f1:m9 f1:9
+  ef1:m9 ef1:m9 f1:m9 f1:m9
   ef2:9 df2:9 c4:7 r2. f1:m9 f1:m9
   
-  % f1:m9 f1:m9
+  f1:m9 f1:m9 f1:m9 f1:m9
 }
 
 refrainKey = f
@@ -45,29 +47,28 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Bossa" 4 = 126
 
-  \partial 8 r8 |
+  \partial 4 r4 |
   \bar "||"
 
-  \xTextMark \markup{ \bold \box "Intro" }
+  \sectNoBreak "Intro"
   
   r1 | r1 | r1 | r2 r8 c8-. f8-. af8-. |
   
   \break
 
-  \xTextMark \markup{ \bold \box "A1, A2" }
+  \sect "A1, A2"
   
   \bar ".|:-||"
   \repeat volta 2 {
-  c8 \tuplet 3/2 { df16 c16 bf16 } af8-. bf8 \tuplet 3/2 { bf16 c16 bf16 } af8 f8-. af8~ |
+  c8 \tuplet 3/2 { df16 c16 bf16 } af8-. bf8~ \tuplet 3/2 { bf16 c16 bf16 } af8 f8-. af8~ |
   af8 \tuplet 3/2 { bf16 af16 f16 } ef8-. f8~ f8 \tuplet 3/2 { g16 f16 ef16 } c8-. <ef df>8~ |
   <ef df>1~ | <ef df>2. g,8 gf8 |
-  \break
   f8-. <df' cf>8~ <df cf>2. | r2 <f d>4. <g ef>8~ | <g ef>1~ |
-  } \alternative { {
+  \alternative { \volta 1 {
   <g ef>2 r8 c,8-. f8-. af8-. |
-  } {
+  } \volta 2 {
   <g ef>2\repeatTie r8 <ef c>8-. <ef c>8-. <ef c>8-. |
-  } }
+  } } }
   
   \sect "B"
   
@@ -101,7 +102,7 @@ refrainBass = \relative f' {
   \key \refrainKey \minor
   \clef bass
 
-  \partial 8 f,8 |
+  \partial 4 \invisEighth f,8 |
   
   f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 |
   f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 ef,8 | ef4 r8 bf'8 bf4 r8 ef,8 | ef4 r8 bf'8 bf8 ef,8 ef8 d8 |

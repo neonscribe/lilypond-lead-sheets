@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Edward Heyman"
   composer = "Johnny Green"
-  copyright = "© 1931 Famous Music Corporation"
+  copyright = \markup \small "© 1931 Famous Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

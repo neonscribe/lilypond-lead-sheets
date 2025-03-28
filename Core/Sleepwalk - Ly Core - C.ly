@@ -12,7 +12,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Santo Farina, John Farina & Ann Farina"
-  copyright = "© 1959 Carbert Music, Inc."
+  copyright = \markup \small "© 1959 Carbert Music, Inc."
 }
 
 straightEighths = ##t

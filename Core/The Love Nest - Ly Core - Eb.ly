@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Otto Harbach"
   composer = "Louis A. Hirsch"
-  copyright = "© 1920 Victoria Publishing Corporation"
+  copyright = \markup \small "© 1920 Victoria Publishing Corporation"
 }
 
 refrainLyrics = \lyricmode {

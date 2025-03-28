@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Bob Dorough"
   composer = "Ben Tucker"
-  copyright = "© 1960 Cotillion Music Inc."
+  copyright = \markup \small "© 1960 Cotillion Music Inc."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -25,7 +25,7 @@ When I'm in your arms, I'm all right.
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
 
   g1:m7 g1:m7 g1:m7 g1:m7
   ef1:7 ef1:7 g1:m7 g1:m7
@@ -40,7 +40,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Soul Jazz [Mel Tormé 1962]" 4 = 143
 
-  \partial 4. g8 bf8 d8 |
+  \partial 2 \invisEighth g8 bf8 d8 |
   
   \bar ".|:"
   \repeat volta 2 {

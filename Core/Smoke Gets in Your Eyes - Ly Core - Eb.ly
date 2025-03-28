@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 18))
+#(set-global-staff-size 18)
 
 \header {
   title = "Smoke Gets in Your Eyes"
   subtitle = \instrument
   poet = "Otto Harbach"
   composer = "Jerome Kern"
-  copyright = "© 1933 T.B. Harms Company"
+  copyright = \markup \small "© 1933 T.B. Harms Company"
 }
 
 refrainLyrics = \lyricmode {

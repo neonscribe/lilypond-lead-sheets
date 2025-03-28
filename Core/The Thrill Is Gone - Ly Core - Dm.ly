@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subsubtitle = \instrument
   poet = ""
   composer = "Ray Henderson/Lew Brown"
-  copyright = "© 1931 DeSylva, Brown & Henderson, Inc."
+  copyright = \markup \small "© 1931 DeSylva, Brown & Henderson, Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad" 4 = 60
+  \tempo "Ballad [Chet Baker 1954]" 4 = 60
   
   \partial 4 a4 |
   \bar"||"

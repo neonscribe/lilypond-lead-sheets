@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Arthur Herzog, Jr. and Billie Holiday"
-  copyright = "© 1941 Edward B. Marks Music Company"
+  copyright = \markup \small "© 1941 Edward B. Marks Music Company"
 }
 
 refrainLyrics = \lyricmode {

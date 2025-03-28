@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Charlie Parker"
-  copyright = "© 1951 Atlantic Music Corp."
+  copyright = \markup \small "© 1951 Atlantic Music Corp."
 }
 
 refrainLyrics = \lyricmode {

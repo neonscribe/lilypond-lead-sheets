@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "(Up a) Lazy River"
   subtitle = \instrument
   poet = ""
   composer = "Hoagy Carmichael and Sidney Arodin"
-  copyright = "© 1931 Peer International Corporation"
+  copyright = \markup \small "© 1931 Peer International Corporation"
 }
 
 refrainLyrics = \lyricmode {

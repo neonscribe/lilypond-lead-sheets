@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Spencer Williams and Clarence Williams"
-  copyright = "© 1919 Shapiro, Bernstein & Co. Inc."
+  copyright = \markup \small "© 1919 Shapiro, Bernstein & Co. Inc."
 }
 
 refrainLyrics = \lyricmode {

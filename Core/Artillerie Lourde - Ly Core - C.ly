@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Django Reinhardt"
-  copyright = "© 1944 Publications Francis Day S.A."
+  copyright = \markup \small "© 1944 Publications Francis Day S.A."
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
 
   c2 a2:m7 d2:m7 g2:7 c2 a2:m7 d2:m7 g2:7 
   c2 a2:m7 d2:m7 g2:7 c2 g2:7
@@ -39,7 +39,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium [Django Reinhardt 1949]" 4 = 116
 
-  \partial 4. g8 b4-. |
+  \partial 2 \invisEighth g8 b4-. |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

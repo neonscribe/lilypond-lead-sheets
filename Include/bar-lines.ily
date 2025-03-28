@@ -4,4 +4,3 @@
 \defineBarLine "||-||" #'("||" "||" "||")
 \defineBarLine "||-:|." #'(":|." "||" ".|")
 \defineBarLine "||-|." #'("|." "||" ".|")
-\defineBarLine "|p" #'("|" #f #f)

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Herb Magidson"
   composer = "Allie Wrubel"
-  copyright = "© 1937 Bourne Co."
+  copyright = \markup \small "© 1937 Bourne Co."
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Harold Arlen"
-  copyright = "© 1942 Famous Music Corporation"
+  copyright = \markup \small "© 1942 Famous Music Corporation"
 }
 
 refrainLyrics = \lyricmode {
@@ -99,10 +99,10 @@ refrainMelody = \relative f' {
   bf'4. bf8~ bf4 bf4~ | bf4 af4 f2 | f4. f8~ f4 f4~ | f4 ef4 c2 |
   \break
   ef4. ef8~ ef4 ef4~ | ef4 ef4 \tuplet 3/2 { ef4 ef4 ef4 } | ef1~ | ef2 g4 bf4 |
-  \bar "|p"
+  \bar "||"
 
   \xPageBreak
-  \sectStart "D"
+  \sectNoBarNoBreak "D"
   
   ef2 ef4 ef,4~ | ef4 ef4 \tuplet 3/2 { ef4 g4 bf4 } | d1~ | d4. c8 d4. c8 |
   \break

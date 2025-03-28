@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Shelton Brooks"
-  copyright = "© 1917 Leo Feist Inc."
+  copyright = \markup \small "© 1917 Leo Feist Inc."
 }
 
 refrainLyrics = \lyricmode {

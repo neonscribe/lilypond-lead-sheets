@@ -6,7 +6,7 @@
 
 instrument = "June Christy, Peggy Lee, Patti Page Key"
 whatKey = c
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Lullaby in Rhythm - Ly Core - Eb.ly"
 

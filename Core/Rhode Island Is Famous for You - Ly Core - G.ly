@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Howard Dietz"
   composer = "Arthur Schwartz"
-  copyright = "© 1948 Chappell & Co., Inc."
+  copyright = \markup \small "© 1948 Chappell & Co., Inc."
 }
 
 verseLyrics = \lyricmode {

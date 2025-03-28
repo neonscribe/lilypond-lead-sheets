@@ -6,7 +6,7 @@
   title = "Starting A Rumor"
   subtitle = "Steve Mackey's bass line from Delbert McClinton's 2009 album Acquired Taste"
   composer = "Delbert McClinton / Gary Nicholson / Guy Clark"
-  copyright = "© 2009 EMI April Music Inc., Sony/ATV Cross Keys Publishing, Gary Nicholson Music"
+  copyright = \markup \small "© 2009 EMI April Music Inc., Sony/ATV Cross Keys Publishing, Gary Nicholson Music"
 }
 
 refrainLyrics = \lyricmode {

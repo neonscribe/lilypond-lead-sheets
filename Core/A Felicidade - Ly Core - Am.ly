@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Vinicius de Moraes"
   composer = "Antônio Carlos Jobim"
-  copyright = "© 1960 Editora Musical Arapuã Ltda"
+  copyright = \markup \small "© 1960 Editora Musical Arapuã Ltda"
 }
 
 bossaRhythm = ##t
@@ -51,7 +51,7 @@ Pra tu -- do se~_a -- ca -- bar na quar -- ta fei -- ra. __
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
   
   a1:m7 a1:m7 a1:m7 a1:m7
   e1:m7 b1:7.9- e2:m7 a2:7 d2:m7 g2:7
@@ -80,7 +80,7 @@ refrainMelody = \relative c' {
   \clef \whatClef
   \tempo "Medium Samba" 4 = 107
 
-  \partial 4.
+  \partial 2 \invisEighth
   
   e4 a8~ |
 

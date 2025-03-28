@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Miles Davis"
-  copyright = "© 1958 Jazz Horn Inc."
+  copyright = \markup \small "© 1958 Jazz Horn Inc."
 }
 
 refrainLyrics = \lyricmode {

@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Henry Nemo"
   composer = "Duke Ellington"
-  copyright = "© 1938 Famous Music Corporation"
+  copyright = \markup \small "© 1938 Famous Music Corporation"
 }
 
 verseLyrics = \lyricmode {

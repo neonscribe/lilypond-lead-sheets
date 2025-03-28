@@ -4,11 +4,10 @@
 
 \header {
   title = "Old Devil Moon"
-  subtitle = "from Finian's Rainbow"
-  subsubtitle = \instrument
+  subtitle = \instrument
   poet = "E. Y. Harburg"
   composer = "Burton Lane"
-  copyright = "© 1946 Chappell & Co."
+  copyright = \markup \small "© 1946 Chappell & Co."
 }
 
 refrainLyrics = \lyricmode {

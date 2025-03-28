@@ -1,3 +1,4 @@
+% \version "2.25.24"
 %
 % JAZZ CHORDS
 % (based upon pop-chords.ly by James L. Hammons)
@@ -134,80 +135,80 @@ jazzChordsMusic =
 
 	<c e gis bes dis'>-\markup{ 
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcSharp "5" }  % the upper tension in the bracket
 	      } }
-	     \larger\larger\medium ")" }
+	     \larger\larger\normal-weight ")" }
 	<c e ges bes dis'>-\markup{ 
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "5" }  % the upper tension in the bracket
 	      } }
-	     \larger\larger\medium ")" }
+	     \larger\larger\normal-weight ")" }
 	<c e gis bes des'>-\markup{ 
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcFlat "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcSharp "5" }  % the upper tension in the bracket
 	      } }
-	     \larger\larger\medium ")" }
+	     \larger\larger\normal-weight ")" }
 	<c e ges bes des'>-\markup{ 
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcFlat "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "5" }  % the upper tension in the bracket
 	      } }
-	     \larger\larger\medium ")" }
+	     \larger\larger\normal-weight ")" }
 	<c e g bes cis' dis'>-\markup {
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" }
+	     \larger\larger\normal-weight ")" }
 	
 	<c e gis bes cis' dis'>-\markup{ 
 	    \jcSeventh \jcAugmented
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" }
+	     \larger\larger\normal-weight ")" }
 	
 	<c e ges bes cis' dis'>-\markup{ 
 	    \jcSeventh \jcFlatFive
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" }
+	     \larger\larger\normal-weight ")" }
 	
 	<c e g bes dis' fis' >-\markup{ 
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "11" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcSharp "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" }
+	     \larger\larger\normal-weight ")" }
 	
 	<c e g bes des' fis' >-\markup{ 
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "11" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" }
+	     \larger\larger\normal-weight ")" }
 	
 	% 6/9
 	<c e g a d'>-\markup{ \jcSixth "/" \jcSmall{ "9" } }
@@ -231,12 +232,12 @@ jazzChordsMusic =
 	<c e g b d' fes'>-\markup{ \jcMajorSeventh \jcFlatEleventh }
 	<c e g bes des' fes'>-\markup{ 
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcFlat "9" }  % the upper tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "11" } % the lower tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" } 
+	     \larger\larger\normal-weight ")" } 
 	
 	<c e g f' >-\markup{ \jcRaise{ "(ADD 11)" } }
 	<c e g bes f' >-\markup{ \jcSeventh \jcRaise{ "(ADD 11)" } }
@@ -279,39 +280,39 @@ jazzChordsMusic =
 
 	<c e g bes des' aes'>-\markup{ 
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcFlat "13" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" } 
+	     \larger\larger\normal-weight ")" } 
 	
 	<c e g bes des' ais'>-\markup{ 
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "13" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" } 
+	     \larger\larger\normal-weight ")" } 
 	
 	<c e g bes dis' aes'>-\markup{ 
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcFlat "13" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcSharp "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" } 
+	     \larger\larger\normal-weight ")" } 
 	
 	<c e g bes dis' ais'>-\markup{ 
 	    \jcSeventh
-	    {\larger\larger\medium "(" } 
+	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "13" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcSharp "9" }  % the upper tension in the bracket
 	      } } 
-	     \larger\larger\medium ")" } 
+	     \larger\larger\normal-weight ")" } 
 	
 	<c e g bes ais'>-\markup{ \jcSeventh \jcSharpThirteenth }
 	<c e g bes aes'>-\markup{ \jcSeventh \jcFlatThirteenth }

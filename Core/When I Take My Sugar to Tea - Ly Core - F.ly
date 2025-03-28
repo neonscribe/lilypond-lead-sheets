@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Sammy Fain, Irving Kahal and Pierre Norman"
-  copyright = "© 1931 Famous Music Corp."
+  copyright = \markup \small "© 1931 Famous Music Corp."
 }
 
 refrainLyrics = \lyricmode {
@@ -34,7 +34,7 @@ When I take my su -- gar to tea.
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
 
   f2 fs2:dim7 c1:7 f2 fs2:dim7 c1:7 
   d1:7 g2:m7 bf2:m f2 c2:7 f2 c2:7
@@ -57,7 +57,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 145
 
-  \partial 4. c'4 a8 |
+  \partial 2 \invisEighth c'4 a8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

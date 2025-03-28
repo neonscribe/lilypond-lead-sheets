@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Night Life"
   subtitle = \instrument
   poet = ""
   composer = "Willie Nelson"
-  copyright = "© 1960"
+  copyright = \markup \small "© 1960"
 }
 
 refrainLyrics = \lyricmode {

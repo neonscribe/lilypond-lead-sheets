@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "All the Things You Are"
   subtitle = \instrument
   poet = "Oscar Hammerstein II"
   composer = "Jerome Kern"
-  copyright = "© 1939 T.B. Harms Co."
+  copyright = \markup \small "© 1939 T.B. Harms Co."
 }
 
 verseLyrics = \lyricmode {
@@ -215,7 +213,7 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\markup{ "Vocal performance is commonly verse, then refrain." }
+\markup{ "Vocal performance is commonly optional verse, then refrain." }
 \markup{ "Instrumental performance is commonly intro, refrain, solos, refrain, outro." }
 
 \markup {

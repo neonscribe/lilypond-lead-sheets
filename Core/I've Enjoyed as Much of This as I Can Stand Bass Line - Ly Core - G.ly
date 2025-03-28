@@ -6,7 +6,7 @@
   title = "I've Enjoyed as Much of This as I Can Stand"
   subtitle = "Bass transcription of Porter Wagoner's 1962 recording"
   composer = "Bill Anderson"
-  % copyright = "© 1962 Moss Rose Publications, Inc."
+  % copyright = \markup \small "© 1962 Moss Rose Publications, Inc."
 }
 
 whatKey = g

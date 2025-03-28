@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Take the “A” Train"
   subtitle = \instrument
   poet = ""
   composer = "Billy Strayhorn"
-  copyright = "© 1941 Billy Strayhorn Songs Inc."
+  copyright = \markup \small "© 1941 Billy Strayhorn Songs Inc."
 }
 
 refrainLyrics = \lyricmode {

@@ -1,6 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
 
@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Count Basie, Jerry Livingston, and Mack David"
-  copyright = "© 1938 Hallmark Music Publishing Company"
+  copyright = \markup \small "© 1938 Hallmark Music Publishing Company"
 }
 
 refrainLyrics = \lyricmode {
@@ -33,6 +33,8 @@ if you don't want me
 why do you haunt me
 And keep me feel -- ing
 blue __ and sen -- ti -- men -- tal?
+
+blue __ and sen -- ti -- men -- tal?
 }
 
 refrainChords = \chordmode {
@@ -51,6 +53,8 @@ refrainChords = \chordmode {
 
   \chordOpenParen{ f4:m7 }
   \chordCloseParen{ bf4:7.9- }
+  
+  f1:9 bf1:13 ef1:6 ef1:6
 }
 
 refrainKey = ef
@@ -64,29 +68,30 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
   
   g8 af8 a8 bf8 d8 c4. | r8 ef,8 ef8 c8 g'8 g4. |
-  \break
   r8 ef8 ef8 c8 g'8 g4 bf8 | g2. r4 |
   
   \sect "A2"
   
   g8 af8 a8 bf8 d8 c4. | r8 ef,8 ef8 c8 g'8 g4. |
-  \break
   r8 ef8 ef8 c8 g'8 g4. | g8 bf8 g8 f8~ f4. ef8 |
 
   \sect "B"
   
   ef4 f8 ef8 gf4 f8 ef8 | g8 bf4 bf8~ bf4. ef,8 |
-  \break
   ef4 f8 ef8 gf4 f8 ef8 | g8 bf4 bf8~ bf2 | 
   
   \sect "A3"
 
   g8 af8 a8 bf8 d8 c4. | r8 ef,8 ef8 c8 g'8 g4. |
-  \break
-  r8 ef8 ef8 c8 g'8 g4 f8 | bf4 a4 af4  g4 |
-  \break
+  r8 ef8 ef8 c8 g'8 g4 f8 | bf4 a4 af4  g4 \textToCodaLastTime |
   c2~ c8 bf8 bf8 g8 | f8 ef4. r2 |
   
+  \bar "||-|."
+  
+  \textCodaBreak
+  
+  c'1~ | c4 bf4 bf4 g4 | f4 ef4~ ef2~ | ef2 r2 |
+
   \bar "|."
 }
 

@@ -2,14 +2,13 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 16))
+#(set-global-staff-size 18)
 
 \header {
   title = "Yardbird Suite"
   subtitle = \instrument
   composer = "Charlie Parker"
-  copyright = "© 1946 Atlantic Music Corp."
+  copyright = \markup \small "© 1946 Atlantic Music Corp."
 }
 
 refrainLyricsOne = \lyricmode {

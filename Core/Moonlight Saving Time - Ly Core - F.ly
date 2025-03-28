@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Irving Kahal and Harry Richman"
-  copyright = "© 1931 Leo Feist, Inc."
+  copyright = \markup \small "© 1931 Leo Feist, Inc."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -44,7 +44,7 @@ You'd bet -- ter
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   f2:maj7 af2:dim7 g2:m7 c2:7.5+ f2:6 c2:7.5+ a2:m7 af2:dim7
   g2:m7 c2:7 g2:m7 c2:7
@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Swing" 4 = 180
 
-  \partial 8 gs8 |
+  \partial 4 \invisEighth gs8 |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

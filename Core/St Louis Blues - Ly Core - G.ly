@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "W.C. Handy"
-  copyright = "© 1914 Handy Bros. Music Co. Inc."
+  copyright = \markup \small "© 1914 Handy Bros. Music Co. Inc."
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
 
   g1:m g1:m d1:7 d1:7
   d1:7 d1:7
@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 130
 
-  \partial 4. d'8^\markup { Latin } d8 bf8 |
+  \partial 2 \invisEighth d'8^\markup { Latin } d8 bf8 |
 
   \xTextMark \markup{ \bold \box "A1, A2" }
 

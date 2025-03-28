@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bob Marley"
-  copyright = "© 1974 Cayman Music, Inc."
+  copyright = \markup \small "© 1974 Cayman Music, Inc."
 }
 
 refrainLyrics = \lyricmode {

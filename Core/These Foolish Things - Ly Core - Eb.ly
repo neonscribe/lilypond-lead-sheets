@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Holt Marvell"
   composer = "Jack Strachey & Harry Link"
-  copyright = "© 1935 Boosey & Co. Ltd., London, England"
+  copyright = \markup \small "© 1935 Boosey & Co. Ltd., London, England"
 }
 
 refrainLyrics = \lyricmode {

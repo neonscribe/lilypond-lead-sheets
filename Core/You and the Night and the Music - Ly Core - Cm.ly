@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Howard Dietz"
   composer = "Arthur Schwartz"
-  copyright = "© 1934 Warner Bros. Inc."
+  copyright = \markup \small "© 1934 Warner Bros. Inc."
 }
 
 refrainLyrics = \lyricmode {

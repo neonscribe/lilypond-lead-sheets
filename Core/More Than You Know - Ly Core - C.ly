@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-   (set-global-staff-size 18))
+#(set-global-staff-size 18)
 
 \header {
   title = "More Than You Know"
   subtitle = \instrument
   poet = "William Rose & Edward Eliscu"
   composer = "Vincent Youmans"
-  copyright = "© 1929 Chappell & Co."
+  copyright = \markup \small "© 1929 Chappell & Co."
 }
 
 refrainLyrics = \lyricmode {

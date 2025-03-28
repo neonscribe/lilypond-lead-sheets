@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "English lyrics by Gene Lees"
   composer = "Antônio Carlos Jobim"
-  %% copyright = "© 1963 Jobim Music Ltda."
+  %% copyright = \markup \small "© 1963 Jobim Music Ltda."
 }
 
 bossaRhythm = ##t
@@ -182,10 +182,7 @@ normal = {
       }
       }
     \new Staff {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
+      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose g \whatKey {
 	  \refrainMelody

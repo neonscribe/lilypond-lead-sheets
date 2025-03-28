@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Harold Arlen"
-  copyright = "© 1946 A-M Music Corporation"
+  copyright = \markup \small "© 1946 A-M Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

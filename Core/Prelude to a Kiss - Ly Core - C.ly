@@ -8,7 +8,7 @@
   title = "Prelude to a Kiss"
   subtitle = \instrument
   composer = "Duke Ellington, Irving Gordon & Irving Mills"
-  copyright = "© 1938 American Academy of Music, Inc."
+  copyright = \markup \small "© 1938 American Academy of Music, Inc."
 }
 
 refrainLyrics = \lyricmode {

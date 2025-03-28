@@ -2,12 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
+#(set-global-staff-size 18)
+
 \header {
   title = "Louisiana Fairytale"
   subtitle = \instrument
   poet = "Mitchell Parish and J. Fred Coots"
   composer = "Haven Gillespie"
-  copyright = "© 1935 Mills Music, Inc."
+  copyright = \markup \small "© 1935 Mills Music, Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -33,7 +35,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
   
   bf1 bf1:7 ef1 ef1:m
   bf2 d2:7 g2:m g:dim7 bf2 f2:7 bf1
@@ -56,7 +58,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Slow Swing" 4 = 115
   
-  \partial 8 f8 |
+  \partial 4 \invisEighth f8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

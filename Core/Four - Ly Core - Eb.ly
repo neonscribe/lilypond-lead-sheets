@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Miles Davis"
-  copyright = "© 1963 Prestige Music Inc."
+  copyright = \markup \small "© 1963 Prestige Music Inc."
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
   
   ef1:maj7 ef1:maj7 ef1:m7  af1:7
   f1:m7 f1:m7 af1:m7 df1:7
@@ -38,7 +38,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Swing" 4 = 178
 
-  \partial 4. bf,8 c8 d8 |
+  \partial 2 \invisEighth bf,8 c8 d8 |
   
   \bar ".|:"
   \repeat volta 2 {

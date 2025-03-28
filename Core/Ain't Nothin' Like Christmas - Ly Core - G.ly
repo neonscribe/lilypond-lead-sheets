@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Shelby Lynne"
-  copyright = "© 2010 Swampy Blue"
+  copyright = \markup \small "© 2010 Swampy Blue"
 }
 
 refrainLyrics = \lyricmode {

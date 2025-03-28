@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "When You Wish Upon a Star"
   subtitle = \instrument
   poet = "Ned Washington"
   composer = "Leigh Harline"
-  copyright = "© 1940 Bourne Co."
+  copyright = \markup \small "© 1940 Bourne Co."
 }
 
 refrainLyrics = \lyricmode {

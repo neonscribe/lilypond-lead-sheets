@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Eddie Harris"
-  copyright = "© 1969 Seventh House Ltd."
+  copyright = \markup \small "© 1969 Seventh House Ltd."
 }
 
 refrainLyrics = \lyricmode {

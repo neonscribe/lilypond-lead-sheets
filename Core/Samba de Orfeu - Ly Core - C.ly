@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Antônio Maria"
   composer = "Luiz Bonfá"
-  copyright = "© 1959 Nouvelles Editions Meridian"
+  copyright = \markup \small "© 1959 Nouvelles Editions Meridian"
 }
 
 bossaRhythm = ##t

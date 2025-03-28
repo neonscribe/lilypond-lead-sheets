@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "I've Got the World on a String"
   subtitle = \instrument
   poet = "Ted Koehler"
   composer = "Harold Arlen"
-  copyright = "© 1932 Ted Koehler Music and S.A. Music Co"
+  copyright = \markup \small "© 1932 Ted Koehler Music and S.A. Music Co"
 }
 
 refrainLyrics = \lyricmode {
@@ -39,7 +37,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
   
   f4:6 ef4:7 d2:7 g2:m7 c2:7 f2:maj7 bf2:7 a2:m7 af2:m7
   g2:m7 c2:7 g2:m7 c2:7
@@ -66,7 +64,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Med.-Slow Swing" 4 = 124
   
-  \partial 4. c8 f8 a8 |
+  \partial 2 \invisEighth c8 f8 a8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Mitchell Parish"
   composer = "Hoagy Carmichael"
-  copyright = "© 1929 Mills Music Inc."
+  copyright = \markup \small "© 1929 Mills Music Inc."
 }
 
 verseLyrics = \lyricmode {
@@ -95,7 +95,7 @@ refrainMelody = \relative f' {
   \tempo "Medium Ballad" 4 = 124
 
   \xTextMark \markup{ "Refrain" }
-  \partial 2 r8 b8 c8 cs8 |
+  \partial 2 \invisEighth b8 c8 cs8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

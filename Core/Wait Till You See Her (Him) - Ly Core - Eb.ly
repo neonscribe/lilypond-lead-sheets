@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 16))
+#(set-global-staff-size 18)
 
 \header {
   title = "Wait Till You See Her (Him)"
   subtitle = \instrument
   poet = "Lorenz Hart"
   composer = "Richard Rodgers"
-  copyright = "© 1942 Chappell & Co."
+  copyright = \markup \small "© 1942 Chappell & Co."
 }
 
 refrainLyrics =

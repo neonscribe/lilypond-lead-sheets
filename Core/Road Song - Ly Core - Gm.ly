@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Wes Montgomery"
-  copyright = "© 1968 Taggie Music Co."
+  copyright = \markup \small "© 1968 Taggie Music Co."
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
   
   g1:m7 g1:m7 d1:7.9+ a2:m7 d2:7
   g2:m7 f2:m7 ef2:maj7 c2:m7 e2:m7.5- c2:m7
@@ -35,7 +35,7 @@ refrainChords = \chordmode {
 }
 
 refrainAltChords = \chordmode {
-  s8
+  s4
   
   s1 s1 \chordInsideParens{ a1:m7 } \chordInsideParens{ d1:7 } s1 s1 s1
   
@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 140
 
-  \partial 8 d8 |
+  \partial 4 \invisEighth d8 |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

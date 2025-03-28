@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Oscar Hammerstein II"
   composer = "Sigmund Romberg"
-  copyright = "© 1928 Bambalina Music Publishing Co."
+  copyright = \markup \small "© 1928 Bambalina Music Publishing Co."
 }
 
 refrainLyrics = \lyricmode {

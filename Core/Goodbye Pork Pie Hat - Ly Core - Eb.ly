@@ -10,14 +10,14 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Charles Mingus"
-  copyright = "© 1959 Jazz Workshop, Inc."
+  copyright = \markup \small "© 1959 Jazz Workshop, Inc."
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
   
   ef2:7.9+ b2:9.13 e2:maj9 a2:7.11+ df2:sus9 b2:9.13
   df2:sus7 ef2:7 af2:m11 b2:7.13 f2:m7.5- bf2:7.5+.9+
@@ -39,7 +39,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 56
 
-  \partial 8 bf,8 |
+  \partial 4 \invisEighth bf,8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "Head" \musicglyph #"scripts.segno" }

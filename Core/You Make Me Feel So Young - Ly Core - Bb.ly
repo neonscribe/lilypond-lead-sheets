@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "You Make Me Feel So Young"
   subtitle = \instrument
   poet = "Mack Gordon"
   composer = "Josef Myrow"
-  copyright = "© 1946 Triangle Music Corporation"
+  copyright = \markup \small "© 1946 Triangle Music Corporation"
 }
 
 refrainLyricsOne = \lyricmode {

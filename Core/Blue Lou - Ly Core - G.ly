@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Irving Mills"
   composer = "Edgar Sampson"
-  copyright = "© 1935 Mills Music"
+  copyright = \markup \small "© 1935 Mills Music"
 }
 
 refrainLyrics = \lyricmode {

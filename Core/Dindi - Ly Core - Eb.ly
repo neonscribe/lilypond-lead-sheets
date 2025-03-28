@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Aloysio de Oliveira/Ray Gilbert"
   composer = "Antônio Carlos Jobim"
-  copyright = "© 1965 Ipanema Music Inc."
+  copyright = \markup \small "© 1965 Ipanema Music Inc."
 }
 
 bossaRhythm = ##t

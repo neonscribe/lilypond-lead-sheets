@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-   (set-global-staff-size 18))
+#(set-global-staff-size 18)
 
 \header {
   title = "Mean to Me"
   subtitle = \instrument
   poet = ""
   composer = "Fred E. Ahlert and Roy Turk"
-  copyright = "© 1929 Chappell & Co."
+  copyright = \markup \small "© 1929 Chappell & Co."
 }
 
 refrainLyrics = \lyricmode {

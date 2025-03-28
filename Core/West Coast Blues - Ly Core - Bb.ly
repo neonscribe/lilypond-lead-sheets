@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Wes Montgomery"
-  copyright = "© 1960 Taggie Music Co."
+  copyright = \markup \small "© 1960 Taggie Music Co."
 }
 
 refrainLyrics = \lyricmode {
@@ -37,7 +37,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Jazz Waltz" 4 = 152
+  \tempo "Medium Jazz Waltz [Wes Montgomery 1960]" 4 = 152
 
   \xTextMark \markup{ \bold \box "Head" }
   

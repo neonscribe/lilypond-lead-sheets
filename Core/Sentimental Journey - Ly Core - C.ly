@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bud Green, Les Brown, Ben Homer"
-  copyright = "© 1944 Edwin H. Morris & Company, Inc."
+  copyright = \markup \small "© 1944 Edwin H. Morris & Company, Inc."
 }
 
 refrainLyricsOne = \lyricmode {

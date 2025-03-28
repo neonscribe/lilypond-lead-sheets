@@ -6,7 +6,7 @@
   title = "How Deep Is the Ocean"
   subtitle = \instrument
   composer = "Irving Berlin"
-  copyright = "© 1932 Irving Berlin"
+  copyright = \markup \small "© 1932 Irving Berlin"
 }
 
 refrainLyrics = \lyricmode {

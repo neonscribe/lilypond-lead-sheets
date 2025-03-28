@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "The Girl From Ipanema"
   subtitle = \instrument
   poet = "Norman Gimbel"
   composer = "Antônio Carlos Jobim"
-  copyright = "© 1963 Jobim Music"
+  copyright = \markup \small "© 1963 Jobim Music"
 }
 
 bossaRhythm = ##t

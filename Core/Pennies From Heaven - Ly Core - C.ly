@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "John Burke"
   composer = "Arthur Johnston"
-  copyright = "© 1936 Select Music Publications, Inc."
+  copyright = \markup \small "© 1936 Select Music Publications, Inc."
 }
 
 refrainLyrics = \lyricmode {

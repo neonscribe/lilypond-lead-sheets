@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Al Dubin"
   composer = "Harry Warren"
-  copyright = "© 1934 Remick Music Corp."
+  copyright = \markup \small "© 1934 Remick Music Corp."
 }
 
 refrainLyricsOne = \lyricmode {

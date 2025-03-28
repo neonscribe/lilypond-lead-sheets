@@ -2,15 +2,13 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "No Moon at All"
   subtitle = \instrument
   composer = "Redd Evans & Dave Mann"
-  copyright = "© 1947 Jefferson Music Co., Inc."
+  copyright = \markup \small "© 1947 Jefferson Music Co., Inc."
 }
 
 refrainLyrics = \lyricmode {

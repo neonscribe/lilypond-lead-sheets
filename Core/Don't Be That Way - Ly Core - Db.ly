@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Mitchell Parish"
   composer = "Benny Goodman & Edgar Sampson"
-  copyright = "© 1935 Robbins Music Corporation"
+  copyright = \markup \small "© 1935 Robbins Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "H.J Lengsfelder and Ervin Drake"
   composer = "Juan Tizol"
-  copyright = "© 1942 Tempo Music, Inc."
+  copyright = \markup \small "© 1942 Tempo Music, Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -32,7 +32,7 @@ That yearn -- ing to lose __ per -- di -- do. __
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
   
   c1:m7 f1:7 bf1:6 d2:m7 df2:7
   c1:m7 f1:7 bf1:6 d2:m7 df2:7
@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium" 4 = 138
 
-  \partial 8 c8 |
+  \partial 4 \invisEighth c8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Flat Foot Floogie (with a Floy Floy)"
   subtitle = \instrument
   poet = ""
   composer = "Slim Gaillard, Slam Stewart and Bud Green"
-  copyright = "© 1938 Jewel Music Publishing Co., Inc."
+  copyright = \markup \small "© 1938 Jewel Music Publishing Co., Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -34,7 +32,7 @@ floy doy, floy doy, floy doy, floy doy.
 }
 
 refrainFirehouseChords = \chordmode {
-  s8
+  s4
   af2 af2/c df2 ef2:7 af1 e2:7 ef2:7
   af2 af2/c df2 ef2:7 af2 df2:7 af2 ef2:7
   af2 af2/c df2 ef2:7 af1 e2:7 ef2:7
@@ -46,7 +44,7 @@ refrainFirehouseChords = \chordmode {
 }
 
 refrainDecadeSeriesChords = \chordmode {
-  s8
+  s4
   af2 f2:m7.5- bf4.:m7 ef8:9 ef2:9
   af2 f2:m7.5- e4.:9 ef8:9 ef2:9
   af2 f2:m7.5- bf4.:m7 b2:dim7 af8:6
@@ -77,7 +75,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Up Swing" 4 = 175
   
-  \partial 8 ef8 |
+  \partial 4 \invisEighth ef8 |
   \bar "||"
   \noBreak
 

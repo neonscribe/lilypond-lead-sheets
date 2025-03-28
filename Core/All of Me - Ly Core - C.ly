@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Gerald Marks and Seymour Simons"
-  copyright = "© 1931 Bourne Co."
+  copyright = \markup \small "© 1931 Bourne Co."
 }
 
 refrainLyrics = \lyricmode {

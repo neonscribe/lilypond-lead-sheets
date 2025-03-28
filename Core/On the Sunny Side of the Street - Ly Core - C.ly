@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Dorothy Fields"
   composer = "Jimmy McHugh"
-  copyright = "© 1930 Shapiro, Bernstein, & Co. Inc."
+  copyright = \markup \small "© 1930 Shapiro, Bernstein, & Co. Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -29,7 +29,7 @@ sun -- ny side on the sun -- ny side on the sun -- ny side of the street.
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
 
   c1:6 e1:7 f1:maj7 c2:6/g e2:7.9-/gs
   a1:m7 d1:7 d2:m7 g2:7 e4:m7 a4:7 d4:m7 g4:7
@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Easy Swing" 4 = 128
   
-  \partial 4. e4 d8 |
+  \partial 2 \invisEighth e4 d8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

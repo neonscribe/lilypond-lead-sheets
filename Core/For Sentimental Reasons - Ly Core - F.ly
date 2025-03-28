@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Derek Watson"
   composer = "William Best"
-  copyright = "© 1945 Duchess Music Corporation"
+  copyright = \markup \small "© 1945 Duchess Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

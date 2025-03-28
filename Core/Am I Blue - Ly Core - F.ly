@@ -9,22 +9,20 @@
   subtitle = \instrument
   poet = "Grant Clarke"
   composer = "Harry Akst"
-  copyright = "© 1929 M. Witmark & Sons"
+  copyright = \markup \small "© 1929 M. Witmark & Sons"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Am I blue? __ Am I blue? __ Ain't these tears __ in these eyes __ tell -- in you? __
 Am I blue? __
 
-_ Was a time __ I was his on -- ly one, __
+You'd be too __ if each plan __ with your man __ done fell through. __
+
+Was a time __ I was his on -- ly one, __
 but now I'm __ the sad and lone -- ly one. __
 
 “Law -- dy,” was I gay, __ 'til to -- day, __
 now he's gone __ and we're through. __ Am I blue? __
-}
-
-refrainLyricsTwo = \lyricmode {
-_ _ _ You'd be too __ if each plan __ with your man __ done fell through. __
 }
 
 refrainChords = \chordmode {
@@ -33,6 +31,8 @@ refrainChords = \chordmode {
   f1:maj7 f1:6 g1:m7 c1:7 f2:6 d2:7 g2:7 c2:7
   
   f1:6 c1:7
+  
+  f1:maj7 f1:6 g1:m7 c1:7 f2:6 d2:7 g2:7 c2:7
   
   f2 bf2/f f1
 
@@ -53,18 +53,22 @@ refrainMelody = \relative f' {
 
   \partial 2 c8 d4 a'8~ |
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectNoBreak "A1"
   
-  \bar ".|:"
-  \repeat volta 2 {
   a1~ | a2 c,8 d4 bf'8~ | bf1~ | bf4 r4  c,8 d4 c'8~ |
   \break
   c2 cs8 d4 f,8~ | f2 af8 g4 f8~ |
-  \alternative { \volta 1 {
-  f2. r4 | r2 c8 d4 a'8\laissezVibrer |
-  } \volta 2 {
-  f1~\repeatTie | f2 ds8 e4 c'8~ |
-  } } }
+
+  f2. r4 | r2 c8 d4 a'8~ |
+
+  \sect "A2"
+  
+  a1~ | a2 c,8 d4 bf'8~ | bf1~ | bf4 r4  c,8 d4 c'8~ |
+  \break
+  c2 cs8 d4 f,8~ | f2 af8 g4 f8~ |
+
+  f1~ | f2 ds8 e4 c'8~ |
+
   \sect "B"
   
   c1~ | c4 e4 d4 c4 | b8 d4 b8~ b2~ | b2 ds,8 e4 b'8~ | 
@@ -87,4 +91,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

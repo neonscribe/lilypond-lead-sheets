@@ -8,7 +8,7 @@
   subsubtitle = \instrument
   poet = "Sammy Cahn"
   composer = "Jule Styne"
-  copyright = "© 1947 Barton Music Corp."
+  copyright = \markup \small "© 1947 Barton Music Corp."
 }
 
 refrainLyrics = \lyricmode {
@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium"
+  \tempo "Medium [Chet Baker 1954]" 4 = 100
 
   \xTextMark \markup{ \bold \box "A1" }
   

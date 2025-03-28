@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "If I Were a Bell"
   subtitle = \instrument
   poet = ""
   composer = "Frank Loesser"
-  copyright = "© 1950 Frank Music Corp."
+  copyright = \markup \small "© 1950 Frank Music Corp."
 }
 
 refrainLyrics = \lyricmode {

@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Marty Symes"
   composer = "Isham Jones"
-  copyright = "© 1936 Music Sales Corporation"
+  copyright = \markup \small "© 1936 Music Sales Corporation"
 }
 
 refrainLyrics = \lyricmode {

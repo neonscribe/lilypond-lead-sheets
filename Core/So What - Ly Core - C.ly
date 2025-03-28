@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Miles Davis"
-  copyright = "© 1959 Jazz Horn Music"
+  copyright = \markup \small "© 1959 Jazz Horn Music"
 }
 
 refrainLyrics = \lyricmode {

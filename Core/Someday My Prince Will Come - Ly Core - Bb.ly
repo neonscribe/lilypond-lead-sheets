@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Someday My Prince Will Come"
   subtitle = \instrument
   poet = "Larry Morey"
   composer = "Frank Churchill"
-  copyright = "© 1937 Bourne Co."
+  copyright = \markup \small "© 1937 Bourne Co."
 }
 
 refrainLyricsOne = \lyricmode {

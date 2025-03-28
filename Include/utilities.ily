@@ -71,6 +71,12 @@ xPageBreak = {
   \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
 }
 
+invisEighth = {
+  \once \omit Voice.Rest
+  \tweak X-extent #'(+inf.0 . -inf.0)
+  r8
+}
+
 sect =
 #(define-music-function (s)
    (string?)
@@ -205,6 +211,16 @@ endParenthesis = {
 
 %%% \startParenthesis \parenthesize $note --- and --- \endParenthesis \parenthesize $note
 
+
+#(define (scoop-stencil grob)
+  (ly:stencil-combine-at-edge
+   (ly:note-head::print grob) 0 -1
+   (grob-interpret-markup grob
+    (markup #:with-dimensions '(0 . 0) '(0 . 0)
+     #:translate '( -2 . -2) #:musicglyph "brackettips.up" )) 0 )
+)
+
+scoop = \once \override NoteHead.stencil = #scoop-stencil
 
 #(define (name-of music) (ly:music-property music 'name))
 

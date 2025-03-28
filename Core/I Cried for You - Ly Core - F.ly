@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "I Cried for You"
   subtitle = \instrument
   poet = "Arthur Freed"
   composer = "Gus Arnheim & Abe Lyman"
-  copyright = "© 1923 Miller Music Inc"
+  copyright = \markup \small "© 1923 Miller Music Inc"
 }
 
 refrainLyrics = \lyricmode {

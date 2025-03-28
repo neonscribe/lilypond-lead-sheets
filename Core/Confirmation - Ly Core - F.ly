@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Charlie Parker"
-  copyright = "© 1946 Atlantic Music Corp."
+  copyright = \markup \small "© 1946 Atlantic Music Corp."
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
 
   f1:6 e2:m7.5- a2:7 d1:m c2:m7 f2:7
   bf1:7 a2:m7 d2:7 g1:7 c1:7
@@ -39,7 +39,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium-Fast Bop [Charlie Parker 1953]" 4 = 200
 
-  \partial 8 c8 |
+  \partial 4 \invisEighth c8 |
   \bar "||"
 
   \sectStart "A1"

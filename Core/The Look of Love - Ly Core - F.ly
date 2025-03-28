@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "The Look of Love"
   subtitle = \instrument
   poet = "Hal David"
   composer = "Burt Bacharach"
-  copyright = "© 1967 Colgems Music Corp."
+  copyright = \markup \small "© 1967 Colgems Music Corp."
 }
 
 refrainLyricsOne = \lyricmode {

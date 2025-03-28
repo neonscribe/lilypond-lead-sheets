@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Gus Kahn"
   composer = "Walter Donaldson"
-  copyright = "© 1925 Irving Berlin, Inc."
+  copyright = \markup \small "© 1925 Irving Berlin, Inc."
 }
 
 refrainLyrics = \lyricmode {

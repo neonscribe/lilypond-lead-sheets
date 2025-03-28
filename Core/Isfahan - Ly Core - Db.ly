@@ -9,14 +9,14 @@
   subtitle = \instrument
   poet = ""
   composer = "Duke Ellington/Billy Strayhorn"
-  copyright = "© 1964 Famous Music LLC"
+  copyright = \markup \small "© 1964 Famous Music LLC"
 }
 
 refrainLyrics = \lyricmode {
 }
 
 refrainHLChords = \chordmode {
-  s8*3
+  s2
   
   df1:maj7 bf2:maj7 bf2:7.5+ ef1:7 ef1:7
   a1:maj7 af2:sus7 af2:7.9- df1:maj7 df1:maj7
@@ -31,7 +31,7 @@ refrainHLChords = \chordmode {
 }
 
 refrainNRTwoChords = \chordmode {
-  s8*3
+  s2
   
   df1:maj7 bf2:maj7 bf2:7.5+ ef1:9 ef1:9
   a1:maj7 df2:m6/af af2:13.9- df1:maj9 df1:maj9
@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 60
   
-  \partial 8*3 c'8 \tuplet 3/2 { af8 f8 df8 } |
+  \partial 2 \invisEighth c'8 \tuplet 3/2 { af8 f8 df8 } |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

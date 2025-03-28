@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Songe d'Automne (1947 Hubert Rostaing Clarinet Melody)"
   subtitle = \instrument
   poet = ""
   composer = "Archibald Joyce"
-  copyright = "© 1908 Francis, Day & Hunter"
+  copyright = \markup \small "© 1908 Francis, Day & Hunter"
 }
 
 refrainLyrics = \lyricmode {

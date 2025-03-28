@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Jerry Bock, Larry Holofcener and George Weiss"
-  copyright = "© 1956 The Herald Square Music Co."
+  copyright = \markup \small "© 1956 The Herald Square Music Co."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up Swing" 4 = 150
+  \tempo "Medium-Up Swing [Eydie Gormé 1959]" 4 = 136
 
   \partial 4 e4 |
 

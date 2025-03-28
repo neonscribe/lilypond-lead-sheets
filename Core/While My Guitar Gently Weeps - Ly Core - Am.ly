@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "While My Guitar Gently Weeps"
   subtitle = \instrument
   poet = ""
   composer = "George Harrison"
-  copyright = "© 1968 Harrisongs Limited"
+  copyright = \markup \small "© 1968 Harrisongs Limited"
 }
 
 refrainLyricsOne = \lyricmode {

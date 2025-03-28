@@ -13,7 +13,7 @@
   subtitle = \instrument
   poet = "Mitchell Parish"
   composer = "Cliff Burwell"
-  copyright = "© 1928 Mills Music Inc."
+  copyright = \markup \small "© 1928 Mills Music Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -36,7 +36,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
   
   g2:6 b4:m7 e4:7.9- a2:m7 d4:9 ef4:dim7 e2:m7 g2:7.5+ c2:9 b2:9
   e2:9 a4:13 a4:7.5+ d2:sus9 d2:9 b2:m7 e2:9 a2:m7 d2:7.9-
@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Moderately Slow Swing" 4 = 82
 
-  \partial 8 d8 |
+  \partial 4 \invisEighth d8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

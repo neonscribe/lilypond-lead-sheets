@@ -5,7 +5,7 @@
 \include "english.ly"
 
 instrument = "Eb for Standard Key"
-whatKey = c'
+whatKey = c
 whatClef = "treble"
 
 \include "../Core/Fascinating Rhythm - Ly Core - Eb.ly"

@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+% #(set-global-staff-size 18)
 
 \header {
   title = "Just One of Those Things"
   subtitle = \instrument
   poet = ""
   composer = "Cole Porter"
-  copyright = "© 1935 HARMS Inc."
+  copyright = \markup \small "© 1935 HARMS Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -32,6 +30,7 @@ So good -- bye, dear, __ and A -- men. __
 Here's hop -- ing we meet now and then. __
 It was great fun __ but it was
 just one __ of those things. __
+(It was)
 }
 
 refrainChords = \chordmode {
@@ -81,8 +80,10 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { g2 e2 f2 } | d'2. c4 |
   \tuplet 3/2 { f,2 d2 f2 } | e1 |
   d2 r4 d4~ | d4 cs4 d2 | c1 | r4 c2 bf4 |
+  \bar "||"
   
-  \sect "B"
+  \xPageBreak
+  \sectNoBarNoBreak "B"
   
   g'2 g4 g4~ | g4 fs2 g4 | c2 c4 c4~ | c4 cf2 bf4 |
   c,2 d4 ef4~ | ef4 f2 fs4 | g1~ | g2 g4 gs4 |

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Consuelo Velázquez/Sunny Skylar"
   composer = "Consuelo Velázquez"
-  copyright = "© 1941 Promotora Hispano Americana de Musica, S.A."
+  copyright = \markup \small "© 1941 Promotora Hispano Americana de Musica, S.A."
 }
 
 refrainSpanishLyrics = \lyricmode {

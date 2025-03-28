@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Spencer Williams"
   composer = "Benny Carter"
-  copyright = "© 1936 Bee Cee Music Company"
+  copyright = \markup \small "© 1936 Bee Cee Music Company"
 }
 
 refrainLyricsOne = \lyricmode {

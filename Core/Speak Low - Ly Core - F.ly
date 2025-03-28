@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Ogden Nash"
   composer = "Kurt Weill"
-  copyright = "© 1948 Chappell & Co."
+  copyright = \markup \small "© 1948 Chappell & Co."
 }
 
 refrainLyrics = \lyricmode {

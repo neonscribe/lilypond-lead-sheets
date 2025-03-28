@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 18))
+#(set-global-staff-size 18)
 
 \header {
   title = "The Very Thought of You"
   subtitle = \instrument
   poet = ""
   composer = "Ray Noble"
-  copyright = "© 1934 Campbell Connelly & Co. Ltd."
+  copyright = \markup \small "© 1934 Campbell Connelly & Co. Ltd."
 }
 
 refrainLyrics = \lyricmode {
@@ -25,7 +24,7 @@ It's just the thought of you, __ the ver -- y thought of you, my love. __
 }
 
 refrainChords = \chordmode {
-  s4.
+  s2
   
   af2:maj7 bf2:m7 c2:m7 bf2:m7 af2:6 bf2:m7 c2:m7 bf2:m7
   af2:6 bf2:m7 b2:dim7 af2:6/c bf1:7 bf1:7
@@ -50,7 +49,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 100
 
-  \partial 4. c8 ef8 c8 |
+  \partial 2 \invisEighth c8 ef8 c8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }

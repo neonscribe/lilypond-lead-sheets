@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Too Darn Hot"
   subtitle = \instrument
   poet = ""
   composer = "Cole Porter"
-  copyright = "© 1949 Cole Porter"
+  copyright = \markup \small "© 1949 Cole Porter"
 }
 
 refrainLyricsOne = \lyricmode {
@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium-Up Swing " 4 = 162
+  \tempo "Medium-Up Swing [Ella Fitzgerald 1956]" 4 = 162
 
   \partial 4 g4 |
 

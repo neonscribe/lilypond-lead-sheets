@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Patricia Johnston and Don Raye"
   composer = "Gene de Paul"
-  copyright = "© 1942 Leeds Music Corporation"
+  copyright = \markup \small "© 1942 Leeds Music Corporation"
 }
 
 refrainLyrics = \lyricmode {
@@ -82,9 +82,10 @@ refrainMelody = \relative f' {
   d2. d4 | e4 c4 d4. b8 | a4 b2.~ | b4 b4 d4 c4 |
   \break
   b4 b2.~ | b2 \tuplet 3/2 { b4 a4 gs4 } | b1~ | b1 |
+  \bar "||"
 
   \xPageBreak
-  \sect "A2"
+  \sectNoBarNoBreak "A2"
 
   \tempo "Latin"
 

@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "B. Y. Forster"
   composer = "George Shearing"
-  copyright = "© 1952 Patricia Music Publishing Corp."
+  copyright = \markup \small "© 1952 Patricia Music Publishing Corp."
 }
 
 %%% Sarah Vaughan intro

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Mack Gotdon"
   composer = "Harry Warren"
-  copyright = "© 1942 Twentieth Century Music Corporation"
+  copyright = \markup \small "© 1942 Twentieth Century Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

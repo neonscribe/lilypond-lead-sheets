@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Jack Segal"
   composer = "Marvin Fisher"
-  copyright = "© 1956 Marvin Music Company"
+  copyright = \markup \small "© 1956 Marvin Music Company"
 }
 
 refrainLyricsOne = \lyricmode {
@@ -49,7 +49,7 @@ weird and haunt -- ing mel -- o -- dies.
 }
 
 refrainChords = \chordmode {
-  s8
+  s4
   
   g2:m7 c2:7 bf2:m7 ef2:7 f2:maj7 g2:m7 a2:m7 d2:7 
   b2:m7.5- bf4:m7 ef4:7 f2:maj7 af4:m7 df4:7
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad" 4 = 60
 
-  \partial 8 c8 |
+  \partial 4 \invisEighth c8 |
 
   \xTextMark \markup{ \bold \box "A1, A2" }
   

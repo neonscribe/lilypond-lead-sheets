@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Route 66"
   subtitle = \instrument
   poet = ""
   composer = "Bobby Troup"
-  copyright = "© 1946 Burke & Van Heusen, Inc."
+  copyright = \markup \small "© 1946 Burke & Van Heusen, Inc."
 }
 
 refrainLyricsOne = \lyricmode {

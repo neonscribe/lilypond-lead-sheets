@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Zez Confrey"
-  copyright = "© 1922 Leo Feist, Inc."
+  copyright = \markup \small "© 1922 Leo Feist, Inc."
 }
 
 refrainLyrics = \lyricmode {

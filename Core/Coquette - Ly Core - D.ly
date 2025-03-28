@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Gus Kahn"
   composer = "Carmen Lombardo and John Green"
-  copyright = "© 1928 Leo Feist Inc."
+  copyright = \markup \small "© 1928 Leo Feist Inc."
 }
 
 refrainFHLyrics = \lyricmode {

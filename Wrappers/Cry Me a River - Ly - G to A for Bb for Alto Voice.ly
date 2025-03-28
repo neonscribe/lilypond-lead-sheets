@@ -4,7 +4,7 @@
 
 instrument = "Bb for Alto Voice Key"
 whatKey = a
-whatClef = "treble_8"
+whatClef = "treble"
 
 #(set-global-staff-size 18)
 

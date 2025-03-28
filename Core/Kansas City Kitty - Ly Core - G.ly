@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Kansas City Kitty"
   subtitle = \instrument
   poet = "Edgar Leslie"
   composer = "Walter Donaldson"
-  copyright = "© 1929 Donaldson, Douglas & Gumble, Inc."
+  copyright = \markup \small "© 1929 Donaldson, Douglas & Gumble, Inc."
 }
 
 refrainLyricsOne = \lyricmode {

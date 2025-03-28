@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bob Dylan"
-  copyright = "© 1997 Special Rider Music"
+  copyright = \markup \small "© 1997 Special Rider Music"
 }
 
 straightEighths = ##t
@@ -147,10 +147,7 @@ refrainMelody = \relative f' {
       }
       }
     \new Staff {
-      #(set-accidental-style 'modern)
-      \set Score.voltaSpannerDuration = #(ly:make-moment 1/2)
-      \override Score.Clef.break-visibility = #all-invisible
-      \override Score.KeySignature.break-visibility = #all-invisible
+      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
 	\noDoubleAccidentalMusic \transpose bf \whatKey {
 	  \refrainMelody

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Charles Newman"
   composer = "Allie Wrubel"
-  copyright = "© 1941 Bregman, Vocco and Conn, Inc."
+  copyright = \markup \small "© 1941 Bregman, Vocco and Conn, Inc."
 }
 
 refrainLyrics = \lyricmode {

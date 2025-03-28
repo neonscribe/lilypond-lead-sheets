@@ -2,15 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 18))
+#(set-global-staff-size 18)
 
 \header {
   title = "I'm an Old Cowhand (From the Rio Grande)"
   subtitle = \instrument
   poet = ""
   composer = "Johnny Mercer"
-  copyright = "© 1936 EMI Feist Catalog Inc."
+  copyright = \markup \small "© 1936 EMI Feist Catalog Inc."
 }
 
 refrainLyrics = \lyricmode {

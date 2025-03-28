@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Walter Hirsch and Fred Rose"
-  copyright = "© 1926 Ted Browne Music Co. Inc."
+  copyright = \markup \small "© 1926 Ted Browne Music Co. Inc."
 }
 
 refrainLyrics = \lyricmode {

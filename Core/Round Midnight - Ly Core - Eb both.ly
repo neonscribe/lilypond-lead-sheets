@@ -1,14 +1,13 @@
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 16))
+#(set-global-staff-size 18)
 
 \header {
   title = "'Round Midnight"
   subtitle = \instrument
   poet = "Bernie Hanighen"
   composer = "Cootie Williams and Thelonious Monk"
-  copyright = "© 1944 Advanced Music Corporation"
+  copyright = \markup \small "© 1944 Advanced Music Corporation"
 }
 
 refrainLyricsPre = \lyricmode {

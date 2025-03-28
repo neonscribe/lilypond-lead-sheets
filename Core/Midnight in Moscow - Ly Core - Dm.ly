@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Based on a song by Vassili Soloviev-Sedoy and M. Matusovsky, New Music by Kenny Ball"
-  copyright = "© 1961 Tyler Music, Ltd."
+  copyright = \markup \small "© 1961 Tyler Music, Ltd."
 }
 
 refrainLyrics = \lyricmode {

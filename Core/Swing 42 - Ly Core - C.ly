@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Django Reinhardt"
-  copyright = "© 1941 Publications Francis Day S.A."
+  copyright = \markup \small "© 1941 Publications Francis Day S.A."
 }
 
 refrainLyrics = \lyricmode {

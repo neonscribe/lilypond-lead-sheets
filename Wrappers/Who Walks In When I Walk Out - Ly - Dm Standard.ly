@@ -6,7 +6,7 @@
 
 instrument = "Louis Armstrong & Ella Fitzgerald Key"
 whatKey = d
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Who Walks In When I Walk Out - Ly Core - Gm.ly"
 

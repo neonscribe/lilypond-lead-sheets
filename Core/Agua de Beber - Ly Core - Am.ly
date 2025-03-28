@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Vinicius de Moraes"
   composer = "Antônio Carlos Jobim"
-  copyright = "© 1963 Jobim Music"
+  copyright = \markup \small "© 1963 Jobim Music"
 }
 
 bossaRhythm = ##t

@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Misty"
   subtitle = \instrument
   poet = "Johnny Burke"
   composer = "Erroll Garner"
-  copyright = "© 1954 Vernon Music Corporation"
+  copyright = \markup \small "© 1954 Vernon Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

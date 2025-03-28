@@ -6,7 +6,7 @@
   title = "That's All"
   subtitle = \instrument
   composer = "Alan Brandt and Bob Haynes"
-  copyright = "© 1952 Mixed Bag Music"
+  copyright = \markup \small "© 1952 Mixed Bag Music"
 }
 
 refrainLyrics = \lyricmode {

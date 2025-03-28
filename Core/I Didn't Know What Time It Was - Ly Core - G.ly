@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Lorenz Hart"
   composer = "Richard Rodgers"
-  copyright = "© 1939 Chappell & Co."
+  copyright = \markup \small "© 1939 Chappell & Co."
 }
 
 verseLyrics = \lyricmode {

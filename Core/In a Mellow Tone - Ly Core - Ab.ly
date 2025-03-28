@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Milt Gabler"
   composer = "Duke Ellington"
-  copyright = "© 1940 Famous Music Corporation"
+  copyright = \markup \small "© 1940 Famous Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

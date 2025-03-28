@@ -2,16 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = " Do Nothin' Till You Hear From Me"
   subtitle = \instrument
   poet = "Bob Russell"
   composer = "Duke Ellington"
-  copyright = "© 1943 Famous Music Corporation"
+  copyright = \markup \small "© 1943 Famous Music Corporation"
 }
 
 refrainLyrics = \lyricmode {

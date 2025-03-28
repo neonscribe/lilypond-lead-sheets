@@ -2,15 +2,13 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Triste"
   subtitle = \instrument
   composer = "Antônio Carlos Jobim"
-  copyright = "© 1967 Corcovado Music Corp."
+  copyright = \markup \small "© 1967 Corcovado Music Corp."
 }
 
 bossaRhythm = ##t

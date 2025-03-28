@@ -3,7 +3,7 @@
 \include "english.ly"
 
 instrument = "Eb for Standard Key"
-whatKey = d
+whatKey = d'
 whatClef = "treble"
 
 \include "../Core/Castaways - Ly Core - F.ly"

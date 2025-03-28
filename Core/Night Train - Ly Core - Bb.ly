@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Oscar Washington, Lewis C. Simpkins"
   composer = "Jimmy Forrest"
-  copyright = "© 1952 Pamlee Music Co."
+  copyright = \markup \small "© 1952 Pamlee Music Co."
 }
 
 refrainLyrics = \lyricmode {

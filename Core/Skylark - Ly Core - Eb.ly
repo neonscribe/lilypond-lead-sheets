@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Hoagy Carmichael"
-  copyright = "© 1942 Edwin H. Morris & Co."
+  copyright = \markup \small "© 1941 Edwin H. Morris & Co."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -83,7 +83,7 @@ refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 90
+  \tempo "Ballad [Gene Krupa 1941]" 4 = 82
 
   \xTextMark \markup{ \bold \box "A1, A2" }
   

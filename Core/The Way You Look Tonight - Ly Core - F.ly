@@ -2,12 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
+#(set-global-staff-size 18)
+
 \header {
   title = "The Way You Look Tonight"
   subtitle = \instrument
   poet = "Dorothy Fields"
   composer = "Jerome Kern"
-  copyright = "© 1936 T.B. Harms Co."
+  copyright = \markup \small "© 1936 T.B. Harms Co."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -153,8 +155,10 @@ refrainMelody = \relative g' {
      \oneVoice
      }
   }
-
-  \sect "B"
+  \bar "||"
+  
+  \xPageBreak
+  \sectNoBarNoBreak "B"
 
   c'2 c2 | c2 c2 | c4 ef4 df4 bf4~ | bf1 |
     \break

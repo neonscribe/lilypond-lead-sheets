@@ -4,7 +4,7 @@
 
 instrument = "Bb for Alto Voice Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "treble"
 
 femaleSinger = ##t
 

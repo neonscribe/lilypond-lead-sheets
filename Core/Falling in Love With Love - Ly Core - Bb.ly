@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \header {
   title = "Falling in Love With Love"
   subtitle = \instrument
   poet = "Lorenz Hart"
   composer = "Richard Rodgers"
-  copyright = "© 1938 Chappell & Co."
+  copyright = \markup \small "© 1938 Chappell & Co."
 }
 
 refrainLyricsOne = \lyricmode {
@@ -59,27 +59,21 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   c4 d4 d4 | d2 d4 | d2 d4 | d4 ef4 f4 |
-  \break
   f2 g4 | c,2.~ | c2.~ | c4 r4 r4 |
-  \break  
+  \break
   ef4 f4 f4 | f2 f4 | f2 f4 | f4 g4 a4 |
-  \break
   d2.~ | d2.~ | d2.~ | d4 r4 r4 |
-  \break  
-  c4 d4 d4 | d2 d4 | d2 d4 | d4 c4 bf4 |
   \break
+  c4 d4 d4 | d2 d4 | d2 d4 | d4 c4 bf4 |
   \alternative { \volta 1 {
   d,2. | d2.~ | d2.~ | d4 r4 r4 |
   \break
   bf'4 c4 c4 | c2 c4 | c2 c4 | c4 bf4 a4 |
-  \break  
   c,2.~ | c2.~ | c2.~ | c4 r4 r4 |
   \break
   } \volta 2 {
   d2. | d2.~ | d2. | d'2. |
-  \break 
   c2. | d2. | ef2. | f2. |
-  \break
   f2.~ | f2.~ | f2.~ | f4 r4 r4 |
   } } }
   \bar "|."
