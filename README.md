@@ -10,7 +10,7 @@ Python3.
 
 Bash shell. Shell scripts, with .sh extensions, all begin with `#!/bin/bash`
 
-LilyPond 2.24
+LilyPond 2.25.25
 
 LuaLaTeX
 
@@ -50,7 +50,9 @@ destination folder of each PDF is determined by the name of the file.
 
 I chose to use `english.ly` note naming in LilyPond. Chord names use
 the Brandt and Roemer standard, approximatey what is used in the Sher
-Music New Real Books.
+Music New Real Books. I turned all double accidentals, Cb, Fb, B# and E#
+into their enharmonic equivalents, but that decision could easily be
+reversed.
 
 The `TeX` folder has LaTeX files that assemble PDF files and create
 a table of contents. There's nothing specific to LilyPond or music
