@@ -103,16 +103,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \vspace #2
-  \column {
-    \line { \huge { Intro: bass four bars i-V7-i-V7, add vocal only for A1, band joins at A2, sing A2, B, A3 } }
-    \line { \huge { Guitar solo whole form, accordion solo whole form, sing whole form with band } }
-    \line { \huge { Ending: vamp on bars 30-31 “and there's no moon at all” } }
-    \line { \huge { band and vocal drops out, bass solo vamp i-VI7/V7 } }
-  }
-}
-
-%% \include "../Include/notes.ily"

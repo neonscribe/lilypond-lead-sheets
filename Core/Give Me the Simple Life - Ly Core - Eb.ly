@@ -249,18 +249,3 @@ refrainMelody = \relative f'' {
   >>
   \midi{} \layout { }
 }
-
-performanceNotes =
-\markup {
-  \column {
-    \vspace #2
-    \line { \huge { Verse: rubato vocal with guitar accompaniment } }
-    \line { \huge { Stop and count in refrain } }
-    \line { \huge { Vocal entire form } }
-    \line { \huge { guitar solo A1,A2 clarinet solo A1,A2 } }
-    \line { \huge { Vocal entire form, repeat bar 29 and 30 three times } }
-    \line { \huge { Stop at 31 on ''give'' a capella until ''life'' } }
-  }
-}
-
-\include "../Include/notes.ily"

@@ -190,16 +190,3 @@ codaMelody = \relative f {
 \include "../Include/solo.ily"
 
 \include "../Include/coda.ily"
-
-performanceNotes =
-\markup {
-  \vspace #1
-  \column {
-    \line { \huge { Cold open vocal entire form } }
-    \line { \huge { Clarinet solo A1 A2 } }
-    \line { \huge { Guitar solo B A3 } }
-    \line { \huge { Vocal entire form to coda, ritard last two bars } }
-  }
-}
-
-\include "../Include/notes.ily"

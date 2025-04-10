@@ -153,13 +153,3 @@ refrainMelody = \relative f' {
 \include "../Include/verse.ily"
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { Vocal and band call and response start verse, drums in time bar 8 } }
-    \line { \huge { Vocal refrain, clarinet solo refrain, guitar solo refrain, Vocal last refrain } }
-  }
-}
-
-\include "../Include/notes.ily"

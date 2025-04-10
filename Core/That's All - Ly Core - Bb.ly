@@ -146,12 +146,3 @@ codaMelody = \relative f' {
 }
 
 \include "../Include/coda.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { 4 bars drum intro, singer joins at top, band joins at A2, bar 9 } }
-  }
-}
-
-\include "../Include/notes.ily"

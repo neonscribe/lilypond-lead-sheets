@@ -228,15 +228,3 @@ normal = {
 }
 
 \include "../Include/outro.ily"
-
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { Accordion & vocal intro, Portuguese vocal with band, English vocal with band } }
-    \line { \huge { Accordion solo full chorus, guitar solo full chorus } }
-    \line { \huge { Portuguese vocal with band to ending, note bII7 chord 2nd to last bar! } }
-  }
-}
-
-\include "../Include/notes.ily"

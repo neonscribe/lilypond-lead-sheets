@@ -35,7 +35,12 @@ refrainMelody = \relative f' {
   
   \bar ".|:"
   \repeat volta 2 {
-  r1 | r1 | r1 | r4 r8 \parenthesize f,8 ef'8 f8 f8 af8 |
+  r1 | r1 | r1 | r4 r8
+  \override Parentheses.font-size = #5
+  \startParenthesis \parenthesize
+  f,8 ef'8 f8 f8
+  \endParenthesis \parenthesize
+  af8 |
   }
   \break
 
@@ -72,7 +77,7 @@ refrainBass = \relative f' {
 
   f8 c'8 ef8 c8 d8 f4. | bf,4 c8 a8 r2 | f8 c'8 ef8 c8 d8 f4. | bf,4 c8 a8 r2 |
   f8 c'8 ef8 c8 d8 f4. | bf,4 c8 a8 r2 | f8 c'8 ef8 c8 d8 f4. | bf,4 c8 a8 r4 r8 df8~ |
-  df2.. ef8~ | ef2.. f8 | r1 | r1 |
+  df2.. ef8~ | ef2.. f8_"FINE" | r1 | r1 |
 }
 
 \include "../Include/paper.ily"

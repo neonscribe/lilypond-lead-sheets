@@ -74,17 +74,3 @@ refrainMelody = \relative f' {
     \vspace #1
   }
 }
-
-performanceNotes =
-\markup {
-  \vspace #3
-  \column {
-    \line { \huge { Intro: clarinet 12 bars } }
-    \line { \huge { Vocal 24 bars } }
-    \line { \huge { Guitar solo 24 bars } }
-    \line { \huge { Vocal 12 bars } }
-    \line { \huge { Ending: ritard last line, with ''articulation'' } }
-  }
-}
-
-\include "../Include/notes.ily"

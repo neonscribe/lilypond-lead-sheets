@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 16)
-  (set-global-staff-size 18)
-)
-
 \header {
   title = "The Gentle Rain"
   subtitle = \instrument
@@ -99,8 +94,11 @@ refrainMelody = \relative f' {
   \break
   cf2~  \tuplet 3/2 { cf4 bf4 af4 } | af2~ \tuplet 3/2 { af4 g4 f4 } |
   g1~ | g1 |
+  \bar "||"
 
-  \sect "A2"
+  \xPageBreak
+
+  \sectNoBarNoBreak "A2"
   
   g2~ \tuplet 3/2 { g4 f4 ef4 } | ef2~ \tuplet 3/2 { ef4 f4 g4 } |
   g2~ \tuplet 3/2 { g4 f4 ef4 } | d2~ \tuplet 3/2 { d4 ef4 f4 } |
@@ -132,15 +130,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \vspace #2
-    \line { \huge { Band vamp on i, vocal full chorus } }
-    \line { \huge { Accordion solo full chorus, guitar solo full chorus. } }
-    \line { \huge { Vocal out chorus, end on i } }
-  }
-}
-
-\include "../Include/notes.ily"

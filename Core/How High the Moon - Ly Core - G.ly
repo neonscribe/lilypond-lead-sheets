@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Up Latin" 4 = 130
+  \tempo "Medium Swing" 4 = 130
 
   \partial 2. d4 g4 a4 |
   \bar "||"
@@ -91,17 +91,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \vspace #2
-    \line { \huge { Intro: four bar vamp on Imaj7 } }
-    \line { \huge { Vocal entire form } }
-    \line { \huge { Accordion A1 B1 Guitar A2 B2 } }
-    \line { \huge { Vocal entire form, repeat bar 28 and 29 (until you will how still my heart) three times } }
-    \line { \huge { Outro: four bar vamp on Imaj7 } }
-  }
-}
-
-\include "../Include/notes.ily"

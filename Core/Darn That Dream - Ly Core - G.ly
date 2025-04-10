@@ -197,20 +197,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-$(if #(not (string-contains instrument "Standard"))
-     #{ \pageBreak #} )
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { Intro: guitar solo over A1 (turnaround to A1) } }
-    \line { \huge { First chorus: vocal entire form } }
-    \line { \huge { Clarinet solo A1 A2 } }
-    \line { \huge { Guitar solo B A2 (turnaround to B) } }
-    \line { \huge { Vocal B A3 } }
-    \line { \huge { Ending: ritard, stretch out last note } }
-  }
-}
-
-\include "../Include/notes.ily"

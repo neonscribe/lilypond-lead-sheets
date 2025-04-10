@@ -1,3 +1,4 @@
+\defineBarLine "|o" #'("|" #f "|")
 \defineBarLine "|-|" #'("|" "|" "|")
 \defineBarLine "!-!" #'("!" "!" "!")
 \defineBarLine "|" #'("|" "|" "|")

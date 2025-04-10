@@ -75,13 +75,3 @@ refrainMelody = \relative c'' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { bass bar 5-8 intro, vocal chorus, scat chorus, guitar chorus, accordion chorus, } }
-    \line { \huge { bass & vocal first 16, accordion & guitar join at bridge to end with 29&30 3x tag } }
-  }
-}
-
-\include "../Include/notes.ily"

@@ -88,15 +88,3 @@ refrainMelody = \relative c' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { Bass & vocal A1 & B. Band joins A2 & C.  } }
-    \line { \huge { Clarinet solo full chorus. } }
-    \line { \huge { Vocal out chorus, segue to A Beautiful Friendship. } }
-    \line { \huge { Bass walks throughout, switches to two-feel after segue. } }
-  }
-}
-
-\include "../Include/notes.ily"

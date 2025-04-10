@@ -141,15 +141,3 @@ refrainMelody = \relative g {
 
 %%% \include "../Include/verse.ily"
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { Guitar plays quiet “It's very clear” pitch reference } }
-    \line { \huge { Vocal cold open, band joins on downbeat } }
-    \line { \huge { Guitar solo full chorus, clarinet solo full chorus } }
-    \line { \huge { Vocal out chorus, tag 29&30 3x } }
-  }
-}
-
-\include "../Include/notes.ily"

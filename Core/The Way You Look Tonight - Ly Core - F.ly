@@ -235,15 +235,3 @@ codaMelody = \relative g' {
 }
 
 \include "../Include/coda.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { Intro: band } }
-    \line { \huge { Vocal complete form } }
-    \line { \huge { Guitar A1 clarinet A2 } }
-    \line { \huge { Vocal B C and Coda } }
-  }
-}
-
-\include "../Include/notes.ily"

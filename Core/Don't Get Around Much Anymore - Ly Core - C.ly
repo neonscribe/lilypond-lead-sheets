@@ -284,14 +284,3 @@ soloMelody = \relative f' {
 \include "../Include/refrain-no-note-names.ily"
 \include "../Include/solo.ily"
 \include "../Include/coda.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { vocal only cold open, vocal chorus } }
-    \line { \huge { clarinet solo full chorus, guitar solo full chorus } }
-    \line { \huge { vocal B to coda, instrumental tag in time } }
-  }
-}
-
-\include "../Include/notes.ily"

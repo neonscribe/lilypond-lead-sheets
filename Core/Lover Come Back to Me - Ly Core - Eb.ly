@@ -185,14 +185,3 @@ refrainMelody = \relative f' {
 %%% \include "../Include/verse.ily"
 
 \include "../Include/refrain-a1-a2-repeat.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { band last four bars, vocal full chorus } } 
-    \line { \huge { accordion solo A1, A2, guitar solo A1,A2 } }
-    \line { \huge { vocal full chorus, repeat last four bars 3x, end short on ''me'' } }
-  }
-}
-
-\include "../Include/notes.ily"

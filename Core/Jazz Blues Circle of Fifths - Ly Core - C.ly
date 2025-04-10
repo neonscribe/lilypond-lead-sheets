@@ -43,108 +43,96 @@ refrainChordsInCNoTurn = \chordmode {
 
 refrainChords = \chordmode {
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in C" }
+  \sectGap "Blues in C"
 
     \refrainChordsInC
 
-  \break
-
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in F" }
+  \sectGap "Blues in F"
 
   \transpose c f {
     \refrainChordsInC
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in Bb" }
+  \sectGap "Blues in Bb"
 
   \transpose c bf {
     \refrainChordsInC
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in Eb" }
+  \sectGap "Blues in Eb"
 
   \transpose c ef {
     \refrainChordsInC
   }
-  \break
 
   \set Score.currentBarNumber = #1
 
   \transpose c af {
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in Ab" }
+    \sectGap "Blues in Ab"
     \refrainChordsInC
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in Db" }
+  \sectGap "Blues in Db"
 
   \transpose c df {
     \refrainChordsInC
   }
 
-  \xPageBreak
-
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in Gb" }
-
+  \sectGap "Blues in Gb"
+  
   \transpose c gf {
     \refrainChordsInC
   }
-  \break
+  
+  \xPageBreak
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in B" }
+  \sectGap "Blues in B"
 
   \transpose c b {
     \refrainChordsInC
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in E" }
+  \sectGap "Blues in E"
 
   \transpose c e {
     \refrainChordsInC
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in A" }
+  \sectGap "Blues in A"
 
   \transpose c a {
     \refrainChordsInC
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in D" }
+  \sectGap "Blues in D"
 
   \transpose c d {
     \refrainChordsInC
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in G" }
+  \sectGap "Blues in G"
 
   \transpose c g {
     \refrainChordsInC
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in C" }
+  \sectGap "Blues in C"
 
     \refrainChordsInCNoTurn
 }
 
-\include "../Include/paper.ily"
+\include "../Include/chord-paper.ily"
 
 \markup {
   % Leave a gap after the header

@@ -92,16 +92,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \vspace #2
-  \column {
-    \line { \huge { First chorus: vocal } }
-    \line { \huge { Solos } }
-    \line { \huge { Last chorus: vocal } }
-    \line { \huge { Ending: stop on ''you'', a capella, last chord together on ''piece'' on cue } }
-  }
-}
-
-\include "../Include/notes.ily"

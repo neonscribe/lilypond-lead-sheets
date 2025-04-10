@@ -131,14 +131,3 @@ refrainMelody = \relative c'' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { "last 8 clarinet," } }
-    \line { \huge { "vocal chorus, guitar chorus," } }
-    \line { \huge { "clarinet first 16, vocal bridge to coda" } }
-  }
-}
-
-\include "../Include/notes.ily"

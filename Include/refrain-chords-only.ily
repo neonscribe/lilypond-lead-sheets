@@ -18,7 +18,13 @@
       }
       }
   >>
-  \layout { ragged-bottom = ##t ragged-right = ##f }
+  \layout { 
+    \context {
+      \Score
+      forbidBreakBetweenBarLines = ##f
+    }
+    ragged-bottom = ##t ragged-right = ##f
+  }
 }
 
 \score {

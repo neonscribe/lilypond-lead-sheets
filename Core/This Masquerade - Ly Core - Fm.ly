@@ -155,14 +155,3 @@ outroMelody = \relative f' {
 %% \include "../Include/intro.ily"
 \include "../Include/refrain.ily"
 %% \include "../Include/outro.ily"
-
-performanceNotes =
-\markup {
-  \vspace #1
-  \column {
-    \line { \huge { Vamp in i-IV7, Vocal A1,B,A2, guitar solo A1 (no turnaround), } }
-    \line { \huge { accordion solo repeat A1, Vocal B,A2, vamp out i-IV7 } }
-  }
-}
-
-\include "../Include/notes.ily"

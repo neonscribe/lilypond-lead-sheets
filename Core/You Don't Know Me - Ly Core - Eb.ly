@@ -186,13 +186,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { guitar intro (legato), guitar and vocal A1, band joins at A2 rest of chorus  } }
-    \line { \huge { guitar solo A1,A2 accordion solo A1,A2, vocal B to end, hold ''so'' at bar 29, rubato to end  } }
-  }
-}
-
-%% \include "../Include/notes.ily"

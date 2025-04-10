@@ -109,7 +109,7 @@ refrainChordsDave = \chordmode {
 }
 
 refrainChordsHL = \chordmode {
-  d1:m9 d1:m9 cs1:dim7 cs1:dim7
+  d1:m9 d1:m9 df1:dim7 df1:dim7
   c1:m6 c1:m6 g1:7/b g1:7/b
   
   bf1:maj7 bf1:maj7 ef1:maj7 ef1:maj7
@@ -132,7 +132,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Bossa Nova" 4 = 130
+  \tempo "Medium Bossa Nova [João Gilberto 1961]" 4 = 130
 
   \xTextMark \markup{ \bold \box "A1" }
   

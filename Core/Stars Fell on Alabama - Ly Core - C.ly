@@ -220,14 +220,3 @@ refrainMelody = \relative f' {
 \include "../Include/intro.ily"
 \include "../Include/verse.ily"
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { Clarinet intro 4 bars, vocal verse, vocal chorus } }
-    \line { \huge { Guitar solo A1, A2. Clarinet solo B, C. Turnaround to B } }
-    \line { \huge { Vocal B to end, at tempo, hold last note } }
-  }
-}
-
-\include "../Include/notes.ily"

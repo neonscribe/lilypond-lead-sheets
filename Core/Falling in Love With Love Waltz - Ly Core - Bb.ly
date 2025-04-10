@@ -5,7 +5,7 @@
 % #(set-global-staff-size 18)
 
 \header {
-  title = "Falling in Love With Love"
+  title = "Falling in Love With Love (3/4)"
   subtitle = \instrument
   poet = "Lorenz Hart"
   composer = "Richard Rodgers"

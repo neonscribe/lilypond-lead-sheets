@@ -32,16 +32,15 @@ refrainChordsInC = \chordmode {
 
 refrainChords = \chordmode {
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in C" }
+  \sectGap "Blues in C"
 
   \bar ".|:"
   \repeat volta 2 {
     \refrainChordsInC
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in F" }
+  \sectGap "Blues in F"
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -49,10 +48,9 @@ refrainChords = \chordmode {
     \refrainChordsInC
   }
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in Bb" }
+  \sectGap "Blues in Bb"
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -60,10 +58,11 @@ refrainChords = \chordmode {
     \refrainChordsInC
   }
   }
-  \break
+  
+  \xPageBreak
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in Eb" }
+  \sectGap "Blues in Eb"
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -72,21 +71,18 @@ refrainChords = \chordmode {
   }
   }
 
-  \xPageBreak
-
   \set Score.currentBarNumber = #1
+  \sectGap "Blues in Ab"
 
   \bar ":|.|:"
   \repeat volta 2 {
   \transpose c af {
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in Ab" }
     \refrainChordsInC
   }
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in Db" }
+  \sectGap "Blues in Db"
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -94,10 +90,9 @@ refrainChords = \chordmode {
     \refrainChordsInC
   }
   }
-  \break
 
   \set Score.currentBarNumber = #1
-  \xTextMark \markup { \hspace #10 \bold \box "Blues in Gb" }
+  \sectGap "Blues in Gb"
 
   \bar ":|.|:"
   \repeat volta 2 {
@@ -107,7 +102,7 @@ refrainChords = \chordmode {
   }
 }
 
-\include "../Include/paper.ily"
+\include "../Include/chord-paper.ily"
 
 \markup {
   % Leave a gap after the header

@@ -20,13 +20,13 @@ Bloom -- ing in the pa -- ti -- o. __
 Soft des -- ert stars __ and the strum of gui -- tars, __
 Make ev' -- ry eve -- ning seem so sweet; __
 In my a -- do -- be ha -- ci -- en -- da __
-Life and love __ are more com -- plete. __ In
+Life and love __ are more com -- plete. __ (In)
 }
 
 refrainLyricsTwo = \lyricmode {
 \skip 8 my a -- do -- be ha -- ci -- en -- da __
 Nes -- tled in the West -- ern hills, __
-Even -- ning breez -- es soft -- ly mur -- mur __
+Eve -- ning breez -- es soft -- ly mur -- mur __
 Har -- mo -- my __ with whip -- poor -- wills. __
 When set -- ting sun __ says the long day is done, __
 Sweet mu -- sic starts to fill the air; __
@@ -45,9 +45,7 @@ refrainChords = \chordmode {
 
   c1:6 c1:6 g1:7 g1:7 g1:7 g1:7
 
-  c1:6 g1:7
-  
-  c1:6 c1:6
+  c1:6 \chordInsideParens{ g1:7 }
 }
 
 refrainKey = c
@@ -56,15 +54,13 @@ refrainMelody = \relative c' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Moderately (with a lift)" 2 = 80
+  \tempo "Medium Swing [Eddy Howard 1947]" 4 = 156
 
   \partial 4 e4 |
 
-  \bar ".|:"
-  \repeat volta 2 {
-
   \sectStart "A1"
 
+  \repeat volta 2 {
   g2. fs8 f8~ | f8 e4. ds4 e4 | f4. g8~ g2~ | g1 |
   \break
   d2. e8 f8~ | f4 g4 a4 b8 a8~ | a1~ | a2~ a8 r8 r4 |
@@ -86,13 +82,11 @@ refrainMelody = \relative c' {
   g2. fs8 f8~ | f8 e4. ds4 e4 | f4. g8~ g2~ | g1 |
   \break
   d2. e8 f8~ | f4 g4 a4 b8 c8~ |
-  
+  c1~ | c2 r4
+  \override Parentheses.font-size = #5
+  \parenthesize
+  e,4 |
   }
-  \alternative {
-    { c1~ | c2 r4 e,4 | }
-    { c'1~\repeatTie | c2. r4 | }
-  }
-  \bar "|."
 }
 
 \include "../Include/paper.ily"

@@ -128,15 +128,3 @@ refrainMelody = \relative c' {
 }
 
 \include "../Include/refrain-two-verses.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { Intro: drums four bars, band four bar vamp on im7 } }
-    \line { \huge { First chorus: vocal } }
-    \line { \huge { Second chorus: accordion solo A (x2) guitar solo B vocal C } }
-    \line { \huge { Ending: repeat last four (x2), tag with first four bars of A. } }
-  }
-}
-
-\include "../Include/notes.ily"

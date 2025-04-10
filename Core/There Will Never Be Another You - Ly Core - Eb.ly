@@ -116,13 +116,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { rubato guitar & vocal first 16, a tempo vocal to end, scat chorus, } }
-    \line { \huge { accordion chorus, guitar chorus, vocal chorus with 29&30 3x tag, ritard on 31 } }
-  }
-}
-
-\include "../Include/notes.ily"

@@ -123,14 +123,3 @@ refrainMelody = \relative g' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { I-vi-ii-V vamp in, vocal chorus } }
-    \line { \huge { accordion solo A1, A2, guitar solo B, C, turnaround to B } }
-    \line { \huge { vocal B to end, repeat 39&40 3x, I-vi-ii-V vamp out } }
-  }
-}
-
-\include "../Include/notes.ily"

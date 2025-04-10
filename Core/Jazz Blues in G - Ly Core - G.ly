@@ -36,7 +36,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-\include "../Include/paper.ily"
+\include "../Include/chord-paper.ily"
 
 \markup {
   % Leave a gap after the header

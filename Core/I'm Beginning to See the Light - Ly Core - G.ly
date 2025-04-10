@@ -159,13 +159,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { last 8 clarinet, vocal chorus, clarinet chorus, } }
-    \line { \huge { guitar chorus, vocal from B with second ending } }
-  }
-}
-
-\include "../Include/notes.ily"

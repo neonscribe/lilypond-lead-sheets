@@ -127,13 +127,3 @@ refrainMelody = \relative c'' {
 }
 
 \include "../Include/refrain-two-verses.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { last 8 accordion, vocal chorus, guitar chorus, accordion first 16, } }
-    \line { \huge { vocals bridge to end, repeat last 8, vamp } }
-  }
-}
-
-\include "../Include/notes.ily"

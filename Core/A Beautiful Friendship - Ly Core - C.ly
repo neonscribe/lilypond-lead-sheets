@@ -84,13 +84,3 @@ refrainMelody = \relative c' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { Bass two-feel, vocal first chorus } }
-    \line { \huge { Guitar solo whole form, turnaround to B. Vocal B to end } }
-    \line { \huge { Tag bars 29&30 3x } }
-  } }
-
-\include "../Include/notes.ily"

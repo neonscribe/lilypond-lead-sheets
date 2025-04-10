@@ -2,7 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 genderTitle = 
 #(if (and (defined? 'objectGenderMale) objectGenderMale)
@@ -104,13 +104,13 @@ refrainHLChords = \chordmode {
 refrainNicoChords = \chordmode {
   f2 f2/a bf2 b4:dim7 f4/c f2 f2/a bf2 b4:dim7 f4/c
   f1 f2 f4:7 f4:7.5+ bf1 b1:dim7
-  f2/c a2:7 d2:m c2:7.5+
+  f2/c a2:7 d2:m bf2:7
   
   g2:7 c2:sus7 f2 c2:7
   
   f2 f2/a bf2 b4:dim7 f4/c f2 f2/a bf2 b4:dim7 f4/c
   f1 f2 f4:7 f4:7.5+ bf1 b1:dim7
-  f2/c a2:7 d2:m c2:7.5+
+  f2/c a2:7 d2:m bf2:7
   
   g2:7 c2:sus7 f2 f2:7.5+
 
@@ -119,9 +119,8 @@ refrainNicoChords = \chordmode {
 
   f2 f2/a bf2 b4:dim7 f4/c f2 f2/a bf2 b4:dim7 f4/c
   f1 f2 f4:7 f4:7.5+ bf1 b1:dim7
-  f2/c a2:7 d2:m c2:7.5+ g2:7 c2:sus7 f2 bf2:7 f2
-  \chordOpenParen{ g4:m7 }
-  \chordCloseParen{ f4/c }
+  f2/c a2:7 d2:m bf2:7 g2:7 c2:sus7 f1 f2
+  \chordInsideParens{ c2:sus7 }
 }
 
 refrainChords = \refrainNicoChords
@@ -147,17 +146,20 @@ refrainMelody = \relative f' {
   \sect "A2"
   
   r8 c'8 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 | r8 c8 d8 c8 af8 g8 f8 d8 | f4 f8 d8~( d8 c8) r4 |
-  \break
+
+  \bar "|o"
+
+  \xPageBreak
+
   r4 d'8 c8 af8 g8 f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
+
   \break
+
   a4( c4) r4 a8 a8 | g8( f4.) r4 af8 g8 |
 
   af8 g8 f8 d8 f4 f8 f8~ | f8 r8 r4 r2 |
 
-  \bar "||"
-
-  \xPageBreak
-  \sectNoBarNoBreak "B"
+  \sect "B"
   
   r8 d8 f8 d8 f8 d8 f8 d8 | f8 f8 f4 r2 | r4 a4 d8 c8 a8 f8 | a4 f8 g8~ g4 r4 |
   \break

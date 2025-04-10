@@ -132,17 +132,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { 4 bars Latin drums, 4 bars instrumental vamp on I and bVII } }
-    \line { \huge { vocal A1, B1, C, A2, B2, with Latin/Swing changes, stays Swing at the end into solo } }
-    \line { \huge { accordion solo A1, B1, C, guitar solo A2, B2, all Swing, stays Swing at the end into vocal } }
-    \line { \huge { vocal D.S. al coda (A2, B2, coda) all Swing } }
-    \line { \huge { Back to Latin, scat over vamp on I and bVII } }
-    \line { \huge { on cue repeat last line slow to end } }
-  }
-}
-
-\include "../Include/notes.ily"
