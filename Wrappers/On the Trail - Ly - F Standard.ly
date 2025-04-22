@@ -6,4 +6,4 @@ instrument = "Standard Key"
 whatKey = f
 whatClef = "treble"
 
-\include "../Core/On The Trail - Ly Core - F.ly"
+\include "../Core/On the Trail - Ly Core - F.ly"

@@ -6,4 +6,4 @@ instrument = "Bass for Standard Key"
 whatKey = f,
 whatClef = "bass"
 
-\include "../Core/On The Trail - Ly Core - F.ly"
+\include "../Core/On the Trail - Ly Core - F.ly"
