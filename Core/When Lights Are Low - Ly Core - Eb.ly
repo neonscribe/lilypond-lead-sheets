@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1936 Bee Cee Music Company"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Sweet mu -- sic soft __ and mel -- low, sooth -- ing and slow. __
 Strains of a mel -- low cel -- lo when lights are low. _
 
@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 130
+  \tempo "Medium Swing [Miles Davis 1953]" 4 = 130
 
   \xTextMark \markup{ \bold \box "A1, A2" }
   
@@ -86,4 +86,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

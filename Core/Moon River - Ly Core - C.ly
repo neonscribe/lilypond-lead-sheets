@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1961 Famous Music Corporation"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Moon Riv -- er, wid -- er than a mile,
 I'm cross -- in' you in style some day. __
 Old dream -- mak -- er, you heart -- break -- er,
@@ -94,4 +94,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

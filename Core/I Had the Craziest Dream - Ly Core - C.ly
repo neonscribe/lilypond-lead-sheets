@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 86
+  \tempo "Ballad [Harry James 1942]" 4 = 80
 
   \xTextMark \markup{ \bold \box "A1" }
   

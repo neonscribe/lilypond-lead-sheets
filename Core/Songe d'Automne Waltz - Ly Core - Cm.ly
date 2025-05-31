@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1908 Francis, Day & Hunter"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   c2.:m c2.:m/b c2.:m/bf c2.:m/a
   af2. f2.:m fs2.:dim7 g2.:7

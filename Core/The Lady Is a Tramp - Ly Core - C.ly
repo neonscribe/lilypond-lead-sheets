@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1937 Chappell & Co., Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 I get too hun -- gry for din -- ner at eight, __
 I like the  thea -- tre but nev -- er come late. __
 I nev -- er both -- er with peo -- ple I hate. __
@@ -98,4 +98,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

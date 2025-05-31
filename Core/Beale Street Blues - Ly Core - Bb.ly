@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1916 Pack & Handy Music Co. Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 }
 
 refrainLyricsTwo = \lyricmode {
@@ -99,4 +99,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-three-verses.ily"
+\include "../Include/refrain.ily"

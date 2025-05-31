@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1947 Consolidated Music Publishers, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   c1:maj7 c1:maj7 f1:m7 bf1:7
   c1:maj7 c1:maj7 bf1:m7 ef1:7

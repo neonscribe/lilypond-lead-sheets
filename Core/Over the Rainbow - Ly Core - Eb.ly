@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1938 Metro-Goldwyn-Mayer, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Some -- where o -- ver the rain -- bow, way up high,
 there's a land that I heard of once in a lull -- a -- by.
 _ _
@@ -96,4 +96,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

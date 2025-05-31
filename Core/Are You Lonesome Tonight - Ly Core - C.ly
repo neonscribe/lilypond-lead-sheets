@@ -32,7 +32,7 @@ refrainChords = \chordmode {
   c2. e2.:m a2.:m a2.:m
   c2. c2.:7 f2.:6 f2.:6
   g2. g2. g2.:7 g2.:7
-  g2.:7 g4:sus7 g2:7.5+ c2. c2.
+  g2.:7 g2:sus7 g4:7.5+ c2. c2.
   
   c2.:9 c2.:9 f2.:6 f2.:6
   d2. d2. d2.:m g2.

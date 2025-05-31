@@ -14,7 +14,7 @@
 
 bossaRhythm = ##t
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   Once __ I loved, __
   And I gave so much love to this love,
   You were the world to me; __
@@ -107,4 +107,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

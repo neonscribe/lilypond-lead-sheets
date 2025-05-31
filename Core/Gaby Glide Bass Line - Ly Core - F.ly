@@ -9,9 +9,6 @@
   copyright = \markup \small ""
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainMaybeChords = \chordmode {
   f1 f1 f1 f1
   d1:m d1:m d1: d1:m

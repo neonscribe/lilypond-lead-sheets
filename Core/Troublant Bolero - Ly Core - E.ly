@@ -34,9 +34,6 @@ bassIntro = \relative f' {
   \bar "||"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   f2:7
   

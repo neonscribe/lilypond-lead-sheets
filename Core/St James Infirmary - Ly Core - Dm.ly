@@ -12,16 +12,11 @@
   copyright = \markup \small "© 1929 Gotham Music Service Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
-  
-  d2:m a2:7 d1:m d2:m bf2:7 a1:7
-  d2:m a2:7 d4:m d4:m/cs d4:m/c d4:m/b
-  bf2:7 a2:7 d2:m
-  \chordInsideParens{ a2:7 }
+
+  d2:m7 g2:m7 d1:m7 d2:m7 g2:m7 d1:m7
+  d2:m7 g2:m7 d1:m7 bf2:7 a2:7 d2:m7 \chordInsideParens{ a2:7 }
 }
 
 refrainKey = d

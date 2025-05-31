@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 130
+  \tempo "Medium Swing [Ella Fitzgerald 1947]" 4 = 185
 
   \partial 2. d4 g4 a4 |
   \bar "||"

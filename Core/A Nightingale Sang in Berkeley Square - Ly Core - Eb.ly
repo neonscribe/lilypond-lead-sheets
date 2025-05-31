@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1940 The Peter Maurice Music Co. Ltd."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 That cer -- tain night, the night we met, there was mag -- ic a -- broad in the air.
 There were an -- gels din -- ing at the Ritz,
 and a night -- in -- gale sang in Ber -- k'ley Square. I
@@ -104,4 +104,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

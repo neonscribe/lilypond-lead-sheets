@@ -5,7 +5,7 @@
 #(set-global-staff-size 18)
 
 \header {
-  title = "Goodbye"
+  title = "Goodbye (Good-Bye)"
   subtitle = \instrument
   poet = ""
   composer = "Gordon Jenkins"
@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad" 4 = 80
+  \tempo "Ballad [Benny Goodman 1935]" 4 = 75
   
   \partial 4 \invisEighth c8 |
   \bar "||"

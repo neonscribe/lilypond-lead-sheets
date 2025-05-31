@@ -13,9 +13,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1947 Embassy Music Corporation and Music Sales Corporation"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   cs2:7 d2:7 cs2:7 d2:7 cs2:7 d2:7 cs2:7 d2:7 
   ds2:7 e2:7 ds2:7 e2:7 ds2:7 e2:7 ds2:7 e2:7 

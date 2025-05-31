@@ -105,6 +105,20 @@ refrainLyricsCE = \lyricmode {
   One is to dream __ Two is lov -- ing you __
 }
 
+refrainPortugueseLyrics = \lyricmode {
+  \refrainLyricsAOneP
+  \refrainLyricsATwoP
+  \refrainLyricsBP
+  \refrainLyricsCP
+}
+
+refrainEnglishLyrics = \lyricmode {
+  \refrainLyricsAOneE
+  \refrainLyricsATwoE
+  \refrainLyricsBE
+  \refrainLyricsCE
+}
+
 refrainChords = \chordmode {
   g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g
   g1:maj7 g1:maj7 b1:m7 e1:7.9-
@@ -117,9 +131,11 @@ refrainChords = \chordmode {
   \chordInsideParens{ ef1:maj7/g }
 }
 
+refrainKey = g
+
 refrainMelody = \relative g' {
   \time 2/2
-  \key g \major
+  \key \refrainKey \major
   \clef \whatClef
   \set Score.currentBarNumber = #1
 
@@ -161,70 +177,11 @@ refrainMelody = \relative g' {
 
 \include "../Include/intro.ily"
 
-emphasize = {
-  \override Lyrics.LyricText.font-shape = #'italic
-}
+refrainLyrics = \refrainPortugueseLyrics
+refrainLyricsTwo = \refrainEnglishLyrics
 
-normal = {
-  \revert Lyrics.LyricText.font-shape
-}
+refrainTwoLanguages = ##t
 
-\score {
-  <<
-    { \context ChordNames 
-      {
-      \override ChordName.font-size = #+3
-      \override ChordName.font-series = #'bold
-      \set chordChanges = ##f
-     \transpose g \whatKey {
-       \refrainChords
-	}
-      }
-      }
-    \new Staff {
-      \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
-	\noDoubleAccidentalMusic \transpose g \whatKey {
-	  \refrainMelody
-	  }
-	}
-    }
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose g \whatKey {
-      \refrainMelody
-      } }
-      #} )
-    \new Lyrics \lyricsto "voiceMelody"
-    {
-    <<
-      { \refrainLyricsAOneP }
-      \new Lyrics {
-	\set associatedVoice = "voiceMelody"
-	\emphasize \refrainLyricsAOneE }
-    >>
-    <<
-      { \refrainLyricsBP }
-      \new Lyrics {
-	\set associatedVoice = "voiceMelody"
-	\emphasize \refrainLyricsBE }
-    >>
-    <<
-    { \refrainLyricsATwoP }
-    \new Lyrics {
-      \set associatedVoice = "voiceMelody"
-      \emphasize \refrainLyricsATwoE }
-    >>
-    <<
-      { \refrainLyricsCP }
-      \new Lyrics {
-	\set associatedVoice = "voiceMelody"
-	\emphasize \refrainLyricsCE }
-    >>
-    }
-  >>
-  \midi{} \layout { }
-}
+\include "../Include/refrain.ily"
 
 \include "../Include/outro.ily"

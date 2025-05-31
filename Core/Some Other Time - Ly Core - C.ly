@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1945 Warner Bros. Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Where has the time all gone to?
 Have -- n't done half the things we want to.
 Oh, well, we'll catch up some oth -- er time. __
@@ -89,4 +89,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

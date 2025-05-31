@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1949 Cole Porter"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 
 It's too darn hot, it's too darn hot.
 I'd like to sup with my ba -- by to -- night.
@@ -149,7 +149,7 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"
 
 \markup { "Solo on " \bold \box "A" \bold \box "B" \bold \box "C" 
 	  " after " 

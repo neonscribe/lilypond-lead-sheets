@@ -12,9 +12,6 @@
 
 straightEighths = ##t
 
-refrainLyrics = \lyricmode {
-}
-
 refrainKey = c
 
 refrainMelody =  \relative a' {

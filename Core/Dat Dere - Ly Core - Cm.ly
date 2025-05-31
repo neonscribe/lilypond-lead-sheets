@@ -13,9 +13,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1960 Upam Music Co."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   \set chordChanges = ##t
   s4

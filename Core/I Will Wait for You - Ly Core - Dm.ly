@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1964 Productions Michel Legrand and Productions Francis Lemarque"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 If it takes for -- ev -- er I will wait for you,
 for a thou -- sand sum -- mers I will wait for you,
 'til you're back be -- side me, 'til I'm hold -- ing you,
@@ -134,7 +134,7 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"
 
 \markup {
   \column {

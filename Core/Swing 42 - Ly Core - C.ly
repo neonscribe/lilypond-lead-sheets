@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1941 Publications Francis Day S.A."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   c2 a2:m7 d2:m7 g2:7 e2:m7 a2:m7 d2:m7 g2:7
   g2:m6 a2:7 d2:m7 g2:7 c2 a2:m7 d2:m7 g2:7

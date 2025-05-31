@@ -13,9 +13,6 @@
   copyright = \markup \small "© 1964 American Music, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   \chordInsideParens{ d1:7 }
   \chordInsideParens{ d1:7 }
@@ -41,7 +38,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 140
+  \tempo "Medium [Ramsey Lewis 1965]" 4 = 140
 
   \xTextMark \markup{ \bold \box "Intro" }
   

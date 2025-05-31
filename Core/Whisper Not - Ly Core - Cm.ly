@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1956 Ibbob Music, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Sing low, __ sing clear __ sweet words __ in my ear,
 not a whis -- per of des -- pair, __ but love's __ own prayer.
 
@@ -101,4 +101,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

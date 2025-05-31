@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1939 ABC Music Corporation"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Im -- ag -- i -- na -- tion is fun -- ny, it makes a cloud -- y day sun -- ny,
 makes a bee think of hon -- ey, just as I __
 
@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 100
+  \tempo "Medium [Frank Sinatra with Tommy Dorsey 1940]" 4 = 115
 
   \partial 2 \invisEighth d8 ef8 f8 |
 
@@ -104,4 +104,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

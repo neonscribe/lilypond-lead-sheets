@@ -11,9 +11,6 @@
 
 whatKey = g
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s1
   

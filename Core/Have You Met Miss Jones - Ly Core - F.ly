@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1937 Chappell & Co."
 }
 
-refrainLyrics = \lyricmode {
+refrainObjectGenderFemaleLyrics = \lyricmode {
   Have you met Miss Jones? __ Some -- one said as we shook hands. __
   She was just Miss Jones __ to me. __
   
@@ -24,6 +24,24 @@ refrainLyrics = \lyricmode {
   Now I've met Miss Jones, __ And we'll go on meet -- ing till we die, __
   Miss Jones and I. __
 }
+
+refrainObjectGenderMaleLyrics = \lyricmode {
+  Have you met Sir Jones? __ Some -- one said as we shook hands. __
+  He was just Sir Jones __ to me. __
+  
+  Then I said Sir Jones, __ You're a man who un -- der -- stands, __
+  I'm a girl who must __ be free.
+  And all at once I lost my breath, And all at once was scared to death,
+  And all at once __ I owned the earth and sky. __
+  
+  Now I've met Sir Jones, __ And we'll go on meet -- ing till we die, __
+  Sir Jones and I. __
+}
+
+refrainLyrics =
+#(if (and (defined? 'objectGenderMale) objectGenderMale)
+  refrainObjectGenderMaleLyrics
+  refrainObjectGenderFemaleLyrics)
 
 refrainChords = \chordmode {
   f1:maj7 fs1:dim7 g1:m7 c1:7 a1:m7 d1:m7 g1:m7 c1:7
@@ -41,7 +59,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing"
+  \tempo "Fast Swing [Stan Getz 1953]" 4 = 210
 
   \xTextMark \markup{ \bold \box "A1" }
   

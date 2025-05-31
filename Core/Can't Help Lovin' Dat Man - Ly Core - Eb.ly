@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1927 T.B. Harms Company"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Fish got to swim __ and birds got to fly. __
 I got to love __ one man till I die. __
 Can't help lov -- in' dat man __ of
@@ -98,4 +98,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

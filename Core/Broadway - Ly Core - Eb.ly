@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1940 Intersong U.S.A., Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Broad -- way, Broad -- way, ev -- 'ry bod -- y's hap -- py and gay,
 where the night is bright -- er __ than day, __ all a -- long Broad
 "- way."
@@ -87,4 +87,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

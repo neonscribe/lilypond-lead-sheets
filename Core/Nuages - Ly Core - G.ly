@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1940 Peter Maurice Music Ltd."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainDFBChords = \chordmode {
   s2.
   

@@ -45,7 +45,7 @@ But why should I leave him, why should I go, he'd be un -- hap -- py with -- out
 I got a man, _ cra -- zy for me, he's fun -- ny that way. (I)
 }
 
-refrainLyricsOne =
+refrainLyrics =
 #(if (and (defined? 'objectGenderMale) objectGenderMale)
   refrainObjectGenderMaleLyricsOne
   refrainObjectGenderFemaleLyricsOne)
@@ -142,4 +142,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

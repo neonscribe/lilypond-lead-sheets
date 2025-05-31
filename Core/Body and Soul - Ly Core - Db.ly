@@ -14,7 +14,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1930 Chappell & Co., Ltd. and Harms Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 My heart is sad and lone -- ly,
 For you I sigh, for you, dear, on -- ly.
 Why have -- n't you seen it?
@@ -102,4 +102,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

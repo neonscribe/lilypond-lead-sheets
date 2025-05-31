@@ -67,9 +67,6 @@ bassIntro = \relative f' {
   }
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
 

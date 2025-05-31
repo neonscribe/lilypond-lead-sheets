@@ -23,7 +23,7 @@ Make my bed and light the light, I'll ar -- rive late to -- night
 black -- bird, __ bye bye.
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   f1:maj7 f1:maj7 g2:m7 c2:7 f1:6
   f1/a af1:dim7 g2:m7 c2:7 c1:7
   
@@ -38,6 +38,26 @@ refrainChords = \chordmode {
   \chordOpenParen{ g2:m7 }
   \chordCloseParen{ c2:7 }
 }
+
+refrainJoelChords = \chordmode {
+  f1:maj7 g2:m7 c2:7 f1:maj7 g2:m7 c2:7 
+  f1:maj7 a2:m7.5- d2:7.9- g1:m7 c1:7
+
+  g1:m7 d1:7 g1:m7 c1:7
+  g1:m7 c1:7 f1:6 f1:6
+  
+  f1:7 e1:7 ef1:7 d1:7.9-
+  g1:m7 g1:m7 df1:7 c1:7
+  
+  f1:maj7 g2:m7 c2:7 f1:maj7 a2:m7.5- d2:7.9-
+  g1:m7 c1:7 f1:maj7
+  \chordOpenParen{ g2:m7 }
+  \chordCloseParen{ c2:7 }
+}
+
+refrainChords = #(if (and (defined? 'useJoelChords) useJoelChords)
+		  refrainJoelChords
+		  refrainHLChords)
 
 refrainKey = f
 

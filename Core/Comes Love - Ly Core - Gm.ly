@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1939 Chappel & Co., Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Comes a rain -- storm, put your rub -- bers on your feet.
 Comes a snow -- storm, you can get a lit -- tle heat.
 Comes love, __ noth -- ing can be done. __
@@ -112,4 +112,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

@@ -10,9 +10,6 @@
   copyright = \markup \small "© 1960 Jowcol Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   \chordInsideParens{ cs1:m }
   \chordInsideParens{ fs1:m }
@@ -134,7 +131,7 @@ bassSolos = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-no-note-names.ily"
+\include "../Include/refrain.ily"
 \include "../Include/bass-solos.ily"
 
 \markup "Play head twice before and twice after solos, tag last four bars for ending."

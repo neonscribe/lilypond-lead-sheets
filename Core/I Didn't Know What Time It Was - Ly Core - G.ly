@@ -94,7 +94,7 @@ refrainMelody = \relative g' {
 
   \xTextMark \markup{ "Refrain" \bold \box "A1" }
   \set Score.currentBarNumber = #1
-  \tempo "Medium" 4 = 150
+  \tempo "Medium [Peggy Lee 1953]" 4 = 150
   
   b2~ b8 fs4 g8 | a4 a4 a8 b8 g4 | b2~ b8 fs4 g8 | a1 |
   a2~ a8 e4 fs8 | g4 g4 g8 a8 fs4 | e4 e4 e8 fs8 d4 | c'1 |

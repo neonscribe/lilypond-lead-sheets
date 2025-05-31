@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1927 Chappell & Co."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 I took one look at you, that's all I meant to do,
 and then my heart stood
 
@@ -95,4 +95,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

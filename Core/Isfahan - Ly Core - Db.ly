@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1964 Famous Music LLC"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainHLChords = \chordmode {
   s2
   

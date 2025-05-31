@@ -36,9 +36,6 @@ verseMelody = \relative f' {
   \bar "|."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
 
@@ -56,7 +53,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-refrainMelodyOne = \relative f' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
@@ -108,4 +105,4 @@ refrainMelodyTwo = \relative f'' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-parts.ily"
+\include "../Include/refrain.ily"

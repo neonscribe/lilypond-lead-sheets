@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1923 Melrose Bros. Music Company"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   r4
 

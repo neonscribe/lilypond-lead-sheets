@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1938 Chappell & Co."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Fall -- ing in love with love is fall -- ing for make be -- lieve. __
 Fall -- ing in love with love is play -- ing the fool. __
 Car -- ing too much is such a ju -- ve -- nile fan -- cy.
@@ -85,4 +85,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

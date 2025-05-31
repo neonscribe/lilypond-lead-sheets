@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1967 Northern Songs Ltd."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _
 Pic -- ture your -- self in a boat on a riv -- er,
 with tan -- ger -- ine trees and mar -- ma -- lade skies.
@@ -54,9 +54,6 @@ Pic -- ture your -- self on a train in a sta -- tion,
 with Plas -- ti -- cine porters with look -- ing glass ties.
 Sud -- den -- ly some -- one is there at the turn -- stile,
 the girl with ka -- kei -- do -- scope
-}
-
-refrainLyricsFour = \lyricmode {
 }
 
 refrainChords = \chordmode {
@@ -189,4 +186,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-four-verses.ily"
+\include "../Include/refrain.ily"

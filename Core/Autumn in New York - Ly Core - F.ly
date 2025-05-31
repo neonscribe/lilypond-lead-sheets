@@ -10,7 +10,7 @@
   copyright = \markup \small "© 1934 Kay Duke Music"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Au -- tumn in New York, __ why does it seem so in -- vit -- ing?
 Au -- tumn in New York, __ it spells the thrill of first night -- ing.
 Glit -- ter -- ing crowds and shim -- mer -- ing clouds
@@ -90,4 +90,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

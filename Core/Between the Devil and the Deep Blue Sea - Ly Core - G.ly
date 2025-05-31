@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1931 Mills Music, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 I don't want you, but I'd hate to lose you.
 You've got me in be -- tween __ the dev -- il and the deep blue sea. __
 
@@ -86,4 +86,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

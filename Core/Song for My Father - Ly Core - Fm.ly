@@ -16,9 +16,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 bossaRhythm = ##t
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
   
@@ -125,6 +122,6 @@ refrainBass = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-bass.ily"
+\include "../Include/refrain.ily"
 
 \markup{ "Play head twice before and twice after solos, solo on A1-A2-B" }

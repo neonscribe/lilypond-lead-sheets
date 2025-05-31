@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1929 Vincent Youmans, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 With -- out a song, the day would nev -- er end.
 With -- out a song, the road would nev -- er bend.
 When things go wrong, a man ain't got a friend.
@@ -111,4 +111,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

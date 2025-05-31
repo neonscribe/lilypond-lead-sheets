@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1932 Famous Music Corp."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Is -- n't it ro -- man -- tic? Mu -- sic in the night,
 a dream that can be heard.
 Is -- n't it ro -- man -- tic? Mov -- ing shad -- ows write
@@ -107,4 +107,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

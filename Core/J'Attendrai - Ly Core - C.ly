@@ -66,9 +66,6 @@ Et pourtant, j'attendrai
 Ton retour
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2
   

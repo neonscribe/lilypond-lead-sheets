@@ -13,8 +13,6 @@ $(if (and (defined? 'showLyrics) showLyrics)
   copyright = \markup \small "© 1944 Regent Music Corporation"
 }
 
-refrainLyrics = \lyricmode { }
-
 refrainLyricsOne =  \lyricmode {
     "You're" talk -- "in'" so "sweet," well you need -- "n't." You say
     you "won't" "cheat," well you need -- "n't." "You're" tap -- "pin'"
@@ -116,8 +114,9 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include
+refrainLyrics = ##f
+
 #(if (and (defined? 'showLyrics) showLyrics)
-  "../Include/refrain-two-verses.ily"
-  "../Include/refrain.ily" )
-     
+  (set! refrainLyrics refrainLyricsOne))
+
+\include  "../Include/refrain.ily"

@@ -10,9 +10,6 @@
   copyright = \markup \small "© 1958 Upam Music Co."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2. bf1:m7 c2:m7.5- f2:7 bf1:m7 bf1:7.9+ ef1:7 ef1:7
   bf2:m7 f2:7 bf1:m7 c1:7.9+ f1:7 bf1:m7 c2:7.9+ f2:7

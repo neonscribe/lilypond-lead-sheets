@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1968 Taggie Music Co."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
   
@@ -102,6 +99,6 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-alt-chords.ily"
+\include "../Include/refrain.ily"
 
 \markup "Use chords in parentheses on solos."

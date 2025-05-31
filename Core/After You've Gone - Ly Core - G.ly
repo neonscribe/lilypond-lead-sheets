@@ -10,7 +10,7 @@
   copyright = \markup \small "© 1918 Morley Music Company"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   Af -- ter you've gone, __ and left me cry -- ing;
   Af -- ter you've gone, __ there's no de -- ny -- ing
   You'll feel blue, __ you'll feel sad. __
@@ -112,4 +112,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

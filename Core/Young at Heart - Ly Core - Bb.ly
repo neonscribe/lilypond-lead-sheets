@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1954 Sunbeam Music Corporation"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Fair -- y tales __ can come true,
 it can hap -- pen to you
 if you're young at heart. __
@@ -109,4 +109,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

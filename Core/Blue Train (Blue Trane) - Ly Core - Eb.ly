@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1957 Jowcol Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2.
   
@@ -67,7 +64,7 @@ refrainKicksOverTime = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-kicks.ily"
+\include "../Include/refrain.ily"
 
 \markup "Play head twice before and after solos. Bass plays kicks on head, walks on solo."
 

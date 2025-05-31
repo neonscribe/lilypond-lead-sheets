@@ -29,6 +29,7 @@ jcDiminishedSeventh = \markup{ \jcRaise{ "o7" } }
 jcMinor = \markup{ \jcSmall{ "MI" } }
 jcMinorSeventh = \markup{ \jcMinor \jcRaise{ "7" } }
 jcMajorSeventh = \markup{ \jcMajor \jcRaise{ "7" } }
+jcMajorSeventhFlatFive = \markup{ \jcMajor \jcRaise{ "7(" \jcFlat "5)" } }
 jcMajorSeventhModifier = \markup{ \jcRaise{ "(MA 7)" } }
 jcMajorNinthModifier = \markup{ \jcRaise{ "(MA 9)" } }
 jcMinorMajorSeventh = \markup{ \jcMinor \jcMajorSeventhModifier }
@@ -98,7 +99,7 @@ jazzChordsMusic =
 	<c e g a b>-\markup{ \jcMajorSeventh \jcRaise{ "(ADD 6)" } }
 	<c e g b fis'>-\markup{ \jcMajorSeventh \jcSharpEleventh }
 	<c e gis b>-\markup{ \jcMajorSeventh \jcAugmented }
-	<c e ges b>-\markup\jcRaise{ \jcMajorSeventh \jcFlatFive }
+	<c e ges b>-\markup{ \jcMajorSeventhFlatFive }
 	
 	
 	% minor
@@ -114,6 +115,7 @@ jazzChordsMusic =
 	<c ees ges beses>-\markup{ \jcDiminishedSeventh }
 
 	% suspended
+	<c f g a>-\markup{ \jcSixth \jcSus }
 	<c f g bes>-\markup{ \jcSeventh \jcSus }
 	<c d g bes>-\markup{ \jcSeventh \jcSusTwo }
 	<c f g bes des'>-\markup{ \jcSeventh \jcSus \jcFlatNinth }
@@ -311,6 +313,15 @@ jazzChordsMusic =
 	      \tiny { \column{ 
 	        \raise #1.2 \line{ \jcSharp "13" } % the lower tension in the bracket
 	        \raise #2.5 \line{ \jcSharp "9" }  % the upper tension in the bracket
+	      } } 
+	     \larger\larger\normal-weight ")" } 
+	
+	<c e ges bes des' a'>-\markup{ 
+	    \jcThirteenth
+	    {\larger\larger\normal-weight "(" } 
+	      \tiny { \column{ 
+	        \raise #1.2 \line{ \jcFlat "9" } % the lower tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "5" }  % the upper tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" } 
 	

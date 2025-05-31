@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1933 Miller Music Corporation"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Close your eyes. __ Rest your head on my shoul -- der and sleep.
 Close your eyes __ and I will close mine. __
 
@@ -93,4 +93,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

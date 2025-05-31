@@ -12,9 +12,6 @@
 
 straightEighths = ##t
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   \chordInsideParens{ g2.:7 }
   c1:m bf1 c1:m ef1

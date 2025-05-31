@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1941 Regent Music Corporation"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
   

@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1941 Peer International Corp."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 In my a -- do -- be ha -- ci -- en -- da __
 There's a touch __ of Mex -- i -- co, __
 Cac -- tus love -- li -- er than orch -- ids __
@@ -37,7 +37,7 @@ Har -- mo -- ny __ is ev' -- ry -- where. __
 refrainChords = \chordmode {
   s4
   
-  c1:6 c1:6 g1:7 g1:7 g1:7 g1:7 c1:6 c1:6
+  c1:6 c1:6 g1:7 g1:7 g1:7 g1:7 c1:6 c2:6 g2:7
 
   c1:6 c1:6 g1:7 g1:7 g1:7 g1:7 c1:6 c1:6
 
@@ -45,7 +45,7 @@ refrainChords = \chordmode {
 
   c1:6 c1:6 g1:7 g1:7 g1:7 g1:7
 
-  c1:6 \chordInsideParens{ g1:7 }
+  c1:6 c2:6 \chordInsideParens{ g2:7 }
 }
 
 refrainKey = c
@@ -95,4 +95,4 @@ refrainMelody = \relative c' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

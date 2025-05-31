@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1934 Remick Music Corp."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Are the stars out to -- night? __
 I don't know if it's cloud -- y or bright, __
 'cause I on -- ly have eyes __ for
@@ -57,7 +57,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 90
+  \tempo "Ballad [The Flamingos 1959]" 4 = 90
   
   \partial 2 d4. e8 |
 
@@ -104,4 +104,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

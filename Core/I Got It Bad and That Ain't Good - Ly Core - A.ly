@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1941 Robbins Music Corporation"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Nev -- er treats me sweet and gen -- tle the way he should;
 I got it bad and that ain't good.
 My poor heart is sen -- ti -- men -- tal not made of wood;
@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 90
+  \tempo "Ballad [Duke Ellington 1941]" 4 = 78
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -92,4 +92,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

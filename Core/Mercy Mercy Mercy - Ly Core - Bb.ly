@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1966 Zawinul Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   bf2 bf2:7/d ef2 ef2/f bf2 bf2:7/d
   ef2 ef2/f bf2 bf2:7/d ef2 ef2/f

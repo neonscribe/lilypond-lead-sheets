@@ -13,10 +13,7 @@
 
 bossaRhythm = ##t
 
-unsyncedrefrainLyrics = \lyricmode {
-}
-
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Es -- te seu ol -- har __
 Quan -- do_en contra o meu __
 Fa -- la de_u -- mas coi -- sas
@@ -91,7 +88,7 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"
 
 
 chordDiagrams = \chordmode {

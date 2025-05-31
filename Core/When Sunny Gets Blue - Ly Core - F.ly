@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1956 Marvin Music Company"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 When Sun -- ny gets blue
 her eyes get gray and clou -- dy,
 then the rain be -- gins to fall.
@@ -107,4 +107,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

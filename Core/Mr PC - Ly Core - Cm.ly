@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1959 Jowcol Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   c1:m c1:m c1:m c1:m
   f1:m f1:m c1:m c1:m

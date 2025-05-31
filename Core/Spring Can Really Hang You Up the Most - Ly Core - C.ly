@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1955 Wolf-Mills Music, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Once I was a sen -- ti -- men -- tal thing.
 Threw my heart a -- way each Spring.
 Now a Spring ro -- mance has -- n't got a chance, pro -- mised my first dance to Win -- ter.
@@ -150,7 +150,7 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"
 
 \markup{ "Solo on form " \box \bold "A1" \box \bold "A2" \box \bold "B" \box \bold "C"
 	 ". D.S. al Coda after solos." }

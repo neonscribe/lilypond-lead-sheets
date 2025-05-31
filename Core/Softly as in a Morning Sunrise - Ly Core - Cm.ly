@@ -51,9 +51,9 @@ refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 140
+  \tempo "Medium [June Christy 1955]" 4 = 115
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectStart "A1"
   
   c2 g2 | r8 f8 g8 f8 g4 f4 | c'2 ef,2 | r8 d8 ef8 d8 ef4 d4 |
   \break

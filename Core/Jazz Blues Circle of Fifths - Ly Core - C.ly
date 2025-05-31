@@ -12,9 +12,6 @@
   copyright = \markup \small ""
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainKey = c
 
 refrainChordsInC = \chordmode {

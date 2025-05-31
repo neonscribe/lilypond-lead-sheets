@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1929 Donaldson, Douglas & Gumble, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   I left Fris -- co Kate, __ Swing -- in' on the Gold -- en Gate, __
   When Kan -- sas Cit -- y Kit -- ty smiled at me! __
   
@@ -107,4 +107,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

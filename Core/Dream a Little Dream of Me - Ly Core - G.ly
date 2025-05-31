@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1931 Davis, Coots & Engel, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Stars shin -- ing bright a -- bove you.
 Night breez -- es seem to whis -- per “I love you.”
 Birds sing -- in' in the syc -- a -- more trees,
@@ -103,4 +103,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

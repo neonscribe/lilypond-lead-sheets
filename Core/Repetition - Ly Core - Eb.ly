@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1947 Encino Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   a1:m7 b2:m7 e2:7.9- a1:m7 b2:m7 e2:7.9-
   

@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1942 Tempo Music Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   df1:7 df1:7 df1:7 df1:7
   gf1:7 gf1:7 df1:7 df1:7

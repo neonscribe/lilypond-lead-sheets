@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1935 Mills Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   a1:m7.5- d1:7 a1:m7.5- d1:7
   g2 g2:7/b c1:6 a1:7 d1:7

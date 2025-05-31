@@ -40,6 +40,11 @@ refrainLyrics =
   refrainObjectGenderFemaleLyrics)
 
 refrainChords = \chordmode {
+  af2:6 a2:dim7 ef2:6/bf ef2:7
+  af2:6 a2:dim7 d2:m7.5- g2:7
+  c2:7 af2:7 g2:7 c2:7
+  f2:7 bf2:7 ef2:6 af4:7 g4:7
+
   c2:7 af2:7 g2:7 c2:7 f2:7 bf2:7 ef2:6 g2:7
   c2:7 af2:7 g2:7 c2:7 f2:7 bf2:7 ef2:6 ef2:7
   
@@ -57,12 +62,17 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Blues Ballad" 4 = 80
+  \tempo "Blues Ballad [Nat King Cole 1943]" 4 = 75
 
-  \xTextMark \markup{ \bold \box "A" }
+  \sect "Intro"
+  
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  
+  \sect "A"
   
   c'4~ \tuplet 3/2 { c8 g8 af8 } bf8 ef,4 f8 | g4~ \tuplet 3/2 { g8 af8 fs8 } g2 |
-  \break
+  %% \break
   gf4 \tuplet 3/2 { gf8 ef4 } \tuplet 3/2 { gf8 gf8 f8~ } f8 ef8 | ef2 r8 g4. |
   \break
   c4~ \tuplet 3/2 { c8 g8 af8 } bf8 ef,4 f8 | g4~ \tuplet 3/2 { g8 af8 fs8 } g2 |

@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1958 Second Floor Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s1
   
@@ -45,8 +42,8 @@ refrainChords = \chordmode {
   s2 bf4./f f8 s1
   
   bf2:m7 af2:7 g2:7.9- c2:7.5+.9+ bf1/f f2:m b2:9.11+
-  bf2:m7 af2:7 g2:7.9- c2:7.5+.9+ f2:m f2:m/e 
-  f2:m/ef d2:7.5-.9+ df1:maj7 c8*7:7.5+.9+ bf8*9/f f1:m
+  bf2:m7 af2:7 g2:7.9- c2:7.5+.9+ f2:m df2/e 
+  ef2:6.9 d2:7.5-.9+ df1:maj7 c2.:7.5+.9+ bf4*5/f f1:m
 }
 
 refrainKey = f
@@ -59,7 +56,7 @@ refrainMelody = \relative f' {
 
   r8 f8 r8 f8 af8 af8 f8 c8 |
 
-  \xTextMark \markup{ \bold \box "A1, A2" \musicglyph #"scripts.segno" }
+  \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box "A1, A2" }
   
   \bar ".|:"
   \repeat volta 2 {
@@ -148,4 +145,4 @@ refrainKicksOverTime = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-kicks.ily"
+\include "../Include/refrain.ily"

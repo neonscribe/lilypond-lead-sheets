@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1935 Milsons Music Publishing Corp."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 In a sen -- ti -- men -- tal mood __
 I can see the stars come thru my room __
 While your lov -- ing at -- ti -- tude __
@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 108
+  \tempo "Ballad [Duke Ellington 1935]" 4 = 84
 
   r4 f8 g8 a8 c8 d8 f8 |
 
@@ -103,4 +103,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

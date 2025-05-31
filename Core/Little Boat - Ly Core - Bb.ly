@@ -14,9 +14,6 @@
 
 bossaRhythm = ##t
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   bf1:maj7 bf1:maj7 e2:m7 a2:7 e2:m7 a2:7
   af1:maj7 af1:maj7 d2:m7 g2:7 d2:m7 g2:7

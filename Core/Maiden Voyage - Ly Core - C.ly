@@ -14,9 +14,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1965 Hancock Music Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
 
@@ -155,6 +152,6 @@ refrainBass = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-bass.ily"
+\include "../Include/refrain.ily"
 
 \markup { "Use chords and bass of " \bold \box "A" " for intro and outro." }

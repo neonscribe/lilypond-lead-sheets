@@ -10,9 +10,6 @@
   copyright = \markup \small "© 1922 Ascherberg, Hopwood & Crew Ltd."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   df1:7 df1:7 df1:7 df1:7
   bf1:7 bf1:7 bf1:7 bf1:7

@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1951 Walt Disney Music Company"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Al -- ice in Won -- der -- land, how do you get to Won -- der -- land?
 O -- ver the hill or un -- der -- land or just be -- hind the tree. __ ""
 
@@ -91,4 +91,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

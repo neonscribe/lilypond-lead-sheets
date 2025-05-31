@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1946 Warner Bros. Corporation"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 If you could see me now you'd know how blue I've been.
 One look is all you'd need to see the mood I'm in.
 Per -- haps then you'd re -- a -- lize I'm still in love with you.
@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 134
+  \tempo "Ballad [Bill Evans 1965]" 4 = 62
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   
@@ -93,4 +93,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1956 Prestige Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   r1 a2:m7/d d2:7.5+ a4:m7/d d4:7.5+ \chordSlash 1 \chordSlash 1 g2:maj7 af4.:7 g8:maj7
   r1 a2:m7/d d2:7.5+ a4:m7/d d4:7.5+ \chordSlash 1 \chordSlash 1 g2:maj7 af4.:7 g8:maj7
@@ -48,7 +45,7 @@ refrainMelody = \relative f' {
   \break
   r8 d,8 a'8 fs8 g8 a8 b8 d8 | g8 e4-. g8 ef4-. g8 e8 | r8 g8 ef4-. g8 ef4-. g8 | d1 |
   \break
-  f8 d4 f8 df2 | d8 b4-. d8 bf4-. d8 b8 | r8 d8 bf4-. d8 bf4-. d8 | a2. r4 \textToCodaLastTime |
+  f8 d4 f8 df2 | d8 b4-. d8 bf4-. d8 b8 | r8 d8 bf4-. d8 bf4-. d8 \textToCodaLastTime | a2. r4 |
   }
   \bar ":|.|:"
   \break
@@ -95,6 +92,8 @@ codaMelody = \relative f' {
 
 \include "../Include/refrain.ily"
 
-\include "../Include/coda-ragged.ily"
+codaRaggedRight = ##t
+
+\include "../Include/coda.ily"
 
 \markup "Head is played twice before and twice after solos."

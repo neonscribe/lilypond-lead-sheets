@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1955 Orpheus Music, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
   g1:7 g1:7 g1:7 g1:7

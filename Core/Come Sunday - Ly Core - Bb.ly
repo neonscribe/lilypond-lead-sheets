@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1946 G. Schirmer, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   f1:7 ef1:7 f4:7 \chordSlash 2 d4:7.5+ g1:7
   c1:m7 f1:7 bf2 ef2/bf bf2:dim7 bf2:6

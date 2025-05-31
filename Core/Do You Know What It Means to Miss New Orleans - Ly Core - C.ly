@@ -35,7 +35,7 @@ I miss the one I care for more than I miss New Or -- leans.
 }
 
 refrainHLPAChords = \chordmode {
-  s4
+  c2:maj7 g2:7.5+ c2:maj7 g2:7.5+ d2:m7 af2:7 g2:sus7 g2:7
 
   c2:maj7 g2:7.5+ c2:maj7 g2:7.5+ c2:maj7 f2:7 e4:7 e4:7.5+ a4:sus7 a4:7.5+
   d2:m7 ef2:dim7 e2:m7 a2:7.5+ d2:m7 af2:7 g2:sus7 g2:7
@@ -52,7 +52,7 @@ refrainHLPAChords = \chordmode {
 }
 
 refrainHLRBChords = \chordmode {
-  s4
+  c2:maj7 g2:7.5+ c2:maj7 a2:m7 d2:7 g2:7 c2:6 d4:m7 g4:7
 
   c2:maj7 g2:7.5+ c2:maj7 a2:m7 e2:m7 a2:m7 d1:7
   d2:m7 ds2:dim7 e2:m7 a2:7 d2:m7 af2:7 g1:7
@@ -70,7 +70,7 @@ refrainHLRBChords = \chordmode {
 }
 
 refrainNicoChords = \chordmode {
-  s4
+  c2:maj7 g2:7.5+ c2:maj7 a2:m7 d2:7 g2:7 c4 af4:9 g4:sus7 g4:9
 
   c2:maj7 g2:7.5+ c2:maj7 a2:m7 e2:m7 a2:m7 d1:7
   f2 fs2:dim7 c2/g a2:7 d2:m7 af2:7 g1:7
@@ -89,7 +89,7 @@ refrainNicoChords = \chordmode {
 }
 
 refrainRBTwoChords = \chordmode {
-  s4
+  c2 g2:7.5+ c2 a2:m7 d2:7 g2:7 c4 af4:7 d4:m7/g g4:7
 
   c2 g2:7.5+ c2 a2:m7 e2:m7 a2:m7 d1:7
   f2:6 fs2:dim7 c2/g a2:7 d2:m7 af2:7 g1:7
@@ -117,10 +117,11 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Slow Swing [Louis Armstrong 1949]" 4 = 94
 
-  \partial 4 c8 d8 |
-  \bar "||"
+  \sectStart "Intro"
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq c8 d8 |
+
+  \sect "A1"
   
   e8 g8 a8 b8~ b4. c8 | b8 a8 g8 a8~ a4. c8 | b8 a8 g8 a8~ a4 c4 | e,2. r8 ef8 |
   \break

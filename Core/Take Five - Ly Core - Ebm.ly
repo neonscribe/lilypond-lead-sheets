@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1960 Desmond Music Co."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2
 

@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1963 Elliot Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   r1*4
   
@@ -99,7 +96,7 @@ refrainKicksOverTime = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-bass-with-kicks.ily"
+\include "../Include/refrain.ily"
 
 \markup { "Play " { \bold \box "Intro" } " then " { \bold \box "A" } " twice. Solo on " { \bold \box "A" }
 	  "After solos, pickup, D.S. al Coda, vamp on coda until cue at FINE." }

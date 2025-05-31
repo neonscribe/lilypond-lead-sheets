@@ -9,9 +9,6 @@
   copyright = \markup \small "© 2009 EMI April Music Inc., Sony/ATV Cross Keys Publishing, Gary Nicholson Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   e1:m b1:m c2. g4 g1
 

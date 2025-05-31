@@ -221,7 +221,9 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-refrainLyricsLanguageOne = \refrainPortugueseLyrics
-refrainLyricsLanguageTwo = \refrainEnglishLyrics
+refrainLyrics = \refrainPortugueseLyrics
+refrainLyricsTwo = \refrainEnglishLyrics
 
-\include "../Include/refrain-two-languages.ily"
+refrainTwoLanguages = ##t
+
+\include "../Include/refrain.ily"

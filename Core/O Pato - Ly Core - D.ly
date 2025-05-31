@@ -41,9 +41,6 @@ refrainLyricsLanguageOne = \refrainLyricsPortuguese
 
 refrainLyricsLanguageTwo = \refrainLyricsEnglish
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2
   

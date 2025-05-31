@@ -15,7 +15,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1940 ABC Music Corp."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 A coun -- try dance was be -- ing held in a gar -- den,
 I felt a bump and heard an “Oh, beg your par -- don,”
 Sud -- den -- ly I saw pol -- ka -- dots and moon -- beams
@@ -100,4 +100,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

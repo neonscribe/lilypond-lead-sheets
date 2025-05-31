@@ -2,7 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 “C'est si bon,”
 De par -- tir n'im -- porte où,
 Bras des -- sus, bras des -- sous

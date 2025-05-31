@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1933 Bourne Corp."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Let's fall in love. Why should -- n't we __ fall in love?
 Our hearts are made __ of it, let's take a chance, __ why be a -- fraid __
 
@@ -94,4 +94,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

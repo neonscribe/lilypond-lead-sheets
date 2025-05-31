@@ -13,9 +13,6 @@
   copyright = \markup \small "1892"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   e2:m a2:m6/e e2:dim7 ds2:dim7/e
   

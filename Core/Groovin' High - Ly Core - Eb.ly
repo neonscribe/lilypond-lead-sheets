@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1944 MCA Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   ef1:6 ef1:6 a1:m7 d1:7
   ef1:6 ef1:6 g1:m7 c1:7
@@ -37,7 +34,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up Swing" 4 = 162
+  \tempo "Bop [Dizzy Gillespie 1945]" 4 = 190
 
   \xTextMark \markup{ \bold \box "A1" }
   

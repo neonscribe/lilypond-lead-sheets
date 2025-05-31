@@ -18,9 +18,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 bossaRhythm = ##t
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   d2:m9 g2:13 d2:m9 g2:13 d2:m9 g2:13 d2:m9 g2:13 
   

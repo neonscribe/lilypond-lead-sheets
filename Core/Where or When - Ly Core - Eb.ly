@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1937 Chappell & Co."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 It seems we stood and talked like this be -- fore.
 We looked at each oth -- er in the same way then,
 But I can't re -- mem -- ber where or when. __ when. __
@@ -91,4 +91,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1934 Chappell & Co., Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Miss O -- tis re -- grets she's un -- a -- ble to lunch to -- day, Ma -- dam. __
 Miss O -- tis re -- grets she's un -- a -- ble to lunch to -- day. __
 She is sor -- ry to be de -- layed,
@@ -117,4 +117,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

@@ -13,9 +13,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 2008"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   a1:m f1 e1:7
   

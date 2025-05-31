@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1959 Jazz Horn Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   g2.:7 g2.:7 g2.:7 g2.:7
   g2.:7 g2.:7 g2.:7 g2.:7
@@ -102,4 +99,4 @@ refrainBass = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-bass-no-note-names.ily"
+\include "../Include/refrain.ily"

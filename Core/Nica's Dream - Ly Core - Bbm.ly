@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1956 Ecaroh Music, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
 

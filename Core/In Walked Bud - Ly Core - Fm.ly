@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1948 Embassy Music Corporation"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   f1:m f1:m7+ f1:m7 bf2:7 ef2:7
   af2:6 f2:7 bf2:m7 ef2:7 af1:6
@@ -38,7 +35,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium-Up Swing" 4 = 180
+  \tempo "Medium-Up Swing [Thelonius Monk 1947]" 4 = 180
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   
@@ -104,4 +101,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-no-note-names.ily"
+\include "../Include/refrain.ily"

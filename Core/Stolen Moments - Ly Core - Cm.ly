@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1962 Oliver E. Nelson"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   c1:m7 d1:m7/c ef1:maj7/c d1:m7/c
 

@@ -14,9 +14,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 straightEighths = ##t
 
-refrainLyrics = \lyricmode {
-}
-
 refrainKey = a
 
 refrainMelody =  \relative a' {

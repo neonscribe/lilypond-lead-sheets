@@ -17,9 +17,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 straightEighths = ##t
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   c2 a2:m f2:m g2:7 c2 a2:m f2 g2:7
   

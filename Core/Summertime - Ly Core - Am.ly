@@ -26,49 +26,110 @@ refrainLyrics = \lyricmode {
   With Dad -- dy and Mam -- my stand -- in' by. __
 }
 
-%%% SRB (alternate chords, also found in 557 Standards, based on Miles Davis-Gil Evans)
-
-refrainSRBChords = \chordmode {
+refrainFiveFiveSevenChords = \chordmode {
   s2
+
   a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 a2:7
-  d2:m7 g2:7 c2:9 f2:9 e2:9 b2:7.5+ e2:9 e2:7.9-
+  d2:m7 g2:7 c2:7 f2:7 b1:m7.5+ e1:7.9-
 
   a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 d2:m9 g2:7.9-
-  c2:maj7 f2:9 b2:m7.5- e2:7.5+ a2:m7 d2:9 a2:m7 d2:9
+  c2:maj7 a2:m7 f2:13 e2:7.5+ a2:m7 d2:9 a2:m7 d2:9
 
   a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 a2:7
-  d2:m7 g2:7 c2:9 f2:9 e2:9 b2:7.5+ e2:9 e2:7.9-
+  d2:m7 g2:7 c2:7 f2:7 b1:m7.5+ e1:7.9-
+
+  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 d2:m9 g2:7.9-
+  c2:maj7 a2:m7 f2:13 e2:7.5+ a2:m7
+  \chordOpenParen{ d2:9 }
+  a2:m7
+  \chordCloseParen{ d2:9 }
+
+}
+
+refrainMJQChords = \chordmode {
+  s2
+
+  a2:m7 c2:7/g f2:7 e2:7 a2:m7 d2:7 g2:7 c2:7
+  f1:7 b1:7.9+ e2:7 b2:7 e2:7.5+ bf2:7
+
+  a2:m7 c2:7/g f2:7 e2:7 a2:m7 a2:m7/g fs2:m7.5- f2:m7 
+  c2:maj7/e a2:m7 d2:7 e2:7 a2:m7 c2:7/g f2:7 e2:7
+
+  a2:m7 c2:7/g f2:7 e2:7 a2:m7 d2:7 g2:7 c2:7
+  f1:7 b1:7.9+ e2:7 b2:7 e2:7.5+ bf2:7
+
+  a2:m7 c2:7/g f2:7 e2:7 a2:m7 a2:m7/g fs2:m7.5- f2:m7 
+  c2:maj7/e a2:m7 d2:7 e2:7 a2:m7
+  \chordOpenParen{ c2:7/g }
+  f2:7 
+  \chordCloseParen{ e2:7 }
+}
+
+refrainColoradoChords = \chordmode {
+  s2
   
-  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9
-  c2:maj7 f2:9 b2:m7.5- e2:7.5+ a2:m7 d2:9 a2:m7 d2:9
+  a1:m a1:m a1:m a1:m
+  d1:m d1:m b1:m7.5- e1:7
+
+  a1:m a1:m a1:m d2:m7 g2:7
+  c2:maj7 f2:7 b2:m7.5- e2:7 a1:m b2:m7.5- e2:7
+
+  a1:m a1:m a1:m a1:m
+  d1:m d1:m b1:m7.5- e1:7
+
+  a1:m a1:m a1:m d2:m7 g2:7
+  c2:maj7 f2:7 b2:m7.5- e2:7 a1:m
+  \chordOpenParen{ b2:m7.5- }
+  \chordCloseParen{ e2:7 }
 }
 
 refrainJoelChords = \chordmode {
   s2
   
-  a1:m7 a1:m7 a1:m7 a1:m7
-  d1:m7 f1:7 e1:7 e1:7
-  a1:m7 a1:m7 a1:m7 a1:m7
-  c2/g c2 b2:m7.5- e2:7 a1:m7 e1:7
+  a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13
+  d2:m7 d2:sus6 d2:7 d2:sus6 e1:7 e1:7
 
-  a1:m7 a1:m7 a1:m7 a1:m7
-  d1:m7 f1:7 e1:7 e1:7
-  a1:m7 a1:m7 a1:m7 a1:m7
-  c2/g c2 b2:m7.5- e2:7 a1:m7 \chordInsideParens{ e1:7 }
+  a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13
+  c2/g a2:m7/c b2:m7.5- e2:7 a2:m7 a2:13 a2:m7 e2:7
+
+  a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13
+  d2:m7 d2:sus6 d2:7 d2:sus6 e1:7 e1:7
+
+  a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13
+  c2/g a2:m7/c b2:m7.5- e2:7 a2:m7 a2:13 a2:m7 e2:7
 }
 
-refrainTonjaChords = \chordmode {
+refrainGilEvansChords = \chordmode {
   s2
   
-  a1:m7 b2:m7.5- e2:7.9- a1:m7 a2:m7 a2:7.9-
-  d1:m7 d1:m7 b1:m7.5- e1:7.9-
-  a1:m7 b2:m7.5- e2:7.9- a1:m7 d2:m7 g2:7
-  c2:maj7 a2:m7 b2:m7.5- e2:7.5+ a1:m7 b2:m7.5- e2:7.9-
+  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 
+  d2:m7 g2:7 c2:9 f2:9 e2:9 b2:7.5+ e2:9 e2:7.9-
+ 
+  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 
+  c2:maj7 f2:9 b2:m7.5- e2:7.5+ a2:m7 d2:9 a2:m7 d2:9
 
-  a1:m7 b2:m7.5- e2:7.9- a1:m7 a2:m7 a2:7.9-
+  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 
+  d2:m7 g2:7 c2:9 f2:9 e2:9 b2:7.5+ e2:9 e2:7.9-
+ 
+  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 
+  c2:maj7 f2:9 b2:m7.5- e2:7.5+ a2:m7
+  \chordOpenParen{ d2:9 }
+  a2:m7
+  \chordCloseParen{ d2:9 }
+}
+
+refrainFreeJazzLessonsChords = \chordmode {
+  s2
+  
+  a1:m7 b2:m7.5- e2:7.9- a1:m7 a1:7
   d1:m7 d1:m7 b1:m7.5- e1:7.9-
   a1:m7 b2:m7.5- e2:7.9- a1:m7 d2:m7 g2:7
-  c2:maj7 a2:m7 b2:m7.5- e2:7.5+ a1:m7
+  c1:maj7 b2:m7.5- e2:7.9- a1:m7 b2:m7.5- e2:7.9-
+
+  a1:m7 b2:m7.5- e2:7.9- a1:m7 a1:7
+  d1:m7 d1:m7 b1:m7.5- e1:7.9-
+  a1:m7 b2:m7.5- e2:7.9- a1:m7 d2:m7 g2:7
+  c1:maj7 b2:m7.5- e2:7.9- a1:m7
   \chordOpenParen{ b2:m7.5- }
   \chordCloseParen{ e2:7.9- }
 }
@@ -90,7 +151,9 @@ refrainVanillaChords = \chordmode {
 
 refrainChords = #(if (and (defined? 'useJoelChords) useJoelChords)
 		  refrainJoelChords
-		  refrainTonjaChords)
+		  (if (and (defined? 'useGilEvansChords) useGilEvansChords)
+		   refrainGilEvansChords
+		   refrainFreeJazzLessonsChords))
 
 refrainKey = a
 
@@ -98,7 +161,7 @@ refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 110
+  \tempo "Medium [Miles Davis and Gil Evans 1959]" 4 = 110
   
   \partial 2 e4 c4 |
   \bar "||"

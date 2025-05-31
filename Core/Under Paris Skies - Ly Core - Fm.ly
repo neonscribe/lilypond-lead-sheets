@@ -13,9 +13,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1951 Editions Choudens"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   f2.:m7 f2.:m7 f2.:m7 f2.:m7
   b2.:m7 bf2.:m7/af bf2.:m7/g bf2.:m7/f

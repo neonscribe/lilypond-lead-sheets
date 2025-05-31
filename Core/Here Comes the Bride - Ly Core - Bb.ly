@@ -7,9 +7,6 @@
   subtitle = \instrument
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   bf1 bf1 bf2 f2:7 bf1
   bf2. ef4 ef1 bf2 c2:7 f1

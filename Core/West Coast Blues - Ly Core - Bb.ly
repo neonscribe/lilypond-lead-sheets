@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1960 Taggie Music Co."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   bf2.:7 bf2.:7 af2.:7 af2.:7
   bf2.:7 bf2.:7 b2.:m7 e2.:7

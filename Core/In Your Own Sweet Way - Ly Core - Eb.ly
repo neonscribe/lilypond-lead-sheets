@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1955 Derry Music Co."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainHLChords = \chordmode {
   s4
   
@@ -57,7 +54,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 122
+  \tempo "Medium Swing [Miles Davis 1956]" 4 = 110
   
   \partial 4 ef'8 bf8 |
 

@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1934 Mills Music, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 It must have been moon -- glow,
 way up in the blue.
 It must have been moon -- glow
@@ -126,4 +126,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

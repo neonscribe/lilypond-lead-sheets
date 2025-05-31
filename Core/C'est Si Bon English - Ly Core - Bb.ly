@@ -4,7 +4,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   “C'est si bon,” __ lov -- ers say that in France, __
   when they thrill to ro -- mance, __
   it means that it's so good. __

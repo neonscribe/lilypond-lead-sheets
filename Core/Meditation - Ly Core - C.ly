@@ -15,13 +15,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 bossaRhythm = ##t
 
-refrainLyricsOne = \lyricmode {
-}
-
-refrainLyricsTwo = \lyricmode {
-}
-
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 In __ my lone -- li -- ness __
 When you're gone and I'm all by my -- self and I __ need your ca -- ress, __
 I __ just think of you, __ and the thought of you hold -- ing me near
@@ -103,4 +97,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1955 Chappell & Co., Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 While I give to you and you give to me
 true love, true love.
 So, on and on it will al -- ways be
@@ -93,4 +93,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

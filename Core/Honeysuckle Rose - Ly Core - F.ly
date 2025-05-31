@@ -10,7 +10,7 @@
   copyright = \markup \small "© 1929 Santly Bros., Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   Ev -- 'ry hon -- ey -- bee fills with jeal -- ous -- y when they see you out with me,
   I don't blame them, good -- ness knows, Hon -- ey -- suck -- le Rose. _
 
@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Swing" 4 = 150
+  \tempo "Medium-Fast Swing [Coleman Hawkins 1937]" 4 = 185
 
   \sectStart "A1,A2"
 
@@ -91,4 +91,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

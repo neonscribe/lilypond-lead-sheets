@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1956 The Herald Square Music Co."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Be wise, be smart, be -- have my heart, 
 don't up -- set your cart when she's so close.
 Be
@@ -105,4 +105,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

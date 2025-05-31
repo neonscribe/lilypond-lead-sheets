@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1914 Handy Bros. Music Co. Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2
 

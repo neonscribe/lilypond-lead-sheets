@@ -14,9 +14,6 @@
 
 bossaRhythm = ##t
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   a1:m7 b2:7.9+ e2:7.5+ a1:m7
   b2:7.9+ e2:7.5+ a1:m7 f1:maj7
@@ -112,4 +109,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-no-note-names.ily"
+\include "../Include/refrain.ily"

@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1928 Universal Edition AG Wien"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2
   

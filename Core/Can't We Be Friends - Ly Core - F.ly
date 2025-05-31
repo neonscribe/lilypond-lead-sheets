@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1929 HARMS Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 I thought I'd found the man of my dreams.
 Now it seems, this is how the stor -- y ends.
 He's goin' to turn me down and say,
@@ -106,4 +106,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

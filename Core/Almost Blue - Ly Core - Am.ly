@@ -49,6 +49,8 @@ refrainLyrics =
 
 refrainChords = \chordmode {
   \set chordChanges = ##t
+  a2:m a2:m7+/gs a2:m7/g b4:m7.5- e4:7.9- a2:m ef2:dim7 b2:m7.5- e2:7.9-
+
   a2:m a2:m7+/gs a2:m7/g b4:m7.5- e4:7 a2:m a2:m7+/gs a2:m7/g b4:m7.5- e4:7
   c2:maj7 f2:maj7 e2:7.9+ e2:7.9+/d a2:m b2:m7/a ds2:dim7/a d2:m/a
   c2 bf2:6 a2:7.9- a2:7.9-/g d2:m d2:m/c b2:m7.5- e2:7.5+
@@ -70,7 +72,11 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad [Elvis Costello 1982]" 4 = 62
 
-  \sectStart "A1"
+  \sectStart "Intro"
+
+  \rsq \rsq \rsq \rsq \noBreak | \rsq \rsq \rsq \rsq \noBreak | \rsq \rsq \rsq \rsq \noBreak | \rsq \rsq \rsq \rsq |
+
+  \sect "A1"
   
   r4 e8 e8~ e8 e4.~ | e4 e8 g8 f8 e8 d8 c8 | r4 e8 e8~ e8 e4.~ | e4 r8 e16 g16 f8 e8 d8 c8 |
   r4 e8 a,8 c2 | r4 e4 d2 | r4 a'4 b2 | c4. a16 b16 c8 b8 a8 g8 |

@@ -48,7 +48,7 @@ introBass = \relative f' {
   e,2 ds2 | d1 | cs2 b2 | a4 cs4 |
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Let me take you down, __ 'cause I'm go -- ing to __
 Straw -- ber -- ry Fields.
 No -- thing is real,
@@ -94,9 +94,6 @@ Al -- ways, no, some -- times think it's me, __
 but_you know I know when it's a dream. __
 I think a “No,” I mean a “Yes,” but it's all __ _ wrong.
 That is, I think I dis -- a -- gree.
-}
-
-refrainLyricsFour = \lyricmode {
 }
 
 refrainChords = \chordmode {
@@ -213,6 +210,6 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/intro-with-bass.ily"
+\include "../Include/intro.ily"
 
-\include "../Include/refrain-four-verses.ily"
+\include "../Include/refrain.ily"

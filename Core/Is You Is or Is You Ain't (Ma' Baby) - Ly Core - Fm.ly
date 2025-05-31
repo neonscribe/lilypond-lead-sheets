@@ -260,4 +260,4 @@ refrainKicksOverTime = \relative f' {
 
 \include "../Include/verse.ily"
 
-\include "../Include/refrain-with-kicks.ily"
+\include "../Include/refrain.ily"

@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1963 Jazz Horn Music Corporation"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
   

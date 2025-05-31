@@ -37,9 +37,6 @@ bassIntro = \relative f' {
   }
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   e2:maj7 gs2:7/ds cs2:m7 b2:7 bf2:7 e2:7.5- ef2:maj7 ef4:m7 af4:7
   df2:maj7 f2:7/c bf2:m7 af2:7 g2:7 df2:7.5-

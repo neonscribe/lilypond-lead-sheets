@@ -1,6 +1,13 @@
 %% -*- Mode: LilyPond -*-
 
+\version "2.25.25"
+
 \include "../Include/lead-sheets.ily"
+
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
 
 \header {
   title = "A Beautiful Friendship"
@@ -43,6 +50,16 @@ refrainChords = \chordmode {
 }
 
 refrainKey = c
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative c' {
   \time 4/4

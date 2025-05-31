@@ -10,7 +10,7 @@
   copyright = \markup \small "© 1959 Beechwood Music Corp."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Scotch and so -- da, mud in your eye,
 Ba -- by, do I feel high,
 Oh me, oh my,
@@ -100,4 +100,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

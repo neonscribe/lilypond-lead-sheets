@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1934 Bregman, Vocco and Conn, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   Sleigh bells ring, are you lis -- t'nin'?
   In the lane, snow is glis -- t'nin'.
   A beau -- ti -- ful sight, we're hap -- py to -- night,
@@ -115,4 +115,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1948 Woodbury Music Company"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   Just hear those sleigh bells jin -- gle -- ing,
   ring -- ting -- tin -- gle -- ing, too.
   Come on, it's love -- ly weath -- er for a
@@ -193,4 +193,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

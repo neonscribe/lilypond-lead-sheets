@@ -60,9 +60,6 @@ Oh it's got my soul on fire, I know that
 I'll never tire of that low down blue drag
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   d2:m d2:m/c b2:m7.5- bf2:7 d2:m d2:m/c b2:m7.5- bf2:7
   d1:m e1:m7.5- bf2:7 a2:7 

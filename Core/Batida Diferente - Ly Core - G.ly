@@ -36,9 +36,6 @@ unsynchronizedRefrainLyrics = \lyricmode {
 
 bossaRhythm = ##t
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
 

@@ -11,7 +11,7 @@
   copyright = \markup \small "© 1946 Atlantic Music Corp."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 It's hard to learn
 how tears can burn __ one's heart, __
 but that's the thing that I found out. __
@@ -123,7 +123,7 @@ codaMelody = \relative g' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"
 
 \markup {
   \vspace #2

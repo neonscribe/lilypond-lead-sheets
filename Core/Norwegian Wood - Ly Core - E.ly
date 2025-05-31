@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1966 Northern Songs Ltd."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _
 
 \set stanza = "1. "
@@ -115,4 +115,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

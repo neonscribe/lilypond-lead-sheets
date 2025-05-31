@@ -13,8 +13,10 @@ printNoteNames =
 \include "english.ly"
 \include "presets.ily"
 \include "utilities.ily"
+\include "scoop.ily"
 \include "swing.ly"
-\include "parens.ily"
+\include "scoop.ily"
+\include "trill.ily"
 \include "bar-lines.ily"
 \include "chord-slash.ily"
 

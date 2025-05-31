@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1952 Pamlee Music Co."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   bf1:7 bf1:7 bf1:7 bf1:7 
   ef2:7 \chordInsideParens{ e2:7 } ef1:7 bf1:7 bf1:7

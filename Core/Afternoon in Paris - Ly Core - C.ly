@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1949 MJQ Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
   c1:maj7 c2:m7 f2:7 bf1:maj7 bf2:m7 ef2:7

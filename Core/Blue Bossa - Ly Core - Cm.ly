@@ -12,9 +12,6 @@
 
 bossaRhythm = ##t
 
-refrainLyrics = \lyricmode {
-}
-
 refrainHLChords = \chordmode {
   \chordInsideParens{ g4:7.5+ }
   c1:m c1:m f1:m7 bf1:7

@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1963 Elliot Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   \set chordChanges = ##t
   f2:m7 g2:m7 af2:maj7 g4:m7 g4:m7/c
@@ -165,4 +162,4 @@ refrainBass = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-bass.ily"
+\include "../Include/refrain.ily"

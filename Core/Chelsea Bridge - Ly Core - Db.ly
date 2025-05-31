@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1941 Billy Strayhorn Songs, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2.
   

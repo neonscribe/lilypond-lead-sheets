@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1931 Leo Feist, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 There ought to be a moon -- light sav -- ing time, __
 so I could love that man of mine, __
 un -- til the bird -- ies wake and chime, __ “Good
@@ -112,4 +112,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

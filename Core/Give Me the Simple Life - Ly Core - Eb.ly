@@ -32,10 +32,9 @@ verseMelody = \relative f'' {
   \time 2/2
   \key \verseKey \major
   \clef \whatClef
+  \tempo "Medium [Bing Crosby 1945]" 4 = 128
 
   \xTextMark \markup{ "Verse" }
-
-  \tempo "Medium"
 
   c8 c8 c8 bf8 c8 c8 c8 bf8 | g8 g8 g2. |
   c8 c8 c8 bf8 c8 c8 c8 bf8 | g1 | d'8 d8 d8 bf8 d8 d8 d8 bf8 |
@@ -43,72 +42,87 @@ verseMelody = \relative f'' {
   \bar "||"
 }
 
-refrainLyricsAOneOne = \lyricmode {
+refrainLyrics = \lyricmode {
   I don't be -- lieve in fret -- tin' __ and griev -- in',
   Why mess __ a -- round with strife?
   I __ nev -- er was cut out to step and strut out,
-}
 
-refrainLyricsAOneTwo = \lyricmode {
-  Liv -- ing I find is best __
-  when your mind is keen __ as a carv -- ing knife. __
-  I'm cra -- zy a -- bout sleep, 
-  can't __ do with -- out sleep,
-}
+  Give __ me the sim -- ple life! __
 
-refrainLyricsTitle = \lyricmode {
+  Some __ find it pleas -- ant din -- ing on pheas -- ant.
+  Those __ things roll off my knife. __
+  Just serve __ me to -- ma -- toes and __ mashed po -- ta -- toes,
+
+  Give __ me the sim -- ple life! __
+
+  A cot -- tage small is all I'm af -- ter,
+  Not one that's spa -- cious and wide;
+  A house that rings with joy and laugh -- ter
+  And the ones you love in -- side. __
+
+  Some __ like the high road, I __ take the low road,
+  Free __ from the care and strife. __
+  Sounds corn -- y and seed -- y, but __ yes, in -- deed -- y;
+
   Give __ me the sim -- ple life! __
 }
 
-refrainLyricsATwoOne = \lyricmode {
-Some __ find it pleas -- ant din -- ing on pheas -- ant.
-Those __ things roll off my knife. __
-Just serve __ me to -- ma -- toes and __ mashed po -- ta -- toes,
+refrainLyricsTwoMale = \lyricmode {
+  Liv -- ing I find is best __
+  when your mind is keen __ as a carv -- ing knife. __
+  I'm cra -- zy a -- bout sleep,
+  can't __ do with -- out sleep,
+
+  Give __ me the sim -- ple life! __
+
+  I __ love to whit -- tle and play a lit -- tle
+  tune __ on a ten cent fife.
+  I don't __ aim to wor -- ry, hus -- tle or hur -- ry,
+
+  Give __ me the sim -- ple life! __
+
+  I greet the dawn when I a -- wak -- en,
+  the sky is clear up a -- bove.
+  I like my scram -- bled eggs and ba -- con
+  served by some -- one that I love. __
+
+  Life __ could be thril -- ling wth one who's will -- ing
+  To be a farm -- ers wife
+  Kids call -- ing me pap -- py would make me hap -- py.
+
+  Give __ me the sim -- ple life! __
 }
 
-refrainLyricsATwoTwo = \lyricmode {
-I __ love to whit -- tle and play a lit -- tle
-tune __ on a ten cent fife.
-I don't __ aim to wor -- ry, hus -- tle or hur -- ry,
+refrainLyricsTwoFemale = \lyricmode {
+  Liv -- ing I find is best __
+  when your mind is keen __ as a carv -- ing knife. __
+  I'm cra -- zy a -- bout sleep,
+  can't __ do with -- out sleep,
+
+  Give __ me the sim -- ple life! __
+
+  I __ love to whit -- tle and play a lit -- tle
+  tune __ on a ten cent fife.
+  I don't __ aim to wor -- ry, hus -- tle or hur -- ry,
+
+  Give __ me the sim -- ple life! __
+
+  I greet the dawn when I a -- wak -- en,
+  the sky is clear up a -- bove.
+  I like my scram -- bled eggs and ba -- con
+  served by some -- one that I love. __
+
+  Life __ could be thril -- ling now that I’m will -- ing
+  To be a farm -- ers wife
+  A gar -- den of ros -- es, kids __ run -- ny no -- ses.
+
+  Give __ me the sim -- ple life! __
 }
 
-refrainLyricsBOne = \lyricmode {
-A cot -- tage small is all I'm af -- ter,
-Not one that's spa -- cious and wide;
-A house that rings with joy and laugh -- ter
-And the ones you love in -- side. __
-}
-
-refrainLyricsBTwo = \lyricmode {
-I greet the dawn when I a -- wak -- en,
-the sky is clear up a -- bove.
-I like my scram -- bled eggs and ba -- con
-served by some -- one that I love. __
-}
-
-refrainLyricsAThreeOne = \lyricmode {
-Some __ like the high road, I __ like the low road,
-Free __ from the care and strife. __
-Sounds corn -- y and seed -- y, but __ yes, in -- deed -- y;
-}
-
-refrainLyricsAThreeTwo =
+refrainLyricsTwo =
 #(if (and (defined? 'femaleSinger) femaleSinger)
-  #{
-\lyricmode {
-Life __ could be thril -- ling now that I’m will -- ing
-To be a farm -- ers wife
-A gar -- den of ros -- es, kids __ run -- ny no -- ses
-}
-  #}
-  #{
-\lyricmode {
-Life __ could be thrill -- ing with __ one who's will -- ing
-to __ be a farm -- er's wife.
-Kids call -- ing me pap -- py would __ make me hap -- py;
-}
-  #}
-  )
+  refrainLyricsTwoFemale
+  refrainLyricsTwoMale)
 
 refrainChords = \chordmode {
   f2:m7 bf2:7 g2:m7 c2:7 f2:m7 g2:7 c2:m bf4:m7 ef4:7
@@ -131,7 +145,6 @@ refrainMelody = \relative f'' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Up" 4 = 150
 
   \set Score.currentBarNumber = #1
 
@@ -182,70 +195,4 @@ refrainMelody = \relative f'' {
 
 \include "../Include/verse.ily"
 
-\score {
-  <<
-    { \context ChordNames 
-      {
-      \override ChordName.font-size = #+3
-      \override ChordName.font-series = #'bold
-      \set chordChanges = ##t
-     \transpose ef \whatKey {
-       \refrainChords
-	}
-      }
-      }
-    \new Staff {
-      \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
-	\noDoubleAccidentalMusic \transpose ef \whatKey {
-	  \refrainMelody
-	  }
-	}
-    }
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames \tiedNoteToSkip { 
-      \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
-      \refrainMelody
-      } }
-      #} )
-    \new Lyrics \lyricsto "voiceMelody"
-    {
-      \leftbrace
-    <<
-     { \refrainLyricsAOneOne }
-      \new Lyrics {
-	\set associatedVoice = "voiceMelody"
-	\refrainLyricsAOneTwo }
-    >>
-    \rightbrace 
-      { \dropLyrics \refrainLyricsTitle \doneDropping }
-      
-      \leftbrace
-    <<
-     { \refrainLyricsATwoOne }
-      \new Lyrics {
-	\set associatedVoice = "voiceMelody"
-	\refrainLyricsATwoTwo }
-    >>
-    \rightbrace 
-      { \dropLyrics \refrainLyricsTitle \doneDropping }
-      
-      \leftbrace
-
-    <<
-     { \refrainLyricsBOne \refrainLyricsAThreeOne }
-      \new Lyrics {
-	\set associatedVoice = "voiceMelody"
-	\refrainLyricsBTwo \refrainLyricsAThreeTwo }
-    >>
-    \rightbrace 
-      { \dropLyrics \refrainLyricsTitle \doneDropping }
-      
-
-
-    }
-
-  >>
-  \midi{} \layout { }
-}
+\include "../Include/refrain.ily"

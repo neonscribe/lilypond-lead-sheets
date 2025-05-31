@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1934 Famous Music Corporation"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 My old flame, __ I can't ev -- en think of his name, but it's fun -- ny now and then
 how my thoughts go flash -- ing back a -- gain to my old flame.
 
@@ -93,4 +93,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

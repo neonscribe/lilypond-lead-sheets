@@ -16,9 +16,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1942 Robbins Music Corporation"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainNRBThreeChords = \chordmode {
   ef2.:6.9 ef2.:6.9 ef2.:6.9 ef2.:6.9
   af2.:9 af2.:9 af2.:9 \chordInsideParens{ bf2.:7.5+ }

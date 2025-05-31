@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Hollywood Cowboy Swing" 4 = 160
+  \tempo "Hollywood Cowboy Swing [Sons of the Pioneers 1936]" 4 = 205
 
   \xTextMark \markup{ \bold \box "Intro" }
     g8 g8 f4 ef4 f4 | ef1 |

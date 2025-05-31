@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 90
+  \tempo "Ballad [Billie Holiday 1941]" 4 = 68
 
   \partial 4 ef8 f8 |
   \bar "||"

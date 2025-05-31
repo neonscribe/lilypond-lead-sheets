@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1943 Edwin H. Morris & Company"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   g1:m7.5- a1:7.9+ f1:m7.5- bf1:7.9+
   ef1:m7.5- af1:7.9+ df2:maj7 af2:7 df1:6

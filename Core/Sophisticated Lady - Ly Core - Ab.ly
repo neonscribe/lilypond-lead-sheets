@@ -16,7 +16,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1933 Gotham Music Service, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 They say __ in -- to your ear -- ly life ro -- mance came, __
 And in this heart of yours burned a flame, __
 A flame that flick -- ered one day and died a -- way.
@@ -107,4 +107,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

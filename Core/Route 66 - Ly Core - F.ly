@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1946 Burke & Van Heusen, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 If you ev -- er _ _ plan to mo -- tor west,
 trav -- el my way; take the high -- way that's the best.
 Get your kicks on Route _ Six -- ty Six.
@@ -136,4 +136,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

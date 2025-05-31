@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1968 Harrisongs Limited"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   %% Intro
   _ _ _ _ _ _ _ _
   _ _ _ _ _ _ _ _ _
@@ -274,4 +274,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-four-verses.ily"
+\include "../Include/refrain.ily"

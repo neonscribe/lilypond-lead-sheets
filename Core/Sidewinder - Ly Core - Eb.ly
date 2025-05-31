@@ -49,9 +49,6 @@ introKicksOverTime = \relative f' {
   r4 c4 r8 c8 r4 | r4 c4 r8 c8 r4 | r4 c4 r8 c8 r4 | r4 c4 r8 c8 r4 |
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4 d4:7 s8 ef8:7 s4
   s4 d4:7 s8 ef8:7 s4
@@ -139,8 +136,8 @@ codaBass = \relative f' {
   \vspace #1
 }
 
-\include "../Include/intro-with-bass-and-kicks.ily"
+\include "../Include/intro.ily"
 
 \include "../Include/refrain.ily"
 
-\include "../Include/coda-with-bass.ily"
+\include "../Include/coda.ily"

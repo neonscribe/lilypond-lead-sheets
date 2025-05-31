@@ -14,9 +14,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1938 The Peter Maurice Music Co. Ltd."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   bf1:maj7 bf2:maj7 f2:7.5+ f1:m7 bf1:7
   ef1:maj7 ef1:maj7 af1:9 af1:9

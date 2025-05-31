@@ -12,7 +12,7 @@
   copyright = \markup \small ""
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   We three kings of O -- ri -- ent are
   bear -- ing gifts, we tra -- verse a -- far,
   field and foun -- tain, moor and moun -- tain,
@@ -83,4 +83,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

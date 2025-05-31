@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1936, 1954 Bourne Co."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Smile, though your heart is ach -- ing.
 Smile, e -- ven though it's break -- ing.
 When there are clouds in the sky, you'll get by.
@@ -98,4 +98,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

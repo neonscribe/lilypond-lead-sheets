@@ -15,9 +15,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1965 Tickson Music Co., Hollywood, California"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   a1 a1 a1 a1
   

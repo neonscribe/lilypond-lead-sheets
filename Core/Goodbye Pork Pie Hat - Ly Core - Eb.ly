@@ -13,9 +13,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1959 Jazz Workshop, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
   
@@ -37,12 +34,12 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 56
+  \tempo "Ballad [Charles Mingus 1959]" 4 = 52
 
   \partial 4 \invisEighth bf,8 |
   \bar "||"
 
-  \xTextMark \markup{ \bold \box "Head" \musicglyph #"scripts.segno" }
+  \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box "Head" }
   
   ef8 gf4 ef16 gf16 af8 gf4 ef16 df16 | ef8 gf4 ef16 df16 ef4. bf8 |
   \break
@@ -68,7 +65,10 @@ refrainMelody = \relative f' {
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \dalSegno \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq
+  \override Parentheses.font-size = #5
+  \startParenthesis \parenthesize c8\rest \endParenthesis \parenthesize bf8 |  
+  \dalSegno |
   }
   \bar "||-:|."
 

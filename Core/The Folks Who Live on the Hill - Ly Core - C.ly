@@ -53,7 +53,7 @@ verseMelody = \relative g' {
   \xPageBreak
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   Some -- day we'll build a home
   on a hill -- top high, you _ and I, __
   Shin -- y and new, a cot -- tage that two can fill.
@@ -164,4 +164,4 @@ refrainMelody = \relative g' {
 
 \include "../Include/verse.ily"
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

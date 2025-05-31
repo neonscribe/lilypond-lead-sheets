@@ -14,7 +14,7 @@
 
 straightEighths = ##t
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
@@ -171,4 +171,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

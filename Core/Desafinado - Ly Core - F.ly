@@ -161,9 +161,6 @@ refrainMelody = \relative f' {
 refrainLyricsLanguageOne = \refrainPortugueseLyrics
 refrainLyricsLanguageTwo = \refrainEnglishLyrics
 
-%%% \include "../Include/refrain-two-languages.ily"
-
-refrainLyrics = {
-}
+%%% Leaving out lyrics for now.
 
 \include "../Include/refrain.ily"

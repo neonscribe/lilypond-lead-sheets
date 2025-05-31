@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1930 De Sylva Brown & Henderson Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Gee, it's great __ af -- ter be -- in' out late, __ walk -- in' my ba -- by back home.
 Arm in arm, __ o -- ver mead -- ow and farm, __ walk -- in my ba -- by back home. _
 
@@ -88,4 +88,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1941 Chappell & Co. Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 I'm wild a -- gain, be -- guiled a -- gain,
 A sim -- per -- ing, whim -- per -- ing child a -- gain.
 Be -- witched, both -- ered and be -- wil -- dered am I. __
@@ -94,4 +94,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

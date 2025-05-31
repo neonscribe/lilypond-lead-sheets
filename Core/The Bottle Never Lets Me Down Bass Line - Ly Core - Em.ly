@@ -11,9 +11,6 @@
   copyright = \markup \small ""
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   \set chordChanges = ##f
 

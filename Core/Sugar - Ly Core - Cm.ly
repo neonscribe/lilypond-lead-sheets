@@ -64,9 +64,6 @@ introBass = \relative f' {
 
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   c1:m7 \chordInsideParens{ d2:m7.5- } g2:7.9-.5+
   c1:m7 g8*7:7.9-.5+ c8:m7
@@ -139,8 +136,8 @@ refrainKicksOverTime = \relative f' {
   \vspace #1
 }
 
-\include "../Include/intro-with-bass-no-note-names.ily"
+\include "../Include/intro.ily"
 
-\include "../Include/refrain-with-kicks.ily"
+\include "../Include/refrain.ily"
 
 \markup{ "Play head twice before and twice after solos." }

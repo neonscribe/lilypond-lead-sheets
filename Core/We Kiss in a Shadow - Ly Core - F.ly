@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1951 Richard Rodgers and Oscar Hammerstein II"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 We kiss in a sha -- dow, we hide from the moon.
 Our meet -- ings are few and o -- ver too
 
@@ -96,4 +96,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

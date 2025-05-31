@@ -66,9 +66,20 @@ codaChords = \chordmode {
   c2:7 ef2/f bf1
 }
 
+refrainChords = \chordmode {
+  \verseChords
+  \verseChords
+  \bridgeChords
+  \verseChords
+  \verseChords
+  \codaChords
+}  
+
+refrainKey = bf
+
 refrainMelody = \relative f' {
   \time 4/4
-  \key bf \major
+  \key \refrainKey \major
   \clef \whatClef
   \tempo "Slow, straight eighths" 4 = 76
 
@@ -77,7 +88,7 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \sectNoBar "Verse"
+  \sectNoBar "Verse 1,2"
 
   \bar ".|:-||"
   \repeat volta 2 {
@@ -88,7 +99,7 @@ refrainMelody = \relative f' {
     r8 bf8 bf8 d8 bf8 bf4 bf8~ | bf2. r4 |
   }
   
-  \sect "Bridge"
+  \sect "Bridge 1,2"
 
   \bar ":..:"
   \repeat volta 2 {
@@ -98,7 +109,7 @@ refrainMelody = \relative f' {
     r8 bf'8 bf8 bf8 c8 bf8 a8 g8 | f8 bf,4 bf8~ bf2 |
     d8 d8 d8 d8 d8 c8 bf8 c8 | c1 |
 
-    \sect "Verse"
+    \sect "Verse 3,4"
 
     r4 f8 f8 f8 f8 ef8 d8 | f8 bf,4 bf8~ bf2 |
     r4 f'8 f8 f8 f8 ef8 d8 | ef8 bf4 bf8~ bf2 |
@@ -113,7 +124,8 @@ refrainMelody = \relative f' {
       \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
       }
     {
-      \sectNoBar "Coda"
+      \textCodaBreak
+
       r8 bf8^\markup \italic "rit." bf8 d8 bf8 bf4 bf8~ | bf2\fermata r2 |
       }
   }
@@ -129,34 +141,7 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\score {
-  <<
-    { \context ChordNames 
-      {
-	\override ChordName.font-size = #+3
-	\override ChordName.font-series = #'bold
-	\set chordChanges = ##f
-	\transpose bf \whatKey {
-	  \verseChords
-	  \verseChords
-	  \bridgeChords
-	  \verseChords
-	  \verseChords
-	  \codaChords
-	}
-      }
-      }
-    \new Staff {
-      \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
-	\noDoubleAccidentalMusic \transpose bf \whatKey {
-	  \refrainMelody
-	}
-      }
-    }
-  >>
-   \midi{} \layout { }
-}
+\include "../Include/refrain.ily"
 
 \markup {
   \column 
@@ -171,6 +156,8 @@ refrainMelody = \relative f' {
    \vspace #4
    \line { \large { Verse 3 } }
    \vspace #4
+   \line { \large { Solo } }
+   \vspace #1
    \line { \large { Bridge 2 } }
    \vspace #4
    \line { \large { Verse 4 } }
@@ -203,7 +190,7 @@ refrainMelody = \relative f' {
    \line { \large { I'd go crawling down the avenue } }
    \line { \large { No, there's nothing that I wouldn't do } }
    \line { \large { To make you feel my love } }
-   \vspace #1
+   \vspace #3
    \line { \large { The storms are raging on the rolling sea } }
    \line { \large { And on the highway of regret } }
    \line { \large { The winds of change are blowing wild and free } }

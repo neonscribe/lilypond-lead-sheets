@@ -14,7 +14,7 @@
 
 bossaRhythm = ##t
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Tris -- te -- za não tem fim __
 Fe -- li -- ci -- da -- de sim. __
 Tris -- te
@@ -127,4 +127,4 @@ refrainMelody = \relative c' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

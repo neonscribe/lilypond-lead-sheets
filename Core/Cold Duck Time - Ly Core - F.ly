@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1969 Seventh House Ltd."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   f1:7 bf1:7 f1:7 bf1:7
   
@@ -87,6 +84,6 @@ refrainBass = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-bass.ily"
+\include "../Include/refrain.ily"
 
 \markup "Bass line, chord rhythms, and breaks continue for solos."

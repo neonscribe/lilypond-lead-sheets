@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1937 Gershwin Publishing Corporation"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 You say ee -- ther and I say eye -- ther.
 You say nee -- ther and I say ny -- ther.
 Ee -- ther, eye -- ther, nee -- ther, ny -- ther!
@@ -101,4 +101,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

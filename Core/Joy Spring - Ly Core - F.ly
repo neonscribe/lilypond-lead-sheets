@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1956 Second Floor Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2
   

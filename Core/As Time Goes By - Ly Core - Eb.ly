@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1931 Warner Bros. Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 You must re -- mem -- ber this,
 a kiss is still a kiss, a sigh is just a sigh.
 The fun -- da -- men -- tal things ap -- ply, as time goes by. __
@@ -98,4 +98,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

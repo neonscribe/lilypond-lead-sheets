@@ -13,9 +13,6 @@
   copyright = \markup \small "© 1953 Atlantic Music Corp."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainLyricsOne = \lyricmode {
 In the park, in the dark, un -- der -- neath the moon.
 Heard a boy and a girl, hum -- min' Ber -- nie's Tune.
@@ -103,7 +100,9 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include
+refrainLyrics = ##f
+
 #(if (and (defined? 'showLyrics) showLyrics)
-  "../Include/refrain-two-verses.ily"
-  "../Include/refrain.ily" )
+  (set! refrainLyrics refrainLyricsOne))
+
+\include  "../Include/refrain.ily"

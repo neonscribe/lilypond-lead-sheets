@@ -12,9 +12,6 @@
   copyright = \markup \small "© 2006 Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainAltChords = \chordmode {
   a1:m7 a1:m7 a1:m7 a1:m7 
 

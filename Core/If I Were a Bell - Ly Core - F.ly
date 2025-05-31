@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Fast Swing" 4 = 180
+  \tempo "Medium-Fast Swing [Miles Davis 1956]" 4 = 180
 
   \xTextMark \markup{ \bold \box "Intro" }
   
@@ -105,4 +105,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-no-note-names.ily"
+\include "../Include/refrain.ily"

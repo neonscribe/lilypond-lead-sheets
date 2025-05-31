@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1933 Mills Music Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Don't know why there's no sun up in the sky, storm -- y weath -- er. __
 Since my man and I ain't to -- geth -- er, __
 keeps rain -- in' all __ the time. __
@@ -102,4 +102,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

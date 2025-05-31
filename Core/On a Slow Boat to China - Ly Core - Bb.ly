@@ -12,7 +12,7 @@
   copyright = \markup \small "© 19x48 Frank Music Corp."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 I'd love to get you __ on a slow boat to Chi -- na, __
 all to my -- self, __ a -- lone. __
 
@@ -82,4 +82,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

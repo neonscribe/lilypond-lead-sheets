@@ -14,9 +14,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1922 Leo Feist, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   f1 f1 f1 ef2:7 d2:7
   g1:7 g1:7 g1:7 g1:7 
@@ -36,7 +33,7 @@ refrainKey = f
 
 \include "nederlands.ly"
 
-refrainMelodyOne = \relative c' {
+refrainMelody = \relative c' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
@@ -160,4 +157,4 @@ refrainMelodyTwo = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-parts.ily"
+\include "../Include/refrain.ily"

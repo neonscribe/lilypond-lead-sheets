@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1936 T.B. Harms Co."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Some -- day, when I'm aw -- f'ly low,
 When the world is cold,
 I will feel a glow just think -- ing of you
@@ -228,7 +228,7 @@ codaMelody = \relative g' {
 
 \include "../Include/intro.ily"
 
-\include "../Include/refrain-two-verses-no-note-names.ily"
+\include "../Include/refrain.ily"
 
 \markup {
   \vspace #2

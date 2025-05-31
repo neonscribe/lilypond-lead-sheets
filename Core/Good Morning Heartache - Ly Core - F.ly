@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1945 Fisher Music Corporation & Lindabet Music Corporation"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Good morn -- ing heart -- ache, you old gloom -- y sight,
 Good morn -- ing heart -- ache, thought we said good -- bye last night.
 I tossed and turned un -- til it seemed you had gone,
@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 70
+  \tempo "Ballad [Billie Holiday 1946]" 4 = 70
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   
@@ -101,4 +101,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

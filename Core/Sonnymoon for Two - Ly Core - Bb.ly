@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1957 Son Rol Music Co."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   bf1:7 ef1:7 bf1:7 bf1:7
   ef1:7 ef1:7 bf1:7 bf1:7

@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1936 Chappell & Co."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   d1:13 d2:13 a2:m7 d1:13 d2:13 a2:m7 
   d1:13 d2:13 d2:7 g1:6

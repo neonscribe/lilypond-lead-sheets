@@ -225,8 +225,8 @@ whatKey = \whatVerseKey
 \include "../Include/verse.ily"
 whatKey = \savedWhatKey
 
-\include "../Include/intro-with-kicks.ily"
+\include "../Include/intro.ily"
 
-\include "../Include/outro-with-kicks.ily"
+\include "../Include/outro.ily"
 
 \include "../Include/refrain.ily"

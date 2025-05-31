@@ -14,7 +14,7 @@
 
 bossaRhythm = ##t
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   Nev -- er trust the stars __ when you're a -- bout to fall in love,
   look for hid -- den signs __ be -- fore you
 
@@ -126,4 +126,4 @@ refrainMelody = \relative c'' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

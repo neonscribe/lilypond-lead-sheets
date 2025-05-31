@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1954 Prestige Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainRealBookSixthChords = \chordmode {
   c1:m c1:m g1:m7 c1:7
   f1:maj7 f1:maj7 f1:m7 bf1:7

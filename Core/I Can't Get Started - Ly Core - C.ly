@@ -10,7 +10,7 @@
   copyright = \markup \small "© 1935 Chappell & Co., Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   I've flown a -- round the world in a plane;
   I've set -- tled re -- vo -- lu -- tions in Spain;
   The North Pole I have chart -- ed,
@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Slow" 4 = 100
+  \tempo "Medium-Slow [Billie Holiday 1938" 4 = 100
 
   \partial 2 \invisEighth c8 e8 g8 |
   \bar "||"
@@ -123,4 +123,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

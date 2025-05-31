@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1941 Edwin H. Morris & Co."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   Sky -- lark, __
   Have you an -- y -- thing to say to me? __
   Won't you tell me where my love can be? __
@@ -124,4 +124,4 @@ refrainMelody = \relative f'' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

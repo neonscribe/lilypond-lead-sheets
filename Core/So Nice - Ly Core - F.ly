@@ -48,9 +48,6 @@ Should it be, you and me,
 I could see, it would be nice.
 }
 
-refrainLyricsLanguageOne = \refrainPortugueseLyrics
-refrainLyricsLanguageTwo = \refrainEnglishLyrics
-
 refrainChords = \chordmode {
   f1:maj7 f1:6 b1:m7 e1:7
   bf1:maj7 bf1:6 ef1:7 ef1:7
@@ -117,4 +114,9 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-languages.ily"
+refrainLyrics = \refrainPortugueseLyrics
+refrainLyricsTwo = \refrainEnglishLyrics
+
+refrainTwoLanguages = ##t
+
+\include "../Include/refrain.ily"

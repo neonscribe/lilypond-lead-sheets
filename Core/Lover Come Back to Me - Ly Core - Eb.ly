@@ -43,46 +43,31 @@ verseMelody = \relative f' {
   \bar "||-||"
 }
 
-refrainLyricsPreOne = \lyricmode {
-}
-
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 The sky was blue,
 And high a -- bove,
 The moon was new,
 And so was love.
 This eag -- er heart of mine was sing -- ing, 
 Lov -- er, where can you
-}
-
-refrainLyricsRepOne = \lyricmode {
 be?
-}
 
-refrainLyricsTwo = \lyricmode {
 You came at last,
 Love had its day.
 That day is past,
 You've gone a -- way.
 This ach -- ing heart of mine is sing -- ing,
 Lov -- er, come back to
-}
 
-refrainLyricsRepTwo = \lyricmode {
 me!
 When
-}
-
-refrainLyricsBridge = \lyricmode {
 I re -- mem -- ber ev -- 'ry lit -- tle thing
 you used to do,
 I'm so lone -- ly.
 Ev -- 'ry road I've walked a -- long
 I've walked a -- long with you,
 No won -- der I'm so lone -- ly
-}
 
-refrainLyricsThree = \lyricmode {
 The sky is blue,
 The night is cold.
 The moon is new,
@@ -90,9 +75,6 @@ But love is old.
 And while I'm wait -- ing here,
 This heart of mine is sing -- ing,
 Lov -- er, come back to
-}
-
-refrainLyricsRepThree = \lyricmode {
 me!
 }
 
@@ -103,6 +85,11 @@ refrainChords = \chordmode {
   ef2:6 ef2:6/g af2:6 a2:dim7
 
   ef2:6/bf c2:m7 f2:m7 bf2:7
+
+  ef1:6 ef1:6 d1:m7.5- g1:7.9-
+  c1:m7 c1:m7 f1:7 fs1:dim7
+  ef1:6/g c1:m7 f1:9 bf1:7
+  ef2:6 ef2:6/g af2:6 a2:dim7
 
   ef1:6/bf d2:m7.5- g2:7.9-
   
@@ -124,13 +111,10 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Bright"
+  \tempo "Fast [Dinah Washington 1954]" 4 = 265
 
-  \sectStart "A"
+  \sectStart "A1"
 
-  \bar ".|:"
-
-  \repeat volta 2 {
   r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 |
   \break
   r4 ef4 ef4 f4 | g1 |
@@ -140,12 +124,21 @@ refrainMelody = \relative f' {
   g1 | f1 |
   \break
   bf,4 c4 ef2 | ef2 ef2 |
-  } \alternative { {
   ef1 |
   r1 |
-  } {
+
+  \sect "A2"
+
+  r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 |
+  \break
+  r4 ef4 ef4 f4 | g1 |
+  r4 c,4 c4 d4 | ef1 |
+  \break
+  r4 bf4 bf4 c4 | ef4 f4 g4 bf4 |
+  g1 | f1 |
+  \break
+  bf,4 c4 ef2 | ef2 ef2 |
   ef1 | d1 |
-  } }
 
   \bar "||"
   
@@ -153,15 +146,14 @@ refrainMelody = \relative f' {
 
   \sectNoBarNoBreak "B"
 
-  \set Score.currentBarNumber = #33
-
   c4 d4 ef4 f4 | g4 c4 b4 c4 | af4 c4 b4 c4 | g1 |
   g1 | d1 | ef1 | d1 |
   \break
   c4 d4 ef4 f4 | g4 c4 b4 c4 | af4 c4 b4 c4 | g1 |
   \break
   g1 | c,4 d4 ef4 g4 | bf1 | f1 |
-  \sect "C"
+
+  \sect "A3"
 
   r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 | 
   r4 ef4 ef4 f4 | g1 |
@@ -182,6 +174,7 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
+%%% Leaving out the verse...
 %%% \include "../Include/verse.ily"
 
-\include "../Include/refrain-a1-a2-repeat.ily"
+\include "../Include/refrain.ily"

@@ -14,7 +14,7 @@
 
 bossaRhythm = ##t
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Like a lov -- er the morn -- ing sun
 slow -- ly ris -- es and kiss -- es you a -- wake.
 Your smile is soft and drow -- sy as you let it play up -- on your face. __
@@ -103,4 +103,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

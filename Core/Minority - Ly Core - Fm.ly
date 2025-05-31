@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1953 Twenty-Eighth Street Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   f1:m6 f1:m6 g1:m7 c1:7
   f1:m6 f1:m6 c1:m7 f1:7
@@ -85,4 +82,4 @@ refrainKicksOverTime = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-kicks.ily"
+\include "../Include/refrain.ily"

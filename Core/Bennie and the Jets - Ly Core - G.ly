@@ -124,7 +124,7 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/intro-with-bass.ily"
+\include "../Include/intro.ily"
 
 \include "../Include/refrain.ily"
 

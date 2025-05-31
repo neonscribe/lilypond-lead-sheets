@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1958 Ibbob Music, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   bf1:m7 b2:m7 e2:7 bf1:m7 b2:m7 e2:7
   a1:maj7 gs1:7 g1:maj7 fs1:7

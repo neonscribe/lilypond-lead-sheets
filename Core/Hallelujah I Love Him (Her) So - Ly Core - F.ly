@@ -131,6 +131,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
+  \tempo 4 = 130
   \tempo "Medium Gospel [Ray Charles 1955]" 4 = 148
 
   \sectStart "A1"
@@ -147,15 +148,13 @@ refrainMelody = \relative f' {
   
   r8 c'8 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 | r8 c8 d8 c8 af8 g8 f8 d8 | f4 f8 d8~( d8 c8) r4 |
 
-  \bar "|o"
-
-  \xPageBreak
-
   r4 d'8 c8 af8 g8 f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
 
-  \break
+  \bar "|o"
+  \xPageBreak
 
   a4( c4) r4 a8 a8 | g8( f4.) r4 af8 g8 |
+
 
   af8 g8 f8 d8 f4 f8 f8~ | f8 r8 r4 r2 |
 
@@ -171,7 +170,9 @@ refrainMelody = \relative f' {
   
   \sect "A3"
 
-  r4 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 | r4 d8 c8 af8 g8 f8 d8 | f4 f8 d8~ d8( c8) r4 |
+  r4 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 |
+  \break
+  r4 d8 c8 af8 g8 f8 d8 | f4 f8 d8~ d8( c8) r4 |
   \break
   r8 c'8 d8 c8 af8( g8) f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
   \break

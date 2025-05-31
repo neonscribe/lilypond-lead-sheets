@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1941 MCA Music"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 I don't know why, but I'm feel -- ing so sad, __
 I long to try some -- thing I've nev -- er had, __
 Nev -- er had no kiss -- in'
@@ -103,4 +103,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

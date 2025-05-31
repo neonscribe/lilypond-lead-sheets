@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1951 Atlantic Music Corp."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   f1 g2:m7 c2:7 f2 g2:m7 c2:m7 f2:7.5+
   bf1:7 bf2:m7 ef2:7 f2 g2:m7 a2:m7 d2:7

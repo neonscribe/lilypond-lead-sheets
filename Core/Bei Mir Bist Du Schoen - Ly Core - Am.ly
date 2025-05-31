@@ -13,7 +13,7 @@
 }
 
 refrainLyrics = \lyricmode {
-Of all thge girls I've known and I've known some,
+Of all the girls I've known and I've known some,
 un -- til I first met you I was lone -- some.
 And when you came in sight dear, my heart grew light and this old world seemed new to me.
 
@@ -42,22 +42,19 @@ refrainChords = \chordmode {
   a1:m6 b2:m7.5- e2:7 a1:m6 b2:m7.5- e2:7 
   a1:m6 d1:m f1:7 e2:7 r2
   
-  a1:m6 a1:m6 a1:m6 a1:m6
-  e1:7 e2:7 f4:7 e4:7
-  a1:m f2:7 e2:7 
+  a1:m a1:m a1:m a1:m
+  e1:7 e1:7 a2:m g2:7 f2:7 e2:7
 
-  a1:m6 a1:m6 a1:m6 a1:m6
-  e1:7 e2:7 f4:7 e4:7
-  a2:m f4:7 e4:7 a4.:m r8*5
+  a1:m a1:m a1:m a1:m
+  e1:7 e1:7 a2:m e2:7 a1:m
   
-  d1:m d1:m a2:m a2:m6 a4.:m6 r8*5
-  d1:m d1:m e2:7 bf4.:dim7 e8*9:7
+  d1:m d1:m a1:m a1:m
+  d1:m d1:m e1:7 e1:7
 
-  a1:m6 a1:m6 a1:m6 a1:m6
-  e1:7 e2:7 f4:7 e4:7
-
-  a2:m a2:m6 
-  \chordOpenParen{ f2:7 }
+  a1:m a1:m a1:m a1:m
+  e1:7 e1:7 a2:m
+  \chordOpenParen{ g2:7 }
+  f2:7
   \chordCloseParen{ e2:7 }
 }
 

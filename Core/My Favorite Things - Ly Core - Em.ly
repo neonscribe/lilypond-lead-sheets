@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1959 Richard Rodgers and Oscar Hammerstein II"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Rain -- drops on ros -- es and whisk -- ers on kit -- tens,
 bright cop -- per ket -- tles and warm wool -- en mit -- tens;
 
@@ -108,4 +108,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

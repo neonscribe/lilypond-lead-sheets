@@ -41,7 +41,7 @@ Bé -- sa -- me  mu -- cho, __
 Love me for -- ev -- er and make all my dreams _ come true. __
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   d1:m6 d1:m6 g1:m6 g1:m6
   g2:m6 d2:7.9- g2:m6 a2:7.9- d1:m6 e2:m7 a2:7
   
@@ -58,6 +58,29 @@ refrainChords = \chordmode {
   d2:m d2:m/c bf2:7 a2:7 d1:m6 d2:m6
   \chordInsideParens{ a2:7 }
 }
+
+refrainJoelChords = \chordmode {
+  d1:m6 d1:m6 g1:m6 g1:m6
+  g2:m6 d2:7.9- e2:m7.5- a2:7.9- d1:m6 d1:m6
+  
+  a1:m7.5- d1:7.9- g1:m6 g1:m6
+  d2:m6 b2:m7.5- e2:7.9- a2:7.9- d1:m7 d1:m6
+  
+  g1:m6 d1:m6 e2:m7.5- a2:7.9- d2:m6 d2:7.9-
+  g1:m6 d1:m6 e2:7 bf2:7.9- a1:7.9-
+
+  d1:m6 d1:m6 g1:m6 g1:m6
+  g2:m6 d2:7.9- e2:m7.5- a2:7.9- d1:m6 d1:m6
+  
+  a1:m7.5- d1:7.9- g1:m7 g1:m6
+  d2:m6 b2:m7.5- e2:7.9- a2:7.9- d1:m6
+  \chordOpenParen{ e2:m7.5- }
+  \chordCloseParen{ a2:7.9- }
+}
+
+refrainChords = #(if (and (defined? 'useJoelChords) useJoelChords)
+		  refrainJoelChords
+		  refrainHLChords)
 
 refrainKey = d
 
@@ -117,7 +140,8 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-refrainLyricsLanguageOne = \refrainSpanishLyrics
-refrainLyricsLanguageTwo = \refrainEnglishLyrics
+refrainLyrics = \refrainSpanishLyrics
+refrainLyricsTwo = \refrainEnglishLyrics
+refrainTwoLanguages = ##t
 
-\include "../Include/refrain-two-languages.ily"
+\include "../Include/refrain.ily"

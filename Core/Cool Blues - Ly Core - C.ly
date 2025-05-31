@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1947 Songs of Universal Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   c1 c1 c1 c1 f1:7 f1:7 c1 c1 d1:m7 g1:7 c1 c1
 }

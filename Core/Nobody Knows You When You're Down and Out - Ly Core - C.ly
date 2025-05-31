@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1923"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4.
   

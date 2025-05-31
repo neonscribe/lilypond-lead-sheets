@@ -14,7 +14,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1927 Chappell & Co., Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 I could cry sal -- ty tears;
 Where have I been all these years?
 Lit -- tle wow, tell me now,
@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 110
+  \tempo "Medium [June Christy 1954]" 4 = 112
 
   \xTextMark \markup{ \bold \box "A1" }
 
@@ -100,4 +100,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

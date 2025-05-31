@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1946 Triangle Music Corporation"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 You make me feel so young, __
 you make me feel so spring has sprung, __
 and ev -- 'ry time I see you grin, __
@@ -116,4 +116,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

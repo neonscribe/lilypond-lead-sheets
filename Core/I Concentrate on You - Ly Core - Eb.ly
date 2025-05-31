@@ -65,7 +65,7 @@ refrainMelody = \relative f {
   \key \refrainKey \major
   \clef \whatClef
 
-  \tempo "Medium" 4 = 100
+  \tempo "Medium [Fred Astaire 1953]" 4 = 104
 
   \xTextMark \markup{ \bold \box "A1" }
 

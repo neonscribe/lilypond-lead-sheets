@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1932 Irving Berlin Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Wil -- low weep for me, __ wil -- low weep for me, __
 Bend your branch -- es green __ a -- long the stream that runs to sea, __
 Lis -- ten to my plea,
@@ -100,4 +100,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

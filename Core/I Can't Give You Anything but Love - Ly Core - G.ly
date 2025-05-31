@@ -24,7 +24,7 @@ Dia -- mond brace -- lets Wool -- worth does -- n't sell, ba -- by.
 I can't give you an -- y -- thing but love. __
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   g1:maj7 b2:m7 b2:dim7 a1:m7 d1:7
   g1:maj7 b2:m7 e2:m7 a1:m7 d1:7
   
@@ -40,13 +40,31 @@ refrainChords = \chordmode {
   \chordCloseParen{ d2:7 }
 }
 
+refrainDFBChords = \chordmode {
+  g1 g2/b bf2:dim7 a1:m7 d1:7
+  g1 g2/b bf2:dim7 a1:m7 d1:7
+
+  g1:7 g1:7 c1 c1
+  a1:7 a1:7 d1:7 d1:7
+
+  g1 g2/b bf2:dim7 a1:m7 d1:7
+  g1:7 g1:7 c1 c1
+
+  c1 cs1:dim7 g1 e1:7
+  a1:m7 d1:7 g2:6 bf2:dim7 a2:m7 d2:7
+}
+
+refrainChords = #(if (and (defined? 'useDFBChords) useDFBChords)
+		  refrainDFBChords
+		  refrainHLChords)
+
 refrainKey = g
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 140
+  \tempo "Medium [Louis Armstrong 1929]" 4 = 115
 
   \xTextMark \markup{ \bold \box "A1" }
   

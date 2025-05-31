@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1955 Second Floor Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2.
   
@@ -112,4 +109,4 @@ refrainKicksOverTime = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-kicks.ily"
+\include "../Include/refrain.ily"

@@ -137,9 +137,9 @@ refrainNicoChords = \chordmode {
   
   af2:6 ef2:7.9+ af4:6 \chordSlash 1 ff4:m7 bff4:7 
   eff4 \chordSlash 1 eff4:m7 aff4:7 c4.:6 cf8:7 \tuplet 3/2 { bf4:7 bff4:7 af4:7 }
-
   df2:6 d2:7 df2:6 d2:7 df4:6 \chordSlash 1 c4:7.5- cf4:7 bf1:7
-  gf2:m9 cf2:13 bff2:9.5+ af2:13 df2:maj7 gf2:13 f2:m7 bf2:7
+
+  gf2:m9 cf2:13 bff4.:9.5+ af8*5:13 df2:maj7 gf2:13 f4.:m7 bf8*5:7
   gf2:m9 cf2:13 bff2:9.5+ af2:13 af4:7.9+ a4:7.9+ bf4:7.9+ b4:7.9+ c4:7.9+ d4:7 df2:maj7
 }
 

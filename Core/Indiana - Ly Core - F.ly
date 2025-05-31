@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing" 4 = 180
+  \tempo "Fast Swing [Lester Young 1952]" 4 = 185
 
   r8 c4. f4 a4 |
   \bar "||"

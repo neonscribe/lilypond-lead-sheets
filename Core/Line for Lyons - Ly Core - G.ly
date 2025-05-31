@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1954 Criterion Music Corp."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode { 
   g2:6 g2:7 c2:m7 f2:7 b2:m7 e2:7 a2:m7 d2:7
   g2:maj7 e2:7 a2:m7 d2:7 g2:6 e2:7 a2:m7 d2:7

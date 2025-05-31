@@ -12,9 +12,6 @@
   copyright = \markup \small "1879"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2.
   

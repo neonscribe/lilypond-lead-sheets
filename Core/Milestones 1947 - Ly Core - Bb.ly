@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1948 Screen Gems Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   f1:maj7 bf2:m7 ef2:7 af1:maj7 df2:m7 gf2:7
   c1:m7 f1:7 bf1:maj7 g1:7

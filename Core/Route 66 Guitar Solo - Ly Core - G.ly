@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1946 Burke & Van Heusen, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   g8*5:7 cs8*3:9 c2.:9 s8 g8*7:7 s8 g8*5:13 s8 g8:13 s8 c8*9:9
   c4:9 s8 gs8*3:13 s8 g8*4:13 gs8*3:13 s8 b8*3:m7 s8 bf8*4:m7

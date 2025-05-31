@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1941 Hallmark Music Publishing Company"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   ef2:7 d4.:7 df4.:7 c2.:7 b2:7 bf2:7 ef1:6

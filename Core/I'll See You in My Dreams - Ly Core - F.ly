@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 150
+  \tempo "Medium [Cliff Edwards 1930]" 4 = 160
   
   \partial 2 e2 |
   \bar "||"

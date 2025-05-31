@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1937 Bourne Co."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Some -- day my prince will come,
 Some -- day I'll find my love,
 And how thrill -- ing that mo -- ment will be,
@@ -92,4 +92,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

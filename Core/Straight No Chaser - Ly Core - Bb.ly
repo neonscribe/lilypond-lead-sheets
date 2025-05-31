@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1951 Thelonious Music, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
 

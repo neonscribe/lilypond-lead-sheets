@@ -207,7 +207,9 @@ chordDiagrams = \chordmode {
   \vspace #3
 }
 
-refrainLyricsLanguageOne = \refrainPortugueseLyrics
-refrainLyricsLanguageTwo = \refrainEnglishLyrics
+refrainLyrics = \refrainPortugueseLyrics
+refrainLyricsTwo = \refrainEnglishLyrics
 
-\include "../Include/refrain-two-lang-no-note-names.ily"
+refrainTwoLanguages = ##t
+
+\include "../Include/refrain.ily"

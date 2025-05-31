@@ -12,9 +12,6 @@
   copyright = \markup \small "2002"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   g1:m g1:m a1:7 a1:7
   a1:m7.5- d1:7 g1:m g1:m

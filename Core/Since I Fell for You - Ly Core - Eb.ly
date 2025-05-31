@@ -31,16 +31,16 @@ refrainChords = \chordmode {
   bf2:m7 ef2:13 af2:maj9 df2:9 cf1:9 bf2:sus9 bf2:9
   
   ef2:maj7 c2:m7 f2:m7 bf2:7.9+.5+ ef2:maj7 c2:m7 f2:m7 bf4:9 \chordInsideParens{ bff4:9 }
-  af2:9 gf2:9 f2:7 bf2:sus9 g2:7.5+ c2:7.9- f4:7 \chordSlash 1 bf4:sus9 \chordInsideParens{ ff4:9 }
+  af2:9 gf2:9 f4.:7 bf8*5:sus9 g2:7.5+ c2:7.9- f4:7 \chordSlash 1 bf4:sus9 \chordInsideParens{ ff4:9 }
 
   ef2:maj7 c2:m7 f2:m7 bf2:7.9+.5+ ef2:maj7 c2:m7 f2:m7 bf4:9 \chordInsideParens{ bff4:9 }
-  af2:9 gf2:9 f2:7 bf2:sus9 ef4:6 ef4:7/g af4:7 a4:dim7 ef4:6/bf \chordSlash 1 bf4:m7 ef4:7
+  af2:9 gf2:9 f4.:7 bf8*5:sus9 ef4:6 ef4:7/g af4:7 a4:dim7 ef4:6/bf \chordSlash 1 bf4:m7 ef4:7
   
   af1:9 df1:9 ef1:7 bf2:m7 ef2:7
   af1:9 df1:9 ef2:6 c2:7.5+ f2:m7 bf2:7
 
   ef2:maj7 c2:m7 f2:m7 bf2:7.9+.5+ ef2:maj7 c2:m7 f2:m7 bf4:9 \chordInsideParens{ bff4:9 }
-  af2:9 gf2:9 f2:7 bf2:sus9 ef2:6
+  af2:9 gf2:9 f4.:7 bf8*5:sus9 ef2:6
   \chordOpenParen{ c2:7.9+.5+ }
   f2:m7
   \chordCloseParen{ bf2:sus9 }
@@ -90,7 +90,7 @@ refrainMelody = \relative f' {
   bf1~ | bf4 af8 bf8 df8 bf8 \tuplet 3/2 { df8( bf8) af8 } |
   bf1 | r8 ef,8 gf8 af8 bf8 af8 \tuplet 3/2 { gf8( f8) ef8 } |
   \break
-  ef1 | r4 c8 ef8~ ef8 f4 ef8 | g1 | r1 |
+  ef1 | r4 c8 ef8~ ef8 f4 ef8 | ef1 | r1 |
   
   \bar "|."
 }

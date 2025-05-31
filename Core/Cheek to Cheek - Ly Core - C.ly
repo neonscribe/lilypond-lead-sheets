@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1935 Irving Berlin"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Heav -- en, __ I'm in Heav -- en, __
 and my heart beats so that I can hard -- ly speak, __
 and I seem to find the hap -- pi -- ness I seek __
@@ -141,4 +141,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

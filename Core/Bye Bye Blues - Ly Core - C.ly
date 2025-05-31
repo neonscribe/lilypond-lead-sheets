@@ -22,7 +22,7 @@ Bye bye blues. __
 refrainLyricsTwo = \lyricmode {
 }
 
-refrainChords = \chordmode {
+refrainAGJChords = \chordmode {
   %% Anthologie des Grilles de Jazz
 
   c1 c1 af1:7 af1:7
@@ -40,13 +40,63 @@ refrainChords = \chordmode {
   \chordCloseParen{ g2:7 }
 }
 
+refrainHLBanjoChords = \chordmode {
+  %% Hal Leonard Tenor and Plectrum Banjo Book
+
+  c1 c1 af1:7 af1:7
+  c1 c1 a1:7 a1:7
+
+  d1:7 d1:7 g1:7 g1:7
+  c1 c1:dim7 g1:7 g2:7 g2:7.5+
+
+  c1 c1 af1:7 af1:7
+  c1 c1 a1:7 a1:7
+
+  d1:9 d1:7 g1:13 g1:7
+  c1 af1:7 c1 c1
+}
+
+refrainHLPVGChords = \chordmode {
+  %% Hal Leonard Piano-Vocal-Guitar Book
+
+  c1 c1 af1:7 af1:7
+  c1 c1 a1:7 a1:7
+
+  d1:9 d1:7 g1:13 g1:7
+  e2:m7 c2/e ef1:dim7 d1:m7 g2/a g2:7
+
+  c1 c1 af1:7 af1:7
+  c1 c1 a1:7 a1:7
+
+  d1:9 d1:9 g1:13 g1:7
+  c1 af1:7 c1 \chordInsideParens{ g1:7 }
+}
+
+refrainUGChords = \chordmode {
+  %% Ultimate Guitar Les Paul
+
+  c1 c1 af1:7 af1:7
+  c1 c1 a1:7 a1:7
+
+  d1 d1 g1:9 g1:9
+  c1 ef1:dim7 d1:m g1:9
+
+  c1 c1 af1:7 af1:7
+  c1 c1 a1:7 a1:7
+
+  d1 d1 g1:9 g1:9
+  c1 f1:m7 c1:6 c1:6
+}
+
+refrainChords = \refrainUGChords
+
 refrainKey = c
 
 refrainMelody = \relative f' {
-  \time 4/4
+  \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Les Paul & Mary Ford 1952]" 4 = 135
+  \tempo "Medium [Les Paul & Mary Ford 1952]" 2 = 135
 
   \xTextMark \markup{ \bold \box "A1" }
 

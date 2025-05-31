@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1959 You Look Good Music Publishing"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   r1
   
@@ -140,4 +137,4 @@ refrainKicksOverTime = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-kicks.ily"
+\include "../Include/refrain.ily"

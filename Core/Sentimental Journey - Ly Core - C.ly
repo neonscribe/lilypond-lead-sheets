@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1944 Edwin H. Morris & Company, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Gon -- na take a sen -- ti -- men -- tal jour -- ney,
 gon -- na set my heart at ease. __
 
@@ -96,4 +96,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

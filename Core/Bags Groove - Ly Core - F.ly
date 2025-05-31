@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1953 Reecie Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
   
@@ -71,6 +68,6 @@ refrainBass = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-bass.ily"
+\include "../Include/refrain.ily"
 
 \markup "Play head twice before and twice after solos. Bass walks in four on solos."

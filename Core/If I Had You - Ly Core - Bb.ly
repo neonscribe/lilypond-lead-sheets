@@ -102,7 +102,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 115
+  \tempo "Ballad [Frank Sinatra 1962]" 4 = 64
   
   \xTextMark \markup{ \bold \box "A1" }
   

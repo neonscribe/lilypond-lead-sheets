@@ -14,9 +14,6 @@
 
 straightEighths = ##t
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   f1:7 f1:7 f1:7 f1:7
   bf1:7 bf1:7 f1:7 f1:7

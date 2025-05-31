@@ -13,9 +13,6 @@
   copyright = \markup \small "© 2019"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   c1 c1 c1 c1
 

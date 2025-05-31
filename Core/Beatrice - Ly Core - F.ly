@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1965 Rivbea Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   f1:maj7 gf1:maj7.11+ f1:maj7 ef1:maj7
   d1:m7 ef1:maj7 d1:m7 bf1:m7

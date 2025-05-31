@@ -13,28 +13,26 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1924 WB Music Corp."
 }
 
-refrainLyricsA = \lyricmode {
+refrainLyrics = \lyricmode {
   _ _ _
   Oh, sweet and love -- ly la -- dy, be good. __
   Oh, la -- dy, be good __ to me! __
   
   I am so aw -- f'ly mis -- un -- der -- stood, __
   So la -- dy, be good __ to me. __
-}
 
-refrainLyricsBOne = \lyricmode {
   Oh, please have some pi -- ty, __
   I'm all a -- lone in this big ci -- ty.
-}
 
-refrainLyricsBTwo = \lyricmode {
-  This is tu -- lip weath -- er __
-  So let's put two and two to -- geth -- er.
-}
-
-refrainLyricsC = \lyricmode {
   I tell you I'm just a lone -- some babe in the wood, __
   So la -- dy, be good __ to me.
+}
+
+refrainLyricsTwo = \lyricmode {
+  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+  This is tu -- lip weath -- er __
+  So let's put two and two to -- geth -- er.
 }
 
 refrainSRBChords = \chordmode {
@@ -163,4 +161,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-a1-b2-c1.ily"
+\include "../Include/refrain.ily"

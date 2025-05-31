@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1967 Colgems Music Corp."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 The look __ of love __ is in __ your eyes, __ a look __ your smile __ can't dis -- guise. __
 The look __ of love, __ it's say -- ing so __ much more __ than just words could ev -- er say. __
 And what my heart __ has heard, __ well, it takes my breath__  a -- way.
@@ -107,4 +107,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

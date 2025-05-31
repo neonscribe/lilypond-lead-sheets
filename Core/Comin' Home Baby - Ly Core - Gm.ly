@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1960 Cotillion Music Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Come on home, you know I'm wait -- in' here for you.
 You been gone, you don't know what I'm go -- in' through.
 Since you went a -- way, I've been blue. Come on home,
@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"
 
 \markup {
   \column 

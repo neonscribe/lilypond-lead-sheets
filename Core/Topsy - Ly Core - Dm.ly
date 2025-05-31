@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1938 Vanessa Music Corp."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   d1:m bf2:7 a2:7 d1:m bf2:7 a2:7 
   d1:m bf2:7 a2:7 d1:m bf2:7 a2:7 

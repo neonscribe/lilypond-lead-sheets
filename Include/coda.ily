@@ -1,5 +1,10 @@
 %% -*- Mode: LilyPond -*-
 
+codaRaggedRight =
+#(if (and (defined? 'codaRaggedRight) codaRaggedRight)
+  #t
+  #f)
+
 \score {
   <<
     { \context ChordNames 
@@ -20,6 +25,16 @@
 	  }
 	}
     }
+    $(if (and (defined? 'codaBass) codaBass)
+      #{
+    \new Staff {
+      \include "../Include/staff-settings.ily"
+      \context Voice = "voiceMelody" { 
+      %% Only transpose bass line in the same octave
+      \transpose \codaKey \bassKey { \codaBass }
+	}
+    }
+      #} )
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
@@ -32,5 +47,11 @@
       \codaLyrics
     }
   >>
-  \midi{} \layout { ragged-bottom = ##t ragged-right = ##f }
+  \layout { ragged-bottom = ##t ragged-right = \codaRaggedRight }
 }
+
+midiKey = \codaKey
+midiChords = \codaChords
+midiMelody = \codaMelody
+
+\include "../Include/midi.ily"

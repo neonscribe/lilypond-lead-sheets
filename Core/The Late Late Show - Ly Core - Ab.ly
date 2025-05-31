@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1956 Kahl Music"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Gee, it's co -- zy in the park to -- night, __
 when you cud -- dle up and hold me tight, __
 stars a -- bove, __ they seem __ to know __
@@ -99,4 +99,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

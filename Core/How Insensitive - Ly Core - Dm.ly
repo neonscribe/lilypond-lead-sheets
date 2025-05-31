@@ -68,7 +68,7 @@ What __ was I to do? __
 What can you do __ when a love af -- fair is o -- ver?
 }
 
-refrainLyricsOne = $(if (and (defined? 'objectGenderMale) objectGenderMale)
+refrainLyrics = $(if (and (defined? 'objectGenderMale) objectGenderMale)
 		        #{ \refrainLyricsOneM #}
 		        #{ \refrainLyricsOneF #} )
 
@@ -167,4 +167,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

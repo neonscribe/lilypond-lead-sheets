@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1940 Chappell & Co."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 Once I laughed when I heard you say -- ing
 that I'd be play -- ing sol -- i -- taire, __
 un -- eas -- y in my eas -- y chair. __
@@ -97,4 +97,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

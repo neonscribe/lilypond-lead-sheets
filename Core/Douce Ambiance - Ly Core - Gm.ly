@@ -15,9 +15,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1944 Publications Francis-Day (S.A.)"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   d1:7 ef1:maj7 e1:7 f1:6
   bf1:6 ef1:maj7 d1:7sus d1:7

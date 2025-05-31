@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1958 Kudu Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s4
 

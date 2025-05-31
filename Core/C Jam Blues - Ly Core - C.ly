@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1942 Famous Music Corporation"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   c1:7 c1:7 c1:7 c1:7 
   f1:7 f1:7 c1:7 c1:7

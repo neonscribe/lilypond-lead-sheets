@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1966 Miyako Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainShorterBioChords = \chordmode {
   c1.:m11 c1.:m11 c1.:m11 c1.:m11
   f1.:m11 f1.:m11 c1.:m11 c1.:m11
@@ -83,6 +80,6 @@ refrainBass = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-bass.ily"
+\include "../Include/refrain.ily"
 
 \markup{ "Top line is melody. Play head twice before and twice after solos." }

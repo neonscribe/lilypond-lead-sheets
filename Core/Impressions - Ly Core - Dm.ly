@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1962 Jowcol Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   d1:m7 d1:m7 d1:m7 d1:m7 
   d1:m7 d1:m7 d1:m7 
@@ -89,4 +86,4 @@ r8 bf8 r4 bf4. bf8~ | bf1 |
   \vspace #1
 }
 
-\include "../Include/refrain-with-kicks.ily"
+\include "../Include/refrain.ily"

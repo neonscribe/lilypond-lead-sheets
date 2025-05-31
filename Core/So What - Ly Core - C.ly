@@ -14,9 +14,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1959 Jazz Horn Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 chordSize = #+1
 
 refrainChords = \chordmode {
@@ -120,7 +117,7 @@ refrainKicksOverTime = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-with-kicks.ily"
+\include "../Include/refrain.ily"
 
 \markup {
   % Leave a gap after the header

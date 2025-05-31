@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1943 Leo Feist, Inc."
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _
 Star eyes, that to me is what your eyes are,
 Soft as stars in A -- pril skies are,
@@ -113,4 +113,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1935 Williamson Music and Lorenz Hart Music"
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   When I was ver -- y
 
   young __ the world was young -- er than I, as __ mer -- ry as a car -- ou -- sel. __
@@ -139,4 +139,4 @@ refrainMelody = \relative f' {
   \vspace #1
 }
 
-\include "../Include/refrain-two-verses.ily"
+\include "../Include/refrain.ily"

@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1940 Shapiro, Bernstein & Co."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s1
   

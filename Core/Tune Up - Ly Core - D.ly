@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1953 Prestige Music"
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   r1 r1 r1 r1
   
