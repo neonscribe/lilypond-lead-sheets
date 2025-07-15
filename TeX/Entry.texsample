@@ -1,3 +1,1 @@
-\phantomsection
-\addcontentsline{toc}{section}{}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{""}
+\song{Song Title}{"File Name Without Extension"}

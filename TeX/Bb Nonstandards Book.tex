@@ -1,21 +1,4 @@
-\documentclass{book}
-\usepackage{fontspec}
-\setmainfont{symbola}
-\usepackage[margin=0.5in]{geometry}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr,bookmark,pdfpages,tocloft,nextpage}
-\hypersetup{pdfpagelayout=TwoPageRight}
-\fancypagestyle{plain}{
-\fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\fancyhead[LE,RO]{\thepage}}
-
-\let\origevenpage\cleartoevenpage
-\newcommand{\clearemptytoevenpage}{%
-  \clearpage
-  {\pagestyle{empty}\origevenpage}%
-}
+\include{../Include/songbook.tex}
 
 \begin{document}
 
@@ -24,167 +7,72 @@
 \setlength{\cftbeforesecskip}{0cm}
 \renewcommand{\cftsecfont}{\small}
 \addcontentsline{toc}{section}{Table of Contents}
+\pdfbookmark{Table of Contents}{Table of Contents}
 \tableofcontents
-\clearemptytoevenpage
+\cleardoublepage
 
-\phantomsection
-\addcontentsline{toc}{section}{Apache - Am to Bm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Apache - Ly - Am to Bm for Bb for Standard"}
+\song{Apache - Am to Bm}{"../Standard/Bb/Apache - Ly - Am to Bm for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Ashokan Farewell - D to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Ashokan Farewell - Ly - D to E for Bb for Standard"}
+\song{Ashokan Farewell - D to E}{"../Standard/Bb/Ashokan Farewell - Ly - D to E for Bb for Standard"}
 
-\clearemptytoevenpage
+\dmsong{Bennie and the Jets - G to A}{"../Standard/Bb/Bennie and the Jets - Ly - G to A for Bb High for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bennie and the Jets - G to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Bennie and the Jets - Ly - G to A for Bb High for Standard"}
+\dxsong{Bennie and the Jets - G to A}{"../Standard/Bb/Bennie and the Jets - Ly - G to A for Bb Low for Standard"}
 
-\clearemptytoevenpage
+\msong{Castaways - F to G}{"../Standard/Bb/Castaways - Ly - F to G for Bb High for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bennie and the Jets - G to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Bennie and the Jets - Ly - G to A for Bb Low for Standard"}
+\xsong{Castaways - F to G}{"../Standard/Bb/Castaways - Ly - F to G for Bb Low for Standard"}
 
-\clearemptytoevenpage
+\dsong{Dear Mr. Fantasy - A to B}{"../Standard/Bb/Dear Mr Fantasy - Ly - A to B for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Castaways - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Castaways - Ly - F to G for Bb High for Standard"}
+\dsong{Friend of the Devil - G to A}{"../Standard/Bb/Friend of the Devil - Ly - G to A for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Castaways - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Castaways - Ly - F to G for Bb Low for Standard"}
+\song{Hard to Thrill - Am to Bm}{"../Standard/Bb/Hard to Thrill - Ly - Am to Bm for Bb for Standard"}
 
-\clearemptytoevenpage
+\song{Hawaii Five-O Theme - Cm to Dm}{"../Standard/Bb/Hawaii Five-O Theme - Ly - Cm to Dm for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Dear Mr. Fantasy - A to B}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Dear Mr Fantasy - Ly - A to B for Bb for Standard"}
+\song{He'll Have to Go - F to G}{"../Standard/Bb/He'll Have to Go - Ly - F to G for Bb for Standard"}
 
-\clearemptytoevenpage
+\song{Here Comes the Bride - Bb to C}{"../Standard/Bb/Here Comes the Bride - Ly - Bb to C for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Friend of the Devil - G to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Friend of the Devil - Ly - G to A for Bb for Standard"}
+\dsong{Innocent When You Dream - F to G}{"../Standard/Bb/Innocent When You Dream - Ly - F to G for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Hard to Thrill - Am to Bm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Hard to Thrill - Ly - Am to Bm for Bb for Standard"}
+\dsong{It's All Your Fault - C to D}{"../Standard/Bb/It's All Your Fault - Ly - C to D for Bb High for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Hawaii Five-O Theme - Cm to Dm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Hawaii Five-O Theme - Ly - Cm to Dm for Bb for Standard"}
+\dsong{It's Different for Girls - F\# to Ab}{"../Standard/Bb/It's Different for Girls - Ly - Fs to Ab for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{He'll Have to Go - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/He'll Have to Go - Ly - F to G for Bb for Standard"}
+\dsong{I Shot the Sheriff - Gm to Am}{"../Standard/Bb/I Shot the Sheriff - Ly - Gm to Am for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Here Comes the Bride - Bb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Here Comes the Bride - Ly - Bb to C for Bb for Standard"}
+\song{It's All Your Fault - C to D}{"../Standard/Bb/It's All Your Fault - Ly - C to D for Bb Low for Standard"}
 
-\clearemptytoevenpage
+\dsong{Jesusita in Chihuahua - G to A}{"../Standard/Bb/Jesusita in Chihuahua - Ly - G to A for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Innocent When You Dream - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Innocent When You Dream - Ly - F to G for Bb for Standard"}
+\msong{Just My Kind - Ab to Bb}{"../Standard/Bb/Just My Kind - Ly - Ab to Bb for Bb High for Standard"}
 
-\clearemptytoevenpage
+\xsong{Just My Kind - Ab to Bb}{"../Standard/Bb/Just My Kind - Ly - Ab to Bb for Bb Low for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It's All Your Fault - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/It's All Your Fault - Ly - C to D for Bb High for Standard"}
+\song{Knee Deep in the Blues - C to D}{"../Standard/Bb/Knee Deep in the Blues - Ly - C to D for Bb for Standard"}
 
-\clearemptytoevenpage
+\dsong{Lady Madonna - A to B}{"../Standard/Bb/Lady Madonna - Ly - A to B for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It's Different for Girls - F\# to Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/It's Different for Girls - Ly - Fs to Ab for Bb for Standard"}
+\dsong{Lucy in the Sky With Diamonds - A to B}{"../Standard/Bb/Lucy in the Sky With Diamonds - Ly - A to B for Bb for Standard"}
 
-\clearemptytoevenpage
+\song{My Adobe Hacienda - C to D}{"../Standard/Bb/My Adobe Hacienda - Ly - C to D for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Shot the Sheriff - Gm to Am}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/I Shot the Sheriff - Ly - Gm to Am for Bb for Standard"}
+\song{Norwegian Wood - E to F\#}{"../Standard/Bb/Norwegian Wood - Ly - E to Fs for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It's All Your Fault - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/It's All Your Fault - Ly - C to D for Bb Low for Standard"}
+\song{On the Trail - F to G}{"../Standard/Bb/On the Trail - Ly - F to G for Bb for Standard"}
 
-\clearemptytoevenpage
+\song{Sleepwalk - C to D}{"../Standard/Bb/Sleepwalk - Ly - C to D for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Jesusita in Chihuahua - G to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Jesusita in Chihuahua - Ly - G to A for Bb for Standard"}
+\song{Star Trek - Bb to C}{"../Standard/Bb/Star Trek - Ly - Bb to C for Bb for Standard"}
 
-\clearemptytoevenpage
+\dsong{Stay a Little Longer - G to A}{"../Standard/Bb/Stay a Little Longer - Ly - G to A for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Just My Kind - Ab to Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Just My Kind - Ly - Ab to Bb for Bb High for Standard"}
+\dsong{Strawberry Fields Forever - A to B}{"../Standard/Bb/Strawberry Fields Forever - Ly - A to B for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Just My Kind - Ab to Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Just My Kind - Ly - Ab to Bb for Bb Low for Standard"}
+\song{Walk Don't Run - C to D}{"../Standard/Bb/Walk Don't Run - Ly - C to D for Bb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Knee Deep in the Blues - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Knee Deep in the Blues - Ly - C to D for Bb for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Lucy in the Sky With Diamonds - A to B}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Lucy in the Sky With Diamonds - Ly - A to B for Bb for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{My Adobe Hacienda - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/My Adobe Hacienda - Ly - C to D for Bb for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Norwegian Wood - E to F\#}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Norwegian Wood - Ly - E to Fs for Bb for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{On the Trail - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/On the Trail - Ly - F to G for Bb for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Sleepwalk - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Sleepwalk - Ly - C to D for Bb for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Star Trek - Bb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Star Trek - Ly - Bb to C for Bb for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Stay a Little Longer - G to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Stay a Little Longer - Ly - G to A for Bb for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Strawberry Fields Forever - A to B}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Strawberry Fields Forever - Ly - A to B for Bb for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Walk Don't Run - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Walk Don't Run - Ly - C to D for Bb for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{While My Guitar Gently Weeps - Am to Bm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/While My Guitar Gently Weeps - Ly - Am to Bm for Bb for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{You Don't Know Me - Eb to F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/You Don't Know Me - Ly - Eb to F for Bb for Standard"}
+\dsong{While My Guitar Gently Weeps - Am to Bm}{"../Standard/Bb/While My Guitar Gently Weeps - Ly - Am to Bm for Bb for Standard"}
 
 \end{document}

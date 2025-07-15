@@ -99,8 +99,9 @@ refrainMelody = \relative f' {
   %% \break
   f,2.~ | f2.~ | f2. | R2.*1 |
   }
+  \bar "||-:|."
   
-  \sect "B"
+  \sectNoBar "B"
 
   bf4 c4 d4 | f4 r4 r4 | ef4 d4 c4 | bf2 a4 | g4 a4 bf4 | d2. |
   c4 bf4 af4 | g2 f4 |

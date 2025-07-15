@@ -122,7 +122,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Fast Swing" 4 = 180
+  \tempo "Fast Swing [Django Reinhardt 1934]" 4 = 250
 
   \partial 2. b4 c4 cs4 |
   \bar "||"

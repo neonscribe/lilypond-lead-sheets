@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1972 Hubtones Music Co."
 }
 
-bridgeLyrics = \lyricmode {
-}
-
 bridgeKey = c
 
 bridgeChords = \chordmode {

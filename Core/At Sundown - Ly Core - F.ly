@@ -35,8 +35,8 @@ refrainJoelChords = \chordmode {
   g1:m7 c1:7 f1 f2 a2:7
   d1:7 d1:7 g1:7 g1:7
   c1:7 c1:7 f1 
-  \chordOpenParen{ g2:m7 }
-  \chordCloseParen{ c2:7 }
+  \chordOpenParen{ a2:m7 }
+  \chordCloseParen{ d2:7 }
 }
 
 refrainHLChords = \chordmode {
@@ -67,8 +67,8 @@ refrainFHChords = \chordmode {
   g1:m7 c1:7 f1 f4 f4:7 e4:7 ef4:7
   d1:7 d1:7 g1:7 g1:7
   g1:m7 c1:7 f1
-  \chordOpenParen{ g2:m7 }
-  \chordCloseParen{ c2:7 }
+  \chordOpenParen{ a2:m7 }
+  \chordCloseParen{ d2:7 }
 }
 
 refrainChords = #(if (and (defined? 'useJoelChords) useJoelChords)

@@ -27,10 +27,13 @@
 	}
       }
       }
+    $(if (and (defined? 'refrainLyrics) refrainLyrics)
+      #{ 
     \new Lyrics \lyricsto "voiceMelody"
     {
       \refrainLyrics
     }
+      #} )
     \new Staff {
       \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
@@ -77,10 +80,13 @@
       \refrainMelody
       } }
       #} )
+    $(if (and (defined? 'refrainLyrics) refrainLyrics)
+      #{ 
     \new Lyrics \lyricsto "voiceMelody"
     {
       \refrainLyrics
     }
+      #} )
     \new Staff \with {midiInstrument = "brass section"} {
       \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 

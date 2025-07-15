@@ -1,19 +1,4 @@
-\documentclass{book}
-\usepackage[margin=0.5in]{geometry}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr,bookmark,pdfpages,tocloft,nextpage}
-\hypersetup{pdfpagelayout=TwoPageRight}
-\fancypagestyle{plain}{
-\fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\fancyhead[LE,RO]{\thepage}}
-
-\let\origevenpage\cleartoevenpage
-\newcommand{\clearemptytoevenpage}{%
-  \clearpage
-  {\pagestyle{empty}\origevenpage}%
-}
+\include{../Include/songbook.tex}
 
 \begin{document}
 
@@ -22,41 +7,22 @@
 \setlength{\cftbeforesecskip}{0cm}
 \renewcommand{\cftsecfont}{\small}
 \addcontentsline{toc}{section}{Table of Contents}
+\pdfbookmark{Table of Contents}{Table of Contents}
 \tableofcontents
-\clearemptytoevenpage
+\cleardoublepage
 
-\phantomsection
-\addcontentsline{toc}{section}{The Thrill Is Gone - Dm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/The Thrill Is Gone - Ly - Dm Standard"}
+\song{The Thrill Is Gone - Dm}{"../Standard/The Thrill Is Gone - Ly - Dm Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Thrill Is Gone - Cm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Baritone Voice/The Thrill Is Gone - Ly - Cm Baritone Voice"}
+\song{The Thrill Is Gone - Cm}{"../Baritone Voice/The Thrill Is Gone - Ly - Cm Baritone Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Thrill Is Gone - Fm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/The Thrill Is Gone - Ly - Fm Alto Voice"}
+\song{The Thrill Is Gone - Fm}{"../Alto Voice/The Thrill Is Gone - Ly - Fm Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Thrill Is Gone - Gm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/The Thrill Is Gone - Ly - Gm Alto Voice"}
+\song{The Thrill Is Gone - Gm}{"../Alto Voice/The Thrill Is Gone - Ly - Gm Alto Voice"}
 
-\clearemptytoevenpage
+\dmsong{Almost Blue - Am}{"../Standard/Almost Blue - Ly - Am Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Almost Blue - Am}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Almost Blue - Ly - Am Standard"}
+\dxsong{Almost Blue - Dm}{"../Alto Voice/Almost Blue - Ly - Dm Alto Voice"}
 
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Almost Blue - Dm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Almost Blue - Ly - Dm Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Almost Blue - Fm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Almost Blue - Ly - Fm Alto Voice"}
+\dxsong{Almost Blue - Fm}{"../Alto Voice/Almost Blue - Ly - Fm Alto Voice"}
 
 \end{document}

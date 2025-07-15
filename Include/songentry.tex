@@ -1,0 +1,59 @@
+\newcounter{songs}
+\setcounter{songs}{0}
+
+% One page, only one entry
+\newcommand{\song}[2]{ %
+\addtocounter{songs}{1}
+\phantomsection %
+\addcontentsline{toc}{section}{\thesongs. #1} %
+\pdfbookmark{#1}{#1}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
+}
+
+% One page, first entry of multiples
+\newcommand{\msong}[2]{ %
+\addtocounter{songs}{1}
+\clearemptytoevenpage %
+\phantomsection %
+\addcontentsline{toc}{section}{\thesongs. #1} %
+\pdfbookmark{#1}{#1}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
+}
+
+% One page, succesive entry of multiples
+\newcommand{\xsong}[2]{ %
+\phantomsection %
+\addcontentsline{toc}{section}{   #1} %
+\pdfbookmark{#1}{#1}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
+}
+
+% Multiple pages, only one entry
+\newcommand{\dsong}[2]{ %
+\addtocounter{songs}{1}
+\clearemptytoevenpage %
+\phantomsection %
+\addcontentsline{toc}{section}{\thesongs. #1} %
+\pdfbookmark{#1}{#1}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
+}
+
+% Multiple pages, first entry of multiples
+\newcommand{\dmsong}[2]{ %
+\addtocounter{songs}{1}
+\clearemptytoevenpage %
+\phantomsection %
+\addcontentsline{toc}{section}{\thesongs. #1} %
+\pdfbookmark{#1}{#1}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
+}
+
+% Multiple pages, successive entry of multiples
+\newcommand{\dxsong}[2]{ %
+\clearemptytoevenpage %
+\phantomsection %
+\addcontentsline{toc}{section}{   #1} %
+\pdfbookmark{#1}{#1}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
+}
+

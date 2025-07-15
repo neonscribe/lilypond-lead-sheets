@@ -42,10 +42,13 @@ codaRaggedRight =
       \codaMelody
       } }
       #} )
+    $(if (and (defined? 'codaLyrics) codaLyrics)
+       #{
     \new Lyrics \lyricsto "voiceMelody"
     {
       \codaLyrics
     }
+      #} )
   >>
   \layout { ragged-bottom = ##t ragged-right = \codaRaggedRight }
 }

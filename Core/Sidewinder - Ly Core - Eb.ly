@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1959 Conrad Music"
 }
 
-introLyrics = \lyricmode {
-}
-
 introChords = \chordmode {
   s1
   s4 d4:7 s8 ef8:7 s4
@@ -92,9 +89,6 @@ refrainMelody = \relative f' {
   
   r4 f,4-. r8 g8-> r4 | r4 f4-. r8 g8-> r4 |
   r8 f8 g4 af4 a4 | a8 bf8 af8 e8 r8 e8 df8 e8 |
-}
-
-codaLyrics = \lyricmode {
 }
 
 codaChords = \chordmode {

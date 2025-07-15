@@ -12,15 +12,6 @@
   copyright = \markup \small "© 1916 Pack & Handy Music Co. Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
-refrainLyricsTwo = \lyricmode {
-}
-
-refrainLyricsThree = \lyricmode {
-}
-
 refrainChords = \chordmode {
   s2
   

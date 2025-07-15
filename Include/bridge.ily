@@ -20,10 +20,13 @@
 	  }
 	}
     }
+    $(if (and (defined? 'bridgeLyrics) bridgeLyrics)
+       #{
     \new Lyrics \lyricsto "voiceMelody"
     {
       \bridgeLyrics
     }
+      #} )
   >>
   \midi{} \layout { ragged-bottom = ##t ragged-right = ##f }
 }

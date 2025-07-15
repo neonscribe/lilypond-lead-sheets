@@ -2,7 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Have Yourself a Merry Little Christmas"

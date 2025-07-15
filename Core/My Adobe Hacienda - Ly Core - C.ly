@@ -27,7 +27,7 @@ refrainLyricsTwo = \lyricmode {
 \skip 8 my a -- do -- be ha -- ci -- en -- da __
 Nes -- tled in the West -- ern hills, __
 Eve -- ning breez -- es soft -- ly mur -- mur __
-Har -- mo -- my __ with whip -- poor -- wills. __
+Har -- mo -- ny __ with whip -- poor -- wills. __
 When set -- ting sun __ says the long day is done, __
 Sweet mu -- sic starts to fill the air; __
 In my a -- do -- be ha -- ci -- en -- da __
@@ -39,13 +39,15 @@ refrainChords = \chordmode {
   
   c1:6 c1:6 g1:7 g1:7 g1:7 g1:7 c1:6 c2:6 g2:7
 
-  c1:6 c1:6 g1:7 g1:7 g1:7 g1:7 c1:6 c1:6
+  c1:6 c1:6 g1:7 g1:7 g1:7 g1:7 c1:6 c2:6 g2:7
 
   c1:7 c1:7 f1:6 f1:6 d1:7 d1:7 g1:7 g1:7
 
   c1:6 c1:6 g1:7 g1:7 g1:7 g1:7
 
-  c1:6 c2:6 \chordInsideParens{ g2:7 }
+  c1:6
+  \chordOpenParen{ d2:m7 }
+  \chordCloseParen{ g2:7 }
 }
 
 refrainKey = c

@@ -57,13 +57,13 @@ refrainChords = \chordmode {
   af2 af2/gf df2/f af2/ef 
   ef1 ef1
   
-  af1 bf1:m7 af1/c e4.:7 ef8*5:7
-  af1 bf1:m7 af1/c e4.:7 ef8*5:7
+  af1:6 bf8*5:m7 b4.:dim7 af1:6/c s8 ff4.:7 s8 ef4.:6.9
+  af1:6 bf8*5:m7 b4.:dim7 af1:6/c r8*5 gf8:6.9 g8:6.9 af8:6.9
 
   af2 af2/gf df/f af/ef df2 af/c bf2:m7 ef2:7
   af2 af2/gf df/f af/ef df2 f2:m7
   
-  e4.:7 ef8*5:7
+  ff4.:7 ef8*5:7
   
   ef4.:9 af8*5
   
@@ -145,6 +145,10 @@ refrainMelody = \relative f' {
   c2 c2 | af4 r4 r2 |
 
   \bar "|."
+}
+
+refrainKicksOverTime = \relative f' {
+  s1*8 af4 r4 r2 bf4 r4 r8 cf4. c4 r4 r2 r8 ff 4. r8 ef4. af,4 r4 r2 bf4 r4 r8 cf4. c4 r4 r2 r2 r8 gf8 g8 af8 
 }
 
 \include "../Include/paper.ily"

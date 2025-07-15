@@ -12,9 +12,6 @@
   copyright = \markup \small "© 1969 D'Accord Music, Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   bf2.:maj7 ef2.:m6/bf bf2.:maj7 ef2.:m6/bf 
   bf2.:maj7 ef2:m6/bf bf4 a2.:m7.5- d2.:7.9-

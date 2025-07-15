@@ -15,9 +15,6 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small "© 1944 MCA Music Publishing Inc."
 }
 
-refrainLyrics = \lyricmode {
-}
-
 refrainChords = \chordmode {
   ef1:7 d1:m
 

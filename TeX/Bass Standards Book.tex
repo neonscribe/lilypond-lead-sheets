@@ -1,21 +1,4 @@
-\documentclass{book}
-\usepackage{fontspec}
-\setmainfont{symbola}
-\usepackage[margin=0.5in]{geometry}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr,bookmark,pdfpages,tocloft,nextpage}
-\hypersetup{pdfpagelayout=TwoPageRight}
-\fancypagestyle{plain}{
-\fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\fancyhead[LE,RO]{\thepage}}
-
-\let\origevenpage\cleartoevenpage
-\newcommand{\clearemptytoevenpage}{%
-  \clearpage
-  {\pagestyle{empty}\origevenpage}%
-}
+\include{../Include/songbook.tex}
 
 \begin{document}
 
@@ -24,2757 +7,1294 @@
 \setlength{\cftbeforesecskip}{0cm}
 \renewcommand{\cftsecfont}{\small}
 \addcontentsline{toc}{section}{Table of Contents}
+\pdfbookmark{Table of Contents}{Table of Contents}
 \tableofcontents
-\clearemptytoevenpage
+\cleardoublepage
 
-\phantomsection
-\addcontentsline{toc}{section}{502 Blues - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/502 Blues - Ly - Am Bass for Standard"}
+\song{502 Blues - Am Bass}{"../Standard/Bass/502 Blues - Ly - Am Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Across the Alley From the Alamo - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Across the Alley From the Alamo - Ly - F Bass for Standard"}
+\song{Across the Alley From the Alamo - F Bass}{"../Standard/Bass/Across the Alley From the Alamo - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Afternoon in Paris - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Afternoon in Paris - Ly - C Bass for Standard"}
+\song{Afternoon in Paris - C Bass}{"../Standard/Bass/Afternoon in Paris - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{After You've Gone - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/After You've Gone - Ly - G Bass for Standard"}
+\song{After You've Gone - G Bass}{"../Standard/Bass/After You've Gone - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Água de Beber (Water to Drink) - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Agua de Beber - Ly - Am Bass for Standard"}
+\song{Água de Beber (Water to Drink) - Am Bass}{"../Standard/Bass/Agua de Beber - Ly - Am Bass for Standard"}
 
-\clearemptytoevenpage
+\msong{Ain't Misbehavin' - Eb Bass}{"../Standard/Bass/Ain't Misbehavin' - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Ain't Misbehavin' - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Ain't Misbehavin' - Ly - Eb Bass for Standard"}
+\xsong{Ain't Misbehavin' - C Bass}{"../Standard/Bass/Ain't Misbehavin' - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Ain't Misbehavin' - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Ain't Misbehavin' - Ly - C Bass for Standard"}
+\xsong{Ain't Misbehavin' - D Bass}{"../Standard/Bass/Ain't Misbehavin' - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Ain't Misbehavin' - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Ain't Misbehavin' - Ly - D Bass for Standard"}
+\song{Airegin - Fm Bass}{"../Standard/Bass/Airegin - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Airegin - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Airegin - Ly - Fm Bass for Standard"}
+\song{Alice in Wonderland - C Bass}{"../Standard/Bass/Alice in Wonderland - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Alice in Wonderland - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Alice in Wonderland - Ly - C Bass for Standard"}
+\song{All Blues - G Bass}{"../Standard/Bass/All Blues - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{All Blues - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/All Blues - Ly - G Bass for Standard"}
+\song{All of Me - C Bass}{"../Standard/Bass/All of Me - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{All of Me - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/All of Me - Ly - C Bass for Standard"}
+\song{All of You - Eb Bass}{"../Standard/Bass/All of You - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{All of You - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/All of You - Ly - Eb Bass for Standard"}
+\dsong{All the Things You Are - Ab Bass}{"../Standard/Bass/All the Things You Are - Ly - Ab Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Almost Blue - Am Bass}{"../Standard/Bass/Almost Blue - Ly - Am Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{All the Things You Are - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/All the Things You Are - Ly - Ab Bass for Standard"}
+\song{Almost Like Being in Love - Bb Bass}{"../Standard/Bass/Almost Like Being in Love - Ly - Bb Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Alone Together - Dm Bass}{"../Standard/Bass/Alone Together - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Almost Blue - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Almost Blue - Ly - Am Bass for Standard"}
+\song{Along Came Betty - Ab Bass}{"../Standard/Bass/Along Came Betty - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Almost Like Being in Love - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Almost Like Being in Love - Ly - Bb Bass for Standard"}
+\dsong{Alright Okay You Win - Eb Bass}{"../Standard/Bass/Alright Okay You Win - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\msong{Always (3/4) - F Bass}{"../Standard/Bass/Always Waltz - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Alone Together - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Alone Together - Ly - Dm Bass for Standard"}
+\xsong{Always (4/4) - F Bass}{"../Standard/Bass/Always Swing - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Along Came Betty - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Along Came Betty - Ly - Ab Bass for Standard"}
+\song{Am I Blue - F Bass}{"../Standard/Bass/Am I Blue - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Angel Eyes - Cm Bass}{"../Standard/Bass/Angel Eyes - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Alright Okay You Win - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Alright Okay You Win - Ly - Eb Bass for Standard"}
+\song{Anthropology - Bb Bass}{"../Standard/Bass/Anthropology - Ly - Bb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Any Time - F Bass}{"../Standard/Bass/Any Time - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Always (3/4) - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Always Waltz - Ly - F Bass for Standard"}
+\song{April in Paris - C Bass}{"../Standard/Bass/April in Paris - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Always (4/4) - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Always Swing - Ly - F Bass for Standard"}
+\song{Are You Lonesome Tonight - C Bass}{"../Standard/Bass/Are You Lonesome Tonight - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Am I Blue - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Am I Blue - Ly - F Bass for Standard"}
+\song{Artillerie Lourde - C Bass}{"../Standard/Bass/Artillerie Lourde - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Ask Me Now - Db Bass}{"../Standard/Bass/Ask Me Now - Ly - Db Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Angel Eyes - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Angel Eyes - Ly - Cm Bass for Standard"}
+\song{As Time Goes By - Eb Bass}{"../Standard/Bass/As Time Goes By - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Anthropology - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Anthropology - Ly - Bb Bass for Standard"}
+\song{At Last - C Bass}{"../Standard/Bass/At Last - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Any Time - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Any Time - Ly - F Bass for Standard"}
+\song{At Sundown - F Bass}{"../Standard/Bass/At Sundown - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{April in Paris - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/April in Paris - Ly - C Bass for Standard"}
+\song{Au Privave - F Bass}{"../Standard/Bass/Au Privave - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Are You Lonesome Tonight - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Are You Lonesome Tonight - Ly - C Bass for Standard"}
+\dsong{Autumn in New York - F Bass}{"../Standard/Bass/Autumn in New York - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Artillerie Lourde - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Artillerie Lourde - Ly - C Bass for Standard"}
+\msong{Autumn Leaves - Em Bass}{"../Standard/Bass/Autumn Leaves - Ly - Em Bass for Standard"}
 
-\clearemptytoevenpage
+\xsong{Autumn Leaves - Gm Bass}{"../Standard/Bass/Autumn Leaves - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Ask Me Now - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Ask Me Now - Ly - Db Bass for Standard"}
+\song{Avalon - F Bass}{"../Standard/Bass/Avalon - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{As Time Goes By - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/As Time Goes By - Ly - Eb Bass for Standard"}
+\song{Baby Elephant Walk - F Bass}{"../Standard/Bass/Baby Elephant Walk - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{At Last - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/At Last - Ly - C Bass for Standard"}
+\dsong{Baby, Won't You Please Come Home - G Bass}{"../Standard/Bass/Baby Won't You Please Come Home - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{At Sundown - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/At Sundown - Ly - F Bass for Standard"}
+\song{Back in Your Own Backyard - G Bass}{"../Standard/Bass/Back in Your Own Backyard - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Au Privave - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Au Privave - Ly - F Bass for Standard"}
+\song{Bags' Groove - F Bass}{"../Standard/Bass/Bags Groove - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Basin Street Blues - Bb Bass}{"../Standard/Bass/Basin Street Blues - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Autumn in New York - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Autumn in New York - Ly - F Bass for Standard"}
+\song{Batida Diferente - G Bass}{"../Standard/Bass/Batida Diferente - Ly - G Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Beale Street Blues - Bb Bass}{"../Standard/Bass/Beale Street Blues - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Autumn Leaves - Em Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Autumn Leaves - Ly - Em Bass for Standard"}
+\song{Beatrice - F Bass}{"../Standard/Bass/Beatrice - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Autumn Leaves - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Autumn Leaves - Ly - Gm Bass for Standard"}
+\song{A Beautiful Friendship - C Bass}{"../Standard/Bass/A Beautiful Friendship - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Avalon - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Avalon - Ly - F Bass for Standard"}
+\song{Beautiful Love - Dm Bass}{"../Standard/Bass/Beautiful Love - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Baby Elephant Walk - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Baby Elephant Walk - Ly - F Bass for Standard"}
+\dsong{Bei Mir Bist Du Schoen - Am Bass}{"../Standard/Bass/Bei Mir Bist Du Schoen - Ly - Am Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Belleville - D Bass}{"../Standard/Bass/Belleville - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Baby, Won't You Please Come Home - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Baby Won't You Please Come Home - Ly - G Bass for Standard"}
+\song{Bemsha Swing - C Bass}{"../Standard/Bass/Bemsha Swing - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Back in Your Own Backyard - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Back in Your Own Backyard - Ly - G Bass for Standard"}
+\msong{Bernie's Tune - Dm Bass}{"../Standard/Bass/Bernie's Tune - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bags' Groove - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bags Groove - Ly - F Bass for Standard"}
+\xsong{Bernie's Tune Lyrics - Dm Bass}{"../Standard/Bass/Bernie's Tune Lyrics - Ly - Dm Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Besame Mucho - Dm Bass}{"../Standard/Bass/Besame Mucho - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Basin Street Blues - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Basin Street Blues - Ly - Bb Bass for Standard"}
+\song{Bessie's Blues - Eb Bass}{"../Standard/Bass/Bessie's Blues - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Batida Diferente - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Batida Diferente - Ly - G Bass for Standard"}
+\song{The Best Things in Life Are Free - C Bass}{"../Standard/Bass/The Best Things in Life Are Free - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Beale Street Blues - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Beale Street Blues - Ly - Bb Bass for Standard"}
+\dsong{Better Than Anything - D Bass}{"../Standard/Bass/Better Than Anything - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Beatrice - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Beatrice - Ly - F Bass for Standard"}
+\song{Between the Devil and the Deep Blue Sea - F Bass}{"../Standard/Bass/Between the Devil and the Deep Blue Sea - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{A Beautiful Friendship - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/A Beautiful Friendship - Ly - C Bass for Standard"}
+\song{Bewitched - C Bass}{"../Standard/Bass/Bewitched - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Beautiful Love - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Beautiful Love - Ly - Dm Bass for Standard"}
+\dsong{Beyond the Sea - F Bass}{"../Standard/Bass/Beyond the Sea - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Billie's Bounce - F Bass}{"../Standard/Bass/Billie's Bounce - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bei Mir Bist Du Schoen - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bei Mir Bist Du Schoen - Ly - Am Bass for Standard"}
+\song{Birk's Works - Fm Bass}{"../Standard/Bass/Birk's Works - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Belleville - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Belleville - Ly - D Bass for Standard"}
+\dsong{Black Coffee - F Bass}{"../Standard/Bass/Black Coffee - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bemsha Swing - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bemsha Swing - Ly - C Bass for Standard"}
+\dsong{Black Orpheus - Am Bass}{"../Standard/Bass/Black Orpheus - Ly - Am Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Blame It on My Youth - Eb Bass}{"../Standard/Bass/Blame It on My Youth - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bernie's Tune - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bernie's Tune - Ly - Dm Bass for Standard"}
+\song{Blue and Sentimental - Eb Bass}{"../Standard/Bass/Blue and Sentimental - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bernie's Tune Lyrics - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bernie's Tune Lyrics - Ly - Dm Bass for Standard"}
+\song{Blue Bossa - Cm Bass}{"../Standard/Bass/Blue Bossa - Ly - Cm Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Blue Drag - Dm Bass}{"../Standard/Bass/Blue Drag - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Besame Mucho - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Besame Mucho - Ly - Dm Bass for Standard"}
+\song{Blue in Green - Dm Bass}{"../Standard/Bass/Blue in Green - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bessie's Blues - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bessie's Blues - Ly - Eb Bass for Standard"}
+\song{Blue Lou - G Bass}{"../Standard/Bass/Blue Lou - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Best Things in Life Are Free - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Best Things in Life Are Free - Ly - C Bass for Standard"}
+\song{Blue Monk - Bb Bass}{"../Standard/Bass/Blue Monk - Ly - Bb Bass for Standard"}
 
-\clearemptytoevenpage
+\msong{Blue Moon - Eb Bass}{"../Standard/Bass/Blue Moon - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Better Than Anything - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Better Than Anything - Ly - D Bass for Standard"}
+\xsong{Blue Moon - Eb Bass}{"../Others/Blue Moon - Ly - Eb Bass for Alternate Chords"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Between the Devil and the Deep Blue Sea - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Between the Devil and the Deep Blue Sea - Ly - F Bass for Standard"}
+\song{Blues by Five - Bb Bass}{"../Standard/Bass/Blues by Five - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bewitched - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bewitched - Ly - C Bass for Standard"}
+\dsong{Bluesette - Bb Bass}{"../Standard/Bass/Bluesette - Ly - Bb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Blues for Alice - F Bass}{"../Standard/Bass/Blues for Alice - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Beyond the Sea - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Beyond the Sea - Ly - F Bass for Standard"}
+\song{Blues in the Closet - G Bass}{"../Standard/Bass/Blues in the Closet - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Billie's Bounce - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Billie's Bounce - Ly - F Bass for Standard"}
+\dsong{Blues in the Night - Bb Bass}{"../Standard/Bass/Blues in the Night - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Birk's Works - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Birk's Works - Ly - Fm Bass for Standard"}
+\song{Blue Skies - C Bass}{"../Standard/Bass/Blue Skies - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Blue Train (Blue Trane) - Eb Bass}{"../Standard/Bass/Blue Train (Blue Trane) - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Black Coffee - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Black Coffee - Ly - F Bass for Standard"}
+\song{Body and Soul - Db Bass}{"../Standard/Bass/Body and Soul - Ly - Db Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Bohemia After Dark - Gm Bass}{"../Standard/Bass/Bohemia After Dark - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Black Orpheus - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Black Orpheus - Ly - Am Bass for Standard"}
+\dsong{Born to Be Blue - C Bass}{"../Standard/Bass/Born to Be Blue - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blame It on My Youth - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blame It on My Youth - Ly - Eb Bass for Standard"}
+\song{Bossa Antigua - Ab Bass}{"../Standard/Bass/Bossa Antigua - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue and Sentimental - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blue and Sentimental - Ly - Eb Bass for Standard"}
+\song{Bossa Dorado - Dm Bass}{"../Standard/Bass/Bossa Dorado - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue Bossa - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blue Bossa - Ly - Cm Bass for Standard"}
+\song{Breezin' Along With the Breeze - F Bass}{"../Standard/Bass/Breezin' Along With the Breeze - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue Drag - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blue Drag - Ly - Dm Bass for Standard"}
+\song{Broadway - Eb Bass}{"../Standard/Bass/Broadway - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue in Green - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blue in Green - Ly - Dm Bass for Standard"}
+\song{But Beautiful - G Bass}{"../Standard/Bass/But Beautiful - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue Lou - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blue Lou - Ly - G Bass for Standard"}
+\dsong{But Not for Me - Eb Bass}{"../Standard/Bass/But Not for Me - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue Monk - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blue Monk - Ly - Bb Bass for Standard"}
+\song{Bye Bye Blackbird - F Bass}{"../Standard/Bass/Bye Bye Blackbird - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Bye Bye Blues - C Bass}{"../Standard/Bass/Bye Bye Blues - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue Moon - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blue Moon - Ly - Eb Bass for Standard"}
+\song{Cantaloupe Island - Fm Bass}{"../Standard/Bass/Cantaloupe Island - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue Moon - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Others/Blue Moon - Ly - Eb Bass for Alternate Chords"}
+\song{Can't Help Lovin' Dat Man - Eb Bass}{"../Standard/Bass/Can't Help Lovin' Dat Man - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blues by Five - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blues by Five - Ly - Bb Bass for Standard"}
+\song{Can't We Be Friends - F Bass}{"../Standard/Bass/Can't We Be Friends - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Caravan - Fm Bass}{"../Standard/Bass/Caravan - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bluesette - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bluesette - Ly - Bb Bass for Standard"}
+\song{Centerpiece - Ab Bass}{"../Standard/Bass/Centerpiece - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blues for Alice - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blues for Alice - Ly - F Bass for Standard"}
+\dsong{Ceora - Ab Bass}{"../Standard/Bass/Ceora - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blues in the Closet - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blues in the Closet - Ly - G Bass for Standard"}
+\dmsong{C'est Si Bon English - Bb Bass}{"../Standard/Bass/C'est Si Bon English - Ly - Bb Bass for Standard"}
 
-\clearemptytoevenpage
+\dxsong{C'est Si Bon French - Bb Bass}{"../Standard/Bass/C'est Si Bon French - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blues in the Night - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blues in the Night - Ly - Bb Bass for Standard"}
+\song{Change Partners - F Bass}{"../Standard/Bass/Change Partners - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue Skies - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blue Skies - Ly - C Bass for Standard"}
+\song{Charade - Am Bass}{"../Standard/Bass/Charade - Ly - Am Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue Train (Blue Trane) - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Blue Train (Blue Trane) - Ly - Eb Bass for Standard"}
+\dsong{Cheek to Cheek - C Bass}{"../Standard/Bass/Cheek to Cheek - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Body and Soul - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Body and Soul - Ly - Db Bass for Standard"}
+\dsong{Chega de Saudade - D Bass}{"../Standard/Bass/Chega de Saudade - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bohemia After Dark - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bohemia After Dark - Ly - Gm Bass for Standard"}
+\song{Chelsea Bridge - Db Bass}{"../Standard/Bass/Chelsea Bridge - Ly - Db Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Cherokee - Bb Bass}{"../Standard/Bass/Cherokee - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Born to Be Blue - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Born to Be Blue - Ly - C Bass for Standard"}
+\song{Chicago - C Bass}{"../Standard/Bass/Chicago - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bossa Antigua - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bossa Antigua - Ly - Ab Bass for Standard"}
+\song{A Child Is Born - Bb Bass}{"../Standard/Bass/A Child Is Born - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bossa Dorado - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bossa Dorado - Ly - Dm Bass for Standard"}
+\song{Chitlins Con Carne - C Bass}{"../Standard/Bass/Chitlins Con Carne - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Breezin' Along With the Breeze - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Breezin' Along With the Breeze - Ly - F Bass for Standard"}
+\song{C Jam Blues - C Bass}{"../Standard/Bass/C Jam Blues - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Broadway - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Broadway - Ly - Eb Bass for Standard"}
+\song{Close Your Eyes - Fm Bass}{"../Standard/Bass/Close Your Eyes - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{But Beautiful - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/But Beautiful - Ly - G Bass for Standard"}
+\song{Cold Duck Time - F Bass}{"../Standard/Bass/Cold Duck Time - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Come Rain or Come Shine - F Bass}{"../Standard/Bass/Come Rain or Come Shine - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{But Not for Me - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/But Not for Me - Ly - Eb Bass for Standard"}
+\dsong{Comes Love - Gm Bass}{"../Standard/Bass/Comes Love - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bye Bye Blackbird - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bye Bye Blackbird - Ly - F Bass for Standard"}
+\song{Come Sunday - Bb Bass}{"../Standard/Bass/Come Sunday - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Bye Bye Blues - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Bye Bye Blues - Ly - C Bass for Standard"}
+\song{Comin' Home Baby - Gm Bass}{"../Standard/Bass/Comin' Home Baby - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Cantaloupe Island - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Cantaloupe Island - Ly - Fm Bass for Standard"}
+\song{Con Alma - C Bass}{"../Standard/Bass/Con Alma - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Can't Help Lovin' Dat Man - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Can't Help Lovin' Dat Man - Ly - Eb Bass for Standard"}
+\song{Confirmation - F Bass}{"../Standard/Bass/Confirmation - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Can't We Be Friends - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Can't We Be Friends - Ly - F Bass for Standard"}
+\song{Cool Blues - C Bass}{"../Standard/Bass/Cool Blues - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\msong{Coquette - D Bass}{"../Standard/Bass/Coquette - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Caravan - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Caravan - Ly - Fm Bass for Standard"}
+\xsong{Coquette - Eb Bass}{"../Standard/Bass/Coquette - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Centerpiece - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Centerpiece - Ly - Ab Bass for Standard"}
+\dsong{Corcovado (Quiet Nights of Quiet Stars) - C Bass}{"../Standard/Bass/Corcovado - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Cotton Tail - Bb Bass}{"../Standard/Bass/Cotton Tail - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Ceora - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Ceora - Ly - Ab Bass for Standard"}
+\song{Countdown - C Bass}{"../Standard/Bass/Countdown - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Crazy Rhythm - G Bass}{"../Standard/Bass/Crazy Rhythm - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{C'est Si Bon English - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/C'est Si Bon English - Ly - Bb Bass for Standard"}
+\song{Cry Me a River - Eb Bass}{"../Standard/Bass/Cry Me a River - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Daphne - D Bass}{"../Standard/Bass/Daphne - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{C'est Si Bon French - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/C'est Si Bon French - Ly - Bb Bass for Standard"}
+\song{Dark Eyes - Dm Bass}{"../Standard/Bass/Dark Eyes - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Change Partners - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Change Partners - Ly - F Bass for Standard"}
+\song{Darktown Strutters Ball - C Bass}{"../Standard/Bass/Darktown Strutters Ball - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Charade - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Charade - Ly - Am Bass for Standard"}
+\song{Darn That Dream - G Bass}{"../Standard/Bass/Darn That Dream - Ly - G Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Dat Dere - Cm Bass}{"../Standard/Bass/Dat Dere - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Cheek to Cheek - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Cheek to Cheek - Ly - C Bass for Standard"}
+\song{Day by Day - G Bass}{"../Standard/Bass/Day by Day - Ly - G Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Day In, Day Out - C Bass}{"../Standard/Bass/Day In Day Out - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Chega de Saudade - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Chega de Saudade - Ly - D Bass for Standard"}
+\song{The Days of Wine and Roses - F Bass}{"../Standard/Bass/The Days of Wine and Roses - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Chelsea Bridge - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Chelsea Bridge - Ly - Db Bass for Standard"}
+\song{Dearly Beloved - C Bass}{"../Standard/Bass/Dearly Beloved - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Cherokee - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Cherokee - Ly - Bb Bass for Standard"}
+\song{'Deed I Do - C Bass}{"../Standard/Bass/Deed I Do - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Chicago - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Chicago - Ly - C Bass for Standard"}
+\song{Deep Purple - F Bass}{"../Standard/Bass/Deep Purple - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{A Child Is Born - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/A Child Is Born - Ly - Bb Bass for Standard"}
+\dsong{Desafinado - F Bass}{"../Standard/Bass/Desafinado - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Chitlins Con Carne - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Chitlins Con Carne - Ly - C Bass for Standard"}
+\dsong{Destination Moon - Bb Bass}{"../Standard/Bass/Destination Moon - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{C Jam Blues - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/C Jam Blues - Ly - C Bass for Standard"}
+\dsong{Devil May Care - Gm Bass}{"../Standard/Bass/Devil May Care - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Close Your Eyes - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Close Your Eyes - Ly - Fm Bass for Standard"}
+\song{Dinah - G Bass}{"../Standard/Bass/Dinah - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Cold Duck Time - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Cold Duck Time - Ly - F Bass for Standard"}
+\song{Dindi - Eb Bass}{"../Standard/Bass/Dindi - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Come Rain or Come Shine - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Come Rain or Come Shine - Ly - F Bass for Standard"}
+\dsong{Django - Fm Bass}{"../Standard/Bass/Django - Ly - Fm Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Djangology - G Bass}{"../Standard/Bass/Djangology - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Comes Love - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Comes Love - Ly - Gm Bass for Standard"}
+\song{D Natural Blues - D Bass}{"../Standard/Bass/D Natural Blues - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Come Sunday - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Come Sunday - Ly - Bb Bass for Standard"}
+\dsong{Do I Love You - C Bass}{"../Standard/Bass/Do I Love You - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Comin' Home Baby - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Comin' Home Baby - Ly - Gm Bass for Standard"}
+\song{Dolphin Dance - C Bass}{"../Standard/Bass/Dolphin Dance - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Con Alma - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Con Alma - Ly - C Bass for Standard"}
+\song{Donna Lee - Ab Bass}{"../Standard/Bass/Donna Lee - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Confirmation - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Confirmation - Ly - F Bass for Standard"}
+\dsong{Do Nothin' Till You Hear From Me - G Bass}{"../Standard/Bass/Do Nothin' Till You Hear From Me - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Cool Blues - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Cool Blues - Ly - C Bass for Standard"}
+\song{Don't Be That Way - Db Bass}{"../Standard/Bass/Don't Be That Way - Ly - Db Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Don't Blame Me - C Bass}{"../Standard/Bass/Don't Blame Me - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Coquette - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Coquette - Ly - D Bass for Standard"}
+\song{Don't Fence Me In - F Bass}{"../Standard/Bass/Don't Fence Me In - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Coquette - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Coquette - Ly - Eb Bass for Standard"}
+\dsong{Don't Get Around Much Anymore - C Bass}{"../Standard/Bass/Don't Get Around Much Anymore - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Don't Worry 'Bout Me - Ab Bass}{"../Standard/Bass/Don't Worry 'Bout Me - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Corcovado (Quiet Nights of Quiet Stars) - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Corcovado - Ly - C Bass for Standard"}
+\song{Douce Ambiance - Gm Bass}{"../Standard/Bass/Douce Ambiance - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Cotton Tail - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Cotton Tail - Ly - Bb Bass for Standard"}
+\song{Down for Double - Bb Bass}{"../Standard/Bass/Down for Double - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Countdown - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Countdown - Ly - C Bass for Standard"}
+\song{Doxy - Bb Bass}{"../Standard/Bass/Doxy - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Crazy Rhythm - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Crazy Rhythm - Ly - G Bass for Standard"}
+\dsong{Do You Know What It Means to Miss New Orleans - C Bass}{"../Standard/Bass/Do You Know What It Means to Miss New Orleans - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Cry Me a River - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Cry Me a River - Ly - Eb Bass for Standard"}
+\song{Dream a Little Dream of Me - G Bass}{"../Standard/Bass/Dream a Little Dream of Me - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Daphne - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Daphne - Ly - D Bass for Standard"}
+\dsong{East of the Sun - G Bass}{"../Standard/Bass/East of the Sun - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Dark Eyes - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Dark Eyes - Ly - Dm Bass for Standard"}
+\song{Easy Living - F Bass}{"../Standard/Bass/Easy Living - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Darktown Strutters Ball - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Darktown Strutters Ball - Ly - C Bass for Standard"}
+\dsong{Easy Street - Eb Bass}{"../Standard/Bass/Easy Street - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Darn That Dream - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Darn That Dream - Ly - G Bass for Standard"}
+\song{(You'd Be So) Easy to Love - C Bass}{"../Standard/Bass/Easy to Love - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Dat Dere - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Dat Dere - Ly - Cm Bass for Standard"}
+\song{Elena's Bossa - Am Bass}{"../Standard/Bass/Elena's Bossa - Ly - Am Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Day by Day - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Day by Day - Ly - G Bass for Standard"}
+\song{Embraceable You - G Bass}{"../Standard/Bass/Embraceable You - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Days of Wine and Roses - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Days of Wine and Roses - Ly - F Bass for Standard"}
+\song{Emily - C Bass}{"../Standard/Bass/Emily - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Dearly Beloved - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Dearly Beloved - Ly - C Bass for Standard"}
+\song{The End of a Love Affair - F Bass}{"../Standard/Bass/The End of a Love Affair - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{'Deed I Do - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Deed I Do - Ly - C Bass for Standard"}
+\song{Epistrophy - C Bass}{"../Standard/Bass/Epistrophy - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Deep Purple - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Deep Purple - Ly - F Bass for Standard"}
+\msong{Equinox - C\#m Bass}{"../Standard/Bass/Equinox - Ly - Csm Bass for Standard"}
 
-\clearemptytoevenpage
+\xsong{Equinox - Cm Bass}{"../Standard/Bass/Equinox - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Desafinado - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Desafinado - Ly - F Bass for Standard"}
+\song{E.S.P. - C Bass}{"../Standard/Bass/ESP - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Este Seu Olhar - F Bass}{"../Standard/Bass/Este Seu Olhar - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Destination Moon - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Destination Moon - Ly - Bb Bass for Standard"}
+\dsong{Everything Happens to Me - Bb Bass}{"../Standard/Bass/Everything Happens to Me - Ly - Bb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Ev'ry Time We Say Goodbye - Eb Bass}{"../Standard/Bass/Ev'ry Time We Say Goodbye - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Devil May Care - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Devil May Care - Ly - Gm Bass for Standard"}
+\msong{Exactly Like You - C Bass}{"../Standard/Bass/Exactly Like You - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Dinah - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Dinah - Ly - G Bass for Standard"}
+\xsong{Exactly Like You - C Bass}{"../Others/Exactly Like You - Ly - C Bass for DFB"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Dindi - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Dindi - Ly - Eb Bass for Standard"}
+\msong{Falling in Love With Love (3/4) - Bb Bass}{"../Standard/Bass/Falling in Love With Love Waltz - Ly - Bb Bass for Standard"}
 
-\clearemptytoevenpage
+\xsong{Falling in Love With Love (4/4) - Bb Bass}{"../Standard/Bass/Falling in Love With Love Swing - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Django - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Django - Ly - Fm Bass for Standard"}
+\song{Fascinating Rhythm - Eb Bass}{"../Standard/Bass/Fascinating Rhythm - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Djangology - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Djangology - Ly - G Bass for Standard"}
+\song{Fee-Fi-Fo-Fum - C Bass}{"../Standard/Bass/Fee-Fi-Fo-Fum - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{A Felicidade - Am Bass}{"../Standard/Bass/A Felicidade - Ly - Am Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Do I Love You - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Do I Love You - Ly - C Bass for Standard"}
+\song{A Fine Romance - C Bass}{"../Standard/Bass/A Fine Romance - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Dolphin Dance - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Dolphin Dance - Ly - C Bass for Standard"}
+\song{Flamingo - F Bass}{"../Standard/Bass/Flamingo - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Donna Lee - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Donna Lee - Ly - Ab Bass for Standard"}
+\song{The Flat Foot Floogie - F Bass}{"../Standard/Bass/The Flat Foot Floogie - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Flying Home - Eb Bass}{"../Standard/Bass/Flying Home - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Do Nothin' Till You Hear From Me - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Do Nothin' Till You Hear From Me - Ly - G Bass for Standard"}
+\song{Fly Me to the Moon - C Bass}{"../Standard/Bass/Fly Me to the Moon - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Don't Be That Way - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Don't Be That Way - Ly - Db Bass for Standard"}
+\song{A Foggy Day - F Bass}{"../Standard/Bass/A Foggy Day - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Don't Blame Me - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Don't Blame Me - Ly - C Bass for Standard"}
+\dsong{The Folks Who Live on the Hill - C Bass}{"../Standard/Bass/The Folks Who Live on the Hill - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Don't Fence Me In - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Don't Fence Me In - Ly - F Bass for Standard"}
+\song{For All We Know - Eb Bass}{"../Standard/Bass/For All We Know - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Fools Rush In - C Bass}{"../Standard/Bass/Fools Rush In - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Don't Get Around Much Anymore - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Don't Get Around Much Anymore - Ly - C Bass for Standard"}
+\song{Footprints - Cm Bass}{"../Standard/Bass/Footprints - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Don't Worry 'Bout Me - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Don't Worry 'Bout Me - Ly - Ab Bass for Standard"}
+\song{(I Love You) For Sentimental Reasons - F Bass}{"../Standard/Bass/For Sentimental Reasons - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Douce Ambiance - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Douce Ambiance - Ly - Gm Bass for Standard"}
+\song{For Sephora - Em Bass}{"../Standard/Bass/For Sephora - Ly - Em Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Down for Double - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Down for Double - Ly - Bb Bass for Standard"}
+\song{Four - Eb Bass}{"../Standard/Bass/Four - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Doxy - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Doxy - Ly - Bb Bass for Standard"}
+\song{Freddie Freeloader - Bb Bass}{"../Standard/Bass/Freddie Freeloader - Ly - Bb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Gee Baby, Ain't I Good to You - Eb Bass}{"../Standard/Bass/Gee Baby Ain't I Good to You - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Do You Know What It Means to Miss New Orleans - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Do You Know What It Means to Miss New Orleans - Ly - C Bass for Standard"}
+\dsong{The Gentle Rain - Cm Bass}{"../Standard/Bass/The Gentle Rain - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Dream a Little Dream of Me - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Dream a Little Dream of Me - Ly - G Bass for Standard"}
+\song{Georgia on My Mind - F Bass}{"../Standard/Bass/Georgia on My Mind - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Get Happy - F Bass}{"../Standard/Bass/Get Happy - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{East of the Sun - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/East of the Sun - Ly - G Bass for Standard"}
+\song{(I Don't Stand) A Ghost of a Chance (With You) - C Bass}{"../Standard/Bass/A Ghost of a Chance - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Easy Living - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Easy Living - Ly - F Bass for Standard"}
+\song{Giant Steps - Bass Clef}{"../Standard/Bass/Giant Steps - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{The Girl From Ipanema - F Bass}{"../Standard/Bass/The Girl From Ipanema - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Easy Street - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Easy Street - Ly - Eb Bass for Standard"}
+\dsong{Give Me the Simple Life - Eb Bass}{"../Standard/Bass/Give Me the Simple Life - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{(You'd Be So) Easy to Love - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Easy to Love - Ly - C Bass for Standard"}
+\song{God Bless the Child - Eb Bass}{"../Standard/Bass/God Bless the Child - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Elena's Bossa - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Elena's Bossa - Ly - Am Bass for Standard"}
+\song{Gone With the Wind - Eb Bass}{"../Standard/Bass/Gone With the Wind - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Embraceable You - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Embraceable You - Ly - G Bass for Standard"}
+\song{Good Bait - Bb Bass}{"../Standard/Bass/Good Bait - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Emily - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Emily - Ly - C Bass for Standard"}
+\song{Goodbye - Cm Bass}{"../Standard/Bass/Goodbye - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The End of a Love Affair - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The End of a Love Affair - Ly - F Bass for Standard"}
+\song{Goodbye Pork Pie Hat - Eb Bass}{"../Standard/Bass/Goodbye Pork Pie Hat - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Epistrophy - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Epistrophy - Ly - C Bass for Standard"}
+\song{Good Morning Heartache - F Bass}{"../Standard/Bass/Good Morning Heartache - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Groovin' High - Eb Bass}{"../Standard/Bass/Groovin' High - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Equinox - C\#m Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Equinox - Ly - Csm Bass for Standard"}
+\song{Half Nelson - C Bass}{"../Standard/Bass/Half Nelson - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Equinox - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Equinox - Ly - Cm Bass for Standard"}
+\dsong{Hallelujah I Love Her So - F Bass}{"../Standard/Bass/Hallelujah I Love Him (Her) So - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{E.S.P. - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/ESP - Ly - C Bass for Standard"}
+\song{Harlem Nocturne - Gm Bass}{"../Standard/Bass/Harlem Nocturne - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Este Seu Olhar - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Este Seu Olhar - Ly - F Bass for Standard"}
+\song{Have You Met Miss Jones - F Bass}{"../Standard/Bass/Have You Met Miss Jones - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Heart and Soul - F Bass}{"../Standard/Bass/Heart and Soul - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Everything Happens to Me - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Everything Happens to Me - Ly - Bb Bass for Standard"}
+\song{Here's That Rainy Day - G Bass}{"../Standard/Bass/Here's That Rainy Day - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Ev'ry Time We Say Goodbye - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Ev'ry Time We Say Goodbye - Ly - Eb Bass for Standard"}
+\song{Home (When Shadows Fall) - F Bass}{"../Standard/Bass/Home When Shadows Fall - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Honeysuckle Rose - F Bass}{"../Standard/Bass/Honeysuckle Rose - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Exactly Like You - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Exactly Like You - Ly - C Bass for Standard"}
+\song{Hot House - C Bass}{"../Standard/Bass/Hot House - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Exactly Like You - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Others/Exactly Like You - Ly - C Bass for DFB"}
+\song{How Deep Is the Ocean - Eb Bass}{"../Standard/Bass/How Deep Is the Ocean - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{How High the Moon - G Bass}{"../Standard/Bass/How High the Moon - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Falling in Love With Love (3/4) - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Falling in Love With Love Waltz - Ly - Bb Bass for Standard"}
+\song{How Insensitive - Dm Bass}{"../Standard/Bass/How Insensitive - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Falling in Love With Love (4/4) - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Falling in Love With Love Swing - Ly - Bb Bass for Standard"}
+\song{How Long Has This Been Going On - G Bass}{"../Standard/Bass/How Long Has This Been Going On - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Fascinating Rhythm - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Fascinating Rhythm - Ly - Eb Bass for Standard"}
+\song{I Ain't Gonna Give Nobody None O' This Jelly Roll - Bb Bass}{"../Standard/Bass/I Ain't Gonna Give Nobody None O' This Jelly Roll - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Fee-Fi-Fo-Fum - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Fee-Fi-Fo-Fum - Ly - C Bass for Standard"}
+\song{I Can't Believe That You're in Love With Me - C Bass}{"../Standard/Bass/I Can't Believe That You're in Love With Me - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{A Felicidade - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/A Felicidade - Ly - Am Bass for Standard"}
+\dsong{I Can't Get Started - C Bass}{"../Standard/Bass/I Can't Get Started - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{A Fine Romance - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/A Fine Romance - Ly - C Bass for Standard"}
+\song{I Can't Give You Anything but Love - G Bass}{"../Standard/Bass/I Can't Give You Anything but Love - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Flamingo - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Flamingo - Ly - F Bass for Standard"}
+\song{I Can't Stop Loving You - C Bass}{"../Standard/Bass/I Can't Stop Loving You - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Flat Foot Floogie - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Flat Foot Floogie - Ly - F Bass for Standard"}
+\dsong{I Concentrate on You - Eb Bass}{"../Standard/Bass/I Concentrate on You - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Flying Home - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Flying Home - Ly - Eb Bass for Standard"}
+\song{I Could Write a Book - C Bass}{"../Standard/Bass/I Could Write a Book - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Fly Me to the Moon - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Fly Me to the Moon - Ly - C Bass for Standard"}
+\song{I Cover the Waterfront - G Bass}{"../Standard/Bass/I Cover the Waterfront - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{A Foggy Day - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/A Foggy Day - Ly - F Bass for Standard"}
+\song{I Cried for You - F Bass}{"../Standard/Bass/I Cried for You - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{I Didn't Know What Time It Was - G Bass}{"../Standard/Bass/I Didn't Know What Time It Was - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Folks Who Live on the Hill - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Folks Who Live on the Hill - Ly - C Bass for Standard"}
+\song{I Fall In Love Too Easily - Eb Bass}{"../Standard/Bass/I Fall In Love Too Easily - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{For All We Know - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/For All We Know - Ly - Eb Bass for Standard"}
+\song{If I Could Be With You - Eb Bass}{"../Standard/Bass/If I Could Be With You - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Footprints - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Footprints - Ly - Cm Bass for Standard"}
+\song{If I Had You - Bb Bass}{"../Standard/Bass/If I Had You - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{(I Love You) For Sentimental Reasons - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/For Sentimental Reasons - Ly - F Bass for Standard"}
+\song{If I Should Lose You - Bb Bass}{"../Standard/Bass/If I Should Lose You - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{For Sephora - Em Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/For Sephora - Ly - Em Bass for Standard"}
+\song{If I Were a Bell - F Bass}{"../Standard/Bass/If I Were a Bell - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Four - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Four - Ly - Eb Bass for Standard"}
+\song{I Found a Million Dollar Baby (In a Five and Ten Cent Store) - F Bass}{"../Standard/Bass/I Found a Million Dollar Baby - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Freddie Freeloader - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Freddie Freeloader - Ly - Bb Bass for Standard"}
+\song{If You Could See Me Now - Eb Bass}{"../Standard/Bass/If You Could See Me Now - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Gee Baby, Ain't I Good to You - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Gee Baby Ain't I Good to You - Ly - Eb Bass for Standard"}
+\dsong{I Get a Kick Out of You - Eb Bass}{"../Standard/Bass/I Get a Kick Out of You - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{I Get the Blues When It Rains - G Bass}{"../Standard/Bass/I Get the Blues When It Rains - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Gentle Rain - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Gentle Rain - Ly - Cm Bass for Standard"}
+\song{I Got It Bad and That Ain't Good - G Bass}{"../Standard/Bass/I Got It Bad and That Ain't Good - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Georgia on My Mind - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Georgia on My Mind - Ly - F Bass for Standard"}
+\song{I Got Rhythm - Bb Bass}{"../Standard/Bass/I Got Rhythm - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Get Happy - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Get Happy - Ly - F Bass for Standard"}
+\dsong{I Had the Craziest Dream - C Bass}{"../Standard/Bass/I Had the Craziest Dream - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{(I Don't Stand) A Ghost of a Chance (With You) - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/A Ghost of a Chance - Ly - C Bass for Standard"}
+\song{I Hear a Rhapsody - Eb Bass}{"../Standard/Bass/I Hear a Rhapsody - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Giant Steps - Bass Clef}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Giant Steps - Ly - C Bass for Standard"}
+\song{I Let a Song Go Out of My Heart - Eb Bass}{"../Standard/Bass/I Let a Song Go Out of My Heart - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Girl From Ipanema - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Girl From Ipanema - Ly - F Bass for Standard"}
+\song{I'll Never Be the Same - F Bass}{"../Standard/Bass/I'll Never Be the Same - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{I'll Never Smile Again - Eb Bass}{"../Standard/Bass/I'll Never Smile Again - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Give Me the Simple Life - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Give Me the Simple Life - Ly - Eb Bass for Standard"}
+\dsong{I'll Remember April - G Bass}{"../Standard/Bass/I'll Remember April - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{God Bless the Child - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/God Bless the Child - Ly - Eb Bass for Standard"}
+\song{I'll See You in My Dreams - F Bass}{"../Standard/Bass/I'll See You in My Dreams - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Gone With the Wind - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Gone With the Wind - Ly - Eb Bass for Standard"}
+\msong{I'll Take Romance (3/4) - F Bass}{"../Standard/Bass/I'll Take Romance Waltz - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Good Bait - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Good Bait - Ly - Bb Bass for Standard"}
+\xsong{I'll Take Romance (4/4) - F Bass}{"../Standard/Bass/I'll Take Romance Swing - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Goodbye - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Goodbye - Ly - Cm Bass for Standard"}
+\song{I Love You - F Bass}{"../Standard/Bass/I Love You - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Goodbye Pork Pie Hat - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Goodbye Pork Pie Hat - Ly - Eb Bass for Standard"}
+\song{Imagination - Eb Bass}{"../Standard/Bass/Imagination - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Good Morning Heartache - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Good Morning Heartache - Ly - F Bass for Standard"}
+\msong{I'm an Old Cowhand - C Bass}{"../Standard/Bass/I'm an Old Cowhand - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Groovin' High - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Groovin' High - Ly - Eb Bass for Standard"}
+\xsong{I'm an Old Cowhand - Eb Bass}{"../Standard/Bass/I'm an Old Cowhand - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Half Nelson - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Half Nelson - Ly - C Bass for Standard"}
+\song{I'm Beginning to See the Light - G Bass}{"../Standard/Bass/I'm Beginning to See the Light - Ly - G Bass for Standard"}
 
-\clearemptytoevenpage
+\song{I'm Confessin' - G Bass}{"../Standard/Bass/I'm Confessin' - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Hallelujah I Love Her So - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Hallelujah I Love Him (Her) So - Ly - F Bass for Standard"}
+\song{I'm Getting Sentimental Over You - F Bass}{"../Standard/Bass/I'm Getting Sentimental Over You - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Harlem Nocturne - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Harlem Nocturne - Ly - Gm Bass for Standard"}
+\song{I'm Glad There Is You - F Bass}{"../Standard/Bass/I'm Glad There Is You - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Have You Met Miss Jones - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Have You Met Miss Jones - Ly - F Bass for Standard"}
+\song{I'm Gonna Sit Right Down and Write Myself a Letter - C Bass}{"../Standard/Bass/I'm Gonna Sit Right Down and Write Myself a Letter - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Heart and Soul - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Heart and Soul - Ly - F Bass for Standard"}
+\song{I'm in the Mood for Love - C Bass}{"../Standard/Bass/I'm in the Mood for Love - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Here's That Rainy Day - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Here's That Rainy Day - Ly - G Bass for Standard"}
+\song{I'm Old Fashioned - F Bass}{"../Standard/Bass/I'm Old Fashioned - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Home (When Shadows Fall) - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Home When Shadows Fall - Ly - F Bass for Standard"}
+\song{Impressions - Dm Bass}{"../Standard/Bass/Impressions - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Honeysuckle Rose - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Honeysuckle Rose - Ly - F Bass for Standard"}
+\song{In a Mellow Tone - Ab Bass}{"../Standard/Bass/In a Mellow Tone - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Hot House - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Hot House - Ly - C Bass for Standard"}
+\song{In a Sentimental Mood - F Bass}{"../Standard/Bass/In a Sentimental Mood - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{How Deep Is the Ocean - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/How Deep Is the Ocean - Ly - Eb Bass for Standard"}
+\song{The “In” Crowd - D Bass}{"../Standard/Bass/The In Crowd - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{How High the Moon - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/How High the Moon - Ly - G Bass for Standard"}
+\song{Indiana - F Bass}{"../Standard/Bass/Indiana - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{How Insensitive - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/How Insensitive - Ly - Dm Bass for Standard"}
+\song{In Love In Vain - Eb Bass}{"../Standard/Bass/In Love In Vain - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{How Long Has This Been Going On - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/How Long Has This Been Going On - Ly - G Bass for Standard"}
+\song{Inner Urge - C Bass}{"../Standard/Bass/Inner Urge - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Ain't Gonna Give Nobody None O' This Jelly Roll - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Ain't Gonna Give Nobody None O' This Jelly Roll - Ly - Bb Bass for Standard"}
+\song{In the Still of the Night - F Bass}{"../Standard/Bass/In the Still of the Night - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Can't Believe That You're in Love With Me - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Can't Believe That You're in Love With Me - Ly - C Bass for Standard"}
+\song{In the Wee Small Hours of the Morning - C Bass}{"../Standard/Bass/In the Wee Small Hours of the Morning - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Invitation - Cm Bass}{"../Standard/Bass/Invitation - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Can't Get Started - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Can't Get Started - Ly - C Bass for Standard"}
+\song{In Walked Bud - Fm Bass}{"../Standard/Bass/In Walked Bud - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Can't Give You Anything but Love - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Can't Give You Anything but Love - Ly - G Bass for Standard"}
+\song{In Your Own Sweet Way - Eb Bass}{"../Standard/Bass/In Your Own Sweet Way - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Can't Stop Loving You - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Can't Stop Loving You - Ly - C Bass for Standard"}
+\song{I Only Have Eyes for You - C Bass}{"../Standard/Bass/I Only Have Eyes for You - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{I Remember Clifford - Eb Bass}{"../Standard/Bass/I Remember Clifford - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Concentrate on You - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Concentrate on You - Ly - Eb Bass for Standard"}
+\dsong{I Remember You - F Bass}{"../Standard/Bass/I Remember You - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Could Write a Book - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Could Write a Book - Ly - C Bass for Standard"}
+\song{Isfahan - Db Bass}{"../Standard/Bass/Isfahan - Ly - Db Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Cover the Waterfront - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Cover the Waterfront - Ly - G Bass for Standard"}
+\song{I Should Care - C Bass}{"../Standard/Bass/I Should Care - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Cried for You - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Cried for You - Ly - F Bass for Standard"}
+\song{Isn't It Romantic - Eb Bass}{"../Standard/Bass/Isn't It Romantic - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{I Surrender, Dear - C Bass}{"../Standard/Bass/I Surrender Dear - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Didn't Know What Time It Was - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Didn't Know What Time It Was - Ly - G Bass for Standard"}
+\dsong{Is You Is or Is You Ain't (Ma' Baby) - Fm Bass}{"../Standard/Bass/Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Fall In Love Too Easily - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Fall In Love Too Easily - Ly - Eb Bass for Standard"}
+\dsong{It Ain't Necessarily So - Gm Bass}{"../Standard/Bass/It Ain't Necessarily So - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{If I Could Be With You - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/If I Could Be With You - Ly - Eb Bass for Standard"}
+\song{It Could Happen to You - F Bass}{"../Standard/Bass/It Could Happen to You - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{If I Had You - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/If I Had You - Ly - Bb Bass for Standard"}
+\song{It Don't Mean a Thing (If It Ain't Got That Swing) - Bb Bass}{"../Standard/Bass/It Don't Mean a Thing - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{If I Should Lose You - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/If I Should Lose You - Ly - Bb Bass for Standard"}
+\song{It Had to Be You - G Bass}{"../Standard/Bass/It Had to Be You - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{If I Were a Bell - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/If I Were a Bell - Ly - F Bass for Standard"}
+\dsong{I Thought About You - F Bass}{"../Standard/Bass/I Thought About You - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Found a Million Dollar Baby (In a Five and Ten Cent Store) - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Found a Million Dollar Baby - Ly - F Bass for Standard"}
+\dsong{It Might as Well Be Spring - G Bass}{"../Standard/Bass/It Might as Well Be Spring - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{If You Could See Me Now - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/If You Could See Me Now - Ly - Eb Bass for Standard"}
+\song{It Never Entered My Mind - F Bass}{"../Standard/Bass/It Never Entered My Mind - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{It's a Good Day - Eb Bass}{"../Standard/Bass/It's a Good Day - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Get a Kick Out of You - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Get a Kick Out of You - Ly - Eb Bass for Standard"}
+\dsong{It's All Right With Me - Eb Bass}{"../Standard/Bass/It's All Right With Me - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Got It Bad and That Ain't Good - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Got It Bad and That Ain't Good - Ly - G Bass for Standard"}
+\song{It's Always You - Ab Bass}{"../Standard/Bass/It's Always You - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Got Rhythm - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Got Rhythm - Ly - Bb Bass for Standard"}
+\song{It's a Sin to Tell a Lie - C Bass}{"../Standard/Bass/It's a Sin to Tell a Lie - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{It's Only a Paper Moon - G Bass}{"../Standard/Bass/It's Only a Paper Moon - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Had the Craziest Dream - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Had the Craziest Dream - Ly - C Bass for Standard"}
+\song{It's You or No One - Eb Bass}{"../Standard/Bass/It's You or No One - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Hear a Rhapsody - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Hear a Rhapsody - Ly - Eb Bass for Standard"}
+\song{I've Found a New Baby - F Bass}{"../Standard/Bass/I've Found a New Baby - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Let a Song Go Out of My Heart - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Let a Song Go Out of My Heart - Ly - Eb Bass for Standard"}
+\song{I've Got the World on a String - F Bass}{"../Standard/Bass/I've Got the World on a String - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'll Never Smile Again - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'll Never Smile Again - Ly - Eb Bass for Standard"}
+\dsong{I've Got You Under My Skin - Eb Bass}{"../Standard/Bass/I've Got You Under My Skin - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{I Want to Be Happy - C Bass}{"../Standard/Bass/I Want to Be Happy - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'll Remember April - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'll Remember April - Ly - G Bass for Standard"}
+\dsong{I Will Wait for You - Dm Bass}{"../Standard/Bass/I Will Wait for You - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'll See You in My Dreams - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'll See You in My Dreams - Ly - F Bass for Standard"}
+\song{I Wish I Knew How It Would Feel to Be Free - F Bass}{"../Standard/Bass/I Wish I Knew How It Would Feel to Be Free - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{I Wish I Were Twins - C Bass}{"../Standard/Bass/I Wish I Were Twins - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'll Take Romance (3/4) - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'll Take Romance Waltz - Ly - F Bass for Standard"}
+\song{J'Attendrai - C Bass}{"../Standard/Bass/J'Attendrai - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'll Take Romance (4/4) - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'll Take Romance Swing - Ly - F Bass for Standard"}
+\dsong{Jazz Blues Flat Keys}{"../Standard/Bass/Jazz Blues Flat Keys - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Love You - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Love You - Ly - F Bass for Standard"}
+\dsong{Jazz Blues Sharp Keys}{"../Standard/Bass/Jazz Blues Sharp Keys - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Imagination - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Imagination - Ly - Eb Bass for Standard"}
+\dsong{Jazz Blues Circle of Fifths}{"../Standard/Bass/Jazz Blues Circle of Fifths - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Jeannine - Ab Bass}{"../Standard/Bass/Jeannine - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm an Old Cowhand - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'm an Old Cowhand - Ly - C Bass for Standard"}
+\song{Jeepers Creepers - Bb Bass}{"../Standard/Bass/Jeepers Creepers - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm an Old Cowhand - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'm an Old Cowhand - Ly - Eb Bass for Standard"}
+\msong{The Jitterbug Waltz - Eb Bass}{"../Standard/Bass/The Jitterbug Waltz - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm Beginning to See the Light - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'm Beginning to See the Light - Ly - G Bass for Standard"}
+\xsong{The Jitterbug Waltz - C Bass}{"../Standard/Bass/The Jitterbug Waltz - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm Confessin' - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'm Confessin' - Ly - G Bass for Standard"}
+\song{Jive at Five - Eb Bass}{"../Standard/Bass/Jive at Five - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm Getting Sentimental Over You - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'm Getting Sentimental Over You - Ly - F Bass for Standard"}
+\dsong{Jordu - Eb Bass}{"../Standard/Bass/Jordu - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm Glad There Is You - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'm Glad There Is You - Ly - F Bass for Standard"}
+\song{Joseph, Joseph (Yossel, Yossel) - Bm Bass}{"../Standard/Bass/Joseph Joseph - Ly - Bm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm in the Mood for Love - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'm in the Mood for Love - Ly - C Bass for Standard"}
+\dsong{Joy Spring - F Bass}{"../Standard/Bass/Joy Spring - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm Old Fashioned - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I'm Old Fashioned - Ly - F Bass for Standard"}
+\song{Just Friends - G Bass}{"../Standard/Bass/Just Friends - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Impressions - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Impressions - Ly - Dm Bass for Standard"}
+\song{Just in Time - Bb Bass}{"../Standard/Bass/Just in Time - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{In a Mellow Tone - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/In a Mellow Tone - Ly - Ab Bass for Standard"}
+\dsong{Just One of Those Things - F Bass}{"../Standard/Bass/Just One of Those Things - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{In a Sentimental Mood - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/In a Sentimental Mood - Ly - F Bass for Standard"}
+\song{Just Squeeze Me - F Bass}{"../Standard/Bass/Just Squeeze Me - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The “In” Crowd - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The In Crowd - Ly - D Bass for Standard"}
+\song{Just You, Just Me - C Bass}{"../Standard/Bass/Just You Just Me - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Indiana - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Indiana - Ly - F Bass for Standard"}
+\song{Kansas City Kitty - G Bass}{"../Standard/Bass/Kansas City Kitty - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{In Love In Vain - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/In Love In Vain - Ly - Eb Bass for Standard"}
+\song{Killer Joe - C Bass}{"../Standard/Bass/Killer Joe - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Inner Urge - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Inner Urge - Ly - C Bass for Standard"}
+\dsong{A Kiss to Build a Dream On - C Bass}{"../Standard/Bass/A Kiss to Build a Dream On - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{In the Wee Small Hours of the Morning - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/In the Wee Small Hours of the Morning - Ly - C Bass for Standard"}
+\song{Lady Bird - C Bass}{"../Standard/Bass/Lady Bird - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{The Lady Is a Tramp - C Bass}{"../Standard/Bass/The Lady Is a Tramp - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Invitation - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Invitation - Ly - Cm Bass for Standard"}
+\song{The Late Late Show - Ab Bass}{"../Standard/Bass/The Late Late Show - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{In Walked Bud - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/In Walked Bud - Ly - Fm Bass for Standard"}
+\song{Laura - C Bass}{"../Standard/Bass/Laura - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{In Your Own Sweet Way - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/In Your Own Sweet Way - Ly - Eb Bass for Standard"}
+\dsong{Lazy Bird - G Bass}{"../Standard/Bass/Lazy Bird - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Only Have Eyes for You - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Only Have Eyes for You - Ly - C Bass for Standard"}
+\song{(Up a) Lazy River - F Bass}{"../Standard/Bass/Lazy River - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Let's Call the Whole Thing Off - G Bass}{"../Standard/Bass/Let's Call the Whole Thing Off - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Remember You - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Remember You - Ly - F Bass for Standard"}
+\dsong{Let's Face the Music and Dance - C Bass}{"../Standard/Bass/Let's Face the Music and Dance - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Isfahan - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Isfahan - Ly - Db Bass for Standard"}
+\song{Let's Fall in Love - C Bass}{"../Standard/Bass/Let's Fall in Love - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Should Care - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Should Care - Ly - C Bass for Standard"}
+\song{Let's Get Away From It All - Eb Bass}{"../Standard/Bass/Let's Get Away From It All - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Isn't It Romantic - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Isn't It Romantic - Ly - Eb Bass for Standard"}
+\song{Let's Get Lost - Eb Bass}{"../Standard/Bass/Let's Get Lost - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Surrender, Dear - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Surrender Dear - Ly - C Bass for Standard"}
+\song{Like a Lover (O Cantador) - D Bass}{"../Standard/Bass/Like a Lover - Ly - D Bass for Standard"}
 
-\clearemptytoevenpage
+\msong{Like Someone in Love - C Bass}{"../Standard/Bass/Like Someone in Love - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Is You Is or Is You Ain't (Ma' Baby) - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm Bass for Standard"}
+\xsong{Like Someone in Love - Eb Bass}{"../Standard/Bass/Like Someone in Love - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\msong{Limehouse Blues - Ab Bass}{"../Standard/Bass/Limehouse Blues - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It Ain't Necessarily So - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It Ain't Necessarily So - Ly - Gm Bass for Standard"}
+\xsong{Limehouse Blues - G Bass}{"../Standard/Bass/Limehouse Blues - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It Could Happen to You - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It Could Happen to You - Ly - F Bass for Standard"}
+\song{Line for Lyons - G Bass}{"../Standard/Bass/Line for Lyons - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It Don't Mean a Thing (If It Ain't Got That Swing) - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It Don't Mean a Thing - Ly - Bb Bass for Standard"}
+\song{Little Boat (O Barquinho) - Bb Bass}{"../Standard/Bass/Little Boat - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It Had to Be You - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It Had to Be You - Ly - G Bass for Standard"}
+\song{Little Girl Blue - F Bass}{"../Standard/Bass/Little Girl Blue - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Little Sunflower - Dm Bass}{"../Standard/Bass/Little Sunflower - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Thought About You - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Thought About You - Ly - F Bass for Standard"}
+\song{Liza (All the Clouds'll Roll Away) - Eb Bass}{"../Standard/Bass/Liza (All the Clouds'll Roll Away) - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Long Ago and Far Away - F Bass}{"../Standard/Bass/Long Ago and Far Away - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It Might as Well Be Spring - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It Might as Well Be Spring - Ly - G Bass for Standard"}
+\song{Look for the Silver Lining - Eb Bass}{"../Standard/Bass/Look for the Silver Lining - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It Never Entered My Mind - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It Never Entered My Mind - Ly - F Bass for Standard"}
+\song{The Look of Love - F Bass}{"../Standard/Bass/The Look of Love - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Louisiana Fairytale - Bb Bass}{"../Standard/Bass/Louisiana Fairytale - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It's a Good Day - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It's a Good Day - Ly - Eb Bass for Standard"}
+\dsong{Love for Sale - Bb Bass}{"../Standard/Bass/Love for Sale - Ly - Bb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Love Is Here to Stay - F Bass}{"../Standard/Bass/Love Is Here to Stay - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It's All Right With Me - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It's All Right With Me - Ly - Eb Bass for Standard"}
+\song{Love Is Just Around the Corner - F Bass}{"../Standard/Bass/Love Is Just Around the Corner - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It's Always You - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It's Always You - Ly - Ab Bass for Standard"}
+\song{Love Me or Leave Me - Ab Bass}{"../Standard/Bass/Love Me or Leave Me - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It's Only a Paper Moon - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It's Only a Paper Moon - Ly - G Bass for Standard"}
+\song{The Love Nest - Eb Bass}{"../Standard/Bass/The Love Nest - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It's You or No One - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It's You or No One - Ly - Eb Bass for Standard"}
+\dmsong{Lover (3/4) - C Bass}{"../Standard/Bass/Lover Waltz - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I've Found a New Baby - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I've Found a New Baby - Ly - F Bass for Standard"}
+\dxsong{Lover (4/4) - C Bass}{"../Standard/Bass/Lover Swing - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I've Got the World on a String - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I've Got the World on a String - Ly - F Bass for Standard"}
+\dsong{Lover Come Back to Me - Eb Bass}{"../Standard/Bass/Lover Come Back to Me - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Lover Man - F Bass}{"../Standard/Bass/Lover Man - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I've Got You Under My Skin - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I've Got You Under My Skin - Ly - Eb Bass for Standard"}
+\song{Love Walked In - C Bass}{"../Standard/Bass/Love Walked In - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Want to Be Happy - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Want to Be Happy - Ly - C Bass for Standard"}
+\song{Lucky Southern - D Bass}{"../Standard/Bass/Lucky Southern - Ly - D Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Lullaby in Rhythm - Eb Bass}{"../Standard/Bass/Lullaby in Rhythm - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Will Wait for You - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Will Wait for You - Ly - Dm Bass for Standard"}
+\dsong{Lullaby of Birdland - Ab Bass}{"../Standard/Bass/Lullaby of Birdland - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Wish I Knew How It Would Feel to Be Free - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Wish I Knew How It Would Feel to Be Free - Ly - F Bass for Standard"}
+\song{Lullaby of the Leaves - Cm Bass}{"../Standard/Bass/Lullaby of the Leaves - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Wish I Were Twins - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Wish I Were Twins - Ly - C Bass for Standard"}
+\song{Lulu's Back in Town - Eb Bass}{"../Standard/Bass/Lulu's Back in Town - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{J'Attendrai - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/J'Attendrai - Ly - C Bass for Standard"}
+\dsong{Lush Life - Db Bass}{"../Standard/Bass/Lush Life - Ly - Db Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Mack the Knife - C Bass}{"../Standard/Bass/Mack the Knife - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Jazz Blues Flat Keys}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Jazz Blues Flat Keys - Ly - C Bass for Standard"}
+\song{Maiden Voyage - C Bass}{"../Standard/Bass/Maiden Voyage - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Makin' Whoopee! - F Bass}{"../Standard/Bass/Makin' Whoopee! - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Jazz Blues Sharp Keys}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Jazz Blues Sharp Keys - Ly - C Bass for Standard"}
+\song{The Man I Love - Eb Bass}{"../Standard/Bass/The Man I Love - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Jeannine - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Jeannine - Ly - Ab Bass for Standard"}
+\song{Manoir de Mes Rêves (Django's Castle) - D Bass}{"../Standard/Bass/Manoir de Mes Reves - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Jeepers Creepers - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Jeepers Creepers - Ly - Bb Bass for Standard"}
+\song{Mean to Me - F Bass}{"../Standard/Bass/Mean to Me - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Meditation (Meditação) - C Bass}{"../Standard/Bass/Meditation - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Jitterbug Waltz - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Jitterbug Waltz - Ly - Eb Bass for Standard"}
+\song{Memories of You - Eb Bass}{"../Standard/Bass/Memories of You - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Jitterbug Waltz - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Jitterbug Waltz - Ly - C Bass for Standard"}
+\song{Mercy, Mercy, Mercy - Bb Bass}{"../Standard/Bass/Mercy Mercy Mercy - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Jive at Five - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Jive at Five - Ly - Eb Bass for Standard"}
+\dsong{Midnight Blue - Fm Bass}{"../Standard/Bass/Midnight Blue - Ly - Fm Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Midnight in Moscow - Dm Bass}{"../Standard/Bass/Midnight in Moscow - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Jordu - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Jordu - Ly - Eb Bass for Standard"}
+\dsong{Midnight Sun - C Bass}{"../Standard/Bass/Midnight Sun - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Joseph, Joseph (Yossel, Yossel) - Bm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Joseph Joseph - Ly - Bm Bass for Standard"}
+\msong{Milestones (1947) - Bb Bass}{"../Standard/Bass/Milestones 1947 - Ly - Bb Bass for Standard"}
 
-\clearemptytoevenpage
+\xsong{Milestones (1958) - Gm Bass}{"../Standard/Bass/Milestones 1958 - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Joy Spring - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Joy Spring - Ly - F Bass for Standard"}
+\song{Minor Blues (Blues en Mineur) - Gm Bass}{"../Standard/Bass/Minor Blues - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Just Friends - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Just Friends - Ly - G Bass for Standard"}
+\song{Minority - Fm Bass}{"../Standard/Bass/Minority - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Just in Time - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Just in Time - Ly - Bb Bass for Standard"}
+\song{Minor Swing - Am Bass}{"../Standard/Bass/Minor Swing - Ly - Am Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Miss Otis Regrets - Eb Bass}{"../Standard/Bass/Miss Otis Regrets - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Just One of Those Things - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Just One of Those Things - Ly - F Bass for Standard"}
+\song{Misty - Eb Bass}{"../Standard/Bass/Misty - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Just Squeeze Me - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Just Squeeze Me - Ly - F Bass for Standard"}
+\dsong{Moanin' - Fm Bass}{"../Standard/Bass/Moanin' - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Just You, Just Me - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Just You Just Me - Ly - C Bass for Standard"}
+\song{Moanin' Low - F Bass}{"../Standard/Bass/Moanin' Low - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Kansas City Kitty - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Kansas City Kitty - Ly - G Bass for Standard"}
+\song{Moment's Notice - Eb Bass}{"../Standard/Bass/Moment's Notice - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Killer Joe - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Killer Joe - Ly - C Bass for Standard"}
+\song{Mood Indigo - Ab Bass}{"../Standard/Bass/Mood Indigo - Ly - Ab Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Moonglow - G Bass}{"../Standard/Bass/Moonglow - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{A Kiss to Build a Dream On - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/A Kiss to Build a Dream On - Ly - C Bass for Standard"}
+\song{Moonlight in Vermont - Eb Bass}{"../Standard/Bass/Moonlight in Vermont - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lady Bird - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lady Bird - Ly - C Bass for Standard"}
+\song{Moonlight Saving Time - F Bass}{"../Standard/Bass/Moonlight Saving Time - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Lady Is a Tramp - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Lady Is a Tramp - Ly - C Bass for Standard"}
+\song{Moon River - C Bass}{"../Standard/Bass/Moon River - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Late Late Show - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Late Late Show - Ly - Ab Bass for Standard"}
+\song{The More I See You - Eb Bass}{"../Standard/Bass/The More I See You - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Laura - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Laura - Ly - C Bass for Standard"}
+\song{More Than You Know - C Bass}{"../Standard/Bass/More Than You Know - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Mr. P.C. - Cm Bass}{"../Standard/Bass/Mr PC - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lazy Bird - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lazy Bird - Ly - G Bass for Standard"}
+\song{My Baby Just Cares for Me - G Bass}{"../Standard/Bass/My Baby Just Cares for Me - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{(Up a) Lazy River - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lazy River - Ly - F Bass for Standard"}
+\song{My Blue Heaven - Eb Bass}{"../Standard/Bass/My Blue Heaven - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Let's Call the Whole Thing Off - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Let's Call the Whole Thing Off - Ly - G Bass for Standard"}
+\msong{My Buddy (Waltz) - G Bass}{"../Standard/Bass/My Buddy - Ly - G Bass for Standard"}
 
-\clearemptytoevenpage
+\xsong{My Buddy (Swing) - F Bass}{"../Standard/Bass/My Buddy Swing - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Let's Face the Music and Dance - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Let's Face the Music and Dance - Ly - C Bass for Standard"}
+\song{My Favorite Things - Em Bass}{"../Standard/Bass/My Favorite Things - Ly - Em Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Let's Fall in Love - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Let's Fall in Love - Ly - C Bass for Standard"}
+\song{My Foolish Heart - Bb Bass}{"../Standard/Bass/My Foolish Heart - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Let's Get Lost - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Let's Get Lost - Ly - Eb Bass for Standard"}
+\song{My Funny Valentine - Eb Bass}{"../Standard/Bass/My Funny Valentine - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Like a Lover (O Cantador) - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Like a Lover - Ly - D Bass for Standard"}
+\song{My Heart Stood Still - F Bass}{"../Standard/Bass/My Heart Stood Still - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{My Ideal - Eb Bass}{"../Standard/Bass/My Ideal - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Like Someone in Love - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Like Someone in Love - Ly - C Bass for Standard"}
+\song{My Little Suede Shoes - Eb Bass}{"../Standard/Bass/My Little Suede Shoes - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Like Someone in Love - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Like Someone in Love - Ly - Eb Bass for Standard"}
+\song{My Old Flame - G Bass}{"../Standard/Bass/My Old Flame - Ly - G Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{My One and Only Love - C Bass}{"../Standard/Bass/My One and Only Love - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Limehouse Blues - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Limehouse Blues - Ly - Ab Bass for Standard"}
+\song{My Romance - C Bass}{"../Standard/Bass/My Romance - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Limehouse Blues - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Limehouse Blues - Ly - G Bass for Standard"}
+\song{My Shining Hour - Eb Bass}{"../Standard/Bass/My Shining Hour - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Line for Lyons - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Line for Lyons - Ly - G Bass for Standard"}
+\dsong{My Ship - F Bass}{"../Standard/Bass/My Ship - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Little Boat (O Barquinho) - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Little Boat - Ly - Bb Bass for Standard"}
+\song{Naima - Ab Bass}{"../Standard/Bass/Naima - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Little Girl Blue - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Little Girl Blue - Ly - F Bass for Standard"}
+\song{Nancy With the Laughing Face - Eb Bass}{"../Standard/Bass/Nancy With the Laughing Face - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Little Sunflower - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Little Sunflower - Ly - Dm Bass for Standard"}
+\song{Nardis - Em Bass}{"../Standard/Bass/Nardis - Ly - Em Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Liza (All the Clouds'll Roll Away) - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Liza (All the Clouds'll Roll Away) - Ly - Eb Bass for Standard"}
+\msong{Nature Boy (3/4) - Em Bass}{"../Standard/Bass/Nature Boy Three - Ly - Em Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Long Ago and Far Away - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Long Ago and Far Away - Ly - F Bass for Standard"}
+\xsong{Nature Boy (4/4) - Em Bass}{"../Standard/Bass/Nature Boy Four - Ly - Em Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Look for the Silver Lining - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Look for the Silver Lining - Ly - Eb Bass for Standard"}
+\song{The Nearness of You - F Bass}{"../Standard/Bass/The Nearness of You - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Look of Love - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Look of Love - Ly - F Bass for Standard"}
+\song{Nica's Dream - Bbm Bass}{"../Standard/Bass/Nica's Dream - Ly - Bbm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Louisiana Fairytale - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Louisiana Fairytale - Ly - Bb Bass for Standard"}
+\song{Nice Work if You Can Get It - G Bass}{"../Standard/Bass/Nice Work if You Can Get It - Ly - G Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Night and Day - C Bass}{"../Standard/Bass/Night and Day - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Love for Sale - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Love for Sale - Ly - Bb Bass for Standard"}
+\song{The Night Has a Thousand Eyes - C Bass}{"../Standard/Bass/The Night Has a Thousand Eyes - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Love Is Here to Stay - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Love Is Here to Stay - Ly - F Bass for Standard"}
+\song{A Nightingale Sang in Berkeley Square - Eb Bass}{"../Standard/Bass/A Nightingale Sang in Berkeley Square - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Love Is Just Around the Corner - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Love Is Just Around the Corner - Ly - F Bass for Standard"}
+\song{A Night in Tunisia - Dm Bass}{"../Standard/Bass/A Night in Tunisia - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Love Me or Leave Me - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Love Me or Leave Me - Ly - Ab Bass for Standard"}
+\dsong{Night Train - Bb Bass}{"../Standard/Bass/Night Train - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Love Nest - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Love Nest - Ly - Eb Bass for Standard"}
+\song{Nobody Knows You When You're Down and Out - C Bass}{"../Standard/Bass/Nobody Knows You When You're Down and Out - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{No Moon at All - Dm Bass}{"../Standard/Bass/No Moon at All - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lover (3/4) - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lover Waltz - Ly - C Bass for Standard"}
+\song{Now's the Time - F Bass}{"../Standard/Bass/Now's the Time - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Nuages - G Bass}{"../Standard/Bass/Nuages - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lover (4/4) - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lover Swing - Ly - C Bass for Standard"}
+\song{Oh, Lady Be Good - G Bass}{"../Standard/Bass/Lady Be Good - Ly - G Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Old Devil Moon - F Bass}{"../Standard/Bass/Old Devil Moon - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lover Come Back to Me - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lover Come Back to Me - Ly - Eb Bass for Standard"}
+\dsong{Ole Buttermilk Sky - Eb Bass}{"../Standard/Bass/Ole Buttermilk Sky - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lover Man - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lover Man - Ly - F Bass for Standard"}
+\song{Oleo - Bb Bass}{"../Standard/Bass/Oleo - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Love Walked In - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Love Walked In - Ly - C Bass for Standard"}
+\song{On a Slow Boat to China - Bb Bass}{"../Standard/Bass/On a Slow Boat to China - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lucky Southern - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lucky Southern - Ly - D Bass for Standard"}
+\song{Once I Loved (Amor Em Paz) - F\#m Bass}{"../Standard/Bass/Once I Loved (Amor Em Paz) - Ly - Fsm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lullaby in Rhythm - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lullaby in Rhythm - Ly - Eb Bass for Standard"}
+\song{Once in a While - Eb Bass}{"../Standard/Bass/Once in a While - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{One for Daddy-O - Bbm Bass}{"../Standard/Bass/One for Daddy-O - Ly - Bbm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lullaby of Birdland - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lullaby of Birdland - Ly - Ab Bass for Standard"}
+\song{One Note Samba (Samba de uma Nota Só) - Bb Bass}{"../Standard/Bass/One Note Samba - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lullaby of the Leaves - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lullaby of the Leaves - Ly - Cm Bass for Standard"}
+\msong{On Green Dolphin Street - C Bass}{"../Standard/Bass/On Green Dolphin Street - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\xsong{On Green Dolphin Street - Eb Bass}{"../Standard/Bass/On Green Dolphin Street - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lush Life - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lush Life - Ly - Db Bass for Standard"}
+\song{Only Trust Your Heart - C Bass}{"../Standard/Bass/Only Trust Your Heart - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Mack the Knife - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Mack the Knife - Ly - C Bass for Standard"}
+\msong{On the Alamo - Eb Bass}{"../Standard/Bass/On the Alamo - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Maiden Voyage - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Maiden Voyage - Ly - C Bass for Standard"}
+\xsong{On the Alamo - C Bass}{"../Standard/Bass/On the Alamo - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Makin' Whoopee! - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Makin' Whoopee! - Ly - F Bass for Standard"}
+\song{On the Sunny Side of the Street - C Bass}{"../Standard/Bass/On the Sunny Side of the Street - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Man I Love - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Man I Love - Ly - Eb Bass for Standard"}
+\song{O Pato - D Bass}{"../Standard/Bass/O Pato - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Manoir de Mes Rêves (Django's Castle) - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Manoir de Mes Reves - Ly - D Bass for Standard"}
+\song{Ornithology - G Bass}{"../Standard/Bass/Ornithology - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Mean to Me - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Mean to Me - Ly - F Bass for Standard"}
+\song{Out of Nowhere - G Bass}{"../Standard/Bass/Out of Nowhere - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Meditation (Meditação) - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Meditation - Ly - C Bass for Standard"}
+\song{Over the Rainbow - Eb Bass}{"../Standard/Bass/Over the Rainbow - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Memories of You - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Memories of You - Ly - Eb Bass for Standard"}
+\song{Peace - Bb Bass}{"../Standard/Bass/Peace - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Mercy, Mercy, Mercy - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Mercy Mercy Mercy - Ly - Bb Bass for Standard"}
+\song{Pennies From Heaven - C Bass}{"../Standard/Bass/Pennies From Heaven - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Pent Up House - G Bass}{"../Standard/Bass/Pent Up House - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Midnight Blue - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Midnight Blue - Ly - Fm Bass for Standard"}
+\song{Perdido - Bb Bass}{"../Standard/Bass/Perdido - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Midnight in Moscow - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Midnight in Moscow - Ly - Dm Bass for Standard"}
+\song{Perfidia - C Bass}{"../Standard/Bass/Perfidia - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Petite Fleur - Gm Bass}{"../Standard/Bass/Petite Fleur - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Midnight Sun - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Midnight Sun - Ly - C Bass for Standard"}
+\song{Pick Yourself Up - F Bass}{"../Standard/Bass/Pick Yourself Up - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Poinciana - G Bass}{"../Standard/Bass/Poinciana - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Milestones (1947) - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Milestones 1947 - Ly - Bb Bass for Standard"}
+\song{Polkadots and Moonbeams - F Bass}{"../Standard/Bass/Polkadots and Moonbeams - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Milestones (1958) - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Milestones 1958 - Ly - Gm Bass for Standard"}
+\song{Poor Butterfly - Ab Bass}{"../Standard/Bass/Poor Butterfly - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Minor Blues (Blues en Mineur) - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Minor Blues - Ly - Gm Bass for Standard"}
+\song{The Preacher - F Bass}{"../Standard/Bass/The Preacher - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Minority - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Minority - Ly - Fm Bass for Standard"}
+\song{Prelude to a Kiss - C Bass}{"../Standard/Bass/Prelude to a Kiss - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Minor Swing - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Minor Swing - Ly - Am Bass for Standard"}
+\song{Recorda-Me - Am Bass}{"../Standard/Bass/Recorda-Me - Ly - Am Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Miss Otis Regrets - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Miss Otis Regrets - Ly - Eb Bass for Standard"}
+\msong{Red Clay - Cm Bass}{"../Standard/Bass/Red Clay - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Misty - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Misty - Ly - Eb Bass for Standard"}
+\xsong{Red Clay - C\#m Bass}{"../Standard/Bass/Red Clay - Ly - Csm Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Remember - Ab to F}{"../Standard/Eb/Remember - Ly - Ab to F for Eb for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Moanin' - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Moanin' - Ly - Fm Bass for Standard"}
+\song{Repetition - Eb Bass}{"../Standard/Bass/Repetition - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Moanin' Low - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Moanin' Low - Ly - F Bass for Standard"}
+\dsong{Rhode Island Is Famous for You - G Bass}{"../Standard/Bass/Rhode Island Is Famous for You - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Moment's Notice - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Moment's Notice - Ly - Eb Bass for Standard"}
+\song{River Stay Way From My Door - C Bass}{"../Standard/Bass/River Stay Way From My Door - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Mood Indigo - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Mood Indigo - Ly - Ab Bass for Standard"}
+\song{Road Song - Gm Bass}{"../Standard/Bass/Road Song - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Moonglow - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Moonglow - Ly - G Bass for Standard"}
+\song{Robbin's Nest - C Bass}{"../Standard/Bass/Robbin's Nest - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Moonlight in Vermont - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Moonlight in Vermont - Ly - Eb Bass for Standard"}
+\msong{Rose Room - Ab Bass}{"../Standard/Bass/Rose Room - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Moonlight Saving Time - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Moonlight Saving Time - Ly - F Bass for Standard"}
+\xsong{Rose Room - F Bass}{"../Standard/Bass/Rose Room - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Moon River - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Moon River - Ly - C Bass for Standard"}
+\song{Rosetta - F Bass}{"../Standard/Bass/Rosetta - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The More I See You - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The More I See You - Ly - Eb Bass for Standard"}
+\dmsong{Round Midnight - Eb Bass}{"../Standard/Bass/Round Midnight - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{More Than You Know - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/More Than You Know - Ly - C Bass for Standard"}
+\dxsong{Round Midnight - Ebm Bass}{"../Standard/Bass/Round Midnight - Ly - Ebm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Mr. P.C. - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Mr PC - Ly - Cm Bass for Standard"}
+\song{Route 66 - F Bass}{"../Standard/Bass/Route 66 - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Baby Just Cares for Me - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Baby Just Cares for Me - Ly - G Bass for Standard"}
+\song{Russian Lullaby - Dm Bass}{"../Standard/Bass/Russian Lullaby Swing - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Blue Heaven - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Blue Heaven - Ly - Eb Bass for Standard"}
+\song{Sabor a Mí - G Bass}{"../Standard/Bass/Sabor a Mi - Ly - G Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Samba de Orfeu - C Bass}{"../Standard/Bass/Samba de Orfeu - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Buddy (Waltz) - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Buddy - Ly - G Bass for Standard"}
+\dsong{Samba de Verão (So Nice, Summer Samba) - F Bass}{"../Standard/Bass/So Nice - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Buddy (Swing) - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Buddy Swing - Ly - F Bass for Standard"}
+\song{Sandu - Eb Bass}{"../Standard/Bass/Sandu - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Favorite Things - Em Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Favorite Things - Ly - Em Bass for Standard"}
+\song{Satin Doll - C Bass}{"../Standard/Bass/Satin Doll - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Foolish Heart - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Foolish Heart - Ly - Bb Bass for Standard"}
+\song{Scotch and Soda - Eb Bass}{"../Standard/Bass/Scotch and Soda - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Funny Valentine - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Funny Valentine - Ly - Eb Bass for Standard"}
+\song{Scrapple From the Apple - F Bass}{"../Standard/Bass/Scrapple From the Apple - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Heart Stood Still - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Heart Stood Still - Ly - F Bass for Standard"}
+\song{Secret Love - Eb Bass}{"../Standard/Bass/Secret Love - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Ideal - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Ideal - Ly - Eb Bass for Standard"}
+\song{Sentimental Journey - C Bass}{"../Standard/Bass/Sentimental Journey - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Little Suede Shoes - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Little Suede Shoes - Ly - Eb Bass for Standard"}
+\song{September in the Rain - Eb Bass}{"../Standard/Bass/September in the Rain - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Old Flame - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Old Flame - Ly - G Bass for Standard"}
+\song{September Song - C Bass}{"../Standard/Bass/September Song - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Serenade to a Cuckoo - Ab Bass}{"../Standard/Bass/Serenade to a Cuckoo - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My One and Only Love - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My One and Only Love - Ly - C Bass for Standard"}
+\dsong{Seven Steps to Heaven - F Bass}{"../Standard/Bass/Seven Steps to Heaven - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Romance - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Romance - Ly - C Bass for Standard"}
+\song{(Je Suis) Seul Ce Soir - C Bass}{"../Standard/Bass/Seul Ce Soir - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Shining Hour - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/My Shining Hour - Ly - Eb Bass for Standard"}
+\song{The Shadow of Your Smile - G Bass}{"../Standard/Bass/The Shadow of Your Smile - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Naima - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Naima - Ly - Ab Bass for Standard"}
+\song{She's Funny That Way - Eb Bass}{"../Standard/Bass/She's Funny That Way - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Nancy With the Laughing Face - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Nancy With the Laughing Face - Ly - Eb Bass for Standard"}
+\song{The Shiek of Araby - Bb Bass}{"../Standard/Bass/The Shiek of Araby - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Nardis - Em Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Nardis - Ly - Em Bass for Standard"}
+\song{Sidewinder - Eb Bass}{"../Standard/Bass/Sidewinder - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{Since I Fell for You - Eb Bass}{"../Standard/Bass/Since I Fell for You - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Nature Boy (3/4) - Em Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Nature Boy Three - Ly - Em Bass for Standard"}
+\song{Singin' in the Rain - G Bass}{"../Standard/Bass/Singin' in the Rain - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Nature Boy (4/4) - Em Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Nature Boy Four - Ly - Em Bass for Standard"}
+\song{Si Tu Vois Ma Mère - Bb Bass}{"../Standard/Bass/Si Tu Vois Ma Mere - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Nearness of You - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Nearness of You - Ly - F Bass for Standard"}
+\song{Skylark - Eb Bass}{"../Standard/Bass/Skylark - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Nica's Dream - Bbm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Nica's Dream - Ly - Bbm Bass for Standard"}
+\msong{Smile - F Bass}{"../Standard/Bass/Smile - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Nice Work if You Can Get It - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Nice Work if You Can Get It - Ly - G Bass for Standard"}
+\xsong{Smile - C Bass}{"../Standard/Bass/Smile - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Night and Day - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Night and Day - Ly - C Bass for Standard"}
+\song{Smoke Gets in Your Eyes - Eb Bass}{"../Standard/Bass/Smoke Gets in Your Eyes - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Night Has a Thousand Eyes - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Night Has a Thousand Eyes - Ly - C Bass for Standard"}
+\song{Softly as in a Morning Sunrise - Cm Bass}{"../Standard/Bass/Softly as in a Morning Sunrise - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{A Nightingale Sang in Berkeley Square - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/A Nightingale Sang in Berkeley Square - Ly - Eb Bass for Standard"}
+\song{Solar - Cm Bass}{"../Standard/Bass/Solar - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{A Night in Tunisia - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/A Night in Tunisia - Ly - Dm Bass for Standard"}
+\song{Solitude - Eb Bass}{"../Standard/Bass/Solitude - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Someday My Prince Will Come - Bb Bass}{"../Standard/Bass/Someday My Prince Will Come - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Night Train - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Night Train - Ly - Bb Bass for Standard"}
+\song{Someone to Watch Over Me - Eb Bass}{"../Standard/Bass/Someone to Watch Over Me - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Nobody Knows You When You're Down and Out - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Nobody Knows You When You're Down and Out - Ly - C Bass for Standard"}
+\song{Some Other Time - C Bass}{"../Standard/Bass/Some Other Time - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{No Moon at All - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/No Moon at All - Ly - Dm Bass for Standard"}
+\song{Something to Live For - D Bass}{"../Standard/Bass/Something to Live For - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Now's the Time - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Now's the Time - Ly - F Bass for Standard"}
+\song{Sometime Ago - C Bass}{"../Standard/Bass/Sometime Ago - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Nuages - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Nuages - Ly - G Bass for Standard"}
+\msong{Songe d'Automne Swing - Cm Bass}{"../Standard/Bass/Songe d'Automne Swing - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Oh, Lady Be Good - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Lady Be Good - Ly - G Bass for Standard"}
+\xsong{Songe d'Automne Waltz - Cm Bass}{"../Standard/Bass/Songe d'Automne Waltz - Ly - Cm Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Song for My Father - Fm Bass}{"../Standard/Bass/Song for My Father - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Old Devil Moon - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Old Devil Moon - Ly - F Bass for Standard"}
+\song{The Song Is You - C Bass}{"../Standard/Bass/The Song Is You - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Sonnymoon for Two - Bb Bass}{"../Standard/Bass/Sonnymoon for Two - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Ole Buttermilk Sky - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Ole Buttermilk Sky - Ly - Eb Bass for Standard"}
+\song{Sophisticated Lady - Ab Bass}{"../Standard/Bass/Sophisticated Lady - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Oleo - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Oleo - Ly - Bb Bass for Standard"}
+\song{Soul Eyes - Eb Bass}{"../Standard/Bass/Soul Eyes - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{On a Slow Boat to China - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/On a Slow Boat to China - Ly - Bb Bass for Standard"}
+\song{So What - C Bass}{"../Standard/Bass/So What - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Once I Loved (Amor Em Paz) - F\#m Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Once I Loved (Amor Em Paz) - Ly - Fsm Bass for Standard"}
+\dsong{Speak Low - F Bass}{"../Standard/Bass/Speak Low - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Once in a While - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Once in a While - Ly - Eb Bass for Standard"}
+\dsong{Spring Can Really Hang You Up the Most - C Bass}{"../Standard/Bass/Spring Can Really Hang You Up the Most - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{One for Daddy-O - Bbm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/One for Daddy-O - Ly - Bbm Bass for Standard"}
+\msong{Spring Is Here (Bill Evans) - Ab Bass}{"../Standard/Bass/Spring Is Here Bill Evans - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{One Note Samba (Samba de uma Nota Só) - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/One Note Samba - Ly - Bb Bass for Standard"}
+\xsong{Spring Is Here - Ab Bass}{"../Standard/Bass/Spring Is Here - Ly - Ab Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Spring Will Be a Little Late This Year - Eb Bass}{"../Standard/Bass/Spring Will Be a Little Late This Year - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{On Green Dolphin Street - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/On Green Dolphin Street - Ly - C Bass for Standard"}
+\song{Squeeze Me - Db Bass}{"../Standard/Bass/Squeeze Me - Ly - Db Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{On Green Dolphin Street - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/On Green Dolphin Street - Ly - Eb Bass for Standard"}
+\song{Stablemates - Db Bass}{"../Standard/Bass/Stablemates - Ly - Db Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Only Trust Your Heart - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Only Trust Your Heart - Ly - C Bass for Standard"}
+\song{Stairway to the Stars - C Bass}{"../Standard/Bass/Stairway to the Stars - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{St. James Infirmary - Dm Bass}{"../Standard/Bass/St James Infirmary - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{On the Alamo - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/On the Alamo - Ly - Eb Bass for Standard"}
+\song{St. Louis Blues - G Bass}{"../Standard/Bass/St Louis Blues - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{On the Alamo - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/On the Alamo - Ly - C Bass for Standard"}
+\song{St. Thomas - C Bass}{"../Standard/Bass/St Thomas - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{On the Sunny Side of the Street - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/On the Sunny Side of the Street - Ly - C Bass for Standard"}
+\dmsong{Stardust (Star Dust) - C Bass}{"../Standard/Bass/Stardust - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{O Pato - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/O Pato - Ly - D Bass for Standard"}
+\dxsong{Stardust (Star Dust) - Db Bass}{"../Standard/Bass/Stardust - Ly - Db Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Ornithology - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Ornithology - Ly - G Bass for Standard"}
+\song{Star Eyes - Eb Bass}{"../Standard/Bass/Star Eyes - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Out of Nowhere - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Out of Nowhere - Ly - G Bass for Standard"}
+\dsong{Stars Fell on Alabama - C Bass}{"../Standard/Bass/Stars Fell on Alabama - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Over the Rainbow - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Over the Rainbow - Ly - Eb Bass for Standard"}
+\song{Stella by Starlight - Bb Bass}{"../Standard/Bass/Stella by Starlight - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Peace - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Peace - Ly - Bb Bass for Standard"}
+\song{Stolen Moments - Cm Bass}{"../Standard/Bass/Stolen Moments - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Pennies From Heaven - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Pennies From Heaven - Ly - C Bass for Standard"}
+\song{Stompin' at the Savoy - Db Bass}{"../Standard/Bass/Stompin' at the Savoy - Ly - Db Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Pent Up House - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Pent Up House - Ly - G Bass for Standard"}
+\song{Stormy Weather - G Bass}{"../Standard/Bass/Stormy Weather - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Perdido - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Perdido - Ly - Bb Bass for Standard"}
+\dsong{Straighten Up and Fly Right - Ab Bass}{"../Standard/Bass/Straighten Up and Fly Right - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Perfidia - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Perfidia - Ly - C Bass for Standard"}
+\msong{Straight No Chaser - Bb Bass}{"../Standard/Bass/Straight No Chaser - Ly - Bb Bass for Standard"}
 
-\clearemptytoevenpage
+\xsong{Straight No Chaser - F Bass}{"../Standard/Bass/Straight No Chaser - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Petite Fleur - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Petite Fleur - Ly - Gm Bass for Standard"}
+\song{Struttin' With Some Berbecue - F Bass}{"../Standard/Bass/Struttin' With Some Berbecue - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Pick Yourself Up - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Pick Yourself Up - Ly - F Bass for Standard"}
+\msong{Stumbling - G Bass}{"../Standard/Bass/Stumbling - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Poinciana - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Poinciana - Ly - G Bass for Standard"}
+\xsong{Stumbling - F Bass}{"../Standard/Bass/Stumbling - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Polkadots and Moonbeams - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Polkadots and Moonbeams - Ly - F Bass for Standard"}
+\song{Sugar - Cm Bass}{"../Standard/Bass/Sugar - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Poor Butterfly - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Poor Butterfly - Ly - Ab Bass for Standard"}
+\song{Summertime - Am Bass}{"../Standard/Bass/Summertime - Ly - Am Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Preacher - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Preacher - Ly - F Bass for Standard"}
+\song{Sunny - Am Bass}{"../Standard/Bass/Sunny - Ly - Am Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Prelude to a Kiss - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Prelude to a Kiss - Ly - C Bass for Standard"}
+\song{Sway - Em Bass}{"../Standard/Bass/Sway - Ly - Em Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Recorda-Me - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Recorda-Me - Ly - Am Bass for Standard"}
+\song{Sweet and Lovely - C Bass}{"../Standard/Bass/Sweet and Lovely - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Sweet Georgia Brown - F Bass}{"../Standard/Bass/Sweet Georgia Brown - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Red Clay - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Red Clay - Ly - Cm Bass for Standard"}
+\song{Sweet Lorraine - G Bass}{"../Standard/Bass/Sweet Lorraine - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Red Clay - C\#m Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Red Clay - Ly - Csm Bass for Standard"}
+\song{Sweet Sue - G Bass}{"../Standard/Bass/Sweet Sue - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Remember - Ab to F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Remember - Ly - Ab to F for Eb for Standard"}
+\song{Swing 42 - C Bass}{"../Standard/Bass/Swing 42 - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Repetition - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Repetition - Ly - Eb Bass for Standard"}
+\song{Swing Gitan - Gm Bass}{"../Standard/Bass/Swing Gitan - Ly - Gm Bass for Standard"}
 
-\clearemptytoevenpage
+\song{'S Wonderful - Eb Bass}{"../Standard/Bass/S Wonderful - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Rhode Island Is Famous for You - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Rhode Island Is Famous for You - Ly - G Bass for Standard"}
+\msong{Take Five - Ebm Bass}{"../Standard/Bass/Take Five - Ly - Ebm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{River Stay Way From My Door - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/River Stay Way From My Door - Ly - C Bass for Standard"}
+\xsong{Take Five - Em Bass}{"../Standard/Bass/Take Five - Ly - Em Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Road Song - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Road Song - Ly - Gm Bass for Standard"}
+\song{Take the “A” Train - C Bass}{"../Standard/Bass/Take the A Train - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Robbin's Nest - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Robbin's Nest - Ly - C Bass for Standard"}
+\dsong{Taking a Chance on Love - C Bass}{"../Standard/Bass/Taking a Chance on Love - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Tangerine - F Bass}{"../Standard/Bass/Tangerine - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Rose Room - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Rose Room - Ly - Ab Bass for Standard"}
+\song{Tea for Two - Ab Bass}{"../Standard/Bass/Tea for Two - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Rose Room - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Rose Room - Ly - F Bass for Standard"}
+\song{Tenderly - Eb Bass}{"../Standard/Bass/Tenderly - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Rosetta - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Rosetta - Ly - F Bass for Standard"}
+\song{Tennessee Waltz - C Bass}{"../Standard/Bass/Tennessee Waltz - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Tenor Madness - Bb Bass}{"../Standard/Bass/Tenor Madness - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Round Midnight - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Round Midnight - Ly - Eb Bass for Standard"}
+\song{That Old Black Magic - Eb Bass}{"../Standard/Bass/That Old Black Magic - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{That Old Feeling - Eb Bass}{"../Standard/Bass/That Old Feeling - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Round Midnight - Ebm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Round Midnight - Ly - Ebm Bass for Standard"}
+\dsong{That's All - Bb Bass}{"../Standard/Bass/That's All - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Route 66 - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Route 66 - Ly - F Bass for Standard"}
+\song{Them There Eyes - C Bass}{"../Standard/Bass/Them There Eyes - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Russian Lullaby - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Russian Lullaby Swing - Ly - Dm Bass for Standard"}
+\song{There Is No Greater Love - Bb Bass}{"../Standard/Bass/There Is No Greater Love - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Sabor a Mí - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sabor a Mi - Ly - G Bass for Standard"}
+\song{There Will Never Be Another You - Eb Bass}{"../Standard/Bass/There Will Never Be Another You - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Samba de Orfeu - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Samba de Orfeu - Ly - C Bass for Standard"}
+\song{These Foolish Things - Eb Bass}{"../Standard/Bass/These Foolish Things - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{They All Laughed - G Bass}{"../Standard/Bass/They All Laughed - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Samba de Verão (So Nice, Summer Samba) - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/So Nice - Ly - F Bass for Standard"}
+\song{They Can't Take That Away From Me - Eb Bass}{"../Standard/Bass/They Can't Take That Away From Me - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Sandu - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sandu - Ly - Eb Bass for Standard"}
+\song{Things Ain't What They Used to Be - Db Bass}{"../Standard/Bass/Things Ain't What They Used to Be - Ly - Db Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Satin Doll - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Satin Doll - Ly - C Bass for Standard"}
+\song{This Can't Be Love - G Bass}{"../Standard/Bass/This Can't Be Love - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Scotch and Soda - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Scotch and Soda - Ly - Eb Bass for Standard"}
+\song{This Masquerade - Fm Bass}{"../Standard/Bass/This Masquerade - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Scrapple From the Apple - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Scrapple From the Apple - Ly - F Bass for Standard"}
+\song{This Time the Dream's on Me - G Bass}{"../Standard/Bass/This Time the Dream's on Me - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Secret Love - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Secret Love - Ly - Eb Bass for Standard"}
+\song{Thou Swell - Eb Bass}{"../Standard/Bass/Thou Swell - Ly - Eb Bass for Standard"}
 
-d\phantomsection
-\addcontentsline{toc}{section}{Sentimental Journey - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sentimental Journey - Ly - C Bass for Standard"}
+\song{Three Little Words - C Bass}{"../Standard/Bass/Three Little Words - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{September in the Rain - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/September in the Rain - Ly - Eb Bass for Standard"}
+\song{The Thrill Is Gone - Dm Bass}{"../Standard/Bass/The Thrill Is Gone - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{September Song - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/September Song - Ly - C Bass for Standard"}
+\song{Time After Time - C Bass}{"../Standard/Bass/Time After Time - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Serenade to a Cuckoo - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Serenade to a Cuckoo - Ly - Ab Bass for Standard"}
+\song{Time on My Hands - F Bass}{"../Standard/Bass/Time on My Hands - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Tin Roof Blues - Bb Bass}{"../Standard/Bass/Tin Roof Blues - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Seven Steps to Heaven - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Seven Steps to Heaven - Ly - F Bass for Standard"}
+\dsong{'Tis Autumn - Eb Bass}{"../Standard/Bass/Tis Autumn - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{(Je Suis) Seul Ce Soir - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Seul Ce Soir - Ly - C Bass for Standard"}
+\song{Too Close for Comfort - C Bass}{"../Standard/Bass/Too Close for Comfort - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Shadow of Your Smile - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Shadow of Your Smile - Ly - G Bass for Standard"}
+\dsong{Too Darn Hot - Cm Bass}{"../Standard/Bass/Too Darn Hot - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{She's Funny That Way - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/She's Funny That Way - Ly - Eb Bass for Standard"}
+\song{Too Marvelous for Words - G Bass}{"../Standard/Bass/Too Marvelous for Words - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Shiek of Araby - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Shiek of Araby - Ly - Bb Bass for Standard"}
+\song{Topsy - Dm Bass}{"../Standard/Bass/Topsy - Ly - Dm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Sidewinder - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sidewinder - Ly - Eb Bass for Standard"}
+\song{The Touch of Your Lips - C Bass}{"../Standard/Bass/The Touch of Your Lips - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Triste - Bb Bass}{"../Standard/Bass/Triste - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Since I Fell for You - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Since I Fell for You - Ly - Eb Bass for Standard"}
+\song{Troublant Bolero - E Bass}{"../Standard/Bass/Troublant Bolero - Ly - E Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Singin' in the Rain - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Singin' in the Rain - Ly - G Bass for Standard"}
+\song{True Love - G Bass}{"../Standard/Bass/True Love - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Si Tu Vois Ma Mère - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Si Tu Vois Ma Mere - Ly - Bb Bass for Standard"}
+\song{Tune Up - D Bass}{"../Standard/Bass/Tune Up - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Skylark - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Skylark - Ly - Eb Bass for Standard"}
+\dsong{Unchain My Heart - Am Bass}{"../Standard/Bass/Unchain My Heart - Ly - Am Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Undecided - Bb Bass}{"../Standard/Bass/Undecided - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Smile - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Smile - Ly - F Bass for Standard"}
+\song{Under Paris Skies - Fm Bass}{"../Standard/Bass/Under Paris Skies - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Smile - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Smile - Ly - C Bass for Standard"}
+\song{Up Jumped Spring - Bb Bass}{"../Standard/Bass/Up Jumped Spring - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Smoke Gets in Your Eyes - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Smoke Gets in Your Eyes - Ly - Eb Bass for Standard"}
+\song{The Very Thought of You - Ab Bass}{"../Standard/Bass/The Very Thought of You - Ly - Ab Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Softly as in a Morning Sunrise - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Softly as in a Morning Sunrise - Ly - Cm Bass for Standard"}
+\dsong{Vivo Sonhando - G Bass}{"../Standard/Bass/Vivo Sonhando - Ly - G Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Solar - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Solar - Ly - Cm Bass for Standard"}
+\song{Wait Till You See Her (Him) - Eb Bass}{"../Standard/Bass/Wait Till You See Her (Him) - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Solitude - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Solitude - Ly - Eb Bass for Standard"}
+\song{Walkin' My Baby Back Home - Eb Bass}{"../Standard/Bass/Walkin' My Baby Back Home - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Someday My Prince Will Come - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Someday My Prince Will Come - Ly - Bb Bass for Standard"}
+\song{Waltz for Debby - Eb Bass}{"../Standard/Bass/Waltz for Debby - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Someone to Watch Over Me - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Someone to Watch Over Me - Ly - Eb Bass for Standard"}
+\song{Watch What Happens - Eb Bass}{"../Standard/Bass/Watch What Happens - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Some Other Time - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Some Other Time - Ly - C Bass for Standard"}
+\song{Watermelon Man - F Bass}{"../Standard/Bass/Watermelon Man - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Something to Live For - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Something to Live For - Ly - D Bass for Standard"}
+\song{Wave - D Bass}{"../Standard/Bass/Wave - Ly - D Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Sometime Ago - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sometime Ago - Ly - C Bass for Standard"}
+\dsong{The Way You Look Tonight - F Bass}{"../Standard/Bass/The Way You Look Tonight - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{What's New - C Bass}{"../Standard/Bass/What's New - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Songe d'Automne Swing - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Songe d'Automne Swing - Ly - Cm Bass for Standard"}
+\song{We Kiss in a Shadow - F Bass}{"../Standard/Bass/We Kiss in a Shadow - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Songe d'Automne Waltz - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Songe d'Automne Waltz - Ly - Cm Bass for Standard"}
+\song{We'll Be Together Again - C Bass}{"../Standard/Bass/We'll Be Together Again - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Song for My Father - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Song for My Father - Ly - Fm Bass for Standard"}
+\msong{Well You Needn't - F Bass}{"../Standard/Bass/Well You Needn't - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Song Is You - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Song Is You - Ly - C Bass for Standard"}
+\xsong{Well You Needn't Lyrics - F Bass}{"../Standard/Bass/Well You Needn't Lyrics - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Sonnymoon for Two - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sonnymoon for Two - Ly - Bb Bass for Standard"}
+\song{West Coast Blues - Bb Bass}{"../Standard/Bass/West Coast Blues - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Sophisticated Lady - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sophisticated Lady - Ly - Ab Bass for Standard"}
+\song{What Is This Thing Called Love? - C Bass}{"../Standard/Bass/What Is This Thing Called Love - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Soul Eyes - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Soul Eyes - Ly - Eb Bass for Standard"}
+\song{When I Fall in Love - Eb Bass}{"../Standard/Bass/When I Fall in Love - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{So What - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/So What - Ly - C Bass for Standard"}
+\song{When I Take My Sugar to Tea - F Bass}{"../Standard/Bass/When I Take My Sugar to Tea - Ly - F Bass for Standard"}
 
-\clearemptytoevenpage
+\song{When It's Sleepy Time Down South - C Bass}{"../Standard/Bass/When It's Sleepy Time Down South - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Speak Low - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Speak Low - Ly - F Bass for Standard"}
+\song{When Lights Are Low - Eb Bass}{"../Standard/Bass/When Lights Are Low - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{When Sunny Gets Blue - F Bass}{"../Standard/Bass/When Sunny Gets Blue - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Spring Can Really Hang You Up the Most - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Spring Can Really Hang You Up the Most - Ly - C Bass for Standard"}
+\song{When Your Lover Has Gone - G Bass}{"../Standard/Bass/When Your Lover Has Gone - Ly - G Bass for Standard"}
 
-\clearemptytoevenpage
+\song{When You're Smiling - Bb Bass}{"../Standard/Bass/When You're Smiling - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Spring Is Here (Bill Evans) - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Spring Is Here Bill Evans - Ly - Ab Bass for Standard"}
+\song{When You Wish Upon a Star - C Bass}{"../Standard/Bass/When You Wish Upon a Star - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Spring Is Here - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Spring Is Here - Ly - Ab Bass for Standard"}
+\song{Where or When - Eb Bass}{"../Standard/Bass/Where or When - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Squeeze Me - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Squeeze Me - Ly - Db Bass for Standard"}
+\song{Whispering - Eb Bass}{"../Standard/Bass/Whispering - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Stablemates - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Stablemates - Ly - Db Bass for Standard"}
+\song{Whisper Not - Cm Bass}{"../Standard/Bass/Whisper Not - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Stairway to the Stars - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Stairway to the Stars - Ly - C Bass for Standard"}
+\song{Who Walks In When I Walk Out? - Gm Bass}{"../Standard/Bass/Who Walks In When I Walk Out - Ly - Gm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{St. James Infirmary - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/St James Infirmary - Ly - Dm Bass for Standard"}
+\song{Why Don't We Do This More Often - Bb Bass}{"../Standard/Bass/Why Don't We Do This More Often - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{St. Louis Blues - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/St Louis Blues - Ly - G Bass for Standard"}
+\dsong{Why Try to Change Me Now - F Bass}{"../Standard/Bass/Why Try to Change Me Now - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{St. Thomas - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/St Thomas - Ly - C Bass for Standard"}
+\song{Willow Weep for Me - G Bass}{"../Standard/Bass/Willow Weep for Me - Ly - G Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Witchcraft - F Bass}{"../Standard/Bass/Witchcraft - Ly - F Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Stardust (Star Dust) - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Stardust - Ly - C Bass for Standard"}
+\song{Without a Song - Eb Bass}{"../Standard/Bass/Without a Song - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{Woody 'n' You - Db Bass}{"../Standard/Bass/Woody 'n' You - Ly - Db Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Stardust (Star Dust) - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Stardust - Ly - Db Bass for Standard"}
+\song{Work Song - Fm Bass}{"../Standard/Bass/Work Song - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Star Eyes - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Star Eyes - Ly - Eb Bass for Standard"}
+\msong{The World Is Waiting for the Sunrise 1919 - C Bass}{"../Standard/Bass/The World Is Waiting for the Sunrise 1919 - Ly - C Bass for Standard"}
 
-\clearemptytoevenpage
+\xsong{The World Is Waiting for the Sunrise Firehouse - Bb Bass}{"../Standard/Bass/The World Is Waiting for the Sunrise Firehouse - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Stars Fell on Alabama - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Stars Fell on Alabama - Ly - C Bass for Standard"}
+\xsong{The World Is Waiting for the Sunrise Les Paul - C Bass}{"../Standard/Bass/The World Is Waiting for the Sunrise Les Paul - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Stella by Starlight - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Stella by Starlight - Ly - Bb Bass for Standard"}
+\song{Wrap Your Troubles in Dreams - C Bass}{"../Standard/Bass/Wrap Your Troubles in Dreams - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Stolen Moments - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Stolen Moments - Ly - Cm Bass for Standard"}
+\song{Yardbird Suite - C Bass}{"../Standard/Bass/Yardbird Suite - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Stompin' at the Savoy - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Stompin' at the Savoy - Ly - Db Bass for Standard"}
+\song{Yes Sir, That's My Baby - Eb Bass}{"../Standard/Bass/Yes Sir That's My Baby - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Stormy Weather - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Stormy Weather - Ly - G Bass for Standard"}
+\song{Yesterdays - Dm Bass}{"../Standard/Bass/Yesterdays - Ly - Dm Bass for Standard"}
 
-\clearemptytoevenpage
+\song{You and the Night and the Music - Cm Bass}{"../Standard/Bass/You and the Night and the Music - Ly - Cm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Straighten Up and Fly Right - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Straighten Up and Fly Right - Ly - Ab Bass for Standard"}
+\dsong{You'd Be So Nice to Come Home To - Am Bass}{"../Standard/Bass/You'd Be So Nice to Come Home To - Ly - Am Bass for Standard"}
 
-\clearemptytoevenpage
+\dsong{You Don't Know Me - Eb Bass}{"../Standard/Bass/You Don't Know Me - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Straight No Chaser - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Straight No Chaser - Ly - Bb Bass for Standard"}
+\song{You Don't Know What Love Is - Fm Bass}{"../Standard/Bass/You Don't Know What Love Is - Ly - Fm Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Straight No Chaser - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Straight No Chaser - Ly - F Bass for Standard"}
+\song{You Do Something to Me - Eb Bass}{"../Standard/Bass/You Do Something to Me - Ly - Eb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Struttin' With Some Berbecue - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Struttin' With Some Berbecue - Ly - F Bass for Standard"}
+\dsong{You Go To My Head - Eb Bass}{"../Standard/Bass/You Go To My Head - Ly - Eb Bass for Standard"}
 
-\clearemptytoevenpage
+\song{You Make Me Feel So Young - Bb Bass}{"../Standard/Bass/You Make Me Feel So Young - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Stumbling - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Stumbling - Ly - G Bass for Standard"}
+\dsong{Young at Heart - Bb Bass}{"../Standard/Bass/Young at Heart - Ly - Bb Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Stumbling - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Stumbling - Ly - F Bass for Standard"}
+\song{You Stepped Out of a Dream - C Bass}{"../Standard/Bass/You Stepped Out of a Dream - Ly - C Bass for Standard"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Sugar - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sugar - Ly - Cm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Summertime - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Summertime - Ly - Am Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Sunny - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sunny - Ly - Am Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Sway - Em Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sway - Ly - Em Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Sweet and Lovely - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sweet and Lovely - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Sweet Georgia Brown - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sweet Georgia Brown - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Sweet Lorraine - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sweet Lorraine - Ly - G Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Sweet Sue - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Sweet Sue - Ly - G Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Swing 42 - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Swing 42 - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Swing Gitan - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Swing Gitan - Ly - Gm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{'S Wonderful - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/S Wonderful - Ly - Eb Bass for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Take Five - Ebm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Take Five - Ly - Ebm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Take Five - Em Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Take Five - Ly - Em Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Take the “A” Train - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Take the A Train - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Tangerine - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Tangerine - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Tea for Two - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Tea for Two - Ly - Ab Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Tenderly - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Tenderly - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Tennessee Waltz - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Tennessee Waltz - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Tenor Madness - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Tenor Madness - Ly - Bb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{That Old Black Magic - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/That Old Black Magic - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{That Old Feeling - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/That Old Feeling - Ly - Eb Bass for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{That's All - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/That's All - Ly - Bb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{There Is No Greater Love - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/There Is No Greater Love - Ly - Bb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{There Will Never Be Another You - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/There Will Never Be Another You - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{These Foolish Things - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/These Foolish Things - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{They Can't Take That Away From Me - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/They Can't Take That Away From Me - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Things Ain't What They Used to Be - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Things Ain't What They Used to Be - Ly - Db Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{This Can't Be Love - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/This Can't Be Love - Ly - G Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{This Masquerade - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/This Masquerade - Ly - Fm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{This Time the Dream's on Me - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/This Time the Dream's on Me - Ly - G Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Thou Swell - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Thou Swell - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Three Little Words - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Three Little Words - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{The Thrill Is Gone - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Thrill Is Gone - Ly - Dm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Time After Time - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Time After Time - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Time on My Hands - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Time on My Hands - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Tin Roof Blues - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Tin Roof Blues - Ly - Bb Bass for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{'Tis Autumn - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Tis Autumn - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Too Close for Comfort - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Too Close for Comfort - Ly - C Bass for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Too Darn Hot - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Too Darn Hot - Ly - Cm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Too Marvelous for Words - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Too Marvelous for Words - Ly - G Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Topsy - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Topsy - Ly - Dm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{The Touch of Your Lips - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Touch of Your Lips - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Triste - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Triste - Ly - Bb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Troublant Bolero - E Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Troublant Bolero - Ly - E Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{True Love - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/True Love - Ly - G Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Tune Up - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Tune Up - Ly - D Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Undecided - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Undecided - Ly - Bb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Under Paris Skies - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Under Paris Skies - Ly - Fm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Up Jumped Spring - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Up Jumped Spring - Ly - Bb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{The Very Thought of You - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Very Thought of You - Ly - Ab Bass for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Vivo Sonhando - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Vivo Sonhando - Ly - G Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Wait Till You See Her (Him) - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Wait Till You See Her (Him) - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Walkin' My Baby Back Home - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Walkin' My Baby Back Home - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Waltz for Debby - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Waltz for Debby - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Watch What Happens - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Watch What Happens - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Watermelon Man - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Watermelon Man - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Wave - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Wave - Ly - D Bass for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{The Way You Look Tonight - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Way You Look Tonight - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{What's New - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/What's New - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{We Kiss in a Shadow - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/We Kiss in a Shadow - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{We'll Be Together Again - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/We'll Be Together Again - Ly - C Bass for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Well You Needn't - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Well You Needn't - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Well You Needn't Lyrics - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Well You Needn't Lyrics - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{West Coast Blues - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/West Coast Blues - Ly - Bb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{What Is This Thing Called Love? - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/What Is This Thing Called Love - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{When I Fall in Love - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/When I Fall in Love - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{When I Take My Sugar to Tea - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/When I Take My Sugar to Tea - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{When It's Sleepy Time Down South - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/When It's Sleepy Time Down South - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{When Lights Are Low - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/When Lights Are Low - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{When Sunny Gets Blue - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/When Sunny Gets Blue - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{When Your Lover Has Gone - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/When Your Lover Has Gone - Ly - G Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{When You're Smiling - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/When You're Smiling - Ly - Bb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{When You Wish Upon a Star - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/When You Wish Upon a Star - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Where or When - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Where or When - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Whispering - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Whispering - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Whisper Not - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Whisper Not - Ly - Cm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Who Walks In When I Walk Out? - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Who Walks In When I Walk Out - Ly - Gm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Why Don't We Do This More Often - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Why Don't We Do This More Often - Ly - Bb Bass for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Why Try to Change Me Now - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Why Try to Change Me Now - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Willow Weep for Me - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Willow Weep for Me - Ly - G Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Witchcraft - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Witchcraft - Ly - F Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Without a Song - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Without a Song - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Woody 'n' You - Db Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Woody 'n' You - Ly - Db Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Work Song - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Work Song - Ly - Fm Bass for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{The World Is Waiting for the Sunrise 1919 - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The World Is Waiting for the Sunrise 1919 - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{The World Is Waiting for the Sunrise Firehouse - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The World Is Waiting for the Sunrise Firehouse - Ly - Bb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{The World Is Waiting for the Sunrise Les Paul - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The World Is Waiting for the Sunrise Les Paul - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Wrap Your Troubles in Dreams - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Wrap Your Troubles in Dreams - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Yardbird Suite - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Yardbird Suite - Ly - C Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Yes Sir, That's My Baby - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Yes Sir That's My Baby - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Yesterdays - Dm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Yesterdays - Ly - Dm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{You and the Night and the Music - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/You and the Night and the Music - Ly - Cm Bass for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{You'd Be So Nice to Come Home To - Am Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/You'd Be So Nice to Come Home To - Ly - Am Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{You Don't Know What Love Is - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/You Don't Know What Love Is - Ly - Fm Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{You Do Something to Me - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/You Do Something to Me - Ly - Eb Bass for Standard"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{You Go To My Head - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/You Go To My Head - Ly - Eb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{You Make Me Feel So Young - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/You Make Me Feel So Young - Ly - Bb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Young at Heart - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Young at Heart - Ly - Bb Bass for Standard"}
-
-\phantomsection
-\addcontentsline{toc}{section}{You Stepped Out of a Dream - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/You Stepped Out of a Dream - Ly - C Bass for Standard"}
+\song{You Turned the Tables on Me - F Bass}{"../Standard/Bass/You Turned the Tables on Me - Ly - F Bass for Standard"}
 
 \end{document}

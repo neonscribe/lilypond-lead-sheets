@@ -329,9 +329,7 @@ whatClef = "{clef}"
 
 %{{
 
-\\phantomsection
-\\addcontentsline{{toc}}{{section}}{{{nice_title} - {toc_desc}}}
-\\includepdf[pages=-, pagecommand={{\\thispagestyle{{plain}}}}]{{"../Standard/{subdir}{wrapper_file_base}"}}
+\\song{{{nice_title} - {toc_desc}}}{{"../Standard/{subdir}{wrapper_file_base}"}}
 
 %}}
 """

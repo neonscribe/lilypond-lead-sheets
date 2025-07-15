@@ -14,7 +14,7 @@
 
 refrainChords = \chordmode {
   g1:m7 c1:7 g1:m7 c1:7
-  f1:maj7 bf2:7 b2:dim7 f2:maj7 g2:m7 a2:m8 d2:7
+  f1:maj7 bf2:7 b2:dim7 f2:maj7 g2:m7 a2:m7 d2:7
 
   g1:m7 c1:7 g1:m7 c1:7
   f1:maj7 bf2:7 b2:dim7 f2:maj7 g2:m7 f1:6

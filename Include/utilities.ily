@@ -125,6 +125,7 @@ sectNoBarNoBreak =
      (cond
       ((> a 2) (set! a (- a 4)) (set! n (+ n 1)))
       ((< a -2) (set! a (+ a 4)) (set! n (- n 1))))
+    (if (not (and (defined? 'keepWeirdAccidentals) keepWeirdAccidentals))
      (cond
       ;; Avoid b sharp and e sharp
       ((and (> a 1) (or (eq? n 6) (eq? n 2)))
@@ -133,7 +134,7 @@ sectNoBarNoBreak =
       ;; Avoid c flat and f flat
       ((and (< a -1) (or (eq? n 0) (eq? n 3)))
        (set! a (+ a 2))
-       (set! n (- n 1))))
+       (set! n (- n 1)))))
      (if (< n 0) (begin (set! o (- o 1)) (set! n (+ n 7))))
      (if (> n 6) (begin (set! o (+ o 1)) (set! n (- n 7))))
      (ly:make-pitch o n (/ a 4))))

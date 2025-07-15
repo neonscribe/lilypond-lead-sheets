@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Swing"
+  \tempo "Medium Slow [George Olsen 1932]" 4 = 106
 
   \xTextMark \markup{ \bold \box "A1" }
   

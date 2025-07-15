@@ -66,9 +66,6 @@ refrainMelody = \relative f {
   }
 }
 
-codaLyrics = \lyricmode {
-}
-
 codaChords = \chordmode {
   f1:7 bf1:m11
 }

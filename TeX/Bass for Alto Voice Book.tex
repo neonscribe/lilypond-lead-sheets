@@ -1,21 +1,4 @@
-\documentclass{book}
-\usepackage{fontspec}
-\setmainfont{symbola}
-\usepackage[margin=0.5in]{geometry}
-\usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr,bookmark,pdfpages,tocloft,nextpage}
-\hypersetup{pdfpagelayout=TwoPageRight}
-\fancypagestyle{plain}{
-\fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
-\fancyhead[LE,RO]{\thepage}}
-
-\let\origevenpage\cleartoevenpage
-\newcommand{\clearemptytoevenpage}{%
-  \clearpage
-  {\pagestyle{empty}\origevenpage}%
-}
+\include{../Include/songbook.tex}
 
 \begin{document}
 
@@ -24,489 +7,206 @@
 \setlength{\cftbeforesecskip}{0cm}
 \renewcommand{\cftsecfont}{\small}
 \addcontentsline{toc}{section}{Table of Contents}
+\pdfbookmark{Table of Contents}{Table of Contents}
 \tableofcontents
-\clearemptytoevenpage
+\cleardoublepage
 
-\phantomsection
-\addcontentsline{toc}{section}{A Felicidade - Gm Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/A Felicidade - Ly - Gm Bass for Alto Voice"}
+\song{A Felicidade - Gm Bass for Alto Voice}{"../Alto Voice/Bass/A Felicidade - Ly - Gm Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{All the Things You Are - Eb Bass for Alto Voice}{"../Alto Voice/Bass/All the Things You Are - Ly - Eb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{All the Things You Are - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/All the Things You Are - Ly - Eb Bass for Alto Voice"}
+\dsong{Almost Like Being in Love - Eb Bass for Alto Voice}{"../Alto Voice/Bass/Almost Like Being in Love - Ly - Eb Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{Alright, Okay, You Win - C Bass for Alto Voice}{"../Alto Voice/Bass/Alright Okay You Win - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Almost Like Being in Love - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Almost Like Being in Love - Ly - Eb Bass for Alto Voice"}
+\song{Autumn Leaves - Dm Bass for Alto Voice}{"../Alto Voice/Bass/Autumn Leaves - Ly - Dm Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{Black Orpheus - Dm Bass for Alto Voice}{"../Alto Voice/Bass/Black Orpheus - Ly - Dm Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Alright, Okay, You Win - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Alright Okay You Win - Ly - C Bass for Alto Voice"}
+\song{Blue Bossa - Dm Bass for Alto Voice}{"../Alto Voice/Bass/Blue Bossa - Ly - Dm Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Autumn Leaves - Dm Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Autumn Leaves - Ly - Dm Bass for Alto Voice"}
+\song{Blue Monk - G Bass for Alto Voice}{"../Alto Voice/Bass/Blue Monk - Ly - G Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{Body and Soul - Ab Bass for Alto Voice}{"../Alto Voice/Bass/Body and Soul - Ly - Ab Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Black Orpheus - Dm Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Black Orpheus - Ly - Dm Bass for Alto Voice"}
+\dsong{Born to Be Blue - G Bass for Alto Voice}{"../Alto Voice/Bass/Born to Be Blue - Ly - G Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue Bossa - Dm Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Blue Bossa - Ly - Dm Bass for Alto Voice"}
+\song{But Beautiful - C Bass for Alto Voice}{"../Alto Voice/Bass/But Beautiful - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue Monk - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Blue Monk - Ly - G Bass for Alto Voice"}
+\song{Castaways - D Bass for Alto Voice}{"../Alto Voice/Bass/Castaways - Ly - D Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Body and Soul - Ab Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Body and Soul - Ly - Ab Bass for Alto Voice"}
+\song{Centerpiece - Eb Bass for Alto Voice}{"../Alto Voice/Bass/Centerpiece - Ly - Eb Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{Chega de Saudade (No More Blues) - C Bass for Alto Voice}{"../Alto Voice/Bass/Chega de Saudade - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Born to Be Blue - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Born to Be Blue - Ly - G Bass for Alto Voice"}
+\song{Cry Me a River - G Bass for Alto Voice}{"../Alto Voice/Bass/Cry Me a River - Ly - G Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{But Beautiful - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/But Beautiful - Ly - C Bass for Alto Voice"}
+\dsong{Darn That Dream - C Bass for Alto Voice}{"../Alto Voice/Bass/Darn That Dream - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Castaways - D Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Castaways - Ly - D Bass for Alto Voice"}
+\dsong{Destination Moon - Eb Bass for Alto Voice}{"../Alto Voice/Bass/Destination Moon - Ly - Eb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Centerpiece - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Centerpiece - Ly - Eb Bass for Alto Voice"}
+\dsong{Do Nothin' Till You Hear From Me - C Bass for Alto Voice}{"../Alto Voice/Bass/Do Nothin' Till You Hear From Me - Ly - C Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{Don't Get Around Much Anymore - G Bass for Alto Voice}{"../Alto Voice/Bass/Don't Get Around Much Anymore - Ly - G Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Chega de Saudade (No More Blues) - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Chega de Saudade - Ly - C Bass for Alto Voice"}
+\dsong{East of the Sun - Db Bass for Alto Voice}{"../Alto Voice/Bass/East of the Sun - Ly - Db Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Cry Me a River - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Cry Me a River - Ly - G Bass for Alto Voice"}
+\dsong{Easy Street - Ab Bass for Alto Voice}{"../Alto Voice/Bass/Easy Street - Ly - Ab Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{Everything Happens to Me - Eb Bass for Alto Voice}{"../Alto Voice/Bass/Everything Happens to Me - Ly - Eb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Darn That Dream - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Darn That Dream - Ly - C Bass for Alto Voice"}
+\dsong{The Folks Who Live on the Hill - F Bass for Alto Voice}{"../Alto Voice/Bass/The Folks Who Live on the Hill - Ly - F Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{The Gentle Rain - Gm Bass for Alto Voice}{"../Alto Voice/Bass/The Gentle Rain - Ly - Gm Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Destination Moon - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Destination Moon - Ly - Eb Bass for Alto Voice"}
+\dsong{Give Me the Simple Life - Ab Bass for Alto Voice}{"../Alto Voice/Bass/Give Me the Simple Life - Ly - Ab Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{Here Comes the Bride - Eb Bass for Alto Voice}{"../Alto Voice/Bass/Here Comes the Bride - Ly - Eb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Do Nothin' Till You Hear From Me - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Do Nothin' Till You Hear From Me - Ly - C Bass for Alto Voice"}
+\song{How Deep Is the Ocean - Bb Bass for Alto Voice}{"../Alto Voice/Bass/How Deep Is the Ocean - Ly - Bb Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{How High the Moon - Eb Bass for Alto Voice}{"../Alto Voice/Bass/How High the Moon - Ly - Eb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Don't Get Around Much Anymore - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Don't Get Around Much Anymore - Ly - G Bass for Alto Voice"}
+\song{How Insensitive - Am Bass for Alto Voice}{"../Alto Voice/Bass/How Insensitive - Ly - Am Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{How Long Has This Been Going On - Bb Bass for Alto Voice}{"../Alto Voice/Bass/How Long Has This Been Going On - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{East of the Sun - Db Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/East of the Sun - Ly - Db Bass for Alto Voice"}
+\song{I Concentrate on You - Bb Bass for Alto Voice}{"../Alto Voice/Bass/I Concentrate on You - Ly - Bb Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{I Could Write a Book - F Bass for Alto Voice}{"../Alto Voice/Bass/I Could Write a Book - Ly - F Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Easy Street - Ab Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Easy Street - Ly - Ab Bass for Alto Voice"}
+\song{A Beautiful Friendship - Ab Bass for Alto Voice}{"../Alto Voice/Bass/A Beautiful Friendship - Ly - Ab Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{I Cried for You - Bb Bass for Alto Voice}{"../Alto Voice/Bass/I Cried for You - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Everything Happens to Me - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Everything Happens to Me - Ly - Eb Bass for Alto Voice"}
+\dsong{I Didn't Know What Time It Was - C Bass for Alto Voice}{"../Alto Voice/Bass/I Didn't Know What Time It Was - Ly - C Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{I Fall In Love Too Easily - Bb Bass for Alto Voice}{"../Alto Voice/Bass/I Fall In Love Too Easily - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Folks Who Live on the Hill - F Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/The Folks Who Live on the Hill - Ly - F Bass for Alto Voice"}
+\song{If I Had You - Eb Bass for Alto Voice}{"../Alto Voice/Bass/If I Had You - Ly - Eb Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{I Let a Song Go Out of My Heart - Ab Bass for Alto Voice}{"../Alto Voice/Bass/I Let a Song Go Out of My Heart - Ly - Ab Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Gentle Rain - Gm Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/The Gentle Rain - Ly - Gm Bass for Alto Voice"}
+\dsong{I'll Remember April - Bb Bass for Alto Voice}{"../Alto Voice/Bass/I'll Remember April - Ly - Bb Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{I'm Beginning to See the Light - Eb Bass for Alto Voice}{"../Alto Voice/Bass/I'm Beginning to See the Light - Ly - Eb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Give Me the Simple Life - Ab Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Give Me the Simple Life - Ly - Ab Bass for Alto Voice"}
+\song{I'm Old Fashioned - C Bass for Alto Voice}{"../Alto Voice/Bass/I'm Old Fashioned - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Here Comes the Bride - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Here Comes the Bride - Ly - Eb Bass for Alto Voice"}
+\song{In Love In Vain - C Bass for Alto Voice}{"../Alto Voice/Bass/In Love In Vain - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{How Deep Is the Ocean - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/How Deep Is the Ocean - Ly - Bb Bass for Alto Voice"}
+\dsong{Innocent When You Dream - C Bass for Alto Voice}{"../Alto Voice/Bass/Innocent When You Dream - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{How High the Moon - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/How High the Moon - Ly - Eb Bass for Alto Voice"}
+\dsong{I Remember You - Eb Bass for Alto Voice}{"../Alto Voice/Bass/I Remember You - Ly - Eb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{How Insensitive - Am Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/How Insensitive - Ly - Am Bass for Alto Voice"}
+\dsong{Is You Is or Is You Ain't (Ma' Baby) - Am Bass for Alto Voice}{"../Alto Voice/Bass/Is You Is or Is You Ain't (Ma' Baby) - Ly - Am Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{How Long Has This Been Going On - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/How Long Has This Been Going On - Ly - Bb Bass for Alto Voice"}
+\song{It Could Happen to You - C Bass for Alto Voice}{"../Alto Voice/Bass/It Could Happen to You - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Concentrate on You - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I Concentrate on You - Ly - Bb Bass for Alto Voice"}
+\dsong{It Might as Well Be Spring - Eb Bass for Alto Voice}{"../Alto Voice/Bass/It Might as Well Be Spring - Ly - Eb Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{I Thought About You - Bb Bass for Alto Voice}{"../Alto Voice/Bass/I Thought About You - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Could Write a Book - F Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I Could Write a Book - Ly - F Bass for Alto Voice"}
+\dsong{It's All Right With Me - Bb Bass for Alto Voice}{"../Alto Voice/Bass/It's All Right With Me - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{A Beautiful Friendship - Ab Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/A Beautiful Friendship - Ly - Ab Bass for Alto Voice"}
+\song{It's Only a Paper Moon - C Bass for Alto Voice}{"../Alto Voice/Bass/It's Only a Paper Moon - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Cried for You - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I Cried for You - Ly - Bb Bass for Alto Voice"}
+\song{I've Got the World on a String - Bb Bass for Alto Voice}{"../Alto Voice/Bass/I've Got the World on a String - Ly - Bb Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{Just My Kind - Bb Bass for Alto Voice}{"../Alto Voice/Bass/Just My Kind - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Didn't Know What Time It Was - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I Didn't Know What Time It Was - Ly - C Bass for Alto Voice"}
+\song{Just You, Just Me - G Bass for Alto Voice}{"../Alto Voice/Bass/Just You Just Me - Ly - G Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Fall In Love Too Easily - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I Fall In Love Too Easily - Ly - Bb Bass for Alto Voice"}
+\song{Let's Get Lost - C Bass for Alto Voice}{"../Alto Voice/Bass/Let's Get Lost - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{If I Had You - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/If I Had You - Ly - Eb Bass for Alto Voice"}
+\song{Like Someone in Love - F Bass for Alto Voice}{"../Alto Voice/Bass/Like Someone in Love - Ly - F Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Let a Song Go Out of My Heart - Ab Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I Let a Song Go Out of My Heart - Ly - Ab Bass for Alto Voice"}
+\song{Long Ago (and Far Away) - C Bass for Alto Voice}{"../Alto Voice/Bass/Long Ago and Far Away - Ly - C Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{Love Is Here to Stay - C Bass for Alto Voice}{"../Alto Voice/Bass/Love Is Here to Stay - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'll Remember April - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I'll Remember April - Ly - Bb Bass for Alto Voice"}
+\dsong{Lover Come Back to Me - C Bass for Alto Voice}{"../Alto Voice/Bass/Lover Come Back to Me - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm Beginning to See the Light - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I'm Beginning to See the Light - Ly - Eb Bass for Alto Voice"}
+\dsong{Lullaby of Birdland - Eb Bass for Alto Voice}{"../Alto Voice/Bass/Lullaby of Birdland - Ly - Eb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm Old Fashioned - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I'm Old Fashioned - Ly - C Bass for Alto Voice"}
+\dsong{Make You Feel My Love - Bb Bass for Alto Voice}{"../Alto Voice/Bass/Make You Feel My Love - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{In Love In Vain - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/In Love In Vain - Ly - C Bass for Alto Voice"}
+\dsong{Midnight Sun - Ab Bass for Alto Voice}{"../Alto Voice/Bass/Midnight Sun - Ly - Ab Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{Mood Indigo - Eb Bass for Alto Voice}{"../Alto Voice/Bass/Mood Indigo - Ly - Eb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Innocent When You Dream - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Innocent When You Dream - Ly - C Bass for Alto Voice"}
+\song{My Foolish Heart - F Bass for Alto Voice}{"../Alto Voice/Bass/My Foolish Heart - Ly - F Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{My Funny Valentine - Bb Bass for Alto Voice}{"../Alto Voice/Bass/My Funny Valentine - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Remember You - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I Remember You - Ly - Eb Bass for Alto Voice"}
+\song{My Romance - G Bass for Alto Voice}{"../Alto Voice/Bass/My Romance - Ly - G Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{The Nearness of You - C Bass for Alto Voice}{"../Alto Voice/Bass/The Nearness of You - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Is You Is or Is You Ain't (Ma' Baby) - Am Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Is You Is or Is You Ain't (Ma' Baby) - Ly - Am Bass for Alto Voice"}
+\song{No Moon at All - Am Bass for Alto Voice}{"../Alto Voice/Bass/No Moon at All - Ly - Am Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It Could Happen to You - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/It Could Happen to You - Ly - C Bass for Alto Voice"}
+\dsong{Old Devil Moon - C Bass for Alto Voice}{"../Alto Voice/Bass/Old Devil Moon - Ly - C Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{On Green Dolphin Street - Ab Bass for Alto Voice}{"../Alto Voice/Bass/On Green Dolphin Street - Ly - Ab Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It Might as Well Be Spring - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/It Might as Well Be Spring - Ly - Eb Bass for Alto Voice"}
+\song{Only Trust Your Heart - F Bass for Alto Voice}{"../Alto Voice/Bass/Only Trust Your Heart - Ly - F Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{Out of Nowhere - C Bass for Alto Voice}{"../Alto Voice/Bass/Out of Nowhere - Ly - C Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I Thought About You - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I Thought About You - Ly - Bb Bass for Alto Voice"}
+\song{Prelude to a Kiss - F Bass for Alto Voice}{"../Alto Voice/Bass/Prelude to a Kiss - Ly - F Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dmsong{'Round Midnight - C minor - Bbm Bass for Alto Voice}{"../Alto Voice/Bass/Round Midnight - Ly - Bbm Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It's All Right With Me - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/It's All Right With Me - Ly - Bb Bass for Alto Voice"}
+\dxsong{'Round Midnight - C major - Bb Bass for Alto Voice}{"../Alto Voice/Bass/Round Midnight - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{It's Only a Paper Moon - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/It's Only a Paper Moon - Ly - C Bass for Alto Voice"}
+\song{Scotch and Soda - Bb Bass for Alto Voice}{"../Alto Voice/Bass/Scotch and Soda - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{I've Got the World on a String - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/I've Got the World on a String - Ly - Bb Bass for Alto Voice"}
+\dsong{Speak Low - C Bass for Alto Voice}{"../Alto Voice/Bass/Speak Low - Ly - C Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{Stars Fell on Alabama - G Bass for Alto Voice}{"../Alto Voice/Bass/Stars Fell on Alabama - Ly - G Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Just My Kind - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Just My Kind - Ly - Bb Bass for Alto Voice"}
+\song{Stella by Starlight - F Bass for Alto Voice}{"../Alto Voice/Bass/Stella by Starlight - Ly - F Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Just You, Just Me - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Just You Just Me - Ly - G Bass for Alto Voice"}
+\song{Summertime - Em Bass for Alto Voice}{"../Alto Voice/Bass/Summertime - Ly - Em Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Let's Get Lost - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Let's Get Lost - Ly - C Bass for Alto Voice"}
+\song{Tenderly - Bb Bass for Alto Voice}{"../Alto Voice/Bass/Tenderly - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Like Someone in Love - F Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Like Someone in Love - Ly - F Bass for Alto Voice"}
+\dsong{That's All - G Bass for Alto Voice}{"../Alto Voice/Bass/That's All - Ly - G Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Long Ago (and Far Away) - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Long Ago and Far Away - Ly - C Bass for Alto Voice"}
+\song{There Is No Greater Love - F Bass for Alto Voice}{"../Alto Voice/Bass/There Is No Greater Love - Ly - F Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Love Is Here to Stay - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Love Is Here to Stay - Ly - C Bass for Alto Voice"}
+\song{There Will Never Be Another You - Bb Bass for Alto Voice}{"../Alto Voice/Bass/There Will Never Be Another You - Ly - Bb Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{These Foolish Things - Bb Bass for Alto Voice}{"../Alto Voice/Bass/These Foolish Things - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lover Come Back to Me - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Lover Come Back to Me - Ly - C Bass for Alto Voice"}
+\song{This Can't Be Love - C Bass for Alto Voice}{"../Alto Voice/Bass/This Can't Be Love - Ly - C Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{This Masquerade - Gm Bass for Alto Voice}{"../Alto Voice/Bass/This Masquerade - Ly - Gm Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Lullaby of Birdland - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Lullaby of Birdland - Ly - Eb Bass for Alto Voice"}
+\song{Time After Time - G Bass for Alto Voice}{"../Alto Voice/Bass/Time After Time - Ly - G Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{'Tis Autumn - G Bass for Alto Voice}{"../Alto Voice/Bass/Tis Autumn - Ly - G Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Make You Feel My Love - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Make You Feel My Love - Ly - Bb Bass for Alto Voice"}
+\song{Triste - G Bass for Alto Voice}{"../Alto Voice/Bass/Triste - Ly - G Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\song{Up Jumped Spring - Eb Bass for Alto Voice}{"../Alto Voice/Bass/Up Jumped Spring - Ly - Eb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Midnight Sun - Ab Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Midnight Sun - Ly - Ab Bass for Alto Voice"}
+\song{Wait Till You See Him - Bb Bass for Alto Voice}{"../Alto Voice/Bass/Wait Till You See Her (Him) - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Mood Indigo - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Mood Indigo - Ly - Eb Bass for Alto Voice"}
+\song{Waltz for Debby - Bb Bass for Alto Voice}{"../Alto Voice/Bass/Waltz for Debby - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Foolish Heart - F Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/My Foolish Heart - Ly - F Bass for Alto Voice"}
+\dsong{Watch What Happens - Bb Bass for Alto Voice}{"../Alto Voice/Bass/Watch What Happens - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Funny Valentine - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/My Funny Valentine - Ly - Bb Bass for Alto Voice"}
+\dsong{The Way You Look Tonight - Bb Bass for Alto Voice}{"../Alto Voice/Bass/The Way You Look Tonight - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{My Romance - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/My Romance - Ly - G Bass for Alto Voice"}
+\song{What's New - G Bass for Alto Voice}{"../Alto Voice/Bass/What's New - Ly - G Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{The Nearness of You - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/The Nearness of You - Ly - C Bass for Alto Voice"}
+\dsong{Why Try to Change Me Now - Bb Bass for Alto Voice}{"../Alto Voice/Bass/Why Try to Change Me Now - Ly - Bb Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{No Moon at All - Am Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/No Moon at All - Ly - Am Bass for Alto Voice"}
+\dsong{You Don't Know Me - G Bass for Alto Voice}{"../Alto Voice/Bass/You Don't Know Me - Ly - G Bass for Alto Voice"}
 
-\clearemptytoevenpage
+\dsong{You'd Be So Nice to Come Home To - Em Bass for Alto Voice}{"../Alto Voice/Bass/You'd Be So Nice to Come Home To - Ly - Em Bass for Alto Voice"}
 
-\phantomsection
-\addcontentsline{toc}{section}{Old Devil Moon - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Old Devil Moon - Ly - C Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{On Green Dolphin Street - Ab Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/On Green Dolphin Street - Ly - Ab Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Only Trust Your Heart - F Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Only Trust Your Heart - Ly - F Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Out of Nowhere - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Out of Nowhere - Ly - C Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Prelude to a Kiss - F Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Prelude to a Kiss - Ly - F Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{'Round Midnight - C minor - Bbm Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Round Midnight - Ly - Bbm Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{'Round Midnight - C major - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Round Midnight - Ly - Bb Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Scotch and Soda - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Scotch and Soda - Ly - Bb Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Speak Low - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Speak Low - Ly - C Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Stars Fell on Alabama - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Stars Fell on Alabama - Ly - G Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Stella by Starlight - F Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Stella by Starlight - Ly - F Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Summertime - Em Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Summertime - Ly - Em Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Tenderly - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Tenderly - Ly - Bb Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{That's All - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/That's All - Ly - G Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{There Is No Greater Love - F Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/There Is No Greater Love - Ly - F Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{There Will Never Be Another You - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/There Will Never Be Another You - Ly - Bb Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{These Foolish Things - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/These Foolish Things - Ly - Bb Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{This Can't Be Love - C Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/This Can't Be Love - Ly - C Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{This Masquerade - Gm Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/This Masquerade - Ly - Gm Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Time After Time - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Time After Time - Ly - G Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{'Tis Autumn - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Tis Autumn - Ly - G Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Triste - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Triste - Ly - G Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Up Jumped Spring - Eb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Up Jumped Spring - Ly - Eb Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Wait Till You See Him - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Wait Till You See Her (Him) - Ly - Bb Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{Waltz for Debby - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Waltz for Debby - Ly - Bb Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Watch What Happens - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Watch What Happens - Ly - Bb Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{The Way You Look Tonight - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/The Way You Look Tonight - Ly - Bb Bass for Alto Voice"}
-
-\phantomsection
-\addcontentsline{toc}{section}{What's New - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/What's New - Ly - G Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{Why Try to Change Me Now - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/Why Try to Change Me Now - Ly - Bb Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{You Don't Know Me - G Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/You Don't Know Me - Ly - G Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{You'd Be So Nice to Come Home To - Em Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/You'd Be So Nice to Come Home To - Ly - Em Bass for Alto Voice"}
-
-\clearemptytoevenpage
-
-\phantomsection
-\addcontentsline{toc}{section}{You Go To My Head - Bb Bass for Alto Voice}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bass/You Go To My Head - Ly - Bb Bass for Alto Voice"}
+\dsong{You Go To My Head - Bb Bass for Alto Voice}{"../Alto Voice/Bass/You Go To My Head - Ly - Bb Bass for Alto Voice"}
 
 \end{document}
