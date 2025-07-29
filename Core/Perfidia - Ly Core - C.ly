@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Latin" 4 = 120
+  \tempo "Medium Latin [Xavier Cugat 1939]" 4 = 145
 
   \partial 4 g4 |
   \bar "||"

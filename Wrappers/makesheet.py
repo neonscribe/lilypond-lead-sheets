@@ -1,6 +1,7 @@
 import re, sys, os
 
 from titlecase import titlecase
+from collections import deque
 
 # makesheet.py - Create a new empty core file and standard, Bass, Eb, and Bb wrappers
 
@@ -82,6 +83,8 @@ sharp_major_keys = 'degab'
 sharp_minor_keys = 'eb'
 
 banned_filename_characters = '/\\<>:"|?*.#'
+
+pending_wrapper_files = deque()
 
 def yes_or_no_prompt(question):
     yn = '?'
@@ -294,8 +297,8 @@ refrainMelody = \\relative f' {{
 \\include "../Include/refrain.ily"
 """
 
-with open(in_core_file_name, 'w', encoding="utf-8") as core_file:
-    core_file.write(core_file_contents)
+def save_wrapper_file(dict):
+    pending_wrapper_files.append(dict)
 
 def write_wrapper_file(dict):
     file_title = dict['file_title']
@@ -337,7 +340,7 @@ whatClef = "{clef}"
     with open(in_file_name, 'w', encoding="utf-8") as wrapper_file:
         wrapper_file.write(wrapper_file_contents)
 
-write_wrapper_file({ 'file_title' : file_song_title ,
+save_wrapper_file({ 'file_title' : file_song_title ,
                      'nice_title' : song_title ,
                      'key_and_desc' : f"{file_key_name} Standard" ,
                      'toc_desc' : key_name_for_nice(key, is_minor) ,
@@ -401,7 +404,7 @@ while bass_low_note < low_e_offset:
 # number of commas (or apostrophes)
 octave_mark = octave_marker(octave_offset)
 
-write_wrapper_file({ 'file_title' : file_song_title ,
+save_wrapper_file({ 'file_title' : file_song_title ,
                      'nice_title' : song_title ,
                      'key_and_desc' : f"{file_key_name} Bass for Standard" ,
                      'toc_desc' : f"{key_name_for_nice(key, is_minor)} Bass" ,
@@ -431,7 +434,7 @@ transposition_offset = eb_low_note - low_note_offset
 eb_octave_key = key_offset + transposition_offset
 eb_octave_offset = eb_octave_key // 12 - key_offset // 12
 
-write_wrapper_file({ 'file_title' : file_song_title ,
+save_wrapper_file({ 'file_title' : file_song_title ,
                      'nice_title' : song_title ,
                      'key_and_desc' : f"{file_key_name} to {eb_file_key} for Eb for Standard" ,
                      'toc_desc' : f"{key_name_for_nice(key, is_minor)} to {key_name_for_nice(eb_key, is_minor)}" ,
@@ -478,7 +481,7 @@ bb_low_low_note = bb_low_note - 12
 
 
 if bb_high_note <= high_a_offset or bb_low_low_note < low_e_offset:
-    write_wrapper_file({ 'file_title' : file_song_title ,
+    save_wrapper_file({ 'file_title' : file_song_title ,
                          'nice_title' : song_title ,
                          'key_and_desc' : f"{file_key_name} to {bb_file_key} for Bb for Standard" ,
                          'toc_desc' : f"{key_name_for_nice(key, is_minor)} to {key_name_for_nice(bb_key, is_minor)}" ,
@@ -487,7 +490,7 @@ if bb_high_note <= high_a_offset or bb_low_low_note < low_e_offset:
                          'clef' : 'treble' ,
                          'subdir' : 'Bb/' })
 else:
-    write_wrapper_file({ 'file_title' : file_song_title ,
+    save_wrapper_file({ 'file_title' : file_song_title ,
                          'nice_title' : song_title ,
                          'key_and_desc' : f"{file_key_name} to {bb_file_key} for Bb High for Standard" ,
                          'toc_desc' : f"{key_name_for_nice(key, is_minor)} to {key_name_for_nice(bb_key, is_minor)}" ,
@@ -495,7 +498,7 @@ else:
                          'key' : bb_key + octave_marker(bb_octave_offset),
                          'clef' : 'treble' ,
                          'subdir' : 'Bb/' })
-    write_wrapper_file({ 'file_title' : file_song_title ,
+    save_wrapper_file({ 'file_title' : file_song_title ,
                          'nice_title' : song_title ,
                          'key_and_desc' : f"{file_key_name} to {bb_file_key} for Bb Low for Standard" ,
                          'toc_desc' : f"{key_name_for_nice(key, is_minor)} to {key_name_for_nice(bb_key, is_minor)}" ,
@@ -503,3 +506,9 @@ else:
                          'key' : bb_key + octave_marker(bb_octave_offset - 1),
                          'clef' : 'treble' ,
                          'subdir' : 'Bb/' })
+
+with open(in_core_file_name, 'w', encoding="utf-8") as core_file:
+    core_file.write(core_file_contents)
+
+for dict in pending_wrapper_files:
+    write_wrapper_file(dict)

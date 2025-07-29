@@ -114,6 +114,16 @@ jazzChordsMusic =
 	<c ees gis bes>-\markup{ \jcMinorSeventh \jcSharpFive }
 	<c ees ges beses>-\markup{ \jcDiminishedSeventh }
 
+	<c ees ges bes f'>-\markup{ 
+	    \jcMinorSeventh
+	    {\larger\larger\normal-weight "(" } 
+	      \tiny { \column{ 
+	        \raise #1.2 \line{ "11" } % the lower tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "5" }  % the upper tension in the bracket
+	      } } 
+	     \larger\larger\normal-weight ")" } 
+	
+
 	% suspended
 	<c f g a>-\markup{ \jcSixth \jcSus }
 	<c f g bes>-\markup{ \jcSeventh \jcSus }
@@ -256,7 +266,7 @@ jazzChordsMusic =
 	
 	% minor	
 	<c ees g f'>-\markup{ \jcMinor \jcRaise{ "(ADD 11)" } }
-	<c ees g bes f'>-\markup{ \jcMinorSeventh \jcRaise{ "(ADD 11)" } }
+	<c ees g bes f'>-\markup{ \jcMinorSeventh \jcRaise{ "(11)" } }
 
 	<c ees g bes d' f'>-\markup{ \jcMinor \jcEleventh }
 	<c ees ges bes d' f'>-\markup{ \jcMinor \jcEleventh \jcFlatFive }

@@ -42,7 +42,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 104
+  \tempo "Medium [Freddy Martin 1941]" 4 = 126
 
   \xTextMark \markup{ \bold \box "A" }
   

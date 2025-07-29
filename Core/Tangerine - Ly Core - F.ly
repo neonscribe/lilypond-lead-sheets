@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 155
+  \tempo "Medium [Jimmy Dorsey 1942]" 4 = 152
 
   \partial 2 d'4 bf4 |
   \bar "||"

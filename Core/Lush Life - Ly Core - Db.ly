@@ -121,7 +121,7 @@ refrainNicoChords = \chordmode {
   s4
   
   df2:6 cf2:7 df2:maj7 cf2:7 df2:maj7 cf2:7 df4:maj7 ef4:m7 ff4:maj7 gf4:m7
-  af2:m7 d2:7 df2:6 d2:7 df2:maj7 d2:9.11+
+  af2:m7 d2:7 df2:6 d2:9.11+ df2:maj7 d2:9.11+
 
   df2:6 cf2:7 df2:maj7 cf2:7 df2:maj7 cf2:7 df4:maj7 ef4:m7 ff4:maj7 gf4:m7
   af2:m7 d2:7 df2:6 d2:9.11+ df4:maj7 \chordSlash 1 g4:m7.5- c4:7

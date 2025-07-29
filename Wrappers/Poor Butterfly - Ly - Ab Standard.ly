@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Standard Key"
+instrument = "Sarah Vaughan Key"
 whatKey = af
 whatClef = "treble"
 

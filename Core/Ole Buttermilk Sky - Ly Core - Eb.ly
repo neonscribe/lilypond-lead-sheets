@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Hollywood Cowboy Swing" 4 = 168
+  \tempo "Hollywood Cowboy Swing [Hoagy Carmichael 1946]" 4 = 172
 
   \partial 2. bf,4 c8 ef8 f4 |
   \bar "||"

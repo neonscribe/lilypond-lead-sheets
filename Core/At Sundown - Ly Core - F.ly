@@ -15,11 +15,11 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 }
 
 refrainLyrics = \lyricmode {
-  Ev -- ry lit -- tle breeze is sigh -- ing of love un -- dy -- ing at sun -- down.
+  Ev' -- ry lit -- tle breeze is sigh -- ing of love un -- dy -- ing at sun -- down.
   Ev' -- ry lit --  tle bird is rest -- ing and feath -- er nest -- ing at sun -- down.
-  Each lit -- tle rose -- bud is sleep -- ing, while shad -- ows, are creep -- ing.
+  Each lit -- tle rose -- bud is sleep -- ing, while shad -- ows are creep -- ing.
   In a lit -- tle cot -- tage coz -- y the world seems ros -- y at sun -- down.
-  Where a lov -- ing smile will greet me and al -- ways meet me at sun -- down
+  Where a lov -- ing smile will greet me and al -- ways meet me at sun -- down.
   I seem to sigh, I'm in heav -- en, when night is fall -- ing and love is call -- ing me home.
 }
 

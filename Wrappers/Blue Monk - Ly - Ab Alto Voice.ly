@@ -2,8 +2,8 @@
 
 \include "english.ly"
 
-instrument = "Bb for Alto Voice Key"
-whatKey = a
-whatClef = "treble"
+instrument = "Abbey Lincoln Key"
+whatKey = af
+whatClef = "treble_8"
 
 \include "../Core/Blue Monk - Ly Core - Bb.ly"

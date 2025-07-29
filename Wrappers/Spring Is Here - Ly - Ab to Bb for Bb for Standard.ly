@@ -8,8 +8,8 @@ instrument = "Bb for Standard Key"
 whatKey = bf
 whatClef = "treble"
 Title = "Spring Is Here"
-TempoName = "Medium"
-TempoBPM = 140
+TempoName = "Ballad [Ahmad Jamal 1955]"
+TempoBPM = 70
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"
 

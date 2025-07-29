@@ -39,7 +39,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 2 = 120
+  \tempo "Medium [Les Paul and Mary Ford 1951]" 4 = 130
 
   \partial 2 cs2 |
   \bar "||"

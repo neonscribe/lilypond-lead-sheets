@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow Waltz" 4 = 100
+  \tempo "Slow Waltz [Bing Crosby 1956]" 4 = 75
 
   \partial 2 d4 d4 |
   \bar "||"

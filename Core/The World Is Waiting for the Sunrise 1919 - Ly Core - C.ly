@@ -5,7 +5,7 @@
 \include "../Include/lead-sheets.ily"
 
 \header {
-  title = "The World Is Waiting for the Sunrise (1919)"
+  title = "The World Is Waiting for the Sunrise"
   subtitle = \instrument
   poet = "Eugene Lockhart"
   composer = "Ernest Seitz"
@@ -34,7 +34,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 130
+  \tempo "Medium [Les Paul and Mary Ford 1951]" 4 = 130
   
   \partial 4 ds4 |
   \bar "||"

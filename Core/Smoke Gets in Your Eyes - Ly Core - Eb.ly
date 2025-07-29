@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up" 4 = 171
+  \tempo "Ballad [The Platters 1958]" 4 = 56
 
   \sectStart "A1"
 

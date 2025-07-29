@@ -8,7 +8,7 @@ instrument = "Bass for Standard Key"
 whatKey = af,
 whatClef = "bass"
 Title = "Spring Is Here (Bill Evans Chords)"
-TempoName = "Slow Ballad"
+TempoName = "Slow Ballad [Bill Evans 1960]"
 TempoBPM = 57
 
 useBillEvansChords = ##t

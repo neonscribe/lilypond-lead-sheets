@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow Blues" 4 = 84
+  \tempo "Ballad [Ray Price 1963]" 4 = 66
 
   \xTextMark \markup{ \bold \box "Intro" }
   

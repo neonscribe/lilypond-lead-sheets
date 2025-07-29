@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad" 4 = 80
+  \tempo "Ballad [Miles Davis 1954]" 4 = 66
 
   \partial 4 \invisEighth c8 |
   \bar "||"

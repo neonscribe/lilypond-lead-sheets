@@ -3,7 +3,7 @@
 \include "english.ly"
 
 instrument = "Bass for Alto Voice Key"
-whatKey = d,,
+whatKey = af,
 whatClef = "bass"
 
-\include "../Core/Blue Bossa - Ly Core - Cm.ly"
+\include "../Core/Blue Monk - Ly Core - Bb.ly"

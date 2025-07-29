@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 105
+  \tempo "Medium-Up [Thelonious Monk 1947]" 4 = 188
 
   \partial 4 \invisEighth gs,8 |
 

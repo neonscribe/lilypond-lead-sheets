@@ -32,6 +32,7 @@ when that's where you left your heart?
 And there's some -- thing more:
 I miss the one I care for more than I miss New Or -- leans.
 (Do you)
+more than I miss New Or -- leans.
 }
 
 refrainHLPAChords = \chordmode {
@@ -86,6 +87,8 @@ refrainNicoChords = \chordmode {
   \chordOpenParen{ af4:9 }
   g4:sus7
   \chordCloseParen{ g4:9 }
+  
+  d1:7 g1:7 c2 e2:7 f2:7 fs2:7 c4/g r2. c1
 }
 
 refrainRBTwoChords = \chordmode {
@@ -145,7 +148,7 @@ refrainMelody = \relative f' {
 
   e8 g8 a8 b8~ b4. c8 | b8 a8 g8 a8~ a4. c8 | b8 a8 g8 a8~ a4 c4 | e,2. r8 ef8 |
   \break
-  d8 cs8 d8 c'8~ c4. b8 | d8 df8 c8 b8 bf8 a4. | e'8 c8 a8 e'8~ e8 a,8 e'4 |
+  d8 cs8 d8 c'8~ c4. b8 | d8 df8 c8 b8 bf8 a4. \textToCodaLastTime | e'8 c8 a8 e'8~ e8 a,8 e'4 |
   
   c2 r4
   \override Parentheses.font-size = #5
@@ -153,6 +156,12 @@ refrainMelody = \relative f' {
   c8
   \endParenthesis \parenthesize d8 |  
   |
+  
+  \bar "||-|."
+  
+  \textCodaBreak
+  
+  e2~ e8 c8 a4 | e'2~ e8 a,8 e'4 | c2 \rsq \rsq | \rsq \rsq \rsq \rsq  | \rsq r4 r2 | \rsq\fermata r4 r2 |
   
   \bar "|."
 }

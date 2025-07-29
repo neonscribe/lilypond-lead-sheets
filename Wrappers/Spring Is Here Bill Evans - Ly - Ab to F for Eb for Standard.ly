@@ -8,7 +8,7 @@ instrument = "Eb for Standard Key"
 whatKey = f'
 whatClef = "treble"
 Title = "Spring Is Here (Bill Evans Chords)"
-TempoName = "Slow Ballad"
+TempoName = "Slow Ballad [Bill Evans 1960]"
 TempoBPM = 57
 
 useBillEvansChords = ##t

@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 98
+  \tempo "Ballad [Lena Horne 1941]" 4 = 80
 
   \partial 4 as8 b8 |
 

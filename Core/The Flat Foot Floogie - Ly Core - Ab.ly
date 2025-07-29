@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up Swing" 4 = 175
+  \tempo "Medium-Up Swing [Slim and Slam 1938]" 4 = 175
   
   \partial 4 \invisEighth ef8 |
   \bar "||"
