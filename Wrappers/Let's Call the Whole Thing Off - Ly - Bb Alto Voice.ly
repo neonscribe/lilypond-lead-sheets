@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Let's Call the Whole Thing Off - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Let's Call the Whole Thing Off - Ly - Bb Alto Voice"}
+\song{Let's Call the Whole Thing Off - Bb}{"../Alto Voice/Let's Call the Whole Thing Off - Ly - Bb Alto Voice"}
 
 %}

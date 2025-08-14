@@ -26,7 +26,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Up" 4 = 175
+  \tempo "Medium Up [Sonny Rollins 1956]" 4 = 175
 
   \partial 4 \invisEighth d'8 |
   \bar "||"

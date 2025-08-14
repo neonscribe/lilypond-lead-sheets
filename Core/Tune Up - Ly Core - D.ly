@@ -30,7 +30,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing" 4 = 280
+  \tempo "Fast Swing [Miles Davis 1953]" 4 = 280
 
   \xTextMark \markup{ \bold \box "Intro" }
   

@@ -27,7 +27,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Straight Eighths" 4 = 125
+  \tempo "Medium Straight Eighths, Latin [Mongo Santamaria 1962]" 4 = 120
 
   \xTextMark \markup{ \bold \box "Refrain" }
 

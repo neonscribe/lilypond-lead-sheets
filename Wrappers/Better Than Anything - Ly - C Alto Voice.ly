@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Better Than Anything - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Better Than Anything - Ly - C Alto Voice"}
+\song{Better Than Anything - C}{"../Alto Voice/Better Than Anything - Ly - C Alto Voice"}
 
 %}

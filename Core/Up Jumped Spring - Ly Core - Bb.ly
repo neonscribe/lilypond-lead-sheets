@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Med. Jazz Waltz"
+  \tempo "Jazz Waltz [Art Blakey 1962]" 4 = 192
 
   \partial 4 f8 bf8 |
   \bar ".|:"

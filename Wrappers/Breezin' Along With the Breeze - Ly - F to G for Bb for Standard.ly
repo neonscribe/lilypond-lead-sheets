@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Breezin' Along With the Breeze - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Breezin' Along With the Breeze - Ly - F to G for Bb for Standard"}
+\song{Breezin' Along With the Breeze - F to G}{"../Standard/Bb/Breezin' Along With the Breeze - Ly - F to G for Bb for Standard"}
 
 %}

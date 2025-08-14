@@ -39,13 +39,13 @@ refrainMelody = \relative f'' {
   \clef \whatClef
 
   \xTextMark \markup{ \bold \box "Intro" }
-  \tempo \markup { "Charleston" \rhythm { 4. 8~ 2 } } 4 = 172
+  \tempo \markup { "Charleston" \rhythm { 4. 8~ 2 } }
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \sect "A1"
-  \tempo "Easy Swing" 4 = 172
+  \tempo "Easy Swing [Django Reinhardt 1935]" 4 = 184
   
   cs8 e8 g8 b8 r8 b4 r8 | c,8 ef8 f8 b8~ b4. r8 | b,8 d8 fs8 a8 r8 a4 r8 | bf,8 df8 e8 a8~ a4 g4 |
   \break
@@ -70,7 +70,7 @@ refrainMelody = \relative f'' {
   \bar "||-|."
   \textCodaBreak
 
-  \tempo \markup { "Charleston" \rhythm { 4. 8~ 2 } } 4 = 172
+  \tempo \markup { "Charleston" \rhythm { 4. 8~ 2 } }
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \partial 4 \rsq\fermata |

@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Back in Your Own Backyard - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Back in Your Own Backyard - Ly - Bb Alto Voice"}
+\song{Back in Your Own Backyard - Bb}{"../Alto Voice/Back in Your Own Backyard - Ly - Bb Alto Voice"}
 
 %}

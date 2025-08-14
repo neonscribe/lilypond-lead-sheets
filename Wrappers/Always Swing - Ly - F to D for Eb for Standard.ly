@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Always (4/4) - F to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Always Swing - Ly - F to D for Eb for Standard"}
+\song{Always (4/4) - F to D}{"../Standard/Eb/Always Swing - Ly - F to D for Eb for Standard"}
 
 %}

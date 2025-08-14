@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{The World Is Waiting for the Sunrise Les Paul - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/The World Is Waiting for the Sunrise Les Paul - Ly - C Standard"}
+\song{The World Is Waiting for the Sunrise Les Paul - C}{"../Standard/The World Is Waiting for the Sunrise Les Paul - Ly - C Standard"}
 
 %}

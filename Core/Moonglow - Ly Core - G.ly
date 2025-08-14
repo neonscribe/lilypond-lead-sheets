@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 104
+  \tempo "Medium Ballad [Benny Goodman 1936]" 4 = 108
 
   \sectStart "A1, A2"
   

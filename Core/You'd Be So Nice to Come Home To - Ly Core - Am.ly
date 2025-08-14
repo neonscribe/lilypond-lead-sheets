@@ -32,7 +32,7 @@ verseMelody = \relative f' {
   \time 2/2
   \key \verseKey \minor
   \clef \whatClef
-  \tempo "Freely or Medium" 4 = 168
+  \tempo "Freely or Medium"
 
   \xTextMark \markup{ "Verse" }
   
@@ -84,7 +84,7 @@ refrainMelody = \relative f' {
   \key \refrainKey \minor
   \clef \whatClef
 
-  \tempo "Medium-Up Swing" 4 = 168
+  \tempo "Medium-Up [Art Pepper 1957]" 4 = 178
 
   \partial 2 a4 b4 |
   

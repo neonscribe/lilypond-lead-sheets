@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Con Alma - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Con Alma - Ly - C Standard"}
+\song{Con Alma - C}{"../Standard/Con Alma - Ly - C Standard"}
 
 %}

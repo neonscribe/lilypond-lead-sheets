@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Ev'ry Time We Say Goodbye - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Ev'ry Time We Say Goodbye - Ly - Eb Bass for Standard"}
+\song{Ev'ry Time We Say Goodbye - Eb Bass}{"../Standard/Bass/Ev'ry Time We Say Goodbye - Ly - Eb Bass for Standard"}
 
 %}

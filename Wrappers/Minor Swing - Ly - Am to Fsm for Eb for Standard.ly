@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Minor Swing - Am to F♯m}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Minor Swing - Ly - Am to Fsm for Eb for Standard"}
+\song{Minor Swing - Am to F♯m}{"../Standard/Eb/Minor Swing - Ly - Am to Fsm for Eb for Standard"}
 
 %}

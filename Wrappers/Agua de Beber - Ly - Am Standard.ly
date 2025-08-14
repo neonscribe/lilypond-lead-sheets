@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Água de Beber (Water to Drink) - Am}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Agua de Beber - Ly - Am Standard"}
+\song{Água de Beber (Water to Drink) - Am}{"../Standard/Agua de Beber - Ly - Am Standard"}
 
 %}

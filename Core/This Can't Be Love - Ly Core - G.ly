@@ -44,7 +44,7 @@ refrainMelody = \relative c'' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast" 4 = 180
+  \tempo "Medium or Up [Stan Getz, Gerry Mulligan 1957]" 4 = 260
 
   r4 g4 fs4 g4 | d4. g8 fs4 g4 | e2 g4 a4~ | a2. g4 |
   \break

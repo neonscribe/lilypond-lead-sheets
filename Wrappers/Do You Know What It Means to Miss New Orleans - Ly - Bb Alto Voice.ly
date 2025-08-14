@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Do You Know What It Means to Miss New Orleans - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Do You Know What It Means to Miss New Orleans - Ly - Bb Alto Voice"}
+\song{Do You Know What It Means to Miss New Orleans - Bb}{"../Alto Voice/Do You Know What It Means to Miss New Orleans - Ly - Bb Alto Voice"}
 
 %}

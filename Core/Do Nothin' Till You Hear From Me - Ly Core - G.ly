@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 115
+  \tempo "Medium Swing [Oscar Peterson 1960]" 4 = 92
 
   r8 c8 a8 as8 b8 d8 c8 a8 |
   

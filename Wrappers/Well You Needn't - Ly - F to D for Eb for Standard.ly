@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Well You Needn't - F to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Well You Needn't - Ly - F to D for Eb for Standard"}
+\song{Well You Needn't - F to D}{"../Standard/Eb/Well You Needn't - Ly - F to D for Eb for Standard"}
 
 %}

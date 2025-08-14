@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Who Walks In When I Walk Out? - Gm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Who Walks In When I Walk Out - Ly - Gm Bass for Standard"}
+\song{Who Walks In When I Walk Out? - Gm Bass}{"../Standard/Bass/Who Walks In When I Walk Out - Ly - Gm Bass for Standard"}
 
 %}

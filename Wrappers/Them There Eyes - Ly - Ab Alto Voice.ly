@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Them There Eyes - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Them There Eyes - Ly - Ab Alto Voice"}
+\song{Them There Eyes - Ab}{"../Alto Voice/Them There Eyes - Ly - Ab Alto Voice"}
 
 %}

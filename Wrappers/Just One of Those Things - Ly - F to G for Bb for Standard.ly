@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Just One of Those Things - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Just One of Those Things - Ly - F to G for Bb for Standard"}
+\song{Just One of Those Things - F to G}{"../Standard/Bb/Just One of Those Things - Ly - F to G for Bb for Standard"}
 
 %}

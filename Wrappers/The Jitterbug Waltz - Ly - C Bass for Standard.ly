@@ -14,8 +14,6 @@ djangoChords = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{The Jitterbug Waltz - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The Jitterbug Waltz - Ly - C Bass for Standard"}
+\song{The Jitterbug Waltz - C Bass}{"../Standard/Bass/The Jitterbug Waltz - Ly - C Bass for Standard"}
 
 %}

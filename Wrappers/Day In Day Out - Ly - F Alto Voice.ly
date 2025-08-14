@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Day In, Day Out - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Day In Day Out - Ly - F Alto Voice"}
+\song{Day In, Day Out - F}{"../Alto Voice/Day In Day Out - Ly - F Alto Voice"}
 
 %}

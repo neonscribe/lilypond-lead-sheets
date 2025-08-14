@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{If I Could Be With You - Eb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/If I Could Be With You - Ly - Eb to C for Eb for Standard"}
+\song{If I Could Be With You - Eb to C}{"../Standard/Eb/If I Could Be With You - Ly - Eb to C for Eb for Standard"}
 
 %}

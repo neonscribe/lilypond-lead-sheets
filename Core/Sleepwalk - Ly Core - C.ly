@@ -39,7 +39,7 @@ refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slowly" 4 = 68
+  \tempo "Slowly [Santo & Johnny 1959]" 4 = 68
 
   \xTextMark \markup{ \bold \box "Intro" }
   

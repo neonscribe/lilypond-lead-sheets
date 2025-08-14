@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Too Marvelous for Words - Db}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Too Marvelous for Words - Ly - Db Alto Voice"}
+\song{Too Marvelous for Words - Db}{"../Alto Voice/Too Marvelous for Words - Ly - Db Alto Voice"}
 
 %}

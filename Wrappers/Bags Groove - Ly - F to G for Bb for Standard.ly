@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Bags' Groove - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Bags Groove - Ly - F to G for Bb for Standard"}
+\song{Bags' Groove - F to G}{"../Standard/Bb/Bags Groove - Ly - F to G for Bb for Standard"}
 
 %}

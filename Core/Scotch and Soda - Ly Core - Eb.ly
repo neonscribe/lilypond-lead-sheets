@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key ef \major
   \clef \whatClef
-  \tempo "Medium Slow Blues" 4 = 100
+  \tempo "Medium Slow Blues [Kingston Trio 1958]" 4 = 98
 
   \xTextMark \markup{ \bold \box "A1, A2" }
   

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Tune Up - D to B}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Tune Up - Ly - D to B for Eb for Standard"}
+\song{Tune Up - D to B}{"../Standard/Eb/Tune Up - Ly - D to B for Eb for Standard"}
 
 %}

@@ -48,7 +48,7 @@ refrainMelody = \relative f'' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Tex-Mex Country Rock" 4 = 136
+  \tempo "Tex-Mex Country Rock [Doug Sahm 1973]" 4 = 124
 
   \xTextMark \markup{ \bold \box "Verse 1" }
   

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Love Me or Leave Me - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Love Me or Leave Me - Ly - Ab Standard"}
+\song{Love Me or Leave Me - Ab}{"../Standard/Love Me or Leave Me - Ly - Ab Standard"}
 
 %}

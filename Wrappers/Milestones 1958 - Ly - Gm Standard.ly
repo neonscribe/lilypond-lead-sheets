@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Milestones (1958) - Gm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Milestones 1958 - Ly - Gm Standard"}
+\song{Milestones (1958) - Gm}{"../Standard/Milestones 1958 - Ly - Gm Standard"}
 
 %}

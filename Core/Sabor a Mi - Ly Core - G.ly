@@ -36,7 +36,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow Rumba" 4 = 100
+  \tempo "Slow Rumba [Los Lobos 1978]" 4 = 88
   
   \partial 2. b8 c8 d8. c16 b8 a8 |
   \bar "||"

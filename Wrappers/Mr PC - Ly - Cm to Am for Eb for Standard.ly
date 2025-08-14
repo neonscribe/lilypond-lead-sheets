@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Mr. P.C. - Cm to Am}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Mr PC - Ly - Cm to Am for Eb for Standard"}
+\song{Mr. P.C. - Cm to Am}{"../Standard/Eb/Mr PC - Ly - Cm to Am for Eb for Standard"}
 
 %}

@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 140
+  \tempo "Medium Swing [Clifford Brown & Max Roach 1954]" 4 = 140
 
   r8 g,8 c8 d8 ef8 f8 g8 ef8 |
 

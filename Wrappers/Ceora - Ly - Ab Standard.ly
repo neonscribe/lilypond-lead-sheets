@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Ceora - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Ceora - Ly - Ab Standard"}
+\song{Ceora - Ab}{"../Standard/Ceora - Ly - Ab Standard"}
 
 %}

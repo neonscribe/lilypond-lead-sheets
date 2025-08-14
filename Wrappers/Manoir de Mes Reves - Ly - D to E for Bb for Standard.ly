@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Manoir de Mes Rêves (Django's Castle) - D to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Manoir de Mes Reves - Ly - D to E for Bb for Standard"}
+\song{Manoir de Mes Rêves (Django's Castle) - D to E}{"../Standard/Bb/Manoir de Mes Reves - Ly - D to E for Bb for Standard"}
 
 %}

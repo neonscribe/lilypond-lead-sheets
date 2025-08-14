@@ -37,7 +37,7 @@ verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 124
+  \tempo "Ballad [Nat King Cole 1956]" 4 = 75
 
   \xTextMark \markup{ "Verse" }
   
@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 124
+  \tempo "Ballad [Nat King Cole 1956]" 4 = 75
 
   \xTextMark \markup{ "Refrain" }
   \partial 2 \invisEighth b8 c8 cs8 |

@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Psychedelic Rock" 4 = 167
+  \tempo "Psychedelic Rock [Traffic 1967]" 4 = 167
 
   \xTextMark \markup{ \bold \box "Intro" }
   

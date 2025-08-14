@@ -75,7 +75,7 @@ refrainMelody = \relative f'' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Med. Jazz Waltz"
+  \tempo "Med. Jazz Waltz [Johnny Hartman 1980]" 4 = 160
 
   \sectStart "A1"
   

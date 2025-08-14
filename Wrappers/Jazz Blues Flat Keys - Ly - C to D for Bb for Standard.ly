@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Jazz Blues Flat Keys}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Jazz Blues Flat Keys - Ly - C to D for Bb for Standard"}
+\song{Jazz Blues Flat Keys}{"../Standard/Bb/Jazz Blues Flat Keys - Ly - C to D for Bb for Standard"}
 
 %}

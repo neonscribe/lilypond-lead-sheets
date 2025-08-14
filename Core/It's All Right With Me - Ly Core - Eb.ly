@@ -18,7 +18,7 @@ peggyLeeIntroMelody = \relative f'' {
   \time 2/2
   \key ef \major
   \clef \whatClef
-  \tempo "Fast Swing"
+  \tempo "Fast Swing [Peggy Lee 1957]" 4 = 276
 
   \xTextMark \markup{ "Intro" }
 
@@ -186,7 +186,6 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing" 4 = 200
   
   \partial 2 c4 d4 |
 

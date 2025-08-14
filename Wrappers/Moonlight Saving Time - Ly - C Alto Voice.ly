@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Moonlight Saving Time - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Moonlight Saving Time - Ly - C Alto Voice"}
+\song{Moonlight Saving Time - C}{"../Alto Voice/Moonlight Saving Time - Ly - C Alto Voice"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Devil May Care - Bbm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Devil May Care - Ly - Bbm Alto Voice"}
+\song{Devil May Care - Bbm}{"../Alto Voice/Devil May Care - Ly - Bbm Alto Voice"}
 
 %}

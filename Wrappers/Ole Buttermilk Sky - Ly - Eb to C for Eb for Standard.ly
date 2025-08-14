@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Ole Buttermilk Sky - Eb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Ole Buttermilk Sky - Ly - Eb to C for Eb for Standard"}
+\song{Ole Buttermilk Sky - Eb to C}{"../Standard/Eb/Ole Buttermilk Sky - Ly - Eb to C for Eb for Standard"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I Get a Kick Out of You - Eb to F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/I Get a Kick Out of You - Ly - Eb to F for Bb for Standard"}
+\song{I Get a Kick Out of You - Eb to F}{"../Standard/Bb/I Get a Kick Out of You - Ly - Eb to F for Bb for Standard"}
 
 %}

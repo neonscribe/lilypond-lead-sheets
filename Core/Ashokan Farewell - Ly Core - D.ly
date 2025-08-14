@@ -31,7 +31,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Freely" 4 = 88
+  \tempo "Medium-Slow Waltz [Fiddle Fever 1983]" 4 = 100
   
   \partial 4 a8 cs8 |
 

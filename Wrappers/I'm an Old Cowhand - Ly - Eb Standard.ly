@@ -14,8 +14,6 @@ useJazzChords = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm an Old Cowhand - Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/I'm an Old Cowhand - Ly - Eb Standard"}
+\song{I'm an Old Cowhand - Eb}{"../Standard/I'm an Old Cowhand - Ly - Eb Standard"}
 
 %}

@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 135
+  \tempo "Medium [Johnny Hartman 1966]" 4 = 114
 
   \partial 2 d8 ef8 c8 d8 |
 

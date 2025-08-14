@@ -32,7 +32,7 @@ verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
-  \tempo "Freely" 4 = 140
+  \tempo "Freely"
   
   \xTextMark \markup{ \bold "Verse" }
 
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing" 4 = 190
+  \tempo "Fast Swing [Blossom Dearie 1960]" 4 = 190
 
   \xTextMark \markup{ \bold "Refrain" \bold \box "A1" }
   

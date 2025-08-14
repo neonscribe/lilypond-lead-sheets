@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 100
+  \tempo "Ballad [Beverly Kenney 1959]" 4 = 76
 
   \partial 2 \tuplet 3/2 { g4 gs4 a4 } |
   \bar "||"

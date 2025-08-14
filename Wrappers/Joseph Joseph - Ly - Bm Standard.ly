@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Joseph, Joseph (Yossel, Yossel) - Bm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Joseph Joseph - Ly - Bm Standard"}
+\song{Joseph, Joseph (Yossel, Yossel) - Bm}{"../Standard/Joseph Joseph - Ly - Bm Standard"}
 
 %}

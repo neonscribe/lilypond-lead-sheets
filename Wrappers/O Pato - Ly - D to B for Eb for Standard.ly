@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{O Pato - D to B}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/O Pato - Ly - D to B for Eb for Standard"}
+\song{O Pato - D to B}{"../Standard/Eb/O Pato - Ly - D to B for Eb for Standard"}
 
 %}

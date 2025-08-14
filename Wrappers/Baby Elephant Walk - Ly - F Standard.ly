@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Baby Elephant Walk - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Baby Elephant Walk - Ly - F Standard"}
+\song{Baby Elephant Walk - F}{"../Standard/Baby Elephant Walk - Ly - F Standard"}
 
 %}

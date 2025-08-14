@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Gone With the Wind - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Gone With the Wind - Ly - F Alto Voice"}
+\song{Gone With the Wind - F}{"../Alto Voice/Gone With the Wind - Ly - F Alto Voice"}
 
 %}

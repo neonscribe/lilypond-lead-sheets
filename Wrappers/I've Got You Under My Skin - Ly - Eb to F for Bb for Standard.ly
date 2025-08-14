@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I've Got You Under My Skin - Eb to F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/I've Got You Under My Skin - Ly - Eb to F for Bb for Standard"}
+\song{I've Got You Under My Skin - Eb to F}{"../Standard/Bb/I've Got You Under My Skin - Ly - Eb to F for Bb for Standard"}
 
 %}

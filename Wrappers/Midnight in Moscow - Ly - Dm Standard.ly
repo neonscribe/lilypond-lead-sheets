@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Midnight in Moscow - Dm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Midnight in Moscow - Ly - Dm Standard"}
+\song{Midnight in Moscow - Dm}{"../Standard/Midnight in Moscow - Ly - Dm Standard"}
 
 %}

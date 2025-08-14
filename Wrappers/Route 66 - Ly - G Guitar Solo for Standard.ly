@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Route 66 Guitar Solo - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Route 66 Guitar Solo - Ly - G Standard"}
+\song{Route 66 Guitar Solo - G}{"../Standard/Route 66 Guitar Solo - Ly - G Standard"}
 
 %}

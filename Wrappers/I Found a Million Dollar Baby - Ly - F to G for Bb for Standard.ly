@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I Found a Million Dollar Baby (In a Five and Ten Cent Store) - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/I Found a Million Dollar Baby - Ly - F to G for Bb for Standard"}
+\song{I Found a Million Dollar Baby (In a Five and Ten Cent Store) - F to G}{"../Standard/Bb/I Found a Million Dollar Baby - Ly - F to G for Bb for Standard"}
 
 %}

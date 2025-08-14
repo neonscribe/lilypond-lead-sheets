@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{It's You or No One - Eb to F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/It's You or No One - Ly - Eb to F for Bb for Standard"}
+\song{It's You or No One - Eb to F}{"../Standard/Bb/It's You or No One - Ly - Eb to F for Bb for Standard"}
 
 %}

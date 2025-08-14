@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Change Partners - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Change Partners - Ly - F to G for Bb for Standard"}
+\song{Change Partners - F to G}{"../Standard/Bb/Change Partners - Ly - F to G for Bb for Standard"}
 
 %}

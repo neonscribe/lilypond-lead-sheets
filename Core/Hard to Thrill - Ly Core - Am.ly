@@ -34,7 +34,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Slow Blues" 4 = 80
+  \tempo "Slow Blues [JJ Cale & Eric CLapton 2006]" 4 = 76
 
   \xTextMark \markup{ \bold \box "Intro" }
   

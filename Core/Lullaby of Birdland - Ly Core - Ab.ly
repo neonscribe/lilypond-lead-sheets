@@ -26,7 +26,6 @@ introMelody = \relative c' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 122
   
   \xTextMark \markup{ "Sarah Vaughan Intro" }
   f8 f8 f8 f8 g4 g4 | ef4 ef8 f8~ f4 r4 | df8 df8 df8 df8 ef4 ef8 c8~ | c2. r4 |
@@ -67,7 +66,7 @@ refrainMelody = \relative c' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 122
+  \tempo "Medium [Sarah Vaughan 1954]" 4 = 116
   
   \sectStart "A1"
 

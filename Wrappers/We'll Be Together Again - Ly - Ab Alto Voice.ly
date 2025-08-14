@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{We'll Be Together Again - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/We'll Be Together Again - Ly - Ab Alto Voice"}
+\song{We'll Be Together Again - Ab}{"../Alto Voice/We'll Be Together Again - Ly - Ab Alto Voice"}
 
 %}

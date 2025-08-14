@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Nobody Knows You When You're Down and Out - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Nobody Knows You When You're Down and Out - Ly - C Bass for Standard"}
+\song{Nobody Knows You When You're Down and Out - C Bass}{"../Standard/Bass/Nobody Knows You When You're Down and Out - Ly - C Bass for Standard"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Moon River - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Moon River - Ly - C to D for Bb for Standard"}
+\song{Moon River - C to D}{"../Standard/Bb/Moon River - Ly - C to D for Bb for Standard"}
 
 %}

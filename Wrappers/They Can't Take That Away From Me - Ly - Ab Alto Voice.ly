@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{They Can't Take That Away From Me - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/They Can't Take That Away From Me - Ly - Ab Alto Voice"}
+\song{They Can't Take That Away From Me - Ab}{"../Alto Voice/They Can't Take That Away From Me - Ly - Ab Alto Voice"}
 
 %}

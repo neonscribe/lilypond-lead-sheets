@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsectiong
-\addcontentsline{toc}{section}{It's a Sin to Tell a Lie - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/It's a Sin to Tell a Lie - Ly - F Alto Voice"}
+\song{It's a Sin to Tell a Lie - F}{"../Alto Voice/It's a Sin to Tell a Lie - Ly - F Alto Voice"}
 
 %}

@@ -33,7 +33,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Up Swing" 4 = 260
+  \tempo "Up Swing [Angelo DeBarre, Hot Club de Norvege 2002]" 4 = 280
 
   \xTextMark \markup{ \bold \box "A1" }
   

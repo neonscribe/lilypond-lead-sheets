@@ -14,8 +14,6 @@ objectGenderMale = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{My Ideal - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/My Ideal - Ly - C Alto Voice"}
+\song{My Ideal - C}{"../Alto Voice/My Ideal - Ly - C Alto Voice"}
 
 %}

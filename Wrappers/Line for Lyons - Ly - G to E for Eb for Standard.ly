@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Line for Lyons - G to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Line for Lyons - Ly - G to E for Eb for Standard"}
+\song{Line for Lyons - G to E}{"../Standard/Eb/Line for Lyons - Ly - G to E for Eb for Standard"}
 
 %}

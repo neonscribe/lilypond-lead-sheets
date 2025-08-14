@@ -31,7 +31,7 @@ verseMelody = \relative g'' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 119
+  \tempo "Freely"
 
   \xTextMark \markup{ "Verse" }
   
@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad"
+  \tempo "Medium [Frank Sinatra 1956]" 4 = 112
 
   \xTextMark \markup{ "Refrain" \bold \box "A1" }
   \set Score.currentBarNumber = #1

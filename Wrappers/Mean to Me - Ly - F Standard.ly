@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Mean to Me - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Mean to Me - Ly - F Standard"}
+\song{Mean to Me - F}{"../Standard/Mean to Me - Ly - F Standard"}
 
 %}

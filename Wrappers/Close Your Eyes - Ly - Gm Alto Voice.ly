@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Close Your Eyes - Gm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Close Your Eyes - Ly - Gm Alto Voice"}
+\song{Close Your Eyes - Gm}{"../Alto Voice/Close Your Eyes - Ly - Gm Alto Voice"}
 
 %}

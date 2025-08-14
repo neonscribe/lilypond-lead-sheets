@@ -46,7 +46,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up" 4 = 150
+  \tempo "Medium [Blossom Dearie 1956]" 4 = 146
 
   \partial 4 g4 |
   \bar "||"

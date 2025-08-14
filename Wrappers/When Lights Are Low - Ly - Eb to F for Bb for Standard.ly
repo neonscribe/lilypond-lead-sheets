@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{When Lights Are Low - Eb to F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/When Lights Are Low - Ly - Eb to F for Bb for Standard"}
+\song{When Lights Are Low - Eb to F}{"../Standard/Bb/When Lights Are Low - Ly - Eb to F for Bb for Standard"}
 
 %}

@@ -28,7 +28,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempo "Western Swing" 4 = 160
+  \tempo "Western Swing [Marty Robbins 1956]" 4 = 160
 
   \xTextMark \markup{ "Intro" }
 

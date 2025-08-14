@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{They Can't Take That Away From Me - Eb to F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/They Can't Take That Away From Me - Ly - Eb to F for Bb for Standard"}
+\song{They Can't Take That Away From Me - Eb to F}{"../Standard/Bb/They Can't Take That Away From Me - Ly - Eb to F for Bb for Standard"}
 
 %}

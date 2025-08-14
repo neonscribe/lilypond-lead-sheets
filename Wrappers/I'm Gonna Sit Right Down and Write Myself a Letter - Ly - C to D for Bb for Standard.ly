@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm Gonna Sit Right Down and Write Myself a Letter - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/I'm Gonna Sit Right Down and Write Myself a Letter - Ly - C to D for Bb for Standard"}
+\song{I'm Gonna Sit Right Down and Write Myself a Letter - C to D}{"../Standard/Bb/I'm Gonna Sit Right Down and Write Myself a Letter - Ly - C to D for Bb for Standard"}
 
 %}

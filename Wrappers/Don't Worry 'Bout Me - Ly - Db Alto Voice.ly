@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Don't Worry 'Bout Me - Db}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Don't Worry 'Bout Me - Ly - Db Alto Voice"}
+\song{Don't Worry 'Bout Me - Db}{"../Alto Voice/Don't Worry 'Bout Me - Ly - Db Alto Voice"}
 
 %}

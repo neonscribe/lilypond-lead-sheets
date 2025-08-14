@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Ornithology - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Ornithology - Ly - G Standard"}
+\song{Ornithology - G}{"../Standard/Ornithology - Ly - G Standard"}
 
 %}

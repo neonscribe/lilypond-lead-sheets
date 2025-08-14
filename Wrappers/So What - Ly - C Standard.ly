@@ -16,8 +16,6 @@ notationChords = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{So What - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/So What - Ly - C Standard"}
+\song{So What - C}{"../Standard/So What - Ly - C Standard"}
 
 %}

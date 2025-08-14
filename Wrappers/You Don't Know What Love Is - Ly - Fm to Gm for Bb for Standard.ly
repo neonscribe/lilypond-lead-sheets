@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{You Don't Know What Love Is - Fm to Gm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/You Don't Know What Love Is - Ly - Fm to Gm for Bb for Standard"}
+\song{You Don't Know What Love Is - Fm to Gm}{"../Standard/Bb/You Don't Know What Love Is - Ly - Fm to Gm for Bb for Standard"}
 
 %}

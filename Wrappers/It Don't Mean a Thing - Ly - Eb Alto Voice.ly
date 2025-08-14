@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{It Don't Mean a Thing (If It Ain't Got That Swing) - Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/It Don't Mean a Thing - Ly - Eb Alto Voice"}
+\song{It Don't Mean a Thing (If It Ain't Got That Swing) - Eb}{"../Alto Voice/It Don't Mean a Thing - Ly - Eb Alto Voice"}
 
 %}

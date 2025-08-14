@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Let's Call the Whole Thing Off - G to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Let's Call the Whole Thing Off - Ly - G to E for Eb for Standard"}
+\song{Let's Call the Whole Thing Off - G to E}{"../Standard/Eb/Let's Call the Whole Thing Off - Ly - G to E for Eb for Standard"}
 
 %}

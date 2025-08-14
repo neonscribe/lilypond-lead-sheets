@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Russian Lullaby (Swing) - Gm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Russian Lullaby Swing - Ly - Gm Alto Voice"}
+\song{Russian Lullaby (Swing) - Gm}{"../Alto Voice/Russian Lullaby Swing - Ly - Gm Alto Voice"}
 
 %}

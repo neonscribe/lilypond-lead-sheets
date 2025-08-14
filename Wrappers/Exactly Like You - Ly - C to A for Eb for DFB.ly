@@ -14,8 +14,6 @@ useDFBChords = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Exactly Like You - C to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Others/Exactly Like You - Ly - C to A for Eb for DFB"}
+\song{Exactly Like You - C to A}{"../Others/Exactly Like You - Ly - C to A for Eb for DFB"}
 
 %}

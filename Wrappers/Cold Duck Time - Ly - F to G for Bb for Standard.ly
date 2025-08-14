@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Cold Duck Time - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Cold Duck Time - Ly - F to G for Bb for Standard"}
+\song{Cold Duck Time - F to G}{"../Standard/Bb/Cold Duck Time - Ly - F to G for Bb for Standard"}
 
 %}

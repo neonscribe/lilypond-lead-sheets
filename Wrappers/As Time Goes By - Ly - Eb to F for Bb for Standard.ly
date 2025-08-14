@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{As Time Goes By - Eb to F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/As Time Goes By - Ly - Eb to F for Bb for Standard"}
+\song{As Time Goes By - Eb to F}{"../Standard/Bb/As Time Goes By - Ly - Eb to F for Bb for Standard"}
 
 %}

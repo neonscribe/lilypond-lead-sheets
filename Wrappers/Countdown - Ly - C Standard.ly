@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Countdown - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Countdown - Ly - C Standard"}
+\song{Countdown - C}{"../Standard/Countdown - Ly - C Standard"}
 
 %}

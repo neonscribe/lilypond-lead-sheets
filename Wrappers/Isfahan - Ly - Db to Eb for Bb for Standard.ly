@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Isfahan - Db to Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Isfahan - Ly - Db to Eb for Bb for Standard"}
+\song{Isfahan - Db to Eb}{"../Standard/Bb/Isfahan - Ly - Db to Eb for Bb for Standard"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Whisper Not - Cm to Dm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Whisper Not - Ly - Cm to Dm for Bb for Standard"}
+\song{Whisper Not - Cm to Dm}{"../Standard/Bb/Whisper Not - Ly - Cm to Dm for Bb for Standard"}
 
 %}

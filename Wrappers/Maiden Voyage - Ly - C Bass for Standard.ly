@@ -13,8 +13,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Maiden Voyage - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Maiden Voyage - Ly - C Bass for Standard"}
+\song{Maiden Voyage - C Bass}{"../Standard/Bass/Maiden Voyage - Ly - C Bass for Standard"}
 
 %}

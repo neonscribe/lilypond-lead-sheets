@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 165
+  \tempo "Medium [Miles Davis Quintet 1954]" 4 = 165
 
   r4 r8 c'8 b4-. d8 c8 | r8 g4.~ g4. a8 | bf4-. bf4 a4 c8 bf8~ | bf1 |
   \break

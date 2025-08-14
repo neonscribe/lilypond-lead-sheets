@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Where or When - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Where or When - Ly - C Alto Voice"}
+\song{Where or When - C}{"../Alto Voice/Where or When - Ly - C Alto Voice"}
 
 %}

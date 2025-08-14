@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Equinox - Cm to Am}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Equinox - Ly - Cm to Am for Eb for Standard"}
+\song{Equinox - Cm to Am}{"../Standard/Eb/Equinox - Ly - Cm to Am for Eb for Standard"}
 
 %}

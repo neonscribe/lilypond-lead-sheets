@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Lively" 4 = 180
+  \tempo "Lively [Paul Whiteman 1922]" 4 = 184
 
   \xTextMark \markup{ \bold \box "A1" }
   

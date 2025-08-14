@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Day In, Day Out - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Day In Day Out - Ly - C to D for Bb for Standard"}
+\song{Day In, Day Out - C to D}{"../Standard/Bb/Day In Day Out - Ly - C to D for Bb for Standard"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{When It's Sleepy Time Down South - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/When It's Sleepy Time Down South - Ly - G Alto Voice"}
+\song{When It's Sleepy Time Down South - G}{"../Alto Voice/When It's Sleepy Time Down South - Ly - G Alto Voice"}
 
 %}

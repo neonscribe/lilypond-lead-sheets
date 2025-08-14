@@ -24,7 +24,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Slow Blues" 4 = 90
+  \tempo "Medium-Slow Blues [Lambert, Hendricks & Ross 1960]" 4 = 104
 
   \tuplet 3/2 { r8 af,8 d8 } \tuplet 3/2 { f8 af8 bf8 } af4 bf4 | df,4. f8 r2 |
   \tuplet 3/2 { r8 af,8 d8 } \tuplet 3/2 { f8 af8 bf8 } af4 bf4 | df,4. f8 r2 |

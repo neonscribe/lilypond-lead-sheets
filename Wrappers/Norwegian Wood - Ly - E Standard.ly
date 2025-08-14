@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Norwegian Wood - E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Norwegian Wood - Ly - E Standard"}
+\song{Norwegian Wood - E}{"../Standard/Norwegian Wood - Ly - E Standard"}
 
 %}

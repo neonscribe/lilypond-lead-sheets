@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{A Kiss to Build a Dream On - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/A Kiss to Build a Dream On - Ly - G Alto Voice"}
+\song{A Kiss to Build a Dream On - G}{"../Alto Voice/A Kiss to Build a Dream On - Ly - G Alto Voice"}
 
 %}

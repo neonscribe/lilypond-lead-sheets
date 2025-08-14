@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Alice in Wonderland - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Alice in Wonderland - Ly - Bb Alto Voice"}
+\song{Alice in Wonderland - Bb}{"../Alto Voice/Alice in Wonderland - Ly - Bb Alto Voice"}
 
 %}

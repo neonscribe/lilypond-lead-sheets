@@ -27,7 +27,7 @@ bassIntro = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef bass
-  \tempo "Bolero" 4 = 110
+  \tempo "Bolero [The Jazztet 1960]" 4 = 108
 
   \xTextMark \markup{ \bold \box "Intro/Outro" }
   

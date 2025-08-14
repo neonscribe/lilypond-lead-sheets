@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{My Favorite Things - Em to F♯m}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/My Favorite Things - Ly - Em to Fsm for Bb for Standard"}
+\song{My Favorite Things - Em to F♯m}{"../Standard/Bb/My Favorite Things - Ly - Em to Fsm for Bb for Standard"}
 
 %}

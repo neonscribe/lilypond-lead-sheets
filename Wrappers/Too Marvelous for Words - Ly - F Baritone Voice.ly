@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Too Marvelous for Words - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Baritone Voice/Too Marvelous for Words - Ly - F Baritone Voice"}
+\song{Too Marvelous for Words - F}{"../Baritone Voice/Too Marvelous for Words - Ly - F Baritone Voice"}
 
 %}

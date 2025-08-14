@@ -31,7 +31,7 @@ refrainMelody = \relative f {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Bright Galactic Beguine" 4 = 150
+  \tempo "Bright Galactic Beguine [Alexander Courage 1966]" 4 = 144
 
   \xTextMark \markup{ \bold \box "A1" }
   

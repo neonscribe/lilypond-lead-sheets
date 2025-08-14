@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Giant Steps - for Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Giant Steps - Ly - C to A for Eb for Standard"}
+\song{Giant Steps - for Eb}{"../Standard/Eb/Giant Steps - Ly - C to A for Eb for Standard"}
 
 %}

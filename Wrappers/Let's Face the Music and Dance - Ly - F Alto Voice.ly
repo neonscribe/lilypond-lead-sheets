@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Let's Face the Music and Dance - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Let's Face the Music and Dance - Ly - F Alto Voice"}
+\song{Let's Face the Music and Dance - F}{"../Alto Voice/Let's Face the Music and Dance - Ly - F Alto Voice"}
 
 %}

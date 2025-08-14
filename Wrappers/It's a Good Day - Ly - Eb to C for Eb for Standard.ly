@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{It's a Good Day - Eb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/It's a Good Day - Ly - Eb to C for Eb for Standard"}
+\song{It's a Good Day - Eb to C}{"../Standard/Eb/It's a Good Day - Ly - Eb to C for Eb for Standard"}
 
 %}

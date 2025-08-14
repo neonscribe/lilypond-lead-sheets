@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Bossa" 4 = 126
+  \tempo "Medium Bossa [Horace Silver 1965]" 4 = 126
 
   \partial 2 \invisEighth c8-. f8-. af8-. |
   \bar "||"

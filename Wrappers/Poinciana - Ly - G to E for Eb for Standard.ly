@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Poinciana - G to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Poinciana - Ly - G to E for Eb for Standard"}
+\song{Poinciana - G to E}{"../Standard/Eb/Poinciana - Ly - G to E for Eb for Standard"}
 
 %}

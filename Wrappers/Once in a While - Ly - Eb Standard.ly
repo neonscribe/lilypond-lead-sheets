@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Once in a While - Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Once in a While - Ly - Eb Standard"}
+\song{Once in a While - Eb}{"../Standard/Once in a While - Ly - Eb Standard"}
 
 %}

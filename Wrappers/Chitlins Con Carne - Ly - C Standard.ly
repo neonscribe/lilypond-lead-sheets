@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Chitlins Con Carne - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Chitlins Con Carne - Ly - C Standard"}
+\song{Chitlins Con Carne - C}{"../Standard/Chitlins Con Carne - Ly - C Standard"}
 
 %}

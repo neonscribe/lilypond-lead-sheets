@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Why Don't We Do This More Often - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Why Don't We Do This More Often - Ly - Bb Bass for Standard"}
+\song{Why Don't We Do This More Often - Bb Bass}{"../Standard/Bass/Why Don't We Do This More Often - Ly - Bb Bass for Standard"}
 
 %}

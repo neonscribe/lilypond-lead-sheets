@@ -15,6 +15,8 @@
 	}
       }
       }
+    $(if (and (defined? 'refrainKicksOverTime) refrainKicksOverTime)
+      #{
     \new RhythmicStaff {
       \override Staff.VerticalAxisGroup.staff-staff-spacing =
             #'( (basic-distance . 1) 
@@ -27,6 +29,7 @@
       \magnifyMusic 0.63 \refrainKicksOverTime
       \improvisationOff
     }
+    #} )
     \new Staff \with { \omit StringNumber } {
       \clef "treble_8"
       \include "../Include/staff-settings.ily"

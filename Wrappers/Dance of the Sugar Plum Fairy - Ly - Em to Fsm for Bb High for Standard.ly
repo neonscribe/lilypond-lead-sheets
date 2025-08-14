@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Dance of the Sugar Plum Fairy - Em to F\#m}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Dance of the Sugar Plum Fairy - Ly - Em to Fsm for Bb High for Standard"}
+\song{Dance of the Sugar Plum Fairy - Em to F\#m}{"../Standard/Bb/Dance of the Sugar Plum Fairy - Ly - Em to Fsm for Bb High for Standard"}
 
 %}

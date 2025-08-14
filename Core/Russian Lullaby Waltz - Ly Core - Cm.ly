@@ -40,7 +40,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Waltz" 4 = 100
+  \tempo "Waltz [Dinah Shore 1946]" 4 = 102
 
   \xTextMark \markup{ \bold \box "A" }
   

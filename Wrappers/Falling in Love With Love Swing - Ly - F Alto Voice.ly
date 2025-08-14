@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Falling in Love With Love (4/4) - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Falling in Love With Love Swing - Ly - F Alto Voice"}
+\song{Falling in Love With Love (4/4) - F}{"../Alto Voice/Falling in Love With Love Swing - Ly - F Alto Voice"}
 
 %}

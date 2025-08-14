@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Half Nelson - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Half Nelson - Ly - C Standard"}
+\song{Half Nelson - C}{"../Standard/Half Nelson - Ly - C Standard"}
 
 %}

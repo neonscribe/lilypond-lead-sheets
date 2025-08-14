@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Moon River - Gb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Moon River - Ly - Gb Alto Voice"}
+\song{Moon River - Gb}{"../Alto Voice/Moon River - Ly - Gb Alto Voice"}
 
 %}

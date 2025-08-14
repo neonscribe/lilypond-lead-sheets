@@ -30,7 +30,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swinging Latin" 2 = 105
+  \tempo "Medium Swinging Latin [Jim Hall & Ron Carter 1972]" 4 = 220
 
   \xTextMark \markup{ \bold \box "Head" }
   \bar ".|:"

@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I'll Be Home for Christmas - Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/I'll Be Home for Christmas - Ly - Eb Alto Voice"}
+\song{I'll Be Home for Christmas - Eb}{"../Alto Voice/I'll Be Home for Christmas - Ly - Eb Alto Voice"}
 
 %}

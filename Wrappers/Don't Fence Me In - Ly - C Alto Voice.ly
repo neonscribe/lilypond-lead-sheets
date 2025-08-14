@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Don't Fence Me In - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Don't Fence Me In - Ly - C Alto Voice"}
+\song{Don't Fence Me In - C}{"../Alto Voice/Don't Fence Me In - Ly - C Alto Voice"}
 
 %}

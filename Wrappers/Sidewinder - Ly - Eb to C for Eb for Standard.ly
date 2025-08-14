@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Sidewinder - Eb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Sidewinder - Ly - Eb to C for Eb for Standard"}
+\song{Sidewinder - Eb to C}{"../Standard/Eb/Sidewinder - Ly - Eb to C for Eb for Standard"}
 
 %}

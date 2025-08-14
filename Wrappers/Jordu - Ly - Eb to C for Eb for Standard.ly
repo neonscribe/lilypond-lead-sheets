@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Jordu - Eb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Jordu - Ly - Eb to C for Eb for Standard"}
+\song{Jordu - Eb to C}{"../Standard/Eb/Jordu - Ly - Eb to C for Eb for Standard"}
 
 %}

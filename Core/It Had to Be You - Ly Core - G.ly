@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 140
+  \tempo "Medium [Artie Shaw 1938]" 4 = 164
 
   \partial 2. d4 e8 d8 e8 fs8~ |
   \bar "||"

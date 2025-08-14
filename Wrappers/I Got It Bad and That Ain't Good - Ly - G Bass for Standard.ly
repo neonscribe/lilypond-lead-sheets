@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I Got It Bad and That Ain't Good - G Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Got It Bad and That Ain't Good - Ly - G Bass for Standard"}
+\song{I Got It Bad and That Ain't Good - G Bass}{"../Standard/Bass/I Got It Bad and That Ain't Good - Ly - G Bass for Standard"}
 
 %}

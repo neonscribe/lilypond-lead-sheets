@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{The Shadow of Your Smile - G to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/The Shadow of Your Smile - Ly - G to A for Bb for Standard"}
+\song{The Shadow of Your Smile - G to A}{"../Standard/Bb/The Shadow of Your Smile - Ly - G to A for Bb for Standard"}
 
 %}

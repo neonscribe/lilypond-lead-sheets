@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Anthropology - Bb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Anthropology - Ly - Bb to C for Bb for Standard"}
+\song{Anthropology - Bb to C}{"../Standard/Bb/Anthropology - Ly - Bb to C for Bb for Standard"}
 
 %}

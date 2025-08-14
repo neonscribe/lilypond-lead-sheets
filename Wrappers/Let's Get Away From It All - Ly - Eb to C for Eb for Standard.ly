@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Let's Get Away From It All - Eb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Let's Get Away From It All - Ly - Eb to C for Eb for Standard"}
+\song{Let's Get Away From It All - Eb to C}{"../Standard/Eb/Let's Get Away From It All - Ly - Eb to C for Eb for Standard"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{You and the Night and the Music - Cm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/You and the Night and the Music - Ly - Cm Standard"}
+\song{You and the Night and the Music - Cm}{"../Standard/You and the Night and the Music - Ly - Cm Standard"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Rhode Island Is Famous for You - G to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Rhode Island Is Famous for You - Ly - G to A for Bb for Standard"}
+\song{Rhode Island Is Famous for You - G to A}{"../Standard/Bb/Rhode Island Is Famous for You - Ly - G to A for Bb for Standard"}
 
 %}

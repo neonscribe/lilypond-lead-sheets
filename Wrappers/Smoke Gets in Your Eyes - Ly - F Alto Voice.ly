@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Smoke Gets in Your Eyes - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Smoke Gets in Your Eyes - Ly - F Alto Voice"}
+\song{Smoke Gets in Your Eyes - F}{"../Alto Voice/Smoke Gets in Your Eyes - Ly - F Alto Voice"}
 
 %}

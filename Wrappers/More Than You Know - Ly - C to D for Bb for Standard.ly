@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{More Than You Know - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/More Than You Know - Ly - C to D for Bb for Standard"}
+\song{More Than You Know - C to D}{"../Standard/Bb/More Than You Know - Ly - C to D for Bb for Standard"}
 
 %}

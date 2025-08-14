@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 100
+  \tempo "Ballad [Miles Davis Quintet 1956]" 4 = 66
 
   \xTextMark \markup{ \bold \box "A1" }
   

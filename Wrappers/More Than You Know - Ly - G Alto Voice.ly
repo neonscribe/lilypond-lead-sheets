@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{More Than You Know - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/More Than You Know - Ly - G Alto Voice"}
+\song{More Than You Know - G}{"../Alto Voice/More Than You Know - Ly - G Alto Voice"}
 
 %}

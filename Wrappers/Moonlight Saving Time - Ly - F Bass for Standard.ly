@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Moonlight Saving Time - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Moonlight Saving Time - Ly - F Bass for Standard"}
+\song{Moonlight Saving Time - F Bass}{"../Standard/Bass/Moonlight Saving Time - Ly - F Bass for Standard"}
 
 %}

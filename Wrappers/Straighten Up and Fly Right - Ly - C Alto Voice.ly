@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Straighten Up and Fly Right - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Straighten Up and Fly Right - Ly - C Alto Voice"}
+\song{Straighten Up and Fly Right - C}{"../Alto Voice/Straighten Up and Fly Right - Ly - C Alto Voice"}
 
 %}

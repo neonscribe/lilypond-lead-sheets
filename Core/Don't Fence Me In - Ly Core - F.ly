@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 112
+  \tempo "Medium Ballad [Bing Crosby 1944]" 4 = 96
   
   \partial 2. c4 f4 g4 |
   \bar "||"

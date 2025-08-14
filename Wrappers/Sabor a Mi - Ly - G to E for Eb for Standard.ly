@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Sabor a Mí - G to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Sabor a Mi - Ly - G to E for Eb for Standard"}
+\song{Sabor a Mí - G to E}{"../Standard/Eb/Sabor a Mi - Ly - G to E for Eb for Standard"}
 
 %}

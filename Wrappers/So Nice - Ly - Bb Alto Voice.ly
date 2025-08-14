@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Samba de Verão (So Nice, Summer Samba) - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/So Nice - Ly - Bb Alto Voice"}
+\song{Samba de Verão (So Nice, Summer Samba) - Bb}{"../Alto Voice/So Nice - Ly - Bb Alto Voice"}
 
 %}

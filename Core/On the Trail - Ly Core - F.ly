@@ -23,7 +23,6 @@ verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 130
   
   \xTextMark \markup{ "Intro" }
   
@@ -57,7 +56,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 130
+  \tempo "Medium [Jimmy Heath Quintet 1963]" 4 = 130
   
   \partial 4 a4 |
   \bar "||"

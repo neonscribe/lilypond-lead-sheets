@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{This Time the Dream's on Me - G to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/This Time the Dream's on Me - Ly - G to E for Eb for Standard"}
+\song{This Time the Dream's on Me - G to E}{"../Standard/Eb/This Time the Dream's on Me - Ly - G to E for Eb for Standard"}
 
 %}

@@ -96,7 +96,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Rock" 4 = 118
+  \tempo "Rock [Joe Jackson 1979]" 4 = 118
 
   \xTextMark \markup{ \bold \box "Intro" }
   

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Perfidia - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Perfidia - Ly - C to D for Bb for Standard"}
+\song{Perfidia - C to D}{"../Standard/Bb/Perfidia - Ly - C to D for Bb for Standard"}
 
 %}

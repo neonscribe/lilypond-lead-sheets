@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Jazz Waltz"
+  \tempo "Medium Jazz Waltz [Lee Konitz 1977]" 4 = 180
 
   \bar ".|:"
   \repeat volta 2 {

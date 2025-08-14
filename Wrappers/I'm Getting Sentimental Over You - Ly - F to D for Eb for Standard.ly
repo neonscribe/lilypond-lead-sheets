@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I'm Getting Sentimental Over You - F to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/I'm Getting Sentimental Over You - Ly - F to D for Eb for Standard"}
+\song{I'm Getting Sentimental Over You - F to D}{"../Standard/Eb/I'm Getting Sentimental Over You - Ly - F to D for Eb for Standard"}
 
 %}

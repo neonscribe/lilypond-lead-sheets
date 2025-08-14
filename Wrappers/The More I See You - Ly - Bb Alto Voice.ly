@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{The More I See You - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/The More I See You - Ly - Bb Alto Voice"}
+\song{The More I See You - Bb}{"../Alto Voice/The More I See You - Ly - Bb Alto Voice"}
 
 %}

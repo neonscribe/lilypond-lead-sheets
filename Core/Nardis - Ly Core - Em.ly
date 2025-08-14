@@ -35,7 +35,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium-Up" 4 = 156
+  \tempo "Medium-Up [Bill Evans 1961]" 4 = 162
 
   \partial 2 b2 |
   

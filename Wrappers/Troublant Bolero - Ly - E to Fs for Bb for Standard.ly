@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Troublant Bolero - E to F♯}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Troublant Bolero - Ly - E to Fs for Bb for Standard"}
+\song{Troublant Bolero - E to F♯}{"../Standard/Bb/Troublant Bolero - Ly - E to Fs for Bb for Standard"}
 
 %}

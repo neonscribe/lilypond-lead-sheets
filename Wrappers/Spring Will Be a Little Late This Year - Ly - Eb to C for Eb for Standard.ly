@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Spring Will Be a Little Late This Year - Eb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Spring Will Be a Little Late This Year - Ly - Eb to C for Eb for Standard"}
+\song{Spring Will Be a Little Late This Year - Eb to C}{"../Standard/Eb/Spring Will Be a Little Late This Year - Ly - Eb to C for Eb for Standard"}
 
 %}

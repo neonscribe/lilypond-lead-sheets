@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Jazz Blues in G - G to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Jazz Blues in G - Ly - G to E for Eb for Standard"}
+\song{Jazz Blues in G - G to E}{"../Standard/Eb/Jazz Blues in G - Ly - G to E for Eb for Standard"}
 
 %}

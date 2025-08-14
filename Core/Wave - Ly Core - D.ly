@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Bossa" 4 = 145
+  \tempo "Bossa [Antônio Carlos Jobim 1967]" 4 = 145
 
   \xTextMark \markup{ \bold \box "Intro" }
   

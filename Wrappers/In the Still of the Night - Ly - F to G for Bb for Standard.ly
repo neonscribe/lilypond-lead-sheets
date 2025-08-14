@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{In the Still of the Night - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/In the Still of the Night - Ly - F to G for Bb for Standard"}
+\song{In the Still of the Night - F to G}{"../Standard/Bb/In the Still of the Night - Ly - F to G for Bb for Standard"}
 
 %}

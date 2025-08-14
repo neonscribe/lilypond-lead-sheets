@@ -90,7 +90,7 @@ refrainMelody = \relative f'' {
   \time 2/2
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo 2 = 110
+  \tempo "Medium [Steely Dan 1973]" 4 = 220
 
   \xTextMark \markup{ "Intro" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 

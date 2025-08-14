@@ -117,7 +117,7 @@ refrainMelodyDouble = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 2 = 70
+  \tempo "Ballad [Count Basie 1938]" 4 = 156
 
   \xTextMark \markup{ \bold \box "A1" }
   

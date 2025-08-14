@@ -33,7 +33,7 @@ refrainMelody = \relative f' {
   \time 12/8
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow Blues" 4. = 54
+  \tempo "Slow Blues [Derek and the Dominos 1970]" 4. = 54
 
   \partial 4. r8 r8 r8 |
   \bar "||"

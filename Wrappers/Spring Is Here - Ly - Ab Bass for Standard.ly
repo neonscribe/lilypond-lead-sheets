@@ -15,8 +15,6 @@ TempoBPM = 70
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Spring Is Here - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Spring Is Here - Ly - Ab Bass for Standard"}
+\song{Spring Is Here - Ab Bass}{"../Standard/Bass/Spring Is Here - Ly - Ab Bass for Standard"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Just in Time - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Just in Time - Ly - F Alto Voice"}
+\song{Just in Time - F}{"../Alto Voice/Just in Time - Ly - F Alto Voice"}
 
 %}

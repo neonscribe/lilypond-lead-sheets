@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Footprints - Cm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Footprints - Ly - Cm Standard"}
+\song{Footprints - Cm}{"../Standard/Footprints - Ly - Cm Standard"}
 
 %}

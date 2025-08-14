@@ -111,7 +111,7 @@ refrainMelody = \relative g' {
 
   \xTextMark \markup{ \bold \box "Refrain" \bold \box "A1" }
   \set Score.currentBarNumber = #1
-  \tempo "Medium" 4 = 125
+  \tempo "Medium [Chet Baker 1955]" 4 = 182
 
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
   \break

@@ -30,7 +30,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Bossa" 4 = 130
+  \tempo "Medium-Fast Bossa [Joe Henderson 1963]" 4 = 182
 
   r4 r8 e8 b'8 c8 e,8 c8 |
 

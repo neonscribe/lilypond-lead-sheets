@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Too Close for Comfort - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Too Close for Comfort - Ly - C to D for Bb for Standard"}
+\song{Too Close for Comfort - C to D}{"../Standard/Bb/Too Close for Comfort - Ly - C to D for Bb for Standard"}
 
 %}

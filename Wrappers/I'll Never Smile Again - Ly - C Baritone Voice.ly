@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I'll Never Smile Again - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Baritone Voice/I'll Never Smile Again - Ly - C Baritone Voice"}
+\song{I'll Never Smile Again - C}{"../Baritone Voice/I'll Never Smile Again - Ly - C Baritone Voice"}
 
 %}

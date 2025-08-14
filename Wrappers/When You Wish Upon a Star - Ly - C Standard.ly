@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{When You Wish Upon a Star - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/When You Wish Upon a Star - Ly - C Standard"}
+\song{When You Wish Upon a Star - C}{"../Standard/When You Wish Upon a Star - Ly - C Standard"}
 
 %}

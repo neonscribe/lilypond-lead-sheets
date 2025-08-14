@@ -57,7 +57,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Moderate Latin Feel" 4 = 106
+  \tempo "Moderate Latin Feel [B.B. King & Eric Clapton 2000]" 4 = 106
 
   \xTextMark \markup{ \bold \box "Intro" }
   

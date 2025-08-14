@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Sway - Em to F\#m}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Sway - Ly - Em to Fsm for Bb for Standard"}
+\song{Sway - Em to F\#m}{"../Standard/Bb/Sway - Ly - Em to Fsm for Bb for Standard"}
 
 %}

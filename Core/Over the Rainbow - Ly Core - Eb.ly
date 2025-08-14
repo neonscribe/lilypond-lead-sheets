@@ -57,7 +57,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 78
+  \tempo "Ballad [Judy Garland 1939]" 4 = 78
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

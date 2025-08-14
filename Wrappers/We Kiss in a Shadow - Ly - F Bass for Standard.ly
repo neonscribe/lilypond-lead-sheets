@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{We Kiss in a Shadow - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/We Kiss in a Shadow - Ly - F Bass for Standard"}
+\song{We Kiss in a Shadow - F Bass}{"../Standard/Bass/We Kiss in a Shadow - Ly - F Bass for Standard"}
 
 %}

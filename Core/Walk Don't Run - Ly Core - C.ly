@@ -18,7 +18,7 @@ refrainMelody =  \relative a' {
   \clef \whatClef
   \time 4/4
   \key \refrainKey \major
-  \tempo "Straight Eights" 4=150
+  \tempo "Straight Eights [The Ventures 1960]" 4 = 150
   a8  a8  a8 r8  g8 
     g8  g8 r8 | % 2
      f8  f8  f8  e8 ~  e8 r8 r4 | % 3

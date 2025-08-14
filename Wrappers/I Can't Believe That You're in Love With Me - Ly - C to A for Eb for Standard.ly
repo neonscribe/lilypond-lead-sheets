@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I Can't Believe That You're in Love With Me - C to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/I Can't Believe That You're in Love With Me - Ly - C to A for Eb for Standard"}
+\song{I Can't Believe That You're in Love With Me - C to A}{"../Standard/Eb/I Can't Believe That You're in Love With Me - Ly - C to A for Eb for Standard"}
 
 %}

@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Bass for Standard Key"
+instrument = "with backdoor turnaround for each modulation, for concert key instruments"
 whatKey = c,
 whatClef = "bass"
 
@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Jazz Blues Circle of Fifths - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Jazz Blues Circle of Fifths - Ly - C Bass for Standard"}
+\song{Jazz Blues Circle of Fifths - C Bass}{"../Standard/Bass/Jazz Blues Circle of Fifths - Ly - C Bass for Standard"}
 
 %}

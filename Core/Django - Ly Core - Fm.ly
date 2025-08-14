@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \sectNoBar "B1,B2"
   \xTextMark \markup{ \bold "Solos" }
   
-  \tempo "Medium Swing" 4 = 112
+  \tempo "Medium Swing [MJQ 1954]" 4 = 112
   
   \bar ".|:-||"
   \repeat volta 2 {

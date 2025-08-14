@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I Will Wait for You - Dm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/I Will Wait for You - Ly - Dm Standard"}
+\song{I Will Wait for You - Dm}{"../Standard/I Will Wait for You - Ly - Dm Standard"}
 
 %}

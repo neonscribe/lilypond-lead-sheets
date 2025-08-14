@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Au Privave - F to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Au Privave - Ly - F to D for Eb for Standard"}
+\song{Au Privave - F to D}{"../Standard/Eb/Au Privave - Ly - F to D for Eb for Standard"}
 
 %}

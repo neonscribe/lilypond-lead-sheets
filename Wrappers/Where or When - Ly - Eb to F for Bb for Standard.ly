@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Where or When - Eb to F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Where or When - Ly - Eb to F for Bb for Standard"}
+\song{Where or When - Eb to F}{"../Standard/Bb/Where or When - Ly - Eb to F for Bb for Standard"}
 
 %}

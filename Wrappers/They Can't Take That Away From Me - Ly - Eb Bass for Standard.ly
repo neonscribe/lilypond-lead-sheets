@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{They Can't Take That Away From Me - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/They Can't Take That Away From Me - Ly - Eb Bass for Standard"}
+\song{They Can't Take That Away From Me - Eb Bass}{"../Standard/Bass/They Can't Take That Away From Me - Ly - Eb Bass for Standard"}
 
 %}

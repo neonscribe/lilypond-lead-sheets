@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Who Walks In When I Walk Out? - Am}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Who Walks In When I Walk Out - Ly - Am Alto Voice"}
+\song{Who Walks In When I Walk Out? - Am}{"../Alto Voice/Who Walks In When I Walk Out - Ly - Am Alto Voice"}
 
 %}

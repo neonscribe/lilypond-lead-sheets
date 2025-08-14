@@ -14,8 +14,6 @@ firehouseChords = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{On the Alamo - C Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/On the Alamo - Ly - C Bass for Standard"}
+\song{On the Alamo - C Bass}{"../Standard/Bass/On the Alamo - Ly - C Bass for Standard"}
 
 %}

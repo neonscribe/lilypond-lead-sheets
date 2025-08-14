@@ -134,7 +134,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad" 4 = 100
+  \tempo "Ballad [Sidney Bechet 1952]" 4 = 80
   
   g2\fermata a2\fermata | d,4-. r4 ef4. ef8 |
 

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Cheek to Cheek - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Cheek to Cheek - Ly - C to D for Bb for Standard"}
+\song{Cheek to Cheek - C to D}{"../Standard/Bb/Cheek to Cheek - Ly - C to D for Bb for Standard"}
 
 %}

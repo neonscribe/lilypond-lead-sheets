@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Manoir de Mes Rêves (Django's Castle) - D Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Manoir de Mes Reves - Ly - D Bass for Standard"}
+\song{Manoir de Mes Rêves (Django's Castle) - D Bass}{"../Standard/Bass/Manoir de Mes Reves - Ly - D Bass for Standard"}
 
 %}

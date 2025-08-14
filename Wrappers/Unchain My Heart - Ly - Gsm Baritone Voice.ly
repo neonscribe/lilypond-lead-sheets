@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Unchain My Heart - G\#m}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Baritone Voice/Unchain My Heart - Ly - Gsm Baritone Voice"}
+\song{Unchain My Heart - G\#m}{"../Baritone Voice/Unchain My Heart - Ly - Gsm Baritone Voice"}
 
 %}

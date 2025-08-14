@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{For All We Know - Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/For All We Know - Ly - Eb Standard"}
+\song{For All We Know - Eb}{"../Standard/For All We Know - Ly - Eb Standard"}
 
 %}

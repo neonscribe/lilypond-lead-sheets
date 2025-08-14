@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Sugar - Cm to Am}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Sugar - Ly - Cm to Am for Eb for Standard"}
+\song{Sugar - Cm to Am}{"../Standard/Eb/Sugar - Ly - Cm to Am for Eb for Standard"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{At Last - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/At Last - Ly - C to D for Bb for Standard"}
+\song{At Last - C to D}{"../Standard/Bb/At Last - Ly - C to D for Bb for Standard"}
 
 %}

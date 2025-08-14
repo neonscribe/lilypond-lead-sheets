@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Exactly Like You - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Exactly Like You - Ly - C Standard"}
+\song{Exactly Like You - C}{"../Standard/Exactly Like You - Ly - C Standard"}
 
 %}

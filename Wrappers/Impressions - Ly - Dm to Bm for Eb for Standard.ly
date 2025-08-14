@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Impressions - Dm to Bm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Impressions - Ly - Dm to Bm for Eb for Standard"}
+\song{Impressions - Dm to Bm}{"../Standard/Eb/Impressions - Ly - Dm to Bm for Eb for Standard"}
 
 %}

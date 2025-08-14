@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Nuages - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Nuages - Ly - G Standard"}
+\song{Nuages - G}{"../Standard/Nuages - Ly - G Standard"}
 
 %}

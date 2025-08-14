@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 130
+  \tempo "Ballad [Stacey Kent 2010]" 4 = 72
 
   \partial 4 d8 d8 |
   

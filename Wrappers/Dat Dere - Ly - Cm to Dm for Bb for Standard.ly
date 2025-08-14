@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Dat Dere - Cm to Dm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Dat Dere - Ly - Cm to Dm for Bb for Standard"}
+\song{Dat Dere - Cm to Dm}{"../Standard/Bb/Dat Dere - Ly - Cm to Dm for Bb for Standard"}
 
 %}

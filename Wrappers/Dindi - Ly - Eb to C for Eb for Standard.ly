@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Dindi - Eb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Dindi - Ly - Eb to C for Eb for Standard"}
+\song{Dindi - Eb to C}{"../Standard/Eb/Dindi - Ly - Eb to C for Eb for Standard"}
 
 %}

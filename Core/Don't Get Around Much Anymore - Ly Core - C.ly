@@ -76,7 +76,7 @@ refrainMelody = \relative c' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 115
+  \tempo "Medium Swing [Ink Spots 1942]" 4 = 104
 
   r8 e4 d8 c8 g8 f8 e8~ |
   \bar "||"

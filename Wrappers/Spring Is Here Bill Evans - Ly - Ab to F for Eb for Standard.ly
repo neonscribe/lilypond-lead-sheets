@@ -17,8 +17,6 @@ useBillEvansChords = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Spring Is Here (Bill Evans Chords) - Ab to F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Spring Is Here Bill Evans - Ly - Ab to F for Eb for Standard"}
+\song{Spring Is Here (Bill Evans Chords) - Ab to F}{"../Standard/Eb/Spring Is Here Bill Evans - Ly - Ab to F for Eb for Standard"}
 
 %}

@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up" 4 = 200
+  \tempo "Medium or Up [Stan Getz and Oscar Peterson 1957]" 4 = 260
 
   \xTextMark \markup{ \bold \box "A1" }
   

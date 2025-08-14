@@ -94,7 +94,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key g \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 150
+  \tempo "Fast [Boston Pops 1949]" 4 = 220
 
   \partial 2. d'4 d4 d4 |
 

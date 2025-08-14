@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Swing" 4 = 180
+  \tempo "Swing [Fats Domino 1956]" 4 = 180
   
   \partial 2. g4 bf8 c8 ef4 |
   \bar "||"

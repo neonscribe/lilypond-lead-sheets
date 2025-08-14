@@ -25,7 +25,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 126
+  \tempo "Medium [Stanley Turrentine 1970]" 4 = 122
 
   \xTextMark \markup{ \bold \box "Intro" }
   
@@ -83,7 +83,6 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 124
 
   \xTextMark \markup { \bold \box "Refrain" }
 

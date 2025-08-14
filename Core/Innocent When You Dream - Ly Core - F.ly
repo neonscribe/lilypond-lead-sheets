@@ -28,7 +28,7 @@ introMelody = \relative f' {
   \time 3/4
   \key \introKey \major
   \clef \whatClef
-  \tempo "Waltz" 4 = 180
+  \tempo "Waltz [Tom Waits 1987]" 4 = 153
 
   \xTextMark \markup { "Intro" }
 

@@ -41,7 +41,7 @@ refrainMelody = \relative f' {
   \time 6/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 174
+  \tempo "Medium [Wayne Shorter 1966]" 4 = 135
 
   <bf f>4 <bf f>4 <bf f>4 <bf f>8 <c g>8~ <c g>4. <a e>8 |
   \tuplet 5/3 { <bf f>4 <a e>4 <g d>4 <f c>4 <d a>4~ } <d a>2 <c g>4-. |

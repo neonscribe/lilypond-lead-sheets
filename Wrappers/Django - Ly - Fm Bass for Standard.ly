@@ -13,8 +13,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Django - Fm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Django - Ly - Fm Bass for Standard"}
+\song{Django - Fm Bass}{"../Standard/Bass/Django - Ly - Fm Bass for Standard"}
 
 %}

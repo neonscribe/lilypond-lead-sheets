@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad" 4 = 111
+  \tempo "Medium [Fred Astaire 1936]" 4 = 156
   
   \partial 4 e4 |
 

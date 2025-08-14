@@ -14,8 +14,6 @@ maleSinger = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Black Coffee - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Baritone Voice/Black Coffee - Ly - C Baritone Voice"}
+\song{Black Coffee - C}{"../Baritone Voice/Black Coffee - Ly - C Baritone Voice"}
 
 %}

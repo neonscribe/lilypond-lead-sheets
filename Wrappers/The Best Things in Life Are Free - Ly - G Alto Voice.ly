@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{The Best Things in Life Are Free - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/The Best Things in Life Are Free - Ly - G Alto Voice"}
+\song{The Best Things in Life Are Free - G}{"../Alto Voice/The Best Things in Life Are Free - Ly - G Alto Voice"}
 
 %}

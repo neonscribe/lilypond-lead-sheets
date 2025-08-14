@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Have Yourself a Merry Little Christmas - Gb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Have Yourself a Merry Little Christmas - Ly - Gb Alto Voice"}
+\song{Have Yourself a Merry Little Christmas - Gb}{"../Alto Voice/Have Yourself a Merry Little Christmas - Ly - Gb Alto Voice"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Moment's Notice - Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Moment's Notice - Ly - Eb Standard"}
+\song{Moment's Notice - Eb}{"../Standard/Moment's Notice - Ly - Eb Standard"}
 
 %}

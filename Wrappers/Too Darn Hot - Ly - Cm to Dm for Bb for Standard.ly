@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Too Darn Hot - Cm to Dm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Too Darn Hot - Ly - Cm to Dm for Bb for Standard"}
+\song{Too Darn Hot - Cm to Dm}{"../Standard/Bb/Too Darn Hot - Ly - Cm to Dm for Bb for Standard"}
 
 %}

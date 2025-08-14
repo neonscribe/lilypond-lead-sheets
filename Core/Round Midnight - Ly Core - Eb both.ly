@@ -157,7 +157,7 @@ refrainMelody = \relative c' {
   \time 4/4
   \key \refrainKey \tonality
   \clef \whatClef
-  \tempo "Slowly"
+  \tempo "Ballad [Miles Davis Quintet 1956]" 4 = 57
 
   \sectStart "A1"
     r4 bf16 ef16 f16 bf16 gf4. bf,8 | ef8 ef4 ef8 bf'8 af4. |

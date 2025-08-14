@@ -25,7 +25,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 124
+  \tempo "Medium Swing [Sam Rivers 1965]" 4 = 124
 
   r4 r8 c'8 c4 c4 | f4 c4 c4 bf4 | c4. a8 f4 f4 | f4 g2. |
   \break

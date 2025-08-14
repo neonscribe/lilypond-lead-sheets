@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Meditation (Meditação) - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Meditation - Ly - G Alto Voice"}
+\song{Meditation (Meditação) - G}{"../Alto Voice/Meditation - Ly - G Alto Voice"}
 
 %}

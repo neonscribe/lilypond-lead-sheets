@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{It's a Sin to Tell a Lie - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/It's a Sin to Tell a Lie - Ly - C to D for Bb for Standard"}
+\song{It's a Sin to Tell a Lie - C to D}{"../Standard/Bb/It's a Sin to Tell a Lie - Ly - C to D for Bb for Standard"}
 
 %}

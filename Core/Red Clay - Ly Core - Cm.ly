@@ -53,7 +53,7 @@ bassIntro = \relative f' {
   \time 4/4
   \key \introKey \minor
   \clef bass
-  \tempo "Medium Rock, Straight Eighths" 4 = 140
+  \tempo "Medium Rock, Straight Eighths [Freddie Hubbard 1970]" 4 = 140
 
   \xTextMark \markup{ \bold \box "Intro" }
 

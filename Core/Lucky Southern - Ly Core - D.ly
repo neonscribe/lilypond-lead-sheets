@@ -36,7 +36,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Bossa" 4 = 160
+  \tempo "Latin Uptempo [Airto 1972]" 4 = 228
 
   \xTextMark \markup{ \bold \box "Intro" }
   

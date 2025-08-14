@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{One Note Samba - Bb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/One Note Samba - Ly - Bb to C for Bb for Standard"}
+\song{One Note Samba - Bb to C}{"../Standard/Bb/One Note Samba - Ly - Bb to C for Bb for Standard"}
 
 %}

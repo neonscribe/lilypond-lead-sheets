@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Perfidia - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Perfidia - Ly - F Alto Voice"}
+\song{Perfidia - F}{"../Alto Voice/Perfidia - Ly - F Alto Voice"}
 
 %}

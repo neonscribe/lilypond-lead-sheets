@@ -102,7 +102,7 @@ refrainMelody = \relative g {
   \key \refrainKey \major
   \clef \whatClef
 
-  \tempo "Medium"
+  \tempo "Medium [Frank Sinatra 1956]" 4 = 108
 
   \partial 2. c4 d4 a'4 |
   

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Moonglow - G to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Moonglow - Ly - G to E for Eb for Standard"}
+\song{Moonglow - G to E}{"../Standard/Eb/Moonglow - Ly - G to E for Eb for Standard"}
 
 %}

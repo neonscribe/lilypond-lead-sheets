@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Fly Me to the Moon - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Fly Me to the Moon - Ly - Ab Alto Voice"}
+\song{Fly Me to the Moon - Ab}{"../Alto Voice/Fly Me to the Moon - Ly - Ab Alto Voice"}
 
 %}

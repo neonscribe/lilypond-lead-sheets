@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{(I Love You) For Sentimental Reasons - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/For Sentimental Reasons - Ly - Bb Alto Voice"}
+\song{(I Love You) For Sentimental Reasons - Bb}{"../Alto Voice/For Sentimental Reasons - Ly - Bb Alto Voice"}
 
 %}

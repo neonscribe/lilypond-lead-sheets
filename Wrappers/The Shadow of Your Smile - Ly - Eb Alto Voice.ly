@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{The Shadow of Your Smile - Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/The Shadow of Your Smile - Ly - Eb Alto Voice"}
+\song{The Shadow of Your Smile - Eb}{"../Alto Voice/The Shadow of Your Smile - Ly - Eb Alto Voice"}
 
 %}

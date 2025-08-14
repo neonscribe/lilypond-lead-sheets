@@ -46,7 +46,7 @@ refrainKey = d
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
-  \tempo "Medium Latin" 4 = 140
+  \tempo "Medium-Up Latin [Dizzy Gillespie 1946]" 4 = 180
   \clef bass
 
   \xTextMark \markup{ \bold \box "Intro" " (bass)" }

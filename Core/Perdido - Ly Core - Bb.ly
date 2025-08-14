@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 138
+  \tempo "Medium [Sarah Vaughan 1950]" 4 = 144
 
   \partial 4 \invisEighth c8 |
   \bar "||"

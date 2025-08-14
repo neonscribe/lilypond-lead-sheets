@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Fast" 4 = 160
+  \tempo "Medium [Frank Sinatra with Tommy Dorsey 1941]" 4 = 125
 
   \partial 2. bf4 bf4 d4 |
 

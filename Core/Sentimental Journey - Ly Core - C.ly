@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 135
+  \tempo "Ballad [Doris Day with Les Brown 1944]" 4 = 80
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

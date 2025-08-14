@@ -14,8 +14,6 @@ useAlternateChords = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Blue Moon - Eb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Blue Moon - Ly - Eb to C for Eb for Alternate Chords"}
+\song{Blue Moon - Eb to C}{"../Standard/Eb/Blue Moon - Ly - Eb to C for Eb for Alternate Chords"}
 
 %}

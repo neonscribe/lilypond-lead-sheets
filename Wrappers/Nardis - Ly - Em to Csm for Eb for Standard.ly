@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Nardis - Em to C♯m}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Nardis - Ly - Em to Csm for Eb for Standard"}
+\song{Nardis - Em to C♯m}{"../Standard/Eb/Nardis - Ly - Em to Csm for Eb for Standard"}
 
 %}

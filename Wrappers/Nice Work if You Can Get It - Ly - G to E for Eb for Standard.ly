@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Nice Work if You Can Get It - G to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Nice Work if You Can Get It - Ly - G to E for Eb for Standard"}
+\song{Nice Work if You Can Get It - G to E}{"../Standard/Eb/Nice Work if You Can Get It - Ly - G to E for Eb for Standard"}
 
 %}

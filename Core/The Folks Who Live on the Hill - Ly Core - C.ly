@@ -113,7 +113,7 @@ refrainMelody = \relative g' {
 
   \xTextMark \markup{ "Refrain" \bold \box "A1,A2" }
   \set Score.currentBarNumber = #1
-  \tempo "Ballad" 4 = 70
+  \tempo "Ballad [Peggy Lee 1957]" 4 = 60
   
   \bar ".|:"
   

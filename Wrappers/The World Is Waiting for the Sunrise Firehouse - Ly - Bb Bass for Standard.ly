@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{The World Is Waiting for the Sunrise Firehouse - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/The World Is Waiting for the Sunrise Firehouse - Ly - Bb Bass for Standard"}
+\song{The World Is Waiting for the Sunrise Firehouse - Bb Bass}{"../Standard/Bass/The World Is Waiting for the Sunrise Firehouse - Ly - Bb Bass for Standard"}
 
 %}

@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Mexican Polka" 2 = 135
+  \tempo "Mexican Polka [Mariachi Mexico 1991]" 2 = 142
 
   \xTextMark \markup{ \bold \box "A" }
   

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Si Tu Vois Ma Mère - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Si Tu Vois Ma Mere - Ly - Bb Standard"}
+\song{Si Tu Vois Ma Mère - Bb}{"../Standard/Si Tu Vois Ma Mere - Ly - Bb Standard"}
 
 %}

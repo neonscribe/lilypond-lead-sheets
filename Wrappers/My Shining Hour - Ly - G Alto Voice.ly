@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{My Shining Hour - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/My Shining Hour - Ly - G Alto Voice"}
+\song{My Shining Hour - G}{"../Alto Voice/My Shining Hour - Ly - G Alto Voice"}
 
 %}

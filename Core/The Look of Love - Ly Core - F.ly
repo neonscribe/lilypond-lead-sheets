@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Latin" 4 = 110
+  \tempo "Medium Latin [Dusty Springfield 1967]" 4 = 97
   
   \partial 4 a,8 d8~ |
 

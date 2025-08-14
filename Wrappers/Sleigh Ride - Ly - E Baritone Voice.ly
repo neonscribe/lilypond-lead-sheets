@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Sleigh Ride - E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Baritone Voice/Sleigh Ride - Ly - E Baritone Voice"}
+\song{Sleigh Ride - E}{"../Baritone Voice/Sleigh Ride - Ly - E Baritone Voice"}
 
 %}

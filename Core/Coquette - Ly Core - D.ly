@@ -103,7 +103,7 @@ refrainDFBMelody = \relative f'' {
   \time 4/4
   \key d \major
   \clef \whatClef
-  \tempo "Medium-Up Swing" 4 = 180
+  \tempo "Medium-Up Swing [Django Reinhardt 1946]" 4 = 176
 
   \xTextMark \markup{ \bold \box "A1" }
   

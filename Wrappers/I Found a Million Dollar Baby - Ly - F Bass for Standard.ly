@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I Found a Million Dollar Baby (In a Five and Ten Cent Store) - F Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/I Found a Million Dollar Baby - Ly - F Bass for Standard"}
+\song{I Found a Million Dollar Baby (In a Five and Ten Cent Store) - F Bass}{"../Standard/Bass/I Found a Million Dollar Baby - Ly - F Bass for Standard"}
 
 %}

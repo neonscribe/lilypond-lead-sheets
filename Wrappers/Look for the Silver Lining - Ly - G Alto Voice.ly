@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Look for the Silver Lining - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Look for the Silver Lining - Ly - G Alto Voice"}
+\song{Look for the Silver Lining - G}{"../Alto Voice/Look for the Silver Lining - Ly - G Alto Voice"}
 
 %}

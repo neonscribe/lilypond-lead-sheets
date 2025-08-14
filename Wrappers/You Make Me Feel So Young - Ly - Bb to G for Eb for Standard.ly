@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{You Make Me Feel So Young - Bb to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/You Make Me Feel So Young - Ly - Bb to G for Eb for Standard"}
+\song{You Make Me Feel So Young - Bb to G}{"../Standard/Eb/You Make Me Feel So Young - Ly - Bb to G for Eb for Standard"}
 
 %}

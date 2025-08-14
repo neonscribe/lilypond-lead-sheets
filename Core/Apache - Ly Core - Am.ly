@@ -20,7 +20,7 @@ refrainMelody =  \relative a' {
     \clef \whatClef
     \time 4/4 
     \key a \minor
-    \tempo "Tom-Tom Straight Eighths" 4=130
+    \tempo "Tom-Tom Straight Eighths [The Shadows 1960]" 4 = 130
     \xTextMark \markup { Intro }
     r4  a8 [  c8 ]  d8 [
      ef8 ]  d4 | % 2

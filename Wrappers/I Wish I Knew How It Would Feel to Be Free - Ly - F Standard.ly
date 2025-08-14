@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I Wish I Knew How It Would Feel to Be Free - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/I Wish I Knew How It Would Feel to Be Free - Ly - F Standard"}
+\song{I Wish I Knew How It Would Feel to Be Free - F}{"../Standard/I Wish I Knew How It Would Feel to Be Free - Ly - F Standard"}
 
 %}

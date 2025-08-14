@@ -25,7 +25,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Up" 4 = 320
+  \tempo "Up [John Coltrane 1959]" 4 = 320
 
   fs'2 d2 | b2 g4. bf8~ | bf1 | b4. a8~ a2 |
   \break

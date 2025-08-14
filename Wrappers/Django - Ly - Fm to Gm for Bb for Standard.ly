@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Django - Fm to Gm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Django - Ly - Fm to Gm for Bb for Standard"}
+\song{Django - Fm to Gm}{"../Standard/Bb/Django - Ly - Fm to Gm for Bb for Standard"}
 
 %}

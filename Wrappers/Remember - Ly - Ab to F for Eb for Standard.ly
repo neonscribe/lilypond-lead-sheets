@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Remember - Ab to F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Remember - Ly - Ab to F for Eb for Standard"}
+\song{Remember - Ab to F}{"../Standard/Eb/Remember - Ly - Ab to F for Eb for Standard"}
 
 %}

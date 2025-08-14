@@ -25,7 +25,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Slow Blues" 4 = 100
+  \tempo "Slow Blues [Louis Armstrong 1928]" 4 = 112
   
   \partial 4 d8 f8 |
   \bar "||"

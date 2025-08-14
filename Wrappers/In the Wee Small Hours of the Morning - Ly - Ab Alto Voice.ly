@@ -14,8 +14,6 @@ objectGenderMale = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{In the Wee Small Hours of the Morning - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/In the Wee Small Hours of the Morning - Ly - Ab Alto Voice"}
+\song{In the Wee Small Hours of the Morning - Ab}{"../Alto Voice/In the Wee Small Hours of the Morning - Ly - Ab Alto Voice"}
 
 %}

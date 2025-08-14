@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Joseph, Joseph (Yossel, Yossel) - Bm to G♯m}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Joseph Joseph - Ly - Bm to Gsm for Eb for Standard"}
+\song{Joseph, Joseph (Yossel, Yossel) - Bm to G♯m}{"../Standard/Eb/Joseph Joseph - Ly - Bm to Gsm for Eb for Standard"}
 
 %}

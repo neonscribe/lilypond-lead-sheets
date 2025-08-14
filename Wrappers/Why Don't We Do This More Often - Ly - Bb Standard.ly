@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Why Don't We Do This More Often - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Why Don't We Do This More Often - Ly - Bb Standard"}
+\song{Why Don't We Do This More Often - Bb}{"../Standard/Why Don't We Do This More Often - Ly - Bb Standard"}
 
 %}

@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad"
+  \tempo "Ballad [Johnny Mathis 1959]" 4 = 60
 
   \partial 4 bf8 g8 |
   \bar "||"

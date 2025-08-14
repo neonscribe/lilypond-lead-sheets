@@ -36,7 +36,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Fast Latin" 4 = 260
+  \tempo "Fast Latin [Jazz Messengers 1956]" 4 = 188
 
   \partial 4 f4 |
 
@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   } } }
   \sect "B"
   
-  \tempo "Fast Swing" 4 = 260
+  \tempo "Swing"
   
   r4 f4 df4. ef8 | f4 df2 ef4 | f4 gf4 af4 bf8 cf8~ | cf2. bf4 |
   \break

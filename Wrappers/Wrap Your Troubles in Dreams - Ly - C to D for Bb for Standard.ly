@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Wrap Your Troubles in Dreams - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Wrap Your Troubles in Dreams - Ly - C to D for Bb for Standard"}
+\song{Wrap Your Troubles in Dreams - C to D}{"../Standard/Bb/Wrap Your Troubles in Dreams - Ly - C to D for Bb for Standard"}
 
 %}

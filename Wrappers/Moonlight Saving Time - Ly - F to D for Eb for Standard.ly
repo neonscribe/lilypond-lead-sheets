@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Moonlight Saving Time - F to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Moonlight Saving Time - Ly - F to D for Eb for Standard"}
+\song{Moonlight Saving Time - F to D}{"../Standard/Eb/Moonlight Saving Time - Ly - F to D for Eb for Standard"}
 
 %}

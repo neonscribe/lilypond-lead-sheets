@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{The Shiek of Araby - Bb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/The Shiek of Araby - Ly - Bb to C for Bb for Standard"}
+\song{The Shiek of Araby - Bb to C}{"../Standard/Bb/The Shiek of Araby - Ly - Bb to C for Bb for Standard"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Mean to Me - Db}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Mean to Me - Ly - Db Alto Voice"}
+\song{Mean to Me - Db}{"../Alto Voice/Mean to Me - Ly - Db Alto Voice"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Three Little Words - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Three Little Words - Ly - C Standard"}
+\song{Three Little Words - C}{"../Standard/Three Little Words - Ly - C Standard"}
 
 %}

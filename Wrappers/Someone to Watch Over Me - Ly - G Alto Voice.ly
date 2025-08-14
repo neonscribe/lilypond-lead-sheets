@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Someone to Watch Over Me - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Someone to Watch Over Me - Ly - G Alto Voice"}
+\song{Someone to Watch Over Me - G}{"../Alto Voice/Someone to Watch Over Me - Ly - G Alto Voice"}
 
 %}

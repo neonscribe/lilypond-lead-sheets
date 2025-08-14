@@ -29,7 +29,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Slow Funk" 4 = 85
+  \tempo "Medium-Slow Funk [Cannonball Adderley 1966]" 4 = 85
 
   \xTextMark \markup{ \bold \box "A" }
   

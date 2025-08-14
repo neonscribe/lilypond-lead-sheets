@@ -114,7 +114,6 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Med. Slow Swing (Dixieland)" 4 = 110
 
   \set Score.currentBarNumber = #1
   

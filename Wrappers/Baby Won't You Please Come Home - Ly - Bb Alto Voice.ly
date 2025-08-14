@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Baby, Won't You Please Come Home - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Baby Won't You Please Come Home - Ly - Bb Alto Voice"}
+\song{Baby, Won't You Please Come Home - Bb}{"../Alto Voice/Baby Won't You Please Come Home - Ly - Bb Alto Voice"}
 
 %}

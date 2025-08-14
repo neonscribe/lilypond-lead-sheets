@@ -14,8 +14,6 @@ useJoelChords = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Besame Mucho - Am}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Others/Besame Mucho - Ly - Am Joel Chords"}
+\song{Besame Mucho - Am}{"../Others/Besame Mucho - Ly - Am Joel Chords"}
 
 %}

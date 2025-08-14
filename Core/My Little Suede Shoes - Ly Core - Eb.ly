@@ -34,7 +34,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up Latin" 4 = 146
+  \tempo "Medium-Up Latin [Charlie Parker 1951]" 4 = 146
 
   \partial 2 \invisEighth bf,8 ef8 g8 |
   \bar "||"

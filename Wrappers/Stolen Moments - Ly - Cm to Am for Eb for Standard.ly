@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Stolen Moments - Cm to Am}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Stolen Moments - Ly - Cm to Am for Eb for Standard"}
+\song{Stolen Moments - Cm to Am}{"../Standard/Eb/Stolen Moments - Ly - Cm to Am for Eb for Standard"}
 
 %}

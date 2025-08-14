@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Bluesy Country Swing" 4 = 130
+  \tempo "Bluesy Country Swing [Shelby Lynne 2010]" 4 = 128
 
   \partial 2. e4 e8 d8 e4 |
 

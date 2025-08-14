@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Stormy Weather - G to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Stormy Weather - Ly - G to A for Bb for Standard"}
+\song{Stormy Weather - G to A}{"../Standard/Bb/Stormy Weather - Ly - G to A for Bb for Standard"}
 
 %}

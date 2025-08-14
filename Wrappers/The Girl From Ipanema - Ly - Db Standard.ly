@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{The Girl From Ipanema - Db}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/The Girl From Ipanema - Ly - Db Standard"}
+\song{The Girl From Ipanema - Db}{"../Standard/The Girl From Ipanema - Ly - Db Standard"}
 
 %}

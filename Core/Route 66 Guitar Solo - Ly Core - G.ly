@@ -23,7 +23,7 @@ refrainKey = g
 refrainMelody = \relative f {
   \time 4/4
   \key \refrainKey \major
-  \tempo "Medium" 4 = 146
+  \tempo "Medium [Nat King Cole 1946]" 4 = 146
 
   a'8\2 bf8\2 c8 d8 ef8 d8 c8 bf8\2 | a8\2 g8\2 f8\3 ef8~\3 ef4.\3 d8~\3 |
   d4\3 \tuplet 3/2 { g,8\5 b8\4 d8\3 } g8\2 b8 d4 | e4 af,8\2 bf8~\2 bf4 af8\2 g8~\2 |

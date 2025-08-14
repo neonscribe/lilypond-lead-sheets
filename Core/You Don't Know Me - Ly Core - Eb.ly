@@ -108,7 +108,7 @@ refrainMelody = \relative f' {
   \time 12/8
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slowly" 4. = 70
+  \tempo "Slowly [Ray Charles 1962]" 4. = 70
 
   \xTextMark \markup{ "Intro" }
 

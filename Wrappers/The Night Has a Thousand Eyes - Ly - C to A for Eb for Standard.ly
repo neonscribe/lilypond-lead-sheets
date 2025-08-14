@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{The Night Has a Thousand Eyes - C to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/The Night Has a Thousand Eyes - Ly - C to A for Eb for Standard"}
+\song{The Night Has a Thousand Eyes - C to A}{"../Standard/Eb/The Night Has a Thousand Eyes - Ly - C to A for Eb for Standard"}
 
 %}

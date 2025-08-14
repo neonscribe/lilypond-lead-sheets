@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Fast Swing" 4 = 240
+  \tempo "Fast Swing [The Dixie Stompers 1926]" 4 = 204
   
   \partial 2. gs8 a8~ a8 gs8 a4 |
   \bar "||"

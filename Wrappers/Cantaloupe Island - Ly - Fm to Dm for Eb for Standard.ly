@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Cantaloupe Island - Fm to Dm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Cantaloupe Island - Ly - Fm to Dm for Eb for Standard"}
+\song{Cantaloupe Island - Fm to Dm}{"../Standard/Eb/Cantaloupe Island - Ly - Fm to Dm for Eb for Standard"}
 
 %}

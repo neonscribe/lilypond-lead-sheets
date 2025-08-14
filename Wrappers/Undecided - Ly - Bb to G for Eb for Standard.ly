@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Undecided - Bb to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Undecided - Ly - Bb to G for Eb for Standard"}
+\song{Undecided - Bb to G}{"../Standard/Eb/Undecided - Ly - Bb to G for Eb for Standard"}
 
 %}

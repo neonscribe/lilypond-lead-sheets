@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Lazy Bird - G to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Lazy Bird - Ly - G to E for Eb for Standard"}
+\song{Lazy Bird - G to E}{"../Standard/Eb/Lazy Bird - Ly - G to E for Eb for Standard"}
 
 %}

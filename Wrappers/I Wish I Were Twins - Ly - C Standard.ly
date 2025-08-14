@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I Wish I Were Twins - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/I Wish I Were Twins - Ly - C Standard"}
+\song{I Wish I Were Twins - C}{"../Standard/I Wish I Were Twins - Ly - C Standard"}
 
 %}

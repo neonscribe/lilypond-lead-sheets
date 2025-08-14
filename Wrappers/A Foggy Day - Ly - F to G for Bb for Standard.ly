@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{A Foggy Day (In London Town) - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/A Foggy Day - Ly - F to G for Bb for Standard"}
+\song{A Foggy Day (In London Town) - F to G}{"../Standard/Bb/A Foggy Day - Ly - F to G for Bb for Standard"}
 
 %}

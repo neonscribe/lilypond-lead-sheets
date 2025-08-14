@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad"
+  \tempo "Ballad or Medium [Bill Evans 1959]" 4 = 152
 
   \partial 2 \invisEighth bf8 c8 ef8 |
   \bar "||"

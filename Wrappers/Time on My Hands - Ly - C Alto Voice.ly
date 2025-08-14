@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Time on My Hands - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Time on My Hands - Ly - C Alto Voice"}
+\song{Time on My Hands - C}{"../Alto Voice/Time on My Hands - Ly - C Alto Voice"}
 
 %}

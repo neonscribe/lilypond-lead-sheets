@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Waltz" 4 = 112
+  \tempo "Medium Waltz [Patti Page 1950]" 4 = 112
 
   \partial 4 c8 d8 |
   \bar "||"

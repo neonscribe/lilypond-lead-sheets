@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
 
   \sect "B1"
 
-  g4 g4 g4 g4 | g4 g8 a4 g8 a4 | bf1~ | bf4. a4 g8 a4 |
+  g4 g4 g4 g4 | g4 g8 a8~ a8 g8 a4 | bf1~ | bf4. a4 g8 a4 |
   b1~ | b4 a4 b4 c4 | d4 d4 d4 d4 | d8 r8 d,4 g4 a4 |
 
   \sect "A2"
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   
   \sect "B2"
   
-  g4 g4 g4 g4 | g4 g8 a4 g8 a4 | b1~ | b4 a4 b4 c4 |
+  g4 g4 g4 g4 | g4 g8 a8~ a8 g8 a4 | b1~ | b4 a4 b4 c4 |
   \break
   d4 d4 d4 d4 | d4 d,4 g4 a4 | g1 | r1 |
 

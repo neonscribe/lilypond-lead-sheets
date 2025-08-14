@@ -14,8 +14,6 @@ femaleSinger = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I Had the Craziest Dream - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/I Had the Craziest Dream - Ly - Ab Alto Voice"}
+\song{I Had the Craziest Dream - Ab}{"../Alto Voice/I Had the Craziest Dream - Ly - Ab Alto Voice"}
 
 %}

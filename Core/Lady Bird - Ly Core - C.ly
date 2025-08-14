@@ -28,7 +28,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 174
+  \tempo "Medium [Tadd Dameron 1948]" 4 = 174
 
   r8 g4. g4-. g4-. | g4. g8~ g4 g4-. | bf2 \tuplet 3/2 { af4 c,4 ef4 } | g4. e8~ e4 r4 |
   \break

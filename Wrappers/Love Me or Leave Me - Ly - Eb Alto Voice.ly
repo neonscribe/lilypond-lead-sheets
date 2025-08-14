@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Love Me or Leave Me - Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Love Me or Leave Me - Ly - Eb Alto Voice"}
+\song{Love Me or Leave Me - Eb}{"../Alto Voice/Love Me or Leave Me - Ly - Eb Alto Voice"}
 
 %}

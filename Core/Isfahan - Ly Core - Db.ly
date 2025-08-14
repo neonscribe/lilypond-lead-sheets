@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad" 4 = 60
+  \tempo "Medium [Joe Henderson 1992]" 4 = 114
   
   \partial 2 \invisEighth c'8 \tuplet 3/2 { af8 f8 df8 } |
   \bar "||"

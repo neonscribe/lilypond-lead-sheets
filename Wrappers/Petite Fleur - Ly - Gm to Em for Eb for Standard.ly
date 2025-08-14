@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Petite Fleur - Gm to Em}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Petite Fleur - Ly - Gm to Em for Eb for Standard"}
+\song{Petite Fleur - Gm to Em}{"../Standard/Eb/Petite Fleur - Ly - Gm to Em for Eb for Standard"}
 
 %}

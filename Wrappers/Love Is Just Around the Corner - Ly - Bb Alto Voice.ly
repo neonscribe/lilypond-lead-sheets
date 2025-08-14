@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Love Is Just Around the Corner - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Love Is Just Around the Corner - Ly - Bb Alto Voice"}
+\song{Love Is Just Around the Corner - Bb}{"../Alto Voice/Love Is Just Around the Corner - Ly - Bb Alto Voice"}
 
 %}

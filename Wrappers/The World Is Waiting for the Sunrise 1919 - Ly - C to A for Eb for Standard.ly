@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{The World Is Waiting for the Sunrise 1919 - C to A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/The World Is Waiting for the Sunrise 1919 - Ly - C to A for Eb for Standard"}
+\song{The World Is Waiting for the Sunrise 1919 - C to A}{"../Standard/Eb/The World Is Waiting for the Sunrise 1919 - Ly - C to A for Eb for Standard"}
 
 %}

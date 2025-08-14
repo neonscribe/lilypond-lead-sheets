@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Epistrophy - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Epistrophy - Ly - C Standard"}
+\song{Epistrophy - C}{"../Standard/Epistrophy - Ly - C Standard"}
 
 %}

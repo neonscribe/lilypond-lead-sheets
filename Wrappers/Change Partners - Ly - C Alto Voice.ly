@@ -14,8 +14,6 @@ objectGenderMale = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Change Partners - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Change Partners - Ly - C Alto Voice"}
+\song{Change Partners - C}{"../Alto Voice/Change Partners - Ly - C Alto Voice"}
 
 %}

@@ -14,8 +14,6 @@ showLyrics = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Well You Needn't Lyrics - F to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Well You Needn't Lyrics - Ly - F to D for Eb for Standard"}
+\song{Well You Needn't Lyrics - F to D}{"../Standard/Eb/Well You Needn't Lyrics - Ly - F to D for Eb for Standard"}
 
 %}

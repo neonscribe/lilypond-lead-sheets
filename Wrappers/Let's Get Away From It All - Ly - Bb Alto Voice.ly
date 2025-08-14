@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Let's Get Away From It All - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Let's Get Away From It All - Ly - Bb Alto Voice"}
+\song{Let's Get Away From It All - Bb}{"../Alto Voice/Let's Get Away From It All - Ly - Bb Alto Voice"}
 
 %}

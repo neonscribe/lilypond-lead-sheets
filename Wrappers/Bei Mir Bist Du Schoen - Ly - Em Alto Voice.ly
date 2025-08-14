@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Bei Mir Bist Du Schoen - Em}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Bei Mir Bist Du Schoen - Ly - Em Alto Voice"}
+\song{Bei Mir Bist Du Schoen - Em}{"../Alto Voice/Bei Mir Bist Du Schoen - Ly - Em Alto Voice"}
 
 %}

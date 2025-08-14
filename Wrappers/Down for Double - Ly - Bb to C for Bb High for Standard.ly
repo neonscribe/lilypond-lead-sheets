@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Down for Double - Bb to C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Down for Double - Ly - Bb to C for Bb High for Standard"}
+\song{Down for Double - Bb to C}{"../Standard/Bb/Down for Double - Ly - Bb to C for Bb High for Standard"}
 
 %}

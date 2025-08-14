@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Yes Sir, That's My Baby - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Yes Sir That's My Baby - Ly - Ab Alto Voice"}
+\song{Yes Sir, That's My Baby - Ab}{"../Alto Voice/Yes Sir That's My Baby - Ly - Ab Alto Voice"}
 
 %}

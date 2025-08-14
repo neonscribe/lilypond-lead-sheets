@@ -14,8 +14,6 @@ femaleSinger = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Blues in the Night - Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Blues in the Night - Ly - Eb Alto Voice"}
+\song{Blues in the Night - Eb}{"../Alto Voice/Blues in the Night - Ly - Eb Alto Voice"}
 
 %}

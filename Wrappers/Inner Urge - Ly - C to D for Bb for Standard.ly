@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Inner Urge - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Inner Urge - Ly - C to D for Bb for Standard"}
+\song{Inner Urge - C to D}{"../Standard/Bb/Inner Urge - Ly - C to D for Bb for Standard"}
 
 %}

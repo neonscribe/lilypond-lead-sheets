@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Western Swing" 4 = 180
+  \tempo "Western Swing [Bob Wills 1936]" 4 = 176
 
   \partial 2 as4 b4 |
   \bar "||"

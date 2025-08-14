@@ -116,7 +116,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing" 4 = 180
+  \tempo "Medium-Up [Anita O'Day 1952]" 4 = 170
 
   \xTextMark \markup{ \bold \box "A1" }
   

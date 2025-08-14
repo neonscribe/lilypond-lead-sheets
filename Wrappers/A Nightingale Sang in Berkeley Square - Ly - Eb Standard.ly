@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{A Nightingale Sang in Berkeley Square - Eb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/A Nightingale Sang in Berkeley Square - Ly - Eb Standard"}
+\song{A Nightingale Sang in Berkeley Square - Eb}{"../Standard/A Nightingale Sang in Berkeley Square - Ly - Eb Standard"}
 
 %}

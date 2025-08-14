@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Naima - Ab to Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Naima - Ly - Ab to Bb for Bb for Standard"}
+\song{Naima - Ab to Bb}{"../Standard/Bb/Naima - Ly - Ab to Bb for Bb for Standard"}
 
 %}

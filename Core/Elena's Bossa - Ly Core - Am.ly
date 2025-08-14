@@ -46,7 +46,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 160
+  \tempo "Medium [Gonzalo Bergara 2007]" 4 = 180
 
   \xTextMark \markup{ \bold \box "Intro" }
   

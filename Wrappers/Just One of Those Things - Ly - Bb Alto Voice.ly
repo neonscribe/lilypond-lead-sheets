@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Just One of Those Things - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Just One of Those Things - Ly - Bb Alto Voice"}
+\song{Just One of Those Things - Bb}{"../Alto Voice/Just One of Those Things - Ly - Bb Alto Voice"}
 
 %}

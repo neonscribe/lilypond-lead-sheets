@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{It Never Entered My Mind - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/It Never Entered My Mind - Ly - Ab Alto Voice"}
+\song{It Never Entered My Mind - Ab}{"../Alto Voice/It Never Entered My Mind - Ly - Ab Alto Voice"}
 
 %}

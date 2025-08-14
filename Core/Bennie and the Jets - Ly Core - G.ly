@@ -28,7 +28,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempo "Slow" 4 = 66
+  \tempo "Slow [Elton John 1973]" 4 = 66
 
   \xTextMark \markup{ \bold \box "Intro" }
   
@@ -84,7 +84,6 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow" 4 = 66
 
   \xTextMark \markup{ \bold \box "Verse" }
   
@@ -92,6 +91,7 @@ refrainMelody = \relative f' {
   b16 as16 b16 as16 b16 as16 b16 as16 b16 as16 b16 as16 b16 d8. |
   r16 a16 e'16 d16 e16 d8 e16~ e16 d16 d16 b16~ b8 \tuplet 3/2 { d16 b16 e16~( } |
   e16 b8.~ b8) r8 r4 r8 r16 d16 | e16 d16 e16 d16 e8 d16 e16~ e16 d16 d16 b16 d8 b16 e16~ | e2 r4 r16 g8. |
+  \bar "||"
   
   \xPageBreak
   

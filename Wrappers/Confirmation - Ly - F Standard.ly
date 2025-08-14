@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Confirmation - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Confirmation - Ly - F Standard"}
+\song{Confirmation - F}{"../Standard/Confirmation - Ly - F Standard"}
 
 %}

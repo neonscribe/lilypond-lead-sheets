@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{St. James Infirmary - Dm to Bm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/St James Infirmary - Ly - Dm to Bm for Eb for Standard"}
+\song{St. James Infirmary - Dm to Bm}{"../Standard/Eb/St James Infirmary - Ly - Dm to Bm for Eb for Standard"}
 
 %}

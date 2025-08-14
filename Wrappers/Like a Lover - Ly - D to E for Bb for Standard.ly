@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Like a Lover (O Cantador) - D to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Like a Lover - Ly - D to E for Bb for Standard"}
+\song{Like a Lover (O Cantador) - D to E}{"../Standard/Bb/Like a Lover - Ly - D to E for Bb for Standard"}
 
 %}

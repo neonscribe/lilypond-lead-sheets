@@ -14,8 +14,6 @@ bassKey = bf,
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Red Clay - C\#m to Bbm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Red Clay - Ly - Csm to Bbm for Eb for Standard"}
+\song{Red Clay - C\#m to Bbm}{"../Standard/Eb/Red Clay - Ly - Csm to Bbm for Eb for Standard"}
 
 %}

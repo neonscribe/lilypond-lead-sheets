@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I Can't Stop Loving You - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/I Can't Stop Loving You - Ly - C Standard"}
+\song{I Can't Stop Loving You - C}{"../Standard/I Can't Stop Loving You - Ly - C Standard"}
 
 %}

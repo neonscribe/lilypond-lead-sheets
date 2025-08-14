@@ -14,8 +14,6 @@ useDFBChords = ##t
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Smile - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Smile - Ly - C to D for Bb for Standard"}
+\song{Smile - C to D}{"../Standard/Bb/Smile - Ly - C to D for Bb for Standard"}
 
 %}

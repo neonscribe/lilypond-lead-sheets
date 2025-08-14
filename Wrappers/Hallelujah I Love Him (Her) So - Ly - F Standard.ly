@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Hallelujah I Love Her So - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Hallelujah I Love Him (Her) So - Ly - F Standard"}
+\song{Hallelujah I Love Her So - F}{"../Standard/Hallelujah I Love Him (Her) So - Ly - F Standard"}
 
 %}

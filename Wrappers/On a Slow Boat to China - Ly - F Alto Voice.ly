@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{On a Slow Boat to China - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/On a Slow Boat to China - Ly - F Alto Voice"}
+\song{On a Slow Boat to China - F}{"../Alto Voice/On a Slow Boat to China - Ly - F Alto Voice"}
 
 %}

@@ -38,7 +38,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 130
+  \tempo "Medium-Up [Artie Shaw 1939]" 4 = 176
 
   \partial 2 \invisEighth d'8^\markup { Latin } d8 bf8 |
 

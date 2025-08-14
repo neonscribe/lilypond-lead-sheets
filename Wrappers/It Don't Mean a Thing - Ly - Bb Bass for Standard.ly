@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{It Don't Mean a Thing (If It Ain't Got That Swing) - Bb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/It Don't Mean a Thing - Ly - Bb Bass for Standard"}
+\song{It Don't Mean a Thing (If It Ain't Got That Swing) - Bb Bass}{"../Standard/Bass/It Don't Mean a Thing - Ly - Bb Bass for Standard"}
 
 %}

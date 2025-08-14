@@ -81,7 +81,7 @@ refrainMelody = \relative c'' {
   \key \refrainKey \major
   \clef \whatClef
   
-  \tempo "Medium Bossa" 4 = 122
+  \tempo "Medium Bossa [Stan Getz, Astrud Gilberto 1964]" 4 = 128
   
   \sectStart "A1, A2"
 

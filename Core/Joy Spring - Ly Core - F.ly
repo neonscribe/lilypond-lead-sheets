@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing" 4 = 160
+  \tempo "Medium Swing [Clifford Brown & Max Roach 1955]" 4 = 164
 
   \partial 2 \invisEighth c8 f8 c'8~ |
   \bar "||"

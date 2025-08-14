@@ -15,8 +15,6 @@ printNoteNames = ##f
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Bernie's Tune Lyrics - Dm to Bm}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Bernie's Tune Lyrics - Ly - Dm to Bm for Eb for Standard"}
+\song{Bernie's Tune Lyrics - Dm to Bm}{"../Standard/Eb/Bernie's Tune Lyrics - Ly - Dm to Bm for Eb for Standard"}
 
 %}

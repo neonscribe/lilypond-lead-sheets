@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{I Got It Bad and That Ain't Good - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/I Got It Bad and That Ain't Good - Ly - Bb Alto Voice"}
+\song{I Got It Bad and That Ain't Good - Bb}{"../Alto Voice/I Got It Bad and That Ain't Good - Ly - Bb Alto Voice"}
 
 %}

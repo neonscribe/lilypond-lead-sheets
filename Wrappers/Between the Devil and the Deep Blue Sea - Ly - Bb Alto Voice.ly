@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Between the Devil and the Deep Blue Sea - Bb}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Between the Devil and the Deep Blue Sea - Ly - Bb Alto Voice"}
+\song{Between the Devil and the Deep Blue Sea - Bb}{"../Alto Voice/Between the Devil and the Deep Blue Sea - Ly - Bb Alto Voice"}
 
 %}

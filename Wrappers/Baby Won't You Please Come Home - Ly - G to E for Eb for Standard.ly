@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Baby, Won't You Please Come Home - G to E}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Eb/Baby Won't You Please Come Home - Ly - G to E for Eb for Standard"}
+\song{Baby, Won't You Please Come Home - G to E}{"../Standard/Eb/Baby Won't You Please Come Home - Ly - G to E for Eb for Standard"}
 
 %}

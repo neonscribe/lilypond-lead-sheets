@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Pick Yourself Up - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Pick Yourself Up - Ly - C Alto Voice"}
+\song{Pick Yourself Up - C}{"../Alto Voice/Pick Yourself Up - Ly - C Alto Voice"}
 
 %}

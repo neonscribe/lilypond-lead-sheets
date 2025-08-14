@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Am I Blue - F to G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/Am I Blue - Ly - F to G for Bb for Standard"}
+\song{Am I Blue - F to G}{"../Standard/Bb/Am I Blue - Ly - F to G for Bb for Standard"}
 
 %}

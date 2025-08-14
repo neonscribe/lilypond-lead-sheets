@@ -13,8 +13,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Strawberry Fields Forever - A}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Strawberry Fields Forever - Ly - A Standard"}
+\song{Strawberry Fields Forever - A}{"../Standard/Strawberry Fields Forever - Ly - A Standard"}
 
 %}

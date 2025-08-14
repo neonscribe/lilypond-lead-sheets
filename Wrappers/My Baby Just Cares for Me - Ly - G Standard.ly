@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{My Baby Just Cares for Me - G}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/My Baby Just Cares for Me - Ly - G Standard"}
+\song{My Baby Just Cares for Me - G}{"../Standard/My Baby Just Cares for Me - Ly - G Standard"}
 
 %}

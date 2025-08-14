@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Once in a While - F}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Once in a While - Ly - F Alto Voice"}
+\song{Once in a While - F}{"../Alto Voice/Once in a While - Ly - F Alto Voice"}
 
 %}

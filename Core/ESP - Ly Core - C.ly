@@ -32,7 +32,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Fast [Miles Davis 1965]" 4 = 288
 
   \sectStart "A1"
   

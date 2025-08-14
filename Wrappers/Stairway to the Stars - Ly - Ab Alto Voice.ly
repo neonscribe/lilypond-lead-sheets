@@ -12,8 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Stairway to the Stars - Ab}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Alto Voice/Stairway to the Stars - Ly - Ab Alto Voice"}
+\song{Stairway to the Stars - Ab}{"../Alto Voice/Stairway to the Stars - Ly - Ab Alto Voice"}
 
 %}

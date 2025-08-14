@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{You and the Night and the Music - Cm Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/You and the Night and the Music - Ly - Cm Bass for Standard"}
+\song{You and the Night and the Music - Cm Bass}{"../Standard/Bass/You and the Night and the Music - Ly - Cm Bass for Standard"}
 
 %}

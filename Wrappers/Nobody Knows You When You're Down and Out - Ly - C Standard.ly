@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Nobody Knows You When You're Down and Out - C}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Nobody Knows You When You're Down and Out - Ly - C Standard"}
+\song{Nobody Knows You When You're Down and Out - C}{"../Standard/Nobody Knows You When You're Down and Out - Ly - C Standard"}
 
 %}

@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Straighten Up and Fly Right - Ab Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Straighten Up and Fly Right - Ly - Ab Bass for Standard"}
+\song{Straighten Up and Fly Right - Ab Bass}{"../Standard/Bass/Straighten Up and Fly Right - Ly - Ab Bass for Standard"}
 
 %}

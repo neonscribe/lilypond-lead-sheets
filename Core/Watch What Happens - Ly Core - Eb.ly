@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Bossa Nova" 4 = 130
+  \tempo "Medium Bossa Nova [Sergio Mendes 1967]" 4 = 132
 
   \xTextMark \markup{ \bold \box "A" }
   

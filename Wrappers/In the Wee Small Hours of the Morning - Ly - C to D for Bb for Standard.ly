@@ -12,8 +12,6 @@ whatClef = "treble"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{In the Wee Small Hours of the Morning - C to D}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bb/In the Wee Small Hours of the Morning - Ly - C to D for Bb for Standard"}
+\song{In the Wee Small Hours of the Morning - C to D}{"../Standard/Bb/In the Wee Small Hours of the Morning - Ly - C to D for Bb for Standard"}
 
 %}

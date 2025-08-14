@@ -12,8 +12,6 @@ whatClef = "bass"
 
 %{
 
-\phantomsection
-\addcontentsline{toc}{section}{Where or When - Eb Bass}
-\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{"../Standard/Bass/Where or When - Ly - Eb Bass for Standard"}
+\song{Where or When - Eb Bass}{"../Standard/Bass/Where or When - Ly - Eb Bass for Standard"}
 
 %}
