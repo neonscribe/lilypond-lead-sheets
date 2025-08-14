@@ -65,6 +65,7 @@ to the `Book` folder.
 
 Here's an example of the output:
 
-![At Sundown - Ly - F Standard](https://github.com/user-attachments/assets/56d02e90-1e1d-4c94-843e-c155c8969727)
+<img width="835" height="1181" alt="At Sundown - Ly - F Standard" src="https://github.com/user-attachments/assets/ddb36f98-bb78-4184-9017-dc31501fe25e" />
+
 
 
