@@ -133,6 +133,19 @@ daCapoAfterSolos = {
   }
 }
 
+daCapoAlFine = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \xTextEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.C. al Fine"
+  }
+}
+
 daCapoAlFineAfterSolos = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #RIGHT

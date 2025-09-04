@@ -70,7 +70,7 @@ refrainHLChords = \chordmode {
 
   ef1:maj7 f1:7/ef d1:m7 g1:m7
   c1:m7 cs1:dim7 bf1:6/d cs1:dim7
-  c1:m7 f2:sus9 f2:8.9- bf1:6
+  c1:m7 f2:sus9 f2:7.9- bf1:6
   \chordOpenParen{ f2:m7 }
   \chordCloseParen{ bf2:7 }
 }

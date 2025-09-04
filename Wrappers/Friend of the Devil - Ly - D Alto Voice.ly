@@ -6,7 +6,7 @@
 
 instrument = "Grace Potter Key"
 whatKey = d
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Friend of the Devil - Ly Core - G.ly"
 

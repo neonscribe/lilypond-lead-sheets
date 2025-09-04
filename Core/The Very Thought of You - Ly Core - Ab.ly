@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1934 Campbell Connelly & Co. Ltd."
 }
 
-refrainLyrics = \lyricmode {
+refrainMaleSingerLyrics = \lyricmode {
 The ve -- ry thought of you, __ and I for -- get to do __
 the lit -- tle or -- di -- na -- ry things that ev -- 'ry -- one ought to do. __
 I'm liv -- ing in a kind of day -- dream, I'm hap -- py as a king;
@@ -22,6 +22,22 @@ You'll nev -- er know how slow the mo -- ments go 'til I'm near to you. __
 I see your face in ev -- 'ry flow -- er, your eyes in stars a -- bove; __
 It's just the thought of you, __ the ver -- y thought of you, my love. __
 }
+
+refrainFemaleSingerLyrics = \lyricmode {
+The ve -- ry thought of you, __ and I for -- get to do __
+the lit -- tle or -- di -- na -- ry things that ev -- 'ry -- one ought to do. __
+I'm liv -- ing in a kind of day -- dream, I'm hap -- py as a queen;
+And, fool -ish tho' it may seem, to me __ that's ev -- 'ry -- thing.
+The mere i -- dea of you, __ the long -- ing here for you; __
+You'll nev -- er know how slow the mo -- ments go 'til I'm near to you. __
+I see your face in ev -- 'ry flow -- er, your eyes in stars a -- bove; __
+It's just the thought of you, __ the ver -- y thought of you, my love. __
+}
+
+refrainLyrics =
+#(if (and (defined? 'femaleSinger) femaleSinger)
+  refrainFemaleSingerLyrics
+  refrainMaleSingerLyrics)
 
 refrainChords = \chordmode {
   s2

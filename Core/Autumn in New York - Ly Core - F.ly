@@ -17,9 +17,9 @@ Glit -- ter -- ing crowds and shim -- mer -- ing clouds
 in can -- yons of steel, __ they're mak -- ing me feel __ I'm home. __
 It's Au -- tumn in New York, __
 that brings the pro -- mise of new love;
-Au -- tumn in New York is of -- ten min -- gled with pain. __
+Au -- tumn in New York __ is of -- ten min -- gled with pain. __
 Dream -- ers with emp -- ty hands may sigh for ex -- ot -- ic lands;
-It's Autumn in New York, __ it's good to live it a -- gain.
+It's Au -- tumn in New York, __ it's good to live it a -- gain.
 }
 
 refrainLyricsTwo = \lyricmode {

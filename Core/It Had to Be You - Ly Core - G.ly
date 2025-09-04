@@ -31,19 +31,19 @@ had to be you. __
 refrainChords = \chordmode {
   s2.
   
-  g1 g1 e1:7 e1:7
+  g2:maj7 d2:7.5+ g1:maj7 e1:7 e1:7
   a1:7 a1:7 a1:7 a1:7
 
-  d1:7 d2:7 b2:7 e1:m e1:m
-  a1:7 a1:7 d1:7 d1:7
+  d1:7 d2:7 ds2:dim7 e1:m7 e1:m7
+  a1:7 a1:7 d2:7 ef2:7.5- d2:7 d2:7.5+
   
-  g1 g1 e1:7 e1:7
-  a1:7 a1:7 a1:7 g1:7
-  c1 f1:7 g2 b2:7 e1:m
-  d2:7 af2:dim7 d1:7 g2:6
-  \chordOpenParen{ bf2:dim7 }
-  a2:m7
-  \chordCloseParen{ d2:7 }
+  g2:maj7 d2:7.5+ g1:maj7 e1:7 e1:7
+  a1:7 a1:7 a1:7 a2:7 g2:7
+
+  c1:maj7 f1:7 g2:maj7 b2:7 e2:m7 bf2:dim7
+  d2:7 bf2:dim7 d1:7 g2:6 c2:m g2:6
+  \chordOpenParen{ a4:m7 }
+  \chordCloseParen{ d4:7 }
 }
 
 refrainKey = g

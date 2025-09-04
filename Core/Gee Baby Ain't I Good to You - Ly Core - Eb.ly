@@ -40,11 +40,12 @@ refrainLyrics =
   refrainObjectGenderFemaleLyrics)
 
 refrainChords = \chordmode {
+  %{
   af2:6 a2:dim7 ef2:6/bf ef2:7
   af2:6 a2:dim7 d2:m7.5- g2:7
   c2:7 af2:7 g2:7 c2:7
   f2:7 bf2:7 ef2:6 af4:7 g4:7
-
+  %}
   c2:7 af2:7 g2:7 c2:7 f2:7 bf2:7 ef2:6 g2:7
   c2:7 af2:7 g2:7 c2:7 f2:7 bf2:7 ef2:6 ef2:7
   
@@ -64,12 +65,14 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Blues Ballad [Nat King Cole 1943]" 4 = 75
 
+  %{
   \sect "Intro"
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  %}
   
-  \sect "A"
+  \sectStart "A"
   
   c'4~ \tuplet 3/2 { c8 g8 af8 } bf8 ef,4 f8 | g4~ \tuplet 3/2 { g8 af8 fs8 } g2 |
   %% \break
