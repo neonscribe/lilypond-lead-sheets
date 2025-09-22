@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
   
   ef4. c8 ef4. c8 | bf4 bf2 af4 | c4. af8 c4. af8 | g2. f4 |
   \break
-  ef4. c8 ef4. f8 | g4 g2 af4 | bf2~ bf8 af8 f8 d8 | bf2 r8 c8 ef8 c8 |
+  ef4. c8 ef4. f8 | g4 g2 af4 | bf2~ bf8 af8 f8 df8 | bf2 r8 c8 ef8 c8 |
   
   \sect "A2"
   
@@ -105,3 +105,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
+
+\markup { "The" \noteName { \transpose \refrainKey \whatKey f } "note in measure 29 is sometimes sung as"
+	   \noteName { \transpose \refrainKey \whatKey g } "instead." }

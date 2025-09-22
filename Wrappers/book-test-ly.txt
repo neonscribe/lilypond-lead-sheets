@@ -1,0 +1,9 @@
+\version "2.25.28"
+
+\book {
+\bookOutputName "Test Book"
+\markuplist \table-of-contents
+\pageBreak
+\tocItem \markup "test 1"
+#(lilypond-main '("502 Blues - Ly - Am Standard.ly"))
+}

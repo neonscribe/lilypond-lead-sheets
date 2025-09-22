@@ -327,3 +327,18 @@ context-property."
               (set! bass-pitch #f))))
         ((finalize this-engraver)
           (set! last-chord-pitches '()))))))
+
+#(define-markup-command (noteName layout props mus) (ly:music?)
+   ;; accept mus as music instead of pitch
+   ;; in order to allow for transposition
+   (let*
+    ((pitch (first (music-pitches (no-double-accidental mus))))
+     (alt (ly:pitch-alteration pitch)))
+    (interpret-markup
+     layout
+     props
+     (markup #:concat
+             ((string-upcase (note-name->string pitch))
+              (if (zero? alt)
+                  empty-markup
+                  (alteration->text-accidental-markup alt)))))))

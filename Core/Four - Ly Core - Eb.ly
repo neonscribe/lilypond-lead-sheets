@@ -12,6 +12,21 @@
   copyright = \markup \small "© 1963 Prestige Music Inc."
 }
 
+xrefrainLyrics = \lyricmode {
+Of the won -- der -- ful things that you get out of life there are four
+And they may not be man -- y but no -- bod -- y needs an -- y more
+Of the man -- y facts mak -- ing the list of life
+Truth takes the lead
+And to re -- lax know -- ing the gist of life
+It's truth you need
+
+Then the sec -- ond is hon -- or and hap -- pi -- ness makes num -- ber three
+When you put them to -- geth -- er you know what the last one must be
+Ba -- by so truth, hon -- or and hap -- pi -- ness
+And one thing more
+Meaning only won -- der -- ful, won -- der -- ful love that -- 'll make four
+}
+
 refrainChords = \chordmode {
   s2
   

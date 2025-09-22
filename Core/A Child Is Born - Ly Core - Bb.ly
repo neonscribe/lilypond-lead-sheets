@@ -2,14 +2,34 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "A Child Is Born"
   subtitle = \instrument
-  poet = ""
+  poet = "Alec Wilder"
   composer = "Roland Hanna (credited to Thad Jones)"
   copyright = \markup \small "© 1969 D'Accord Music, Inc."
+}
+
+refrainLyrics = \lyricmode {
+Now
+out of the night,
+new as the dawn,
+in -- to the light,
+this child,
+in -- no -- cent child,
+soft as the fawn,
+this child is born.
+
+One __ small heart,
+one pair of eyes,
+one work of art
+here in my arms,
+here he lies,
+trust -- ing and warm,
+bless -- ed this morn
+a child is born.
 }
 
 refrainChords = \chordmode {
@@ -22,9 +42,7 @@ refrainChords = \chordmode {
   bf2.:maj7 ef2.:m6/bf bf2.:maj7 ef2.:m6/bf
   bf2.:maj7 d2.:7.5+.9+ ef2.:maj7 af2:9 c4:m7.5-/gf
   bf2.:maj7/f ef2.:m6/gf g2.:m7 c2.:7
-  c2.:m9/f f2.:7
-  
-  bf2.:maj7 ef2.:m6/bf bf2.:maj7 ef2.:m6/bf bf2.:maj7
+  c2.:m9/f f2.:7 bf2.:maj7 ef2.:m6/bf bf2.:maj7
 }
 
 refrainKey = bf
@@ -55,15 +73,9 @@ refrainMelody = \relative f' {
 
   \sect "A3"
 
-  f2. | ef4 f4 bf4 | d,2. |
+  f2. | ef4 f4 bf4 | d,2. | e4 g4 c4 |
   \break
-  e4 g4 c4 | d2. | f,2. \textToCodaLastTime |
-
-  \textCodaBreak
-  
-  \bar "||-|."
-
-  d2. | ef4 f4 bf4 | d,2. | ef4 f4 bf4 | d2.\fermata |
+  d2 f,4 | f2 f4 | f2. | ef4 f4 bf4 | d2. |
   
   \bar "|."
 }

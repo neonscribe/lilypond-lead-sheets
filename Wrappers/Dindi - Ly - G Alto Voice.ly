@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+instrument = "Denise Perrier Key"
 whatKey = g,
 whatClef = "treble_8"
 

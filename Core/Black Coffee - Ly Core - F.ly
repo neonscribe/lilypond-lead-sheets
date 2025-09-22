@@ -10,45 +10,30 @@
   copyright = \markup \small "© 1948 Webster Music Co. and Sondot Music Corporation"
 }
 
-refrainLyrics = { \lyricmode {
+refrainFemaleSingerLyrics = \lyricmode {
 I'm feel -- in' might -- y lone -- some,
 have -- n't slept a wink,
-I walk the floor from nine to four,
+I walk the floor and watch the door,
 and in be -- tween I drink
 black cof -- fee. __
 Love's a hand -- me -- down broom. __
-I'll nev -- er know a Sun -- day,
-_ in this week -- day room. __
+I'll nev -- er know a Sun -- day, _ in this week -- day room. __
 
 I'm talk -- in' to the shad -- ows,
 one o' -- clock to four.
 And Lord, how slow the mo -- ments go
-and all I do is pour
+when all I do is pour
 black cof -- fee __
 since the blues caught my eye. __
 I'm hang -- in' out on Mon -- day
 my Sun -- day dreams to dry. __
-}
 
-#(if (and (defined? 'maleSinger) maleSinger)
-  #{
-\lyricmode {
-Now a man is born to love a wo -- man __
-to work and slave to pay her debts. __
-Just be -- cause he's on -- ly hu -- man, __
-to drown his past re -- grets
-In cof -- fee and cig -- a -- rettes.
-} #}
-  #{
-\lyricmode {
 Now a man is born to go a lov -- in', __
 a wo -- man's born to weep and fret. __
 To stay at home and tend her ov -- en, __
 And drown her past re -- grets
 In cof -- fee and cig -- a -- rettes.
-} #} )
 
-\lyricmode {
 I'm moon -- in' all the morn -- in',
 and mourn -- in' all the night,
 and in be -- tween it's nic -- o -- tine
@@ -58,7 +43,46 @@ Feel -- in' low as the ground.
 It's driv -- in' me cra -- zy,
 This wait -- in' for my ba -- by,
 to may -- be come a -- round. __
-} }
+}
+
+refrainMaleSingerLyrics = \lyricmode {
+I'm feel -- in' might -- y lone -- some,
+have -- n't slept a wink,
+I walk the floor and watch the door,
+and in be -- tween I drink
+black cof -- fee. __
+Since my gal went a -- way. __
+My nerves have gone to piec -- es and my hair's turn -- ing gray. __
+
+I'm talk -- in' to the shad -- ows,
+one o' -- clock to four.
+And Lord, how slow the mo -- ments go
+and all I do is pour
+black cof -- fee __
+Love's a sor -- ry af -- fair. __
+I know where all the blues are 'cause ba -- by, I've been there. __
+
+Now a man is born to love a wo -- man __
+to work and slave to pay her debts. __
+And just be -- cause he's on -- ly hu -- man, __
+to drown his past re -- grets
+In cof -- fee and cig -- a -- rettes.
+
+I'm moon -- in' all the morn -- in',
+and mourn -- in' all the night,
+and in be -- tween it's nic -- o -- tine
+and not much heart to fight.
+Black cof -- fee.
+Feel -- in' low as can be.
+It's driv -- in' me cra -- zy,
+This wait -- in' for my ba -- by,
+to come back home to me. __
+}
+
+refrainLyrics =
+#(if (and (defined? 'maleSinger) maleSinger)
+  refrainMaleSingerLyrics
+  refrainFemaleSingerLyrics)
 
 refrainHLChords = \chordmode {
   s4

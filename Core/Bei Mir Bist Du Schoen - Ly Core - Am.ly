@@ -12,7 +12,7 @@
   copyright = \markup \small "© 1932 J & J Kammen Music Company"
 }
 
-refrainLyrics = \lyricmode {
+refrainObjectGenderFemaleLyrics = \lyricmode {
 Of all the girls I've known and I've known some,
 un -- til I first met you I was lone -- some.
 And when you came in sight dear, my heart grew light and this old world seemed new to me.
@@ -32,6 +32,32 @@ I've tried to ex -- plain, bei mir bist du schön, so kiss me and say you un -- 
 
 (Bei)
 }
+
+refrainObjectGenderMaleLyrics = \lyricmode {
+Of all the boys I've known and I've known some,
+un -- til I first met you I was lone -- some.
+And when you came in sight dear, my heart grew light and this old world seemed new to me.
+
+You're real -- ly swell I have to ad -- mit,
+you de -- serve ex -- pres -- sions that real -- ly fit you.
+And so I've racked my brain, hop -- ing to ex -- plain all the things that you do to me.
+
+Bei mir bist du schön, please let me ex -- plain, bei mir bist du schön means that you're grand.
+
+Bei mir bist du schön, A -- gain I'll ex -- plain, it means you're the fair -- est in the land.
+
+I could say Bel -- la, Bel -- la, e -- ven say Voon -- der -- bar,
+each lan -- guage on -- ly helps me tell you how grand you are.
+
+I've tried to ex -- plain, bei mir bist du schön, so kiss me and say you un -- der -- stand.
+
+(Bei)
+}
+
+refrainLyrics =
+#(if (and (defined? 'objectGenderMale) objectGenderMale)
+  refrainObjectGenderMaleLyrics
+  refrainObjectGenderFemaleLyrics)
 
 refrainChords = \chordmode {
   s2

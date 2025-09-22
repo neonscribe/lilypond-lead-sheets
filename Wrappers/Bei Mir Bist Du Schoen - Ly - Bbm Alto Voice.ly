@@ -4,9 +4,11 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+instrument = "Katia Bronstein Key"
 whatKey = bf,
 whatClef = "treble_8"
+
+objectGenderMale = ##t
 
 \include "../Core/Bei Mir Bist Du Schoen - Ly Core - Am.ly"
 

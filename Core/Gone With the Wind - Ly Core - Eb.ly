@@ -27,7 +27,7 @@ an emp -- ty smoke dream that has gone, gone with the wind.
 }
 
 refrainChords = \chordmode {
-  f1:m7 bf1:7 ef1:maj7 g2:m7.5- c2:7.9-
+  %% f1:m7 bf1:7 ef1:maj7 g2:m7.5- c2:7.9-
 
   f2:m7 bf2:7 ef2:maj7 c2:7.9- f2:m7 bf2:7 ef1:maj7
   a2:m7 d2:7 g2:6 bf2:dim7 a2:m7 d2:7 g1:maj7
@@ -52,11 +52,13 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium [Wes Montgomery 1960]" 4 = 140
 
+  %{
   \sectStart "Intro"
   
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  %}
   
-  \sect "A1"
+  \sectStart "A1"
   
   c'2 bf4. bf8 | g1 | c4 c8 c8 bf8 bf4 bf8 | bf4. bf8 g2 |
   \break

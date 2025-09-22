@@ -2,8 +2,8 @@
 
 \include "english.ly"
 
-instrument = "Billie Holiday Key"
+instrument = "Billie Holiday, Annie Lennox Key"
 whatKey = df
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/I Cover the Waterfront - Ly Core - G.ly"

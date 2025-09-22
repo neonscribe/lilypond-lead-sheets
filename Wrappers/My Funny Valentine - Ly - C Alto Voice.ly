@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+instrument = "Shirley Bassey, Eydie Gormé Key"
 whatKey = c
 whatClef = "treble_8"
 

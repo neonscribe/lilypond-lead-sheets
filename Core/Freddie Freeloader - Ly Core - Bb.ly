@@ -16,7 +16,15 @@ refrainChords = \chordmode {
   bf1:7 bf1:7 bf1:7 bf1:7
   ef1:7 ef1:7 bf1:7 bf1:7
   f1:7 ef1:7 af1:7 af1:7
+
+  bf1:7 bf1:7 bf1:7 bf1:7
+  ef1:7 ef1:7 bf1:7 bf1:7
   f1:7 ef1:7 bf1:7 bf1:7
+
+  bf1:7 bf1:7 bf1:7 bf1:7
+  ef1:7 ef1:7 bf1:7 bf1:7
+  f1:7 ef1:7 af1:7 af1:7
+
   f1:7 ef1:7 af1:7 af1:7
 }
 
@@ -28,15 +36,14 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium [Miles Davis 1959]" 4 = 129
 
-  \xTextMark \markup{ \bold \box "A" }
-  
-  \bar ".|:"
-  \repeat volta 4 {
+  \sectStart "Head"
+
   <<
     \relative { g'2 f2~ | f2. r4 | g2 f2~ | f2. r4 | }
     \relative { d'2 c2~ | c2. r4 | d2 c2 | c2. r4 | }
     \relative { bf2 af2~ | af2. r4 | bf2 af2~ | af2. r4 | }
   >>
+  \bar "||-||"
   \break
 
   <<
@@ -44,9 +51,8 @@ refrainMelody = \relative f' {
     \relative { g'2 f2~ | f2. r4 | d2 c2 | c2. d4 | }
     \relative { ef'2 df2~ | df2. r4 | bf2 af2~ | af2. af4 | }
   >>
+  \bar "||-||"
   \break
-  \alternative {
-    \volta 1,3 {
   <<
     \relative { a'2. af4 | }
     \relative { ef'2. d4 | }
@@ -62,9 +68,23 @@ refrainMelody = \relative f' {
     \relative { c'1~ | c2. r4 | }
     \relative { gf1~ | gf2. r4 | }
   >>
+  \bar "||-||"
   \break
-  }
-  \volta 2 {
+  <<
+    \relative { g'2 f2~ | f2. r4 | g2 f2~ | f2. r4 | }
+    \relative { d'2 c2~ | c2. r4 | d2 c2 | c2. r4 | }
+    \relative { bf2 af2~ | af2. r4 | bf2 af2~ | af2. r4 | }
+  >>
+  \bar "||-||"
+  \break
+
+  <<
+    \relative { c''2 bf2~ | bf2. r4 | g2 f2~ | f2. af4 | }
+    \relative { g'2 f2~ | f2. r4 | d2 c2 | c2. d4 | }
+    \relative { ef'2 df2~ | df2. r4 | bf2 af2~ | af2. af4 \textToCodaLastTime | }
+  >>
+  \bar "||-||"
+  \break
   <<
     \relative { a'2. af4 | }
     \relative { ef'2. d4 | }
@@ -80,9 +100,18 @@ refrainMelody = \relative f' {
     \relative { d'2 c2~ | c2. r4 | }
     \relative { bf2 af2~ | af2. r4 | }
   >>
-  \break
+  \bar ".|:-||"
+  \sectNoBar "Solos"
+  \repeat volta 2 {
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \bar "||-||"
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \bar "||-||"
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
-  \volta 4 {
+  \bar "||-:|."
+  \textCodaBreak
+
   <<
     \relative { a'2. af4 | }
     \relative { ef'2. d4 | }
@@ -98,9 +127,8 @@ refrainMelody = \relative f' {
     \relative { d'2 c2~ | c2. r4 | }
     \relative { bf2 af2~ | af2. r4 | }
   >>
-  \break
-  } } }
   \bar "|."
+  
 }
 
 \include "../Include/paper.ily"
@@ -112,6 +140,4 @@ refrainMelody = \relative f' {
 
 \include "../Include/refrain.ily"
 
-\markup{ "Top line is melody. Play head twice before and twice after solos." }
-\markup{ "Ending 1 and 2 before solos, 3 and 4 after solos." }
-\markup{ "Ending 1 only for all solos." }
+\markup{ "Top line is melody." }

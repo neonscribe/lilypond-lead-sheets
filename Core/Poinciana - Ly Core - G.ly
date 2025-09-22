@@ -2,7 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "Poinciana"
@@ -10,6 +10,26 @@
   poet = "Buddy Bernier"
   composer = "Nat Simon"
   copyright = \markup \small "© 1936 Chappell & Co."
+}
+
+refrainLyrics = \lyricmode {
+_ _ _ _ _ _ _ _ _ _ _
+
+Poin -- ci -- an -- a __
+Your bran -- ches speak to me of love __
+Pale moon __ is cast -- ing sha -- dows from a -- bove __
+
+Poin -- ci -- an -- a
+Some -- how I feel the jun -- gle beat
+With -- in me, there grows a rhyth -- mic, sav -- age beat
+
+Love is ev -- 'ry -- where, its ma -- gic per -- fume fills the air
+To and fro you sway, my heart's in time
+I've learned to care
+
+Poin -- ci -- an -- a
+Though skies may turn from blue to gray
+My love will live for -- ev -- er and a day
 }
 
 refrainChords = \chordmode {

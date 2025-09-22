@@ -4,6 +4,6 @@
 
 instrument = "Standard Key"
 whatKey = g
-whatClef = "treble"
+whatClef = "treble_8"
 
 \include "../Core/Ain't Nothin' Like Christmas - Ly Core - G.ly"

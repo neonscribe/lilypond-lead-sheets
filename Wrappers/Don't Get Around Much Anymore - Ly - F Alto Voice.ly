@@ -1,6 +1,6 @@
 \version "2.24.0"
 
-instrument = "Alto Voice Key"
+instrument = "Patti Page Key"
 whatKey = f
 whatClef = "treble_8"
 

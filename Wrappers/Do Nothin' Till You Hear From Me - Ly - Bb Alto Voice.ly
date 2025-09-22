@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+instrument = "Carmen McRae (with Cal Tjader) Key"
 whatKey = bf
 whatClef = "treble_8"
 

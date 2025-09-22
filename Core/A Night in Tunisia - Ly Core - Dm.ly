@@ -16,7 +16,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 }
 
 refrainChords = \chordmode {
-  ef1:7 d1:m
+  ef1:9.11+ d1:m6
 
   s8
 

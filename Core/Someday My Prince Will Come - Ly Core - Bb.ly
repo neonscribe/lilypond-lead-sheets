@@ -38,16 +38,16 @@ Some -- day when my dreams come true. __
 
 refrainChords = \chordmode {
   bf2.:maj7 d2.:7.5+ ef2.:maj7 g2.:7.5+
-  c2.:m7 g2.:7.5+ c2.:7 f2.:7
+  c2.:m7 g2.:7.5+ c2.:m7 f2.:7
 
   d2.:m7 cs2.:dim7 c2.:m7 f2.:7
-  d2.:m7 cs2.:dim7 c2.:7 f2.:7
+  d2.:m7 cs2.:dim7 c2.:m7 f2.:7
 
   bf2.:maj7 d2.:7.5+ ef2.:maj7 g2.:7.5+
   c2.:m7 g2.:7.5+ c2.:m7 f2.:7
 
   bf2.:maj7 d2.:7.5+ ef2.:maj7 e2.:dim7
-  bf2.:maj7/f g2.:7 c2:m7 f2:7
+  bf2.:maj7/f g2.:7 c2.:m7 f2.:7
 }
 
 refrainKey = bf
