@@ -10,7 +10,7 @@ Python3.
 
 Bash shell. Shell scripts, with .sh extensions, all begin with `#!/bin/bash`
 
-LilyPond 2.25.25
+LilyPond 2.25 (the development branch, due to some bug fixes not in 2.24)
 
 LuaLaTeX
 
@@ -23,7 +23,8 @@ and flat glyphs, and C059 font in TeX to match LilyPond fonts.
 That's about it. I use MacTeX for my TeX installation, and Homebrew
 for LilyPond. Bash is included in MacOS as an alternative to zsh.
 
-All the development work has been on MacOS, but in April 2025 I built everything successfully on a fresh install of Ubuntu 25.04.
+All the development work has been on MacOS, but in April 2025 I built
+everything successfully on a fresh install of Ubuntu 25.04.
 
 ## Structure
 
