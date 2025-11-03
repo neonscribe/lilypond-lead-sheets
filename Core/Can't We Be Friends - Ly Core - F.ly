@@ -2,7 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \header {
   title = "Can't We Be Friends"
@@ -78,20 +78,20 @@ refrainMelody = \relative f' {
   
   a2 d,8 e8 f8 g8 | a8 bf8 c8 c8~ c2 | d4. f8 df2 | d8 c8 a8 f8 d8 df8~ df4 |
   c2~ c8 cs8 d8 f8 | a4 d8 a8~ a8 gs8 g4 | f8 g8 f8 f8~ f2 | r1 |
-  
-  \sect "A2"
+  \sectStart "A2"
   
   a2 d,8 e8 f8 g8 | a8 bf8 c8 c8~ c2 | d4. f8 df2 | d8 c8 a8 f8 d8 df8~ df4 |
   c2~ c8 cs8 d8 f8 | a4 d8 a8~ a8 gs8 g4 | f8 g8 f8 f8~ f2 | r1 |
-  
-  \sect "B"
-  
-  d'2~ d8 ef8 e4 | f2~ f8 e4 d8 | c2~ c8 b4 bf8 | a4 c4 cs4 d4 |
-  e2~ e8 fs,8 g8 bf8~ | bf4 bf4 c4 cs4 | d1 | r1 |
   \bar "||"
 
   \xPageBreak
-  \sectStart "A3"
+  
+  \sectStart "B"
+  
+  d'2~ d8 ef8 e4 | f2~ f8 e4 d8 | c2~ c8 b4 bf8 | a4 c4 cs4 d4 |
+  e2~ e8 fs,8 g8 bf8~ | bf4 bf4 c4 cs4 | d1 | r1 |
+
+  \sect "A3"
 
   a2 d,8 e8 f8 g8 | a8 bf8 c8 c8~ c2 | d4. f8 df2 | d8 c8 a8 f8 d8 df8~ df4 |
   c2~ c8 cs8 d8 f8 | a4 d8 a8~ a8 gs8 g4 | f8 g8 f8 f8~ f2 | r1 |

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Englsh lyrics by Albert Beach"
   composer = "Charles Trenet"
-  copyright = \markup \small "© 19xx Inc."
+  copyright = \markup \small "© 1943 Editions Salabert France"
 }
 
 refrainLyrics = \lyricmode {

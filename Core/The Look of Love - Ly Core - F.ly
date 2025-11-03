@@ -53,6 +53,7 @@ refrainChords = \chordmode {
 refrainKey = f
 
 refrainMelody = \relative f' {
+  \numericTimeSignature
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
@@ -79,6 +80,7 @@ refrainMelody = \relative f' {
   r4 a8 c8~ c8 bf4 a8 |
   \time 2/4
   bf4 g4 |
+  \numericTimeSignature
   \time 4/4
   d8 c8 c8 a8 c4 a8 g'8~ |
   \break

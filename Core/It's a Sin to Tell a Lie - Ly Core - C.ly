@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Billy Mayhew"
-  copyright = \markup \small "© 1933 Warner Bros, Inc."
+  copyright = \markup \small "© 1936 Bregman, Vocco and Conn, Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -19,8 +19,8 @@ Mil -- lions of hearts have been bro -- ken
 just be -- cause these words were spo -- ken.
 I love you, yes, I do, I love you.
 If you break my heart I'll die. __
-So be sure that it's true when you say, “I love you.”
-It's sin to tell a lie. __
+So be sure it's true when you say, “I love you.”
+It's a sin to tell a lie. __
 }
 
 refrainChords = \chordmode {

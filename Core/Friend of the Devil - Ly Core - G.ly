@@ -83,7 +83,6 @@ refrainMelody = \relative f' {
   \alternative { \volta 1,2,4 {
   a2.( d,4~ | d1) | r1 | r1 |
   } \volta 3,5 {
-  \break
   a'2.( d,4~ | d1) | r1 | r1 |
   \bar "||"
 
@@ -137,17 +136,6 @@ codaMelody = \relative f' {
 codaRaggedRight = ##t
 
 \include "../Include/coda.ily"
-
-%{
-I ran into the devil babe, he loaned me twenty bills
-I spent the night in Utah in a cave up in the hills
-
-I ran down to the levee but the devil caught me there (note b)
-He took my twenty dollar bill and vanished in the air
-
-Got a wife in Chino babe, and one in Cherokee
-First one says she's got my child but it don't look like me
-%}
 
 \markup {
   \column {

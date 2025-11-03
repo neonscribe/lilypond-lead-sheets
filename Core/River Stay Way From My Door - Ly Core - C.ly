@@ -29,21 +29,49 @@ refrainLyrics = \lyricmode {
   Riv -- er, stay 'way from my door.
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   c2 d2:m7 c2/e c2:7 f2 fs2:dim7 c2 a2:7
-  d1:7 af2:7 g2:7 c2 f2:7 c2 g2:7
+  d1:7 af2:7 g2:7 c2 f2:7 af2:7 g2:7
+
+  c2 d2:m7 c2/e c2:7 f2 fs2:dim7 c2 a2:7
+  d1:7 af2:7 g2:7 c1 fs2:m7.5- b2:7
+ 
+  e1:m b1:7 e1:m7 a1:7 
+  g1 gs1:dim7 d2:7/a af2:9.11- g1:7
+
+  c2:6 d2:m7 c2 c2:7 f2 fs2:dim7 c2 a2:7
+  d1:7 af2:7 g2:7 c2 af2:9 c2
+  \chordInsideParens{ g2:7 }
+}
+
+refrainNicoChords = \chordmode {
+  c2 d2:m7 c2 c2:7 f2 fs2:dim7 c2 a2:7
+  d1:7 g1:7 c2 f2:7 c2 g2:7
 
   c2 d2:m7 c2/e c2:7 f2 fs2:dim7 c2 a2:7
   d1:7 af2:7 g2:7 c2 f2 c2 b2:7
   
   e1:m e1:m7+ e1:m7 a2:7 af2:maj7
-  g2 e2:m a2:7 d2:7 g2 d2:7.5+ g2:7.9+ b2:dim7
+  g2 e2:m a2:7 d2 g2 d2:7.5+ g4 g4:7.9+ b2:dim7
 
   c2:6 d2:m7 c2 c2:7 f2 fs2:dim7 c2 a2:7
-  d1:7 af2:7 g2:7 c2 f2 c2
-
+  d1:7 g1:7 c2 f2 c2
   \chordInsideParens{ g2:7 }
 }
+
+refrainNOJamChords = \chordmode {
+  c1 c1:7 f1 c1 d1:7 af2:7 g2:7 c1 g1:7
+  c1 c1:7 f1 c1 d1:7 af2:7 g2:7 c1 b1:7
+  e1:m e1:m e1:m a1:7 g1 g1 d1:7 g1:7
+  c1 c1:7 f1 c1 d1:7 af2:7 g2:7 c1 c1
+}
+
+refrainChords =
+#(if (and (defined? 'useNOJamChords) useNOJamChords)
+  refrainNOJamChords
+  (if (and (defined? 'useNicoChords) useNicoChords)
+   refrainNicoChords
+   refrainHLChords))
 
 refrainKey = c
 
@@ -56,21 +84,25 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
   
   c4 c4 c4 d4 | e4 g2. | c4 c4 c4 a4 | g4 e2. |
+  \break
   e4 d2 c4 | ef2 ef4 d4 | c1~ | c4 r4 r2 |
   
   \sect "A2"
   
   c4 c4 c4 d4 | e4 g2. | c4 c4 c4 a4 | g4 e2. |
+  \break
   e4 d2 c4 | ef2 ef4 d4 | c1~ | c4 r4 r2 |
   
   \sect "B"
   
   b'4 b8 b8~ b8 e,8 g4 | b4 b2. | b4 b4 e,4 g4 | b1 |
+  \break
   d4 d8 d8~ d8 g,8 b4 | d4 d2. | r4 d4 d4 d4 | g,1 |
   
   \sect "A3"
 
   c,4 c4 c4 d4 | e4 g2. | c4 c4 c4 a4 | g4 e2. |
+  \break
   e4 d2 c4 | ef2 ef4 d4 | c1~ | c2 r2 |
 
   \bar "|."

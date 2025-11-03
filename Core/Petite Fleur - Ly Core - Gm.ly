@@ -126,7 +126,29 @@ refrainDjamChords = \chordmode {
   a1:m7.5- d1:7 g2:m c2:m g1:m
 }
 
-refrainChords = \refrainDjamChords
+refrainDFBChords = \chordmode {
+  g2:m7 a2:7 d4:7 r2.
+  
+  d1:7 d1:7 g1:m g2:m g2:m
+  a1:7 d1:7 g1:m g1:m
+
+  d1:7 d1:7 bf1 bf2 b2:dim7
+  c1:m7 f1:7 bf2 d2:7 g2:m c2:m
+  
+  a2:m7.5- a2:m7.5-/g d2:7/fs d2:7 g2:m g2:m/f e1:m7.5-
+  a1:7 a1:7 d2:7 ef2:7 d1:7
+  
+  d1:7 d1:7 g1:m g1:m
+  a1:m7.5- d1:7 g2:m c2:m g2:m g2:7
+
+  g1:7 g1:7 c1:m c2:m c2:m/bf
+  f2:7/a f2:7/g f1:7 bf2. ef4 d1:7
+
+  d1:7 d1:7 g1:m g2:m g2:m/f
+  a1:m7.5-/ef d1:7 g2:m c2:m g1:m
+}
+
+refrainChords = \refrainDFBChords
 
 refrainKey = g
 

@@ -38,8 +38,6 @@ refrainChords = \chordmode {
   f1:7 f1:7 d1:7 d1:7
   ef1 e1:dim7 bf1/f g1:7
   ef2 e2:dim7 bf2/f g2:7 c2:7 f2:7 bf1
-  
-  bf2 g2:7 c2:7 f2:7 bf1
 }
 
 refrainKey = bf
@@ -77,13 +75,6 @@ refrainMelody = \relative f' {
   c8 g4 g8~ g4 g4 | g2. g4 | bf8 f4 f8 f4 fs4 | g2. bf4 |
   \break
   c4 bf4 cs4 bf4 | cs8 d4 a8 bf4 a8 bf8 | c4 d8 d8 c4 a4 | bf2. r4 |
-
-  \bar "||-|."
-  \break
-
-  \xTextMark \markup{ \bold \box "Tag" }
-  
-  bf8 a8 af4 g2 | d'8 cs8 d4 f8 d4. | bf2. r4 |
 
   \bar "|."
 }

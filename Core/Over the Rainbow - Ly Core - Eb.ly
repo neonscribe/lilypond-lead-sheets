@@ -7,7 +7,7 @@
 \header {
   title = "Over the Rainbow"
   subtitle = \instrument
-  poet = "Yip Harburg"
+  poet = "E.Y. Harburg"
   composer = "Harold Arlen"
   copyright = \markup \small "© 1938 Metro-Goldwyn-Mayer, Inc."
 }

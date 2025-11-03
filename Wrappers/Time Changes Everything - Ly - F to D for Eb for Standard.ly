@@ -1,0 +1,17 @@
+%% -*- Mode: LilyPond -*-
+
+\version "2.24.0"
+
+\include "english.ly"
+
+instrument = "Eb for Standard Key"
+whatKey = d'
+whatClef = "treble"
+
+\include "../Core/Time Changes Everything - Ly Core - F.ly"
+
+%{
+
+\song{Time Changes Everything - F to D}{"../Standard/Eb/Time Changes Everything - Ly - F to D for Eb for Standard"}
+
+%}

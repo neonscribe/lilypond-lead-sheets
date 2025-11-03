@@ -47,7 +47,7 @@
 % One page, succesive entry of multiples
 \newcommand{\xsong}[2]{ %
 \phantomsection %
-\addcontentsline{toc}{section}{   #1} %
+\addcontentsline{toc}{section}{\phantom{\thesongs. }#1} %
 \pdfbookmark{#1}{#1}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
 }
@@ -76,8 +76,7 @@
 \newcommand{\dxsong}[2]{ %
 \clearemptytoevenpage %
 \phantomsection %
-\addcontentsline{toc}{section}{   #1} %
+\addcontentsline{toc}{section}{\phantom{\thesongs. }#1} %
 \pdfbookmark{#1}{#1}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
 }
-

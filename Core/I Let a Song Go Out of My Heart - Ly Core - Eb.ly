@@ -34,14 +34,12 @@ refrainLyrics = \lyricmode {
 
 refrainChords = \chordmode {
   ef2 af2:7 ef2 c2:m7 g2:m7 c2:7 g2:m7 c2:7
-  af8:6 g4:m7 f4:m7 fs4:dim7 ef8:/g
-  ef2:/g af2:7
+  af8:6 g4:m7 f4:m7 fs4:dim7 ef8*5/g af2:7
 
   ef2 c2:m7 f2:m7.5- bf2:7
   
   ef2 af2:7 ef2 c2:m7 g2:m7 c2:7 g2:m7 c2:7
-  af8:6 g4:m7 f4:m7 fs4:dim7 ef8:/g
-  ef2:/g af2:7
+  af8:6 g4:m7 f4:m7 fs4:dim7 ef8*5/g af2:7
 
   ef2 af2:m6 ef4 ef4:/g \chordSlash 1 gf4:dim7
   
@@ -51,11 +49,18 @@ refrainChords = \chordmode {
   b1:7 bf1:7.5+
   
   ef2 af2:7 ef2 c2:m7 g2:m7 c2:7 g2:m7 c2:7
-  af8:6 g4:m7 f4:m7 fs4:dim7 ef8:/g
-  ef2:/g af2:7
+  af8:6 g4:m7 f4:m7 fs4:dim7 ef8*5/g af2:7
 
   ef2 f2:m7/bf ef2
   \chordInsideParens{ bf2:7.5+ }
+
+  ef2 af2:7 ef1 g1:m7 c1:7 f1:m7 f1:m7/bf ef2 c2:m7 f2:m7 bf2:7
+  
+  ef2 af2:7 ef1 g1:m7 c1:7 f1:m7 f1:m7/bf ef2 af2:m7 ef1
+  
+  f1:m7 bf1:7 ef1 ef2 g2:7 c1:m7 cs2:m7 fs2:7 fs2:m7 b2:7 f2:m7 bf2:7
+
+  ef2 af2:7 ef1 g1:m7 c1:7 f1:m7 f1:m7/bf ef2 bf2:7 ef2 bf2:7
 }
 
 refrainKey = ef
@@ -103,6 +108,33 @@ refrainMelody = \relative g' {
   bf8 ef2. 
   c8 |
   \tuplet 3/2 { bf8 c bf } ef,2 f4 | ef1 |
+  \bar "||-|."
+  
+  \xPageBreak
+  
+  \sect "Solos A1"
+  
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+
+  \sect "A2"
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+
+  \sect "B"
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+
+  \sect "A3"
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "|."
 }
 

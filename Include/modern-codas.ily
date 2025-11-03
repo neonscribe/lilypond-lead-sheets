@@ -303,6 +303,60 @@ textCodaBreak = {
   }
 }
 
+%%% includes the word "Coda" after the coda sign
+
+textCodaIBreak = {
+  \break
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.15
+  \xTextMark
+  \markup {
+    \pad-around #3 {
+    \line
+    \general-align #Y #CENTER {
+      \musicglyph #"scripts.coda"
+      \large
+      \bold "Coda 1"
+      }
+    }
+  }
+}
+
+%%% includes the word "Coda" after the coda sign
+
+textCodaIIBreak = {
+  \break
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.15
+  \xTextMark
+  \markup {
+    \pad-around #3 {
+    \line
+    \general-align #Y #CENTER {
+      \musicglyph #"scripts.coda"
+      \large
+      \bold "Coda 2"
+      }
+    }
+  }
+}
+
+%%% includes the word "Coda" after the coda sign
+
+textCodaIIIBreak = {
+  \break
+  \once \override Score.RehearsalMark.self-alignment-X = #-0.15
+  \xTextMark
+  \markup {
+    \pad-around #3 {
+    \line
+    \general-align #Y #CENTER {
+      \musicglyph #"scripts.coda"
+      \large
+      \bold "Coda 3"
+      }
+    }
+  }
+}
+
 %%% just "Fine"
 
 textFine = {
@@ -382,6 +436,36 @@ dalSegnoII = {
   }
 }
 
+%%% text "D.S.S. al Coda 2" right-aligned
+
+dalSegnoSegnoII = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \xTextEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.S.S. al Coda 2"
+  }
+}
+
+%%% text "D.S.S. al Coda 3" right-aligned
+
+dalSegnoSegnoIII = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \xTextEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.S.S. al Coda 3"
+  }
+}
+
 %%% includes the words "To Coda 2" before the Coda sign and centers the coda sign horizontally on the barline
 
 textToCodaII = {
@@ -410,6 +494,70 @@ textCodaII = {
     \musicglyph #"scripts.coda"
     \small
     \bold "Coda 2"
+  }
+}
+
+%%%%% D.S. al Coda 3 %%%%%
+
+%%% text "D.S. al Coda 3" right-aligned
+
+dalSegnoIII = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \xTextEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.S. al Coda 3"
+  }
+}
+
+%%% includes the words "To Coda 3" before the Coda sign and centers the coda sign horizontally on the barline
+
+textToCodaIII = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #0.80
+  \xTextEndMark
+  \markup
+  \line
+  \general-align #Y #CENTER {
+    \small
+    \bold
+    \italic "To Coda 3  "
+    \musicglyph #"scripts.coda"
+  }
+}
+
+%%% includes the words "To Coda 2,3" before the Coda sign and centers the coda sign horizontally on the barline
+
+textToCodaIIandIII = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #0.80
+  \xTextEndMark
+  \markup
+  \line
+  \general-align #Y #CENTER {
+    \small
+    \bold
+    \italic "To Coda 2,3  "
+    \musicglyph #"scripts.coda"
+  }
+}
+
+%%% includes the word "Coda 3" after the coda sign
+
+textCodaIII = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #-0.3375
+  \xTextMark
+  \markup
+  \line
+  \general-align #Y #CENTER {
+    \musicglyph #"scripts.coda"
+    \small
+    \bold "Coda 3"
   }
 }
 

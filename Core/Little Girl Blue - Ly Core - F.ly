@@ -115,6 +115,7 @@ refrainMelody = \relative f' {
   
   \bar ".|:-||"
   \repeat volta 2 {
+  \numericTimeSignature
   \time 4/4
   f4 f2 f4 | a4 a4 g4 g4 | f4 f2 f4 | d'1 |
   f,4 f2 f4 | c'1 | f,4 f2 f4 | bf4 a4 g4 f4 |

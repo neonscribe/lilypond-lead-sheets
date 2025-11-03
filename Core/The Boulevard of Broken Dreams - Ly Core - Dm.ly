@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Al Dubin"
   composer = "Harry Warren"
-  copyright = \markup \small "© 19xx Inc."
+  copyright = \markup \small "© 1934 Warner Bros. Inc."
 }
 
 refrainLyrics = \lyricmode {
@@ -57,7 +57,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Bolero [Constance Bennett 1934]" 4 = 118
   
   r8 a8 gs8 a8 bf8 a8 gs8 a8 |
 

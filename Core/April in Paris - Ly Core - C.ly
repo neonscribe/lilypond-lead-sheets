@@ -7,7 +7,7 @@
 \header {
   title = "April in Paris"
   subtitle = \instrument
-  poet = "Yip Harburg"
+  poet = "E.Y. Harburg"
   composer = "Vernon Duke"
   copyright = \markup \small "© 1932 Kay Duke Music and Glocca Morra Music"
 }

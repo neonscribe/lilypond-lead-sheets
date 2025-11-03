@@ -5,7 +5,7 @@
 \header {
   title = "Old Devil Moon"
   subtitle = \instrument
-  poet = "E. Y. Harburg"
+  poet = "E.Y. Harburg"
   composer = "Burton Lane"
   copyright = \markup \small "© 1946 Chappell & Co."
 }

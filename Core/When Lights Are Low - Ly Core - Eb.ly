@@ -14,7 +14,10 @@
 
 refrainLyrics = \lyricmode {
 Sweet mu -- sic soft __ and mel -- low, sooth -- ing and slow. __
-Strains of a mel -- low cel -- lo when lights are low. _
+Strains of a mel -- low cel -- lo when lights are low. __
+
+Dear, we're so close __ to -- geth -- er, I love you so. __
+Why think a -- bout __ the wea -- ther when lights are low. __
 
 Two hearts re -- veal -- ing, __ mu -- sic hath charms. __
 Life's so ap -- peal -- ing with in -- spi -- ra -- tion in your arms. __
@@ -23,16 +26,14 @@ Our lips meet -- ing soft __ and ten -- der, love's all a -- glow. __
 Why should -- n't we __ sur -- ren -- der when lights are low. __
 }
 
-refrainLyricsTwo = \lyricmode {
-Dear, we're so close __ to -- geth -- er, I love you so. __
-Why think a -- bout __ the wea -- ther when lights are low. _
-}
-
 refrainChords = \chordmode {
   ef2:maj7 f2:m7 g2:m7 f2:m7 ef2:maj7 f2:m7 g2:m7 c2:7
   f2:m7 bf2:7 g2:m7 c2:7 f2:m7 bf2:7
   
   ef2:6 bf2:7
+  
+  ef2:maj7 f2:m7 g2:m7 f2:m7 ef2:maj7 f2:m7 g2:m7 c2:7
+  f2:m7 bf2:7 g2:m7 c2:7 f2:m7 bf2:7
   
   ef1:6
   
@@ -52,18 +53,20 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium Swing [Miles Davis 1953]" 4 = 130
 
-  \xTextMark \markup{ \bold \box "A1, A2" }
+  \sectStart "A1"
   
-  \bar ".|:"
-  \repeat volta 2 {
   bf2 g8 g4 g8~ | g8 g4 g8~ g8 g4. | bf2 g8 g4 g8~ | g2. r4 |
   \break
   bf2 g8 g4 g8~ | g8 g4 g8~ g8 af4. | g2 ef8 f4 ef8~ |
-  \alternative { \volta 1 {
   ef2 r2 |
-  } \volta 2 {
-  ef2\repeatTie r2 |
-  } } }
+
+  \sect "A2"
+
+  bf'2 g8 g4 g8~ | g8 g4 g8~ g8 g4. | bf2 g8 g4 g8~ | g2. r4 |
+  \break
+  bf2 g8 g4 g8~ | g8 g4 g8~ g8 af4. | g2 ef8 f4 ef8~ |
+  ef2 r2 |
+
   \sect "B"
   
   gf2 gf4 af8 bf8~ | bf8 df4.~ df4 r4 | a2 a8 b4 cs8~ | cs2. r4 |

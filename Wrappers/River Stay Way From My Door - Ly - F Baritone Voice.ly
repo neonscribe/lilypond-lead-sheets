@@ -2,8 +2,10 @@
 
 \include "english.ly"
 
-instrument = "Baritone Voice Key"
+instrument = "Charlie Rich Key"
 whatKey = f
 whatClef = "treble"
+
+useNicoChords = ##t
 
 \include "../Core/River Stay Way From My Door - Ly Core - C.ly"
