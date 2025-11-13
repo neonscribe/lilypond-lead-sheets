@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Jimmie Cox"
-  copyright = \markup \small "© 1923 Universal Music Corp."
+  copyright = \markup \small { \now " " "© 1923 Universal Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

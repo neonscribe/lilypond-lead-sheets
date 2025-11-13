@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "John La Touche"
   composer = "Billy Strayhorn, Duke Ellington"
-  copyright = \markup \small "© 1940 Robbins Music Corporation"
+  copyright = \markup \small { \now " " "© 1940 Robbins Music Corporation" }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

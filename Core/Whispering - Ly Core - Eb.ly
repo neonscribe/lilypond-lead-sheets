@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Malvin Schonberger"
   composer = "John Schonberger"
-  copyright = \markup \small "© 1920 Sherman, Clay & Co."
+  copyright = \markup \small { \now " " "© 1920 Sherman, Clay & Co." }
 }
 
 refrainLyrics = \lyricmode {

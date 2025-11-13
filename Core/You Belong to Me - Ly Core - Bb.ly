@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Pee Wee King, Redd Stewart and Chilton Price"
-  copyright = \markup \small "© 1952 Ridgeway Music Company, Inc."
+  copyright = \markup \small { \now " " "© 1952 Ridgeway Music Company, Inc." }
 }
 
 refrainLyrics = \lyricmode {

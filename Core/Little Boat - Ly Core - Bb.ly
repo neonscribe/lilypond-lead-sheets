@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ronaldo Bocoli, Buddy Kaye"
   composer = "Roberto Menescal"
-  copyright = \markup \small "© 1963 Editions Sacha S.A.R.L."
+  copyright = \markup \small { \now " " "© 1963 Editions Sacha S.A.R.L." }
 }
 
 bossaRhythm = ##t

@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Patricia Johnston and Don Raye"
   composer = "Gene de Paul"
-  copyright = \markup \small "© 1942 Leeds Music Corporation"
+  copyright = \markup \small { \now " " "© 1942 Leeds Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

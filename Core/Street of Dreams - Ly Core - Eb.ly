@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Sam M. Lewis"
   composer = "Victor Young"
-  copyright = \markup \small "© 1932 Leo Feist Inc."
+  copyright = \markup \small { \now " " "© 1932 Leo Feist Inc." }
 }
 
 refrainLyrics = \lyricmode {

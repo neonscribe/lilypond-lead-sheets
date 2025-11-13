@@ -10,7 +10,7 @@
   subsubtitle = "Not an exact transcription, there are extra measures between chorus and verse"
   poet = ""
   composer = "J.S. Ondara"
-  copyright = \markup \small "© 2019"
+  copyright = \markup \small { \now " " "© 2019" }
 }
 
 refrainChords = \chordmode {

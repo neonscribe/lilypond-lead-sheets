@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Illinois Jacquet and Sir Charles Thompson"
-  copyright = \markup \small "© 1947 Atlantic Music Corp."
+  copyright = \markup \small { \now " " "© 1947 Atlantic Music Corp." }
 }
 
 refrainChords = \chordmode {

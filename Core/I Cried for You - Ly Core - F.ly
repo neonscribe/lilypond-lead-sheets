@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Arthur Freed"
   composer = "Gus Arnheim & Abe Lyman"
-  copyright = \markup \small "© 1923 Miller Music Inc"
+  copyright = \markup \small { \now " " "© 1923 Miller Music Inc" }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Anne Caldwell"
   composer = "Vincent Youmans"
-  copyright = \markup \small "© 1926 HARMS Inc."
+  copyright = \markup \small { \now " " "© 1926 HARMS Inc." }
 }
 
 refrainLyrics = \lyricmode {

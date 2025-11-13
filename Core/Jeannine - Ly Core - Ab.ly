@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Eddie Jefferson"
   composer = "Duke Pearson"
-  copyright = \markup \small "© 1960 Upam Music Co."
+  copyright = \markup \small { \now " " "© 1960 Upam Music Co." }
 }
 
 refrainChords = \chordmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Henry Mancini"
-  copyright = \markup \small "© 1961 Famous Music Corporation"
+  copyright = \markup \small { \now " " "© 1961 Famous Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

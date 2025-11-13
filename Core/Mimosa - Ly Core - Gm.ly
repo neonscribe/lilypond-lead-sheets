@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Dorado Schmitt & Hono Winterstein"
-  copyright = \markup \small "© 1986 Dorado Schmitt & Hono Winterstein"
+  copyright = \markup \small { \now " " "© 1986 Dorado Schmitt & Hono Winterstein" }
 }
 
 refrainChords = \chordmode {

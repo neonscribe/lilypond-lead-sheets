@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Edgar Leslie"
   composer = "Walter Donaldson"
-  copyright = \markup \small "© 1929 Donaldson, Douglas & Gumble, Inc."
+  copyright = \markup \small { \now " " "© 1929 Donaldson, Douglas & Gumble, Inc." }
 }
 
 refrainLyrics = \lyricmode {

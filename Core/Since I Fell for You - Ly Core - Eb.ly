@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Buddy Johnson"
-  copyright = \markup \small "© 1945 Warner Bros Inc."
+  copyright = \markup \small { \now " " "© 1945 Warner Bros Inc." }
 }
 
 refrainLyrics = \lyricmode {

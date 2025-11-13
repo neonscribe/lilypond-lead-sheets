@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Frankie Laine"
   composer = "Carl Fischer"
-  copyright = \markup \small "© 1945 Fischer-Carey Music"
+  copyright = \markup \small { \now " " "© 1945 Fischer-Carey Music" }
 }
 
 refrainLyrics = \lyricmode {

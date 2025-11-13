@@ -6,7 +6,7 @@
   title = "The Gaby Glide"
   subtitle = \instrument
   composer = "Louis H. Hirsch"
-  copyright = \markup \small ""
+  copyright = \markup \small { \now " " "" }
 }
 
 refrainMaybeChords = \chordmode {

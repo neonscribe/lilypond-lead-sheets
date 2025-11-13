@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Harry Warren"
-  copyright = \markup \small "© 1938 M. Witmark & Sons"
+  copyright = \markup \small { \now " " "© 1938 M. Witmark & Sons" }
 }
 
 refrainLyrics = \lyricmode {

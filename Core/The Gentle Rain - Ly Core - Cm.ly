@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Matt Dubey"
   composer = "Luiz Bonfá"
-  copyright = \markup \small "© 1965 EMI Unart Catalog, Inc."
+  copyright = \markup \small { \now " " "© 1965 EMI Unart Catalog, Inc." }
 }
 
 bossaRhythm = ##t

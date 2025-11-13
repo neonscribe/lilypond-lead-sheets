@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Benny Golson"
-  copyright = \markup \small "© 1959 Ibbob Music, Inc."
+  copyright = \markup \small { \now " " "© 1959 Ibbob Music, Inc." }
 }
 
 introKey = c

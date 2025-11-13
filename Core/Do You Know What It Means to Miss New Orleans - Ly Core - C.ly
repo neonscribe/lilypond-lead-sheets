@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Eddie De Lange"
   composer = "Louis Alter"
-  copyright = \markup \small "© 1946 De Lange Music Co."
+  copyright = \markup \small { \now " " "© 1946 De Lange Music Co." }
 }
 
 refrainLyrics = \lyricmode {
@@ -88,7 +88,7 @@ refrainNicoChords = \chordmode {
   g4:sus7
   \chordCloseParen{ g4:9 }
   
-  d1:7 g1:7 c2 e2:7 f2:7 fs2:7 c4/g r2. c1
+  d1:7 g1:7 c2 e2:7 f2:7 fs2:dim7 c4/g r2. c1
 }
 
 refrainRBTwoChords = \chordmode {

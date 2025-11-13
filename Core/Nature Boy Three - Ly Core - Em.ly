@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "eden ahbez"
-  copyright = \markup \small "© 1948 Crestview Music Corp."
+  copyright = \markup \small { \now " " "© 1948 Crestview Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

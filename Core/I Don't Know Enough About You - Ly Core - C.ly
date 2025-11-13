@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Dave Barbour and Peggy Lee"
-  copyright = \markup \small "© 1946 Denslow Music Inc."
+  copyright = \markup \small { \now " " "© 1946 Denslow Music Inc." }
 }
 
 refrainLyrics = \lyricmode {

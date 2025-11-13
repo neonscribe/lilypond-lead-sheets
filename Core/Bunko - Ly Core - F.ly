@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Lennie Niehaus"
-  copyright = \markup \small "© 1955 Contemporary Music"
+  copyright = \markup \small { \now " " "© 1955 Contemporary Music" }
 }
 
 refrainChords = \chordmode {

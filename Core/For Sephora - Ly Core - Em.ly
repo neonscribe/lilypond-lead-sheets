@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Stochelo Rosenberg"
-  copyright = \markup \small "© 1991 The Rosenberg Trio"
+  copyright = \markup \small { \now " " "© 1991 The Rosenberg Trio" }
 }
 
 bossaRhythm = ##t

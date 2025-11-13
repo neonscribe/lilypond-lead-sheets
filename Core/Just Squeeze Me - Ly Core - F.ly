@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Lee Gaines"
   composer = "Duke Ellington"
-  copyright = \markup \small "© 1946 Robbins Music Corporation"
+  copyright = \markup \small { \now " " "© 1946 Robbins Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

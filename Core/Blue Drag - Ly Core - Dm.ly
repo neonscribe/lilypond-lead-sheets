@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Josef Myrow"
-  copyright = \markup \small "© 1932 EMI Mills Music Inc."
+  copyright = \markup \small { \now " " "© 1932 EMI Mills Music Inc." }
 }
 
 introLyrics = \lyricmode {

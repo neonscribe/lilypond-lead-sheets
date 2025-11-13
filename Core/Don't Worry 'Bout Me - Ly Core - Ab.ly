@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ted Koehler"
   composer = "Rube Bloom"
-  copyright = \markup \small "© 1939 Fred Ahlert Music Group, Ted Koehler Music Co."
+  copyright = \markup \small { \now " " "© 1939 Fred Ahlert Music Group, Ted Koehler Music Co." }
 }
 
 refrainLyrics = \lyricmode {

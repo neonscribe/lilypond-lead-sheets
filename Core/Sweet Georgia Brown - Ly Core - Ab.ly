@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Ben Bernie, Maceo Pinkard, Kenneth Casey"
-  copyright = \markup \small "© 1925 Warner Bros., Inc."
+  copyright = \markup \small { \now " " "© 1925 Warner Bros., Inc." }
 }
 
 refrainLyrics = \lyricmode {

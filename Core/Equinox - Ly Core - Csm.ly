@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "John Coltrane"
-  copyright = \markup \small "© 1960 Jowcol Music"
+  copyright = \markup \small { \now " " "© 1960 Jowcol Music" }
 }
 
 refrainChords = \chordmode {

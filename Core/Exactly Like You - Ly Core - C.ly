@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Dorothy Fields"
   composer = "Jimmy McHugh"
-  copyright = \markup \small "© 1930 Shapiro, Bernstein & Co. Inc."
+  copyright = \markup \small { \now " " "© 1930 Shapiro, Bernstein & Co. Inc." }
 }
 
 refrainLyrics = \lyricmode {

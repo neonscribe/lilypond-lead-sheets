@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Frank Clarkson"
   composer =  "Peter Van Steeden, Jeff Clarkson"
-  copyright = \markup \small "© 1931 Songcastle Music"
+  copyright = \markup \small { \now " " "© 1931 Songcastle Music" }
 }
 
 refrainLyrics =  \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Mitchell Parish"
   composer = "Hoagy Carmichael"
-  copyright = \markup \small "© 1929 Mills Music Inc."
+  copyright = \markup \small { \now " " "© 1929 Mills Music Inc." }
 }
 
 verseLyrics = \lyricmode {

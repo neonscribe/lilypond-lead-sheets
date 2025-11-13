@@ -6,7 +6,7 @@
   title = "'Tis Autumn"
   subtitle = \instrument
   composer = "Henry Nemo"
-  copyright = \markup \small "© 1941 Warner Bros. Inc."
+  copyright = \markup \small { \now " " "© 1941 Warner Bros. Inc." }
 }
 
 verseLyrics = \lyricmode {

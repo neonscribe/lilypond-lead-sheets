@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Nat King Cole and Irving Mills"
-  copyright = \markup \small "© 1944 American Academy of Music, Inc."
+  copyright = \markup \small { \now " " "© 1944 American Academy of Music, Inc." }
 }
 
 refrainLyrics = \lyricmode {
@@ -57,8 +57,8 @@ refrainChords = \chordmode {
   af2 af2/gf df2/f af2/ef 
   ef1 ef1
   
-  af1:6 bf8*5:m7 b4.:dim7 af1:6/c s8 ff4.:7 s8 ef4.:6.9
-  af1:6 bf8*5:m7 b4.:dim7 af1:6/c r8*5 gf8:6.9 g8:6.9 af8:6.9
+  af1:6 df8*5:6 d4.:dim7 af1:6/ef s8 d4.:dim7 s8 ef4.:9/g
+  af1:6 df8*5:6 d4.:dim7 af1:6/ef r8*5 gf8:6.9 g8:6.9 af8:6.9
 
   af2 af2/gf df/f af/ef df2 af/c bf2:m7 ef2:7
   af2 af2/gf df/f af/ef df2 f2:m7

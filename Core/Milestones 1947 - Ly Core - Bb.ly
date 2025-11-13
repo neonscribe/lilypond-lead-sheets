@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "John Lewis (credited to Miles Davis)"
-  copyright = \markup \small "© 1948 Screen Gems Inc."
+  copyright = \markup \small { \now " " "© 1948 Screen Gems Inc." }
 }
 
 refrainChords = \chordmode {

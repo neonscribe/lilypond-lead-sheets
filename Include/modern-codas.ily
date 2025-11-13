@@ -185,6 +185,19 @@ dalSegnoAfterSolosWithRepeats = {
   }
 }
 
+dalSegnoFirstAndSecondTimes = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \xTextEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.S. al Coda, 1st & 2nd X"
+  }
+}
+
 dalSegnoNoCoda = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #RIGHT
@@ -208,6 +221,19 @@ dalSegnoSecondEnding = {
     \small
     \bold
     \italic "D.S. al 2nd Ending"
+  }
+}
+
+daCapoSecondEnding = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \xTextEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.C. al 2nd Ending"
   }
 }
 
@@ -236,6 +262,20 @@ textToCoda = {
     \small
     \bold
     \italic "To Coda  "
+    \musicglyph #"scripts.coda"
+  }
+}
+
+textToCodaSecondAndFourthTime = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #0.770
+  \xTextEndMark
+  \markup
+  \line
+  \general-align #Y #CENTER {
+    \small
+    \bold
+    \italic "To Coda (2nd & 4th X)  "
     \musicglyph #"scripts.coda"
   }
 }

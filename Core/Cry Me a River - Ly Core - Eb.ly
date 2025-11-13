@@ -8,7 +8,7 @@
   title = "Cry Me a River"
   subtitle = \instrument
   composer = "Arthur Hamilton"
-  copyright = \markup \small "© 1953 Saunders Publications Inc."
+  copyright = \markup \small { \now " " "© 1953 Saunders Publications Inc." }
 }
 
 refrainLyrics = \lyricmode {

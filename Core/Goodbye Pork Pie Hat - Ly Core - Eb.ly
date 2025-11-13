@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Charles Mingus"
-  copyright = \markup \small "© 1959 Jazz Workshop, Inc."
+  copyright = \markup \small { \now " " "© 1959 Jazz Workshop, Inc." }
 }
 
 refrainChords = \chordmode {

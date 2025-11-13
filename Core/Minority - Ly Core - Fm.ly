@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Gigi Gryce"
-  copyright = \markup \small "© 1953 Twenty-Eighth Street Music"
+  copyright = \markup \small { \now " " "© 1953 Twenty-Eighth Street Music" }
 }
 
 refrainChords = \chordmode {

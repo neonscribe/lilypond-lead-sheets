@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Will J. Harris"
   composer = "Victor Young"
-  copyright = \markup \small "© 1928 Shapiro, Bernstein & Co."
+  copyright = \markup \small { \now " " "© 1928 Shapiro, Bernstein & Co." }
 }
 
 refrainLyrics = \lyricmode {

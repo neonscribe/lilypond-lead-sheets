@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Lorenz Hart"
   composer = "Richard Rodgers"
-  copyright = \markup \small "© 1934 Metro-Goldwyn-Mayer Corp."
+  copyright = \markup \small { \now " " "© 1934 Metro-Goldwyn-Mayer Corp." }
 }
 
 refrainLyrics = \lyricmode {

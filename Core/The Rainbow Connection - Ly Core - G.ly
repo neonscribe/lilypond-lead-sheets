@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Ken Ascher, Paul Williams"
-  copyright = \markup \small "© 1979 Fuzzy Muppet Songs"
+  copyright = \markup \small { \now " " "© 1979 Fuzzy Muppet Songs" }
 }
 
 refrainLyrics = \lyricmode {

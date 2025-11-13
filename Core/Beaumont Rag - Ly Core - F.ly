@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Traditional"
-  copyright = \markup \small ""
+  copyright = \markup \small { \now " " "" }
 }
 
 straightEighths = ##t

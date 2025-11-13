@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bart Howard"
-  copyright = \markup \small "© 1954 Hampshire House Publishing Corp."
+  copyright = \markup \small { \now " " "© 1954 Hampshire House Publishing Corp." }
 }
 
 refrainLyrics = \lyricmode {

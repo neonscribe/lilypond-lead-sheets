@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Angelo Debarre"
-  copyright = \markup \small "2002"
+  copyright = \markup \small { \now " " "2002" }
 }
 
 refrainChords = \chordmode {

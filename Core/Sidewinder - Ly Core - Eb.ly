@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Lee Morgan"
-  copyright = \markup \small "© 1959 Conrad Music"
+  copyright = \markup \small { \now " " "© 1959 Conrad Music" }
 }
 
 introChords = \chordmode {

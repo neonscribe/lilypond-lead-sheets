@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Al Jolson, Billy Rose, Dave Dreyer"
-  copyright = \markup \small "© 1927 Bourne Co."
+  copyright = \markup \small { \now " " "© 1927 Bourne Co." }
 }
 
 refrainLyrics = \lyricmode {

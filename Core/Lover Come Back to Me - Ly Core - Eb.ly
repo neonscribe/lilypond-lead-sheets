@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Oscar Hammerstein II"
   composer = "Sigmund Romberg"
-  copyright = \markup \small "© 1928 T.B. Harms, Inc."
+  copyright = \markup \small { \now " " "© 1928 T.B. Harms, Inc." }
 }
 
 verseLyrics = \lyricmode {

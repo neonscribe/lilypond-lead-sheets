@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ned Washington"
   composer = "Victor Young"
-  copyright = \markup \small "© 1949 Joy Music, Inc., 1619 Broadway, New York, N.Y."
+  copyright = \markup \small { \now " " "© 1949 Joy Music, Inc., 1619 Broadway, New York, N.Y." }
 }
 
 refrainLyricsM = \lyricmode {

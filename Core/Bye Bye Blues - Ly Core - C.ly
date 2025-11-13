@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Fred Hamm, Dave Bennett, Bert Lown and Chauncey Gray"
-  copyright = \markup \small "© 1930 Bourne Co."
+  copyright = \markup \small { \now " " "© 1930 Bourne Co." }
 }
 
 refrainLyrics = \lyricmode {

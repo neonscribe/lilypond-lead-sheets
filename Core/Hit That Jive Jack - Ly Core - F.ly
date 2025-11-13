@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Johnnie Alston, Skeets Tolbert"
-  copyright = \markup \small "© 1940 Universal Music Corporation"
+  copyright = \markup \small { \now " " "© 1940 Universal Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

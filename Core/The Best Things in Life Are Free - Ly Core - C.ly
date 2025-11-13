@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "B.G. DeSylva, Lew Brown and Ray Henderson"
-  copyright = \markup \small "© 1927 Crawford Music Corporation"
+  copyright = \markup \small { \now " " "© 1927 Crawford Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

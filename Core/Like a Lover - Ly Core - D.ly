@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Nelson Motta/Alan and Marilyn Bergman"
   composer = "Dori Caymmi"
-  copyright = \markup \small "© 1968 Bema Music, Inc."
+  copyright = \markup \small { \now " " "© 1968 Bema Music, Inc." }
 }
 
 bossaRhythm = ##t

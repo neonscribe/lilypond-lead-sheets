@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Mal Waldron"
-  copyright = \markup \small "© 1957 Prestige Music"
+  copyright = \markup \small { \now " " "© 1957 Prestige Music" }
 }
 
 refrainChords = \chordmode {

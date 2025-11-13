@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Haven Gillespie, Seymour Simons and Richard A. Whiting"
-  copyright = \markup \small "© 1926 Jerome H. Remick & Co."
+  copyright = \markup \small { \now " " "© 1926 Jerome H. Remick & Co." }
 }
 
 refrainLyrics = \lyricmode {

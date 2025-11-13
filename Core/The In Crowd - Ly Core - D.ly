@@ -10,7 +10,7 @@
   subsubtitle = \instrument
   poet = ""
   composer = "Billy Page"
-  copyright = \markup \small "© 1964 American Music, Inc."
+  copyright = \markup \small { \now " " "© 1964 American Music, Inc." }
 }
 
 refrainChords = \chordmode {

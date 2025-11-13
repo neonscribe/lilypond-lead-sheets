@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Jerry Bock, Larry Holofcener and George Weiss"
-  copyright = \markup \small "© 1956 The Herald Square Music Co."
+  copyright = \markup \small { \now " " "© 1956 The Herald Square Music Co." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Leo Robin and Ralph Rainger"
-  copyright = \markup \small "© 1934 Paramount Productions Music Corp."
+  copyright = \markup \small { \now " " "© 1934 Paramount Productions Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

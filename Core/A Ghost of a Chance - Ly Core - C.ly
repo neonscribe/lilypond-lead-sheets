@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Bing Crosby and Ned Washington"
   composer = "Victor Young"
-  copyright = \markup \small "© 1932 Lawrence Music Publishers, Inc."
+  copyright = \markup \small { \now " " "© 1932 Lawrence Music Publishers, Inc." }
 }
 
 refrainLyrics = \lyricmode {

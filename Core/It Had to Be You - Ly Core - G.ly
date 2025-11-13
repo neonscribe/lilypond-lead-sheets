@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Gus Kahn"
   composer = "Isham Jones"
-  copyright = \markup \small "© 1924 Jerome H. Remick & Co."
+  copyright = \markup \small { \now " " "© 1924 Jerome H. Remick & Co." }
 }
 
 refrainLyrics = \lyricmode {

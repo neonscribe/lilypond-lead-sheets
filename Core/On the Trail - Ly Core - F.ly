@@ -8,7 +8,7 @@
   subsubtitle = \instrument
   poet = ""
   composer = "Ferde Grofé"
-  copyright = \markup \small "© 1932 Robbins Music Corporation"
+  copyright = \markup \small { \now " " "© 1932 Robbins Music Corporation" }
 }
 
 verseLyrics = \lyricmode {

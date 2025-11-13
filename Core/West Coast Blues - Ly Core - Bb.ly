@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Wes Montgomery"
-  copyright = \markup \small "© 1960 Taggie Music Co."
+  copyright = \markup \small { \now " " "© 1960 Taggie Music Co." }
 }
 
 refrainChords = \chordmode {

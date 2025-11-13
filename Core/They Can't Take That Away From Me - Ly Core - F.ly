@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ira Gershwin"
   composer = "George Gershwin"
-  copyright = \markup \small "© 1936 Chappell & Co."
+  copyright = \markup \small { \now " " "© 1936 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Jimmy Van Heusen"
-  copyright = \markup \small "© 1939 Lewis Music Publishing Co."
+  copyright = \markup \small { \now " " "© 1939 Lewis Music Publishing Co." }
 }
 
 verseLyrics = \lyricmode {

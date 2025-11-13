@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bobby Hebb"
-  copyright = \markup \small "© 1966 Portable Music Company, Inc."
+  copyright = \markup \small { \now " " "© 1966 Portable Music Company, Inc." }
 }
 
 refrainLyrics = \lyricmode {

@@ -8,7 +8,7 @@
   subsubtitle = \instrument
   poet = ""
   composer = "Quirino Mendoza y Cortés"
-  copyright = \markup \small "1916"
+  copyright = \markup \small { \now " " "1916" }
 }
 
 straightEighths = ##t

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Roy Turk and Lou Handman"
-  copyright = \markup \small "© 1926 Bourne, Inc."
+  copyright = \markup \small { \now " " "© 1926 Bourne, Inc." }
 }
 
 refrainLyrics = \lyricmode {

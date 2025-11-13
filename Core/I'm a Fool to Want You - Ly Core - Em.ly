@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Jack Wolf, Joel Herron and Frank Sinatra"
-  copyright = \markup \small "© 1951 Barton Music Corp."
+  copyright = \markup \small { \now " " "© 1951 Barton Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

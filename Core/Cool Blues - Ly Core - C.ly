@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Charlie Parker"
-  copyright = \markup \small "© 1947 Songs of Universal Inc."
+  copyright = \markup \small { \now " " "© 1947 Songs of Universal Inc." }
 }
 
 refrainChords = \chordmode {

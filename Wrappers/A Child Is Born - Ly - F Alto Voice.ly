@@ -5,10 +5,10 @@
 \include "english.ly"
 
 instrument = "Dianne Reeves Key"
-whatKey = f
+whatKey = f,
 whatClef = "treble_8"
 
-\include "../Core/A Child Is Born - Ly Core - Bb.ly"
+\include "../Core/A Child Is Born - Ly Core - Db.ly"
 
 %{
 

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "John Lewis"
-  copyright = \markup \small "© 1949 MJQ Music"
+  copyright = \markup \small { \now " " "© 1949 MJQ Music" }
 }
 
 refrainChords = \chordmode {

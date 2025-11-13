@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Jay Ungar"
-  copyright = \markup \small "© 1990 Swinging Door Music, USA"
+  copyright = \markup \small { \now " " "© 1990 Swinging Door Music, USA" }
 }
 
 straightEighths = ##t

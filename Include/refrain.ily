@@ -65,7 +65,7 @@ emphasize = {
       \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
       %% Only transpose bass line in the same octave
-      \transpose \refrainKey \bassKey { \refrainBass }
+      \noDoubleAccidentalMusic \transpose \refrainKey \bassKey { \refrainBass }
 	}
     }
       #} )
@@ -115,13 +115,48 @@ emphasize = {
       #{
     \new Staff {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelodyTwo" { 
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelodyTwo
 	  }
 	}
     }
       #} )
+    $(if (and (defined? 'refrainLyricsVoiceTwo) refrainLyricsVoiceTwo)
+      (if (and (defined? 'refrainLyricsTwoVoiceTwo) refrainLyricsTwoVoiceTwo)
+       #{
+   \new Lyrics = "lyrics" {
+      \lyricsto "voiceMelodyTwo" 
+      {
+	<<
+	\refrainLyricsVoiceTwo
+	\new Lyrics {
+	  \set associatedVoice = "voiceMelodyTwo"
+       #(if (and (defined? 'refrainTwoLanguagesVoiceTwo) refrainTwoLanguagesVoiceTwo)
+	 #{ \emphasize \refrainLyricsTwoVoiceTwo #}
+	 #{ \refrainLyricsTwoVoiceTwo #} ) }
+       #(if (and (defined? 'refrainLyricsThreeVoiceTwo) refrainLyricsThreeVoiceTwo)
+	 #{
+	 \new Lyrics {
+	 \set associatedVoice = "voiceMelodyTwo"
+	 \refrainLyricsThreeVoiceTwo }
+	 #} )
+       #(if (and (defined? 'refrainLyricsFourVoiceTwo) refrainLyricsFourVoiceTwo)
+	 #{
+	 \new Lyrics {
+	 \set associatedVoice = "voiceMelodyTwo"
+	 \refrainLyricsFourVoiceTwo }
+	 #} )
+	>>
+	}
+    }
+       #}
+      #{
+    \new Lyrics \lyricsto "voiceMelodyTwo"
+    {
+      \refrainLyricsVoiceTwo
+    }
+      #} ) )
   >>
   \layout { ragged-bottom = ##t ragged-right = ##f }
 }

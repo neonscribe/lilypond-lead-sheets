@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Irving Caesar"
   composer = "Vincent Youmans"
-  copyright = \markup \small "© 1924 HARMS Inc."
+  copyright = \markup \small { \now " " "© 1924 HARMS Inc." }
 }
 
 refrainLyrics = \lyricmode {

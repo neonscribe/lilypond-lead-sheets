@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Victor Schertzinger"
-  copyright = \markup \small "© 1942 by Paramount Music Corporation"
+  copyright = \markup \small { \now " " "© 1942 by Paramount Music Corporation" }
 }
 
 verseLyrics = \lyricmode {

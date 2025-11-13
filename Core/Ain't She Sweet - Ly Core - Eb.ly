@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Jack Yellen"
   composer = "Milton Ager"
-  copyright = \markup \small "© 1927 Ager, Yellen, & Bornstein Inc."
+  copyright = \markup \small { \now " " "© 1927 Ager, Yellen, & Bornstein Inc." }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Sid Wyche and Mayme Watts"
-  copyright = \markup \small "© 1955 Cherio Corp."
+  copyright = \markup \small { \now " " "© 1955 Cherio Corp." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Benny Goodman/Lionel Hampton"
-  copyright = \markup \small "© 1940 Regent Music Corporation"
+  copyright = \markup \small { \now " " "© 1940 Regent Music Corporation" }
 }
 
 refrainChords = \chordmode {

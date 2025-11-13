@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Freddie Green"
-  copyright = \markup \small "© 1941 Regent Music Corporation"
+  copyright = \markup \small { \now " " "© 1941 Regent Music Corporation" }
 }
 
 refrainChords = \chordmode {

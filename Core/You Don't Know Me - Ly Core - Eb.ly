@@ -6,7 +6,7 @@
   title = "You Don't Know Me"
   subtitle = \instrument
   composer = "Cindy Walker and Eddy Arnold"
-  copyright = \markup \small "© 1955 Hill and Range Songs, Inc."
+  copyright = \markup \small { \now " " "© 1955 Hill and Range Songs, Inc." }
 }
 
 straightEighths = ##t

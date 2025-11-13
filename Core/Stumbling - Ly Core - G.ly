@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Zez Confrey"
-  copyright = \markup \small "© 1922 Leo Feist, Inc."
+  copyright = \markup \small { \now " " "© 1922 Leo Feist, Inc." }
 }
 
 refrainLyrics = \lyricmode {

@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Frank Loesser"
   composer = "Jimmy McHugh"
-  copyright = \markup \small "© 1943 Paramount Music Corporation"
+  copyright = \markup \small { \now " " "© 1943 Paramount Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

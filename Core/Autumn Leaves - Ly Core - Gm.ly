@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Joseph Kosma"
-  copyright = \markup \small "© 1947 T.B. Enoch et Cie."
+  copyright = \markup \small { \now " " "© 1947 T.B. Enoch et Cie." }
 }
 
 refrainLyrics = \lyricmode {

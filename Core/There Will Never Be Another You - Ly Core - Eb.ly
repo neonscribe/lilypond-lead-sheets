@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Harry Warren"
   composer = "Mack Gordon"
-  copyright = \markup \small "© 1942 Twentieth Century Music Corporation."
+  copyright = \markup \small { \now " " "© 1942 Twentieth Century Music Corporation." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Benny Goodman, Edgar Sampson, Clarence Profit & Walter Hirsch"
-  copyright = \markup \small "© 1938 Robbins Music Corporation"
+  copyright = \markup \small { \now " " "© 1938 Robbins Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

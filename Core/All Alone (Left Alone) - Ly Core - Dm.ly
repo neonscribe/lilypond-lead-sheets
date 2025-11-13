@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Billie Holiday, Mal Waldron"
-  copyright = \markup \small "© 1959 Edward B. Marks Music Company"
+  copyright = \markup \small { \now " " "© 1959 Edward B. Marks Music Company" }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Richard A. Whiting"
-  copyright = \markup \small "© 1937 Warner Bros. Inc."
+  copyright = \markup \small { \now " " "© 1937 Warner Bros. Inc." }
 }
 
 refrainLyrics = \lyricmode {

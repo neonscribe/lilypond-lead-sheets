@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Harold Arlen"
-  copyright = \markup \small "© 1943 Harwin Music Co."
+  copyright = \markup \small { \now " " "© 1943 Harwin Music Co." }
 }
 
 refrainLyrics = \lyricmode {

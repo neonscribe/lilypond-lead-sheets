@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Jon Hendricks"
   composer = "Harry Edison"
-  copyright = \markup \small "© 1960 Marissa Music"
+  copyright = \markup \small { \now " " "© 1960 Marissa Music" }
 }
 
 refrainLyrics = \lyricmode {

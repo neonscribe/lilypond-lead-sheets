@@ -14,7 +14,7 @@ genderTitle =
   subtitle = \instrument
   poet = ""
   composer = "Ray Charles"
-  copyright = \markup \small "© 1956 Hill & Range Songs, Inc."
+  copyright = \markup \small { \now " " "© 1956 Hill & Range Songs, Inc." }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

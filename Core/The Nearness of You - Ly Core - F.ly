@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Ned Washington"
   composer = "Hoagy Carmichael"
-  copyright = \markup \small "© 1937 Famous Music Corp."
+  copyright = \markup \small { \now " " "© 1937 Famous Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

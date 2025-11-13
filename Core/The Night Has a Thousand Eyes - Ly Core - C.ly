@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Buddy Bernier"
   composer = "Jerry Brainin"
-  copyright = \markup \small "© 1948 Paramount Music Corporation"
+  copyright = \markup \small { \now " " "© 1948 Paramount Music Corporation" }
 }
 
 refrainChords = \chordmode {

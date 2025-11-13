@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Leon Russell"
-  copyright = \markup \small "© 1977 Skyhill Music"
+  copyright = \markup \small { \now " " "© 1977 Skyhill Music" }
 }
 
 introLyrics = \lyricmode {

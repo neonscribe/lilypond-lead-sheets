@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Joe Goodwin"
   composer = "Mark Fisher & Larry Shay"
-  copyright = \markup \small "© 1928 Harold Rossiter Music Co."
+  copyright = \markup \small { \now " " "© 1928 Harold Rossiter Music Co." }
 }
 
 refrainLyrics = \lyricmode {

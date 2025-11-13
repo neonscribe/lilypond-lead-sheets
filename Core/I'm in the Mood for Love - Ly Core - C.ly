@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Dorothy Fields"
   composer = "Jimmy McHugh"
-  copyright = \markup \small "© 1935 Robbins Music Corporation"
+  copyright = \markup \small { \now " " "© 1935 Robbins Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

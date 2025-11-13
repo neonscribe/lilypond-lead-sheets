@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Sonny Rollins"
-  copyright = \markup \small "© 1956 Prestige Music"
+  copyright = \markup \small { \now " " "© 1956 Prestige Music" }
 }
 
 refrainChords = \chordmode {

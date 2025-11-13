@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Gus Kahn and Ira Gershwin"
   composer = "George Gershwin"
-  copyright = \markup \small "© 1929 New World Music Corporation"
+  copyright = \markup \small { \now " " "© 1929 New World Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

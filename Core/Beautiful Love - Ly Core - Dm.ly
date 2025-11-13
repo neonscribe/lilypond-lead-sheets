@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Haven Gillespie"
   composer = "Victor Young, Wayne King and Egbert van Alstyne"
-  copyright = \markup \small "© 1931 Movietone Music Corporation"
+  copyright = \markup \small { \now " " "© 1931 Movietone Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

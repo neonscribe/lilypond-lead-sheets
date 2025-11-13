@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Irving Kahal and Harry Richman"
-  copyright = \markup \small "© 1931 Leo Feist, Inc."
+  copyright = \markup \small { \now " " "© 1931 Leo Feist, Inc." }
 }
 
 refrainLyrics = \lyricmode {

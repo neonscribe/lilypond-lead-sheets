@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "William Rose & Edward Eliscu"
   composer = "Vincent Youmans"
-  copyright = \markup \small "© 1929 Chappell & Co."
+  copyright = \markup \small { \now " " "© 1929 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {

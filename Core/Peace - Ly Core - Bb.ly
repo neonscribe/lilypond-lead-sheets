@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Horace Silver"
-  copyright = \markup \small "© 1959 Ecaroh Music, Inc."
+  copyright = \markup \small { \now " " "© 1959 Ecaroh Music, Inc." }
 }
 
 refrainChords = \chordmode {

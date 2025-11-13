@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "John Coltrane"
-  copyright = \markup \small "© 1957 Jowcol Music"
+  copyright = \markup \small { \now " " "© 1957 Jowcol Music" }
 }
 
 refrainChords = \chordmode {
@@ -53,8 +53,8 @@ refrainMelody = \relative f' {
 }
 
 refrainKicksOverTime = \relative f' {
-  s8*9 b4. b8 s8*12 b4. b8 s8*12 b4. b8
-  s8*12 b4. b8 s8*12 b4. b8 s8*12 b4. b8
+  s2. r2 b4. b8 s8*8 r2 b4. b8 s8*8 r2 b4. b8
+  s8*8 r2 b4. b8 s8*8 r2 b4. b8 s8*8 r2 b4. b8
 }
 
 \include "../Include/paper.ily"

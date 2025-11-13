@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ted Koehler"
   composer = "Harold Arlen"
-  copyright = \markup \small "© 1932 Ted Koehler Music and S.A. Music Co"
+  copyright = \markup \small { \now " " "© 1932 Ted Koehler Music and S.A. Music Co" }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Paulo Sérgio Valle, Norman Gimbel"
   composer = "Marcos Valle"
-  copyright = \markup \small "© 1965 Marcos Valle and Paulo Sérgio Valle"
+  copyright = \markup \small { \now " " "© 1965 Marcos Valle and Paulo Sérgio Valle" }
 }
 
 bossaRhythm = ##t

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Eddie de Lange & Irving Mills"
   composer = "Duke Ellington"
-  copyright = \markup \small "© 1934 Milsons Music Publishing Corp."
+  copyright = \markup \small { \now " " "© 1934 Milsons Music Publishing Corp." }
 }
 
 refrainLyrics = \lyricmode {

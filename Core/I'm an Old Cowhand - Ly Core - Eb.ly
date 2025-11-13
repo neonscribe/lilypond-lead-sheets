@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Johnny Mercer"
-  copyright = \markup \small "© 1936 EMI Feist Catalog Inc."
+  copyright = \markup \small { \now " " "© 1936 EMI Feist Catalog Inc." }
 }
 
 refrainLyrics = \lyricmode {

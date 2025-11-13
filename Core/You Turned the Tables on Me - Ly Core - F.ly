@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Sidney D. Mitchell"
   composer = "Louis Alter"
-  copyright = \markup \small "© 1936 Warner Bros, Inc."
+  copyright = \markup \small { \now " " "© 1936 Warner Bros, Inc." }
 }
 
 refrainLyrics = \lyricmode {

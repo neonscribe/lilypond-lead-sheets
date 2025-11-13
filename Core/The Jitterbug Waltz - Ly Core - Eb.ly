@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Fats Waller"
-  copyright = \markup \small "© 1942 Robbins Music Corporation"
+  copyright = \markup \small { \now " " "© 1942 Robbins Music Corporation" }
 }
 
 refrainNRBThreeChords = \chordmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Dizzy Gillespie"
-  copyright = \markup \small "© 1951 Dizlo Music Corporation"
+  copyright = \markup \small { \now " " "© 1951 Dizlo Music Corporation" }
 }
 
 refrainChords = \chordmode {

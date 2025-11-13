@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Lil Armstrong"
-  copyright = \markup \small "© 1928 Universal Music Corp."
+  copyright = \markup \small { \now " " "© 1928 Universal Music Corp." }
 }
 
 refrainChords = \chordmode {

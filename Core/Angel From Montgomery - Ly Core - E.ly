@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "John Prine"
-  copyright = \markup \small "© 1971 Walden Music, Inc. and Sour Grapes Music, Inc."
+  copyright = \markup \small { \now " " "© 1971 Walden Music, Inc. and Sour Grapes Music, Inc." }
 }
 
 straightEighths = ##t

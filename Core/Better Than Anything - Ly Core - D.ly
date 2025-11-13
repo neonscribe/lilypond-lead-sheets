@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "William Loughborough"
   composer = "David Wheat"
-  copyright = \markup \small "© 1962 Sanga Music Inc."
+  copyright = \markup \small { \now " " "© 1962 Sanga Music Inc." }
 }
 
 refrainLyrics = \lyricmode {

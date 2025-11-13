@@ -8,7 +8,7 @@
   title = "Triste"
   subtitle = \instrument
   composer = "Antônio Carlos Jobim"
-  copyright = \markup \small "© 1967 Corcovado Music Corp."
+  copyright = \markup \small { \now " " "© 1967 Corcovado Music Corp." }
 }
 
 bossaRhythm = ##t

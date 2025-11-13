@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Mitchell Parish"
   composer = "Peter DeRose"
-  copyright = \markup \small "© 1934 Robbins Music Corporation"
+  copyright = \markup \small { \now " " "© 1934 Robbins Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

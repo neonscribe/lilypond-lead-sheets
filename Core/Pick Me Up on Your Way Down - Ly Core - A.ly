@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Harlan Howard"
-  copyright = \markup \small "© 1958 Good Ol Harlan Songs"
+  copyright = \markup \small { \now " " "© 1958 Good Ol Harlan Songs" }
 }
 
 refrainLyrics = \lyricmode {

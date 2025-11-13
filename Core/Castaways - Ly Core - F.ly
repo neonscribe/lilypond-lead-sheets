@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   title = "Castaways, from The Backyardigans"
   subtitle = \instrument
   composer = "Douglas Wieselman, Evan Lurie, Leslie Valdes and Paul Smith"
-  copyright = \markup \small "© 2005 Tunes by Nickleodeon, Inc."
+  copyright = \markup \small { \now " " "© 2005 Tunes by Nickleodeon, Inc." }
 }
 
 bossaRhythm = ##t

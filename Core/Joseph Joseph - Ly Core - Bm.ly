@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Nellie Casman"
   composer = "Samuel Steinberg"
-  copyright = \markup \small "© 1923"
+  copyright = \markup \small { \now " " "© 1923" }
 }
 
 refrainChords = \chordmode {

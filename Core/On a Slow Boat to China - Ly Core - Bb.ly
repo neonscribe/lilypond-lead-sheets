@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Frank Loesser"
-  copyright = \markup \small "© 19x48 Frank Music Corp."
+  copyright = \markup \small { \now " " "© 19x48 Frank Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

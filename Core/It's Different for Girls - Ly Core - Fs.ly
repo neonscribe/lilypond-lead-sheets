@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Joe Jackson"
-  copyright = \markup \small "© 1979 Joe Jackson"
+  copyright = \markup \small { \now " " "© 1979 Joe Jackson" }
 }
 
 straightEighths = ##t

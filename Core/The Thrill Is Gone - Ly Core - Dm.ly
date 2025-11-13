@@ -11,7 +11,49 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subsubtitle = \instrument
   poet = ""
   composer = "Ray Henderson/Lew Brown"
-  copyright = \markup \small "© 1931 DeSylva, Brown & Henderson, Inc."
+  copyright = \markup \small { \now " " "© 1931 DeSylva, Brown & Henderson, Inc." }
+}
+
+verseLyrics = \lyricmode {
+  I'm in your arms __ and you are kiss -- ing me, __
+  but there seems to be __ some -- thing miss -- ing __ in your kiss -- ing. __
+  The love we knew __ is just a mem -- o -- ry, __
+  It's turned in -- to a com -- e -- dy. __
+}
+
+verseChords = \chordmode {
+  d4 a2:7.5+
+  
+  d1 d1 b1:7 b1:7
+  e2:m e:m7.5- a1:7 d1:7 a1:7.9- d1 d2 a2:7.5+ 
+  d1 d1 b1:7 b1:7 
+  e1:m7.5- a1:7 e1:m7.5- a1:7
+}
+
+verseKey = d
+
+verseMelody = \relative f' {
+  \time 4/4
+  \key \verseKey \major
+  \clef \whatClef
+  \tempo "Rubato"
+
+  \sectStart "Verse"
+
+  \partial 2. a4 b4 a4 |
+  \bar "||"
+
+  cs1~ | cs4 a4 b4 a4 | c4 c4 c2~ | c2 b4 a4 |
+  \break
+  a4 g4 bf2~ | bf2 a4 g4 | g4 fs2.~ | fs2 a4 g4 | g4 fs2.~ | fs4 a4 b4 a4 | 
+  \break
+  cs1~ | cs4 a4 b4 a4 | c4 c4 c2~ | c4 g4 a4 g4 |
+  \break
+  bf1~ | bf4 e,4 fs4 e4 | g1~ |
+  
+  \partial 2. g2. |
+  \bar "||"
+  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -114,5 +156,7 @@ refrainMelody = \relative f' {
   % Leave a gap after the header
   \vspace #1
 }
+
+\include "../Include/verse.ily"
 
 \include "../Include/refrain.ily"

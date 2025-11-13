@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Frank Loesser"
   composer = "Hoagy Carmichael"
-  copyright = \markup \small "© 1938 Famous Music Corporation"
+  copyright = \markup \small { \now " " "© 1938 Famous Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

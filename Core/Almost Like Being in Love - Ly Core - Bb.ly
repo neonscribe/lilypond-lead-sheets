@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Alan Jay Lerner"
   composer = "Frederick Lowe"
-  copyright = \markup \small "© 1947 Lerner & Lowe"
+  copyright = \markup \small { \now " " "© 1947 Lerner & Lowe" }
 }
 
 refrainLyrics = \lyricmode {

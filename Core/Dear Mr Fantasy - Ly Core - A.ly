@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Steve Winwood, Chris Wood and Jim Capaldi"
-  copyright = \markup \small "© 1968 F.S. Music, Ltd. and Island Music Ltd."
+  copyright = \markup \small { \now " " "© 1968 F.S. Music, Ltd. and Island Music Ltd." }
 }
 
 refrainLyrics = \lyricmode {

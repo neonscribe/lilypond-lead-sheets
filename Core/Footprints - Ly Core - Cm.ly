@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Wayne Shorter"
-  copyright = \markup \small "© 1966 Miyako Music"
+  copyright = \markup \small { \now " " "© 1966 Miyako Music" }
 }
 
 refrainShorterBioChords = \chordmode {

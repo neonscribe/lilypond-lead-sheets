@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Billy Tayor & Dick Dallas"
   composer = "Billy Taylor"
-  copyright = \markup \small "© 1964 Duane Music Inc."
+  copyright = \markup \small { \now " " "© 1964 Duane Music Inc." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Dick Smith"
   composer = "Felix Bernard"
-  copyright = \markup \small "© 1934 Bregman, Vocco and Conn, Inc."
+  copyright = \markup \small { \now " " "© 1934 Bregman, Vocco and Conn, Inc." }
 }
 
 refrainLyrics = \lyricmode {

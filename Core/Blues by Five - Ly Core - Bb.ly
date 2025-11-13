@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Red Garland"
-  copyright = \markup \small "© 1956 Prestige Music"
+  copyright = \markup \small { \now " " "© 1956 Prestige Music" }
 }
 
 refrainChords = \chordmode {
@@ -37,7 +37,7 @@ refrainMelody = \relative f' {
   \break
   df4. ef8~ ef4 bf4-. | df4. ef8~ ef4 f,4-. | af8 bf8 af4 bf4 af8 f8 | r2 r4 bf4-. |
   \break
-  df4. bf8~ bf4 df4~ | df8 bf4. af4-. a8 bf8_"FINE" | r4 r8 af8 r4 r8 g8 | r4 r8 gf8 r4
+  df4. bf8~ bf4 df4~ | df8 bf4. af4-. a8 bf8 \textFine | r4 r8 af8 r4 r8 g8 | r4 r8 gf8 r4
   \override Parentheses.font-size = #5 \parenthesize f4-. |
 
   \bar "|."

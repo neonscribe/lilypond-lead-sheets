@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Harold Adamson"
   composer = "Jimmy McHugh"
-  copyright = \markup \small "© 1955 Cotton Club Publishing"
+  copyright = \markup \small { \now " " "© 1955 Cotton Club Publishing" }
 }
 
 refrainLyrics = \lyricmode {

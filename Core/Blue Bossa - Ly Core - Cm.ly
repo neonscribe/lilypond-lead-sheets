@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Joan Cartwright"
   composer = "Kenny Dorham"
-  copyright = \markup \small "© 1965 Second Floor Music"
+  copyright = \markup \small { \now " " "© 1965 Second Floor Music" }
 }
 
 bossaRhythm = ##t

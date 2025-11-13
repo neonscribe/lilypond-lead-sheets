@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Sammy Cahn"
   composer = "Jule Styne"
-  copyright = \markup \small "© 1944 Metro-Goldwyn Mayer, Inc."
+  copyright = \markup \small { \now " " "© 1944 Metro-Goldwyn Mayer, Inc." }
 }
 
 verseLyrics = \lyricmode {

@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Horace Silver"
-  copyright = \markup \small "© 1964 Ecaroh Music, Inc."
+  copyright = \markup \small { \now " " "© 1964 Ecaroh Music, Inc." }
 }
 
 bossaRhythm = ##t

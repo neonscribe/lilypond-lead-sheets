@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Paul Desmond"
-  copyright = \markup \small "© 1965 Desmond Music Company"
+  copyright = \markup \small { \now " " "© 1965 Desmond Music Company" }
 }
 
 refrainChords = \chordmode {

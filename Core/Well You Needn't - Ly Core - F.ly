@@ -10,7 +10,7 @@ $(if (and (defined? 'showLyrics) showLyrics)
   subtitle = \instrument
   poet = "Mike Perro"
   composer = "Thelonious Monk"
-  copyright = \markup \small "© 1944 Regent Music Corporation"
+  copyright = \markup \small { \now " " "© 1944 Regent Music Corporation" }
 }
 
 refrainLyricsOne =  \lyricmode {

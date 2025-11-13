@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = ""
-  copyright = \markup \small ""
+  copyright = \markup \small { \now " " "" }
 }
 
 refrainChordsInC = \chordmode {

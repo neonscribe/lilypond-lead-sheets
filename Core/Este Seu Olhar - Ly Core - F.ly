@@ -8,7 +8,7 @@
   title = "Este Seu Olhar"
   subtitle = \instrument
   composer = "Antônio Carlos Jobim"
-  copyright = \markup \small "© 1959 Editora Musical Arapuã"
+  copyright = \markup \small { \now " " "© 1959 Editora Musical Arapuã" }
 }
 
 bossaRhythm = ##t

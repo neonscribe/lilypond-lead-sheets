@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bob Dylan"
-  copyright = \markup \small "© 1997 Special Rider Music"
+  copyright = \markup \small { \now " " "© 1997 Special Rider Music" }
 }
 
 straightEighths = ##t

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "David Raksin"
-  copyright = \markup \small "© 1945 Twentieth Century Music Corp."
+  copyright = \markup \small { \now " " "© 1945 Twentieth Century Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

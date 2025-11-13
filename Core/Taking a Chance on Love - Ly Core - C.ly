@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "John LaTouche & Ted Fetter"
   composer = "Vernon Duke"
-  copyright = \markup \small "© 1940 Leo Feist, Inc."
+  copyright = \markup \small { \now " " "© 1940 Leo Feist, Inc." }
 }
 
 refrainLyrics = \lyricmode {

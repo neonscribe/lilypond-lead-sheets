@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Duke Ellington/Billy Strayhorn"
-  copyright = \markup \small "© 1964 Famous Music LLC"
+  copyright = \markup \small { \now " " "© 1964 Famous Music LLC" }
 }
 
 refrainHLChords = \chordmode {

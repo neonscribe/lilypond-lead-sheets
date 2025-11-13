@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Phil Silvers"
   composer = "James Van Heusen"
-  copyright = \markup \small "© 1944 Sands Music Corporation"
+  copyright = \markup \small { \now " " "© 1944 Sands Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

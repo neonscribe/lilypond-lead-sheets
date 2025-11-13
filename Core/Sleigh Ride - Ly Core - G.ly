@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Mitchell Parish"
   composer = "Leroy Anderson"
-  copyright = \markup \small "© 1948 Woodbury Music Company"
+  copyright = \markup \small { \now " " "© 1948 Woodbury Music Company" }
 }
 
 refrainLyrics = \lyricmode {

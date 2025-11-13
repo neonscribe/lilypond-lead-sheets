@@ -14,7 +14,7 @@ instrument =
   subtitle = \instrument
   poet = "Stanley Styne"
   composer = "Donald Kahn"
-  copyright = \markup \small "© 1956 Gus Kahn Music"
+  copyright = \markup \small { \now " " "© 1956 Gus Kahn Music" }
 }
 
 refrainLyrics = \lyricmode {

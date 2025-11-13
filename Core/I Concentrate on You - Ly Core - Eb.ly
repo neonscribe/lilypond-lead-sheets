@@ -6,7 +6,7 @@
   title = "I Concentrate on You"
   subtitle = \instrument
   composer = "Cole Porter"
-  copyright = \markup \small "© 1939 Chappell & Co."
+  copyright = \markup \small { \now " " "© 1939 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {

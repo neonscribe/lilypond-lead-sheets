@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Robert Mellin"
   composer = "Guy Wood"
-  copyright = \markup \small "© 1952 EMI Music Publishing Ltd."
+  copyright = \markup \small { \now " " "© 1952 EMI Music Publishing Ltd." }
 }
 
 refrainLyrics = \lyricmode {

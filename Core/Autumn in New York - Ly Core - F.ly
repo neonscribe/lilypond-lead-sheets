@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Vernon Duke"
-  copyright = \markup \small "© 1934 Kay Duke Music"
+  copyright = \markup \small { \now " " "© 1934 Kay Duke Music" }
 }
 
 refrainLyrics = \lyricmode {

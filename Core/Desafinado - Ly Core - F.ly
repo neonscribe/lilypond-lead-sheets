@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Newton Mendonça/Jon Hendricks & Jessie Cavanaugh"
   composer = "Antônio Carlos Jobim"
-  copyright = \markup \small "© 1959 Editora Musical Arapua"
+  copyright = \markup \small { \now " " "© 1959 Editora Musical Arapua" }
 }
 
 bossaRhythm = ##t

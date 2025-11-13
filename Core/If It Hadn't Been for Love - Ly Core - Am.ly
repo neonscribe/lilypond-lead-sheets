@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer =  "Michael Henderson and Chris Stapleton"
-  copyright = \markup \small "© 2004 Chicken Shack Songs"
+  copyright = \markup \small { \now " " "© 2004 Chicken Shack Songs" }
 }
 
 refrainLyrics = \lyricmode {

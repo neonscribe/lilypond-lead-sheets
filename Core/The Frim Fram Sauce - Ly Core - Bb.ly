@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Joe Ricardel and Redd Evans"
-  copyright = \markup \small "© 1946 Music Sales Corporation"
+  copyright = \markup \small { \now " " "© 1946 Music Sales Corporation" }
 }
 
 refrainMaleSingerLyrics = \lyricmode {

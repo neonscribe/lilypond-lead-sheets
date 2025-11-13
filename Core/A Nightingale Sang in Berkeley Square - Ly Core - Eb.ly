@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Eric Maschwitz"
   composer = "Manning Sherwin"
-  copyright = \markup \small "© 1940 The Peter Maurice Music Co. Ltd."
+  copyright = \markup \small { \now " " "© 1940 The Peter Maurice Music Co. Ltd." }
 }
 
 refrainLyrics = \lyricmode {

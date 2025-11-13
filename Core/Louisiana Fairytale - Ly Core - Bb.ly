@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Mitchell Parish and J. Fred Coots"
   composer = "Haven Gillespie"
-  copyright = \markup \small "© 1935 Mills Music, Inc."
+  copyright = \markup \small { \now " " "© 1935 Mills Music, Inc." }
 }
 
 refrainLyrics = \lyricmode {

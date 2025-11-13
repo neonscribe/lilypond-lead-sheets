@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Jean Broussole"
   composer = "Sidney Bechet"
-  copyright = \markup \small "© 1952"
+  copyright = \markup \small { \now " " "© 1952" }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Stanley Turrentine"
-  copyright = \markup \small "© 1970 La Place Music"
+  copyright = \markup \small { \now " " "© 1970 La Place Music" }
 }
 
 introLyrics = \lyricmode {

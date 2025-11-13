@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Tadd Dameron/Count Basie"
-  copyright = \markup \small "© 1944 Bregman-Vocco-Conn Inc."
+  copyright = \markup \small { \now " " "© 1944 Bregman-Vocco-Conn Inc." }
 }
 
 refrainChords = \chordmode {

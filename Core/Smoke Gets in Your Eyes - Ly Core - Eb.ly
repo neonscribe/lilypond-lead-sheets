@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Otto Harbach"
   composer = "Jerome Kern"
-  copyright = \markup \small "© 1933 T.B. Harms Company"
+  copyright = \markup \small { \now " " "© 1933 T.B. Harms Company" }
 }
 
 refrainLyrics = \lyricmode {

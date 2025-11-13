@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Douglas Furber"
   composer = "Philip Braham"
-  copyright = \markup \small "© 1922 Ascherberg, Hopwood & Crew Ltd."
+  copyright = \markup \small { \now " " "© 1922 Ascherberg, Hopwood & Crew Ltd." }
 }
 
 refrainChords = \chordmode {

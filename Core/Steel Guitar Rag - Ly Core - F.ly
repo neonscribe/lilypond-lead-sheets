@@ -15,7 +15,7 @@ straightEighths = ##t
   subtitle = \instrument
   poet = "Merle Travis and Cliff Stone"
   composer = "Leon McAuliffe"
-  copyright = \markup \small "© 1941 Bourne Co."
+  copyright = \markup \small { \now " " "© 1941 Bourne Co." }
 }
 
 refrainLyrics = \lyricmode {

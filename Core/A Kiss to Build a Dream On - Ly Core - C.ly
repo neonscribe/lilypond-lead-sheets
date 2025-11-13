@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bert Kalmar, Harry Ruby and Oscar Hammerstein II"
-  copyright = \markup \small "© 1935 Miller Music Corporation"
+  copyright = \markup \small { \now " " "© 1935 Miller Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

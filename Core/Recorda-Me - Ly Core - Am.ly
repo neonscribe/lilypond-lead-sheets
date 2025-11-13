@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Joe Henderson"
-  copyright = \markup \small "© 1963 Blue Horizon Music, Inc."
+  copyright = \markup \small { \now " " "© 1963 Blue Horizon Music, Inc." }
 }
 
 bossaRhythm = ##t

@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Don George"
   composer = "Johnny Hodges, Duke Ellington, Harry James"
-  copyright = \markup \small "© 1944 Famous Music Corporation"
+  copyright = \markup \small { \now " " "© 1944 Famous Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

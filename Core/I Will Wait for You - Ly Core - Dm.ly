@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Jacques Demy/Norman Gimbel"
   composer = "Michel Legrand"
-  copyright = \markup \small "© 1964 Productions Michel Legrand and Productions Francis Lemarque"
+  copyright = \markup \small { \now " " "© 1964 Productions Michel Legrand and Productions Francis Lemarque" }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Ray Noble"
-  copyright = \markup \small "© 1936 Chappell & Co."
+  copyright = \markup \small { \now " " "© 1936 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {

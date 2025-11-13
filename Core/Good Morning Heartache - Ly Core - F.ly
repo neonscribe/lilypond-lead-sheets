@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Irene Higginbotham, Ervin Drake & Dan Fisher"
-  copyright = \markup \small "© 1945 Fisher Music Corporation & Lindabet Music Corporation"
+  copyright = \markup \small { \now " " "© 1945 Fisher Music Corporation & Lindabet Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

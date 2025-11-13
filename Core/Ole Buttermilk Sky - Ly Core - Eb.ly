@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Hoagy Carmichael and Jack Brooks"
-  copyright = \markup \small "© 1946 Morley Music Co."
+  copyright = \markup \small { \now " " "© 1946 Morley Music Co." }
 }
 
 refrainLyrics = \lyricmode {

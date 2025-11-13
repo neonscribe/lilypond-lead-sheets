@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Edgar De Lange and Frank Loesser"
   composer = "Joseph Meyer"
-  copyright = \markup \small "© 1934 Donaldson, Douglas & Gumble Inc."
+  copyright = \markup \small { \now " " "© 1934 Donaldson, Douglas & Gumble Inc." }
 }
 
 refrainLyrics = \lyricmode {

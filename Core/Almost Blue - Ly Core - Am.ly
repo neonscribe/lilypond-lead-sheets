@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Elvis Costello"
-  copyright = \markup \small "© 1982 Universal Music Publishing MGB Ltd."
+  copyright = \markup \small { \now " " "© 1982 Universal Music Publishing MGB Ltd." }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

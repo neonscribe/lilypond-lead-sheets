@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Hugh Martin and Ralph Blane"
-  copyright = \markup \small "© 1943 Metro-Goldwyn-Mayer Inc."
+  copyright = \markup \small { \now " " "© 1943 Metro-Goldwyn-Mayer Inc." }
 }
 
 refrainLyrics = \lyricmode {

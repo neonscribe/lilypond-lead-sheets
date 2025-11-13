@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Gus Kahn"
   composer = "W. Schwandt and F. Andree"
-  copyright = \markup \small "© 1931 Davis, Coots & Engel, Inc."
+  copyright = \markup \small { \now " " "© 1931 Davis, Coots & Engel, Inc." }
 }
 
 refrainLyrics = \lyricmode {

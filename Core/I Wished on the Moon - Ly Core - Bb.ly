@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Dorothy Parker"
   composer = "Ralph Rainger"
-  copyright = \markup \small "© 1934 Famous Music Corp."
+  copyright = \markup \small { \now " " "© 1934 Famous Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

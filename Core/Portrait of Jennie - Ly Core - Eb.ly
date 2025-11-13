@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Gordon Burdge"
   composer = "J. Russel Robinson"
-  copyright = \markup \small "© 1948 Chappell & Co."
+  copyright = \markup \small { \now " " "© 1948 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Carl Sigman"
   composer = "Tadd Dameron"
-  copyright = \markup \small "© 1946 Warner Bros. Corporation"
+  copyright = \markup \small { \now " " "© 1946 Warner Bros. Corporation" }
 }
 
 refrainLyrics = \lyricmode {

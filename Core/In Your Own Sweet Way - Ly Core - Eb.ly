@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Iola Brubeck"
   composer = "Dave Brubeck"
-  copyright = \markup \small "© 1955 Derry Music Co."
+  copyright = \markup \small { \now " " "© 1955 Derry Music Co." }
 }
 
 refrainHLChords = \chordmode {

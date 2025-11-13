@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Oscar Pettiford"
-  copyright = \markup \small "© 1955 Orpheus Music, Inc."
+  copyright = \markup \small { \now " " "© 1955 Orpheus Music, Inc." }
 }
 
 refrainChords = \chordmode {

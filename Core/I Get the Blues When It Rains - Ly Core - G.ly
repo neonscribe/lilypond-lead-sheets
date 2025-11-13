@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Marcy Klauber"
   composer = "Harry Stoddard"
-  copyright = \markup \small "© 1928 Harry Stoddard"
+  copyright = \markup \small { \now " " "© 1928 Harry Stoddard" }
 }
 
 refrainLyrics = \lyricmode {

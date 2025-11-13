@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Bernie Taupin"
   composer = "Elton John"
-  copyright = \markup \small "© 1973 Dick James Music Ltd."
+  copyright = \markup \small { \now " " "© 1973 Dick James Music Ltd." }
 }
 
 straightEighths = ##t

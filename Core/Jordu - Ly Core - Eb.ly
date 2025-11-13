@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Duke Jordan"
-  copyright = \markup \small "© 1959 You Look Good Music Publishing"
+  copyright = \markup \small { \now " " "© 1959 You Look Good Music Publishing" }
 }
 
 refrainChords = \chordmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Vinicius de Moraes, Jon Hendricks & Jessie Cavanaugh"
   composer = "Antônio Carlos Jobim"
-  copyright = \markup \small "© 1958 Editora Musical Arapuã, Sao Paulo, Brazil. © 1967 TRO-Hollis Music Inc., New York"
+  copyright = \markup \small { \now " " "© 1958 Editora Musical Arapuã, Sao Paulo, Brazil. © 1967 TRO-Hollis Music Inc., New York" }
 }
 
 bossaRhythm = ##t

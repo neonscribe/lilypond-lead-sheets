@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Oscar Hammerstein II"
   composer = "Richard Rodgers"
-  copyright = \markup \small "© 1945 Williamson Music"
+  copyright = \markup \small { \now " " "© 1945 Williamson Music" }
 }
 
 refrainLyrics = \lyricmode {

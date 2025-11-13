@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Herbie Hancock"
-  copyright = \markup \small "© 1965 Hancock Music"
+  copyright = \markup \small { \now " " "© 1965 Hancock Music" }
 }
 
 refrainChords = \chordmode {

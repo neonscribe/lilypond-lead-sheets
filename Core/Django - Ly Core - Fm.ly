@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "John Lewis"
-  copyright = \markup \small "© 1954 MJQ Music Inc."
+  copyright = \markup \small { \now " " "© 1954 MJQ Music Inc." }
 }
 
 straightEighths = ##t

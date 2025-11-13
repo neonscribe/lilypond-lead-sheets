@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Paul Madeira and Jimmy Dorsey"
-  copyright = \markup \small "© 1942 Mayfair Music Corp."
+  copyright = \markup \small { \now " " "© 1942 Mayfair Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

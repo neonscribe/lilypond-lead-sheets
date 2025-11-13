@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Irving Mills and Mitchell Parish"
   composer = "Duke Ellington"
-  copyright = \markup \small "© 1933 Gotham Music Service, Inc."
+  copyright = \markup \small { \now " " "© 1933 Gotham Music Service, Inc." }
 }
 
 refrainLyrics = \lyricmode {

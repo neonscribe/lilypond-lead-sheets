@@ -1,5 +1,8 @@
 %% -*- Mode: LilyPond -*-
 
+now = #(strftime "%Y-%m-%d %H:%M" (localtime (current-time)))
+
+
 #(define (begin-parenthesis-ignatzek-chord-names in-pitches bass inversion context)
    (markup #:line ("(" (ignatzek-chord-names in-pitches bass inversion context))))
 

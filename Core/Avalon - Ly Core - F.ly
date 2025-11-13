@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Al Jolson and Vincent Rose"
-  copyright = \markup \small "© 1920 Jerome H. Remick & Co."
+  copyright = \markup \small { \now " " "© 1920 Jerome H. Remick & Co." }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

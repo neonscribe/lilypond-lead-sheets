@@ -6,7 +6,7 @@
   title = "Buckaroo"
   subtitle = "Transcription from Buck Owens' 1965 recording"
   composer = "Bob Morris"
-  copyright = \markup \small "© 1965 Tree Publishing Co., Inc."
+  copyright = \markup \small { \now " " "© 1965 Tree Publishing Co., Inc." }
 }
 
 straightEighths = ##t

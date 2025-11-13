@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Jacques Larue"
   composer = "Django Reinhardt"
-  copyright = \markup \small "© 1940 Peter Maurice Music Ltd."
+  copyright = \markup \small { \now " " "© 1940 Peter Maurice Music Ltd." }
 }
 
 refrainDFBChords = \chordmode {

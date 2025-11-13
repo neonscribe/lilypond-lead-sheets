@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Tony Hatch"
-  copyright = \markup \small "© 1965 Welbeck Music Ltd."
+  copyright = \markup \small { \now " " "© 1965 Welbeck Music Ltd." }
 }
 
 refrainLyrics = \lyricmode {

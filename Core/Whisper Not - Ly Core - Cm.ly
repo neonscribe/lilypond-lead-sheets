@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Leonard Feather"
   composer = "Benny Golson"
-  copyright = \markup \small "© 1956 Ibbob Music, Inc."
+  copyright = \markup \small { \now " " "© 1956 Ibbob Music, Inc." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Tommy Duncan"
-  copyright = \markup \small "© 1947 Red River Songs, Inc."
+  copyright = \markup \small { \now " " "© 1947 Red River Songs, Inc." }
 }
 
 refrainLyrics = \lyricmode {

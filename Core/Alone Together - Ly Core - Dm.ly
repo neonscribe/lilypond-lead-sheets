@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Howard Dietz and Arthur Schwartz"
-  copyright = \markup \small "© 1932 HARMS Incorporated"
+  copyright = \markup \small { \now " " "© 1932 HARMS Incorporated" }
 }
 
 refrainLyrics = \lyricmode {

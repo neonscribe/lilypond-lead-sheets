@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Oscar Hammerstein II"
   composer = "Jerome Kern"
-  copyright = \markup \small "© 1937 Chappell & Co."
+  copyright = \markup \small { \now " " "© 1937 Chappell & Co." }
 }
 
 verseLyrics = \lyricmode {

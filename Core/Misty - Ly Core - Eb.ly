@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Burke"
   composer = "Erroll Garner"
-  copyright = \markup \small "© 1954 Vernon Music Corporation"
+  copyright = \markup \small { \now " " "© 1954 Vernon Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

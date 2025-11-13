@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Walter Melrose"
   composer = "New Orleans Rhythm Kings"
-  copyright = \markup \small "© 1923 Melrose Bros. Music Company"
+  copyright = \markup \small { \now " " "© 1923 Melrose Bros. Music Company" }
 }
 
 refrainChords = \chordmode {

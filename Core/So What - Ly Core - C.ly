@@ -11,10 +11,10 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Miles Davis"
-  copyright = \markup \small "© 1959 Jazz Horn Music"
+  copyright = \markup \small { \now " " "© 1959 Jazz Horn Music" }
 }
 
-chordSize = #+1
+chordSize = #-1
 
 refrainChords = \chordmode {
   s1

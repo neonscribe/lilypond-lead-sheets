@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Milt Jackson"
-  copyright = \markup \small "© 1953 Reecie Music"
+  copyright = \markup \small { \now " " "© 1953 Reecie Music" }
 }
 
 refrainChords = \chordmode {

@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Ray Noble"
-  copyright = \markup \small "© 1938 The Peter Maurice Music Co. Ltd."
+  copyright = \markup \small { \now " " "© 1938 The Peter Maurice Music Co. Ltd." }
 }
 
 refrainChords = \chordmode {

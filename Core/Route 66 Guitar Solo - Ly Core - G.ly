@@ -9,7 +9,7 @@
   subtitle = "Oscar Moore's guitar solo transcribed from Nat King Cole's 1946 recording"
   poet = ""
   composer = "Bobby Troup"
-  copyright = \markup \small "© 1946 Burke & Van Heusen, Inc."
+  copyright = \markup \small { \now " " "© 1946 Burke & Van Heusen, Inc." }
 }
 
 refrainChords = \chordmode {

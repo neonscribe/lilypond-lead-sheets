@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "John Lennon/Paul McCartney"
-  copyright = \markup \small "© 1967 Northern Songs Ltd."
+  copyright = \markup \small { \now " " "© 1967 Northern Songs Ltd." }
 }
 
 introLyrics = \lyricmode {

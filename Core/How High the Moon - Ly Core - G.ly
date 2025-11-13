@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Nancy Hamilton"
   composer = "Morgan Lewis"
-  copyright = \markup \small "© 1940 Chappell & Co."
+  copyright = \markup \small { \now " " "© 1940 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {

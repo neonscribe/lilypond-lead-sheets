@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "H.J Lengsfelder and Ervin Drake"
   composer = "Juan Tizol"
-  copyright = \markup \small "© 1942 Tempo Music, Inc."
+  copyright = \markup \small { \now " " "© 1942 Tempo Music, Inc." }
 }
 
 refrainLyrics = \lyricmode {

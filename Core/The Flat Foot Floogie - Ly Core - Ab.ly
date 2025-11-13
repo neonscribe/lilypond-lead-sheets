@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Slim Gaillard, Slam Stewart and Bud Green"
-  copyright = \markup \small "© 1938 Jewel Music Publishing Co., Inc."
+  copyright = \markup \small { \now " " "© 1938 Jewel Music Publishing Co., Inc." }
 }
 
 refrainLyrics = \lyricmode {

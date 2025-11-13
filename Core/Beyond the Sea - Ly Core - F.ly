@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Jack Lawrence"
   composer = "Albert Lasry, Charles Trenet"
-  copyright = \markup \small "© 1945 France Music Corp."
+  copyright = \markup \small { \now " " "© 1945 France Music Corp." }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

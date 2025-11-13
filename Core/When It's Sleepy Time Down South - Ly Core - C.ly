@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Leon & Otis René & Clarence Muse"
-  copyright = \markup \small "© 1931 Freed & Powers, Ltd."
+  copyright = \markup \small { \now " " "© 1931 Freed & Powers, Ltd." }
 }
 
 refrainLyrics = \lyricmode {

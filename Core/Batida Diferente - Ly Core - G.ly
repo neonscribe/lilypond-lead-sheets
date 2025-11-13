@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Durval Ferreira & Maurício Einhorn"
-  copyright = \markup \small "© 1963 Casa Editoras Musicais Brasileras Reunidas CEMBRA, São Paulo"
+  copyright = \markup \small { \now " " "© 1963 Casa Editoras Musicais Brasileras Reunidas CEMBRA, São Paulo" }
 }
 
 unsynchronizedRefrainLyrics = \lyricmode {

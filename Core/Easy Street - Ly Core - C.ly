@@ -6,7 +6,7 @@
   title = "Easy Street"
   subtitle = \instrument
   composer = "Alan Rankin Jones"
-  copyright = \markup \small "© 1941 Beechwood Music Corp."
+  copyright = \markup \small { \now " " "© 1941 Beechwood Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

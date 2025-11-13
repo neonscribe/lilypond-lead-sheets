@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Haven Gillespie"
   composer = "Arthur Sizemore and Paul Biese"
-  copyright = \markup \small "© 1921 Triangle Music Pub. Co."
+  copyright = \markup \small { \now " " "© 1921 Triangle Music Pub. Co." }
 }
 
 refrainLyrics = \lyricmode {

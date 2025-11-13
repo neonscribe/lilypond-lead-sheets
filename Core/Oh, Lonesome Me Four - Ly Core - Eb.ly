@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Don Gibson"
-  copyright = \markup \small "© 1957 Acuff Rose Music"
+  copyright = \markup \small { \now " " "© 1957 Acuff Rose Music" }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

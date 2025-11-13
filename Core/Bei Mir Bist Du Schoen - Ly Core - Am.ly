@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Jacob Jacobs, translated by Sammy Cahn and Saul Chaplin"
   composer = "Sholom Secunda"
-  copyright = \markup \small "© 1932 J & J Kammen Music Company"
+  copyright = \markup \small { \now " " "© 1932 J & J Kammen Music Company" }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

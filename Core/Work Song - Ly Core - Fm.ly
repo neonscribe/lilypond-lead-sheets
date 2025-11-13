@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Oscar Brown, Jr."
   composer = "Nat Adderley"
-  copyright = \markup \small "© 1960 Upam Music Co."
+  copyright = \markup \small { \now " " "© 1960 Upam Music Co." }
 }
 
 refrainChords = \chordmode {

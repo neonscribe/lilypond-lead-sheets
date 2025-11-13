@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Mort Dixon"
   composer = "Harry Woods"
-  copyright = \markup \small "© 1931 Shapiro, Bernstein & Co., Inc., New York"
+  copyright = \markup \small { \now " " "© 1931 Shapiro, Bernstein & Co., Inc., New York" }
 }
 
 refrainLyrics = \lyricmode {

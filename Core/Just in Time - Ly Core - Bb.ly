@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Betty Comden and Adolph Green"
   composer = "Jule Styne"
-  copyright = \markup \small "© 1956 Chappell & Co., Inc."
+  copyright = \markup \small { \now " " "© 1956 Chappell & Co., Inc." }
 }
 
 refrainLyrics = \lyricmode {

@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Carl Sigmand"
   composer = "Luis Bonfa"
-  copyright = \markup \small "© 1968 Chappell & Co."
+  copyright = \markup \small { \now " " "© 1968 Chappell & Co." }
 }
 
 bossaRhythm = ##t

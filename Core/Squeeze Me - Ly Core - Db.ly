@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Clarence Willians and Fats Waller"
-  copyright = \markup \small "© 1926 Clarence Williams Music Co., Inc."
+  copyright = \markup \small { \now " " "© 1926 Clarence Williams Music Co., Inc." }
 }
 
 refrainLyrics = \lyricmode {

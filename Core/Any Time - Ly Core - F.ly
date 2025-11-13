@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Herbert Happy Lawson"
-  copyright = \markup \small "© 1921 Herbert Happy Lawson Music Publishing Company"
+  copyright = \markup \small { \now " " "© 1921 Herbert Happy Lawson Music Publishing Company" }
 }
 
 introLyrics = \lyricmode {

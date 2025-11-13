@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Eddie McDufff and Orville Couch"
-  copyright = \markup \small "© 1962 Tyler Publishing Co."
+  copyright = \markup \small { \now " " "© 1962 Tyler Publishing Co." }
 }
 
 refrainLyrics = \lyricmode {

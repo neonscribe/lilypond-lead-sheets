@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Oscar Peterson"
-  copyright = \markup \small "© 1962 Tomi Music Company"
+  copyright = \markup \small { \now " " "© 1962 Tomi Music Company" }
 }
 
 refrainChords = \chordmode {

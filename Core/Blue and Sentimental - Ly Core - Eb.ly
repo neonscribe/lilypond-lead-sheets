@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Count Basie, Jerry Livingston, and Mack David"
-  copyright = \markup \small "© 1938 Hallmark Music Publishing Company"
+  copyright = \markup \small { \now " " "© 1938 Hallmark Music Publishing Company" }
 }
 
 refrainLyrics = \lyricmode {

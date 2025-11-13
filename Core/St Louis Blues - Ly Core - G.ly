@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "W.C. Handy"
-  copyright = \markup \small "© 1914 Handy Bros. Music Co. Inc."
+  copyright = \markup \small { \now " " "© 1914 Handy Bros. Music Co. Inc." }
 }
 
 refrainChords = \chordmode {

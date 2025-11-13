@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Mort Stevens"
-  copyright = \markup \small "© 1969 Famous Music LLC and Aspenfair Music"
+  copyright = \markup \small { \now " " "© 1969 Famous Music LLC and Aspenfair Music" }
 }
 
 straightEighths = ##t

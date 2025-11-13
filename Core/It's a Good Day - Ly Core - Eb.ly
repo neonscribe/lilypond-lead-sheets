@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Peggy Lee and Dave Barbour"
-  copyright = \markup \small "© 1946 Capitol Songs, Inc."
+  copyright = \markup \small { \now " " "© 1946 Capitol Songs, Inc." }
 }
 
 refrainLyrics = \lyricmode {

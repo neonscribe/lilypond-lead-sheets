@@ -14,7 +14,7 @@ genderTitle =
   subtitle = \instrument
   poet = "Richard A. Whiting"
   composer = "Neil Moret"
-  copyright = \markup \small "© 1928 Robbins Music Corporation"
+  copyright = \markup \small { \now " " "© 1928 Robbins Music Corporation" }
 }
 
 refrainObjectGenderFemaleLyricsOne = \lyricmode {

@@ -8,7 +8,7 @@
   subsubtitle = \instrument
   poet = "Sammy Cahn"
   composer = "Jule Styne"
-  copyright = \markup \small "© 1947 Barton Music Corp."
+  copyright = \markup \small { \now " " "© 1947 Barton Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Harry B Smith and Francis Wheeler"
   composer = "Ted Snyder"
-  copyright = \markup \small "© 1921 Ted Snyder Music Publishing Co."
+  copyright = \markup \small { \now " " "© 1921 Ted Snyder Music Publishing Co." }
 }
 
 refrainLyrics = \lyricmode {

@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "John Blackburn"
   composer = "Karl Suessdorf"
-  copyright = \markup \small "© 1944 Michael H. Golden, Inc."
+  copyright = \markup \small { \now " " "© 1944 Michael H. Golden, Inc." }
 }
 
 refrainLyrics = \lyricmode {

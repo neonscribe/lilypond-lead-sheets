@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Walter Becker and Donald Fagen"
-  copyright = \markup \small "© 1974 Universal Music Corp."
+  copyright = \markup \small { \now " " "© 1974 Universal Music Corp." }
 }
 
 straightEighths = ##t

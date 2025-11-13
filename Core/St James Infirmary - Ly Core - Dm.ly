@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Joe Primrose"
-  copyright = \markup \small "© 1929 Gotham Music Service Inc."
+  copyright = \markup \small { \now " " "© 1929 Gotham Music Service Inc." }
 }
 
 refrainChords = \chordmode {

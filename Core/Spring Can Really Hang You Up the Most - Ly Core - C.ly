@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Fran Landesman"
   composer = "Tommy Wolf"
-  copyright = \markup \small "© 1955 Wolf-Mills Music, Inc."
+  copyright = \markup \small { \now " " "© 1955 Wolf-Mills Music, Inc." }
 }
 
 refrainLyrics = \lyricmode {

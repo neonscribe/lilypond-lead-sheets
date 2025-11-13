@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Jack Segal"
   composer = "Marvin Fisher"
-  copyright = \markup \small "© 1956 Marvin Music Company"
+  copyright = \markup \small { \now " " "© 1956 Marvin Music Company" }
 }
 
 refrainLyrics = \lyricmode {

@@ -6,7 +6,7 @@
   title = "Basin Street Blues"
   subtitle = \instrument
   composer = "Spencer Williams"
-  copyright = \markup \small "© 1928 - 1933 by Mayfair Music Corp., 1619 Broadway, New York, N.Y."
+  copyright = \markup \small { \now " " "© 1928 - 1933 by Mayfair Music Corp., 1619 Broadway, New York, N.Y." }
 }
 
 verseProblematicLyrics = \lyricmode {

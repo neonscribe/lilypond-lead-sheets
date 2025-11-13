@@ -10,7 +10,7 @@
   subtitle = \instrument
   poet = "Harry Ruby"
   composer = "Rube Bloom"
-  copyright = \markup \small "© 1945 WB Music Corp."
+  copyright = \markup \small { \now " " "© 1945 WB Music Corp." }
 }
 
 verseLyrics = \lyricmode {

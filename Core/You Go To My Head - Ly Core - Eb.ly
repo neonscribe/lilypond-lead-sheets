@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Haven Gillespie"
   composer = "J. Fred Coots"
-  copyright = \markup \small "© 1938 Remick Music Corp."
+  copyright = \markup \small { \now " " "© 1938 Remick Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Leo Robin and Ralph Rainger"
-  copyright = \markup \small "© 1937 Famous Music Corporation"
+  copyright = \markup \small { \now " " "© 1937 Famous Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

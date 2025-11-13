@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Clarence Gaskill and Jimmy McHugh"
-  copyright = \markup \small "© 1926 Mills Music, Inc."
+  copyright = \markup \small { \now " " "© 1926 Mills Music, Inc." }
 }
 
 refrainLyrics = \lyricmode {

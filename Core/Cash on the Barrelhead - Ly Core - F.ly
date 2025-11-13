@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Charles Louvin and Ira Louvin"
-  copyright = \markup \small "© 1956 Acuff-Rose Music, Inc."
+  copyright = \markup \small { \now " " "© 1956 Acuff-Rose Music, Inc." }
 }
 
 refrainLyrics = \lyricmode {

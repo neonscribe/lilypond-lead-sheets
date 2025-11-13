@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Larry Morey"
   composer = "Frank Churchill"
-  copyright = \markup \small "© 1937 Bourne Co."
+  copyright = \markup \small { \now " " "© 1937 Bourne Co." }
 }
 
 refrainLyrics = \lyricmode {

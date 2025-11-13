@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Raymond Klages"
   composer = "Jesse Greer"
-  copyright = \markup \small "© 1929 Metro-Goldwyn Mayer Inc."
+  copyright = \markup \small { \now " " "© 1929 Metro-Goldwyn Mayer Inc." }
 }
 
 refrainLyrics = \lyricmode {

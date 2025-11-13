@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "George Harrison"
-  copyright = \markup \small "© 1968 Harrisongs Limited"
+  copyright = \markup \small { \now " " "© 1968 Harrisongs Limited" }
 }
 
 refrainLyrics = \lyricmode {

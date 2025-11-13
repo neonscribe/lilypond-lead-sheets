@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Josef Zawinul"
-  copyright = \markup \small "© 1966 Zawinul Music"
+  copyright = \markup \small { \now " " "© 1966 Zawinul Music" }
 }
 
 refrainChords = \chordmode {

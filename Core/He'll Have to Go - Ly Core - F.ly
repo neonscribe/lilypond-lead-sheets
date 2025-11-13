@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Joe Allison and Audrey Allison"
-  copyright = \markup \small "© 1959 Beechwood Music Corp."
+  copyright = \markup \small { \now " " "© 1959 Beechwood Music Corp." }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

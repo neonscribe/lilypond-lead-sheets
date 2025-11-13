@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Edgar Battle/Eddie Durham"
-  copyright = \markup \small "© 1938 Vanessa Music Corp."
+  copyright = \markup \small { \now " " "© 1938 Vanessa Music Corp." }
 }
 
 refrainChords = \chordmode {

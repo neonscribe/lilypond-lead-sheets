@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Paul Francis Webster and Sonny Burke"
-  copyright = \markup \small "© 1948 Webster Music Co. and Sondot Music Corporation"
+  copyright = \markup \small { \now " " "© 1948 Webster Music Co. and Sondot Music Corporation" }
 }
 
 refrainFemaleSingerLyrics = \lyricmode {

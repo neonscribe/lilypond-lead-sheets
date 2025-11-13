@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   title = "Innocent When You Dream"
   subtitle = \instrument
   composer = "Tom Waits"
-  copyright = \markup \small "© 1987 Jalma Music, Inc."
+  copyright = \markup \small { \now " " "© 1987 Jalma Music, Inc." }
 }
 
 straightEighths = ##t

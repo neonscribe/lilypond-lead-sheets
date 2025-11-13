@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Billy Mayhew"
-  copyright = \markup \small "© 1936 Bregman, Vocco and Conn, Inc."
+  copyright = \markup \small { \now " " "© 1936 Bregman, Vocco and Conn, Inc." }
 }
 
 refrainLyrics = \lyricmode {

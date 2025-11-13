@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Hoagy Carmichael"
-  copyright = \markup \small "© 1941 Edwin H. Morris & Co."
+  copyright = \markup \small { \now " " "© 1941 Edwin H. Morris & Co." }
 }
 
 refrainLyrics = \lyricmode {

@@ -11,7 +11,7 @@
   subtitle = \instrument
   poet = "Andy Razaf"
   composer = "Benny Goodman, Chick Webb and Edgar Sampson"
-  copyright = \markup \small "© 1936 Robbins Music Corporation."
+  copyright = \markup \small { \now " " "© 1936 Robbins Music Corporation." }
 }
 
 refrainLyrics = \lyricmode {

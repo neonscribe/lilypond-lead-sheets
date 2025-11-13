@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Bob Dorough"
   composer = "Ben Tucker"
-  copyright = \markup \small "© 1960 Cotillion Music Inc."
+  copyright = \markup \small { \now " " "© 1960 Cotillion Music Inc." }
 }
 
 refrainLyrics = \lyricmode {

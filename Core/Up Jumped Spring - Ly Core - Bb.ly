@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Abbey Lincoln"
   composer = "Freddie Hubbard"
-  copyright = \markup \small "© 1962 Hubtones Music Co."
+  copyright = \markup \small { \now " " "© 1962 Hubtones Music Co." }
 }
 
 refrainLyrics = \lyricmode {

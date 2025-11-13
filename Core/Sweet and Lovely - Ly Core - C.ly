@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Gus Arnheim, Harry Tobias and Jules Lemare"
-  copyright = \markup \small "© 1931 Metro-Goldwyn-Mayer Corp."
+  copyright = \markup \small { \now " " "© 1931 Metro-Goldwyn-Mayer Corp." }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

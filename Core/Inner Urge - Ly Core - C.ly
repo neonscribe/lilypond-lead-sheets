@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Joe Henderson"
-  copyright = \markup \small "© 1964 Johen Music"
+  copyright = \markup \small { \now " " "© 1964 Johen Music" }
 }
 
 refrainChords = \chordmode {

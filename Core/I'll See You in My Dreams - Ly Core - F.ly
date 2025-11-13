@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Gus Kahn"
   composer = "Isham Jones"
-  copyright = \markup \small "© 1924 Leo Feist Inc."
+  copyright = \markup \small { \now " " "© 1924 Leo Feist Inc." }
 }
 
 verseLyrics = \lyricmode {

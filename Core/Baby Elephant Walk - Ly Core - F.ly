@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Henry Mancini"
-  copyright = \markup \small "© 1961 Famous Music Corporation"
+  copyright = \markup \small { \now " " "© 1961 Famous Music Corporation" }
 }
 
 introChords = \chordmode {

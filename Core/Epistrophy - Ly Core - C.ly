@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Thelonious Monk and Kenny Clarke"
-  copyright = \markup \small "© 1947 Embassy Music Corporation and Music Sales Corporation"
+  copyright = \markup \small { \now " " "© 1947 Embassy Music Corporation and Music Sales Corporation" }
 }
 
 refrainChords = \chordmode {

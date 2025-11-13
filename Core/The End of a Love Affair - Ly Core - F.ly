@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Edward C. Redding"
-  copyright = \markup \small "© 1950 Universal Music Corp."
+  copyright = \markup \small { \now " " "© 1950 Universal Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

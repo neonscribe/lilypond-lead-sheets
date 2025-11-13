@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Sergio Mihanovich"
-  copyright = \markup \small "© 1963 Second Floor Music"
+  copyright = \markup \small { \now " " "© 1963 Second Floor Music" }
 }
 
 refrainChords = \chordmode {

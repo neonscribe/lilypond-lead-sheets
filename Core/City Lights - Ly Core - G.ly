@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bill Anderson"
-  copyright = \markup \small "© 1958 TNT Music, Inc."
+  copyright = \markup \small { \now " " "© 1958 TNT Music, Inc." }
 }
 
 refrainMaleSingerLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Mel Mitchell"
   composer = "Alvaro Carillo"
-  copyright = \markup \small "© 1959 Promontora Hispano Americana de Musica S.A."
+  copyright = \markup \small { \now " " "© 1959 Promontora Hispano Americana de Musica S.A." }
 }
 
 bossaRhythm = ##t

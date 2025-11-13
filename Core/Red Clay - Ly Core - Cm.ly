@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Freddie Hubbard"
-  copyright = \markup \small "© 1972 Hubtones Music Co."
+  copyright = \markup \small { \now " " "© 1972 Hubtones Music Co." }
 }
 
 bridgeKey = c

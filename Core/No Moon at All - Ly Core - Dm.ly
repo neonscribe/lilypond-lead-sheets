@@ -8,7 +8,7 @@
   title = "No Moon at All"
   subtitle = \instrument
   composer = "Redd Evans & Dave Mann"
-  copyright = \markup \small "© 1947 Jefferson Music Co., Inc."
+  copyright = \markup \small { \now " " "© 1947 Jefferson Music Co., Inc." }
 }
 
 refrainLyrics = \lyricmode {

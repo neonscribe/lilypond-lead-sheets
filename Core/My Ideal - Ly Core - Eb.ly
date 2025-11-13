@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Leo Robin"
   composer = "Richard A. Whiting and Newell Chase"
-  copyright = \markup \small "© 1930 Famous Music Corporation"
+  copyright = \markup \small { \now " " "© 1930 Famous Music Corporation" }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

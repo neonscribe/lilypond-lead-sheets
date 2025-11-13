@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Dave Kirby and Glenn Martin"
-  copyright = \markup \small "© 1969 Pamper Music Inc."
+  copyright = \markup \small { \now " " "© 1969 Pamper Music Inc." }
 }
 
 straightEighths = ##t

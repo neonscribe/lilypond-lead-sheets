@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Gus Kahn"
   composer = "Matt Malneck and Frank Signorelli"
-  copyright = \markup \small "© 1932 Robbins Music Corp."
+  copyright = \markup \small { \now " " "© 1932 Robbins Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

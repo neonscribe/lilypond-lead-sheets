@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Benny Golson"
-  copyright = \markup \small "© 1959 Time Step Music"
+  copyright = \markup \small { \now " " "© 1959 Time Step Music" }
 }
 
 refrainChords = \chordmode {

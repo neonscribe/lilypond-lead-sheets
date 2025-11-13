@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Bertolt Brecht/Marc Blitzstein"
   composer = "Kurt Weill"
-  copyright = \markup \small "© 1928 Universal Edition AG Wien"
+  copyright = \markup \small { \now " " "© 1928 Universal Edition AG Wien" }
 }
 
 refrainChords = \chordmode {

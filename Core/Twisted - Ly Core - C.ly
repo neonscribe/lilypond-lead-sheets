@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Annie Ross"
   composer = "Wardell Gray"
-  copyright = \markup \small "© 1949,1952 Prestige Music"
+  copyright = \markup \small { \now " " "© 1949,1952 Prestige Music" }
 }
 
 refrainLyrics = \lyricmode {

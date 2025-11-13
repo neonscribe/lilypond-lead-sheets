@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Al J. Neiburg"
   composer = "Doc Dougherty and Ellis Reynolds"
-  copyright = \markup \small "© 1930 General Music Publications"
+  copyright = \markup \small { \now " " "© 1930 General Music Publications" }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Roger Waters"
-  copyright = \markup \small "© 1973 Hampshire House Publishing Corp."
+  copyright = \markup \small { \now " " "© 1973 Hampshire House Publishing Corp." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Grant Clarke"
   composer = "Harry Akst"
-  copyright = \markup \small "© 1929 M. Witmark & Sons"
+  copyright = \markup \small { \now " " "© 1929 M. Witmark & Sons" }
 }
 
 refrainLyrics = \lyricmode {

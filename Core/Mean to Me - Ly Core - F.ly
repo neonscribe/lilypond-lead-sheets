@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Fred E. Ahlert and Roy Turk"
-  copyright = \markup \small "© 1929 Chappell & Co."
+  copyright = \markup \small { \now " " "© 1929 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {

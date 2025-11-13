@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Gary Nunn and Donna Farar"
-  copyright = \markup \small "© 1982 Nunn Publishing Co."
+  copyright = \markup \small { \now " " "© 1982 Nunn Publishing Co." }
 }
 
 straightEighths = ##t

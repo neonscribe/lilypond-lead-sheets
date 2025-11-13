@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Harold Adamson and Mack Gordon"
   composer = "Vincent Youmans"
-  copyright = \markup \small "© 1930 Vincent Youmans, Inc."
+  copyright = \markup \small { \now " " "© 1930 Vincent Youmans, Inc." }
 }
 
 refrainLyrics = \lyricmode {

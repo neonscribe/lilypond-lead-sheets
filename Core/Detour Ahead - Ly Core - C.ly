@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Lou Carter, Herb Ellis, Johnny Frigo"
-  copyright = \markup \small "© 1947 Woodrow Music"
+  copyright = \markup \small { \now " " "© 1947 Woodrow Music" }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

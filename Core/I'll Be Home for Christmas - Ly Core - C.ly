@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Kim Gannon"
   composer = "Walter Kent"
-  copyright = \markup \small "© 1943 Gannon & Kent Music Co., Inc."
+  copyright = \markup \small { \now " " "© 1943 Gannon & Kent Music Co., Inc." }
 }
 
 refrainLyrics = \lyricmode {

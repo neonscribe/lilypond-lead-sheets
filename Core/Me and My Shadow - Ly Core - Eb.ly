@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Billy Rose"
   composer = "Dave Dreyer and Al Jolson"
-  copyright = \markup \small "© 1927 Irving Berlin Inc."
+  copyright = \markup \small { \now " " "© 1927 Irving Berlin Inc." }
 }
 
 refrainLyrics = \lyricmode {

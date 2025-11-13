@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Mort Dixon"
   composer = "Ray Henderson"
-  copyright = \markup \small "© 1926 Jerome H. Remick & Co."
+  copyright = \markup \small { \now " " "© 1926 Jerome H. Remick & Co." }
 }
 
 refrainLyrics = \lyricmode {

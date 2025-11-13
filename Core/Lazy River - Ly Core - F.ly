@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Hoagy Carmichael and Sidney Arodin"
-  copyright = \markup \small "© 1931 Peer International Corporation"
+  copyright = \markup \small { \now " " "© 1931 Peer International Corporation" }
 }
 
 refrainLyrics = \lyricmode {

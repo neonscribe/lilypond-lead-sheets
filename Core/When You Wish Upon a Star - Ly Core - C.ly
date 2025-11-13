@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ned Washington"
   composer = "Leigh Harline"
-  copyright = \markup \small "© 1940 Bourne Co."
+  copyright = \markup \small { \now " " "© 1940 Bourne Co." }
 }
 
 refrainLyrics = \lyricmode {

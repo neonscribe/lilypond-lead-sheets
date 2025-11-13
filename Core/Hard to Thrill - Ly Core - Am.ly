@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Eric Clapton & John Mayer"
-  copyright = \markup \small "© 2006 Inc."
+  copyright = \markup \small { \now " " "© 2006 Inc." }
 }
 
 refrainAltChords = \chordmode {

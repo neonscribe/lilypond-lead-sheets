@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Paul Francis Webster"
   composer = "Sammy Fain"
-  copyright = \markup \small "© 1953 Remick Music Corporation"
+  copyright = \markup \small { \now " " "© 1953 Remick Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

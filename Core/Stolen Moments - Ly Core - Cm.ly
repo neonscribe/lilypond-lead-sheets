@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Oliver Nelson"
-  copyright = \markup \small "© 1962 Oliver E. Nelson"
+  copyright = \markup \small { \now " " "© 1962 Oliver E. Nelson" }
 }
 
 refrainChords = \chordmode {

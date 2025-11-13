@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Newton Mendonça, Normal Gimbel"
   composer = "Antônio Carlos Jobim"
-  copyright = \markup \small "© 1962 Jobim Music"
+  copyright = \markup \small { \now " " "© 1962 Jobim Music" }
 }
 
 bossaRhythm = ##t

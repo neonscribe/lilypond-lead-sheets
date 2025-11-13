@@ -8,7 +8,7 @@
   title = "Born to Be Blue"
   subtitle = \instrument
   composer = "Mel Tormé & Robert Wells"
-  copyright = \markup \small "© 1946 Wells Music Inc. and Arc Music"
+  copyright = \markup \small { \now " " "© 1946 Wells Music Inc. and Arc Music" }
 }
 
 refrainLyrics = \lyricmode {

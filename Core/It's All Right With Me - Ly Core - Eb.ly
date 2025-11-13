@@ -6,7 +6,7 @@
   title = "It's All Right With Me"
   subtitle = \instrument
   composer = "Cole Porter"
-  copyright = \markup \small "© 1953 Chappell & Co."
+  copyright = \markup \small { \now " " "© 1953 Chappell & Co." }
 }
 
 peggyLeeIntroChords = \chordmode {

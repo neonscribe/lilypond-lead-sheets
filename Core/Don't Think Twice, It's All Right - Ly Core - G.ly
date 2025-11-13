@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bob Dylan"
-  copyright = \markup \small "© 1963 Special Rider Music"
+  copyright = \markup \small { \now " " "© 1963 Special Rider Music" }
 }
 
 refrainLyrics = \lyricmode {

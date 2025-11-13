@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Sammy Fain, Irving Kahal and Pierre Norman"
-  copyright = \markup \small "© 1931 Famous Music Corp."
+  copyright = \markup \small { \now " " "© 1931 Famous Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

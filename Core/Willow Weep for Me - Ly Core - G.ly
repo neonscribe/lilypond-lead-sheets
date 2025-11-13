@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Ann Ronnell"
-  copyright = \markup \small "© 1932 Irving Berlin Inc."
+  copyright = \markup \small { \now " " "© 1932 Irving Berlin Inc." }
 }
 
 refrainLyrics = \lyricmode {

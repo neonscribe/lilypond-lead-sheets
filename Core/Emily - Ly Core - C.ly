@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Johnny Mandel"
-  copyright = \markup \small "© 1964 Metro-Goldwyn-Mayer, Inc."
+  copyright = \markup \small { \now " " "© 1964 Metro-Goldwyn-Mayer, Inc." }
 }
 
 refrainLyrics = \lyricmode {

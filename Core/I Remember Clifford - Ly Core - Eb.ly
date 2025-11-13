@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Benny Golson"
-  copyright = \markup \small "© 1957 Ibbob Music, Inc."
+  copyright = \markup \small { \now " " "© 1957 Ibbob Music, Inc." }
 }
 
 refrainChords = \chordmode {

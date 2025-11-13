@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Louise Massey and Lee Penny"
-  copyright = \markup \small "© 1941 Peer International Corp."
+  copyright = \markup \small { \now " " "© 1941 Peer International Corp." }
 }
 
 refrainLyrics = \lyricmode {

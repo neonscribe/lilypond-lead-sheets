@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Maceo Pinkard, William Tracy & Doris Tauber"
-  copyright = \markup \small "© 1930 Bourne, Inc."
+  copyright = \markup \small { \now " " "© 1930 Bourne, Inc." }
 }
 
 refrainLyrics = \lyricmode {

@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Billy Rose & E.Y. Harburg"
   composer = "Harold Arlen"
-  copyright = \markup \small "© 1933 Anne Rachel Music Corp"
+  copyright = \markup \small { \now " " "© 1933 Anne Rachel Music Corp" }
 }
 
 refrainLyrics = \lyricmode {

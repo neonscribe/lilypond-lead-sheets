@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Gerry Mulligan"
-  copyright = \markup \small "© 1954 Criterion Music Corp."
+  copyright = \markup \small { \now " " "© 1954 Criterion Music Corp." }
 }
 
 refrainChords = \chordmode { 

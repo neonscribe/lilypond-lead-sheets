@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Sam Rivers"
-  copyright = \markup \small "© 1965 Rivbea Music"
+  copyright = \markup \small { \now " " "© 1965 Rivbea Music" }
 }
 
 refrainChords = \chordmode {

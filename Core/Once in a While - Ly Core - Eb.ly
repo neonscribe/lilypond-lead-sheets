@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Bud Green"
   composer = "Michael Edwards"
-  copyright = \markup \small "© 1937 Miller Music Corporation"
+  copyright = \markup \small { \now " " "© 1937 Miller Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

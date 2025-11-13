@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Clifford Brown"
-  copyright = \markup \small "© 1956 Second Floor Music"
+  copyright = \markup \small { \now " " "© 1956 Second Floor Music" }
 }
 
 refrainChords = \chordmode {

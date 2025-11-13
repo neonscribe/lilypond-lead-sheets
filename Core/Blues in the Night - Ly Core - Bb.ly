@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Harold Arlen"
-  copyright = \markup \small "© 1941 Warner Bros. Inc."
+  copyright = \markup \small { \now " " "© 1941 Warner Bros. Inc." }
 }
 
 refrainLyrics = { \lyricmode {

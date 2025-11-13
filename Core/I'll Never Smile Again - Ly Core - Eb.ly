@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Ruth Lowe"
-  copyright = \markup \small "© 1939 Sun Music Co., Inc."
+  copyright = \markup \small { \now " " "© 1939 Sun Music Co., Inc." }
 }
 
 refrainLyrics = \lyricmode {

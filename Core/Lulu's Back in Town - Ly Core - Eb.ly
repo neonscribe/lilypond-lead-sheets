@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Al Dubin"
   composer = "Harry Warren"
-  copyright = \markup \small "© 1935 M. Witmark & Sons"
+  copyright = \markup \small { \now " " "© 1935 M. Witmark & Sons" }
 }
 
 refrainLyrics = \lyricmode {

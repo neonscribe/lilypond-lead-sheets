@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Nat Adderley"
-  copyright = \markup \small "© 1958 Upam Music Co."
+  copyright = \markup \small { \now " " "© 1958 Upam Music Co." }
 }
 
 refrainChords = \chordmode {

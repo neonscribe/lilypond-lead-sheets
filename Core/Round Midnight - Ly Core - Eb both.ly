@@ -5,7 +5,7 @@
   subtitle = \instrument
   poet = "Bernie Hanighen"
   composer = "Cootie Williams and Thelonious Monk"
-  copyright = \markup \small "© 1944 Advanced Music Corporation"
+  copyright = \markup \small { \now " " "© 1944 Advanced Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

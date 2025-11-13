@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Gene Lees"
   composer = "Antônio Carlos Jobim"
-  copyright = \markup \small "© 1960 Jobim Music Ltda."
+  copyright = \markup \small { \now " " "© 1960 Jobim Music Ltda." }
 }
 
 bossaRhythm = ##t

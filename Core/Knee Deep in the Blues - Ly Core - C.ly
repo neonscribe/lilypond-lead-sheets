@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   %% poet = ""
   composer = "Melvin Endsley"
-  copyright = \markup \small "© 1957 Acuff-Rose Publications"
+  copyright = \markup \small { \now " " "© 1957 Acuff-Rose Publications" }
 }
 
 introLyrics = \lyricmode {

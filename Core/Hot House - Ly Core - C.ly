@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Tadd Dameron"
-  copyright = \markup \small "© 1945 Redwood Music Ltd."
+  copyright = \markup \small { \now " " "© 1945 Redwood Music Ltd." }
 }
 
 refrainChords = \chordmode {

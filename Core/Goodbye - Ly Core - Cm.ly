@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Gordon Jenkins"
-  copyright = \markup \small "© 1935 Schuster and Miller, Inc."
+  copyright = \markup \small { \now " " "© 1935 Schuster and Miller, Inc." }
 }
 
 refrainLyrics = \lyricmode {

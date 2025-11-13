@@ -12,7 +12,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Django Reinhardt"
-  copyright = \markup \small "© 1944 Publications Francis-Day (S.A.)"
+  copyright = \markup \small { \now " " "© 1944 Publications Francis-Day (S.A.)" }
 }
 
 refrainChords = \chordmode {

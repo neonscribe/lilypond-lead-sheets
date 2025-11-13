@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Irving Mills"
   composer = "Duke Ellington and Juan Tizol"
-  copyright = \markup \small "© 1937 American Academy of Music, Inc."
+  copyright = \markup \small { \now " " "© 1937 American Academy of Music, Inc." }
 }
 
 refrainLyrics = \lyricmode {

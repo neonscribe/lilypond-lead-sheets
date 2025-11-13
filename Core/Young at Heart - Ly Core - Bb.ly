@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Carolyn Leigh"
   composer = "Johnny Richards"
-  copyright = \markup \small "© 1954 Sunbeam Music Corporation"
+  copyright = \markup \small { \now " " "© 1954 Sunbeam Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

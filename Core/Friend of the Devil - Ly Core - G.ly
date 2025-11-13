@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Robert Hunter"
   composer = "Jerry Garcia and John Dawson"
-  copyright = \markup \small "© 1970 Ice Nine Publishing Co., Inc."
+  copyright = \markup \small { \now " " "© 1970 Ice Nine Publishing Co., Inc." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Andy Razaf"
   composer = "Fats Waller"
-  copyright = \markup \small "© 1929 Santly Bros., Inc."
+  copyright = \markup \small { \now " " "© 1929 Santly Bros., Inc." }
 }
 
 refrainLyrics = \lyricmode {

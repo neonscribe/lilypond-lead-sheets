@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Duke Ellington and Billy Strayhorn"
-  copyright = \markup \small "© 1953 Tempo Music, Inc."
+  copyright = \markup \small { \now " " "© 1953 Tempo Music, Inc." }
 }
 
 refrainLyrics = \lyricmode {

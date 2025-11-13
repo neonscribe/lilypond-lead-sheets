@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Abbey Lincoln"
   composer = "Thelonious Monk"
-  copyright = \markup \small "© 1962 Thelonious Music Corp."
+  copyright = \markup \small { \now " " "© 1962 Thelonious Music Corp." }
 }
 
 refrainChords = \chordmode {

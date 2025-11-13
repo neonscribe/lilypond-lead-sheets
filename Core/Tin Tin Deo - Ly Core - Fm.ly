@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Walter Gil Fuller and Luciano Pozo Gonzales"
-  copyright = \markup \small "© 1948 Consolidated Music Publishers"
+  copyright = \markup \small { \now " " "© 1948 Consolidated Music Publishers" }
 }
 
 refrainChords = \chordmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bob Dorough, Terrell Kirk, Jr."
-  copyright = \markup \small "© 1953 Sincere Music"
+  copyright = \markup \small { \now " " "© 1953 Sincere Music" }
 }
 
 refrainLyrics = \lyricmode {

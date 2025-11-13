@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Chas. Warfield and Clarence Williams"
-  copyright = \markup \small "© 1923 Clarence Williams Music Pub. Co., Inc."
+  copyright = \markup \small { \now " " "© 1923 Clarence Williams Music Pub. Co., Inc." }
 }
 
 refrainLyrics = \lyricmode {

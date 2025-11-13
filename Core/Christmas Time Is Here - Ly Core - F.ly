@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Lee Mendelson"
   composer = "Vince Guaraldi"
-  copyright = \markup \small "© 1966 Lee Mendelson Film Productions, Inc."
+  copyright = \markup \small { \now " " "© 1966 Lee Mendelson Film Productions, Inc." }
 }
 
 refrainLyrics = \lyricmode {

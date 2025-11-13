@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Roy Turk, Fred E. Ahlert"
-  copyright = \markup \small "© 1930 De Sylva Brown & Henderson Inc."
+  copyright = \markup \small { \now " " "© 1930 De Sylva Brown & Henderson Inc." }
 }
 
 refrainLyrics = \lyricmode {

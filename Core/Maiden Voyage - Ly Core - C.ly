@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Herbie Hancock"
-  copyright = \markup \small "© 1965 Hancock Music Inc."
+  copyright = \markup \small { \now " " "© 1965 Hancock Music Inc." }
 }
 
 refrainChords = \chordmode {

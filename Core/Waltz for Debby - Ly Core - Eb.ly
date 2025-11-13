@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Gene Lees"
   composer = "Bill Evans"
-  copyright = \markup \small "© 1964 Acorn Music Corp."
+  copyright = \markup \small { \now " " "© 1964 Acorn Music Corp." }
 }
 
 refrainLyricsPre = \lyricmode {

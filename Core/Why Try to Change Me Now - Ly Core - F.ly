@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Joseph McCarthy"
   composer = "Cy Coleman"
-  copyright = \markup \small "© 1952 Notable Music Co., Inc."
+  copyright = \markup \small { \now " " "© 1952 Notable Music Co., Inc." }
 }
 
 refrainLyrics = \lyricmode {

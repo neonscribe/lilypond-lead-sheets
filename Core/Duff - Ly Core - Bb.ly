@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Hampton Hawes"
-  copyright = \markup \small "© 1956 Fort Knox Music Inc."
+  copyright = \markup \small { \now " " "© 1956 Fort Knox Music Inc." }
 }
 
 refrainChords = \chordmode {

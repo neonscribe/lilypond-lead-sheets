@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Don Raye and Gene dePaul"
-  copyright = \markup \small "© 1943 Leo Feist, Inc."
+  copyright = \markup \small { \now " " "© 1943 Leo Feist, Inc." }
 }
 
 refrainLyrics = \lyricmode {

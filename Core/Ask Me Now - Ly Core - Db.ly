@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Jon Hendricks"
   composer = "Thelonius Monk"
-  copyright = \markup \small "© 1951 Thelonius Music Corporation"
+  copyright = \markup \small { \now " " "© 1951 Thelonius Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

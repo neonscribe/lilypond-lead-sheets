@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "E.Y. Harburg"
   composer = "Burton Lane"
-  copyright = \markup \small "© 1946 Chappell & Co."
+  copyright = \markup \small { \now " " "© 1946 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {

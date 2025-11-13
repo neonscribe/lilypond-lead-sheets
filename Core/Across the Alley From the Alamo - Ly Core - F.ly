@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Joe Greene"
-  copyright = \markup \small "© 1947 Michael H. Goldsen, Inc."
+  copyright = \markup \small { \now " " "© 1947 Michael H. Goldsen, Inc." }
 }
 
 refrainLyrics = \lyricmode {

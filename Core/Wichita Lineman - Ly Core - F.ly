@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Jimmy Webb"
-  copyright = \markup \small "© 1968 Canopy Music Inc."
+  copyright = \markup \small { \now " " "© 1968 Canopy Music Inc." }
 }
 
 introChords = \chordmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Bobby Sharp/Teddy Powell"
-  copyright = \markup \small "© 1960 B. Sharp Music"
+  copyright = \markup \small { \now " " "© 1960 B. Sharp Music" }
 }
 
 refrainLyrics = \lyricmode {

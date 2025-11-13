@@ -6,7 +6,7 @@
   title = "Just My Kind"
   subtitle = \instrument
   composer = "Paul Sawyer"
-  copyright = \markup \small "© 2019"
+  copyright = \markup \small { \now " " "© 2019" }
 }
 
 refrainLyrics = \lyricmode {

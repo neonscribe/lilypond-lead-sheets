@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Eddie DeLange"
   composer = "Jimmy Van Heusen"
-  copyright = \markup \small "© 1939 Lewis Music Publishing Co., Inc."
+  copyright = \markup \small { \now " " "© 1939 Lewis Music Publishing Co., Inc." }
 }
 
 refrainLyrics = \lyricmode {

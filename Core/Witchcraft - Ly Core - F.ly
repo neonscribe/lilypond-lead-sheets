@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Carolyn Leigh"
   composer = "Cy Coleman"
-  copyright = \markup \small "© 1957 Morley Music Co."
+  copyright = \markup \small { \now " " "© 1957 Morley Music Co." }
 }
 
 refrainLyrics = \lyricmode {

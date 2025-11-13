@@ -13,7 +13,7 @@
   subtitle = \instrument
   poet = "Mitchell Parish"
   composer = "Cliff Burwell"
-  copyright = \markup \small "© 1928 Mills Music Inc."
+  copyright = \markup \small { \now " " "© 1928 Mills Music Inc." }
 }
 
 refrainLyrics = \lyricmode {

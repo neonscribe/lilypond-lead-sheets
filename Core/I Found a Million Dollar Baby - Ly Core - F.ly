@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Billy Rose and Mort Dixon"
   composer = "Harry Warren"
-  copyright = \markup \small "© 1931 Remick Music Corp."
+  copyright = \markup \small { \now " " "© 1931 Remick Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Edward Heyman"
   composer = "Oscar Levant"
-  copyright = \markup \small "© 1934 Levant Oscar Music"
+  copyright = \markup \small { \now " " "© 1934 Levant Oscar Music" }
 }
 
 refrainLyrics = \lyricmode {

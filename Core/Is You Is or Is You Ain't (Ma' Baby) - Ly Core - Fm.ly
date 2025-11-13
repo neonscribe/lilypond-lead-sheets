@@ -6,7 +6,7 @@
   title = "Is You Is, or Is You Ain't (Ma' Baby)"
   subtitle = \instrument
   composer = "Billy Austin and Louis Jordan"
-  copyright = \markup \small "© 1944 Leeds Music Corporation"
+  copyright = \markup \small { \now " " "© 1944 Leeds Music Corporation" }
 }
 
 introLyrics = \lyricmode {

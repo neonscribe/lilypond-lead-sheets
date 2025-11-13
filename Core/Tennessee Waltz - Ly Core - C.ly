@@ -11,7 +11,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = ""
   composer = "Redd Stewart and Pee Wee King"
-  copyright = \markup \small "© 1948 Acuff-Rose Publications"
+  copyright = \markup \small { \now " " "© 1948 Acuff-Rose Publications" }
 }
 
 straightEighths = ##t

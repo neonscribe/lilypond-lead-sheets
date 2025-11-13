@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Bob Hilliard"
   composer = "David Mann"
-  copyright = \markup \small "© 1955 Bourne Corp. and Redd Evans Music Corp."
+  copyright = \markup \small { \now " " "© 1955 Bourne Corp. and Redd Evans Music Corp." }
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {

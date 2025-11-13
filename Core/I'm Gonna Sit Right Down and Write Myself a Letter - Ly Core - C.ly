@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Joe Young"
   composer = "Fred E. Ahlert"
-  copyright = \markup \small "© 1935 Crawford Music Corporation"
+  copyright = \markup \small { \now " " "© 1935 Crawford Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

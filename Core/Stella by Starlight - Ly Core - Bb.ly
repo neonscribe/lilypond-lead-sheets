@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Ned Washington"
   composer = "Victor Young"
-  copyright = \markup \small "© 1946 Famous Music Corporation"
+  copyright = \markup \small { \now " " "© 1946 Famous Music Corporation" }
 }
 
 refrainLyrics =

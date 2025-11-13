@@ -11,7 +11,7 @@
   subtitle = \instrument
   poet = "Don Raye"
   composer = "Gene de Paul"
-  copyright = \markup \small "© 1941 Universal Music Corp."
+  copyright = \markup \small { \now " " "© 1941 Universal Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Mack Gordon"
   composer = "Josef Myrow"
-  copyright = \markup \small "© 1946 Triangle Music Corporation"
+  copyright = \markup \small { \now " " "© 1946 Triangle Music Corporation" }
 }
 
 refrainLyrics = \lyricmode {

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Irving Berlin (arranged by Hank Mobley)"
-  copyright = \markup \small "© 1925 Irving Berlin, Inc."
+  copyright = \markup \small { \now " " "© 1925 Irving Berlin, Inc." }
 }
 
 refrainChords = \chordmode {

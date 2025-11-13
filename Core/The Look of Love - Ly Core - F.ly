@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Hal David"
   composer = "Burt Bacharach"
-  copyright = \markup \small "© 1967 Colgems Music Corp."
+  copyright = \markup \small { \now " " "© 1967 Colgems Music Corp." }
 }
 
 refrainLyrics = \lyricmode {

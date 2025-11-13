@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Henry Creamer & Jimmy Johnson"
-  copyright = \markup \small "© 1926 Jerome H. Remick & Co."
+  copyright = \markup \small { \now " " "© 1926 Jerome H. Remick & Co." }
 }
 
 refrainLyrics = \lyricmode {

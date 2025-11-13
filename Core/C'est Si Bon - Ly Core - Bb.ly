@@ -7,7 +7,7 @@
   subtitle = \instrument
   poet = "Andre Hornez/Jerry Seelen"
   composer = "Henri Betti"
-  copyright = \markup \small "© 1947 Arpege Editions"
+  copyright = \markup \small { \now " " "© 1947 Arpege Editions" }
 }
 
 refrainChords = \chordmode {
@@ -26,9 +26,9 @@ refrainChords = \chordmode {
   c1:m7 f1:7 d1:m7.5- g1:7.9-
   
   c1:m7 ef1:m6 bf1:maj7 bf1:maj7
-  df2:m7 gf2:7 c2:m7 f2:7 bf1:6 c2:m7 f2:7
-  
-  bf2:6 a2:6 bf1:6
+  df2:m7 gf2:7 c2:m7 f2:7 bf1:6 
+  \chordOpenParen{ c2:m7 }
+  \chordCloseParen{ f2:7 }
 }
 
 refrainKey = bf
@@ -40,11 +40,10 @@ refrainMelody = \relative f' {
   \tempo "Medium [Eartha Kitt 1953]" 4 = 140
   
   \partial 2 f4 e4 |
+  \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
-  \bar ".|:"
-  \repeat volta 2 {
   ef1~ | ef8 f4 g8 a8 g8 f4 | d1~ | d8 f4 g8 a8 g8 f4 |
   ef1~ | ef8 f8 g8 a8 d8 a4 g8~ | g1~ | g2 f4 e4 |
   
@@ -69,12 +68,7 @@ refrainMelody = \relative f' {
   
   ef1~ | ef8 d4 c8 ef8 d8 c4 | d1~ | d8 d4 c8 bf8 a8 g4 |
   gf1~ | gf8 f8 g8 a8 d8 f,4 bf8~ |
-  } \alternative {{
-    bf1 | r2 f4 e4 |
-    } {
-      bf'2\repeatTie a2 | bf4 r4 r2 |
-    }}
-      
+  bf1 | r2 f4 e4 |
 
   \bar "|."
 }

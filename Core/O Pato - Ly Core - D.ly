@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "English lyrics by Jon Hendricks"
   composer = "Jaime Silva, Neuza Teixera"
-  copyright = \markup \small "© 1960 Fermata International Melodies, Inc."
+  copyright = \markup \small { \now " " "© 1960 Fermata International Melodies, Inc." }
 }
 
 bossaRhythm = ##t

@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "English lyrics by Norman Gimbel"
   composer = "Pablo Beltrán Ruiz"
-  copyright = \markup \small "© 1953 Editorial Mexicana de Musica International SA"
+  copyright = \markup \small { \now " " "© 1953 Editorial Mexicana de Musica International SA" }
 }
 
 bossaRhythm = ##t

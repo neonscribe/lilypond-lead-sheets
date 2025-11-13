@@ -10,7 +10,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   title = "If I Had You"
   subtitle = \instrument
   composer = "Ted Shapiro, Jimmy Campbell & Reg Connelly"
-  copyright = \markup \small "© 1928 Campbell Connelly & Company Limited, 8/9 Frith Street, London W1."
+  copyright = \markup \small { \now " " "© 1928 Campbell Connelly & Company Limited, 8/9 Frith Street, London W1." }
 }
 
 refrainLyrics = \lyricmode {

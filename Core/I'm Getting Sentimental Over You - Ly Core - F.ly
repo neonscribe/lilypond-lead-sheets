@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Ned Washington"
   composer = "George Bassman"
-  copyright = \markup \small "© 1932 Mills Music, Inc."
+  copyright = \markup \small { \now " " "© 1932 Mills Music, Inc." }
 }
 
 refrainLyrics = \lyricmode {

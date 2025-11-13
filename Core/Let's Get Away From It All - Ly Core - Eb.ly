@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Tom Adair"
   composer = "Matt Dennis"
-  copyright = \markup \small "© 1941 Dorsey Bros. Music"
+  copyright = \markup \small { \now " " "© 1941 Dorsey Bros. Music" }
 }
 
 refrainLyrics = \lyricmode {

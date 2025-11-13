@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "James Rowles"
-  copyright = \markup \small "© 1958 Kudu Music"
+  copyright = \markup \small { \now " " "© 1958 Kudu Music" }
 }
 
 refrainChords = \chordmode {

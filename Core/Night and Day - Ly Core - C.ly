@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Cole Porter"
-  copyright = \markup \small "© 1932 Warner Bros. Inc."
+  copyright = \markup \small { \now " " "© 1932 Warner Bros. Inc." }
 }
 
 refrainLyrics = \lyricmode {

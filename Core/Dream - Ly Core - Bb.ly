@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Johnny Mercer"
-  copyright = \markup \small "© 1944 Capitol Songs, Inc."
+  copyright = \markup \small { \now " " "© 1944 Capitol Songs, Inc." }
 }
 
 refrainLyrics = \lyricmode {

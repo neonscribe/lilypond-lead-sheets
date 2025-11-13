@@ -8,7 +8,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 \header {
     title =  Apache
     subtitle = \instrument
-    copyright = \markup \small "© 1959 Francis, Day & Hunter, Ltd."
+    copyright = \markup \small { \now " " "© 1959 Francis, Day & Hunter, Ltd." }
     composer =  "Jerry Lordan"
   }
 

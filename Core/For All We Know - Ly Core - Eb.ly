@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = "Sam M. Lewis"
   composer = "J. Fred Coots"
-  copyright = \markup \small "© 1934 Cromwell Music, Inc."
+  copyright = \markup \small { \now " " "© 1934 Cromwell Music, Inc." }
 }
 
 refrainLyrics = \lyricmode {

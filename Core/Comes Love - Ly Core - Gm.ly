@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "Lew Brown, Chas. Tobias, Sam H. Stept"
-  copyright = \markup \small "© 1939 Chappel & Co., Inc."
+  copyright = \markup \small { \now " " "© 1939 Chappel & Co., Inc." }
 }
 
 refrainLyrics = \lyricmode {

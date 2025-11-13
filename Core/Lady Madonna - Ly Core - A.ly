@@ -9,7 +9,7 @@
   subtitle = \instrument
   poet = ""
   composer = "John Lennon/Paul McCartney"
-  copyright = \markup \small "© 1968 Northern Songs"
+  copyright = \markup \small { \now " " "© 1968 Northern Songs" }
 }
 
 keepWeirdAccidentals = ##t
