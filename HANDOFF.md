@@ -1,6 +1,6 @@
 # Jazz Picker - Session Handoff
 
-## What We Built Today
+## What We Built
 
 A web app for browsing Eric's 729 jazz lead sheets on iPad!
 
@@ -11,27 +11,30 @@ A web app for browsing Eric's 729 jazz lead sheets on iPad!
 - ✅ Search by song title
 - ✅ Shows available keys per instrument
 - ✅ Dynamic IP detection for local network access
-- ✅ Better error messages when compilation fails
+- ✅ PDF serving via Dropbox symlinks (instant, no compilation)
+- ✅ On-demand compilation fallback (requires LilyPond 2.25)
 
-**Current Status:**
-- Server running at http://10.0.0.29:5001 (iPad accessible)
-- Interface working great
-- PDF viewing attempts to compile on-demand but fails due to LilyPond version
+**Current Status (2025-11-13):**
+- Server running at http://localhost:5001 (iPad accessible on local network)
+- PDFs served via Dropbox symlinks - all 4,324 sheets available
 
-## The LilyPond Version Issue
+## PDF Serving Solution
 
-**Problem:**
-- System has LilyPond 2.24.4
-- Eric's code requires LilyPond 2.25 (development branch)
-- Error: `\normal-weight` command doesn't exist in 2.24
+**Implemented:** Symlinks to Eric's pre-compiled PDFs in Dropbox
 
-**Solutions:**
-1. **Quick Fix (for jamming today):** Pre-compile all PDFs using Eric's scripts
-2. **Permanent Fix:** Upgrade LilyPond to 2.25
-   ```bash
-   brew uninstall lilypond
-   brew install lilypond --devel  # or --HEAD
-   ```
+- No compilation needed - instant PDF access
+- Always synced with Eric's latest builds
+- Symlinks in .gitignore (not committed)
+- On-demand compilation available as fallback (requires LilyPond 2.25 upgrade)
+
+**Symlinks created:**
+```bash
+ln -s "/path/to/dropbox/Lead Sheets/Alto Voice" "Alto Voice"
+ln -s "/path/to/dropbox/Lead Sheets/Baritone Voice" "Baritone Voice"
+ln -s "/path/to/dropbox/Lead Sheets/Standard" "Standard"
+ln -s "/path/to/dropbox/Lead Sheets/Others" "Others"
+ln -s "/path/to/dropbox/Lead Sheets/Midi" "Midi"
+```
 
 ## Files Created (on branch `nico/jazz-picker`)
 
@@ -50,30 +53,21 @@ venv/                    - Python virtual environment (gitignored)
 
 ```bash
 # If server stopped:
-cd /Users/nico/src/lilypond-lead-sheets
+cd /path/to/lilypond-lead-sheets
 . venv/bin/activate
 python3 app.py
 
 # Access:
 # Computer: http://localhost:5001
-# iPad:     http://10.0.0.29:5001
+# iPad:     http://YOUR_LOCAL_IP:5001 (shown in startup message)
 ```
 
 ## Next Steps
 
-### Immediate (for today's jam):
-1. **Option A:** Pre-compile PDFs
-   ```bash
-   cd /Users/nico/src/lilypond-lead-sheets
-   ./mkdirs.sh  # Create output directories
-   cd Wrappers
-   ./lilyfy.sh  # Compile all sheets (takes 1-2 hours)
-   ```
-
-2. **Option B:** Just use the browser for now, deal with PDFs later
-   - Interface works great for browsing
-   - Can see what keys are available
-   - PDFs can wait until after Eric arrives
+### Ready to Use:
+- Wait for Dropbox sync to complete
+- Open http://10.0.0.29:5001 on iPad
+- Browse and view PDFs instantly
 
 ### Future Enhancements:
 - [ ] Pre-compile all PDFs for instant loading
@@ -84,30 +78,57 @@ python3 app.py
 - [ ] Add "Recently Viewed" section
 - [ ] Deploy to web with password protection
 
-## Questions for Next Session
+## Questions for Eric
 
-1. **Should we commit now or wait for Eric's input?**
-   - Pros of committing: Work is saved, Eric can review
-   - Cons: He may have opinions on structure/approach
+1. **GitHub Collaboration:**
+   - Invite Eric as collaborator so he can review
+   - See "GitHub Collaboration" section below
 
-2. **Pre-compile PDFs or fix LilyPond version first?**
-   - Pre-compile = works immediately
-   - Fix version = cleaner long-term
-
-3. **Deploy to web eventually?**
-   - Could use Fly.io, Railway, etc.
+2. **Future Deployment:**
+   - Deploy to web eventually? (Fly.io, Railway, etc.)
    - Would need basic auth for privacy
+   - Or keep it local-only?
+
+3. **Feature Requests:**
+   - What would be most useful for jam sessions?
+   - Embedded PDF viewer vs opening in new tab?
+   - Favorites/setlists?
+
+## GitHub Collaboration - How to Invite Eric
+
+To invite Eric as a collaborator on your GitHub repository:
+
+**Repository:** https://github.com/neonscribe/lilypond-lead-sheets
+
+**Wait - is "neonscribe" Eric's GitHub account?**
+- If yes: You're working on a fork or he already owns this repo. He can see it already!
+- If no: This is your fork. Follow steps below to invite him.
+
+### If You Need to Invite Eric:
+
+1. Go to: https://github.com/neonscribe/lilypond-lead-sheets
+2. Click **Settings** (top right)
+3. Click **Collaborators** (left sidebar)
+4. Click **Add people**
+5. Enter Eric's GitHub username or email
+6. Eric receives email invitation
+
+**Or just send Eric this link directly:**
+https://github.com/neonscribe/lilypond-lead-sheets
+
+He can browse the code, create issues, or comment on commits without being a collaborator.
 
 ## Git Status
 
 Currently on branch: `nico/jazz-picker`
 Uncommitted changes: All the files listed above
 
+**Ready to commit and share with Eric once Dropbox sync is complete!**
+
 ## Notes
-- Eric arrives later today to jam!
 - System is macOS, LilyPond installed via Homebrew
-- Local IP: 10.0.0.29 (may change if network changes)
 - Server must be running for iPad to access
+- Local IP shown in startup message (may change if network changes)
 
 ---
 **Last Updated:** 2025-11-12 at 7:00 PM (before Eric arrives)

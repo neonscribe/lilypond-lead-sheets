@@ -1,39 +1,34 @@
 # PDF Viewing Strategy for Jazz Picker
 
-## Current Status
+## Current Status ✓ COMPLETED
 
-Web interface works (729 songs, search, filtering, responsive). PDF viewing fails due to LilyPond version mismatch.
+Web interface works (729 songs, search, filtering, responsive). PDF serving now works via symlinks to Dropbox.
 
-**Problem:** System has LilyPond 2.24.4, code requires 2.25. On-demand compilation fails with `\normal-weight` command not found.
+**Solution Implemented:** Symlinked to pre-compiled PDFs from Dropbox. All 4,324 PDFs accessible without compilation.
 
-## Proposed Solution
+### Implementation ✓ Complete
 
-Symlink to your pre-compiled PDFs from Dropbox, with on-demand compilation as fallback.
-
-### Implementation
-
-1. **Symlink Dropbox directories**
+1. **Symlinked Dropbox directories** (2025-11-13)
    ```bash
-   ln -s /path/to/dropbox/Standard Standard
-   ln -s /path/to/dropbox/Alto\ Voice Alto\ Voice
-   ln -s /path/to/dropbox/Baritone\ Voice Baritone\ Voice
-   ln -s /path/to/dropbox/Others Others
-   ln -s /path/to/dropbox/Midi Midi
+   ln -s "/Users/nico/Library/CloudStorage/Dropbox/Swing Project/Lead Sheets/Alto Voice" "Alto Voice"
+   ln -s "/Users/nico/Library/CloudStorage/Dropbox/Swing Project/Lead Sheets/Baritone Voice" "Baritone Voice"
+   ln -s "/Users/nico/Library/CloudStorage/Dropbox/Swing Project/Lead Sheets/Standard" Standard
+   ln -s "/Users/nico/Library/CloudStorage/Dropbox/Swing Project/Lead Sheets/Others" Others
+   ln -s "/Users/nico/Library/CloudStorage/Dropbox/Swing Project/Lead Sheets/Midi" Midi
    ```
 
-2. **Update app.py**
-   - Add `/pdf/<path>` endpoint
-   - Serve PDF if exists
-   - Compile on-demand if missing
+2. **PDF serving works immediately**
+   - `/pdf/<filename>` endpoint serves PDFs via symlinks
+   - 147KB-200KB per PDF, instant load
+   - Tested: "A Child Is Born - Ly - Db Alto Voice.pdf" ✓
 
-3. **Upgrade LilyPond**
-   ```bash
-   brew upgrade lilypond --fetch-HEAD
-   ```
+3. **On-demand compilation fallback**
+   - Already implemented in app.py
+   - Will work once LilyPond 2.25 installed (optional)
 
 ### Rationale
 
-Uses your existing build process. No copying, no manual sync. Fallback handles edge cases
+Uses Eric's pre-compiled PDFs. Zero build time. Always in sync with his latest changes.
 
 ## Questions
 

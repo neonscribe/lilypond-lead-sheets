@@ -145,10 +145,12 @@ def serve_pdf(filename):
     if not variation:
         return jsonify({'error': 'Variation not found in catalog'}), 404
 
-    # PDF path is stored without .pdf extension
-    pdf_path = Path(variation['pdf_path'] + '.pdf')
+    # PDF path is stored without .pdf extension, relative to Wrappers dir
+    # e.g., "../Standard/Bass/Song" -> resolve to absolute path
+    pdf_path = (Path(WRAPPERS_DIR) / variation['pdf_path']).resolve()
+    pdf_path = Path(str(pdf_path) + '.pdf')
 
-    # Check if PDF exists
+    # Check if PDF exists (could be via symlink)
     if pdf_path.exists():
         return send_file(pdf_path, mimetype='application/pdf')
 
@@ -225,7 +227,9 @@ def check_pdf(filename):
     if not variation:
         return jsonify({'exists': False, 'error': 'Variation not found'})
 
-    pdf_path = Path(variation['pdf_path'] + '.pdf')
+    # Resolve path consistently with serve_pdf
+    pdf_path = (Path(WRAPPERS_DIR) / variation['pdf_path']).resolve()
+    pdf_path = Path(str(pdf_path) + '.pdf')
     return jsonify({'exists': pdf_path.exists(), 'path': str(pdf_path)})
 
 

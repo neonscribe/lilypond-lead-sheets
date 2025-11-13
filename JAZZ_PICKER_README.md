@@ -29,14 +29,30 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 3. Start the Web App
+### 3. Symlink to Pre-compiled PDFs
+
+If you have Eric's pre-compiled PDFs in Dropbox:
+
+```bash
+ln -s "/Users/YOUR_USERNAME/Library/CloudStorage/Dropbox/Swing Project/Lead Sheets/Alto Voice" "Alto Voice"
+ln -s "/Users/YOUR_USERNAME/Library/CloudStorage/Dropbox/Swing Project/Lead Sheets/Baritone Voice" "Baritone Voice"
+ln -s "/Users/YOUR_USERNAME/Library/CloudStorage/Dropbox/Swing Project/Lead Sheets/Standard" Standard
+ln -s "/Users/YOUR_USERNAME/Library/CloudStorage/Dropbox/Swing Project/Lead Sheets/Others" Others
+ln -s "/Users/YOUR_USERNAME/Library/CloudStorage/Dropbox/Swing Project/Lead Sheets/Midi" Midi
+```
+
+This gives instant PDF access without compilation.
+
+### 4. Start the Web App
 
 ```bash
 source venv/bin/activate  # If not already activated
 python3 app.py
 ```
 
-The app will start at **http://127.0.0.1:5000**
+The app will start at:
+- **Computer:** http://localhost:5001
+- **iPad/iPhone:** http://YOUR_LOCAL_IP:5001 (shown in startup message)
 
 Open your browser and start browsing!
 
@@ -102,26 +118,25 @@ curl http://127.0.0.1:5000/api/song/Blue%20Moon
 3. **app.py** serves the catalog via a web interface and REST API
 4. **Front-end** provides search, filtering, and browsing
 
-## Phase 1 Status ✓
+## Status: Phase 2 Complete! ✓
 
-This is **Phase 1** of the Jazz Picker project - a read-only catalog browser.
-
-**Completed:**
+**Working Features:**
 
 - ✓ Catalog builder that scans all wrapper files
-- ✓ JSON database of songs and variations
+- ✓ JSON database of 729 songs with 4,324 variations
 - ✓ Web interface for browsing and searching
 - ✓ REST API for programmatic access
+- ✓ PDF serving via Dropbox symlinks (instant load, no compilation)
+- ✓ On-demand LilyPond compilation fallback (requires LilyPond 2.25)
+- ✓ iPad/iPhone access on local network
 
-**Future Phases:**
+**Future Enhancements:**
 
-- Phase 2: PDF compilation and serving
-  - Option A: Pre-compile all PDFs
-  - Option B: On-demand compilation via LilyPond
 - Phase 3: Enhanced web features
-  - PDF viewer embedded in page
+  - PDF viewer embedded in page (currently opens in new tab)
   - MIDI playback
   - Favorites/playlists
+  - Remember selected instrument preference
   - Convert PDFs to SVG for better web display
 
 ## Compatibility with Eric's Workflow
