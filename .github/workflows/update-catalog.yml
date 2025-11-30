@@ -1,0 +1,73 @@
+# This workflow is meant to be COPIED to Eric's lilypond-lead-sheets repo.
+# It triggers when charts are updated and rebuilds the jazz-picker catalog.
+#
+# Setup required in lilypond-lead-sheets repo:
+# 1. Copy this file to .github/workflows/update-catalog.yml
+# 2. Add secret: FLY_API_TOKEN (generate with: fly tokens create deploy -a jazz-picker)
+#
+# No AWS secrets needed - uses OIDC for secure, keyless authentication.
+
+name: Update Jazz Picker Catalog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Wrappers/**'
+      - 'Core/**'
+  workflow_dispatch: # Allow manual trigger
+
+# Required for OIDC authentication to AWS
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  update-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout lilypond-lead-sheets
+        uses: actions/checkout@v4
+        with:
+          path: lilypond-data
+
+      - name: Checkout jazz-picker
+        uses: actions/checkout@v4
+        with:
+          repository: nicolovejoy/jazz-picker
+          path: jazz-picker
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Build catalog
+        run: |
+          cd jazz-picker
+          # Create symlink so build_catalog.py can find the lilypond files
+          ln -s ../lilypond-data lilypond-data
+          python build_catalog.py
+          echo "Catalog built successfully"
+          ls -la catalog.db
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: arn:aws:iam::218141621131:role/jazz-picker-catalog-updater
+          aws-region: us-east-1
+
+      - name: Upload catalog to S3
+        run: |
+          aws s3 cp jazz-picker/catalog.db s3://jazz-picker-pdfs/catalog.db
+          echo "Catalog uploaded to S3"
+
+      - name: Install Fly CLI
+        uses: superfly/flyctl-actions/setup-flyctl@master
+
+      - name: Restart Fly app
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+        run: |
+          flyctl apps restart jazz-picker
+          echo "App restarted - new catalog will be loaded"
