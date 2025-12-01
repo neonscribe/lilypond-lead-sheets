@@ -157,6 +157,52 @@ emphasize = {
       \refrainLyricsVoiceTwo
     }
       #} ) )
+    $(if (and (defined? 'refrainMelodyThree) refrainMelodyThree)
+      #{
+    \new Staff {
+      \include "../Include/staff-settings.ily"
+      \context Voice = "voiceMelodyThree" { 
+	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+	  \refrainMelodyThree
+	  }
+	}
+    }
+      #} )
+    $(if (and (defined? 'refrainLyricsVoiceThree) refrainLyricsVoiceThree)
+      (if (and (defined? 'refrainLyricsTwoVoiceThree) refrainLyricsTwoVoiceThree)
+       #{
+   \new Lyrics = "lyrics" {
+      \lyricsto "voiceMelodyThree" 
+      {
+	<<
+	\refrainLyricsVoiceThree
+	\new Lyrics {
+	  \set associatedVoice = "voiceMelodyThree"
+       #(if (and (defined? 'refrainTwoLanguagesVoiceThree) refrainTwoLanguagesVoiceThree)
+	 #{ \emphasize \refrainLyricsTwoVoiceThree #}
+	 #{ \refrainLyricsTwoVoiceThree #} ) }
+       #(if (and (defined? 'refrainLyricsThreeVoiceThree) refrainLyricsThreeVoiceThree)
+	 #{
+	 \new Lyrics {
+	 \set associatedVoice = "voiceMelodyThree"
+	 \refrainLyricsThreeVoiceThree }
+	 #} )
+       #(if (and (defined? 'refrainLyricsFourVoiceThree) refrainLyricsFourVoiceThree)
+	 #{
+	 \new Lyrics {
+	 \set associatedVoice = "voiceMelodyThree"
+	 \refrainLyricsFourVoiceThree }
+	 #} )
+	>>
+	}
+    }
+       #}
+      #{
+    \new Lyrics \lyricsto "voiceMelodyThree"
+    {
+      \refrainLyricsVoiceThree
+    }
+      #} ) )
   >>
   \layout { ragged-bottom = ##t ragged-right = ##f }
 }

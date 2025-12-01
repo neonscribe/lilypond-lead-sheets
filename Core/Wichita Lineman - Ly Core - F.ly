@@ -115,7 +115,8 @@ refrainMelody = \relative f' {
   \break
   \repeat volta 2 {
 
-  r1 | r1
+  d'16 d8 d16 d8 d16 d16~ d16 d16 d8 e16 f16 e16 c16 |
+  d16 d8 d16 d8 d16 d16~ d16 d16 d8 e16 f16 e16 c16 |
   
   }
 }

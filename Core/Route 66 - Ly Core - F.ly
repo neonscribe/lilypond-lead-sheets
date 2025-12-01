@@ -37,8 +37,46 @@ winds _ from Chi -- ca -- go to L. A.,
 more than two _ thou -- sand miles _ all the way.
 }
 
+introChords = \chordmode {
+  s8
+
+  r8*6 g4:13 r8*6 c4:7 r8*4 g8*3:13 fs4:13 g4:13 af4:13 a4:13 bf8:13 b4:13 c8:13
+  
+  s8*15  g8*5:6.9 s8*11 a8*9:m9 d8*7:7.5+ g8*5:6.9 s8*8 d4:7.5+.9-
+}
+
+introKey = g
+
+introMelody = \relative f' {
+  \time 4/4
+  \key \introKey \major
+  \clef "treble"
+  \tempo "Medium [Nat King Cole 1946]" 4 = 146
+
+  \sectStart "Intro"
+
+  \partial 2 \invisEighth g8 \acciaccatura gs8 \tuplet 3/2 { b8 d8 e8 } |
+  \bar "||"
+  
+  <g d>8 <g d>4 <e b>8->~ <e b>8 g,8 \acciaccatura gs8 \tuplet 3/2 { b8 d8 e8 } |
+  <g d>8 <g d>4 <e bf>8->~ <e bf>8 g,8 as16( b16 d16 f16) |
+  g8 <f, b e g>4.-> <e as ds fs>4-> <f b e g>4-> |
+  <gf c f af>4-> <g cs fs a>4-> <af d g bf>8-> <a ds gs b>4-> <bf e a c>8-> |
+  \bar "||"
+  r8 <bf e a>4.-> \acciaccatura ef8 d8 g8 a8 bf8~ |
+  bf8 g8 a8 bf8~ bf8 \acciaccatura ds,8 e4 <b, e a>8~ |
+  <b e a>2 \acciaccatura ef'8 d8 g8 a8 <bf e, d>8~ |
+  <bf e, d>8 g8 a8 <bf f ef>8~ <bf f ef>8 \acciaccatura ds,8 e4 <b g e>8->~ |
+  <b g e>2 \acciaccatura ef8 d8 g8 a8 bf~ |
+  bf8 g8 a8 <bf f ef>8~ <bf f ef>8 \acciaccatura ds,8 e4 <d a e>8~ |
+  <d a e>2 \acciaccatura ef8 d8 g8 a8 <bf e, b>8~ |
+  \partial 2. <bf e, b>8 g8 a8 <bf gf ef>8~ <bf gf ef>8 e,8
+  
+  \bar "||"
+}
+
 refrainNatKingColeChords = \chordmode {
-  s2
+  s4
   f1:6 bf1:7 f1:6 f1:7
   bf1:7 bf1:7 f1:6 d1:7.9+
   g1:m7 c1:7
@@ -60,7 +98,7 @@ refrainNatKingColeChords = \chordmode {
 }
 
 refrainNatalieColeChords = \chordmode {
-  s2
+  s4
   f1:6 bf1:7 f1:6 f1:7
   bf1:7 bf1:7 f1:6 a2:m7 d2:7
   g1:m7 c1:7
@@ -79,6 +117,8 @@ refrainNatalieColeChords = \chordmode {
   \chordOpenParen{ d2:7 }
   g2:m7
   \chordCloseParen{ c2:7 }
+  
+  r8*11 g8*5:1.5
 }
 
 refrainChords = \refrainNatalieColeChords
@@ -89,9 +129,8 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Nat King Cole 1946]" 4 = 146
 
-  \partial 2 f4 f4 |
+  \partial 4 f8 f8 |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   
@@ -124,7 +163,12 @@ refrainMelody = \relative f' {
   \break
   f2 f4 f4 | f4 f4 f8( c8) e8 f8 | r1 | r2 f4 f4 |
   \break
-  a2. f4 | a8 c4. f,4 f8 f8 | r1 | r1 |
+  a2. f4 | a8 c4. f,4 f8 f8 \textToCodaLastTime | r1 | r1 |
+  \bar "|."
+  
+  \textCoda
+  
+  r4 r8 f8 gs8 a8 bf8 gs8 | a8 f8 d8 c8~ c2\fermata |
   
   \bar "|."
 }
@@ -135,5 +179,7 @@ refrainMelody = \relative f' {
   % Leave a gap after the header
   \vspace #1
 }
+
+\include "../Include/intro.ily"
 
 \include "../Include/refrain.ily"

@@ -8,7 +8,7 @@ instrument = "Jazz Key"
 whatKey = ef
 whatClef = "treble"
 
-useJazzChords = ##t
+useFancyChords = ##t
 
 \include "../Core/I'm an Old Cowhand - Ly Core - Eb.ly"
 

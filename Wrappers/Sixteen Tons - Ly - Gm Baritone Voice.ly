@@ -1,0 +1,17 @@
+%% -*- Mode: LilyPond -*-
+
+\version "2.24.0"
+
+\include "english.ly"
+
+instrument = "Fred Hellerman (with The Weavers) Key"
+whatKey = g'
+whatClef = "treble"
+
+\include "../Core/Sixteen Tons - Ly Core - Bm.ly"
+
+%{
+
+\song{Sixteen Tons - Gm}{"../Baritone Voice/Sixteen Tons - Ly - Gm Baritone Voice"}
+
+%}

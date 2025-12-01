@@ -74,7 +74,7 @@ refrainMelody = \relative f'' {
 
   c,2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 | c'2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 |
   \break
-  g4 e16 g16 e16 c16 a2 ^\markup \italic "rit."| r4 \tuplet 3/2 { r8 c8 c8 }
+  g4 e16 g16 e16 c16 a2 ^\markup \italic "rit." | r4 \tuplet 3/2 { r8 c8 c8 }
   e8 e4 ef8 |
   d4 \ottava #1 { \tuplet 3/2 { g''8 a8 e'8\fermata } b2 } \ottava #0 | r1\fermata |
   

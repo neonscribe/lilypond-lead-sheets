@@ -22,13 +22,6 @@
 	  }
 	}
     }
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames  \tiedNoteToSkip{ 
-      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \midiKey \whatKey {
-      \midiMelody
-      } }
-      #} )
   >>
        #}
   (if (not (and (defined? 'straightEighths) straightEighths))
@@ -52,13 +45,6 @@
 	  }
 	}
     }
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames  \tiedNoteToSkip{ 
-      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \midiKey \whatKey {
-      \midiMelody
-      } }
-      #} )
   >>
      #}
   #{   <<
@@ -80,14 +66,7 @@
 	  }
 	}
     }
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames \tiedNoteToSkip { 
-      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \midiKey \whatKey {
-      \midiMelody
-      } }
-      #} )
   >>
        #} ))
-  \midi{}  
+  \midi{}
 }

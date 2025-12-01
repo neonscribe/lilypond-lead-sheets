@@ -4,8 +4,13 @@
 
 % #(set-global-staff-size 18)
 
+title =
+#(if (and (defined? 'useSimpleChords) useSimpleChords)
+  "Blue Christmas, Cowboy Chords"
+  "Blue Christmas, Jazz Chords")
+
 \header {
-  title = "Blue Christmas"
+  title = \title
   subtitle = \instrument
   poet = ""
   composer = "Billy Hayes and Jay Johnson"
@@ -23,10 +28,10 @@ You'll be do -- in' all right with your Christ -- mas of white,
 but I'll have a blue, blue, blue, blue Christ -- mas.
 }
 
-refrainChords = \chordmode {
+refrainFancyChords = \chordmode {
   s2.
 
-  f1:maj7 f2:maj7/a af2:dim7 g2:m7 df2:9.11+ c1:9
+  f1:maj7 f2.:maj7/a af4:dim7 g2:m7 df2:9.11+ c1:9
   g1:m7 c1:7 f1:6 f1:6
   
   a2:m7.5- d2:7 a2:m7.5- d2:7 g1:m7 g1:m7
@@ -40,6 +45,25 @@ refrainChords = \chordmode {
   \chordOpenParen{ g4:m7 }
   \chordCloseParen{ c4:7 }
 }
+
+refrainSimpleChords = \chordmode {
+  s2.
+  
+  f1 f1 c1 c1
+  c1:7 c1:7 f1 f1
+  f1 f1:7 bf1 bf1
+  g1:7 g1:7 c1:7 c1:7
+
+  f1 f1 c1 c1
+  c1:7 c1:7 f1 f1:7
+  f1 f1:7 bf1 g1:7
+  c1:7 c1:7 f1 f1
+}
+
+refrainChords =
+#(if (and (defined? 'useSimpleChords) useSimpleChords)
+  refrainSimpleChords
+  refrainFancyChords)
 
 refrainKey = f
 
