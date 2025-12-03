@@ -42,7 +42,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium [John Coltrane 1960]" 4 = 117
 
-  \xTextMark \markup{ \bold \box "Intro" }
+  \sectStart "Intro"
   
   \bar ".|:"
   \repeat volta 2 {
@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
     \break
     }
 
-  \bar "||-||"
+  \bar "||-:|."
   \break
 
   cs4. cs8~ cs4 cs4~ | cs2
@@ -93,10 +93,11 @@ refrainMelody = \relative f' {
     }
   >>
   \oneVoice
+  
+  \sectNoBar "Head"
 
-  \sect "Head"
+  \bar ".|:-||"
 
-  \bar ".|:"
   \repeat volta 2 {
   e'8 cs4.~ cs2~ | cs2. r8 gs8 | e'4. cs8~ cs2~ | cs2. r8 e8 |
   \break
@@ -113,12 +114,13 @@ solosKey = cs
 bassSolos = \relative f' {
   \time 4/4
   \key \solosKey \minor
+  \clef bass
+
   \xTextMark \markup{ \bold \box "Solos" }
 
-  \clef bass
   \bar ":|.|:"
   \repeat volta 2 {
-    cs,,4. cs8~ cs4 cs4~ | cs2 gs4 b4 | cs4. cs8~ cs4 cs4~ | cs2 cs4 e4 |
+    cs,4. cs8~ cs4 cs4~ | cs2 gs4 b4 | cs4. cs8~ cs4 cs4~ | cs2 cs4 e4 |
     fs4. fs8~ fs4 fs4~ | fs2 gs,4 b4 | cs4. cs8~ cs4 cs4~ | cs2.. a8~ |
     a4. a'8~ a8 a,4 gs8~ | gs4. gs'8~ gs8 gs,4. | cs4. cs8~ cs4 cs4~ | cs2 gs4 b4 |
   }

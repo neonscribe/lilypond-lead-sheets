@@ -6,7 +6,7 @@
 
 instrument = "Standard Key"
 whatKey = cs
-bassKey = cs'
+bassKey = cs
 whatClef = "treble"
 
 \include "../Core/Equinox - Ly Core - Csm.ly"

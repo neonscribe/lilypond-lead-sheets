@@ -3,5 +3,5 @@
 \defineBarLine "!-!" #'("!" "!" "!")
 \defineBarLine "|" #'("|" "|" "|")
 \defineBarLine "||-||" #'("||" "||" "||")
-\defineBarLine "||-:|." #'(":|." "||" ".|")
+\defineBarLine "||-:|." #'(":|." "||" ":|.")
 \defineBarLine "||-|." #'("|." "||" ".|")

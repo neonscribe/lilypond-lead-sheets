@@ -7,7 +7,7 @@
       \override ChordName.font-size = #+3
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
-     \transpose \solosKey \whatKey {
+     \transpose \solosKey \bassKey {
        \solosChords
 	}
       }
@@ -38,7 +38,7 @@
       \override ChordName.font-size = #+3
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
-     \transpose \solosKey \whatKey {
+     \transpose \solosKey \bassKey {
        \solosChords
 	}
       }

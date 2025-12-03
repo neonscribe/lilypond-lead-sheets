@@ -12,7 +12,7 @@
   copyright = \markup \small { \now " " "© 1930 De Sylva Brown & Henderson Inc." }
 }
 
-refrainLyrics = \lyricmode {
+refrainMaleSingerLyrics = \lyricmode {
 Gee, it's great __ af -- ter be -- in' out late, __ walk -- in' my ba -- by back home.
 Arm in arm, __ o -- ver mead -- ow and farm, __ walk -- in my ba -- by back home. _
 
@@ -23,10 +23,36 @@ Af -- ter I kind -- a straight -- en my tie, __ she has to bor -- row my comb.
 One kiss, then __ I con -- tin -- ue a -- gain, walk -- in' my ba -- by back home.
 }
 
-refrainLyricsTwo = \lyricmode {
+refrainMaleSingerLyricsTwo = \lyricmode {
 We go 'long __ har -- mo -- niz -- in' a song, __ or I'm re -- cit -- ing a poem.
 Owls go by, __ and they give me the eye, __ walk -- in' my ba -- by back _ home. We
 }
+
+refrainFemaleSingerLyrics = \lyricmode {
+Gee, it's great __ af -- ter be -- in' out late, __ walk -- in' my ba -- by back home.
+Arm in arm, __ o -- ver mead -- ow and farm, __ walk -- in my ba -- by back home. _
+
+_ stop for a while, __ he gives me a smile, __ I snug -- gle my head __ to his chest.
+We start in to pet, __ and that's when he gets __ my tal -- cum all o -- ver his vest. __
+
+Af -- ter I kind -- a straight -- en his tie, __ I have to bor -- row his comb.
+One kiss, then __ I con -- tin -- ue a -- gain, walk -- in' my ba -- by back home.
+}
+
+refrainFemaleSingerLyricsTwo = \lyricmode {
+We go 'long __ har -- mo -- niz -- in' a song, __ or he's re -- cit -- ing a poem.
+Owls go by, __ and they give me the eye, __ walk -- in' my ba -- by back _ home. We
+}
+
+refrainLyrics =
+#(if (and (defined? 'femaleSinger) femaleSinger)
+  refrainFemaleSingerLyrics
+  refrainMaleSingerLyrics)
+
+refrainLyricsTwo =
+#(if (and (defined? 'femaleSinger) femaleSinger)
+  refrainFemaleSingerLyricsTwo
+  refrainMaleSingerLyricsTwo)
 
 refrainChords = \chordmode {
   ef2:maj7 bf2:7.5+ ef2:maj7 bf2:7.5+ ef2:maj7 c2:m7 f1:9

@@ -179,4 +179,7 @@ bassOutro = \relative f' {
 
 \include "../Include/refrain.ily"
 
+% Just a little bit too much for one page :(
+\pageBreak
+
 \include "../Include/bass-outro-with-kicks.ily"
