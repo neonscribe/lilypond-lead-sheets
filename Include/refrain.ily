@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+\include "../Include/range.ily"
+
 emphasize = {
   \override Lyrics.LyricText.font-shape = #'italic
 }

@@ -388,7 +388,7 @@ from c to a means we need to use a,
 """
 
 # Bass part should be as low as possible without being lower than E one ledger line below the
-# bass staff
+# bass staff, the lowest written note on double bass and electric bass
 
 # how many octaves below standard treble clef part?
 

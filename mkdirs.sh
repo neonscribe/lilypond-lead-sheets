@@ -21,4 +21,6 @@ mkdir -p 'Standard/Guitar Solo'
 mkdir -p Standard/Bb
 mkdir -p Standard/Eb
 
+mkdir -p Viola
+
 mkdir -p TeXify

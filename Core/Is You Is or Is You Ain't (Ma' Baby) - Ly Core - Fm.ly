@@ -191,7 +191,7 @@ refrainNicoChords = \chordmode {
   bf1:9 ef1:13 af1:6 af1:7
   
   df1:6 df1:m6 af1:maj7 ef1:m7
-  df1:6 df1:m6 c1:m7 f2:7 c2:7
+  df1:6 df1:m6 c1:m7 c1:7
 
   f2:m c2:7/g f2:m/af c2:7/g f1:m f8*5:m cf4.:13
   bf1:9 ef1:13 gf1:7 f1:7

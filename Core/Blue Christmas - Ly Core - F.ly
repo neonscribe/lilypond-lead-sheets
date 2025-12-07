@@ -51,12 +51,12 @@ refrainSimpleChords = \chordmode {
   
   f1 f1 c1 c1
   c1:7 c1:7 f1 f1
-  f1 f1:7 bf1 bf1
-  g1:7 g1:7 c1:7 c1:7
+  f1:7 f1:7 bf1 bf2:7 a4:7 af4:7
+  g1:7 g1:7 c1:7 c4:7 r2.
 
   f1 f1 c1 c1
-  c1:7 c1:7 f1 f1:7
-  f1 f1:7 bf1 g1:7
+  c1:7 c1:7 f1 f1
+  f1:7 f1:7 bf1 b1:dim7
   c1:7 c1:7 f1 f1
 }
 

@@ -41,7 +41,31 @@ refrainMelody = \relative f' {
 
   \sectStart "A1"
   
-  bf4 a8 af8 g4 gf8 f8 | e8 f8 gf8 bf8 g4 r8 af8~-> | af4 g8 gf8 f4 e8 ef8 | d8 ef8 e8 af8 e4 r4 |
+  \set melismaBusyProperties = #'()
+  \slurDashed
+  bf8( bf8)
+  \slurSolid
+  \unset melismaBusyProperties
+  a8 af8
+  \set melismaBusyProperties = #'()
+  \slurDashed
+  g8( g8)
+  \slurSolid
+  \unset melismaBusyProperties
+  gf8 f8 | e8 f8 gf8 bf8 g4 r8 af8~-> | 
+  \set melismaBusyProperties = #'()
+  \slurDashed
+  af8( af8)
+  \slurSolid
+  \unset melismaBusyProperties
+  g8 gf8 
+  \set melismaBusyProperties = #'()
+  \slurDashed
+  f8( f8)
+  \slurSolid
+  \unset melismaBusyProperties
+  e8 ef8 | d8 ef8 e8 af8 e4 r4 |
+
   \break
   r8 g8 af8 bf8 \tuplet 3/2 { af8 bf8 af8 } g8 b8-> | r8 bf8 r8 af8 g8 f8 ef8 df8 |
   c8 gf'8 f4~ f4. \acciaccatura ds8 e8-> | r8 c8-> r4 r8 c8-> r4 |
@@ -64,14 +88,38 @@ refrainMelody = \relative f' {
 
   \sect "A3"
 
-  bf4 a8 af8 g4 gf8 f8 | e8 f8 gf8 bf8 g4 r8 af8~-> | af4 g8 gf8 f4 e8 ef8 | d8 ef8 e8 af8 e4 r4 |
+  \set melismaBusyProperties = #'()
+  \slurDashed
+  bf8( bf8)
+  \slurSolid
+  \unset melismaBusyProperties
+  a8 af8
+  \set melismaBusyProperties = #'()
+  \slurDashed
+  g8( g8)
+  \slurSolid
+  \unset melismaBusyProperties
+  gf8 f8 | e8 f8 gf8 bf8 g4 r8 af8~-> | 
+  \set melismaBusyProperties = #'()
+  \slurDashed
+  af8( af8)
+  \slurSolid
+  \unset melismaBusyProperties
+  g8 gf8 
+  \set melismaBusyProperties = #'()
+  \slurDashed
+  f8( f8)
+  \slurSolid
+  \unset melismaBusyProperties
+  e8 ef8 | d8 ef8 e8 af8 e4 r4 |
+
   \break
   r8 g8 af8 bf8 \tuplet 3/2 { af8 bf8 af8 } g8 b8-> | r8 bf8 r8 af8 g8 f8 ef8 df8 |
-  c8 gf'8 f4 f4. \acciaccatura ds8 e8-> | r8 c8-> r8
+  c8 gf'8 f4 f4. \acciaccatura ds8 e8-> | r8 c8->
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
-  \acciaccatura ds8 e8 r8
-  \endParenthesis \parenthesize c8 r4 |  
+  r8_"(all rhythm)" \acciaccatura ds8 e8 r8 c8
+  \endParenthesis \parenthesize r4 |  
 
   \bar "|."
 }

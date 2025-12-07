@@ -126,6 +126,7 @@ refrainMelody = \relative g' {
       \slurDown
       \slurDashed
       b8( b8)
+      \slurSolid
       \unset melismaBusyProperties
     }
 

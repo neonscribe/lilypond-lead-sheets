@@ -14,10 +14,10 @@
 
 refrainLyrics = \lyricmode {
 Have your -- self a mer -- ry lit -- tle Christ -- mas, let your heart be light.
-From now on our truo -- bles will be out of sight. __
+From now on our trou -- bles will be out of sight. __
 
 Have your -- self a mer -- ry lit -- tle Christ -- mas, make the Yule -- tide gay.
-From now on our truo -- bles will be miles a -- way. __
+From now on our trou -- bles will be miles a -- way. __
 
 Here we are as in old -- en days, hap -- py gol -- den days of yore.
 Faith -- ful friends who are dear to us, gath -- er near to us once more.
