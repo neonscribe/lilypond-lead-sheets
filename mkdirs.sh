@@ -20,7 +20,6 @@ mkdir -p 'Standard/Bass Line'
 mkdir -p 'Standard/Guitar Solo'
 mkdir -p Standard/Bb
 mkdir -p Standard/Eb
-
-mkdir -p Viola
+mkdir -p Standard/Viola
 
 mkdir -p TeXify

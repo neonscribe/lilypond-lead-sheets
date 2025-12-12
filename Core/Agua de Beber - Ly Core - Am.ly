@@ -52,7 +52,10 @@ refrainMelody = \relative f' {
   \break
   c8 a8 g8 a8 r2 | a8 g8 a2. | a8 g8 a2. |
   \alternative { \volta 1 {
+   \new Voice
+    { \voiceTwo
   <a' e d bf>8 g8 <a e d bf>2. |
+    }
   } \volta 2 {
   r4 a,8 c8~ c8 e4 ds8~ |
   } } }
@@ -85,7 +88,10 @@ refrainMelody = \relative f' {
   
   d1~ | d4 e8 d8 c8 a8 c4~ | c8 a8 a8 a8 r2 | r4 a8 a8 c8 e8 d4~ |
   \break
-  d1~ | d4 e8 d8 c8 a8 c4~ | c8 a8 a8 a8 r2 | <a' e d bf>8 g8 <a e d bf>2. |
+  d1~ | d4 e8 d8 c8 a8 c4~ | c8 a8 a8 a8 r2 | 
+    { \voiceTwo
+  <a' e d bf>8 g8 <a e d bf>2. |
+    }
   
   \sect "C"
   

@@ -49,7 +49,8 @@
     \new Staff 
     {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus verse")
 	\noDoubleAccidentalMusic \transpose \verseKey \whatKey {
 	  \verseMelody
 	  }
@@ -105,7 +106,9 @@
     }
       #} )
   >>
-  \layout { ragged-bottom = ##t ragged-right = ##f }
+  \layout { 
+    ragged-bottom = ##t ragged-right = ##f 
+  }
 }
 
 midiKey = \verseKey

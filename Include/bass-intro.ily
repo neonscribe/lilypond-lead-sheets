@@ -1,6 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
 \score {
+  $(ly:message "In bass-intro")
   <<
     { \context ChordNames 
       {
@@ -27,7 +28,9 @@
       }
       #} )
   >>
-  \layout { ragged-bottom = ##t ragged-right = ##f }
+  \layout { 
+    ragged-bottom = ##t ragged-right = ##f 
+  }
 }
 
 \score {

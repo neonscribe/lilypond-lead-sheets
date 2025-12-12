@@ -55,7 +55,8 @@ emphasize = {
     \new Staff 
     {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus piano-grand-staff refrain")
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody
 	  }
@@ -108,7 +109,8 @@ emphasize = {
     \new Staff = "upper"
     {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus piano-grand-staff right hand")
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainRightHand
 	  }
@@ -117,7 +119,8 @@ emphasize = {
     \new Staff = "lower"
     {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus piano-grand-staff left hand")
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainLeftHand
 	  }
@@ -125,5 +128,7 @@ emphasize = {
     }
     >>
   >>
-  \layout { ragged-bottom = ##t ragged-right = ##f }
+  \layout { 
+    ragged-bottom = ##t ragged-right = ##f 
+  }
 }

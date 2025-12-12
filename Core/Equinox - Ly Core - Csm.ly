@@ -134,6 +134,7 @@ bassSolos = \relative f' {
 }
 
 \include "../Include/refrain.ily"
+
 \include "../Include/bass-solos.ily"
 
 \markup "Play head twice before and twice after solos, tag last four bars for ending."

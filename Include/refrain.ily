@@ -1,7 +1,5 @@
 %% -*- Mode: LilyPond -*-
 
-\include "../Include/range.ily"
-
 emphasize = {
   \override Lyrics.LyricText.font-shape = #'italic
 }
@@ -55,7 +53,8 @@ emphasize = {
     \new Staff 
     {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus refrain")
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody
 	  }
@@ -117,7 +116,8 @@ emphasize = {
       #{
     \new Staff {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelodyTwo" { 
+      \context Voice = "voiceMelodyTwo" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus refrain melody two")
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelodyTwo
 	  }
@@ -206,7 +206,8 @@ emphasize = {
     }
       #} ) )
   >>
-  \layout { ragged-bottom = ##t ragged-right = ##f }
+  \layout { 
+    ragged-bottom = ##t ragged-right = ##f }
 }
 
 midiKey = \refrainKey

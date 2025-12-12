@@ -6,6 +6,7 @@
 
 instrument = "Eb for Standard Key"
 whatKey = gs
+bassKey = gs
 whatClef = "treble"
 
 \include "../Core/Money - Ly Core - Bm.ly"

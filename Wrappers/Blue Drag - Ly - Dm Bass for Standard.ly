@@ -3,12 +3,9 @@
 \include "english.ly"
 
 instrument = "Bass for Standard Key"
-introKeyOverride = d
-outroKeyOverride = d
 refrainKeyOverride = d,,
-whatKey = d,,
+whatKey = d,
+bassKey = d
 whatClef = "bass"
-
-
 
 \include "../Core/Blue Drag - Ly Core - Dm.ly"

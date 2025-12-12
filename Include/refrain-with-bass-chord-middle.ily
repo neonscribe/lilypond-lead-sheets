@@ -4,7 +4,8 @@
   <<
     \new Staff {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus refrain-with-bass-chord-middle")
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody
 	  }
@@ -49,7 +50,9 @@
       }
       #} )
   >>
-  \layout { ragged-bottom = ##t ragged-right = ##f }
+  \layout { 
+    ragged-bottom = ##t ragged-right = ##f 
+  }
 }
 
 \score {

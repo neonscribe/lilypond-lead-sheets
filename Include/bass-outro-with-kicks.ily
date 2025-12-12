@@ -12,6 +12,8 @@
 	}
       }
     }
+    $(if (and (defined? 'outroKicksOverTime) outroKicksOverTime)
+      #{
     \new RhythmicStaff {
       \override Staff.VerticalAxisGroup.staff-staff-spacing =
             #'( (basic-distance . 1) 
@@ -24,6 +26,7 @@
       \magnifyMusic 0.63 \outroKicksOverTime
       \improvisationOff
     }
+    #} )
     \new Staff {
       \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
@@ -42,7 +45,8 @@
   \layout { 
     \context { \Score
 	       \remove "System_start_delimiter_engraver" }
-    ragged-bottom = ##t ragged-right = ##f }
+    ragged-bottom = ##t ragged-right = ##f 
+  }
 }
 
 \score {

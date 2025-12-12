@@ -19,7 +19,8 @@ codaRaggedRight =
       }
     \new Staff {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus coda")
 	\noDoubleAccidentalMusic \transpose \codaKey \whatKey {
 	  \codaMelody
 	  }
@@ -50,7 +51,9 @@ codaRaggedRight =
     }
       #} )
   >>
-  \layout { ragged-bottom = ##t ragged-right = \codaRaggedRight }
+  \layout { 
+    ragged-bottom = ##t ragged-right = \codaRaggedRight
+  }
 }
 
 midiKey = \codaKey

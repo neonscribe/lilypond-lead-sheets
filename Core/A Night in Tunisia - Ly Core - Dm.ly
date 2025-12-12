@@ -1,6 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
 
@@ -15,8 +15,28 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small { \now " " "© 1944 MCA Music Publishing Inc." }
 }
 
-refrainChords = \chordmode {
+introChords = \chordmode {
   ef1:9.11+ d1:m6
+}
+
+introKey = d
+
+bassIntro = \relative f' {
+  \time 4/4
+  \key \introKey \minor
+  \clef bass
+  \tempo "Medium-Up Latin [Dizzy Gillespie 1946]" 4 = 180
+  
+  \sectStart "Intro"
+
+  \bar ".|:"
+  \repeat volta 2 {
+  ef,8 bf'8 df8 ef8~ ef8 df4 bf8 | d,8 f8 a8 b8~ b8 a4 f8 |
+  }
+
+}
+
+refrainChords = \chordmode {
 
   s8
 
@@ -41,27 +61,16 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-"|" = {}
-
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
-  \tempo "Medium-Up Latin [Dizzy Gillespie 1946]" 4 = 180
-  \clef bass
-
-  \xTextMark \markup{ \bold \box "Intro" " (bass)" }
-  \bar ".|:"
-  \repeat volta 2 {
-  ef,8 bf'8 df8 ef8~ ef8 df4 bf8 | d,8 f8 a8 b8~ b8 a4 f8 |
-  }
-
-  \set Staff.explicitClefVisibility = #end-of-line-invisible
-  \break
-
   \clef \whatClef
-  \partial 8 a8 |
+
+  \partial 8 a,8 |
   
-  \xTextMark \markup{ \bold \box "A1, A2, A3" \musicglyph #"scripts.segno" }
+  \segnoSign
+  \sectStart "A1,A2,A3"
+
   \bar ".|:"
   \repeat volta 2 {
   \tuplet 3/2 { bf8 df8 f8 } c'2 bf8 f8 | gs8 a4.~ a4. a,8 |
@@ -107,6 +116,8 @@ refrainMelody = \relative f' {
   % Leave a gap after the header
   \vspace #1
 }
+
+\include "../Include/bass-intro.ily"
 
 \include "../Include/refrain.ily"
 

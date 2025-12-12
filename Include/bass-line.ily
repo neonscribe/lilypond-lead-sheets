@@ -14,7 +14,8 @@
       }
     \new Staff {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus bass-line")
       %% Only transpose bass line in the same octave
       \transpose \bassLineKey \bassKey { \bassLineMelody }
 	}
@@ -27,7 +28,9 @@
       }
       #} )
   >>
-  \layout { ragged-bottom = ##t ragged-right = ##f }
+  \layout { 
+    ragged-bottom = ##t ragged-right = ##f 
+  }
 }
 
 \score {

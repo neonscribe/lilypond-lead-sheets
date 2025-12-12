@@ -413,6 +413,32 @@ save_wrapper_file({ 'file_title' : file_song_title ,
                      'clef' : 'bass' ,
                      'subdir' : 'Bass/' })
 
+# Viola part should be as low as possible without being lower than C one octave below middle C,
+# the lowest note on viola in standard tuning.
+
+# how many octaves below standard treble clef part?
+
+low_c_offset = 0
+
+# start out unreasonably low and go up until we break into the bass range
+octave_offset = -5
+viola_low_note = low_note_offset - (5 * 12)
+while viola_low_note < low_c_offset:
+    bass_low_note += 12
+    octave_offset += 1
+
+# number of commas (or apostrophes)
+octave_mark = octave_marker(octave_offset)
+
+save_wrapper_file({ 'file_title' : file_song_title ,
+                     'nice_title' : song_title ,
+                     'key_and_desc' : f"{file_key_name} Standard for Viola" ,
+                     'toc_desc' : f"{key_name_for_nice(key, is_minor)} Bass" ,
+                     'desc' : 'Standard Key for Viola' ,
+                     'key' : key + octave_mark ,
+                     'clef' : 'alto' ,
+                     'subdir' : 'Viola/' })
+
 # Written Eb part is a minor third below standard part plus or minus
 # enough octaves so that the lowest note is no lower than Bb below
 # middle C, the bottom (written) note of the saxophone.

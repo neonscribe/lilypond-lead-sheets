@@ -25,7 +25,7 @@ when out of his sight to be out of my mind and he thought I was nuts,
 no more ifs or ands or buts, oh no.
 
 They say as a child I ap -- peared a lit -- tle bit wild with all my cra -- zy i -- deas,
-but I knew what has hap -- p'nin', I knew I was a gen -- ius.
+but I knew what was hap -- p'nin', I knew I was a gen -- ius.
 What's so strange when you know that you're a wiz -- ard at three?
 I knew that this was meant to be.
 
@@ -35,7 +35,7 @@ My par -- ents got fran -- tic did -- n't know what to do,
 but I sas some cra -- zy scenes be -- fore I came to.
 Now, do you think I was cra -- zy? I may have ben on -- ly three but I was swing -- in'.
 
-They all laughed at A. Gre -- ham Bell,
+They all laughed at A. Gra -- ham Bell,
 they all laughed at Ed -- i -- son and al -- so at Ein -- stein,
 so why should I feel sor -- ry if they just could -- n't un -- der -- stand
 the rea -- son -- ing and the log -- ic that went on in my head?

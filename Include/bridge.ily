@@ -14,7 +14,8 @@
       }
     \new Staff {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus bridge")
 	\noDoubleAccidentalMusic \transpose \bridgeKey \whatKey {
 	  \bridgeMelody
 	  }
@@ -28,5 +29,8 @@
     }
       #} )
   >>
-  \midi{} \layout { ragged-bottom = ##t ragged-right = ##f }
+  \midi{}
+  \layout { 
+    ragged-bottom = ##t ragged-right = ##f 
+  }
 }

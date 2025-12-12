@@ -126,6 +126,11 @@ for file in *.ly; do
 	if [ $result -eq 0 ]; then
 	    mv "${file%.ly}.pdf" "../Baritone Voice/"
 	fi
+    elif [[ $file =~ "for Viola.ly" ]]; then
+	# $LILYPOND $ARGS "$file"
+	if [ $result -eq 0 ]; then
+	    mv "${file%.ly}.pdf" "../Standard/Viola/"
+	fi
     elif [[ $file =~ "Ly Core" ]]; then
 	true
     else

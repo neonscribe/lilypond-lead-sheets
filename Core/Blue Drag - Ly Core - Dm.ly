@@ -1,6 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
 
@@ -22,7 +22,7 @@ introChords = \chordmode {
 
 introKey = d
 
-introMelody = \relative f {
+bassIntro = \relative f {
   \time 4/4
   \key \introKey \minor
   \clef bass
@@ -41,7 +41,7 @@ introMelody = \relative f {
   \bar "||"
 }
 
-refrainLyrics = \lyricmode {
+unsyncedrefrainLyrics = \lyricmode {
 I said, blue drag
 It sure is drag -- gin' me down:
 I'm al -- most scrap -- ing the ground
@@ -76,7 +76,7 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-refrainMelody = \relative f'' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
@@ -119,7 +119,7 @@ outroChords = \chordmode {
 
 outroKey = d
 
-outroMelody = \relative f {
+bassOutro = \relative f {
   \time 4/4
   \key \outroKey \minor
   \clef treble
@@ -144,17 +144,8 @@ outroMelody = \relative f {
   \vspace #1
 }
 
-$(if (defined? 'introKeyOverride)
-  (set! whatKey introKeyOverride))
-
-\include "../Include/intro.ily"
-
-$(if (defined? 'refrainKeyOverride)
-  (set! whatKey refrainKeyOverride))
+\include "../Include/bass-intro.ily"
 
 \include "../Include/refrain.ily"
 
-$(if (defined? 'outroKeyOverride)
-  (set! whatKey outroKeyOverride))
-
-\include "../Include/outro.ily"
+\include "../Include/bass-outro-with-kicks.ily"

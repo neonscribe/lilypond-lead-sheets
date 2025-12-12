@@ -49,7 +49,8 @@
     \new Staff 
     {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus solo")
 	\noDoubleAccidentalMusic \transpose \soloKey \whatKey {
 	  \soloMelody
 	  }
@@ -97,7 +98,8 @@
       #{
     \new Staff {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
+      \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
+	$(ly:message "ambitus refrain solo melody two")
 	\noDoubleAccidentalMusic \transpose \soloKey \whatKey {
 	  \soloMelodyTwo
 	  }
@@ -105,7 +107,9 @@
     }
       #} )
   >>
-  \layout { ragged-bottom = ##t ragged-right = ##f }
+  \layout { 
+    ragged-bottom = ##t ragged-right = ##f 
+  }
 }
 
 midiKey = \soloKey

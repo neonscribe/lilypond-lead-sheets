@@ -2,7 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "April in Paris"
@@ -13,7 +13,7 @@
 }
 
 refrainLyrics = \lyricmode {
-A -- pril in Par -- is, __ chest -- nots in blos -- som, __
+A -- pril in Par -- is, __ chest -- nuts in blos -- som, __
 hol -- i -- day ta -- bles __ un -- der the trees. __
 A -- pril in Par -- is, __ this is a feel -- ing __
 no one can ev -- er __ re -- prise. __

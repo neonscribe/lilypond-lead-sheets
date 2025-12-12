@@ -31,22 +31,22 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "Intro" }
   
-  \repeat tremolo 12 { g,32 a } | \repeat tremolo 12 { g32 a } |
-  \repeat tremolo 12 { g32 a } | \repeat tremolo 12 { g32 a } |
-  <d' b>4 <e c>8 <f d>4 <e c>8 | <d b>4 <e c>8 <f d>4 <e c>8 |
-  <d b>4 <e c>8 <f d>4 <e c>8 |
-      <<
-      {
-        \voiceOne
-        <d b>4 <e c>8 <f d>4 <e c>8 |
-      }
-     \new Voice = "head" {
-        \voiceTwo
-	r4 r8 r4 r16 d,16 |
-      }
-    >>
-    \oneVoice
-  
+    \new Voice 
+    { \voiceOne
+      \repeat tremolo 12 { g,32 a } | \repeat tremolo 12 { g32 a } |
+      \repeat tremolo 12 { g32 a } | \repeat tremolo 12 { g32 a } |
+      <d' b>4 <e c>8 <f d>4 <e c>8 | <d b>4 <e c>8 <f d>4 <e c>8 |
+      <d b>4 <e c>8 <f d>4 <e c>8 |
+    }
+  <<
+    \new Voice 
+    { \voiceOne
+      <d b>4 <e c>8 <f d>4 <e c>8 |
+    }
+    { \voiceTwo r4 r8 r4 r16 d,16 | }
+  >>
+  \oneVoice
+
   \sect "Head"
   
   b'4.~ b4~ b16 d,16 | b'8 c16 b8. r4 r16 d,16 | b'16 c16 b4~ b4~ b16 d,16 | b'4. r4. |

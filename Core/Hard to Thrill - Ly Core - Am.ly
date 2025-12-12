@@ -12,7 +12,7 @@
   copyright = \markup \small { \now " " "© 2006 Inc." }
 }
 
-refrainAltChords = \chordmode {
+notrefrainAltChords = \chordmode {
   a1:m7 a1:m7 a1:m7 a1:m7 
 
   a1:m7 a1:m7 a1:m7 a1:m7 
@@ -34,7 +34,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Slow Blues [JJ Cale & Eric CLapton 2006]" 4 = 76
+  \tempo "Slow Blues [JJ Cale & Eric Clapton 2006]" 4 = 76
 
   \xTextMark \markup{ \bold \box "Intro" }
   
