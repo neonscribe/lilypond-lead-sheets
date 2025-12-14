@@ -47,7 +47,7 @@ jobs:
           cd jazz-picker
           # Create symlink so build_catalog.py can find the lilypond files
           ln -s ../lilypond-data lilypond-data
-          python build_catalog.py
+          python build_catalog.py --ranges-file lilypond-data/Wrappers/range-data.txt
           echo "Catalog built successfully"
           ls -la catalog.db
 
