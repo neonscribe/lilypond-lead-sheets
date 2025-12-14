@@ -2,7 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \header {
   title = "The Christmas Song (Chestnuts Roasting)"
@@ -52,18 +52,20 @@ refrainMelody = \relative f' {
   ef4 ef'4 d8 c8 bf8 af8 | g8 g8 g2. | ef4 c'4 bf8 af8 g8 f8 | ef1 |
   ef4 ef4 f8 f8 ef8 f8 | \tuplet 3/2 { g4 bf4 c4 } d4. c8 | b4 b4 df8 cf8 bf8 af8 | bf2 bf8 af8 g8 f8 |
   
-  \sectNoBreak "A2"
+  \sect "A2"
   
   ef4 ef'4 d8 c8 bf8 af8 | g8 g8 g2. | ef4 c'4 bf8 af8 g8 f8 | ef1 |
   ef4 ef4 f4 ef8 f8 | \tuplet 3/2 { g4 bf4 c4 } d4. c8 | bf8 g8 c8 bf8 af4. d,8 | ef2 r8 ef8 d8 ef8 |
   
-  \sectNoBreak "B"
+  \xPageBreak
+
+  \sectNoBar "B"
   
   df'2~ df8 c8 bf8 a8 | bf2 r8 ef,8 d8 ef8 | df'8 c8 df8 c8 df8 c8 bf8 af8 | bf2 r8 ef,8 d8 ef8 |
   cf'8 bf8 cf4~ cf8 bf8 af8 gf8 | af2~ af8 gf8 af8 gf8 |
   f8 f8~ \tuplet 3/2 { f8 f8 f8 } \tuplet 3/2 { f4 f4 f4 } | f2. r8 g8 |
   
-  \sectNoBreak "A3"
+  \sect "A3"
 
   ef4 ef'4 d8 c8 bf8 af8 | g8 g8 g2 r8 g8 | ef4 c'4 bf8 af8 g8 f8 | ef2. r8 d8 |
   ef4 d8 ef8 f4 ef8 f8 | g4 bf8 c8 d4 ef8 c8 | bf4 ef,2 f4 | ef2 r2 |

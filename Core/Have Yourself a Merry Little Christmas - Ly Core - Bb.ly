@@ -12,6 +12,8 @@
   copyright = \markup \small { \now " " "© 1943 Metro-Goldwyn-Mayer Inc." }
 }
 
+straightEighths = ##t
+
 refrainLyrics = \lyricmode {
 Have your -- self a mer -- ry lit -- tle Christ -- mas, let your heart be light.
 From now on our trou -- bles will be out of sight. __

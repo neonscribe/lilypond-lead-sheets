@@ -15,18 +15,18 @@
 bossaRhythm = ##t
 
 refrainChords = \chordmode {
-  s2.
+  a2:m7 c2:m6 g2 e2:7.9- a2:m7 c2:dim7 g4 r2.
   
-  a1:m7 c2:m a2:m7.5- g4:maj7 \chordSlash 2 g4/b bf1:dim7
+  a1:m7 c2:m a2:m7.5- g4:maj7 \chordSlash 2 g4/b bf4:dim7 r2.
   a1:m7 d2:7 d2:7.5+ g2 d2:7.5+ g8 r8*7
 
-  a1:m7 c2:m a2:m7.5- g4:maj7 \chordSlash 2 g4/b bf1:dim7
+  a1:m7 c2:m a2:m7.5- g4:maj7 \chordSlash 2 g4/b bf4:dim7 r2.
   a1:m7 d1:7 g2 c2:m g4 \chordSlash 2 cs4:dim7
   
   d2:m7 g2:7 d2:m7 g4:7 g4:7.5+ c2 g2:7.5+ c1:6
   e2:m7 a2:7 e2:m7 a2:7 d2:7 a2:m7 d4:7 r2.
   
-  a1:m7 c2:m a2:m7.5- g4:maj7 \chordSlash 2 g4/b bf1:dim7
+  a1:m7 c2:m a2:m7.5- g4:maj7 \chordSlash 2 g4/b bf4:dim7 r2.
   a1:m7 d1:7 g2 c2:7 g4 \chordSlash 2 \chordInsideParens{ cs4:dim7 }
 }
 
@@ -38,10 +38,11 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Slow Rumba [Los Lobos 1978]" 4 = 88
   
-  \partial 2. b8 c8 d8. c16 b8 a8 |
-  \bar "||"
+  \sectStart "Intro"
+  
+  r1 | r1 | r1 | r4 b8 c8 d8. c16 b8 a8 |
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sect "A1"
   
   b8 e,4 b'16 e,16 b'2~ | b4 a8 b8 c8. b16 a8 g8 | a8 d,4 a'8~ a2~ | a4 fs8 g8 a8 g8 fs8 e8 |
   \break

@@ -3,7 +3,7 @@
 \include "english.ly"
 
 instrument = "Real Book Key for Viola"
-whatKey = bf
+whatKey = bf,
 whatClef = "alto"
 
 \include "../Core/After You've Gone - Ly Core - G.ly"
