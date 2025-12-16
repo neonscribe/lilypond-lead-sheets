@@ -150,7 +150,7 @@ refrainMelody = \relative f' {
   \numericTimeSignature
   \time 4/4
   gs8 e4.~ e4 r4 | r8 b8 cs8 gs'8~ gs8 fs8 e4 | fs8 e4 cs8 e4 cs8( b8) |
-  r4 gs'4 \tuplet 3/2 { (gs16 fs16 e16~ } e16) e16 cs16( e8.~ | e1)\fermata |
+  r4 gs'4 \tuplet 3/2 { gs16( fs16 e16~ } e16) e16 cs16( e8.~ | e1)\fermata |
 
   \bar "|."
 }

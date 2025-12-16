@@ -280,6 +280,41 @@ refrain
 a
 b'
 
+A Hundred Years From Today - Ly - Ab Alto Voice.ly
+refrain
+aes
+bes'
+
+A Hundred Years From Today - Ly - Eb Bass for Standard.ly
+refrain
+ees
+f'
+
+A Hundred Years From Today - Ly - Eb Standard for Viola.ly
+refrain
+ees
+f'
+
+A Hundred Years From Today - Ly - Eb Standard.ly
+refrain
+ees'
+f''
+
+A Hundred Years From Today - Ly - Eb to C for Eb for Standard.ly
+refrain
+c'
+d''
+
+A Hundred Years From Today - Ly - Eb to F for Bb for Standard.ly
+refrain
+f'
+g''
+
+A Hundred Years From Today - Ly - G Alto Voice.ly
+refrain
+g
+a'
+
 A Kiss to Build a Dream On - Ly - C Bass for Standard.ly
 refrain
 c
@@ -442,8 +477,8 @@ e''
 
 After You've Gone - Ly - Bb Standard for Viola.ly
 refrain
-cis'
-ees''
+cis
+ees'
 
 After You've Gone - Ly - Bb Standard.ly
 refrain
@@ -1379,6 +1414,11 @@ refrain
 d
 b'
 
+Angel From Montgomery - Ly - E Alto Voice.ly
+refrain
+e
+cis''
+
 Angel From Montgomery - Ly - E Bass for Standard.ly
 refrain
 e,
@@ -2094,6 +2134,31 @@ Baby Won't You Please Come Home - Ly - G to E for Eb for Standard.ly
 refrain
 b
 b'
+
+Back Home Again in Turkey - Ly - F Bass for Standard.ly
+refrain
+a,
+e''
+
+Back Home Again in Turkey - Ly - F Standard for Viola.ly
+refrain
+a
+e'''
+
+Back Home Again in Turkey - Ly - F Standard.ly
+refrain
+a
+e'''
+
+Back Home Again in Turkey - Ly - F to D for Eb for Standard.ly
+refrain
+fis'
+cis''''
+
+Back Home Again in Turkey - Ly - F to G for Bb for Standard.ly
+refrain
+b
+fis'''
 
 Back in Your Own Backyard - Ly - Bb Alto Voice.ly
 refrain
@@ -4021,6 +4086,36 @@ C'est Si Bon French - Ly - Eb Alto Voice.ly
 refrain
 ges
 bes'
+
+California Stars - Ly - A Bass for Standard.ly
+refrain
+fis,
+d
+
+California Stars - Ly - A Standard for Viola.ly
+refrain
+fis
+d'
+
+California Stars - Ly - A Standard.ly
+refrain
+fis'
+d''
+
+California Stars - Ly - A to B for Bb for Standard.ly
+refrain
+gis'
+e''
+
+California Stars - Ly - A to Fs for Eb for Standard.ly
+refrain
+dis'
+b'
+
+California Stars - Ly - G Baritone Voice.ly
+refrain
+e'
+c''
 
 Call Me - Ly - C Bass for Standard.ly
 refrain
@@ -8612,6 +8707,16 @@ Have Yourself a Merry Little Christmas - Ly - F Alto Voice.ly
 refrain
 f
 bes'
+
+Have Yourself a Merry Little Christmas - Ly - F to G for Bb High for Alto Voice.ly
+refrain
+g'
+c'''
+
+Have Yourself a Merry Little Christmas - Ly - F to G for Bb Low for Alto Voice.ly
+refrain
+g
+c''
 
 Have Yourself a Merry Little Christmas - Ly - G Baritone Voice.ly
 refrain
@@ -20218,6 +20323,91 @@ coda
 f
 f'
 
+Silver Bells - Ly - Ab Baritone Voice.ly
+refrain
+c'
+c''
+
+Silver Bells - Ly - Bb Bass for Standard.ly
+refrain
+d
+d'
+
+Silver Bells - Ly - Bb Standard for Viola.ly
+refrain
+d
+d'
+
+Silver Bells - Ly - Bb Standard.ly
+refrain
+d'
+d''
+
+Silver Bells - Ly - Bb to C for Bb for Standard.ly
+refrain
+e'
+e''
+
+Silver Bells - Ly - Bb to G for Eb for Standard.ly
+refrain
+b
+b'
+
+Silver Bells - Ly - D Alto Voice.ly
+refrain
+fis
+fis'
+
+Silver Bells - Ly - F Alto Voice.ly
+refrain
+a
+a'
+
+Silver Bells - Ly - F Standard.ly
+refrain
+a
+a'
+
+Silver Bells - Ly - F to G for Bb for Standard.ly
+refrain
+b
+b'
+
+Sin City - Ly - D Baritone Voice.ly
+refrain
+fis
+g'
+
+Sin City - Ly - Eb Baritone Voice.ly
+refrain
+g
+aes'
+
+Sin City - Ly - F Bass for Standard.ly
+refrain
+a,
+bes
+
+Sin City - Ly - F Standard for Viola.ly
+refrain
+a
+bes'
+
+Sin City - Ly - F Standard.ly
+refrain
+a
+bes'
+
+Sin City - Ly - F to D for Eb for Standard.ly
+refrain
+fis'
+g''
+
+Sin City - Ly - F to G for Bb for Standard.ly
+refrain
+b
+c''
+
 Since I Fell for You - Ly - Ab Alto Voice.ly
 refrain
 ees
@@ -24151,6 +24341,21 @@ The Touch of Your Lips - Ly - C to D for Bb for Standard.ly
 refrain
 cis'
 fis''
+
+The Touch of Your Lips - Ly - F Standard.ly
+refrain
+e'
+a''
+
+The Touch of Your Lips - Ly - F to G for Bb High for Standard.ly
+refrain
+fis'
+b''
+
+The Touch of Your Lips - Ly - F to G for Bb Low for Standard.ly
+refrain
+fis
+b'
 
 The Very Thought of You - Ly - Ab Bass for Standard.ly
 refrain

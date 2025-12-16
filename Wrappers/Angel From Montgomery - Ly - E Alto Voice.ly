@@ -4,14 +4,14 @@
 
 \include "english.ly"
 
-instrument = "Bonnie Raitt Capo 2 Key"
-whatKey = d
+instrument = "Bonnie Raitt Key"
+whatKey = e
 whatClef = "treble_8"
 
 \include "../Core/Angel From Montgomery - Ly Core - E.ly"
 
 %{
 
-\song{Angel From Montgomery - D to E (Capo 2)}{"../Alto Voice/Angel From Montgomery - Ly - D Alto Voice"}
+\song{Angel From Montgomery - E}{"../Alto Voice/Angel From Montgomery - Ly - E Alto Voice"}
 
 %}
