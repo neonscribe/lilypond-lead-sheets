@@ -45,7 +45,8 @@ jobs:
       - name: Build catalog
         run: |
           cd jazz-picker
-          # Create symlink so build_catalog.py can find the lilypond files
+          # Remove submodule placeholder and symlink to the fresh checkout
+          rm -rf lilypond-data
           ln -s ../lilypond-data lilypond-data
           python build_catalog.py --ranges-file lilypond-data/Wrappers/range-data.txt
           echo "Catalog built successfully"
