@@ -29,8 +29,7 @@ refrainNRBThreeChords = \chordmode {
   f2.:7 f2.:7 bf2.:7 bf2.:7
   g2.:m7 c2.:7 f2.:m7 bf2.:7
 
-  f2.:7 f2.:7 f2.:m7 bf2:13
-  ef2.:6 af2.:6 ef2.:6.9 \chordInsideParens{ bf2.:7 }
+  f2.:7 f2.:7 f2.:m7bf2.:13 ef2.:6 af2.:6 ef2.:6.9 \chordInsideParens{ bf2.:7 }
 }
 
 refrainDjangoFBChords = \chordmode {

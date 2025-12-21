@@ -1,6 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
-now = #(strftime "%Y-%m-%d %H:%M" (localtime (current-time)))
+%%% now = #(strftime "%Y-%m-%d %H:%M" (localtime (current-time)))
+now = ""
 
 
 #(define (begin-parenthesis-ignatzek-chord-names in-pitches bass inversion context)
@@ -66,6 +67,13 @@ rse = {
   \once \override Rest.thickness = #0.24
   \once \override Rest.slope = #1.7
   r8
+}
+
+rss = {
+  \once \override Rest.stencil = #ly:percent-repeat-interface::beat-slash
+  \once \override Rest.thickness = #0.24
+  \once \override Rest.slope = #1.7
+  r16
 }
 
 xPageBreak = {

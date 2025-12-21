@@ -11,47 +11,47 @@
 }
 
 refrainLyrics = \lyricmode {
-  I've flown a -- round the world in a plane;
-  I've set -- tled re -- vo -- lu -- tions in Spain;
+  I've flown a -- round the world __ in a plane. __
+  I've set -- tled re -- vo -- lu -- tions in Spain.
   The North Pole I have chart -- ed,
-  But can't get start -- ed with you.
+  but can't get start -- ed with you. __
   
-  A -- round the golf course I'm un -- der par,
-  And all the mov -- ies want me to star;
+  A -- round the golf course I'm un -- der par, __
+  and all the mov -- ies want __ me to star.
   I've got a house, a show -- place,
-  But I get no place with you.
+  but I get no __ place with you.
   
   You're so su -- preme, lyr -- ics I write of you,
-  Scheme just for a sight of you,
-  Dream both day and night of you
+  scheme just for a sight __ of you,
+  dream both day and night __ of you.
   And what good does it do?
   
-  In nine -- teen twen -- ty -- nine I sold short;
+  In nine -- teen twen -- ty -- nine I sold short. __
   In Eng -- land I'm pre -- sen -- ted at court,
   But you've got me down -- heart -- ed
-  'Cause I can't get start -- ed with you.
+  'cause I can't get start -- ed with you. __
 }
 
 refrainLyricsTwo = \lyricmode {
-  I do a hun -- dred yards in ten flat;
-  The Prince of Wales has co -- pied my hat;
+  I do a hun -- dred yards in ten flat. __
+  The Prince of Wales has co -- pied my hat.
   With queens I've à la cart -- ed,
-  But can't get start -- ed with you.
+  but can't get start -- ed with you. __
 
-  The lead -- ing tai -- lors fol -- low my styles,
-  And tooth -- paste ads all fea -- ture my smiles;
+  The lead -- ing tai -- lors fol -- low my styles, __
+  and tooth -- paste ads all fea -- ture my smiles.
   The As -- tor -- bilts I vis -- it,
   But say, what IS it with you?
   
   When first we met, how you e -- lat -- ed me!
   Pet, you dev -- as -- tat -- ed me!
   Yet, now you've de -- flat -- ed me
-  Till you're my Wa -- ter -- loo.
+  till you're my Wa -- ter -- loo.
   
-  I've sold my kiss -- es at a ba -- zaar,
-  And af -- ter me they've named a ci -- gar;
+  I've sold my kiss -- es at __ a ba -- zaar,
+  And af -- ter me they've named a ci -- gar.
   But late -- ly how I've smart -- ed
-  'Cause I can't get start -- ed with you.
+  'cause I can't get start -- ed with you. __
 }
 
 refrainChords = \chordmode {

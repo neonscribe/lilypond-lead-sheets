@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Eddy Arnold, Elvis Presley Key"
+instrument = "Eddy Arnold, Elvis Presley, Nat King Cole Key"
 whatKey = d
 whatClef = "treble"
 

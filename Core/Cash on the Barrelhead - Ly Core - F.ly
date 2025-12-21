@@ -36,11 +36,6 @@ refrainChords = \chordmode {
   c1 c1 f1 f1
   bf1 bf1 f1 f1
   c1 c1 f1 f1
-
-  bf1 bf1 f1 f1
-  c1 c1 f1 f1
-  bf1 bf1 f1 f1
-  c1 c1 f1 f1
 }
 
 refrainKey = f
@@ -73,17 +68,7 @@ refrainMelody = \relative f' {
   f'1~ | f4 ef4 c8 a4. | f1 | r4 c'4 e4. e8 |
   \break
   e4 c2.~ | c8 a8 a8 a8 c8( bf8) a4 | f1 | r1 |
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectNoBarNoBreak "Solos"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  
+
   \bar "|."
 }
 
@@ -96,11 +81,19 @@ refrainMelody = \relative f' {
 
 \include "../Include/refrain.ily"
 
+\pageBreak
+
 \markup {
   \column 
   \bold
   {
    \vspace #2
+   \line { \large { Verse 1 } }
+   \vspace #4
+   \line { \large { Chorus 1 } }
+   \vspace #4
+   \line { \large { Solo 1 } }
+   \vspace #1
    \line { \large { Verse 2 } }
    \vspace #4
    \line { \large { Chorus 2 } }
@@ -120,6 +113,18 @@ refrainMelody = \relative f' {
   \column 
   {
    \vspace #2
+   \line { \large { Got in a little trouble at the county seat. } }
+   \line { \large { Lord, they put me in the jailhouse, for loafing on the street. } }
+   \line { \large { When the judge heard the verdict, I was a guilty man. } }
+   \line { \large { He said fortyfive dollars, or thirty days in the can. } }
+   \vspace #1
+   \line { \large { That’ll be cash on the barrelhead, son. } }
+   \line { \large { You can take your choice, you’re twentyone. } }
+   \line { \large { No money down, no credit plan, } }
+   \line { \large { no time to chase you, ’cause I’m a busy man. } }
+    \vspace #1
+    \line { \large { \italic { (Chorus form) } } }
+    \vspace #1
    \line { \large { Found a telephone number, on a laundry slip } }
    \line { \large { Had a kind-hearted jailer, with a six-gun hip } }
    \line { \large { He let me call long-distance, She said, “Number, please?” } }
@@ -129,7 +134,9 @@ refrainMelody = \relative f' {
    \line { \large { Not part, not half, but the entire sum } }
    \line { \large { No money down, no credit plan } }
    \line { \large { ‘Cause a little bird tells me that you’re a traveling man } }
-   \vspace #3
+    \vspace #1
+    \line { \large { \italic { (Chorus form) } } }
+    \vspace #1
    \line { \large { Thirty days in the jailhouse, four days on the road } }
    \line { \large { I was feeling mighty hungry, my feet a heavy load } }
    \line { \large { Saw a Greyhound a coming, stuck up my thumb } }
@@ -139,5 +146,8 @@ refrainMelody = \relative f' {
    \line { \large { This old gray dog, gets paid to run } }
    \line { \large { When engine starts, oh the wheels won’t roll } }
    \line { \large { That’ll be cash on the barrelhead, I’ll take you down the road } }
+    \vspace #1
+   \line { \large { \italic { (Chorus form) } } }
  }
 }
+

@@ -12,9 +12,6 @@
   copyright = \markup \small { \now " " "© 1921 Herbert Happy Lawson Music Publishing Company" }
 }
 
-introLyrics = \lyricmode {
-}
-
 introChords = \chordmode {
   s2
   
@@ -34,6 +31,7 @@ introMelody = \relative f' {
   \partial 2 d'4 df4 |
   \bar "||"
   c2. g4 | bf4 bf4 a4 g4 | f2 a4 c4 | f2
+  \bar "||"
 }
 
 refrainLyrics = \lyricmode {

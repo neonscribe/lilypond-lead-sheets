@@ -148,7 +148,7 @@ refrainDFBChords = \chordmode {
   a1:m7.5-/ef d1:7 g2:m c2:m g1:m
 }
 
-refrainChords = \refrainDFBChords
+refrainChords = \refrainHLChords
 
 refrainKey = g
 
