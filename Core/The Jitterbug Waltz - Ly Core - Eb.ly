@@ -32,7 +32,7 @@ refrainNRBThreeChords = \chordmode {
   f2.:7 f2.:7 f2.:m7bf2.:13 ef2.:6 af2.:6 ef2.:6.9 \chordInsideParens{ bf2.:7 }
 }
 
-refrainDjangoFBChords = \chordmode {
+refrainDFBChords = \chordmode {
   ef2. ef2. ef2. ef2.
   af2.:7 af2.:7 af2.:7 af2.:7 
 
@@ -50,8 +50,8 @@ refrainDjangoFBChords = \chordmode {
 }
 
 refrainChords =
-$(if (and (defined? 'djangoChords) djangoChords)
-  refrainDjangoFBChords
+$(if (and (defined? 'useDFBChords) useDFBChords)
+  refrainDFBChords
   refrainNRBThreeChords)
 
 refrainKey = ef

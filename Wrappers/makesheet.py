@@ -433,7 +433,7 @@ octave_mark = octave_marker(octave_offset)
 save_wrapper_file({ 'file_title' : file_song_title ,
                      'nice_title' : song_title ,
                      'key_and_desc' : f"{file_key_name} Standard for Viola" ,
-                     'toc_desc' : f"{key_name_for_nice(key, is_minor)} Viola" ,
+                     'toc_desc' : f"{key_name_for_nice(key, is_minor)} ,
                      'desc' : 'Standard Key for Viola' ,
                      'key' : key + octave_mark ,
                      'clef' : 'alto' ,

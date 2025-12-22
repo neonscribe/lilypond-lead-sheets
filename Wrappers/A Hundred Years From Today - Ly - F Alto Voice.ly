@@ -4,14 +4,14 @@
 
 \include "english.ly"
 
-instrument = "Doris Day, Rosemary Clooney Key"
-whatKey = g,
+instrument = "Peggy Lee Key"
+whatKey = f,
 whatClef = "treble_8"
 
 \include "../Core/A Hundred Years From Today - Ly Core - Eb.ly"
 
 %{
 
-\song{A Hundred Years From Today - G}{"../Alto Voice/A Hundred Years From Today - Ly - G Alto Voice"}
+\song{A Hundred Years From Today - F}{"../Alto Voice/A Hundred Years From Today - Ly - F Alto Voice"}
 
 %}

@@ -12,6 +12,6 @@ whatClef = "alto"
 
 %{
 
-\song{A Hundred Years From Today - Eb Viola}{"../Standard/Viola/A Hundred Years From Today - Ly - Eb Standard for Viola"}
+\song{A Hundred Years From Today - Eb}{"../Standard/Viola/A Hundred Years From Today - Ly - Eb Standard for Viola"}
 
 %}

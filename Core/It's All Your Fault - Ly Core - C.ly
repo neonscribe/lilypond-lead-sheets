@@ -30,7 +30,7 @@ refrainLyrics = \lyricmode {
   
 }
 
-refrainJoelChords = \chordmode {
+refrainSimpleChords = \chordmode {
   s4
   c1:6 c1:6 a1:7 a1:7
   d1:7 g1:7 c2:6 cs2:dim7 d2:m7 g2:7
@@ -60,7 +60,7 @@ refrainiRealChords = \chordmode {
   d1:7 g1:7 c2:6 \chordOpenParen{ df2:dim7 } d2:m7 \chordCloseParen{ g2:7 }
 }
 
-refrainChords = \refrainJoelChords
+refrainChords = \refrainSimpleChords
 
 refrainKey = c
 

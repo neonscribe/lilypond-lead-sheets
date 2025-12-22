@@ -12,6 +12,6 @@ whatClef = "alto"
 
 %{
 
-\song{Oh Lonesome Me Waltz - Eb Viola}{"../Standard/Viola/Oh Lonesome Me Waltz - Ly - Eb Standard for Viola"}
+\song{Oh, Lonesome Me (3/4) - Eb Viola}{"../Standard/Viola/Oh Lonesome Me Waltz - Ly - Eb Standard for Viola"}
 
 %}

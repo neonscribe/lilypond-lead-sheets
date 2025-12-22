@@ -62,7 +62,7 @@ refrainFirehouseChords = \chordmode {
 }
 
 refrainChords =
-$(if (and (defined? 'firehouseChords) firehouseChords)
+$(if (and (defined? 'useFirehouseChords) useFirehouseChords)
   refrainFirehouseChords
   refrainHLChords)
 

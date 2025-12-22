@@ -149,42 +149,37 @@
                         #guitar-tuning
                         #"x;1;0;1;2;x;"
 
-$(if (and (defined? 'chordChart) chordChart) #{
 \markup {
   \fill-line {
     \score
     {
       <<
-  \new ChordNames
-  \transpose \refrainKey \whatKey { \chordDiagrams }
-  $(if (and (defined? 'guitarChords) guitarChords)
-    #{ \new FretBoards
-	  \transpose \refrainKey \whatKey { \chordDiagrams } #} )
-  $(if (and (defined? 'notationChords) notationChords)
-    #{ \new Staff 
-          \transpose \refrainKey \whatKey { \chordDiagrams } #} )
+	\new ChordNames
+	\transpose \refrainKey \whatKey { \chordDiagrams }
+	\new FretBoards
+	\transpose \refrainKey \whatKey { \chordDiagrams }
+	\new Staff 
+	\transpose \refrainKey \whatKey { \chordDiagrams }
       >>
       \layout {
-        \context {
-          \ChordNames
+	\context {
+	  \ChordNames
 	  \override ChordName.font-size = #+3
 	  \override ChordName.font-series = #'bold
-          \override ChordName.stencil = #text-interface::print-X-centered
-        }
-        \context {
-          \FretBoards
+	  \override ChordName.stencil = #text-interface::print-X-centered
+	}
+	\context {
+	  \FretBoards
 	  \override FretBoard.fret-diagram-details.number-type = #'arabic
 	  \override FretBoard.size = #'1.5
-          \override FretBoard.align-dir = #CENTER
-        }
-        \context {
-          \Staff
+	  \override FretBoard.align-dir = #CENTER
+	}
+	\context {
+	  \Staff
 	  \override TimeSignature.stencil = ##f
 	  \override Score.barNumberVisibility = ##f
-        }
+	}
       }
     }
   }
 }
-#}
-)

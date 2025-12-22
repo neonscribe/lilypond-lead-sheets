@@ -38,7 +38,7 @@ refrainSRBChords = \chordmode {
   \chordInsideParens{ c2:7 }
 }
 
-refrainJoelChords = \chordmode {
+refrainSimpleChords = \chordmode {
   f1:7 f1:7 f1:7 f1:7
   bf1:7 bf1:7 bf1:7 bf1:7
   ef1:7 ef1:7 ef1:7 ef1:7
@@ -50,7 +50,7 @@ refrainJoelChords = \chordmode {
   af2:7 g2:7 gf2:7 f2:7 bf2:7 ef2:7 af1:6
 }
 
-refrainChords = \refrainJoelChords
+refrainChords = \refrainSimpleChords
 
 refrainKey = af
 

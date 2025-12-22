@@ -12,6 +12,6 @@ whatClef = "treble"
 
 %{
 
-\song{Oh Lonesome Me Waltz - Eb}{"../Standard/Oh Lonesome Me Waltz - Ly - Eb Standard"}
+\song{Oh, Lonesome Me (3/4) - Eb}{"../Standard/Oh Lonesome Me Waltz - Ly - Eb Standard"}
 
 %}

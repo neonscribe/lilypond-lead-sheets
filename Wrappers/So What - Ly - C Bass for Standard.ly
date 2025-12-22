@@ -8,10 +8,6 @@ instrument = "Bass for Standard Key"
 whatKey = c
 whatClef = "bass"
 
-chordChart = ##t
-guitarChords = ##t
-notationChords = ##t
-
 \include "../Core/So What - Ly Core - C.ly"
 
 %{

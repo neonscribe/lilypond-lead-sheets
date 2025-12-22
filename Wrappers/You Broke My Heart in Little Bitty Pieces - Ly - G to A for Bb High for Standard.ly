@@ -12,6 +12,6 @@ whatClef = "treble"
 
 %{
 
-\song{You Broke My Heart in Little Bitty Pieces - G to A}{"../Standard/Bb/You Broke My Heart in Little Bitty Pieces - Ly - G to A for Bb High for Standard"}
+\song{You Broke My Heart (in Little Bitty Pieces) - G to A}{"../Standard/Bb/You Broke My Heart in Little Bitty Pieces - Ly - G to A for Bb High for Standard"}
 
 %}

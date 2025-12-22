@@ -23,7 +23,7 @@ refrainLyrics = \lyricmode {
   I seem to sigh, I'm in heav -- en, when night is fall -- ing and love is call -- ing me home.
 }
 
-refrainJoelChords = \chordmode {
+refrainSimpleChords = \chordmode {
   s2
 
   g1:m7 c1:7 f1 f2 d2:7
@@ -71,8 +71,8 @@ refrainFHChords = \chordmode {
   \chordCloseParen{ d2:7 }
 }
 
-refrainChords = #(if (and (defined? 'useJoelChords) useJoelChords)
-		  refrainJoelChords
+refrainChords = #(if (and (defined? 'useSimpleChords) useSimpleChords)
+		  refrainSimpleChords
 		  refrainHLChords)
 
 refrainKey = f

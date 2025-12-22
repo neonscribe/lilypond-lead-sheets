@@ -8,10 +8,6 @@ instrument = "Eb for Standard Key"
 whatKey = a,
 whatClef = "treble"
 
-chordChart = ##t
-guitarChords = ##t
-notationChords = ##t
-
 \include "../Core/So What - Ly Core - C.ly"
 
 %{

@@ -125,19 +125,10 @@ refrainKicksOverTime = \relative f' {
 }
 
 chordDiagrams = {
-#(if (and (defined? 'guitarChords) guitarChords)
-  #{
   <e a d' g' b'>1
   <d g c' f' a'>
   <f bf ef' af' c''>
   <ef af df' gf' bf'>
-  #}
-  #{
-  \chordmode {
-    s4
-  }
-  #}
-)
 }
 
 \include "../Include/chord-diagrams.ily"

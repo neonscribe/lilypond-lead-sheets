@@ -5,12 +5,8 @@
 \include "english.ly"
 
 instrument = "Standard Key for Viola"
-whatKey = c,
+whatKey = c
 whatClef = "alto"
-
-chordChart = ##t
-guitarChords = ##t
-notationChords = ##t
 
 \include "../Core/So What - Ly Core - C.ly"
 

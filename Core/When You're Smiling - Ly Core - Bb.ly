@@ -22,7 +22,7 @@ refrainLyrics = \lyricmode {
   The whole world smiles with you. __
 }
 
-refrainJoelChords = \chordmode {
+refrainSimpleChords = \chordmode {
   s2
 
   bf1:6 bf1:6 d1:m7 d1:m7
@@ -38,7 +38,7 @@ refrainJoelChords = \chordmode {
   \chordCloseParen{ f2:7 }
 }
 
-refrainChords = \refrainJoelChords
+refrainChords = \refrainSimpleChords
 
 refrainKey = bf
 

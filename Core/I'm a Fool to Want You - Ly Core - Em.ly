@@ -8,7 +8,7 @@
   title = "I'm a Fool to Want You"
   subtitle = \instrument
   poet = ""
-  composer = "Jack Wolf, Joel Herron and Frank Sinatra"
+  composer = "Jack Wolf, Simple Herron and Frank Sinatra"
   copyright = \markup \small { \now " " "© 1951 Barton Music Corp." }
 }
 

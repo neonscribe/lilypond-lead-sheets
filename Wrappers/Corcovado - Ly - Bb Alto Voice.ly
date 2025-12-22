@@ -6,8 +6,4 @@ instrument = "Sylvia Telles Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-chordChart = ##t
-guitarChords = ##t
-notationChords = ##f
-
 \include "../Core/Corcovado - Ly Core - C.ly"

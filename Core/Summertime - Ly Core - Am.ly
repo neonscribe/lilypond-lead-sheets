@@ -83,7 +83,7 @@ refrainColoradoChords = \chordmode {
   \chordCloseParen{ e2:7 }
 }
 
-refrainJoelChords = \chordmode {
+refrainSimpleChords = \chordmode {
   s2
   
   a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13
@@ -149,8 +149,8 @@ refrainVanillaChords = \chordmode {
   \chordInsideParens{ e1:7 }
 }
 
-refrainChords = #(if (and (defined? 'useJoelChords) useJoelChords)
-		  refrainJoelChords
+refrainChords = #(if (and (defined? 'useSimpleChords) useSimpleChords)
+		  refrainSimpleChords
 		  (if (and (defined? 'useGilEvansChords) useGilEvansChords)
 		   refrainGilEvansChords
 		   refrainFreeJazzLessonsChords))

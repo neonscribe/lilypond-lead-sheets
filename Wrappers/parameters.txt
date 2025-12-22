@@ -1,0 +1,73 @@
+showLyrics
+
+If true, display lyrics, otherwise don't.
+
+withPianoAndBass
+
+If true, show exact voicings for piano and bass on the grand staff,
+otherwise only use chord symbols in the usual lead sheet format.
+
+objectGenderMale
+
+if true, lyrics in the third person (the object of the song) are in
+the male gender, otherwise they are in the female gender. This is used
+by female singers of songs originally written for men.
+
+objectGenderFemale
+
+if true, lyrics in the third person (the object of the song) are in
+the female gender, otherwise they are in the male gender. This is used
+by male singers of songs originally written for women.
+
+femaleSinger
+
+If true, lyrics in the first person (the singer of the song) are in
+the female gender, otherwise they are in the male gender. This is used
+by female singers of songs originally written for men.
+
+maleSinger
+
+If true, lyrics in the first person (the singer of the song) are in
+the male gender, otherwise they are in the female gender. This is used
+by male singers of songs originally written for women.
+
+useSimpleChords
+
+If true, use simplified chords. Otherwise, use the full
+chords from the Hal Leonard Real Books or the original sheet music.
+
+useAlternateChords
+
+If true, use chords from an alternate source. Otherwise, use chords
+from the Hal Leonard Real Books or the original sheet music.
+
+useFirehouseChords
+
+If true, use chords from the Firehouse Fake Book. Otherwise, use chords
+from the Hal Leonard Real Books or the original sheet music.
+
+useBillEvansChords
+
+If true, use chords from the Bill Evans recording. Otherwise, use chords
+from the Hal Leonard Real Books or the original sheet music.
+
+useNOJamChords
+
+If true, use chords from the New Orleans Jam Book. Otherwise, use chords
+from the Hal Leonard Real Books or the original sheet music.
+
+useNicoChords
+
+If true, use chords requested by Nico Lovejoy. Otherwise, use chords
+from the Hal Leonard Real Books or the original sheet music.
+
+useDFBChords
+
+If true, use chords from the Django Fakebook, otherwise use chords
+from the Hal Leonard Real Books or the original sheet music.
+
+useDFBVersion
+
+If true, use chords and melody from the Django Fakebook, otherwise use chords and melody
+from the Hal Leonard Real Books or the original sheet music.
+

@@ -285,6 +285,11 @@ refrain
 aes
 bes'
 
+A Hundred Years From Today - Ly - Bb Baritone Voice.ly
+refrain
+bes
+c''
+
 A Hundred Years From Today - Ly - Eb Bass for Standard.ly
 refrain
 ees
@@ -309,6 +314,11 @@ A Hundred Years From Today - Ly - Eb to F for Bb for Standard.ly
 refrain
 f'
 g''
+
+A Hundred Years From Today - Ly - F Alto Voice.ly
+refrain
+f
+g'
 
 A Hundred Years From Today - Ly - G Alto Voice.ly
 refrain
@@ -1835,7 +1845,7 @@ refrain
 e
 fis'
 
-At Sundown - Ly - G Joel Chords.ly
+At Sundown - Ly - G Simple Chords.ly
 refrain
 e
 fis'
@@ -2597,7 +2607,7 @@ refrain
 gis,
 b
 
-Besame Mucho - Ly - Am Joel Chords.ly
+Besame Mucho - Ly - Am Simple Chords.ly
 refrain
 gis'
 b''
@@ -3937,7 +3947,7 @@ refrain
 g
 f'
 
-Bye Bye Blackbird - Ly - Bb Joel Chords.ly
+Bye Bye Blackbird - Ly - Bb Simple Chords.ly
 refrain
 g
 f'
@@ -9633,7 +9643,7 @@ refrain
 fis
 g'
 
-I Can't Give You Anything but Love - Ly - Bb Joel Chords.ly
+I Can't Give You Anything but Love - Ly - Bb Simple Chords.ly
 refrain
 fis
 g'
@@ -14201,7 +14211,7 @@ refrain
 d
 e'
 
-Lady Be Good - Ly - G Joel Chords.ly
+Lady Be Good - Ly - G Simple Chords.ly
 refrain
 d'
 e''
@@ -19903,7 +19913,7 @@ refrain
 b,
 e'
 
-Samba de Orfeu - Ly - C Joel Chords.ly
+Samba de Orfeu - Ly - C Simple Chords.ly
 refrain
 b
 e''
@@ -20996,8 +21006,8 @@ f'
 
 So What - Ly - C Standard for Viola.ly
 refrain
-d,
-f
+d
+f'
 
 So What - Ly - C Standard.ly
 refrain
@@ -22600,7 +22610,7 @@ refrain
 e'
 e''
 
-Summertime - Ly - Am Joel Chords.ly
+Summertime - Ly - Am Simple Chords.ly
 refrain
 e'
 e''

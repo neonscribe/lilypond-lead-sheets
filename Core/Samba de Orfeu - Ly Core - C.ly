@@ -41,7 +41,7 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ g2:7 }
 }
 
-refrainJoelChords = \chordmode {
+refrainSimpleChords = \chordmode {
   s2.
 
   c1:maj7 c1:maj7 c1:maj7 c1:maj7
@@ -63,8 +63,8 @@ refrainJoelChords = \chordmode {
   g1:7 c1:maj7 c4:maj7 r2.
 }
 
-refrainChords = #(if (and (defined? 'useJoelChords) useJoelChords)
-		  refrainJoelChords
+refrainChords = #(if (and (defined? 'useSimpleChords) useSimpleChords)
+		  refrainSimpleChords
 		  refrainHLChords)
 
 refrainKey = c

@@ -8,8 +8,6 @@ instrument = "Bass for Jazz Key"
 whatKey = ef,
 whatClef = "bass"
 
-useFancyChords = ##t
-
 \include "../Core/I'm an Old Cowhand - Ly Core - Eb.ly"
 
 %{

@@ -2,10 +2,10 @@
 
 \include "english.ly"
 
-instrument = "Standard Key, Joel Chords"
+instrument = "Standard Key, Simple Chords"
 whatKey = c
 whatClef = "treble"
 
-useJoelChords = ##t
+useSimpleChords = ##t
 
 \include "../Core/Samba de Orfeu - Ly Core - C.ly"

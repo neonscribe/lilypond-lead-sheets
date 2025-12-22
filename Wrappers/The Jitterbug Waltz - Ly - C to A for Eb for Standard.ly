@@ -8,7 +8,7 @@ instrument = "Eb for Django Key"
 whatKey = a
 whatClef = "treble"
 
-djangoChords = ##t
+useDFBChords = ##t
 
 \include "../Core/The Jitterbug Waltz - Ly Core - Eb.ly"
 

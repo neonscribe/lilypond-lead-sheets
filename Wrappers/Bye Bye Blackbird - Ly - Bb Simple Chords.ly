@@ -2,10 +2,10 @@
 
 \include "english.ly"
 
-instrument = "Etta Jones Key, Joel Chords"
+instrument = "Etta Jones Key, Simple Chords"
 whatKey = bf,
 whatClef = "treble_8"
 
-useJoelChords = ##t
+useSimpleChords = ##t
 
 \include "../Core/Bye Bye Blackbird - Ly Core - F.ly"

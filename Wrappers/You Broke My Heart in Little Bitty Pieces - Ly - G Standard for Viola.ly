@@ -12,6 +12,6 @@ whatClef = "alto"
 
 %{
 
-\song{You Broke My Heart in Little Bitty Pieces - G Viola}{"../Standard/Viola/You Broke My Heart in Little Bitty Pieces - Ly - G Standard for Viola"}
+\song{You Broke My Heart (in Little Bitty Pieces) - G Viola}{"../Standard/Viola/You Broke My Heart in Little Bitty Pieces - Ly - G Standard for Viola"}
 
 %}

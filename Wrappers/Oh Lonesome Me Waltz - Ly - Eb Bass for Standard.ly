@@ -12,6 +12,6 @@ whatClef = "bass"
 
 %{
 
-\song{Oh Lonesome Me Waltz - Eb Bass}{"../Standard/Bass/Oh Lonesome Me Waltz - Ly - Eb Bass for Standard"}
+\song{Oh, Lonesome Me (3/4) - Eb Bass}{"../Standard/Bass/Oh Lonesome Me Waltz - Ly - Eb Bass for Standard"}
 
 %}
