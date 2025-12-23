@@ -158,8 +158,10 @@
 	\transpose \refrainKey \whatKey { \chordDiagrams }
 	\new FretBoards
 	\transpose \refrainKey \whatKey { \chordDiagrams }
+	%{
 	\new Staff 
 	\transpose \refrainKey \whatKey { \chordDiagrams }
+	%}
       >>
       \layout {
 	\context {
@@ -174,11 +176,13 @@
 	  \override FretBoard.size = #'1.5
 	  \override FretBoard.align-dir = #CENTER
 	}
+	%{
 	\context {
 	  \Staff
 	  \override TimeSignature.stencil = ##f
 	  \override Score.barNumberVisibility = ##f
 	}
+	%}
       }
     }
   }
