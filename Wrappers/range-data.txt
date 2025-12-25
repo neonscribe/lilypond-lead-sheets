@@ -5953,14 +5953,29 @@ d'
 a''
 
 Desafinado - Ly - F Bass for Standard.ly
+refrain
+b,
+d'
 
 Desafinado - Ly - F Standard for Viola.ly
+refrain
+b
+d''
 
 Desafinado - Ly - F Standard.ly
+refrain
+b
+d''
 
 Desafinado - Ly - F to D for Eb for Standard.ly
+refrain
+gis'
+b''
 
 Desafinado - Ly - F to G for Bb for Standard.ly
+refrain
+cis'
+e''
 
 Destination Moon - Ly - Bb Bass for Standard.ly
 verse
