@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "Starting A Rumor"
   subtitle = "Steve Mackey's bass line from Delbert McClinton's 2009 album Acquired Taste"
@@ -53,6 +58,16 @@ refrainChords = \chordmode {
 }
 
 refrainKey = g
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative g, {
   \time 2/2

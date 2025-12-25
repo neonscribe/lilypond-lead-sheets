@@ -4,6 +4,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "Song Title"
   subtitle = \instrument

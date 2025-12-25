@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "Jesusita en Chihuahua"
   subtitle = "aka J.C. Polka, Jess(i)e Polka, Cactus Polka"
@@ -67,6 +72,16 @@ refrainChords = \chordmode {
 }
 
 refrainKey = g
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative f' {
   \time 2/2

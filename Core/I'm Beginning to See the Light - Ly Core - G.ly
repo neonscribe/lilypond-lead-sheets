@@ -4,6 +4,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 16) #}
 )
@@ -91,6 +96,16 @@ refrainSimplifiedChords = \chordmode {
 refrainChords = \refrainSimplifiedChords
 
 refrainKey = g
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative f' {
   \time 4/4

@@ -252,6 +252,11 @@ core_file_contents = f"""%% -*- Mode: LilyPond -*-
 
 % #(set-global-staff-size 18)
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \\header {{
   title = "{song_title}"
   subtitle = \\instrument
@@ -269,6 +274,16 @@ refrainChords = \\chordmode {{
 }}
 
 refrainKey = {key}
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \\relative f' {{
   \\time 4/4
@@ -433,7 +448,7 @@ octave_mark = octave_marker(octave_offset)
 save_wrapper_file({ 'file_title' : file_song_title ,
                      'nice_title' : song_title ,
                      'key_and_desc' : f"{file_key_name} Standard for Viola" ,
-                     'toc_desc' : f"{key_name_for_nice(key, is_minor)} ,
+                     'toc_desc' : f"{key_name_for_nice(key, is_minor)}" ,
                      'desc' : 'Standard Key for Viola' ,
                      'key' : key + octave_mark ,
                      'clef' : 'alto' ,

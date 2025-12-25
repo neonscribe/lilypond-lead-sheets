@@ -1,5 +1,10 @@
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "'Round Midnight"
   subtitle = \instrument
@@ -152,6 +157,16 @@ ethanHeinRefrainChords = \chordmode {
 refrainChords = \SRBRefrainChords
 
 refrainKey = ef
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative c' {
   \time 4/4

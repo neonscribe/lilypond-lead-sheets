@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "Last Thing I Needed First Thing This Morning"
   subtitle = \instrument
@@ -99,6 +104,16 @@ refrainChords = \chordmode {
 }
 
 refrainKey = e
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative f' {
   \time 9/8

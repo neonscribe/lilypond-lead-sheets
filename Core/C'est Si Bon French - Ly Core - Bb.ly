@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 refrainLyrics = \lyricmode {
 “C'est si bon,” __
 De par -- tir n'im -- porte où, __

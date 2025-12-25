@@ -4,6 +4,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "Russian Lullaby (Waltz)"
   subtitle = \instrument
@@ -35,6 +40,16 @@ refrainChords = \chordmode {
 }
 
 refrainKey = c
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative f' {
   \time 3/4

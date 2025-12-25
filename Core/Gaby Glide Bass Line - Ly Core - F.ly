@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "The Gaby Glide"
   subtitle = \instrument
@@ -47,6 +52,16 @@ refrainChords = \chordmode {
 }
 
 refrainKey = f
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative f' {
   \time 2/2

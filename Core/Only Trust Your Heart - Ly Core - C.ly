@@ -4,6 +4,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "Only Trust Your Heart"
   subtitle = \instrument
@@ -75,6 +80,16 @@ refrainChords = \chordmode {
 }
 
 refrainKey = c
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative c'' {
   \time 2/2

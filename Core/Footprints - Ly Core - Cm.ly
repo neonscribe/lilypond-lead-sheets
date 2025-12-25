@@ -4,6 +4,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "Footprints"
   subtitle = \instrument
@@ -36,6 +41,16 @@ refrainMattRybickiReggieWorkmanChords = \chordmode {
 refrainChords = \refrainMattRybickiReggieWorkmanChords
 
 refrainKey = c
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative f' {
   \time 6/4

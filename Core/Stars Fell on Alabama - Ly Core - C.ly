@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "Stars Fell on Alabama"
   subtitle = \instrument
@@ -178,6 +183,16 @@ newRealThreeRefrainChords = \chordmode {
 refrainChords = \realBookVolThreeRefrainChords
 
 refrainKey = c
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative f' {
   \time 4/4

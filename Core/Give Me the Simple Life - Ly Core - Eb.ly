@@ -141,6 +141,16 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
+
 refrainMelody = \relative f'' {
   \time 2/2
   \key \refrainKey \major

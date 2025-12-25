@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "Coquette"
   subtitle = \instrument
@@ -136,6 +141,16 @@ refrainLyrics = ##t
 refrainChords = ##t
 refrainKey = ##t
 refrainMelody = ##t
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
+
 
 $(cond ((and (defined? 'useDFBVersion) useDFBVersion)
 	(set! refrainLyrics refrainDFBLyrics)

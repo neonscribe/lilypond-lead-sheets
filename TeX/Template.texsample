@@ -13,6 +13,6 @@
 
 \song{Song Title}{"File Name Without Extension"}
 
-\song{Two Page Song Title}{"Two Page File Without Extension"}
+\dsong{Two Page Song Title}{"Two Page File Without Extension"}
 
 \end{document}

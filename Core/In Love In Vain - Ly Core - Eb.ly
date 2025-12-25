@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "In Love In Vain"
   subtitle = \instrument
@@ -63,6 +68,16 @@ classicRealIIIRefrainChords = \chordmode {
 refrainChords = \transpose bf ef { \classicRealIIIRefrainChords }
 
 refrainKey = ef
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
 
 refrainMelody = \relative f' {
   \time 4/4

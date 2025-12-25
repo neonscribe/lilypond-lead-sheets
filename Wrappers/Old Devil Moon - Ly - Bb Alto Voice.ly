@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+instrument = "Carolyn Grey (with Gene Krupa) Key"
 whatKey = bf,
 whatClef = "treble_8"
 

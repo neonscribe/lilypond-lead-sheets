@@ -2,6 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
+instrument =
+#(if (and (defined? 'instrument) instrument)
+  instrument
+  "Standard Key")
+
 \header {
   title = "Hawaii Five-O Theme"
   subtitle = \instrument
@@ -34,6 +39,16 @@ refrainChords = \chordmode {
 
 refrainKey = c
 refrainKeyTwo = cs
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  refrainKey)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
+
 refrainKeyThree = d
 
 

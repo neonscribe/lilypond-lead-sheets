@@ -5953,29 +5953,14 @@ d'
 a''
 
 Desafinado - Ly - F Bass for Standard.ly
-refrain
-b,
-d'
 
 Desafinado - Ly - F Standard for Viola.ly
-refrain
-b
-d''
 
 Desafinado - Ly - F Standard.ly
-refrain
-b
-d''
 
 Desafinado - Ly - F to D for Eb for Standard.ly
-refrain
-gis'
-b''
 
 Desafinado - Ly - F to G for Bb for Standard.ly
-refrain
-cis'
-e''
 
 Destination Moon - Ly - Bb Bass for Standard.ly
 verse
@@ -8823,10 +8808,20 @@ refrain
 g
 c''
 
+Have Yourself a Merry Little Christmas - Ly - G Alto Voice.ly
+refrain
+g
+c''
+
 Have Yourself a Merry Little Christmas - Ly - G Baritone Voice.ly
 refrain
 g
 c''
+
+Have Yourself a Merry Little Christmas - Ly - G Bass for Baritone Voice.ly
+refrain
+g,
+c'
 
 Have Yourself a Merry Little Christmas - Ly - Gb Alto Voice.ly
 refrain
@@ -13676,6 +13671,51 @@ refrain
 b
 gis''
 
+Jingle Bell Rock - Ly - Bb Baritone Voice.ly
+refrain
+c'
+cis''
+
+Jingle Bell Rock - Ly - C Bass for Standard.ly
+refrain
+d
+dis'
+
+Jingle Bell Rock - Ly - C Standard for Viola.ly
+refrain
+d
+dis'
+
+Jingle Bell Rock - Ly - C Standard.ly
+refrain
+d'
+dis''
+
+Jingle Bell Rock - Ly - C to A for Eb for Standard.ly
+refrain
+b
+c''
+
+Jingle Bell Rock - Ly - C to D for Bb for Standard.ly
+refrain
+e'
+f''
+
+Jingle Bell Rock - Ly - D Baritone Voice.ly
+refrain
+e'
+f''
+
+Jingle Bell Rock - Ly - D Bass for Baritone Voice.ly
+refrain
+e
+f'
+
+Jingle Bell Rock - Ly - F Alto Voice.ly
+refrain
+g
+gis'
+
 Jive at Five - Ly - Eb Bass for Standard.ly
 refrain
 bes,
@@ -14495,6 +14535,46 @@ Let's Call the Whole Thing Off - Ly - G to E for Eb for Standard.ly
 refrain
 b
 cis''
+
+Let's Do It - Ly - Bb Bass for Standard.ly
+refrain
+des
+ees'
+
+Let's Do It - Ly - Bb Standard for Viola.ly
+refrain
+des
+ees'
+
+Let's Do It - Ly - Bb Standard.ly
+refrain
+des'
+ees''
+
+Let's Do It - Ly - Bb to C for Bb for Standard.ly
+refrain
+ees'
+f''
+
+Let's Do It - Ly - Bb to G for Eb for Standard.ly
+refrain
+bes
+c''
+
+Let's Do It - Ly - Eb Alto Voice.ly
+refrain
+ges
+aes'
+
+Let's Do It - Ly - F Alto Voice.ly
+refrain
+aes
+bes'
+
+Let's Do It - Ly - G Baritone Voice.ly
+refrain
+bes
+c''
 
 Let's Face the Music and Dance - Ly - C Bass for Standard.ly
 refrain
@@ -18070,6 +18150,11 @@ refrain
 f'
 g''
 
+Old Devil Moon - Ly - Ab Alto Voice.ly
+refrain
+ees
+ges'
+
 Old Devil Moon - Ly - Bb Alto Voice.ly
 refrain
 f
@@ -18119,6 +18204,11 @@ Old Devil Moon - Ly - F to G for Bb for Standard.ly
 refrain
 d'
 f''
+
+Old Devil Moon - Ly - G Alto Voice.ly
+refrain
+d
+f'
 
 Ole Buttermilk Sky - Ly - Bb Alto Voice.ly
 refrain
