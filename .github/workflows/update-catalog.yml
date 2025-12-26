@@ -48,7 +48,7 @@ jobs:
           # Remove submodule placeholder and symlink to the fresh checkout
           rm -rf lilypond-data
           ln -s ../lilypond-data lilypond-data
-          python build_catalog.py --ranges-file lilypond-data/Wrappers/range-data.txt
+          python build_catalog.py --ranges-file lilypond-data/Wrappers/range-data.txt --custom-dir custom-charts
           echo "Catalog built successfully"
           ls -la catalog.db
 
@@ -72,3 +72,8 @@ jobs:
         run: |
           flyctl apps restart jazz-picker
           echo "App restarted - new catalog will be loaded"
+
+      - name: Clear PDF cache
+        run: |
+          aws s3 rm s3://jazz-picker-pdfs/generated/ --recursive
+          echo "PDF cache cleared - will regenerate on demand"
