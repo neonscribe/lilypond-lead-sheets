@@ -14,6 +14,6 @@ useSimpleChords = ##t
 
 %{
 
-\song{Blue Christmas - F}{"../Standard/Blue Christmas - Ly - F Standard Simple Chords"}
+\song{Blue Christmas - F Simple Chords}{"../Others/Blue Christmas - Ly - F Standard Simple Chords"}
 
 %}

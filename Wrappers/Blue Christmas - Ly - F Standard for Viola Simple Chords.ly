@@ -8,10 +8,12 @@ instrument = "Harry Connick Key for Viola"
 whatKey = f,
 whatClef = "alto"
 
+useSimpleChords = ##t
+
 \include "../Core/Blue Christmas - Ly Core - F.ly"
 
 %{
 
-\song{Blue Christmas - F Jazz Chords}{"../Standard/Viola/Blue Christmas - Ly - F Standard for Viola"}
+\song{Blue Christmas - F Simple Chords}{"../Others/Blue Christmas - Ly - F Standard for Viola Simple Chords"}
 
 %}

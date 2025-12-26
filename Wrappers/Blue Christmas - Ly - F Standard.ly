@@ -12,6 +12,6 @@ whatClef = "treble"
 
 %{
 
-\song{Blue Christmas - F}{"../Standard/Blue Christmas - Ly - F Standard"}
+\song{Blue Christmas - F Jazz Chords}{"../Standard/Blue Christmas - Ly - F Standard"}
 
 %}

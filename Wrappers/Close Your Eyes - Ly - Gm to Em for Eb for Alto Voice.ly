@@ -4,14 +4,14 @@
 
 \include "english.ly"
 
-instrument = "Bb for Alto Voice"
-whatKey = d
+instrument = "Eb for Alto Voice"
+whatKey = e
 whatClef = "treble"
 
 \include "../Core/Close Your Eyes - Ly Core - Fm.ly"
 
 %{
 
-\song{Close Your Eyes - Gm to Dm}{"../Alto Voice/Eb/Close Your Eyes - Ly - Gm to Dm for Eb for Alto Voice"}
+\song{Close Your Eyes - Gm to Em}{"../Alto Voice/Eb/Close Your Eyes - Ly - Gm to Em for Eb for Alto Voice"}
 
 %}

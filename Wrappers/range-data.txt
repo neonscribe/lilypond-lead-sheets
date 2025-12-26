@@ -3132,6 +3132,11 @@ refrain
 c
 d'
 
+Blue Christmas - Ly - F Standard for Viola Simple Chords.ly
+refrain
+c
+d'
+
 Blue Christmas - Ly - F Standard for Viola.ly
 refrain
 c
@@ -4917,10 +4922,10 @@ refrain
 gis'
 a''
 
-Close Your Eyes - Ly - Gm to Dm for Eb for Alto Voice.ly
+Close Your Eyes - Ly - Gm to Em for Eb for Alto Voice.ly
 refrain
-cis'
-d''
+dis'
+e''
 
 Cold Duck Time - Ly - F Bass for Standard.ly
 refrain
