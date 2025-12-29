@@ -4,14 +4,14 @@
 
 \include "english.ly"
 
-instrument = "Mills Brothers Key"
-whatKey = c
+instrument = "Frank Sinatra Key"
+whatKey = bf,
 whatClef = "treble"
 
 \include "../Core/I'll Be Around - Ly Core - C.ly"
 
 %{
 
-\song{I'll Be Around - C}{"../Standard/I'll Be Around - Ly - C Standard"}
+\song{I'll Be Around - Bb}{"../Baritone Voice/I'll Be Around - Ly - Bb Baritone Voice"}
 
 %}

@@ -94,12 +94,14 @@ refrainMelody = \relative f' {
 
   \sectStart "Intro"
   
+  \ambitusOff
   \bar ".|:"
   \repeat volta 2 {
   r4_"(Guitar)" b,8 e8 <gs b,>4 <a cs,>4~ | <a cs,>2. e,8 a8 |
   e4 b'8 e8 <gs b,>4 <a cs,>4~ | <a cs,>2. r4 |
   }
   \bar "||-:|."
+  \ambitusOn
   
   \sectNoBar "Verse"
   \segnoSign
@@ -129,9 +131,11 @@ refrainMelody = \relative f' {
 
   \sectNoBarNoBreak "Intro No Repeat"
   
+  \ambitusOff
   r4_"(Guitar)" b8 e8 <gs b,>4 <a cs,>4~ | <a cs,>2. e,8 a8 |
   e4 b'8 e8 <gs b,>4 <a cs,>4~ | <a cs,>2. r4 \dalSegnoI |
   \bar "||-||"
+  \ambitusOn
   
   \textCodaI
   
@@ -146,10 +150,13 @@ refrainMelody = \relative f' {
   \time 4/4
   e2 r2 |
   
+  \ambitusOff
   e8 fs8 e8 fs8 e4 cs8 a'8 |
   \repeat volta 2 {
   <gs b,>4 b,8 e8 <gs b,>4 <a cs,>4~ | <a cs,>4 cs8 b8 g16 fs8. e8^"Play 3x" fs8 |
   }
+  \ambitusOn
+
   \break
 
   r4 b,8 gs'8~ gs4 gs8 gs8 | fs8 e4. r2 | r4 cs8 b8 e8 e8 e8 e8 | cs4 r4 r2 |

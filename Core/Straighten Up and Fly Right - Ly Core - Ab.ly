@@ -95,10 +95,13 @@ refrainMelody = \relative f' {
 
   \sectStart "Intro"
   
+  \ambitusOff
   <b' g>8 <c af>8 <af ef>8 <f c>8 <af ef>4 <f c>8 <af ef>8 | r8 <bf f>8 r4 r4 r8 ef,8 |
   <b' g>8 <c af>8 <af ef>8 <f c>8 <af ef>4 <f c>8 <af ef>8 | r8 <f c>8 r4 r4 r8 ef8 |
   <b' g>8 <c af>8 <af ef>8 <f c>8 <af ef>4 <f c>8 <af ef>8 | r8 <bf f>8 r4 r4 r8 ef,8 |
-  <b' g>8 <c af>4 ef,8 <b' g>8 <c af>4 ef,8 | <b' g>8 <c af>4 ef,8 <b' g>8 <c af>4 ef,8 |
+  <b' g>8 <c af>4 ef,8 <b' g>8 <c af>4 ef,8 | <b' g>8 <c af>4 ef,8 <b' g>8 <c af>4 
+  \ambitusOn
+  ef,8 |
   
   \sect "Verse"
   
@@ -148,7 +151,13 @@ refrainMelody = \relative f' {
   \autoBeamOff
   af8
   \autoBeamOn
-  af8( g8) r8 f8 r8 e8 r8 | ef8 r8 ef'8 c8 r4 <af, f bf ef>8 r8 |
+  \ambitusOff
+  af8( g8) r8 f8 r8 e8 r8 | ef8 r8
+  \ambitusOn
+  ef'8 c8 r4
+  \ambitusOff
+  <af, f bf ef>8 r8 |
+  \ambitusOn
 
   \bar "|."
 }

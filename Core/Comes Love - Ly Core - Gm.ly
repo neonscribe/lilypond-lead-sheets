@@ -142,7 +142,10 @@ refrainMelody = \relative f' {
   
   \textCodaBreak
   
-  g1~\> | g8 c4 c8 bf4 a4 | g1~ | g8 c4 c8 bf4 a4\! | r4 <g bf d g>4-.->\ff r2 |
+  g1~\> | g8 c4 c8 bf4 a4 | g1~ | g8 c4 c8 bf4 a4\! | r4 
+  \ambitusOff
+  <g bf d g>4-.->\ff r2 |
+  \ambitusOn
   
   \bar "|."
 }

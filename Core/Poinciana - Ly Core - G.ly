@@ -84,12 +84,15 @@ refrainMelody = \relative f' {
 
   \sectStart "Intro"
   
+  \ambitusOff
   \repeat volta 2 {
   d'1~ | d2 c4 e4 | d1~ | d2 c4 e4 | d1~ | d2 c4 a4 | g1~ |
   \alternative { \volta 1 {
   g2. r4 |
   } \volta 2 {
-  g4\repeatTie r4 d'4. b8 |
+  g4\repeatTie r4 
+  \ambitusOn
+  d'4. b8 |
   } } }
 
   \sect "A1"

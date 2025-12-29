@@ -65,9 +65,12 @@ refrainMelody = \relative f' {
 
   \sectStart "Intro"
   
+  \ambitusOff
   \partial 2. b,4 b4 b4 |
   \bar "||"
-  ds2 ds2 | b2 g2 | e2 r2 | r2 r4 gs'4 |
+  ds2 ds2 | b2 g2 | e2 r2 | r2 r4
+  \ambitusOn
+  gs'4 |
   
   \sectNoBar "Verse"
   
@@ -89,9 +92,11 @@ refrainMelody = \relative f' {
 
   \volta 4 {
   \sectNoBar "Outro"
+  \ambitusOff
   r2 b,4 b4 |
   \bar "||"
   ds2 ds2 | b2 g2 | e1 | r1\fermata |
+  \ambitusOn
   } } }
 }
 

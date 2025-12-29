@@ -94,8 +94,11 @@ refrainMelody = \relative f' {
   
   \sect "Intro"
   
+  \ambitusOff
   c8 c8 b8 b8 bf8 bf8 a4 | af4. g8~ g8 r8 r4 |
-  c8 c8 b8 b8 bf8 bf8 a4 | af4. g8~ g8 r8 r8 g'8 |
+  c8 c8 b8 b8 bf8 bf8 a4 | af4. g8~ g8 r8 r8
+  \ambitusOn
+  g'8 |
   
   \sect "A1"
   
@@ -131,11 +134,17 @@ refrainMelody = \relative f' {
 
   \textCodaBreak
   
+  \ambitusOff
   c8 c8 b8 b8 bf8 bf8 a4 | af4. g8~ g8 r8 r4 |
   c8 c8 b8 b8 bf8 bf8 a4 | af4. g8~ g8 r8 r4 |
   \break
   c4 b4 bf4. a8~ | a8 af4.~ af8 af4. |
-  g4-. e'8 ef8 e4 g,4 | c2 <f, c>4 r4 | <fs c>4 r8 <g c,>4 r8 c,,4\fermata |
+  g4-.
+  \ambitusOn
+  e'8 ef8 e4 g,4 | c2
+  \ambitusOff
+  <f, c>4 r4 | <fs c>4 r8 <g c,>4 r8 c,,4\fermata |
+  \ambitusOn
 
   \bar "|."
 }

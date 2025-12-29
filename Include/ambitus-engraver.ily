@@ -190,11 +190,12 @@ position of middle C and key signature from @var{translator}'s context."
    ;; Get the event that caused the note-grob creation
    ;; and check that it is a note-event.
    (let ((note-event (ly:grob-property note-grob 'cause)))
-     (if (ly:in-event-class? note-event 'note-event)
+     (if (and (ly:in-event-class? note-event 'note-event)
+	      (null? (ly:grob-property note-grob 'ignore-ambitus)))
          ;; get the pitch from the note event
          (let ((pitch (ly:event-property note-event 'pitch)))
            ;; if this pitch is lower than the current ambitus lower
-           ;; note pitch (or it has not been initialized yet),
+           ;; 1note pitch (or it has not been initialized yet),
            ;; then this pitch is the new ambitus lower pitch,
            ;; and conversely for upper pitch.
            (for-each (lambda (direction pitch-compare)

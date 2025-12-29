@@ -86,10 +86,12 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "Intro" }
   
+  \ambitusOff
   \bar ".|:"
   \repeat volta 2 {
   b4. cs8 b8 a8 gs4. fs8 a8 gs8 | e4. d8 a'8 cs,8 b2. |
   }
+  \ambitusOn
   
   \break
 
@@ -118,7 +120,9 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "Outro" }
 
+  \ambitusOff
   b'4. cs8 b8 a8 gs4. fs8 a8 gs8 | e4. d8_"ritard" a'8 cs,8 b2.\fermata |
+  \ambitusOn
 
   \bar "|."
 }

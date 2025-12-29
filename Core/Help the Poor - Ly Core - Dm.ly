@@ -76,10 +76,12 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "Intro" }
   
+  \ambitusOff
   \partial 4 a8 c8 |
   \bar "||"
   
   d2. a8 c8 | d8. f32 d32 c8 d8 r4 a8 c8 | d2. a8 c8 | d8. f32 d32 c8 d8 r8
+  \ambitusOn
   
   \break
 

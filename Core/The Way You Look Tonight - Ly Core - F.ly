@@ -129,9 +129,9 @@ refrainMelody = \relative g' {
       { \voiceOne
 	\override Stem.direction = #DOWN
 	f,1 | e1\rest | e1\rest |
-	\revert Stem.direction
       }
       >>
+    \revert Stem.direction
     \oneVoice
   }
   \alternative {
@@ -147,9 +147,9 @@ refrainMelody = \relative g' {
       { \voiceOne
 	\override Stem.direction = #DOWN
 	e4\rest d4 e4 g4 |
-	\revert Stem.direction
 	}
       >>
+     \revert Stem.direction
      \oneVoice
       }
     {
@@ -164,9 +164,9 @@ refrainMelody = \relative g' {
       { \voiceOne
 	\override Stem.direction = #DOWN
 	e1\rest |
-	\revert Stem.direction
 	}
       >>
+     \revert Stem.direction
      \oneVoice
      }
   }
@@ -202,9 +202,9 @@ refrainMelody = \relative g' {
       { \voiceOne
 	\override Stem.direction = #DOWN
 	f1 | e1\rest | e1\rest | e1\rest |
-	\revert Stem.direction
       }
       >>
+     \revert Stem.direction
      \oneVoice
 
   \textToCodaLastTime

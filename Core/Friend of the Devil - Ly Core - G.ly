@@ -75,11 +75,13 @@ refrainMelody = \relative f' {
 
   \sectStart "Intro"
   
+  \ambitusOff
   \bar ".|:"
   \repeat volta 4 {
   r8_"4x" d'8 g,8 g'8~ g8 d8 d8 d8 | r8 e8 <d g,>8 g8~ g8 d8 <b g>8 <b g>8 |
   r4 <c g e>8 <c g e>8 r8 <b g>8 <g d>8 <b g>8 | r4 a8 e8 r4 d'8 g8 |
   }
+  \ambitusOn
 
   \bar ":..:"
   \repeat volta 6 {

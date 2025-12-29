@@ -69,8 +69,8 @@ Let me take you down, __ 'cause I'm go -- ing to __
 Straw -- ber -- ry Fields.
 No -- thing is real,
 and no -- thing to get hung a -- bout.
-Straw -- ber -- ry Fields for -- ev -- er. __
-_ _ _ _ _ _ _ _
+Straw -- ber -- ry Fields for -- ev -- er. __ ""
+_ _ _ _ _ _ _
 Straw -- ber -- ry Fields for -- ev -- er. __
 Straw -- ber -- ry Fields for -- ev -- er. __
 Straw -- ber -- ry Fields for -- ev -- er. __
@@ -195,7 +195,10 @@ refrainMelody = \relative f' {
   cs8 a8 fs8 cs'8( a8) e8 |
   \numericTimeSignature
   \time 4/4
-  b'8 a4.~ a2 | d8 cs8 a8 g8 e8 d8 cs8 a8 |
+  b'8 a4.~ a2 |
+  \ambitusOff
+  d8 cs8 a8 g8 e8 d8 cs8 a8 |
+  \ambitusOn
   \break
   } \volta 3 {
   \time 3/4

@@ -102,12 +102,14 @@ refrainMelody = \relative f' {
 
   \sectNoBarNoBreak "Intro"
   
+  \ambitusOff
   \partial 2. g4 fs4 e4 |
   \bar "||"
 
   d4 d'8 g,8( a8) c4. | d4 fs8 d8 e8 fs4. |
   \acciaccatura d8 <e g>4 <e g>4 \acciaccatura e8 d4 b4 |
   g4. g,8( b8) e8 d4 |
+  \ambitusOn
 
   \sect "Verse"
   \segnoSign
@@ -138,9 +140,11 @@ refrainMelody = \relative f' {
 
   \sectNoBreak "Interlude/Outro"
   
+  \ambitusOff
   d4 d'8 g,8( a8) c4. | d,4 d'8 g,8( a8) c4. | g'4 g4 e8 d8 as8 b8 | g4 \textFine g4 fs4 e4 |
   \break
   d4 d'8 g,8( a8) c4. | d,4 d'8 g,8( a8) c4. | g'4 g4 e8 d8 as8 b8 | g4 r8 a,8( b8) e8 d8
+  \ambitusOn
   \autoBeamOff
   b'8
   \autoBeamOn

@@ -115,10 +115,12 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "Intro" }
   
+  \ambitusOff
   \bar ".|:"
   \repeat volta 2 {
   cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 | cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 |
   cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 | cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 |
+  \ambitusOn
   
   \sect "A1"
   

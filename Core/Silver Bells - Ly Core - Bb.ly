@@ -109,9 +109,9 @@ refrainMelody = \relative f' {
       { \voiceOne
 	\override Stem.direction = #DOWN
 	  d,8 ef8 f2~ | f2. | g8 a8 bf2~ | bf2. |
-	\revert Stem.direction
       }
       >>
+     \revert Stem.direction
      \oneVoice
 
 

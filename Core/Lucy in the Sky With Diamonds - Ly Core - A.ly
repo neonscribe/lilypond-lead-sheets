@@ -108,7 +108,9 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "Intro" }
   
+  \ambitusOff
   e4 a4 e'4 | g,4 e'4 a,4 | fs4 a4 e'4 | f,4 d'8 cs8 a4 |
+  \ambitusOn
   
   \break
 

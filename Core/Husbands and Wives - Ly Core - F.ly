@@ -70,37 +70,46 @@ refrainMelody = \relative f' {
 
   \sectStart "Intro"
 
+  \ambitusOff
   f8 <c' f a>8~ <c f a>8 f,8 <c' f a>4 |
   e,8 <c' f a>8~ <c f a>8 e,8 <c' f a>4 |
   d,8 <c' f a>8~ <c f a>8 d,8 <c' f a>4 |
   c,8 <c' f a>8~ <c f a>8 c,8 <c' f a>4 |
+  \ambitusOn
 
   \sect "A1"
 
   g4 a8 a8 a4 | g8 a8 a8 a8 a4 | g4 a4 r8 a8 | c2 f,8 f8 |
   \break
   g2. | 
+  \ambitusOff
   c,4 <c' f a>8 c,8 <c' f a>4 |
   g4 <d' g bf>8 g,8 <d' g bf>4 |
   c,4 <c' f a>8 c,8 <c' f a>4 |
+  \ambitusOn
 
   \sect "A2"
 
   a4 bf8 bf8 bf4 | a8 bf8 bf4 bf4 | a8 bf8 bf2 | a8 bf8 g4 r8 f8 |
   \break
   f8( g8 a2) | 
+  \ambitusOff
   e4 <c' f a>8 e,8 <c' f a>4 |
   d,4 <c' f a>8 d,8 <c' f a>4 |
   c,4 <c' f a>8 c,8 <c' f a>8 c8 |
+  \ambitusOn
 
   \sect "B"
 
   d4 ef8 ef8~ ef4 | ef4 d4 c8 ef8~ | ef2 ef8 ef8 | ef4 c4 a4 |
   \break
   g2. |
+  \ambitusOff
   bf4 <d g>8 bf8 <d g>4 |
   bf4 <d f a>8 bf8 <d f a>4 |
   bf4 <d g>8 bf8 <d g>4 |
+  \ambitusOn
+  
   \bar "||"
 
   \xPageBreak
@@ -109,7 +118,10 @@ refrainMelody = \relative f' {
 
   e4 e4 e8 f8~ | f4 e4 d8 c8 | d4 c4 c8 c8 | c8 bf4. bf8 a8 |
   \break
-  a8 g4. r8 c,8 | bf'4 a4 g4 | f2. \textToCodaLastTime | c4 d4 e8 c8 | 
+  a8 g4. r8 c,8 | bf'4 a4 g4 | f2. \textToCodaLastTime |
+  \ambitusOff
+  c4 d4 e8 c8 | 
+  \ambitusOn
 
   \sect "D"
 
@@ -119,6 +131,7 @@ refrainMelody = \relative f' {
 
   \sect "Solo"
 
+  \ambitusOff
   d2. | e2 f4 | d2. | e2 f4 | 
   \break
   g2. | f4 d4 bf4 | g2 g4 | c,4 d4 e4 \daCapo |
@@ -131,6 +144,7 @@ refrainMelody = \relative f' {
   d,8 <c' f a>8~ <c f a>8 d,8 <c' f a>4 |
   c,8 <c' f a>8~ <c f a>8 c,8 <c' f a>4 |
   f,2.\fermata |
+  \ambitusOn
 
   \bar "|."
 }

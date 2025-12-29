@@ -112,7 +112,13 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "Intro" }
   
-  e4-. e4-. d4. bf8 | r8 d8 r8 d8 e8 ds8 \tuplet 3/2 { e8 g8 a8 } |
+  \ambitusOff
+  e4-. e4-. d4. bf8 | r8 d8 r8 d8 e8
+  \ambitusOn
+  \autoBeamOff
+  ds8 
+  \autoBeamOn
+  \tuplet 3/2 { e8 g8 a8 } |
 
   \bar ".|:-||"
   \break

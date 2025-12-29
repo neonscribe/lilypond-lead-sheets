@@ -202,10 +202,12 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "Intro" }
 
+  \ambitusOff
   a8. a16 a8. a16 a8. a16 a8. a16 | a8. a16 a8. a16 a16 a16 a8~ a16 a16 a8 |
   a8. a16 a8. a16 \tuplet 3/2 { a4 b4 c4 } | d2. c8 d8 |
   \break
   e4. c8~ c4 a4 | d4. b8~ b4 g4 | d'4. a8~ a4 fs4 | gs2 r4
+  \ambitusOn
   \bar "!"
   e8 a8~ |
 

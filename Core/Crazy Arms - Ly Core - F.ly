@@ -69,13 +69,16 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Medium [Ray Price 1956]" 4 = 115
 
+  \ambitusOff
   \partial 2 <f a>4_"(Fiddle)" <g a>4 |
   \bar "||"
 
   \sectStart "Intro"
   
   \acciaccatura g8 a4. g8 a4 <a c>4 | \acciaccatura { bf16 c16 } bf8 a8 g4 <f c'>4 <e c'>4 |
-  \acciaccatura d8 <f a>2 <f c'>8 g8 f8 d8 | <c f>2. c'4 |
+  \acciaccatura d8 <f a>2 <f c'>8 g8 f8 d8 | <c f>2. 
+  \ambitusOn
+  c'4 |
   
   \sect "Verse"
   
@@ -104,7 +107,9 @@ refrainMelody = \relative f' {
   
   \alternative { \volta 1 {
   
-  f1 | r4 <a c>4_"(Pedal Steel}" <d f>4 <e g>4 |
+  f1 | r4
+  \ambitusOff
+  <a c>4_"(Pedal Steel}" <d f>4 <e g>4 |
 
   \sect "Interlude"
   
@@ -117,6 +122,7 @@ refrainMelody = \relative f' {
   
   r4 \ottava #1 <f a>4 <a c>4 \acciaccatura <a c>8 <bf d f>4 |
   \acciaccatura <bf d>8 <a c f>4( <e' g c>4 <f a c>2)\fermata |
+  \ambitusOn
   } } }
   \bar "|."
 }

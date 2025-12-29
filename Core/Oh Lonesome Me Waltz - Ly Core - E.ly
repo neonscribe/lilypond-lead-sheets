@@ -102,7 +102,9 @@ refrainMelody = \relative f' {
 
   \sectStart "Intro"
 
+  \ambitusOff
   b2~ b8 bf8 b2~ b8 bf8 | e,2.~ e2. | gs2. gs4 fs4 gs4 | e2. cs'4 b4 e,4 |
+  \ambitusOn
 
   \sect "Verse 1"
   

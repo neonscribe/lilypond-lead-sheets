@@ -79,8 +79,11 @@ refrainMelody = \relative f' {
 
   \sectStart "Intro"
   
-  b4 fs4 d4 b4 | fs8 gs8 as4 b2~ | b1 | b1\fermata |
-  
+  \ambitusOff
+  b4 fs4 d4 b4 | fs8 gs8 as4 b2~ | b1 |
+  \ambitusOn
+  b1\fermata |  
+
   \sect "Verse"
   
   d8 b8 d8 d8 b4 fs4 | b8 b8 b8 fs8~ fs4 r8 fs8 |
@@ -96,7 +99,9 @@ refrainMelody = \relative f' {
   b8 b8 b8 b8 d8 d8 b4 | e8 e4 e8~ e4. f8 |
   b8 f8( fs4) d4 fs,8 fs8 | b8 b8 b4 b2 |
   
+  \ambitusOff
   b'4 fs4 d4 b4 | fs8 gs8 as4 b2~ | b1 |
+  \ambitusOn
   
   b2~ b4. b8 |
   \bar "||-|."
@@ -110,7 +115,9 @@ refrainMelody = \relative f' {
   b4.~ b8) r4 fs8^\markup \italic "a tempo" fs8 |
   b8 b8 b4 b2 |
 
+  \ambitusOff
   b'4 fs4 d4 b4 | fs8 gs8 as4 b2~ | b1\fermata |
+  \ambitusOn
   
 
   \bar "|."

@@ -77,8 +77,11 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "Intro" }
   
+  \ambitusOff
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq e,16 fs16 a16 c16~ c16 a16 c8 |
+  \ambitusOn
+
 
   \bar "||-||"
   \break
@@ -88,7 +91,10 @@ refrainMelody = \relative f' {
   g''8 g8 g8 a8~ a8 g8 e4 | d8 cs8 d8 e8~( e16 d16 cs8) r4 |
   \break
   cs8 d4 cs16 d16~ d8 cs16 d16~ d8 e8~ |
-  e8 e8~( e16 d16 cs8) e,,16 fs16 a16 c16~ c16 a16 c8 |
+  e8 e8~( e16 d16 cs8)
+  \ambitusOff
+  e,,16 fs16 a16 c16~ c16 a16 c8 |
+  \ambitusOn
   \break
   g''8 g8 g8 a8~ a8 e8~ e16 e8. |
   d8 cs16 d16~ d8 e8~( e16 d16 cs8) d8 cs16 d16~ |
@@ -99,7 +105,10 @@ refrainMelody = \relative f' {
   
   g'8 g8 g8 a8~ a8 e8~ e16 e8. | d8 cs16 d16~ d8 e8~( e16 d16 cs8) r8 cs8 |
   \break
-  c16 d8 d16~ d4 d8 cs8 d8 cs8 | e8.( d16 cs4) e,,16 fs16 a16 c16~ c16 a16 c8 |
+  c16 d8 d16~ d4 d8 cs8 d8 cs8 | e8.( d16 cs4)
+  \ambitusOff
+  e,,16 fs16 a16 c16~ c16 a16 c8 |
+  \ambitusOn
   \break
   g''8 g8 g8 a8~ a8 e16 d16~ d16 d8 c16 | d8 d8 c8 e16( d16~ d16 c16 a8) r8 a8 |
   \break
@@ -121,7 +130,10 @@ refrainMelody = \relative f' {
   g8 g8 g8 a8~ a8 g8 e4 | d8 cs8 d8 e8~( e16 d16 cs8) r4 |
   \break
   cs8 d4 cs16 d16~ d8 cs16 d16~ d8 e8~ |
-  e8 e8~( e16 d16 cs8) e,,16 fs16 a16 c16~ c16 a16 c8 |
+  e8 e8~( e16 d16 cs8) 
+  \ambitusOff
+  e,,16 fs16 a16 c16~ c16 a16 c8 |
+  \ambitusOn
   \break
   g''8 g8 g8 a8~ a8 e8~ e16 e8. |
   d8 cs16 d16~ d8 e8~( e16 d16 cs8) d8 cs16 d16~ |

@@ -442,48 +442,48 @@ e''
 
 Act Naturally - Ly - A Alto Voice.ly
 refrain
-a,
-a'
+fis
+fis'
 
 Act Naturally - Ly - C Alto Voice.ly
 refrain
-c
-c''
+a
+a'
 
 Act Naturally - Ly - D Alto Voice.ly
 refrain
-d,
-d'
+b,
+b
 
 Act Naturally - Ly - E Baritone Voice.ly
 refrain
-e
-e''
+cis'
+cis''
 
 Act Naturally - Ly - G Bass for Standard.ly
 refrain
-g,,
-g
+e,
+e
 
 Act Naturally - Ly - G Standard for Viola.ly
 refrain
-g,
-g'
+e
+e'
 
 Act Naturally - Ly - G Standard.ly
 refrain
-g
-g''
+e'
+e''
 
 Act Naturally - Ly - G to A for Bb for Standard.ly
 refrain
-a
-a''
+fis'
+fis''
 
 Act Naturally - Ly - G to E for Eb for Standard.ly
 refrain
-e
-e''
+cis'
+cis''
 
 After You've Gone - Ly - Bb Standard for Viola.ly
 refrain
@@ -1421,43 +1421,43 @@ a'
 
 Angel From Montgomery - Ly - D Alto Voice.ly
 refrain
-d
-b'
+a
+a'
 
 Angel From Montgomery - Ly - E Alto Voice.ly
 refrain
-e
-cis''
+b
+b'
 
 Angel From Montgomery - Ly - E Bass for Standard.ly
 refrain
-e,
-cis'
+b,
+b
 
 Angel From Montgomery - Ly - E Standard for Viola.ly
 refrain
-e,
-cis'
+b,
+b
 
 Angel From Montgomery - Ly - E Standard.ly
 refrain
-e
-cis''
+b
+b'
 
 Angel From Montgomery - Ly - E to Db for Eb for Standard.ly
 refrain
-des'
-bes''
+aes'
+aes''
 
 Angel From Montgomery - Ly - E to Fs for Bb for Standard.ly
 refrain
-fis
-dis''
+cis'
+cis''
 
 Angel From Montgomery - Ly - G Baritone Voice.ly
 refrain
-g
-e''
+d'
+d''
 
 Anthropology - Ly - Bb Bass for Standard.ly
 refrain
@@ -5020,57 +5020,57 @@ c'''
 Comes Love - Ly - Cm Alto Voice.ly
 refrain
 g
-c''
+aes'
 
 Comes Love - Ly - Cm to Am for Eb for Alto Voice.ly
 refrain
 e'
-a''
+f''
 
 Comes Love - Ly - Cm to Dm for Bb for Alto Voice.ly
 refrain
 a
-d''
+bes'
 
 Comes Love - Ly - Dm Alto Voice.ly
 refrain
 a
-d''
+bes'
 
 Comes Love - Ly - Dm to Bm for Eb for Alto Voice.ly
 refrain
 fis'
-b''
+g''
 
 Comes Love - Ly - Dm to Em for Bb for Alto Voice.ly
 refrain
 b
-e''
+c''
 
 Comes Love - Ly - Gm Bass for Standard.ly
 refrain
 d
-g'
+ees'
 
 Comes Love - Ly - Gm Standard for Viola.ly
 refrain
 d
-g'
+ees'
 
 Comes Love - Ly - Gm Standard.ly
 refrain
 d'
-g''
+ees''
 
 Comes Love - Ly - Gm to Am for Bb for Standard.ly
 refrain
 e'
-a''
+f''
 
 Comes Love - Ly - Gm to Em for Eb for Standard.ly
 refrain
 b
-e''
+c''
 
 Comin' Home Baby - Ly - Bbm Alto Voice.ly
 refrain
@@ -5310,62 +5310,62 @@ e''
 Crazy Arms - Ly - A Alto Voice.ly
 refrain
 e
-e'''
+g'
 
 Crazy Arms - Ly - Ab Alto Voice.ly
 refrain
 ees
-ees'''
+ges'
 
 Crazy Arms - Ly - B Baritone Voice.ly
 refrain
 fis
-fis'''
+a'
 
 Crazy Arms - Ly - Bb Alto Voice.ly
 refrain
 f
-f'''
+aes'
 
 Crazy Arms - Ly - C Alto Voice.ly
 refrain
 g
-g'''
+bes'
 
 Crazy Arms - Ly - D Baritone Voice.ly
 refrain
 a
-a'''
+c''
 
 Crazy Arms - Ly - F Bass for Standard.ly
 refrain
 c
-c'''
+ees'
 
 Crazy Arms - Ly - F Standard for Viola.ly
 refrain
 c
-c'''
+ees'
 
 Crazy Arms - Ly - F Standard.ly
 refrain
 c'
-c''''
+ees''
 
 Crazy Arms - Ly - F to D for Eb for Standard.ly
 refrain
 a'
-a''''
+c'''
 
 Crazy Arms - Ly - F to G for Bb for Standard.ly
 refrain
 d'
-d''''
+f''
 
 Crazy Arms - Ly - G Baritone Voice.ly
 refrain
 d'
-d''''
+f''
 
 Crazy He Calls Me - Ly - Bb Alto Voice.ly
 refrain
@@ -5844,27 +5844,27 @@ bes'
 
 Dear Mr Fantasy - Ly - A Bass for Standard.ly
 refrain
-e,,
+a,
 cis'
 
 Dear Mr Fantasy - Ly - A Standard for Viola.ly
 refrain
-e,
+a
 cis''
 
 Dear Mr Fantasy - Ly - A Standard.ly
 refrain
-e
+a'
 cis'''
 
 Dear Mr Fantasy - Ly - A to B for Bb for Standard.ly
 refrain
-fis,
+b
 dis''
 
 Dear Mr Fantasy - Ly - A to Fs for Eb for Standard.ly
 refrain
-des
+ges'
 bes''
 
 Dearly Beloved - Ly - C Bass for Standard.ly
@@ -8149,7 +8149,7 @@ a''
 Friend of the Devil - Ly - D Alto Voice.ly
 refrain
 a
-d''
+b'
 coda
 e'
 e'
@@ -8157,7 +8157,7 @@ e'
 Friend of the Devil - Ly - G Bass for Standard.ly
 refrain
 d
-g'
+e'
 coda
 a
 a
@@ -8165,7 +8165,7 @@ a
 Friend of the Devil - Ly - G Standard for Viola.ly
 refrain
 d
-g'
+e'
 coda
 a
 a
@@ -8173,7 +8173,7 @@ a
 Friend of the Devil - Ly - G Standard.ly
 refrain
 d'
-g''
+e''
 coda
 a'
 a'
@@ -8181,7 +8181,7 @@ a'
 Friend of the Devil - Ly - G to A for Bb for Standard.ly
 refrain
 e'
-a''
+fis''
 coda
 b'
 b'
@@ -8189,7 +8189,7 @@ b'
 Friend of the Devil - Ly - G to E for Eb for Standard.ly
 refrain
 b
-e''
+cis''
 coda
 fis'
 fis'
@@ -9471,52 +9471,52 @@ cis''
 Husbands and Wives - Ly - B Alto Voice.ly
 refrain
 fis
-e''
+b'
 
 Husbands and Wives - Ly - Bb Alto Voice.ly
 refrain
 f
-ees''
+bes'
 
 Husbands and Wives - Ly - Bb Baritone Voice.ly
 refrain
 f
-ees''
+bes'
 
 Husbands and Wives - Ly - C Baritone Voice.ly
 refrain
 g
-f''
+c''
 
 Husbands and Wives - Ly - F Bass for Standard.ly
 refrain
 c,
-bes
+f
 
 Husbands and Wives - Ly - F Standard for Viola.ly
 refrain
 c
-bes'
+f'
 
 Husbands and Wives - Ly - F Standard.ly
 refrain
 c'
-bes''
+f''
 
 Husbands and Wives - Ly - F to D for Eb for Standard.ly
 refrain
 a
-g''
+d''
 
 Husbands and Wives - Ly - F to G for Bb for Standard.ly
 refrain
 d'
-c'''
+g''
 
 Husbands and Wives - Ly - G Alto Voice.ly
 refrain
 d
-c''
+g'
 
 Hymn to Freedom - Ly - F Bass for Standard.ly
 refrain
@@ -11220,25 +11220,60 @@ refrain
 g
 b'
 
+I'll Be Around - Ly - Ab Alto Voice.ly
+refrain
+aes
+c''
+
+I'll Be Around - Ly - Ab Baritone Voice.ly
+refrain
+aes
+c''
+
+I'll Be Around - Ly - Bb Baritone Voice.ly
+refrain
+bes
+d''
+
 I'll Be Around - Ly - C Bass for Standard.ly
 refrain
-none
+c
+e'
 
 I'll Be Around - Ly - C Standard for Viola.ly
 refrain
-none
+c
+e'
 
 I'll Be Around - Ly - C Standard.ly
 refrain
-none
+c'
+e''
 
 I'll Be Around - Ly - C to A for Eb for Standard.ly
 refrain
-none
+a'
+cis'''
 
 I'll Be Around - Ly - C to D for Bb for Standard.ly
 refrain
-none
+d'
+fis''
+
+I'll Be Around - Ly - E Alto Voice.ly
+refrain
+e
+gis'
+
+I'll Be Around - Ly - F Alto Voice.ly
+refrain
+f
+a'
+
+I'll Be Around - Ly - G Alto Voice.ly
+refrain
+g
+b'
 
 I'll Be Home for Christmas - Ly - Bb Baritone Voice.ly
 refrain
@@ -19143,32 +19178,32 @@ fis''
 Poinciana - Ly - C Alto Voice.ly
 refrain
 g
-a'
+g'
 
 Poinciana - Ly - G Bass for Standard.ly
 refrain
 d
-e'
+d'
 
 Poinciana - Ly - G Standard for Viola.ly
 refrain
 d
-e'
+d'
 
 Poinciana - Ly - G Standard.ly
 refrain
 d'
-e''
+d''
 
 Poinciana - Ly - G to A for Bb for Standard.ly
 refrain
 e'
-fis''
+e''
 
 Poinciana - Ly - G to E for Eb for Standard.ly
 refrain
 b
-cis''
+b'
 
 Polkadots and Moonbeams - Ly - C Alto Voice.ly
 refrain
@@ -22447,42 +22482,42 @@ c''
 
 Straighten Up and Fly Right - Ly - Ab Bass for Standard.ly
 refrain
-f,
+ees
 ees'
 
 Straighten Up and Fly Right - Ly - Ab Standard for Viola.ly
 refrain
-f,
+ees
 ees'
 
 Straighten Up and Fly Right - Ly - Ab Standard.ly
 refrain
-f
+ees'
 ees''
 
 Straighten Up and Fly Right - Ly - Ab to Bb for Bb for Standard.ly
 refrain
-g
+f'
 f''
 
 Straighten Up and Fly Right - Ly - Ab to F for Eb for Standard.ly
 refrain
-d
+c'
 c''
 
 Straighten Up and Fly Right - Ly - C Alto Voice.ly
 refrain
-a,
+g
 g'
 
 Straighten Up and Fly Right - Ly - Eb Alto Voice.ly
 refrain
-c
+bes
 bes'
 
 Straighten Up and Fly Right - Ly - F Alto Voice.ly
 refrain
-d
+c'
 c''
 
 Strawberry Fields Forever - Ly - A Bass for Standard.ly
@@ -22490,7 +22525,7 @@ intro
 d,
 b,
 refrain
-a,,
+e,
 e
 
 Strawberry Fields Forever - Ly - A Standard for Viola.ly
@@ -22498,7 +22533,7 @@ intro
 d
 b
 refrain
-a,
+e
 e'
 
 Strawberry Fields Forever - Ly - A Standard.ly
@@ -22506,7 +22541,7 @@ intro
 d'
 b'
 refrain
-a
+e'
 e''
 
 Strawberry Fields Forever - Ly - A to B for Bb for Standard.ly
@@ -22514,7 +22549,7 @@ intro
 e'
 cis''
 refrain
-b
+fis'
 fis''
 
 Strawberry Fields Forever - Ly - A to Fs for Eb for Standard.ly
@@ -22522,7 +22557,7 @@ intro
 b
 gis'
 refrain
-fis
+cis'
 cis''
 
 Street of Dreams - Ly - Eb Bass for Standard.ly
@@ -24281,37 +24316,37 @@ g'
 
 The Music Goes Round Ella - Ly - Ab Alto Voice.ly
 refrain
-aes,
+aes
 c''
 
 The Music Goes Round Ella - Ly - C Standard for Viola.ly
 refrain
-c,
+c
 e'
 
 The Music Goes Round Ella - Ly - C Standard.ly
 refrain
-c
+c'
 e''
 
 The Music Goes Round Ella - Ly - Eb Baritone Voice.ly
 refrain
-ees
+ees'
 g''
 
 The Music Goes Round Ella - Ly - F Alto Voice.ly
 refrain
-f,
+f
 a'
 
 The Music Goes Round Ella - Ly - F to G for Bb High for Alto Voice.ly
 refrain
-g
+g'
 b''
 
 The Music Goes Round Ella - Ly - F to G for Bb Low for Alto Voice.ly
 refrain
-g,
+g
 b'
 
 The Nearness of You - Ly - C Alto Voice.ly
@@ -25910,32 +25945,32 @@ e''
 
 Twisted - Ly - C Alto Voice.ly
 refrain
-bes,
+dis
 d''
 
 Twisted - Ly - C Bass for Standard.ly
 refrain
-bes,
+dis
 d''
 
 Twisted - Ly - C Standard for Viola.ly
 refrain
-bes
+dis'
 d'''
 
 Twisted - Ly - C Standard.ly
 refrain
-bes
+dis'
 d'''
 
 Twisted - Ly - C to A for Eb for Standard.ly
 refrain
-g
+c'
 b''
 
 Twisted - Ly - C to D for Bb for Standard.ly
 refrain
-c'
+f'
 e'''
 
 Unchain My Heart - Ly - Am Bass for Standard.ly
@@ -27217,42 +27252,42 @@ e''
 Wichita Lineman - Ly - Bb Baritone Voice.ly
 refrain
 f
-bes'
+g'
 
 Wichita Lineman - Ly - C Alto Voice.ly
 refrain
 g
-c''
+a'
 
 Wichita Lineman - Ly - C Baritone Voice.ly
 refrain
 g
-c''
+a'
 
 Wichita Lineman - Ly - F Bass for Standard.ly
 refrain
 c
-f'
+d'
 
 Wichita Lineman - Ly - F Standard for Viola.ly
 refrain
 c
-f'
+d'
 
 Wichita Lineman - Ly - F Standard.ly
 refrain
 c'
-f''
+d''
 
 Wichita Lineman - Ly - F to D for Eb for Standard.ly
 refrain
 a'
-d'''
+b''
 
 Wichita Lineman - Ly - F to G for Bb for Standard.ly
 refrain
 d'
-g''
+e''
 
 Willow Weep for Me - Ly - Ab Alto Voice.ly
 refrain

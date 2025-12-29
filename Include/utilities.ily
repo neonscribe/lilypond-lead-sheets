@@ -88,6 +88,14 @@ invisEighth = {
   r8
 }
 
+ambitusOff = {
+  \override NoteHead.ignore-ambitus = ##t
+}
+
+ambitusOn = {
+  \revert NoteHead.ignore-ambitus
+}
+
 sect =
 #(define-music-function (s)
    (string?)
