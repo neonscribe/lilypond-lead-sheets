@@ -113,46 +113,70 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Ella Fitzgerald 1961]" 4 = 55
+  \tempo "Freely [Ella Fitzgerald 1961]" 4 = 70
 
   \sectStart "Verse"
   
-  g,8 c8 d8 e8 f8 e8 d8 c8 | d1 | g,8 c8 d8 e8 f4 e4 | g1 |
-  af8 af af8 bf8 g2 | e8 e8 e8 fs8 ds2 | c8 c8 c8 d8 b4. g'8 | b4 e,2. |
-  e8 e8 e8 f8 d4. a'8 | c4 g2. | g4 a4 f4 g4 | e1 |
+  g,8 c8 d8 e8 f8 e8 d8 c8 | d1 |
+  \break
+  g,8 c8 d8 e8 f4 e4 | g1 |
+  \break
+  af8 af af8 bf8 g2 | e8 e8 e8 fs8 ds2 |
+  \break
+  c8 c8 c8 d8 b4. g'8 | b4 e,2. |
+  \break
+  e8 e8 e8 f8 d4. a'8 | c4 g2. |
+  \break
+  g4 a4 f4 g4 | e1 |
   
-  \bar "||-|."
-  \sectNoBar "A1"
-  \segnoSign
-
-  e4 g8 c8~ c4. g8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 | g'2. f4 |
-  e8 c8 c8 c8~ c4 c8 d8 | g8 c,8 c8 c8~ c8 d4. | e8 d8 c8 a8 g8 g8 g8 g8 | g1 |
-
-  \sect "A2"
-
-  e'4 g8 c8~ c4. g8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 | g'2. f4 |
-  e8 c8 c8 c8~ c4 c8 d8 | g8 c,8 c8 c8~( c8 d4.) | e8 d8 c8 a8 g8 b8 d8 f8 | e1 |
+  \bar "|."
 
   \xPageBreak
 
+  \sectNoBar "A1"
+  \tempo "Ballad [Ella Fitzgerald 1961]" 4 = 55
+  \segnoSign
+
+  e4 g8 c8~ c4. g8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 |
+  \break
+  g'2. f4 | e8 c8 c8 c8~ c4 c8 d8 | g8 c,8 c8 c8~ c8 d4. | 
+  \break
+  e8 d8 c8 a8 g8 g8 g8 g8 | g1 |
+
+  \sect "A2"
+
+  e'4 g8 c8~ c4. g8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 |
+  \break
+  g'2. f4 | e8 c8 c8 c8~ c4 c8 d8 | g8 c,8 c8 c8~( c8 d4.) | 
+  \break
+  e8 d8 c8 a8 g8 b8 d8 f8 | e1 |
+
   \bar "||"
-  \sectNoBar "B"
+  \sect "B"
   
-  bf'4. g16 f16 g4. g8 | bf8( c4) a16 f16 g2 | bf4. g16 f16 g4. e16 g16 | bf8( c4) a16 f16 g2 |
-  ef4. c16 bf16 c4. c8 | ef8( f4) d16 bf16 c2 |
+  bf'4. g16 f16 g4. g8 | bf8( c4) a16 f16 g2 | bf4. g16 f16 g4. e16 g16 |
+
+  \xPageBreak
+
+  bf8( c4) a16 f16 g2 | ef4. c16 bf16 c4. c8 | ef8( f4) d16 bf16 c2 |
+  \break
   \tuplet 3/2 { b4 b4 b4 } \tuplet 3/2 { ds4 ds4 ds4 } | \tuplet 3/2 { e4 e4 e4 } fs2 |
   
   \sect "C"
   
-  b,4 d8 g8~ g4. d8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 | g'2. g8 f8 |
-  e4 c8 c8~ c4 c8 d8 \textToCodaLastTime | g8 c,8 c8 c8 c8 d4. | e8 d8 c8 a8 g8 b8 d8 a'8 | g1 |
-  e8 d8 c8 a8 g8 g8 g8 g8 | g1 |
+  b,4 d8 g8~ g4. d8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 | 
+  \break
+  g'2. g8 f8 | e4 c8 c8~ c4 c8 d8 \textToCodaLastTime | g8 c,8 c8 c8 c8 d4. |
+  \break
+  e8 d8 c8 a8 g8 b8 d8 a'8 | g1 | e8 d8 c8 a8 g8 g8 g8 g8 | g1 |
   
   \bar "||-|."
   \textCodaBreak
   
   af'8 df,8 df8 df8 df8 ef4. | e8 d8 c8 a8 g8 b8 d8 a'8 | g1 |
+  \break
   a4. a8 g4. g8 | a4. a8 g8 g4. | f8 f8 f8 f8 e8 c8 e8 g8 | b2. a8 b8 |
+  \break
   c4 c,4 c8 d4 c8 | b'8 b,8 b8 b8 b8 cs4. | g'8 f8 e8 d8 df8 c8 bf8 af8 | g1 |
 
   \bar "|."

@@ -6616,6 +6616,11 @@ refrain
 d'
 e''
 
+Don't Fence Me In - Ly - Ab Alto Voice.ly
+refrain
+ees
+ges'
+
 Don't Fence Me In - Ly - Bb Alto Voice.ly
 refrain
 f
@@ -6625,6 +6630,11 @@ Don't Fence Me In - Ly - C Alto Voice.ly
 refrain
 g
 bes'
+
+Don't Fence Me In - Ly - Eb Baritone Voice.ly
+refrain
+bes
+des''
 
 Don't Fence Me In - Ly - F Bass for Standard.ly
 refrain
@@ -18275,6 +18285,11 @@ refrain
 g
 c''
 
+Ole Buttermilk Sky - Ly - D Baritone Voice.ly
+refrain
+a
+d''
+
 Ole Buttermilk Sky - Ly - Eb Bass for Standard.ly
 refrain
 bes,
@@ -18704,6 +18719,51 @@ One Note Samba - Ly - Bb to G for Eb for Standard.ly
 refrain
 f'
 c'''
+
+Only Daddy That'll Walk the Line - Ly - Bb Alto Voice.ly
+refrain
+bes
+c''
+
+Only Daddy That'll Walk the Line - Ly - D Baritone Voice.ly
+refrain
+d'
+e''
+
+Only Daddy That'll Walk the Line - Ly - E Bass for Standard.ly
+refrain
+e,
+fis
+
+Only Daddy That'll Walk the Line - Ly - E Standard for Viola.ly
+refrain
+e
+fis'
+
+Only Daddy That'll Walk the Line - Ly - E Standard.ly
+refrain
+e'
+fis''
+
+Only Daddy That'll Walk the Line - Ly - E to Db for Eb for Standard.ly
+refrain
+des'
+ees''
+
+Only Daddy That'll Walk the Line - Ly - E to Fs for Bb for Standard.ly
+refrain
+fis'
+gis''
+
+Only Daddy That'll Walk the Line - Ly - Eb Baritone Voice.ly
+refrain
+ees'
+f''
+
+Only Daddy That'll Walk the Line - Ly - G Alto Voice.ly
+refrain
+g
+a'
 
 Only Trust Your Heart - Ly - C Bass for Standard.ly
 refrain
@@ -25917,6 +25977,31 @@ True Love - Ly - G to E for Eb for Standard.ly
 refrain
 a'
 a''
+
+Tulsa Time - Ly - E Bass for Standard.ly
+refrain
+e,
+cis
+
+Tulsa Time - Ly - E Standard for Viola.ly
+refrain
+e
+cis'
+
+Tulsa Time - Ly - E Standard.ly
+refrain
+e'
+cis''
+
+Tulsa Time - Ly - E to Db for Eb for Standard.ly
+refrain
+des'
+bes'
+
+Tulsa Time - Ly - E to Fs for Bb for Standard.ly
+refrain
+fis'
+dis''
 
 Tune Up - Ly - D Bass for Standard.ly
 refrain

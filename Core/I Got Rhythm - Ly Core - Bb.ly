@@ -14,7 +14,7 @@ instrument =
   subtitle = \instrument
   poet = "Ira Gershwin"
   composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1935 Gershwin Publishing Corp." }
+  copyright = \markup \small { \now " " "© 1930 Gershwin Publishing Corp." }
 }
 
 refrainLyrics = \lyricmode {

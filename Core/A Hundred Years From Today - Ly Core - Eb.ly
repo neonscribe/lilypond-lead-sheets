@@ -13,7 +13,7 @@ instrument =
   title = "A Hundred Years From Today"
   subtitle = \instrument
   poet = "Joe Young, Ned Washington"
-  composer = "Vicor Young"
+  composer = "Victor Young"
   copyright = \markup \small { \now " " "© 1933 Robbins Music Corporation" }
 }
 

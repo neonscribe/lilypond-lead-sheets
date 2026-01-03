@@ -10,7 +10,7 @@ instrument =
 % #(set-global-staff-size 18)
 
 \header {
-  title = "The Weight"
+  title = "The Weight, Chorus Only"
   subtitle = \instrument
   poet = ""
   composer = "J.R. Robertson"

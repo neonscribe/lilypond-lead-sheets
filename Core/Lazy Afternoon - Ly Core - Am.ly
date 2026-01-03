@@ -7,7 +7,7 @@ instrument =
   instrument
   "Standard Key")
 
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \header {
   title = "Lazy Afternoon"
@@ -83,27 +83,45 @@ refrainMelody = \relative f' {
 
   \sectStart "A1"
   
-  g2~ g8 g8 fs8 g8 | fs2 r4 e8 a8 | g8 g8 fs8 g8 fs8 fs8 e8 fs8 | e8 e8 d8 e8 d8 d8 c8 d8 |
+  g2~ g8 g8 fs8 g8 | fs2 r4 e8 a8 | 
   \break
-  c8 c8 b8 c8 \tuplet 3/2 { b4 b4 a4 } | b2~ \tuplet 3/2 { b4 e4 a4 } | fs1~ fs2 r4 a8 d8 |
+  g8 g8 fs8 g8 fs8 fs8 e8 fs8 | e8 e8 d8 e8 d8 d8 c8 d8 |
+  \break
+  c8 c8 b8 c8 \tuplet 3/2 { b4 b4 a4 } | b2~ \tuplet 3/2 { b4 e4 a4 } | 
+  \break
+  fs1~ | fs2 r4 a8 d8 |
   
   \sect "A2"
   
-  c2~ c8 c8 b8 c8 | b2 r4 a8 d8 | c8 c8 b8 c8 b8 b8 a8 b8 | a8 a8 g8 a8 g8g8 f8 g8 |
+  c2~ c8 c8 b8 c8 | b2 r4 a8 d8 | 
   \break
-  f8 f8 e8 f8 \tuplet 3/2 { e4 e4 d4 } | e2~ \tuplet 3/2 { e4 a4 d4 } | b1~ | b2 r4 c4 |
-
-  \sect "B"
+  c8 c8 b8 c8 b8 b8 a8 b8 | a8 a8 g8 a8 g8g8 f8 g8 |
+  \break
+  f8 f8 e8 f8 \tuplet 3/2 { e4 e4 d4 } | e2~ \tuplet 3/2 { e4 a4 d4 } |
+  \break
+  b1~ | b2 r4 c4 |
   
-  d4 c4 d4 c4 | \tuplet 3/2 { b4 b4 c4 } b4 a4 | b4 a4 b4 a4 | g2 r4 a8 a8 |
+  \xPageBreak
+
+  \sectNoBar "B"
+  
+  d4 c4 d4 c4 | \tuplet 3/2 { b4 b4 c4 } b4 a4 |
   \break
-  b4 a4 b4 a4 | g4 a4 g4 f8 f8 | g4 f4 \tuplet 3/2 { g4 f4 e4 } | d1~ | d2 r4 e8 a8 |
+  b4 a4 b4 a4 | g2 r4 a8 a8 |
+  \break
+  b4 a4 b4 a4 | g4 a4 g4 f8 f8 | 
+  \break
+  g4 f4 \tuplet 3/2 { g4 f4 e4 } | d1~ | d2 r4 e8 a8 |
   
   \sect "A3"
   
-  g2~ g8 g8 fs8 g8 | fs2 r4 e8 a8 | g8 g8 fs8 g8 fs8 fs8 e8 fs8 | e8 e8 d8 e8 d8 d8 c8 d8 |
+  g2~ g8 g8 fs8 g8 | fs2 r4 e8 a8 | 
   \break
-  c8 c8 b8 c8 \tuplet 3/2 { b4 b4 a4 } | b2 r4 b4 | e4 a4 fs4 fs4 | a4 d4 b4 b4 | b4( a2.~ | a2) r2 |
+  g8 g8 fs8 g8 fs8 fs8 e8 fs8 | e8 e8 d8 e8 d8 d8 c8 d8 |
+  \break
+  c8 c8 b8 c8 \tuplet 3/2 { b4 b4 a4 } | b2 r4 b4 | 
+  \break
+  e4 a4 fs4 fs4 | a4 d4 b4 b4 | b4( a2.~ | a2) r2 |
 
   \bar "|."
 }
