@@ -560,6 +560,11 @@ refrain
 g'
 a''
 
+Agua de Beber - Ly - Am Alto Voice.ly
+refrain
+fis
+a'
+
 Agua de Beber - Ly - Am Bass for Standard.ly
 refrain
 fis,
@@ -584,6 +589,36 @@ Agua de Beber - Ly - Am to Fsm for Eb for Standard.ly
 refrain
 dis'
 fis''
+
+Agua de Beber - Ly - Bm Alto Voice.ly
+refrain
+gis
+b'
+
+Agua de Beber - Ly - Bm Baritone Voice.ly
+refrain
+gis
+b'
+
+Agua de Beber - Ly - Bm Standard.ly
+refrain
+gis
+b'
+
+Agua de Beber - Ly - Cm Alto Voice.ly
+refrain
+a
+c''
+
+Agua de Beber - Ly - Dm Baritone Voice.ly
+refrain
+b
+d''
+
+Agua de Beber - Ly - Gsm Baritone Voice.ly
+refrain
+f'
+gis''
 
 Ain't Misbehavin' - Ly - C Bass for Standard.ly
 refrain
@@ -4042,62 +4077,62 @@ refrain
 a'
 d''
 
-C'est Si Bon English - Ly - Bb Bass for Standard.ly
+C'est Si Bon - Ly - Bb Bass for Standard English.ly
 refrain
 des,
 f
 
-C'est Si Bon English - Ly - Bb Standard for Viola.ly
+C'est Si Bon - Ly - Bb Bass for Standard.ly
 refrain
-des
-f'
+des,
+f
 
-C'est Si Bon English - Ly - Bb Standard.ly
+C'est Si Bon - Ly - Bb Standard English.ly
 refrain
 des'
 f''
 
-C'est Si Bon English - Ly - Bb to C for Bb for Standard.ly
+C'est Si Bon - Ly - Bb Standard for Viola English.ly
+refrain
+des
+f'
+
+C'est Si Bon - Ly - Bb Standard for Viola.ly
+refrain
+des
+f'
+
+C'est Si Bon - Ly - Bb Standard.ly
+refrain
+des'
+f''
+
+C'est Si Bon - Ly - Bb to C for Bb for Standard English.ly
 refrain
 ees'
 g''
 
-C'est Si Bon English - Ly - Bb to G for Eb for Standard.ly
+C'est Si Bon - Ly - Bb to C for Bb for Standard.ly
+refrain
+ees'
+g''
+
+C'est Si Bon - Ly - Bb to G for Eb for Standard English.ly
 refrain
 bes
 d''
 
-C'est Si Bon English - Ly - Eb Alto Voice.ly
+C'est Si Bon - Ly - Bb to G for Eb for Standard.ly
+refrain
+bes
+d''
+
+C'est Si Bon - Ly - Eb Alto Voice English.ly
 refrain
 ges
 bes'
 
-C'est Si Bon French - Ly - Bb Bass for Standard.ly
-refrain
-des,
-f
-
-C'est Si Bon French - Ly - Bb Standard for Viola.ly
-refrain
-des
-f'
-
-C'est Si Bon French - Ly - Bb Standard.ly
-refrain
-des'
-f''
-
-C'est Si Bon French - Ly - Bb to C for Bb for Standard.ly
-refrain
-ees'
-g''
-
-C'est Si Bon French - Ly - Bb to G for Eb for Standard.ly
-refrain
-bes
-d''
-
-C'est Si Bon French - Ly - Eb Alto Voice.ly
+C'est Si Bon - Ly - Eb Alto Voice.ly
 refrain
 ges
 bes'
