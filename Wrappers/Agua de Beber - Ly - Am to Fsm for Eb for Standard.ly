@@ -8,6 +8,8 @@ instrument = "Eb for Standard Key"
 whatKey = fs
 whatClef = "treble"
 
+lyricsLanguage = "portuguese"
+
 \include "../Core/Agua de Beber - Ly Core - Am.ly"
 
 %{

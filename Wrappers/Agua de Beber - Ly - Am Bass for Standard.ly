@@ -8,6 +8,8 @@ instrument = "Bass for Standard Key"
 whatKey = a,,
 whatClef = "bass"
 
+lyricsLanguage = "portuguese"
+
 \include "../Core/Agua de Beber - Ly Core - Am.ly"
 
 %{

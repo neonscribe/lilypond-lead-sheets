@@ -7,6 +7,8 @@ instrument =
   instrument
   "Standard Key")
 
+% #(set-global-staff-size 18)
+
 \header {
   title = "C'est Si Bon (It's So Good)"
   subtitle = \instrument
@@ -14,6 +16,87 @@ instrument =
   composer = "Henri Betti"
   copyright = \markup \small { \now " " "© 1947 Arpege Editions" }
 }
+
+refrainLyricsEnglish = \lyricmode {
+  “C'est si bon,” __ lov -- ers say that in France, __
+  when they thrill to ro -- mance, __
+  it means that it's so good. __
+  
+  C'est si bon, __ so I say it to you, __
+  like the French peo -- ple do, __
+  Be -- cause it's oh, so good. __
+  
+  Ev -- 'ry word, ev -- 'ry sigh, ev -- 'ry kiss, dear, __
+  leads to on -- ly one thought and it's this, dear.
+  
+  It's so good, __ noth -- ing else can re -- place, __
+  just your slight -- est em -- brace, __
+  And if you on -- ly would, __
+  be my own, __ for the rest of my days, __
+  I will whis -- per this phrase, __
+  my dar -- ling, “C'est si bon.” __
+  C'est si
+}
+
+refrainLyricsTwoEnglish = {
+}
+
+refrainLyricsFrench = \lyricmode {
+“C'est si bon,” __
+De par -- tir n'im -- porte où, __
+Bras des -- sus, bras des -- sous __
+En chan -- tant des chan -- sons. __
+
+C'est si bon, __
+De se dire 'des mots doux. __
+Des pe -- tits riens du tout __
+Mais qui en di -- sent long. __
+En voy -- ant no -- tre mi -- ne ra -- vi -- e __
+Les pas -- sants dans la rue, nous en -- vient. _
+
+C'est si bon, __
+De guet -- ter dans ses yeux __
+Un es -- poir mer -- veil -- leux. __
+Qui don -- ne un fris -- son. __
+
+C'est si bon __
+Ces pe -- tit's sen -- sa -- tions. __
+Ça vaut mieux qu'un mil -- lion. __
+Tell' -- ment, tell' -- ment c'est bon. __
+C'est si
+}
+
+refrainLyricsTwoFrench = \lyricmode {
+_ _ bon, __
+De pou -- voir l'em -- bras -- ser __
+Et pui de r'com -- men -- cer __
+A la moindre oc -- ca -- sion. __
+C'est si bon __
+De jou -- er du pia -- no. __
+Tout le long de son dos __
+Tan -- dis que nous dan -- sons. __
+
+C'est i -- nouï ce qu'elle a pour sé -- dui -- re. __
+Sans par -- ler de c'que je n'peux pas dire. _
+C'est si bon, __
+Quand j'la tiens dans mes bras, __
+De me dir' -- que tout ça. __
+C'est à moi pour de bon. __
+C'est si bon, __
+Et si nous nous ai -- mons __
+Cher -- chez pas la rai -- son: __
+C'est parc' -- que c'est si bon. __ ""
+}
+
+refrainLyrics =
+#(if (and (defined? 'lyricsLanguage) (string= lyricsLanguage "english"))
+  refrainLyricsEnglish
+  refrainLyricsFrench)
+
+refrainLyricsTwo =
+#(if (and (defined? 'lyricsLanguage) (string= lyricsLanguage "english"))
+  refrainLyricsTwoEnglish
+  refrainLyricsTwoFrench)
 
 refrainChords = \chordmode {
   s2

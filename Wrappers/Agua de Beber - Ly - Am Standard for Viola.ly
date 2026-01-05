@@ -8,6 +8,8 @@ instrument = "Standard Key for Viola"
 whatKey = a,
 whatClef = "alto"
 
+lyricsLanguage = "portuguese"
+
 \include "../Core/Agua de Beber - Ly Core - Am.ly"
 
 %{

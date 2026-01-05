@@ -6,4 +6,6 @@ instrument = "Bb for Standard Key in French"
 whatKey = c'
 whatClef = "treble"
 
-\include "../Core/C'est Si Bon French - Ly Core - Bb.ly"
+lyricsLanguage = "french"
+
+\include "../Core/C'est Si Bon - Ly Core - Bb.ly"

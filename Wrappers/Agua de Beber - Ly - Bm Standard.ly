@@ -4,8 +4,8 @@
 
 \include "english.ly"
 
-instrument = "Bb High for Standard Key"
-whatKey = b
+instrument = "Antonio Carlos Jobim Key"
+whatKey = b,
 whatClef = "treble"
 
 lyricsLanguage = "portuguese"
@@ -14,6 +14,6 @@ lyricsLanguage = "portuguese"
 
 %{
 
-\song{Água de Beber (Water to Drink) - Am to Bm}{"../Standard/Bb/Agua de Beber - Ly - Am to Bm for Bb for Standard"}
+\song{Água de Beber (Water to Drink) - Bm}{"../Standard/Agua de Beber - Ly - Bm Standard"}
 
 %}

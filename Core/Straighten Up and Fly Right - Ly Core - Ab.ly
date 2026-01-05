@@ -62,7 +62,7 @@ refrainChords = \chordmode {
   af2 af2/gf df/f af/ef df2 f2:m7 ff4.:7 ef8*5:7
   
   af2 af2/gf df/f af/ef df2 af/c bf2:m7 ef2:7
-  af2 af2/gf df/f af/ef df2 f2:m7 ef4.:9 g8*5:7
+  af2 af2/gf df/f af/ef df2 f2:m7 ef4.:9 af8*5:6
   
   c1:7 c1:7 f1:7 f1:7 bf1:7 bf1:7 ef1:7 ef4:7 r8*3  gf8:6.9 g8:6.9 af8:6.9
   

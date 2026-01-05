@@ -4,8 +4,8 @@
 
 \include "english.ly"
 
-instrument = "Bb High for Standard Key"
-whatKey = b
+instrument = "Vinícius de Moraes Key"
+whatKey = gs
 whatClef = "treble"
 
 lyricsLanguage = "portuguese"
@@ -14,6 +14,6 @@ lyricsLanguage = "portuguese"
 
 %{
 
-\song{Água de Beber (Water to Drink) - Am to Bm}{"../Standard/Bb/Agua de Beber - Ly - Am to Bm for Bb for Standard"}
+\song{Água de Beber (Water to Drink) - G\#m}{"../Baritone Voice/Agua de Beber - Ly - Gsm Baritone Voice"}
 
 %}

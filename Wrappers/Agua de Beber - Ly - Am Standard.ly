@@ -4,9 +4,11 @@
 
 \include "english.ly"
 
-instrument = "Standard Key"
+instrument = "Astrud Gilberto Key"
 whatKey = a
 whatClef = "treble"
+
+lyricsLanguage = "portuguese"
 
 \include "../Core/Agua de Beber - Ly Core - Am.ly"
 
