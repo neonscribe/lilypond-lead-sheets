@@ -69,6 +69,7 @@ refrainMelody = \relative f' {
   } {
   g2 a2 | d4. c8~ c2 |
   } }
+
   \sect "B"
   \key \refrainKey \major
   
@@ -76,7 +77,7 @@ refrainMelody = \relative f' {
   \break
   r8 e8 g8 a8~ a2 | r8 e8 g8 a8 bf4 a8 g8~ | g1 | r1 |
   \break
-  f8 a8 f8 d8~ d2 | r8 bf'4 bf8 bf4 a8 g8~ | g1 | r1 |
+  fs8 a8 fs8 d8~ d2 | r8 bf'4 bf8 bf4 a8 g8~ | g1 | r1 |
   
   \sect "C"
   

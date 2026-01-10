@@ -50,7 +50,7 @@ whatClef =
   whatClef
   "treble")
 
-refrainMelody = \relative f {
+refrainMelody = \relative f' {
   \numericTimeSignature
   \time 4/4
   \key \refrainKey \major
@@ -74,7 +74,7 @@ refrainMelody = \relative f {
   \bar "|."
 }
 
-refrainMelodyTwo = \relative f {
+refrainMelodyTwo = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
@@ -87,13 +87,13 @@ refrainMelodyTwo = \relative f {
   cs4 r4 r2 | r1 |
 }
 
-refrainMelodyThree = \relative f {
+refrainMelodyThree = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
 
-  r8 cs''16 cs16 cs8 a8 fs8 fs8 r4 | r8 cs'16 cs16 cs8 a16 fs16~( fs16 e16 d8) r4 |
-  r8 cs'16 cs16 cs8 a8 fs8 fs8 r4 | r2 r4 e4~ | 
+  r8 cs'16 cs16 cs8 a8 fs8 fs8 r4 | r8 cs'16 cs16 cs8 a16 fs16~( fs16 e16 d8) r4 |
+  r8 cs'16 cs16 cs8 a8 fs8 fs8 r4 | r2 r4 e'4~ | 
   \time 3/4
   e8. e16 e16 e16 e8 e16 e8 fs16~ |
   \time 4/4

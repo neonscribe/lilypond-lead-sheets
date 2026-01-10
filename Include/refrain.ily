@@ -163,7 +163,7 @@ emphasize = {
       #{
     \new Staff {
       \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelodyThree" { 
+      \context Voice = "voiceMelodyThree" \with { \consists #ambitus-engraver } { 
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelodyThree
 	  }

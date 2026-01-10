@@ -2,8 +2,8 @@
 
 \include "english.ly"
 
-instrument = "Emmylou Harris Key"
-whatKey = g,
+instrument = "Carmen McRae Key"
+whatKey = a,
 whatClef = "treble_8"
 
 \include "../Core/You Don't Know Me - Ly Core - Eb.ly"

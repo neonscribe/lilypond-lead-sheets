@@ -7296,6 +7296,41 @@ refrain
 f
 c''
 
+El Paso - Ly - Bb Baritone Voice.ly
+refrain
+f
+d''
+
+El Paso - Ly - C Baritone Voice.ly
+refrain
+g
+e''
+
+El Paso - Ly - D Bass for Standard.ly
+refrain
+a,
+fis'
+
+El Paso - Ly - D Standard for Viola.ly
+refrain
+a
+fis''
+
+El Paso - Ly - D Standard.ly
+refrain
+a
+fis''
+
+El Paso - Ly - D to B for Eb for Standard.ly
+refrain
+fis'
+dis'''
+
+El Paso - Ly - D to E for Bb for Standard.ly
+refrain
+b
+gis''
+
 Elena's Bossa - Ly - Am Bass for Standard.ly
 refrain
 a,,
@@ -14455,6 +14490,36 @@ dis''
 outro
 fis'
 c''
+
+Lament - Ly - F Bass for Standard.ly
+refrain
+f,
+a
+
+Lament - Ly - F Standard for Viola.ly
+refrain
+f
+a'
+
+Lament - Ly - F Standard.ly
+refrain
+f'
+a''
+
+Lament - Ly - F to D for Eb for Standard.ly
+refrain
+d'
+fis''
+
+Lament - Ly - F to G for Bb High for Standard.ly
+refrain
+g'
+b''
+
+Lament - Ly - F to G for Bb Low for Standard.ly
+refrain
+g
+b'
 
 Last Thing I Needed - Ly - C Baritone Voice.ly
 refrain
@@ -24925,19 +24990,19 @@ d''
 
 The Weight Chorus - Ly - A Standard for Viola.ly
 refrain
-fis,
-e
-refrain melody two
-b,
-a
-
-The Weight Chorus - Ly - A Standard.ly
-refrain
 fis
 e'
 refrain melody two
 b
 a'
+
+The Weight Chorus - Ly - A Standard.ly
+refrain
+fis'
+e''
+refrain melody two
+b'
+a''
 
 The World Is Waiting for the Sunrise 1919 - Ly - C Bass for Standard.ly
 refrain
@@ -27939,6 +28004,26 @@ You Do Something to Me - Ly - Eb to F for Bb for Standard.ly
 refrain
 c'
 f''
+
+You Don't Know Me - Ly - A Alto Voice.ly
+refrain
+e
+fis''
+
+You Don't Know Me - Ly - Ab Baritone Voice.ly
+refrain
+ees
+f''
+
+You Don't Know Me - Ly - Bb Baritone Voice.ly
+refrain
+f
+g''
+
+You Don't Know Me - Ly - C Baritone Voice.ly
+refrain
+g
+a''
 
 You Don't Know Me - Ly - Eb Bass for Standard.ly
 refrain
