@@ -1,13 +1,13 @@
 # This workflow is meant to be COPIED to Eric's lilypond-lead-sheets repo.
-# It triggers when charts are updated and rebuilds the jazz-picker catalog.
+# It triggers when charts are updated and rebuilds the MusicForge catalog.
 #
 # Setup required in lilypond-lead-sheets repo:
 # 1. Copy this file to .github/workflows/update-catalog.yml
-# 2. Add secret: FLY_API_TOKEN (generate with: fly tokens create deploy -a jazz-picker)
+# 2. Add secret: FLY_API_TOKEN (generate with: fly tokens create deploy -a musicforge)
 #
 # No AWS secrets needed - uses OIDC for secure, keyless authentication.
 
-name: Update Jazz Picker Catalog
+name: Update MusicForge Catalog
 
 on:
   push:
@@ -15,6 +15,7 @@ on:
     paths:
       - 'Wrappers/**'
       - 'Core/**'
+      - 'Include/**'
   workflow_dispatch: # Allow manual trigger
 
 # Required for OIDC authentication to AWS
@@ -31,11 +32,11 @@ jobs:
         with:
           path: lilypond-data
 
-      - name: Checkout jazz-picker
+      - name: Checkout musicforge
         uses: actions/checkout@v4
         with:
-          repository: nicolovejoy/jazz-picker
-          path: jazz-picker
+          repository: nicolovejoy/musicforge
+          path: musicforge
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -44,10 +45,10 @@ jobs:
 
       - name: Build catalog
         run: |
-          cd jazz-picker
-          # Remove submodule placeholder and symlink to the fresh checkout
+          cd musicforge
+          # Replace submodule with fresh checkout (copy, not symlink, for Docker)
           rm -rf lilypond-data
-          ln -s ../lilypond-data lilypond-data
+          cp -r ../lilypond-data .
           python build_catalog.py --ranges-file lilypond-data/Wrappers/range-data.txt --custom-dir custom-charts
           echo "Catalog built successfully"
           ls -la catalog.db
@@ -55,21 +56,21 @@ jobs:
       - name: Configure AWS credentials (OIDC)
         uses: aws-actions/configure-aws-credentials@v4
         with:
-          role-to-assume: arn:aws:iam::218141621131:role/jazz-picker-catalog-updater
+          role-to-assume: arn:aws:iam::218141621131:role/musicforge-catalog-updater
           aws-region: us-east-1
 
       - name: Upload catalog to S3
         run: |
-          aws s3 cp jazz-picker/catalog.db s3://jazz-picker-pdfs/catalog.db
+          aws s3 cp musicforge/catalog.db s3://musicforge-pdfs/catalog.db
           echo "Catalog uploaded to S3"
 
       - name: Install Fly CLI
         uses: superfly/flyctl-actions/setup-flyctl@master
 
-      - name: Restart Fly app
+      - name: Deploy to Fly
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
         run: |
-          flyctl apps restart jazz-picker
-          echo "App restarted - new catalog will be loaded"
-          
+          cd musicforge
+          flyctl deploy
+          echo "Deployed with updated Core/Include files"
