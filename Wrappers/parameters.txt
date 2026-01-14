@@ -1,73 +1,156 @@
-showLyrics
+﻿* lyricsLanguage
+
+A string, one of "english", "french", or "portuguese"
+
+-- Agua de Beber - all 3
+-- C'est Si Bon - "french" or "english"
+
+* showLyrics
 
 If true, display lyrics, otherwise don't.
 
-withPianoAndBass
+-- Bernie's Tune
+-- Well You Needn't
+
+* withPianoAndBass
 
 If true, show exact voicings for piano and bass on the grand staff,
 otherwise only use chord symbols in the usual lead sheet format.
 
-objectGenderMale
+-- A Child is Born
+
+* objectGenderMale
 
 if true, lyrics in the third person (the object of the song) are in
 the male gender, otherwise they are in the female gender. This is used
 by female singers of songs originally written for men.
 
-objectGenderFemale
+-- Ain't She Sweet
+-- Almost Blue
+-- Avalon
+-- Bei Mir Bist Du Schoen
+-- Beyond the Sea
+-- Change Partners
+-- Day Dream
+-- Detour Ahead
+-- Gee Baby Ain't I Good to You
+-- Hallelujah I Love Him (Her) So
+-- Have You Met Miss Jones
+-- He'll Have to Go
+-- How Insensitive
+-- I Guess I'll Hang My Tears Out to Dry
+-- I've Found a New Baby
+-- In the Wee Small Hours of the Morning
+-- Is You Is or Is You Ain't (Ma' Baby)
+-- It's All Right With Me
+-- My Baby Just Cares for Me
+-- My Foolish Heart
+-- My Ideal
+-- Oh, Lonesome Me Four
+-- Only Trust Your Heart
+-- She's Funny That Way
+-- Sweet and Lovely
+-- Wait Till You See Her (Him)
+
+* objectGenderFemale
 
 if true, lyrics in the third person (the object of the song) are in
 the female gender, otherwise they are in the male gender. This is used
 by male singers of songs originally written for women.
 
-femaleSinger
+-- Crazy He Calls Me
+
+* femaleSinger
 
 If true, lyrics in the first person (the singer of the song) are in
 the female gender, otherwise they are in the male gender. This is used
 by female singers of songs originally written for men.
 
-maleSinger
+-- Blues in the Night
+-- City Lights
+-- Give Me the Simple Life
+-- I Had the Craziest Dream
+-- I'll Be Around
+-- Small Day Tomorrow
+-- Stella by Starlight
+-- The Frim Fram Sauce
+-- The Very Thought of You
+-- Walkin' My Baby Back Home
+
+
+* maleSinger
 
 If true, lyrics in the first person (the singer of the song) are in
 the male gender, otherwise they are in the female gender. This is used
 by male singers of songs originally written for women.
 
-useSimpleChords
+Black Coffee
+
+* useSimpleChords
 
 If true, use simplified chords. Otherwise, use the full
 chords from the Hal Leonard Real Books or the original sheet music.
 
-useAlternateChords
+-- At Sundown
+-- Besame Mucho
+-- Blue Christmas
+-- Bye Bye Blackbird
+-- I'm an Old Cowhand
+-- Lady Be Good
+-- Samba de Orfeu
+-- Summertime
+
+* useAlternateChords
 
 If true, use chords from an alternate source. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
 
-useFirehouseChords
+-- Blue Moon
+
+* useFirehouseChords
 
 If true, use chords from the Firehouse Fake Book. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
 
-useBillEvansChords
+-- On the Alamo
+
+* useBillEvansChords
 
 If true, use chords from the Bill Evans recording. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
 
-useNOJamChords
+-- Spring Is Here
+
+* useNOJamChords
 
 If true, use chords from the New Orleans Jam Book. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
 
-useNicoChords
+-- River Stay Way From My Door
+
+* useNicoChords
 
 If true, use chords requested by Nico Lovejoy. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
 
-useDFBChords
+-- River Stay Way From My Door
+
+* useDFBChords
 
 If true, use chords from the Django Fakebook, otherwise use chords
 from the Hal Leonard Real Books or the original sheet music.
 
-useDFBVersion
+-- After You've Gone
+-- Ain't Misbehavin'
+-- Exactly Like You
+-- I Can't Give You Anything but Love
+-- If I Only Had a Brain
+-- Smile
+-- The Jitterbug Waltz
+
+* useDFBVersion
 
 If true, use chords and melody from the Django Fakebook, otherwise use chords and melody
 from the Hal Leonard Real Books or the original sheet music.
 
+-- Coquette

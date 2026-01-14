@@ -1,13 +1,17 @@
-% \version "2.25.24"
-%
-% JAZZ CHORDS
-% (based upon pop-chords.ly by James L. Hammons)
-%
-% v3.1
-% 19 Nov 2011
-% address@hidden
-%
-% tested against lilypond v2.14.2
+%%% \version "2.25.24"
+%%%
+%%% JAZZ CHORDS
+%%% (based upon pop-chords.ly by James L. Hammons)
+%%%
+%%% v3.1
+%%% 19 Nov 2011
+%%% address@hidden
+%%%
+%%% tested against lilypond v2.14.2
+
+%%% extensively modified by Eric Benson (ebseattle@gmail.com) 2020-2026
+%%% We are trying to adhere to the Brandt-Roemer chord notation standard
+%%% as it appears in the Sher Music New Real books.
 
 \include "nederlands.ly"
 
@@ -22,7 +26,7 @@
 jcFlat = \markup{  \hspace #0.2 \raise #0.4 { \smaller \flat } }
 jcSharp = \markup{ \hspace #0.2 \raise #0.7 { \smaller \sharp } }
 
-% define your prefererred mode markers here
+%%% define your prefererred mode markers here
 jcMajor = \markup{ \jcSmall{ "MA" } }
 jcDiminished = \markup{ \jcRaise{ "o" } }
 jcDiminishedSeventh = \markup{ \jcRaise{ "o7" } }
@@ -58,16 +62,16 @@ jcSusTwo = \markup{ \jcSmall{ "SUS2" } }
 
 jazzChordsMusic =
 {
-	% Pedal
+	%% Pedal
 	<c>-\markup{ \jcRaise{ \small "PEDAL" } }
 
-	% Duads
+	%% Duads
 	<c g>-\markup{ \jcRaise{ "5" } }
 	<c e>-\markup{ \jcRaise{ "3" } }
 	<c ees>-\markup{ \jcMinor \jcRaise{ "3" } }
 	
 	
-	% Triads
+	%% Triads
 	<c e ges>-\markup{ \jcFlatFive }
 	<c e gis>-\markup{ \jcAugmented }
 
@@ -78,23 +82,23 @@ jazzChordsMusic =
 	<c d g>-\markup{ \jcSusTwo }
 	<c f g>-\markup{ \jcSus }
 
-	% this chord appears in Miles Davis's "Enigma" and is called "p4",
-	% meaning a chord constisting of perfect fourths
+	%% this chord appears in Miles Davis's "Enigma" and is called "p4",
+	%% meaning a chord constisting of perfect fourths
 	<c f bes>-\markup{ \jcRaise{ "4" } }
 
-	% Sixth Chords
+	%% Sixth Chords
 	<c e g a>-\markup{ \jcSixth }
 	<c ees g a>-\markup{ \jcMinorSixth }
 	<c ees g aes>-\markup{ \jcMinorFlatSixth }
 
 	
-	% Sevenths (including altered ones)	
+	%% Sevenths (including altered ones)	
 	
-	% dominant sept
+	%% dominant sept
 	<c e g bes>-\markup{ \jcSeventh }
 	
 	
-	% major sept
+	%% major sept
 	<c e g b>-\markup{ \jcMajorSeventh }
 	<c e g a b>-\markup{ \jcMajorSeventh \jcRaise{ "(ADD 6)" } }
 	<c e g b fis'>-\markup{ \jcMajorSeventh \jcSharpEleventh }
@@ -102,7 +106,7 @@ jazzChordsMusic =
 	<c e ges b>-\markup{ \jcMajorSeventhFlatFive }
 	
 	
-	% minor
+	%% minor
 	<c ees g aes>-\markup{ \jcMinorSixth }
 	<c ees g bes>-\markup{ \jcMinorSeventh }
 	
@@ -124,7 +128,7 @@ jazzChordsMusic =
 	     \larger\larger\normal-weight ")" } 
 	
 
-	% suspended
+	%% suspended
 	<c f g a>-\markup{ \jcSixth \jcSus }
 	<c f g bes>-\markup{ \jcSeventh \jcSus }
 	<c d g bes>-\markup{ \jcSeventh \jcSusTwo }
@@ -132,9 +136,9 @@ jazzChordsMusic =
 	<c f g bes d'>-\markup{ \jcNinth \jcSus }
 	<c f g bes d' a'>-\markup{ \jcThirteenth \jcSus }
 
-	% Ninths (including altered--incomplete)
+	%% Ninths (including altered--incomplete)
 
-	% major	
+	%% major	
 	<c e g d'>-\markup\jcRaise{ "(ADD 9)" }
 	<c e g b d'>-\markup{ \jcMajorNinth }
 	<c e g bes d'>-\markup{ \jcNinth }
@@ -222,23 +226,23 @@ jazzChordsMusic =
 	      } } 
 	     \larger\larger\normal-weight ")" }
 	
-	% 6/9
+	%% 6/9
 	<c e g a d'>-\markup{ \jcSixth "/" \jcSmall{ "9" } }
-	% minor 6/9
+	%% minor 6/9
 	<c ees g a d'>-\markup{ \jcMinor \jcSixth "/" \jcSmall{ "9" } }
 
 
 	     
-	% minor
+	%% minor
 	<c ees g bes d'>-\markup{ \jcMinorNinth }
 	<c ees ges bes d'>-\markup{ \jcMinorNinth \jcFlatFive}
 	<c ees g bes des'>-\markup{ \jcMinor \jcFlatNinth }
 	<c ees g b d'>-\markup{ \jcMinorMajorNinth }
 	
 	
-	% Elevenths
+	%% Elevenths
 	
-	% major	
+	%% major	
 	<c e g b d' f'>-\markup{ \jcMajor \jcEleventh }
 	<c e g b d' fis'>-\markup{ \jcMajorSeventh \jcSharpEleventh }
 	<c e g b d' fes'>-\markup{ \jcMajorSeventh \jcFlatEleventh }
@@ -264,17 +268,17 @@ jazzChordsMusic =
 	<c f g bes d' f'>-\markup{ \jcEleventh \jcSus }
 		
 	
-	% minor	
+	%% minor	
 	<c ees g f'>-\markup{ \jcMinor \jcRaise{ "(ADD 11)" } }
 	<c ees g bes f'>-\markup{ \jcMinorSeventh \jcRaise{ "(11)" } }
 
 	<c ees g bes d' f'>-\markup{ \jcMinor \jcEleventh }
 	<c ees ges bes d' f'>-\markup{ \jcMinor \jcEleventh \jcFlatFive }
 
-	% So What
+	%% So What
 	<c f bes ees' g'>-\markup{ \jcMinor \jcSeventh \jcRaise{ "(ADD 4)" } } 
 
-	%% Thirteens
+	%%% Thirteens
 	
 	<c e g b d' f' a'>-\markup{ \jcMajor \jcThirteenth }
 	<c e g b d' a'>-\markup{ \jcMajor \jcThirteenth }
@@ -339,20 +343,20 @@ jazzChordsMusic =
 	<c e g bes aes'>-\markup{ \jcSeventh \jcFlatThirteenth }
 
 
-	% diminished flat 13
+	%% diminished flat 13
 	<c ees ges aes'>-\markup{ \jcDiminishedSeventh \jcFlatThirteenth }
 
-	% diminished seventh flat 13
+	%% diminished seventh flat 13
 	<c ees ges beses aes'>-\markup{ \jcDiminishedSeventh \jcFlatThirteenth }
 
-	% sevenths with sharp five and flat five won't be found, b13 and #11 match first!
+	%% sevenths with sharp five and flat five won't be found, b13 and #11 match first!
 	<c e ges bes>-\markup{ \jcSeventh \jcFlatFive }
 	<c e gis bes>-\markup{ \jcSeventh \jcAugmented }
 }
 
 
 
-% Exception handling
+%%% Exception handling
 jazzChordsAdd = #(append
 	 (sequential-music-to-chord-exceptions jazzChordsMusic #t)
 	 ignatzekExceptions)
