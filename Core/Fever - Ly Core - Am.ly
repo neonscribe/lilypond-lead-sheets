@@ -53,14 +53,16 @@ refrainChords = \chordmode {
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
-  \tempo "Medium" 4 = 120
+  \tempo "Medium [Peggy Lee 1958]" 4 = 135
 
   \sectStart "Intro"
+  \ambitusOff
   \clef "bass_8"
   \bar ".|:"
   \repeat volta 2 {
   a,,2_"(Bass)" c2 | a4. c8~ c4 a4 | e'2 gs,4. a8~_"(Continues similar)" | a2. e4 |
   }
+  \ambitusOn
   \bar ":|.|:"
   \clef \whatClef
   \sectNoBar "Verse 1 & 2"
@@ -78,15 +80,18 @@ refrainMelody = \relative f' {
   r8 c4 a8 a4 g4 | r8 a4 g8 a4 c4 | r8 c8 a4 a4 g4 | a8 g4 a8~ a4 r4 |
   \break
   r8 c4 a8 a4 g4 | g8 a4 g8 a4 c4 | d8 c8 d8 c8 d8( c8) a8 a8~ | a4 r4 r2 |
+  \bar "||"
   
   \transpose \refrainKey \refrainKeyTwo {
     \relative f' {
   \key \refrainKey \minor
-  \sect "Interlude"
+  \ambitusOff
+  \sectNoBar "Interlude"
   \clef "bass_8"
   
   a,,2 c2 | a4. c8~ c4 a4 | e'2 gs,4. a8~ | a8 e'8 d4 c4 b4 |
   \bar "||"
+  \ambitusOn
 
   \xPageBreak
 
@@ -98,14 +103,17 @@ refrainMelody = \relative f' {
   r1 | r8 ef'4 c8 d4 c4 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
   gs'8 a8 r4 r4 d,8 c8 | d8 c8 r4 r2 | d8 c8 d4 d8 c8 a8 a8~ | a4 r4 r2 |
   } }
+  \bar "||"
   
   \transpose \refrainKey \refrainKeyThree {
     \relative f' {
-  \sect "Interlude"
+  \ambitusOff
+  \sectNoBar "Interlude"
   \key \refrainKey \minor
   \clef "bass_8"
   
   a,,2 c2 | a4. c8~ c4 a4 | e'2 gs,4. a8~ | a2. e4 |
+  \ambitusOn
 
 
   \clef \whatClef
@@ -117,12 +125,14 @@ refrainMelody = \relative f' {
   r1 | r8 ef'4 c8 d4 c4 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
   gs'8 a8 r4 r4 d,8 c8 | d8 c8 r4 r2 | d8 c8 d4 d8 c8 a8 a8~ | a4 r4 r2 |
   }
-  \bar "||-:|."
+  \bar ":|."
   \sectNoBar "Outro"
+  \ambitusOff
   \clef "bass_8"
   
   e,2 gs,4. a8~ | a4. c8~ c4 a4 | e'2 gs,4. a8~ | a4. c8~ c4 a4 | 
   e'2 gs,4. a8~ | a4. c8~ c4 a4 | e'2 gs,4. a8~ | a1\fermata |
+  \ambitusOn
 
 
   } }

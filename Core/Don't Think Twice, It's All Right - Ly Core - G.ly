@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Medium [Bob Dylan 1963]" 4 = 110
 
   \partial 4 b4 |
   \bar "||"
@@ -108,11 +108,15 @@ refrainMelody = \relative f' {
   \bold
   {
    \vspace #2
+   \line { \large { Verse 1 } }
+   \vspace #9
    \line { \large { Verse 2 } }
    \vspace #9
    \line { \large { Verse 3 } }
    \vspace #9
    \line { \large { Verse 4 } }
+   \vspace #9
+   \line { \large { Verse 5 } }
    }
   \column
   {
@@ -121,10 +125,31 @@ refrainMelody = \relative f' {
   \column 
   {
     \vspace #2
+    \line { \large { It ain't no use to sit and wonder why, babe. } }
+    \line { \large { It don't matter anyhow. } }
+    \line { \large { An' it ain't no use to sit and wonder why, babe. } }
+    \line { \large { If you don't know by now. } }
+    \vspace #1
+    \line { \large { When the rooster crows at the break of dawn, } }
+    \line { \large { look out your window and I'll be gone. } }
+    \line { \large { You're the reason I'm trav'lin' on. } }
+    \line { \large { Don't think twice, it's all right. } }
+    \vspace #1
     \line { \large { It ain't no use in turnin' on your light, babe } }
     \line { \large { That light I never knowed } }
     \line { \large { An' it ain't no use in turnin' on your light, babe } }
     \line { \large { I'm on the dark side of the road } }
+    \vspace #1
+    \line { \large { Still I wish there was somethin' you would do or say } }
+    \line { \large { To try and make me change my mind and stay } }
+    \line { \large { We never did too much talking anyway } }
+    \line { \large { So don't think twice, it's all right } }
+    \vspace #1
+    \line { \large { It ain't no use in turnin' on your light, babe } }
+    \line { \large { That light I never knowed } }
+    \line { \large { An' it ain't no use in turnin' on your light, babe } }
+    \line { \large { I'm on the dark side of the road } }
+    \vspace #1
     \line { \large { Still I wish there was somethin' you would do or say } }
     \line { \large { To try and make me change my mind and stay } }
     \line { \large { We never did too much talking anyway } }
@@ -134,6 +159,7 @@ refrainMelody = \relative f' {
     \line { \large { Like you never did before } }
     \line { \large { And it ain't no use in callin' out my name, gal } }
     \line { \large { I can't hear you anymore } }
+    \vspace #1
     \line { \large { I'm a-thinkin' and a-wond'rin' all the way down the road } }
     \line { \large { I once loved a woman, a child I'm told } }
     \line { \large { I give her my heart but she wanted my soul } }
@@ -143,6 +169,7 @@ refrainMelody = \relative f' {
     \line { \large { Where I'm bound, I can't tell } }
     \line { \large { But goodbye's too good a word, gal } }
     \line { \large { So I'll just say, “Fare thee well” } }
+    \vspace #1
     \line { \large { I ain't sayin' you treated me unkind } }
     \line { \large { You could have done better but I don't mind } }
     \line { \large { You just kinda wasted my precious time } }
