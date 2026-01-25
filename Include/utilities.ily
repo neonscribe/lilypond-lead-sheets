@@ -76,6 +76,14 @@ rss = {
   r16
 }
 
+% Macros to print slashes
+rsw = {
+  %% \once \override Rest.stencil = #ly:percent-repeat-interface::beat-slash
+  \once \override Rest.thickness = #0.48
+  \once \override Rest.slope = #1.7
+  r1
+}
+
 xPageBreak = {
   \pageBreak
   \once \override Score.Clef.break-visibility = #begin-of-line-visible

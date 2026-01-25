@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Ballad [Irene Kral 1958]" 4 = 60
 
   \partial 4 e8 a8 |
   \bar "||"

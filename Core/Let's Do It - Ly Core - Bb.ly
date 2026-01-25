@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Medium [Eartha Kitt 1957]" 4 = 97
 
   \sectStart "A1"
   

@@ -4,14 +4,14 @@
 
 \include "english.ly"
 
-instrument = "Chet Baker, Bobby Darin Key"
-whatKey = bf
+instrument = "Bing Crosby Key"
+whatKey = g
 whatClef = "treble"
 
 \include "../Core/I've Never Been in Love Before - Ly Core - Bb.ly"
 
 %{
 
-\song{I've Never Been in Love Before - Bb}{"../Standard/I've Never Been in Love Before - Ly - Bb Standard"}
+\song{I've Never Been in Love Before - G}{"../Baritone Voice/I've Never Been in Love Before - Ly - G Baritone Voice"}
 
 %}

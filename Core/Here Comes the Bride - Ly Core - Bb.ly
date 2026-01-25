@@ -10,6 +10,7 @@ instrument =
 \header {
   title = "Here Comes the Bride"
   subtitle = \instrument
+  copyright = \markup \small { \now " " "1850, based on the “Bridal Chorus” from" \italic Lohengrin, "by Richard Wagner" }
 }
 
 refrainChords = \chordmode {
@@ -54,7 +55,7 @@ refrainMelody = \relative f'' {
 
   \tempo "Swing" 2 = 108
   
-  \bar ".|:"
+  \bar ".|:-||"
   \repeat volta 2 {
   r8 f4. bf4-. bf8 bf8~ | bf1 | r8 f4. c'4-. a8 bf8~ | bf1 |
   \break

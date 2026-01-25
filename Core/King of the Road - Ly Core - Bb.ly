@@ -72,7 +72,7 @@ refrainChords = \chordmode {
 }
 
 refrainKey = bf
-upHalfStepKey = b
+upHalfStepKey = cf
 
 whatKey =
 #(if (and (defined? 'whatKey) whatKey)

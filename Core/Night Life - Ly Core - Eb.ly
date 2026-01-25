@@ -14,7 +14,7 @@ instrument =
   subtitle = \instrument
   poet = ""
   composer = "Willie Nelson"
-  copyright = \markup \small { \now " " "© 1960" }
+  copyright = \markup \small { \now " " "© 1960 Tree Publishing Co. Inc." }
 }
 
 refrainLyrics = \lyricmode {

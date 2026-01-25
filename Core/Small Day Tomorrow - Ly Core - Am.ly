@@ -43,9 +43,8 @@ till to -- mor -- row.
 We can swing till broad day -- light, __
 I've got a small __ day to -- mor -- row. __
 
-night.
-
-And there's a car I can bor -- row till day af -- ter to -- mor -- row.
+Hon -- ey chile, to -- night's the night,
+and there's a car I can bor -- row till day af -- ter to -- mor -- row.
 We can swing right out of sight; we've got a long night and a small __
 day to -- mor -- row. __
 }
@@ -68,17 +67,16 @@ with all their big deals,
 are gon -- na need their sleep,
 but I'm a drop -- out
 who'd ra -- ther cop out
-Than run with all the sheep. __
+than run with all the sheep. __
 
-Hon -- ey chile, to -- night's the night,
+Hon -- ey Chile, to -- night's the night,
 and there's a car I can bor -- row
 till to -- mor -- row.
 We can swing till broad day -- light, __
 I've got a small __ day to -- mor -- row. __
 
-night.
-
-And there's a car I can bor -- row till day af -- ter to -- mor -- row.
+Hon -- ey Chile, to -- night's the night,
+and there's a car I can bor -- row till day af -- ter to -- mor -- row.
 We can swing right out of sight; we've got a long night and a small __
 day to -- mor -- row. __
 }
@@ -88,7 +86,9 @@ refrainLyrics =
   refrainFemaleSingerLyrics
   refrainMaleSingerLyrics)
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
+  a1:m fs1:7.11+.9+ f1:13 e1:7.5+
+
   a2:m a2:1.3-.5+ a1:m6 f2:maj7 f2:maj7.11+ b2:m7.5- e2:7
   a2:m a2:1.3-.5+ a2:m6 a2:m7 f2:7 e2:7.5+ a2:m b4:m7.5- e4:7
 
@@ -101,9 +101,34 @@ refrainChords = \chordmode {
   a2:m a2:1.3-.5+ a1:m6 f2:maj7 f2:maj7.11+ b2:m7.5- e2:7
   a2:m a2:1.3-.5+ a2:m6 a2:m7 f2:7 e2:7.5+ a2:m a4:m7 bf8:m7 b8:m7
 
-  a2:m6 a2:m7 f2:maj7 f2:maj7.11+ b2:m7.5- e2:7 a2:m a2:1.3-.5+
-  a2:m6 a2:m7 f1:7 e2:7 e2:7.5+ a2:m a2:1.3-.5+ a2:m6 a2:1.3-.5+ a2:m6 a2:1.3-.5+ a1:m6
+  a2:m f2/a a2:m6 a2:m7 f2:maj7 f2:maj7.11+ b2:m7.5-.11 e2:7.9-
+  a2:m f2/a a2:m6 a2:m7 f2.:13 r4 e2.:7.5+ r4*5
+
+  a1:m fs1:7.11+.9+ f1:13 e1:7.5+
 }
+
+refrainNRChords = \chordmode {
+  a1:m fs1:7.11+.9+ f1:13 e1:7.5+
+
+  a2:m f2/a a2:m6 a2:m7 f2:maj7 f2:maj7.11+ b2:m7.5-.11 e2:7.9-
+  a2:m f2/a a2:m6 a2:m7 f2:7 e2:7.9- a2:m \chordInsideParens{ e2:7.5+ }
+
+  a2:m f2/a a2:m6 a2:m7 f2:maj7 f2:maj7.11+ b2:m7.5-.11 e2:7.9-
+  a2:m f2/a a2:m6 a2:m7 f2:7 e2:7.9- a1:m
+
+  c2:m7 af2:m9 c2:m7 af2:m9 c2:m7 af4:m7 af4:m7/df d2:m11 g2:7.5+
+  fs2:m7.5- f2:7 fs2:m7.5- f2:7 e2:m11 a2:7.9+.5+ b2:m7.5- e2:7.5-
+  
+  a2:m f2/a a2:m6 a2:m7 f2:maj7 f2:maj7.11+ b2:m7.5-.11 e2:7.9-
+  a2:m f2/a a2:m6 a2:m7 b4:m7.5- f4:7 e2:7.5+ a2:m \chordInsideParens{ e2:7.5+ }
+
+  a2:m f2/a a2:m6 a2:m7 f2:maj7 f2:maj7.11+ b2:m7.5-.11 e2:7.9-
+  a2:m f2/a a2:m6 a2:m7 f2.:13 r4 e2.:7.5+ r4*5
+
+  a2:m fs2:7.11+.9+ f2:9 e2:7.5+.9+ d1:9.11+
+}
+
+refrainChords = \refrainNRChords
 
 refrainKey = a
 
@@ -121,45 +146,60 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium" 4 = 120
+  \tempo "Ballad [Irene Kral 1977]" 4 = 60
 
-  \sectStart "A1"
+  \sectStart "Intro"
+  
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+
+  \sect "A1"
   
   b4 a4 b8 a8 b8 a8 | e2 r8 e8 e8 d8 | e4~ \tuplet 3/2 { e8 d8 e8 } d8 b4. | r4 \tuplet 3/2 { e8 d8 e8 } d8 b4. |
   \break
-  b'4 a4 b8 a8 b8 a8 | e2~ e8 a,8 c8 d8 | ef2 d4. c8 | a8 a4.~ a4 r4 |
+  b'4 a4 b8 a8 b8 a8 | e2 r8 a,8 c8 d8 | ef2 d4. c8 | a8 a4.~ a4 r4 |
 
   \sect "A2"
 
-  b'4 a4 b8 a8 b8 a8 | e2 r8 e8 e8 e8 | e4 d8 e8 d8 b4. | r4 e8 d8 d8 b4. |
+  b'4 a4 b8 a8 b8 a8 | e2 r8 e8 e8 d8 | e4~ \tuplet 3/2 { e8 d8 e8 } d8 b4. | r4 e8 d8 d8 b4. |
   \break
-  b'4 a4 b8 a8 b8 a8 | e2~ e8 a8 e8 c8 | ef4. d8~ d4. c8 | a8 a4.~ a2 |
+  b'4 a4 b8 a8 b8 a8 | e2 r8 a8 e8 c8 | ef2 d4. c8 | a8 a4.~ a2 |
   
   \sect "B"
-  \segnoSign
   
   r8 g'8 g8 g8 bf8 bf4. | r8 g8 g8 g8 bf8 bf4. | r8 g8 g8 g8 bf4 bf4 | g1 |
   \break
-  r8 a8 a8 a8 c8 c4. | r8 a8 a8 a8 c8 c4 c8 | a4 a4 c4 c8 a8~( | a2 as4.) r8 |
+  r8 a8 a8 a8 c8 c4. | r8 a8 a8 a8 c8 c4 c8 | a4 a4 c4 c4 | a2( as2) \textToCodaLastTime |
   \bar "||"
   
   \xPageBreak
   
   \sectNoBar "A3"
 
-  \tuplet 3/2 { r4 b4 a4 } b8 a8 b8 a8 \textToCodaLastTime | e2 r8 a,8 c8 d8 |
-  e4. d16 e16 d8 b4. | \tuplet 3/2 { r4 e4 d4 } d8 b4. |
-  \break
-  r8 b'4 a8 b8 a8 b8 a8 | e2~ e8 a8 c8 a8 | g4( f4) e4. c8 | a8 a4.~ a2 \dalSegno |
+  \tuplet 3/2 { r4 
+		\once \omit Accidental b4 
+		\once \omit Accidental a4 } b8 a8 b8 a8 |
+  e2 r8 a,8 c8 d8 |
+  e4~ \tuplet 3/2 { e8 d8 e8 } d8 b4. |
+  r4 e8 d8 d8 b4. |
+  r8 b'4 a8 b8 a8 b8 a8 | e2 r8 a8 c8 a8 | g4( f4) e4. c8 | a8 a4.~ a2 |
   
   \bar "||-|."
 
   \textCodaBreak
   
-  e'2. \tuplet 3/2 { e8 e8 d8 } | e4. d16 e16 d8 b4. | 
-  \tuplet 3/2 { r8 e8 e8 } \tuplet 3/2 { e8 d8 e8 } d8 b4. | r8 b'4 a8 b8 a8 b8 a8 |
-  \break
-  c2~ c8 a8 c8 a8 | g4 f2 g8 f8 | f8( e4.) c'4. gs8 | b8 a4.~ a2~ | a1 | r1 | r1 |
+  \tuplet 3/2 { r4 
+		\once \omit Accidental b'4 
+		\once \omit Accidental a4 } b8 a8 b8 a8 |
+  e2 r8 a,8 c8 d8 |
+  e4~ \tuplet 3/2 { e8 d8 e8 } d8 b4. |
+  
+  \tuplet 3/2 { r8 e8 e8 } \tuplet 3/2 { e8 d8 e8 } d8 b4. |
+  b'4 a4 b8 a8 b8 a8 | c2 r8 a8 c8 a8 | g4\fermata f2 g8 f8 |
+  e2\fermata c'4. gs8 | b8 a4.~ a2 |
+  
+
+  \rsq_"(a tempo piano fill)" \rsq \rsq \rsq | \rsq \rsq \rsq_"rit." \rsq |
+  \rsw\fermata | 
 
   \bar "|."
 }

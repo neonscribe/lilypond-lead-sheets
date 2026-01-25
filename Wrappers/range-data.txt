@@ -12215,6 +12215,11 @@ refrain
 c'
 g''
 
+I've Never Been in Love Before - Ly - Ab Baritone Voice.ly
+refrain
+aes
+des''
+
 I've Never Been in Love Before - Ly - Bb Bass for Standard.ly
 refrain
 bes,
@@ -12239,6 +12244,21 @@ I've Never Been in Love Before - Ly - Bb to G for Eb for Standard.ly
 refrain
 g'
 c'''
+
+I've Never Been in Love Before - Ly - F Alto Voice.ly
+refrain
+f
+bes'
+
+I've Never Been in Love Before - Ly - G Alto Voice.ly
+refrain
+g
+c''
+
+I've Never Been in Love Before - Ly - G Baritone Voice.ly
+refrain
+g
+c''
 
 If I Could Be With You - Ly - Eb Bass for Standard.ly
 refrain
@@ -14400,6 +14420,11 @@ King of the Road - Ly - Bb to G for Eb for Standard.ly
 refrain
 fis'
 dis'''
+
+King of the Road - Ly - D Alto Voice.ly
+refrain
+cis
+ais'
 
 Knee Deep in the Blues - Ly - A Baritone Voice.ly
 intro
@@ -18724,6 +18749,16 @@ On the Street Where You Live - Ly - Bb to G for Eb for Standard.ly
 refrain
 g'
 c'''
+
+On the Street Where You Live - Ly - C Baritone Voice.ly
+refrain
+c'
+f''
+
+On the Street Where You Live - Ly - F Alto Voice.ly
+refrain
+f
+bes'
 
 On the Sunny Side of the Street - Ly - Bb Alto Voice.ly
 refrain
@@ -24363,6 +24398,30 @@ The Lady Is a Tramp - Ly - G Alto Voice.ly
 refrain
 g
 a'
+
+The Lamp Is Low - Ly - C Bass for Standard.ly
+refrain
+none
+
+The Lamp Is Low - Ly - C Standard for Viola.ly
+refrain
+none
+
+The Lamp Is Low - Ly - C Standard.ly
+refrain
+none
+
+The Lamp Is Low - Ly - C to A for Eb for Standard.ly
+refrain
+none
+
+The Lamp Is Low - Ly - C to D for Bb High for Standard.ly
+refrain
+none
+
+The Lamp Is Low - Ly - C to D for Bb Low for Standard.ly
+refrain
+none
 
 The Late Late Show - Ly - Ab Bass for Standard.ly
 refrain
