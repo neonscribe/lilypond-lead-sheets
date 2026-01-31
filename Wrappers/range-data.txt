@@ -17104,6 +17104,16 @@ refrain
 g
 g'
 
+My Attorney Bernie - Ly - Gm Bass for Standard.ly
+
+My Attorney Bernie - Ly - Gm Standard for Viola.ly
+
+My Attorney Bernie - Ly - Gm Standard.ly
+
+My Attorney Bernie - Ly - Gm to Am for Bb for Standard.ly
+
+My Attorney Bernie - Ly - Gm to Em for Eb for Standard.ly
+
 My Baby Just Cares for Me - Ly - A Alto Voice.ly
 refrain
 f
@@ -24399,29 +24409,60 @@ refrain
 g
 a'
 
-The Lamp Is Low - Ly - C Bass for Standard.ly
+The Lamp Is Low - Ly - A Alto Voice.ly
 refrain
-none
+e
+fis'
 
-The Lamp Is Low - Ly - C Standard for Viola.ly
+The Lamp Is Low - Ly - Bb Alto Voice.ly
 refrain
-none
+f
+g'
 
-The Lamp Is Low - Ly - C Standard.ly
+The Lamp Is Low - Ly - C Alto Voice.ly
 refrain
-none
+g
+a'
 
-The Lamp Is Low - Ly - C to A for Eb for Standard.ly
+The Lamp Is Low - Ly - Eb Alto Voice.ly
 refrain
-none
+bes
+c''
 
-The Lamp Is Low - Ly - C to D for Bb High for Standard.ly
+The Lamp Is Low - Ly - Eb Baritone Voice.ly
 refrain
-none
+bes
+c''
 
-The Lamp Is Low - Ly - C to D for Bb Low for Standard.ly
+The Lamp Is Low - Ly - F Baritone Voice.ly
 refrain
-none
+c'
+d''
+
+The Lamp Is Low - Ly - G Bass for Standard.ly
+refrain
+d
+e'
+
+The Lamp Is Low - Ly - G Standard for Viola.ly
+refrain
+d
+e'
+
+The Lamp Is Low - Ly - G Standard.ly
+refrain
+d'
+e''
+
+The Lamp Is Low - Ly - G to A for Bb for Standard.ly
+refrain
+e'
+fis''
+
+The Lamp Is Low - Ly - G to E for Eb for Standard.ly
+refrain
+b
+cis''
 
 The Late Late Show - Ly - Ab Bass for Standard.ly
 refrain

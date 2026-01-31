@@ -7,7 +7,7 @@ instrument =
   instrument
   "Standard Key")
 
-#(set-global-staff-size 18)
+%%% #(set-global-staff-size 18)
 
 \header {
   title = "Good Morning Heartache"
@@ -21,9 +21,13 @@ refrainLyrics = \lyricmode {
 Good morn -- ing heart -- ache, you old gloom -- y sight,
 Good morn -- ing heart -- ache, thought we said good -- bye last night.
 I tossed and turned un -- til it seemed you had gone,
-
 but here you are with the dawn.
-_ _ _ _ _ _ _
+
+Wish I'd for -- get you but you're here to stay.
+It seems I met you when my love _ went a -- way.
+Now ev -- 'ry day I start by say -- ing to you,
+“Good morn -- ing heart -- ache, what's new?”
+
 Stop haunt -- ing me now. Can't shake you no -- how.
 Just leave me a -- lone,
 I've got those Mon -- day blues straight through Sun -- day blues.
@@ -34,19 +38,14 @@ Might as well get used to you hang -- in' a -- round.
 Good morn -- ing heart -- ache, sit down.
 }
 
-refrainLyricsTwo = \lyricmode {
-Wish I'd for -- get you but you're here to stay.
-It seems I met you when my love _ went a -- way.
-Now ev -- 'ry day I start by say -- ing to you,
-_ _ _ _ _ _ _
-“Good morn -- ing heart -- ache, what's new?”
-}
-
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   c2:m af2/c c2:m6 c2:m7 f2:maj7 bf2:maj7 a2:m7.5- d2:7.9-
   g2:m7 bf2:m7+ a2:m7 af2:m7
   
   g2:m7 c2:7.9+ f1:maj7
+  
+  c2:m af2/c c2:m6 c2:m7 f2:maj7 bf2:maj7 a2:m7.5- d2:7.9-
+  g2:m7 bf2:m7+ a2:m7 af2:m7
   
   g2:m7 c2:7.9+ f1:6
   
@@ -57,6 +56,27 @@ refrainChords = \chordmode {
   g2:m7 bf2:m7+ a2:m7 af2:m7 g2:m7 c2:7 f2:6
   \chordInsideParens{ g2:7.9- }
 }
+
+refrainNRChords = \chordmode {
+  c2:m af2/c c2:m6 c2:m7 f2:maj7 bf2:maj7 a4:m7.5- ef4:7 d2:7
+  g2:m7 bf4:m7+ ef4:9 a2:m7 af4:m7 df4:9
+  
+  g2:m7 c2:7.9+.5+ f1:maj7
+  
+  c2:m af2/c c2:m6 c2:m7 f2:maj7 bf2:maj7 a4:m7.5- ef4:7 d2:7
+  g2:m7 bf4:m7+ ef4:9 a2:m7 af4:m7 df4:9
+  
+  g2:m7 c4:7.9+.5+ c4:7.5+ f1:6
+  
+  e2:m11 a2:7.9+.5+ d1:m6 e2:m11 a2:7 d1:maj7
+  d2:m11 g2:7.9+.5+ c1:maj7 df4.:m11 gf8*5:7 c4.:m11 f8*5:7
+
+  c2:m af2/c c2:m6 c2:m7 f2:maj7 bf2:maj7 a4:m7.5- ef4:7 d2:7
+  g2:m7 bf4:m7+ ef4:9 a2:m7 af4:m7 df4:9 g2:m7 c2:13 f2:6
+  \chordInsideParens{ g2:7.9- }
+}
+
+refrainChords = \refrainNRChords
 
 refrainKey = f
 
@@ -76,25 +96,37 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad [Billie Holiday 1946]" 4 = 70
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectStart "A1"
   
-  \bar ".|:"
-  \repeat volta 2 {
   r8 c8 g'8 f8 ef8 c4. | c8 c8~ \tuplet 3/2 { c8 g'8 f8 } ef2 |
   r8 c8 a'8 g8 f8 c8~ \tuplet 3/2 { c8 a'8 bf8 } |
   c8 c8 bf8 c8 a2 |
-  r8 d,8 c'8 bf8 a8 g8 f8 e8 | e4 g8 e8 ef2 |
   \break
-  \alternative { \volta 1 {
+  r8 d,8 c'8 bf8 a8 g8 f8 e8 | e4 g8 e8 ef2 |
+
   r8 c8 c8 c8 ef8 c4 ef8 | c1 |
-  } \volta 2 {
-  r8 c8 c8 c8 ef8 c4 e8 | f1 |
-  } } }
-  \sect "B"
+
+  \sect "A2"
   
-  r4 a4 \tuplet 3/2 { c4 a4 c4 } | a1 | r4 a4 \tuplet 3/2 { cs4 a4 c4 } | a1 |
+  r8 c8 g'8 f8 ef8 c4. | c8 c8~ \tuplet 3/2 { c8 g'8 f8 } ef2 |
+  r8 c8 a'8 g8 f8 c8~ \tuplet 3/2 { c8 a'8 bf8 } |
+  c8 c8 bf8 c8 a2 |
+  \break
+  r8 d,8 c'8 bf8 a8 g8 f8 e8 | e4 g8 e8 ef2 |
+
+  r8 c8 c8 c8 ef8 c4 e8 | f1 |
+  \bar "||"
+
+  \xPageBreak
+
+  \sectNoBar "B"
+  
+  r4 a4 \tuplet 3/2 { c4 a4 c4 } | a1 |
+  \break
+  r4 a4 \tuplet 3/2 { cs4 a4 c4 } | a1 |
   \break
   r4 g4 \tuplet 3/2 { bf4 g4 bf4 } | g2. r8 g8 |
+  \break
   gf8 gf4 gf8~ gf8 af8 gf4 | f8 f4 f8~ f8 g8 f4 |
   
   \sect "A3"

@@ -37,15 +37,15 @@ but I'm a drop -- out
 who'd ra -- ther cop out
 Than run with all the sheep. __
 
-Hon -- ey chile, to -- night's the night,
+Hon -- ey Chile, to -- night's the night,
 and there's a car I can bor -- row
 till to -- mor -- row.
 We can swing till broad day -- light, __
 I've got a small __ day to -- mor -- row. __
 
-Hon -- ey chile, to -- night's the night,
+Hon -- ey Chile, to -- night's the night,
 and there's a car I can bor -- row till day af -- ter to -- mor -- row.
-We can swing right out of sight; we've got a long night and a small __
+We can swing right out of sight; we've got a big night and a small __
 day to -- mor -- row. __
 }
 
@@ -77,7 +77,7 @@ I've got a small __ day to -- mor -- row. __
 
 Hon -- ey Chile, to -- night's the night,
 and there's a car I can bor -- row till day af -- ter to -- mor -- row.
-We can swing right out of sight; we've got a long night and a small __
+We can swing right out of sight; we've got a big night and a small __
 day to -- mor -- row. __
 }
 
