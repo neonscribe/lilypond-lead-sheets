@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Eb for Standard Key"
+instrument = "Eb for Classic Real Book and Django Fake Book Key"
 whatKey = d'
 whatClef = "treble"
 

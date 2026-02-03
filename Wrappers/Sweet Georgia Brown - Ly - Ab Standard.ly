@@ -2,8 +2,8 @@
 
 \include "english.ly"
 
-instrument = "Classic Real Book and Django Fake Book Key for Viola"
-whatKey = f,
-whatClef = "alto"
+instrument = "Swing Era Standard Key"
+whatKey = af
+whatClef = "treble"
 
 \include "../Core/Sweet Georgia Brown - Ly Core - Ab.ly"

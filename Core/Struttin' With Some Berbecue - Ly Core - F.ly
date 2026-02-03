@@ -10,7 +10,7 @@ instrument =
 % #(set-global-staff-size 18)
 
 \header {
-  title = "Struttin' With Some Berbecue"
+  title = "Struttin' With Some Barbecue"
   subtitle = \instrument
   poet = ""
   composer = "Lil Armstrong"

@@ -4,14 +4,14 @@
 
 \include "english.ly"
 
-instrument = "Dave Frishberg Key"
-whatKey = g
+instrument = "Jessica Molaskey Key"
+whatKey = f
 whatClef = "treble"
 
 \include "../Core/My Attorney Bernie - Ly Core - Gm.ly"
 
 %{
 
-\song{My Attorney Bernie - Gm}{"../Standard/My Attorney Bernie - Ly - Gm Standard"}
+\song{My Attorney Bernie - Fm}{"../Alto Voice/My Attorney Bernie - Ly - Fm Alto Voice"}
 
 %}
