@@ -15,7 +15,7 @@ instrument =
   copyright = \markup \small { \now " " "© 1943" }
 }
 
-refrainLyrics = \lyricmode {
+refrainFemaleSingerLyrics = \lyricmode {
   It's all your fault if I'm not sleep -- in'.
   I live on dreams in -- stead of eat -- in'.
   I'm just a wreck and it's all your fault.
@@ -34,6 +34,31 @@ refrainLyrics = \lyricmode {
   Well, I'll just tell 'em it's all your fault.
   
 }
+
+refrainMaleSingerLyrics = \lyricmode {
+  It's all your fault if I'm not sleep -- in'.
+  I live on dreams in -- stead of eat -- in'.
+  I'm just a wreck and it's all your fault.
+  
+  Oh, it's all your fault if I'm not play -- in',
+  Hav -- in' fun and if I'm stay -- in'
+  all by my -- self well, it's all your fault.
+  
+  When you said that we were through
+  I tried to find some -- bo -- dy new.
+  But I found out it would -- n't do,
+  'Cause I'd ra -- ther be a -- lone than with some -- bo -- dy new.
+  
+  Oh, it's all your fault when I'm a grand -- pa
+  My grand -- kids don't call you grand -- ma.
+  Well, I'll just tell 'em it's all your fault.
+  
+}
+
+refrainLyrics =
+#(if (and (defined? 'maleSinger) maleSinger)
+  refrainMaleSingerLyrics
+  refrainFemaleSingerLyrics)
 
 refrainSimpleChords = \chordmode {
   s4

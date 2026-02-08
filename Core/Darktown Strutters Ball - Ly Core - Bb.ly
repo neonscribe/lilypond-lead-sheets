@@ -41,7 +41,7 @@ refrainiRealChords = \chordmode {
   f1:7 f1:7 bf1:6 f1:7
   bf1:6 bf1:6 c1:7 c1:7
   ef1:6 e1:dim7 bf1:6 g1:7
-  c1:7 f1:7 bf1:6 bf1:6
+  c1:7 f1:7 bf1:6 \chordInsideParens{ f1:7 }
 }
 
 refrainChords = \refrainiRealChords

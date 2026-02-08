@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Frank Sinatra Key"
+instrument = "Frank Sinatra, Sammy Davis Jr. Key"
 whatKey = df
 whatClef = "treble"
 

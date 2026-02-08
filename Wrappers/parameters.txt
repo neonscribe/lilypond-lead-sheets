@@ -12,6 +12,12 @@ If true, display lyrics, otherwise don't.
 -- Bernie's Tune
 -- Well You Needn't
 
+* noIntro
+
+If true, don't include the intro
+
+-- Lullaby of Birdland
+
 * withPianoAndBass
 
 If true, show exact voicings for piano and bass on the grand staff,
@@ -84,7 +90,8 @@ If true, lyrics in the first person (the singer of the song) are in
 the male gender, otherwise they are in the female gender. This is used
 by male singers of songs originally written for women.
 
-Black Coffee
+-- Black Coffee
+-- It's All Your Fault
 
 * useSimpleChords
 
@@ -95,8 +102,11 @@ chords from the Hal Leonard Real Books or the original sheet music.
 -- Besame Mucho
 -- Blue Christmas
 -- Bye Bye Blackbird
+-- Exactly Like You
+-- Honeysuckle Rose
 -- I'm an Old Cowhand
 -- Lady Be Good
+-- Lullaby of Birdland
 -- Samba de Orfeu
 -- Summertime
 
@@ -105,13 +115,17 @@ chords from the Hal Leonard Real Books or the original sheet music.
 If true, use chords from an alternate source. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
 
+-- All of Me
+-- Autumn Leaves
 -- Blue Moon
+-- A Hundred Years from Today
 
 * useFirehouseChords
 
 If true, use chords from the Firehouse Fake Book. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
 
+-- A Hundred Years from Today
 -- On the Alamo
 
 * useBillEvansChords

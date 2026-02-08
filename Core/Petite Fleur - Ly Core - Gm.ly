@@ -106,7 +106,7 @@ refrainHLChords = \chordmode {
   f1:7 f1:7 bf2.:maj7 ef4 d4:7 r2.
 
   d1:7 d1:7 g1:m7 g1:m7
-  a1:7 a1:7 d1:7 d1:7
+  a1:7 d1:7 g1:m7 g1:m7
 }
 
 refrainDjamChords = \chordmode {

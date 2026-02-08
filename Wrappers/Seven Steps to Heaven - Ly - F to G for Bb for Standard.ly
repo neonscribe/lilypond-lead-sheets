@@ -6,6 +6,7 @@
 
 instrument = "Bb for Standard Key"
 whatKey = g
+bassKey = g
 whatClef = "treble"
 
 \include "../Core/Seven Steps to Heaven - Ly Core - F.ly"

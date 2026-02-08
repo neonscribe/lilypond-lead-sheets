@@ -85,10 +85,28 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ g2:7 }
 }
 
+refrainSimpleChords = \chordmode {
+  c1 c1 d1:7 d1:7
+  g1:7 g1:7 c1:6 d2:m7 g2:7
+  
+  c1 c1 d1:7 d1:7
+  d1:m7 g1:7 c1 c2 c2:7
+  
+  f1:6 f1:m c1 c1
+  d1:m g1:7 c2 a2:7 d2:m7 g2:7
+
+  c1 c1 d1:7 d1:7
+  g1:7 g1:7 c1:6
+  \chordOpenParen{ d2:m7 }
+  \chordCloseParen{ g2:7 }
+}
+
 refrainChords = 
    $(if (and (defined? 'useDFBChords) useDFBChords)
      refrainDFBChords
-     refrainHLChords)
+     (if (and (defined? 'useSimpleChords) useSimpleChords)
+      refrainSimpleChords
+      refrainHLChords))
 
 refrainKey = c
 

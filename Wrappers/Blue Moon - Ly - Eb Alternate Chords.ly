@@ -14,6 +14,6 @@ useAlternateChords = ##t
 
 %{
 
-\song{Blue Moon - Eb}{"../Standard/Blue Moon - Ly - Eb Alternate Chords"}
+\song{Blue Moon - Eb}{"../Ohers/Blue Moon - Ly - Eb Alternate Chords"}
 
 %}

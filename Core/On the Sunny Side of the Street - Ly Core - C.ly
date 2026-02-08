@@ -83,7 +83,7 @@ refrainHLChords = \chordmode {
   \chordInsideParens{ g2:7 }
 }
 
-refrainChords = \refrainHLChords
+refrainChords = \refrainNewRealChords
 
 refrainKey = c
 

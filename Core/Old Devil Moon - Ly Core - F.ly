@@ -56,9 +56,7 @@ refrainChords = \chordmode {
   af2:m7 df2:7 gf2:maj7 c2:7 f1:maj7 ef1:maj7
   
   f1:maj7 ef1:maj7 f1:maj7 ef1:maj7
-  f2:maj7 ef2:maj f2:maj7 ef2:maj f1:maj7
-  \chordOpenParen{ g2:m7 }
-  \chordCloseParen{ c2:7 }
+  f2:maj7 ef2:maj f2:maj7 ef2:maj f1:maj7 ef1:maj7
   
   f1:maj7 ef1:maj7 f1:maj7 ef1:maj7
   f2:maj7 ef2:maj7 f2:maj7 ef2:maj7 f1:maj7 f1:maj7
@@ -121,7 +119,7 @@ refrainMelody = \relative f' {
   f2 f2~ | f2 ef8 c8 ef4 | f1~ | f2 \tuplet 3/2 { ef'4 ef4 ef4 } |
   \break
 
-  c2 \tuplet 3/2 { bf4 c4 bf4 } | a2 \tuplet 3/2 { f4 ef4 g4 } | c1~ | c2 r2 \textToCodaLastTime |
+  c2 \tuplet 3/2 { bf4 c4 bf4 } | a2 \tuplet 3/2 { f4 ef4 e4 } | f1~ | f2 r2 \textToCodaLastTime |
   \bar ".|:-|."
 
   \textCodaBreak
@@ -132,7 +130,7 @@ refrainMelody = \relative f' {
     r1 |
   }
   r1 | 
-  r2 \tuplet 3/2 { ef4 ef4 ef4 } |
+  r2 \tuplet 3/2 { ef'4 ef4 ef4 } |
   \break
   c2 \tuplet 3/2 { bf4 c4 bf4 } | a2 \tuplet 3/2 { f4 ef4 g4 } | c1~ | c2 r2 |
 

@@ -56,7 +56,25 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ g2:7 }
 }
 
-refrainChords = \refrainHLChords
+refrainAlternateChords = \chordmode {
+  c1:6 c1:6 e1:7 e1:7
+  a1:7 a1:7 d1:m7 d1:m7
+  e1:7 e1:7 a1:m7 a1:m7
+  d1:7 d1:7 d1:m7 g1:7
+  
+  c1:6 c1:6 e1:7 e1:7
+  a1:7 a1:7 d1:m7 d1:m7
+  f1:6 f1:m6 e1:m7 a1:7
+  d1:m7 g1:7 c2:6
+  \chordOpenParen{ ef2:dim7 }
+  d2:m7
+  \chordCloseParen{ g2:7 }
+}
+
+refrainChords = 
+   $(if (and (defined? 'useAlternateChords) useAlternateChords)
+     refrainAlternateChords
+     refrainHLChords)
 
 refrainKey = c
 

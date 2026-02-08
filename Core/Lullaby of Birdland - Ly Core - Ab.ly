@@ -36,6 +36,8 @@ introMelody = \relative c' {
   f8 f8 f8 f8 g4 g4 | ef4 ef8 f8~ f4 r4 | df8 df8 df8 df8 ef4 ef8 c8~ | c2. r4 |
   
   \bar "||"
+  
+  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -51,7 +53,7 @@ refrainLyrics = \lyricmode {
 
 %%% Real Book 6th chords
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   f2:m d2:m7.5- g2:7.9- c2:7 f2:m d2:m7.5- bf2:m7 ef2:7
   af2:maj7 f2:m7 bf2:m7 ef2:7 af1:maj7 g2:m7.5- c2:7
   
@@ -64,6 +66,26 @@ refrainChords = \chordmode {
   f2:m d2:m7.5- g2:7.9- c2:7 f2:m d2:m7.5- bf2:m7 ef2:7
   af2:maj7 f2:m7 bf2:m7 ef2:7 af2:maj7 ef4.:7 af8:6 af1:6
   }
+
+refrainiRealChords = \chordmode {
+  f2:m d2:m7.5- g2:7 c2:7 f1:m bf2:m7 ef2:7
+  c2:m7 f2:m7 bf2:m7 ef2:7 af1:maj7 g2:m7.5- c2:7.9-
+  
+  f2:m d2:m7.5- g2:7 c2:7 f1:m bf2:m7 ef2:7
+  c2:m7 f2:m7 bf2:m7 ef2:7 af2:maj7 ef2:7 af1:6
+  
+  c2:m7.5- f2:7.9- bf1:m7 bf2:m7 ef2:7.9- af1:maj7
+  c2:m7.5- f2:7.9- bf1:m7 bf2:m7 ef2:7.9- af2:maj7 c2:7.9-
+  
+  f2:m d2:m7.5- g2:7 c2:7 f1:m bf2:m7 ef2:7
+  c2:m7 f2:m7 bf2:m7 ef2:7 af2:maj7 ef2:7 af2:6
+  \chordOpenParen{ g4:m7.5- }
+  \chordCloseParen{ c4:7 }
+}
+
+refrainChords = #(if (and (defined? 'useSimpleChords) useSimpleChords)
+		  refrainiRealChords
+		  refrainHLChords)
 
 refrainKey = af
 
@@ -118,6 +140,11 @@ refrainMelody = \relative c' {
   \vspace #1
 }
 
-\include "../Include/intro.ily"
-\pageBreak
+introInclude =
+#(if (and (defined? 'noIntro) noIntro)
+  "../Include/nothing.ily"
+  "../Include/intro.ily")
+
+\include \introInclude
+
 \include "../Include/refrain.ily"

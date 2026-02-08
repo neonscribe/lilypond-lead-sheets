@@ -41,7 +41,7 @@ hun -- dred years from to -- day.
 a hun -- dred years from to -- day.
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:7 bf2:7.5+
   ef2:maj7 c2:m7 f2:m7 af2:m6 f1:7 bf2:7 bf2:7.5+
 
@@ -56,6 +56,45 @@ refrainChords = \chordmode {
 
   f2:7 bf2:7 g2:m7.5- c2:7 f2:7 bf2:7 ef2:6
 }
+
+refrainFirehouseChords = \chordmode {
+  ef2 c2:m f2:m bf2:7 ef2 c2:m f2:m bf2:aug
+  ef2 c2:m af2 af2:m f1:7 bf2:7 bf2:aug
+
+  ef2 c2:m f2:m bf2:7 ef2 c2:m f2:m bf2:aug
+  ef2 c2:m af2 af2:m f2:7 bf2:7 ef1
+  
+  bf2:m7 ef2:7 bf2:m7 ef2:7 af2 ef2:aug af1:maj7
+  f1:7 f1:7 bf2:7 b2:9 bf2:7 bf2:aug
+
+  ef2 c2:m f2:m bf2:7 ef2 c2:m f2:m bf2:aug
+  ef2 c2:m af2 af2:m f2:7 bf2:7 ef2 bf2:9.5+
+
+  f2:7 bf2:7 ef2 c2:7 f2:7 bf2:7 ef1
+}
+
+refrainSimpleChords = \chordmode {
+  ef2 c2:m f2:m bf2:7 ef2 c2:m f2:m bf2:aug
+  ef2 c2:m af2 af2:m7 f1:7 bf1:7
+
+  ef2 c2:m f2:m bf2:7 ef2 c2:m f2:m bf2:aug
+  ef2 c2:m af2 af2:m7 f2:7 bf2:7 ef1
+  
+  bf2:m ef2:7 bf2:m7 ef2:7 af1:maj7 af1:6
+  c2:m f2:7 c2:m f2:7 bf2:7 bf2:dim bf1:7
+
+  ef2 c2:m f2:m bf2:7 ef2 c2:m f2:m bf2:aug
+  ef2 c2:m af2 af2:m7 f2:7 bf2:7 ef1
+
+  f2:7 bf2:7 ef2 c2:7 f2:7 bf2:7 ef1
+}
+
+refrainChords =
+$(if (and (defined? 'useFirehouseChords) useFirehouseChords)
+  refrainFirehouseChords
+  (if (and (defined? 'useSimpleChords) useSimpleChords)
+   refrainSimpleChords
+   refrainHLChords))
 
 refrainKey = ef
 

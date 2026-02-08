@@ -6,4 +6,6 @@ instrument = "Cannonball Adderley and Miles Davis Key"
 whatKey = g
 whatClef = "treble"
 
+useAlternateChords = ##t
+
 \include "../Core/Autumn Leaves - Ly Core - Gm.ly"

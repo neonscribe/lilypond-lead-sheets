@@ -38,11 +38,13 @@ refrainChords = \chordmode {
   a1:m a1:m/gs a1:m/g a1:m/fs
   c2 a2:7 d2:m7 g2:7 c1 c1
   
-  c1 f2:m6 c2 f2:m c2 g2:7 c2
+  c1 f2:m6 c2 f2:m6 c2 g2:7 c2
   c1 f2:m6 c2 f2:m6 c2 b2:m7.5- e2:7.5+
 
   a1:m a1:m/gs a1:m/g a1:m/fs
-  c2 a2:7 d2:m7 g2:7 c1 b2:m7.5- e2:7
+  c2 a2:7 d2:m7 g2:7 c1
+  \chordOpenParen{ b2:m7.5- }
+  \chordCloseParen{ e2:7 }
   \set chordChanges = ##f
 }
 

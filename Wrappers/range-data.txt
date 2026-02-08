@@ -325,6 +325,11 @@ refrain
 g
 a'
 
+A Hundred Years From Today - Ly - G Bass for Alto Voice.ly
+refrain
+g,
+a
+
 A Kiss to Build a Dream On - Ly - C Bass for Standard.ly
 refrain
 c
@@ -499,6 +504,16 @@ After You've Gone - Ly - C Alto Voice.ly
 refrain
 dis
 f'
+
+After You've Gone - Ly - C Bass for Django Chords.ly
+refrain
+dis
+f'
+
+After You've Gone - Ly - C Django Chords.ly
+refrain
+dis'
+f''
 
 After You've Gone - Ly - C Standard for Viola.ly
 refrain
@@ -859,6 +874,16 @@ All Blues - Ly - G to E for Eb for Standard.ly
 refrain
 b
 b'
+
+All of Me - Ly - C Alternate Chords.ly
+refrain
+d'
+e''
+
+All of Me - Ly - C Bass for Alternate Chords.ly
+refrain
+d
+e'
 
 All of Me - Ly - C Bass for Standard.ly
 refrain
@@ -1979,6 +2004,16 @@ Autumn Leaves - Ly - Dm to Em for Bb for Alto Voice.ly
 refrain
 b
 d''
+
+Autumn Leaves - Ly - Em Alternate Chords.ly
+refrain
+b
+d''
+
+Autumn Leaves - Ly - Em Bass for Alternate Chords.ly
+refrain
+b,
+d'
 
 Autumn Leaves - Ly - Em Bass for Standard.ly
 refrain
@@ -4282,6 +4317,11 @@ refrain
 f
 bes'
 
+Can't We Be Friends - Ly - C Alto Voice.ly
+refrain
+g
+c''
+
 Can't We Be Friends - Ly - Db Baritone Voice.ly
 refrain
 aes
@@ -5736,6 +5776,16 @@ Darktown Strutters Ball - Ly - Eb Alto Voice.ly
 refrain
 ees
 g'
+
+Darktown Strutters Ball - Ly - G Bass for Standard.ly
+refrain
+g,
+b
+
+Darktown Strutters Ball - Ly - G Standard.ly
+refrain
+g'
+b''
 
 Darn That Dream - Ly - C Alto Voice.ly
 refrain
@@ -7701,12 +7751,22 @@ refrain
 c
 g'
 
+Exactly Like You - Ly - C Bass for Simple Chords.ly
+refrain
+c
+g'
+
 Exactly Like You - Ly - C Bass for Standard.ly
 refrain
 c
 g'
 
 Exactly Like You - Ly - C DFB.ly
+refrain
+c'
+g''
+
+Exactly Like You - Ly - C Simple Chords.ly
 refrain
 c'
 g''
@@ -9389,6 +9449,16 @@ b
 c''
 
 Honeysuckle Rose - Ly - F to G for Bb for Standard.ly
+refrain
+e'
+f''
+
+Honeysuckle Rose - Ly - G Bass for Standard.ly
+refrain
+e
+f'
+
+Honeysuckle Rose - Ly - G Standard.ly
 refrain
 e'
 f''
@@ -14511,6 +14581,11 @@ refrain
 f
 g'
 
+Lady Be Good - Ly - G Bass for Simple Chords.ly
+refrain
+d
+e'
+
 Lady Be Good - Ly - G Bass for Standard.ly
 refrain
 d
@@ -15939,6 +16014,24 @@ refrain
 a'
 c'''
 
+Lullaby of Birdland - Ly - C Alto Voice.ly
+intro
+e
+b
+refrain
+e
+g'
+
+Lullaby of Birdland - Ly - C Bass for No Intro.ly
+refrain
+e,
+g
+
+Lullaby of Birdland - Ly - C No Intro.ly
+refrain
+e
+g'
+
 Lullaby of Birdland - Ly - D Alto Voice.ly
 intro
 fis
@@ -17104,15 +17197,45 @@ refrain
 g
 g'
 
+My Attorney Bernie - Ly - Dm Alto Voice.ly
+refrain
+a
+g'
+
+My Attorney Bernie - Ly - Em Alto Voice.ly
+refrain
+b
+a'
+
+My Attorney Bernie - Ly - Fm Alto Voice.ly
+refrain
+c'
+bes'
+
 My Attorney Bernie - Ly - Gm Bass for Standard.ly
+refrain
+d
+c'
 
 My Attorney Bernie - Ly - Gm Standard for Viola.ly
+refrain
+d
+c'
 
 My Attorney Bernie - Ly - Gm Standard.ly
+refrain
+d'
+c''
 
 My Attorney Bernie - Ly - Gm to Am for Bb for Standard.ly
+refrain
+e'
+d''
 
 My Attorney Bernie - Ly - Gm to Em for Eb for Standard.ly
+refrain
+b
+a'
 
 My Baby Just Cares for Me - Ly - A Alto Voice.ly
 refrain
@@ -18809,6 +18932,11 @@ On the Sunny Side of the Street - Ly - F Alto Voice.ly
 refrain
 f
 a'
+
+On the Sunny Side of the Street - Ly - F Bass for Alto Voice.ly
+refrain
+f,
+a
 
 On the Sunny Side of the Street - Ly - G Alto Voice.ly
 refrain
@@ -20825,28 +20953,28 @@ g'
 
 Seven Steps to Heaven - Ly - F Bass for Standard.ly
 refrain
-ees,
-c''
+b,
+des'
 
 Seven Steps to Heaven - Ly - F Standard for Viola.ly
 refrain
-ees
-c'''
+b
+des''
 
 Seven Steps to Heaven - Ly - F Standard.ly
 refrain
-ees
-c'''
+b
+des''
 
 Seven Steps to Heaven - Ly - F to D for Eb for Standard.ly
 refrain
-c'
-a'''
+gis'
+bes''
 
 Seven Steps to Heaven - Ly - F to G for Bb for Standard.ly
 refrain
-f
-d'''
+cis'
+ees''
 
 She's Funny That Way - Ly - Bb Alto Voice.ly
 refrain
@@ -23080,10 +23208,15 @@ refrain
 c'
 g''
 
+Summertime - Ly - Am Bass for Gil Evans Chords.ly
+refrain
+e,
+e
+
 Summertime - Ly - Am Bass for Standard.ly
 refrain
+e,
 e
-e'
 
 Summertime - Ly - Am Gil Evans Chords.ly
 refrain
@@ -23250,6 +23383,26 @@ refrain
 e
 g'
 
+Sweet Georgia Brown - Ly - Ab Bass for Standard.ly
+refrain
+ees
+f'
+
+Sweet Georgia Brown - Ly - Ab Standard.ly
+refrain
+ees'
+f''
+
+Sweet Georgia Brown - Ly - Ab to Bb for Bb for Standard.ly
+refrain
+f'
+g''
+
+Sweet Georgia Brown - Ly - Ab to F for Eb for Standard.ly
+refrain
+c'
+d''
+
 Sweet Georgia Brown - Ly - Bb Alto Voice.ly
 refrain
 f
@@ -23276,6 +23429,11 @@ a'
 b''
 
 Sweet Georgia Brown - Ly - F to G for Bb for Standard.ly
+refrain
+d'
+e''
+
+Sweet Georgia Brown - Ly - G Standard.ly
 refrain
 d'
 e''
@@ -23654,6 +23812,11 @@ Tennessee Waltz - Ly - F Alto Voice.ly
 refrain
 f
 c''
+
+Tennessee Waltz - Ly - F Bass for Alto Voice.ly
+refrain
+f,
+c'
 
 Tenor Madness - Ly - Bb Bass for Standard.ly
 refrain
@@ -26851,8 +27014,8 @@ b'
 
 Wave - Ly - D Bass for Standard.ly
 refrain
-d
-b'
+d,
+b
 
 Wave - Ly - D Standard for Viola.ly
 refrain
@@ -27298,6 +27461,11 @@ When You Wish Upon a Star - Ly - Ab Alto Voice.ly
 refrain
 ees
 bes'
+
+When You Wish Upon a Star - Ly - Ab Bass for Alto Voice.ly
+refrain
+ees,
+bes
 
 When You Wish Upon a Star - Ly - Bb Alto Voice.ly
 refrain

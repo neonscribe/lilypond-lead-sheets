@@ -175,9 +175,9 @@ refrainMelody = \relative f' {
   \ambitusOff
 
   r8 <bf' d>4 <a cs>8 <af c>4 <g b>8 <af bf>8~ | <af bf>8 <af g'>4 f'8 <af, g'>4 <af f'>4 \textToCodaLastTime |
-  r8 <g bf>4 <fs a>8 <f af>4 <e g>8 <ds fs>8~ | <ds fs>8 <fs f'>4 ef'8 <fs, f'>4 
-  \textMark \markup \large \bold "      3x"
-  <fs ef'>4 |
+  r8 <g bf>4 <fs a>8 <f af>4 <e g>8 <ds fs>8~ | <ds fs>8 <fs f'>4 ef'8 <fs, f'>4 <fs ef'>4
+  \xTextEndMark "3x"
+  |
   }
   \bar "||-:|."
 

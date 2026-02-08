@@ -17,12 +17,15 @@ instrument =
   copyright = \markup \small { \now " " "© 1963 Jazz Horn Music Corporation" }
 }
 
-refrainChords = \chordmode {
+introChords = \chordmode {
   s4
   
-  r1 r1
-  
+  \chordInsideParens{ f1:13 } \chordInsideParens{ ef1:13 }
+
   f1:13 ef1:13
+}
+
+refrainChords = \chordmode {
   
   f2:maj7 bf2:maj7 e2:m7 a2:7 d2:m7+ af4.:7 g8:7 r1 r1 r1 ef2:6 e4.:6 f8:6 r1
   
@@ -50,6 +53,7 @@ refrainChords = \chordmode {
   f1:13
 }
 
+introKey = f
 refrainKey = f
 
 whatKey =
@@ -62,7 +66,7 @@ whatClef =
   whatClef
   "treble")
 
-refrainMelody = \relative f' {
+bassIntro = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef bass
@@ -82,14 +86,21 @@ refrainMelody = \relative f' {
   \repeat volta 4 {
   r4 <d ef g c c'>4 r8 <d ef g c c'>8 r4 |
   r4 <c df f c' c'>4 r8 <c df f c' c'>8 r4 
-  \xTextEndMark "play 4x"
+  \xTextEndMark "4x"
   |
   }
-  \bar ":..:"
+  \bar ":|."
+}
+
+refrainMelody = \relative f' {
+  \time 4/4
+  \key \refrainKey \major
+  \clef \whatClef
 
   \segnoSign
   \sectNoBar "A1,A2"
   
+  \bar ".|:"
   \repeat volta 2 {
   c'4 r4 f,4 r4 | a4 r4 g4 r4 | f2 f4. f8 | r1 | r1 | r1 | f2 f4. f8 | r1 |
   }
@@ -107,6 +118,8 @@ refrainMelody = \relative f' {
 
   \sectNoBar "C"
 
+  \ambitusOff
+
   \bar ".|:-||"
   \repeat volta 3 {
   r4 <d ef g c c'>4 r8 <d ef g c c'>8 r4 |
@@ -118,6 +131,9 @@ refrainMelody = \relative f' {
   r4 <d ef g c c'>4 r8 <d ef g c c'>8 r4 | r4 <c df f c' c'>4 r8 <c df f c' c'>8 r4 |
 
   \bar ".|:-||"
+
+  \ambitusOn
+
   \xPageBreak
 
   \sectNoBar "Solos"
@@ -152,6 +168,9 @@ refrainMelody = \relative f' {
   \xTextEndMark "play 4x"
   |
   }
+
+  \ambitusOff
+
   \repeat volta 6 {
   r4 <d ef g c c'>4 r8 <d ef g c c'>8 r4 |
   r4 <c df f c' c'>4 r8 <c df f c' c'>8 r4
@@ -159,6 +178,8 @@ refrainMelody = \relative f' {
   |
   }
   r1\fermata |
+
+  \ambitusOn
 
   \bar "|."
 }
@@ -169,5 +190,7 @@ refrainMelody = \relative f' {
   % Leave a gap after the header
   \vspace #1
 }
+
+\include "../Include/bass-intro.ily"
 
 \include "../Include/refrain.ily"

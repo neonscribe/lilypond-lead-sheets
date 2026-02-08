@@ -26,7 +26,7 @@ refrainLyrics = \lyricmode {
   When au -- tumn leaves start to fall.
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   s2.
   
   c1:m7 f1:7 bf1:maj7 ef1:maj7
@@ -38,9 +38,30 @@ refrainChords = \chordmode {
   a1:m7.5- d1:7.9- g1:m g1:m
   c1:m7 f1:7 bf1:maj7 ef1:maj7
 
-  a1:m7.5- d1:7.9- g2:m7 c2:7 f2:m7 bf2:6
+  a1:m7.5- d1:7.9- g2:m7 c2:7 f2:m7 bf2:7
   a1:m7.5- d1:7.9- g1:m g1:m
 }
+
+refrainNRChords = \chordmode {
+  s2.
+  
+  c1:m7 f1:7 bf1:maj7 ef1:maj7
+  a1:m7.5- d1:7 g1:m g1:m
+
+  c1:m7 f1:7 bf1:maj7 ef1:maj7
+  a1:m7.5- d1:7 g1:m g4:m r2.
+  
+  a1:m7.5- d1:7 g1:m g1:m
+  c1:m7 f1:7 bf1:maj7 ef1:maj7
+
+  a1:m7.5- d1:7 g2:m7 c2:9 f2:m7 bf2:7
+  ef1:maj7 a2:m7.5- d2:7.5+ g1:m \chordInsideParens{ g1:7 }
+}
+
+refrainChords = 
+   $(if (and (defined? 'useAlternateChords) useAlternateChords)
+     refrainNRChords
+     refrainHLChords)
 
 refrainKey = g
 

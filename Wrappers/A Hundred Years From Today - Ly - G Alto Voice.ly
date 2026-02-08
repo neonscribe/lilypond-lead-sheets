@@ -4,9 +4,11 @@
 
 \include "english.ly"
 
-instrument = "Doris Day, Rosemary Clooney Key"
+instrument = "Doris Day, Rosemary Clooney Key Simple Chords"
 whatKey = g,
 whatClef = "treble_8"
+
+useSimpleChords = ##t
 
 \include "../Core/A Hundred Years From Today - Ly Core - Eb.ly"
 

@@ -31,7 +31,7 @@ When I'm tak -- in' sips from your tas -- ty lips, Seems the hon -- ey fair -- l
 You're con -- fec -- tion good -- ness knows, __ Hon -- ey -- suck -- le Rose. __
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   g2:m7 c2:7 g2:m7 c2:7 g1:m7 c1:7
   f2:6 f2:7/a bf2:maj7 b2:m7.5-
 
@@ -50,6 +50,49 @@ refrainChords = \chordmode {
   a2:m7
   \chordCloseParen{ af2:m7 }
 }
+
+refrainNRTwoChords = \chordmode {
+  g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7
+  f2:6 f2:7/a bf2:6 c2:7
+
+  f2:6 bf2:7 a2:m7 d2:7
+
+  g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7
+  f2:6 f2:7/a bf2:6 c2:7
+
+  f2:6 \chordInsideParens{ c2:7 } f1:6
+
+  f1:7 c2:m7 f2:7 bf1:6 bf1:6 g1:7 g1:7 c1:7 c1:7
+  
+  g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7
+  f2:6 f2:7/a bf2:6 c2:7 f1:6
+  \chordOpenParen{ a2:m7 }
+  \chordCloseParen{ d2:7 }
+}
+
+refrainSimpleChords = \chordmode {
+  g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7
+  f2:6 f2:7/a bf2:6 c2:7
+
+  f2:6 bf2:7 a2:m7 d2:7
+
+  g2:m7 c2:7 g2:m7 c2:7 g1:m7 c1:7
+  f2:6 f2:7/a bf2:6 c2:7
+
+  f1:6 f1:6
+
+  f1:7 f1:7 bf1:6 bf1:6 g1:7 g1:7 c1:7 c1:7
+  
+  g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7
+  f2:6 f2:7/a bf2:6 c2:7 f2:6
+  \chordOpenParen{ bf2:7 }
+  a2:m7
+  \chordCloseParen{ d2:7 }
+}
+
+refrainChords = #(if (and (defined? 'useSimpleChords) useSimpleChords)
+		  refrainSimpleChords
+		  refrainHLChords)
 
 refrainKey = f
 
