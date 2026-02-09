@@ -1,30 +1,37 @@
+[
 { "name": "lyricsLanguage",
+  "category": "language",
   "description": "Lyrics language",
   "values": ["portuguese", "english", "french"],
-  "songs": ["Agua de Beber"] }
+  "songs": ["Agua de Beber"] },
 
 { "name": "lyricsLanguage",
+  "category": "language",
   "description": "Lyrics language",
   "values": ["french", "english"],
-  "songs": ["C'est Si Bon"] }
+  "songs": ["C'est Si Bon"] },
 
 { "name": "showLyrics",
+  "category": "structure",
   "description": "Show lyrics",
   "values": [false, true],
   "songs": ["Bernie's Tune",
-	    "Well You Needn't"] }
+	    "Well You Needn't"] },
 
 { "name": "noIntro",
+  "category": "structure",
   "description": "Don't show intro",
   "values": [false, true],
-  "songs": ["Lullaby of Birdland"] }
+  "songs": ["Lullaby of Birdland"] },
 
 { "name": "withPianoAndBass",
+  "category": "structure",
   "description": "Show piano and bass parts",
   "values": [false, true],
-  "songs": ["A Child Is Born"] }
+  "songs": ["A Child Is Born"] },
 
 { "name": "objectGenderMale",
+  "category": "gender",
   "description": "About a man",
   "values": [false, true],
   "songs": ["Ain't She Sweet",
@@ -52,9 +59,16 @@
 	    "Only Trust Your Heart",
 	    "She's Funny That Way",
 	    "Sweet and Lovely",
-	    "Wait Till You See Her (Him)"] }
+	    "Wait Till You See Her (Him)"] },
+
+{ "name": "objectGenderFemale",
+  "category": "gender",
+  "description": "About a man",
+  "values": [false, true],
+  "songs": ["Crazy He Calls Me"] },
 
 { "name": "femaleSinger",
+  "category": "gender",
   "description": "Sung by a woman",
   "values": [false, true],
   "songs": ["Blues in the Night",
@@ -66,13 +80,14 @@
 	    "Stella by Starlight",
 	    "The Frim Fram Sauce",
 	    "The Very Thought of You",
-	    "Walkin' My Baby Back Home"] }
+	    "Walkin' My Baby Back Home"] },
 
 { "name": "maleSinger",
+  "category": "gender",
   "description": "Sung by a man",
   "values": [false, true],
   "songs": ["Black Coffee",
-	    "It's All Your Fault"] }
+	    "It's All Your Fault"] },
 
 { "name": "useSimpleChords",
   "description": "Use simple chords",
@@ -87,30 +102,44 @@
 	    "Lady Be Good",
 	    "Lullaby of Birdland",
 	    "Samba de Orfeu",
-	    "Summertime"] }
+	    "Summertime"] },
+
+{ "name": "useAlternateChords",
+  "category": "chords",
+  "description": "Use alternate chords",
+  "values": [false, true],
+  "songs": ["All of Me",
+	    "Autumn Leaves",
+	    "Blue Moon",
+	    "A Hundred Years from Today"] },
 
 { "name": "useFirehouseChords",
+  "category": "chords",
   "description": "Use Firehouse Jazz Band Fake Book chords",
   "values": [false, true],
   "songs": ["A Hundred Years from Today",
-	    "On the Alamo"] }
+	    "On the Alamo"] },
 
 { "name": "useBillEvansChords",
+  "category": "chords",
   "description": "Use Bill Evans chords",
   "values": [false, true],
-  "songs": ["Spring Is Here"] }
+  "songs": ["Spring Is Here"] },
 
 { "name": "useNOJamChords",
+  "category": "chords",
   "description": "Use New Orleans Jam Book chords",
   "values": [false, true],
-  "songs": ["River Stay Way From My Door"] }
+  "songs": ["River Stay Way From My Door"] },
 
 { "name": "useNicoChords",
+  "category": "chords",
   "description": "Use Nico Lovejoy chords",
   "values": [false, true],
-  "songs": ["River Stay Way From My Door"] }
+  "songs": ["River Stay Way From My Door"] },
 
 { "name": "useDFBChords",
+  "category": "chords",
   "description": "Use Django Fake Book chords",
   "values": [false, true],
   "songs": ["After You've Gone",
@@ -119,9 +148,11 @@
 	    "I Can't Give You Anything but Love",
 	    "If I Only Had a Brain",
 	    "Smile",
-	    "The Jitterbug Waltz"] }
+	    "The Jitterbug Waltz"] },
 
 { "name": "useDFBVersion",
+  "category": "chords",
   "description": "Use Django Fake Book chords and melody",
   "values": [false, true],
   "songs": ["Coquette"] }
+]
