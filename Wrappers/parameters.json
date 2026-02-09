@@ -1,0 +1,127 @@
+{ "name": "lyricsLanguage",
+  "description": "Lyrics language",
+  "values": ["portuguese", "english", "french"],
+  "songs": ["Agua de Beber"] }
+
+{ "name": "lyricsLanguage",
+  "description": "Lyrics language",
+  "values": ["french", "english"],
+  "songs": ["C'est Si Bon"] }
+
+{ "name": "showLyrics",
+  "description": "Show lyrics",
+  "values": [false, true],
+  "songs": ["Bernie's Tune",
+	    "Well You Needn't"] }
+
+{ "name": "noIntro",
+  "description": "Don't show intro",
+  "values": [false, true],
+  "songs": ["Lullaby of Birdland"] }
+
+{ "name": "withPianoAndBass",
+  "description": "Show piano and bass parts",
+  "values": [false, true],
+  "songs": ["A Child Is Born"] }
+
+{ "name": "objectGenderMale",
+  "description": "About a man",
+  "values": [false, true],
+  "songs": ["Ain't She Sweet",
+	    "Almost Blue",
+	    "Avalon",
+	    "Bei Mir Bist Du Schoen",
+	    "Beyond the Sea",
+	    "Change Partners",
+	    "Day Dream",
+	    "Detour Ahead",
+	    "Gee Baby Ain't I Good to You",
+	    "Hallelujah I Love Her So",
+	    "Have You Met Miss Jones",
+	    "He'll Have to Go",
+	    "How Insensitive",
+	    "I Guess I'll Hang My Tears Out to Dry",
+	    "I've Found a New Baby",
+	    "In the Wee Small Hours of the Morning",
+	    "Is You Is or Is You Ain't (Ma' Baby)",
+	    "It's All Right With Me",
+	    "My Baby Just Cares for Me",
+	    "My Foolish Heart",
+	    "My Ideal",
+	    "Oh, Lonesome Me Four",
+	    "Only Trust Your Heart",
+	    "She's Funny That Way",
+	    "Sweet and Lovely",
+	    "Wait Till You See Her (Him)"] }
+
+{ "name": "femaleSinger",
+  "description": "Sung by a woman",
+  "values": [false, true],
+  "songs": ["Blues in the Night",
+	    "City Lights",
+	    "Give Me the Simple Life",
+	    "I Had the Craziest Dream",
+	    "I'll Be Around",
+	    "Small Day Tomorrow",
+	    "Stella by Starlight",
+	    "The Frim Fram Sauce",
+	    "The Very Thought of You",
+	    "Walkin' My Baby Back Home"] }
+
+{ "name": "maleSinger",
+  "description": "Sung by a man",
+  "values": [false, true],
+  "songs": ["Black Coffee",
+	    "It's All Your Fault"] }
+
+{ "name": "useSimpleChords",
+  "description": "Use simple chords",
+  "values": [false, true],
+  "songs": ["At Sundown",
+	    "Besame Mucho",
+	    "Blue Christmas",
+	    "Bye Bye Blackbird",
+	    "Exactly Like You",
+	    "Honeysuckle Rose",
+	    "I'm an Old Cowhand",
+	    "Lady Be Good",
+	    "Lullaby of Birdland",
+	    "Samba de Orfeu",
+	    "Summertime"] }
+
+{ "name": "useFirehouseChords",
+  "description": "Use Firehouse Jazz Band Fake Book chords",
+  "values": [false, true],
+  "songs": ["A Hundred Years from Today",
+	    "On the Alamo"] }
+
+{ "name": "useBillEvansChords",
+  "description": "Use Bill Evans chords",
+  "values": [false, true],
+  "songs": ["Spring Is Here"] }
+
+{ "name": "useNOJamChords",
+  "description": "Use New Orleans Jam Book chords",
+  "values": [false, true],
+  "songs": ["River Stay Way From My Door"] }
+
+{ "name": "useNicoChords",
+  "description": "Use Nico Lovejoy chords",
+  "values": [false, true],
+  "songs": ["River Stay Way From My Door"] }
+
+{ "name": "useDFBChords",
+  "description": "Use Django Fake Book chords",
+  "values": [false, true],
+  "songs": ["After You've Gone",
+	    "Ain't Misbehavin'",
+	    "Exactly Like You",
+	    "I Can't Give You Anything but Love",
+	    "If I Only Had a Brain",
+	    "Smile",
+	    "The Jitterbug Waltz"] }
+
+{ "name": "useDFBVersion",
+  "description": "Use Django Fake Book chords and melody",
+  "values": [false, true],
+  "songs": ["Coquette"] }
