@@ -75,32 +75,32 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Bossa [João Gilberto 1960]" 4 = 156
 
-  \xTextMark \markup{ \bold \box "A1, A2" }
+  \sectStart "A1, A2"
   
   \bar ".|:"
   \repeat volta 2 {
   a1~ | a2~ a8 g4 b8~ | b8 bf4 a8~ a2~ | a2 \tuplet 3/2 { r4 fs4 g4 } |
-  \tuplet 3/2 { a4 a4 a4 } \tuplet 3/2 { a4 a4 a4 } | a4 g8 bf8~ bf8 g4 a8~ |
+  \tuplet 3/2 { a4 a4 a4 } \tuplet 3/2 { a4 a4 a4 } | a4 g8 b8~ b8 g4 a8~ |
   a8 b4 a8~ a2~ | a2. r4 |
-  f1~ | f2~ f8 ef4 g8~ | g8 gf4 f8~ f2~ | f2 \tuplet 3/2 { r4 c4 d4 } |
-  \tuplet 3/2 { e4 e4 e4 } \tuplet 3/2 { e4 df4 e4 } | 
-  f2~ \tuplet 3/2 { f4 ef4 f4 } | \tuplet 3/2 { g4 g4 g4 } \tuplet 3/2 { g4 fs4 g4 } | af2. r4 |
+  f1~ | f2~ f8 e4 g8~ | g8 gf4 f8~ f2~ | f2 \tuplet 3/2 { r4 c4 d4 } |
+  \tuplet 3/2 { e4 e4 e4 } \tuplet 3/2 { e4 ds4 e4 } | 
+  f2~ \tuplet 3/2 { f4 e4 f4 } | \tuplet 3/2 { g4 g4 g4 } \tuplet 3/2 { g4 fs4 g4 } | a2. r4 |
   }
-  \break
+  \bar "||-:|."
 
-  \xTextMark \markup{ \bold \box "B" }
+  \sectNoBar "B"
   
   c1~ | c2~ c8 b4 d8~ | d8 df4 c8~ c2~ | c2 r8 b4 d8~ |
   \break
-  d8 df4 c8~ c8 bf4 d8~ | d8 df4 c8~ c8 bf4 af8~ | af1~ | af2 r2 |
+  d8 df4 c8~ c8 b4 d8~ | d8 df4 c8~ c8 b4 a8~ | a1~ | a2 r2 |
   
-  \sect "A2"
+  \sect "A3"
   
   a1~ | a2~ a8 g4 b8~ | b8 bf4 a8~ a2~ | a2 \tuplet 3/2 { r4 fs4 g4 } |
-  \tuplet 3/2 { a4 a4 a4 } \tuplet 3/2 { a4 a4 a4 } | a4 g8 bf8~ bf8 g4 a8~ |
+  \tuplet 3/2 { a4 a4 a4 } \tuplet 3/2 { a4 a4 a4 } | a4 g8 b8~ b8 g4 a8~ |
   a8 b4 a8~ a2~ | a2. r4 |
-  f1~ | f2~ f8 ef4 g8~ | g8 gf4 f8~ f2~ | f2 \tuplet 3/2 { r4 c4 d4 } |
-  ef8 ef8 ef8 f8~ f8 f8 f8 d8~ | d8 d8 d8 ef8~ ef8 ef8 ef8 c8~ | c1 | r1 |
+  f1~ | f2~ f8 e4 g8~ | g8 gf4 f8~ f2~ | f2 \tuplet 3/2 { r4 c4 d4 } |
+  e8 e8 e8 f8~ f8 f8 f8 d8~ | d8 d8 d8 e8~ e8 e8 e8 c8~ | c1 | r1 |
 
   \bar "|."
 }

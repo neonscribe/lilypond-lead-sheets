@@ -3892,6 +3892,36 @@ refrain
 c'
 d''
 
+Bubbles in My Beer - Ly - C Bass for Standard.ly
+refrain
+g,
+c'
+
+Bubbles in My Beer - Ly - C Standard for Viola.ly
+refrain
+g
+c''
+
+Bubbles in My Beer - Ly - C Standard.ly
+refrain
+g
+c''
+
+Bubbles in My Beer - Ly - C to A for Eb for Standard.ly
+refrain
+e'
+a''
+
+Bubbles in My Beer - Ly - C to D for Bb High for Standard.ly
+refrain
+a'
+d'''
+
+Bubbles in My Beer - Ly - C to D for Bb Low for Standard.ly
+refrain
+a
+d''
+
 Buckaroo - Ly - D Bass Line for Standard.ly
 refrain
 a,
@@ -20020,6 +20050,11 @@ River Stay Way From My Door - Ly - C Bass for Standard.ly
 refrain
 c
 d'
+
+River Stay Way From My Door - Ly - C NOJam Chords.ly
+refrain
+c'
+d''
 
 River Stay Way From My Door - Ly - C Standard for Viola.ly
 refrain
