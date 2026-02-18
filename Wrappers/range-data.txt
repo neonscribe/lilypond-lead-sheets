@@ -2240,6 +2240,31 @@ refrain
 b
 fis'''
 
+Back in the Saddle Again - Ly - C Bass for Standard.ly
+refrain
+c
+c'
+
+Back in the Saddle Again - Ly - C Standard for Viola.ly
+refrain
+c
+c'
+
+Back in the Saddle Again - Ly - C Standard.ly
+refrain
+c'
+c''
+
+Back in the Saddle Again - Ly - C to A for Eb for Standard.ly
+refrain
+a'
+a''
+
+Back in the Saddle Again - Ly - C to D for Bb for Standard.ly
+refrain
+d'
+d''
+
 Back in Your Own Backyard - Ly - Bb Alto Voice.ly
 refrain
 e
@@ -9272,6 +9297,36 @@ Hello Trouble - Ly - F Alto Voice.ly
 refrain
 f
 a'
+
+Hello Walls - Ly - C Bass for Standard.ly
+refrain
+g,
+d'
+
+Hello Walls - Ly - C Standard for Viola.ly
+refrain
+g
+d''
+
+Hello Walls - Ly - C Standard.ly
+refrain
+g
+d''
+
+Hello Walls - Ly - C to A for Eb for Standard.ly
+refrain
+e'
+b''
+
+Hello Walls - Ly - C to D for Bb High for Standard.ly
+refrain
+a'
+e'''
+
+Hello Walls - Ly - C to D for Bb Low for Standard.ly
+refrain
+a
+e''
 
 Help the Poor - Ly - Dm Bass for Standard.ly
 refrain

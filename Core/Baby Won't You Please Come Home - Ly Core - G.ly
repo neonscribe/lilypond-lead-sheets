@@ -35,7 +35,7 @@ refrainChords = \chordmode {
   g2 bf2:dim7 a2:m d2:7 g2 bf2:dim7 a2:m d2:7
   b1:7 e1:m a1:7 d1:7
 
-  g2 bf2:dim7 a2:m d2:7 g1:7 c1
+  g2 bf2:dim7 a2:m d2:7 g1:7 c2:6 e2:7
   a1:7 a1:7 a2:7 a2:dim d2.:7 d4:aug
 
   g2 b2:7 e1:7 a1:7 a1:7
