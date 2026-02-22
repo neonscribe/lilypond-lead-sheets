@@ -71,6 +71,7 @@ Quand la vie
 Par mo -- ment me tra -- hit
 Tu res -- tes mon bon -- heur
 Pe -- ti -- te fleur
+
 Sur mes vingt ans
 Je m'ar -- rête un mo -- ment
 Pour re -- spi -- rer
@@ -87,73 +88,29 @@ refrainLyrics =
   refrainLyricsPetula
   refrainLyricsModern)
 
-refrainHLChords = \chordmode {
+refrainChords = \chordmode {
   g2:m7 a2:7 d4:7 r2.
   
-  d1:7 d1:7 g1:m7 g1:m7
-  a1:7 a1:7 d1:7 d1:7
+  d1:7 d1:7 g1:m7 g1:m7/f
+  a2:7/e a2:7/ef d1:7 g1:m7 g4:m7 r2.
 
   d1:7 d1:7 bf1:maj7 b1:dim7
-  c1:m7 f1:7 bf1:maj7 g1:m7
+  c2:m7 c2:m7/bf a2:m7.5- f2:7 bf1:maj7 g1:m7
   
-  a1:m7.5- d1:7 g1:m7 g1:m7
-  a1:7 a1:7 d1:7 d4:7 r2.
-  
-  d1:7 d1:7 g1:m7 g1:m7
-  a1:m7.5- d1:7.5+ g2:m7 c2:m7 g1:m7
-
-  g1:7 g1:7 c1:m7 c1:m7
-  f1:7 f1:7 bf2.:maj7 ef4 d4:7 r2.
-
-  d1:7 d1:7 g1:m7 g1:m7
-  a1:7 d1:7 g1:m7 g1:m7
-}
-
-refrainDjamChords = \chordmode {
-  g2:m7 a2:7 d4:7 r2.
-  
-  d1:7 d1:7 g1:m g2:m g2:m/f
-  a2:7/e a2:7/ef d1:7 g1:m g4:m r2.
-
-  d1:7 d1:7 bf1 bf1
-  c2:m c2:m/bf a2:m7.5- f2:7 f1:7 f1:7
-  
-  a2:m7.5- a2:m7.5-/g d2:7/fs d2:7 g2:m g2:m/f e1:m7.5-
+  a2:m7.5- a2:m7.5-/g d2:7/fs d2:7 g2:m7 g2:m7/f e1:m7.5-
   a1:7 a1:7 d2:7 ef2:7 d4:7 r2.
   
-  d1:7 d1:7 g1:m g2:m g2:m/f
-  a1:m7.5-/ef d1:7 g2:m c2:m g1:m
+  d1:7 d1:7 g1:m7 g2:m7 g2:m7/f
+  a1:m7.5-/ef d1:7 g2:m7 c2:m7 g4:m7 r2.
 
-  g1:7 g1:7 c1:m c2:m c2:m/bf
-  f2:7/a f2:7/g f1:7 bf2. ef4 d4:7 r2.
+  g1:7 g1:7 c1:m7 c2:m7 c2:m7/bf
+  f2:7/a f2:7/g f1:7 bf2.:maj7 ef4 d4:7 r2.
 
-  d1:7 d1:7 g1:m g2:m g2:m/f
-  a1:m7.5- d1:7 g2:m c2:m g1:m
+  d1:7 d1:7 g1:m7 g2:m7 g2:m7/f
+  a1:7.5-/ef d1:7.5+ g2:m7
+  \chordOpenParen{ c2:m7 }
+  \chordCloseParen{ g1:m7 }
 }
-
-refrainDFBChords = \chordmode {
-  g2:m7 a2:7 d4:7 r2.
-  
-  d1:7 d1:7 g1:m g2:m g2:m
-  a1:7 d1:7 g1:m g1:m
-
-  d1:7 d1:7 bf1 bf2 b2:dim7
-  c1:m7 f1:7 bf2 d2:7 g2:m c2:m
-  
-  a2:m7.5- a2:m7.5-/g d2:7/fs d2:7 g2:m g2:m/f e1:m7.5-
-  a1:7 a1:7 d2:7 ef2:7 d1:7
-  
-  d1:7 d1:7 g1:m g1:m
-  a1:m7.5- d1:7 g2:m c2:m g2:m g2:7
-
-  g1:7 g1:7 c1:m c2:m c2:m/bf
-  f2:7/a f2:7/g f1:7 bf2. ef4 d1:7
-
-  d1:7 d1:7 g1:m g2:m g2:m/f
-  a1:m7.5-/ef d1:7 g2:m c2:m g1:m
-}
-
-refrainChords = \refrainHLChords
 
 refrainKey = g
 
@@ -173,44 +130,41 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempo "Ballad [Sidney Bechet 1952]" 4 = 80
   
+  \sectStart "Intro"
+
   g2\fermata a2\fermata | d,4-. r4 ef4. ef8 |
 
   \sectNoBreak "A"
   
   d1 | r4 fs8 a8 \tuplet 3/2 { c4 ef4 d4 } | bf1 | r4 d,8 g8 \tuplet 3/2 { a4 bf4 g4 } |
-  \break
-  a1 | r4 e8 fs8 \tuplet 3/2 { g4 a4 fs4 } | d1 | r2 ef4. ef8 |
+  a1 | r4 e8 fs8 \tuplet 3/2 { g4 a4 fs4 } | d1~ | d4 r4 ef4. ef8 |
 
   \sect "B"
   
   d1 | r4 fs8 a8 \tuplet 3/2 { c4 ef4 d4 } | f1 | r4 d8 ef8 \tuplet 3/2 { f4 ef4 d4 } |
-  \break
   ef1 | r4 c8 d8 \tuplet 3/2 { ef4 d4 c4 } | d1 | r4 bf8 c8 \tuplet 3/2 { d4 c4 bf4 } |
 
   \sect "C"
   
   c1 | r4 a8 bf8 \tuplet 3/2 { c4 bf4 a4 } | bf1 | r4 g8 a8 \tuplet 3/2 { bf4 a4 g4 } |
-  \break
   a1 | e1 | a1 | r2 ef4. ef8 |
+  \bar "||"
   
   \xPageBreak
 
-  \sect "D"
+  \sectNoBar "D"
 
   d1 | r4 fs8 a8 \tuplet 3/2 { c4 ef4 d4 } | bf1 | r4 d,8 g8 \tuplet 3/2 { a4 bf4 g4 } |
-  \break
-  a2. c4 | bf2. a4 | g1 | r2 \tuplet 3/2 { g4 b4 d4 } |
+  a2. c4 | bf2. a4 | g1~ | g4 r4 \tuplet 3/2 { g4 b4 d4 } |
 
   \sect "E"
 
   f1 | r4 d8 ef8 \tuplet 3/2 { f4 af4 g4 } | ef1 | r2 r8 ef8 ef8 ef8 |
-  \break
   ef1 | r4 c8 d8 \tuplet 3/2 { ef4 gf4 f4 } | d2. ef4 | c4 r4 ef,4. ef8 |
 
   \sect "F"
 
   d1 | r4 fs8 a8 \tuplet 3/2 { c4 ef4 d4 } | bf1 | r4 d,8 g8 \tuplet 3/2 { a4 bf4 g4 } |
-  \break
   a2. c4 | bf2. a4 | g1 | r1 |
 
   \bar "|."
