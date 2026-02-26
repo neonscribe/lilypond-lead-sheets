@@ -133,12 +133,6 @@ refrainMelody = \relative f' {
 
 \include "../Include/refrain.ily"
 
-
-
-
-
-
-
 \markup {
   \column 
   \bold
