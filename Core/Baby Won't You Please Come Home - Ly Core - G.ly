@@ -17,7 +17,7 @@ instrument =
   copyright = \markup \small { \now " " "© 1923 Clarence Williams Music Pub. Co., Inc." }
 }
 
-refrainLyrics = \lyricmode {
+refrainFemaleSingerLyrics = \lyricmode {
 I've got the blues, I feel so lone -- ly,
 I'd give the world if I could on -- ly make you un -- der -- stand.
 It sure -- ly would be grand.
@@ -30,6 +30,25 @@ When you left, you broke my heart, 'cause I nev -- er thought we'd part.
 Ev -- 'ry hour in the day, you will hear me say, ba -- by won't you please come home.
 home, Dad -- dy needs mam -- ma, ba -- by won't you please come home. __
 }
+
+refrainMaleSingerLyrics = \lyricmode {
+I've got the blues, I feel so lone -- ly,
+I'd give the world if I could on -- ly make you un -- der -- stand.
+It sure -- ly would be grand.
+I'm goin' to tel -- e -- graph you, ba -- by, ask you won't you please come home, __
+'cause when you're gone __ I'm all for -- lorn, __ I wor -- ry all day long.
+
+Ba -- by, won't you please come home, 'cause your dad -- dy's all a -- lone.
+I have tried in vain, nev -- er no more to call your name.
+When you left, you broke my heart, 'cause I nev -- er thought we'd part.
+Ev -- 'ry hour in the day, you will hear me say, ba -- by won't you please come home.
+home, Dad -- dy needs ba -- by, ba -- by won't you please come home. __
+}
+
+refrainLyrics =
+#(if (and (defined? 'maleSinger) maleSinger)
+  refrainMaleSingerLyrics
+  refrainFemaleSingerLyrics)
 
 refrainChords = \chordmode {
   g2 bf2:dim7 a2:m d2:7 g2 bf2:dim7 a2:m d2:7

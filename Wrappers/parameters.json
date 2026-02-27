@@ -86,7 +86,8 @@
   "category": "gender",
   "description": "Sung by a man",
   "values": [false, true],
-  "songs": ["Black Coffee",
+  "songs": ["Baby, Won't You Please Come Home",
+	    "Black Coffee",
 	    "It's All Your Fault"] },
 
 { "name": "useSimpleChords",

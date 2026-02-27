@@ -63,7 +63,7 @@ whatClef =
   "treble")
 
 refrainMelody = \relative f' {
-  \compoundMeter #'((3 2 4))
+  \time 3,2 5/4
   \key \refrainKey \minor
   \clef \whatClef
   \tempo "Jazz 5/4" 4 = 160
