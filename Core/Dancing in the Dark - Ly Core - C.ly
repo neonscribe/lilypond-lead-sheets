@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Medium" 120
+  \tempoFour "Medium [Artie Shaw 1941]" 108
 
   \sectStart "A1"
   
