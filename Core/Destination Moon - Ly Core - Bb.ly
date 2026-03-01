@@ -150,7 +150,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Bounce Swing [Nat King Cole 1951]" 4 = 135
+  \tempoFour "Medium Bounce Swing [Nat King Cole 1951]" 135
   
   \xTextMark \markup{ "Refrain" }
 

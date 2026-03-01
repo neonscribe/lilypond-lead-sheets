@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Count Basie 1938]" 4 = 78
+  \tempoFour "Ballad [Count Basie 1938]" 78
 
   \sectStart "Intro"
   

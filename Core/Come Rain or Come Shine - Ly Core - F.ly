@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad [Ella Fitzgerald 1961]" 4 = 90
+  \tempoFour "Medium Ballad [Ella Fitzgerald 1961]" 90
 
   \xTextMark \markup{ \bold \box "A1" }
   

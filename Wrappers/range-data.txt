@@ -415,6 +415,36 @@ refrain
 d
 g'
 
+A Sleepin' Bee - Ly - Ab Bass for Standard.ly
+refrain
+c
+f'
+
+A Sleepin' Bee - Ly - Ab Standard for Viola.ly
+refrain
+c
+f'
+
+A Sleepin' Bee - Ly - Ab Standard.ly
+refrain
+c'
+f''
+
+A Sleepin' Bee - Ly - Ab to Bb for Bb for Standard.ly
+refrain
+d'
+g''
+
+A Sleepin' Bee - Ly - Ab to F for Eb for Standard.ly
+refrain
+a'
+d'''
+
+A Sleepin' Bee - Ly - C Alto Voice.ly
+refrain
+e
+a'
+
 Across the Alley From the Alamo - Ly - Bb Alto Voice.ly
 refrain
 f
@@ -2164,6 +2194,11 @@ Baby Won't You Please Come Home - Ly - Bb Alto Voice.ly
 refrain
 f
 f'
+
+Baby Won't You Please Come Home - Ly - D Baritone Voice.ly
+refrain
+a
+a'
 
 Baby Won't You Please Come Home - Ly - F Bass for Standard.ly
 refrain
@@ -5751,6 +5786,31 @@ Dance of the Sugar Plum Fairy - Ly - Em to Fsm for Bb Low for Standard.ly
 refrain
 fis
 d'''
+
+Dancing in the Dark - Ly - C Bass for Standard.ly
+refrain
+a,
+c'
+
+Dancing in the Dark - Ly - C Standard for Viola.ly
+refrain
+a
+c''
+
+Dancing in the Dark - Ly - C Standard.ly
+refrain
+a
+c''
+
+Dancing in the Dark - Ly - C to A for Eb for Standard.ly
+refrain
+fis'
+a''
+
+Dancing in the Dark - Ly - C to D for Bb for Standard.ly
+refrain
+b
+d''
 
 Daphne - Ly - D Bass for Standard.ly
 refrain

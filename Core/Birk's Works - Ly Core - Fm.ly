@@ -41,7 +41,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Swing [Art Pepper 1957]" 4 = 158
+  \tempoFour "Medium Swing [Art Pepper 1957]" 158
 
   \partial 2 \invisEighth f8 af8-. bf8 |
   \bar "||"

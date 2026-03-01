@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Sarah Vaughan 1982]" 4 = 144
+  \tempoFour "Medium [Sarah Vaughan 1982]" 144
 
   \partial 2. c4 ef4 c4 |
   \bar "||"

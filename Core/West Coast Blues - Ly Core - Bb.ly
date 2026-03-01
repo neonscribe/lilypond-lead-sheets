@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Jazz Waltz [Wes Montgomery 1960]" 4 = 152
+  \tempoFour "Medium Jazz Waltz [Wes Montgomery 1960]" 152
 
   \xTextMark \markup{ \bold \box "Head" }
   

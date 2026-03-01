@@ -104,7 +104,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Nina Simone 1959]" 4 = 62
+  \tempoFour "Ballad [Nina Simone 1959]" 62
 
   r8 c8 d8 e8 f8 a8 |
 

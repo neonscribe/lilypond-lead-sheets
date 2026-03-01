@@ -111,7 +111,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Duke Ellington 1944]" 4 = 100
+  \tempoFour "Medium [Duke Ellington 1944]" 100
 
   \partial 4 \invisEighth ds8 |
   \bar "||"

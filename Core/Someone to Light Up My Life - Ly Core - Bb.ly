@@ -100,7 +100,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Bossa [Frank Sinatra & Antonio Carlos Jobim 1969]" 4 = 100
+  \tempoFour "Medium Bossa [Frank Sinatra & Antonio Carlos Jobim 1969]" 100
 
   \sectStart "Intro"
   

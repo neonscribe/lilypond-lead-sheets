@@ -27,7 +27,7 @@ introMelody = \relative f'' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempo "Western Swing [Hank Thomson 1949]" 4 = 155
+  \tempoFour "Western Swing [Hank Thomson 1949]" 155
   
   \mark \markup { "Intro" }
 

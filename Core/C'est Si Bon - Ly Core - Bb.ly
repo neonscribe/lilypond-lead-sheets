@@ -135,7 +135,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Eartha Kitt 1953]" 4 = 140
+  \tempoFour "Medium [Eartha Kitt 1953]" 140
   
   \partial 2 f4 e4 |
   \bar "||"

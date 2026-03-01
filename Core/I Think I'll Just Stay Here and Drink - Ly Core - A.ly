@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Slow [Merle Haggard 1980]" 4 = 85
+  \tempoFour "Medium-Slow [Merle Haggard 1980]" 85
 
   r8. a,16 cs8 e8 fs8 a8 b8 cs16 a16~ |
 
@@ -93,7 +93,7 @@ refrainMelody = \relative f' {
   r8 cs8 cs16 e8 fs16~ fs8 a8 b8 cs8 |
   
   \sectNoBreak "Verse 3"
-  \tempo "Double-Time Feel" 8 = 170
+  \tempo "Double-Time Feel"
   
   a1 |
   r4 fs8 a8 c8 b8 a8 fs8 | a16 a8. fs16( e8.) r2 |

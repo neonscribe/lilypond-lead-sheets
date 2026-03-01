@@ -90,7 +90,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Guy Lombardo 1934]" 4 = 124
+  \tempoFour "Medium [Guy Lombardo 1934]" 124
   
   \partial 4 bf8 bf8 |
   

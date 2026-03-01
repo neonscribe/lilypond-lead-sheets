@@ -17,6 +17,7 @@ printNoteNames =
 \include "scoop.ily"
 \include "swing.ly"
 \include "scoop.ily"
+\include "tempo.ily"
 \include "trill.ily"
 \include "bar-lines.ily"
 \include "chord-slash.ily"

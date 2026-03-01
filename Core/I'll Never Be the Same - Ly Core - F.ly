@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Slow [Billie Holiday 1937]" 4 = 90
+  \tempoFour "Medium Slow [Billie Holiday 1937]" 90
   
   \partial 4 \invisEighth c8 |
 

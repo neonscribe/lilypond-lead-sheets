@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Ray Price 1956]" 4 = 115
+  \tempoFour "Medium [Ray Price 1956]" 115
 
   \ambitusOff
   \partial 2 <f a>4_"(Fiddle)" <g a>4 |

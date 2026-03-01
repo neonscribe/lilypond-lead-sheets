@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Helen Merrill 1955]" 4 = 144
+  \tempoFour "Medium [Helen Merrill 1955]" 144
 
   \bar ".|:"
   \repeat volta 2 {

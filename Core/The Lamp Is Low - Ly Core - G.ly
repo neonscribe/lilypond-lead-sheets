@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing or Latin or Medium Slow [Mildred Bailey 1939]" 4 = 96
+  \tempoFour "Fast Swing or Latin or Medium Slow [Mildred Bailey 1939]" 96
 
   \sectStart "A1"
   

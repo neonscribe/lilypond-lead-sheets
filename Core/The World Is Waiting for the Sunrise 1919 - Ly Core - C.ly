@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Les Paul and Mary Ford 1951]" 4 = 130
+  \tempoFour "Medium [Les Paul and Mary Ford 1951]" 130
   
   \partial 4 ds4 |
   \bar "||"

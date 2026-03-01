@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Latin [Art Pepper 1957]" 4 = 130
+  \tempoFour "Medium Latin [Art Pepper 1957]" 130
 
   \partial 2 \tuplet 3/2 { r4 f4 af4 } |
 

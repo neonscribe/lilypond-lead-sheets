@@ -128,7 +128,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad [Sidney Bechet 1952]" 4 = 80
+  \tempoFour "Ballad [Sidney Bechet 1952]" 80
   
   \sectStart "Intro"
 

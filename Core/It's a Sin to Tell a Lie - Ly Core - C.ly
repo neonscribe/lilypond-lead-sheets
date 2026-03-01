@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Two-Beat [Billie Holiday 1942]" 2 = 74
+  \tempoFour "Medium Two-Beat [Billie Holiday 1942]" 150
 
   \partial 2. g4 g4 a4 |
 

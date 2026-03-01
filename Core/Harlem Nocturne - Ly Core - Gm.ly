@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Slow [Earl Bostic 1956]" 4 = 100
+  \tempoFour "Medium Slow [Earl Bostic 1956]" 100
   
   r8 g,8 d'8 g8 a4 bf8 fs8~ |
 

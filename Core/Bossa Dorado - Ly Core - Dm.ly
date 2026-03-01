@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Gypsy Bossa [Stochelo Rosenberg 1989]" 4 = 170
+  \tempoFour "Gypsy Bossa [Stochelo Rosenberg 1989]" 170
 
   \xTextMark \markup{ \bold \box { "Intro/Outro" } }
   

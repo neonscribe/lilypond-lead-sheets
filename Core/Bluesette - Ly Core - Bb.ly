@@ -96,7 +96,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Jazz Waltz [Toots Thielmans 1963]" 4 = 186
+  \tempoFour "Jazz Waltz [Toots Thielmans 1963]" 186
 
   \sectStart "A1.A2"
 

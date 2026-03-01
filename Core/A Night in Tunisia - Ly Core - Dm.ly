@@ -30,7 +30,7 @@ bassIntro = \relative f' {
   \time 4/4
   \key \introKey \minor
   \clef bass
-  \tempo "Medium-Up Latin [Dizzy Gillespie 1946]" 4 = 180
+  \tempoFour "Medium-Up Latin [Dizzy Gillespie 1946]" 180
   
   \sectStart "Intro"
 

@@ -55,7 +55,7 @@ refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Fast Swing [Django Reinhardt 1943]" 4 = 198
+  \tempoFour "Fast Swing [Django Reinhardt 1943]" 198
 
   \xTextMark \markup{ \bold \box "Intro/Outro" \musicglyph #"scripts.segno" }
   

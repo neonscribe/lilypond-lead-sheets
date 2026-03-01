@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Straight Eighths, Medium Fast" 4 = 175
+  \tempoFour "Straight Eighths, Medium Fast" 175
 
   \partial 4 a8 \parenthesize g8 |
 

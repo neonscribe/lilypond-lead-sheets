@@ -110,7 +110,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Fast Swing [Coleman Hawkins 1937]" 4 = 185
+  \tempoFour "Medium-Fast Swing [Coleman Hawkins 1937]" 185
 
   \sectStart "A1"
 

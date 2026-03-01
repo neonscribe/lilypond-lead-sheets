@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Up [Peggy Lee 1946]" 4 = 248
+  \tempoFour "Up [Peggy Lee 1946]" 248
 
   \partial 2. bf,4 c4 ef4 |
   \bar "||"

@@ -64,7 +64,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Duke Ellington 1934]" 4 = 82
+  \tempoFour "Ballad [Duke Ellington 1934]" 82
 
   \partial 2 bf4 c4 |
   \bar "||"

@@ -23,7 +23,7 @@ peggyLeeIntroMelody = \relative f'' {
   \time 2/2
   \key ef \major
   \clef \whatClef
-  \tempo "Fast Swing [Peggy Lee 1957]" 4 = 276
+  \tempoFour "Fast Swing [Peggy Lee 1957]" 276
 
   \xTextMark \markup{ "Intro" }
 

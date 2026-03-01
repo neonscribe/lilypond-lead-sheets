@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Billie Holiday 1937]" 4 = 88
+  \tempoFour "Ballad [Billie Holiday 1937]" 88
 
   \xTextMark \markup{ \bold \box "A1" }
 

@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Hank Williams 1952]" 4 = 164
+  \tempoFour "Medium [Hank Williams 1952]" 164
   
   \ambitusOff
   \partial 2 

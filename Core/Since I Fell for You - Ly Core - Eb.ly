@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Bluesy Ballad [Lenny Welch 1963]" 4 = 62
+  \tempoFour "Bluesy Ballad [Lenny Welch 1963]" 62
 
   \xTextMark "Verse"
   

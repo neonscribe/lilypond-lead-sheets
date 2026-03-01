@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Julie London 1955]" 4 = 62
+  \tempoFour "Ballad [Julie London 1955]" 62
 
   \sectStart "A1"
   

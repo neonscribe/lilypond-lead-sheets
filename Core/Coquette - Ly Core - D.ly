@@ -75,7 +75,7 @@ refrainFHMelody = \relative f'' {
   \time 4/4
   \key ef \major
   \clef \whatClef
-  \tempo "Medium-Up Swing [Django Reinhardt 1946]" 4 = 176
+  \tempoFour "Medium-Up Swing [Django Reinhardt 1946]" 176
 
   \xTextMark \markup{ \bold \box "A1" }
   
@@ -108,7 +108,7 @@ refrainDFBMelody = \relative f'' {
   \time 4/4
   \key d \major
   \clef \whatClef
-  \tempo "Medium-Up Swing [Django Reinhardt 1946]" 4 = 176
+  \tempoFour "Medium-Up Swing [Django Reinhardt 1946]" 176
 
   \xTextMark \markup{ \bold \box "A1" }
   

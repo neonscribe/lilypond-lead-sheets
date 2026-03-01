@@ -66,7 +66,7 @@ refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [June Christy 1955]" 4 = 115
+  \tempoFour "Medium [June Christy 1955]" 115
 
   \sectStart "A1"
   

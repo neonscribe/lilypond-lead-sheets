@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Bop [Dizzy Gillespie 1945]" 4 = 165
+  \tempoFour "Medium Bop [Dizzy Gillespie 1945]" 165
   
   \partial 4 \invisEighth bf8~ |
   \bar "||"

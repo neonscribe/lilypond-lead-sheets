@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Waltz [Jeri Southern 1955]" 4 = 118
+  \tempoFour "Medium Waltz [Jeri Southern 1955]" 118
 
   \sectStart "A1"
   

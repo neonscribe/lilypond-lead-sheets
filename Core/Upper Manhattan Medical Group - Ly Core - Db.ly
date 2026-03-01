@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up [Tommy Flanagan 1975]" 4 = 192
+  \tempoFour "Medium-Up [Tommy Flanagan 1975]" 192
 
   \sectStart "A1"
   

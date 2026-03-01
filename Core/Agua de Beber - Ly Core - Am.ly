@@ -150,7 +150,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Bossa [Astrud Gilberto 1965]" 4 = 144
+  \tempoFour "Medium Bossa [Astrud Gilberto 1965]" 144
 
   \sectStart "Intro"
   

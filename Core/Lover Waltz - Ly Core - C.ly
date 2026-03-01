@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Margaret Whiting 1946]" 4 = 135
+  \tempoFour "Medium [Margaret Whiting 1946]" 135
 
   \sectStart "A1"
 

@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Moderato" 2 = 120
+  \tempoTwo "Moderato" 120
 
   \xTextMark \markup{ \bold \box "A" }
   

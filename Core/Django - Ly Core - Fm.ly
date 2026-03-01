@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Slow 4, Even Eighths [MJQ 1954]" 4 = 75
+  \tempoFour "Slow 4, Even Eighths [MJQ 1954]" 75
 
   \sectStart "A"
   \xTextMark \markup{ \bold "Head" }
@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   \sectNoBar "B1,B2"
   \xTextMark \markup{ \bold "Solos" }
   
-  \tempo "Medium Swing [MJQ 1954]" 4 = 112
+  \tempoFour "Medium Swing [MJQ 1954]" 112
   
   \bar ".|:-||"
   \repeat volta 2 {

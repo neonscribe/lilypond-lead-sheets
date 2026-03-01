@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Fats Waller 1935]" 4 = 115
+  \tempoFour "Medium [Fats Waller 1935]" 115
   
   \partial 2 \invisEighth fs8 g8 fs8 |
 

@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up [The Beatles 1964]" 4 = 186
+  \tempoFour "Medium-Up [The Beatles 1964]" 186
 
   \sectNoBarNoBreak "Intro"
   

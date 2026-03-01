@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing [Stan Getz 1953]" 4 = 210
+  \tempoFour "Fast Swing [Stan Getz 1953]" 210
 
   \xTextMark \markup{ \bold \box "A1" }
   

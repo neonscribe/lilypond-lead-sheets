@@ -99,7 +99,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Linda Ronstadt 1983]" 4 = 60
+  \tempoFour "Ballad [Linda Ronstadt 1983]" 60
 
   \partial 2 b4. c8~ |
   \bar "||"

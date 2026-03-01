@@ -57,7 +57,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Frank Sinatra and Sammy Davis, Jr. 1962]" 4 = 110
+  \tempoFour "Medium [Frank Sinatra and Sammy Davis, Jr. 1962]" 110
 
   \sectStart "A1"
   

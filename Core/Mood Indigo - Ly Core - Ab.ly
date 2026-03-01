@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Boswell Sisters 1933]" 4 = 77
+  \tempoFour "Ballad [Boswell Sisters 1933]" 77
 
   \xTextMark \markup{ \bold \box "A" }
   

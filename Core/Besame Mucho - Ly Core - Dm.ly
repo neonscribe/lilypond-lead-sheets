@@ -103,7 +103,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Latin [Xavier Cugat 1945]" 4 = 140
+  \tempoFour "Medium Latin [Xavier Cugat 1945]" 140
 
   \xTextMark \markup{ \bold \box "A1" }
   

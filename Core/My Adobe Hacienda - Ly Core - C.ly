@@ -71,7 +71,7 @@ refrainMelody = \relative c' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing [Eddy Howard 1947]" 4 = 156
+  \tempoFour "Medium Swing [Eddy Howard 1947]" 156
 
   \partial 4 e4 |
 

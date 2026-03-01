@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Jazz Waltz" 4 = 160
+  \tempoFour "Jazz Waltz" 160
   
   \xTextMark \markup{ \bold \box "A" }
   

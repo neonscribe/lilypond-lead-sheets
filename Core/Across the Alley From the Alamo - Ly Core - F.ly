@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing [The Mills Brothers 1947]" 4 = 140
+  \tempoFour "Medium Swing [The Mills Brothers 1947]" 140
 
   \partial 4 c4 |
   \bar "||"

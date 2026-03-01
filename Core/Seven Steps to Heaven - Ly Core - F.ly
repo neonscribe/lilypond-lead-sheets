@@ -70,7 +70,7 @@ bassIntro = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef bass
-  \tempo "Fast Bop [Miles Davis 1963]" 4 = 286
+  \tempoFour "Fast Bop [Miles Davis 1963]" 286
 
   \sectStart "Intro"
   

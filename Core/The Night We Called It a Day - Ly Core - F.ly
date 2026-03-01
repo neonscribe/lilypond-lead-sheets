@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad [Frank Sinatra 1942]" 4 = 80
+  \tempoFour "Medium Ballad [Frank Sinatra 1942]" 80
 
   \partial 2 \tuplet 3/2 { c4 c4 c4 } |
 

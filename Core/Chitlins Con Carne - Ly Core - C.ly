@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Swing Bossa Nova [Kenny Burrell 1963]" 4 = 130
+  \tempoFour "Swing Bossa Nova [Kenny Burrell 1963]" 130
 
   \xTextMark \markup{ \bold \box "Intro" }
   

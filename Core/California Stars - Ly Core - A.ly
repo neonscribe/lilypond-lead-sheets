@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Billy Bragg & Wilco 1998]" 4 = 110
+  \tempoFour "Medium [Billy Bragg & Wilco 1998]" 110
 
   \sectStart "Intro, Solo, Outro"
   

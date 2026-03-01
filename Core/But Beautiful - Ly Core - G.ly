@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Stan Getz & Bill Evans 1964]" 4 = 75
+  \tempoFour "Ballad [Stan Getz & Bill Evans 1964]" 75
   
   \partial 4 cs8 d8 |
   \bar "||"

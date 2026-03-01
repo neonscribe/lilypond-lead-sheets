@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up [Louis Armstrong 1927]" 4 = 190
+  \tempoFour "Medium-Up [Louis Armstrong 1927]" 190
 
   \partial 2 e8 f8 a8 c8 |
   \bar "||"

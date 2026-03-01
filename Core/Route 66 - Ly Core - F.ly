@@ -56,7 +56,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef "treble"
-  \tempo "Medium [Nat King Cole 1946]" 4 = 146
+  \tempoFour "Medium [Nat King Cole 1946]" 146
 
   \sectStart "Intro"
 

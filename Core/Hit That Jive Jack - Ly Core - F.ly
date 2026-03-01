@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Up Swing [Nat King Cole 1942]" 4 = 200
+  \tempoFour "Up Swing [Nat King Cole 1942]" 200
 
   \sectStart "A1"
   

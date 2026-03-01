@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Straight Eighths [The Ventures 1969]" 4 = 162
+  \tempoFour "Straight Eighths [The Ventures 1969]" 162
   
   \xTextMark \markup{ \bold \box "A" }
   \partial 2. g8 g8 bf8 d4 c8~ |

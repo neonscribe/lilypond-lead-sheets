@@ -28,7 +28,7 @@ bassIntro = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef bass
-  \tempo "Medium [Henry Mancini 1961]" 4 = 122
+  \tempoFour "Medium [Henry Mancini 1961]" 122
   
   \xTextMark \markup{ \bold \box "Intro" }
 

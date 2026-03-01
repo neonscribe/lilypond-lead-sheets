@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Wes Montgomery 1963]" 4 = 90
+  \tempoFour "Ballad [Wes Montgomery 1963]" 90
 
   \partial 4 c4 |
   \bar "||"

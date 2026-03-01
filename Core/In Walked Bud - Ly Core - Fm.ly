@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium-Up Swing [Thelonius Monk 1947]" 4 = 180
+  \tempoFour "Medium-Up Swing [Thelonius Monk 1947]" 180
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

@@ -63,30 +63,31 @@ whatClef =
   "treble")
 
 refrainMelody = \relative f' {
-  \time 3,2 5/4
+  \submeasureBarsOn
+  \time #'((3) (2)) #'((3 2) . 4)
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Jazz 5/4" 4 = 160
+  \tempoFour "Jazz 5/4" 160
   
   \xTextMark \markup{ \bold \box "A" }
   
-  b2 a4 \bar "!" g4 e4 | fs4 g4 fs4 \bar "!" e2 |
+  b2 a4 g4 e4 | fs4 g4 fs4 e2 |
   \break
-  b'2 a4 \bar "!" g4 e4 | fs4 g4 fs4 \bar "!" e2 |
+  b'2 a4 g4 e4 | fs4 g4 fs4 e2 |
   \break
-  g2 g4 \bar "!" a4 a4 | b2 b4 \bar "!" d4 d4 |
+  g2 g4 a4 a4 | b2 b4 d4 d4 |
   \break
-  a4 b4 a4 \bar "!" g4 fs4 | e2. \bar "!" fs4 a4 |
+  a4 b4 a4 g4 fs4 | e2. fs4 a4 |
 
   \sect "B"
   
-  g2 g4 \bar "!" g4 d4 | g2 e4 \bar "!" g2 |
+  g2 g4 g4 d4 | g2 e4 g2 |
   \break
-  g2 g4 \bar "!" g4 d4 | g2 e4 \bar "!" g2 |
+  g2 g4 g4 d4 | g2 e4 g2 |
   \break
-  g2 g4 \bar "!" a4 b4 | c2 b4 \bar "!" a4 b4 |
+  g2 g4 a4 b4 | c2 b4 a4 b4 |
   \break
-  g2 g4 \bar "!" g4 d4 | g2 e4 \bar "!" g2 |
+  g2 g4 g4 d4 | g2 e4 g2 |
 
   \bar "|."
 }

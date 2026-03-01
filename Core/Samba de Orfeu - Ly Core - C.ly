@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Samba [Vince Guaraldi 1962]" 4 = 250
+  \tempoFour "Samba [Vince Guaraldi 1962]" 250
 
   \partial 2. c8 e8 r8 g4 b8~ |
 

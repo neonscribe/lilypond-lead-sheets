@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Clifford Brown 1953]" 4 = 172
+  \tempoFour "Medium [Clifford Brown 1953]" 172
   
   \sectStart "A1,A2"
 

@@ -31,7 +31,7 @@ bassIntro = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef bass
-  \tempo "Latin [Wes Montgomery 1965]" 4 = 128
+  \tempoFour "Latin [Wes Montgomery 1965]" 128
 
   \xTextMark \markup{ \bold \box "Intro" }
   

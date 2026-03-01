@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Grateful Dead 1970]" 4 = 124
+  \tempoFour "Medium [Grateful Dead 1970]" 124
 
   \sectStart "Intro"
   

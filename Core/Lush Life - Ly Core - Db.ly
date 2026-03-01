@@ -166,7 +166,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Nat King Cole 1949]" 4 = 68
+  \tempoFour "Ballad [Nat King Cole 1949]" 68
 
   \xTextMark \markup{ "Verse" }
   

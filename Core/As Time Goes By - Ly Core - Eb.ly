@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Dooley Wilson 1942]" 4 = 72
+  \tempoFour "Ballad [Dooley Wilson 1942]" 72
 
   \partial 4 \invisEighth g8 |
 

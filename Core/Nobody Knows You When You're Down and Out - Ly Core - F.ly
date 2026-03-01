@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Slow Blues [Bessie Smith 1929]" 4 = 88
+  \tempoFour "Medium Slow Blues [Bessie Smith 1929]" 88
 
   \partial 4 c4 |
 

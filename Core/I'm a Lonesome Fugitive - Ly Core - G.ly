@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Merle Haggard 1966]" 4 = 128
+  \tempoFour "Medium [Merle Haggard 1966]" 128
 
   \partial 4 d4 |
   \bar "||"

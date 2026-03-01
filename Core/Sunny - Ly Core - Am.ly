@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Bobby Hebb 1966]" 4 = 130
+  \tempoFour "Medium [Bobby Hebb 1966]" 130
 
   e8 e4. r2 | r2 a8 g8 e8 d8 | c4 a4 c4 d8 e8~ | e2 r2 |
   \break

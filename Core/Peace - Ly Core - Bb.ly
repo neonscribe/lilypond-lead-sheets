@@ -38,7 +38,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Horace Silver 1959]" 4 = 50
+  \tempoFour "Ballad [Horace Silver 1959]" 50
 
   \partial 4 \tuplet 3/2 { r8 c'8 d8 } |
   \bar "||"

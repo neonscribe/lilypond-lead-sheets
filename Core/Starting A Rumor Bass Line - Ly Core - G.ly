@@ -73,7 +73,7 @@ refrainMelody = \relative g, {
   \time 2/2
   \key \refrainKey \major
   \clef bass
-  \tempo 2 = 72
+  \tempoTwo "Ballad [Delbert McClinton 2009]" 72
 
   \xTextMark \markup { "Intro" }
   

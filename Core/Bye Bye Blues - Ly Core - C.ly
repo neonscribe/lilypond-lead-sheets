@@ -111,7 +111,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Les Paul & Mary Ford 1952]" 2 = 135
+  \tempoTwo "Medium [Les Paul & Mary Ford 1952]" 135
 
   \xTextMark \markup{ \bold \box "A1" }
 

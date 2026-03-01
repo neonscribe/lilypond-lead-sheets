@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Tempo di Valse [Harry Davidson 1945]" 4 = 145
+  \tempoFour "Tempo di Valse [Harry Davidson 1945]" 145
 
   \xTextMark \markup{ \bold \box "A" }
   

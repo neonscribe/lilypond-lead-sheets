@@ -44,7 +44,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Bossa [João Gilberto 1961]" 4 = 170
+  \tempoFour "Bossa [João Gilberto 1961]" 170
 
   \xTextMark \markup { \bold \box "Head" }
 

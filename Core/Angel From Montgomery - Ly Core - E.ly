@@ -90,7 +90,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Bonnie Raitt 1974]" 4 = 125
+  \tempoFour "Medium [Bonnie Raitt 1974]" 125
 
   \sectStart "Intro"
   

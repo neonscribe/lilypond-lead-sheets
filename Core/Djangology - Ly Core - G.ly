@@ -60,7 +60,7 @@ refrainMelody = \relative f'' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \sect "A1"
-  \tempo "Easy Swing [Django Reinhardt 1935]" 4 = 184
+  \tempoFour "Easy Swing [Django Reinhardt 1935]" 184
   
   cs8 e8 g8 b8 r8 b4 r8 | c,8 ef8 f8 b8~ b4. r8 | b,8 d8 fs8 a8 r8 a4 r8 | bf,8 df8 e8 a8~ a4 g4 |
   \break

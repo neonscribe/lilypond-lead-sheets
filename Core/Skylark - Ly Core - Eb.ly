@@ -98,7 +98,7 @@ refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Gene Krupa 1941]" 4 = 82
+  \tempoFour "Ballad [Gene Krupa 1941]" 82
 
   \xTextMark \markup{ \bold \box "A1, A2" }
   

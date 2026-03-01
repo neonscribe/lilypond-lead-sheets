@@ -69,7 +69,7 @@ refrainMelody = \relative g, {
   \time 4/4
   \key \refrainKey \major
   \clef bass
-  \tempo "Medium [Porter Wagoner 1962]" 4 = 128
+  \tempoFour "Medium [Porter Wagoner 1962]" 128
 
   \sectStart "Intro"
 

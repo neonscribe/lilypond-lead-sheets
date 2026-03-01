@@ -53,7 +53,7 @@ refrainChords = \chordmode {
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
-  \tempo "Medium [Peggy Lee 1958]" 4 = 135
+  \tempoFour "Medium [Peggy Lee 1958]" 135
 
   \sectStart "Intro"
   \ambitusOff

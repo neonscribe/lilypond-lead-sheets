@@ -64,7 +64,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Johnny Smith 1952]" 4 = 72
+  \tempoFour "Ballad [Johnny Smith 1952]" 72
 
   \xTextMark \markup{ \bold \box "A1" }
   

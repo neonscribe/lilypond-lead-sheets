@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Ethel Waters 1934]" 4 = 78
+  \tempoFour "Ballad [Ethel Waters 1934]" 78
 
   \partial 4 g8( af8) |
   \bar "||"

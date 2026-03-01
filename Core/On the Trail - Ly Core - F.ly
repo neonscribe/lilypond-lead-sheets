@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Jimmy Heath Quintet 1963]" 4 = 130
+  \tempoFour "Medium [Jimmy Heath Quintet 1963]" 130
   
   \partial 4 a4 |
   \bar "||"

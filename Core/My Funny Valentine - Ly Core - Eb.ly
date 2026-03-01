@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Chet Baker 1954]" 4 = 66
+  \tempoFour "Ballad [Chet Baker 1954]" 66
 
   \xTextMark \markup{ \bold \box "A1" }
   

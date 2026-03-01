@@ -57,7 +57,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Swing [Kenny Ball and his Jazzmen 1961]" 4 = 168
+  \tempoFour "Swing [Kenny Ball and his Jazzmen 1961]" 168
 
   \partial 2 a,4 cs4 |
   \bar "||"

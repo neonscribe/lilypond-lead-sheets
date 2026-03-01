@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Phoebe Snow 1975]" 4 = 120
+  \tempoFour "Medium [Phoebe Snow 1975]" 120
 
   \partial 2 b4. b8 |
 

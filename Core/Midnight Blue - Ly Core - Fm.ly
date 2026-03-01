@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Swing [Kenny Burrell 1963]" 4 = 144
+  \tempoFour "Medium Swing [Kenny Burrell 1963]" 144
 
   \sectStart "Intro"
   

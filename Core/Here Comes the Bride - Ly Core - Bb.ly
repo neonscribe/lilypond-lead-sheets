@@ -40,7 +40,7 @@ refrainMelody = \relative f'' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Straight" 2 = 108
+  \tempoFour "Straight" 216
   
   
   f2 bf4. bf8 | bf2. r4 | f2 c'4. a8 | bf2. r4 |
@@ -53,7 +53,7 @@ refrainMelody = \relative f'' {
 
   \break
 
-  \tempo "Swing" 2 = 108
+  \tempoFour "Swing" 216
   
   \bar ".|:-||"
   \repeat volta 2 {

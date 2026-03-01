@@ -44,7 +44,7 @@ verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
-  \tempo "Freely" 4 = 180
+  \tempoFour "Freely" 180
 
   \xTextMark \markup{ \bold \box "Verse" }
   
@@ -131,7 +131,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up [Anita O'Day 1952]" 4 = 170
+  \tempoFour "Medium-Up [Anita O'Day 1952]" 170
 
   \xTextMark \markup{ \bold \box "A1" }
   

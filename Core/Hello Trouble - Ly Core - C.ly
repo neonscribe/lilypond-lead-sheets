@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast [The Desert Rose Band 1988]" 4 = 222
+  \tempoFour "Fast [The Desert Rose Band 1988]" 222
   
   \partial 2. e'4 d4 c4 |
   \bar "||"

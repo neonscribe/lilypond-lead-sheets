@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Up [Biréli Lagrène 2004]" 4 = 280
+  \tempoFour "Up [Biréli Lagrène 2004]" 280
 
   \sect "Intro"
   

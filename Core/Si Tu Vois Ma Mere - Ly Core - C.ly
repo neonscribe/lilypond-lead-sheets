@@ -79,7 +79,7 @@ refrainMelody = \relative fis' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Sidney Bechet 1952]" 4 = 80
+  \tempoFour "Ballad [Sidney Bechet 1952]" 80
 
     \partial 4 fis8 g8 | % 1
     e'8 g8 e2 fis,8 

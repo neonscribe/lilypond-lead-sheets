@@ -46,7 +46,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Bop [Charlie Parker 1947]" 4 = 200
+  \tempoFour "Bop [Charlie Parker 1947]" 200
 
   \sectStart "A1"
   

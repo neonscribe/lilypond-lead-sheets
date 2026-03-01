@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Julie London 1956]" 4 = 102
+  \tempoFour "Medium [Julie London 1956]" 102
   
   \partial 4 b4 |
 

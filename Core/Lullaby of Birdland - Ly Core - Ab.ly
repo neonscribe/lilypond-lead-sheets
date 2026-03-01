@@ -103,7 +103,7 @@ refrainMelody = \relative c' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Sarah Vaughan 1954]" 4 = 116
+  \tempoFour "Medium [Sarah Vaughan 1954]" 116
   
   \sectStart "A1"
 

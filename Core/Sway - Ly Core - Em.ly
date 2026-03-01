@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Latin [Dean Martin 1954]" 4 = 120
+  \tempoFour "Medium Latin [Dean Martin 1954]" 120
 
   \partial 2. b8 b8 b8 b8 b8 b8 |
   \bar "||"

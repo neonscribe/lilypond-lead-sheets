@@ -30,7 +30,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \minor
   \clef \whatClef
-  \tempo "Medium [Stanley Turrentine 1970]" 4 = 122
+  \tempoFour "Medium [Stanley Turrentine 1970]" 122
 
   \xTextMark \markup{ \bold \box "Intro" }
   

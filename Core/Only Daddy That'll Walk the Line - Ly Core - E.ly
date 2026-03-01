@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast [Waylon Jennings 1968]" 4 = 160
+  \tempoFour "Fast [Waylon Jennings 1968]" 160
 
   \sectStart "Intro"
   

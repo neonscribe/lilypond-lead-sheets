@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [The Pied Pipers 1944]" 4 = 70
+  \tempoFour "Ballad [The Pied Pipers 1944]" 70
 
   \sectStart "A1"
   

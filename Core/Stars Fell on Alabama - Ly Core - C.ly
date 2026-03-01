@@ -38,7 +38,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempo "Medium [Guy Lombardo 1934]" 4 = 116
+  \tempoFour "Medium [Guy Lombardo 1934]" 116
 
   \xTextMark \markup{ "Intro" }
   
@@ -198,7 +198,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Guy Lombardo 1934]" 4 = 116
+  \tempoFour "Medium [Guy Lombardo 1934]" 116
 
   \sectStart "A1"
   \set Score.currentBarNumber = #1

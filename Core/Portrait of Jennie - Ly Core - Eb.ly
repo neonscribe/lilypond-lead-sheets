@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Nat King Cole 1949]" 4 = 68
+  \tempoFour "Ballad [Nat King Cole 1949]" 68
   
   \partial 2. bf,4 \tuplet 3/2 { g'4 gf4 d4 } |
 

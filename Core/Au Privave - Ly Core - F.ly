@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Up [Charlie Parker 1951]" 4 = 200
+  \tempoFour "Up [Charlie Parker 1951]" 200
 
     f8 e8 f8 c8 r4 a'8 gs8 | a8 c,8 r8 e8 r8 g8 f8 c8 |
     g'8 f8 a8 bf8 a8 f8 g8 ef8 | r8 d'4 r8 r8 df4 f,8 |

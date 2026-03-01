@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Bolero [Constance Bennett 1934]" 4 = 118
+  \tempoFour "Bolero [Constance Bennett 1934]" 118
   
   r8 a8 gs8 a8 bf8 a8 gs8 a8 |
 

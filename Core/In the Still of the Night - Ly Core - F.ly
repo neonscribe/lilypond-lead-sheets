@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Ella Fitzgerald 1956]" 4 = 126
+  \tempoFour "Medium [Ella Fitzgerald 1956]" 126
 
   \sectStart "A1"
   

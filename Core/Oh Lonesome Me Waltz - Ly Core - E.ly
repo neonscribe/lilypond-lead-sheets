@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
   \time 6/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow Waltz" 4 = 78
+  \tempoFour "Slow Waltz [Neil Young 1970]" 78
 
   \sectStart "Intro"
 

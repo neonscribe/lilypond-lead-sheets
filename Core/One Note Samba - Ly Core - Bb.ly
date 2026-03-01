@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Samba [João Gilberto 1960]" 4 = 164
+  \tempoFour "Samba [João Gilberto 1960]" 164
 
   \partial 2 \invisEighth f4 f8 |
   \bar "||"

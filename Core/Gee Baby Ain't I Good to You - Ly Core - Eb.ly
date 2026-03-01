@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Blues Ballad [Nat King Cole 1943]" 4 = 75
+  \tempoFour "Blues Ballad [Nat King Cole 1943]" 75
 
   %{
   \sect "Intro"

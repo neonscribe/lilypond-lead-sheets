@@ -99,7 +99,7 @@ refrainMelody = \relative f' {
   \key \refrainKey \minor
   \clef \whatClef
 
-  \tempo "Medium-Up [Art Pepper 1957]" 4 = 178
+  \tempoFour "Medium-Up [Art Pepper 1957]" 178
 
   \partial 2 a4 b4 |
   

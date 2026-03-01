@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad [Billie Holiday with Teddy Wilson 1937]" 4 = 94
+  \tempoFour "Medium Ballad [Billie Holiday with Teddy Wilson 1937]" 94
 
   \xTextMark \markup{ \bold \box "A1,A2" }
   

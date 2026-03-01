@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Miles Davis 1954]" 4 = 120
+  \tempoFour "Medium [Miles Davis 1954]" 120
 
   \partial 4 \invisEighth f8 |
   

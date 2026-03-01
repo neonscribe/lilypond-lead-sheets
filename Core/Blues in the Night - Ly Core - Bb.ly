@@ -109,7 +109,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Slow Blues [Dinah Shore 1941]" 4 = 84
+  \tempoFour "Medium-Slow Blues [Dinah Shore 1941]" 84
 
   \partial 4 \invisEighth f8 |
   \bar "||"

@@ -146,7 +146,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad [Irene Kral 1977]" 4 = 60
+  \tempoFour "Ballad [Irene Kral 1977]" 60
 
   \sectStart "Intro"
   

@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast [Gram Parsons 1973]" 4 = 235
+  \tempoFour "Fast [Gram Parsons 1973]" 235
 
   \partial 2. c'8 c8~ c8 c8 c8 bf8 |
   \bar "||"

@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Tommy Dorsey with Frank Sinatra 1939]" 4 = 68
+  \tempoFour "Ballad [Tommy Dorsey with Frank Sinatra 1939]" 68
   
   \partial 2. bf4 d4 c4 |
   \bar "||"

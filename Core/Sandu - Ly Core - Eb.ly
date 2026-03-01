@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing [Clifford Brown & Max Roach 1955]" 4 = 138
+  \tempoFour "Medium Swing [Clifford Brown & Max Roach 1955]" 138
 
   \partial 2. r8 ef8 g8 bf8 \tuplet 3/2 { c8 bf8 ef8 } |
 

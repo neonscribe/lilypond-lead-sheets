@@ -93,7 +93,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Ballad [Frank Sinatra 1966]" 4 = 90
+  \tempoFour "Medium Ballad [Frank Sinatra 1966]" 90
 
   \partial 2 gs4 a4 |
 

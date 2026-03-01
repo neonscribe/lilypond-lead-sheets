@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [June Christy 1955]" 4 = 146
+  \tempoFour "Medium [June Christy 1955]" 146
 
   \partial 2. d4 d4 d4 |
   \bar "||"

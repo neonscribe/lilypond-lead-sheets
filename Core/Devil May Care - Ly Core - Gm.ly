@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Up [Bob Dorough 1957]" 4 = 210
+  \tempoFour "Up [Bob Dorough 1957]" 210
 
   \sectStart "A1"
   

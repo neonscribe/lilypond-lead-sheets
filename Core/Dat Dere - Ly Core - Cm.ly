@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Swing [Bobby Timmons 1960]" 4 = 135
+  \tempoFour "Medium Swing [Bobby Timmons 1960]" 135
 
   \partial 4 \invisEighth c8 |
   \bar "||"

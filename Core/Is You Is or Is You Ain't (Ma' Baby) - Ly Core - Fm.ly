@@ -49,7 +49,7 @@ introMelody = \relative g' {
   \time 4/4
   \key \introKey \minor
   \clef \whatClef
-  \tempo "Medium-Slow [Diana Krall 1995]" 4 = 117
+  \tempoFour "Medium-Slow [Diana Krall 1995]" 117
 
   \xTextMark \markup{ "Intro" }
   

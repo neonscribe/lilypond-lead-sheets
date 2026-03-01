@@ -93,7 +93,7 @@ refrainMelody = \relative c' {
   \time 2/2
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Samba [Antonio Carlos Jobim 1965]" 4 = 150
+  \tempoFour "Medium Samba [Antonio Carlos Jobim 1965]" 150
 
   \partial 2 \invisEighth
   

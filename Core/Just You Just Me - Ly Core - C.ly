@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key c \major
   \clef \whatClef
-  \tempo "Fast [Nat King Cole 1957]" 4 = 203
+  \tempoFour "Fast [Nat King Cole 1957]" 203
 
   \xTextMark \markup{ \bold \box "A1" }
   

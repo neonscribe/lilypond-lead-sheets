@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Don Byrd - Gigi Gryce 1957]" 4 = 65
+  \tempoFour "Ballad [Don Byrd - Gigi Gryce 1957]" 65
 
   \sectStart "Intro"
   

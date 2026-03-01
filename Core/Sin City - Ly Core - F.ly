@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Flying Burrito Brothers 1969]" 4 = 125
+  \tempoFour "Medium [Flying Burrito Brothers 1969]" 125
   
   \sectStart "Intro"
   

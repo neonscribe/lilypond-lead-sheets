@@ -84,7 +84,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Frank Sinatra 1955]" 4 = 58
+  \tempoFour "Ballad [Frank Sinatra 1955]" 58
 
   \partial 4 c8 d8 |
 

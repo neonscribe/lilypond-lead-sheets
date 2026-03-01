@@ -89,7 +89,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Beatles 1968]" 4 = 109
+  \tempoFour "Medium [Beatles 1968]" 109
 
   \sectStart "Piano Intro"
   

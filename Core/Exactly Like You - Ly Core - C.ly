@@ -124,7 +124,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Fast Swing [Django Reinhardt 1937]" 4 = 180
+  \tempoFour "Medium-Fast Swing [Django Reinhardt 1937]" 180
 
   \xTextMark \markup{ \bold \box "A1" }
   

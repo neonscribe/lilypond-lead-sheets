@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Slow [Faron Young 1961]" 4 = 100
+  \tempoFour "Medium-Slow [Faron Young 1961]" 100
 
   \sectStart "Intro"
   

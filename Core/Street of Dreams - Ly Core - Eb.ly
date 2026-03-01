@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad or Medium [Stacey Kent 2004]" 4 = 120
+  \tempoFour "Ballad or Medium [Stacey Kent 2004]" 120
 
   \sectStart "A"
   

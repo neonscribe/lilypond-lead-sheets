@@ -104,7 +104,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Beatles 1967]" 4 = 135
+  \tempoFour "Medium [Beatles 1967]" 135
 
   \xTextMark \markup{ \bold \box "Intro" }
   

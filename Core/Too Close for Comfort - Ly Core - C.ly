@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up Swing [Eydie Gormé 1959]" 4 = 136
+  \tempoFour "Medium-Up Swing [Eydie Gormé 1959]" 136
 
   \partial 4 e4 |
 

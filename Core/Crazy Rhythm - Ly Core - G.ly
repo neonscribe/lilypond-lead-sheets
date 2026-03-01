@@ -94,7 +94,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up Swing [Doris Day 1950]" 4 = 192
+  \tempoFour "Medium-Up Swing [Doris Day 1950]" 192
 
   \xTextMark \markup{ \bold \box "A1" }
   

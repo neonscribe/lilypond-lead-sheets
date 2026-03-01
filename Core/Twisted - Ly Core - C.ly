@@ -108,7 +108,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing [Lambert, Hendricks & Ross 1959]" 4 = 162
+  \tempoFour "Medium Swing [Lambert, Hendricks & Ross 1959]" 162
 
   \xTextMark \markup{ \bold \box "Intro" }
   

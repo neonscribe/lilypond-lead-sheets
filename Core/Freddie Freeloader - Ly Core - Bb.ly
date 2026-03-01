@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Miles Davis 1959]" 4 = 129
+  \tempoFour "Medium [Miles Davis 1959]" 129
 
   \sectStart "Head"
 

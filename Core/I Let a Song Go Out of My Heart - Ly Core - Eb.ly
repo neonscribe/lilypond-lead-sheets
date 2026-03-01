@@ -84,7 +84,7 @@ refrainMelody = \relative g' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Slow [Duke Ellington 1938]" 4 = 104
+  \tempoFour "Medium-Slow [Duke Ellington 1938]" 104
 
   \sectStart "A1"
 

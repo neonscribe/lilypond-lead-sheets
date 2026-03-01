@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Latin [Caterina Valente 1957]" 4 = 137
+  \tempoFour "Latin [Caterina Valente 1957]" 137
 
   \partial 4 c4 |
   \bar "||"

@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up [Red Mitchell 1956]" 4 = 168
+  \tempoFour "Medium-Up [Red Mitchell 1956]" 168
 
   \partial 2 f8 g8 bf8 \acciaccatura df8( d8~) |
 

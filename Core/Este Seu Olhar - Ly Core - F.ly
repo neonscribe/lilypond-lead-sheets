@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Bossa [João Gilberto 1961]" 4 = 133
+  \tempoFour "Medium Bossa [João Gilberto 1961]" 133
 
   \bar ".|:"
   \repeat volta 2 {

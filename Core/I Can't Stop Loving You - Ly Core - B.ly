@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Ray Charles 1962]" 4 = 80
+  \tempoFour "Ballad [Ray Charles 1962]" 80
   
   \partial 2. ds'4 cs4 b4 |
 

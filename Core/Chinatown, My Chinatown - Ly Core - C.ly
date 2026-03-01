@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast [Louis Armstrong 1931]" 4 = 300
+  \tempoFour "Fast [Louis Armstrong 1931]" 300
 
   \sectStart "A1"
   

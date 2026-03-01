@@ -44,7 +44,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow Swing [Wayne Shorter 1964]" 4 = 105
+  \tempoFour "Slow Swing [Wayne Shorter 1964]" 105
 
   \sectStart "A1"
   

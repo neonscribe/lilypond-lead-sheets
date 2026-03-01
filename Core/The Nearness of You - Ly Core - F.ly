@@ -84,7 +84,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad [Norah Jones 2002]" 4 = 89
+  \tempoFour "Medium Ballad [Norah Jones 2002]" 89
   
   \partial 2 \invisEighth c8 f8 g8 |
   \bar "||"

@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium-Fast [Kenny Clarke, Cannonball Adderley 1955]" 4 = 176
+  \tempoFour "Medium-Fast [Kenny Clarke, Cannonball Adderley 1955]" 176
 
   \sectStart "A1"
   

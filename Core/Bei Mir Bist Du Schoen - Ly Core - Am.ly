@@ -105,7 +105,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium-Up Swing [Andrews Sisters 1937]" 4 = 165
+  \tempoFour "Medium-Up Swing [Andrews Sisters 1937]" 165
   
   \xTextMark "Verse"
   

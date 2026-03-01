@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Gospel [Nina Simone 1967]" 4 = 124
+  \tempoFour "Medium Gospel [Nina Simone 1967]" 124
 
   \partial 4 f4 |
   \bar "||"

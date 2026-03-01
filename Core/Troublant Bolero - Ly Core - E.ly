@@ -29,7 +29,7 @@ bassIntro = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef bass
-  \tempo "Bolero [Django Reinhardt 1952]" 4 = 118
+  \tempoFour "Bolero [Django Reinhardt 1952]" 118
 
   \xTextMark \markup{ \bold \box "Intro" }
 

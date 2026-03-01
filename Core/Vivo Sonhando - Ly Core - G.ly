@@ -31,7 +31,7 @@ introMelody = \relative g' {
   \time 2/2
   \key \introKey \major
   \clef \whatClef
-  \tempo "Medium Bossa [Joe Henderson 1995]" 4 = 128
+  \tempoFour "Medium Bossa [Joe Henderson 1995]" 128
 
   \xTextMark \markup { \bold \box "Intro" }
 

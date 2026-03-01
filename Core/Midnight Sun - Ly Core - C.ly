@@ -150,7 +150,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [June Christy 1954]" 4 = 74
+  \tempoFour "Ballad [June Christy 1954]" 74
   
   \partial 4 b4 |
   

@@ -63,7 +63,7 @@ verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
-  \tempo "Medium Swing [Louis Armstrong 1929]" 4 = 122
+  \tempoFour "Medium Swing [Louis Armstrong 1929]" 122
 
   \xTextMark \markup{ \bold \box "Verse" }
   

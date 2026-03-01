@@ -60,7 +60,7 @@ refrainMelody = \relative g {
   \time 4/4
   \key \refrainKey \major
   \clef bass
-  \tempo "Medium [The Byrds 1965]" 4 = 134
+  \tempoFour "Medium [The Byrds 1965]" 134
 
   \xTextMark \markup { "Intro" }
 

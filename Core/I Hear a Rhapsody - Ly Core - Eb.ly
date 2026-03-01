@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up [Jackie McLean 1960]" 4 = 170
+  \tempoFour "Medium-Up [Jackie McLean 1960]" 170
 
   \partial 2. g4 a4 b4 |
   \bar "||"

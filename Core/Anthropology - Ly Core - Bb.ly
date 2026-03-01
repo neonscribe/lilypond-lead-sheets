@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Bop [Dizzy Gillespie 1946]" 4 = 260
+  \tempoFour "Fast Bop [Dizzy Gillespie 1946]" 260
 
   \sectStart "A1"
   

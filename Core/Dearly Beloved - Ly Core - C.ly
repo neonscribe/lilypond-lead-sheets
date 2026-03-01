@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Fred Astaire 1942]" 4 = 130
+  \tempoFour "Medium [Fred Astaire 1942]" 130
 
   \sectStart "A1"
   

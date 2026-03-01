@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [New Orleans Rhythm Kings 1923]" 4 = 108
+  \tempoFour "Medium [New Orleans Rhythm Kings 1923]" 108
 
   \partial 4 f8 g8 |
   \bar "||"

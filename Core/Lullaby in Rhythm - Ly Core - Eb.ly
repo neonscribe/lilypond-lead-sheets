@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Benny Goodman 1938]" 4 = 160
+  \tempoFour "Medium [Benny Goodman 1938]" 160
 
   \xTextMark \markup{ \bold \box "A1" }
   

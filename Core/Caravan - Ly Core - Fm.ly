@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Fast Latin [Duke Ellington 1937]" 4 = 208
+  \tempoFour "Fast Latin [Duke Ellington 1937]" 208
 
   \xTextMark \markup{ \bold \box "A1" }
   

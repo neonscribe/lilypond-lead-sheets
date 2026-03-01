@@ -176,7 +176,7 @@ refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Miles Davis and Gil Evans 1959]" 4 = 110
+  \tempoFour "Medium [Miles Davis and Gil Evans 1959]" 110
   
   \partial 2 e4 c4 |
   \bar "||"

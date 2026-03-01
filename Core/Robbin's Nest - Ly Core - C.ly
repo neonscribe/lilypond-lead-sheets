@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing [Ella Fitzgerald 1947]" 4 = 112
+  \tempoFour "Medium Swing [Ella Fitzgerald 1947]" 112
 
   \partial 2 \invisEighth ds8 \tuplet 3/2 { e8 g8 b8 } |
 

@@ -67,7 +67,7 @@ refrainMelody = \relative g, {
   \time 4/4
   \key \refrainKey \minor
   \clef bass
-  \tempo "Medium [Sarah Shook 2018]" 4 = 122
+  \tempoFour "Medium [Sarah Shook 2018]" 122
 
   \xTextMark "Intro"
 

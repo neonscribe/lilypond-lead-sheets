@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up [Chet Baker 1955]" 4 = 190
+  \tempoFour "Medium-Up [Chet Baker 1955]" 190
 
   \partial 2 b2 |
   \bar "||"

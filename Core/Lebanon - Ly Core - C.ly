@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo \markup { Medium Shuffle \rhythm { 8[ 8] } = \rhythm { \tuplet 3/2 { 8( 8) 8 } } } 4 = 108
+  \tempoFour \markup { Medium Shuffle \rhythm { 8[ 8] } = \rhythm { \tuplet 3/2 { 8( 8) 8 } } } 108
 
   \xTextMark \markup{ \bold \box "Intro" }
   

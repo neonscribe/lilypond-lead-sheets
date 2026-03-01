@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Up [Joscho Stephan Trio 2023]" 4 = 300
+  \tempoFour "Up [Joscho Stephan Trio 2023]" 300
 
   \partial 2. fs4 b4 d4 |
   \bar "||"

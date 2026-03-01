@@ -51,7 +51,7 @@ whatClef =
 refrainMelody = \relative f' {
   \time 4/4
   \clef \whatClef
-  \tempo "Medium Ballad [John Coltrane 1964]" 4 = 72
+  \tempoFour "Medium Ballad [John Coltrane 1964]" 72
 
   \partial 2 ds4_"(soprano saxophone)" cs4 |
 

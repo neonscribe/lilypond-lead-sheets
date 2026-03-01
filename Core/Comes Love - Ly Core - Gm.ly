@@ -105,7 +105,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Ella Fitzgerald and Louis Armstrong 1957]" 4 = 144
+  \tempoFour "Medium [Ella Fitzgerald and Louis Armstrong 1957]" 144
 
   \partial 4 d8 d8 |
   \bar "||"

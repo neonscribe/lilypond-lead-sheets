@@ -27,7 +27,7 @@ introMelody = \relative f' {
   \time 2/2
   \key \introKey \major
   \clef \whatClef
-  \tempo "Medium Fast [Don Gibson 1957]" 4 = 206
+  \tempoFour "Medium Fast [Don Gibson 1957]" 206
   
   \sectStart "Intro"
   

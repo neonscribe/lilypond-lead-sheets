@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Jazz Waltz [Irene Kral 1964]" 4 = 150
+  \tempoFour "Jazz Waltz [Irene Kral 1964]" 150
   
   \partial 4 \tuplet 3/2 { a,8 c8 e8 } |
   \bar "||"

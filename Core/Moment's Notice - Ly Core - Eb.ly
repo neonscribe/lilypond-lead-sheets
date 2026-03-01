@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing [John Coltrane 1957]" 4 = 236
+  \tempoFour "Fast Swing [John Coltrane 1957]" 236
 
   \sectStart "Intro"
   

@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Eddie Cantor 1928]" 4 = 110
+  \tempoFour "Medium [Eddie Cantor 1928]" 110
   
   \partial 2 \invisEighth c8 d8 c8 |
   \bar "||"

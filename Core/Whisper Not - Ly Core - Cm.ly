@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Anita O'Day 1962]" 4 = 125
+  \tempoFour "Medium [Anita O'Day 1962]" 125
 
   \partial 4 c8 g'8~ |
 

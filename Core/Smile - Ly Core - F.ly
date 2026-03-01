@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Nat King Cole 1954]" 4 = 80
+  \tempoFour "Ballad [Nat King Cole 1954]" 80
 
   \bar ".|:"
   \repeat volta 2 {

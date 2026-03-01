@@ -100,7 +100,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [The SteelDrivers 2007]" 4 = 160
+  \tempoFour "Medium [The SteelDrivers 2007]" 160
 
   \sectStart "Intro"
   

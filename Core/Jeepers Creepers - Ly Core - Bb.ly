@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing [Louis Armstrong 1939]" 4 = 165
+  \tempoFour "Medium Swing [Louis Armstrong 1939]" 165
 
   \sectStart "A1"
   

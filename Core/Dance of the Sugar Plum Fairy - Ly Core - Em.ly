@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Freddy Martin 1942]" 4 = 152
+  \tempoFour "Medium [Freddy Martin 1942]" 152
 
   \xTextMark \markup{ \bold \box "Intro" }
   

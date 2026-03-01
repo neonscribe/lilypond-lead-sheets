@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Ray Bolger, Wizard of Oz 1939]" 4 = 128
+  \tempoFour "Medium [Ray Bolger, Wizard of Oz 1939]" 128
 
   \partial 4 a8 bf8 |
   \bar "||"

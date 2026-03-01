@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing [Bill Evans 1961]" 4 = 176
+  \tempoFour "Medium Swing [Bill Evans 1961]" 176
   
   \partial 4 e8 f8 |
   \bar "||"

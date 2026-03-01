@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad [Nat King Cole 1947]" 4 = 64
+  \tempoFour "Ballad [Nat King Cole 1947]" 64
 
   \partial 4 \invisEighth b,8 |
   

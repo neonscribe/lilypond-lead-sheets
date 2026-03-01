@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up [Judy Garland 1950]" 4 = 170
+  \tempoFour "Medium-Up [Judy Garland 1950]" 170
 
   \partial 2 \invisEighth c8 f8 a8 |
 

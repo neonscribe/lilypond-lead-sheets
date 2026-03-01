@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Latin [The Rosenberg Trio 1991]" 4 = 172
+  \tempoFour "Latin [The Rosenberg Trio 1991]" 172
 
   \xTextMark \markup{ \bold \box "Intro" }
   

@@ -90,7 +90,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Ray Charles 1961]" 4 = 152
+  \tempoFour "Medium [Ray Charles 1961]" 152
 
   \sectStart "Intro"
   

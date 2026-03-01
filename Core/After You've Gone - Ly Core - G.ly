@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing [Benny Goodman Quintet 1935]" 2 = 135
+  \tempoFour "Fast Swing [Benny Goodman Quintet 1935]" 270
 
   \sectStart "A1,A2"
   

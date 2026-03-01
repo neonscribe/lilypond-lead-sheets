@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [John Coltrane 1964]" 4 = 72
+  \tempoFour "Ballad [John Coltrane 1964]" 72
 
   \partial 2 ds4 cs4 |
 

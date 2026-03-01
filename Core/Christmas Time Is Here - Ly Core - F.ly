@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad Waltz [Vince Guaraldi 1965]" 4 = 75
+  \tempoFour "Ballad Waltz [Vince Guaraldi 1965]" 75
 
   \xTextMark \markup{ \bold \box "A1" }
   

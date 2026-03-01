@@ -96,7 +96,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Blossom Dearie 1967]" 4 = 108
+  \tempoFour "Medium [Blossom Dearie 1967]" 108
 
   \partial 2 \invisEighth r4. |
   \bar "||"

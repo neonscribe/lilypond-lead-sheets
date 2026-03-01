@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Up Two Beat [Herbie Hancock & Chick Corea 1978]" 4 = 250
+  \tempoFour "Up Two Beat [Herbie Hancock & Chick Corea 1978]" 250
 
   \sectStart "A1"
   

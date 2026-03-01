@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Slow [Louis Armstrong 1930]" 4 = 90
+  \tempoFour "Medium-Slow [Louis Armstrong 1930]" 90
 
   \partial 2 \invisEighth d'8 ef8 e8 |
 

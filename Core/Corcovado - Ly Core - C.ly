@@ -131,7 +131,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Bossa [Stan Getz & João Gilberto 1964]" 4 = 130
+  \tempoFour "Medium Bossa [Stan Getz & João Gilberto 1964]" 130
 
   \sectStart "Intro"
   

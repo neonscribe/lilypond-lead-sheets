@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Slow [Gene Autry 1939]" 4 = 100
+  \tempoFour "Medium-Slow [Gene Autry 1939]" 100
 
   \partial 4 e4 |
 

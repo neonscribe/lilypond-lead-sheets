@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Up [Frank Sinatra 1950]" 4 = 250
+  \tempoFour "Up [Frank Sinatra 1950]" 250
 
   \sectStart "A1"
 

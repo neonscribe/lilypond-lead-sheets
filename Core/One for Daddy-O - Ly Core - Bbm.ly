@@ -36,7 +36,7 @@ refrainMelody = \relative f {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Swing [Cannonball Adderley 1958]" 4 = 104
+  \tempoFour "Medium Swing [Cannonball Adderley 1958]" 104
 
   \partial 2. bf4 df8 f8 g4 |
   

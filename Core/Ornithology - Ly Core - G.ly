@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Bop [Charlie Parker Septet 1946]" 4 = 225
+  \tempoFour "Fast Bop [Charlie Parker Septet 1946]" 225
 
   \partial 4 \invisEighth d8 |
   \bar "||"

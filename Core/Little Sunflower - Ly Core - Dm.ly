@@ -27,7 +27,7 @@ bassIntro = \relative f' {
   \time 4/4
   \key \introKey \minor
   \clef bass
-  \tempo "Medium Latin [Freddie Hubbard 1967]" 4 = 140
+  \tempoFour "Medium Latin [Freddie Hubbard 1967]" 140
   
   \sectStart "Intro"
 

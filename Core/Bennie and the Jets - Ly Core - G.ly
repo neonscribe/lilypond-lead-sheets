@@ -33,7 +33,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempo "Slow [Elton John 1973]" 4 = 66
+  \tempoFour "Slow [Elton John 1973]" 66
 
   \xTextMark \markup{ \bold \box "Intro" }
   

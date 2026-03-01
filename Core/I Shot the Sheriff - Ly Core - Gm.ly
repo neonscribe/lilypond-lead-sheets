@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium Slow [Eric Clapton 1974]" 4 = 95
+  \tempoFour "Medium Slow [Eric Clapton 1974]" 95
 
   \xTextMark \markup{ \bold \box "A" }
   

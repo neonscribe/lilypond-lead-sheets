@@ -123,9 +123,9 @@ refrainMelody = \relative f' {
   \time 12/8
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slowly [Ray Charles 1962]" 4. = 70
+  \tempoFourDot "Slowly [Ray Charles 1962]" 70
 
-  \xTextMark \markup{ "Intro" }
+  \sectStart "Intro"
 
   bf4. \tuplet 4/6 { bf16( ef16 g16 c16 } bf4.) bf,4. |
   bf4. \tuplet 4/6 { bf16( d16 f16 c'16 } bf4.) bf,4. |

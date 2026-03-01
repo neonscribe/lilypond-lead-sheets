@@ -27,7 +27,7 @@ bassIntro = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef bass
-  \tempo "Ballad [Glen Campbell 1968]" 4 = 86
+  \tempoFour "Ballad [Glen Campbell 1968]" 86
   
   \sectStart "Intro"
 

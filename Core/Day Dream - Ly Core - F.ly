@@ -96,7 +96,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Johnny Hodges 1940]" 4 = 70
+  \tempoFour "Ballad [Johnny Hodges 1940]" 70
 
   \sectStart "A1"
   

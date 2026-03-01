@@ -133,7 +133,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow Swing [Louis Armstrong 1949]" 4 = 94
+  \tempoFour "Slow Swing [Louis Armstrong 1949]" 94
 
   \sectStart "Intro"
 

@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up Swing [Fletcher Henderson 1936]" 4 = 200
+  \tempoFour "Medium-Up Swing [Fletcher Henderson 1936]" 200
 
   \xTextMark \markup{ \bold \box "A1" }
   

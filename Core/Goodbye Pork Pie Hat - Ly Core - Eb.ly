@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Charles Mingus 1959]" 4 = 52
+  \tempoFour "Ballad [Charles Mingus 1959]" 52
 
   \partial 4 \invisEighth bf,8 |
   \bar "||"

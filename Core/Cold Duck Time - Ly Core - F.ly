@@ -41,7 +41,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Rock/Gospel Straight Eighths [Les McCann and Eddie Harris 1969]" 4 = 150
+  \tempoFour "Medium Rock/Gospel Straight Eighths [Les McCann and Eddie Harris 1969]" 150
 
   \xTextMark \markup{ \bold \box "Intro" }
   

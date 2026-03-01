@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up Swing [Sonny Rollins 1956]" 4 = 200
+  \tempoFour "Medium-Up Swing [Sonny Rollins 1956]" 200
 
   \xTextMark \markup{ \bold \box "Head" }
 

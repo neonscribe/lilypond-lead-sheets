@@ -82,7 +82,7 @@ whatClef =
 refrainMelody = \relative c'' {
   \time 4/4
   \clef \whatClef
-  \tempo "Ballad [Carmen McRae 1990]" 4 = 58
+  \tempoFour "Ballad [Carmen McRae 1990]" 58
 
   \sectStart "A1"
 

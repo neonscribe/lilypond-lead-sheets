@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing [Jo Stafford 1947]" 4 = 165
+  \tempoFour "Medium Swing [Jo Stafford 1947]" 165
 
   \partial 2 g2 |
   \bar "||"

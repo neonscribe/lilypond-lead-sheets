@@ -146,7 +146,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Gospel [Ray Charles 1955]" 4 = 148
+  \tempoFour "Medium Gospel [Ray Charles 1955]" 148
 
   \sectStart "A1"
   

@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow Blues [Bessie Smith 1923]" 4 = 80
+  \tempoFour "Slow Blues [Bessie Smith 1923]" 80
 
   \sectStart "Verse"
   

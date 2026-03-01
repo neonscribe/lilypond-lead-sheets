@@ -119,7 +119,7 @@ refrainMelody = \relative f' {
   \time 9/8
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Willie Nelson 1982]" 4 = 65
+  \tempoFour "Ballad [Willie Nelson 1982]" 65
 
   \xTextMark \markup "Intro"
 

@@ -84,7 +84,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad or Medium [Bill Evans 1959]" 4 = 152
+  \tempoFour "Ballad or Medium [Bill Evans 1959]" 152
 
   \partial 2 \invisEighth bf8 c8 ef8 |
   \bar "||"

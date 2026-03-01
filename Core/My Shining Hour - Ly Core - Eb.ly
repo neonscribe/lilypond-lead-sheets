@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Slow [Casa Loma Orchestra 1943]" 4 = 110
+  \tempoFour "Medium Slow [Casa Loma Orchestra 1943]" 110
 
   \sectStart "A1"
   

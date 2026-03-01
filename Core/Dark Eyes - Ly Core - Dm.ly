@@ -42,7 +42,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Fast [Django Reinhardt 1940]" 4 = 264
+  \tempoFour "Fast [Django Reinhardt 1940]" 264
 
   \partial 2. \tuplet 3/2 { a8 bf8 a8 } gs4 a4 |
   \bar "||"

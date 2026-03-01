@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slowly [Oscar Peterson 1962]" 4 = 84
+  \tempoFour "Slowly [Oscar Peterson 1962]" 84
 
   \sectStart "A1"
   

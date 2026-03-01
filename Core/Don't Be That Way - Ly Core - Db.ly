@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up [Beny Goodman 1938]" 4 = 160
+  \tempoFour "Medium-Up [Beny Goodman 1938]" 160
 
   \partial 2 af2 |
   \bar "||"

@@ -30,7 +30,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \minor
   \clef \whatClef
-  \tempo "Medium-Slow Latin/Rock [George Benson 1976]" 4 = 91
+  \tempoFour "Medium-Slow Latin/Rock [George Benson 1976]" 91
   
   \bar ".|:"
   \repeat volta 2 {

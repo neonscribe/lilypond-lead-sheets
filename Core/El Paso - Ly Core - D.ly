@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Waltz, in 1 [Marty Robbins 1959]" 2. = 107
+  \tempoTwoDot "Fast Waltz, in 1 [Marty Robbins 1959]" 107
 
   \sectStart "Intro"
   

@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Lefty Frizzell 1959]" 4 = 130
+  \tempoFour "Medium [Lefty Frizzell 1959]" 130
 
   \sectStart "Verse"
   

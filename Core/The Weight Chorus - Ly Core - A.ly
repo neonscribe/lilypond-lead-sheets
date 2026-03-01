@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Slow" 4 = 72
+  \tempoFour "Medium-Slow" 72
 
   \sectStart "Chorus"
   

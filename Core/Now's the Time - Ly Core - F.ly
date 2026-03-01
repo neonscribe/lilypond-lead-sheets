@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Blues [Charley Parker's Ree Boppers 1945]" 4 = 130
+  \tempoFour "Medium Blues [Charley Parker's Ree Boppers 1945]" 130
 
   \partial 4 \invisEighth c8 |
 

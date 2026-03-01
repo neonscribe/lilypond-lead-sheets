@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Dinah Washington 1961]" 4 = 110
+  \tempoFour "Medium [Dinah Washington 1961]" 110
   
   \partial 4 bf4 |
   \bar "||"

@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Slow Swing [John Coltrane 1958]" 4 = 128
+  \tempoFour "Medium-Slow Swing [John Coltrane 1958]" 128
   
   \partial 4 \invisEighth f8 |
   \bar "||"

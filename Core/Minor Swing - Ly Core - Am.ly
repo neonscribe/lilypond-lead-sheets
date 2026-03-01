@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Swing [Django Reinhardt 1937]" 4 = 210
+  \tempoFour "Swing [Django Reinhardt 1937]" 210
 
   \sectStart "Intro"
   

@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [J.J. Johnson - Kai Winding 1954]" 4 = 70
+  \tempoFour "Ballad [J.J. Johnson - Kai Winding 1954]" 70
 
   \sectStart "A1"
   

@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Fast Latin [Jazz Messengers 1956]" 4 = 188
+  \tempoFour "Fast Latin [Jazz Messengers 1956]" 188
 
   \partial 4 f4 |
 

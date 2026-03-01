@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad [Elvis Costello 1982]" 4 = 62
+  \tempoFour "Ballad [Elvis Costello 1982]" 62
 
   \sectStart "Intro"
 

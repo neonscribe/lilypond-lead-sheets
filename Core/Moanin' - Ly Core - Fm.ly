@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Art Blakey 1958]" 4 = 132
+  \tempoFour "Medium [Art Blakey 1958]" 132
 
   r8 f8 r8 f8 af8 af8 f8 c8 |
 

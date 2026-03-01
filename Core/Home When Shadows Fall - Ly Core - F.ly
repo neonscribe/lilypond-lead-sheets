@@ -67,7 +67,7 @@ refrainMelody =  \relative f' {
   \time 2/2 
   \clef \whatClef
   \key \refrainKey \major
-  \tempo "Medium [Helen Humes 1961]" 4 = 110
+  \tempoFour "Medium [Helen Humes 1961]" 110
 
   \xTextMark \markup{ \bold \box "A1" }
   c'2 a4 c4 | e2. d4 | bf2 d,8 ds8 e8 c'8 | a2 g2 |

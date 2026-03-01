@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad Waltz [Elvis Presley 1960]" 4 = 77
+  \tempoFour "Ballad Waltz [Elvis Presley 1960]" 77
 
   \partial 4 e8 g8 |
   \bar "||"

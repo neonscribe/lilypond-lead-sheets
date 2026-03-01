@@ -101,7 +101,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad [Nat King Cole 1953]" 4 = 75
+  \tempoFour "Ballad [Nat King Cole 1953]" 75
 
   \sectStart "A1"
   

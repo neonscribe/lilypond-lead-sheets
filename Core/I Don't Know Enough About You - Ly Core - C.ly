@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Peggy Lee 1945]" 4 = 80
+  \tempoFour "Ballad [Peggy Lee 1945]" 80
   
   \partial 2 \invisEighth fs8 g8 gs8 |
 

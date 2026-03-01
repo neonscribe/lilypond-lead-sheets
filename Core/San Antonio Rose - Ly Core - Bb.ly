@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast [Bob Wills 1938]" 4 = 200
+  \tempoFour "Fast [Bob Wills 1938]" 200
 
   \partial 2 f4 bf4 |
   \bar "||"

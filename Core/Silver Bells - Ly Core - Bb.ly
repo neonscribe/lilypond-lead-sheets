@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Jazz Waltz [Dean Martin 1966]" 4 = 100
+  \tempoFour "Medium Jazz Waltz [Dean Martin 1966]" 100
 
   \partial 4 bf8 g8 |
 

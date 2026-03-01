@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow Rumba [Los Lobos 1978]" 4 = 88
+  \tempoFour "Slow Rumba [Los Lobos 1978]" 88
   
   \sectStart "Intro"
   

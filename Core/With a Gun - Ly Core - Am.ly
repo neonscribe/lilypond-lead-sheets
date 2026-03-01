@@ -105,7 +105,7 @@ refrainMelody = \relative f'' {
   \time 2/2
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Steely Dan 1973]" 4 = 220
+  \tempoFour "Medium [Steely Dan 1973]" 220
 
   \xTextMark \markup{ "Intro" }
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 

@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad [Sarah Vaughan 1953]" 4 = 89
+  \tempoFour "Medium Ballad [Sarah Vaughan 1953]" 89
 
   \sectStart "A1"
   

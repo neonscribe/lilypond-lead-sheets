@@ -58,7 +58,7 @@ introMelody = \relative g' {
   \key \introKey \major
   \clef \whatClef
 
-  \tempo "Med.-Up Swing [Fred Astaire 1935]" 4 = 152
+  \tempoFour "Med.-Up Swing [Fred Astaire 1935]" 152
 
   \xTextMark \markup{ Intro }
   \bar ".|:"

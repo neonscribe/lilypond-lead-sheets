@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Jazz Waltz [John Coltrane 1961]" 4 = 180
+  \tempoFour "Jazz Waltz [John Coltrane 1961]" 180
 
   \xTextMark \markup{ \bold \box "Minor A1, A2" }
   \bar ".|:"

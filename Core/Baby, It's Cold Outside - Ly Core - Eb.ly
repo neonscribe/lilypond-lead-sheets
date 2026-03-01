@@ -103,7 +103,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Slow Swing [Ray Charles & Betty Carter 1961]" 4 = 78
+  \tempoFour "Medium Slow Swing [Ray Charles & Betty Carter 1961]" 78
 
   \partial 4 \invisEighth bf,8 |
 

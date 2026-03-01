@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Bossa or Ballad [Django Reinhardt 1943]" 4 = 90
+  \tempoFour "Bossa or Ballad [Django Reinhardt 1943]" 90
 
   \partial 2 fs2 |
   \bar "||"

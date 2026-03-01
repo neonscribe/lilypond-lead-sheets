@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Swing [Blossom Dearie 1955]" 4 = 184
+  \tempoFour "Swing [Blossom Dearie 1955]" 184
 
   \partial 4 \invisEighth gs8 |
 

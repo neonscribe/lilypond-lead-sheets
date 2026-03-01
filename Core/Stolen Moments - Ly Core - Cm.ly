@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium-Slow Swing [Oliver Nelson 1961]" 4 = 110
+  \tempoFour "Medium-Slow Swing [Oliver Nelson 1961]" 110
 
   \sectStart "Intro"
   

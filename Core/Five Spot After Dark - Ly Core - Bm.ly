@@ -41,7 +41,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Curtis Fuller's Quintet 1959]" 4 = 168
+  \tempoFour "Medium [Curtis Fuller's Quintet 1959]" 168
 
   \sectStart "Head"
   

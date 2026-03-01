@@ -84,7 +84,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Charlie Walker 1958]" 4 = 150
+  \tempoFour "Medium [Charlie Walker 1958]" 150
   
   \partial 2 e'8 e4. |
   \bar "||"

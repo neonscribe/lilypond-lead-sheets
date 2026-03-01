@@ -32,7 +32,7 @@ verseMelody = \relative f'' {
   \time 2/2
   \key \verseKey \major
   \clef \whatClef
-  \tempo "Medium [Bing Crosby 1945]" 4 = 128
+  \tempoFour "Medium [Bing Crosby 1945]" 128
 
   \xTextMark \markup{ "Verse" }
 

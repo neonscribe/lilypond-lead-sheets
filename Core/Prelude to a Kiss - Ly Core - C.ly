@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Ballad [Sarah Vaughan 1954]" 4 = 93
+  \tempoFour "Medium Ballad [Sarah Vaughan 1954]" 93
 
   \xTextMark \markup{ \bold \box "A1" }
   

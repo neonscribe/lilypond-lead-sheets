@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Up [Bill Evans 1962]" 4 = 220
+  \tempoFour "Up [Bill Evans 1962]" 220
 
   \sectStart "A1"
   

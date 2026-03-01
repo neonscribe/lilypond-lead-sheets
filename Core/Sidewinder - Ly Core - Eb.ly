@@ -31,7 +31,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempo "Funky Swing [Lee Morgan 1964]" 4 = 163
+  \tempoFour "Funky Swing [Lee Morgan 1964]" 163
 
   r1 |
   \bar ".|:"

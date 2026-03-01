@@ -135,7 +135,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad [Chet Baker 1954]" 4 = 60
+  \tempoFour "Ballad [Chet Baker 1954]" 60
   
   \partial 4 a4 |
   \bar"||"

@@ -26,7 +26,7 @@ introKey = b
 bassIntro = \relative f' {
   \time 7/4
   \key \introKey \minor
-  \tempo "Medium [Pink Floyd 1973]" 4 = 125
+  \tempoFour "Medium [Pink Floyd 1973]" 125
   
   \clef bass
 

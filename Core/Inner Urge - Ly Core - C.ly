@@ -42,7 +42,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Up [Joe Henderson 1964]" 4 = 220
+  \tempoFour "Up [Joe Henderson 1964]" 220
 
   \sectStart "A"
   

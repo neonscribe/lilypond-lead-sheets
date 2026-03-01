@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Teddy Wilson 1935]" 4 = 132
+  \tempoFour "Medium [Teddy Wilson 1935]" 132
 
   \partial 4 a4 |
   \bar "||"

@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [The Flamingos 1959]" 4 = 90
+  \tempoFour "Ballad [The Flamingos 1959]" 90
   
   \partial 2 d4. e8 |
 

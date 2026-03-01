@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Swing [Miles Davis All Stars 1947]" 4 = 160
+  \tempoFour "Medium Swing [Miles Davis All Stars 1947]" 160
 
   \sectStart "Intro"
   

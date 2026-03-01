@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast [Annette Hanshaw 1927]" 4 = 230
+  \tempoFour "Fast [Annette Hanshaw 1927]" 230
 
   \sectStart "A1"
   

@@ -103,7 +103,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Fast Swing [Dorado Schmitt 2012]" 4 = 196
+  \tempoFour "Fast Swing [Dorado Schmitt 2012]" 196
 
   \partial 2 g4 b4 |
   \bar "||"

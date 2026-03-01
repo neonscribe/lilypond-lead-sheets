@@ -110,7 +110,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Ray Price 1958]" 4 = 110
+  \tempoFour "Medium [Ray Price 1958]" 110
 
   \partial 2 \rsq \rsq |
 

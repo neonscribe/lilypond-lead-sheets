@@ -102,7 +102,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Bobby Darin 1958]" 4 = 136
+  \tempoFour "Medium [Bobby Darin 1958]" 136
 
   \partial 4 c4 |
   \bar "||"

@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Bossa [Chris Montez 1965]" 4 = 136
+  \tempoFour "Medium Bossa [Chris Montez 1965]" 136
 
   \sectStart "Verse"
   

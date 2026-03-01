@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium-Up [Nat King Cole 1953]" 4 = 180
+  \tempoFour "Medium-Up [Nat King Cole 1953]" 180
   
   \partial 2 bf4 c4 |
   \bar "||"

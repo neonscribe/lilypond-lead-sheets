@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Slow Bossa [Astrud Gilberto 1965]" 4 = 103
+  \tempoFour "Slow Bossa [Astrud Gilberto 1965]" 103
 
   \partial 2. r8 b,8 e8 fs8 g8 b8 |
   \bar "||"

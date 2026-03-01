@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium Fast [Johnny Cash 1955]" 4 = 200
+  \tempoFour "Medium Fast [Johnny Cash 1955]" 200
 
   \sectStart "Intro"
   

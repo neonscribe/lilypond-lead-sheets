@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Bing Crosby 1944]" 4 = 118
+  \tempoFour "Medium [Bing Crosby 1944]" 118
 
   \sectStart "A1"
 

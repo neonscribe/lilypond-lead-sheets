@@ -31,7 +31,7 @@ bassIntro = \relative f {
   \time 4/4
   \key \introKey \minor
   \clef bass
-  \tempo "Medium-Slow Swing [Django Reinhardt 1935]" 4 = 110
+  \tempoFour "Medium-Slow Swing [Django Reinhardt 1935]" 110
   
   \xTextMark \markup{ "Intro, bass only" }
 

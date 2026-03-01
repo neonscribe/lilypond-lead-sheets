@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Ballad [Mal Waldron 1959]" 4 = 64
+  \tempoFour "Ballad [Mal Waldron 1959]" 64
 
   \partial 4 d8 d'8 |
 

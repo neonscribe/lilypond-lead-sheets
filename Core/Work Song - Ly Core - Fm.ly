@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Cannonball Adderley 1960]" 4 = 168
+  \tempoFour "Medium [Cannonball Adderley 1960]" 168
   
   \sectStart "Head"
 

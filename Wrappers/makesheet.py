@@ -289,7 +289,7 @@ refrainMelody = \\relative f' {{
   \\time 4/4
   \\key \\refrainKey \\{'minor' if is_minor else 'major'}
   \\clef \\whatClef
-  \\tempo "Medium" 4 = 120
+  \\tempoFour "Medium" 120
 
   \\sectStart "A1"
   

@@ -113,7 +113,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Freely [Ella Fitzgerald 1961]" 4 = 70
+  \tempoFour "Freely [Ella Fitzgerald 1961]" 70
 
   \sectStart "Verse"
   
@@ -134,7 +134,7 @@ refrainMelody = \relative f' {
   \xPageBreak
 
   \sectNoBar "A1"
-  \tempo "Ballad [Ella Fitzgerald 1961]" 4 = 55
+  \tempoFour "Ballad [Ella Fitzgerald 1961]" 55
   \segnoSign
 
   e4 g8 c8~ c4. g8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 |

@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Wayne Shorter 1966]" 4 = 116
+  \tempoFour "Medium [Wayne Shorter 1966]" 116
 
   \partial 4 \invisEighth e8 |
   \bar "||"

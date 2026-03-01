@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Swing [Jerry Garcia 1974]" 4 = 190
+  \tempoFour "Swing [Jerry Garcia 1974]" 190
 
   \xTextMark \markup{ \bold \box "A1" }
   

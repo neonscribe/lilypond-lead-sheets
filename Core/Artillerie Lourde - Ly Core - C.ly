@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Medium [Django Reinhardt 1949]" 4 = 116
+  \tempoFour "Medium [Django Reinhardt 1949]" 116
 
   \partial 2 \invisEighth g8 b4-. |
 

@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Uptempo Two-Feel [Bob Wills 1945]" 4 = 240
+  \tempoFour "Uptempo Two-Feel [Bob Wills 1945]" 240
 
   \partial 4 \invisEighth c8 |
   \bar "||"

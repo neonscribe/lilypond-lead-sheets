@@ -113,7 +113,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempo "Medium [Lena Horne 1959]" 4 = 118
+  \tempoFour "Medium [Lena Horne 1959]" 118
 
   \partial 4 \invisEighth g8 |
   

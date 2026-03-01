@@ -35,7 +35,7 @@ verseMelody = \relative f' {
   \time 2/2
   \key \verseKey \major
   \clef \whatClef
-  \tempo "Freely" 4 = 86
+  \tempoFour "Freely" 86
   
   \xTextMark \markup{ \bold \box "Verse" }
   
@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempo "Ballad [Harry James 1942]" 4 = 80
+  \tempoFour "Ballad [Harry James 1942]" 80
 
   \xTextMark \markup{ \bold \box "A1" }
   
