@@ -65,6 +65,13 @@ jobs:
           aws s3 cp musicforge/catalog.db s3://musicforge-pdfs/catalog.db
           echo "Catalog uploaded to S3"
 
+      - name: Upload Core and Include to S3
+        run: |
+          cd musicforge/lilypond-data
+          tar czf /tmp/lilypond-sources.tar.gz Core/ Include/
+          aws s3 cp /tmp/lilypond-sources.tar.gz s3://musicforge-pdfs/lilypond-sources.tar.gz
+          echo "Uploaded Core + Include to S3"
+
       - name: Install Fly CLI
         uses: superfly/flyctl-actions/setup-flyctl@master
 
