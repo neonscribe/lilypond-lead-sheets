@@ -7,9 +7,7 @@ instrument =
   instrument
   "Standard Key")
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+% #(set-global-staff-size 18)
 
 \header {
   title = "There Will Never Be Another You"
@@ -38,7 +36,7 @@ refrainNRChords = \chordmode {
   ef1:maj7 ef1:maj7 d1:m7.5- g1:7
   c1:m7 
   \chordInsideParens{ f1:7 }
-  bf1:m9 ef1:3.5.13
+  bf1:m9 ef1:13
 
   af1:maj7 df1:9.11+ ef1:maj7 c1:m7
   f1:9 f1:9 f1:m7 bf1:7
@@ -46,10 +44,10 @@ refrainNRChords = \chordmode {
   ef1:maj7 ef1:maj7 d1:m7.5- g1:7
   c1:m7
   \chordInsideParens{ f1:7 }
-  bf1:m9 ef1:3.5.13
+  bf1:m9 ef1:13
 
   af1:maj7 df1:9.11+ ef1:maj7 a2:m7.5- d2:7
-  ef2:6 af2:9.11+ g2:m7 c2:7 f2:m7 bf2:3.5.13 ef2:6
+  ef2:6 af2:9.11+ g2:m7 c2:7 f2:m7 bf2:13 ef2:6
 
   \chordInsideParens{ bf2:7 }
 }
@@ -72,7 +70,7 @@ refrainHLChords = \chordmode {
   \chordInsideParens{ bf2:7 }
 }
 
-refrainChords = \refrainHLChords
+refrainChords = \refrainNRChords
 
 refrainKey = ef
 
