@@ -16,7 +16,8 @@
   "description": "Show lyrics",
   "values": [false, true],
   "songs": ["Bernie's Tune",
-	    "Well You Needn't"] },
+	    "Well You Needn't",
+	    "Spring Is Here"] },
 
 { "name": "noIntro",
   "category": "structure",
