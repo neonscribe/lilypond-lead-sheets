@@ -7,7 +7,7 @@ instrument =
   instrument
   "Standard Key")
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = \Title
@@ -18,7 +18,7 @@ instrument =
 }
 
 refrainLyrics =
-   $(if (and (defined? 'useBillEvansChords) useBillEvansChords)
+   $(if (not (and (defined? 'showLyrics) showLyrics))
      #{ \lyricmode { } #}
      #{ \lyricmode {
 Spring is here, why does -- n't my heart go danc -- ing?

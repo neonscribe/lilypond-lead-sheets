@@ -16,12 +16,12 @@ instrument =
 }
 
 refrainLyrics = \lyricmode {
-  I'll be down to get you in a tax -- i Hon -- ey,
-  You bet -- ter be read -- y a -- bout half- past eight.
-  Now Dear -- ie, don't be late, I want to be there when the band starts play -- ing,
-  Re -- mem -- ber when we get there, Hon -- ey, The two- steps I'm goin' to have 'em all.
-  Goin' to dance out both my shoes, When they play the Jel -- ly Roll Blues,
-  To -- mor -- row night at the Dark -- town Strut -- ters Ball.
+  I'll be down to get you in a tax -- i, hon -- ey,
+  you bet -- ter be read -- y a -- bout half- past eight. __
+  Now dear -- ie, don't be late, __ I want to be there when the band starts play -- ing.
+  Re -- mem -- ber when we get there, hon -- ey, The two -- steps I'm goin' to have 'em all. __
+  Goin' to dance out both my shoes, __ when they play the Jel -- ly Roll Blues,
+  to -- mor -- row night __ at the Dark -- town Strut -- ters Ball. __
 }
 
 refrainFHChords = \chordmode {
@@ -62,25 +62,26 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Medium-Fast Swing [Orignal Dixieland Jazz Band 1917]" 202
+  \tempoFour "Medium-Fast Swing [Original Dixieland Jazz Band 1917]" 202
   
   \partial 4 d8 c8 |
   \bar "||"
 
-  \xTextMark \markup{ \bold \box "A" }
+  \sectStart "Refrain"
   
   bf4 d4 f8 f8 g8 f8 | bf4 g4 f8 d4 d8 | 
-  \break
+  %% \break
   c8 c8 e8 g8~ g8 fs8 g8 a8 | bf8 a4 g8~ g4 r4 |
-  \break
+  %% \break
   r4 f4 g4 a4 | bf8 a4 g8~ g8 f8 g8 a8 | bf4 g4 bf4 g4 | bf4 a4 g8 f4 d8 |
-  
-  \sect "B"
+
+  \bar "||-||"
+  \break
   
   bf4 d4 f4 g4 | bf4 g4 f8 d4 d8 | c4 e4 g4 a8 a8 | bf8 a4 g8~ g4 bf8 b8 |
-  \break
+  %% \break
   c4 bf4 c8 bf4 a8~ | a4 r4 r4 g8 a8 | bf4 a8 bf8~ bf8 fs8 a4 | g4 r4 r4 f4 |
-  \break
+  %% \break
   g4 a8 bf8~ bf8 d4 bf8 | c4 a4 g8 f4 bf8~ | bf1~ | bf4 r4 r2 |
   
   \bar "|."

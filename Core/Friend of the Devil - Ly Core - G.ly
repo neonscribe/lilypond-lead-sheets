@@ -37,10 +37,10 @@ and if he catch -- es up with me __ I'll spend my life in jail.
 }
 
 refrainChords = \chordmode {
-  g2 g2/fs g2/e g2/g c2 c2/b c2/a c2/g
+  g2 g2/fs g2/e g2/d c2 c2/b c2/a c2/g
   
-  g2 g2/fs g2/e g2/g c2 c2/b c2/a c2/g
-  g2 g2/fs g2/e g2/g c2 c2/b c2/a c2/g
+  g2 g2/fs g2/e g2/d c2 c2/b c2/a c2/g
+  g2 g2/fs g2/e g2/d c2 c2/b c2/a c2/g
 
   d1 d1 a1:m a1:m d1 d1 a1:m a1:m
   

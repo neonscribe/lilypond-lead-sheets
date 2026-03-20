@@ -1,0 +1,17 @@
+%% -*- Mode: LilyPond -*-
+
+\version "2.24.0"
+
+\include "english.ly"
+
+instrument = "Standard Key for Viola"
+whatKey = af
+whatClef = "alto"
+
+\include "../Core/They Say It's Spring - Ly Core - Ab.ly"
+
+%{
+
+\song{They Say It's Spring - Ab}{"../Standard/Viola/They Say It's Spring - Ly - Ab Standard for Viola"}
+
+%}

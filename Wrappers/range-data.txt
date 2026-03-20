@@ -6356,6 +6356,41 @@ coda
 f
 c''
 
+Detour - Ly - Bb Baritone Voice.ly
+refrain
+f
+bes'
+
+Detour - Ly - D Baritone Voice.ly
+refrain
+a
+d''
+
+Detour - Ly - Eb Bass for Standard.ly
+refrain
+bes,
+ees'
+
+Detour - Ly - Eb Standard for Viola.ly
+refrain
+bes
+ees''
+
+Detour - Ly - Eb Standard.ly
+refrain
+bes
+ees''
+
+Detour - Ly - Eb to C for Eb for Standard.ly
+refrain
+g'
+c'''
+
+Detour - Ly - Eb to F for Bb for Standard.ly
+refrain
+c'
+f''
+
 Detour Ahead - Ly - Ab Alto Voice.ly
 refrain
 aes
@@ -10033,6 +10068,11 @@ refrain
 fis
 g'
 
+I Can't Give You Anything but Love - Ly - Bb Bass for Simple Chords.ly
+refrain
+fis,
+g
+
 I Can't Give You Anything but Love - Ly - Bb Simple Chords.ly
 refrain
 fis
@@ -11450,6 +11490,17 @@ coda
 g'
 ees''
 
+I Thought About You - Ly - G Alto Voice.ly
+verse
+fis
+fis'
+refrain
+e
+a'
+coda
+g
+ees'
+
 I Want to Be Happy - Ly - Ab Alto Voice.ly
 refrain
 bes
@@ -12824,6 +12875,46 @@ If You Could See Me Now - Ly - G Alto Voice.ly
 refrain
 fis
 a'
+
+Ill Wind - Ly - Bb Bass for Standard.ly
+refrain
+d
+f'
+
+Ill Wind - Ly - Bb Standard for Viola.ly
+refrain
+d
+f'
+
+Ill Wind - Ly - Bb Standard.ly
+refrain
+d'
+f''
+
+Ill Wind - Ly - Bb to C for Bb for Standard.ly
+refrain
+e'
+g''
+
+Ill Wind - Ly - Bb to G for Eb for Standard.ly
+refrain
+b
+d''
+
+Ill Wind - Ly - C Alto Voice.ly
+refrain
+e
+g'
+
+Ill Wind - Ly - D Alto Voice.ly
+refrain
+fis
+a'
+
+Ill Wind - Ly - Eb Alto Voice.ly
+refrain
+g
+bes'
 
 Im Left Youre Right Shes Gone - Ly - E Baritone Voice.ly
 refrain
@@ -22587,6 +22678,11 @@ refrain
 a'
 c'''
 
+Spring Is Here Bill Evans - Ly - Eb Alto Voice.ly
+refrain
+g
+bes'
+
 Spring Will Be a Little Late This Year - Ly - Bb Alto Voice.ly
 refrain
 f
@@ -26108,6 +26204,46 @@ refrain
 c'
 f''
 
+They Say It's Spring - Ly - Ab Alto Voice.ly
+refrain
+g
+bes'
+
+They Say It's Spring - Ly - Ab Bass for Standard.ly
+refrain
+g,
+bes
+
+They Say It's Spring - Ly - Ab Standard for Viola.ly
+refrain
+g
+bes'
+
+They Say It's Spring - Ly - Ab Standard.ly
+refrain
+g
+bes'
+
+They Say It's Spring - Ly - Ab to Bb for Bb High for Standard.ly
+refrain
+a'
+c'''
+
+They Say It's Spring - Ly - Ab to Bb for Bb Low for Standard.ly
+refrain
+a
+c''
+
+They Say It's Spring - Ly - Ab to F for Eb for Standard.ly
+refrain
+e'
+g''
+
+They Say It's Spring - Ly - Eb Baritone Voice.ly
+refrain
+d'
+f''
+
 Things Ain't What They Used to Be - Ly - Db Bass for Standard.ly
 refrain
 aes,
@@ -26786,6 +26922,41 @@ Topsy - Ly - Dm to Em for Bb for Standard.ly
 refrain
 b
 ees''
+
+Travlin Light - Ly - Ab Alto Voice.ly
+refrain
+ees
+aes'
+
+Travlin Light - Ly - Bb Alto Voice.ly
+refrain
+f
+bes'
+
+Travlin Light - Ly - F Bass for Standard.ly
+refrain
+c
+f'
+
+Travlin Light - Ly - F Standard for Viola.ly
+refrain
+c
+f'
+
+Travlin Light - Ly - F Standard.ly
+refrain
+c'
+f''
+
+Travlin Light - Ly - F to D for Eb for Standard.ly
+refrain
+a'
+d'''
+
+Travlin Light - Ly - F to G for Bb for Standard.ly
+refrain
+d'
+g''
 
 Triste - Ly - Bb Bass for Standard.ly
 refrain
@@ -27678,6 +27849,16 @@ refrain
 f
 bes'
 
+What's New - Ly - Ab Baritone Voice.ly
+refrain
+aes
+des''
+
+What's New - Ly - Bb Baritone Voice.ly
+refrain
+bes
+ees''
+
 What's New - Ly - C Bass for Standard.ly
 refrain
 c
@@ -27702,6 +27883,16 @@ What's New - Ly - C to D for Bb for Standard.ly
 refrain
 d'
 g''
+
+What's New - Ly - Eb Alto Voice.ly
+refrain
+ees
+aes'
+
+What's New - Ly - F Alto Voice.ly
+refrain
+f
+bes'
 
 What's New - Ly - G Alto Voice.ly
 refrain
