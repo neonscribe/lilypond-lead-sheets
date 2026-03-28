@@ -365,7 +365,7 @@ context-property."
      layout
      props
      (markup #:concat
-             ((string-upcase (note-name->string pitch))
+             ((string-upcase (pitch->name pitch))
               (if (zero? alt)
                   empty-markup
-                  (alteration->text-accidental-markup alt)))))))
+                  (accidental->text-markup alt)))))))
