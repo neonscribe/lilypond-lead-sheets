@@ -14237,6 +14237,46 @@ refrain
 b
 cis''
 
+It's So Peaceful in the Country - Ly - Bb Alto Voice.ly
+refrain
+ges
+a'
+
+It's So Peaceful in the Country - Ly - C Alto Voice.ly
+refrain
+aes
+b'
+
+It's So Peaceful in the Country - Ly - D Alto Voice.ly
+refrain
+bes
+cis''
+
+It's So Peaceful in the Country - Ly - F Bass for Standard.ly
+refrain
+des
+e'
+
+It's So Peaceful in the Country - Ly - F Standard for Viola.ly
+refrain
+des
+e'
+
+It's So Peaceful in the Country - Ly - F Standard.ly
+refrain
+des'
+e''
+
+It's So Peaceful in the Country - Ly - F to D for Eb for Standard.ly
+refrain
+bes
+cis''
+
+It's So Peaceful in the Country - Ly - F to G for Bb for Standard.ly
+refrain
+ees'
+fis''
+
 It's You or No One - Ly - Bb Alto Voice.ly
 refrain
 f
