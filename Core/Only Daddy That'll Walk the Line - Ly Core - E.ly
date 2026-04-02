@@ -26,7 +26,7 @@ If you had an -- y sense you would quit.
 'Cause ev -- er since you were a lit -- tle bit -- ty teen -- y girl
 you said I was the on -- ly man in this old world. __
 And now you bet -- ter do some think -- in', then you'll find
-you got the on -- ly dad -- dy that -- 'll walk the line. __
+you got the on -- ly __ dad -- dy that -- 'll walk __ the line. __
 }
 
 refrainChords = \chordmode {
@@ -91,9 +91,9 @@ refrainMelody = \relative f' {
   ds'8 ds8 ds8 ds8 ds8 ds8 ds8 ds8 | d8 ds8 d8 ds8 b4 r8 b8 | ds8 d8 ds8 b8 cs8 b8 cs8 b8 | fs'8 ds4 b8~ b4. b8 |
   \break
   cs8 ds8 ds8 ds8 cs8 b8 cs8 b8 | fs'8 ds4 b8~ b8 b8 cs8 b8 |
-  e1~ | e4 d8 cs8 b8 cs8 b8 e,8 |
+  e1~ | e4 d8( cs8) b8 cs8 b8 e,8 |
   \time 2/4
-  g8 fs8 e8 e8~ |
+  g8( fs8) e8 e8~ |
   \numericTimeSignature
   \time 4/4
 

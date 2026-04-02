@@ -7,10 +7,6 @@
 instrument = "Bass for Standard Key"
 whatKey = af,
 whatClef = "bass"
-Title = "Spring Is Here"
-TempoName = "Ballad [Ahmad Jamal 1955]"
-TempoBPM = 70
-showLyrics = ##t
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"
 

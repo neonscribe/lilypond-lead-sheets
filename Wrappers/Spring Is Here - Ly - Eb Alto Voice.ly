@@ -7,10 +7,8 @@
 instrument = "Ella Fitzgerald Key"
 whatKey = ef
 whatClef = "treble_8"
-Title = "Spring Is Here"
 TempoName = "Ballad [Ella Fitzgerald 1956]"
 TempoBPM = 72
-showLyrics = ##t
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"
 

@@ -7,6 +7,21 @@ instrument =
   instrument
   "Standard Key")
 
+Title =
+#(if (and (defined? 'Title) Title)
+  Title
+  "Spring Is Here")
+
+TempoName =
+#(if (and (defined? 'TempoName) TempoName)
+  TempoName
+  "Ballad [Ahmad Jamal 1955]")
+
+TempoBPM =
+#(if (and (defined? 'TempoBPM) TempoBPM)
+  TempoBPM
+  70)
+
 #(set-global-staff-size 18)
 
 \header {
@@ -18,7 +33,7 @@ instrument =
 }
 
 refrainLyrics =
-   $(if (not (and (defined? 'showLyrics) showLyrics))
+   $(if (and (defined? 'hideLyrics) hideLyrics)
      #{ \lyricmode { } #}
      #{ \lyricmode {
 Spring is here, why does -- n't my heart go danc -- ing?

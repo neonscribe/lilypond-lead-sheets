@@ -11,6 +11,7 @@ Title = "Spring Is Here (Bill Evans Chords)"
 TempoName = "Slow Ballad [Bill Evans 1960]"
 TempoBPM = 57
 useBillEvansChords = ##t
+hideLyrics = ##t
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"
 

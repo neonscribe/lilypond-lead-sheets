@@ -17,6 +17,6 @@ useBillEvansChords = ##t
 
 %{
 
-\song{Spring Is Here - Eb}{"../Alto Voice/Spring Is Here Bill Evans - Ly - Eb Alto Voice"}
+\song{Spring Is Here (Bill Evans Chords) - Eb}{"../Alto Voice/Spring Is Here Bill Evans - Ly - Eb Alto Voice"}
 
 %}

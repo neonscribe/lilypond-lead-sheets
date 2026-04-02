@@ -18,7 +18,10 @@ instrument =
   copyright = \markup \small { \now " " "© 1953 Atlantic Music Corp." }
 }
 
-refrainLyricsOne = \lyricmode {
+refrainLyrics =
+   $(if (and (defined? 'hideLyrics) hideLyrics)
+     #f
+     #{ \lyricmode {
 In the park, in the dark, un -- der -- neath the moon.
 Heard a boy and a girl, hum -- min' Ber -- nie's Tune.
 
@@ -30,7 +33,7 @@ E -- ven hum -- ming -- birds hum it, it's the thing.
 
 Of -- fice clerks, so -- da jerks picked it up so soon.
 Mil -- lion -- aires, e -- ven squares, whis -- tle Ber -- nie's Tune.
-}
+} #} )
 
 refrainLyricsTwo = \lyricmode {
 Hark the lark, in the park, cra -- zy as a loon.
@@ -114,10 +117,5 @@ refrainMelody = \relative f' {
   % Leave a gap after the header
   \vspace #1
 }
-
-refrainLyrics = ##f
-
-#(if (and (defined? 'showLyrics) showLyrics)
-  (set! refrainLyrics refrainLyricsOne))
 
 \include  "../Include/refrain.ily"

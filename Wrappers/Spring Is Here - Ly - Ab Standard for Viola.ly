@@ -7,11 +7,6 @@
 instrument = "Standard Key for Viola"
 whatKey = af,
 whatClef = "alto"
-Title = "Spring Is Here"
-TempoName = "Ballad [Ahmad Jamal 1955]"
-TempoBPM = 70
-showLyrics = ##t
-
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"
 

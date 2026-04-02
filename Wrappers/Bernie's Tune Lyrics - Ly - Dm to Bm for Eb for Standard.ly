@@ -8,8 +8,7 @@ instrument = "Eb for Standard Key"
 whatKey = b
 whatClef = "treble"
 
-showLyrics = ##t
-printNoteNames = ##f
+#(set-global-staff-size 18)
 
 \include "../Core/Bernie's Tune - Ly Core - Dm.ly"
 

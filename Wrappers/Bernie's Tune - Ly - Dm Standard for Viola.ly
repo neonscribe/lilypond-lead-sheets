@@ -7,6 +7,7 @@
 instrument = "Standard Key for Viola"
 whatKey = d
 whatClef = "alto"
+hideLyrics = ##t
 
 \include "../Core/Bernie's Tune - Ly Core - Dm.ly"
 

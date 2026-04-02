@@ -8,9 +8,6 @@ instrument = "Bass for Standard Key"
 whatKey = d,
 whatClef = "bass"
 
-showLyrics = ##t
-printNoteNames = ##f
-
 #(set-global-staff-size 18)
 
 \include "../Core/Bernie's Tune - Ly Core - Dm.ly"

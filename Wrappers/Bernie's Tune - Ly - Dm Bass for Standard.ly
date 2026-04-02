@@ -7,6 +7,7 @@
 instrument = "Bass for Standard Key"
 whatKey = d,
 whatClef = "bass"
+hideLyrics = ##t
 
 \include "../Core/Bernie's Tune - Ly Core - Dm.ly"
 

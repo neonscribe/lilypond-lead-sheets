@@ -15,8 +15,13 @@
   "category": "structure",
   "description": "Show lyrics",
   "values": [false, true],
+  "songs": ["Well You Needn't"] },
+
+{ "name": "hideLyrics",
+  "category": "structure",
+  "description": "Don't show lyrics",
+  "values": [false, true],
   "songs": ["Bernie's Tune",
-	    "Well You Needn't",
 	    "Spring Is Here"] },
 
 { "name": "noIntro",
