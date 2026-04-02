@@ -74,22 +74,23 @@ refrainArrangeMeChords = \chordmode {
 refrainHLChords = \chordmode {
   af2:6.9 f2:m7 bf2:m7 ef2:7 af2:6.9 f2:m7 bf2:m7 ef2:7 
   f1:m6 g2:m7.5- c2:7 f1:m6 g2:m7.5- c2:7
-  f2:m7 df2:6 bf2:m7 ef2:7
+  f2:m7 df2:maj7 bf2:m7 ef2:7
 
   af2:6.9 f2:m7 bf2:m7 ef2:7 af2:6.9 f2:m7 bf2:m7 ef2:7 
   f1:m6 g2:m7.5- c2:7 f1:m6 g2:m7.5- c2:7
   f2:m7 df2:6 bf2:m7 ef2:7
   
-  d2:m7 g2:7 c2:m7 f2:7 d2:m7 g2:7 c2:m7 f2:7 
-  bf2:m7 ef2:7 c2:m7 f2:7 bf1:m7 gf4:7 f4:7 e4:7 ef4:7
+  d2:m11 g2:7 c2:m7 f2:7 d2:m7.5- g2:7 c2:m7 f2:7 
+  bf2:m7 ef2:7 c2:m7 f2:7 bf1:m7 gf4:7.11+ f4:7 e4:7.5+ ef4:13
 
-  af2:maj7 f2:m7 bf2:m7 ef2:7 af2:maj7 f2:m7 bf2:m7 ef2:7 
-  af2:maj7 f2:m7 g2:m7.5- c2:7.13- f1:m7 g2:m7.5- c2:7.13-
-  f1:m7 bf2:7 b2:dim7 c2:m7 f2:m7 bf2:m7 ef2:7
-  af2:maj7 f2:7.9- bf2:m7 ef2:7.9- af2:maj7 f2:7.9- bf2:m7 ef2:7.9-
-
-  af1:maj7
+  af2:6.9 f2:m7 bf2:m7 ef2:7 af2:6.9 f2:m7 bf2:m7 ef2:7 
+  f1:m6 g2:m7.5- c2:7 f1:m6 g2:m7.5- c2:7
+  f2:m7 df2:6 bf2:13 b2:dim7 c2:m7 f2:m7 bf2:m7 ef2:7.9- af2:6 f2:7.9- bf2:m7 ef2:7.9-
+  af2:6 f2:7.9- bf2:m7 ef2:7.9-
+  af1:6
 }
+
+refrainChords = \refrainArrangeMeChords
 
 refrainKey = af
 
