@@ -8,8 +8,6 @@ instrument = "Jane Fielding, Karrin Allyson Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-showLyrics = ##t
-
 \include "../Core/I Wish I Knew - Ly Core - G.ly"
 
 %{

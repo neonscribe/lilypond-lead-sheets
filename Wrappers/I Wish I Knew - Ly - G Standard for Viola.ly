@@ -8,8 +8,6 @@ instrument = "Standard Key for Viola"
 whatKey = g,
 whatClef = "alto"
 
-showLyrics = ##t
-
 \include "../Core/I Wish I Knew - Ly Core - G.ly"
 
 %{

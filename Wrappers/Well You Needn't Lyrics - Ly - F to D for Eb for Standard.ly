@@ -8,8 +8,6 @@ instrument = "Eb for Standard Key"
 whatKey = d'
 whatClef = "treble"
 
-showLyrics = ##t
-
 \include "../Core/Well You Needn't - Ly Core - F.ly"
 
 %{

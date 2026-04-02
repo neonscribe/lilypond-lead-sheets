@@ -18,7 +18,7 @@ instrument =
 }
 
 refrainLyrics =
-   $(if (not (and (defined? 'showLyrics) showLyrics))
+   $(if (and (defined? 'hideLyrics) hideLyrics)
      #{ \lyricmode { } #}
      #{ \lyricmode {
 I wish I knew some -- one like you could love me.

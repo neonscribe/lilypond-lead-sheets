@@ -6,6 +6,4 @@ instrument = "Baritone Voice Key"
 whatKey = ef
 whatClef = "treble"
 
-showLyrics = ##t
-
 \include "../Core/The Way You Look Tonight - Ly Core - F.ly"

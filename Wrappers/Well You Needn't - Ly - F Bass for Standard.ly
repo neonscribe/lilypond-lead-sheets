@@ -8,6 +8,8 @@ instrument = "Bass for Standard Key"
 whatKey = f,
 whatClef = "bass"
 
+hideLyrics = ##t
+
 \include "../Core/Well You Needn't - Ly Core - F.ly"
 
 %{

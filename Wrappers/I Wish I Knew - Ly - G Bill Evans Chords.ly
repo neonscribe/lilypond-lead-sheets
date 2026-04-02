@@ -10,7 +10,7 @@ whatClef = "treble"
 
 useBillEvansChords = ##t
 
-showLyrics = ##f
+hideLyrics = ##t
 
 \include "../Core/I Wish I Knew - Ly Core - G.ly"
 

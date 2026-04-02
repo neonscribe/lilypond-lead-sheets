@@ -8,6 +8,8 @@ instrument = "Bb for Standard Key"
 whatKey = g
 whatClef = "treble"
 
+hideLyrics = ##t
+
 \include "../Core/Well You Needn't - Ly Core - F.ly"
 
 %{

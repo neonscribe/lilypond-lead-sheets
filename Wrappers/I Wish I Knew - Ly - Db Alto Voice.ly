@@ -8,8 +8,6 @@ instrument = "Kitty Kallen (with Harry James) Key"
 whatKey = df
 whatClef = "treble_8"
 
-showLyrics = ##t
-
 \include "../Core/I Wish I Knew - Ly Core - G.ly"
 
 %{

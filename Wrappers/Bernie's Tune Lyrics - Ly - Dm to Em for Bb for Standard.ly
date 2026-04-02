@@ -8,8 +8,6 @@ instrument = "Bb for Standard Key"
 whatKey = e
 whatClef = "treble"
 
-#(set-global-staff-size 18)
-
 \include "../Core/Bernie's Tune - Ly Core - Dm.ly"
 
 %{

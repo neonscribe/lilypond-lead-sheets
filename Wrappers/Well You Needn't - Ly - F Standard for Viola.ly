@@ -8,6 +8,8 @@ instrument = "Standard Key for Viola"
 whatKey = f
 whatClef = "alto"
 
+hideLyrics = ##t
+
 \include "../Core/Well You Needn't - Ly Core - F.ly"
 
 %{

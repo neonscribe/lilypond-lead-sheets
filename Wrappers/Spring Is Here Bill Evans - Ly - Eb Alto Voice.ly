@@ -10,7 +10,7 @@ whatClef = "treble_8"
 Title = "Spring Is Here (Bill Evans Chords)"
 TempoName = "Ballad [Ella Fitzgerald 1956]"
 TempoBPM = 72
-showLyrics = ##t
+
 useBillEvansChords = ##t
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"

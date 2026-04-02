@@ -8,8 +8,6 @@ instrument = "Karin Krog Key"
 whatKey = c
 whatClef = "treble_8"
 
-showLyrics = ##t
-
 \include "../Core/I Wish I Knew - Ly Core - G.ly"
 
 %{

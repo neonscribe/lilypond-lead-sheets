@@ -11,18 +11,14 @@
   "values": ["french", "english"],
   "songs": ["C'est Si Bon"] },
 
-{ "name": "showLyrics",
-  "category": "structure",
-  "description": "Show lyrics",
-  "values": [false, true],
-  "songs": ["Well You Needn't"] },
-
 { "name": "hideLyrics",
   "category": "structure",
   "description": "Don't show lyrics",
   "values": [false, true],
   "songs": ["Bernie's Tune",
-	    "Spring Is Here"] },
+	    "I Wish I Knew",
+	    "Spring Is Here",
+	    "Well You Needn't"] },
 
 { "name": "noIntro",
   "category": "structure",

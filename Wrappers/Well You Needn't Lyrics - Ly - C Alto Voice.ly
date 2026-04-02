@@ -8,8 +8,6 @@ instrument = "Judy Niemack Key"
 whatKey = c
 whatClef = "treble_8"
 
-showLyrics = ##t
-
 \include "../Core/Well You Needn't - Ly Core - F.ly"
 
 %{

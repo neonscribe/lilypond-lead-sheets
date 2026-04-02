@@ -7,8 +7,8 @@ instrument =
   instrument
   "Standard Key")
 
-$(if (and (defined? 'showLyrics) showLyrics)
-  #{ #(set-global-staff-size 16) #} )
+#(if (not (and (defined? 'hideLyrics) hideLyrics))
+  (set-global-staff-size 16))
 
 \header {
   title = "Well You Needn't"
@@ -131,7 +131,7 @@ refrainMelody = \relative f' {
 
 refrainLyrics = ##f
 
-#(if (and (defined? 'showLyrics) showLyrics)
+#(if (not (and (defined? 'hideLyrics) hideLyrics))
   (set! refrainLyrics refrainLyricsOne))
 
 \include  "../Include/refrain.ily"

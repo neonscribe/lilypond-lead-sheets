@@ -8,8 +8,6 @@ instrument = "Dick Haymes Key"
 whatKey = d
 whatClef = "treble"
 
-showLyrics = ##t
-
 \include "../Core/I Wish I Knew - Ly Core - G.ly"
 
 %{

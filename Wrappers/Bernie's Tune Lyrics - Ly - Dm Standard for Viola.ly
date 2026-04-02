@@ -8,8 +8,6 @@ instrument = "Standard Key for Viola"
 whatKey = d
 whatClef = "alto"
 
-#(set-global-staff-size 18)
-
 \include "../Core/Bernie's Tune - Ly Core - Dm.ly"
 
 %{

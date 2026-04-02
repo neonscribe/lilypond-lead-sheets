@@ -5,11 +5,13 @@ A string, one of "english", "french", or "portuguese"
 -- Agua de Beber - all 3
 -- C'est Si Bon - "french" or "english"
 
-* showLyrics
+* hideLyrics
 
-If true, display lyrics, otherwise don't.
+If false, display lyrics, otherwise don't.
 
 -- Bernie's Tune
+-- I Wish I Knew
+-- Spring Is Here
 -- Well You Needn't
 
 * noIntro

@@ -8,8 +8,6 @@ instrument = "Bb for Standard Key"
 whatKey = a
 whatClef = "treble"
 
-showLyrics = ##t
-
 \include "../Core/I Wish I Knew - Ly Core - G.ly"
 
 %{
