@@ -65,13 +65,19 @@ refrainMelody = \relative f' {
   \sect "B"
   
   bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 r4
+  \ambitusOff
   \magnifyMusic 0.63 { bf,8 r8 r4 | bf8 r8 r8 bf8 } r4 r8 f'8 |
+  \ambitusOn
   \break
   bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 r4
+  \ambitusOff
   \magnifyMusic 0.63 { bf,8 r8 r4 | bf8 r8 r8 bf8 } r4 r8 f'8 |
+  \ambitusOn
   \break
   bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 r4
+  \ambitusOff
   \magnifyMusic 0.63 { bf,8 r8 r4 | bf8 r8 r8 bf8 } r8 
+  \ambitusOn
   \override Staff.NoteHead.style = #'slash
   bf'4 bf8
   \override Staff.NoteHead.style = #'default
@@ -100,8 +106,10 @@ refrainMelody = \relative f' {
   \break
   bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 df8 df8 bf8 bf8 g8 f8 |
   bf8 bf8 r4
+  \ambitusOff
   \set Staff.ottavationMarkups = #ottavation-ordinals
   \ottava 1 <bf' d g>2 | <bf d gs>4. <bf d a'>8~ <bf d a'>2 \ottava 0 |
+  \ambitusOn
 
   \bar "|."
 }

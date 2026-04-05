@@ -1,6 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-\version "2.25.25"
+\version "2.24.0"
 
 \include "../Include/lead-sheets.ily"
 
