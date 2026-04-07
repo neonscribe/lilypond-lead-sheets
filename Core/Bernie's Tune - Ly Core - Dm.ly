@@ -7,7 +7,7 @@ instrument =
   instrument
   "Standard Key")
 
-#(if (not (and (defined? 'hideLyrics) hideLyrics)
+#(if (not (and (defined? 'hideLyrics) hideLyrics))
   (set-global-staff-size 18))
 
 \header {

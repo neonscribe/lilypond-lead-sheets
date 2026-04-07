@@ -6202,6 +6202,46 @@ refrain
 g
 a'
 
+Deep in a Dream - Ly - Bb Baritone Voice.ly
+refrain
+a
+des''
+
+Deep in a Dream - Ly - C Bass for Standard.ly
+refrain
+b,
+ees'
+
+Deep in a Dream - Ly - C Standard for Viola.ly
+refrain
+b
+ees''
+
+Deep in a Dream - Ly - C Standard.ly
+refrain
+b
+ees''
+
+Deep in a Dream - Ly - C to A for Eb for Standard.ly
+refrain
+gis'
+c'''
+
+Deep in a Dream - Ly - C to D for Bb for Standard.ly
+refrain
+cis'
+f''
+
+Deep in a Dream - Ly - F Alto Voice.ly
+refrain
+e
+aes'
+
+Deep in a Dream - Ly - G Alto Voice.ly
+refrain
+fis
+bes'
+
 Deep Purple - Ly - Bb Alto Voice.ly
 refrain
 f
@@ -16175,6 +16215,96 @@ refrain
 d'
 e''
 
+Love Letters - Ly - C Alto Voice.ly
+refrain
+g
+g'
+
+Love Letters - Ly - D Alto Voice.ly
+refrain
+a
+a'
+
+Love Letters - Ly - Db Alto Voice.ly
+refrain
+aes
+aes'
+
+Love Letters - Ly - Eb Baritone Voice.ly
+refrain
+bes
+bes'
+
+Love Letters - Ly - F Baritone Voice.ly
+refrain
+c'
+c''
+
+Love Letters - Ly - G Bass for Standard.ly
+refrain
+d
+d'
+
+Love Letters - Ly - G Standard for Viola.ly
+refrain
+d
+d'
+
+Love Letters - Ly - G Standard.ly
+refrain
+d'
+d''
+
+Love Letters - Ly - G to A for Bb for Standard.ly
+refrain
+e'
+e''
+
+Love Letters - Ly - G to E for Eb for Standard.ly
+refrain
+b
+b'
+
+Love Letters Three - Ly - Bb Alto Voice.ly
+refrain
+f
+f'
+
+Love Letters Three - Ly - C Alto Voice.ly
+refrain
+g
+g'
+
+Love Letters Three - Ly - F Baritone Voice.ly
+refrain
+c'
+c''
+
+Love Letters Three - Ly - G Bass for Standard.ly
+refrain
+d
+d'
+
+Love Letters Three - Ly - G Standard for Viola.ly
+refrain
+d
+d'
+
+Love Letters Three - Ly - G Standard.ly
+refrain
+d'
+d''
+
+Love Letters Three - Ly - G to A for Bb for Standard.ly
+refrain
+e'
+e''
+
+Love Letters Three - Ly - G to E for Eb for Standard.ly
+refrain
+b
+b'
+
 Love Me or Leave Me - Ly - Ab Bass for Standard.ly
 refrain
 c
@@ -18700,27 +18830,27 @@ g'
 
 Night Train - Ly - Bb Bass for Standard.ly
 refrain
-bes,
+c
 b'
 
 Night Train - Ly - Bb Standard for Viola.ly
 refrain
-bes,
+c
 b'
 
 Night Train - Ly - Bb Standard.ly
 refrain
-bes
+c'
 b''
 
 Night Train - Ly - Bb to C for Bb for Standard.ly
 refrain
-c'
+d'
 des'''
 
 Night Train - Ly - Bb to G for Eb for Standard.ly
 refrain
-g
+a
 aes''
 
 No Moon at All - Ly - Am Alto Voice.ly
