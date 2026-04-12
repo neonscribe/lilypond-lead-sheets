@@ -17,6 +17,16 @@ instrument =
   copyright = \markup \small { \now " " "© 1914 Handy Bros. Music Co. Inc." }
 }
 
+refrainLyrics = \lyricmode {
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _
+
+I hate to see __ the eve -- nin' sun go down. __
+Hate to see __ the eve -- nin' sun go down. __
+'Cause my ba -- by __ he done left this town. __
+}
+
 refrainChords = \chordmode {
   s2
 
