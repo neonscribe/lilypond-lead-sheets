@@ -25,19 +25,40 @@ some -- where there __ may be a land __ that's free __ for you __ and me
 and a Rus -- sian lull -- a -- by. __
 }
 
-refrainChords = \chordmode {
+refrainDFBChords = \chordmode {
   c2.:m c2.:m/b c2.:/bf c2.:m/a
   af2.:7 g2.:7 c2.:m bf2.:7
   ef2. ef2.:7 af2. af2.:m6
   ef2./bf bf2.:7.5+ ef2. ef2.
   
-  g2.:7 g2.:7 af2.:7 af2.:7
+  g2.:7 g2.:7 af2.:7 g2.:7
   c2.:m ef2.:7 af2. g2.:7
   c2.:m c2.:m f2.:m6 g2.:7
   c2.:m g2.:7 c2.:m 
   \chordOpenParen{ f2:m6 }
   \chordCloseParen{ g4:7 }
 }
+
+refrainHLChords = \chordmode {
+  \transpose d c {
+  d2.:m7 bf2:7 a4:7 d2.:m7 g2.:7
+  d2.:m7 a2.:7 d2.:m7 g2:m7 c4:7
+  f2.:maj7 c2:m7 f4:7 bf2.:maj7 bf2:m7 ef4:7
+  f2.:maj7 c2.:7 f2.:maj7 f2.:maj7
+  
+  e2.:m7 a2.:7 bf2.:7 a2.:7
+  d2.:m7 c2:m7 f4:7 bf2.:maj7 a2.:7
+  d2.:m7 d2.:m7 e2.:m7.5- a2.:7
+  d2.:m7 a2.:7 d2.:m7
+  \chordOpenParen{ bf2:7 }
+  \chordCloseParen{ a4:7 }
+  }
+}
+
+refrainChords = 
+   $(if (and (defined? 'useDFBChords) useDFBChords)
+     refrainDFBChords
+     refrainHLChords)
 
 refrainKey = c
 

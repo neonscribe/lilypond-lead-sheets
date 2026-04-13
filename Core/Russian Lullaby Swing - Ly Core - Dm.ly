@@ -25,7 +25,7 @@ some -- where there may be a land that's free for you and me
 and a Rus -- sian lull -- a -- by.
 }
 
-refrainChords = \chordmode {
+refrainDFBChords = \chordmode {
   d1:m d1:m/cs d1:m/c d1:m/b
   bf1:7 a1:7 d1:m c1:7
   f1 f1:7 bf1 bf1:m6
@@ -38,6 +38,25 @@ refrainChords = \chordmode {
   \chordOpenParen{ g2:m6 }
   \chordCloseParen{ a2:7 }
 }
+
+refrainHLChords = \chordmode {
+  d1:m7 bf2:7 a2:7 d1:m7 g1:7
+  d1:m7 a1:7 d1:m7 g2:m7 c2:7
+  f1:maj7 c2:m7 f2:7 bf1:maj7 bf2:m7 ef2:7
+  f1:maj7 c1:7 f1:maj7 f1:maj7
+  
+  e1:m7 a1:7 bf1:7 a1:7
+  d1:m7 c2:m7 f2:7 bf1:maj7 a1:7
+  d1:m7 d1:m7 e1:m7.5- a1:7
+  d1:m7 a1:7 d1:m7
+  \chordOpenParen{ bf2:7 }
+  \chordCloseParen{ a2:7 }
+}
+
+refrainChords = 
+   $(if (and (defined? 'useDFBChords) useDFBChords)
+     refrainDFBChords
+     refrainHLChords)
 
 refrainKey = d
 

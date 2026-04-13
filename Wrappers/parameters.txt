@@ -161,6 +161,7 @@ from the Hal Leonard Real Books or the original sheet music.
 -- Exactly Like You
 -- I Can't Give You Anything but Love
 -- If I Only Had a Brain
+-- Russian Lullaby
 -- Smile
 -- The Jitterbug Waltz
 
