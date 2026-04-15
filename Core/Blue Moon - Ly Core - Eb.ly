@@ -78,8 +78,8 @@ refrainNewRealAlternateChords = \chordmode {
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7 
   df2:9.11+ c2:7.9+ b2:9 bf2:7.9+ a2:7.5- af2:m7 gf2:7.5- c2:7.9+.11+
 
-  f2:m7 bf2:7 ef1:6 f2:m7 bf2:7 ef1:6 
-  af2:m7 df2:7 gf1:maj7 bf2/f f2:7 f2:m7/bf bf2:7
+  f2:m7 bf2:7 ef2:6 c2:m7 f2:m7 bf2:7 ef2:6 \chordInsideParens{ a2:9.11+ }
+  af2:m7 df2:7 gf2:maj7 gf2:6 c2:m9 f2:7 f2:m11 bf2:7
 
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   df2:9.11+ c2:7.9+ b2:9 bf2:7.9+ a2:7.5- af2:m7
@@ -87,20 +87,20 @@ refrainNewRealAlternateChords = \chordmode {
   \chordCloseParen{ e2:maj7 }
 }
 
-refrainFiveFiveSevenJazzStandardsChords = \chordmode {
+refrainFiveFiveSevenChords = \chordmode {
   s4
   
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
-  df2:7.5- c2:7.9+ b2:7.5+ f2:m7/bf ef2:6 c2:m7 f2:m7 bf2:7
+  df2:7.5- c2:7.9- b2:7.5+ f2:m7/bf ef2:6 c2:m7 f2:m7 bf2:7
 
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7 
-  df2:7.5- c2:7.9+ b2:7.5+ f2:m7/bf ef2:6 ef2:maj7 ef2:6 c2:7
+  df2:7.5- c2:7.9- b2:7.5+ f2:m7/bf ef2:6 ef2:maj7 ef2:6 c2:7
 
   f2:m7 bf2:7 ef2:6 c2:m7 f2:m7 bf2:7 ef2:6 a2:7.5-
   af2:m7 df2:7 gf1:maj7 bf2:maj7/f f2:7 f2:m7 bf2:7
 
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
-  df2:7.5- c2:7.9+ b2:7.5+ f2:m7/bf ef1:6 ef1:6
+  df2:7.5- c2:7.9- b2:7.5+ f2:m7/bf ef1:6 ef1:6
 }
 
 refrainDjypsyDjazzDjamChords = \chordmode {
@@ -122,8 +122,8 @@ refrainDjypsyDjazzDjamChords = \chordmode {
 }
 
 refrainChords = 
-   $(if (and (defined? 'useAlternateChords) useAlternateChords)
-     refrainFiveFiveSevenJazzStandardsChords
+   $(if (and (defined? 'useFiveFiveSevenChords) useFiveFiveSevenChords)
+     refrainFiveFiveSevenChords
      refrainHLChords)
 
 refrainKey = ef

@@ -2,30 +2,18 @@
 
 A string, one of "english", "french", or "portuguese"
 
--- Agua de Beber - all 3
--- C'est Si Bon - "french" or "english"
-
 * hideLyrics
 
 If false, display lyrics, otherwise don't.
-
--- Bernie's Tune
--- I Wish I Knew
--- Spring Is Here
--- Well You Needn't
 
 * noIntro
 
 If true, don't include the intro
 
--- Lullaby of Birdland
-
 * withPianoAndBass
 
 If true, show exact voicings for piano and bass on the grand staff,
 otherwise only use chord symbols in the usual lead sheet format.
-
--- A Child is Born
 
 * objectGenderMale
 
@@ -33,40 +21,11 @@ if true, lyrics in the third person (the object of the song) are in
 the male gender, otherwise they are in the female gender. This is used
 by female singers of songs originally written for men.
 
--- Ain't She Sweet
--- Almost Blue
--- Avalon
--- Bei Mir Bist Du Schoen
--- Beyond the Sea
--- Change Partners
--- Day Dream
--- Detour Ahead
--- Gee Baby Ain't I Good to You
--- Hallelujah I Love Him (Her) So
--- Have You Met Miss Jones
--- He'll Have to Go
--- How Insensitive
--- I Guess I'll Hang My Tears Out to Dry
--- I've Found a New Baby
--- In the Wee Small Hours of the Morning
--- Is You Is or Is You Ain't (Ma' Baby)
--- It's All Right With Me
--- My Baby Just Cares for Me
--- My Foolish Heart
--- My Ideal
--- Oh, Lonesome Me Four
--- Only Trust Your Heart
--- She's Funny That Way
--- Sweet and Lovely
--- Wait Till You See Her (Him)
-
 * objectGenderFemale
 
 if true, lyrics in the third person (the object of the song) are in
 the female gender, otherwise they are in the male gender. This is used
 by male singers of songs originally written for women.
-
--- Crazy He Calls Me
 
 * femaleSinger
 
@@ -74,100 +33,63 @@ If true, lyrics in the first person (the singer of the song) are in
 the female gender, otherwise they are in the male gender. This is used
 by female singers of songs originally written for men.
 
--- Blues in the Night
--- City Lights
--- Give Me the Simple Life
--- I Had the Craziest Dream
--- I'll Be Around
--- Small Day Tomorrow
--- Stella by Starlight
--- The Frim Fram Sauce
--- The Very Thought of You
--- Walkin' My Baby Back Home
-
-
 * maleSinger
 
 If true, lyrics in the first person (the singer of the song) are in
 the male gender, otherwise they are in the female gender. This is used
 by male singers of songs originally written for women.
 
--- Black Coffee
--- It's All Your Fault
-
 * useSimpleChords
 
 If true, use simplified chords. Otherwise, use the full
 chords from the Hal Leonard Real Books or the original sheet music.
 
--- At Sundown
--- Besame Mucho
--- Blue Christmas
--- Bye Bye Blackbird
--- Exactly Like You
--- Honeysuckle Rose
--- I'm an Old Cowhand
--- Lady Be Good
--- Lullaby of Birdland
--- Samba de Orfeu
--- Summertime
+* useOldRealChords
 
-* useAlternateChords
-
-If true, use chords from an alternate source. Otherwise, use chords
+If true, use chords from the original, illicit Real Books. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
 
--- All of Me
--- Autumn Leaves
--- Blue Moon
--- A Hundred Years from Today
+* useNewRealChords
+
+If true, use chords from the Sher Music New Real Books. Otherwise, use chords
+from the Hal Leonard Real Books or the original sheet music.
+
+* useFiveFiveSevenChords
+
+If true, use chords from 557 Jazz Standards. Otherwise, use chords
+from the Hal Leonard Real Books or the original sheet music.
 
 * useFirehouseChords
 
 If true, use chords from the Firehouse Fake Book. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
 
--- A Hundred Years from Today
--- On the Alamo
-
 * useBillEvansChords
 
 If true, use chords from the Bill Evans recording. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
 
--- Spring Is Here
+* useGilEvansChords
+
+If true, use chords from the Gil Evans/Miles Davis recording. Otherwise, use chords
+from the Hal Leonard Real Books or the original sheet music.
 
 * useNOJamChords
 
 If true, use chords from the New Orleans Jam Book. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
 
--- River Stay Way From My Door
-
 * useNicoChords
 
 If true, use chords requested by Nico Lovejoy. Otherwise, use chords
 from the Hal Leonard Real Books or the original sheet music.
-
--- River Stay Way From My Door
 
 * useDFBChords
 
 If true, use chords from the Django Fakebook, otherwise use chords
 from the Hal Leonard Real Books or the original sheet music.
 
--- After You've Gone
--- Ain't Misbehavin'
--- Exactly Like You
--- I Can't Give You Anything but Love
--- If I Only Had a Brain
--- Russian Lullaby
--- Smile
--- The Jitterbug Waltz
-
 * useDFBVersion
 
-If true, use chords and melody from the Django Fakebook, otherwise use chords and melody
+If true, use both chords and melody from the Django Fakebook, otherwise use chords and melody
 from the Hal Leonard Real Books or the original sheet music.
-
--- Coquette

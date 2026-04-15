@@ -2,10 +2,10 @@
 
 \include "english.ly"
 
-instrument = "Original Standard Key New Real Chords"
-whatKey = e
+instrument = "Cannonball Adderley and Miles Davis Key"
+whatKey = g
 whatClef = "treble"
 
-useNewRealChords = ##t
+useOldRealChords = ##t
 
 \include "../Core/Autumn Leaves - Ly Core - Gm.ly"

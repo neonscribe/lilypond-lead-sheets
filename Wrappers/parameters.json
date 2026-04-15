@@ -3,13 +3,19 @@
   "category": "language",
   "description": "Lyrics language",
   "values": ["portuguese", "english", "french"],
-  "songs": ["Agua de Beber"] },
+  "songs": ["Água de Beber (Water to Drink)"] },
 
 { "name": "lyricsLanguage",
   "category": "language",
   "description": "Lyrics language",
   "values": ["french", "english"],
-  "songs": ["C'est Si Bon"] },
+  "songs": ["C'est Si Bon (It's So Good)"] },
+
+{ "name": "useDFBVersion",
+  "category": "structure",
+  "description": "Use Django Fake Book chords and melody",
+  "values": [false, true],
+  "songs": ["Coquette"] }
 
 { "name": "hideLyrics",
   "category": "structure",
@@ -65,7 +71,7 @@
 
 { "name": "objectGenderFemale",
   "category": "gender",
-  "description": "About a man",
+  "description": "About a woman",
   "values": [false, true],
   "songs": ["Crazy He Calls Me"] },
 
@@ -94,6 +100,7 @@
 	    "It's All Your Fault"] },
 
 { "name": "useSimpleChords",
+  "category": "chords",
   "description": "Use simple chords",
   "values": [false, true],
   "songs": ["At Sundown",
@@ -108,14 +115,25 @@
 	    "Samba de Orfeu",
 	    "Summertime"] },
 
-{ "name": "useAlternateChords",
+{ "name": "useOldRealChords",
   "category": "chords",
-  "description": "Use alternate chords",
+  "description": "Use old (illicit) Real Book chords",
   "values": [false, true],
   "songs": ["All of Me",
-	    "Autumn Leaves",
-	    "Blue Moon",
-	    "A Hundred Years from Today"] },
+	    "Autumn Leaves"] },
+
+{ "name": "useNewRealChords",
+  "category": "chords",
+  "description": "Use New Real Book (Sher Music) chords",
+  "values": [false, true],
+  "songs": ["All of Me",
+	    "Autumn Leaves"] },
+
+{ "name": "useFiveFiveSevenChords",
+  "category": "chords",
+  "description": "Use 557 Jazz Standards chords",
+  "values": [false, true],
+  "songs": ["Blue Moon"] },
 
 { "name": "useFirehouseChords",
   "category": "chords",
@@ -128,7 +146,14 @@
   "category": "chords",
   "description": "Use Bill Evans chords",
   "values": [false, true],
-  "songs": ["Spring Is Here"] },
+  "songs": ["I Wish I Knew",
+	    "Spring Is Here"] },
+
+{ "name": "useGilEvansChords",
+  "category": "chords",
+  "description": "Use Gil Evans chords",
+  "values": [false, true],
+  "songs": ["Summertime"] },
 
 { "name": "useNOJamChords",
   "category": "chords",
@@ -154,10 +179,4 @@
 	    "Russian Lullaby",
 	    "Smile",
 	    "The Jitterbug Waltz"] },
-
-{ "name": "useDFBVersion",
-  "category": "chords",
-  "description": "Use Django Fake Book chords and melody",
-  "values": [false, true],
-  "songs": ["Coquette"] }
 ]

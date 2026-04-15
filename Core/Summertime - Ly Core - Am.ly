@@ -101,7 +101,10 @@ refrainSimpleChords = \chordmode {
   d2:m7 d2:sus6 d2:7 d2:sus6 e1:7 e1:7
 
   a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13
-  c2/g a2:m7/c b2:m7.5- e2:7 a2:m7 a2:13 a2:m7 e2:7
+  c2/g a2:m7/c b2:m7.5- e2:7 a2:m7
+  \chordOpenParen{ a2:13 }
+  a2:m7
+  \chordCloseParen{ e2:7 }
 }
 
 refrainGilEvansChords = \chordmode {
@@ -123,19 +126,19 @@ refrainGilEvansChords = \chordmode {
   \chordCloseParen{ d2:9 }
 }
 
-refrainFreeJazzLessonsChords = \chordmode {
+refrainHLChords = \chordmode {
   s2
   
-  a1:m7 b2:m7.5- e2:7.9- a1:m7 a1:7
+  a1:m7 b2:m7.5- e2:7.9- a1:m7 a2:m7 a2:7.9-
   d1:m7 d1:m7 b1:m7.5- e1:7.9-
   a1:m7 b2:m7.5- e2:7.9- a1:m7 d2:m7 g2:7
-  c1:maj7 b2:m7.5- e2:7.9- a1:m7 b2:m7.5- e2:7.9-
+  c2:maj7 a2:m7 b2:m7.5- e2:7.5+ a1:m7 a2:m7 e2:7.9-
 
-  a1:m7 b2:m7.5- e2:7.9- a1:m7 a1:7
+  a1:m7 b2:m7.5- e2:7.9- a1:m7 a2:m7 a2:7.9-
   d1:m7 d1:m7 b1:m7.5- e1:7.9-
   a1:m7 b2:m7.5- e2:7.9- a1:m7 d2:m7 g2:7
-  c1:maj7 b2:m7.5- e2:7.9- a1:m7
-  \chordOpenParen{ b2:m7.5- }
+  c2:maj7 a2:m7 b2:m7.5- e2:7.5+ a1:m7
+  \chordOpenParen{ a2:m7 }
   \chordCloseParen{ e2:7.9- }
 }
 
@@ -158,7 +161,7 @@ refrainChords = #(if (and (defined? 'useSimpleChords) useSimpleChords)
 		  refrainSimpleChords
 		  (if (and (defined? 'useGilEvansChords) useGilEvansChords)
 		   refrainGilEvansChords
-		   refrainFreeJazzLessonsChords))
+		   refrainHLChords))
 
 refrainKey = a
 

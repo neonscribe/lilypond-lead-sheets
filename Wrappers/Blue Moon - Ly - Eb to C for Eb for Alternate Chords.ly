@@ -4,11 +4,11 @@
 
 \include "english.ly"
 
-instrument = "Eb for Alternate Chords"
+instrument = "Eb for 557 Jazz Standards Chords"
 whatKey = c
 whatClef = "treble"
 
-useAlternateChords = ##t
+useFiveFiveSevenChords = ##t
 
 \include "../Core/Blue Moon - Ly Core - Eb.ly"
 

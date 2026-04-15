@@ -26,7 +26,7 @@ refrainLyrics = \lyricmode {
   So why not take all of me.
 }
 
-refrainRBOneChords = \chordmode {
+refrainOldRealChords = \chordmode {
   c1:maj7 c1:maj7 e1:7 e1:7
   a1:7 a1:7 d1:m d1:m
   e1:7 e1:7 a1:m a1:m
@@ -56,7 +56,7 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ g2:7 }
 }
 
-refrainAlternateChords = \chordmode {
+refrainNewRealChords = \chordmode {
   c1:6 c1:6 e1:7 e1:7
   a1:7 a1:7 d1:m7 d1:m7
   e1:7 e1:7 a1:m7 a1:m7
@@ -72,9 +72,11 @@ refrainAlternateChords = \chordmode {
 }
 
 refrainChords = 
-   $(if (and (defined? 'useAlternateChords) useAlternateChords)
-     refrainAlternateChords
-     refrainHLChords)
+   $(if (and (defined? 'useOldRealChords) useOldRealChords)
+     refrainOldRealChords
+     (if (and (defined? 'useNewRealChords) useNewRealChords)
+      refrainNewRealChords
+      refrainHLChords))
 
 refrainKey = c
 

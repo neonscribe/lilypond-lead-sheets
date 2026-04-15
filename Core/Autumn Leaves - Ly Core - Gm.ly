@@ -42,7 +42,7 @@ refrainHLChords = \chordmode {
   a1:m7.5- d1:7.9- g1:m g1:m
 }
 
-refrainNRChords = \chordmode {
+refrainNewRealChords = \chordmode {
   s2.
   
   c1:m7 f1:7 bf1:maj7 ef1:maj7
@@ -58,10 +58,28 @@ refrainNRChords = \chordmode {
   ef1:maj7 a2:m7.5- d2:7.5+ g1:m \chordInsideParens{ g1:7 }
 }
 
+refrainOldRealChords = \chordmode {
+  s2.
+  
+  c1:m7 f1:7 bf1:maj7 ef1:maj7
+  a1:m7.5- d1:7 g1:m g1:m
+
+  c1:m7 f1:7 bf1:maj7 ef1:maj7
+  a1:m7.5- d1:7 g1:m g4:m r2.
+  
+  a1:m7.5- d1:7.9- g1:m g1:m
+  c1:m7 f1:7 bf1:maj7 bf1:maj7
+
+  a1:m7.5- d1:7.9- g2:m7 gf2:7 f2:m7 ff2:7
+  ef1:maj7 d1:7.9- g1:m g1:m
+}
+
 refrainChords = 
-   $(if (and (defined? 'useAlternateChords) useAlternateChords)
-     refrainNRChords
-     refrainHLChords)
+   $(if (and (defined? 'useOldRealChords) useOldRealChords)
+     refrainOldRealChords
+     (if (and (defined? 'useNewRealChords) useNewRealChords)
+      refrainNewRealChords
+      refrainHLChords))
 
 refrainKey = g
 

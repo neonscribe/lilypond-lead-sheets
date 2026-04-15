@@ -8,7 +8,7 @@ instrument = "Billie Holiday Key"
 whatKey = af,
 whatClef = "treble_8"
 
-useAlternateChords = ##t
+useFiveFiveSevenChords = ##t
 
 \include "../Core/Blue Moon - Ly Core - Eb.ly"
 

@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Medium" 120
+  \tempoFour "Medium [Art Blakey 1959]" 152
 
   \partial 4 \invisEighth f8 |
   \bar "||"
