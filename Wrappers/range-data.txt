@@ -2085,6 +2085,11 @@ refrain
 d
 f'
 
+Autumn Leaves - Ly - Gm Old Real Book Chords.ly
+refrain
+d'
+f''
+
 Autumn Leaves - Ly - Gm Standard for Viola.ly
 refrain
 d
@@ -3646,6 +3651,31 @@ Blues in the Night - Ly - F Alto Voice.ly
 refrain
 f
 c''
+
+Blues March - Ly - Bb Bass for Standard.ly
+refrain
+cis
+f'
+
+Blues March - Ly - Bb Standard for Viola.ly
+refrain
+cis
+f'
+
+Blues March - Ly - Bb Standard.ly
+refrain
+cis'
+f''
+
+Blues March - Ly - Bb to C for Bb for Standard.ly
+refrain
+dis'
+g''
+
+Blues March - Ly - Bb to G for Eb for Standard.ly
+refrain
+ais
+d''
 
 Bluesette - Ly - Bb Bass for Standard.ly
 refrain
@@ -7961,6 +7991,11 @@ refrain
 a
 bes'
 
+Exactly Like You - Ly - C Alto Voice.ly
+refrain
+c
+g'
+
 Exactly Like You - Ly - C Bass for DFB.ly
 refrain
 c
@@ -8020,6 +8055,16 @@ Exactly Like You - Ly - D Alto Voice.ly
 refrain
 d
 a'
+
+Exactly Like You - Ly - Db Alto Voice.ly
+refrain
+des
+aes'
+
+Exactly Like You - Ly - Eb Alto Voice.ly
+refrain
+ees
+bes'
 
 Exactly Like You - Ly - F Alto Voice.ly
 refrain
@@ -21095,32 +21140,57 @@ bes'
 Russian Lullaby Waltz - Ly - Cm Bass for Standard.ly
 refrain
 c
-e'
+ees'
 
 Russian Lullaby Waltz - Ly - Cm Standard for Viola.ly
 refrain
 c
-e'
+ees'
 
 Russian Lullaby Waltz - Ly - Cm Standard.ly
 refrain
 c'
-e''
+ees''
 
 Russian Lullaby Waltz - Ly - Cm to Am for Eb for Standard.ly
 refrain
 a'
-cis'''
+c'''
 
 Russian Lullaby Waltz - Ly - Cm to Dm for Bb for Standard.ly
 refrain
 d'
-fis''
+f''
+
+Russian Lullaby Waltz - Ly - Dm Bass for Standard.ly
+refrain
+d
+f'
+
+Russian Lullaby Waltz - Ly - Dm Standard for Viola.ly
+refrain
+d
+f'
+
+Russian Lullaby Waltz - Ly - Dm Standard.ly
+refrain
+d'
+f''
+
+Russian Lullaby Waltz - Ly - Dm to Bm for Eb for Standard.ly
+refrain
+b'
+d'''
+
+Russian Lullaby Waltz - Ly - Dm to Em for Bb for Standard.ly
+refrain
+e'
+g''
 
 Russian Lullaby Waltz - Ly - Gm Alto Voice.ly
 refrain
 g
-b'
+bes'
 
 S Wonderful - Ly - Bb Alto Voice.ly
 refrain
@@ -29833,6 +29903,41 @@ You're Driving Me Crazy - Ly - F to G for Bb for Standard.ly
 refrain
 e'
 fis''
+
+Young and Foolish - Ly - C Bass for Standard.ly
+refrain
+c
+e'
+
+Young and Foolish - Ly - C Standard for Viola.ly
+refrain
+c
+e'
+
+Young and Foolish - Ly - C Standard.ly
+refrain
+c'
+e''
+
+Young and Foolish - Ly - C to A for Eb for Standard.ly
+refrain
+a'
+cis'''
+
+Young and Foolish - Ly - C to D for Bb for Standard.ly
+refrain
+d'
+fis''
+
+Young and Foolish - Ly - F Alto Voice.ly
+refrain
+f
+a'
+
+Young and Foolish - Ly - G Alto Voice.ly
+refrain
+g
+b'
 
 Young at Heart - Ly - Bb Bass for Standard.ly
 refrain
