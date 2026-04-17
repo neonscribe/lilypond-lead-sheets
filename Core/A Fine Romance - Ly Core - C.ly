@@ -14,7 +14,7 @@ instrument =
   subtitle = \instrument
   poet = "Dorothy Fields"
   composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1936 Chappell & Co., Inc." }
+  copyright = \markup \small { \now " " "© 1936 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {

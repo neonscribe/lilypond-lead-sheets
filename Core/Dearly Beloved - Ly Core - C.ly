@@ -14,7 +14,7 @@ instrument =
   subtitle = \instrument
   poet = "Johnny Mercer"
   composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1942 Chappell & Co. Inc." }
+  copyright = \markup \small { \now " " "© 1942 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {

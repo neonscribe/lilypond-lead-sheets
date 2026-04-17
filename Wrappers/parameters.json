@@ -104,7 +104,7 @@
   "description": "Use simple chords",
   "values": [false, true],
   "songs": ["At Sundown",
-	    "Besame Mucho",
+	    "Bésame Mucho",
 	    "Blue Christmas",
 	    "Bye Bye Blackbird",
 	    "Exactly Like You",
@@ -169,7 +169,7 @@
 
 { "name": "useDFBChords",
   "category": "chords",
-  "description": "Use Django Fake Book chords",
+  "description": "Use Django Fakebook chords",
   "values": [false, true],
   "songs": ["After You've Gone",
 	    "Ain't Misbehavin'",

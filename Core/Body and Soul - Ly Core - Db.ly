@@ -16,7 +16,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Edward Heymon, Robert Sour, and Frank Eyton"
   composer = "Johnny Green"
-  copyright = \markup \small { \now " " "© 1930 Chappell & Co., Ltd. and Harms Inc." }
+  copyright = \markup \small { \now " " "© 1930 Chappell & Co. and Harms Inc." }
 }
 
 refrainLyrics = \lyricmode {

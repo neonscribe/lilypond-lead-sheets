@@ -1,0 +1,96 @@
+[
+{ "name": "lyricsLanguage",
+  "category": "language",
+  "description": "Lyrics language",
+  "values": ["portuguese", "english", "french"] },
+
+{ "name": "useDFBVersion",
+  "category": "structure",
+  "description": "Use Django Fake Book chords and melody",
+  "values": [false, true] },
+
+{ "name": "hideLyrics",
+  "category": "structure",
+  "description": "Don't show lyrics",
+  "values": [false, true] },
+
+{ "name": "noIntro",
+  "category": "structure",
+  "description": "Don't show intro",
+  "values": [false, true] },
+
+{ "name": "withPianoAndBass",
+  "category": "structure",
+  "description": "Show piano and bass parts",
+  "values": [false, true] },
+
+{ "name": "objectGenderMale",
+  "category": "gender",
+  "description": "About a man",
+  "values": [false, true] },
+
+{ "name": "objectGenderFemale",
+  "category": "gender",
+  "description": "About a woman",
+  "values": [false, true] },
+
+{ "name": "femaleSinger",
+  "category": "gender",
+  "description": "Sung by a woman",
+  "values": [false, true] },
+
+{ "name": "maleSinger",
+  "category": "gender",
+  "description": "Sung by a man",
+  "values": [false, true] },
+
+{ "name": "useSimpleChords",
+  "category": "chords",
+  "description": "Use simple chords",
+  "values": [false, true] },
+
+{ "name": "useOldRealChords",
+  "category": "chords",
+  "description": "Use old (illicit) Real Book chords",
+  "values": [false, true] },
+
+{ "name": "useNewRealChords",
+  "category": "chords",
+  "description": "Use New Real Book (Sher Music) chords",
+  "values": [false, true] },
+
+{ "name": "useFiveFiveSevenChords",
+  "category": "chords",
+  "description": "Use 557 Jazz Standards chords",
+  "values": [false, true] },
+
+{ "name": "useFirehouseChords",
+  "category": "chords",
+  "description": "Use Firehouse Jazz Band Fake Book chords",
+  "values": [false, true] },
+
+{ "name": "useBillEvansChords",
+  "category": "chords",
+  "description": "Use Bill Evans chords",
+  "values": [false, true] },
+
+{ "name": "useGilEvansChords",
+  "category": "chords",
+  "description": "Use Gil Evans chords",
+  "values": [false, true] },
+
+{ "name": "useNOJamChords",
+  "category": "chords",
+  "description": "Use New Orleans Jam Book chords",
+  "values": [false, true] },
+
+{ "name": "useNicoChords",
+  "category": "chords",
+  "description": "Use Nico Lovejoy chords",
+  "values": [false, true] },
+
+{ "name": "useDFBChords",
+  "category": "chords",
+  "description": "Use Django Fakebook chords",
+  "values": [false, true] },
+]

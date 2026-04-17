@@ -12,7 +12,7 @@ instrument =
   subtitle = \instrument
   poet = "Lorenz Hart"
   composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1938 Chappell & Co, Inc" }
+  copyright = \markup \small { \now " " "© 1938 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {

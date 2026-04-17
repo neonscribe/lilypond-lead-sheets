@@ -18,7 +18,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   subtitle = \instrument
   poet = "Eugene Lockhart"
   composer = "Ernest Seitz"
-  copyright = \markup \small { \now " " "© 1919 Chappell & Co. Ltd." }
+  copyright = \markup \small { \now " " "© 1919 Chappell & Co." }
 }
 
 refrainLyrics = \lyricmode {
