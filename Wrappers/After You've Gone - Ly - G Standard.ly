@@ -6,6 +6,6 @@ instrument = "Django Fakebook Key"
 whatKey = g
 whatClef = "treble"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/After You've Gone - Ly Core - G.ly"

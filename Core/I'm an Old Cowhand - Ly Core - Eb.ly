@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "simple" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -9,13 +15,8 @@ instrument =
 
 #(set-global-staff-size 18)
 
-title =
-#(if (and (defined? 'useSimpleChords) useSimpleChords)
-  "I'm an Old Cowhand (From the Rio Grande), Cowboy Chords"
-  "I'm an Old Cowhand (From the Rio Grande), Jazz Chords")
-
 \header {
-  title = \title
+  title = "I'm an Old Cowhand"
   subtitle = \instrument
   poet = ""
   composer = "Johnny Mercer"
@@ -35,21 +36,21 @@ Yipp -- ee -- yi -- o -- ki -- yay, yipp -- ee -- yi -- o -- ki -- yay.
 Yipp -- ee -- yi -- o -- ki -- yay. __
 }
 
-refrainFancyChords = \chordmode {
-  f2:m7 bf2:7 ef2:maj7 c2:7.9+ f2:m7 bf2:7 ef4:maj7 r2.
+refrainHLChords = \chordmode {
+  f2:m7 bf2:7 ef2:6 c2:7 f2:m7 bf2:7 ef4:6 r2.
   
-  f1:m7 bf1:7 ef2:maj7 af2:7 g2:m7 c2:7.9+
-  f1:m7 bf1:7 ef1:maj7 d2:m7.5- g2:7.5+.9+
+  f1:m7 bf1:7 ef1:6 ef1:6
+  f1:m7 bf1:7 ef1:6 ef1:6
 
-  c1:m7 g1:m7 c1:m7 g1:m7
+  c1:m g1:m c1:m g1:m
   a2:m7.5- d2:7 g2:m7 c2:7.9-
 
-  f2:m7 bf2:7 ef2:maj7 c2:7.9+
-  f2:m7 bf2:7 ef4:maj7 r2.
+  f2:m7 bf2:7 ef2:6 c2:7
+  f2:m7 bf2:7 ef4:6 r2.
   
-  ef1:maj7
+  ef1:6
 
-  f1:m7 bf1:7 ef1:maj7 ef4:maj7 s2.
+  f1:m7 bf1:7 ef1:6 ef4:6 s2.
 }
 
 refrainSimpleChords = \chordmode {
@@ -68,10 +69,16 @@ refrainSimpleChords = \chordmode {
   f1:m bf1:7 ef1 ef4 s2.
 }
 
-refrainChords =
-#(if (and (defined? 'useSimpleChords) useSimpleChords)
-  refrainSimpleChords
-  refrainFancyChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "simple" refrainSimpleChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = ef
 

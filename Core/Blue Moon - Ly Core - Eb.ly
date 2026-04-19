@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "djam", "newreal", "newrealalt", "557" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -121,10 +127,19 @@ refrainDjypsyDjazzDjamChords = \chordmode {
   \chordCloseParen{ bf2:7 }
 }
 
-refrainChords = 
-   $(if (and (defined? 'useFiveFiveSevenChords) useFiveFiveSevenChords)
-     refrainFiveFiveSevenChords
-     refrainHLChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "djam" refrainDjypsyDjazzDjamChords)
+			    (cons "newreal" refrainNewRealChords)
+			    (cons "newrealalt" refrainNewRealAlternateChords)
+			    (cons "557" refrainFiveFiveSevenChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = ef
 

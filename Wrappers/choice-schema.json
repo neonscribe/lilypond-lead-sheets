@@ -1,0 +1,18 @@
+{
+  "title": "Choice",
+  "type": "object",
+  "properties": {
+    "option": {
+      "type": "string",
+	"description": "The name of the option this choice belongs to.",
+    },
+    "name": {
+      "type": "string",
+	"description": "The string passed to LilyPond as the value assigned to the option.",
+    },
+    "description": {
+      "description": "Description of choice for user interface.",
+      "type": "string"
+    }
+  }
+}

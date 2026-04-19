@@ -4,14 +4,14 @@
 
 \include "english.ly"
 
-instrument = "Ella Fitzgerald Key"
+instrument = "Ella Fitzgerald Key, Bill Evans Chords"
 whatKey = ef
 whatClef = "treble_8"
-Title = "Spring Is Here (Bill Evans Chords)"
+
 TempoName = "Ballad [Ella Fitzgerald 1956]"
 TempoBPM = 72
 
-useBillEvansChords = ##t
+alternateChords = "billevans"
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"
 

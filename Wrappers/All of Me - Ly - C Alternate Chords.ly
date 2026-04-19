@@ -6,6 +6,6 @@ instrument = "Standard Key Alternate Chords"
 whatKey = c
 whatClef = "treble"
 
-useAlternateChords = ##t
+alternateChords = "newreal"
 
 \include "../Core/All of Me - Ly Core - C.ly"

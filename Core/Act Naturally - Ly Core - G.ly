@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "coeboy", "jazz" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -77,10 +83,16 @@ refrainJazzChords = \chordmode {
   d1:7 d1:7 g1 g1
 }
 
-refrainChords =
-   $(if (and (defined? 'useJazzChords) useJazzChords)
-     refrainJazzChords
-     refrainCowboyChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "cowboy")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "jazz" refrainJazzChords)
+			    (cons "cowboy" refrainCowboyChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = g
 

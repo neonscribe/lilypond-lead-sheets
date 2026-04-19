@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "hideLyrics" ] }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =

@@ -6,6 +6,6 @@ instrument = "Original Standard Key, Simple Chords"
 whatKey = a
 whatClef = "treble"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Summertime - Ly Core - Am.ly"

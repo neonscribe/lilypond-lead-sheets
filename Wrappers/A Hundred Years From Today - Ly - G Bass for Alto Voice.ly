@@ -8,7 +8,7 @@ instrument = "Bass for Doris Day, Rosemary Clooney Key Simple Chords"
 whatKey = g,,
 whatClef = "bass"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/A Hundred Years From Today - Ly Core - Eb.ly"
 

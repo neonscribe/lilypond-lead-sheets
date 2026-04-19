@@ -8,7 +8,7 @@ instrument = "Firehouse Key for Viola"
 whatKey = c
 whatClef = "alto"
 
-useFirehouseChords = ##t
+alternateChords = "firehouse"
 
 \include "../Core/On the Alamo - Ly Core - F.ly"
 

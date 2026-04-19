@@ -8,7 +8,7 @@ instrument = "Bass for Firehouse Key"
 whatKey = c,
 whatClef = "bass"
 
-useFirehouseChords = ##t
+alternateChords = "firehouse"
 
 \include "../Core/On the Alamo - Ly Core - F.ly"
 

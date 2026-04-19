@@ -1,0 +1,20 @@
+{
+  "title": "Customizer",
+  "type": "object",
+  "properties": {
+    "toggles": {
+	"type": "array",
+	"items": { "type": "string", 
+		   "description": "toggle option name" }
+    },
+    "choices": {
+	"type": "object",
+	"description": "a dictionary with choice option names as keys and arrays of choices as values"
+	"additionalProperties": { "type": "array",
+				  "prefixItems": [ { "type": "string",
+						     "description": "default choice name" } ]
+				  "items": { "type": "string",
+					     "description": "other choice names" } }
+    }
+  }
+}

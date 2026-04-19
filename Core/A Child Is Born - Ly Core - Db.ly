@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "withPianoAndBass" ] }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =

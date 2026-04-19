@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "objectGenderMale" ] }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =

@@ -8,7 +8,7 @@ instrument = "Django Fakebook Key for Viola"
 whatKey = c
 whatClef = "alto"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/Smile - Ly Core - F.ly"
 

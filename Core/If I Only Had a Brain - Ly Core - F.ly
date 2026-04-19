@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "dfb" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -76,10 +82,16 @@ refrainDFBChords = \chordmode {
   \chordInsideParens{ c1:7 }
 }
 
-refrainChords = 
-   $(if (and (defined? 'useDFBChords) useDFBChords)
-     refrainDFBChords
-     refrainHLChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "dfb" refrainDFBChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = f
 

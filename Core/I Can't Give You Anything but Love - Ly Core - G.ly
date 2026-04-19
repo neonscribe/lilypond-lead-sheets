@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "dfb" ] } }
+
+%}
+
 % #(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
@@ -59,9 +65,16 @@ refrainDFBChords = \chordmode {
   a1:m7 d1:7 g2:6 bf2:dim7 a2:m7 d2:7
 }
 
-refrainChords = #(if (and (defined? 'useDFBChords) useDFBChords)
-		  refrainDFBChords
-		  refrainHLChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "dfb" refrainDFBChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = g
 

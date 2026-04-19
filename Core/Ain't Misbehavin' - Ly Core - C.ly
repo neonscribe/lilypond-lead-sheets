@@ -83,10 +83,17 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ g2:7 }
 }
 
-refrainChords = 
-   $(if (and (defined? 'useDFBChords) useDFBChords)
-     refrainDFBChords
-     refrainHLChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "newreal" refrainNewRealChords)
+			    (cons "dfb" refrainDFBChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = c
 

@@ -8,7 +8,7 @@ instrument = "Bb for Django Fakebook Chords"
 whatKey = d
 whatClef = "treble"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/Exactly Like You - Ly Core - C.ly"
 

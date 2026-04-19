@@ -4,11 +4,11 @@
 
 \include "english.ly"
 
-instrument = "Elvis Presley, Brian Setzer Key"
+instrument = "Elvis Presley, Brian Setzer Key, Simple Chords"
 whatKey = e
 whatClef = "treble"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Blue Christmas - Ly Core - F.ly"
 

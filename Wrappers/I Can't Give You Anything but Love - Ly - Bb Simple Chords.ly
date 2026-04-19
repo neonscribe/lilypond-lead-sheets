@@ -6,6 +6,6 @@ instrument = "Annette Hanshaw, Judy Garland, Peggy Lee Key, Django Fakebook Chor
 whatKey = bf,
 whatClef = "treble_8"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/I Can't Give You Anything but Love - Ly Core - G.ly"

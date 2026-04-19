@@ -6,6 +6,6 @@ instrument = "Etta Jones Key, Simple Chords"
 whatKey = bf,
 whatClef = "treble_8"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Bye Bye Blackbird - Ly Core - F.ly"

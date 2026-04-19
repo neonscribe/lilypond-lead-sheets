@@ -4,13 +4,13 @@
 
 \include "english.ly"
 
-instrument = "Bass for Standard Key"
+instrument = "Bass for Standard Key, Bill Evans Chords"
 whatKey = af,
 whatClef = "bass"
-Title = "Spring Is Here (Bill Evans Chords)"
 TempoName = "Slow Ballad [Bill Evans 1960]"
 TempoBPM = 57
-useBillEvansChords = ##t
+
+alternateChords = "billevans"
 hideLyrics = ##t
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"

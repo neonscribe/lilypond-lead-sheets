@@ -6,6 +6,6 @@ instrument = "Bass for Standard Key Alternate Chords"
 whatKey = c,
 whatClef = "bass"
 
-useAlternateChords = ##t
+alternateChords = "newreal"
 
 \include "../Core/All of Me - Ly Core - C.ly"

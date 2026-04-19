@@ -6,7 +6,7 @@ instrument = "Django Fakebook Key for Viola"
 whatKey = f,
 whatClef = "alto"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/I Can't Give You Anything but Love - Ly Core - G.ly"
 

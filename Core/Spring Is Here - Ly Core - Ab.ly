@@ -1,16 +1,18 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles: [ "hideLyrics" ],
+                "choices": { "alternateChords" [ "hlrb", "billevans" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
 #(if (and (defined? 'instrument) instrument)
   instrument
   "Standard Key")
-
-Title =
-#(if (and (defined? 'Title) Title)
-  Title
-  "Spring Is Here")
 
 TempoName =
 #(if (and (defined? 'TempoName) TempoName)
@@ -25,7 +27,7 @@ TempoBPM =
 #(set-global-staff-size 18)
 
 \header {
-  title = \Title
+  title = "Spring Is Here"
   subtitle = \instrument
   poet = "Lorenz Hart"
   composer = "Richard Rodgers"
@@ -75,10 +77,16 @@ refrainBillEvansChords = \chordmode {
   \chordCloseParen{ ef2:7 }
 }
 
-refrainChords = 
-   $(if (and (defined? 'useBillEvansChords) useBillEvansChords)
-     refrainBillEvansChords
-     refrainHLChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "billevans" refrainBillEvansChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = af
 

@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "newreal", "dfb" ] } }
+
+%}
+
 % #(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
@@ -54,10 +60,34 @@ refrainDFBChords = \chordmode {
   ef2. af2.:7 ef2. \chordInsideParens{ bf2.:7 }
 }
 
-refrainChords =
-$(if (and (defined? 'useDFBChords) useDFBChords)
-  refrainDFBChords
-  refrainNRBThreeChords)
+refrainHLChords = \chordmode {
+  ef2.:maj7 ef2.:maj7 ef2.:maj7 ef2.:maj7
+  af2.:7 af2.:7 af2.:7 af2.:7 
+
+  ef2.:maj7 ef2.:maj7 ef2.:maj7 ef2.:maj7
+  g2.:m7 c2.:7 g2.:m7 c2.:7
+  
+  f2.:7 f2.:7 f2.:7 f2.:7
+  af2.:m6 af2.:m6 df2.:9.11+ df2.:9.11+
+  
+  f2.:7 f2.:7 bf2.:7 bf2.:7
+  g2.:m7 c2.:7 f2.:m7 bf2.:7
+
+  f2.:m7 bf2.:7 f2.:m7 bf2.:7
+  ef2.:6 af2.:7 ef2.:6 \chordInsideParens{ bf2.:7 }
+}
+
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "dfb" refrainDFBChords)
+			    (cons "newreal" refrainNRBThreeChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = ef
 

@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "realdixieland", "dfb" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -38,7 +44,7 @@ You'll find that life is still worth -- while
 if you
 }
 
-refrainRBFourChords = \chordmode {
+refrainHLChords = \chordmode {
   f1 f1 e1/f f2 bf2:9
   a1:m7 af1:dim7 g1:m7 d1:7
   g1:m7 g1:m7 bf1:m7 ef1:9
@@ -65,9 +71,17 @@ refrainDFBChords = \chordmode {
   c1:7 f1 f1
 }
 
-refrainChords = $(if (and (defined? 'useDFBChords) useDFBChords)
-		  refrainDFBChords
-		  refrainRBFourChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "realdixieland" refrainRealDixielandChords)
+			    (cons "dfb" refrainDFBChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = f
 

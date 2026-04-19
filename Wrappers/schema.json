@@ -1,13 +1,9 @@
 [
 { "name": "lyricsLanguage",
   "category": "language",
-  "description": "Lyrics language",
-  "values": ["portuguese", "english", "french"] },
-
-{ "name": "useDFBVersion",
-  "category": "structure",
-  "description": "Use Django Fake Book chords and melody",
-  "values": [false, true] },
+  "description": "Lyrics language" },
+  "values": [["portuguese", "Portuguese"],
+	     ["english", "french"] },
 
 { "name": "hideLyrics",
   "category": "structure",

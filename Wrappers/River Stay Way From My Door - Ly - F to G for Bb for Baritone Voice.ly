@@ -6,6 +6,6 @@ instrument = "Bb for Baritone Voice Key"
 whatKey = g
 whatClef = "treble"
 
-useNicoChords = ##t
+alternateChords = "nico"
 
 \include "../Core/River Stay Way From My Door - Ly Core - C.ly"

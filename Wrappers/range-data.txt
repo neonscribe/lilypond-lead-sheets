@@ -5432,31 +5432,6 @@ refrain
 b
 d''
 
-Coquette - Ly - D Bass for Standard.ly
-refrain
-a,
-e'
-
-Coquette - Ly - D Standard for Viola.ly
-refrain
-a
-e''
-
-Coquette - Ly - D Standard.ly
-refrain
-a
-e''
-
-Coquette - Ly - D to B for Eb for Standard.ly
-refrain
-fis'
-cis'''
-
-Coquette - Ly - D to E for Bb for Standard.ly
-refrain
-b
-fis''
-
 Coquette - Ly - Eb Bass for Standard.ly
 refrain
 bes,
@@ -5478,6 +5453,56 @@ g
 d''
 
 Coquette - Ly - Eb to F for Bb for Standard.ly
+refrain
+c'
+g''
+
+Coquette DFB - Ly - D Bass for Standard.ly
+refrain
+a,
+e'
+
+Coquette DFB - Ly - D Standard for Viola.ly
+refrain
+a
+e''
+
+Coquette DFB - Ly - D Standard.ly
+refrain
+a
+e''
+
+Coquette DFB - Ly - D to B for Eb for Standard.ly
+refrain
+fis'
+cis'''
+
+Coquette DFB - Ly - D to E for Bb for Standard.ly
+refrain
+b
+fis''
+
+Coquette Firehouse - Ly - Eb Bass for Standard.ly
+refrain
+bes,
+f'
+
+Coquette Firehouse - Ly - Eb Standard for Viola.ly
+refrain
+bes
+f''
+
+Coquette Firehouse - Ly - Eb Standard.ly
+refrain
+bes
+f''
+
+Coquette Firehouse - Ly - Eb to C for Eb for Standard.ly
+refrain
+g
+d''
+
+Coquette Firehouse - Ly - Eb to F for Bb for Standard.ly
 refrain
 c'
 g''
@@ -7990,6 +8015,46 @@ Everything Happens to Me - Ly - Eb to F for Bb Low for Alto Voice.ly
 refrain
 a
 bes'
+
+Everything I've Got - Ly - Ab Alto Voice.ly
+refrain
+gis
+aes'
+
+Everything I've Got - Ly - Bb Alto Voice.ly
+refrain
+ais
+bes'
+
+Everything I've Got - Ly - Eb Bass for Standard.ly
+refrain
+dis
+ees'
+
+Everything I've Got - Ly - Eb Standard for Viola.ly
+refrain
+dis
+ees'
+
+Everything I've Got - Ly - Eb Standard.ly
+refrain
+dis'
+ees''
+
+Everything I've Got - Ly - Eb to C for Eb for Standard.ly
+refrain
+c'
+c''
+
+Everything I've Got - Ly - Eb to F for Bb for Standard.ly
+refrain
+f'
+f''
+
+Everything I've Got - Ly - F Alto Voice.ly
+refrain
+f
+f'
 
 Exactly Like You - Ly - C Alto Voice.ly
 refrain
@@ -24265,10 +24330,20 @@ refrain
 f
 g'
 
+Sweet Georgia Brown - Ly - F Bass for Simple Chords.ly
+refrain
+c
+d'
+
 Sweet Georgia Brown - Ly - F Bass for Standard.ly
 refrain
 c
 d'
+
+Sweet Georgia Brown - Ly - F Simple Chords.ly
+refrain
+c'
+d''
 
 Sweet Georgia Brown - Ly - F Standard for Viola.ly
 refrain

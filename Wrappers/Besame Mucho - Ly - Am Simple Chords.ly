@@ -8,7 +8,7 @@ instrument = "Alternate Key, Simple Chords"
 whatKey = a
 whatClef = "treble"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Besame Mucho - Ly Core - Dm.ly"
 

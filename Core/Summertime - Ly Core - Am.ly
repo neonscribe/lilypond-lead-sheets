@@ -1,5 +1,12 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "simple", "vanilla",
+						 "gilevans", "557", "mjq", "colorado" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -157,11 +164,21 @@ refrainVanillaChords = \chordmode {
   \chordInsideParens{ e1:7 }
 }
 
-refrainChords = #(if (and (defined? 'useSimpleChords) useSimpleChords)
-		  refrainSimpleChords
-		  (if (and (defined? 'useGilEvansChords) useGilEvansChords)
-		   refrainGilEvansChords
-		   refrainHLChords))
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "simple" refrainSimpleChords)
+			    (cons "vanilla" refrainVanillaChords)
+			    (cons "gilevans" refrainGilEvansChords)
+			    (cons "557" refrainFiveFiveSevenChords)
+			    (cons "mjq" refrainMJQChords)
+			    (cons "colorado" refrainColoradoChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = a
 

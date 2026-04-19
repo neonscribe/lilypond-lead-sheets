@@ -6,6 +6,6 @@ instrument = "Django Fakebook Key for Viola"
 whatKey = g
 whatClef = "alto"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/After You've Gone - Ly Core - G.ly"

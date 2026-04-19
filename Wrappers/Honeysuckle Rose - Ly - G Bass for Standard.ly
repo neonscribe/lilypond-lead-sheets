@@ -6,6 +6,6 @@ instrument = "Bass for Alternate Key Simple Chords"
 whatKey = g,
 whatClef = "bass"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Honeysuckle Rose - Ly Core - F.ly"

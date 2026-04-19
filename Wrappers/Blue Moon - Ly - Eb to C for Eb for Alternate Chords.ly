@@ -8,7 +8,7 @@ instrument = "Eb for 557 Jazz Standards Chords"
 whatKey = c
 whatClef = "treble"
 
-useFiveFiveSevenChords = ##t
+alternateChords = "557"
 
 \include "../Core/Blue Moon - Ly Core - Eb.ly"
 

@@ -6,6 +6,6 @@ instrument = "Standard Key, Simple Chords"
 whatKey = c
 whatClef = "treble"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Samba de Orfeu - Ly Core - C.ly"

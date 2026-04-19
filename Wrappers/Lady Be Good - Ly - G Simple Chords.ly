@@ -6,6 +6,6 @@ instrument = "Standard Key Simple Chords"
 whatKey = g
 whatClef = "treble"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Lady Be Good - Ly Core - G.ly"

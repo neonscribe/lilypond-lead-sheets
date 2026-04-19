@@ -66,10 +66,16 @@ refrainFirehouseChords = \chordmode {
   g1:7 g2:m7 c2:7 f2 bf2:7 f4 r2.
 }
 
-refrainChords =
-$(if (and (defined? 'useFirehouseChords) useFirehouseChords)
-  refrainFirehouseChords
-  refrainHLChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "firehouse" refrainFirehouseChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = f
 

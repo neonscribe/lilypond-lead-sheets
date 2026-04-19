@@ -1,0 +1,53 @@
+[
+{ "name": "lyricsLanguage",
+  "category": "language",
+  "type": "choice",
+  "description": "Specify lyrics language" },
+
+
+{ "name": "hideLyrics",
+  "category": "structure",
+  "type":"toggle",
+  "description": "Don't show lyrics" },
+
+{ "name": "petulaLyrics",
+  "category": "structure",
+  "type":"toggle",
+  "description": "Use Petula Clark's lyrics" },
+
+{ "name": "noIntro",
+  "category": "structure",
+  "type":"toggle",
+  "description": "Don't show intro" },
+
+{ "name": "withPianoAndBass",
+  "category": "structure",
+  "type":"toggle",
+  "description": "Show full piano and bass parts" },
+
+{ "name": "objectGenderMale",
+  "category": "gender",
+  "type":"toggle",
+  "description": "About a man" },
+
+{ "name": "objectGenderFemale",
+  "category": "gender",
+  "type":"toggle",
+  "description": "About a woman" },
+
+{ "name": "femaleSinger",
+  "category": "gender",
+  "type":"toggle",
+  "description": "Sung by a woman" },
+
+{ "name": "maleSinger",
+  "category": "gender",
+  "type":"toggle",
+  "description": "Sung by a man" },
+
+{ "name": "alternateChords",
+  "category": "chords",
+  "type":"choice",
+  "description": "Choose a different set of chords" },
+
+]

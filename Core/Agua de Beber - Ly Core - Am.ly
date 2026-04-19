@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "lyricsLanguage" [ "portuguese", "french", "english" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -9,12 +15,16 @@ instrument =
 
 % #(set-global-staff-size 18)
 
-lyricsCredit =
-#(if (and (defined? 'lyricsLanguage) (string= lyricsLanguage "english"))
-  "English lyrics by Norman Gimbel"
-  (if (and (defined? 'lyricsLanguage) (string= lyricsLanguage "french"))
-   "French lyrics by Pierre Barouh"
-   "Portuguese lyrics by Vinícius de Moraes"))
+lyricsLanguage = #(if (defined? 'lyricsLanguage)
+		   lyricsLanguage
+		   "portuguese")
+
+lyricsCredit = #(let ((v (assoc lyricsLanguage
+			  '(
+			    ("french" . "French lyrics by Pierre Barouh")
+			    ("english" . "English lyrics by Norman Gimbel")
+			    ("portuguese" . "Portuguese lyrics by Vinícius de Moraes")))))
+		 (if v (cdr v) ""))
 
 \header {
   title = "Água de Beber (Water to Drink)"
@@ -98,19 +108,21 @@ A mi -- nha ca -- sa __ vi -- ve_a -- ber -- ta. __
 A -- bri to -- das as por -- tas __ do co -- ra -- ção.
 }
 
-refrainLyrics =
-#(if (and (defined? 'lyricsLanguage) (string= lyricsLanguage "english"))
-  refrainLyricsEnglish
-  (if (and (defined? 'lyricsLanguage) (string= lyricsLanguage "french"))
-   refrainLyricsFrench
-   refrainLyricsPortuguese))
+refrainLyrics = #(let ((v (assoc lyricsLanguage
+			   (list
+			    (cons "french" refrainLyricsFrench)
+			    (cons "english" refrainLyricsEnglish)
+			    (cons "portuguese" refrainLyricsPortuguese)
+			  ))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
 
-refrainLyricsTwo =
-#(if (and (defined? 'lyricsLanguage) (string= lyricsLanguage "english"))
-  refrainLyricsEnglishTwo
-  (if (and (defined? 'lyricsLanguage) (string= lyricsLanguage "french"))
-   refrainLyricsFrenchTwo
-   refrainLyricsPortugueseTwo))
+refrainLyricsTwo = #(let ((v (assoc lyricsLanguage
+			      (list
+			       (cons "french" refrainLyricsFrenchTwo)
+			       (cons "english" refrainLyricsEnglishTwo)
+			       (cons "portuguese" refrainLyricsPortugueseTwo)
+			     ))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
 
 refrainChords = \chordmode {
   a1:m7 b2:7.9+ e2:7.5+ a1:m7
@@ -225,55 +237,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrain.ily"
-
-%{
-Droit devant moi, je cours les routes
-En vagabon de grands chemins
-Je fuis l'amour et ma déroute
-Parfois je verse des pleurs sur mes jours anciens
-Ce n'est que de l'eau
-Ce n'est que de l'eau camarade
-Ce n'est que de l'eau
-Ce n'est que de l'eau camarade
-Lorsque l'orage vient, je goûte
-La terre qui se change en parfum
-Et si la pluie pèse ses gouttes
-Je chante auprès de mon âme, j'en attends la fin
-Ce n'est que de l'eau
-Ce n'est que de l'eau camarade
-Ce n'est que de l'eau
-Ce n'est que de l'eau camarade
-Quand un obstacle me déroute
-Je le contourne et ce matin
-C'est l'océan qui bat ma route
-Tant pis je vais le sauter pour aller plus loin
-Ce n'est que de l'eau
-Ce n'est que de l'eau camarade
-Ce n'est que de l'eau
-Ce n'est que de l'eau camarade
-%}
-
-%{
-Eu quis amar, mas tive medo
-E quis salvar meu coração
-Mas o amor sabe um segredo
-O medo pode matar o seu coração
-
-Água de beber
-Água de beber camará
-Água de beber
-Água de beber camará
-
-Eu nunca fiz coisa tão certa
-Entrei pra escola do perdão
-A minha casa vive aberta
-Abri todas as portas do coração
-
-Água de beber
-Água de beber camará
-Água de beber
-Água de beber camará
-Água de beber
-Água de beber camará
-%}
-

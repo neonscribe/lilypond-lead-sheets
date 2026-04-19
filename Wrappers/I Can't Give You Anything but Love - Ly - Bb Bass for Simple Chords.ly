@@ -6,6 +6,6 @@ instrument = "Bass for Annette Hanshaw, Judy Garland, Peggy Lee Key, Django Fake
 whatKey = bf,,
 whatClef = "bass"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/I Can't Give You Anything but Love - Ly Core - G.ly"

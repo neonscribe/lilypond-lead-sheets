@@ -6,6 +6,6 @@ instrument = "Rosemary Clooney Key, Simple Chords"
 whatKey = g,
 whatClef = "treble_8"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/At Sundown - Ly Core - F.ly"

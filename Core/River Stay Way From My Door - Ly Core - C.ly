@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "nojam", "nico" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -71,12 +77,17 @@ refrainNOJamChords = \chordmode {
   c1 c1:7 f1 c1 d1:7 af2:7 g2:7 c1 c1
 }
 
-refrainChords =
-#(if (and (defined? 'useNOJamChords) useNOJamChords)
-  refrainNOJamChords
-  (if (and (defined? 'useNicoChords) useNicoChords)
-   refrainNicoChords
-   refrainHLChords))
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "nojam" refrainNOJamChords)
+			    (cons "nico" refrainNicoChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = c
 

@@ -6,6 +6,6 @@ instrument = "Bb for New Orleans Jambook Key"
 whatKey = f
 whatClef = "treble"
 
-useNOJamChords = ##t
+alternateChords = "nojam"
 
 \include "../Core/River Stay Way From My Door - Ly Core - C.ly"

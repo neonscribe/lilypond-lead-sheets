@@ -2,10 +2,10 @@
 
 \include "english.ly"
 
-instrument = "Bb for Cowboy Key"
+instrument = "Bb for Cowboy Key, Cowboy Chords"
 whatKey = d
 whatClef = "treble"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/I'm an Old Cowhand - Ly Core - Eb.ly"

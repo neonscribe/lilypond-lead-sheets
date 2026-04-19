@@ -4,11 +4,11 @@
 
 \include "english.ly"
 
-instrument = "Kelly Clarkson Key"
+instrument = "Kelly Clarkson Key, Simple Chords"
 whatKey = df
 whatClef = "treble_8"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Blue Christmas - Ly Core - F.ly"
 

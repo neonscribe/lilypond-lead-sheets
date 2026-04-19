@@ -7,6 +7,6 @@ whatKey = c
 whatClef = "treble_8"
 
 noIntro = ##t
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Lullaby of Birdland - Ly Core - Ab.ly"

@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "simple" ] } }
+
+%}
+
 % #(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
@@ -68,9 +74,16 @@ refrainSimpleChords = \chordmode {
   g1:7 c1:maj7 c4:maj7 r2.
 }
 
-refrainChords = #(if (and (defined? 'useSimpleChords) useSimpleChords)
-		  refrainSimpleChords
-		  refrainHLChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "simple" refrainSimpleChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = c
 

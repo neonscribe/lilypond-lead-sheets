@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "simple" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -9,13 +15,8 @@ instrument =
 
 % #(set-global-staff-size 18)
 
-title =
-#(if (and (defined? 'useSimpleChords) useSimpleChords)
-  "Blue Christmas, Cowboy Chords"
-  "Blue Christmas, Jazz Chords")
-
 \header {
-  title = \title
+  title = "Blue Christmas"
   subtitle = \instrument
   poet = ""
   composer = "Billy Hayes and Jay Johnson"
@@ -33,7 +34,7 @@ You'll be do -- in' all right with your Christ -- mas of white,
 but I'll have a blue, blue, blue, blue Christ -- mas.
 }
 
-refrainFancyChords = \chordmode {
+refrainHLChords = \chordmode {
   s2.
 
   f1:maj7 f2.:maj7/a af4:dim7 g2:m7 df2:9.11+ c1:9
@@ -65,10 +66,16 @@ refrainSimpleChords = \chordmode {
   c1:7 c1:7 f1 f1
 }
 
-refrainChords =
-#(if (and (defined? 'useSimpleChords) useSimpleChords)
-  refrainSimpleChords
-  refrainFancyChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "simple" refrainSimpleChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = f
 

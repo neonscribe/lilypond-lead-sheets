@@ -6,6 +6,6 @@ instrument = "Alernate Key Simple Chords"
 whatKey = g
 whatClef = "treble"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Honeysuckle Rose - Ly Core - F.ly"

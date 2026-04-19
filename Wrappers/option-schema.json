@@ -1,0 +1,24 @@
+{
+  "title": "Option",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+	"description": "The variable name passed to LilyPond."
+    },
+    "category": {
+      "type": "string",
+	"description": "The category of the option."
+	"pattern": "language|structure|gender|harmony"
+    },
+    "type": {
+      "type": "string",
+	"description": "What kind of option. Either a toggle or a choice.",
+	"pattern": "toggle|choice"
+    },
+    "description": {
+      "description": "Description of option for user interface.",
+      "type": "string"
+    }
+  }
+}

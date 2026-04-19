@@ -8,7 +8,7 @@ instrument = "Bb for Firehouse Key"
 whatKey = d
 whatClef = "treble"
 
-useFirehouseChords = ##t
+alternateChords = "firehouse"
 
 \include "../Core/On the Alamo - Ly Core - F.ly"
 

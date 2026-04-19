@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "firehouse", "simple" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -60,7 +66,7 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ d2:7 }
 }
 
-refrainFHChords = \chordmode {
+refrainFirehouseChords = \chordmode {
   s2
 
   g1:m7 c1:7 f1 f2 fs2:dim7
@@ -76,9 +82,17 @@ refrainFHChords = \chordmode {
   \chordCloseParen{ d2:7 }
 }
 
-refrainChords = #(if (and (defined? 'useSimpleChords) useSimpleChords)
-		  refrainSimpleChords
-		  refrainHLChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "simple" refrainSimpleChords)
+			    (cons "firehouse" refrainFirehouseChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = f
 

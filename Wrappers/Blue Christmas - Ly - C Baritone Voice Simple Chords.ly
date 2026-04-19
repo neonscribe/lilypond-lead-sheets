@@ -4,11 +4,11 @@
 
 \include "english.ly"
 
-instrument = "Ernest Tubb, Hank Thompson, Jim Reeves, Brenda Lee, Tammy Wynette Key"
+instrument = "Ernest Tubb, Hank Thompson, Jim Reeves Key, Simple Chords"
 whatKey = c'
 whatClef = "treble"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Blue Christmas - Ly Core - F.ly"
 

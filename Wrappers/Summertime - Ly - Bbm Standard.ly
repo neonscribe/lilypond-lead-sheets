@@ -6,6 +6,6 @@ instrument = "Miles Davis/Gil Evans Key"
 whatKey = bf
 whatClef = "treble"
 
-useGilEvansChords = ##t
+alternateChords = "gilevans"
 
 \include "../Core/Summertime - Ly Core - Am.ly"

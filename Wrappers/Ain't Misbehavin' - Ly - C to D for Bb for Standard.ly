@@ -6,6 +6,6 @@ instrument = "Bb for Django Fakebook Key"
 whatKey = d
 whatClef = "treble"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/Ain't Misbehavin' - Ly Core - C.ly"

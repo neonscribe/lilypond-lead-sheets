@@ -2,8 +2,8 @@
 
 \include "english.ly"
 
-instrument = "Eb for Firehouse Version"
+instrument = "Eb for Standard Key"
 whatKey = c
 whatClef = "treble"
 
-\include "../Core/Coquette - Ly Core - D.ly"
+\include "../Core/Coquette - Ly Core - Eb.ly"

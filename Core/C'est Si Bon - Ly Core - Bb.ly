@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "lyricsLanguage" [ "french", "english" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -38,7 +44,7 @@ refrainLyricsEnglish = \lyricmode {
   C'est si
 }
 
-refrainLyricsTwoEnglish = {
+refrainLyricsEnglishTwo = {
 }
 
 refrainLyricsFrench = \lyricmode {
@@ -66,7 +72,7 @@ Tell' -- ment, tell' -- ment c'est bon. __
 C'est si
 }
 
-refrainLyricsTwoFrench = \lyricmode {
+refrainLyricsFrenchTwo = \lyricmode {
 _ _ bon, __
 De pou -- voir l'em -- bras -- ser __
 Et pui de r'com -- men -- cer __
@@ -88,15 +94,21 @@ Cher -- chez pas la rai -- son: __
 C'est parc' -- que c'est si bon. __ ""
 }
 
-refrainLyrics =
-#(if (and (defined? 'lyricsLanguage) (string= lyricsLanguage "english"))
-  refrainLyricsEnglish
-  refrainLyricsFrench)
+lyricsLanguage = #(if (defined? 'lyricsLanguage)
+		   lyricsLanguage
+		   "french")
 
-refrainLyricsTwo =
-#(if (and (defined? 'lyricsLanguage) (string= lyricsLanguage "english"))
-  refrainLyricsTwoEnglish
-  refrainLyricsTwoFrench)
+refrainLyrics = #(let ((v (assoc lyricsLanguage
+			   (list
+			    (cons "french" refrainLyricsFrench)
+			    (cons "english" refrainLyricsEnglish)))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
+
+refrainLyricsTwo = #(let ((v (assoc lyricsLanguage
+			      (list
+			       (cons "french" refrainLyricsFrenchTwo)
+			       (cons "english" refrainLyricsEnglishTwo)))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
 
 refrainChords = \chordmode {
   s2

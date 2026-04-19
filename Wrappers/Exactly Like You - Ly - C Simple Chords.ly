@@ -8,7 +8,7 @@ instrument = "Simple Chords"
 whatKey = c
 whatClef = "treble"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Exactly Like You - Ly Core - C.ly"
 

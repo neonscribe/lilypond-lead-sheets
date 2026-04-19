@@ -8,7 +8,7 @@ instrument = "Bass Clef for Django Key"
 whatKey = c,
 whatClef = "bass"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/The Jitterbug Waltz - Ly Core - Eb.ly"
 

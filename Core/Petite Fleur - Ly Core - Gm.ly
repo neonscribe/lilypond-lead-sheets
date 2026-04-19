@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "petulaLyrics" ] }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =

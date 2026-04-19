@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "original" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -58,7 +64,7 @@ refrainLyrics = \lyricmode {
   then I shall tell them I Re -- mem -- ber You.
 }
 
-refrainBopChords = \chordmode {
+refrainHLChords = \chordmode {
   g1:maj7 cs2:m11 fs:7 g1:maj7 d2:m7 g2:7
   c1:maj7 f1:7
   b2:m7 e2:7 a2:m7 d:7
@@ -78,7 +84,7 @@ refrainBopChords = \chordmode {
   \chordCloseParen{ d2:7 }
 }
 
-refrainOldChords = \chordmode {
+refrainOriginalChords = \chordmode {
   g1 g1:dim7 g1 f2/a g4:sus7 g4:7 c2:maj7 c2:6 c2:m d2:7.9- g1 d2:sus7 d2:7
 
   g1 g1:dim7 g1 f2/a g4:sus7 g4:7 c2:maj7 c2:6 c2:m d2:7.9- g1 d2:m7/g g2:9
@@ -96,16 +102,16 @@ refrainOldChords = \chordmode {
   %% g1 a4:7.9- d4:13 g2
 }
 
-refrainChords =
-$(if (and (defined? 'oldChords) oldChords)
-  #{
-  \chordmode {
-  \refrainOldChords
-  } #}
-  #{
-  \chordmode {
-    \refrainBopChords
-  } #} )
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "original" refrainOriginalChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = g
 

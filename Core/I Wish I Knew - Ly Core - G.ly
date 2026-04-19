@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "hideLyrics" ] }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 % #(set-global-staff-size 18)
@@ -64,10 +70,16 @@ refrainBillEvansChords = \chordmode {
   a2:m9 e2:7.9+.5+ a2:m9 d2:9 g2:maj7 c2:13 b2:m9 bf2:13
 }
 
-refrainChords = 
-   $(if (and (defined? 'useBillEvansChords) useBillEvansChords)
-     refrainBillEvansChords
-     refrainHLChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "billevans" refrainBillEvansChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = g
 

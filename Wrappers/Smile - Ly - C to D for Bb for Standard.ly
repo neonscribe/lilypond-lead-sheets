@@ -10,7 +10,7 @@ whatClef = "treble"
 
 \include "../Core/Smile - Ly Core - F.ly"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 %{
 

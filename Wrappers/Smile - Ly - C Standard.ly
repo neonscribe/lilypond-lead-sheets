@@ -8,7 +8,7 @@ instrument = "Django Fakebook Key"
 whatKey = c'
 whatClef = "treble"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/Smile - Ly Core - F.ly"
 

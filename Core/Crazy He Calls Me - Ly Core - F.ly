@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "objectGenderFemale" ] }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -9,13 +15,8 @@ instrument =
 
 % #(set-global-staff-size 18)
 
-genderTitle = 
-#(if (and (defined? 'objectGenderFemale) objectGenderFemale)
-  "Crazy She Calls Me"
-  "Crazy He Calls Me")
-
 \header {
-  title = \genderTitle
+  title = "Crazy He (She) Calls Me"
   subtitle = \instrument
   poet = "Bob Russell"
   composer = "Carl Sigman"

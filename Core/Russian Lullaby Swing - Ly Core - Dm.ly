@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "dfb" ] } }
+
+%}
+
 % #(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
@@ -53,10 +59,16 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ a2:7 }
 }
 
-refrainChords = 
-   $(if (and (defined? 'useDFBChords) useDFBChords)
-     refrainDFBChords
-     refrainHLChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "dfb" refrainDFBChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = d
 

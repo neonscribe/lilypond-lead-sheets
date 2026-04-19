@@ -1,0 +1,127 @@
+[
+{
+    "option": "lyricsLanguage",
+    "name": "english",
+    "description": "English" },
+
+{
+    "option": "lyricsLanguage",
+    "name": "french",
+    "description": "French" },
+
+{
+    "option": "lyricsLanguage",
+    "name": "portuguese",
+    "description": "Portuguese" },
+
+{
+    "option": "lyricsLanguage",
+    "name": "spanish",
+    "description": "Spanish" },
+
+{
+    "option": "alternateChords",
+    "name": "simple",
+    "description": "Simple Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "dfb",
+    "description": "Django Fakebook Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "hlrb",
+    "description": "Hal Leonard Real Book Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "oldreal",
+    "description": "Old (illegal) Real Book Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "newreal",
+    "description": "New (Sher Music) Real Book Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "newrealalt",
+    "description": "New (Sher Music) Real Book Alternate Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "firehouse",
+    "description": "Firehouse Jazz Band Fake Book Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "djam",
+    "description": "Djypsy Djazz Djam Book Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "djam",
+    "description": "Djypsy Djazz Djam Book Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "557",
+    "description": "557 Jazz Standards Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "billevans",
+    "description": "Bill Evans Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "gilevans",
+    "description": "Gil Evans Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "nico",
+    "description": "Nico Lovejoy Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "realdixieland",
+    "description": "Real Dixieland Book Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "vanilla",
+    "description": "Vanilla Book Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "colorado",
+    "description": "Colorado Cookbook Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "nojam",
+    "description": "New Orleans Jam Book Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "mjq",
+    "description": "Modern Jazz Quartet Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "cowboy",
+    "description": "Cowboy Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "jazz",
+    "description": "Jazz Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "original",
+    "description": "Original Sheet Music Chords" },
+
+]

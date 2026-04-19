@@ -2,10 +2,10 @@
 
 \include "english.ly"
 
-instrument = "Sophia Johnson, Maryann Price (with Dan Hicks) Key"
+instrument = "Maryann Price (with Dan Hicks) Key, Cowboy Chords"
 whatKey = c
 whatClef = "treble"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/I'm an Old Cowhand - Ly Core - Eb.ly"

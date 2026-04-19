@@ -8,7 +8,7 @@ instrument = "Bass for Django Fakebook Key"
 whatKey = c,
 whatClef = "bass"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/Smile - Ly Core - F.ly"
 

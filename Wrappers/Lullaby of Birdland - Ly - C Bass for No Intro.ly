@@ -7,6 +7,6 @@ whatKey = c,
 whatClef = "bass"
 
 noIntro = ##t
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Lullaby of Birdland - Ly Core - Ab.ly"

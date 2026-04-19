@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "oldreal", "newreal" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -74,12 +80,17 @@ refrainOldRealChords = \chordmode {
   ef1:maj7 d1:7.9- g1:m g1:m
 }
 
-refrainChords = 
-   $(if (and (defined? 'useOldRealChords) useOldRealChords)
-     refrainOldRealChords
-     (if (and (defined? 'useNewRealChords) useNewRealChords)
-      refrainNewRealChords
-      refrainHLChords))
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "newreal" refrainNewRealChords)
+			    (cons "oldreal" refrainOldRealChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = g
 

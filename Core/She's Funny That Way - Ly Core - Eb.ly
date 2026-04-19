@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "objectGenderMale" ] }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -9,13 +15,8 @@ instrument =
 
 #(set-global-staff-size 18)
 
-genderTitle = 
-#(if (and (defined? 'objectGenderMale) objectGenderMale)
-  "He's Funny That Way"
-  "She's Funny That Way")
-
 \header {
-  title = \genderTitle
+  title = "She's (He's) Funny That Way"
   subtitle = \instrument
   poet = "Richard A. Whiting"
   composer = "Neil Moret"

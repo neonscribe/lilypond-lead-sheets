@@ -8,8 +8,7 @@ instrument = "Standard Key, Bill Evans Chords"
 whatKey = g
 whatClef = "treble"
 
-useBillEvansChords = ##t
-
+alternateChords = "billevans"
 hideLyrics = ##t
 
 \include "../Core/I Wish I Knew - Ly Core - G.ly"

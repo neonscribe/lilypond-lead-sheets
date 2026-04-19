@@ -6,6 +6,6 @@ instrument = "Bass for Original Standard Key, Gil Evans Chords"
 whatKey = a,,
 whatClef = "bass"
 
-useGilEvansChords = ##t
+alternateChords = "gilevans"
 
 \include "../Core/Summertime - Ly Core - Am.ly"

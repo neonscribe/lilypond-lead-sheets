@@ -4,11 +4,11 @@
 
 \include "english.ly"
 
-instrument = "Harry Connick Key"
+instrument = "Harry Connick Key, Simple Chords"
 whatKey = f
 whatClef = "treble"
 
-useSimpleChords = ##t
+alternateChords = "simple"
 
 \include "../Core/Blue Christmas - Ly Core - F.ly"
 

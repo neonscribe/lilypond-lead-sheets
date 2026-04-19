@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "femaleSinger" ] }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 % #(set-global-staff-size 18)

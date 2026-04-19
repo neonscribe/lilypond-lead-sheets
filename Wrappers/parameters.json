@@ -11,12 +11,6 @@
   "values": ["french", "english"],
   "songs": ["C'est Si Bon (It's So Good)"] },
 
-{ "name": "useDFBVersion",
-  "category": "structure",
-  "description": "Use Django Fake Book chords and melody",
-  "values": [false, true],
-  "songs": ["Coquette"] }
-
 { "name": "hideLyrics",
   "category": "structure",
   "description": "Don't show lyrics",

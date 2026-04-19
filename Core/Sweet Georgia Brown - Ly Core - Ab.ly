@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "simple", "newreal", "dfb" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -47,7 +53,7 @@ refrainSimpleChords = \chordmode {
   f1:7 f1:7 f1:7 f1:7
   bf1:7 bf1:7 bf1:7 bf1:7
   ef1:7 ef1:7 ef1:7 ef1:7
-  af1:maj7 ef1:5+ af1:maj7 g2:7 c2:7
+  af1:maj7 ef1:1.3.5+ af1:maj7 g2:7 c2:7
 
   f1:7 f1:7 f1:7 f1:7
   bf1:7 bf1:7 bf1:7 c1:7
@@ -55,7 +61,43 @@ refrainSimpleChords = \chordmode {
   af2:7 g2:7 gf2:7 f2:7 bf2:7 ef2:7 af1:6
 }
 
-refrainChords = \refrainSimpleChords
+refrainDFBChords = \chordmode {
+  f1:7 f1:7 f1:7 f1:7
+  bf1:7 bf1:7 bf1:7 bf1:7
+  ef1:7 ef1:7 ef1:7 ef1:7
+  af1 ef1:7 af1 g2:7 c2:7
+
+  f1:7 f1:7 f1:7 f1:7
+  bf1:7 bf1:7 bf1:7 c1:7
+  f1:m c1:7 f1:m c1:7
+  af1 f1:7 bf2:7 bf2:7 af1
+}
+
+refrainHLChords = \chordmode {
+  f1:7 f1:7 f1:7 f1:7
+  bf1:7 bf1:7 bf1:7 bf1:7
+  ef1:7 ef1:7 ef1:7 ef1:7
+  af1:6 bf2:m7 ef2:7 af1:6 g2:m7.5- c2:7.9-
+
+  f1:7 f1:7 f1:7 f1:7
+  bf1:7 bf1:7 bf1:7 bf2:7 c2:7
+  f1:m6 g2:m7.5- c2:7 f1:m6 g2:m7.5- c2:7
+  af2:7 g2:7 gf2:7 f2:7 bf2:7 ef2:7 af2:6
+  \chordInsideParens{ c2:7 }
+}
+
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "simple" refrainSimpleChords)
+			    (cons "newreal" refrainSRBChords)
+			    (cons "dfb" refrainDFBChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = af
 

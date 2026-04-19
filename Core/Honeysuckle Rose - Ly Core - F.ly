@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords" [ "hlrb", "newreal", "simple" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 instrument =
@@ -51,7 +57,7 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ af2:m7 }
 }
 
-refrainNRTwoChords = \chordmode {
+refrainNRChords = \chordmode {
   g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7
   f2:6 f2:7/a bf2:6 c2:7
 
@@ -90,9 +96,17 @@ refrainSimpleChords = \chordmode {
   \chordCloseParen{ d2:7 }
 }
 
-refrainChords = #(if (and (defined? 'useSimpleChords) useSimpleChords)
-		  refrainSimpleChords
-		  refrainHLChords)
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+		
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "simple" refrainSimpleChords)
+			    (cons "newreal" refrainNRChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = f
 

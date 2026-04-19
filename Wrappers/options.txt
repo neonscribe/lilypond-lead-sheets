@@ -1,0 +1,34 @@
+Options supplied to Core files in lilypond-lead-sheets
+
+These lead sheets can be customized with a variety of parameters,
+supplied on the LilyPond command line or from a wrapper file that
+includes a core file. There are three different types of parameters:
+boolean toggles, selection from a fixed set of choices, or a plain
+text (UTF) string.
+
+The following parameters are available to all core files:
+
+whatKey - choice
+
+whatKey is an absolute pitch in LilyPond notation, indicating the key
+and octave displacement to which the song should be transposed.
+
+whatClef - choice
+
+whatClef is the LilyPond clef name, one of the standard clefs in
+LilyPond, with an optional clef octave displacement indicator.
+
+instrument - string
+
+instrument is a misleading name for this parameter, which is simply
+used as the subtitle under the main song title in LilyPond.
+
+Other than these, a particular lead sheet may have a set of parameters
+specific to it. These control things like gendered lyrics, alternate
+languages for lyrics, and alternate chords, among other things. The
+options allowed by a specific file are listed in a JSON expression
+inside a LilyPond comment, with the prefix "Customizer:" in front of
+it. This conforms to the schema defined in customizer-schema.json. All
+the available options and the names and descriptions for choice options are
+listed in options.json and choices.json, with their schemas defined in
+options-schema.json and choices-schema.json.

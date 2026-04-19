@@ -8,7 +8,7 @@ instrument = "Django Key for Viola"
 whatKey = c
 whatClef = "alto"
 
-useDFBChords = ##t
+alternateChords = "dfb"
 
 \include "../Core/The Jitterbug Waltz - Ly Core - Eb.ly"
 
