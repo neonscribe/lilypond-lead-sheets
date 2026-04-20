@@ -10,7 +10,7 @@ Python3.
 
 Bash shell. Shell scripts, with .sh extensions, all begin with `#!/bin/bash`
 
-LilyPond 2.25 (the development branch, due to some bug fixes not in 2.24)
+LilyPond 2.26
 
 LuaLaTeX
 
