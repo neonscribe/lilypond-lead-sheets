@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "objectGenderMale" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -100,7 +100,8 @@ verseObjectGenderMaleLyrics = \lyricmode {
 }
 
 verseLyrics =
-#(if (and (defined? 'objectGenderMale) objectGenderMale)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   verseObjectGenderMaleLyrics
   verseObjectGenderFemaleLyrics)
 
@@ -172,9 +173,10 @@ refrainObjectGenderMaleLyrics = \lyricmode {
 }
 
 refrainLyrics =
-#(if (and (defined? 'objectGenderMale) objectGenderMale)
-  #{ \refrainObjectGenderMaleLyrics #}
-  #{ \refrainObjectGenderFemaleLyrics #} )
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
+  refrainObjectGenderMaleLyrics
+  refrainObjectGenderFemaleLyrics)
 
 refrainHLChords = \chordmode {
   f2:m c2:7/g f2:m/af c2:7/g f1:m f8*5:m cf4.:13

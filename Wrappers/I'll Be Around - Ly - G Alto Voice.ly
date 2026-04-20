@@ -8,7 +8,7 @@ instrument = "Rosemary Clooney, Sarah Vaughan Key"
 whatKey = g,
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/I'll Be Around - Ly Core - C.ly"
 

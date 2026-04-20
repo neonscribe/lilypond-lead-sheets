@@ -8,7 +8,7 @@ instrument = "Jo Stafford Key"
 whatKey = af,
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/Walkin' My Baby Back Home - Ly Core - Eb.ly"
 

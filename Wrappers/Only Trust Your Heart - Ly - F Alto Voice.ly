@@ -6,6 +6,6 @@ instrument = "Astrud Gilberto Key"
 whatKey = f,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Only Trust Your Heart - Ly Core - C.ly"

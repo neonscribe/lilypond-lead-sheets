@@ -6,6 +6,6 @@ instrument = "Bb for Alto Voice Key"
 whatKey = b,
 whatClef = "treble"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Is You Is or Is You Ain't (Ma' Baby) - Ly Core - Fm.ly"

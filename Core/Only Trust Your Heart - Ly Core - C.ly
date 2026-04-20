@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "objectGenderMale" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -44,7 +44,8 @@ refrainLyrics = \lyricmode {
 }
 
 refrainLyricsTwo = \lyricmode {
-#(if (and (defined? 'objectGenderMale) objectGenderMale)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
 #{
 \lyricmode {
   Nev -- er trust the moon __ when you're a -- bout to taste his kiss,

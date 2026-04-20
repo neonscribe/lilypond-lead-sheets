@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "objectGenderMale" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -48,7 +48,8 @@ And I ask you ver -- y con -- fi -- den -- tial -- ly, ain't he sweet?
 }
 
 refrainLyrics =
-#(if (and (defined? 'objectGenderMale) objectGenderMale)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
 

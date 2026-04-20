@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "femaleSinger" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -88,7 +88,8 @@ day to -- mor -- row. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'femaleSinger) femaleSinger)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   refrainFemaleSingerLyrics
   refrainMaleSingerLyrics)
 

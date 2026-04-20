@@ -8,7 +8,7 @@ instrument = "Margaret Whiting, Helen Forrest Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/My Ideal - Ly Core - Eb.ly"
 

@@ -20,26 +20,6 @@
   "description": "Show piano and bass parts",
   "values": [false, true] },
 
-{ "name": "objectGenderMale",
-  "category": "gender",
-  "description": "About a man",
-  "values": [false, true] },
-
-{ "name": "objectGenderFemale",
-  "category": "gender",
-  "description": "About a woman",
-  "values": [false, true] },
-
-{ "name": "femaleSinger",
-  "category": "gender",
-  "description": "Sung by a woman",
-  "values": [false, true] },
-
-{ "name": "maleSinger",
-  "category": "gender",
-  "description": "Sung by a man",
-  "values": [false, true] },
-
 { "name": "useSimpleChords",
   "category": "chords",
   "description": "Use simple chords",

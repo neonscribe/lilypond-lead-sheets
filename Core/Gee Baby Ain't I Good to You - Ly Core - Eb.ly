@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "objectGenderMale" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -46,7 +46,8 @@ Gee ba -- by, ain't I good to you.
 }
 
 refrainLyrics =
-#(if (and (defined? 'objectGenderMale) objectGenderMale)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
 

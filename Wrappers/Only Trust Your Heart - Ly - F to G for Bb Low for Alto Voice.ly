@@ -6,6 +6,6 @@ instrument = "Bb Low for Alto Voice Key"
 whatKey = g,
 whatClef = "treble"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Only Trust Your Heart - Ly Core - C.ly"

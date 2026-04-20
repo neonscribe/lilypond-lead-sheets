@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "objectGenderMale" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -68,7 +68,8 @@ and nev -- er a -- gain, I'll go sail -- ing.
 }
 
 refrainLyrics =
-#(if (and (defined? 'objectGenderMale) objectGenderMale)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
 

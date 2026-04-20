@@ -8,7 +8,7 @@ instrument = "June Christy, Ella Fitzgerald, Linda Ronstadt Key"
 whatKey = c
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Day Dream - Ly Core - F.ly"
 

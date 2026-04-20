@@ -8,7 +8,7 @@ instrument = "Nat King Cole, John Pizzarelli Key"
 whatKey = df
 whatClef = "treble"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/Walkin' My Baby Back Home - Ly Core - Eb.ly"
 

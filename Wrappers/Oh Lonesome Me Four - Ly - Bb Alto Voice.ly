@@ -8,7 +8,7 @@ instrument = "Connie Francis, Wanda Jackson, Kitty Wells, Skeeter Davis Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Oh, Lonesome Me Four - Ly Core - Eb.ly"
 

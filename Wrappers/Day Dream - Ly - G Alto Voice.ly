@@ -8,7 +8,7 @@ instrument = "Chris Connor Key"
 whatKey = g,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Day Dream - Ly Core - F.ly"
 

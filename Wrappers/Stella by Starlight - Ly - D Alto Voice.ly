@@ -6,6 +6,6 @@ instrument = "Anita O'Day Key"
 whatKey = d
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/Stella by Starlight - Ly Core - Bb.ly"

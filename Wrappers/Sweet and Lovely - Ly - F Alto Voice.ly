@@ -8,7 +8,7 @@ instrument = "Ella Fitzgerald Key"
 whatKey = f,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Sweet and Lovely - Ly Core - C.ly"
 

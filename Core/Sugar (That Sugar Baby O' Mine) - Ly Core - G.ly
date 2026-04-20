@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "femaleSinger" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -54,7 +54,8 @@ He's gran -- u -- lat -- ed sug -- ar, I nev -- er cheat __ on my sug -- ar,
 }
 
 refrainLyrics =
-#(if (and (defined? 'femaleSinger) femaleSinger)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   refrainFemaleSingerLyrics
   refrainMaleSingerLyrics)
 

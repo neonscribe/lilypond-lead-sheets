@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "maleSinger" ] }
+"Customizer": { "choice": { "singerGender": [ "female", "male" ] } }
 
 %}
 
@@ -91,7 +91,8 @@ to come back home to me. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'maleSinger) maleSinger)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "male"))
   refrainMaleSingerLyrics
   refrainFemaleSingerLyrics)
 

@@ -6,6 +6,6 @@ instrument = "Ella Fitzgerald Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/I've Found a New Baby - Ly Core - Dm.ly"

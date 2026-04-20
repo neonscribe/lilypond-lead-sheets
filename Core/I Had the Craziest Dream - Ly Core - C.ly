@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "femaleSinger" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -64,7 +64,8 @@ I found your lips __ next to mine, __ so I kissed __ you,
 and you did -- n't mind it at all. __
 When I'm a -- wake __ such a break __ nev -- er hap -- pens,
 how long can a }
-#(if (and (defined? 'femaleSinger) femaleSinger)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   #{ \lyricmode { gal __ } #}
   #{ \lyricmode { guy __ } #} )
 \lyricmode {

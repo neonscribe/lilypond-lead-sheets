@@ -6,6 +6,6 @@ instrument = "Bb High for Alto Voice Key"
 whatKey = g'
 whatClef = "treble"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/Stella by Starlight - Ly Core - Bb.ly"

@@ -8,7 +8,7 @@ instrument = "Tony Bennett Key"
 whatKey = f
 whatClef = "treble"
 
-objectGenderFemale = ##t
+singerGender = "male"
 
 \include "../Core/Crazy He Calls Me - Ly Core - F.ly"
 

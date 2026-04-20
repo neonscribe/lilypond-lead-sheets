@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "objectGenderMale" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -52,7 +52,8 @@ I got a man, _ cra -- zy for me, he's fun -- ny that way. (I)
 }
 
 refrainLyrics =
-#(if (and (defined? 'objectGenderMale) objectGenderMale)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   refrainObjectGenderMaleLyricsOne
   refrainObjectGenderFemaleLyricsOne)
 
@@ -85,7 +86,8 @@ I got a man, _ cra -- zy for me, he's fun -- ny that way.
 }
 
 refrainLyricsTwo =
-#(if (and (defined? 'objectGenderMale) objectGenderMale)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   refrainObjectGenderMaleLyricsTwo
   refrainObjectGenderFemaleLyricsTwo)
 

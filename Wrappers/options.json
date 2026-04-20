@@ -4,7 +4,6 @@
   "type": "choice",
   "description": "Specify lyrics language" },
 
-
 { "name": "hideLyrics",
   "category": "structure",
   "type":"toggle",
@@ -25,25 +24,10 @@
   "type":"toggle",
   "description": "Show full piano and bass parts" },
 
-{ "name": "objectGenderMale",
+{ "name": "singerGender",
   "category": "gender",
-  "type":"toggle",
-  "description": "About a man" },
-
-{ "name": "objectGenderFemale",
-  "category": "gender",
-  "type":"toggle",
-  "description": "About a woman" },
-
-{ "name": "femaleSinger",
-  "category": "gender",
-  "type":"toggle",
-  "description": "Sung by a woman" },
-
-{ "name": "maleSinger",
-  "category": "gender",
-  "type":"toggle",
-  "description": "Sung by a man" },
+  "type":"choice",
+  "description": "Choose the gender of the singer" },
 
 { "name": "alternateChords",
   "category": "chords",

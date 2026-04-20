@@ -8,7 +8,7 @@ instrument = "Frank Sinatra Key"
 whatKey = d
 whatClef = "treble"
 
-maleSinger = ##t
+singerGender = "male"
 
 \include "../Core/Baby Won't You Please Come Home - Ly Core - G.ly"
 

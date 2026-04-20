@@ -6,6 +6,6 @@ instrument = "Eb for Standard Key"
 whatKey = d
 whatClef = "treble"
 
-objectGenderMale = ##f
+singerGender = "female"
 
 \include "../Core/Is You Is or Is You Ain't (Ma' Baby) - Ly Core - Fm.ly"

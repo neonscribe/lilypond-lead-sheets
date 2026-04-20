@@ -6,6 +6,6 @@ instrument = "Standard Key for Viola"
 whatKey = f,
 whatClef = "alto"
 
-objectGenderMale = ##f
+singerGender = "female"
 
 \include "../Core/Is You Is or Is You Ain't (Ma' Baby) - Ly Core - Fm.ly"

@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "femaleSinger" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -25,7 +25,8 @@ instrument =
 
 refrainLyrics = { \lyricmode {
 My ma -- ma done tol' me __ when I was in }
-#(if (and (defined? 'femaleSinger) femaleSinger)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   #{ \lyricmode { pig -- tails,
 my ma -- ma done tol' me, __ Hon! __ A man's gon -- na sweet talk
 and give ya the big eye, __ but when the sweet talk is done, __
@@ -59,7 +60,8 @@ From Nat -- chez to Mo -- bile, __ from Mem -- phis to St. Joe, __
 where -- ev -- er the four winds __ blow. __
 I been in some big towns __ an' heard me some big talk, __
 but there is one thing I know, __ }
-#(if (and (defined? 'femaleSinger) femaleSinger)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   #{ \lyricmode {
 a man is a two -- face, __
 } #}

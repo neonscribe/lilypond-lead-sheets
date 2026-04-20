@@ -8,7 +8,7 @@ instrument = "Dee Dee Bridgewater Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Beyond the Sea - Ly Core - F.ly"
 

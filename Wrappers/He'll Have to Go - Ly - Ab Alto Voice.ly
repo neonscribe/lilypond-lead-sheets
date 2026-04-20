@@ -8,7 +8,7 @@ instrument = "Mary Ford (with Les Paul) Key"
 whatKey = af,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/He'll Have to Go - Ly Core - F.ly"
 

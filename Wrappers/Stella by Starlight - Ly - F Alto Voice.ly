@@ -6,6 +6,6 @@ instrument = "Ella Fitzgerald Key"
 whatKey = f
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/Stella by Starlight - Ly Core - Bb.ly"

@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "femaleSinger" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -48,7 +48,8 @@ so I'll be a -- round when she's gone. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'femaleSinger) femaleSinger)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   refrainFemaleSingerLyrics
   refrainMaleSingerLyrics)
 

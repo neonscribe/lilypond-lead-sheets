@@ -8,7 +8,7 @@ instrument = "Beverley Kenney Key"
 whatKey = f,
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/I Had the Craziest Dream - Ly Core - C.ly"
 

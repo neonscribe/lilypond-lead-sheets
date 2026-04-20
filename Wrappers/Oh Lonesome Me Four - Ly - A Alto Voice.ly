@@ -8,7 +8,7 @@ instrument = "Loretta Lynn Key"
 whatKey = a,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Oh, Lonesome Me Four - Ly Core - Eb.ly"
 

@@ -8,7 +8,7 @@ instrument = "Anita O'Day, Irene Kral Key"
 whatKey = g,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Detour Ahead - Ly Core - C.ly"
 

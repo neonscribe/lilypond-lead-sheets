@@ -6,6 +6,6 @@ instrument = "Bb for Alto Voice Key"
 whatKey = b,
 whatClef = "treble"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/How Insensitive - Ly Core - Dm.ly"

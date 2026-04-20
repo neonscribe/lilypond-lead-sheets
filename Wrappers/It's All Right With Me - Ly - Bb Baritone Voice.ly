@@ -6,6 +6,6 @@ instrument = "Baritone Voice Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-objectGenderMale = ##f
+singerGender = "female"
 
 \include "../Core/It's All Right With Me - Ly Core - Eb.ly"

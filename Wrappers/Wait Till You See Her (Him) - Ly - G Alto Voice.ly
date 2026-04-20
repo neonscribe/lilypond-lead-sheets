@@ -6,7 +6,7 @@ instrument = "Blossom Dearie Key"
 whatKey = g,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 #(set-global-staff-size 18)
 

@@ -8,7 +8,7 @@ instrument = "Debbie Reynolds, Dottie West Key"
 whatKey = d
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/City Lights - Ly Core - G.ly"
 

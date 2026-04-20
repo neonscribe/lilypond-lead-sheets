@@ -8,7 +8,7 @@ instrument = "Gisèle MacKenzie, Sandra Reemer, Kathryn Williams, Kina Grannis K
 whatKey = c
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Beyond the Sea - Ly Core - F.ly"
 

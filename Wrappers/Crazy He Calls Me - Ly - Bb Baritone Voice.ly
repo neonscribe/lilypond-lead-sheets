@@ -8,7 +8,7 @@ instrument = "Sam Cooke, Rod Stewart Key"
 whatKey = bf
 whatClef = "treble"
 
-objectGenderFemale = ##t
+singerGender = "male"
 
 \include "../Core/Crazy He Calls Me - Ly Core - F.ly"
 

@@ -8,7 +8,7 @@ instrument = "Anita O'Day Key"
 whatKey = c
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/The Very Thought of You - Ly Core - Ab.ly"
 

@@ -8,7 +8,7 @@ instrument = "Billie Holiday, Peggy Lee, Chaka Khan Key"
 whatKey = f,
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/I'll Be Around - Ly Core - C.ly"
 

@@ -8,7 +8,7 @@ instrument = "Pearl Bailey Key"
 whatKey = g,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Ain't She Sweet - Ly Core - Eb.ly"
 

@@ -6,6 +6,6 @@ instrument = "Ella Fitzgerald, Sarah Vaughan Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Have You Met Miss Jones - Ly Core - F.ly"

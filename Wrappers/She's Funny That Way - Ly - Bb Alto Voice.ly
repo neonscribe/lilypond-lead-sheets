@@ -8,7 +8,7 @@ instrument = "Dakota Staton Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/She's Funny That Way - Ly Core - Eb.ly"
 

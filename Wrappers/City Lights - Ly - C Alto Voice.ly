@@ -8,7 +8,7 @@ instrument = "Jean Shepard Key"
 whatKey = c
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/City Lights - Ly Core - G.ly"
 

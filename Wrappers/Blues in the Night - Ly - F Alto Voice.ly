@@ -8,7 +8,7 @@ instrument = "Dinah Shore, Rosemary Clooney Key"
 whatKey = f
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/Blues in the Night - Ly Core - Bb.ly"
 

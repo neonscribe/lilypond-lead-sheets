@@ -6,6 +6,6 @@ instrument = "Leon McAuliffe (with Bob Wills) Key"
 whatKey = ef
 whatClef = "treble"
 
-maleSinger = ##t
+singerGender = "male"
 
 \include "../Core/It's All Your Fault - Ly Core - C.ly"

@@ -8,7 +8,7 @@ instrument = "Billie Holiday, Ella Fitzgerald, Sarah Vaughan Key"
 whatKey = g,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/She's Funny That Way - Ly Core - Eb.ly"
 

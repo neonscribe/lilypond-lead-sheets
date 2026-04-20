@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "objectGenderMale" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -79,13 +79,17 @@ What __ was I to do? __
 What can you do __ when a love af -- fair is o -- ver?
 }
 
-refrainLyrics = $(if (and (defined? 'objectGenderMale) objectGenderMale)
-		        #{ \refrainLyricsOneM #}
-		        #{ \refrainLyricsOneF #} )
+refrainLyrics =
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
+  refrainLyricsOneM
+  refrainLyricsOneF)
 
-refrainLyricsTwo = $(if (and (defined? 'objectGenderMale) objectGenderMale)
-		        #{ \refrainLyricsTwoM #}
-		        #{ \refrainLyricsTwoF #} )
+refrainLyricsTwo =
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
+  refrainLyricsTwoM
+  refrainLyricsTwoF)
 
 refrainChordsSRB = \chordmode {
   d1:m7 d1:m7 a1:7.9-/cs a1:7.9-/cs

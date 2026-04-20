@@ -8,7 +8,7 @@ instrument = "Alison Moyet, Gwen Stefani, Rossana Casale Key"
 whatKey = f
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Almost Blue - Ly Core - Am.ly"
 

@@ -9,12 +9,12 @@
     "category": {
       "type": "string",
 	"description": "The category of the option."
-	"pattern": "language|structure|gender|harmony"
+	"pattern": "language|structure|gender|chords"
     },
     "type": {
       "type": "string",
-	"description": "What kind of option. Either a toggle or a choice.",
-	"pattern": "toggle|choice"
+	"description": "What kind of option. Either a toggle or a choice or a plain text (UTF) string.",
+	"pattern": "toggle|choice|text"
     },
     "description": {
       "description": "Description of option for user interface.",

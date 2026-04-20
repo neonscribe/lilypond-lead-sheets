@@ -8,7 +8,7 @@ instrument = "Monica Zetterlund, Debby Moore, Brenda Lee Key"
 whatKey = c
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Hallelujah I Love Him (Her) So - Ly Core - F.ly"
 

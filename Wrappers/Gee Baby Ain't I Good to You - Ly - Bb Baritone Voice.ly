@@ -8,7 +8,7 @@ instrument = "Baritone Voice Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-objectGenderMale = ##f
+singerGender = "female"
 
 \include "../Core/Gee Baby Ain't I Good to You - Ly Core - Eb.ly"
 

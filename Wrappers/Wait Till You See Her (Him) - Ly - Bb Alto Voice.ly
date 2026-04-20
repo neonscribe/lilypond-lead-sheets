@@ -6,6 +6,6 @@ instrument = "Alto Voice Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Wait Till You See Her (Him) - Ly Core - Eb.ly"

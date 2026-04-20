@@ -8,7 +8,7 @@ instrument = "Annette Hanshaw Key"
 whatKey = g,
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/Walkin' My Baby Back Home - Ly Core - Eb.ly"
 

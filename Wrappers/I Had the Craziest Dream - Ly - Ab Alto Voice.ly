@@ -8,7 +8,7 @@ instrument = "Helen Forrest (with Harry James) Key"
 whatKey = af,
 whatClef = "treble"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/I Had the Craziest Dream - Ly Core - C.ly"
 

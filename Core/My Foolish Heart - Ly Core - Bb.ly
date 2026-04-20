@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "objectGenderMale" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -61,9 +61,11 @@ It's love __ this time, it's love,
 My Fool -- ish Heart.
 }
 
-refrainLyrics = #(if (and (defined? 'objectGenderMale) objectGenderMale)
-		  refrainLyricsF
-		  refrainLyricsM)
+refrainLyrics =
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
+  refrainLyricsF
+  refrainLyricsM)
 
 refrainChords = \chordmode {
   s4

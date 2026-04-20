@@ -6,6 +6,6 @@ instrument = "Peggy Lee Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/It's All Right With Me - Ly Core - Eb.ly"

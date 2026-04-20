@@ -8,7 +8,7 @@ instrument = "Mildred Bailey, Doris Day Key"
 whatKey = af,
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/I'll Be Around - Ly Core - C.ly"
 

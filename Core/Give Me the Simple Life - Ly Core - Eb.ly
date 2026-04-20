@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "femaleSinger" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -126,7 +126,8 @@ refrainLyricsTwoFemale = \lyricmode {
 }
 
 refrainLyricsTwo =
-#(if (and (defined? 'femaleSinger) femaleSinger)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   refrainLyricsTwoFemale
   refrainLyricsTwoMale)
 

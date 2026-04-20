@@ -8,7 +8,7 @@ instrument = "Andrews Sisters Key"
 whatKey = e
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Bei Mir Bist Du Schoen - Ly Core - Am.ly"
 

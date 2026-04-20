@@ -8,7 +8,7 @@ instrument = "Julie London Key"
 whatKey = f,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/In the Wee Small Hours of the Morning - Ly Core - C.ly"
 

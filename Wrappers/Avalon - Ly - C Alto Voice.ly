@@ -6,6 +6,6 @@ instrument = "Dakota Staton Key"
 whatKey = c
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Avalon - Ly Core - F.ly"

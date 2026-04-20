@@ -8,7 +8,7 @@ instrument = "Baritone Voice Key"
 whatKey = c
 whatClef = "treble_8"
 
-maleSinger = ##t
+singerGender = "male"
 
 \include "../Core/Black Coffee - Ly Core - F.ly"
 

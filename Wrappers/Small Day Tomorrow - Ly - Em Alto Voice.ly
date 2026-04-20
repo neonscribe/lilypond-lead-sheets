@@ -8,7 +8,7 @@ instrument = "Irene Kral Key"
 whatKey = e
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/Small Day Tomorrow - Ly Core - Am.ly"
 

@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "objectGenderMale" ] }
+"Customizer": { "choice": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -28,7 +28,8 @@ My ba -- by don't care for shows, my ba -- by don't care for clothes,
 my ba -- by just cares for me. __ My ba -- by don't care for furs and __ la -- ces, __
 my ba -- by don't care for high -- toned __ pla -- ces. __
 My ba -- by don't care for rings, or oth -- er ex -- pen -- sive things, }
-#(if (and (defined? 'objectGenderMale) objectGenderMale)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "female"))
   #{ \lyricmode { he's } #}
   #{ \lyricmode { she's } #} )
 \lyricmode {

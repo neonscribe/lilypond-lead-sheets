@@ -6,6 +6,6 @@ instrument = "Bb for Alto Voice Key"
 whatKey = bf,
 whatClef = "treble"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/Give Me the Simple Life - Ly Core - Eb.ly"

@@ -8,7 +8,7 @@ instrument = "Peggy Lee Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/Sugar (That Sugar Baby O' Mine) - Ly Core - G.ly"
 

@@ -8,7 +8,7 @@ instrument = "Connie Smith Key"
 whatKey = e
 whatClef = "treble_8"
 
-femaleSinger = ##t
+singerGender = "female"
 
 \include "../Core/City Lights - Ly Core - G.ly"
 

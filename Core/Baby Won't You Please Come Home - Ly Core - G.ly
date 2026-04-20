@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "maleSinger" ] }
+"Customizer": { "choice": { "singerGender": [ "female", "male" ] } }
 
 %}
 
@@ -52,7 +52,8 @@ home, Dad -- dy needs ba -- by, ba -- by won't you please come home. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'maleSinger) maleSinger)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "male"))
   refrainMaleSingerLyrics
   refrainFemaleSingerLyrics)
 

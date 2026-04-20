@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 instrument = "Bb High for Alto Voice Key"
 whatKey = g'

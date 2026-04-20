@@ -8,7 +8,7 @@ instrument = "Billie Holiday, Patti Page, Sarah Vaughan, Tierney Sutton Key"
 whatKey = af,
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Detour Ahead - Ly Core - C.ly"
 

@@ -8,7 +8,7 @@ instrument = "Diana Krall, Jennifer Jason Leigh Key"
 whatKey = d
 whatClef = "treble_8"
 
-objectGenderMale = ##t
+singerGender = "female"
 
 \include "../Core/Almost Blue - Ly Core - Am.ly"
 
