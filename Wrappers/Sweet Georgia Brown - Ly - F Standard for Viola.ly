@@ -1,8 +1,8 @@
-\version "2.24.0"
+\version "2.26.0"
 
 \include "english.ly"
 
-instrument = "Classic Real Book and Django Fake Book Key for Viola"
+instrument = "Classic Real Book and Django Fakebook Key for Viola"
 whatKey = f,
 whatClef = "alto"
 

@@ -335,7 +335,7 @@ def write_wrapper_file(dict):
 
     wrapper_file_contents = f"""%% -*- Mode: LilyPond -*-
 
-\\version "2.24.0"
+\\version "2.26.0"
 
 \\include "english.ly"
 

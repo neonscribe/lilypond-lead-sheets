@@ -32,6 +32,6 @@
 { "name": "alternateChords",
   "category": "chords",
   "type":"choice",
-  "description": "Choose a different set of chords" },
+  "description": "Choose a different set of chords" }
 
 ]

@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "choices": { "alternateChords" [ "hlrb", "nojam", "nico" ] } }
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "nojam", "nico" ] } }
 
 %}
 

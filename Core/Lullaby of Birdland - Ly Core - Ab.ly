@@ -2,8 +2,8 @@
 
 %{
 
-"Customizer": { "toggles: [ "noIntro" ],
-                "choices": { "alternateChords" [ "hlrb", "simple" ] } }
+"Customizer": { "toggles": [ "noIntro" ],
+                "choices": { "alternateChords": [ "hlrb", "simple" ] } }
 
 %}
 

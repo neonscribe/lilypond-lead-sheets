@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "choices": { "alternateChords" [ "hlrb", "simple", "vanilla",
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "simple", "vanilla",
 						 "gilevans", "557", "mjq", "colorado" ] } }
 
 %}

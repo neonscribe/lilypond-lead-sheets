@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "choices": { "alternateChords" [ "hlrb", "newreal", "simple" ] } }
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "newreal", "simple" ] } }
 
 %}
 

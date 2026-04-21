@@ -22,4 +22,4 @@ printNoteNames =
 \include "bar-lines.ily"
 \include "chord-slash.ily"
 
-\version "2.22"
+\version "2.26.0"

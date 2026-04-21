@@ -9,10 +9,10 @@
     },
     "choices": {
 	"type": "object",
-	"description": "a dictionary with choice option names as keys and arrays of choices as values"
+	"description": "a dictionary with choice option names as keys and arrays of choices as values",
 	"additionalProperties": { "type": "array",
 				  "prefixItems": [ { "type": "string",
-						     "description": "default choice name" } ]
+						     "description": "default choice name" } ],
 				  "items": { "type": "string",
 					     "description": "other choice names" } }
     }

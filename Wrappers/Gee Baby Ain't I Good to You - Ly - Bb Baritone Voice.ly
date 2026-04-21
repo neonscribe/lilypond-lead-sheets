@@ -1,14 +1,12 @@
 %% -*- Mode: LilyPond -*-
 
-\version "2.24.0"
+\version "2.26.0"
 
 \include "english.ly"
 
 instrument = "Baritone Voice Key"
 whatKey = bf,
 whatClef = "treble_8"
-
-singerGender = "female"
 
 \include "../Core/Gee Baby Ain't I Good to You - Ly Core - Eb.ly"
 

@@ -1,4 +1,4 @@
-\version "2.24"
+\version "2.26.0"
 
 #(use-modules (ice-9 receive))
 

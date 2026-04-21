@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "choices": { "alternateChords" [ "coeboy", "jazz" ] } }
+"Customizer": { "choices": { "alternateChords": [ "cowboy", "jazz" ] } }
 
 %}
 

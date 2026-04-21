@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "choices": { "lyricsLanguage" [ "french", "english" ] } }
+"Customizer": { "choices": { "lyricsLanguage": [ "french", "english" ] } }
 
 %}
 

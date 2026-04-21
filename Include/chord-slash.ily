@@ -1,6 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-\version "2.24.4"
+\version "2.26.0"
 
 % Function to print a specified number of slashes
 chordSlash = #(define-music-function (count) (integer?)

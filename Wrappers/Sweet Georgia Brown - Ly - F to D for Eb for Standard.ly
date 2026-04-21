@@ -1,8 +1,8 @@
-\version "2.24.0"
+\version "2.26.0"
 
 \include "english.ly"
 
-instrument = "Eb for Classic Real Book and Django Fake Book Key"
+instrument = "Eb for Classic Real Book and Django Fakebook Key"
 whatKey = d'
 whatClef = "treble"
 

@@ -117,7 +117,14 @@ for file in *.ly; do
 done
 
 for file in *.midi; do
-    mv "$file" ../Midi/
+    cp "$file" ../Midi/
+    rm "$file"
 done
+
+python parse-log-ambitus.py > range-data.txt
+python collect-customizers.py > customizers.json
+check-jsonschema --schemafile customizers-schema.json customizers.json
+check-jsonschema --schemafile options-schema.json options.json
+check-jsonschema --schemafile choices-schema.json choices.json
 
 date

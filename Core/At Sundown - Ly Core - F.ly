@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "choices": { "alternateChords" [ "hlrb", "firehouse", "simple" ] } }
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "firehouse", "simple" ] } }
 
 %}
 

@@ -98,7 +98,7 @@ refrainChords = \chordmode {
   g2:m7 a2:7 d4:7 r2.
   
   d1:7 d1:7 g1:m7 g1:m7/f
-  a2:7/e a2:7/ef d1:7 g1:m7 g4:m7 r2.
+  a2:7/e a2:7/ef d1:7 g2:m7 a2:7 d4:7 r2.
 
   d1:7 d1:7 bf1:maj7 b1:dim7
   c2:m7 c2:m7/bf a2:m7.5- f2:7 bf1:maj7 g1:m7

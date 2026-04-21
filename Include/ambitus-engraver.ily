@@ -8,7 +8,7 @@
 %%
 %% This file is in the public domain.
 
-\version "2.24.0"
+\version "2.26.0"
 
 \header {
   lsrtags = "contexts-and-engravers"

@@ -8,7 +8,7 @@
     },
     "category": {
       "type": "string",
-	"description": "The category of the option."
+	"description": "The category of the option.",
 	"pattern": "language|structure|gender|chords"
     },
     "type": {

@@ -2,8 +2,8 @@
 
 %{
 
-"Customizer": { "toggles: [ "hideLyrics" ],
-                "choices": { "alternateChords" [ "hlrb", "billevans" ] } }
+"Customizer": { "toggles": [ "hideLyrics" ],
+                "choices": { "alternateChords": [ "hlrb", "billevans" ] } }
 
 %}
 

@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "choices": { "alternateChords" [ "hlrb", "realdixieland", "dfb" ] } }
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "realdixieland", "dfb" ] } }
 
 %}
 

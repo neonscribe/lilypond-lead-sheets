@@ -1,0 +1,535 @@
+[
+{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "dfb"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "dfb",
+            "newreal",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "female",
+            "male"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "toggles": [
+        "hideLyrics"
+    ],
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "billevans"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "oldreal",
+            "newreal"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal",
+            "dfb"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "female",
+            "male"
+        ]
+    }
+},{
+    "choices": {
+        "lyricsLanguage": [
+            "portuguese",
+            "french",
+            "english"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "toggles": [
+        "hideLyrics"
+    ]
+},{
+    "toggles": [
+        "hideLyrics"
+    ]
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "dfb"
+        ]
+    }
+},{
+    "choices": {
+        "lyricsLanguage": [
+            "french",
+            "english"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "simple",
+            "newreal",
+            "dfb"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "female",
+            "male"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal",
+            "dfb",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "original"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "oldreal",
+            "newreal"
+        ]
+    }
+},{
+    "toggles": [
+        "noIntro"
+    ],
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "dfb"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "toggles": [
+        "hideLyrics"
+    ]
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "simple",
+            "vanilla",
+            "gilevans",
+            "557",
+            "mjq",
+            "colorado"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "firehouse",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "nojam",
+            "nico"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "djam",
+            "newreal",
+            "newrealalt",
+            "557"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "female",
+            "male"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "toggles": [
+        "withPianoAndBass"
+    ]
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "toggles": [
+        "petulaLyrics"
+    ]
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "firehouse",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "cowboy",
+            "jazz"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "dfb"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "realdixieland",
+            "dfb"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "dfb"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+}
+]

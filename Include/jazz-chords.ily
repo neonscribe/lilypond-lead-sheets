@@ -1,4 +1,4 @@
-%%% \version "2.25.24"
+%%% \version "2.26.0"
 %%%
 %%% JAZZ CHORDS
 %%% (based upon pop-chords.ly by James L. Hammons)

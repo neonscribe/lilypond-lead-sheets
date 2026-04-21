@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "choice": { "singerGender": [ "female", "male" ] } }
+"Customizer": { "choices": { "singerGender": [ "female", "male" ] } }
 
 %}
 
