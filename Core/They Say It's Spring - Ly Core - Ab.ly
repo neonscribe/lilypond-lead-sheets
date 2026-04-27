@@ -51,7 +51,7 @@ though it was spring __ that won -- drous day __ you caught me?
 Dar -- ling, I thought you knew __ that it was -- n't spring, 'twas you. __
 }
 
-refrainArrangeMeChords = \chordmode {
+refrainMimAdamsChords = \chordmode {
   af2:maj7 f2:m7 bf2:m7 ef2:7 af2:maj7 f2:m7 bf2:m7 ef2:7 
   af2:maj7 f2:m7 g2:m7.5- c2:7.13- f1:m7 g2:m7.5- c2:7.13-
   f1:m7 bf2:m7 ef2:7
@@ -85,12 +85,13 @@ refrainHLChords = \chordmode {
 
   af2:6.9 f2:m7 bf2:m7 ef2:7 af2:6.9 f2:m7 bf2:m7 ef2:7 
   f1:m6 g2:m7.5- c2:7 f1:m6 g2:m7.5- c2:7
-  f2:m7 df2:6 bf2:13 b2:dim7 c2:m7 f2:m7 bf2:m7 ef2:7.9- af2:6 f2:7.9- bf2:m7 ef2:7.9-
-  af2:6 f2:7.9- bf2:m7 ef2:7.9-
+  f2:m7 df2:6 bf2:13 b2:dim7 c2:m7 f2:m7 bf2:m7 ef2:7.9- 
+  af2:6.9 f2:m7 bf2:m7 ef2:7
+  af2:6.9 f2:m7 bf2:m7 ef2:7
   af1:6
 }
 
-refrainChords = \refrainArrangeMeChords
+refrainChords = \refrainHLChords
 
 refrainKey = af
 
@@ -112,29 +113,35 @@ refrainMelody = \relative f' {
 
   \sectStart "A1"
 
-  r4 r8 ef8 af8 c,8 r8 ef8~ | ef2 r2 | r4 r8 ef8 af8 c,8 r8 f8~ | f8 f4 ef8 c8 bf4. |
-  r4 r8 c8 f8 af,8 r8 c8~ | c2 r2 | r4 r8 c8 f8 af,8 r8 c8~ | c8 c4 bf8 af8 g4. |
-  bf4 bf8 af8 g8 af8 r8 f'8~ | f2 r2 |
+  r4 ef4 af8 c,4 ef8~ | ef2. r4 | r4 ef4 af8 c,4 f8~ | f8 f4 ef8 c8 bf4. |
+  \break
+  r4 c4 f8 af,4 c8~ | c2. r4 | r4 c4 f8 af,4 c8~ | c8 c4 bf8 af8 g4 bf8~ |
+  \break
+  bf8 bf4 af8 g8 af4 f'8~ | f2 r2 |
   
   \sect "A2"
   
-  r4 r8 ef8 af8 c,8 r8 ef8~ | ef2 r2 | r4 r8 ef8 af8 c,8 r8 f8~ | f8 f4 ef8 c8 bf4. |
-  r4 r8 c8 f8 af,8 r8 c8~ | c2 r2 | r4 r8 c8 f8 af,8 r8 c8~ | c8 c4 bf8 af8 g4. |
-  bf4 bf8 af8 g8 af4 f'8~ | f2 r8 ef8 f8 g8~ |
+  r4 ef4 af8 c,4 ef8~ | ef2. r4 | r4 ef4 af8 c,4 f8~ | f8 f4 ef8 c8 bf4. |
+  \break
+  r4 c4 f8 af,4 c8~ | c2. r4 | r4 c4 f8 af,4 c8~ | c8 c4 bf8 af8 g4 bf8~ |
+  \break
+  bf8 bf4 af8 g8 af4 f'8~ | f2 r8 ef8 f8 g8~ |
   \bar "||"
   
   \xPageBreak
 
   \sectNoBar "B"
   
-  g2 r8 ef8 f8 g8~ | g2 r8 e8 f8 af8~ | af8 f8 fs8 g8~ g8 ef8 f4 | g2 r8 f8 ef8 f8~ |
-  f2 r8 ef8 df8 ef8~ | ef2 r8 df8 c8 df8~ | df8 df8 df8 df8~ df8 af8 bf4 | c4 r4 r2 |
+  g2 r8 ef8 f8 g8~ | g2 r8 e8 f8 af8~ | af8 f8 fs8 g8~ \tuplet 3/2 { g4 ef4 f4 } | g2 r8 f8 ef8 f8~ |
+  f2 r8 ef8 df8 ef8~ | ef2 r8 df8 c8 df8~ | df8 df8 df8 df8~ df8 af8 bf8 c8~ | c2 r2 |
 
   \sect "A3"
 
-  r4 r8 ef8 af8 c,8 r8 ef8~ | ef2 r2 | r4 r8 ef8 af8 c,8 r8 f8~ | f8 f4 ef8 c8 bf4. |
-  r4 r8 c8 f8 af,8 r8 c8~ | c2 r2 | r4 r8 c8 f8 af,8 r8 c8~ | c8 c4 bf8 af8 g4. |
-  bf4 bf8 af8 g8 af4 g'8~ | g2 r4 f4 | ef4 af2 c,8 ef8~ | ef2 r4 bf'8 af8~ | af1 |
+  r4 ef4 af8 c,4 ef8~ | ef2. r4 | r4 ef4 af8 c,4 f8~ | f8 f4 ef8 c8 bf4. |
+  \break
+  r4 c4 f8 af,4 c8~ | c2. r4 | r4 c4 f8 af,4 c8~ | c8 c4 bf8 af8 g4 bf8~ |
+  \break
+  bf8 bf4 af8 g8 af4 g'8~ | g2 r4 f4 | ef4 af2 c,8 ef8~ | ef2 r4 bf'8 af8~ | af1 |
   r1 | r1 | r1 \textToCodaLastTime |
   
   \bar "|."

@@ -4,6 +4,10 @@
 now = ""
 
 
+har = #(define-music-function (music)
+	(ly:music?)
+	#{ \tweak font-size #-2 #music #} )
+
 #(define (begin-parenthesis-ignatzek-chord-names in-pitches bass inversion context)
    (markup #:line ("(" (ignatzek-chord-names in-pitches bass inversion context))))
 

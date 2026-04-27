@@ -25,6 +25,9 @@ refrainChords = \chordmode {
 
   e1:m7
 
+  e1:m7 f1:maj7 b1:7 c1:maj7
+  a1:m7 f1:maj7 e1:maj7
+
   e1:m7
   
   a1:m7 f1:maj7 a1:m7 a1:maj7
@@ -53,19 +56,22 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up [Bill Evans 1961]" 162
 
   \partial 2 b2 |
+  \bar "||"
   
-  \xTextMark \markup{ \bold \box "A1, A2" }
+  \sectStart "A1"
   
-  \bar ".|:"
-  \repeat volta 2 {
-    e1 | r8 ds,8 e8 e'8 ds4. c8 | b1~ | b1 |
-    \break
-    r8 b4. a4 g4 | e4. a8~ a2 | \tuplet 3/2 { gs8 a8 gs8 } f2 e4~ |
-  \alternative { \volta 1 {
-    e2 b'2 |
-  } \volta 2 {
-    e,2 e2 |
-  } } }
+  e1 | r8 ds,8 e8 e'8 ds4. c8 | b1~ | b1 |
+  \break
+  r8 b4. a4 g4 | e4. a8~ a2 | \tuplet 3/2 { gs8 a8 gs8 } f2 e4~ |
+  e2 b'2 |
+
+  \sect "A2"
+  
+  e1 | r8 ds,8 e8 e'8 ds4. c8 | b1~ | b1 |
+  \break
+  r8 b4. a4 g4 | e4. a8~ a2 | \tuplet 3/2 { gs8 a8 gs8 } f2 e4~ |
+  e2 e2 |
+
   \sect "B"
   
   b'2. b4~ | b2 b,8 c8 e8 g8 | b2. b4~ | b2. r4 |

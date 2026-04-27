@@ -61,81 +61,81 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Les Paul and Mary Ford 1951]" 130
 
   \partial 2 
-  <f \tweak font-size #-2 b \tweak font-size #-2 d>4(
-  <g \tweak font-size #-2 c \tweak font-size #-2 e>4) |
+  <f \har b \har d>4(
+  <g \har c \har e>4) |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A1" }
   
-  <e \tweak font-size #-2 g \tweak font-size #-2 c>4 r4 r2 | r2 
-  <g \tweak font-size #-2 c \tweak font-size #-2 e>2 |
-  <a \tweak font-size #-2 c \tweak font-size #-2 ef>2 r2 | r2
-  <g \tweak font-size #-2 c \tweak font-size #-2 e>2 |
+  <e \har g \har c>4 r4 r2 | r2 
+  <g \har c \har e>2 |
+  <a \har c \har ef>2 r2 | r2
+  <g \har c \har e>2 |
   \break
-  <e \tweak font-size #-2 g \tweak font-size #-2 c>2
-  <a \tweak font-size #-2 c \tweak font-size #-2 ef>2 |
-  <a \tweak font-size #-2 c \tweak font-size #-2 ef>2
-  <c \tweak font-size #-2 a \tweak font-size #-2 e'>2 |
+  <e \har g \har c>2
+  <a \har c \har ef>2 |
+  <a \har c \har ef>2
+  <c \har a \har e'>2 |
   \acciaccatura d8
-  <e \tweak font-size #-2 a, \tweak font-size #-2 gs'>1 |
+  <e \har a, \har gs'>1 |
   \acciaccatura d8
-  <e \tweak font-size #-2 b \tweak font-size #-2 gs'>4(
-  <d \tweak font-size #-2 b \tweak font-size #-2 gs'>2.) |
+  <e \har b \har gs'>4(
+  <d \har b \har gs'>2.) |
   
   \sect "B"
   
-  <c \tweak font-size #-2 f \tweak font-size #-2 a>1~ |
-  <c \tweak font-size #-2 f \tweak font-size #-2 a>2
-  <a \tweak font-size #-2 d \tweak font-size #-2 f>2 |
-  <a \tweak font-size #-2 d \tweak font-size #-2 f>4(
-  <g \tweak font-size #-2 d' \tweak font-size #-2 f>4) r2 | r2
-  <e' \tweak font-size #-2 g, \tweak font-size #-2 g'>2 |
+  <c \har f \har a>1~ |
+  <c \har f \har a>2
+  <a \har d \har f>2 |
+  <a \har d \har f>4(
+  <g \har d' \har f>4) r2 | r2
+  <e' \har g, \har g'>2 |
   \break
-  <e \tweak font-size #-2 c \tweak font-size #-2 f>2
-  <d \tweak font-size #-2 a \tweak font-size #-2 f'>2~ |
-  <d \tweak font-size #-2 a \tweak font-size #-2 f'>2
-  <d \tweak font-size #-2 a \tweak font-size #-2 fs'>4(
-  <e \tweak font-size #-2 c \tweak font-size #-2 g'>4) |
-  <e \tweak font-size #-2 b \tweak font-size #-2 g'>2(
-  <d \tweak font-size #-2 b \tweak font-size #-2 f'>2) | r2
-  <f, \tweak font-size #-2 b \tweak font-size #-2 d>4(
-  <g \tweak font-size #-2 c \tweak font-size #-2 e>4) |
+  <e \har c \har f>2
+  <d \har a \har f'>2~ |
+  <d \har a \har f'>2
+  <d \har a \har fs'>4(
+  <e \har c \har g'>4) |
+  <e \har b \har g'>2(
+  <d \har b \har f'>2) | r2
+  <f, \har b \har d>4(
+  <g \har c \har e>4) |
 
   \sect "A2"
   
-  <g \tweak font-size #-2 c \tweak font-size #-2 e>4(
-  <e \tweak font-size #-2 g \tweak font-size #-2 c>4) r2 | r2
-  <g \tweak font-size #-2 g \tweak font-size #-2 c>4(
-  <c \tweak font-size #-2 a \tweak font-size #-2 e'>4) |
-  <c \tweak font-size #-2 a \tweak font-size #-2 ef'>4(
-  <a \tweak font-size #-2 fs \tweak font-size #-2 c'>2) r4 | r2
-  <g \tweak font-size #-2 c \tweak font-size #-2 e>2 |
+  <g \har c \har e>4(
+  <e \har g \har c>4) r2 | r2
+  <g \har g \har c>4(
+  <c \har a \har e'>4) |
+  <c \har a \har ef'>4(
+  <a \har fs \har c'>2) r4 | r2
+  <g \har c \har e>2 |
   \break
-  <e \tweak font-size #-2 g \tweak font-size #-2 c>2
-  <g \tweak font-size #-2 c \tweak font-size #-2 e>2 |
-  <a \tweak font-size #-2 c \tweak font-size #-2 e>2
-  <c \tweak font-size #-2 a \tweak font-size #-2 e'>2 |
+  <e \har g \har c>2
+  <g \har c \har e>2 |
+  <a \har c \har e>2
+  <c \har a \har e'>2 |
   \acciaccatura d8
-  <e \tweak font-size #-2 b \tweak font-size #-2 gs'>1 |
-  <e \tweak font-size #-2 b \tweak font-size #-2 gs'>4(
-  <d \tweak font-size #-2 b \tweak font-size #-2 gs'>2.) |
+  <e \har b \har gs'>1 |
+  <e \har b \har gs'>4(
+  <d \har b \har gs'>2.) |
   
   \sect "C"
 
-  <c \tweak font-size #-2 f \tweak font-size #-2 a>2 r2 | r2
+  <c \har f \har a>2 r2 | r2
   \acciaccatura <g c e>8
-  <a \tweak font-size #-2 d \tweak font-size #-2 f>2 |
-  <a \tweak font-size #-2 d \tweak font-size #-2 f>4(
-  <g \tweak font-size #-2 c \tweak font-size #-2 e>4) r2 | r2
-  <e' \tweak font-size #-2 c \tweak font-size #-2 g'>2 |
+  <a \har d \har f>2 |
+  <a \har d \har f>4(
+  <g \har c \har e>4) r2 | r2
+  <e' \har c \har g'>2 |
   \break
-  <f \tweak font-size #-2 c \tweak font-size #-2 af'>2(
-  <c \tweak font-size #-2 af \tweak font-size #-2 f'>2) |
+  <f \har c \har af'>2(
+  <c \har af \har f'>2) |
   \acciaccatura a8
-  <e' \tweak font-size #-2 b \tweak font-size #-2 g'>1 |
-  <d \tweak font-size #-2 a \tweak font-size #-2 f'>4(
-  <c \tweak font-size #-2 g \tweak font-size #-2 e'>2.~ |
-  <c \tweak font-size #-2 g \tweak font-size #-2 e'>2) r2 |
+  <e' \har b \har g'>1 |
+  <d \har a \har f'>4(
+  <c \har g \har e'>2.~ |
+  <c \har g \har e'>2) r2 |
 
   \bar "|."
 }

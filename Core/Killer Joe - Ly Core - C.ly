@@ -34,10 +34,32 @@ bassIntro = \relative f' {
   \clef bass
   \tempoFour "Bolero [The Jazztet 1960]" 108
 
-  \xTextMark \markup{ \bold \box "Intro/Outro" }
+  \xTextMark \markup{ \bold \box "Intro" }
   
   c,4 g4 c4 b4 | bf4 f4 bf4 b4 | c4 g4 c4 b4 | bf4 f4 bf4 b4 |
   \bar "||"
+}
+
+outroKey = c
+
+outroChords = \chordmode {
+  c1:13 bf1:13 c1:13 bf1:13 c1:13
+}
+
+outroKicksOverTime = \relative f' {
+  c4. c8 r2 | c4. c8 r2 | c4. c8 r2 | c4. c8 r2 |
+}
+  
+
+bassOutro = \relative f' {
+  \time 4/4
+  \key \outroKey \major
+  \clef bass
+
+  \xTextMark \markup{ \bold \box "Outro" }
+  
+  c,4 g4 c4 b4 | bf4 f4 bf4 b4 | c4 g4 c4 b4 | bf4 f4 bf4 b4 | c1\fermata
+  \bar "|."
 }
 
 refrainChords = \chordmode {
@@ -104,4 +126,4 @@ refrainMelody = \relative f' {
 
 \include "../Include/refrain.ily"
 
-\include "../Include/bass-intro-with-kicks.ily"
+\include "../Include/bass-outro-with-kicks.ily"
