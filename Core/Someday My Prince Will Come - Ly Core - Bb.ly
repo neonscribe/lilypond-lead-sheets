@@ -23,7 +23,7 @@ Some -- day I'll find my love,
 And how thrill -- ing that mo -- ment will be,
 When the prince of my dreams comes to me. __
 He'll whis -- per, “I love you,”
-And steal a kill or two,
+And steal a kiss or two,
 Though he's far a -- way,
 I'll find my love some day,
 Some -- day when my dreams come true. __
