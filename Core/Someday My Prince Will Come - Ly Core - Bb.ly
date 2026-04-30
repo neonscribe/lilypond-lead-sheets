@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "hideSecondVerseLyrics" ] }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 subtitle =
@@ -18,28 +24,31 @@ subtitle =
 }
 
 refrainLyrics = \lyricmode {
-Some -- day my prince will come,
+Some -- day my prince will come.
 Some -- day I'll find my love,
-And how thrill -- ing that mo -- ment will be,
-When the prince of my dreams comes to me. __
+and how thrill -- ing that mo -- ment will be,
+when the prince of my dreams comes to me. __
 He'll whis -- per, “I love you,”
-And steal a kiss or two,
+and steal a kiss or two.
 Though he's far a -- way,
 I'll find my love some day,
-Some -- day when my dreams come true. __
+some -- day when my dreams come true. __
 }
 
-refrainLyricsTwo = \lyricmode {
+refrainLyricsTwo =
+   $(if (and (defined? 'hideSecondVerseLyrics) hideSecondVerseLyrics)
+     #f
+     #{ \lyricmode {
 Some -- day I'll find my love,
-Some -- one to call my own,
-And I'll know her the mo -- ment we meet,
-For my heart will start skip -- ping a beat.
-Some -- day we'll day and do,
-Things we've been long -- ing to,
+some -- one to call my own,
+and I'll know her the mo -- ment we meet,
+for my heart will start skip -- ping a beat.
+Some -- day we'll say and do
+things we've been long -- ing to.
 Though she's far a -- way,
-I'll find my love some -- day,
-Some -- day when my dreams come true. __
-}
+I'll find my love some -- day.
+some -- day when my dreams come true. __
+} #} )
 
 refrainChords = \chordmode {
   bf2.:maj7 d2.:7.5+ ef2.:maj7 g2.:7.5+

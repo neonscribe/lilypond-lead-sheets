@@ -144,6 +144,10 @@
         ]
     }
 },{
+    "toggles": [
+        "hideSecondVerseLyrics"
+    ]
+},{
     "choices": {
         "alternateChords": [
             "hlrb",

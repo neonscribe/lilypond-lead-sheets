@@ -9,6 +9,11 @@
   "type":"toggle",
   "description": "Don't show lyrics" },
 
+{ "name": "hideSecondVerseLyrics",
+  "category": "structure",
+  "type":"toggle",
+  "description": "Don't show lyrics for the second verse" },
+
 { "name": "petulaLyrics",
   "category": "structure",
   "type":"toggle",

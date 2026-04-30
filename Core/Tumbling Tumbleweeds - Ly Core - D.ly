@@ -37,7 +37,7 @@ drift -- ing a -- long with the tum -- bl -- ing tum -- bl -- weeds. __
 
 refrainLyricsTwo = \lyricmode {
 Cares __ of_the past are be -- hind, no -- where to go, but I'll find
-just __ where the trail _ will wind. __
+just __ where the tra -- il will wind. __ ""
 }
 
 refrainLyricsThreePlain = \lyricmode { "3. Instrumental" }
