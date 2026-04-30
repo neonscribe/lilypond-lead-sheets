@@ -145,9 +145,14 @@
     }
 },{
     "toggles": [
-        "hideSecondVerseLyrics",
-        "hideFirstVerseLyrics"
-    ]
+        "hideLyrics"
+    ],
+    "choices": {
+        "singerGender": [
+            "female",
+            "male"
+        ]
+    }
 },{
     "choices": {
         "alternateChords": [
