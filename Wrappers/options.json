@@ -9,6 +9,11 @@
   "type":"toggle",
   "description": "Don't show lyrics" },
 
+{ "name": "hideFirstVerseLyrics",
+  "category": "structure",
+  "type":"toggle",
+  "description": "Don't show lyrics for the first verse" },
+
 { "name": "hideSecondVerseLyrics",
   "category": "structure",
   "type":"toggle",
