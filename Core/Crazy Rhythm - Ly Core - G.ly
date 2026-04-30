@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Crazy Rhythm"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Irving Caesar"
   composer = "Joseph Meyer and Roger Wolfe Kahn"
   copyright = \markup \small { \now " " "© 1928 HARMS Inc." }

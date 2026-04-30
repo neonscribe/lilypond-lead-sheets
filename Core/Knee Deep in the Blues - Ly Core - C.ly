@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -12,7 +12,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "Knee Deep in the Blues"
-  subtitle = \instrument
+  subtitle = \subtitle
   %% poet = ""
   composer = "Melvin Endsley"
   copyright = \markup \small { \now " " "© 1957 Acuff-Rose Publications" }

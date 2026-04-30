@@ -4,9 +4,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -15,7 +15,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title =  "Home (When Shadows Fall)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Frank Clarkson"
   composer =  "Peter Van Steeden, Jeff Clarkson"
   copyright = \markup \small { \now " " "© 1931 Songcastle Music" }

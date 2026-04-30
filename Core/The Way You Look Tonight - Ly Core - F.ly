@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "The Way You Look Tonight"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Dorothy Fields"
   composer = "Jerome Kern"
   copyright = \markup \small { \now " " "© 1936 T.B. Harms Co." }

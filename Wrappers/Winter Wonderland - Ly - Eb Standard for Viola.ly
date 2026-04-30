@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Ray Charles, Elvis Presley, Tony Bennett Key for Viola"
+subtitle = "Ray Charles, Elvis Presley, Tony Bennett Key for Viola"
 whatKey = ef,
 whatClef = "alto"
 

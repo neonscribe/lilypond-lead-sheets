@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "'Tis Autumn"
-  subtitle = \instrument
+  subtitle = \subtitle
   composer = "Henry Nemo"
   copyright = \markup \small { \now " " "© 1941 Warner Bros. Inc." }
 }

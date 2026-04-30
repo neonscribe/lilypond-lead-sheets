@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Eb for Django Fakebook Key"
+subtitle = "Eb for Django Fakebook Key"
 whatKey = a
 whatClef = "treble"
 

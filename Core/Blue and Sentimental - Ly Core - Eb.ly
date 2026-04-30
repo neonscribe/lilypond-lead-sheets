@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = " Blue and Sentimental"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Count Basie, Jerry Livingston, and Mack David"
   copyright = \markup \small { \now " " "© 1938 Hallmark Music Publishing Company" }

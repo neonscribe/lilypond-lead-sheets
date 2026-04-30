@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Liza (All the Clouds'll Roll Away)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Gus Kahn and Ira Gershwin"
   composer = "George Gershwin"
   copyright = \markup \small { \now " " "© 1929 New World Music Corporation" }

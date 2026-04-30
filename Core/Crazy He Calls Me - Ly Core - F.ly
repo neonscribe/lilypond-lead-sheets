@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Crazy He (She) Calls Me"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Bob Russell"
   composer = "Carl Sigman"
   copyright = \markup \small { \now " " "© 1949 Massey Music" }

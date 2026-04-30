@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Some Other Time"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Betty Comden & Adolph Green"
   composer = "Leonard Bernstein"
   copyright = \markup \small { \now " " "© 1945 Warner Bros. Inc." }

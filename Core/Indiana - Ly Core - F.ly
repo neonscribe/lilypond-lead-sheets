@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Indiana (Back Home Again in Indiana)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Ballard MacDonald"
   composer = "James F. Hanley"
   copyright = \markup \small { \now " " "© 1917 Shapiro, Bernstein & Co., Inc." }

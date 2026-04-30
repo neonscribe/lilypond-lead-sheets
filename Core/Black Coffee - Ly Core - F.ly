@@ -8,14 +8,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Black Coffee"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Paul Francis Webster and Sonny Burke"
   copyright = \markup \small { \now " " "© 1948 Webster Music Co. and Sondot Music Corporation" }

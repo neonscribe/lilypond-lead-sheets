@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Libby Holman, Mildred Bailey, Betty Carter, Ella Fitzgerald, Linda Ronstadt Key"
+subtitle = "Libby Holman, Mildred Bailey, Betty Carter, Ella Fitzgerald, Linda Ronstadt Key"
 whatKey = bf,
 whatClef = "treble_8"
 

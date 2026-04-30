@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "The Night Has a Thousand Eyes"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Buddy Bernier"
   composer = "Jerry Brainin"
   copyright = \markup \small { \now " " "© 1948 Paramount Music Corporation" }

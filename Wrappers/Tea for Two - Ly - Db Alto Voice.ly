@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Alto Voice Key"
+subtitle = "Alto Voice Key"
 whatKey = df
 whatClef = "treble_8"
 

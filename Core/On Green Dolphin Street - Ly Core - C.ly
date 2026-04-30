@@ -1,13 +1,13 @@
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "On Green Dolphin Street"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Ned Washington"
   composer = "Bronislau Kaper"
   copyright = \markup \small { \now " " "© 1947 Metro-Goldwyn Mayer Inc." }

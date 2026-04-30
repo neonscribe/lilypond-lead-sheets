@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "That's All"
-  subtitle = \instrument
+  subtitle = \subtitle
   composer = "Alan Brandt and Bob Haynes"
   copyright = \markup \small { \now " " "© 1952 Mixed Bag Music" }
 }

@@ -18,10 +18,10 @@ whatClef - choice
 whatClef is the LilyPond clef name, one of the standard clefs in
 LilyPond, with an optional clef octave displacement indicator.
 
-instrument - string
+subtitle - string
 
-instrument is a misleading name for this parameter, which is simply
-used as the subtitle under the main song title in LilyPond.
+subtitle is a UTF string that is used as the subtitle under the song
+title.
 
 Other than these, a particular lead sheet may have a set of parameters
 specific to it. These control things like gendered lyrics, alternate

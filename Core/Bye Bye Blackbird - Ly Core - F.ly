@@ -10,14 +10,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Bye Bye Blackbird"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Mort Dixon"
   composer = "Ray Henderson"
   copyright = \markup \small { \now " " "© 1926 Jerome H. Remick & Co." }

@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Bass for Doris Day, Rosemary Clooney Key Simple Chords"
+subtitle = "Bass for Doris Day, Rosemary Clooney Key Simple Chords"
 whatKey = g,,
 whatClef = "bass"
 

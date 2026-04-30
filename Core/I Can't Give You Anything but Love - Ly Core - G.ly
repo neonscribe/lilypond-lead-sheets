@@ -10,14 +10,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "I Can't Give You Anything but Love"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Dorothy Fields"
   composer = "Jimmy McHugh"
   copyright = \markup \small { \now " " "© 1928 Jack Mills Inc." }

@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Young at Heart"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Carolyn Leigh"
   composer = "Johnny Richards"
   copyright = \markup \small { \now " " "© 1954 Sunbeam Music Corporation" }

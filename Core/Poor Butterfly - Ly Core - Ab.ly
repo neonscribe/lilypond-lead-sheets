@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Poor Butterfly"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "John L. Golden"
   composer = "Raymond Hubbell"
   copyright = \markup \small { \now " " "© 1916 T.B. Harms and Francis, Day & Hunter" }

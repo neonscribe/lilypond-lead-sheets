@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Don't Worry 'Bout Me"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Ted Koehler"
   composer = "Rube Bloom"
   copyright = \markup \small { \now " " "© 1939 Fred Ahlert Music Group, Ted Koehler Music Co." }

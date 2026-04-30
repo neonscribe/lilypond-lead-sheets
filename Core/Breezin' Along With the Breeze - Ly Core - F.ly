@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Breezin' Along With the Breeze"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Haven Gillespie, Seymour Simons and Richard A. Whiting"
   copyright = \markup \small { \now " " "© 1926 Jerome H. Remick & Co." }

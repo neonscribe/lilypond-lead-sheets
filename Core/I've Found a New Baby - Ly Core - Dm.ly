@@ -10,14 +10,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "I've Found a New Baby"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Jack Palmer and Spencer Williams"
   copyright = \markup \small { \now " " "© 1926 Clarence Williams Music Publishing Co. Inc." }

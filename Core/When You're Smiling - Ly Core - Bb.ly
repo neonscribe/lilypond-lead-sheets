@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "When You're Smiling (the Whole World Smiles with You)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Joe Goodwin"
   composer = "Mark Fisher & Larry Shay"
   copyright = \markup \small { \now " " "© 1928 Harold Rossiter Music Co." }

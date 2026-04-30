@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Last Thing I Needed First Thing This Morning"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Gary Nunn and Donna Farar"
   copyright = \markup \small { \now " " "© 1982 Nunn Publishing Co." }

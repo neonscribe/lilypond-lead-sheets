@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Jazz Standard Key"
+subtitle = "Jazz Standard Key"
 whatKey = df
 whatClef = "treble"
 

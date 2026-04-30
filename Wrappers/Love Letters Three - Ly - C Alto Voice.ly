@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Patti Page, Tina Turner (with Ike & Tina) Key"
+subtitle = "Patti Page, Tina Turner (with Ike & Tina) Key"
 whatKey = c
 whatClef = "treble_8"
 

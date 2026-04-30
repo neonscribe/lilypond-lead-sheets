@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Corcovado (Quiet Nights of Quiet Stars)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Gene Lees"
   composer = "Antônio Carlos Jobim"
   copyright = \markup \small { \now " " "© 1960 Jobim Music Ltda." }

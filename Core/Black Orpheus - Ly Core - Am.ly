@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Black Orpheus (Manha de Carnival, A Day in the Life of a Fool)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Carl Sigmand"
   composer = "Luis Bonfa"
   copyright = \markup \small { \now " " "© 1968 Chappell & Co." }

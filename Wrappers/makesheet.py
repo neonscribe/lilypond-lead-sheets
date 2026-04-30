@@ -252,14 +252,14 @@ core_file_contents = f"""%% -*- Mode: LilyPond -*-
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \\header {{
   title = "{song_title}"
-  subtitle = \\instrument
+  subtitle = \\subtitle
   poet = "Lyricist"
   composer = "Composer"
   copyright = \\markup \\small {{ \\now " " "© 19xx Inc." }}
@@ -339,7 +339,7 @@ def write_wrapper_file(dict):
 
 \\include "english.ly"
 
-instrument = "{desc}"
+subtitle = "{desc}"
 whatKey = {key}
 whatClef = "{clef}"
 

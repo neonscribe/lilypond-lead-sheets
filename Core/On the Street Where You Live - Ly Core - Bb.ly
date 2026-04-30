@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "On the Street Where You Live"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Alan Jay Lerner"
   composer = "Frederick Loewe"
   copyright = \markup \small { \now " " "© 1956 Alan Jay Lerner and Frederick Loewe" }

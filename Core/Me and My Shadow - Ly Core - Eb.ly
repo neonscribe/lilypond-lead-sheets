@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Me and My Shadow"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Billy Rose"
   composer = "Dave Dreyer and Al Jolson"
   copyright = \markup \small { \now " " "© 1927 Irving Berlin Inc." }

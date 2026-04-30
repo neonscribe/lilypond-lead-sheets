@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Stumbling"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Zez Confrey"
   copyright = \markup \small { \now " " "© 1922 Leo Feist, Inc." }

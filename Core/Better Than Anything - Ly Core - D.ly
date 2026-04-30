@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Better Than Anything"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "William Loughborough"
   composer = "David Wheat"
   copyright = \markup \small { \now " " "© 1962 Sanga Music Inc." }

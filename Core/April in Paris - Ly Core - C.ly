@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "April in Paris"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "E.Y. Harburg"
   composer = "Vernon Duke"
   copyright = \markup \small { \now " " "© 1932 Kay Duke Music and Glocca Morra Music" }

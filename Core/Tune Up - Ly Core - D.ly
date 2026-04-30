@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Tune Up"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Miles Davis/Eddie Vinson"
   copyright = \markup \small { \now " " "© 1953 Prestige Music" }

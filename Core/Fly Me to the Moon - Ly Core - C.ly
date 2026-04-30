@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Fly Me to the Moon"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Bart Howard"
   copyright = \markup \small { \now " " "© 1954 Hampshire House Publishing Corp." }

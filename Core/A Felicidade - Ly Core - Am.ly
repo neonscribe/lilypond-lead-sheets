@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "A Felicidade"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Vinicius de Moraes"
   composer = "Antônio Carlos Jobim"
   copyright = \markup \small { \now " " "© 1960 Editora Musical Arapuã Ltda" }

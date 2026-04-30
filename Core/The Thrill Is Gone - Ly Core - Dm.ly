@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 \header {
   title = "The Thrill Is Gone"
   subtitle = "(not B.B. King!)"
-  subsubtitle = \instrument
+  subsubtitle = \subtitle
   poet = ""
   composer = "Ray Henderson/Lew Brown"
   copyright = \markup \small { \now " " "© 1931 DeSylva, Brown & Henderson, Inc." }

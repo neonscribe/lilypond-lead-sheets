@@ -4,9 +4,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -15,7 +15,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "Charade"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Johnny Mercer"
   composer = "Henry Mancini"
   copyright = \markup \small { \now " " "© 1963 Northridge Music Co." }

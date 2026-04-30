@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Julie London, Gabrielle Cavassa (with Joshua Redman) Key"
+subtitle = "Julie London, Gabrielle Cavassa (with Joshua Redman) Key"
 whatKey = a,
 whatClef = "treble_8"
 

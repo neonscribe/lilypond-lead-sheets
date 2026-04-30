@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Ain't Nothin' Like Christmas"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Shelby Lynne"
   copyright = \markup \small { \now " " "© 2010 Swampy Blue" }

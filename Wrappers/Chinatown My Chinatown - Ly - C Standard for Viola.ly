@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Whit Smith (with Hot Club of Cowtown) Key for Viola"
+subtitle = "Whit Smith (with Hot Club of Cowtown) Key for Viola"
 whatKey = c,
 whatClef = "alto"
 

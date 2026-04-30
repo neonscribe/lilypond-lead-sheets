@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Gene Autry Key"
+subtitle = "Gene Autry Key"
 whatKey = c
 whatClef = "treble"
 

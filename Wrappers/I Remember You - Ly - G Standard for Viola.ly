@@ -1,6 +1,6 @@
 \version "2.26.0"
 
-instrument = "Alternate Key for Viola"
+subtitle = "Alternate Key for Viola"
 whatKey = g,
 whatClef = "alto"
 

@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Dancing in the Dark"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Howard Dietz"
   composer = "Arthur Schwartz"
   copyright = \markup \small { \now " " "© 1931 Schwartz Arthur Music Ltd." }

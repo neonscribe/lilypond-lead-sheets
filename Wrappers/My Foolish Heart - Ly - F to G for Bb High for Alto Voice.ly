@@ -4,7 +4,7 @@
 
 singerGender = "female"
 
-instrument = "Bb High for Alto Voice Key"
+subtitle = "Bb High for Alto Voice Key"
 whatKey = g'
 whatClef = "treble"
 

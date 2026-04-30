@@ -4,16 +4,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "You Don't Know What Love Is"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Don Raye"
   composer = "Gene de Paul"
   copyright = \markup \small { \now " " "© 1941 Universal Music Corp." }

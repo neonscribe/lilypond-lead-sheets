@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I'm in the Mood for Love"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Dorothy Fields"
   composer = "Jimmy McHugh"
   copyright = \markup \small { \now " " "© 1935 Robbins Music Corporation" }

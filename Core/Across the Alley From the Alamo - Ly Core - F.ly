@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Across the Alley From the Alamo"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Joe Greene"
   copyright = \markup \small { \now " " "© 1947 Michael H. Goldsen, Inc." }

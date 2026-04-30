@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
@@ -12,7 +12,7 @@ instrument =
 \header {
   title = "Dance of the Sugar Plum Fairy"
   subtitle = "The Nutcracker (Щелкунчик) Op. 71 "
-  subsubtitle = \instrument
+  subsubtitle = \subtitle
   poet = ""
   composer = "Pyotr Il'yich Tchaikovsky (Пётр Ильич Чайковский)"
   copyright = \markup \small { \now " " "1892" }

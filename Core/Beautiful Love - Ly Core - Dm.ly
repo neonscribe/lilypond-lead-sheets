@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Beautiful Love"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Haven Gillespie"
   composer = "Victor Young, Wayne King and Egbert van Alstyne"
   copyright = \markup \small { \now " " "© 1931 Movietone Music Corporation" }

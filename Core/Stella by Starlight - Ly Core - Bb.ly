@@ -8,14 +8,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Stella by Starlight"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Ned Washington"
   composer = "Victor Young"
   copyright = \markup \small { \now " " "© 1946 Famous Music Corporation" }

@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Watermelon Man"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Herbie Hancock"
   copyright = \markup \small { \now " " "© 1962 Hancock Music" }

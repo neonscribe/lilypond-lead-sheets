@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Singin' in the Rain"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Arthur Freed"
   composer = "Nacio Herb Brown"
   copyright = \markup \small { \now " " "© 1929 Metro-Goldwyn-Mayer Inc." }

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Hot House"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Tadd Dameron"
   copyright = \markup \small { \now " " "© 1945 Redwood Music Ltd." }

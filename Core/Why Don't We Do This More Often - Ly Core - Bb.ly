@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Why Don't We Do This More Often"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Charles Newman"
   composer = "Allie Wrubel"
   copyright = \markup \small { \now " " "© 1941 Bregman, Vocco and Conn, Inc." }

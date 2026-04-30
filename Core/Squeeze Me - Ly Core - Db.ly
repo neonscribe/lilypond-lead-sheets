@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Squeeze Me"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Clarence Willians and Fats Waller"
   copyright = \markup \small { \now " " "© 1926 Clarence Williams Music Co., Inc." }

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Bye Bye Blues"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Fred Hamm, Dave Bennett, Bert Lown and Chauncey Gray"
   copyright = \markup \small { \now " " "© 1930 Bourne Co." }

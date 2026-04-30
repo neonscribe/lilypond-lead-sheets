@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "He'll Have to Go"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Joe Allison and Audrey Allison"
   copyright = \markup \small { \now " " "© 1959 Beechwood Music Corp." }

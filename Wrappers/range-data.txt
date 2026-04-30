@@ -8839,6 +8839,31 @@ refrain
 d
 b'
 
+Ghost Riders in the Sky - Ly - Em Bass for Standard.ly
+refrain
+b,
+e'
+
+Ghost Riders in the Sky - Ly - Em Standard for Viola.ly
+refrain
+b
+e''
+
+Ghost Riders in the Sky - Ly - Em Standard.ly
+refrain
+b
+e''
+
+Ghost Riders in the Sky - Ly - Em to Csm for Eb for Standard.ly
+refrain
+gis'
+cis'''
+
+Ghost Riders in the Sky - Ly - Em to Fsm for Bb for Standard.ly
+refrain
+cis'
+fis''
+
 Giant Steps - Ly - C Bass for Standard.ly
 refrain
 dis
@@ -20709,6 +20734,14 @@ refrain
 c'
 e''
 
+Rhode Island Is Famous for You - Ly - Eb Alto Voice.ly
+verse
+g
+g'
+refrain
+g
+bes'
+
 Rhode Island Is Famous for You - Ly - F Alto Voice.ly
 verse
 a
@@ -27562,6 +27595,31 @@ Tulsa Time - Ly - E to Fs for Bb for Standard.ly
 refrain
 fis'
 dis''
+
+Tumbling Tumbleweeds - Ly - D Bass for Standard.ly
+refrain
+d
+e'
+
+Tumbling Tumbleweeds - Ly - D Standard for Viola.ly
+refrain
+d
+e'
+
+Tumbling Tumbleweeds - Ly - D Standard.ly
+refrain
+d'
+e''
+
+Tumbling Tumbleweeds - Ly - D to B for Eb for Standard.ly
+refrain
+b
+cis''
+
+Tumbling Tumbleweeds - Ly - D to E for Bb for Standard.ly
+refrain
+e'
+fis''
 
 Tune Up - Ly - D Bass for Standard.ly
 refrain

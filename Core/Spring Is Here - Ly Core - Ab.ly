@@ -9,9 +9,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 TempoName =
@@ -28,7 +28,7 @@ TempoBPM =
 
 \header {
   title = "Spring Is Here"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Lorenz Hart"
   composer = "Richard Rodgers"
   copyright = \markup \small { \now " " "© 1938 Chappell & Co." }

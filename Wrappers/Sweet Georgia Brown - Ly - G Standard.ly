@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Original 1925 and Django 1938 Key"
+subtitle = "Original 1925 and Django 1938 Key"
 whatKey = g
 whatClef = "treble"
 

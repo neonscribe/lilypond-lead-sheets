@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Bass Transposition of Violin Solo"
+subtitle = "Bass Transposition of Violin Solo"
 whatKey = g,
 whatClef = "bass"
 

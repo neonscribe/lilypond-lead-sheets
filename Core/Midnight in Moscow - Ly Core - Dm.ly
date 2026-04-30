@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Midnight in Moscow"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Based on a song by Vassili Soloviev-Sedoy and M. Matusovsky, New Music by Kenny Ball"
   copyright = \markup \small { \now " " "© 1961 Tyler Music, Ltd." }

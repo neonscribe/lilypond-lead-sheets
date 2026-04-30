@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Manoir de Mes Rêves (Django's Castle)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Django Reinhardt"
   copyright = \markup \small { \now " " "© 1945 Publications Francis Day S.A." }

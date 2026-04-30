@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Smoke Gets in Your Eyes"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Otto Harbach"
   composer = "Jerome Kern"
   copyright = \markup \small { \now " " "© 1933 T.B. Harms Company" }

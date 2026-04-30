@@ -4,14 +4,14 @@
 
 #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Where Are You"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Harold Adamson"
   composer = "Jimmy McHugh"
   copyright = \markup \small { \now " " "© 1936 Cotton Club Publishing" }

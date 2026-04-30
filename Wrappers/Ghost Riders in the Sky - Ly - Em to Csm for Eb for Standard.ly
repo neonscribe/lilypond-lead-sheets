@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Eb for Standard Key"
+subtitle = "Eb for Standard Key"
 whatKey = cs'
 whatClef = "treble"
 
@@ -12,6 +12,6 @@ whatClef = "treble"
 
 %{
 
-\song{Ghost Riders in the Sky - Em to C\#m}{"../Standard/Eb/Ghost Riders in the Sky - Ly - Em to Csm for Eb for Standard"}
+\song{(Ghost) Riders in the Sky (A Cowboy Legend) - Em to C\#m}{"../Standard/Eb/Ghost Riders in the Sky - Ly - Em to Csm for Eb for Standard"}
 
 %}

@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "I Should Care"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Sammy Cahn, Axel Stordahl and Paul Weston"
   copyright = \markup \small { \now " " "© 1944 Dorsey Brothers Music, Inc." }

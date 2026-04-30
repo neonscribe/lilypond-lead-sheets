@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Just Friends"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Sam M. Lewis"
   composer = "John Klenner"
   copyright = \markup \small { \now " " "© 1931 Metro-Goldwyn-Mayer, Inc." }

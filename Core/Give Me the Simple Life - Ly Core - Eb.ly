@@ -13,7 +13,7 @@
 
 \header {
   title = "Give Me the Simple Life"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Harry Ruby"
   composer = "Rube Bloom"
   copyright = \markup \small { \now " " "© 1945 WB Music Corp." }

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Nancy With the Laughing Face"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Phil Silvers"
   composer = "James Van Heusen"
   copyright = \markup \small { \now " " "© 1944 Sands Music Corporation" }

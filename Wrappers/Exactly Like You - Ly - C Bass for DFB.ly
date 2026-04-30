@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Bass for Django Fakebook Chords"
+subtitle = "Bass for Django Fakebook Chords"
 whatKey = c,
 whatClef = "bass"
 

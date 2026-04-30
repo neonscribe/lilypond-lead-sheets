@@ -8,14 +8,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Is You Is, or Is You Ain't (Ma' Baby)"
-  subtitle = \instrument
+  subtitle = \subtitle
   composer = "Billy Austin and Louis Jordan"
   copyright = \markup \small { \now " " "© 1944 Leeds Music Corporation" }
 }

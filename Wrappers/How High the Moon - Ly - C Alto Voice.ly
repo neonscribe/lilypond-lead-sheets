@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Karrin Allyson Key"
+subtitle = "Karrin Allyson Key"
 whatKey = c
 whatClef = "treble_8"
 

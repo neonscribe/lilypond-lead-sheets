@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I'm Gonna Sit Right Down and Write Myself a Letter"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Joe Young"
   composer = "Fred E. Ahlert"
   copyright = \markup \small { \now " " "© 1935 Crawford Music Corporation" }

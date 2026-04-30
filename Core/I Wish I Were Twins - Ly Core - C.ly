@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I Wish I Were Twins"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Edgar De Lange and Frank Loesser"
   composer = "Joseph Meyer"
   copyright = \markup \small { \now " " "© 1934 Donaldson, Douglas & Gumble Inc." }

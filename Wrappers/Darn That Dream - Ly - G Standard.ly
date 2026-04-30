@@ -1,7 +1,7 @@
 \version "2.26.0"
 \include "english.ly"
 
-instrument = "Standard Key"
+subtitle = "Standard Key"
 whatKey = g
 whatClef = "treble"
 

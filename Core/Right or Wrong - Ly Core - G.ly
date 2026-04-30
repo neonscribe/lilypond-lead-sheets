@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Right or Wrong"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Haven Gillespie"
   composer = "Arthur Sizemore and Paul Biese"
   copyright = \markup \small { \now " " "© 1921 Triangle Music Pub. Co." }

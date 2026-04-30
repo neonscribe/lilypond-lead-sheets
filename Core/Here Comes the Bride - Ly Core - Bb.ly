@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Here Comes the Bride"
-  subtitle = \instrument
+  subtitle = \subtitle
   copyright = \markup \small { \now " " "1850, based on the “Bridal Chorus” from" \italic Lohengrin, "by Richard Wagner" }
 }
 

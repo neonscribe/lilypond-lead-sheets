@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = ""
+subtitle = ""
 whatKey = ef
 whatClef = "alto"
 

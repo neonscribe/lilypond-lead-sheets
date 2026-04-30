@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Baby, Won't You Please Come Home"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Chas. Warfield and Clarence Williams"
   copyright = \markup \small { \now " " "© 1923 Clarence Williams Music Pub. Co., Inc." }

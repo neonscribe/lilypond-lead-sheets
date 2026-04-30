@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Tin Roof Blues"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Walter Melrose"
   composer = "New Orleans Rhythm Kings"
   copyright = \markup \small { \now " " "© 1923 Melrose Bros. Music Company" }

@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Ain't She Sweet"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Jack Yellen"
   composer = "Milton Ager"
   copyright = \markup \small { \now " " "© 1927 Ager, Yellen, & Bornstein Inc." }

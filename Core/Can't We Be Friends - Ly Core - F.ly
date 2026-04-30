@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Can't We Be Friends"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Paul James"
   composer = "Kay Swift"
   copyright = \markup \small { \now " " "© 1929 HARMS Inc." }

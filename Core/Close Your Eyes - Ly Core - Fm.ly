@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Close Your Eyes"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Bernice Petkere"
   copyright = \markup \small { \now " " "© 1933 Miller Music Corporation" }

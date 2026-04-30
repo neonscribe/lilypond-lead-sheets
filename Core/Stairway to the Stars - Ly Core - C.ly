@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Stairway to the Stars"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Mitchell Parish"
   composer = "Matt Malneck and Frank Signorelli"
   copyright = \markup \small { \now " " "© 1935 Robbins Music Corporation" }

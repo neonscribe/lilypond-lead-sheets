@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Eb for Swing Era Standard Key"
+subtitle = "Eb for Swing Era Standard Key"
 whatKey = f
 whatClef = "treble"
 

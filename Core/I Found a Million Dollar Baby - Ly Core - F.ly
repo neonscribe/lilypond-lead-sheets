@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I Found a Million Dollar Baby (In a Five and Ten Cent Store)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Billy Rose and Mort Dixon"
   composer = "Harry Warren"
   copyright = \markup \small { \now " " "© 1931 Remick Music Corp." }

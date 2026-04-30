@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "The Rainbow Connection"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Ken Ascher, Paul Williams"
   copyright = \markup \small { \now " " "© 1979 Fuzzy Muppet Songs" }

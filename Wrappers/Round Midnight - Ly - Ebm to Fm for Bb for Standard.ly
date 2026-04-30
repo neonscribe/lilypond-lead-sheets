@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Bb for Standard (Minor)"
+subtitle = "Bb for Standard (Minor)"
 whatKey = f
 whatClef = "treble"
 

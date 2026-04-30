@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "One Note Samba (Samba de uma Nota Só)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Newton Mendonça, Jon Hendricks"
   composer = "Antônio Carlos Jobim"
   copyright = \markup \small { \now " " "© 1960 Jobim Music" }

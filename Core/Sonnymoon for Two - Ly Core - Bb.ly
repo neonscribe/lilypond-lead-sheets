@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Sonnymoon for Two"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Sonny Rollins"
   copyright = \markup \small { \now " " "© 1957 Son Rol Music Co." }

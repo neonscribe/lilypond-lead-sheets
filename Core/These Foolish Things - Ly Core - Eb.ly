@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "These Foolish Things"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Holt Marvell"
   composer = "Jack Strachey & Harry Link"
   copyright = \markup \small { \now " " "© 1935 Boosey & Co. Ltd., London, England" }

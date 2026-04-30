@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "'Deed I Do"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Walter Hirsch and Fred Rose"
   copyright = \markup \small { \now " " "© 1926 Ted Browne Music Co. Inc." }

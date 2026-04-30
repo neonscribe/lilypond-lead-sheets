@@ -1,6 +1,6 @@
 \version "2.26.0"
 
-instrument = "Dinah Washington Key"
+subtitle = "Dinah Washington Key"
 whatKey = g
 whatClef = "treble_8"
 

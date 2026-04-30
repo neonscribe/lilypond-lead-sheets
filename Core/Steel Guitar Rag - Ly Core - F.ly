@@ -4,9 +4,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -17,7 +17,7 @@ straightEighths = ##t
 
 \header {
   title = "Steel Guitar Rag"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Merle Travis and Cliff Stone"
   composer = "Leon McAuliffe"
   copyright = \markup \small { \now " " "© 1941 Bourne Co." }

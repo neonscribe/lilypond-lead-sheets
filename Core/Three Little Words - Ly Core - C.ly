@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Three Little Words"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Bert Kalmar"
   composer = "Harry Ruby"
   copyright = \markup \small { \now " " "© 1930 Warner Bros. Inc." }

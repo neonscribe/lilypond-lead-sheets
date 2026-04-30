@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Original Standard Key for Viola"
+subtitle = "Original Standard Key for Viola"
 whatKey = c
 whatClef = "alto"
 

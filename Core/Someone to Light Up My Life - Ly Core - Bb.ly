@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Someone to Light Up My Life (Se todos fossem iguais a você)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Vinícius de Moraes, English lyrics by Gene Lees"
   composer = "Antônio Carlos Jobim"
   copyright = \markup \small { \now " " "© 1958 Antônio Carlos Jobim and Vinícius de Moraes" }

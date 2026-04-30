@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Long Ago (and Far Away)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Ira Gershwin"
   composer = "Jerome Kern"
   copyright = \markup \small { \now " " "© 1944 T.B. Harms Co." }

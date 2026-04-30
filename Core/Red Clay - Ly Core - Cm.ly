@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Red Clay"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Freddie Hubbard"
   copyright = \markup \small { \now " " "© 1972 Hubtones Music Co." }

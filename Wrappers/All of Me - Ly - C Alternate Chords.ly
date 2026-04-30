@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Standard Key Alternate Chords"
+subtitle = "Standard Key Alternate Chords"
 whatKey = c
 whatClef = "treble"
 

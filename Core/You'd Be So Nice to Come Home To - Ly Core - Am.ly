@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "You'd Be So Nice to Come Home To"
-  subtitle = \instrument
+  subtitle = \subtitle
   composer = "Cole Porter"
   copyright = \markup \small { \now " " "© 1942 Chappell & Co." }
 }

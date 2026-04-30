@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Remember (4/4)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Irving Berlin (arranged by Hank Mobley)"
   copyright = \markup \small { \now " " "© 1925 Irving Berlin, Inc." }

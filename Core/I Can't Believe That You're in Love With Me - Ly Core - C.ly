@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I Can't Believe That You're in Love With Me"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Clarence Gaskill and Jimmy McHugh"
   copyright = \markup \small { \now " " "© 1926 Mills Music, Inc." }

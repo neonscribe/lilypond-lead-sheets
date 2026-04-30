@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Peggy Lee, Ella Fitzgerald Key"
+subtitle = "Peggy Lee, Ella Fitzgerald Key"
 whatKey = df
 whatClef = "treble_8"
 

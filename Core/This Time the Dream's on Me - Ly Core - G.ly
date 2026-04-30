@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "This Time the Dream's on Me"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Johnny Mercer"
   composer = "Harold Arlen"
   copyright = \markup \small { \now " " "© 1941 Warner Bros. Inc." }

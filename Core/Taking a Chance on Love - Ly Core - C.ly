@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Taking a Chance on Love"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "John LaTouche & Ted Fetter"
   composer = "Vernon Duke"
   copyright = \markup \small { \now " " "© 1940 Leo Feist, Inc." }

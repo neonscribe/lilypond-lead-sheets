@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Bb for New Orleans Jambook Key"
+subtitle = "Bb for New Orleans Jambook Key"
 whatKey = f
 whatClef = "treble"
 

@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Non-Standard Key"
+subtitle = "Non-Standard Key"
 whatKey = g
 whatClef = "treble"
 

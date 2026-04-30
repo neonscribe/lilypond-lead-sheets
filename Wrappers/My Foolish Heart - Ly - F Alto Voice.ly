@@ -4,7 +4,7 @@
 
 singerGender = "female"
 
-instrument = "Ethel Ennis Key"
+subtitle = "Ethel Ennis Key"
 whatKey = f
 whatClef = "treble_8"
 

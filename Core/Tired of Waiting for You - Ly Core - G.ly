@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Tired of Waiting for You"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Ray Davies"
   copyright = \markup \small { \now " " "© 1964 Edward Kassner Music Co. Ltd." }

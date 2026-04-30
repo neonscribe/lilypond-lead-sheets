@@ -7,14 +7,14 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Douce Ambiance"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Django Reinhardt"
   copyright = \markup \small { \now " " "© 1944 Publications Francis-Day (S.A.)" }

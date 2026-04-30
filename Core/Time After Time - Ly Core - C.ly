@@ -2,15 +2,15 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Time After Time"
   subtitle = "(not Cyndi Lauper!)"
-  subsubtitle = \instrument
+  subsubtitle = \subtitle
   poet = "Sammy Cahn"
   composer = "Jule Styne"
   copyright = \markup \small { \now " " "© 1947 Barton Music Corp." }

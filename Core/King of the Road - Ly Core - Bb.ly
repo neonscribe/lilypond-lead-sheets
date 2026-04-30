@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "King of the Road"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Roger Miller"
   copyright = \markup \small { \now " " "© 1964 Tree Publishing Co. Inc." }

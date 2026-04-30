@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "They Say It's Spring"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Bob Haymes, Marty Clarke"
   copyright = \markup \small { \now " " "© 1958 Jatap Publishing Co." }

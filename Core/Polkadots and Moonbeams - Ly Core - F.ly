@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
@@ -14,7 +14,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "Polkadots and Moonbeams"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Johnny Burke"
   composer = "Jimmy Van Heusen"
   copyright = \markup \small { \now " " "© 1940 ABC Music Corp." }

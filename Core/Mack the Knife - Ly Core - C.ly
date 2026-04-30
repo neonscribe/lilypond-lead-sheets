@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Mack the Knife"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Bertolt Brecht/Marc Blitzstein"
   composer = "Kurt Weill"
   copyright = \markup \small { \now " " "© 1928 Universal Edition AG Wien" }

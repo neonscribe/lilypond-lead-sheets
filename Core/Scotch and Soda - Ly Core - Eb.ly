@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Scotch and Soda"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "David Guard"
   copyright = \markup \small { \now " " "© 1959 Beechwood Music Corp." }

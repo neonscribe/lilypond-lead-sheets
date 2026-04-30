@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Perfidia"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Milton Leeds"
   composer = "Alberto Dominguez"
   copyright = \markup \small { \now " " "© 1939 Southern Music Publishing Co., Inc." }

@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "What Is This Thing Called Love?"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Cole Porter"
   copyright = \markup \small { \now " " "© 1929 Chappell & Co." }

@@ -2,15 +2,15 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "On the Trail"
   subtitle = "Arrangement by Donald Byrd, for Jimmy Heath's 1964 album"
-  subsubtitle = \instrument
+  subsubtitle = \subtitle
   poet = ""
   composer = "Ferde Grofé"
   copyright = \markup \small { \now " " "© 1932 Robbins Music Corporation" }

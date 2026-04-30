@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "My Adobe Hacienda"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Louise Massey and Lee Penny"
   copyright = \markup \small { \now " " "© 1941 Peer International Corp." }

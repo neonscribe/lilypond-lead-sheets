@@ -1,7 +1,7 @@
 \version "2.26.0"
 \include "english.ly"
 
-instrument = "Billie Holiday Key"
+subtitle = "Billie Holiday Key"
 whatKey = c
 whatClef = "treble_8"
 

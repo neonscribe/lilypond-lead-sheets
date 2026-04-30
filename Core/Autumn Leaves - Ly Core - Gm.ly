@@ -8,14 +8,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Autumn Leaves"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Johnny Mercer"
   composer = "Joseph Kosma"
   copyright = \markup \small { \now " " "© 1947 T.B. Enoch et Cie." }

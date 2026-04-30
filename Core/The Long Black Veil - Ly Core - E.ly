@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "The Long Black Veil"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Marijohn Wilkin and Danny Dill"
   copyright = \markup \small { \now " " "© 1959 Cedarwood Publishing" }

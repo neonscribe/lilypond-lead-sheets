@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Ella Fitzgerald, Blossom Dearie, Jackie Cain, Jane Monheit, Cécile McLorin Salvant Key"
+subtitle = "Ella Fitzgerald, Blossom Dearie, Jackie Cain, Jane Monheit, Cécile McLorin Salvant Key"
 whatKey = bf,
 whatClef = "treble_8"
 

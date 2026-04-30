@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Quintuple Meter"
+subtitle = "Quintuple Meter"
 whatKey = e,
 whatClef = "alto"
 

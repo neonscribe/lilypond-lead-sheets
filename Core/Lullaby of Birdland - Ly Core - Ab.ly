@@ -9,14 +9,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Lullaby of Birdland"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "B. Y. Forster"
   composer = "George Shearing"
   copyright = \markup \small { \now " " "© 1952 Patricia Music Publishing Corp." }

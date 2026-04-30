@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Who Walks In When I Walk Out?"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Ralph Freed, Al Hoffman and Al Goodhart"
   copyright = \markup \small { \now " " "© 1933 Southern Music Pub. Co. Inc." }

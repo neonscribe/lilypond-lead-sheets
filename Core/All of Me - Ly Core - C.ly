@@ -8,14 +8,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "All of Me"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Gerald Marks and Seymour Simons"
   copyright = \markup \small { \now " " "© 1931 Bourne Co." }

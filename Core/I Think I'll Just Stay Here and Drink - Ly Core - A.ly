@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "I Think I'll Just Stay Here and Drink"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Merle Haggard"
   copyright = \markup \small { \now " " "© 1979 Shade Tree Music, Inc." }

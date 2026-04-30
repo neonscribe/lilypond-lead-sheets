@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I Can't Stop Loving You"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Don Gibson"
   copyright = \markup \small { \now " " "© 1958 Acuff-Rose Publications, Inc." }

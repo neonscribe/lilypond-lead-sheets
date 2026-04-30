@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Dear Mr. Fantasy"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Steve Winwood, Chris Wood and Jim Capaldi"
   copyright = \markup \small { \now " " "© 1968 F.S. Music, Ltd. and Island Music Ltd." }

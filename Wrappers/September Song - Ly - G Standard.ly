@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Django Key"
+subtitle = "Django Key"
 whatKey = g'
 whatClef = "treble"
 

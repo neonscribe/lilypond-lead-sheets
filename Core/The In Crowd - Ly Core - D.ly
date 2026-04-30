@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
@@ -12,7 +12,7 @@ instrument =
 \header {
   title = "The “In” Crowd"
   subtitle = "Ramsey Lewis arrangement, 1965"
-  subsubtitle = \instrument
+  subsubtitle = \subtitle
   poet = ""
   composer = "Billy Page"
   copyright = \markup \small { \now " " "© 1964 American Music, Inc." }

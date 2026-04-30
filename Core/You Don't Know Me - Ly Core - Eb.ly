@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "You Don't Know Me"
-  subtitle = \instrument
+  subtitle = \subtitle
   composer = "Cindy Walker and Eddy Arnold"
   copyright = \markup \small { \now " " "© 1955 Hill and Range Songs, Inc." }
 }

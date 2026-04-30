@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Only Daddy That'll Walk the Line"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Jimmy Bryant"
   copyright = \markup \small { \now " " "© 1967 Beechwood Music Corp." }

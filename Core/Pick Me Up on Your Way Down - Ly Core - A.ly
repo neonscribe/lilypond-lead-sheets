@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Pick Me Up on Your Way Down"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Harlan Howard"
   copyright = \markup \small { \now " " "© 1958 Good Ol Harlan Songs" }

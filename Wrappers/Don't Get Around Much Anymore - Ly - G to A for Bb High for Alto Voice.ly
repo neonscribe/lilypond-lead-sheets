@@ -1,6 +1,6 @@
 \version "2.26.0"
 
-instrument = "Bb High for Alto Voice Key"
+subtitle = "Bb High for Alto Voice Key"
 whatKey = a'
 whatClef = "treble"
 

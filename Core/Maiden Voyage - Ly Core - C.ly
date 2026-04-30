@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "Maiden Voyage"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Herbie Hancock"
   copyright = \markup \small { \now " " "© 1965 Hancock Music Inc." }

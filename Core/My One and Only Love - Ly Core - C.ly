@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "My One and Only Love"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Robert Mellin"
   composer = "Guy Wood"
   copyright = \markup \small { \now " " "© 1952 EMI Music Publishing Ltd." }

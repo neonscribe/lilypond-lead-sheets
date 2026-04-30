@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Bass for Standard Key"
+subtitle = "Bass for Standard Key"
 whatKey = e,
 whatClef = "bass"
 
@@ -12,6 +12,6 @@ whatClef = "bass"
 
 %{
 
-\song{Ghost Riders in the Sky - Em Bass}{"../Standard/Bass/Ghost Riders in the Sky - Ly - Em Bass for Standard"}
+\song{(Ghost) Riders in the Sky (A Cowboy Legend) - Em Bass}{"../Standard/Bass/Ghost Riders in the Sky - Ly - Em Bass for Standard"}
 
 %}

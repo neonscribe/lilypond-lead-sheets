@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "557 Jazz Standards Chords"
+subtitle = "557 Jazz Standards Chords"
 whatKey = ef
 whatClef = "treble"
 

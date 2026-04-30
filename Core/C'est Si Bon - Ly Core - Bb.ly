@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "C'est Si Bon (It's So Good)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Andre Hornez/Jerry Seelen"
   composer = "Henri Betti"
   copyright = \markup \small { \now " " "© 1947 Arpege Editions" }

@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "It's So Peaceful in the Country"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Alec Wilder"
   copyright = \markup \small { \now " " "© 1941 Ludlow Music, Inc." }

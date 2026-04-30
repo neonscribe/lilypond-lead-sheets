@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Transposed for Eb instruments"
+subtitle = "Transposed for Eb instruments"
 whatKey = a
 whatClef = "treble"
 

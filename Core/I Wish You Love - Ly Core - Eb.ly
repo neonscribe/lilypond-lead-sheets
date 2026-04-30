@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I Wish You Love"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Englsh lyrics by Albert Beach"
   composer = "Charles Trenet"
   copyright = \markup \small { \now " " "© 1943 Editions Salabert France" }

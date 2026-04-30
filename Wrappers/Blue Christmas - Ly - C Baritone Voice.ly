@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Ernest Tubb, Hank Thompson, Jim Reeves, Brenda Lee, Tammy Wynette Key"
+subtitle = "Ernest Tubb, Hank Thompson, Jim Reeves, Brenda Lee, Tammy Wynette Key"
 whatKey = c'
 whatClef = "treble"
 

@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "She's (He's) Funny That Way"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Richard A. Whiting"
   composer = "Neil Moret"
   copyright = \markup \small { \now " " "© 1928 Robbins Music Corporation" }

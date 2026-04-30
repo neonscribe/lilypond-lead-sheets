@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Real Book Key"
+subtitle = "Real Book Key"
 whatKey = bf
 whatClef = "treble"
 

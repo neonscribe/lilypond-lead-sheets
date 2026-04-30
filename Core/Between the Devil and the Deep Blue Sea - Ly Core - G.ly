@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Between the Devil and the Deep Blue Sea"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Ted Koehler"
   composer = "Harold Arlen"
   copyright = \markup \small { \now " " "© 1931 Mills Music, Inc." }

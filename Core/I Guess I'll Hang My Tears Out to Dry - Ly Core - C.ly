@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I Guess I'll Hang My Tears Out to Dry"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Sammy Cahn"
   composer = "Jule Styne"
   copyright = \markup \small { \now " " "© 1944 Cahn Music Company and Chappell & Co." }

@@ -10,14 +10,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Avalon"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Al Jolson and Vincent Rose"
   copyright = \markup \small { \now " " "© 1920 Jerome H. Remick & Co." }

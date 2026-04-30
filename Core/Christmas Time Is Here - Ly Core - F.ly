@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Christmas Time Is Here"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Lee Mendelson"
   composer = "Vince Guaraldi"
   copyright = \markup \small { \now " " "© 1966 Lee Mendelson Film Productions, Inc." }

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Street of Dreams"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Sam M. Lewis"
   composer = "Victor Young"
   copyright = \markup \small { \now " " "© 1932 Leo Feist Inc." }

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Friend of the Devil"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Robert Hunter"
   composer = "Jerry Garcia and John Dawson"
   copyright = \markup \small { \now " " "© 1970 Ice Nine Publishing Co., Inc." }

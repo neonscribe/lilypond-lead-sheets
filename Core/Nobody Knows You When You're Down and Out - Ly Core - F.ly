@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Nobody Knows You When You're Down and Out"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Jimmie Cox"
   copyright = \markup \small { \now " " "© 1923 Universal Music Corp." }

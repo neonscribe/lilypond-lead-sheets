@@ -1,13 +1,13 @@
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "'Round Midnight"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Bernie Hanighen"
   composer = "Cootie Williams and Thelonious Monk"
   copyright = \markup \small { \now " " "© 1944 Advanced Music Corporation" }

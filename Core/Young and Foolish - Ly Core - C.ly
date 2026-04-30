@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Young and Foolish"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Arnold B. Horwitt"
   composer = "Albert Hague"
   copyright = \markup \small { \now " " "© 1954 Chappell & Co." }

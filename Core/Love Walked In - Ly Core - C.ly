@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Love Walked In"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Ira Gershwin"
   composer = "George Gershwin"
   copyright = \markup \small { \now " " "© 1937 George Gershwin Music and Ira Gershwin Music." }

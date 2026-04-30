@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Beyond the Sea"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Jack Lawrence"
   composer = "Albert Lasry, Charles Trenet"
   copyright = \markup \small { \now " " "© 1945 France Music Corp." }

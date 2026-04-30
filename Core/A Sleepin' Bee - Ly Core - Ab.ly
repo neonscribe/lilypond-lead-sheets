@@ -4,14 +4,14 @@
 
 #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "A Sleepin' Bee"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Harold Arlen & Truman Capote"
   composer = "Harold Arlen"
   copyright = \markup \small { \now " " "© 1954 Harold Arlen and Truman Capote" }

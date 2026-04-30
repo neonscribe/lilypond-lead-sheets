@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Do You Know What It Means to Miss New Orleans"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Eddie De Lange"
   composer = "Louis Alter"
   copyright = \markup \small { \now " " "© 1946 De Lange Music Co." }

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Lucy in the Sky With Diamonds"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "John Lennon/Paul McCartney"
   copyright = \markup \small { \now " " "© 1967 Northern Songs Ltd." }

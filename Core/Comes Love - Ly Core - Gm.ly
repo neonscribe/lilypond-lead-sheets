@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Comes Love"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Lew Brown, Chas. Tobias, Sam H. Stept"
   copyright = \markup \small { \now " " "© 1939 Chappel & Co., Inc." }

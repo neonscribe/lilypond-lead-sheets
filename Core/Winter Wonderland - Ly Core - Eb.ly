@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Winter Wonderland"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Dick Smith"
   composer = "Felix Bernard"
   copyright = \markup \small { \now " " "© 1934 Bregman, Vocco and Conn, Inc." }

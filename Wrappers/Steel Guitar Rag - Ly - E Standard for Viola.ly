@@ -4,7 +4,7 @@
 
 #(set-global-staff-size 18)
 
-instrument = "Steel Guitar Key for Viola"
+subtitle = "Steel Guitar Key for Viola"
 whatKey = e,
 whatClef = "alto"
 

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Ole Buttermilk Sky"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Hoagy Carmichael and Jack Brooks"
   copyright = \markup \small { \now " " "© 1946 Morley Music Co." }

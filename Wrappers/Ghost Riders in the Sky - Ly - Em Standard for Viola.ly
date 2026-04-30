@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Standard Key for Viola"
+subtitle = "Standard Key for Viola"
 whatKey = e
 whatClef = "alto"
 
@@ -12,6 +12,6 @@ whatClef = "alto"
 
 %{
 
-\song{Ghost Riders in the Sky - Em}{"../Standard/Viola/Ghost Riders in the Sky - Ly - Em Standard for Viola"}
+\song{(Ghost) Riders in the Sky (A Cowboy Legend) - Em}{"../Standard/Viola/Ghost Riders in the Sky - Ly - Em Standard for Viola"}
 
 %}

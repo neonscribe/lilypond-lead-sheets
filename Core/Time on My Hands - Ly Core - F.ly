@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Time on My Hands (You in My Arms)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Harold Adamson and Mack Gordon"
   composer = "Vincent Youmans"
   copyright = \markup \small { \now " " "© 1930 Vincent Youmans, Inc." }

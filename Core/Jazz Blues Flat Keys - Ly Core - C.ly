@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Jazz Blues Flat Keys"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = ""
   copyright = \markup \small { \now " " "" }

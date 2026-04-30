@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(if (and (defined? 'printNoteNames) printNoteNames)
@@ -13,7 +13,7 @@ instrument =
 
 \header {
   title = "Sweet Lorraine"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Mitchell Parish"
   composer = "Cliff Burwell"
   copyright = \markup \small { \now " " "© 1928 Mills Music Inc." }

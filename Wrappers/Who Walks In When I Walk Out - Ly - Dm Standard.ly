@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Louis Armstrong & Ella Fitzgerald Key"
+subtitle = "Louis Armstrong & Ella Fitzgerald Key"
 whatKey = d
 whatClef = "treble_8"
 

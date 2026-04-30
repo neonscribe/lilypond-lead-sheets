@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "The Christmas Song (Chestnuts Roasting)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Robert Wells"
   composer = "Mel Tormé"
   copyright = \markup \small { \now " " "© 1946 Edwin H. Morris & Co." }

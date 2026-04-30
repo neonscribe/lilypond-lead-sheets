@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Is Anybody Goin' to San Antone"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Dave Kirby and Glenn Martin"
   copyright = \markup \small { \now " " "© 1969 Pamper Music Inc." }

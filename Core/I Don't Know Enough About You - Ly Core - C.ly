@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "I Don't Know Enough About You"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Dave Barbour and Peggy Lee"
   copyright = \markup \small { \now " " "© 1946 Denslow Music Inc." }

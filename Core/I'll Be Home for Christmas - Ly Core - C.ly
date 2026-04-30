@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "I'll Be Home for Christmas"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Kim Gannon"
   composer = "Walter Kent"
   copyright = \markup \small { \now " " "© 1943 Gannon & Kent Music Co., Inc." }

@@ -10,14 +10,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Sugar (That Sugar Baby O' Mine)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Sidney Mitchell and Edna Alexander"
   composer = "Maceo Pinkard"
   copyright = \markup \small { \now " " "© 1927 Robbins Music Corporation" }

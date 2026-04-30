@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Ask Me Now (How I Wish)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Jon Hendricks"
   composer = "Thelonius Monk"
   copyright = \markup \small { \now " " "© 1951 Thelonius Music Corporation" }

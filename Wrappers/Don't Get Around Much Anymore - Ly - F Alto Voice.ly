@@ -1,6 +1,6 @@
 \version "2.26.0"
 
-instrument = "Patti Page Key"
+subtitle = "Patti Page Key"
 whatKey = f
 whatClef = "treble_8"
 

@@ -4,14 +4,14 @@
 
 #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "The Night We Called It a Day"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Tom Adair"
   composer = "Matt Dennis"
   copyright = \markup \small { \now " " "© 1941 Music Sales Corp." }

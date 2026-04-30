@@ -1,6 +1,6 @@
 \version "2.26.0"
 
-instrument = "Bass for Alternate Key"
+subtitle = "Bass for Alternate Key"
 whatKey = g,
 whatClef = "bass"
 

@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Eugenie Baird (with Glen Gray and the Casa Loma Orchestra) Key"
+subtitle = "Eugenie Baird (with Glen Gray and the Casa Loma Orchestra) Key"
 whatKey = c
 whatClef = "treble_8"
 

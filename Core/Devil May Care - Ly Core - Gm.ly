@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Devil May Care"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Bob Dorough, Terrell Kirk, Jr."
   copyright = \markup \small { \now " " "© 1953 Sincere Music" }

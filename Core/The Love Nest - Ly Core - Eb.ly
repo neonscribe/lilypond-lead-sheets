@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "The Love Nest"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Otto Harbach"
   composer = "Louis A. Hirsch"
   copyright = \markup \small { \now " " "© 1920 Victoria Publishing Corporation" }

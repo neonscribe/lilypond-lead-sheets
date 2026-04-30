@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Emily"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Johnny Mercer"
   composer = "Johnny Mandel"
   copyright = \markup \small { \now " " "© 1964 Metro-Goldwyn-Mayer, Inc." }

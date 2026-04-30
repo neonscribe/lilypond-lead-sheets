@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Bass for Standard Key, Bill Evans Chords"
+subtitle = "Bass for Standard Key, Bill Evans Chords"
 whatKey = af,
 whatClef = "bass"
 TempoName = "Slow Ballad [Bill Evans 1960]"

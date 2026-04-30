@@ -8,9 +8,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -19,7 +19,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "How Insensitive"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Norman Gimbel"
   composer = "Antônio Carlos Jobim"
   copyright = \markup \small { \now " " "© 1963 MCA-Duchess Music Corp." }

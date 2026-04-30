@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Vivo Sonhando (Dreamer)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "English lyrics by Gene Lees"
   composer = "Antônio Carlos Jobim"
   %% copyright = \markup \small { \now " " "© 1963 Jobim Music Ltda." }

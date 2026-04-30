@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Eb Transposition of Violin Solo"
+subtitle = "Eb Transposition of Violin Solo"
 whatKey = e'
 whatClef = "treble"
 

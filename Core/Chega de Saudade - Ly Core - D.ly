@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Chega de Saudade (No More Blues)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Vinicius de Moraes, Jon Hendricks & Jessie Cavanaugh"
   composer = "Antônio Carlos Jobim"
   copyright = \markup \small { \now " " "© 1958 Editora Musical Arapuã, Sao Paulo, Brazil. © 1967 TRO-Hollis Music Inc., New York" }

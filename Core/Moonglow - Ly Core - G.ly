@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Moonglow"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Eddie DeLange"
   composer = "Will Hudson and Irving Mills"
   copyright = \markup \small { \now " " "© 1934 Mills Music, Inc." }

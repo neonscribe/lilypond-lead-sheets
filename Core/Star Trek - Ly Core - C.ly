@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Star Trek Theme"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Gene Roddenberry"
   composer = "Alexander Courage"
   copyright = \markup \small { \now " " "© 1966 Bruin Music Co." }

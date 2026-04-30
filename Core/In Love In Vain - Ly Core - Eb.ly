@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "In Love In Vain"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Leo Robin"
   composer = "Jerome Kern"
   copyright = \markup \small { \now " " "© 1946 T.B. Harms Co." }

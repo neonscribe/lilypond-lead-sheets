@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Gabrielle Cavassa (with Joshua Redman) Key"
+subtitle = "Gabrielle Cavassa (with Joshua Redman) Key"
 whatKey = ef,
 whatClef = "treble_8"
 

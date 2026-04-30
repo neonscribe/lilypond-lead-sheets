@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Bass for Standard Key No Signature"
+subtitle = "Bass for Standard Key No Signature"
 whatKey = c,
 whatClef = "bass"
 

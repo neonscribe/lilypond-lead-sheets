@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Limehouse Blues"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Douglas Furber"
   composer = "Philip Braham"
   copyright = \markup \small { \now " " "© 1922 Ascherberg, Hopwood & Crew Ltd." }

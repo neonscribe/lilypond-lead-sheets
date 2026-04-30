@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "You Go To My Head"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Haven Gillespie"
   composer = "J. Fred Coots"
   copyright = \markup \small { \now " " "© 1938 Remick Music Corp." }

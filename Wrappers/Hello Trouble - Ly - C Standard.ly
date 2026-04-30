@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Ernest Tubb, Chris Hillman (with The Desert Rose Band) Key"
+subtitle = "Ernest Tubb, Chris Hillman (with The Desert Rose Band) Key"
 whatKey = c
 whatClef = "treble"
 

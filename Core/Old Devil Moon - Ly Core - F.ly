@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Old Devil Moon"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "E.Y. Harburg"
   composer = "Burton Lane"
   copyright = \markup \small { \now " " "© 1946 Chappell & Co." }

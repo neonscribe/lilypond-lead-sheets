@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "George Strait Key for Viola"
+subtitle = "George Strait Key for Viola"
 whatKey = g,
 whatClef = "alto"
 

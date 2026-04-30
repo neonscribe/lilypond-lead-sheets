@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "I Got It Bad and That Ain't Good"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Paul Francis Webster"
   composer = "Duke Ellington"
   copyright = \markup \small { \now " " "© 1941 Robbins Music Corporation" }

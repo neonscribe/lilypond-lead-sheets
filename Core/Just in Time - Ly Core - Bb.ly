@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Just in Time"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Betty Comden and Adolph Green"
   composer = "Jule Styne"
   copyright = \markup \small { \now " " "© 1956 Chappell & Co." }

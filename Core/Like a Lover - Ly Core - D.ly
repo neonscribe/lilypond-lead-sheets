@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Like a Lover (O Cantador)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Nelson Motta/Alan and Marilyn Bergman"
   composer = "Dori Caymmi"
   copyright = \markup \small { \now " " "© 1968 Bema Music, Inc." }

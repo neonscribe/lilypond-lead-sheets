@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I Wish I Knew How It Would Feel to Be Free"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Billy Tayor & Dick Dallas"
   composer = "Billy Taylor"
   copyright = \markup \small { \now " " "© 1964 Duane Music Inc." }

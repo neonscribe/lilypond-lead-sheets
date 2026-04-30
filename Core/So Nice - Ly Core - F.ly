@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Samba de Verão (So Nice, Summer Samba)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Paulo Sérgio Valle, Norman Gimbel"
   composer = "Marcos Valle"
   copyright = \markup \small { \now " " "© 1965 Marcos Valle and Paulo Sérgio Valle" }

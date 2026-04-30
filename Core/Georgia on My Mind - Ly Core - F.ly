@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Georgia on My Mind"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Stuart Gorrell"
   composer = "Hoagy Carmichael"
   copyright = \markup \small { \now " " "© 1930 Southern Music Publishing Co., Inc." }

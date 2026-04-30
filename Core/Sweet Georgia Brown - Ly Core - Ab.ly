@@ -8,14 +8,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Sweet Georgia Brown"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Ben Bernie, Maceo Pinkard, Kenneth Casey"
   copyright = \markup \small { \now " " "© 1925 Warner Bros., Inc." }

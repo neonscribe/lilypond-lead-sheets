@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Harry Connick Key"
+subtitle = "Harry Connick Key"
 whatKey = f
 whatClef = "treble"
 

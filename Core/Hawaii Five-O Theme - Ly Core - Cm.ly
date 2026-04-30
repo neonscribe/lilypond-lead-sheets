@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Hawaii Five-O Theme"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Mort Stevens"
   copyright = \markup \small { \now " " "© 1969 Famous Music LLC and Aspenfair Music" }

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Songe d'Automne (1947 Hubert Rostaing Clarinet Melody)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Archibald Joyce"
   copyright = \markup \small { \now " " "© 1908 Francis, Day & Hunter" }

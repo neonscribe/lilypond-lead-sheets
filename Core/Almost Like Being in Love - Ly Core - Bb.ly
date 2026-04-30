@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Almost Like Being in Love"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Alan Jay Lerner"
   composer = "Frederick Lowe"
   copyright = \markup \small { \now " " "© 1947 Lerner & Lowe" }

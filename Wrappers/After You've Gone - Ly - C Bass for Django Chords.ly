@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Bass Clef Original 1918 Key with Django Fakebook Chords"
+subtitle = "Bass Clef Original 1918 Key with Django Fakebook Chords"
 whatKey = c
 whatClef = "bass"
 

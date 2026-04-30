@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Doris Day, Norah Jones (with The Little Willies) Key"
+subtitle = "Doris Day, Norah Jones (with The Little Willies) Key"
 whatKey = bf,
 whatClef = "treble_8"
 

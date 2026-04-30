@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Let's Get Lost"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Frank Loesser"
   composer = "Jimmy McHugh"
   copyright = \markup \small { \now " " "© 1943 Paramount Music Corporation" }

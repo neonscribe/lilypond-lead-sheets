@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Jackie Cain (with Jackie & Roy), June Christy, Blossom Dearie, Norah Jones Key"
+subtitle = "Jackie Cain (with Jackie & Roy), June Christy, Blossom Dearie, Norah Jones Key"
 whatKey = bf,
 whatClef = "treble_8"
 

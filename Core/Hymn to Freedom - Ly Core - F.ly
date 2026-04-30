@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Hymn to Freedom"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Oscar Peterson"
   copyright = \markup \small { \now " " "© 1962 Tomi Music Company" }

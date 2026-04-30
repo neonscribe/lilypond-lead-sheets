@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Love Me or Leave Me"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Gus Kahn"
   composer = "Walter Donaldson"
   copyright = \markup \small { \now " " "© 1928 Donaldson, Douglas & Gumble, Inc." }

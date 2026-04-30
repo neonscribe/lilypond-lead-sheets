@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "But Beautiful"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Johnny Burke"
   composer = "Jimmy Van Heusen"
   copyright = \markup \small { \now " " "© 1947 Burke & Van Heusen" }

@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "I Hear a Rhapsody"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "George Fragos, Jack Baker and Dick Gasparre"
   copyright = \markup \small { \now " " "© 1940 Broadcast Music Inc." }

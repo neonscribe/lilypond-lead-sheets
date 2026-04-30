@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "In a Sentimental Mood"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Irving Mills and Manny Kurtz"
   composer = "Duke Ellington"
   copyright = \markup \small { \now " " "© 1935 Milsons Music Publishing Corp." }

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "When Lights Are Low"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Spencer Williams"
   composer = "Benny Carter"
   copyright = \markup \small { \now " " "© 1936 Bee Cee Music Company" }

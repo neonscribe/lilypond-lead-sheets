@@ -2,15 +2,15 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title =  "Walk, Don't Run"
   subtitle = "as recorded by The Ventures"
-  subsubtitle = \instrument
+  subsubtitle = \subtitle
   copyright = \markup \small { \now " "  "© 1960 Peermusic Ltd. and Mesa Verde Music Co." }
   composer =  "Johnny Smith"
 }

@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "A Beautiful Friendship"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Stanley Styne"
   composer = "Donald Kahn"
   copyright = \markup \small { \now " " "© 1956 Gus Kahn Music" }

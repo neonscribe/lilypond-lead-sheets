@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Sabor a Mí"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Mel Mitchell"
   composer = "Alvaro Carillo"
   copyright = \markup \small { \now " " "© 1959 Promontora Hispano Americana de Musica S.A." }

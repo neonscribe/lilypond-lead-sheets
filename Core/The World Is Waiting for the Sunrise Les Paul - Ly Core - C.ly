@@ -4,9 +4,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -15,7 +15,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "The World Is Waiting for the Sunrise (1951 Les Paul)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Eugene Lockhart"
   composer = "Ernest Seitz"
   copyright = \markup \small { \now " " "© 1919 Chappell & Co." }

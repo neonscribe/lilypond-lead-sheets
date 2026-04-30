@@ -8,9 +8,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
@@ -28,7 +28,7 @@ lyricsCredit = #(let ((v (assoc lyricsLanguage
 
 \header {
   title = "Água de Beber (Water to Drink)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = \lyricsCredit
   composer = "Antônio Carlos Jobim"
   copyright = \markup \small { \now " " "© 1963 Jobim Music" }

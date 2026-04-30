@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "You Broke My Heart (In Little Bitty Pieces)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Hank Thompson"
   copyright = "© 1947 Metro Music, Inc."

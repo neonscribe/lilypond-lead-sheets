@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Lady Gaga Key"
+subtitle = "Lady Gaga Key"
 whatKey = g,
 whatClef = "treble_8"
 

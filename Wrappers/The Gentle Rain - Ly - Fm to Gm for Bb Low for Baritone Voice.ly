@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Bb Low for Baritone Voice Key"
+subtitle = "Bb Low for Baritone Voice Key"
 whatKey = g,
 whatClef = "treble"
 

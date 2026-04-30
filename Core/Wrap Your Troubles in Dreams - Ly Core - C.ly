@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Wrap Your Troubles in Dreams"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Ted Koehler and Billy Moll"
   composer = "Harry Barris"
   copyright = \markup \small { \now " " "© 1931 Shapiro, Bernstein & Co., Inc." }

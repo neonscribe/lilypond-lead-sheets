@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Jim Henson (as Kermit) Key"
+subtitle = "Jim Henson (as Kermit) Key"
 whatKey = a
 whatClef = "treble"
 

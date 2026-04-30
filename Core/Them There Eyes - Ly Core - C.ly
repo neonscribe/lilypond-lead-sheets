@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Them There Eyes"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Maceo Pinkard, William Tracy & Doris Tauber"
   copyright = \markup \small { \now " " "© 1930 Bourne, Inc." }

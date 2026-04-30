@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "(Up a) Lazy River"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Hoagy Carmichael and Sidney Arodin"
   copyright = \markup \small { \now " " "© 1931 Peer International Corporation" }

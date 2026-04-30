@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "The Gaby Glide"
-  subtitle = \instrument
+  subtitle = \subtitle
   composer = "Louis H. Hirsch"
   copyright = \markup \small { \now " " "" }
 }

@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "When I Fall in Love"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Edward Heyman"
   composer = "Victor Young"
   copyright = \markup \small { \now " " "© 1952 Chappell & Co." }

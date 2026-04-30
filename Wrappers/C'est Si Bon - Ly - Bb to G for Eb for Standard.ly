@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Eb for Standard Key in French"
+subtitle = "Eb for Standard Key in French"
 whatKey = g
 whatClef = "treble"
 

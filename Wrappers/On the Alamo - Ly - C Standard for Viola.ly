@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Firehouse Key for Viola"
+subtitle = "Firehouse Key for Viola"
 whatKey = c
 whatClef = "alto"
 

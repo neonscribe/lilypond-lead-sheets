@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -12,7 +12,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "Ain't Misbehavin'"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Andy Razaf"
   composer = "Fats Waller and Harry Brooks"
   copyright = \markup \small { \now " " "© 1929 Mills Music, Inc." }

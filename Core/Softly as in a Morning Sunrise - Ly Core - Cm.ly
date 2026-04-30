@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Softly, as in a Morning Sunrise"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Oscar Hammerstein II"
   composer = "Sigmund Romberg"
   copyright = \markup \small { \now " " "© 1928 Bambalina Music Publishing Co." }

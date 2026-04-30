@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "When Sunny Gets Blue"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Jack Segal"
   composer = "Marvin Fisher"
   copyright = \markup \small { \now " " "© 1956 Marvin Music Company" }

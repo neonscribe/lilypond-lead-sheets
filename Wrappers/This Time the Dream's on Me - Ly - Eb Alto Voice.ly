@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Bonnie Lake (with Artie Shaw) Key"
+subtitle = "Bonnie Lake (with Artie Shaw) Key"
 whatKey = ef
 whatClef = "treble"
 

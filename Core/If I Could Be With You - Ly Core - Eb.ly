@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "If I Could Be With You (One Hour Tonight)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Henry Creamer & Jimmy Johnson"
   copyright = \markup \small { \now " " "© 1926 Jerome H. Remick & Co." }

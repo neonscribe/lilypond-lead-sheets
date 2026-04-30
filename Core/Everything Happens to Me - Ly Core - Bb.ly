@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Everything Happens to Me"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Tom Adair"
   composer = "Matt Dennis"
   copyright = \markup \small { \now " " "© 1941 Dorsey Bros. Music" }

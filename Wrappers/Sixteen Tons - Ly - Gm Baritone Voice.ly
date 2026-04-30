@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Fred Hellerman (with The Weavers) Key"
+subtitle = "Fred Hellerman (with The Weavers) Key"
 whatKey = g'
 whatClef = "treble"
 

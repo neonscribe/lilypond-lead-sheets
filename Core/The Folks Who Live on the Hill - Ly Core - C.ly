@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "The Folks Who Live on the Hill"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Oscar Hammerstein II"
   composer = "Jerome Kern"
   copyright = \markup \small { \now " " "© 1937 Chappell & Co." }

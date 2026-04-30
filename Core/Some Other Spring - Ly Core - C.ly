@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Some Other Spring"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Arthur Herzog, Jr. and Irene Kitchings"
   copyright = \markup \small { \now " " "© 1939 Edward B. Marks Music Company" }

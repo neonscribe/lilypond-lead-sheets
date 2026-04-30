@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Bb for Standard Key with Signature"
+subtitle = "Bb for Standard Key with Signature"
 whatKey = df'
 whatClef = "treble"
 

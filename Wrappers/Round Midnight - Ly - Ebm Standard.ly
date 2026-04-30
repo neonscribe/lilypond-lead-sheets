@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Standard Key (Minor)"
+subtitle = "Standard Key (Minor)"
 whatKey = ef
 whatClef = "treble"
 

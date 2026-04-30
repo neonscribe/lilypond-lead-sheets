@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Baritone Voice Key"
+subtitle = "Baritone Voice Key"
 whatKey = bf,
 whatClef = "treble_8"
 

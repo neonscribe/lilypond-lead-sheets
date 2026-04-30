@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "As Time Goes By"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Herman Hupfeld"
   copyright = \markup \small { \now " " "© 1931 Warner Bros. Inc." }

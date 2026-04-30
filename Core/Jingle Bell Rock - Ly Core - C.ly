@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Jingle Bell Rock"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Joe Beal and Jim Boothe"
   copyright = \markup \small { \now " " "© 1957 Cornell Music, Inc." }

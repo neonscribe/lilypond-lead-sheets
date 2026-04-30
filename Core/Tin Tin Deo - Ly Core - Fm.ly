@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Tin Tin Deo"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Walter Gil Fuller and Luciano Pozo Gonzales"
   copyright = \markup \small { \now " " "© 1948 Consolidated Music Publishers" }

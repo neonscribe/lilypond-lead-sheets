@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "The End of a Love Affair"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Edward C. Redding"
   copyright = \markup \small { \now " " "© 1950 Universal Music Corp." }

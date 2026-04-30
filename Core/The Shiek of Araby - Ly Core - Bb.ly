@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "The Shiek of Araby"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Harry B Smith and Francis Wheeler"
   composer = "Ted Snyder"
   copyright = \markup \small { \now " " "© 1921 Ted Snyder Music Publishing Co." }

@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "I Don't Want to Set the World on Fire"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Bennie Benjamin,Eddie Durham,Eddie Seiler,Sol Marcus"
   copyright = \markup \small { \now " " "© 1940 Cherio Corp." }

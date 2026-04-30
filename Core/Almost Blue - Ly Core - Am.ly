@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Almost Blue"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Elvis Costello"
   copyright = \markup \small { \now " " "© 1982 Universal Music Publishing MGB Ltd." }

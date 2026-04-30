@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Bass for Annette Hanshaw, Judy Garland, Peggy Lee Key, Django Fakebook Chords"
+subtitle = "Bass for Annette Hanshaw, Judy Garland, Peggy Lee Key, Django Fakebook Chords"
 whatKey = bf,,
 whatClef = "bass"
 

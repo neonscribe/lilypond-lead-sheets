@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Star Eyes"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Don Raye and Gene dePaul"
   copyright = \markup \small { \now " " "© 1943 Leo Feist, Inc." }

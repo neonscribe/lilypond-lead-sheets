@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -13,7 +13,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "Bossa Dorado"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Dorado Schmmitt"
   copyright = \markup \small { \now " " "© 1986 Sterntaler Musikverlag GMBH" }

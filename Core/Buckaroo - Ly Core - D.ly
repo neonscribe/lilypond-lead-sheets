@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Buckaroo"
-  subtitle = \instrument
+  subtitle = \subtitle
   composer = "Bob Morris"
   copyright = \markup \small { \now " " "© 1965 Tree Publishing Co., Inc." }
 }

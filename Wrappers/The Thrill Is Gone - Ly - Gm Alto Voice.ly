@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Ella Mae Morse (with Freddie Slack), Dinah Shore, Sarah Vaughan, Anita O'Day Key"
+subtitle = "Ella Mae Morse (with Freddie Slack), Dinah Shore, Sarah Vaughan, Anita O'Day Key"
 whatKey = g,
 whatClef = "treble_8"
 

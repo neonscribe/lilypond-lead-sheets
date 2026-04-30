@@ -4,14 +4,14 @@
 
 % #(set-global-staff-size 18)
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "The Lamp Is Low"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Mitchell Parish"
   composer = "Peter De Rose and Bert Shefter"
   copyright = \markup \small { \now " " "© 1939 Robbins Music Corporation, based on Maurice Ravel's"

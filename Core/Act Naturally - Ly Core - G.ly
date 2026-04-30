@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Act Naturally"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Voni Morrison, Johnny Russell"
   copyright = \markup \small { \now " " "© 1963 Blue Book Music Co." }

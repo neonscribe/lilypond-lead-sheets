@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "If You Could See Me Now"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Carl Sigman"
   composer = "Tadd Dameron"
   copyright = \markup \small { \now " " "© 1946 Warner Bros. Corporation" }

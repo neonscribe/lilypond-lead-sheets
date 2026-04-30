@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Ella Fitzgerald Key, Bill Evans Chords"
+subtitle = "Ella Fitzgerald Key, Bill Evans Chords"
 whatKey = ef
 whatClef = "treble_8"
 

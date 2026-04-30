@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -12,7 +12,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "When It's Sleepy Time Down South"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Leon & Otis René & Clarence Muse"
   copyright = \markup \small { \now " " "© 1931 Freed & Powers, Ltd." }

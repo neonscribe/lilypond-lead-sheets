@@ -1,6 +1,6 @@
 \version "2.26.0"
 
-instrument = "Standard Key"
+subtitle = "Standard Key"
 whatKey = c'
 whatClef = "treble"
 

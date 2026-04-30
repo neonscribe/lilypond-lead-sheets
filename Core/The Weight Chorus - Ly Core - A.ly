@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "The Weight, Chorus Only"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "J.R. Robertson"
   copyright = \markup \small { \now " " "© 1968 Dwarf Music" }

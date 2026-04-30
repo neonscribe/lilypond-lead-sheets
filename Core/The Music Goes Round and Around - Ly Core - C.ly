@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "The Music Goes 'Round and Around"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "“Red” Hodgson"
   composer = "Edward Farley, Michael Riley"
   copyright = \markup \small { \now " " "© 1935 Anne Rachel Music Corp." }

@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Bésame Mucho"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Consuelo Velázquez/Sunny Skylar"
   composer = "Consuelo Velázquez"
   copyright = \markup \small { \now " " "© 1941 Promotora Hispano Americana de Musica, S.A." }

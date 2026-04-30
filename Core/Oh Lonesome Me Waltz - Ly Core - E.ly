@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Oh, Lonesome Me (in 3, Neil Young Style)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Don Gibson"
   copyright = \markup \small { \now " " "© 1957 Acuff Rose Music" }

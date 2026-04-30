@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Milestones (1958)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Miles Davis"
   copyright = \markup \small { \now " " "© 1958 Jazz Horn Inc." }

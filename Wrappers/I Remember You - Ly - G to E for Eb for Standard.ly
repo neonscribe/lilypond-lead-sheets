@@ -1,6 +1,6 @@
 \version "2.26.0"
 
-instrument = "Eb for Alternate Key"
+subtitle = "Eb for Alternate Key"
 whatKey = e
 whatClef = "treble"
 

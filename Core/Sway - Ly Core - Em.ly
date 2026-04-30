@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Sway (¿Quién será?)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "English lyrics by Norman Gimbel"
   composer = "Pablo Beltrán Ruiz"
   copyright = \markup \small { \now " " "© 1953 Editorial Mexicana de Musica International SA" }

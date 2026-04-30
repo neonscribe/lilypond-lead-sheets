@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Small Day Tomorrow"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Fran Landesman"
   composer = "Bob Dorough"
   copyright = \markup \small { \now " " "© 1972 Cromwell Music, Inc." }

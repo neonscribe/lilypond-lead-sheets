@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Gone With the Wind"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Herb Magidson"
   composer = "Allie Wrubel"
   copyright = \markup \small { \now " " "© 1937 Bourne Co." }

@@ -4,9 +4,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
@@ -14,7 +14,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "Sleepwalk"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Santo Farina, John Farina & Ann Farina"
   copyright = \markup \small { \now " " "© 1959 Carbert Music, Inc." }

@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Day Dream"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "John La Touche"
   composer = "Billy Strayhorn, Duke Ellington"
   copyright = \markup \small { \now " " "© 1940 Robbins Music Corporation" }

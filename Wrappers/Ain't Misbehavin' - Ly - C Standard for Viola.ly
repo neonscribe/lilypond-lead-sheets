@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Django Fakebook Key for Viola"
+subtitle = "Django Fakebook Key for Viola"
 whatKey = c,
 whatClef = "alto"
 

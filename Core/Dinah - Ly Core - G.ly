@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Dinah"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Sam M. Lewis and Joe Young"
   composer = "Harry Akst"
   copyright = \markup \small { \now " " "© 1925 B & G Akst Publishing Co." }

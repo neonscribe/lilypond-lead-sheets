@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "You Belong to Me (Jo Stafford arrangement)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Pee Wee King, Redd Stewart and Chilton Price"
   copyright = \markup \small { \now " " "© 1952 Ridgeway Music Company, Inc." }

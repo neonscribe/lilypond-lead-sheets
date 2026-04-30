@@ -8,9 +8,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
@@ -19,7 +19,7 @@ wpb = $(and (defined? 'withPianoAndBass) withPianoAndBass)
 
 \header {
   title = "A Child Is Born"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Alec Wilder"
   composer = "Roland Hanna (credited to Thad Jones)"
   copyright = \markup \small { \now " " "© 1969 D'Accord Music, Inc." }

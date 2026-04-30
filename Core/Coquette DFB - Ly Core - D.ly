@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Coquette (Django Fakebook)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Gus Kahn"
   composer = "Carmen Lombardo and John Green"
   copyright = \markup \small { \now " " "© 1928 Leo Feist Inc." }

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "My Ideal"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Leo Robin"
   composer = "Richard A. Whiting and Newell Chase"
   copyright = \markup \small { \now " " "© 1930 Famous Music Corporation" }

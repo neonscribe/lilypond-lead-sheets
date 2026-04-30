@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Perdido"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "H.J Lengsfelder and Ervin Drake"
   composer = "Juan Tizol"
   copyright = \markup \small { \now " " "© 1942 Tempo Music, Inc." }

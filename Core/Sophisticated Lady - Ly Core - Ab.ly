@@ -2,9 +2,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 $(set-global-staff-size 18)
@@ -15,7 +15,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 \header {
   title = "Sophisticated Lady"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Irving Mills and Mitchell Parish"
   composer = "Duke Ellington"
   copyright = \markup \small { \now " " "© 1933 Gotham Music Service, Inc." }

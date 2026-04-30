@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I'll Be Around"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Alec Wilder"
   copyright = \markup \small { \now " " "© 1942 Ludlow Music,Inc." }

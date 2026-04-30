@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Easy Street"
-  subtitle = \instrument
+  subtitle = \subtitle
   composer = "Alan Rankin Jones"
   copyright = \markup \small { \now " " "© 1941 Beechwood Music Corp." }
 }

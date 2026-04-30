@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "You Make Me Feel So Young"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Mack Gordon"
   composer = "Josef Myrow"
   copyright = \markup \small { \now " " "© 1946 Triangle Music Corporation" }

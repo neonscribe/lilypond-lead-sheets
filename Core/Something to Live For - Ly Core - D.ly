@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "Something to Live For"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Duke Ellington, Billy Strayhorn"
   copyright = \markup \small { \now " " "© 1939 Mills Music, Inc. Billy Strayhorn Songs Inc." }

@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "My Foolish Heart"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Ned Washington"
   composer = "Victor Young"
   copyright = \markup \small { \now " " "© 1949 Joy Music, Inc., 1619 Broadway, New York, N.Y." }

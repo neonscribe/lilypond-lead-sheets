@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "I'll See You in My Dreams"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Gus Kahn"
   composer = "Isham Jones"
   copyright = \markup \small { \now " " "© 1924 Leo Feist Inc." }

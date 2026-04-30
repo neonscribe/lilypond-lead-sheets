@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Blue Train (Blue Trane)"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "John Coltrane"
   copyright = \markup \small { \now " " "© 1957 Jowcol Music" }

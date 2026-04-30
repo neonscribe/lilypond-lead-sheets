@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Nuages"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Jacques Larue"
   composer = "Django Reinhardt"
   copyright = \markup \small { \now " " "© 1940 Peter Maurice Music Ltd." }

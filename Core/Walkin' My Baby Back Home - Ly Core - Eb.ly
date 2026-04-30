@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Walkin' My Baby Back Home"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Roy Turk, Fred E. Ahlert"
   copyright = \markup \small { \now " " "© 1930 De Sylva Brown & Henderson Inc." }

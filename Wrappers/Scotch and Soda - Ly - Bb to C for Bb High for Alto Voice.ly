@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Bb Hgh for Alto Voice Key"
+subtitle = "Bb Hgh for Alto Voice Key"
 whatKey = c'
 whatClef = "treble"
 

@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Odetta, Colette Magny, Freda Payne, Neko Case Key"
+subtitle = "Odetta, Colette Magny, Freda Payne, Neko Case Key"
 whatKey = bf,
 whatClef = "treble_8"
 

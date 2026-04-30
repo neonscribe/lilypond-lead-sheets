@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "September in the Rain"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Al Dubin"
   composer = "Harry Warren"
   copyright = \markup \small { \now " " "© 1937 Remick Music Corp." }

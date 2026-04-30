@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I Surrender, Dear"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Gordon Clifford"
   composer = "Harry Barris"
   copyright = \markup \small { \now " " "© 1931 Freed & Powers Ltd." }

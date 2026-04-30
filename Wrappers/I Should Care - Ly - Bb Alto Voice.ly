@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Bonnie Lou Williams (with Tommy Dorsey) Key"
+subtitle = "Bonnie Lou Williams (with Tommy Dorsey) Key"
 whatKey = bf,
 whatClef = "treble_8"
 

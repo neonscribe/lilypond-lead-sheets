@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Bass for Standard Key"
+subtitle = "Bass for Standard Key"
 refrainKeyOverride = d,,
 whatKey = d,
 bassKey = d

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "Beale Street Blues"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "W. C. Handy"
   copyright = \markup \small { \now " " "© 1916 Pack & Handy Music Co. Inc." }

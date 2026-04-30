@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Willow Weep for Me"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Ann Ronnell"
   copyright = \markup \small { \now " " "© 1932 Irving Berlin Inc." }

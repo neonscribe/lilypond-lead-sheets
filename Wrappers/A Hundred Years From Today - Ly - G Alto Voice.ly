@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Doris Day, Rosemary Clooney Key Simple Chords"
+subtitle = "Doris Day, Rosemary Clooney Key Simple Chords"
 whatKey = g,
 whatClef = "treble_8"
 

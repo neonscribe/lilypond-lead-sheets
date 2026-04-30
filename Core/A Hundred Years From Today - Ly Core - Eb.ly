@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "A Hundred Years From Today"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Joe Young, Ned Washington"
   composer = "Victor Young"
   copyright = \markup \small { \now " " "© 1933 Robbins Music Corporation" }

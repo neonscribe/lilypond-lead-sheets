@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "A Nightingale Sang in Berkeley Square"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Eric Maschwitz"
   composer = "Manning Sherwin"
   copyright = \markup \small { \now " " "© 1940 The Peter Maurice Music Co. Ltd." }

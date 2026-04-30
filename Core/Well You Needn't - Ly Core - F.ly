@@ -8,9 +8,9 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(if (not (and (defined? 'hideLyrics) hideLyrics))
@@ -18,7 +18,7 @@ instrument =
 
 \header {
   title = "Well You Needn't"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Mike Perro"
   composer = "Thelonious Monk"
   copyright = \markup \small { \now " " "© 1944 Regent Music Corporation" }

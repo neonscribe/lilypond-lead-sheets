@@ -4,14 +4,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Jive at Five"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = ""
   composer = "Harry Edison & Count Basie"
   copyright = \markup \small { \now " " "© 1941 Hallmark Music Publishing Company" }

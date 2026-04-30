@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "The Gentle Rain"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Matt Dubey"
   composer = "Luiz Bonfá"
   copyright = \markup \small { \now " " "© 1965 EMI Unart Catalog, Inc." }

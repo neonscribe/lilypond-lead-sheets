@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Gram Parsons Key (Capo 1)"
+subtitle = "Gram Parsons Key (Capo 1)"
 whatKey = d
 whatClef = "treble"
 

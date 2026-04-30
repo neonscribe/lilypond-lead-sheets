@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Alernate Key Simple Chords"
+subtitle = "Alernate Key Simple Chords"
 whatKey = g
 whatClef = "treble"
 

@@ -2,14 +2,14 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 \header {
   title = "Out of Nowhere"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Edward Heyman"
   composer = "Johnny Green"
   copyright = \markup \small { \now " " "© 1931 Famous Music Corporation" }

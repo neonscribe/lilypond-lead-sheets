@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-instrument = "Bb for Alto Voice"
+subtitle = "Bb for Alto Voice"
 whatKey = a
 whatClef = "treble"
 

@@ -2,16 +2,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 % #(set-global-staff-size 18)
 
 \header {
   title = "I Know That You Know"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Anne Caldwell"
   composer = "Vincent Youmans"
   copyright = \markup \small { \now " " "© 1926 HARMS Inc." }

@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-instrument = "Bass for Linda Ronstadt Key"
+subtitle = "Bass for Linda Ronstadt Key"
 whatKey = g,,
 whatClef = "bass"
 

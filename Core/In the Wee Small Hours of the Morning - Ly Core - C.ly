@@ -8,16 +8,16 @@
 
 \include "../Include/lead-sheets.ily"
 
-instrument =
-#(if (and (defined? 'instrument) instrument)
-  instrument
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
   "Standard Key")
 
 #(set-global-staff-size 18)
 
 \header {
   title = "In the Wee Small Hours of the Morning"
-  subtitle = \instrument
+  subtitle = \subtitle
   poet = "Bob Hilliard"
   composer = "David Mann"
   copyright = \markup \small { \now " " "© 1955 Bourne Corp. and Redd Evans Music Corp." }
