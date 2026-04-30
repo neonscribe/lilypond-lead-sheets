@@ -145,7 +145,8 @@
     }
 },{
     "toggles": [
-        "hideSecondVerseLyrics"
+        "hideSecondVerseLyrics",
+        "hideFirstVerseLyrics"
     ]
 },{
     "choices": {
