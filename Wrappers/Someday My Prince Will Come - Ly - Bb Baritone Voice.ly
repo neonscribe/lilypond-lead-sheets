@@ -8,7 +8,7 @@ subtitle = "Baritone Voice Key"
 whatKey = bf,
 whatClef = "treble"
 
-hideFirstVerseLyrics = ##t
+singerGender = "male"
 
 \include "../Core/Someday My Prince Will Come - Ly Core - Bb.ly"
 

@@ -2,7 +2,8 @@
 
 %{
 
-"Customizer": { "toggles": [ "hideSecondVerseLyrics", "hideFirstVerseLyrics" ] }
+"Customizer": { "toggles": [ "hideLyrics" ],
+                "choices": { "singerGender": [ "female", "male" ] } }
 
 %}
 
@@ -23,7 +24,7 @@ subtitle =
   copyright = \markup \small { \now " " "© 1937 Bourne Co." }
 }
 
-refrainLyricsFirst = \lyricmode {
+refrainObjectGenderMaleLyrics = \lyricmode {
 Some -- day my prince will come.
 Some -- day I'll find my love,
 and how thrill -- ing that mo -- ment will be,
@@ -35,7 +36,7 @@ I'll find my love some day,
 some -- day when my dreams come true. __
 }
 
-refrainLyricsSecond = \lyricmode {
+refrainObjectGenderFemaleLyrics = \lyricmode {
 Some -- day I'll find my love,
 some -- one to call my own,
 and I'll know her the mo -- ment we meet,
@@ -47,25 +48,12 @@ I'll find my love some -- day.
 some -- day when my dreams come true. __
 }
 
-hideFirst = #(if (defined? 'hideFirstVerseLyrics)
-		    hideFirstVerseLyrics
-		    #f)
-		
-hideSecond = #(if (defined? 'hideSecondVerseLyrics)
-		    hideSecondVerseLyrics
-		    #f)
-		
-refrainLyrics = #(if hideFirst
-		  (if hideSecond
-		   #f
-		   refrainLyricsSecond)
-		  refrainLyricsFirst)
-
-refrainLyricsTwo = #(if hideFirst
-		     #f
-		     (if hideSecond
-		      #f
-		      refrainLyricsSecond))
+refrainLyrics =
+#(if (and (defined? 'hideLyrics) hideLyrics)
+  #f
+  (if (and (defined? 'singerGender) (equal? singerGender "male"))
+   refrainObjectGenderFemaleLyrics
+   refrainObjectGenderMaleLyrics))
 
 refrainChords = \chordmode {
   bf2.:maj7 d2.:7.5+ ef2.:maj7 g2.:7.5+

@@ -74,7 +74,8 @@ cra -- zy in love am I. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'objectGenderFemale) objectGenderFemale)
+#(if (and (defined? 'singerGender) 
+          (equal? singerGender "male"))
   refrainObjectGenderFemaleLyrics
   refrainObjectGenderMaleLyrics)
 

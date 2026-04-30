@@ -8,8 +8,6 @@ subtitle = "Etta Jones Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-hideSecondVerseLyrics = ##t
-
 \include "../Core/Someday My Prince Will Come - Ly Core - Bb.ly"
 
 %{
