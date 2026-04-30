@@ -43,7 +43,8 @@ codaRaggedRight =
       \codaMelody
       } }
       #} )
-    $(if (and (defined? 'codaLyrics) codaLyrics)
+    $(if (and (not (and (defined? 'hideLyrics) hideLyrics))
+	  (defined? 'codaLyrics) codaLyrics)
        #{
     \new Lyrics \lyricsto "voiceMelody"
     {

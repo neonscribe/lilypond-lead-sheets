@@ -1,11 +1,5 @@
 %% -*- Mode: LilyPond -*-
 
-%{
-
-"Customizer": { "toggles": [ "hideLyrics" ] }
-
-%}
-
 \include "../Include/lead-sheets.ily"
 
 subtitle =
@@ -24,7 +18,7 @@ subtitle =
   copyright = \markup \small { \now " " "© 1944 Regent Music Corporation" }
 }
 
-refrainLyricsOne =  \lyricmode {
+refrainLyrics =  \lyricmode {
     "You're" talk -- "in'" so "sweet," well you need -- "n't." You say
     you "won't" "cheat," well you need -- "n't." "You're" tap -- "pin'"
     your "feet," well you need -- "n't." "It's" o -- ver "now," "it's" o
@@ -134,10 +128,5 @@ refrainMelody = \relative f' {
   % Leave a gap after the header
   \vspace #1
 }
-
-refrainLyrics = ##f
-
-#(if (not (and (defined? 'hideLyrics) hideLyrics))
-  (set! refrainLyrics refrainLyricsOne))
 
 \include  "../Include/refrain.ily"

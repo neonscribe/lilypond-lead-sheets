@@ -2,8 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "hideLyrics" ],
-                "choices": { "alternateChords": [ "hlrb", "billevans" ] } }
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "billevans" ] } }
 
 %}
 
@@ -34,10 +33,7 @@ TempoBPM =
   copyright = \markup \small { \now " " "© 1938 Chappell & Co." }
 }
 
-refrainLyrics =
-   $(if (and (defined? 'hideLyrics) hideLyrics)
-     #{ \lyricmode { } #}
-     #{ \lyricmode {
+refrainLyrics = \lyricmode {
 Spring is here, why does -- n't my heart go danc -- ing?
 Spring is here, whi is -- n't the waltz en -- tranc -- ing?
 No de -- sire, __ _ no am -- bi -- tion leads me,
@@ -46,7 +42,7 @@ Spring is here, why does -- n't the breeze de -- light me?
 Stars ap -- pear, why does -- n't the night in -- vite me?
 May -- be it's be -- cause no -- bod -- y loves me,
 Spring is here, I hear.
-} #} )
+}
 
 refrainHLChords = \chordmode {
   af4:dim \chordSlash 2 af4 af1:6 af1:dim af1:6

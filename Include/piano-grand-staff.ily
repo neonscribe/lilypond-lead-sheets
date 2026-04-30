@@ -70,7 +70,8 @@ emphasize = {
       \refrainMelody
       } }
       #} )
-    $(if (and (defined? 'refrainLyrics) refrainLyrics)
+    $(if (and (not (and (defined? 'hideLyrics) hideLyrics))
+	  (defined? 'refrainLyrics) refrainLyrics)
       (if (and (defined? 'refrainLyricsTwo) refrainLyricsTwo)
        #{
    \new Lyrics = "lyrics" {

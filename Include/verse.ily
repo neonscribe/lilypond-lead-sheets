@@ -73,7 +73,8 @@
       \verseMelody
       } }
       #} )
-    $(if (and (defined? 'verseLyrics) verseLyrics)
+    $(if (and (not (and (defined? 'hideLyrics) hideLyrics))
+	  (defined? 'verseLyrics) verseLyrics)
       (if (and (defined? 'verseLyricsTwo) verseLyricsTwo)
        #{
    \new Lyrics = "lyrics" {

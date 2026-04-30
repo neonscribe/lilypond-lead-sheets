@@ -203,6 +203,8 @@ codaMelody = \relative f' {
   \bold
   {
     \vspace #2
+    \line { \large { Verse 1 } }
+    \vspace #3
     \line { \large { Verse 2 } }
     \vspace #3
     \line { \large { Verse 3 } }
@@ -214,6 +216,10 @@ codaMelody = \relative f' {
   \column 
   {
     \vspace #2
+    \line { \large { Money, ya get away. Ya get a good job with more pay, and you're O.K. } }
+    \line { \large { Money, it's a gas. Grab that cash with both hands and make a stash. } }
+    \line { \large { New car, caviar, fourstar daydream. Think I'll buy me a football team. } }
+    \vspace #1
     \line { \large { Money, you get back. I'm all right, Jack. Keep your hands off of my stack. } }
     \line { \large { Money, it's a hit. But don't give me that do goody-good bullshit. } }
     \line { \large { I'm in the hi-fidelity first class travelling set, and I think I need a Learjet. } }

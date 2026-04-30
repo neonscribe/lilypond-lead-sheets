@@ -2,8 +2,7 @@
 
 %{
 
-"Customizer": { "toggles": [ "hideLyrics" ],
-                "choices": { "singerGender": [ "female", "male" ] } }
+"Customizer": { "choices": { "singerGender": [ "female", "male" ] } }
 
 %}
 
@@ -49,11 +48,9 @@ some -- day when my dreams come true. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'hideLyrics) hideLyrics)
-  #f
-  (if (and (defined? 'singerGender) (equal? singerGender "male"))
+#(if (and (defined? 'singerGender) (equal? singerGender "male"))
    refrainObjectGenderFemaleLyrics
-   refrainObjectGenderMaleLyrics))
+   refrainObjectGenderMaleLyrics)
 
 refrainChords = \chordmode {
   bf2.:maj7 d2.:7.5+ ef2.:maj7 g2.:7.5+

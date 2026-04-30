@@ -58,9 +58,6 @@
         ]
     }
 },{
-    "toggles": [
-        "hideLyrics"
-    ],
     "choices": {
         "alternateChords": [
             "hlrb",
@@ -113,14 +110,6 @@
         ]
     }
 },{
-    "toggles": [
-        "hideLyrics"
-    ]
-},{
-    "toggles": [
-        "hideLyrics"
-    ]
-},{
     "choices": {
         "alternateChords": [
             "hlrb",
@@ -144,9 +133,6 @@
         ]
     }
 },{
-    "toggles": [
-        "hideLyrics"
-    ],
     "choices": {
         "singerGender": [
             "female",
@@ -321,10 +307,6 @@
             "female"
         ]
     }
-},{
-    "toggles": [
-        "hideLyrics"
-    ]
 },{
     "choices": {
         "alternateChords": [

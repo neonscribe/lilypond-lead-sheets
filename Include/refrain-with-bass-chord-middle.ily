@@ -28,7 +28,8 @@
 	}
       }
       }
-    $(if (and (defined? 'refrainLyrics) refrainLyrics)
+    $(if (and (not (and (defined? 'hideLyrics) hideLyrics))
+	  (defined? 'refrainLyrics) refrainLyrics)
       #{ 
     \new Lyrics \lyricsto "voiceMelody"
     {
@@ -83,7 +84,8 @@
       \refrainMelody
       } }
       #} )
-    $(if (and (defined? 'refrainLyrics) refrainLyrics)
+    $(if (and (not (and (defined? 'hideLyrics) hideLyrics))
+	  (defined? 'refrainLyrics) refrainLyrics)
       #{ 
     \new Lyrics \lyricsto "voiceMelody"
     {

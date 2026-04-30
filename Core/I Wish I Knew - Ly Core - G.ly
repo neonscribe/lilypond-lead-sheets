@@ -1,11 +1,5 @@
 %% -*- Mode: LilyPond -*-
 
-%{
-
-"Customizer": { "toggles": [ "hideLyrics" ] }
-
-%}
-
 \include "../Include/lead-sheets.ily"
 
 % #(set-global-staff-size 18)
@@ -23,10 +17,7 @@ subtitle =
   copyright = \markup \small { \now " " "© 1945 Twentieth Century Music Corporation" }
 }
 
-refrainLyrics =
-   $(if (and (defined? 'hideLyrics) hideLyrics)
-     #{ \lyricmode { } #}
-     #{ \lyricmode {
+refrainLyrics = \lyricmode {
 I wish I knew some -- one like you could love me.
 I wish I knew you placed no -- one a -- bove me.
 
@@ -38,7 +29,7 @@ Don't lead me on, if I'm a fool just say so.
 
 Should I keep dream -- ing on, or just for -- get you?
 What shall I do? I wish I knew.
-} #} )
+}
 
 refrainHLChords = \chordmode {
   a1:m9 d1:13 a1:m9 d1:7
