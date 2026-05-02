@@ -25,7 +25,7 @@ Well, here comes trou -- ble that I nev -- er thought I'd see when you went a --
 
 Hel -- lo, trou -- ble, come on in.
 You talk a -- bout heart -- aches, __ where'n the world you been? __
-I ain't had the mid -- 'ries since you been gone.
+I ain't had the mis -- 'ries since you been gone.
 Hel -- lo trou -- ble, trou -- ble, trou -- ble, wel -- come home.
 
 (We'll make a pot of)
