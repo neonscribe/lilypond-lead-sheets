@@ -234,6 +234,7 @@ jazzChordsMusic =
 
 	     
 	%% minor
+	<c ees g d'>-\markup{ \jcMinor \jcRaise{ "(ADD 9)" }}
 	<c ees g bes d'>-\markup{ \jcMinorNinth }
 	<c ees ges bes d'>-\markup{ \jcMinorNinth \jcFlatFive}
 	<c ees g bes des'>-\markup{ \jcMinor \jcFlatNinth }

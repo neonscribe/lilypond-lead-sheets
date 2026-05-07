@@ -18,7 +18,7 @@ subtitle =
 }
 
 refrainLyrics = \lyricmode {
-Once I had a sec -- ret love __ that loved with -- in the heart of me. __
+Once I had a sec -- ret love __ that lived with -- in the heart of me. __
 All too soon my sec -- ret love __ be -- came im -- pa -- tient to be free. __
 So I told a friend -- ly star, __ the way that dream -- ers oft -- en do, __
 just how won -- der -- ful you are __ and why I'm so in love with you. __

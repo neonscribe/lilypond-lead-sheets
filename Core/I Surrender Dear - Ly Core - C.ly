@@ -38,7 +38,7 @@ refrainChords = \chordmode {
   c2 a2:m d1:9 d2:m g4:7 g4:aug c1
 
   e1:7 f4 \chordSlash 2 a4:m e1:7 f4 \chordSlash 2 a4:m
-  e1:7 f4 \chordSlash 2 a4:m d1:9 g4:9 d4:m7.5- g2:7
+  e1:7 f4 \chordSlash 2 a4:m d1:9 g4:9 d4:m7.5- g4:7 \chordSlash 1
 
   d1:m e2:m7.5- a2:7.9- d2:m e2:7 a2:m d2:9
   c2 a2:m d1:9 d2:m g4:7 g4:aug c1
