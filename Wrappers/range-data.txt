@@ -9723,6 +9723,41 @@ refrain
 b
 cis''
 
+Hickory Wind - Ly - D Alto Voice.ly
+refrain
+g
+b'
+
+Hickory Wind - Ly - F Bass for Standard.ly
+refrain
+bes,
+d'
+
+Hickory Wind - Ly - F Standard for Viola.ly
+refrain
+bes
+d''
+
+Hickory Wind - Ly - F Standard.ly
+refrain
+bes
+d''
+
+Hickory Wind - Ly - F to D for Eb for Standard.ly
+refrain
+g'
+b''
+
+Hickory Wind - Ly - F to G for Bb for Standard.ly
+refrain
+c'
+e''
+
+Hickory Wind - Ly - G Baritone Voice.ly
+refrain
+c'
+e''
+
 Hit That Jive Jack - Ly - Bb Alto Voice.ly
 refrain
 f
@@ -28371,6 +28406,36 @@ West Coast Blues - Ly - G Standard.ly
 refrain
 c'
 e''
+
+What Am I Here For - Ly - Bb Bass for Standard.ly
+refrain
+a,
+b
+
+What Am I Here For - Ly - Bb Sher Chords.ly
+refrain
+a
+b'
+
+What Am I Here For - Ly - Bb Standard for Viola.ly
+refrain
+a
+b'
+
+What Am I Here For - Ly - Bb Standard.ly
+refrain
+a
+b'
+
+What Am I Here For - Ly - Bb to C for Bb for Standard.ly
+refrain
+b
+cis''
+
+What Am I Here For - Ly - Bb to G for Eb for Standard.ly
+refrain
+fis'
+gis''
 
 What Is This Thing Called Love - Ly - C Bass for Standard.ly
 refrain
