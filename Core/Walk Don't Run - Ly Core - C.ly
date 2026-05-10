@@ -8,14 +8,35 @@ subtitle =
   "Standard Key")
 
 \header {
-  title =  "Walk, Don't Run"
-  subtitle = "as recorded by The Ventures"
-  subsubtitle = \subtitle
+  title =  "Walk, Don't Run (as recorded by The Ventures)"
+  subtitle = \subtitle
   copyright = \markup \small { \now " "  "© 1960 Peermusic Ltd. and Mesa Verde Music Co." }
   composer =  "Johnny Smith"
 }
 
 straightEighths = ##t
+
+refrainChords =  \chordmode {
+  s1*3
+  
+  a2 g2 f8*3 e8*5 a2 g2 f8*3 e8*5
+
+  a2 g2 f2 e2 a2 g2 f1
+  c1 g1 c8*7 e8*9
+  
+  a2 g2 f2 e2 a2 g2 f1
+  c1 g1 c2 f8*3 c8*9
+  
+  c1 c1 a1:m a1:m
+  f1 e1 a1:m a1:m
+  
+  a2 g2 f2 e2 a2 g2 f1
+  c1 
+  
+  g1 c2 f2 c2 g2 c8 r8*7
+  
+  g1 c2 f2 c1
+}
 
 refrainKey = c
 
@@ -34,155 +55,95 @@ refrainMelody =  \relative a' {
   \time 4/4
   \key \refrainKey \major
   \tempoFour "Straight Eights [The Ventures 1960]" 150
-  a8  a8  a8 r8  g8 
-    g8  g8 r8 | % 2
-     f8  f8  f8  e8 ~  e8 r8 r4 | % 3
-     a8  a8  a8 r8  g8  g8  g8
-    r8 | % 4
-     f8  f8  f8  e8 ~  e8 r8 r4 \bar
-    "||"
-    \break
-    \repeat volta 2 {
-        | % 5
 
-        \sectNoBar "A1"
+  \bar ".|:"
+  \repeat volta 2 {
 
-	a8  a,8  b8
-         c4  d8  e8  f8 ~ | % 6
-         f8  g8  a8  c8 ~  c4
-         b4 | % 7
-         a8  a,8  b8  c4  d8 
-        e8  f8 ~ | % 8
-         f8  g8  a8  g8 ~  g4 
-        f4 | % 9
-         e8  ds8  e8  e8 ~  e2 ~ |
-        \barNumberCheck #10
-         e8  d8  e8  f8  e4  d4
-        | % 11
-         c4 \times 2/3 {
-             d8  e8  d8 }
-         c8  d4  e8 | % 12
-        r8  gs8  gs8  gs8  gs8 
-        gs8  b,8  a8
+  \sectStart "Intro"
 
-	\sect "A2"
+  \override MultiMeasureRest.expand-limit = 2
+  \compressMMRests { R1*3_"(Drums)" }
 
-	a'8  a,8  b8
-         c4  d8  e8  f8 ~ | % 14
-         f8  g8  a8  c8 ~  c4
-         b4 | % 15
-         a8  a,8  b8  c4  d8 
-        e8  f8 ~ | % 16
-         f8  g8  a8  g8 ~  g4 
-        f4 | % 17
-         e8  ds8  e8  e8 ~  e2 ~ | % 18
-         e8  d8  e8  f8  e4  d4
-        | % 19
-         c4 \times 2/3 {
-             d8  e8  d8 }
-         c8  d4  c8 ~ | \barNumberCheck #20
-         c8  g8  a8  b8  c8  d8
-         e8  f8
+  r1 | r1 | r1 | r2 r8 e4 a8~ |
+  
+  \sect "A1"
+  
+  a8 a,8 b8 c8~ c8 d8 e8 f8~ | f8 g8 a8 
+  \once \override TrillSpanner.bound-details.left.text = ##f
+  c8~\startTrillSpan c4 b4\stopTrillSpan |
+  a8 a,8 b8 c8~ c8 d8 e8 <f a>8~ | <f a>8 <g b>8 <a c>4 <g b>4 <f a>4 |
 
-	\sect "B"
+  e8 ds8 r8
+  \once \override TrillSpanner.bound-details.left.text = ##f
+  <e g>8~\startTrillSpan <e g>2 | r8\stopTrillSpan d8 e8 f8 e4 d4 |
+  c4 \tuplet 3/2 { d8 e8 d8 } c8 d8 r8 <e gs>8 | r8 <e gs>8 <e gs>8 <e gs>8 <e gs>8 <e gs>8 b8 a8 |
 
-	g8 [  fs8  g8
-         g8 ]  g2 | % 22
-        r8  g8 r8  g8  g8  g8  g8
-         g8 | % 23
-         e8  a8 r8  e8  a2 | % 24
-         c4  b8 [  c8 ~ ]  c2 | % 25
-	\break
-         c8  a8  f8  c'4  a8
-         f4 | % 26
-         b8  gs8  e8  b'4  gs8
-         e4 | % 27
-         c'2 ~  c4.  e,8 ~ | % 28
-         e4  d4  c4  b4 | % 29
+  \sect "A2"
+  
+  a'8 a,8 b8 c8~ c8 d8 e8 f8~ | f8 g8 a8 
+  \once \override TrillSpanner.bound-details.left.text = ##f
+  c8~\startTrillSpan c4 b4\stopTrillSpan |
+  a8 a,8 b8 c8~ c8 d8 e8 f8~ | f8 g8 <a c>8 <g b>8~ <g b>4 <f a>4 |
 
-	\sect "A3"
+  e8 ds8 r8
+  \once \override TrillSpanner.bound-details.left.text = ##f
+  <e g>8~\startTrillSpan <e g>2 | r8\stopTrillSpan d8 e8 f8 e4 d4 |
+  c4 \tuplet 3/2 { d8 e8 d8 } c8 d4 c8~ | c8 g8 a8 b8 c8 d8 e8 f8 |
+  \bar "||"
+  
+  \xPageBreak
 
-	a'8  a,8  b8
-         c4  d8  e8  f8 ~ | \barNumberCheck
-        #30
-         f8  g8  a8  c8 ~  c4
-         b4 | % 31
-         a8  a,8  b8  c4  d8 
-        e8  f8 ~ | % 32
-         f8  g8  a8  g8 ~  g4 
-        f4 | % 33
-         e8  ds8  e8  e8 ~  e2 ~ 
-	\break
-      }
-    \alternative { {
-            | % 34
-             e8  d8  e8  f8  e4
-             d4 | % 35
-             c4 \times 2/3 {
-                 d8  e8  d8 }
-             c2 | % 36
-            r8  c8 r4  d'4  d4 | % 37
-             c8 r8 r4 r2 }
-        {
-            | % 38
-            r8  d,8 [  e8  f8 ]  e4 
-            d4 }
-        } | % 39
-     c'4  c4  f4  f4 |
-    \barNumberCheck #40
-    r8  c'8 [  b8  c8 ~ ]  c2
-    \bar "|."
-    }
+  \sectNoBar "B"
+  
+  g8( fs8 g8)
+  \once \override TrillSpanner.bound-details.left.text = ##f
+  g8~\startTrillSpan g2 |
+  r8\stopTrillSpan <g c>8 r8 <g c>8 <g c>8 <g c>8 <g c>8 <g c>8 |
+  e8 <a c>8 r8 e8 <a c>2 | <a c>4( <gs b>8 
+  \once \override TrillSpanner.bound-details.left.text = ##f
+  <a c>8~\startTrillSpan <a c>2) |
+  \break
+  a8\stopTrillSpan f8 c8 a'8~ a8 f8 c4 | b'8 gs8 e8 b'8~ b8 gs8 e4 |
+  \once \override TrillSpanner.bound-details.left.text = ##f
+  <a c>2~\startTrillSpan <a c>4. e8~\stopTrillSpan | e4 d4 c4 b4 |
 
-refrainChords =  \chordmode {
-    \repeat volta 2 {
-        | % 1
-        a8 s8 s8 s8 g8 s8 s8 s8 | % 2
-        f8 s8 s8 s8 e8 s8 s4 | % 3
-        a8 s8 s8 s8 g8 s8 s8 s8 | % 4
-        f8 s8 s8 e8 s8 s8 s4 \bar "|."
-        a8 s8 s8 g4 s8 s8 s8 | % 6
-        f8 s8 s8 s8 e4 s4 | % 7
-        a8 s8 s8 g4 s8 s8 s8 | % 8
-        f8 s8 s8 s8 s4 s4 | % 9
-        c8 s8 s8 s8 s2 | \barNumberCheck #10
-        g8 s8 s8 s8 s4 s4 | % 11
-        c4 s1*1/12 s1*1/12 s1*1/12 s8 s4 e8 | % 12
-        s8 s8 s8 s8 s8 s8 s8 s8 \bar "|."
-        a8 s8 s8 g4 s8 s8 s8 | % 14
-        f8 s8 s8 s8 e4 s4 | % 15
-        a8 s8 s8 g4 s8 s8 s8 | % 16
-        f8 s8 s8 s8 s4 s4 | % 17
-        c8 s8 s8 s8 s2 | % 18
-        g8 s8 s8 s8 s4 s4 | % 19
-        c4 s1*1/12 s1*1/12 s1*1/12 f8 s4 s8 | \barNumberCheck #20
-        c8 s8 s8 s8 s8 s8 s8 s8 \bar "|."
-        c8 s8 s8 s8 s2 | % 22
-        s8 s8 s8 s8 s8 s8 s8 s8 | % 23
-        a8:m s8 s8 s8 s2 | % 24
-        s4 s8 s8 s2 | % 25
-        f8 s8 s8 s4 s8 s4 | % 26
-        e8 s8 s8 s4 s8 s4 | % 27
-        a2:m s4. s8 | % 28
-        e4 s4 s4 s4 | % 29
-        a8 s8 s8 s4 g8 s8 s8 | \barNumberCheck #30
-        f8 s8 s8 s8 e4 s4 | % 31
-        a8 s8 s8 s4 g8 s8 s8 | % 32
-        f8 s8 s8 s8 s4 s4 | % 33
-        c8 s8 s8 s8 s2 }
-    \alternative { {
-            | % 34
-            g8 s8 s8 s8 s4 s4 | % 35
-            c4 s1*1/12 s1*1/12 s1*1/12 f2 | % 36
-            c8 s8 s4 g4 s4 | % 37
-            c8 s8 s4 s2 }
-        {
-            | % 38
-            g8 s8 s8 s8 s4 s4 }
-        } | % 39
-    c4 s4 f4 s4 | \barNumberCheck #40
-    c8 s8 s8 s8 s2 \bar "|."
-    }
+  \sect "A3"
+  
+  a'8 a,8 b8 c8~ c8 d8 e8 f8~ | f8 g8 a8 
+  \once \override TrillSpanner.bound-details.left.text = ##f
+  c8~\startTrillSpan c4 b4\stopTrillSpan |
+  a8 a,8 b8 c8~ c8 d8 e8 <f a>8~ | <f a>8 <g b>8 <a c>4 <g b>4 <f a>4 |
+
+  e8 ds8 r8
+  \once \override TrillSpanner.bound-details.left.text = ##f
+  <e g>8~\startTrillSpan <e g>2 |
+  
+  \break
+
+  \alternative { \volta 1 {
+
+  r8\stopTrillSpan d8 e8 f8 e4 d4 |
+  c4 \tuplet 3/2 { d8 e8 d8 } c2 | r8 <e g c>8 r4 <g b d>4 <g b d>4 |
+  
+  <e g c>8 r8 r4 r2 |
+  
+  \break
+
+  } \volta 2 {
+
+  r8 d8 e8 f8 e4 d4 |
+  <e g c>4-. <e g c>4-. <a c f>4-. <a c f>4 |
+  r8 <c e g c>8( <b ds fs b>8 <c e g c>8~ <c e g c>2) |
+  } } }
+  \bar "|."
+}
+
+refrainKicksOverTime = \relative f' {
+  s1*3
+  
+  a8 a8 a8 r8 g8 g8 g8 r8 | f8 f8 f8 e8~ e8 r8 r4 |
+  a8 a8 a8 r8 g8 g8 g8 r8 | f8 f8 f8 e8~ e8 r8 r4 |
+}
 
 \include "../Include/paper.ily"
 
