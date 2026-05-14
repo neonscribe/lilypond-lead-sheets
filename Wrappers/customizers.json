@@ -318,6 +318,18 @@
     "choices": {
         "alternateChords": [
             "hlrb",
+            "newreal",
+            "newrealalt"
+        ],
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
             "simple",
             "vanilla",
             "gilevans",

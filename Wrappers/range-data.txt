@@ -10881,6 +10881,51 @@ refrain
 d'
 g''
 
+I Get Along Without You Very Well - Ly - Bb Bass for Standard.ly
+refrain
+bes,
+d'
+
+I Get Along Without You Very Well - Ly - Bb Standard for Viola.ly
+refrain
+bes
+d''
+
+I Get Along Without You Very Well - Ly - Bb Standard.ly
+refrain
+bes
+d''
+
+I Get Along Without You Very Well - Ly - Bb to C for Bb for Standard.ly
+refrain
+c'
+e''
+
+I Get Along Without You Very Well - Ly - Bb to G for Eb for Standard.ly
+refrain
+g'
+b''
+
+I Get Along Without You Very Well - Ly - D Alto Voice.ly
+refrain
+d
+fis'
+
+I Get Along Without You Very Well - Ly - Db Alto Voice.ly
+refrain
+des
+f'
+
+I Get Along Without You Very Well - Ly - Eb Alto Voice.ly
+refrain
+ees
+g'
+
+I Get Along Without You Very Well - Ly - F Alto Voice.ly
+refrain
+f
+a'
+
 I Get the Blues When It Rains - Ly - Bb Alto Voice.ly
 refrain
 f
@@ -16739,6 +16784,41 @@ Lucky Southern - Ly - D to E for Bb for Standard.ly
 refrain
 b
 d''
+
+Lucky to Be Me - Ly - Bb Alto Voice.ly
+refrain
+ees
+a'
+
+Lucky to Be Me - Ly - C Alto Voice.ly
+refrain
+f
+b'
+
+Lucky to Be Me - Ly - F Bass for Standard.ly
+refrain
+bes,
+e'
+
+Lucky to Be Me - Ly - F Standard for Viola.ly
+refrain
+bes,
+e'
+
+Lucky to Be Me - Ly - F Standard.ly
+refrain
+bes
+e''
+
+Lucky to Be Me - Ly - F to D for Eb for Standard.ly
+refrain
+g'
+cis'''
+
+Lucky to Be Me - Ly - F to G for Bb for Standard.ly
+refrain
+c'
+fis''
 
 Lucy in the Sky With Diamonds - Ly - A Bass for Standard.ly
 refrain
@@ -28436,6 +28516,41 @@ What Am I Here For - Ly - Bb to G for Eb for Standard.ly
 refrain
 fis'
 gis''
+
+What Is There to Say - Ly - Ab Alto Voice.ly
+refrain
+ees
+aes'
+
+What Is There to Say - Ly - Bb Alto Voice.ly
+refrain
+f
+bes'
+
+What Is There to Say - Ly - Eb Bass for Standard.ly
+refrain
+bes,
+ees'
+
+What Is There to Say - Ly - Eb Standard for Viola.ly
+refrain
+bes
+ees''
+
+What Is There to Say - Ly - Eb Standard.ly
+refrain
+bes
+ees''
+
+What Is There to Say - Ly - Eb to C for Eb for Standard.ly
+refrain
+g'
+c'''
+
+What Is There to Say - Ly - Eb to F for Bb for Standard.ly
+refrain
+c'
+f''
 
 What Is This Thing Called Love - Ly - C Bass for Standard.ly
 refrain

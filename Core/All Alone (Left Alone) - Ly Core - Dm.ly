@@ -7,7 +7,7 @@ subtitle =
   subtitle
   "Standard Key")
 
-% #(set-global-staff-size 18)
+#(set-global-staff-size 18)
 
 \header {
   title = "All Alone (Left Alone)"
@@ -45,10 +45,12 @@ refrainChords = \chordmode {
   
   e2:m7.5- a2:7 e2:m7.5- a2:7.9-
 
+  d2:m7 e4:m7.5- a4:7.9+ f2:7 bf2:maj7 g2:m7 e4:m7.5- a4:7.9+ bf2:maj7 bf2:7
+  e2:m7.5- f2:7 bf1:maj7
+  
   e2:m7.5- a2:7 d1:m7
   
   g2:m7 c2:7 f2:maj7 d2:m7 g2:m7 c2:7 e2:m7.5- a2:7
-  d2:m7 e4:m7.5- a4:7.9+ f2:7 bf2:maj7 g2:m7 e4:m7.5- a4:7.9+ bf2:maj7 bf2:7
 
   d2:m7 e4:m7.5- a4:7.9+ f2:7 bf2:maj7 g2:m7 e4:m7.5- a4:7.9+ bf2:maj7 bf2:7
   e2:m7.5- f2:7 bf1:maj7
@@ -79,7 +81,7 @@ refrainMelody = \relative f' {
 
   \partial 4 d8 d'8 |
 
-  \sectStart "A1"
+  \sectNoBreak "A1"
   
   a4. f8 g8 f8 d8 c8 | d2. d8 d'8 | a4. f8 g8 f8 d8 c8 | d2. d8 f8 | 
   g8 a4.~ a4 c8 a8 | g8 f4. r8 a8 g8 d8 | e2. f8 d8 | e2 r4 d8 d'8 |
