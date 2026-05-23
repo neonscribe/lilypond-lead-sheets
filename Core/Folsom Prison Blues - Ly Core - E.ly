@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -30,14 +25,14 @@ When
 refrainChords = \chordmode {
   s2.
   b1:7 b1:7 e1 e1
-  
+
   e1 e1 e1 e1
   e1 e1 e1 e1
   a1 a1 a1 a1
   e1 e1 e1 e1
   b1:7 b1:7 b1:7 b1:7
   e1
-  
+
   e1
 
   e1
@@ -47,15 +42,7 @@ refrainChords = \chordmode {
 
 refrainKey = e
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -63,17 +50,17 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Fast [Johnny Cash 1955]" 200
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
   \ambitusOff
   \partial 2. b,4 b4 b4 |
   \bar "||"
   ds2 ds2 | b2 g2 | e2 r2 | r2 r4
   \ambitusOn
   gs'4 |
-  
+
   \sectNoBar "Verse"
-  
+
   \bar ".|:-||"
   \repeat volta 4 {
   gs4 gs4 a4 b4 | e,8 e4. r4 gs4 | gs4 gs4 a4 b8 e,8~ | e2 r4 gs4 |
@@ -102,17 +89,12 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -132,7 +114,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #4
    \line { \large { I hear the train a-comin', it's rolling 'round the bend, } }

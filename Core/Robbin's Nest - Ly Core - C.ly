@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -17,34 +12,28 @@ subtitle =
   copyright = \markup \small { \now " " "© 1947 Atlantic Music Corp." }
 }
 
+leadingEighth = ##t
+
 refrainChords = \chordmode {
-  s2
-  
+  s4.
+
   c1:6 c1:6 af1:7 af1:7
   e2:m7 ef2:dim7 d2:m7 g2:7
-  
+
   c2:6 ef2:dim7 d2:m7 g2:7
-  
+
   c1:6 df2:6 c2:6
-  
+
   e1:7 e1:7 a1:7 a1:7
   d1:7 d1:7 g1:7 d2:m7 g2:7
-  
+
   c1:6 c1:6 af1:7 af1:7
   e2:m7 ef2:dim7 d2:m7 g2:7 c1:6 df2:6 c2:6
 }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -52,10 +41,10 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Swing [Ella Fitzgerald 1947]" 112
 
-  \partial 2 \invisEighth ds8 \tuplet 3/2 { e8 g8 b8 } |
+  \partial 4. ds8 \tuplet 3/2 { e8 g8 b8 } |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   d8 c8 g8 e8 d'8 c4.~ | c2 r8 b,8 \tuplet 3/2 { c8 e8 g8 } |
@@ -69,13 +58,13 @@ refrainMelody = \relative f' {
   c,1\repeatTie | r2 r4 e4 |
   } } }
   \sect "B"
-  
+
   f8 e8 ds8 e8 b'2 | r2 r8 e,8 g8 a8 | bf4. a8~ a2 | r2 r4 c8 d8 |
   \break
   ef8 d8 c8 d8~ d2 | r2 r4 c8 d8 | ef4. d8~ d4 r4 | r2 r8 ds,8 \tuplet 3/2 { e8 g8 b8 } |
 
   \sect "A3"
-  
+
   d8 c8 g8 e8 d'8 c4.~ | c2 r8 b,8 \tuplet 3/2 { c8 e8 g8 } |
   bf8 af8 ef8 c8 bf'8 af4.~ | af2. r8 g8~ |
   \break
@@ -86,12 +75,9 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
+
+\pageBreak
 
 \markup {
   \column {

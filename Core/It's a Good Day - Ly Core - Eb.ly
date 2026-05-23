@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -34,7 +29,7 @@ So take a deep breath __ and throw a -- way your pills, 'cause it's a good day f
 
 refrainChords = \chordmode {
   s2.
-  
+
   ef1:6 f1:m7 g1:m7 c1:m7 f1:m7 bf1:7 ef1:6 ef2:6 bf2:7.5+
   ef1:6 f1:m7 g1:m7 c1:m7 f1:m7 bf1:7 ef1:6 bf1:7.5+
 
@@ -52,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,8 +58,8 @@ refrainMelody = \relative f' {
   \partial 2. bf,4 c4 ef4 |
   \bar "||"
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   g2 g2~ | g2. fs4 | g4 f4 ef4 g4~ | g4 ef4 f4 ef4 |
   \break
   f2 f2~ | f2. ef4 | g4 ef4 c4 ef4~ | ef4 bf'4 c4 bf4 |
@@ -80,7 +67,7 @@ refrainMelody = \relative f' {
   c4 g2.~ | g4 g2 fs4 | g4 f4 ef4 c4 | ef2. c4 |
   \break
   f4 f2 ef4 | f4 ef4 c4 ef4~ | ef1 | r4 bf'4 c4 bf4 |
-  
+
   \sect "A2"
 
   c2. c4~( | c4 g2) fs4 | g4 bf4 c4 g4~ | g4 ef4 f4 ef4 |
@@ -90,23 +77,20 @@ refrainMelody = \relative f' {
   c'4 bf4 c4 bf4 | g2. fs4 | g4 bf4 c4 g4~ | g4 ef4 f4 ef4 |
   \break
   f4 f2 ef4 | f4 ef4 c4 ef4~ | ef1~ | ef2. ef4 |
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "B"
 
-  \sectNoBar "B"
-  
   f4 ef4 gf4 f4~ | f2. ef4 | ef'2 c2 | gf4( f2.) |
   \break
   r4 f2 ef4 | f2 ef4 f4~ | f1 | r4 bf4 c4 bf4 |
   \break
-  c4 bf4 c2 | c4 bf4 c4 bf4 | c4 bf4 c4 bf4 | c4 bf2. | 
+  c4 bf4 c2 | c4 bf4 c4 bf4 | c4 bf4 c4 bf4 | c4 bf2. |
   \break
   c4 bf4 c4 bf4 | c4 bf4 df4 c4 | bf1 | r4 bf4 c4 bf4 |
-  
+
   \sect "A3"
-  
-  c4 g2.~ | g2. fs4 | g4 bf4 c4 g4~ | g4 ef4 f4 ef4 | 
+
+  c4 g2.~ | g2. fs4 | g4 bf4 c4 g4~ | g4 ef4 f4 ef4 |
   \break
   f2 f2~ | f2. ef4 | g4 ef4 c4 ef4~ | ef4 bf'4 c4 bf4 |
   \break
@@ -118,10 +102,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

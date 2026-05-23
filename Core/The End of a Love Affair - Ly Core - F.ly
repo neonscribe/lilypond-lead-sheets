@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -49,13 +44,13 @@ at the end of a love af -- fair? __
 
 refrainChords = \chordmode {
   s4
-  
+
   g2:m7 c2:7 f1:maj7 f2:m7 bf2:7 ef1:maj7
   ef2:m7 af2:7 ef2:m7 af2:7 df2:maj7 c2:7 f2:maj7 d2:m7
 
   g2:m7 c2:7 f1:maj7 f2:m7 bf2:7 ef1:maj7
   ef2:m7 af2:7 ef2:m7 af2:7 df2:maj7 c2:7 f1:maj7
-  
+
   d2:m7 g2:7 d2:m7 g2:7 d2:m7 g2:7 d2:m7 g2:7
   c1:maj7 a2:m7 d2:7 d2:m7 g2:7 g2:m7 c2:7
 
@@ -68,15 +63,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -87,8 +74,8 @@ refrainMelody = \relative f' {
   \partial 4 f8 g8 |
   \bar "||"
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   a4. a8 \tuplet 3/2 { a4 g4 f4 } | e2 r4 d8 c8 | g'4. g8 \tuplet 3/2 { g4 f4 ef4 } | d2 r4 c8 bf8 |
   \break
   f'4 f8 f8 f4 af8 bf8 | f4 f8 f8 f4 ef8 df8 | c4 c8 bf8 c4. c8 | c2 r4 f8 g8 |
@@ -100,21 +87,19 @@ refrainMelody = \relative f' {
   f'4 f8 f8 f4 af8 bf8 | f4 f8 f8 f4 ef8 df8 | c4 c8 bf8 c4. c8 | c2 r4 d8 e8 |
 
   \sect "B"
-  
+
   f4 d8 f8 a4 f8 d8 | f4 f2 d8 e8 | f4 d8 f8 a4 f8 d8 | f2 r4 e8 f8 |
   \break
   g4 e8 g8 b4 a8 g8 | a4 b8 c8 d4. d8 | d1~ | d2 r4 f,8 g8 |
-  \bar "||"
-  
-  \xPageBreak
-  \sectNoBarNoBreak "A3"
+
+  \sectPageBreak "A3"
 
   a4. a8 \tuplet 3/2 { a4 g4 f4 } | e2 r4 d8 c8 | g'4. g8 \tuplet 3/2 { g4 f4 ef4 } | d2 r4 c8 bf8 |
   \break
   f'4 f8 f8 f4 af8 bf8 | f4 f8 f8 f4 ef8 df8 | c4 c8 bf8 c4. c8 | c'2 r4 bf8 a8 |
 
   \sect "C"
-  
+
   a4 a8 g8 \tuplet 3/2 { a4 a4 g4 } | bf2 r8 a8 g8 g8 | e4 e8 d8 e4 e8 d8 | g2 r4 f8 e8 |
   \break
   d4 d8 c8 d4 d8 c8 | d4 f8 bf8 d4. e8 | f,1~ | f2 r2 |
@@ -123,10 +108,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

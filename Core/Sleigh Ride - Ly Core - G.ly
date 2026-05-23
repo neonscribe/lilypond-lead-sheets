@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Sleigh Ride"
   subtitle = \subtitle
@@ -28,7 +23,7 @@ refrainLyrics = \lyricmode {
   We're rid -- ing in a won -- der -- land of snow.
   Gid -- dy -- yap, gid -- dy -- yap, gid -- dy -- yap, it's grand, just hold -- ing your hand.
   We're glid -- ing a -- long with a song of a win -- ter -- y fair -- y -- land.
-  
+
   Our cheeks are nice and ros -- y and com -- fy co -- zy are we.
   We're snug -- gled up to -- geth -- er like two birds of a feath -- er would be.
   Let's take that _
@@ -62,10 +57,10 @@ refrainLyricsTwo = \lyricmode {
 
 refrainChords = \chordmode {
   s2.
-  
+
   g2:maj7 e2:m7 a2:m7 d4:7 d4:7/c b2:m7 e2:7.9- a2:m7 d4:7 d4:7.9-
   g2:maj7 e2:m7 a2:m7 d2:7
-  
+
   g2:6 e2:m7 a2:m7 af2:9.11-
 
   g4:6 c4/g g2 c4/g g2.
@@ -79,31 +74,23 @@ refrainChords = \chordmode {
   g2:maj7 e2:m7 a2:m7 d2:7 g1:6
 
   bf2 d2:7/a
-  
+
   c2/g g4 d4:7
-  
+
   g2:maj9 a2:m7 bf2:dim7 g2:maj7/b g1:maj9 g1:maj9
   g2:maj9 a2:m6 bf2:dim7 g2:maj7/b g1:maj9 g1:maj9
   gs1:dim7 a2:m7 as2:dim7 g2/b b2:7
-  
+
   e2:m cs2:m7.5- b2/fs cs2:m7.5- cs2:m7 fs2:7 b2 gs2:dim7 d2:7/a d2:7
-  
+
   e2:m a2:7 d2. c4/d d2. c4/d d4 c4/d d4 c4/d d4 r2.
-  
+
   g1:maj9 g4:6.9 g2.:maj9 g4:6.9 g2.:maj9 g4 r2.
 }
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -113,8 +100,8 @@ refrainMelody = \relative f' {
 
   \partial 2. d'4 d4 d4 |
 
-  \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box "A1,A2" }
-  
+  \sectNoBarNoBreakSegno "A1,A2"
+
   \bar ".|:"
   \repeat volta 2 {
   d4 e4 d8 b8 g4 | a4 b4 a8 fs8 e4 | d1~ | d4 e4 fs4 a4 |
@@ -126,9 +113,7 @@ refrainMelody = \relative f' {
     { \voiceOne
       g,1~ | g2. ds8 e8 |
     }
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	r4 <e c>4 <d b>2 | <e c>4 <d b>2 r4 |
       }
     }
@@ -136,7 +121,7 @@ refrainMelody = \relative f' {
   \oneVoice
   } } }
   \sect "B"
-  
+
   %% \key b \major
 
   b'4 ds,8 e8 b'4 ds,8 e8 | b'4 cs4 as2 | r4 g4 as8 fs8 ds4 | gs1 |
@@ -149,15 +134,13 @@ refrainMelody = \relative f' {
   %% \key g \major
 
   r4 a4 e8 d8 a4 | d4 e8 a8 e4 d8 a8 | d8 e8 a4 d4 a4 | d,4 d'4 d4 d4 |
-  
+
   \break
 
   \xTextMark \markup{ \bold \box "A3" }
   \bar ".|:-||"
   \repeat volta 2 {
   d4 e4 d8 b8 g4 | a4 b4 a8 fs8 e4 | d1~ | d4 e4 fs4 a4 |
-
-  \xPageBreak
 
   d4 e4 d8 b8 a8 g8 | a4 a8 b8 a8 g8 e4 \textToCodaFourthTime | g1~ |
 
@@ -170,7 +153,7 @@ refrainMelody = \relative f' {
   \break
 
   \xTextMark \markup{ \bold \box "C" }
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
   a4 a4 a4 a4 | a4 a4 a4 a4 | d2. g,4 | fs2. d8 e8 |
@@ -181,17 +164,15 @@ refrainMelody = \relative f' {
   } \volta 2 {
   g1 | r4 d'4 a8 g8 d4 | g4 a8 d8 a4 g8 d8 | g8 a8 d4 a4 g4 | d4 d'4 d4 d4 \dalSegnoWithRepeats |
   } } }
-  
+
   \bar "||-|."
   \textCodaBreak
-  
+
   <<
     { \voiceOne
       g,1~ | g1~ | g1~ | g4 r4 r2 |
     }
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	r4( d4 d4 d4 | d4 a'4 a4 a4 | a4 d4 d4 d4 | g4) s2. |
       }
     }
@@ -202,10 +183,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

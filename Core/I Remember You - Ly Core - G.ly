@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I Remember You"
   subtitle = \subtitle
@@ -42,14 +37,13 @@ verseMelody = \relative g' {
 
   \xTextMark \markup{ \bold \box "Verse" }
 
-  a4 a2 g8 a8 | 
+  a4 a2 g8 a8 |
   b4 b2. | a4 a2 g8 e8 | fs1 |
   \break
   e4 fs8 g8 a4 b8 c8 | d8. d16 d2. |
   \break
   r4 c8 b8 a4 e8 g8 | b2. fs4 | g1~ | g2. r4
   \bar "||"
-  \pageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -88,16 +82,16 @@ refrainOriginalChords = \chordmode {
   g1 g1:dim7 g1 f2/a g4:sus7 g4:7 c2:maj7 c2:6 c2:m d2:7.9- g1 d2:sus7 d2:7
 
   g1 g1:dim7 g1 f2/a g4:sus7 g4:7 c2:maj7 c2:6 c2:m d2:7.9- g1 d2:m7/g g2:9
-  
+
   c1 fs2:m7 b2:7 e1 fs2:m7 b2:7 e2:maj7 e2:6 e2:m7 a2:7 d2:maj7 d2:6 d1:7
 
   g1 g1:dim7 g1 b2:m7.5- e2:7.9- a1:m c2:m c2:m6 g1 a1:9 g2 g4/b bf4:dim7 a2:m7 d2:7.9-
-  
+
   %% 1.
   g2
   \chordOpenParen{ a2:9 }
   \chordCloseParen{ d1:7 }
-  
+
   %% 2.
   %% g1 a4:7.9- d4:13 g2
 }
@@ -105,7 +99,7 @@ refrainOriginalChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "original" refrainOriginalChords)
@@ -115,52 +109,44 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-
-  \xTextMark \markup{ \bold \box "Refrain" \bold \box "A1" }
-  \set Score.currentBarNumber = #1
   \tempoFour "Medium [Chet Baker 1955]" 182
 
+  \sectStartRefrain "A1"
+  \set Score.currentBarNumber = #1
+
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
-  \break
+  %% \break
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
 
-  \sect "A2"
+  \sectPageBreak "A2"
 
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
-  \break
+  %% \break
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
 
   \sect "B"
 
   b' c g a | b4. b8 b4 a | gs1 | r4 b b a |
-  \break
+  %% \break
   gs2. e4 | g2 \tuplet 3/2 { g4 a g } | fs1~ | fs2. r4
 
   \sect "A3"
 
   fs4 g d e | fs1 | fs4 g fs g | d' d d4. df8 |
-  \break
+  %% \break
   c1 | r4 c \tuplet 3/2 { c d c } | b1 | r4 b a
   $(if (and (defined? 'rememberAllTheThings) rememberAllTheThings)
-    #{ 
+    #{
     \xTextMark \markup { \musicglyph #"scripts.coda" }
     #} )
   g |
-  \break
+  %% \break
   fs g d e | g2 a2 |
   g1~ | g4 r4 r2 |
 
@@ -169,13 +155,6 @@ refrainMelody = \relative g' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/verse.ily"
-
-\pageBreak
 
 \include "../Include/refrain.ily"

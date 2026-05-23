@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -41,11 +36,11 @@ word.
 refrainChords = \chordmode {
   f1:maj7 f2:maj7 d2:7.9- g1:m7 c1:7
   g1:m7 c1:7
-  
+
   f2:6 d2:m7 g2:m7 c2:7
-  
+
   f1:6 b2:m7.5- e2:7
-  
+
   a2:m7 a2:m7/g fs2:m7.5- b2:9 e2:m7 e2:m7/d c2:maj9 c2:6
   f1 b2:m7.5- e2:7 a2:m7 d2:7.9- g2:m7 c2:7
 
@@ -58,15 +53,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -75,7 +62,7 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad or Medium [Martin Denny 1958]" 122
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r4 c'4 c4 bf8 a8 | g4 g2. | r4 bf4 bf4 a8 g8 |
@@ -88,11 +75,11 @@ refrainMelody = \relative f' {
   f1~ | f2 r2 |
   } } }
   \sect "B"
-  
+
   r4 a4 a4 b8 a8 | fs4 fs2. | r4 g4 g4 a8 g8 | e2. e4 |
   \break
   f2 g4 a4 | b2 c4 d4 | c1~ | c2. r4 |
-  
+
   \sect "A3"
 
   r4 c4 c4 bf8 a8 | g4 g2. | r4 bf4 bf4 a8 g8 | c,1~ |
@@ -105,10 +92,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

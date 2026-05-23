@@ -1,15 +1,12 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "newreal" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
-
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
 
 \header {
   title = "Watch What Happens"
@@ -41,7 +38,7 @@ refrainLyrics = \lyricmode {
   Some -- one who cares like me. __
 }
 
-refrainChords = \chordmode {
+refrainNRChords = \chordmode {
   ef1:maj7 ef1:maj7 f1:9 f1:9
   f1:m9 bf2:sus13 bf2:13 ef2:maj7 e2:maj7 f2:maj7 e2:maj7
 
@@ -50,26 +47,47 @@ refrainChords = \chordmode {
 
   g1:maj7 g1:maj7 g1:m7 c1:7
   f1:maj7 f1:maj7 f1:m7 bf1:7
-  
+
   ef1:maj7 ef1:maj7 f1:9 f1:9
   f1:m9 bf2:sus13 bf2:13
   ef1:6 e2:6 d4.:6 ef8:6 ef1:6 e2:6 d4.:6 ef8:6 ef1:6
-  
+
   \chordOpenParen{ f2:m7 }
   \chordCloseParen{ bf2:7 }
 }
 
+refrainHLChords = \chordmode {
+  ef1:maj7 ef1:maj7 f1:9 f1:9
+  f1:m9 bf1:7 ef2:maj7 e2:maj7 f2:maj7 e2:maj7
+
+  ef1:maj7 ef1:maj7 f1:9 f1:9
+  f1:m9 bf1:7 ef2:maj7 e2:maj7 f2:maj7 fs2:maj7
+
+  g1:maj7 g1:maj7 g1:m7 c1:7
+  f1:maj7 f1:maj7 f1:m7 bf1:7
+
+  ef1:maj7 ef1:maj7 f1:9 f1:9
+  f1:m9 bf1:7
+  ef1:6 e2:6 d2:6 ef1:6 e2:6 d2:6 ef1:6
+
+  \chordOpenParen{ f2:m7 }
+  \chordCloseParen{ bf2:7 }
+}
+
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "newreal" refrainNRChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
+
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -78,39 +96,37 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Bossa Nova [Sergio Mendes 1967]" 132
 
   \xTextMark \markup{ \bold \box "A" }
-  
-  g4. g8 g2~ | \tuplet 3/2 { g4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g1 | \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } |
-  \break
-  g1 | \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g2 gs2 | a2 gs2 |
-  \break
 
-  g4. g8 g2~ | \tuplet 3/2 { g4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g1 | \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } |
-  \break
+  g4. g8 g2~ | \tuplet 3/2 { g4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g1 |
+  \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } |
+  %% \break
+  g1 | \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g2 gs2 | a2 gs2 |
+  %% \break
+
+  g4. g8 g2~ | \tuplet 3/2 { g4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g1 |
+  \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } |
+  %% \break
   g1 | \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g2 gs2 | a2 bf2 |
 
   \sect "B"
-  
+
   b1 | r4 d,8 g8 c8 b8 a8 g8 | bf4. a8 bf2~ | bf2 a4 g4 |
-  \break
+  %% \break
   c,4. a'8 a2~ | \tuplet 3/2 { a4 c,4 f4 } \tuplet 3/2 { a4 g4 f4 } | af1~ | af1 |
-  
+
   \sect "C"
 
-  g4. g8 g2~ | \tuplet 3/2 { g4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g1 | \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } |
-  \break
+  g4. g8 g2~ | \tuplet 3/2 { g4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g1 |
+  \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } |
+  %% \break
   g1 | \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | ef2. ef4 | e4 e4 d8 d4 ef8~ |
-  \break
+  %% \break
   ef2. ef4 | e4 e4 d8 d4 ef8~ | ef1~ | ef1
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

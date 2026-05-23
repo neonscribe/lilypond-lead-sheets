@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "My Romance"
   subtitle = \subtitle
@@ -28,15 +23,15 @@ My ro -- mance does -- n't need a thing but you.
 
 refrainNewRealChords = \chordmode {
   s4
-  
+
   c2.:maj7
   \chordInsideParens{ f4:maj7 }
   e2:m7 ef2:dim7 d2:m7 g2:7 c2:maj7 e2:7.5+
   a2:m e2:7.5+ a2:m7 a2:7.5+ d2:m7 g2:7 c2:maj7 c2:7
-  
+
   f2:maj7
   \chordInsideParens{ bf2:9 }
-  c2:maj7 c2:7 f2:maj7 
+  c2:maj7 c2:7 f2:maj7
   \chordInsideParens{ bf2:9 }
   c1:maj7
   fs2:m7.5- b2:7 e2:m7 bf2:13 a2:m9 d2:13 d2:m7 g2:7
@@ -55,15 +50,15 @@ refrainNewRealChords = \chordmode {
 
 refrainRealBookSixthChords = \chordmode {
   s4
-  
+
   c2:maj7
   d2:m7
   e2:m7 ef2:dim7 d2:m7 g2:7 c2:maj7 e2:7
   a2:m a2:m7+ a2:m7 a2:7 d2:m7 g2:7 c2:maj7 c2:7
-  
+
   f2:maj7
   bf2:7
-  c2:maj7 c2:7 f2:maj7 
+  c2:maj7 c2:7 f2:maj7
   bf2:7
   c1:maj7
   fs2:m7.5- b2:7.9- e2:m7 bf2:7 a2:m7 d2:7 d2:m7 g2:7
@@ -83,37 +78,28 @@ refrainChords = \refrainRealBookSixthChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium Swing [Bill Evans 1961]" 176
-  
-  \partial 4 e8 f8 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 4 e8 f8 |
+
+  \sectNoBreak "A1"
+
   g2. e8 f8 | g4 a4 b4 c4 | c2. b8 a8 | g2. c,8 d8 |
   e2. c8 d8 | e4 f4 g4 a4 | a2. g8 f8 | e2. g4 |
 
   \sect "B"
-  
+
   c,2. c'4 | g2. g4 | c,2. c'4 | g2. c4 |
   b2. a4 | g2. c4 | b2. a4 | g2. e8 f8 |
 
   \sect "A2"
-  
+
   g2. e8 f8 | g4 a4 b4 c4 | c2. b8 a8 | g2. c,8 d8 |
   e2. c8 d8 | e4 f4 g4 a4 | a2. g8 f8 | e2. f8 g8 |
 
@@ -126,10 +112,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

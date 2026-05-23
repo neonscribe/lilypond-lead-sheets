@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -47,15 +42,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -64,28 +51,27 @@ refrainMelody = \relative f' {
   \tempoFour "Fast Swing [Django Reinhardt 1937]" 245
 
   \partial 4 f8 fs8 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   g2. f4 | g2. f4 | g1~ | g2. f4 |
   \break
   g2. f4 | c'2. d4 | bf1~ | bf2. a4 |
-  
+
   \sect "B"
-  
+
   c2. g4 | bf2. g4 | g1~ | g2. g4 |
   \break
   bf2. g4 | a2. f4 | g1~ | g2. f4 |
-  
+
   \sect "A2"
-  
+
   g2. f4 | g2. f4 | g1~ | g2. f4 |
   \break
   g2. f4 | c'2. cs4 | d1~ | d2. d4 |
-  
+
   \sect "C"
-  
+
   ef2. d4 | ef2. d4 | d1~ | d2. a4 |
   \break
   g2. a4 | f2. c'4 | bf1~ | bf2. r4 |
@@ -94,10 +80,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

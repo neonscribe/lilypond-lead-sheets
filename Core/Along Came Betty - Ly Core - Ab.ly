@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-% #(set-global-staff-size 18)
-
 \header {
   title = "Along Came Betty"
   subtitle = \subtitle
@@ -23,10 +16,10 @@ refrainChords = \chordmode {
 
   fs1:m7 g2:m7 c2:7 fs1:m7 g2:m7 c2:7
   f1:maj7 a1:7 d1:m7 g1:7
-  
+
   c1:m7 f1:7.9- a2:m7.5- d2:7.9- g2:m7 g2:m7/f
   e1:m7.5- a1:7 f1:m7 bf1:7
-  
+
   bf1:m7 b2:m7 e2:7 bf1:m7 b2:m7 e2:7
   c1:m7.5- f1:7.9- bf1:m7.5- ef1:7.9+
   af1:maj7
@@ -36,15 +29,7 @@ refrainChords = \chordmode {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -52,22 +37,22 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Art Blakey 1958]" 110
 
-  \xTextMark \markup{ \bold \box "A" }
-  
+  \sectNoBar "A"
+
   r2 c'4-. bf8 df8~ | df1 | r4 r8 c8~ c8 bf8 a8 bf8 | d1 |
   \break
   r8 e,8 fs8 gs8 b8 a8 \tuplet 3/2 { r8 gs8 fs8 } | gs1 |
   r8 d8 e8 fs8 a4-. g8 fs8~ | fs1 |
-  
+
   \sect "B"
-  
+
   r2 gs4-. fs8 a8~ | a1 | r4 r8 g8~ g8 fs8 f8 fs8 | a2. c8 g8~ |
   \break
   g4. f8 c'8 b8 bf8 g8 | \tuplet 3/2 { a4 bf4 g4 } a4. a16 f16 |
   d8 e8 f8 g8 a8 d8 cs8 d8 | a2~ a4. d8~ |
-  
+
   \sect "C"
-  
+
   d8 ef8 d8 bf8 c2 | r8 ef,8 gf8 a8 c8 ef8 d8 df8 |
   c2~ c8 d8 c8 a8 | bf8 d,8 g8 a8 bf8 d8 c8 b8 |
   \break
@@ -85,10 +70,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

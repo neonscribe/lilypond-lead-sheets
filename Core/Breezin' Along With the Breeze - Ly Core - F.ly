@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -35,8 +30,8 @@ refrainChords = \chordmode {
 
   f1 f1 a2:7 a2:7.5+ d1:7
   g2:7 g2:7.5- c2:7 g4:m7 c4:7 f1 f1:7
-  
-  bf2 f4:aug bf4 bf4 bf4:m6 bf4 f4:7 bf1 bf2 bf2:m 
+
+  bf2 f4:aug bf4 bf4 bf4:m6 bf4 f4:7 bf1 bf2 bf2:m
   f2 f4:dim7 f4 d1:m g1:9 c1:7
 
   f1 f1 a2:7 a2:7.5+ d1:7
@@ -45,15 +40,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -61,37 +48,32 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Nat King Cole 1955]" 126
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   c2. d4 | f8 g8 a8 c8~ c8 a8 c4 | a1~ | a2 c8 a8 c4 |
   \break
   a1~ | a2 a8 f8 a4 | f1~ | f4 r4 r2 |
-  
+
   \sect "A2"
 
   c2. d4 | f8 g8 a8 c8~ c8 a8 c4 | a1~ | a2 c8 a8 c4 |
   \break
   a1~ | a2 a8 f8 a4 | f1~ | f4 r4 r4 f4 |
-  
+
   \sect "B"
-  
+
   d'2 cs4 d4 | f,4 g4 bf4 c4 | d2 d8 cs8 d4 | bf1 |
   c2 b4 c4 | d,4 e4 f4 g4 | a4 a4 a8 gs8 a4 | g1 |
-  
+
   \sect "A3"
 
   c,2. d4 | f8 g8 a8 c8~ c8 a8 c4 | a1~ | a2 c8 a8 c4 |
   \break
   d1~ | d2 c8 a4. | f1~ | f2. r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

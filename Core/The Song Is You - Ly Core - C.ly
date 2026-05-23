@@ -2,14 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 18))
-
 \header {
   title = "The Song Is You"
   subtitle = \subtitle
@@ -48,7 +40,7 @@ refrainChords = \chordmode {
   c1:maj7 a1:7 d1:m7 g1:7
   e1:m7 a1:7 d1:m7 g1:7
   c1:6 f1:7 c1:6 f2:m7.5- b2:7
-  
+
   e1:maj7 e1:maj7 fs1:m7 b1:7
   e1:maj7 e1:maj7 as1:m7.5- ds1:7
   gs1:m7 gs1:m7 cs1:7 cs1:7
@@ -65,15 +57,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -81,44 +65,35 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up [Cannonball Adderley 1955]" 180
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBar "A1"
+
   b4 c4 c4 b4 | b4 c4 c4 b4 | f1~ | f4 a4 \tuplet 3/2 { a4 af4 g4 } |
   g4 a4 a4 g4 | g4 a4 a4 g4 | d1~ | d4 f4 \tuplet 3/2 { f4 ds4 e4 } |
-  %\break
+  \break
   g1~ | g4 e4 f4 e4 | g1~ | g4 d4 e4 d4 |
   f1~ | f4 c4 d4 c4 | e1~ | e2 r2 |
-  
-  \bar "||-||"
-  %\break
 
-  \xTextMark \markup{ \bold \box "A2" }
-  
+  \sect "A2"
+
   b'4 c4 c4 b4 | b4 c4 c4 b4 | f1~ | f4 a4 \tuplet 3/2 { a4 af4 g4 } |
   g4 a4 a4 g4 | g4 a4 a4 g4 | d1~ | d4 f4 \tuplet 3/2 { f4 ds4 e4 } |
-  %\break
+  \break
   g1~ | g4 e4 f4 e4 | a1~ | a4 g4 a4 g4 |
   c1~ | c1 | r1 | r1 |
 
-  \bar "||-||"
-  %\break
+  \sectPageBreak "B"
 
-  \xTextMark \markup{ \bold \box "B" }
-  
   e,4 b'4 b2~ | b4 b4 b4 b4 | b4 a4 a2~ | a1 |
   e4 ds'4 ds2~ | ds4 ds4 ds4 ds4 | ds4 cs4 cs2~ | cs1 |
-  %\break
+  \break
   ds,4 b'4 gs2~ | gs4 ds4 \tuplet 3/2 { fs4 f4 e4 } | ds4 b'4 gs2~ | gs4 ds4 ds4 ds4 |
   ds4 fs4 fs2~ | fs4 fs4 fs4 fs4 | gs4 b4 b2~ | b4 b4 b4 b4 |
-  
-  \bar "||-||"
-  %\break
 
-  \xTextMark \markup{ \bold \box "A3" }
-  
+  \sect "A3"
+
   b4 c4 c4 b4 | b4 c4 c4 b4 | f'1~ | f4 a,4 \tuplet 3/2 { a4 af4 g4 } |
   g4 a4 a4 g4 | g4 a4 a4 g4 | c1~ | c4 f,4 \tuplet 3/2 { f4 ds4 e4 } |
-  %\break
+  \break
   g1~ | g4 e4 f4 e4 | a1~ | a4 g4 a4 g4 |
   c1 | r1 | r1 | r1 |
 
@@ -126,10 +101,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

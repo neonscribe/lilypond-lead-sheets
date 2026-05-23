@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -55,15 +50,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,20 +58,20 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Up Swing [Nat King Cole 1942]" 200
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   r2 c'4 bf4 | af4. g8 r2 | f8 f8 c'8 c8 b8 c8 r8 f,8 | af8 f4 g8 r2 |
   \break
   f8 f8 c'4 b4. f8 | bf8 f4 af8~ af4 f8 f8 | af4 af4 f4. c8 | e8 e4 f8~ f4 r4 |
-  
+
   \sect "A2"
-  
+
   r2 c'4 bf4 | af4. g8 r2 | f8 f8 c'8 c8 b8 c8 r8 f,8 | af8 f4 g8 r2 |
   \break
   f8 c'4 b8~ b4 c4 | bf8 f4 af8~ af4 f8 f8 | af4 af4 f4. c8 | e8 e4 f8~ f4 r4 |
-  
+
   \sect "B"
-  
+
   r2 d'8 c8 d8 c8 | d8 d8~ d4 r2 | r4 c4 c8 bf4 f8~ | f2 r2 |
   \break
    r8 e'4 d8 e4 e4 | e8 e4 e8~ e8 d8 d4 | f8 f4 d8~ d8 d4 d8 | r4 gs,8 a8 f8 g8~ g4 |
@@ -94,15 +81,10 @@ refrainMelody = \relative f' {
   r2 c4 bf4 | af4. g8 r2 | f8 f8 c'8 c8 b8 c8 r8 f,8 | af8 f4 g8 r2 |
   \break
   f8 f8 c'4 b4. f8 | bf8 f4 af8~ af4 f8 f8 | af4 af4 f4. c8 | e8 e4 f8~ f4 r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

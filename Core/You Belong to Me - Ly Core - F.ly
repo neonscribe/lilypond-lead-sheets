@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -57,31 +52,23 @@ refrainChords = \chordmode {
 
   f1 a1:m7 bf1 a2:m7 d2:7.9-
   g2:m bf2:m6 a2:m7 d2:m7 g2:9 c2:7.9- f1:6
-  
+
   c2:m7 f2:7 c2:m9 f2:7 c2:m7/bf bf2:1.3.5.9 bf1:1.3.5.9
   d1:m7 g4:9 fs4:7 g2:9 c1:13 g2:m11 c2:13
-  
+
   f1 a1:m7 bf1 a2:m7 d2:7.9-
   g2:m bf2:m6 a2:m7 d2:m7 g2:m7 g4:m7/c c4:7.9 f1:6
 
   c2:m7 f2:7 c2:m9 f2:7 c2:m7/bf bf2:1.3.5.9 bf1:1.3.5.9
   d1:m7 g4:9 fs4:7 g2:9 c1:13 g2:m11 c2:13
-  
+
   f1 a1:m7 bf1 a2:m7 af2:m7 g1:m7 a2:m7 d2:7.9- g1:m9 gf1:7.9+
   r8 af8:9 df4:maj7 gf4:13.11+ gf8:7.9- f8*3:maj9 f2.:6.9
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -89,49 +76,46 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Jo Stafford 1952]" 70
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
   r4 \tuplet 3/2 { d8 f8 a8 } c8 c8 c8 a8 | c4 a8 c8~ c2 |
-  r4 \tuplet 3/2 { d,8 f8 a8 } c8 c8 c8 a8 | c4 d,8 a'8~ a2 | 
+  r4 \tuplet 3/2 { d,8 f8 a8 } c8 c8 c8 a8 | c4 d,8 a'8~ a2 |
 
   \sect "A1"
-  
-  r4 f8 g8 \tuplet 3/2 { a8 g8 f8~ } f8 a8 | e4. ds8 e2 | 
+
+  r4 f8 g8 \tuplet 3/2 { a8 g8 f8~ } f8 a8 | e4. ds8 e2 |
   r4 d8 e8 f8 e8~ \tuplet 3/2 { e8 d8 f8 } | \tuplet 3/2 { c8 c8 c8~ } c2. |
   r8 b4 c8 b8 a8 g8 b8 | a4 c8 f8~ f2 | r8 a4 g8 f4. g8 | c,1 |
-  
+
   \sect "A2"
 
-  r4 f8 g8 \tuplet 3/2 { a8 g8 f8~ } f8 a8 | e4. ds8 e2 | 
+  r4 f8 g8 \tuplet 3/2 { a8 g8 f8~ } f8 a8 | e4. ds8 e2 |
   r4 d8 e8 f8 e8~ \tuplet 3/2 { e8 d8 f8 } | \tuplet 3/2 { c8 c8 c8~ } c2. |
   r8 b4 c8 b8 a8 g8 b8 | a4 c8 f8~ f2 | r8 g4 f8 e4. g8 | f1 |
 
-  \sect "B1"
-  
+  \sectPageBreak "B1"
+
   r8 f4.~ f8 c8~ \tuplet 3/2 { c8 b8 c8 } | g'2~ g4. f8 | ef2 d2~ | d1 |
   r8 g4.~ g8 d8~ \tuplet 3/2 { d8 cs8 d8 } | a'2~ a4. g8 | e2. g4 | d1 |
-  \bar "||"
 
-  \xPageBreak
-  \sectNoBarNoBreak "A3"
+  \sect "A3"
 
   r8 f4 g8 a8 g8~ \tuplet 3/2 { g8 f8 a8 } | e4 ds8 e8~ e2 |
   r4 d8 e8 f8 e8~ \tuplet 3/2 { e8 d8 f8 } | c4 c8 c8~ c2 |
   r8 b4 c8 b8 a8 g8 b8 | a4 c8 f8~ f2 | r8 g4 f8 e4. g8 | f1 |
-  
+
   \sect "B2"
-  
+
   r8 f4.~ f8 c8~ \tuplet 3/2 { c8 b8 c8 } | g'2~ g8 f8 c8 ef8~ | ef2 d2~ | d1 |
   r8 g4.~ g8 d8~ \tuplet 3/2 { d8 cs8 d8 } | a'2~ a4. g8 | e2. g4 | d1 |
-  \bar "||"
 
-  \sect "A4"
+  \sectPageBreak "A4"
 
   r8 f4 g8 a8 g8~ \tuplet 3/2 { g8 f8 a8 } | e4 ds8 e8~ e2 |
   r4 d8 e8 f8 e8~ \tuplet 3/2 { e8 d8 f8 } | c4. g'8 gf4~ \tuplet 3/2 { gf8 gf8 ef8 } |
   f8 d4. a8 c8~ \tuplet 3/2 { c8 d8 f8 } | a4~ \tuplet 3/2 { a8 a8( c8) } bf2 |
   a2.~ \tuplet 3/2 { a8 g8( f8) } | e2 r8 a8( c,8) f8~ | f1~ | f1\fermata |
-  
+
   \bar "|."
 }
 
@@ -139,10 +123,5 @@ refrainKicksOverTime = \relative f' {
   s1*52 r8 af8 df4 gf4 gf8 f8~ f4 f2.
 }
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

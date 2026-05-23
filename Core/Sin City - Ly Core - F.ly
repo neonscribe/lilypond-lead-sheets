@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -33,59 +28,51 @@ won't keep out __ the Lord's burn -- ing rain.
 
 refrainChords = \chordmode {
   f2. bf4/c a4:m/c g4:m/c | bf2. | f2. |
-  
+
   f2. c2.:7 f2.:7 bf2.
   f2. f2. c2.:7 c2.:7
-  
+
   f2. c2.:7 f2.:7 bf2.
   f2. c2.:7 f2. f2.:7
-  
+
   bf2. c2.:7 f2. f2.:7
   bf2. f2. c2.:7 c2.:7
-  
+
   bf2. c2.:7 f2. bf2.
   f2. c2.:7 f2. f2.
-  
+
   f2. c2.:7 f2. bf2.
   f2. c2.:7 bf2. f2.
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Flying Burrito Brothers 1969]" 125
-  
-  \sectStart "Intro"
-  
+
+  \sectNoBarNoBreak "Intro"
+
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq c8 d8 |
 
   \sect "Verse"
-  
+
   c2 c8 f8 | e2 g8 g8 | a4 bf4 a8( g8) | g8( f4.~ f8) f8 |
   f8 c4.~ c8 f8 | f8( g8) g4~ g8 f8 | e2. | r4 r4 c8 d8 |
   \break
   c2 c8 f8 | e2 g8 g8 | a4 bf4~ bf8 a8 | g8( f4.~ f8) f8 |
-  f8 c4.~ c8 c8 | d4 d4~ d8 bf8 | a2. | 
+  f8 c4.~ c8 c8 | d4 d4~ d8 bf8 | a2. |
   \partial 2 r4 r4 |
 
   \sect "Chorus"
-  
+
   \partial 4 g'8 a8 |
   \bar "||"
-  
+
   bf8 bf4. bf8 g8 | g4. g8 g8 f8 | f4 f2 | r4 r4 r8 f8 |
   f4 bf4~ bf8 bf8 | a4 f4~ f8 f8 | e2. | r4 r4 g8 a8 |
   \break
@@ -94,25 +81,20 @@ refrainMelody = \relative f' {
 
   \sect "Solo"
 
-  \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | 
-  \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | 
+  \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
+  \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -138,7 +120,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #4
    \line { \large { This old town is filled with sin, it'll swallow you in } }

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -22,7 +17,7 @@ refrainChords = \chordmode {
   d2:m7 ef2:7 af2:maj7 b2:7 e2:maj7 g2:7 c1:maj7
   c2:m7 df2:7 df2:maj7 a2:7 d2:maj7 f2:7 bf1:maj7
   e1:m7 f1:7 bf1:maj7 ef1:7.11+
-  
+
   e2:m7 f2:7 bf2:maj7 df2:7 gf2:maj7 f2:7 bf2:maj7 a2:7
   d1:maj7 bf1:maj7 gf1:maj7 d1:maj7
   bf1:maj7 gf1:maj7 d1:maj7 d1:maj7 d1:maj7
@@ -30,15 +25,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -46,8 +33,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast [John Coltrane 1959]" 255
 
-  \sectStart "Head"
-  
+  \sectNoBarNoBreak "Head"
+
   r2 a2 | a2 bf2 | df2 c4 bf4 | a1 |
   \break
   g2 g2 | g2 gs2 | bf2 a2 | g1 |
@@ -56,9 +43,9 @@ refrainMelody = \relative f' {
   \break
   a1~ | a4 f8 g8 c8 bf8 f8 g8 | a2. a4~ | a2 r2 \daCapoAfterSolos |
   \bar "||-||"
-  
+
   \textCodaBreak
-  
+
   a2 a2 | a2 bf2 | df2 c4 bf4 | a2 g2 |
   \break
   a1 | d1 | df1 | a2_"RIT." r2 |
@@ -69,10 +56,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

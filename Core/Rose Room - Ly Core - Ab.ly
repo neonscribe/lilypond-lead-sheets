@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Rose Room"
   subtitle = \subtitle
@@ -33,16 +28,16 @@ Be -- side a beau -- ti -- ful Rose.
 
 refrainChords = \chordmode {
   s2.
-  
+
   bf1:7 ef1:7 af1:maj7 af1:6
   ef1:m7 af1:7 df1:maj7 df1:6
-  
+
   df1:m7 gf1:7 af1:maj7 f1:7
   bf1:7 bf1:7 bf1:m7 ef1:7
 
   bf1:7 ef1:7 af1:maj7 af1:6
   ef1:m7 af1:7 df1:maj7 df1:6
-  
+
   df1:m7 gf1:7 af1:maj7 f1:7
   bf1:7 ef1:7 af2:6
   \chordOpenParen{ g2:7.9- }
@@ -52,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -69,28 +56,27 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Swing [Benny Goodman 1939]" 146
 
   \partial 2. ef4 ef4 e4 |
-  \bar "||"
-  
-  \xTextMark \markup{ \bold \box "A1" }
-  
+
+  \sectNoBreak "A1"
+
   f4. c'8~ c2 | r8 ef,8 f8 fs8 g8 c4 g8 | bf1 | af1 |
   \break
   af1 | r8 af8 bf8 b8 c8 f4 c8 | ef1 | df1 |
-  
+
   \sect "B"
-  
+
   df1~ | df4 af8 bf8 df8 af8 bf4 | c1 | ef1 |
   \break
   f,4. c'8~ c2~ | c4 f,8 g8 af8 bf8 c4 | bf1~ | bf4 ef,4 ef4 e4 |
-  
+
   \sect "A2"
-  
+
   f4. c'8~ c2 | r8 ef,8 f8 fs8 g8 c4 g8 | bf1 | af1 |
   \break
   af1 | r8 af8 bf8 b8 c8 f4 c8 | ef1 | df1 |
-  
+
   \sect "C"
-  
+
   df4. df8~ df2~ | df4 af8 bf8 df8 af8 bf4 | c1 | ef4 ef,4 ef4 e4 |
   \break
   f4. c'8~ c2 | r8 ef,8 f8 fs8 g8 ef'8 c4 | af1 | r1 |
@@ -99,10 +85,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

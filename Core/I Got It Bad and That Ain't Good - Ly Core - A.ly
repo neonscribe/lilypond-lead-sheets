@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "I Got It Bad and That Ain't Good"
   subtitle = \subtitle
@@ -57,15 +50,7 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -74,37 +59,32 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Duke Ellington 1941]" 78
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   ds4 e4 fs'4 e4 | gs,4 a4 b4 a4 | r4 cs4 a4 b4 | cs1 |
   \break
   r4 cs4 a4 b4 | cs4 e4 a,4 cs4 | a1 | r1 |
-  
+
   \sect "A2"
-  
+
   ds,4 e4 fs'4 e4 | gs,4 a4 b4 a4 | r4 cs4 a4 b4 | cs1 |
   \break
   r4 cs4 a4 b4 | cs4 e4 a,4 cs4 | a1 | r2 r4 a4 |
-  
-  \sect "B"
-  
+
+  \sectPageBreak "B"
+
   b4 cs4 e4 d4 | cs4 b2 a4 | b4 cs4 e4 d4 | b2. a4 |
   \break
   gs4 a4 cs4 e4 | gs4 fs2 e4 | e4 d2 fs,4 | cs'4 b2. |
-  
+
   \sect "A3"
 
   ds,4 e4 fs'4 e4 | gs,4 a4 b4 a4 | r4 cs4 a4 b4 | cs1 |
   \break
   r4 cs4 a4 b4 | cs4 e4 a,4 cs4 | a1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

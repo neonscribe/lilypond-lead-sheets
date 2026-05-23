@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 %%% #(set-global-staff-size 18)
 
 \header {
@@ -41,14 +36,14 @@ Good morn -- ing heart -- ache, sit down.
 refrainHLChords = \chordmode {
   c2:m af2/c c2:m6 c2:m7 f2:maj7 bf2:maj7 a2:m7.5- d2:7.9-
   g2:m7 bf2:m7+ a2:m7 af2:m7
-  
+
   g2:m7 c2:7.9+ f1:maj7
-  
+
   c2:m af2/c c2:m6 c2:m7 f2:maj7 bf2:maj7 a2:m7.5- d2:7.9-
   g2:m7 bf2:m7+ a2:m7 af2:m7
-  
+
   g2:m7 c2:7.9+ f1:6
-  
+
   e2:m7 a2:7.9+ d1:m6 e2:m7 a2:7 d1:maj7
   d2:m7 g2:7.9+ c1:maj7 df4.:m7 gf8*5:7 c4.:m7 f8*5:7
 
@@ -60,14 +55,14 @@ refrainHLChords = \chordmode {
 refrainNRChords = \chordmode {
   c2:m af2/c c2:m6 c2:m7 f2:maj7 bf2:maj7 a4:m7.5- ef4:7 d2:7
   g2:m7 bf4:m7+ ef4:9 a2:m7 af4:m7 df4:9
-  
+
   g2:m7 c2:7.9+.5+ f1:maj7
-  
+
   c2:m af2/c c2:m6 c2:m7 f2:maj7 bf2:maj7 a4:m7.5- ef4:7 d2:7
   g2:m7 bf4:m7+ ef4:9 a2:m7 af4:m7 df4:9
-  
+
   g2:m7 c4:7.9+.5+ c4:7.5+ f1:6
-  
+
   e2:m11 a2:7.9+.5+ d1:m6 e2:m11 a2:7 d1:maj7
   d2:m11 g2:7.9+.5+ c1:maj7 df4.:m11 gf8*5:7 c4.:m11 f8*5:7
 
@@ -80,15 +75,7 @@ refrainChords = \refrainNRChords
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -96,8 +83,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Billie Holiday 1946]" 70
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   r8 c8 g'8 f8 ef8 c4. | c8 c8~ \tuplet 3/2 { c8 g'8 f8 } ef2 |
   r8 c8 a'8 g8 f8 c8~ \tuplet 3/2 { c8 a'8 bf8 } |
   c8 c8 bf8 c8 a2 |
@@ -107,7 +94,7 @@ refrainMelody = \relative f' {
   r8 c8 c8 c8 ef8 c4 ef8 | c1 |
 
   \sect "A2"
-  
+
   r8 c8 g'8 f8 ef8 c4. | c8 c8~ \tuplet 3/2 { c8 g'8 f8 } ef2 |
   r8 c8 a'8 g8 f8 c8~ \tuplet 3/2 { c8 a'8 bf8 } |
   c8 c8 bf8 c8 a2 |
@@ -115,12 +102,9 @@ refrainMelody = \relative f' {
   r8 d,8 c'8 bf8 a8 g8 f8 e8 | e4 g8 e8 ef2 |
 
   r8 c8 c8 c8 ef8 c4 e8 | f1 |
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "B"
 
-  \sectNoBar "B"
-  
   r4 a4 \tuplet 3/2 { c4 a4 c4 } | a1 |
   \break
   r4 a4 \tuplet 3/2 { cs4 a4 c4 } | a1 |
@@ -128,9 +112,9 @@ refrainMelody = \relative f' {
   r4 g4 \tuplet 3/2 { bf4 g4 bf4 } | g2. r8 g8 |
   \break
   gf8 gf4 gf8~ gf8 af8 gf4 | f8 f4 f8~ f8 g8 f4 |
-  
+
   \sect "A3"
-  
+
   r8 c8 g'8 f8 ef8 c4. | c8 c8~ \tuplet 3/2 { c8 g'8 f8 } ef2 |
   r8 c8 a'8 g8 f8 c8~ \tuplet 3/2 { c8 a'8 bf8 } | c8 c8 bf8 c8 a2 |
   \break
@@ -142,10 +126,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

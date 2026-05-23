@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -26,7 +21,7 @@ it has a pro -- duct an -- y -- one would buy.
 
 verseChords = \chordmode {
   g1:maj7 a1:m7 g1:maj7 a1:m7
-  g1:maj7 a1:m7 g1:maj7 a2:9 d2:9 
+  g1:maj7 a1:m7 g1:maj7 a2:9 d2:9
   g1:maj7 d2:m7 e2:7 a1:7 a1:7
   a2:m7 g2:maj7 e2:m7 a2:7 d2:9 a2:m7 d1:7
 }
@@ -38,7 +33,7 @@ verseMelody = \relative f' {
   \key \verseKey \major
   \clef \whatClef
   \tempo "Freely"
-  
+
   \xTextMark \markup{ \bold "Verse" }
 
   a4 fs4 d4 b4 | c4 e2 g4 | a8 a8 fs4 d4 b4 | c4 e2. |
@@ -67,13 +62,13 @@ and lit -- tle old Rhode Is -- land is fa -- mous for you!
 refrainChords = \chordmode {
   g1:maj7 a1:m7 g1:6 a1:m7
   g1:maj7 e1:m7 a1:7 a2:7 c2:m6
-  
+
   g1:maj7 g1:9 c2:maj7 c2:6 e2:m7 c2:dim7
   g1:6.9 g1:dim7 d1:7 d1:7
-  
+
   g1:maj7 a1:m7 g1:6 a1:m7
   g1:maj7 e1:m7 a1:7 a2:7 c2:m6
-  
+
   g1:maj7 g1:7 c1 g1:7
   e1:m7 a2:m7 d2:7 g1
   \chordInsideParens{ d1:7 }
@@ -81,15 +76,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -97,26 +84,26 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast Swing [Blossom Dearie 1960]" 190
 
-  \xTextMark \markup{ \bold "Refrain" \bold \box "A1" }
-  
+  \sectStartRefrain "A1"
+
   d4 b2. | c4 b4 c4 d4 | e4 b2. | d4 c4 d4 e4 |
   \break
   fs4 d2 fs4 | g4 e4 fs4 g4 | a1~ | a2. g4 |
-  
+
   \sect "B"
-  
+
   b4. b8~ b8 fs4 g8 | a4. a8~ a8 e4 fs8 | g4. g8~ g2 | r2 r4 fs4 |
   \break
   a4. a8~ a8 e4 fs8 | g4. g8~ g8 d4 e8 | fs1~ | fs2 r4 e4 |
-  
+
   \sect "A2"
-  
+
   d4 b2. | c4 b4 c4 d4 | e4 b2. | d4 c4 d4 e4 |
   \break
   fs4 d2 fs4 | g4 e4 fs4 g4 | a1~ | a2. g4 |
-  
+
   \sect "C"
-  
+
   b1 | b4 d4 b4 a4 | g4 e2 g4 | b8 d8 b2 a4 |
   \break
   g4 e2 g4 | c4 g4 a2 | g1 | r1 |
@@ -125,11 +112,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/verse.ily"
 

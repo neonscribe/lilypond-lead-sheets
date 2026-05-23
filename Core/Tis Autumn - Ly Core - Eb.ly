@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "'Tis Autumn"
   subtitle = \subtitle
@@ -35,7 +30,7 @@ verseMelody = \relative f' {
   \tempo "Medium Ballad or Freely"
 
   \xTextMark \markup{ "Verse" }
-  
+
   r8 bf8 bf8 bf8 bf8 bf4 g8 | c,8 c4. r8 ef'4 c8 |
   g8 g4 c,8 g'8 g4 d8( | c1) |
   r8 d'8 d8 d8 d8 d8 \tuplet 3/2 { e8 e8 e8 } | b2~ b8 d,8 e8 g8 |
@@ -67,7 +62,7 @@ refrainLyrics = \lyricmode {
 
 refrainChords = \chordmode {
   c4:aug7
-  
+
   f1:m7 bf1:aug9 ef2:maj7
   \chordInsideParens{ f2:m7 }
   g2:m7 c2:7.9- f2:m7 df2:9.11+ c2:m7 f2:13
@@ -77,7 +72,7 @@ refrainChords = \chordmode {
   \chordInsideParens{ f2:m7 }
   g2:m7 c2:7.9- f2:m7 df2:9.11+ c2:m7 f2:13
   f2:m7 bf2:13 ef1:6
-  
+
   bf2:m7 ef2:9 bf2:m7 ef2:9 af2:6 ef2:aug7.9- af1:6
   c2:m7 f2:9 c2:m7 f2:9 f2:m9 c2:aug7.9+ f2:9 bf4:9
   \chordInsideParens{ c4:7.9- }
@@ -91,33 +86,24 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f'' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Ballad [Nat King Cole 1949]" 60
-  
-  \partial 4 c4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 4 c4 |
+
+  \sectNoBreak "A1"
+
   ef8 c8 ef8 c8~ c4~ \tuplet 3/2 { c8 af8 g8 } | fs8 d'4 c8~ c2 |
   r8 d8 bf8 g8 bf8 bf4. | r8 d8 bf8 g8 e2 |
   r8 c'8 af8 bf8 g4. f8 | ef8 g8 f'8 d8~ d2 |
   c8 ef8 c8 af8 \tuplet 3/2 { g8 bf8 g8~ } g8 f8 | c8 ef4.~ ef4 r8 c'8 |
-  
-  
+
+
   \sect "A2"
 
   ef8 c8 ef8 c8~ c4~ \tuplet 3/2 { c8 af8 g8 } | fs8 d'4 c8~ c2 |
@@ -125,17 +111,13 @@ refrainMelody = \relative f'' {
   r8 c'8 af8 bf8 g4. f8 | ef8 g8 f'8 d8~ d2 |
   c8 ef8 c8 af8 \tuplet 3/2 { g8 bf8 g8~ } g8 f8 | c8 ef4.~ ef4 \tuplet 3/2 { r8 ef'8 c8 } |
 
-  \bar "||"
+  \sectPageBreak "B"
 
-  \xPageBreak
-
-  \xTextMark \markup{ \bold \box "B" }
-  
   df4 ef8 ef8 c8 c4 ef,8 | f8 fs8 g8 ef'8 c8 c8~ \tuplet 3/2 { c8 b8( c8 } |
   f4~ \tuplet 3/2 { f8 ef8 c8 } g4~ \tuplet 3/2 { g8 ef8 g8 } |
   f2.) f'8 e8 | ef8 ef8 f8 f8 d8 d4 f,8 | g8 af8 a8 f'8 d8 d8~ \tuplet 3/2 { d8 e,8 f8 } |
   bf2~ bf8 c8 ef8 c8 | g8 g8~ \tuplet 3/2 { g8 c,8 ef8 } f4. c'8 |
-  
+
   \sect "A3"
 
   ef8 c8 ef8 c8~ c4~ \tuplet 3/2 { c8 af8 g8 } | fs8 d'4 c8~ c4 d8 bf8 |
@@ -151,11 +133,11 @@ refrainMelody = \relative f'' {
 }
 
 codaLyrics = \lyricmode {
-  La -- de -- da, de -- da -- de -- dum, __ 
-  La -- de -- da, de -- da -- de -- dum, __ 
-  La -- de -- da, de -- da -- de -- dum, __ 
+  La -- de -- da, de -- da -- de -- dum, __
+  La -- de -- da, de -- da -- de -- dum, __
+  La -- de -- da, de -- da -- de -- dum, __
   'Tis Au -- tumn.
-  
+
 }
 
 codaChords = \chordmode {
@@ -184,11 +166,6 @@ codaMelody = \relative f'' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 %%% \include "../Include/verse.ily"
 %%% \markup { \vspace #4 }

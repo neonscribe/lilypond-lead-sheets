@@ -17,7 +17,7 @@ if [[ ${#FILES[@]} == 0 ]]; then
     exit 1
 fi
 
-lilypond "${FILES[@]}"
+lilypond $ARGS "${FILES[@]}"
 result=$?
 
 for file in *.ly; do
@@ -123,8 +123,3 @@ for file in *.ly; do
     fi
     fi
 done
-
-for file in *.midi; do
-    mv "$file" ../Midi/
-done
-

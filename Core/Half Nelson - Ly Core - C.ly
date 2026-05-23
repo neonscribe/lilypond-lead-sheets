@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -26,15 +21,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -42,8 +29,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Bop [Miles Davis-Charlie Parker 1947]" 190
 
-  \sectStart "Head"
-  
+  \sectNoBarNoBreak "Head"
+
   r8 g8 e8 f8~ f8 f16 a16 b8 c8~ | c8 d16 c16 b2. |
   bf4 \tuplet 3/2 { af8 bf8 af8 } g8 f8 r4 | r2 r8 c'16 b16 bf8 af8 |
   \break
@@ -54,17 +41,12 @@ refrainMelody = \relative f' {
   g4 ef4 f4 r4 | r8 ef8 f8 g8 bf8 g8 a8 bf8 | \tuplet 3/2 { c8 d8 c8 } b8 a8 gs8 e4 g16 a16 | fs4 r4 r2 |
   \break
   \tuplet 3/2 { f8 g8 f8 } e8 d8 g8 f4. | \tuplet 3/2 { e8 f8 e8 } cs8 e8 d8 e8 f8 fs8 |
-  g8 e8_"FINE" r4 ef8 g8 bf8 g8 | af8 df,8 f8 af8 bf8 af16 bf16 g8 f8 |
+  g8 e8 \textFine r4 ef8 g8 bf8 g8 | af8 df,8 f8 af8 bf8 af16 bf16 g8 f8 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

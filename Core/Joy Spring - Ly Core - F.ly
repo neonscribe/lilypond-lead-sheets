@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -17,15 +12,17 @@ subtitle =
   copyright = \markup \small { \now " " "© 1956 Second Floor Music" }
 }
 
+leadingEighth = ##t
+
 refrainChords = \chordmode {
-  s2
-  
+  s4.
+
   f1:maj7 g2:m7 c2:7 f1:maj7 bf2:m7 ef8*5:7
   f4./a af4.:6 g8*5:m7 c2:7 f1:6 af2:m7 df2:7
-  
+
   gf1:maj7 af2:m7 df2:7 gf1:maj7 b2:m7 e8*5:7
   bf4.:m7 a4.:7 af8*5:m7 df2:7 gf1:6 a2:m7 d2:7
-  
+
   g2.:maj7 g2.:m7 c2:7 f2.:maj7 f2.:m7 bf2:7
   ef1:maj7 af2:m7 df2:7 gf1:maj7 g2:m7 c2:7
 
@@ -37,10 +34,10 @@ refrainChords = \chordmode {
 
   f1:maj7 g2:m7 c2:7 f1:maj7 bf2:m7 ef2:7
   f2/a af2:6 g2:m7 c2:7 f1:6 af2:m7 df2:7
-  
+
   gf1:maj7 af2:m7 df2:7 gf1:maj7 b2:m7 e2:7
   bf2:m7 a2:7 af2:m7 df2:7 gf1:6 a2:m7 d2:7
-  
+
   g1:maj7 g2:m7 c2:7 f1:maj7 f2:m7 bf2:7
   ef1:maj7 af2:m7 df2:7 gf1:maj7 g2:m7 c2:7
 
@@ -50,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -66,11 +55,10 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Swing [Clifford Brown & Max Roach 1955]" 164
 
-  \partial 2 \invisEighth c8 f8 c'8~ |
-  \bar "||"
+  \partial 4. c8 f8 c'8~ |
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   c2~ c8 a8 \tuplet 3/2 { g16 a16 g16 } f8 | g4. a8 r2 |
   r8 c,8 f8 d'8 c8 a8 \tuplet 3/2 { g16 a16 g16 } f8 |
   af8 f16 df16 bf8 g'8~ g4 \tuplet 3/2 { f8 g8 f8 } |
@@ -79,16 +67,16 @@ refrainMelody = \relative f' {
   f8 c8 g'8 f8 r2 | r8 bf8 af8 gf8 f8 df8 gf8 df'8~ |
 
   \sect "A2"
-  
+
   df2~ df8 bf8 \tuplet 3/2 { af16 bf16 af16 } gf8 | af4. bf8 r2 |
-  r8 df,8 gf8 ef'8 df8 bf8 \tuplet 3/2 { af16 bf16 af16 } gf8 | 
+  r8 df,8 gf8 ef'8 df8 bf8 \tuplet 3/2 { af16 bf16 af16 } gf8 |
   a8 fs16 d16 b8 gs'8~ gs4 \tuplet 3/2 { fs8 gs8 fs8 } |
   \break
   df'8 gf,4. gf4. gf8~ | gf8 df8 gf8 cf8 bf8 gf8 \tuplet 3/2 { ef16 f16 ef16 } df8 |
   gf8 df8 af'8 gf8 r2 | r8 b8 a8 e8 g8 f8 \tuplet 3/2 { fs8 a8 ef'8 } |
-  
+
   \sect "B"
-  
+
   d4. b8 \tuplet 3/2 { a16 b16 a16 } g8 bf4~ |
   bf8 f8 \tuplet 3/2 { e16 f16 e16 } d8 e8 df'8 \tuplet 3/2 { c16 df16 c16 } bf8 |
   c4. a8 \tuplet 3/2 { g16 a16 g16 } f8 af4~ |
@@ -109,8 +97,8 @@ refrainMelody = \relative f' {
   \bar "|."
 
   \xPageBreak
-  
-  \xTextMark \markup{ \bold \box "Solos" }
+
+  \sectNoBar "Solos"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -132,14 +120,9 @@ refrainMelody = \relative f' {
 
   \bar "||-||"
 
-  \bar "|."  
+  \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

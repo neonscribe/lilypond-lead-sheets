@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Hawaii Five-O Theme"
   subtitle = \subtitle
@@ -23,13 +18,13 @@ refrainChords = \chordmode {
   c1:m bf1 ef1 g1:7
   c1:m c1:m f1 af2 bf2
   c1:m af2 bf2 c2..:m gs8:7 gs1:7
-  
+
   gs1:7
   cs1:m b1 cs1:m e1
   cs1:m b1 e1 gs1:7
   cs1:m cs1:m fs1 a2 b2
   cs1:m a2 b2 cs2..:m a8:7 a1:7
-  
+
   a1:7
   d1:m c1 d1:m f1
   d1:m c1 f1 a1:7
@@ -39,15 +34,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 refrainKeyTwo = cs
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainKeyThree = d
 
@@ -57,12 +44,12 @@ refrainMelody = \relative f' {
   \key \refrainKey \minor
   \clef \whatClef
   \tempoFour "Straight Eighths [The Ventures 1969]" 162
-  
+
   \xTextMark \markup{ \bold \box "A" }
   \partial 2. g8 g8 bf8 d4 c8~ |
   \bar "||"
 
-  
+
   c4. g8~ g2 | r4 g8 g8 f8 bf4 g8~ | g1 | r4 g8 g8 bf8 d4 c8~ |
   c4. g'8~ g2 | r4 f8 f8 d8 bf8 r8 g'8~ | g1~ | g1 |
   r4 af4 g8 f8 ef8 c8 | g8 f8 ef8 c8~ c2 | r4 c''4 a8 g8 f8 d8 | c8 bf8 af8 bf8~ bf8 c8 d4 |
@@ -70,7 +57,7 @@ refrainMelody = \relative f' {
   \break
   \xTextMark \markup{ \bold \box "B" }
   \key \refrainKeyTwo \minor
-  
+
   \transpose \refrainKey \refrainKeyTwo {
     \relative f' {
       r4 g8 g8 bf8 d4 c8~ |
@@ -83,7 +70,7 @@ refrainMelody = \relative f' {
   \break
   \xTextMark \markup{ \bold \box "C" }
   \key \refrainKeyThree \minor
-  
+
   \transpose \refrainKey \refrainKeyThree {
     \relative f' {
       r4 g8 g8 bf8 d4 c8~ |
@@ -98,10 +85,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

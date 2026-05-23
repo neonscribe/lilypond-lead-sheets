@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -30,13 +25,13 @@ for part -- ing is not good -- bye. We'll be to -- geth -- er a -- gain.
 
 refrainChords = \chordmode {
   g4:7
-  
+
   c4:6 \chordSlash 2 af4:7 d2:m7 g2:7 a1:m7 d1:7.11+
   bf2:m7 ef2:7 af1:maj7 d2:m7.5- af2:7 g1:7
 
   c4:6 \chordSlash 2 af4:7 d2:m7 g2:7 a1:m7 d1:7.11+
   bf2:m7 ef2:7 af1:maj7 d2:m7.5- g2:7 c1:6
-  
+
   af2:7 g2:7.9- c1:m6 af2:7 g2:7 c1:m6
   d2:m7.5-/af g2:7 c2:m7.5-/gf f2:7 a2:m7.5- af2:7 g2:7
 
@@ -48,15 +43,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -65,40 +52,34 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Frank Sinatra 1956]" 70
 
   \partial 4 e4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   c2. bf'4 | g2~ g4. g8 | \tuplet 3/2 { c4 d4 c4 } \tuplet 3/2 { d4 e,4 g4 } | b4 gs2 a4 |
-  \break
+  %% \break
   \tuplet 3/2 { c4 c4 c4 } bf4 g4 | ef1 | \tuplet 3/2 { af4 bf4 af4 } bf4 af8 bf8 | g2. e4 |
-  
+
   \sect "A2"
-  
+
   c2. bf'4 | g2~ g4. g8 | \tuplet 3/2 { c4 d4 c4 } \tuplet 3/2 { d4 e,4 g4 } | b4 gs2 a4 |
-  \break
+  %% \break
   \tuplet 3/2 { c4 c4 c4 } bf4 g4 | ef1 | \tuplet 3/2 { af4 bf4 af4 } \tuplet 3/2 { g4 e4 e4 } | c1 |
-  
+
   \sect "B"
-  
+
   \tuplet 3/2 { af'4 bf4 af4 } bf4 af8 bf8 | g4 g2. | \tuplet 3/2 { af4 bf4 af4 } b4 af8 bf8 | g1 |
-  \break
+  %% \break
   \tuplet 3/2 { f4 g4 f4 } \tuplet 3/2 { g4 f4 g4 } | ef4 ef2. | \tuplet 3/2 { d4 ef4 d4 } f4 ef8 f8 | d2. e4 |
 
   \sect "A3"
 
   c2. bf'4 | g2~ g4. g8 | \tuplet 3/2 { c4 d4 c4 } \tuplet 3/2 { d4 e,4 g4 } | b4 gs2 a4 |
-  \break
+  %% \break
   \tuplet 3/2 { c4 c4 c4 } bf4 g4 | ef1 | \tuplet 3/2 { af4 bf4 af4 } \tuplet 3/2 { g4 e4 e4 } | c1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -22,39 +17,31 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 refrainChords = \chordmode {
   a1 a1 a1 a1
-  
+
   a1 a1 a1 a1
   e1 e1 fs1:m b1
   a1 a1 d1 b1:m
-  a1 e1 d1 
-  
+  a1 e1 d1
+
   e1 a1 a1
-  
+
   g1
-  
+
   a1 a1
-  
+
   a1 a1 a1 a1
   e1 e1 fs1:m b1
   a1 a1 d1 b1:m
   a1 e1 d1 g1
-  
+
   a1 a1
-  
+
   g1 a1 g1 a1 g1 a1:3.5.9
 }
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g {
   \time 4/4
@@ -70,7 +57,7 @@ refrainMelody = \relative g {
   \break
 
   \xTextMark \markup { "Verse" }
-  
+
   \repeat volta 2 {
 
     a4
@@ -88,7 +75,7 @@ refrainMelody = \relative g {
     \break
     a,4 \xNote { a8 } a4 cs8 e8 cs8 | e4 \xNote { e8 } e4. \xNote { e8 } e8 |
     d4 \xNote { d8 } d8~ d4 d4 \textToCoda |
-    
+
     \alternative { \volta 1 {
       e8 e8 e8 e8 e8 e8 e8 gs8 |
       \break
@@ -119,14 +106,14 @@ refrainMelody = \relative g {
   e8 |
 
   \bar "||-|."
-  
+
   \textCodaBreak
 
   g8 g8 g8 g8 d4 g4 |
   \repeat volta 2 {
-    a4. a8 e4. a8 | 
+    a4. a8 e4. a8 |
     g8 d8 g8 d8 g8 d8 g8 d8 |
-    a'4. a8 e4. a8 | 
+    a'4. a8 e4. a8 |
     g8 d8 g8 d8 g8 d8 g8 d8 |
   }
   a1
@@ -134,10 +121,5 @@ refrainMelody = \relative g {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

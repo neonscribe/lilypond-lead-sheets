@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Make You Feel My Love"
   subtitle = \subtitle
@@ -78,19 +73,11 @@ refrainChords = \chordmode {
   \verseChords
   \verseChords
   \codaChords
-}  
+}
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -98,9 +85,9 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Slow, straight eighths [Adele 2008]" 76
 
-  \sectStart "Intro"
+  \sectNoBarNoBreak "Intro"
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \sectNoBar "Verse 1,2"
@@ -109,18 +96,18 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
     r4 f8 f8 f8 f8 ef8 d8 | f8 bf,4 bf8~ bf2 |
     r4 f'8 f8 f8 f8 ef8 d8 | ef8 bf4 bf8~ bf2 |
-    \break
+    %% \break
     r4 ef8 ef8 ef8 d8 d8 c8 | d8 bf4 bf8~ bf2 |
     r8 bf8 bf8 d8 bf8 bf4 bf8~ | bf2. r4 |
   }
-  
+
   \sect "Bridge 1,2"
 
   \bar ":..:"
   \repeat volta 2 {
     r8 bf'8 bf8 bf8 bf8 bf8 a8 g8 | f4 bf,8 bf8~ bf4 r4 |
     r8 d8 d8 ef8 d8 c8 c8 bf8 | bf2 r2 |
-    \break
+    %% \break
     r8 bf'8 bf8 bf8 c8 bf8 a8 g8 | f8 bf,4 bf8~ bf2 |
     d8 d8 d8 d8 d8 c8 bf8 c8 | c1 |
 
@@ -128,14 +115,14 @@ refrainMelody = \relative f' {
 
     r4 f8 f8 f8 f8 ef8 d8 | f8 bf,4 bf8~ bf2 |
     r4 f'8 f8 f8 f8 ef8 d8 | ef8 bf4 bf8~ bf2 |
-    \break
+    %% \break
     r4 ef8 ef8 ef8 d8 d8 c8 | d8 bf4 bf8~ bf2 |
     r8 bf8 bf8 d8 bf8 bf4 bf8~ | bf2. r4 |
   }
   \alternative {
     {
       \sect "Solo"
-      \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+      \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
       \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
       }
     {
@@ -146,20 +133,16 @@ refrainMelody = \relative f' {
   }
 
   \bar "|."
-  \xPageBreak
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
+\pageBreak
+
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -183,7 +166,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { When the rain is blowing in your face } }

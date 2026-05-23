@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -51,7 +46,7 @@ refrainChords = \chordmode {
 
   ef1:maj7 ef1:m7 g1:m7.5- c1:7.5+
   f1:m7.5- bf1:7 ef2:6 af2:9 ef2:6 d4:7.9- g4:7
-  
+
   c4:m c4:m/bf a2:m7.5- af2:9 g2:7.5+ c1:m7 g1:7
   c4:m c4:m/bf a2:m7.5- af2:9 g2:7.5+ c2:m c2:7.5+ f2:m7 bf2:7
 
@@ -63,15 +58,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -80,37 +67,32 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Billie Holiday 1940]" 90
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   r8 bf8 c8 bf8 c8 bf8 df4 | r8 bf8 c8 bf8 df2 | r8 bf8 c8 bf8 c8 bf8 df4 | r8 af8 bf8 af8 c2 |
   \break
   r8 af8 bf8 af8 bf8 af8 cf4 | r8 g8 af8 g8 bf4 af4 | g2 g2 | g1 |
-  
+
   \sect "A2"
-  
+
   r8 bf8 c8 bf8 c8 bf8 df4 | r8 bf8 c8 bf8 df2 | r8 bf8 c8 bf8 c8 bf8 df4 | r8 af8 bf8 af8 c2 |
   \break
   r8 af8 bf8 af8 bf8 af8 cf4 | r8 g8 af8 g8 bf4 g4 | ef2 ef2 | ef2. r4 |
-  
+
   \sect "B"
-  
+
   ef8 f8 g8 fs8 g4 ef'4 | ef4 d4 bf4 b4 | d4 c4 g4 a4 | b1 |
   \break
   ef,8 f8 g8 fs8 g4 ef'4 | ef4 d4 bf4 b4 | d4 c4 bf4 af4 | g4 f4 g4 af4 |
-  
+
   \sect "A3"
 
   r8 bf8 c8 bf8 c8 bf8 df4 | r8 bf8 c8 bf8 df2 | r8 bf8 c8 bf8 c8 bf8 df4 | r8 af8 bf8 af8 c2 |
   \break
   r8 af8 bf8 af8 bf8 af8 cf4 | r8 g8 af8 g8 bf4 g4 | ef2 ef2 | ef2. r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

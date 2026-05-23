@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -40,11 +35,11 @@ I'm still in love with _ you. __ You'll
 refrainChords = \chordmode {
   ef1:maj9 af1:9 ef1:maj9 af2:m9 df2:9
   g2:m9 fs4:m9 b4:9 f2:m7 bf2:9
-  
+
   df2:9.11+ c2:7.9- f2:m7 bf2:7.9-
-  
+
   ef2:6 af2:m6 ef2:6 c4:m9 bf4:m9
-  
+
   a2:m9 d2:9 b2:m7 e2:7.9- a2:m9 d2:7 g1:maj9
   a2:m9 c4:m9 f4:7 bf2:maj9 g2:m9 c2:m7 f2:7 f2:m7 bf2:7
 
@@ -56,15 +51,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -73,7 +60,7 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Bill Evans 1965]" 62
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r8 d8 ef8 g8 bf8 d8 c8 g8 | bf8 a8 af8 bf8 f2 | r8 d8 ef8 g8 bf8 d8 c8 g8 |
@@ -86,12 +73,12 @@ refrainMelody = \relative f' {
   ef'1~ | ef2 r4 ef4 |
   } } }
   \sect "B"
-  
+
   d4 d8 d8 d4 ef8 c8 | \tuplet 3/2 { b4 b4 b4 } \tuplet 3/2 { b4 c4 d4 } |
   a4 a8 a8 a4 b8 c8 | d2. e,4 |
   \break
   b'8 a8 g8 a8 bf8 c8 d8 ef8 | f2 r8 d8 c8 bf8 | ef2 r8 c8 bf8 a8 | bf1 |
-  
+
   \sect "A3"
 
   r8 d,8 ef8 g8 bf8 d8 c8 g8 | bf8 a8 af8 bf8 f2 | r8 d8 ef8 g8 bf8 d8 c8 g8 | bf8 a8 af8 bf8 f4. g8 |
@@ -102,10 +89,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

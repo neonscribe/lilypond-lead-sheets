@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -41,14 +36,14 @@ Sing a song, __ play gui -- tar, __ make it snap -- py. __
 
 refrainChords = \chordmode {
   a1 g1 d1 a2 r2
-  
+
   a1 g1 d1 a1
   a1 g1 d1 a1
   a1 g1 d1 a1
   a1 g1 d1 a1
-  
+
   fs1:m a1 fs1:m a1 fs1:m a1 fs1:m g1 e1:7
-  
+
   a1 g1 d1 a1
   a1 g1 d1 a1
 
@@ -59,15 +54,7 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -76,17 +63,13 @@ refrainMelody = \relative f' {
   \tempoFour "Psychedelic Rock [Traffic 1967]" 167
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   \ambitusOff
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq e,16 fs16 a16 c16~ c16 a16 c8 |
   \ambitusOn
 
-
-  \bar "||-||"
-  \break
-
-  \xTextMark \markup{  \musicglyph #"scripts.segno" \bold \box "Verse 1" }
+  \sectSegno "Verse 1"
 
   g''8 g8 g8 a8~ a8 g8 e4 | d8 cs8 d8 e8~( e16 d16 cs8) r4 |
   \break
@@ -102,7 +85,7 @@ refrainMelody = \relative f' {
   d4 d8 cs16 d16~ d4 cs16 d8 e16~ | e8 e8~( e16 d16 cs8) r2 |
 
   \sect "Verse 2"
-  
+
   g'8 g8 g8 a8~ a8 e8~ e16 e8. | d8 cs16 d16~ d8 e8~( e16 d16 cs8) r8 cs8 |
   \break
   c16 d8 d16~ d4 d8 cs8 d8 cs8 | e8.( d16 cs4)
@@ -113,11 +96,9 @@ refrainMelody = \relative f' {
   g''8 g8 g8 a8~ a8 e16 d16~ d16 d8 c16 | d8 d8 c8 e16( d16~ d16 c16 a8) r8 a8 |
   \break
   c16 d8. d8. d16~ d8 c8 e8 e8 | d16( cs16 a4.) r2 \textToCoda |
-  
-  \xPageBreak
 
-  \sect "Bridge"
-  
+  \sectPageBreak "Bridge"
+
   fs'2.( cs4) | <a' \tweak font-size #-2 cs \tweak font-size #-2 e,>2. r4 |
   fs2.( cs4) | <a' \tweak font-size #-2 cs \tweak font-size #-2 e,>2. r4 |
   \break
@@ -126,11 +107,11 @@ refrainMelody = \relative f' {
   <gs \tweak font-size #-2 b \tweak font-size #-2 e,>1 |
 
   \sect "Verse 3"
-  
+
   g8 g8 g8 a8~ a8 g8 e4 | d8 cs8 d8 e8~( e16 d16 cs8) r4 |
   \break
   cs8 d4 cs16 d16~ d8 cs16 d16~ d8 e8~ |
-  e8 e8~( e16 d16 cs8) 
+  e8 e8~( e16 d16 cs8)
   \ambitusOff
   e,,16 fs16 a16 c16~ c16 a16 c8 |
   \ambitusOn
@@ -141,7 +122,7 @@ refrainMelody = \relative f' {
   d4 d8 cs16 d16~ d4 cs16 d8 e16~ | e8 e8~( e16 d16 cs8) r2 |
 
   \sect "Solos"
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
   \rsq \rsq \rsq \xTextMark \markup{ \italic "Repeat as desired" } \rsq  |
@@ -149,7 +130,7 @@ refrainMelody = \relative f' {
   }
 
   \textCodaBreak
-  
+
   \bar ":|.|:"
   \repeat volta 2 {
   \rsq \rsq \rsq \xTextMark \markup{ \italic "Repeat until cue" } \rsq |
@@ -159,10 +140,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

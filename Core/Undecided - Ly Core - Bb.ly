@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -54,15 +49,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,24 +58,24 @@ refrainMelody = \relative f' {
   \tempoFour "Up [Ella Fitzgerald with Chick Webb 1939]" 206
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
   a8 bf8 a8 bf8 g4. bf8 | c8 c8 bf4 df4 c8 bf8~ | bf1 | r1 |
 
   \sect "A2"
-  
+
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
   a8 bf8 a8 bf8 g4. bf8 | c8 c8 bf4 df4 c8 bf8~ | bf1~ | bf2 r4 bf8 bf8 |
 
-  \sect "B"
-  
+  \sectPageBreak "B"
+
   c8 c8 bf8 af8 bf4 af8 bf8 | c8 c8 bf8 af8 bf8 af4 bf8 |
   c8 c8 bf8 g8 bf4 g8 bf8 | c8 bf4.~ bf4 g8 bf8 |
   c8 c8 bf8 g8 bf4 g8 bf8 | c8 c8 bf8 g8 bf8 g4 bf8 |
   c8 c8 a8 f8 a4 f8 a8 | c8 f,4.~ f2 |
-  
+
   \sect "A3"
 
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
@@ -99,10 +86,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

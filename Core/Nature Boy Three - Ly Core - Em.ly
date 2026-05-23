@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "eden ahbez"
   copyright = \markup \small { \now " " "© 1948 Crestview Music Corp." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 There was a boy, __ a ver -- y strange en -- chant -- ed boy. __
@@ -35,32 +32,24 @@ just to love __ and be loved in re -- turn.” __
 }
 
 refrainChords = \chordmode {
-  s4
-  
-  e2.:m9 b2.:7.9- e2.:m9 b2.:7.9- 
+  s8
+
+  e2.:m9 b2.:7.9- e2.:m9 b2.:7.9-
   e4:m e2:m7+ e4:m7 e2:m6 a4:m6 e2:m fs2.:m7.5-
   b2.:7 b2.:7 e2.:m e2.:m
-  
+
   fs2.:7 fs2.:7 b2.:7 b2.:7.9-
-  
-  e2.:m9 b2.:7.9- e2.:m9 b2.:7.9- 
+
+  e2.:m9 b2.:7.9- e2.:m9 b2.:7.9-
   e4:m e2:m7+ e4:m7 e2:m6 a4:m6 e2:m fs2.:m7.5-
   b2.:7 b2.:7 e2.:m e2.:m
-  
+
   fs2.:7 b2.:7.5+ e2.:m9 e2.:m9
 }
 
 refrainKey = e
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -68,40 +57,31 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Nat King Cole 1947]" 64
 
-  \partial 4 \invisEighth b,8 |
-  
+  \partial 8 b,8 |
+
   \sectNoBreak "A1"
-  
+
   b'8 g8 e2~ | e8 b8 fs'8 g8 a8 c8 | b8 g8 e2~ | e8 b8 fs'8 g8 a8 c8 |
-  \break
   b8 e8 ds2 | b8 d8 cs2 | a8 c8 b4~ b8 e,8 | fs2 r8 b,8 |
 
   \sect "B"
 
   b'8 g8 fs2~ | fs2 r8 b,8 | a'8 g8 e2~ | e2 r8 b8 |
-  \break
   g'8 fs8 cs2~ | cs2 d4 | ds2.~ | ds2 r8 b8 |
 
   \sect "A2"
-  
+
   b'8 g8 e2~ | e8 b8 fs'8 g8 a8 c8 | b8 g8 e2~ | e8 b8 fs'8 g8 a8 c8 |
-  \break
   b8 e8 ds2 | b8 d8 cs2 | a8 c8 b4~ b8 e,8 | fs2 r8 b,8 |
 
   \sect "C"
 
   b'8 g8 fs2~ | fs2 r8 b,8 | a'8 g8 e2~ | e2 r8 b8 |
-  \break
   g'8 fs8 cs4~ cs8 b8 | a'8_\markup{ \italic "ritard last time" } g4. b,8 fs'8 | e2.~ | e2 r4 |
 
 \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

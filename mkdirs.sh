@@ -23,3 +23,27 @@ mkdir -p Standard/Eb
 mkdir -p Standard/Viola
 
 mkdir -p TeXify
+
+mkdir -p 'NoteNames/Alto Voice'
+mkdir -p 'NoteNames/Alto Voice/Bass'
+mkdir -p 'NoteNames/Alto Voice/Bb'
+mkdir -p 'NoteNames/Alto Voice/Eb'
+
+mkdir -p 'NoteNames/Baritone Voice'
+mkdir -p 'NoteNames/Baritone Voice/Bass'
+mkdir -p 'NoteNames/Baritone Voice/Bb'
+mkdir -p 'NoteNames/Baritone Voice/Eb'
+
+mkdir -p NoteNames/Others
+mkdir -p NoteNames/Book
+
+mkdir -p NoteNames/Standard
+mkdir -p NoteNames/Standard/Bass
+mkdir -p 'NoteNames/Standard/Bass Line'
+mkdir -p 'NoteNames/Standard/Guitar Solo'
+mkdir -p NoteNames/Standard/Bb
+mkdir -p NoteNames/Standard/Eb
+mkdir -p NoteNames/Standard/Viola
+
+mkdir -p NoteNames/TeXify
+( cd NoteNames; ln -s ../Include Include )

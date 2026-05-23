@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -35,7 +30,7 @@ refrainChords = \chordmode {
   c1 c1 e1:7 e1:7
   f1 f1 c1 c1
   d1:7 d1:7 g1:7 g1:7
-  
+
   c1 c1 gf1:dim7 gf1:dim7
   c1 c1 e1:7 e1:7
   f1 f1 c1 c1
@@ -44,15 +39,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -60,18 +47,17 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Les Paul and Mary Ford 1951]" 130
 
-  \partial 2 
+  \partial 2
   <f \har b \har d>4(
   <g \har c \har e>4) |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
-  <e \har g \har c>4 r4 r2 | r2 
+  \sectNoBreak "A1"
+
+  <e \har g \har c>4 r4 r2 | r2
   <g \har c \har e>2 |
   <a \har c \har ef>2 r2 | r2
   <g \har c \har e>2 |
-  \break
+  %% \break
   <e \har g \har c>2
   <a \har c \har ef>2 |
   <a \har c \har ef>2
@@ -81,16 +67,16 @@ refrainMelody = \relative f' {
   \acciaccatura d8
   <e \har b \har gs'>4(
   <d \har b \har gs'>2.) |
-  
+
   \sect "B"
-  
+
   <c \har f \har a>1~ |
   <c \har f \har a>2
   <a \har d \har f>2 |
   <a \har d \har f>4(
   <g \har d' \har f>4) r2 | r2
   <e' \har g, \har g'>2 |
-  \break
+  %% \break
   <e \har c \har f>2
   <d \har a \har f'>2~ |
   <d \har a \har f'>2
@@ -102,7 +88,7 @@ refrainMelody = \relative f' {
   <g \har c \har e>4) |
 
   \sect "A2"
-  
+
   <g \har c \har e>4(
   <e \har g \har c>4) r2 | r2
   <g \har g \har c>4(
@@ -110,7 +96,7 @@ refrainMelody = \relative f' {
   <c \har a \har ef'>4(
   <a \har fs \har c'>2) r4 | r2
   <g \har c \har e>2 |
-  \break
+  %% \break
   <e \har g \har c>2
   <g \har c \har e>2 |
   <a \har c \har e>2
@@ -119,7 +105,7 @@ refrainMelody = \relative f' {
   <e \har b \har gs'>1 |
   <e \har b \har gs'>4(
   <d \har b \har gs'>2.) |
-  
+
   \sect "C"
 
   <c \har f \har a>2 r2 | r2
@@ -128,7 +114,7 @@ refrainMelody = \relative f' {
   <a \har d \har f>4(
   <g \har c \har e>4) r2 | r2
   <e' \har c \har g'>2 |
-  \break
+  %% \break
   <f \har c \har af'>2(
   <c \har af \har f'>2) |
   \acciaccatura a8
@@ -141,10 +127,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

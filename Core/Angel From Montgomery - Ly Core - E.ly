@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -50,10 +45,10 @@ To be -- lieve __ in this liv -- in' is just a __ hard way __ to go. __
 
 refrainChords = \chordmode {
   e4*3 a4*5 e4*3 a4*5
-  
+
   e1 a1 e1 a1 e1 a1 b4*3 e4*5
   e1 a1 e1 a1 e1 a1 b4*3 e4*5
-  
+
   e1 d1 a1 e1
   e1 d1 a1 e1
   e1 d1 a1 e1
@@ -62,11 +57,11 @@ refrainChords = \chordmode {
   e4*3 a4*5 e4*3 a4*5
 
   b4*3 e4*5
-  
+
   b2:m7 g4 e1 e1
-  
+
   e4*3 a4*5
-  
+
   e1 a1 e1 a1 e1 a1 b4*3:7 e4*5
   e1 a1 e1 a1 e1 a1 b4*3:7 e4*5
 
@@ -76,15 +71,7 @@ refrainChords = \chordmode {
 
 refrainKey = e
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -92,8 +79,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Bonnie Raitt 1974]" 125
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
   \ambitusOff
   \bar ".|:"
   \repeat volta 2 {
@@ -102,54 +89,47 @@ refrainMelody = \relative f' {
   }
   \bar "||-:|."
   \ambitusOn
-  
+
   \sectNoBar "Verse"
   \segnoSign
-  
+
   r4 b,8 gs'8 gs8 gs4 fs8 | e2 r2 | r4 gs8 gs8 fs8 e4 fs8 | e2 r2 |
-  \break
   r4 b8 gs'8 gs4 fs8 e8 | fs8 e8~ e2. | g8( fs8) e8 e8~ e8 cs8( e4~ | e2) r2 |
   \break
   r4 b8 g'8~ g4. e8 | fs8 e8~ e2. | r8 b8 g'8 g8~ g8 fs8 e8 fs8 | e2 r2 |
-  \break
   r8 g8 g4 g4 fs8 e8 | fs4 e2 cs8( b8) \textToCodaI | gs'4 gs8( fs8) e8 e4.~ | e2 r2 |
-  
+
   \sect "Chorus"
   \segnoSegnoSign
-  
+
   r4 gs4 e4 e8 fs8~ | fs4 d2 r8 cs8 | e2 fs4 e8 gs8~ | gs4 e2 r4 |
-  \break
   r4 gs4 e4 e8 fs8~ | fs4 d2 e8 e8 | gs4 b4 gs4 fs8( e8~ | e2) r2 |
   \break
   r4 gs4 gs8( fs8) e8 fs8~ | fs4 d2 r8 cs8 | e4 cs8 gs'8~ gs4 gs8( fs8 | e4) e2 r4 |
-  \break
   r8 b8 cs8 gs'8~ gs8 fs8 e4 | fs8 e4 cs8 e4 cs8( b8) \textToCodaIIandIII |
   r4 gs'4 gs8( fs8) e8 e8~ | e2 r2 |
-  \bar "||"
-  
-  \xPageBreak
 
-  \sectNoBarNoBreak "Intro No Repeat"
-  
+  \sectPageBreak "Intro No Repeat"
+
   \ambitusOff
   r4_"(Guitar)" b8 e8 <gs b,>4 <a cs,>4~ | <a cs,>2. e,8 a8 |
   e4 b'8 e8 <gs b,>4 <a cs,>4~ | <a cs,>2. r4 \dalSegnoI |
   \bar "||-||"
   \ambitusOn
-  
+
   \textCodaI
-  
+
   gs4 gs8 gs16( fs16 e4) e4~ | e2 r2 \dalSegnoSegnoII |
   \bar "||-||"
 
   \textCodaIIBreak
-  
+
   \time 3/4
   r4 g8( fs8) fs8. gs16 |
   \numericTimeSignature
   \time 4/4
   e2 r2 |
-  
+
   \ambitusOff
   e8 fs8 e8 fs8 e4 cs8 a'8 |
   \repeat volta 2 {
@@ -160,13 +140,13 @@ refrainMelody = \relative f' {
   \break
 
   r4 b,8 gs'8~ gs4 gs8 gs8 | fs8 e4. r2 | r4 cs8 b8 e8 e8 e8 e8 | cs4 r4 r2 |
-  r4 b16 b8. gs'8 gs4 fs8 | e4 r4 r8 b8 b4 | g'8 g8( fs8) e8 e2~ | e4 r4 r2 | 
+  r4 b16 b8. gs'8 gs4 fs8 | e4 r4 r8 b8 b4 | g'8 g8( fs8) e8 e2~ | e4 r4 r2 |
   \break
   r4 r8 g8 g8 g4. | fs8 e8 fs8 e8~ e4 r4 | r4 fs8 e8 g8 g8 e8 fs8 | e2 r2 |
   r8 b8 cs8 gs'8~ gs4 fs8 e8 | fs8( e8) e4 r8 e8 cs8( b8) | gs'4 gs8( fs8) e8 e4.~ | e2 r2 \dalSegnoSegnoIII |
 
   \textCodaIIIBreak
-  
+
   \time 3/4
   r4 g8( fs8 e8) fs8 |
   \numericTimeSignature
@@ -179,15 +159,10 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -197,7 +172,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
     \vspace #2
     \line { \large { When I was a young girl, well, I had me a cowboy. } }

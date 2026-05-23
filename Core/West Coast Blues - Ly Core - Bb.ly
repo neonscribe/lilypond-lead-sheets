@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -20,14 +15,14 @@ subtitle =
 refrainChords = \chordmode {
   bf2.:7 bf2.:7 af2.:7 af2.:7
   bf2.:7 bf2.:7 b2.:m7 e2.:7
-  ef2.:7 ef2.:7 ef2.:7 ef2.:7 
+  ef2.:7 ef2.:7 ef2.:7 ef2.:7
   bf2.:7 bf2.:7 bf2.:7 bf2.:7
   f2.:7 f2.:7 ef2.:7 ef2.:7
   bf2.:7 bf2.:7 bf2.:7 bf2.:7
 
   bf2.:7 bf2.:7 af2.:7 af2.:7
   bf2.:7 bf2.:7 b2.:m7 e2.:7
-  ef2.:7 ef2.:7 ef2.:m7 af2.:7 
+  ef2.:7 ef2.:7 ef2.:m7 af2.:7
   d2.:m7 g2.:7 cs2.:m7 fs2.:7
   c2.:m7 c2.:m7 c2.:m7 f2.:7
   bf2.:6 df2.:7 gf2.:6 f2.:7
@@ -35,15 +30,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -52,7 +39,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Jazz Waltz [Wes Montgomery 1960]" 152
 
   \xTextMark \markup{ \bold \box "Head" }
-  
+
   d'4 d4 bf8 f8 | af4 bf4 \tuplet 3/2 { ef,8 f8 af8 } | c4 c4 af8 ef8 | gf4 af4 \tuplet 3/2 { f8 g8 bf8 } |
   d4 d4 bf8 f8 | af4 bf4 r8 cs8 |
   \break
@@ -64,8 +51,9 @@ refrainMelody = \relative f' {
   \break
   ef'8 f8 ef8 df8 r8 e,8 | f8 af8 c8 bf8 g8 e8 | d'4 d4 bf8 f8 | af4 bf4 \tuplet 3/2 { f8 g8 bf8 } |
   d4 d4 bf8 f8 | af4 bf4 r4 |
-  
-  \sect "Solos"
+
+  \sectPageBreak "Solos"
+
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
   \break
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
@@ -73,15 +61,10 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
   \break
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

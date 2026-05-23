@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Buckaroo"
   subtitle = "Transcription from Buck Owens' 1965 recording"
@@ -50,15 +45,7 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -67,62 +54,62 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up [Buck Owens 1965]" 190
 
   \xTextMark \markup{ \bold \box "A1/1" }
-  
+
   d2 r2 | r1 | g2 r2 | r1 |
   d2 r2 | r1 | a2 r2 | r1 |
-  
+
   \sect "A2/1"
-  
+
   d2 a'2 | d,2 a'2 | g2 d2 | g2 g2 |
   d2 a'2 | a,2 e'2 | d2 g2 | a2 a2 |
   d,2 g2 | a2 r2 |
-  
+
   \sect "A1/2"
-  
+
   d,2 a'2 | d,2 a'2 | g2 d2 | g2 g2 |
   d2 a'2 | d,2 d2 | a2 e'2 | a4 g4 fs4 e4 |
-  
+
   \sect "A2/2"
-  
+
   d2 a'2 | d,2 a'2 | g2 d2 | g2 g2 |
   d2 a'2 | a,2 e'2 | d2 g2 | a2 a2 |
   d,2 g2 | d2 cs4 b4 |
 
-  \sect "B/1"
-  
+  \sectPageBreak "B/1"
+
   a2 e'2 | a2 e2 | d2 a'2 | d,2 d2 |
   e2 r2 | r1 | r1 | r1 |
-  
+
   \sect "A3/1"
-  
+
   d2 a'2 | d,2 a'2 | g2 d2 | g2 g2 |
   d2 a'2 | a,2 b4 cs4 | d2 g2 | a2 a2 |
   d,2 g2 | a2 r2 |
-  
-  \sect "A1/3"  
+
+  \sect "A1/3"
   \xTextMark "Pedal Steel Solo"
 
   d,2 a'2 | d,2 a'2 | g2 d2 | g2 g2 |
   d2 a'2 | d,2 cs4 b4 | a2 e'2 | a4 g4 fs4 e4 |
-  
+
   \sect "A2/3"
   \xTextMark "Pedal Steel Solo"
-  
+
   d2 a'2 | d,2 a'2 | g2 d2 | g2 g2 |
   d2 a'2 | a,2 e'2 | d2 g2 | a2 a2 |
   d,2 g2 | d4 d4 cs4 b4 |
 
   \sect "B/2"
-  
+
   a2 e'2 | a2 e2 | d2 a'2 | d,2 a'2 |
   e2 r2 | r1 | r1 | r1 |
-  
+
   \sect "A3/2"
-  
+
   d2 a'2 | d,2 a'2 | g2 d2 | g2 g2 |
   d2 a'2 | a,2 e'2 | d2 g2 | a2 a2 |
   d,2 g2 | d4 a4 d2 |
-  
+
   \bar "|."
 }
 

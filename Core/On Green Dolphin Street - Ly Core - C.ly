@@ -1,10 +1,5 @@
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "On Green Dolphin Street"
   subtitle = \subtitle
@@ -33,7 +28,7 @@ refrainChords = \chordmode {
 
   c1:maj7 c1:maj7 ef1:m7/c ef1:m7/c
   d1:maj7/c df1:maj7/c c1:maj7 c2:maj7 a2:7.9-
-  
+
   d2:m7 d2:m7/c b2:m7.5- e2:7.9- a2:m7 a2:m7/g fs2:m7.5- b2:7.9-
   e2:m7 a2:7 d2:m7 g2:7 c1:maj7
 
@@ -43,15 +38,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative c'' {
   \time 4/4
@@ -59,7 +46,7 @@ refrainMelody = \relative c'' {
   \clef \whatClef
 
   \tempoFour "Latin [Miles Davis 1958]" 160
-  \sectStart "A1"
+  \sectNoBarNoBreak "A1"
 
   c2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |
   \break
@@ -91,10 +78,5 @@ refrainMelody = \relative c'' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

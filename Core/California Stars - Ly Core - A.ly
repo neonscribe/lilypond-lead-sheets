@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -17,6 +12,8 @@ subtitle =
   copyright = \markup \small { \now " " "© 1998 Titanic Majesties Music, Woody Guthrie Publications, Words Ampersand Music" }
 }
 
+leadingEighth = ##t
+
 refrainLyrics = \lyricmode {
 I’d like to rest my heav -- y head to -- night, on a bed of Cal -- i -- for -- nia stars.
 I’d like to lay my wear -- y bones to -- night, on a bed of Cal -- i -- for -- nia stars.
@@ -26,8 +23,8 @@ Yes, I’d give my life to lay my head to -- night, on a bed of Cal -- i -- for 
 
 refrainChords = \chordmode {
   a1 a1 e1 e1 d1 d1 a1 a1
-  
-  s2
+
+  s4.
 
   a1 a1 e1 e1 d1 d1 a1 a1
   a1 a1 e1 e1 d1 d1 a1 a1
@@ -38,15 +35,7 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -54,17 +43,17 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Billy Bragg & Wilco 1998]" 110
 
-  \sectStart "Intro, Solo, Outro"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  
+  \sectNoBarNoBreak "Intro, Solo, Outro"
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+
   \sect "Verse"
-  
-  \partial 2 \invisEighth a8 a8 b8 |
+
+  \partial 4. a8 a8 b8 |
   \bar "||"
-  
-  
+
+
   a4 r4 r8 a8 cs8 d8 | cs8( b8) a8 a8~ a8 a8 b8 gs8~ | gs4 r4 r8 gs8 b8 cs8 | d8( cs8) cs8 b8~ b8 a8 a8 fs8 |
   \break
   a4 a8( fs8) a8 b4 cs8~( | cs8 b8) b8 a8~ a8 a8 b8 a8~ | a4 r4 r8 a8 cs8 d8 | cs8( b8) b8 a8~ a8 a8 a8 b8 |
@@ -72,22 +61,17 @@ refrainMelody = \relative f' {
   a4 r4 r8 a8 d4 | cs8 b8( a8) a8~ a8 a8 a8 b8 | gs4 r4 r8 gs8 b8 cs8 | d8 cs4 b8~ b8 a8 fs8 a8~ |
   \break
   a8 a4 a8~ a4 r8 a8 | cs8 b8 b8 a8 a8 a8 b8 a8~ | a4 r4 r8 a8 cs8 d8 | cs8( b8) b8 a8~ a4 r4 |
-  
+
   \sect "Piano Solo"
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I Get Along Without You Very Well"
   subtitle = \subtitle
@@ -59,7 +54,7 @@ refrainChords = \chordmode {
   bf2:maj7 ef2:maj7 d2:m7 df2:dim7 c1:m7 f1:7
   bf1:maj7 d2:m7 df2:dim7 c1:m7 f1:7
   bf2:maj7 f2:7 bf1:maj7
-  
+
   ef2:6 ef2/d c2:m7 f2:7 bf2:maj7 ef2:7 d2:7 af2:7
   g1:m7 c1:7 c1:m7 f1:7
 
@@ -74,15 +69,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -90,16 +77,16 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Frank Sinatra 1955] or Medium Fast [Red Norvo 1939]" 150
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   f4 f8 f8 f4 f4 | g4 f4 bf4 c4 | d1 | r4 a4 bf4 g4 |
   f1 | r4 c4 c4 d4 | ef4 f4 f2 | r4 c4 c4 d4 |
   ef4 f4 f4 g4 | g2. c,4 | c4 d4 ef4 f4 | g4 a4 bf4 c4 |
   d1 | r4 a4 bf4 g4 | f1 | r2 c4 d4 |
   ef4 ef4 ef4 ef4 | ef4 ef4 d4 ef4 | f1 | r1 |
-  
+
   \sect "A2"
-  
+
   f4 f4 f4 f4 | g4 f4 bf4 c4 | d1 | r4 a4 bf4 g4 |
   f1 | r4 c4 c4 d4 | ef4 f4 f2 | r4 c4 c4 d4 |
   ef4 f4 f4 g4 | g2. c,4 | c4 d4 ef4 f4 | g4 a4 bf4 c4 |
@@ -110,9 +97,9 @@ refrainMelody = \relative f' {
   d1 | r2 a4 bf4 | c,1 | r2 a'4 bf4 |
   c2 bf4 d,4~ | d2 r4 bf4 | c4 c4 c8 d4 ef8~ | ef4 ef4 d8 ef4 f8~ |
   f1 | r2 a4 bf4 |
-  
+
   \sect "B"
-  
+
   c,1 | r2 a'4 bf4 | d2 c4 bf4~ | bf2 f4 fs4 |
   g2 g4 g4 | g4. a8~ a4 bf4 | c1 | r1 |
 
@@ -127,10 +114,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

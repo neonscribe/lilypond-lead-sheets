@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "Freddie Hubbard"
   copyright = \markup \small { \now " " "© 1972 Hubtones Music Co." }
 }
+
+leadingEighth = ##t
 
 bridgeKey = c
 
@@ -29,9 +26,9 @@ bridgeMelody = \relative f' {
   \key \bridgeKey \minor
   \clef \whatClef
   \tempo "Free Time"
-  
+
   \xTextMark \markup{ \bold \box "Open Solos" }
-  
+
   r1\fermata | r1\fermata | r1\fermata | r1\fermata \caesura |
   \bar "||"
   \compressMMRests {
@@ -52,7 +49,7 @@ introChords = \chordmode {
 introKicksOverTime = \relative f' {
   r2 c2 | r4 r8 c8~ c2 | r4 c4 r4 c4 | r4 c4 r8 c4. |
 }
-  
+
 
 bassIntro = \relative f' {
   \time 4/4
@@ -70,19 +67,19 @@ bassIntro = \relative f' {
 }
 
 refrainChords = \chordmode {
-  s4
+  s8
 
   c1:m11 bf1:m11 df2:sus7 ef2:sus7 f2:sus7 g2:sus7
   c1:m11 bf1:m11 df2:sus7 ef2:sus7
-  
+
   f2:sus7 g2:sus7
-  
+
   f2:sus7 g2:sus7
-  
+
   c1:m11 bf1:m11 df2:sus7 ef2:sus7
-  
+
   f2:sus7 g2:sus7
-  
+
   f2:sus7 g2:sus7
 
   c1:m11 bf1:m11 df2:sus7 ef2:sus7 f2:sus7 g2:sus7
@@ -93,22 +90,14 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
 
-  \partial 4 \invisEighth c'8~ |
+  \partial 8 c'8~ |
 
   \xTextMark \markup{ \bold \box "Head" \bold \box "A1,A2" "Bass pattern contiues on head" }
 
@@ -122,9 +111,8 @@ refrainMelody = \relative f' {
   ef,2\repeatTie r2 |
   } } }
 
-  \break
-  \xTextMark \markup{ \bold \box "B" }
-  
+  \sectPageBreak "B"
+
   \bar ".|:-||"
   \repeat volta 2 {
   r2 f2 | r4 r8 ef8~ ef4 r4 | r4 gf4 r4 af4 |
@@ -133,9 +121,9 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r4 bf4 r8 c8 r8 c8~ |
   } } }
-  
+
   \sect "A3"
-  
+
   c8 bf8 c8 bf8 g8 f8 ef8 f8~ | f4. ef8~ ef2 | r8 df8 ef8 gf8 af4 f8 ef8 | bf'4 g8 f8 c'8 d16 ef16 f4 |
   r2 f8 ef16 c16 bf8 f8 | g8 ef8 c8 f8~ f8 ef4.~ |
   ef1~_"First Time, to Solos. Last Time, to Outro" | ef2 r2 |
@@ -143,7 +131,7 @@ refrainMelody = \relative f' {
   \break
 
   \xTextMark \markup{ \bold \box "Solos" "Two-feel bass" }
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -162,7 +150,7 @@ outroChords = \chordmode {
 outroKicksOverTime = \relative f' {
   r2 c2 | r4 r8 c8~ c2 | r4 c4 r4 c4 | r4 c4 r8 c4. | c1\fermata |
 }
-  
+
 
 bassOutro = \relative f' {
   \time 4/4
@@ -177,24 +165,22 @@ bassOutro = \relative f' {
   df,8 af'8 df4 ef,8 bf'8 ef4 | f,8 c'8 f8 g,8_"3x, ritard last time" d'8 g4\bendAfter -4 r8 |
   }
   c,,1\fermata |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
+leadingEighth = ##f
 
 \include "../Include/bridge.ily"
 
-\include "../Include/bass-intro-with-kicks.ily"
+\include "../Include/bass-intro.ily"
+
+leadingEighth = ##t
 
 \include "../Include/refrain.ily"
 
-% Just a little bit too much for one page :(
-\pageBreak
+leadingEighth = ##f
 
-\include "../Include/bass-outro-with-kicks.ily"
+\include "../Include/bass-outro.ily"

@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-subtitle = "Standard Key for Viola"
+subtitle = "Alernate Key for Viola"
 whatKey = ef,
 whatClef = "alto"
 

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "All  Blues"
   subtitle = \subtitle
@@ -20,7 +15,7 @@ subtitle =
 refrainChords = \chordmode {
   g2.:7 g2.:7 g2.:7 g2.:7
   g2.:7 g2.:7 g2.:7 g2.:7
-  
+
   g2.:7 g2.:7 g2.:7 g2.:7
   c2.:7 c2.:7 g2.:7 g2.:7
   d2.:7 ef4.:7 d4.:7 g2.:7 g2.:7
@@ -28,15 +23,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 6/8
@@ -45,29 +32,27 @@ refrainMelody = \relative f' {
   \tempoEight "Medium [Miles Davis 1959]" 135
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
-    \new Voice 
-    { \voiceOne
-      \repeat tremolo 12 { g,32 a } | \repeat tremolo 12 { g32 a } |
-      \repeat tremolo 12 { g32 a } | \repeat tremolo 12 { g32 a } |
-      <d' b>4 <e c>8 <f d>4 <e c>8 | <d b>4 <e c>8 <f d>4 <e c>8 |
-      <d b>4 <e c>8 <f d>4 <e c>8 |
-    }
+
+  \ambitusOff
+  \repeat tremolo 12 { g,32 a } | \repeat tremolo 12 { g32 a } |
+  \repeat tremolo 12 { g32 a } | \repeat tremolo 12 { g32 a } |
+  <d' b>4 <e c>8 <f d>4 <e c>8 | <d b>4 <e c>8 <f d>4 <e c>8 |
+  <d b>4 <e c>8 <f d>4 <e c>8 |
+  \ambitusOn
   <<
-    \new Voice 
-    { \voiceOne
-      <d b>4 <e c>8 <f d>4 <e c>8 |
+    { \voiceOne s4 s8 s4 s16 d,16 | }
+    { \xVoiceTwo {
+      <d b>4 <e c>8 <f d>4 <e c>8 | }
     }
-    { \voiceTwo r4 r8 r4 r16 d,16 | }
   >>
   \oneVoice
 
   \sect "Head"
-  
+
   b'4.~ b4~ b16 d,16 | b'8 c16 b8. r4 r16 d,16 | b'16 c16 b4~ b4~ b16 d,16 | b'4. r4. |
   a4 bf8 c4 d8 | c4 bf8 a4~ a16 d,16 | b'2.~ | b4. r4 r16 g16 |
   a2. | bf2. | a4. b4. | a4. g4. |
-  
+
   \bar "|."
 }
 
@@ -85,7 +70,7 @@ refrainBass = \relative f' {
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
-  
+
   \bar "||-||"
   \break
 
@@ -103,15 +88,10 @@ refrainBass = \relative f' {
   ef4~ ef16 af16 d,4. |
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

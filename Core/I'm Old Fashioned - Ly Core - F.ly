@@ -1,15 +1,12 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "newreal" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
-
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
 
 \header {
   title = "I'm Old Fashioned"
@@ -33,15 +30,34 @@ refrainLyrics = \lyricmode {
   To stay old fash -- ioned with me.
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
+  f2:6 d2:m7 g2:m7 c2:7 f2:maj7 d2:m7 g2:m7 c2:7
+  e1:dim7/f f1:maj7 e1:m7.5- a1:7.9-
+  d1:m7 g1:7 d1:m7 g1:7
+  g1:m7 bf2:6 b2:dim7 g1:m7/c c1:7
+
+  f2:6 d2:m7 g2:m7 c2:7 f2:maj7 d2:m7 b2:m7 e2:7
+  a2:maj7 b2:m7 cs2:m7 d2:maj7 e2:7 fs2:dim7 g2:m7 c2:7
+
+  f2:6 d2:m7 g2:m7 c2:7 f2:maj7 d2:m7 g2:m7 c2:7
+  c2:m7 f2:7 bf2:maj7 ef2:7 a2:m7 d2:m7 b2:m7.5- bf2:m6
+  a2:m7 d2:m7 g2:m7 c2:7
+
+  f2:6
+  \chordOpenParen{ d2:m7 }
+  g2:m7
+  \chordCloseParen{ c2:7 }
+}
+
+refrainNRChords = \chordmode {
   f2:6 d2:m7 g2:m7 c2:7 f2:maj7 d2:m7 g2:m7 c2:7
   bf1:6/f f1:maj7 e1:m7.5- a1:7
-  d1:m7 g1:3.5.13 d1:m7 g1:3.5.13
+  d1:m7 g1:13 d1:m7 g1:13
   g1:m7 g2:m7 af2:dim7 g1:m7 c1:7
-  
+
   f2:6 d2:m7 g2:m7 c2:7 f2:maj7 d2:m7 b2:m7 e2:7
   a2:maj7 b2:m7 cs2:m7 d2:7 e2:7 fs2:dim7 g2:m7 c2:7
-  
+
   f2:6 d2:m7 g2:m7 c2:7 f2:maj7 d2:m7 g2:m7 c2:7
   c2:m7 f2:7 bf2:maj7 ef2:9.11+ a2:m7 d4:m7 d4:m7/c b2:m7.5- bf2:m6
   a2:m7 d2:m7 g2:m7 c2:7
@@ -52,17 +68,20 @@ refrainChords = \chordmode {
   \chordCloseParen{ c2:7 }
 }
 
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "newreal" refrainNRChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
+
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -70,8 +89,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Swing [Benny Goodman Trio 1947]" 100
 
-  \xTextMark \markup{ \bold \box "A" }
-  
+  \sectNoBarNoBreak "A"
+
   f2. c4 | c4 c2 c4 | a'2. c,4 | c4 c2 c4 |
   \break
   bf'2. a4 | c,4 c2 a'4 | g1~ | g2. e4 |
@@ -79,18 +98,14 @@ refrainMelody = \relative f' {
   g2. f4 | e2. d4 | g4 a4 g4 f4 | e2. d4 |
   \break
   bf'4 c4 bf4 a4 | g2 f2 | c'1~ | c1 |
-  
-  \bar "||-||"
-  \break
-  \xTextMark \markup{ \bold \box "B" }
+
+  \sectPageBreak "B"
 
   d2. f,4 | f4 f2 e4 | a2. e4 | e4 e2 d4 |
   \break
   cs4 a4 d2 | e4 cs4 fs2 | gs4 e4 a2 | bf4 g4 c2 |
 
-  \bar "||-||"
-  \break
-  \xTextMark \markup{ \bold \box "C" }
+  \sect "C"
 
   f,2. c4 | c4 c2 c4 | a'2. c,4 | c4 c2 c4 |
   \break
@@ -102,10 +117,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

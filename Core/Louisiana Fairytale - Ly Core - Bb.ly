@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -17,12 +12,14 @@ subtitle =
   copyright = \markup \small { \now " " "© 1935 Mills Music, Inc." }
 }
 
+leadingEighth = ##t
+
 refrainLyrics = \lyricmode {
   The dew is hang -- ing dia -- monds in the clo -- ver,
   The moon is list -- 'nin' to the night -- in' -- gale,
   And while we're lost in dreams the world a -- round us seems
   just like a Lou -- si -- an -- a fair -- y -- tale.
-  
+
   The breeze is soft -- ly sing -- ing thru the wil -- lows,
   As hand in hand we stroll a -- long the trail.
   And love is at its height en -- chant -- ing us to -- night,
@@ -40,8 +37,8 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4
-  
+  s8
+
   bf1 bf1:7 ef1 ef1:m
   bf2 d2:7 g2:m g:dim7 bf2 f2:7 bf1
 
@@ -57,58 +54,44 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium-Slow Swing [Fats Waller 1935]" 118
-  
-  \partial 4 \invisEighth f8 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 8 f8 |
+
+  \sectNoBreak "A1"
+
   d8 ef8 e8 f8 d'8 c8 bf8 a8 | af8 af8~ af2 r8 bf8 | c8 bf8 g8 bf8 c8 bf8 g8 bf8 | gf2. r8 c8 |
   \break
   d8 d8 d8 d8 c4. c8 | bf8 bf8 bf8 bf8 g4. gf8 | f8 d'8 f,8 e8 ef8 f8 a8 c8 | bf2. r8 f8 |
-  
+
   \sect "A2"
-  
+
   d8 ef8 e8 f8 d'8 c8 bf8 a8 | af8 af8~ af2 r8 bf8 | c8 bf8 g8 bf8 c8 bf8 g8 bf8 | gf2. r8 c8 |
   \break
   d8 d8 d8 d8 c4. c8 | bf8 bf8 bf8 bf8 g4. gf8 | f8 d'8 f,8 e8 ef8 f8 a8 c8 | bf2. r4 |
-  
+
   \sect "B"
-  
+
   g4. g8 d8 ef8 g8 bf8 | d4 d2~ d8 d8 | c8 c8 c4 \tuplet 3/2 { bf4 d,4 f4 } | a2. a8 a8 |
   \break
   g4. g8 e8 e8 g8 bf8 | d4 d2. | d8 d8 d8 d8~ d8 d8 c8 bf8 | c2. r8 f,8 |
 
-  
+
   \sect "A3"
 
   d8 ef8 e8 f8 d'8 c8 bf8 a8 | af8 af8~ af2 r8 bf8 | c8 bf8 g8 bf8 c8 bf8 g8 bf8 | gf2. r8 c8 |
   \break
   d8 d8 d8 d8 c4. c8 | bf8 bf8 bf8 bf8 g4. gf8 | f8 d'8 f,8 e8 ef8 f8 a8 c8 | bf2. r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

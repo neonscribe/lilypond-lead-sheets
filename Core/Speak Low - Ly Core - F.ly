@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Speak Low"
   subtitle = \subtitle
@@ -35,34 +30,26 @@ Will you speak low to me, speak love to me and soon.
 
 refrainChords = \chordmode {
   s4
-  
-  g1:m7 c1:7 g1:m7 c1:7 g1:m7 c1:7 a1:m7.5- d1:7   
+
+  g1:m7 c1:7 g1:m7 c1:7 g1:m7 c1:7 a1:m7.5- d1:7
   bf1:m7 ef1:7 bf1:m7 ef1:7 a2:m7 d2:7 g2:m7 c2:7 f1:maj7 a2:m7 d2:7
-  
-  g1:m7 c1:7 g1:m7 c1:7 g1:m7 c1:7 a1:m7.5- d1:7   
+
+  g1:m7 c1:7 g1:m7 c1:7 g1:m7 c1:7 a1:m7.5- d1:7
   bf1:m7 ef1:7 bf1:m7 ef1:7 a2:m7 d2:7 g2:m7 c2:7 f1:maj7 f1:maj7
-  
+
   f1:m7 f1:m7 df1:7 df1:7
   ef1:maj7 ef1:maj7 df1:7 c1:7
 
-  g1:m7 c1:7 g1:m7 c1:7 g1:m7 c1:7 a1:m7.5- d1:7   
+  g1:m7 c1:7 g1:m7 c1:7 g1:m7 c1:7 a1:m7.5- d1:7
   bf1:m7 ef1:7 f2:maj7 ef2:7 d1:7 g1:m7 c1:7 f1:maj7
-  
+
   \chordOpenParen{ a2:m7 }
   \chordCloseParen{ d2:7 }
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,56 +58,46 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Anita O'Day 1952]" 140
 
   \partial 4 c4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
-  a'1~ | a2 \tuplet 3/2 { g4 d4 g4 } | a1~ | a2 \tuplet 3/2 { g4 d4 g4 } | 
+  \sectNoBreak "A1"
+
+  a'1~ | a2 \tuplet 3/2 { g4 d4 g4 } | a1~ | a2 \tuplet 3/2 { g4 d4 g4 } |
   \break
   a2 \tuplet 3/2 { g4 d4 g4 } | a2. g4 | d'2. c4| d2. a4 |
   \break
   c1~ | c2 \tuplet 3/2 { bf4 f4 bf4 } | c1~ | c4. bf16( c16) \tuplet 3/2 { bf4 f4 g4 } |
   \break
   a4. a8~ \tuplet 3/2 { a4 e4 f4 } | g4. g8~ \tuplet 3/2 { g4 f4 e4 } | d2 d2 | d2. c4 |
-  
+
   \sect "A2"
-  
-  a'1~ | a2 \tuplet 3/2 { g4 d4 g4 } | a1~ | a2 \tuplet 3/2 { g4 d4 g4 } | 
+
+  a'1~ | a2 \tuplet 3/2 { g4 d4 g4 } | a1~ | a2 \tuplet 3/2 { g4 d4 g4 } |
   \break
   a2 \tuplet 3/2 { g4 d4 g4 } | a2. g4 | d'2. c4| d2. a4 |
   \break
   c1~ | c4. bf16( c16) \tuplet 3/2 { bf4 f4 bf4 } | c1~ | c4. bf16 c16 \tuplet 3/2 { bf4 f4 g4 } |
   \break
   a4. a8 \tuplet 3/2 { a4 e4 f4 } | g4. g8 \tuplet 3/2 { g4 f4 e4 } | f1 | r1 |
-  
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "B"
 
-  \xTextMark \markup{ \bold \box "B" }
-  
   \tuplet 3/2 { ef'4 d4 c4 } ef2~ | ef2 af,2 | g2. f4 | f1 |
   \break
   \tuplet 3/2 { d'4 c4 bf4 } d2~ | d2 g,2 | f2. e4 | e2. c4 |
-  
+
   \sect "A3"
 
-  a'1~ | a2 \tuplet 3/2 { g4 d4 g4 } | a1~ | a4 r8 g8 \tuplet 3/2 { g4 d4 g4 } | 
+  a'1~ | a2 \tuplet 3/2 { g4 d4 g4 } | a1~ | a4 r8 g8 \tuplet 3/2 { g4 d4 g4 } |
   \break
   a2 \tuplet 3/2 { g4 d4 g4 } | a2. g4 | d'2. c4| d2. a4 |
   \break
   c1~ | c2 \tuplet 3/2 { bf4 f4 g4 } | a1~ | a4 a4 bf4 c4 |
   \break
   d4 d4 d4. d8 | d4 d4 d4. d8 | d1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "The Gentle Rain"
   subtitle = \subtitle
@@ -39,10 +34,10 @@ like the gen -- tle rain. __
 refrainNewRealChords = \chordmode {
   c1:m c1:m g1:7/b g1:7/b
   bf1:m7 ef2:sus7 ef2:7 af1:maj7 af1:maj7
-  
+
   a1:m7.5- d1:7 g1:m7.5- c1:7
   f1:m7.5- d2:m7.5- df2:7 c1:m d2:m7.5- g2:7
-  
+
   c1:m c1:m g1:7/b g1:7/b
   bf1:m7 ef2:sus7 ef2:7 af1:maj7 af1:maj7
 
@@ -51,7 +46,7 @@ refrainNewRealChords = \chordmode {
   \chordInsideParens{ g2:7/b }
   bf2:m7 ef2:7 af1:maj7
   ef2:sus9 ef2:13 af1:maj7 g1:m7 c1:m
-  
+
   \chordOpenParen{ d2:m7.5- }
   \chordCloseParen{ g2:7 }
 }
@@ -59,10 +54,10 @@ refrainNewRealChords = \chordmode {
 refrainRealLatinBookChords = \chordmode {
   c1:m c1:m6 d1:m7.5- g1:7
   c2:m7 f2:9 bf2:m7 ef2:9 af1:maj9 af1:maj9
-  
+
   a1:m7.5- d1:7 g1:m7.5- c1:7.9-
   f1:m7.5- d1:m7.5- c1:m df1:7.11+
-  
+
   c1:m c1:m6 d1:m7.5- g1:7
   c2:m7 f2:7 bf2:m7 ef2:9 af1:maj7 af1:maj7
 
@@ -70,7 +65,7 @@ refrainRealLatinBookChords = \chordmode {
   f1:m7.5- d1:m7.5- c2:m7 f2:9 bf2:m7 ef2:9
 
   af1:maj9 ef1:13 af1:maj9 g1:7.9+.5+ c1:m7
-  
+
   \chordOpenParen{ d2:m7.5- }
   \chordCloseParen{ g2:7 }
 }
@@ -79,15 +74,7 @@ refrainChords = \refrainRealLatinBookChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -103,25 +90,22 @@ refrainMelody = \relative f' {
   g1~ | g2 g8 bf8 g8 ef8 | f1~ | f1 |
 
   \sect "B1"
-  
+
   ef'2~ \tuplet 3/2 { ef4 d4 c4 } | c2~ \tuplet 3/2 { c4 bf4 a4 } |
   df2~ \tuplet 3/2 { df4 c4 bf4 } | bf2~ \tuplet 3/2 { bf4 af4 g4 } |
   \break
   cf2~  \tuplet 3/2 { cf4 bf4 af4 } | af2~ \tuplet 3/2 { af4 g4 f4 } |
   g1~ | g1 |
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "A2"
 
-  \sectNoBarNoBreak "A2"
-  
   g2~ \tuplet 3/2 { g4 f4 ef4 } | ef2~ \tuplet 3/2 { ef4 f4 g4 } |
   g2~ \tuplet 3/2 { g4 f4 ef4 } | d2~ \tuplet 3/2 { d4 ef4 f4 } |
   \break
   g1~ | g2 g8 bf8 g8 ef8 | f1~ | f1 |
 
   \sect "B2"
-  
+
   ef'2~ \tuplet 3/2 { ef4 d4 c4 } | c2~ \tuplet 3/2 { c4 bf4 a4 } |
   df2~ \tuplet 3/2 { df4 c4 bf4 } | bf2~ \tuplet 3/2 { bf4 af4 g4 } |
   \break
@@ -129,7 +113,7 @@ refrainMelody = \relative f' {
   g1~ | g2 g8 bf8 g8 ef8 |
 
   \sect "C"
-  
+
   f1~ | f2 g8 c8 g8 ef8 | f1~ |
   \break
   f2 d'8 f8 d8 bf8 | c1~ | c1 |
@@ -138,10 +122,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "C Jam Blues"
   subtitle = \subtitle
@@ -18,22 +13,14 @@ subtitle =
 }
 
 refrainChords = \chordmode {
-  c1:7 c1:7 c1:7 c1:7 
+  c1:7 c1:7 c1:7 c1:7
   f1:7 f1:7 c1:7 c1:7
   d1:m7 g1:7 c1:7 c1:7
 }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -51,10 +38,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

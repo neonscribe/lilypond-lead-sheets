@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -36,7 +31,7 @@ refrainChords = \chordmode {
 
   ef2 g4:m7 gf4:dim7 f2:m7 bf2:7 ef2:6 g2:7.5+ af2:maj7 a2:dim7
   g2:m7 c2:m7 f2:m7 bf2:7 ef1:6 df2:m7 gf2:7
-  
+
   cf1:maj7 af1:m7 ef2:m7 af2:7 df2:m7 gf2:7
   cf1:maj7 af2:m7 bf2:7 ef2:m7 c2:7 f2:m7 bf2:7
 
@@ -49,15 +44,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -65,28 +52,28 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [The Platters 1958]" 56
 
-  \sectStart "A1"
+  \sectNoBarNoBreak "A1"
 
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
   %% \break
   d2 c8 bf8 c,8 ef8 | bf'2 c8 bf8 bf,8 c8 | g'1( | f1) |
-  
+
   %% \break
 
   \sectNoBreak "A2"
-  
+
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
   %% \break
   d2 c8 bf8 c,8 ef8 | bf'2 c8 bf8 bf,8 c8 | ef'1 | r1 |
-  
+
   \sect "B"
-  
+
   ef,8 gf8 ef'4~ ef8 bf8 df8 cf8 |
   ef,8 gf8 bf4~ bf8 af8 \tuplet 3/2 { gf8 af,8 cf8 } |  gf'2 gf2 | gf1 |
   %% \break
   ef8 gf8 ef'4~ ef8 bf8 df8 cf8 |
   ef,8 gf8 bf4~ bf8 af8 g8 f8 | g2 g2 | f1 |
-  
+
   %% \break
 
   \sectNoBreak "A3"
@@ -94,15 +81,10 @@ refrainMelody = \relative f' {
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
   %% \break
   d2 c8 bf8 \tuplet 3/2 { c,8 ef8 g8 } | bf2 c8 bf8 bf,8 c8 | ef1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

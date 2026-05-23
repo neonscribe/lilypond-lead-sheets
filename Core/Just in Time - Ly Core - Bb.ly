@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -31,13 +26,13 @@ and changed my lone -- ly life, that love -- ly day. __
 refrainChords = \chordmode {
   bf1:maj7 bf1:maj7 a1:m7 d1:7
   g1:7 g1:7 c1:7 c1:7
-  
+
   f1:7 f1:7 bf1:7 bf1:7
   ef1:maj7 ef1:maj7 af1:7 a2:m7.5- d2:7
-  
+
   g1:m g1:m7+ g1:m7 c1:7
   bf1:6 bf1:6 af1:7 g1:7
-  
+
   c1:7 f1:7 bf1:6 g1:m7
   c1:7 c2:m7 f2:7 bf1:6
 
@@ -47,15 +42,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -64,25 +51,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Frank Sinatra 1959]" 128
 
   \xTextMark \markup{ \bold \box "A" }
-  
+
   d4 cs8 d8~ d2 | r8 cs4. d4 cs4 | d4 cs8 d8~ d2 | r4 r8 cs8 d4 cs4 |
   \break
   d4 cs8 d8~ d2 | r4 cs8 d8~ d8 g4 d8~ | d1 | r1 |
-  
+
   \sect "B"
-  
+
   d4 cs8 d8~ d2 | r8 cs4. d4 cs4 | d4 cs8 d8~ d2 | r4 r8 cs8 d4 f4 |
   \break
   g4 fs8 g8~ g2 | r4 fs8 g8~ g8 bf4 c8~ | c1 | r1 |
-  
+
   \sect "C"
-  
+
   bf4 a8 bf8~ bf2 | r8 a4. bf4 a4 | bf4 c4 c8 d4 d8~ | d8 c4. c4 bf4 |
   \break
   g4 fs8 g8~ g2 | r8 fs4. g4 bf4 | ef,1 | r8 d4. f4 ef4 |
-  
+
   \sect "D"
-  
+
   d4 cs8 d8~ d2 | r8 cs4. d4 f4 | g4 fs8 g8 r2 | r8 fs4. g4 bf4 |
   \break
   c4 b4 c8 d4. | bf2 c4. bf8~ | bf1 | r1 |
@@ -91,10 +78,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

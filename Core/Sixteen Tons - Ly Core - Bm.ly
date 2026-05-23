@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -39,37 +34,29 @@ to the com -- pa -- ny store.
 
 refrainChords = \chordmode {
   r1*4
-  
+
   r1*2
-  
+
   b2:m b2:m7/a b2:m6/gs fs2
   b2:m b2:m7/a e2:m/g e2:m
   b4:m r4*7
-  
+
   b2:m b2:m7/a b2:m6/gs fs2
   b2:m b2:m7/a b2:m6/gs fs2
   b2:m b2:m7/a e2:m/g e2:m
   b4:m r4*7
   r1*2
-  
+
   r1 r1
-  
+
   b1:m e1:m r1*4
-  
+
   r1*2 fs2:7 b2*3:m
 }
 
 refrainKey = b
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -77,39 +64,39 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Tennessee Ernie Ford 1955]" 140
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
   \ambitusOff
   b4 fs4 d4 b4 | fs8 gs8 as4 b2~ | b1 |
   \ambitusOn
-  b1\fermata |  
+  b1\fermata |
 
   \sect "Verse"
-  
+
   d8 b8 d8 d8 b4 fs4 | b8 b8 b8 fs8~ fs4 r8 fs8 |
   d'4 b4 b4 fs8 fs8 | b8 b8 b8 fs8~ fs4 r4 |
   b8 b8 b8 b8~ b4 b4 | e4 e8 e8~ e4 r8 e8 |
   f4 e8( d8) b4 fs8 fs8 | b4 b4 fs8 fs8 gs4 |
-  
+
   \sect "Chorus"
-  
+
   b4 b4 b4 r4 | d8 d8 b8 b8~ b4 r8 b8 |
   d8 d8 d4 b8 b8 fs4 | b8 b8 b8 fs8 r4 b4 \textToCodaLastTime |
 
   b8 b8 b8 b8 d8 d8 b4 | e8 e4 e8~ e4. f8 |
   b8 f8( fs4) d4 fs,8 fs8 | b8 b8 b4 b2 |
-  
+
   \ambitusOff
   b'4 fs4 d4 b4 | fs8 gs8 as4 b2~ | b1 |
   \ambitusOn
-  
+
   b2~ b4. b8 |
   \bar "||-|."
 
   \xPageBreak
 
   \textCodaBreak
-  
+
   b8 b8 b8 b8 d8^\markup \italic "rit." cs8 b4 | e8 e4 e8~ e2 | r2 r4 fs4^\markup \italic "freely" |
   b2.( as4) | b4( as8 g8) \tuplet 3/2 { f8( e8 d8 } as16. b32 as8 |
   b4.~ b8) r4 fs8^\markup \italic "a tempo" fs8 |
@@ -118,22 +105,17 @@ refrainMelody = \relative f' {
   \ambitusOff
   b'4 fs4 d4 b4 | fs8 gs8 as4 b2~ | b1\fermata |
   \ambitusOn
-  
+
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -157,7 +139,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { Some people say a man is made out of mud } }

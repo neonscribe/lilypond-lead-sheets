@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Ask Me Now (How I Wish)"
   subtitle = \subtitle
@@ -45,21 +40,21 @@ refrainLyrics = \lyricmode {
 refrainChords = \chordmode {
   g4:m7 c4:7 gf4:m7 cf4:7 f4:m7 bf4:7 e4:m7 a4:7 ef2:m7 af2:7
   b2:7 bf2:7 ef2:7 d2:7 df2:maj7 ef2:7
-  
+
   ef2:m7 af2:7 b4:7 bf4:7 a4:7 af4:7
 
   g4:m7 c4:7 gf4:m7 cf4:7 f4:m7 bf4:7 e4:m7 a4:7 ef2:m7 af2:7
   b2:7 bf2:7 ef2:7 d2:7 df2:maj7 ef2:7
-  
+
   ef2:m7 af2:7 df1:6
-  
-  
+
+
   ef2:m7 af2:7 df1:maj7 ef2:m7 d2:7 df1:maj7
   bf2:m7 ef2:7 ef2:7 bf2:m7 ef2:m7 af2:7 gf1:7
-  
+
   g4:m7 c4:7 gf4:m7 cf4:7 f4:m7 bf4:7 e4:m7 a4:7 ef2:m7 af2:7
   b2:7 bf2:7 ef2:7 d2:7 df2:maj7 ef2:7
-  
+
   ef2:m7 af2:7 df1:6
 
   ef2:m7 af2:7
@@ -69,22 +64,14 @@ refrainChords = \chordmode {
 
 refrainKey = df
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative c'' {
   \time 4/4
   \clef \whatClef
   \tempoFour "Ballad [Carmen McRae 1990]" 58
 
-  \sectStart "A1"
+  \sectNoBarNoBreak "A1"
 
   c8 g8 e8 c8 b8 b'4. | bf8 f8 d8 bf8 a8 a'4. |
   \allowBreak
@@ -103,17 +90,14 @@ refrainMelody = \relative c'' {
   f8 df8 bf8 g8 fs8 e'!4. | ef8 df8 \tuplet 3/2 { c8 df8 f8 } c'8 bf4. |
   \allowBreak
   df8 bf8 \tuplet 3/2 { gf8 ef8 bf8 } f'4. af,8 | df1 |
-  \bar "||"
 
-  \xPageBreak
-  
-  \sectNoBar "B"
+  \sectPageBreak "B"
 
   ef8 f8 gf8 af8 c4. bf8 | af1 |
   \allowBreak
   ef8 f8 gf8 af8 b!4. a8 | af1 |
   \allowBreak
-  f'8 ef8 df8 f,8 c'4. ef8 | bf1 | 
+  f'8 ef8 df8 f,8 c'4. ef8 | bf1 |
   \allowBreak
   bf8 af8 gf8 bf,8 f'8 ef4. | ff'8 ef8 df8 bf8 ff'8 ef4. |
 
@@ -129,7 +113,7 @@ refrainMelody = \relative c'' {
   \bar "||-|."
 
   \textCodaBreak
-  
+
   df'8 bf8 \tuplet 3/2 { gf8 ef8 bf8 } f'4. af,8 |
   ef''8 c8 \tuplet 3/2 { af8 f8 c8 } g'4. bf,8 |
   \break
@@ -139,10 +123,5 @@ refrainMelody = \relative c'' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

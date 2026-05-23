@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -27,21 +22,13 @@ refrainChords = \chordmode {
   e1:7.5+.9+ e1:7.5+.9+ ef1:maj7.11+ ef1:maj7.11+
   d1:7.9+ ef1:maj7.11+ e1:7.9+ f2:maj8 ef2:maj7
   df1:7.11+ g1:m7 df2:m7 gf2:7 f1:maj7
-  
+
   f1:maj7 e1:7.9+
 }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -49,19 +36,19 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast [Miles Davis 1965]" 288
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   c'4. g8~ g4. d8~ | d4. g8~ g4 c8 g8~ | g4. d8~ d4. c'8~ | c8 g4.~ g4 r4 |
   \break
   r4 r8 c8~ c4 g8 d8~ | d4. g8~ g4 c8 a8~ | a4. f8~ f4. g8~ | g8 f4.~ f4 r4 |
 
   \sect "B"
-  
+
   d'2~ d4. c8 | a2. g8 f8 | d4. d8~ d4 g8 e8~ | e2 f4. bf8 |
   \break
   g2. b8 g8 | f4 d'4 b4 g8 f8~ | f4. d8~ d4 r4 | r1 |
-  
-  \sect "A2"
+
+  \sectPageBreak "A2"
 
   c'4. g8~ g4. d8~ | d4. g8~ g4 c8 g8~ | g4. d8~ d4. c'8~ | c8 g4.~ g4 r4 |
   \break
@@ -73,19 +60,14 @@ refrainMelody = \relative f' {
   \break
   g2 ef4. d8~ | d2 \tuplet 3/2 { f4 bf4 d4 } | ef4. bf8~ bf4. a8~ \daCapoAfterSolos | a8 d4. d2 |
   \bar "||-||"
-  
+
   \textCodaBreak
-  
+
   a8\repeatTie d4.~ d2~ | d1\fermata |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

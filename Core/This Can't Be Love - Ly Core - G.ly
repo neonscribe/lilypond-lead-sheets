@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "This Can't Be Love"
   subtitle = \subtitle
@@ -32,10 +27,10 @@ refrainChords = \chordmode {
   g1:maj7 g1:maj7 c1:7 c1:7
   b2:m7 e2:m7 a2:m7 d2:7
   g2:maj7 c2:7 g1:maj7
-  
+
   fs1:m7 b1:7 e1:m7 e1:m7
   b1:m7.5- e1:7.9- a1:m7 d1:7
-  
+
   g1:maj7 g1:maj7 c1:7 c1:7
   b2:m7 e2:m7 a2:m7 d2:7
   g1:maj
@@ -45,15 +40,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative c'' {
   \time 4/4
@@ -69,7 +56,7 @@ refrainMelody = \relative c'' {
   r4 g4 fs4 g4 | d4 g4 fs4 g4 | e2 g4 a4~ | a2. g4 |
   \break
   d'4 r4 g,4 g4~ | g4 b4 a2 | g1~ | g4 b4 b4 b4 |
-  \bar "||-||"  
+  \bar "||-||"
   \break
   cs,4 r4 e4 ds4~ | ds4 b'4 b8 b4. | d1 | r4 b4 b4 b4 |
   \break
@@ -83,10 +70,5 @@ refrainMelody = \relative c'' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

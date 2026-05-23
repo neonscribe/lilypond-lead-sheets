@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -34,14 +29,14 @@ Why should -- n't we __ sur -- ren -- der when lights are low. __
 refrainChords = \chordmode {
   ef2:maj7 f2:m7 g2:m7 f2:m7 ef2:maj7 f2:m7 g2:m7 c2:7
   f2:m7 bf2:7 g2:m7 c2:7 f2:m7 bf2:7
-  
+
   ef2:6 bf2:7
-  
+
   ef2:maj7 f2:m7 g2:m7 f2:m7 ef2:maj7 f2:m7 g2:m7 c2:7
   f2:m7 bf2:7 g2:m7 c2:7 f2:m7 bf2:7
-  
+
   ef1:6
-  
+
   af2:m7 df2:7 gf1:maj7 b2:m7 e2:7 a1:maj7
   d2:m7 g2:7 c1:maj7 c2:m7 f2:7 f2:m7 bf2:7.9-
 
@@ -52,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -68,8 +55,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Swing [Miles Davis 1953]" 130
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   bf2 g8 g4 g8~ | g8 g4 g8~ g8 g4. | bf2 g8 g4 g8~ | g2. r4 |
   \break
   bf2 g8 g4 g8~ | g8 g4 g8~ g8 af4. | g2 ef8 f4 ef8~ |
@@ -83,13 +70,13 @@ refrainMelody = \relative f' {
   ef2 r2 |
 
   \sect "B"
-  
+
   gf2 gf4 af8 bf8~ | bf8 df4.~ df4 r4 | a2 a8 b4 cs8~ | cs2. r4 |
   \break
   c2 c8 d4 e8~ | e8 g,4. r8 e'8 e8 e8 | ef8 g,4 d'8~ d8 f,4 c'8~ | c2 r8 cf4. |
-  
+
   \sect "A3"
-  
+
   bf2 g8 g4 g8~ | g8 g4 g8~ g8 g4. | bf2 g8 g4 g8~ | g2. r4 |
   \break
   bf2 g8 g4 g8~ | g8 g4 g8~ g8 af4. | g2 ef8 f4 ef8~ | ef2 r2 |
@@ -98,10 +85,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+$(if (not (and (defined? 'midiOnly) midiOnly))
+  #{
 \paper {
   system-system-spacing =
     #'((basic-distance . 20) 
@@ -20,3 +22,4 @@
   } 
   evenHeaderMarkup = \oddHeaderMarkup 
 }
+#} )

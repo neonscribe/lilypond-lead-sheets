@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -48,7 +43,7 @@ and he loves me, there is no -- thing more I can say. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
@@ -69,15 +64,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -86,37 +73,32 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Guy Lombardo 1931]" 120
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   c'2. d4 | d4 g,2. | c8 c8 c8 c8 c8 cs8 d8 g,8~ | g1 |
   \break
   a2. c4 | c4 f,2. | b,8 c8 e8 g8 gs8 a8 b,8 c8~ | c1 |
-  
+
   \sect "A2"
-  
+
   c'2. d4 | d4 g,2. | c8 c8 c8 c8 c8 cs8 d8 g,8~ | g1 |
   \break
   a2. c4 | c4 f,2. | b,8 c8 e8 g8 gs8 a8 b,8 c8~ | c1 |
-  
+
   \sect "B"
-  
+
   c8 af'8 af8 g8 g8 f8 f8 c8 | e16 f16 g8~ g2. | c,8 af'8 af8 g8 g8 f8 f8 e8 | g1 |
   \break
   ef8 cf'8 cf8 bf8 bf8 af8 af8 ef8 | g16 af16 bf8~ bf2. | gf8 af8 bf2. | g8 a8 b2. |
-  
+
   \sect "A3"
 
   c2. d4 | d4 g,2. | c8 c8 c8 c8 c8 cs8 d8 g,8~ | g1 |
   \break
   a2. c4 | c4 f,2. | b,8 c8 e8 g8 gs8 a8 b,8 c8~ | c1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

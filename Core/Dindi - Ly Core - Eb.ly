@@ -1,25 +1,36 @@
 %% -*- Mode: LilyPond -*-
 
-\include "../Include/lead-sheets.ily"
+%{
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
+"Customizer": { "choices": { "lyricsLanguage": [ "portuguese", "english" ] } }
+
+%}
 
 #(set-global-staff-size 18)
+
+\include "../Include/lead-sheets.ily"
+
+lyricsLanguage = #(if (defined? 'lyricsLanguage)
+		   lyricsLanguage
+		   "portuguese")
+
+lyricsCredit = #(let ((v (assoc lyricsLanguage
+			  '(
+			    ("english" . "English lyrics by Ray Gilbert")
+			    ("portuguese" . "Portuguese lyrics by Aloysio de Oliveira")))))
+		 (if v (cdr v) ""))
 
 \header {
   title = "Dindi"
   subtitle = \subtitle
-  poet = "Aloysio de Oliveira/Ray Gilbert"
+  poet = \lyricsCredit
   composer = "Antônio Carlos Jobim"
   copyright = \markup \small { \now " " "© 1965 Ipanema Music Inc." }
 }
 
 bossaRhythm = ##t
 
-refrainPortugueseLyrics = \lyricmode {
+refrainLyricsPortuguese = \lyricmode {
 Ah, Din -- di. __ Se sou bes -- ses o bem que~_eu te que -- ro.
 O mun -- do se -- ri -- a, Din -- di, tu -- do, Din -- di, lin -- do, Din -- di.
 Ah, Din -- di. __ Se um di -- a vo -- cê for em -- bo -- ra
@@ -32,7 +43,7 @@ Vo -- cê não e -- xis -- te, Din -- di,
 Ol -- ha, Din -- di, Adivi -- nha, Din -- di. __
 }
 
-refrainEnglishLyrics = \lyricmode {
+refrainLyricsEnglish = \lyricmode {
 Oh, Din -- di, if I on -- ly had words I would say
 all the beau -- ti -- ful things that I see when you're with me, Oh, my Din -- di.
 Oh, Din -- di, like the song of the wind in the trees,
@@ -45,14 +56,21 @@ like a riv -- er that can't find the sea,
 that would be me~_without you, my Din -- di.
 }
 
+refrainLyrics = #(let ((v (assoc lyricsLanguage
+			   (list
+			    (cons "english" refrainLyricsEnglish)
+			    (cons "portuguese" refrainLyricsPortuguese)
+			  ))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
+
 refrainChords = \chordmode {
   ef1:maj7 df1:maj7 ef1:maj7 bf2:m7 ef2:7
   af1:maj7 df1:9.11+ ef1:6 bf1:m7
 
   ef1:maj7 df1:maj7 ef1:maj7 bf2:m7 ef2:7
   af1:maj7 df1:9.11+ ef1:6 a2:m7.5- d2:7
-  
-  g1:m ef1:m6 g2:m ef2:m6 g2:m c2:7.9- 
+
+  g1:m ef1:m6 g2:m ef2:m6 g2:m c2:7.9-
   f1:m df1:m6 f2:m df2:m6 f2:m7 bf2:7
 
   ef1:maj7 df1:maj7 ef1:maj7 bf2:m7 ef2:7
@@ -62,15 +80,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -79,28 +89,28 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Bossa [Astrud Gilberto 1965]" 170
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   bf2. g8 f8~ | f2. g8 af8 |
   bf4 bf8 bf8 \tuplet 3/2 { bf4 c4 bf4 } | df4 c8 bf8 \tuplet 3/2 { af4 g4 f4 } |
   \break
   \tuplet 3/2 { g4 ef4 ef4 } ef2 | \tuplet 3/2 { g4 ef4 ef4 } ef2 |
   \tuplet 3/2 { g4 ef4 ef4 } ef2 | r1
-  
+
   \sect "A2"
-  
+
   bf'2. g8 f8~ | f2. g8 af8 |
   bf4 bf8 bf8 \tuplet 3/2 { bf4 c4 bf4 } | df4 c8 bf8 \tuplet 3/2 { af4 g4 f4 } |
   \break
   \tuplet 3/2 { g4 ef4 ef4 } ef2 | \tuplet 3/2 { g4 ef4 ef4 } ef2 |
   \tuplet 3/2 { g4 ef4 ef4 } ef2 | r1
-  
+
   \sect "B"
-  
+
   r4 r8 d'8 c8 bf8 a8 g8 | gf2~ gf8 ef4 gf8 | g2~ g8 ef4 gf8 | g1 |
   \break
   r4 r8 c8 bf8 af8 g8 f8 | e2~ \tuplet 3/2 { e4 cs4 e4 } |
   f2~ \tuplet 3/2 { f4 cs4 e4 } | f2~ \tuplet 3/2 { f4 g4 af4 } |
-  
+
   \sect "A3"
 
   bf2. g8 f8~ | f2. g8 af8 |
@@ -108,20 +118,10 @@ refrainMelody = \relative f' {
   \break
   \tuplet 3/2 { g4 ef4 ef4 } ef2 | \tuplet 3/2 { g4 ef4 ef4 } ef2 |
   \tuplet 3/2 { g4 ef4 ef4 } ef2~ | ef1
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
 
 \include "../Include/refrain.ily"

@@ -6,7 +6,7 @@
   <<
     { \context ChordNames \with {midiInstrument = "drawbar organ"}
       {
-      \override ChordName.font-size = #+3
+      \override ChordName.font-size = #+2.5
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
      \transpose \refrainKey \whatKey {
@@ -14,6 +14,13 @@
 	}
       }
       }
+    $(if (and (defined? 'printNoteNames) printNoteNames)
+      #{ 
+      \new NoteNames  \tiedNoteToSkip{ 
+      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+      \refrainMelody
+      } }
+      #} )
     \new Staff \with {midiInstrument = "overdriven guitar"} {
       \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
@@ -22,13 +29,6 @@
 	  }
 	}
     }
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames  \tiedNoteToSkip{ 
-      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
-      \refrainMelody
-      } }
-      #} )
   >>
        #}
   (if (not (and (defined? 'straightEighths) straightEighths))
@@ -36,7 +36,7 @@
        <<
     { \context ChordNames \with {midiInstrument = "drawbar organ"}
       {
-      \override ChordName.font-size = #+3
+      \override ChordName.font-size = #+2.5
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
      \transpose \refrainKey \whatKey {
@@ -44,14 +44,6 @@
 	}
       }
       }
-    \new Staff \with {midiInstrument = "overdriven guitar"} {
-      \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
-	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
-	  \refrainMelody
-	  }
-	}
-    }
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames  \tiedNoteToSkip{ 
@@ -59,19 +51,6 @@
       \refrainMelody
       } }
       #} )
-  >>
-     #}
-  #{   <<
-    { \context ChordNames \with {midiInstrument = "drawbar organ"}
-      {
-      \override ChordName.font-size = #+3
-      \override ChordName.font-series = #'bold
-      \set chordChanges = ##f
-     \transpose \refrainKey \whatKey {
-       \refrainChords
-	}
-      }
-      }
     \new Staff \with {midiInstrument = "overdriven guitar"} {
       \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
@@ -80,6 +59,19 @@
 	  }
 	}
     }
+  >>
+     #}
+  #{   <<
+    { \context ChordNames \with {midiInstrument = "drawbar organ"}
+      {
+      \override ChordName.font-size = #+2.5
+      \override ChordName.font-series = #'bold
+      \set chordChanges = ##f
+     \transpose \refrainKey \whatKey {
+       \refrainChords
+	}
+      }
+      }
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
@@ -87,6 +79,14 @@
       \refrainMelody
       } }
       #} )
+    \new Staff \with {midiInstrument = "overdriven guitar"} {
+      \include "../Include/staff-settings.ily"
+      \context Voice = "voiceMelody" { 
+	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+	  \refrainMelody
+	  }
+	}
+    }
   >>
        #} ))
   \midi{}  

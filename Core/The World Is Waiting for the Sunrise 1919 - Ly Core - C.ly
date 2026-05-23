@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "The World Is Waiting for the Sunrise"
   subtitle = \subtitle
@@ -26,7 +21,7 @@ And my heart is call -- ing you!
 
 refrainChords = \chordmode {
   s4
-  
+
   c1:6 g1:7.5+ c1:6 e1:7
   f2 fs2:dim7 e2:m7 a2:7 d1:7 d2:m7 g2:7
   c1:6 g1:7.5+ c1:6 e1:7
@@ -35,25 +30,17 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Les Paul and Mary Ford 1951]" 130
-  
+
   \partial 4 ds4 |
   \bar "||"
-  
+
   e2. g4 | a2. g4 | e4 g4 a4 c4 | e2 d2 |
   \break
   c2. a4 | g2. e4 | e4 d2 e4 | d2. ds4 |
@@ -68,10 +55,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

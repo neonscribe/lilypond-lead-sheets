@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -38,22 +33,22 @@ But each time I do, just the thought of you makes me stop, be -- fore I be -- gi
 
 refrainChords = \chordmode {
   s4
-  
+
   f1:m7 bf1:7 ef1:maj7 c1:m7
   f1:m7 bf1:7 ef1:maj7 c1:m7
   f1:m7 bf1:7 ef1:maj7 c1:m7
   f1:m7 bf1:7 ef1:maj7 ef1:6
-  
+
   f1:m7 bf1:7 ef1:maj7 c1:m7
   f1:m7.5- bf1:7.9- ef1:maj7 ef1:maj7
   d1:m7 g1:7 c1:maj7 c1:maj7
   f1:m7 bf1:7 ef1:maj7 ef1:6
-  
+
   f1:m7 bf2:7 bf2:7/af g1:m7 c1:7.9-
   f1:m7 bf2:7 bf2:7/af g2:m7 gf2:7 f2:m7 bf2:7
   a1:m7.5- af1:dim7 g1:m7 c1:7
   f1:m7 bf1:7 ef1:maj7 bf2:m7 ef2:7
-  
+
   af1:maj7 df1:9 ef1:6 g2:m7.5- c2:7
   f1:m7 bf1:7.9- ef1:6
 
@@ -63,15 +58,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -80,10 +67,9 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Frank Sinatra 1956]" 124
 
   \partial 4 bf4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   c2 c2~ | c2 bf8 af4 g8 | g1~ | g2 r4 bf4 |
   \break
   c2 c2~ | c2 bf8 af4 g8 | f4. g8 g2~ | g2. g4 |
@@ -91,9 +77,9 @@ refrainMelody = \relative f' {
   af4 af8 af8 af2~ | af4 g4 g8 f4 ef8 | d4. c8 c2~ | c2 r4 d4 |
   \break
   ef2 ef2~ | ef2 d8 c4 bf8 | bf1~ | bf2 r4 bf'4 |
-  
+
   \sect "B"
-  
+
   c2 c2~ | c2 bf8 af4 g8 | g1~ | g2. bf4 |
   \break
   \tuplet 3/2 { cf4 cf4 cf4  } \tuplet 3/2 { cf4 cf4 cf4 } | cf2 bf8 af4 g8 |
@@ -103,14 +89,9 @@ refrainMelody = \relative f' {
   ds4. e8 e2~ | e2. e4 |
   \break
   f2 f2~ | f2 ef8 d4 c8 | bf1~ | bf2 r4 ef4 |
-  
-  
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "C"
 
-  \xTextMark \markup{ \bold \box "C" }
-  
   \tuplet 3/2 { f4 f4 f4 } \tuplet 3/2 { f4 f4 f4 } |
   \tuplet 3/2 { f2 f4 } \tuplet 3/2 { f4 g4 af4 } |
   \tuplet 3/2 { bf2 bf4 } \tuplet 3/2 { bf4 bf4 bf4 } |
@@ -124,10 +105,10 @@ refrainMelody = \relative f' {
   ef4 ef8 ef8 ef2~ | ef4 d4 d8 c4 bf8 | bf1~ | bf2 d8 c4 bf8 |
   \break
   bf4. bf8 bf2~ | bf4 d4 d8 c4 bf8 | bf4. bf8 bf2~ | bf2. bf8 b8 |
-  
+
 
   \sect "D"
-  
+
   c4. c8 c4 d8 ef8 | f4. f8 f4 ef8 d8 | c4 r8 bf8 ef,8 f4 g8 | bf2. b,8 c8 |
   \break
   g'2 g2~ | g2 g8 f4 ef8 | ef1 | r1 |
@@ -136,10 +117,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

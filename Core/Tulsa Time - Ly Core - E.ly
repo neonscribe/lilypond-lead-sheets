@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Tulsa Time"
   subtitle = \subtitle
@@ -38,8 +33,10 @@ Liv -- in' on Tul -- sa time. __
 }
 
 refrainChords = \chordmode {
+  s1
+
   r1 r1 e1 e1
-  
+
   e1 e1 e1 b1
   b1 b1 b1 e1
 
@@ -52,15 +49,7 @@ refrainChords = \chordmode {
 
 refrainKey = e
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -68,13 +57,12 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Don Williams 1978]" 104
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
+  s1 |
   \ambitusOff
   <<
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 1.0 {
+    { \xVoiceTwo {
 	\revert Stem.direction
 	e8-._"(Electric Guitar)" e8-. ds8-. d8~ d2 | cs8-. cs8-. c8-. b8~ b8 a8 g8( gs8) |
 	e2 s2 | s1 |
@@ -90,8 +78,8 @@ refrainMelody = \relative f' {
      \revert Stem.direction
      \oneVoice
   \ambitusOn
-  
-  \sect "Verse"  
+
+  \sect "Verse"
 
   b8 b8 b8 a8 b8 gs4 as8( | b8) a8 b8 a8 b8 g8 gs8 r8 |
   b8 a8 b8 a8 b8( a8) g8 b8~ | b4 r4 r4 gs8 gs8 |
@@ -106,7 +94,7 @@ refrainMelody = \relative f' {
   b8 b8 cs4 g8( fs8) e8 e8~ | e4 r4 r2 |
 
   \sect "Chorus"
-  
+
   b'8 b8 b4 b8( a8) gs8 b8~ | b4 r4 r2 | gs8 b8 b4 b8( a8) gs8 b8~ | b4 r4 r4 gs8 a8 |
   \break
   a8 b4 b8 b8 fs8 gs8 a8 | a8 a8 a8 b8 b8 fs8 r4 | b8 b8 cs4 g8( fs8) e8 e8~ | e4 r4 r2 |
@@ -116,17 +104,12 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -150,7 +133,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #4
    \line { \large { I left Oklahoma, drivin' in a Pontiac, just about to lose my mind. } }

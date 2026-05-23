@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -28,8 +23,8 @@ bassIntro = \relative f' {
   \key \introKey \minor
   \clef bass
   \tempoFour "Medium Latin [Freddie Hubbard 1967]" 140
-  
-  \sectStart "Intro"
+
+  \sectNoBarNoBreak "Intro"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -45,22 +40,14 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \key \refrainKey \minor
   \clef \whatClef
 
-  \sectStart "Head A"
-  
+  \sectNoBarNoBreak "Head A"
+
   \bar ".|:"
   \repeat volta 2 {
   r2_"Bass continues" a8 bf4 bf8~ | bf8 c4 c8~ c2~ | c4 r4 c8 d4 d8~ | d8 e4 e8~ e4 d8 c8 |
@@ -75,7 +62,7 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \sectNoBar "B"
 
-  
+
   \repeat volta 2 {
   g4. ef8 ef2~ | ef1~ | ef1 | r4 r8 bf8 ef8 f8 g8 bf8 |
   \break
@@ -97,11 +84,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/bass-intro.ily"
 

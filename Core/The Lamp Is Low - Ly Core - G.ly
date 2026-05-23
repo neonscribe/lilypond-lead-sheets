@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "The Lamp Is Low"
   subtitle = \subtitle
@@ -32,7 +27,7 @@ refrainChords = \chordmode {
 
   a1:m9 a1:m9 d1:sus13 d2:sus13 d2:7
   g1:6.9 c1:9 g1:6.9 g1:6.9
-  
+
   d1:m7 d1:m7 g1:7sus g1:9
   c1:maj7 c1:maj7 f1:7 f1:7
 
@@ -46,15 +41,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -62,19 +49,19 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast Swing or Latin or Medium Slow [Mildred Bailey 1939]" 96
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   b1~ | b4 a4 d4 b4 | b2 a2 | g2 a2 |
   \break
   e1~ | e4 d4 g4 fs4 | e1~ | e2 r2 |
-  
+
   \sect "A2"
 
   b'1~ | b4 a4 d4 b4 | b2 a2 | g2 a2 |
   \break
   e1~ | e4 d4 g4 fs4 | e1~ | e2 r2 |
-  
-  \sect "B"  
+
+  \sect "B"
 
   d'1~ | d4 c4 e4 d4 | c2 b2 | a2. b4 |
   \break
@@ -86,15 +73,10 @@ refrainMelody = \relative f' {
   \break
   e'1 | r4 b4 c4 d4 | d4 c4 ef2 | r4 fs,4 fs4 fs4 |
   g1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

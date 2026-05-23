@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -31,26 +26,18 @@ refrainChords = \chordmode {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative c' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  
+
   \tempoFour "Medium Bossa [Paul Desmond 1965]" 190
 
   \partial 2 c8 df4 ef8 |
   \bar "||"
-  
+
   f2~ f8 g4 af8 | bf2 bf,8 c4 df8 | ef8 ef4 ef8~ ef8 f8 g8 af8~ | af2 r8 bf,4 c8 |
   \break
   df2~ df8 ef4 f8 | \acciaccatura fs8 g2~ g4. ef8 | c8 c4.~ c2 | r2 c8 df8 ef8 c8 |
@@ -66,15 +53,10 @@ refrainMelody = \relative c' {
   f2~ f8 g4 af8 | bf2 bf,8 c8 df8 ef8~ | ef8 ef4 ef8 r8 f8 g8 af8~ | af2 r8 bf,4 c8 |
   \break
   df2~ df8 ef4 f8 | g2 bf8 g8 ef8 df8 | c8 ef4.~ ef2 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Sugar"
   subtitle = \subtitle
@@ -33,10 +28,10 @@ introMelody = \relative f' {
   \tempoFour "Medium [Stanley Turrentine 1970]" 122
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
-  r2 <f c g>4 r8 <ef bf af f>8~ | <ef bf af f>1 | 
+  r2 <f c g>4 r8 <ef bf af f>8~ | <ef bf af f>1 |
   r2 <f c g>4 r8 <ef bf af f>8~ |
   \alternative { \volta 1 {
   <ef bf af f>1 |
@@ -46,9 +41,9 @@ introMelody = \relative f' {
         \voiceOne
 	r4 r8 c8 ef8 f8-. r8 g8\laissezVibrer
       }
-     \new Voice = "head" {
-        \voiceTwo
-	<ef bf af f>2.\repeatTie s4 |
+     {
+        \xVoiceTwo {
+	<ef bf af f>2.\repeatTie s4 | }
       }
     >>
     \oneVoice
@@ -60,11 +55,11 @@ introBass = \relative f' {
   \time 4/4
   \key \introKey \minor
   \clef bass
-  
+
   c,2 g'4 r8 g,8~ | g1 | c2 g'4 r8 g,8~ |
-  
+
   g1 |
-  
+
   g2.\repeatTie s4
 
 }
@@ -75,7 +70,7 @@ refrainChords = \chordmode {
   c1.:m7 \chordInsideParens{ d2:m7.5- } g1:sus7 g8*7:7.9-.5+ c8:m7
   c1:m7 gf1:13.11+ f1:m7 ef8*7:9 d8:m7.5-
   d1:m7.5- g1:7.9-.5+ af8*15:9 c8:m7
-  
+
   c1:m7 d2:m7.5- g2:7.5+.9- c1:m7 g1:7.5+.9-
   c1:m7 c1:m7 d1:m7.5- g1:7.5+.9-
   c1:m7 gf1:13.11+ f1:m9 ef1:9
@@ -84,23 +79,14 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
 
-  \xTextMark \markup { \bold \box "Refrain" }
-
+  \sectNoBarNoBreak "Refrain"
   \bar ".|:"
   \repeat volta 2 {
   g4.\repeatTie f8 \tuplet 3/2 { g16 af16 g16 } f8 ef8 f8~ |
@@ -119,36 +105,35 @@ refrainMelody = \relative f' {
   r4 r8
     \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
-  c8 ef8 f8-. r8 
+  c8 ef8 f8-. r8
   \endParenthesis \parenthesize
   g8\laissezVibrer |
   }
-  \break
-  
-  \xTextMark \markup { \bold \box "Solos" }
+  \bar ":|."
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \xPageBreak
+
+  \sectNoBar "Solos"
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \bar "|."
 }
 
 refrainKicksOverTime = \relative f' {
-  s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer 
-  s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer 
-  s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer 
-  s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*15 c8\laissezVibrer 
+  s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer
+  s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer
+  s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer
+  s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*15 c8\laissezVibrer
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/intro.ily"
 

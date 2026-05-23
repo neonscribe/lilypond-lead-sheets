@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "More Than You Know"
   subtitle = \subtitle
@@ -33,13 +26,13 @@ More than I'd show, more than you'd ev -- er know.
 
 refrainChords = \chordmode {
   s2
-  
+
   c2:6 g2:7.5+ g2:m7 c2:7 f2:maj7 e4:m7 a4:7 d2:m7 f2:m6
   g2:7 af2:7.5- g2:7 g2:7/f e2:m7 a2:7 d2:m7 g2:7
 
   c2:6 g2:7.5+ g2:m7 c2:7 f2:maj7 e4:m7 a4:7 d2:m7 bf2:7
   c2:maj7 a2:7 d2:m7 g2:7 c1:6 fs2:m7.5- b2:7
-  
+
   e1:m7 fs2:dim7 b2:7.9+ e1:m7 a2:m7 d2:7
   g2:maj7 e2:m7 a2:m7 d2:7 g2:7 af2:7 g2:7 g2:7.5+
 
@@ -51,15 +44,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -68,28 +53,28 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Beverly Kenney 1959]" 76
 
   \partial 2 \tuplet 3/2 { g4 gs4 a4 } |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   a2 \tuplet 3/2 { g4 gs4 a4 } | a2 \tuplet 3/2 { g4 gs4 a4 } |
   c4 a4 g4 e4 | d2 \tuplet 3/2 { d4 ds4 e4 } |
   \break
   e2 \tuplet 3/2 { d4 ds4 e4 } | e2 \tuplet 3/2 { d4 ds4 e4 } |
   g1 | r2 \tuplet 3/2 { g4 gs4 a4 } |
-  
+
   \sect "A2"
-  
+
   a2 \tuplet 3/2 { g4 gs4 a4 } | a2 \tuplet 3/2 { g4 gs4 a4 } |
   c4 a4 g4 e4 | d2 \tuplet 3/2 { d4 ds4 e4 } |
   \break
   g2 \tuplet 3/2 { g4 gs4 a4 } |  c2 d2 | c1 | r2 b8 a8 g8 fs8 |
 
-  \sect "B"
-  
+  \sectPageBreak "B"
+
   a4 g8 fs8 e4 g4 | fs8 e8 d8 c8 e4 d4 | c4 b2. | r2 d'8 c8 b8 a8 |
+  \break
   c4 b8 a8 g4 b4 | a8 g8 fs8 e8 g4 fs4 | e4 d2. | r2 \tuplet 3/2 { g4 gs4 a4 } |
-  
+
   \sect "A3"
 
   a2 \tuplet 3/2 { g4 gs4 a4 } | a2 \tuplet 3/2 { g4 gs4 a4 } |
@@ -101,10 +86,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

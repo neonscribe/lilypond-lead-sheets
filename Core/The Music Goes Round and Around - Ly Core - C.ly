@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "Edward Farley, Michael Riley"
   copyright = \markup \small { \now " " "© 1935 Anne Rachel Music Corp." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 One night, while play -- ing in the band,
@@ -42,7 +39,7 @@ and it comes up here.
 }
 
 refrainChords = \chordmode {
-  s4
+  s8
 
   c1:6 c1:6 d2:m7 g2:7 c2:6 g2:7
   c2:6 g2:aug/b bf2:dim7 a2:7 d2:7/a d2:7 g2 g2:7
@@ -53,7 +50,7 @@ refrainChords = \chordmode {
   c1:6 c1:6 c2:6 d4:m7 ef4:dim7 e2:m7 ef2:dim7
   d1:m7 g1:9 c1:6 c2:6 e2:7
 
-  a2:m e2:7 a2:m e2:7 a2:m e2:7 a2:m e2:7 
+  a2:m e2:7 a2:m e2:7 a2:m e2:7 a2:m e2:7
   a2:m e2:7 d1:6 d1:m7 g1:7
 
   c1:6 c1:6 c2:6 d4:m7 ef4:dim7 e2:m7 ef2:dim7
@@ -64,51 +61,40 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium-Up [Ella Fitzgerald 1961]" 175
-  
-  \partial 4 \invisEighth g8 |
+
+  \partial 8 g8 |
   \bar "||"
-  
-  \sectStart "Verse"
-  
+
+  \sectNoBarNoBreak "Verse"
+
   c4 g4 b4 a4 | a8 af4 g8~ g4. e8 | f4 d4 e4 f4 | e8 g4 g8~ g4. g8 |
   c4 g4 b4 a4 | a8 af4 g8~ g4. e8 | d4 fs4 a4 c4 | b8 g8 a8 g8~ g4 r8 g8 |
 
   \sect "A1"
-  
+
   c4 c4 c2~ | c2. r8 g8 | c8 c8 c4 c4 b8 b8 | d2 b4 a4 |
   \break
   c4 a2 e4 | g4 g8 g8 f4 e4 | c1~ | c2. r8 g'8 |
-  \bar "||"
-  
-  \xPageBreak
 
-  \sectNoBar "A2"
+  \sectPageBreak "A2"
 
   c4 c4 c4 c4 | c2 r4 r8 g8 | c8 c8 c4 c4 b8 b8 | d2 b4 a4 |
   \break
   c4 a2 e4 | g4 g8 g8 f4 e4 | c1~ | c2. e4 |
-  
+
   \sect "B"
-  
+
   c'4 c4 b8 b8 b4 | a4( e2) r8 e8 | c'8 c8 c4 b4 a8 a8~ | a4 e8 e8~ e4 e8 e8~ |
   \break
   e4 e8 e8~ e4 \tuplet 3/2 { c'8 d8 c8 } | b4 d4 b2 | a8 a8 a8 a8 a8 g8 r8 g8 | g4 r4 r4 g4 |
-  
+
   \sect "A3"
 
   c4 c4 c8 c8 c4 | c2 r4 r8 g8 | c8 c8 c4 c4 b8 b8 | d2 b4 a4 |
@@ -119,10 +105,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

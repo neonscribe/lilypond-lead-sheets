@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "My Attorney Bernie"
   subtitle = \subtitle
@@ -50,25 +45,25 @@ on the dot -- ted line.
 refrainChords = \chordmode {
   \set chordChanges = ##t
   g1:m f2:m9 bf2:13 ef1 d1:7.9+
-  
+
   g1:m f2:m9 bf2:13 ef1 d1:7.9+ g4:1.3.5.9 r4*7
-  
+
   d2:m7.5- d2:m7.5-/g d2:m7.5- d2:m7.5-/g d2:m7.5- d2:m7.5-/g d2:m7.5- d2:m7.5-/g
   d2:m7.5- d2:m7.5-/g d2:m7.5- d2:m7.5-/g \chordInsideParens{ cs4:dim7 } r4*7
 
-  f1:m7 bf1:9 ef1:m7 af1:9 
+  f1:m7 bf1:9 ef1:m7 af1:9
   df1:maj7 gf1:maj9 c1:m7 f1:7.9-
   a2:m7 d2:7 g1:7
-  
+
   d2:m7.5- d2:m7.5-/g d2:m7.5- d2:m7.5-/g d2:m7.5- d2:m7.5-/g d2:m7.5- d2:m7.5-/g
   d2:m7.5- d2:m7.5-/g d2:m7.5- d2:m7.5-/g \chordInsideParens{ cs4:dim7 } r4*7
 
-  f1:m7 bf1:9 ef1:m7 af1:9 
+  f1:m7 bf1:9 ef1:m7 af1:9
   df1:maj7 gf1:maj9 c1:m7 f1:7.9- af1:9.11+ g4:9 r2.
-  
+
   f2.:sus9 bf4:maj7 r1 d2.:sus9 g4:maj7 r1
   f2.:sus9 bf4:maj7 r1 d1:sus9 d2:sus9 \chordInsideParens{ d2:7.5+ }
-  
+
   g1:m f2:m9 bf2:13 ef1 d1:7.9+
 
   ef2.. d8:7.9- r4*8 <g>1
@@ -77,15 +72,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -93,7 +80,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Samba [Dave Frishberg 1982]" 92
 
-  \sectStart "Intro"
+  \sectNoBarNoBreak "Intro"
   \ambitusOff
 
   r8 <bf' d>4 <a cs>8 <af c>4 <g b>8 <af bf>8~ | <af bf>8 <af g'>4 f'8 <af, g'>4 <af f'>4 |
@@ -104,28 +91,26 @@ refrainMelody = \relative f' {
   \repeat volta 3 {
 
   \sectNoBar "A1"
-  
+
   r8 <bf, d>4 <a cs>8 <af c>4 <g b>8 <af bf>8~ | <af bf>8 <af g'>4 f'8 <af, g'>4 <af f'>4 |
   r8 <g bf>4 <fs a>8 <f af>4 <e g>8 <ds fs>8~ | <ds fs>8 <fs f'>4 ef'8 <fs, f'>4 <fs ef'>4 |
-  
+
   <a b d>4-^ r8 <a, b d>8 <a b d>8 <a b d>4 <a b d>8 | <a b d>4 r4
-  
+
   \ambitusOn
 
   g'4 gf4 |
-  
+
   \sect "B1"
-  
+
   f4 r4 r4 r8 f8 | d4 ef8 f8~ f8 g4 f8~ | f8 d4. r2 | r2 g4 gf4 |
   f4 r4 r8 d4 ef8 | f4 g8 af8~ af8 bf4. |
-  
+
   <<
     { \voiceOne
       g4 r4 r2 | r2 f4 g4 |
     }
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	r8 e8 f8 fs8 g8 e8 ef8 d8 | cs4-. r4 r2 |
     }
     }
@@ -133,26 +118,21 @@ refrainMelody = \relative f' {
   \oneVoice
 
   \sect "C1"
-  
+
   af'4 g4 af4 g8 af8~ | af8 c4. bf4 af4 | gf4 f4 gf4 f8 gf8~ | gf8 bf4. af4 gf4 |
   f4 e4 f4 e8 f8~ | f8 af4. gf4 f4 | ef4 d4 ef4 d8 ef8~ | ef8 gf4. f4 f4 | d2 r2 | r2 g4 gf4 |
-  
-  \bar "||"
-  
-  \xPageBreak
 
-  \sectNoBar "B2"
-  
+
+  \sectPageBreak "B2"
+
   f4 r4 r4 r8 f8 | d4 ef8 f8~ f8 g4 f8~ | f8 d4. r2 | r2 g4 gf4 |
   f4 r4 r8 d4 ef8 | f4 g8 af8~ af8 bf4. |
-  
+
   <<
     { \voiceOne
       g4 r4 r2 | r2 f4 g4 |
     }
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	r8 e8 f8 fs8 g8 e8 ef8 d8 | cs4-. r4 r2 |
     }
     }
@@ -160,18 +140,18 @@ refrainMelody = \relative f' {
   \oneVoice
 
   \sect "C2"
-  
+
   af'4 g4 af4 g8 af8~ | af8 c4. bf4 af4 | gf4 f4 gf4 f8 gf8~ | gf8 bf4. af4 gf4 |
   f4 e4 f4 e8 f8~ | f8 af4. gf4 f4 | ef4 d4 ef4 d8 ef8~ | ef4 gf4 f4 f4 | d2 r2 | r4 d8 d8 ef4 e4 |
-  
-  
+
+
   \sect "D"
-  
+
   f4. f8~ f4 f4 | r8 f4 f8 e4 ef4 | d4. d8~ d4 d4 | r4 d8 d8 ef4 e4 |
   f4. f8~ f4 f4 | r8 f4 f8 e4 ef4 | d2 r2 | r2 bf'4. g8 |
-  
+
   \sect "A2"
-  
+
   \ambitusOff
 
   r8 <bf' d>4 <a cs>8 <af c>4 <g b>8 <af bf>8~ | <af bf>8 <af g'>4 f'8 <af, g'>4 <af f'>4 \textToCodaLastTime |
@@ -182,7 +162,7 @@ refrainMelody = \relative f' {
   \bar "||-:|."
 
   \textCodaBreak
-  
+
   r8 <g, bf>4 <fs a>8 <fs af>4 <e g>8 <ds fs>8 | r8 d4 d8 bf'4 bf4 | g2 r2 | <g' g'>4-^ r4 r2 |
 
   \ambitusOn
@@ -192,17 +172,12 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { I'm impressed with my attorney Bernie. I'm impressed with his influential friends. } }

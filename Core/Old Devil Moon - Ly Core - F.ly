@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Old Devil Moon"
   subtitle = \subtitle
@@ -42,37 +37,29 @@ refrainChords = \chordmode {
   f1:maj7 ef1:maj7 f1:maj7 c2:m7 f2:7
 
   bf1:maj7 bf1:maj7 bf1:m7 ef1:7
-  
+
   af2:m7 df2:7 gf2:maj7 c2:7 f1:maj7 ef1:maj7
-  
+
   f2:maj7 ef2:maj7 f2:maj7 ef2:maj7 d1:maj7 d1:m7
   d1:m7 g1:7 g1:m7 c1:7
-  
+
   f1:maj7 ef1:maj7 f1:maj7 ef1:maj7
   f1:maj7 ef1:maj7 f1:maj7 c2:m7 f2:7
 
   bf1:maj7 bf1:maj7 bf1:m7 ef1:7
-  
+
   af2:m7 df2:7 gf2:maj7 c2:7 f1:maj7 ef1:maj7
-  
+
   f1:maj7 ef1:maj7 f1:maj7 ef1:maj7
   f2:maj7 ef2:maj f2:maj7 ef2:maj f1:maj7 ef1:maj7
-  
+
   f1:maj7 ef1:maj7 f1:maj7 ef1:maj7
   f2:maj7 ef2:maj7 f2:maj7 ef2:maj7 f1:maj7 f1:maj7
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -81,7 +68,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Latin to Swing [Chet Baker 1958]" 160
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   f1^\markup { Latin } | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
   \break
   a1 | bf8 bf8 bf8 bf8 bf4 d4 | c1~ | c2 c4^\markup { Swing } c4 |
@@ -95,15 +82,11 @@ refrainMelody = \relative f' {
 
   f2 ef8 c8 ef8 g8~ | g2 \tuplet 3/2 { ef4 c4 ef4 } | a2^\markup { Swing } a2~ | a2 f8 d8 f8 a8~ |
   \break
-  a2 f8 d8 f8 b8~ | b2 \tuplet 3/2 { f4 d4 f4 } | c'2 c2~ | 
+  a2 f8 d8 f8 b8~ | b2 \tuplet 3/2 { f4 d4 f4 } | c'2 c2~ |
   c8^\markup { Stop (head only) } d4 af8 g8 f8 d8 c8 |
 
-  \bar "||"
+  \sectPageBreak "A2"
 
-  \xPageBreak
-
-  \xTextMark \markup{ \bold \box "A2" }
-  
   f1^\markup { Latin } | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
   \break
   a1 | bf8 bf8 bf8 bf8 bf4 d4 | c1~ | c2 c4^\markup { Swing } c4 |
@@ -113,7 +96,7 @@ refrainMelody = \relative f' {
   \break
 
   df2 cf8 bf4 gf8~ | gf2 a8 g4 f8~ | f1^\markup { Latin } | r2 ef8 c8 ef4 |
-  
+
   \xTextMark \markup{ \bold \box "D" }
 
   f2 f2~ | f2 ef8 c8 ef4 | f1~ | f2 \tuplet 3/2 { ef'4 ef4 ef4 } |
@@ -129,7 +112,7 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ "Vamp" }
     r1 |
   }
-  r1 | 
+  r1 |
   r2 \tuplet 3/2 { ef'4 ef4 ef4 } |
   \break
   c2 \tuplet 3/2 { bf4 c4 bf4 } | a2 \tuplet 3/2 { f4 ef4 g4 } | c1~ | c2 r2 |
@@ -138,10 +121,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

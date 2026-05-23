@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Is You Is, or Is You Ain't (Ma' Baby)"
   subtitle = \subtitle
@@ -24,6 +19,7 @@ introLyrics = \lyricmode {
 }
 
 introHLChords = \chordmode {
+  s1
   f2:m f2:m/ef df2:7 c2:7
   f2:m f2:m/ef df2:7 c2:7
   %{
@@ -36,6 +32,7 @@ introHLChords = \chordmode {
 }
 
 introNicoChords = \chordmode {
+  s1
   f2:m ef2 df2:7 c2:7
   f2:m ef2 df2:7 c2:7
   %{
@@ -58,18 +55,18 @@ introMelody = \relative g' {
   \tempoFour "Medium-Slow [Diana Krall 1995]" 117
 
   \xTextMark \markup{ "Intro" }
-  
-  <<
-    \new Voice
-    { \voiceTwo
-      f2 ef2 | df2 c2 |
+
+  s1 |
+ <<
+    { \voiceOne {
+      f2 ef2 | df2 c2 | }
     }
-    { \voiceOne
-      s4 <c' f af>4 s4 <af c f>4 | s4 <af cf f>4 s4 <g bf e>4^\markup { "cont." } |
+    { \xVoiceTwo {
+      s4 <c' f af>4 s4 <af c f>4 | s4 <af cf f>4 s4 <g bf e>4^\markup { "cont." } | }
     }
   >>
   \oneVoice
-  
+
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   %{
@@ -77,7 +74,7 @@ introMelody = \relative g' {
   f8 g8~ g2.~ | g2  af8 g8 f8 df8 | c4. f8 d2 | r2 r4 c4 |
   f8 g8~ g2.~ | g2  af8 g8 f8 df8 | c4. f8 d2 | r1 |
   %}
-  
+
   \bar "||"
 }
 
@@ -100,7 +97,7 @@ verseObjectGenderMaleLyrics = \lyricmode {
 }
 
 verseLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   verseObjectGenderMaleLyrics
   verseObjectGenderFemaleLyrics)
@@ -129,7 +126,7 @@ verseMelody = \relative g' {
   \clef \whatClef
 
   \xTextMark \markup{ "Verse" }
-  
+
   c4 bf8 af8 bf4 af4 | bf8 af4 c4. r4 | r2 bf8 af8 bf8 af8 | bf8 af4 c4. f,8 af8 |
   \break
   c8 c4.~ c2~ | c2. f,8 af8 | c8 c4.~ c2~ | c2. r4 |
@@ -137,7 +134,7 @@ verseMelody = \relative g' {
   c4 bf8 af8 bf4 af4 | bf8 af4 c4. r4 | r4 r8 af8 bf8 af8 bf8 af8 | bf8 af4 c4. f,8 af8 |
   \break
   c8 c4.~ c2~ | c2~ c8 f,8 af8 f8 || c'8 c4.~ c2~ | c2. r4 |
-  
+
   \bar "|."
 
 }
@@ -173,7 +170,7 @@ refrainObjectGenderMaleLyrics = \lyricmode {
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
@@ -184,7 +181,7 @@ refrainHLChords = \chordmode {
 
   f2:m c2:7/g f2:m/af c2:7/g f1:m f8*5:m cf4.:13
   bf1:7 bf2:m7 ef2:7 af1:6 ef2:m7 af2:7
-  
+
   df1:maj7 df1:m7 af1:maj7 ef2:m7 af2:7
   df1:maj7 df1:m7 c2:m7.5- f2:7 bf4:m7 \chordSlash 1 g4:m7.5- c4:7
 
@@ -202,7 +199,7 @@ refrainNicoChords = \chordmode {
 
   f2:m c2:7/g f2:m/af c2:7/g f1:m f8*5:m cf4.:13
   bf1:9 ef1:13 af1:6 af1:7
-  
+
   df1:6 df1:m6 af1:maj7 ef1:m7
   df1:6 df1:m6 c1:m7 c1:7
 
@@ -218,38 +215,29 @@ refrainChords = \refrainNicoChords
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
 
-  \xTextMark \markup{ "Refrain" \bold \box "A1" }
+  \sectStartRefrain "A1"
+
   \set Score.currentBarNumber = #1
-  
+
   c4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r2 r4 r8 f8 |
   \break
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r1 |
-  \bar "||"
 
-  \xPageBreak
-  \sectNoBarNoBreak "A2"
+  \sectPageBreak "A2"
 
   c2. c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r1 |
   \break
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r2 r4 af4 |
 
   \sect "B"
-  
+
   bf8 af4. bf4 af4 | bf8 af4. bf4 af8 c8~ | c8 ef,4.~ ef4 f8 gf8~ | gf2. af4 |
   \break
   bf4 af4 bf4 af4 | bf4 af4 bf4 af4 | c4 c4 c4 c8 c8~ | c4 r4 r2 |
@@ -273,11 +261,6 @@ refrainKicksOverTime = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/intro.ily"
 

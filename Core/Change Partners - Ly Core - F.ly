@@ -8,13 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Change Partners"
   subtitle = \subtitle
@@ -58,7 +51,7 @@ you may nev -- er want to change part -- ners a -- gain.
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
@@ -68,16 +61,16 @@ refrainChords = \chordmode {
   g1:m7 c1:7 bf1:m7 ef1:7
   f1:maj7/a af1:dim7 g1:m7 a2:m7 d2:7.9+
   g1:m7 c1:7
-  
+
   f2:6 d2:7 g2:m7 c2:7
-  
+
   f1:maj7 f1:maj7 af1:dim7 af1:dim7
   g1:m7 c1:7 bf1:m7 ef1:7
   f1:maj7/a af1:dim7 g1:m7 a2:m7 d2:7.9+
   g1:m7 c1:7
-  
+
   f1:6 bf2:m7 ef2:7
-  
+
   af1:maj7 af1:maj7 af1:maj7 bf2:m7 ef2:7
   af1:maj7 af1:maj7 g1:m7 c1:7
 
@@ -91,15 +84,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -107,31 +92,31 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Swing [Fred Astaire 1938]" 150
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   c4. c8 c2~ | c1 | d4. d8 d2~ | d1 |
   e4. e8 e2~ | e2 \tuplet 3/2 { d4 e4 f4 } | bf1~ | bf2 a4 g4 |
   \break
   c2. f,4 | \tuplet 3/2 { e4 g4 f4 } \tuplet 3/2 { e4 f4 d4 } | c1~ | c2 d4 f4 |
   g1 | gs4 a2 c,4 |
-  
+
   d4. d8 d2~ | d1 |
 
   \sect "A2"
-  
+
   c4. c8 c2~ | c1 | d4. d8 d2~ | d1 |
   e4. e8 e2~ | e2 \tuplet 3/2 { d4 e4 f4 } | bf1~ | bf2 a4 g4 |
   \break
   c2. f,4 | \tuplet 3/2 { e4 g4 f4 } \tuplet 3/2 { e4 f4 d4 } | c1~ | c2 d4 f4 |
   g1 | gs4 a2 c,4 |
-  
+
   f4. f8 f2~ | f1 |
 
-  \sect "B"
-  
+  \sectPageBreak "B"
+
   ef2 af4 bf4 | \tuplet 3/2 { c4 df4 c4 } \tuplet 3/2 { bf4 af4 bf4 } | c4. c8 c2~ | c1 |
   ef,2 af4 bf4 | \tuplet 3/2 { c4 df4 c4 } \tuplet 3/2 { bf4 af4 bf4 } | c4. c8 bf4. bf8 | a4. a8 g2 |
-  
+
   \sect "A3"
 
   c,4. c8 c2~ | c1 | d4. d8 d2~ | d1 |
@@ -143,10 +128,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

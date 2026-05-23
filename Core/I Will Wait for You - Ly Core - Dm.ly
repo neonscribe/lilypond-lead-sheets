@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   (set-global-staff-size 18))
 
@@ -66,7 +61,7 @@ refrainChords = \chordmode {
   g1:m7 g1:m7 d1:m7 d1:m7
   e1:m7.5- a1:7.9- b1:m7.5- e1:7.9-
   a1:7.9- a1:7.9-
-  
+
   d1:m7 d1:m7 g1:m7 g1:m7
   c1:7 c1:7 f1:maj7 e2:m7.5- a2:7.9-
 
@@ -79,15 +74,7 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -98,7 +85,7 @@ refrainMelody = \relative f' {
   \partial 2 gs4 a4 |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   g2 f2 | e4 d4 cs'4 d4 | c2 d2 | bf2 fs4 g4 |
@@ -118,19 +105,19 @@ refrainMelody = \relative f' {
   } } }
 
   \sect "B"
-  
-  c8 c8 bf8 bf8 c8 c8 bf4 | d4 c8 bf8~ bf4. a8 | 
+
+  c8 c8 bf8 bf8 c8 c8 bf4 | d4 c8 bf8~ bf4. a8 |
   bf8 bf8 a8 a8 bf8 bf8 a8 a8 | c4 bf8 a8~ a4. g8 |
   \break
   a8 a8 g8 g8 a8 a8 g8 g8 | bf4 a8 g8~ g2 |
   \break
   f1 | r4 e8 f8 g4 d4 | e1~ | e2 gs4 a4 |
-  
+
   \bar "||-||"
   \pageBreak
 
   \xTextMark \markup{ \bold \box "A3" }
-  
+
   g2 f2 | e4 d4 cs'4 d4 | c2 d2 | bf2 fs4 g4 |
   \break
   f2 e2 | d4 c4 b'4 c4 | bf2 a2 | a2 gs4 a4 |
@@ -138,16 +125,11 @@ refrainMelody = \relative f' {
   g2 f2 | e4 d4 cs'4 d4 | c2 bf2 | bf2 a4 g4 |
   \break
   a4 d4 d,2 | e4 a4 a,2 | d1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

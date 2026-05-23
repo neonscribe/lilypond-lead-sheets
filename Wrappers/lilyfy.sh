@@ -12,7 +12,7 @@ for file in *.ly; do
 	FILES+=("$file")
 done
 
-lilypond "${FILES[@]}"
+lilypond $ARGS "${FILES[@]}"
 
 for file in *.ly; do
     if [[ $file =~ "Bass Line for Standard.ly" ]]; then
@@ -114,11 +114,6 @@ for file in *.ly; do
 	    cp "${file%.ly}.pdf" "../Others/"
 	    rm "${file%.ly}.pdf"
     fi
-done
-
-for file in *.midi; do
-    cp "$file" ../Midi/
-    rm "$file"
 done
 
 python parse-log-ambitus.py > range-data.txt

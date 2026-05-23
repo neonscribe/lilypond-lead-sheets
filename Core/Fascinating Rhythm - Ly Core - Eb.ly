@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -46,15 +41,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -63,25 +50,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Ella Fitzgerald 1959]" 114
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   f8 af8 g8 f8 bf8 bf8 r8 f8 | af8 g8 f8 bf8 bf8 r8 f8 af8 | g8 f8 bf8 bf8 r8 f8 af8 g8 | f4 bf,2. |
   \break
   bf'8 df8 c8 bf8 ef8 ef8 r8 bf8 | df8 c8 bf8 ef8 ef8 r8 bf8 df8 | c8 bf8 ef8 ef8 r8 bf8 df8 c8 | bf4 ef,2. |
 
   \sect "B"
-  
+
   r4 ef4 af4 bf4 | c4 bf8 d8~ d8 bf8 c4 | g1 | bf8 g8 g8 g8 bf8 g8 g8 g8 |
   \break
   r4 ef4 g4 bf4 | ef4 d8 f8~ f8 c8 d4 | bf1 | r4 c4 af4 g4 |
-  
+
   \sect "A2"
-  
+
   f8 af8 g8 f8 bf8 bf8 r8 f8 | af8 g8 f8 bf8 bf8 r8 f8 af8 | g8 f8 bf8 bf8 r8 f8 af8 g8 | f4 bf,2. |
   \break
   bf'8 df8 c8 bf8 ef8 ef8 r8 bf8 | df8 c8 bf8 ef8 ef8 r8 bf8 df8 | c8 bf8 ef8 ef8 r8 bf8 df8 c8 | bf4 ef,2. |
 
   \sect "C"
-  
+
   r4 ef4 af4 bf4 | c4 c8 d8~ d8 c8 d4 | r4 ef4 f8 d4. | c1 |
   \break
   f,8 af8 g8 f8 bf8 bf8 r8 f8 | af8 g8 f8 c'8~ c8 ef8 g,4 | ef1~ | ef8 r8 r4 r2 |
@@ -90,10 +77,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -50,11 +45,11 @@ dream a lit -- tle dream of me.
 refrainChords = \chordmode {
   g1:6 ef2:7 d2:7 g1:6 e2:7 b4:m7.5- e4:7
   a2:m a2:m7 a2:m7.5- f2:9
-  
+
   g2:maj7 e2:m7 a2:m7 d2:7
-  
+
   g2:maj7 ef4:7 d4:7 g4:6 \chordSlash 1 f4:m7 bf4:7
-  
+
   ef2:6 c2:m7 f2:m7 bf2:7 ef2:6 c2:m7 f2:m7 bf2:7
   ef2:6 c2:m7 f2:m7 bf2:7 ef2:6 c2:m7 a2:m7 d2:7
 
@@ -66,15 +61,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -83,7 +70,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Slow [Mama Cass 1968]" 88
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   g2 fs8 g8 fs8 e8 | g2 fs2 | g2 fs8 g8 fs8 e8 | \tuplet 3/2 { gs4 b4 gs4 } f4 e4 |
@@ -95,7 +82,7 @@ refrainMelody = \relative f' {
   d,8 e8 g8 a8 bf4 a4 | g2. r4 |
   } } }
   \sect "B"
-  
+
   ef'2 \tuplet 3/2 { c4 ef4 c4 } | \tuplet 3/2 { bf4 g4 bf4 } c,4 d4 |
   ef'2 \tuplet 3/2 { c4 ef4 c4 } | bf1 |
   \break
@@ -103,7 +90,7 @@ refrainMelody = \relative f' {
   ef'2 bf4 c4 | d1 |
 
   \sect "A3"
-  
+
   g,2 fs8 g8 fs8 e8 | g2 fs2 | g2 fs8 g8 fs8 e8 | \tuplet 3/2 { gs4 b4 gs4 } f4 e4 |
   a2 g8 a8 g8 e8 | \tuplet 3/2 { a4 g4 ef4 } g2 |
   d8 e8 g8 a8 bf4 a4 | g2 r2 |
@@ -112,10 +99,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

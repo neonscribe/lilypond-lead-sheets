@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -62,7 +57,7 @@ refrainChords = \chordmode {
   g1:9 c2:7 g4:m7 gf4:9.5- f2:6 df2:7 f2:6 a4:m7 af4:m7
   g2:m7 c2:7 g2:9 c2:7 f4:6 bf4:9 f2:6 c2:m7 f2:7
 
-  bf1:7 bf1:7 f2:maj9 f2:dim7 f2:maj9 b4:9.5- bf4:9 
+  bf1:7 bf1:7 f2:maj9 f2:dim7 f2:maj9 b4:9.5- bf4:9
   a2:m7.5- d4:7.9- df4:9.11+ c2:m7 c2:m7/bf a1:m7 d1:7
 
   g1:9 c2:7 g4:m7 gf4:9.5- f2:6 df2:7 f2:6 a4:m7 af4:m7
@@ -73,15 +68,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -89,20 +76,17 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Ballad [Ella Fitzgerald 1958]" 90
 
-  \sectStart "A1"
-  
-  a2 d,8 e8 f8 g8 | a8 bf8 c8 c8~ c2 | d4. f8 df2 | d8 c8 a8 f8 d8 df8~ df4 |
-  c2~ c8 cs8 d8 f8 | a4 d8 a8~ a8 gs8 g4 | f8 g8 f8 f8~ f2 | r1 |
-  \sectStart "A2"
-  
-  a2 d,8 e8 f8 g8 | a8 bf8 c8 c8~ c2 | d4. f8 df2 | d8 c8 a8 f8 d8 df8~ df4 |
-  c2~ c8 cs8 d8 f8 | a4 d8 a8~ a8 gs8 g4 | f8 g8 f8 f8~ f2 | r1 |
-  \bar "||"
+  \sectNoBarNoBreak "A1"
 
-  \xPageBreak
-  
-  \sectStart "B"
-  
+  a2 d,8 e8 f8 g8 | a8 bf8 c8 c8~ c2 | d4. f8 df2 | d8 c8 a8 f8 d8 df8~ df4 |
+  c2~ c8 cs8 d8 f8 | a4 d8 a8~ a8 gs8 g4 | f8 g8 f8 f8~ f2 | r1 |
+  \sectNoBarNoBreak "A2"
+
+  a2 d,8 e8 f8 g8 | a8 bf8 c8 c8~ c2 | d4. f8 df2 | d8 c8 a8 f8 d8 df8~ df4 |
+  c2~ c8 cs8 d8 f8 | a4 d8 a8~ a8 gs8 g4 | f8 g8 f8 f8~ f2 | r1 |
+
+  \sectPageBreak "B"
+
   d'2~ d8 ef8 e4 | f2~ f8 e4 d8 | c2~ c8 b4 bf8 | a4 c4 cs4 d4 |
   e2~ e8 fs,8 g8 bf8~ | bf4 bf4 c4 cs4 | d1 | r1 |
 
@@ -110,15 +94,10 @@ refrainMelody = \relative f' {
 
   a2 d,8 e8 f8 g8 | a8 bf8 c8 c8~ c2 | d4. f8 df2 | d8 c8 a8 f8 d8 df8~ df4 |
   c2~ c8 cs8 d8 f8 | a4 d8 a8~ a8 gs8 g4 | f8 g8 f8 f8~ f2 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

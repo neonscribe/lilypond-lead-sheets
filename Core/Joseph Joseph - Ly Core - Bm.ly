@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -19,31 +14,23 @@ subtitle =
 
 refrainChords = \chordmode {
   s2.
-  
+
   b1:m b1:m b1:m b1:m
   b1:m b1:m e1:m e1:m
-  
+
   fs1:7 fs1:7 fs1:7 fs1:7
   fs1:7 fs1:7 b1:m b1:m
 
   b1:m b1:m b1:m b1:m
   b1:m b1:m e1:m e1:m
-  
+
   e1:m e1:m b1:m b1:m
   cs1:7 fs1:7 b1:m \chordInsideParens{ e1:7 }
 }
 
 refrainKey = b
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -52,28 +39,27 @@ refrainMelody = \relative f' {
   \tempoFour "Up [Joscho Stephan Trio 2023]" 300
 
   \partial 2. fs4 b4 d4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   fs2 g2 | fs4 fs4 e4 d4 | g4 fs2.~ | fs4 fs,4 b4 d4 |
   \break
   fs2 g2 | fs4 e4 g4 fs4 | e1~ | e4 fs,4 as4 cs4 |
-  
+
   \sect "B"
-  
+
   e2 fs2 | e4 e4 d4 cs4 | e4 e2.~ | e4 fs,4 as4 cs4 |
   \break
   e2 fs2 | e4 d4 fs4 e4 | d1~ | d4 fs,4 b4 d4 |
-  
+
   \sect "A2"
-  
+
   fs2 g2 | fs4 fs4 e4 d4 | g4 fs2.~ | fs4 fs,4 b4 d4 |
   \break
   fs2 b2 | a4 fs4 b4 a4 | g1~ | g2. g4 |
-  
+
   \sect "C"
-  
+
   b4 b4 b4 b4 | b2 a4 g4 | fs4 fs4 fs4 fs4 | fs2 e4 d4 |
   \break
   fs2 d2 | e4 e4 d4 cs4 | b1 | r1 |
@@ -82,10 +68,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

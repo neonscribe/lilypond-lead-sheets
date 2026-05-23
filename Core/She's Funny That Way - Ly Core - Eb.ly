@@ -8,13 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "She's (He's) Funny That Way"
   subtitle = \subtitle
@@ -52,7 +45,7 @@ I got a man, _ cra -- zy for me, he's fun -- ny that way. (I)
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainObjectGenderMaleLyricsOne
   refrainObjectGenderFemaleLyricsOne)
@@ -86,7 +79,7 @@ I got a man, _ cra -- zy for me, he's fun -- ny that way.
 }
 
 refrainLyricsTwo =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainObjectGenderMaleLyricsTwo
   refrainObjectGenderFemaleLyricsTwo)
@@ -99,7 +92,7 @@ refrainChords = \chordmode {
 
   ef2:6 bf2:7.5+ ef2:6 bf2:7.5+ ef2:6 d2:7.5+  g2:m7.5- c2:7.5+
   f1:7 df1:7 ef2:6 bf4:sus7 bf4:7 ef2:6 a2:7.5-
-  
+
   af1:m6 df1:7 ef2:6 bf2:7.5+ ef2:6 a2:7.5+
   af2:m6 df2:7 g2:m7 c2:m7 f2:sus7 f2:7 f2:m7 bf2:7.5+
 
@@ -110,15 +103,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -129,16 +114,16 @@ refrainMelody = \relative f' {
   \partial 4 bf4 |
 
   \sectNoBreak "A1"
-  
+
   c8 d8 c8 d8~ d4. d8 | c8 d8 c8 d8~ d2 | c8 d8 c8 d8~ d8 c8 d4 | c8 d8 c8 d8~ d2 |
   f,8 g8 f8 g8~ g4. g8 | f8 g8 f8 g8~ g2 | r8 ef4. g8 ef8 g8 bf8~ | bf2. bf4 |
-  
+
   \sect "A2"
-  
+
   c8 d8 c8 d8~ d4. d8 | c8 d8 c8 d8~ d2 | c8 d8 c8 d8~ d8 c8 d4 | c8 d8 c8 d8~ d2 |
   f,8 g8 f8 g8~ g4. g8 | f8 g8 f8 g8~ g2 | r8 ef4. f8 ef8 f8 ef8~ | ef1 |
-  
-  \sect "B"
+
+  \sectPageBreak "B"
 
   ef4. f8 g4. af8 | bf4. cf8 df4. d8 | ef2 bf8 af4. | g1 |
   ef4. f8 g4. af8 | bf4. c8 d4. ef8 | f2 d4 c8 bf8~ | bf2. bf4 |
@@ -149,15 +134,10 @@ refrainMelody = \relative f' {
   f,8 g8 f8 g8~ g4. g8 | f8 g8 f8 g8~ g2 | r8 ef4. f8 ef8 f8 ef8~ | ef2 r4
   \override Parentheses.font-size = #5
   \parenthesize bf'4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

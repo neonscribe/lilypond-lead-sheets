@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Laura"
   subtitle = \subtitle
@@ -37,7 +32,7 @@ refrainChords = \chordmode {
 
   a1:m9 d1:7.9- g2:maj9 c2:9 g1:maj9
   g1:m9 c1:7.9- f1:maj9 f1:maj9
-  
+
   f2:m7 f2:m7/ef d2:m7.5- g2:7.9- c2:maj9 f2:13 e2:m7 a2:m7
   d1:7.9-.5+ g1:9 c1:6
   \chordOpenParen{ b2:m7.5- }
@@ -46,15 +41,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -63,23 +50,23 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Oscar Peterson 1956]" 76
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   b2 b2~ | b4 as8 b8 \tuplet 3/2 { as4 fs4 g4 } | a4. a8 e2~ | e2. r4 |
   \break
   a2 a2~ | a4 gs8 a8 \tuplet 3/2 { gs4 e4 f4 } | g1~ | g2. r4 |
-  
+
   \sect "B"
-  
+
   r4 ef4 f2~ | f4 ef4 \tuplet 3/2 { f4 ef4 f4 } | g4. g8 d2~ | d4 ef4 g4 bf4 |
   \break
   ef4. ef8 af,2~ | af2 a2 | d1~ | d4 e4 c4 d4 |
 
   \sect "A2"
-  
+
   b2 b2~ | b4 as8 b8 \tuplet 3/2 { as4 fs4 g4 } | a4. a8 e2~ | e2. r4 |
   \break
   a2 a2~ | a4 gs8 a8 \tuplet 3/2 { gs4 e4 f4 } | g1~ | g2. r4 |
-  
+
   \sect "C"
 
   r4 f4 g2~ | g4 e4 \tuplet 3/2 { f4 af4 b4 } | d4. c8 d2~ | d2 b4 c4 |
@@ -90,10 +77,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

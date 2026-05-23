@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Young at Heart"
   subtitle = \subtitle
@@ -38,14 +33,14 @@ if you are a -- mong the ver -- y young at heart. __
 
 refrainHLChords = \chordmode {
   s4
-  
+
   bf1:maj7 bf4:maj7 \chordSlash 2 df4:dim7 c1:m7 c1:m7
   f2:7 c2:m7 f4:7 \chordSlash 2 f4:7.5+ bf1:maj7 bf1:maj7
 
   d2:m7.5- g2:7 d2:m7.5- g2:7 g2:m7 c2:7
   g2:m7 c2:7 f1:7 c4.:m7 f8*5:7
   bf1:6 c4.:m7 f8*5:7
-  
+
   bf1:maj7 bf4:maj7 \chordSlash 2 df4:dim7 c1:m7 c1:m7
   f2:7 c2:m7 f4:7 \chordSlash 2 f4:7.5+ bf1:maj7 bf1:maj7
 
@@ -58,14 +53,14 @@ refrainHLChords = \chordmode {
 
 refrainJazzFiftiesChords = \chordmode {
   s4
-  
+
   bf1:maj7 bf2:maj7 df2:dim7 c1:m7 d2:m7.5- g2:7
   c1:m7 f1:7 bf4.:maj7 ef8*5:7 bf1:maj7
 
   d2:m7.5- g2:7 d2:m7.5- g2:7 c1:7 c1:7
   c1:m7 f1:7
   bf2:maj7 b2:dim7 c2:m7 f2:7
-  
+
   bf1:maj7 bf2:maj7 df2:dim7 c1:m7 d2:m7.5- g2:7
   c1:m7 f1:7 bf4.:maj7 ef8*5:7 bf1:maj7
 
@@ -76,14 +71,14 @@ refrainJazzFiftiesChords = \chordmode {
 
 refrainNicoChords = \chordmode {
   s4
-  
+
   bf2:maj7 bf2:6 bf4:maj7 \chordSlash 2 df4:dim7 c1:m7 c1:m7
   f2:7 c2:m7 f4:7 \chordSlash 2 f4:7.5+ bf2:maj7 bf2:6 bf2:maj7 bf2:6
 
   d2:m7.5- g2:7 d2:m7.5- g2:7 g2:m7 c2:7
   g2:m7 c2:7 f1:7 c4.:m7 f8*5:7
   bf1:6 c4.:m7 f8*5:7
-  
+
   bf2:maj7 bf2:6 bf4:maj7 \chordSlash 2 df4:dim7 c1:m7 c1:m7
   f2:7 c2:m7 f4:7 \chordSlash 2 f4:7.5+ bf2:maj7 bf2:6 bf2:maj7 bf2:6
 
@@ -98,15 +93,7 @@ refrainChords = \refrainNicoChords
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -117,7 +104,7 @@ refrainMelody = \relative f' {
   \partial 4 \tuplet 3/2 { r8 e8 f8 } |
 
   \sectNoBreak "A1"
-  
+
   d'4~ \tuplet 3/2 { d8 e,8 f8 } c'4~ \tuplet 3/2 { c8 e,8 f8 } |
   \tuplet 3/2 { bf8 e,8 f8 } a2 \tuplet 3/2 { r8 g8 fs8 } |
   \break
@@ -129,7 +116,7 @@ refrainMelody = \relative f' {
   f4 a8 f8~ f2~ | f2. \tuplet 3/2 { r8 cs8 d8 } |
 
   \sect "B"
-  
+
   af'4~ \tuplet 3/2 { af8 cs,8 d8 } g4~ \tuplet 3/2 { g8 c,8 d8 } |
   \tuplet 3/2 { af'8 cs,8 d8 } g2 \tuplet 3/2 { r8 fs8 g8 } |
   \break
@@ -141,12 +128,9 @@ refrainMelody = \relative f' {
   \break
   g8 g8 fs8 fs8 g8 g8 fs8 fs8 |
   g4 bf8 f8~ f4  \tuplet 3/2 { r8 e8 f8 } |
-  \bar "||"
-  
-  \xPageBreak
 
-  \sectStart "A2"
-  
+  \sectPageBreak "A2"
+
   d'4~ \tuplet 3/2 { d8 e,8 f8 } c'4~ \tuplet 3/2 { c8 e,8 f8 } |
   \tuplet 3/2 { bf8 e,8 f8 } a2 \tuplet 3/2 { r8 g8 fs8 } |
   \break
@@ -158,7 +142,7 @@ refrainMelody = \relative f' {
   f4 a8 f8~ f2~ | f2. \tuplet 3/2 { r8 cs8 d8 } |
 
   \sect "C"
-  
+
   af'4~ \tuplet 3/2 { af8 cs,8 d8 } g4~ \tuplet 3/2 { g8 c,8 d8 } |
   \tuplet 3/2 { af'8 cs,8 d8 } g2 \tuplet 3/2 { r8 fs8 g8 } |
   \break
@@ -169,15 +153,10 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { c8 ef,8 c'8 } bf8 a8~ a2 |
   \break
   bf8 bf8 g8 g8 bf8 bf8 g8 g8 | bf4 g8 bf8~ bf4 r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

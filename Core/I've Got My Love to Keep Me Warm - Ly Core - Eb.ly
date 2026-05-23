@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -39,7 +34,7 @@ I've got my love to keep me warm
 
 refrainChords = \chordmode {
   s4
-  
+
   ef1:6 gf1:dim7 f1:m7 bf1:7
   a1:m7.5- d1:7.9- a1:m7.5- d2:7.9- d2:7.9-/fs
   f1:m7 bf1:7 f1:m7 bf1:7
@@ -49,7 +44,7 @@ refrainChords = \chordmode {
   a1:m7.5- d1:7.9- a1:m7.5- d2:7.9- d2:7.9-/fs
   f1:m7 bf1:7 f1:m7 bf1:7
   g2:m7 c2:7.9- f2:m7 bf2:7 ef1:6 a2:m7.5- d2:7.9-
-  
+
   g1:m7 a2:m7.5- d2:7.5+ g1:m7 c1:7
   f1:m7 g2:7 c2:7 f1:m7 bf1:7
 
@@ -64,15 +59,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -82,8 +69,8 @@ refrainMelody = \relative f' {
 
   \partial 4 bf,4 |
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   ef2 ef2 | d4 df2 c4 | f2 f2 | e4 ef2 d4 |
   \break
   g2 g2 | fs4 a4 c4 ef4~ | ef1~ | ef2 d8 ef8 c4 |
@@ -91,7 +78,7 @@ refrainMelody = \relative f' {
   bf2 bf2 | a4 bf4 g4 f4~ | f1~ | f1 |
   \break
   r8 bf4. bf4 bf4 | c4 af4 f4 d8 ef8~ | ef1~ | ef2 r4 bf4 |
-  
+
   \sect "A2"
 
   ef2 ef2 | d4 df2 c4 | f2 f2 | e4 ef2 d4 |
@@ -101,16 +88,13 @@ refrainMelody = \relative f' {
   bf2 bf2 | a4 bf4 g4 f4~ | f1~ | f1 |
   \break
   r8 bf4. bf4 bf4 | c4 af4 f4 d8 ef8~ | ef1~ | ef2 r2 |
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectNoBar "B"
-  
+
+  \sectPageBreak "B"
+
   d2 g4 bf4 | d8 d4 d8~ d2 | d2 d8 d,4 e8~ | e2. r4 |
   \break
   c'2 c8 c,4. | d8 d4 e8~ e2 | r8 f4. f8 g8 f4 | bf2. bf,4 |
-  
+
   \sect "A3"
 
   ef2 ef2 | d4 df2 c4 | f2 f2 | e4 ef2 d4 |
@@ -120,15 +104,10 @@ refrainMelody = \relative f' {
   bf2 bf2 | a4 bf4 g4 f4~ | f1~ | f1 |
   \break
   r8 bf4. bf4 bf4 | c4 af4 f4 d8 ef8~ | ef1~ | ef2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

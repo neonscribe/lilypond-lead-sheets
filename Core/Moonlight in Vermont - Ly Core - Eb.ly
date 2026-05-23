@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   (set-global-staff-size 18))
 
@@ -38,27 +33,19 @@ refrainChords = \chordmode {
 
   ef2:6 c2:m7 f2:m7 bf2:7 ef2:6 c2:m7 df1:7
   f2:m7 bf2:sus7 ef1:6
-  
+
   a2:m7 d2:7 g2:maj7 e2:7.9- a2:m7 d2:7 g1:maj7
   bf2:m7 ef2:7 af2:maj7 f2:7.9- bf2:m7 e2:7 af2:maj7 bf2:7.9-
-  
+
   ef2:6 c2:m7 f2:m7 bf2:7 ef2:6 c2:m7 df1:7
   f2:m7 bf2:sus7 ef2:6 \chordInsideParens{ bf2:sus7 }
-  
+
   f2:m7 bf2:sus7 ef2:6 c2:7.9+ f2:7 e2:7 ef1:maj7
 }
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -67,37 +54,32 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Johnny Smith 1952]" 72
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   c'4 bf4 g4 f4 | g1 | c4 bf4 g4. ef8 | f8 g8 cf,2. | g'4 f4 ef4 c4 | ef1 |
-  
+
   \sect "A2"
-  
+
   c'4 bf4 g4 f4 | g1 | c4 bf4 g4. ef8 | f8 g8 cf,2. | g'4 f4 ef4 c4 | ef1 |
 
   \sect "B"
-  
+
   d8 d8 d8 d8~ d8 d4 d8 | d8 d4 d8 d8 d4 d8 | d8 d8 d8 d'8~ d4 c8 d8 | b1 |
   \break
   ef,8 ef8 ef8 ef8~ ef8 ef4 ef8 | ef8 ef4 ef8 ef8 ef4 ef8 |
   ef8 ef8 ef8 ef'8~ ef4 df8 ef8 | c2 cf2 |
-  
+
   \sect "A3"
 
   c4 bf4 g4 f4 | g1 | c4 bf4 g4. ef8 | f8 g8 cf,2. \textToCodaLastTime | g'4 f4 ef4 c4 | ef1 |
 
   \bar "||-|."
-  
+
   \textCodaBreak
-  
+
   g4 f4 ef4 c4 | ef1 | b8^\markup{\italic ritard.} c8 ef8 g8 c8 d8 b8 cs8 | bf1 |
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

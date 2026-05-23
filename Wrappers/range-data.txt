@@ -84,7 +84,7 @@ d
 f'
 
 A Child Is Born - Ly - Bb Piano and Bass.ly
-piano-grand-staff refrain
+refrain
 d'
 f''
 piano-grand-staff right hand
@@ -120,7 +120,7 @@ f
 aes'
 
 A Child Is Born - Ly - Db Piano and Bass.ly
-piano-grand-staff refrain
+refrain
 f'
 aes''
 piano-grand-staff right hand
@@ -5842,12 +5842,7 @@ refrain
 cis'
 a'''
 
-Dance of the Sugar Plum Fairy - Ly - Em to Fsm for Bb High for Standard.ly
-refrain
-fis'
-d''''
-
-Dance of the Sugar Plum Fairy - Ly - Em to Fsm for Bb Low for Standard.ly
+Dance of the Sugar Plum Fairy - Ly - Em to Fsm for Bb for Standard.ly
 refrain
 fis
 d'''
@@ -6332,6 +6327,11 @@ refrain
 b,
 d'
 
+Desafinado - Ly - F English Lyrics.ly
+refrain
+b
+d''
+
 Desafinado - Ly - F Standard for Viola.ly
 refrain
 b
@@ -6610,6 +6610,11 @@ Dindi - Ly - Eb Bass for Standard.ly
 refrain
 cis
 d'
+
+Dindi - Ly - Eb English Lyrics.ly
+refrain
+cis'
+d''
 
 Dindi - Ly - Eb Standard for Viola.ly
 refrain
@@ -7823,52 +7828,52 @@ fis''
 
 Equinox - Ly - Cm Bass for Standard.ly
 refrain
-bes,
+g,
 f'
 
 Equinox - Ly - Cm Standard for Viola.ly
 refrain
-bes
+g
 f''
 
 Equinox - Ly - Cm Standard.ly
 refrain
-bes
+g
 f''
 
 Equinox - Ly - Cm to Am for Eb for Standard.ly
 refrain
-g
+e
 d''
 
 Equinox - Ly - Cm to Dm for Bb for Standard.ly
 refrain
-c'
+a
 g''
 
 Equinox - Ly - Csm Bass for Standard.ly
 refrain
-b,
+gis,
 fis'
 
 Equinox - Ly - Csm Standard for Viola.ly
 refrain
-b
+gis
 fis''
 
 Equinox - Ly - Csm Standard.ly
 refrain
-b
+gis
 fis''
 
 Equinox - Ly - Csm to Bbm for Eb for Standard.ly
 refrain
-aes
+f
 ees''
 
 Equinox - Ly - Csm to Dsm for Bb for Standard.ly
 refrain
-cis'
+ais
 gis''
 
 ESP - Ly - C Bass for Standard.ly
@@ -13079,37 +13084,37 @@ g'
 If I Were a Bell - Ly - Bb Alto Voice.ly
 refrain
 f
-d''
+a'
 
 If I Were a Bell - Ly - C Alto Voice.ly
 refrain
 g
-e''
+b'
 
 If I Were a Bell - Ly - F Bass for Standard.ly
 refrain
 c
-a'
+e'
 
 If I Were a Bell - Ly - F Standard for Viola.ly
 refrain
 c
-a'
+e'
 
 If I Were a Bell - Ly - F Standard.ly
 refrain
 c'
-a''
+e''
 
 If I Were a Bell - Ly - F to D for Eb for Standard.ly
 refrain
 a
-fis''
+cis''
 
 If I Were a Bell - Ly - F to G for Bb for Standard.ly
 refrain
 d'
-b''
+fis''
 
 If It Hadn't Been for Love - Ly - Am Bass for Standard.ly
 refrain
@@ -13780,8 +13785,8 @@ d''
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Am Alto Voice.ly
 intro
-b
-c''
+e
+a
 verse
 a
 e'
@@ -13791,8 +13796,8 @@ e'
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Am Baritone Voice.ly
 intro
-b
-c''
+e
+a
 verse
 a
 e'
@@ -13802,8 +13807,8 @@ e'
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Am Bass for Alto Voice.ly
 intro
-b,
-c'
+e,
+a,
 verse
 a,
 e
@@ -13813,8 +13818,8 @@ e
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Am to Bm for Bb for Alto Voice.ly
 intro
-cis'
-d''
+fis
+b
 verse
 b
 fis'
@@ -13824,8 +13829,8 @@ fis'
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm Bass for Standard.ly
 intro
-g,
-aes
+c,
+f,
 verse
 f,
 c
@@ -13835,8 +13840,8 @@ c
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm Standard for Viola.ly
 intro
-g
-aes'
+c
+f
 verse
 f
 c'
@@ -13846,8 +13851,8 @@ c'
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm Standard.ly
 intro
-g'
-aes''
+c'
+f'
 verse
 f'
 c''
@@ -13857,8 +13862,8 @@ c''
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm to Dm for Eb for Standard.ly
 intro
-e'
-f''
+a
+d'
 verse
 d'
 a'
@@ -13868,8 +13873,8 @@ a'
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm to Gm for Bb for Standard.ly
 intro
-a'
-bes''
+d'
+g'
 verse
 g'
 d''
@@ -16108,36 +16113,57 @@ aes
 c''
 
 Little Girl Blue - Ly - Ab Alto Voice.ly
+verse
+ees
+ees'
 refrain
 des
 f'
 
 Little Girl Blue - Ly - C Alto Voice.ly
+verse
+g
+g'
 refrain
 f
 a'
 
 Little Girl Blue - Ly - F Bass for Standard.ly
+verse
+c
+c'
 refrain
 bes,
 d'
 
 Little Girl Blue - Ly - F Standard for Viola.ly
+verse
+c'
+c''
 refrain
 bes
 d''
 
 Little Girl Blue - Ly - F Standard.ly
+verse
+c'
+c''
 refrain
 bes
 d''
 
 Little Girl Blue - Ly - F to D for Eb for Standard.ly
+verse
+a'
+a''
 refrain
 g'
 b''
 
 Little Girl Blue - Ly - F to G for Bb for Standard.ly
+verse
+d'
+d''
 refrain
 c'
 e''
@@ -24927,6 +24953,8 @@ Tenor Madness - Ly - Bb to G for Eb for Standard.ly
 refrain
 a'
 b''
+
+test.ly
 
 That Old Black Magic - Ly - Bb Alto Voice.ly
 refrain

@@ -2,14 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 16))
-
 \header {
   title = "Sous le Ciel de Paris (Under Paris Skies)"
   subtitle = \subtitle
@@ -22,47 +14,39 @@ refrainChords = \chordmode {
   f2.:m7 f2.:m7 f2.:m7 f2.:m7
   b2.:m7 bf2.:m7/af bf2.:m7/g bf2.:m7/f
   c2.:7 c2.:7 c2.:7 c2.:7
-  
+
   f2.:m f2.:m/ef bf2.:m7/df c2.:7
-  
+
   f2.:m bf2.:m7 f2.:m r2.
-  
+
   bf2.:m7 bf2.:m7  ef2.:7 ef2.:7
   af2.:6 af2.:6 af2.:6 af2.:6
 
   df2. bf2.:m7 g2.:7.5- g2.:7.5-
   c2.:7 c2.:7/bf f2.:m/af c2.:7/g
-  
+
   f2.:m7 f2.:m7 f2.:m7 f2.:m7
   bf2.:m7 bf2.:m7/af bf2.:m7/g bf2.:m7/f
   c2.:7 c2.:7 c2.:7 c2.:7
   f2. f2. f2 r4*4
-  
+
   f2.:maj7 f2.:maj7 f2.:maj7 f2.:maj7
   c2.:m7 c2.:m7 f2.:7 f2.:7
   bf2.:maj7 bf2.:maj7 bf2.:6 bf2.:6
   bf2.:m7 bf2.:m7 ef2.:7 ef2.:7
-  
+
   f2. a2.:7/a d2.:m a2.:7/cs
   d2.:m c2.:7 f2. g2.:m7
-  
+
   f2. f2. fs2:dim7 r4*4
   c2.:7 c2.:7/bf f2.:m/af c2.:7/g
-  
+
   f2.:m bf2.:m f2.:m f2.:m
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -71,7 +55,7 @@ refrainMelody = \relative f' {
   \tempoFour "Waltz [Edith Piaf 1955]" 180
 
   \xTextMark \markup{ \bold \box "A1,A2,A4" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   c4 f4 g4 | af2 bf4 | c4 bf4 af4 | g4 f4 ef4 |
@@ -83,21 +67,21 @@ refrainMelody = \relative f' {
   f2.~ | f2.~ | f2 r4 | g4 af4 g4 |
   } } }
   \sect "B"
-  
+
   f2. | f2. | f2. | g4 af4 g4 |
   f2. | f2. | f2. | g4 af4 g4 |
   f2 g4 | af2 bf4 | c4 df4 ef4 | df4 c4 bf4 |
   c2.~ | c2.~ | c2.~ | c4 r4 r4 |
-  
-  \sect "A3"
-  
+
+  \sectPageBreak "A3"
+
   c,4 f4 g4 | af2 bf4 | c4 bf4 af4 | g4 f4 ef4 |
   df2. | c'2. | bf2.~ | bf2 r4 |
   c,4 e4 f4 | g2 af4 | bf4 df4 c4 | bf4 a4 g4 |
   a2.~ | a2.~ | a4 r4 c4 | c4 a4 f4 |
 
   \sect "C"
-  
+
   \key \refrainKey \major
 
   e2. | e2.~ | e4 r4 c'4 | c4 a4 f4 |
@@ -110,9 +94,9 @@ refrainMelody = \relative f' {
   c2.~ | c2.~ | c2.~ | c2 r4 \daCapo |
 
   \bar "|."
-  
+
   \textCodaBreak
-  
+
   \key \refrainKey \minor
 
   f2.~ | f2.~ | f2.~ | f4 r4 r4 |
@@ -121,10 +105,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

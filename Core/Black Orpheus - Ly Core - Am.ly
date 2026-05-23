@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Black Orpheus (Manha de Carnival, A Day in the Life of a Fool)"
   subtitle = \subtitle
@@ -45,21 +40,13 @@ refrainChords = \chordmode {
   d1:m7 b2:m7.5- e2:7.9- a2:m a2:m7/g f1:maj7
   b1:m7.5- e1:7.9- a1:m b2:m7.5- e2:7.9-
 
-  e1:7.9- a1:m a1:m 
+  e1:7.9- a1:m a1:m
   d2:m7 a2:m7 d2:m7 a2:m7 d2:m7 e2:m7 a1:m a1:m
 }
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -68,26 +55,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Bossa Nova [Astrud Gilberto 1965]" 110
 
   \partial 4 e4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   c'2. b8 a8 | a2. gs8 b8 | e,1~ | e2. e4 |
   \break
   c'2. b8 a8 | a2. g8 b8 | e,1~ | e2 r8 e8 f8 g8 |
-  
+
   \sect "B"
-  
+
   a4. d,8 d2~ | d2 r8 d8 e8 f8 | g4. c,8 c2~ | c2 r8 c8 d8 e8 |
   \break
   f4. b,8 b2~ | b2 r8 b8 c8 d8 | e1~ | e2. e4 |
-  
+
   \sect "A2"
-  
+
   c'2. b8 a8 | a2. gs8 b8 | e,1~ | e2. e4 |
   \break
   bf'2. a8 g8 | g2. f8 e8 | a1~ | a2. d,4 |
-  
+
   \sect "C"
 
   d2. e8 f8 | b1 | r4 c,4 c4 d8 e8 | a2. gs4 |
@@ -103,17 +89,12 @@ refrainMelody = \relative f' {
   r2 e4 gs8 b8 | a1~ | a2. a8 b8 |
   c4 d8 c8 b4 a8 b8 |
   \break
-  c4 d8 c8 b4 a8 b8 | 
+  c4 d8 c8 b4 a8 b8 |
   c4 d8 c8 b4 a8 g8 | a1~ | a2. r4 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

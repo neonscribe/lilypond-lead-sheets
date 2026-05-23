@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "Clarence Willians and Fats Waller"
   copyright = \markup \small { \now " " "© 1926 Clarence Williams Music Co., Inc." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 Oh, dad -- dy squeeze me and squeeze me a -- gain. __
@@ -29,11 +26,11 @@ I feel so good -- y good -- y when __ you kiss me. __
 }
 
 refrainChords = \chordmode {
-  s2
-  
+  s4.
+
   ef2:7 af2:7 df2:6 bf2:7 ef2:7 af2:7 df2:6 bf2:7
   ef2:7 af2:7 f2:7 bf2:m ef2:sus7 ef2:7 ef2:m7 af4:7 bf4:7
-  
+
   ef2:7 af2:7 df2:6 bf2:7 ef2:7 af2:7 df1:7
   g8:dim7 gf4:dim7 f4:dim7 e8:dim7 ef4:dim7
   d8:dim7 df4:dim7 c4:dim7 b8:dim7 bf4:dim7
@@ -43,15 +40,7 @@ refrainChords = \chordmode {
 
 refrainKey = df
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -59,29 +48,24 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Slow [Louis Armstrong 1928]" 95
 
-  \partial 2 \invisEighth af8 a8 bf8 |
+  \partial 4. af8 a8 bf8 |
   \bar "||"
 
-  \sectStart "A"
-  
+  \sectNoBarNoBreak "A"
+
   f8 f4 bf8 f8 f4 c8 | df8( bf4.) r8 af'8 a8 bf8 | f8 f4 bf8 f8 f4 c8 | df8( bf4.) r8 af'8 a8 bf8 |
   \break
   f8 f4 bf8 f8 f4 f8 | ef4( c8 df8~ df2) | ef8 ef4 ef8 ef4 ef4 | ef2 r8 af8 a8 bf8 |
-  
+
   \sect "B"
-  
+
   f8 f4 bf8 f8 f4 c8 | df8( bf4.) r8 af'8 a8 bf8 | f8 f4 bf8 f8 f4 bf8 | ef,2. df4 |
   \break
   bf'8 a4 af8~ af8 r8 r4 | f8 e4 ef8~ ef8 r8 bf'4 | f8 ef8 f8 ef8 f8 ef8 f8( ef8) | af8 f4 df8~ df4 r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

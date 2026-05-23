@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Four"
   subtitle = \subtitle
@@ -16,6 +11,8 @@ subtitle =
   composer = "Miles Davis"
   copyright = \markup \small { \now " " "© 1963 Prestige Music Inc." }
 }
+
+leadingEighth = ##t
 
 xrefrainLyrics = \lyricmode {
 Of the won -- der -- ful things that you get out of life there are four
@@ -33,8 +30,8 @@ Meaning only won -- der -- ful, won -- der -- ful love that -- 'll make four
 }
 
 refrainChords = \chordmode {
-  s2
-  
+  s4.
+
   ef1:maj7 ef1:maj7 ef1:m7  af1:7
   f1:m7 f1:m7 af1:m7 df1:7
   g1:m7 fs2:m7 b2:7 f1:m7 bf1:7
@@ -49,15 +46,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -65,8 +54,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up Swing [Miles Davis 1956]" 210
 
-  \partial 2 \invisEighth bf,8 c8 d8 |
-  
+  \partial 4. bf,8 c8 d8 |
+
   \bar ".|:"
   \repeat volta 2 {
   r8 bf8 c8 d8 r8 bf8 c8 d8 | r8 f8 ef8 d8 r8 bf8 c8 df8~ |
@@ -83,16 +72,11 @@ refrainMelody = \relative f' {
   r8 c'4. bf4. af8 | g4 r4 r8 bf,8 c8 d8 |
   } {
   \break
-  bf'4 g8 bf8 b8 e,8 ds4 | c'4 af8 f8 d'4 bf8 ef8_"FINE" | r1^"(Solo Break)" | r1 |
+  bf'4 g8 bf8 b8 e,8 ds4 | c'4 af8 f8 d'4 bf8 ef8 \textFine | r1^"(Solo Break)" | r1 |
   } }
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

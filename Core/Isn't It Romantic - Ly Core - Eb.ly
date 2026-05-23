@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -48,10 +43,10 @@ refrainChords = \chordmode {
 
   ef2:6 c2:m7 f2:m7 bf2:7 ef2:maj7 e2:dim7 f2:m7 bf2:7
   ef2:6 c2:m7 f2:m7 bf2:7 ef1:maj7 bf2:m7 ef2:7
-  
+
   af1:maj7 bf2:7 g2:7 c2:m7 g2:7/b bf2:m7 ef2:7
   af2:maj7 c2:7/g f2:m d4:m7.5- g4:7 c2:m7 f2:7 bf2:dim7 bf2:7
-  
+
   f2:m f2:m/ef d2:m7.5- g2:7 c2:m c2:m/bf c2:m/a af2:m6
   g2:m7 gf2:7 f2:m7 bf2:7 ef2:6 af2:m6 ef2:6
   \chordInsideParens{ bf2:7 }
@@ -59,15 +54,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -78,7 +65,7 @@ refrainMelody = \relative f' {
   \partial 2 d8 ef8 c8 d8 |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
 
@@ -87,7 +74,7 @@ refrainMelody = \relative f' {
   ef4 ef2. | d8 ef8 c8 d8 ef4 f4 | g4. g8 bf4. bf8 | df1 |
 
   \sect "B"
-  
+
   \alternative { \volta 1 {
 
   c1 | d8 c8 bf8 af8 g4 f4 | ef4. ef8 g4. g8 | ef1 |
@@ -116,10 +103,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

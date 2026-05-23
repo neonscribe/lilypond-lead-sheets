@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Kansas City Kitty"
   subtitle = \subtitle
@@ -20,13 +13,13 @@ subtitle =
 refrainLyrics = \lyricmode {
   I left Fris -- co Kate, __ Swing -- in' on the Gold -- en Gate, __
   When Kan -- sas Cit -- y Kit -- ty smiled at me! __
-  
+
   I left Ma and Pa, __ out in O -- ma -- ha -- ha -- ha, __
   When Kan -- sas Cit -- y Kit -- ty smiled at me! __
 
   She comes from Miss -- ou -- ri and she showed me.
   Like a Tex -- as steer she buf -- fa -- loed me.
-  
+
   Ev' -- ry Jim and Jack, __ Got the well known Hack -- en -- sack, __
   When Kan -- sas Cit -- y Kit -- ty smiled at me! __
 }
@@ -34,13 +27,13 @@ refrainLyrics = \lyricmode {
 refrainLyricsTwo = \lyricmode {
   I just laid a chill __ on the fa -- mous Dia -- mond Lil, __
   When Kan -- sas Cit -- y Kit -- ty smiled at me. __
-  
+
   Folks in New Ro -- chelle said “He ain't done right by Nell”.
   When Kan -- sas Cit -- y Kit -- ty smiled at me. __
 
   I gave Geor -- gia Brown __ my watch chain Sun -- day,
   I gave Louis -- ville Lou the works on Mon -- day.
-  
+
   I_pass up all those queens like I pass up Bos -- ton beans,
   When Kan -- sas Cit -- y Kit -- ty smiled at me. __
 }
@@ -50,10 +43,10 @@ refrainFHChords = \chordmode {
   g1 a2:7 d2:7 g a2:7 d2:7
   g1 c1:7 g1 c1:7
   g1:7 a2:7 d2:7 g1 g2 fs2:7
-  
-  b1:7 b1:7 e1:7 e1:7 
+
+  b1:7 b1:7 e1:7 e1:7
   a1:7 a1:7 d1:7 d1:7
-  
+
   g1 c1:7 g1 c1:7
   g1 a2:7 d2:7 g a2:7 d2:7
 }
@@ -61,13 +54,13 @@ refrainFHChords = \chordmode {
 refrainiRealChords = \chordmode {
   g1:6 c1:7 g1:6 e1:7
   a1:7 d1:7 g1:6 a2:m7 d2:7
-  
+
   g1:6 c1:7 g1:6 e1:7
   a1:7 d1:7 g1:6 g1:6
-  
-  b1:7 b1:7 e1:7 e1:7 
+
+  b1:7 b1:7 e1:7 e1:7
   a1:7 a1:7 d1:7 d1:7
-  
+
   g1:6 c1:7 g1:6 e1:7
   a1:7 d1:7 g1:6 g1:6
 }
@@ -76,15 +69,7 @@ refrainChords = \refrainiRealChords
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -92,34 +77,29 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up Swing [The Rhythmic Eight 1929]" 200
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak"A1"
+
   d4 e4 g8 b4 bf8~ | bf2~ bf8 e4 ef8 | d4 b4 g8 d4 e8~ | e2. ef4 |
   d4 e4 g8 b4. | as8 b4 d,8~ d4 e4 | g1~ | g2. r4 |
-  
+
   \sect "A2"
-  
+
   d4 e4 g8 b4 bf8~ | bf2~ bf8 e4 ef8 | d4 b4 g8 d4 e8~ | e2. ef4 |
   d4 e4 g8 b4. | as8 b4 d,8~ d4 e4 | g1~ | g2. r4 |
-  
-  \sect "B"
-  
+
+  \sectPageBreak "B"
+
   b4 b4 c4 c4 | b4 b4 c4 c4 | b1 | e1 |
   a,4 a4 b4 b4 | a4 a4 b4 b4 | a1 | d1 |
-  
+
   \sect "A3"
 
   d,4 e4 g8 b4 bf8~ | bf2~ bf8 e4 ef8 | d4 b4 g8 d4 e8~ | e2. ef4 |
   d4 e4 g8 b4. | as8 b4 d,8~ d4 e4 | g1~ | g2. r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -28,7 +23,7 @@ introMelody = \relative f'' {
   \key \introKey \major
   \clef \whatClef
   \tempoFour "Western Swing [Hank Thomson 1949]" 155
-  
+
   \mark \markup { "Intro" }
 
   fs2-"(accordion)" e4 d4 | c4 d4 b4 a4 | g2 fs'2(-"(steel guitar)" | g1) |
@@ -70,34 +65,26 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key g \major
   \clef treble
-  
+
   \repeat volta 3 {
-  \sectStart "Verse"
+  \sectNoBarNoBreak "Verse"
 
   d2 g4 b,8 d8~ | d2. g4 | a8 a2 fs8 e8 fs8~ | fs8 e8~ e2 d4 |
   fs2 e8 d4. | c4 fs2 e4 | b1 | r1 |
-  
+
   \bar "||"
 
   d4 d4 g4 b,8 d8~ | d2. g4 | a4 a4 fs4 e4 | fs4 e2 r8 d8 |
   fs2 e4. d8 | c4 d4 b8 a4. | g1 | r1 |
 
   \bar "||"
-  
+
   \break
 
   g2 c4 e4 | g2 fs4 e4 | g4 b,2. | r1 |
@@ -116,11 +103,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/intro.ily"
 

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -42,13 +37,13 @@ if I had you.
 realBookVRefrainChords = \chordmode {
   bf1 bf1:7 ef:6 ef:m6
   bf2. e4:dim7 f2:9 f2:7.5+ bf2/d df2:dim7 c2:m7 f2:7
-  
+
   bf1 bf1:7 ef:6 ef:m6
   bf2. e4:dim7 ef2:6 f2:7.5+ bf1 bf1
-  
+
   d1:m e2:m7.5- a2:7.9- d1:m a1
   d1:m e2:m7.5- a2:7.9- d1:m c2:m7 ef4/f f4
-  
+
   bf1 bf1:7 ef:6 ef:m6
   bf2. e4:dim7 f1:9 bf1 bf1
 }
@@ -73,7 +68,7 @@ musescoreRefrainChords = \chordmode {
 
   bf2 g4:m7 gf4:m7 f2:m7 bf2:7 ef1:maj7 af1:7
   d2:m7 df2:dim7 c2:m7 f2:7 bf2:6 af2:7 bf2:6 a2:7
-  
+
   d1:m6 e2:m7.5- a2:7.9- d1:m6 e2:m7.5- a2:7.9-
   d2:m b2:m7.5- e2:m7.5- a2:7.9- d2:m g2:9 c2:m7 f2:7
 
@@ -90,7 +85,7 @@ musescorePlusDaveRefrainChords = \chordmode {
 
   bf2 g4:m7 gf4:m7 f2:m7 bf2:7 ef1:maj7 ef2:m6 af2:7
   bf2 d4:m7 df4:dim7 c2:m7 f4:7 f4:7.5+ bf1 bf2 e4:m7.5- a4:7
-  
+
   d1:m6 e2:m7.5- a2:7.9- d1:m6 e2:m7.5- a2:7
   d2:m b2:m7.5- e2:m7.5- a2:7.9- bf2:6 g2:7 c2:m7 f2:7
 
@@ -105,24 +100,16 @@ refrainChords = \musescorePlusDaveRefrainChords
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Ballad [Frank Sinatra 1962]" 64
-  
+
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   d8 ef8 e8 f8 d'8 d4 df8 | c2 d8 d4 df8 | c2 d8 d4 df8 | c1 |
   d,8 ef8 e8 f8 a8 a4 af8 | g2 a8 a4 af8 | g1~ | g4 r4 r2 |
 
@@ -132,7 +119,7 @@ refrainMelody = \relative f' {
   d,8 ef8 e8 f8 a8 a4 af8 | g2 g8 f8 g4 | bf1~ | bf4 r4 r2 |
 
   \sect "B"
-  
+
   d8 e8 d8 e8 d4 a4 | bf4 bf2. | a8 bf8 a8 bf8 a4 f4 | e1 |
   d'8 e8 d8 e8 d4 a4 | bf4 bf2. | a8 bf8 a8 bf8 a4 f4 | ef1 |
 
@@ -145,10 +132,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

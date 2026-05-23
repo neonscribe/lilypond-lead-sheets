@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Poinciana"
   subtitle = \subtitle
@@ -38,23 +31,23 @@ My love will live for -- ev -- er and a day
 }
 
 refrainChords = \chordmode {
-  d1:13 d2:13 a2:m7 d1:13 d2:13 a2:m7 
+  d1:13 d2:13 a2:m7 d1:13 d2:13 a2:m7
   d1:13 d2:13 d2:7 g1:6
-  
+
   g1:6
-  
+
   g2:6 d2:13
-  
+
   g1:maj9 g1:maj9 d1:m7 g1:7
   c1:m7 c1:m7 g2:maj7 g2:6
-  
+
   a2:m7 d2:13
-  
+
   g1:maj9 g1:maj9 d1:m7 g1:7
   c1:m7 c1:m7 g2:maj7 g2:6
-  
+
   g2:maj7 g2:6
-  
+
   c1:m7 c1:m7 d1:maj7 d1:6
   c1:m7 c1:m7 a1:m7 d1:13
 
@@ -66,15 +59,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -82,15 +67,15 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Slow [Ahmad Jamal 1958]" 95
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
   \ambitusOff
   \repeat volta 2 {
   d'1~ | d2 c4 e4 | d1~ | d2 c4 e4 | d1~ | d2 c4 a4 | g1~ |
   \alternative { \volta 1 {
   g2. r4 |
   } \volta 2 {
-  g4\repeatTie r4 
+  g4\repeatTie r4
   \ambitusOn
   d'4. b8 |
   } } }
@@ -111,8 +96,7 @@ refrainMelody = \relative f' {
 
   d2 r2 |
 
-  
-  \sect "B"
+  \sectPageBreak "B"
 
   ef8 f8 g8 a8 bf4. a8 | c4. bf8 a8 g8 fs8 g8 | a1~ | a2. r4 |
   \break
@@ -123,15 +107,10 @@ refrainMelody = \relative f' {
   a2 a2~ | a8 g8 a8 b8 d8 b8 a8 g8 | f1~ | f1 |
   \break
   ef2 ef2~ | ef8 ef8 f8 g8 bf8 g8 f8 ef8 | d1~ | d1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

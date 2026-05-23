@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -19,15 +14,7 @@ subtitle =
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainChordsInC = \chordmode {
   c1:7 f1:7 c1:7 g2:m7 c2:7
@@ -38,7 +25,7 @@ refrainChordsInC = \chordmode {
   \bar "||-||"
   d1:m7 g1:7 c2:7
   \chordOpenParen{ a2:7 }
-  d2:m7 
+  d2:m7
   \chordCloseParen{ g2:7 }
 }
 
@@ -69,7 +56,7 @@ refrainChords = \chordmode {
     \refrainChordsInC
   }
   }
-  
+
   \xPageBreak
 
   \set Score.currentBarNumber = #1
@@ -114,10 +101,5 @@ refrainChords = \chordmode {
 }
 
 \include "../Include/chord-paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain-chords-only.ily"

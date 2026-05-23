@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Sweet Sue - Just You"
   subtitle = \subtitle
@@ -19,7 +14,7 @@ refrainLyrics = \lyricmode {
   Ev' -- ry star a -- bove __ knows the one I love, __
   Sweet Sue, __ just you. __
   And the moon up high __ knows the rea -- son why __ Sweet Sue, __ it's you. __
-  No one else it seems __ ev -- er shares my dreams, __ 
+  No one else it seems __ ev -- er shares my dreams, __
   and with -- out you dear, I don't know what I'd do.
   In this heart of mine __ you live all the time, __ Sweet Sue, __ just you. __
 }
@@ -42,15 +37,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -59,40 +46,34 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up [Django Reinhardt 1940]" 180
 
   \partial 2 d4 e4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
-  a4 a4 a2~ | a2 d,4 e4 | a4 a4 a2~ | a2 b2 | 
+  \sectNoBreak "A1"
+
+  a4 a4 a2~ | a2 d,4 e4 | a4 a4 a2~ | a2 b2 |
   \break
   e,1~ | e2 b'2 | e,1~ | e2 d4 e4 |
-  
+
   \sect "A2"
-  
-  a4 a4 a2~ | a2 d,4 e4 | a4 a4 a2~ | a2 b2 | 
+
+  a4 a4 a2~ | a2 d,4 e4 | a4 a4 a2~ | a2 b2 |
   \break
   e,1~ | e2 b'2 | e,1~ | e2 b'4 c4 |
-  
+
   \sect "B"
-  
+
   d4 d4 d2~ | d2 b4 c4 | d4 d4 d2~ | d2 ds,4 e4 |
   \break
   c'4 c4 c4 c4 | c4 c4 b4 a4 | c1~ | c2 d,4 e4 |
 
   \sect "A3"
 
-  a4 a4 a2~ | a2 d,4 e4 | a4 a4 a2~ | a2 b2 | 
+  a4 a4 a2~ | a2 d,4 e4 | a4 a4 a2~ | a2 b2 |
   \break
   e,1~ | e2 b'2 | e,1~ | e4 r4 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

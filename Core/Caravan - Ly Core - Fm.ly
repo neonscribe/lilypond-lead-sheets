@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 16) #}
 )
@@ -68,15 +63,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -84,31 +71,31 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast Latin [Duke Ellington 1937]" 208
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
-  c'1~ | c1~ | c4 df4 c4 g4 | bf4 c4 e4 g,4 |
-  bf1~ | bf1~ | bf4 c4 df4 c4 | df4 c4 b4 g4 |
-  \break
-  bf1~ | bf1~ | bf4 c4 b4 bf4 | a4 af4 gf4 e4 |
-  f1~ | f1~ | f1~ | f2. r4 |
-  
-  \sect "A2"
-  
+  \sectNoBar "A1"
+
   c'1~ | c1~ | c4 df4 c4 g4 | bf4 c4 e4 g,4 |
   bf1~ | bf1~ | bf4 c4 df4 c4 | df4 c4 b4 g4 |
   \break
   bf1~ | bf1~ | bf4 c4 b4 bf4 | a4 af4 gf4 e4 |
   f1~ | f1~ | f1~ | f2. r4 |
 
-  \sect "B"
-  
+  \sect "A2"
+
+  c'1~ | c1~ | c4 df4 c4 g4 | bf4 c4 e4 g,4 |
+  bf1~ | bf1~ | bf4 c4 df4 c4 | df4 c4 b4 g4 |
+  \break
+  bf1~ | bf1~ | bf4 c4 b4 bf4 | a4 af4 gf4 e4 |
+  f1~ | f1~ | f1~ | f2. r4 |
+
+  \sectPageBreak "B"
+
   %% Vocal bridge
   f'1~ | f4 gf4 f4 c4 | ef1 | df1 |
   f1~ | f4 g4 f4 c4 | ef1 | d1 |
   \break
   ef1~ | ef4 f4 ef4 c4 | bf1 | f'2 e2 |
   ef2. f,4~ | f4 g4 af4 bf4 | c1~ | c2 c2 |
-  
+
   \sect "A3"
 
   c1~ | c1~ | c4 df4 c4 g4 | bf4 c4 e4 g,4 |
@@ -116,10 +103,8 @@ refrainMelody = \relative f' {
   \break
   bf1~ | bf1~ | bf4 c4 b4 bf4 | a4 af4 gf4 e4 |
   f1~ | f1~ | f1~ | f2. r4 |
-  
-  \bar "|."
 
-  \xPageBreak
+  \bar "||-|."
 
   \xTextMark \markup{Instrumental alternative bridge \bold \box "B" }
   %% Instrumental bridge
@@ -132,10 +117,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

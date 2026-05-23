@@ -2,15 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
-
 \header {
   title = "Song for My Father"
   subtitle = \subtitle
@@ -20,38 +11,31 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 }
 
 bossaRhythm = ##t
+leadingEighth = ##t
 
 refrainChords = \chordmode {
-  s4
-  
+  s8
+
   \chordOpenParen{ f1:m9 }
   f1:m9 f1:m9
   \chordCloseParen{ f1:m9 }
-  
+
   f1:m9 f1:m9 ef1:9 ef1:9
   df1:9 c4:7 r2. f1:m9
-  
+
   f1:m9
 
   f1:m9
-  
+
   ef1:m9 ef1:m9 f1:m9 f1:m9
   ef2:9 df2:9 c4:7 r2. f1:m9 f1:m9
-  
+
   f1:m9 f1:m9 f1:m9 f1:m9
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -59,17 +43,15 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Bossa [Horace Silver 1965]" 126
 
-  \partial 4 r4 |
+  \partial 8 r8 |
   \bar "||"
 
   \sectNoBreak "Intro"
-  
+
   r1 | r1 | r1 | r2 r8 c8-. f8-. af8-. |
-  
-  \break
 
   \sect "A1, A2"
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
   c8 \tuplet 3/2 { df16 c16 bf16 } af8-. bf8~ \tuplet 3/2 { bf16 c16 bf16 } af8 f8-. af8~ |
@@ -81,23 +63,24 @@ refrainMelody = \relative f' {
   } \volta 2 {
   <g ef>2\repeatTie r8 <ef c>8-. <ef c>8-. <ef c>8-. |
   } } }
-  
+
   \sect "B"
-  
+
   <ef c>8 <df bf>8 r8 <f df>8~ <f df>2~ | <f df>2 r8 <f df>8-. <f df>8-. <f df>8-. |
   <f df>8 <ef c>8 r8 <g ef>8~ <g ef>2~ | <g ef>2 r8 <ef c>8-. <ef c>8-. <ef c>8-. |
-  \break
   <ef c>8 <df bf>8 r8 <f df>8~ <f df>2 | r2 <af e>4. <bf g>8~ \textToCodaLastTime |
-  <bf g>1~ | <bf g>2 
+  <bf g>1~ | <bf g>2
   {
     \override Parentheses.font-size = #5
     \startParenthesis \parenthesize r8
-    c,8-. f8-. 
+    c,8-. f8-.
     \endParenthesis \parenthesize af8-.
   } |
-  
+
   \bar "|."
-  
+
+  \xPageBreak
+
   \textCodaBreak
 
   <bf g>1~\repeatTie | <bf g>1 |
@@ -106,7 +89,7 @@ refrainMelody = \relative f' {
   r1^"Vamp until cue" | r1 |
   }
   r1^"On cue" |
-  \bar "|."  
+  \bar "|."
 }
 
 refrainBass = \relative f' {
@@ -114,29 +97,24 @@ refrainBass = \relative f' {
   \key \refrainKey \minor
   \clef bass
 
-  \partial 4 \invisEighth f,8 |
-  
+  \partial 8 f,8 |
+
   f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 |
   f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 ef,8 | ef4 r8 bf'8 bf4 r8 ef,8 | ef4 r8 bf'8 bf8 ef,8 ef8 d8 |
   df4 r8 af'8 af8 df,8 af'8 df,8 | c4 r4 r4 r8 f8 | f4 r8 c'8 c4 r8 f,8 |
-  
+
   f4 r8 c'8 c4 r8 f,8 |
-  
+
   f4 r8 c'8 c4 r8 ef,8 |
 
   ef4 r8 bf'8 bf4 r8 ef,8 | ef4 r8 bf'8 bf4 r8 ef,8 | f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 ef,8 |
-  ef4 r8 bf'8 bf8 ef,8 af8 df,8 | c4 r4 r4 r8 f8 | f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 |
+  ef4 r8 bf'8 bf8 ef,8 af8 df,8 | c4 r4 r4 r8 f8 |
+  f4_"Play head twice before and twice after solos, solo on A1-A2-B" r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 |
 
-  f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 | <f f,>4 r4 r2 |
+  f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 |
+  f4 r8 c'8 c4 r8 f,8 | <f f,>4 r4 r2 |
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
-
-\markup{ "Play head twice before and twice after solos, solo on A1-A2-B" }

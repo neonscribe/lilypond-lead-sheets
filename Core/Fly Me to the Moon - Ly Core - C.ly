@@ -2,12 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \header {
   title = "Fly Me to the Moon"
@@ -36,7 +31,7 @@ refrainChords = \chordmode {
 
   d1:m7 g1:7 c1:maj7 e2:m7 a2:7
   d1:m7 g1:7 c1:maj7 b2:m7.5- e2:7
-  
+
   a1:m7 d1:m7 g1:7 c2:maj7 c2:7
   f1:maj7 b1:m7.5- e1:7.9- a2:m7 a2:7
 
@@ -44,21 +39,13 @@ refrainChords = \chordmode {
   d1:m7 g1:7 c1:6
   \chordOpenParen{ b2:m7.5- }
   \chordCloseParen{ e2:7 }
-  
+
   e1:m7 a1:7 d1:m7 g1:7 c1:6 c1:6
 }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -67,27 +54,23 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Swing [Frank Sinatra 1964]" 118
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   c'4. b8 a4 g8 f8~ | f8 g4. a4 c4 | b4. a8 g4 f8 e8~ | e1 |
-  \break
   a4. g8 f4 e8 d8~ | d8 e4. f4 a4 | gs4. f8 e4 d8 c8~ | c2 r4 c4 |
 
   \sect "B"
-  
+
   d8 a'4 a8~ a2~ | a4 c2 b4 | g1~ | g2. b4 |
-  \break
   c,8 f4 f8~ f2~ | f4 a2 g4 | f4. e8~ e2~ | e2 r2 |
-  
+
   \sect "A2"
-  
+
   c'4. b8 a4 g8 f8~ | f8 g4. a4 c4 | b4. a8 g4 f8 e8~ | e1 |
-  \break
   a4. g8 f4 e8 d8~ | d8 e4. f4 a4 | gs4. f8 e4 d8 c8~ | c2 r4 c4 |
-  
+
   \sect "C"
-  
+
   d8 a'4 a8~ a2~ | a4 c2 b4 \textToCodaLastTime | g1~ | g2. gs4 |
-  \break
   a8 c,4 c8~ c2~ | c4 c2 d4 | c1 | r1 |
   \bar "||-|."
 
@@ -99,10 +82,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

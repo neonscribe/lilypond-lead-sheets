@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -30,16 +25,16 @@ Ne me lais -- se pas seul sans ton a -- mour.
 
 refrainChords = \chordmode {
   s2
-  
+
   c1 c1 b1:7 b1:7
   c1 c1 a1:7 a1:7
-  
+
   d1:m7 g1:7 c1 a1:m7
   b1:7 b1:7 e2:m7 ef2:dim7 d2:m7 g2:7
 
   c1 c1 b1:7 b1:7
   c1 c1 a1:7 a1:7
-  
+
   f1 f1:m c1 a1:7.5+
   d1:m7 g1:7 c2
   \chordOpenParen{ cs2:dim7 }
@@ -49,15 +44,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -66,28 +53,27 @@ refrainMelody = \relative f' {
   \tempoFour "Slow Swing [Biréli Lagrène 2001]" 104
 
   \partial 2 e4 g4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   c4. c8 c2~ | c2 \tuplet 3/2 { c,4 e4 g4 } | b4. b8 b2~ | b2 a4 af4 |
   \break
   g4 g8 g8~ g2~ | g4 g4 gf4 f8 e8~ | e1~ | e2 d4 e8 f8~ |
-  
+
   \sect "B"
-  
+
   f1~ | f2 \tuplet 3/2 { d4 e4 f4 } | g4~ g8 g8~ g2~ | g2 fs4 g8 a8~ |
   \break
   a1~ | a2 \tuplet 3/2 { fs4 g4 a4 } | b1~ | b2 e,4 g4 |
-  
+
   \sect "A2"
-  
+
   c4. c8 c2~ | c2 \tuplet 3/2 { c,4 e4 g4 } | b4. b8 b2~ | b2 a4 af4 |
   \break
   g4 g8 g8~ g2~ | g4 g4 gf4 f8 e8~ | e1~ | e2 d4 e8 f8~ |
-  
+
   \sect "C"
-  
+
   f2 a4 c4 | e2. ef4 | d4 a4 g4 gf4 | f2. d4 |
   \break
   e4 d4 f4 a4 | e'2 \tuplet 3/2 { b4 c4 d4 } | c1 | r1 |
@@ -96,10 +82,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

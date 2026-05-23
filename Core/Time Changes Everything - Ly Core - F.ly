@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -27,24 +22,16 @@ but time chang -- es ev -- 'ry -- thing.
 
 refrainChords = \chordmode {
   s2.
-  
+
   f1:6 f1:6 c1:7 c1:7
-  c1:7 c1:7 f1:6 f1:6 
+  c1:7 c1:7 f1:6 f1:6
   f1:6 f1:7 bf1:6 bf1:6
   f1:6 c1:7 f1:6 f1:6
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -54,7 +41,7 @@ refrainMelody = \relative f' {
 
   \partial 2. c4 f4 g4 |
   \bar "||"
-  
+
   a2 a4 g4 | f2 c4 f4 | e4 g2.~ | g2 e4 f4 |
   \break
   g2 g4 g4 | c2~ c4 c4 | a1~ | a2 a4 bf4 |
@@ -65,23 +52,18 @@ refrainMelody = \relative f' {
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
   c4 f4
-  \endParenthesis \parenthesize g4 |  
-  
+  \endParenthesis \parenthesize g4 |
+
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -97,7 +79,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { And when you left me my poor heart was broken. } }

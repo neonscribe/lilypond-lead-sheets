@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "That's All"
   subtitle = \subtitle
@@ -41,7 +36,7 @@ That's all, that's all.
 
 refrainChords = \chordmode {
   \chordInsideParens{ f4:7 }
-  
+
   bf2:maj7 c2:m7 d2:m7 c4:m7 f4:7
   bf2:maj7 ef2:9 d2:m7 g4:7 g4:7/f e2:m7.5- ef2:m7
   bf2/d g2:7.5+.9+ c2:m7 f2:7
@@ -51,10 +46,10 @@ refrainChords = \chordmode {
   bf2:maj7 ef2:9 d2:m7 g4:7 g4:7/f e2:m7.5- ef2:m7
   bf2/d g2:7.5+.9+ c2:m7 f2:7
   bf1:6
-  
+
   f2:m7 bf2:7 g2:m7 c2:m7 f2:m7 bf2:7 ef1:maj7
   g2:m7 c2:7 a2:m7 d2:m7 g2:m7 c2:7 f2:sus9 f4:7 r4
-  
+
   bf2:maj7 c2:m7 d2:m7 c4:m7 f4:7
   bf2:maj7 ef2:9
   d2:m7 g4:7 g4:7/f e2:m7.5- ef2:m7
@@ -67,15 +62,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -84,14 +71,13 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Nat King Cole 1953]" 75
 
   \partial 4 d8 ef8 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   f8 a8 f8 d8 f8 a8 f8 d8 | f8 f8~ f2 d8 ef8 |
   f8 a8 f8 d8 f8 a8 f8 d8 | f2. g8 a8 | bf8 d8 bf8 g8 bf4. g8 |
   bf8 d8 bf8 g8 bf4. g8 | f2. d4 | c2. d8 ef8 |
-  
+
 
   \sect "A2"
 
@@ -100,22 +86,18 @@ refrainMelody = \relative f' {
   bf8 d8 bf8 g8 bf4. g8 | f2. d4 | bf2. bf8 bf'8 |
 
   \sect "B"
-  
+
   g4 bf,8 bf'8 g4 bf,8 bf'8 | g4 g2 bf,8 bf'8 |
   g4 bf,8 bf'8 g4 bf,8 bf'8 | g2. c,8 c'8 |
   a4 c,8 c'8 a4 c,8 c'8 | a4 a2 c,8 c'8 |
   a4 c,8 c'8 a4 c,8 a'8 | f2. d8 ef8 |
-  
-  \bar "||"
 
-  \xPageBreak
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sectPageBreak "A3"
 
   f8 a8 f8 d8 f8 a8 f8 d8 | f8 f8~ f2 d8 ef8 | f8 a8 f8 d8 f8 a8 f8 d8
   | f2. g8 a8 | bf8 d8 bf8 g8 bf4. g8 | bf8 d8 bf8 g8 bf4. g8 | f2. d4
   | \textToCoda bf1 |
-  
+
   \bar "|."
 }
 
@@ -139,7 +121,7 @@ codaMelody = \relative f' {
   \clef \whatClef
 
   \textCoda
-  
+
   d2. g8 a8 | bf8 d8 bf8 g8 bf4. g8 |
   \break
   bf8 d8 bf8 g8 bf4. g8 | f2. d4 |  bf1 |
@@ -148,11 +130,6 @@ codaMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

@@ -10,11 +10,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I Can't Give You Anything but Love"
   subtitle = \subtitle
@@ -38,7 +33,7 @@ I can't give you an -- y -- thing but love. __
 refrainHLChords = \chordmode {
   g1:maj7 b2:m7 b2:dim7 a1:m7 d1:7
   g1:maj7 b2:m7 e2:m7 a1:m7 d1:7
-  
+
   d1:m7 g1:7 c1:maj7 c1:maj7
   a1:7 a1:7 a1:m7 d1:7
 
@@ -68,7 +63,7 @@ refrainDFBChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "dfb" refrainDFBChords)
@@ -78,15 +73,7 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -95,25 +82,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Louis Armstrong 1929]" 115
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   g4 fs4 e4 g4 | fs4 e4 g4 e4 | a1 | a8( as8) b2. |
   \break
   g4 fs4 e4 g4 | fs4 e4 g4 b4 | d1 | b8( bf8) a2. |
-  
+
   \sect "B"
-  
+
   g8 gs8 a2. | a8 as8 b2. | d4 c4 b4 a4~ | a1 |
   \break
   a8 as8 b2. | b8 c8 cs2. | e4 d4 c4 b4 | d4 c4 e,4 fs4 |
-  
+
   \sect "A2"
-  
+
   g4 fs4 e4 g4 | fs4 e4 g4 e4 | a1 | a8( as8) b2. |
   \break
   d4 c4 b4 d4 | c4 b4 d4 c4 | b1 | a4 g2. |
-  
+
   \sect "C"
-  
+
   e4 fs4 g4 fs4 | a4 g4 fs4 g4 | d'1 | fs,4 e2. |
   \break
   ds4 e4 d'4 c4 | e4 e4 b4 b4 | g1~ | g2. r4 |
@@ -122,10 +109,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

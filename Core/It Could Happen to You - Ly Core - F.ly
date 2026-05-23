@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -39,7 +34,7 @@ refrainChords = \chordmode {
   f1:maj7 bf1:7 a1:m7.5- d1:7.9-
 
   g1:m7 ef1:7
-  
+
   f1:maj7 e2:m7.5- a2:7
   d1:m7 g1:7 g1:m7 c1:7
 
@@ -47,9 +42,9 @@ refrainChords = \chordmode {
   f1:maj7 bf1:7 a1:m7.5- d1:7.9-
 
   g1:m7 ef1:7
-  
+
   f2:maj7 bf2:7 a2:m7.5- d2:7.9- g1:m7 c1:7
-  
+
   f1:maj7
   \chordOpenParen{ g2:m7 }
   \chordCloseParen{ c2:7 }
@@ -57,15 +52,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -74,18 +61,18 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Chet Baker 1958]" 108
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   c2. d4 | ef4 d8 a'8~ a2 | d,2. e4 | f4 e8 b'8~ b2 |
   c2 c2 | c4 bf2 f4 | a1 | r1 |
 
   \sect "B"
-  
+
   a2 a2 | a4 bf4 f4 g8 a8~ | a2 a2 | r1 |
   \break
   f2 f2 f4 g4 d4 e8 f8~ | f2 g2 | d4. e8~ e2 |
 
   \sect "A2"
-  
+
   c2. d4 | ef4 d8 a'8~ a2 | d,2. e4 | f4 e8 b'8~ b2 |
   \break
   c2 c2 | c4 bf2 f4 | a1 | r1 |
@@ -100,10 +87,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

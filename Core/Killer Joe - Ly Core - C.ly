@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Killer Joe"
   subtitle = \subtitle
@@ -26,7 +21,7 @@ introChords = \chordmode {
 introKicksOverTime = \relative f' {
   c4. c8 r2 | c4. c8 r2 | c4. c8 r2 | c4. c8 r2 |
 }
-  
+
 
 bassIntro = \relative f' {
   \time 4/4
@@ -35,7 +30,7 @@ bassIntro = \relative f' {
   \tempoFour "Bolero [The Jazztet 1960]" 108
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   c,4 g4 c4 b4 | bf4 f4 bf4 b4 | c4 g4 c4 b4 | bf4 f4 bf4 b4 |
   \bar "||"
 }
@@ -49,7 +44,7 @@ outroChords = \chordmode {
 outroKicksOverTime = \relative f' {
   c4. c8 r2 | c4. c8 r2 | c4. c8 r2 | c4. c8 r2 |
 }
-  
+
 
 bassOutro = \relative f' {
   \time 4/4
@@ -57,7 +52,7 @@ bassOutro = \relative f' {
   \clef bass
 
   \xTextMark \markup{ \bold \box "Outro" }
-  
+
   c,4 g4 c4 b4 | bf4 f4 bf4 b4 | c4 g4 c4 b4 | bf4 f4 bf4 b4 | c1\fermata
   \bar "|."
 }
@@ -75,15 +70,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -91,7 +78,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
 
   \xTextMark \markup{ "Refrain" \bold \box "A1, A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r2 f'4-. e8 g8~ | g1 | r2 e4-. c8 bf8~ | bf1 |
@@ -101,13 +88,13 @@ refrainMelody = \relative f' {
   \break
 
   \xTextMark \markup{ \bold \box "B" }
-  
+
   g,1~ | g2 a2 | bf1~ | bf2 c2 |
   \break
   cs1~ | cs2 ef2 | e1~ | e1 |
 
   \sect "A3"
-  
+
   r2 f4-. e8 g8~ | g1 | r2 e4-. c8 bf8~ | bf1 |
   \break
   r2 f'4-. e8 g8~ | g2. e8 g8~ | g1~ | g1 |
@@ -117,13 +104,8 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
-\include "../Include/bass-intro-with-kicks.ily"
+\include "../Include/bass-intro.ily"
 
 \include "../Include/refrain.ily"
 
-\include "../Include/bass-outro-with-kicks.ily"
+\include "../Include/bass-outro.ily"

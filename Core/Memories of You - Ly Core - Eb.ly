@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
    (set-global-staff-size 18))
 
@@ -47,15 +42,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -64,23 +51,23 @@ refrainMelody = \relative f' {
   \tempoFour "Swing [Duke Ellington 1930]" 182
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   bf,4 c4 c2 | c4 d4 d2 | d4 ef4 g4 bf4 | f'2. r4 |
   \break
   ef4 c4 c2 | bf4 g4 g2 | f4 c4 c4 c4 | ef2 r2 |
 
   \sect "A2"
-  
+
   bf4 c4 c2 | c4 d4 d2 | d4 ef4 g4 bf4 | f'2. r4 |
   \break
   ef4 c4 c2 | bf4 g4 g2 | f4 c4 c4 c4 | ef2 r2 |
 
   \sect "B"
-  
+
   g4 c4 d4 ef4 | af,4 c4 d4 ef4 | g,4 c4 d4 ef4 | g,1 |
   \break
   g4 c4 d4 ef4 | ef4 c4 c4 g4 | bf1 | r1 |
-  
+
   \sect "A3"
 
   bf,4 c4 c2 | c4 d4 d2 | d4 ef4 g4 bf4 | f'2. r4 |
@@ -91,10 +78,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

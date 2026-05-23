@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
    (set-global-staff-size 18))
 
@@ -46,7 +41,7 @@ refrainChords = \chordmode {
 
   f1:maj7 bf1:9.11+ c2 a2:m7 d1:7
   g2:9 g2:9/f e2:sus7 e2:7 f2:maj7 bf2:9 c2:6 b2:7
-  
+
   e2 e2:maj7 e2:6 f2:dim7 fs2:m7 b2:7 e2 b2:sus9
   e2 e2:maj7 e2:6 f2:dim7 fs2:m7 b2:7 e2 g2:7
 
@@ -58,15 +53,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -75,37 +62,32 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Louis Armstrong 1931]" 116
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   e4 e4 e8 d8 c8 d8 | e8 e4 e8~ e2 | b8 c4 e8~ e8 g8 c4 | d8 d4 d8~ d2 |
   \break
   a4 a4 a8 g8 e8 g8 | e8 e4 e8~ e4 d4 | c8 a8 c2 c4 | c1 |
-  
+
   \sect "A2"
-  
+
   e4 e4 e8 d8 c8 d8 | e8 e4 e8~ e2 | b8 c4 e8~ e8 g8 c4 | d8 d4 d8~ d2 |
   \break
   a4 a4 a8 g8 e8 g8 | e8 e4 e8~ e4 d4 | c8 a8 c2 c4 | c2( b2) |
-  
+
   \sect "B"
-  
+
   b8 cs8 e8 gs8 b8 b4 gs8 | cs8 cs4 gs8 b8 b4. | b8 b4 gs8 b4 gs8 e8~ | e2. r4 |
   \break
   b8 cs8 e8 gs8 b8 b4 gs8 | cs8 cs4 gs8 b8 b4. | b8 b4 gs8 b4 gs4 | e2( g2) |
-  
+
   \sect "A3"
 
   e4 e4 e8 d8 c8 d8 | e8 e4 e8~ e2 | b8 c4 e8~ e8 g8 c4 | d8 d4 d8~ d2 |
   \break
   a4 a4 a8 g8 e8 g8 | e8 e4 e8~ e4 e8 d8 | c8 a8 c2 c4 | c2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-subtitle = "Bb Low for Standard Key"
+subtitle = "Bb for Standard Key"
 whatKey = fs
 whatClef = "treble"
 
@@ -12,6 +12,6 @@ whatClef = "treble"
 
 %{
 
-\song{Dance of the Sugar Plum Fairy - Em to F\#m}{"../Standard/Bb/Dance of the Sugar Plum Fairy - Ly - Em to Fsm for Bb Low for Standard"}
+\song{Dance of the Sugar Plum Fairy - Em to F\#m}{"../Standard/Bb/Dance of the Sugar Plum Fairy - Ly - Em to Fsm for Bb for Standard"}
 
 %}

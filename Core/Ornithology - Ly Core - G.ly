@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -17,9 +12,11 @@ subtitle =
   copyright = \markup \small { \now " " "© 1946 Atlantic Music Corp." }
 }
 
+leadingEighth = ##t
+
 refrainChords = \chordmode {
-  s4
-  
+  s8
+
   g1:maj7 g1:maj7 g2:m7 c2:7 g2:m7 c2:7
   f1:maj7 f1:maj7 f1:m7 bf1:7
 
@@ -37,15 +34,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -53,33 +42,32 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast Bop [Charlie Parker Septet 1946]" 225
 
-  \partial 4 \invisEighth d8 |
-  \bar "||"
+  \partial 8 d8 |
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   g8 a8 b8 c8 d8 b8 c8 d8 | b8 g8 r4 r4 r8 d8 |
   g8 a8 bf8 c8 d8 e4 f8~ | f8 g,8 a8 bf8~ bf4. d8 |
   \break
   c8 a4 f8 bf8 gs8 a8 f8 | r2 r4 r8 af8~ |
   af4 g8 f8 e8 g8 f8 c8 | f4 ef8 d8 r4 r8 df'8~ |
-  
+
   \sect "B"
-  
+
   df4 c8 bf8 a8 c8 bf8 g8 | a4 g8 fs8 r4 r8 d8 |
   a'8 g8 d8 bf8 f'4 ef8 d8 | r2 r8 b'8 c8 d8~ |
   \break
   d8 r8 r8 b8~ b8 a4 g8 | gs8 b8 d8 f8~ f4 e8 c8~ |
   c8 r8 r8 a8~ a8 g4 f8 | fs8 a8 c8 ef8~ ef4 d8 d,8 |
-  
+
   \sect "A2"
-  
+
   g8 a8 b8 c8 d8 b8 c8 d8 | b8 g8 r4 r4 r8 d8 |
   g8 a8 bf8 c8 d8 e4 f8~ | f8 g,8 a8 bf8~ bf4. d8 |
   \break
   c8 a4 f8 bf8 gs8 a8 f8 | r2 r4 r8 af8~ |
   af4 g8 f8 e8 g8 f8 c8 | f4 ef8 d8 r4 r8 df'8~ |
-  
+
   \sect "C"
 
   df4 c8 bf8 a8 c8 bf8 g8 | a4 g8 fs8 r4 r8 d8 |
@@ -92,10 +80,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

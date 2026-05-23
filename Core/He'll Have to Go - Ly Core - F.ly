@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -56,14 +51,14 @@ Put your
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
 
 refrainChords = \chordmode {
-  f2. c2.:7 f2. f2/c c4:7
-  
+  s4
+
   f2. bf2. f2. f2.
   f2. f2. g2.:m7/c c2.:7
   f2. f2.:7 bf2. bf2.
@@ -80,15 +75,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -96,27 +83,25 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Jim Reeves 1959]" 80
 
-  \sectStart "Intro"
-  
-  R2.*1 | R2.*1 | R2.*1 | r4 r4 g8 gs8 |
-  
-  \segnoSign
-  \sect "Verse 1"
-  
+  \partial 4 g8 gs8 |
+  \bar "||"
+
+  \sectNoBarNoBreakSegno "Verse 1"
+
   a8 f8~ f8 f8 g8 a8 | bf8 bf8~ bf4 c8 d8 | c2.~ | c4 r4 a8 bf8 |
   c4. c8 d8 c8 | a4 c,4 bf'8 a8 | g2.~ | g4 r8 e8 f8 g8 |
   a4. g8 a8 bf8 | c4 c4 d8 c8 | bf,2.~ | bf4 r8 f'8 f8 g8 |
   a4. a8 bf8 a8 | g8 g8~ g8 c,8 e8 g8 | f2.~ | f4 \textFine r4 g8 gs8 |
-  
+
   \sect "Verse 2"
 
   a8 c,8~ c4 a'8 a8 | bf4. bf8 c8 d8 | c2.~ | c2 a8 bf8 |
   c2 d8 c8 | a4. c,8 bf'8 a8 | g2.~ | g4 r8 e8 f8 g8 |
   a4. a8 a8 bf8 | c4. d8 d8 c8 | bf,2.~ | bf2 f'8 bf8 |
   a8 a8~ a8 c,8 f8 a8 | g8 g8~ g8 c,8 e8 g8 | f2.~ | f4 r4 c'8 cs8 |
-  
+
   \sect "Bridge"
-  
+
   d4. cs8 d8 ef8 | d8 c8 bf4 bf8 bf8 | a4. gs8 a8 bf8 | a2 c8 cs8 |
   d4. cs8 d8 ef8 | d8 c8 bf4 f8 g8 | a4. a8 bf8 a8 | g2 g8 gs8 \dalSegnoAlFine |
 
@@ -124,10 +109,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

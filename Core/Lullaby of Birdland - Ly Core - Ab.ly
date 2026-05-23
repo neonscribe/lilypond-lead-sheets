@@ -9,11 +9,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Lullaby of Birdland"
   subtitle = \subtitle
@@ -38,12 +33,12 @@ introMelody = \relative c' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  
+
   \xTextMark \markup{ "Sarah Vaughan Intro" }
   f8 f8 f8 f8 g4 g4 | ef4 ef8 f8~ f4 r4 | df8 df8 df8 df8 ef4 ef8 c8~ | c2. r4 |
-  
+
   \bar "||"
-  
+
   \xPageBreak
 }
 
@@ -63,13 +58,13 @@ refrainLyrics = \lyricmode {
 refrainHLChords = \chordmode {
   f2:m d2:m7.5- g2:7.9- c2:7 f2:m d2:m7.5- bf2:m7 ef2:7
   af2:maj7 f2:m7 bf2:m7 ef2:7 af1:maj7 g2:m7.5- c2:7
-  
+
   f2:m d2:m7.5- g2:7.9- c2:7 f2:m d2:m7.5- bf2:m7 ef2:7
   af2:maj7 f2:m7 bf2:m7 ef2:7 af2:maj7 ef2:7 af1:maj7
-  
+
   f1:7 bf1:m7 bf2:m7 ef2:7 af1:maj7
   f1:7 bf1:m7 bf2:m7 ef2:7 af2:maj7 c2:7
-  
+
   f2:m d2:m7.5- g2:7.9- c2:7 f2:m d2:m7.5- bf2:m7 ef2:7
   af2:maj7 f2:m7 bf2:m7 ef2:7 af2:maj7 ef4.:7 af8:6 af1:6
   }
@@ -77,13 +72,13 @@ refrainHLChords = \chordmode {
 refrainSimpleChords = \chordmode {
   f2:m d2:m7.5- g2:7 c2:7 f1:m bf2:m7 ef2:7
   c2:m7 f2:m7 bf2:m7 ef2:7 af1:maj7 g2:m7.5- c2:7.9-
-  
+
   f2:m d2:m7.5- g2:7 c2:7 f1:m bf2:m7 ef2:7
   c2:m7 f2:m7 bf2:m7 ef2:7 af2:maj7 ef2:7 af1:6
-  
+
   c2:m7.5- f2:7.9- bf1:m7 bf2:m7 ef2:7.9- af1:maj7
   c2:m7.5- f2:7.9- bf1:m7 bf2:m7 ef2:7.9- af2:maj7 c2:7.9-
-  
+
   f2:m d2:m7.5- g2:7 c2:7 f1:m bf2:m7 ef2:7
   c2:m7 f2:m7 bf2:m7 ef2:7 af2:maj7 ef2:7 af2:6
   \chordOpenParen{ g4:m7.5- }
@@ -93,7 +88,7 @@ refrainSimpleChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "simple" refrainSimpleChords)
@@ -103,23 +98,15 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative c' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Sarah Vaughan 1954]" 116
-  
-  \sectStart "A1"
+
+  \sectNoBarNoBreak "A1"
 
   c'8 c8 bf8 af8 g8 f4. | df4 f8 e8~ e2 | c4 g'8 f8~ f2 | df4 c'8 bf8~ bf2 |
   ef8 ef8 df8 c8 bf8 af4 f8~ | f8 c'8 bf8 e,8~ e8 c'8 bf8 ef,8~ |
@@ -137,7 +124,7 @@ refrainMelody = \relative c' {
   bf4 b8 c8 df8 bf8 df8 c8~ | c2 r2 |
   c4 df8 d8 ef8 c8 ef8 df8 | r8 bf4.~ bf4 r4 |
   bf4 b8 c8 df8 bf8 df8 c8~ | c8 df8 c8 bf8 r2 |
-  
+
   \sect "A3"
 
   c8 c8 bf8 af8 g8 f4. | df4 f8 e8~ e2 | c4 g'8 f8~ f2 | df4 c'8 bf8~ bf2 |
@@ -148,11 +135,6 @@ refrainMelody = \relative c' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 introInclude =
 #(if (and (defined? 'noIntro) noIntro)

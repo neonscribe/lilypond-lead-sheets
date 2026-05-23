@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Stella by Starlight"
   subtitle = \subtitle
@@ -22,11 +17,11 @@ subtitle =
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   #{
   \lyricmode {
-  The song __ a rob -- in sings __ 
+  The song __ a rob -- in sings __
   through years __ of end -- less springs. __
   The mur -- mur of a brook at ev -- en -- tide __
   that rip -- ples by a nook where two lov -- ers hide. __
@@ -36,15 +31,15 @@ refrainLyrics =
   She's ev -- 'ry -- thing __ that you'd a -- dore. __
   (The)
   }
-  #} #{ 
+  #} #{
   \lyricmode {
-  The song __ a rob -- in sings __ 
+  The song __ a rob -- in sings __
   through years __ of end -- less springs. __
   The mur -- mur of a brook at ev -- en -- tide __
   that rip -- ples by a nook where two lov -- ers hide. __
   A great __ sym -- phon -- ic theme, __
   that's Stel -- la by star -- light __ and not a dream. __
-  My heart __ and I a -- gree __ 
+  My heart __ and I a -- gree __
   she's ev -- 'ry -- thing on earth to me. __
   (The)
   }
@@ -72,15 +67,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -89,26 +76,25 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Miles Davis 1958]" 85
 
   \partial 4 bf4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   a1~ | a4 g4 a4 bf4 | f1~ | f2 f2 |
   \break
   g1~ | g4 f4 f4 g4 | bf,1~ | bf2 c2 |
-  
+
   \sect "B"
-  
+
   ef4 d4 c4 bf4 | d2. e4 | g4. f8 f2~ | f2. g4 |
   \break
   bf4 a4 g4 f4 | g2 a4 bf4 | d4. c8 c2~ | c2 d2 |
-  
+
   \sect "C"
-  
+
   ef1~ | ef4 ef4 ef4 d4 | f1~ | f4 ef4 \tuplet 3/2 { d4 c4 bf4 } |
   \break
   d2 d2~ | d4 c4 bf4 a4 | c1~ | c2 bf2 |
-  
+
   \sect "A2"
 
   a1~ | a4 g4 a4 bf4 | f1~ | f4 f4 f4 ef4 |
@@ -119,10 +105,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

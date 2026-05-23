@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -41,7 +36,7 @@ introMelody = \relative f' {
   <d fs>4 e4 |
   \numericTimeSignature
   \time 4/4
-  
+
   \bar "||"
 }
 
@@ -103,22 +98,22 @@ That is, I think I dis -- a -- gree.
 
 refrainChords = \chordmode {
   a1:1.3.5.9 a1:1.3.5.9
-  
+
   e1:m7 e1:m7 fs1:7.9- fs1:7.9-
   d4. e8 fs1
   d2.:maj7
   a1
-  
+
   e2 e2:maj7 e2:7 b4:m7 cs4:7
   fs2:m fs2:m/e d1:maj7 d2:maj7 e2:7
-  a2 fs2:m7 b2:m7 e2 d2 a2 
+  a2 fs2:m7 b2:m7 e2 d2 a2
   a1:1.3.5.9 a1:1.3.5.9
-  
+
   e1:7 e2:7 e2:7/d cs1:dim7 cs1:dim7
   d4. e8 fs1
-  
+
   d2.:maj7 a1 a1
-  
+
   d2.:maj7 a2 fs2:m
   d2.:maj7 a1
   d4.:maj7 e4.
@@ -127,28 +122,20 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \numericTimeSignature
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  
-  \sectStart "Pre-Chorus"
+
+  \sectNoBarNoBreak "Pre-Chorus"
 
   r4 cs'8 cs8 d8 cs4 a8~ | a4 e8 fs8 b8 a4 g8~ |
 
   \sectNoBreak "Chorus"
-  
+
   g2 \tuplet 3/2 { g4 a4 b4 } | e,2 r2 |
   \break
   r2 \tuplet 3/2 { g4 a4 bf4 } | e,2 r4 r8 e8 |
@@ -167,7 +154,7 @@ refrainMelody = \relative f' {
   \xPageBreak
 
   \sectNoBar "Verse"
-  
+
   \bar ".|:-||"
   \repeat volta 3 {
   \tuplet 3/2 { b4 b4 b4 } \tuplet 3/2 { b4 b4 b4 } |
@@ -181,7 +168,7 @@ refrainMelody = \relative f' {
   r4 cs8 cs8 d8 cs4 a8~ | a4 e8 fs8 b8 a4 g8~ |
 
   \sectNoBreak "Chorus"
-  
+
   g2 \tuplet 3/2 { g4 a4 b4 } | e,2 r2 |
   \break
   r2 \tuplet 3/2 { g4 a4 bf4 } | e,2 r4 r8 e8 |
@@ -222,11 +209,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/intro.ily"
 

@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "I Don't Know Enough About You"
   subtitle = \subtitle
@@ -16,6 +9,8 @@ subtitle =
   composer = "Dave Barbour and Peggy Lee"
   copyright = \markup \small { \now " " "© 1946 Denslow Music Inc." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I know a lit -- tle bit a -- bout a lot of things,
@@ -44,16 +39,16 @@ But I don't know e -- nough a -- bout you
 }
 
 refrainChords = \chordmode {
-  s2
-  
+  s4.
+
   d1:7 g1:7 c1:6 a1:7
   d1:7 g1:7 c2:6 af2:7 g2:sus7 g4:7 a4:7
 
   d1:7 g1:7 c1:6 a1:7
   d1:7 g1:7 c2:6 d4:7 g4:7 c1:6
-  
+
   e1:7 e1:7 a1:7 a1:7 d1:7 d1:7 g1:7 g2.:7 a4:7
-  
+
   d1:7 g1:7 c1:6 a1:7
   d1:7 g1:7 c2:6 d4:7 g4:7 c2.:6
   \chordInsideParens{ a4:7 }
@@ -61,39 +56,31 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Ballad [Peggy Lee 1945]" 80
-  
-  \partial 2 \invisEighth fs8 g8 gs8 |
 
-  \sectStart "A1"
-  
+  \partial 4. fs8 g8 gs8 |
+
+  \sectNoBreak "A1"
+
   \tuplet 3/2 { a8 gs8 a8~ } a4 r8 gs8 a8 as8 | \tuplet 3/2 { b8 as8 b8~ } b4 r4 r8 g8 |
   a8 g8 a8 g8 a8 b8 c8 cs8~ | cs2 r8 a'8 gs8 a8 |
   \break
   e8 e8 e4 r8 a,8 gs8 a8 | e'8 e8 e2 r8 g,8 | a8 c4 ef8~ 8 c8 ef8 d8~ | d2 r8 fs,8 g8 gs8 |
-  
+
   \sect "A2"
-  
+
   \tuplet 3/2 { a8 gs8 a8~ } a4 r8 gs8 a8 as8 | \tuplet 3/2 { b8 as8 b8~ } b4 r4 r8 g8 |
   a8 g8 a8 g8 a8 b8 c8 cs8~ | cs2 r8 a'8 gs8 a8 |
   \break
-  e8 e8 e4 r8 a,8 gs8 a8 | e'8 e8 e2 r8 g,8 | a8 b8 c8 d8 e8 c8 a8 c8~ | c2. r4
-  
-  \sect "B"
+  e8 e8 e4 r8 a,8 gs8 a8 | e'8 e8 e2 r8 g,8 | a8 b8 c8 d8 e8 c8 a8 c8~ | c2. r4 |
+
+  \sectPageBreak "B"
 
   e8 f8 ds8 e8~ e2 | e8 f8 ds8 e8~ e2 | r4 a,4 cs8 d8 e8 d8 | cs1 |
   \break
@@ -105,15 +92,10 @@ refrainMelody = \relative f' {
   a8 g8 a8 g8 a8 b8 c8 cs8~ | cs2 r8 a'8 gs8 a8 |
   \break
   e8 e8 e4 r8 a,8 gs8 a8 | e'8 e8 e2 r8 g,8 | a8 b8 c8 d8 e8 c8 a8 c8~ | c2. r4
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

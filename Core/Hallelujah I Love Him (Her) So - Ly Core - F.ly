@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -80,7 +75,7 @@ hal -- le -- lu -- jah, I just love him so. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
@@ -89,13 +84,13 @@ refrainHLChords = \chordmode {
   f2 f2/a bf2 b4:dim7 c4:7 f2 f2/a bf2 b4:dim7 c4:7
   f1 f2.:7 f4:7.5+ bf1 b1:dim7
   f2 a2:7 d2:m bf2:7
-  
+
   g2:7 c2:sus7 f2 c2:7
-  
+
   f2 f2/a bf2 b4:dim7 c4:7 f2 f2/a bf2 b4:dim7 c4:7
   f1 f2.:7 f4:7.5+ bf1 b1:dim7
   f2 a2:7 d2:m bf2:7
-  
+
   g2:7 c2:sus7 f2 f2:7.5+
 
   bf1 b1:dim7 f1 f1:7
@@ -112,13 +107,13 @@ refrainNicoChords = \chordmode {
   f2 f2/a bf2 b4:dim7 f4/c f2 f2/a bf2 b4:dim7 f4/c
   f1 f2 f4:7 f4:7.5+ bf1 b1:dim7
   f2/c a2:7 d2:m bf2:7
-  
+
   g2:7 c2:sus7 f2 c2:7
-  
+
   f2 f2/a bf2 b4:dim7 f4/c f2 f2/a bf2 b4:dim7 f4/c
   f1 f2 f4:7 f4:7.5+ bf1 b1:dim7
   f2/c a2:7 d2:m bf2:7
-  
+
   g2:7 c2:sus7 f2 f2:7.5+
 
   bf1 b1:dim7 f1 f4. f8*5:7
@@ -134,15 +129,7 @@ refrainChords = \refrainNicoChords
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -150,8 +137,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Gospel [Ray Charles 1955]" 148
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   r8 c'8 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 | r8 c8 d8 c8 af8 g8 f8 d8 | f4 f8 d8~( d8 c8) r4 |
   \break
   r4 d'8 c8 af8 g8 f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
@@ -161,7 +148,7 @@ refrainMelody = \relative f' {
   af8 g8 f8 d8 f4 f8 f8~ | f8 r8 r4 r2 |
 
   \sect "A2"
-  
+
   r8 c'8 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 | r8 c8 d8 c8 af8 g8 f8 d8 | f4 f8 d8~( d8 c8) r4 |
 
   r4 d'8 c8 af8 g8 f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
@@ -175,7 +162,7 @@ refrainMelody = \relative f' {
   af8 g8 f8 d8 f4 f8 f8~ | f8 r8 r4 r2 |
 
   \sect "B"
-  
+
   r8 d8 f8 d8 f8 d8 f8 d8 | f8 f8 f4 r2 | r4 a4 d8 c8 a8 f8 | a4 f8 g8~ g4 r4 |
   \break
   r4 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 g8 d8
@@ -183,7 +170,7 @@ refrainMelody = \relative f' {
   g8 g8 g8 g8 |
   \revert NoteHead.style
   g8 a4 d8~( d4 c4) |
-  
+
   \sect "A3"
 
   r4 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 |
@@ -193,15 +180,10 @@ refrainMelody = \relative f' {
   r8 c'8 d8 c8 af8( g8) f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
   \break
   a8( c4.) r4 a8 a8 | g8( f4.) r4 af8 g8 | af8 g8 f8 d8 f4 f8 f8~ | f1~ | f2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

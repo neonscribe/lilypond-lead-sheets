@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Too Darn Hot"
   subtitle = \subtitle
@@ -58,7 +51,7 @@ refrainChords = \chordmode {
 
   c2:m6 c2:m/b c2:m/bf c2:m/a af1:9.11+ g1:7
   c2:m6 c2:m/b c2:m/bf c2:m/a af1:9.11+ g1:7
-  
+
   c2:6 c2:7 f2:6 f2:m6 c2:6 c2:7 f2:6 f2:m6
   c2:6 c2:7 f2:6 g2:7.5+ d2:7 g2:7 c1:m6
 
@@ -78,15 +71,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -97,61 +82,56 @@ refrainMelody = \relative f' {
   \partial 4 g4 |
 
   \xTextMark \markup{ \bold \box "A" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
-  c2 bf2 | g4 r4 r4 g4 | 
+  c2 bf2 | g4 r4 r4 g4 |
   c2 bf2 | g4 r4 r4 g4 |
 
   \sect "B"
-  
+
   c4 d8 ef8~ ef4 r4 | r4 ef8 d8 ef8 d8 c8 d8~ | d8 r8 r4 r2 | r2 r4 g,4 |
-  \break
+  %% \break
   c4 d8 ef8~ ef4 r4 | r4 ef8 d8 ef8 d8 c8 d8~ | d8 r8 r4 r2 | r2 r4 g,4 |
-  
+
   \sect "C"
-  
+
   c4 d8 e8~ e8 e4 c8 | e8 d8 c8 d8~ d8 r8 g,4 | e'4 f8 g8~ g8 g4 e8 | g8 f8 e8 f8~ f4 d4 |
-  \break
+  %% \break
   g4 a8 bf8~ bf8 bf4 g8 | bf8 a8 g8 a8~ a8 g4 f8 | ef2 d2 |
   c4 r4 r4 g'4 |
   }
-  \xPageBreak
 
-  \override Score.Clef.break-visibility = #begin-of-line-visible
-  \override Score.KeySignature.break-visibility = #begin-of-line-visible
+  \sectPageBreak "D"
 
-  \xTextMark \markup{ \bold \box "D" }
-  
   \key \refrainKey \major
-  
   \bar ":|.|:"
   \repeat volta 2 {
   a4 g4 e4 a8 g8~ | g8 e8 a8 g8 r8 a4 g8 | a8 a8 g4 e4 d8 e8~ | e4 r4 r8 a4 g8 |
   \override Score.Clef.break-visibility = #all-invisible
   \override Score.KeySignature.break-visibility = #all-invisible
-  \break
+  %% \break
   a4 g4 e4 a8 g8~ | g8 e8 a8 g8 r8 a4 g8 | a8 a8 g8 e8~ e4 c4 | d4 r4 r4 g,4 |
-  \break
+  %% \break
   c4 c8 d8 e8 d8 c4 | f4 g4 a4 a8 b8 | c8 c8 a4 g4 a4 | ef4 r4 r4 c8 d8 |
-  \break
+  %% \break
   \alternative { \volta 1 {
   e4 r4 c4 d4 | ef4 r4 r4 d4 |
   c4 r4 g'4. gs8 | a2 b2 |
-  \break
+  %% \break
   c2 bf2 | g4 r4 r4 g4 | c2 bf2 | g4 r4 r4 c,4 |
-  \break
+  %% \break
   gf'1 | f4( ef2.) | c4 r4 r2 | r2 r4 g'4 |
-  \break
+  %% \break
   } \volta 2 {
   e4 r4 c4 d4 | ef4 r4 r4 c8 d8 |
   e4 r4 r4 c8 d8 | ef4 r4 r4 c8 d8 |
-  \break
+  %% \break
   e4 r4 r4 c8 d8 | ef8 ef4 ef8~ ef4 d4 |
   c4 r4 g'4. gs8 | a2 b2 |
-  \break
+  %% \break
   c2 bf2 | g4 r4 r4 g4 | c2 bf2 | g4 r4 r4 c,4 |
-  \break
+  %% \break
   gf'1 | f4( ef2.) | c4 r4 r2 | r1 |
   } } }
   \bar "|."
@@ -159,14 +139,9 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
-\markup { "Solo on " \bold \box "A" \bold \box "B" \bold \box "C" 
-	  " after " 
+\markup { "Solo on " \bold \box "A" \bold \box "B" \bold \box "C"
+	  " after "
 	  \box "D" " with first ending and before "
 	  \box "D" " with second ending" }

@@ -1,10 +1,14 @@
 %% -*- Mode: LilyPond -*-
 
-\score {
+$(if (not (and (defined? 'midiOnly) midiOnly))
+  #{
+\new Score \with {
+   \remove System_start_delimiter_engraver
+}
   <<
     { \context ChordNames 
       {
-      \override ChordName.font-size = #+3
+      \override ChordName.font-size = #+2.5
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
      \transpose \outroKey \whatKey {
@@ -27,6 +31,13 @@
       \improvisationOff
     }
     #} )
+    $(if (and (defined? 'printNoteNames) printNoteNames)
+      #{ 
+      \new NoteNames \tiedNoteToSkip { 
+	% Transpose bass line in the same octave
+	  \removeWithTag LLS \transpose \outroKey \bassKey { \bassOutro }
+      }
+      #} )
     \new Staff {
       \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
@@ -34,27 +45,15 @@
 	  \transpose \outroKey \bassKey { \bassOutro }
 	}
     }
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames \tiedNoteToSkip { 
-	% Transpose bass line in the same octave
-	  \removeWithTag LLS \transpose \outroKey \bassKey { \bassOutro }
-      }
-      #} )
   >>
-  \layout { 
-    \context { \Score
-	       \remove "System_start_delimiter_engraver" }
-    ragged-bottom = ##t ragged-right = ##f 
-  }
-}
-
+#}
+#{
 \score {
   \tripletFeel 8
   <<
     { \context ChordNames \with {midiInstrument = "drawbar organ"}
       {
-      \override ChordName.font-size = #+3
+      \override ChordName.font-size = #+2.5
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
      \transpose \outroKey \whatKey {
@@ -62,13 +61,6 @@
 	}
       }
       }
-    \new Staff \with {midiInstrument = "brass section"} {
-      \include "../Include/staff-settings.ily"
-      \context Voice = "voiceMelody" { 
-	% Transpose bass line in the same octave
-	  \transpose \outroKey \bassKey { \bassOutro }
-	}
-    }
     $(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
@@ -76,6 +68,14 @@
 	  \removeWithTag LLS \transpose \outroKey \bassKey { \bassOutro }
       }
       #} )
+    \new Staff \with {midiInstrument = "brass section"} {
+      \include "../Include/staff-settings.ily"
+      \context Voice = "voiceMelody" { 
+	% Transpose bass line in the same octave
+	  \transpose \outroKey \bassKey { \bassOutro }
+	}
+    }
   >>
   \midi{}
 }
+#} )

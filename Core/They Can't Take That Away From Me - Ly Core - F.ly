@@ -2,12 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \header {
   title = "They Can't Take That Away From Me"
@@ -31,7 +26,7 @@ No, they can't take that a -- way from me. __
 
 refrainChords = \chordmode {
   s1
-  
+
   f2:6 f2:maj7 f2/a af2:dim7 g1:m7 bf1/c
   c1:m7 f1:9 bf2:maj7 d2:7 g2:m7 bf2/c
 
@@ -50,15 +45,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -67,46 +54,34 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Fred Astaire 1937]" 110
 
   r8 f8 f8 f8 f4 f8 a8~ |
-  \bar "||-||"
+  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   a1 | r8 f8 f8 f8 f4 f8 c8~ | c1 |
-  \break
   r8 f8 f8 f8 f4 f8 c'8~ | c1~ | c8 r8 d4 d4 d4 | f8 d8 c8 bf8 c4 a8 f8~ |
-  \break
   f8 f8 f8 f8 f4 f8 a8~ |
-  \bar "||-||"
-  \xTextMark \markup{ \bold \box "A2" }
+
+  \sect "A2"
 
   a1 | r8 f8 f8 f8 f4 f8 c8~ | c1 |
-  \break
   r8 f8 f8 f8 f4 f8 c'8~ | c1~ | c8 r8 d4 d4 d4 | f8 d8 c8 bf8 c4 a8 f8~ |
-  \break
   f2. a8 b8 |
-  \bar "||-||"
-  \xTextMark \markup{ \bold \box "B" }
-  
+
+  \sectPageBreak "B"
+
   c4 a4 e'4 d4 | c4 a4 e'4 d8 c8 | a8 a8 a2 g4 |
-  \break
   e2. a8 b8 | c4 a4 e'4 d4 | c4 a4 d4 d4 | g,1 |
-  \break
   r8 f8 f8 f8 f4 f8 a8~ |
-  \bar "||-||"
-  \xTextMark \markup{ \bold \box "A3" }
+
+  \sect "A3"
+
   a1 | r8 f8 f8 f8 f4 f8 c8~ | c1 |
-  \break
   r8 f8 f8 f8 f4 f8 d'8~ | d1~ | d4 f4 f4 f4 | f8 d8 c8 bf8 c4 a8 f8~ |
-  \break
   f8 r8 c'2 bf4 | f4 bf4 a4 c4 | g2 a2 | f1~ | f2. r4 |
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

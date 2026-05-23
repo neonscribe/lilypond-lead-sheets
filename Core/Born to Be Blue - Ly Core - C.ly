@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -66,12 +61,12 @@ refrainSRBChords = \chordmode {
 refrainHLChords = \chordmode {
   c2:7 df2:7 c2:7 gf2:7.5- f2:7 ef2:7 af4:maj7 \chordSlash 1 d4:m7.5- g4:7.9-
   c2:m7 df2:7 d2:m7 f2:7
-  
+
   f2:m7 af2:7.5- g2:7 g2:7.5+
 
   c2:7 df2:7 c2:7 gf2:7.5- f2:7 ef2:7 af4:maj7 \chordSlash 1 d4:m7.5- g4:7.9-
   c2:m7 df2:7 d2:m7 f2:7
-  
+
   f2:m7 af4:7 g4:7.5+ c1:6
 
   af2:m7 df2:7 af2:m7 df2:7 af2:m7 df2:7 gf1:maj7
@@ -85,15 +80,7 @@ refrainChords = \refrainHLChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -101,7 +88,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Chet Baker 1964]" 70
 
-  \sectStart "A1"
+  \sectNoBarNoBreak "A1"
 
   r8 c8 a8 g8 af8 df8 bf8 af8 | a8 c4.~ c2 |
   \break
@@ -115,15 +102,13 @@ refrainMelody = \relative f' {
 
   r8 c8 a8 g8 af8 df8 bf8 af8 | a8 c4.~ c2 |
   \break
-  r8 g8 f8 ef8 g8 c8 g8 f8 | ef2. r8 d8 | 
+  r8 g8 f8 ef8 g8 c8 g8 f8 | ef2. r8 d8 |
   \break
   ef8 ef8 d8 ef8 g8( f4) c8 | \tuplet 3/2 { ef8 f8 ef8 } d8 ef8 g8( f4.) |
   \break
   r8 c8 d8 c8 ef8 c8 ef4 | c1 |
-  \bar "||"
 
-  \xPageBreak
-  \sectNoBarNoBreak "B"
+  \sectPageBreak "B"
 
   r8 bf'8 bf8 af8 bf4. af8 | bf8 df8 bf8 af8 bf8 df4. |
   \break
@@ -132,7 +117,7 @@ refrainMelody = \relative f' {
   af'2~ af8 gf8 ff8 ef8 | gf4 af4 bf8 cf4. |
   \break
   bf8 f8 g8 af8 \tuplet 3/2 { bf4 bf4 bf4 } | g2 g2 |
-  
+
   \sect "A3"
 
   r8 c8 a8 g8 af8 df8 bf8 af8 | a8 c4.~ c2 |
@@ -147,10 +132,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

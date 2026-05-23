@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -32,7 +27,7 @@ if I lost you.
 
 refrainChords = \chordmode {
   s2.
-  
+
   g1:m7 a2:m7.5- d2:7 g2:m7 gf2:7 f2:m7 bf2:7
   ef1:maj7 f2:m7 bf2:7 ef1:maj7 c1:m7
 
@@ -41,8 +36,8 @@ refrainChords = \chordmode {
 
   g1:m7 a2:m7.5- d2:7 g2:m7 gf2:7 f2:m7 bf2:7
   ef1:maj7 f2:m7 bf2:7 ef1:maj7 c1:m7
-  
-  f1:7 c2:m7 f2:7 bf1:maj7 d2:m7 df2:dim7 
+
+  f1:7 c2:m7 f2:7 bf1:maj7 d2:m7 df2:dim7
   c1:m7 f1:7 bf1:6
   \chordOpenParen{ a2:m7.5- }
   \chordCloseParen{ d2:7 }
@@ -50,47 +45,38 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium-Up [Hank Mobley 1960]" 180
-  
-  \partial 2. d4 d'4. c8 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 2. d4 d'4. c8 |
+
+  \sectNoBreak "A1"
+
   a2 bf2 | r4 d,4 d'4. c8 | \tuplet 3/2 { a4 a4 c4 } bf2 | r4 bf,4 bf'4. af8 |
   \break
   fs2 g2 | r4 bf,4 bf'4. af8 |
   \tuplet 3/2 { fs4 fs4 af4 } g2 | r4 g4 a4 bf4 |
 
   \sect "B"
-  
+
   d,2 d2 | r4 c4 d4 ef4 | e8 g4 f8 f2 | r4 f4 g4 a4 |
   \break
   a8 c4 bf8 bf2 | bf8 d4 c8 c4 bf4 | c1 | r4 d,4 d'4. c8 |
-  
+
   \sect "A2"
-  
+
   a2 bf2 | r4 d,4 d'4. c8 | \tuplet 3/2 { a4 a4 c4 } bf2 | r4 bf,4 bf'4. af8 |
   \break
   fs2 g2 | r4 bf,4 bf'4. af8 |
   \tuplet 3/2 { fs4 fs4 af4 } g2 | r4 g4 a4 bf4 |
 
   \sect "C"
-  
+
   d,2 d2 | r4 c4 d4 ef4 | e8 g4 f8 f4 g4 | a8 c4 bf8 bf4 c4 |
   \break
   d4. bf8 f2~ | f2 g2 | bf1 | r1 |
@@ -99,10 +85,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

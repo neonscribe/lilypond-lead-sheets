@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -43,12 +38,12 @@ mine.
 refrainChords = \chordmode {
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 bf4:m7 ef4:7 af2:maj7 df2:7
   g2:m7 c2:m7 cf2:7 bf4:7.5+ bf4:7
-  
+
   ef2:6 c2:m7 f2:m7 bf2:7
-  
+
   ef1:6 bf2:m7 ef2:7
-  
-  af1:6 a1:dim7 ef2/bf c2:7 f2:7 fs2:dim7 
+
+  af1:6 a1:dim7 ef2/bf c2:7 f2:7 fs2:dim7
   g2:m7 c2:7.9- f2:m7 f2:7 f1:m7/bf bf1:7
 
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 bf4:m7 ef4:7 af2:maj7 df2:7
@@ -60,15 +55,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -77,7 +64,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Ballad [Billie Holiday with Teddy Wilson 1937]" 94
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   bf8 bf8 bf8 ef8~ ef4 ef4 | ef8 bf8 bf8 bf8~ bf2 | g8 g8 g8 c8~ c4 c4 |
@@ -90,13 +77,13 @@ refrainMelody = \relative f' {
   ef1~ | ef2 r2 |
   } } }
   \sect "B"
-  
-  
+
+
   f4 f4 f4 f8 gf8~ | gf1 | g4 g4 g4 g8 a8~ | a1 |
   \break
   bf4 bf4 bf4 bf4 | c4 c4 c4 c4 | f2~ f8 ef8 d8 c8 | bf1 |
 
-  
+
   \sect "A3"
 
   bf8 bf8 bf8 ef8~ ef4 ef4 | ef8 bf8 bf8 bf8~ bf2 | g8 g8 g8 c8~ c4 c4 | c8 f,8 f8 f8~ f2 |
@@ -107,10 +94,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

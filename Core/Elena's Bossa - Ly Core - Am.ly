@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
    (set-global-staff-size 18))
 
@@ -20,42 +15,34 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 refrainChords = \chordmode {
   a1:m f1 e1:7
-  
+
   a1:m
-  
+
   a1:m
-  
+
   a1:m a1:m f1 f1
   e1:7 e1:7
-  
+
   a1:m e1:7
-  
+
   a1:m a1:7
-  
+
   d1:m7 g1:7 c1:maj7 f1:maj7
   b1:m7.5- e1:7 a1:m a1:7
 
   d1:m7 g1:7 c1:maj7 f1:maj7
   b1:m7.5- e1:7 a1:m e4:7 r2.
-  
+
   a1:m f1 e1:7
-  
+
   a1:m
-  
+
   a1:m
 }
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -64,7 +51,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Gonzalo Bergara 2007]" 180
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r8 e8 a8 gs8 a4 a4~ | a8 e8 a8 gs8 a4 a4~ | a8 e8 a8 gs8 a4 a4~ |
@@ -74,7 +61,7 @@ refrainMelody = \relative f' {
   <c a e a,>2 r8 gs8 a8 b8 |
   } } }
   \sect "A1,A2"
-  
+
   \bar ".|:"
   \repeat volta 2 {
   c4. b8 c8 b8 a8 e8~ | e2 r8 gs8 a8 b8 | c4. d8 c8 b8 a8 f8~ | f2 r8 gs8 a8 as8 |
@@ -85,17 +72,17 @@ refrainMelody = \relative f' {
   } \volta 2 {
   b4 a8 c8~ c2 | <e cs>8 <e cs>8 <e cs>8 <e cs>8 <e cs>8 <e cs>8 <e cs>8 <e cs>8 |
   } } }
-  
+
   \sect "B1"
-  
+
   f2 c8 d8 c8 b8~ | b2~ b8 f'8 e8 d8 | e2 b8 c8 b8 a8~ | a2 e'4. d16 c16 |
   \break
   d4. c8 d16 c16 b8~ b8 a8 | gs4 r8 <b d>8 <b d>8 <b d>8 <b d>8 <b d>8 |
   <b d>8 <a c>8 <gs b>8 <a c>8~ <a c>4 r4 |
   <e' cs>8 <e cs>8 <e cs>8 <e cs>8 <e cs>8 <e cs>8 <e cs>8 <e cs>8 |
-  
+
   \sect "B2"
-  
+
   <f d>8 <f d>8 <f d>8 <f d>8 <f d>8 <e c>8 r8 <d b>8~ |
   <d b>4 r8 <d b>8 <d b>8 <d b>8 <c a>8 <d b>8 |
   r8 <e c>8~ <e c>8 <e c>8 <e c>8 <d b>8 r8 <c a>8~ |
@@ -104,7 +91,7 @@ refrainMelody = \relative f' {
   r8 <d b>8 <d b>8 <d b>8 <d b>8 <cs as>8 <c a>8 <b gs>8~ |
   <b gs>2 <b gs>2 \textToCodaLastTime |
   c8 b8 a8 e8~ e2 | <e d b>1 |
-  
+
   \break
 
   \textCoda
@@ -122,10 +109,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

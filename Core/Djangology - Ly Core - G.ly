@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Djangology"
   subtitle = \subtitle
@@ -26,7 +21,7 @@ refrainChords = \chordmode {
 
   a1:7 d1:7 g1 bf1:dim7
   a1:m7 d1:7 g1 g1
-  
+
   af2 ef2:7 af1 a2 e2:7 a1
 
   a1:7 d1:7 g1 bf1:dim7
@@ -38,15 +33,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f'' {
   \time 4/4
@@ -55,27 +42,27 @@ refrainMelody = \relative f'' {
 
   \xTextMark \markup{ \bold \box "Intro" }
   \tempo \markup { "Charleston" \rhythm { 4. 8~ 2 } }
-  
+
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \sect "A1"
   \tempoFour "Easy Swing [Django Reinhardt 1935]" 184
-  
+
   cs8 e8 g8 b8 r8 b4 r8 | c,8 ef8 f8 b8~ b4. r8 | b,8 d8 fs8 a8 r8 a4 r8 | bf,8 df8 e8 a8~ a4 g4 |
   \break
   c,4 e2 c4 | b4 d2 b4 | fs4. e8~ e2 | r1 |
-  
+
   \sect "A2"
-  
+
   cs'8 e8 g8 b8 r8 b4 r8 | c,8 ef8 f8 b8~ b4. r8 | b,8 d8 fs8 a8 r8 a4 r8 | bf,8 df8 e8 a8~ a4 g4 |
   \break
   c,4 e2 c4 | b4 d2 b4 | fs4. e8~ e2 | r1 |
-  
-  \sect "B"
-  
+
+  \sectPageBreak "B"
+
   af8 bf8 c8 df8 ef4 ef8 ef8~ | ef2 r2 | a,8 b8 cs8 d8 e4 e8 e8~ | e2 r2 |
-  
+
   \sect "A3"
 
   cs8 e8 g8 b8 r8 b4 r8 | c,8 ef8 f8 b8~ b4. r8 | b,8 d8 fs8 a8 r8 a4 r8 | bf,8 df8 e8 a8~ a4 g4 |
@@ -86,17 +73,12 @@ refrainMelody = \relative f'' {
   \textCodaBreak
 
   \tempo \markup { "Charleston" \rhythm { 4. 8~ 2 } }
-  
+
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \partial 4 \rsq\fermata |
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

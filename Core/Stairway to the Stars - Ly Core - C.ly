@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -37,7 +32,7 @@ refrainChords = \chordmode {
 
   c2 g2:7.5+ g2:m7 c2:9 f1:maj7 f2:m9 bf2:9.11+
   a2:m7 d2:7 d2:m7 g2:7 c1:6 fs2:m7.5- b2:7
-  
+
   e2:m e2:m7+ e2:m7 b2:7.9- e1:m7 a1:7
   d2:m d2:m7+ d2:m7 a2:7.9- d2:m7 d2:7 d2:m7/g g2:7
 
@@ -49,15 +44,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -65,40 +52,35 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Ballad [Glenn Miller 1939]" 110
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   r4 g4 gs4 a4 | c8 c8 c8 c8 a2 | r4 e4 e4 e4 | g8 g8 g8 g8 e2 |
   \break
   r8 c8 c8 c8 c8 e4 c8 | g'4 g8 g8~ g8 gs8 a4 | e1 | r1 |
-  
+
   \sect "A2"
 
   r4 g4 gs4 a4 | c8 c8 c8 c8 a2 | r4 e4 e4 e4 | g8 g8 g8 g8 e2 |
   \break
   r8 c8 c8 c8 c8 e4 c8 | g'4 g8 g8~ g8 gs8 a4 | c1~ | c4 r4 r2 |
-  
+
   \sect "B"
-  
+
   b8 b8 b8 b8 b2 | b8 a8 g8 fs8 e8 fs8 g8 a8 |
   \tuplet 3/2 { b4 b4 b4 } \tuplet 3/2 { b4 a4 fs4 } | e1 |
   \break
   a8 a8 a8 a8 a2 | a8 g8 f8 e8 d8 e8 f8 g8 |
   \tuplet 3/2 { a4 a4 a4 } \tuplet 3/2 { c4 c4 c4 } | d1 |
-  
+
   \sect "A3"
 
   r4 g,4 gs4 a4 | c8 c8 c8 c8 a2 | r4 e4 e4 e4 | g8 g8 g8 g8 e2 |
   \break
   r8 c8 c8 c8 c8 e4 c8 | g'4 g8 g8~ g8 gs8 a4 | c1~ | c2. r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -19,10 +14,10 @@ subtitle =
 
 refrainChords = \chordmode {
   df1:maj7/ef ef1:m9 a2:maj/ef g2:maj7/ef af1:maj7
-  
+
   b1:maj7/bf bf1:13.9- b1:maj7/bf bf1:13.9-
   d1:maj7.5+/bf b1:maj7/bf af1:maj7/bf e1:maj7/bf
-  
+
   df1:maj7/ef ef1:m9 a2:maj/ef g2:maj7/ef af1:maj7
 
   a2:maj7/ef g2:maj7/ef af1:maj7 a2:maj7/ef g2:maj7/ef af1:maj7
@@ -31,15 +26,7 @@ refrainChords = \chordmode {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -47,8 +34,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [John Coltrane 1959]" 57
 
-  \sectStart "A1,A2"
-  
+  \sectNoBarNoBreak "A1,A2"
+
   \bar ".|:"
   \repeat volta 2 {
   c'2.~ \tuplet 3/2 { c8 bf8 ef8 } | f,1 | af2 gf4~ \tuplet 3/2 { gf8 ef8 gf8 } | ef1 |
@@ -56,20 +43,20 @@ refrainMelody = \relative f' {
   \bar "||-:|."
 
   \sectNoBar "B"
-  
+
   bf'2.~ \tuplet 3/2 { bf8 bf8 bf8 } | g2. \tuplet 3/2 { r8 ef8 f8 } |
   bf2.~ \tuplet 3/2 { bf8 bf8 bf8 } | g2. \tuplet 3/2 { r8 f8 ef8 } |
   \break
   df'2.~ \tuplet 3/2 { df8 bf8 df8 } | bf2. \tuplet 3/2 { r8 gf8 bf8 } |
   g2.~ \tuplet 3/2 { g8 ef8 g8 } | ef1 |
-  
-  \sect "C"
-  
+
+  \sectPageBreak "C"
+
   c'2.~ \tuplet 3/2 { c8 bf8 ef8 } | f,1 | af2 gf4~ \tuplet 3/2 { gf8 ef8 gf8 } | ef1 \textToCodaLastTime |
   \bar "||-|."
-  
+
   \textCoda
-  
+
   af2 gf4~ \tuplet 3/2 { gf8 ef8 gf8 } | ef1 | af2 gf4~ \tuplet 3/2 { gf8 ef8 gf8 } | ef1 |
   \break
   af2 gf4~ \tuplet 3/2 { gf8 ef8 gf8 } | ef2 f2 | g2 af2 | bf2 c2 | ef1\fermata |
@@ -105,11 +92,6 @@ refrainBass = \relative f {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain-with-bass-chord-middle.ily"
 

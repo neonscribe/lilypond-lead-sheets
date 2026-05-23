@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -27,14 +22,14 @@ refrainLyricsEnglish = \lyricmode {
   “C'est si bon,” __ lov -- ers say that in France, __
   when they thrill to ro -- mance, __
   it means that it's so good. __
-  
+
   C'est si bon, __ so I say it to you, __
   like the French peo -- ple do, __
   Be -- cause it's oh, so good. __
-  
+
   Ev -- 'ry word, ev -- 'ry sigh, ev -- 'ry kiss, dear, __
   leads to on -- ly one thought and it's this, dear.
-  
+
   It's so good, __ noth -- ing else can re -- place, __
   just your slight -- est em -- brace, __
   And if you on -- ly would, __
@@ -112,70 +107,59 @@ refrainLyricsTwo = #(let ((v (assoc lyricsLanguage
 
 refrainChords = \chordmode {
   s2
-  
+
   c1:m7 f1:7 bf2:maj7 ef2:maj7 d2:m7 g2:7
   c1:m7 f1:7 bf2:6 ef2:7 d2:m7.5- g2:7.9-
 
   c1:m7 f1:7 bf2:maj7 ef2:maj7 d2:m7 g2:7
   c1:m7 f1:7 bf1:6 af2:m7 df2:7
-  
+
   gf2:maj7 ef2:m7 af2:m7 df2:7 gf1:maj7 gf1:maj7
   g1:m7 c1:7 c1:m7 f2:7 d4:m7 df4:m7
 
   c1:m7 f1:7 bf2:maj7 ef2:maj7 d2:m7 g2:7
   c1:m7 f1:7 d1:m7.5- g1:7.9-
-  
+
   c1:m7 ef1:m6 bf1:maj7 bf1:maj7
-  df2:m7 gf2:7 c2:m7 f2:7 bf1:6 
+  df2:m7 gf2:7 c2:m7 f2:7 bf1:6
   \chordOpenParen{ c2:m7 }
   \chordCloseParen{ f2:7 }
 }
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Eartha Kitt 1953]" 140
-  
-  \partial 2 f4 e4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 2 f4 e4 |
+
+  \sectNoBreak "A1"
+
   ef1~ | ef8 f4 g8 a8 g8 f4 | d1~ | d8 f4 g8 a8 g8 f4 |
   ef1~ | ef8 f8 g8 a8 d8 a4 g8~ | g1~ | g2 f4 e4 |
-  
+
   \sect "A2"
-  
+
   ef1~ | ef8 f4 g8 a8 g8 f4 | d1~ | d8 f4 g8 a8 g8 f4 |
   ef1~ | ef8 f8 g8 a8 d8 f,4 bf8~ | bf1~ | bf4 r4 bf4 b4 |
-  
+
   \sect "B"
-  
+
   df2 bf4 af4 | gf 2 f4 ef4 | ef2 df2~ | df4 r4 bf'4 b4 |
   c2 bf4 a4 | g2 a4 bf4 | d1 | c4 r4 f,4 e4 |
-  \bar "||"
-  
-  \xPageBreak
-  \sectNoBarNoBreak "A3"
-  
+
+  \sectPageBreak "A3"
+
   ef1~ | ef8 f4 g8 a8 g8 f4 | d1~ | d8 f4 g8 a8 g8 f4 |
   ef1~ | ef8 f8 g8 a8 d8 f4 f8~ | f1~ | f2 f4 e4 |
-  
+
   \sect "C"
-  
+
   ef1~ | ef8 d4 c8 ef8 d8 c4 | d1~ | d8 d4 c8 bf8 a8 g4 |
   gf1~ | gf8 f8 g8 a8 d8 f,4 bf8~ |
   bf1 | r2 f4 e4 |
@@ -184,10 +168,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

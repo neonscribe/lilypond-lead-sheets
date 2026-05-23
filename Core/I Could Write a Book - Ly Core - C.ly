@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I Could Write A Book"
   subtitle = \subtitle
@@ -33,31 +28,23 @@ refrainChords = \chordmode {
 
   c2:maj7 a2:m7 d2:m7 g2:7 e2:m7 a2:m7 d2:m7 g2:7
   c1:maj7 e2:m7 a2:7.9- d1:m7 b2:m7.5- e2:7
-  
+
   a1:m7 d2:m7 g2:7 fs2:m7.5- b2:7 e1:m7
   a1:m7 d1:7 d1:m7 g1:7
 
   c2:maj7 a2:m7 d2:m7 g2:7 e2:m7 a2:m7 d2:m7 g2:7
   c1:maj7 e2:m7 a2:7.9- d1:m7 b2:m7.5- e2:7
-  
+
   a1:m7 af1:7 g2:m7 c2:7 f2:maj7 bf2:7
   e2:m7 a2:7.9- d2:m7 g2:7 c1:6
-  
+
   \chordOpenParen{ d2:m7 }
   \chordCloseParen{ g2:7 }
 }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative c' {
   \time 4/4
@@ -96,10 +83,5 @@ refrainMelody = \relative c' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "After You've Gone"
   subtitle = \subtitle
@@ -52,15 +47,15 @@ refrainDFBChords = \chordmode {
 }
 
 refrainHLChords = \chordmode {
-  c1:maj7 c1:maj7 f1:7.5- f1:7.5- 
-  g1:maj7 g1:maj7 b1:m7 e1:7 
+  c1:maj7 c1:maj7 f1:7.5- f1:7.5-
+  g1:maj7 g1:maj7 b1:m7 e1:7
 
   a1:7 a1:7 d1:7 d1:7
   g1:6 g1:6 g1:7 g1:7
-  
+
   a1:m7 e1:7 a1:m7 f1:7.5-
   g1:maj7 b1:7/fs e2:m7 e2:m7/d cs1:dim7
-  
+
   g1:maj7 e1:7 a1:m7 d1:7
   g1:6 g1:6
   \chordOpenParen{ g1:7 }
@@ -70,7 +65,7 @@ refrainHLChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "dfb" refrainDFBChords)
@@ -79,15 +74,7 @@ refrainChords = #(let ((v (assoc alternateChords
 		  (if v (cdr v) #{ \chordmode { } #}))
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -95,8 +82,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast Swing [Benny Goodman Quintet 1935]" 270
 
-  \sectStart "A1,A2"
-  
+  \sectNoBarNoBreak "A1,A2"
+
   \bar ".|:"
   \repeat volta 2 {
   e4 g4 a4 b4~ | b1 | r4 a4 b4 a4 | b4 a2. |
@@ -106,17 +93,16 @@ refrainMelody = \relative f' {
   \alternative { \volta 1 {
 
   \sect "B"
-  
+
 
   e4 b'2 b4~ | b1 | e,4 a2 a4~ | a1 |
-  \break
-  r4 
+  r4
   e4 e4 d4 | fs4 d4 e4 d4 | g4 b,2 d4~ | d1  |
 
 } \volta 2 {
 
   \sectNoBar "C"
-  
+
   c'1 | b1 | a4 ds,4 e4 b'4~ | b2 a2 |
   \break
   r4 as4 b4 g4 | a4 gs4 a4 fs4 | g4 as,4 b4 fs'4~ | fs2 e2 |
@@ -132,10 +118,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

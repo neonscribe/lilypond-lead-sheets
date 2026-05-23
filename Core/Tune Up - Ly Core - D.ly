@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -19,27 +14,19 @@ subtitle =
 
 refrainChords = \chordmode {
   r1 r1 r1 r1
-  
+
   e1:m7 a1:7 d1:maj7 d1:maj7
   d1:m7 g1:7 c1:maj7 c1:maj7
   c1:m7 f1:7 bf1:maj7 g1:m7
-  
+
   e1:m7 f1:7 bf1:maj7 a1:7
-  
+
   e1:m7 a1:7 d1:maj7 d1:maj7
 }
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -48,12 +35,12 @@ refrainMelody = \relative f' {
   \tempoFour "Fast Swing [Miles Davis 1953]" 280
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   r8 <d e>4-. <d e>8 a'4. <d, e>8 | r8 <d e>8 a'4~ a8 <d, e>8 r8 <d e>8 |
   a'2 <d, e>4-. <d e>8 a8 | r1 |
-  
+
   \sect "Head"
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
   a'2. g4 | ef2 e4. f8~ | f1 | r1 |
@@ -72,10 +59,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

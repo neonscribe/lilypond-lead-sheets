@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I'll Remember April"
   subtitle = \subtitle
@@ -41,7 +36,7 @@ refrainChords = \chordmode {
 
   c1:m7 f1:7 bf1:maj7 g1:m7
   c1:m7 f1:7 bf1:maj7 bf1:6
-  
+
   a1:m7 d1:7 g1:maj7 g1:6
   fs1:m7 b1:7 e1:maj7 a2:m7 d2:7
 
@@ -57,15 +52,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -73,14 +60,14 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Bing Crosby 1944]" 118
 
-  \sectStart "A1"
+  \sectNoBarNoBreak "A1"
 
   r4 b4 c4 d4 | c4 b4 a4 g4 | a2. g4 | fs4 e2. |
   \break
   r4 a4 bf4 c4 | bf4 a4 g4 f4 | g8 a8 g2.~ | g2 r8 g4. |
   \bar "||-||"
   \break
-  
+
   \tempo "Swing"
 
   a2. a4 | a4 a4 b4 c4 | d4. d8~ d2~ | d2 e4. d8 |
@@ -88,7 +75,7 @@ refrainMelody = \relative f' {
   b4 c4 d4 c4~ | c2 b4 as4 | b1~ | b2 r8 b4. |
 
   \sect "B"
-  
+
   g4 g4 g2~ | g4 a4 bf4 c4 | d2. c4 | bf4 g2 f4 |
   \break
   g4 g4 g2~ | g4 a4 bf4 c4 | d2 d4 d4~ | d4 d4 \tuplet 3/2 { d4 d4 d4 } |
@@ -97,10 +84,8 @@ refrainMelody = \relative f' {
   d2. d4 | e4 c4 d4. b8 | a4 b2.~ | b4 b4 d4 c4 |
   \break
   b4 b2.~ | b2 \tuplet 3/2 { b4 a4 gs4 } | b1~ | b1 |
-  \bar "||"
 
-  \xPageBreak
-  \sectNoBarNoBreak "A2"
+  \sectPageBreak "A2"
 
   \tempo "Latin"
 
@@ -115,15 +100,10 @@ refrainMelody = \relative f' {
   a4. a8 a2~ | a4 a4 \tuplet 3/2 { a4 b4 c4 } | d2 d2~ | d2 e4. d8 |
   \break
   b4 c4 d4 c4~ | c2 b4 b4 | g1~ | g4 r4 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

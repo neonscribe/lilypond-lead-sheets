@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Satin Doll"
   subtitle = \subtitle
@@ -41,7 +36,7 @@ refrainChords = \chordmode {
 
   d2:m7 g2:7 d2:m7 g2:7 e2:m7 a2:7 e2:m7 a2:7
   a2:m7 d2:7 af2:m7 df2:7 c1:maj7 c1:maj7
-  
+
   g2:m7 c2:7 g2:m7 c2:7 f1:maj7 f1:maj7
   a2:m7 d2:7 a2:m7 d2:7 g2:7 d2:m7 g1:7
 
@@ -54,15 +49,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,23 +58,23 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Duke Ellington 1953]" 88
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   a8 g8 a8 g8~ g8 a4. | r8 a4. g8 a4. | b8 a8 b8 a8~ a8 b4. | r8 b4. a8 b4. |
   \break
   r8 d4. c8 d4. | r8 bf4. af4 bf8 g8~ | g1~ | g1 |
-  
+
   \sect "A2"
-  
+
   a8 g8 a8 g8~ g8 a4. | r8 a4. g8 a4. | b8 a8 b8 a8~ a8 b4. | r8 b4. a8 b4. |
   \break
   r8 d4. c8 d4. | r8 bf4. af4 bf8 g8~ | g1 | r2 r4 r8 g8 |
-  
+
   \sect "B"
-  
+
   c8 bf8 a8 g8~ g8 a8 bf8 c8~ | c8 bf8 a8 g8~ g8 a8 bf8 c8~ | c1~ | c2. r8 c8 |
   \break
   d8 c8 b8 a8~ a8 b8 c8 d8~ | d8 c8 b8 a8~ a8 b8 c8 d8~ | d1 | r1 |
-  
+
   \sect "A3"
 
   a8 g8 a8 g8~ g8 a4. | r8 a4. g8 a4. | b8 a8 b8 a8~ a8 b4. | r8 b4. a8 b4. |
@@ -98,10 +85,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

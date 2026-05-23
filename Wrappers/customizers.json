@@ -141,6 +141,13 @@
     }
 },{
     "choices": {
+        "lyricsLanguage": [
+            "portuguese",
+            "english"
+        ]
+    }
+},{
+    "choices": {
         "singerGender": [
             "female",
             "male"
@@ -151,6 +158,13 @@
         "alternateChords": [
             "hlrb",
             "simple"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal"
         ]
     }
 },{
@@ -363,6 +377,13 @@
     }
 },{
     "choices": {
+        "lyricsLanguage": [
+            "portuguese",
+            "english"
+        ]
+    }
+},{
+    "choices": {
         "singerGender": [
             "male",
             "female"
@@ -533,6 +554,13 @@
         "singerGender": [
             "male",
             "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal"
         ]
     }
 },{

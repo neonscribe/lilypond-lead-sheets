@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "Bobby Sharp/Teddy Powell"
   copyright = \markup \small { \now " " "© 1960 B. Sharp Music" }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _
@@ -51,10 +48,10 @@ So un -- chain __ my heart, oh, please, please set me free. __
 }
 
 refrainChords = \chordmode {
-  s4
+  s8
 
   a1:m6 a1:m6 a1:m6 a4:m6 r2.
-  
+
   a1:m6 a1:m6 a1:m6 a1:m6
   f1:7 f1:7 a1:m6 a1:m6
   d1:m6 a1:m6 d1:m6 a1:m6
@@ -76,15 +73,7 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -92,26 +81,24 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Ray Charles 1961]" 152
 
-  \sectStart "Intro"
-  
-  \partial 4 \invisEighth gs,8(^"Piano" |
-  
+  \sectNoBarNoBreak "Intro"
+
+  \partial 8 gs,8(^"Piano" |
+
   a4-.) c8( d8-.) r8 c8( a8 g8 | a4-.) a'8^"Horns" e8 g8 a8 r8 gs8(^"Piano" |
   a4-.) c8( d8-.) r8 c8( a8 g8 | a4->) a4 a4 c8 e8~ |
-  
+
   \sect "A1"
-  
+
   e4 r4 r2 | r4 e8 c8 d8 a4 c8~ | c4 r4 r2 | r4 a4 a4 c8 d8~( |
-  \break
+  %% \break
   d8 a8) r4 r2 | r8 c8 d8 e8 d8 c8 a4 | c4 r4 r2 | r1 |
-  \break
+  %% \break
   r8 c8 d8 c8 d8 c8 d8 c8 | e4 d8 c8( d8 a4.) | r4 d8 c8 d4 d8 c8 | e4 d8 c8( a8) a8 c8 ef8( |
-  \break
+  %% \break
   d2) e8 c4 a8 | e4 e4 gs8 a4 a8~ |
   <<
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	a,4-. c8( d8-.) r8 c8( a8 g8 | a4->) r4 r2 |
       }
     }
@@ -124,16 +111,14 @@ refrainMelody = \relative f' {
   \sect "A2"
 
   e4 r4 r2 | r4 e8 c8 d8 a4 c8~ | c4 r4 r2 | r4 a4 a4 c8 d8~( |
-  \break
+  %% \break
   d8 a8) r4 r2 | r8 c8 d8 e8 d8 c8 a8 d8~( | d8 a8) r4 r2 | r1 |
-  \break
+  %% \break
   r4 d8 c8 d8 c8 d8 c8 | e4 d8 c8( d8 a4.) | r8 c8 d8 c8 d8 c8 d8 c8 | e4 d8 c8( a8) a8 c8 ef8( |
-  \break
+  %% \break
   d2) e8 c4 a8 | e4 e4 gs8 a4 a8~ |
   <<
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwo {
 	a,4-. c8( d8-.) r8 c8( a8 g8 | a4->) r4 r2 |
       }
     }
@@ -143,28 +128,23 @@ refrainMelody = \relative f' {
   >>
   \oneVoice
 
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectStart "B"
-  
+
+  \sectPageBreak "B"
+
   d8 a8) r4 r2 | r4 c8 d8 e8 d8 c8 e8~ | e4 r4 r2 | r4 a,8 d8 a4 c8( a8) |
   d8( a8) r4 r2 | r4 d8 c8 d4 d8 c8 | e4 r4 r2 | r8 a,8 a4 a4 c8 e8~ |
 
   \sect "A3"
 
   e4 r4 r2 | r4 e8 c8 d8 a4 c8~ | c4 r4 r2 | r4 a4 a4 c8 d8~( |
-  \break
+  %% \break
   d8 a8) r4 r2 | r8 c8 d8 e8 d8 c8 a8 d8~( | d8 a8) r4 r2 | r1 |
-  \break
+  %% \break
   r8 c8 d8 c8 d8 c8 d8 c8 | e4 d8 c8( d8 a4.) | r8 c8 d8 c8 d8 c8 d8 c8 | e4 d8 c8( a8) a8 c8 ef8( |
-  \break
+  %% \break
   d2) e8 c4 a8 | e4 e4 gs8 a4 a8~ |
   <<
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwo {
 	a,4-. c8( d8-.) r8 c8( a8 g8 | a4->) r4 r2 |
       }
     }
@@ -178,10 +158,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

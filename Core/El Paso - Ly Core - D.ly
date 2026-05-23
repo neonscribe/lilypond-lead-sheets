@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "El Paso"
   subtitle = \subtitle
@@ -47,27 +42,19 @@ My love was deep for this Mex -- i -- can mai -- den. I was in love, but in vain
 
 refrainChords = \chordmode {
   d2. d2. e2.:m e2.:m a2.:7 a2.:7 a2.:7 d2. d2. d2. d2.
-  
+
   d2. d2. e2.:m e2.:m a2.:7 a2.:7 a2.:7 d2. d2. d2. d2.
-  
+
   g2. g2. g2. g2. g2. g2. d2.:7 d2.:7 d2.:7 d2.:7 d2.:7 d2.:7
   d2.:7 d2.:7 d2.:7 d2.:7 d2.:7 d2.:7 d2.:7 d2.:7 d2.:7
   g2. g2. a2.:7 a2.:7
-  
+
   a2.:7 a2.:7 a2:7 r4*4 d2.
 }
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -75,35 +62,35 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoTwoDot "Fast Waltz, in 1 [Marty Robbins 1959]" 107
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
   \ambitusOff
   a4_"(Guitar)" d4 fs4 | a4 fs4 d4 | e,8 g8 b8 e8 g8 a8 | b4 g4 e4 |
   <b' d>4. <b d>8 <b d>4 | <b d>4 <a cs>4 r8 <g b>8 | <g b>4 <fs a>4 <e g>4 | <d fs>2 r4 |
   <b' d>8 <b d>8 <b d>8 <b d>8 <b d>8 <b d>8 | <a cs>4 <fs a>4~ <fs a>8 <a cs>8 | d,2. |
   \ambitusOn
-  
-  
+
+
   \sectNoBar "Verse"
-  
+
   \bar ".|:-||"
   \repeat volta 4 {
   d,4 d4 fs4 | a4 fs4 d4 | e4 e4 g4 | b4 g2 \textToCodaLastTime |
   a,4 cs8 e8~ e4 | g4 fs8 e8~ e4 | g4 fs4 e4 | d2.~ | d2. | R2.*1 | R2.*1 |
   }
   \bar "||-:|."
-  
+
   \sectNoBar "Bridge"
-  
+
   d4 g4 g4 | b2 b4 | c4 b4 a4 | g2. | d4 g4 b4 | c4 b4 c4 |
   d2.~( | d2. | fs2.~ | fs4. e8 d4 | c2.~ | c2.~ | c2.) | r2. |
   d,4 fs4 a4 | d4 d4 b8 d8~ | d4 c4 a4 | fs4 d4 d4 | d4 fs4 a4 |
   c4 b4 a4 | c4 b4 a4 | g2.~ | g4 fs4 g4 | a2. | g4( e4) cs4 |
-  
+
   \bar "||-|."
 
   \textCodaBreak
-  
+
   a4 cs4 e4 | g4^"ritardando" fs4 e4 | g4 fs4\fermata e4\fermata | d2.~ | d2.\fermata
 
   \bar "|."
@@ -111,17 +98,12 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { Out in the West Texas town of El Paso, I fell in love with a Mexican girl. } }

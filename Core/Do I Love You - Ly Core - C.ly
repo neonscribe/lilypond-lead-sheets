@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -30,12 +25,12 @@ Don't you know I do? __ Don't I show you I do? __ Just as you love me? __
 
 refrainHLRealChords = \chordmode {
   s2
-  
+
   c1:maj9 e1:m7.5- a1:7.9- a1:7.9- d1:m7 d2:m7+ d2:m7 g1:7 g1:7
   c1:maj9 e1:m7.5- a1:7.9- a1:7.9- d1:sus7 af1:9.11+ g1:sus7 g1:7
   c1:maj9 g1:7.5+ c1:sus9 c1:7 f1 g1:7 c1:maj7 c2:6 e2:9
   a1:m7 c1:9 f1:maj9 bf2:9 a2:9.5+ d1:sus7 af1:9.11+ g1:9 g1:9
-  
+
   c1:maj9 e1:m7.5- a1:7.9- a1:7.9- d1:m7 d2:m7+ d2:m7 g1:7 g1:7
   c1:maj9 e1:m7.5- a1:7.9- a1:7.9- d1:sus7 af1:9.11+ g1:sus7 g1:7
   c1:maj9 g1:7.5+ c1:9 c1:9 f1 f1 bf1:9 bf1:9
@@ -47,12 +42,12 @@ refrainHLRealChords = \chordmode {
 
 refrainHLRealNicoChords = \chordmode {
   s2
-  
+
   c1:maj9 e1:m7.5-/bf a1:7.9- a1:7.9- d1:m7 d2:m7+/cs d2:m7/c g2:7/b f/a g1:7
   c1:maj9 e1:m7.5-/bf a1:7.9- a1:7.9- d1:sus7 af1:9.11+ g1:sus7 g1:7
   c1:maj9 g1:7.5+ c1:sus9 c1:7 f1 fs1:dim7 c1:maj7/g c2:6 e2:9
   a1:m7 c1:9 f1:maj9 bf2:9 a2:9.5+ d1:sus7 af1:9.11+ g1:9 g1:9
-  
+
   c1:maj9 e1:m7.5-/bf a1:7.9- a1:7.9- d1:m7 d2:m7+/cs d2:m7/c g2:7/b f/a g1:7
   c1:maj9 e1:m7.5-/bf a1:7.9- a1:7.9- d1:sus7 af1:9.11+ g1:sus7 g1:9
   c1:maj9 g1:7.5+ c1:9 c1:9 f1 f1 bf1:9 bf1:9
@@ -64,12 +59,12 @@ refrainHLRealNicoChords = \chordmode {
 
 refrainHLPVGChords = \chordmode {
   s2
-  
+
   c1 g1:m6/bf a1:7.9- a2:7.9- a2:7 d1:m d2:m/cs d2:m/c g2:7/b f2/a g2:7 g2:9
   c1 g1:m6/bf a1:7.9- a1:7.9- d1:7 b2.:m/d g4:7 g2:7 d2:m7 g1:7
   c1 g1:7 c1/e c2/e g4:7 c4:7 f4 e2:5+ f4 g2:7/b f2/a c1:9/e c2/e r2
   a1:m c1:9 f2. cs4*2:dim7 bf4:7.5- a2:7 d1:13 d1:9 g2:7 g2:9 g1:9
-  
+
   c1 g1:m6/bf a1:7.9- a2:7.9- a2:7 d1:m d2:m/cs d2:m/c g2:7/b f2/a g2:7 g2:11
   c1 g1:m6/bf a1:7.9- a1:7.9- d1:7 b2.:m/d g4:7 g2:7 d2:m7 g1:7
 
@@ -85,15 +80,7 @@ refrainChords = \refrainHLRealNicoChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -102,44 +89,39 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Curtis Fuller 1961]" 152
 
   \partial 2 e4 f4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   g1 | g1 | g4 bf2.~ | bf2 a4 g4 |
   \break
   f2. f4 | f2 f2 | f1~ | f2 c4 d4 |
   \break
-  e1 | e1 | e4 g2.~ | g2 f4 e4 | 
+  e1 | e1 | e4 g2.~ | g2 f4 e4 |
   \break
   d4 d2 d4 | d2 d4 d4~ | d1~ | d4 r4 e4 f4 |
-  
+
   \sect "B"
-  
-  g1 | g1 | g4 c2.~ | c2 b4 bf4 | 
+
+  g1 | g1 | g4 c2.~ | c2 b4 bf4 |
   \break
   a4 gs2 a4 | d2. c4 | g1~ | g4 r4 c,4 d4 |
   \break
   e4 ds4 e4 a4~ | a2. g4 | c,2. g'4~ | g4 e4 f2 |
   \break
   d1~ | d1~ | d4 r4 r2 | r2 e4 f4 |
-  
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "A2"
 
-  \xTextMark \markup{ \bold \box "A2" }
-  
   g1 | g1 | g4 bf2.~ | bf2 a4 g4 |
   \break
   f2. f4 | f2 f2 | f1~ | f2 c4 d4 |
   \break
-  e2. e4 | e2. e4 | e4 g2.~ | g2 f4 e4 | 
+  e2. e4 | e2. e4 | e4 g2.~ | g2 f4 e4 |
   \break
   d4 d2 d4 | d2 d4 d4~ | d1~ | d4 r4 e4 f4 |
-  
+
   \sect "C"
-  
+
   g1 | g1 | g4 e'2.~ | e2 d4 c4 |
   \break
   a4. gs8~ gs4 a4 | d4. df8~ df4 c4 | f,1~ | f2 c4 d4 |
@@ -147,15 +129,10 @@ refrainMelody = \relative f' {
   e2 e4 e4~ | e2 c4 d4 | e4 e4 e4 e4~ | e2 c4 d4 |
   \break
   e1 | e1 | c1~ | c2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

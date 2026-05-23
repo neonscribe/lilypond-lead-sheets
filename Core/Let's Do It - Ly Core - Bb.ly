@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -41,7 +36,7 @@ refrainChords = \chordmode {
 
   bf2:6 b2:dim7 c2:m7 f2:7 bf2:6 bf2:7 ef2:6 ef2:m6
   d2:m7 g2:7.9- c2:m7 f2:7 bf2:6 ef2:7 bf2:6 d2:7.5+
-  
+
   g1:m6 c2:m7 c2:m6 d1:m7 f2:m7 bf2:7.9-
   ef1:6 ef2:m7 af2:7 df1:6 c2:m7 f2:9.5+
 
@@ -53,15 +48,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -69,18 +56,18 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Eartha Kitt 1957]" 97
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   g4 r4 gf8 f4. | g4 r4 gf8 f4. | r4 g8 fs8 g8 a8 bf8 b8 | c4 r4 b8 bf4. |
   g4 r4 gf8 f4. | g4 r4 gf8 f4. | d1 | r4 g4 g4 g4 |
-  
+
   \sect "A2"
-  
+
   g4 r4 gf8 f4. | g4 r4 gf8 f4. | r4 g8 fs8 g8 a8 bf8 b8 | c4 r4 b8 bf4. |
   g4 r4 gf8 f4. | g4 r4 gf8 f4. | bf1 | r4 bf4 bf4 bf4 |
-  
+
   \sect "B"
-  
+
   bf2 a8 g4. | bf2 a8 g4. | r4 a8 gs8 a8 g8 f4 | af1 |
   g2 f8 ef4. | g2 f8 ef4. | r4 f8 e8 f8 ef8 df4 | f4 g4 g4 g4 |
 
@@ -92,24 +79,19 @@ refrainMelody = \relative f' {
   \startParenthesis \parenthesize
   g4 g4
   \endParenthesis \parenthesize g4 |
-  
-  
+
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   {
     \vspace #2
     \line { \large { Birds do it, bees do it. Even educated fleas do it } }

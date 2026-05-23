@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -38,7 +33,7 @@ refrainChords = \chordmode {
 
   c2:maj7 a2:7.5+ d1:m g1:7 c4:dim7 c2.:maj7
   e2:m7 ef2:dim7 d2:m7 g2:7 d2:m7 g2:7 c1:maj7
-  
+
   d2:m7.5-/g g2:7.9- c1:maj7 d2:m7 g2:7 c2:dim7 c2:maj7
   a1:m7 d1:7 d1:m7.5- g1:7.9-
 
@@ -50,15 +45,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -66,42 +53,37 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Ballad [Cliff Edwards 1939]" 104
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   g,4 g'4 f4 e4 | cs4 d4 a'2 | b,4 b'4 a4 g4 | fs4 g4 c2 |
-  \break
+  %% \break
   d4 c4 b4 a4 | g4 f4 e4 d4 | a'2 b,2 | g'2. r4 |
-  
+
   \sect "A2"
 
   g,4 g'4 f4 e4 | cs4 d4 a'2 | b,4 b'4 a4 g4 | fs4 g4 c2 |
-  \break
+  %% \break
   d4 c4 b4 a4 | g4 f4 e4 d4 | a'2 b,2 | c1 |
-  
-  \sect "B"
-  
+
+  \sectPageBreak "B"
+
   d2 e2 | g1 | r4 d4 e4 f4 | fs8 a8 g2. |
-  \break
+  %% \break
   r4 e4 fs4 g4 | gs8 b8 a4 r8 a8 b8 c8 | c1 | b2. r4 |
-  
+
   \sect "A3"
 
   g,4 g'4 f4 e4 | cs4 d4 a'2 | b,4 b'4 a4 g4 | fs4 g4 c2 \textToCodaLastTime |
-  \break
+  %% \break
   d4 c4 b4 a4 | g4 f4 e4 d4 | a'2 b,2 | g'2. r4 |
-  
+
   \textCodaBreak
-  
+
   d'4 c4 b4 a4 | g4 f4 e4 d4 | a'2 b2 | c2. r4 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

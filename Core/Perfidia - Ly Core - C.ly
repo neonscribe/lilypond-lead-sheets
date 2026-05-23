@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -41,7 +36,7 @@ refrainChords = \chordmode {
 
   c2 a2:m7 d2:m7 g2:7 c2 a2:m7 d2:m7 g2:7
   c2 a2:m7 d1:m7 e1 e1
-  
+
   d1:m d1:m e1 e1
   d1:m d1:m e1 e2 g2:7
 
@@ -53,15 +48,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -72,40 +59,35 @@ refrainMelody = \relative f' {
   \partial 4 g4 |
   \bar "||"
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   c1~ | c4. b8 c8 d8 c8 b8 | \tuplet 3/2 { c4 b4 a4~ } a2~ | a4. b8 c8 d8 c8 b8 |
   \break
   \tuplet 3/2 { c4 b4 a4 } c4. a8 | \tuplet 3/2 { g4 f4 g4 } a4 f4 | e1~ | e2 r4 g4 |
-  
+
   \sect "A2"
 
   c1~ | c4. b8 c8 d8 c8 b8 | \tuplet 3/2 { c4 b4 a4~ } a2~ | a4. b8 c8 d8 c8 b8 |
   \break
   \tuplet 3/2 { c4 b4 a4 } c4. a8 | \tuplet 3/2 { g4 f4 g4 } a4 f4 | e1~ | e2 r4 d8 e8 |
-  
+
   \sect "B"
-  
+
   f8 f8 f8 g8 a8 a8 a8 gs8 | a4. gs8 a8 gs8 a8 b8 | gs1~ | gs2 r4 b8 c8 |
   \break
   d8 d8 d8 c8 b8 b8 b8 c8 | b8 b8 b8 a8 g8 a8 g8 f8 | e1~ | e8 r8 r4 r4 g4 |
-  
+
   \sect "A3"
 
   c1~ | c4. b8 c8 d8 c8 b8 | \tuplet 3/2 { c4 b4 a4~ } a2~ | a4. b8 c8 d8 c8 b8 |
   \break
-  \tuplet 3/2 { c4 b4 a4 } c4. a8 | \tuplet 3/2 { g4 f4 g4 } a4 f4 | e1~ | e2 r4 
+  \tuplet 3/2 { c4 b4 a4 } c4. a8 | \tuplet 3/2 { g4 f4 g4 } a4 f4 | e1~ | e2 r4
   \override Parentheses.font-size = #5
   \parenthesize g4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Just You, Just Me"
   subtitle = \subtitle
@@ -38,7 +33,7 @@ refrainChords = \chordmode {
 
   c1:6.9 a1:7 d1:m7 g1:7
   c2 c2:7 f2:maj7 bf2:7 c2:6/g g2:7 c1:6.9
-  
+
   g1:m7 c1:9 f1:6 bf2:9.11+ bf2:7
   c1:6.9 e2:7 a2:m7 d1:13 g1:7
 
@@ -49,15 +44,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -66,7 +53,7 @@ refrainMelody = \relative f' {
   \tempoFour "Fast [Nat King Cole 1957]" 203
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   r2 g2 | a1 | r2 f2 | g1 |
   \break
   r4 e4 e4 e4 | e4 g4 f2 | r4 e4 d8 c8 d4 | c1 |
@@ -78,11 +65,11 @@ refrainMelody = \relative f' {
   r4 e4 e4 e4 | e4 g4 f2 | r4 e4 d8 c8 d4 | c1 |
 
   \sect "B"
-  
+
   r2 c'2 | d1 | r4 c4 a4 f4 | e2 d2 |
   \break
   r4 c'4 g4 e4 | d2 c2 | r4 b'4 a4 b4 | d4 b4 a4 af4 |
-  
+
   \sect "A3"
 
   r2 g2 | a1 | r2 f2 | g1 |
@@ -93,10 +80,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Watermelon Man"
   subtitle = \subtitle
@@ -28,15 +23,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -44,7 +31,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Straight Eighths, Latin [Mongo Santamaria 1962]" 120
 
-  \xTextMark \markup{ \bold \box "Refrain" }
+  \sectNoBar "Refrain"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -53,8 +40,6 @@ refrainMelody = \relative f' {
   \cadenzaOn
   \afterGrace f1\glissando { \hideNotes bf,8 \unHideNotes }
   \cadenzaOff
-  |
-  \bar "|"
   r1 |
   \break
   f''1~\< | f4\! f,8 f8 <c' af>8-- <d bf>4-> f,8~ |
@@ -62,7 +47,6 @@ refrainMelody = \relative f' {
   \cadenzaOn
   \afterGrace f1\glissando { \hideNotes bf,8 \unHideNotes }
   \cadenzaOff
-  |
   \bar "|"
   r1 |
   \break
@@ -73,19 +57,12 @@ refrainMelody = \relative f' {
   \cadenzaOn
   \afterGrace f1\glissando { \hideNotes bf,8 \unHideNotes }
   \cadenzaOff
-  |
   \bar "|"
   r1 |
   }
-
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

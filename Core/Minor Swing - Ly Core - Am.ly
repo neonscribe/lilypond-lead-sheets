@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Minor Swing"
   subtitle = \subtitle
@@ -26,26 +21,18 @@ refrainChords = \chordmode {
 
   d1:m6 d1:m6 a1:m6 a1:m6
   e1:7 bf1:7 a1:m6 e1:7
-  
+
   a1:m6 a1:m6 d1:m6 d1:m6
   e1:7 e1:7
-  
+
   a4:m6 r4*7
-  
+
   r8*13 <a c' e' fs' b'>4.
 }
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -53,8 +40,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Swing [Django Reinhardt 1937]" 210
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
   \bar ".|:"
   \repeat volta 2 {
   <e a>4 <a c>4 \afterGrace <c e>2( { <d f>8 <c e>8) } | <b d>4 <d f>8 <f a>8 r2 |
@@ -65,22 +52,22 @@ refrainMelody = \relative f' {
   }
 
   \sect "Solos"
-  
+
   \bar ":|.|:"
   \repeat volta 2 {
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
   \break
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
 
   \sectNoBar "Outro"
-  
+
   \bar ":|.|:"
   \repeat volta 2 {
   a4 c4 e2 | a,4 c8 e8 r8 e4. | d4 f4 a2 | d,4 f8 a8 r8 a4. |
@@ -95,10 +82,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

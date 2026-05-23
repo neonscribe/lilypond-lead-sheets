@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 16) #}
 )
@@ -20,6 +15,8 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   composer = "Johnny Hodges, Duke Ellington, Harry James"
   copyright = \markup \small { \now " " "© 1944 Famous Music Corporation" }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
   I
@@ -47,23 +44,23 @@ refrainLyrics = \lyricmode {
 }
 
 refrainRealBookSixthChords = \chordmode {
-  s4
+  s8
 
   g2:6 c2:m6 g2:6 e2:7 a2:7 d2:7 bf2:m7 ef2:7
   g2:6 fs2:7 f2:7 e2:7 a2:7 d2:7
-  
+
   g2 a4:m7 d4:7
-  
+
   g2:6 c2:m6 g2:6 e2:7 a2:7 d2:7 bf2:m7 ef2:7
   g2:6 fs2:7 f2:7 e2:7 a2:7 d2:7
-  
+
   g1
-  
+
   b1:7 b1:7 bf1:7 bf1:7 a1:7 a1:7 bf2:m7 ef2:7 a2:m7 d2:7
-  
+
   g2:6 c2:m6 g2:6 e2:7 a2:7 d2:7 bf2:m7 ef2:7
   g2:6 fs2:7 f2:7 e2:7
-  
+
   a2:7 d2:7 g2
 
   \chordOpenParen{ a4:m7 }
@@ -75,19 +72,19 @@ refrainRealBookSixthChords = \chordmode {
 }
 
 refrainSimplifiedChords = \chordmode {
-  s4
+  s8
 
   g2:6 ef2:7 g1:6 g1:6 ef1:7
   g2: a2:m7 b2:m7 e2:7 a2:m7 d2:7 g2:6 d2:7
-  
+
   g2:6 ef2:7 g1:6 g1:6 ef1:7
   g2: a2:m7 b2:m7 e2:7 a2:m7 d2:7 g1:6
-  
+
   b1:7 b1:7 bf1:7 bf1:7 a1:7 a1:7 ef1:7 d1:7
-  
+
   g2:6 ef2:7 g1:6 g1:6 ef1:7
   g2: a2:m7 b2:m7 e2:7 a2:m7 d2:7 g1:6
-  
+
   a2:m7 d2:7 b1:7
 
   a2:m7 d2:7 g1:6
@@ -97,15 +94,7 @@ refrainChords = \refrainSimplifiedChords
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -113,13 +102,12 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Duke Ellington 1944]" 100
 
-  \partial 4 \invisEighth ds8 |
-  \bar "||"
-  
-  \xTextMark \markup{ \bold \box "A1" }
+  \partial 8 ds8 |
+
+  \sectNoBreak "A1"
 
   e8 g8 e4 g4 a4 | b8 e,4 e2 ds8 | e8 g8 e4 g4 a4 | bf8 ef,4 ef2 ef8 |
-  \break
+  %% \break
   e8 g8 e4 g4 a4 | b8 d4 d4. d8 c8 | b8 g8 e4 g8 a4 g8~
   g2 r4 r8 ds8
 
@@ -129,31 +117,31 @@ refrainMelody = \relative f' {
 
 
   e8 g8 e4 g4 a4 | b8 e,4 e2 ds8 | e8 g8 e4 g4 a4 | bf8 ef,4 ef2 ef8 |
-  \break
+  %% \break
   e8 g8 e4 g4 a4 | b8 d4 d4. d8 c8 | b8 g8 e4 g8 a4 g8~
   g2. r4
-    
+
   \bar "||-||"
-  
-  \break
-  
+
+  %% \break
+
   \xTextMark \markup { \bold \box "B" }
 
   r8 b4 fs8 b4 fs4 | ds8 fs4 b8~ b2 | r8 bf4 f8 bf4 f4 | d8 f4 bf8~ bf2 |
-  \break
-  r8 a4 e8 a4 e4 | cs8 e4 a4. a8 a8 | bf8 bf8 bf4 bf8 g4 a8~ | a2. r8 ds,8 
+  %% \break
+  r8 a4 e8 a4 e4 | cs8 e4 a4. a8 a8 | bf8 bf8 bf4 bf8 g4 a8~ | a2. r8 ds,8
 
   \bar "||-||"
-  \break
+  %% \break
 
   \xTextMark \markup { \bold \box "A3" }
 
   e8 g8 e4 g4 a4 | b8 e,4 e2 ds8 | e8 g8 e4 g4 a4 | bf8 ef,4 ef2 ef8 |
-  \break
+  %% \break
   e8 g8 e4 g4 a4 | b8 d4 d4. d8 c8 \textToCodaLastTime |
 
   b8 g8 e4 g8 a4 g8~ | g2. r8 ds8 |
-  
+
   \bar "||-|."
 
   \textCodaBreak
@@ -167,10 +155,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

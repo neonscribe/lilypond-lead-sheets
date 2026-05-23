@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Almost Like Being in Love"
   subtitle = \subtitle
@@ -28,8 +23,8 @@ like a bell that is ring -- ing for me. __
 
 And from the way that I feel
 when that bell starts to peal,
-I could swear I was fall -- ing, 
-I could swear I was fall -- ing, 
+I could swear I was fall -- ing,
+I could swear I was fall -- ing,
 it's al -- most like be -- ing in love.
 }
 
@@ -63,7 +58,7 @@ refrainNewRealChords = \chordmode {
 
 refrainHLChords = \chordmode {
   s2
-  
+
   ef1:maj7 f1:7 d1:m7 g1:m7
   c1:m7 f2:sus9 f2:7.9- bf1:6 bf2:6 bf2:7.5+
 
@@ -84,43 +79,35 @@ refrainChords = \refrainHLChords
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium-Up [Nat King Cole 1953]" 180
-  
+
   \partial 2 bf4 c4 |
   \bar "||"
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 a4 |
   \break
   r4 bf4 g4 a4 | bf4 g2 a4 | bf1~ | bf4 r4 bf4 c4 |
 
   \sect "A2"
-  
+
   d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 a4 |
   \break
   r4 bf4 g4 a4 | bf4 g2 a4 | bf1~ | bf4 r4 bf4 c4 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   d2 a4 b4 | c2 e4 d4 | b1~ | b4 r4 g4 a4 |
   \break
   bf2 a4 bf4 | c4 g2 c4 | d1~ | d4 d4 d4 d4 |
-  
+
   \sect "A3"
 
   d2 bf4 g4 | a2 a4 bf4 | c2 a4 f4 | g2 g4 a4 |
@@ -133,10 +120,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

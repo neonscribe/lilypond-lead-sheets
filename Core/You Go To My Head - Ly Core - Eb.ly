@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "You Go To My Head"
   subtitle = \subtitle
@@ -47,16 +42,16 @@ refrainChords = \chordmode {
 
   ef1:maj7 af2:m7 df2:7 gf1:maj7 f2:7 bf2:7
   ef1:m f2:7 bf2:7.9- ef1:maj7 bf2:m7 ef2:7
-  
+
   af1:maj7 d1:7.9- ef2:maj7 f4:m7 bf4:7 ef1:maj
   a2:m7 d2:7.9- g2:maj7 gs2:dim7 a2:m7 d2:7.9+ g4:m7 gf4:m7 f4:m7 bf4:7
-  
+
   ef1:maj7 af2:m7 df2:7 gf1:maj7 f2:7 bf2:7
   ef1:m f2:7 bf2:7 ef1:maj7 bf2:m7 ef2:7.9-
-  
+
   af1:maj7 df1:7 ef1:maj7 c2:m7 gf2:dim7
   f1:m7 bf1:7.9- ef2:maj7
-  
+
   \chordOpenParen{ c2:7.9-.5+ }
   f2:m7
   \chordCloseParen{ bf2:7.9- }
@@ -64,15 +59,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g' {
   \time 4/4
@@ -81,9 +68,8 @@ refrainMelody = \relative g' {
   \tempoFour "Ballad [Sarah Vaughan 1946]" 70
 
   \partial 4 bf4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBreak "A1"
 
   bf'8 bf8 bf8 bf8~ bf2 | r4 bf8 bf8 af8 af8 bf8 bf8 | f8 f8 ef8 f8~ f2 |
   r4 ef8 ef8 gf8 gf8 f8 f8 |
@@ -98,18 +84,15 @@ refrainMelody = \relative g' {
   \break
   f8 f8 ef8 f8~ f2 | r4 ef8 ef8 gf8 gf8 f8 f8 |
   f'8 ef8 ef8 ef8~ ef2 | r2 r4 ef,4 |
-    
+
   \sect "B"
 
   f8 f8 f8 c'8~ c4 c8 c8 | fs,8 fs8 fs8 c'8~ c4 c8 c8 |
   bf4 g8 ef8 c8 ef8 g8 c8~ | c2. bf8 c8 |
   \tuplet 3/2 { d4 d4 d4 } \tuplet 3/2 { d4 d4 d4 } | \tuplet 3/2 { d4 d4 d4 } \tuplet 3/2 { d4 d4 d4 } |
   d,4 d8 d8 \tuplet 3/2 { d4 d4 d4 } | d2. bf4 |
-  
-  \bar "||"
-  \xPageBreak
-  
-  \sectNoBar "C"
+
+  \sectPageBreak "C"
 
   bf'8 bf8 bf8 bf8~ bf2 | r4 bf8 bf8 af8 af8 bf8 bf8 | f8 f8 ef8 f8~ f2 |
   r4 ef8 ef8 gf8 gf8 f8 f8 |
@@ -129,12 +112,7 @@ refrainMelody = \relative g' {
 
   \bar "|."
 }
-  
-\include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
+\include "../Include/paper.ily"
 
 \include "../Include/refrain.ily"

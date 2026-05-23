@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -33,13 +28,13 @@ where the joy of liv -- ing __ holds sway __ all a -- long Broad -- way.
 
 refrainChords = \chordmode {
   ef1:6 ef1:6 af1:7 af1:7 f1:m7 bf1:7
-  
+
   ef1:6 f2:m7 bf2:7
-  
+
   ef1:6 ef1:6 af1:7 af1:7 f1:m7 bf1:7
-  
+
   ef1:6 ef1:6
-  
+
   bf1:m7 ef1:7 af1:maj7 af1:maj7
   af1:m7 df1:7 gf1:maj7 f2:m7 bf2:7
 
@@ -50,15 +45,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -66,28 +53,28 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up Swing [Lee Konitz and The Gerry Mulligan Quartet 1953]" 185
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   f8 ef8 r4 r4 f8 ef8 | r2 f8 ef8 f8 ef8 | f8 ef8 r4 r4 f8 ef8 | r2 f8 ef8 f8 ef8 |
   \break
   g8 bf4.~ bf4 g8 bf,8~ | bf2 gf'8 gf8 f8 f8~ |
   f8 ef4. r2 | r1 |
 
   \sect "A2"
-  
-  f8 ef8 r4 r4 f8 ef8 | r2 f8 ef8 f8 ef8 | f8 ef8 r4 r4 f8 ef8 | r2 f8 ef8 f8 ef8 | 
+
+  f8 ef8 r4 r4 f8 ef8 | r2 f8 ef8 f8 ef8 | f8 ef8 r4 r4 f8 ef8 | r2 f8 ef8 f8 ef8 |
   \break
   g8 bf4.~ bf4 g8 bf,8~ | bf2 gf'8 gf8 f8 f8~ |
   f8 ef4. r2 | r1 |
 
   \sect "B"
-  
+
   bf'8 c4 ef,8~ ef4 bf'8 c8~ | c8 ef,4. bf'8 c4. | bf8 af8 bf8 af8 bf8 af4. | r1 |
   \break
   af8 bf4 df,8~ df4 af'8 bf8~ | bf8 df,4. af'8 bf4. | af8 gf8 af8 gf8 af8 gf4. | g8 f8 g8 f8 g8 f4. |
-  
+
   \sect "A3"
-  
+
   f8 ef8 r4 r4 f8 ef8 | r2 f8 ef8 f8 ef8 | f8 ef8 r4 r4 f8 ef8 | r2 f8 ef8 f8 ef8 |
   \break
   g8 bf4.~ bf4 g8 bf,8~ | bf2 gf'8 gf8 f8 f8~ | f8 ef4. r2 | r1 |
@@ -96,10 +83,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Daphné"
   subtitle = \subtitle
@@ -33,15 +28,7 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -50,7 +37,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Swing [Django Reinhardt 1938]" 140
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
 	a4. d8
         r2 |
         e,4. a8 r2 |
@@ -63,7 +50,7 @@ refrainMelody = \relative f' {
         r8 d8 b4 d4 r4 |
 
   \sect "A2"
-  
+
 	a'4. d8
         r2 |
         e,4. a8 r2 |
@@ -77,7 +64,7 @@ refrainMelody = \relative f' {
         r8 d8 b4 d4 r4 |
 
   \sect "B"
-  
+
     \key ef \major bf'4. ef8 r2 |
     f,4. bf8 r2 |
     bf4. ef8 r2 |
@@ -104,10 +91,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Bluesette"
   subtitle = \subtitle
@@ -70,7 +65,7 @@ refrainChords = \chordmode {
   cf2.:maj7 cf2.:maj7 c2.:m7 f2.:7
   d2.:m7 g2.:7.9- c2.:m7 f2.:7
 
-  cf2.:maj7 cf2.:maj7 c2.:m7 f2.:7 
+  cf2.:maj7 cf2.:maj7 c2.:m7 f2.:7
   d2.:m7 d2.:m7 g4*5:7.5+ g4:7
   c2.:m7 c2.:m7 f2.:sus9 f2.:sus9
   bf2.:6 bf2.:6 bf2.:6 bf2.:6
@@ -82,15 +77,7 @@ refrainAltChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -98,7 +85,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Jazz Waltz [Toots Thielmans 1963]" 186
 
-  \sectStart "A1.A2"
+  \sectNoBarNoBreak "A1.A2"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -115,7 +102,7 @@ refrainMelody = \relative f' {
   f,2.~ | f2.~ | f2. | R2.*1 |
   }
   \bar "||-:|."
-  
+
   \sectNoBar "B"
 
   bf4 c4 d4 | f4 r4 r4 | ef4 d4 c4 | bf2 a4 | g4 a4 bf4 | d2. |
@@ -126,11 +113,8 @@ refrainMelody = \relative f' {
   \break
   gf,8 gf8 af8 af8 bf8 bf8 | cf8 cf8 df8 df8 ef8 ef8 |
   f2 \tuplet 3/2 { ef8( f8 ef8) } | d2 c4 | f,2.~ | f2.~ | f2. | R2.*1 |
-  \bar "||"
 
-  \xPageBreak
-
-  \sectNoBarNoBreak "C"
+  \sectPageBreak "C"
 
   r4 f'8 f8 f8 f8 | ef4 d2 | r4 ef8 ef8 ef8 ef8 |
   d4 c2 | r4 d8 d8 d8 d8 | c4 bf2 | r4 c8 c8 c8 c8 | bf4 af2 |
@@ -151,10 +135,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

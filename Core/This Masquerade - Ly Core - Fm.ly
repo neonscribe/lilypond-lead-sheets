@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -31,7 +26,7 @@ introMelody = \relative f' {
   \key \introKey \minor
   \clef \whatClef
   \tempoFour "Medium-Slow Latin/Rock [George Benson 1976]" 91
-  
+
   \bar ".|:"
   \repeat volta 2 {
   \rsq-"Vamp until cue" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -58,10 +53,10 @@ refrainLyrics = \lyricmode {
 refrainNewRealChords = \chordmode {
   f1:m f1:m7+ f1:m7 bf1:13
   f1:m7 df1:9 g1:m7.11 c1:7.5+.9+
-  
+
   f1:m f1:m7+ f1:m7 bf1:13
   df1:7 c1:7.5+ f1:m7 f2:m7 e4:m7 a4:7
-  
+
   ef1:m7 af1:13.9- df1:maj7 df1:maj7
   ef1:m7 af1:13.9- df1:maj7 df1:maj7
 
@@ -70,7 +65,7 @@ refrainNewRealChords = \chordmode {
 
   f1:m f1:m7+ f1:m7 bf1:13
   f1:m7 df1:9 g1:m7.11 c1:7.5+.9+
-  
+
   f1:m f1:m7+ f1:m7 bf1:13
   df1:7 c1:7.5+ f1:m7 bf1:13
 }
@@ -78,10 +73,10 @@ refrainNewRealChords = \chordmode {
 refrainRealBookCDChords = \chordmode {
   f1:m f1:m7+ f1:m7 bf1:7
   f1:m7 df1:7 g1:m7 c1:7.5+
-  
+
   f1:m f1:m7+ f1:m7 bf1:7
   df1:7 c1:7.5+ f1:m7 f2:m7 e2:m7
-  
+
   ef1:m7 af1:7 df1:maj7 bf1:7.5+
   ef1:m7 af1:7 df1:maj7 df1:maj7
 
@@ -90,7 +85,7 @@ refrainRealBookCDChords = \chordmode {
 
   f1:m f1:m7+ f1:m7 bf1:7
   f1:m7 df1:7 g1:m7 c1:7.5+
-  
+
   f1:m f1:m7+ f1:m7 bf1:7
   df1:7 c1:7.5+ f1:m7 bf1:7
 }
@@ -99,15 +94,7 @@ refrainChords = \refrainRealBookCDChords
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -115,25 +102,33 @@ refrainMelody = \relative f' {
   \clef \whatClef
 
   \xTextMark \markup{ \bold \box "A1" }
-  
-  r4 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f4 c8 bf8 | af4. bf8 c4 af8 f8~ | f2 r2 |
-  r2 af8 g8 af8 ef'8~ | ef2. ef8 c8~ | c2 r2 | r1 |
 
+  r4 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f4 c8 bf8 | af4. bf8 c4 af8 f8~ | f2 r2 |
+  \break
+  r2 af8 g8 af8 ef'8~ | ef2. ef8 c8~ | c2 r2 | r1 |
+  \break
   r4 f,8 g8 af8 bf4 c8~ | c8 g'4 f8~ f8 cf8( bf8) af8~ | af4 bf8 c4 af4 f8~ | f2 r4 c8 f8~ |
   f2 r8 af8 bf8 cf8~( | cf8 bf8~ bf2) af8 f8~ | f1 | r1 |
 
   \sect "B"
 
   r4 df'8 ef8 f4 gf8 f8~ | f4 ef8 df8~ df4 ef8 f8~ | f8 af,8( f8) af8~ af2 | r1 |
-  r8 af8 df8 ef8 f4 gf8 f8~ | f8 ef4. df4 af'8 af8( | f1) | r2 r4 r8 f8 |
+  \break
+  r8 af8 df8 ef8 f4 gf8 f8~ | f8 ef4. df4 af'8 af8( | f1) |
+  \bar "|o"
+
+  \xPageBreak
+
+  r2 r4 r8 f8 |
   d4 e8 f8~ f4 g8 af8~ | af8 g4. r8 g8 f8 g8~ | g4 g,8 g4 g8( e8) g8~ | g2 r4 g8 bf8~ |
   bf2 r4 g8 b8~ | b2 r4 g8 c8~ | c4 d8 bf8~ bf4 c8 g8~ | g4 r4 r2 |
 
   \sect "A2"
-  
-  r4 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f4 c8 bf8 | af4. bf8 c4 af8 f8~ | f2 r2 |
-  r4 r8 af8 af8 g8 af8 ef'8~ | ef2. ef8 c8~ | c2 r2 | r1 |
 
+  r4 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f4 c8 bf8 | af4. bf8 c4 af8 f8~ | f2 r2 |
+  \break
+  r4 r8 af8 af8 g8 af8 ef'8~ | ef2. ef8 c8~ | c2 r2 | r1 |
+  \break
   r8 c,8 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f8 cf8( bf8) af8~ | af4 bf8 c4 af4 f8~ | f2 r4 c8 f8~ |
   f2 r8 af8 bf8 cf8~( | cf8 bf8~ bf2) af8 f'8~ | f1 | r1 |
 
@@ -153,7 +148,7 @@ outroMelody = \relative f' {
   \time 4/4
   \key \outroKey \minor
   \clef \whatClef
-  
+
   \bar ".|:"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -161,11 +156,6 @@ outroMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 %% \include "../Include/intro.ily"
 \include "../Include/refrain.ily"

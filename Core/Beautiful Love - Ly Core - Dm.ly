@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -33,31 +28,23 @@ Beau -- ti -- ful love, will my dreams come true?
 
 refrainChords = \chordmode {
   s1
-  
+
   e1:m7.5- a1:7.5+ d1:m d1:m
   g1:m7 c1:7 f1:maj7 e2:m7.5- a2:7
-  
+
   d1:m g1:m7 bf1:7.11+ a1:7
   d1:m g1:7.11+ e1:m7.5- a1:7
-  
+
   e1:m7.5- a1:7.5+ d1:m d1:m
   g1:m7 c1:7 f1:maj7 e2:m7.5- a2:7
-  
+
   d1:m g1:m7 bf1:7.11+ a1:7
   d2:m b2:7.9+ bf2:7 a2:7 d1:m d1:m
 }
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -66,28 +53,27 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up Swing [Bill Evans Trio 1961]" 190
 
   r8 d4. e4 f4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   a2. g4 | f4. e8 d4 e8 f8~ | f1 | r8 f4. g4 a4 |
   \break
   c2. bf4 | a4. g8 f4 g8 a8~ | a1 | r8 a4. b4 cs4 |
-  
+
   \sect "B"
-  
+
   e4. d8~ d4 a4 | c4. bf8~ bf4 d,4 | e1 | r8 e4. f4 g4 |
   \break
   a2.( d,4) | cs2. d4 | e1 | r8 d4. e4 f4 |
 
   \sect "A1"
-  
+
   a2. g4 | f4. e8 d4 e8 f8~ | f1 | r8 f4. g4 a4 |
   \break
   c2. bf4 | a4. g8 f4 g8 a8~ | a1 | r8 a4. b4 cs4 |
-  
+
   \sect "C"
-  
+
   e4. d8~ d4 a4 | c4. bf8~ bf4 d,4 | e1 | r8 e4. f4 g4 |
   \break
   a2 cs,4 d4 | f2 e2 | d1 | r1 |
@@ -96,10 +82,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -1,13 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
-
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
 
 \header {
   title = "These Foolish Things"
@@ -54,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,20 +56,20 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Lester Young 1956]" 73
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   r8 ef8 f8 g8 f8 ef8 c8 ef8 | g4 g4 g8 f4. | r8 ef8 f8 g8 f8 ef8 c8 ef8 | c'4 c4 c8 bf4. |
   r8 bf8 c8 bf8 ef4 ef8 ef8~ | ef2 \tuplet 3/2 { g,4 af4 bf4 } | c4. c,8 \tuplet 3/2 { c4 ef4 g4 } | f1 |
-  
+
   \sect "A2"
-  
+
   r8 ef8 f8 g8 f8 ef8 c8 ef8 | g4 g4 g8 f4. | r8 ef8 f8 g8 f8 ef8 c8 ef8 | c'4 c4 c8 bf4. |
   r8 bf8 c8 bf8 ef4 ef8 ef8~ | ef2 \tuplet 3/2 { g,4 af4 bf4 } | c4. c,8 \tuplet 3/2 { c4 ef4 g4 } | ef1 |
 
-  \sect "B"
-  
+  \sectPageBreak "B"
+
   r4 bf'4 g2 | r4 c4 a2 | r4 bf4 c4 d4 | d1 |
   r4 d4 c4 bf4 | c8 d8 c2 f,4 | bf4 bf4 bf4 a4 | af8 bf8 af2. |
-  
+
   \sect "A3"
 
   r8 ef8 f8 g8 f8 ef8 c8 ef8 | g4 g4 g8 f4. | r8 ef8 f8 g8 f8 ef8 c8 ef8 | c'4 c4 c8 bf4. |
@@ -94,10 +79,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "No Moon at All"
   subtitle = \subtitle
@@ -70,15 +63,7 @@ refrainChords = \refrainHLChords
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -86,7 +71,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up Swing [Nat King Cole 1947]" 128
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   a8 f8 g8 a8~ a2 | r8 a8 e8 a8~ a2 | r8 a4 fs8 a8 g8 fs8 a8 | g4 d8 g8~ g2 |
   r8 g4 e8 g8 f8 e8 g8 | f8 b,8 c8 f8~ f8 d8 e8 d8~ | d1 | r1 |
@@ -97,11 +82,10 @@ refrainMelody = \relative f' {
   r8 g4 e8 g8 f8 e8 g8 | f8 b,8 c8 f8~ f8 d8 e8 d8~ | d1 | r1 |
 
   \sect "B"
-  
+
   r8 d4. fs8 a4 d,8~ | d4 fs8 a8~ a2 | r8 g4. b8 d4 g,8~ | g4 b8 d8~ d2 |
-  \break
   r8 c4. bf8 g4 c8~ | c4 bf8 g4. f8 g8 | a8 a8 a8 a8 a8 a8 a8 a8 | r8 cs8 bf8 a8~ a2 |
-  
+
   \sect "A3"
 
   a8 f8 g8 a8~ a2 | r8 a8 e8 a8~ a2 | r8 a4 fs8 a8 g8 fs8 a8 | g4 d8 g8~ g2 |
@@ -111,10 +95,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Darktown Strutters Ball"
   subtitle = \subtitle
@@ -26,7 +21,7 @@ refrainLyrics = \lyricmode {
 
 refrainFHChords = \chordmode {
   s4
-  
+
   bf1 bf2 g2:7 c1:7 c1:7
   f1:7 f1:7 bf2 bf2:dim7 c2:m7 f2:7
   bf1 bf2 g2:7 c1:7 c1:7
@@ -36,7 +31,7 @@ refrainFHChords = \chordmode {
 
 refrainiRealChords = \chordmode {
   s4
-  
+
   bf1:6 bf1:6 c1:7 c1:7
   f1:7 f1:7 bf1:6 f1:7
   bf1:6 bf1:6 c1:7 c1:7
@@ -48,28 +43,20 @@ refrainChords = \refrainiRealChords
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium-Fast Swing [Original Dixieland Jazz Band 1917]" 202
-  
+
   \partial 4 d8 c8 |
   \bar "||"
 
-  \sectStart "Refrain"
-  
-  bf4 d4 f8 f8 g8 f8 | bf4 g4 f8 d4 d8 | 
+  \sectNoBarNoBreak "Refrain"
+
+  bf4 d4 f8 f8 g8 f8 | bf4 g4 f8 d4 d8 |
   %% \break
   c8 c8 e8 g8~ g8 fs8 g8 a8 | bf8 a4 g8~ g4 r4 |
   %% \break
@@ -77,21 +64,16 @@ refrainMelody = \relative f' {
 
   \bar "||-||"
   \break
-  
+
   bf4 d4 f4 g4 | bf4 g4 f8 d4 d8 | c4 e4 g4 a8 a8 | bf8 a4 g8~ g4 bf8 b8 |
   %% \break
   c4 bf4 c8 bf4 a8~ | a4 r4 r4 g8 a8 | bf4 a8 bf8~ bf8 fs8 a4 | g4 r4 r4 f4 |
   %% \break
   g4 a8 bf8~ bf8 d4 bf8 | c4 a4 g8 f4 bf8~ | bf1~ | bf4 r4 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

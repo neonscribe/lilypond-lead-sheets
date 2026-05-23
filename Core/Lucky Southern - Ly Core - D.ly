@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Lucky Southern"
   subtitle = \subtitle
@@ -21,31 +16,23 @@ bossaRhythm = ##t
 
 refrainChords = \chordmode {
   d1:maj7 d1:maj7.5+ d1:maj7.6 d1:maj7.5+
-  
+
   d1:maj7 d1:maj7 e1:7 e1:7
   g1:maj7 bf2:7 a2:7 d1:maj7 r4 ef2.:maj7.11+
-  
+
   d1:maj7 d1:maj7 e1:7 e1:7
   g1:maj7 bf2:7 a2:7 d1:maj7 d1:maj7
 
   fs1:m7 fs1:m7 e1:m7 e1:m7
   fs1:m7 fs1:m7 a1:m7 d1:7
-  
+
   g1:maj7 g2.:m7 d4*4/fs f4*5:dim7
   e1:m7 bf2:m7 a4:7 d4*5:maj7 r4 ef2.:maj7.11+
 }
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -54,7 +41,7 @@ refrainMelody = \relative f' {
   \tempoFour "Latin Uptempo [Airto 1972]" 228
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -62,25 +49,25 @@ refrainMelody = \relative f' {
   \break
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   r4 a8 d8~ d8 e4 fs8~ | fs1 | fs4 e8 d8~ d8 e8 fs8 e8~ | e4 d2. |
   \break
   r2 b4 d4 | f4. e8~ e4 d8 d8~ | d8 b8 a2. | r4 a'2.-> |
-  
+
   \sect "A2"
-  
+
   r4 a,8 d8~ d8 e4 fs8~ | fs1 | fs4 e8 d8~ d8 e8 fs8 e8~ | e4 d2. |
   \break
   r2 b4 d4 | f4. e8~ e4 d8 d8~ | d8 e8 fs2.~ | fs1 |
-  
-  \sect "B"
-  
+
+  \sectPageBreak "B"
+
   r2 a4 a4 | b4. a8~ a4 fs8 e8~ | e1~ | e1 |
   \break
   r2 a4 a4 | b4. a8~ a4 b8 c8~ | c8 b4 a8~ a8 b4 fs8~ | fs4 e8 d8~ d8 e8 d4~ |
-  
+
   \sect "C"
-  
+
   d2 b4 d4 | f8 e4 d8~ d8 e8 d4~ | d2. b4~ | b1 |
   \break
   r2 b4 d4 | f8 e4 d8~ d8 e8 d4~ | d1 | r4 a'2.-> |
@@ -89,10 +76,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

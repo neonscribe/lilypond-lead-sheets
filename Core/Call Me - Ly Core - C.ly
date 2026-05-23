@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -23,29 +18,21 @@ refrainLyrics = \lyricmode {
 refrainChords = \chordmode {
   c1:maj7 c1:maj7 c1:m7 c2:m7 f2:7
   bf1:maj7 bf1:maj7 bf1:m7 bf2:m7 ef2:7
-  
+
   af1:maj7 f1:m7 af1:maj7 f1:m7
   af1:maj7 f1:m7
-  
+
   c1:maj7 d2:m7 g2:7
-  
+
   c1:maj7 e2:m7 a2:7.9-
-  
+
   d2:m7 g2:7 d2:m7 g2:7 c1:maj7 e2:m7 a2:7.9-
   d2:m7 g2:7 d2:m7 g2:7 c1:maj7 d1:m7 g1:7
 }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -53,45 +40,41 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Bossa [Chris Montez 1965]" 136
 
-  \sectStart "Verse"
-  
+  \sectNoBarNoBreak "Verse"
+
   \bar ".|:"
   \repeat volta 2 {
   g4 a4 b4 c4 | d4 c8 b8~ b8 a4. | r4 g8 a8 bf8 c4 d8~ | d4 c8 bf8~ bf8 a4. |
   \break
   r4 f8 g8 a8 bf4 c8~ | c4 bf8 a8~ a8 g4. | r4 f8 g8 af8 bf4 c8~ | c4 bf4 af4 bf4 |
-  
+
   \sect "Chorus"
-  
+
   bf4. ef,8~ ef2 | bf'8 c8 bf8 af8~ af8 bf8 af4 | bf4. ef,8~ ef2 | bf'8 c8 bf8 af8~ af8 bf8 af4 |
   \break
   bf4. ef,8~ ef2 | bf'8 c8 bf8 af8~ af8 bf8 af4 |
   \alternative { \volta 1 {
-  g1~^"Turnaround to verse" | g2._"FINE" r4 |
+  g1~^"Turnaround to verse" | g2. \textFine r4 |
   } \volta 2 {
   g1~^"Turnaround to bridge" | g2 r8 g8 g8 g8 |
   } } }
   \sect "Bridge (9 bars)"
-  
+
   d'4. e8~ e8 g,8 g8 g8 | d'4. e8~ e2 | r4 c8 c8 b8 b8 a8 a8 | g2 r8 g8 g8 g8 |
   \break
   d'4. e8~ e8 g,8 g8 g8 | d'4. e8~ e2 | r4 c8 c8 b8 b8 a8 a8 | d1~ | d2 \daCapoAlFine r2 |
 
   \bar "|."
-  \xPageBreak
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
+\pageBreak
+
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -113,7 +96,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
     \vspace #2
     \line { \large { If you're feeling sad and lonely } }
@@ -153,7 +136,7 @@ refrainMelody = \relative f' {
 \markup { \vspace #2 }
 
 \markup {
-  \column 
+  \column
   \bold
   {
     \line{ Petula Clark }

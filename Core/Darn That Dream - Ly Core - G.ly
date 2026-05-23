@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Darn That Dream"
   subtitle = \subtitle
@@ -91,7 +84,7 @@ refrainRealBookSixthChords = \chordmode {
 
   g2:maj7 bf4:m7 ef4:7 a2:m7 b2:7 e4:m7 e4:m7/d a4:7/cs c4:m6 b2:m7.5- e2:7
   a2:m7 f2:7 b2:m7 bf2:m7 a2:m7 d2:7 g4:6 \chordSlash 1 f4:m7 bf4:7
-  
+
   ef2:maj7 c2:m7 f2:m7 bf2:7 g2:m7 fs2:m7 f2:m7 bf2:7
   ef2:maj7 c2:m7 a4:m7.5- d4:7 g2:m7 a2:m7 d2:7 ef2:7 d2:7
 
@@ -107,7 +100,7 @@ refrainGalbraithChords = \chordmode {
 
   g2:maj7 ef2:7 a2:m7 b2:7.5- e2:m7 d2:9.11+ b2:m7.5- e2:9
   a2:m7 f2:7 b2:m7 bf2:m7 a2:m11 d2:13 g2/b bf2:13
-  
+
   ef2:maj7 c2:m7 f2:m9 bf2:13 g2:m11 fs4:m9 b4:13 f2:m11 bf2:9
   ef2:maj7 c2:m7 g4:m g4:m9.7+ g4:m7 <c e g d'> a2:m11 d2:9 ef2:9 d2:13
 
@@ -123,7 +116,7 @@ refrainLearnJazzStandardsChords = \chordmode {
 
   g2:maj7 bf4:m7 ef4:7 a2:m7 b2:7.11+ e2:m7 e4:m7/d c4:m6 b2:m7.5- e2:7.9-
   a2:m7 c4:m7 f4:7 b2:m7 bf2:7.11+ a2:m7 d2:7 g2:maj7 f4:m7 bf4:7
-  
+
   ef2:maj7 c2:m7 f2:m7 bf2:7 g2:m7 fs2:m7 f2:m7 bf2:7
   ef2:maj7 c2:m7 a4:m7.5- d4:7.9- g2:m7 a1:m7 b4:m7 e4:7 a4:m7 d4:7
 
@@ -139,7 +132,7 @@ refrainDaveChords = \chordmode {
 
   g2:maj7 ef2:7 a2:m7 b2:7.11+ e4:m7 e4:m/d a4:7/cs c4:m6 b2:m7.5- e2:7
   a2:m9 f2:9 b2:m7 bf2:m7 a2:m7 d2:13 g2:6 f4:m7 bf4:7
-  
+
   ef2:maj7 c2:m7 f2:m7 bf2:7 g2:m7 fs2:m7 f2:m7 bf2:7
   ef2:maj7 c2:m7 g2:m g2:m7 a2:m7 d2:7 bf4:m7 ef4:7 a4:m7 d4:7
 
@@ -158,15 +151,7 @@ refrainChords = \refrainRealBookSixthChords
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -181,26 +166,29 @@ refrainMelody = \relative f' {
   g4 b4 gs8 a8 b8 c8 | d4 e4 b2 |
   \break
   b4 d4 c8 b8 a8 g8 | fs4 a4 f4 ef4 | d2 fs2 | d1 |
-  
+
   \sect "A2"
 
   d4 g4 ef4. ef8 | e4 a4 f4. fs8 |
   g4 b4 gs8 a8 b8 c8 | d4 e4 b2 |
+  \break
   b4 d4 c8 b8 a8 g8 | fs4 a4 f4 ef4 | d2 b'2 | g2. r4 |
-  
-  \sect "B"
-  
+
+  \sectPageBreak "B"
+
   r8 g4 g8 f4 ef4 | c'4 c4 bf4. c8 |
   \tuplet 3/2 { d4 ef4 d4 } cs4 b4 |
   bf4 af4 f2 |
+  \break
   r8 g4 g8 f4 ef4 | g4 a4 bf4. c8 | d8 d8 d8 d8~ d4 d,4 | bf'2 b2 |
 
   \sect "A3"
 
   d,4 g4 ef4. ef8 | e4 a4 f4. fs8 |
   g4 b4 gs8 a8 b8 c8 | d4 e4 b2 |
+  \break
   b4 d4 c8 b8 a8 g8 | fs4 a4 f4 ef4 | d2 b'2 | g1 |
-  
+
   \bar "|."
 }
 

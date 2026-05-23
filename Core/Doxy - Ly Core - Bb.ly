@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Doxy"
   subtitle = \subtitle
@@ -17,9 +12,11 @@ subtitle =
   copyright = \markup \small { \now " " "© 1963 Prestige Music" }
 }
 
+leadingEighth = ##t
+
 refrainChords = \chordmode {
-  s4
-  
+  s8
+
   bf2:7 af2:7 g1:7 c2:7 f2:7 bf2 f2:7.5+
   bf2:7 af2:7 g1:7 c1:7 f1:7
   bf1:7 bf1:7 ef1:7 e1:dim7
@@ -29,15 +26,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -45,8 +34,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Miles Davis 1954]" 120
 
-  \partial 4 \invisEighth f8 |
-  
+  \partial 8 f8 |
+
   \bar ".|:"
   \repeat volta 2 {
   bf8 d8 bf8 g8 bf4 r8 f8 | bf8 g8 bf8 df8 r8 g,4-. f8 |
@@ -64,11 +53,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

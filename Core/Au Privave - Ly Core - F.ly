@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -21,23 +16,15 @@ refrainChords = \chordmode {
   f1 g2:m7 c2:7 f2 g2:m7 c2:m7 f2:7.5+
   bf1:7 bf2:m7 ef2:7 f2 g2:m7 a2:m7 d2:7
   g1:m7 g2:m7 c2:7 f2 d2:7.9-
-  
+
   g2:m7 c2:7
-  
+
   g2:m7 c2:7 f1:maj7
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -45,15 +32,21 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Up [Charlie Parker 1951]" 200
 
-    f8 e8 f8 c8 r4 a'8 gs8 | a8 c,8 r8 e8 r8 g8 f8 c8 |
-    g'8 f8 a8 bf8 a8 f8 g8 ef8 | r8 d'4 r8 r8 df4 f,8 |
-    b4.\lheel f'8 r8 b,8 bf4~ | bf2 af8 f8 g8 f8 |
-    c'4 r8 a8 bf4 r8 g8 | c4 c4~ c8 a8 bf8 c8 |
-    a8 g8 f8 e8 f4 r8 c'8 | bf4 r8 f'8~ f8 c8 e8 f8 |
-    r4 r8 c8 c4. a8 \textToCodaLastTime |
-    bf8 a8 f8 d8 a'8 a4. |
+  f8 e8 f8 c8 r4 a'8 gs8 | a8 c,8 r8 e8 r8 g8 f8 c8 |
+  g'8 f8 a8 bf8 a8 f8 g8 ef8 | r8 d'4 r8 r8 df4 f,8 |
+
+  \break
+
+  b4.\lheel f'8 r8 b,8 bf4~ | bf2 af8 f8 g8 f8 |
+  c'4 r8 a8 bf4 r8 g8 | c4 c4~ c8 a8 bf8 c8 |
+
+  \break
+
+  a8 g8 f8 e8 f4 r8 c'8 | bf4 r8 f'8~ f8 c8 e8 f8 |
+  r4 r8 c8 c4. a8 \textToCodaLastTime |
+  bf8 a8 f8 d8 a'8 a4. |
   \bar "||-|."
-    
+
   \textCodaBreak
 
   bf8 a8 f8 d8 a'8 a4.~ | a1\fermata |
@@ -61,11 +54,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

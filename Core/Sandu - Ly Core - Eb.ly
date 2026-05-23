@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -19,15 +14,15 @@ subtitle =
 
 refrainChords = \chordmode {
   s2.
-  
+
   ef1:7 af1:7 ef1:7 ef1:7
   af1:7 af1:7 ef1:7 ef1:7
   s4 <bf>8*13 ef8
-  
+
   s4. f2:m7 e8:7.9+.11+ r1
 
   r1 r1
-  
+
   ef1:7 af1:7 ef1:7 ef1:7
   af1:7 af1:7 ef1:7 g2:m7 c2:7
   f1:m7 bf1:7 ef2:7
@@ -40,15 +35,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -58,8 +45,8 @@ refrainMelody = \relative f' {
 
   \partial 2. r8 ef8 g8 bf8 \tuplet 3/2 { c8 bf8 ef8 } |
 
-  \xTextMark \markup{ \bold \box "Head"  \musicglyph #"scripts.segno" }
-  
+  \sectNoBarNoBreakSegno "Head"
+
   \bar ".|:"
   \repeat volta 2 {
   r4 r8 ef,8 g4 bf8 af8 | r4 r8 ef'8~ ef4 gf,8 ef8 |
@@ -78,8 +65,8 @@ refrainMelody = \relative f' {
   r1^"Solo break" | r1 |
   } } }
 
-  \sect "Solos"
-  
+  \sectPageBreak "Solos"
+
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -87,15 +74,15 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
-  r4 r8 ef,8 g8 bf8 \tuplet 3/2 { c8 bf8 
+  r4 r8 ef,8 g8 bf8 \tuplet 3/2 { c8 bf8
   \endParenthesis \parenthesize ef8 } \dalSegnoAfterSolosWithRepeats |
 
   \bar "|."
 
   \textCodaBreak
-  
+
   df,4 bf8 bf8 df8 ef8 r8 <a f,>8~ | <a f,>1\fermata |
-  
+
   \sect "C"
 
   \bar "|."
@@ -103,25 +90,20 @@ refrainMelody = \relative f' {
 
 refrainKicksOverTime = \relative f' {
   s2.
-  
+
   s1*8
-  
+
   r4 ef4 r4 ef4 r4 ef4 r4 ef8 ef8
-  
+
   r4 r8 ef8 r4 r8 e8 s1
-  
+
   s1*2
-  
+
   s1*12
-  
+
   r4 bf4 r4 r8 ef8~ ef1
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

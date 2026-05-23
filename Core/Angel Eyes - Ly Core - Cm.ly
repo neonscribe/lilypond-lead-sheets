@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Angel Eyes"
   subtitle = \subtitle
@@ -66,14 +61,14 @@ refrainNicoChords = \chordmode {
 refrainHLChords = \chordmode {
   c4:m7 \chordSlash 1 d4:7.5- g4:7.5+ c2:m7 af2:7 c2:m7 a2:m7.5- d2:m7.5- g2:7.5+
   c4:m7 \chordSlash 1 d4:7.5- g4:7.5+ c2:m7 a2:m7.5- af2:7 g2:7.5+
-  
+
   c4:m7 \chordSlash 1 af4:7 g4:7.5+
-  
+
   c4:m7 \chordSlash 1 d4:7.5- g4:7.5+ c2:m7 af2:7 c2:m7 a2:m7.5- d2:m7.5- g2:7.5+
   c4:m7 \chordSlash 1 d4:7.5- g4:7.5+ c2:m7 a2:m7.5- af2:7 g2:7.5+
-  
+
   c1:m6
-  
+
   bf2:m7 ef2:7 af2:maj7 a2:dim7 bf2:m7 ef2:7 af2:maj7 df2:maj7
   a2:m7 d2:7 g2:maj7 c2:maj7 df2:m7 gf2:7 d2:m7 g2:5+
 
@@ -87,15 +82,7 @@ refrainChords = \refrainNicoChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -103,53 +90,43 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Nat King Cole 1953]" 75
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   r8 c8 g'8 gf8~ gf4. f8 | ef4 \tuplet 3/2 { ef8 c8 ef8~ } ef2 |
-  \break
   r8 c8 ef8 g8 d'8 df8 c8 g8~ |
   g1 |
   \break
   r8 c,8 g'8 gf8~ gf4. f8 | ef8 ef8 c8 ef8~ ef4. c8 |
-  \break
   ef8 c8 ef8 c8 ef4 ef8 c8~ |
   c2 r2 |
 
   \sect "A2"
-  
+
   r8 c8 g'8 gf8~ gf4. f8 | ef4 \tuplet 3/2 { ef8 c8 ef8~ } ef2 |
-  \break
   r8 c8 ef8 g8 d'8 df8 c8 g8~ |
   g1 |
   \break
   r8 c,8 g'8 gf8~ gf4. f8 | ef8 ef8 c8 ef8~ ef4. c8 |
-  \break
   ef8 c8 ef8 c8 ef4 ef8 c8~ |
   c2. c'4 |
-  \bar "||"
-  
-  \xPageBreak
-  \sectNoBarNoBreak "B"
-  
+
+  \sectPageBreak "B"
+
   c8 c4.~ c8 c8 bf8 ef,8~ | ef8 ef4.~ ef2 |
-  \break
   c'8 c4 c16 b16 c4 bf8 ef,8~ | ef2. c'4 |
   \break
-  b2~ b8 a4 b16 a16 | d,8 d4.~ d4 r8 ff8 | 
-  \break
+  b2~ b8 a4 b16 a16 | d,8 d4.~ d4 r8 ff8 |
   gf8 gf8 gf8 gf8~ gf4 gf8 g8~ | g1 |
-  
+
   \sect "A3"
-  
+
   r8 c,8 g'8 gf8~ gf4. f8 | ef4 \tuplet 3/2 { ef8 c8 ef8~ } ef2 |
-  \break
   r8 c8 ef8 g8 d'8 d8 c8 g8~ | g1 |
   \break
   r8 c,8 g'8 gf8~ gf4. f8 | ef8 ef8 c8 ef8~ ef4. c8 |
-  \break
   ef8 c8 ef8 c8 ef4 ef8 c8~ |
   c1 \textToCodaLastTime |
-  
+
   \bar "||-|."
 
   \textCodaBreak
@@ -160,10 +137,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

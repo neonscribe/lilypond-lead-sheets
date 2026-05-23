@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -34,7 +29,7 @@ refrainNRChords = \chordmode {
   s4
 
   ef1:maj7 ef1:maj7 d1:m7.5- g1:7
-  c1:m7 
+  c1:m7
   \chordInsideParens{ f1:7 }
   bf1:m9 ef1:13
 
@@ -74,15 +69,7 @@ refrainChords = \refrainNRChords
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -91,41 +78,36 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up [Chet Baker 1954]" 170
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   \partial 4 bf4 |
   \bar "||"
-  
+
   c4 d4 ef4 f4 | g4 bf4 f4. ef8 | f1~ | f2. g4 |
-  \break
+  %% \break
   ef4 f4 g4 bf4 | c4 ef4 c4. bf8 | c1~ | c2. bf4 |
-  \break
-  
+  %% \break
+
   \xTextMark \markup{ \bold \box "B1" }
-  
+
   ef4 c4 bf4 af4 | g4 f4 g4 af4 | bf4 g4 f4 ef4 | f4 ef4 f4. ef8 |
-  \break
+  %% \break
   d'4 c4 bf4 a4 | g4 f4 g4 f4 | af1~ | af2. bf,4 |
   \sect "A2"
 
   c4 d4 ef4 f4 | g4 bf4 f4. ef8 | f1~ | f2. g4 |
-  \break
+  %% \break
   ef4 f4 g4 bf4 | c4 ef4 c4. bf8 | c1~ | c2. bf4 |
-  \break
+  %% \break
 
   \xTextMark \markup{ \bold \box "B2" }
 
   ef4 c4 bf4 af4 | g4 f4 g4. af8 | bf4 g4 f4 ef4 | d'2. c4 |
-  \break
+  %% \break
   bf4 ef4 d4 c4 | bf4 ef,4 bf'4 af4 | f2 g2 | ef1 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "We Three Kings of Orient Are"
   subtitle = \subtitle
@@ -22,9 +17,9 @@ refrainLyrics = \lyricmode {
   bear -- ing gifts, we tra -- verse a -- far,
   field and foun -- tain, moor and moun -- tain,
   fol -- low -- ing yon -- der star.
-  
+
   O -- o
-  
+
   star of won -- der, star of night,
   star with roy -- al beau -- ty bright.
   West -- ward lead -- ing, still pro -- ceed -- ing,
@@ -43,7 +38,7 @@ refrainChords = \chordmode {
   e2.:m7 e2:m7 fs2:m7.5- b4:7.9- e2:m7
   e2.:m7 d2:9 g2.:maj7 c2:maj7
   fs2.:m7.5- b4:7.5+ b4:7 e2.:m7 d2:7
-  
+
   g2.:6 e2:m7 a2:m7 d4:9 g2:6
   g2.:6 e2:m7 a2:m7 d4:9 g2:6
   e2.:m7 d2:9 a2.:m7 d2:9
@@ -52,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = e
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \submeasureBarsOn
@@ -68,9 +55,9 @@ refrainMelody = \relative f' {
   \key \refrainKey \minor
   \clef \whatClef
   \tempoFour "Jazz 5/4" 160
-  
+
   \xTextMark \markup{ \bold \box "A" }
-  
+
   b2 a4 g4 e4 | fs4 g4 fs4 e2 |
   \break
   b'2 a4 g4 e4 | fs4 g4 fs4 e2 |
@@ -80,7 +67,7 @@ refrainMelody = \relative f' {
   a4 b4 a4 g4 fs4 | e2. fs4 a4 |
 
   \sect "B"
-  
+
   g2 g4 g4 d4 | g2 e4 g2 |
   \break
   g2 g4 g4 d4 | g2 e4 g2 |
@@ -93,10 +80,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -89,23 +84,23 @@ Au grand jar -- din d'a -- mour
 Pe -- ti -- te fleur
 }
 
-refrainLyrics = 
+refrainLyrics =
 #(if (and (defined? 'petulaLyrics) petulaLyrics)
   refrainLyricsPetula
   refrainLyricsModern)
 
 refrainChords = \chordmode {
   g2:m7 a2:7 d4:7 r2.
-  
+
   d1:7 d1:7 g1:m7 g1:m7/f
   a2:7/e a2:7/ef d1:7 g2:m7 a2:7 d4:7 r2.
 
   d1:7 d1:7 bf1:maj7 b1:dim7
   c2:m7 c2:m7/bf a2:m7.5- f2:7 bf1:maj7 g1:m7
-  
+
   a2:m7.5- a2:m7.5-/g d2:7/fs d2:7 g2:m7 g2:m7/f e1:m7.5-
   a1:7 a1:7 d2:7 ef2:7 d4:7 r2.
-  
+
   d1:7 d1:7 g1:m7 g2:m7 g2:m7/f
   a1:m7.5-/ef d1:7 g2:m7 c2:m7 g4:m7 r2.
 
@@ -120,45 +115,34 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
   \tempoFour "Ballad [Sidney Bechet 1952]" 80
-  
-  \sectStart "Intro"
+
+  \sectNoBarNoBreak "Intro"
 
   g2\fermata a2\fermata | d,4-. r4 ef4. ef8 |
 
   \sectNoBreak "A"
-  
+
   d1 | r4 fs8 a8 \tuplet 3/2 { c4 ef4 d4 } | bf1 | r4 d,8 g8 \tuplet 3/2 { a4 bf4 g4 } |
   a1 | r4 e8 fs8 \tuplet 3/2 { g4 a4 fs4 } | d1~ | d4 r4 ef4. ef8 |
 
   \sect "B"
-  
+
   d1 | r4 fs8 a8 \tuplet 3/2 { c4 ef4 d4 } | f1 | r4 d8 ef8 \tuplet 3/2 { f4 ef4 d4 } |
   ef1 | r4 c8 d8 \tuplet 3/2 { ef4 d4 c4 } | d1 | r4 bf8 c8 \tuplet 3/2 { d4 c4 bf4 } |
 
   \sect "C"
-  
+
   c1 | r4 a8 bf8 \tuplet 3/2 { c4 bf4 a4 } | bf1 | r4 g8 a8 \tuplet 3/2 { bf4 a4 g4 } |
   a1 | e1 | a1 | r2 ef4. ef8 |
-  \bar "||"
-  
-  \xPageBreak
 
-  \sectNoBar "D"
+  \sectPageBreak "D"
 
   d1 | r4 fs8 a8 \tuplet 3/2 { c4 ef4 d4 } | bf1 | r4 d,8 g8 \tuplet 3/2 { a4 bf4 g4 } |
   a2. c4 | bf2. a4 | g1~ | g4 r4 \tuplet 3/2 { g4 b4 d4 } |
@@ -177,11 +161,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

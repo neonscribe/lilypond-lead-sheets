@@ -6,4 +6,4 @@ subtitle = "Nina Hagen Key"
 whatKey = af,
 whatClef = "treble_8"
 
-\include "../Core/The Flat Foot Floogie - Ly Core - Ab.ly"
+\include "../Core/The Flat Foot Floogie - Ly Core - F.ly"

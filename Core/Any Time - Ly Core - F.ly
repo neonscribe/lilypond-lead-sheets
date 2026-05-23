@@ -1,13 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
-
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
 
 \header {
   title = "Any Time (Anytime)"
@@ -19,7 +12,7 @@ subtitle =
 
 introChords = \chordmode {
   s2
-  
+
   c1:7 c1:7 f1:6 f2:6
 }
 
@@ -54,41 +47,33 @@ that's the time I'll come back home __ to you.
 
 refrainChords = \chordmode {
   s2
-  
+
   d1:7 d1:7 g1:7 g1:7
   c1:7 c1:7 f1:6 f1:7
-  
+
   bf1 bf1 f1:6 f1:6
   g1:7 g1:7 c1:7 c1:7
 
   d1:7 d1:7 g1:7 g1:7
   c1:7 c1:7 a1:7 a1:7
-  
+
   d1:7 d1:7 g1:7 g1:7
   c1:7 c1:7 f1:6 f1:6
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  
+
   \partial 2 c'8 cs4 d8~ |
   \bar "||"
 
-  \xTextMark \markup{ \bold \box "A" }
+  \sectNoBreak "A"
 
   d1~ | d8 a4. a8 d,4. | a'2 g2 | r2 fs8 g4 c8~ |
   \break
@@ -98,8 +83,8 @@ refrainMelody = \relative f' {
   \break
   b2. g8 f8~ | f4. g8 e8 d4. | g1 | r2 c8 cs4 d8~ |
 
-  \sect "B"
-  
+  \sectPageBreak "B"
+
   d1~ | d8 a4. a8 d,4. | a'2 g2 | r2 fs4 g4 |
   \break
   c1~ | c8 c4. c8 bf4 a8~ | a1 | r2 gs8 a4 d8~ |
@@ -117,27 +102,22 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/intro.ily"
 \include "../Include/refrain.ily"
 
 \markup {
   \vspace #1
   \column {
-    \line { \large { Anytime your world is lonely, } } 
-    \line { \large { and you find true friends are few, } } 
-    \line { \large { anytime you see a rainbow, } } 
+    \line { \large { Anytime your world is lonely, } }
+    \line { \large { and you find true friends are few, } }
+    \line { \large { anytime you see a rainbow, } }
     \line { \large { that will be a sign the storm is through. } }
     }
   \column { \hspace #5 }
   \column {
-    \line { \large { Anytime will be the right time, } } 
-    \line { \large { anytime at all will do. } } 
-    \line { \large { Anytime you're sure you want only my love, } } 
-    \line { \large { that's the time I'll come back home to you. } } 
+    \line { \large { Anytime will be the right time, } }
+    \line { \large { anytime at all will do. } }
+    \line { \large { Anytime you're sure you want only my love, } }
+    \line { \large { that's the time I'll come back home to you. } }
   }
 }

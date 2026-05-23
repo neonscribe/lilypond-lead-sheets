@@ -1,13 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
-
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
 
 \header {
   title = "With a Gun"
@@ -49,7 +42,7 @@ refrainLyricsRest = \lyricmode {
 
   Did you pay the oth -- er man with the piece in your hand
   and leave him ly'n' in the rain?
-  
+
   rain?
 
   When you're born to play the fool
@@ -68,12 +61,12 @@ refrainChords = \chordmode {
   a1:m g1 f2 g2 a1:m
   a1:m g1 c1 d1:m
   d1:m d1:m c1 bf1 bf4 r2.
-  
+
   g1:m a1:m g1:m a1:m
   bf1 c1 bf1 bf1
   f1 g1 a1 g1
   f1 e1:m
-  
+
   d1:m g1
 
   d1:m d1:m
@@ -81,7 +74,7 @@ refrainChords = \chordmode {
   e1:m e1:m e1:m bf1
   a1:m g1 fs1:m fs1:m d2 a2
   c2 g2 e1 d1 e1 d1
-  
+
   c1/bf bf1 c1/bf bf1
 
   d1:m d1:m d1:m d1:m
@@ -91,15 +84,7 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f'' {
   \time 2/2
@@ -108,7 +93,7 @@ refrainMelody = \relative f'' {
   \tempoFour "Medium [Steely Dan 1973]" 220
 
   \xTextMark \markup{ "Intro" }
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar ".|:-||"
   \break
 
@@ -120,7 +105,7 @@ refrainMelody = \relative f'' {
   r4 c4 c4 c4 | b4 a4 a4 b4 | c4 c4 b4 c4 | d2 r2 |
   r4 f4 f4 e4 | d4 d4 c4 d4 | e4 e4 d4 c4 | d2 r2 |
   \break
-  
+
   \xTextMark \markup{ "Chorus" }
   r2 bf4 c8 d8~ |
   \bar "||-||"
@@ -133,30 +118,23 @@ refrainMelody = \relative f'' {
     { a2 r2 | r1 | }
     { a2 r2 | r2 c4 d4 | }
   }
-  \bar "||-||"
-  \break
-  
-  \xTextMark \markup{ "Bridge" }
+
+  \sectPageBreak "Bridge"
   e4. e8 e4 e4 | e2 c4 d4 | e2 e4 g4 | f4 e4 d4 c4 |
   e2 d4 c4 | b4 b4 b4 a4 | cs2 r2 | r2 r4 e4 | e2 e4. e8 |
   d2 d2 | e2 d4 c4 | a2 r4 a4 | e'2 d4 c4 | a2 r2 |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \dalSegno | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \dalSegno |
   \bar "||-||"
 
   \textCodaBreak
 
   a2 r2 |
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq\fermata
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain-three-coda.ily"

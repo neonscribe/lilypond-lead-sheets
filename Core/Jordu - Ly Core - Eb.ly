@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -19,17 +14,17 @@ subtitle =
 
 refrainChords = \chordmode {
   r1
-  
+
   s8 d4.:7 g4.:7 c8:m r1 f2:7 bf4.:7 ef8:maj7 r1
   s8 d4.:7 g4.:7 c8*9:m
-  
+
   af1:7 g8:7 r8*7
-  
+
   af1:7 af2:7 g2:7
-  
+
   g2:7 c2:7 f2:7 bf2:7 ef2:7 af2:7 df1:7
   f2:7 bf2:7 ef2:7 af2:7 df2:7 gf4.:7 g8:7 r1
-  
+
   s8 d4.:7 g4.:7 c8:m r1 f2:7 bf4.:7 ef8:maj7 r1
   s8 d4.:7 g4.:7 c8*9:m af1:7 g1:7
 
@@ -48,15 +43,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -67,7 +54,7 @@ refrainMelody = \relative f' {
   r8 g,8 c8 d8 ef8 f8 g8 ef8 |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   fs2 f4. ef8 | r8 g,8 c8 d8 ef8 f8 g8 bf8 | a2 af4. g8 | r8 g,8 c8 d8 ef8 f8 g8 ef8 |
@@ -79,8 +66,8 @@ refrainMelody = \relative f' {
   c1\repeatTie | r2 r8 g''4 g8~ |
   } } }
   \sect "B"
-  
-  g4 \tuplet 3/2 { b,16 c16 b16 } a8 bf4 g'8 e8 | 
+
+  g4 \tuplet 3/2 { b,16 c16 b16 } a8 bf4 g'8 e8 |
   f4 \tuplet 3/2 { a,16 bf16 a16 } g8 af4 f'8 d8 |
   ef4 \tuplet 3/2 { g,16 af16 g16 } f8 gf4 e4 | f2 r8 f'4 f8~ |
   \break
@@ -88,19 +75,16 @@ refrainMelody = \relative f' {
   ef4 \tuplet 3/2 { g,16 af16 g16 } f8 gf4 ef'8 c8 |
   df4 \tuplet 3/2 { f,16 gf16 f16 } ef8 e4. ef8 |
   r8 g,8 c8 d8 ef8 f8 g8 ef8 |
-  
+
   \sect "A3"
-  
+
   fs2 f4. ef8 | r8 g,8 c8 d8 ef8 f8 g8 bf8 | a2 af4. g8 | r8 g,8 c8 d8 ef8 f8 g8 ef8 |
   \break
   fs2 f4. ef8 | r2 \tuplet 3/2 { ef16 f16 ef16 } c8 ef8 c8~ \textToCodaLastTime |
   c1 | r1 |
-  \bar "||"
-  
-  \xPageBreak
 
-  \xTextMark \markup{ \bold \box "Solos" }
-  
+  \sectPageBreak "Solos"
+
   \bar ".|:-|."
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -120,7 +104,7 @@ refrainMelody = \relative f' {
   \bar "||-|."
 
   \textCodaBreak
-  
+
   c1\repeatTie |
   r2 \tuplet 3/2 { ef16 f16 ef16 } c8 ef8 c8~ | c1 |
   \break
@@ -130,14 +114,14 @@ refrainMelody = \relative f' {
 }
 
 refrainKicksOverTime = \relative f' {
-  s1 
+  s1
   r8 ef4. ef4. ef8 s1 s1 s1
   r8 ef4. ef4. ef8~ ef4 ef4 ef4 ef4
-  
+
   s1 s1
-  
+
   s1 s1
-  
+
   s1 s1 s1 s1
   s1 s1 s1 s1
 
@@ -146,10 +130,5 @@ refrainKicksOverTime = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

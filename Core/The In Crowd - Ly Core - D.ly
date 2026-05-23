@@ -2,17 +2,11 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
   title = "The “In” Crowd"
-  subtitle = "Ramsey Lewis arrangement, 1965"
-  subsubtitle = \subtitle
+  subtitle = \subtitle
   poet = ""
   composer = "Billy Page"
   copyright = \markup \small { \now " " "© 1964 American Music, Inc." }
@@ -33,21 +27,13 @@ refrainChords = \chordmode {
   fs1:7 fs1:7 b1:7 b1:7
   e1:7 e1:7 a1:7
   a8:m b4:m7 c8*5
-  
+
   r1*2
 }
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -56,25 +42,24 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Ramsey Lewis 1965]" 140
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   r4 <d c fs>4 <d c fs>8 <d c fs>8 r8 <d c fs>8~ |
   <d c fs>4 <d c fs>4 <d c fs>8 <d c fs>8 r8 <d c fs>8 |
   r4 <d c fs>4 <d c fs>8 <d c fs>8 r8 <d c fs>8~ |
   <d c fs>4 <d c fs>4 <d c fs>8 <d c fs>8 r8 <d c fs>8 |
 
   \sect "Head"
-  
+
   r4 \acciaccatura af'8 a4 g8 f8 d8 f8 | r8 g4.~ g2 |
   r4 \acciaccatura af8 a4 g8 f8 d8 f8~ | f8 d8 c8 <d c>8~ <d c>2 |
   \break
   r4 \acciaccatura af'8 a4 g8 f8 d8 f8 | r8 g4.~ g2 |
   r8 gs8 a8 c8~ c4 \tuplet 3/2 { a16 g16 f16 } d8 | g8 d8 f4 d2 |
-  \break
-  
+
   \bar "||-||"
   \break
-  
-  r2 r8 f8 e8 d8~ | d8 f8 r8 e8 r8 d8 f4 | 
+
+  r2 r8 f8 e8 d8~ | d8 f8 r8 e8 r8 d8 f4 |
   f4 e8 d8 e8 d8 r8 d8~ | d8 r8 d8 f4-. d4. |
   \break
   <a' fs>4 r4 r8 d,8 f4 | r8 d8 f4-. d4 r8 f8-. |
@@ -84,30 +69,25 @@ refrainMelody = \relative f' {
   \break
   r4 e2 fs4 | e8 d8 b8 e8 r2 | r8 e8 e8 d8 e4 r8 d8 |
   <a' e>8 <b fs>8~ <b fs>8 <c g>8~ <c g>2 |
-  
+
   \bar "||-||"
-  \break
-  
-  
+  %% \break
+
+
 
   \xTextMark \markup{ \bold \box "Turnaround" }
-  
+
   d4 r8 c8~ c8 r8 a4 | r8 g4 r8 f4 c4 \textToCodaLastTime |
-  
+
   \bar "|."
 
   \textCoda
-  
+
   <e' b fs a, d,>4-> r4 r2 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

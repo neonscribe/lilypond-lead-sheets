@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Love Is Here to Stay"
   subtitle = \subtitle
@@ -28,10 +23,10 @@ verseLyrics = \lyricmode {
 
 verseChords = \chordmode {
   \chordInsideParens{ c4:13 }
-  
+
   f1:6 f1:maj7 d1:9 d1:9
   g1:m7 c1:9 f2:6/a af2:dim7 g2:m7 c2:7 bf1:maj7
-  f1/a g1:13 
+  f1/a g1:13
   \chordInsideParens{ c1:7 }
   bf1:maj7
   e2:m7.5- a2:7 d1:7 g1:7 c1:13 c4:13
@@ -46,10 +41,10 @@ verseMelody = \relative g' {
   \tempo "Freely"
 
   \xTextMark \markup{ "Verse" }
-  
+
   \partial 4 a4 |
   \bar "||"
-  
+
   c4 c4 a4 d,4 | e4 e2 a4 | c4 c4 a4 d,4 | e2. a4 |
   \break
   c4 c4 a4 c,4 | d4 d2 e4 | g8 g8 g2 f4 | g1 | d'4 c4 bf8 a8 bf4 |
@@ -57,11 +52,10 @@ verseMelody = \relative g' {
   c4 c2 f,4 | \tuplet 3/2 { e4 e4 e4 } e4 d4 | e1 | d'4 c4 bf4 a4 |
   \break
   g8 g8 g2 a4 | fs8 fs4 a8 d,2~ | d2 f2 | a1~ |
-  
+
   \partial 4 a4
 
   \bar "||"
-  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -91,7 +85,7 @@ refrainChords = \chordmode {
   \chordInsideParens{ bf2:maj9 }
   e2:m7.5- a2:7 d1:m7 g1:7 g1:m7 c2:7
   \chordInsideParens{ d2:7 }
-  
+
   g1:9 g2:m7 c2:7 f2:6 bf2:7
   a2:m7 d2:7 g1:9 g2:m7 c2:7 ef2:9.5- d2:9
   b2:m7.5- e2:7.9- a2:m7 d2:7 g2:m7 c2:7
@@ -102,15 +96,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g {
   \time 2/2
@@ -120,9 +106,9 @@ refrainMelody = \relative g {
   \tempoFour "Medium [Frank Sinatra 1956]" 108
 
   \partial 2. c4 d4 a'4 |
-  
+
   \sectNoBreak "A1"
-  
+
   f1 | f8 g4 f8 g4 g4 | f1 | r4 c4 d4 c'4 |
   \break
   a1 | f8 g4 f8 g4 g4 | a1 | r4 e'4 e4 d4 |
@@ -149,10 +135,6 @@ refrainMelody = \relative g {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 %%% \include "../Include/verse.ily"
+%%% \pageBreak
 \include "../Include/refrain.ily"

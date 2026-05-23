@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -17,33 +12,27 @@ subtitle =
   copyright = \markup \small { \now " " "© 1944 Publications Francis Day S.A." }
 }
 
+leadingEighth= ##t
+
 refrainChords = \chordmode {
-  s2
+  s4.
 
-  c2 a2:m7 d2:m7 g2:7 c2 a2:m7 d2:m7 g2:7 
+  c2 a2:m7 d2:m7 g2:7 c2 a2:m7 d2:m7 g2:7
   c2 a2:m7 d2:m7 g2:7 c2 g2:7
-  
+
   c1
 
   c1
-  
+
   c1:7 c1:7 bf1:7 bf1:7 af1:7 af1:7 g1:7 g1:7
 
-  c2 a2:m7 d2:m7 g2:7 c2 a2:m7 d2:m7 g2:7 
+  c2 a2:m7 d2:m7 g2:7 c2 a2:m7 d2:m7 g2:7
   c2 a2:m7 d2:m7 g2:7 c2 g2:7 c1
 }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -51,10 +40,10 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Django Reinhardt 1949]" 116
 
-  \partial 2 \invisEighth g8 b4-. |
+  \partial 4. g8 b4-. |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   c4-. r4 r4 c8 ef8~ | ef4 c8 a8 r8 g8 b4-. |
@@ -68,13 +57,13 @@ refrainMelody = \relative f' {
   b8 c8 r4 r2 |
   } } }
   \sect "B"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq r8 g8 b4-. | 
-  
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq r8 g8 b4-. |
+
   \sect "A3"
-  
+
   c4-. r4 r4 c8 ef8~ | ef4 c8 a8 r8 g8 b4-. |
   c4-. r4 r4 c8 ef8~ | ef4 c8 a8 r8 g8 b4-. |
   \break
@@ -86,11 +75,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

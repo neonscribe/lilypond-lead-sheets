@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -28,12 +23,12 @@ refrainLyrics = \lyricmode {
   Beau -- ti -- ful to take a chance
   and if you fall you fall;
   And I'm think -- ing I would -- n't mind at all. __
-  
+
   Love is tear -- ful or it's gay,
   It's a prob -- lem or it's play,
   It's a heart -- ache ei -- ther way,
   but beau -- ti -- ful. __
-  
+
   And I'm think -- ing if you were mine
   I'd nev -- er let you go;
   And that would be but beau -- ti -- ful I know. __
@@ -58,27 +53,19 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Ballad [Stan Getz & Bill Evans 1964]" 75
-  
+
   \partial 4 cs8 d8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A" }
-  
+
   a'4 a2 g8 fs8 | f2. ds8 e8 | b'4 b2 a8 af8 | g2. fs8 g8 |
   \break
   d'4 d2 b8 bf8 | a2. gs4 | b8 b8 b2.~ | b1 |
@@ -86,9 +73,9 @@ refrainMelody = \relative f' {
   b8 b8 b2 a4 | d4 b4 a4. g8 | c4 a4 g4 fs4 | b2. d,8 ds8 |
   \break
   e4 e2 g4 | b4 g4 fs4 e4 | a1~ | a2. cs,8 d8 |
-  
+
   \sect "B"
-  
+
   a'4 a2 g8 fs8 | f2. ds8 e8 | b'4 b2 a8 af8 | g2. fs8 g8 |
   \break
   d'4 d2 b8 bf8 | a2. gs4 | b8 b8 b2.~ | b2. e,8 es8 |
@@ -101,10 +88,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

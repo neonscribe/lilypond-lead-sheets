@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -19,9 +14,9 @@ subtitle =
 
 refrainChords = \chordmode {
   s4
-  
+
   f1:7 bf2:7 b2:dim7 f1:7 f1:7
-  bf1:7 bf2:7 b2:dim7 f1:7 f2:7 d2:7 
+  bf1:7 bf2:7 b2:dim7 f1:7 f2:7 d2:7
   g1:m7 c1:7 f2:7
   \chordOpenParen{ d2:7 }
   g2:7
@@ -30,15 +25,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -52,17 +39,17 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   c'2. \tuplet 3/2 { bf16 c16 bf16 } af8 |
   bf4 \tuplet 3/2 { af16 bf16 af16 } f8 af4 \tuplet 3/2 { f16 bf16 af16 } ef8 |
-  f4. ef8~ ef2~ | ef2. f4-^ | 
+  f4. ef8~ ef2~ | ef2. f4-^ |
   \break
   c'2. \tuplet 3/2 { bf16 c16 bf16 } af8 |
   bf4 \tuplet 3/2 { af16 bf16 af16 } f8 af4 \tuplet 3/2 { f16 bf16 af16 } ef8 |
-  f4. ef8~ ef2~ | ef2. f4-^ | 
+  f4. ef8~ ef2~ | ef2. f4-^ |
   \break
   c'2. \tuplet 3/2 { bf16 c16 bf16 } af8 |
   bf4 \tuplet 3/2 { af16 bf16 af16 } f8 af4 \tuplet 3/2 { f16 bf16 af16 } ef8 |
-  f4. ef8~ ef2~ | ef2. 
+  f4. ef8~ ef2~ | ef2.
   \override Parentheses.font-size = #5
-  \parenthesize f4-^ | 
+  \parenthesize f4-^ |
   }
 }
 
@@ -77,11 +64,6 @@ refrainBass = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

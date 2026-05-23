@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -62,41 +57,33 @@ the girl with ka -- kei -- do -- scope
 }
 
 refrainChords = \chordmode {
-  r2. r2. r2. r2. 
-  
+  r2. r2. r2. r2.
+
   a2. a2.:7/g fs2.:m7 f2.:aug
   a2. a2.:7/g fs2.:m7 f2. f2.
   a2. a2.:7/g fs2.:m7 f2.:aug
   a2. a2.:7/g fs2.:m7 fs2.:m7
   d2.:m d2.:m/c
-  
+
   bf2.:1.3.5.9 bf2.:1.3.5.9 c2.:1.3.5.9 c2.:1.3.5.9 f2.:6 f2.:6
   bf2.:1.3.5.9 bf2.:1.3.5.9 c2.:1.3.5.9 c2.:1.3.5.9 g2. g2.
-  
+
   d1
-  
-  g2 a2:m7 b2:m7 d2 g2 a2:m7 b2:m7 d2 
+
+  g2 a2:m7 b2:m7 d2 g2 a2:m7 b2:m7 d2
   g2 a2:m7 b2:m7 d2 d1
-  
+
   fs2.:m7 fs2.:m7
-  
+
   d1
-  
-  g2 a2:m7 b2:m7 d2 g2 a2:m7 b2:m7 d2 
-  g2 a2:m7 b2:m7 d2 d1 a1  
+
+  g2 a2:m7 b2:m7 d2 g2 a2:m7 b2:m7 d2
+  g2 a2:m7 b2:m7 d2 d1 a1
 }
 
 refrainKey = a
 preChorusKey = f
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 chorusKey = g
 
@@ -107,14 +94,13 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Beatles 1967]" 135
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   \ambitusOff
   e4 a4 e'4 | g,4 e'4 a,4 | fs4 a4 e'4 | f,4 d'8 cs8 a4 |
   \ambitusOn
-  
-  \break
 
-  \xTextMark \markup{ \bold \box "Verse"  \musicglyph #"scripts.segno" }
+  \sectNoBarSegno "Verse"
+
   \bar ".|:-||"
   \repeat volta 2 {
   cs4 cs4 cs4 | cs4 b4 a4 | cs4 b4 a4 | cs8 b8 r4 a4 |
@@ -126,9 +112,9 @@ refrainMelody = \relative f' {
   cs4 b4 r8 a8 | cs4 b4 a4 | e'4 d4 cs4 \textToCoda | a2.~ | a2.~ | a2 r4 | R2. |
 
   \sect "Pre-Chorus"
-  
+
   \key \preChorusKey \major
-  
+
   d8 d4 d8~ d4 | d4 d4 d4 | c8 d4. d4 | d2. |
   d4 d4 d4 | d4 d4 d4 | d4( bf2) | R2. |
   d4 d4 d8 d8~ | d4 d4 d4 | d4 d4 d4 | d4 c4 b4 |
@@ -145,14 +131,9 @@ refrainMelody = \relative f' {
   } 4 = 180
     a4 r4 r2 |
 
-  \bar "||"
+  \sectPageBreak "Chorus"
 
-  \xPageBreak
-
-  \xTextMark \markup{ \bold \box "Chorus" }
-  
   \key \chorusKey \major
-  
   g'8 g8 g8 g8 g8( fs4) e8 | d8( c16 b16) a4 r2 |
   g'8 g8 g8 g8 g8( fs4) e8 | d8( c16 b16) a4 r2 |
   \break
@@ -180,11 +161,11 @@ refrainMelody = \relative f' {
     }
   } 4 = 180
   a2 r2 |
-  
+
   \break
 
   \xTextMark \markup{ \bold \box "Outro" }
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
   g'8 g8 g8 g8 g8( fs4) e8 | d8( c16 b16) a4 r2 |
@@ -197,10 +178,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

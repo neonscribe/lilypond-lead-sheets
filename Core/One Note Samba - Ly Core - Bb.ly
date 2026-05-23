@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-% #(set-global-staff-size 18)
-
 \header {
   title = "One Note Samba (Samba de uma Nota Só)"
   subtitle = \subtitle
@@ -18,16 +11,17 @@ subtitle =
 }
 
 bossaRhythm = ##t
+leadingEighth = ##t
 
 refrainChords = \chordmode {
-  s2
+  s4.
 
   d1:m7 df1:7 c1:m7 b1:7.5-
   d1:m7 df1:7 c1:m7 b1:7.5-
 
   f1:m7 bf1:7 ef1:maj7 af1:7
   d1:m7 df1:7 c2:m7 b2:7.5- bf1:6
-  
+
   ef1:m7 af1:7 df1:maj7 df1:maj7
   df1:m7 gf1:7 b1:maj7 c2:m7.5- b2:7.5-
 
@@ -41,15 +35,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -57,32 +43,31 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Samba [João Gilberto 1960]" 164
 
-  \partial 2 \invisEighth f4 f8 |
-  \bar "||"
+  \partial 4. f4 f8 |
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   f4 f8 f8~ f8 f4 f8~ | f4. f8 r8 f4 f8 | f4 f8 f8~ f8 f4 f8~ | f2 r8 f4 f8 |
   \break
   f4 f8 f8~ f8 f4 f8~ | f4. f8 r8 f4 f8 | f4 f8 f8~ f8 f4 f8~ | f2 r8 bf4 bf8 |
 
   \sect "B1"
-  
+
   bf4 bf8 bf8~ bf8 bf4 bf8~ | bf8 bf8 bf4~ bf8 bf4 bf8 |
   bf4 bf8 bf8~ bf8 bf4 bf8~ | bf4. r8 r8 f4 f8 |
   \break
   f4 f8 f8~ f8 f4 f8~ | f8 f4 f8~ f8 f8 f4 | f4 f8 f8~ f8 f4 bf8 | r1 |
-  
-  \sect "C"
-  
+
+  \sectPageBreak "C"
+
   bf8 c8 df8 ef8 df8 c8 bf8 af8 | gf8 f8 ef8 df8 c8 df8 ef8 f8 |
   c4. bf8 r8 c8 df8 f8 | c4. bf8 r2 |
   \break
   af'8 bf8 cf8 df8 cf8 bf8 af8 gf8 | ff8 ef8 df8 cf8 bf8 cf8 df8 ef8 |
   bf4. af8 r8 bf8 cf8 ef8 | gf4. f8 r8 f4 f8 |
-  
+
   \sect "A2"
-  
+
   f4 f8 f8~ f8 f4 f8~ | f4. f8 r8 f4 f8 | f4 f8 f8~ f8 f4 f8~ | f2 r8 f4 f8 |
   \break
   f4 f8 f8~ f8 f4 f8~ | f4. f8 r8 f4 f8 | f4 f8 f8~ f8 f4 f8~ | f2 r8 bf4 bf8 |
@@ -94,15 +79,10 @@ refrainMelody = \relative f' {
   \break
   bf4 bf8 bf8~ bf8 bf4 bf8~ | bf8 bf4 bf8 bf4 bf4~ |
   bf4 bf8 bf8~ bf8 bf4 bf8 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

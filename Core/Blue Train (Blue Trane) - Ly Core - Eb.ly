@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Blue Train (Blue Trane)"
   subtitle = \subtitle
@@ -19,34 +14,26 @@ subtitle =
 
 refrainChords = \chordmode {
   s2.
-  
+
   ef1:7.9+ ef1:7.9+
   ef1:7.9+ ef1:7.9+ af1:7.11+ af1:7.11+
   ef1:7.9+ ef1:7.9+ bf1:7.9+ bf1:7.9+
-  
+
   ef1:7.9+ ef1:7.9+
-  
+
   ef1:7.9+ \chordInsideParens{ ef1:7.9+ }
 }
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium Blues [John Coltrane 1957]" 154
-  
+
   \partial 2. r8 bf8 df8 f8 df8 ef8~ |
 
   \bar ".|:"
@@ -58,7 +45,7 @@ refrainMelody = \relative f' {
   \break
   ef1 | r4 r8 bf8 df8 gf8 ef8 df8~ | df1 | r4 r8 bf8 df8 f8 df8 ef8~ |
   \break
-  \alternative { 
+  \alternative {
     \volta 1 {
   ef1 | r4 r8 bf8 df8 f8 df8 ef8\laissezVibrer |
   } \volta 2 {
@@ -73,11 +60,6 @@ refrainKicksOverTime = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

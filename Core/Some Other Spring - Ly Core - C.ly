@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Some Other Spring"
   subtitle = \subtitle
@@ -53,15 +48,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -69,25 +56,22 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Billie Holiday 1939]" 78
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   e8 f8 g8 a8~ a4. af8 | g4 a8 e8~ e2 |
   d8 f8 a8 c8~ c4. bf8 | bf4 af4 af4 g4 |
   a4 g4 g4. f8 | g8 bf4 bf8~ bf2 |
   a4 g4 gf4 ef4 | d4 d8 ds8~ ds2 |
-  
+
   \sect "A2"
-  
+
   e8 f8 g8 a8~ a4. af8 | g4 a8 e8~ e2 |
   d8 f8 a8 c8~ c4. bf8 | bf4 af4 af4 g4 |
   a4 g4 g4. f8 | g8 bf4 bf8~ bf2 |
   \break
   c4 c4 g4 g4 | ef4 f8 d8~ d2 |
-  
-  \bar "||"
-  \xPageBreak
 
-  \sectNoBar "B"
+  \sectPageBreak "B"
 
   a'4 a2 af4 | g4 g2 fs4 |
   \tuplet 3/2 { a4 af4 g4 } gf4 f4 | e8 a4 d,8~ d2 |
@@ -107,10 +91,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

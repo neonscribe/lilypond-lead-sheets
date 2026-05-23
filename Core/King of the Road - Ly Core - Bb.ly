@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "King of the Road"
   subtitle = \subtitle
@@ -19,9 +14,11 @@ subtitle =
 
 introKey = bf
 
+leadingEighth = ##t
+
 introChords = \chordmode {
-  r2 \chordInsideParens{ bf1 } \chordInsideParens{ ef1 }
-  \chordInsideParens{ f1 } \chordInsideParens{ f1 } 
+  r4. \chordInsideParens{ bf1 } \chordInsideParens{ ef1 }
+  \chordInsideParens{ f1 } \chordInsideParens{ f1 }
 }
 
 bassIntro = \relative f' {
@@ -30,9 +27,9 @@ bassIntro = \relative f' {
   \clef bass
   \tempoFour "Medium [Roger Miller 1964]" 120
 
-  \sectStart "Intro"
-  
-  \partial 2 \invisEighth f,8 \tuplet 3/2 { g8 f8 ef8 } |
+  \sectNoBarNoBreak "Intro"
+
+  \partial 4. f,8 \tuplet 3/2 { g8 f8 ef8 } |
   \bar "||"
   bf4~ \tuplet 3/2 { bf8 a8 bf8 } d4~ \tuplet 3/2 { d8 bf8 d8 } | ef4. g8 bf8 d,8 ef8 e8 |
   f4. e8 f4. e8 | f8 f8 ef8 c8 f,8 f8 g8 a8 |
@@ -63,39 +60,31 @@ refrainChords = \chordmode {
 
   bf1 ef1 f1 bf1
   bf1 ef1 f4 r4*9
-  
+
   fs2
-  
+
   b1 e1 fs1 b1
   b1 e1 fs4 r4*7
-  
+
 }
 
 refrainKey = bf
 upHalfStepKey = cf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
 
-  \sectStart "Verse"
-  
+  \sectNoBarNoBreak "Verse"
+
   \bar ".|:"
   \repeat volta 2 {
   r4 bf8 f8~ f8 d4 c8~ | c4 d8 ef8 r2 | r4 a4~ a8 f8 g4 | bf,8 bf4 bf8 r2 |
   r4 bf'8 f8~ f4 d8 c8~ | c4 d8 ef8 r2 | r8 f8 f4 a4 bf4 | c8 bf4 a8 r8 f4 g8 |
-  
+
   r4 bf8 f8~ f4 d4 | c8 d4 ef8~ ef4 ef8 a,8 | r4 a'4~ a8 f8 g4 | bf,8 bf4 bf8~ bf8 d8 f4 |
   r4 d'2 c8 bf8~ | bf4 bf8( g8) bf8 f4.~ | f4 r4 <c' ef>8 <bf d>8 <a c>8 <bf d>8~ |
   \alternative { \volta 1 {
@@ -104,15 +93,15 @@ refrainMelody = \relative f' {
   <bf d>2~\repeatTie <bf d>8 as8 b4 |
   } } }
   \sect "Bridge"
-  
+
   \key \upHalfStepKey \major
-  
-  b8 as8 b4 b8 as8 b8 b8 | gs8 b8 gs8 e8~ e4 r4 | 
+
+  b8 as8 b4 b8 as8 b8 b8 | gs8 b8 gs8 e8~ e4 r4 |
   as8 gs8 as8 gs8~ gs8 fs4 fs8 | gs8 b8 gs8 fs8~ fs4 r8 fs8 |
-  
+
   fs'8 fs8 ds4 cs4 b8 gs8 | b8 as8 b8 gs8~ gs4 r8 cs,8 |
   fs8 fs8 fs8 cs8 as'4 as8 cs,8 | cs'8 cs8 cs8 e8~ e8 ds8 cs8( b8) |
-  
+
   \sect "Outro"
 
   \bar "|."
@@ -120,19 +109,18 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
+leadingEighth = ##t
 
 \include "../Include/bass-intro.ily"
+
+leadingEighth = ##f
 
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -173,7 +161,7 @@ refrainMelody = \relative f' {
     \vspace #1
     \line { \large { \italic { (Repeat and fade) } } }
   }
-  \column 
+  \column
   {
    \vspace #2
  }

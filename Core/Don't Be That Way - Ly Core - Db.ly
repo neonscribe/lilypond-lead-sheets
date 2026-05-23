@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -29,30 +24,22 @@ Don't break my heart. Oh, hon -- ey please don't be that way.
 
 refrainChords = \chordmode {
   s2
-  
-  df2:6 bf2:m7 ef2:m7 af:7.5+ df2:6 bf2:m7 ef2:m7 af:7.5+ 
+
+  df2:6 bf2:m7 ef2:m7 af:7.5+ df2:6 bf2:m7 ef2:m7 af:7.5+
   df2:6 bf2:m7 ef2:m7 af:7.5+ df1:6 ef2:m7 af2:7.9-.5+
 
-  df2:6 bf2:m7 ef2:m7 af:7.5+ df2:6 bf2:m7 ef2:m7 af:7.5+ 
+  df2:6 bf2:m7 ef2:m7 af:7.5+ df2:6 bf2:m7 ef2:m7 af:7.5+
   df2:6 bf2:m7 ef2:m7 af:7.5+ df1:6 df1:6
-  
+
   c1:7 c1:7 f1:7 f1:7 bf1:7 bf1:7 ef1:7 af1:7.5+
 
-  df2:6 bf2:m7 ef2:m7 af:7.5+ df2:6 bf2:m7 ef2:m7 af:7.5+ 
+  df2:6 bf2:m7 ef2:m7 af:7.5+ df2:6 bf2:m7 ef2:m7 af:7.5+
   df2:6 bf2:m7 ef2:m7 af:7.5+ df1:6 df1:6
 }
 
 refrainKey = df
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -63,34 +50,29 @@ refrainMelody = \relative f' {
   \partial 2 af2 |
   \bar "||"
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   bf1 | r8 gf8 bf8 df8 bf8 e,8 c8 af8 | bf1 | r2 \tuplet 3/2 { c4 e4 a4 } |
   bf1 | r8 gf8 bf8 df8 bf8 e,8 c8 af8 | df1 | r2 af'2 |
-  
+
   \sect "A2"
 
   bf1 | r8 gf8 bf8 df8 bf8 e,8 c8 af8 | bf1 | r2 \tuplet 3/2 { c4 e4 a4 } |
   bf1 | r8 gf8 bf8 df8 bf8 e,8 c8 af8 | df1 | r2 df'2 |
-  
+
   \sect "B"
-  
+
   c2 d4 d4~ | d1 | c2 d4 f,4~ | f1 |
   bf2 c4 c4~ | c1 | bf2 c4 ff,4~ | ff2 af2 |
-  
+
   \sect "A3"
 
   bf1 | r8 gf8 bf8 df8 bf8 e,8 c8 af8 | bf1 | r2 \tuplet 3/2 { c4 e4 a4 } |
   bf1 | r8 gf8 bf8 df8 bf8 e,8 c8 af8 | df1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

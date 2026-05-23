@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Freddie Freeloader"
   subtitle = \subtitle
@@ -35,15 +30,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -51,12 +38,10 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Miles Davis 1959]" 129
 
-  \sectStart "Head"
-
   <<
     \relative { g'2 f2~ | f2. r4 | g2 f2~ | f2. r4 | }
     \relative { d'2 c2~ | c2. r4 | d2 c2 | c2. r4 | }
-    \relative { bf2 af2~ | af2. r4 | bf2 af2~ | af2. r4 | }
+    \relative { bf2_"Top line is melody" af2~ | af2. r4 | bf2 af2~ | af2. r4 | }
   >>
   \bar "||-||"
   \break
@@ -143,16 +128,9 @@ refrainMelody = \relative f' {
     \relative { bf2 af2~ | af2. r4 | }
   >>
   \bar "|."
-  
+
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
-
-\markup{ "Top line is melody." }

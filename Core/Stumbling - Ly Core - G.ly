@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Stumbling"
   subtitle = \subtitle
@@ -50,15 +45,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -67,27 +54,27 @@ refrainMelody = \relative f' {
   \tempoFour "Lively [Paul Whiteman 1922]" 184
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   d8 e8 g8 a8 b4-. d,8 e8 | g8 a8 b4-. d,8 e8 g8 a8 |
   b4-. r4 d2-> | c2-> b2-> |
   \break
   a8 af8 g8 fs8 e4-. a8 af8 | g8 fs8 e4-. a8 af8 g8 fs8 | e1 | r4 e4 g4 e4 |
-  
+
   \sect "B"
-  
+
   e8 fs4 fs8~ fs2 | r4 fs4 a4 fs4 | fs8 g4 g8~ g2 | r4 g4 b4 g4 |
   \break
   g8 a4 a8~ a2 | r4 a4 cs4 a4 | d1 | r4 c4 a4 fs4 |
 
   \sect "A2"
-  
+
   d8 e8 g8 a8 b4-. d,8 e8 | g8 a8 b4-. d,8 e8 g8 a8 |
   b4-. r4 d2-> | c2-> b2-> |
   \break
   a8 af8 g8 fs8 e4-. a8 af8 | g8 fs8 e4-. a8 af8 g8 fs8 | e1 | r4 b'4 b4 a4 |
-  
+
   \sect "C"
-  
+
   c2 ef,2 | r4 c'4 c4 c4 | b2 d,2 | r4 d4 e4 g4 |
   \break
   b8 a8 g8 fs8 e4-. c'8 b8 | a8 g8 fs4-. d'8 c8 b8 a8 | g1 | r1 |
@@ -96,10 +83,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

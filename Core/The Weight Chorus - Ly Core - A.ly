@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -40,15 +35,7 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \numericTimeSignature
@@ -57,15 +44,15 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Slow" 72
 
-  \sectStart "Chorus"
-  
+  \sectNoBarNoBreak "Chorus"
+
   r8 e'16 e16 e8 cs8 a8 a8 r4 |
-  r8 e'16 e16 e8 a,16 cs16~ cs4 r4 | 
+  r8 e'16 e16 e8 a,16 cs16~ cs4 r4 |
   r8 e16 e16 e8 cs8 a8 a8 r4 |
   r4 a4~ a4~ a8. fs16 |
   \time 3/4
   a16 fs16 a8 a16 a8 cs16~(
-  cs4 | 
+  cs4 |
   \numericTimeSignature
   \time 4/4
   a4) r4 r2 |
@@ -93,7 +80,7 @@ refrainMelodyThree = \relative f' {
   \clef \whatClef
 
   r8 cs'16 cs16 cs8 a8 fs8 fs8 r4 | r8 cs'16 cs16 cs8 a16 fs16~( fs16 e16 d8) r4 |
-  r8 cs'16 cs16 cs8 a8 fs8 fs8 r4 | r2 r4 e'4~ | 
+  r8 cs'16 cs16 cs8 a8 fs8 fs8 r4 | r2 r4 e'4~ |
   \time 3/4
   e8. e16 e16 e16 e8 e16 e8 fs16~ |
   \time 4/4
@@ -101,10 +88,5 @@ refrainMelodyThree = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

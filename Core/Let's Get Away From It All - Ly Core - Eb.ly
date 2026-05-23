@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -46,7 +41,7 @@ refrainChords = \chordmode {
 
   ef2:maj7 bf2:7.9- ef2:maj7 ef2:7 af2:maj7 fs2:dim7 g2:m7 c2:7.9-
   f2:m7 bf2:7 df2:7 c2:7 f2:m7 bf2:7 ef2:6 ef2:7
-  
+
   af2:maj7 a4:m7.5- d4:7.9- g2:m7 c2:7 f2:m7 bf2:7 ef1:maj7
   bf2:maj7 b2:dim7 c2:m7 f2:7 bf1:7 f2:m7 bf2:7
 
@@ -57,15 +52,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -73,38 +60,33 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Swing [Frrank Sinatra 1958]" 118
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   g8 g8 g8 af8~ af8 bf8 af8 g8~ | g8 ef4.~ ef2 | c'8 c8 c8 c8~ c8 d8 c8 bf8~ | bf1 |
   \break
   af8 af8 g8 af8~ af8 bf4 af8 | g8 g8 fs8 g8~ g8 af4. | g8 g8 g8 g8~ g8 c8 g8 f8~ | f1 |
-  
+
   \sect "A2"
 
   g8 g8 g8 af8~ af8 bf8 af8 g8~ | g8 ef4.~ ef2 | c'8 c8 c8 c8~ c8 d8 c8 bf8~ | bf1 |
   \break
   af8 af8 g8 af8~ af8 bf4 af8 | g8 g8 fs8 g8~ g8 af4. | g8 g8 g8 f8 ~ f8 ef8 d8 ef8~ ef2. ef4 |
-  
+
   \sect "B"
-  
+
   c'4 c4 c4 c4 | c8 d4 bf8~ bf4 c4 | af8 bf4 g8~ g4 fs4 | g2. r8 g8 |
   \break
   f4 d'4 d4 d4 | d8 ef4 c8~ c2 | r8 df8 c8 bf8 c8 bf4 bf8~ | bf1 |
-  
+
   \sect "A3"
 
   g8 g8 g8 af8~ af8 bf8 af8 g8~ | g8 ef4.~ ef2 | c'8 c8 c8 c8~ c8 d8 c8 bf8~ | bf1 |
   \break
   af8 af8 g8 af8~ af8 bf4 af8 | g8 af8 bf8 c8~ c8 c4. | c8 c8 c8 d8~ d8 d8 d8 ef8~ | ef2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

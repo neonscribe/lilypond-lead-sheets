@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Only Daddy That'll Walk the Line"
   subtitle = \subtitle
@@ -30,8 +25,10 @@ you got the on -- ly __ dad -- dy that -- 'll walk __ the line. __
 }
 
 refrainChords = \chordmode {
+  s1
+
   e1 e1
-  
+
   e1 e1 e1 e1
   a1 a1 a1 a1
   b1:7 b1:7 b1:7 b1:7 b1:7 b1:7
@@ -47,15 +44,7 @@ refrainChords = \chordmode {
 
 refrainKey = e
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -63,27 +52,27 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast [Waylon Jennings 1968]" 160
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
   \ambitusOff
+  s1 |
   \bar ".|:"
   \repeat volta 2 {
   <<
     { \voiceOne
       e4^"(guitar riff)" e8 b8 d4 d8 b8 | cs4 cs8 a8 \tuplet 3/2 { b8( cs8 b8) } \tuplet 3/2 { g8( fs8 e8) }
     }
-    \new Voice
-    { \voiceTwo
-      e4 e4 e4 e4 | e4 e4 e4 s4 |
+    { \xVoiceTwo {
+      e4 e4 e4 e4 | e4 e4 e4 s4 | }
     }
   >>
   \oneVoice
   }
   \bar "||-:|."
   \ambitusOn
-  
+
   \sectNoBar "Verse"
-  
+
   gs'8 g8 gs8 gs8 gs4 gs8 g8 | gs8 g8 gs8 g8 gs8( fs8) e8 e8 | gs8 e8 gs8 gs8 b8 a8 gs8 gs8 | r2 r8 b8 b8 b8 |
   \break
   cs8 c8 cs8 cs8 cs4 cs8 cs8 | c8 cs8 cs8 cs8 b4 a8 a8 | cs8 c8 cs8 e8~ e8 b4 cs8 | a4 r4 r4 r8 e8 |
@@ -100,37 +89,30 @@ refrainMelody = \relative f' {
   \sectNoBreak "Interlude with Intro Riff"
 
   e2 r2 | r1 | r1 | r1 |
-  
-  \xPageBreak
 
-  \sectNoBar "Solo"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \sectPageBreak "Solo"
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \time 2/4
-  \rsq \rsq | 
+  \rsq \rsq |
   \break
   \numericTimeSignature
   \time 4/4
   \rsq^"(guitar riff)" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -150,7 +132,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { \italic { (guitar riff) } } }

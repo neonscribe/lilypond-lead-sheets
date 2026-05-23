@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "It Had to Be You"
   subtitle = \subtitle
@@ -35,13 +30,13 @@ had to be you. __
 
 refrainChords = \chordmode {
   s2.
-  
+
   g2:maj7 d2:7.5+ g1:maj7 e1:7 e1:7
   a1:7 a1:7 a1:7 a1:7
 
   d1:7 d2:7 ds2:dim7 e1:m7 e1:m7
   a1:7 a1:7 d2:7 ef2:7.5- d2:7 d2:7.5+
-  
+
   g2:maj7 d2:7.5+ g1:maj7 e1:7 e1:7
   a1:7 a1:7 a1:7 a2:7 g2:7
 
@@ -53,15 +48,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -70,28 +57,27 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Artie Shaw 1938]" 164
 
   \partial 2. d4 e8 d8 e8 fs8~ |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   fs1 | r4 fs4 g8 fs8 g8 gs8~ | gs1 | r4 gs4 a8 gs8 a8 b8~ |
   \break
   b4. g8 a8 gs8 a8 b8~ | b4. g8 a8 gs8 a8 b8~ | b1 | r4 a4 b8 a8 b8 d8~ |
-  
+
   \sect "B"
-  
+
   d1 | r4 b4 a8 b8 a8 g8~ | g1 | r4 g4 g8 fs8 g8 a8~ |
   \break
   a2 g8 fs8 g8 a8~ | a2 b8 e8 b8 a8~ | a1 | r4 d,4 e8 d8 e8 fs8~ |
 
   \sect "A2"
-  
+
   fs1 | r4 fs4 g8 fs8 g8 gs8~ | gs1 | r4 gs4 a8 gs8 a8 b8~ |
   \break
   b4. g8 a8 gs8 a8 b8~ | b4. g8 a8 gs8 a8 b8~ | b1 | r4 b4 b8 c8 d8 e8~ |
-  
+
   \sect "C"
-  
+
   e2 e,8 fs8 g8 a8~ | a2 a8 b8 c8 d8~ | d2 a8 b8 a8 g8~ | g4 fs4 e8 d8 e8 fs8~ |
   \break
   fs2 e8 d8 e8 fs8~ | fs2 b8 d8 b8 g8~ | g1 | r1 |
@@ -100,10 +86,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

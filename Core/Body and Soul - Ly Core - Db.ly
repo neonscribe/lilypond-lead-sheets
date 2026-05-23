@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -52,7 +47,7 @@ refrainChords = \chordmode {
   df2:6 bf2:7.9-
 
   df2:6 e4:m7 a4:7
-  
+
   d2:maj7 e2:m7 d4/fs \chordSlash 1 g4:m7 c4:7 fs4:m7 b4:m7 e4:m7 a4:7 d1:maj7
 
   d2:m7 g2:7 c2:maj7 ef2:dim7 d2:m7 g2:7 c4:7 b4:7 bf4:7 \chordSlash 1
@@ -64,15 +59,7 @@ refrainChords = \chordmode {
 
 refrainKey = df
 bridgeKeyOne = d
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 bridgeKeyTwo = c
 
@@ -94,13 +81,13 @@ refrainMelody = \relative f' {
   } } }
   \sect "B"
   %% \key \bridgeKeyOne \major
-  
+
   r8 d8 e8 fs8 a8 a4 a8 | d8 d4 fs,8 a8 a4 g8 | fs8 fs4 d8 e4 cs8 a8~ | a1 |
 
   %% \key \bridgeKeyTwo \major
-  
+
   r8 d8 e8 f8 a8 a4 g8 | e'8 e4 b8 d8 d4 a8 | c8 c4 a8 b8 b4 g8 | e4 ds4 d4 bf4 |
-  
+
   \sect "A3"
   %% \key \refrainKey \major
 
@@ -111,10 +98,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

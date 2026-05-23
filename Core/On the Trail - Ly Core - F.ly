@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "On the Trail"
   subtitle = "Arrangement by Donald Byrd, for Jimmy Heath's 1964 album"
@@ -28,15 +23,15 @@ verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
-  
+
   \xTextMark \markup{ "Intro" }
-  
+
   \tuplet 3/2 { c4 r4 c'4 } \tuplet 3/2 { c,4 r4 c'4 } | \tuplet 3/2 { c,4 r4 c'4 } \tuplet 3/2 { d,4 e4 f4 } |
   \tuplet 3/2 { c4 r4 c'4 } \tuplet 3/2 { c,4 r4 c'4 } | \tuplet 3/2 { c,4 r4 c'4 } \tuplet 3/2 { d,4 e4 f4 } |
   \break
   \tuplet 3/2 { c4 r4 c'4 } \tuplet 3/2 { d,4 e4 f4 } | \tuplet 3/2 { c4 r4 c'4 } \tuplet 3/2 { d,4 e4 f4 } |
   \tuplet 3/2 { c4 d4 e4 } \tuplet 3/2 { f4 g4 a4 } | \tuplet 3/2 { c4 a4 g4 } \tuplet 3/2 { f4 e4 a4 } |
-  
+
   \bar "|."
 }
 
@@ -57,22 +52,14 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Jimmy Heath Quintet 1963]" 130
-  
+
   \partial 4 a4 |
   \bar "||"
 
@@ -81,13 +68,13 @@ refrainMelody = \relative f' {
   c1 | r2 r4 a4 | c,1 | r2 r4 a'4 |
   \break
   c4 f8 d8~ d2~ | d4. c8 a8 f8 d8 g8~ | g1 | r2 r4 b4 |
-  
+
   \sect "B"
-  
+
   df1 | r2 r4 b4 | af1 | r2 r4 a4 |
   \break
   c1 | r4 r8 a8 g8 f8 d8 f8~ | f1 | r2 r4 \parenthesize a4 |
-  
+
   \bar "|."
 }
 
@@ -95,7 +82,7 @@ refrainMelodyTwo = \relative f'' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  
+
   \partial 4 r4 |
 
   r4 r8 <f d>8 <e c>16 <f d>16 <e c>16 <d bf>16 <e c>4 | <d bf>4 <f d>4 <e c>2 |
@@ -103,7 +90,7 @@ refrainMelodyTwo = \relative f'' {
 
   r4 r8 <f d>8 <e c>16 <f d>16 <e c>16 <d bf>16 <e c>4 | <d bf>4 <f d>4 <e c>2 |
   r4 r8 <f d>8 <e c>16 <f d>16 <e c>16 <d bf>16 <e c>4 | <d bf>4 <f d>4 <e c>2 |
-  
+
   r4 r8 <gf ef>8 <f df>16 <gf ef>16 <f df>16 <ef cf>16 <f df>4 | <ef cf>4 <gf ef>4 <f df>2 |
   r4 r8 <gf ef>8 <f df>16 <gf ef>16 <f df>16 <ef cf>16 <f df>4 | <ef cf>4 <gf ef>4 <f df>2 |
 
@@ -113,10 +100,5 @@ refrainMelodyTwo = \relative f'' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

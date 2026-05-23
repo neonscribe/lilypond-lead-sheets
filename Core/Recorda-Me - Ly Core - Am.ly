@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Recorda-Me"
   subtitle = \subtitle
@@ -21,7 +16,7 @@ bossaRhythm = ##t
 
 refrainChords = \chordmode {
   s1
-  
+
   a1:m7 a1:m7 a1:m7 a1:m7
   c1:m7 c1:m7 c1:m7 c2:m7 f2:m7
 
@@ -31,15 +26,7 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -50,30 +37,25 @@ refrainMelody = \relative f' {
   r4 r8 e8 b'8 c8 e,8 c8 |
 
   \sectNoBreak "A"
-  
+
   fs2 r8 g8 a8 b8 | b4 a8 b8~ b8 c8 e,8 c8 |
   fs8 g4 a8~ a8 b4 b8~ | b8 a8 b8 a8 d8 ef8 g,8 ef8 |
   \break
   a2 r8 bf8 c8 d8 | d4 c8 d8~ d8 ef8 g,8 ef8 |
   a8 bf4 c8~ c8 d4 d8-. | r4 r8 c8 d4 c8 f,8~ |
-  
+
   \sect "B"
-  
+
   f1 | r8 ef8 f8 c'8~ c4 bf8 g8 | ef2~ ef8 d8 ef8 bf'8~ | bf2 af4-. f8 df8~ |
   \break
   df1 | r4 a'2 r8 g8 | c,4. c8~ c8 c8 g'4~-> |
   \override Parentheses.font-size = #5
   g4. \startParenthesis \parenthesize e8 b'8 c8 e,8 \endParenthesis \parenthesize c8 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

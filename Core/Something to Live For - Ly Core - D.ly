@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Something to Live For"
   subtitle = \subtitle
@@ -42,22 +35,14 @@ refrainChords = \chordmode {
 
   d2:maj7 a2:7.9- d1:maj7 d1:m7 d2:m7 af2:7
   g2 d2:7/a g2/b g2:maj7 df1:7.9- df1:7.9-
-  
+
   fs1:7 b1:m7 e2:7.5- a4:7 fs4:9 f4:9 e4:9 f2:dim7
   fs2:m7 f2:7 e2:m7 a2:7 d2:maj7 a2:7.9- d1:maj7
 }
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -65,19 +50,19 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Carmen McRae 1955]" 72
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   cs'1 | r4 r8 cs8 e4~ \tuplet 3/2 { e8 cs8 e8 } | c4. c8~ c2 | r2 \tuplet 3/2 { e4 c4 ef4 } |
   \break
   d4. d,8 e2 | r4 \tuplet 3/2 { r8 d8 e8 } \tuplet 3/2 { g4 a4 bf4 } | a1 | r1 |
-  
+
   \sect "A2"
 
   cs1 | r4 r8 cs8 e4~ \tuplet 3/2 { e8 cs8 e8 } | c4. c8~ c2 | r2 \tuplet 3/2 { e4 c4 ef4 } |
   \break
   d4. d,8 e2 | r2 \tuplet 3/2 { g4 b4 d4 } |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   fs1 | \tuplet 3/2 { fs4 fs4 fs4 } g4. fs8 | cs4. cs8 cs2~ | cs1 |
   \break
@@ -90,7 +75,7 @@ refrainMelody = \relative f' {
   d4. d,8 e2 | r2 \tuplet 3/2 { fs4 g4 b4 } | d1 | r2 \tuplet 3/2 { r4 cs4 d4 } |
 
   \sect "C"
-  
+
   fs1 | r2 e4. d8 | bf2 cs2~ | cs2 b2 |
   \break
   a1 | b2 cs4. d8 | e4. cs8~ cs2~ | cs1 |
@@ -99,10 +84,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

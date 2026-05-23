@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -18,6 +13,7 @@ subtitle =
 }
 
 bossaRhythm = ##t
+leadingEighth = ##t
 
 refrainLyricsPortuguese = \lyricmode {
 O pa -- to, vi -- nha can -- tan -- do_a -- le -- gre -- men -- te,
@@ -47,10 +43,10 @@ refrainLyricsLanguageOne = \refrainLyricsPortuguese
 refrainLyricsLanguageTwo = \refrainLyricsEnglish
 
 refrainChords = \chordmode {
-  s2
-  
+  s4.
+
   d1:6.9 d1:6.9 e1:9 e1:9 ef1:7.9+ ef1:7.9+
-  
+
   d1:6.9 d1:6.9
 
   d1:6.9 d1:6.9
@@ -65,15 +61,7 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -81,9 +69,9 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up Bossa [João Gilberto 1960]" 175
 
-  \partial 2 \invisEighth a,8 d4 |
+  \partial 4. a,8 d4 |
   \repeat volta 2 {
-  \sectStart "A1,A2"
+  \sectNoBarNoBreak "A1,A2"
 
   fs4. fs8~ fs4. fs8~ | fs8 d8 e8 d8 fs8 d8 b8 a8 | gs8 fs'4. fs4. fs8~ |
   \break
@@ -95,12 +83,12 @@ refrainMelody = \relative f' {
   cs8 d8 r8 a8 cs8 d8 r4 | r2 r4 r8 d8 |
   } } }
   \sect "B"
-  
+
   c8 d8 fs8 b8 r8 a4. | r1 | a8 g8 r8 b,8 d4 fs8 e8 | r8 a,8 b8 d8 e8 fs8 e8 d8 | b8 d8 e8 fs8 e8 d8 b8 d8 |
   \break
   e8 fs8 e8 d8 b8 d8 e8 fs8 | a8 a8 a8 a8 r8 a8 b8 a8 | d8 c8 r8 a8~ a4 r8 d,8 |
-  
-  \sect "C"
+
+  \sectPageBreak "C"
 
   b8 d8 e8 d8 bf8 d8 e8 d8 | a4 r4 r8 d8 \tuplet 3/2 { e16 f16 e16 } d8 |
   b8 d8 e8 d8 bf8 d8 e8 d8 | a4 r4 r8 d8 e8 d8 |
@@ -108,19 +96,14 @@ refrainMelody = \relative f' {
   b8 d8 e8 d8 bf8 d8 e8 d8 | fs8 d8 r8 fs8 a8 fs8 a8 cs8 | r8 b4. r2 | r8 d,8 a'8 b8 a8 a,8 cs8 d8 |
 
   \sect "A3"
-  
-  r8 fs4. fs2 | fs4. fs8~ fs2 | r8 fs4. fs2 | c'4 b8 fs8~ fs2 | 
+
+  r8 fs4. fs2 | fs4. fs8~ fs2 | r8 fs4. fs2 | c'4 b8 fs8~ fs2 |
   \break
   r8 fs4. fs2 fs4. fs8~ fs8 a,8 cs8 d8 | r1^"Solo Break" | r1 |
- 
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

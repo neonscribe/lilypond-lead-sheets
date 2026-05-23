@@ -2,14 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
+#(set-global-staff-size 18)
 
 \header {
   title = "Waltz for Debby"
@@ -62,30 +55,22 @@ but then so will I. __
 
 refrainChords = \chordmode {
   g2.:m7 c2.:m7 f2.:m7 bf2.:7 g2.:7 g2:m7.5- c4:7 f2.:7 bf2.:7 ef2.:7 af2.:maj7
-  
+
   f2.:m7.5- bf2:7 bf4:7/af g2.:m7 c2.:7 f2.:m7 bf2.:7
-  
+
   a2.:m7 d2:7 d4:7/c b2.:m7 a2.:m7 g2.:maj7 fs2.:m7
-  
+
   f2.:m7 bf2.:7
   g2.:m7 c2:7.5- c4:7 f2.:m7 g2.:7 c2.:m7 bf2.:m7/ef af2.:maj7 g2.:7 c2.:m7 f2.:9
   g2.:m7 gf2.:7 f2.:m7 bf2.:7
-  
+
   g2.:m7 c2:7.5- c4:7 a2.:m7 d2.:7 g2.:m7 ef2:11 ef4:7 af2.:maj7
   df2.:9 c2.:m c2.:m7/bf f2.:7/a af2.:dim7 ef2.:6/g gf2.:dim7 f2.:m7 bf2:9 bf4:7.9- ef2. ef2.:6.9
 }
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -97,14 +82,13 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   bf2. | ef,2. | af2. | d,2. | g2.~ | g2. | r4 f4 ef4 | d4 ef4 f4 | g2 f4 | ef4 f4 g4 |
   \alternative { \volta 1,3 {
-  af4 af g4 | f4 g4 af4 | 
+  af4 af g4 | f4 g4 af4 |
   \textToCoda
   bf2.~ | bf2.~ | bf2.~ | bf2. |
-  \break
   } \volta 2 {
   a2 g4 | fs4 g4 a4 |
   } } }
-  
+
   b2.~ | b2.~ | b2.~ | b2. | c2.~ | c2 bf4 |
   c2.~ | c2 bf4 | c4 bf4 af4 | g2 d4 | f2 ef4 | c'4 bf4 af4 |
   g2 af4 | g2 d4 | ef4 g4 bf4 | d4 ef4 c4 |
@@ -122,10 +106,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain-three-coda.ily"

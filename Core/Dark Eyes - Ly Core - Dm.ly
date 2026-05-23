@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Dark Eyes (Les Yeux Noir, Очи чёрные)"
   subtitle = \subtitle
@@ -19,7 +14,7 @@ subtitle =
 
 refrainChords = \chordmode {
   s2.
-  
+
   a1:7 a1:7 d1:m d1:m
   a1:7 a1:7 bf1 bf1
   g1:m6 g1:m6 d1:m d1:m
@@ -28,15 +23,7 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -46,7 +33,7 @@ refrainMelody = \relative f' {
 
   \partial 2. \tuplet 3/2 { a8 bf8 a8 } gs4 a4 |
   \bar "||"
-  
+
   bf4. a8~ a2 | r4 r8 a8 gs4 a4 | bf4. a8~ a2 | r2 a4 d4 |
   \break
   d4. cs8~ cs2 | r8 e4. f4 cs4 | e4. d8~ d2 | r2 f4 g4 |
@@ -59,10 +46,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Don't Get Around Much Anymore"
   subtitle = \subtitle
@@ -38,38 +31,38 @@ refrainChords = \chordmode {
   s1
 
   s8 c4.:maj7 d4:m7 ef8:dim7 c8/e
-  
+
   r1
 
   s8 c4.:7 b4:7 bf8:7 a8:7
 
   r1
-  
+
   d1:m7 g1:7 c1:6 g4:7 r2.
 
   s8 c4.:maj7 d4:m7 ef8:dim7 c8/e
-  
+
   r1
 
   s8 c4.:7 b4:7 bf8:7 a8:7
 
   r1
-  
+
   d1:m7 g1:7 c1:6 c1:7
 
   f1:6 fs1:dim7 c1:6/g c1:7
   f1:6 fs2:m7.5- b2:7.9- e2:m7 ef2:dim7 d4:m7 r2.
 
   s8 c4.:maj7 d4:m7 ef8:dim7 c8/e
-  
+
   r1
 
   s8 c4.:7 b4:7 bf8:7 a8:7
 
   r1
-  
+
   d1:m7 g1:7 c2:6
-  
+
   \chordOpenParen{ ef2:7 }
   d2:m7
   \chordCloseParen{ g2:7 }
@@ -77,15 +70,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative c' {
   \time 4/4
@@ -94,26 +79,21 @@ refrainMelody = \relative c' {
   \tempoFour "Medium Swing [Ink Spots 1942]" 104
 
   r8 e4 d8 c8 g8 f8 e8~ |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box A1 }
+  \sectNoBreak "A1"
   <<
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	b'8\rest e,4. f4 fs8 g8 }
     }
     { \voiceOne
-      e1 
+      e1
     }
   >>
   \oneVoice
   |
   r8 e'4 d8 c g f e~ |
   <<
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	b'8\rest g4. fs4 f8 e8 }
     }
     { \voiceOne
@@ -130,22 +110,18 @@ refrainMelody = \relative c' {
   \sect "A2"
 
   <<
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	b'8\rest e,4. f4 fs8 g8 }
     }
     { \voiceOne
-      e1 
+      e1
     }
   >>
   \oneVoice
   |
   r8 e'4 d8 c g f e~ |
   <<
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	b'8\rest g4. fs4 f8 e8 }
     }
     { \voiceOne
@@ -154,7 +130,7 @@ refrainMelody = \relative c' {
   >>
   \oneVoice
   |
-  r8 g4 f8 e d c c'~ | 
+  r8 g4 f8 e d c c'~ |
   c4. a8~ a2 |
   r8 e8 f fs g c, ds e | c1~ | c2. r4
 
@@ -166,22 +142,18 @@ refrainMelody = \relative c' {
   \sect "C"
 
   <<
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	b'8\rest e,4. f4 fs8 g8 }
     }
     { \voiceOne
-      e1 
+      e1
     }
   >>
   \oneVoice
   |
   r8 e'4 d8 c g f e~ |
   <<
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	b'8\rest g4. fs4 f8 e8 }
     }
     { \voiceOne
@@ -193,12 +165,11 @@ refrainMelody = \relative c' {
 
   r8 g4 f8 e d c c'~ |
   c4. a8~ a2 |
-  \textToCodaLastTime
+  \textToCodaLastTimeOptional
   r8 e8 f fs g c, ds e |
   c1 |
   r1 |
   \bar "|."
-  \xPageBreak
 }
 
 codaLyrics = \lyricmode {
@@ -233,13 +204,13 @@ codaMelody = \relative c' {
 soloChords = \chordmode {
   c1:maj7 c1:maj7 c2:maj7 bf2:7 a1:7
   d1:m7 g1:7 c1:6 g1:7
-  
+
   c1:maj7 c1:maj7 c2:maj7 bf2:7 a1:7
   d1:m7 g1:7 c1:6 g2:m7 c2:7
-  
+
   f1:6 fs1:dim7 c1:maj7 c1:7
   f1:6 fs2:m7.5- b2:7.9- e2:m7 ef2:dim7 d2:m7 g2:7
-  
+
   c1:maj7 c1:maj7 c2:maj7 bf2:7 a1:7
   d1:m7 g1:7
   c2:6 ef2:7 d2:m7 g2:7
@@ -257,28 +228,24 @@ soloMelody = \relative f' {
   \xTextMark \markup{ "Solos" \bold \box "A1" }
 
   \bar ".|:"
-  
+
   \repeat volta 2 {
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \sect "A2"
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \sect "B"
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \sect "C"
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | }
   \alternative {
   { \volta 1 \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | }
@@ -289,11 +256,6 @@ soloMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -40,15 +35,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -57,19 +44,19 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Dinah Shore 1960]" 75
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   d'2 b4 | d2 b4 | d4 b4 d4 | b2 a4 |
   \break
   g2 e4 | g2 e4 | g4 e4 g4 | e2 d4 |
 
   \sect "B"
-  
+
   e4 g2~ | g2 g4 | gs4 b2~ | b2 b4 |
   \break
   c4 e2 | e,2 g4 | a2.( | d2.) |
-  
+
   \sect "A2"
-  
+
   d2 b4 | d2 b4 | d4 b4 d4 | b2 a4 |
   \break
   g2 e4 | g2 e4 | g4 e4 g4 | e2 d4 |
@@ -79,15 +66,10 @@ refrainMelody = \relative f' {
   e4 g2~ | g2 g4 | gs4 b2~ | b2 b4 |
   \break
   c4 e2 | b4 b2 | g2.~ | g2 r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

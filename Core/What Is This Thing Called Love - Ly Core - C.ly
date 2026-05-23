@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "What Is This Thing Called Love?"
   subtitle = \subtitle
@@ -30,7 +25,7 @@ What is this thing called love?
 
 refrainChords = \chordmode {
   s4
-  
+
   g1:m7.5- c1:7.9- f1:m6 f1:m6
   d1:m7.5- g1:7.5+.9- c1:6 c1:6
 
@@ -46,15 +41,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -63,26 +50,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Mel  Tormé with Artie Shaw 1946]" 140
 
   \partial 4 bf4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   bf4 g4 g2~ | g2 bf2 | af1 | r2 r4 af4 |
   \break
   af8 g4 g8~ g2~ | g2 ds2 | e1 | r2 r4 bf'4 |
 
   \sect "A2"
-  
+
   bf4 g4 g2~ | g4 bf4 bf4. a8 | af1 | r2 r4 af4 |
   \break
   af8 g4 g8~ g2~ | g4 ef4 ef8 ef4. | c1 | r2 r4 ef'4 |
 
   \sect "B"
-  
+
   ef4 c4 c2~ | c4 ef4 \tuplet 3/2 { ef4 f4 ef4 } | d1 | r2 r4 d4 |
   \break
   c4 af4 af2~ | af4 c4 \tuplet 3/2 { c4 bf4 af4 } | g1 | r4 bf4 bf4 bf4 |
-  
+
   \sect "A3"
 
   bf4 g4 g2~ | g4 bf4 bf8 c4 bf8 | af1 | r2 r4 af4 |
@@ -93,10 +79,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

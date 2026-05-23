@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -38,16 +33,16 @@ and if he catch -- es up with me __ I'll spend my life in jail.
 
 refrainChords = \chordmode {
   g2 g2/fs g2/e g2/d c2 c2/b c2/a c2/g
-  
+
   g2 g2/fs g2/e g2/d c2 c2/b c2/a c2/g
   g2 g2/fs g2/e g2/d c2 c2/b c2/a c2/g
 
   d1 d1 a1:m a1:m d1 d1 a1:m a1:m
-  
+
   d1 d1 d1 d1
-  
+
   d1 d1 d1 d1
-  
+
   d1 d1 d1 d1
   c1 c1 c1 c2 cs2
   d1 d1 d1 d1
@@ -57,15 +52,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -73,8 +60,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Grateful Dead 1970]" 124
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
   \ambitusOff
   \bar ".|:"
   \repeat volta 4 {
@@ -86,13 +73,13 @@ refrainMelody = \relative f' {
   \bar ":..:"
   \repeat volta 6 {
   \sectNoBar "Verse"
-  
+
   b,4_"6x" b8 b8~ b8 b4. | b8 b4 a8~ a8 g4 a8~ | a4 b4 g8 a4 g8~ | g2 r2 |
   \break
   b8 b4 b8~ b8 b4 b8~ | b8 b4. b4 b8 g8 | a4 b4 g4 a8 g8~ | g2 r2 |
-  
+
   \sect "Chorus"
-  
+
   d8 a'4. a8 a8 a8 g8 | a4 a4 a8( b4) b8 | a4 g8 g8 g8 g8 g8 e8 | e8( g4) g8 g8( a4) a8 |
   \break
   a4 a8 a8( g4) g8 a8~ | a8 a4. a8( b4) b8 | a4 g4 g4 e4 | g2 r4 a4 \textToCodaLastTime |
@@ -101,12 +88,9 @@ refrainMelody = \relative f' {
   a2.( d,4~ | d1) | r1 | r1 |
   } \volta 3,5 {
   a'2.( d,4~ | d1) | r1 | r1 |
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "Bridge"
 
-  \sectNoBarNoBreak "Bridge"
-  
   d'4 d4 d4 b4 | c4 c4 c8( b8) a8 d8~ | d4 d4 e4 e8 d8~ | d4 r4 r4 r8 g,8 |
   \break
   c4 c4 c4 c4 | b4. b8 a8( g8) g8 c8~ | c8 b4. a4 a8 g8~ | g4 r4 r2 |
@@ -135,18 +119,13 @@ codaMelody = \relative f' {
   \clef \whatClef
 
   \textCodaBreak
-  
+
   a2\fermata r2 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

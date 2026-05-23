@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -37,7 +32,7 @@ refrainChords = \chordmode {
 
   c2:maj7 \chordInsideParens{ cs2:dim7 } d1:m7 g1:7 c1:maj7
   a1:m7 d1:9 d2:m7 g2:7 c1:6
-  
+
   g2:m7 c2:9 f2:6 \chordInsideParens{ fs2:dim7 } g2:m7 c2:7 f1:maj7
   f2:m7 bf2:9 ef2:6 e2:dim7 f2:m7 af2:7 g1:7
 
@@ -49,15 +44,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -65,29 +52,29 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Ethel Waters 1940]" 130
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   r4 g2 g4 | g4 f8 f8~ f2 | r8 f8 e8 f8 d'4 f,4 | f4 e8 e8~ e2 |
   \break
   r4 e2 e4 | e4 d8 d8~ d2 | \tuplet 3/2 { c4 d4 c4 } b4 a'4 | g1 |
-  
+
   \sect "A2"
 
   r4 g2 g4 | g4 f8 f8~ f2 | r8 f8 e8 f8 d'4 f,4 | f4 e8 e8~ e2 |
   \break
   r4 e2 e4 | e4 d8 d8~ d2 | \tuplet 3/2 { c4 d4 c4 } b4 d4 | c2. c4 |
-  
+
   \sect "B"
-  
+
   bf'4 c8 d8~ d8 c8 bf4 | d4. a8~ a4 c4 | c4. g8~ g4 bf4 | a2. c,4 |
   af'4 bf8 c8~ c8 bf8 af4 | c4. g8~ g4 bf8 a8 | bf4 f4 af4 ef4 | g1 |
-  
+
   \sect "A3"
 
   r4 g2 g4 | g4 f8 f8~ f2 | r8 f8 e8 f8 d'4 f,4 | f4 e8 e8~ e2 |
   \break
   r8 e8 a8 c8 e4 e4 | e4 d8 d8~ d2 | \tuplet 3/2 { c4 d4 c4 } b4 d4 | c2 r2 |
-  
+
   \bar "|."
 
   \xPageBreak
@@ -95,15 +82,10 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -115,7 +97,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { Here I come again. I’m gonna make things hum again, } }

@@ -2,15 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
-
 \header {
   title = "Midnight Sun"
   subtitle = \subtitle
@@ -111,23 +102,23 @@ refrainHLChords = \chordmode {
   c1:maj7 c2:6 c2:maj7 c2:m7 f2:9.11+ f2:9.11+ \chordInsideParens{ b2:7 }
   bf1:maj7 bf2:6 bf2:maj7 bf2:m7 ef2:9.11+ ef2:9.11+ \chordInsideParens{ a2:7 }
   af1:maj7 af2:6 af2:maj7 af2:m7 df2:9.11+ df1:9.11+
-  
+
   c1:maj7 d2:m7 g2:7
 
   c1:maj7 c2:6 c2:maj7 c2:m7 f2:9.11+ f2:9.11+ \chordInsideParens{ b2:7 }
   bf1:maj7 bf2:6 bf2:maj7 bf2:m7 ef2:9.11+ ef2:9.11+ \chordInsideParens{ a2:7 }
   af1:maj7 af2:6 af2:maj7 af2:m7 df2:9.11+ df1:9.11+
-  
+
   c2:maj7 a2:m7 fs2:m7.5- b2:7
-  
+
   e1:maj7 e2:m7 a2:7 d1:maj7 e2:m7 ef2:7
   d1:maj7 d2:m7 g2:7 e2:m7 ef2:7 d2:m7 df2:7
 
   c1:maj7 c2:6 c2:maj7 c2:m7 f2:9.11+ f2:9.11+ \chordInsideParens{ b2:7 }
   bf1:maj7 bf2:6 bf2:maj7 bf2:m7 ef2:9.11+ ef2:9.11+ \chordInsideParens{ a2:7 }
   af1:maj7 af2:6 af2:maj7 af2:m7 df2:9.11+ df1:9.11+
-  
-  c1:maj7 
+
+  c1:maj7
   \chordOpenParen{ d2:m7 }
   \chordCloseParen{ g2:7 }
 }
@@ -136,24 +127,16 @@ refrainChords = \refrainHLChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Ballad [June Christy 1954]" 74
-  
+
   \partial 4 b4 |
-  
+
   \sectNoBreak "A1"
 
 
@@ -169,18 +152,20 @@ refrainMelody = \relative f' {
 
   d8 df8 c8 b8 bf8 a8 af8 e8 | g8 e4. g8 gf8 f8 e8 | ef4 d'8 b8~ b2~ | b2 r4 a4 |
   c8 b8 bf8 a8 af8 g8 gf8 d8 | f8 d4. f8 e8 ef8 d8 | df4 c'8 a8~ a2~ | a2 r4 g4 |
+  \bar "|o"
+
+  \xPageBreak
+
   bf8 a8 af8 g8 gf8 f8 e8 c8 | ef8 c4. ef8 d8 df8 c8 | cf4 bf'8 g8~ g2~ | g2 bf8 g8 e8 f8 |
 
   g8 g4 g8~ g2 | r1 |
-  
-  \bar "||"
-  \xPageBreak
-  \sectNoBar "B"
+
+  \sect "B"
 
   b8 cs8 gs8 a8 b4 g8 a8 | b8 cs8 g8 a8 b4 c4 | a1~ | a2 r4 fs4 |
   a8 b8 fs8 g8 a4 fs8 g8 | a8 b8 f8 g8 a4 b8 g8~ | g1~ | g2 r4
   b4 |
-  
+
   \sect "A3"
 
 
@@ -189,15 +174,10 @@ refrainMelody = \relative f' {
   bf8 a8 af8 g8 gf8 f8 e8 c8 | ef8 c4. ef8 d8 df8 c8 | cf4 bf'8 g8~ g2~ | g2 bf8 g8 e8 f8 |
 
   g8 g4 g8~ g2~ | g2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -28,11 +23,11 @@ bassIntro = \relative f' {
   \key \introKey \major
   \clef bass
   \tempoFour "Ballad [Glen Campbell 1968]" 86
-  
-  \sectStart "Intro"
+
+  \sectNoBarNoBreak "Intro"
 
   \partial 2 bf,16_"(Bass)" a16 r16 f16 r16 d16 c16 r16 |
-  
+
   f,4. f8 f4. f8 | f2 bf'16 a16 r16 f16 r16 d16 c16 r16 | f,4. f8 f4. f8 |
 
   \bar "||-||"
@@ -57,31 +52,23 @@ And if it snows that stretch down south won't ev -- er stand the strain.
 
 refrainChords = \chordmode {
   c1:sus9
-  
-  bf1:maj7 a1:m7 c1:sus9 
-  d2:m7 a2:m7 g1 d1:sus d1 
-  c1:1.3.5.9 c1:1.3.5.9 g1/b g1:m/bf 
+
+  bf1:maj7 a1:m7 c1:sus9
+  d2:m7 a2:m7 g1 d1:sus d1
+  c1:1.3.5.9 c1:1.3.5.9 g1/b g1:m/bf
   d1/a a1:sus7 bf1 c1:1.3.5.9
   bf1
-  
+
   c1:sus9
-  
-  c1:sus9 
-  
+
+  c1:sus9
+
   bf1 c1:1.3.5.9
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -89,7 +76,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
 
   r8 c8 f8 g8 bf8 bf8 a8 g8 |
-  
+
   \bar ".|:"
   \repeat volta 3 {
 
@@ -98,34 +85,34 @@ refrainMelody = \relative f' {
   \set melismaBusyProperties = #'()
   \slurDashed
   f16( f16)
-  c'8 c8 c8 
-  c8( c8) 
+  c'8 c8 c8
+  c8( c8)
   \slurSolid
   \unset melismaBusyProperties
   c8 c8 | c8 d4. b8( a8) g8 a8~ | a2. r4 |
-  
+
   \break
 
   r8 a8 a8 a8 a8 a8 g8 fs8 |
-  
+
   d8 e4.~ e4 r4 | r4 a8 a8 a8 a8 g8 fs8 |
-  
+
   \break
-  
+
   g8( fs8 d2) r4 | r4 d8 d8 \tuplet 3/2 { a'4 g4 fs4 } | g8( fs8) d2 r4 |
-  
+
   \break
-  
+
   r4 r8 d8 e8 d8 d8 d'8~ | d1~ | d4 r4 r2 | r1 |
-  
+
   \alternative { \volta 1,2 {
-  
+
   r8 c,8 f8 g8 bf8 bf8 a8 g8 |
-  
+
   } \volta 3 {
 
   r1 |
-  
+
   } } }
   \break
   \repeat volta 2 {
@@ -134,16 +121,11 @@ refrainMelody = \relative f' {
   d'16 d8 d16 d8 d16 d16~ d16 d16 d8 e16 f16 e16 c16 |
   d16 d8 d16 d8 d16 d16~ d16 d16 d8 e16 f16 e16 c16 |
   \ambitusOn
-  
+
   }
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/bass-intro.ily"
 

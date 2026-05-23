@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "You're a Heavenly Thing"
   subtitle = \subtitle
@@ -42,7 +37,7 @@ refrainChords = \chordmode {
 
   c1 c1 a1:7 a1:7
   d1:7 g1:7 c2 f2 c2 d2:7
-  
+
   g1:m7 c1:7 f1 f1
   a1:m7 d1:7 g1:7 g2:7 g2:7.5+
 
@@ -53,15 +48,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -69,38 +56,33 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Mel Tormé 1951]" 118
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   r8 e'8 e8 d8 c8 a4. | e'8 d8 c8 a8~ a2 | r8 b8 b8 a8 g8 e4. | b'8 a8 g8 e8~ e2 |
   \break
   r4 e8 e8 a4 e4 | r4 g8 g8 d'8 ds8 e4 | a,1~ | a4 r4 r2 |
-  
+
   \sect "A2"
 
   r8 e'8 e8 d8 c8 a4. | e'8 d8 c8 a8~ a2 | r8 b8 b8 a8 g8 e4. | b'8 a8 g8 e8~ e2 |
   \break
   r4 e8 e8 a4 e4 | r4 g8 g8 d'8 ds8 e4 | c1~ | c4 b4 c4 cs4 |
-  
+
   \sect "B"
-  
+
   d8 cs4 d8~ d2 | e,8 ds4 e8~ e2 | d'8 cs4 d8~ d2 | f,8 e4 f8~ f2 |
   \break
   e'8 ds4 e8~ e2 | fs,8 es4 fs8~ fs2 | g4 g4 g8 a8 b8 c8 | d8 d4 ds8~ ds2 |
-  
+
   \sect "A3"
 
   r8 e8 e8 d8 c8 a4. | e'8 d8 c8 a8~ a2 | r8 b8 b8 a8 g8 e4. | b'8 a8 g8 e8~ e2 |
   \break
   r4 e8 e8 a4 e4 | r4 g8 g8 d'8 ds8 e4 | c1~ | c4 r4 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

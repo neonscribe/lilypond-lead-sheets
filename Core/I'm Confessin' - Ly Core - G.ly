@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I'm Confessin' (That I Love You)"
   subtitle = \subtitle
@@ -20,15 +15,15 @@ refrainLyrics = \lyricmode {
   Tell me, do you love me too?
   I'm con -- fess -- in' that I need you,
   hon -- est I do, Need you ev' ry mo -- ment.
-  
+
   In your eyes I read such strange things,
   But your lips de -- ny they're true,
   Will your ans -- wer real -- ly change things mak -- ing me blue? __
-  
+
   I a -- fraid some -- day you'll leave me,
   Say -- ing “Can't we still be friends?”
   If you go, you know you'll grieve me, All in life on you de -- pends.
-  
+
   Am I guess -- in' that you love me,
   Dream -- ing dreams of you in vain,
   I'm con -- fess -in' that I love you o -- ver a -- gain. __
@@ -66,15 +61,7 @@ refrainChords = \refrainDFBChords
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -89,17 +76,17 @@ refrainMelody = \relative f' {
   e8 fs8 g8 b8 a4 g4 | a4 a4 a8 g8 fs4 | g1 | e8 g8 e8 g8 b8 b4. |
 
   \sect "A2"
-  
+
   d,8 e8 fs8 g8 fs4 d4 | fs4 fs2. | d8 e8 fs8 g8 fs4 d4 | fs1 |
   \break
   e8 fs8 g8 b8 a4 g4 | a4 a4 a8 g8 fs4 | g1~ | g4 r4 r2 |
 
   \sect "B"
-  
+
   f8 g8 a8 c8 b4 f4 | a4 a2. | g8 a8 b8 c8 b4 g4 | a1 |
   \break
   a8 b8 cs8 d8 cs4 g4 | b4 b2. | a8 b8 c8 e8 c4 b4 | a1 |
-  
+
   \sect "A3"
 
   d,8 e8 fs8 g8 fs4 d4 | fs4 fs2. | d8 e8 fs8 g8 fs4 d4 | fs1 |
@@ -110,10 +97,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Softly, as in a Morning Sunrise"
   subtitle = \subtitle
@@ -35,16 +30,16 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  c1:m7 d2:m7.5- g2:7.9- c1:m7 d2:m7.5- g2:7.9- 
-  c1:m7 d2:m7.5- g2:7.9- c1:m7 d2:m7.5- g2:7.9- 
+  c1:m7 d2:m7.5- g2:7.9- c1:m7 d2:m7.5- g2:7.9-
+  c1:m7 d2:m7.5- g2:7.9- c1:m7 d2:m7.5- g2:7.9-
 
-  c1:m7 d2:m7.5- g2:7.9- c1:m7 d2:m7.5- g2:7.9- 
+  c1:m7 d2:m7.5- g2:7.9- c1:m7 d2:m7.5- g2:7.9-
   c1:m7 d2:m7.5- g2:7.9- c1:m7 f2:m7 bf2:7
-  
+
   ef1:maj7 ef1:maj7 c1:7.9- c1:7.9-
   f1:m7 fs1:dim7 g1:7.9- d2:m7.5- g2:7.9-
 
-  c1:m7 d2:m7.5- g2:7.9- c1:m7 d2:m7.5- g2:7.9- 
+  c1:m7 d2:m7.5- g2:7.9- c1:m7 d2:m7.5- g2:7.9-
   c1:m7 d2:m7.5- g2:7.9- c1:m7
   \chordOpenParen{ d2:m7.5- }
   \chordCloseParen{ g2:7.9- }
@@ -52,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f'' {
   \time 4/4
@@ -68,38 +55,33 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempoFour "Medium [June Christy 1955]" 115
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   c2 g2 | r8 f8 g8 f8 g4 f4 | c'2 ef,2 | r8 d8 ef8 d8 ef4 d4 |
   \break
   g2 c,2 | r8 g'8 af8 g8 ef4 d4 | c1 | g'1 |
-  
+
   \sect "A2"
-  
+
   c2 g2 | r8 f8 g8 f8 g4 f4 | c'2 ef,2 | r8 d8 ef8 d8 ef4 d4 |
   \break
   g2 c,2 | r8 g'8 af8 g8 ef4 d4 | c1 | \tuplet 3/2 { r4 d4 ef4 } \tuplet 3/2 { f4 g4 af4 }
-  
+
   \sect "B"
-									       
+
   bf2 ef,2 | r8 bf'8 c8 bf8 c4 bf4 | bf2 e,2~ | \tuplet 3/2 { e4 e4 f4 } \tuplet 3/2 { g4 af4 bf4 }
   \break
   c2 f,2 | r8 c'8 d8 c8 d4 c4 | d2. d4 | f4 f4 ef4 d4 |
-  
+
   \sect "A3"
 
   c2 g2 | r8 f8 g8 f8 g4 f4 | c'2 ef,2 | r8 d8 ef8 d8 ef4 d4 |
   \break
   g2 c,2 | r8 g'8 af8 g8 ef'4 d4 | c1~ | c2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

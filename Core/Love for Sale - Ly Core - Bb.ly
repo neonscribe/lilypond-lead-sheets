@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Love for Sale"
   subtitle = \subtitle
@@ -30,7 +25,7 @@ I go to work.
 
 verseChords = \chordmode {
   \chordInsideParens{ f4:7 }
-  
+
   bf1:6 af1:6 gf1:6 f1:m6
   ef2:m7 af2:7 df1:6.9 f1:7 f1:7.9-
   bf1:m6 c2:m7.5- f2:7 bf1:7 af1:7
@@ -47,10 +42,10 @@ verseMelody = \relative f' {
   \tempoFour "Freely" 180
 
   \xTextMark \markup{ \bold \box "Verse" }
-  
+
   \partial 4 f8 f8 |
   \bar "||"
-  
+
   bf4 bf4 bf4 bf8 bf8 | af4 af4 ef'4 c8 af8 | gf4 gf4 gf4 gf8 gf8 |
 
   f4 f4 c'4 af8 f8 | ef4 ef8 ef8 gf4. f8 | af1 | a1~ |
@@ -58,12 +53,12 @@ verseMelody = \relative f' {
   a2 gf4. f8 | f4 r4 r2 | r2 r4 f8 f8 |
 
   bf4 bf4 bf4 bf8 bf8 | af4 af4 ef'4 c8 af8 |
-  gf4 gf4 gf4 gf8 gf8 | 
+  gf4 gf4 gf4 gf8 gf8 |
 
   e4 e4 cs'4 b8 gs8 | e4 e4 fs4. e8 | af1 |
 
   a1~ | a2 d,4. c8 | bf4 r4 r2 | r1 |
-  
+
   \bar "||"
 }
 
@@ -117,15 +112,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -134,33 +121,29 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up [Anita O'Day 1952]" 170
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   bf1~ | bf2. g4 | f1~ | f1 |
   r4 bf8 bf8 bf4 bf4 | bf4 bf2 g4 | f1~ | f1 |
   \break
   r4 bf8 bf8 bf4 bf4 | bf4 c4 c2 | r4 af8 af8 af4 af4 | af4 gf4 gf2 |
   f1~ | f2. cs4 | bf1~ | bf1 |
-  
-  \bar "||"
 
-  \xPageBreak
+  \sect "A2"
 
-  \xTextMark \markup{ \bold \box "A2" }
-  
   bf'1~ | bf2. g4 | f1~ | f1 |
   r4 bf8 bf8 bf4 bf4 | ef4 c4 bf4 g4 | f1~ | f1 |
   \break
   r4 bf8 bf8 bf4 bf4 | bf4 c4 c2 | r4 df8 df8 df4 df4 | df4 gf,4 gf2 |
   f1~ | f2. cs4 | bf1~ | bf1 |
-  
+
   \sect "B"
-  
+
   r4 bf8 c8 df4 ef4 | f4 ef4 ef2 | r4 c8 df8 ef4 f4 | af1 |
   r4 bf,8 c8 df4 ef4 | f4 ef4 ef2 | r4 c8 df8 ef4 f4 | bf1 |
   \break
   r4 bf,8 c8 d4 f4 | gf4 f4 f2 | r4 d4 \tuplet 3/2 { ef4 f4 gf4 } | bf4 bf4 bf2 |
   df2 c2 | df2 c2 | r4 b8 b8 b4 b4 | b2 b2 |
-  
+
   \sect "A3"
 
   bf1~ | bf2. g4 | f1~ | f1 |
@@ -173,11 +156,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/verse.ily"
 

@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Without a Song"
   subtitle = \subtitle
@@ -46,18 +39,18 @@ with -- out a
 
 refrainChords = \chordmode {
   s2.
-  
+
   ef1:maj7 bf2:m7 ef2:7 af1:maj7 df1:7
   ef1:maj7 bf2:m7 ef2:7 af1:maj7 df1:7
   g1:m7 gf1:dim7 f1:m7 bf1:7
-  
+
   ef1:6 c1:7.9+ f1:m7 bf1:7
-  
+
   ef1:6 af1:7 ef1:6 ef1:7
-  
+
   af1:maj7 g2:m7 c2:7 f2:m7 bf2:7 ef1:maj7
   g1:m7 a2:m7.5- d2:7 g2:m7 c2:7 f2:m7 bf2:7
-  
+
   ef1:maj7 bf2:m7 ef2:7 af1:maj7 df1:7
   ef1:maj7 bf2:m7 ef2:7 af1:maj7 df1:7
   g1:m7 gf1:dim7 f1:m7 bf1:7
@@ -69,15 +62,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -87,43 +72,39 @@ refrainMelody = \relative f' {
 
   \partial 2. bf4 bf4 d4 |
 
-  \sectStart "A1,A2"
-  
+  \sectNoBreak "A1,A2"
+
   \repeat volta 2 {
   d1 | r4 bf4 bf4 g4 | g4 ef4 ef2 | r4 g4 g4 bf4 |
-  \break
+  %% \break
   bf1 | r4 g4 g4 ef4 | ef4 c4 c2 | r4 ef4 ef4 g4 |
   g1 | r4 ef4 ef4 c4 | c4 bf4 bf2 | r4 c4 c4 ef4 |
   \alternative { \volta 1 {
-  \break
+  %% \break
   ef1~ | ef1 | r1 | r4 bf'4 bf4 d4 |
   } \volta 2 {
-  \break
+  %% \break
   ef,1~ | ef1 | r1 | r4 ef4 f4 g4 |
   } } }
+
   \sect "B"
-  
+
   af4 g8 f8 g4 af4 | bf4 af8 g8 af4 bf4 | c4 bf8 af8 bf2~ | bf1 |
-  \break
+  %% \break
   bf4 a8 g8 a4 bf4 | c4 bf8 a8 bf4 c4 | d4 ef8 c8 f2 | r4 bf,4 bf4 d4 |
-  
+
   \sect "A3"
 
   d1 | r4 bf4 bf4 g4 | g4 ef4 ef2 | r4 g4 g4 bf4 |
-  \break
+  %% \break
   bf1 | r4 g4 g4 ef4 | ef4 c4 c2 | r4 ef4 ef4 g4 |
   g1 | r4 ef4 ef4 c4 | c4 bf4 bf2 | r4 c4 c4 ef4 |
-  \break  
+  %% \break
   ef1~ | ef1 | r1 | r1 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

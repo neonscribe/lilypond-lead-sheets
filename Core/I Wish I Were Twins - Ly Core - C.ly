@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -41,21 +36,13 @@ refrainChords = \chordmode {
   a2:m a2:m7 d1:7 e2:m e2:m7 a1:7.5+
   d1:7 d2:m7 g2:7 c2:6
   \chordOpenParen{ bf2:7 }
-  af2:7 
+  af2:7
   \chordCloseParen{ g2:7 }
 }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -64,25 +51,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium or Fast [Fats Waller 1934]" 220
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   r4 c4 d4 c4 | d8 c4 d8~ d2 | r4 c4 d4 c4 | d8 c4 d8~ d2 |
   \break
   r8 g8 a8 g8 a4 a4 | a4 g8 a8~ a8 g8 a4 | e1~ | e1 |
-  
+
   \sect "B"
-  
+
   r4 e4 fs4 e4 | fs4 e8 fs8~ fs8 e8 fs4 | g1 | b,1 |
   \break
   r4 e4 fs4 e4 | fs4 e8 fs8~ fs8 e8 fs4 | g2 b2 | a2 b,2 |
-  
+
   \sect "A2"
-  
+
   r4 c4 d4 c4 | d8 c4 d8~ d2 | r4 c4 d4 c4 | d8 c4 d8~ d2 |
   \break
   r4 g4 a4 g4 | a4 g8 a8~ a8 g8 a4 | b1~ | b1 |
-  
+
   \sect "C"
-  
+
   r4 c4 d4 c4 | d8 c4 d8~ d2 | r4 g,4 a4 g4 | a8 g4 a8~ a2 |
   \break
   r8 c8 d8 c8 d4 c4 | d4 c8 d8~ d8 c8 d4 | c1 | r1 |
@@ -91,10 +78,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

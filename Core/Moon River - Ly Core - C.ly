@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -37,10 +32,10 @@ We're
 refrainChords = \chordmode {
   c2.:maj7 a2.:m7 f2.:7.11+ c2.:maj7
   f2.:7.11+ c2.:maj7 b2.:m7.5- e2.:7
-  
+
   a2.:m7 c2.:7/g f2.:maj7 bf2.:7
   a2:m7 a4:m7/g fs4:m7.5- b2:7 e4:m7 a2:7 d2:m7 g4:7
-  
+
   a2.:m7 a2.:m7/g fs2.:m7.5- f2.:7
   c2.:maj7 f2.:maj7 c2.:maj7 f2.:maj7
   e2.:m7 a2.:m7 d2.:m7 g2.:7
@@ -51,15 +46,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -68,7 +55,7 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad Waltz [Henry Mancini 1960]" 93
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   g2. | d'4 c2 | b4. a8 g8 f8 | g2 c,4 |
@@ -78,7 +65,7 @@ refrainMelody = \relative f' {
   \alternative { \volta 1 {
 
   \sectNoBar "B"
-  
+
   c2. | g'4 e4. d8 | c2. | g'4 e4. d8 |
   \break
   c4 e4 g4 | c8 b8~ b4. a8 | b8 a8~ a4. g8 | a2. |
@@ -103,10 +90,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

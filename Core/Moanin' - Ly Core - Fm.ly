@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -19,18 +14,18 @@ subtitle =
 
 refrainChords = \chordmode {
   s1
-  
-  r2 bf4./f f8 r1 s2 bf4./f f8 s1 s2 bf4./f f8 s1 s2 bf4./f f8
-  
-  s1 
 
-  s1 
+  r2 bf4./f f8 r1 s2 bf4./f f8 s1 s2 bf4./f f8 s1 s2 bf4./f f8
+
+  s1
+
+  s1
 
   bf2:m7 af2:7 g2:7.9- c2:7.5+.9+ bf1/f f2:m b2:9.5-
   bf2:m7 af2:7 g1:7.9- c1:7.5+.9+ r1
-  
+
   s2 bf4./f f8 s1 s2 bf4./f f8 s1 s2 bf4./f f8 s1 s2 bf4./f f8 s1
-  
+
   f2:m6 af2:7 g2:7.5+.9- c2:7.5+.9+
   f2:m6 af2:7 g2:7.5+.9- c2:7.5+.9+
   f2:m6 af2:7 g2:7.5+.9- c2:7.5+.9+
@@ -45,23 +40,15 @@ refrainChords = \chordmode {
   f1:m6 s1
 
   s2 bf4./f f8 s1
-  
+
   bf2:m7 af2:7 g2:7.9- c2:7.5+.9+ bf1/f f2:m b2:9.11+
-  bf2:m7 af2:7 g2:7.9- c2:7.5+.9+ f2:m df2/e 
+  bf2:m7 af2:7 g2:7.9- c2:7.5+.9+ f2:m df2/e
   ef2:6.9 d2:7.5-.9+ df1:maj7 c2.:7.5+.9+ bf4*5/f f1:m
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,13 +58,13 @@ refrainMelody = \relative f' {
 
   r8 f8 r8 f8 af8 af8 f8 c8 |
 
-  \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box "A1, A2" }
-  
+  \sectNoBarNoBreakSegno "A1, A2"
+
   \bar ".|:"
   \repeat volta 2 {
-  ef4 f2. | r8^"(rhythm continues)" f8 r8 f8 af4 bf8 bf16 cf16 |
+  ef4 f2. | r8_"(rhythm continues)" f8 r8 f8 af4 bf8 bf16 cf16 |
   bf16 af16 f8 f2. | r8 f8 r8 f8 c'4 ef8 c16 cf16 |
-  \break
+  %% \break
   bf16 af16 f8 f2. | r8 f8 r8 f8 af8 af8 f8 c8 | ef4 f2. |
   \alternative { \volta 1 {
   r8 f8 r8 f8 af8 af8 f8 c8 |
@@ -85,38 +72,36 @@ refrainMelody = \relative f' {
   r2 f4 f4 |
   } } }
   \sect "B"
-  
-  c'2^"(bass walks in four)" c16 bf16 af16 f16 bf8 f8 | af4. f8 ef8 c8 ef8 f8~ | f1~ | f4 r4 f4 f4 |
-  \break
+
+  c'2_"(bass walks in four)" c16 bf16 af16 f16 bf8 f8 | af4. f8 ef8 c8 ef8 f8~ | f1~ | f4 r4 f4 f4 |
+  %% \break
   c'2 c16 bf16 af16 f16 bf8 f8 | af4. f8 af8 f8 af8 c8~ |
   c2 ef8 c8 bf8 c8 | r8 f,8 r8 f8 af8 af8 f8 c8 |
-  
-  \sect "A3"
-  
-  ef4^"(rhythm resumes)" f2. | r8 f8 r8 f8 af4 bf8 bf16 cf16 |
-  bf16 af16 f8 f2. | r8 f8 r8 f8 c'4 ef8 c16 cf16 |
-  \break
-  bf16 af16 f8 f2. | r8 f8 r8 f8 af8 af8 f8 c8 \textToCodaLastTime | ef4 f2. | r1 |
 
-  \xPageBreak
+  \sect "A3"
+
+  ef4_"(rhythm resumes)" f2. | r8 f8 r8 f8 af4 bf8 bf16 cf16 |
+  bf16 af16 f8 f2. | r8 f8 r8 f8 c'4 ef8 c16 cf16 |
+  %% \break
+  bf16 af16 f8 f2. | r8 f8 r8 f8 af8 af8 f8 c8 \textToCodaLastTime | ef4 f2. | r1 |
 
   \sect "Solos A1, A2"
 
   \bar ".|:-||"
   \repeat volta 2 {
-  \rsq^"(bass walks in four on solos)" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq_"(bass walks in four on solos)" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  %% \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
   \bar "||-:|."
 
   \sectNoBar "Solos B"
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
@@ -124,26 +109,28 @@ refrainMelody = \relative f' {
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq |
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
   r8 f8 r8 f8 af8 af8 f8
   \endParenthesis \parenthesize
   c8 \dalSegnoAfterSolos |
 
-  \bar "||-||"
+  \bar "||"
+
+  \xPageBreak
 
   \textCodaBreak
-  
+
   ef4 f2. | r2 f4 f4 |
   \bar "||"
 
-  c'2^"(bass walks in four)" c16 bf16 af16 f16 bf8 f8 | af4. f8 ef8 c8 ef8 f8~ | f1~ | f4 r4 f4 f4 |
-  \break
+  c'2_"(bass walks in four)" c16 bf16 af16 f16 bf8 f8 | af4. f8 ef8 c8 ef8 f8~ | f1~ | f4 r4 f4 f4 |
+  %% \break
   c'2 c16 bf16 af16 f16 bf8 f8 | af4. f8 ef8 c8 ef8 f8~ | f1~ | f4 r4 f4 f4 |
-  \break
+  %% \break
   c'2 c16 bf16 af16 f16 bf8 f8 | af4. f8 ef8 c8 ef8 f8~ | f1~\fermata | f1\fermata |
 
   \bar "|."
@@ -154,10 +141,5 @@ refrainKicksOverTime = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

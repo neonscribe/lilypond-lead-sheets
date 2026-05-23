@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Blue Drag"
   subtitle = \subtitle
@@ -22,7 +17,7 @@ introLyrics = \lyricmode {
 
 introChords = \chordmode {
   s1 s1
-  d4:m c4:7 g4:m7 a4:7 d4:m c4:7 g4:m7 a4:7 
+  d4:m c4:7 g4:m7 a4:7 d4:m c4:7 g4:m7 a4:7
 }
 
 introKey = d
@@ -32,10 +27,10 @@ bassIntro = \relative f {
   \key \introKey \minor
   \clef bass
   \tempoFour "Medium-Slow Swing [Django Reinhardt 1935]" 110
-  
+
   \xTextMark \markup{ "Intro, bass only" }
 
-  d4 c4 bf4 a4 | d4 c4 bf4 a4 | 
+  d4 c4 bf4 a4 | d4 c4 bf4 a4 |
 
   \clef treble
 
@@ -66,10 +61,10 @@ I never tire of that low down blue drag
 
 refrainChords = \chordmode {
   d2:m d2:m/c b2:m7.5- bf2:7 d2:m d2:m/c b2:m7.5- bf2:7
-  d1:m e1:m7.5- bf2:7 a2:7 
-  
+  d1:m e1:m7.5- bf2:7 a2:7
+
   d2:m a2:7
-  
+
   d1:m
 
   g1:m6 g1:m6 d1:m d1:m
@@ -81,23 +76,15 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
 
-  \sectStart "A1, A2"
-  
+  \sectNoBarNoBreak "A1, A2"
+
   \bar ".|:"
   \repeat volta 2 {
   f8 a8 r8 f8 a4 a4 | f2 d4 r4 | f8 a8 r8 f8 a4 a4 | f2 r2 |
@@ -110,17 +97,17 @@ refrainMelody = \relative f' {
   } } }
 
   \sectNoBar "B"
-  
+
   g8 g4 a8 f8 f4 g8 | e8 e4 f8 d8 e8 f8 g8 | a4. f8 a2~ | a4 r4 bf4. a8 |
   \break
   g8 g4 a8 f8 f4 g8 | e8 e4 f8 d8 e8 f8 g8 | a4. f8 a2 | r1 |
-  
+
   \sect "A3"
 
   f8 a8 r8 f8 a4 a4 | f2 d4 r4 | f8 a8 r8 f8 a4 a4 | f2 r2 |
   \break
   f8 a8 r8 f8 a4 a4 | g2 r4 d8 d8 | a'8 af8~ af4 g8 f8 d8 d8~ | d2 r2 |
-  
+
   \bar "|."
 }
 
@@ -128,7 +115,7 @@ outroLyrics = \lyricmode {
 }
 
 outroChords = \chordmode {
-  d4:m c4:7 g4:m7 a4:7 d4:m c4:7 g4:m7 a4:7 
+  d4:m c4:7 g4:m7 a4:7 d4:m c4:7 g4:m7 a4:7
   s1 s1 s1
 }
 
@@ -138,7 +125,7 @@ bassOutro = \relative f {
   \time 4/4
   \key \outroKey \minor
   \clef treble
-  
+
   \xTextMark \markup{ "Outro, bass and guitars" }
 
   d''4 c4 bf4 a4 | d4 c4 bf4 a4 |
@@ -154,13 +141,8 @@ bassOutro = \relative f {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/bass-intro.ily"
 
 \include "../Include/refrain.ily"
 
-\include "../Include/bass-outro-with-kicks.ily"
+\include "../Include/bass-outro.ily"

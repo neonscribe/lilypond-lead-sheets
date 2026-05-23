@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "(Ghost) Riders in the Sky (A Cowboy Legend)"
   subtitle = \subtitle
@@ -16,6 +11,8 @@ subtitle =
   composer = "Stan Jones"
   copyright = \markup \small { \now " " "© 1949 Edwin H. Morris & Company, Inc." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 An old cow -- poke went rid -- in' out one dark and wind -- y day.
@@ -40,19 +37,19 @@ ghost ri -- ders in the sky.
 }
 
 refrainChords = \chordmode {
-  s4
-  
+  s8
+
   e1:m g1 g1 e1:m
   e1:m e1:m e1:m c1
   c1 a2:m e1:m e1:m
-  
+
   g1 g1 e1:m e1:m
-  c1 a1:m 
-  
+  c1 a1:m
+
   e1:m e8*3:m7 e8*5:m6
-  
+
   e1:m e4:m/b a4:m e4:m/g b4:m/fs
-  
+
   e1:m e1:m
   g1 g1 e1:m e1:m
   c1 c1 g1 g1
@@ -62,15 +59,7 @@ refrainChords = \chordmode {
 
 refrainKey = e
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \numericTimeSignature
@@ -79,13 +68,13 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Sons of the Pioneers 1949]" 115
 
-  \partial 4 \invisEighth b,8 |
+  \partial 8 b,8 |
 
-  \sectStart "Verse"
-  
+  \sectNoBarNoBreak "Verse"
+
   \bar ".|:-||"
   \repeat volta 3 {
-  
+
   b8 e8 e8 fs8 g8 g8 g8 e8 | d8 d8 d8 b8 d2 | r2 r4 r8 b8 | b8 e16 e16~ e8 fs8 g8 g16 g16~ g8 a8 |
   b8 b16 b16~ b8 g8 b4 r8 b8 | b8 b8 e8 e8 e8 b16 b16~ b8 b8 |
   b16 b8. a8 g8 e4 r8 b8 | c8 c8 c8 c8 g'16 g8 g16~ g4 |
@@ -95,9 +84,9 @@ refrainMelody = \relative f' {
   \numericTimeSignature
   \time 4/4
   e1 |
-  
+
   \sect "Chorus"
-  
+
   r2 <b' \har g \har e>8 <b \har g \har e>8 <b \har g \har e>4 |
   <d \har b \har g>1~ | <d \har b \har g>2  <e \har b \har g>8 <e \har b \har g>8 <e \har b \har g>4 |
   <e \har b \har g>2( <b \har g \har e>2~ | <b \har g \har e>2) r2 |
@@ -107,10 +96,10 @@ refrainMelody = \relative f' {
   \alternative { \volta 1 {
 
   <e \har g \har b>1 |
-  r2 r4 r8 b8 |  
+  r2 r4 r8 b8 |
   } \volta 2 {
   <e \har g \har b>1 |
-  r2 r4 r8 b8 |  
+  r2 r4 r8 b8 |
   } \volta 3 {
   <e \har g \har b>2( <b \har e \har g>2~ | <b \har e \har g>4) r4
   <b' \har g \har e>8 <b \har g \har e>8 <b \har g \har e>4 |
@@ -125,17 +114,12 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   \bold
   {
     \vspace #2

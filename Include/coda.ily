@@ -5,11 +5,22 @@ codaRaggedRight =
   #t
   #f)
 
+midiKey = \codaKey
+midiChords = \codaChords
+midiMelody = \codaMelody
+
+midiIncludeFile = 
+#(if (and (defined? 'midiOnly) midiOnly)
+  "../Include/midi.ily"
+  "../Include/nothing.ily")
+
+$(if (not (and (defined? 'midiOnly) midiOnly))
+  #{
 \score {
   <<
     { \context ChordNames 
       {
-      \override ChordName.font-size = #+3
+      \override ChordName.font-size = #+2.5
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
      \transpose \codaKey \whatKey {
@@ -17,6 +28,13 @@ codaRaggedRight =
 	}
       }
       }
+    $(if (and (defined? 'printNoteNames) printNoteNames)
+      #{ 
+      \new NoteNames \tiedNoteToSkip { 
+      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \codaKey \whatKey {
+      \codaMelody
+      } }
+      #} )
     \new Staff {
       \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
@@ -36,13 +54,6 @@ codaRaggedRight =
 	}
     }
       #} )
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames \tiedNoteToSkip { 
-      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \codaKey \whatKey {
-      \codaMelody
-      } }
-      #} )
     $(if (and (not (and (defined? 'hideLyrics) hideLyrics))
 	  (defined? 'codaLyrics) codaLyrics)
        #{
@@ -56,9 +67,6 @@ codaRaggedRight =
     ragged-bottom = ##t ragged-right = \codaRaggedRight
   }
 }
+#} )
 
-midiKey = \codaKey
-midiChords = \codaChords
-midiMelody = \codaMelody
-
-\include "../Include/midi.ily"
+\include \midiIncludeFile

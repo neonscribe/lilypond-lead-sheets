@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -48,15 +43,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -64,22 +51,22 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Up [Bill Evans 1962]" 220
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   \tuplet 3/2 { g4 af4 fs4 } \tuplet 3/2 { g4 af4 fs4 } | g4 g2. |
   \tuplet 3/2 { g4 af4 fs4 } g8 c4 g8 | f1 |
   \break
   \tuplet 3/2 { f4 g4 e4 } \tuplet 3/2 { f4 g4 e4 } | f4 f2 g4 | e1 | r1 |
-  
+
   \sect "A2"
 
   \tuplet 3/2 { g4 af4 fs4 } \tuplet 3/2 { g4 af4 fs4 } | g4 g2. |
   \tuplet 3/2 { g4 af4 fs4 } g8 c4 g8 | f1 |
   \break
   \tuplet 3/2 { f4 g4 e4 } \tuplet 3/2 { f4 g4 e4 } | f4 f2 g4 | e1 | r4 g4 a4 c4 |
-  
+
   \sect "B"
-  
+
   \tuplet 3/2 { ef4 f4 d4 } \tuplet 3/2 { ef4 f4 d4 } | ef4 ef2 c4 |
   \tuplet 3/2 { d4 ef4 cs4 } \tuplet 3/2 { d4 ef4 cs4 } | d1 |
   \break
@@ -91,15 +78,10 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { g4 af4 fs4 } g8 c4 g8 | f1 |
   \break
   \tuplet 3/2 { f4 g4 e4 } \tuplet 3/2 { f4 g4 af4 } | g4 a4 b4 c4 | ef2 d2 | c2. r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

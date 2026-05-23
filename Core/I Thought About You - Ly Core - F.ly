@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I Thought About You"
   subtitle = \subtitle
@@ -39,7 +34,7 @@ verseMelody = \relative g'' {
   \tempo "Freely"
 
   \xTextMark \markup{ "Verse" }
-  
+
   d8 c8 a8 f2 g8 | a8 bf8 a8 a2 f8 |
   a8 bf8 a8 bf8 a4 e'8 d8~ | d1 |
   d8 c8 a8 f2 f8 | e8 fs8 a8 cs4. d4 |
@@ -70,32 +65,24 @@ And what did I do? __ I thought a -- bout you. __
 refrainChords = \chordmode {
   f2:6 bf2:7 a2:7 d2:7 g2:7 af2:7 g1:7
   g1:m7 e2:m7.5- a2:7.9- d2:m7 df2:7 c2:m7 f2:7
-  
+
   bf1:maj7 bf2:m7 ef2:7 f2:maj7 c2:7 f1:maj7
   b2:m7.5- e2:7.9- b2:m7.5- e2:7.9- a2:m7 d2:7 g2:m7 c2:7
- 
+
   f2:6 bf2:7 a2:7 d2:7 g2:7 af2:7 g1:7
   g1:m7 e2:m7.5- a2:7.9- d2:m7 df2:7 c2:m7 f2:7
-  
+
   bf1:maj7 bf2:m7 ef2:7 f2:maj7 d2:m7 b2:m7.5- bf2:7.11+
   a2:m7 d2:7 g2:m7 c2:7 f2:6
   d2:7.9-
   g2:m7
   c2:7
-  
+
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -105,16 +92,16 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ "Refrain" \bold \box "A1" }
   \set Score.currentBarNumber = #1
-  
+
   r8 f8 a8 c8 e8 ef8 d8 a8~ | a2 bf4 a4 | a8 f8 f8 f8~ f2~ | f2. r4 |
   r8 d8 f8 a8 c8 b8 bf8 a8~ | a2 g4 a4 | g8 gf8 f8 f8~ f2~ | f2. r4 |
 
   \sect "B"
-  
+
   d'8 c8 d8 c4. bf4 | df8 c8 df8 c2 bf8 | a4 c4 c2~ | c1 |
   e8 f8 e8 c4. b4 | e8 f8 e8 c4. b4 | a4 c8 c8~ c2 | g4 a8 a8~ a2 |
-  
-  \sect "A2"
+
+  \sectPageBreak "A2"
 
   r8 f8 a8 c8 e8 ef8 d8 a8~ | a2 bf4 a4 | a8 f8 f8 f8~ f2~ | f2. r4 |
   r8 d8 f8 a8 c8 b8 bf8 a8~ | a2 g4 a4 | g8 gf8 f8 f8~ f2~ | f2. r8 f8 |
@@ -156,14 +143,12 @@ codaMelody = \relative f'' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/verse.ily"
 
-\pageBreak
+\markup {
+  % Leave a gap after the verse
+  \vspace #1
+}
 
 \include "../Include/refrain.ily"
 

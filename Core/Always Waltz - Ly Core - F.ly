@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-% #(set-global-staff-size 18)
-
 \header {
   title = "Always (3/4)"
   subtitle = \subtitle
@@ -44,15 +37,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -60,35 +45,26 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Waltz [Irving Kaufman 1926]" 115
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBar "A1"
+
   c4. d8 f8 g8 | a2. | c4 a2~ | a2 r4 |
   \break
   c,4. d8 e8 f8 | g2. | a4 f2~ | f2 r4 |
-  
-  \bar "||"
-  \break
 
-  \xTextMark \markup{ \bold \box "B" }
-  
+  \sect "B"
+
   c4. d8 f8 g8 | a2 r4 | e4. fs8 a8 b8 | cs2. |
   \break
   e,4. fs8 gs8 b8 | d2. | cs4 a2 | a4 g2 |
 
-  \bar "||"
-  \break
+  \sect "A2"
 
-  \xTextMark \markup{ \bold \box "A2" }
-  
   c,4. d8 f8 g8 | a2. | c4 a2~ | a2 r4 |
   \break
   d,4. e8 fs8 a8 | d2. | ef4 d2~ | d2 r4 |
-  
-  \bar "||"
-  \break
 
-  \xTextMark \markup{ \bold \box "C" }
-  
+  \sect "C"
+
   bf4. a8 g8 a8 | bf2. | a4. g8 f8 g8 | a2. |
   \break
   g4. f8 e8 f8 | g2 c,4 | a'4 f2~ | f2 r4 |
@@ -97,10 +73,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #2.
-}
 
 \include "../Include/refrain.ily"

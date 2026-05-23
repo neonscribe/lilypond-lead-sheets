@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
    (set-global-staff-size 18))
 
@@ -42,14 +37,13 @@ verseMelody = \relative g' {
   \tempo "Freely"
 
   \xTextMark \markup{ "Verse" }
-  
+
   g4 g8 a8 fs2 | e8 g8 e8 g8 a2 | g8 a8 g8 a8 fs4. fs8 |
   e8 g8 e8 g8 a2 | b4 b8 c8 a4. a8 | g8 b8 g8 b8 a4. a8 |
   b8 g8 a8 b8 c8 a8 b8 c8 | d8 c8 b8 a8 g4 fs4 | e1 |
   r4 e4 ds4 e4 | a2 a2 | e2 e2 | g1~ | g2 r2 |
 
   \bar "||-||"
-  \pageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -73,10 +67,10 @@ I'm wise __ and I know what time it is now.
 }
 
 refrainChords = \chordmode {
-  fs2:m7 b2:7.9- e2:m7 a2:7 fs2:m7 b2:7.9- e2:m7 a2:7 
+  fs2:m7 b2:7.9- e2:m7 a2:7 fs2:m7 b2:7.9- e2:m7 a2:7
   a2:m7 d2:7 e2:m7 e2:m7/d c2:maj7 b2:m7 a2:m7 d2:7
 
-  fs2:m7 b2:7.9- e2:m7 a2:7 fs2:m7 b2:7.9- e2:m7 a2:7 
+  fs2:m7 b2:7.9- e2:m7 a2:7 fs2:m7 b2:7.9- e2:m7 a2:7
   a2:m7 d2:7 e2:m7 e2:m7/d c2:maj7 b2:m7 a2:m7 d2:7
 
   g1:6.9 fs2:m7.5- b2:7.9- fs2:m7.5- b2:7.9-
@@ -85,22 +79,14 @@ refrainChords = \chordmode {
   d4:m7 g4:7
   a2:m7 d2:7 g1:maj7 e2:m7 a2:7 a2:m7 d2:7
 
-  fs2:m7 b2:7.9- e2:m7 a2:7 fs2:m7 b2:7.9- e2:m7 a2:7 
+  fs2:m7 b2:7.9- e2:m7 a2:7 fs2:m7 b2:7.9- e2:m7 a2:7
   a2:m7 d2:7 e2:m7 e2:m7/d c2:maj7 b2:m7 c2:m9 f2:9.13
   b2:7.5+ e2:9 a2:m7 d2:sus9 g1:6 g1:6
 }
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g' {
   \time 4/4
@@ -110,11 +96,11 @@ refrainMelody = \relative g' {
   \xTextMark \markup{ "Refrain" \bold \box "A1" }
   \set Score.currentBarNumber = #1
   \tempoFour "Medium [Peggy Lee 1953]" 150
-  
+
   b2~ b8 fs4 g8 | a4 a4 a8 b8 g4 | b2~ b8 fs4 g8 | a1 |
   a2~ a8 e4 fs8 | g4 g4 g8 a8 fs4 | e4 e4 e8 fs8 d4 | c'1 |
 
-  \sect "A2"
+  \sectPageBreak "A2"
 
   b2~ b8 fs4 g8 | a4 a4 a8 b8 g4 | b2~ b8 fs4 g8 | a1 |
   a2~ a8 e4 fs8 | g4 g4 g8 a8 fs4 | e4 e4 e8 fs8 d4 | d'1 |
@@ -122,7 +108,7 @@ refrainMelody = \relative g' {
   \bar "||-||"
   \break
   \xTextMark \markup{ \bold \box "B" }
-  
+
   e2~ e8 d8 c8 b8 | a4 a8 fs8 a4 a8 fs8 | a4 a8 fs8 a4 af4 | g1 |
   e'2~ e8 d8 c8 b8 | a4 a8 fs8 a4 a8 fs8 | a4 a8 fs8 a4 g4 | d'1 |
 
@@ -140,11 +126,6 @@ refrainMelody = \relative g' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/verse.ily"
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "That Old Feeling"
   subtitle = \subtitle
@@ -32,13 +27,13 @@ is still in my heart.
 refrainChords = \chordmode {
   ef2 ef2/d ef2/c ef2/bf g1:m7.5- c1:7
   f2:m f2:m7+ f1:m7 f1:m7.5- bf2:7 g2:7
-  
+
   c1:m7 g1:7 g1:m7.5- c1:7
   c1:m7 f1:7 f1:m7.5- bf1:7
 
   ef2 ef2/d ef2/c ef2/bf g1:m7.5- c1:7
   f2:m f2:m7+ f1:m7 af1:m6 g1:7
-  
+
   g1:m7.5- c1:7.9- f1:m7 af1:m6
   c1:m7 f1:7 f2:m7 bf2:7 ef2:6
   \chordOpenParen{ f4:m7 }
@@ -47,15 +42,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -64,25 +51,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Chet Baker 1956]" 152
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   g4 bf4 g8 bf4 g8~ | g4 ef4 g4 bf4 | df1 | c4 g2. |
   \break
   af4 c4 af8 c4 af8~ | af4 f4 af4 bf4 | b1 | bf4 f2. |
-  
+
   \sect "B"
-  
+
   r4 ef4 ef8 ef8 ef4 | g4 g4 g2 | r4 g4 g4 g4 | c1 |
   \break
   r4 c4 c4 c4 | d4 d4 d2 | r4 ef4 ef4 ef4 | f,1 |
-  
+
   \sect "A2"
-  
+
   g4 bf4 g8 bf4 g8~ | g4 ef4 g4 bf4 | df1 | c4 g2. |
   \break
   af4 c4 af8 c4 af8~ | af4 f4 af4 c4 | ef1 | ef4 d2. |
 
   \sect "C"
-  
+
   r4 df4 df4 df4 | df4 c8 bf8~ bf8 af8 g4 | r4 bf4 \tuplet 3/2 { bf4 a4 af4 } | ef'2. ef,8 f8 |
    \break
  g1 | g4 c2. | r4 ef,4 g8 ef8 g4 | ef2 r2 |
@@ -91,10 +78,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

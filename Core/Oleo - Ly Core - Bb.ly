@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Oleo"
   subtitle = \subtitle
@@ -32,15 +27,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -49,37 +36,32 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up [Miles Davis 1955]" 210
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   r8 bf4 g8 c4. bf8~ | bf8 g8 d'2 ef8 d8 | r8 bf4 g8 d'8 ef8 d8 c8 | bf8 g8 gs8 a8 r8 bf4 g8 |
   \break
   c4. bf8~ bf8 g8 bf4 | r8 bf4 g8 ef'8 d8 bf8 c8 | r4 r8 g8~ g8 bf4 g8 | d'4 r8 c8 d8 c8 a8 f8 |
-  
+
   \sect "A2"
-  
+
   r8 bf4 g8 c4. bf8~ | bf8 g8 d'2 ef8 d8 | r8 bf4 g8 d'8 ef8 d8 c8 | bf8 g8 gs8 a8 r8 bf4 g8 |
   \break
   c4. bf8~ bf8 g8 bf4 | r8 bf4 g8 ef'8 d8 bf8 c8 | r4 r8 g8~ g8 bf4 g8 | df'8 bf8 c8 bf8 r2 |
-  
+
   \sect "B"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+
   \sect "A3"
 
   r8 bf4 g8 c4. bf8~ | bf8 g8 d'2 ef8 d8 | r8 bf4 g8 d'8 ef8 d8 c8 | bf8 g8 gs8 a8 r8 bf4 g8 |
   \break
   c4. bf8~ bf8 g8 bf4 | r8 bf4 g8 ef'8 d8 bf8 c8 | r4 r8 g8~ g8 bf4 g8 | df'8 bf8 c8 bf8 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "All the Things You Are"
   subtitle = \subtitle
@@ -37,15 +30,7 @@ verseChords = \chordmode {
 verseKey = g
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 verseMelody = \relative f' {
   \time 4/4
@@ -54,12 +39,12 @@ verseMelody = \relative f' {
   \tempo "Freely"
 
   \xTextMark \markup { \bold \box "Verse" }
-  
+
   d8 d8 d4 g4 a4 | b4 c8 b8 a4 g4 | d8 d8 d4 a'4 b4 | c4 d8 c8 b4 a4 |
   d,8 d8 d4 b'4 c4 | d4 e8 d8 c4 b4 | a1 | r1 |
   d,8 d8 d4 g4 a4 | b4 c8 b8 a4 g4 | b,8 b8 b4 fs'4 g4 | a4 b8 a8 g4 fs4 |
   d8 d8 d4 g4 d4 | d8 d8 d4 a'4 d,4 | g1 | r4 e4 f4 g4 |
-  
+
   \bar "||-||"
 
   \key \refrainKey \major
@@ -90,7 +75,7 @@ introMelody = \relative f' {
   \clef \whatClef
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   \partial 8 a8 |
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 a'8 |
   \break
@@ -124,15 +109,13 @@ outroMelody = \relative f' {
   \clef \whatClef
 
   \xTextMark \markup{ \bold \box "Outro" }
-  
+
   \partial 8 a8 |
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 a'8 |
   \break
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2\fermata r4 | r1 |
 
   \bar "|."
-  
-  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -150,16 +133,16 @@ When all the things you are, are mine.
 refrainNewRealChords = \chordmode {
   f1:m7 bf1:m7 ef1:7 af1:maj7
   df1:maj7 g1:7 c1:maj7 c1:maj7
-  
+
   c1:m7 f1:m7 bf1:7 ef1:maj7
   af1:maj7 a2:m7.5- d2:7 g1:maj7 g1:maj7
-  
+
   a1:m7 d1:7 g1:maj7 g1:maj7
   fs1:m7.5- b1:7 e1:maj7 c1:7.5+
-  
+
   f1:m7 bf1:m7 ef1:7 af1:maj7
   df1:maj7 gf1:13 c1:m7 b1:dim7
-  
+
   bf1:m7 ef1:7 af1:6
   \chordOpenParen{ g2:m7.5- }
   \chordCloseParen{ c2:7 }
@@ -168,16 +151,16 @@ refrainNewRealChords = \chordmode {
 refrainRealBookSixthChords = \chordmode {
   f1:m7 bf1:m7 ef1:7 af1:maj7
   df1:maj7 g1:7 c1:maj7 c1:maj7
-  
+
   c1:m7 f1:m7 bf1:7 ef1:maj7
   af1:maj7 a2:m7.5- d2:7 g1:maj7 g2:maj7 e2:7.9+
-  
+
   a1:m7 d1:7 g1:maj7 g1:maj7
   fs1:m7.5- b1:7 e1:maj7 c1:7.5+
-  
+
   f1:m7 bf1:m7 ef1:7 af1:maj7
   df1:maj7 gf1:13 c1:m7 b1:dim7
-  
+
   bf1:m7 ef1:7 af1:maj7
   \chordOpenParen{ g2:m7.5- }
   \chordCloseParen{ c2:7.9- }
@@ -192,41 +175,36 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Dizzy Gillespie 1945]" 126
 
   \xTextMark \markup{ "Refrain" \bold \box "A1" }
-  
+
   af1 | df2. af4 | g4 g4 g4 g4 | g4 c2 g4 |
-  \break
+  %% \break
   f4 f4 f4 f4 | f4 b2 f4 | e1~ | e1 |
 
   \sect "A2"
-  
+
   ef1 | af2. ef4 | d4 d4 d4 d4 | d4 g2 d4 |
-  \break
+  %% \break
   c4 c4 c4 c4 | c4 d8 ef8 d4 c4 | b1~ | b4 d4 g4 d'4 |
 
   \sect "B"
-  
+
   d4. c8 c2~ | c4 ds,4 e4 c'4 | b1~ | b4 d,4 g4 b4 |
-  \break
+  %% \break
   b4. a8 a2~ | a4 bf,4 b4 a'4 | gs1~ | gs1 |
-  
+
   \sect "A3"
-  
+
   af1 | df2. af4 | g4 g4 g4 g4 | g4 c2 g4 |
-  \break
+  %% \break
   f1 | ef'2. df4 | ef,4 ef4 \tuplet 3/2 { ef4 ef4 ef4 } | g2. f4 |
-  \break
-  
+  %% \break
+
   df4 df4 f4 af4 | f'2 g,2 | af1 | r1 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \markup{ "Vocal performance is commonly optional verse, then refrain." }
 \markup{ "Instrumental performance is commonly intro, refrain, solos, refrain, outro." }
@@ -240,8 +218,12 @@ whatKey = \whatVerseKey
 \include "../Include/verse.ily"
 whatKey = \savedWhatKey
 
+\pageBreak
+
 \include "../Include/intro.ily"
 
 \include "../Include/outro.ily"
+
+\pageBreak
 
 \include "../Include/refrain.ily"

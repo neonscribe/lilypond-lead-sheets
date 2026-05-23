@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -20,7 +15,7 @@ refrainChords = \chordmode {
   \set chordChanges = ##f
 
   c1:7 b1:7 e1:m e1:m
-  
+
   e1:m a1:m e1:m e1:m
   e1:m a1:m e1:m e1:m
   a1:m a1:m e1:m e1:m
@@ -35,33 +30,25 @@ refrainChords = \chordmode {
   a1:m a1:m b1:7 b1:7
   a1:m a1:m e1:m e1:m
   c1:7 b1:7 a1:m a1:m e1:m e1:m
-  
-  e1:m a1:m e1:m e1:m
-  e1:m a1:m e1:m e1:m
-  a1:m a1:m e1:m e1:m
-  c1:7 b1:7 e1:m e1:m
 
   e1:m a1:m e1:m e1:m
   e1:m a1:m e1:m e1:m
   a1:m a1:m e1:m e1:m
   c1:7 b1:7 e1:m e1:m
 
+  e1:m a1:m e1:m e1:m
+  e1:m a1:m e1:m e1:m
   a1:m a1:m e1:m e1:m
-  c1:7 b1:7 
+  c1:7 b1:7 e1:m e1:m
+
+  a1:m a1:m e1:m e1:m
+  c1:7 b1:7
   a1:m a1:m e1:m
   }
 
 refrainKey = e
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g, {
   \time 4/4
@@ -76,7 +63,7 @@ refrainMelody = \relative g, {
 
   \break
   \xTextMark "Verse"
-  
+
   e2 e2 | a2 a2 | e2 b'2 | e,2 b'2 |
   e,2 e2 | a2 a2 | e2 b'2 | e,2 fs4 g4 |
   \break
@@ -86,7 +73,7 @@ refrainMelody = \relative g, {
 
   \break
   \xTextMark "Verse"
-  
+
   e2 e2 | a2 a2 | e2 b'2 | e,2 b'4 g4 |
   e2 e2 | a2 a2 | e2 b'2 | e,2 fs4 g4 |
   \break
@@ -96,20 +83,20 @@ refrainMelody = \relative g, {
 
   \break
   \xTextMark "Chorus"
-  
+
   a4 a4 c4 e4 | a,4 a4 c4 d4 | e4 e4 b4 d4 | e4 e4 d4 b4 |
   a4 a4 c4 e4 | a,4 a4 c4 e4 | b4 b4 fs'4 fs4 |
   \tuplet 3/2 { b,8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } |
   \break
   a4 a4 c4 e4 | a,4 a4 c4 d4 | e4 e4 b4 d4 | e4 e4 d4 b4 |
-  c4 c4 c4 c4 | b4 b4 b4 b4 | 
+  c4 c4 c4 c4 | b4 b4 b4 b4 |
   \textToCoda
-  a2 e'2 | a,2 a4 b4 | e,2 b'2 | e,4 e4 b'4 g4 | 
+  a2 e'2 | a,2 a4 b4 | e,2 b'2 | e,4 e4 b'4 g4 |
   \bar "||-||"
 
   \break
   \xTextMark "Verse Solo"
-  
+
   e2 e4 g4 | a2 a4 b4 | e2 b2 | e,2 b'4 g4 |
   e2 e4 g4 | a4 a4 b4 d4 | e2 b4 d4 | e4 e4 d4 b4 |
   \break
@@ -119,7 +106,7 @@ refrainMelody = \relative g, {
 
   \break
   \xTextMark "Verse"
-  
+
   e2 e2 | a2 a2 | e2 b'2 | e,2 b'2 |
   e,2 e2 | a2 a2 | e2 b'2 | e,2 fs4 g4 |
   \break
@@ -128,26 +115,21 @@ refrainMelody = \relative g, {
   \xTextMark "To Chorus"
   e4 e4 fs4 g4 |
   \bar "||-||"
-  
+
   \textCodaBreak
 
   a4 a4 c4 e4 | a,4 a4 c4 d4 |
   e2 b4 d4 | e4 e4 a,4 b4 |
   \bar ".|:"
   \repeat volta 3 {
-    c4 c4 c4 c4 | 
+    c4 c4 c4 c4 |
     \xTextMark "play 3x"
-    b4 b4 b4 b4 | 
+    b4 b4 b4 b4 |
   }
   a2 e'2 | a,2 a2 | e1 |
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Easy Living"
   subtitle = \subtitle
@@ -39,7 +34,7 @@ refrainChords = \chordmode {
 
   f2:maj7 fs2:dim7 g2:m7 gs2:dim7 f2:maj7/a c4:m7 f4:7 bf2:maj7 ef2:7
   f2:maj7 d2:m7 g2:m7 c2:7 f2:6 bf2:7 ef2:m7 af2:7
-  
+
   df2:maj7 bf2:m7 ef2:m7 af2:7 f2:m7 bf2:7 ef2:m7 af2:7
   df2:maj7 df2:maj7/c bf2:m7 bf2:m7/af g1:m7 c2:7 c2:7.5+
 
@@ -54,15 +49,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -72,20 +59,20 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "A1" }
 
-  \tuplet 3/2 { a4 d4 c4 } ef,2 | r8 d8 g8 bf8 d8 f4 e8 | 
-  \tuplet 3/2 { b4 d4 c4 } f,2 | r8 d8 f8 a8 c4. bf8 | 
+  \tuplet 3/2 { a4 d4 c4 } ef,2 | r8 d8 g8 bf8 d8 f4 e8 |
+  \tuplet 3/2 { b4 d4 c4 } f,2 | r8 d8 f8 a8 c4. bf8 |
   \break
   \tuplet 3/2 { a4 g'4 f4 } a,4. e'8 | d4 bf8 d,8 a'4 gs4 | a1~ | a2. gs4 |
-  
+
   \sect "A2"
-  
-  \tuplet 3/2 { a4 d4 c4 } ef,2 | r8 d8 g8 bf8 d8 f4 e8 | 
-  \tuplet 3/2 { b4 d4 c4 } f,2 | r8 d8 f8 a8 c4. bf8 | 
+
+  \tuplet 3/2 { a4 d4 c4 } ef,2 | r8 d8 g8 bf8 d8 f4 e8 |
+  \tuplet 3/2 { b4 d4 c4 } f,2 | r8 d8 f8 a8 c4. bf8 |
   \break
   \tuplet 3/2 { a4 g'4 f4 } a,4. e'8 | d4 bf8 d,8 a'4 a8 f8~ | f1~ | f2. f4 |
-  
+
   \sect "B"
-  
+
   af1 | \tuplet 3/2 { ef'4 f4 ff4 } \tuplet 3/2 { ef4 c4 bf4 } |
   af1 | e'8 f8 e8 f8 ef4 c8 bf8 |
   \break
@@ -94,19 +81,14 @@ refrainMelody = \relative f' {
 
   \sect "A3"
 
-  \tuplet 3/2 { a4 d4 c4 } ef,2 | r8 d8 g8 bf8 d8 f4 e8 | 
-  \tuplet 3/2 { b4 d4 c4 } f,2 | r8 d8 f8 a8 c4. bf8 | 
+  \tuplet 3/2 { a4 d4 c4 } ef,2 | r8 d8 g8 bf8 d8 f4 e8 |
+  \tuplet 3/2 { b4 d4 c4 } f,2 | r8 d8 f8 a8 c4. bf8 |
   \break
   \tuplet 3/2 { a4 g'4 f4 } a,4. e'8 | d4 bf8 d,8 a'4 a8 f8~ | f1~ | f1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Nuages"
   subtitle = \subtitle
@@ -19,12 +14,12 @@ subtitle =
 
 refrainDFBChords = \chordmode {
   s2.
-  
+
   ef1:7 d1:7 g1 g1
   ef1:7 d1:7 g1 g1
   fs1:m7.5- b1:7 e1:m e1:m
   a2:7 af2:7 a1:7 d2:7 ef2:7 d1:7
-  
+
   ef1:7 d1:7 g1 g1
   af1:7 g1:7 c1 c1
   c1:m c1:m g1 g1
@@ -35,13 +30,13 @@ refrainHLChords = \chordmode {
   s2.
   bf2:m7 ef2:7 a2:m7.5- d2:7.9- g2:6 a2:m7 b1:m7
   bf2:m7 ef2:7 a2:m7.5- d2:7.9- g1:6 g1:6
-  
+
   fs1:m7.5- b1:7 e1:m7 e1:m7
   a2:7 af2:7 a1:7 d2:7 a2:m7 d1:7
 
   bf2:m7 ef2:7 a2:m7.5- d2:7.9- g1:6 g1:6
   ef2:m7 af2:7 d2:m7.5- g2:7.9- c1:maj7 c1:maj7
-  
+
   c2:m7 f2:7 c2:m7 f2:7 g2:6 a2:m7 b1:m7
   bf2:m7 ef2:7 a2:m7.5- d2:7.9- g2:6 c2:9 g1:6
 }
@@ -50,15 +45,7 @@ refrainChords = \refrainHLChords
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -70,7 +57,7 @@ refrainMelody = \relative f' {
   \bar "||"
 
   \xTextMark \markup{ \bold \box "A" }
-  
+
   f2~ f4. e8 | ef2 ef4. cs8 | d1 | r4 cs8 d8 a'8 af8 g8 gf8 |
   \break
   f2~ f4. e8 | ef2 ef4. cs8 | d1 | r4 as8 b8 b'8 a8 g8 fs8 |
@@ -79,9 +66,9 @@ refrainMelody = \relative f' {
   \break
   e2 ef2 | e4 e8 fs8 g8 a8 \tuplet 3/2 { b8 d8 f8 } | d2 ef2 |
   d4 cs,8 d8 a'8 af8 g8 gf8 |
-  
+
   \sect "B"
-  
+
   f2~ f4. e8 | ef2 ef4. cs8 | d1 | r4 fs8 g8 d'8 ds8 c8 b8 |
   \break
   bf2. bf8 a8 | af2 af4. g8 | g1 | r4 fs8 g8 g'8 f8 ef8 f8 |
@@ -95,10 +82,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

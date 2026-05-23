@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -27,25 +22,17 @@ all
 
 refrainChords = \chordmode {
   \chordInsideParens{ c4:sus7 }
-  
+
   f2 a2:7/e d2:m7 f2:7 bf2:maj7 c2:sus7 f2:6 c2:sus7
   f2 bf2/f f1 c2 g2:7 c1:7
   f2 a2:7/e d2:m7 f2:7 bf2:maj7 c2:sus7 f2:6 b2:dim7
   f2/c a2:7/cs d2:m7 b2:dim7 f2/c c2:sus7 f2:6 c2:sus7
-  
+
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -55,7 +42,7 @@ refrainMelody = \relative f' {
 
   \partial 4 f4 |
   \bar "||"
-  
+
   c'2 a8 g4 f8~ | f2 d8 f4 f8~ | f2 d8 f4 f8~ | f2 r4 f4 |
   \break
   c'2 d8 c4 a8~ | a2 g8 a4 g8~ | g2 e8 d4 c8~ | c2 r4 f4 |
@@ -69,15 +56,10 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -91,7 +73,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
 \vspace #2
 \line { \large { I wish I could share all the love in my heart, } }

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -35,7 +30,7 @@ home, Hel -- lo trou -- ble, trou -- ble, trou -- ble, wel -- come home.
 
 refrainChords = \chordmode {
   s2.
-  
+
   c1 c2 f2 c1 c1
   g1 g1 c1 c1
 
@@ -53,34 +48,26 @@ refrainChords = \chordmode {
 
   c1 c2 f2 c1 c1
   c1 g1 c1 c4 r2.
-  
+
   c1 c4 r2. f1 g1 c1
 }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Fast [The Desert Rose Band 1988]" 222
-  
+
   \partial 2. e'4 d4 c4 |
   \bar "||"
 
-  \sectStart "Verse"
+  \sectNoBarNoBreak "Verse"
   \segnoSign
-  
+
   e,8 g4. r2 | r4 g8 g8 a4 c8 g8~ | g1 | r4 c8 c8~ c8 d4. |
   \break
   d4. d8~ d2 | r8 g,8 g4 a8 c4. | c1 | r8 c8 d8 c8 d8 c4. |
@@ -90,7 +77,7 @@ refrainMelody = \relative f' {
   c8 c8 c8 c8 c8 c8 c8 c8 | d4 g,8 g8 a4 g8 c8~ | c1 | r2 e8 c,4. |
 
   \sect "Chorus"
-  
+
   e8 g4. r2 | r2 a8 c4. | g2 r2 | r4 r8 g8 c8 a8 c4 |
   \break
   d4. d8~ d2 | r4 g,8 g8 a4 g8 c8~ | c1 | r4 d8 c8 d4 c8 e,8~ |
@@ -98,47 +85,39 @@ refrainMelody = \relative f' {
   e8 g4. r2 | r4 g4 a8 c4. | g1 | r2 c8 a4. |
   \break
   a8 a4. a8 a4. | b8 b4. d4 b4 \textToCoda | c1 | r1 |
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectNoBarNoBreak "Solos"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+
+  \sectPageBreak "Solos"
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   r4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
-  e8 e8~ e8 c8 c8 
+  e8 e8~ e8 c8 c8
   \endParenthesis \parenthesize c,8 \dalSegno |
   \bar "||-||"
 
-  
+
   \textCodaBreak
 
   e'1 | r2 c8 a4. |
   a8 a4. a8 a4. | b8 b4. d4 b4 | c1\fermata |
 
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -148,7 +127,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
     \vspace #2
     \line { \large { We'll make a pot of coffee and you can rest your shoes. } }

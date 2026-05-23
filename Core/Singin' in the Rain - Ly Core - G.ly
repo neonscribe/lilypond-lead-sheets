@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -36,7 +31,7 @@ refrainChords = \chordmode {
 
   d1:7 d1:7 d1:7 d1:7
   d1:7 d1:7 g1:6 a2:m7 d2:7
-  
+
   g1 g1 g1 g1
   g1 g2 gs2:dim7 d1:7 d1:7
 
@@ -48,39 +43,31 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium-Up [Judy Garland 1940]" 204
-  
+
   \partial 4 d4 |
   \bar "||"
 
-  \sectStart "A"
-  
+  \sectNoBarNoBreak "A"
+
   d'2~ d8 b8 a8 g8 | e2. d4 | g2~ g8 g8 a8 b8 | d2. d,8 e8 |
   \break
   g2~ g8 a8 b4 | d2 b4 d4 | d2~ d8 b8 a4 | e2. d4 |
-  
+
   \sect "B"
-  
+
   d'2~ d8 b8 a4 | e2. d4 | d'2 b4. a8 | e2. d4 |
   \break
   d'2~ d8 b8 e,4 | fs2~ fs8 b8 e,4 | g2~ g8 e8 g4 | e2. d8 e8 |
 
   \sect "C"
-  
+
   g2~ g8 a8 b4 | d2. d,8 e8 | g2~ g8 a8 b4 | d2. d,4 |
   \break
   g2~ g8 a8 b4 | d2 b4 d4 | d2~ d8 b8 a4 | e2. d4 |
@@ -95,10 +82,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

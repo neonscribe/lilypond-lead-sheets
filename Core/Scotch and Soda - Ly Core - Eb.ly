@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Scotch and Soda"
   subtitle = \subtitle
@@ -41,7 +36,7 @@ Do I __ feel _ high.
 refrainChords = \chordmode {
   af1:maj7 df1:9 ef1:6 g2:m7 c2:7
   f1:7 f2:m7 bf2:7
-  
+
   d1:m7 af2:m6 g2:7
 
   ef2:9 bf2:m7 ef2:9 ef2:9.5+
@@ -59,15 +54,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -76,7 +63,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Slow Blues [Kingston Trio 1958]" 98
 
   \xTextMark \markup{ \bold \box "A1, A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r8 g8 f8 g8~ g8 f4. | r4 \tuplet 3/2 { cf8 ef8 f8 } g2 |
@@ -91,13 +78,13 @@ refrainMelody = \relative f' {
   \break
 
   \xTextMark \markup{ \bold \box "B" }
-  
+
   r8 ef8 f8 af8~ af4 bf4 | c4. ef,8~ ef4. af8 | bf4. c8 af4 bf8 g8~ | g8 bf4.~ bf4 r8 g8 |
   \break
   g8 g4 f8~ f4. c8 | g'8 g4 f8~ f4. f8 | c'4 bf4 af4 g4 | f4. bf8~ bf4 r4 |
 
   \sect "C"
-  
+
   r8 g8 f8 g8~ g8 f4. | r4 \tuplet 3/2 { cf8 ef8 f8 } g2 |
   r8 ef4 f8 g8 bf4 d8~ | d4 c8 bf8~ bf8 c4. |
   \break
@@ -109,10 +96,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

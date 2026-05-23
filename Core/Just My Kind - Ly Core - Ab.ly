@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Just My Kind"
   subtitle = \subtitle
@@ -14,10 +9,12 @@ subtitle =
   copyright = \markup \small { \now " " "© 2019" }
 }
 
+leadingEighth = ##t
+
 refrainLyrics = \lyricmode {
   ''One __ in a mill -- ion,'' is what I thought the day __ your eyes met mine. __
   We talked a -- while, it seems your smile, in -- tox -- i -- cates like wine. __
-  
+
   Some __ -- thing has real -- ly got a hold on me, feels like __ I'm fly -- ing blind. __
   And I've just got to let you know that you are just my kind. __
 
@@ -30,7 +27,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
-  s4
+  s8
 
   af2:maj7 f2:m7 bf2:m7 ef2:7
   af2:maj7 f2:m7 bf2:m7 ef2:7
@@ -39,28 +36,20 @@ refrainChords = \chordmode {
   af2:maj7 f2:m7 bf2:m7 ef2:7
   af2:maj7 f2:m7 bf2:m7 ef2:7
   d2:m7.5- g2:7 c2:m7.5- f2:7 bf2:m7 ef2:7 af1:6
-  
+
   bf2:m7 ef2:7 bf2:m7 ef2:7 bf2:m7 ef2:7 af1:maj7
   c2:m7 f2:7 c2:m7 f2:7 bf1:7 bf2:m7 ef2:7
 
   af2:maj7 f2:m7 bf2:m7 ef2:7
   af2:maj7 f2:m7 bf2:m7 ef2:7
   d2:m7.5- g2:7 c2:m7.5- f2:7 bf2:m7 ef2:7 af2:6
-  
+
   \chordInsideParens{ ef2:7 }
 }
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f'' {
   \time 4/4
@@ -68,32 +57,31 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempoFour "Slow to Medium Swing" 0
 
-  \partial 4 \invisEighth c8~ |
-  \bar "||"
+  \partial 8 c8~ |
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   c4 df8 b8 c8 af4 f8 | c'8 c4 bf4. ef8 c8~ |
   c4 af8 f4. df'8 bf~ | bf2. r8 c8 |
   bf4 b8 c2 af8 | g4 af8 f2 c'8 |
   bf4 c4 d4 bf8 ef8~ | ef2. r8 c8~ |
 
   \sect "A2"
-  
+
   c4 df8 b8 c8 af8 f8 af8 | c8 c4 bf4. ef8 c8~ |
   c4 af8 f4. ef'8 f~ | f2. r8 ef8 |
   f8 af4. g4 f4 | ef8 gf4. f4 c4 |
   ef8 df4. c4 c8 af8~ | af2. af8 bf8~ |
 
   \sect "B"
-  
+
   bf4 bf8 f'4. bf,8 f'8~ | f4 ef8 c8 bf4. af8 |
   bf4 bf4 f'4 ff8 ef8~ | ef2. r8 ef8 |
   c4 c4 g'4 c,4 | g'4 gf8 f2 af8 |
   bf4 af4 g4 f4 | ef4 df8 bf2 c8~ |
-  
+
   \sect "A3"
-  
+
   c4 df8 b8 c8 af8 f8 af8 | c8 c4 bf4. ef8 c8~ |
   c4 af8 f4. ef'8 f~ | f2. r8 ef8 |
   f8 af4. g4 f4 | ef8 gf4. f4 c4 |
@@ -103,10 +91,5 @@ refrainMelody = \relative f'' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

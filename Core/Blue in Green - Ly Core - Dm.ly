@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -21,21 +16,13 @@ refrainChords = \chordmode {
   g1:m7 a1:7.9+ d4:m7 \chordSlash 2 df4:7.5- c2:m7 f2:7.9-
   bf1:maj7.11+ a1:7.9+ d1:m7
   e1:7.5+.9+ a1:m7 d1:m7
-  
+
   d1:m7 g1:m7 a1:7.9+ d1:m6.9
 }
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -44,35 +31,30 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Miles Davis 1959]" 55
 
   \xTextMark \markup{ \bold \box "Head" }
-  
+
   e'2. d4 | c2. bf4 | a2.  g4 | f4 d'2. |
   \break
   e,4. d8 cs8 d8 f8 a8 | c2. a4 | g2. f4 |
   \break
   c'2. gs4 | b2. a4 \textToCodaLastTime | f'1 |
-  
+
   \break
 
   \textCodaBreak
   \bar "||-|."
-  
+
   f2. cs4 | e2. d4 | c2. bf4 | a1\fermata |
 
   \bar "|."
   \break
 
   \xTextMark \markup{ \bold \box "A2" }
-  
+
   \sect "C"
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

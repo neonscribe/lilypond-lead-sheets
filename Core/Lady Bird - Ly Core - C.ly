@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Lady Bird"
   subtitle = \subtitle
@@ -21,7 +16,7 @@ refrainChords = \chordmode {
   c1:maj7 c1:maj7 f1:m7 bf1:7
   c1:maj7 c1:maj7 bf1:m7 ef1:7
   af1:maj7 af1:maj7 a1:m7 d1:7
-  d1:m7 g1:7 c2:maj7 
+  d1:m7 g1:7 c2:maj7
   \chordOpenParen{ ef2:maj7 }
   af2:maj7
   \chordCloseParen{ df2:maj7 }
@@ -29,15 +24,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -57,10 +44,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

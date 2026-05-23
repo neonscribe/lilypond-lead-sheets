@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Deep in a Dream"
   subtitle = \subtitle
@@ -37,7 +32,7 @@ A -- wake or a -- sleep __ ev -- 'ry mem -- 'ry I'll keep __ deep in a dream of 
 
 refrainChords = \chordmode {
   s4
-  
+
   c2:maj9 c2:1.3.5+ c2:6 c2:7 f2:maj9 f2:1.3.5+ f2:6 f2:7
   bf2:maj7 ef2:9 d2:m7 e2:7 a2:m7 d2:9 g2:sus9 g2:9
 
@@ -55,15 +50,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -74,27 +61,24 @@ refrainMelody = \relative f' {
   \partial 4 g4 |
   \bar "||"
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   e8 e8 e8 e8~ \tuplet 3/2 { e4 d4 c4 } | e8 f8 g8 e8~ e4. c8 |
   \break
   a'8 a8 a8 a8~ \tuplet 3/2 { a4 g4 f4 } | a8 bf8 c8 a8~ a4. f8 |
-  d'8 d8 d8 bf8~ \tuplet 3/2 { bf4 a4 g4 } | f8 f8 f8 d8~ d4 c8 d8 | 
+  d'8 d8 d8 bf8~ \tuplet 3/2 { bf4 a4 g4 } | f8 f8 f8 d8~ d4 c8 d8 |
   \tuplet 3/2 { e4 e4 e4 } a4. e8 | d2~ d4 r8 g8 |
-  
+
   \sect "A2"
-  
+
   e8 e8 e8 e8~ \tuplet 3/2 { e4 d4 c4 } | e8 f8 g8 e8~ e4. c8 |
   \break
   a'8 a8 a8 a8~ \tuplet 3/2 { a4 g4 f4 } | a8 bf8 c8 a8~ a4. f8 |
-  d'8 d8 d8 bf8~ \tuplet 3/2 { bf4 a4 g4 } | f8 f8 f8 d8~ d4 c8 d8 | 
+  d'8 d8 d8 bf8~ \tuplet 3/2 { bf4 a4 g4 } | f8 f8 f8 d8~ d4 c8 d8 |
   \tuplet 3/2 { e4 e4 e4 } a4 b,8 c8~ | c2 r8 c8 c8 c8 |
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectNoBar "B"
-  
+
+  \sectPageBreak "B"
+
   ef8 ef8~ ef2 e4 | \tuplet 3/2 { f4 g4 af4 } \tuplet 3/2 { bf4 c4 df4 } |
   \break
   \tuplet 3/2 { ef4 c4 bf4 } \tuplet 3/2 { af4 g4 f4 } | ef2 r8 c8 c8 c8 |
@@ -108,15 +92,10 @@ refrainMelody = \relative f' {
   a'8 a8 a8 a8~ \tuplet 3/2 { a4 g4 f4 } | a8 bf8 c8 a8~ a4. f8 |
   d'8 d8 d8 bf8~ bf4 a8 g8 | f8 f8 f8 d8~ d2 |
   \tuplet 3/2 { e4 e4 e4 } a4 b,8 c8~ | c2. r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

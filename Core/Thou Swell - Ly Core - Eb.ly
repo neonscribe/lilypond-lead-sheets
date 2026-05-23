@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -29,16 +24,16 @@ Thou swell, thou wit -- ty, __ thou grand. __
 
 refrainChords = \chordmode {
   s4
-  
+
   f1:m7 bf1:7 f1:m7 bf1:7
   ef1:maj7 af1:13 ef1:maj7 a2:m7.5- d2:7.9-
-  
+
   g2:m7 c2:7 f2:m7 bf2:7 ef1:maj7 ef1:6
   d2:m7 g2:7 c2:m7 f2:7 bf1:7 g2:m7 c2:7
-  
+
   f1:m7 bf1:7 f1:m7 bf1:7
   ef1:maj7 af1:13 ef1:maj7 a2:m7.5- d2:7.9-
-  
+
   g2:m7 c2:7 f2:m7 bf2:7 g1:m7.5- c1:7
   f1:m7 bf1:7 ef1:6
   \chordOpenParen{ g2:m7.5- }
@@ -47,15 +42,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -64,22 +51,21 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Blossom Dearie 1956]" 146
 
   \partial 4 g4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   f2. g4 | f8 bf,4.~ bf4 g'4 | f2. g4 | bf2. c4 |
   \break
   bf2. c4 | bf8 ef,4.~ ef4 c'4 | bf2. c4 | ef2 c8 d4 bf8~ |
 
   \sect "B"
-  
+
   bf4. b8 c8 g4. | af4. a8 bf8 f4. | g1~ | g2 bf4 ef,4 |
   \break
   f8 f4 fs8 g8 g4 d8 | ef8 ef4 e8 f8 f4 c8 | d1~ | d2. g4 |
 
   \sect "A2"
-  
+
   f2. g4 | f8 bf,4.~ bf4 g'4 | f2. g4 | bf2. c4 |
   \break
   bf2. c4 | bf8 ef,4.~ ef4 c'4 | bf2. c4 | ef2 c8 d4 bf8~ |
@@ -94,10 +80,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

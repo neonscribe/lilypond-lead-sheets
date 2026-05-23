@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -35,17 +30,17 @@ Lov -- er, __ I sur -- ren -- der __ to my heart. __
 refrainChords = \chordmode {
   c1:maj7 c1:maj7 fs1:m7 b1:7 f1:m7 bf1:7 e1:m7 a1:7
   ef1:m7 af1:7 d1:m7 g1:7
-  
+
   e1:m7 a1:7 d1:m7 g1:7
-  
+
   c1:maj7 c1:maj7 fs1:m7 b1:7 f1:m7 bf1:7 e1:m7 a1:7
   ef1:m7 af1:7 d1:m7 g1:7
-  
+
   c1:maj7 c1:maj7 fs1:m7.5- b1:7.9+
-  
+
   e1:maj7 f1:dim7 fs1:m7 b1:7 e1:maj7 f1:dim7 fs1:m7 b1:7
   g1:maj7 gs1:dim7 a1:m7 d1:7 e1:m7 a1:7.9- d1:m7 g1:7
-  
+
   c1:maj7 c1:maj7 fs1:m7 b1:7 f1:m7 bf1:7 e1:m7 a1:7
   ef1:7 af1:7 d1:m7 g1:7 c1:6
   \chordOpenParen{ a1:m7 }
@@ -55,15 +50,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,7 +58,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Up [Frank Sinatra 1950]" 250
 
-  \sectStart "A1"
+  \sectNoBarNoBreak "A1"
 
   c'2. c4~ | c2 b4 c4 | b2. b4~ | b2 bf4 b4 |
   \break
@@ -90,12 +77,9 @@ refrainMelody = \relative f' {
   af2. af4~ | af2 g4 af4 | g2. g4~ | g2 a4 b4 |
   \break
   g1~ | g1 | r1 | r1 |
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "B"
 
-  \sectNoBarNoBreak "B"
-  
   gs2 a4 gs4 | a2 gs4 a4 | b2 b2~ | b1 |
   \break
   gs2 a4 gs4 | a2 gs4 a4 | b1~ | b1 |
@@ -103,9 +87,9 @@ refrainMelody = \relative f' {
   b2 c4 b4 | c2 b4 c4 | d2 d2~ | d2 ds4 e4 |
   \break
   g,1~ | g1 | r1 | r1 |
-  
+
   \sect "A3"
-  
+
   c2. c4~ | c2 b4 c4 | b2. b4~ | b2 bf4 b4 |
   \break
   bf2. bf4~ | bf2 a4 bf4 | a1~ | a1 |
@@ -118,10 +102,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

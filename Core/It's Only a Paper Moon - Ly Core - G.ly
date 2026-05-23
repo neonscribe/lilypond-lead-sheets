@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "It's Only a Paper Moon"
   subtitle = \subtitle
@@ -52,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -82,7 +69,7 @@ refrainMelody = \relative f' {
 
   a2 bf2 | b2. c8 e8 | d4. d8 b4. b8 | g2. g4 |
   a2 bf2 | b2. as8 b8 | d8 d8 d4 d4 as8 b8 | e8 e8 e4 e2 |
-  
+
   \sect "A3"
 
   r8 d,4 d8 d'8 d4 d8 | c4 b8 a8~ a2 | r8 d,4 d8 c'8 c4 c8 | b4 a8 g8~ g2 |
@@ -92,10 +79,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

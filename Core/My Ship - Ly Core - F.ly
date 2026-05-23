@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -55,13 +50,13 @@ refrainChords = \chordmode {
 
   f2:6 d2:7 g2:7 c2:7 f2:6 fs2:dim7 g2:7 c2:7
   f2:6 d2:7 g2:m7 a2:7 d2:m7 g2:7 c2:sus7 f2:6
-  
+
   g2:m7 c2:7 g2:m7 c2:7 g2:m7 bf2:m6 f4:maj7 \chordSlash 2 e4:7
   a2:m7 d2:m7 a2:m7 d2:m7 a2:m9 d2:7 g2:7 c2:7
 
   f2:6 d2:7 g2:7 c2:7 f2:6 fs2:dim7 g2:7 c2:7
   f2:6 d2:7 g2:m7 a2:7 d2:m7 c2:7 f4:maj7 \chordSlash 2 c4:7
-  
+
   f2 d2:m bf2:maj7 bf4:m7 ef4:7 a2:m7 d2:m7 g2:m7 c2:7
   f2:6 df2:9 f2:6
   \chordOpenParen{ g4:m7 }
@@ -70,26 +65,18 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Ballad [Anita O'Day 1962]" 63
-  
+
   \partial 4 c4 |
 
   \sectNoBreak "A1"
-  
+
   d4 f4 c'4 a8 c8 | a4 d,4 d4. c8 | d4 f4 c'4 c4 | d,2. c8 cs8 |
   \break
   d4 f4 d'4 c8 d8 | c4 bf4 a4 e8 f8 | g1~ | g2. c,4 |
@@ -99,17 +86,13 @@ refrainMelody = \relative f' {
   d4 f4 c'4 a8 c8 | a4 d,4 d4. c8 | d4 f4 c'4 c4 | d,2. c8( cs8) |
   \break
   d4 f4 d'4 c8 d8 | c4 bf4 a4 e8 f8 | g2 g2 f2 r4 a8 c8 |
-  
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "B"
 
-  \sectNoBarNoBreak "B"
-  
   bf4 a4 g4. c8 | bf4 a4 g2 | d'4 bf4 g4 f4 | a2. b8 d8 |
   \break
   c4 b4 a4. d8 | c4 b4 a4 b8 c8 | d4 b4 g4 e4 | d2. c4 |
-  
+
   \sect "A3"
 
   d4 f4 c'4 a8 c8 | a4 d,4 d4. c8 | d4 f4 c'4 c4 | d,2. c8 cs8 |
@@ -122,10 +105,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

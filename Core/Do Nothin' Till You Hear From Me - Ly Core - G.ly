@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -36,7 +31,7 @@ And you nev -- er will. __
 }
 
 refrainChords = \chordmode {
-  s1
+  \chordInsideParens{ d1:7 }
   g1:maj7 d2:m7 g2:7 c1:maj7 c2:m7 f2:7
   g2:maj7 e2:7.5+ a2:7 d2:7 g1:maj7 d4:7 r2.
 
@@ -54,15 +49,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -70,37 +57,38 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Swing [Oscar Peterson 1960]" 92
 
+  \segnoSign
+
   r8 c8 a8 as8 b8 d8 c8 a8 |
-  
+
   \bar "||-||"
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBreak "A1"
 
   \set Score.currentBarNumber = #1
 
   b1 | r8 c8 a8 as8 b8 d8 c8 a8 | b1 | r8 c8 a8 as8 b8 d8 c8 a8 |
   b8 g8 d8 c8~ c2 | r4 bf'4 b8 d,8 e8 g8~ | g1 | r8 c8 a8 as8 b8 d8 c8 a8 |
 
-  \sect "A2"
+  \sectNoBreak "A2"
 
   b1 | r8 c8 a8 as8 b8 d8 c8 a8 | b1 | r8 c8 a8 as8 b8 d8 c8 a8 |
   b8 g8 d8 c8~ c2 | r4 bf'4 b8 d,8 e8 g8~ | g1 | r2 r8 g8 g8 g8 |
 
-  \sect "B"
-  
+  \sectNoBreak "B"
+
   bf1 | g8 bf8 g8 g4 g8 g8 g8 | bf1 | g8 bf8 g8 g4 g8 g8 g8 |
   d'2. r8 d,8 | e8 g8 b8 fs2 g8 | a8 f8 fs8 a4 as8 b8 d8 |
   r8 c8 a8 as8 b8 d8 c8 a8 |
-  
-  \sect "A3"
-  
+
+  \sectNoBreak "A3"
+
   b1 | r8 c8 a8 as8 b8 d8 c8 a8 | b1 | r8 c8 a8 as8 b8 d8 c8 a8 |
   b8 g8 d8 c8~ c2 |
-  \textToCodaLastTime
+  \textToCodaLastTimeOptional
   r4 bf'4 b8 d,8 e8 g8~ | g1 | r1 |
 
   \bar "|."
-  \pageBreak
 }
 
 soloChords = \chordmode {
@@ -113,7 +101,7 @@ soloChords = \chordmode {
   g2:maj7 e2:7 a2:7 d2:7
 
   g1:maj7 f2:m7 bf2:7
-  
+
   ef1:maj7 f2:m7 bf2:7 ef1:maj7 ef1:7
   g1:maj7 b2:m7 e2:7 a1:7 d1:7
 
@@ -130,37 +118,37 @@ soloMelody = \relative f' {
   \time 4/4
   \key \soloKey \major
   \clef \whatClef
-  
+
   \xTextMark \markup{ "Solos" \bold \box "A1" }
 
   \bar ".|:"
-  
+
   \repeat volta 2 {
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
-  \break
-  \xTextMark \markup{ \bold \box "A2" }
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  %% \break
+  \sect "A2"
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  %% \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
-  \break
-  \xTextMark \markup{ \bold \box "B" }
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  %% \break
+  \sect "B"
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  %% \break
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
-  \break
-  \xTextMark \markup{ \bold \box "A3" }
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \break
+  %% \break
+  \sect "A3"
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
   \alternative {
     { \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | }
-    { \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | }
+    { \rsq \rsq \rsq \rsq \dalSegno | \rsq \rsq \rsq \rsq | }
     }
 
   \bar "|."
@@ -194,11 +182,6 @@ codaMelody = \relative f {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -70,13 +65,13 @@ refrainChords = \chordmode {
 
   bf2:maj7 bf2:6 a2:m7.5- d2:7.9- g2:m9 gf2:7.11+ f2:m9 bf2:9
   ef1:maj d2:m7 g2:7.9- c1:m7 c1:m7
-  
+
   f1:13 f1:9.5+ bf1:6 bf1:6
   e1:m7.5- a2:sus7 a2:7 d2:m7 g2:7 c2:m7 f2:7
 
   bf2:maj7 bf2:6 a2:m7.5- d2:7.9- g2:m9 gf2:7.11+ f2:m7 bf2:9
   ef1:maj d2:m7 g2:7.9- c1:m7 c1:m7
-  
+
   g2:m g2:m7 e1:dim7 bf2:maj7 e2:m7.5- bf2/d gf2:7/df
   c1:9 c2:7/f f2:7.9- bf2
   \chordOpenParen{ b2:dim7 }
@@ -86,15 +81,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -102,8 +89,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Bossa [Frank Sinatra & Antonio Carlos Jobim 1969]" 100
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
   r8 a8 f8 g8 a2~ | a4 f8 g8 \tuplet 3/2 { a4 g4 f4 } | g4 d8 g8~ g2~ | g1 |
   \break
   r8 a8 f8 g8 a2~ | a4 f8 g8 \tuplet 3/2 { a4 g4 f4 } | g4 d8 g8~ g2~ | g1 |
@@ -111,21 +98,18 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { a4 a4 a4 } \tuplet 3/2 { a4 a4 a4 } | a4. a8 a8 a8 gs8 a8 | c2~ c8 bf8 a8 g8 | f4 ef2 f4 |
   \break
   g2. ef8 c8 | ef2. d4 | b1 | r1 |
-  
+
 
   \sect "A1"
-  
+
   f'2. ef8 d8 | ef2. d8 c8 | d2. c8 bf8 | c4 c2. |
   \break
   g'2. f8 ef8 | f2. af8 g8 | ef1~ | ef1 |
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectNoBarNoBreak "B"
-  
+
+  \sectPageBreak "B"
+
   \tuplet 3/2 { g4 a,4 g'4 } \tuplet 3/2 { g4 a,4 g'4 } | g1 |
-  \tuplet 3/2 { g4 bf,4 g'4 } \tuplet 3/2 { g4 bf,4 g'4 } | g1 | 
+  \tuplet 3/2 { g4 bf,4 g'4 } \tuplet 3/2 { g4 bf,4 g'4 } | g1 |
   \break
   \tuplet 3/2 { a4 e4 a4 } \tuplet 3/2 { a4 e4 a4 } | a2~ a8 g4 a8 |
   \tuplet 3/2 { g4 f4 g4 } \tuplet 3/2 { g4 f4 g4 } | \tuplet 3/2 { g4 f4 g4 } \tuplet 3/2 { f4 ef4 d4 } |
@@ -135,9 +119,9 @@ refrainMelody = \relative f' {
   f2. ef8 d8 | ef2. d8 c8 | d2. c8 bf8 | c4 c2. |
   \break
   g'2~ g8 f4 ef8 | f2~ f8 ef4 d8 | bf'1~ | bf2~ bf4. r8 |
-  
+
   \sect "C"
-  
+
   \tuplet 3/2 { bf4 c4 a4 } \tuplet 3/2 { bf4 c4 a4 } | bf1 |
   \tuplet 3/2 { bf4 c4 a4 } \tuplet 3/2 { bf4 c4 a4 } | bf1 |
   \break
@@ -148,11 +132,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 refrainLyrics = \refrainPortugueseLyrics
 refrainLyricsTwo = \refrainEnglishLyrics

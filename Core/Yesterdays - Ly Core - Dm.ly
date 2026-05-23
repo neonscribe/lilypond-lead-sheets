@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 16) #}
 )
@@ -41,15 +36,15 @@ yes -- ter -- days.
 }
 
 refrainChords = \chordmode {
-  d1:m e2:m7.5- a2:7.9- d1:m e2:m7.5- a2:7.9- 
+  d1:m e2:m7.5- a2:7.9- d1:m e2:m7.5- a2:7.9-
   d2:m d2:m/cs d1:m/c b1:m7.5- e1:7
-  
+
   a1:7.5+ d1:7 g1:7 c1:7
   c2:m7 f2:7 bf2:maj7 ef2:maj7 e1:m7.5- a1:7.5+
 
-  d1:m e2:m7.5- a2:7.9- d1:m e2:m7.5- a2:7.9- 
+  d1:m e2:m7.5- a2:7.9- d1:m e2:m7.5- a2:7.9-
   d2:m d2:m/cs d1:m/c b1:m7.5- e1:7
-  
+
   a1:7.5+ d1:7 g1:7 c1:7
   c2:m7 f2:7 bf2:maj7 ef2:maj7 e1:m7.5- a1:7.5+
 
@@ -58,15 +53,7 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -75,41 +62,36 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Billie Holiday 1939]" 75
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   a2. f4 | g1 | a2. f4 | g1 |
   \break
   d4 e4 f4 g4 | gs4 a4 b4 c4 | f2. b,4 | e1 |
-  
+
   \sect "B1"
-  
+
   f2. a,4 | e'1 | e2. g,4 | d'1 |
   \break
   d2. a4 | c4 bf4 f4 g4 | a1 | a2 a2 |
-  
+
   \sect "A2"
-  
+
   a2. f4 | g1 | a2. f4 | g1 |
   \break
   d4 e4 f4 g4 | gs4 a4 b4 c4 | f2. b,4 | e1 |
-  
+
   \sect "B2"
 
   f2. a,4 | e'1 | e2. g,4 | d'1 |
   \break
   d2. a4 | c4 bf4 f4 g4 | a1 | a2  \textToCodaLastTime a2 |
-  
+
   \bar "|."
-  
+
   \textCoda
   a1\fermata |
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

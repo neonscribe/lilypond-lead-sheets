@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -19,10 +14,10 @@ subtitle =
 
 refrainChords = \chordmode {
   a2:7/bf
-  
+
   d1 d2 a2:7/bf d1 d2 a2:7/bf
   d1 d2 a2:7/bf a1:m7 d2:7 d2:7/ef
-  
+
   g1 g2 a2:7 d1 d2 b2:m7
   e1:9 e1:9 ef1:9 a2:7 a2:7/ef
 
@@ -35,15 +30,7 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -52,28 +39,27 @@ refrainMelody = \relative f' {
   \tempoFour "Bossa or Ballad [Django Reinhardt 1943]" 90
 
   \partial 2 fs2 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   a1~ | a4 r4 fs2 | e1~ | e2 fs2 |
   \break
   a1~ | a4 r4 fs2 | e1~ | e2 b'2 |
 
   \sect "B"
-  
+
   d1~ | d4 r4 b2 | a1~ | a4 r8 d,8 e8 d8 cs8 d8 |
   \break
   fs8 fs8~ fs2.~ | fs4 r8 d8 e8 d8 cs8 d8 | f1~ | f2 fs2 |
-  
+
   \sect "A2"
-  
+
   a1~ | a4 r4 fs2 | e1~ | e2 fs2 |
   \break
   a1~ | a4 r4 fs2 | e1~ | e2 b'2 |
 
   \sect "C"
-  
+
   d1~ | d4 r4 e2 | fs1~ | fs2 d2 |
   \break
   f1~ | f2 fs2 | d1~ | d2 r2 |
@@ -82,10 +68,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -38,14 +33,14 @@ Too man -- y words are still un -- spo -- ken.
 refrainChords = \chordmode {
   c2:maj7 g2:sus9 c2:maj7 g2:sus9 c2:maj7 g2:sus9 g2:m7 d4/fs f4:m6
   e2:m7 a2:7.9- d4:m7 e4:m7 f4:maj7 g4:sus9
-  
+
   c2:maj7 g2:sus9 c2:maj7 g2:sus9
-  
+
   c2:maj7 g2:sus9 c2:maj7 bf4:m7 ef4:7
-  
+
   af2:maj7 ef2:sus9 af2:maj7 ef2:sus9 af2:maj7 ef2:sus9 af2:maj7 ef2:sus9
   af2:maj7 g2:7.5+.9- c4:maj7 e4:m7 a4:m7 ef4:9 d2:sus9 d2:7 d2:m7 g2:7
-  
+
   c2:maj7 g2:sus9 c2:maj7 g2:sus9 c2:maj7 g2:sus9 g2:m7 d4/fs f4:m6
   e2:m7 a2:7.9- d2:m7 g2:sus9 c2:maj7 g2:sus9 c2:maj7
   \chordInsideParens{ g2:sus9 }
@@ -53,15 +48,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -70,7 +57,7 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad or Medium [Bill Evans Trio 1961]" 124
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   \tuplet 3/2 { e4 f4 g4 } g4 g4 | a4 g2. | \tuplet 3/2 { c4 bf4 a4 } g4 g4 |
@@ -82,11 +69,11 @@ refrainMelody = \relative f' {
   c8 d8 c2.~ | c2 r2 |
   } } }
   \sect "B"
-  
+
   c8 df8 ef4 ef4 ef4 | af4 ef2. | c'4. bf8 c4. bf8 | af4 ef2. |
   \break
   c8 df8 ef4 ef4 ef4 | e4 g4 a4 c4 | d2. d,4 | f1 |
-  
+
   \sect "A3"
 
   \tuplet 3/2 { e4 f4 g4 } g4 g4 | a4 g2. | \tuplet 3/2 { c4 bf4 a4 } g4 g4 |
@@ -98,10 +85,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

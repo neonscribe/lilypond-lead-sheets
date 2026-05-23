@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
    (set-global-staff-size 18))
 
@@ -39,11 +34,11 @@ For I have -- n't met a gent so mag -- nif -- i -- cent or el -- e -- gant as my
 refrainChords = \chordmode {
   g1:maj7 b2:m7.5- e2:7.9- a1:m7 a2:m7.5- d2:7
   g2:6 c4:7 f4:7 bf2:6 ef2:7 d2:7 ef2:7
-  
+
   a2:m7 d2:7
-  
+
   c2:m7 f2:7
-  
+
   bf1:maj7 c2:m7 f2:7 af2:7 g2:7 c1:7
   c2:m7 f2:7 bf2:maj7 ef2:7 e2:m7 a2:7 a2:m7 d2:7
 
@@ -55,15 +50,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -72,7 +59,7 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Billie Holiday 1947]" 74
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   b2 d2 | f,2~ f4. e8 | a8 a8 a8 a8~ a8 b8 c4 | ef,2. d8 e8 |
@@ -84,28 +71,23 @@ refrainMelody = \relative f' {
   a2. r4 |
   } } }
   \sect "B"
-  
+
   r8 d8 d8 bf8 bf8 f8 f8 e8 | ef8 f8 \tuplet 3/2 { ef8 f8 ef8~ } ef4. d8 |
   ef8 f8 \tuplet 3/2 { ef8 f8 ef8~ } ef8 cs8 d8 a'8~ | a2. r4 |
   \break
   g8 a8 \tuplet 3/2 { g8 a8 g8~ } g8 e8 f8 c'8~ | c2~ c4. bf8 |
   a8 a8 g8 g8 e4. a8 | d8 d8 c8 c8 a8 a8 as4 |
-  
+
   \sect "A3"
-  
+
   b2 d2 | f,2~ f4. e8 | a8 a8 a8 a8~ a8 b8 c4 | ef,2. d8 e8 |
   \break
-  g8 g8 d8 e8 g4 g8 a8 | bf8 bf8 f8 g8 \tuplet 3/2 { bf8 g8 bf8~ } bf8 c8 | 
+  g8 g8 d8 e8 g4 g8 a8 | bf8 bf8 f8 g8 \tuplet 3/2 { bf8 g8 bf8~ } bf8 c8 |
   d2 bf2 | g2. r4 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

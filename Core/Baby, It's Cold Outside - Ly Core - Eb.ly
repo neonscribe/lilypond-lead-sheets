@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "Frank Loesser"
   copyright = \markup \small { \now " " "© 1948 Frank Music Corp." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I real -- ly can't stay, __ I've got to go 'way, __
@@ -70,34 +67,26 @@ Mind if I move in
 }
 
 refrainChords = \chordmode {
-  s4
-  
+  s8
+
   ef1:6 ef2:6 c2:m7 f2:m7 bf2:7 f2:m7 bf2:7
   ef1:6 ef2:6 c2:m7 bf1:m7 ef1:7
-  
+
   af2 af2:6 af2:maj7 af2:6
-  
+
   af2:m af2:m6 af2:m7 df2:9 ef1:6 c1:m7 f1:7 bf4:7 r2.
-  
+
   c2:m7 f2:7 f2:m7 bf2:7 ef1:6 g2:m7.5- c2:7 f2:7 bf2:7 ef2:6 \chordInsideParens{ bf2:7 }
-  
+
   g2:m7.5- c2:7 f1:7 f1:7 af1:m6 df1:9 ef1:6
-  
+
   f2:m7 fs4.:dim7 f8:m7
   \tuplet 3/2 { s4 d4:7.9+.5+ g4:13 } \tuplet 3/2 { c4:7.9+.5+ f4:13 bf4:7.9+.5+ } ef1:6.9
 }
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -105,39 +94,39 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Slow Swing [Ray Charles & Betty Carter 1961]" 78
 
-  \partial 4 \invisEighth bf,8 |
+  \partial 8 bf,8 |
 
-  \sectStart "A1,A2"
-  
+  \sectNoBarNoBreak "A1,A2"
+
   \repeat volta 2 {
   g'8 f8 ef8 bf'8~ bf2~ | bf2 r4 r8 bf,8 | af'8 g8 f8 bf8~ bf2~ | bf2 r4 r8 bf,8 |
   g'8 f8 ef8 bf'8~ bf2~ | bf4 bf4 g4 ef4 | f1~ | f2 r4 r8 ef8 |
 
   \sectNoBreak "B,C"
-  
+
   c'8 ef,8 ef4 ef4 ef4 | ef8 ef4. r4 r8 ef8 |
-  
+
   \alternative { \volta 1 {
 
-  cf'8 ef,8 ef8 ef8 ef8 ef8 ef4 | ef2. r8 ef8 | 
+  cf'8 ef,8 ef8 ef8 ef8 ef8 ef4 | ef2. r8 ef8 |
 
   \xPageBreak
-  
+
   c'8 ef,8 ef4 ef4 ef4 | ef8 ef4. r4 r8 ef8 | c'8 f,8 f8 f8 f8 f8 f4 | f2. r8 bf,8 |
 
   } \volta 2 {
-  
+
   c'8 f,8 f8 f8 f8 f8 f4 | f2. r8 bf,8 |
   g'8 f8 ef8 bf'8~ bf2~ \textToCodaLastTime | bf2 g8 af8 bf8 c8~ | c2 d,2 | ef2. r8
   \override Parentheses.font-size = #5
   \parenthesize bf8 |
   } } }
-  
+
   \textCodaBreak
   \bar "||-|."
-  
+
   bf'2\repeatTie g8 af8 bf8 a8~ | <a c>1~ | <a c>1 | <af cf>1~ | <af cf>1 | <g bf>1 |
-  \break  
+  \break
   ef4-. ef8 a8~ \tuplet 3/2 { a8 af8 gf8 } ef8 ef8 |
   \tuplet 3/2 { r4 bf'4 a4 } \tuplet 3/2 { af4 g4 df4 } | f1\fermata |
 
@@ -149,14 +138,14 @@ refrainMelodyTwo = \relative f' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \partial 4 \invisEighth r8 |
-  
+  \partial 8 r8 |
+
   \override Parentheses.font-size = #5
   \parenthesize ef4\repeatTie
   r8 bf8 g'8 f8 ef8 g8~ | g8 ef4 ef8~ ef4 r4 | r4 r8 bf8 af'8 g8 f8 af8~ | af8 f4 f8~ f4 r4 |
 
   r4 r8 bf,8 g'8 f8 ef8 g8~ | g8 ef4 ef8~ ef2 | r8 c'4. bf4 f8 c'8~ | c4 bf4 f4 g4 |
-  
+
   af2. r4 | c8 ef,8 ef4 ef4 ef4 |
 
   ef8 ef4. r2 | cf'8 ef,8 ef8 ef8 ef8 ef8 ef4 |
@@ -164,26 +153,21 @@ refrainMelodyTwo = \relative f' {
 
   ef8 ef4. r2 | c'8 c,8 c8 bf8 c8 bf8 c8 ef8~ |
   ef4 r8 bf8 g'8 af8 bf8 df8~ | df8 c4. g8 af8 bf8 a8~ | a2 af2 | g2. r4 |
-  
+
   df'8\repeatTie c4. g8 af8 bf8 c8\laissezVibrer |
-  
+
   r8 c,8 ef8 g8 ef4-. ef8 g8 | ef4-. ef4-. ef8 g8 ef4-. |
   r8 cf8 ef8 g8 ef4-. ef8 g8 | ef4-. ef4-. ef8 g8 ef4-. | r8 c8 ef8 g8 ef4-. ef8 g8 |
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   {
     \vspace #2
     \line { \large { I really can't stay } }
@@ -224,7 +208,7 @@ refrainMelodyTwo = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
     \vspace #2
     \line { \large { But baby, it's cold outside } }

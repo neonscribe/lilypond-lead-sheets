@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Vivo Sonhando (Dreamer)"
   subtitle = \subtitle
@@ -139,15 +134,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g' {
   \time 2/2
@@ -155,41 +142,30 @@ refrainMelody = \relative g' {
   \clef \whatClef
   \set Score.currentBarNumber = #1
 
-  \xTextMark \markup { \bold \box "A1" }
+  \sectNoBar "A1"
 
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
 
-  \bar "||-||"
-  \break
+  \sect "B"
 
-  \xTextMark \markup { \bold \box "B" }
   c8 c8 c8 c8 c8 b8 c8 d8~ | d4. d8~ d2 | b4. b8 b4 b8 c8~ | c2. r4 |
   r8 a8 a8 a8 a8 gs8 a8 b8~ | b4. a8 \tuplet 3/2 { a4 b4 c4 } | d2. f4 | d2. r4 |
 
-  \bar "||"
-  \xPageBreak
+  \sectPageBreak "A2"
 
-  \xTextMark \markup { \bold \box "A2" }
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
   fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
 
-  \bar "||-||"
-  \break
-  
-  \xTextMark \markup { \bold \box "C" }
+  \sect "C"
+
   c8 c8 c8 c4 b8 c8 d8~ | d4. d8~ d2 | b4. b8 b4 b8 c8~ | c2 e8 fs8 g8 a8~ |
   a2. r4 | r8 g4 fs8 e4 fs4 | g1~ | g1 |
-    
+
   \bar "||"
 }
-  
-\include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
+\include "../Include/paper.ily"
 
 \include "../Include/intro.ily"
 

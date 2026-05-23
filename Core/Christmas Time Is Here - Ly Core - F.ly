@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -37,7 +32,7 @@ refrainChords = \chordmode {
 
   f2.:maj7 ef2.:9.11+ f2.:maj7 ef2.:9.11+
   b2:m7.5- bf4:m7 a2:m7 af4:m7 g2:m7 bf4/c f2.:maj9
-  
+
   df2.:maj7 gf2.:9.11+ df2.:maj7 gf2.:9.11+
   a2:m7 ef4:9 d2:9 d4:7.9- g2:m7 df4:9 c2.:13
 
@@ -47,15 +42,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -64,37 +51,32 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad Waltz [Vince Guaraldi 1965]" 75
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   e'8 c8 c4. a8 | a2. | e'8 c8 c4. a8 | a2. |
   \break
   a8 f8 f4. e8 | g8 e8 e4. ef8 | d8 f8 d4 f4 | g2. |
-  
+
   \sect "A2"
-  
+
   e'8 c8 c4. a8 | a2. | e'8 c8 c4. a8 | a2. |
   \break
   a8 f8 f4. e8 | g8 e8 e4. ef8 | d8 f8 d4 f4 | g2. |
-  
+
   \sect "B"
-  
+
   c8 af8 af4. c8 | c2. | c8 af8 af4. c8 | c2. |
   \break
   c8 a8 a4. c8 | c8 a8 a4. bf8 | bf8 g8 g4 a4 | a2. |
-  
+
   \sect "A3"
 
   e'8 c8 c4. a8 | a2. | e'8 c8 c4. a8 | a2. |
   \break
   a8 f8 f4. e8 | g8 e8 e4. ef8 | d8 f8 d4 f4 | g2. |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

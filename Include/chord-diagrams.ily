@@ -166,7 +166,7 @@
       \layout {
 	\context {
 	  \ChordNames
-	  \override ChordName.font-size = #+3
+	  \override ChordName.font-size = #+2.5
 	  \override ChordName.font-series = #'bold
 	  \override ChordName.stencil = #text-interface::print-X-centered
 	}

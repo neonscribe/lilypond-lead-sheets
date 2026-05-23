@@ -10,11 +10,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I've Found a New Baby"
   subtitle = \subtitle
@@ -26,10 +21,10 @@ subtitle =
 refrainObjectGenderFemaleLyrics = \lyricmode {
   I've found a new ba -- by, __ I've found a new girl,
   My fash -- ion plate ba -- by __ has got me a -- whirl.
-  
+
   Her new kind o' lov -- in' __ done made me her slave,
   Her sweet tur --  tle dov -- in' __ is all that I crave. __
-  
+
   Sweet -- est miss, with a kiss, full o' bliss, can't re -- sist some -- how, __
   Tells me lies, but she's wise, naugh -- ty eyes mes -- mer -- ize, I vow, and how.
 
@@ -60,18 +55,18 @@ New ba -- by, that's all. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
 
 refrainChords = \chordmode {
   s2.
-  
+
   d1:m a1:7 d1:m d1:7 g1:7 c1:7 f1 a1:7
 
   d1:m a1:7 d1:m d1:7 g1:7 c1:7 f1 f1
-  
+
   a1:7 a1:7 d1:m d1:m g1:7 g1:7 c1:7 a1:7
 
   d1:m a1:7 d1:m d1:7 g1:7 c1:7 f1 a1:7
@@ -79,57 +74,43 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
   \tempoFour "Fast Swing [The Dixie Stompers 1926]" 204
-  
-  \partial 2. gs8 a8~ a8 gs8 a4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 2. gs8 a8~ a8 gs8 a4 |
+
+  \sectNoBreak "A1"
+
   f4. d8~ d2 | r4 gs8 a8~ a8 gs8 a4 | f1 | r4 cs'8 e8~ e8 cs8 d4 |
   \break
   a4. a8~ a2 | r4 a8 c8~ c8 a8 g4 | f1 | r4 gs8 a8~ a8 gs8 a4 |
-  
+
   \sect "A2"
-  
+
   f4. d8~ d2 | r4 gs8 a8~ a8 gs8 a4 | f1 | r4 cs'8 e8~ e8 cs8 d4 |
   \break
   a4. a8~ a2 | r4 a8 c8~ c8 a8 g4 | f1~ | f1 |
-  
+
   \sect "B"
-  
+
   r4 cs'8 c8 cs4 b8 cs8 | b4 a8 b8 a4 a8 g8 | f8 g4 a8~ a2 | r1 |
   \break
   r4 b8 bf8 b4 a8 b8 | a4 g8 a8 g4 g8 f8 | e8 f4 g8~ g2 | r4 gs8 a8~ a8 gs8 a4 |
-  
+
   \sect "A3"
 
   f4. d8~ d2 | r4 gs8 a8~ a8 gs8 a4 | f1 | r4 cs'8 e8~ e8 cs8 d4 |
   \break
   a4. a8~ a2 | r4 a8 c8~ c8 a8 g4 | f1~ | f1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

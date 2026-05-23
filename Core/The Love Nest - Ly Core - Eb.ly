@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "The Love Nest"
   subtitle = \subtitle
@@ -30,16 +25,16 @@ refrainLyrics = \lyricmode {
 
 refrainChords = \chordmode {
   s2
-  
-  ef2:maj7 c2:m7 f2:m7 bf2:7 ef1:maj7 ef2:6 ef2:7 
+
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef1:maj7 ef2:6 ef2:7
   af2:maj7 f2:m7 bf2:m7 ef2:7 af1:maj7 af1:6
-  
+
   bf1:7 bf1:7 ef2:maj7 df2:7.11+ c1:7
   f2:m7 c2:7/g f2:m7/af f2:7/a bf1:sus7 bf1:7
 
-  ef2:maj7 c2:m7 f2:m7 bf2:7 ef1:maj7 ef2:6 ef2:7 
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef1:maj7 ef2:6 ef2:7
   af2:maj7 f2:m7 bf2:m7 ef2:7 af1:maj7 af1:6
-  
+
   bf1:7 bf1:7 df1:7.11+ c1:7
   f1:m7 bf1:7 ef1:6
   \chordOpenParen{ f2:m7 }
@@ -48,15 +43,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -65,22 +52,21 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Slow [Nat King Cole 1947]" 104
 
   \partial 2 bf,4 bf'4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   g2 ef2~ | ef2 \tuplet 3/2 { f4 ef4 f4 } | g1~ | g2 ef4 ef'4 |
   \break
   c2 af2~ | af2 \tuplet 3/2 { bf4 af4 bf4 } | c1~ | c2 c4 ef4 |
-  
+
   \sect "B"
-  
+
   d4 d4 c4 c4 | bf4 bf4 af4 af4 | g1~ | g2 g4 bf4 |
   \break
   af4 af4 g4 g4 | f4 f4 ef4 ef4 | bf'1~ | bf4 r4 bf,4 bf'4 |
 
   \sect "A2"
-  
+
   g2 ef2~ | ef2 \tuplet 3/2 { f4 ef4 f4 } | g1~ | g2 ef4 ef'4 |
   \break
   c2 af2~ | af2 \tuplet 3/2 { bf4 af4 bf4 } | c1~ | c2 c4 ef4 |
@@ -95,10 +81,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

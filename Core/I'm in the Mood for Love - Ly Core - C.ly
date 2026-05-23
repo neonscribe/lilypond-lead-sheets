@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -37,7 +32,7 @@ refrainChords = \chordmode {
 
   c1 f1:6 g1:7 c1
   e2:m7 ef2:dim7 d1:m7 g1:7 c1
-  
+
   f2:6 g2:7 c2 e4:m7.5- a4:7 f2:m6/af g2:7 c1
   a2:m6 b2:7 e1:m a2:m7.5- d4:7.5- d4:7 f2:m6 g2:7
 
@@ -48,15 +43,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -65,37 +52,32 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Nat King Cole 1946]" 128
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   \tuplet 3/2 { e4 f4 e4 } d4 c4 | d1 | \tuplet 3/2 { d4 e4 f4 } g4 a4 | b4 c2. |
   \break
   d8 b4 d8 b4 bf4 | a4 c2. | a8 g4 a8 g4 b,4 | g'1 |
-  
+
   \sect "A2"
-  
+
   \tuplet 3/2 { e4 f4 e4 } d4 c4 | d1 | \tuplet 3/2 { d4 e4 f4 } g4 a4 | b4 c2. |
   \break
   d8 b4 d8 b4 bf4 | a4 c2. | a8 g4 a8 g4 b,4 | c1 |
-  
+
   \sect "B"
-  
+
   d8 e4 f8 e4 d4 | g4 g2. | d8 e4 f8 e4 d4 | g1 |
   \break
   fs8 g4 a8 g4 fs4 | b4 b2. | b8 c4 b8 d2 | d,8 e4 d8 f2 |
-  
+
   \sect "A3"
 
   \tuplet 3/2 { e4 f4 e4 } d4 c4 | d1 | \tuplet 3/2 { d4 e4 f4 } g4 a4 | b4 c2. |
   \break
   d8 b4 d8 b4 bf4 | a4 c2. | a8 g4 a8 g4 b,4 | c2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

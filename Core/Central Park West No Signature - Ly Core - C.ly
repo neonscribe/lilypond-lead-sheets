@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Central Park West"
   subtitle = \subtitle
@@ -19,7 +14,7 @@ subtitle =
 
 refrainChords = \chordmode {
   cs4:m7 fs4:7
-  
+
   b4:maj7 \chordSlash 1 e4:m7 a4:7 d2:maj7 bf4:m7 ef4:7 af2:maj7 g4:m7 c4:7
   f2:maj7 cs4:m7 fs4:7 b4:maj7 \chordSlash 1 e4:m7 a4:7 d2:maj7 cs4:m7 fs4:7
   b1:maj7 cs1:m7/b b1:maj7 cs2:m7/b cs4:m7 fs4:7
@@ -38,15 +33,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,21 +58,18 @@ refrainMelody = \relative f' {
   \startParenthesis \parenthesize
   ds4
   \endParenthesis \parenthesize cs4 |
-  
-  \bar "||"
-  
-  \xPageBreak
 
-  \sectNoBar "Solos"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+
+  \sectPageBreak "Solos"
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \bar "|."
-  
+
   \textCodaBreak
-  
+
   ds4-._"(sample fill)" r4 r4 \tuplet 3/2 { r8 ds8 fs8 } | cs2.~ \tuplet 3/2 { cs8 cs8 fs8 } |
   fs8 ds8~ ds2 \tuplet 3/2 { r8 ds8 fs8 } | \tuplet 3/2 { fs8 cs4~ } cs4 r4 \tuplet 3/2 { r8 cs8 fs8 } |
   ds2.~ \tuplet 3/2 { ds8 ds8 fs8 } | cs2 r4 \tuplet 3/2 { r8 cs8 fs8 } | ds2 r4 cs8 a8 | gs2.. fs'8 |
@@ -105,10 +89,5 @@ refrainKicksOverTime = \relative f' {
 
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

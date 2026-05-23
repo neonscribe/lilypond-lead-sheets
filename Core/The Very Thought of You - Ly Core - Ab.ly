@@ -8,13 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "The Very Thought of You"
   subtitle = \subtitle
@@ -22,6 +15,8 @@ subtitle =
   composer = "Ray Noble"
   copyright = \markup \small { \now " " "© 1934 Campbell Connelly & Co. Ltd." }
 }
+
+leadingEighth = ##t
 
 refrainMaleSingerLyrics = \lyricmode {
 The ve -- ry thought of you, __ and I for -- get to do __
@@ -46,14 +41,14 @@ It's just the thought of you, __ the ver -- y thought of you, my love. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainFemaleSingerLyrics
   refrainMaleSingerLyrics)
 
 refrainChords = \chordmode {
-  s2
-  
+  s4.
+
   af2:maj7 bf2:m7 c2:m7 bf2:m7 af2:6 bf2:m7 c2:m7 bf2:m7
   af2:6 bf2:m7 b2:dim7 af2:6/c bf1:7 bf1:7
 
@@ -71,15 +66,7 @@ refrainChords = \chordmode {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -87,44 +74,38 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Nat King Cole 1958]" 79
 
-  \partial 2 \invisEighth c8 ef8 c8 |
-  \bar "||"
+  \partial 4. c8 ef8 c8 |
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   ef8 ef8 ef2.~ | ef2~ ef8 c8 ef8 c8 | f8 f8 f2.~ | f2~ f8 f8 af8 f8 |
-  \break
+  %% \break
   af4. f8 af4. f8 | af4. f8 \tuplet 3/2 { af4 f4 af4 } |
   c8 c8 c2.~ | c2~ c8 c8 ef8 c8 |
-  
+
   \sect "B"
-  
+
   ef4. c8 ef4. c8 | bf4 bf2 af4 | c4. af8 c4. af8 | g2. f4 |
-  \break
+  %% \break
   ef4. c8 ef4. f8 | g4 g2 af4 | bf2~ bf8 af8 f8 df8 | bf2 r8 c8 ef8 c8 |
-  
-  \sect "A2"
-  
+
+  \sectPageBreak "A2"
+
   ef8 ef8 ef2.~ | ef2~ ef8 c8 ef8 c8 | f8 f8 f2.~ | f2~ f8 f8 af8 f8 |
-  \break
+  %% \break
   af4. f8 af4. f8 | af4. f8 \tuplet 3/2 { af4 f4 af4 } |
   c8 c8 c2.~ | c2~ c8 c8 ef8 c8 |
-  
+
   \sect "C"
 
   ef4. c8 ef4. c8 | bf4 bf2 af4 | c4. af8 c4. af8 | f2~ f8 c8 ef8 c8 |
-  \break
+  %% \break
   ef8 ef8 ef4~ ef8 c8 ef8 c8 | ef8 ef8 ef2 c'4 | af1~ | af2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

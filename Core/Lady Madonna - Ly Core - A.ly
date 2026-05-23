@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -43,7 +38,7 @@ refrainChords = \chordmode {
 
   d1:m7 g1:7 c1 a1:m7
   d1:m7 g1:7 c2 b2:m7 e2:sus7 e2:7
-  
+
   f4 g4
 }
 
@@ -55,15 +50,7 @@ outroChords = \chordmode {
 introKey = a
 refrainKey = a
 outroKey = a
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 
 introBass = \relative f' {
@@ -91,8 +78,8 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Beatles 1968]" 109
 
-  \sectStart "Piano Intro"
-  
+  \sectNoBarNoBreak "Piano Intro"
+
   <a bs cs>8 <a bs cs>4 <a bs>8 <gs b>8 a8~ a16 a8. | <a bs cs>8 <a bs cs>8 <a bs>8 <gs b>8 a2 |
   <a bs cs>8 <a bs cs>8 <a bs>8 <gs b>8 a4 a4 | a4 <a b>4 <a bs cs>2 |
 
@@ -106,27 +93,27 @@ refrainMelody = \relative f' {
   \clef \whatClef
 
   \sect "Verse 1"
-  
+
   \bar ".|:"
   \repeat volta 4 {
   cs'8 cs8~ cs8 cs16 b16~ b16 a8. r4 | cs8 cs16 b16~ b8 fs8 a4 r4 |
   cs8 cs8 e8 cs8 fs8 e8 cs8 a8~ \textToCodaLastTime | a8 a4 c8( a4) r4 |
-  
+
   cs8 cs8~ cs8 cs16 b16~ b16 a8. r4 | cs8 cs8 b8 fs16 a16~ a4 r4 |
   cs8 cs8 e8 cs8 fs16 e8 cs16~ cs4 | a4 g8 c8( a4) r4 |
-  
+
   \sect "Bridge 1"
-  
+
   d8 d16 d16~ d8 c16 d16~ d8 c16 d16~ d8 c8 | d4 g,2 r4 |
   c8 c16 c16~ c8 a8 c8 c8 d8 e8 | c8( a8) r4 r2 |
-  
+
   d8 d8 d8 c8 d8 c16 d16~ d8 c8 | d4 b16( a16 g8~ g4) r4 |
   <c e>2 <b d fs>4 <b d fs>4 |
   <b d e>2. r4 |
   }
 
   \textCoda
-  
+
   \time 2/4
   a8\repeatTie a4 c8\laissezVibrer
 }
@@ -137,8 +124,8 @@ outroMelody = \relative f' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \sectStart "Piano Outro"
-  
+  \sectNoBarNoBreak "Piano Outro"
+
   \numericTimeSignature
   \time 4/4
   \bar "||"
@@ -150,17 +137,12 @@ outroMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/intro.ily"
 \include "../Include/refrain.ily"
 \include "../Include/outro.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -178,7 +160,7 @@ outroMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { Lady Madonna, baby at your breast. } }

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -27,32 +22,24 @@ They say they want to bring me in guilt -- y
 for the kill -- ing of a dep -- u -- ty.
 For the life of a dep -- u -- ty.
 
-But I say: 
+But I say:
 }
 
 refrainChords = \chordmode {
   g1:m c1:m7 g1:m g1:m
   g1:m c1:m7 g1:m g1:m
-  
-  ef2:maj7 d2:m7 g1:m ef2:maj7 d2:m7 g1:m 
-  ef2:maj7 d2:m7 g1:m ef2:maj7 d2:m7 g1:m 
-  
+
+  ef2:maj7 d2:m7 g1:m ef2:maj7 d2:m7 g1:m
+  ef2:maj7 d2:m7 g1:m ef2:maj7 d2:m7 g1:m
+
   ef2:maj7 d2:m7 g1:m  r1 r2 r1
-  
+
   g1:m c1:m7 g1:m g1:m
 }
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -61,13 +48,13 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Slow [Eric Clapton 1974]" 95
 
   \xTextMark \markup{ \bold \box "A" }
-  
+
   d'4 c8 bf16 c16~ c8 d4. | r4 g,8 g8 bf8 bf8 c8 bf8 | d8 g,8 g4 r2 | r1 |
   \break
   d'4 c8 bf16 c16~ c8 d4. | r4 g,8 g8 bf8 bf8 c8 bf8 | d8 g,8 g4 r2 | r1 |
-  
+
   \sect "B"
-  
+
   r4 g8 g8 f4 d8 f8 | f8( g8) d4 r4 r8 bf8 |
   g'8 g4 g8 g8( f8) f4 | d2 r4 r8 bf8 |
   \break
@@ -86,22 +73,17 @@ refrainMelody = \relative f' {
   \break
 
   \xTextMark \markup{ \bold \box "Outro" }
-  
+
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \bar "|."
-  \xPageBreak
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
+\pageBreak
 
 \markup {
   \column {

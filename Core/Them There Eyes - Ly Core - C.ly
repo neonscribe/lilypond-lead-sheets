@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -31,7 +26,7 @@ You're ov -- er -- work -- in′ 'em, there's dan -- ger lurk -- in′ in them t
 refrainChords = \chordmode {
   c1 c1 c2 g2:9.5+ c1
   c1 c2 a2:m7 d1:9 d1:9
-  
+
   g1:9 g1:9 c1 a1:m7
   d1:7 d1:7 g1:7 g1:7
 
@@ -45,15 +40,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -61,26 +48,26 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up [Billie Holiday 1939]" 160
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   g4 e8 d8 c8 d8 e4 | g4 e8 d8 c8 d8 e4 | a2 a2 | a1 |
   \break
   g4 e8 d8 c8 d8 e4 | g4 e8 d8 c8 d8 e4 | a2 a2 | a1 |
-  
+
   \sect "B"
-  
+
   r4 a4 g4 f4 | r4 a4 g4 f4 | r4 a4 g4 e4 | c1 |
   \break
   r4 c'4 b4 a4 | r4 c4 b4 a4 | b8 c8 cs8 d8 d,8 d4 e8 | f4 cs8 e8 d4 r4 |
-  
+
   \sect "A2"
 
   g4 e8 d8 c8 d8 e4 | g4 e8 d8 c8 d8 e4 | a2 a2 | a1 |
   \break
   r4 c4 c4 c4 | c4 a4 g4 e4 | d1~ | d2. r4 |
-  
+
   \sect "C"
-  
+
   r4 c'4 b4 a4 | r4 c4 b4 a4 | c4 e,8 ds8 e8 g8 a8 g8 | b4 a8 b8 a8 g4. |
   \break
   g4 e8 d8 c8 d8 e4 | g4 e8 d8 c8 d8 e4 | a2 b2 | c2 r2 |
@@ -89,10 +76,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

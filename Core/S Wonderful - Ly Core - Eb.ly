@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -48,15 +43,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -65,37 +52,32 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Fred Astaire 1956]" 140
 
   \xTextMark \markup{ \bold \box "A1" }
-  
-  bf4. bf8 g2~ | g1 | bf4. bf8 g2~ | g1 | 
+
+  bf4. bf8 g2~ | g1 | bf4. bf8 g2~ | g1 |
   \break
   bf4. bf8 g2~ | g2 bf2 | ef,1~ | ef2 r2 |
-  
+
   \sect "A2"
-  
-  bf'4. bf8 g2~ | g1 | bf4. bf8 g2~ | g1 | 
+
+  bf'4. bf8 g2~ | g1 | bf4. bf8 g2~ | g1 |
   \break
   bf4. bf8 g2~ | g2 bf2 | c1~ | c2 ef2 |
-  
+
   \sect "B"
-  
+
   d1 | r4 d4 d4 d4 | e4. d8 d2~ | d1 |
   \break
   r4 d4 d4 d4 | d4 d4 d4 d4 | d4. c8 c2~ | c2 cf2 |
-  
+
   \sect "A3"
 
-  bf4. bf8 g2~ | g1 | ef'4. ef8 c2~ | c1 | 
+  bf4. bf8 g2~ | g1 | ef'4. ef8 c2~ | c1 |
   \break
   r8 ef4. af,4 g4 | bf2 g2 | ef1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

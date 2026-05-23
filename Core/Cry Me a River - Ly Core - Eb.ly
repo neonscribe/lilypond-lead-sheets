@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Cry Me a River"
   subtitle = \subtitle
@@ -56,15 +49,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -73,30 +58,30 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Julie London 1955]" 60
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   d2~ d8 c8 g8 ef8 | d8 c8~ c2. | r8 c8 ef8 c'8 bf4 bf4 |
-  g2~ g8 g8 fs8 g8 | c4~ \tuplet 3/2 { c8 df8 c8 } df8 c4. | 
+  g2~ g8 g8 fs8 g8 | c4~ \tuplet 3/2 { c8 df8 c8 } df8 c4. |
   r8 g8~ \tuplet 3/2 { g8 f8 ef8 } f8 g4. |
   r8 gf8 f8 ef8 f8 ef8 c8 ef8 | ef1 |
 
   \sect "A2"
 
   d'2~ d8 c8 g8 ef8 | d8 c8~ c2. | r8 c8 ef8 c'8 bf4 bf4 |
-  g2~ g8 g8 fs8 g8 | c4~ \tuplet 3/2 { c8 df8 c8 } df8 c4. | 
+  g2~ g8 g8 fs8 g8 | c4~ \tuplet 3/2 { c8 df8 c8 } df8 c4. |
   r8 g8~ \tuplet 3/2 { g8 f8 ef8 } f8 g4. |
   r8 gf8 f8 ef8 f8 ef8 c8 ef8 | ef1 |
 
-  \sect "B"
-  
+  \sectPageBreak "B"
+
   r8 g8 a8 bf8 d,8 e8 fs8 g8 | a8 g8 bf8 a8~ a4. g8 |
   bf4~ \tuplet 3/2 { bf8 g8 d'8 } c4 bf8 c8~ |
   c1 | r8 g8 a8 bf8 d,8 e8 fs8 g8 | a8 g8 bf8 a8~ a2 |
   r8 a16 g16 a8 g8 a8 g8 b8 g8 | r8 a16 g16 a8 g8 a8 g8 b8 g8 |
-  
+
   \sect "A3"
 
   d'2~ d8 c8 g8 ef8 | d8 c8~ c2. | r8 c8 ef8 c'8 bf4 bf4 |
-  g2~ g8 g8 fs8 g8 | c4~ \tuplet 3/2 { c8 df8 c8 } df8 c4. | 
+  g2~ g8 g8 fs8 g8 | c4~ \tuplet 3/2 { c8 df8 c8 } df8 c4. |
   r8 g8~ \tuplet 3/2 { g8 f8 ef8 } f8 g4. |
   r8 gf8 f8 ef8 f8 ef8 c8 ef8 | ef1 |
 
@@ -104,10 +89,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -36,25 +31,25 @@ refrainLyrics = \lyricmode {
   I look
 
   _ _ _ _
-  
+
   %% Bridge
   I __ don't know why __
   no -- bod -- y told __ you,
   how __ to un -- fold __ your love. __
-  
+
   %% Verse 2, 3
   I look __ at __ the world __
   and I no -- tice __ it's turn -- ing
   while my gui -- tar gen -- tly weeps. __
-  
+
   for ev -- 'ry __ mis -- take __
   we __ must sure -- ly __ be learn -- ing;
   still my gui -- tar gen -- tly weeps. __
-  
+
   %% Coda
   _ at __ you all. __
   Still my gui -- tar __ gen -- tly weeps. __
-  
+
 }
 
 refrainLyricsTwo = \lyricmode {
@@ -73,9 +68,9 @@ refrainLyricsTwo = \lyricmode {
   at __ the floor __
   and I see __ it __ needs sweep -- ing;
   still my gui -- tar
-  
+
   _ _ _
-  
+
   _ _
 
   _ gen -- tly weeps. __
@@ -83,7 +78,7 @@ refrainLyricsTwo = \lyricmode {
   I __ don't know how __
   some -- one con -- trolled __ you,
   they __ bought and so -- ld __ you. __
-  
+
   %% Verse 2, 3
   I look __ at __ you all, __
   see the love __ there __ that's sleep -- ing
@@ -106,9 +101,9 @@ refrainLyricsThree = \lyricmode {
   _ _ _
   _ _ _ _ _ _ _
   _ _ _ _
-  
+
   _ _ _
-  
+
   _ _
 
   _ _ _ _
@@ -134,9 +129,9 @@ refrainLyricsFour = \lyricmode {
   _ _ _
   _ _ _ _ _ _ _
   _ _ _ _
-  
+
   _ _ _
-  
+
   _ _
 
   _ _ _ _
@@ -149,50 +144,42 @@ refrainLyricsFour = \lyricmode {
 refrainChords = \chordmode {
   a1:m a1:m/g fs1:m7.5- d1:m/f
   a1:m g1 d1 e1
-  
+
   a1:m a1:m/g fs1:m7.5- f1:maj7
   a1:m
-  
+
   g1 d1/fs e1
-  
+
   g1 c1 e1
-  
+
   a1 cs1:m7 fs1:m7 cs2.:m7 c4:m7
   b1:m7 b1:m7 e2 e2/fs
-  
+
   e1/gs
-  
+
   e1/gs
-  
+
   a1:m a1:m/g fs1:m7.5- f1:maj7
   a1:m g1 d1/fs e1
-  
+
   a1:m a1:m/g fs1:m7.5- f1:maj7
   a1:m g1 c1 e1
-  
+
   a1:m a1:m/g fs1:m7.5- f1:maj7
   a1:m g1 d1/fs e1
-  
+
   a1:m a1:m/g fs1:m7.5- f1:maj7
   a1:m g1 c1 e1:7
-  
+
   a1:m a1:m/g fs1:m7.5- f1:maj7
   a1:m g1 c1 e1
-  
+
   a1:m a1:m/g fs1:m7.5- f1:maj7 a1:m a1:m/g d1 e1
 }
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -200,7 +187,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Beatles 1968]" 123
 
-  \xTextMark \markup{ \bold \box "Intro" }
+  \sectNoBar "Intro"
 
   \ambitusOff
   a8. a16 a8. a16 a8. a16 a8. a16 | a8. a16 a8. a16 a16 a16 a8~ a16 a16 a8 |
@@ -211,8 +198,7 @@ refrainMelody = \relative f' {
   \bar "!"
   e8 a8~ |
 
-  \break
-  \xTextMark \markup{ \bold \box "Verse 1" }
+  \sectNoBar "Verse 1"
 
   \bar ".|:-||"
   \repeat volta 2 {
@@ -227,10 +213,11 @@ refrainMelody = \relative f' {
 
   \key \refrainKey \major
 
+  \sectNoBarNoBreakSegno "Bridge"
+
   \bar ".|:"
   \repeat volta 2 {
   r4
-  \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box "Bridge" }
   r8 cs8~ cs16 b8. cs4 | gs4.( fs8~ fs8 e4.) |
   r4 r8 cs8~ cs16 b8. cs8 e8~ | e8 cs4. r2 | r4 r8 b8~ b4 a8 b8 |
   \break
@@ -242,10 +229,8 @@ refrainMelody = \relative f' {
   \bar "!"
   e8 a8~ |
   } } }
-  \bar "||"
-  \xPageBreak
 
-  \xTextMark \markup{ \bold \box "Verse 2, 3" }
+  \sectPageBreak "Verse 2, 3"
 
   \key \refrainKey \minor
 
@@ -259,13 +244,12 @@ refrainMelody = \relative f' {
   \break
   r4 e4 c4 a8 b8~ | b4 r8 a8~ a8 g4 c8~ | c2 r2 | r1 |
 
-  \break
-  \bar "||-||"
+  \sect "Solo, Verse Changes"
+
   r1 |
-  \xTextMark \markup{ \bold \box "Solo, Verse Changes" }
   r1 | r1 | r1 | r1 | r1 | r1 | r1 |
   \break
-  r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 \dalSegnoWithRepeats | 
+  r1 | r1 | r1 | r1 | r1 | r1 | r1 | r1 \dalSegnoWithRepeats |
 
   \bar "||-||"
 
@@ -274,21 +258,16 @@ refrainMelody = \relative f' {
   <a c>4\repeatTie r8 <b d>8~ <b d>4 <c e>8 <a c>8~ | <a c>4 r4 r2 | r1 | r1 |
   \break
   r4 <e' a>4 <c e>4 <a c>8 <b d>8~ | <b d>4 r8 <a c>8~ <a c>8 <g b>4 <c e>8~( | <c e>1 | <e gs>1 |
-  \break
-  
+
+  \sectNoBar "Outro - Guitar Solo"
+
   \bar ".|:-||"
   \repeat volta 2 {
   <a c>1) |
-  \xTextMark \markup{ \bold \box "Outro - Guitar Solo" }
-  r1 | r1 | r1 | r1 | r1 | r1 | r1 | 
+  r1 | r1 | r1 | r1 | r1 | r1 | r1 |
   }
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

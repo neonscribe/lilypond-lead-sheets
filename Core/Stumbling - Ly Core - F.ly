@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -21,30 +16,22 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 
 refrainChords = \chordmode {
   f1 f1 f1 ef2:7 d2:7
-  g1:7 g1:7 g1:7 g1:7 
+  g1:7 g1:7 g1:7 g1:7
   c1:7 cs1:dim7 d1:m d1:m
   g1:7 g1:7 c1:7 c1:7
 
   f1 f1 f1 ef2:7 d2:7
-  g1:7 g1:7 g1:7 g1:7 
+  g1:7 g1:7 g1:7 g1:7
   bf1:m bf1:m f1 d1:7
   g1:m7 c1:7 f2
   \chordOpenParen{ af2:dim7 }
-  g2:m7 
+  g2:m7
   \chordCloseParen{ c2:7 }
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 \include "nederlands.ly"
 
@@ -166,10 +153,5 @@ refrainMelodyTwo = \relative f' {
 \include "english.ly"
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -55,16 +50,16 @@ Love me for -- ev -- er and make all my dreams _ come true. __
 refrainHLChords = \chordmode {
   d1:m6 d1:m6 g1:m6 g1:m6
   g2:m6 d2:7.9- g2:m6 a2:7.9- d1:m6 e2:m7 a2:7
-  
+
   d2:7 c2/e d2:7/fs d2:7.9- g1:m6 g1:m6
   d2:m d2:m/c bf2:7 a2:7 d1:m6 d1:m6
-  
+
   g1:m6 d1:m6 a1:7 d2:m6 d2:7.9-
   g1:m6 d1:m6 e2:7 bf2:7 a1:7
 
   d1:m6 d1:m6 g1:m6 g1:m6
   g2:m6 d2:7.9- g2:m6 a2:7.9- d1:m6 e2:m7 a2:7
-  
+
   d2:7 c2/e d2:7/fs d2:7.9- g1:m6 g1:m6
   d2:m d2:m/c bf2:7 a2:7 d1:m6 d2:m6
   \chordInsideParens{ a2:7 }
@@ -73,16 +68,16 @@ refrainHLChords = \chordmode {
 refrainSimpleChords = \chordmode {
   d1:m6 d1:m6 g1:m6 g1:m6
   g2:m6 d2:7.9- e2:m7.5- a2:7.9- d1:m6 d1:m6
-  
+
   a1:m7.5- d1:7.9- g1:m6 g1:m6
   d2:m6 b2:m7.5- e2:7.9- a2:7.9- d1:m7 d1:m6
-  
+
   g1:m6 d1:m6 e2:m7.5- a2:7.9- d2:m6 d2:7.9-
   g1:m6 d1:m6 e2:7 bf2:7.9- a1:7.9-
 
   d1:m6 d1:m6 g1:m6 g1:m6
   g2:m6 d2:7.9- e2:m7.5- a2:7.9- d1:m6 d1:m6
-  
+
   a1:m7.5- d1:7.9- g1:m7 g1:m6
   d2:m6 b2:m7.5- e2:7.9- a2:7.9- d1:m6
   \chordOpenParen{ e2:m7.5- }
@@ -92,7 +87,7 @@ refrainSimpleChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "simple" refrainSimpleChords)
@@ -102,15 +97,7 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -119,7 +106,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Latin [Xavier Cugat 1945]" 140
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   d4 d8 d8~ d2~ | d2 \tuplet 3/2 { d4 e4 f4 } | a2 g2~ | g2. r4 |
   \break
   \tuplet 3/2 { g4 g4 g4 } \tuplet 3/2 { a4 a4 a4 }  |
@@ -131,42 +118,33 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { d'4 a4 f4 } \tuplet 3/2 { a4 f4 d4 }  |
   \tuplet 3/2 { f4 e4 d4 } \tuplet 3/2 { e4 d4 cs4 }  |
   d1~ | d2. r4 |
-  
+
   \sect "B"
-  
+
   g4 g8 g8 \tuplet 3/2 { g4 f4 e4 } | f4 f8 f8 \tuplet 3/2 { f4 e4 d4 } |
   \tuplet 3/2 { e4 e4 e4 } \tuplet 3/2 { e4 f4 g4 } | a1 |
   \break
   g4 g8 g8 \tuplet 3/2 { g4 f4 e4 } | f4 f8 f8 \tuplet 3/2 { f4 e4 d4 } |
   \tuplet 3/2 { e4 e4 e4 } \tuplet 3/2 { f4 f4 f4 } | e1 |
-  
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "A2"
 
-  \xTextMark \markup{ \bold \box "A2" }
-  
   d4 d8 d8~ d2~ | d2 \tuplet 3/2 { d4 e4 f4 } | a2 g2~ | g2. r4 |
   \break
   \tuplet 3/2 { g4 g4 g4 } \tuplet 3/2 { a4 a4 a4 }  |
   \tuplet 3/2 { bf4 bf4 bf4 } \tuplet 3/2 { cs4 d4 e4 }  |
   a,1~ | a2. r4 |
-  \break  
+  \break
   d1~ | d2 c4 bf4 | a2 g2~ | g2. r4 |
   \break
   \tuplet 3/2 { d'4 a4 f4 } \tuplet 3/2 { a4 f4 d4 }  |
   \tuplet 3/2 { f4 e4 d4 } \tuplet 3/2 { e4 d4 cs4 }  |
   d1~ | d2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 refrainLyrics = \refrainSpanishLyrics
 refrainLyricsTwo = \refrainEnglishLyrics

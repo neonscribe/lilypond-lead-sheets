@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -39,13 +34,13 @@ but on -- ly be -- cause I'm in love with you. __
 
 refrainChords = \chordmode {
   s4
-  
+
   ef1:maj7 c1:7 f1:m7 f1:m7
   bf1:7 f2:m7  bf2:7 g2:m7 c2:7 f4:m7 \chordSlash 1 bf4:7 b4:dim7
 
   ef1:maj7 c1:7 f1:m7 f1:m7
   bf1:7 f2:m7 bf2:7 ef1:maj7 g2:m7.5+ g2:7
-  
+
   c1:m7 af1:7 c1:m7 d2:m7.5- g2:7
   c1:m7 c1:m7 f1:7 f4:m7 \chordSlash 1 bf4:7 b4:dim7
 
@@ -58,40 +53,32 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Julie London 1956]" 102
-  
+
   \partial 4 b4 |
 
   \sectNoBreak "A1"
-  
+
   c2. bf4 | af4 g4 fs4 g4 | r4 bf4 \tuplet 3/2 { bf4 a4 af4 } | c,2. r4 |
   \break
   r4 bf'4 \tuplet 3/2 { bf4 a4 af4 } | \tuplet 3/2 { c,4 cs4 d4 } g4. f8 |
   \tuplet 3/2 { f4 d4 ef4 } bf'2~ | bf2. b4 |
 
   \sect "A2"
-  
+
   c2. bf4 | af4 g4 fs4 g4 | r4 bf4 \tuplet 3/2 { bf4 a4 af4 } | c,2. r4 |
   \break
   r4 bf'4 \tuplet 3/2 { bf4 a4 af4 } | \tuplet 3/2 { c,4 cs4 d4 } g4. f8 |
   \tuplet 3/2 { f4 d4 f4 } ef2~ | ef2 r2 |
 
   \sect "B"
-  
+
   r4 g4 af4. g8 | gf1 | r4 g4 af4. g8 | f1 |
   \break
   r4 g4 af4 g4 | c4. g8 g4 c4 | d4 d2 f,8 g8 | bf2. b4 |
@@ -108,10 +95,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

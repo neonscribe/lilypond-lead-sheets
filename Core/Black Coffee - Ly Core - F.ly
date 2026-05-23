@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Black Coffee"
   subtitle = \subtitle
@@ -20,6 +15,8 @@ subtitle =
   composer = "Paul Francis Webster and Sonny Burke"
   copyright = \markup \small { \now " " "© 1948 Webster Music Co. and Sondot Music Corporation" }
 }
+
+leadingEighth = ##t
 
 refrainFemaleSingerLyrics = \lyricmode {
 I'm feel -- in' might -- y lone -- some,
@@ -91,13 +88,13 @@ to come back home to me. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "male"))
   refrainMaleSingerLyrics
   refrainFemaleSingerLyrics)
 
 refrainHLChords = \chordmode {
-  s4
+  s8
 
   f2:7.9+ gf2:7.9+ f2:7.9+ gf2:7.9+ f2:7.9+ gf2:7.9+ f2:7.9+ b2:13
   bf1:9 bf1:9 f2:7.9+ gf2:7.9+ f2:7.9+ d2:7.9+
@@ -113,16 +110,16 @@ refrainHLChords = \chordmode {
 
   bf2:m7 ef2:7 f1:m g2:m7.5- c2:7.9- f1:maj7
   af2:m7 df2:7 gf2:maj7 ef2:m7 af2:m7 df2:7 g2:m7 c2:7
-  
+
   f2:7.9+ gf2:7.9+ f2:7.9+ gf2:7.9+ f2:7.9+ gf2:7.9+ f2:7.9+ b2:13
-  
+
   bf1:9 bf1:9 f2:maj7 g2:m7 a2:m7 af2:7
   g1:m7 g1:m7/c f2:7.9+ gf2:7.9+ f2:7.9+
   \chordInsideParens{ gf2:7.9+ }
 }
 
 refrainNicoChords = \chordmode {
-  s4
+  s8
 
   f2:7.9+ gf2:7.9+ f2:7.9+ gf2:7.9+ f2:7.9+ gf2:7.9+ f2:7.9+ b2:13
   bf1:9 bf1:9 f2:7.9+ gf2:7.9+ f2:7.9+ d2:7.9+
@@ -138,9 +135,9 @@ refrainNicoChords = \chordmode {
 
   bf2:m7 ef2:7 f1:m g2:m7.5- c2:7.9- f1:maj7
   af2:m7 df2:7 gf2:maj7 ef2:m7 af2:m7 df2:7 g2:m7 c2:7
-  
+
   f2:7.9+ gf2:7.9+ f2:7.9+ gf2:7.9+ f2:7.9+ gf2:7.9+ f2:7.9+ b2:13
-  
+
   bf1:9 bf1:9 f2:maj7 g2:m7 a2:m7 af2:7
   g1:m7 g1:m7/c f2:7.9+ gf2:7.9+ f2:7.9+
   \chordInsideParens{ gf2:7.9+ }
@@ -150,27 +147,19 @@ refrainChords = \refrainNicoChords
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Ballad [Sarah Vaughan 1949]" 70
-  
-  \partial 4 \invisEighth c8 |
+
+  \partial 8 c8 |
 
   \sectNoBreak "A1"
-  
-  f8 f8 f8 c8 ef8 c4. | f8 f8 f8 c8 ef4. c8 | 
+
+  f8 f8 f8 c8 ef8 c4. | f8 f8 f8 c8 ef4. c8 |
   f8 f8 f8 c8 ef8 ef8 ef8 c8 | f8 f8 f8 c8 ef4 f4 |
   \break
   af8 d,4.~ d2 | \tuplet 3/2 { r4 c'4 bf4 } \tuplet 3/2 { af4 f4 d4 } |
@@ -181,8 +170,8 @@ refrainMelody = \relative f' {
   f1~ | f2. r8 c8 |
 
   \sect "A2"
-  
-  f8 f8 f8 c8 ef8 c4. | f8 f8 f8 c8 ef4. c8 | 
+
+  f8 f8 f8 c8 ef8 c4. | f8 f8 f8 c8 ef4. c8 |
   f8 f8 f8 c8 ef8 ef8 ef8 c8 | f8 f8 f8 c8 ef4 f4 |
   \break
   af8 d,4.~ d2 | \tuplet 3/2 { r4 c'4 bf4 } \tuplet 3/2 { af4 f4 d4 } |
@@ -191,20 +180,17 @@ refrainMelody = \relative f' {
   g'8 a8 bf8 c8 a8 f4. | r8 d8 d8 af'8 g4 f8 f8~ |
 
   f1~ | f2 r4 f8 f8 |
-  \bar "||"
-  
-  \xPageBreak
 
-  \sectNoBarNoBreak "B"
+  \sectPageBreak "B"
 
   bf8 c8 bf8 af8 bf4. c8 | af8 f4.~ f4. f8 | bf8 c8 bf8 c8 df4 ef4 | c2~ c4. c8 |
   \break
   df8 df8 df8 df8 df4. f8 | df8 df4.~ df4. bf8 |
   df8 df8 df8 df8 df,4. df'8 | \tuplet 3/2 { c8 c8 c8 } c8 c8 c,4. c8 |
-  
+
   \sect "A3"
 
-  f8 f8 f8 c8 ef8 c4 c8 | f8 f8 f8 c8 ef4. c8 | 
+  f8 f8 f8 c8 ef8 c4 c8 | f8 f8 f8 c8 ef4. c8 |
   f8 f8 f8 c8 ef8 ef8 ef8 c8 | f8 f8 f8 c8 ef4 f4 |
   \break
   af8 d,4.~ d2 | \tuplet 3/2 { r4 c'4 bf4 } \tuplet 3/2 { af4 f4 d4 } |
@@ -216,10 +202,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

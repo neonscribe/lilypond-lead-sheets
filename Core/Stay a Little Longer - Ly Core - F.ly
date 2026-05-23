@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "Tommy Duncan"
   copyright = \markup \small { \now " " "© 1947 Red River Songs, Inc." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 You ought to see my blue- eyed Sal -- ly,
@@ -30,32 +27,24 @@ don't see why you don't stay a lit -- tle long -- er.
 }
 
 refrainChords = \chordmode {
-  s4
+  s8
 
   f2 f2/a bf2 b2:dim7 f2/c f2/a c1:7
   f2 f2/a bf2 b2:dim7 f2/c f2/a c2:7 f2
-  
+
   f1 f1 c1:7 c1:7
   f1 bf1 f1 c2:7 f1
 
   f2 f2/a bf2 b2:dim7 f2/c f2/a c1:7
   f2 f2/a bf2 b2:dim7 f2/c f2/a c2:7 f2
-  
+
   f2 f2/a bf2 b2:dim7 f2/c f2/a c1:7
   f2 f2/a bf2 b2:dim7 f2/c f2/a c2:7 f2
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -63,18 +52,18 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Uptempo Two-Feel [Bob Wills 1945]" 240
 
-  \partial 4 \invisEighth c8 |
+  \partial 8 c8 |
   \bar "||"
 
 
   \xTextMark \markup{ \bold \box "Verse" }
-  
+
   f4 f4 f4 d4 | f4 f4 f8 d4 c8 | f8 f8 f4 g4 a4 | c,4 d4 f8 f4 d8 |
   \break
   f8 d8 f8 g8 f4. d8 | f8 d8 f8 g8 f4 d8 c8 | f4 f4 g8 g8 a8 a8 | c,4 d4 f2 |
-  
+
   \sect "Chorus"
-  
+
   a8 a4. c2 | g8 a8 g8 f8 d4 f4 | a4 a4 g4. f8 | g8 a8 g8 f8 d4 f4 |
   \break
   a8 a4 a8 c4. a8 | g8 a8 g8 f8 d4 f4 | c4 c4 d8 d8 f4 |
@@ -83,29 +72,24 @@ refrainMelody = \relative f' {
   \time 4/4
   d4 f2. |
   \sect "Solo"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   {
    \line { \large { Sitting in the window, singing to my love, } }
    \line { \large { Slop bucket fell from the window up above. } }

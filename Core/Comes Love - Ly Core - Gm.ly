@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -60,12 +55,12 @@ refrainiRealChords = \chordmode {
 
   g1:m6 g1:m6 d1:7.13- d1:7.13-
   a1:m7.5- d1:7.9- g1:m6 ef2:7 d2:7
-  
+
   g1:7.13- g1:7.13- c2:m7 g2:7.9- c1:m7
   f1:7 f1:7 bf1:6 d1:7.13-
 
   g1:m6 g1:m6 d1:7.13- d1:7.13-
-  a1:m7.5- d1:7.9- g1:m6 
+  a1:m7.5- d1:7.9- g1:m6
   \chordOpenParen{ a2:m7.5- }
   \chordCloseParen{ d2:7.9- }
 }
@@ -83,7 +78,7 @@ refrainDjypsyDjazzChords = \chordmode {
 
   g1:m g1:m d1:7 d1:7
   d2:7 c4/e f4:dim7 d2:7/fs ef4:7 d4:7 g2:m g2:m/f e2:m7.5- ef4:7 d4:7
-  
+
   g1:m d2:7/fs ef4:7 d4:7 g1:m d2:7/fs ef4:7 d4:7 r4 g2.:m
 }
 
@@ -91,15 +86,7 @@ refrainChords = \refrainDjypsyDjazzChords
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -108,53 +95,43 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Ella Fitzgerald and Louis Armstrong 1957]" 144
 
   \partial 4 d8 d8 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   g4 bf2 d,8 d8 | g8 g8 bf8 bf8 g4 d8 d8 | fs4 a2 d,8 d8 | fs8 fs8 a8 a8 fs4 d4 |
   \break
   d'1~ | d8 c4 c8 bf4 a4 | g1~ | g2 r4 d8 d8 |
-  
+
   \sect "A2"
-  
+
   g4 bf2 d,8 d8 | g8 g8 bf8 bf8 g4 d8 d8 | fs4 a2 d,8 d8 | fs8 fs8 a8 a8 fs4 d4 |
   \break
   d'1~ | d8 c4 c8 bf4 a4 | g1~ | g2 r2 |
-  
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "B"
 
-  \xTextMark \markup{ \bold \box "B" }
-  
   d'4. b8~ b4 r4 | d4. b8~ b8 ef4 d8 | ef4 d4 c4 b8 c8~ | c2. r4 |
   \break
   c4. a8~ a4 r4 | c4. a8~ a4 r4 | d8 d4 d8~ d8 d4 d8~ | d8 d,4 d8~ d4 d8 d8 |
-  
+
   \sect "A3"
 
   g4 bf2 d,8 d8 | g8 g8 bf8 bf8 g4 d8 d8 | fs4 a2 d,8 d8 | fs8 fs8 a8 a8 fs4 d4 |
   \break
-  d'1~ | d8 c4 c8 bf4 a4 \textToCodaLastTime | g1~ | g2 r2 |
-  
+  d'1~ | d8 c4 c8 bf4 a4 \textToCodaLastTimeOptional | g1~ | g2 r2 |
+
   \bar "||-|."
-  
+
   \textCodaBreak
-  
-  g1~\> | g8 c4 c8 bf4 a4 | g1~ | g8 c4 c8 bf4 a4\! | r4 
+
+  g1~\> | g8 c4 c8 bf4 a4 | g1~ | g8 c4 c8 bf4 a4\! | r4
   \ambitusOff
   <g bf d g>4-.->\ff r2 |
   \ambitusOn
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

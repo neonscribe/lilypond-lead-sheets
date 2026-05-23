@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Is Anybody Goin' to San Antone"
   subtitle = \subtitle
@@ -49,15 +44,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f'' {
   \time 2/2
@@ -66,32 +53,27 @@ refrainMelody = \relative f'' {
   \tempoFour "Tex-Mex Country Rock [Doug Sahm 1973]" 124
 
   \xTextMark \markup{ \bold \box "Verse 1" }
-  
+
   c2 c8 bf8 a8 a8 | bf8 bf8 a4 g4. g8 | c,4 e4 g4. c8 | a1 |
   \break
   c8 c8 c8 c8 c8 bf8 a4~ | a8 bf4 a8 f2 | c8 c8 e8 g8 bf8 a8 g4 | f2. a8 bf8 |
 
   \sect "Verse 2"
-  
+
   c8 c8 c8 c8~ c8 bf8 a8 a8 | bf4 a4 g4. g8 | c,4. e8 g8 c4 a8~ | a2. a8 bf8 |
   \break
   c4 c8 c8 c8( bf8) a4~ | a8 bf8 a8 g8~ g2  | c,8 c8 e8 g8 bf4 a4 | f2. r8 c8 |
 
   \xTextMark \markup{ \bold \box "Chorus" }
-  
+
   a'8 g8 a8 g8 a8 g4 f8 | g4 bf8 d,8~ d4. d8 | c4 e4 g4. c8 | d4 c2. |
   \break
   a8 g8 a8 g8 a4 g8 f8 | g4 bf8 d,8~ d4. d8 | c4 e4 a4. g8 | g4 f2. |
 
   \bar "|."
 }
-  
-\include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
+\include "../Include/paper.ily"
 
 \include "../Include/refrain.ily"
 

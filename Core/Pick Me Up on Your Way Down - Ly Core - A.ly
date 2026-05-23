@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -56,7 +51,7 @@ Pick me up on your way down
 
 refrainChords = \chordmode {
   s2
-  
+
   a1 a1 d1 d1
   e1:7 e1:7 e1:7 a1
   a1 a1 d1 d1
@@ -70,27 +65,19 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Charlie Walker 1958]" 150
-  
+
   \partial 2 e'8 e4. |
   \bar "||"
 
-  \sectStart "Verse"
-  
+  \sectNoBarNoBreak "Verse"
+
   fs4 e4 e4 cs8 a8~ | a2 b8 cs4. | e8 d4. d4 a8 fs8~ | fs2 b4 cs4 |
   \break
   d4 cs4 d4 b4 | gs2 e'4 e4 | fs4 e4 e4 d8 cs8~ | cs2 e4 e4 |
@@ -99,29 +86,24 @@ refrainMelody = \relative f' {
   \break
   d4 cs4 d4 cs8 gs8~ | gs2 e'8 e4. | e4 d4 fs,8 gs4 a8~ | a1~ | a2 e'8 e4. |
 
-  \sect "Chorus"
-  
+  \sectPageBreak "Chorus"
+
   fs8 e4. e4 cs8 a8~ | a2 b4 cs4 | e4 d4 d4 a8 fs8~ | fs2 cs'8 cs4. |
   \break
   d8 cs4. d4 b4 | gs4 e4 e'8 e4. | fs4 e4 e4 d4 | cs2 cs8 e4. |
   \break
   fs4 e4 e4 cs4 | a2 b4 cs4 | e4. d8 d8 a4 fs8~ | fs2 b4 cs4 |
   \break
-  d4 cs4 d4 b4 | gs2 e'4 e4 | e4 d4 fs,8 gs4 a8~ | a2. r4 | r2 
+  d4 cs4 d4 b4 | gs2 e'4 e4 | e4 d4 fs,8 gs4 a8~ | a2. r4 | r2
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
-  e'8 
+  e'8
   \endParenthesis \parenthesize e4. |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

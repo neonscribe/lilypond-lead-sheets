@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "George Gershwin"
   copyright = \markup \small { \now " " "© 1935 Gershwin Publishing Corporation" }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 It ain't ne -- ces -- sar -- i -- ly so.
@@ -63,21 +60,21 @@ she fished him, she says, from that _ _ stream.
 }
 
 refrainChords = \chordmode {
-  s8 c8
-  
+  c8
+
   g2:m c2 g2:m c2 g2:m c2 g1:m
   c2:7 df2:7 c2:7 df2:7 a2:7 d2:7
-  
+
   g2:m c2:7 ef2:7 c2/d
-  
+
   g2:m g2:m7
-  
+
   g2:m c2 g2:m c2 g2:m c2 g1:m
   c2:7 df2:7 c2:7 df2:7 a2:7 d2:7 g2:m g2:m7
 
   g2:m c2 g2:m c2 g2:m c2 g1:m
   c2:7 df2:7 c2:7 df2:7 a2:7 d2:7
-  
+
   g2:m c2:7 ef2:7 c2/d
 
   g2:m g2:m7
@@ -88,26 +85,18 @@ refrainChords = \chordmode {
   g2:m c2 g2:m c2 g2:m c2 g1:m
   c2:7 df2:7 c2:7 df2:7 a2:7 d2:7 g1:m
 
-  df2:7 af2 af1 a2:m7 d2:7 g2.:6 g4:7 
+  df2:7 af2 af1 a2:m7 d2:7 g2.:6 g4:7
   c1:7 f2 f2:6 a2:sus7 a2:7.5- bf1:7.5+
-  
+
   g2:m c2 g2:m c2 g2:m c2 g1:m
   c2:7 df2:7 c2:7 df2:7 a2:7 d2:7 g2:m c2:7 fs2:7 ef2:7
-  
+
   c1:m6 g2 d2:7 c2 b2:7 e2:m c2:m6 g2 d2:9.5+ g1
 }
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -115,15 +104,15 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Lena Horne 1959]" 118
 
-  \partial 4 \invisEighth g8 |
-  
+  \partial 8 g8 |
+
   \bar ".|:"
   \repeat volta 2 {
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
 
-  \break
-  
+  %% \break
+
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { bf4 g4 bf4 } |
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { bf4 g4 bf4 } |
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { f4 d4 f4 } |
@@ -133,21 +122,21 @@ refrainMelody = \relative f' {
   g2. r4 |
   } } }
   \bar "||-||"
-  
+
   \break
-  
+
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq r8 d8 |
 
   \break
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
 
   \break
-  
+
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { bf4 g4 bf4 } |
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { bf4 g4 bf4 } |
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { f4 d4 f4 } |
@@ -157,22 +146,20 @@ refrainMelody = \relative f' {
   g2. r4 |
   } } }
   \bar "||-||"
-  
-  \break
-  
+
+  \xPageBreak
+
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq r8 d8 |
   \bar "||-||"
 
   \break
-  
-  \xPageBreak
 
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
 
-  \break
-  
+  %% \break
+
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { bf4 g4 bf4 } |
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { bf4 g4 bf4 } |
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { f4 d4 f4 } |
@@ -180,7 +167,7 @@ refrainMelody = \relative f' {
   \bar "||-||"
   
   \break
-  
+
   \tuplet 3/2 { f4 ef4 df4 } \tuplet 3/2 { c4 bf4 af4 } |
   \tuplet 3/2 { g4 f4 g4 } \tuplet 3/2 { af4 bf4 c4 } |
   d4. d8 d4. d8 | d2. d4 |
@@ -189,8 +176,8 @@ refrainMelody = \relative f' {
   a4. a8 a4. a8 | bf2. d,4 |
   \bar "||-||"
 
-  \break
-  
+  \xPageBreak
+
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { bf4 g4 bf4 } |
@@ -198,9 +185,9 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { f4 d4 f4 } |
   g1~ | g2 r4 g4 |
   \bar "||-||"
-  
+
   \break
-  
+
   \tuplet 3/2 { a4 bf4 c4 } \tuplet 3/2 { a4 bf4 c4 } |
   d2~ \tuplet 3/2 { d4 r4 d,4 } | \tuplet 3/2 { e4 fs4 g4 } \tuplet 3/2 { gs4 b4 a4 } |
   \tuplet 3/2 { g4 a4 bf4 } \tuplet 3/2 { b4 d4 c4 } |
@@ -210,10 +197,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

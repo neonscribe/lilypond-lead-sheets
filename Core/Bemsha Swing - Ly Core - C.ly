@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -46,15 +41,7 @@ refrainChords = { \refrainMonkHeadChords \refrainHLSoloChords }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -63,47 +50,41 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Miles Davis 1954]" 150
 
   \partial 4 g4-. |
-  
-  \xTextMark \markup{ \bold \box "Head" }
-  
+
+  \sectNoBreak "Head"
+
   \bar ".|:"
   \repeat volta 2 {
-  c4-. r4 r4 r8 g8 | r8 c8 bf8 af8 g8 g8 f4-. | e8 e8 b4-. c4-- r4 | r2 r4 g'4-. |
-  \break
+  c4-._"Play head twice before and twice after solos." r4 r4 r8 g8 | r8 c8 bf8 af8 g8 g8 f4-. |
+  e8 e8 b4-. c4-- r4 | r2 r4 g'4-. |
+  %% \break
   c4-. r4 r4 r8 g8 | r8 c8 bf8 af8 g8 g8 f4-. | e8 e8 b4-. c4-- r4 | r2 r4 c'4-. |
   \break
   f4-. r4 r4 r8 c8 | r8 f8 ef8 df8 c8 c8 bf4-. | a8 a8 e4-. f4-- r4 | r2 r4 g4-. |
-  \break
-  c4-. r4 r4 r8 g8 | r8 c8 bf8 af8 g8 g8 f4-. | e8 e8 b4-. c4-- r4 | r2 r4 
+  %% \break
+  c4-. r4 r4 r8 g8 | r8 c8 bf8 af8 g8 g8 f4-. | e8 e8 b4-. c4-- \textFine r4 | r2 r4
   \override Parentheses.font-size = #5
   \parenthesize g'4-. |
   }
-  \break
+  \bar "|."
 
-  \xTextMark \markup{ \bold \box "Solos" }
-  
+  \sectNoBar "Solos"
+
   \bar ":|.|:"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq
   \override Parentheses.font-size = #5
   \parenthesize g4-. |
-  \break
+  %% \break
   }
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
-
-\markup{ "Play head twice before and twice after solos." }

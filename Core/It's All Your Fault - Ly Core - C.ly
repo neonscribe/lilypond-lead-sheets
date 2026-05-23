@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "It's All Your Fault"
   subtitle = \subtitle
@@ -25,44 +20,44 @@ refrainFemaleSingerLyrics = \lyricmode {
   It's all your fault if I'm not sleep -- in'.
   I live on dreams in -- stead of eat -- in'.
   I'm just a wreck and it's all your fault.
-  
+
   Oh, it's all your fault if I'm not play -- in',
   Hav -- in' fun and if I'm stay -- in'
   all by my -- self well, it's all your fault.
-  
+
   When you said that we were through
   I tried to find some -- bo -- dy new.
   But I found out it would -- n't do,
   'Cause I'd ra -- ther be a -- lone than with some -- bo -- dy new.
-  
+
   Oh, it's all your fault when I'm a grand -- ma
   My grand -- kids don't call you grand -- pa.
   Well, I'll just tell 'em it's all your fault.
-  
+
 }
 
 refrainMaleSingerLyrics = \lyricmode {
   It's all your fault if I'm not sleep -- in'.
   I live on dreams in -- stead of eat -- in'.
   I'm just a wreck and it's all your fault.
-  
+
   Oh, it's all your fault if I'm not play -- in',
   Hav -- in' fun and if I'm stay -- in'
   all by my -- self well, it's all your fault.
-  
+
   When you said that we were through
   I tried to find some -- bo -- dy new.
   But I found out it would -- n't do,
   'Cause I'd ra -- ther be a -- lone than with some -- bo -- dy new.
-  
+
   Oh, it's all your fault when I'm a grand -- pa
   My grand -- kids don't call you grand -- ma.
   Well, I'll just tell 'em it's all your fault.
-  
+
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "male"))
   refrainMaleSingerLyrics
   refrainFemaleSingerLyrics)
@@ -101,56 +96,42 @@ refrainChords = \refrainSimpleChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium-Up Western Swing [Bob Wills 1941]" 190
-  
-  \partial 4 g4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 4 g4 |
+
+  \sectNoBreak "A1"
+
   d4 c4 d4. c8 | d4 c4 d8 e4 a,8 | b8 a4 b8~ b4. a8 | b8 a4. b8 e4. |
   \break
   r8 e8 d8 e8 c8 a8~ a4 | r4 a4 a4 g4 | c2 r2 | r2 r4 g'8 g8 |
-  
+
   \sect "A2"
-  
+
   d4 c4 d4. c8 | d4 c4 d8 e4. | b8 a4 b8~ b4. a8 | b8 a4. b8 e4. |
   \break
   r8 e8 d8 e8 c8 a8~ a4 | r4 a4 a4 g4 | c2 r2 | r1 |
-  
+
   \sect "B"
-  
+
   d4 f4 e4. c8 | d8 f4 e8~ e4. c8 | d4 f4 e4. c8 | d8 f4 e8~ e4. e8 |
   e4 g4 fs4. fs8 | e8 g4 fs8~ fs4 d8 d8 | g8 g8 fs8 fs8 e4 d8 d8 | b8 d8 e8 d4. g8 g8 |
-  
+
   \sect "A3"
 
   d4 c4 d4. c8 | d4 c4 d8 e4. | b8 a4 b8~ b4. a8 | b4 a8 b4 e4. |
   \break
   r8 e8 d8 e8 c8 a8~ a4 | r4 a4 a4 g4 | c2 r2 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

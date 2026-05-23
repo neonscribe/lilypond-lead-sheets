@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -37,64 +32,56 @@ refrainChords = \chordmode {
 
   e1:maj7 cs2:m7 fs2:7 b1:maj7 gs1:m7
   cs1:m7 fs1:7
-  
+
   b2 e2 b2 fs2:7
-  
+
   b1:maj7 b1:7 e1:maj7 cs2:m7 fs2:7
   b1:6 gs1:m7 cs1:7 fs1:7
 
   b1:maj7 b1:7 e1:maj7 cs2:m7 fs2:7
   b1:maj7 cs2:m7 fs2:7 b2 e2 b2 b2:7
 
-  b2 e2 b2  
+  b2 e2 b2
   \chordInsideParens{ b2:7 }
 }
 
 refrainKey = b
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Ballad [Ray Charles 1962]" 80
-  
+
   \partial 2. ds'4 cs4 b4 |
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   b4. gs8 gs2 | r4 e8 e8 \tuplet 3/2 { fs4 gs4 gs4 } | fs1 | r4 fs4 gs4. gs8 |
   \break
   as4. fs8 e2 | r4 cs4 cs4 b8 cs8 | ds1 | r4 ds'4 cs4 b4 |
-  
+
   \sect "A2"
-  
+
   b4. gs8 gs2 | r4 e4 \tuplet 3/2 { fs4 gs4 gs4 } | fs1 | r4 ds4 e4. es8 |
   \break
   fs2 \tuplet 3/2 { e4 e4 ds4 } | ds2~ ds8 cs8 cs8 b8 |
   \alternative { \volta 1 {
   b1 | r4 fs'2 \tuplet 3/2 { ds8( cs8) b8 } |
-  
+
   \sect "B1"
-  
+
   ds1 | r4 b'2 \tuplet 3/2 { gs8( fs8) e8 } | gs1 | r4 b4 b4. gs8 |
   \break
   \tuplet 3/2 { b8( gs8 fs8~ } fs2.) | r4 ds4 gs4. fs8 |
   \tuplet 3/2 { fs8( ds8 cs8~ } cs2.) | r4 fs2 \tuplet 3/2 { ds8( cs8) b8 } |
-  
+
   \sect "B2"
-  
+
   ds1 | r4 b'4~ b8 gs8 b8 e,8 | gs1 | r4 b4 b8 gs8 b4 |
   \break
   ds1 | r4 fs,4 fs4 as8 cs8 | b1 | r4 ds4 cs4 b4 |
@@ -105,10 +92,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

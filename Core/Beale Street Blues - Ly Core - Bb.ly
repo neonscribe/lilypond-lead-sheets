@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -17,19 +12,21 @@ subtitle =
   copyright = \markup \small { \now " " "© 1916 Pack & Handy Music Co. Inc." }
 }
 
+leadingEighth = ##t
+
 refrainChords = \chordmode {
-  s2
-  
+  s4.
+
   bf4 f4:7 bf4 f4:7 bf4 f4:7 bf2
-  
+
   bf1 bf1 ef4 bf4 c4:m bf4
   f4 c4:7 f2:7 bf2 bf2:7 ef2 ef2:m
   bf1
-  
+
   bf4 f4:7 bf2
-  
+
   bf4 f4:7 bf4 bf4:7
-  
+
   ef1 bf1:7 ef1 ef1:7 af1 af1:m ef1 ef1
   bf1:7 bf1:7 ef4 ef4:7 af4 af4:m ef2
   \chordOpenParen{ e4:7 }
@@ -38,15 +35,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -54,20 +43,20 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Jack Teagerden 1956]" 134
 
-  \partial 2 \invisEighth <d bf'>8 <ef c'>8 <e cs'>8 |
+  \partial 4. <d bf'>8 <ef c'>8 <e cs'>8 |
   \bar "||"
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   <f d'>8 <d bf'>8 <ef c'>8 <e cs'>8 <f d'>8 <d bf'>8 <ef c'>8 <e cs'>8 |
   <f d'>8 <e df'>8 <ef c'>8 <d bf'>8~ <d bf'>4.
-  
+
   cs'8 |
 
   \break
 
   \xTextMark \markup{ \bold \box "A" }
-  
+
   \bar ".|:-||"
   \repeat volta 3 {
   d8 bf8 g8 bf8~ bf4. cs8 | d8 bf8 g8 bf8~ bf4 bf8 bf8 | ef4 d4 c4 bf4 |
@@ -83,7 +72,7 @@ refrainMelody = \relative f' {
   \break
 
   \xTextMark \markup{ \bold \box "B" }
-  
+
   \key ef \major
   \bar ".|:-||"
   \repeat volta 3 {
@@ -94,15 +83,10 @@ refrainMelody = \relative f' {
   df4 bf8 c4 bf8~ bf4 | r8 ef4 c8 gf4 f8 ef8~ | ef1~ | ef2.
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize bf'8
-  \endParenthesis \parenthesize bf8 |  
+  \endParenthesis \parenthesize bf8 |
   }
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

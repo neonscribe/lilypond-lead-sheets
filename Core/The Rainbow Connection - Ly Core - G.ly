@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -39,30 +34,22 @@ refrainChords = \chordmode {
 
   g2.:maj7 e2.:m7 a2.:m7 d2.:sus7
   g2.:maj7 e2.:m7 c2.:maj7 c2.:maj7
-  
+
   c2.:maj7 c2.:maj7 c2.:maj7 c2.:maj7
   b2.:m7 b2.:m7 e2.:sus9 e2.:9
-  
+
   a2.:m7 d2.:7 b2.:m7 e2.:7
   a2.:m7 d2.:7 g2.:6
   \chordOpenParen{ e2.:m7 }
   a2.:m7
   \chordCloseParen{ d2.:7 }
-  
+
   d2./fs e2.:m7 g2./d c2. d2.:7 g2. g2.
 }
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -70,20 +57,20 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Kermit 1979]" 115
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   b,4 d4 g4 | a8 b8 b2 | c,4 d4 g4 | g4 a4. a,8 |
   \break
   b4 d4 fs4 | g2 d4 | e2.~ | e2 r4 |
-  
+
   \sect "A2"
-  
+
   b4 d4 g4 | a8 b8~ b4. b8 | c,4 d4 g4 | g4 a4. a,8 |
   \break
   b4 d4 fs4 | g8 g4. d4 | e2.~ | e2 r4 |
-  
+
   \sect "B"
-  
+
   e4 b'4 e,4 | b'4 e,4 b'4 | e,4 b'4 e,4 | b'4 e,2 |
   fs4 fs4 fs4 | a4 fs4 d4 | fs2.~ | fs2 r4 |
 
@@ -93,11 +80,11 @@ refrainMelody = \relative f' {
   c4 e4 g4 | b8 b4. a4 | g2. \textToCodaLastTime | R4*3 | R4*3 | R4*3 |
 
   \bar "|."
-  
+
   \xPageBreak
-  
+
   \textCoda
-  
+
   a4. g8 a4 | b4. a8 g4 | d2 d4 | e4. fs8 g4 | d4 g4 fs4 | g2.~ | g2. |
 
   \bar "|."
@@ -105,16 +92,11 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -126,7 +108,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { Who said that every wish would be heard and answered } }

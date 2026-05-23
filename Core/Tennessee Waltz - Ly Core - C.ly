@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -51,15 +46,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -68,10 +55,9 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Waltz [Patti Page 1950]" 112
 
   \partial 4 c8 d8 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   e8 g4. c,8 d8 | e8 g4. c8 d8 | e8 g4. e8( d8) | c4( a4) c8 c8 |
   \break
   c4 g4. e8 | a8 g4. e4 | d2.~ | d2 c8 d8 |
@@ -83,13 +69,13 @@ refrainMelody = \relative f' {
   c4 g4. e8 | a8 f4. d4 | c2.~ | c2 c'8 d8 |
 
   \sect "B"
-  
+
   e4 e4. e8 | d2 e8 d8 | c2 f,8 a8 | g2 c8 c8 |
   \break
   c2 g8 e8 | a8 g4. e4 | d2.~ | d2 c8 d8 |
-  
+
   \sect "A3"
-  
+
   e8 g4. c,8 d8 | e8 g4. d'8 d8 | e8 g4. e8( d8) | c4 a4. c8 |
   \break
   c4 g4 e4 | a4 f4 d4 | c2.~ | c2 r4 |
@@ -98,10 +84,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

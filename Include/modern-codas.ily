@@ -323,6 +323,20 @@ textToCodaLastTime = {
   }
 }
 
+textToCodaLastTimeOptional = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #0.770
+  \xTextEndMark
+  \markup
+  \line
+  \general-align #Y #CENTER {
+    \small
+    \bold
+    \italic "To Optional Coda Last Time  "
+    \musicglyph #"scripts.coda"
+  }
+}
+
 %%% includes the word "Coda" after the coda sign
 
 textCoda = {
@@ -415,12 +429,12 @@ textCodaIIIBreak = {
 textFine = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #-0.15
-  \xTextEndMark
+  \xTextEndMarkDown
   \markup
   \line
   \general-align #Y #CENTER {
     \small
-    \bold "Fine"
+    \bold "FINE"
   }
 }
 

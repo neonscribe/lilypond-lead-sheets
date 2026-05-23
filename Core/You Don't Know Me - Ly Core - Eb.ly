@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "You Don't Know Me"
   subtitle = \subtitle
@@ -47,7 +42,7 @@ refrainLyrics = \lyricmode {
   say good -- bye. __ I watch you
   walk a -- way __ be -- side the
   luck -- y guy. __ To nev -- er
-  nev -- er know __ the one who 
+  nev -- er know __ the one who
   loves you so; __ no, you don't
   know me. __
 }
@@ -55,26 +50,26 @@ refrainLyrics = \lyricmode {
 refrainChordsRayAndDiana = \chordmode {
   ef2./bf af2./bf ef2.:maj7/bf af4./bf g4.:7.9-.5+
   c2.:m7 f2.:9.11+ d4.:7.9+.5+ b4.:7.9+ af4./bf bf2.:7.5+
-  
+
   ef2. ef2.:maj7 ef2.:7 bf4.:m9 a4.:7.5+
   af1.:maj7 a2.:dim7 d2.:7.9+
   g2.:m7 c2.:7 f2.:m7 bf2.:7
   g2.:7.5+ c2.:9+.5+ f2.:9 bf2.:7
-  
+
   ef2. ef2.:maj7 ef2.:7 bf4.:m9 a4.:7.9+
   af1.:maj7 a2.:dim7 d2.:7.9+
   g2.:m7 c2.:7.9- f2.:m7 bf2.:7
   df2.:9 d2.:7.9+ ef2. bf4.:m7 a2.:7.5-
-  
+
   af2.:maj7 a2.:dim7 ef2./bf c2.:7
-  f2.:m7 bf2.:13 ef2. d4.:7.9+ g4.:7.5+ 
+  f2.:m7 bf2.:13 ef2. d4.:7.9+ g4.:7.5+
   c1.:m g2.:m7 c2.:7
   f2.:7 b2.:7.5- bf2.:7 bf2.:7.5+
 
   ef2. ef2.:maj7 ef2.:6 c4:m7 bf4:m7 a4:7.5-
   af1.:maj7 a2.:dim7 d2.:7.9+
   g2.:m7 c2.:7 f2.:m7 bf2.:7
-  ef2. 
+  ef2.
   \chordOpenParen{ c2.:7 }
   f2.:m7
   \chordCloseParen{ bf2.:7.5+ }
@@ -82,7 +77,7 @@ refrainChordsRayAndDiana = \chordmode {
 
 refrainChordsRay = \chordmode {
   ef1./bf bf1.:7 ef1./bf bf1.:7
-  
+
   ef2. ef2.:maj7 ef2.:6 ef2. af2. af2.:maj7 af2.:6 a2.:dim7
   ef2.:6/bf c2.:7 f2.:m7 bf2.:7
   g2.:7.13- c2.:9 f2.:m11 bf2.:13
@@ -93,7 +88,7 @@ refrainChordsRay = \chordmode {
 
   af2.:6 a2.:dim7 ef2.:6/bf c2.:7 f2.:m7 bf2.:13 ef2.:6 ef2.:9
   c1.:m g2.:m c2.:9 f1.:7 bf1.:7
-  
+
   ef2.:6 ef2. ef2.:6 ef2. af2. af2.:maj7 af2.:6 a2.:dim7
   ef2.:6/bf c2.:7 f2.:m7 bf2.:7
   ef4.:6
@@ -109,15 +104,7 @@ refrainChords = \refrainChordsRay
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 12/8
@@ -125,7 +112,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFourDot "Slowly [Ray Charles 1962]" 70
 
-  \sectStart "Intro"
+  \sectNoBarNoBreak "Intro"
 
   bf4. \tuplet 4/6 { bf16( ef16 g16 c16 } bf4.) bf,4. |
   bf4. \tuplet 4/6 { bf16( d16 f16 c'16 } bf4.) bf,4. |
@@ -160,13 +147,9 @@ refrainMelody = \relative f' {
   bf4 af8 af4.~ af4 d,8 f4 af8 |
   af4 g8~ g4.~ g2.~ |
   g2. r4. r4 ef8 |
-  
-  \bar "||"
 
-  \xPageBreak
+  \sectPageBreak "B"
 
-  \sectNoBar "B"
-  
   c'4.~ c8 c8 d8 ef4.~ ef4 ef8 |
   d4 d8~ d8 c8 bf8 bf4.~ bf8 c8 bf8 |
   \break
@@ -194,10 +177,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

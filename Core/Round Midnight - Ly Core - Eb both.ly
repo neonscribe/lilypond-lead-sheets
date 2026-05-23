@@ -1,10 +1,5 @@
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "'Round Midnight"
   subtitle = \subtitle
@@ -33,7 +28,7 @@ refrainLyrics = \lyricmode {
 
   Let our love take wing, some mid -- night, 'round mid -- night
   Let the an -- gels sing for your re -- turn -- ing,
-  Let our love be safe and sound 
+  Let our love be safe and sound
   When old
   mid -- night comes a -- round.
 }
@@ -57,7 +52,7 @@ monkFakeBookRefrainChords = \chordmode {
   c2:m7.5- b2:7.5- bf1:7.5-
   af2:m7 f4:1.3-.7 bf4:7 c2:m7.5- f2:7
   df2:9 cf2:9 af2:m7 f4:1.3-.7 bf4:7
-  
+
   ef4:m ef4:m/d ef2:m/df c2:dim7 af4:m9 df4:7
   c1:m7.5-
   b4:m7 e4:7 bf4:m7 ef4:7
@@ -85,7 +80,7 @@ halLeonardRefrainChords = \chordmode {
   c2:m7.5- f2:7.5- bf1:7.5-
   af2:m7 f4:m7 bf4:7 c2:m7.5- f2:7.5-
   df2:9 cf2:9 af2:m7 f4:m7.11 bf4:7.5-
-  
+
   ef4:m ef4:m/d ef2:m/df c2:m7.5- af4:m7 df4:7
   c1:m7.5-
   b4:m7 e4:7 bf4:m7 ef4:7
@@ -111,7 +106,7 @@ SRBRefrainChords = \chordmode {
 
   c2:m7.5- f2:9-.5+ bf1:7.5- c2:m7.5- f2:7.9-.5+ bf1:7.5-
   af2:m7 f4:m7.5- bf4:7.5+ c2:m7.5- f2:7.5+ bf4:m7 ef4:7 af4:m7 df4:7 fs4:m7 b4:7 f4:m7.5- bf4:7.9-
-  
+
   ef4:m ef4:m/d ef2:m/df c4:m7.5- \chordInsideParens{ f4:7.9- } af4:m7 df4:7
   c2:m7.5- f2:7.9-
   b4:m7 e4:7 bf4:m7 ef4:7
@@ -126,31 +121,31 @@ ethanHeinRefrainChords = \chordmode {
   b4:m7 e4:7 bf4:m7 ef4:7
   af2:m7 df2:7
   gf2:maj7 af2:7.11+
-  
+
   c2:m7.5- f2:7 bf1:7.11+
-  
+
   ef4:m ef4:m/d ef2:m/df
   c2:m7.5- af4:m7 df4:7
   c2:m7.5- f2:7
   b4:m7 e4:7 bf4:m7 ef4:7
   af2:m7 df2:7
   gf2:maj7 af2:7.11+
-  
+
   c4:m7.5- f4:7 af4:m/bf bf4:7 ef1:maj7
-  
+
   c2:m7.5- f2:7.9-  bf1:7
   c2:m7.5- f2:7.9-  bf1:7
   af2:m7 f2:m7.5- c2:m7.5- f2:7.9-
   bf4:m7 ef4:7 af4:m7 df4:7
   gf4:m7 b4:7 f4:m7.5- bf4:7.9-
-  
+
   ef4:m ef4:m/d ef2:m/df
   c2:m7.5- af4:m7 df4:7
   c2:m7.5- f2:7
   b4:m7 e4:7 bf4:m7 ef4:7
   af2:m7 df2:7
   gf2:maj7 af2:7.11+
-  
+
   c4:m7.5- f4:7 af4:m/bf bf4:7 ef1:maj7
 }
 
@@ -158,15 +153,7 @@ refrainChords = \SRBRefrainChords
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative c' {
   \time 4/4
@@ -174,7 +161,7 @@ refrainMelody = \relative c' {
   \clef \whatClef
   \tempoFour "Ballad [Miles Davis Quintet 1956]" 57
 
-  \sectStart "A1"
+  \sectNoBarNoBreak "A1"
     r4 bf16 ef16 f16 bf16 gf4. bf,8 | ef8 ef4 ef8 bf'8 af4. |
     r4 ef16 gf16 bf16 df16 c4. gf8 | a4 af4 af4 g4 |
     r4 af16 cf16 ef16 gf16 f4. cf8 | bf2 r4 ef,8
@@ -188,11 +175,8 @@ refrainMelody = \relative c' {
     r4 af16 cf16 ef16 gf16 f4. cf8 | bf2 r4 ef,8
     f8 |
       gf4 f4 ef4 d4 | ef2 r4 ef8 f8 |
-  \bar "||"
-  
-  \xPageBreak
 
-  \sectNoBarNoBreak "B"
+  \sectPageBreak "B"
 
   \tuplet 3/2 { gf8 f8 gf8 } f4~ f4. ef8 | d8 bf8~ bf2 ef8 f8 |
   \tuplet 3/2 { gf8 f8 gf8 } f4~ f4. ef8 | d8 bf'4. r2 |
@@ -210,10 +194,5 @@ refrainMelody = \relative c' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

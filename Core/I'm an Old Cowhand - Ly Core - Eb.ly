@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -38,7 +33,7 @@ Yipp -- ee -- yi -- o -- ki -- yay. __
 
 refrainHLChords = \chordmode {
   f2:m7 bf2:7 ef2:6 c2:7 f2:m7 bf2:7 ef4:6 r2.
-  
+
   f1:m7 bf1:7 ef1:6 ef1:6
   f1:m7 bf1:7 ef1:6 ef1:6
 
@@ -47,7 +42,7 @@ refrainHLChords = \chordmode {
 
   f2:m7 bf2:7 ef2:6 c2:7
   f2:m7 bf2:7 ef4:6 r2.
-  
+
   ef1:6
 
   f1:m7 bf1:7 ef1:6 ef4:6 s2.
@@ -55,24 +50,24 @@ refrainHLChords = \chordmode {
 
 refrainSimpleChords = \chordmode {
   f2:m bf2:7 ef1 f2:m bf2:7 ef4 r2.
-  
+
   f1:m f2:m bf2:7 ef1 ef1
   f1:m f2:m bf2:7 ef1 ef2 ef2/g
-  
+
   c1:m g1:m c1:m g1:m
   c1:m g2:m c2:7
-  
+
   f2:m bf2:7 ef1 f2:m bf2:7
   ef4 r2.
   ef1
-  
+
   f1:m bf1:7 ef1 ef4 s2.
 }
 
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "simple" refrainSimpleChords)
@@ -82,15 +77,7 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -114,7 +101,7 @@ refrainMelody = \relative f' {
   \break
   g8 g8 f4 ef4 f4 | ef1 |
   g8 g8 f4 ef4 f4 \textToCodaLastTime |
-  
+
   ef4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
@@ -133,15 +120,10 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #1
@@ -155,7 +137,7 @@ refrainMelody = \relative f' {
   {
     \hspace #2
     }
-  \column 
+  \column
   {
    \vspace #1
    \line { \large { I'm an old cowhand from the Rio Grande. And I learned to ride, 'fore I learned to stand. } }

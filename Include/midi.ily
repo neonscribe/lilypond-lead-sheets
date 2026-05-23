@@ -1,23 +1,24 @@
 %% -*- Mode: LilyPond -*-
 
+#(cond ((and (defined? 'leadingEighth) leadingEighth)
+	(set! midiChords #{ { \chordmode { \cadenzaOn \partial 8 s8 } \midiChords } #} )
+	(set! midiMelody #{ { \relative { \cadenzaOn \partial 8 s8} \midiMelody } #} )))
+
 \score {
   $(if (and (defined? 'bossaRhythm) bossaRhythm)
     #{ \applySwing 16 #'(3 2 2 3)
   <<
-    { \context ChordNames \with {midiInstrument = "drawbar organ"}
+    { \context ChordNames \with {midiInstrument = "drawbar organ"
+				 ignoreBarChecks = ##t}
       {
-      \override ChordName.font-size = #+3
-      \override ChordName.font-series = #'bold
-      \set chordChanges = ##f
      \transpose \midiKey \whatKey {
        \midiChords
 	}
       }
       }
     \new Staff \with {midiInstrument = "overdriven guitar"} {
-      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
-	\noDoubleAccidentalMusic \transpose \midiKey \whatKey {
+	\transpose \midiKey \whatKey {
 	  \midiMelody
 	  }
 	}
@@ -29,18 +30,15 @@
        <<
     { \context ChordNames \with {midiInstrument = "drawbar organ"}
       {
-      \override ChordName.font-size = #+3
-      \override ChordName.font-series = #'bold
-      \set chordChanges = ##f
      \transpose \midiKey \whatKey {
        \midiChords
 	}
       }
       }
-    \new Staff \with {midiInstrument = "overdriven guitar"} {
-      \include "../Include/staff-settings.ily"
+    \new Staff \with {midiInstrument = "overdriven guitar"
+		      ignoreBarChecks = ##t} {
       \context Voice = "voiceMelody" { 
-	\noDoubleAccidentalMusic \transpose \midiKey \whatKey {
+	\transpose \midiKey \whatKey {
 	  \midiMelody
 	  }
 	}
@@ -50,18 +48,14 @@
   #{   <<
     { \context ChordNames \with {midiInstrument = "drawbar organ"}
       {
-      \override ChordName.font-size = #+3
-      \override ChordName.font-series = #'bold
-      \set chordChanges = ##f
      \transpose \midiKey \whatKey {
        \midiChords
 	}
       }
       }
     \new Staff \with {midiInstrument = "overdriven guitar"} {
-      \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" { 
-	\noDoubleAccidentalMusic \transpose \midiKey \whatKey {
+	\transpose \midiKey \whatKey {
 	  \midiMelody
 	  }
 	}

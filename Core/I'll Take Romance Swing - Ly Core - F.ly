@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -57,15 +52,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -73,35 +60,30 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Eydie Gormé 1957]" 136
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   f2 d4 f8 g8~ | g2. a8 bf8 | c4. c8 c4. c8 | \tuplet 3/2 { c4 df4 c4} bf2 |
   \tuplet 3/2 { bf4 c4 bf4 } a4 c8 g8~ | g2 \tuplet 3/2 { g4 f4 e4 } | f1~ | f2 r2 |
-  
+
   \sect "A2"
 
   f2 d4 f8 g8~ | g2. a8 bf8 | c4. c8 c4. c8 | \tuplet 3/2 { c4 df4 c4} bf2 |
   \tuplet 3/2 { bf4 c4 bf4 } a4 c8 g8~ | g2 \tuplet 3/2 { g4 f4 e4 } | f1~ | f4 f8 g8 e8 f8 a8 c8 |
 
   \sect "B"
-  
+
   df2 ef2 | c2 bf2 | \tuplet 3/2 { r4 df4 df4 } \tuplet 3/2 { df4 ef4 df4 } | c2 bf2 |
-  bf2 df2 | bf2 af2 | 
+  bf2 df2 | bf2 af2 |
   \tuplet 3/2 { r4 a4 a4 } \tuplet 3/2 { a4 c4 bf4 } | \tuplet 3/2 { g4 g4 g4 } \tuplet 3/2 { g4 bf4 a4 } |
-  
+
   \sect "A3"
 
   f2 d4 f8 g8~ | g2. a8 bf8 | c4. c8 c4. c8 | \tuplet 3/2 { c4 df4 c4} bf2 |
   \tuplet 3/2 { bf4 c4 bf4 } a4 c8 g8~ | g2 \tuplet 3/2 { g4 f4 e4 } | f1~ | f2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

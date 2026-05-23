@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -33,15 +28,15 @@ refrainLyricsTwo = \lyricmode {
 
 refrainChords = \chordmode {
   s2
-  
+
   g2. c2. g2.:dim7 g2.
-  d2.:7 d2.:7  
+  d2.:7 d2.:7
   c2./g g2.
-  
+
   g2. c2. g2.:dim7 g2.
-  d2.:7 d2.:7  
+  d2.:7 d2.:7
   d2.:7 g2.
-  
+
   c2.:m7 f2.:7 bf2. g2.:7
   c2.:m7 f2.:7 bf2.:7 d2.:7
 
@@ -52,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -69,43 +56,37 @@ refrainMelody = \relative f' {
   \tempoFour "Slow Waltz [Bing Crosby 1956]" 75
 
   \partial 2 d4 d4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   d2 g4 | g4 fs4 e4 |
   cs2 e4 | d2. |
   \break
   d2. | c2. | e2. | d2 d4 |
 
   \sect "A2"
-  
+
   d2 g4 | g4 fs4 e4 |
   cs2 e4 | d2. |
   \break
   d2. | c2. | a'2. | g2 g4 |
 
   \sect "B"
-  
+
   g2 bf4 | bf4 a4 g4 | f2 a4 | a4 g4 f4 |
   \break
   ef2 g4 | g4 f4. ef8 | d2.~ | d4 d4 d4 |
 
   \sect "A2"
-  
+
   d2 g4 | g4 fs4 e4 | cs2 e4 | d2. |
   \break
   a'2 b4 | c2 fs,4 | g2.~ | g4 r4 r4 |
-  
+
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

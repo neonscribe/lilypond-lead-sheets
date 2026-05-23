@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Serenade to a Cuckoo"
   subtitle = \subtitle
@@ -27,15 +22,7 @@ refrainChords = \chordmode {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -43,8 +30,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Roland Kirk 1964]" 140
 
-  \sectStart "Refrain"
-  
+  \sectNoBarNoBreak "Refrain"
+
   r8 c'8-. r8 f,8 c'4. f,8 | c'8 c8 bf8 bf8 af8 f8 r8 ef8 | f4 f8 f8 af8 af8 r8 c8~ | c1 |
   \break
   r8 c8-. r8 f,8 c'4. f,8 | c'8 c8 bf8 bf8 af8 f8 r8 ef8 | f4 f8 f8 af8 f8 ef8 f8~ | f2. r4 |
@@ -57,17 +44,12 @@ refrainMelody = \relative f' {
   \break
 
   \sectNoBar "Outro"
-  
+
   c'8 c8 c8 ef8-^ r8 df4.-> | c4-> r4 r2 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

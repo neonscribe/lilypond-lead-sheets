@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -28,7 +23,7 @@ My ba -- by don't care for shows, my ba -- by don't care for clothes,
 my ba -- by just cares for me. __ My ba -- by don't care for furs and __ la -- ces, __
 my ba -- by don't care for high -- toned __ pla -- ces. __
 My ba -- by don't care for rings, or oth -- er ex -- pen -- sive things, }
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   #{ \lyricmode { he's } #}
   #{ \lyricmode { she's } #} )
@@ -44,10 +39,10 @@ refrainChords = \chordmode {
 
   fs1:m7.5- b1:7 e1:m7 e1:7
   a2:7 b2:m7 c2:dim7 a2:7/cs d1:sus9 d1:9
-  
+
   g2:6 d2:7.5+ g2:maj7 d2:7.5+ g2:6 d2:7.5+ g2:maj7 d2:7.5+
   b1:m7.5- ef2:7 e2:7 a1:m7 a1:m7
-  
+
   c1:maj7 cs2:m7 fs2:7 b1:m7 e1:7
   a1:m7 a2:7 d2:7 g1:6
 
@@ -57,15 +52,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -74,25 +61,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Nina Simone 1959]" 117
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   r4 g4 fs8 fs8 e4 | fs4 g4 fs4 r4 | r4 g4 fs8 fs8 e4 | fs4 g4 fs4 r4 |
   \break
   r4 g4 fs8 fs8 g4 | fs2 e2 c'1~ | c1 |
-  
+
   \sect "B"
-  
+
   r4 c4 c8 b8 c4 | b2 fs2 | a4. g8~ g2 | a4. g8~ g2 |
   \break
   r4 a4 a8 gs8 a4 | ds,2 e2 | b'4. d8~ d2 | b4. a8~ a2 |
-  
+
   \sect "A2"
-  
+
   r4 g4 fs8 fs8 e4 | fs4 g4 fs4 r4 | r4 g4 fs8 fs8 e4 | fs4 g4 fs4 r4 |
   \break
   r4 f4 f8 f8 e4 | ds2 e2 | c'1~ | c1 |
 
   \sect "C"
-  
+
   r4 e4 e8 ds8 e4 | fs2 cs2 | d1 | e1 |
   \break
   r4 c4 c8 e8 e,4 | b'2 b2 | g1~ | g2 r2 |
@@ -101,10 +88,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

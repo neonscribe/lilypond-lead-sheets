@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "All of Me"
   subtitle = \subtitle
@@ -37,7 +32,7 @@ refrainOldRealChords = \chordmode {
   a1:7 a1:7 d1:m d1:m
   e1:7 e1:7 a1:m a1:m
   d1:7 d1:7 d1:m7 g1:7
-  
+
   c1:maj7 c1:maj7 e1:7 e1:7
   a1:7 a1:7 d1:m d1:m
   f1 f1:m c2:maj7 e2:m7 a1:7
@@ -52,7 +47,7 @@ refrainHLChords = \chordmode {
   a1:7 a1:7 d1:m7 d1:m7
   e1:7 e1:7 a1:m7 a1:m7
   d1:7 d1:7 d1:m7 g1:7
-  
+
   c1:6 c1:6 e1:7 e1:7
   a1:7 a1:7 d1:m7 d1:m7
   f1:6 f1:m6 c2:maj7 e2:m7.5-/bf a1:7
@@ -67,7 +62,7 @@ refrainNewRealChords = \chordmode {
   a1:7 a1:7 d1:m7 d1:m7
   e1:7 e1:7 a1:m7 a1:m7
   d1:7 d1:7 d1:m7 g1:7
-  
+
   c1:6 c1:6 e1:7 e1:7
   a1:7 a1:7 d1:m7 d1:m7
   f1:6 f1:m6 e1:m7 a1:7
@@ -80,7 +75,7 @@ refrainNewRealChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "oldreal" refrainOldRealChords)
@@ -91,42 +86,33 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Billie Holiday 1941]" 110
-  
-  \sectStart "A1"
-  
+
+  \sectNoBarNoBreak "A1"
+
   c4 g8 e8~ e2~ | e2 \tuplet 3/2 { c'4 d4 c4 } | b4 gs8 e8~ e2~ | e1 |
   \break
   a4. g8 e2~ | e4 ds4 \tuplet 3/2 { e4 bf'4 a4 } | g2 f2~ | f1 |
 
   \sect "B"
-  
+
   e4. ef8 d2~ | d2 \tuplet 3/2 { e4 gs4 b4 } | d2 c2~ | c1 |
-  \break
   b4. bf8 a2~ | a2 \tuplet 3/2 { a4 d4 b4 } | a1 | b1 |
 
   \sect "A2"
-  
+
   c4 g8 e8~ e2~ | e2 \tuplet 3/2 { c'4 d4 c4 } | b4 gs8 e8~ e2~ | e1 |
   \break
   a4. g8 e2~ | e4 ds4 \tuplet 3/2 { e4 bf'4 a4 } | g2 f2~ | f1 |
 
   \sect "C"
-  
+
   d'2 c4 b4 | d2. c4 | b2 e,4 g4 | b2. a4 |
   \break
   c2 a4 c4 | e2 e2 | c1~ | c1 |
@@ -135,10 +121,5 @@ refrainMelody = \relative f'' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

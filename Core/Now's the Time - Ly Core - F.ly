@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Now's the Time"
   subtitle = \subtitle
@@ -17,31 +12,25 @@ subtitle =
   copyright = \markup \small { \now " " "© 1945 Atlantic Music Corp." }
 }
 
+leadingEighth = ##t
+
 refrainChords = \chordmode {
-  s4
+  s8
 
   f1:7 bf1:7 f1:7 f1:7
-  bf1:7 b1:dim7 f2:7/c e2:7 
+  bf1:7 b1:dim7 f2:7/c e2:7
   ef2:7 d2:7.5+.9+ g1:m7 c1:7 f1:7 f1:7
 
   f1:7 bf1:7 f1:7 f1:7
   bf1:7 bf1:7 f1:7 f1:7
   g1:m7 c1:7 f1:7 f1:7
-  
+
   f1:7 f1:7
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -49,7 +38,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Blues [Charley Parker's Ree Boppers 1945]" 130
 
-  \partial 4 \invisEighth c8 |
+  \partial 8 c8 |
 
   \xTextMark \markup { \bold \box "Refrain" }
 
@@ -65,9 +54,9 @@ refrainMelody = \relative f' {
   \parenthesize c8 |
   }
   \break
-  
+
   \xTextMark \markup { \bold \box "Solos" }
-  
+
   \bar ":|.|:"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -77,20 +66,15 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
   \bar "||-:|."
-  
+
   \textCodaBreak
-  
+
   r8 c4-. bf8 c4-. r8 ef8-> | r8 c4-. bf8 c4-. e8-- f8-> |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

@@ -9,11 +9,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -64,22 +59,22 @@ refrainMJQChords = \chordmode {
   a2:m7 c2:7/g f2:7 e2:7 a2:m7 d2:7 g2:7 c2:7
   f1:7 b1:7.9+ e2:7 b2:7 e2:7.5+ bf2:7
 
-  a2:m7 c2:7/g f2:7 e2:7 a2:m7 a2:m7/g fs2:m7.5- f2:m7 
+  a2:m7 c2:7/g f2:7 e2:7 a2:m7 a2:m7/g fs2:m7.5- f2:m7
   c2:maj7/e a2:m7 d2:7 e2:7 a2:m7 c2:7/g f2:7 e2:7
 
   a2:m7 c2:7/g f2:7 e2:7 a2:m7 d2:7 g2:7 c2:7
   f1:7 b1:7.9+ e2:7 b2:7 e2:7.5+ bf2:7
 
-  a2:m7 c2:7/g f2:7 e2:7 a2:m7 a2:m7/g fs2:m7.5- f2:m7 
+  a2:m7 c2:7/g f2:7 e2:7 a2:m7 a2:m7/g fs2:m7.5- f2:m7
   c2:maj7/e a2:m7 d2:7 e2:7 a2:m7
   \chordOpenParen{ c2:7/g }
-  f2:7 
+  f2:7
   \chordCloseParen{ e2:7 }
 }
 
 refrainColoradoChords = \chordmode {
   s2
-  
+
   a1:m a1:m a1:m a1:m
   d1:m d1:m b1:m7.5- e1:7
 
@@ -97,7 +92,7 @@ refrainColoradoChords = \chordmode {
 
 refrainSimpleChords = \chordmode {
   s2
-  
+
   a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13 a2:m7 a2:13
   d2:m7 d2:sus6 d2:7 d2:sus6 e1:7 e1:7
 
@@ -116,17 +111,17 @@ refrainSimpleChords = \chordmode {
 
 refrainGilEvansChords = \chordmode {
   s2
-  
-  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 
+
+  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9
   d2:m7 g2:7 c2:9 f2:9 e2:9 b2:7.5+ e2:9 e2:7.9-
- 
-  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 
+
+  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9
   c2:maj7 f2:9 b2:m7.5- e2:7.5+ a2:m7 d2:9 a2:m7 d2:9
 
-  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 
+  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9
   d2:m7 g2:7 c2:9 f2:9 e2:9 b2:7.5+ e2:9 e2:7.9-
- 
-  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 
+
+  a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9 a2:m7 d2:9
   c2:maj7 f2:9 b2:m7.5- e2:7.5+ a2:m7
   \chordOpenParen{ d2:9 }
   a2:m7
@@ -135,7 +130,7 @@ refrainGilEvansChords = \chordmode {
 
 refrainHLChords = \chordmode {
   s2
-  
+
   a1:m7 b2:m7.5- e2:7.9- a1:m7 a2:m7 a2:7.9-
   d1:m7 d1:m7 b1:m7.5- e1:7.9-
   a1:m7 b2:m7.5- e2:7.9- a1:m7 d2:m7 g2:7
@@ -151,7 +146,7 @@ refrainHLChords = \chordmode {
 
 refrainVanillaChords = \chordmode {
   s2
-  
+
   a1:m e1:7 a1:m a2:m a2:7
   d1:m d1:m e1:7 e1:7
   a1:m e1:7 a1:m d2:m7 g2:7
@@ -167,7 +162,7 @@ refrainVanillaChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "simple" refrainSimpleChords)
@@ -182,53 +177,39 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
   \tempoFour "Medium [Miles Davis and Gil Evans 1959]" 110
-  
-  \partial 2 e4 c4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 2 e4 c4 |
+
+  \sectNoBreak "A1"
+
   e1~ | e4 d8 c8 d8 e8 c4 | a2 e2~ | e4 r4 e'4 c4 |
   d8 d4.~ d2 | r4 c8 a8 c8 a8 c4 | b1~ | b2 r8 e4 c8 |
-  
+
   \sect "B1"
-  
+
   e8 e4 e8~ e2 | r4 d8 c8 d8 e8 c4 | a2 e2~ | e2 r4 e4 |
   g4 e8 g8 a4 c4 | e8( d4.) c2 | a1~ | a4 r4 \tuplet 3/2 { e'4 e4 c4 } |
 
   \sect "A2"
-  
+
   e4 e2. | r8 e8 d8 c8 d8( e8) c4 | a2 e2~ | e4 r4 e'4 c4 |
   d8 d4 d8~ d2 | r4 c8 a8 c8( a8) c4 | b1~ | b2 r8 e8 e8 c8 |
-  
+
   \sect "B2"
-  
+
   e8 e4.~ e2 | r4 d8 c8 d8 e8 c4 | a2 e2~ | e2 r4 e4 |
   g4 e8 g8 a4 c4 | e8( d4.) c2 | a1~ | a2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

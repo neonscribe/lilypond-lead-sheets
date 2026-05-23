@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -32,7 +27,7 @@ love is just a -- round the cor -- ner and I'm a -- round you.
 }
 
 refrainChords = \chordmode {
-  g2:7 c2:7 f4:maj7 \chordSlash 1 d4:7 \chordSlash 1 g2:7 c2:7 f4:maj7 \chordSlash 1 d4:7 \chordSlash 1 
+  g2:7 c2:7 f4:maj7 \chordSlash 1 d4:7 \chordSlash 1 g2:7 c2:7 f4:maj7 \chordSlash 1 d4:7 \chordSlash 1
   g2:7 c2:7 a4:m7 \chordSlash 1 d4:7 \chordSlash 1 g2:7 c2:7 f2:6 d2:7
 
   g2:7 c2:7 f4:maj7 \chordSlash 1 d4:7 \chordSlash 1 g2:7 c2:7 f4:maj7 \chordSlash 1 d4:7 \chordSlash 1
@@ -48,15 +43,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -65,37 +52,32 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Frank Sinatra 1962]" 132
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   g4 g4 g8 fs8 g8 a8 | f4 c'2. | r4 g8 fs8 g8 fs8 g8 a8 | f4 c2. |
   \break
   g'4 g4 g8 fs8 g8 a8 | f4 c'2 d4 | a2 r8 f8 g4 | f2 r2 |
-  
+
   \sect "A2"
-  
+
   g4 g4 g8 fs8 g8 a8 | f4 c'2. | r4 g8 fs8 g8 fs8 g8 a8 | f4 c2. |
   \break
   g'4 g4 g8 fs8 g8 a8 | f4 c'2 d4 | a2 r8 f8 g4 | f2 r2 |
-  
+
   \sect "B"
-  
+
   a2 a4. g8 | f4 d2 a'4 | fs4-. a4 g4-. a4 | d,2. r8 fs8 |
   \break
   g8 g4 g8 g8 g4 g8 | g8 g4 g8 g8 g4 g8 | g4 gs4 a4 b4 | c2. c,4 |
-  
+
   \sect "A3"
 
   g'4 g4 g8 fs8 g8 a8 | f4 c'2. | r4 g8 fs8 g8 fs8 g8 a8 | f4 c2. |
   \break
   g'4 g4 g8 fs8 g8 a8 | f4 c'2 d4 | a2 r8 f8 g4 | f2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

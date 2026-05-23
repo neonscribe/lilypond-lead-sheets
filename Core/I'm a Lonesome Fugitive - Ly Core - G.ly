@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -40,7 +35,7 @@ For he who trav -- els fast -- est goes a -- lone.
 
 refrainChords = \chordmode {
   s4
-  
+
   g1 c1 d1:7 d1:7
   c1 d1:7 g1 g1
 
@@ -56,15 +51,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -75,24 +62,24 @@ refrainMelody = \relative f' {
   \partial 4 d4 |
   \bar "||"
 
-  \sectStart "Verse"
-  
+  \sectNoBarNoBreak "Verse"
+
   d4. d8 d8 d4 e8~ | e4 g4 g4 g4 | g4 fs8 fs8~ fs2~ | fs4 r4 r4 d4 |
   \break
   c'8 c4 c8~ c4 c8 b8~ | b4 a4 g4 fs8 g8~ | g2. r4 | r2 r4 d4 |
   \break
-  d4. d8 d8 d4. | e8 g4 g8~ g4 g4 | g4 fs8 fs8~ fs2~ | fs4 r4 r4 d4 | 
+  d4. d8 d8 d4. | e8 g4 g8~ g4 g4 | g4 fs8 fs8~ fs2~ | fs4 r4 r4 d4 |
   \break
   c'4 c8 c8~ c4 c4 | b4 a4 g4 fs4 | g2. r4 | r2 r4 d'4 |
-  
+
   \sect "Chorus"
-  
+
   d4 b4 b8 g4 a8~ | a4. g8 g4 e4 | d8 fs4.~ fs2~ | fs4 r4 r4 r8 a8 |
-  \break
+  %% \break
   g8 g4 e8~ e4 d4 | c4. c8 e8 g4 fs8~ | fs1~ | fs4 r4 r4 d'4 |
   \break
   d4 b4 b4. a8 | a4 g4 g4 e8( d8) | d8 fs4.~ fs2~ | fs4 r4 r4 c4 |
-  \break
+  %% \break
   c4. e8 e4. e8 | d4 fs2 e8 fs8 | g1~ | g4 r4 r4
   \override Parentheses.font-size = #5
   \parenthesize d4 |
@@ -101,10 +88,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

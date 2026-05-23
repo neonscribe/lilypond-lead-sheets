@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -56,13 +51,13 @@ Owls go by, __ and they give me the eye, __ walk -- in' my ba -- by back _ home.
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainFemaleSingerLyrics
   refrainMaleSingerLyrics)
 
 refrainLyricsTwo =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainFemaleSingerLyricsTwo
   refrainMaleSingerLyricsTwo)
@@ -70,11 +65,11 @@ refrainLyricsTwo =
 refrainChords = \chordmode {
   ef2:maj7 bf2:7.5+ ef2:maj7 bf2:7.5+ ef2:maj7 c2:m7 f1:9
   f2:m7 bf2:7 f2:m7 bf2:7 f2:m7 bf2:7
-  
+
   ef2:6 f4:m7 bf4:7
-  
+
   ef2:6 a4:m7.5- d4:7.9-
-  
+
   g2:m g2:m7+ g2:m7 g2:m6 c2:m7 c2:m7/bf a2:m7 d2:7
   g2:m g2:m7+ g2:m7 g2:m6 c2:m7 f2:7 f2:m7 bf2:7
 
@@ -86,15 +81,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -103,7 +90,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Nat King Cole 1952]" 111
 
   \xTextMark \markup{ \bold \box "A1, A2" }
-  
+
   \bar ".|"
   \repeat volta 2 {
   bf8 bf4 c8~ c4 bf8 c8 | d8 ef8 d8 c8~ c2 | d8 ef8 d8 c8~ c8 bf8 c4 | g1 |
@@ -117,13 +104,13 @@ refrainMelody = \relative f' {
   \break
 
   \xTextMark \markup{ \bold \box "B" }
-  
+
   d8 bf8 c8 d8~ d4. c8 | bf8 g8 a8 bf8~ bf4. a8 | g8 ef8 f8 g8~ g8 f8 ef4 | d2. r8 ef'8 |
   \break
   d8 bf8 c8 d8~ d4. c8 | bf8 g8 a8 bf8~ bf2 | r4 c8 c8~ c8 d8 ef4 | f8 d8 c8 bf8~ bf2 |
 
   \sect "A3"
-  
+
   bf8 bf4 c8~ c4 bf8 c8 | d8 ef8 d8 c8~ c2 | d8 ef8 d8 c8~ c8 bf8 c4 | g1 |
   \break
   f8 f4 g8~ g4 f8 g8 | af8 bf8 g8 f8~ f2 | af8 bf8 g8 f8~ f8 ef8 f4 | ef2 r2 |
@@ -131,10 +118,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -45,7 +40,7 @@ refrainSimpleChords = \chordmode {
   g1:m7 c1:7 f1 f2 d2:7
   g1:m7 c1:7 f1 f2 a2:7
   d1:7 d1:7 g1:7 g1:7
-  c1:7 c1:7 f1 
+  c1:7 c1:7 f1
   \chordOpenParen{ a2:m7 }
   \chordCloseParen{ d2:7 }
 }
@@ -85,7 +80,7 @@ refrainFirehouseChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "simple" refrainSimpleChords)
@@ -96,15 +91,7 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f'' {
   \time 4/4
@@ -113,26 +100,25 @@ refrainMelody = \relative f'' {
   \tempoFour "Medium-Up [Artie Shaw 1939]" 176
 
   \partial 2 c8 b8 c8 cs8 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f2 d2~ | d2 c'8 b8 c8 cs8 |
   \break
   d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f2 d2~ | d2 r2 |
-  
+
   \sect "B"
-  
+
   d2 fs4 a4 | c2 b4 c4 | e2 b2~ | b2 e2 |
   \break
   d2 e,2~ | e2 e'2 | d2 a2~ | a2 c8 b8 c8 cs8 |
-  
+
   \sect "A2"
-  
+
   d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f2 d2~ | d2 c'8 b8 c8 cs8 |
   \break
   d4 bf8 bf8~ bf8 a8 a4 | a4 g8 g8~ g8 e8 g4 | f2 d2~ | d2 r2 |
-  
+
   \sect "C"
 
   d2 fs4 a4 | c2 b4 c4 | e2 b2~ | b2 e2 |
@@ -143,10 +129,5 @@ refrainMelody = \relative f'' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

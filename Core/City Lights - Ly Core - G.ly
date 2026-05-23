@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -76,43 +71,35 @@ and I just can't say “I love you” to a street of cit -- y lights.
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainFemaleSingerLyrics
   refrainMaleSingerLyrics)
 
 refrainLyricsTwo =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainFemaleSingerLyricsTwo
   refrainMaleSingerLyricsTwo)
 
 refrainChords = \chordmode {
   s2
-  
+
   d1:7 d1:7 d1:7 g1 g1
-  
+
   g1 g1:7 c1 c1 d1:7 d1:7 d1:7 g1
   g1 g1:7 c1 c1 d1:7 d1:7 d1:7 g1 g1
-  
+
   d1:7 d1:7 g1 g1 d1:7 d1:7 g1 g1 g1 g1:7 c1 c1 d1:7 d1:7 d1:7 g1
-  
+
   g1 g1:7 c1 c1 d1:7 d1:7 d1:7 g1 g1
-  
-  
+
+
 }
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -123,15 +110,15 @@ refrainMelody = \relative f' {
   \partial 2 \rsq \rsq |
 
   \sectNoBreak "Intro"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq d4 |
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
 
   \sectNoBar "Chorus"
-  
+
   d4 g4 b4. g8 | g8 g4. g4. g8 | a4 e4 e4. e8 | e2. b'8 b8 |
   \break
   c4 b4 c2 | a4 fs8 fs8 fs4. e8 | e4 d4 cs4 e4 | d2. d8 d8 |
@@ -139,34 +126,26 @@ refrainMelody = \relative f' {
   d4 g4 b4. g8 | g8 g8 g4~ g4. a8 | a8 e4. e4. e8 | e2. b'8 b8 |
   \break
   c4 b4 c4. a8 | a4. fs8 fs4 e8 e8 | d4 d4 fs8 a4. | g2. r4 | r1 |
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectNoBarNoBreak "Verse"
-  
+
+  \sectPageBreak "Verse"
+
   c4. c8 c4. b8 | b8 a4. a4 e8 e8 | e4 d2 cs8 e8 | d2. r4 |
   \break
   c'4. c8 c4. a8 | a8 fs4. fs4. e8 | e4 d4 cs4 e4 | d2. d4 |
   \break
   d4 g4 b4. fs8 | a4 g4 g4. g8 | a4 e4 e4 fs4 | e2. b'8 b8 |
   \break
-  c4. b8 c4. b8 | b4 a4 a4 e4 | d4 c'4 b8 a4. | g2._"FINE" r4 |
+  c4. b8 c4. b8 | b4 a4 a4 e4 | d4 c'4 b8 a4. | g2. \textFine r4 |
 
   \sect "Solo"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq d4 |
   }
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

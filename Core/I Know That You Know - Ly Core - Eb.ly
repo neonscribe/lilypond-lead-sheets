@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -43,15 +38,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -59,12 +46,12 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast Swing [Nat King Cole 1957]" 320
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   g2. g4~ | g2. f4 | g2. g4~ | g2. f4 |
   \break
-  c'2. c4~ | c2. bf4 | c2. c4~ | c2 r4 bf4 | 
-  
+  c'2. c4~ | c2. bf4 | c2. c4~ | c2 r4 bf4 |
+
   \sect "B"
 
   g2. g4~ | g2. f4 | g2. g4~ | g2 r4 f4 |
@@ -76,7 +63,7 @@ refrainMelody = \relative f' {
   g,2. g4~ | g2. f4 | g2. g4~ | g2. f4 |
   \break
   c'2. c4~ | c2. bf4 | g'2. g4~ | g4 f4 ef4 d4 |
-  
+
   \sect "C"
 
   c2. c4~ | c2. bf4 | g2. g4~ | g2 r4 f4 |
@@ -87,10 +74,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

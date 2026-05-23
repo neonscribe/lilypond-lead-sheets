@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Beaumont Rag"
   subtitle = \subtitle
@@ -24,28 +19,20 @@ refrainChords = \chordmode {
 
   c1:7 c1:7 f1 f1
   c1:7 c1:7 f1 f1
-  
+
   c1:7 c1:7 f1 f1
   bf2 b2:dim7 f2/c d2:7 g2:7 c2:7 f1
 
   c1:7 c1:7 f1 f1
   c1:7 c1:7 f4 r4*7
-  
+
   c1:7 c1:7 f1 f1
   bf2 b2:dim7 f2/c d2:7 g2:7 c2:7 f1
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody =  \relative f' {
   \time 2/2
@@ -55,9 +42,9 @@ refrainMelody =  \relative f' {
 
   \partial 2. c'4 b4 c4 |
   \bar "||"
-  
-  \sectStart "A"
-  
+
+  \sectNoBarNoBreak "A"
+
   bf'4 bf4 g2 | e8 g8 e8 c8~ c2 | a'4 a4 f8 g8 f8 c8 | d8 c8 a8 d8 c2 |
   \break
   c8 d8 e8 g8~ g8 a8 g8 e8 | a8 g8 e8 c8~ c8 d8 c8 a8 |
@@ -68,10 +55,10 @@ refrainMelody =  \relative f' {
   bf8 c8 d8 f8~ f4 g8 f8 | a8 g8 f8 d8 c2 | e8 d8 c8 d8~ d8 c8 a4 | f1 |
 
   \sect "B"
-  
+
   e4 c'8 d8 c2 | e8 d8 c8 e8 d8 c8 a8 g8 | g4 f'8 g8 f2 | a8 g8 f8 a8 g8 f8 d8 c8 |
   \break
-  e,4 c'8 d8 c2 | e8 d8 c8 e8 d8 c8 d8 e8 | 
+  e,4 c'8 d8 c2 | e8 d8 c8 e8 d8 c8 d8 e8 |
   f8 d8 c8 f8 d8 c8 a8 bf8 | c8 d8 c8 a8 g8 f8 d8 ef8 |
   \break
   e4 c'8 d8 c2 | e8 d8 c8 e8 d8 c8 a8 g8 | g4 f'8 g8 f2 | a8 g8 f8 a8 g8 f8 d8 c8 |
@@ -82,11 +69,6 @@ refrainMelody =  \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "What Is There to Say"
   subtitle = \subtitle
@@ -38,7 +33,7 @@ refrainChords = \chordmode {
 
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef1:maj7 bf2:maj7 ef2:7
-  
+
   af4:maj7 a2.:dim7 ef4/bf c2.:7 f2:m7 fs2:dim7 ef2/g a4:m7.5- d4:7
   g1:m7 c1:7 f1:7 bf1:7.5+
 
@@ -50,15 +45,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -66,22 +53,22 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Slow [Bill Evans 1959]" 104
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   bf,4 c4 ef4 g4 | g2. f4 | d4 ef4 g4 c4 | c2. bf4 |
   \tuplet 3/2 { ef4 c4 d4 } \tuplet 3/2 { bf4 c4 g4 } |
   \tuplet 3/2 { bf4 f4 g4 } \tuplet 3/2 { ef4 f4 c4 } |
   ef1 | r1 |
-  
+
   \sect "A2"
-  
+
   bf4 c4 ef4 g4 | g2. f4 | d4 ef4 g4 c4 | c2. bf4 |
   \tuplet 3/2 { ef4 c4 d4 } \tuplet 3/2 { bf4 c4 g4 } |
   \tuplet 3/2 { bf4 f4 g4 } \tuplet 3/2 { ef4 f4 c4 } |
   ef1 | r2 r8 ef'8 ef8 ef8 |
 
   \sect "B"
-  
+
   ef8 c8 c2 d4 | ef8 c8 c2 d4 |
   \tuplet 3/2 { ef4 c4 d4 } \tuplet 3/2 { ef4 c4 d4 } | ef8 c8 c4 r8 c8 c8 c8 |
   bf8 g8 g2 a4 | bf8 g8 g2 a4 | f1 | fs1 |
@@ -92,15 +79,10 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { ef4 c4 d4 } \tuplet 3/2 { bf4 c4 g4 } |
   \tuplet 3/2 { bf4 f4 g4 } \tuplet 3/2 { ef4 f4 c4 } |
   ef1~ | ef4 r4 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

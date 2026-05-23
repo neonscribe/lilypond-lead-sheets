@@ -10,11 +10,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -33,10 +28,10 @@ refrainNRBThreeChords = \chordmode {
 
   ef2.:6.9 ef2.:6.9 ef2.:6.9 ef2.:6.9
   g2.:m7 c2.:7 g2.:m7 c2.:7
-  
-  f2.:9 f2.:9 f2.:9 f2.:9 
-  af2.:m6 af2.:m6 df2.:9.11+ df2.:9.11+ 
-  
+
+  f2.:9 f2.:9 f2.:9 f2.:9
+  af2.:m6 af2.:m6 df2.:9.11+ df2.:9.11+
+
   f2.:7 f2.:7 bf2.:7 bf2.:7
   g2.:m7 c2.:7 f2.:m7 bf2.:7
 
@@ -45,14 +40,14 @@ refrainNRBThreeChords = \chordmode {
 
 refrainDFBChords = \chordmode {
   ef2. ef2. ef2. ef2.
-  af2.:7 af2.:7 af2.:7 af2.:7 
+  af2.:7 af2.:7 af2.:7 af2.:7
 
   ef2. ef2. ef2. ef2.
   c2.:7 c2.:7 c2.:7 c2.:7
-  
+
   f2.:7 f2.:7 f2.:7 f2.:7
-  af2.:m6 af2.:m6 af2.:m6 af2.:m6 
-  
+  af2.:m6 af2.:m6 af2.:m6 af2.:m6
+
   f2.:7 f2.:7 bf2.:7 bf2.:7
   g2.:m7 c2.:7 f2.:m7 bf2.:7
 
@@ -62,14 +57,14 @@ refrainDFBChords = \chordmode {
 
 refrainHLChords = \chordmode {
   ef2.:maj7 ef2.:maj7 ef2.:maj7 ef2.:maj7
-  af2.:7 af2.:7 af2.:7 af2.:7 
+  af2.:7 af2.:7 af2.:7 af2.:7
 
   ef2.:maj7 ef2.:maj7 ef2.:maj7 ef2.:maj7
   g2.:m7 c2.:7 g2.:m7 c2.:7
-  
+
   f2.:7 f2.:7 f2.:7 f2.:7
   af2.:m6 af2.:m6 df2.:9.11+ df2.:9.11+
-  
+
   f2.:7 f2.:7 bf2.:7 bf2.:7
   g2.:m7 c2.:7 f2.:m7 bf2.:7
 
@@ -80,7 +75,7 @@ refrainHLChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "dfb" refrainDFBChords)
@@ -91,15 +86,7 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -108,47 +95,42 @@ refrainMelody = \relative f' {
   \tempoFour "Waltz [Fats Waller 1942]" 122
 
   \xTextMark \markup{ \bold \box "A" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r8 ef'8 g8 d8 f8 c8 | ef8 bf8 d8 af8 c8 g8 |
   bf8 f8 af8 ef8 g8 d8 | f8 c8 ef8 bf8 d8 bf8 |
-  \break
+  %% \break
   c8 c4.~ c4~ | c2 \tuplet 3/2 { bf8 c8 ef8 } | bf'2~ bf8 c8 | gf2. |
-  
+
   \sect "B"
-  
+
   r8 ef'8 g8 d8 f8 c8 | ef8 bf8 d8 af8 c8 g8 |
   bf8 f8 af8 ef8 g8 d8 | f8 c8 ef8 bf8 d8 g,8 |
-  \break
+  %% \break
   c8 c4.~ c4~ | c2 \tuplet 3/2 { bf8 c8 e8 } | bf'2~ bf8 c8 | g2. |
-  
+
   \sect "C"
-  
+
   r8 c,8 ef8 c8 ef8 c8 | ef8 c8 ef8 c8 ef8 c8 | g'8 g4.~ g4~ | g2 r4 |
-  \break
+  %% \break
   r8 cf,8 ef8 cf8 ef8 cf8 | ef8 cf8 ef8 cf8 ef8 cf8 | g'8 g4.~ g4~ | g2 r4 |
-  
+
   \sect "D"
-  
+
   \alternative { \volta 1 {
   r8 c,8 ef8 c8 ef8 c8 | ef8 c8 ef8 c8 ef8 c8 | d4 ef4 e4 | f4. d8 c8 cf8 |
-  \break
+  %% \break
   bf2.~ | bf2.~ | bf2.~ | bf2 r4 |
-  \break
+  %% \break
   } \volta 2 {
   r8 c8 ef8 c8 ef8 c8 | ef8 c8 ef8 c8 ef8 c8 | g'8 g4.~ g4~ | g2 bf,4 |
-  \break
+  %% \break
   ef2 g8 bf8 | af2 c8 ef8 | ef2. | R2.*1 |
   } } }
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "My Blue Heaven"
   subtitle = \subtitle
@@ -31,18 +26,18 @@ We're hap -- py in my blue hea -- ven. __
 
 refrainChords = \chordmode {
   s2.
-  
+
   ef1 ef1 ef1 c1:7
   f1:7 bf1:7 ef1 f2:m7 bf2:7
 
   ef1 ef1 ef1 c1:7
   f1:7 bf1:7 ef1 bf2:m7 ef2:7
-  
+
   af1 c1:7 f1:m f1:m
   bf1:7 bf1:7 ef2 e2:dim7 f2:m7 bf2:7
 
   ef1 ef1 ef1 c1:7
-  f1:7 bf1:7 ef2 
+  f1:7 bf1:7 ef2
   \chordOpenParen{ af2 }
   ef2
   \chordCloseParen{ bf2:7 }
@@ -50,57 +45,43 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Swing [Fats Domino 1956]" 180
-  
-  \partial 2. g4 bf8 c8 ef4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 2. g4 bf8 c8 ef4 |
+
+  \sectNoBreak "A1"
+
   c1 | r4 ef,4 g8 bf8 c4 | bf1 | r4 bf,4 c8 ef8 g4 |
   \break
   f1 | g1 | f4 ef4~ ef2 | r4 g4 bf8 c8 ef4 |
-  
+
   \sect "A2"
-  
+
   c1 | r4 ef,4 g8 bf8 c4 | bf1 | r4 bf,4 c8 ef8 g4 |
   \break
   f1 | g1 | f4 ef4~ ef2 | r4 ef'4 ef4 ef4 |
-  
+
   \sect "B"
-  
+
   ef4 d4 d4 c4 | c4 bf4 bf4 c4 | bf4 af4 c2~ | c2. d4 |
   \break
   d4 c4 c4 bf4 bf4 af4 af4 bf4 | af4 g4 bf2 | r4 g4 bf8 c8 ef4 |
-  
+
   \sect "A3"
 
   c1 | r4 ef,4 g8 bf8 c4 | bf1 | r4 bf,4 c8 ef8 g4 |
   \break
   f1 | g1 | f4 ef4~ ef2 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

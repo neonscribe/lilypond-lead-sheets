@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   (set-global-staff-size 18))
 
@@ -21,22 +16,15 @@ straightEighths = ##t
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody =  \relative a' {
     \clef \whatClef
-    \time 4/4 
+    \time 4/4
     \key a \minor
     \tempoFour "Tom-Tom Straight Eighths [The Shadows 1960]" 130
-    \xTextMark \markup { Intro }
+
+    \sectNoBarNoBreak "Intro"
     r4  a8 [  c8 ]  d8 [
      ef8 ]  d4 | % 2
     r4  a8 [  d8 ]  a'8 [  g8 ]
@@ -48,7 +36,7 @@ refrainMelody =  \relative a' {
     \bar ".|:-||"
     \break
     \repeat volta 2 {
-    \xTextMark \markup { \bold \box { A1 } }
+    \sectNoBar "A1"
     a,2  e4  a4 | % 6
      fs2  e4  d4 | % 7
      e2. r4 | % 8
@@ -57,7 +45,7 @@ refrainMelody =  \relative a' {
      fs2  e4  d4 | % 11
      e2. r4 | % 12
     r2 r4  a4 | % 13
-    \break
+    %% \break
      d2  a4  d4 | % 14
      b2  a4  g4 | % 15
      a2. r4 | % 16
@@ -68,7 +56,7 @@ refrainMelody =  \relative a' {
     R1 | % 21
     \bar "||-||"
      \break
-   \xTextMark \markup { \bold \box { B1 } }
+   \sectNoBar "B1"
      c8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 22
      c8 [  f16  f16 ]  f8 [  f8 ]
@@ -84,9 +72,7 @@ refrainMelody =  \relative a' {
      f16  f16 ] | % 27
     e1 ~ | % 28
     e1 | % 29
-    \bar "||-||"
-     \break
-   \xTextMark \markup { \bold \box { C1 } }
+   \sectPageBreak "C1"
     r4  f4  a4  c4 | \barNumberCheck #30
      b2  c4  d4 | % 31
     \times 2/3  {
@@ -107,7 +93,7 @@ refrainMelody =  \relative a' {
     a1 | % 41
     \bar "||-||"
      \break
-   \xTextMark \markup { \bold \box { B2 } }
+   \sectNoBar "B2"
      c,8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 42
      c8 [  f16  f16 ]  f8 [  f8 ]
@@ -124,8 +110,9 @@ refrainMelody =  \relative a' {
      e2  a,2 ~ | % 48
     a1 | % 49
   }
+    \bar "||-:|."
     \break
-    \xTextMark \markup { Outro }
+    \sectNoBar "Outro"
     r4  a'8 [  c8 ]  d8 [  ef8 ]
      d4 | % 94
     r4  a8 [  d8 ]  a'8 [  g8 ]
@@ -145,7 +132,7 @@ refrainChords =  \chordmode {
   a1:m d1 a1:m a1:m
   d1:m g1 d1:m d1:m
   a1:m d1 a1:m a1:m
-  
+
   f1 f1 a1:m a1:m
   f1 f1 a1:m a1:m
 
@@ -162,81 +149,4 @@ refrainChords =  \chordmode {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
-
-xxxx = {    \bar "||-||"
-    \xTextMark \markup { \bold \box { A2 } }
-    a'2  e4  a4 | \barNumberCheck #50
-     fs2  e4  d4 | % 51
-     e2. r4 | % 52
-    r2 r4  e4 | % 53
-     a2  e4  a4 | % 54
-     fs2  e4  d4 | % 55
-     e2. r4 | % 56
-    r2 r4  a4 | % 57
-     d2  a4  d4 | % 58
-     b2  a4  g4 | % 59
-     a2. r4 | \barNumberCheck #60
-    r2 r4  e4 | % 61
-     a2  e4  a4 | % 62
-     fs2  e4  d4 | % 63
-     e2. r4 | % 64
-    R1 | % 65
-    \bar "||-||"
-    \xTextMark \markup { \bold \box { B3 } }
-     c8 [  f16  f16 ]  f8 [  f8 ]
-     c8 [  f16  f16 ]  f8 [  f8 ] | % 66
-     c8 [  f16  f16 ]  f8 [  f8 ]
-     c8 [  f16  f16 ]  f16 [  f16
-     f16  f16 ] | % 67
-     e2  a,2 ~ | % 68
-    a1 | % 69
-     c8 [  f16  f16 ]  f8 [  f8 ]
-     c8 [  f16  f16 ]  f8 [  f8 ] |
-    \barNumberCheck #70
-     c8 [  f16  f16 ]  f8 [  f8 ]
-     c8 [  f16  f16 ]  f16 [  f16
-     f16  f16 ] | % 71
-    e1 ~ | % 72
-    e1 | % 73
-    \bar "||-||"
-    \xTextMark \markup { \bold \box { C2 } }
-    r4  f4  a4  c4 | % 74
-     b2  c4  d4 | % 75
-    \times 2/3  {
-         e4  d4  c4 }
-     a2 ~ | % 76
-    a1 | % 77
-    r4  f4  a4  c4 | % 78
-     b2  c4  d4 | % 79
-    g,1 ~ | \barNumberCheck #80
-    g1 | % 81
-    r4  f4  a4  c4 | % 82
-     b2  c4  d4 | % 83
-    \times 2/3  {
-         e4  d4  c4 }
-     a2 ~ | % 84
-    a1 | % 85
-    \bar "||-||"
-    \xTextMark \markup { \bold \box { B4 } }
-     c,8 [  f16  f16 ]  f8 [  f8 ]
-     c8 [  f16  f16 ]  f8 [  f8 ] | % 86
-     c8 [  f16  f16 ]  f8 [  f8 ]
-     c8 [  f16  f16 ]  f16 [  f16
-     f16  f16 ] | % 87
-     e2  a,2 ~ | % 88
-    a1 | % 89
-     c8 [  f16  f16 ]  f8 [  f8 ]
-     c8 [  f16  f16 ]  f8 [  f8 ] |
-    \barNumberCheck #90
-     c8 [  f16  f16 ]  f8 [  f8 ]
-     c8 [  f16  f16 ]  f16 [  f16
-     f16  f16 ] | % 91
-     e2  a,2 ~ | % 92
-    a1 | % 93
-}

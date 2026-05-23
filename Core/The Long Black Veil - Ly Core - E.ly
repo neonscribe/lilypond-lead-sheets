@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -41,31 +36,23 @@ refrainChords = \chordmode {
 
   e1 e1 e1 e1
   b1:7 b1:7 a1 e1
-  
+
   e1
-  
+
   e1
-  
+
   a1 e1 a1 e1
   a1 e1 a1 e1
-  
+
   e1 e1 e1 a1
   e1 a1 b1:7 e1 e1
-  
+
   e1 a1 b1:7 e1 e1
 }
 
 refrainKey = e
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -73,8 +60,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Lefty Frizzell 1959]" 130
 
-  \sectStart "Verse"
-  
+  \sectNoBarNoBreak "Verse"
+
   \bar ".|:"
   \repeat volta 2 {
   e2 e4 e8 e8( | b2) r4 gs'8 gs8 | gs2 gs4. gs8( | e2) ds4 e4 |
@@ -92,7 +79,7 @@ refrainMelody = \relative f' {
   } } }
   \sectNoBreak "Chorus"
 
-  cs2 e2 | b2 r4 b8. b16 | cs4.( e8~ e4) e4 | gs2. b,4 | 
+  cs2 e2 | b2 r4 b8. b16 | cs4.( e8~ e4) e4 | gs2. b,4 |
   \break
   cs2 e4 e4 | b2 r4 b8 b8 | cs2 e2 | gs2~( gs8 fs8 gs8 fs8 |
   \break
@@ -100,13 +87,13 @@ refrainMelody = \relative f' {
   \break
   g2 r2 | cs,4(  e4~ e8) e8 e8 fs8~( | fs4 b,2) cs8( e8) |
   fs8( e4.~ e2) \textToCoda | r2 r4 e4 \daCapoSecondEnding |
-  
+
   \bar "|."
-  
+
   \xPageBreak
 
   \textCodaBreak
-  
+
   r1 |
 \repeat volta 2 {
   cs2 e4 e8 fs8~( | fs4 b,2) cs8( e8) | e1 | r1 |
@@ -115,15 +102,10 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -141,7 +123,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { Ten years ago, on a cold dark night } }

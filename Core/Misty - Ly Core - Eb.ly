@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Misty"
   subtitle = \subtitle
@@ -38,13 +31,13 @@ I'm too mist -- y and too much in love.
 
 refrainChords = \chordmode {
   s4
-  
+
   ef1:maj7 bf2:m7 ef2:7 af1:maj7 af2:m7 df2:7
   ef2:maj7 c2:m7 f2:m7 bf2:7 g2:m7 c2:7 f2:m7 bf2:7
 
   ef1:maj7 bf2:m7 ef2:7 af1:maj7 af2:m7 df2:7
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:6 df2:9 ef1:maj7
-  
+
   bf1:m7 ef1:7.9- af1:maj7 af1:maj7
   a1:m7 d2:7 f2:7 g2:m7 c2:7.9- f2:m7 bf2:7
 
@@ -57,15 +50,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -74,10 +59,9 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Johnny Mathis 1959]" 60
 
   \partial 4 bf8 g8 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   d2. bf8 c8 | df8 c'8 c8 c8 c8 bf8 g8 ef8 |
   c2 \tuplet 3/2 { r8 g8 af8 } \tuplet 3/2 { c8 ef8 g8 } |
   bf8 bf8 bf8 af8 bf4. af8 |
@@ -86,7 +70,7 @@ refrainMelody = \relative f' {
   af8 c,4 c8 \tuplet 3/2 { d4 ef4 f4 } | g1~ | g2. bf8 g8 |
 
   \sect "A2"
-  
+
   d2. bf8 c8 | df8 c'8 c8 c8 c8 bf8 g8 ef8 |
   c2 \tuplet 3/2 { r8 g8 af8 } \tuplet 3/2 { c8 ef8 g8 } |
   bf8 bf8 bf8 af8 bf4. af8 |
@@ -95,13 +79,13 @@ refrainMelody = \relative f' {
   af8 c,4 c8 \tuplet 3/2 { d4 ef4 f4 } | g1 |
   \tuplet 3/2 { r4 ef4 f4 } \tuplet 3/2 { g4 bf4 c4 } |
 
-  \sect "B"
-  
+  \sectPageBreak "B"
+
   df8 df8 df8 df8~ df2~ | df4 df8 ef8 \tuplet 3/2 { ff4 ef4 df4 } |
   c8 c8 c8 c8~ c2 | \tuplet 3/2 { r4 ef,4 f4 } \tuplet 3/2 { af4 bf4 c4 } |
   \break
   d8 d8 d8 c8 d2~ | d8 d8 d8 c8 \tuplet 3/2 { f4 d4 c4 } | bf1~ | bf2. bf8 g8 |
-  
+
   \sect "A3"
 
   d2. bf8 c8 | df8 c'8 c8 c8 c8 bf8 g8 ef8 |
@@ -115,10 +99,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

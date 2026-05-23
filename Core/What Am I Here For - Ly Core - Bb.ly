@@ -10,11 +10,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "What Am I Here For"
   subtitle = \subtitle
@@ -60,7 +55,7 @@ refrainSRBChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "newreal" refrainSRBChords)
@@ -70,15 +65,7 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -86,34 +73,32 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Duke Ellington 1942]" 100
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   bf,8 c8 d8 c8~ c8 bf4. | b8 c8 d8 c8~ c8 b4. | c8 d8 ef8 d8~ d8 c8 g'8 f8~ | f2. r4 |
+  \break
   bf,8 c8 d8 c8~ c8 bf4. | b8 c8 d8 c8~ c8 b4. | c8 d8 ef8 d8~ d8 c8 g'8 f8~ | f2. r4 |
-  
+
   \sect "B"
-  
+
   r8 bf,4 c8 d4 f4 | e1 | r8 ef4 f8 g4 bf4 | a1 |
   r8 bf4 g8 bf4. g8 | bf4 g8 d8~ d2 | r8 bf'4 g8 bf4. g8 | d4 f8 f8~ f2 |
-  
+
   \sect "A2"
 
   bf,8 c8 d8 c8~ c8 bf4. | b8 c8 d8 c8~ c8 b4. | c8 d8 ef8 d8~ d8 c8 g'8 f8~ | f2. r4 |
+  \break
   bf,8 c8 d8 c8~ c8 bf4. | b8 c8 d8 c8~ c8 b4. | c8 d8 ef8 d8~ d8 c8 g'8 f8~ | f2. r4 |
-  
+
   \sect "C"
-  
+
   r8 bf,4 d8 f4 bf4 | b2 b,4. bf8~ | bf2 r4 \tuplet 3/2 { bf8 c8 bf8 } | f'2 d2 |
+  \break
   bf8 c8 d8 c8~ c8 bf4. | b8 c8 d8 c8~ c8 b4. | c8 d8 ef8 f8 g4 a,8 bf8 | r1 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

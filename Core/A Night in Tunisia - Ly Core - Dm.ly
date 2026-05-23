@@ -1,13 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
-
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
 
 $(if (and (defined? 'printNoteNames) printNoteNames)
   (set-global-staff-size 18))
@@ -31,8 +24,8 @@ bassIntro = \relative f' {
   \key \introKey \minor
   \clef bass
   \tempoFour "Medium-Up Latin [Dizzy Gillespie 1946]" 180
-  
-  \sectStart "Intro"
+
+  \sectNoBarNoBreak "Intro"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -47,34 +40,26 @@ refrainChords = \chordmode {
 
   ef1:7 d1:m ef1:7 d1:m
   ef1:7 d1:m e2:m7.5- a2:7.5-
-  
+
   d1:m
-  
+
   d1:m
-  
+
   a1:m7.5- d1:7.9- g2:m6 d2:7.9- g1:m6
   g1:m7.5- c1:7.9- f1:6 e2:m7.5- a2:7.5-
-  
+
   d1:m
-  
+
   e1:m7.5- e1:m7.5- ef1:7.11+ ef1:7.11+
   d1:m d1:m g1:7.11+ g1:7.11+
   g1:m7+ g1:m7 gf1:7.9+ gf1:7.9+
-  
+
   f1:maj7 f1:maj7 e1:m7.5- a1:7.9-
 }
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -82,9 +67,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
 
   \partial 8 a,8 |
-  
-  \segnoSign
-  \sectStart "A1,A2,A3"
+
+  \sectNoBarNoBreakSegno "A1,A2,A3"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -97,40 +81,37 @@ refrainMelody = \relative f' {
   d2 r4 r8 a8 |
   } {
   d2.\repeatTie  a'4 |
-  } }  
-  
+  } }
+
   \sect "B"
-  
+
   c4. a8~ a4. g8 | fs4 ef'8 df8 d8 c4 a8 | bf8 g4 fs8~ fs4 a8 f8 | g8 a8 e4 r4 r8 bf'8~ |
   \break
   bf2 g4. f8 | e4 df'8 b8 c8 bf4 gs8 | a4. f8 g4 f8 e8~ | e2 r4 r8 \dalSegno a,8 |
-  \bar "||-||"
-  
+  \bar "|."
+
+  \xPageBreak
+
   \textCodaBreak
-  
-  d4.\repeatTie_"Fine" a'8 r8 a4 a8~ |
+
+  d4.\repeatTie a'8 r8 a4 a8~ |
   \bar "||-||"
-  
+
 
   \xTextMark \markup{ \bold \box "C" }
-  
+
   a4 g8 e8 a4 g8 e8 | a8 g8 e8 a8 r4 r8 a8~ | a4 g8 ef8 a4 g8 ef8 | a8 g8 ef8 a8 r4 r8 a8~ |
   \break
   a4 f8 d8 a'4 f8 d8 | a'8 f8 d8 a'8 r4 r8 a8~ | a4 g8 ef8 a4 g8 ef8 | a8 f8 df8 a'8 r4 r8 a8~ |
   \break
   a4 fs8 d8 a'4 fs8 d8 | a'8 f8 d8 a'8 r4 r8 a8~ | a4 ff8 df8 a'4 ff8 df8 | a'8 ff8 df8 a'8 r4 a8 c8 |
   \break
-  \rsq^"solo break" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  
+  \rsq^"solo break" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/bass-intro.ily"
 

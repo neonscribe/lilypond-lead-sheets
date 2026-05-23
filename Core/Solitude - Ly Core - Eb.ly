@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -32,13 +27,13 @@ In my sol -- i -- tude __ I'm pray -- ing,
 
 refrainChords = \chordmode {
   s2
-  
+
   ef1:maj7 ef2:maj7 c2:m7 f1:7 f1:7
   f1:m7 bf1:7 ef1:maj7 f2:m7 bf2:7.5+
 
   ef1:maj7 ef2:maj7 c2:m7 f1:7 f1:7
   f1:m7 bf1:7 ef1:maj7 ff2:maj7 ef2:7
-  
+
   af1:maj7 a1:dim7 ef1:6/bf bf2:m7 ef2:7
   af1:maj7 a1:dim7 ef2:6/bf g4:m7 c4:7 f2:m7 bf2:7.5+
 
@@ -50,15 +45,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -67,22 +54,21 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Duke Ellington 1934]" 82
 
   \partial 2 bf4 c4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   d4 d4 d2~ | d2 ef2 | ef1 | g,2. c4 |
   \break
   c4 bf4 bf2~ | bf4 af4 af4 g4 | g1~ | g2 bf4 c4 |
-  
+
   \sect "A2"
-  
+
   d4 d4 d2~ | d2 ef2 | ef1 | g,2. c4 |
   \break
   c4 bf4 bf2~ | bf4 af4 af4 g4 | g1~ | g2 r4 r8 c8 |
-  
+
   \sect "B"
-  
+
   ef8 c8 ef4 ef,4. c'8 | ef8 c8 ef4 ef,4. c'8 | ef8 c8 ef4 c4 g4 | f2. r8 c'8 |
   \break
   ef8 c8 ef4 ef,4. c'8 | ef8 c8 ef4 ef,4. c'8 | ef8 c8 ef4 c4 c4 | c2 bf4 c4 |
@@ -92,15 +78,10 @@ refrainMelody = \relative f' {
   d4 d4 d2~ | d2 ef2 | ef1 | g,2. c4 |
   \break
   c4 bf4 bf2~ | bf4 af4 af4 af4 | g1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

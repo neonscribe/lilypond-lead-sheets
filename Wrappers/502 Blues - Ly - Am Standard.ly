@@ -8,9 +8,6 @@ subtitle = "Standard Key"
 whatKey = a
 whatClef = "treble"
 
-tempoIndication = "Medium [Bill Holman - Mel Lewis Quintet 1958]"
-tempoBPM = 112
-
 \include "../Core/502 Blues - Ly Core - Am.ly"
 
 %{

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -39,13 +34,13 @@ Make me thrill as on -- ly you know how, sway me smooth, sway me now.
 
 refrainChords = \chordmode {
   s2.
-  
+
   fs2:m7.5- b2:7fs2:m7.5- b2:7 e1:m e1:m
   c2:9 b2:9 c2:9 b2:9 e1:m6 e1:m6
 
   fs2:m7.5- b2:7fs2:m7.5- b2:7 e1:m e1:m
   c2:9 b2:9 c2:9 b2:9 e1:m6 e4:m6 g4:6/b bf2:dim7
-  
+
   d2:7/a d2:7 d1:7 g1:maj7 g1:maj7
   b1:7 b1:7 e2:m c2:7 b1:7
 
@@ -55,15 +50,7 @@ refrainChords = \chordmode {
 
 refrainKey = e
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -74,43 +61,38 @@ refrainMelody = \relative f' {
   \partial 2. b8 b8 b8 b8 b8 b8 |
   \bar "||"
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   c4 b8 a8 r2 | c4 b8 a8 r2 | b4 a8 g8~ g2 | r4 g8 g8 g8 g8 g8 g8 |
-  \break
+  %% \break
   a4 g8 fs8 r2 | a4 g8 fs8 r2 | g4 fs8 e8~ e2~ | e4 b'8 b8 b8 b8 b8 b8 |
-  
+
   \sect "A2"
-  
+
   c4 b8 a8 r2 | c4 b8 a8 r2 | b4 a8 g8~ g2 | r4 g8 g8 g8 g8 g8 g8 |
-  \break
+  %% \break
   a4 g8 fs8 r2 | a4 g8 fs8 r2 | g4 fs8 e8~ e2~ | e4  e8 fs8 g4 fs8 e8 |
-  
+
   \sect "B"
-  
+
   fs4 fs8 g8 a2 | r4 fs8 g8 a4 b8 c8 | d4 d8 b8 d2~ | d4 b8 c8 b4 c8 b8 |
-  \break
+  %% \break
   ds4 ds8 b8 ds2~ | ds4 b8 cs8 ds4 cs8 b8 | e4 b8 b8 d4 c4 | b4 b8 b8 b8 b8 b8 b8 |
 
   \sect "A3"
 
   c4 b8 a8 r2 | c4 b8 a8 r2 | b4 a8 g8~ g2 | r4 g8 g8 g8 g8 g8 g8 |
-  \break
-  a4 g8 fs8 r2 | a4 g8 fs8 r2 | g4 fs8 e8~ e2~ | e4 
+  %% \break
+  a4 g8 fs8 r2 | a4 g8 fs8 r2 | g4 fs8 e8~ e2~ | e4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
   b'8 b8 b8 b8 b8
   \endParenthesis \parenthesize
   b8 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

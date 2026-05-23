@@ -2,14 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(if (not (and (defined? 'hideLyrics) hideLyrics))
-  (set-global-staff-size 18))
-
 \header {
   title = "Bernie's Tune"
   subtitle = \subtitle
@@ -54,7 +46,7 @@ refrainChords = \chordmode {
 
   d1:m d1:m bf1:9 bf1:9
   e1:m7.5- a1:7 d1:m d1:m
-  
+
   bf2:6 g2:m7 c2:m7 f2:7 bf2:6 g2:m7 c2:m7 f2:7
   bf2:6 g2:m7 c2:m7 f2:7 bf1:6 e2:m7.5- a2:7
 
@@ -66,15 +58,7 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -83,36 +67,37 @@ refrainMelody = \relative f' {
   \tempoFour "Up Swing [Gerry Mulligan Quartet 1952]" 210
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   r8 a8 r8 gs8 a4-. r8 a8 | r8 gs8 a4-. a,8 d8 f8 a8 | af2..( e8~ | e2) r2 |
   \break
   r8 g8 r8 fs8 g4-. r8 g8 | r8 fs8 g4-. a,8 cs8 e8 g8 | f2..( d8~ | d2) r2 |
-  
+
   \sect "A2"
-  
+
   r8 a'8 r8 gs8 a4-. r8 a8 | r8 gs8 a4-. a,8 d8 f8 a8 | af2..( e8~ | e2) r2 |
   \break
   r8 g8 r8 fs8 g4-. r8 g8 | r8 fs8 g4-. a,8 cs8 e8 g8 | f2..( d8~ | d2) r2 |
-  
-  \sect "B"
-  
+
+  $(if (and (defined? 'hideLyrics) hideLyrics)
+    #{
+    \sect "B"
+    #}
+    #{
+    \sectPageBreak "B"
+    #} )
+
   bf4-. bf4-.  g'8 f8 d8 c8~ | c4. d8~ d4 r4 | bf4-. bf4-. g'8 f8 d8 c8~ | c2. r4 |
   bf4-. bf4-. g'8 f8 d8 c8~ | c4. d8~ d4 r4 | r8 a'4 a8 a2~ | a2. r4 |
-  
+
   \sect "A3"
 
   r8 a8 r8 gs8 a4-. r8 a8 | r8 gs8 a4-. a,8 d8 f8 a8 | af2..( e8~ | e2) r2 |
   \break
   r8 g8 r8 fs8 g4-. r8 g8 | r8 fs8 g4-. a,8 cs8 e8 g8 | f2..( d8~ | d2) r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include  "../Include/refrain.ily"

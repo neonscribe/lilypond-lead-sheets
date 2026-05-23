@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Right or Wrong"
   subtitle = \subtitle
@@ -30,12 +25,12 @@ refrainLyrics = \lyricmode {
 
 refrainChords = \chordmode {
   s2
-  
+
   e1:7 e1:7 a1:7 a1:7
   d1:7 d1:7 g1:6 g1:6
   b1:m bf1:dim7 a1:m7 d1:7
   a1:7 a1:7 d1:7 d1:7
-  
+
   e1:7 e1:7 a1:7 a1:7
   d1:7 d1:7 b1:7 b1:7
   e1:7 e1:7 a1:7 a1:7
@@ -44,15 +39,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -61,26 +48,25 @@ refrainMelody = \relative f' {
   \tempoFour "Western Swing [Bob Wills 1936]" 176
 
   \partial 2 as4 b4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   c1~ | c4 b4 gs4 e4 | b'2 a2~ | a2 gs4 a4 |
   \break
   b1~ | b4 a4 fs4 d4 | e1~ | e4 r4 cs4 d4 |
-  
+
   \sect "B"
-  
+
   a'1~ | a4 g4 fs4 e4 | fs2 a2~ | a2 fs4 a4 |
   \break
   fs2 e4 fs4 | e2 b'4 bf4 | a1~ | a4 r4 as4 b4 |
-  
+
   \sect "A2"
-  
+
   c1~ | c4 b4 gs4 e4 | b'2 a2~ | a2 gs4 a4 |
   \break
   b1~ | b4 a4 b4 c4 | b1~ | b2 as4 b4 |
-  
+
   \sect "C"
 
   d1~ | d4 b4 b4 d4 | b2 a2~ | a2 g4 a4 |
@@ -91,10 +77,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -22,10 +17,10 @@ refrainChords = \chordmode {
   r1 a2:m7/d d2:7.5+ a4:m7/d d4:7.5+ \chordSlash 1 \chordSlash 1 g2:maj7 af4.:7 g8:maj7
   r1 d2:m7/g g2:7.5+ d4:m7/g g4:7.5+ \chordSlash 1 \chordSlash 1 c1:m7
   f1:7 a2:m7/d d2:7.5+ a4:m7/d d4:7.5+ \chordSlash 1 \chordSlash 1
-  g4:maj7 \chordSlash 1 
+  g4:maj7 \chordSlash 1
   \chordOpenParen{ af4:7 }
   \chordCloseParen{ g4:maj7 }
-  
+
   a1:m7 d1:7 g1:maj7 g1:maj7
   a1:m7 d1:7 g1:maj7 g1:maj7
   d1:m7 g1:7 c1:7 f1:7
@@ -34,15 +29,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -66,7 +53,7 @@ refrainMelody = \relative f' {
   \break
 
   \xTextMark \markup{ \bold \box "Solos" }
-  
+
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -92,18 +79,13 @@ codaMelody = \relative f' {
   \clef \whatClef
 
   \textCodaBreak
-  
+
   a4. a8 r2 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

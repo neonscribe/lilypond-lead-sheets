@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -31,31 +26,23 @@ But the day that I stop count -- ing, that's the day my world will end.
 
 refrainChords = \chordmode {
   s2
-  
+
   bf1 bf1 ef1 ef1 f1:7 f1:7 bf1 bf1
-  
+
   bf1 bf1 ef1 ef1 f1:7 f1:7 bf1 bf1
   bf1 bf1 ef1 ef1 f1:7 f1:7 bf1 bf4 r2.
-  
+
   bf1 bf1 ef1 ef1 f1:7 f1:7 f1:7 bf1 bf4 r2.
   bf1 bf1 ef1 ef1 f1:7 f1:7 f1:7
-  
+
   bf1 r1
-  
+
   bf2 ef2 bf4 f4:7 bf2
 }
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -63,15 +50,15 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Ray Price 1959]" 128
 
-  \sectStart "Intro - Solo"
-  
+  \sectNoBarNoBreak "Intro - Solo"
+
   \partial 2 \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  
+
   \sect "Verse"
-  
+
   d'8 ef4. d4 c4 | c4 bf4 f4 d4 | r4 ef4 g2~ | g2 r4 d'4 |
   \break
   ef8 d4 ef8~ ef4. c8 | a8 f4 a8~ a4 g8 f8~ | f1 | r2 r4 d'4 |
@@ -79,12 +66,9 @@ refrainMelody = \relative f' {
   d8 ef4. d4 c4 | c4 bf4 f4 d4 | r4 ef4 ef4 f8 g8~ | g1 |
   \break
   ef'4 d4 ef4. c8~ | c8 a8 f4 g4 a8 bf8~ | bf1 | r4 f4 bf4 c4 |
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectStart "Chorus"
-  
+
+  \sectPageBreak "Chorus"
+
   d8 ef4. d4. c8 | c8 bf4.~ bf2 | ef,8 ef4. ef4 f8 g8~ | g1 |
   \break
   c8 d4 c8~ c4 bf4 | bf4 a8 a8~ a4 r8 a8~ | a8 a8 bf4 a4 g4 | f1 |
@@ -93,9 +77,9 @@ refrainMelody = \relative f' {
   \break
   g2 r4 c8 bf8 c4. d8 c4 bf4 | bf8 a4. r4 a8 g8 | f4 a4 g4 a8 bf8~ \textToCodaLastTime | bf1 | r1 |
   \bar "||-|."
-  
+
   \textCodaBreak
-  
+
   bf1\repeatTie |
   \override NoteHead.style = #'slash
   bf4 f4 bf2\fermata
@@ -106,15 +90,10 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \line { \large { Verse 2 } }

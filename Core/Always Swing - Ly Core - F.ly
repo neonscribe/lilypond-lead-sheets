@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-% #(set-global-staff-size 18)
-
 \header {
   title = "Always (4/4)"
   subtitle = \subtitle
@@ -44,15 +37,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -60,35 +45,26 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Ballad [Patsy Cline 1963]" 85
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBar "A1"
+
   c2~ c8 d8 f8 g8 | a1 | c4 a2.~ | a2 r2 |
   \break
   c,2~ c8 d8 e8 f8 | g1 | a4 f2.~ | f2 r2 |
-  
-  \bar "||"
-  \break
 
-  \xTextMark \markup{ \bold \box "B" }
-  
+  \sect "B"
+
   c2~ c8 d8 f8 g8 | a2. r4 | e2~ e8 fs8 a8 b8 | cs1 |
   \break
   e,2~ e8 fs8 gs8 b8 | d1 | cs4 a2. | a4 g2. |
 
-  \bar "||"
-  \break
+  \sect "A2"
 
-  \xTextMark \markup{ \bold \box "A2" }
-  
   c,2~ c8 d8 f8 g8 | a1 | c4 a2.~ | a2 r2 |
   \break
   d,2~ d8 e8 fs8 a8 | d1 | ef4 d2.~ | d2 r2 |
-  
-  \bar "||"
-  \break
 
-  \xTextMark \markup{ \bold \box "C" }
-  
+  \sect "C"
+
   bf2~ bf8 a8 g8 a8 | bf1 | a2~ a8 g8 f8 g8 | a1 |
   \break
   g2~ g8 f8 e8 f8 | g2. c,4 | a'4 f2.~ | f2 r2 |
@@ -97,10 +73,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

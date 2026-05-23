@@ -126,7 +126,7 @@ refrainLyricsTwoFemale = \lyricmode {
 }
 
 refrainLyricsTwo =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainLyricsTwoFemale
   refrainLyricsTwoMale)
@@ -137,26 +137,18 @@ refrainChords = \chordmode {
 
   f2:m7 bf2:7 g2:m7 c2:7 f2:m7 g2:7 c2:m bf4:m7 ef4:7
   af2 a2:dim7 ef2/bf c2:7 f2:m7 bf2:7 ef2 c2:7.9+.13-
-  
+
   f2:m7 bf2:7 g2:m7 c2:7 f2:m7 bf2:7 ef2:maj7 af2:9.11+
   d2:m7.5- g2:7.9- c1:m7 f1:13 bf2 c2:7.9+.13-
 
   f2:m7 bf2:7 g2:m7 c2:7 f2:m7 g2:7 c2:m bf4:m7 ef4:7
-  af2 a2:dim7 ef2/bf c2:7 f2:m7 bf2:7 ef2 
+  af2 a2:dim7 ef2/bf c2:7 f2:m7 bf2:7 ef2
   \chordInsideParens{ c2:7.9+.13- }
 }
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f'' {
   \time 2/2
@@ -165,17 +157,13 @@ refrainMelody = \relative f'' {
 
   \set Score.currentBarNumber = #1
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   ef8 ef4 c8 bf8 af4 d8~ | d8 d4 bf8 af8 g4 c8~ | c8 c4 af8 g8 f4 ef8~ |
   ef2 r8 f4 g8~ | g8 g4 ef8 f8 ef4 c'8~ | c8 c4 ef,8 f8 ef4 ef'8~ |
   ef8 ef4 c8 bf8 g4 f8~ | f2. r8 ef'8~ |
-  
-  \bar "||"
 
-  \xPageBreak
-
-  \sectNoBar "A2"
+  \sectPageBreak "A2"
 
   ef8 ef4 c8 bf8 af4 d8~ |
   d8 d4 bf8 af8 g4 c8~ | c8 c4 af8 g8 f4 ef8~ |
@@ -185,7 +173,7 @@ refrainMelody = \relative f'' {
   ef2. ef4 |
 
   \sect "B"
-  
+
   c'4 c4 c8 bf8 af8 c8 | bf4 bf2 ef,4 |
   c'4 c4 c8 bf8 af4 |
   \break
@@ -194,7 +182,7 @@ refrainMelody = \relative f'' {
   g4 f4 ef8 g4 f8~ | f2. r8 ef'8~ |
 
   \sect "A3"
-  
+
   ef8 ef4 c8 bf8 af4 d8~ | d8 d4 bf8 af8 g4 c8~ | c8 c4 af8 g8 f4 ef8~ |
   ef2 r8 f4 g8~ | g8 g4 ef8 f8 ef4 c'8~ | c8 c4 ef,8 f8 ef4 ef'8~ |
   ef8 ef4 c8 bf8 g4 ef8~ | ef2 r2 |
@@ -204,11 +192,6 @@ refrainMelody = \relative f'' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/verse.ily"
 

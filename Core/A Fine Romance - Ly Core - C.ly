@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -36,16 +31,16 @@ This is a fine ro -- mance. __
 
 refrainChords = \chordmode {
   s4
-  
+
   c1:6 cs1:dim7 d1:m6 ds1:dim7
   e1:m7 a1:m7 d1:m7 g1:7
-  
+
   c1:6 ef1:dim7 d2:m7 g2:7 d2:m7 g2:7
   c1:6 a2:7 gf4:7 f4:7 e2:7 a2:7 d2:m7 g2:7
-  
+
   c1:6 cs1:dim7 d1:m6 ds1:dim7
   e1:m7 a1:m7 d1:m7 g1:7
-  
+
   c1:6 c1:7 f2:maj7 a2:7/e d2:m7 ds2:dim7
   e2:m7 ef2:7 d2:m6 g2:7 c1:6
   \chordOpenParen{ d2:m7 }
@@ -54,48 +49,40 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Fred Astaire 1936]" 156
-  
+
   \partial 4 e4 |
 
   \sectNoBreak "A1"
-  
+
   c1 | a'4 g2 a4 | b,1 | b'4 a2 b4 |
   \break
   e,1 | d'4 c2 e,4 | g1 | e'4 d2 g,4 |
-  
+
   \sect "B"
-  
+
   c4 b4 c4 d4 | \tuplet 3/2 { c4 b4 bf4 } a4 af4 | g2 g2~ | g2. g4 |
   \break
   a4 gs4 a4 b4 | \tuplet 3/2 { a4 af4 g4 } gf4 f4 | e2 e2~ | e2 e2 |
-  
+
   \sect "A2"
-  
+
   c1 | a'4 g2 a4 | b,1 | b'4 a2 b4 |
   \break
   e,1 | d'4 c2 e,4 | g1 | e'4 d2 g,4 |
-  
+
   \sect "C"
 
   c4 b4 c4 d4 | \tuplet 3/2 { e4 d4 c4 } b4 bf4 |
   a1 | \tuplet 3/2 { c4 b4 bf4 } a4 af4 |
   \break
-  g1 | \tuplet 3/2 { b4 a4 af4 } g4 d'4 | c1~ | c2 r4 
+  g1 | \tuplet 3/2 { b4 a4 af4 } g4 d'4 | c1~ | c2 r4
   \override Parentheses.font-size = #5
   \parenthesize e,4
 
@@ -103,10 +90,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

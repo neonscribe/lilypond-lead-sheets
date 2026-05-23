@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -41,9 +36,9 @@ introMelody = \relative f' {
 
 introBass = \relative f' {
   \clef bass
-  
+
   r4 r8 bf,8 r8 af8 e4 |
-  ef4 r8 ef8 bf4 df4 | ef4 r8 ef8 bf4 df4 | ef4 r8 ef8 bf4 df4 | ef4 r8 ef8 bf4 df4 | 
+  ef4 r8 ef8 bf4 df4 | ef4 r8 ef8 bf4 df4 | ef4 r8 ef8 bf4 df4 | ef4 r8 ef8 bf4 df4 |
 }
 
 introKicksOverTime = \relative f' {
@@ -72,15 +67,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -92,16 +79,16 @@ refrainMelody = \relative f' {
   \break
 
   af4 f'4-. r8 gf8-> r4 | r4 f4-. r8 gf8-> r4 |
-  r8 f8 gf8 af8 bf8 af8 gf8 f8 | af8 ef8 f8 
+  r8 f8 gf8 af8 bf8 af8 gf8 f8 | af8 ef8 f8
   \override Glissando.style = #'zigzag
   gf8~ gf8\glissando
   bf,8 af8 bf8 |
   \break
 
-  ef,4 c'4-. r8 df8-> r4 | r4 c4-. r8 df8-> r4 | 
+  ef,4 c'4-. r8 df8-> r4 | r4 c4-. r8 df8-> r4 |
   r8 bf8 c8 df8 ef8 f4. | r8 g,8 af8 a8 bf8 c4. |
   \break
-  
+
   r4 f,4-. r8 g8-> r4 | r4 f4-. r8 g8-> r4 |
   r8 f8 g4 af4 a4 | a8 bf8 af8 e8 r8 e8 df8 e8 |
 }
@@ -132,18 +119,13 @@ codaBass = \relative f' {
   \time 4/4
   \key \codaKey \major
   \clef bass
-  
+
   ef,4 r8 ef8 bf4 df4 | ef4 r8 ef8 bf4 df4 |
   ef4 r4 r2 | r4 r8 bf'8 r8 af8 e4 |
   ef4 r4 r2 |
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/intro.ily"
 

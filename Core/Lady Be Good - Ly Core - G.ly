@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
    (set-global-staff-size 18))
 
@@ -28,7 +23,7 @@ refrainLyrics = \lyricmode {
   _ _ _
   Oh, sweet and love -- ly la -- dy, be good. __
   Oh, la -- dy, be good __ to me! __
-  
+
   I am so aw -- f'ly mis -- un -- der -- stood, __
   So la -- dy, be good __ to me. __
 
@@ -54,7 +49,7 @@ refrainSRBChords = \chordmode {
 
   g1:6 c1:9 g2:6 \chordInsideParens{ c2:9 } b2:m7 e2:7.9-
   a1:m7 d1:7.9- g1:6 d2:m7 g2:7
-  
+
   c1:6 cs1:dim7 g1:6
   \chordOpenParen{ fs2:m7.5- }
   \chordCloseParen{ b2:7.9-.5+ }
@@ -80,7 +75,7 @@ refrainHLChords = \chordmode {
   e2:m e2:m7+ e2:m7 e2:m6 a1:m7 d1:7
 
   g1:maj9 c1:9 g2:maj9 c2:9 b2:m7 e2:7.9-
-  a1:m7 d1:7 g1:6 
+  a1:m7 d1:7 g1:6
   \chordOpenParen{ a2:m7 }
   \chordCloseParen{ d2:7 }
 }
@@ -93,7 +88,7 @@ refrainDFBChords = \chordmode {
 
   g1 c1:7 g1 g2/b bf2:dim7
   a1:m7 d1:7 g1 d2:m7 g2:7
-  
+
   c1 cs1:dim7 g1 g1
   a1:7 a1:7 d1:7 d1:7
 
@@ -112,7 +107,7 @@ refrainSimpleChords = \chordmode {
 
   g1 c1:7 g1:6 b2:m7 bf2:m7
   a1:m7 d1:7 g1 d2:m7 g2:7
-  
+
   c1 cs1:dim7 g1 g1
   a1:7 a1:7 d1:7 d1:7
 
@@ -126,7 +121,7 @@ refrainSimpleChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "simple" refrainSimpleChords)
@@ -138,15 +133,7 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -155,40 +142,34 @@ refrainMelody = \relative f' {
   \tempoFour "Fast Swing [Django Reinhardt 1934]" 250
 
   \partial 2. b4 c4 cs4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   d2 c4 b4 | d2 d2 | \tuplet 3/2 { d4 b4 g4 } d2~ | d2 d'2 |
   \break
   \tuplet 3/2 { d4 c4 a4 } d,2~ | d2 b'2 | g1~ | g2 r2 |
-  
+
   \sect "A2"
-  
+
   d'2 c4 b4 | d2 d2 | \tuplet 3/2 { d4 b4 g4 } d2~ | d2 d'2 |
   \break
   \tuplet 3/2 { d4 c4 a4 } d,2~ | d2 b'2 | g1~ | g2 r2 |
-  
+
   \sect "B"
-  
+
   e'1 | r4 e4 e4 e4 | e2 d2~ | d2 r2 |
   \break
   r4 b4 b4 b4 | b4 b4 b4 b4 | b2 a2 | r4 b4 c4 cs4 |
-  
+
   \sect "A3"
 
   d2 c4 b4 | d2 d2 | \tuplet 3/2 { d4 b4 g4 } d2~ | d2 e'2 |
   \break
   \tuplet 3/2 { d4 c4 a4 } d,2~ | d2 b'2 | g1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

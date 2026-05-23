@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Dancing in the Dark"
   subtitle = \subtitle
@@ -46,15 +41,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -62,38 +49,33 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Artie Shaw 1941]" 108
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   b,4. b8 b4. b8 | b1~ | b2 a4. b8 | c2 b4. a8 |
   \break
-  f'4. f8 f4. f 8 | f1~ | f2 d4. e8 | f2 e4. d8 | 
+  f'4. f8 f4. f 8 | f1~ | f2 d4. e8 | f2 e4. d8 |
 
   \sect "B"
 
   g4. g8 g4. g8 | g4 a2 g4 | bf4. a8 g2~ | g1 |
   \break
   f4 g2 f4 | af4. g8 f2~ | f2 ef2 | d1 |
-  
+
   \sect "A2"
 
   b4. b8 b4. b8 | b1~ | b2 a4. b8 | c2 b4. a8 |
   \break
-  f'4. f8 f4. f 8 | f1~ | f2 d4. e8 | f2 e4. d8 | 
+  f'4. f8 f4. f 8 | f1~ | f2 d4. e8 | f2 e4. d8 |
 
   \sect "C"
 
   g4. g8 g4. g8 | g4 a2 g4 | bf1 | b1 |
   \break
   c4. c8 c4. c8 | c1~ | c1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

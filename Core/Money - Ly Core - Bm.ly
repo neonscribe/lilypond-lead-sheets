@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -27,7 +22,7 @@ bassIntro = \relative f' {
   \time 7/4
   \key \introKey \minor
   \tempoFour "Medium [Pink Floyd 1973]" 125
-  
+
   \clef bass
 
   \sect "Intro"
@@ -66,16 +61,16 @@ solosChords = \chordmode {
   e4*7:m7 e4*7:m7
   b4*7:m7 b4*7:m7
   fs4*8:m7 e4*6:m7
-  
+
   b1:5 b1:5
-  
-  b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 
+
+  b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7
   e1:m7 e1:m7 e1:m7 e1:m7
   b1:m7 b1:m7 b1:m7 b1:m7
   fs1:m7 fs1:m7 r1
-  
+
   r1 b1:m7 b1:m7 b1:m7 b1:m7
-  
+
   r1 b4*7:m7 b4*7:m7
 }
 
@@ -85,30 +80,22 @@ codaChords = \chordmode {
 
 refrainKey = b
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 7/4
   \key \refrainKey \minor
-  
+
   \clef \whatClef
 
-  \segnoSign \sectStart "Verse"
+  \segnoSign \sectNoBarNoBreak "Verse"
 
   \repeat volta 2 {
   fs'8 fs8 r4 r2 r4 r8 b,8 d8 d8 | a4 r4 r2 r4 r8 b8 d8 d8 |
   \override Score.KeySignature.break-visibility = #all-invisible
   b4 d4 b4 fs4 a8 a8 b4 e8( d8 | b8) a4. r2 r2 r4 |
   fs'8 fs8 r4 r2 r2 d8 d8 | a4 r4 r2 r2 d4 | b4 d4 b4 fs4 a4 b4 e4 | d8 a4. r2 r2 r4 |
-  
+
   \time 8/4
   fs'4 fs4 fs8 cs8 fs,4 a4 cs4 fs4 f4 \textToCoda |
   \time 6/4
@@ -123,7 +110,7 @@ solosKey = b
 bassSolos = \relative f' {
   \time 7/4
   \key \solosKey \minor
-  
+
   \sectNoBar "Saxophone Solo - ad lib."
   \set Staff.explicitClefVisibility = #end-of-line-invisible
   \clef bass
@@ -152,7 +139,7 @@ bassSolos = \relative f' {
   \repeat volta 2 {
   b4_"(Bass)" d4 cs4 c8 as8 | b4 d4 cs4 c8 as8 | b4 d4 cs4 c8 as8 | b4 d4 cs4 c8 as8 |
   b4 d4 cs4 c8 as8 | b4 d4 cs4 c8 as8 | b4 d4 cs4 c8 as8 | b4 d4 cs4 c4 |
-  e4 ef4 d4 cs4 | e4 ef4 d4 cs4 | e4 ef4 d4 cs4 | e4 ef4 d4 cs4 | 
+  e4 ef4 d4 cs4 | e4 ef4 d4 cs4 | e4 ef4 d4 cs4 | e4 ef4 d4 cs4 |
   b4 d4 cs4 c8 as8 | b4 d4 cs4 c8 as8 | b4 d4 cs4 c8 as8 | b4 d4 cs4 c8 e,8 |
   fs4 fs'4 f4 e4 | fs,8 fs8 fs'4 f4 e4 | b'4 a4 g4 fs4 |
   \alternative { \volta 1 {
@@ -170,12 +157,12 @@ codaKey = b
 codaMelody = \relative f' {
   \clef \whatClef
   \key \codaKey \minor
-  
+
   \textCoda
-  
+
   \time 6/4
   e'8 b8 e,4 g4 a4 b4 d8 b8
-  
+
   \numericTimeSignature
   \time 4/4
   \repeat volta 2 {
@@ -184,11 +171,6 @@ codaMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/bass-intro.ily"
 
@@ -199,7 +181,7 @@ codaMelody = \relative f' {
 \include "../Include/coda.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
     \vspace #2
@@ -213,7 +195,7 @@ codaMelody = \relative f' {
   {
     \hspace #4
   }
-  \column 
+  \column
   {
     \vspace #2
     \line { \large { Money, ya get away. Ya get a good job with more pay, and you're O.K. } }

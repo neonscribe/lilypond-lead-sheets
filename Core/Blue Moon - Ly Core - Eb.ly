@@ -8,14 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 18))
-
 \header {
   title = "Blue Moon"
   subtitle = \subtitle
@@ -41,17 +33,17 @@ with -- out a love of my own. __
 
 refrainNewRealChords = \chordmode {
   \chordInsideParens{ bf4:7 }
-  
-  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7 
+
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   ef2:maj7 c2:m7 f2:m7 bf2:sus9 ef2:maj7 c2:m7 f2:m7 bf2:7
-  
-  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7 
+
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   ef2:maj7 c2:m7 f2:m7 bf2:sus9 ef1:6 \chordInsideParens{ c1:m7 }
-  
+
   f2:m7 bf2:7 ef2:6 c2:m7 f2:m7 bf2:7 ef2:6 \chordInsideParens{ a2:9.11+ }
   af2:m7 df2:7 gf2:maj7 gf2:6 bf2/f f2:7 bf2:sus7 bf2:7
-  
-  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7 
+
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   ef2:maj7 c2:m7 f2:m7 bf2:sus9 ef1:6
   \chordOpenParen{ f2:m7 }
   \chordCloseParen{ bf2:7 }
@@ -59,14 +51,14 @@ refrainNewRealChords = \chordmode {
 
 refrainHLChords = \chordmode {
   s4
-  
-  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7 
+
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   ef2:maj7 c2:m7 f2:m7 f2:m7/bf ef2:6 af2/ef ef2:6 bf2:7
 
-  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7 
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   ef2:maj7 c2:m7 f2:m7 f2:m7/bf ef2:6 af2/ef ef2:6 c2:m7
 
-  f2:m7 bf2:7 ef1:6 f2:m7 bf2:7 ef1:6 
+  f2:m7 bf2:7 ef1:6 f2:m7 bf2:7 ef1:6
   af2:m7 df2:7 gf1:maj7 bf2/f f2:7 f2:m7/bf bf2:7
 
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
@@ -77,11 +69,11 @@ refrainHLChords = \chordmode {
 
 refrainNewRealAlternateChords = \chordmode {
   s4
-  
+
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   df2:9.11+ c2:7.9+ b2:9 bf2:7.9+ a2:7.5- af2:m7 gf2:7 e2:maj7
 
-  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7 
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   df2:9.11+ c2:7.9+ b2:9 bf2:7.9+ a2:7.5- af2:m7 gf2:7.5- c2:7.9+.11+
 
   f2:m7 bf2:7 ef2:6 c2:m7 f2:m7 bf2:7 ef2:6 \chordInsideParens{ a2:9.11+ }
@@ -95,11 +87,11 @@ refrainNewRealAlternateChords = \chordmode {
 
 refrainFiveFiveSevenChords = \chordmode {
   s4
-  
+
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   df2:7.5- c2:7.9- b2:7.5+ f2:m7/bf ef2:6 c2:m7 f2:m7 bf2:7
 
-  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7 
+  ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7
   df2:7.5- c2:7.9- b2:7.5+ f2:m7/bf ef2:6 ef2:maj7 ef2:6 c2:7
 
   f2:m7 bf2:7 ef2:6 c2:m7 f2:m7 bf2:7 ef2:6 a2:7.5-
@@ -111,17 +103,17 @@ refrainFiveFiveSevenChords = \chordmode {
 
 refrainDjypsyDjazzDjamChords = \chordmode {
   s4
-  
-  ef2 c2:m7 f2:m7 bf2:7 ef2 c2:m7 f2:m7 bf2:7 
+
+  ef2 c2:m7 f2:m7 bf2:7 ef2 c2:m7 f2:m7 bf2:7
   df2:7 c2:7 b2:7 bf2:7.9- ef2 c2:m7 f2:m7 bf2:7
 
-  ef2 c2:m7 f2:m7 bf2:7 ef2 c2:m7 f2:m7 bf2:7 
+  ef2 c2:m7 f2:m7 bf2:7 ef2 c2:m7 f2:m7 bf2:7
   df2:7 c2:7 b2:7 bf2:7.9- ef1:6 c1:m7
 
-  f2:m7 bf2:7 ef2:6 c2:m7 f2:m7 bf2:7 ef1:6 
+  f2:m7 bf2:7 ef2:6 c2:m7 f2:m7 bf2:7 ef1:6
   af2:m7 df2:7 gf1 bf2 f2:7 bf1:7
 
-  ef2 c2:m7 f2:m7 bf2:7 ef2 c2:m7 f2:m7 bf2:7 
+  ef2 c2:m7 f2:m7 bf2:7 ef2 c2:m7 f2:m7 bf2:7
   df2:7 c2:7 b2:7 bf2:7 ef1
   \chordOpenParen{ f2:m7 }
   \chordCloseParen{ bf2:7 }
@@ -130,7 +122,7 @@ refrainDjypsyDjazzDjamChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "djam" refrainDjypsyDjazzDjamChords)
@@ -143,47 +135,32 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [The Marcels 1961]" 125
-  
-  \partial 4 bf4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 4 bf4 |
+
+  \sectNoBreak "A1"
+
   bf1 | r8 af8 bf8 c8 bf8 bf8 af8 bf8~ | bf1 | r8 f8 g8 af8 g8 g8 f8 g8~ |
   g1 | r8 ef8 f8 g8 ef8 ef8 ef8 ef8~ | ef1 | r2 r4 bf'4 |
-  
-  \bar "||-||"
 
-  \xTextMark \markup{ \bold \box "A2" }
-  
+  \sect "A2"
+
   bf1 | r8 af8 bf8 c8 bf8 bf8 af8 bf8~ | bf8 bf4.~ bf2 | r8 f8 g8 af8 g8 g8 f8 g8~ |
   g8 g4.~ g2 | r8 ef8 f8 g8 ef8 ef8 ef8 ef8~ | ef8 ef4.~ ef2 | r2 r8 ef8 ef8 ef8 |
-  
-  \bar "||-||"
 
-  \xTextMark \markup{ \bold \box "B" }
-  
+  \sectPageBreak "B"
+
   f8 f8 f8 f8 g4 g4 | ef8 ef4.~ ef8 ef8 ef8 ef8 | f8 f8 f8 f8 g4 g4 | ef2 r8 ef8 ef8 ef8 |
   ef8 ef8 ef8 ef8 f4 f4 | df8 df4.~ df8 df8 df8 df8 | d8 d8 d8 d8 f4 f4 | bf2. bf4 |
 
-  \bar "||-||"
-
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   bf1 | r8 af8 bf8 c8 bf8 bf8 af8 bf8~ | bf1 | r8 f8 g8 af8 g8 g8 f8 g8~ |
   g1 | r8 ef8 f8 g8 ef8 ef8 ef8 ef8~ | ef1 | r1 |
@@ -192,10 +169,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

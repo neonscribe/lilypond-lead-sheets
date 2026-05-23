@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Miss Otis Regrets"
   subtitle = \subtitle
@@ -52,16 +45,16 @@ day.”
 
 refrainChords = \chordmode {
   s4
-  
+
   ef1:maj7 f2:m7 bf2:7 ef1:6 f2:m7 bf2:7
   ef1:maj7 g2:m7 c2:7.5+ f1:m7 bf1:7
-  
+
   ef1:maj7 bf2:m7 ef2:7 af1:maj7 af1:maj7 ef2:maj7 ef2:7
   af1:6 ef2:maj7 c2:m7 f2:m9 bf2:7 ef1 f2:m7 bf2:7
 
   ef1:maj7 f2:m7 bf2:7 ef1:6 f2:m7 bf2:7
   ef1:maj7 g2:m7 c2:7.5+ f1:m7 bf1:7
-  
+
   ef1:maj7 bf2:m7 ef2:7 af1:maj7 af1:maj7 ef2:maj7 ef2:7
   af1:6 ef2:maj7 c2:m7 f2:m9 bf2:7
 
@@ -74,15 +67,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -91,10 +76,9 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Ethel Waters 1934]" 78
 
   \partial 4 g8( af8) |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   bf8 bf4 bf8 bf4 bf8 bf8 | bf8 bf4 bf8 af4. f8 | ef1 | f8 af4.~ af4. f8 |
   \break
   g8 g4 g8 g4 g8 af8 | bf8 a4 bf8 c4. bf8 | f1~ | f2 g4. af8 |
@@ -103,10 +87,8 @@ refrainMelody = \relative f' {
   \break
   f8 af4.~ af4 f4 | g8 g4 g8 g4 g8 g8 | g8 g4 g8 f4. ef8 | ef1~ | ef2 r4 g8 af8 |
 
-  \break
+  \sectPageBreak "A2,A3"
 
-  \xTextMark \markup{ \bold \box "A2,A3" }
-  
   \bar ".|:-||"
   \repeat volta 2 {
   bf8 bf4 bf8 bf4 bf8 bf8 | bf4 bf4 af4 f4 | ef1 | f8 af4.~ af4. f8 |
@@ -126,10 +108,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

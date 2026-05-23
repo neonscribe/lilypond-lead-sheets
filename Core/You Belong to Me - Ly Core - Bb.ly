@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -49,15 +44,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -65,33 +52,28 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Jo Stafford 1952]" 70
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   r4 bf8 c8 d8 c8 bf8 d8 | a4 a8 a8~ a2 | r4 g8 a8 bf8 a8 g8 bf8 | f4 f8 f8~ f2 |
   r4 ef8 f8 ef8 d8 c8 ef8 | d4 f8 bf8~ bf2 | r4 d8 c8 bf4. c8 | f,1 |
-  
+
   \sect "A2"
 
   r4 bf8 c8 d8 c8 bf8 d8 | a4 a8 a8~ a2 | r4 g8 a8 bf8 a8 g8 bf8 | f4 f8 f8~ f2 |
   r4 ef8 f8 ef8 d8 c8 ef8 | d4 f8 bf8~ bf2 | r4 c8 bf8 a4. c8 | bf1 |
-  
+
   \sect "B"
-  
+
   bf4 f4 e4 f4 | c'2. bf4 | af2 g2~ | g1 | c4 g4 fs4 g4 | d'2. c4 | a2. c4 | g1 |
-  
+
   \sect "A3"
 
   r4 bf8 c8 d8 c8 bf8 d8 | a4 a8 a8~ a2 | r4 g8 a8 bf8 a8 g8 bf8 | f4 f8 f8~ f2 |
   r4 ef8 f8 ef8 d8 c8 ef8 | d4 f8 bf8~ bf2 | r4 c8 bf8 a4. c8 | bf1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

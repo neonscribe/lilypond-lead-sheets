@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -34,10 +29,10 @@ Who's it who got me jeal -- ous of you? __
 refrainChords = \chordmode {
   g2:m g2:m/f g2:m/e g2:m/ef g2:m g2:m/f ef2:7 d2:7
   ef1:7 d1:7 g1:m a2:m7.5- d2:7.9-
-  
+
   g2:m g2:m/f g2:m/e g2:m/ef g2:m g2:m/f ef2:7 d2:7
   ef1:7 d1:7 g1:m g1:m
-  
+
   g1:7 g1:7 c1:7 c1:7
   f1:7 f1:7 bf1:7 a2:m7.5- d2:7.9-
 
@@ -49,15 +44,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -70,19 +57,19 @@ refrainMelody = \relative f' {
   d4 g4 bf4. g8 | d4 g4 bf4. g8 | d4 g4 bf4 g4 | cs8 d8 cs8 d8 bf8 g4. |
   \break
   a4 a4 d,2 | a'4 a8 d,8~ d8 bf'8 a4 | g1~ | g2. r4 |
-  
+
   \sect "A2"
-  
+
   d4 g4 bf4. g8 | d4 g4 bf4. g8 | d4 g4 bf4 g4 | cs8 d8 cs8 d8 bf8 g4. |
   \break
   a4 a4 d,2 | a'4 a8 d,8~ d8 bf'8 a4 | g1~ | g2. r4 |
 
   \sect "B"
-  
+
   d'4 d4 g,2 | d'8 e4 d8 g,2 | g8 a4 g8 bf4 a8 g8~ | g1 |
   \break
   c4 c4 f,2 | c'8 d4 c8 f,2 | r8 d8 g8 bf8 d8 bf8 g8 d8 | a'8 a4 d8~ d2 |
-  
+
   \sect "A3"
 
   d,4 g4 bf4. g8 | d4 g4 bf4. g8 | d4 g4 bf4 g4 | cs8 d8 cs8 d8 bf8 g4. |
@@ -93,10 +80,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

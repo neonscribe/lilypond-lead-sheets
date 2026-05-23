@@ -7,6 +7,29 @@ printNoteNames =
     printNoteNames
     (ly:get-option 'print-note-names))
 
+midiOnly = 
+  #(if (defined? 'midiOnly)
+    midiOnly
+    (ly:get-option 'midi-only))
+
+#(if printNoteNames
+  (set-global-staff-size 18))
+
+subtitle =
+#(if (and (defined? 'subtitle) subtitle)
+  subtitle
+  "Standard Key")
+
+whatKey =
+#(if (and (defined? 'whatKey) whatKey)
+  whatKey
+  #f)
+
+whatClef =
+#(if (and (defined? 'whatClef) whatClef)
+  whatClef
+  "treble")
+
 \include "ambitus-engraver.ily"
 \include "text-mark.ily"
 \include "modern-codas.ily"

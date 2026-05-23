@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -40,11 +35,11 @@ Lit -- tle we know __ of it, still we can try __ to make a go _ _ _ of it. __ ""
 refrainChords = \chordmode {
   c2:6 a2:m7 d2:m7 g2:7 c2:6 a2:m7 d2:m7 g2:7
   e2:m7 a2:m7 d2:m7 g2:7
-  
+
   e2:7 a2:7.9- d2:m7 g2:7
 
   b1:m7 e1:7
-  
+
   a1:m7 a1:m7 d1:7 d2:7 ds2:dim7
   e1:m7 c1:maj7 e2:m7 a2:7.9- d2:m7 g2:7
 
@@ -57,15 +52,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -74,7 +61,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Eddy Duchin 1934]" 128
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   c'2 g4 e4 | a2 g8 b8 d8 c8~ | c2 g4 e4 |
@@ -88,11 +75,11 @@ refrainMelody = \relative f' {
   e4.\repeatTie e8 e2~ | e1 |
   } } }
   \sect "B"
-  
+
   e'1 | \tuplet 3/2 { d4 c4 b4 } a4 e8 f8 | fs2 b2~ | b2 a2 |
   \break
   d1 | \tuplet 3/2 { c4 b4 a4 } g4 e8 f8 | g2 bf2 | a2 b2 |
-  
+
   \sect "A3"
 
   c2 g4 e4 | a2 g8 b8 d8 c8~ | c2 g4 e4 | a2 f8 e8 d8 g8~ |
@@ -103,10 +90,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   (set-global-staff-size 16))
 
@@ -20,32 +15,26 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
   copyright = \markup \small { \now " " "© 1959 Jazz Workshop, Inc." }
 }
 
+leadingEighth = ##t
+
 refrainChords = \chordmode {
-  s4
-  
+  s8
+
   ef2:7.9+ b2:9.13 e2:maj9 a2:7.11+ df2:sus9 b2:9.13
   df2:sus7 ef2:7 af2:m11 b2:7.13 f2:m7.5- bf2:7.5+.9+
   c2:13.11+ f2:7.13 b2:7 e2:maj7 a2:7.13 af2:7
   bf2:7 df2:7 ef2:7.9+ b2:7 e2:maj7.11+ a2:7.11+
-  
+
   ef2:m7 af2:m7 ef2:m7 af2:m7 ef2:m7 af2:m7 ef2:m7 a2:7.5+ af1:m7 b2:7 bf2:7.5+
-  ef2:m7 af2:m7 ef2:m7 af2:m7 c2:m7.5- f2:7.5+.9+ fs2:m7 b4:7 
+  ef2:m7 af2:m7 ef2:m7 af2:m7 c2:m7.5- f2:7.5+.9+ fs2:m7 b4:7
   \chordInsideParens{ bf4:7 } ef2:m7 af2:7 ef2:m7 af2:7
-  
+
   e2:maj7.11+ a2:7.11+ ef1:m e1:maj7 ef1:m
 }
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -53,29 +42,27 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Charles Mingus 1959]" 52
 
-  \partial 4 \invisEighth bf,8 |
+  \partial 8 bf,8 |
   \bar "||"
 
-  \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box "Head" }
-  
+  \sectNoBarNoBreakSegno "Head"
+
   ef8 gf4 ef16 gf16 af8 gf4 ef16 df16 | ef8 gf4 ef16 df16 ef4. bf8 |
-  \break
+  %% \break
   ef8 gf4 ef16 gf16 a8 af4 ef16 df16 | ef8 gf4 ef16 df16 ef4. ef8 |
   \break
   bf'8 df4 ef,16 gf16 af8 gf4 ef16 gf16 |
   bf8 ef4 gf,16 af16 \tuplet 3/2 { df4 bf8 } \tuplet 3/2 { gf8 d8 b8 } |
-  \break
+  %% \break
   \tuplet 3/2 { fs'4 a8~ } a8 <e ds>8 \tuplet 3/2 { d4 a'8~ } a8 f8 |
   fs2 ds4. a'16 gs16 |
   \break
   fs2 ef2 | af8 gf8 ef8 df8 a'8 af8 gf8 ef8 |
-  \break
+  %% \break
   fs2 ds2 \textToCodaLastTime | \tuplet 3/2 { as'4 gs4 fs4 } \tuplet 3/2 { ds4 cs4 bf4 } |
 
-  \break
+  \sect "Solos"
 
-  \xTextMark \markup{ \bold \box "Solos" }
-  
   \bar ".|:-||"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -83,25 +70,21 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq
+  c8\rest
   \override Parentheses.font-size = #5
-  \startParenthesis \parenthesize c8\rest \endParenthesis \parenthesize bf8 |  
+  \parenthesize bf8
   \dalSegno |
   }
   \bar "||-:|."
 
   \textCodaBreak
-  
+
   \tuplet 3/2 { as'4 gs4 fs4 } \tuplet 3/2 { ds4 cs4 bf4 } |
-  af'1~\fermata | af1~\fermata | af1\fermata | 
-  
+  af'1~\fermata | af1~\fermata | af1\fermata |
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

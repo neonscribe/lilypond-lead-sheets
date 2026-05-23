@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "Gordon Jenkins"
   copyright = \markup \small { \now " " "© 1935 Schuster and Miller, Inc." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I'll nev -- er for -- get you, __ I'll nev -- er for -- get you, __
@@ -33,12 +30,12 @@ but kiss me as you go, __ good -- bye. __
 }
 
 refrainChords = \chordmode {
-  s4
+  s8
 
   af1:9 af1:7.5+ g1:7.5+ g1:7.9-
   c2:m c2:m7/bf c2:m6/a af2:13 c2:m af2:7 g2:7.9- c2:m6
   d1:m7.5- g1:7.9- c1:6 c1:6
-  
+
   g1:7.9- d2:m7.5- g2:7.9- c1:6 c1
   f1:m9 bf1:7.9- ef1:maj7 af2:7.11+ g2:7
 
@@ -49,55 +46,41 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
   \tempoFour "Ballad [Benny Goodman 1935]" 75
-  
-  \partial 4 \invisEighth c8 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 8 c8 |
+
+  \sectNoBreak "A1"
+
   ef8 ef4 c8 d8 c8~ c4~ | c2 r4 r8 c8 | ef8 ef4 f8 ef8 d8~ d4~ | d2 r4 r8 g8 |
   \break
   c8 c8 c8 d8~ d8 d4 d8 | g,8 g8 g8 bf8~ bf4. bf8 | ef,8 ef8 ef8 af8~ af8 af4 af8 | b8 b8 b8 c8~ c4. c,8 |
   \break
   d8 d8 bf'8 a8 af2~ | af2 r4 r8 g8 | g1 | r4 r8 c8 c8 c8 c8 c8 |
-  
+
   \sect "B"
-  
+
   e1 | \tuplet 3/2 { d4 d4 c4 } b8 c4 d8 | c1 | r4 r8 c,8 c8 c8 c8 c8 |
   \break
   g'1 | \tuplet 3/2 { f4 f4 ef4 } d4~ \tuplet 3/2 { d8 ef8 f8 } | g2~ \tuplet 3/2 { g4 f4 ef4 } | d2. r8 c8 |
 
   \sect "A2"
-  
+
   ef8 ef4 c8 d8 c8~ c4~ | c2 r4 r8 c8 | ef8 ef4 f8 ef8 d8~ d4~ | d2 r4 r8 g8 |
   \break
   c8 c8 c8 d8~ d8 d4 d8 | g,8 g8 g8 bf8~ bf4. bf8 | ef,8 ef8 ef8 af8~ af8 af4 af8 | b8 b8 b8 c8~ c4. c,8 |
   \break
   d8 d8 bf'8 a8 af2~ | af2 r4 r8 g8 | g1~ | g2. r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

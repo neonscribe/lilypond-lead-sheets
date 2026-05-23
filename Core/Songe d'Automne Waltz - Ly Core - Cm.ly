@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Songe d'Automne"
   subtitle = \subtitle
@@ -29,22 +24,14 @@ refrainChords = \chordmode {
 
   c2.:m/g gf2.:dim7 c2.:m/g af4:7 r2
   d2.:7 g2.:7 c2.:m c2.:7
-  
+
   f2.:m f2.:m c2.:m c2.:m
   d2.:7 g2.:7 c2.:m c2.:m
 }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -53,44 +40,39 @@ refrainMelody = \relative f' {
   \tempoFour "Tempo di Valse [Harry Davidson 1945]" 145
 
   \xTextMark \markup{ \bold \box "A" }
-  
+
   g2. | c2. | ef2. | g2. |
-  \break
+  %% \break
   g2. f2 c4 | ef2. d2 g,4 |
-  
+
   \sect "B"
-  
+
   c2. | ef2. | g2. | bf2. |
-  \break
+  %% \break
   bf2.~ | bf2 af4 | g2. | r8 g,8 a8 b8 c8 d8 |
-  
+
   \sect "C"
-  
+
   ef2. | d2. | d2. | c2. |
-  \break
+  %% \break
   c2. bf2 g4 | ef2. | f2. |
-  
+
   \sect "D"
-  
+
   g2. | gf2. | g2. | af2 c4 |
-  \break
+  %% \break
   ef2. | d2. | c2.~ | c2. |
-  
+
   \sect "E"
-  
+
   \bar ".|:"
   \repeat volta 2 {
-  \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | 
-  \break
-  \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | 
+  \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
+  %% \break
+  \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
   }
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

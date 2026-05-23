@@ -10,11 +10,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Avalon"
   subtitle = \subtitle
@@ -46,7 +41,7 @@ refrainObjectGenderMaleLyrics = \lyricmode {
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
@@ -59,7 +54,7 @@ refrainChords = \chordmode {
 
   g1:m7 g1:m7 c1:7 c1:7
   f1:maj7 g2:m7 c2:7 f1:maj7 f1:maj7
-  
+
   a1:m7 a1:m7 d1:7 d1:7
   g1:m7 g1:m7 bf1:m7 ef2:7 bf2:7
 
@@ -71,15 +66,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -88,28 +75,27 @@ refrainMelody = \relative f' {
   \tempoFour "Fast Swing [Benny Goodman Quartet 1937]" 250
 
   \partial 2 c2 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   g'2 a2 | bf2 c2 | bf4 a4 g2~ | g2 c,2 |
   \break
   f1~ | f2 g2 | a1~ | a2 c,2 |
-  
+
   \sect "B"
-  
+
   e2 f2 | g2 f2 | e4 d4 c2~ | c2 d2 |
   \break
   a'1~ | a2 d,2 | a'1~ | a2 d,2 |
-  
+
   \sect "A2"
-  
+
   a'2 bf2 | c2 d2 | c4 bf4 a2~ | a2 d,2 |
   \break
   g1~ | g2 a2 bf1~ | bf2 d,2 |
-  
+
   \sect "C"
-  
+
   c2 f2 | a2 c2 | e4 d4 e2~ | e2 d2 |
   \break
   bf1 | a1 | f1 | r1 |
@@ -118,10 +104,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

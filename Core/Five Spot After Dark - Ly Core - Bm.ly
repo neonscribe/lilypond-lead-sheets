@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -18,7 +13,7 @@ subtitle =
 }
 
 refrainChords = \chordmode {
-  b1:m7 b1:m7 b1:m7 b1:m7 
+  b1:m7 b1:m7 b1:m7 b1:m7
   e1:m7 e1:m7 b1:m7 b1:m7
   g1:7 fs1:7 b1:m7
   \chordOpenParen{ cs2:m7.5- }
@@ -27,15 +22,7 @@ refrainChords = \chordmode {
 
 refrainKey = b
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -43,23 +30,18 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Curtis Fuller's Quintet 1959]" 168
 
-  \sectStart "Head"
-  
+  \sectNoBarNoBreak "Head"
+
   r8 b,8 d8 fs8 b4-. b4-. | b4 d8 b8 r2 | r8 b,8 d8 fs8 b4-. b4-. | b4 d8 b8 r2 |
   \break
   r8 e,8 g8 b8 cs4 b4-. | r8 e,8 g8 b8 cs4 b4-. | r8 b,8 d8 fs8 b4-. b4-. | b4 d8 b8 r4 fs8 e8 |
   \break
   f4. d'8~ d4 f,8 ds8 | e4. cs'8~ cs4 e,8 cs8 | d4. b'8~ b2 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

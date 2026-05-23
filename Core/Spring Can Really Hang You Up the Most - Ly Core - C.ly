@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -78,20 +73,20 @@ refrainChords = \chordmode {
   c2:maj7 bf2:13 c1:maj7 c2:maj7 bf2:13 c1:maj7
   bf2:m7 af2:maj7 fs2:m7 e2:maj7 d2:m7 c2:maj7 a1:m9
   d2:m9 g2:7 c2:maj7 a2:7.9- d2:m11 a2:7.9-.5+ d2:9 g2:13
-  
+
   c2:maj7 bf2:maj9 c2:maj7 bf2:maj9 c4:maj7 a4:m7 d4:m7 g4:7 e2:m7 a2:7.9-
   fs2:m7.5- f2:m7 e2:m7 d2:7 d2:m7 g2:7 c2:maj7 bf2:maj7
-  
+
   c2:maj7 bf2:maj9 c2:maj7 bf2:maj9 c4:maj7 a4:m7 d4:m7 g4:7 e2:m7 a2:7.9-
   fs2:m7.5- f2:m7 e2:m7 d2:7 d2:m7 g2:7 c1:maj7
-  
+
   g2:m7 c2:maj7 g2:m7 c2:maj7 g2:m7 c2:maj7 g2:m7 c2:maj7
   c2:m7 f2:maj7 c2:m7 f2:maj7 fs4:m7 b4:7 e2:maj7 a2:m7 d2:7
-  
+
   g2:maj7 f2:maj9 c2:maj7 bf2:maj9 c4:maj7 a4:m7 d4:m7 g4:7 e2:m7 a2:7.9-
   fs2:m7.5- f2:m7 e2:m7 d2:7 d2:m7 g2:7 e2:m7 a2:7.9-
   d2:m7 g2:7 c2:maj7 bf2:maj7
-  
+
   ef2:m7 af2:7 d2:m7 g2:7 e2:m7 a2:7.9- d2:m7 c2:maj7
   d2:m7 c2:maj7 b4:m7.5- e4:7.9- a2:m7 d1:13
   d2:m7 bf2:9 e2:m7 a2:7 d2:m11 df2:maj7 c1:maj7
@@ -99,15 +94,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -115,79 +102,73 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Freely [Ella Fitzgerald 1961]" 70
 
-  \sectStart "Verse"
-  
+  \sectNoBar "Verse"
+
   g,8 c8 d8 e8 f8 e8 d8 c8 | d1 |
-  \break
+  %% \break
   g,8 c8 d8 e8 f4 e4 | g1 |
-  \break
+  %% \break
   af8 af af8 bf8 g2 | e8 e8 e8 fs8 ds2 |
-  \break
+  %% \break
   c8 c8 c8 d8 b4. g'8 | b4 e,2. |
-  \break
+  %% \break
   e8 e8 e8 f8 d4. a'8 | c4 g2. |
-  \break
+  %% \break
   g4 a4 f4 g4 | e1 |
-  
+
   \bar "|."
 
   \xPageBreak
 
-  \sectNoBar "A1"
-  \tempoFour "Ballad [Ella Fitzgerald 1961]" 55
-  \segnoSign
+  \sectStartRefrainSegno "A1"
 
+  \tempoFour "Ballad [Ella Fitzgerald 1961]" 55
   e4 g8 c8~ c4. g8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 |
-  \break
-  g'2. f4 | e8 c8 c8 c8~ c4 c8 d8 | g8 c,8 c8 c8~ c8 d4. | 
-  \break
+  %% \break
+  g'2. f4 | e8 c8 c8 c8~ c4 c8 d8 | g8 c,8 c8 c8~ c8 d4. |
+  %% \break
   e8 d8 c8 a8 g8 g8 g8 g8 | g1 |
 
   \sect "A2"
 
   e'4 g8 c8~ c4. g8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 |
-  \break
-  g'2. f4 | e8 c8 c8 c8~ c4 c8 d8 | g8 c,8 c8 c8~( c8 d4.) | 
-  \break
+  %% \break
+  g'2. f4 | e8 c8 c8 c8~ c4 c8 d8 | g8 c,8 c8 c8~( c8 d4.) |
+  %% \break
   e8 d8 c8 a8 g8 b8 d8 f8 | e1 |
 
-  \bar "||"
   \sect "B"
-  
+
   bf'4. g16 f16 g4. g8 | bf8( c4) a16 f16 g2 | bf4. g16 f16 g4. e16 g16 |
+
+  bf8( c4) a16 f16 g2 | ef4. c16 bf16 c4. c8 | ef8( f4) d16 bf16 c2 |
+  \bar "|o"
 
   \xPageBreak
 
-  bf8( c4) a16 f16 g2 | ef4. c16 bf16 c4. c8 | ef8( f4) d16 bf16 c2 |
-  \break
   \tuplet 3/2 { b4 b4 b4 } \tuplet 3/2 { ds4 ds4 ds4 } | \tuplet 3/2 { e4 e4 e4 } fs2 |
-  
+
   \sect "C"
-  
-  b,4 d8 g8~ g4. d8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 | 
-  \break
+
+  b,4 d8 g8~ g4. d8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 |
+  %% \break
   g'2. g8 f8 | e4 c8 c8~ c4 c8 d8 \textToCodaLastTime | g8 c,8 c8 c8 c8 d4. |
-  \break
+  %% \break
   e8 d8 c8 a8 g8 b8 d8 a'8 | g1 | e8 d8 c8 a8 g8 g8 g8 g8 | g1 |
-  
+
   \bar "||-|."
   \textCodaBreak
-  
+
   af'8 df,8 df8 df8 df8 ef4. | e8 d8 c8 a8 g8 b8 d8 a'8 | g1 |
-  \break
+  %% \break
   a4. a8 g4. g8 | a4. a8 g8 g4. | f8 f8 f8 f8 e8 c8 e8 g8 | b2. a8 b8 |
-  \break
+  %% \break
   c4 c,4 c8 d4 c8 | b'8 b,8 b8 b8 b8 cs4. | g'8 f8 e8 d8 df8 c8 bf8 af8 | g1 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

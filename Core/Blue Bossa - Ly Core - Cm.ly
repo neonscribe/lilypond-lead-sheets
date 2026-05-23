@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Blue Bossa"
   subtitle = \subtitle
@@ -23,7 +18,7 @@ refrainHLChords = \chordmode {
   d1:m7.5- g1:7.5+.9+ c1:m c1:m
   ef1:m7 af1:7 df1:maj7 df1:maj7
   d1:m7.5- g1:7.5+.9+ c1:m d2:m7.5- g2:7.5+
-  
+
   c1:m a1:7.9+ d1:m7.5- g1:7.5+.9+
   c1:m a1:7.9+ d1:m7.5- g1:7.5+.9+
   c1:m
@@ -35,7 +30,7 @@ refrainNicoChords = \chordmode {
   d1:m7.5- g1:7.5+.9+ c1:m c1:m
   ef1:m7 af1:7 df1:maj7 df1:maj7
   d1:m7.5- g1:7.5+.9+ c1:m d2:m7.5- g2:7.5+
-  
+
   c1:m c1:m d1:m7.5- g1:7.5+.9+
   c1:m c1:m d1:m7.5- g1:7.5+.9+
   c1:m
@@ -45,44 +40,36 @@ refrainChords = \refrainNicoChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
   \tempoFour "Medium-Up Bossa [Joe Henderson 1963]" 160
-  
+
   \partial 4 g4 |
-  
+
   \bar ".|:"
   \repeat volta 2 {
   g'4. f8 ef8 d8 r8 c8~ | c2~ c8 bf8 r8 af8~ |
   af2~ af8 g'8 r8 f8~ | f2. r4 |
   \break
-  
+
   f4. ef8 d8 c8 r8 bf8~ | bf2~ bf8 af8 r8 g8~ |
   g2~ g8 f'8 r8 ef8~ | ef2. r4 |
   \break
-  
+
   ef4. df8 c8 bf8 r8 af8~ | af2~ af8 gf8 r8 gf8~ |
   gf4. f8 bf4. af8 | af2. r4 |
   \break
-  
+
   af4 g8 bf8~ bf4. af8 | af4 g8 bf8~ bf4. af8 \textToCodaLastTime |
   g1~ | g2 r4
   \override Parentheses.font-size = #5
   \parenthesize g4 |
   }
-  
+
   \textCodaBreak
 
   \bar "||-:|."
@@ -91,16 +78,11 @@ refrainMelody = \relative f' {
   \break
   g1 | r1 | af4 g8 bf8~ bf4. af8 | af4 g8 ef'8~ ef4. b8 |
   d1 |
-  
-  \bar "|."  
+
+  \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

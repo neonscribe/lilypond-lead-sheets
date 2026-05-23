@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "When I Fall in Love"
   subtitle = \subtitle
@@ -51,15 +46,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -68,13 +55,13 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Miles Davis Quintet 1956]" 66
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   bf,4 ef4 af4 g4 | ef1 | bf4 ef4 af4 g4 | ef4 f2. |
   \break
   bf,4 ef4 c'4 bf4 | af2 g2 | f1~ | f2. g8 af8 |
-  
+
   \sect "B"
-  
+
   bf4. ef,8 ef4 ef4 | g4 f2 g8 af8 |
   \tuplet 3/2 { bf4 g4 af4 } \tuplet 3/2 { bf4 g4 af4 } | bf2. af8 bf8 |
   \break
@@ -82,13 +69,13 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { c4 af4 bf4 } \tuplet 3/2 { c4 af4 c4 } | bf1 |
 
   \sect "A2"
-  
+
   bf,4 ef4 af4 g4 | ef1 | bf4 ef4 af4 g4 | ef4 f2. |
   \break
   bf,4 ef4 c'4 bf4 | af2 g2 | f1~ | f2. g8 af8 |
-  
+
   \sect "C"
-  
+
   bf4. ef,8 ef4 ef4 | d'4 c2 c,4 | c'4 bf2 c4 | af2. f4 |
   \break
   bf,4 ef4 af4 g4 | ef2 f2 | ef1 | r1 |
@@ -97,10 +84,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Billie's Bounce"
   subtitle = \subtitle
@@ -17,8 +12,10 @@ subtitle =
   copyright = \markup \small { \now " " "© 1945 Atlantic Music Inc." }
 }
 
+leadingEighth = ##t
+
 refrainChords = \chordmode {
-  s4
+  s8
 
   f1:7 bf2:7 b2:dim7 f1:7 f1:7
   bf1:7 bf1:7 f1:7 a2:m7 d2:7
@@ -31,15 +28,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -47,11 +36,11 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast Blues [Charley Parker's Ree Boppers 1945" 166
 
-  \partial 4 \invisEighth c8 |
+  \partial 8 c8 |
   \bar "||"
-  
+
   b8 c8 f8 gs8 a8 f8 d8 f8~ | f8 d8 f8 r8 r8 f4 d8 |
-  f8 r4 f8~ f8 d8 f8 d8 | af'8 a8 \tuplet 3/2 { f16 g16 f16 } d8 f8 g8 f8 f8 | 
+  f8 r4 f8~ f8 d8 f8 d8 | af'8 a8 \tuplet 3/2 { f16 g16 f16 } d8 f8 g8 f8 f8 |
   \break
   r4 r8 a8 bf8 f8 r8 af8~ | af8 bf4. ef8 c8 f8 ef8 |
   r8 f8 c4 r4 r8 e8~ | e4 g,8 e8 fs8 ef'8 c8 cs8 |
@@ -63,11 +52,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

@@ -2,14 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(if (not (and (defined? 'hideLyrics) hideLyrics))
-  (set-global-staff-size 16))
-
 \header {
   title = "Well You Needn't"
   subtitle = \subtitle
@@ -17,6 +9,8 @@ subtitle =
   composer = "Thelonious Monk"
   copyright = \markup \small { \now " " "© 1944 Regent Music Corporation" }
 }
+
+leadingEighth = ##t
 
 refrainLyrics =  \lyricmode {
     "You're" talk -- "in'" so "sweet," well you need -- "n't." You say
@@ -53,8 +47,8 @@ refrainLyricsTwo =  \lyricmode {
     }
 
 refrainChords = \chordmode {
-  s4
-  
+  s8
+
   f1:7 gf1:7 f1:7 gf1:7
   f1:7 gf1:7 f1:7 f1:7
 
@@ -70,15 +64,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -86,31 +72,37 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up [Thelonious Monk 1947]" 188
 
-  \partial 4 \invisEighth gs,8 |
+  \partial 8 gs,8 |
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBarNoBreak "A1"
+
   \bar ".|:"
   \repeat volta 2 {
   a8 c8 f4-. c'4-- a8 f8 | ef'8 bf8 r4 r4 r8 gs,8 |
   a8 c8 f4-. c'4-- a8 f8 | bf8 gf8 r4 r4 r8 gs,8 |
   a8 c8 f4-. c'4-- a8 f8 | ef'8 bf8 r4 r4 r8 b,8 |
   c8 f8 c4-- r8 b8 c8 f8 | c4-- r4 r4 r8 gs8 |
-  
+
   \sect "A2"
-  
+
   a8 c8 f4-. c'4-- a8 f8 | ef'8 bf8 r4 r4 r8 gs,8 |
   a8 c8 f4-. c'4-- a8 f8 | bf8 gf8 r4 r4 r8 gs,8 |
   a8 c8 f4-. c'4-- a8 f8 | ef'8 bf8 r4 r4 r8 b,8 |
   c8 f8 c4-- r8 b8 c8 f8 | c4-- r4 r4 r8 df8 |
-  
-  \sect "B"
-  
+
+  $(if (and (defined? 'hideLyrics) hideLyrics)
+    #{
+    \sect "B"
+    #}
+    #{
+    \sectPageBreak "B"
+    #} )
+
   ef8 af8 ef4~ ef8 df8 ef8 af8 | ef2 r4 r8 d8 |
   e8 a8 e4~ e8 d8 e8 a8 | e2 r4 r8 ef8 |
   f8 bf8 f8 e8 fs8 b8 fs8 ef8 | f8 bf8 f8 d8 e8 a8 e8 df8 |
   ef8 af8 ef8 c8 d8 g8 d8 c8 | cs8 fs8 cs8 c8 r4 r8 gs8 |
-  
+
   \sect "A3"
 
   a8 c8 f4-. c'4-- a8 f8 | ef'8 bf8 r4 r4 r8 gs,8 |
@@ -123,10 +115,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include  "../Include/refrain.ily"

@@ -2,15 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
-
 \header {
   title = "My Funny Valentine"
   subtitle = \subtitle
@@ -42,13 +33,13 @@ refrainChords = \chordmode {
 
   c1:m c1:m7+ c1:m7 c1:m6
   af1:maj7 f1:m7 f1:m7.5- bf1:7.9-
-  
+
   ef2:maj7 f2:m7 g2:m7 f2:m7 ef2:maj7 f2:m7 g2:m7 f2:m7
   ef2:maj7 g2:7 c2:m bf4:m7 a4:7 af1:maj7 d2:m7.5- g2:7.9-
 
   c1:m c1:m7+ c1:m7 c1:m6
   af1:maj7 d2:m7.5- g2:7.9- c1:m bf2:m7 a2:7.11+
-  
+
   af1:maj7 f2:m7 bf2:7.9- ef1:6
 
   \chordOpenParen{ d2:m7.5- }
@@ -57,15 +48,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -74,25 +57,25 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Chet Baker 1954]" 66
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   c2 d4 ef4 | d4. ef8 d2 | c2 d4 ef4 | d4. ef8 d2 |
   \break
   c2 d4 ef4 | bf'2 af4 g4 | f1~ | f1 |
-  
+
   \sect "A2"
-  
+
   ef2 f4 g4 | f4. g8 f2 | ef2 f4 g4 | f4. g8 f2 |
   \break
   ef2 f4 g4 | d'4. c8 bf4. a8 | af1~ | af2 g4 f4 |
 
-  \sect "B"
-  
+  \sectPageBreak "B"
+
   bf4. ef,8 ef4 d4 | ef2 f4 d4 | c'4. ef,8 ef4 d4 | ef2 ef4 d4 |
   \break
   d'4. ef,8 ef4 d4 | ef2 f4 g4 | c1~ | c2 d,2 |
 
   \sect "A3"
-  
+
   c2 d4 ef4 | d4. ef8 d2 | ef2 f4 g4 | f4. g8 f2 |
   \break
   c'2 d4 ef4 | d4. ef8 d2 | ef1~ | ef1 |
@@ -103,10 +86,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

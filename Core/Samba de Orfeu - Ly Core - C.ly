@@ -10,11 +10,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -36,14 +31,14 @@ refrainHLChords = \chordmode {
   c2:maj7 f2:9.11+ e2:m7 a2:7 d1:m7 g1:7
   d1:m7 g1:7 d1:m7 g1:7
   d1:m7
-  
+
   g1:7 bf2:9.11+ a2:7 d2:m7 g2:7
-  
+
   g1:7 c1:6 c1:6
-  
+
   g1:m7 c1:7 f2:maj7 f2:6 f1:maj7
   f1:m7 bf1:7 ef1:maj7 d2:m7 g2:7
-  
+
   c1:maj7 c1:maj7 c1:maj7 c1:maj7
   c2:maj7 f2:9.11+ e2:m7 a2:7 d1:m7 g1:7
   d1:m7 g1:7 d1:m7 g1:7
@@ -59,14 +54,14 @@ refrainSimpleChords = \chordmode {
   c1:maj7 cs1:dim7 d1:m7 g1:7
   d1:m7 g1:7 d1:m7 g1:7
   d1:m7
-  
+
   g1:7 c1:maj7 g4:7 r2.
-  
+
   g1:7 c1:maj7 c4:maj7 r2.
-  
+
   g1:m7 c1:7 f1:maj7 f1:maj7
   f1:m7 bf1:7 ef1:7 g4:7 r2.
-  
+
   c1:maj7 c1:maj7 c1:maj7 c1:maj7
   c1:maj7 cs1:dim7 d1:m7 g1:7
   d1:m7 g1:7 d1:m7 g1:7
@@ -77,7 +72,7 @@ refrainSimpleChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "simple" refrainSimpleChords)
@@ -87,15 +82,7 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -106,7 +93,7 @@ refrainMelody = \relative f' {
   \partial 2. c8 e8 r8 g4 b8~ |
 
   \xTextMark \markup{ \bold \box "A1, A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
     b1 | a4. g8 r8 e4 b8~ | b1 | r4 c8 e8 r8 g4 b8~ |
@@ -122,15 +109,15 @@ refrainMelody = \relative f' {
     b4. g8 e'8 d4 c8~ | c1 |
     r2 c8 b4 bf8~ |
   } }
-  
-  \sect "B"
-    
+
+  \sectPageBreak "B"
+
     bf1 | r8 e,4 f8~ f8 g4 a8~ | a1 | r2 a8 a4 af8~ |
   \break
     af1 | r4 af8 c8 r8 b4 g8~ | g1 | r4 c,8 e8 r8 g4 b8~ |
-  
+
   \sect "A3"
-  
+
   b1 | a4. g8 r8 e4 b8~ | b1 | r4 c8 e8 r8 g4 b8~ |
   \break
   b8 b4 b8 b8 b4 b8~ | b4 a8 g8 r8 e4 g8~ | g2 d2 | r4 d8 f8 r8 a4 c8~ |
@@ -143,10 +130,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

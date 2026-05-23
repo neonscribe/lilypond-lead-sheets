@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -34,13 +29,13 @@ when love walked in with you.
 refrainChords = \chordmode {
   c1:maj7 a1:m7 d1:7 d2:m7 g2:7
   c1:maj7 a1:m7 d1:7 g1:7
-  
+
   c1:sus9 c1:7 f1:6 e2:m7 a2:7
   d1:m7 f2:m7 bf2:7 e2:m7 a2:7.9-.5+ d4:7.5- d4:7 d4:m7 g4:7
-  
+
   c1:maj7 a1:m7 d1:7 d2:m7 g2:7
   c1:maj7 a1:m7 d1:7 g1:7
-  
+
   c1:sus9 c1:7 f1:6 fs2:m7.5- b2:7.5+
   e2:m7 a2:7.9- d2:m7 g2:7.9- c1:6
   \chordOpenParen{ d2:m7 }
@@ -49,15 +44,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -65,14 +52,14 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Artie Shaw 1950]" 140
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   e'1 | g,4 c4 e4 g4 | fs4 fs4 fs8 e8 fs4 | g1 |
   \break
   e1 | g,4 c4 e4 g4 | a4 a4 a8 g8 a4 | b1 |
-  
+
   \sect "B"
-  
+
   c1 | c,4 e4 g4 c4 | b4 b4 b8 a8 b4 | a1 |
   \break
   r4 g4 g8 f8 g4 | f1 | r4 e4 f4 g4 | gs4 a4 c,4 d4 |
@@ -82,7 +69,7 @@ refrainMelody = \relative f' {
   e1 | g,4 c4 e4 g4 | fs4 fs4 fs8 e8 fs4 | g1 |
   \break
   e1 | g,4 c4 e4 g4 | a4 a4 a8 g8 a4 | b1 |
-  
+
   \sect "C"
 
   c1 | c,4 e4 g4 c4 | d2 c2 | b4 a4 g4 f4 |
@@ -93,10 +80,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

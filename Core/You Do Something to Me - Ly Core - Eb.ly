@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -28,10 +23,10 @@ for you do some -- thing to me that no -- bod -- y else could do.
 refrainChords = \chordmode {
   ef1:6 d1:7 ef1:6 f2:m7 bf2:7
   ef1:6 g2:m7 c2:7.9- f1:m7 bf2:7 c2:7.9-
-  
+
   f1:m7 c1:7.9- f1:m7 c1:7.9-
   f1:7 f1:7 f1:m7 bf1:7
-  
+
   g1:m7 gf1:dim7 f1:m7 e1:dim7
   fs2:m7 b2:7 f2:m7 bf2:7 fs2:m7 b2:7 f2:m7 bf2:7.9-
 
@@ -43,15 +38,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -59,18 +46,18 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Artie Shaw 1946]" 128
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   ef1 | d1 | ef4 f2 d4 | c1 |
   \break
   c4 d2 bf4 | c4 ef4 g4 bf4 | bf1 | d,1 |
-  
+
   \sect "A2"
-  
+
   af'1 | g1 | af4 c2 af4 | g1 |
   \break
   f4 g2 c,4 | f4 g4 a4 d4 | c1 | bf2. r4 |
-  
+
   \sect "B"
 
   bf1 | ef1 | d2 af4 bf4 | c1 |
@@ -82,15 +69,10 @@ refrainMelody = \relative f' {
   ef1 | d1 | ef4 f2 d4 | c2. c'4 |
   \break
   b4 c2 g4 | f2 g2 | ef1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

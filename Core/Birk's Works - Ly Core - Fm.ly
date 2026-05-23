@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -17,9 +12,11 @@ subtitle =
   copyright = \markup \small { \now " " "© 1951 Dizlo Music Corporation" }
 }
 
+leadingEighth = ##t
+
 refrainChords = \chordmode {
-  s2
-  
+  s4.
+
   f1:m7 g2:m7.5- c2:7.5+ f1:m7 c2:m7.5- f2:7.9+
   bf1:m7 bf1:m7 f1:m7 f1:m7
   af2:m7 df2:7 g2:m7.5- c2:7.5+.9+ f1:7 f1:7
@@ -27,15 +24,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -43,10 +32,10 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Swing [Art Pepper 1957]" 158
 
-  \partial 2 \invisEighth f8 af8-. bf8 |
+  \partial 4. f8 af8-. bf8 |
   \bar "||"
-  
-  \sectStart "Head"
+
+  \sectNoBarNoBreak "Head"
 
   b8-. c8 \tuplet 3/2 { b16 c16 b16 } bf8 af8 f8 af8-. bf8 | bf4 af8 c8 r8 f,8 af8-. bf8 |
   \break
@@ -68,11 +57,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

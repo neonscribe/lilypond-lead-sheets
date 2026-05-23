@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -42,9 +37,9 @@ verseMelody = \relative f' {
   \key \verseKey \major
   \clef \whatClef
   \tempoFour "Freely" 86
-  
+
   \xTextMark \markup{ \bold \box "Verse" }
-  
+
   d'8 c8 d8 c8 f,8 e8 f8 e8 | b'8 a8 b8 a8 e4. d8 |
   \break
   e8 g8 a8 b8 c8 b8 c8 d8 | g,1 |
@@ -54,7 +49,6 @@ verseMelody = \relative f' {
   a8 g8 a8 g8 b8 b8 b8 b8 | g1 |
 
   \bar "|."
-  \xPageBreak
 }
 
 refrainLyrics = { \lyricmode {
@@ -64,7 +58,7 @@ I found your lips __ next to mine, __ so I kissed __ you,
 and you did -- n't mind it at all. __
 When I'm a -- wake __ such a break __ nev -- er hap -- pens,
 how long can a }
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   #{ \lyricmode { gal __ } #}
   #{ \lyricmode { guy __ } #} )
@@ -90,15 +84,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -107,19 +93,19 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Harry James 1942]" 80
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   e8 g8 b8 d8~ d8 df8 c8 e,8~ | e2~ e8 f4. | d2 e8 g4 f8~ | f1 |
   \break
   d8 f8 a8 e'8~ e8 ef8 d8 c8~ | c2~ c8 b4. | b8 a4 a8~ a4. b8 | a8 g4 g8~ g2 |
-  
+
   \sect "B"
-  
+
   g8 e8 f8 g8~ g8 e8 f8 g8~ | g8 e8 f8 g8~ g8 bf4 a8 | f4 f8 f8 e8 d8 e8 f8~ | f1 |
   \break
   a8 fs8 g8 a8~ a8 fs8 g8 a8~ | a8 fs8 g8 a8~ a8 c4 a8 | b8 b8 b8 b8~ b8 b8 b8 a8~ | a4. ds,8~ ds2 |
 
   \sect "A2"
-  
+
   e8 g8 b8 d8~ d8 df8 c8 e,8~ | e2~ e8 f4. | d2 e8 g4. | f2 e8 d4. |
   \break
   e8 g8 a8 b8~ b8 c4 d8~ | d8 e8 d8 c8~ c8 d4 c8~ | c1 | r1 |
@@ -129,10 +115,6 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/verse.ily"
+\pageBreak
 \include "../Include/refrain.ily"

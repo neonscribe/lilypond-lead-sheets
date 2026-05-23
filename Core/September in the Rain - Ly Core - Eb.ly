@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -35,10 +30,10 @@ refrainChords = \chordmode {
 
   ef1:6 bf2:m7 ef2:9 af1:6 af1:6
   df1:9 f2:m7 bf2:7.9- ef1:6 ef1:6
-  
+
   bf2:m7 ef2:7 bf2:m7 ef2:7 af1:6 af1:6
   c2:m7 f2:7 c2:m7 f2:7 f1:m7 bf1:7
-  
+
   ef1:6 bf2:m7 ef2:9 af1:6 af1:6
   df1:9 f2:m7 bf2:7.9- ef2:6
   \chordOpenParen{ c2:7.9-.5+ }
@@ -48,57 +43,43 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Dinah Washington 1961]" 110
-  
-  \partial 4 bf4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 4 bf4 |
+
+  \sectNoBreak "A1"
+
   c4 ef4 d4 bf4 | c4 g4 bf4. ef,8 | f2 f2~ | f2 g4. c,8 |
   \break
   f2 f2~ | f2 g4. bf,8 | ef1~ | ef2 r4 bf'4 |
-  
+
   \sect "A2"
-  
+
   c4 ef4 d4 bf4 | c4 g4 bf4. ef,8 | f2 f2~ | f2 g4. c,8 |
   \break
   f2 f2~ | f2 g4. bf,8 | ef1~ | ef2. ef4 |
-  
+
   \sect "B"
-  
+
   f4 c'4 bf4 ef,4 | f4 c'4 bf4 ef,4 | f2 g2~ | g2. f4 |
   \break
   g4 d'4 c4 f,4 | g4 d'4 c4 f,4 | bf1~ | bf2. bf4 |
-  
+
   \sect "A3"
 
   c4 ef4 d4 bf4 | c4 g4 bf4. ef,8 | f2 f2~ | f2 g4. c,8 |
   \break
   f2 f2~ | f2 g4. bf,8 | ef1~ | ef2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

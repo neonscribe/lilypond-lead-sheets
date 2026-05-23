@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -31,7 +26,7 @@ no time to chase you, ’cause I’m a bus -- y man.
 
 refrainChords = \chordmode {
   s2.
-  
+
   f1 f1 f1 f1
   f1 \chordInsideParens{ c1 } f1 f1
   f1 f1 f1 f1
@@ -45,15 +40,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -64,8 +51,8 @@ refrainMelody = \relative f' {
   \partial 2. c'8 c8~ c8 c8 c8 bf8 |
   \bar "||"
 
-  \sectStart "Verse"
-  
+  \sectNoBarNoBreak "Verse"
+
   a8 f4.~ f2 | r8 c'4 c8 c4 c8 c8~( | c8 a4.~ a2) | r8 c4 c8 c8 c8 c8 bf8 |
   \break
   a8 f4.~ f2 | r8 c8 d8 f8 af4 g8 f8~ | f1 | r8 c'4 c8 c8 c4 bf8 |
@@ -73,9 +60,9 @@ refrainMelody = \relative f' {
   a8 f4.~ f2 | r8 a8 a8 c8 c4 c8 c8~( | c8 a4.~ a2) | r8 c8 c4 c8 c8 c8( bf8) |
   \break
   a8 f4.~ f2 | r8 c8 d8 f8 af4 g8 f8 | f1 | r2 bf8 bf8 d4 |
-  
+
   \sect "Chorus"
-  
+
   f1~ | f4 ef8 d8 c8 bf8 a4 | f1 | r4 c'8 c8 c4 c4 |
   \break
   g'1~ | g4 e4 c8 a4. | f1 | r4 bf4 bf8 bf4. |
@@ -89,17 +76,12 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -125,7 +107,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { Got in a little trouble at the county seat. } }

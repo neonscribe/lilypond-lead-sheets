@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -36,13 +31,13 @@ refrainChords = \chordmode {
 
   f2:m7 bf2:7 ef2:maj7 c2:7.9- f2:m7 bf2:7 ef1:maj7
   a2:m7 d2:7 g2:6 bf2:dim7 a2:m7 d2:7 g1:maj7
-  
+
   g1:m7 fs1:dim7 f1:m7 bf1:7
   ef2:maj7 af2:7 g2:m7.5- c2:7.9- f1:m7 bf1:7
 
   f2:m7 bf2:7 ef2:maj7 c2:7.9- f2:m7 bf2:7 ef1:maj7
   a2:m7 d2:7 g2:6 bf2:dim7 a2:m7 d2:7 g1:maj7
-  
+
   f1:m7 c1:m7 f2:m7 bf2:7 g2:m7 c2:7
   f1:m7 bf1:7 ef1:maj7
   \chordOpenParen{ g2:m7.5- }
@@ -51,15 +46,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -68,31 +55,31 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Wes Montgomery 1960]" 140
 
   %{
-  \sectStart "Intro"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \sectNoBarNoBreak "Intro"
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   %}
-  
-  \sectStart "A1"
-  
+
+  \sectNoBarNoBreak "A1"
+
   c'2 bf4. bf8 | g1 | c4 c8 c8 bf8 bf4 bf8 | bf4. bf8 g2 |
   \break
   g2 fs4. a8 | e1 | r4 g4 \tuplet 3/2 { fs4 g4 a4 } | d4. d8 d2 |
-  
+
   \sect "B"
-  
+
   r2 \tuplet 3/2 { d4 d4 d4 } | d4 ef2 c4 | \tuplet 3/2 { ef4 c4 ef4 } d2~ | d1 |
   \break
   r4 bf4 bf4 bf4 | bf4 c8 df8 c4 bf4 | r4 af4 \tuplet 3/2 { ef'4 c4 af4 } | f2. bf4 |
 
   \sect "A2"
-  
+
   c2 bf4. bf8 | g1 | c4 c8 c8 bf8 bf4 bf8 | bf4. bf8 g2 |
   \break
   g2 fs4. a8 | e1 | r4 g4 \tuplet 3/2 { fs4 g4 a4 } | d4. d8 d2 |
-  
+
   \sect "C"
-  
+
   f2 c4. c8 | ef1 | d4 c4 bf8 af8 g8 f8 | c'2. g4 |
   \break
   bf4 af4 ef'8 c8 af8 c8 | g2 \tuplet 3/2 { bf4 bf4 bf4 } | bf1 | r1 |
@@ -101,10 +88,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

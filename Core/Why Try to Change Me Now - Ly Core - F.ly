@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Why Try to Change Me Now?"
   subtitle = \subtitle
@@ -42,7 +37,7 @@ refrainChords = \chordmode {
   g2:m7 c2:7.9- f2:maj7 d2:9 g2:m7 c4:7.9- c4:7.9-/bf
   a2:m7.5- d2:7.5+.9- g2:m7 ef2:9 a2:m7 af2:dim7
   g2:m7 c2:7.9- a2:m7 d2:7.9-
-  
+
   g2:m7 c2:7.9- f2:maj7 d2:9 g2:m7 c4:7.9- c4:7.9-/bf
   a2:m7.5- d2:7.5+.9- g2:m7 ef2:9 a2:m7 af2:dim7
   g2:m7 c2:7.9- f2:6
@@ -66,15 +61,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -83,7 +70,7 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Frank Sinatra 1952]" 77
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   r8 d8 f8 g8 a8 g8~ \tuplet 3/2 { g8 a8 bf8 } |
   c4~ \tuplet 3/2 { c8 a8 c8 } e,2 |
   \break
@@ -106,12 +93,7 @@ refrainMelody = \relative f' {
   \break
   d4 f8 d8 a'4. a8 | f1 |
 
-  \bar "||"
-
-  \xPageBreak
-    
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sectPageBreak "B"
 
   r8 ef8 g8 bf8 a4~ \tuplet 3/2 { a8 g8 f8 } |
   \tuplet 3/2 { g8 g8 g8~ } g2 \tuplet 3/2 { r8 a8 bf8 } |
@@ -139,10 +121,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

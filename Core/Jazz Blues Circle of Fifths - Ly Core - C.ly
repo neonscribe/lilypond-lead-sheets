@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -19,15 +14,7 @@ subtitle =
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainChordsInC = \chordmode {
   \bar "||-||"
@@ -96,11 +83,11 @@ refrainChords = \chordmode {
 
   \set Score.currentBarNumber = #1
   \sectGap "Blues in Gb"
-  
+
   \transpose c gf {
     \refrainChordsInC
   }
-  
+
   \set Score.currentBarNumber = #1
   \sectGap "Blues in B"
 
@@ -143,10 +130,5 @@ refrainChords = \chordmode {
 }
 
 \include "../Include/chord-paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain-chords-only.ily"

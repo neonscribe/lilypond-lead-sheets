@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -27,33 +22,25 @@ refrainChords = \chordmode {
   f1:m9.7+ f1:m7/bf c4:7.5+ \chordSlash 2 c4:7 bf2:dim7/f f2:m
 
   f2:m d2:m7.5- g2:7 c2:7 f2:7.9- bf2:m7 ef2:7 af2:7
-  
+
   df2:7 g2:7 c1:7
-  
+
   df2:7 g2:7 f1:m6
-  
-  f1:7.9- bf1:m6/f f1:7.9- bf1:m6/f 
+
+  f1:7.9- bf1:m6/f f1:7.9- bf1:m6/f
   f1:7.9- bf1:m6/f f2:7.9- bf2:dim7/f f1:7.9-
-  
+
   bf2:m g2:m7.5- c2:7 f2:7 bf2:7 ef2:m7 af2:7 df2:7
   gf1:7 gf1:7 df1:7 df1:7
   gf1:7 gf1:7 df1:7 \chordInsideParens{ c1:7 }
-  
+
   f4.:m9.7+ f8:m f4.:m7/bf bf8:m c4.:7.5+ c8:7 bf4:dim7/f f4:m
   f4.:m9.7+ f8:m f4.:m7/bf bf8:m c4.:7.5+ c8:7 bf4:dim7/f f4:m
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -61,7 +48,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Slow 4, Even Eighths [MJQ 1954]" 75
 
-  \sectStart "A"
+  \sectNoBarNoBreak "A"
   \xTextMark \markup{ \bold "Head" }
 
   r4 af2 g4 | <f df>4. <e c>8 <f df>4 <df bf>4 | r4 bf'2 df4 | <af f>4. <g e>8 <af f>4 <f c>4 |
@@ -73,15 +60,15 @@ refrainMelody = \relative f' {
   r4 <g e>2 f4 | r4 <ef c>2 <df bf>4 | r4 <c af>2 <bf g>4 | <bf g>2 <af f>2 |
   \break
   r4 <g e>2 f4 | r4 <ef c>2 <df bf>4 | r4 <c af>2_"rit." <bf g>4 | <bf g>2 <af f>2_"Fine" |
-  
+
   \sectNoBar "B1,B2"
   \xTextMark \markup{ \bold "Solos" }
-  
+
   \tempoFour "Medium Swing [MJQ 1954]" 112
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   \alternative { \volta 1 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -89,27 +76,26 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   } } }
 
-  \sect "C"
+  \sectPageBreak "C"
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \break
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \break
 
   \sect "D"
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \break
 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \daCapoAlFineAfterSolos | 
-  
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \daCapoAlFineAfterSolos |
+
   \bar "|."
-  \xPageBreak
 
   \sectNoBar "E"
   \xTextMark \markup{ \bold "Interlude between solos" }
@@ -117,22 +103,24 @@ refrainMelody = \relative f' {
   r8 <g'' e>4 f8 r8 <ef c>4 <df bf>8 | r8 <c af>4 <bf g>8 <bf g>4 <af f>4 |
   \break
   r8 <g e>4 f8 r8 <ef c>4 <df bf>8 | r8 <c af>4 <bf g>8 <bf g>4 <af f>4 |
-  
+
   \bar "|."
+
+  \xPageBreak
 }
 
 bassLineKey = f
 
 bassLineChords  = \chordmode {
   f2:m d2:m7.5- g2:7 c2:7 f2:7.9- bf2:m7 ef2:7 af2:7
-  
+
   df2:7 g2:7 c1:7
-  
+
   df2:7 g2:7 f1:m6
-  
-  f1:7.9- bf1:m6/f f1:7.9- bf1:m6/f 
+
+  f1:7.9- bf1:m6/f f1:7.9- bf1:m6/f
   f1:7.9- bf1:m6/f f2:7.9- bf2:dim7/f f1:7.9-
-  
+
   bf2:m g2:m7.5- c2:7 f2:7 bf2:7 ef2:m7 af2:7 df2:7
   gf1:7 gf1:7 df1:7 df1:7
   gf1:7 gf1:7 df1:7 \chordInsideParens{ c1:7 }
@@ -142,14 +130,14 @@ bassLineMelody = \relative f {
   \time 4/4
   \key \bassLineKey \minor
   \clef bass
-  
 
-  \sectStart "B1,B2"
+
+  \sectNoBarNoBreak "B1,B2"
   \xTextMark \markup{ \bold "Bass line for solos" }
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
-  \rsq_"Bass walks" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq_"Bass walks" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   \alternative { \volta 1 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -159,13 +147,13 @@ bassLineMelody = \relative f {
 
   \sect "C"
 
-  f4_"Bass pedal" f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 | 
+  f4_"Bass pedal" f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 |
   \break
-  f4 f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 | 
+  f4 f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 |
 
   \sect "D"
 
-  \rsq_"Bass walks" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq_"Bass walks" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \break
 
@@ -174,16 +162,11 @@ bassLineMelody = \relative f {
   \break
   gf8 df'8 ef8 df8 ff4 ef4 | gf,8 df'8 ef8 df8 ff4 ef4 | df,8 af'8 bf8 af8 cf4 bf4 | df,8 af'8 bf8 af8 cf4 bf4 |
 
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

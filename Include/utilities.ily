@@ -4,6 +4,10 @@
 now = ""
 
 
+emphasize = {
+  \override Lyrics.LyricText.font-shape = #'italic
+}
+
 har = #(define-music-function (music)
 	(ly:music?)
 	#{ \tweak font-size #-2 #music #} )
@@ -95,9 +99,9 @@ xPageBreak = {
 }
 
 invisEighth = {
-  \once \omit Voice.Rest
-  \tweak X-extent #'(+inf.0 . -inf.0)
-  r8
+  % \once \omit Voice.Rest
+  % \tweak X-extent #'(+inf.0 . -inf.0)
+  s8
 }
 
 ambitusOff = {
@@ -115,18 +119,19 @@ sect =
      \break
      \xTextMark \markup{ \bold \box #s } #} )
 
+sectSegno =
+#(define-music-function (s)
+   (string?)
+  #{ \bar "||-||"
+     \break
+     \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
+
 sectGap =
 #(define-music-function (s)
    (markup?)
   #{ \bar "||-||"
      \break
      \xTextMark \markup{ \pad-around #3 { \bold \box #s } } #} )
-
-sectStart =
-#(define-music-function (s)
-   (string?)
-  #{ \xTextMark \markup{ \bold \box #s } #} )
-
 
 sectNoBreak =
 #(define-music-function (s)
@@ -140,11 +145,40 @@ sectNoBar =
   #{ \break
      \xTextMark \markup{ \bold \box #s } #} )
 
+sectNoBarSegno =
+#(define-music-function (s)
+   (string?)
+  #{ \break
+     \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
+
+sectStartRefrain =
+#(define-music-function (s)
+   (string?)
+  #{ \break
+     \xTextMark \markup{ "Refrain" \bold \box #s } #} )
+
+sectStartRefrainSegno =
+#(define-music-function (s)
+   (string?)
+  #{ \break
+     \xTextMark \markup{ \musicglyph #"scripts.segno" "Refrain" \bold \box #s } #} )
+
 sectNoBarNoBreak =
 #(define-music-function (s)
    (string?)
   #{ \xTextMark \markup{ \bold \box #s } #} )
 
+sectNoBarNoBreakSegno =
+#(define-music-function (s)
+   (string?)
+  #{ \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
+
+sectPageBreak =
+#(define-music-function (s)
+   (string?)
+  #{ \bar "||"
+     \xPageBreak
+     \xTextMark \markup{ \bold \box #s } #} )
 
 #(define (no-double-accidental-pitch p)
    (let ((o (ly:pitch-octave p))

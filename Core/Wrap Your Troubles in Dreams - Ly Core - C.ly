@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -52,57 +47,44 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium Swing [Bill Evans 1962]" 160
-  
+
   \partial 4 g4 |
   \bar "||"
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   e4 e4 g8 e8 g4 | a2. g4 | a4 a4 b8 a8 b4 | c2. a4 |
   \break
   c4 c4 c8 a8 c4 | a2. a4 | c4 c4 b8 g8 b4 | e,2. g4 |
-  
+
   \sect "A2"
 
   e4 e4 g8 e8 g4 | a2. g4 | a4 a4 b8 a8 b4 | c2. a4 |
   \break
   c4 c4 c8 a8 c4 | a2. a4 | c4 c4 a8 g8 a4 | c2 b2 |
-  
+
   \sect "B"
-  
+
   e8 c8 e8 ds8~ ds8 b4 ds8 | d8 b8 d8 cs8~ cs2 | c8 a8 as8 b8~ b8 g8 a4 | e1 |
   \break
   e'8 c8 e8 ds8~ ds8 b4 ds8 | d8 b8 d8 cs8~ cs2 | c8 a8 as8 b8~ b8 g8 a4 | e'2 g,2 |
-  
+
   \sect "A3"
 
   e4 e4 g8 e8 g4 | a4 a2. | a4 a4 b8 a8 b4 | c2. a4 |
   \break
   c4 c4 c8 a8 c4 | e2. a,4 | c4 c4 a8 g8 a4 | c2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

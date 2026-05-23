@@ -250,13 +250,6 @@ core_file_contents = f"""%% -*- Mode: LilyPond -*-
 
 \\include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \\header {{
   title = "{song_title}"
   subtitle = \\subtitle
@@ -275,15 +268,7 @@ refrainChords = \\chordmode {{
 
 refrainKey = {key}
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \\relative f' {{
   \\time 4/4
@@ -291,7 +276,7 @@ refrainMelody = \\relative f' {{
   \\clef \\whatClef
   \\tempoFour "Medium" 120
 
-  \\sectStart "A1"
+  \\sectNoBar "A1"
   
   \\sect "B"
   
@@ -303,11 +288,6 @@ refrainMelody = \\relative f' {{
 }}
 
 \\include "../Include/paper.ily"
-
-\\markup {{
-  % Leave a gap after the header
-  \\vspace #1
-}}
 
 \\include "../Include/refrain.ily"
 """

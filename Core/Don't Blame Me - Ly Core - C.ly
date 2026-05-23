@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Don't Blame Me"
   subtitle = \subtitle
@@ -40,7 +35,7 @@ refrainChords = \chordmode {
 
   c2:maj7 e2:m7.5- a2:7.5+ a2:7 d2:m7.5- g2:7 c2:maj7 a2:m7
   d2:m7.5- g2:7 e2:m7.5- a2:7 d2:m7 g2:7 c2:6 g4:m7 c4:7
-  
+
   f1:6 e1:7 a1:m7 a1:m7
   d1:7 d1:7 d2:m7 af2:7 g1:7
 
@@ -52,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -69,37 +56,32 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Ballad [Ethel Waters 1933]" 106
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   g2 bf2 | a2. g4 | \tuplet 3/2 { f4 f4 f4 } e4 e4 | d2. c4 |
   \break
   \tuplet 3/2 { f4 f4 f4 } e4 d4 | \tuplet 3/2 { g4 g4 g4 } f4 e4 | a2 b2 | g1 |
-  
+
   \sect "A2"
-  
+
   g2 bf2 | a2. g4 | \tuplet 3/2 { f4 f4 f4 } e4 e4 | d2. c4 |
   \break
   \tuplet 3/2 { f4 f4 f4 } e4 d4 | \tuplet 3/2 { g4 g4 g4 } f4 e4 | a2 a2 | c1 |
-  
+
   \sect "B"
-  
+
   gs4 a4 gs4 a4 | as4 b4 as4 b4 | d2 c4 c4~ | c1 |
   \break
   d2 c4 c4~ | c2 \tuplet 3/2 { d,4 fs4 b4 } | a2 af2 | g1 |
-  
+
   \sect "A3"
 
   g2 bf2 | a2. g4 | \tuplet 3/2 { f4 f4 f4 } e4 e4 | d2. c4 |
   \break
   \tuplet 3/2 { f4 f4 f4 } e4 d4 | \tuplet 3/2 { g4 g4 g4 } f4 e4 | a2 a2 | c1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

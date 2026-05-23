@@ -2,12 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \header {
   title = "Just Squeeze Me"
@@ -39,7 +34,7 @@ refrainChords = \chordmode {
 
   f2:maj7 g2:m7 a2:m7 bf2:maj7 f2:maj7 bf:maj7 a2:m7 d2:7.9-
   g1:m7 c1:7 f1:maj7 f1:maj7
-  
+
   f1:7 f1:7 bf1:6 bf2:6 af2:9
   g1:7 g1:7 g1:m7 c1:7
 
@@ -51,15 +46,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -67,42 +54,37 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Paul Desmond 1975]" 125
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   a4 a4 a8 bf4 c8~ | c4. c8~ c2 | a4 a4 a8 bf4 c8~ | c4. c8~ c4. c8~ |
-  \break
+  %% \break
   c4. bf8~ bf2 | r8 c4. c4 c4 | c4. a8~ a2 | r1 |
-  
+
   \sect "A2"
 
   a4 a4 a8 bf4 c8~ | c4. c8~ c2 | a4 a4 a8 bf4 c8~ | c4. c8~ c4. c8~ |
-  \break
+  %% \break
   c4. bf8~ bf2 | r8 c4. c4 c4 | c4. a8~ a2 | r1 |
-  
-  \sect "B"
-  
+
+  \sectPageBreak "B"
+
   \tuplet 3/2 { a8 bf8 b8 } c8 c8 c8 d8 c4 | \tuplet 3/2 { a8 bf8 b8 } c8 c8 c8 d8 c4 |
-  \break
+  %% \break
   \tuplet 3/2 { bf8 c8 cs8 } d8 ef8 d8 bf8 g8 bf8~ | bf1 |
-  \break
+  %% \break
   \tuplet 3/2 { b8 c8 cs8 } d8 d8 d8 e8 d4 | \tuplet 3/2 { b8 c8 cs8 } d8 d8 d8 e8 d4 |
-  \break
+  %% \break
   f2 d4. fs,8 | g8 e'4 d8~ d2 |
-  
+
   \sect "A3"
 
   a4 a4 a8 bf4 c8~ | c4. c8~ c2 | a4 a4 a8 bf4 c8~ | c4. c8~ c4. c8~ |
-  \break
+  %% \break
   c4. bf8~ bf2 | r8 c4. c4 c4 | c4. a8~ a2 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

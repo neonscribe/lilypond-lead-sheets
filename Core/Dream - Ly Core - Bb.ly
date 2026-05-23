@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -45,15 +40,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -61,38 +48,33 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [The Pied Pipers 1944]" 70
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   bf1~ | bf4 c8 bf8 c4 bf4 | a1~ | a1 |
   \break
   g1~ | g4 a8 g8 a4 g4 | f1~ | f1 |
-  
+
   \sect "B"
-  
+
   ef1~ | ef4 f8 ef8 f4 ef4 | d4 f4 g4 a4~ | a1 |
   \break
   e4 g4 a4 bf4~ | bf2. a4 | g4 a4 bf4 c4~ | c2 d2 |
-  
+
   \sect "A2"
 
   bf1~ | bf4 c8 bf8 c4 bf4 | a1~ | a1 |
   \break
   g1~ | g4 a8 g8 a4 g4 | f1~ | f1 |
-  
+
   \sect "C"
 
   ef1~ | ef4 f8 ef8 f4 ef4 | d4 f4 g4 a4~ | a2 bf2 |
   \break
   c1 | d1 | bf1~ | bf2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

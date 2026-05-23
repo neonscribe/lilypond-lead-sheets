@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "In Love In Vain"
   subtitle = \subtitle
@@ -41,7 +36,7 @@ jazzRealefrainChords = \chordmode {
 
   ef2 c2:m7 f2:m7 bf2:7 ef2 c2:m7 f2:m7 bf2:7
   ef1:maj7 af2:maj7 bf2:7 g1:m7.5- c1:7.9-
-  
+
   af1:6 af1:dim7 ef1/bf bf2:m7 ef2:7
   f1:m7 bf1:7 ef1:6
 
@@ -54,7 +49,7 @@ classicRealIIIRefrainChords = \chordmode {
 
   bf2:6.9 g2:m7 c2:m7 f2:7 d2:m7 g2:m7 c2:m7 f2:7
   bf1:maj7 c2:m7 f2:7 d1:m7 g1:7
-  
+
   c2:m7 c2:m7/bf a2:m7.5- d2:7.9- g2:m g2:m7+ g2:m7 g2:m6
   g1:m7 c1:7 c1:m7 f1:sus7
 
@@ -69,15 +64,7 @@ refrainChords = \transpose bf ef { \classicRealIIIRefrainChords }
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -86,25 +73,24 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Sarah Vaughan 1982]" 144
 
   \partial 2. c4 ef4 c4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   ef4 ef2 f4 | ef4 d4 c4 bf4 | c4 d4 ef4 g4 | f2. f4 |
   g4 g2 af4 | g4 f4 ef4 d4 | bf'1~ | bf4 g4 bf4 g4 |
-  
+
   \sect "B"
-  
+
   af4 af4 af4 bf4 | af4 g4 f4 ef4 | f4 r4 f2~ | f4 g4 c4 g4 |
   f4 r4 f2~ | f4 g4 c4 g4 | f1~ | f4 c4 ef4 c4 |
-  
+
   \sect "A2"
-  
+
   ef4 ef2 f4 | ef4 d4 c4 bf4 | c4 d4 ef4 g4 | f2. f4 |
   g4 g2 af4 | g4 f4 ef4 d4 | bf'1~ | bf4 bf4 af4 g4 |
 
   \sect "C"
-  
+
   f4 ef'4 ef4 ef4 | ef4 ef4 d4 c4 | ef,4 bf'4 bf4 bf4 | bf2 af4 g4 |
   c4 af4 af4 af4 | d4 bf4 af4 f4 | ef1 | r1 |
 
@@ -112,10 +98,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

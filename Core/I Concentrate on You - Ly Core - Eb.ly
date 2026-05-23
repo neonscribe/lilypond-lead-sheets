@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I Concentrate on You"
   subtitle = \subtitle
@@ -53,7 +48,7 @@ refrainChords = \chordmode {
   f1:m7 bf1:7.9-
   ef1:maj7 ef1:7 af1:maj7 df1:9 cf2:/gf gf2:maj7
   gf1:maj7 c1:m7.5- f1:7.9- bf1:maj7 bf1:7
-  
+
   ef1:6 g1:m7 a1:m7.5-
   \chordInsideParens{ af1:maj7 }
   f2:m7 bf2:7
@@ -65,15 +60,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f {
   \time 2/2
@@ -87,13 +74,13 @@ refrainMelody = \relative f {
   r4 bf4 c4 ef4 | d2. c4 | d4. d8 d2~ | d2. r4 |
   \break
   r4 ef4 \tuplet 3/2 { gf4 af4 bf4 } |
-  af2. gf4 | af1~ | af2. r4 | 
+  af2. gf4 | af1~ | af2. r4 |
   \break
   r4 af4 \tuplet 3/2 { af4 bf4 cf4 } | bf4 a4 af2 |
   r4 af4 gf4 f4 | gf1 |
   \break
   r4 f4 af4 g4 | gf2 f2 | ef1~ | ef2 r2 |
-  
+
   \sect "A2"
 
   r4 bf4 c4 ef4 | d2. c4 | d4. d8 d2~ | d2. r4 |
@@ -105,12 +92,8 @@ refrainMelody = \relative f {
   r4 cf4 bf4 a4 | bf1 | r4 f4 af4 g4 |
   \break
   gf2 f2 | ef1~ | ef4 r4 ef4 ef4 |
-  
-  \bar "||"
 
-  \xPageBreak
-
-  \xTextMark \markup{ \bold \box "B" }
+  \sectPageBreak "B"
 
   c'2. c4 | cf2. cf4 | cf2 bf2~ | bf2 bf,4. bf8 |
   \break
@@ -138,10 +121,5 @@ refrainMelody = \relative f {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

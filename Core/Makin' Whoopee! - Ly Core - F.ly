@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "Walter Donaldson"
   copyright = \markup \small { \now " " "© 1928 Donaldson, Douglas & Gumble, Inc." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 An -- oth -- er bride, __ an -- oth -- er June, __ an -- oth -- er sun -- ny hon -- ey -- moon. __
@@ -33,7 +30,7 @@ But don't for -- get, folks, __ that's what you get, folks, __ for mak -- in' wh
 }
 
 refrainChords = \chordmode {
-  s2
+  s4.
 
   f2:maj7 fs2:dim7 g2:m7 c2:7 c2:m7 f2:7 bf2:maj7 ef2:7
   f2:maj7 d2:m7 df2:7 c2:7 f2:6 d2:m7 g2:m7 c2:7
@@ -52,57 +49,44 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Eddie Cantor 1928]" 110
-  
-  \partial 2 \invisEighth c8 d8 c8 |
+
+  \partial 4. c8 d8 c8 |
   \bar "||"
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   a'2~ a8 c,8 d8 c8 | bf'2~ bf8 c,8 d8 c8 | c'2~ c8 f,8 g8 f8 | c'2~ c8 bf8 c8 bf8 |
   \break
   a4 a4~ a8 c,8 d8 c8 | af'4 af4~ af8 fs8 g8 gs8 | a4 f2.~ | f2 r8 c8 d8 c8 |
-  
+
   \sect "A2"
 
   a'2~ a8 c,8 d8 c8 | bf'2~ bf8 c,8 d8 c8 | c'4 c4~ c8 f,8 g8 f8 | c'2~ c8 bf8 c8 bf8 |
   \break
   a4 a4~ a8 c,8 d8 c8 | af'4 af4~ af8 fs8 g8( gs8) | a4 f2.~ | f2 r2 |
-  
+
   \sect "B"
-  
+
   c'8 ef4 c8 ef4 c4 | bf4 bf2. | bf8 df4 bf8 df4 bf4 | a2. r4 |
   \break
   c8 ef4 c8 ef4 c4 | bf4 bf2. | bf8 df4 bf8 df4 bf4 | a2~ a8 c,8 d8 c8 |
-  
+
   \sect "A3"
 
   a'4 a4~ a8 c,8 d8 c8 | bf'2~ bf8 c,8 d8 c8 | c'4 c4~ c8 f,8 g8 f8 | c'2~ c8 bf8 c8 bf8 |
   \break
   a4 a4~ a8 c,8 d8 c8 | af'4 af4~ af8 fs8 g8 gs8 | a4 f2.~ | f2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

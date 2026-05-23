@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Moonglow"
   subtitle = \subtitle
@@ -77,15 +72,7 @@ refrainChords = \refrainHLChords
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -93,8 +80,8 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Ballad [Benny Goodman 1936]" 108
 
-  \sectStart "A1, A2"
-  
+  \sectNoBarNoBreak "A1, A2"
+
   \bar ".|:"
   \repeat volta 2 {
   r4 r8 e8 g8 e8 g4 | b4 b2. | r4 r8 e,8 g8 e8 g4 | b1 |
@@ -103,20 +90,18 @@ refrainMelody = \relative f' {
   }
 
   \sectNoBar "B"
-  
+
   d'1~ | d4 d8 d8 cs8 cs8 c8 c8 | b1~ | b1 |
   \break
   b8 b8 b8 b8~ b2~ | b2 cs,8 e8 g8 b8 | b2. bf4 | a1 |
-  
+
   \sect "A3"
 
   r4 r8 e8 g8 e8 g4 | b4 b2. | r4 r8 e,8 g8 e8 g4 | b1 |
   \break
   r4 r8 e,8 g8 e8 g4 | b4 b2. | r8 g4. g4 g4 | g4 g8 g8~ g2 |
-  
-  \break
 
-  \xTextMark \markup{ \bold \box "Solos" }
+  \sectPageBreak "Solos"
 
   \bar ".|:-|."
   \repeat volta 2 {
@@ -135,10 +120,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

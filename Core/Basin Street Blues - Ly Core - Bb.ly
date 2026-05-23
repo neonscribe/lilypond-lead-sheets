@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Basin Street Blues"
   subtitle = \subtitle
@@ -51,7 +46,7 @@ verseChords = \chordmode {
   bf4 c4:m7 cs8:dim7 bf4./d bf4 c4:m7 cs8:dim7 bf4./d
   bf4/d df4:m6 c8:m7 f4.:9 bf4/d df4:m6 c8:m7 f4.:9
   bf2 bf2:7/af ef2:6/g ef2:m6/gf bf4/f r2. r2. f4:7
-  
+
   bf4 c4:m7 cs8:dim7 bf4./d bf4 c4:m7 cs8:dim7 bf4./d
   bf4/d df4:m6 c8:m7 f4.:9 bf4/d df4:m6 c8:m7 f4.:9
   bf2 bf2:7/af ef2:6/g ef2:m6/gf bf4/f r2. r1
@@ -66,10 +61,10 @@ verseMelody = \relative f' {
   \tempoFour "Medium Swing [Louis Armstrong 1929]" 122
 
   \xTextMark \markup{ \bold \box "Verse" }
-  
+
   \partial 4 f8 f8 |
   \bar "||"
-  
+
   d8 d8 ef4 e8 f4. | d8 d8 ef4 e8 f4. |
   \break
   bf8 bf8 af8 g8 f8 g4. | bf8 bf8 af8 g8 f8 g4. |
@@ -85,10 +80,9 @@ verseMelody = \relative f' {
   f8 bf4 f8 bf4 f8 f8 | bf4 bf8 bf8~ bf2 |
   \break
   bf4 af8 g8 f8 g8 \tuplet 3/2 { d8( ef8) e8 } | f8( ef8) d8 bf8~ bf2 |
-  
+
 
   \bar "||"
-  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -115,15 +109,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -131,7 +117,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
 
   \set Score.currentBarNumber = #1
-  
+
   \xTextMark \markup{ \bold \box "Refrain" }
 
   d8 d4 d8~ d2 | d8 d4 d8~ d4 r8 d8 |
@@ -145,7 +131,7 @@ refrainMelody = \relative f' {
   d8 a'4 g8~ g2 |
   \break
   ef 8 ef4 d8~ d4 d4 |
-  d8 a'4 g8~ g2 \textToCodaLastTime | 
+  d8 a'4 g8~ g2 \textToCodaLastTime |
   \break
   r4 d4 f8 d8 c8 bf8~ | bf1 | r1 |
   \bar "||-|."
@@ -159,11 +145,8 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/verse.ily"
+
+\pageBreak
 
 \include "../Include/refrain.ily"

@@ -2,12 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \header {
   title = "You Make Me Feel So Young"
@@ -53,17 +48,17 @@ _ a toy __ bal -- loon.
 refrainChords = \chordmode {
   bf2:maj7 b2:dim7 c2:m7 f2:7 bf2:maj7 b2:dim7 f2:m7 f2:7
   bf2:maj7 bf2:7.5+ ef2:maj7 c2:m7
-  
+
   d2:m7 g4:m7 c4:7 f1:7
 
   d2:m7 g4:m7 c4:7 f1:7
-  
-  f1:m7 bf1:7 f1:m7 bf1:7 
+
+  f1:m7 bf1:7 f1:m7 bf1:7
   fs1:dim7 g1:m7 c1:m7 f1:7
-  
+
   bf2:maj7 b2:dim7 c2:m7 f2:7 bf2:maj7 b2:dim7 f2:m7 f2:7
   bf2:maj7 bf2:7.5+ ef2:maj7 ef2:m d2:m7 g2:7 c2:m7 f2:7
-  d2:m7 g2:7 c2:m7 f2:7 d2:7.5+ af2:9.11+ g1:7.9- 
+  d2:m7 g2:7 c2:m7 f2:7 d2:7.5+ af2:9.11+ g1:7.9-
   c1:m7 f2:sus9 f2:7 bf2:6
   \chordOpenParen{ g2:m7 }
   c2:m7
@@ -72,15 +67,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -89,7 +76,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Frank Sinatra 1956]" 125
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r8 d8 cs8 d8 ef4 d8 ef8~ | ef1 | r8 f8 e8 f8 g4 f4 |
@@ -101,15 +88,16 @@ refrainMelody = \relative f' {
   } \volta 2 {
   c'4\repeatTie f,8 f8~ f4 bf8 a8~ | a2. r4 |
   } } }
-  \sect "B"
-  
+
+  \sectPageBreak "B"
+
   bf2. g4 | af2 r4 c4 | bf4 bf8 bf8 bf8 g8 bf8 af8~ | af1 |
   \break
   \tuplet 3/2 { c4 c4 c4 } c4 a4 | bf8 bf4.~ bf4 r8 ef8~ |
   ef8 ef8 d8 c8~ c8 bf4 bf8 | a4 g8 f8~ f4 r4 |
-  
+
   \sect "A3"
-  
+
   r8 d8 cs8 d8 ef4 d8 ef8~ | ef1 |
   r8 f8 e8 f8 \tuplet 3/2 { g4 g4 f4 } | \tuplet 3/2 { af4 af4 f4 } a2 |
   \break
@@ -125,10 +113,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

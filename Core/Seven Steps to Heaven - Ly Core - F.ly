@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -17,54 +12,48 @@ subtitle =
   copyright = \markup \small { \now " " "© 1963 Jazz Horn Music Corporation" }
 }
 
+leadingEighth = ##t
+
 introChords = \chordmode {
-  s4
-  
+  s8
+
   \chordInsideParens{ f1:13 } \chordInsideParens{ ef1:13 }
 
   f1:13 ef1:13
 }
 
 refrainChords = \chordmode {
-  
+
   f2:maj7 bf2:maj7 e2:m7 a2:7 d2:m7+ af4.:7 g8:7 r1 r1 r1 ef2:6 e4.:6 f8:6 r1
-  
+
   c1:maj7 d2:m7 g2:7 c1:maj7 f2:m7 bf2:7 ef1:maj7 af2:m7 df2:7 gf1:maj7 \chordInsideParens{ c1:7 }
-  
+
   f2:maj7 bf2:maj7 e2:m7 a2:7 d2:m7+ af4.:7 g8:7 r1 r1 r1 ef2:6 e4.:6 f8:6 r1
-  
+
   f1:13 ef1:13
-  
+
   f4:13 r2. r1
-  
+
   f1:maj7 e2:m7 a2:7 d1:m7 g1:7
   g1:m7 c1:7 ef2:6 e2:6 f1:6
-  
+
   c1:maj7 d2:m7 g2:7 c1:maj7 f2:m7 bf2:7
   ef1:maj7 af2:m7 df2:7 df1:maj7 g2:m7 c2:7
 
   f1:maj7 e2:m7 a2:7 d1:m7 g1:7
   g1:m7 c1:7 ef2:6 e2:6 f1:6
-  
+
   ef2:6 e4.:6 f8:6 r1
-  
+
   f1:13 ef1:13
-  
+
   f1:13
 }
 
 introKey = f
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 bassIntro = \relative f' {
   \time 4/4
@@ -72,10 +61,10 @@ bassIntro = \relative f' {
   \clef bass
   \tempoFour "Fast Bop [Miles Davis 1963]" 286
 
-  \sectStart "Intro"
-  
-  \partial 4 \invisEighth c8 |
-  
+  \sectNoBarNoBreak "Intro"
+
+  \partial 8 c8 |
+
   \bar ".|:"
   \repeat volta 2 {
   f,4 c'4 r4 r8 bf8 | ef,4 bf'4 r4 r8 c8 |
@@ -85,7 +74,7 @@ bassIntro = \relative f' {
   \key \refrainKey \major
   \repeat volta 4 {
   r4 <d ef g c c'>4 r8 <d ef g c c'>8 r4 |
-  r4 <c df f c' c'>4 r8 <c df f c' c'>8 r4 
+  r4 <c df f c' c'>4 r8 <c df f c' c'>8 r4
   \xTextEndMark "4x"
   |
   }
@@ -99,7 +88,7 @@ refrainMelody = \relative f' {
 
   \segnoSign
   \sectNoBar "A1,A2"
-  
+
   \bar ".|:"
   \repeat volta 2 {
   c'4 r4 f,4 r4 | a4 r4 g4 r4 | f2 f4. f8 | r1 | r1 | r1 | f2 f4. f8 | r1 |
@@ -107,7 +96,7 @@ refrainMelody = \relative f' {
   \bar "||-:|."
 
   \sectNoBar "B"
-  
+
   b,8 c8 d8 e8 r8 f8 g8 a8~ | a4 g8 f8 e8 d4 g8~ | g1 | r2 r8 e8 f8 bf8~ |
   \break
   bf1 | r2 r8 a8 bf8 df8~ | df1 | r1 |
@@ -137,7 +126,7 @@ refrainMelody = \relative f' {
   \xPageBreak
 
   \sectNoBar "Solos"
-  
+
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
@@ -161,7 +150,7 @@ refrainMelody = \relative f' {
   \bar "||-|."
 
   \textCodaBreak
-  
+
   \repeat volta 4 {
   f2 f4. f8 |
   r1
@@ -186,11 +175,10 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
+leadingEighth = ##t
 
 \include "../Include/bass-intro.ily"
+
+leadingEighth = ##f
 
 \include "../Include/refrain.ily"

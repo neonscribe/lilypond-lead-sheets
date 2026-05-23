@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Limehouse Blues"
   subtitle = \subtitle
@@ -29,15 +24,7 @@ refrainChords = \chordmode {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -46,25 +33,25 @@ refrainMelody = \relative f' {
   \tempoFour "Fast Swing [Django Reinhardt 1936]" 200
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   f4 g4 af4 f4~ | f4 g2 af4 | f4 g4 af4 f4~ | f1 |
   \break
   f4 g4 af4 f4~ | f4 g2 af4 | f4 g4 af4 f4~ | f1 |
-  
+
   \sect "B"
-  
+
   ef4 f4 g4 af4~ | af4 bf2 b4 | c4 b4 bf4 af4~ | af1 |
   \break
   f4 g4 af4 a4~ | a4 bf2 c4 | bf4 a4 af4 g4~ | g4 gf2 f4 |
-  
+
   \sect "A2"
-  
+
   f4 g4 af4 f4~ | f4 g2 af4 | f4 g4 af4 f4~ | f1 |
   \break
   f4 g4 af4 f4~ | f4 g2 af4 | f4 g4 af4 f4~ | f1 |
-  
+
   \sect "C"
-  
+
   ef'4 df4 ef4 f4~ | f4 ef2 c4 | df4 c4 df4 bf4~ | bf1 |
   \break
   df4 c4 df4 ef4~ | ef4 c2 bf4 | af2 af4 af4 | af2. r4 |
@@ -73,10 +60,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

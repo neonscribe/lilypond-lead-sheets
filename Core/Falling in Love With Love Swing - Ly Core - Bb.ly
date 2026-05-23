@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -35,7 +30,7 @@ refrainChords = \chordmode {
   bf1:maj7 d2:m7 g2:7
   c1:m7 f1:7 c1:m7 f1:7
   bf1:maj7 c2:m7 f2:7
-  
+
 
   bf1:maj7 bf1:maj7 a1:m7.5- d1:7.9+
   g1:m7 c1:7 c1:m7 f1:7
@@ -48,23 +43,15 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Clifford Brown 1953]" 172
-  
-  \sectStart "A1,A2"
+
+  \sectNoBarNoBreak "A1,A2"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -85,19 +72,14 @@ refrainMelody = \relative f' {
   \sectNoBar "C"
 
   \tuplet 3/2 { c4 d4 d4 } d4. d8 |
-  d'4. d8 \tuplet 3/2 { d4 c4 bf4 } | d,2 d2~ | d2 d'2 | 
+  d'4. d8 \tuplet 3/2 { d4 c4 bf4 } | d,2 d2~ | d2 d'2 |
   \break
   c2 d2 | ef2 f2 | f1~ | f2 r2 |
   } } }
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

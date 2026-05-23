@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 16) #}
 )
@@ -30,7 +25,7 @@ Now the time is due, to call for you, In the mod -- ern a -- tom -- ic way.
 
 verseChords = \chordmode {
   f4:7.5-
-  
+
   bf2 af2 gf2 f4 f4:7.5- bf2 g2:m c2:m7 f2:9
   bf2 af2 gf2 f4 f4:7.5- bf2:9 f2:m7
   f2:m7 bf2:9 ef1 ef2:m7 ef2:m6 bf2 d2:7
@@ -44,20 +39,19 @@ verseMelody = \relative f' {
   \time 2/2
   \key \verseKey \major
   \clef \whatClef
-  
+
   \xTextMark \markup{ "Verse" }
-  
+
   \partial 4 f4 |
   \bar "||"
-  
+
   bf4 f8 g8 af4 ef8 f8 | gf8 df8 ef4 f4 f8 d8~ | d1~ | d2. f8 g8 |
   bf4 f8 g8 af4 ef8 f8 | gf8 df8 ef4 f4 f8 g8~ | g1~ | g2 r4 bf4 |
   g4 bf4 c4 bf4 | r8 gf8 bf8 c8~ c2 | f,4 bf8 c4. d8 bf8~ |
   bf2. bf8 c8 | d4 bf4 bf4. bf8 | bf4 g8 g4. g8 a8 |
   \tuplet 3/2 { c4 c4 c4 } c8 c4 c8~ | \partial 2. c2. |
- 
+
   \bar "||"
-  \pageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -91,7 +85,7 @@ refrainMillionDollarFakeChords = \chordmode {
 
   f2:m7 g2:dim f2:m7 bf2:7 ef2 bf2:7.5+ ef1
   g2:m7 c2:7 f2 c2:dim g2:m7 c2:7 f1:7
-  
+
   ef2 c2:dim bf2 g:dim c2:m7 f2:7 f2:m6 g2:7
   c2:m f2:7 bf2 g2:7 c2:7 c4:m7 f4:7 bf1
 
@@ -124,7 +118,7 @@ refrainMuseChords = \chordmode {
 
   b2:m7.5- bf2:7 a2:m7 d2:7.9+ g2:m9 c2:7.9-
   a2:m7 d2:7 g2:m9 c2:9 a2:m7 d2:7.9+ g2:7 c2:7.9- f1:6
-  
+
   c2:m7 b2:m7.5- c2:m7 b2:7.11+ bf1:maj7 bf1:maj7
   d2:m7 g2:9 e2:m7.5- a2:7 d2:m7 g2:13 g2:m7 c2:7
 
@@ -136,58 +130,44 @@ refrainChords = \transpose f bf \refrainMuseChords
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium Bounce Swing [Nat King Cole 1951]" 135
-  
+
   \xTextMark \markup{ "Refrain" }
 
   \partial 4 f8 fs8 |
-  \bar "||"
-  
-  \xTextMark \markup{ \bold \box "A1" }
-  
+
+  \sectNoBreak "A1"
+
   g8 d'4 c4. a8 g8 | f8 c'4 bf2 g8 |
   ef8 f8 g8 bf8 a4 f8 d8~ | d2. g8 d8 | ef4 f8 g4. a8 f8 |
   bf8 c4 d4. r4 | r4 cs8 d8 bf8 c4 d8~ | d2. f,8 fs8 |
 
-  \bar "||-||"
-  \xTextMark \markup{ \bold \box "A2" }
+  \sectPageBreak "A2"
 
   g8 d'4 c4. a8 g8 | f4 c'8 bf2 g8 |
   ef8 f8 g8 bf8 a4 f8 d8~ | d2. g8 d8 | ef4 f8 g4. a8 f8 |
   bf8 c4 d4. r4 | r4 cs8 d8 bf8 c4 bf8~ | bf2. bf8 g8 |
 
-  \bar "||-||"
+  \sect "B"
 
-  \xTextMark \markup{ \bold \box "B" }
-  
   f4 r8 g8 r4 r8 af8 | r4 r8 bf8 r4 r8 c8~ |
   c8 c8 bf8 c4. bf8 g8~ | g1 | d'8 d8 c8 d4. c8 a8~ | a2. a8 bf8 |
   c8 bf8 c8 a4. g8 c8~ | c2. f,8 fs8 |
 
-  \bar "||-||"
-  \break
-  \xTextMark \markup{ \bold \box "A3" }
+  \sect "A3"
 
   g8 d'4 c4. a8 g8 | f4 c'8 bf2 g8 |
   ef8 f8 g8 bf8 a4 f8 d8~ | d2. g8 d8 | ef4 f8 g4. a8 f8 |
   bf4 c8 d4. r4
   \textToCodaLastTime |
   r4 cs8 d8 bf8 c4 bf8~ | bf2 r2 |
-  
+
   \bar "|."
 }
 
@@ -211,22 +191,17 @@ codaMelody = \relative f' {
   \time 2/2
   \key \codaKey \major
   \clef \whatClef
-  
+
   \textCoda
-  
+
   | r4 cs'8 d8 bf8 c4 d8~ | d2. r4 |
   | r4 cs8 d8 bf8 c4 d8~ | d2. r4 |
   r4 d2 g,4 | d'2 d2 | c8( bf4.) <ef bf>4 r4 | <e bf>4 r8 <f bf,>4. bf,,4\fermata |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/verse.ily"
 

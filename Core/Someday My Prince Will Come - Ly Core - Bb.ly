@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -68,15 +63,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -85,25 +72,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up Jazz Waltz [Dave Brubeck 1957]" 190
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   f2. | bf2 fs4 | a2 g4 | g2. |
   \break
   g2. | ef'2 b4 | d2 c4 | c4 d4 ef4 |
-  
+
   \sect "B"
-  
+
   f4 f4 f4 | a4 a4 a4 | f2.~ | f4 d4 ef4 |
   \break
   f4 f4 f4 | a4 a4 a4 | f2.~ | f4 r4 r4 |
-  
+
   \sect "A2"
-  
+
   f,2. | bf2 fs4 | a2 g4 | g2. |
   \break
   g2. | ef'2 b4 | d2 c4 | c4 d4 ef4 |
-  
+
   \sect "C"
-  
+
   f2 f4 | c'2 bf4 | b,4. c8 b8 c8 | a'2 g4 |
   \break
   f4 f4 f4 | f2 f4 | f2.~ | f2 r4 |
@@ -112,10 +99,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

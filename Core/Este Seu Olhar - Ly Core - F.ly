@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Este Seu Olhar"
   subtitle = \subtitle
@@ -43,10 +38,10 @@ So -- nhou de -- mais.
 refrainChords = \chordmode {
   f1:maj7 fs1:dim7 g1:m7 gs1:dim7
   a1:m7 a1:7.13- bf1:maj7 bf1:m6
-  
+
   f1:maj7/a af1:dim7 g1:m7 c1:7/bf
   f1:maj7/a d1:9 g1:m7 c1:7.13-
-  
+
   a1:m7 af1:dim7 c1:m7/g fs1:dim7
   g2:13 g2:7.13- g2:m7 c2:7.9- f1:maj7
 
@@ -57,15 +52,7 @@ bossaRhythm = ##t
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -75,12 +62,12 @@ refrainMelody = \relative f' {
 
   \bar ".|:"
   \repeat volta 2 {
-    
+
     a4 bf8 c8~ c8 d4 c8~ | c1 | bf4 c8 d8~ d8 e4 d8~ | d1 |
     \break
     c4 d8 e8~ e8 f4 e8~ | e8 f4 g8~ g8 a4 g8~ | g2 \tuplet 3/2 { f4 g4 a4 } | g1 |
     \break
-    
+
     }
   \alternative { {
     g2~ g8 f4 e8 | f2~ f8 e4 d8 | f2~ f8 e4 d8 | e1 |
@@ -97,11 +84,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

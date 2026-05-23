@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -38,7 +33,7 @@ refrainChords = \chordmode {
 
   f1:maj7 a2:m7 d2:7 g1:m7 c1:7
   g1:7 c1:7 f1:6 b2:m7.5- e2:7
-  
+
   a2:maj7 fs2:m7 b2:m7 e2:7 a2:maj7 fs2:m7 b2:m7 e2:7
   a2:maj7 fs2:m7 b2:m7 e2:7 a2:7 d2:7 g2:m7 c2:7
 
@@ -50,15 +45,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -66,38 +53,33 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Big Joe Turner 1956]" 159
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   c'1~ | c4 d4 d8 c8 d4 | d2 c2~ | c2 bf8 a8 g8 d8~ |
   \break
   d1~ | d2 bf'8 a8 g8 d8~ | d1~ | d4 a'4 bf4 b4 |
-  
+
   \sect "A2"
 
   c1~ | c4 d4 d8 c8 d4 | d2 c2~ | c2 bf8 a8 g8 d8~ |
   \break
   d1 | e1 | f1~ | f2. e'4 |
-  
+
   \sect "B"
-  
+
   e2. e,8 f8 | fs8 fs4 g8 gs8 gs4 g8 | fs8 fs4 g8 gs8 g8 gs8 fs8~ | fs2. e'4 |
   \break
   e2. e,8 f8 | fs8 fs4 g8 gs8 gs4 e8 | a8 a4 gs8 a8 gs8 a8 c8~ | c2 c2 |
-  
+
   \sect "A3"
 
   c1~ | c4 d4 d8 c8 d4 | d2 c2~ | c2 b8 a8 g8 d8~ |
   \break
   d1 | e1 | f1~ | f2 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

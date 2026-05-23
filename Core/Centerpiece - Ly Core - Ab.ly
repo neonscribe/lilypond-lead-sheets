@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Centerpiece"
   subtitle = \subtitle
@@ -14,6 +9,8 @@ subtitle =
   composer = "Harry Edison"
   copyright = \markup \small { \now " " "© 1960 Marissa Music" }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 The more I'm with you pret -- ty ba -- by
@@ -32,16 +29,16 @@ But no -- thin's a -- ny good with -- out you
 ba -- by you're my cen -- ter -- piece}
 
 refrainChords = \chordmode {
-  s4
-  
+  s8
+
   af1:7 df1:7 af1:7 ef2:m7 af2:7.9-
   df1:7 d1:dim7 af1:7 c2:m7.5- f2:7.9-
   bf1:m7 ef1:7 af2:7 f2:7 bf2:m7 ef2:7
-  
+
   af1:7 df1:7 af1:7 ef2:m7 af2:7.9-
   df1:7 d1:dim7 af1:7 c2:m7.5- f2:7.9-
   bf1:m7 ef1:7 af2:7 f2:7 bf2:m7 ef2:7
-  
+
   ef4.:7 ef8:7 r2 r1 af1:7
 }
 
@@ -52,15 +49,7 @@ fourBarMelody = {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -70,10 +59,10 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "A" }
 
-  \partial 4 \invisEighth f8 |
-  
+  \partial 8 f8 |
+
   \bar ".|:"
-  
+
   \repeat volta 2 {
 
   \fourBarMelody
@@ -100,10 +89,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -8,13 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "Wait Till You See Her (Him)"
   subtitle = \subtitle
@@ -24,7 +17,7 @@ subtitle =
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   #{
 \lyricmode {
@@ -70,28 +63,20 @@ refrainChords = \chordmode {
 
   f2.:m7 bf2.:7 ef2.:maj7 c2.:m7
   f2.:m7 d2.:7 g2.:m7 g2.:m7
-  
+
   c2.:m7 f2.:7 bf2.:maj7 g2.:m7
   c2.:m7 g2.:7.5+ g2.:m7 c2.:9
-  
+
   f2.:m7 bf2.:7 ef2.:6 g2.:m7/d
   c2.:m7 c2.:m7/bf a2.:m7.5- af2.:dim7
-  
+
   ef2.:/g gf2.:dim7 bf2.:7/f e2.:dim7
   f2.:m7 bf2.:7 ef2.:6 ef2.:6
 }
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f'' {
   \time 3/4
@@ -99,43 +84,38 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempoFour "Med. Jazz Waltz [Johnny Hartman 1980]" 160
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   c4 c4. af8 | g2 f4 | ef4 ef4. f8 | c2. |
-  \break
+  %% \break
   c4 ef4. af8 | c2 c4 | bf2.~ | bf2. |
 
   \sect "A2"
 
   c4 c4. af8 | g2 f4 | ef4 ef4. f8 | c2. |
-  \break
+  %% \break
   c4 ef4. af8 | c2 c4 | bf2.~ | bf2. |
 
   \sect "B"
-  
+
   ef4 ef4. c8 | bf2 a4 | g4 g4. a8 | d,2. |
-  \break
+  %% \break
   ef4 g4. bf8 | ef2 ef4 | d2.~ | d2. |
 
   \sect "C"
 
   c4 c4. af8 | g2 f4 | ef4 ef4. f8 | g4 g4. af8 |
-  \break
+  %% \break
   bf4 bf4. c8 | d4 d4. ef8 | f2. | d2. |
-  
-  \break
+
+  %% \break
   ef2. | c2. | d2. | bf2. |
-  \break
+  %% \break
   c4 c4. af8 | g2 f4 | ef2.~ | ef2 r4 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

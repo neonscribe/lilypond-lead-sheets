@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -31,13 +26,13 @@ Fun -- ny that rain -- y day is here.
 refrainChords = \chordmode {
   g1:maj7 bf1:7 ef1:maj7 af1:maj7
   a1:m7 d1:7 g1:maj7 d2:m7 g2:7
-  
+
   c1:m7 f1:7 bf1:maj7 ef1:maj7
   a1:m7 d1:7 g1:maj7 a2:m7 d2:7
 
   g1:maj7 bf1:7 ef1:maj7 af1:maj7
   a1:m7 d1:7 g1:maj7 d2:m7 g2:7
-  
+
   c1:maj7 a2:m7 d2:7 b2:m7 e2:m7 a1:7
   a1:m7 d1:7 g1:6
   \chordOpenParen{ a2:m7 }
@@ -46,15 +41,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -63,25 +50,25 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad or Medium [Paul Desmond 1965]" 128
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   d4 d2 d4 | d4 f4 bf4 d4 | d2 c4. b8 | c1 |
   \break
   d,4 d2 d4 | d4 fs4 a4 c4 | b1~ | b2. r4 |
-  
+
   \sect "B"
-  
+
   ef2 ef2 | ef4 g,4 af4 a4 | d2 f,4 fs4 | g2 f4 g4 |
   \break
   c4 c8 c8 c4 c8 c8 | c4 e,4 es4 fs4 | b1~ | b2. r4 |
-  
+
   \sect "A2"
-  
+
   d,4 d2 d4 | d4 f4 bf4 d4 | d2 c4. b8 | c1 |
   \break
   d,4 d2 d4 | d4 fs4 a4 c4 | b1~ | b2. r4 |
-  
+
   \sect "C"
-  
+
   e4 e2 e4 | e4 a,4 b4 c4 | d2 fs,4 g4 | a1 |
   \break
   d,4 d2 d4 | d4 fs4 a4 b4 | g1 | r1 |
@@ -90,10 +77,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -22,6 +17,8 @@ subtitle =
   composer = "Carl Sigman"
   copyright = \markup \small { \now " " "© 1949 Massey Music" }
 }
+
+leadingEighth = ##t
 
 refrainObjectGenderMaleLyrics = \lyricmode {
 I say I'll move the moun -- tains,
@@ -74,13 +71,13 @@ cra -- zy in love am I. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "male"))
   refrainObjectGenderFemaleLyrics
   refrainObjectGenderMaleLyrics)
 
 refrainChords = \chordmode {
-  s4
+  s8
 
   f2:maj7 g2:m7 a2:m7 g2:m7 f2:maj9 bf2:9.11+ a2:m7 d2:9
   g2:m7 c4:9.11+ bf4:dim7 a4:m7 \chordInsideParens{ ef4:7 } d2:7 g2:m7 d2:7.9- g2:m7 c2:7.9-
@@ -100,41 +97,30 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Ballad [Billie Holiday 1949]" 74
-  
-  \partial 4 \invisEighth c8 |
+
+  \partial 8 c8 |
 
   \sectNoBreak "A1"
-  
+
   c'8 a8 bf8 g8 a8 f4. | g8 e8 f8 d8 e8 c4. | g'8 e8 f8 d8 \tuplet 3/2 { e4 e4 c4 } | e1 |
   \break
   d8 bf'4 a8 fs4 g4 | c4 cs4 d8 a4. | \tuplet 3/2 { d4 c4 bf4 } a4 bf8 g8~ | g2. r8 c,8 |
-  
+
   \sect "A2"
-  
+
   c'8 a8 bf8 g8 a8 f4. | g8 e8 f8 d8 e8 c4. | g'8 e8 f8 d8 \tuplet 3/2 { e4 e4 c4 } | e1 |
   \break
   d8 bf'4 a8 fs4 g4 | c4 cs4 d8 a4. | \tuplet 3/2 { d4 c4 bf4 } a4 a8 f8~ | f1 |
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectNoBar "B"
-  
+
+  \sectPageBreak "B"
+
   f8 g8 ef2 f4 | g8 af8 f2 a4 | g4 g4 g4 g4 | g2. r8 a8 |
   \break
   g8 d8 d2 b'4 | a8 e8 e2 c'8 c8 | b8 b8 f8 f8 d'8 d8 a8 a8 | c2. r8 c,8 |
@@ -144,15 +130,10 @@ refrainMelody = \relative f' {
   c'8 a8 bf8 g8 a8 f4. | g8 e8 f8 d8 e8 c4. | g'8 e8 f8 d8 \tuplet 3/2 { e4 e4 c4 } | e1 |
   \break
   d8 bf'4 a8 fs4 g4 | c4 cs4 d8 a4. | \tuplet 3/2 { d4 c4 bf4 } a4 a8 f8~ | f1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

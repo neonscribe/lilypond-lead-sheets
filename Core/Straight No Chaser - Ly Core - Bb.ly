@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Straight No Chaser"
   subtitle = \subtitle
@@ -17,27 +12,21 @@ subtitle =
   copyright = \markup \small { \now " " "© 1951 Thelonious Music, Inc." }
 }
 
-refrainChords = \chordmode {
-  s4
+leadingEighth = ##t
 
-  bf1:7 ef1:7 bf1:7  bf2.:7 ef4:7 
+refrainChords = \chordmode {
+  s8
+
+  bf1:7 ef1:7 bf1:7  bf2.:7 ef4:7
   ef1:7 ef1:7 bf1:7 bf1:7
   f1:7 f1:7 bf1:7 bf1:7
-  
+
   f1:7 f1:7 bf1:7 bf1:7
 }
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -45,7 +34,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up Swing [Thelonious Monk 1951]" 164
 
-  \partial 4 \invisEighth f8 |
+  \partial 8 f8 |
   \bar "||"
 
   bf8 c8 df8 d8 r8 f,8 bf8 c8 | df8 d8 ef8 df8 r4 r8 f,8 |
@@ -69,11 +58,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

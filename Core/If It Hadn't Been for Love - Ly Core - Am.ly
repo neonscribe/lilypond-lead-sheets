@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -63,7 +58,7 @@ refrainChords = \chordmode {
   a1:m a1:m f1 f1
   a1:m a1:m f1 f1
   f1 e1:7 a1:m
-  
+
   a1:m
 
   a1:m
@@ -72,7 +67,7 @@ refrainChords = \chordmode {
   c1 g1 d1:m a1:m a1:m
   c1 g1 a1:m c1
   c1 g1 d1:m a1:m a1:m
-  
+
   a1:m a1:m a1:m a1:m
   a1:m a1:m f1 f1
   a1:m a1:m f1 f1
@@ -86,15 +81,7 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -102,24 +89,22 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [The SteelDrivers 2007]" 160
 
-  \sectStart "Intro"
-  
+  \sectNoBarNoBreak "Intro"
+
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  
+
   \sect "Verse"
-  
+
   \bar ".|:-||"
 
   \repeat volta 4 {
-  a8_"4x" a8 a8 a8 c8 
+  a8_"4x" a8 a8 a8 c8
   <<
-    \new Voice
-    { \voiceTwo
-      \magnifyMusic 0.63 {
+    { \xVoiceTwoSmall {
 	c8 d8 }
     }
     { \voiceOne
-      d4 
+      d4
     }
   >>
   \oneVoice
@@ -139,7 +124,7 @@ refrainMelody = \relative f' {
 
   r1 |
   \sectNoBreak "Chorus"
-  
+
   g'2. e4 | d8( c4.) r4 d4 | d2. e4 | d8( c4.) r4 g'4 |
   \break
   g2. e4 | d8( c4.) r4 e4 | d4( c2) a4 | a2 r2 | r1 |
@@ -149,12 +134,12 @@ refrainMelody = \relative f' {
   g'2. e4 | d8( c4.~ c4) e4 | d4( c2) a4 | a2 r2 | r1 |
 
   \sect "Solo"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \bar "||-:|."
@@ -168,10 +153,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "Herman Hupfeld"
   copyright = \markup \small { \now " " "© 1931 Warner Bros. Inc." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 You must re -- mem -- ber this,
@@ -40,15 +37,15 @@ No mat -- ter what the fu -- ture brings, as time goes _ _ by.
 }
 
 refrainChords = \chordmode {
-  s4
+  s8
 
   f2:m7 bf2:7 bf2:m6 bf2:7 ef2:6 f2:m7
   fs2:dim7 g2:m7 f1:7 f2:m7 bf2:7
-  
+
   ef2:maj7 af2:maj7 g2:m7 c2:7.9-
-  
+
   ef1:6 bf2:m7 ef2:7
-  
+
   af1:maj7 c1:7 f1:m7 fs1:dim7
   c2:m7 af2:7 f1:7 bf2:7 bf2:dim7 f2:m7 bf4:7 c4:7.9-
 
@@ -60,15 +57,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -76,10 +65,10 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Dooley Wilson 1942]" 72
 
-  \partial 4 \invisEighth g8 |
+  \partial 8 g8 |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   af8 g8 f8 ef8 f4. g8 | bf8 af8 g8 f8 af4. bf8 | ef8 d8 c8 bf8 c2 |
@@ -92,13 +81,13 @@ refrainMelody = \relative f' {
   ef1~ | ef2 r2 |
   } } }
   \sect "B"
-  
+
   ef8 f8 ef8 c'8~ c4 c4 | c8 df8 c8 b8 c2 | f,8 g8 f8 c'8~ c4 c4 | c8 d8 c8 b8 c2 |
   \break
   g8 af8 g8 ef'8~ ef4 ef4 | ef8 d8 ef8 d8 f4 d4 | c4 c4 g4 g4 | bf2. r8 g8 |
-  
+
   \sect "A3"
-  
+
   af8 g8 f8 ef8 f8 f4 g8 | bf8 af8 g8 f8 af8 af4 bf8 | ef8 d8 c8 bf8 c2 | r2 r4 d4 |
   \break
   f8 ef8 d8 c8 d4 ef4 | bf4 bf2 g4 | bf2 bf2 | ef2 r2 |
@@ -107,10 +96,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

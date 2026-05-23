@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Indiana (Back Home Again in Indiana)"
   subtitle = \subtitle
@@ -32,16 +27,16 @@ then I long for my In -- di -- an -- a home. __
 
 refrainChords = \chordmode {
   s1
-  
+
   f2 ef2:7 d1:7 g1:7 g1:7
   g1:m7 c1:7 f1:6 f1:7
-  
+
   bf1 bf2 b2:dim7 f1 d1:7
   g1:7 g1:7 g1:m7 c1:7
 
   f2 ef2:7 d1:7 g1:7 g1:7
   a1:7 a1:7 d1:m bf1:m7
-  
+
   f1 a1:7 d2:m d2:m/c bf1:m7
   a2:m7 d2:m7 g2:m7 c2:7 f1:6
   \chordOpenParen{ g2:m7 }
@@ -50,15 +45,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -67,22 +54,21 @@ refrainMelody = \relative f' {
   \tempoFour "Fast Swing [Lester Young 1952]" 185
 
   r8 c4. f4 a4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   c2 r2 | r8 d4. c4 a4 | g4. d8~ d2 | r2 e4 f4 |
   \break
   a2. e4 | a2 g4. f8~ | f1 | r8 f4. e4 ef4 |
 
   \sect "B"
-  
+
   d4 f8 bf8~ bf2~ | bf2 d,2 | c4 f8 a8~ a2~ | a2 a4 bf4 |
   \break
   b4 a4 e2~ | e2 d4. g8~ | g1 | r8 c,4. f4 a4 |
 
   \sect "A2"
-  
+
   c2 r2 | r8 d4. c4 a4 | g4. d8~ d2 | r2 e4 f4 |
   \break
   a2. e4 | a2 g4. f8~ | f1 | r2 f4 g4 |
@@ -97,10 +83,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

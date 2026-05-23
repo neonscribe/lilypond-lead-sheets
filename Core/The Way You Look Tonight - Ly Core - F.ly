@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -79,11 +74,11 @@ refrainChords = \chordmode {
 
   bf2:m7 ef2:7
 
-  af1:maj7 a1:dim7 bf1:m7 ef1:7 
+  af1:maj7 a1:dim7 bf1:m7 ef1:7
   af1:maj7 c2:m7 b2:dim7 bf1:m7 ef1:9
   af1:maj7 a1:dim7 bf1:m7 ef1:13
   af1:maj7 df1:maj7 g1:m7.11 c1:7
-  
+
   f1:maj7 d1:m7 g1:m7 c1:7
   f2:maj7 ef2:13 d1:7 g1:m7 c1:7
   c1:m7.11 f1:7 bf1:maj7 g2:m7 c2:7
@@ -92,22 +87,14 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
 
-  \sectStart "A1,A2"
+  \sectNoBarNoBreak "A1,A2"
 
   \bar ".|:"
 
@@ -117,11 +104,9 @@ refrainMelody = \relative g' {
     a4 bf4 c4 bf4 | a1 | bf4 c4 d4 c4 | bf4 c4 d4 e4 |
     \break
     f1 | f,1 | g4 a4 c4 bf4 | a2 g2 |
-    
+
     <<
-      \new Voice
-      { \voiceTwo
-	\magnifyMusic 1.0 {
+      { \xVoiceTwo {
 	  \override Stem.direction = #UP
 	  d'4\rest c4 d2 | d4\rest a'4 g2 | d4\rest e4 d2 |
 	}
@@ -137,9 +122,7 @@ refrainMelody = \relative g' {
   \alternative {
     {
      <<
-      \new Voice
-      { \voiceTwo
-	\magnifyMusic 1.0 {
+      { \xVoiceTwo {
 	  \override Stem.direction = #UP
 	  d'4\rest a4 g2 |
 	}
@@ -154,9 +137,7 @@ refrainMelody = \relative g' {
       }
     {
      <<
-      \new Voice
-      { \voiceTwo
-	\magnifyMusic 1.0 {
+      { \xVoiceTwo {
 	  \override Stem.direction = #UP
 	  d'4\rest af4 g2 |
 	}
@@ -170,15 +151,16 @@ refrainMelody = \relative g' {
      \oneVoice
      }
   }
-  \bar "||"
-  
-  \xPageBreak
-  \sectNoBarNoBreak "B"
+
+  \sect "B"
 
   c'2 c2 | c2 c2 | c4 ef4 df4 bf4~ | bf1 |
     \break
   bf4 c4 af4 g4~ | g2 af2 | f'1~ | f2. r4 |
-    \break
+  \bar "|o"
+
+  \xPageBreak
+
   ef2 ef2 | ef2 ef2 | ef4 f4 df4 c4~ | c1 |
     \break
   bf4 c2 af4 | g2 af2 | c1~ | c2. r4 |
@@ -190,11 +172,9 @@ refrainMelody = \relative g' {
   a4 bf4 c4 bf4 | a1 | bf4 c4 d4 c4 | bf4 c4 d4 e4 |
     \break
   f1 | f,1 | g4 a4 c4 bf4 | a2 g2 |
-  
+
     <<
-      \new Voice
-      { \voiceTwo
-	\magnifyMusic 1.0 {
+      { \xVoiceTwo {
 	  \override Stem.direction = #UP
 	  d'4\rest c4 d2 | d4\rest a'4 g2 | d4\rest e4 d2 | d4\rest a4 g2 |
 	}
@@ -235,11 +215,6 @@ codaMelody = \relative g' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/intro.ily"
 

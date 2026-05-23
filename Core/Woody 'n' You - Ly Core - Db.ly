@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -33,15 +28,7 @@ refrainChords = \chordmode {
 
 refrainKey = df
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -49,20 +36,20 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast Bop [Miles Davis Quintet 1956]" 260
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   r4 f'4 g4. f8 | ef8 c8 r4 r2 | r4 ef4  f4. ef8 | df8 bf8 r4 r2 |
   \break
   r4 df4 ef4. df8 | cf8 af8 r4 r4 g8 e8 | f8 af8 c8 ef8~ ef4 d8 c8 | df8 bf8 r4 r2 |
-  
+
   \sect "A2"
 
   r4 f'4 g4. f8 | ef8 c8 r4 r2 | r4 ef4  f4. ef8 | df8 bf8 r4 r2 |
   \break
   r4 df4 ef4. df8 | cf8 af8 r4 r4 g8 e8 | f8 af8 c8 ef8~ ef4 d8 c8 | df8 bf8 r4 r2 |
-  
+
   \sect "B"
-  
+
   bf4 af8 gf8 f4 gf8 af8 | bf4 af8 gf8 f4 gf8 af8 | bf8 gf8 ef8 cf8 d8 a'8 r8 d,8 | bf'1 |
   \break
   c4 bf8 af8 g4 af8 bf8 | c4 bf8 af8 g4 af8 bf8 | c8 af8 f8 df8 e8 b'8 r8 e,8 | c'1 |
@@ -72,15 +59,10 @@ refrainMelody = \relative f' {
   r4 f4 g4. f8 | ef8 c8 r4 r2 | r4 ef4  f4. ef8 | df8 bf8 r4 r2 |
   \break
   r4 df4 ef4. df8 | cf8 af8 r4 r4 g8 e8 | f8 af8 c8 ef8~ ef4 d8 c8 | df8 bf8 r4 r2 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

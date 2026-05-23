@@ -10,11 +10,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Bye Bye Blackbird"
   subtitle = \subtitle
@@ -37,13 +32,13 @@ black -- bird, __ bye bye.
 refrainHLChords = \chordmode {
   f1:maj7 f1:maj7 g2:m7 c2:7 f1:6
   f1/a af1:dim7 g2:m7 c2:7 c1:7
-  
+
   g1:m g1:m7+ g1:m7 g1:m6
   g1:m7 c1:7 f1:6 f1:6
-  
+
   f1:7 e1:9 ef1:9 d1:7
   g1:m7 g1:m7 g1:m7.5- c1:7
-  
+
   f1:maj7 f1:maj7 ef1:7 d1:7
   g1:m7 g2:m7 c2:7 f1:6
   \chordOpenParen{ g2:m7 }
@@ -51,15 +46,15 @@ refrainHLChords = \chordmode {
 }
 
 refrainSimpleChords = \chordmode {
-  f1:maj7 g2:m7 c2:7 f1:maj7 g2:m7 c2:7 
+  f1:maj7 g2:m7 c2:7 f1:maj7 g2:m7 c2:7
   f1:maj7 a2:m7.5- d2:7.9- g1:m7 c1:7
 
   g1:m7 d1:7 g1:m7 c1:7
   g1:m7 c1:7 f1:6 f1:6
-  
+
   f1:7 e1:7 ef1:7 d1:7.9-
   g1:m7 g1:m7 df1:7 c1:7
-  
+
   f1:maj7 g2:m7 c2:7 f1:maj7 a2:m7.5- d2:7.9-
   g1:m7 c1:7 f1:maj7
   \chordOpenParen{ g2:m7 }
@@ -69,7 +64,7 @@ refrainSimpleChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "simple" refrainSimpleChords)
@@ -79,15 +74,7 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -96,23 +83,23 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Swing [Miles Davis 1956]" 124
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   a4 a4 a4 a4 | bf4 a4 a2 | a4 g4 g2 | g4 f4 f2 |
   \break
   f1 | g1 | f2 e2~ | e1 |
-  
+
   \sect "A2"
-  
+
   bf'4 bf4 bf4 bf4 | c4 bf4 bf2 | bf4 a4 a2 | a4 g4 g2 |
   \break
   g1 | a1 | g2 f2~ | f1 |
 
   \sect "B"
-  
+
   f4 c'4 c4 c4 | c4 bf4 a4 g4 | g1 | fs1 |
   \break
   d4 bf'4 bf4 bf4 | bf4 a4 g4 f4 | f1 | e1 |
-  
+
   \sect "A3"
 
   a4 a4 a4 a4 | bf4 a4 a2 | a4 g4 g2 | g4 fs4 f2 |
@@ -123,10 +110,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -48,7 +43,7 @@ so I'll be a -- round when she's gone. __
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainFemaleSingerLyrics
   refrainMaleSingerLyrics)
@@ -59,7 +54,7 @@ refrainChords = \chordmode {
 
   c2:maj7 d2:m7 e2:m7 f2:maj7 g2:7 gs2:dim7 f2/a g2:7/b
   c2:maj7 a2:m7 d2:m7 g2:13.9- c4:6 \chordSlash 1 d4:m7 df4:9 c1:maj7
-  
+
   df2:7/af g2:m7 c1:13 df4:7/af g4:m7 c4:sus9 c4:7.9- f1:maj7
   af2:7/ef d2:m7 d2:m9 g2:13 c2:maj7 a2:m7 d2:m7 g2:13.9-
 
@@ -72,15 +67,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -88,18 +75,18 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Mills Brothers 1942]" 86
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   g2 c4 g4 | e2 r8 c8 d8 e8 | e2 r8 d8 e8 f8 | f1 |
   g2 c4 a4 | f4 c4 e2 | c1~ | c4 r4 r2 |
-  
+
   \sect "A2"
-  
+
   g'2 c4 g4 | e2 r8 c8 d8 e8 | e2 r8 d8 e8 f8 | f1 |
   g2 c4 a4 | f4 c4 e2 | c1~ | c4 r4 r4 c4 |
 
   \sect "B"
-  
+
   df2 d2 | a'2. c,4 | df8 df8 d8 d8 f4 e4 | c'2. a4 |
   af2 a2 | e'1 | d4 c8 a8~ a8 a8 c8 a8 | c8 a4 e8~ e4. f8 |
 
@@ -112,10 +99,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

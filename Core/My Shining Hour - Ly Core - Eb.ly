@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -30,7 +25,7 @@ refrainChords = \chordmode {
 
   c1:m7 a1:m7.5- d1:m7.5- g1:7
   c1:m7 f1:7 f1:m7 bf1:7
-  
+
   bf1:m7 ef1:7 af1:maj7 af1:maj7
   af1:m7 df1:7 g2:m7.5+ c2:7.9+ f2:m7 bf2:7
 
@@ -42,15 +37,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -58,14 +45,14 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Slow [Casa Loma Orchestra 1943]" 110
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   g2. af4 | bf2 ef,2 | g2. g4 | g2( bf,2) |
   \break
   g'2. af4 | bf4 ef,4 af2 | bf,1~ | bf1 |
-  
+
   \sect "A2"
-  
+
   ef2. f4 | g2 c,2 | f2 f2 | f2 d2 |
   \break
   ef2. f4 | g4 ef4 a4 f4 | bf1~ | bf1 |
@@ -86,10 +73,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Rosetta"
   subtitle = \subtitle
@@ -36,7 +31,7 @@ refrainChords = \chordmode {
 
   f1:6 e1:7 ef1:7 d1:7
   g1:7 c1:7 f1:6 b2:m7.5- e2:7
-  
+
   a1:m b2:m7.5- e2:7 a1:m d2:m7 g2:7
   c2:maj7 a2:m7 d2:m7 g2:7 g1:m7 c1:7
 
@@ -48,15 +43,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -65,40 +52,34 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Teddy Wilson 1935]" 132
 
   \partial 4 a4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   c4 c2.~ | c2 e4 d4 | a4 a2.~ | a2 e'4 d4 |
   \break
   a4 a2 d,4 | a'4 a2 e4 | d1~ | d2. a'4|
-  
+
   \sect "A2"
-  
+
   c4 c2.~ | c2 e4 d4 | a4 a2.~ | a2 e'4 d4 |
   \break
   a4 a2 d,4 | a'4 a2 d,4 | f1 | r1 |
-  
+
   \sect "B"
-  
+
   a2 a4 a4 | b2 b4 b4 | c1~ | c2 r2 |
   \break
   e2 e4 e4 | d2 g,4 g4 | c1 | r2 r4 a4 |
-  
+
   \sect "A3"
 
   c4 c2.~ | c2 e4 d4 | a4 a2.~ | a2 e'4 d4 |
   \break
   a4 a2 d,4 | a'4 a2 d,4 | f1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

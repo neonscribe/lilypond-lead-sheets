@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -48,16 +43,16 @@ and a -- bove all this bus -- tle you hear: __ ""
 
 refrainChords = \chordmode {
   s4
-  
+
   bf2.:maj7 bf2:7 e4:9 ef2:maj7 ef4:maj7/d c2.:m7
   f2.:7 f2.:7 ef4:m6/bf bf2:maj7 c2:m7 c4:m7/f
 
   bf2.:maj7 bf2:7 e4:9 ef2:maj7 ef4:maj7/d c2.:m7
   f2.:7 f2.:7 bf2.:6 c2:m7 c4:m7/f
-  
+
   bf2.:maj7 f2:m7 bf4:7 ef2:maj7 ef4:maj7/d c2.:m7
   f2.:7 f2.:7 bf2:maj7 b4:dim7 c2:m7 f4:7
-  
+
   bf2.:maj7 f2:m7 bf4:7 ef2:maj7 ef4:maj7/d c2.:m7
   f2.:7 f2.:7 bf2.:6
   \chordOpenParen{ c2:m7 }
@@ -66,15 +61,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -85,23 +72,19 @@ refrainMelody = \relative f' {
   \partial 4 bf8 g8 |
 
   \sectNoBreak "A1"
-  
+
   f4 d4 bf'8 g8 | f4 d4 d'8 c8 | bf4 g4 g4 | g2 c8 bf8 |
   a4 f4 e4 | ef4 f4. ef8 | ef4 d2~ | d4 r4 bf'8 g8 |
-  
+
   \sect "A2"
 
   f4 d4 bf'8 g8 | f4 d4 d'8 c8 | bf4 g4 g4 | g2 c8 bf8 |
   a4 f4 e4 | ef4 f4 c'4 | bf2.~ | bf2. |
-  
-  \xPageBreak
 
-  \sectNoBar "B1"
-  
+  \sectPageBreak "B1"
+
     <<
-      \new Voice
-      { \voiceTwo
-	\magnifyMusic 1.0 {
+      { \xVoiceTwo {
 	  \override Stem.direction = #UP
 	  s8*5 bf'8 | d8 f,8 bf8 d,8 f4 | s8*5 bf8 | ef8 g,8 bf8 ef,8 g4 |
 	}
@@ -116,13 +99,11 @@ refrainMelody = \relative f' {
 
 
   a4 a4 bf4 | c2 bf8 a8 | bf4 f2~ | f2 r4 |
-  
+
   \sect "B2"
 
     <<
-      \new Voice
-      { \voiceTwo
-	\magnifyMusic 1.0 {
+      { \xVoiceTwo {
 	  \override Stem.direction = #UP
 	  s8*5 bf'8 | d8 f,8 bf8 d,8 f4 | s8*5 bf8 | ef8 g,8 bf8 ef,8 g4 |
 	}
@@ -138,16 +119,11 @@ refrainMelody = \relative f' {
   a4 a4 bf4 | c4 bf4 a4 | bf2.~ | bf4 r4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize bf8
-  \endParenthesis \parenthesize g8 |  
-  
+  \endParenthesis \parenthesize g8 |
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

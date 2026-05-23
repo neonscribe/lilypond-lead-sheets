@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -43,15 +38,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -59,14 +46,14 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Swing [Doris Day 1948]" 170
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   r4 bf4 bf4 bf4 | bf4 f2 g4 | bf,1~ | bf4 c4 bf4 g'4 |
   \break
   f1~ | f4 ef4 d4 c'4 | bf1~ | bf1 |
-  
+
   \sect "B"
-  
+
   r4 df4 df4 df4 | df4 af2 bf4 | cf4 bf4 af4 gf4 | df2. ef4 |
   \break
   f4 g4 f4 d'4 | c2. a4 | f1~ | f1|
@@ -76,9 +63,9 @@ refrainMelody = \relative f' {
   r4 bf4 bf4 bf4 | bf4 f2 g4 | bf,1~ | bf4 c4 bf4 g'4 |
   \break
   f1~ | f4 ef4 d4 c'4 | bf1~ | bf1 |
-  
+
   \sect "C"
-  
+
   r4 ef4 ef4 ef4 | ef4 ef,2 f4 | g4 af4 bf4 ef4 df4 cf4 df4 cf4 |
   \break
   r4 bf4 bf4 bf4 | bf4 f2 g4 | ef1~ | ef2 r2 |
@@ -87,10 +74,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -1,6 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-\autoPageBreaksOff
+\autoPageBreaksOn
 #(set-accidental-style 'modern)
 \override Score.VoltaBracket.musical-length = \musicLength 2
 \override Score.Clef.break-visibility = #all-invisible

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -50,11 +45,11 @@ refrainChords = \chordmode {
 
   d2:m d2:m7+ d2:m7 d2:m6 g2:m g2:m7+ g2:m7 g4:m6 a4:7
   d1:m d1:7 g2:m7 gf2:7
-  
+
   f1:maj7
-  
+
   f2:maj7 ef4:m7 af4:7
-  
+
   df2:maj7 bf2:m7 ef2:m7 af2:7 df2:maj7 bf2:7 ef2:7 af2:7
   df2:maj7 bf2:m7 ef2:m7 af2:7 g1:m7 c1:7
 
@@ -64,15 +59,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -83,7 +70,7 @@ refrainMelody = \relative f' {
   r4 f8 g8 a8 c8 d8 f8 |
 
   \xTextMark \markup{ \bold \box "A1, A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   g1~ | g4 f8 g8 f8 e8 d8 c8 | a4 d8 a8~ a2~ | a4 a8 c8 d8 af8 g8 f8 |
@@ -95,13 +82,13 @@ refrainMelody = \relative f' {
   f,2. r4 |
   } }
   \sect "B"
-  
+
   c'4 bf8 c8 ef8 df8 c8 bf8 | f4 ef8 f8 gf8 af8 f8 ef8 |
   df2 \tuplet 3/2 { fs4 g4 bf4 } | \tuplet 3/2 { b4 c4 ef4 } \tuplet 3/2 { e4 f4 af4 } |
   \break
   c,4 bf8 c8 ef8 df8 c8 bf8 | f4 ef8 f8 gf8 af8 f8 ef8 |
   c1 | r4 f8 g8 a8 c8 d8 f8 |
-  
+
   \sect "A3"
 
   g1~ | g4 f8 g8 f8 e8 d8 c8 | a4 d8 a8~ a2~ | a4 a8 c8 d8 af8 g8 f8 |
@@ -112,10 +99,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

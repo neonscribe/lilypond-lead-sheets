@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -22,15 +17,7 @@ refrainLyrics = \lyricmode {
 
 refrainKey = a
 refrainKeyTwo = bf
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainKeyThree = b
 
@@ -46,7 +33,7 @@ refrainChords = \chordmode {
   \transpose \refrainKey \refrainKeyThree {
   a1:m a1:m e1:7 a1:m
   a1:m a1:m a1:m a1:m a1:m a1:m e1:7 a1:m a1:m a1:m a1:m a1:m a1:m a1:m e1:7 a1:m
-  e1:7 a1:m e1:7 a1:m e1:7 a1:m e1:7 a1:m 
+  e1:7 a1:m e1:7 a1:m e1:7 a1:m e1:7 a1:m
   }
 }
 
@@ -55,7 +42,7 @@ refrainMelody = \relative f' {
   \key \refrainKey \minor
   \tempoFour "Medium [Peggy Lee 1958]" 135
 
-  \sectStart "Intro"
+  \sectNoBarNoBreak "Intro"
   \ambitusOff
   \clef "bass_8"
   \bar ".|:"
@@ -68,7 +55,7 @@ refrainMelody = \relative f' {
   \sectNoBar "Verse 1 & 2"
 
   \repeat volta 2 {
-  d'''8 c8 d8 c8 d4 a8 c8~ | c8 d4. r2 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 | 
+  d'''8 c8 d8 c8 d4 a8 c8~ | c8 d4. r2 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
   d8 c8 d8 c8 d4 a8 c8~ | c8 d4. r8 a8 a8 a8 | d8 c8 d8 c8 d8 c8 a8 a8~ | a8 a8 a8 a8 c4 a4 |
   r1 | r8 ef'4 c8 d4 c4 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
   gs'8 a8 r4 r4 d,8 c8 | d8 c8 r4 r2 | d8 c8 d4 d8 c8 a8 a8~ | a4 r4 r2 |
@@ -81,37 +68,34 @@ refrainMelody = \relative f' {
   \break
   r8 c4 a8 a4 g4 | g8 a4 g8 a4 c4 | d8 c8 d8 c8 d8( c8) a8 a8~ | a4 r4 r2 |
   \bar "||"
-  
+
   \transpose \refrainKey \refrainKeyTwo {
     \relative f' {
   \key \refrainKey \minor
   \ambitusOff
   \sectNoBar "Interlude"
   \clef "bass_8"
-  
+
   a,,2 c2 | a4. c8~ c4 a4 | e'2 gs,4. a8~ | a8 e'8 d4 c4 b4 |
-  \bar "||"
   \ambitusOn
 
-  \xPageBreak
+  \sectPageBreak "Verse 3"
 
   \clef \whatClef
-  \sectNoBar "Verse 3"
-
-  d''8 c8 d8 c8 d4 a8 c8~ | c8 d4. r2 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 | 
+  d''8 c8 d8 c8 d4 a8 c8~ | c8 d4. r2 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
   d8 c8 d8 c8 d4 a8 c8~ | c8 d4. r8 a8 a8 a8 | d8 c8 d8 c8 d8 c8 a8 a8~ | a8 a8 a8 a8 c4 a4 |
   r1 | r8 ef'4 c8 d4 c4 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
   gs'8 a8 r4 r4 d,8 c8 | d8 c8 r4 r2 | d8 c8 d4 d8 c8 a8 a8~ | a4 r4 r2 |
   } }
   \bar "||"
-  
+
   \transpose \refrainKey \refrainKeyThree {
     \relative f' {
   \ambitusOff
   \sectNoBar "Interlude"
   \key \refrainKey \minor
   \clef "bass_8"
-  
+
   a,,2 c2 | a4. c8~ c4 a4 | e'2 gs,4. a8~ | a2. e4 |
   \ambitusOn
 
@@ -120,7 +104,7 @@ refrainMelody = \relative f' {
   \sectNoBar "Verse 4 & 5"
   \bar ".|:-||"
   \repeat volta 2 {
-  d'''8 c8 d8 c8 d4 a8 c8~ | c8 d4. r2 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 | 
+  d'''8 c8 d8 c8 d4 a8 c8~ | c8 d4. r2 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
   d8 c8 d8 c8 d4 a8 c8~ | c8 d4. r8 a8 a8 a8 | d8 c8 d8 c8 d8 c8 a8 a8~ | a8 a8 a8 a8 c4 a4 |
   r1 | r8 ef'4 c8 d4 c4 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
   gs'8 a8 r4 r4 d,8 c8 | d8 c8 r4 r2 | d8 c8 d4 d8 c8 a8 a8~ | a4 r4 r2 |
@@ -129,8 +113,8 @@ refrainMelody = \relative f' {
   \sectNoBar "Outro"
   \ambitusOff
   \clef "bass_8"
-  
-  e,2 gs,4. a8~ | a4. c8~ c4 a4 | e'2 gs,4. a8~ | a4. c8~ c4 a4 | 
+
+  e,2 gs,4. a8~ | a4. c8~ c4 a4 | e'2 gs,4. a8~ | a4. c8~ c4 a4 |
   e'2 gs,4. a8~ | a4. c8~ c4 a4 | e'2 gs,4. a8~ | a1\fermata |
   \ambitusOn
 
@@ -142,17 +126,12 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -180,7 +159,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #4
    \line { \large { Never know how much I love you, never know how much I care. } }

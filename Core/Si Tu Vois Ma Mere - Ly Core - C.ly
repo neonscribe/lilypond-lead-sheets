@@ -2,14 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-     (set-global-staff-size 18))
-
 \header {
   title = "Si Tu Vois Ma Mère"
   subtitle = \subtitle
@@ -33,28 +25,26 @@ refrainLyrics = \lyricmode {
 
 refrainChords = \chordmode {
   s4
-  \bar "||-||"
-  \xTextMark \markup { \bold \box "A1" }
+
+  \sectNoBreak "A1"
+
   c1 c1:maj7 c1:6 c1:7
   f1:maj7 f1:m7 c2:maj7 g2:7.5+ c1:maj7
-  \bar "||-||"
-  \break
 
-  \xTextMark \markup { \bold \box "B" }
+  \sect "B"
+
   e1:7.9- e1:7.9- a2:m11 e2:7 a1:m11
   \break
   d1:9 d1:9 d2.:m7 g4:7 d2.:m7 g4:7.5+
-  \bar "||-||"
-  \break
-  
-  \xTextMark \markup { \bold \box "A2" }
+
+  \sectPageBreak "A2"
+
   c1 c1:maj7 c1:6 c1:7
   \break
   f1:maj7 f1:m7 c2:maj7 bf2:7 a1:7
-  \bar "||-||"
-  \break
-  
-  \xTextMark \markup { \bold \box "C" }
+
+  \sect "C"
+
   f1:m6 f1:m6 c2:maj7 bf2:7.5+ a1:9
   \break
   f1:m6 d2:m7 g2:7 c1:maj7 c1:maj7
@@ -63,15 +53,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 \include "nederlands.ly"
 
@@ -82,9 +64,9 @@ refrainMelody = \relative fis' {
   \tempoFour "Ballad [Sidney Bechet 1952]" 80
 
     \partial 4 fis8 g8 | % 1
-    e'8 g8 e2 fis,8 
+    e'8 g8 e2 fis,8
     g8 | % 2
-    d'8 g8 d2 fis,8 
+    d'8 g8 d2 fis,8
     g8 | % 3
     c8 e8 c2 dis,8 e8
     | % 4
@@ -97,7 +79,7 @@ refrainMelody = \relative fis' {
     g'1 ( | % 8
     g1 )
     f4. e8 dis8
-    e8 as8 b8 | 
+    e8 as8 b8 |
     f'4 e2 ais,8 b8 | % 11
     d4 b2 b4 | % 12
     d4 c2 b4 | % 13
@@ -108,10 +90,10 @@ refrainMelody = \relative fis' {
     a'4 g2 fis8 g8
     e'8 g8
     e2 fis,8 g8 | % 18
-    d'8 g8 d2 fis,8 
+    d'8 g8 d2 fis,8
     g8 | % 19
     c8 e8 c2 dis,8 e8
-    | 
+    |
     bes'8 d8 bes2 b,8
     c8 | % 21
     a'8 c8 a2 b,8 c8
@@ -126,17 +108,12 @@ refrainMelody = \relative fis' {
     e4. f8 fis8 g8 e8
     c8 | % 28
     b2. g4 | % 29
-    as4 g'2 f4 | 
+    as4 g'2 f4 |
     a,2 b2 | % 31
     c1 ( | % 32
     c1 )
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

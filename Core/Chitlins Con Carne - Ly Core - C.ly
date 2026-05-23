@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 16)
-
 \header {
   title = "Chitlins Con Carne"
   subtitle = \subtitle
@@ -19,7 +12,7 @@ subtitle =
 
 refrainChords = \chordmode {
   r1*4
-  
+
   c1*4:7.9+
   f1*2:7 c1*2:7.9+
   g1:7 f1:7 c1*2:7.9+
@@ -29,15 +22,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -46,19 +31,20 @@ refrainMelody = \relative f' {
   \tempoFour "Swing Bossa Nova [Kenny Burrell 1963]" 130
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r1 | r1 | r1 | r4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
-  c8 c8 ef8 c8 f8 
+  c8 c8 ef8 c8 f8
   \endParenthesis \parenthesize
   c8 |
   }
   \break
 
-  \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box "A" }
+  \sectNoBarNoBreakSegno "A"
+
   \bar ":|.|:"
   \repeat volta 2 {
   g'4 c,8 ef8~ ef4 r4 | r4 c8 c8 ef8 c8 f8 c8~ | c4 r4 r2 | r4 c8 c8 ef8 c8 f8 c8 |
@@ -68,7 +54,7 @@ refrainMelody = \relative f' {
   g'8 bf4.~ bf4 gf8 f8~ | f4. c8 ef8 c8 f8 c8~ | c4 r4 r2 | r4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
-  c8 c8 ef8 c8 f8 
+  c8 c8 ef8 c8 f8
   \endParenthesis \parenthesize
   c8 |
   }
@@ -77,7 +63,7 @@ refrainMelody = \relative f' {
 
   \bar ":|.|:"
   \repeat volta 2 {
-  g'8 bf4.~ bf4 gf8 f8~ | f4. c8 ef8 c8 f8 c8~ | c4_"FINE" r4 r2 | r4 c8 c8 ef8 c8 f8 c8 |
+  g'8 bf4.~ bf4 gf8 f8~ | f4. c8 ef8 c8 f8 c8~ | c4 \textFine r4 r2 | r4 c8 c8 ef8 c8 f8 c8 |
   }
 }
 
@@ -86,17 +72,19 @@ refrainBass = \relative f' {
 
   c,4 g8 c8~ c4 ef4 | r8 c4 g8 c4 ef4 | c4 g8 c8~ c4 ef4 | r8 c4 g8 c4 ef4 |
 
+  %{
   c4. g'8~ g8 d8 c8 g8 | c4. g'8~ g4 b,4 | c2 g'8 g8 d'8 df8 | c2 g4 c,8 g'8 |
   f2 d'8 c8 af8 g8 | f4. d8 c4 f4 | c2 g'8 g8 d'8 df8 | c2 g4 c,4 |
   g'4. d8~ d8 g8 d4 | f4. a8~ a4 g4 | c,2 g'8 g8 d'8 df8 | c4. g8~ g8 d8 b4 |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  %}
 }
 
 refrainKicksOverTime = \relative f' {
   \override NoteHead.style = #'cross
-  c4 r8 c8 r4 c4 | r4 c4 r8 c8 r4 | c4 r8 c8 r4 c4 | r4 c4 r8 c8 r4 | 
+  c4 r8 c8 r4 c4 | r4 c4 r8 c8 r4 | c4 r8 c8 r4 c4 | r4 c4 r8 c8 r4 |
   \revert NoteHead.style
-  
+
   \improvisationOn
   s8*6 c8 c8~ | c4 s8*6 | r4 c8 c8~ c4 c8 c8~ | c4 s8*6 |
   s8*6 c8 c8~ | c4 s8*6 | r4 c8 c8~ c4 c8 c8~ | c4 s8*6 |
@@ -105,11 +93,6 @@ refrainKicksOverTime = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

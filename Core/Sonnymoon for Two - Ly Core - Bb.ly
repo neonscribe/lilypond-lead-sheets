@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -21,21 +16,13 @@ refrainChords = \chordmode {
   bf1:7 ef1:7 bf1:7 bf1:7
   ef1:7 ef1:7 bf1:7 bf1:7
   c1:m7 f1:7 bf1:7 bf1:7
-  
+
   bf1:7 bf1:7
 }
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -44,7 +31,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up [Sonny Rollins 1957]" 156
 
   \xTextMark \markup{ \bold \box "Head" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r8 bf4.-> af4 f4 | ef4 df4 bf8 bf4-. bf8 |
@@ -58,18 +45,13 @@ refrainMelody = \relative f' {
   }
 
   \textCodaBreak
-  
+
   r8 af'8 g8 g8 gf8 gf8 f8 f8 | ef4 d8 bf8~ bf2\fermata |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

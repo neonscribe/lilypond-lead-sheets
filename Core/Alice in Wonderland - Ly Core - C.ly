@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -21,7 +16,7 @@ refrainLyrics = \lyricmode {
 Al -- ice in Won -- der -- land, how do you get to Won -- der -- land?
 O -- ver the hill or un -- der -- land or just be -- hind the tree. __ ""
 
-Where do stars go? Where is the cres -- cent moon? __ 
+Where do stars go? Where is the cres -- cent moon? __
 They must be some -- where in the sun -- ny af -- ter -- noon.
 
 Al -- ice in Won -- der -- land, where is the path to Won -- der -- land?
@@ -37,11 +32,11 @@ refrainChords = \chordmode {
   d2.:m7 g2.:7 c2.:maj7 f2.:maj7 b2.:m7.5- e2.:7
   a2.:m7 ef2.:7 d2.:7 g2.:7 e2.:m7 a2.:m7
   d2.:m7 g2.:7
-  
+
   e2.:m7 a2.:7
-  
+
   c2.:maj7 a2:maj7 a4:7
-  
+
   d2.:7 g2.:7 a2.:m7 a2.:m7 d2.:m7 g2.:7 c2.:maj7 f2.:maj7
   fs2.:m7.5- b2.:7.9- e2.:m7 a2.:7 d2:m7 a4:7 d2:m7 a4:7 d2:m7 af4:7 g2.:7
 
@@ -52,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
@@ -69,13 +56,11 @@ refrainMelody = \relative f' {
   \tempoFour "Jazz Waltz [Bill Evans Trio 1961]" 156
 
   \xTextMark \markup{ \bold \box "A1, A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   g,2. | g'2 f4 | e2 c4 | g2. | d'4 e4 f4 | e2 d4 | e2 c4 | g2. |
-  \break
   d'4 e4 f4 | e2 d4 | e2 g4 | c2 a4 |
-  \break
   g2 f4 | e2 d4 |
   \alternative { \volta 1 {
   g2.~ | g2. |
@@ -83,27 +68,19 @@ refrainMelody = \relative f' {
   c,2.~ | c2. |
   } } }
   \sect "B"
-  
+
   d2. | a'2. | g2. | c,2. | d4 e4 f4 | g2 a4 | b2( g4 | e2) r4 |
-  \break
   fs2. | c'2. | b2 g4 | e2. | a2 g4 | f2 e4 | d2 c4 | b2. |
 
   \sect "A3"
-  
-  g2. | g'2 f4 | e2 c4 | g2. | d'4 e4 f4 | e2 d4 | e2 c4 | g2. | 
-  \break
+
+  g2. | g'2 f4 | e2 c4 | g2. | d'4 e4 f4 | e2 d4 | e2 c4 | g2. |
   d'4 e4 f4 | e2 d4 | e2 g4 | c2 a4 |
-  \break
   g2( f4) | e2( d4) | c2.~ | c2. |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

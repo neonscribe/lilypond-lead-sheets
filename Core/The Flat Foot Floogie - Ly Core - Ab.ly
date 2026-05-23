@@ -2,20 +2,15 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
-  title = "Flat Foot Floogie (with a Floy Floy)"
+  title = "The Flat Foot Floogie (Flat Fleet Floogee)"
   subtitle = \subtitle
   poet = ""
   composer = "Slim Gaillard, Slam Stewart and Bud Green"
   copyright = \markup \small { \now " " "© 1938 Jewel Music Publishing Co., Inc." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 The flat foot floo -- gie with the floy floy,
@@ -37,7 +32,7 @@ floy doy, floy doy, floy doy, floy doy.
 }
 
 refrainFirehouseChords = \chordmode {
-  s4
+  s8
   af2 af2/c df2 ef2:7 af1 e2:7 ef2:7
   af2 af2/c df2 ef2:7 af2 df2:7 af2 ef2:7
   af2 af2/c df2 ef2:7 af1 e2:7 ef2:7
@@ -49,7 +44,7 @@ refrainFirehouseChords = \chordmode {
 }
 
 refrainDecadeSeriesChords = \chordmode {
-  s4
+  s8
   af2 f2:m7.5- bf4.:m7 ef8:9 ef2:9
   af2 f2:m7.5- e4.:9 ef8:9 ef2:9
   af2 f2:m7.5- bf4.:m7 b2:dim7 af8:6
@@ -59,7 +54,7 @@ refrainDecadeSeriesChords = \chordmode {
   af2 f2:m7.5- e4.:9 ef8:9 ef2:9
   af2 f2:m7.5- bf4.:m7 b2:dim7 af8:6
   af4.:6 b2:dim7 bf8:m7 bf4:m7 b8:dim7 af8:6 af2:6
-  
+
   af1:7 af1:7 df1:6 df1:6 bf1:7 bf1:7 ef2:7 df2 e2:7 ef2:7
 
   af2 f2:m7.5- bf4.:m7 ef8:9 ef2:9
@@ -74,106 +69,65 @@ refrainChords = \chordmode {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium-Up Swing [Slim and Slam 1938]" 175
-  
-  \partial 4 \invisEighth ef8 |
+
+  \partial 8 ef8 |
   \bar "||"
   \noBreak
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   ef'4 df4 cf8 af8 f8 ef8 |
-  \noBreak
-  af4. f2 ef8 |
-  \noBreak
+  af4. f8~ f4. ef8 |
   ef'4 df4 cf8 af8 f8 ef8 |
-  \break
-  cf'4. bf2 ef,8 |
-  \noBreak
+  cf'4. bf8~ bf4. ef,8 |
   ef'4 df4 cf8 af8 f8 ef8 |
-  \noBreak
-  af4. f4. af8 af8~ | 
-  \break
+  af4. f4. af8 af8~ |
   af4 af8 af4. af8 af8~ |
-  \noBreak
   af4 af8 af4. r8 ef8 |
 
   \sect "A2"
 
-  ef'4 df4 cf8 af8 f8 ef8 | 
-  \noBreak
-  af4. f2 ef8 |
-  \noBreak
   ef'4 df4 cf8 af8 f8 ef8 |
-  \noBreak
-  cf'4. bf2 ef,8 |
-  \break
+  af4. f8~ f4. ef8 |
   ef'4 df4 cf8 af8 f8 ef8 |
-  \noBreak
-  af4. f4. af8 af8~ | 
-  \noBreak
+  cf'4. bf8~ bf4. ef,8 |
+  ef'4 df4 cf8 af8 f8 ef8 |
+  af4. f4. af8 af8~ |
   af4 af8 af4. af8 af8~ |
-  \noBreak
   af4 af8 af4. r4 |
 
-  \sect "B"
-  
+  \sectPageBreak "B"
+
   bf4 af4 bf8 df4 bf8~ |
-  \noBreak
-  bf8 bf4.~ bf2 |
-  \noBreak
+  bf8 bf4.~ bf8~ bf4. |
   bf4 af4 bf8 df4 bf8~ |
-  \noBreak
   bf2. r4 |
-  \break
   c4 bf4 c8 ef4 d8~ |
-  \noBreak
   d8 d4.~ d2 |
-  \noBreak
   ef8 ef,4. f4 af4 |
-  \noBreak
-  cf8 af4 bf2 ef,8 |
+  cf8 af4 bf8~ bf4. ef,8 |
 
   \sect "A3"
 
   ef'4 df4 cf8 af8 f8 ef8 |
-  \noBreak
-  af4. f2 ef8 |
-  \noBreak
+  af4. f8~ f4. ef8 |
   ef'4 df4 cf8 af8 f8 ef8 |
-  \noBreak
-  cf'4. bf2 ef,8 |
-  \break
+  cf'4. bf8~ bf4. ef,8 |
   ef'4 df4 cf8 af8 f8 ef8 |
-  \noBreak
-  af4. f4. af8 af8~ | 
-  \noBreak
+  af4. f4. af8 af8~ |
   af4 af8 af4. af8 af8~ |
-  \noBreak
   af4 af8 af4. r4 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I'm Left, You're Right, She's Gone"
   subtitle = \subtitle
@@ -48,7 +43,7 @@ refrainChords = \chordmode {
   f1 c1:7 f1 f1:7
   bf1 bf1 f1 f1
   c1:7 c1:7 f1 f1:7
-  
+
   bf1 bf1 f1 f1:7
   bf1 bf1 f1 c1:7
 
@@ -65,15 +60,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -84,22 +71,22 @@ refrainMelody = \relative f' {
   \partial 4 f4 |
   \bar "||"
 
-  \sectStart "Verse 1"
-  
+  \sectNoBarNoBreak "Verse 1"
+
   f2. a4 | g2. bf4 | a4( c2.~ | c2.) f,4 |
   f2. a4 | g2 a4 bf4 | a4( f2.~ | f2) r4 c'4 |
   d4 d4 d4 c4 | bf2. bf4 | c4 c4 c4 bf4 | a2. a4 |
   g2( a4) bf4 | a4 c,4 e4 g4 | f1~ | f2 r4 f4 |
-  
+
   \sect "Verse 2"
 
   f2. a4 | g2. bf4 | a4( c2.~ | c2.) f,4 |
   f2. a4 | g2 a4 bf4 | a4( f2.~ | f2.) c'4 |
   d4 d4 d4 c4 | bf2. bf8 bf8 | c4 c4 c4 bf4 | a2. a8 a8 |
   g2 a4 bf4 | a4 c,4 e4 g4 | f1~ | f2 r4 c'8 c8 |
-  
+
   \sect "Bridge"
-  
+
   d4 d4 c4 bf4 | d4 d4 c4 bf4 | c4 c4 f,4 bf4 | a2. c4 |
   d4 d4 c4 bf4 | d4 d4 c4 bf4 | c4 c4 bf4 a4 | g2. f4 |
 
@@ -109,32 +96,24 @@ refrainMelody = \relative f' {
   f2. a4 | g2 a4 bf4 | a4( f2.~ | f2.) c'4 |
   d4 d4 d4 c4 | bf2. bf4 | c4 c4 c4 bf4 | a2. a4 |
   g2 a4 bf4 | a4( c,4) e4 g4 | f1~ | f2 r2 |
-  
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectNoBar "Solo"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  
+
+
+  \sectPageBreak "Solo"
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -160,7 +139,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #4
    \line { \large { You're right, I'm left, she's gone. You're right, I'm left, all alone. } }

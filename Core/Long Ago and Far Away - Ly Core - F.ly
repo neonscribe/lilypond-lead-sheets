@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Long Ago (and Far Away)"
   subtitle = \subtitle
@@ -44,15 +39,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -61,20 +48,20 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up [Chet Baker 1955]" 180
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   f2. f4 | f4 a4 e4. d8 | e2. e4 | e4 f4 d4 bf4 |
   d2. c4 | d2. c4 | d4 e4 f4 fs4 | a2 g2 |
 
   \sect "B"
-  
+
   af2. af4 | af4 bf4 g4 f4 | g2. g4 | g4 b4 f4 e4 |
   g2. e4 | a2. bf4 | c1~ | c2. r4 |
 
   \sect "A2"
-  
+
   f,2. f4 | f4 a4 e4. d8 | e2. e4 | e4 f4 d4 bf4 |
   d2. c4 | d2. c4 | d4 e4 f4 fs4 | a2 g2 |
-  
+
   \sect "C"
 
   c2. c4 | c4 ef4 bf4 a4 | d1~ | d4 bf4 a4 g4 |
@@ -84,10 +71,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

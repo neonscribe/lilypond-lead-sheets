@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+$(if (not (and (defined? 'midiOnly) midiOnly))
+  #{
 \score {
   <<
     { \context ChordNames \with {
@@ -7,7 +9,7 @@
       }
       {
 	\override BarLine.bar-extent = #'(-2 . 2)
-	\override ChordName.font-size = #+3
+	\override ChordName.font-size = #+2.5
 	$(if (and (defined? 'chordSize) chordSize)
 	  #{ \override ChordName.font-size = \chordSize #} )
 	\override ChordName.font-series = #'bold
@@ -26,14 +28,14 @@
     ragged-bottom = ##t ragged-right = ##f
   }
 }
-
+#} #{
 \score {
   $(if (and (defined? 'bossaRhythm) bossaRhythm)
     #{ \applySwing 16 #'(3 2 2 3)
   <<
     { \context ChordNames \with {midiInstrument = "drawbar organ"}
       {
-      \override ChordName.font-size = #+3
+      \override ChordName.font-size = #+2.5
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
      \transpose \refrainKey \whatKey {
@@ -48,7 +50,7 @@
        <<
     { \context ChordNames \with {midiInstrument = "drawbar organ"}
       {
-      \override ChordName.font-size = #+3
+      \override ChordName.font-size = #+2.5
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
      \transpose \refrainKey \whatKey {
@@ -61,7 +63,7 @@
   #{   <<
     { \context ChordNames \with {midiInstrument = "drawbar organ"}
       {
-      \override ChordName.font-size = #+3
+      \override ChordName.font-size = #+2.5
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
      \transpose \refrainKey \whatKey {
@@ -73,3 +75,4 @@
        #} ))
   \midi{}  
 }
+#} )

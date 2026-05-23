@@ -1,13 +1,8 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
-
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
 
 \header {
   title = "A Felicidade"
@@ -18,6 +13,7 @@ subtitle =
 }
 
 bossaRhythm = ##t
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 Tris -- te -- za não tem fim __
@@ -56,13 +52,13 @@ Pra tu -- do se~_a -- ca -- bar na quar -- ta fei -- ra. __
 }
 
 refrainChords = \chordmode {
-  s2
-  
+  s4.
+
   a1:m7 a1:m7 a1:m7 a1:m7
   e1:m7 b1:7.9- e2:m7 a2:7 d2:m7 g2:7
 
   d2:m7 g2:7
-  
+
   c1:maj7 c1:maj7 b1:m7.5- e1:7.9-
   a1:m7 af1:7 g1:m7 c1:9
   f1:maj7 bf1:9.11+ a1:m7 d1:7
@@ -79,15 +75,7 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative c' {
   \time 2/2
@@ -95,12 +83,10 @@ refrainMelody = \relative c' {
   \clef \whatClef
   \tempoFour "Medium Samba [Antonio Carlos Jobim 1965]" 150
 
-  \partial 2 \invisEighth
-  
-  e4 a8~ |
+  \partial 4. e4 a8~ |
 
-  \sectStart "A"
-  
+  \sectNoBarNoBreak "A"
+
   \bar ".|:"
   \repeat volta 2 {
     a1 | r8 c4 b4 g4 e8~ | e1 | r2 r8 e4 g8~ |
@@ -110,24 +96,25 @@ refrainMelody = \relative c' {
     { r2 r8 e4 a8 | }
     { r1 |  }
   }
-  
-  \sectNoBreak "B"
-  
+
+  \sect "B"
+
   e1 | r8 g4 f4 e4 e8~ | e8 d4 cs4 d4 f8~ | f4. f8 r8 e4 d8~ |
   d8 c4 b4 c4 e8~ | e8 d4 c4 b4 bf8~ | bf1 | r1 |
 
+  \break
   \bar "||-||"
 
   r8 a4 c4 d4 e8~ | e4. e4 c4 a8~ | a8 c4 d8~ d8 e4 d8~ | d4. d8 r8 e4 a8~ |
   a8 gs4 g4 c,4 e8~ | e8 ef4 d4 c4 a8~ | a1 | r1 |
-  
-  \sectNoBreak "C"
-  
+
+  \sectPageBreak"C"
+
   r8 g4 a8 b8 c4 a8~ | \tuplet 3/2 { a4 b4 c4 } \tuplet 3/2 { d4 b4 a4 } | b4. b8~ b2 | r2 r4 r8 c8~ |
   c8 d4 e4 f4 d8~ | d8 e4 c4 e4 d8~ | d4. d8~ d2 | r2 r8 g4 g8~ |
   g4. d4 g4 g8~ | g4. g4 a4 a8~ | a4. e4 a4 a8~ | a4. a4. b4 |
   b4 a4 \tuplet 3/2 { g4 fs4 g4 } | a4. a8 r8 g4 fs8 | g8 g4 f4 e4 f8~ | f4. f4 e4 c8~ |
- 
+
   \sectNoBreak "D"
 
   c8 d4 e4 a4 e8~ | e8 d4 c4 a4 d8~ | d2 d2 | r2 r8 e4 a8~ |

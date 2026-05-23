@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Coquette (1928 Sheet Music)"
   subtitle = \subtitle
@@ -51,48 +46,35 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Dorsey Brothers 1928]" 155
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   ef'4 c2. | \tuplet 3/2 { ef4 c4 ef4 } c4 g4 | \tuplet 3/2 { bf4 g4 bf4 } g2~ | g1 |
   \break
   bf4 g2. | \tuplet 3/2 { bf4 g4 bf4 } g4 bf,4 | c4 g'2.~ | g4 r4 r2 |
-  
+
   \sect "A2"
-  
+
   ef'4 c2. | \tuplet 3/2 { ef4 c4 ef4 } c4 g4 | \tuplet 3/2 { bf4 g4 bf4 } g2~ | g1 |
   \break
   bf4 g2. | \tuplet 3/2 { bf4 g4 bf4 } g4 bf,4 | c4 g'2.~ | g1 |
-  
+
   \sect "B"
-  
+
   ef4 f2. | \tuplet 3/2 { f4 g4 bf4 } ef4 c4 | \tuplet 3/2 { bf4 g4 bf4 } g4 ef4 | f1 |
   \break
   f4 g2. | \tuplet 3/2 { g4 a4 c4 } f4 d4 | c2 bf2 | c2 bf2 |
-  
+
   \sect "A3"
 
   ef4 c2. | \tuplet 3/2 { ef4 c4 ef4 } c4 g4 | \tuplet 3/2 { bf4 g4 bf4 } g2~ | g1 |
   \break
   bf4 g2. | \tuplet 3/2 { bf4 g4 bf4 } g4 <bf bf,>4 | <c c,>4 <ef ef,>2.~ | <ef ef,>2. r4 |
-  
+
   \bar "|."
 }
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

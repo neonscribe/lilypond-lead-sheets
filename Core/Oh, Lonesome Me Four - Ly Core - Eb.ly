@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -34,9 +29,9 @@ introMelody = \relative f' {
   \key \introKey \major
   \clef \whatClef
   \tempoFour "Medium Fast [Don Gibson 1957]" 206
-  
-  \sectStart "Intro"
-  
+
+  \sectNoBarNoBreak "Intro"
+
   \bar ".|:"
   \repeat volta 2 {
   \override NoteHead.style = #'slash
@@ -91,7 +86,7 @@ I've thought of ev -- 'ry -- thing from A __ to Z.
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
@@ -102,7 +97,7 @@ refrainChords = \chordmode {
   bf1:7 bf1:7 ef1 ef1
   ef1 ef1:7 af1 af1
   bf1 bf1 ef1 ef1
-  
+
   s4
   bf1 bf1 f1:7 f1:7
   f1:7 f1:7 bf1 bf1
@@ -112,15 +107,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -128,7 +115,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
 
   \sectNoBar "Verse"
-  
+
   \partial 4 g4 |
   \bar "||"
 
@@ -161,17 +148,12 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/intro.ily"
 
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -195,7 +177,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
     \vspace #2
     \line { \large { Ev 'rybody's goin' out and havin' fun. } }

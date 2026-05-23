@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -73,7 +68,7 @@ Any -- thing, well, give me all you got but not love.
 
 refrainChords = \chordmode {
   fs1:5 fs1:5 fs1:5 fs1:5
-  
+
   fs1:5 fs1:5 fs1:5 fs1:5
   ds1:m ds4:m cs4
 
@@ -85,9 +80,9 @@ refrainChords = \chordmode {
 
   fs2 gs2:m/fs fs2:maj7 gs2:m/fs a2 b2/a a2:maj7 b2/a
   fs2 gs2:m/fs fs2:maj7 gs2:m/fs a2 b2/a a2:maj7 b2/a
-  
+
   a1 a1
-  
+
   a1 a1 b1 b1
   a1 a1 b1 b1
 
@@ -96,15 +91,7 @@ refrainChords = \chordmode {
 
 refrainKey = fs
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \numericTimeSignature
@@ -114,16 +101,16 @@ refrainMelody = \relative f' {
   \tempoFour "Rock [Joe Jackson 1979]" 118
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   \ambitusOff
   \bar ".|:"
   \repeat volta 2 {
   cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 | cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 |
   cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 | cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 cs'8 fs,8 |
   \ambitusOn
-  
+
   \sect "A1"
-  
+
   r2 as8 as8 as8 b8 | gs4 gs4 gs8 b8 as4 | r2 as8 as8 as8 b8 |
   \break
   gs4 gs4 gs8 b8 as4 |
@@ -131,9 +118,9 @@ refrainMelody = \relative f' {
   \time 2/4
   r2 |
   \time 4/4
-  
+
   \sect "A2"
-  
+
   r2 as8 as8 as8 b8 | gs4 gs4 gs8 b8 as4 | r2 as8 as8 as8 b8 |
   \break
   gs4 gs4 gs8 b8 as4 |
@@ -141,18 +128,14 @@ refrainMelody = \relative f' {
   \time 2/4
   r2 |
   \time 4/4
-  
+
   \sect "B"
-  
+
   r4 ds'4 cs2~ | cs8 cs8 cs8 cs8 ds4 cs4 | ds4.( cs8) cs2 | r8 cs8 cs8 cs8 ds4 cs4 |
   \break
   r4 ds4 cs2 | r8 cs8 cs8 cs8 ds8( cs8) cs4 | ds4.( cs8) cs4. cs8 | e8 e8 e8 e8 ds8 cs8 b8( cs8) |
 
-  \bar "||"
-
-  \xPageBreak
-
-  \xTextMark \markup{ \bold \box "Chorus" }
+  \sectPageBreak "Chorus"
 
   \segnoSign
 
@@ -177,15 +160,10 @@ refrainMelody = \relative f' {
   \textCodaBreak
 
   cs1\repeatTie | r4 r8 cs8 b4 e8 cs8~ cs4 r4 r2\fermata |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

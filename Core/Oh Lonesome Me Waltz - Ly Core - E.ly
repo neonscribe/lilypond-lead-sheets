@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -63,17 +58,17 @@ refrainChords = \chordmode {
   e1. a1./cs e1. a1./cs
   e1. a1./cs e1. a1./cs
   e1. b1.:m a1. a1.:m d1. a1.
-  
+
   e1 e1 a1/cs a1/cs
 
   e1. a1./cs e1. a1./cs
   e1. a1./cs e1. a1./cs
   e1. b1.:m a1. a1.:m d1. a1.
-  
+
   e1 e1 a1/cs a1/cs
 
   e1 e1
-  
+
   fs1.:m7 b1. gs1.:m cs1.
   fs1.:m a1. e1. e1.
   fs1.:m7 b1. gs1.:m cs1.
@@ -84,15 +79,7 @@ refrainChords = \chordmode {
 
 refrainKey = e
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 6/4
@@ -100,14 +87,14 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Slow Waltz [Neil Young 1970]" 78
 
-  \sectStart "Intro"
+  \sectNoBarNoBreak "Intro"
 
   \ambitusOff
   b2~ b8 bf8 b2~ b8 bf8 | e,2.~ e2. | gs2. gs4 fs4 gs4 | e2. cs'4 b4 e,4 |
   \ambitusOn
 
   \sect "Verse 1"
-  
+
   r4 gs8 b8 b8 b8~ b2. | a8 b8 b2~ b4 r4 e,4 | gs8 b8 b2~ b2 r4 | R4*6 |
   r4 gs4 b8 b8~ b2 r8 b8 | a8 b4 b8~ b4~ b2 r8 e,8 | gs8 b4 cs8( b4~ b2.) | r2. r2 e,4 |
   gs2 b8 b8~ b4. b8~ b4 | e2 e4 fs2 e4 | cs2.~ cs2 r4 | R4*6 |
@@ -115,11 +102,11 @@ refrainMelody = \relative f' {
   \numericTimeSignature
   \time 4/4
   b1~ | b1 | r1 | r2 r4 e,4 |
-  
+
   \segnoSign
   \sect "Verse 2"
   \time 6/4
-  
+
   gs4 b4 b4 b2 b4 | a4 b4 b4~ b4 r8 cs8~( cs8 b8~ | b4) b4 gs8 gs8~ gs2. | r2. r2 r8 e8 |
   gs8 b8 b2~ b2 b8 b8( | cs2.) r2 e,4~ | e4 gs8 b4 cs8( b2.) | r2. r2 e,4 |
   gs4 b2 b2 b8 e8~ | e2 e4 fs2 e4 | cs2.~ cs2. | R4*6 |
@@ -128,9 +115,7 @@ refrainMelody = \relative f' {
   \time 4/4
   b1~ | b1~ | b2 r2 | r1  \textToCoda |
 
-  \xPageBreak
-
-  \sectNoBar "Bridge"
+  \sect "Bridge"
 
    r1 | r2 r4 gs4 |
   \time 6/4
@@ -141,7 +126,7 @@ refrainMelody = \relative f' {
 
   \bar ".|:-|."
   \textCodaBreak
-  
+
   \numericTimeSignature
   \time 4/4
   \repeat volta 2 {
@@ -149,7 +134,7 @@ refrainMelody = \relative f' {
   }
 }
 
-refrainKicksOverTime = \relative f' { 
+refrainKicksOverTime = \relative f' {
   e4 e8 e8 e8 e8 e4 e8 e8 e8 e8 |
   e4 e8 e8 e8 e8 e4 e8 e8 e8 e8 |
   e4 e8 e8 e8 e8 e4 e8 e8 e8 e8 |
@@ -157,10 +142,5 @@ refrainKicksOverTime = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

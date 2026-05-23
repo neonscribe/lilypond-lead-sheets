@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -62,16 +57,16 @@ And there's no knot for me.
 
 refrainChords = \chordmode {
   s2.
-  
-  ef1:maj7 f2:m7 bf2:7 ef1:maj7 c1:m7 
+
+  ef1:maj7 f2:m7 bf2:7 ef1:maj7 c1:m7
   f1:7 bf2:sus7 bf2:7 ef1:9 ef1:9
-  
+
   af2:dim7 af2 df1:9 ef2:dim7 ef2:6 c1:m7
   g2:dim7/f f2:m7 f2:m7 c2:7.5+ f2:m7 b2:9.11+ bf1:7
-  
-  ef1:maj7 f2:m7 bf2:7 ef1:maj7 c1:m7 
+
+  ef1:maj7 f2:m7 bf2:7 ef1:maj7 c1:m7
   f1:7 bf2:sus7 bf2:7 ef1:9 ef1:9
-  
+
   af2:dim7 af2 df1:9 ef2:dim7 g2:m7 c2:m7 c2:7.5+
   f1:7 bf1:7 ef1:6
 
@@ -81,15 +76,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -98,47 +85,39 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Billie Holiday 1958]" 140
 
   \partial 2. f4 g4 f4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   \bar ".|:"
   \repeat volta 2 {
   g2 f4 ef4~ | ef4 f4 g4 f4 | g1 | r4 f4 g4 f4 |
-  \break
+  %% \break
   g2 f4 ef4~ | ef4 f4 g4 f4 | g1 | r4 g4 af4 bf4 |
 
   \sect "B"
-  
+
   b2 c4 ef4 | r4 f,4 g4 af4 | a2 bf4 ef4 | r4 ef,4 f4 g4 |
-  \break
+  %% \break
   g2 af4 ef'4 | r4 ef4 c4 af4 | f1 | r4 f4 g4 f4 |
-  \bar "||"
-  
-  \xPageBreak
-  \sectNoBarNoBreak "A2"
-  
+
+  \sectPageBreak "A2"
+
   g2 f4 ef4~ | ef4 f4 g4 f4 | g1 | r4 f4 g4 f4 |
-  \break
+  %% \break
   g2 f4 ef4~ | ef4 f4 g4 f4 | g1 | r4 g4 af4 bf4 |
 
   \sect "C"
 
   b2 c4 ef4 | r4 f,4 g4 af4 | a2 bf4 f'4 | r4 ef4 c4 af4 |
-  \break
+  %% \break
   g1 | f1 | ef1 | r4
   \startParenthesis \parenthesize
-  f4 g4 
-  \endParenthesis \parenthesize 
+  f4 g4
+  \endParenthesis \parenthesize
   f4 |
   }
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

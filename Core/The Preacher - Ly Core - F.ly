@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "The Preacher"
   subtitle = \subtitle
@@ -19,7 +14,7 @@ subtitle =
 
 refrainChords = \chordmode {
   s2.
-  
+
   f1 f2 f2:7 bf2 b2:dim7 f2/c f2
   f1 f2 d2:m7 g1:7 c1:7
   f1 f2 f2:7 bf1 a1:7
@@ -31,15 +26,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -49,7 +36,7 @@ refrainMelody = \relative f' {
 
   \partial 2. c4 d4 f4 |
   \bar "||"
-  
+
   a4 a2 gs4 | a2 f2 | bf2 f4 g8 a8~ | a8 c,4. d4 f4 |
   \break
   a4 a2 gs4 | a2 f4 f4 | a4 g4 g4 a8 g8~ | g4 c,8 c8 d4 f4 |
@@ -62,10 +49,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

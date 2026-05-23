@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Ashokan Farewell"
   subtitle = \subtitle
@@ -24,7 +19,7 @@ refrainChords = \chordmode {
   d2. d2.:7 g2. e2.:m d2. b2.:m a2. d2.
   d2. d2.:7 g2. d2. d2. b2.:m a2. a2.:7
   d2. c2. g2. d2.
-  
+
   d2. b2.:m a2. d2.
 
   d2. b2.:m a2. d2.
@@ -32,25 +27,17 @@ refrainChords = \chordmode {
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium-Slow Waltz [Fiddle Fever 1983]" 100
-  
+
   \partial 4 a8 cs8 |
 
-  \sectStart "A"
+  \sectNoBarNoBreak "A"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -68,7 +55,6 @@ refrainMelody = \relative f' {
   \sect "C"
 
   a4. fs8 d4 | d'2 a4 | b4. cs8 d4 | a8 fs4. e4 |
-  \break
   fs4. e8 d4 | b2 g4 | a2. | a'2 fs8 e8 |
 
   \sect "D"
@@ -77,19 +63,13 @@ refrainMelody = \relative f' {
   \break
   \alternative { \volta 1 {
     a4 d4 fs4 | a8 d4. fs,4 | e4. d8 cs4 | d2 a'8 cs8 |
-    \break
     } \volta 2 {
     a,8 d8 fs8 a8 d8 fs8 | a8 d4. fs,4 | e4. a,8 cs4 | d2. |
     }}}
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

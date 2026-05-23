@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "The Shadow of Your Smile"
   subtitle = \subtitle
@@ -40,10 +35,10 @@ refrainChords = \chordmode {
 
   fs1:m7.5- b1:7 e1:m7 e1:m7/d
   cs1:m7.5- fs1:7 fs1:m7.5- b4:7 r2.
-  
+
   fs1:m7 b1:7 e1:m7 a1:7
   a1:m7 d1:7 b1:m7.5- e1:7.9-
-  
+
   a1:m7 c2:m7 f2:7 b1:m7 e1:7
   a1:7 d2.:sus7 d4:7.9- g1:6
   \chordInsideParens{ b1:7 }
@@ -51,15 +46,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -68,40 +55,34 @@ refrainMelody = \relative f' {
   \tempoFour "Slow Bossa [Astrud Gilberto 1965]" 103
 
   \partial 2. r8 b,8 e8 fs8 g8 b8 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   cs,2. fs4 | ds2. c4 | b1~ | b4. b8 e8 fs8 g8 b8 |
-  \break
+  %% \break
   e,2. a4 | fs2. d4 | b'1~ | b2 c8 b8 a8 g8 |
 
   \sect "B"
-  
+
   a2. c,4 | b2. a'4 | g1~ | g2 b8 a8 g8 fs8 |
-  \break
+  %% \break
   g2. c,4 | as2. g'4 | fs1~ | fs4. b,8 e8 fs8 g8 b8 |
 
   \sect "A2"
-  
+
   cs,2. fs4 | ds2. c4 | b1~ | b4. b8 e8 fs8 g8 b8 |
-  \break
+  %% \break
   e,2. c'4 | a2. fs4 | d'1~ | d2 e8 d8 c8 b8 |
 
   \sect "C"
-  
+
   c4. e,8 c'2~ | c2 d8 c8 b8 a8 | b4. d,8 b'2~ | b2 c8 b8 a8 gs8 |
-  \break
+  %% \break
   a4. cs,8 a'2~ | a8 cs,8 b'8 a8 g4 fs4 | g1 | r1 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

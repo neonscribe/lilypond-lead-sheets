@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -25,7 +20,7 @@ I may seem proud, I may act gay, it's just a pose, I'm not that way.
 Lit -- tle mean things we were do -- ing __
 must have been part of the game.
 Lend -- ing a spice to the woo -- ing __ but I don't care who's to blame.
-When stars ap -- pear and shad -- ows fall, 
+When stars ap -- pear and shad -- ows fall,
 why then you'll hear my poor heart call to you my love, my life, my all
 I sur -- ren -- der, dear.
 }
@@ -46,15 +41,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -63,37 +50,32 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Bing Crosby 1931]" 108
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   r8 f8 f8 f8 a2 | r8 g8 g8 g8 bf2 | r8 a8 a8 a8 b2 | r8 c8 c8 c8 e2 |
   \break
   r8 e8 e8 c8 c8 a8 a8 e8 | e1 | r4 d8 e8 g4 g4 | g1 |
-  
+
   \sect "A2"
-  
+
   r8 f8 f8 f8 a2 | r8 g8 g8 g8 bf2 | r8 a8 a8 a8 b2 | r8 c8 c8 c8 e2 |
   \break
   r8 e8 e8 c8 c8 a8 a8 e8 | e1 | r4 d8 e8 g4 g4 | g1 |
-  
+
   \sect "B"
-  
+
   b8 b4 b8 b8 c4 d8 | c8 c4.~ c2 | b8 b4 b8 b8 c4 d8 | c1 |
   \break
   b8 b4 b8 b8 c4 d8 | c8 c4.~ c4 c8 c8 | e4 e4 e4 a,4 | d1 |
-  
+
   \sect "A3"
 
   r8 f,8 f8 f8 a2 | r8 g8 g8 g8 bf2 | r8 a8 a8 a8 b2 | r8 c8 c8 c8 e2 |
   \break
   r8 e8 e8 c8 c8 a8 a8 e8 | e1 | r4 d8 e8 g4 g4 | g2. r4 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

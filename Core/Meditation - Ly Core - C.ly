@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
    (set-global-staff-size 18))
 
@@ -46,10 +41,10 @@ refrainChords = \chordmode {
   c1:6 c1:6 e1:m7 a1:7.5+
   d1:m7 d1:m7 f1:m7 bf1:7
   e1:m7 a1:7.5+ d1:m7 g1:7.5+
-  
+
   f1:maj7 f1:maj7 f1:m7 bf1:7
   e1:m7 ef1:dim7 d1:m7 g1:7.5+
-  
+
   c1:6 c1:6 b1:sus7 b1:7
   c1:6 c1:6 e1:m7 a1:7.5+
   d1:m7 d1:m7 f1:m7 bf1:7
@@ -59,15 +54,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -75,27 +62,27 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Bossa [João Gilberto 1960]" 156
 
-  \sectStart "A1, A2"
-  
+  \sectNoBarNoBreak "A1, A2"
+
   \bar ".|:"
   \repeat volta 2 {
   a1~ | a2~ a8 g4 b8~ | b8 bf4 a8~ a2~ | a2 \tuplet 3/2 { r4 fs4 g4 } |
   \tuplet 3/2 { a4 a4 a4 } \tuplet 3/2 { a4 a4 a4 } | a4 g8 b8~ b8 g4 a8~ |
   a8 b4 a8~ a2~ | a2. r4 |
   f1~ | f2~ f8 e4 g8~ | g8 gf4 f8~ f2~ | f2 \tuplet 3/2 { r4 c4 d4 } |
-  \tuplet 3/2 { e4 e4 e4 } \tuplet 3/2 { e4 ds4 e4 } | 
+  \tuplet 3/2 { e4 e4 e4 } \tuplet 3/2 { e4 ds4 e4 } |
   f2~ \tuplet 3/2 { f4 e4 f4 } | \tuplet 3/2 { g4 g4 g4 } \tuplet 3/2 { g4 fs4 g4 } | a2. r4 |
   }
   \bar "||-:|."
 
   \sectNoBar "B"
-  
+
   c1~ | c2~ c8 b4 d8~ | d8 df4 c8~ c2~ | c2 r8 b4 d8~ |
-  \break
+  %% \break
   d8 df4 c8~ c8 b4 d8~ | d8 df4 c8~ c8 b4 a8~ | a1~ | a2 r2 |
-  
+
   \sect "A3"
-  
+
   a1~ | a2~ a8 g4 b8~ | b8 bf4 a8~ a2~ | a2 \tuplet 3/2 { r4 fs4 g4 } |
   \tuplet 3/2 { a4 a4 a4 } \tuplet 3/2 { a4 a4 a4 } | a4 g8 b8~ b8 g4 a8~ |
   a8 b4 a8~ a2~ | a2. r4 |
@@ -106,10 +93,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

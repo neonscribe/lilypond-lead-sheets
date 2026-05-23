@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Corcovado (Quiet Nights of Quiet Stars)"
   subtitle = \subtitle
@@ -18,14 +13,18 @@ subtitle =
 bossaRhythm = ##t
 
 refrainPortugueseLyrics = \lyricmode {
+  _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _
   Um can -- ti -- nho,_um vi -- o lão
   es -- te_a -- mor, u -- ma __ can -- ção
   Pra fa -- zer fe -- liz a quem se a -- ma __
   Mui -- ta cal -- ma pra pen -- sar __
   E ter tem -- po pra so -- nhar
-  Da ja -- ne -- la vê -- se_o 
+  Da ja -- ne -- la vê -- se_o
   Cor -- co -- va -- do_O Re -- den -- tor, __ que lin -- do!
-  
+
   Que -- ro_a vi -- da sem -- pre_as -- sim
   Com vo -- cê per -- to __ de mim
   A té __ o a -- pa -- gar da ve -- lha cha -- ma __
@@ -37,6 +36,10 @@ refrainPortugueseLyrics = \lyricmode {
 }
 
 refrainEnglishLyrics = \lyricmode {
+  _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _
   Qui -- et nights of qui -- et stars,
   qui -- et chords from my __ gui -- tar
   float -- ing on the si -- lence that sur -- rounds us. __
@@ -51,7 +54,7 @@ refrainEnglishLyrics = \lyricmode {
   be -- lie -- ving life was on -- ly __
   a bit -- ter tra -- gic joke,
   have found with you, __
-  the mean -- ing of ex -- ist -- ence. 
+  the mean -- ing of ex -- ist -- ence.
   Oh, my love. __
 }
 
@@ -77,7 +80,7 @@ refrainChordsRealBookSixth = \chordmode {
   s1 s1
   a1:m6 af1:dim7.13- g1:m6 c1:9
   f1:maj7 f1:m6 e1:m7 a1:m7 a1:m6 af1:dim7.13-
-  
+
   d1:7/a d1:7/a af1:dim7 af1:dim7
   g1:m7 c1:7 f2:dim7 f2:maj7 f1:maj7
   f1:m7 bf1:7 e1:m7 a1:7.5+
@@ -97,7 +100,7 @@ refrainChordsRealBookSixthNicoFixes = \chordmode {
   a1:m a1:m
   e1:7/gs e1:7/gs g1:m7 c1:7
   f1:maj7 bf1:7 a1:m a1:m7/g d1:7/fs f1:dim7
-  
+
   d1:7/a d1:7/a af1:dim7 af1:dim7
   g1:m7 c1:7 f2:dim7 f2:maj7 f1:maj7
   f1:m7 bf1:7 e1:m7 a1:7
@@ -117,15 +120,7 @@ refrainChords = \refrainChordsRealBookSixthNicoFixes
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -133,34 +128,28 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Bossa [Stan Getz & João Gilberto 1964]" 130
 
-  \sectStart "Intro"
-  
-    <<
-      \new Voice
-      { \voiceTwo
-	r2 \tuplet 3/2 {a4 b4 c4 } |
-	b8 a4 e4 d4 e8~ | e1~ |
-	e8 b4 e4 ef4 d8~ |  d2 \tuplet 3/2 { g4 a4 bf4 } |
-	a8 g4 c4 a4 g8~ | 
-	\break
-	g4 a4~ \tuplet 3/2 { a4 d,4 c4 } |
-	d2. c4 | d2 e2~ |
-	e2 \tuplet 3/2 { g4 d4 c4 } | d2 \tuplet 3/2 { c4 b4 c4 } |
-	b2. d4 |
+  \sectNoBar "Intro"
 
-	\set Score.currentBarNumber = #1
-  
-	\bar ".|:-||"
+  \ambitusOff
+  r2 \tuplet 3/2 {a4 b4 c4 } |
+  b8 a4 e4 d4 e8~ | e1~ |
+  e8 b4 e4 ef4 d8~ |  d2 \tuplet 3/2 { g4 a4 bf4 } |
+  a8 g4 c4 a4 g8~ |
+  \break
+  g4 a4~ \tuplet 3/2 { a4 d,4 c4 } |
+  d2. c4 | d2 e2~ |
+  e2 \tuplet 3/2 { g4 d4 c4 } | d2 \tuplet 3/2 { c4 b4 c4 } |
+  b2. d4 |
+  \ambitusOn
 
-	\xTextMark \markup{ \bold \box "A" }
+  \sect "A"
 
-	c4 s4 s2 |
-      }
-      { \voiceOne
-	s1 | s1 | s1 | s1 | s1 | s1 | s1 | s1 | s1 | s1 | s1 | s1 |
-	r8 e4 d8 e8 d4 e8~ |
-	}
-    >>
+  <<
+    { \voiceOne
+      a'8\rest e4 d8 a'8\rest  e4 d8 |
+    }
+    \xVoiceTwo { c4 s4 s2 | }
+  >>
   \oneVoice
 
   e8 d8 e2. |
@@ -177,12 +166,8 @@ refrainMelody = \relative f' {
   r8 e4 d8 e8 d4 e8~ | e8 d4 e4 d8 f4~ |
   f8 e4 f8 e4 f4~ | f8 e4 d4 c4. |
 
-	\bar "||"
+  \sectPageBreak "B"
 
-	\xPageBreak
-
-  \sectNoBarNoBreak "B"
-  
   r8 e4 d8 e8 d4 e8~ | e8 d4 e8~ e2 |
   r8 e4 d8 e8 d4 e8~ | e8 d8 e4. g4 d8~ |
   \break
@@ -202,11 +187,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 chordDiagrams = \chordmode {
   a:m6 s af:dim7.13- s g:m6 s c:9 s f:maj7 s f:m6 s e:m7

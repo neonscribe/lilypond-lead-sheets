@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -47,9 +42,9 @@ Long to hear that _ _ _ “All a -- board.”
 refrainChords = \chordmode {
   c1:maj7 c1:maj7 c2:maj7 a2:7 d2:7 g2:7
   c1:maj7 f2:7 bf2:7 c2:maj7 a2:7
-  
+
   d4:7 g4:7 c2:6
-  
+
   d4:7 g4:7 c4:6 c4:7
 
   f1:maj7 f1:maj7 c1:maj7 c1:maj7
@@ -61,15 +56,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -78,7 +65,7 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Doris Day with Les Brown 1944]" 80
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r8 e4 c8 e4. c8 | e8 c8 e8 c8 e8 c4. | r8 e4 c8 e4. f8 | e4 ef8 d8~ d2 |
@@ -90,13 +77,13 @@ refrainMelody = \relative f' {
   e8( ef8) d8 c8~ c2 |
   } } }
   \sect "B"
-  
+
   b'8 c4.~ c2 | b8 c8 b8 c8 d8 c4. | fs,8 g4.~ g2 | fs8 g8 fs8 g8 a8 g4. |
   \break
   cs8 d4.~ d2 | cs8 d8 cs8 d8 c4. a8 | b8 g4 a8~ a4. f8 | g4 e8 f8~ f2 |
-  
+
   \sect "A3"
-  
+
   r8 e4 c8 e4. c8 | e8 c8 e8 c8 e8 c4. | r8 e4 c8 e4. f8 | e4 ef8 d8~ d2 |
   \break
   r8 e4 c8 e4. c8 | ef8 c8 ef8 c8 ef8 d4. | r8 e4 c8 e4. f8 | e8( ef8) d8 c8~ c2 |
@@ -105,10 +92,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

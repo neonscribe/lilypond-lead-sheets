@@ -2,15 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
-
 \header {
   title = "Cherokee"
   subtitle = \subtitle
@@ -23,15 +14,15 @@ refrainChords = \chordmode {
   bf1:maj7 bf2:maj7 f2:7.5+ f1:m7 bf1:7
   ef1:maj7 ef1:maj7 af1:9 af1:9
   bf1:6 bf2:6 d2:m7 c1:7 c1:7
-  
+
   c1:m7 d2:m7.5- g2:7.9- c1:m7 f1:7.5+
 
   bf1:maj7 bf2:maj7 f2:7.5+ f1:m7 bf1:7
   ef1:maj7 ef1:maj7 af1:9 af1:9
   bf1:6 bf2:6 d2:m7 c1:7 c1:7
-  
+
   c1:m7 f1:7 bf1:6 bf1:6
-  
+
   cs1:m7 fs1:7 b1:maj7 b1:maj7
   b1:m7 e1:7 a1:maj7 a1:6
   a1:m7 d1:7 g1:maj7 g1:maj7
@@ -40,7 +31,7 @@ refrainChords = \chordmode {
   bf1:maj7 bf2:maj7 f2:7.5+ f1:m7 bf1:7
   ef1:maj7 ef1:maj7 af1:9 af1:9
   bf1:6 bf2:6 d2:m7 c1:7 c1:7
-  
+
   c1:m7 f1:7 bf1:6
   \chordOpenParen{ c2:m7 }
   \chordCloseParen{ f2:7.5+ }
@@ -48,24 +39,16 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Fast [Clifford Brown 1953]" 320
-  
+
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   d1 | f2 g2 | bf1 | g1 |
   f1 | d2 f2 | d1 | c1 |
   \break
@@ -73,15 +56,15 @@ refrainMelody = \relative f' {
   g1 | f2 d2 | c1 | cs1 |
 
   \sect "A2"
-  
+
   d1 | f2 g2 | bf1 | g1 |
   f1 | d2 f2 | d1 | c1 |
   \break
   bf1 | d2 f2 | d'1 | bf1 |
   g1 | d1 | bf1~ | bf1 |
 
-  \sect "B"
-  
+  \sectPageBreak "B"
+
   ds'1~ | ds2 cs2 | cs4 as4 fs2~ | fs2 cs'2 |
   \break
   cs4 a4 fs2~ | fs2 b2 | e,1~ | e1 |
@@ -89,7 +72,7 @@ refrainMelody = \relative f' {
   b'1~ | b2 a2 | a4 fs4 d2~ | d2 a'2 |
   \break
   a4 f4 d2~ | d2 g2 | c,1 | cs1 |
-  
+
   \sect "A3"
 
   d1 | f2 g2 | bf1 | g1 |
@@ -98,15 +81,10 @@ refrainMelody = \relative f' {
   bf1 | d2 f2 | d'1 | bf1 |
   g1 | d1 | bf1~ | bf1 |
 
-  \bar "|."    
+  \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

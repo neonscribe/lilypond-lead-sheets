@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-subtitle = "Standard Key"
+subtitle = "Alternate Key"
 whatKey = ef
 whatClef = "treble"
 

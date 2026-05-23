@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Detour"
   subtitle = \subtitle
@@ -34,53 +29,45 @@ When I
 
 refrainChords = \chordmode {
   s2
-  
+
   ef1 ef1 ef1 ef1
   ef1 ef1:7 bf1:7 bf1:7
-  
+
   ef1 ef1:7 af1 af1
   bf1:7 bf1:7 ef1 ef1:7
-  
+
   af1 af1 af1 af1
   ef1 ef1 ef1 ef1
-  
+
   af1 af1 af1 af1
   bf1:7 bf1:7 ef1 ef1
 }
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Fast [Spade Cooley 1946]" 210
-  
+
   \partial 2 bf,4 c4 |
 
   \bar ".|:"
-  \sectStart "Verse"
-  
+  \sectNoBarNoBreak "Verse"
+
   ef4 ef4 f4 ef4 | g2 bf,4 c4 | ef4 ef4 f4 ef4 | g2. bf,4 |
   \break
   ef4 ef4 ef4 ef4 | bf'4 bf4 c4 c4 | bf1~ | bf4 r4 bf4 c4 |
   \break
-  ef2 c4 bf4 | c2 g4 ef4 | g4 gf4 f4 ef4 | c4( bf4) c'4 c4 | 
+  ef2 c4 bf4 | c2 g4 ef4 | g4 gf4 f4 ef4 | c4( bf4) c'4 c4 |
   \break
   bf1~ | bf4 g4 g4 f4 | ef1~ | ef4 r4 c'2 |
-  
+
   \sect "Chorus"
-  
+
   ef1~ | ef2 c4. c8 | ef4 ef4 ef4 c4 | ef2 g,2 |
   \break
   bf1~ | bf2 g4. af8 | bf4 bf4 bf4 g4 | bf2 c2 |
@@ -88,23 +75,18 @@ refrainMelody = \relative f' {
   ef1~ | ef2 c4. c8 | ef4 ef4 ef4 c4 | ef2 c4 c4 |
   \break
   bf1~ | bf4 g4 g4 f4 | ef1~ | ef4 r4 bf4 c4 |
-  
+
   \bar ":|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 
 \pageBreak
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -128,7 +110,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { Headed down life's crooked road, lots of things I never knowed } }

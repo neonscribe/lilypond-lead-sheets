@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -46,11 +41,11 @@ he's join -- ing in the _ _ _ late, late show.
 refrainChords = \chordmode {
   ff1:7 ef1:7 ff1:7 ef1:7
   af2:7 g2:7 gf2:7 f2:7 bf1:7
-  
+
   ff2:7 ef2:7
-  
+
   ef2:7 af2:7
-  
+
   df1:6 d1:dim7 af1/ef ef2:m7 af2:7
   df1:6 d1:dim7 c2:m7 f2:7 bf2:7 ef2:7
 
@@ -60,15 +55,7 @@ refrainChords = \chordmode {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -77,7 +64,7 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Catherine Russell 2006]" 138
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r8 ff4 gf8 af8 cf8 df8 cf8 | ef4 c8 f,8~ f4 r4 |
@@ -90,15 +77,15 @@ refrainMelody = \relative f' {
   c4 c4 af2 |
   } } }
   \sect "B"
-  
+
   r4 r8 cf8~ cf8 af8 bf8 af8 | f'4. cf8~ cf4 r4 |
   c4 c4 c8 df8 eff8 ef8~ | ef2 r2 |
   \break
   cf4 bf8( af8) bf4 af8 f'8~ | f4. cf8~ cf4 r8 c8~ |
   c8 ef4 c8 ef4 r8 f8~ | f4 cf4~ cf8 ef,4. |
-  
+
   \sect "A3"
-  
+
   r8 ff4 gf8 af8 cf8 df8 cf8 | ef4 c8 f,8~ f4 r4 |
   r8 ff4 gf8 af8 cf8 df8 cf8 | ef4 c8 f,8~ f4 r4 |
   \break
@@ -108,10 +95,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Buckaroo"
   subtitle = \subtitle
@@ -24,23 +19,15 @@ refrainChords = \chordmode {
 
  a1:7 a1:7 d1 d1 e1:m e1:m a1 a1
 
- d1 d1 g1 g1 d1 a1 d2 g2 a1 d2 g2 
+ d1 d1 g1 g1 d1 a1 d2 g2 a1 d2 g2
  d1
- 
+
  d4 a4 d2
 }
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -49,12 +36,13 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up [Buck Owens 1965]" 190
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
+  \bar ".|:"
   \repeat volta 2 {
 
     r4 a,4 d8 e8 fs8 g8~ | g4 fs4 e8 d4. |
     r4 d4 g8 a8 b8 c8~ | c4 b4 a8 g4. |
-    
+
     \break
 
     r4 a,4 d8 e8 fs8 g8~ | g4 fs4 e8 d4. |
@@ -63,7 +51,7 @@ refrainMelody = \relative f' {
     \break
 
     \xTextMark \markup{ \bold \box "A2" }
-  
+
     r4 a4 d8 e8 fs8 g8~ | g4 fs4 e8 d4. |
     r4 d4 g8 a8 b8 c8~ | c4 b4 a8 g4. |
 
@@ -80,15 +68,15 @@ refrainMelody = \relative f' {
   }
 
   \sect "B"
-  
+
   r4 cs8 a8 b8 cs8 b8 a8 | d4 cs4 b8 cs4. |
   r4 a4 d8 e8 fs8 g8~ | g4 fs4 e8 d4. |
-  
-    \break
+
+  %% \break
 
   r4 e4 g4 b4 | e4 b4 g4 e4 |
   r4 cs8 a8 b8 cs8 b8 a8 | d4 cs4 b8 cs4. |
-  
+
   \sect "A3"
 
     r4 a4 d8 e8 fs8 g8~ | g4 fs4 e8 d4. |
@@ -98,25 +86,20 @@ refrainMelody = \relative f' {
 
    r4 d8 e8 fs8 g8 fs8 e8 | r4 cs8 a8 b8 cs4. |
     d2 b2 | cs4 cs8 a8 b8 cs4. |
-  
-    \break
+
+  %% \break
 
     d2 b2 \textToCoda | d4 r4 r2 \daCapo |
 
   \bar "|."
 
   \textCoda
-  
+
   d4 cs4 d2
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

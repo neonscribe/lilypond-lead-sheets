@@ -4,11 +4,6 @@
 
 % #(set-global-staff-size 18)
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I Think I'll Just Stay Here and Drink"
   subtitle = \subtitle
@@ -38,7 +33,7 @@ I think I'll just __ stay here and drink.
 
 refrainChords = \chordmode {
   a1:7
-  
+
   d1:7 d1:7 a1:7 a1:7
   e1:7 e1:7 a1:7 a1:7
 
@@ -54,15 +49,7 @@ refrainChords = \chordmode {
 
 refrainKey = a
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -75,56 +62,48 @@ refrainMelody = \relative f' {
   \bar ".|:"
 
   \sectNoBarNoBreak "Verse 1"
-  
-  a4 r4 r2 | 
+
+  a4 r4 r2 |
 
   r8. d,16 fs8 a8 b16 cs16 b8~ b16 fs16 fs8 | fs16 a16 fs16( e16~ e4) r2 |
   r4 cs8 e8 e16 cs16 cs8 d16 cs8 b16~ | b2 r2 |
   r4 gs'16 a8 a16~ a8 g8 e8 cs8 | a2 r2 |
   \break
   r8 cs8 cs16 cs16 e8 fs8 a8 b8 cs16 a16~ |
-  
+
   \sectNoBreak "Verse 2"
-  
+
   a2 r2 | r4 fs8 a8 c8. b16 a8 g8 | d8( c4.) r2 |
   r8 cs8 d16 e8 cs16 e16 cs8.~ cs8 cs16 b16 | b4 r4 r2 |
   r4 fs'16 a8 a16~ a8 g8 e8 c8 | a1 |
   \break
   r8 cs8 cs16 e8 fs16~ fs8 a8 b8 cs8 |
-  
+
   \sectNoBreak "Verse 3"
   \tempo "Double-Time Feel"
-  
+
   a1 |
   r4 fs8 a8 c8 b8 a8 fs8 | a16 a8. fs16( e8.) r2 |
   r4 e8 e8 e16 cs16 e16 cs16 e16( cs8) b16 | b16 b8 b16~ b4 r2 |
   r8 a'8 a16 a8 a16~ a8 g8 e8 c8 | a1 | r1 |
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectNoBarNoBreak "Solos"
-  
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+
+  \sectPageBreak "Solos"
+
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | 
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \bar ":|."
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
-  \column 
+  \column
   \bold
   {
    \vspace #2
@@ -144,7 +123,7 @@ refrainMelody = \relative f' {
   {
     \hspace #4
     }
-  \column 
+  \column
   {
    \vspace #2
    \line { \large { I could be holding you tonight. } }

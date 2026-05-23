@@ -1,17 +1,26 @@
 %% -*- Mode: LilyPond -*-
 
-emphasize = {
-  \override Lyrics.LyricText.font-shape = #'italic
-}
+midiKey = \refrainKey
+midiChords = \refrainChords
+midiMelody = \refrainMelody
 
-\score {
- <<
+midiIncludeFile = 
+#(if (and (defined? 'midiOnly) midiOnly)
+  "../Include/midi.ily"
+  "../Include/nothing.ily")
+
+$(if (not (and (defined? 'midiOnly) midiOnly))
+  #{
+\new Score \with {
+   \remove System_start_delimiter_engraver
+}
+<<
    $(if (and (defined? 'refrainAltChords) refrainAltChords)
      #{
     { \context ChordNames = "AltChords"
       \with { \consists #Bass_changes_equal_root_engraver }
       {
-      \override ChordName.font-size = #+3
+      \override ChordName.font-size = #+2.5
       $(if (and (defined? 'altChordSize) AltChordSize)
 	#{ \override ChordName.font-size = \altChordSize #} )
       \override ChordName.font-series = #'bold
@@ -25,7 +34,7 @@ emphasize = {
     { \context ChordNames = "StdChords"
       \with { \consists #Bass_changes_equal_root_engraver }
       {
-      \override ChordName.font-size = #+3
+      \override ChordName.font-size = #+2.5
       $(if (and (defined? 'chordSize) chordSize)
 	#{ \override ChordName.font-size = \chordSize #} )
       \override ChordName.font-series = #'bold
@@ -42,14 +51,27 @@ emphasize = {
             #'( (basic-distance . 1) 
                 (minimum-distance . 1) 
                 (padding . 1) )
-        \override Staff.TimeSignature.stencil = ##f
-        \override Staff.BarLine.stencil = ##f
-        \override Staff.StaffSymbol.line-count = #0
+      \override Staff.StaffSymbol.transparent = ##t
+      \override Staff.Clef.stencil = ##f
+      \override Staff.TimeSignature.stencil = ##f
+      \override Staff.BarLine.stencil = ##f
+      \override Staff.StaffSymbol.line-count = #0
       \improvisationOn
       \magnifyMusic 0.63 \refrainKicksOverTime
       \improvisationOff
     }
     #} )
+    $(if (and (defined? 'printNoteNames) printNoteNames)
+      #{ 
+      \new NoteNames \tiedNoteToSkip { 
+      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+      \refrainMelody
+      } }
+      #} )
+ \new StaffGroup \with {
+    systemStartDelimiter = #'SystemStartBar
+}
+<<
     \new Staff 
     {
       \include "../Include/staff-settings.ily"
@@ -69,13 +91,6 @@ emphasize = {
       \noDoubleAccidentalMusic \transpose \refrainKey \bassKey { \refrainBass }
 	}
     }
-      #} )
-    $(if (and (defined? 'printNoteNames) printNoteNames)
-      #{ 
-      \new NoteNames \tiedNoteToSkip { 
-      \removeWithTag LLS \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
-      \refrainMelody
-      } }
       #} )
     $(if (and (not (and (defined? 'hideLyrics) hideLyrics))
 	  (defined? 'refrainLyrics) refrainLyrics)
@@ -207,12 +222,7 @@ emphasize = {
     }
       #} ) )
   >>
-  \layout { 
-    ragged-bottom = ##t ragged-right = ##f }
-}
+ >>
+#} )
 
-midiKey = \refrainKey
-midiChords = \refrainChords
-midiMelody = \refrainMelody
-
-\include "../Include/midi.ily"
+\include \midiIncludeFile

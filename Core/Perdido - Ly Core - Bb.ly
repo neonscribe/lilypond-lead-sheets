@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Perdido"
   subtitle = \subtitle
@@ -16,6 +11,8 @@ subtitle =
   composer = "Juan Tizol"
   copyright = \markup \small { \now " " "© 1942 Tempo Music, Inc." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 Per -- di -- do, __
@@ -37,14 +34,14 @@ That yearn -- ing to lose __ per -- di -- do. __
 }
 
 refrainChords = \chordmode {
-  s4
-  
+  s8
+
   c1:m7 f1:7 bf1:6 d2:m7 df2:7
   c1:m7 f1:7 bf1:6 d2:m7 df2:7
 
   c1:m7 f1:7 bf1:6 d2:m7 df2:7
   c1:m7 f1:7 bf1:6 bf1:6
-  
+
   d1:7 d1:7 g1:7 g1:7 c1:7 c1:7 f1:7 f1:7
 
   c1:m7 f1:7 bf1:6 d2:m7 df2:7
@@ -55,15 +52,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,11 +60,10 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Sarah Vaughan 1950]" 144
 
-  \partial 4 \invisEighth c8 |
-  \bar "||"
+  \partial 8 c8 |
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   ef8 f4.~ f4 r8 c8 | ef8 f4 c8 ef8 f4 bf,8 |
   d8 f4.~ f4 r8 bf,8 | d8 f4 bf,8 d8 f4 c8 |
   \break
@@ -83,7 +71,7 @@ refrainMelody = \relative f' {
   g8 bf4.~ bf2 | r2 r4 r8 c,8 |
 
   \sect "A2"
-  
+
   ef8 f4.~ f4 r8 c8 | ef8 f4 c8 ef8 f4 bf,8 |
   d8 f4.~ f4 r8 bf,8 | d8 f4 bf,8 d8 f4 c8 |
   \break
@@ -91,11 +79,11 @@ refrainMelody = \relative f' {
   g8 bf4.~ bf2~ | bf2 r2 |
 
   \sect "B"
-  
+
   d1 | \tuplet 3/2 { a4 b4 c4 } d4 d8 e8~ | e1 | b8 a4.~ a2 |
   \break
   c1 | \tuplet 3/2 { g4 a4 bf4 } c4 c8 d8~ | d1 | a8 g4.~ g4 r8 c,8 |
-  
+
   \sect "A3"
 
   ef8 f4.~ f4 r8 c8 | ef8 f4 c8 ef8 f4 bf,8 |
@@ -108,10 +96,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

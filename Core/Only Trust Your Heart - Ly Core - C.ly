@@ -6,14 +6,9 @@
 
 %}
 
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
-
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
 
 \header {
   title = "Only Trust Your Heart"
@@ -44,7 +39,7 @@ refrainLyrics = \lyricmode {
 }
 
 refrainLyricsTwo = \lyricmode {
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
 #{
 \lyricmode {
@@ -66,18 +61,18 @@ refrainLyricsTwo = \lyricmode {
 
 refrainChords = \chordmode {
   f1:maj7 b1:7.9+ e1:m7 a1:m7
-  d1:m7 g2:7 g2:7.5+ 
-  
+  d1:m7 g2:7 g2:7.5+
+
   c1:maj7 g2:m7 c2:7
 
   c1:maj7 g2:m7 gf2:7.5-
-  
+
   f1:maj7 a1:m7/e d1:m7 d1:m7/c
   b1:m7.5- e1:7.5+ a2.:m7 af4:m7 g2:m7 c2:7
-  
+
   f1:maj7 b1:7.9+ e1:m7 a1:m7
-  d1:m7 g2:7 g2:7.5+ 
-  
+  d1:m7 g2:7 g2:7.5+
+
   bf1:7.5- a1:7 d1:m7 f2:m7 bf2:7
   c1:maj7 e2:m7 a2:7.9- af1:7.5-
   f2:maj7/g g2:7.9- c1:6
@@ -88,30 +83,22 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative c'' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  
+
   \tempoFour "Medium Bossa [Stan Getz, Astrud Gilberto 1964]" 128
-  
-  \sectStart "A1, A2"
+
+  \sectNoBarNoBreak "A1, A2"
 
   \bar ".|:"
   \repeat volta 2 {
   a4 b4 c4 b4 | d2~ d8 c8 b8 a8 | g4 a4 b4 a4 |
   \break
-  c1 | f,4 g4 a4 g4 | b2~ b8 a8 g8 f8 | 
+  c1 | f,4 g4 a4 g4 | b2~ b8 a8 g8 f8 |
   \break
   \alternative { \volta 1 {
   e4 f4 g2~ | g2. r4 |
@@ -119,7 +106,7 @@ refrainMelody = \relative c'' {
   e4 f4 g2~ | g2 r4 c,4 |
   } } }
 
-  \sect "B"
+  \sectPageBreak "C"
 
   a'1~ | a2 c4 a4 | f1~ | f2 a4 f4 |
   \break
@@ -129,7 +116,7 @@ refrainMelody = \relative c'' {
 
   a4 b4 c4 b4 | d2~ d8 c8 b8 a8 | g4 a4 b4 a4 | c1 |
   \break
-  f,4 g4 a4 g4 | b2~ b8 a8 g8 f8 | 
+  f,4 g4 a4 g4 | b2~ b8 a8 g8 f8 |
   e1~ | e2. a,4 |
 
   \sect "C"
@@ -142,10 +129,5 @@ refrainMelody = \relative c'' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

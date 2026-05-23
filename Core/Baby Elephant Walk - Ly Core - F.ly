@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   (set-global-staff-size 18))
 
@@ -29,7 +24,7 @@ bassIntro = \relative f' {
   \key \introKey \major
   \clef bass
   \tempoFour "Medium [Henry Mancini 1961]" 122
-  
+
   \xTextMark \markup{ \bold \box "Intro" }
 
   f,,8_"(Bass)" f8 gs8 a8 f8 f8 gs8 a8 | f8 f8 gs8 a8 f8 f8 gs8 a8 |
@@ -42,14 +37,14 @@ refrainChords = \chordmode {
   f1 f1 f1 f1
   bf1 bf1 f1 f1
   c1 bf1 f1
-  
+
   f1
-  
+
   f1
-  
+
   f1 f1 f1 bf4 f4 bf4 f4
   r1 r1 bf1 bf1
-  
+
   f1 f1 c1 bf1
 
   f1 f1 f1 f1
@@ -59,15 +54,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -81,7 +68,6 @@ refrainMelody = \relative f' {
   f8. a16 c8 f8 a8 g8 f8 d8 | b8 c8 r4 r2 |
   f,8. a16 c8 f8 a8 g8 f8 d8 | c2. d8 af8~ |
   af2.~ af8 d8 | af8 f8 r4 r2 |
-  \break
   f8. a16 c8 f8 a8 g8 f8 d8 | b8 c8 r4 r4 r8 c8 |
   g'4 g4 e8 c8 r8 c8 | f4 f4 ef16 f16 ef16 c16 bf8 gs8 |
   b4 b4 bf16 cf16 bf16 af16 f8 c8 |
@@ -94,23 +80,20 @@ refrainMelody = \relative f' {
 
   a8 r8 a''4 r4 g8 g8 | r4 a4 r4 r8 c,,8 |
   f4 af8 f8 bf8 af4. | f4 f4 f8 f8 f8 r8 |
-  \break
   f,4 af8 f8 bf8 bf8 af8 f8 | af8 bf8~ bf2 f8 af8~ |
   af2.~ af8 d8 | af8 f8 r4 r2 |
-  
+
   \sect "Turnaround"
 
   f'8. a16 c8 f8 a8 g8 f8 d8 | b8 c8 r4 r4 r8 c8 |
   g'4 g4 e8 c8 r8 c8 | f4 f4 ef16 f16 ef16 c16 bf8 gs8 |
-  
+
   \sect "A3"
-  
+
   f8. a16 c8 f8 a8 g8 f8 d8 | b8 c8 r4 r2 |
   f,8. a16 c8 f8 a8 g8 f8 d8 | c2. d8 af8~ |
-  \break
   af2.~ af8 d8 | af8 f8 r4 r2 |
   f8. a16 c8 f8 a8 g8 f8 d8 | b8 c8 r4 r4 r8 c8 |
-  \break
   g'4 g4 e8 c8 r8 c8 | f4 f4 ef16 f16 ef16 c16 bf8 af8 |
   f8 r8 c4 d4 c4 | ef2 b''2\fermata |
 
@@ -118,11 +101,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/bass-intro.ily"
 

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
   #{ #(set-global-staff-size 18) #}
 )
@@ -20,6 +15,7 @@ $(if (and (defined? 'printNoteNames) printNoteNames)
 }
 
 bossaRhythm = ##t
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 If there was ev -- er a man __
@@ -37,33 +33,25 @@ so I'd be un -- a -- fraid __ and free. __
 }
 
 refrainChords = \chordmode {
-  s2
-  
+  s4.
+
   f1:m9 f1:m9 ef1:9 ef1:9
   df1:9 c4:7 r2. f1:m9
-  
+
   f1:m9
 
   f1:m9 f1:m9 ef1:9 ef1:9
   df1:9 c4:7 r2. f1:m9
-  
+
   f1:m9
-  
+
   ef1:m9 ef1:m9 f1:m9 f1:9
   ef2:9 df2:9 c4:7 r2. f1:m9 f1:m9
 }
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,11 +59,11 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Bossa [Horace Silver 1965]" 126
 
-  \partial 2 \invisEighth c8-. f8-. af8-. |
+  \partial 4. c8-. f8-. af8-. |
   \bar "||"
 
   \sectNoBreak "A1"
-  
+
   c8 bf8 af8-. bf8~ bf8 af8 f8-. af8~ |
   af8 f8 ef8-. f8~ f8 ef8 c8-. ef8~ |
   ef1~ | ef2. g,8 gf8 |
@@ -83,16 +71,16 @@ refrainMelody = \relative f' {
   f8-. df'8~ df2. | r2 f4. g8~ | g1~ | g2 r8 c,8-. f8-. af8-. |
 
   \sect "A2"
-  
+
   c8 bf8 af8-. bf8~ bf8 af8 f8-. af8~ |
   af8 f8 ef8-. f8~ f8 ef8 c8-. ef8~ |
   ef1~ | ef2. g,8 gf8 |
 
   f8-. df'8~ df2. | r2 f4. g8~ | g1~ | g2 r8 ef8-. ef8-. ef8-. |
 
-  
+
   \sect "B"
-  
+
   ef8 df8 r8 f8~ f2~ | f2 r8 f8-. f8-. f8-. |
   f8 ef8 r8 g8~ g2~ | g2 r8 ef8-. ef8-. ef8-. |
   \break
@@ -103,10 +91,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

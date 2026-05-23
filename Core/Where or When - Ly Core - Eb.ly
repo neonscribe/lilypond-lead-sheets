@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -37,14 +32,14 @@ The smile you are smil -- ing you were smil -- ing them,
 refrainChords = \chordmode {
   ef1:maj7 ef1:6 ef1:dim7 ef1:maj7
   af1:maj7 af1:maj7 af1:maj7 f2:m7 bf2:sus7
-  
+
   ef2:maj7 c2:m7 f2:m7 bf2:7
-  
+
   ef2:maj7 ef2:6 d2:m7.5- g2:7
-  
+
   c1:m7 f1:m7 d1:m7.5- g1:7
   c1:m7 f1:m7 f2:sus7 b2:7.5- bf2:sus7 bf2:7
-  
+
   ef1:maj7 ef1:6 d2:m7.5- g2:7 c1:m7
   f1:m7 g1:m7 f1:m7 g1:m7
   f1:m7 bf1:7 ef1:6
@@ -54,15 +49,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -71,7 +58,7 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Dion and the Belmonts 1959]" 72
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   r4 bf,4 bf4 bf4 | c4 c4 c4 c4 | d2. bf4 | d2. bf4 |
@@ -83,11 +70,11 @@ refrainMelody = \relative f' {
   g1~ | g2 r2 |
   } } }
   \sect "B"
-  
+
   r4 g4 fs4 g4 | bf4 af4 c,4. ef8 | g2 g2~ | g1 |
   \break
   r4 g4 fs4 g4 | c4 af4 c,4. ef8 | f1~ | f1 |
-  
+
   \sect "C"
 
   r4 bf,4 bf4 bf4 | c4 c4 c4 c4 | d2. d4 | ef2. ef4 |
@@ -100,10 +87,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

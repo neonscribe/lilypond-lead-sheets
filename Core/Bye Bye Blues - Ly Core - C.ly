@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -97,15 +92,7 @@ refrainChords = \refrainUGChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -124,13 +111,13 @@ refrainMelody = \relative f' {
   e'1 | a,1 | e'1 | b1 |
   \break
   d2 c2 | b2 a2 | c2 b2 | a2 g2 |
-  
+
   \sect "A2"
 
   e'1 | g,1 | af1~ | af1 |
   \break
   e'1 | g,1 | a1~ | a1 |
-  
+
   \sect "C"
 
   e'1 | a,1 | e'1 | b1 |
@@ -141,10 +128,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

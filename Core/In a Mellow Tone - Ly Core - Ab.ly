@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "In a Mellow Tone"
   subtitle = \subtitle
@@ -38,7 +33,7 @@ in a mel -- low tone. __
 
 refrainChords = \chordmode {
   s2.
-  
+
   bf1:7 ef1:7 af1:6 af1:6
   ef1:m7 af1:7 df1:maj7 df1:maj7
 
@@ -57,15 +52,7 @@ refrainChords = \chordmode {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -74,29 +61,28 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [The Mills Brothers 1955]" 130
 
   \partial 2. g8 ef8 f8 g4 af8~ |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   af1 | r4 g8 ef8 f8 g4 af8~ | af1 | r4 g8 ef8 f8 g4 af8~ |
   \break
   af1 | r4 bf8 f8 af8 bf4 c8~ | c1 | r4 bf8 f8 af8 bf4 f8~ |
-  
+
   \sect "B"
-  
+
   f1 | r4 af8 bf8~ bf4 af8 c8~ | c1 | r4 g8 ef8 f8 g4 af8~ |
   \break
   af1 | r4 af8 c8~ c4 af8 ef8~ | ef1 | r4 g8 ef8 f8 g4 af8~ |
-  
-  
+
+
   \sect "A2"
-  
+
   af1 | r4 g8 ef8 f8 g4 af8~ | af1 | r4 g8 ef8 f8 g4 af8~ |
   \break
   af1 | r4 bf8 f8 af8 bf4 c8~ | c1 | r4 b8 f'8~ f4 b,8 f8~ |
-  
+
   \sect "C"
-  
+
   f1 | r4 b8 f'8~ f4 b,8 f8~ | f1 | r4 b8 f'8~ f4 b,8 f8~ |
   \break
   f1 | r4 g8 ef8 f8 g4 af8~ | af1 | r1 |
@@ -105,10 +91,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

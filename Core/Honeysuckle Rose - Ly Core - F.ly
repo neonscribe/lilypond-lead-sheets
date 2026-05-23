@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -49,7 +44,7 @@ refrainHLChords = \chordmode {
   f2:6 g2:m7 af2:dim7 f2:6/a
 
   c1:m7 f1:7 bf1:6 bf1:6 d1:m7 g1:7 c1:7 c1:7
-  
+
   g2:m7 c2:7 g2:m7 c2:7 g1:m7 c1:7
   f2:6 f2:7/a bf2:maj7 b2:m7.5- f2:6
   \chordOpenParen{ bf2:9 }
@@ -69,7 +64,7 @@ refrainNRChords = \chordmode {
   f2:6 \chordInsideParens{ c2:7 } f1:6
 
   f1:7 c2:m7 f2:7 bf1:6 bf1:6 g1:7 g1:7 c1:7 c1:7
-  
+
   g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7
   f2:6 f2:7/a bf2:6 c2:7 f1:6
   \chordOpenParen{ a2:m7 }
@@ -88,7 +83,7 @@ refrainSimpleChords = \chordmode {
   f1:6 f1:6
 
   f1:7 f1:7 bf1:6 bf1:6 g1:7 g1:7 c1:7 c1:7
-  
+
   g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7
   f2:6 f2:7/a bf2:6 c2:7 f2:6
   \chordOpenParen{ bf2:7 }
@@ -99,7 +94,7 @@ refrainSimpleChords = \chordmode {
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "simple" refrainSimpleChords)
@@ -110,15 +105,7 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -126,7 +113,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Fast Swing [Coleman Hawkins 1937]" 185
 
-  \sectStart "A1"
+  \sectNoBarNoBreak "A1"
 
   c'8 bf8 d,8 f8 a2 |
   c8 bf8 d,8 f8 a2 |
@@ -164,10 +151,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

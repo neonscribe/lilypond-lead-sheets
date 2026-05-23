@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -42,16 +37,16 @@ refrainSRBChords = \chordmode {
 
   d1:m6 g1:7 d1:m7 g1:9
   d1:m7 g1:9 e2:m7 a2:7.9- d2:m9 g2:7
-  
+
   c1:6 c2:6 cs2:dim7 d1:m7 g1:9
   c2:6 d2:m7 ds2:dim7 c2:6/e c1:m9 f1:9
 
   g1:6 d1:m7 g1:6 d1:m7
   g1:6 a2:m9 d2:7.9-.5+ d1:m7 g1:9
-  
+
   c1:6 c2:6 cs2:dim7 d1:m7 g1:9
   c2:6 d2:m7 ds2:dim7 c2:6/e bf1:9.11+ a2:9 a4:7.9-.5+ a4:7.9-
-  
+
   d1:7/fs f1:m7 e1:m7 ef1:dim7
   d1:13 g2:sus9 g2:7.5+ c2:maj7 \chordInsideParens{ f2:9 } e2:m7 a4:7.9-.5+ a4:7.9-
 
@@ -67,33 +62,25 @@ refrainChords = \refrainSRBChords
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Bob Crosby 1939]" 125
-  
+
   \partial 4 g4 |
   \bar "||"
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   a1~ | a2. g4 | a1~ | a2. g4 |
   \break
   a4 a4 a4 g4 | a4 b4 c4 d4 | d1~ | d4 c4 d4 c4 |
-  
+
   \sect "B"
-  
+
   b4 b4 b4 b4 | b4 c4 \tuplet 3/2 { b4 a4 g4 } | a4 a4 a2~ | a4 c4 \tuplet 3/2 { b4 a4 g4 } |
   \break
   a4 a4 a2~ | a4 c4 \tuplet 3/2 { b4 a4 g4 } | e1~ | e2 r4 g4 |
@@ -103,30 +90,27 @@ refrainMelody = \relative f' {
   a1~ | a2. g4 | a1~ | a2. g4 |
   \break
   a4 a4 a4 g4 | a4 b4 c4 d4 | d1~ | d4 c4 b4 c4 |
-  \bar "||"
-  
-  \xPageBreak
-  
-  \sectNoBarNoBreak "C"
-  
+
+  \sectPageBreak "C"
+
   d4 d,8 d8 d8 d8 d8 d8 | f4 f2. | d'4 d,8 d8 d8 d8 d8 d8 | f1 |
   \break
   d'4 d,8 d8 d8 d8 d8 d8 | b'4 b4 bf4 bf4 | a1~ | a2 r4 g4 |
-  
+
   \sect "A3"
 
   a1~ | a2. g4 | a1~ | a2. g4 |
   \break
   a4 a4 a4 g4 | a4 b4 c4 d4 | e1~ | e2 f4 e4 |
-  
+
   \sect "D1"
-  
+
   d4 d4 d2~ | \tuplet 3/2 { d4 c4 d4 } \tuplet 3/2 { ef4 d4 c4 } | b1~ | b4 a4 b4 a4 |
   \break
   b1~ | b4 a4 b4 a4 | b1~ | b2 f'4 e4 |
 
   \sect "D2"
-  
+
   d4 d4 d2~ | \tuplet 3/2 { d4 c4 d4 } \tuplet 3/2 { ef4 d4 c4 } | a1~ | a4 g4 e4 f4 |
   \break
   g2. a4 | c2. e4 | c1 | r1 |
@@ -135,10 +119,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -41,14 +36,14 @@ you. __ ""
 refrainChords = \chordmode {
   s2
   g2:7 d2:m7.5- d1:m7/g g2:7 d2:m7/g d2:m7/g g2:7 c1:maj7 c1:maj7
-  
+
   c1:maj7/e ef2:m6 af2:7
-  
+
   a1:7 a1:7
-  
+
   d1:m7 g1:7 c1:maj9 c2:6 c2:7
   f2 f2:m6 d2:m7.5- g2:7 c1:maj9 ef2:m6 af2:7
-  
+
   g2:7 d2:m7.5- d1:m7/g g2:7 d2:m7/g d2:m7/g g2:7 c1:maj7 c1:maj7
 
   e2:7 bf2:7.5- a2:7 a2:7.9- d1:m7 d2:m7.5- g2:7 c1:6
@@ -58,26 +53,18 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Ballad [The Flamingos 1959]" 90
-  
+
   \partial 2 d4. e8 |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   g2 f4. e8 | d2~ \tuplet 3/2 { d4 d4 e4 } |
@@ -90,20 +77,20 @@ refrainMelody = \relative f' {
   cs1~ | cs1 |
   } } }
   \sect "B"
-  
+
   r4 d4 c4 a4 | g4 f4 e4 d4 | g2 g2~ | g1 |
   \break
   r4 d'4 c4 af4 | g4 f4 e4 d4 | g1 | bf2~ bf4. af8 |
 
   \sect "A3"
-  
+
   g2 f4. e8 | d2~ \tuplet 3/2 { d4 d4 e4 } |
   \tuplet 3/2 { g4 a4 g4 } \tuplet 3/2 { f4 g4 f4 } | d2~ \tuplet 3/2 { d4 g4 a4 } |
   \break
   \tuplet 3/2 { b4 d4 c4 } b2~ | b2 c2 |
 
   \sectNoBreak "C"
-  
+
   ef1~ | ef2 f4. ef8 |
   \break
   \tuplet 3/2 { d4 ef4 d4 } c2~ | c2 d2 |
@@ -113,10 +100,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

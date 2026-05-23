@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -19,23 +14,15 @@ subtitle =
 
 refrainChords = \chordmode {
   s4
-  
-  bf1:7 bf1:7 bf1:7 bf1:7 
+
+  bf1:7 bf1:7 bf1:7 bf1:7
   ef1:7 ef1:7 bf1:7 bf1:7
   f1:7 f1:7 bf2:7 g2:7 c2:m7 f2:7
 }
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -46,8 +33,8 @@ refrainMelody = \relative f' {
   \partial 4 f4-. |
   \bar "||"
 
-  \sectStart "Head"
-  
+  \sectNoBarNoBreak "Head"
+
   af4. bf8~ bf4 f4-. | af4. bf8~ bf4 f4-. | af8 bf8 af4 bf4 af8 f8 | r4 r8 bf8~ bf4 bf4-. |
   \break
   df4. ef8~ ef4 bf4-. | df4. ef8~ ef4 f,4-. | af8 bf8 af4 bf4 af8 f8 | r2 r4 bf4-. |
@@ -59,11 +46,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
 

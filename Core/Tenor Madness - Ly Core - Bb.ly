@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Tenor Madness"
   subtitle = \subtitle
@@ -17,8 +12,10 @@ subtitle =
   copyright = \markup \small { \now " " "© 1956 Prestige Music" }
 }
 
+leadingEighth = ##t
+
 refrainChords = \chordmode {
-  s4
+  s8
 
   bf1:7 ef1:7 bf1:7 bf1:7
   ef1:7 ef1:7 bf1:7 g1:7.9+
@@ -27,15 +24,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -43,7 +32,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Up [Sonny Rollins 1956]" 175
 
-  \partial 4 \invisEighth d'8 |
+  \partial 8 d'8 |
   \bar "||"
 
   r8 bf4 g8 bf4 r8 df8 | r8 bf4 g8 bf4 r8 d8 |
@@ -59,10 +48,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

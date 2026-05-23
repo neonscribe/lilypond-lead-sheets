@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Ain't Nothin' Like Christmas"
   subtitle = \subtitle
@@ -27,7 +22,7 @@ refrainLyrics = \lyricmode {
   I'll bring the nog,
   you put on a log,
   it's a Christ -- mas par -- ty.
-  
+
   Oh with tin -- sel in our hair
   And pres -- ents ev' -- ry -- where.
   Fam' -- ly's in the kit -- chen watch -- ing it snow.
@@ -38,12 +33,12 @@ refrainLyrics = \lyricmode {
 
 refrainChords = \chordmode {
   s2.
-  
+
   g1 g1:7 c1 g1
   g1 g1 a1:7 d1:7
   g1 g1:7 c1 g1:7
   c1 g2 e2:7 a2:7 d2:7 g1
-  
+
   c1 c1 g1 g1
   a1:7 a1:7 d1:7 d1:7
   c1 c1 g1 g1
@@ -52,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -74,14 +61,14 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
 
   \xTextMark \markup{ \bold \box "Chorus" }
-  
+
   e4 b8 d8~ d4. e8~ | e4 r4 r2 | e,8 e8 g8 bf8~ bf4 bf8 b8~ | b8 r8 e4 e8 d8 e4 |
   \break
   e4 b8 d8~ d4. e8~ | e4 r4 r4 r8 a,8 | a8 a4 fs'8~ fs8 e4 d8~ | d8 r8 e4 e8 d8 e4 |
   \break
   e4 b8 d8~ d4. e8~ | e4 r4 r2 | e,8 e8 g8 bf8~ bf4 bf8 b8~ | b8 r8 r4 r2 |
   \break
-  e8 e8 e8 e8~ e4. e8 | d8 d8 e8 b8~ b4 a8 g8 | a4 g4 bf8( a4) g8~ | g4 
+  e8 e8 e8 e8~ e4. e8 | d8 d8 e8 b8~ b4 a8 g8 | a4 g4 bf8( a4) g8~ | g4
   \volta 2 \fine
   r4 r4 e'8 e8 |
   \sect "Verse"
@@ -96,10 +83,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

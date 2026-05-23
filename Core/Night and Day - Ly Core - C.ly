@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Night and Day"
   subtitle = \subtitle
@@ -37,21 +32,21 @@ refrainLyrics = \lyricmode {
 
 refrainChords = \chordmode {
   s2
-  
+
   af1:maj7 g1:7 c1 c1
   af1:maj7 g1:7 c1 c1
   fs1:m7.5- f1:m7 e1:m7 ef1:dim7
   d1:m7 g1:7 c1
-  
+
   c1
-  
+
   af1:maj7 g1:7 c1 c1
   af1:maj7 g1:7 c1 c1
   fs1:m7.5- f1:m7 e1:m7 ef1:dim7
   d1:m7 g1:7 c1
-  
+
   c1
-  
+
   ef1 ef1 c1 c1
   ef1 ef1 c1 c1
   fs1:m7.5- f1:m7 e1:m7 ef1:dim7
@@ -60,56 +55,43 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium Swing [Billie Holiday 1939] or Latin" 160
-  
+
   \partial 2 g4 g4 |
   \bar "||"
 
-  \sectStart "A1"
-  
+  \sectNoBarNoBreak "A1"
+
   g1~ | g2 \tuplet 3/2 { f4 e4 ds4 } | e1 | r2 g4 g8 g8~ |
   g4 g4 g4 g4 | g4 f4 \tuplet 3/2 { f4 e4 ds4 } | e1 | r2 e8 e4 e8~ |
   e4 e4 e4 e4 | ef2 ef4 ef4 | d4 d4 d4 d4 | d4 df8 c8~ c4 b4 |
   a4 af8 g8~ g2~ | g2 g'4 g8 g8~ | g1 |
   r2 g4 g4 |
-  
+
   \sect "A2"
-  
+
   g1~ | g2 \tuplet 3/2 { f4 e4 ds4 } | e1 | r2 g4 g8 g8~ |
   g4 g4 g4 g4 | g4 f4 \tuplet 3/2 { f4 e4 ds4 } | e1 | r2 e8 e4 e8~ |
   e4 e4 e4 e4 | ef2 ef4 ef4 | d4 d4 d4 d4 | d4 df8 c8~ c4 b4 |
   a4 af8 g8~ g2~ | g2 g'4 g8 g8~ | g1 |
   r2 g4 g4 |
-  
+
   \sect "B"
-  
+
   bf1~ | bf2 \tuplet 3/2 { g4 f4 ef4 } | g4 g4 g2 | r2 g4 g4 |
   bf8 c4 bf8 c4 bf8 c8~ | c8 bf4 g8~ \tuplet 3/2 { g4 f4 ef4 } | g4 g8 g8~ g2 | r2 e4. e8 |
   e4 e4 e4 e4 | ef2 ef4 ef4 | d4 d4 d4 d4 | d8 df8 c8 b'8~ b8 bf8 a4 |
   g4 g8 g8~ g2~ | g2 c4 c8 c8~ | c1 | r1 |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -1,13 +1,8 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
+% #(set-global-staff-size 18)
 
 \include "../Include/lead-sheets.ily"
-
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
 
 \header {
   title = "The Folks Who Live on the Hill"
@@ -22,7 +17,7 @@ verseLyrics = \lyricmode {
   Strive for loft -- y goals.
   Oth -- ers play at small -- er games,
   be -- ing simp -- ler souls.
-  I am of the lat -- ter breed; 
+  I am of the lat -- ter breed;
   all I want to do
   is to find a spot of land
   and live there with you.
@@ -44,7 +39,7 @@ verseMelody = \relative g' {
   \tempo "Moderately"
 
   \xTextMark \markup{ "Verse" }
-  
+
   c4 g4 g4 c4 | c4 g4 g2 | c4 g4 g4 b4 | b1 |
   \break
   b4 g4 g4 b4 | b4 g4 g2 | b4 g4 g4 a4 | a1 |
@@ -54,8 +49,6 @@ verseMelody = \relative g' {
   g4 g4 g4 g4 | d'4 e4 d2\fermata | r4 ef,4 \tuplet 3/2 { ef4 ef4 ef4 } | g1 |
 
   \bar "||"
-
-  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -65,6 +58,8 @@ refrainLyrics = \lyricmode {
   And we'll be pleased to be called __
 
   The folks who live on the hill.
+
+  hill.
 
   Our ver -- an -- da will com -- mand a view of mea -- dows green,
   The sort of view that seems to want to be seen.
@@ -88,18 +83,19 @@ refrainLyricsTwo = \lyricmode {
 refrainChords = \chordmode {
   c2:maj7 cs2:dim7 d2:m7 g2:7 e2:m7 ef2:dim7 d2:m7 g2:7
   e2:m7 a2:m7 d2:m7 g2:7 bf2:7.5- a2:7 d2:m7 g2:7
-  e2:m7 a2:m7 d2:m7 g2:7 
-  c4:6 
-  \chordOpenParen{ a4:m7 }
-  d4:m7
-  \chordCloseParen{ g4:7 }
+  e2:m7 a2:m7 d2:m7 g2:7
+  c2:6
+  a2:m7
+  d2:m7
+  g2:7
 
-  \chordOpenParen{ fs2:m7.5- }
-  \chordCloseParen{ b2:7.9- }
-  
+  c1:6
+  fs2:m7.5-
+  b2:7.9-
+
   e1:m fs2:m7.5- b2:7.9- e2:m e2:m/ds e2:m/d a4:7/cs d4:7
   g2:6 g2:7/f e4:m7 a4:7 d4:m7 g4:7
-  
+
   c2:maj7 cs2:dim7 d2:m7 g2:7 e2:m7 ef2:dim7 d2:m7 g2:7
   e2:m7 a2:m7 d2:m7 g2:7 bf2:7.5- a2:7 d2:m7 g2:7
   e2:m7 a2:m7 d2:m7 g2:7 e2:m7.5- a2:7 d2:m7 g2:7
@@ -111,30 +107,22 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-
-  \xTextMark \markup{ "Refrain" \bold \box "A1,A2" }
-  \set Score.currentBarNumber = #1
   \tempoFour "Ballad [Peggy Lee 1957]" 60
-  
+
+  \sectStartRefrain "A1,A2"
+  \set Score.currentBarNumber = #1
+
   \bar ".|:"
-  
+
 
   \repeat volta 2 {
-    e2 e2 | r8 f8 g8 a8 c8 c4 b8 | d4 a8 c8~ c2 | 
+    e2 e2 | r8 f8 g8 a8 c8 c4 b8 | d4 a8 c8~ c2 |
 
     {
       \set melismaBusyProperties = #'()
@@ -150,13 +138,15 @@ refrainMelody = \relative g' {
     g8 a8 g8 c8~ c4 c4 | e,8 f8 e8 a8~ a4 a4 | e1 | r8 f8 g8 a8 b8 a8 b8 g8~ |
     \break
     g1 | r8 f8 g8 a8 d,8 c8 d8 c8~ |
-    c1^\markup{ "Turnaround to " \bold \box "A2" } |
-    r1^\markup{ "Turnaround to " \bold \box "B" } |
-  }
-  
+    \alternative { \volta 1 {
+    c1 | r1 |
+    } \volta 2 {
+    c1\repeatTie | r1 |
+  } } }
+
+  \sectPageBreak "B"
+
   \set Score.currentBarNumber = #13
-  \sectNoBar "B"
-  
   g'2~ g8 b8 c8 b8 | fs8 b8 c8 b8 b,8 fs'8 g8 fs8 | g2~ g8 g8 a8 g8 | b8 g8 a8 g8 b8 g8 a4 |
   g1 | r8 g8 a8 g8 a8 g8 a8 g8 |
 
@@ -172,11 +162,6 @@ refrainMelody = \relative g' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/verse.ily"
 

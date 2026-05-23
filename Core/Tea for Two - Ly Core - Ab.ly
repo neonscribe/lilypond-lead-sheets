@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Tea for Two"
   subtitle = \subtitle
@@ -35,13 +30,13 @@ Oh, can't you see how hap -- py we would be.
 refrainChords = \chordmode {
   bf2:m7 ef2:7 bf2:m7 ef2:7 af2:maj7 df2:7 c2:m7 b2:dim7
   bf2:m7 ef2:7bf2:m7 ef2:7 af1:maj7 af1:6
-  
+
   d2:m7 g2:7 d2:m7 g2:7 c2:maj7 f2:7 e2:m7 ef2:dim7
   d2:m7 g2:7 d2:m7 g2:7 c1:maj7 ef1:7
 
   bf2:m7 ef2:7 bf2:m7 ef2:7 af2:maj7 df2:7 c2:m7 b2:dim7
   bf2:m7 ef2:7bf2:m7 ef2:7 c1:m7.5- f1:7.9-
-  
+
   bf2:m7 c2:m7.5- f2:9.5+ f2:9 bf1:m7 df2:m7+ df2:m6
   f2:m7/c b2:dim7 bf2:m7 ef2:7 af1:6
   \chordOpenParen{ c2:m7 }
@@ -50,15 +45,7 @@ refrainChords = \chordmode {
 
 refrainKey = af
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -67,26 +54,26 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Benny Goodman 1937]" 128
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   af4. f8 g4. f8 | af4. f8 g4. ef8 | g4. ef8 f4. ef8 | g4. ef8 f4. ef8 |
   \break
   af4. f8 g4. f8 | af4. f8 g4. ef8 | c'1~ | c2 r2 |
-  
+
   \sect "B"
-  
+
   c4 c8 a8 b4 b8 a8 | c4 c8 a8 b4 b8 g8 | b4 b8 g8 a4 a8 g8 | b4 b8 g8 a4 a8 g8 |
   \break
   c4 c8 a8 b4 b8 a8 | c4 c8 a8 b4 b4 | e1 | ef2 r2 |
-  
+
 
   \sect "A2"
-  
+
   af,4. f8 g4. f8 | af4. f8 g4. ef8 | g4. ef8 f4. ef8 | g4. ef8 f4. ef8 |
   \break
   af4. f8 g4. f8 | af4. f8 g4. ef8 | ef'1~ | ef2 r2 |
 
   \sect "C"
-  
+
   f4. f8 ef4. ef8 | df4. df8 c4. c8 | ef4. ef8 df4. df8 | c4. c8 bf4. bf8 |
   \break
   af4. f8 g4. f8 | af4. f8 g4. c8 | af1 | r1 |
@@ -95,10 +82,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

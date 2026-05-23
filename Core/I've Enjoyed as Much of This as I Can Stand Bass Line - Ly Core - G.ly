@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "I've Enjoyed as Much of This as I Can Stand"
   subtitle = "Bass transcription of Porter Wagoner's 1962 recording"
@@ -18,26 +13,26 @@ whatKey = g
 
 refrainChords = \chordmode {
   s1
-  
+
   g1 c1 g1 g2 d2
   g1 d1 g1 g2 c2
-  
+
   g1 d1 g1 g1
-  
+
   g1 c1 g1 g2 c2
   g1 d1 g1 g1
-  
+
   g1 c1 g1 g2 c2
   g1 d1 g1
-  
+
   g1
 
   g2 g2:7
-  
+
 
   c1 c1 g1 g1
   g1 g1 d1
-  
+
   d1
 
   g1 c1 g1 g2 c2
@@ -55,15 +50,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g, {
   \time 4/4
@@ -71,7 +58,7 @@ refrainMelody = \relative g, {
   \clef bass
   \tempoFour "Medium [Porter Wagoner 1962]" 128
 
-  \sectStart "Intro"
+  \sectNoBarNoBreak "Intro"
 
     <<
       {
@@ -92,7 +79,7 @@ refrainMelody = \relative g, {
   g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 | g4 d4 e4 fs4 |
 
   \sectNoBar "Verse"
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
   g4 r4 d4 r4 | c4 r4 e4 fs4 | g4 r4 d4 r4 | g4 r4 c,4 r4 |
@@ -111,7 +98,7 @@ refrainMelody = \relative g, {
 
 
   \sectNoBar "Chorus"
-  
+
   \bar ".|:-||"
   \repeat volta 2 {
 
@@ -151,10 +138,5 @@ refrainMelody = \relative g, {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

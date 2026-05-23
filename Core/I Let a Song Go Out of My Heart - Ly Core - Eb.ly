@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -42,17 +37,17 @@ refrainChords = \chordmode {
   af8:6 g4:m7 f4:m7 fs4:dim7 ef8*5/g af2:7
 
   ef2 c2:m7 f2:m7.5- bf2:7
-  
+
   ef2 af2:7 ef2 c2:m7 g2:m7 c2:7 g2:m7 c2:7
   af8:6 g4:m7 f4:m7 fs4:dim7 ef8*5/g af2:7
 
   ef2 af2:m6 ef4 ef4:/g \chordSlash 1 gf4:dim7
-  
+
   f1:m7 bf1:7 ef1:maj7
   ef2:6 d4:m7 g4:7 c4:m g4:7.5+/b c4:m/bf c4:m/a
   af4:m7 df4:7 gf2:7
   b1:7 bf1:7.5+
-  
+
   ef2 af2:7 ef2 c2:m7 g2:m7 c2:7 g2:m7 c2:7
   af8:6 g4:m7 f4:m7 fs4:dim7 ef8*5/g af2:7
 
@@ -60,9 +55,9 @@ refrainChords = \chordmode {
   \chordInsideParens{ bf2:7.5+ }
 
   ef2 af2:7 ef1 g1:m7 c1:7 f1:m7 f1:m7/bf ef2 c2:m7 f2:m7 bf2:7
-  
+
   ef2 af2:7 ef1 g1:m7 c1:7 f1:m7 f1:m7/bf ef2 af2:m7 ef1
-  
+
   f1:m7 bf1:7 ef1 ef2 g2:7 c1:m7 cs2:m7 fs2:7 fs2:m7 b2:7 f2:m7 bf2:7
 
   ef2 af2:7 ef1 g1:m7 c1:7 f1:m7 f1:m7/bf ef2 bf2:7 ef2 bf2:7
@@ -70,15 +65,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative g' {
   \time 4/4
@@ -86,7 +73,7 @@ refrainMelody = \relative g' {
   \clef \whatClef
   \tempoFour "Medium-Slow [Duke Ellington 1938]" 104
 
-  \sectStart "A1"
+  \sectNoBarNoBreak "A1"
 
     ef8 f8 ef8 ef'8~ ef4. c8 |
     \tuplet 3/2 { bf8 c bf } ef,2. |
@@ -120,15 +107,15 @@ refrainMelody = \relative g' {
   r8 d'4. c8 bf8 g8 d8 |
   d'4 g,8 c8~ c2 |
   f,8 g4 af8~ af8 a4 bf8~ |
-  bf8 ef2. 
+  bf8 ef2.
   c8 |
   \tuplet 3/2 { bf8 c bf } ef,2 f4 | ef1 |
   \bar "||-|."
-  
+
   \xPageBreak
-  
+
   \sect "Solos A1"
-  
+
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -154,10 +141,5 @@ refrainMelody = \relative g' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

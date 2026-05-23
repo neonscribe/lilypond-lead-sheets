@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -49,7 +44,7 @@ refrainHLChords = \chordmode {
   a1:m7 af1:dim7 g1:m7 d1:7
   g1:m7 g1:m7 bf1:m7 ef1:9
   f1:maj7 d2:7 a4:m7 af4:9 g1:13 c1:sus9
-  
+
   c2:sus9 c2:7.9- f1:6 f1:6
 }
 
@@ -58,7 +53,7 @@ refrainRealDixielandChords = \chordmode {
   f1 af1:dim7 g1:m fs1:dim7
   g1:m g1:m bf1:m bf1:m
   f1 f1 g1:m c1:7
-  
+
   c1:7 f1 f1
 }
 
@@ -67,14 +62,14 @@ refrainDFBChords = \chordmode {
   f1/a af1:dim7 g1:m7 d1:7
   g1:m7 g1:m7 bf1:m7 ef1:7
   f1 d1:7 g1:m7 c1:7
-  
+
   c1:7 f1 f1
 }
 
 alternateChords = #(if (defined? 'alternateChords)
 		    alternateChords
 		    "hlrb")
-		
+
 refrainChords = #(let ((v (assoc alternateChords
 			   (list
 			    (cons "realdixieland" refrainRealDixielandChords)
@@ -85,15 +80,7 @@ refrainChords = #(let ((v (assoc alternateChords
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -112,7 +99,7 @@ refrainMelody = \relative f' {
   a2 bf4 a4 | bf4 a4 g4 f4 | g2. d4 \textToCodaLastTime | a'2. r4 |
   }
   \bar "||-:|."
-  
+
   \textCodaBreak
 
   a2 a2 | f1~ | f2 r2 |
@@ -121,10 +108,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -4,11 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "All of You"
   subtitle = \subtitle
@@ -31,7 +26,7 @@ For I love all of you.
 
 refrainChords = \chordmode {
   s2.
-  
+
   af1:m6 ef1:maj7 f1:m7.5- bf1:7.9-
   af1:m6 ef1:maj7 af1:m7 df1:7
 
@@ -48,45 +43,36 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Ella Fitzgerald 1956]" 120
-  
-  \partial 2. ef4 f4 g4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \partial 2. ef4 f4 g4 |
+
+  \sectNoBreak "A1"
+
   af2. g4 | g2. bf,4 | cf2. af'4 | af2. f4 |
   \break
   af2. g4 | g2. bf,4 | cf2. bf'4 | bf2. af4 |
-  
+
   \sect "B"
-  
+
   c2. bf4 | c2. bf4 | c2. d,4 | d2. c4 |
   \break
   bf'2 bf2 | bf4 df2 c4 | bf2 c,4 c4~ | c4 d4 ef4 f4 |
 
   \sect "A2"
-  
+
   af2. g4 | g2. bf,4 | cf2. af'4 | af2. f4 |
   \break
   af2. g4 | g4 bf,8 c8 d4 ef4 | c2. bf'4 | bf2. b4 |
 
   \sect "C"
-  
+
   d4. c8 d4. c8 | d4 c8 ef8~ ef8 d8 c4 | g1~ | g2. c,4 |
   \break
   af'2 bf2 | c2 d,2 | ef1 | r1 |
@@ -95,10 +81,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,13 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
-#(set-global-staff-size 18)
-
 \header {
   title = "I Cried for You"
   subtitle = \subtitle
@@ -37,7 +30,7 @@ refrainChords = \chordmode {
 
   f1 f2:maj7 fs2:dim7 g1:m7 c1:7
   c1:7 c1:7 af1:dim7 c1:7
-  
+
   f1:maj7 a2:m7 d2:7 g1:7 g1:7
   g1:m7 c1:7 a1:7 a1:7
 
@@ -50,15 +43,7 @@ refrainChords = \chordmode {
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative c'' {
   \time 4/4
@@ -74,7 +59,9 @@ refrainMelody = \relative c'' {
   e2 f2 | g2 a4 bf4 | c1 | e,1 |
   \break
   c2 e2 | g2 bf2 | d1 | c1 |
-  \sect "A2"
+
+  \sectPageBreak "A2"
+
   a2 e'2~ | e2 d2 | d,1~ | d2 e4 f4 |
   \break
   c'2 c2 | c2 bf2 | a1~ | a2 gs4 a4 |
@@ -90,10 +77,5 @@ refrainMelody = \relative c'' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

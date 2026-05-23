@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Jesusita en Chihuahua"
   subtitle = "aka J.C. Polka, Jess(i)e Polka, Cactus Polka"
@@ -27,40 +22,40 @@ refrainChords = \chordmode {
   c2 cs2:dim7 g2/d e2:7 a2:m d2:7
 
   g1
-  
+
   g1
-  
+
   c1 c1 f1 f1
   g1:7 g1:7 c1 c1
-  
+
   c1 c1 f1 f1
   g1:7 g1:7
-  
+
   c1 c1
 
   c2 cs2 d1
 
   g1 g1 d1:7 g1
   g1 g1 a2:m d2:7
-  
+
   g1
-  
+
   g1
-  
+
   g1 g1 g1 a1:m
   a1:m d1:7 d1:7 g2 d2:7
   g1 g1 g1 c1
   c2 cs2:dim7 g2/d e2:7 a2:m d2:7
-  
+
   g1
-  
+
   g1
-  
+
   a1:7 d1 a1:7 d1
   a1:7 d1 a1:7
-  
+
   d1
-  
+
   d2 d2:7
 
   g1 g1 g1 a1:m
@@ -73,15 +68,7 @@ refrainChords = \chordmode {
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 2/2
@@ -90,22 +77,22 @@ refrainMelody = \relative f' {
   \tempoTwo "Mexican Polka [Mariachi Mexico 1991]" 142
 
   \xTextMark \markup{ \bold \box "A" }
-  
+
   \partial 2. d4-.\upbow df4-. c4-. |
-  
+
   \bar ".|:"
   \repeat volta 2 {
 
   b2 c4-.( e4)-. | d2 cs4-.( d4)-. | g4 r8 d8( cs4 d4) | fs4-. e4-. ds4-. e4-. |
-  \break
+  %% \break
   a2 \appoggiatura{ g16 a16 } g4-.( e4)-. | g2 fs4-.( c4)-. |
   fs4 r8 \appoggiatura{ c16 d16 } c8( b4 c4)-. | e4-. d4-. df4-. c4-. |
-  \break
+  %% \break
   b2 c4-.( e4)-. | d2 cs4-.( d4)-. | b'4 r8 \appoggiatura{ g16 a16 } g8( fs4-. g4)-. |
   a4-. e4-. ds4-. e4-. |
-  \break
+  %% \break
   a4 r8 g8 fs4-. e4-. |
-  g4-. d4-. cs4-. d4-. | 
+  g4-. d4-. cs4-. d4-. |
   e8 g8 fs8 e8 d8 c8 b8 a8 |
   } \alternative {{
   g4 d'4-. df4-. c4-. |
@@ -114,16 +101,16 @@ refrainMelody = \relative f' {
   \bar "!"
   e4( f4 fs4) |
   \bar ".|:-||"
-  \break
+  %% \break
   \key c \major
   \xTextMark \markup{ \bold \box "B" }
   \repeat volta 2 {
   g1~\downbow_\markup \italic { "Repeat 8va" } | g4 e4( f4 g4) | a1~ | a4 f4( g4 a4) |
-  \break
+  %% \break
   b1 | a2( b2) | a4 r8 g8( fs4 a4) | g4-. e4( f4 fs4) |
-  \break
+  %% \break
   g4-. g8( fs8 g4)-. g8( f8 | g4)-. e4( f4 g4) | a4-. a8( gs8 a4)-. a8( g8 | a4)-. f4( g4 a4) |
-  \break
+  %% \break
   b1 | a2( b2) |
   } \alternative {{
     d4 r8 c8 b4-. d4-. | c4-. \ottava #1 e4( f4 fs4) \ottava #0 |
@@ -131,12 +118,12 @@ refrainMelody = \relative f' {
     d4 r8 c8 b4 d4 | c4 r4 r2 |
     }}
   \bar ".|:-||"
-  \break
+  %% \break
   \key g \major
   \xTextMark \markup{ \bold \box "C" }
   \repeat volta 2 {
   d,8\downbow e8 fs8 g8 a8 b8 c8 d8 | e8 d8 b8 g8 d4 g'4 | fs8 e8 c8 a8 fs4 fs'4 | e8 d8 b8 g8 d4 r4 |
-  \break
+  %% \break
   d8\downbow e8 fs8 g8 a8 b8 c8 d8 | e8 d8 b8 g8 d4 g'4 | fs8 e8 c8 a8 e'8 d8 c8 a8 |
   } \alternative {{
     g2 r2 |
@@ -149,13 +136,13 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
     b'8\downbow d,8 d8 d8 a'8 d,8 d8 d8 | g8 d8 d8 d8 d8 d8 d8 d8 |
     g8 d8 d8 d8 fs8 d8 d8 d8 | e8 d8 d8 d8 d8 d8 d8 d8 |
-    \break
-    a'8 c,8 c8 c8 g'8 c,8 c8 c8 | fs8 c8 c8 c8 c8 c8 c8 c8 | 
+    %% \break
+    a'8 c,8 c8 c8 g'8 c,8 c8 c8 | fs8 c8 c8 c8 c8 c8 c8 c8 |
     fs8 c8 c8 c8 e8 c8 c8 c8 | d8 b8 b8 b8 b8 b8 b8 b8 |
-    \break
+    %% \break
     b'8 d,8 d8 d8 a'8 d,8 d8 d8 | g8 d8 d8 d8 d8 d8 d8 d8 |
     g4. a16( g16 fs8 g8) fs8 g8 | a4 e2 ds8 e8 |
-    \break
+    %% \break
     a2 \appoggiatura{ g16 a16 } fs4-.( e4)-. | g4-. d4-. cs4-. d4-. |
     e8 g8 fs8 e8 d8 c8 b8 a8 |
   } \alternative {{
@@ -164,12 +151,12 @@ refrainMelody = \relative f' {
       g2 r2 |
   }}
   \bar ".|:-||"
-  \break
+  %% \break
   \key d \major
   \xTextMark \markup{ \bold \box "D" }
   \repeat volta 2 {
   a4\downbow r4 g4 r4 | fs4 e8 fs8 g4-.( fs4)-. | e4 d8 e8 fs4-.( e4)-. | d8 a8 fs8 a8 d8 e8 fs8 g8 |
-  \break
+  %% \break
   a4 r4 g4 r4 | fs4 e8 fs8 g4-.( fs4)-. | e4 d8 e8 fs4-.( e4)-. |
   } \alternative {{
     d2 r2 |
@@ -178,15 +165,15 @@ refrainMelody = \relative f' {
     }}
 
   \sect "A"
-  
+
   b2 c4-.( e4)-. | d2 cs4-.( d4)-. | g4 r8 d8( cs4 d4) | fs4-. e4-. ds4-. e4-. |
-  \break
+  %% \break
   a2 \appoggiatura{ g16 a16 } g4-.( e4)-. | g2 fs4-.( c4)-. |
   fs4 r8 \appoggiatura{ c16 d16 } c8( b4 c4)-. | e4-. d4-. df4-. c4-. |
-  \break
+  %% \break
   b2 c4-.( e4)-. | d2 cs4-.( d4)-. | b'4 r8 \appoggiatura{ g16 a16 } g8( fs4-. g4)-. |
   a4-. e4-. ds4-. e4-. |
-  \break
+  %% \break
   a4 r8 g8 fs4-. e4-. |
   g4-. d4-. cs4-. d4-. |
   e8 g8 fs8 e8 d8 c8 b8 a8 |
@@ -195,10 +182,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

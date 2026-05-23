@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -16,6 +11,8 @@ subtitle =
   composer = "Bobby Troup"
   copyright = \markup \small { \now " " "© 1946 Burke & Van Heusen, Inc." }
 }
+
+leadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 If you ev -- er _ _ plan to mo -- tor west,
@@ -43,10 +40,8 @@ more than two _ thou -- sand miles _ all the way.
 }
 
 introChords = \chordmode {
-  s8
-
   r8*6 g4:13 r8*6 c4:7 r8*4 g8*3:13 fs4:13 g4:13 af4:13 a4:13 bf8:13 b4:13 c8:13
-  
+
   s8*15  g8*5:6.9 s8*11 a8*9:m9 d8*7:7.5+ g8*5:6.9 s8*8 d4:7.5+.9-
 }
 
@@ -58,11 +53,11 @@ introMelody = \relative f' {
   \clef "treble"
   \tempoFour "Medium [Nat King Cole 1946]" 146
 
-  \sectStart "Intro"
+  \sectNoBarNoBreak "Intro"
 
-  \partial 2 \invisEighth g8 \acciaccatura gs8 \tuplet 3/2 { b8 d8 e8 } |
+  \partial 4. g8 \acciaccatura gs8 \tuplet 3/2 { b8 d8 e8 } |
   \bar "||"
-  
+
   <g d>8 <g d>4 <e b>8->~ <e b>8 g,8 \acciaccatura gs8 \tuplet 3/2 { b8 d8 e8 } |
   <g d>8 <g d>4 <e bf>8->~ <e bf>8 g,8 as16( b16 d16 f16) |
   g8 <f, b e g>4.-> <e as ds fs>4-> <f b e g>4-> |
@@ -76,7 +71,7 @@ introMelody = \relative f' {
   bf8 g8 a8 <bf f ef>8~ <bf f ef>8 \acciaccatura ds,8 e4 <d a e>8~ |
   <d a e>2 \acciaccatura ef8 d8 g8 a8 <bf e, b>8~ |
   \partial 2. <bf e, b>8 g8 a8 <bf gf ef>8~ <bf gf ef>8 e,8
-  
+
   \bar "||"
 }
 
@@ -85,7 +80,7 @@ refrainNatKingColeChords = \chordmode {
   f1:6 bf1:7 f1:6 f1:7
   bf1:7 bf1:7 f1:6 d1:7.9+
   g1:m7 c1:7
-  
+
   f2:6 af2:7 g2:m7 c2:7
 
   f2:6 af2:7 g2:m7 c2:7
@@ -107,7 +102,7 @@ refrainNatalieColeChords = \chordmode {
   f1:6 bf1:7 f1:6 f1:7
   bf1:7 bf1:7 f1:6 a2:m7 d2:7
   g1:m7 c1:7
-  
+
   f2:6 d2:7 g2:m7 c2:7
 
   f2:6 d2:7 g2:m7 c2:7
@@ -122,7 +117,7 @@ refrainNatalieColeChords = \chordmode {
   \chordOpenParen{ d2:7 }
   g2:m7
   \chordCloseParen{ c2:7 }
-  
+
   r8*11 g8*5:1.5
 }
 
@@ -130,15 +125,7 @@ refrainChords = \refrainNatalieColeChords
 
 refrainKey = f
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -148,7 +135,7 @@ refrainMelody = \relative f' {
   \partial 4 f8 f8 |
 
   \xTextMark \markup{ \bold \box "A1,A2" }
-  
+
   \bar ".|:"
   \repeat volta 2 {
   f8 f8 r4 f4 f4 | f4 f4 c4 e8 f8 | r1 | r2 f4 f4 |
@@ -162,7 +149,7 @@ refrainMelody = \relative f' {
   r1 | r2 r4 c'8 f,8 |
   } } }
   \sect "B"
-  
+
   c'4 bf8 a8 bf8 c8 r8 \parenthesize f,8 | c'4 bf8 af8 bf8 c8 r8 f,8 |
   c'8 c8 c8 c8 c8 d8 c8 ef8~ | ef4. d8 c8 f,8 f8 c'8~ |
   \break
@@ -171,30 +158,29 @@ refrainMelody = \relative f' {
   \break
   c8 c8 bf8 a8 bf8 c8 r8 c8~ | c8 c8 bf8 a8 bf8 c4. |
   c8 c4. c8 c4 c8~ | c4 bf8 a8 bf8 c8 r8 f,8~ |
-  
+
   \sect "A3"
-  
+
   f8 f4. f4 f4 | f4 f4 c4 e8 f8 | r1 | r2 r4 f4 |
   \break
   f2 f4 f4 | f4 f4 f8( c8) e8 f8 | r1 | r2 f4 f4 |
   \break
   a2. f4 | a8 c4. f,4 f8 f8 \textToCodaLastTime | r1 | r1 |
   \bar "|."
-  
+
   \textCoda
-  
+
   r4 r8 f8 gs8 a8 bf8 gs8 | a8 f8 d8 c8~ c2\fermata |
-  
+
   \bar "|."
 }
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
+leadingEighth = ##t
 
 \include "../Include/intro.ily"
+
+leadingEighth = ##f
 
 \include "../Include/refrain.ily"

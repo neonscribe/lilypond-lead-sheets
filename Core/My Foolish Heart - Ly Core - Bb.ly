@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -62,7 +57,7 @@ My Fool -- ish Heart.
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainLyricsF
   refrainLyricsM)
@@ -72,16 +67,16 @@ refrainChords = \chordmode {
 
   bf2:maj7 ef2:maj7 d2:m7 g2:7 c2:m7 c2:m7/bf e2:m7/a a2:7
   d2:m7 d2:7.9+ g2:m7 df2:7 c1:m7 c2:m7.5- f2:7.9-
-  
+
   bf1:maj7 f2:m7 bf2:7 ef1:maj7 a2:m7.5- d2:7
   g2:m7 g2:m7/f e2:m7.5- a2:7.9- d2:m7 g2:7.5+ c2:m7 f2:7
 
   bf2:maj7 ef2:maj7 d2:m7 g2:7 c2:m7 c2:m7/bf e2:m7/a a2:7
   d2:m7 d2:7.9+ g2:m7 df2:7 c2:m7 c2:m7/bf a2:m7.5- d2:7
-  
+
   g1:m7 ef2:m7 af2:7 bf2:maj7 ef2:maj7 af2:7.5- g2:7
   c2:m7 g2:7.9+ c4:7 c4:7.5+ f4:sus7 f4:7 bf2:6
-  
+
   \chordOpenParen{ g2:m7 }
   gf2:maj7
   \chordCloseParen{ f2:7 }
@@ -89,15 +84,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -106,25 +93,24 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Carmen McRae 1956]" 72
 
   \partial 4 f4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   f2~ f8 bf,8 d8 f8 | g8 a8 g2 g4 | g2~ g8 c,8 ef8 g8 | a2. a4 |
   a2~ a8 d,8 f8 a8 | bf8 c8 bf2 bf4 | bf2~ bf8 ef,8 g8 bf8 | c2. bf8 c8 |
-  
+
   \sect "B"
-  
+
   d4. d16 d16 d8 d8 c8 bf8 | d4 d4. d8 c8 bf8 | c4 c8 c8 c8 d8 c8 bf8 | c2. bf8 a8 |
   bf8 bf4 bf8 bf8 a8 g8 a8 | bf4 bf2 a8 g8 | a4 a8 a8 a8 f8 g8 f8 | a2. g4 |
-  
+
   \sect "A2"
-  
+
   f2~ f8 bf,8 d8 f8 | g8 a8 g2 g4 | g2~ g8 c,8 ef8 g8 | a2. a4 |
   a2~ a8 d,8 f8 a8 | bf8 c8 bf2 bf4 | bf2~ bf8 ef,8 g8 bf8 | d2. c4 |
 
   \sect "C"
-  
+
   bf4 bf8 bf8 bf8 a8 g8 a8 | bf4 bf2 bf8 c8 | d4 d8 d8 d8 d8 c8 bf8 | d,2. g4 |
   bf2~ bf8 ef,8 g8 bf8 | c4 d4 bf4 c4 | bf1 | r1 |
 
@@ -132,10 +118,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

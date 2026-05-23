@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "There Is No Greater Love"
   subtitle = \subtitle
@@ -52,15 +47,7 @@ refrainChords = \chordmode {
 
 refrainKey = bf
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -68,26 +55,25 @@ refrainMelody = \relative f' {
   \clef \whatClef
 
   \partial 2. a4 bf4 c4 |
-  \bar "||"
 
-  \xTextMark \markup{ \bold \box "A1" }
-  
+  \sectNoBreak "A1"
+
   bf4 a4 g4. d8 | f4 e4 ef4 bf4 | d1~ | d4 d4 a'4 af4 |
   \break
   g1~ | g4 g4 d'4 df4 | c1 | r4 a4 bf4 c4 |
-  
+
   \sect "A2"
-  
+
   bf4 a4 g4. d8 | f4 e4 ef4 bf4 | d1~ | d4 d4 a'4 af4 |
   \break
   g4 g4 d'4 c4 | bf2 c2 | bf1~ | bf2. r4 |
-  
+
   \sect "B"
-  
+
   d,4 fs4 a4 c4 | bf1 | fs4 a4 c4 ef4 | d1 |
   \break
   d,4 fs4 a4 c4 | bf4 a4 g4 d4 | c1 | r4 a'4 bf4 c4 |
-  
+
   \sect "A3"
 
   bf4 a4 g4. d8 | f4 e4 ef4 bf4 | d1~ | d4 d4 a'4 af4 |
@@ -98,10 +84,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

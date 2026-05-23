@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -31,29 +26,21 @@ refrainChords = \chordmode {
 
   d1:m7 f2:m9 bf2:9 c2:maj7 c2:maj7/b a1:m7
   d1:sus7 d1:7 d1:m7/g g1:7
-  
+
   c1:6 ef1:dim7 d1:m7 g1:7
   e1:m7.5- a1:7.9- d1:m7 d1:7
-  
+
   f1:6 bf1:9 c2:maj7 b4:9.5+ bf4:9 a1:7
   d1:7 d2:m7 g2:7.9- c1:6
   \chordOpenParen{ d2:m7 }
   \chordCloseParen{ g2:7 }
-  
+
   c1:6 a1:7 d1:7 d2:m7 g2:7.9- c1:6 c1:6
 }
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -62,43 +49,37 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Linda Ronstadt 2000]" 50
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   c'2. b4 | d2. c4 | g2 g2~ | g1 |
   \break
   a2. g4 | bf2. a4 | d,1~ | d2. r4 |
-  
+
   \sect "B"
-  
+
   d2. e4 | g2. f4 | e2. g4 | c2. b4 |
-  \break
   d2 d2 | b2. b4 | a1~ | a2. r4 |
-  
+
   \sect "A2"
-  
+
   c2. b4 | d2. c4 | g2 g2~ | g1 |
   \break
   a2. g4 | bf2. a4 | f1~ | f2 r2 |
-  
+
   \sect "C"
-  
-  d'2. c4 | d2. c4 | g1 | a2. a4 | 
+
+  d'2. c4 | d2. c4 | g1 | a2. a4 |
   \break
   d2 e2 | c2 d2 \textToCodaLastTime | c1~ | c2 r2 |
 
   \bar "||-|."
 
   \textCodaBreak
-  
+
   e1~ | e2. a,4 | d2 e2 | c2 d2 | c1~ | c2 r2 |
 
   \bar "|."
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 % #(set-global-staff-size 18)
 
 \header {
@@ -41,32 +36,24 @@ On -- ly your love can save me. __
 refrainChords = \chordmode {
   s4
   d1:m d1:m d1:m d1:m
-  
+
   d1:m d1:m d1:m d1:m d1:m d1:m
   a1:7 a1:7 d1:m d1:m
   g1:m g1:m d1:m a1:7 d1:m
-  
+
   d4:m r2.
 
   d4:m r2.
-  
+
   g1:m g1:m d1:m d1:m
   g1:m g1:m a1:7 a4:7 a4:7.5+ r2
-  
+
   d4:m r2. d1:m d1:m d1:m
 }
 
 refrainKey = d
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -75,20 +62,20 @@ refrainMelody = \relative f' {
   \tempoFour "Moderate Latin Feel [B.B. King & Eric Clapton 2000]" 106
 
   \xTextMark \markup{ \bold \box "Intro" }
-  
+
   \ambitusOff
   \partial 4 a8 c8 |
   \bar "||"
-  
+
   d2. a8 c8 | d8. f32 d32 c8 d8 r4 a8 c8 | d2. a8 c8 | d8. f32 d32 c8 d8 r8
   \ambitusOn
-  
+
   \break
 
   d,8 f8 a8~ |
 
   \xTextMark \markup{ \bold \box "Verse" }
-  
+
   \segnoSign
   \bar ".|:"
   \repeat volta 2 {
@@ -105,17 +92,17 @@ refrainMelody = \relative f' {
   r1 |
   } } }
   \sect "Bridge"
-  
+
   r8 f8 g8 g8 g8 f8 g8 a8~ | a2 r2 | r8 f8 f8 a8 a8 g8 f8 a8~ | a2 r2 |
   \break
-  r8 d8 d16 d16 e8 e8 e8 d8 f8 | d2 r8 d8 e8 d8 | 
+  r8 d8 d16 d16 e8 e8 e8 d8 f8 | d2 r8 d8 e8 d8 |
   e8 d8 e4 r8 e8 e8 f8~ | f4\bendAfter #-1 r4 r8 d,8 f8 a8\laissezVibrer \dalSegno |
 
   \bar "||-||"
 
   \textCodaBreak
-  
-  r8 d,8 f8 a8~ a8 a8 g8 f8 | 
+
+  r8 d,8 f8 a8~ a8 a8 g8 f8 |
   \bar "||"
   f8( d4.) r2 | r8 g8 g8 f8 a8 f8 g4 | f8( d4.) r2 |
 
@@ -124,28 +111,23 @@ refrainMelody = \relative f' {
 
 \include "../Include/paper.ily"
 
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
-
 \include "../Include/refrain.ily"
 
 \markup {
   \vspace #2
   \column {
-    \line { \large { Say you will; say you'll help me on. } } 
-    \line { \large { I can't make it no further in this world alone. } } 
-    \line { \large { Baby, I'm beggin', with tears in my eyes, } } 
+    \line { \large { Say you will; say you'll help me on. } }
+    \line { \large { I can't make it no further in this world alone. } }
+    \line { \large { Baby, I'm beggin', with tears in my eyes, } }
     \line { \large { For your lovin'; don't you realize? } }
     \line { \large { I need help; oh, baby, help poor me. } }
     }
   \column { \hspace #5 }
   \column {
-    \line { \large { Help the poor; baby, help poor me. } } 
-    \line { \large { Have a heart, won't you, baby; listen to my plea. } } 
-    \line { \large { I lost my courage till I found you. } } 
-    \line { \large { You got what it takes, baby, to pull me through. } } 
-    \line { \large { Help the poor; oh, baby, won't you help poor me. } } 
+    \line { \large { Help the poor; baby, help poor me. } }
+    \line { \large { Have a heart, won't you, baby; listen to my plea. } }
+    \line { \large { I lost my courage till I found you. } }
+    \line { \large { You got what it takes, baby, to pull me through. } }
+    \line { \large { Help the poor; oh, baby, won't you help poor me. } }
   }
 }

@@ -8,11 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 #(set-global-staff-size 18)
 
 \header {
@@ -56,7 +51,7 @@ time you miss him most of all.
 }
 
 refrainLyrics =
-#(if (and (defined? 'singerGender) 
+#(if (and (defined? 'singerGender)
           (equal? singerGender "female"))
   refrainObjectGenderMaleLyrics
   refrainObjectGenderFemaleLyrics)
@@ -77,15 +72,7 @@ refrainChords = \chordmode {
 
 refrainKey = c
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -98,25 +85,21 @@ refrainMelody = \relative f' {
   \sectNoBreak "A"
 
   e4 e4 c8( d8) e8 f8 | e8 c4.~ c4 c8 d8 |
-  \break
   e4 e4 c8 d8 e8 f8 | d2. r8 d8 |
   \break
   a'4 a4 a4. a8 | g8 f8 e8 f8 g4. g8 |
-  \break
   fs8 e8 ds8 e8 fs8 b,8 b'8 a8 | g2. c,8 d8 |
 
   \sect "B"
 
   e4 e4 c8 d8 e8 f8 | e8 c4.~ c4 c8 d8 |
-  \break
   g4. g8 d'8 g,8 g8 g8 | a2. a8 b8 |
   \break
   c4 c4 a8( b8) c8 d8 | c8 g4.~ g4 f8 e8 \textToCodaLastTime |
-  \break
   f8 c'8 a8 f8 d4 e4 | c2 r4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
-  c8 
+  c8
   \endParenthesis \parenthesize
   d8 |
   \bar "||-|."
@@ -129,10 +112,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"

@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 \header {
   title = "Lover, Come Back to Me!"
   subtitle = \subtitle
@@ -53,7 +48,7 @@ The sky was blue,
 And high a -- bove,
 The moon was new,
 And so was love.
-This eag -- er heart of mine was sing -- ing, 
+This eag -- er heart of mine was sing -- ing,
 Lov -- er, where can you
 be?
 
@@ -97,7 +92,7 @@ refrainChords = \chordmode {
   ef2:6 ef2:6/g af2:6 a2:dim7
 
   ef1:6/bf d2:m7.5- g2:7.9-
-  
+
   c1:m7 c1:m7 d2:m7.5- g2:7.9-
   c1:m7 d1:m7.5- g1:7 af1:7 g1:7 c1:m7
   c1:m7 d2:m7.5- g2:7.9- c1:m7 f1:9 f1:9 f1:m7 bf1:7
@@ -112,15 +107,7 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -128,7 +115,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Fast [Dinah Washington 1954]" 265
 
-  \sectStart "A1"
+  \sectNoBarNoBreak "A1"
 
   r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 |
   \break
@@ -155,11 +142,8 @@ refrainMelody = \relative f' {
   bf,4 c4 ef2 | ef2 ef2 |
   ef1 | d1 |
 
-  \bar "||"
-  
-  \xPageBreak
 
-  \sectNoBarNoBreak "B"
+  \sectPageBreak "B"
 
   c4 d4 ef4 f4 | g4 c4 b4 c4 | af4 c4 b4 c4 | g1 |
   g1 | d1 | ef1 | d1 |
@@ -170,7 +154,7 @@ refrainMelody = \relative f' {
 
   \sect "A3"
 
-  r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 | 
+  r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 |
   r4 ef4 ef4 f4 | g1 |
   \break
   r4 g4 g4 af4 | bf1 |
@@ -183,11 +167,6 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 %%% Leaving out the verse...
 %%% \include "../Include/verse.ily"

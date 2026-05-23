@@ -2,11 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-subtitle =
-#(if (and (defined? 'subtitle) subtitle)
-  subtitle
-  "Standard Key")
-
 $(if (and (defined? 'printNoteNames) printNoteNames)
      (set-global-staff-size 18))
 
@@ -36,10 +31,10 @@ refrainHLChords = \chordmode {
 
   b2:7.5+ e2:9 a2:7.5+ d2:9 g2:13 c2:9 a1:9
   g2/d e2:m7 a2:m7 d2:7 a2:m7 d2:sus7 g2:6 b2:7.5+
-  
+
   e1:m7 c1:9 e1:m7 a1:13
   d2:m6 \chordInsideParens{ b2:m7.5- } e2:m7.5- a2:7.5+ a1:m7 d2:7.5+ \chordInsideParens{ c2:7 }
-  
+
   b2:7.5+ e2:9 a2:7.5+ d2:9 g2:13 c2:9 a1:9
   g2/d e2:m7 a2:m7 d2:7 a2:m7 d2:7 b2:7.5- e2:7 a2:m7 d2:sus9
   g1:7 g2:6 \chordInsideParens{ c2:9 }
@@ -51,8 +46,8 @@ refrainSRBChords = \chordmode {
 
   b2:7.5+ e2:9 a2:7.5+ d2:9 g2:7 c2:7 a2:13 \chordInsideParens{ as2:dim7 }
   b2:m7 e2:m7 a2:m7 d2:7 a2:m7 d2:sus7 g2:6 b2:7.5+
-  
-  e1:m7 c1:9 e1:m7 a1:13 d2:m6 \chordInsideParens{ b2:m7.5- } 
+
+  e1:m7 c1:9 e1:m7 a1:13 d2:m6 \chordInsideParens{ b2:m7.5- }
   e2:m7.5- a2:7.5+ a1:m7 d2:7.5+ \chordInsideParens{ c2:7 }
 
   b2:7.5+ e2:9 a2:7.5+ d2:9 g2:7 c2:7 a2:13 \chordInsideParens{ as2:dim7 }
@@ -63,15 +58,7 @@ refrainChords = \refrainSRBChords
 
 refrainKey = g
 
-whatKey =
-#(if (and (defined? 'whatKey) whatKey)
-  whatKey
-  refrainKey)
-
-whatClef =
-#(if (and (defined? 'whatClef) whatClef)
-  whatClef
-  "treble")
+whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -80,23 +67,23 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up [Fred Astaire 1937]" 172
 
   \xTextMark \markup{ \bold \box "A1" }
-  
+
   b4 c4 c4 b4 | a4 b2. | g4 a4 a4 g4 | fs1 |
   \break
   d4. e8~ e8 d8 e8 g8 | a8 b4. r8 d,8 e8 g8 | a8 b4. g4 g8 g8~ | g2. r4 |
-  
+
   \sect "A2"
-  
+
   b4 c4 c4 b4 | a4 b2. | g4 a4 \tuplet 3/2 { a4 af4 g4 } | fs1 |
   \break
   d4. e8~ e8 d8 e8 g8 | a8 b4. r8 d,8 e8 g8 | a8 b4. g4 g8 g8~ | g1 |
-  
-  \sect "B"
-  
+
+  \sectPageBreak "B"
+
   r8 b4 g8 b4 g4 | bf4. g8~ g2 | b8 b8 b,8 b8 e8 g4. | fs1 |
   \break
   r8 a4 f8 a4 f4 | a4. a8~ a4 a8 b8 | d4 d4 d8 e8 b4 | as1 |
-  
+
   \sect "C"
 
   b4 c4 c4 b4 | a4 b2. | g4 a4 \tuplet 3/2 { a4 af4 g4 } | fs1 |
@@ -109,10 +96,5 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #1
-}
 
 \include "../Include/refrain.ily"
