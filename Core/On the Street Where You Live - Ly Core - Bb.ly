@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "On the Street Where You Live"
   subtitle = \subtitle

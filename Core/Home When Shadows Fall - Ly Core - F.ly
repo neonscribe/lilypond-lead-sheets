@@ -2,10 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 17) #}
-)
-
 \header {
   title =  "Home (When Shadows Fall)"
   subtitle = \subtitle

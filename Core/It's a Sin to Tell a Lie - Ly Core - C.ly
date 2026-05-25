@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "It's a Sin to Tell a Lie"
   subtitle = \subtitle

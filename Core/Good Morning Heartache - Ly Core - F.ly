@@ -2,9 +2,7 @@
 
 \include "../Include/lead-sheets.ily"
 
-%%% #(set-global-staff-size 18)
-
-\header {
+%%\header {
   title = "Good Morning Heartache"
   subtitle = \subtitle
   poet = ""

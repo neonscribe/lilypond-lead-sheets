@@ -6,8 +6,6 @@
 
 %}
 
-% #(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
 
 \header {

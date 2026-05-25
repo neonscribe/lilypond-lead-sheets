@@ -8,8 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Blues in the Night"
   subtitle = \subtitle

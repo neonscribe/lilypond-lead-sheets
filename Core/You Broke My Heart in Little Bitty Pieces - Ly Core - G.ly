@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "You Broke My Heart (In Little Bitty Pieces)"
   subtitle = \subtitle

@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Robbin's Nest"
   subtitle = \subtitle
@@ -81,6 +79,9 @@ refrainMelody = \relative f' {
 
 \markup {
   \column {
+\vspace #2
+\line { \large { \bold { Lyrics by Ella Fitzgerald (1947) } } }
+\vspace #1
 \line { \large { Give me something gentle. Make it sentimental. } }
 \line { \large { Whatever you do suggest, I'll take Robbin's Nest. } }
 \vspace #1
@@ -92,4 +93,24 @@ refrainMelody = \relative f' {
 \vspace #1
 \line { \large { Give me something sweet and gentle. Make it sentimental. } }
 \line { \large { Whatever you could suggest, I'll take Robbin's Nest. } }
+\vspace #2
+\line { \large { \bold {((Why Have a Falling Out) Just When We're Falling in Love) } } }
+\line { \large { \bold { Lyrics by Bob Russell (1952) } } }
+\vspace #1
+\line { \large { You wouldn't be angry with me would you } }
+\line { \large { If I perhaps misunderstood you? } }
+\line { \large { Why have a falling out just when we're falling in love? } }
+\vspace #1
+\line { \large { So, when skies are getting starry } }
+\line { \large { Now wouldn't we get to feeling sorry? } }
+\line { \large { So, why have a falling out just when we're falling in love } }
+\vspace #1
+\line { \large { There'll be some differences that get us } }
+\line { \large { That naturally upset us } }
+\line { \large { Ah, but the people who have met us } }
+\line { \large { All say we're going in love } }
+\vspace #1
+\line { \large { We've gotten along so very nicely } }
+\line { \large { That's my point precisely } }
+\line { \large { So, why have a falling out just when we're falling in love? } }
 } }

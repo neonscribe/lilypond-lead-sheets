@@ -2,9 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-     (set-global-staff-size 18))
-
 \header {
   title = "The Thrill Is Gone (not B.B. King)"
   subtitle = \subtitle

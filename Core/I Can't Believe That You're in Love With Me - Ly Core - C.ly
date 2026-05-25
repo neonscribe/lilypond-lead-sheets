@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "I Can't Believe That You're in Love With Me"
   subtitle = \subtitle

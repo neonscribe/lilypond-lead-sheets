@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Someone to Light Up My Life (Se todos fossem iguais a você)"
   subtitle = \subtitle

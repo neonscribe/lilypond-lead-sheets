@@ -2,10 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
-
 \header {
   title = "I Ain't Gonna Give Nobody None O' This Jelly Roll"
   subtitle = \subtitle

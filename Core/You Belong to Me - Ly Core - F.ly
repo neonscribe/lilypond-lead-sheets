@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "You Belong to Me (Jo Stafford arrangement)"
   subtitle = \subtitle

@@ -4,10 +4,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
-
 \header {
   title = "Destination Moon"
   subtitle = \subtitle

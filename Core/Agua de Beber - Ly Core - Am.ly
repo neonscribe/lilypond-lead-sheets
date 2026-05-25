@@ -8,8 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 lyricsLanguage = #(if (defined? 'lyricsLanguage)
 		   lyricsLanguage
 		   "portuguese")

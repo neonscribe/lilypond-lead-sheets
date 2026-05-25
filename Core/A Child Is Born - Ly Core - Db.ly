@@ -39,8 +39,6 @@ bless -- ed this child is
 born.
 }
 
-% chordSize = #-1
-
 refrainChords = \chordmode {
   df2.:maj7.9.13 gf2.:m6.9/df df2.:maj7.9.13 gf2.:m6.9/df df2.:maj7.9.13 gf2.:m6.9/df c2.:m7.5- f2.:7.9-.5+
   bf2.:m9 f2.:7.9-.5+ bf2.:m9 f2.:7.9-.5+ bf2.:m9 ef2.:7.9.13 af2.:sus7.9.13 af2.:7.9-.13
@@ -59,7 +57,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad" 75
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   f2. | gf4 af4 df4 | f,2. | gf4 af4 df4 |
   \break
@@ -72,9 +70,7 @@ refrainMelody = \relative f' {
   f,2. | g4 af4 df4 | f2. | af,2~ af8 gf8 |
   \bar "||"
 
-  $(if wpb #{ \xPageBreak #} )
-
-  \sectNoBar "A2"
+  \sectPageBreak "A2"
 
   f2. | gf4 af4 df4 | f,2. | gf4 af4 df4 |
   \break

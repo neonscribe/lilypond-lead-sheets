@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Tired of Waiting for You"
   subtitle = \subtitle
@@ -59,7 +57,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Kinks 1964]" 122
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   s1 |
 
@@ -79,9 +77,7 @@ refrainMelody = \relative f' {
   \oneVoice
   \ambitusOn
 
-  \sectNoBar "A"
-
-  \segnoSign
+  \sectNoBarSegno "A"
 
   \bar ".|:-||"
 
@@ -104,6 +100,8 @@ refrainMelody = \relative f' {
   }
 
   \bar "||-:|."
+
+  \xPageBreak
 
   \textCodaBreak
 

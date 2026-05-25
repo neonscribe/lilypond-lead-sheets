@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "I'm Left, You're Right, She's Gone"
   subtitle = \subtitle

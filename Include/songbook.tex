@@ -25,6 +25,16 @@
 \newcounter{songs}
 \setcounter{songs}{0}
 
+% Start the next entry on an odd (right side) page
+% so page 2 and 3 will be together left and right
+\newcommand{\oddstart}[2]{ %
+\clearemptytoevenpage
+\newpage
+\null
+\thispagestyle{empty}
+\newpage
+}
+
 % One page, only one entry
 \newcommand{\song}[2]{ %
 \addtocounter{songs}{1}

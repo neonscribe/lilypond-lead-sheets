@@ -1,8 +1,12 @@
 %% -*- Mode: LilyPond -*-
 
-\include "../Include/lead-sheets.ily"
+%{
 
-#(set-global-staff-size 18)
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "newreal" ] } }
+
+%}
+
+\include "../Include/lead-sheets.ily"
 
 \header {
   title = "This Masquerade"
@@ -10,27 +14,6 @@
   poet = ""
   composer = "Leon Russell"
   copyright = \markup \small { \now " " "© 1977 Skyhill Music" }
-}
-
-introLyrics = \lyricmode {
-}
-
-introChords = \chordmode {
-  f1:m7 bf1:7
-}
-
-introKey = f
-
-introMelody = \relative f' {
-  \time 4/4
-  \key \introKey \minor
-  \clef \whatClef
-  \tempoFour "Medium-Slow Latin/Rock [George Benson 1976]" 91
-
-  \bar ".|:"
-  \repeat volta 2 {
-  \rsq-"Vamp until cue" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  }
 }
 
 refrainLyrics = \lyricmode {
@@ -50,7 +33,9 @@ refrainLyrics = \lyricmode {
   We're lost __ in a mas -- quer -- ade. __
 }
 
-refrainNewRealChords = \chordmode {
+refrainNRChords = \chordmode {
+  f1:m7 bf1:7
+
   f1:m f1:m7+ f1:m7 bf1:13
   f1:m7 df1:9 g1:m7.11 c1:7.5+.9+
 
@@ -68,14 +53,18 @@ refrainNewRealChords = \chordmode {
 
   f1:m f1:m7+ f1:m7 bf1:13
   df1:7 c1:7.5+ f1:m7 bf1:13
+
+  f1:m7 bf1:7
 }
 
-refrainRealBookCDChords = \chordmode {
+refrainHLChords = \chordmode {
+  f1:m7 bf1:7
+
   f1:m f1:m7+ f1:m7 bf1:7
   f1:m7 df1:7 g1:m7 c1:7.5+
 
   f1:m f1:m7+ f1:m7 bf1:7
-  df1:7 c1:7.5+ f1:m7 f2:m7 e2:m7
+  df1:7 c1:7.5+ f1:m7 f4:m7 \chordSlash 1 e4:m7 a4:7
 
   ef1:m7 af1:7 df1:maj7 bf1:7.5+
   ef1:m7 af1:7 df1:maj7 df1:maj7
@@ -88,9 +77,20 @@ refrainRealBookCDChords = \chordmode {
 
   f1:m f1:m7+ f1:m7 bf1:7
   df1:7 c1:7.5+ f1:m7 bf1:7
+
+  f1:m7 bf1:7
 }
 
-refrainChords = \refrainRealBookCDChords
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "newreal" refrainNRChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = f
 
@@ -100,14 +100,24 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
+  \tempoFour "Medium-Slow Latin/Rock [George Benson 1976]" 91
+  
+  \sectNoBar "Intro"
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \bar ".|:"
+  \repeat volta 2 {
+  \rsq-"Vamp until cue" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  }
+  \bar "||-:|."
+
+  \sectNoBar "A1"
 
   r4 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f4 c8 bf8 | af4. bf8 c4 af8 f8~ | f2 r2 |
   \break
   r2 af8 g8 af8 ef'8~ | ef2. ef8 c8~ | c2 r2 | r1 |
   \break
   r4 f,8 g8 af8 bf4 c8~ | c8 g'4 f8~ f8 cf8( bf8) af8~ | af4 bf8 c4 af4 f8~ | f2 r4 c8 f8~ |
+  \break
   f2 r8 af8 bf8 cf8~( | cf8 bf8~ bf2) af8 f8~ | f1 | r1 |
 
   \sect "B"
@@ -130,33 +140,17 @@ refrainMelody = \relative f' {
   r4 r8 af8 af8 g8 af8 ef'8~ | ef2. ef8 c8~ | c2 r2 | r1 |
   \break
   r8 c,8 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f8 cf8( bf8) af8~ | af4 bf8 c4 af4 f8~ | f2 r4 c8 f8~ |
+  \break
   f2 r8 af8 bf8 cf8~( | cf8 bf8~ bf2) af8 f'8~ | f1 | r1 |
+  \bar ".|:-|."
+  
+  \sectNoBar "Outro"
 
-  \bar "|."
-}
-
-outroLyrics = \lyricmode {
-}
-
-outroChords = \chordmode {
-  f1:m7 bf1:7
-}
-
-outroKey = f
-
-outroMelody = \relative f' {
-  \time 4/4
-  \key \outroKey \minor
-  \clef \whatClef
-
-  \bar ".|:"
   \repeat volta 2 {
-  \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
+  \rsq-"Vamp until cue or fade out" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
 }
 
 \include "../Include/paper.ily"
 
-%% \include "../Include/intro.ily"
 \include "../Include/refrain.ily"
-%% \include "../Include/outro.ily"

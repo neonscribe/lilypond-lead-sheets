@@ -89,6 +89,8 @@ refrainMelody = \relative f' {
   r4 bf'4 b8 d,8 e8 g8~ | g1 | r1 |
 
   \bar "|."
+  
+  \xPageBreak
 }
 
 soloChords = \chordmode {
@@ -119,7 +121,7 @@ soloMelody = \relative f' {
   \key \soloKey \major
   \clef \whatClef
 
-  \xTextMark \markup{ "Solos" \bold \box "A1" }
+  \sectNoBar "A1"
 
   \bar ".|:"
 

@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "It Don't Mean a Thing (If It Ain't Got That Swing)"
   subtitle = \subtitle

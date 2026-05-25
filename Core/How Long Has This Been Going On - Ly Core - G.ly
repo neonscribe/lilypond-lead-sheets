@@ -2,10 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 16) #}
-)
-
 \header {
   title = "How Long Has This Been Going On?"
   subtitle = \subtitle

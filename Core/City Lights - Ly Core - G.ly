@@ -8,8 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "City Lights"
   subtitle = \subtitle

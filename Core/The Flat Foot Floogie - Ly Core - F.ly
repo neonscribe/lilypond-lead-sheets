@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "The Flat Foot Floogie (Flat Fleet Floogee)"
   subtitle = \subtitle

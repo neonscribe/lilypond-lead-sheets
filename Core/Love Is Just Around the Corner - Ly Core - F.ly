@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Love Is Just Around the Corner"
   subtitle = \subtitle
@@ -63,7 +61,7 @@ refrainMelody = \relative f' {
   \break
   g'4 g4 g8 fs8 g8 a8 | f4 c'2 d4 | a2 r8 f8 g4 | f2 r2 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   a2 a4. g8 | f4 d2 a'4 | fs4-. a4 g4-. a4 | d,2. r8 fs8 |
   \break

@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Dance of the Sugar Plum Fairy"
   subtitle = "The Nutcracker (Щелкунчик) Op. 71 "

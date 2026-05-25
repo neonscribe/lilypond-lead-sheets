@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "I Found a Million Dollar Baby (In a Five and Ten Cent Store)"
   subtitle = \subtitle

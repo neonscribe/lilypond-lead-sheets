@@ -26995,6 +26995,46 @@ refrain
 ais
 cis''
 
+This Is Always - Ly - C Alto Voice.ly
+refrain
+e
+g'
+
+This Is Always - Ly - Eb Alto Voice.ly
+refrain
+g
+bes'
+
+This Is Always - Ly - F Baritone Voice.ly
+refrain
+a
+c''
+
+This Is Always - Ly - G Bass for Standard.ly
+refrain
+b,
+d'
+
+This Is Always - Ly - G Standard for Viola.ly
+refrain
+b
+d''
+
+This Is Always - Ly - G Standard.ly
+refrain
+b
+d''
+
+This Is Always - Ly - G to A for Bb for Standard.ly
+refrain
+cis'
+e''
+
+This Is Always - Ly - G to E for Eb for Standard.ly
+refrain
+gis'
+b''
+
 This Masquerade - Ly - Fm Bass for Standard.ly
 refrain
 c

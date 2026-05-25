@@ -8,8 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "C'est Si Bon (It's So Good)"
   subtitle = \subtitle

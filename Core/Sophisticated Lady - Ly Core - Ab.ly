@@ -4,10 +4,6 @@
 
 $(set-global-staff-size 18)
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-   (set-global-staff-size 16))
-
-
 \header {
   title = "Sophisticated Lady"
   subtitle = \subtitle

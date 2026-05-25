@@ -9,8 +9,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Lucky to Be Me"
   subtitle = \subtitle

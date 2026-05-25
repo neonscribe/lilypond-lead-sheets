@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Liza (All the Clouds'll Roll Away)"
   subtitle = \subtitle

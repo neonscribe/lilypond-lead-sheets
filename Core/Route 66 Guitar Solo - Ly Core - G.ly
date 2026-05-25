@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Route 66"
   subtitle = "Oscar Moore's guitar solo transcribed from Nat King Cole's 1946 recording"

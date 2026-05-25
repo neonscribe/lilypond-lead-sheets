@@ -8,8 +8,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "I Guess I'll Hang My Tears Out to Dry"
   subtitle = \subtitle

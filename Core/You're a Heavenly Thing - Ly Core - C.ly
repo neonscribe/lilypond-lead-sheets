@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "You're a Heavenly Thing"
   subtitle = \subtitle
@@ -68,7 +66,7 @@ refrainMelody = \relative f' {
   \break
   r4 e8 e8 a4 e4 | r4 g8 g8 d'8 ds8 e4 | c1~ | c4 b4 c4 cs4 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   d8 cs4 d8~ d2 | e,8 ds4 e8~ e2 | d'8 cs4 d8~ d2 | f,8 e4 f8~ f2 |
   \break

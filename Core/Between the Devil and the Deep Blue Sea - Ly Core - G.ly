@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Between the Devil and the Deep Blue Sea"
   subtitle = \subtitle

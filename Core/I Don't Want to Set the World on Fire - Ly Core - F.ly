@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Ballad [Ink Spots 1941]" 87
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   a4 c4 c,8 d8 f8 a8 | c2 cf2 | bf4 d2.~ | d2 bf2 |
   \break

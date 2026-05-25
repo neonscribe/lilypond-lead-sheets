@@ -1,7 +1,7 @@
 #!/bin/bash
 
 LILYPOND='lilypond'
-ARGS='-dmidi-only -dbackend=null -dno-print-pages'
+ARGS='-dmidi-only -dno-print-pages'
 # ARGS='-dno-print-note-names'
 # ARGS='-dprint-note-names'
 

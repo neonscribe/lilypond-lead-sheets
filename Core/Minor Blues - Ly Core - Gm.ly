@@ -2,9 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  (set-global-staff-size 18))
-
 \header {
   title = "Minor Blues (Blues en Mineur)"
   subtitle = "Transcribed from Rome 1949 recording"

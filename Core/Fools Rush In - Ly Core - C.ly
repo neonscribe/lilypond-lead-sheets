@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Fools Rush In (Where Angels Fear to Tread)"
   subtitle = \subtitle

@@ -1,12 +1,6 @@
 %% -*- Mode: LilyPond -*-
 
-% #(set-global-staff-size 18)
-
 \include "../Include/lead-sheets.ily"
-
-$(if (and (defined? 'printNoteNames) printNoteNames)
-  #{ #(set-global-staff-size 18) #}
-)
 
 \header {
   title = "The World Is Waiting for the Sunrise (1951 Les Paul)"

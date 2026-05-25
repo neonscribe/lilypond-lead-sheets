@@ -183,6 +183,13 @@
     }
 },{
     "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal"
+        ]
+    }
+},{
+    "choices": {
         "singerGender": [
             "female",
             "male"

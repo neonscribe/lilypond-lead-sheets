@@ -2,8 +2,6 @@
 
 \include "../Include/lead-sheets.ily"
 
-% #(set-global-staff-size 18)
-
 \header {
   title = "Oh, Lonesome Me (in 3, Neil Young Style)"
   subtitle = \subtitle
