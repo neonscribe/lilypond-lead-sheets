@@ -55,7 +55,10 @@ refrainDFBChords = \chordmode {
   g1:7 g1:7 c1 c1
 
   c1 cs1:dim7 g1 e1:7
-  a1:m7 d1:7 g2:6 bf2:dim7 a2:m7 d2:7
+  a1:m7 d1:7 g2:6 
+  \chordOpenParen{ bf2:dim7 }
+  a2:m7
+  \chordCloseParen{ d2:7 }
 }
 
 alternateChords = #(if (defined? 'alternateChords)

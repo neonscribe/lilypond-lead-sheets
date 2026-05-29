@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "ireal" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 \header {
@@ -23,7 +29,25 @@ In oth -- er words, __ I love you.
 true. __ In oth -- er words, __ I love you. __
 }
 
-refrainChords = \chordmode {
+refrainiRealChords = \chordmode {
+  a1:m7 d1:m7 g1:7 c1:maj7
+  f1:maj7 b1:m7.5- e1:7.9- a2:m7 a2:7
+
+  d1:m7 g1:7 c2:maj7 f2:7 e2:m7 a2:7
+  d1:m7 g1:7 c1:maj7 b2:m7.5- e2:7.9-
+
+  a1:m7 d1:m7 g1:7 c1:maj7
+  f1:maj7 b1:m7.5- e1:7.9- a2:m7 a2:7
+
+  d1:m7 g1:7 e1:m7 a1:7
+  d1:m7 g1:7 c1:maj7
+  \chordOpenParen{ b2:m7.5- }
+  \chordCloseParen{ e2:7.9- }
+
+  e1:m7 a1:7 d1:m7 g1:7 c1:maj7 c1:maj7
+}
+
+refrainHLChords = \chordmode {
   a1:m7 d1:m7 g1:7 c2:maj7 c2:7
   f1:maj7 b1:m7.5- e1:7.9- a2:m7 a2:7
 
@@ -40,6 +64,17 @@ refrainChords = \chordmode {
 
   e1:m7 a1:7 d1:m7 g1:7 c1:6 c1:6
 }
+
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "ireal" refrainiRealChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = c
 

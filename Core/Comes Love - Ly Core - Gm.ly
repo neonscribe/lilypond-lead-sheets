@@ -48,19 +48,38 @@ _ _ _ _ _ _ _
 refrainiRealChords = \chordmode {
   s4
 
-  g1:m6 g1:m6 d1:7.13- d1:7.13-
-  a1:m7.5- d1:7.9- g1:m6 a2:m7.5- d2:7.9-
+  g1:m6 g1:m6 d1:7 d1:7
+  a1:m7.5- d2:7 d2:7.5+ g1:m6 a2:m7.5- d2:7.5+
 
-  g1:m6 g1:m6 d1:7.13- d1:7.13-
-  a1:m7.5- d1:7.9- g1:m6 ef2:7 d2:7
+  g1:m6 g1:m6 d1:7 d1:7
+  a1:m7.5- d2:7 d2:7.5+ g1:m6 ef2:7 d2:7
 
-  g1:7.13- g1:7.13- c2:m7 g2:7.9- c1:m7
-  f1:7 f1:7 bf1:6 d1:7.13-
+  g1:7 g1:7 c2:m g2:7 c1:m
+  f1:7 f1:7 bf1 d1:7
 
-  g1:m6 g1:m6 d1:7.13- d1:7.13-
-  a1:m7.5- d1:7.9- g1:m6
+  g1:m6 g1:m6 d1:7 d1:7
+  a1:m7.5- d2:7 d2:7.5+ g2:m6 c2:m6 g2:m6 af2:9
+
+  g2:m6 c2:m6 d2:7 d2:7.5+ g2:m6 c2:m6 d2:7 d2:7.5+ r4 g2.:m6
+}
+
+refrainHLChords = \chordmode {
+  s4
+
+  g1:m g1:m d1:7 d1:7
+  d2:7 c4/e f4:dim7 d2:7/fs ef4:7 d4:7 g1:m g2.:m d4:7
+
+  g1:m g1:m d1:7 d1:7
+  d2:7 c4/e f4:dim7 d2:7/fs ef4:7 d4:7 g1:m g2.:m d4:7
+
+  g1:7 g1:7 c2.:m g4:7 c1:m f1:7 d1:7 d1:7 d4.:7 a4.:m e4:7
+
+  g1:m g1:m d1:7 d1:7
+  d2:7 c4/e f4:dim7 d2:7/fs ef4:7 d4:7 g1:m
   \chordOpenParen{ a2:m7.5- }
   \chordCloseParen{ d2:7.9- }
+  
+  g1:m d2:7/fs ef4:7 d4:7 g1:m d2:7/fs ef4:7 d4:7 r4 g2.:m
 }
 
 refrainDjypsyDjazzChords = \chordmode {
@@ -80,7 +99,7 @@ refrainDjypsyDjazzChords = \chordmode {
   g1:m d2:7/fs ef4:7 d4:7 g1:m d2:7/fs ef4:7 d4:7 r4 g2.:m
 }
 
-refrainChords = \refrainDjypsyDjazzChords
+refrainChords = \refrainiRealChords
 
 refrainKey = g
 

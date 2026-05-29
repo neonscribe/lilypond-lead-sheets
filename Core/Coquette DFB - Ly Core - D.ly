@@ -13,7 +13,7 @@
 refrainLyrics = \lyricmode {
 }
 
-refrainChords = \chordmode {
+refrainDFBChords = \chordmode {
   d1 d1 e1:m7 a1:7 e1:m7 a1:7 d2 b2:7 e2:m7 a2:7
   d1 d1 e1:m7 a1:7 e1:m7 a1:7 d1 d1
   a1:m7 d1:7 g1 g1 b1:m7 e1:7 e1:m7 a1:7
@@ -34,8 +34,10 @@ refrainRNChords = \chordmode {
   b1:m7 e1:7 e1:m7 a1:13.9-
 
   d1:6.9 d1:6.9 e1:m7 a1:13.9-
-  e1:m7 a1:13.9- fs2:m7 b2:13.9- e2:m7 a2:13.9-
+  e1:m7 a1:13.9- d1:6.9 d1:6.9
 }
+
+refrainChords = \refrainRNChords
 
 refrainKey = d
 

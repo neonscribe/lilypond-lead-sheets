@@ -36,6 +36,16 @@
 
 {
     "option": "alternateChords",
+    "name": "ireal",
+    "description": "iReal Pro Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "nolan",
+    "description": "Robin Nolan Chords" },
+
+{
+    "option": "alternateChords",
     "name": "oldreal",
     "description": "Old (illegal) Real Book Chords" },
 

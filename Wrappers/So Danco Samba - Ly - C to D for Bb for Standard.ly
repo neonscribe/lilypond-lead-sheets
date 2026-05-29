@@ -1,0 +1,17 @@
+%% -*- Mode: LilyPond -*-
+
+\version "2.26.0"
+
+\include "english.ly"
+
+subtitle = "Bb for Standard Key"
+whatKey = d
+whatClef = "treble"
+
+\include "../Core/So Danco Samba - Ly Core - C.ly"
+
+%{
+
+\song{So Danco Samba - C to D}{"../Standard/Bb/So Danco Samba - Ly - C to D for Bb for Standard"}
+
+%}

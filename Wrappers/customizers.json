@@ -96,6 +96,13 @@
     }
 },{
     "choices": {
+        "alternateChords": [
+            "hlrb",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
         "lyricsLanguage": [
             "portuguese",
             "french",
@@ -125,9 +132,30 @@
     }
 },{
     "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "ireal",
+            "firehouse"
+        ]
+    }
+},{
+    "choices": {
         "lyricsLanguage": [
             "french",
             "english"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "ireal"
         ]
     }
 },{
@@ -291,6 +319,13 @@
         "singerGender": [
             "male",
             "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal"
         ]
     }
 },{
@@ -511,6 +546,13 @@
         "singerGender": [
             "male",
             "female"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "ireal",
+            "firehouse"
         ]
     }
 },{

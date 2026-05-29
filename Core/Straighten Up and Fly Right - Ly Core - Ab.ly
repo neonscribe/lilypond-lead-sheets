@@ -102,6 +102,10 @@ refrainMelody = \relative f' {
   r4 f8 af8 bf4 f8 af8~ | af8 bf4.~ bf2 |
   r4 f8 af8 bf4 f8 af8~ | af8 f4.~ f2 |
   r4 f8 af8 bf4 f8 af8~ | af8 bf4.~ bf4 r8 af8~ |
+  \bar "|o"
+
+  \xPageBreak
+
   af8 af4. f8 g8 af8 bf8 \textToCodaLastTime |
   cf8 af4 bf8~ bf2 |
 
@@ -128,7 +132,7 @@ refrainMelody = \relative f' {
 
   \bar "||-|."
 
-  \textCodaBreak
+  \textCoda
 
   c4 r4 c2 |
   \autoBeamOff
@@ -156,6 +160,6 @@ refrainKicksOverTime = \relative f' {
 \markup { "Play " { \bold \box "Intro" } " then " { \bold \box "Verse" }
 	  { \bold \box "A1" } { \bold \box "A2" } { \bold \box "B" } { \bold \box "A3" }
 	  }
-\markup { "Solo over one or two " { \bold \box "A" } " sections, or the entire form," }
-\markup { "then play " { \bold \box "Intro" } " again, then " { \bold \box "A1" } " with the Coda."
+\markup { "Solo over one or two " { \bold \box "A" } " sections, or the entire form,"
+	  "then play " { \bold \box "Intro" } " again, then " { \bold \box "A1" } " with the Coda."
 	}

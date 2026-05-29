@@ -27,6 +27,9 @@ refrainChords = \chordmode {
 
   d1:m7 d1:m7 e1:7.9- e1:7.9-
   e1:m7.5- a1:7.9- d1:m7 e2:m7.5- a2:7.9-
+
+  d1:m d1:3-.5.6- d1:m6 d1:3-.5.6-
+  d1:m d1:3-.5.6- d1:m6 d1:3-.5.6-
 }
 
 refrainKey = d
@@ -39,7 +42,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Gypsy Bossa [Stochelo Rosenberg 1989]" 170
 
-  \sectNoBar "Intro/Outro"
+  \sectNoBar "Intro"
 
   a4 f'4 a,8 f'8 a,8 as8~ | as8 f'4 as,8 as4 f'8 as,8 | b4 f'4 b,8 f'8 b,8 bf8~ | bf8 f'4 bf,8 bf4 f'8 bf,8 |
   \break
@@ -71,7 +74,15 @@ refrainMelody = \relative f' {
   \break
   g8 f'8 g,8 e'8~ e2 | r8 g8 g8 f8 g8 g8 f8 d8~ | d1-"play outro last time" | r1 |
 
-  \bar "|."
+  \bar ".|:-|."
+
+  \sectNoBar "Outro"
+
+  \repeat volta 2 {
+  a4 f'4 a,8 f'8 a,8 as8~ | as8 f'4 as,8 as4 f'8 as,8 | b4 f'4 b,8 f'8 b,8 bf8~ | bf8 f'4 bf,8 bf4 f'8 bf,8 |
+  \break
+  a4 f'4 a,8 f'8 a,8 as8~ | as8 f'4 as,8 as4 f'8 as,8 | b4 f'4 b,8 f'8 b,8 bf8~ | bf8 f'4 bf,8 bf4 f'8 bf,8 |
+  }
 }
 
 \include "../Include/paper.ily"

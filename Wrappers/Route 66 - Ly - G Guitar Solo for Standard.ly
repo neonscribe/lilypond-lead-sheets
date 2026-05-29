@@ -12,6 +12,6 @@ whatClef = "treble_8"
 
 %{
 
-\song{Route 66 Guitar Solo - G}{"../Standard/Route 66 Guitar Solo - Ly - G Standard"}
+\song{Route 66 Guitar Solo - G}{"../Standard/Guitar Solo/Route 66 Guitar Solo - Ly - G Standard"}
 
 %}

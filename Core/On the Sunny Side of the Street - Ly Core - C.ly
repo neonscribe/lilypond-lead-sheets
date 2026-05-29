@@ -2,6 +2,8 @@
 
 \include "../Include/lead-sheets.ily"
 
+#(set-global-staff-size 18)
+
 \header {
   title = "On the Sunny Side of the Street"
   subtitle = \subtitle
@@ -75,7 +77,7 @@ refrainHLChords = \chordmode {
   \chordInsideParens{ g2:7 }
 }
 
-refrainChords = \refrainNewRealChords
+refrainChords = \refrainWhatChords
 
 refrainKey = c
 
@@ -92,25 +94,25 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   c4 d4 e4 g4 | e'2. e8 ef8 | d4 c4 a4 f4 | e2 d2 |
-  \break
+  %% \break
   c4 d4 e4 c'4 | b2. gs8 a8 | c4 a8 f8~ f8 e8 d4 | g2 r4 e8 d8 |
 
   \sect "A2"
 
   c4 d4 e4 g4 | e'2. e8 ef8 | d4 c4 a4 f4 | e2 d2 |
-  \break
+  %% \break
   c4 d4 e4 c'4 | b2. gs8 a8 | c4 a8 f8~ f8 e8 d4 | c4 c'4 c4 c4 |
 
   \sect "B"
 
   c2 d,8 f4 e8~ | e2 c'4 c4 | c2 e,8 g4 f8~ | f2. c'4 |
-  \break
+  %% \break
   c2 e,8 g4 fs8~ | fs2. a4 | b4 d4 r4 e,4 | f4 a4 r4 e8 d8 |
 
   \sect "A3"
 
   c4 d4 e4 g4 | e'2. e8 ef8 | d4 c4 a4 f4 | e2 d2 |
-  \break
+  %% \break
   c4 d4 e4 c'4 | b2. gs8 a8 | c4 a8 f8~ f8 e8 d4 | c2 r2 |
 
   \bar "|."

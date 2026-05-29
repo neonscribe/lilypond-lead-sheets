@@ -10,13 +10,22 @@
   copyright = \markup \small { \now " " "1879" }
 }
 
-refrainChords = \chordmode {
+refrainXChords = \chordmode {
   s2.
 
   a1:7 a1:7 d1:m d1:m
   a1:7 a1:7 bf1 bf1
   g1:m6 g1:m6 d1:m d1:m
   a1:7 a1:7 d1:m d1:m
+}
+
+refrainChords = \chordmode {
+  s2.
+
+  a1:9 a1:9 d1:m6 d1:m6
+  a1:9 a1:9 bf1:9 bf1:9
+  g1:m6 g1:m6 d1:m6 d1:m6
+  a1:9 a1:9 d1:m6 d1:m6
 }
 
 refrainKey = d

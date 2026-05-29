@@ -85,12 +85,14 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Hollywood Cowboy Swing [Sons of the Pioneers 1936]" 205
 
-  \xTextMark \markup{ \bold \box "Intro" }
-    g8 g8 f4 ef4 f4 | ef1 |
-    g8 g8 f4 ef4 f4 | ef4
+  \sectNoBar "Intro"
 
+  g8 g8 f4 ef4 f4 | ef1 |
+  g8 g8 f4 ef4 f4 | ef4
   bf'8 bf8 g4 ef4 |
+
   \sect "Refrain"
+
   f1~ | f4 f8 f8 af4 g4 | ef1~ | ef4 bf'8 bf8 g4 ef4 |
   \break
   f1~ | f4 f8 f8 af4 g4 | bf1~ | bf2 r4 g8 bf8 |
@@ -122,16 +124,24 @@ refrainMelody = \relative f' {
 
 \include "../Include/refrain.ily"
 
+\pageBreak
+
 \markup {
   \column
   \bold
   {
    \vspace #1
+   \line { \large { Intro. } }
+   \vspace #1
+   \line { \large { 1. } }
+   \vspace #3
    \line { \large { 2. } }
    \vspace #3
    \line { \large { 3. } }
    \vspace #3
    \line { \large { 4. } }
+   \vspace #3
+   \line { \large { Coda. } }
    }
   \column
   {
@@ -139,6 +149,12 @@ refrainMelody = \relative f' {
     }
   \column
   {
+   \vspace #1
+   \line { \large { Yippee-yi-o-ki-yay, yippee-yi-o-ki-yay. } }
+   \vspace #1
+   \line { \large { I'm an old cowhand from the Rio Grande. But my legs ain't bowed and my cheeks ain't tanned. } }
+   \line { \large { I'm a cowboy who never saw a cow. Never roped a steer, 'cause I don't know how. } }
+   \line { \large { And I shore ain't fixin' to start in now. Yippee-yi-o-ki-yay, yippee-yi-o-ki-yay. } }
    \vspace #1
    \line { \large { I'm an old cowhand from the Rio Grande. And I learned to ride, 'fore I learned to stand. } }
    \line { \large { I'm a ridin' fool who is up to date. I know every trail in the Lone Star State. } }
@@ -151,6 +167,7 @@ refrainMelody = \relative f' {
    \line { \large { I'm an old cowhand from the Rio Grande. Where the west is wild, 'round the border land. } }
    \line { \large { Where the buffalo roam around the zoon and the indians make you a rug or two. } }
    \line { \large { And the old Bar-X is a Bar-B-Q. Yippee-yi-o-ki-yay, yippee-yi-o-ki-yay. } }
+   \vspace #1
    \line { \large { Yipp-e-e-yi-o-o-ki-i-yay. } }
  }
 }

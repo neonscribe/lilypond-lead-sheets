@@ -198,6 +198,19 @@ dalSegnoAfterSolosWithRepeats = {
   }
 }
 
+dalSegnoAlFineLastTime = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \xTextEndMark
+  \markup {
+    \small
+    \bold
+    \italic "D.S. al Fine, last time"
+  }
+}
+
 dalSegnoFirstAndSecondTimes = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #RIGHT

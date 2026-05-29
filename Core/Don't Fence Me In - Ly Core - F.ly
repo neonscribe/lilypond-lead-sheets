@@ -1,11 +1,17 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "simple" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 \header {
   title = "Don't Fence Me In"
   subtitle = \subtitle
-  poet = ""
+  poet = "Bob Fletcher"
   composer = "Cole Porter"
   copyright = \markup \small { \now " " "© 1944 Warner Bros, Inc." }
 }
@@ -29,7 +35,22 @@ Can't look at hob -- bles and I can't stand fen -- ces,
 don't fence me in.
 }
 
-refrainChords = \chordmode {
+refrainSimpleChords = \chordmode {
+  s2.
+
+  f1 f1 f1 c1:7
+  c1:7 c1:7 c1:7 f1
+
+  f1 f2 f2:7 bf1 bf2 bf2:m
+  f1 d2:7 bf2:m f2 c2:7 f2 f2:7
+
+  bf1 bf1 f1 f2 f2:7
+  bf1 bf1 f1 f1
+
+  f1 f2 f2:7 bf1 bf2 bf2:m f1 d2:7 bf2:m f2 c2:7 f1
+}
+
+refrainHLChords = \chordmode {
   s2.
 
   f2 f2:maj7 f2:6 f2:maj7 f2:6 d2:7.9- g2:m7 c2:7
@@ -44,6 +65,17 @@ refrainChords = \chordmode {
   f2 f2:maj7 f2:7 f2:7.5+ bf1:6 bf2:6 bf2:m
   f1 d2:7 g2:m7.5- f2:6 c8*3:9 f8*9:6
 }
+
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "simple" refrainSimpleChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = f
 

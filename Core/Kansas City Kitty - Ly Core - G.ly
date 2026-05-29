@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "ireal", "firehouse" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 \header {
@@ -38,7 +44,7 @@ refrainLyricsTwo = \lyricmode {
   When Kan -- sas Cit -- y Kit -- ty smiled at me. __
 }
 
-refrainFHChords = \chordmode {
+refrainFirehouseChords = \chordmode {
   g1 c1:7 g1 c1:7
   g1 a2:7 d2:7 g a2:7 d2:7
   g1 c1:7 g1 c1:7
@@ -65,7 +71,16 @@ refrainiRealChords = \chordmode {
   a1:7 d1:7 g1:6 g1:6
 }
 
-refrainChords = \refrainiRealChords
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "ireal")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "firehouse" refrainFirehouseChords)
+			    (cons "ireal" refrainiRealChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = g
 

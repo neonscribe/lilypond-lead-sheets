@@ -1945,6 +1945,11 @@ refrain
 e
 fis'
 
+At Sundown - Ly - G Bass for Simple Chords.ly
+refrain
+e,
+fis
+
 At Sundown - Ly - G Simple Chords.ly
 refrain
 e
@@ -4482,6 +4487,16 @@ refrain
 d'
 g''
 
+Can't We Be Friends - Ly - G Alto Voice.ly
+refrain
+d
+g'
+
+Can't We Be Friends - Ly - G Bass for Alto Voice.ly
+refrain
+d
+g'
+
 Cantaloupe Island - Ly - Fm Bass for Standard.ly
 refrain
 ees
@@ -5276,6 +5291,11 @@ Comes Love - Ly - Cm Alto Voice.ly
 refrain
 g
 aes'
+
+Comes Love - Ly - Cm Bass for Alto Voice.ly
+refrain
+g,
+aes
 
 Comes Love - Ly - Cm to Am for Eb for Alto Voice.ly
 refrain
@@ -7041,6 +7061,21 @@ refrain
 g
 bes'
 
+Don't Fence Me In - Ly - C Baritone Voice.ly
+refrain
+g
+bes'
+
+Don't Fence Me In - Ly - D Baritone Voice.ly
+refrain
+a
+c''
+
+Don't Fence Me In - Ly - E Baritone Voice.ly
+refrain
+b
+d''
+
 Don't Fence Me In - Ly - Eb Baritone Voice.ly
 refrain
 bes
@@ -7067,6 +7102,11 @@ a'
 c'''
 
 Don't Fence Me In - Ly - F to G for Bb for Standard.ly
+refrain
+d'
+f''
+
+Don't Fence Me In - Ly - G Baritone Voice.ly
 refrain
 d'
 f''
@@ -8382,6 +8422,21 @@ f
 a'
 
 Fly Me to the Moon - Ly - G Alto Voice.ly
+refrain
+g
+b'
+
+Fly Me to the Moon - Ly - G Bass for Alto Voice.ly
+refrain
+g,
+b
+
+Fly Me to the Moon - Ly - G Bass for iReal Chords.ly
+refrain
+g,
+b
+
+Fly Me to the Moon - Ly - G iReal Chords.ly
 refrain
 g
 b'
@@ -20570,6 +20625,61 @@ refrain
 d'
 fis''
 
+Please Don't Talk About Me When I'm Gone - Ly - Ab Alto Voice.ly
+refrain
+aes
+bes'
+
+Please Don't Talk About Me When I'm Gone - Ly - Bb Alto Voice.ly
+refrain
+bes
+c''
+
+Please Don't Talk About Me When I'm Gone - Ly - C Baritone Voice.ly
+refrain
+c'
+d''
+
+Please Don't Talk About Me When I'm Gone - Ly - Eb Bass for Standard.ly
+refrain
+ees
+f'
+
+Please Don't Talk About Me When I'm Gone - Ly - Eb Standard for Viola.ly
+refrain
+ees
+f'
+
+Please Don't Talk About Me When I'm Gone - Ly - Eb Standard.ly
+refrain
+ees'
+f''
+
+Please Don't Talk About Me When I'm Gone - Ly - Eb to C for Eb for Standard.ly
+refrain
+c'
+d''
+
+Please Don't Talk About Me When I'm Gone - Ly - Eb to F for Bb for Standard.ly
+refrain
+f'
+g''
+
+Please Don't Talk About Me When I'm Gone - Ly - G Alto Voice.ly
+refrain
+g
+a'
+
+Please Don't Talk About Me When I'm Gone - Ly - G Baritone Voice.ly
+refrain
+g
+a'
+
+Please Don't Talk About Me When I'm Gone - Ly - G Bass for Alto Voice.ly
+refrain
+g,
+a
+
 Poinciana - Ly - C Alto Voice.ly
 refrain
 g
@@ -21270,6 +21380,24 @@ refrain
 f'
 aes''
 
+Route 66 - Ly - C Alto Voice.ly
+intro
+e
+f''
+refrain
+g
+bes'
+
+Route 66 - Ly - C Bass for Alto Voice.ly
+intro
+e,
+f'
+refrain
+g,
+bes
+
+Route 66 - Ly - C Guitar Solo for Standard.ly
+
 Route 66 - Ly - D Baritone Voice.ly
 intro
 fis
@@ -21598,8 +21726,8 @@ f''
 
 Satin Doll - Ly - C Bass for Standard.ly
 refrain
-g
-d'
+g,
+d
 
 Satin Doll - Ly - C Standard for Viola.ly
 refrain
@@ -22546,6 +22674,31 @@ Smoke Gets in Your Eyes - Ly - F Alto Voice.ly
 refrain
 bes,
 g'
+
+So Danco Samba - Ly - C Bass for Standard.ly
+refrain
+d
+e'
+
+So Danco Samba - Ly - C Standard for Viola.ly
+refrain
+d
+e'
+
+So Danco Samba - Ly - C Standard.ly
+refrain
+d'
+e''
+
+So Danco Samba - Ly - C to A for Eb for Standard.ly
+refrain
+b
+cis''
+
+So Danco Samba - Ly - C to D for Bb for Standard.ly
+refrain
+e'
+fis''
 
 So Nice - Ly - Bb Alto Voice.ly
 refrain
@@ -30289,6 +30442,41 @@ You're Driving Me Crazy - Ly - F to G for Bb for Standard.ly
 refrain
 e'
 fis''
+
+You've Changed - Ly - Bb Alto Voice.ly
+refrain
+g
+a'
+
+You've Changed - Ly - Eb Bass for Standard.ly
+refrain
+c
+d'
+
+You've Changed - Ly - Eb Standard for Viola.ly
+refrain
+c
+d'
+
+You've Changed - Ly - Eb Standard.ly
+refrain
+c'
+d''
+
+You've Changed - Ly - Eb to C for Eb for Standard.ly
+refrain
+a
+b'
+
+You've Changed - Ly - Eb to F for Bb for Standard.ly
+refrain
+d'
+e''
+
+You've Changed - Ly - G Alto Voice.ly
+refrain
+e
+fis'
 
 Young and Foolish - Ly - C Bass for Standard.ly
 refrain

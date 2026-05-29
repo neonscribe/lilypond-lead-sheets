@@ -134,7 +134,7 @@ refrainMelody = \relative f' {
 
   \partial 4 f8 f8 |
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectNoBreak "A1,A2"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -182,5 +182,7 @@ leadingEighth = ##t
 \include "../Include/intro.ily"
 
 leadingEighth = ##f
+
+\pageBreak
 
 \include "../Include/refrain.ily"

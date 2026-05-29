@@ -19,7 +19,7 @@ refrainChords = \chordmode {
   df1:7 df1:7 df1:7 df1:7
   bf1:7 bf1:7 bf1:7 bf1:7
   af1:6 f1:7 bf1:m7 df1:m6
-  af2:6/c b2:dim7 bf2:m7 ef2:7 af1:6 af1:6
+  af2:6/c cf2:dim7 bf2:m7 ef2:7 af1:6 af1:6
 }
 
 refrainKey = af

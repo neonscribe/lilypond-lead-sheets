@@ -1,0 +1,17 @@
+%% -*- Mode: LilyPond -*-
+
+\version "2.26.0"
+
+\include "english.ly"
+
+subtitle = "Bass for Mildred Bailey Key"
+whatKey = g,,
+whatClef = "bass"
+
+\include "../Core/Please Don't Talk About Me When I'm Gone - Ly Core - Eb.ly"
+
+%{
+
+\song{Please Don't Talk About Me When I'm Gone - G Bass}{"../Alto Voice/Bass/Please Don't Talk About Me When I'm Gone - Ly - G Bass for Alto Voice"}
+
+%}

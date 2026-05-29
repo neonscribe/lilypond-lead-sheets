@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "ireal", "firehouse" ] } }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 \header {
@@ -19,7 +25,7 @@ refrainLyrics = \lyricmode {
   to -- mor -- row night __ at the Dark -- town Strut -- ters Ball. __
 }
 
-refrainFHChords = \chordmode {
+refrainFirehouseChords = \chordmode {
   s4
 
   bf1 bf2 g2:7 c1:7 c1:7
@@ -39,7 +45,16 @@ refrainiRealChords = \chordmode {
   c1:7 f1:7 bf1:6 \chordInsideParens{ f1:7 }
 }
 
-refrainChords = \refrainiRealChords
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "ireal")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "firehouse" refrainFirehouseChords)
+			    (cons "ireal" refrainiRealChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = bf
 
