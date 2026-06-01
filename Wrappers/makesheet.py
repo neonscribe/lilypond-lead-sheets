@@ -2,6 +2,7 @@ import re, sys, os
 
 from titlecase import titlecase
 from collections import deque
+from whenever import Instant
 
 # makesheet.py - Create a new empty core file and standard, Bass, Eb, and Bb wrappers
 
@@ -203,6 +204,8 @@ def key_name_for_nice(key, is_minor):
 song_title = input('Song title: ').strip()
 titlecased_song_title = titlecase(song_title)
 
+song_id = str(Instant.now())
+
 if song_title != titlecased_song_title:
     print('You typed: ', song_title)
     print('Proper title case is: ', titlecased_song_title)
@@ -247,6 +250,8 @@ if os.path.exists(in_core_file_name):
     exit(1)
 
 core_file_contents = f"""%% -*- Mode: LilyPond -*-
+
+songID = "{song_id}"
 
 \\include "../Include/lead-sheets.ily"
 

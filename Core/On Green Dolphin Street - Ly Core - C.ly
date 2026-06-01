@@ -1,3 +1,5 @@
+%% -*- Mode: LilyPond -*-
+
 \include "../Include/lead-sheets.ily"
 
 \header {
