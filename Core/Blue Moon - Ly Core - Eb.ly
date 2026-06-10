@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:27.236044Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blue Moon"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1934 Metro-Goldwyn-Mayer Corp." }
-}
+headerTitle = "Blue Moon"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1934 Metro-Goldwyn-Mayer Corp."
 
 refrainLyrics = \lyricmode {
 Blue moon, you saw me stand -- ing a -- lone __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.302209Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Tune Up"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Miles Davis/Eddie Vinson"
-  copyright = \markup \small { \now " " "© 1953 Prestige Music" }
-}
+headerTitle = "Tune Up"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Miles Davis/Eddie Vinson"
+headerCopyright = "© 1953 Prestige Music"
 
 refrainChords = \chordmode {
   r1 r1 r1 r1

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.963315Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Me and My Shadow"
-  subtitle = \subtitle
-  poet = "Billy Rose"
-  composer = "Dave Dreyer and Al Jolson"
-  copyright = \markup \small { \now " " "© 1927 Irving Berlin Inc." }
-}
+headerTitle = "Me and My Shadow"
+headerSubtitle = \subtitle
+headerPoet = "Billy Rose"
+headerComposer = "Dave Dreyer and Al Jolson"
+headerCopyright = "© 1927 Irving Berlin Inc."
 
 refrainLyrics = \lyricmode {
 Me and my shad -- ow stroll -- ing down the av -- en -- ue. __

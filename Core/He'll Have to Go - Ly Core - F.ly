@@ -12,13 +12,11 @@ songID = "2026-06-01T22:16:34.770392Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "He'll Have to Go"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Joe Allison and Audrey Allison"
-  copyright = \markup \small { \now " " "© 1959 Beechwood Music Corp." }
-}
+headerTitle = "He'll Have to Go"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Joe Allison and Audrey Allison"
+headerCopyright = "© 1959 Beechwood Music Corp."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Put your sweet lips __ a lit -- tle clos -- er __ to the phone. __

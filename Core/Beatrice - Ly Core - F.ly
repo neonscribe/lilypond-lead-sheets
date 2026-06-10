@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.153431Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Beatrice"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sam Rivers"
-  copyright = \markup \small { \now " " "© 1965 Rivbea Music" }
-}
+headerTitle = "Beatrice"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sam Rivers"
+headerCopyright = "© 1965 Rivbea Music"
 
 refrainChords = \chordmode {
   f1:maj7 gf1:maj7.11+ f1:maj7 ef1:maj7

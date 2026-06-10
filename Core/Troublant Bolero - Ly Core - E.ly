@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.118866Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Troublant Bolero"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Django Reinhardt"
-  copyright = \markup \small { \now " " "© 1948 Publications Francis Day S.A." }
-}
+headerTitle = "Troublant Bolero"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Django Reinhardt"
+headerCopyright = "© 1948 Publications Francis Day S.A."
 
 introKey = e
 

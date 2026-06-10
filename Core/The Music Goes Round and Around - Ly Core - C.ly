@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.019618Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Music Goes 'Round and Around"
-  subtitle = \subtitle
-  poet = "“Red” Hodgson"
-  composer = "Edward Farley, Michael Riley"
-  copyright = \markup \small { \now " " "© 1935 Anne Rachel Music Corp." }
-}
+headerTitle = "The Music Goes 'Round and Around"
+headerSubtitle = \subtitle
+headerPoet = "“Red” Hodgson"
+headerComposer = "Edward Farley, Michael Riley"
+headerCopyright = "© 1935 Anne Rachel Music Corp."
 
 leadingEighth = ##t
 

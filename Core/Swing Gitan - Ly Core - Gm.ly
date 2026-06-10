@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.374827Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Swing Gitan"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Angelo Debarre"
-  copyright = \markup \small { \now " " "2002" }
-}
+headerTitle = "Swing Gitan"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Angelo Debarre"
+headerCopyright = "2002"
 
 refrainChords = \chordmode {
   g1:m g1:m a1:7 a1:7

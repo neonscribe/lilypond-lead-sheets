@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.396097Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "One Note Samba (Samba de uma Nota Só)"
-  subtitle = \subtitle
-  poet = "Newton Mendonça, Jon Hendricks"
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1960 Jobim Music" }
-}
+headerTitle = "One Note Samba (Samba de uma Nota Só)"
+headerSubtitle = \subtitle
+headerPoet = "Newton Mendonça, Jon Hendricks"
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1960 Jobim Music"
 
 bossaRhythm = ##t
 leadingEighth = ##t

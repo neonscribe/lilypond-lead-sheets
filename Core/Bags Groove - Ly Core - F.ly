@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.955342Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bags' Groove"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Milt Jackson"
-  copyright = \markup \small { \now " " "© 1953 Reecie Music" }
-}
+headerTitle = "Bags' Groove"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Milt Jackson"
+headerCopyright = "© 1953 Reecie Music"
 
 refrainChords = \chordmode {
   s4

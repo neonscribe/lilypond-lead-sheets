@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.495821Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Favorite Things"
-  subtitle = \subtitle
-  poet = "Oscar Hammerstein II"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1959 Richard Rodgers and Oscar Hammerstein II" }
-}
+headerTitle = "My Favorite Things"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Hammerstein II"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1959 Richard Rodgers and Oscar Hammerstein II"
 
 refrainLyrics = \lyricmode {
 Rain -- drops on ros -- es and whisk -- ers on kit -- tens,

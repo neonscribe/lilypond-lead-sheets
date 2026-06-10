@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:46.705787Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Nuages"
-  subtitle = \subtitle
-  poet = "Jacques Larue"
-  composer = "Django Reinhardt"
-  copyright = \markup \small { \now " " "© 1940 Peter Maurice Music Ltd." }
-}
+headerTitle = "Nuages"
+headerSubtitle = \subtitle
+headerPoet = "Jacques Larue"
+headerComposer = "Django Reinhardt"
+headerCopyright = "© 1940 Peter Maurice Music Ltd."
 
 refrainDFBChords = \chordmode {
   s2.

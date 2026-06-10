@@ -2,7 +2,7 @@
 
 Create lead sheets using LilyPond and TeX
 
-This supercedes the lilypond-hacks repository.
+This supersedes the lilypond-hacks repository.
 
 ## Requirements
 

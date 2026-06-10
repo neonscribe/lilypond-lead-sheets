@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:54.375276Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Frim Fram Sauce"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Joe Ricardel and Redd Evans"
-  copyright = \markup \small { \now " " "© 1946 Music Sales Corporation" }
-}
+headerTitle = "The Frim Fram Sauce"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Joe Ricardel and Redd Evans"
+headerCopyright = "© 1946 Music Sales Corporation"
 
 leadingEighth = ##t
 

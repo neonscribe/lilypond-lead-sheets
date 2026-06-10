@@ -4,14 +4,12 @@ songID = "2026-06-01T22:16:40.786302Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Jesusita en Chihuahua"
-  subtitle = "aka J.C. Polka, Jess(i)e Polka, Cactus Polka"
-  subsubtitle = \subtitle
-  poet = ""
-  composer = "Quirino Mendoza y Cortés"
-  copyright = \markup \small { \now " " "1916" }
-}
+headerTitle = "Jesusita en Chihuahua"
+headerSubtitle = "aka J.C. Polka, Jess(i)e Polka, Cactus Polka"
+headerSubsubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Quirino Mendoza y Cortés"
+headerCopyright = "1916"
 
 straightEighths = ##t
 

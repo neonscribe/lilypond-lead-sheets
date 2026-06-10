@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:34.342993Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Goodbye (Good-Bye)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Gordon Jenkins"
-  copyright = \markup \small { \now " " "© 1935 Schuster and Miller, Inc." }
-}
+headerTitle = "Goodbye (Good-Bye)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Gordon Jenkins"
+headerCopyright = "© 1935 Schuster and Miller, Inc."
 
 leadingEighth = ##t
 

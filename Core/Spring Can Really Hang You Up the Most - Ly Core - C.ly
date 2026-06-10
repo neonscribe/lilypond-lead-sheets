@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:51.54406Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Spring Can Really Hang You Up the Most"
-  subtitle = \subtitle
-  poet = "Fran Landesman"
-  composer = "Tommy Wolf"
-  copyright = \markup \small { \now " " "© 1955 Wolf-Mills Music, Inc." }
-}
+headerTitle = "Spring Can Really Hang You Up the Most"
+headerSubtitle = \subtitle
+headerPoet = "Fran Landesman"
+headerComposer = "Tommy Wolf"
+headerCopyright = "© 1955 Wolf-Mills Music, Inc."
 
 refrainLyrics = \lyricmode {
 Once I was a sen -- ti -- men -- tal thing.

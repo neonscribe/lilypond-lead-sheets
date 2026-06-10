@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.207854Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title =  "Home (When Shadows Fall)"
-  subtitle = \subtitle
-  poet = "Frank Clarkson"
-  composer =  "Peter Van Steeden, Jeff Clarkson"
-  copyright = \markup \small { \now " " "© 1931 Songcastle Music" }
-}
+headerTitle =  "Home (When Shadows Fall)"
+headerSubtitle = \subtitle
+headerPoet = "Frank Clarkson"
+headerComposer =  "Peter Van Steeden, Jeff Clarkson"
+headerCopyright = "© 1931 Songcastle Music"
 
 refrainLyrics =  \lyricmode {
   When sha -- dows fall, and trees whis -- per day is end -- ing, My

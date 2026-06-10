@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.400161Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sandu"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Clifford Brown"
-  copyright = \markup \small { \now " " "© 1955 Second Floor Music" }
-}
+headerTitle = "Sandu"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Clifford Brown"
+headerCopyright = "© 1955 Second Floor Music"
 
 refrainChords = \chordmode {
   s2.

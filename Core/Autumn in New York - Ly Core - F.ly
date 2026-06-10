@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.58228Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Autumn in New York"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Vernon Duke"
-  copyright = \markup \small { \now " " "© 1934 Kay Duke Music" }
-}
+headerTitle = "Autumn in New York"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Vernon Duke"
+headerCopyright = "© 1934 Kay Duke Music"
 
 refrainLyrics = \lyricmode {
 Au -- tumn in New York, __ why does it seem so in -- vit -- ing?

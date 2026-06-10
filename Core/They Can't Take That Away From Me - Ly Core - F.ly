@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.068002Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "They Can't Take That Away From Me"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1936 Chappell & Co." }
-}
+headerTitle = "They Can't Take That Away From Me"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1936 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 The way you wear your hat, __ the way you sip your tea, __

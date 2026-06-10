@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.194895Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Poinciana"
-  subtitle = \subtitle
-  poet = "Buddy Bernier"
-  composer = "Nat Simon"
-  copyright = \markup \small { \now " " "© 1936 Chappell & Co." }
-}
+headerTitle = "Poinciana"
+headerSubtitle = \subtitle
+headerPoet = "Buddy Bernier"
+headerComposer = "Nat Simon"
+headerCopyright = "© 1936 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _

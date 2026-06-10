@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.01819Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Broadway"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bill Byrd, Teddy McRae and Henri Woode"
-  copyright = \markup \small { \now " " "© 1940 Intersong U.S.A., Inc." }
-}
+headerTitle = "Broadway"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bill Byrd, Teddy McRae and Henri Woode"
+headerCopyright = "© 1940 Intersong U.S.A., Inc."
 
 refrainLyrics = \lyricmode {
 Broad -- way, Broad -- way, ev -- 'ry bod -- y's hap -- py and gay,

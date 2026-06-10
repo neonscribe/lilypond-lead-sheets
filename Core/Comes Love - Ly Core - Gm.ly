@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.742535Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Comes Love"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Lew Brown, Chas. Tobias, Sam H. Stept"
-  copyright = \markup \small { \now " " "© 1939 Chappel & Co., Inc." }
-}
+headerTitle = "Comes Love"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Lew Brown, Chas. Tobias, Sam H. Stept"
+headerCopyright = "© 1939 Chappel & Co., Inc."
 
 refrainLyrics = \lyricmode {
 Comes a rain -- storm, put your rub -- bers on your feet.

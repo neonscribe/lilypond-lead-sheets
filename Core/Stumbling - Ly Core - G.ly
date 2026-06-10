@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:52.820142Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Stumbling"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Zez Confrey"
-  copyright = \markup \small { \now " " "© 1922 Leo Feist, Inc." }
-}
+headerTitle = "Stumbling"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Zez Confrey"
+headerCopyright = "© 1922 Leo Feist, Inc."
 
 refrainLyrics = \lyricmode {
 Stum -- bling all a -- round, stum -- bling all a -- round,

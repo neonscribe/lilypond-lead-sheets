@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.373588Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I've Got the World on a String"
-  subtitle = \subtitle
-  poet = "Ted Koehler"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1932 Ted Koehler Music and S.A. Music Co" }
-}
+headerTitle = "I've Got the World on a String"
+headerSubtitle = \subtitle
+headerPoet = "Ted Koehler"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1932 Ted Koehler Music and S.A. Music Co"
 
 leadingEighth = ##t
 

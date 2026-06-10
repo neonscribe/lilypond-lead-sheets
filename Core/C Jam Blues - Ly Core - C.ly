@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.42867Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "C Jam Blues"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1942 Famous Music Corporation" }
-}
+headerTitle = "C Jam Blues"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1942 Famous Music Corporation"
 
 refrainChords = \chordmode {
   c1:7 c1:7 c1:7 c1:7

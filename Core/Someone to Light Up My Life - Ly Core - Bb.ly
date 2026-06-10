@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.990562Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Someone to Light Up My Life (Se todos fossem iguais a você)"
-  subtitle = \subtitle
-  poet = "Vinícius de Moraes, English lyrics by Gene Lees"
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1958 Antônio Carlos Jobim and Vinícius de Moraes" }
-}
+headerTitle = "Someone to Light Up My Life (Se todos fossem iguais a você)"
+headerSubtitle = \subtitle
+headerPoet = "Vinícius de Moraes, English lyrics by Gene Lees"
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1958 Antônio Carlos Jobim and Vinícius de Moraes"
 
 bossaRhythm = ##t
 

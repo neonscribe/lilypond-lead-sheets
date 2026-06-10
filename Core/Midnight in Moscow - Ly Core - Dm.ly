@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.272909Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Midnight in Moscow"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Based on a song by Vassili Soloviev-Sedoy and M. Matusovsky, New Music by Kenny Ball"
-  copyright = \markup \small { \now " " "© 1961 Tyler Music, Ltd." }
-}
+headerTitle = "Midnight in Moscow"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Based on a song by Vassili Soloviev-Sedoy and M. Matusovsky, New Music by Kenny Ball"
+headerCopyright = "© 1961 Tyler Music, Ltd."
 
 refrainLyrics = \lyricmode {
 _ _ Still -- ness in the grove, not a rus -- tling sound;

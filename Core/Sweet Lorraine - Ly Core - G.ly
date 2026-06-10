@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.198362Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sweet Lorraine"
-  subtitle = \subtitle
-  poet = "Mitchell Parish"
-  composer = "Cliff Burwell"
-  copyright = \markup \small { \now " " "© 1928 Mills Music Inc." }
-}
+headerTitle = "Sweet Lorraine"
+headerSubtitle = \subtitle
+headerPoet = "Mitchell Parish"
+headerComposer = "Cliff Burwell"
+headerCopyright = "© 1928 Mills Music Inc."
 
 refrainLyrics = \lyricmode {
   I've just found joy, __ I'm as hap -- py as a ba -- by boy __

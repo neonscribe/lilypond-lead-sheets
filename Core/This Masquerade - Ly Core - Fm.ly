@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:56.31725Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "This Masquerade"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Leon Russell"
-  copyright = \markup \small { \now " " "© 1977 Skyhill Music" }
-}
+headerTitle = "This Masquerade"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Leon Russell"
+headerCopyright = "© 1977 Skyhill Music"
 
 refrainLyrics = \lyricmode {
   Are we real -- ly hap -- py here

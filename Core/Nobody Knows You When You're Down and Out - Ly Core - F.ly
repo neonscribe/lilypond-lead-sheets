@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:46.571051Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Nobody Knows You When You're Down and Out"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Jimmie Cox"
-  copyright = \markup \small { \now " " "© 1923 Universal Music Corp." }
-}
+headerTitle = "Nobody Knows You When You're Down and Out"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Jimmie Cox"
+headerCopyright = "© 1923 Universal Music Corp."
 
 refrainLyrics = \lyricmode {
 I once lived the life of a mil -- lion -- aire, __

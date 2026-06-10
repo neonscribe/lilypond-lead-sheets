@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:50.556337Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Só Danço Samba (Jazz 'n' Samba)"
-  subtitle = \subtitle
-  poet = "Vinicius de Moraes"
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1962 Corcovado Music Corporation" }
-}
+headerTitle = "Só Danço Samba (Jazz 'n' Samba)"
+headerSubtitle = \subtitle
+headerPoet = "Vinicius de Moraes"
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1962 Corcovado Music Corporation"
 
 leadingEighth = ##t
 

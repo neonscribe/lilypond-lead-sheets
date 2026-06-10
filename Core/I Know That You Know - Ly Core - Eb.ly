@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.618066Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Know That You Know"
-  subtitle = \subtitle
-  poet = "Anne Caldwell"
-  composer = "Vincent Youmans"
-  copyright = \markup \small { \now " " "© 1926 HARMS Inc." }
-}
+headerTitle = "I Know That You Know"
+headerSubtitle = \subtitle
+headerPoet = "Anne Caldwell"
+headerComposer = "Vincent Youmans"
+headerCopyright = "© 1926 HARMS Inc."
 
 refrainLyrics = \lyricmode {
 I know __ that you know __ that I'll go __ where you go. __

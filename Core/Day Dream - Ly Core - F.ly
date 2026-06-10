@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:30.815704Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Day Dream"
-  subtitle = \subtitle
-  poet = "John La Touche"
-  composer = "Billy Strayhorn, Duke Ellington"
-  copyright = \markup \small { \now " " "© 1940 Robbins Music Corporation" }
-}
+headerTitle = "Day Dream"
+headerSubtitle = \subtitle
+headerPoet = "John La Touche"
+headerComposer = "Billy Strayhorn, Duke Ellington"
+headerCopyright = "© 1940 Robbins Music Corporation"
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Day dream, why do you haunt me so? __

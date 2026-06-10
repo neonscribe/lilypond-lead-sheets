@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.965888Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Anthropology"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charlie Parker and Dizzy Gillespie"
-  copyright = \markup \small { \now " " "© 1946 Atlantic Music Corp." }
-}
+headerTitle = "Anthropology"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Parker and Dizzy Gillespie"
+headerCopyright = "© 1946 Atlantic Music Corp."
 
 refrainChords = \chordmode {
   bf1:6 c2:m7 f2:7 bf2:6 g2:m7 c2:m7 f2:7

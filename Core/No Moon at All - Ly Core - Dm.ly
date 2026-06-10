@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:46.481428Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "No Moon at All"
-  subtitle = \subtitle
-  composer = "Redd Evans & Dave Mann"
-  copyright = \markup \small { \now " " "© 1947 Jefferson Music Co., Inc." }
-}
+headerTitle = "No Moon at All"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Redd Evans & Dave Mann"
+headerCopyright = "© 1947 Jefferson Music Co., Inc."
 
 refrainLyrics = \lyricmode {
 No moon at all, __ what a night, __

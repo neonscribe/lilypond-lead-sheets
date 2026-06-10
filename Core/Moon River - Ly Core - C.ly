@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.930842Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Moon River"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Henry Mancini"
-  copyright = \markup \small { \now " " "© 1961 Famous Music Corporation" }
-}
+headerTitle = "Moon River"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Henry Mancini"
+headerCopyright = "© 1961 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 Moon Riv -- er, wid -- er than a mile,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:17:00.506285Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Young and Foolish"
-  subtitle = \subtitle
-  poet = "Arnold B. Horwitt"
-  composer = "Albert Hague"
-  copyright = \markup \small { \now " " "© 1954 Chappell & Co." }
-}
+headerTitle = "Young and Foolish"
+headerSubtitle = \subtitle
+headerPoet = "Arnold B. Horwitt"
+headerComposer = "Albert Hague"
+headerCopyright = "© 1954 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Young and fool -- ish,

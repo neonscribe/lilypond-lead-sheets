@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.320434Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Songe d'Automne"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Archibald Joyce"
-  copyright = \markup \small { \now " " "© 1908 Francis, Day & Hunter" }
-}
+headerTitle = "Songe d'Automne"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Archibald Joyce"
+headerCopyright = "© 1908 Francis, Day & Hunter"
 
 refrainChords = \chordmode {
   c2.:m c2.:m/b c2.:m/bf c2.:m/a

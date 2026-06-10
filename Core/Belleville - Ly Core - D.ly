@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.333358Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Belleville"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Django Reinhardt"
-  copyright = \markup \small { \now " " "© 1942 Publications Francis Day S.A." }
-}
+headerTitle = "Belleville"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Django Reinhardt"
+headerCopyright = "© 1942 Publications Francis Day S.A."
 
 refrainChords = \chordmode {
   d2 f2:dim7 e2:m7 a2:7 d2 f2:dim7 e2:m7 a2:7

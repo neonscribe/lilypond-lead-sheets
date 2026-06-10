@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:46.010423Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Naima"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Coltrane"
-  copyright = \markup \small { \now " " "© 1959 Jowcol Music" }
-}
+headerTitle = "Naima"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Coltrane"
+headerCopyright = "© 1959 Jowcol Music"
 
 refrainChords = \chordmode {
   df1:maj7/ef ef1:m9 a2:maj/ef g2:maj7/ef af1:maj7

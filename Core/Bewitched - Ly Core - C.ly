@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.683428Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bewitched"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1941 Chappell & Co." }
-}
+headerTitle = "Bewitched"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1941 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 I'm wild a -- gain, be -- guiled a -- gain,

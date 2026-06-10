@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.150491Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Will Wait for You"
-  subtitle = \subtitle
-  poet = "Jacques Demy/Norman Gimbel"
-  composer = "Michel Legrand"
-  copyright = \markup \small { \now " " "© 1964 Productions Michel Legrand and Productions Francis Lemarque" }
-}
+headerTitle = "I Will Wait for You"
+headerSubtitle = \subtitle
+headerPoet = "Jacques Demy/Norman Gimbel"
+headerComposer = "Michel Legrand"
+headerCopyright = "© 1964 Productions Michel Legrand and Productions Francis Lemarque"
 
 refrainLyrics = \lyricmode {
 If it takes for -- ev -- er I will wait for you,

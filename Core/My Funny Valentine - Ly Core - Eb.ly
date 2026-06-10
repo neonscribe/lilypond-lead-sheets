@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.586018Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Funny Valentine"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1937 Chappell & Co." }
-}
+headerTitle = "My Funny Valentine"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1937 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 My fun -- ny Val -- en -- tine,

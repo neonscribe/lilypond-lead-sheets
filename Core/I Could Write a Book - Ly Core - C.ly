@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.866075Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Could Write A Book"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1940 Chapell & Co" }
-}
+headerTitle = "I Could Write A Book"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1940 Chapell & Co"
 
 refrainLyrics = \lyricmode {
   If they asked me I could write a book, __

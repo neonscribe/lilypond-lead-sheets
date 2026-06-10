@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.748924Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "When You're Smiling (the Whole World Smiles with You)"
-  subtitle = \subtitle
-  poet = "Joe Goodwin"
-  composer = "Mark Fisher & Larry Shay"
-  copyright = \markup \small { \now " " "© 1928 Harold Rossiter Music Co." }
-}
+headerTitle = "When You're Smiling (the Whole World Smiles with You)"
+headerSubtitle = \subtitle
+headerPoet = "Joe Goodwin"
+headerComposer = "Mark Fisher & Larry Shay"
+headerCopyright = "© 1928 Harold Rossiter Music Co."
 
 refrainLyrics = \lyricmode {
   When you're smi -- ling, __ When you're smi -- ling, __

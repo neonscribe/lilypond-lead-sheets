@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:48.150289Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Please Don't Talk About Me When I'm Gone"
-  subtitle = \subtitle
-  poet = "Sidney Clare"
-  composer = "Sam H. Stept"
-  copyright = \markup \small { \now " " "© 1930 Remick Music Corp." }
-}
+headerTitle = "Please Don't Talk About Me When I'm Gone"
+headerSubtitle = \subtitle
+headerPoet = "Sidney Clare"
+headerComposer = "Sam H. Stept"
+headerCopyright = "© 1930 Remick Music Corp."
 
 refrainLyrics = \lyricmode {
 Please don't talk a -- bout __ me when I'm gone. __

@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:37.46759Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'll Feel a Whole Lot Better"
-  subtitle = "Transcription of Chris Hillman's bass line on The Byrds' 1965 recording"
-  composer = "Gene Clark"
-  copyright = \markup \small { \now " " "© 1965 Tickson Music Co., Hollywood, California" }
-}
+headerTitle = "I'll Feel a Whole Lot Better"
+headerSubtitle = "Transcription of Chris Hillman's bass line on The Byrds' 1965 recording"
+headerPoet = ""
+headerComposer = "Gene Clark"
+headerCopyright = "© 1965 Tickson Music Co., Hollywood, California"
 
 refrainChords = \chordmode {
   a1 a1 a1 a1

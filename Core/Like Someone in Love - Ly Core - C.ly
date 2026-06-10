@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:42.32983Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Like Someone in Love"
-  subtitle = \subtitle
-  poet = "Johnny Burke"
-  composer = "Jimmy Van Heusen"
-  copyright = \markup \small { \now " " "© 1949 Burke & Van Heusen" }
-}
+headerTitle = "Like Someone in Love"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Burke"
+headerComposer = "Jimmy Van Heusen"
+headerCopyright = "© 1949 Burke & Van Heusen"
 
 refrainLyrics = \lyricmode {
 Late -- ly I find my -- self out gaz -- ing at stars,

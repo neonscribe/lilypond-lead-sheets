@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.689498Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Late Late Show"
-  subtitle = \subtitle
-  poet = "Roy Alfred"
-  composer = "Murray Berlin"
-  copyright = \markup \small { \now " " "© 1956 Kahl Music" }
-}
+headerTitle = "The Late Late Show"
+headerSubtitle = \subtitle
+headerPoet = "Roy Alfred"
+headerComposer = "Murray Berlin"
+headerCopyright = "© 1956 Kahl Music"
 
 refrainLyrics = \lyricmode {
 Gee, it's co -- zy in the park to -- night, __

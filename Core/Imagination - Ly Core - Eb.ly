@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.888579Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Imagination"
-  subtitle = \subtitle
-  poet = "Johnny Burke"
-  composer = "Jimmy Van Heusen"
-  copyright = \markup \small { \now " " "© 1939 ABC Music Corporation" }
-}
+headerTitle = "Imagination"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Burke"
+headerComposer = "Jimmy Van Heusen"
+headerCopyright = "© 1939 ABC Music Corporation"
 
 leadingEighth = ##t
 

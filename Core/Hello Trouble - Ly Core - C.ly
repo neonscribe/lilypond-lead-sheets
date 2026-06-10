@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.91383Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Hello Trouble"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Eddie McDufff and Orville Couch"
-  copyright = \markup \small { \now " " "© 1962 Tyler Publishing Co." }
-}
+headerTitle = "Hello Trouble"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Eddie McDufff and Orville Couch"
+headerCopyright = "© 1962 Tyler Publishing Co."
 
 refrainLyrics = \lyricmode {
 Woke up this morn -- in', hap -- py as could be. __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.328753Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Portrait of Jennie"
-  subtitle = \subtitle
-  poet = "Gordon Burdge"
-  composer = "J. Russel Robinson"
-  copyright = \markup \small { \now " " "© 1948 Chappell & Co." }
-}
+headerTitle = "Portrait of Jennie"
+headerSubtitle = \subtitle
+headerPoet = "Gordon Burdge"
+headerComposer = "J. Russel Robinson"
+headerCopyright = "© 1948 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 A por -- trait of Jen -- nie, more pre -- cious to me,

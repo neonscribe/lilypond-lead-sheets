@@ -22,13 +22,11 @@ lyricsCredit = #(let ((v (assoc lyricsLanguage
 			    ("portuguese" . "Portuguese lyrics by Newton Mendonça")))))
 		 (if v (cdr v) ""))
 
-\header {
-  title = "Desafinado"
-  subtitle = \subtitle
-  poet = \lyricsCredit
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1959 Editora Musical Arapua" }
-}
+headerTitle = "Desafinado"
+headerSubtitle = \subtitle
+headerPoet = \lyricsCredit
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1959 Editora Musical Arapua"
 
 bossaRhythm = ##t
 

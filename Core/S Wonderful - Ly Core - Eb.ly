@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.222688Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "'S Wonderful"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1927 New World Music Corporation" }
-}
+headerTitle = "'S Wonderful"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1927 New World Music Corporation"
 
 refrainLyrics = \lyricmode {
 'S_won -- der -- ful! __ 'S_mar -- vel -- lous! __

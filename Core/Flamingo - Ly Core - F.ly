@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.294174Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Flamingo"
-  subtitle = \subtitle
-  poet = "Ed Anderson"
-  composer = "Ted Grouya"
-  copyright = \markup \small { \now " " "© 1941 Tempo Music Inc." }
-}
+headerTitle = "Flamingo"
+headerSubtitle = \subtitle
+headerPoet = "Ed Anderson"
+headerComposer = "Ted Grouya"
+headerCopyright = "© 1941 Tempo Music Inc."
 
 refrainLyrics = \lyricmode {
 Fla -- min -- go, __ like a flame in the sky,

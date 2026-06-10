@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.693846Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Darn That Dream"
-  subtitle = \subtitle
-  poet = "Eddie DeLange"
-  composer = "Jimmy Van Heusen"
-  copyright = \markup \small { \now " " "© 1939 Lewis Music Publishing Co., Inc." }
-}
+headerTitle = "Darn That Dream"
+headerSubtitle = \subtitle
+headerPoet = "Eddie DeLange"
+headerComposer = "Jimmy Van Heusen"
+headerCopyright = "© 1939 Lewis Music Publishing Co., Inc."
 
 refrainLyrics = \lyricmode {
 Darn that dream

@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:46.055254Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Nancy With the Laughing Face"
-  subtitle = \subtitle
-  poet = "Phil Silvers"
-  composer = "James Van Heusen"
-  copyright = \markup \small { \now " " "© 1944 Sands Music Corporation" }
-}
+headerTitle = "Nancy With the Laughing Face"
+headerSubtitle = \subtitle
+headerPoet = "Phil Silvers"
+headerComposer = "James Van Heusen"
+headerCopyright = "© 1944 Sands Music Corporation"
 
 leadingEighth = ##t
 

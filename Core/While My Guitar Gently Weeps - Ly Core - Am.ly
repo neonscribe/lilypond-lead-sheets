@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:58.963083Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "While My Guitar Gently Weeps"
-  subtitle = \subtitle
-  poet = ""
-  composer = "George Harrison"
-  copyright = \markup \small { \now " " "© 1968 Harrisongs Limited" }
-}
+headerTitle = "While My Guitar Gently Weeps"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "George Harrison"
+headerCopyright = "© 1968 Harrisongs Limited"
 
 refrainLyrics = \lyricmode {
   %% Intro

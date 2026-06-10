@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.92262Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Jordu"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Duke Jordan"
-  copyright = \markup \small { \now " " "© 1959 You Look Good Music Publishing" }
-}
+headerTitle = "Jordu"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Duke Jordan"
+headerCopyright = "© 1959 You Look Good Music Publishing"
 
 refrainChords = \chordmode {
   r1

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.229102Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Wish I Knew How It Would Feel to Be Free"
-  subtitle = \subtitle
-  poet = "Billy Tayor & Dick Dallas"
-  composer = "Billy Taylor"
-  copyright = \markup \small { \now " " "© 1964 Duane Music Inc." }
-}
+headerTitle = "I Wish I Knew How It Would Feel to Be Free"
+headerSubtitle = \subtitle
+headerPoet = "Billy Tayor & Dick Dallas"
+headerComposer = "Billy Taylor"
+headerCopyright = "© 1964 Duane Music Inc."
 
 refrainLyrics = \lyricmode {
 I wish I knew how __ it would feel __ to be free. __

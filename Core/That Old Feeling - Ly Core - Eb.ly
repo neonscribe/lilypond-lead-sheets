@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.852159Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "That Old Feeling"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Lew Brown and Sammy Fain"
-  copyright = \markup \small { \now " " "© 1937 Leo Feist Inc." }
-}
+headerTitle = "That Old Feeling"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Lew Brown and Sammy Fain"
+headerCopyright = "© 1937 Leo Feist Inc."
 
 refrainLyrics = \lyricmode {
 I saw you last night and got that old feel -- ing,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.561379Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Almost Like Being in Love"
-  subtitle = \subtitle
-  poet = "Alan Jay Lerner"
-  composer = "Frederick Lowe"
-  copyright = \markup \small { \now " " "© 1947 Lerner & Lowe" }
-}
+headerTitle = "Almost Like Being in Love"
+headerSubtitle = \subtitle
+headerPoet = "Alan Jay Lerner"
+headerComposer = "Frederick Lowe"
+headerCopyright = "© 1947 Lerner & Lowe"
 
 refrainLyrics = \lyricmode {
 What a day this has been!

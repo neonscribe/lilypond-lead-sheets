@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.34756Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Twisted"
-  subtitle = \subtitle
-  poet = "Annie Ross"
-  composer = "Wardell Gray"
-  copyright = \markup \small { \now " " "© 1949,1952 Prestige Music" }
-}
+headerTitle = "Twisted"
+headerSubtitle = \subtitle
+headerPoet = "Annie Ross"
+headerComposer = "Wardell Gray"
+headerCopyright = "© 1949,1952 Prestige Music"
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _

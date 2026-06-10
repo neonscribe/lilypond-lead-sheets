@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.561189Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lullaby of the Leaves"
-  subtitle = \subtitle
-  poet = "Joe Young"
-  composer = "Bernice Petkere"
-  copyright = \markup \small { \now " " "© 1932 Irving Berlin, Inc." }
-}
+headerTitle = "Lullaby of the Leaves"
+headerSubtitle = \subtitle
+headerPoet = "Joe Young"
+headerComposer = "Bernice Petkere"
+headerCopyright = "© 1932 Irving Berlin, Inc."
 
 refrainLyrics = \lyricmode {
   Cra -- dle me where south -- ern skies can watch me with a mil -- lion eyes, Oh

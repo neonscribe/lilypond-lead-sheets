@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:26.729694Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Beyond the Sea"
-  subtitle = \subtitle
-  poet = "Jack Lawrence"
-  composer = "Albert Lasry, Charles Trenet"
-  copyright = \markup \small { \now " " "© 1945 France Music Corp." }
-}
+headerTitle = "Beyond the Sea"
+headerSubtitle = \subtitle
+headerPoet = "Jack Lawrence"
+headerComposer = "Albert Lasry, Charles Trenet"
+headerCopyright = "© 1945 France Music Corp."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Some -- where, be -- yond the sea

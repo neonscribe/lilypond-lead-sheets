@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.344342Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Just in Time"
-  subtitle = \subtitle
-  poet = "Betty Comden and Adolph Green"
-  composer = "Jule Styne"
-  copyright = \markup \small { \now " " "© 1956 Chappell & Co." }
-}
+headerTitle = "Just in Time"
+headerSubtitle = \subtitle
+headerPoet = "Betty Comden and Adolph Green"
+headerComposer = "Jule Styne"
+headerCopyright = "© 1956 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Just in time, __ I found you just in time. __

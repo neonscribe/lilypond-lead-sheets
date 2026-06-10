@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.96708Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Joseph, Joseph (Yossel, Yossel, מיין יאסעל)"
-  subtitle = \subtitle
-  poet = "Nellie Casman"
-  composer = "Samuel Steinberg"
-  copyright = \markup \small { \now " " "© 1923" }
-}
+headerTitle = "Joseph, Joseph (Yossel, Yossel, מיין יאסעל)"
+headerSubtitle = \subtitle
+headerPoet = "Nellie Casman"
+headerComposer = "Samuel Steinberg"
+headerCopyright = "© 1923"
 
 refrainChords = \chordmode {
   s2.

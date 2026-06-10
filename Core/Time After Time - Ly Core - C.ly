@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.498868Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Time After Time (not Cyndi Lauper!)"
-  subtitle = \subtitle
-  poet = "Sammy Cahn"
-  composer = "Jule Styne"
-  copyright = \markup \small { \now " " "© 1947 Barton Music Corp." }
-}
+headerTitle = "Time After Time (not Cyndi Lauper!)"
+headerSubtitle = \subtitle
+headerPoet = "Sammy Cahn"
+headerComposer = "Jule Styne"
+headerCopyright = "© 1947 Barton Music Corp."
 
 refrainLyrics = \lyricmode {
   Time af -- ter time I tell my -- self that I'm

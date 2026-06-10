@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:52.593598Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Strawberry Fields Forever"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Lennon/Paul McCartney"
-  copyright = \markup \small { \now " " "© 1967 Northern Songs Ltd." }
-}
+headerTitle = "Strawberry Fields Forever"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Lennon/Paul McCartney"
+headerCopyright = "© 1967 Northern Songs Ltd."
 
 introLyrics = \lyricmode {
 }

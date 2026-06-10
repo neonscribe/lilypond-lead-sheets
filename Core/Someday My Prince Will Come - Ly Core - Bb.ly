@@ -12,13 +12,11 @@ songID = "2026-06-01T22:16:50.944439Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Someday My Prince Will Come"
-  subtitle = \subtitle
-  poet = "Larry Morey"
-  composer = "Frank Churchill"
-  copyright = \markup \small { \now " " "© 1937 Bourne Co." }
-}
+headerTitle = "Someday My Prince Will Come"
+headerSubtitle = \subtitle
+headerPoet = "Larry Morey"
+headerComposer = "Frank Churchill"
+headerCopyright = "© 1937 Bourne Co."
 
 refrainObjectGenderMaleLyrics = \lyricmode {
 Some -- day my prince will come.

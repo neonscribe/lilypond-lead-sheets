@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.744603Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Body and Soul"
-  subtitle = \subtitle
-  poet = "Edward Heymon, Robert Sour, and Frank Eyton"
-  composer = "Johnny Green"
-  copyright = \markup \small { \now " " "© 1930 Chappell & Co. and Harms Inc." }
-}
+headerTitle = "Body and Soul"
+headerSubtitle = \subtitle
+headerPoet = "Edward Heymon, Robert Sour, and Frank Eyton"
+headerComposer = "Johnny Green"
+headerCopyright = "© 1930 Chappell & Co. and Harms Inc."
 
 refrainLyrics = \lyricmode {
 My heart is sad and lone -- ly,

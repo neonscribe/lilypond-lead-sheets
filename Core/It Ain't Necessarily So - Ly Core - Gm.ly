@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.679402Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It Ain't Necessarily So"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1935 Gershwin Publishing Corporation" }
-}
+headerTitle = "It Ain't Necessarily So"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1935 Gershwin Publishing Corporation"
 
 leadingEighth = ##t
 

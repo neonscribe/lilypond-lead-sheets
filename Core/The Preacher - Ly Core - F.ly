@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.23041Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Preacher"
-  subtitle = \subtitle
-  poet = "Babs Gonzales"
-  composer = "Horace Silver"
-  copyright = \markup \small { \now " " "© 1956 Ecaroh Music, Inc." }
-}
+headerTitle = "The Preacher"
+headerSubtitle = \subtitle
+headerPoet = "Babs Gonzales"
+headerComposer = "Horace Silver"
+headerCopyright = "© 1956 Ecaroh Music, Inc."
 
 refrainChords = \chordmode {
   s2.

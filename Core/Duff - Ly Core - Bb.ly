@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.254899Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Duff"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Hampton Hawes"
-  copyright = \markup \small { \now " " "© 1956 Fort Knox Music Inc." }
-}
+headerTitle = "Duff"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Hampton Hawes"
+headerCopyright = "© 1956 Fort Knox Music Inc."
 
 refrainChords = \chordmode {
   s2

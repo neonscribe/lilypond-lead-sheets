@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:51.273904Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Songe d'Automne (1947 Hubert Rostaing Clarinet Melody)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Archibald Joyce"
-  copyright = \markup \small { \now " " "© 1908 Francis, Day & Hunter" }
-}
+headerTitle = "Songe d'Automne (1947 Hubert Rostaing Clarinet Melody)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Archibald Joyce"
+headerCopyright = "© 1908 Francis, Day & Hunter"
 
 refrainChords = \chordmode {
   c1:m c1:m/b c1:m/bf c1:m/a

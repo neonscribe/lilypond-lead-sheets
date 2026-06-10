@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:30.297266Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Crazy He (She) Calls Me"
-  subtitle = \subtitle
-  poet = "Bob Russell"
-  composer = "Carl Sigman"
-  copyright = \markup \small { \now " " "© 1949 Massey Music" }
-}
+headerTitle = "Crazy He (She) Calls Me"
+headerSubtitle = \subtitle
+headerPoet = "Bob Russell"
+headerComposer = "Carl Sigman"
+headerCopyright = "© 1949 Massey Music"
 
 leadingEighth = ##t
 

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.010809Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Joy Spring"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Clifford Brown"
-  copyright = \markup \small { \now " " "© 1956 Second Floor Music" }
-}
+headerTitle = "Joy Spring"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Clifford Brown"
+headerCopyright = "© 1956 Second Floor Music"
 
 leadingEighth = ##t
 

@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:43.869501Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Makin' Whoopee!"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Walter Donaldson"
-  copyright = \markup \small { \now " " "© 1928 Donaldson, Douglas & Gumble, Inc." }
-}
+headerTitle = "Makin' Whoopee!"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Walter Donaldson"
+headerCopyright = "© 1928 Donaldson, Douglas & Gumble, Inc."
 
 leadingEighth = ##t
 

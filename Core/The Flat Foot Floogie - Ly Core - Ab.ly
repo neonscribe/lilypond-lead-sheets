@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.218101Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Flat Foot Floogie (Flat Fleet Floogee)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Slim Gaillard, Slam Stewart and Bud Green"
-  copyright = \markup \small { \now " " "© 1938 Jewel Music Publishing Co., Inc." }
-}
+headerTitle = "The Flat Foot Floogie (Flat Fleet Floogee)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Slim Gaillard, Slam Stewart and Bud Green"
+headerCopyright = "© 1938 Jewel Music Publishing Co., Inc."
 
 leadingEighth = ##t
 

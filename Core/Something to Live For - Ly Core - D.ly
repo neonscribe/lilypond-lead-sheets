@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.083429Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Something to Live For"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Duke Ellington, Billy Strayhorn"
-  copyright = \markup \small { \now " " "© 1939 Mills Music, Inc. Billy Strayhorn Songs Inc." }
-}
+headerTitle = "Something to Live For"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Duke Ellington, Billy Strayhorn"
+headerCopyright = "© 1939 Mills Music, Inc. Billy Strayhorn Songs Inc."
 
 refrainLyrics = \lyricmode {
 I want some -- thing to live for. __

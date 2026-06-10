@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.189034Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bunko"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Lennie Niehaus"
-  copyright = \markup \small { \now " " "© 1955 Contemporary Music" }
-}
+headerTitle = "Bunko"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Lennie Niehaus"
+headerCopyright = "© 1955 Contemporary Music"
 
 refrainChords = \chordmode {
   f2:maj7 a4:m7 af4:7 g2:m7 c2:7.9- a2:m7 d2:7.9+ g2:m7 c2:7

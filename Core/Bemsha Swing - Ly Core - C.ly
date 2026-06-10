@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.377631Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bemsha Swing"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Thelonious Monk & Denzil Best"
-  copyright = \markup \small { \now " " "© 1952 Second Floor Music" }
-}
+headerTitle = "Bemsha Swing"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Thelonious Monk & Denzil Best"
+headerCopyright = "© 1952 Second Floor Music"
 
 refrainMonkHeadChords = \chordmode {
   s4

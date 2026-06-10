@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.211832Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Adobe Hacienda"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Louise Massey and Lee Penny"
-  copyright = \markup \small { \now " " "© 1941 Peer International Corp." }
-}
+headerTitle = "My Adobe Hacienda"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Louise Massey and Lee Penny"
+headerCopyright = "© 1941 Peer International Corp."
 
 refrainLyrics = \lyricmode {
 In my a -- do -- be ha -- ci -- en -- da __

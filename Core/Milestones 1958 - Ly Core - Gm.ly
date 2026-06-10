@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.361912Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Milestones (1958)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Miles Davis"
-  copyright = \markup \small { \now " " "© 1958 Jazz Horn Inc." }
-}
+headerTitle = "Milestones (1958)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Miles Davis"
+headerCopyright = "© 1958 Jazz Horn Inc."
 
 refrainChords = \chordmode {
   g2:m7 a2:m7/g g4.:m7 a8*5:m7/g g2:m7 a2:m7/g g4.:m7 a8*5:m7/g

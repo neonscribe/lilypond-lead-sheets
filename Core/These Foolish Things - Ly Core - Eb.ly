@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.97527Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "These Foolish Things"
-  subtitle = \subtitle
-  poet = "Holt Marvell"
-  composer = "Jack Strachey & Harry Link"
-  copyright = \markup \small { \now " " "© 1935 Boosey & Co. Ltd., London, England" }
-}
+headerTitle = "These Foolish Things"
+headerSubtitle = \subtitle
+headerPoet = "Holt Marvell"
+headerComposer = "Jack Strachey & Harry Link"
+headerCopyright = "© 1935 Boosey & Co. Ltd., London, England"
 
 refrainLyrics = \lyricmode {
 A cig -- a -- rette that bears a lip -- stick's tra -- ces,

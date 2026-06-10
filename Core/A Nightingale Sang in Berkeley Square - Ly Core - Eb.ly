@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:23.80641Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "A Nightingale Sang in Berkeley Square"
-  subtitle = \subtitle
-  poet = "Eric Maschwitz"
-  composer = "Manning Sherwin"
-  copyright = \markup \small { \now " " "© 1940 The Peter Maurice Music Co. Ltd." }
-}
+headerTitle = "A Nightingale Sang in Berkeley Square"
+headerSubtitle = \subtitle
+headerPoet = "Eric Maschwitz"
+headerComposer = "Manning Sherwin"
+headerCopyright = "© 1940 The Peter Maurice Music Co. Ltd."
 
 leadingEighth = ##t
 

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.99828Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Help the Poor"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charlie Singleton"
-  copyright = \markup \small { \now " " "© 1964 Warsing Music" }
-}
+headerTitle = "Help the Poor"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Singleton"
+headerCopyright = "© 1964 Warsing Music"
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.125647Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Ain't Nothin' Like Christmas"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Shelby Lynne"
-  copyright = \markup \small { \now " " "© 2010 Swampy Blue" }
-}
+headerTitle = "Ain't Nothin' Like Christmas"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Shelby Lynne"
+headerCopyright = "© 2010 Swampy Blue"
 
 refrainLyrics = \lyricmode {
   Ain't no -- thin' like Christ -- mas, ba -- by.

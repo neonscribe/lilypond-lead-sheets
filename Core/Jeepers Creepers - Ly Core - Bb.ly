@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.739393Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Jeepers Creepers"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Harry Warren"
-  copyright = \markup \small { \now " " "© 1938 M. Witmark & Sons" }
-}
+headerTitle = "Jeepers Creepers"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Harry Warren"
+headerCopyright = "© 1938 M. Witmark & Sons"
 
 refrainLyrics = \lyricmode {
 Jeep -- ers creep -- ers! Where'd ya get those peep -- ers? __

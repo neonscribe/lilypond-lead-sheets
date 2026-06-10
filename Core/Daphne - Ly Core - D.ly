@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.561732Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Daphné"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Django Reinhardt"
-  copyright = \markup \small { \now " " "© 1938 Publications Francis Day S.A." }
-}
+headerTitle = "Daphné"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Django Reinhardt"
+headerCopyright = "© 1938 Publications Francis Day S.A."
 
 refrainChords = \chordmode {
   d2:6 b2:m7 e2:m7 a2:7 d2:6 b2:m7 e2:m7 a2:7

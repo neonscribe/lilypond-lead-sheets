@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:40.515157Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Jazz Blues Circle of Fifths"
-  subtitle = \subtitle
-  poet = ""
-  composer = ""
-  copyright = \markup \small { \now " " "" }
-}
+headerTitle = "Jazz Blues Circle of Fifths"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = ""
+headerCopyright = ""
 
 refrainKey = c
 

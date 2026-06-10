@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.176058Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Song for My Father"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Horace Silver"
-  copyright = \markup \small { \now " " "© 1964 Ecaroh Music, Inc." }
-}
+headerTitle = "Song for My Father"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Horace Silver"
+headerCopyright = "© 1964 Ecaroh Music, Inc."
 
 bossaRhythm = ##t
 leadingEighth = ##t

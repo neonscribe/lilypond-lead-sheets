@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:46.749682Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "O Pato"
-  subtitle = \subtitle
-  poet = "English lyrics by Jon Hendricks"
-  composer = "Jaime Silva, Neuza Teixera"
-  copyright = \markup \small { \now " " "© 1960 Fermata International Melodies, Inc." }
-}
+headerTitle = "O Pato"
+headerSubtitle = \subtitle
+headerPoet = "English lyrics by Jon Hendricks"
+headerComposer = "Jaime Silva, Neuza Teixera"
+headerCopyright = "© 1960 Fermata International Melodies, Inc."
 
 bossaRhythm = ##t
 leadingEighth = ##t

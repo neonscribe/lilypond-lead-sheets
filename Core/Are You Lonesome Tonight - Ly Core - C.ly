@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.181413Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Are You Lonesome Tonight"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Roy Turk and Lou Handman"
-  copyright = \markup \small { \now " " "© 1926 Bourne, Inc." }
-}
+headerTitle = "Are You Lonesome Tonight"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Roy Turk and Lou Handman"
+headerCopyright = "© 1926 Bourne, Inc."
 
 refrainLyrics = \lyricmode {
 Are you lone -- some to -- night, do you miss me to -- night,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.49361Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Minor Swing"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Django Reinhardt"
-  copyright = \markup \small { \now " " "© 1938 Publications Francis Day S.A." }
-}
+headerTitle = "Minor Swing"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Django Reinhardt"
+headerCopyright = "© 1938 Publications Francis Day S.A."
 
 refrainChords = \chordmode {
   a1:m6 d1:m6 a1:m6 d1:m6

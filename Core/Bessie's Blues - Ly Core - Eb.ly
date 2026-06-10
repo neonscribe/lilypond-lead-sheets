@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.554012Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bessie's Blues"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Coltrane"
-  copyright = \markup \small { \now " " "© 1964 Jowcol Music" }
-}
+headerTitle = "Bessie's Blues"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Coltrane"
+headerCopyright = "© 1964 Jowcol Music"
 
 refrainChords = \chordmode {
   ef1:7 af1:7 ef1:7 ef1 :7

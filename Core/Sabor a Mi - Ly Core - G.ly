@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.267799Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sabor a Mí"
-  subtitle = \subtitle
-  poet = "Mel Mitchell"
-  composer = "Alvaro Carillo"
-  copyright = \markup \small { \now " " "© 1959 Promontora Hispano Americana de Musica S.A." }
-}
+headerTitle = "Sabor a Mí"
+headerSubtitle = \subtitle
+headerPoet = "Mel Mitchell"
+headerComposer = "Alvaro Carillo"
+headerCopyright = "© 1959 Promontora Hispano Americana de Musica S.A."
 
 bossaRhythm = ##t
 

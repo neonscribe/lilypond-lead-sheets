@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:48.375258Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Prelude to a Kiss"
-  subtitle = \subtitle
-  composer = "Duke Ellington, Irving Gordon & Irving Mills"
-  copyright = \markup \small { \now " " "© 1938 American Academy of Music, Inc." }
-}
+headerTitle = "Prelude to a Kiss"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Duke Ellington, Irving Gordon & Irving Mills"
+headerCopyright = "© 1938 American Academy of Music, Inc."
 
 refrainLyrics = \lyricmode {
 If you hear

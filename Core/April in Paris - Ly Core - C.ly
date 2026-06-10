@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:25.138715Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "April in Paris"
-  subtitle = \subtitle
-  poet = "E.Y. Harburg"
-  composer = "Vernon Duke"
-  copyright = \markup \small { \now " " "© 1932 Kay Duke Music and Glocca Morra Music" }
-}
+headerTitle = "April in Paris"
+headerSubtitle = \subtitle
+headerPoet = "E.Y. Harburg"
+headerComposer = "Vernon Duke"
+headerCopyright = "© 1932 Kay Duke Music and Glocca Morra Music"
 
 refrainLyrics = \lyricmode {
 A -- pril in Par -- is, __ chest -- nuts in blos -- som, __

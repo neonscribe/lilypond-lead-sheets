@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:23.749093Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "A Night in Tunisia"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Dizzy Gillespie and Frank Paparelli"
-  copyright = \markup \small { \now " " "© 1944 MCA Music Publishing Inc." }
-}
+headerTitle = "A Night in Tunisia"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Dizzy Gillespie and Frank Paparelli"
+headerCopyright = "© 1944 MCA Music Publishing Inc."
 
 introChords = \chordmode {
   ef1:9.11+ d1:m6

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.125285Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Deep in a Dream"
-  subtitle = \subtitle
-  poet = "Eddie DeLange"
-  composer = "Jimmy Van Heusen"
-  copyright = \markup \small { \now " " "© 1938 Scarsdale Music Corporation and Warner Bros Inc." }
-}
+headerTitle = "Deep in a Dream"
+headerSubtitle = \subtitle
+headerPoet = "Eddie DeLange"
+headerComposer = "Jimmy Van Heusen"
+headerCopyright = "© 1938 Scarsdale Music Corporation and Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 I dim all the lights __ and I sink in my chair, __

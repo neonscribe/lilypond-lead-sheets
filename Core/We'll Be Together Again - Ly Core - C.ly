@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:58.161876Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "We'll Be Together Again"
-  subtitle = \subtitle
-  poet = "Frankie Laine"
-  composer = "Carl Fischer"
-  copyright = \markup \small { \now " " "© 1945 Fischer-Carey Music" }
-}
+headerTitle = "We'll Be Together Again"
+headerSubtitle = \subtitle
+headerPoet = "Frankie Laine"
+headerComposer = "Carl Fischer"
+headerCopyright = "© 1945 Fischer-Carey Music"
 
 refrainLyrics = \lyricmode {
 No tears, no fears, __ re -- mem -- ber there's al -- ways to -- mor -- row

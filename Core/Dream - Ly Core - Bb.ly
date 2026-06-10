@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.175166Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Dream"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Johnny Mercer"
-  copyright = \markup \small { \now " " "© 1944 Capitol Songs, Inc." }
-}
+headerTitle = "Dream"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Johnny Mercer"
+headerCopyright = "© 1944 Capitol Songs, Inc."
 
 refrainLyrics = \lyricmode {
 Dream, __ when you're feel -- in' blue. __

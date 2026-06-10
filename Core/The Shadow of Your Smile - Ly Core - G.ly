@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.328882Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Shadow of Your Smile"
-  subtitle = \subtitle
-  poet = "Paul Francis Webster"
-  composer = "Johnny Mandel"
-  copyright = \markup \small { \now " " "© 1965 Miller Music Corp." }
-}
+headerTitle = "The Shadow of Your Smile"
+headerSubtitle = \subtitle
+headerPoet = "Paul Francis Webster"
+headerComposer = "Johnny Mandel"
+headerCopyright = "© 1965 Miller Music Corp."
 
 bossaRhythm = ##t
 

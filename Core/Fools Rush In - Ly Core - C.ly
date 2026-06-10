@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.464208Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Fools Rush In (Where Angels Fear to Tread)"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Rube Bloom"
-  copyright = \markup \small { \now " " "© 1940 Warner Bros, Inc." }
-}
+headerTitle = "Fools Rush In (Where Angels Fear to Tread)"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Rube Bloom"
+headerCopyright = "© 1940 Warner Bros, Inc."
 
 refrainLyrics = \lyricmode {
 Fools rush in where an -- gels fear to tread, and so I come to you, my love, my heart a -- bove my head.

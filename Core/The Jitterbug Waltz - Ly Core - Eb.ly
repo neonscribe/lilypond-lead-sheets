@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:54.555642Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Jitterbug Waltz"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Fats Waller"
-  copyright = \markup \small { \now " " "© 1942 Robbins Music Corporation" }
-}
+headerTitle = "The Jitterbug Waltz"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Fats Waller"
+headerCopyright = "© 1942 Robbins Music Corporation"
 
 refrainNRBThreeChords = \chordmode {
   ef2.:6.9 ef2.:6.9 ef2.:6.9 ef2.:6.9

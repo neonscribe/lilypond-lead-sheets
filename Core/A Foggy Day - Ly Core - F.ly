@@ -4,13 +4,11 @@ songID = "2026-06-01T22:15:01.972534Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "A Foggy Day (In London Town)"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1937 George Gershwin Music and Ira Gershwin Music" }
-}
+headerTitle = "A Foggy Day (In London Town)"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1937 George Gershwin Music and Ira Gershwin Music"
 
 refrainLyrics = \lyricmode {
 A fog -- gy day __ in Lon -- don town __

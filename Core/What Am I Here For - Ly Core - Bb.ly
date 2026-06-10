@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:58.296725Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "What Am I Here For"
-  subtitle = \subtitle
-  poet = "Frankie Laine"
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1942 Famous Music Corporation" }
-}
+headerTitle = "What Am I Here For"
+headerSubtitle = \subtitle
+headerPoet = "Frankie Laine"
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1942 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 }

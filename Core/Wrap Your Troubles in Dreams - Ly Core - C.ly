@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.610173Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Wrap Your Troubles in Dreams"
-  subtitle = \subtitle
-  poet = "Ted Koehler and Billy Moll"
-  composer = "Harry Barris"
-  copyright = \markup \small { \now " " "© 1931 Shapiro, Bernstein & Co., Inc." }
-}
+headerTitle = "Wrap Your Troubles in Dreams"
+headerSubtitle = \subtitle
+headerPoet = "Ted Koehler and Billy Moll"
+headerComposer = "Harry Barris"
+headerCopyright = "© 1931 Shapiro, Bernstein & Co., Inc."
 
 refrainLyrics = \lyricmode {
 When skies are cloud -- y and gray, they're on -- ly gray for a day.

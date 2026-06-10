@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.641812Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Do You Know What It Means to Miss New Orleans"
-  subtitle = \subtitle
-  poet = "Eddie De Lange"
-  composer = "Louis Alter"
-  copyright = \markup \small { \now " " "© 1946 De Lange Music Co." }
-}
+headerTitle = "Do You Know What It Means to Miss New Orleans"
+headerSubtitle = \subtitle
+headerPoet = "Eddie De Lange"
+headerComposer = "Louis Alter"
+headerCopyright = "© 1946 De Lange Music Co."
 
 refrainLyrics = \lyricmode {
 Do you know what it means to miss New Or -- leans,

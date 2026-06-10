@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.700854Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Yes Sir, That's My Baby"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Walter Donaldson"
-  copyright = \markup \small { \now " " "© 1925 Irving Berlin, Inc." }
-}
+headerTitle = "Yes Sir, That's My Baby"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Walter Donaldson"
+headerCopyright = "© 1925 Irving Berlin, Inc."
 
 refrainLyrics = \lyricmode {
 Yes, sir, that's my ba -- by.

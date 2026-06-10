@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.973431Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Breezin' Along With the Breeze"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Haven Gillespie, Seymour Simons and Richard A. Whiting"
-  copyright = \markup \small { \now " " "© 1926 Jerome H. Remick & Co." }
-}
+headerTitle = "Breezin' Along With the Breeze"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Haven Gillespie, Seymour Simons and Richard A. Whiting"
+headerCopyright = "© 1926 Jerome H. Remick & Co."
 
 refrainLyrics = \lyricmode {
 I'm just breez -- in' a -- long with the breeze. __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.943242Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Perfidia"
-  subtitle = \subtitle
-  poet = "Milton Leeds"
-  composer = "Alberto Dominguez"
-  copyright = \markup \small { \now " " "© 1939 Southern Music Publishing Co., Inc." }
-}
+headerTitle = "Perfidia"
+headerSubtitle = \subtitle
+headerPoet = "Milton Leeds"
+headerComposer = "Alberto Dominguez"
+headerCopyright = "© 1939 Southern Music Publishing Co., Inc."
 
 refrainLyrics = \lyricmode {
 To you, __ my heart cries out, “Per -- fi -- di -- a,” __

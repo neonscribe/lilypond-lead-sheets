@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.276453Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It's You or No One"
-  subtitle = \subtitle
-  poet = "Sammy Cahn"
-  composer = "Jule Styne"
-  copyright = \markup \small { \now " " "© 1948 Warner Bros, Inc." }
-}
+headerTitle = "It's You or No One"
+headerSubtitle = \subtitle
+headerPoet = "Sammy Cahn"
+headerComposer = "Jule Styne"
+headerCopyright = "© 1948 Warner Bros, Inc."
 
 refrainLyrics = \lyricmode {
 It's you or no one for me. __ I'm sure of this, __ each time we kiss. __

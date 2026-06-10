@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.293501Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Skylark"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Hoagy Carmichael"
-  copyright = \markup \small { \now " " "© 1941 Edwin H. Morris & Co." }
-}
+headerTitle = "Skylark"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Hoagy Carmichael"
+headerCopyright = "© 1941 Edwin H. Morris & Co."
 
 refrainLyrics = \lyricmode {
   Sky -- lark, __

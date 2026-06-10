@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:53.898914Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "That's All"
-  subtitle = \subtitle
-  composer = "Alan Brandt and Bob Haynes"
-  copyright = \markup \small { \now " " "© 1952 Mixed Bag Music" }
-}
+headerTitle = "That's All"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Alan Brandt and Bob Haynes"
+headerCopyright = "© 1952 Mixed Bag Music"
 
 refrainLyrics = \lyricmode {
 I can on -- ly give you love that lasts for -- ev -- er, __

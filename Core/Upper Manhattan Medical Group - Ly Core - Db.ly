@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.571558Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Upper Manhattan Medical Group (UMMG)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Billy Strayhorn"
-  copyright = \markup \small { \now " " "© 1956 Tempo Music, Inc." }
-}
+headerTitle = "Upper Manhattan Medical Group (UMMG)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Billy Strayhorn"
+headerCopyright = "© 1956 Tempo Music, Inc."
 
 refrainLyrics = \lyricmode {
 }

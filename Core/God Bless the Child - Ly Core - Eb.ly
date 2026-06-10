@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.163265Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "God Bless the Child"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Arthur Herzog, Jr. and Billie Holiday"
-  copyright = \markup \small { \now " " "© 1941 Edward B. Marks Music Company" }
-}
+headerTitle = "God Bless the Child"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Arthur Herzog, Jr. and Billie Holiday"
+headerCopyright = "© 1941 Edward B. Marks Music Company"
 
 refrainLyrics = \lyricmode {
 Them that's got shall get, them that's not shall lose, so the Bi -- ble said, and it still is news.

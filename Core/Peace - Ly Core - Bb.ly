@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.707337Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Peace"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Horace Silver"
-  copyright = \markup \small { \now " " "© 1959 Ecaroh Music, Inc." }
-}
+headerTitle = "Peace"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Horace Silver"
+headerCopyright = "© 1959 Ecaroh Music, Inc."
 
 refrainChords = \chordmode {
   s4

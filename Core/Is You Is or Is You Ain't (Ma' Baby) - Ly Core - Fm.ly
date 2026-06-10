@@ -10,12 +10,11 @@ songID = "2026-06-01T22:16:39.542212Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Is You Is, or Is You Ain't (Ma' Baby)"
-  subtitle = \subtitle
-  composer = "Billy Austin and Louis Jordan"
-  copyright = \markup \small { \now " " "© 1944 Leeds Music Corporation" }
-}
+headerTitle = "Is You Is, or Is You Ain't (Ma' Baby)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Billy Austin and Louis Jordan"
+headerCopyright = "© 1944 Leeds Music Corporation"
 
 introLyrics = \lyricmode {
 }

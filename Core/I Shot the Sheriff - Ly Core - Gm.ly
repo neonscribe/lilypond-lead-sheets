@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.863932Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Shot the Sheriff"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bob Marley"
-  copyright = \markup \small { \now " " "© 1974 Cayman Music, Inc." }
-}
+headerTitle = "I Shot the Sheriff"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bob Marley"
+headerCopyright = "© 1974 Cayman Music, Inc."
 
 refrainLyrics = \lyricmode {
 I shot the sher -- iff, but I did not shoot the dep -- u -- ty. __

@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:31.295648Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Detour Ahead"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Lou Carter, Herb Ellis, Johnny Frigo"
-  copyright = \markup \small { \now " " "© 1947 Woodrow Music" }
-}
+headerTitle = "Detour Ahead"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Lou Carter, Herb Ellis, Johnny Frigo"
+headerCopyright = "© 1947 Woodrow Music"
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Smooth road, clear day,

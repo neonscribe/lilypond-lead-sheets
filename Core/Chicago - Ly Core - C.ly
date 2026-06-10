@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.345851Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Chicago"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Fred Fisher"
-  copyright = \markup \small { \now " " "© 1922 Fred Fisher, Inc." }
-}
+headerTitle = "Chicago"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Fred Fisher"
+headerCopyright = "© 1922 Fred Fisher, Inc."
 
 refrainLyrics = \lyricmode {
 Chi -- ca -- go, __ Chi -- ca -- go, __ that tod -- dl -- in' town, __ tod -- dl -- in' town, __

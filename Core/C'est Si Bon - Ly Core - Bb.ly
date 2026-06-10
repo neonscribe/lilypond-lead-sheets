@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:28.47165Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "C'est Si Bon (It's So Good)"
-  subtitle = \subtitle
-  poet = "Andre Hornez/Jerry Seelen"
-  composer = "Henri Betti"
-  copyright = \markup \small { \now " " "© 1947 Arpege Editions" }
-}
+headerTitle = "C'est Si Bon (It's So Good)"
+headerSubtitle = \subtitle
+headerPoet = "Andre Hornez/Jerry Seelen"
+headerComposer = "Henri Betti"
+headerCopyright = "© 1947 Arpege Editions"
 
 refrainLyricsEnglish = \lyricmode {
   “C'est si bon,” __ lov -- ers say that in France, __

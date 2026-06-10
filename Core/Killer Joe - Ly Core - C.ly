@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.433053Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Killer Joe"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Benny Golson"
-  copyright = \markup \small { \now " " "© 1959 Ibbob Music, Inc." }
-}
+headerTitle = "Killer Joe"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Benny Golson"
+headerCopyright = "© 1959 Ibbob Music, Inc."
 
 introKey = c
 

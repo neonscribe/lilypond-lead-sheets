@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.169401Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "On the Street Where You Live"
-  subtitle = \subtitle
-  poet = "Alan Jay Lerner"
-  composer = "Frederick Loewe"
-  copyright = \markup \small { \now " " "© 1956 Alan Jay Lerner and Frederick Loewe" }
-}
+headerTitle = "On the Street Where You Live"
+headerSubtitle = \subtitle
+headerPoet = "Alan Jay Lerner"
+headerComposer = "Frederick Loewe"
+headerCopyright = "© 1956 Alan Jay Lerner and Frederick Loewe"
 
 refrainLyrics = \lyricmode {
 I have of -- ten walked __ down this street be -- fore, __

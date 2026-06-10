@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.744065Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Road Song"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Wes Montgomery"
-  copyright = \markup \small { \now " " "© 1968 Taggie Music Co." }
-}
+headerTitle = "Road Song"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Wes Montgomery"
+headerCopyright = "© 1968 Taggie Music Co."
 
 leadingEighth = ##t
 

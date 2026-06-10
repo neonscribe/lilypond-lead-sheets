@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:25.096869Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-    title =  Apache
-    subtitle = \subtitle
-    copyright = \markup \small { \now " " "© 1959 Francis, Day & Hunter, Ltd." }
-    composer =  "Jerry Lordan"
-  }
+headerTitle = "Apache"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer =  "Jerry Lordan"
+headerCopyright = "© 1959 Francis, Day & Hunter, Ltd."
 
 straightEighths = ##t
 
@@ -144,7 +143,6 @@ refrainChords =  \chordmode {
 
   a1:m d1 a1:m d1 a1:m a1:m
 }
-
 
 \include "../Include/paper.ily"
 

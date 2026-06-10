@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:31.20916Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Destination Moon"
-  subtitle = \subtitle
-  poet = "Roy Alfred"
-  composer = "Marvin Fisher"
-  copyright = \markup \small { \now " " "© 1951 Fred Fisher Music Co., Inc." }
-}
+headerTitle = "Destination Moon"
+headerSubtitle = \subtitle
+headerPoet = "Roy Alfred"
+headerComposer = "Marvin Fisher"
+headerCopyright = "© 1951 Fred Fisher Music Co., Inc."
 
 verseLyrics = \lyricmode {
 There once was a time when the col -- or -- ful thing to do, __

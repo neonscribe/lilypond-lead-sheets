@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.479974Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sous le Ciel de Paris (Under Paris Skies)"
-  subtitle = \subtitle
-  poet = "Jean Drejac"
-  composer = "Hubert Giraud"
-  copyright = \markup \small { \now " " "© 1951 Editions Choudens" }
-}
+headerTitle = "Sous le Ciel de Paris (Under Paris Skies)"
+headerSubtitle = \subtitle
+headerPoet = "Jean Drejac"
+headerComposer = "Hubert Giraud"
+headerCopyright = "© 1951 Editions Choudens"
 
 refrainChords = \chordmode {
   f2.:m7 f2.:m7 f2.:m7 f2.:m7

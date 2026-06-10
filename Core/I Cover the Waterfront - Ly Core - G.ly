@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.910825Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Cover the Waterfront"
-  subtitle = \subtitle
-  poet = "Edward Heyman"
-  composer = "Johnny Green"
-  copyright = \markup \small { \now " " "© 1933 HARMS Incorporated" }
-}
+headerTitle = "I Cover the Waterfront"
+headerSubtitle = \subtitle
+headerPoet = "Edward Heyman"
+headerComposer = "Johnny Green"
+headerCopyright = "© 1933 HARMS Incorporated"
 
 refrainLyrics = \lyricmode {
 I cov -- er the wat -- er -- front, __

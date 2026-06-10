@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.116982Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sin City"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Chris Hillman and Gram Parsons"
-  copyright = \markup \small { \now " " "© 1969 Irving Music Incorporated" }
-}
+headerTitle = "Sin City"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Chris Hillman and Gram Parsons"
+headerCopyright = "© 1969 Irving Music Incorporated"
 
 refrainLyrics = \lyricmode {
 This old town's filled with sin,

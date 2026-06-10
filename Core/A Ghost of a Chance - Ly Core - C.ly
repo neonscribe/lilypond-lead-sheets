@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:23.626162Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "(I Don't Stand) A Ghost of a Chance (With You)"
-  subtitle = \subtitle
-  poet = "Bing Crosby and Ned Washington"
-  composer = "Victor Young"
-  copyright = \markup \small { \now " " "© 1932 Lawrence Music Publishers, Inc." }
-}
+headerTitle = "(I Don't Stand) A Ghost of a Chance (With You)"
+headerSubtitle = \subtitle
+headerPoet = "Bing Crosby and Ned Washington"
+headerComposer = "Victor Young"
+headerCopyright = "© 1932 Lawrence Music Publishers, Inc."
 
 refrainLyrics = \lyricmode {
 I need your love so bad -- ly, I love you, oh, so mad -- ly,

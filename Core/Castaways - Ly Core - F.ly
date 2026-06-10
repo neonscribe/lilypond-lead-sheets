@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:28.826447Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Castaways, from The Backyardigans"
-  subtitle = \subtitle
-  composer = "Douglas Wieselman, Evan Lurie, Leslie Valdes and Paul Smith"
-  copyright = \markup \small { \now " " "© 2005 Tunes by Nickleodeon, Inc." }
-}
+headerTitle = "Castaways, from The Backyardigans"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Douglas Wieselman, Evan Lurie, Leslie Valdes and Paul Smith"
+headerCopyright = "© 2005 Tunes by Nickleodeon, Inc."
 
 bossaRhythm = ##t
 

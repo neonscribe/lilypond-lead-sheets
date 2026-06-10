@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.927273Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "There Will Never Be Another You"
-  subtitle = \subtitle
-  poet = "Harry Warren"
-  composer = "Mack Gordon"
-  copyright = \markup \small { \now " " "© 1942 Twentieth Century Music Corporation." }
-}
+headerTitle = "There Will Never Be Another You"
+headerSubtitle = \subtitle
+headerPoet = "Harry Warren"
+headerComposer = "Mack Gordon"
+headerCopyright = "© 1942 Twentieth Century Music Corporation."
 
 refrainLyrics = \lyricmode {
   There will be man -- y oth -- er nights like this, __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.634798Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Tin Roof Blues"
-  subtitle = \subtitle
-  poet = "Walter Melrose"
-  composer = "New Orleans Rhythm Kings"
-  copyright = \markup \small { \now " " "© 1923 Melrose Bros. Music Company" }
-}
+headerTitle = "Tin Roof Blues"
+headerSubtitle = \subtitle
+headerPoet = "Walter Melrose"
+headerComposer = "New Orleans Rhythm Kings"
+headerCopyright = "© 1923 Melrose Bros. Music Company"
 
 refrainChords = \chordmode {
   r4

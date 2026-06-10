@@ -22,13 +22,11 @@ lyricsCredit = #(let ((v (assoc lyricsLanguage
 			    ("portuguese" . "Portuguese lyrics by Aloysio de Oliveira")))))
 		 (if v (cdr v) ""))
 
-\header {
-  title = "Dindi"
-  subtitle = \subtitle
-  poet = \lyricsCredit
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1965 Ipanema Music Inc." }
-}
+headerTitle = "Dindi"
+headerSubtitle = \subtitle
+headerPoet = \lyricsCredit
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1965 Ipanema Music Inc."
 
 bossaRhythm = ##t
 

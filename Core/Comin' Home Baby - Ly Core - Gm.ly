@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.788488Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Comin' Home Baby"
-  subtitle = \subtitle
-  poet = "Bob Dorough"
-  composer = "Ben Tucker"
-  copyright = \markup \small { \now " " "© 1960 Cotillion Music Inc." }
-}
+headerTitle = "Comin' Home Baby"
+headerSubtitle = \subtitle
+headerPoet = "Bob Dorough"
+headerComposer = "Ben Tucker"
+headerCopyright = "© 1960 Cotillion Music Inc."
 
 leadingEighth = ##t
 

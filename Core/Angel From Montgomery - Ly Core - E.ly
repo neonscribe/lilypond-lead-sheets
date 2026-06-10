@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.919421Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Angel From Montgomery"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Prine"
-  copyright = \markup \small { \now " " "© 1971 Walden Music, Inc. and Sour Grapes Music, Inc." }
-}
+headerTitle = "Angel From Montgomery"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Prine"
+headerCopyright = "© 1971 Walden Music, Inc. and Sour Grapes Music, Inc."
 
 straightEighths = ##t
 

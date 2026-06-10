@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:27.061676Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blue Christmas"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Billy Hayes and Jay Johnson"
-  copyright = \markup \small { \now " " "© 1948 Choice Music Inc." }
-}
+headerTitle = "Blue Christmas"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Billy Hayes and Jay Johnson"
+headerCopyright = "© 1948 Choice Music Inc."
 
 refrainLyrics = \lyricmode {
 I'll have a blue Christ -- mas with -- out you.

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.91873Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Shining Hour"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1943 Harwin Music Co." }
-}
+headerTitle = "My Shining Hour"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1943 Harwin Music Co."
 
 refrainLyrics = \lyricmode {
 This will be my shin -- ing hour. __ Calm and hap -- py and bright. __

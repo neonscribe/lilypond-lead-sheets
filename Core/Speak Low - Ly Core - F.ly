@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.499269Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Speak Low"
-  subtitle = \subtitle
-  poet = "Ogden Nash"
-  composer = "Kurt Weill"
-  copyright = \markup \small { \now " " "© 1948 Chappell & Co." }
-}
+headerTitle = "Speak Low"
+headerSubtitle = \subtitle
+headerPoet = "Ogden Nash"
+headerComposer = "Kurt Weill"
+headerCopyright = "© 1948 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Speak low when you speak, love,

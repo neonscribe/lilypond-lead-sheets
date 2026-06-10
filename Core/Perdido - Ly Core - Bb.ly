@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.896549Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Perdido"
-  subtitle = \subtitle
-  poet = "H.J Lengsfelder and Ervin Drake"
-  composer = "Juan Tizol"
-  copyright = \markup \small { \now " " "© 1942 Tempo Music, Inc." }
-}
+headerTitle = "Perdido"
+headerSubtitle = \subtitle
+headerPoet = "H.J Lengsfelder and Ervin Drake"
+headerComposer = "Juan Tizol"
+headerCopyright = "© 1942 Tempo Music, Inc."
 
 leadingEighth = ##t
 

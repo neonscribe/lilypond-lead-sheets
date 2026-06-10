@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.291293Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lover (3/4)"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1933 Famous Music Corp." }
-}
+headerTitle = "Lover (3/4)"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1933 Famous Music Corp."
 
 refrainLyrics = \lyricmode {
 Lov -- er, __ when I'm near you __ and I hear you __ speak my name __

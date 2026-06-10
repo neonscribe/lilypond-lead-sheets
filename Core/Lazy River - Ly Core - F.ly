@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.942805Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "(Up a) Lazy River"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Hoagy Carmichael and Sidney Arodin"
-  copyright = \markup \small { \now " " "© 1931 Peer International Corporation" }
-}
+headerTitle = "(Up a) Lazy River"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Hoagy Carmichael and Sidney Arodin"
+headerCopyright = "© 1931 Peer International Corporation"
 
 refrainLyrics = \lyricmode {
 Up a la -- zy riv -- er by the old mill run,

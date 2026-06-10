@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.416498Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I've Never Been in Love Before"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Frank Loesser"
-  copyright = \markup \small { \now " " "© 1950 Frank Music Corp." }
-}
+headerTitle = "I've Never Been in Love Before"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Frank Loesser"
+headerCopyright = "© 1950 Frank Music Corp."
 
 refrainLyrics = \lyricmode {
 I've nev -- er been in love be -- fore, now all at once it's you,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:17:00.240472Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You Turned the Tables on Me"
-  subtitle = \subtitle
-  poet = "Sidney D. Mitchell"
-  composer = "Louis Alter"
-  copyright = \markup \small { \now " " "© 1936 Warner Bros, Inc." }
-}
+headerTitle = "You Turned the Tables on Me"
+headerSubtitle = \subtitle
+headerPoet = "Sidney D. Mitchell"
+headerComposer = "Louis Alter"
+headerCopyright = "© 1936 Warner Bros, Inc."
 
 refrainLyrics = \lyricmode {
 You turned the ta -- bles on me __

@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:37.070004Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Thought About You"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Jimmy Van Heusen"
-  copyright = \markup \small { \now " " "© 1939 Lewis Music Publishing Co." }
-}
+headerTitle = "I Thought About You"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Jimmy Van Heusen"
+headerCopyright = "© 1939 Lewis Music Publishing Co."
 
 verseLyrics = \lyricmode {
   Seems that I read, or some -- bod -- y said

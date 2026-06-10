@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.226002Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Song for My Father (with Lyrics)"
-  subtitle = \subtitle
-  poet = "Ellen May Shashoyan"
-  composer = "Horace Silver"
-  copyright = \markup \small { \now " " "© 1964 Ecaroh Music, Inc." }
-}
+headerTitle = "Song for My Father (with Lyrics)"
+headerSubtitle = \subtitle
+headerPoet = "Ellen May Shashoyan"
+headerComposer = "Horace Silver"
+headerCopyright = "© 1964 Ecaroh Music, Inc."
 
 bossaRhythm = ##t
 leadingEighth = ##t

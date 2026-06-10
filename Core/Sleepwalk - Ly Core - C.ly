@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.337799Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sleepwalk"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Santo Farina, John Farina & Ann Farina"
-  copyright = \markup \small { \now " " "© 1959 Carbert Music, Inc." }
-}
+headerTitle = "Sleepwalk"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Santo Farina, John Farina & Ann Farina"
+headerCopyright = "© 1959 Carbert Music, Inc."
 
 straightEighths = ##t
 

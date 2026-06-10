@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.42152Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Folsom Prison Blues"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Johnny Cash, Gordon Jenkins"
-  copyright = \markup \small { \now " " "© 1956 House of Cash Inc." }
-}
+headerTitle = "Folsom Prison Blues"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Johnny Cash, Gordon Jenkins"
+headerCopyright = "© 1956 House of Cash Inc."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _

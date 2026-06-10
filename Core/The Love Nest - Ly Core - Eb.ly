@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.828913Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Love Nest"
-  subtitle = \subtitle
-  poet = "Otto Harbach"
-  composer = "Louis A. Hirsch"
-  copyright = \markup \small { \now " " "© 1920 Victoria Publishing Corporation" }
-}
+headerTitle = "The Love Nest"
+headerSubtitle = \subtitle
+headerPoet = "Otto Harbach"
+headerComposer = "Louis A. Hirsch"
+headerCopyright = "© 1920 Victoria Publishing Corporation"
 
 refrainLyrics = \lyricmode {
   Just a love nest, __ co -- zy and warm. __

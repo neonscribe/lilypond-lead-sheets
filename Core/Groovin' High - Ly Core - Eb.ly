@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.427799Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Groovin' High"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Dizzy Gillespie"
-  copyright = \markup \small { \now " " "© 1944 MCA Music" }
-}
+headerTitle = "Groovin' High"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Dizzy Gillespie"
+headerCopyright = "© 1944 MCA Music"
 
 refrainChords = \chordmode {
   ef1:6 ef1:6 a1:m7 d1:7

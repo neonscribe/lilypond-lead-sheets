@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.517012Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "California Stars"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Jay Bennett, Woody Guthrie and Jeff Tweedy"
-  copyright = \markup \small { \now " " "© 1998 Titanic Majesties Music, Woody Guthrie Publications, Words Ampersand Music" }
-}
+headerTitle = "California Stars"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Jay Bennett, Woody Guthrie and Jeff Tweedy"
+headerCopyright = "© 1998 Titanic Majesties Music, Woody Guthrie Publications, Words Ampersand Music"
 
 leadingEighth = ##t
 

@@ -4,11 +4,11 @@ songID = "2026-06-01T22:16:35.039293Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Here Comes the Bride"
-  subtitle = \subtitle
-  copyright = \markup \small { \now " " "1850, based on the “Bridal Chorus” from" \italic Lohengrin, "by Richard Wagner" }
-}
+headerTitle = "Here Comes the Bride"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = ""
+headerCopyright = "1850, based on the “Bridal Chorus” from Lohengrin, by Richard Wagner"
 
 refrainChords = \chordmode {
   bf1 bf1 bf2 f2:7 bf1

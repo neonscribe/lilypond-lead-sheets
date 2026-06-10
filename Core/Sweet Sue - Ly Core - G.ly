@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.242793Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sweet Sue - Just You"
-  subtitle = \subtitle
-  poet = "Will J. Harris"
-  composer = "Victor Young"
-  copyright = \markup \small { \now " " "© 1928 Shapiro, Bernstein & Co." }
-}
+headerTitle = "Sweet Sue - Just You"
+headerSubtitle = \subtitle
+headerPoet = "Will J. Harris"
+headerComposer = "Victor Young"
+headerCopyright = "© 1928 Shapiro, Bernstein & Co."
 
 refrainLyrics = \lyricmode {
   Ev' -- ry star a -- bove __ knows the one I love, __

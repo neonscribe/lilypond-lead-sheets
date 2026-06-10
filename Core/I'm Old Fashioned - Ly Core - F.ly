@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:37.998106Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'm Old Fashioned"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1942 T.B. Harms Co." }
-}
+headerTitle = "I'm Old Fashioned"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1942 T.B. Harms Co."
 
 refrainLyrics = \lyricmode {
   I'm old fash -- ioned, I love the moon -- light

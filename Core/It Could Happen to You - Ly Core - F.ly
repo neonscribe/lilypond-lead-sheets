@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.72483Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It Could Happen to You"
-  subtitle = \subtitle
-  poet = "Johnny Burke"
-  composer = "Jimmy Van Heusen"
-  copyright = \markup \small { \now " " "© 1944 Famous Music Corp." }
-}
+headerTitle = "It Could Happen to You"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Burke"
+headerComposer = "Jimmy Van Heusen"
+headerCopyright = "© 1944 Famous Music Corp."
 
 refrainLyrics = \lyricmode {
 Hide your heart from sight, __

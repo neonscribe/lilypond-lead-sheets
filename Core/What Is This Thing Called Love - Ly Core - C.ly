@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.389027Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "What Is This Thing Called Love?"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1929 Chappell & Co." }
-}
+headerTitle = "What Is This Thing Called Love?"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1929 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 What is this thing called love?

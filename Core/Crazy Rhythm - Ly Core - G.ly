@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.341119Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Crazy Rhythm"
-  subtitle = \subtitle
-  poet = "Irving Caesar"
-  composer = "Joseph Meyer and Roger Wolfe Kahn"
-  copyright = \markup \small { \now " " "© 1928 HARMS Inc." }
-}
+headerTitle = "Crazy Rhythm"
+headerSubtitle = \subtitle
+headerPoet = "Irving Caesar"
+headerComposer = "Joseph Meyer and Roger Wolfe Kahn"
+headerCopyright = "© 1928 HARMS Inc."
 
 refrainLyrics = \lyricmode {
 Cra -- zy rhy -- thm, here's the door -- way, I'll go my way, you'll go your __ way.

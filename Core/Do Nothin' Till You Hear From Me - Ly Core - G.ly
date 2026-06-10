@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:31.597574Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = " Do Nothin' Till You Hear From Me"
-  subtitle = \subtitle
-  poet = "Bob Russell"
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1943 Famous Music Corporation" }
-}
+headerTitle = " Do Nothin' Till You Hear From Me"
+headerSubtitle = \subtitle
+headerPoet = "Bob Russell"
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1943 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 Do noth -- in' till you hear from me.

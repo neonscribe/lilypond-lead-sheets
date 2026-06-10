@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.900314Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Some Other Time"
-  subtitle = \subtitle
-  poet = "Betty Comden & Adolph Green"
-  composer = "Leonard Bernstein"
-  copyright = \markup \small { \now " " "© 1945 Warner Bros. Inc." }
-}
+headerTitle = "Some Other Time"
+headerSubtitle = \subtitle
+headerPoet = "Betty Comden & Adolph Green"
+headerComposer = "Leonard Bernstein"
+headerCopyright = "© 1945 Warner Bros. Inc."
 
 refrainLyrics = \lyricmode {
 Where has the time all gone to?

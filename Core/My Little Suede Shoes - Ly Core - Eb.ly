@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.728461Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Little Suede Shoes"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charlie Parker"
-  copyright = \markup \small { \now " " "© 1951 Atlantic Music Corp." }
-}
+headerTitle = "My Little Suede Shoes"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Parker"
+headerCopyright = "© 1951 Atlantic Music Corp."
 
 leadingEighth = ##t
 

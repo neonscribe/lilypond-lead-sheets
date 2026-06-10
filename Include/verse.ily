@@ -13,6 +13,7 @@ $(if (not (and (defined? 'midiOnly) midiOnly))
   #{
 \new Score \with {
    \remove System_start_delimiter_engraver
+   
 }
 <<
    $(if (and (defined? 'verseAltChords) verseAltChords)
@@ -222,7 +223,18 @@ $(if (not (and (defined? 'midiOnly) midiOnly))
     }
       #} ) )
   >>
- >>
-#} )
+  >>
+    #} )
+
+$(if (and (defined? 'headerTitle) headerTitle)
+  #{ \header {
+	    title = \headerTitle
+	    subtitle = \subtitle
+	    poet = \headerPoet
+	    composer = \headerComposer
+	    copyright = \markup \small { \now " " \headerCopyright }
+} #} )
+
+headerTitle = ##f
 
 \include \midiIncludeFile

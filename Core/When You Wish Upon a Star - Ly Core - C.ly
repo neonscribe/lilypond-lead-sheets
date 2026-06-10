@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:58.703307Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "When You Wish Upon a Star"
-  subtitle = \subtitle
-  poet = "Ned Washington"
-  composer = "Leigh Harline"
-  copyright = \markup \small { \now " " "© 1940 Bourne Co." }
-}
+headerTitle = "When You Wish Upon a Star"
+headerSubtitle = \subtitle
+headerPoet = "Ned Washington"
+headerComposer = "Leigh Harline"
+headerCopyright = "© 1940 Bourne Co."
 
 refrainLyrics = \lyricmode {
 When you wish up -- on a star, makes no diff -- 'rence who you are,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.540319Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Hear a Rhapsody"
-  subtitle = \subtitle
-  poet = ""
-  composer = "George Fragos, Jack Baker and Dick Gasparre"
-  copyright = \markup \small { \now " " "© 1940 Broadcast Music Inc." }
-}
+headerTitle = "I Hear a Rhapsody"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "George Fragos, Jack Baker and Dick Gasparre"
+headerCopyright = "© 1940 Broadcast Music Inc."
 
 refrainLyrics = \lyricmode {
 And when I hear you call __

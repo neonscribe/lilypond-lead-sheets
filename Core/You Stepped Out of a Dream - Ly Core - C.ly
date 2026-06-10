@@ -4,13 +4,11 @@ songID = "2026-06-01T22:17:00.195657Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You Stepped Out of a Dream"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Nacio Herb Brown"
-  copyright = \markup \small { \now " " "© 1940 Leo Feist, Inc." }
-}
+headerTitle = "You Stepped Out of a Dream"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Nacio Herb Brown"
+headerCopyright = "© 1940 Leo Feist, Inc."
 
 refrainLyrics = \lyricmode {
 You __

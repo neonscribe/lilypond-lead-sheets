@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:57.850704Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Watch What Happens"
-  subtitle = \subtitle
-  poet = "Norman Gimbel"
-  composer = "Michel Legrand"
-  copyright = \markup \small { \now " " "© 1964 Productions Michel Legrand, Paris, France" }
-}
+headerTitle = "Watch What Happens"
+headerSubtitle = \subtitle
+headerPoet = "Norman Gimbel"
+headerComposer = "Michel Legrand"
+headerCopyright = "© 1964 Productions Michel Legrand, Paris, France"
 
 bossaRhythm = ##t
 

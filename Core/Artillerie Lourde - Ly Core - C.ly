@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.223491Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Artillerie Lourde (Heavy Artillery)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Django Reinhardt"
-  copyright = \markup \small { \now " " "© 1944 Publications Francis Day S.A." }
-}
+headerTitle = "Artillerie Lourde (Heavy Artillery)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Django Reinhardt"
+headerCopyright = "© 1944 Publications Francis Day S.A."
 
 leadingEighth= ##t
 

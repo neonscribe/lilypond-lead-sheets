@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.330816Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "All  Blues"
-  subtitle = \subtitle
-  poet = "Oscar Brown, Jr."
-  composer = "Miles Davis"
-  copyright = \markup \small { \now " " "© 1959 Jazz Horn Music" }
-}
+headerTitle = "All  Blues"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Brown, Jr."
+headerComposer = "Miles Davis"
+headerCopyright = "© 1959 Jazz Horn Music"
 
 refrainChords = \chordmode {
   g2.:7 g2.:7 g2.:7 g2.:7

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.173925Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Found a Million Dollar Baby (In a Five and Ten Cent Store)"
-  subtitle = \subtitle
-  poet = "Billy Rose and Mort Dixon"
-  composer = "Harry Warren"
-  copyright = \markup \small { \now " " "© 1931 Remick Music Corp." }
-}
+headerTitle = "I Found a Million Dollar Baby (In a Five and Ten Cent Store)"
+headerSubtitle = \subtitle
+headerPoet = "Billy Rose and Mort Dixon"
+headerComposer = "Harry Warren"
+headerCopyright = "© 1931 Remick Music Corp."
 
 refrainLyrics = \lyricmode {
 It was a luck -- y A -- pril show -- er. It was the most con -- ve -- nient door.

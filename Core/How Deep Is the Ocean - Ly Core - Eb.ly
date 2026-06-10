@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:35.334113Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "How Deep Is the Ocean"
-  subtitle = \subtitle
-  composer = "Irving Berlin"
-  copyright = \markup \small { \now " " "© 1932 Irving Berlin" }
-}
+headerTitle = "How Deep Is the Ocean"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Irving Berlin"
+headerCopyright = "© 1932 Irving Berlin"
 
 refrainLyrics = \lyricmode {
   How much do I love you?

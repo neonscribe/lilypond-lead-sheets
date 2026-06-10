@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.283742Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Poor Butterfly"
-  subtitle = \subtitle
-  poet = "John L. Golden"
-  composer = "Raymond Hubbell"
-  copyright = \markup \small { \now " " "© 1916 T.B. Harms and Francis, Day & Hunter" }
-}
+headerTitle = "Poor Butterfly"
+headerSubtitle = \subtitle
+headerPoet = "John L. Golden"
+headerComposer = "Raymond Hubbell"
+headerCopyright = "© 1916 T.B. Harms and Francis, Day & Hunter"
 
 refrainLyrics = \lyricmode {
 Poor but -- ter -- fly, 'neath the blos -- soms wait -- ing.

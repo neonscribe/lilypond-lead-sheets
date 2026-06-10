@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.052694Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Meditation (Meditação)"
-  subtitle = \subtitle
-  poet = "Newton Mendonça, Normal Gimbel"
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1962 Jobim Music" }
-}
+headerTitle = "Meditation (Meditação)"
+headerSubtitle = \subtitle
+headerPoet = "Newton Mendonça, Normal Gimbel"
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1962 Jobim Music"
 
 bossaRhythm = ##t
 

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.067399Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Love Walked In"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1937 George Gershwin Music and Ira Gershwin Music." }
-}
+headerTitle = "Love Walked In"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1937 George Gershwin Music and Ira Gershwin Music."
 
 refrainLyrics = \lyricmode {
 Love walked right in and drove the shad -- ows a -- way.

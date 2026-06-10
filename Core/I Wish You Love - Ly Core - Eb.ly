@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.307577Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Wish You Love"
-  subtitle = \subtitle
-  poet = "Englsh lyrics by Albert Beach"
-  composer = "Charles Trenet"
-  copyright = \markup \small { \now " " "© 1943 Editions Salabert France" }
-}
+headerTitle = "I Wish You Love"
+headerSubtitle = \subtitle
+headerPoet = "Englsh lyrics by Albert Beach"
+headerComposer = "Charles Trenet"
+headerCopyright = "© 1943 Editions Salabert France"
 
 refrainLyrics = \lyricmode {
 I wish you blue -- birds in the spring

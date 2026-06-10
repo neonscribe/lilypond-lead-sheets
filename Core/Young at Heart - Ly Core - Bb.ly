@@ -4,13 +4,11 @@ songID = "2026-06-01T22:17:00.552222Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Young at Heart"
-  subtitle = \subtitle
-  poet = "Carolyn Leigh"
-  composer = "Johnny Richards"
-  copyright = \markup \small { \now " " "© 1954 Sunbeam Music Corporation" }
-}
+headerTitle = "Young at Heart"
+headerSubtitle = \subtitle
+headerPoet = "Carolyn Leigh"
+headerComposer = "Johnny Richards"
+headerCopyright = "© 1954 Sunbeam Music Corporation"
 
 refrainLyrics = \lyricmode {
 Fair -- y tales __ can come true,

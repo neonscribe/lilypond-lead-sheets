@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.296719Z"
 
 \include "../Include/lead-sheets.ily"
 
-%%\header {
-  title = "Good Morning Heartache"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Irene Higginbotham, Ervin Drake & Dan Fisher"
-  copyright = \markup \small { \now " " "© 1945 Fisher Music Corporation & Lindabet Music Corporation" }
-}
+headerTitle = "Good Morning Heartache"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Irene Higginbotham, Ervin Drake & Dan Fisher"
+headerCopyright = "© 1945 Fisher Music Corporation & Lindabet Music Corporation"
 
 refrainLyrics = \lyricmode {
 Good morn -- ing heart -- ache, you old gloom -- y sight,

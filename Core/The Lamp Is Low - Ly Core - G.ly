@@ -4,14 +4,11 @@ songID = "2026-06-01T22:16:54.64485Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Lamp Is Low"
-  subtitle = \subtitle
-  poet = "Mitchell Parish"
-  composer = "Peter De Rose and Bert Shefter"
-  copyright = \markup \small { \now " " "© 1939 Robbins Music Corporation, based on Maurice Ravel's"
-			       \italic "Pavane pour une infante défunte" }
-}
+headerTitle = "The Lamp Is Low"
+headerSubtitle = \subtitle
+headerPoet = "Mitchell Parish"
+headerComposer = "Peter De Rose and Bert Shefter"
+headerCopyright = "© 1939 Robbins Music Corporation, based on Maurice Ravel's Pavane pour une infante défunte"
 
 refrainLyrics = \lyricmode {
 Dream __ be -- side me in the mid -- night glow. __ The lamp is low. __

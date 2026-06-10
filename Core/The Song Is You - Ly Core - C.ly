@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.420651Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Song Is You"
-  subtitle = \subtitle
-  poet = "Oscar Hammerstein II"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1932 T.B. Harms Co." }
-}
+headerTitle = "The Song Is You"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Hammerstein II"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1932 T.B. Harms Co."
 
 refrainLyrics = \lyricmode {
 I hear mu -- sic when I look at you, __

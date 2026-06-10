@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.024885Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Moonlight Saving Time"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Irving Kahal and Harry Richman"
-  copyright = \markup \small { \now " " "© 1931 Leo Feist, Inc." }
-}
+headerTitle = "Moonlight Saving Time"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Irving Kahal and Harry Richman"
+headerCopyright = "© 1931 Leo Feist, Inc."
 
 leadingEighth = ##t
 

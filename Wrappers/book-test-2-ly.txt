@@ -1,11 +1,14 @@
 \version "2.26.0"
 
+\version "2.26.0"
+
 \book {
 \bookOutputName "Test Book"
 \markuplist \table-of-contents
 \pageBreak
 \tocItem \markup "test 1"
 \include "502 Blues - Ly - Am Standard.ly"
+\pageBreak
 \tocItem \markup "test 2"
 \include "A Beautiful Friendship - Ly - C Standard.ly"
 }

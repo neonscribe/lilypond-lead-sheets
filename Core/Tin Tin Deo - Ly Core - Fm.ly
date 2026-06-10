@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.678779Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Tin Tin Deo"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Walter Gil Fuller and Luciano Pozo Gonzales"
-  copyright = \markup \small { \now " " "© 1948 Consolidated Music Publishers" }
-}
+headerTitle = "Tin Tin Deo"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Walter Gil Fuller and Luciano Pozo Gonzales"
+headerCopyright = "© 1948 Consolidated Music Publishers"
 
 refrainChords = \chordmode {
   s2

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.464316Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Girl From Ipanema"
-  subtitle = \subtitle
-  poet = "Norman Gimbel"
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1963 Jobim Music" }
-}
+headerTitle = "The Girl From Ipanema"
+headerSubtitle = \subtitle
+headerPoet = "Norman Gimbel"
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1963 Jobim Music"
 
 bossaRhythm = ##t
 

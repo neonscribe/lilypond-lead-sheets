@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:52.298108Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Stella by Starlight"
-  subtitle = \subtitle
-  poet = "Ned Washington"
-  composer = "Victor Young"
-  copyright = \markup \small { \now " " "© 1946 Famous Music Corporation" }
-}
+headerTitle = "Stella by Starlight"
+headerSubtitle = \subtitle
+headerPoet = "Ned Washington"
+headerComposer = "Victor Young"
+headerCopyright = "© 1946 Famous Music Corporation"
 
 refrainLyrics =
 #(if (and (defined? 'singerGender)

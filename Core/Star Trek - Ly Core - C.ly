@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:52.021211Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Star Trek Theme"
-  subtitle = \subtitle
-  poet = "Gene Roddenberry"
-  composer = "Alexander Courage"
-  copyright = \markup \small { \now " " "© 1966 Bruin Music Co." }
-}
+headerTitle = "Star Trek Theme"
+headerSubtitle = \subtitle
+headerPoet = "Gene Roddenberry"
+headerComposer = "Alexander Courage"
+headerCopyright = "© 1966 Bruin Music Co."
 
 bossaRhythm = ##t
 

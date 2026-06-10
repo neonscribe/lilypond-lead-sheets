@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.011527Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sunday"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Chester Conn, Bennie Krueger, Ned Miller, Jule Styne"
-  copyright = \markup \small { \now " " "© 1926 Leo Feist Inc." }
-}
+headerTitle = "Sunday"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Chester Conn, Bennie Krueger, Ned Miller, Jule Styne"
+headerCopyright = "© 1926 Leo Feist Inc."
 
 refrainLyrics = \lyricmode {
 I'm blue __ ev -- 'ry Mon -- day, think -- ing o -- ver Sun -- day,

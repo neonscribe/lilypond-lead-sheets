@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.561962Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Work Song"
-  subtitle = \subtitle
-  poet = "Oscar Brown, Jr."
-  composer = "Nat Adderley"
-  copyright = \markup \small { \now " " "© 1960 Upam Music Co." }
-}
+headerTitle = "Work Song"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Brown, Jr."
+headerComposer = "Nat Adderley"
+headerCopyright = "© 1960 Upam Music Co."
 
 refrainChords = \chordmode {
   c4:7.9+ f4:m7 s4*6

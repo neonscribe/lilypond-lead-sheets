@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.977495Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "'Round Midnight (minor key signature)"
-  subtitle = \subtitle
-  poet = "Bernie Hanighen"
-  composer = "Cootie Williams and Thelonious Monk"
-  copyright = \markup \small { \now " " "© 1944 Advanced Music Corporation" }
-}
+headerTitle = "'Round Midnight (minor key signature)"
+headerSubtitle = \subtitle
+headerPoet = "Bernie Hanighen"
+headerComposer = "Cootie Williams and Thelonious Monk"
+headerCopyright = "© 1944 Advanced Music Corporation"
 
 tonality = \minor
 

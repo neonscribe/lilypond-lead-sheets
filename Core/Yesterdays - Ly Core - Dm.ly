@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.745164Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Yesterdays"
-  subtitle = \subtitle
-  poet = "Otto Harbach"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1933 T.B. Harms Co." }
-}
+headerTitle = "Yesterdays"
+headerSubtitle = \subtitle
+headerPoet = "Otto Harbach"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1933 T.B. Harms Co."
 
 refrainLyrics = \lyricmode {
 Yes -- ter -- days,

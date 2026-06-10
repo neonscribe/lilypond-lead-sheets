@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.114053Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Night Has a Thousand Eyes"
-  subtitle = \subtitle
-  poet = "Buddy Bernier"
-  composer = "Jerry Brainin"
-  copyright = \markup \small { \now " " "© 1948 Paramount Music Corporation" }
-}
+headerTitle = "The Night Has a Thousand Eyes"
+headerSubtitle = \subtitle
+headerPoet = "Buddy Bernier"
+headerComposer = "Jerry Brainin"
+headerCopyright = "© 1948 Paramount Music Corporation"
 
 refrainChords = \chordmode {
   s4

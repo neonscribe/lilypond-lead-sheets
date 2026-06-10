@@ -4,13 +4,11 @@ songID = "2026-06-01T22:17:00.149736Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You Make Me Feel So Young"
-  subtitle = \subtitle
-  poet = "Mack Gordon"
-  composer = "Josef Myrow"
-  copyright = \markup \small { \now " " "© 1946 Triangle Music Corporation" }
-}
+headerTitle = "You Make Me Feel So Young"
+headerSubtitle = \subtitle
+headerPoet = "Mack Gordon"
+headerComposer = "Josef Myrow"
+headerCopyright = "© 1946 Triangle Music Corporation"
 
 refrainLyrics = \lyricmode {
 You make me feel so young, __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.655856Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lady Madonna"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Lennon/Paul McCartney"
-  copyright = \markup \small { \now " " "© 1968 Northern Songs" }
-}
+headerTitle = "Lady Madonna"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Lennon/Paul McCartney"
+headerCopyright = "© 1968 Northern Songs"
 
 keepWeirdAccidentals = ##t
 

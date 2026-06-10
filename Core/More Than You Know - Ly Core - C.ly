@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.117888Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "More Than You Know"
-  subtitle = \subtitle
-  poet = "William Rose & Edward Eliscu"
-  composer = "Vincent Youmans"
-  copyright = \markup \small { \now " " "© 1929 Chappell & Co." }
-}
+headerTitle = "More Than You Know"
+headerSubtitle = \subtitle
+headerPoet = "William Rose & Edward Eliscu"
+headerComposer = "Vincent Youmans"
+headerCopyright = "© 1929 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 More than you know, more than you know,

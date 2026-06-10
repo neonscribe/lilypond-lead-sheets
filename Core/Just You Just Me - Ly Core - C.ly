@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.300034Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Just You, Just Me"
-  subtitle = \subtitle
-  poet = "Raymond Klages"
-  composer = "Jesse Greer"
-  copyright = \markup \small { \now " " "© 1929 Metro-Goldwyn Mayer Inc." }
-}
+headerTitle = "Just You, Just Me"
+headerSubtitle = \subtitle
+headerPoet = "Raymond Klages"
+headerComposer = "Jesse Greer"
+headerCopyright = "© 1929 Metro-Goldwyn Mayer Inc."
 
 refrainLyrics = \lyricmode {
 Just you, just me.

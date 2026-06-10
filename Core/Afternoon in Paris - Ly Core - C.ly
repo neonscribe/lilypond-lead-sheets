@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.007736Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Afternoon in Paris"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Lewis"
-  copyright = \markup \small { \now " " "© 1949 MJQ Music" }
-}
+headerTitle = "Afternoon in Paris"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Lewis"
+headerCopyright = "© 1949 MJQ Music"
 
 refrainChords = \chordmode {
   s4

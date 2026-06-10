@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:38.546134Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "If I Only Had a Brain"
-  subtitle = \subtitle
-  poet = "E.Y. Harburg"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1938 Metro-Goldwyn-Mayer, Inc." }
-}
+headerTitle = "If I Only Had a Brain"
+headerSubtitle = \subtitle
+headerPoet = "E.Y. Harburg"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1938 Metro-Goldwyn-Mayer, Inc."
 
 refrainLyrics = \lyricmode {
 I could while a -- way the ho -- urs, con -- ferr -- in' with the flow -- ers,

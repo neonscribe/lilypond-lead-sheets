@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:50.469951Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Smile"
-  subtitle = \subtitle
-  poet = "John Turner and Geoffrey Parsons"
-  composer = "Charlie Chaplin"
-  copyright = \markup \small { \now " " "© 1936, 1954 Bourne Co." }
-}
+headerTitle = "Smile"
+headerSubtitle = \subtitle
+headerPoet = "John Turner and Geoffrey Parsons"
+headerComposer = "Charlie Chaplin"
+headerCopyright = "© 1936, 1954 Bourne Co."
 
 refrainLyrics = \lyricmode {
 Smile, though your heart is ach -- ing.

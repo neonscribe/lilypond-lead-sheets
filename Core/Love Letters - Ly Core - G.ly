@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.927634Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Love Letters (4/4)"
-  subtitle = \subtitle
-  poet = "Edward Heyman"
-  composer = "Victor Young"
-  copyright = \markup \small { \now " " "© 1945 Famous Music Corporation" }
-}
+headerTitle = "Love Letters (4/4)"
+headerSubtitle = \subtitle
+headerPoet = "Edward Heyman"
+headerComposer = "Victor Young"
+headerCopyright = "© 1945 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 Love let -- ters straight from your heart __ keep us so near __ while a -- part. __

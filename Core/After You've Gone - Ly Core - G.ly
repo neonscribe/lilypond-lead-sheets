@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:23.966804Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "After You've Gone"
-  subtitle = \subtitle
-  poet = "Henry Creamer"
-  composer = "Turner Layton"
-  copyright = \markup \small { \now " " "© 1918 Morley Music Company" }
-}
+headerTitle = "After You've Gone"
+headerSubtitle = \subtitle
+headerPoet = "Henry Creamer"
+headerComposer = "Turner Layton"
+headerCopyright = "© 1918 Morley Music Company"
 
 refrainLyrics = \lyricmode {
   Af -- ter you've gone, __ and left me cry -- ing;

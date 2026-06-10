@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.071141Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Moonlight in Vermont"
-  subtitle = \subtitle
-  poet = "John Blackburn"
-  composer = "Karl Suessdorf"
-  copyright = \markup \small { \now " " "© 1944 Michael H. Golden, Inc." }
-}
+headerTitle = "Moonlight in Vermont"
+headerSubtitle = \subtitle
+headerPoet = "John Blackburn"
+headerComposer = "Karl Suessdorf"
+headerCopyright = "© 1944 Michael H. Golden, Inc."
 
 refrainLyrics = \lyricmode {
 Pen -- nies in a stream, fall -- ing leaves, a sy -- ca -- more,

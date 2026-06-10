@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.959797Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You Do Something to Me"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1929 Chappell & Co." }
-}
+headerTitle = "You Do Something to Me"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1929 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 You do some -- thing to me. Some -- thing that sim -- ply mys -- ti -- fies me.

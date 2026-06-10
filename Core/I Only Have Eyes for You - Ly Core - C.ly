@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.734507Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Only Have Eyes for You"
-  subtitle = \subtitle
-  poet = "Al Dubin"
-  composer = "Harry Warren"
-  copyright = \markup \small { \now " " "© 1934 Remick Music Corp." }
-}
+headerTitle = "I Only Have Eyes for You"
+headerSubtitle = \subtitle
+headerPoet = "Al Dubin"
+headerComposer = "Harry Warren"
+headerCopyright = "© 1934 Remick Music Corp."
 
 refrainLyrics = \lyricmode {
 Are the stars out to -- night? __

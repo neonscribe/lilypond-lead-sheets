@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.686122Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Dolphin Dance"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Herbie Hancock"
-  copyright = \markup \small { \now " " "© 1965 Hancock Music" }
-}
+headerTitle = "Dolphin Dance"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Herbie Hancock"
+headerCopyright = "© 1965 Hancock Music"
 
 refrainChords = \chordmode {
   ef1:maj7 df1:maj7/ef ef1:maj7 d2:m7.5- g2:7

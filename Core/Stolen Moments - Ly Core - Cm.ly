@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:52.343016Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Stolen Moments"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Oliver Nelson"
-  copyright = \markup \small { \now " " "© 1962 Oliver E. Nelson" }
-}
+headerTitle = "Stolen Moments"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Oliver Nelson"
+headerCopyright = "© 1962 Oliver E. Nelson"
 
 refrainChords = \chordmode {
   c1:m7 d1:m7/c ef1:maj7/c d1:m7/c

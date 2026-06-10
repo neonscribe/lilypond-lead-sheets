@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:34.625592Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Have You Met Miss Jones"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1937 Chappell & Co." }
-}
+headerTitle = "Have You Met Miss Jones"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1937 Chappell & Co."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
   Have you met Miss Jones? __ Some -- one said as we shook hands. __

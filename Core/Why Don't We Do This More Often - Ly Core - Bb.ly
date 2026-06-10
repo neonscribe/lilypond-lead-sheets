@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.148749Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Why Don't We Do This More Often"
-  subtitle = \subtitle
-  poet = "Charles Newman"
-  composer = "Allie Wrubel"
-  copyright = \markup \small { \now " " "© 1941 Bregman, Vocco and Conn, Inc." }
-}
+headerTitle = "Why Don't We Do This More Often"
+headerSubtitle = \subtitle
+headerPoet = "Charles Newman"
+headerComposer = "Allie Wrubel"
+headerCopyright = "© 1941 Bregman, Vocco and Conn, Inc."
 
 refrainLyrics = \lyricmode {
 Why don't we do this more of -- ten?

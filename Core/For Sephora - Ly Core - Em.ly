@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.638167Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "For Sephora"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Stochelo Rosenberg"
-  copyright = \markup \small { \now " " "© 1991 The Rosenberg Trio" }
-}
+headerTitle = "For Sephora"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Stochelo Rosenberg"
+headerCopyright = "© 1991 The Rosenberg Trio"
 
 bossaRhythm = ##t
 

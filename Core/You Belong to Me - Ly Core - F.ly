@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.86035Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You Belong to Me (Jo Stafford arrangement)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Pee Wee King, Redd Stewart and Chilton Price"
-  copyright = \markup \small { \now " " "© 1952 Ridgeway Music Company, Inc." }
-}
+headerTitle = "You Belong to Me (Jo Stafford arrangement)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Pee Wee King, Redd Stewart and Chilton Price"
+headerCopyright = "© 1952 Ridgeway Music Company, Inc."
 
 refrainLyrics = \lyricmode {
 Ba boo boo ba ba ba boo wee boo wee.

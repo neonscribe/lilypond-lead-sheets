@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:50.382134Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sleigh Ride"
-  subtitle = \subtitle
-  poet = "Mitchell Parish"
-  composer = "Leroy Anderson"
-  copyright = \markup \small { \now " " "© 1948 Woodbury Music Company" }
-}
+headerTitle = "Sleigh Ride"
+headerSubtitle = \subtitle
+headerPoet = "Mitchell Parish"
+headerComposer = "Leroy Anderson"
+headerCopyright = "© 1948 Woodbury Music Company"
 
 refrainLyrics = \lyricmode {
   Just hear those sleigh bells jin -- gle -- ing,

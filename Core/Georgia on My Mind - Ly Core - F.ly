@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.915275Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Georgia on My Mind"
-  subtitle = \subtitle
-  poet = "Stuart Gorrell"
-  composer = "Hoagy Carmichael"
-  copyright = \markup \small { \now " " "© 1930 Southern Music Publishing Co., Inc." }
-}
+headerTitle = "Georgia on My Mind"
+headerSubtitle = \subtitle
+headerPoet = "Stuart Gorrell"
+headerComposer = "Hoagy Carmichael"
+headerCopyright = "© 1930 Southern Music Publishing Co., Inc."
 
 refrainLyrics = \lyricmode {
 Geor -- gia, __ Geor -- gia, __ the whole day through,

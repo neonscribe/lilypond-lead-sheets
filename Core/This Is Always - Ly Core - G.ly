@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.271741Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "This Is Always"
-  subtitle = \subtitle
-  poet = "Mack Gordon"
-  composer = "Harry Warren"
-  copyright = \markup \small { \now " " "© 1946 Twentieth Century Music Corporation" }
-}
+headerTitle = "This Is Always"
+headerSubtitle = \subtitle
+headerPoet = "Mack Gordon"
+headerComposer = "Harry Warren"
+headerCopyright = "© 1946 Twentieth Century Music Corporation"
 
 refrainLyrics = \lyricmode {
 This is -- n't some -- times, this is al -- ways.

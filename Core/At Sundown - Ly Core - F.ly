@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:25.450611Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "At Sundown"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Walter Donaldson"
-  copyright = \markup \small { \now " " "© 1927 Leo Feist, Inc." }
-}
+headerTitle = "At Sundown"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Walter Donaldson"
+headerCopyright = "© 1927 Leo Feist, Inc."
 
 refrainLyrics = \lyricmode {
   Ev' -- ry lit -- tle breeze is sigh -- ing of love un -- dy -- ing at sun -- down.

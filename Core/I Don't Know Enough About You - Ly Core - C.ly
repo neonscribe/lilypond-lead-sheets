@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.044674Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Don't Know Enough About You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Dave Barbour and Peggy Lee"
-  copyright = \markup \small { \now " " "© 1946 Denslow Music Inc." }
-}
+headerTitle = "I Don't Know Enough About You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Dave Barbour and Peggy Lee"
+headerCopyright = "© 1946 Denslow Music Inc."
 
 leadingEighth = ##t
 

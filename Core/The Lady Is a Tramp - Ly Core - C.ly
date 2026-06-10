@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.600452Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Lady Is a Tramp"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1937 Chappell & Co." }
-}
+headerTitle = "The Lady Is a Tramp"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1937 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 I get too hun -- gry for din -- ner at eight, __

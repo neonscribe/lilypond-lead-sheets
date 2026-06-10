@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:52.433993Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Stormy Weather (Keeps Rainin' All the Time)"
-  subtitle = \subtitle
-  poet = "Ted Koehler"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1933 Mills Music Inc." }
-}
+headerTitle = "Stormy Weather (Keeps Rainin' All the Time)"
+headerSubtitle = \subtitle
+headerPoet = "Ted Koehler"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1933 Mills Music Inc."
 
 refrainLyrics = \lyricmode {
 Don't know why there's no sun up in the sky, storm -- y weath -- er. __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.953958Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Topsy"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Edgar Battle/Eddie Durham"
-  copyright = \markup \small { \now " " "© 1938 Vanessa Music Corp." }
-}
+headerTitle = "Topsy"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Edgar Battle/Eddie Durham"
+headerCopyright = "© 1938 Vanessa Music Corp."
 
 refrainChords = \chordmode {
   d1:m bf2:7 a2:7 d1:m bf2:7 a2:7

@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:39.908809Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "It Never Entered My Mind"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1940 Chappell & Co." }
-}
+headerTitle = "It Never Entered My Mind"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1940 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Once I laughed when I heard you say -- ing

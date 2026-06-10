@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.4062Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "At Last"
-  subtitle = \subtitle
-  poet = "Mack Gotdon"
-  composer = "Harry Warren"
-  copyright = \markup \small { \now " " "© 1942 Twentieth Century Music Corporation" }
-}
+headerTitle = "At Last"
+headerSubtitle = \subtitle
+headerPoet = "Mack Gotdon"
+headerComposer = "Harry Warren"
+headerCopyright = "© 1942 Twentieth Century Music Corporation"
 
 refrainLyrics = \lyricmode {
 At last __ my love __ has come a -- long.

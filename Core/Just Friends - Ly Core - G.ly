@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.100649Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Just Friends"
-  subtitle = \subtitle
-  poet = "Sam M. Lewis"
-  composer = "John Klenner"
-  copyright = \markup \small { \now " " "© 1931 Metro-Goldwyn-Mayer, Inc." }
-}
+headerTitle = "Just Friends"
+headerSubtitle = \subtitle
+headerPoet = "Sam M. Lewis"
+headerComposer = "John Klenner"
+headerCopyright = "© 1931 Metro-Goldwyn-Mayer, Inc."
 
 refrainLyrics = \lyricmode {
   Just friends, __ lov -- ers no more. __

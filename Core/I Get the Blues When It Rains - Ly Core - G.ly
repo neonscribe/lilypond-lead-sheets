@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.322354Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Get the Blues When It Rains"
-  subtitle = \subtitle
-  poet = "Marcy Klauber"
-  composer = "Harry Stoddard"
-  copyright = \markup \small { \now " " "© 1928 Harry Stoddard" }
-}
+headerTitle = "I Get the Blues When It Rains"
+headerSubtitle = \subtitle
+headerPoet = "Marcy Klauber"
+headerComposer = "Harry Stoddard"
+headerCopyright = "© 1928 Harry Stoddard"
 
 refrainLyrics = \lyricmode {
 I get the blues when it rains. __

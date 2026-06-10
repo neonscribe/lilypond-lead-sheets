@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:52.067487Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Star Dust (Stardust)"
-  subtitle = \subtitle
-  poet = "Mitchell Parish"
-  composer = "Hoagy Carmichael"
-  copyright = \markup \small { \now " " "© 1929 Mills Music Inc." }
-}
+headerTitle = "Star Dust (Stardust)"
+headerSubtitle = \subtitle
+headerPoet = "Mitchell Parish"
+headerComposer = "Hoagy Carmichael"
+headerCopyright = "© 1929 Mills Music Inc."
 
 leadingEighth = ##t
 

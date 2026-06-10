@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.550289Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "For All We Know"
-  subtitle = \subtitle
-  poet = "Sam M. Lewis"
-  composer = "J. Fred Coots"
-  copyright = \markup \small { \now " " "© 1934 Cromwell Music, Inc." }
-}
+headerTitle = "For All We Know"
+headerSubtitle = \subtitle
+headerPoet = "Sam M. Lewis"
+headerComposer = "J. Fred Coots"
+headerCopyright = "© 1934 Cromwell Music, Inc."
 
 refrainLyrics = \lyricmode {
 For all we know we make nev -- er meet a -- gain. __

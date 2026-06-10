@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.579277Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Just Found Out About Love"
-  subtitle = \subtitle
-  poet = "Harold Adamson"
-  composer = "Jimmy McHugh"
-  copyright = \markup \small { \now " " "© 1955 Cotton Club Publishing" }
-}
+headerTitle = "I Just Found Out About Love"
+headerSubtitle = \subtitle
+headerPoet = "Harold Adamson"
+headerComposer = "Jimmy McHugh"
+headerCopyright = "© 1955 Cotton Club Publishing"
 
 refrainLyrics = \lyricmode {
 I just found out a -- bout love __ and I like __ it, __ I like it. __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.322723Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blue Train (Blue Trane)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Coltrane"
-  copyright = \markup \small { \now " " "© 1957 Jowcol Music" }
-}
+headerTitle = "Blue Train (Blue Trane)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Coltrane"
+headerCopyright = "© 1957 Jowcol Music"
 
 refrainChords = \chordmode {
   s2.

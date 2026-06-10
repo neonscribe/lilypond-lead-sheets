@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.061119Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bubbles in My Beer"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cindy Walker, Tommy Duncan and Bob Wills"
-  copyright = \markup \small { \now " " "© 1947 Chappell & Co." }
-}
+headerTitle = "Bubbles in My Beer"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cindy Walker, Tommy Duncan and Bob Wills"
+headerCopyright = "© 1947 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 To -- night in a bar a -- lone I'm sit -- tin’, __ a -- part from the laugh -- ter and the cheer. __

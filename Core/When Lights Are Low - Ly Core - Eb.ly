@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.612186Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "When Lights Are Low"
-  subtitle = \subtitle
-  poet = "Spencer Williams"
-  composer = "Benny Carter"
-  copyright = \markup \small { \now " " "© 1936 Bee Cee Music Company" }
-}
+headerTitle = "When Lights Are Low"
+headerSubtitle = \subtitle
+headerPoet = "Spencer Williams"
+headerComposer = "Benny Carter"
+headerCopyright = "© 1936 Bee Cee Music Company"
 
 refrainLyrics = \lyricmode {
 Sweet mu -- sic soft __ and mel -- low, sooth -- ing and slow. __

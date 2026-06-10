@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.36257Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "This Time the Dream's on Me"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1941 Warner Bros. Inc." }
-}
+headerTitle = "This Time the Dream's on Me"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1941 Warner Bros. Inc."
 
 refrainLyrics = \lyricmode {
 Some -- where, some -- day __ we'll be close to -- geth -- er, wait and see. __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.915164Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Where or When"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1937 Chappell & Co." }
-}
+headerTitle = "Where or When"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1937 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 It seems we stood and talked like this be -- fore.

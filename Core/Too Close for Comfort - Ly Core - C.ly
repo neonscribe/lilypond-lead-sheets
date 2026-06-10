@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.812702Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Too Close for Comfort"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Jerry Bock, Larry Holofcener and George Weiss"
-  copyright = \markup \small { \now " " "© 1956 The Herald Square Music Co." }
-}
+headerTitle = "Too Close for Comfort"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Jerry Bock, Larry Holofcener and George Weiss"
+headerCopyright = "© 1956 The Herald Square Music Co."
 
 refrainLyrics = \lyricmode {
 Be wise, be smart, be -- have my heart,

@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:28.103947Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Buckaroo"
-  subtitle = \subtitle
-  composer = "Bob Morris"
-  copyright = \markup \small { \now " " "© 1965 Tree Publishing Co., Inc." }
-}
+headerTitle = "Buckaroo"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bob Morris"
+headerCopyright = "© 1965 Tree Publishing Co., Inc."
 
 straightEighths = ##t
 

@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:57.800888Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Waltz for Debby"
-  subtitle = \subtitle
-  poet = "Gene Lees"
-  composer = "Bill Evans"
-  copyright = \markup \small { \now " " "© 1964 Acorn Music Corp." }
-}
+headerTitle = "Waltz for Debby"
+headerSubtitle = \subtitle
+headerPoet = "Gene Lees"
+headerComposer = "Bill Evans"
+headerCopyright = "© 1964 Acorn Music Corp."
 
 refrainLyricsPre = \lyricmode {
 }

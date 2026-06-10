@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.702972Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lament"
-  subtitle = \subtitle
-  poet = ""
-  composer = "J.J. Johnson"
-  copyright = \markup \small { \now " " "© 1954 Screen Gems Inc." }
-}
+headerTitle = "Lament"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "J.J. Johnson"
+headerCopyright = "© 1954 Screen Gems Inc."
 
 refrainChords = \chordmode {
   f1:m9 ef2:m7 af2:7 df1:maj7 g2:m7.5- c2:7

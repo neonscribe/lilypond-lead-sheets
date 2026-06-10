@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.558152Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Repetition"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Neal Hefti"
-  copyright = \markup \small { \now " " "© 1947 Encino Music" }
-}
+headerTitle = "Repetition"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Neal Hefti"
+headerCopyright = "© 1947 Encino Music"
 
 refrainChords = \chordmode {
   a1:m7 b2:m7 e2:7.9- a1:m7 b2:m7 e2:7.9-

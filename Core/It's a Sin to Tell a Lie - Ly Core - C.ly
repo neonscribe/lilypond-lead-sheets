@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.384012Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It's a Sin to Tell a Lie"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Billy Mayhew"
-  copyright = \markup \small { \now " " "© 1936 Bregman, Vocco and Conn, Inc." }
-}
+headerTitle = "It's a Sin to Tell a Lie"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Billy Mayhew"
+headerCopyright = "© 1936 Bregman, Vocco and Conn, Inc."
 
 refrainLyrics = \lyricmode {
 Be sure it's true when you say, “I love you.”

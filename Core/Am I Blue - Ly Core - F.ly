@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.832183Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Am I Blue"
-  subtitle = \subtitle
-  poet = "Grant Clarke"
-  composer = "Harry Akst"
-  copyright = \markup \small { \now " " "© 1929 M. Witmark & Sons" }
-}
+headerTitle = "Am I Blue"
+headerSubtitle = \subtitle
+headerPoet = "Grant Clarke"
+headerComposer = "Harry Akst"
+headerCopyright = "© 1929 M. Witmark & Sons"
 
 refrainLyrics = \lyricmode {
 Am I blue? __ Am I blue? __ Ain't these tears __ in these eyes __ tell -- in you? __

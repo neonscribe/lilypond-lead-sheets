@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.458702Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blues March"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Benny Golson"
-  copyright = \markup \small { \now " " "© 1958 Ibbob Music, Inc." }
-}
+headerTitle = "Blues March"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Benny Golson"
+headerCopyright = "© 1958 Ibbob Music, Inc."
 
 keepWeirdAccidentals = ##t
 leadingEighth = ##t

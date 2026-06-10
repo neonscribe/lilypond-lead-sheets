@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.690135Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Softly, as in a Morning Sunrise"
-  subtitle = \subtitle
-  poet = "Oscar Hammerstein II"
-  composer = "Sigmund Romberg"
-  copyright = \markup \small { \now " " "© 1928 Bambalina Music Publishing Co." }
-}
+headerTitle = "Softly, as in a Morning Sunrise"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Hammerstein II"
+headerComposer = "Sigmund Romberg"
+headerCopyright = "© 1928 Bambalina Music Publishing Co."
 
 refrainLyrics = \lyricmode {
   Soft -- ly, as in a morn -- ing sun -- rise,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.715295Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Tennessee Waltz"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Redd Stewart and Pee Wee King"
-  copyright = \markup \small { \now " " "© 1948 Acuff-Rose Publications" }
-}
+headerTitle = "Tennessee Waltz"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Redd Stewart and Pee Wee King"
+headerCopyright = "© 1948 Acuff-Rose Publications"
 
 straightEighths = ##t
 

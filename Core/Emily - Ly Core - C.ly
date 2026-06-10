@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.659588Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Emily"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Johnny Mandel"
-  copyright = \markup \small { \now " " "© 1964 Metro-Goldwyn-Mayer, Inc." }
-}
+headerTitle = "Emily"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Johnny Mandel"
+headerCopyright = "© 1964 Metro-Goldwyn-Mayer, Inc."
 
 refrainLyrics = \lyricmode {
 Em -- i -- ly, Em -- i -- ly,

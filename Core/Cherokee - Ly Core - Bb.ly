@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.301688Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Cherokee"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ray Noble"
-  copyright = \markup \small { \now " " "© 1938 The Peter Maurice Music Co. Ltd." }
-}
+headerTitle = "Cherokee"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ray Noble"
+headerCopyright = "© 1938 The Peter Maurice Music Co. Ltd."
 
 refrainChords = \chordmode {
   bf1:maj7 bf2:maj7 f2:7.5+ f1:m7 bf1:7

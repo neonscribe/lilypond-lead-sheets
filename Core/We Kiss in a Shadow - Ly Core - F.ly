@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.023796Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "We Kiss in a Shadow"
-  subtitle = \subtitle
-  poet = "Oscar Hammerstein II"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1951 Richard Rodgers and Oscar Hammerstein II" }
-}
+headerTitle = "We Kiss in a Shadow"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Hammerstein II"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1951 Richard Rodgers and Oscar Hammerstein II"
 
 refrainLyrics = \lyricmode {
 We kiss in a sha -- dow, we hide from the moon.

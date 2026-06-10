@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.549994Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Little Girl Blue"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1935 Williamson Music and Lorenz Hart Music" }
-}
+headerTitle = "Little Girl Blue"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1935 Williamson Music and Lorenz Hart Music"
 
 verseLyrics = \lyricmode {
   When I was ver -- y young __ the world was young -- er than I,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.770769Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Can't Stop Loving You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Don Gibson"
-  copyright = \markup \small { \now " " "© 1958 Acuff-Rose Publications, Inc." }
-}
+headerTitle = "I Can't Stop Loving You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Don Gibson"
+headerCopyright = "© 1958 Acuff-Rose Publications, Inc."
 
 refrainLyrics = \lyricmode {
 I can't stop lov -- ing you, so I've made up my mind

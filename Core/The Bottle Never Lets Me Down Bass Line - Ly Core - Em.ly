@@ -6,12 +6,11 @@ songID = "2026-06-01T22:16:53.992293Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "The Bottle Never Lets Me Down"
-  subtitle = "Bass Line from Sarah Shook's 2018 album Years"
-  composer = "Sarah Shook"
-  copyright = \markup \small { \now " " "" }
-}
+headerTitle = "The Bottle Never Lets Me Down"
+headerSubtitle = "Bass Line from Sarah Shook's 2018 album Years"
+headerPoet = ""
+headerComposer = "Sarah Shook"
+headerCopyright = ""
 
 refrainChords = \chordmode {
   \set chordChanges = ##f

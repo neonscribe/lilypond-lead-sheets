@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.871784Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Centerpiece"
-  subtitle = \subtitle
-  poet = "Jon Hendricks"
-  composer = "Harry Edison"
-  copyright = \markup \small { \now " " "© 1960 Marissa Music" }
-}
+headerTitle = "Centerpiece"
+headerSubtitle = \subtitle
+headerPoet = "Jon Hendricks"
+headerComposer = "Harry Edison"
+headerCopyright = "© 1960 Marissa Music"
 
 leadingEighth = ##t
 

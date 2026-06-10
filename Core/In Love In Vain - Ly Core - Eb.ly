@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.979734Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "In Love In Vain"
-  subtitle = \subtitle
-  poet = "Leo Robin"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1946 T.B. Harms Co." }
-}
+headerTitle = "In Love In Vain"
+headerSubtitle = \subtitle
+headerPoet = "Leo Robin"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1946 T.B. Harms Co."
 
 refrainLyrics = \lyricmode {
 It's on -- ly hu -- man for an -- y -- one to want to be in love

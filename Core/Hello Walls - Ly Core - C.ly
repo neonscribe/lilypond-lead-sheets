@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.956987Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Hello Walls"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Willie Nelson"
-  copyright = \markup \small { \now " " "© 1961 Tree Publishing Co. Inc." }
-}
+headerTitle = "Hello Walls"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Willie Nelson"
+headerCopyright = "© 1961 Tree Publishing Co. Inc."
 
 refrainLyrics = \lyricmode {
 Hel -- lo walls,

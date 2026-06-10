@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.874504Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Romance"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1935 T.B. Harms Co." }
-}
+headerTitle = "My Romance"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1935 T.B. Harms Co."
 
 refrainLyrics = \lyricmode {
 My ro -- mance does -- n't have to have a moon in the sky,

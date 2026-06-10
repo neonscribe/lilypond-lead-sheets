@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.307178Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Once I Loved (Amor Em Paz)"
-  subtitle = \subtitle
-  poet = "Ray Gilbert"
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1965 Ipanema Music" }
-}
+headerTitle = "Once I Loved (Amor Em Paz)"
+headerSubtitle = \subtitle
+headerPoet = "Ray Gilbert"
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1965 Ipanema Music"
 
 bossaRhythm = ##t
 

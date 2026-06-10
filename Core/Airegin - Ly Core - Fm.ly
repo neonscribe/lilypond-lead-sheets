@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.206116Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Airegin"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sonny Rollins"
-  copyright = \markup \small { \now " " "© 1954 Prestige Music" }
-}
+headerTitle = "Airegin"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sonny Rollins"
+headerCopyright = "© 1954 Prestige Music"
 
 refrainChords = \chordmode {
   f1:m7 c1:7.9+ f1:m7 f1:7

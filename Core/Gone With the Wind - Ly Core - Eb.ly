@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.210828Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Gone With the Wind"
-  subtitle = \subtitle
-  poet = "Herb Magidson"
-  composer = "Allie Wrubel"
-  copyright = \markup \small { \now " " "© 1937 Bourne Co." }
-}
+headerTitle = "Gone With the Wind"
+headerSubtitle = \subtitle
+headerPoet = "Herb Magidson"
+headerComposer = "Allie Wrubel"
+headerCopyright = "© 1937 Bourne Co."
 
 refrainLyrics = \lyricmode {
 Gone with the wind, just like a leaf that has blown a -- way.

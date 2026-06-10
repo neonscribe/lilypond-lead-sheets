@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:46.43611Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Night and Day"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1932 Warner Bros. Inc." }
-}
+headerTitle = "Night and Day"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1932 Warner Bros. Inc."
 
 refrainLyrics = \lyricmode {
   Night and day, you are the one.

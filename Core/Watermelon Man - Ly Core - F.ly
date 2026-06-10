@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.901181Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Watermelon Man"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Herbie Hancock"
-  copyright = \markup \small { \now " " "© 1962 Hancock Music" }
-}
+headerTitle = "Watermelon Man"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Herbie Hancock"
+headerCopyright = "© 1962 Hancock Music"
 
 straightEighths = ##t
 

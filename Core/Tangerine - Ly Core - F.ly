@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.580004Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Tangerine"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Victor Schertzinger"
-  copyright = \markup \small { \now " " "© 1942 Famous Music Corporation" }
-}
+headerTitle = "Tangerine"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Victor Schertzinger"
+headerCopyright = "© 1942 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 Tan -- ger -- ine, she is all they claim

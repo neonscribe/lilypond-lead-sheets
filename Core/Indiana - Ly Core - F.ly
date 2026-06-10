@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.290232Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Indiana (Back Home Again in Indiana)"
-  subtitle = \subtitle
-  poet = "Ballard MacDonald"
-  composer = "James F. Hanley"
-  copyright = \markup \small { \now " " "© 1917 Shapiro, Bernstein & Co., Inc." }
-}
+headerTitle = "Indiana (Back Home Again in Indiana)"
+headerSubtitle = \subtitle
+headerPoet = "Ballard MacDonald"
+headerComposer = "James F. Hanley"
+headerCopyright = "© 1917 Shapiro, Bernstein & Co., Inc."
 
 refrainLyrics = \lyricmode {
 Back home a -- gain __ in In -- di -- an -- a, __

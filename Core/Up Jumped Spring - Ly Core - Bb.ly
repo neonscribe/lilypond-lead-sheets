@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.525384Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Up Jumped Spring"
-  subtitle = \subtitle
-  poet = "Abbey Lincoln"
-  composer = "Freddie Hubbard"
-  copyright = \markup \small { \now " " "© 1962 Hubtones Music Co." }
-}
+headerTitle = "Up Jumped Spring"
+headerSubtitle = \subtitle
+headerPoet = "Abbey Lincoln"
+headerComposer = "Freddie Hubbard"
+headerCopyright = "© 1962 Hubtones Music Co."
 
 refrainLyrics = \lyricmode {
 I was out pro -- me -- na -- din'

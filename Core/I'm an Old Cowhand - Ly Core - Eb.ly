@@ -12,13 +12,11 @@ songID = "2026-06-01T22:16:38.119982Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "I'm an Old Cowhand"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Johnny Mercer"
-  copyright = \markup \small { \now " " "© 1936 EMI Feist Catalog Inc." }
-}
+headerTitle = "I'm an Old Cowhand"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Johnny Mercer"
+headerCopyright = "© 1936 EMI Feist Catalog Inc."
 
 refrainLyrics = \lyricmode {
 (Yipp -- ee -- yi -- o -- ki -- yay, yipp -- ee -- yi -- o -- ki -- yay.)

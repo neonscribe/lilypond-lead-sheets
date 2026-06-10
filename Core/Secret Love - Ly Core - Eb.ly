@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.578674Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Secret Love"
-  subtitle = \subtitle
-  poet = "Paul Francis Webster"
-  composer = "Sammy Fain"
-  copyright = \markup \small { \now " " "© 1953 Remick Music Corporation" }
-}
+headerTitle = "Secret Love"
+headerSubtitle = \subtitle
+headerPoet = "Paul Francis Webster"
+headerComposer = "Sammy Fain"
+headerCopyright = "© 1953 Remick Music Corporation"
 
 refrainLyrics = \lyricmode {
 Once I had a sec -- ret love __ that lived with -- in the heart of me. __

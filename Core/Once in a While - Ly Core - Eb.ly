@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.351747Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Once in a While"
-  subtitle = \subtitle
-  poet = "Bud Green"
-  composer = "Michael Edwards"
-  copyright = \markup \small { \now " " "© 1937 Miller Music Corporation" }
-}
+headerTitle = "Once in a While"
+headerSubtitle = \subtitle
+headerPoet = "Bud Green"
+headerComposer = "Michael Edwards"
+headerCopyright = "© 1937 Miller Music Corporation"
 
 refrainLyrics = \lyricmode {
 Once in a while __ will you try to give one lit -- tle thought to me,

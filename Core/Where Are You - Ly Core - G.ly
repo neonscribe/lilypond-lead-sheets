@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.841683Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Where Are You"
-  subtitle = \subtitle
-  poet = "Harold Adamson"
-  composer = "Jimmy McHugh"
-  copyright = \markup \small { \now " " "© 1936 Cotton Club Publishing" }
-}
+headerTitle = "Where Are You"
+headerSubtitle = \subtitle
+headerPoet = "Harold Adamson"
+headerComposer = "Jimmy McHugh"
+headerCopyright = "© 1936 Cotton Club Publishing"
 
 refrainLyrics = \lyricmode {
 Where are you? Where have you gone with -- out me?

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.666814Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Have Yourself a Merry Little Christmas"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Hugh Martin and Ralph Blane"
-  copyright = \markup \small { \now " " "© 1943 Metro-Goldwyn-Mayer Inc." }
-}
+headerTitle = "Have Yourself a Merry Little Christmas"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Hugh Martin and Ralph Blane"
+headerCopyright = "© 1943 Metro-Goldwyn-Mayer Inc."
 
 straightEighths = ##t
 

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.9444Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Best Things in Life Are Free"
-  subtitle = \subtitle
-  poet = ""
-  composer = "B.G. DeSylva, Lew Brown and Ray Henderson"
-  copyright = \markup \small { \now " " "© 1927 Crawford Music Corporation" }
-}
+headerTitle = "The Best Things in Life Are Free"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "B.G. DeSylva, Lew Brown and Ray Henderson"
+headerCopyright = "© 1927 Crawford Music Corporation"
 
 refrainLyrics = \lyricmode {
 The moon be -- longs to ev -- 'ry -- one, __ the best things in life are free. __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.67983Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Long Ago (and Far Away)"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1944 T.B. Harms Co." }
-}
+headerTitle = "Long Ago (and Far Away)"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1944 T.B. Harms Co."
 
 refrainLyrics = \lyricmode {
 Long a -- go and far a -- way, I dreamed a dream one day

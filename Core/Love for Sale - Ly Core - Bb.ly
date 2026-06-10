@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.1125Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Love for Sale"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1930 Harms Inc." }
-}
+headerTitle = "Love for Sale"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1930 Harms Inc."
 
 verseLyrics = \lyricmode {
 When the on -- ly sound in the emp -- ty street

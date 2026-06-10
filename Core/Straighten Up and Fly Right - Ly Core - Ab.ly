@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:52.547374Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Straighten Up and Fly Right"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Nat King Cole and Irving Mills"
-  copyright = \markup \small { \now " " "© 1944 American Academy of Music, Inc." }
-}
+headerTitle = "Straighten Up and Fly Right"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Nat King Cole and Irving Mills"
+headerCopyright = "© 1944 American Academy of Music, Inc."
 
 leadingEighth = ##t
 

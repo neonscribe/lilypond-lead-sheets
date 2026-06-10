@@ -6,13 +6,11 @@ songID = "2026-06-01T22:14:47.680265Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "A Beautiful Friendship"
-  subtitle = \subtitle
-  poet = "Stanley Styne"
-  composer = "Donald Kahn"
-  copyright = \markup \small { \now " " "© 1956 Gus Kahn Music" }
-}
+headerTitle = "A Beautiful Friendship"
+headerSubtitle = \subtitle
+headerPoet = "Stanley Styne"
+headerComposer = "Donald Kahn"
+headerCopyright = "© 1956 Gus Kahn Music"
 
 refrainLyrics = \lyricmode {
 This __ is the end __ of a beau -- ti -- ful friend -- ship.

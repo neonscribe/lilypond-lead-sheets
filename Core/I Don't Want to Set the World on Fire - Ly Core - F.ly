@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.088276Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Don't Want to Set the World on Fire"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bennie Benjamin,Eddie Durham,Eddie Seiler,Sol Marcus"
-  copyright = \markup \small { \now " " "© 1940 Cherio Corp." }
-}
+headerTitle = "I Don't Want to Set the World on Fire"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bennie Benjamin,Eddie Durham,Eddie Seiler,Sol Marcus"
+headerCopyright = "© 1940 Cherio Corp."
 
 refrainLyrics = \lyricmode {
 I don't want to set the world on fi -- re. __

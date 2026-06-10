@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.691934Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Cantaloupe Island"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Herbie Hancock"
-  copyright = \markup \small { \now " " "© 1964 Hancock Music Inc." }
-}
+headerTitle = "Cantaloupe Island"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Herbie Hancock"
+headerCopyright = "© 1964 Hancock Music Inc."
 
 straightEighths = ##t
 

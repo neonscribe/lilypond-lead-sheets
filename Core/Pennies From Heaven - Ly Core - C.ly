@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.800241Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Pennies From Heaven"
-  subtitle = \subtitle
-  poet = "John Burke"
-  composer = "Arthur Johnston"
-  copyright = \markup \small { \now " " "© 1936 Select Music Publications, Inc." }
-}
+headerTitle = "Pennies From Heaven"
+headerSubtitle = \subtitle
+headerPoet = "John Burke"
+headerComposer = "Arthur Johnston"
+headerCopyright = "© 1936 Select Music Publications, Inc."
 
 refrainLyrics = \lyricmode {
 Ev -- 'ry -- time it rains it rains __ pen -- nies from hea -- ven.

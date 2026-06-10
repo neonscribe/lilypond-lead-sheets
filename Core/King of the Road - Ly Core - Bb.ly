@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.477291Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "King of the Road"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Roger Miller"
-  copyright = \markup \small { \now " " "© 1964 Tree Publishing Co. Inc." }
-}
+headerTitle = "King of the Road"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Roger Miller"
+headerCopyright = "© 1964 Tree Publishing Co. Inc."
 
 introKey = bf
 

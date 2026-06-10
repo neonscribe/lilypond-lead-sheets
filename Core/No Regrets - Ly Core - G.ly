@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:46.526694Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "No Regrets"
-  subtitle = \subtitle
-  poet = "Harry Tobias"
-  composer = "Roy Ingraham"
-  copyright = \markup \small { \now " " "© 1936 Tobias Harry Music" }
-}
+headerTitle = "No Regrets"
+headerSubtitle = \subtitle
+headerPoet = "Harry Tobias"
+headerComposer = "Roy Ingraham"
+headerCopyright = "© 1936 Tobias Harry Music"
 
 refrainLyrics = \lyricmode {
 No re -- rets, al -- though our love af -- fair has gone a -- stray.

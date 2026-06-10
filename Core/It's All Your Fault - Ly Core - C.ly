@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:40.000846Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It's All Your Fault"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cindy Walker"
-  copyright = \markup \small { \now " " "© 1943" }
-}
+headerTitle = "It's All Your Fault"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cindy Walker"
+headerCopyright = "© 1943"
 
 refrainFemaleSingerLyrics = \lyricmode {
   It's all your fault if I'm not sleep -- in'.

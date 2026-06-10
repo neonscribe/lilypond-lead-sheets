@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.544125Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Time Changes Everything"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Tommy Duncan"
-  copyright = \markup \small { \now " " "© 1941 Red River Songs, Inc." }
-}
+headerTitle = "Time Changes Everything"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Tommy Duncan"
+headerCopyright = "© 1941 Red River Songs, Inc."
 
 refrainLyrics = \lyricmode {
 There was a time when I thought of no oth -- er,

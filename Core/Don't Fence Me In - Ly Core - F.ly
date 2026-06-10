@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:31.827598Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Don't Fence Me In"
-  subtitle = \subtitle
-  poet = "Bob Fletcher"
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1944 Warner Bros, Inc." }
-}
+headerTitle = "Don't Fence Me In"
+headerSubtitle = \subtitle
+headerPoet = "Bob Fletcher"
+headerComposer = "Cole Porter"
+headerCopyright = "© 1944 Warner Bros, Inc."
 
 refrainLyrics = \lyricmode {
 Oh, give me land, lots of land un -- der star -- ry skies a -- bove

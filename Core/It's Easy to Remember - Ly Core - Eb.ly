@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.139777Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It's Easy to Remember"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1934 Famous Music Corporation" }
-}
+headerTitle = "It's Easy to Remember"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1934 Famous Music Corporation"
 
 leadingEighth = ##t
 

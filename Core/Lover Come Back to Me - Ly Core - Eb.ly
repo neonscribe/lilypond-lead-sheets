@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.157352Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lover, Come Back to Me!"
-  subtitle = \subtitle
-  poet = "Oscar Hammerstein II"
-  composer = "Sigmund Romberg"
-  copyright = \markup \small { \now " " "© 1928 T.B. Harms, Inc." }
-}
+headerTitle = "Lover, Come Back to Me!"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Hammerstein II"
+headerComposer = "Sigmund Romberg"
+headerCopyright = "© 1928 T.B. Harms, Inc."
 
 verseLyrics = \lyricmode {
 You went a -- way,

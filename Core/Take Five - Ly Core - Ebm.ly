@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.442713Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Take Five"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Paul Desmond"
-  copyright = \markup \small { \now " " "© 1960 Desmond Music Co." }
-}
+headerTitle = "Take Five"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Paul Desmond"
+headerCopyright = "© 1960 Desmond Music Co."
 
 refrainChords = \chordmode {
   s2

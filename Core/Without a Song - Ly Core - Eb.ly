@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.467217Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Without a Song"
-  subtitle = \subtitle
-  poet = "William Rose and Edward Eliscu"
-  composer = "Vincent Youmans"
-  copyright = \markup \small { \now " " "© 1929 Vincent Youmans, Inc." }
-}
+headerTitle = "Without a Song"
+headerSubtitle = \subtitle
+headerPoet = "William Rose and Edward Eliscu"
+headerComposer = "Vincent Youmans"
+headerCopyright = "© 1929 Vincent Youmans, Inc."
 
 refrainLyrics = \lyricmode {
 With -- out a song, the day would nev -- er end.

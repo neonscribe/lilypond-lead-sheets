@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:52.867548Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sugar (That Sugar Baby O' Mine)"
-  subtitle = \subtitle
-  poet = "Sidney Mitchell and Edna Alexander"
-  composer = "Maceo Pinkard"
-  copyright = \markup \small { \now " " "© 1927 Robbins Music Corporation" }
-}
+headerTitle = "Sugar (That Sugar Baby O' Mine)"
+headerSubtitle = \subtitle
+headerPoet = "Sidney Mitchell and Edna Alexander"
+headerComposer = "Maceo Pinkard"
+headerCopyright = "© 1927 Robbins Music Corporation"
 
 refrainMaleSingerLyrics = \lyricmode {
 Sug -- ar, I call my ba -- by my sug -- ar.

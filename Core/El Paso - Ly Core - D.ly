@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.532473Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "El Paso"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Marty Robbins"
-  copyright = \markup \small { \now " " "© 1959 Mariposa Music, Inc." }
-}
+headerTitle = "El Paso"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Marty Robbins"
+headerCopyright = "© 1959 Mariposa Music, Inc."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _

@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:35.411671Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "How Insensitive"
-  subtitle = \subtitle
-  poet = "Norman Gimbel"
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1963 MCA-Duchess Music Corp." }
-}
+headerTitle = "How Insensitive"
+headerSubtitle = \subtitle
+headerPoet = "Norman Gimbel"
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1963 MCA-Duchess Music Corp."
 
 bossaRhythm = ##t
 

@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:25.540026Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Autumn Leaves"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Joseph Kosma"
-  copyright = \markup \small { \now " " "© 1947 T.B. Enoch et Cie." }
-}
+headerTitle = "Autumn Leaves"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Joseph Kosma"
+headerCopyright = "© 1947 T.B. Enoch et Cie."
 
 refrainLyrics = \lyricmode {
   The fall -- ing leaves __ drift by my win -- dow,

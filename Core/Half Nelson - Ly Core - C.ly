@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.466559Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Half Nelson"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Miles Davis"
-  copyright = \markup \small { \now " " "© 1947 Screen Gems Inc." }
-}
+headerTitle = "Half Nelson"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Miles Davis"
+headerCopyright = "© 1947 Screen Gems Inc."
 
 refrainChords = \chordmode {
   c1:maj7 c1:maj7 f1:m7 bf1:7

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.419335Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Gentle Rain"
-  subtitle = \subtitle
-  poet = "Matt Dubey"
-  composer = "Luiz Bonfá"
-  copyright = \markup \small { \now " " "© 1965 EMI Unart Catalog, Inc." }
-}
+headerTitle = "The Gentle Rain"
+headerSubtitle = \subtitle
+headerPoet = "Matt Dubey"
+headerComposer = "Luiz Bonfá"
+headerCopyright = "© 1965 EMI Unart Catalog, Inc."
 
 bossaRhythm = ##t
 

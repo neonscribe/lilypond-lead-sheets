@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.334411Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Devil May Care"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bob Dorough, Terrell Kirk, Jr."
-  copyright = \markup \small { \now " " "© 1953 Sincere Music" }
-}
+headerTitle = "Devil May Care"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bob Dorough, Terrell Kirk, Jr."
+headerCopyright = "© 1953 Sincere Music"
 
 refrainLyrics = \lyricmode {
 No cares for me, I'm hap -- py as I __ can be,

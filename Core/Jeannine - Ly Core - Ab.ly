@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.694067Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Jeannine"
-  subtitle = \subtitle
-  poet = "Eddie Jefferson"
-  composer = "Duke Pearson"
-  copyright = \markup \small { \now " " "© 1960 Upam Music Co." }
-}
+headerTitle = "Jeannine"
+headerSubtitle = \subtitle
+headerPoet = "Eddie Jefferson"
+headerComposer = "Duke Pearson"
+headerCopyright = "© 1960 Upam Music Co."
 
 refrainChords = \chordmode {
   af1:m7 af1:m7 af1:m7 af1:m7 af1:m7 af1:m7 af1:m7 af1:m7

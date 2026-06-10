@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.839934Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'm Left, You're Right, She's Gone"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Stan Kesler and Bill Taylor"
-  copyright = \markup \small { \now " " "© 1955 Hi-Lo Music Inc." }
-}
+headerTitle = "I'm Left, You're Right, She's Gone"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Stan Kesler and Bill Taylor"
+headerCopyright = "© 1955 Hi-Lo Music Inc."
 
 refrainLyrics = \lyricmode {
 You're right, I'm left, she's gone. __

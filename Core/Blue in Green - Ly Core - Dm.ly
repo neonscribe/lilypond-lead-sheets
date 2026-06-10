@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.413266Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blue in Green"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bill Evans (credited to Miles Davis)"
-  copyright = \markup \small { \now " " "© 1959 Jazz Horn Music" }
-}
+headerTitle = "Blue in Green"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bill Evans (credited to Miles Davis)"
+headerCopyright = "© 1959 Jazz Horn Music"
 
 refrainChords = \chordmode {
   g1:m7 a1:7.9+ d4:m7 \chordSlash 2 df4:7.5- c2:m7 f2:7.9-

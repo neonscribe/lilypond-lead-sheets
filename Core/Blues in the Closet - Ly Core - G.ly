@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.590432Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blues in the Closet"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Oscar Pettiford"
-  copyright = \markup \small { \now " " "© 1955 Orpheus Music, Inc." }
-}
+headerTitle = "Blues in the Closet"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Oscar Pettiford"
+headerCopyright = "© 1955 Orpheus Music, Inc."
 
 leadingEighth = ##t
 

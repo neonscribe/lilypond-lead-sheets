@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.695886Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Love You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1943 Chappell & Co." }
-}
+headerTitle = "I Love You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1943 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 “I love you” __ hums the A -- pril breeze. __

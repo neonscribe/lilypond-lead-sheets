@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.79167Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bohemia After Dark"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Oscar Pettiford"
-  copyright = \markup \small { \now " " "© 1955 Orpheus Music, Inc." }
-}
+headerTitle = "Bohemia After Dark"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Oscar Pettiford"
+headerCopyright = "© 1955 Orpheus Music, Inc."
 
 refrainChords = \chordmode {
   g1:m a2:m7.5- d2:7 g1:m a2:m7.5- d2:7

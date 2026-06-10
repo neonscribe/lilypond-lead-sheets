@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.373406Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Dinah"
-  subtitle = \subtitle
-  poet = "Sam M. Lewis and Joe Young"
-  composer = "Harry Akst"
-  copyright = \markup \small { \now " " "© 1925 B & G Akst Publishing Co." }
-}
+headerTitle = "Dinah"
+headerSubtitle = \subtitle
+headerPoet = "Sam M. Lewis and Joe Young"
+headerComposer = "Harry Akst"
+headerCopyright = "© 1925 B & G Akst Publishing Co."
 
 refrainLyrics = \lyricmode {
 Din -- ah is there an -- y -- one fin -- er __

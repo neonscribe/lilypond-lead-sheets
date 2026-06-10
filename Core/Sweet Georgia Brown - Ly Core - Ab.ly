@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:53.153648Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sweet Georgia Brown"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ben Bernie, Maceo Pinkard, Kenneth Casey"
-  copyright = \markup \small { \now " " "© 1925 Warner Bros., Inc." }
-}
+headerTitle = "Sweet Georgia Brown"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ben Bernie, Maceo Pinkard, Kenneth Casey"
+headerCopyright = "© 1925 Warner Bros., Inc."
 
 refrainLyrics = \lyricmode {
   No gal made has got a shade on Sweet Geor -- gia Brown. __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.794821Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "When Your Lover Has Gone"
-  subtitle = \subtitle
-  poet = ""
-  composer = "E.A. Swan"
-  copyright = \markup \small { \now " " "© 1931 Warner Bros. Inc." }
-}
+headerTitle = "When Your Lover Has Gone"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "E.A. Swan"
+headerCopyright = "© 1931 Warner Bros. Inc."
 
 refrainLyrics = \lyricmode {
 When you're a -- lone who cares for star -- lit skies?

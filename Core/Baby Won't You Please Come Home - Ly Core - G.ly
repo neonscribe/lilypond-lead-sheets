@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:25.719385Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Baby, Won't You Please Come Home"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Chas. Warfield and Clarence Williams"
-  copyright = \markup \small { \now " " "© 1923 Clarence Williams Music Pub. Co., Inc." }
-}
+headerTitle = "Baby, Won't You Please Come Home"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Chas. Warfield and Clarence Williams"
+headerCopyright = "© 1923 Clarence Williams Music Pub. Co., Inc."
 
 refrainFemaleSingerLyrics = \lyricmode {
 I've got the blues, I feel so lone -- ly,

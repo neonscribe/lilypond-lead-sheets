@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.735858Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Don't Be That Way"
-  subtitle = \subtitle
-  poet = "Mitchell Parish"
-  composer = "Benny Goodman & Edgar Sampson"
-  copyright = \markup \small { \now " " "© 1935 Robbins Music Corporation" }
-}
+headerTitle = "Don't Be That Way"
+headerSubtitle = \subtitle
+headerPoet = "Mitchell Parish"
+headerComposer = "Benny Goodman & Edgar Sampson"
+headerCopyright = "© 1935 Robbins Music Corporation"
 
 refrainLyrics = \lyricmode {
 Don't cry. Oh, hon -- ey please don't be that way.

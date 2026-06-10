@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.210373Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Chega de Saudade (No More Blues)"
-  subtitle = \subtitle
-  poet = "Vinicius de Moraes, Jon Hendricks & Jessie Cavanaugh"
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1958 Editora Musical Arapuã, Sao Paulo, Brazil. © 1967 TRO-Hollis Music Inc., New York" }
-}
+headerTitle = "Chega de Saudade (No More Blues)"
+headerSubtitle = \subtitle
+headerPoet = "Vinicius de Moraes, Jon Hendricks & Jessie Cavanaugh"
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1958 Editora Musical Arapuã, Sao Paulo, Brazil. © 1967 TRO-Hollis Music Inc., New York"
 
 bossaRhythm = ##t
 

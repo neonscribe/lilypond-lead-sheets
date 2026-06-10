@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.64875Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Misty"
-  subtitle = \subtitle
-  poet = "Johnny Burke"
-  composer = "Erroll Garner"
-  copyright = \markup \small { \now " " "© 1954 Vernon Music Corporation" }
-}
+headerTitle = "Misty"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Burke"
+headerComposer = "Erroll Garner"
+headerCopyright = "© 1954 Vernon Music Corporation"
 
 refrainLyrics = \lyricmode {
 Look at me, I'm as help -- less as a kit -- ten up a tree,

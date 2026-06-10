@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.860169Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Day In, Day Out"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Rube Bloom"
-  copyright = \markup \small { \now " " "© 1939 Warner Bros, Inc." }
-}
+headerTitle = "Day In, Day Out"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Rube Bloom"
+headerCopyright = "© 1939 Warner Bros, Inc."
 
 refrainLyrics = \lyricmode {
 Day in, __ day out, __ the same old hoo -- doo fol -- lows me a -- bout. __

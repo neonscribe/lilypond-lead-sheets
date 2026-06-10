@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.019348Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blue Bossa"
-  subtitle = \subtitle
-  poet = "Joan Cartwright"
-  composer = "Kenny Dorham"
-  copyright = \markup \small { \now " " "© 1965 Second Floor Music" }
-}
+headerTitle = "Blue Bossa"
+headerSubtitle = \subtitle
+headerPoet = "Joan Cartwright"
+headerComposer = "Kenny Dorham"
+headerCopyright = "© 1965 Second Floor Music"
 
 bossaRhythm = ##t
 

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:17:00.285078Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You and the Night and the Music"
-  subtitle = \subtitle
-  poet = "Howard Dietz"
-  composer = "Arthur Schwartz"
-  copyright = \markup \small { \now " " "© 1934 Warner Bros. Inc." }
-}
+headerTitle = "You and the Night and the Music"
+headerSubtitle = \subtitle
+headerPoet = "Howard Dietz"
+headerComposer = "Arthur Schwartz"
+headerCopyright = "© 1934 Warner Bros. Inc."
 
 refrainLyrics = \lyricmode {
 You and the night and the mu -- sic fill me with flam -- ing de -- sire,

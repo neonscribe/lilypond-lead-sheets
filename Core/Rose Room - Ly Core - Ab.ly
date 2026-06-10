@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.841951Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Rose Room"
-  subtitle = \subtitle
-  poet = "Harry Williams"
-  composer = "Art Hickman"
-  copyright = \markup \small { \now " " "© 1917 Art Hickman" }
-}
+headerTitle = "Rose Room"
+headerSubtitle = \subtitle
+headerPoet = "Harry Williams"
+headerComposer = "Art Hickman"
+headerCopyright = "© 1917 Art Hickman"
 
 refrainLyrics = \lyricmode {
 In sun -- ny Rose -- land,

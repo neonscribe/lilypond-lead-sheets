@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:23.885726Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Across the Alley From the Alamo"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Joe Greene"
-  copyright = \markup \small { \now " " "© 1947 Michael H. Goldsen, Inc." }
-}
+headerTitle = "Across the Alley From the Alamo"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Joe Greene"
+headerCopyright = "© 1947 Michael H. Goldsen, Inc."
 
 refrainLyrics = \lyricmode {
 A -- cross the al -- ley from the Al -- a -- mo, __

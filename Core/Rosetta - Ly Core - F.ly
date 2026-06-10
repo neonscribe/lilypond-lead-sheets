@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.889335Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Rosetta"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Earl Hines and Henri Woode"
-  copyright = \markup \small { \now " " "© 1933 Morley Music Co., Inc." }
-}
+headerTitle = "Rosetta"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Earl Hines and Henri Woode"
+headerCopyright = "© 1933 Morley Music Co., Inc."
 
 refrainLyrics = \lyricmode {
 Ro -- set -- ta, __ my Ro -- set -- ta, __

@@ -4,14 +4,12 @@ songID = "2026-06-01T22:16:47.261063Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "On the Trail"
-  subtitle = "Arrangement by Donald Byrd, for Jimmy Heath's 1964 album"
-  subsubtitle = \subtitle
-  poet = ""
-  composer = "Ferde Grofé"
-  copyright = \markup \small { \now " " "© 1932 Robbins Music Corporation" }
-}
+headerTitle = "On the Trail"
+headerSubtitle = "Arrangement by Donald Byrd, for Jimmy Heath's 1964 album"
+headerSubsubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ferde Grofé"
+headerCopyright = "© 1932 Robbins Music Corporation"
 
 verseLyrics = \lyricmode {
 }

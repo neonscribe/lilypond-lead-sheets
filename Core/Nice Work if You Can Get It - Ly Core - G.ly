@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:46.300462Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Nice Work if You Can Get It"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1937 Nokawi Music, Frankie G. Songs and Ira Gershwin Music" }
-}
+headerTitle = "Nice Work if You Can Get It"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1937 Nokawi Music, Frankie G. Songs and Ira Gershwin Music"
 
 refrainLyrics = \lyricmode {
 Hold -- ing hands at mid -- night 'neath a star -- ry sky,

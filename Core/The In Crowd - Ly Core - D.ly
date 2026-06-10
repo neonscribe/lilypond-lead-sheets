@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.510613Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The “In” Crowd"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Billy Page"
-  copyright = \markup \small { \now " " "© 1964 American Music, Inc." }
-}
+headerTitle = "The “In” Crowd"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Billy Page"
+headerCopyright = "© 1964 American Music, Inc."
 
 refrainChords = \chordmode {
   \chordInsideParens{ d1:7 }

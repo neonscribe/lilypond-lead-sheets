@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:35.724457Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Can't Give You Anything but Love"
-  subtitle = \subtitle
-  poet = "Dorothy Fields"
-  composer = "Jimmy McHugh"
-  copyright = \markup \small { \now " " "© 1928 Jack Mills Inc." }
-}
+headerTitle = "I Can't Give You Anything but Love"
+headerSubtitle = \subtitle
+headerPoet = "Dorothy Fields"
+headerComposer = "Jimmy McHugh"
+headerCopyright = "© 1928 Jack Mills Inc."
 
 refrainLyrics = \lyricmode {
 I can't give you an -- y -- thing but love, ba -- by;

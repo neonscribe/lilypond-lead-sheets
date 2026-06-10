@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:52.63828Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Street of Dreams"
-  subtitle = \subtitle
-  poet = "Sam M. Lewis"
-  composer = "Victor Young"
-  copyright = \markup \small { \now " " "© 1932 Leo Feist Inc." }
-}
+headerTitle = "Street of Dreams"
+headerSubtitle = \subtitle
+headerPoet = "Sam M. Lewis"
+headerComposer = "Victor Young"
+headerCopyright = "© 1932 Leo Feist Inc."
 
 refrainLyrics = \lyricmode {
 Love laughs at a king, kings don't mean a thing, on the street of dreams.

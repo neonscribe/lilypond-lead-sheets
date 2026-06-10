@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.108934Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sway (¿Quién será?)"
-  subtitle = \subtitle
-  poet = "English lyrics by Norman Gimbel"
-  composer = "Pablo Beltrán Ruiz"
-  copyright = \markup \small { \now " " "© 1953 Editorial Mexicana de Musica International SA" }
-}
+headerTitle = "Sway (¿Quién será?)"
+headerSubtitle = \subtitle
+headerPoet = "English lyrics by Norman Gimbel"
+headerComposer = "Pablo Beltrán Ruiz"
+headerCopyright = "© 1953 Editorial Mexicana de Musica International SA"
 
 bossaRhythm = ##t
 

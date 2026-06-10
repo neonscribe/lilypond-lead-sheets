@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.818429Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Birk's Works"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Dizzy Gillespie"
-  copyright = \markup \small { \now " " "© 1951 Dizlo Music Corporation" }
-}
+headerTitle = "Birk's Works"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Dizzy Gillespie"
+headerCopyright = "© 1951 Dizlo Music Corporation"
 
 leadingEighth = ##t
 

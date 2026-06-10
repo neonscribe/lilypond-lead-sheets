@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.256842Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Chelsea Bridge"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Billy Strayhorn"
-  copyright = \markup \small { \now " " "© 1941 Billy Strayhorn Songs, Inc." }
-}
+headerTitle = "Chelsea Bridge"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Billy Strayhorn"
+headerCopyright = "© 1941 Billy Strayhorn Songs, Inc."
 
 refrainChords = \chordmode {
   s2.

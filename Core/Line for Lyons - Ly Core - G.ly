@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.460649Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Line for Lyons"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Gerry Mulligan"
-  copyright = \markup \small { \now " " "© 1954 Criterion Music Corp." }
-}
+headerTitle = "Line for Lyons"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Gerry Mulligan"
+headerCopyright = "© 1954 Criterion Music Corp."
 
 refrainChords = \chordmode {
   g2:6 g2:7 c2:m7 f2:7 b2:m7 e2:7 a2:m7 d2:7

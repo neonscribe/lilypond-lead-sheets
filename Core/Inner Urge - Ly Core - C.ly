@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.334672Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Inner Urge"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Joe Henderson"
-  copyright = \markup \small { \now " " "© 1964 Johen Music" }
-}
+headerTitle = "Inner Urge"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Joe Henderson"
+headerCopyright = "© 1964 Johen Music"
 
 refrainChords = \chordmode {
   fs1:m7.5- fs1:m7.5- fs1:m7.5- fs1:m7.5-

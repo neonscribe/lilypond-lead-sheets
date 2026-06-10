@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:51.411564Z"
 
 $(set-global-staff-size 18)
 
-\header {
-  title = "Sophisticated Lady"
-  subtitle = \subtitle
-  poet = "Irving Mills and Mitchell Parish"
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1933 Gotham Music Service, Inc." }
-}
+headerTitle = "Sophisticated Lady"
+headerSubtitle = \subtitle
+headerPoet = "Irving Mills and Mitchell Parish"
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1933 Gotham Music Service, Inc."
 
 refrainLyrics = \lyricmode {
 They say __ in -- to your ear -- ly life ro -- mance came, __

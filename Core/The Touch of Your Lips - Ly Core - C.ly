@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.510386Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Touch of Your Lips"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ray Noble"
-  copyright = \markup \small { \now " " "© 1936 Chappell & Co." }
-}
+headerTitle = "The Touch of Your Lips"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ray Noble"
+headerCopyright = "© 1936 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 The touch of your lips __ up -- on my brow; __ your lips that are cool __ and sweet. __

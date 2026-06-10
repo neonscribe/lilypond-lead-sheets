@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:24.165093Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Ain't She Sweet"
-  subtitle = \subtitle
-  poet = "Jack Yellen"
-  composer = "Milton Ager"
-  copyright = \markup \small { \now " " "© 1927 Ager, Yellen, & Bornstein Inc." }
-}
+headerTitle = "Ain't She Sweet"
+headerSubtitle = \subtitle
+headerPoet = "Jack Yellen"
+headerComposer = "Milton Ager"
+headerCopyright = "© 1927 Ager, Yellen, & Bornstein Inc."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Ain't she sweet? See her com -- ing down the street.

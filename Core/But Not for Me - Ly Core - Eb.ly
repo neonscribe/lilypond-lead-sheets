@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.280355Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "But Not for Me"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1930 New World Music Corporation" }
-}
+headerTitle = "But Not for Me"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1930 New World Music Corporation"
 
 refrainLyrics = \lyricmode {
 They're wri -- ting songs of love,

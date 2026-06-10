@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.206672Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Well You Needn't"
-  subtitle = \subtitle
-  poet = "Mike Perro"
-  composer = "Thelonious Monk"
-  copyright = \markup \small { \now " " "© 1944 Regent Music Corporation" }
-}
+headerTitle = "Well You Needn't"
+headerSubtitle = \subtitle
+headerPoet = "Mike Perro"
+headerComposer = "Thelonious Monk"
+headerCopyright = "© 1944 Regent Music Corporation"
 
 leadingEighth = ##t
 

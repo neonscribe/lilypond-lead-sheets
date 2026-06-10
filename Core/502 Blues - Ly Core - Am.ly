@@ -4,13 +4,11 @@ songID = "2026-06-01T22:14:05.720278Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "502 Blues"
-  subtitle = \subtitle
-  poet = ""
-  composer = "James Rowles"
-  copyright = \markup \small { \now " " "© 1958 Kudu Music" }
-}
+headerTitle = "502 Blues"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "James Rowles"
+headerCopyright = "© 1958 Kudu Music"
 
 leadingEighth = ##t
 

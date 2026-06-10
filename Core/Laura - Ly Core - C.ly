@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.7951Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Laura"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "David Raksin"
-  copyright = \markup \small { \now " " "© 1945 Twentieth Century Music Corp." }
-}
+headerTitle = "Laura"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "David Raksin"
+headerCopyright = "© 1945 Twentieth Century Music Corp."
 
 refrainLyrics = \lyricmode {
 Lau -- ra __ is the face in the mist -- y light, __

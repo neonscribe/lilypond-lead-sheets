@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.84494Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lazy Afternoon"
-  subtitle = \subtitle
-  poet = "John La Touche"
-  composer = "Jerome Moross"
-  copyright = \markup \small { \now " " "© 1954 Chappell & Co." }
-}
+headerTitle = "Lazy Afternoon"
+headerSubtitle = \subtitle
+headerPoet = "John La Touche"
+headerComposer = "Jerome Moross"
+headerCopyright = "© 1954 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 It's a la -- zy af -- ter -- noon

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.67016Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Tenderly"
-  subtitle = \subtitle
-  poet = "Jack Lawrence"
-  composer = "Walter Gross"
-  copyright = \markup \small { \now " " "© 1946 Edwin H. Morris & Co." }
-}
+headerTitle = "Tenderly"
+headerSubtitle = \subtitle
+headerPoet = "Jack Lawrence"
+headerComposer = "Walter Gross"
+headerCopyright = "© 1946 Edwin H. Morris & Co."
 
 leadingEighth = ##t
 

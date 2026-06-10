@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.044401Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Batida Diferente"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Durval Ferreira & Maurício Einhorn"
-  copyright = \markup \small { \now " " "© 1963 Casa Editoras Musicais Brasileras Reunidas CEMBRA, São Paulo" }
-}
+headerTitle = "Batida Diferente"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Durval Ferreira & Maurício Einhorn"
+headerCopyright = "© 1963 Casa Editoras Musicais Brasileras Reunidas CEMBRA, São Paulo"
 
 leadingEighth = ##t
 

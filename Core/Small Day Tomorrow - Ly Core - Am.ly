@@ -12,13 +12,11 @@ songID = "2026-06-01T22:16:50.425611Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Small Day Tomorrow"
-  subtitle = \subtitle
-  poet = "Fran Landesman"
-  composer = "Bob Dorough"
-  copyright = \markup \small { \now " " "© 1972 Cromwell Music, Inc." }
-}
+headerTitle = "Small Day Tomorrow"
+headerSubtitle = \subtitle
+headerPoet = "Fran Landesman"
+headerComposer = "Bob Dorough"
+headerCopyright = "© 1972 Cromwell Music, Inc."
 
 refrainMaleSingerLyrics = \lyricmode {
 I don't have to go to bed,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.497604Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Au Privave"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charlie Parker"
-  copyright = \markup \small { \now " " "© 1951 Atlantic Music Corp." }
-}
+headerTitle = "Au Privave"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Parker"
+headerCopyright = "© 1951 Atlantic Music Corp."
 
 refrainChords = \chordmode {
   f1 g2:m7 c2:7 f2 g2:m7 c2:m7 f2:7.5+

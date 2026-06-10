@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.681157Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Can't Get Started"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "Vernon Duke"
-  copyright = \markup \small { \now " " "© 1935 Chappell & Co." }
-}
+headerTitle = "I Can't Get Started"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "Vernon Duke"
+headerCopyright = "© 1935 Chappell & Co."
 
 leadingEighth = ##t
 

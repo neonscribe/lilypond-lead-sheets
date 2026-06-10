@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.184811Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Midnight Blue"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Kenny Burrell"
-  copyright = \markup \small { \now " " "© 1963 Elliot Music" }
-}
+headerTitle = "Midnight Blue"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Kenny Burrell"
+headerCopyright = "© 1963 Elliot Music"
 
 refrainChords = \chordmode {
   \set chordChanges = ##t

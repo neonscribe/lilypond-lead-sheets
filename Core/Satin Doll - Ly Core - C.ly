@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.444879Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Satin Doll"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Duke Ellington and Billy Strayhorn"
-  copyright = \markup \small { \now " " "© 1953 Tempo Music, Inc." }
-}
+headerTitle = "Satin Doll"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Duke Ellington and Billy Strayhorn"
+headerCopyright = "© 1953 Tempo Music, Inc."
 
 refrainLyrics = \lyricmode {
 Cig -- a -- rette hol -- der which wigs me,

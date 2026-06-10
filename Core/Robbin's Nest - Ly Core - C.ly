@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.792368Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Robbin's Nest"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Illinois Jacquet and Sir Charles Thompson"
-  copyright = \markup \small { \now " " "© 1947 Atlantic Music Corp." }
-}
+headerTitle = "Robbin's Nest"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Illinois Jacquet and Sir Charles Thompson"
+headerCopyright = "© 1947 Atlantic Music Corp."
 
 leadingEighth = ##t
 

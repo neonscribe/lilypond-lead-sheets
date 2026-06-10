@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.814864Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Back Home Again in Turkey"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Matt Glaser"
-  copyright = \markup \small { \now " " "© 2014 Berklee College of Music" }
-}
+headerTitle = "Back Home Again in Turkey"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Matt Glaser"
+headerCopyright = "© 2014 Berklee College of Music"
 
 straightEighths = ##t
 

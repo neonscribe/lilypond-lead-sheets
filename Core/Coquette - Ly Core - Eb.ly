@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.972309Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Coquette (1928 Sheet Music)"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Carmen Lombardo and John Green"
-  copyright = \markup \small { \now " " "© 1928 Leo Feist Inc." }
-}
+headerTitle = "Coquette (1928 Sheet Music)"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Carmen Lombardo and John Green"
+headerCopyright = "© 1928 Leo Feist Inc."
 
 refrainLyrics = \lyricmode {
 Tell me why you keep fool -- ing, lit -- tle co -- quette? __

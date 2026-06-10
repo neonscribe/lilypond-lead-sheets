@@ -4,12 +4,11 @@ songID = "2026-06-01T22:17:00.009117Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You Don't Know Me"
-  subtitle = \subtitle
-  composer = "Cindy Walker and Eddy Arnold"
-  copyright = \markup \small { \now " " "© 1955 Hill and Range Songs, Inc." }
-}
+headerTitle = "You Don't Know Me"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cindy Walker and Eddy Arnold"
+headerCopyright = "© 1955 Hill and Range Songs, Inc."
 
 straightEighths = ##t
 

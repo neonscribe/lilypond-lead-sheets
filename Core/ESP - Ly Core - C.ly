@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.294426Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "E.S.P."
-  subtitle = \subtitle
-  poet = ""
-  composer = "Wayne Shorter"
-  copyright = \markup \small { \now " " "© 1965 Miyako Music" }
-}
+headerTitle = "E.S.P."
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Wayne Shorter"
+headerCopyright = "© 1965 Miyako Music"
 
 refrainChords = \chordmode {
   e1:7.5+.9+ e1:7.5+.9+ f1:maj7 f1:maj7

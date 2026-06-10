@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.144791Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Cheek to Cheek"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Irving Berlin"
-  copyright = \markup \small { \now " " "© 1935 Irving Berlin" }
-}
+headerTitle = "Cheek to Cheek"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Irving Berlin"
+headerCopyright = "© 1935 Irving Berlin"
 
 refrainLyrics = \lyricmode {
 Heav -- en, __ I'm in Heav -- en, __

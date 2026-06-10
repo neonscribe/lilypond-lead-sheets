@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:55.160385Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "The Night We Called It a Day"
-  subtitle = \subtitle
-  poet = "Tom Adair"
-  composer = "Matt Dennis"
-  copyright = \markup \small { \now " " "© 1941 Music Sales Corp." }
-}
+headerTitle = "The Night We Called It a Day"
+headerSubtitle = \subtitle
+headerPoet = "Tom Adair"
+headerComposer = "Matt Dennis"
+headerCopyright = "© 1941 Music Sales Corp."
 
 refrainLyrics = \lyricmode {
 There was a moon out in space

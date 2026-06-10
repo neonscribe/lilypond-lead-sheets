@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.931638Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Everything I've Got (Belongs to You)"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1942 Chappell & Co." }
-}
+headerTitle = "Everything I've Got (Belongs to You)"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1942 Chappell & Co."
 
 leadingEighth = ##t
 

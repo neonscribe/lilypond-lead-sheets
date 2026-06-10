@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:26.000532Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Basin Street Blues"
-  subtitle = \subtitle
-  composer = "Spencer Williams"
-  copyright = \markup \small { \now " " "© 1928 - 1933 by Mayfair Music Corp., 1619 Broadway, New York, N.Y." }
-}
+headerTitle = "Basin Street Blues"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Spencer Williams"
+headerCopyright = "© 1928 - 1933 by Mayfair Music Corp., 1619 Broadway, New York, N.Y."
 
 verseProblematicLyrics = \lyricmode {
   Won't -- cha come a -- long with me,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.745535Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "St. James Infirmary"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Joe Primrose"
-  copyright = \markup \small { \now " " "© 1929 Gotham Music Service Inc." }
-}
+headerTitle = "St. James Infirmary"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Joe Primrose"
+headerCopyright = "© 1929 Gotham Music Service Inc."
 
 refrainChords = \chordmode {
   s4

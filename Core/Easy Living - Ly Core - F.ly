@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:32.401013Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Easy Living"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Leo Robin and Ralph Rainger"
-  copyright = \markup \small { \now " " "© 1937 Famous Music Corporation" }
-}
+headerTitle = "Easy Living"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Leo Robin and Ralph Rainger"
+headerCopyright = "© 1937 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 Liv -- ing for you is eas -- y liv -- ing.

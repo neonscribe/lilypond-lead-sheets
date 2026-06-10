@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.879601Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "There Is No Greater Love"
-  subtitle = \subtitle
-  poet = "Marty Symes"
-  composer = "Isham Jones"
-  copyright = \markup \small { \now " " "© 1936 Music Sales Corporation" }
-}
+headerTitle = "There Is No Greater Love"
+headerSubtitle = \subtitle
+headerPoet = "Marty Symes"
+headerComposer = "Isham Jones"
+headerCopyright = "© 1936 Music Sales Corporation"
 
 refrainLyrics = \lyricmode {
 There is no great -- er love

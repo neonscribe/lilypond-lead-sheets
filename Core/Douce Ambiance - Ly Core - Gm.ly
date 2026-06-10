@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.054942Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Douce Ambiance"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Django Reinhardt"
-  copyright = \markup \small { \now " " "© 1944 Publications Francis-Day (S.A.)" }
-}
+headerTitle = "Douce Ambiance"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Django Reinhardt"
+headerCopyright = "© 1944 Publications Francis-Day (S.A.)"
 
 refrainChords = \chordmode {
   d1:7 ef1:maj7 e1:7 f1:6

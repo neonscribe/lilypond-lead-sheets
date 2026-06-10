@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:53.488808Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Take the “A” Train"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Billy Strayhorn"
-  copyright = \markup \small { \now " " "© 1941 Billy Strayhorn Songs Inc." }
-}
+headerTitle = "Take the “A” Train"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Billy Strayhorn"
+headerCopyright = "© 1941 Billy Strayhorn Songs Inc."
 
 refrainLyrics = \lyricmode {
 You __ must take the “A” train __

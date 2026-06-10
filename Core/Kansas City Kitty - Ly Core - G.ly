@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:41.388626Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Kansas City Kitty"
-  subtitle = \subtitle
-  poet = "Edgar Leslie"
-  composer = "Walter Donaldson"
-  copyright = \markup \small { \now " " "© 1929 Donaldson, Douglas & Gumble, Inc." }
-}
+headerTitle = "Kansas City Kitty"
+headerSubtitle = \subtitle
+headerPoet = "Edgar Leslie"
+headerComposer = "Walter Donaldson"
+headerCopyright = "© 1929 Donaldson, Douglas & Gumble, Inc."
 
 refrainLyrics = \lyricmode {
   I left Fris -- co Kate, __ Swing -- in' on the Gold -- en Gate, __

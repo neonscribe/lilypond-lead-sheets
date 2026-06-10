@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.910727Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Back in the Saddle Again"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Gene Autry and Ray Whitley"
-  copyright = \markup \small { \now " " "© 1939 Gene Autry's Western Music Publishing Co." }
-}
+headerTitle = "Back in the Saddle Again"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Gene Autry and Ray Whitley"
+headerCopyright = "© 1939 Gene Autry's Western Music Publishing Co."
 
 refrainLyrics = \lyricmode {
 I’m back in the sad -- dle a -- gain.

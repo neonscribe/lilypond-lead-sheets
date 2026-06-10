@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.590452Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Isfahan"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Duke Ellington/Billy Strayhorn"
-  copyright = \markup \small { \now " " "© 1964 Famous Music LLC" }
-}
+headerTitle = "Isfahan"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Duke Ellington/Billy Strayhorn"
+headerCopyright = "© 1964 Famous Music LLC"
 
 leadingEighth = ##t
 

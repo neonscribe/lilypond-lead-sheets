@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.210585Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Just One of Those Things"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1935 HARMS Inc." }
-}
+headerTitle = "Just One of Those Things"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1935 HARMS Inc."
 
 refrainLyrics = \lyricmode {
 It was just one __ of those things, __

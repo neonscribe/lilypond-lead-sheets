@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.467927Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bernie's Tune"
-  subtitle = \subtitle
-  poet = "Mike Stoller and Jerry Lieber"
-  composer = "Bernie Miller"
-  copyright = \markup \small { \now " " "© 1953 Atlantic Music Corp." }
-}
+headerTitle = "Bernie's Tune"
+headerSubtitle = \subtitle
+headerPoet = "Mike Stoller and Jerry Lieber"
+headerComposer = "Bernie Miller"
+headerCopyright = "© 1953 Atlantic Music Corp."
 
 refrainLyrics = \lyricmode {
 In the park, in the dark, un -- der -- neath the moon.

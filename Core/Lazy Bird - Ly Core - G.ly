@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.893918Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lazy Bird"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Coltrane"
-  copyright = \markup \small { \now " " "© 1957 Jowcol Music" }
-}
+headerTitle = "Lazy Bird"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Coltrane"
+headerCopyright = "© 1957 Jowcol Music"
 
 refrainChords = \chordmode {
   a2:m7 d2:7 c2:m7 f2:7 f1:m7 bf1:7

@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:57.660475Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Wait Till You See Her (Him)"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1942 Chappell & Co." }
-}
+headerTitle = "Wait Till You See Her (Him)"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1942 Chappell & Co."
 
 refrainLyrics =
 #(if (and (defined? 'singerGender)

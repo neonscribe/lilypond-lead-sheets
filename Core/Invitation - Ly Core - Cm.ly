@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.429039Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Invitation"
-  subtitle = \subtitle
-  poet = "Paul Francis Webster"
-  composer = "Bronislau Kaper"
-  copyright = \markup \small { \now " " "© 1944 EMI Feist Catalog, Inc." }
-}
+headerTitle = "Invitation"
+headerSubtitle = \subtitle
+headerPoet = "Paul Francis Webster"
+headerComposer = "Bronislau Kaper"
+headerCopyright = "© 1944 EMI Feist Catalog, Inc."
 
 refrainLyrics = \lyricmode {
 You and your smile __ hold a strange in -- vi -- ta -- tion. __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.281372Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Rainbow Connection"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ken Ascher, Paul Williams"
-  copyright = \markup \small { \now " " "© 1979 Fuzzy Muppet Songs" }
-}
+headerTitle = "The Rainbow Connection"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ken Ascher, Paul Williams"
+headerCopyright = "© 1979 Fuzzy Muppet Songs"
 
 refrainLyrics = \lyricmode {
 Why are there so man -- y songs a -- bout rain -- bows,

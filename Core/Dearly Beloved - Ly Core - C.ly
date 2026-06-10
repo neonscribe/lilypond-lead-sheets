@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.991599Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Dearly Beloved"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1942 Chappell & Co." }
-}
+headerTitle = "Dearly Beloved"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1942 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Dear -- ly be -- lov -- ed how clear -- ly I see,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.759762Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Tenor Madness"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sonny Rollins"
-  copyright = \markup \small { \now " " "© 1956 Prestige Music" }
-}
+headerTitle = "Tenor Madness"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sonny Rollins"
+headerCopyright = "© 1956 Prestige Music"
 
 leadingEighth = ##t
 

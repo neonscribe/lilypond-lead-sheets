@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.329927Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Folks Who Live on the Hill"
-  subtitle = \subtitle
-  poet = "Oscar Hammerstein II"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1937 Chappell & Co." }
-}
+headerTitle = "The Folks Who Live on the Hill"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Hammerstein II"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1937 Chappell & Co."
 
 verseLyrics = \lyricmode {
   Man -- y men with loft -- y aims,

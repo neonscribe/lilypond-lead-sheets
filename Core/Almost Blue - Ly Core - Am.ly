@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:24.4982Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Almost Blue"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Elvis Costello"
-  copyright = \markup \small { \now " " "© 1982 Universal Music Publishing MGB Ltd." }
-}
+headerTitle = "Almost Blue"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Elvis Costello"
+headerCopyright = "© 1982 Universal Music Publishing MGB Ltd."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Al -- most blue, al -- most do -- ing things we used to do.

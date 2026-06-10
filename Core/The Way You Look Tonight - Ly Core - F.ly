@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:55.601004Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "The Way You Look Tonight"
-  subtitle = \subtitle
-  poet = "Dorothy Fields"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1936 T.B. Harms Co." }
-}
+headerTitle = "The Way You Look Tonight"
+headerSubtitle = \subtitle
+headerPoet = "Dorothy Fields"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1936 T.B. Harms Co."
 
 refrainLyrics = \lyricmode {
 Some -- day, when I'm aw -- f'ly low,

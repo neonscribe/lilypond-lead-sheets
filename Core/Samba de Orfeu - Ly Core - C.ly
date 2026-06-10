@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:49.311605Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Samba de Orfeu"
-  subtitle = \subtitle
-  poet = "Antônio Maria"
-  composer = "Luiz Bonfá"
-  copyright = \markup \small { \now " " "© 1959 Nouvelles Editions Meridian" }
-}
+headerTitle = "Samba de Orfeu"
+headerSubtitle = \subtitle
+headerPoet = "Antônio Maria"
+headerComposer = "Luiz Bonfá"
+headerCopyright = "© 1959 Nouvelles Editions Meridian"
 
 bossaRhythm = ##t
 

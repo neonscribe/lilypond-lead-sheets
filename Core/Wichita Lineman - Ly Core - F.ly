@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.239473Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Wichita Lineman"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Jimmy Webb"
-  copyright = \markup \small { \now " " "© 1968 Canopy Music Inc." }
-}
+headerTitle = "Wichita Lineman"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Jimmy Webb"
+headerCopyright = "© 1968 Canopy Music Inc."
 
 introChords = \chordmode {
   r2 f1:maj7 c1:sus9 f1:maj7

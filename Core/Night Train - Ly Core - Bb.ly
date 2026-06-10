@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:46.391718Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Night Train"
-  subtitle = \subtitle
-  poet = "Oscar Washington, Lewis C. Simpkins"
-  composer = "Jimmy Forrest"
-  copyright = \markup \small { \now " " "© 1952 Pamlee Music Co." }
-}
+headerTitle = "Night Train"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Washington, Lewis C. Simpkins"
+headerComposer = "Jimmy Forrest"
+headerCopyright = "© 1952 Pamlee Music Co."
 
 refrainChords = \chordmode {
   bf1:7 bf1:7 bf1:7 bf1:7

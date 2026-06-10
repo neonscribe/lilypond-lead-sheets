@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.024182Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sidewinder"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Lee Morgan"
-  copyright = \markup \small { \now " " "© 1959 Conrad Music" }
-}
+headerTitle = "Sidewinder"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Lee Morgan"
+headerCopyright = "© 1959 Conrad Music"
 
 introChords = \chordmode {
   s1

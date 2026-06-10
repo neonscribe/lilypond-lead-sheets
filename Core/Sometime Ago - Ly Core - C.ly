@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.13026Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sometime Ago"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sergio Mihanovich"
-  copyright = \markup \small { \now " " "© 1963 Second Floor Music" }
-}
+headerTitle = "Sometime Ago"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sergio Mihanovich"
+headerCopyright = "© 1963 Second Floor Music"
 
 refrainChords = \chordmode {
   c2.:maj7 d2.:m7/c c2.:maj7 d2.:m7/c

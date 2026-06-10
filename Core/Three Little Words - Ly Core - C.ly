@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.453327Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Three Little Words"
-  subtitle = \subtitle
-  poet = "Bert Kalmar"
-  composer = "Harry Ruby"
-  copyright = \markup \small { \now " " "© 1930 Warner Bros. Inc." }
-}
+headerTitle = "Three Little Words"
+headerSubtitle = \subtitle
+headerPoet = "Bert Kalmar"
+headerComposer = "Harry Ruby"
+headerCopyright = "© 1930 Warner Bros. Inc."
 
 refrainLyrics = \lyricmode {
 Three lit -- tle words, __ oh, what I'd give for that won -- der -- ful phrase, __

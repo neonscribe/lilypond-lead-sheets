@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.430405Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "D-Natural Blues (Monterey Blues)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Wes Montgomery"
-  copyright = \markup \small { \now " " "© 1961 Taggie Music Co." }
-}
+headerTitle = "D-Natural Blues (Monterey Blues)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Wes Montgomery"
+headerCopyright = "© 1961 Taggie Music Co."
 
 leadingEighth = ##t
 

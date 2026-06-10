@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.785327Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Always (3/4)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Irving Berlin"
-  copyright = \markup \small { \now " " "© 1925 Irving Berlin" }
-}
+headerTitle = "Always (3/4)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Irving Berlin"
+headerCopyright = "© 1925 Irving Berlin"
 
 refrainLyrics = \lyricmode {
 I'll be lov -- ing you, al -- ways __

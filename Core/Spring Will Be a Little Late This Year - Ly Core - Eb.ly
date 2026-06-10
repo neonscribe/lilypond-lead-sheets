@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.63336Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Spring Will Be a Little Late This Year"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Frank Loesser"
-  copyright = \markup \small { \now " " "© 1943 Frank Music Corp." }
-}
+headerTitle = "Spring Will Be a Little Late This Year"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Frank Loesser"
+headerCopyright = "© 1943 Frank Music Corp."
 
 refrainLyrics = \lyricmode {
 Spring will be __ a lit -- tle late this year. __

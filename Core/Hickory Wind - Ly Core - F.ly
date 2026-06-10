@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.119306Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Hickory Wind"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Gram Parsons and Bob Buchanan"
-  copyright = \markup \small { \now " " "© 1969 GPJ Music, Hot Burrito Music" }
-}
+headerTitle = "Hickory Wind"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Gram Parsons and Bob Buchanan"
+headerCopyright = "© 1969 GPJ Music, Hot Burrito Music"
 
 refrainLyrics = \lyricmode {
 In South Car -- o -- li -- na there are man -- y tall pines.

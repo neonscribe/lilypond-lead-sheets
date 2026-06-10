@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.173409Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The End of a Love Affair"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Edward C. Redding"
-  copyright = \markup \small { \now " " "© 1950 Universal Music Corp." }
-}
+headerTitle = "The End of a Love Affair"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Edward C. Redding"
+headerCopyright = "© 1950 Universal Music Corp."
 
 refrainLyrics = \lyricmode {
 So I walk a lit -- tle too fast,

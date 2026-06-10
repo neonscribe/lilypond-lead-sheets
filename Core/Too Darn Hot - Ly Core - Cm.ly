@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.860785Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Too Darn Hot"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1949 Cole Porter" }
-}
+headerTitle = "Too Darn Hot"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1949 Cole Porter"
 
 refrainLyrics = \lyricmode {
 

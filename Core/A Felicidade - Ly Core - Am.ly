@@ -4,13 +4,11 @@ songID = "2026-06-01T22:15:01.874432Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "A Felicidade"
-  subtitle = \subtitle
-  poet = "Vinicius de Moraes"
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1960 Editora Musical Arapuã Ltda" }
-}
+headerTitle = "A Felicidade"
+headerSubtitle = \subtitle
+headerPoet = "Vinicius de Moraes"
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1960 Editora Musical Arapuã Ltda"
 
 bossaRhythm = ##t
 leadingEighth = ##t

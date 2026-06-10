@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.496161Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Is Anybody Goin' to San Antone"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Dave Kirby and Glenn Martin"
-  copyright = \markup \small { \now " " "© 1969 Pamper Music Inc." }
-}
+headerTitle = "Is Anybody Goin' to San Antone"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Dave Kirby and Glenn Martin"
+headerCopyright = "© 1969 Pamper Music Inc."
 
 straightEighths = ##t
 

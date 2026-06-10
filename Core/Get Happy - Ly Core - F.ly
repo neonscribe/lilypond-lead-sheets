@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.98266Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Get Happy"
-  subtitle = \subtitle
-  poet = "Ted Koehler"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1929 Warner Bros. Inc." }
-}
+headerTitle = "Get Happy"
+headerSubtitle = \subtitle
+headerPoet = "Ted Koehler"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1929 Warner Bros. Inc."
 
 leadingEighth = ##t
 

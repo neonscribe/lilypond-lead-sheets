@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.253848Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Detour"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Paul Westmoreland"
-  copyright = \markup \small { \now " " "© 1945 Hill and Range Songs, Inc." }
-}
+headerTitle = "Detour"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Paul Westmoreland"
+headerCopyright = "© 1945 Hill and Range Songs, Inc."
 
 refrainLyrics = \lyricmode {
 Head -- ed down life'd crook -- ed road, lot of things I nev -- er knowed,

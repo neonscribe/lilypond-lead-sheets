@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.805334Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Solitude"
-  subtitle = \subtitle
-  poet = "Eddie de Lange & Irving Mills"
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1934 Milsons Music Publishing Corp." }
-}
+headerTitle = "Solitude"
+headerSubtitle = \subtitle
+headerPoet = "Eddie de Lange & Irving Mills"
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1934 Milsons Music Publishing Corp."
 
 refrainLyrics = \lyricmode {
 In my sol -- i -- tude __ you haunt me with re -- ver -- ies __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.709469Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "September in the Rain"
-  subtitle = \subtitle
-  poet = "Al Dubin"
-  composer = "Harry Warren"
-  copyright = \markup \small { \now " " "© 1937 Remick Music Corp." }
-}
+headerTitle = "September in the Rain"
+headerSubtitle = \subtitle
+headerPoet = "Al Dubin"
+headerComposer = "Harry Warren"
+headerCopyright = "© 1937 Remick Music Corp."
 
 refrainLyrics = \lyricmode {
 The leaves of brown came tum -- bling down, re -- mem -- ber? __

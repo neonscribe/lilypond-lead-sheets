@@ -6,12 +6,11 @@ songID = "2026-06-01T22:16:38.502675Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "If I Had You"
-  subtitle = \subtitle
-  composer = "Ted Shapiro, Jimmy Campbell & Reg Connelly"
-  copyright = \markup \small { \now " " "© 1928 Campbell Connelly & Company Limited, 8/9 Frith Street, London W1." }
-}
+headerTitle = "If I Had You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ted Shapiro, Jimmy Campbell & Reg Connelly"
+headerCopyright = "© 1928 Campbell Connelly & Company Limited, 8/9 Frith Street, London W1."
 
 refrainLyrics = \lyricmode {
 I could show the world how to smile,

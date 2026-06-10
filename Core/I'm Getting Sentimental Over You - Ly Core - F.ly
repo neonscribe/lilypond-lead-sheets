@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.867028Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'm Getting Sentimental Over You"
-  subtitle = \subtitle
-  poet = "Ned Washington"
-  composer = "George Bassman"
-  copyright = \markup \small { \now " " "© 1932 Mills Music, Inc." }
-}
+headerTitle = "I'm Getting Sentimental Over You"
+headerSubtitle = \subtitle
+headerPoet = "Ned Washington"
+headerComposer = "George Bassman"
+headerCopyright = "© 1932 Mills Music, Inc."
 
 refrainLyrics = \lyricmode {
 Nev -- er thought I'd fall, but now I hear love call.

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.216366Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Get Along Without You Very Well"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Hoagy Carmichael"
-  copyright = \markup \small { \now " " "© 1938 Famous Music Corporation" }
-}
+headerTitle = "I Get Along Without You Very Well"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Hoagy Carmichael"
+headerCopyright = "© 1938 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 I get a -- long with -- out you ver -- y well.

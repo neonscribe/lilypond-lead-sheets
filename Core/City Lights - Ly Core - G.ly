@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:29.522989Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "City Lights"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bill Anderson"
-  copyright = \markup \small { \now " " "© 1958 TNT Music, Inc." }
-}
+headerTitle = "City Lights"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bill Anderson"
+headerCopyright = "© 1958 TNT Music, Inc."
 
 refrainMaleSingerLyrics = \lyricmode {
 The bright ar -- ray of cit -- y lights as far as I can see.

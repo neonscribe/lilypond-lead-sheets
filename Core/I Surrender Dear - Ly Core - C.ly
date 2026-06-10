@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.958544Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Surrender, Dear"
-  subtitle = \subtitle
-  poet = "Gordon Clifford"
-  composer = "Harry Barris"
-  copyright = \markup \small { \now " " "© 1931 Freed & Powers Ltd." }
-}
+headerTitle = "I Surrender, Dear"
+headerSubtitle = \subtitle
+headerPoet = "Gordon Clifford"
+headerComposer = "Harry Barris"
+headerCopyright = "© 1931 Freed & Powers Ltd."
 
 refrainLyrics = \lyricmode {
 We've played the game of stay a -- way, but it costs more than I can pay.

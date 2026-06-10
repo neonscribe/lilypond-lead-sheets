@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.645987Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Weight, Chorus Only"
-  subtitle = \subtitle
-  poet = ""
-  composer = "J.R. Robertson"
-  copyright = \markup \small { \now " " "© 1968 Dwarf Music" }
-}
+headerTitle = "The Weight, Chorus Only"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "J.R. Robertson"
+headerCopyright = "© 1968 Dwarf Music"
 
 straightEighths = ##t
 

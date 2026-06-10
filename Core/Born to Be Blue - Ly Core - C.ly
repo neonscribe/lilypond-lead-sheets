@@ -6,12 +6,11 @@ songID = "2026-06-01T22:16:27.837015Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Born to Be Blue"
-  subtitle = \subtitle
-  composer = "Mel Tormé & Robert Wells"
-  copyright = \markup \small { \now " " "© 1946 Wells Music Inc. and Arc Music" }
-}
+headerTitle = "Born to Be Blue"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Mel Tormé & Robert Wells"
+headerCopyright = "© 1946 Wells Music Inc. and Arc Music"
 
 refrainLyrics = \lyricmode {
 Some folks were meant to live in clo -- ver, __

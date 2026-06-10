@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:55.556251Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Very Thought of You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ray Noble"
-  copyright = \markup \small { \now " " "© 1934 Campbell Connelly & Co. Ltd." }
-}
+headerTitle = "The Very Thought of You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ray Noble"
+headerCopyright = "© 1934 Campbell Connelly & Co. Ltd."
 
 leadingEighth = ##t
 

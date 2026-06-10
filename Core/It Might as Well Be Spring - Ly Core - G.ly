@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:39.864155Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It Might as Well Be Spring"
-  subtitle = \subtitle
-  poet = "Oscar Hammerstein II"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1945 Williamson Music" }
-}
+headerTitle = "It Might as Well Be Spring"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Hammerstein II"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1945 Williamson Music"
 
 refrainLyrics = \lyricmode {
   I'm as

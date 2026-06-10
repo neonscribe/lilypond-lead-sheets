@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.966709Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Don't Worry 'Bout Me"
-  subtitle = \subtitle
-  poet = "Ted Koehler"
-  composer = "Rube Bloom"
-  copyright = \markup \small { \now " " "© 1939 Fred Ahlert Music Group, Ted Koehler Music Co." }
-}
+headerTitle = "Don't Worry 'Bout Me"
+headerSubtitle = \subtitle
+headerPoet = "Ted Koehler"
+headerComposer = "Rube Bloom"
+headerCopyright = "© 1939 Fred Ahlert Music Group, Ted Koehler Music Co."
 
 refrainLyrics = \lyricmode {
 Don't wor -- ry 'bout me, __ I'll get a -- long. __

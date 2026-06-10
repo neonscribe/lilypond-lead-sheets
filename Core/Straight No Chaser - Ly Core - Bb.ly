@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:52.479216Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Straight No Chaser"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Thelonious Monk"
-  copyright = \markup \small { \now " " "© 1951 Thelonious Music, Inc." }
-}
+headerTitle = "Straight No Chaser"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Thelonious Monk"
+headerCopyright = "© 1951 Thelonious Music, Inc."
 
 leadingEighth = ##t
 

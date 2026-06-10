@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.181423Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Things Ain't What They Used to Be"
-  subtitle = \subtitle
-  poet = "Ted Persons"
-  composer = "Mercer Ellington"
-  copyright = \markup \small { \now " " "© 1942 Tempo Music Inc." }
-}
+headerTitle = "Things Ain't What They Used to Be"
+headerSubtitle = \subtitle
+headerPoet = "Ted Persons"
+headerComposer = "Mercer Ellington"
+headerCopyright = "© 1942 Tempo Music Inc."
 
 refrainChords = \chordmode {
   df1:7 df1:7 df1:7 df1:7

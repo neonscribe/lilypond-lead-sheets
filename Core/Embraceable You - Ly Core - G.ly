@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.617454Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Embraceable You"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1930 New World Music Corporation" }
-}
+headerTitle = "Embraceable You"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1930 New World Music Corporation"
 
 refrainLyrics = \lyricmode {
 Em -- brace me, My sweet em -- brace -- a -- ble you. __

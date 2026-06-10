@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.027632Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "(Ghost) Riders in the Sky (A Cowboy Legend)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Stan Jones"
-  copyright = \markup \small { \now " " "© 1949 Edwin H. Morris & Company, Inc." }
-}
+headerTitle = "(Ghost) Riders in the Sky (A Cowboy Legend)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Stan Jones"
+headerCopyright = "© 1949 Edwin H. Morris & Company, Inc."
 
 leadingEighth = ##t
 

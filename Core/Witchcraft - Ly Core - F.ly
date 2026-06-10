@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:59.376344Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Witchcraft"
-  subtitle = \subtitle
-  poet = "Carolyn Leigh"
-  composer = "Cy Coleman"
-  copyright = \markup \small { \now " " "© 1957 Morley Music Co." }
-}
+headerTitle = "Witchcraft"
+headerSubtitle = \subtitle
+headerPoet = "Carolyn Leigh"
+headerComposer = "Cy Coleman"
+headerCopyright = "© 1957 Morley Music Co."
 
 refrainLyrics = \lyricmode {
 Those fin -- gers in my hair, __ that sly come hith -- er stare, __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.874347Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Seven Steps to Heaven"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Miles Davis, Victor Feldman"
-  copyright = \markup \small { \now " " "© 1963 Jazz Horn Music Corporation" }
-}
+headerTitle = "Seven Steps to Heaven"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Miles Davis, Victor Feldman"
+headerCopyright = "© 1963 Jazz Horn Music Corporation"
 
 leadingEighth = ##t
 

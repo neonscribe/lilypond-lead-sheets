@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.239433Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Let's Get Away From It All"
-  subtitle = \subtitle
-  poet = "Tom Adair"
-  composer = "Matt Dennis"
-  copyright = \markup \small { \now " " "© 1941 Dorsey Bros. Music" }
-}
+headerTitle = "Let's Get Away From It All"
+headerSubtitle = \subtitle
+headerPoet = "Tom Adair"
+headerComposer = "Matt Dennis"
+headerCopyright = "© 1941 Dorsey Bros. Music"
 
 refrainLyrics = \lyricmode {
 Let's take a boat __ to Ber -- mu -- da. __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.638426Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Between the Devil and the Deep Blue Sea"
-  subtitle = \subtitle
-  poet = "Ted Koehler"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1931 Mills Music, Inc." }
-}
+headerTitle = "Between the Devil and the Deep Blue Sea"
+headerSubtitle = \subtitle
+headerPoet = "Ted Koehler"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1931 Mills Music, Inc."
 
 refrainLyrics = \lyricmode {
 I don't want you, but I'd hate to lose you.

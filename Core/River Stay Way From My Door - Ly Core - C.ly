@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:48.69583Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "River, Stay 'Way From My Door"
-  subtitle = \subtitle
-  poet = "Mort Dixon"
-  composer = "Harry Woods"
-  copyright = \markup \small { \now " " "© 1931 Shapiro, Bernstein & Co., Inc., New York" }
-}
+headerTitle = "River, Stay 'Way From My Door"
+headerSubtitle = \subtitle
+headerPoet = "Mort Dixon"
+headerComposer = "Harry Woods"
+headerCopyright = "© 1931 Shapiro, Bernstein & Co., Inc., New York"
 
 refrainLyrics = \lyricmode {
   You keep go -- in' your way,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.964828Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Ship"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "Kurt Weill"
-  copyright = \markup \small { \now " " "© 1941 Chappell & Co." }
-}
+headerTitle = "My Ship"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "Kurt Weill"
+headerCopyright = "© 1941 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 My ship has sails that are made of silk,

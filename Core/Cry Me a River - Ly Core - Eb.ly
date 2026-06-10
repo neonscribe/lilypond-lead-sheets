@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:30.386176Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Cry Me a River"
-  subtitle = \subtitle
-  composer = "Arthur Hamilton"
-  copyright = \markup \small { \now " " "© 1953 Saunders Publications Inc." }
-}
+headerTitle = "Cry Me a River"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Arthur Hamilton"
+headerCopyright = "© 1953 Saunders Publications Inc."
 
 refrainLyrics = \lyricmode {
 Now __ you say you're lone -- ly, __

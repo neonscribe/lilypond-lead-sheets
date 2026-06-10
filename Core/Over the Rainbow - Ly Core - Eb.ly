@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.662741Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Over the Rainbow"
-  subtitle = \subtitle
-  poet = "E.Y. Harburg"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1938 Metro-Goldwyn-Mayer, Inc." }
-}
+headerTitle = "Over the Rainbow"
+headerSubtitle = \subtitle
+headerPoet = "E.Y. Harburg"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1938 Metro-Goldwyn-Mayer, Inc."
 
 refrainLyrics = \lyricmode {
 Some -- where o -- ver the rain -- bow, way up high,

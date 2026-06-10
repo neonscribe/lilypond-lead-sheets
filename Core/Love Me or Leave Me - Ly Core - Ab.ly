@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:43.023175Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Love Me or Leave Me"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Walter Donaldson"
-  copyright = \markup \small { \now " " "© 1928 Donaldson, Douglas & Gumble, Inc." }
-}
+headerTitle = "Love Me or Leave Me"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Walter Donaldson"
+headerCopyright = "© 1928 Donaldson, Douglas & Gumble, Inc."
 
 refrainLyrics = \lyricmode {
 Love me or leave me, or let me be lone -- ly,

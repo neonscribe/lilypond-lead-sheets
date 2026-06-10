@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.766781Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Baby, It's Cold Outside"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Frank Loesser"
-  copyright = \markup \small { \now " " "© 1948 Frank Music Corp." }
-}
+headerTitle = "Baby, It's Cold Outside"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Frank Loesser"
+headerCopyright = "© 1948 Frank Music Corp."
 
 leadingEighth = ##t
 

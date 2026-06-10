@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.958125Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'm Gonna Sit Right Down and Write Myself a Letter"
-  subtitle = \subtitle
-  poet = "Joe Young"
-  composer = "Fred E. Ahlert"
-  copyright = \markup \small { \now " " "© 1935 Crawford Music Corporation" }
-}
+headerTitle = "I'm Gonna Sit Right Down and Write Myself a Letter"
+headerSubtitle = \subtitle
+headerPoet = "Joe Young"
+headerComposer = "Fred E. Ahlert"
+headerCopyright = "© 1935 Crawford Music Corporation"
 
 leadingEighth = ##t
 

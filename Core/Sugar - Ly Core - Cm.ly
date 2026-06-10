@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:52.918545Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sugar"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Stanley Turrentine"
-  copyright = \markup \small { \now " " "© 1970 La Place Music" }
-}
+headerTitle = "Sugar"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Stanley Turrentine"
+headerCopyright = "© 1970 La Place Music"
 
 introLyrics = \lyricmode {
 }

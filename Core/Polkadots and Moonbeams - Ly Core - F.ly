@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.239334Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Polkadots and Moonbeams"
-  subtitle = \subtitle
-  poet = "Johnny Burke"
-  composer = "Jimmy Van Heusen"
-  copyright = \markup \small { \now " " "© 1940 ABC Music Corp." }
-}
+headerTitle = "Polkadots and Moonbeams"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Burke"
+headerComposer = "Jimmy Van Heusen"
+headerCopyright = "© 1940 ABC Music Corp."
 
 refrainLyrics = \lyricmode {
 A coun -- try dance was be -- ing held in a gar -- den,

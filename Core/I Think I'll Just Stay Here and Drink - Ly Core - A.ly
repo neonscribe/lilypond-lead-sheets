@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.005945Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Think I'll Just Stay Here and Drink"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Merle Haggard"
-  copyright = \markup \small { \now " " "© 1979 Shade Tree Music, Inc." }
-}
+headerTitle = "I Think I'll Just Stay Here and Drink"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Merle Haggard"
+headerCopyright = "© 1979 Shade Tree Music, Inc."
 
 straightEighths = ##t
 

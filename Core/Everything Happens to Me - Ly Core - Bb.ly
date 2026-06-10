@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.888506Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Everything Happens to Me"
-  subtitle = \subtitle
-  poet = "Tom Adair"
-  composer = "Matt Dennis"
-  copyright = \markup \small { \now " " "© 1941 Dorsey Bros. Music" }
-}
+headerTitle = "Everything Happens to Me"
+headerSubtitle = \subtitle
+headerPoet = "Tom Adair"
+headerComposer = "Matt Dennis"
+headerCopyright = "© 1941 Dorsey Bros. Music"
 
 leadingEighth = ##t
 

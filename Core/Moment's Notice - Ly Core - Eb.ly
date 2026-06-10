@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.785697Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Moment's Notice"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Coltrane"
-  copyright = \markup \small { \now " " "© 1957 Jowcol Music" }
-}
+headerTitle = "Moment's Notice"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Coltrane"
+headerCopyright = "© 1957 Jowcol Music"
 
 refrainChords = \chordmode {
   e2:m7 a2:7 f2:m7 bf2:7 ef1:maj7 af2:m7 df2:7

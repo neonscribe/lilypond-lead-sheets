@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:44.882561Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Mood Indigo"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Duke Ellington, Irving Mills, and Albany Bigard"
-  copyright = \markup \small { \now " " "© 1930 Gotham Music Service, Inc." }
-}
+headerTitle = "Mood Indigo"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Duke Ellington, Irving Mills, and Albany Bigard"
+headerCopyright = "© 1930 Gotham Music Service, Inc."
 
 refrainLyrics = \lyricmode {
 You ain't been blue, No, no, no.

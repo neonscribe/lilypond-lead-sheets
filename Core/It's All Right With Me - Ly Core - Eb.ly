@@ -10,12 +10,11 @@ songID = "2026-06-01T22:16:39.953298Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It's All Right With Me"
-  subtitle = \subtitle
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1953 Chappell & Co." }
-}
+headerTitle = "It's All Right With Me"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1953 Chappell & Co."
 
 peggyLeeIntroChords = \chordmode {
   c1:m c1:m7+ c1:m7 c1:m6

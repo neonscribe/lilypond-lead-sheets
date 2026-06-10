@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.452493Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Buddy (Swing)"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Walter Donaldson"
-  copyright = \markup \small { \now " " "© 1922 Jerome H. Remick & Co." }
-}
+headerTitle = "My Buddy (Swing)"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Walter Donaldson"
+headerCopyright = "© 1922 Jerome H. Remick & Co."
 
 refrainLyrics = \lyricmode {
 Nights are long since you went a -- way.

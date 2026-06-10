@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.616311Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Vivo Sonhando (Dreamer)"
-  subtitle = \subtitle
-  poet = "English lyrics by Gene Lees"
-  composer = "Antônio Carlos Jobim"
-  %% copyright = \markup \small { \now " " "© 1963 Jobim Music Ltda." }
-}
+headerTitle = "Vivo Sonhando (Dreamer)"
+headerSubtitle = \subtitle
+headerPoet = "English lyrics by Gene Lees"
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1963 Jobim Music Ltda."
 
 bossaRhythm = ##t
 

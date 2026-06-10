@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:44.009539Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Mean to Me"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Fred E. Ahlert and Roy Turk"
-  copyright = \markup \small { \now " " "© 1929 Chappell & Co." }
-}
+headerTitle = "Mean to Me"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Fred E. Ahlert and Roy Turk"
+headerCopyright = "© 1929 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 You're mean to me. __ Why must __ you be mean to me? __

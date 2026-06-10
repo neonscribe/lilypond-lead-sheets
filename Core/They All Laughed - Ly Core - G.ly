@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.022148Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "They All Laughed"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1937 George Gershwin Music" }
-}
+headerTitle = "They All Laughed"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1937 George Gershwin Music"
 
 refrainLyrics = \lyricmode {
   They all laughed at Chris -- to -- pher Co -- lum -- bus when he said the world was round. __

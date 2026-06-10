@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.215347Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Dream a Little Dream of Me"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "W. Schwandt and F. Andree"
-  copyright = \markup \small { \now " " "© 1931 Davis, Coots & Engel, Inc." }
-}
+headerTitle = "Dream a Little Dream of Me"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "W. Schwandt and F. Andree"
+headerCopyright = "© 1931 Davis, Coots & Engel, Inc."
 
 refrainLyrics = \lyricmode {
 Stars shin -- ing bright a -- bove you.

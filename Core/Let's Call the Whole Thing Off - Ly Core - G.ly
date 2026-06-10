@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.055988Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Let's Call the Whole Thing Off"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1937 Gershwin Publishing Corporation" }
-}
+headerTitle = "Let's Call the Whole Thing Off"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1937 Gershwin Publishing Corporation"
 
 refrainLyrics = \lyricmode {
 You say ee -- ther and I say eye -- ther.

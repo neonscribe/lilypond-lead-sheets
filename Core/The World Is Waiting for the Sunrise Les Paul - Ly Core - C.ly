@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.781756Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The World Is Waiting for the Sunrise (1951 Les Paul)"
-  subtitle = \subtitle
-  poet = "Eugene Lockhart"
-  composer = "Ernest Seitz"
-  copyright = \markup \small { \now " " "© 1919 Chappell & Co." }
-}
+headerTitle = "The World Is Waiting for the Sunrise (1951 Les Paul)"
+headerSubtitle = \subtitle
+headerPoet = "Eugene Lockhart"
+headerComposer = "Ernest Seitz"
+headerCopyright = "© 1919 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Dear __ one the world is wait -- ing for the sun -- rise. __

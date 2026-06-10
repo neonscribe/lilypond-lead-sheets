@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:39.380638Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Innocent When You Dream"
-  subtitle = \subtitle
-  composer = "Tom Waits"
-  copyright = \markup \small { \now " " "© 1987 Jalma Music, Inc." }
-}
+headerTitle = "Innocent When You Dream"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Tom Waits"
+headerCopyright = "© 1987 Jalma Music, Inc."
 
 straightEighths = ##t
 

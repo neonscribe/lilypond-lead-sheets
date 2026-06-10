@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.834154Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Con Alma"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Dizzy Gillespie"
-  copyright = \markup \small { \now " " "© 1954 Dizlo Music Corporation" }
-}
+headerTitle = "Con Alma"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Dizzy Gillespie"
+headerCopyright = "© 1954 Dizlo Music Corporation"
 
 introKey = c
 

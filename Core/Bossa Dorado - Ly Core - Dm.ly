@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.928097Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bossa Dorado"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Dorado Schmmitt"
-  copyright = \markup \small { \now " " "© 1986 Sterntaler Musikverlag GMBH" }
-}
+headerTitle = "Bossa Dorado"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Dorado Schmmitt"
+headerCopyright = "© 1986 Sterntaler Musikverlag GMBH"
 
 bossaRhythm = ##t
 

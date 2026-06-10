@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:33.33702Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Fly Me to the Moon"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bart Howard"
-  copyright = \markup \small { \now " " "© 1954 Hampshire House Publishing Corp." }
-}
+headerTitle = "Fly Me to the Moon"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bart Howard"
+headerCopyright = "© 1954 Hampshire House Publishing Corp."
 
 refrainLyrics = \lyricmode {
 Fly me to the moon __ and let me play a -- mong the stars. __

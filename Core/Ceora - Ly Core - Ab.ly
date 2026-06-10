@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.006724Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Ceora"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Lee Morgan"
-  copyright = \markup \small { \now " " "© 1965 Conrad Music" }
-}
+headerTitle = "Ceora"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Lee Morgan"
+headerCopyright = "© 1965 Conrad Music"
 
 bossaRhythm = ##t
 

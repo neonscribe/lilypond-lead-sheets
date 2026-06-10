@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.235351Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "But Beautiful"
-  subtitle = \subtitle
-  poet = "Johnny Burke"
-  composer = "Jimmy Van Heusen"
-  copyright = \markup \small { \now " " "© 1947 Burke & Van Heusen" }
-}
+headerTitle = "But Beautiful"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Burke"
+headerComposer = "Jimmy Van Heusen"
+headerCopyright = "© 1947 Burke & Van Heusen"
 
 refrainLyrics = \lyricmode {
   Love is fun -- ny or it's sad,

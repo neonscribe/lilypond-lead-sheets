@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.544878Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Hard to Thrill"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Eric Clapton & John Mayer"
-  copyright = \markup \small { \now " " "© 2006 Inc." }
-}
+headerTitle = "Hard to Thrill"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Eric Clapton & John Mayer"
+headerCopyright = "© 2006 Inc."
 
 notrefrainAltChords = \chordmode {
   a1:m7 a1:m7 a1:m7 a1:m7

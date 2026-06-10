@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.831152Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Jingle Bell Rock"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Joe Beal and Jim Boothe"
-  copyright = \markup \small { \now " " "© 1957 Cornell Music, Inc." }
-}
+headerTitle = "Jingle Bell Rock"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Joe Beal and Jim Boothe"
+headerCopyright = "© 1957 Cornell Music, Inc."
 
 refrainLyrics = \lyricmode {
 Jin -- gle bell, jin -- gle bell, jin -- gle bell rock, __

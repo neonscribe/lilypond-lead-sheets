@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.607138Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lulu's Back in Town"
-  subtitle = \subtitle
-  poet = "Al Dubin"
-  composer = "Harry Warren"
-  copyright = \markup \small { \now " " "© 1935 M. Witmark & Sons" }
-}
+headerTitle = "Lulu's Back in Town"
+headerSubtitle = \subtitle
+headerPoet = "Al Dubin"
+headerComposer = "Harry Warren"
+headerCopyright = "© 1935 M. Witmark & Sons"
 
 refrainLyrics = \lyricmode {
 Got -- ta get my old tux -- e -- do pressed, got -- ta sew a but -- ton on my vest,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.012757Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Donna Lee"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charlie Parker"
-  copyright = \markup \small { \now " " "© 1947 Atlantic Music Corp." }
-}
+headerTitle = "Donna Lee"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Parker"
+headerCopyright = "© 1947 Atlantic Music Corp."
 
 refrainChords = \chordmode {
   af1:maj7 f1:7 bf1:7 bf1:7

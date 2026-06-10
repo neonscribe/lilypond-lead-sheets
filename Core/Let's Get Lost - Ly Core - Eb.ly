@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.284638Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Let's Get Lost"
-  subtitle = \subtitle
-  poet = "Frank Loesser"
-  composer = "Jimmy McHugh"
-  copyright = \markup \small { \now " " "© 1943 Paramount Music Corporation" }
-}
+headerTitle = "Let's Get Lost"
+headerSubtitle = \subtitle
+headerPoet = "Frank Loesser"
+headerComposer = "Jimmy McHugh"
+headerCopyright = "© 1943 Paramount Music Corporation"
 
 refrainLyrics = \lyricmode {
 Let's get lost, __

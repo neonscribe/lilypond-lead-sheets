@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:28.323961Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bye Bye Blackbird"
-  subtitle = \subtitle
-  poet = "Mort Dixon"
-  composer = "Ray Henderson"
-  copyright = \markup \small { \now " " "© 1926 Jerome H. Remick & Co." }
-}
+headerTitle = "Bye Bye Blackbird"
+headerSubtitle = \subtitle
+headerPoet = "Mort Dixon"
+headerComposer = "Ray Henderson"
+headerCopyright = "© 1926 Jerome H. Remick & Co."
 
 refrainLyrics = \lyricmode {
 Pack up all my care and woe, here I go sing -- ing low.

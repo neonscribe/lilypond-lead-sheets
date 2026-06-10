@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.340843Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It's a Good Day"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Peggy Lee and Dave Barbour"
-  copyright = \markup \small { \now " " "© 1946 Capitol Songs, Inc." }
-}
+headerTitle = "It's a Good Day"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Peggy Lee and Dave Barbour"
+headerCopyright = "© 1946 Capitol Songs, Inc."
 
 refrainLyrics = \lyricmode {
 Yes, it's a good day __ for sing -- in' a song, __ and it's a good day __ for mov -- in a -- long. __

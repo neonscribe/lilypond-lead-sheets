@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.268278Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Wish I Were Twins"
-  subtitle = \subtitle
-  poet = "Edgar De Lange and Frank Loesser"
-  composer = "Joseph Meyer"
-  copyright = \markup \small { \now " " "© 1934 Donaldson, Douglas & Gumble Inc." }
-}
+headerTitle = "I Wish I Were Twins"
+headerSubtitle = \subtitle
+headerPoet = "Edgar De Lange and Frank Loesser"
+headerComposer = "Joseph Meyer"
+headerCopyright = "© 1934 Donaldson, Douglas & Gumble Inc."
 
 refrainLyrics = \lyricmode {
 I wish that I were twins, __ you great big ba -- by -- kins, __

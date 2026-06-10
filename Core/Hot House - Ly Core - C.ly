@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.294428Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Hot House"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Tadd Dameron"
-  copyright = \markup \small { \now " " "© 1945 Redwood Music Ltd." }
-}
+headerTitle = "Hot House"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Tadd Dameron"
+headerCopyright = "© 1945 Redwood Music Ltd."
 
 leadingEighth = ##t
 

@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:47.530115Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Only Trust Your Heart"
-  subtitle = \subtitle
-  poet = "Sammy Cahn"
-  composer = "Benny Carter"
-  copyright = \markup \small { \now " " "© 1964 Universal Music Company" }
-}
+headerTitle = "Only Trust Your Heart"
+headerSubtitle = \subtitle
+headerPoet = "Sammy Cahn"
+headerComposer = "Benny Carter"
+headerCopyright = "© 1964 Universal Music Company"
 
 bossaRhythm = ##t
 

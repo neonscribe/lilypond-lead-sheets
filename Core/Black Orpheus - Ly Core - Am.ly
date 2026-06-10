@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.931469Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Black Orpheus (Manha de Carnival, A Day in the Life of a Fool)"
-  subtitle = \subtitle
-  poet = "Carl Sigmand"
-  composer = "Luis Bonfa"
-  copyright = \markup \small { \now " " "© 1968 Chappell & Co." }
-}
+headerTitle = "Black Orpheus (Manha de Carnival, A Day in the Life of a Fool)"
+headerSubtitle = \subtitle
+headerPoet = "Carl Sigmand"
+headerComposer = "Luis Bonfa"
+headerCopyright = "© 1968 Chappell & Co."
 
 bossaRhythm = ##t
 

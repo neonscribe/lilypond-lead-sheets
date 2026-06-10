@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.631493Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'll See You in My Dreams"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Isham Jones"
-  copyright = \markup \small { \now " " "© 1924 Leo Feist Inc." }
-}
+headerTitle = "I'll See You in My Dreams"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Isham Jones"
+headerCopyright = "© 1924 Leo Feist Inc."
 
 verseLyrics = \lyricmode {
 Tho' the days are long,

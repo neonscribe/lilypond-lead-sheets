@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.438006Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Undecided"
-  subtitle = \subtitle
-  poet = "Sid Robin"
-  composer = "Charlie Shavers"
-  copyright = \markup \small { \now " " "© 1939 Leeds Music Corp." }
-}
+headerTitle = "Undecided"
+headerSubtitle = \subtitle
+headerPoet = "Sid Robin"
+headerComposer = "Charlie Shavers"
+headerCopyright = "© 1939 Leeds Music Corp."
 
 refrainLyrics = \lyricmode {
 First you say you do and then you don't, __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.148682Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Let's Face the Music and Dance"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Irving Berlin"
-  copyright = \markup \small { \now " " "© 1936 Irving Berlin Inc." }
-}
+headerTitle = "Let's Face the Music and Dance"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Irving Berlin"
+headerCopyright = "© 1936 Irving Berlin Inc."
 
 refrainLyrics = \lyricmode {
 There may be trou -- ble a -- head, __

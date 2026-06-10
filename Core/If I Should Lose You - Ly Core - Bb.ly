@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.589341Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "If I Should Lose You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Leo Robin and Ralph Rainger"
-  copyright = \markup \small { \now " " "© 1935 Famous Music Corporation" }
-}
+headerTitle = "If I Should Lose You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Leo Robin and Ralph Rainger"
+headerCopyright = "© 1935 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 If I should lose you, the stars would fall from the sky.

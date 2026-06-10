@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.357871Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "East of the Sun (and West of the Moon)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Brooks Bowman"
-  copyright = \markup \small { \now " " "© 1934 Brooks Bowman" }
-}
+headerTitle = "East of the Sun (and West of the Moon)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Brooks Bowman"
+headerCopyright = "© 1934 Brooks Bowman"
 
 refrainLyrics = \lyricmode {
 East of the sun __ and west of the moon, __

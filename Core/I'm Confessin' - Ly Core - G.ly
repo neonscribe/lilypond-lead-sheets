@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.822676Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'm Confessin' (That I Love You)"
-  subtitle = \subtitle
-  poet = "Al J. Neiburg"
-  composer = "Doc Dougherty and Ellis Reynolds"
-  copyright = \markup \small { \now " " "© 1930 General Music Publications" }
-}
+headerTitle = "I'm Confessin' (That I Love You)"
+headerSubtitle = \subtitle
+headerPoet = "Al J. Neiburg"
+headerComposer = "Doc Dougherty and Ellis Reynolds"
+headerCopyright = "© 1930 General Music Publications"
 
 refrainLyrics = \lyricmode {
   I'm con -- fess -- in' that I love you,

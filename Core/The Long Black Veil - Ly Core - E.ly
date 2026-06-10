@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.735419Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Long Black Veil"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Marijohn Wilkin and Danny Dill"
-  copyright = \markup \small { \now " " "© 1959 Cedarwood Publishing" }
-}
+headerTitle = "The Long Black Veil"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Marijohn Wilkin and Danny Dill"
+headerCopyright = "© 1959 Cedarwood Publishing"
 
 refrainLyrics = \lyricmode {
 Ten years a -- go __ on a cold, dark night __

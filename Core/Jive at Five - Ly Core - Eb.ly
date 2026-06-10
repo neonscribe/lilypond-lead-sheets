@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.876862Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Jive at Five"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Harry Edison & Count Basie"
-  copyright = \markup \small { \now " " "© 1941 Hallmark Music Publishing Company" }
-}
+headerTitle = "Jive at Five"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Harry Edison & Count Basie"
+headerCopyright = "© 1941 Hallmark Music Publishing Company"
 
 refrainChords = \chordmode {
   ef2:maj7 c2:m7 f2:m7 bf2:7 ef2:maj7 c2:m7 f2:m7 bf2:7

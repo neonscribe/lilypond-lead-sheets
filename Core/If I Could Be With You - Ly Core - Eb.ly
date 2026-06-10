@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.460009Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "If I Could Be With You (One Hour Tonight)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Henry Creamer & Jimmy Johnson"
-  copyright = \markup \small { \now " " "© 1926 Jerome H. Remick & Co." }
-}
+headerTitle = "If I Could Be With You (One Hour Tonight)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Henry Creamer & Jimmy Johnson"
+headerCopyright = "© 1926 Jerome H. Remick & Co."
 
 leadingEighth = ##t
 

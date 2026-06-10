@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.74695Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Dat Dere"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bobby Timmons"
-  copyright = \markup \small { \now " " "© 1960 Upam Music Co." }
-}
+headerTitle = "Dat Dere"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bobby Timmons"
+headerCopyright = "© 1960 Upam Music Co."
 
 leadingEighth = ##t
 

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:52.203397Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Stay a Little Longer"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Tommy Duncan"
-  copyright = \markup \small { \now " " "© 1947 Red River Songs, Inc." }
-}
+headerTitle = "Stay a Little Longer"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Tommy Duncan"
+headerCopyright = "© 1947 Red River Songs, Inc."
 
 leadingEighth = ##t
 

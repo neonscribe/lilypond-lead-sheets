@@ -4,14 +4,12 @@ songID = "2026-06-01T22:16:44.449607Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Minor Blues (Blues en Mineur)"
-  subtitle = "Transcribed from Rome 1949 recording"
-  subsubtitle = \subtitle
-  poet = ""
-  composer = "Django Reinhardt"
-  copyright = \markup \small { \now " " "© 1941 Publications Francis Day S.A." }
-}
+headerTitle = "Minor Blues (Blues en Mineur)"
+headerSubtitle = "Transcribed from Rome 1949 recording"
+headerSubsubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Django Reinhardt"
+headerCopyright = "© 1941 Publications Francis Day S.A."
 
 refrainChords = \chordmode {
 

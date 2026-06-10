@@ -11,13 +11,11 @@ songID = "2026-06-01T22:16:52.964831Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Summertime"
-  subtitle = \subtitle
-  poet = "Du Bose Heyward"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1935 Gershwin Publishing Corp." }
-}
+headerTitle = "Summertime"
+headerSubtitle = \subtitle
+headerPoet = "Du Bose Heyward"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1935 Gershwin Publishing Corp."
 
 refrainLyrics = \lyricmode {
   Sum -- mer time __ and the liv -- in' is eas -- y __

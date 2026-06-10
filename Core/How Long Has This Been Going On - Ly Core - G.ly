@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.451006Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "How Long Has This Been Going On?"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1927 Chappell & Co." }
-}
+headerTitle = "How Long Has This Been Going On?"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1927 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 I could cry sal -- ty tears;

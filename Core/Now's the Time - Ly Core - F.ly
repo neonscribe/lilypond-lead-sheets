@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:46.662238Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Now's the Time"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charlie Parker"
-  copyright = \markup \small { \now " " "© 1945 Atlantic Music Corp." }
-}
+headerTitle = "Now's the Time"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Parker"
+headerCopyright = "© 1945 Atlantic Music Corp."
 
 leadingEighth = ##t
 

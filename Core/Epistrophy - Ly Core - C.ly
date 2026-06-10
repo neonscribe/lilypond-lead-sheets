@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.702234Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Epistrophy"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Thelonious Monk and Kenny Clarke"
-  copyright = \markup \small { \now " " "© 1947 Embassy Music Corporation and Music Sales Corporation" }
-}
+headerTitle = "Epistrophy"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Thelonious Monk and Kenny Clarke"
+headerCopyright = "© 1947 Embassy Music Corporation and Music Sales Corporation"
 
 refrainChords = \chordmode {
   cs2:7 d2:7 cs2:7 d2:7 cs2:7 d2:7 cs2:7 d2:7

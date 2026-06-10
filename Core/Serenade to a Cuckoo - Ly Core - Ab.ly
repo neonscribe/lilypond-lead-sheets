@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.755066Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Serenade to a Cuckoo"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Roland Kirk"
-  copyright = \markup \small { \now " " "© 1964 Second Floor Music" }
-}
+headerTitle = "Serenade to a Cuckoo"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Roland Kirk"
+headerCopyright = "© 1964 Second Floor Music"
 
 refrainChords = \chordmode {
   f2:m f2:m/ef f2:m/df c2:7.9- f2:m/bf f2:m/af g2:m7.5- c2:7.9-

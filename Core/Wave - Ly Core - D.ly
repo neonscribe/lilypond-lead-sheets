@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.976746Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Wave"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1967 Corcovado Music Corp." }
-}
+headerTitle = "Wave"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1967 Corcovado Music Corp."
 
 bossaRhythm = ##t
 

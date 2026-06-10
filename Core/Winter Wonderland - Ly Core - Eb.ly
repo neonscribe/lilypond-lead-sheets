@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.330715Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Winter Wonderland"
-  subtitle = \subtitle
-  poet = "Dick Smith"
-  composer = "Felix Bernard"
-  copyright = \markup \small { \now " " "© 1934 Bregman, Vocco and Conn, Inc." }
-}
+headerTitle = "Winter Wonderland"
+headerSubtitle = \subtitle
+headerPoet = "Dick Smith"
+headerComposer = "Felix Bernard"
+headerCopyright = "© 1934 Bregman, Vocco and Conn, Inc."
 
 refrainLyrics = \lyricmode {
   Sleigh bells ring, are you lis -- t'nin'?

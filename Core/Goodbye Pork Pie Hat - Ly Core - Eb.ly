@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:34.388641Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Goodbye Pork Pie Hat"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charles Mingus"
-  copyright = \markup \small { \now " " "© 1959 Jazz Workshop, Inc." }
-}
+headerTitle = "Goodbye Pork Pie Hat"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charles Mingus"
+headerCopyright = "© 1959 Jazz Workshop, Inc."
 
 leadingEighth = ##t
 

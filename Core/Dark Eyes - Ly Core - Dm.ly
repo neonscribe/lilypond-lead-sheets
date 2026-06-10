@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.604466Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Dark Eyes (Les Yeux Noir, Очи чёрные)"
-  subtitle = \subtitle
-  poet = "Yevhen Hrebinka"
-  composer = "Florian Hermann"
-  copyright = \markup \small { \now " " "1879" }
-}
+headerTitle = "Dark Eyes (Les Yeux Noir, Очи чёрные)"
+headerSubtitle = \subtitle
+headerPoet = "Yevhen Hrebinka"
+headerComposer = "Florian Hermann"
+headerCopyright = "1879"
 
 refrainXChords = \chordmode {
   s2.

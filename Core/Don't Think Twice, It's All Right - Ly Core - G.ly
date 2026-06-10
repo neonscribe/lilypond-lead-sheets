@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.918834Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Don't Think Twice, It's All Right"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bob Dylan"
-  copyright = \markup \small { \now " " "© 1963 Special Rider Music" }
-}
+headerTitle = "Don't Think Twice, It's All Right"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bob Dylan"
+headerCopyright = "© 1963 Special Rider Music"
 
 refrainLyrics = \lyricmode {
 It ain't no use to sit and won -- der why, babe. __

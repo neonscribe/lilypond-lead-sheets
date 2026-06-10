@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.228388Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Midnight Sun"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Lionel Hampton & Sonny Burke"
-  copyright = \markup \small { \now " " "© 1947 Regent Music Corp & Crystal Music Publishers" }
-}
+headerTitle = "Midnight Sun"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Lionel Hampton & Sonny Burke"
+headerCopyright = "© 1947 Regent Music Corp & Crystal Music Publishers"
 
 refrainLyrics = \lyricmode {
 Your

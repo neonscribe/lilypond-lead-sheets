@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.159539Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Hit That Jive, Jack"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Johnnie Alston, Skeets Tolbert"
-  copyright = \markup \small { \now " " "© 1940 Universal Music Corporation" }
-}
+headerTitle = "Hit That Jive, Jack"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Johnnie Alston, Skeets Tolbert"
+headerCopyright = "© 1940 Universal Music Corporation"
 
 refrainLyrics = \lyricmode {
 Hit that jive, Jack.

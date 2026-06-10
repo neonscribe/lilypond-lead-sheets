@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.471057Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lullaby in Rhythm"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Benny Goodman, Edgar Sampson, Clarence Profit & Walter Hirsch"
-  copyright = \markup \small { \now " " "© 1938 Robbins Music Corporation" }
-}
+headerTitle = "Lullaby in Rhythm"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Benny Goodman, Edgar Sampson, Clarence Profit & Walter Hirsch"
+headerCopyright = "© 1938 Robbins Music Corporation"
 
 refrainLyrics = \lyricmode {
 Hear my lull -- a -- by in rhyth -- m. Dream your dreams and wan -- der with 'em.

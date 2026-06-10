@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:52.387547Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Stompin' at the Savoy"
-  subtitle = \subtitle
-  poet = "Andy Razaf"
-  composer = "Benny Goodman, Chick Webb and Edgar Sampson"
-  copyright = \markup \small { \now " " "© 1936 Robbins Music Corporation." }
-}
+headerTitle = "Stompin' at the Savoy"
+headerSubtitle = \subtitle
+headerPoet = "Andy Razaf"
+headerComposer = "Benny Goodman, Chick Webb and Edgar Sampson"
+headerCopyright = "© 1936 Robbins Music Corporation."
 
 refrainLyrics = \lyricmode {
 Sa -- voy, __ the home of sweet ro -- mance,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.114565Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "In a Mellow Tone"
-  subtitle = \subtitle
-  poet = "Milt Gabler"
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1940 Famous Music Corporation" }
-}
+headerTitle = "In a Mellow Tone"
+headerSubtitle = \subtitle
+headerPoet = "Milt Gabler"
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1940 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 In a mel -- low tone, __

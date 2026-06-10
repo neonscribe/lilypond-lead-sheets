@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.522389Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Knee Deep in the Blues"
-  subtitle = \subtitle
-  %% poet = ""
-  composer = "Melvin Endsley"
-  copyright = \markup \small { \now " " "© 1957 Acuff-Rose Publications" }
-}
+headerTitle = "Knee Deep in the Blues"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Melvin Endsley"
+headerCopyright = "© 1957 Acuff-Rose Publications"
 
 introLyrics = \lyricmode {
 }

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.205813Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Singin' in the Rain"
-  subtitle = \subtitle
-  poet = "Arthur Freed"
-  composer = "Nacio Herb Brown"
-  copyright = \markup \small { \now " " "© 1929 Metro-Goldwyn-Mayer Inc." }
-}
+headerTitle = "Singin' in the Rain"
+headerSubtitle = \subtitle
+headerPoet = "Arthur Freed"
+headerComposer = "Nacio Herb Brown"
+headerCopyright = "© 1929 Metro-Goldwyn-Mayer Inc."
 
 refrainLyrics = \lyricmode {
 I'm sing -- in' in the rain, just sing -- in' in the rain.

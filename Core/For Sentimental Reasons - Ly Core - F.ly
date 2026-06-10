@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.593274Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "(I Love You) For Sentimental Reasons"
-  subtitle = \subtitle
-  poet = "Derek Watson"
-  composer = "William Best"
-  copyright = \markup \small { \now " " "© 1945 Duchess Music Corporation" }
-}
+headerTitle = "(I Love You) For Sentimental Reasons"
+headerSubtitle = \subtitle
+headerPoet = "Derek Watson"
+headerComposer = "William Best"
+headerCopyright = "© 1945 Duchess Music Corporation"
 
 refrainLyrics = \lyricmode {
 I love you for sen -- ti -- men -- tal rea -- sons,

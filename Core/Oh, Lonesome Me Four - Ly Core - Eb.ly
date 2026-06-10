@@ -12,13 +12,11 @@ songID = "2026-06-01T22:16:46.839747Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Oh, Lonesome Me (in 4, Don Gibson Style)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Don Gibson"
-  copyright = \markup \small { \now " " "© 1957 Acuff Rose Music" }
-}
+headerTitle = "Oh, Lonesome Me (in 4, Don Gibson Style)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Don Gibson"
+headerCopyright = "© 1957 Acuff Rose Music"
 
 introChords = \chordmode {
   ef1 ef1 ef1 ef1

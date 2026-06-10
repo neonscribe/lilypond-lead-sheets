@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:27.104404Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blue Drag"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Josef Myrow"
-  copyright = \markup \small { \now " " "© 1932 EMI Mills Music Inc." }
-}
+headerTitle = "Blue Drag"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Josef Myrow"
+headerCopyright = "© 1932 EMI Mills Music Inc."
 
 introLyrics = \lyricmode {
 }

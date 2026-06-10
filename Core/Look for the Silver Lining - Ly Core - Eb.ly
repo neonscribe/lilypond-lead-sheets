@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.72349Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Look for the Silver Lining"
-  subtitle = \subtitle
-  poet = "Bud DeSylva"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1920 T.B. Harms Co." }
-}
+headerTitle = "Look for the Silver Lining"
+headerSubtitle = \subtitle
+headerPoet = "Bud DeSylva"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1920 T.B. Harms Co."
 
 refrainLyrics = \lyricmode {
 Look for the sil -- ver lin -- ing when -- e'er a cloud ap -- pears in the blue.

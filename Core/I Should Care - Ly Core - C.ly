@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.911387Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Should Care"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sammy Cahn, Axel Stordahl and Paul Weston"
-  copyright = \markup \small { \now " " "© 1944 Dorsey Brothers Music, Inc." }
-}
+headerTitle = "I Should Care"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sammy Cahn, Axel Stordahl and Paul Weston"
+headerCopyright = "© 1944 Dorsey Brothers Music, Inc."
 
 refrainLyrics = \lyricmode {
 I should care, I should go a -- round weep -- ing,

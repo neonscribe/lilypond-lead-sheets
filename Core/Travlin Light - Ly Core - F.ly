@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.025204Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Trav'lin' Light"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Jimmy Mundy and Trummy Young"
-  copyright = \markup \small { \now " " "© 1943 Warner Bros Inc." }
-}
+headerTitle = "Trav'lin' Light"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Jimmy Mundy and Trummy Young"
+headerCopyright = "© 1943 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 I'm trav' -- lin' light, be -- cause my man __ has gone, __

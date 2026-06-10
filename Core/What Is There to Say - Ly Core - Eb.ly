@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.342512Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "What Is There to Say"
-  subtitle = \subtitle
-  poet = "E.Y. Harburg"
-  composer = "Vernon Duke"
-  copyright = \markup \small { \now " " "© 1933 by Kay Duke Music and Glocca Morra Music" }
-}
+headerTitle = "What Is There to Say"
+headerSubtitle = \subtitle
+headerPoet = "E.Y. Harburg"
+headerComposer = "Vernon Duke"
+headerCopyright = "© 1933 by Kay Duke Music and Glocca Morra Music"
 
 refrainLyrics = \lyricmode {
 What is there to say and what is there to do?

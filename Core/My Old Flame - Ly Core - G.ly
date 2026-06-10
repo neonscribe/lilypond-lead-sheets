@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.774622Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Old Flame"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Arthur Johnson and Sam Coslow"
-  copyright = \markup \small { \now " " "© 1934 Famous Music Corporation" }
-}
+headerTitle = "My Old Flame"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Arthur Johnson and Sam Coslow"
+headerCopyright = "© 1934 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 My old flame, __ I can't ev -- en think of his name, but it's fun -- ny now and then

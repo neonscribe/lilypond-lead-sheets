@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.240339Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Beautiful Love"
-  subtitle = \subtitle
-  poet = "Haven Gillespie"
-  composer = "Victor Young, Wayne King and Egbert van Alstyne"
-  copyright = \markup \small { \now " " "© 1931 Movietone Music Corporation" }
-}
+headerTitle = "Beautiful Love"
+headerSubtitle = \subtitle
+headerPoet = "Haven Gillespie"
+headerComposer = "Victor Young, Wayne King and Egbert van Alstyne"
+headerCopyright = "© 1931 Movietone Music Corporation"
 
 refrainLyrics = \lyricmode {
 Beau -- ti -- ful love, you're all a mys -- ter -- y, __

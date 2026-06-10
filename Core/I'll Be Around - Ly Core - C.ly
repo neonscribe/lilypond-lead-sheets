@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:37.388905Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'll Be Around"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Alec Wilder"
-  copyright = \markup \small { \now " " "© 1942 Ludlow Music,Inc." }
-}
+headerTitle = "I'll Be Around"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Alec Wilder"
+headerCopyright = "© 1942 Ludlow Music,Inc."
 
 refrainMaleSingerLyrics = \lyricmode {
 I'll be a -- round no mat -- ter how you treat me now,

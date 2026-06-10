@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.263696Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "As Time Goes By"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Herman Hupfeld"
-  copyright = \markup \small { \now " " "© 1931 Warner Bros. Inc." }
-}
+headerTitle = "As Time Goes By"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Herman Hupfeld"
+headerCopyright = "© 1931 Warner Bros. Inc."
 
 leadingEighth = ##t
 

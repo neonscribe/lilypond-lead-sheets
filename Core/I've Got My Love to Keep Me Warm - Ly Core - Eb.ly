@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.292981Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I've Got My Love to Keep Me Warm"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Irving Berlin"
-  copyright = \markup \small { \now " " "© 1936 Irving Berlin" }
-}
+headerTitle = "I've Got My Love to Keep Me Warm"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Irving Berlin"
+headerCopyright = "© 1936 Irving Berlin"
 
 refrainLyrics = \lyricmode {
 The snow is snow -- ing, the wind is blow -- ing

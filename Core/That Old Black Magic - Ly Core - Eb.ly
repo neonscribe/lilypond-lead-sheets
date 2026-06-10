@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.804615Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "That Old Black Magic"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1942 Famous Music Corporation" }
-}
+headerTitle = "That Old Black Magic"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1942 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 That old black mag -- ic has me in its spell.

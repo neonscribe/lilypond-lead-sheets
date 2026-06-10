@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:26.511658Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bésame Mucho"
-  subtitle = \subtitle
-  poet = "Consuelo Velázquez/Sunny Skylar"
-  composer = "Consuelo Velázquez"
-  copyright = \markup \small { \now " " "© 1941 Promotora Hispano Americana de Musica, S.A." }
-}
+headerTitle = "Bésame Mucho"
+headerSubtitle = \subtitle
+headerPoet = "Consuelo Velázquez/Sunny Skylar"
+headerComposer = "Consuelo Velázquez"
+headerCopyright = "© 1941 Promotora Hispano Americana de Musica, S.A."
 
 refrainSpanishLyrics = \lyricmode {
 Bé -- sa -- me, __ bé -- sa -- me mu -- cho, __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.833242Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Money"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Roger Waters"
-  copyright = \markup \small { \now " " "© 1973 Hampshire House Publishing Corp." }
-}
+headerTitle = "Money"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Roger Waters"
+headerCopyright = "© 1973 Hampshire House Publishing Corp."
 
 introChords = \chordmode {
   r4*7 r4*7 b4*7:m7 b4*7:m7

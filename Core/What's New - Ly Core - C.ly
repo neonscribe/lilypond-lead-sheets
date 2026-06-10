@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.432972Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "What's New"
-  subtitle = \subtitle
-  poet = "Johnny Burke"
-  composer = "Bob Haggard"
-  copyright = \markup \small { \now " " "© 1939 M. Witmark & Sons, New York" }
-}
+headerTitle = "What's New"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Burke"
+headerComposer = "Bob Haggard"
+headerCopyright = "© 1939 M. Witmark & Sons, New York"
 
 refrainLyrics = \lyricmode {
 What's new? __

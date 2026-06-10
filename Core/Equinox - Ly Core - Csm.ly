@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.747129Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Equinox"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Coltrane"
-  copyright = \markup \small { \now " " "© 1960 Jowcol Music" }
-}
+headerTitle = "Equinox"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Coltrane"
+headerCopyright = "© 1960 Jowcol Music"
 
 refrainChords = \chordmode {
   \chordInsideParens{ cs1:m }

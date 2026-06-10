@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:56.766809Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "'Tis Autumn"
-  subtitle = \subtitle
-  composer = "Henry Nemo"
-  copyright = \markup \small { \now " " "© 1941 Warner Bros. Inc." }
-}
+headerTitle = "'Tis Autumn"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Henry Nemo"
+headerCopyright = "© 1941 Warner Bros. Inc."
 
 verseLyrics = \lyricmode {
   You tell me I'm act -- ing sil -- ly,

@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:46.346749Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Night Life"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Willie Nelson"
-  copyright = \markup \small { \now " " "© 1960 Tree Publishing Co. Inc." }
-}
+headerTitle = "Night Life"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Willie Nelson"
+headerCopyright = "© 1960 Tree Publishing Co. Inc."
 
 refrainLyrics = \lyricmode {
 When the eve -- ning sun __ goes down, you will find me __ hang -- in' 'round.

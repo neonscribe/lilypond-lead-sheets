@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:33.109288Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Fascinating Rhythm"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1924 Warner Bros., Inc." }
-}
+headerTitle = "Fascinating Rhythm"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1924 Warner Bros., Inc."
 
 refrainLyrics = \lyricmode {
 Fas -- ci -- nat -- ing rhy -- thm, you've got me on the go.

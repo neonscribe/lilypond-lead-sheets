@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.101546Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Let's Do It (Let's Fall in Love)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1928 Harms, Inc." }
-}
+headerTitle = "Let's Do It (Let's Fall in Love)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1928 Harms, Inc."
 
 refrainLyrics = \lyricmode {
 Birds do it, bees do it.

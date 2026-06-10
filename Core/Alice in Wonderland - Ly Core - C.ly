@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.248874Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Alice in Wonderland"
-  subtitle = \subtitle
-  poet = "Bob Hilliard"
-  composer = "Sammy Fain"
-  copyright = \markup \small { \now " " "© 1951 Walt Disney Music Company" }
-}
+headerTitle = "Alice in Wonderland"
+headerSubtitle = \subtitle
+headerPoet = "Bob Hilliard"
+headerComposer = "Sammy Fain"
+headerCopyright = "© 1951 Walt Disney Music Company"
 
 refrainLyrics = \lyricmode {
 Al -- ice in Won -- der -- land, how do you get to Won -- der -- land?

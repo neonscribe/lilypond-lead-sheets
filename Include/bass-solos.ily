@@ -66,3 +66,14 @@ $(if (not (and (defined? 'midiOnly) midiOnly))
   \midi{}
 }
 #} )
+
+$(if (and (defined? 'headerTitle) headerTitle)
+  #{ \header {
+	    title = \headerTitle
+	    subtitle = \subtitle
+	    poet = \headerPoet
+	    composer = \headerComposer
+	    copyright = \markup \small { \now " " \headerCopyright }
+} #} )
+
+headerTitle = ##f

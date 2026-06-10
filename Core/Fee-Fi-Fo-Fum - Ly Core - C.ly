@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.148878Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Fee-Fi-Fo-Fum"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Wayne Shorter"
-  copyright = \markup \small { \now " " "© 1964 Miyako Music" }
-}
+headerTitle = "Fee-Fi-Fo-Fum"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Wayne Shorter"
+headerCopyright = "© 1964 Miyako Music"
 
 refrainChords = \chordmode {
   ef2:7 d2:7.9+ g2:m7 af2:maj7 b2:maj7 d2:7 d2:m7 g2:7

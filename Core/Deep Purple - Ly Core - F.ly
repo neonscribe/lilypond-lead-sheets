@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.080093Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Deep Purple"
-  subtitle = \subtitle
-  poet = "Mitchell Parish"
-  composer = "Peter DeRose"
-  copyright = \markup \small { \now " " "© 1934 Robbins Music Corporation" }
-}
+headerTitle = "Deep Purple"
+headerSubtitle = \subtitle
+headerPoet = "Mitchell Parish"
+headerComposer = "Peter DeRose"
+headerCopyright = "© 1934 Robbins Music Corporation"
 
 refrainLyrics = \lyricmode {
 When the deep pur -- ple falls o -- ver sleep -- y gar -- den walls,

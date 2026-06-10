@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.111272Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Want to Be Happy"
-  subtitle = \subtitle
-  poet = "Irving Caesar"
-  composer = "Vincent Youmans"
-  copyright = \markup \small { \now " " "© 1924 HARMS Inc." }
-}
+headerTitle = "I Want to Be Happy"
+headerSubtitle = \subtitle
+headerPoet = "Irving Caesar"
+headerComposer = "Vincent Youmans"
+headerCopyright = "© 1924 HARMS Inc."
 
 refrainLyrics = \lyricmode {
 I want to be hap -- py  but I won't be hap -- py till I make you hap -- py too. __

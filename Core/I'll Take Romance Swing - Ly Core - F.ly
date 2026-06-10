@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.671712Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'll Take Romance (4/4)"
-  subtitle = \subtitle
-  poet = "Oscar Hammerstein II"
-  composer = "Ben Oakland"
-  copyright = \markup \small { \now " " "© 1937 Bourne Co." }
-}
+headerTitle = "I'll Take Romance (4/4)"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Hammerstein II"
+headerComposer = "Ben Oakland"
+headerCopyright = "© 1937 Bourne Co."
 
 refrainLyrics = \lyricmode {
 I'll take ro -- mance, __

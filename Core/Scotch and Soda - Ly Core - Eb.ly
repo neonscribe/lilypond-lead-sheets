@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.48918Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Scotch and Soda"
-  subtitle = \subtitle
-  poet = ""
-  composer = "David Guard"
-  copyright = \markup \small { \now " " "© 1959 Beechwood Music Corp." }
-}
+headerTitle = "Scotch and Soda"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "David Guard"
+headerCopyright = "© 1959 Beechwood Music Corp."
 
 refrainLyrics = \lyricmode {
 Scotch and so -- da, mud in your eye,

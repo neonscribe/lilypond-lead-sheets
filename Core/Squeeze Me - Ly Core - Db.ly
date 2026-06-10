@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.700798Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Squeeze Me"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Clarence Willians and Fats Waller"
-  copyright = \markup \small { \now " " "© 1926 Clarence Williams Music Co., Inc." }
-}
+headerTitle = "Squeeze Me"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Clarence Willians and Fats Waller"
+headerCopyright = "© 1926 Clarence Williams Music Co., Inc."
 
 leadingEighth = ##t
 

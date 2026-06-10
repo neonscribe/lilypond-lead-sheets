@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.601749Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Samba de Verão (So Nice, Summer Samba)"
-  subtitle = \subtitle
-  poet = "Paulo Sérgio Valle, Norman Gimbel"
-  composer = "Marcos Valle"
-  copyright = \markup \small { \now " " "© 1965 Marcos Valle and Paulo Sérgio Valle" }
-}
+headerTitle = "Samba de Verão (So Nice, Summer Samba)"
+headerSubtitle = \subtitle
+headerPoet = "Paulo Sérgio Valle, Norman Gimbel"
+headerComposer = "Marcos Valle"
+headerCopyright = "© 1965 Marcos Valle and Paulo Sérgio Valle"
 
 bossaRhythm = ##t
 

@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:33.867933Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Gee Baby, Ain't I Good to You"
-  subtitle = \subtitle
-  poet = "Don Redman & Andy Razaf"
-  composer = "Don Redman"
-  copyright = \markup \small { \now " " "© 1929 Michael H. Golden, Inc." }
-}
+headerTitle = "Gee Baby, Ain't I Good to You"
+headerSubtitle = \subtitle
+headerPoet = "Don Redman & Andy Razaf"
+headerComposer = "Don Redman"
+headerCopyright = "© 1929 Michael H. Golden, Inc."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Love __ makes me treat you the way __ that I do,

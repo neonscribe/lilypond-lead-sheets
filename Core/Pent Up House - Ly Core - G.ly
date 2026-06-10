@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:47.847878Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Pent Up House"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sonny Rollins"
-  copyright = \markup \small { \now " " "© 1956 Prestige Music" }
-}
+headerTitle = "Pent Up House"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sonny Rollins"
+headerCopyright = "© 1956 Prestige Music"
 
 refrainChords = \chordmode {
   r1 a2:m7/d d2:7.5+ a4:m7/d d4:7.5+ \chordSlash 1 \chordSlash 1 g2:maj7 af4.:7 g8:maj7

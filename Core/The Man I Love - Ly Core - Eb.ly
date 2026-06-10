@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:54.877696Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "The Man I Love"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1924 T.B. Harms & Co." }
-}
+headerTitle = "The Man I Love"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1924 T.B. Harms & Co."
 
 refrainLyrics = \lyricmode {
 Some -- day he'll come a -- long,

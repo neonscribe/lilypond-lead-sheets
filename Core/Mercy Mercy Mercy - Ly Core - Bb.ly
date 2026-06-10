@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.141075Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Mercy, Mercy, Mercy"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Josef Zawinul"
-  copyright = \markup \small { \now " " "© 1966 Zawinul Music" }
-}
+headerTitle = "Mercy, Mercy, Mercy"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Josef Zawinul"
+headerCopyright = "© 1966 Zawinul Music"
 
 refrainChords = \chordmode {
   bf2 bf2:7/d ef2 ef2/f bf2 bf2:7/d

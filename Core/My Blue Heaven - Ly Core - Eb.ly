@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.343799Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Blue Heaven"
-  subtitle = \subtitle
-  poet = "George Whiting"
-  composer = "Walter Donaldson"
-  copyright = \markup \small { \now " " "© 1927 Leo Feist Inc." }
-}
+headerTitle = "My Blue Heaven"
+headerSubtitle = \subtitle
+headerPoet = "George Whiting"
+headerComposer = "Walter Donaldson"
+headerCopyright = "© 1927 Leo Feist Inc."
 
 refrainLyrics = \lyricmode {
 When whip -- poor -- wills call, and eve -- ning is nigh,

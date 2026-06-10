@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.791419Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Ill Wind"
-  subtitle = \subtitle
-  poet = "Ted Koehler"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1934 Mills Music, Inc." }
-}
+headerTitle = "Ill Wind"
+headerSubtitle = \subtitle
+headerPoet = "Ted Koehler"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1934 Mills Music, Inc."
 
 refrainLyrics = \lyricmode {
 Blow, ill wind, blow a -- way. Let me rest to -- day.

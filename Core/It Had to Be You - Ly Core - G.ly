@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.817712Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It Had to Be You"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Isham Jones"
-  copyright = \markup \small { \now " " "© 1924 Jerome H. Remick & Co." }
-}
+headerTitle = "It Had to Be You"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Isham Jones"
+headerCopyright = "© 1924 Jerome H. Remick & Co."
 
 refrainLyrics = \lyricmode {
 It had to be you, __ it had to be you, __

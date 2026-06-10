@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.056308Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "June in January"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Leo Robin and Ralph Rainger"
-  copyright = \markup \small { \now " " "© 1934 Paramount Productions Music Corp." }
-}
+headerTitle = "June in January"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Leo Robin and Ralph Rainger"
+headerCopyright = "© 1934 Paramount Productions Music Corp."
 
 refrainLyrics = \lyricmode {
 It's June in Jan -- u -- ar -- y

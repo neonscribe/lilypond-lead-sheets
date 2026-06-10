@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.60319Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Can't Help Lovin' Dat Man"
-  subtitle = \subtitle
-  poet = "Oscar Hammerstein II"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1927 T.B. Harms Company" }
-}
+headerTitle = "Can't Help Lovin' Dat Man"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Hammerstein II"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1927 T.B. Harms Company"
 
 refrainLyrics = \lyricmode {
 Fish got to swim __ and birds got to fly. __

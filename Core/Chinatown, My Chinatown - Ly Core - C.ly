@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.389366Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Chinatown, My Chinatown"
-  subtitle = \subtitle
-  poet = "William Jerome"
-  composer = "Jean Schwartz"
-  copyright = \markup \small { \now " " "© 1910 Jerome H. Remick & Co." }
-}
+headerTitle = "Chinatown, My Chinatown"
+headerSubtitle = \subtitle
+headerPoet = "William Jerome"
+headerComposer = "Jean Schwartz"
+headerCopyright = "© 1910 Jerome H. Remick & Co."
 
 refrainLyrics = \lyricmode {
 Chi -- na -- town, my Chi -- na -- town, where the lights are low.

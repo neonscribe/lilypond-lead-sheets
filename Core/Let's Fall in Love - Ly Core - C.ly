@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.193424Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Let's Fall in Love"
-  subtitle = \subtitle
-  poet = "Ted Koehler"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1933 Bourne Corp." }
-}
+headerTitle = "Let's Fall in Love"
+headerSubtitle = \subtitle
+headerPoet = "Ted Koehler"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1933 Bourne Corp."
 
 refrainLyrics = \lyricmode {
 Let's fall in love. Why should -- n't we __ fall in love?

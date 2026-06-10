@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.062841Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sunny"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bobby Hebb"
-  copyright = \markup \small { \now " " "© 1966 Portable Music Company, Inc." }
-}
+headerTitle = "Sunny"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bobby Hebb"
+headerCopyright = "© 1966 Portable Music Company, Inc."
 
 refrainLyrics = \lyricmode {
 Sun -- ny, yes -- ter -- day my life was filled with rain. __

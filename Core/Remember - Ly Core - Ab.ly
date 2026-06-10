@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.511701Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Remember (4/4)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Irving Berlin (arranged by Hank Mobley)"
-  copyright = \markup \small { \now " " "© 1925 Irving Berlin, Inc." }
-}
+headerTitle = "Remember (4/4)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Irving Berlin (arranged by Hank Mobley)"
+headerCopyright = "© 1925 Irving Berlin, Inc."
 
 leadingEighth = ##t
 

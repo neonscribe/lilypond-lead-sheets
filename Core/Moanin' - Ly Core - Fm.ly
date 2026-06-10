@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.69412Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Moanin'"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bobby Timmons"
-  copyright = \markup \small { \now " " "© 1958 Second Floor Music" }
-}
+headerTitle = "Moanin'"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bobby Timmons"
+headerCopyright = "© 1958 Second Floor Music"
 
 refrainChords = \chordmode {
   s1

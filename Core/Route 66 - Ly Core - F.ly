@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:49.046257Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Route 66"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bobby Troup"
-  copyright = \markup \small { \now " " "© 1946 Burke & Van Heusen, Inc." }
-}
+headerTitle = "Route 66"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bobby Troup"
+headerCopyright = "© 1946 Burke & Van Heusen, Inc."
 
 leadingEighth = ##t
 

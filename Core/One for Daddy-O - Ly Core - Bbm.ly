@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.441804Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "One for Daddy-O"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Nat Adderley"
-  copyright = \markup \small { \now " " "© 1958 Upam Music Co." }
-}
+headerTitle = "One for Daddy-O"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Nat Adderley"
+headerCopyright = "© 1958 Upam Music Co."
 
 refrainChords = \chordmode {
   s2. bf1:m7 c2:m7.5- f2:7 bf1:m7 bf1:7.9+ ef1:7 ef1:7

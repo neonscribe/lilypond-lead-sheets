@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.502259Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blues by Five"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Red Garland"
-  copyright = \markup \small { \now " " "© 1956 Prestige Music" }
-}
+headerTitle = "Blues by Five"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Red Garland"
+headerCopyright = "© 1956 Prestige Music"
 
 refrainChords = \chordmode {
   s4

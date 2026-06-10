@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.226304Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "This Can't Be Love"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1938 Chappell & Co." }
-}
+headerTitle = "This Can't Be Love"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1938 Chappell & Co."
 
 refrainLyrics = \lyricmode {
   This can't be love be -- cause I feel so well. __

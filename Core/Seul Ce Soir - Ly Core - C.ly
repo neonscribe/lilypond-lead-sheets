@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.801156Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "(Je Suis) Seul Ce Soir"
-  subtitle = \subtitle
-  poet = "Rose Noel and Jean Casanova"
-  composer = "Paul Durand"
-  copyright = \markup \small { \now " " "© 1940 Editions Musicales Europa" }
-}
+headerTitle = "(Je Suis) Seul Ce Soir"
+headerSubtitle = \subtitle
+headerPoet = "Rose Noel and Jean Casanova"
+headerComposer = "Paul Durand"
+headerCopyright = "© 1940 Editions Musicales Europa"
 
 refrainLyrics = \lyricmode {
 Je suis seul ce soir a -- vec mes rê -- ê -- ves,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.060984Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "On a Slow Boat to China"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Frank Loesser"
-  copyright = \markup \small { \now " " "© 1948 Frank Music Corp." }
-}
+headerTitle = "On a Slow Boat to China"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Frank Loesser"
+headerCopyright = "© 1948 Frank Music Corp."
 
 refrainLyrics = \lyricmode {
 I'd love to get you __ on a slow boat to Chi -- na, __

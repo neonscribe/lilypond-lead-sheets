@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.573523Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Ornithology"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charlie Parker and Bennie Harris"
-  copyright = \markup \small { \now " " "© 1946 Atlantic Music Corp." }
-}
+headerTitle = "Ornithology"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Parker and Bennie Harris"
+headerCopyright = "© 1946 Atlantic Music Corp."
 
 leadingEighth = ##t
 

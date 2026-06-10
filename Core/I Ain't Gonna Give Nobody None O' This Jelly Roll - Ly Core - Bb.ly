@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.593615Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Ain't Gonna Give Nobody None O' This Jelly Roll"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Spencer Williams and Clarence Williams"
-  copyright = \markup \small { \now " " "© 1919 Shapiro, Bernstein & Co. Inc." }
-}
+headerTitle = "I Ain't Gonna Give Nobody None O' This Jelly Roll"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Spencer Williams and Clarence Williams"
+headerCopyright = "© 1919 Shapiro, Bernstein & Co. Inc."
 
 refrainLyrics = \lyricmode {
   I ain't gon -- na give no -- bod -- y none o' my jel -- ly roll. __

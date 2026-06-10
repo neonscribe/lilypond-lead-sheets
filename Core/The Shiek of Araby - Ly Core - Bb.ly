@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.375517Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Shiek of Araby"
-  subtitle = \subtitle
-  poet = "Harry B Smith and Francis Wheeler"
-  composer = "Ted Snyder"
-  copyright = \markup \small { \now " " "© 1921 Ted Snyder Music Publishing Co." }
-}
+headerTitle = "The Shiek of Araby"
+headerSubtitle = \subtitle
+headerPoet = "Harry B Smith and Francis Wheeler"
+headerComposer = "Ted Snyder"
+headerCopyright = "© 1921 Ted Snyder Music Publishing Co."
 
 refrainLyrics = \lyricmode {
 I'm the Shiek of Ar -- a -- by, __

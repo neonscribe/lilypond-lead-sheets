@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.108982Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Beale Street Blues"
-  subtitle = \subtitle
-  poet = ""
-  composer = "W. C. Handy"
-  copyright = \markup \small { \now " " "© 1916 Pack & Handy Music Co. Inc." }
-}
+headerTitle = "Beale Street Blues"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "W. C. Handy"
+headerCopyright = "© 1916 Pack & Handy Music Co. Inc."
 
 leadingEighth = ##t
 

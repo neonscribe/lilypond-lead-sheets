@@ -12,13 +12,11 @@ songID = "2026-06-01T22:16:39.246314Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "In the Wee Small Hours of the Morning"
-  subtitle = \subtitle
-  poet = "Bob Hilliard"
-  composer = "David Mann"
-  copyright = \markup \small { \now " " "© 1955 Bourne Corp. and Redd Evans Music Corp." }
-}
+headerTitle = "In the Wee Small Hours of the Morning"
+headerSubtitle = \subtitle
+headerPoet = "Bob Hilliard"
+headerComposer = "David Mann"
+headerCopyright = "© 1955 Bourne Corp. and Redd Evans Music Corp."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 In the wee small hours of the morn -- ing

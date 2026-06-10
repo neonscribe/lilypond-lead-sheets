@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.706144Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Hawaii Five-O Theme"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Mort Stevens"
-  copyright = \markup \small { \now " " "© 1969 Famous Music LLC and Aspenfair Music" }
-}
+headerTitle = "Hawaii Five-O Theme"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Mort Stevens"
+headerCopyright = "© 1969 Famous Music LLC and Aspenfair Music"
 
 straightEighths = ##t
 

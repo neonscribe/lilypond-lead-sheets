@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:41.568025Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Oh, Lady Be Good"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1924 WB Music Corp." }
-}
+headerTitle = "Oh, Lady Be Good"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1924 WB Music Corp."
 
 refrainLyrics = \lyricmode {
   _ _ _

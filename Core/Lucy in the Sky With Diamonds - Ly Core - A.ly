@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.42588Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lucy in the Sky With Diamonds"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Lennon/Paul McCartney"
-  copyright = \markup \small { \now " " "© 1967 Northern Songs Ltd." }
-}
+headerTitle = "Lucy in the Sky With Diamonds"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Lennon/Paul McCartney"
+headerCopyright = "© 1967 Northern Songs Ltd."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _

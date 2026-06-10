@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.593776Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Little Sunflower"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Freddie Hubbard"
-  copyright = \markup \small { \now " " "© 1967 Hubtones Music Co." }
-}
+headerTitle = "Little Sunflower"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Freddie Hubbard"
+headerCopyright = "© 1967 Hubtones Music Co."
 
 introChords = \chordmode {
   d1:m d1:m d1:m d1:m

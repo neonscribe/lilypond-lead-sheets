@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.25026Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Five Spot After Dark"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Benny Golson"
-  copyright = \markup \small { \now " " "© 1959 Time Step Music" }
-}
+headerTitle = "Five Spot After Dark"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Benny Golson"
+headerCopyright = "© 1959 Time Step Music"
 
 refrainChords = \chordmode {
   b1:m7 b1:m7 b1:m7 b1:m7

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.560394Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Call Me"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Tony Hatch"
-  copyright = \markup \small { \now " " "© 1965 Welbeck Music Ltd." }
-}
+headerTitle = "Call Me"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Tony Hatch"
+headerCopyright = "© 1965 Welbeck Music Ltd."
 
 refrainLyrics = \lyricmode {
 }

@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:35.819197Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Concentrate on You"
-  subtitle = \subtitle
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1939 Chappell & Co." }
-}
+headerTitle = "I Concentrate on You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1939 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 When -- ev -- er skies look grey to me

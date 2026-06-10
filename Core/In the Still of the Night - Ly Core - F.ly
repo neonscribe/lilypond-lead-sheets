@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:39.203264Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "In the Still of the Night"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1937 Chappell & Co." }
-}
+headerTitle = "In the Still of the Night"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1937 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 In the still of the night

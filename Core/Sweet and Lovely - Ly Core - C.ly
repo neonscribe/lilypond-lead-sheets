@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:53.28667Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sweet and Lovely"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Gus Arnheim, Harry Tobias and Jules Lemare"
-  copyright = \markup \small { \now " " "© 1931 Metro-Goldwyn-Mayer Corp." }
-}
+headerTitle = "Sweet and Lovely"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Gus Arnheim, Harry Tobias and Jules Lemare"
+headerCopyright = "© 1931 Metro-Goldwyn-Mayer Corp."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Sweet and love -- ly. Sweet -- er than the ros -- es in May. __

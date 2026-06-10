@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.784448Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Don't Blame Me"
-  subtitle = \subtitle
-  poet = "Dorothy Fields"
-  composer = "Jimmy McHugh"
-  copyright = \markup \small { \now " " "© 1932 Metro-Goldwyn-Mayer Inc." }
-}
+headerTitle = "Don't Blame Me"
+headerSubtitle = \subtitle
+headerPoet = "Dorothy Fields"
+headerComposer = "Jimmy McHugh"
+headerCopyright = "© 1932 Metro-Goldwyn-Mayer Inc."
 
 refrainLyrics = \lyricmode {
 Don't blame me for fall -- ing in love with you.

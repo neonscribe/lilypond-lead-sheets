@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:24.290189Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "All Alone (Left Alone)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Billie Holiday, Mal Waldron"
-  copyright = \markup \small { \now " " "© 1959 Edward B. Marks Music Company" }
-}
+headerTitle = "All Alone (Left Alone)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Billie Holiday, Mal Waldron"
+headerCopyright = "© 1959 Edward B. Marks Music Company"
 
 refrainLyrics = \lyricmode {
 Where's the love that's made to fill my heart?

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.10248Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Who Walks In When I Walk Out?"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ralph Freed, Al Hoffman and Al Goodhart"
-  copyright = \markup \small { \now " " "© 1933 Southern Music Pub. Co. Inc." }
-}
+headerTitle = "Who Walks In When I Walk Out?"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ralph Freed, Al Hoffman and Al Goodhart"
+headerCopyright = "© 1933 Southern Music Pub. Co. Inc."
 
 refrainLyrics = \lyricmode {
 Who walks in when I walk out? And who gives you that “Hi _ _ _ ba -- by.”

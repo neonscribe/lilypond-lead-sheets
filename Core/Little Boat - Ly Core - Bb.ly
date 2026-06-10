@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.504881Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Little Boat (O Barquinho)"
-  subtitle = \subtitle
-  poet = "Ronaldo Bocoli, Buddy Kaye"
-  composer = "Roberto Menescal"
-  copyright = \markup \small { \now " " "© 1963 Editions Sacha S.A.R.L." }
-}
+headerTitle = "Little Boat (O Barquinho)"
+headerSubtitle = \subtitle
+headerPoet = "Ronaldo Bocoli, Buddy Kaye"
+headerComposer = "Roberto Menescal"
+headerCopyright = "© 1963 Editions Sacha S.A.R.L."
 
 bossaRhythm = ##t
 

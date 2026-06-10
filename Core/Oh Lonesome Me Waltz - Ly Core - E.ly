@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:46.794586Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Oh, Lonesome Me (in 3, Neil Young Style)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Don Gibson"
-  copyright = \markup \small { \now " " "© 1957 Acuff Rose Music" }
-}
+headerTitle = "Oh, Lonesome Me (in 3, Neil Young Style)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Don Gibson"
+headerCopyright = "© 1957 Acuff Rose Music"
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _

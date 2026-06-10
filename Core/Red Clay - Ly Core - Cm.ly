@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.465281Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Red Clay"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Freddie Hubbard"
-  copyright = \markup \small { \now " " "© 1972 Hubtones Music Co." }
-}
+headerTitle = "Red Clay"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Freddie Hubbard"
+headerCopyright = "© 1972 Hubtones Music Co."
 
 leadingEighth = ##t
 

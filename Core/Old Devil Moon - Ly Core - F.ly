@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:46.886004Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Old Devil Moon"
-  subtitle = \subtitle
-  poet = "E.Y. Harburg"
-  composer = "Burton Lane"
-  copyright = \markup \small { \now " " "© 1946 Chappell & Co." }
-}
+headerTitle = "Old Devil Moon"
+headerSubtitle = \subtitle
+headerPoet = "E.Y. Harburg"
+headerComposer = "Burton Lane"
+headerCopyright = "© 1946 Chappell & Co."
 
 refrainLyrics = \lyricmode {
   I look at you and sud -- den -- ly, some -- thing in your eyes I see

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.034642Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "'Deed I Do"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Walter Hirsch and Fred Rose"
-  copyright = \markup \small { \now " " "© 1926 Ted Browne Music Co. Inc." }
-}
+headerTitle = "'Deed I Do"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Walter Hirsch and Fred Rose"
+headerCopyright = "© 1926 Ted Browne Music Co. Inc."
 
 refrainLyrics = \lyricmode {
   Do I __ want you __ Oh my, __ do I? __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.697164Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Come Sunday"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1946 G. Schirmer, Inc." }
-}
+headerTitle = "Come Sunday"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1946 G. Schirmer, Inc."
 
 refrainChords = \chordmode {
   f1:7 ef1:7 f4:7 \chordSlash 2 d4:7.5+ g1:7

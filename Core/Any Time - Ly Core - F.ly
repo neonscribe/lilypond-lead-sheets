@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.007553Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Any Time (Anytime)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Herbert Happy Lawson"
-  copyright = \markup \small { \now " " "© 1921 Herbert Happy Lawson Music Publishing Company" }
-}
+headerTitle = "Any Time (Anytime)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Herbert Happy Lawson"
+headerCopyright = "© 1921 Herbert Happy Lawson Music Publishing Company"
 
 introChords = \chordmode {
   s2

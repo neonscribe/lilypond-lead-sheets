@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.554388Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Do I Love You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1940 Chappell & Co." }
-}
+headerTitle = "Do I Love You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1940 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Do I love you, do I? __ Does -- n't one and one make two? __

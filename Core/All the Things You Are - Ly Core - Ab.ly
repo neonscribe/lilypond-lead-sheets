@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.454948Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "All the Things You Are"
-  subtitle = \subtitle
-  poet = "Oscar Hammerstein II"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1939 T.B. Harms Co." }
-}
+headerTitle = "All the Things You Are"
+headerSubtitle = \subtitle
+headerPoet = "Oscar Hammerstein II"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1939 T.B. Harms Co."
 
 verseLyrics = \lyricmode {
 Time and a -- gain I've longed for ad -- ven -- ture,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.039784Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'm a Fool to Want You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Jack Wolf, Simple Herron and Frank Sinatra"
-  copyright = \markup \small { \now " " "© 1951 Barton Music Corp." }
-}
+headerTitle = "I'm a Fool to Want You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Jack Wolf, Simple Herron and Frank Sinatra"
+headerCopyright = "© 1951 Barton Music Corp."
 
 refrainLyrics = \lyricmode {
 I'm a fool to want you

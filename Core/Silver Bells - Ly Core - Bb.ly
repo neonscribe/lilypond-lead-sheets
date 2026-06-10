@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.070556Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Silver Bells"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Jay Livingston and Ray Evans"
-  copyright = \markup \small { \now " " "© 1950 Paramount Music Corporation" }
-}
+headerTitle = "Silver Bells"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Jay Livingston and Ray Evans"
+headerCopyright = "© 1950 Paramount Music Corporation"
 
 refrainLyrics = \lyricmode {
 Cit -- y side -- walks, bus -- y side -- walks

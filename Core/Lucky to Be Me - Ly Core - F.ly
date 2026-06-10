@@ -11,13 +11,11 @@ songID = "2026-06-01T22:16:43.380478Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lucky to Be Me"
-  subtitle = \subtitle
-  poet = "Adolph Green, Betty Comden"
-  composer = "Leonard Bernstein"
-  copyright = \markup \small { \now " " "© 1944 Warner Bros, Inc." }
-}
+headerTitle = "Lucky to Be Me"
+headerSubtitle = \subtitle
+headerPoet = "Adolph Green, Betty Comden"
+headerComposer = "Leonard Bernstein"
+headerCopyright = "© 1944 Warner Bros, Inc."
 
 refrainMaleSingerLyrics = \lyricmode {
 What a day! For -- tune smiled and came my way,

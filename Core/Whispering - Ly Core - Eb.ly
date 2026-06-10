@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.056873Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Whispering"
-  subtitle = \subtitle
-  poet = "Malvin Schonberger"
-  composer = "John Schonberger"
-  copyright = \markup \small { \now " " "© 1920 Sherman, Clay & Co." }
-}
+headerTitle = "Whispering"
+headerSubtitle = \subtitle
+headerPoet = "Malvin Schonberger"
+headerComposer = "John Schonberger"
+headerCopyright = "© 1920 Sherman, Clay & Co."
 
 refrainLyrics = \lyricmode {
   Whis -- per -- ing while you cud -- dle near me,

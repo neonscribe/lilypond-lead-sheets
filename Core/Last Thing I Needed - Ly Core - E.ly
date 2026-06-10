@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.747137Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Last Thing I Needed First Thing This Morning"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Gary Nunn and Donna Farar"
-  copyright = \markup \small { \now " " "© 1982 Nunn Publishing Co." }
-}
+headerTitle = "Last Thing I Needed First Thing This Morning"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Gary Nunn and Donna Farar"
+headerCopyright = "© 1982 Nunn Publishing Co."
 
 straightEighths = ##t
 

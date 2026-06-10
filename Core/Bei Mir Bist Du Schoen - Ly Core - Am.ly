@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:26.288887Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bei Mir Bist Du Schön (Means That You're Grand)"
-  subtitle = \subtitle
-  poet = "Jacob Jacobs, translated by Sammy Cahn and Saul Chaplin"
-  composer = "Sholom Secunda"
-  copyright = \markup \small { \now " " "© 1932 J & J Kammen Music Company" }
-}
+headerTitle = "Bei Mir Bist Du Schön (Means That You're Grand)"
+headerSubtitle = \subtitle
+headerPoet = "Jacob Jacobs, translated by Sammy Cahn and Saul Chaplin"
+headerComposer = "Sholom Secunda"
+headerCopyright = "© 1932 J & J Kammen Music Company"
 
 leadingEighth = ##t
 

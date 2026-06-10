@@ -4,13 +4,11 @@ songID = "2026-06-01T22:17:00.103479Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You Go To My Head"
-  subtitle = \subtitle
-  poet = "Haven Gillespie"
-  composer = "J. Fred Coots"
-  copyright = \markup \small { \now " " "© 1938 Remick Music Corp." }
-}
+headerTitle = "You Go To My Head"
+headerSubtitle = \subtitle
+headerPoet = "Haven Gillespie"
+headerComposer = "J. Fred Coots"
+headerCopyright = "© 1938 Remick Music Corp."
 
 refrainLyrics = \lyricmode {
   You

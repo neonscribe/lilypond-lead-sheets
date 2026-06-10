@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.333349Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I've Got You Under My Skin"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1936 Chappell & Co." }
-}
+headerTitle = "I've Got You Under My Skin"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1936 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 I've got you __ un -- der my skin. __

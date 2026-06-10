@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:44.559806Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Minority"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Gigi Gryce"
-  copyright = \markup \small { \now " " "© 1953 Twenty-Eighth Street Music" }
-}
+headerTitle = "Minority"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Gigi Gryce"
+headerCopyright = "© 1953 Twenty-Eighth Street Music"
 
 refrainChords = \chordmode {
   f1:m6 f1:m6 g1:m7 c1:7

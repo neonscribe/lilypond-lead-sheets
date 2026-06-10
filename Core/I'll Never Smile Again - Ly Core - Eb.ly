@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.548009Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'll Never Smile Again"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ruth Lowe"
-  copyright = \markup \small { \now " " "© 1939 Sun Music Co., Inc." }
-}
+headerTitle = "I'll Never Smile Again"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ruth Lowe"
+headerCopyright = "© 1939 Sun Music Co., Inc."
 
 refrainLyrics = \lyricmode {
 I'll nev -- er smile a -- gain un -- til I smile at you.

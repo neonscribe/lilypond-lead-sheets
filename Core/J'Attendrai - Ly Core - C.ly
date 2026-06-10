@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.427636Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "J'Attendrai"
-  subtitle = \subtitle
-  poet = "Louis Poterat, Anna Sosenko"
-  composer = "Dino Olivieri"
-  copyright = \markup \small { \now " " "© 1938 P. Leonardi, Milano, Italy" }
-}
+headerTitle = "J'Attendrai"
+headerSubtitle = \subtitle
+headerPoet = "Louis Poterat, Anna Sosenko"
+headerComposer = "Dino Olivieri"
+headerCopyright = "© 1938 P. Leonardi, Milano, Italy"
 
 NotRefrainLyrics = \lyricmode {
 J'attendrai

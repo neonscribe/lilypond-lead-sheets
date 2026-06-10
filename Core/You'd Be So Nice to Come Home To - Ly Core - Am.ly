@@ -4,12 +4,11 @@ songID = "2026-06-01T22:17:00.330311Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You'd Be So Nice to Come Home To"
-  subtitle = \subtitle
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1942 Chappell & Co." }
-}
+headerTitle = "You'd Be So Nice to Come Home To"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1942 Chappell & Co."
 
 verseLyrics = \lyricmode {
   It's not that you're fair -- er

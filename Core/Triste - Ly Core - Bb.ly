@@ -6,12 +6,11 @@ songID = "2026-06-01T22:16:57.072457Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Triste"
-  subtitle = \subtitle
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1967 Corcovado Music Corp." }
-}
+headerTitle = "Triste"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1967 Corcovado Music Corp."
 
 bossaRhythm = ##t
 

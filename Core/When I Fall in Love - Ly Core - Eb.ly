@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.478811Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "When I Fall in Love"
-  subtitle = \subtitle
-  poet = "Edward Heyman"
-  composer = "Victor Young"
-  copyright = \markup \small { \now " " "© 1952 Chappell & Co." }
-}
+headerTitle = "When I Fall in Love"
+headerSubtitle = \subtitle
+headerPoet = "Edward Heyman"
+headerComposer = "Victor Young"
+headerCopyright = "© 1952 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 When I fall in love

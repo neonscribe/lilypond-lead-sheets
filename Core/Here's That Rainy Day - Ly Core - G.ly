@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.079435Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Here's That Rainy Day"
-  subtitle = \subtitle
-  poet = "Johnny Burke"
-  composer = "Jimmy Van Heusen"
-  copyright = \markup \small { \now " " "© 1949 Burke & Van Heusen, Inc." }
-}
+headerTitle = "Here's That Rainy Day"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Burke"
+headerComposer = "Jimmy Van Heusen"
+headerCopyright = "© 1949 Burke & Van Heusen, Inc."
 
 refrainLyrics = \lyricmode {
 May -- be I should have saved those left -- o -- ver dreams,

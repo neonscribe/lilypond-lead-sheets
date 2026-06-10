@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.253316Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Good Bait"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Tadd Dameron/Count Basie"
-  copyright = \markup \small { \now " " "© 1944 Bregman-Vocco-Conn Inc." }
-}
+headerTitle = "Good Bait"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Tadd Dameron/Count Basie"
+headerCopyright = "© 1944 Bregman-Vocco-Conn Inc."
 
 leadingEighth = ##t
 

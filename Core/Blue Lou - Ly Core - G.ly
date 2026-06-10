@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.14945Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blue Lou"
-  subtitle = \subtitle
-  poet = "Irving Mills"
-  composer = "Edgar Sampson"
-  copyright = \markup \small { \now " " "© 1935 Mills Music" }
-}
+headerTitle = "Blue Lou"
+headerSubtitle = \subtitle
+headerPoet = "Irving Mills"
+headerComposer = "Edgar Sampson"
+headerCopyright = "© 1935 Mills Music"
 
 refrainChords = \chordmode {
   a1:m7.5- d1:7 a1:m7.5- d1:7

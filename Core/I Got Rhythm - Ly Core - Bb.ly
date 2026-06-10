@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.414098Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Got Rhythm"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1930 Gershwin Publishing Corp." }
-}
+headerTitle = "I Got Rhythm"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1930 Gershwin Publishing Corp."
 
 refrainLyrics = \lyricmode {
 I __ got rhy -- thm, __ I __ got mu -- sic, __

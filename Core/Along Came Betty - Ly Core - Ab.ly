@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.646341Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Along Came Betty"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Benny Golson"
-  copyright = \markup \small { \now " " "© 1958 Ibbob Music, Inc." }
-}
+headerTitle = "Along Came Betty"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Benny Golson"
+headerCopyright = "© 1958 Ibbob Music, Inc."
 
 refrainChords = \chordmode {
   bf1:m7 b2:m7 e2:7 bf1:m7 b2:m7 e2:7

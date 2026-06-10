@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:53.534606Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Taking a Chance on Love"
-  subtitle = \subtitle
-  poet = "John LaTouche & Ted Fetter"
-  composer = "Vernon Duke"
-  copyright = \markup \small { \now " " "© 1940 Leo Feist, Inc." }
-}
+headerTitle = "Taking a Chance on Love"
+headerSubtitle = \subtitle
+headerPoet = "John LaTouche & Ted Fetter"
+headerComposer = "Vernon Duke"
+headerCopyright = "© 1940 Leo Feist, Inc."
 
 refrainLyrics = \lyricmode {
 Here I go a -- gain. __ I hear those trum -- pets blow a -- gain. __

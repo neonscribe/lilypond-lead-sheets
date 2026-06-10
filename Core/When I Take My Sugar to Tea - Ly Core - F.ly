@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.522998Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "When I Take My Sugar to Tea"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sammy Fain, Irving Kahal and Pierre Norman"
-  copyright = \markup \small { \now " " "© 1931 Famous Music Corp." }
-}
+headerTitle = "When I Take My Sugar to Tea"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sammy Fain, Irving Kahal and Pierre Norman"
+headerCopyright = "© 1931 Famous Music Corp."
 
 leadingEighth = ##t
 

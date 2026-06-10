@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.63755Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Can't Believe That You're in Love With Me"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Clarence Gaskill and Jimmy McHugh"
-  copyright = \markup \small { \now " " "© 1926 Mills Music, Inc." }
-}
+headerTitle = "I Can't Believe That You're in Love With Me"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Clarence Gaskill and Jimmy McHugh"
+headerCopyright = "© 1926 Mills Music, Inc."
 
 refrainLyrics = \lyricmode {
 Your eyes of blue, your kiss -- es, too.

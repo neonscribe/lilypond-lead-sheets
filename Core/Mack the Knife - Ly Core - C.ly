@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.722234Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Mack the Knife"
-  subtitle = \subtitle
-  poet = "Bertolt Brecht/Marc Blitzstein"
-  composer = "Kurt Weill"
-  copyright = \markup \small { \now " " "© 1928 Universal Edition AG Wien" }
-}
+headerTitle = "Mack the Knife"
+headerSubtitle = \subtitle
+headerPoet = "Bertolt Brecht/Marc Blitzstein"
+headerComposer = "Kurt Weill"
+headerCopyright = "© 1928 Universal Edition AG Wien"
 
 refrainChords = \chordmode {
   s2

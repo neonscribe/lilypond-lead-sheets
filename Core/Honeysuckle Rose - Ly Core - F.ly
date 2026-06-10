@@ -12,13 +12,11 @@ songID = "2026-06-01T22:16:35.252334Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Honeysuckle Rose"
-  subtitle = \subtitle
-  poet = "Andy Razaf"
-  composer = "Fats Waller"
-  copyright = \markup \small { \now " " "© 1929 Santly Bros., Inc." }
-}
+headerTitle = "Honeysuckle Rose"
+headerSubtitle = \subtitle
+headerPoet = "Andy Razaf"
+headerComposer = "Fats Waller"
+headerCopyright = "© 1929 Santly Bros., Inc."
 
 refrainLyrics = \lyricmode {
 Ev -- 'ry hon -- ey -- bee fills with jeal -- ous -- y when they see you out with me,

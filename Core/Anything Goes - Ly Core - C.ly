@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:25.052596Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Anything Goes"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1934 Warner Bros Inc." }
-}
+headerTitle = "Anything Goes"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1934 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 In old -- en days, a glimpse of stock -- ing

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.252141Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "West Coast Blues"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Wes Montgomery"
-  copyright = \markup \small { \now " " "© 1960 Taggie Music Co." }
-}
+headerTitle = "West Coast Blues"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Wes Montgomery"
+headerCopyright = "© 1960 Taggie Music Co."
 
 refrainChords = \chordmode {
   bf2.:7 bf2.:7 af2.:7 af2.:7

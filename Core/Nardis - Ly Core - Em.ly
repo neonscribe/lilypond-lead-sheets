@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:46.09993Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Nardis"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Miles Davis"
-  copyright = \markup \small { \now " " "© 1958 Jazz Horn Music" }
-}
+headerTitle = "Nardis"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Miles Davis"
+headerCopyright = "© 1958 Jazz Horn Music"
 
 refrainChords = \chordmode {
   s2

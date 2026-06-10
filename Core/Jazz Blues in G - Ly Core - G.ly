@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.648236Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Jazz Blues in G"
-  subtitle = \subtitle
-  poet = ""
-  composer = ""
-  copyright = \markup \small { \now " " "" }
-}
+headerTitle = "Jazz Blues in G"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = ""
+headerCopyright = ""
 
 refrainChordsInC = \chordmode {
   c1:7 f1:7 c1:7 g2:m7 c2:7

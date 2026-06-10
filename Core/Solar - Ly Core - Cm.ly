@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.735146Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Solar"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Chuck Wayne (credited to Miles Davis)"
-  copyright = \markup \small { \now " " "© 1954 Prestige Music" }
-}
+headerTitle = "Solar"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Chuck Wayne (credited to Miles Davis)"
+headerCopyright = "© 1954 Prestige Music"
 
 refrainRealBookSixthChords = \chordmode {
   c1:m c1:m g1:m7 c1:7

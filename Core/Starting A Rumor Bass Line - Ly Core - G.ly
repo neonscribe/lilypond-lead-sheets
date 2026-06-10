@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:52.158965Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Starting A Rumor"
-  subtitle = "Steve Mackey's bass line from Delbert McClinton's 2009 album Acquired Taste"
-  composer = "Delbert McClinton / Gary Nicholson / Guy Clark"
-  copyright = \markup \small { \now " " "© 2009 EMI April Music Inc., Sony/ATV Cross Keys Publishing, Gary Nicholson Music" }
-}
+headerTitle = "Starting A Rumor"
+headerSubtitle = "Steve Mackey's bass line from Delbert McClinton's 2009 album Acquired Taste"
+headerPoet = ""
+headerComposer = "Delbert McClinton / Gary Nicholson / Guy Clark"
+headerCopyright = "© 2009 EMI April Music Inc., Sony/ATV Cross Keys Publishing, Gary NicholsheaderOn Music"
 
 refrainChords = \chordmode {
   e1:m b1:m c2. g4 g1

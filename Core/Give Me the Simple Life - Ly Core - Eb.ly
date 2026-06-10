@@ -13,13 +13,11 @@ songID = "2026-06-01T22:16:34.11789Z"
 \include "../Include/lead-sheets.ily"
 \include "../Include/even-brace.ily"
 
-\header {
-  title = "Give Me the Simple Life"
-  subtitle = \subtitle
-  poet = "Harry Ruby"
-  composer = "Rube Bloom"
-  copyright = \markup \small { \now " " "© 1945 WB Music Corp." }
-}
+headerTitle = "Give Me the Simple Life"
+headerSubtitle = \subtitle
+headerPoet = "Harry Ruby"
+headerComposer = "Rube Bloom"
+headerCopyright = "© 1945 WB Music Corp."
 
 verseLyrics = \lyricmode {
 Folks are blessed who make the best of ev -- 'ry day,

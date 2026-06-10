@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.545473Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blues for Alice"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charlie Parker"
-  copyright = \markup \small { \now " " "© 1951 Atlantic Music Corp." }
-}
+headerTitle = "Blues for Alice"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Parker"
+headerCopyright = "© 1951 Atlantic Music Corp."
 
 refrainChords = \chordmode {
   f1:6 e2:m7 a2:7.9- d2:m7 g2:7 c2:m7 f2:7

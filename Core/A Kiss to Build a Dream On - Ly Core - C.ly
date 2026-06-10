@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:23.709589Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "A Kiss to Build a Dream On"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bert Kalmar, Harry Ruby and Oscar Hammerstein II"
-  copyright = \markup \small { \now " " "© 1935 Miller Music Corporation" }
-}
+headerTitle = "A Kiss to Build a Dream On"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bert Kalmar, Harry Ruby and Oscar Hammerstein II"
+headerCopyright = "© 1935 Miller Music Corporation"
 
 refrainLyrics = \lyricmode {
 Give me a kiss to build a dream on and my im -- ag -- i -- na -- tion will thrive up -- on that kiss.

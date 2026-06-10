@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.421822Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "With a Gun"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Walter Becker and Donald Fagen"
-  copyright = \markup \small { \now " " "© 1974 Universal Music Corp." }
-}
+headerTitle = "With a Gun"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Walter Becker and Donald Fagen"
+headerCopyright = "© 1974 Universal Music Corp."
 
 straightEighths = ##t
 

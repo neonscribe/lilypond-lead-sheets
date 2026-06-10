@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:36.499723Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Had the Craziest Dream"
-  subtitle = \subtitle
-  poet = "Mack Gordon"
-  composer = "Harry Warren"
-  copyright = \markup \small { \now " " "© 1942 Twentieth Century Music Corporation" }
-}
+headerTitle = "I Had the Craziest Dream"
+headerSubtitle = \subtitle
+headerPoet = "Mack Gordon"
+headerComposer = "Harry Warren"
+headerCopyright = "© 1942 Twentieth Century Music Corporation"
 
 verseLyrics = \lyricmode {
 In a dream the strang -- est and the odd -- est things ap -- pear;

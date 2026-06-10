@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.258757Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Get a Kick Out of You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1934 HARMS, Inc." }
-}
+headerTitle = "I Get a Kick Out of You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1934 HARMS, Inc."
 
 refrainLyrics = \lyricmode {
 I get no kick from cham -- pagne. __

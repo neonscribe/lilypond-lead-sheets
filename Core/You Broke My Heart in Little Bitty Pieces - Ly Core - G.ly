@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.90983Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You Broke My Heart (In Little Bitty Pieces)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Hank Thompson"
-  copyright = "© 1947 Metro Music, Inc."
-}
+headerTitle = "You Broke My Heart (In Little Bitty Pieces)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Hank Thompson"
+headerCopyright = "© 1947 Metro Music, Inc."
 
 introKey = g
 

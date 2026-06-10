@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.567367Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Close Your Eyes"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bernice Petkere"
-  copyright = \markup \small { \now " " "© 1933 Miller Music Corporation" }
-}
+headerTitle = "Close Your Eyes"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bernice Petkere"
+headerCopyright = "© 1933 Miller Music Corporation"
 
 refrainLyrics = \lyricmode {
 Close your eyes. __ Rest your head on my shoul -- der and sleep.

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.722184Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Tired of Waiting for You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ray Davies"
-  copyright = \markup \small { \now " " "© 1964 Edward Kassner Music Co. Ltd." }
-}
+headerTitle = "Tired of Waiting for You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ray Davies"
+headerCopyright = "© 1964 Edward Kassner Music Co. Ltd."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _

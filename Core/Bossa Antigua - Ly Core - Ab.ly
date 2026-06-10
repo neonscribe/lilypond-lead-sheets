@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.883732Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bossa Antigua"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Paul Desmond"
-  copyright = \markup \small { \now " " "© 1965 Desmond Music Company" }
-}
+headerTitle = "Bossa Antigua"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Paul Desmond"
+headerCopyright = "© 1965 Desmond Music Company"
 
 refrainChords = \chordmode {
   s2

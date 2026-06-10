@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.433157Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Chitlins Con Carne"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Kenny Burrell"
-  copyright = \markup \small { \now " " "© 1963 Elliot Music" }
-}
+headerTitle = "Chitlins Con Carne"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Kenny Burrell"
+headerCopyright = "© 1963 Elliot Music"
 
 refrainChords = \chordmode {
   r1*4

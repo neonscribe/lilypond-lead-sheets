@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:51.976318Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Star Eyes"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Don Raye and Gene dePaul"
-  copyright = \markup \small { \now " " "© 1943 Leo Feist, Inc." }
-}
+headerTitle = "Star Eyes"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Don Raye and Gene dePaul"
+headerCopyright = "© 1943 Leo Feist, Inc."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _

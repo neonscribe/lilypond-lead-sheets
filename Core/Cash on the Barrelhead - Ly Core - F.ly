@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.782399Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Cash on the Barrelhead"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charles Louvin and Ira Louvin"
-  copyright = \markup \small { \now " " "© 1956 Acuff-Rose Music, Inc." }
-}
+headerTitle = "Cash on the Barrelhead"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charles Louvin and Ira Louvin"
+headerCopyright = "© 1956 Acuff-Rose Music, Inc."
 
 refrainLyrics = \lyricmode {
 Got in a lit -- tle trou -- ble at the coun -- ty seat.

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.916888Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Manoir de Mes Rêves (Django's Castle)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Django Reinhardt"
-  copyright = \markup \small { \now " " "© 1945 Publications Francis Day S.A." }
-}
+headerTitle = "Manoir de Mes Rêves (Django's Castle)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Django Reinhardt"
+headerCopyright = "© 1945 Publications Francis Day S.A."
 
 refrainChords = \chordmode {
   a2:7/bf

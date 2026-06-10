@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.068957Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "We Three Kings of Orient Are"
-  subtitle = \subtitle
-  poet = ""
-  composer = ""
-  copyright = \markup \small { \now " " "" }
-}
+headerTitle = "We Three Kings of Orient Are"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = ""
+headerCopyright = ""
 
 refrainLyrics = \lyricmode {
   We three kings of O -- ri -- ent are

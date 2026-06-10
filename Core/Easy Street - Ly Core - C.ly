@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:32.44423Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Easy Street"
-  subtitle = \subtitle
-  composer = "Alan Rankin Jones"
-  copyright = \markup \small { \now " " "© 1941 Beechwood Music Corp." }
-}
+headerTitle = "Easy Street"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Alan Rankin Jones"
+headerCopyright = "© 1941 Beechwood Music Corp."
 
 refrainLyrics = \lyricmode {
   Eas -- y Street, __ I'd love to live on Eas -- y Street, __

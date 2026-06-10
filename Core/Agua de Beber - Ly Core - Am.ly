@@ -21,13 +21,11 @@ lyricsCredit = #(let ((v (assoc lyricsLanguage
 			    ("portuguese" . "Portuguese lyrics by Vinícius de Moraes")))))
 		 (if v (cdr v) ""))
 
-\header {
-  title = "Água de Beber (Water to Drink)"
-  subtitle = \subtitle
-  poet = \lyricsCredit
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1963 Jobim Music" }
-}
+headerTitle = "Água de Beber (Water to Drink)"
+headerSubtitle = \subtitle
+headerPoet = \lyricsCredit
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1963 Jobim Music"
 
 bossaRhythm = ##t
 

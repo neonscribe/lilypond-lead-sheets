@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.87613Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Angel Eyes"
-  subtitle = \subtitle
-  poet = "Earl Brent"
-  composer = "Matt Dennis"
-  copyright = \markup \small { \now " " "© 1946 Dorsey Bros. Music" }
-}
+headerTitle = "Angel Eyes"
+headerSubtitle = \subtitle
+headerPoet = "Earl Brent"
+headerComposer = "Matt Dennis"
+headerCopyright = "© 1946 Dorsey Bros. Music"
 
 refrainLyrics = \lyricmode {
 Try to think __ that love's not a -- round, __

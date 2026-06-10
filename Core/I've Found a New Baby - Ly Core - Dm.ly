@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:38.249842Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I've Found a New Baby"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Jack Palmer and Spencer Williams"
-  copyright = \markup \small { \now " " "© 1926 Clarence Williams Music Publishing Co. Inc." }
-}
+headerTitle = "I've Found a New Baby"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Jack Palmer and Spencer Williams"
+headerCopyright = "© 1926 Clarence Williams Music Publishing Co. Inc."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
   I've found a new ba -- by, __ I've found a new girl,

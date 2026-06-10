@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.10034Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Charade"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Henry Mancini"
-  copyright = \markup \small { \now " " "© 1963 Northridge Music Co." }
-}
+headerTitle = "Charade"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Henry Mancini"
+headerCopyright = "© 1963 Northridge Music Co."
 
 refrainLyrics = \lyricmode {
   When we played our cha -- rade__

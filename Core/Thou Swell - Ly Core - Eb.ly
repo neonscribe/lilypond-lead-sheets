@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.408318Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Thou Swell"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1927 Chappell & Co." }
-}
+headerTitle = "Thou Swell"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1927 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Thou swell, thou wit -- ty, __ thou sweet, thou grand.

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.917368Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Central Park West"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Coltrane"
-  copyright = \markup \small { \now " " "© 1964 Jowcol Music" }
-}
+headerTitle = "Central Park West"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Coltrane"
+headerCopyright = "© 1964 Jowcol Music"
 
 refrainChords = \chordmode {
   cs4:m7 fs4:7

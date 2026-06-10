@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:52.729231Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Struttin' With Some Barbecue"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Lil Armstrong"
-  copyright = \markup \small { \now " " "© 1928 Universal Music Corp." }
-}
+headerTitle = "Struttin' With Some Barbecue"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Lil Armstrong"
+headerCopyright = "© 1928 Universal Music Corp."
 
 refrainChords = \chordmode {
   s2

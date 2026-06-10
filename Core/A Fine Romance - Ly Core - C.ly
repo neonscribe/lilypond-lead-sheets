@@ -4,13 +4,11 @@ songID = "2026-06-01T22:15:01.913808Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "A Fine Romance"
-  subtitle = \subtitle
-  poet = "Dorothy Fields"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1936 Chappell & Co." }
-}
+headerTitle = "A Fine Romance"
+headerSubtitle = \subtitle
+headerPoet = "Dorothy Fields"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1936 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 A fine ro -- mance, with no kiss -- es.

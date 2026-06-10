@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.108002Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Pick Yourself Up"
-  subtitle = \subtitle
-  poet = "Dorothy Fields"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1936 T.B. Harms, Inc." }
-}
+headerTitle = "Pick Yourself Up"
+headerSubtitle = \subtitle
+headerPoet = "Dorothy Fields"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1936 T.B. Harms, Inc."
 
 refrainLyrics = \lyricmode {
 Noth -- ing's im -- pos -- si -- ble I hav found.

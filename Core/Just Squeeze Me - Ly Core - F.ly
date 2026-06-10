@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.255181Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Just Squeeze Me"
-  subtitle = \subtitle
-  poet = "Lee Gaines"
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1946 Robbins Music Corporation" }
-}
+headerTitle = "Just Squeeze Me"
+headerSubtitle = \subtitle
+headerPoet = "Lee Gaines"
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1946 Robbins Music Corporation"
 
 refrainLyrics = \lyricmode {
 Treat me sweet and gen -- tle __ when you say good -- night. __

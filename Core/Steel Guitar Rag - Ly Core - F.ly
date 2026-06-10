@@ -8,13 +8,11 @@ songID = "2026-06-01T22:16:52.249131Z"
 
 straightEighths = ##t
 
-\header {
-  title = "Steel Guitar Rag"
-  subtitle = \subtitle
-  poet = "Merle Travis and Cliff Stone"
-  composer = "Leon McAuliffe"
-  copyright = \markup \small { \now " " "© 1941 Bourne Co." }
-}
+headerTitle = "Steel Guitar Rag"
+headerSubtitle = \subtitle
+headerPoet = "Merle Travis and Cliff Stone"
+headerComposer = "Leon McAuliffe"
+headerCopyright = "© 1941 Bourne Co."
 
 refrainLyrics = \lyricmode {
   Been run -- nin' a -- round, __ seen man -- y a town __

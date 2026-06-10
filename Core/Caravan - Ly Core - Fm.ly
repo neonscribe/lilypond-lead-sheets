@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.736312Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Caravan"
-  subtitle = \subtitle
-  poet = "Irving Mills"
-  composer = "Duke Ellington and Juan Tizol"
-  copyright = \markup \small { \now " " "© 1937 American Academy of Music, Inc." }
-}
+headerTitle = "Caravan"
+headerSubtitle = \subtitle
+headerPoet = "Irving Mills"
+headerComposer = "Duke Ellington and Juan Tizol"
+headerCopyright = "© 1937 American Academy of Music, Inc."
 
 refrainLyrics = \lyricmode {
 Night __ and stars a -- bove that shine so bright __

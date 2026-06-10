@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:44.740102Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Moanin' Low"
-  subtitle = \subtitle
-  poet = "Howard Dietz"
-  composer = "Ralph Rainger"
-  copyright = \markup \small { \now " " "© 1929 HARMS Inc." }
-}
+headerTitle = "Moanin' Low"
+headerSubtitle = \subtitle
+headerPoet = "Howard Dietz"
+headerComposer = "Ralph Rainger"
+headerCopyright = "© 1929 HARMS Inc."
 
 refrainLyrics = \lyricmode {
 Moan -- in' low, __ my sweet man I love him so, though he's mean __ as __ can be.

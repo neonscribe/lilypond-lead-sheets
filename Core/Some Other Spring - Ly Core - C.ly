@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.852308Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Some Other Spring"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Arthur Herzog, Jr. and Irene Kitchings"
-  copyright = \markup \small { \now " " "© 1939 Edward B. Marks Music Company" }
-}
+headerTitle = "Some Other Spring"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Arthur Herzog, Jr. and Irene Kitchings"
+headerCopyright = "© 1939 Edward B. Marks Music Company"
 
 refrainLyrics = \lyricmode {
 Some oth -- er spring, __ I'll try to love. __

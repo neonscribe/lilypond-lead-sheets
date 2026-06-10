@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.128143Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Days of Wine and Roses"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Henry Mancini"
-  copyright = \markup \small { \now " " "© 1962 M. Witmark & Sons" }
-}
+headerTitle = "The Days of Wine and Roses"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Henry Mancini"
+headerCopyright = "© 1962 M. Witmark & Sons"
 
 refrainLyrics = \lyricmode {
 The days __ of wine and ros -- es __ Laugh and run a -- way __ like a child at play, __

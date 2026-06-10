@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.976169Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blame It on My Youth"
-  subtitle = \subtitle
-  poet = "Edward Heyman"
-  composer = "Oscar Levant"
-  copyright = \markup \small { \now " " "© 1934 Levant Oscar Music" }
-}
+headerTitle = "Blame It on My Youth"
+headerSubtitle = \subtitle
+headerPoet = "Edward Heyman"
+headerComposer = "Oscar Levant"
+headerCopyright = "© 1934 Levant Oscar Music"
 
 refrainLyrics = \lyricmode {
 If I ex -- pect -- ed love __ when first we kissed,

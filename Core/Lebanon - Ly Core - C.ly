@@ -4,14 +4,12 @@ songID = "2026-06-01T22:16:42.010961Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lebanon"
-  subtitle = \subtitle
-  subsubtitle = "Not an exact transcription, there are extra measures between chorus and verse"
-  poet = ""
-  composer = "J.S. Ondara"
-  copyright = \markup \small { \now " " "© 2019" }
-}
+headerTitle = "Lebanon"
+headerSubtitle = \subtitle
+headerSubsubtitle = "Not an exact transcription, there are extra measures between chorus and verse"
+headerPoet = ""
+headerComposer = "J.S. Ondara"
+headerCopyright = "© 2019"
 
 refrainChords = \chordmode {
   c1 c1 c1 c1

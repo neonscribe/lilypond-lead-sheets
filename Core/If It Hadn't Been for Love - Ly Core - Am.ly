@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.699216Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "If It Hadn't Been for Love"
-  subtitle = \subtitle
-  poet = ""
-  composer =  "Michael Henderson and Chris Stapleton"
-  copyright = \markup \small { \now " " "© 2004 Chicken Shack Songs" }
-}
+headerTitle = "If It Hadn't Been for Love"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer =  "Michael Henderson and Chris Stapleton"
+headerCopyright = "© 2004 Chicken Shack Songs"
 
 refrainLyrics = \lyricmode {
 \set stanza = "1. "

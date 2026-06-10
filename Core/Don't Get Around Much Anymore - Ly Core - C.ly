@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.874097Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Don't Get Around Much Anymore"
-  subtitle = \subtitle
-  poet = "Bob Russell"
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1942 Robbins Music Corporation" }
-}
+headerTitle = "Don't Get Around Much Anymore"
+headerSubtitle = \subtitle
+headerPoet = "Bob Russell"
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1942 Robbins Music Corporation"
 
 refrainLyrics = \lyricmode {
   Missed the Sat -- ur -- day dance,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.336458Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lucky Southern"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Keith Jarrett"
-  copyright = \markup \small { \now " " "© 1972 Kundalini Music" }
-}
+headerTitle = "Lucky Southern"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Keith Jarrett"
+headerCopyright = "© 1972 Kundalini Music"
 
 bossaRhythm = ##t
 

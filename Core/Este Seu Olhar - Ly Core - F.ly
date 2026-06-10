@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:32.796794Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Este Seu Olhar"
-  subtitle = \subtitle
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1959 Editora Musical Arapuã" }
-}
+headerTitle = "Este Seu Olhar"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1959 Editora Musical Arapuã"
 
 bossaRhythm = ##t
 

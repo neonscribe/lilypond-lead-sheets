@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:39.159579Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "In a Sentimental Mood"
-  subtitle = \subtitle
-  poet = "Irving Mills and Manny Kurtz"
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1935 Milsons Music Publishing Corp." }
-}
+headerTitle = "In a Sentimental Mood"
+headerSubtitle = \subtitle
+headerPoet = "Irving Mills and Manny Kurtz"
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1935 Milsons Music Publishing Corp."
 
 refrainLyrics = \lyricmode {
 In a sen -- ti -- men -- tal mood __

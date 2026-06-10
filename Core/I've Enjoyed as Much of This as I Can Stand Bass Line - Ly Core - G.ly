@@ -4,12 +4,12 @@ songID = "2026-06-01T22:16:38.207476Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I've Enjoyed as Much of This as I Can Stand"
-  subtitle = "Bass transcription of Porter Wagoner's 1962 recording"
-  composer = "Bill Anderson"
-  % copyright = \markup \small { \now " " "© 1962 Moss Rose Publications, Inc." }
-}
+headerTitle = "I've Enjoyed as Much of This as I Can Stand"
+headerSubtitle = "Bass transcription of Porter Wagoner's 1962 recording"
+headerPoet = ""
+headerComposer = "Bill Anderson"
+headerCopyright = ""
+%% copyright = \markup \small { \now " " "© 1962 Moss Rose Publications, Inc." }
 
 whatKey = g
 

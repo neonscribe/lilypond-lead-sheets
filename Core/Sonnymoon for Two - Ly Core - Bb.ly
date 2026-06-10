@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.366645Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sonnymoon for Two"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sonny Rollins"
-  copyright = \markup \small { \now " " "© 1957 Son Rol Music Co." }
-}
+headerTitle = "Sonnymoon for Two"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sonny Rollins"
+headerCopyright = "© 1957 Son Rol Music Co."
 
 refrainChords = \chordmode {
   bf1:7 ef1:7 bf1:7 bf1:7

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.633195Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Heart Stood Still"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1927 Chappell & Co." }
-}
+headerTitle = "My Heart Stood Still"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1927 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 I took one look at you, that's all I meant to do,

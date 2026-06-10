@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:38.743881Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "If You Could See Me Now"
-  subtitle = \subtitle
-  poet = "Carl Sigman"
-  composer = "Tadd Dameron"
-  copyright = \markup \small { \now " " "© 1946 Warner Bros. Corporation" }
-}
+headerTitle = "If You Could See Me Now"
+headerSubtitle = \subtitle
+headerPoet = "Carl Sigman"
+headerComposer = "Tadd Dameron"
+headerCopyright = "© 1946 Warner Bros. Corporation"
 
 refrainLyrics = \lyricmode {
 If you could see me now you'd know how blue I've been.

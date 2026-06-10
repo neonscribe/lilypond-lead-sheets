@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.451054Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Django"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Lewis"
-  copyright = \markup \small { \now " " "© 1954 MJQ Music Inc." }
-}
+headerTitle = "Django"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Lewis"
+headerCopyright = "© 1954 MJQ Music Inc."
 
 straightEighths = ##t
 

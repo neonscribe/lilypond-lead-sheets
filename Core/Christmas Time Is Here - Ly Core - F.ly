@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.478443Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Christmas Time Is Here"
-  subtitle = \subtitle
-  poet = "Lee Mendelson"
-  composer = "Vince Guaraldi"
-  copyright = \markup \small { \now " " "© 1966 Lee Mendelson Film Productions, Inc." }
-}
+headerTitle = "Christmas Time Is Here"
+headerSubtitle = \subtitle
+headerPoet = "Lee Mendelson"
+headerComposer = "Vince Guaraldi"
+headerCopyright = "© 1966 Lee Mendelson Film Productions, Inc."
 
 refrainLyrics = \lyricmode {
 Christ -- mas time is here, hap -- pi -- ness and cheer.

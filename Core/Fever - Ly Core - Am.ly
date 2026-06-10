@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.208646Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Fever"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Eddie Cooley, Otis Blackwell"
-  copyright = \markup \small { \now " " "© 1956 Fort Knox Music Inc." }
-}
+headerTitle = "Fever"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Eddie Cooley, Otis Blackwell"
+headerCopyright = "© 1956 Fort Knox Music Inc."
 
 refrainLyrics = \lyricmode {
 }

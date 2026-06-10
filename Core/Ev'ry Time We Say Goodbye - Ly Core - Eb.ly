@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.841894Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Ev'ry Time We Say Goodbye"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1944 Chappell & Co." }
-}
+headerTitle = "Ev'ry Time We Say Goodbye"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1944 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Ev -- 'ry time __ we say good -- bye I die __ a lit -- tle.

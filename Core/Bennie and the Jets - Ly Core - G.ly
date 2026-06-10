@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.420445Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bennie and the Jets"
-  subtitle = \subtitle
-  poet = "Bernie Taupin"
-  composer = "Elton John"
-  copyright = \markup \small { \now " " "© 1973 Dick James Music Ltd." }
-}
+headerTitle = "Bennie and the Jets"
+headerSubtitle = \subtitle
+headerPoet = "Bernie Taupin"
+headerComposer = "Elton John"
+headerCopyright = "© 1973 Dick James Music Ltd."
 
 straightEighths = ##t
 

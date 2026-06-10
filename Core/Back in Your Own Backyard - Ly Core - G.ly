@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.861717Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Back in Your Own Backyard"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Al Jolson, Billy Rose, Dave Dreyer"
-  copyright = \markup \small { \now " " "© 1927 Bourne Co." }
-}
+headerTitle = "Back in Your Own Backyard"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Al Jolson, Billy Rose, Dave Dreyer"
+headerCopyright = "© 1927 Bourne Co."
 
 refrainLyrics = \lyricmode {
 The bird with fea -- thers of blue, __ is wait -- ing for you __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.070287Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "In Your Own Sweet Way"
-  subtitle = \subtitle
-  poet = "Iola Brubeck"
-  composer = "Dave Brubeck"
-  copyright = \markup \small { \now " " "© 1955 Derry Music Co." }
-}
+headerTitle = "In Your Own Sweet Way"
+headerSubtitle = \subtitle
+headerPoet = "Iola Brubeck"
+headerComposer = "Dave Brubeck"
+headerCopyright = "© 1955 Derry Music Co."
 
 refrainHLChords = \chordmode {
   s4

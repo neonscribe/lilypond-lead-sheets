@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.080095Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'm a Lonesome Fugitive"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Liz Anderson and Casey Anderson"
-  copyright = \markup \small { \now " " "© 1966 Acuff-Rose Music, Inc." }
-}
+headerTitle = "I'm a Lonesome Fugitive"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Liz Anderson and Casey Anderson"
+headerCopyright = "© 1966 Acuff-Rose Music, Inc."
 
 refrainLyrics = \lyricmode {
 I raised a lot of Cain back in my young -- er days

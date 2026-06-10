@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.210026Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Tulsa Time"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Danny Flowers"
-  copyright = \markup \small { \now " " "© 1978 Universal Polygram International Publishing Inc." }
-}
+headerTitle = "Tulsa Time"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Danny Flowers"
+headerCopyright = "© 1978 Universal Polygram International Publishing Inc."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _

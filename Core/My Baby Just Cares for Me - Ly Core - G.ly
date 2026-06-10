@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:45.299611Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Baby Just Cares for Me"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Walter Donaldson"
-  copyright = \markup \small { \now " " "© 1930 Donaldson Publishing Co." }
-}
+headerTitle = "My Baby Just Cares for Me"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Walter Donaldson"
+headerCopyright = "© 1930 Donaldson Publishing Co."
 
 refrainLyrics = { \lyricmode {
 My ba -- by don't care for shows, my ba -- by don't care for clothes,

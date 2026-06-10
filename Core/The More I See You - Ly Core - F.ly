@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.924958Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The More I See You"
-  subtitle = \subtitle
-  poet = "Mack Gordon"
-  composer = "Harry Warren"
-  copyright = \markup \small { \now " " "© 1945 Twentieth Century Music Corporation" }
-}
+headerTitle = "The More I See You"
+headerSubtitle = \subtitle
+headerPoet = "Mack Gordon"
+headerComposer = "Harry Warren"
+headerCopyright = "© 1945 Twentieth Century Music Corporation"
 
 refrainLyrics = \lyricmode {
 The more I see you, __ the more I want you. __

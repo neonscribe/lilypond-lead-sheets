@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.131795Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Fall In Love Too Easily"
-  subtitle = \subtitle
-  poet = "Sammy Cahn"
-  composer = "Jule Styne"
-  copyright = \markup \small { \now " " "© 1944 Metro-Goldwyn Mayer, Inc." }
-}
+headerTitle = "I Fall In Love Too Easily"
+headerSubtitle = \subtitle
+headerPoet = "Sammy Cahn"
+headerComposer = "Jule Styne"
+headerCopyright = "© 1944 Metro-Goldwyn Mayer, Inc."
 
 verseLyrics = \lyricmode {
   There are those who can leave love or take it. __

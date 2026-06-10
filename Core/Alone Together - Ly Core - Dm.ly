@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.6038Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Alone Together"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Howard Dietz and Arthur Schwartz"
-  copyright = \markup \small { \now " " "© 1932 HARMS Incorporated" }
-}
+headerTitle = "Alone Together"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Howard Dietz and Arthur Schwartz"
+headerCopyright = "© 1932 HARMS Incorporated"
 
 leadingEighth = ##t
 

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.249873Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sixteen Tons"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Merle Travis"
-  copyright = \markup \small { \now " " "© 1947 Merle's Girls Music" }
-}
+headerTitle = "Sixteen Tons"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Merle Travis"
+headerCopyright = "© 1947 Merle's Girls Music"
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.405981Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Mimosa"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Dorado Schmitt & Hono Winterstein"
-  copyright = \markup \small { \now " " "© 1986 Dorado Schmitt & Hono Winterstein" }
-}
+headerTitle = "Mimosa"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Dorado Schmitt & Hono Winterstein"
+headerCopyright = "© 1986 Dorado Schmitt & Hono Winterstein"
 
 refrainChords = \chordmode {
   g1:m g1:m g1:m g1:m

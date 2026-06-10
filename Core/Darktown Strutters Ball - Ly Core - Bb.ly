@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:30.648568Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Darktown Strutters Ball"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Shelton Brooks"
-  copyright = \markup \small { \now " " "© 1917 Leo Feist Inc." }
-}
+headerTitle = "Darktown Strutters Ball"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Shelton Brooks"
+headerCopyright = "© 1917 Leo Feist Inc."
 
 refrainLyrics = \lyricmode {
   I'll be down to get you in a tax -- i, hon -- ey,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.510181Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Husbands and Wives"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Roger Miller"
-  copyright = \markup \small { \now " " "© 1966 Roger Miller Music, Inc." }
-}
+headerTitle = "Husbands and Wives"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Roger Miller"
+headerCopyright = "© 1966 Roger Miller Music, Inc."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _

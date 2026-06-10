@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.665021Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "September Song"
-  subtitle = \subtitle
-  poet = "Maxwell Anderson"
-  composer = "Kurt Weill"
-  copyright = \markup \small { \now " " "© 1938 Chappell & Co." }
-}
+headerTitle = "September Song"
+headerSubtitle = \subtitle
+headerPoet = "Maxwell Anderson"
+headerComposer = "Kurt Weill"
+headerCopyright = "© 1938 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Oh, it's a long, long while from May to De -- cem -- ber, __

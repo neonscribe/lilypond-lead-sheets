@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.821702Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Make You Feel My Love"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bob Dylan"
-  copyright = \markup \small { \now " " "© 1997 Special Rider Music" }
-}
+headerTitle = "Make You Feel My Love"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bob Dylan"
+headerCopyright = "© 1997 Special Rider Music"
 
 straightEighths = ##t
 

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.956772Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Cried for You"
-  subtitle = \subtitle
-  poet = "Arthur Freed"
-  composer = "Gus Arnheim & Abe Lyman"
-  copyright = \markup \small { \now " " "© 1923 Miller Music Inc" }
-}
+headerTitle = "I Cried for You"
+headerSubtitle = \subtitle
+headerPoet = "Arthur Freed"
+headerComposer = "Gus Arnheim & Abe Lyman"
+headerCopyright = "© 1923 Miller Music Inc"
 
 refrainLyrics = \lyricmode {
 I cried for you

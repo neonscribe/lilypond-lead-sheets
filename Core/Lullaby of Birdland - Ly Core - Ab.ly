@@ -11,13 +11,11 @@ songID = "2026-06-01T22:16:43.515612Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lullaby of Birdland"
-  subtitle = \subtitle
-  poet = "B. Y. Forster"
-  composer = "George Shearing"
-  copyright = \markup \small { \now " " "© 1952 Patricia Music Publishing Corp." }
-}
+headerTitle = "Lullaby of Birdland"
+headerSubtitle = \subtitle
+headerPoet = "B. Y. Forster"
+headerComposer = "George Shearing"
+headerCopyright = "© 1952 Patricia Music Publishing Corp."
 
 %%% Sarah Vaughan intro
 

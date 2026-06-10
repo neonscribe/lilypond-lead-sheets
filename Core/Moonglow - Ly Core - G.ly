@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.978307Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Moonglow"
-  subtitle = \subtitle
-  poet = "Eddie DeLange"
-  composer = "Will Hudson and Irving Mills"
-  copyright = \markup \small { \now " " "© 1934 Mills Music, Inc." }
-}
+headerTitle = "Moonglow"
+headerSubtitle = \subtitle
+headerPoet = "Eddie DeLange"
+headerComposer = "Will Hudson and Irving Mills"
+headerCopyright = "© 1934 Mills Music, Inc."
 
 refrainLyrics = \lyricmode {
 It must have been moon -- glow,

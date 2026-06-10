@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.912333Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'm Glad There Is You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Paul Madeira and Jimmy Dorsey"
-  copyright = \markup \small { \now " " "© 1942 Mayfair Music Corp." }
-}
+headerTitle = "I'm Glad There Is You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Paul Madeira and Jimmy Dorsey"
+headerCopyright = "© 1942 Mayfair Music Corp."
 
 refrainLyrics = \lyricmode {
 In this world of or -- di -- na -- ry peo -- ple, ex -- tr'or -- di -- na -- ry peo -- ple,

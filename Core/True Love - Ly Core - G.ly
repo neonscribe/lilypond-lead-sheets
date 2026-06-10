@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.164648Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "True Love"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1955 Chappell & Co." }
-}
+headerTitle = "True Love"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1955 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 While I give to you and you give to me

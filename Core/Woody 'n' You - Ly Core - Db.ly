@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.513782Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Woody 'n' You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Dizzy Gillespie"
-  copyright = \markup \small { \now " " "© 1943 Edwin H. Morris & Company" }
-}
+headerTitle = "Woody 'n' You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Dizzy Gillespie"
+headerCopyright = "© 1943 Edwin H. Morris & Company"
 
 refrainChords = \chordmode {
   g1:m7.5- a1:7.9+ f1:m7.5- bf1:7.9+

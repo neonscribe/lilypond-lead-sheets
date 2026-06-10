@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:41.611343Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lady Bird"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Tadd Dameron"
-  copyright = \markup \small { \now " " "© 1947 Consolidated Music Publishers, Inc." }
-}
+headerTitle = "Lady Bird"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Tadd Dameron"
+headerCopyright = "© 1947 Consolidated Music Publishers, Inc."
 
 refrainChords = \chordmode {
   c1:maj7 c1:maj7 f1:m7 bf1:7

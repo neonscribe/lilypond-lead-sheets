@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.372775Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "How High the Moon"
-  subtitle = \subtitle
-  poet = "Nancy Hamilton"
-  composer = "Morgan Lewis"
-  copyright = \markup \small { \now " " "© 1940 Chappell & Co." }
-}
+headerTitle = "How High the Moon"
+headerSubtitle = \subtitle
+headerPoet = "Nancy Hamilton"
+headerComposer = "Morgan Lewis"
+headerCopyright = "© 1940 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Some -- where there's mu -- sic, __

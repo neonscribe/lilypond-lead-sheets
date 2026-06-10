@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:36.457683Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Guess I'll Hang My Tears Out to Dry"
-  subtitle = \subtitle
-  poet = "Sammy Cahn"
-  composer = "Jule Styne"
-  copyright = \markup \small { \now " " "© 1944 Cahn Music Company and Chappell & Co." }
-}
+headerTitle = "I Guess I'll Hang My Tears Out to Dry"
+headerSubtitle = \subtitle
+headerPoet = "Sammy Cahn"
+headerComposer = "Jule Styne"
+headerCopyright = "© 1944 Cahn Music Company and Chappell & Co."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 When I want rain __ I get sun -- ny weath -- er.

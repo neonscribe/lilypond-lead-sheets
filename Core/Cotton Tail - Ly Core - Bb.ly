@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.166604Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Cotton Tail"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1940 Famous Music Corporation" }
-}
+headerTitle = "Cotton Tail"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1940 Famous Music Corporation"
 
 refrainChords = \chordmode {
   bf2:maj7 g2:m7 c2:m7 f2:7 d2:m7 g2:m7 c2:m7 f2:7

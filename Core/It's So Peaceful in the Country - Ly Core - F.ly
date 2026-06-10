@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.231976Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It's So Peaceful in the Country"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Alec Wilder"
-  copyright = \markup \small { \now " " "© 1941 Ludlow Music, Inc." }
-}
+headerTitle = "It's So Peaceful in the Country"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Alec Wilder"
+headerCopyright = "© 1941 Ludlow Music, Inc."
 
 refrainLyrics = \lyricmode {
 It's so peace -- ful in the coun -- try.

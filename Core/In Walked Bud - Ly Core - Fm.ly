@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.026013Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "In Walked Bud"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Thelonious Monk"
-  copyright = \markup \small { \now " " "© 1948 Embassy Music Corporation" }
-}
+headerTitle = "In Walked Bud"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Thelonious Monk"
+headerCopyright = "© 1948 Embassy Music Corporation"
 
 refrainChords = \chordmode {
   f1:m f1:m7+ f1:m7 bf2:7 ef2:7

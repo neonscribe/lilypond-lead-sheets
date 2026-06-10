@@ -12,13 +12,11 @@ songID = "2026-06-01T22:15:01.834389Z"
 
 wpb = $(and (defined? 'withPianoAndBass) withPianoAndBass)
 
-\header {
-  title = "A Child Is Born"
-  subtitle = \subtitle
-  poet = "Alec Wilder"
-  composer = "Roland Hanna (credited to Thad Jones)"
-  copyright = \markup \small { \now " " "© 1969 D'Accord Music, Inc." }
-}
+headerTitle = "A Child Is Born"
+headerSubtitle = \subtitle
+headerPoet = "Alec Wilder"
+headerComposer = "Roland Hanna (credited to Thad Jones)"
+headerCopyright = "© 1969 D'Accord Music, Inc."
 
 refrainLyrics = \lyricmode {
 Now

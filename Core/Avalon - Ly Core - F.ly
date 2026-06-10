@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:25.625237Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Avalon"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Al Jolson and Vincent Rose"
-  copyright = \markup \small { \now " " "© 1920 Jerome H. Remick & Co." }
-}
+headerTitle = "Avalon"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Al Jolson and Vincent Rose"
+headerCopyright = "© 1920 Jerome H. Remick & Co."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
   I found my love in A -- va -- lon __

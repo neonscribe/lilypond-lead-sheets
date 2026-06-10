@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:37.428232Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "I'll Be Home for Christmas"
-  subtitle = \subtitle
-  poet = "Kim Gannon"
-  composer = "Walter Kent"
-  copyright = \markup \small { \now " " "© 1943 Gannon & Kent Music Co., Inc." }
-}
+headerTitle = "I'll Be Home for Christmas"
+headerSubtitle = \subtitle
+headerPoet = "Kim Gannon"
+headerComposer = "Walter Kent"
+headerCopyright = "© 1943 Gannon & Kent Music Co., Inc."
 
 refrainLyrics = \lyricmode {
 I'll be home for Christ -- mas, __ you can count on me. __

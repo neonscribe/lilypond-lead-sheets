@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:49.926329Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "She's (He's) Funny That Way"
-  subtitle = \subtitle
-  poet = "Richard A. Whiting"
-  composer = "Neil Moret"
-  copyright = \markup \small { \now " " "© 1928 Robbins Music Corporation" }
-}
+headerTitle = "She's (He's) Funny That Way"
+headerSubtitle = \subtitle
+headerPoet = "Richard A. Whiting"
+headerComposer = "Neil Moret"
+headerCopyright = "© 1928 Robbins Music Corporation"
 
 refrainObjectGenderFemaleLyricsOne = \lyricmode {
 I'm not much to look at, noth -- in' to see, just glad I'm liv -- in' and luck -- y to be.

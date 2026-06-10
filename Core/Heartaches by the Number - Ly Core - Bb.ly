@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:34.867824Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Heartaches by the Number"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Harlan Howard"
-  copyright = \markup \small { \now " " "© 1959 Pamper Music Inc." }
-}
+headerTitle = "Heartaches by the Number"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Harlan Howard"
+headerCopyright = "© 1959 Pamper Music Inc."
 
 refrainLyrics = \lyricmode {
 Heart -- ache num -- ber one was when you left me.

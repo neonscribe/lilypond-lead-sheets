@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.636629Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Liza (All the Clouds'll Roll Away)"
-  subtitle = \subtitle
-  poet = "Gus Kahn and Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1929 New World Music Corporation" }
-}
+headerTitle = "Liza (All the Clouds'll Roll Away)"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn and Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1929 New World Music Corporation"
 
 refrainLyrics = \lyricmode {
 Li -- za, Li -- za, skies are gray,

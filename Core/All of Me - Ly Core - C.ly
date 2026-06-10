@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:24.370417Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "All of Me"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Gerald Marks and Seymour Simons"
-  copyright = \markup \small { \now " " "© 1931 Bourne Co." }
-}
+headerTitle = "All of Me"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Gerald Marks and Seymour Simons"
+headerCopyright = "© 1931 Bourne Co."
 
 refrainLyrics = \lyricmode {
   All of me, __ why not take all of me, __

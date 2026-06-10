@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.377183Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Flying Home"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Benny Goodman/Lionel Hampton"
-  copyright = \markup \small { \now " " "© 1940 Regent Music Corporation" }
-}
+headerTitle = "Flying Home"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Benny Goodman/Lionel Hampton"
+headerCopyright = "© 1940 Regent Music Corporation"
 
 refrainChords = \chordmode {
   ef2 ef2/df c2:m7 b4:7 bf4:7 ef2 ef2/df c2:m7 b4:7 bf4:7

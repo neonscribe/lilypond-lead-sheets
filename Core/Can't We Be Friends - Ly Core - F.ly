@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.646226Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Can't We Be Friends"
-  subtitle = \subtitle
-  poet = "Paul James"
-  composer = "Kay Swift"
-  copyright = \markup \small { \now " " "© 1929 HARMS Inc." }
-}
+headerTitle = "Can't We Be Friends"
+headerSubtitle = \subtitle
+headerPoet = "Paul James"
+headerComposer = "Kay Swift"
+headerCopyright = "© 1929 HARMS Inc."
 
 refrainLyrics = \lyricmode {
 I thought I'd found the man of my dreams.

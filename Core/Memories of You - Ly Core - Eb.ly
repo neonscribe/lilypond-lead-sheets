@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.097544Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Memories of You"
-  subtitle = \subtitle
-  poet = "Andy Razaf"
-  composer = "Eubie Blake"
-  copyright = \markup \small { \now " " "© 1930 Shapiro, Berstein & Co." }
-}
+headerTitle = "Memories of You"
+headerSubtitle = \subtitle
+headerPoet = "Andy Razaf"
+headerComposer = "Eubie Blake"
+headerCopyright = "© 1930 Shapiro, Berstein & Co."
 
 refrainLyrics = \lyricmode {
 Walk -- ing skies at sun -- rise, ev -- 'ry sun -- set, too,

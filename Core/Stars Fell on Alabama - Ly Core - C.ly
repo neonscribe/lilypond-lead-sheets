@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:52.11297Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Stars Fell on Alabama"
-  subtitle = \subtitle
-  poet = "Mitchell Parish"
-  composer = "Frank Perkins"
-  copyright = \markup \small { \now " " "© 1934 by Mills Music Inc., 1619 Broadway, New York, N.Y." }
-}
+headerTitle = "Stars Fell on Alabama"
+headerSubtitle = \subtitle
+headerPoet = "Mitchell Parish"
+headerComposer = "Frank Perkins"
+headerCopyright = "© 1934 by Mills Music Inc., 1619 Broadway, New York, N.Y."
 
 firehouseIntroChords = \chordmode {
   f2 f2:dim7 c2 a4:m c4:5+ c2:6 g2:7 c1:7

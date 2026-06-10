@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.368803Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Got It Bad and That Ain't Good"
-  subtitle = \subtitle
-  poet = "Paul Francis Webster"
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1941 Robbins Music Corporation" }
-}
+headerTitle = "I Got It Bad and That Ain't Good"
+headerSubtitle = \subtitle
+headerPoet = "Paul Francis Webster"
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1941 Robbins Music Corporation"
 
 refrainLyrics = \lyricmode {
 Nev -- er treats me sweet and gen -- tle the way he should;

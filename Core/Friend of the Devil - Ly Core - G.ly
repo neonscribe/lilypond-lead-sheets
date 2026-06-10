@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.772725Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Friend of the Devil"
-  subtitle = \subtitle
-  poet = "Robert Hunter"
-  composer = "Jerry Garcia and John Dawson"
-  copyright = \markup \small { \now " " "© 1970 Ice Nine Publishing Co., Inc." }
-}
+headerTitle = "Friend of the Devil"
+headerSubtitle = \subtitle
+headerPoet = "Robert Hunter"
+headerComposer = "Jerry Garcia and John Dawson"
+headerCopyright = "© 1970 Ice Nine Publishing Co., Inc."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _

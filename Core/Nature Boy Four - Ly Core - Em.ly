@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:46.143757Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Nature Boy (4/4)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "eden ahbez"
-  copyright = \markup \small { \now " " "© 1948 Crestview Music Corp." }
-}
+headerTitle = "Nature Boy (4/4)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "eden ahbez"
+headerCopyright = "© 1948 Crestview Music Corp."
 
 leadingEighth = ##t
 

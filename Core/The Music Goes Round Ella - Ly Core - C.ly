@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.972137Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Music Goes 'Round and Around (Ella Fitzgerald 1961)"
-  subtitle = \subtitle
-  poet = "“Red” Hodgson"
-  composer = "Edward Farley, Michael Riley"
-  copyright = \markup \small { \now " " "© 1935 Anne Rachel Music Corp." }
-}
+headerTitle = "The Music Goes 'Round and Around (Ella Fitzgerald 1961)"
+headerSubtitle = \subtitle
+headerPoet = "“Red” Hodgson"
+headerComposer = "Edward Farley, Michael Riley"
+headerCopyright = "© 1935 Anne Rachel Music Corp."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _

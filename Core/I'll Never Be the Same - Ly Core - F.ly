@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:37.508076Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "I'll Never Be the Same"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Matt Malneck and Frank Signorelli"
-  copyright = \markup \small { \now " " "© 1932 Robbins Music Corp." }
-}
+headerTitle = "I'll Never Be the Same"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Matt Malneck and Frank Signorelli"
+headerCopyright = "© 1932 Robbins Music Corp."
 
 leadingEighth = ##t
 

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.559114Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Jazz Blues Flat Keys"
-  subtitle = \subtitle
-  poet = ""
-  composer = ""
-  copyright = \markup \small { \now " " "" }
-}
+headerTitle = "Jazz Blues Flat Keys"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = ""
+headerCopyright = ""
 
 refrainKey = c
 

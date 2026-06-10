@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:47.990945Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Petite Fleur"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sidney Bechet"
-  copyright = \markup \small { \now " " "© 1952 Chappell & Co." }
-}
+headerTitle = "Petite Fleur"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sidney Bechet"
+headerCopyright = "© 1952 Chappell & Co."
 
 refrainLyricsPetula = \lyricmode {
 _ _ _

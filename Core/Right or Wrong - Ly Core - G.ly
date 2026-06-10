@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.650615Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Right or Wrong"
-  subtitle = \subtitle
-  poet = "Haven Gillespie"
-  composer = "Arthur Sizemore and Paul Biese"
-  copyright = \markup \small { \now " " "© 1921 Triangle Music Pub. Co." }
-}
+headerTitle = "Right or Wrong"
+headerSubtitle = \subtitle
+headerPoet = "Haven Gillespie"
+headerComposer = "Arthur Sizemore and Paul Biese"
+headerCopyright = "© 1921 Triangle Music Pub. Co."
 
 refrainLyrics = \lyricmode {
   Right or wrong, I'll al -- ways love you.

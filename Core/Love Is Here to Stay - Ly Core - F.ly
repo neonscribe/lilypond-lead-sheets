@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.811978Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Love Is Here to Stay"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1938 Chappell & Co." }
-}
+headerTitle = "Love Is Here to Stay"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1938 Chappell & Co."
 
 verseLyrics = \lyricmode {
   The more I read the pa -- pers

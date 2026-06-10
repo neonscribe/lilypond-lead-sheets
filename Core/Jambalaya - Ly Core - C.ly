@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.470917Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Jambalaya (On the Bayou)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Hank Williams"
-  copyright = \markup \small { \now " " "© 1952 Acuff-Rose Publications" }
-}
+headerTitle = "Jambalaya (On the Bayou)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Hank Williams"
+headerCopyright = "© 1952 Acuff-Rose Publications"
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _

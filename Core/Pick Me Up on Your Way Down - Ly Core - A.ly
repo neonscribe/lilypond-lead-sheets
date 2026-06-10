@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.060936Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Pick Me Up on Your Way Down"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Harlan Howard"
-  copyright = \markup \small { \now " " "© 1958 Good Ol Harlan Songs" }
-}
+headerTitle = "Pick Me Up on Your Way Down"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Harlan Howard"
+headerCopyright = "© 1958 Good Ol Harlan Songs"
 
 refrainLyrics = \lyricmode {
 You were mine for just a while __

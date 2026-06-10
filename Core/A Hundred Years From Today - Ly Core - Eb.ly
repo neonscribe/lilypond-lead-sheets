@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:23.668603Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "A Hundred Years From Today"
-  subtitle = \subtitle
-  poet = "Joe Young, Ned Washington"
-  composer = "Victor Young"
-  copyright = \markup \small { \now " " "© 1933 Robbins Music Corporation" }
-}
+headerTitle = "A Hundred Years From Today"
+headerSubtitle = \subtitle
+headerPoet = "Joe Young, Ned Washington"
+headerComposer = "Victor Young"
+headerCopyright = "© 1933 Robbins Music Corporation"
 
 refrainLyrics = \lyricmode {
 Don't save your kiss -- es, just pass them a -- round.

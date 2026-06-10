@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.455453Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Soul Eyes"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Mal Waldron"
-  copyright = \markup \small { \now " " "© 1957 Prestige Music" }
-}
+headerTitle = "Soul Eyes"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Mal Waldron"
+headerCopyright = "© 1957 Prestige Music"
 
 refrainChords = \chordmode {
   s4

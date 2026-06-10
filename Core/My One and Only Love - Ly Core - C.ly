@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.825727Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My One and Only Love"
-  subtitle = \subtitle
-  poet = "Robert Mellin"
-  composer = "Guy Wood"
-  copyright = \markup \small { \now " " "© 1952 EMI Music Publishing Ltd." }
-}
+headerTitle = "My One and Only Love"
+headerSubtitle = \subtitle
+headerPoet = "Robert Mellin"
+headerComposer = "Guy Wood"
+headerCopyright = "© 1952 EMI Music Publishing Ltd."
 
 refrainLyrics = \lyricmode {
 The ver -- y thought of you makes my heart sing __

@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:57.752376Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Walkin' My Baby Back Home"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Roy Turk, Fred E. Ahlert"
-  copyright = \markup \small { \now " " "© 1930 De Sylva Brown & Henderson Inc." }
-}
+headerTitle = "Walkin' My Baby Back Home"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Roy Turk, Fred E. Ahlert"
+headerCopyright = "© 1930 De Sylva Brown & Henderson Inc."
 
 refrainMaleSingerLyrics = \lyricmode {
 Gee, it's great __ af -- ter be -- in' out late, __ walk -- in' my ba -- by back home.

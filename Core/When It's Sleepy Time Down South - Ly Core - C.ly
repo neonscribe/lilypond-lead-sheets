@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.566957Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "When It's Sleepy Time Down South"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Leon & Otis René & Clarence Muse"
-  copyright = \markup \small { \now " " "© 1931 Freed & Powers, Ltd." }
-}
+headerTitle = "When It's Sleepy Time Down South"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Leon & Otis René & Clarence Muse"
+headerCopyright = "© 1931 Freed & Powers, Ltd."
 
 refrainLyrics = \lyricmode {
 Pale moon shin -- ing on the fields be -- low,

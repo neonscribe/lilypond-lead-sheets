@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:46.931087Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Ole Buttermilk Sky"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Hoagy Carmichael and Jack Brooks"
-  copyright = \markup \small { \now " " "© 1946 Morley Music Co." }
-}
+headerTitle = "Ole Buttermilk Sky"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Hoagy Carmichael and Jack Brooks"
+headerCopyright = "© 1946 Morley Music Co."
 
 refrainLyrics = \lyricmode {
 Ole but -- ter -- milk sky, __ I'm keep -- ing my eye peeled on you. __

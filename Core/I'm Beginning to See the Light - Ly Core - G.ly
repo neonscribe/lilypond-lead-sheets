@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:37.753496Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'm Beginning to See the Light"
-  subtitle = \subtitle
-  poet = "Don George"
-  composer = "Johnny Hodges, Duke Ellington, Harry James"
-  copyright = \markup \small { \now " " "© 1944 Famous Music Corporation" }
-}
+headerTitle = "I'm Beginning to See the Light"
+headerSubtitle = \subtitle
+headerPoet = "Don George"
+headerComposer = "Johnny Hodges, Duke Ellington, Harry James"
+headerCopyright = "© 1944 Famous Music Corporation"
 
 leadingEighth = ##t
 

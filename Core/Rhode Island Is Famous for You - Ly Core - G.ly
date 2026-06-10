@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.60459Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Rhode Island Is Famous for You"
-  subtitle = \subtitle
-  poet = "Howard Dietz"
-  composer = "Arthur Schwartz"
-  copyright = \markup \small { \now " " "© 1948 Chappell & Co." }
-}
+headerTitle = "Rhode Island Is Famous for You"
+headerSubtitle = \subtitle
+headerPoet = "Howard Dietz"
+headerComposer = "Arthur Schwartz"
+headerCopyright = "© 1948 Chappell & Co."
 
 verseLyrics = \lyricmode {
 Ev -- 'ry state has some -- thing its Ro -- ta -- ry Club can boast of,

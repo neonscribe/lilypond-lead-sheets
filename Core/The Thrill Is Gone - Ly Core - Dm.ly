@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.465785Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Thrill Is Gone (not B.B. King)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ray Henderson/Lew Brown"
-  copyright = \markup \small { \now " " "© 1931 DeSylva, Brown & Henderson, Inc." }
-}
+headerTitle = "The Thrill Is Gone (not B.B. King)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ray Henderson/Lew Brown"
+headerCopyright = "© 1931 DeSylva, Brown & Henderson, Inc."
 
 verseLyrics = \lyricmode {
   I'm in your arms __ and you are kiss -- ing me, __

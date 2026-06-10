@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.000782Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Didn't Know What Time It Was"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1939 Chappell & Co." }
-}
+headerTitle = "I Didn't Know What Time It Was"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1939 Chappell & Co."
 
 verseLyrics = \lyricmode {
   Once I was young yes -- ter -- day per -- haps,

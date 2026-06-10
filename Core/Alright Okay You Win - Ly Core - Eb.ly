@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.690751Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Alright, Okay, You Win"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sid Wyche and Mayme Watts"
-  copyright = \markup \small { \now " " "© 1955 Cherio Corp." }
-}
+headerTitle = "Alright, Okay, You Win"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sid Wyche and Mayme Watts"
+headerCopyright = "© 1955 Cherio Corp."
 
 leadingEighth = ##t
 

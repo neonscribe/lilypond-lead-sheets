@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.369006Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = " Blue and Sentimental"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Count Basie, Jerry Livingston, and Mack David"
-  copyright = \markup \small { \now " " "© 1938 Hallmark Music Publishing Company" }
-}
+headerTitle = " Blue and Sentimental"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Count Basie, Jerry Livingston, and Mack David"
+headerCopyright = "© 1938 Hallmark Music Publishing Company"
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _

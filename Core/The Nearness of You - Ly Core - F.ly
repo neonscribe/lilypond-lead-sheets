@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.067055Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Nearness of You"
-  subtitle = \subtitle
-  poet = "Ned Washington"
-  composer = "Hoagy Carmichael"
-  copyright = \markup \small { \now " " "© 1937 Famous Music Corp." }
-}
+headerTitle = "The Nearness of You"
+headerSubtitle = \subtitle
+headerPoet = "Ned Washington"
+headerComposer = "Hoagy Carmichael"
+headerCopyright = "© 1937 Famous Music Corp."
 
 leadingEighth = ##t
 

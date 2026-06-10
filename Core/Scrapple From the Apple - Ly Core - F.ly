@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.533871Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Scrapple From the Apple"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charlie Parker"
-  copyright = \markup \small { \now " " "© 1947 Atlantic Music Corp." }
-}
+headerTitle = "Scrapple From the Apple"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Parker"
+headerCopyright = "© 1947 Atlantic Music Corp."
 
 refrainChords = \chordmode {
   g1:m7 c1:7 g1:m7 c1:7

@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:42.767291Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Louisiana Fairytale"
-  subtitle = \subtitle
-  poet = "Mitchell Parish and J. Fred Coots"
-  composer = "Haven Gillespie"
-  copyright = \markup \small { \now " " "© 1935 Mills Music, Inc." }
-}
+headerTitle = "Louisiana Fairytale"
+headerSubtitle = \subtitle
+headerPoet = "Mitchell Parish and J. Fred Coots"
+headerComposer = "Haven Gillespie"
+headerCopyright = "© 1935 Mills Music, Inc."
 
 leadingEighth = ##t
 

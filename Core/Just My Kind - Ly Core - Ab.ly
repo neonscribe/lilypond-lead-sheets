@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:41.165923Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Just My Kind"
-  subtitle = \subtitle
-  composer = "Paul Sawyer"
-  copyright = \markup \small { \now " " "© 2019" }
-}
+headerTitle = "Just My Kind"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Paul Sawyer"
+headerCopyright = "© 2019"
 
 leadingEighth = ##t
 

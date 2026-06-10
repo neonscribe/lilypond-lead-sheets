@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:57.25548Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Tumbling Tumbleweeds"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bob Nolan"
-  copyright = \markup \small { \now " " "© 1934 Music of the West" }
-}
+headerTitle = "Tumbling Tumbleweeds"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bob Nolan"
+headerCopyright = "© 1934 Music of the West"
 
 refrainLyrics = \lyricmode {
 See __ them tum -- bl -- ing down, pledg -- ing their love to the ground,

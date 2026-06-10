@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.285088Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Willow Weep for Me"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ann Ronnell"
-  copyright = \markup \small { \now " " "© 1932 Irving Berlin Inc." }
-}
+headerTitle = "Willow Weep for Me"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ann Ronnell"
+headerCopyright = "© 1932 Irving Berlin Inc."
 
 refrainLyrics = \lyricmode {
 Wil -- low weep for me, __ wil -- low weep for me, __

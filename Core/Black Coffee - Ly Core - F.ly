@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:26.884976Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Black Coffee"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Paul Francis Webster and Sonny Burke"
-  copyright = \markup \small { \now " " "© 1948 Webster Music Co. and Sondot Music Corporation" }
-}
+headerTitle = "Black Coffee"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Paul Francis Webster and Sonny Burke"
+headerCopyright = "© 1948 Webster Music Co. and Sondot Music Corporation"
 
 leadingEighth = ##t
 

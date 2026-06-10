@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.736096Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The World Is Waiting for the Sunrise (Firehouse Book)"
-  subtitle = \subtitle
-  poet = "Eugene Lockhart"
-  composer = "Ernest Seitz"
-  copyright = \markup \small { \now " " "© 1919 Chappell & Co." }
-}
+headerTitle = "The World Is Waiting for the Sunrise (Firehouse Book)"
+headerSubtitle = \subtitle
+headerPoet = "Eugene Lockhart"
+headerComposer = "Ernest Seitz"
+headerCopyright = "© 1919 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Dear one the world is wait -- ing for the sun -- rise;

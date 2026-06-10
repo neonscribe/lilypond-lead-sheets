@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:29.052666Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Change Partners"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Irving Berlin"
-  copyright = \markup \small { \now " " "© 1937 Irving Berlin" }
-}
+headerTitle = "Change Partners"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Irving Berlin"
+headerCopyright = "© 1937 Irving Berlin"
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Must you dance ev' -- ry dance with the same for -- tu -- nate man?

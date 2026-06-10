@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:33.82001Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Gaby Glide"
-  subtitle = \subtitle
-  composer = "Louis H. Hirsch"
-  copyright = \markup \small { \now " " "" }
-}
+headerTitle = "The Gaby Glide"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Louis H. Hirsch"
+headerCopyright = ""
 
 refrainMaybeChords = \chordmode {
   f1 f1 f1 f1

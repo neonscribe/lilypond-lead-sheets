@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.136753Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "They Say It's Spring"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bob Haymes, Marty Clarke"
-  copyright = \markup \small { \now " " "© 1958 Jatap Publishing Co." }
-}
+headerTitle = "They Say It's Spring"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bob Haymes, Marty Clarke"
+headerCopyright = "© 1958 Jatap Publishing Co."
 
 refrainLyrics = \lyricmode {
 They say it's spring, __ this feel -- ing light __ as a feath -- er.

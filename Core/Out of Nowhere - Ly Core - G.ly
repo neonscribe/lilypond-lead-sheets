@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.617376Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Out of Nowhere"
-  subtitle = \subtitle
-  poet = "Edward Heyman"
-  composer = "Johnny Green"
-  copyright = \markup \small { \now " " "© 1931 Famous Music Corporation" }
-}
+headerTitle = "Out of Nowhere"
+headerSubtitle = \subtitle
+headerPoet = "Edward Heyman"
+headerComposer = "Johnny Green"
+headerCopyright = "© 1931 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
   You came to me __ from out of no -- where, __

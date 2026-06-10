@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:33.022618Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Falling in Love With Love (4/4)"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1938 Chappell & Co." }
-}
+headerTitle = "Falling in Love With Love (4/4)"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1938 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Fall -- ing in love with love is fall -- ing for make be -- lieve. __

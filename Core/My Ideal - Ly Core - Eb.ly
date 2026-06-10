@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.678803Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Ideal"
-  subtitle = \subtitle
-  poet = "Leo Robin"
-  composer = "Richard A. Whiting and Newell Chase"
-  copyright = \markup \small { \now " " "© 1930 Famous Music Corporation" }
-}
+headerTitle = "My Ideal"
+headerSubtitle = \subtitle
+headerPoet = "Leo Robin"
+headerComposer = "Richard A. Whiting and Newell Chase"
+headerCopyright = "© 1930 Famous Music Corporation"
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Will I ev -- er find the girl in my mind, the one who is my i -- deal?

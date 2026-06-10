@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.134552Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Doxy"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sonny Rollins"
-  copyright = \markup \small { \now " " "© 1963 Prestige Music" }
-}
+headerTitle = "Doxy"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sonny Rollins"
+headerCopyright = "© 1963 Prestige Music"
 
 leadingEighth = ##t
 

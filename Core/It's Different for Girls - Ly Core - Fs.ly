@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.092319Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It's Different for Girls"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Joe Jackson"
-  copyright = \markup \small { \now " " "© 1979 Joe Jackson" }
-}
+headerTitle = "It's Different for Girls"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Joe Jackson"
+headerCopyright = "© 1979 Joe Jackson"
 
 straightEighths = ##t
 

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.881567Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Love Is Just Around the Corner"
-  subtitle = \subtitle
-  poet = "Leo Robin"
-  composer = "Lewis E. Gensler"
-  copyright = \markup \small { \now " " "© 1934 Famous Music Corporation" }
-}
+headerTitle = "Love Is Just Around the Corner"
+headerSubtitle = \subtitle
+headerPoet = "Leo Robin"
+headerComposer = "Lewis E. Gensler"
+headerCopyright = "© 1934 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 Love is just a -- round the cor -- ner, an -- y coz -- y lit -- tle cor -- ner,

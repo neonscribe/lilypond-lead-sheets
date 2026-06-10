@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.365717Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Ask Me Now (How I Wish)"
-  subtitle = \subtitle
-  poet = "Jon Hendricks"
-  composer = "Thelonius Monk"
-  copyright = \markup \small { \now " " "© 1951 Thelonius Music Corporation" }
-}
+headerTitle = "Ask Me Now (How I Wish)"
+headerSubtitle = \subtitle
+headerPoet = "Jon Hendricks"
+headerComposer = "Thelonius Monk"
+headerCopyright = "© 1951 Thelonius Music Corporation"
 
 refrainLyrics = \lyricmode {
   Once you said you loved me,

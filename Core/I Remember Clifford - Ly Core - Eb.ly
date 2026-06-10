@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:36.776259Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Remember Clifford"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Benny Golson"
-  copyright = \markup \small { \now " " "© 1957 Ibbob Music, Inc." }
-}
+headerTitle = "I Remember Clifford"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Benny Golson"
+headerCopyright = "© 1957 Ibbob Music, Inc."
 
 refrainChords = \chordmode {
   af1:maj7 bf2:7 bf2:7/af g2:7 af2:dim7 c4:m7 bf4:m7 af4:m7 gf4:m7

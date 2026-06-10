@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:31.493353Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Djangology"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Django Reinhardt"
-  copyright = \markup \small { \now " " "© 1935 Publications Francis Day S.A." }
-}
+headerTitle = "Djangology"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Django Reinhardt"
+headerCopyright = "© 1935 Publications Francis Day S.A."
 
 refrainChords = \chordmode {
   a1/cs c1:m6 g1/b bf1:dim7

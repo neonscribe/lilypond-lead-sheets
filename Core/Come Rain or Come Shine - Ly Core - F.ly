@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.65454Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Come Rain or Come Shine"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1946 A-M Music Corporation" }
-}
+headerTitle = "Come Rain or Come Shine"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1946 A-M Music Corporation"
 
 refrainLyrics = \lyricmode {
 I'm gon -- na love you like no -- bod -- y's loved you, come rain or come shine. __

@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:47.215397Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "On the Sunny Side of the Street"
-  subtitle = \subtitle
-  poet = "Dorothy Fields"
-  composer = "Jimmy McHugh"
-  copyright = \markup \small { \now " " "© 1930 Shapiro, Bernstein, & Co. Inc." }
-}
+headerTitle = "On the Sunny Side of the Street"
+headerSubtitle = \subtitle
+headerPoet = "Dorothy Fields"
+headerComposer = "Jimmy McHugh"
+headerCopyright = "© 1930 Shapiro, Bernstein, & Co. Inc."
 
 refrainLyrics = \lyricmode {
 Grab your coat and get your hat, Leave your wor -- ry on the door -- step,

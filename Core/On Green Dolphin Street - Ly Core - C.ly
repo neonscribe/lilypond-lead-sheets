@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.015742Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "On Green Dolphin Street"
-  subtitle = \subtitle
-  poet = "Ned Washington"
-  composer = "Bronislau Kaper"
-  copyright = \markup \small { \now " " "© 1947 Metro-Goldwyn Mayer Inc." }
-}
+headerTitle = "On Green Dolphin Street"
+headerSubtitle = \subtitle
+headerPoet = "Ned Washington"
+headerComposer = "Bronislau Kaper"
+headerCopyright = "© 1947 Metro-Goldwyn Mayer Inc."
 
 refrainLyrics = \lyricmode {
   Lov -- er, one love -- ly day.

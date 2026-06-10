@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:30.948887Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Dear Mr. Fantasy"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Steve Winwood, Chris Wood and Jim Capaldi"
-  copyright = \markup \small { \now " " "© 1968 F.S. Music, Ltd. and Island Music Ltd." }
-}
+headerTitle = "Dear Mr. Fantasy"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Steve Winwood, Chris Wood and Jim Capaldi"
+headerCopyright = "© 1968 F.S. Music, Ltd. and Island Music Ltd."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _

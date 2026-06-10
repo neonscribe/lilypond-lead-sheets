@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.611221Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Cold Duck Time"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Eddie Harris"
-  copyright = \markup \small { \now " " "© 1969 Seventh House Ltd." }
-}
+headerTitle = "Cold Duck Time"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Eddie Harris"
+headerCopyright = "© 1969 Seventh House Ltd."
 
 refrainChords = \chordmode {
   f1:7 bf1:7 f1:7 bf1:7

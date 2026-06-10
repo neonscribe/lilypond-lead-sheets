@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.010412Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Whisper Not"
-  subtitle = \subtitle
-  poet = "Leonard Feather"
-  composer = "Benny Golson"
-  copyright = \markup \small { \now " " "© 1956 Ibbob Music, Inc." }
-}
+headerTitle = "Whisper Not"
+headerSubtitle = \subtitle
+headerPoet = "Leonard Feather"
+headerComposer = "Benny Golson"
+headerCopyright = "© 1956 Ibbob Music, Inc."
 
 refrainLyrics = \lyricmode {
 Sing low, __ sing clear __ sweet words __ in my ear,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.123694Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Corcovado (Quiet Nights of Quiet Stars)"
-  subtitle = \subtitle
-  poet = "Gene Lees"
-  composer = "Antônio Carlos Jobim"
-  copyright = \markup \small { \now " " "© 1960 Jobim Music Ltda." }
-}
+headerTitle = "Corcovado (Quiet Nights of Quiet Stars)"
+headerSubtitle = \subtitle
+headerPoet = "Gene Lees"
+headerComposer = "Antônio Carlos Jobim"
+headerCopyright = "© 1960 Jobim Music Ltda."
 
 bossaRhythm = ##t
 

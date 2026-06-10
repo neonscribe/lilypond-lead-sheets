@@ -4,13 +4,11 @@ songID = "2026-06-01T22:17:00.419658Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You're a Heavenly Thing"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Joe Young and Little Jack Little"
-  copyright = \markup \small { \now " " "© 1935 Shapiro, Bernstein & Co. Inc." }
-}
+headerTitle = "You're a Heavenly Thing"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Joe Young and Little Jack Little"
+headerCopyright = "© 1935 Shapiro, Bernstein & Co. Inc."
 
 refrainLyrics = \lyricmode {
 They took the moon -- light out of the skies

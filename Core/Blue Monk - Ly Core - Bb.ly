@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.193357Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blue Monk"
-  subtitle = \subtitle
-  poet = "Abbey Lincoln"
-  composer = "Thelonious Monk"
-  copyright = \markup \small { \now " " "© 1962 Thelonious Music Corp." }
-}
+headerTitle = "Blue Monk"
+headerSubtitle = \subtitle
+headerPoet = "Abbey Lincoln"
+headerComposer = "Thelonious Monk"
+headerCopyright = "© 1962 Thelonious Music Corp."
 
 refrainChords = \chordmode {
   bf1:7 ef1:7 bf1:7 bf1:7

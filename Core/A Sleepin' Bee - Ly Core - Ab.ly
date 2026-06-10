@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:23.844529Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "A Sleepin' Bee"
-  subtitle = \subtitle
-  poet = "Harold Arlen & Truman Capote"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1954 Harold Arlen and Truman Capote" }
-}
+headerTitle = "A Sleepin' Bee"
+headerSubtitle = \subtitle
+headerPoet = "Harold Arlen & Truman Capote"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1954 Harold Arlen and Truman Capote"
 
 refrainLyrics = \lyricmode {
 When a bee lies sleep -- in' __ in the palm of your hand, __

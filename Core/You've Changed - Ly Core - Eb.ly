@@ -4,13 +4,11 @@ songID = "2026-06-01T22:17:00.460908Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You've Changed"
-  subtitle = \subtitle
-  poet = "Bill Carey"
-  composer = "Carl Fischer"
-  copyright = \markup \small { \now " " "© 1941 Southern Music Publishing Company Inc." }
-}
+headerTitle = "You've Changed"
+headerSubtitle = \subtitle
+headerPoet = "Bill Carey"
+headerComposer = "Carl Fischer"
+headerCopyright = "© 1941 Southern Music Publishing Company Inc."
 
 refrainLyrics = \lyricmode {
 You've changed, that spar -- kle in your eyes is gone.

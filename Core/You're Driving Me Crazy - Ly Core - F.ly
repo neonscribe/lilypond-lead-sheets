@@ -4,13 +4,11 @@ songID = "2026-06-01T22:17:00.374542Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "You're Driving Me Crazy"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Walter Donaldson"
-  copyright = \markup \small { \now " " "© 1930 Donaldson Publishing Co." }
-}
+headerTitle = "You're Driving Me Crazy"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Walter Donaldson"
+headerCopyright = "© 1930 Donaldson Publishing Co."
 
 refrainLyrics = \lyricmode {
 You, __ you're driv -- ing me cra -- zy. __

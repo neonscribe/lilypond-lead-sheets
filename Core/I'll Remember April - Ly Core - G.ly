@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.589101Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'll Remember April"
-  subtitle = \subtitle
-  poet = "Patricia Johnston and Don Raye"
-  composer = "Gene de Paul"
-  copyright = \markup \small { \now " " "© 1942 Leeds Music Corporation" }
-}
+headerTitle = "I'll Remember April"
+headerSubtitle = \subtitle
+headerPoet = "Patricia Johnston and Don Raye"
+headerComposer = "Gene de Paul"
+headerCopyright = "© 1942 Leeds Music Corporation"
 
 refrainLyrics = \lyricmode {
   This love -- ly day will length -- en in -- to eve -- ning,

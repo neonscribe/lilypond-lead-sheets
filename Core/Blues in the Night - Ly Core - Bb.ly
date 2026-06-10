@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:27.654918Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blues in the Night"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1941 Warner Bros. Inc." }
-}
+headerTitle = "Blues in the Night"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1941 Warner Bros. Inc."
 
 leadingEighth = ##t
 

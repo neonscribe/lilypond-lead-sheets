@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.09475Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Down for Double"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Freddie Green"
-  copyright = \markup \small { \now " " "© 1941 Regent Music Corporation" }
-}
+headerTitle = "Down for Double"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Freddie Green"
+headerCopyright = "© 1941 Regent Music Corporation"
 
 leadingEighth = ##t
 

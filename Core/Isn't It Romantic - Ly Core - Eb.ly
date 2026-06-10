@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.635704Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Isn't It Romantic"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1932 Famous Music Corp." }
-}
+headerTitle = "Isn't It Romantic"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1932 Famous Music Corp."
 
 refrainLyrics = \lyricmode {
 Is -- n't it ro -- man -- tic? Mu -- sic in the night,

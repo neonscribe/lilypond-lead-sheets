@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.770181Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Maiden Voyage"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Herbie Hancock"
-  copyright = \markup \small { \now " " "© 1965 Hancock Music Inc." }
-}
+headerTitle = "Maiden Voyage"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Herbie Hancock"
+headerCopyright = "© 1965 Hancock Music Inc."
 
 refrainChords = \chordmode {
   s4

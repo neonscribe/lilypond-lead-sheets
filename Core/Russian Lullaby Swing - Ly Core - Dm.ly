@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:49.135566Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Russian Lullaby (Swing)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Irving Berlin"
-  copyright = \markup \small { \now " " "© 1927 Irving Berlin" }
-}
+headerTitle = "Russian Lullaby (Swing)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Irving Berlin"
+headerCopyright = "© 1927 Irving Berlin"
 
 refrainLyrics = \lyricmode {
 Ev' -- ry night you'll hear her croon a Rus -- sian lull -- a -- by,

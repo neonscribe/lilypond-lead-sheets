@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:48.419544Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Recorda-Me"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Joe Henderson"
-  copyright = \markup \small { \now " " "© 1963 Blue Horizon Music, Inc." }
-}
+headerTitle = "Recorda-Me"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Joe Henderson"
+headerCopyright = "© 1963 Blue Horizon Music, Inc."
 
 bossaRhythm = ##t
 

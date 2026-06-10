@@ -6,12 +6,11 @@ songID = "2026-06-01T22:16:59.656048Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Yardbird Suite"
-  subtitle = \subtitle
-  composer = "Charlie Parker"
-  copyright = \markup \small { \now " " "© 1946 Atlantic Music Corp." }
-}
+headerTitle = "Yardbird Suite"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Parker"
+headerCopyright = "© 1946 Atlantic Music Corp."
 
 refrainLyrics = \lyricmode {
 It's hard to learn

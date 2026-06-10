@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:35.551142Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Hymn to Freedom"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Oscar Peterson"
-  copyright = \markup \small { \now " " "© 1962 Tomi Music Company" }
-}
+headerTitle = "Hymn to Freedom"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Oscar Peterson"
+headerCopyright = "© 1962 Tomi Music Company"
 
 refrainChords = \chordmode {
   f2 a2 d2:m f2:7/a bf2 e2:7/b f4 bf4/f f4 f4:7 bf2 e2:7/b

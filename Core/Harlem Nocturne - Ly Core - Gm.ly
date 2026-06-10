@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.584114Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Harlem Nocturne"
-  subtitle = \subtitle
-  poet = "Dick Rogers"
-  composer = "Earle Hagen"
-  copyright = \markup \small { \now " " "© 1940 Shapiro, Bernstein & Co." }
-}
+headerTitle = "Harlem Nocturne"
+headerSubtitle = \subtitle
+headerPoet = "Dick Rogers"
+headerComposer = "Earle Hagen"
+headerCopyright = "© 1940 Shapiro, Bernstein & Co."
 
 refrainChords = \chordmode {
   s1

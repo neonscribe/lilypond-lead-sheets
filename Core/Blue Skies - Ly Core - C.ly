@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.278957Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Blue Skies"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Irving Berlin"
-  copyright = \markup \small { \now " " "© 1927 Irving Berlin" }
-}
+headerTitle = "Blue Skies"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Irving Berlin"
+headerCopyright = "© 1927 Irving Berlin"
 
 refrainLyrics = \lyricmode {
   Blue skies __ smi -- ling at me. __

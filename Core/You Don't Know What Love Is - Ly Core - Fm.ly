@@ -6,13 +6,11 @@ songID = "2026-06-01T22:17:00.056259Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "You Don't Know What Love Is"
-  subtitle = \subtitle
-  poet = "Don Raye"
-  composer = "Gene de Paul"
-  copyright = \markup \small { \now " " "© 1941 Universal Music Corp." }
-}
+headerTitle = "You Don't Know What Love Is"
+headerSubtitle = \subtitle
+headerPoet = "Don Raye"
+headerComposer = "Gene de Paul"
+headerCopyright = "© 1941 Universal Music Corp."
 
 leadingEighth = ##t
 

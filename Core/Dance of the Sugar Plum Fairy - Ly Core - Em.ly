@@ -4,14 +4,12 @@ songID = "2026-06-01T22:16:30.474424Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Dance of the Sugar Plum Fairy"
-  subtitle = "The Nutcracker (Щелкунчик) Op. 71 "
-  subsubtitle = \subtitle
-  poet = ""
-  composer = "Pyotr Il'yich Tchaikovsky (Пётр Ильич Чайковский)"
-  copyright = \markup \small { \now " " "1892" }
-}
+headerTitle = "Dance of the Sugar Plum Fairy"
+headerSubtitle = "The Nutcracker (Щелкунчик) Op. 71 "
+headerSubsubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Pyotr Il'yich Tchaikovsky (Пётр Ильич Чайковский)"
+headerCopyright = "1892"
 
 refrainChords = \chordmode {
   e2:m a2:m6/e e2:dim7 ds2:dim7/e

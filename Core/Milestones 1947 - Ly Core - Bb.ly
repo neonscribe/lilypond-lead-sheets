@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.317271Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Milestones (1947)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Lewis (credited to Miles Davis)"
-  copyright = \markup \small { \now " " "© 1948 Screen Gems Inc." }
-}
+headerTitle = "Milestones (1947)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Lewis (credited to Miles Davis)"
+headerCopyright = "© 1948 Screen Gems Inc."
 
 refrainChords = \chordmode {
   f1:maj7 bf2:m7 ef2:7 af1:maj7 df2:m7 gf2:7

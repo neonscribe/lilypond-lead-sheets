@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.77412Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Billie's Bounce"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charlie Parker"
-  copyright = \markup \small { \now " " "© 1945 Atlantic Music Inc." }
-}
+headerTitle = "Billie's Bounce"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Parker"
+headerCopyright = "© 1945 Atlantic Music Inc."
 
 leadingEighth = ##t
 

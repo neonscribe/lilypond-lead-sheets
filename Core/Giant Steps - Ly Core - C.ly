@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:34.072141Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Giant Steps"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Coltrane"
-  copyright = \markup \small { \now " " "© 1959 Jowcol Music" }
-}
+headerTitle = "Giant Steps"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Coltrane"
+headerCopyright = "© 1959 Jowcol Music"
 
 refrainChords = \chordmode {
   b2:maj7 d2:7 g2:maj7 bf2:7 ef1:maj7 a2:m7 d2:7

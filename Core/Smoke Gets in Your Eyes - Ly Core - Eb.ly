@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:50.513806Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Smoke Gets in Your Eyes"
-  subtitle = \subtitle
-  poet = "Otto Harbach"
-  composer = "Jerome Kern"
-  copyright = \markup \small { \now " " "© 1933 T.B. Harms Company" }
-}
+headerTitle = "Smoke Gets in Your Eyes"
+headerSubtitle = \subtitle
+headerPoet = "Otto Harbach"
+headerComposer = "Jerome Kern"
+headerCopyright = "© 1933 T.B. Harms Company"
 
 refrainLyrics = \lyricmode {
 They asked me how I knew my true love was true. __

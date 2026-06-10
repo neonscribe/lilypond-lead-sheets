@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.780787Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Look of Love"
-  subtitle = \subtitle
-  poet = "Hal David"
-  composer = "Burt Bacharach"
-  copyright = \markup \small { \now " " "© 1967 Colgems Music Corp." }
-}
+headerTitle = "The Look of Love"
+headerSubtitle = \subtitle
+headerPoet = "Hal David"
+headerComposer = "Burt Bacharach"
+headerCopyright = "© 1967 Colgems Music Corp."
 
 refrainLyrics = \lyricmode {
 The look __ of love __ is in __ your eyes, __ a look __ your smile __ can't dis -- guise. __

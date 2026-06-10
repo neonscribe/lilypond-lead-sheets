@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:40.184331Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It's Only a Paper Moon"
-  subtitle = \subtitle
-  poet = "Billy Rose & E.Y. Harburg"
-  composer = "Harold Arlen"
-  copyright = \markup \small { \now " " "© 1933 Anne Rachel Music Corp" }
-}
+headerTitle = "It's Only a Paper Moon"
+headerSubtitle = \subtitle
+headerPoet = "Billy Rose & E.Y. Harburg"
+headerComposer = "Harold Arlen"
+headerCopyright = "© 1933 Anne Rachel Music Corp"
 
 refrainLyrics = \lyricmode {
 Say, its on -- ly a pa -- per moon, __

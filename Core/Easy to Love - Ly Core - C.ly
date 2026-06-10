@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.488046Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "(You'd Be So) Easy to Love"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1936 Chappell & Co." }
-}
+headerTitle = "(You'd Be So) Easy to Love"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1936 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 You'd be so eas -- y to love, so eas -- y to i -- do -- lize, all oth -- ers a -- bove,

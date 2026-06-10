@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.087337Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Ain't Misbehavin'"
-  subtitle = \subtitle
-  poet = "Andy Razaf"
-  composer = "Fats Waller and Harry Brooks"
-  copyright = \markup \small { \now " " "© 1929 Mills Music, Inc." }
-}
+headerTitle = "Ain't Misbehavin'"
+headerSubtitle = \subtitle
+headerPoet = "Andy Razaf"
+headerComposer = "Fats Waller and Harry Brooks"
+headerCopyright = "© 1929 Mills Music, Inc."
 
 refrainLyrics = \lyricmode {
   No one to talk with, all by my -- self,

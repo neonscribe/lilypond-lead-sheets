@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:46.616582Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Norwegian Wood"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Lennon/Paul McCartney"
-  copyright = \markup \small { \now " " "© 1966 Northern Songs Ltd." }
-}
+headerTitle = "Norwegian Wood"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Lennon/Paul McCartney"
+headerCopyright = "© 1966 Northern Songs Ltd."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _

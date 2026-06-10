@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.51869Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Dancing in the Dark"
-  subtitle = \subtitle
-  poet = "Howard Dietz"
-  composer = "Arthur Schwartz"
-  copyright = \markup \small { \now " " "© 1931 Schwartz Arthur Music Ltd." }
-}
+headerTitle = "Dancing in the Dark"
+headerSubtitle = \subtitle
+headerPoet = "Howard Dietz"
+headerComposer = "Arthur Schwartz"
+headerCopyright = "© 1931 Schwartz Arthur Music Ltd."
 
 refrainLyrics = \lyricmode {
 Danc -- ing in the dark __ till the tune ends.

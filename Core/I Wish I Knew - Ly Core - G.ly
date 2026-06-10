@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.189574Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Wish I Knew"
-  subtitle = \subtitle
-  poet = "Mack Gordon"
-  composer = "Harry Warren"
-  copyright = \markup \small { \now " " "© 1945 Twentieth Century Music Corporation" }
-}
+headerTitle = "I Wish I Knew"
+headerSubtitle = \subtitle
+headerPoet = "Mack Gordon"
+headerComposer = "Harry Warren"
+headerCopyright = "© 1945 Twentieth Century Music Corporation"
 
 refrainLyrics = \lyricmode {
 I wish I knew some -- one like you could love me.

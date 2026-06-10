@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.104437Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "On the Alamo"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Isham Jones"
-  copyright = \markup \small { \now " " "© 1922 Tell Taylor Inc." }
-}
+headerTitle = "On the Alamo"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Isham Jones"
+headerCopyright = "© 1922 Tell Taylor Inc."
 
 refrainLyrics = \lyricmode {
 Where the moon swings low, __

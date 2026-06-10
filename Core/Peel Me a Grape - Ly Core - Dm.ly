@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:47.753058Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Peel Me a Grape"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Dave Frishberg"
-  copyright = \markup \small { \now " " "© 1962 Swiftwater Music" }
-}
+headerTitle = "Peel Me a Grape"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Dave Frishberg"
+headerCopyright = "© 1962 Swiftwater Music"
 
 leadingEighth = ##t
 

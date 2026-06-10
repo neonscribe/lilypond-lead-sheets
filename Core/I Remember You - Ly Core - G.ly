@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:36.81878Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Remember You"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Victor Schertzinger"
-  copyright = \markup \small { \now " " "© 1942 by Paramount Music Corporation" }
-}
+headerTitle = "I Remember You"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Victor Schertzinger"
+headerCopyright = "© 1942 by Paramount Music Corporation"
 
 verseLyrics = \lyricmode {
   Was it in Ta -- hi -- ti?

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.621346Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Sentimental Journey"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bud Green, Les Brown, Ben Homer"
-  copyright = \markup \small { \now " " "© 1944 Edwin H. Morris & Company, Inc." }
-}
+headerTitle = "Sentimental Journey"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bud Green, Les Brown, Ben Homer"
+headerCopyright = "© 1944 Edwin H. Morris & Company, Inc."
 
 refrainLyrics = \lyricmode {
 Gon -- na take a sen -- ti -- men -- tal jour -- ney,

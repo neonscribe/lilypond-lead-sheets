@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.373346Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Like a Lover (O Cantador)"
-  subtitle = \subtitle
-  poet = "Nelson Motta/Alan and Marilyn Bergman"
-  composer = "Dori Caymmi"
-  copyright = \markup \small { \now " " "© 1968 Bema Music, Inc." }
-}
+headerTitle = "Like a Lover (O Cantador)"
+headerSubtitle = \subtitle
+headerPoet = "Nelson Motta/Alan and Marilyn Bergman"
+headerComposer = "Dori Caymmi"
+headerCopyright = "© 1968 Bema Music, Inc."
 
 bossaRhythm = ##t
 

@@ -1,6 +1,14 @@
 %%% piano-chords.ily
 
 \score {
+$(if (and (defined? 'headerTitle) headerTitle)
+  #{ \header {
+	    title = \headerTitle
+	    subtitle = \subtitle
+	    poet = \headerPoet
+	    composer = \headerComposer
+	    copyright = \markup \small { \now " " \headerCopyright }
+} #} )
   <<
     { \context ChordNames 
       {
@@ -37,3 +45,6 @@
     >>
   \layout { ragged-bottom = ##t ragged-right = ##f }
 }
+
+
+headerTitle = ##f

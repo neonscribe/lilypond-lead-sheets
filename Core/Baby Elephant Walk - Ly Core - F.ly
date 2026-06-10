@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.670829Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Baby Elephant Walk"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Henry Mancini"
-  copyright = \markup \small { \now " " "© 1961 Famous Music Corporation" }
-}
+headerTitle = "Baby Elephant Walk"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Henry Mancini"
+headerCopyright = "© 1961 Famous Music Corporation"
 
 introChords = \chordmode {
   f1 f1 f1 f1

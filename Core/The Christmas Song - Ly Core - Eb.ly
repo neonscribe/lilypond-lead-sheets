@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:54.08268Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "The Christmas Song (Chestnuts Roasting)"
-  subtitle = \subtitle
-  poet = "Robert Wells"
-  composer = "Mel Tormé"
-  copyright = \markup \small { \now " " "© 1946 Edwin H. Morris & Co." }
-}
+headerTitle = "The Christmas Song (Chestnuts Roasting)"
+headerSubtitle = \subtitle
+headerPoet = "Robert Wells"
+headerComposer = "Mel Tormé"
+headerCopyright = "© 1946 Edwin H. Morris & Co."
 
 refrainLyrics = \lyricmode {
 Chest -- nuts roast -- ing on an o -- open fire. Jack Frost nip -- ping at your nose,

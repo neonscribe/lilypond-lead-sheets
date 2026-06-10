@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:57.393194Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Unchain My Heart"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bobby Sharp/Teddy Powell"
-  copyright = \markup \small { \now " " "© 1960 B. Sharp Music" }
-}
+headerTitle = "Unchain My Heart"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bobby Sharp/Teddy Powell"
+headerCopyright = "© 1960 B. Sharp Music"
 
 leadingEighth = ##t
 

@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:34.820661Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Heart and Soul"
-  subtitle = \subtitle
-  poet = "Frank Loesser"
-  composer = "Hoagy Carmichael"
-  copyright = \markup \small { \now " " "© 1938 Famous Music Corporation" }
-}
+headerTitle = "Heart and Soul"
+headerSubtitle = \subtitle
+headerPoet = "Frank Loesser"
+headerComposer = "Hoagy Carmichael"
+headerCopyright = "© 1938 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
 Heart and soul, __ I fell in love with you.

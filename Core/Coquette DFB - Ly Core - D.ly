@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.037066Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Coquette (Django Fakebook)"
-  subtitle = \subtitle
-  poet = "Gus Kahn"
-  composer = "Carmen Lombardo and John Green"
-  copyright = \markup \small { \now " " "© 1928 Leo Feist Inc." }
-}
+headerTitle = "Coquette (Django Fakebook)"
+headerSubtitle = \subtitle
+headerPoet = "Gus Kahn"
+headerComposer = "Carmen Lombardo and John Green"
+headerCopyright = "© 1928 Leo Feist Inc."
 
 refrainLyrics = \lyricmode {
 }

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.35595Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "San Antonio Rose"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Bob Wills"
-  copyright = \markup \small { \now " " "© 1940 Bourne Co." }
-}
+headerTitle = "San Antonio Rose"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Bob Wills"
+headerCopyright = "© 1940 Bourne Co."
 
 refrainLyrics = \lyricmode {
 Deep with -- in my heart lies a mel -- o -- dy,

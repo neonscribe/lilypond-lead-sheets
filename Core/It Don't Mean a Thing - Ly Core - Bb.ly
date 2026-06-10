@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:39.77076Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "It Don't Mean a Thing (If It Ain't Got That Swing)"
-  subtitle = \subtitle
-  poet = "Irving Mills"
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1932 Mills Music" }
-}
+headerTitle = "It Don't Mean a Thing (If It Ain't Got That Swing)"
+headerSubtitle = \subtitle
+headerPoet = "Irving Mills"
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1932 Mills Music"
 
 refrainLyrics = \lyricmode {
   It don't mean a thing if it ain't got that swing,

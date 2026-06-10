@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:43.651944Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Lush Life"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Billy Strayhorn"
-  copyright = \markup \small { \now " " "© 1949 Tempo Music Inc." }
-}
+headerTitle = "Lush Life"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Billy Strayhorn"
+headerCopyright = "© 1949 Tempo Music Inc."
 
 leadingEighth = ##t
 

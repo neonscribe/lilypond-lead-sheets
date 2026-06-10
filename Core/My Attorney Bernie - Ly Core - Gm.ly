@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:45.257013Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "My Attorney Bernie"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Dave Frishberg"
-  copyright = \markup \small { \now " " "© 1982 Swiftwater Music" }
-}
+headerTitle = "My Attorney Bernie"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Dave Frishberg"
+headerCopyright = "© 1982 Swiftwater Music"
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _

@@ -20,13 +20,11 @@ TempoBPM =
   TempoBPM
   70)
 
-\header {
-  title = "Spring Is Here"
-  subtitle = \subtitle
-  poet = "Lorenz Hart"
-  composer = "Richard Rodgers"
-  copyright = \markup \small { \now " " "© 1938 Chappell & Co." }
-}
+headerTitle = "Spring Is Here"
+headerSubtitle = \subtitle
+headerPoet = "Lorenz Hart"
+headerComposer = "Richard Rodgers"
+headerCopyright = "© 1938 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Spring is here, why does -- n't my heart go danc -- ing?

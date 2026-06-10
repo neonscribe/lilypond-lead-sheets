@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:44.603883Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Miss Otis Regrets"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1934 Chappell & Co." }
-}
+headerTitle = "Miss Otis Regrets"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1934 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Miss O -- tis re -- grets she's un -- a -- ble to lunch to -- day, Ma -- dam. __

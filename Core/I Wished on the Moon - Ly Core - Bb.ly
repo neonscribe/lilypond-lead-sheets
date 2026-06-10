@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:37.348522Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I Wished on the Moon"
-  subtitle = \subtitle
-  poet = "Dorothy Parker"
-  composer = "Ralph Rainger"
-  copyright = \markup \small { \now " " "© 1934 Famous Music Corp." }
-}
+headerTitle = "I Wished on the Moon"
+headerSubtitle = \subtitle
+headerPoet = "Dorothy Parker"
+headerComposer = "Ralph Rainger"
+headerCopyright = "© 1934 Famous Music Corp."
 
 refrainLyrics = \lyricmode {
 I wished on the moon __

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.254339Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Crazy Arms"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ralph Mooney, Chuck Seals"
-  copyright = \markup \small { \now " " "© 1955 Songs of Universal, Inc." }
-}
+headerTitle = "Crazy Arms"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ralph Mooney, Chuck Seals"
+headerCopyright = "© 1955 Songs of Universal, Inc."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _

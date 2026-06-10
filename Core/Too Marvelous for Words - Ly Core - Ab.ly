@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.907531Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Too Marvelous for Words"
-  subtitle = \subtitle
-  poet = "Johnny Mercer"
-  composer = "Richard A. Whiting"
-  copyright = \markup \small { \now " " "© 1937 Warner Bros. Inc." }
-}
+headerTitle = "Too Marvelous for Words"
+headerSubtitle = \subtitle
+headerPoet = "Johnny Mercer"
+headerComposer = "Richard A. Whiting"
+headerCopyright = "© 1937 Warner Bros. Inc."
 
 refrainLyrics = \lyricmode {
 You're just too mar -- vel -- ous, too mar -- vel -- ous for words,

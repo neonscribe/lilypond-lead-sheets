@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:50.162184Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Since I Fell for You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Buddy Johnson"
-  copyright = \markup \small { \now " " "© 1945 Warner Bros Inc." }
-}
+headerTitle = "Since I Fell for You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Buddy Johnson"
+headerCopyright = "© 1945 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 When you just give love and nev -- er get love, you'd bet -- ter let love __ de -- part. __

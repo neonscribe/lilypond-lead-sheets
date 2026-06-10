@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:43.202355Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Lover Man (Oh, Where Can You Be?)"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Jimmy Davis, Roger Ramirez and Jimmy Sherman"
-  copyright = \markup \small { \now " " "© 1941 MCA Music" }
-}
+headerTitle = "Lover Man (Oh, Where Can You Be?)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Jimmy Davis, Roger Ramirez and Jimmy Sherman"
+headerCopyright = "© 1941 MCA Music"
 
 refrainLyrics = \lyricmode {
 I don't know why, but I'm feel -- ing so sad, __

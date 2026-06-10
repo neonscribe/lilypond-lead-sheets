@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.091367Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Route 66"
-  subtitle = "Oscar Moore's guitar solo transcribed from Nat King Cole's 1946 recording"
-  poet = ""
-  composer = "Bobby Troup"
-  copyright = \markup \small { \now " " "© 1946 Burke & Van Heusen, Inc." }
-}
+headerTitle = "Route 66"
+headerSubtitle = "Oscar Moore's guitar solo transcribed from Nat King Cole's 1946 recording"
+headerPoet = ""
+headerComposer = "Bobby Troup"
+headerCopyright = "© 1946 Burke & Van Heusen, Inc."
 
 refrainChords = \chordmode {
   g8*5:7 cs8*3:9 c2.:9 s8 g8*7:7 s8 g8*5:13 s8 g8:13 s8 c8*9:9

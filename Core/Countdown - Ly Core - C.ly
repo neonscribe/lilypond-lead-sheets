@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.210147Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Countdown"
-  subtitle = \subtitle
-  poet = ""
-  composer = "John Coltrane"
-  copyright = \markup \small { \now " " "© 1959 Jowcol Music" }
-}
+headerTitle = "Countdown"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "John Coltrane"
+headerCopyright = "© 1959 Jowcol Music"
 
 refrainChords = \chordmode {
   e2:m7 f2:7 bf2:maj7 df2:7 gf2:maj7 a2:7.9+ d1:maj7

@@ -12,13 +12,11 @@ songID = "2026-06-01T22:16:45.540353Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "My Foolish Heart"
-  subtitle = \subtitle
-  poet = "Ned Washington"
-  composer = "Victor Young"
-  copyright = \markup \small { \now " " "© 1949 Joy Music, Inc., 1619 Broadway, New York, N.Y." }
-}
+headerTitle = "My Foolish Heart"
+headerSubtitle = \subtitle
+headerPoet = "Ned Washington"
+headerComposer = "Victor Young"
+headerCopyright = "© 1949 Joy Music, Inc., 1619 Broadway, New York, N.Y."
 
 refrainLyricsM = \lyricmode {
 The night __ is like a love -- ly tune,

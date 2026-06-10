@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:34.505911Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Hallelujah I Love Her (Him) So"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Ray Charles"
-  copyright = \markup \small { \now " " "© 1956 Hill & Range Songs, Inc." }
-}
+headerTitle = "Hallelujah I Love Her (Him) So"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Ray Charles"
+headerCopyright = "© 1956 Hill & Range Songs, Inc."
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Well, let me tell you 'bout a girl I know. __

@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:23.926892Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Act Naturally"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Voni Morrison, Johnny Russell"
-  copyright = \markup \small { \now " " "© 1963 Blue Book Music Co." }
-}
+headerTitle = "Act Naturally"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Voni Morrison, Johnny Russell"
+headerCopyright = "© 1963 Blue Book Music Co."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _

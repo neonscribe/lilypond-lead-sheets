@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:59.193791Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Why Try to Change Me Now?"
-  subtitle = \subtitle
-  poet = "Joseph McCarthy"
-  composer = "Cy Coleman"
-  copyright = \markup \small { \now " " "© 1952 Notable Music Co., Inc." }
-}
+headerTitle = "Why Try to Change Me Now?"
+headerSubtitle = \subtitle
+headerPoet = "Joseph McCarthy"
+headerComposer = "Cy Coleman"
+headerCopyright = "© 1952 Notable Music Co., Inc."
 
 refrainLyrics = \lyricmode {
 I'm sen -- ti -- men -- tal __ so I walk __ in the rain.

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:27.69888Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bluesette"
-  subtitle = \subtitle
-  poet = "Norman Gimbel"
-  composer = "Toots Thielmans"
-  copyright = \markup \small { \now " " "© 1961 Duchess Music Corporation" }
-}
+headerTitle = "Bluesette"
+headerSubtitle = \subtitle
+headerPoet = "Norman Gimbel"
+headerComposer = "Toots Thielmans"
+headerCopyright = "© 1961 Duchess Music Corporation"
 
 refrainLyrics = \lyricmode {
 Poor lit -- tle, sad lit -- tle blue Blues -- ette.

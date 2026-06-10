@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:29.925446Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Cool Blues"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Charlie Parker"
-  copyright = \markup \small { \now " " "© 1947 Songs of Universal Inc." }
-}
+headerTitle = "Cool Blues"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Charlie Parker"
+headerCopyright = "© 1947 Songs of Universal Inc."
 
 refrainChords = \chordmode {
   c1 c1 c1 c1 f1:7 f1:7 c1 c1 d1:m7 g1:7 c1 c1

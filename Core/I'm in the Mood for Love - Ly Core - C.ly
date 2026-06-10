@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.16333Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "I'm in the Mood for Love"
-  subtitle = \subtitle
-  poet = "Dorothy Fields"
-  composer = "Jimmy McHugh"
-  copyright = \markup \small { \now " " "© 1935 Robbins Music Corporation" }
-}
+headerTitle = "I'm in the Mood for Love"
+headerSubtitle = \subtitle
+headerPoet = "Dorothy Fields"
+headerComposer = "Jimmy McHugh"
+headerCopyright = "© 1935 Robbins Music Corporation"
 
 refrainLyrics = \lyricmode {
 I'm in the mood for love sim -- ply be -- cause you're near me.

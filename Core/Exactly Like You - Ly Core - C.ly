@@ -10,13 +10,11 @@ songID = "2026-06-01T22:16:32.979131Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Exactly Like You"
-  subtitle = \subtitle
-  poet = "Dorothy Fields"
-  composer = "Jimmy McHugh"
-  copyright = \markup \small { \now " " "© 1930 Shapiro, Bernstein & Co. Inc." }
-}
+headerTitle = "Exactly Like You"
+headerSubtitle = \subtitle
+headerPoet = "Dorothy Fields"
+headerComposer = "Jimmy McHugh"
+headerCopyright = "© 1930 Shapiro, Bernstein & Co. Inc."
 
 refrainLyrics = \lyricmode {
   I know why I've wait -- ed, __

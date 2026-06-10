@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:58.657858Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "When Sunny Gets Blue"
-  subtitle = \subtitle
-  poet = "Jack Segal"
-  composer = "Marvin Fisher"
-  copyright = \markup \small { \now " " "© 1956 Marvin Music Company" }
-}
+headerTitle = "When Sunny Gets Blue"
+headerSubtitle = \subtitle
+headerPoet = "Jack Segal"
+headerComposer = "Marvin Fisher"
+headerCopyright = "© 1956 Marvin Music Company"
 
 leadingEighth = ##t
 

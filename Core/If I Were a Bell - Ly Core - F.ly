@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:38.655384Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "If I Were a Bell"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Frank Loesser"
-  copyright = \markup \small { \now " " "© 1950 Frank Music Corp." }
-}
+headerTitle = "If I Were a Bell"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Frank Loesser"
+headerCopyright = "© 1950 Frank Music Corp."
 
 refrainLyrics = \lyricmode {
   _ _ _ _ _ _ _ _ _ _ _ _ _ _

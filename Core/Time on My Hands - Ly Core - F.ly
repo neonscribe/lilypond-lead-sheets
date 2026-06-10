@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:56.58971Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Time on My Hands (You in My Arms)"
-  subtitle = \subtitle
-  poet = "Harold Adamson and Mack Gordon"
-  composer = "Vincent Youmans"
-  copyright = \markup \small { \now " " "© 1930 Vincent Youmans, Inc." }
-}
+headerTitle = "Time on My Hands (You in My Arms)"
+headerSubtitle = \subtitle
+headerPoet = "Harold Adamson and Mack Gordon"
+headerComposer = "Vincent Youmans"
+headerCopyright = "© 1930 Vincent Youmans, Inc."
 
 refrainLyrics = \lyricmode {
 Time on my hands, __ you in my arms. __ No -- thing but love __ in view. __

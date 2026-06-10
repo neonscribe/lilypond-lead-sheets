@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:25.323795Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Ashokan Farewell"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Jay Ungar"
-  copyright = \markup \small { \now " " "© 1990 Swinging Door Music, USA" }
-}
+headerTitle = "Ashokan Farewell"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Jay Ungar"
+headerCopyright = "© 1990 Swinging Door Music, USA"
 
 straightEighths = ##t
 

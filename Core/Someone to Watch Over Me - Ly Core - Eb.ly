@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:51.036921Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Someone to Watch Over Me"
-  subtitle = \subtitle
-  poet = "Ira Gershwin"
-  composer = "George Gershwin"
-  copyright = \markup \small { \now " " "© 1926 New World Music Corporation" }
-}
+headerTitle = "Someone to Watch Over Me"
+headerSubtitle = \subtitle
+headerPoet = "Ira Gershwin"
+headerComposer = "George Gershwin"
+headerCopyright = "© 1926 New World Music Corporation"
 
 refrainLyrics = \lyricmode {
 There's a some -- bod -- y I'm long -- ing to see.

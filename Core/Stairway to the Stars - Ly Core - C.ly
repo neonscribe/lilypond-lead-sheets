@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:51.929105Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "Stairway to the Stars"
-  subtitle = \subtitle
-  poet = "Mitchell Parish"
-  composer = "Matt Malneck and Frank Signorelli"
-  copyright = \markup \small { \now " " "© 1935 Robbins Music Corporation" }
-}
+headerTitle = "Stairway to the Stars"
+headerSubtitle = \subtitle
+headerPoet = "Mitchell Parish"
+headerComposer = "Matt Malneck and Frank Signorelli"
+headerCopyright = "© 1935 Robbins Music Corporation"
 
 refrainLyrics = \lyricmode {
 Let's build a stair -- way to the stars and climb that stair -- way to the stars,

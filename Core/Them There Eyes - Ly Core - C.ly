@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:55.831003Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Them There Eyes"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Maceo Pinkard, William Tracy & Doris Tauber"
-  copyright = \markup \small { \now " " "© 1930 Bourne, Inc." }
-}
+headerTitle = "Them There Eyes"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Maceo Pinkard, William Tracy & Doris Tauber"
+headerCopyright = "© 1930 Bourne, Inc."
 
 refrainLyrics = \lyricmode {
 I fell in love with you first time I looked in -- to them there eyes.

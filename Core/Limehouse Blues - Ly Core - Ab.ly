@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:42.416757Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Limehouse Blues"
-  subtitle = \subtitle
-  poet = "Douglas Furber"
-  composer = "Philip Braham"
-  copyright = \markup \small { \now " " "© 1922 Ascherberg, Hopwood & Crew Ltd." }
-}
+headerTitle = "Limehouse Blues"
+headerSubtitle = \subtitle
+headerPoet = "Douglas Furber"
+headerComposer = "Philip Braham"
+headerCopyright = "© 1922 Ascherberg, Hopwood & Crew Ltd."
 
 refrainChords = \chordmode {
   df1:7 df1:7 df1:7 df1:7

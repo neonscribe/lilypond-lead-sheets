@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:26.596087Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Better Than Anything"
-  subtitle = \subtitle
-  poet = "William Loughborough"
-  composer = "David Wheat"
-  copyright = \markup \small { \now " " "© 1962 Sanga Music Inc." }
-}
+headerTitle = "Better Than Anything"
+headerSubtitle = \subtitle
+headerPoet = "William Loughborough"
+headerComposer = "David Wheat"
+headerCopyright = "© 1962 Sanga Music Inc."
 
 refrainLyrics = \lyricmode {
 Bet -- ter than sail -- ing at mid -- night,

@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:32.575153Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Elena's Bossa"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Gonzalo Bergara"
-  copyright = \markup \small { \now " " "© 2008" }
-}
+headerTitle = "Elena's Bossa"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Gonzalo Bergara"
+headerCopyright = "© 2008"
 
 refrainChords = \chordmode {
   a1:m f1 e1:7

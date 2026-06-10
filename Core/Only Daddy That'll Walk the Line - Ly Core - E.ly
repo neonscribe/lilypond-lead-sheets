@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:47.485392Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Only Daddy That'll Walk the Line"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Jimmy Bryant"
-  copyright = \markup \small { \now " " "© 1967 Beechwood Music Corp." }
-}
+headerTitle = "Only Daddy That'll Walk the Line"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Jimmy Bryant"
+headerCopyright = "© 1967 Beechwood Music Corp."
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _

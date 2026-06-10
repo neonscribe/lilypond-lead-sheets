@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:49.976202Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Si Tu Vois Ma Mère"
-  subtitle = \subtitle
-  poet = "Jean Broussole"
-  composer = "Sidney Bechet"
-  copyright = \markup \small { \now " " "© 1952" }
-}
+headerTitle = "Si Tu Vois Ma Mère"
+headerSubtitle = \subtitle
+headerPoet = "Jean Broussole"
+headerComposer = "Sidney Bechet"
+headerCopyright = "© 1952"
 
 refrainLyrics = \lyricmode {
     Quand je pense "à" toi Aus -- si -- "tôt" "je " vois Je ne sais pour

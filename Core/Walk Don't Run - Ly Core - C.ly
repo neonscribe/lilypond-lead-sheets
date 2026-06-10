@@ -4,12 +4,11 @@ songID = "2026-06-01T22:16:57.706579Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title =  "Walk, Don't Run (as recorded by The Ventures)"
-  subtitle = \subtitle
-  copyright = \markup \small { \now " "  "© 1960 Peermusic Ltd. and Mesa Verde Music Co." }
-  composer =  "Johnny Smith"
-}
+headerTitle =  "Walk, Don't Run (as recorded by The Ventures)"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer =  "Johnny Smith"
+headerCopyright = "© 1960 Peermusic Ltd. and Mesa Verde Music Co."
 
 straightEighths = ##t
 

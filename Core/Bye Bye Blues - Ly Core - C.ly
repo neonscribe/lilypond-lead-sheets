@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:28.366007Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Bye Bye Blues"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Fred Hamm, Dave Bennett, Bert Lown and Chauncey Gray"
-  copyright = \markup \small { \now " " "© 1930 Bourne Co." }
-}
+headerTitle = "Bye Bye Blues"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Fred Hamm, Dave Bennett, Bert Lown and Chauncey Gray"
+headerCopyright = "© 1930 Bourne Co."
 
 refrainLyrics = \lyricmode {
 Bye bye blues. __ Bye bye blues. __ Bells ring, birds sing.

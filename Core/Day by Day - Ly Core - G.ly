@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:30.904734Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "Day by Day"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Sammy Cahn, Axel Stordahl, Paul Weston"
-  copyright = \markup \small { \now " " "© 1945 Barton Music Corp." }
-}
+headerTitle = "Day by Day"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Sammy Cahn, Axel Stordahl, Paul Weston"
+headerCopyright = "© 1945 Barton Music Corp."
 
 refrainLyrics = \lyricmode {
 Day by day I'm fall -- ing more in love with you,

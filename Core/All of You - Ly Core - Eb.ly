@@ -4,13 +4,11 @@ songID = "2026-06-01T22:16:24.412564Z"
 
 \include "../Include/lead-sheets.ily"
 
-\header {
-  title = "All of You"
-  subtitle = \subtitle
-  poet = ""
-  composer = "Cole Porter"
-  copyright = \markup \small { \now " " "© 1954 Cole Porter" }
-}
+headerTitle = "All of You"
+headerSubtitle = \subtitle
+headerPoet = ""
+headerComposer = "Cole Porter"
+headerCopyright = "© 1954 Cole Porter"
 
 refrainLyrics = \lyricmode {
 I love the looks of you, the lure of you.

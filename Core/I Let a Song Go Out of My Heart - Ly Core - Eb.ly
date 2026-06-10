@@ -6,13 +6,11 @@ songID = "2026-06-01T22:16:36.656703Z"
 
 #(set-global-staff-size 18)
 
-\header {
-  title = "I Let a Song Go Out of My Heart"
-  subtitle = \subtitle
-  poet = "Henry Nemo"
-  composer = "Duke Ellington"
-  copyright = \markup \small { \now " " "© 1938 Famous Music Corporation" }
-}
+headerTitle = "I Let a Song Go Out of My Heart"
+headerSubtitle = \subtitle
+headerPoet = "Henry Nemo"
+headerComposer = "Duke Ellington"
+headerCopyright = "© 1938 Famous Music Corporation"
 
 refrainLyrics = \lyricmode {
   I let a song __ go out of my heart;
