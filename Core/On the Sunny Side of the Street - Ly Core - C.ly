@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "ireal", "newreal" ] } }
+
+%}
+
 songID = "2026-06-01T22:16:47.215397Z"
 
 \include "../Include/lead-sheets.ily"
@@ -27,7 +33,7 @@ Gold dust at my feet on the sun -- ny side of the street.
 sun -- ny side on the sun -- ny side on the sun -- ny side of the street.
 }
 
-refrainWhatChords = \chordmode {
+refrainiRealChords = \chordmode {
   s4
 
   c1:6 e1:7 f1:maj7 c2:6/g e2:7.9-/gs
@@ -44,7 +50,7 @@ refrainWhatChords = \chordmode {
 }
 
 refrainNewRealChords = \chordmode {
-  s4
+  \chordInsideParens{ g4:7 }
 
   c1:6 e1:7 f1:maj7 b2:m7.5- e2:7
   a1:m7  d4:m7 \chordSlash 1 ef4:dim7 \chordSlash 1 d2:m7 g2:7 e4:m7 a4:7 d4:m7 g4:7
@@ -77,7 +83,17 @@ refrainHLChords = \chordmode {
   \chordInsideParens{ g2:7 }
 }
 
-refrainChords = \refrainWhatChords
+alternateChords = #(if (defined? 'alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "ireal" refrainiRealChords)
+			    (cons "newreal" refrainNewRealChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = c
 
