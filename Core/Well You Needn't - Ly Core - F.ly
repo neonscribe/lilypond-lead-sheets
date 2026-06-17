@@ -10,7 +10,7 @@ headerPoet = "Mike Perro"
 headerComposer = "Thelonious Monk"
 headerCopyright = "© 1944 Regent Music Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics =  \lyricmode {
     "You're" talk -- "in'" so "sweet," well you need -- "n't." You say
@@ -114,6 +114,4 @@ refrainMelody = \relative f' {
   }
 }
 
-\include "../Include/paper.ily"
-
-\include  "../Include/refrain.ily"
+\include  "../Include/refrainonly.ily"

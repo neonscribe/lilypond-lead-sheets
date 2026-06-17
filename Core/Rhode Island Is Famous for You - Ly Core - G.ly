@@ -109,10 +109,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/verse.ily"
-
+betweenText =
 \markup {
   \column {
     \vspace #2
@@ -136,6 +133,4 @@ refrainMelody = \relative f' {
   }
 }
 
-\pageBreak
-
-\include "../Include/refrain.ily"
+\include "../Include/verserefrain.ily"

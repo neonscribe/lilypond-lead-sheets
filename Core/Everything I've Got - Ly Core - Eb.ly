@@ -10,7 +10,7 @@ headerPoet = "Lorenz Hart"
 headerComposer = "Richard Rodgers"
 headerCopyright = "© 1942 Chappell & Co."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I have eyes for you to give you dir -- ty looks. __
@@ -112,6 +112,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

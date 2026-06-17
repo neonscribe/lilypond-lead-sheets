@@ -12,7 +12,7 @@ headerPoet = "Mitchell Parish and J. Fred Coots"
 headerComposer = "Haven Gillespie"
 headerCopyright = "© 1935 Mills Music, Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
   The dew is hang -- ing dia -- monds in the clo -- ver,
@@ -92,6 +92,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

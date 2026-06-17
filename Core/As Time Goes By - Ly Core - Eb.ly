@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Herman Hupfeld"
 headerCopyright = "© 1931 Warner Bros. Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 You must re -- mem -- ber this,
@@ -93,6 +93,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -79,6 +79,19 @@ refrainChords = \chordmode {
 
   c1 c1:7 f1 f1
   c1 g1:7 c1 c1
+
+
+  c1 c1:7 f1 f1
+  c1 c1 g1:7 g1:7
+
+  c1 c1:7 f1 f1
+  c1 g1:7 c1 c1:7
+
+  f1 f1 c1 c1
+  f1 f1 c1 g1:7
+
+  c1 c1:7 f1 f1
+  c1 g1:7 c1 c1
 }
 
 refrainKey = c
@@ -97,70 +110,42 @@ refrainMelody = \relative f' {
   g2 a4 g4 | bf2 c4 c4 | a4. f8~ f2 | r1 |
   r4 e'4 c4 g4 | c4. bf8~ bf4 af4 | g2 r2 | r1 |
 
-  \sect "A2"
+  \sectNoBreak "A2"
 
   r4 g4 a4 g4 | bf2 c4 c4 | a4. f8~ f2 | r1 |
   r4 e'4 c4 g4 | b2 a4 b4 | c1 | r1 |
 
-  \sect "B"
+  \sectNoBreak "B"
 
   r4 f,4 a4 c4 | ef2 d4 c4 | a4 g2. | r1 |
   r4 f4 a4 c4 | ef2. c4 | g4. g4 a8 as4 | b2 r2 |
 
-  \sect "A3"
+  \sectNoBreak "A3"
 
   r4 g4 a4 g4 | bf2 c4 c4 | a4. f8~ f2 | r2 r4 ds'4 |
   e2 c4 g4 | b2 a4 b4 | c1 | r1 |
 
-  \bar "|."
-}
+  \bar "||-|."
+  
+  \xPageBreak
 
-soloChords = \chordmode {
-  c1 c1:7 f1 f1
-  c1 c1 g1:7 g1:7
-
-  c1 c1:7 f1 f1
-  c1 g1:7 c1 c1:7
-
-  f1 f1 c1 c1
-  f1 f1 c1 g1:7
-
-  c1 c1:7 f1 f1
-  c1 g1:7 c1 c1
-}
-
-soloKey = c
-
-soloMelody = \relative f' {
-  \time 4/4
-  \key \soloKey \major
-
-  \xTextMark \markup{ "Solos" }
+  \sectStartSolos "A1"
   \set Score.currentBarNumber = #1
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \sect "A2"
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \sect "B"
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \sect "A3"
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
-\include "../Include/solo.ily"
-
+afterText =
 \markup {
   \column {
     \line { \large { Well, I've just been thinkin' things over. } }
@@ -178,3 +163,5 @@ soloMelody = \relative f' {
     \line { \large { Well, I'm just knee deep in the blues. } }
   }
 }
+
+\include "../Include/introrefrain.ily"

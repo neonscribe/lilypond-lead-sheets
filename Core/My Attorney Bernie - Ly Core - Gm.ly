@@ -166,14 +166,11 @@ refrainMelody = \relative f' {
   \ambitusOn
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   {
@@ -214,3 +211,5 @@ refrainMelody = \relative f' {
    \line { \large { On the dotted line. } }
  }
 }
+
+\include "../Include/refrainonly.ily"

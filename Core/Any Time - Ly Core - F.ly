@@ -100,11 +100,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \vspace #1
   \column {
@@ -121,3 +117,5 @@ refrainMelody = \relative f' {
     \line { \large { that's the time I'll come back home to you. } }
   }
 }
+
+\include "../Include/introrefrain.ily"

@@ -44,36 +44,10 @@ New car, cav -- i -- ar, four -- star day -- dream.
 Think I'll buy me a foot -- ball __ team.
 }
 
-codaLyrics = \lyricmode {
-prise that they're giv -- ing none a -- way, way, a -- way. A-
-}
-
 refrainChords = \chordmode {
   b4*7:m7 b4*7:m7 b4*7:m7 b4*7:m7 b4*7:m7 b4*7:m7 b4*7:m7 b4*7:m7
   fs4*8:m7 e4*6:m7
   b4*7:m7 b4*7:m7
-}
-
-solosChords = \chordmode {
-  b4*7:m7 b4*7:m7
-  e4*7:m7 e4*7:m7
-  b4*7:m7 b4*7:m7
-  fs4*8:m7 e4*6:m7
-
-  b1:5 b1:5
-
-  b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7
-  e1:m7 e1:m7 e1:m7 e1:m7
-  b1:m7 b1:m7 b1:m7 b1:m7
-  fs1:m7 fs1:m7 r1
-
-  r1 b1:m7 b1:m7 b1:m7 b1:m7
-
-  r1 b4*7:m7 b4*7:m7
-}
-
-codaChords = \chordmode {
-  e4*6:m7 b1:m7 b1:m7
 }
 
 refrainKey = b
@@ -103,11 +77,29 @@ refrainMelody = \relative f' {
   }
 }
 
-solosKey = b
+bassLineChords = \chordmode {
+  b4*7:m7 b4*7:m7
+  e4*7:m7 e4*7:m7
+  b4*7:m7 b4*7:m7
+  fs4*8:m7 e4*6:m7
 
-bassSolos = \relative f' {
+  b1:5 b1:5
+
+  b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7 b1:m7
+  e1:m7 e1:m7 e1:m7 e1:m7
+  b1:m7 b1:m7 b1:m7 b1:m7
+  fs1:m7 fs1:m7 r1
+
+  r1 b1:m7 b1:m7 b1:m7 b1:m7
+
+  r1 b4*7:m7 b4*7:m7
+}
+
+bassLineKey = b
+
+bassLineMelody = \relative f' {
   \time 7/4
-  \key \solosKey \minor
+  \key \bassLineKey \minor
 
   \sectNoBar "Saxophone Solo - ad lib."
   \set Staff.explicitClefVisibility = #end-of-line-invisible
@@ -150,11 +142,19 @@ bassSolos = \relative f' {
   \bar "||"
 }
 
-codaKey = b
+outroLyrics = \lyricmode {
+prise that they're giv -- ing none a -- way, way, a -- way. A-
+}
 
-codaMelody = \relative f' {
+outroChords = \chordmode {
+  e4*6:m7 b1:m7 b1:m7
+}
+
+outroKey = b
+
+outroMelody = \relative f' {
   \clef \whatClef
-  \key \codaKey \minor
+  \key \outroKey \minor
 
   \textCoda
 
@@ -168,16 +168,7 @@ codaMelody = \relative f' {
   }
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/bass-intro.ily"
-
-\include "../Include/refrain.ily"
-
-\include "../Include/bass-solos.ily"
-
-\include "../Include/coda.ily"
-
+afterText =
 \markup {
   \column
   \bold
@@ -209,3 +200,5 @@ codaMelody = \relative f' {
     \line { \large { But if you ask for a rise, it's no surprise that they're giving none away. } }
   }
 }
+
+\include "../Include/bassintrorefrainbasslineoutro.ily"

@@ -41,6 +41,8 @@ refrainChords = \refrainRNChords
 
 refrainKey = d
 
+whatKey = #(or whatKey refrainKey)
+
 refrainMelody = \relative f'' {
   \time 4/4
   \key d \major
@@ -74,8 +76,4 @@ refrainMelody = \relative f'' {
   \bar "|."
 }
 
-whatKey = #(or whatKey refrainKey)
-
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -63,33 +63,39 @@ refrainMelody = \relative f' {
   d'4. e8~ e8 g,8 g8 g8 | d'4. e8~ e2 | r4 c8 c8 b8 b8 a8 a8 | d1~ | d2 \daCapoAlFine r2 |
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
-  \column
-  \bold
-  {
-   \vspace #2
-   \line { \large { Verse 1 } }
-   \vspace #4
-   \line { \large { Chorus 1 } }
-   \vspace #3
-   \line { \large { Verse 2 } }
-   \vspace #4
-   \line { \large { Chorus 2 } }
-   \vspace #3
-   \line { \large { Bridge } }
-   \vspace #4
-   \line { \large { Verse 3 } }
-   \vspace #4
-   \line { \large { Chorus 3 } }
-   }
+  \column {
+    \bold {
+      \vspace #2
+      \line { \large { Verse 1 } }
+      \vspace #4
+      \line { \large { Chorus 1 } }
+      \vspace #3
+      \line { \large { Verse 2 } }
+      \vspace #4
+      \line { \large { Chorus 2 } }
+      \vspace #3
+      \line { \large { Bridge } }
+      \vspace #4
+      \line { \large { Verse 3 } }
+      \vspace #4
+      \line { \large { Chorus 3 } }
+      \vspace #4
+      \line{ Petula Clark }
+      \line{ \normal-text{ 152 BPM } }
+      \vspace #1
+      \line{ Chris Montez }
+      \line{ \normal-text{ 136 BPM } }
+      \vspace #1
+      \line{ Frank Sinatra }
+      \line{ \normal-text{ 100 BPM } }
+    }
+  }
   \column
   {
     \hspace #4
@@ -128,27 +134,7 @@ refrainMelody = \relative f' {
     \line { \large { Call me don't be afraid, you can call me } }
     \line { \large { Maybe it's late, but just call me } }
     \line { \large { Tell me, and I'll be around } }
-   }
-}
-
-\markup { \vspace #2 }
-
-\markup {
-  \column
-  \bold
-  {
-    \line{ Petula Clark }
-    \line{ \normal-text{ 152 BPM } }
-    \vspace #1
-    \line{ Chris Montez }
-    \line{ \normal-text{ 136 BPM } }
-    \vspace #1
-    \line{ Frank Sinatra }
-    \line{ \normal-text{ 100 BPM } }
-  }
-  \hspace #4
-  \column
-  {
+    \vspace #2
     \line { 4 bar Ima7 vamp - Verse 1 - Chorus - Verse 2 - Chorus - Bridge - }
     \line { Solo over Verse - Chorus - Bridge - Verse 3 - Chorus - “Call Me Now!” }
     \vspace #1
@@ -159,3 +145,5 @@ refrainMelody = \relative f' {
     \line { Verse 3 - Chorus - Repeat Chorus and Fade }
   }
 }
+
+\include "../Include/refrainonly.ily"

@@ -91,10 +91,4 @@ refrainMelody = \relative c' {
   }
 }
 
-\include "../Include/paper.ily"
-
-\markup {
-  \vspace #1
-}
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

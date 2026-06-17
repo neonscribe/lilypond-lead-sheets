@@ -37,6 +37,8 @@ refrainChords = \chordmode {
 
 refrainKey = ef
 
+whatKey = #(or whatKey refrainKey)
+
 refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \major
@@ -70,9 +72,4 @@ refrainMelody = \relative f'' {
   \bar "|."
 }
 
-whatKey = #(or whatKey refrainKey)
-
-
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

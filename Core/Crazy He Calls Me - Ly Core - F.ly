@@ -16,7 +16,7 @@ headerPoet = "Bob Russell"
 headerComposer = "Carl Sigman"
 headerCopyright = "© 1949 Massey Music"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainObjectGenderMaleLyrics = \lyricmode {
 I say I'll move the moun -- tains,
@@ -132,6 +132,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

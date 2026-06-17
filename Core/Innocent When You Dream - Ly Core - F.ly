@@ -102,29 +102,22 @@ refrainMelody = \relative f' {
   \partial 2 r2 |
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-\include "../Include/refrain.ily"
-
-\pageBreak
-
-\markup {
+afterText = \markup {
   \column {
     \line { \large { I made a golden promise, that we would never part. } }
     \line { \large { I gave my love a locket and then I broke her heart, } }
     \line { \large { and then I broke her heart. } }
-  } }
-
-\markup {
+  }
   \vspace #1
-}
-
-\markup {
   \column {
     \line { \large { We're running through the graveyard and we laughed, my friends and I. } }
     \line { \large { We swore we'd be together until the day we died, } }
     \line { \large { until the day we died. } }
-  } }
+  }
+}
+
+\include "../Include/introrefrain.ily"

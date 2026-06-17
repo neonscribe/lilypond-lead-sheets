@@ -76,6 +76,11 @@ refrainChordsBossaSongbook = \chordmode {
   c1:6
 }
 
+refrainLyrics = \refrainPortugueseLyrics
+refrainLyricsTwo = \refrainEnglishLyrics
+
+refrainTwoLanguages = ##t
+
 refrainChordsRealBookSixth = \chordmode {
   s1 s1
   a1:m6 af1:dim7.13- g1:m6 c1:9
@@ -186,25 +191,13 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
 chordDiagrams = \chordmode {
   a:m6 s af:dim7.13- s g:m6 s c:9 s f:maj7 s f:m6 s e:m7
   a:m7 g:m7 c:sus9 f:6 f:m7 s bf:9 s
   e:7.9- s a:7.9- s d:m7 s g:sus9 s g:7.9- a:7.9-.13- s af:dim7
 }
 
+\include "../Include/refrainonly.ily"
+
 %%% Only with the Bossa Songbook chords
 %%% \include "../Include/chord-diagrams.ily"
-
-\markup {
-  %% Leave a gap after the fret diagrams
-  \vspace #3
-}
-
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
-
-\include "../Include/refrain.ily"

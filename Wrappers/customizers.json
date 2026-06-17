@@ -140,6 +140,14 @@
 },{
     "choices": {
         "alternateChords": [
+            "hlrb",
+            "ireal",
+            "newreal"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
             "ireal",
             "firehouse"
         ]

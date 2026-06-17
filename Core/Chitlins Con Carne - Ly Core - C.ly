@@ -92,9 +92,8 @@ refrainKicksOverTime = \relative f' {
   \improvisationOff
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup { "Play " { \bold \box "Intro" } " then " { \bold \box "A" } " twice. Solo on " { \bold \box "A" }
 	  "After solos, pickup, D.S. al Coda, vamp on coda until cue at FINE." }
+
+\include "../Include/refrainonly.ily"

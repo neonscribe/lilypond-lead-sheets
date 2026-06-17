@@ -47,6 +47,8 @@ verseMelody = \relative f' {
   a8 g8 a8 g8 b8 b8 b8 b8 | g1 |
 
   \bar "|."
+
+  \xPageBreak
 }
 
 refrainLyrics = { \lyricmode {
@@ -111,8 +113,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/verse.ily"
-\pageBreak
-\include "../Include/refrain.ily"
+\include "../Include/verserefrain.ily"

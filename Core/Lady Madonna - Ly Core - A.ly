@@ -133,13 +133,7 @@ outroMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-\include "../Include/refrain.ily"
-\include "../Include/outro.ily"
-
-\markup {
+afterText = \markup {
   \column
   \bold
   {
@@ -182,3 +176,4 @@ outroMelody = \relative f' {
  }
 }
 
+\include "../Include/introrefrainoutro.ily"

@@ -118,13 +118,4 @@ refrainMelody = \relative f'' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/verse.ily"
-
-\markup {
-  % Leave a gap after the verse
-  \vspace #2
-}
-
-\include "../Include/refrain.ily"
+\include "../Include/verserefrain.ily"

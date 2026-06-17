@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Howard Dietz and Arthur Schwartz"
 headerCopyright = "© 1932 HARMS Incorporated"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 A -- lone __ to -- ge -- ther, __ be -- yond the crowd __
@@ -97,6 +97,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -192,11 +192,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\markup {
-  % Leave a gap after the header
-  \vspace #0.1
-}
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

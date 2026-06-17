@@ -40,7 +40,7 @@ Though I know __ that it's so, __ that my fan -- cy may turn in the spring,
 with the right __ one in sight __ one can find __ a per -- pet -- u -- al thing.
 
 Did I need spring __ to bring the ring __ that you bought me,
-though it was spring __ that won -- drous day __ you caught me?
+though it was spring __ that won -- drous day that you caught me?
 Dar -- ling, I thought you knew __ that it was -- n't spring, 'twas you. __
 }
 
@@ -135,6 +135,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

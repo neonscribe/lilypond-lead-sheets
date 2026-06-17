@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Dizzy Gillespie"
 headerCopyright = "© 1951 Dizlo Music Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s4.
@@ -54,8 +54,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup{ "Play head twice, before and after solos." }
+
+\include "../Include/refrainonly.ily"

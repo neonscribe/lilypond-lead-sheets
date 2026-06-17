@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Sid Wyche and Mayme Watts"
 headerCopyright = "© 1955 Cherio Corp."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
   Well, al -- right, __ o -- kay, __ you win, __
@@ -130,7 +130,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

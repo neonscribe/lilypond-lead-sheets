@@ -114,12 +114,11 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
 
-\markup {
+afterText = \markup {
   \column {
     \line { \large { Recording is 1/2 step lower, tune Eb-Ab-Db-Gb to match. } }
   }
 }
 
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

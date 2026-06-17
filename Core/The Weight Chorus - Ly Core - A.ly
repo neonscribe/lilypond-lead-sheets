@@ -85,6 +85,4 @@ refrainMelodyThree = \relative f' {
   fs4 r4 r2 | r1 |
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

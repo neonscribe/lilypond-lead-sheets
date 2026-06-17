@@ -60,6 +60,12 @@ I peeked through the crack
 and looked at the track,
 the one go -- ing back to you,
 And what did I do? __ I thought a -- bout you. __
+
+ "" _ _ _
+What did I do?
+_ _ _ _
+What did I do?
+I thought a -- bout you. __
 }
 
 refrainChords = \chordmode {
@@ -78,6 +84,7 @@ refrainChords = \chordmode {
   g2:m7
   c2:7
 
+  a2:m7 d2:7 bf2:m7 ef2:7 bf2:m7 ef2:7 a2:m7 d2:7 g4:m7 r2. f1:6 f1:6
 }
 
 refrainKey = f
@@ -111,50 +118,15 @@ refrainMelody = \relative f' {
   d'8 c8 d8 c4. bf4 | df8 c8 df8 c2 bf8 | a8 c8 d8 f4. g4 | e2. d4 |
   c8 c8 c8 c8~ c2 \textToCodaLastTime | r4 f,4 a8 a8 a8 f8~ | f1~ | f2. r4 |
 
-  \bar "|."
-}
-
-codaLyrics = \lyricmode {
-  \skip 1 \skip 1 \skip 1 \skip 1
-  What did I do?
-  \skip 1 \skip 1 \skip 1 \skip 1
-  What did I do?
-  I thought a -- bout you. __
-}
-
-codaChords = \chordmode {
-  a2:m7 d2:7 bf2:m7 ef2:7 bf2:m7 ef2:7 a2:m7 d2:7 g4:m7 r2. f1:6 f1:6
-}
-
-codaKey = f
-
-codaMelody = \relative f'' {
-  \time 4/4
-  \key \codaKey \major
-  \clef \whatClef
-
-  \textCoda
-  c8 c8 c8 c8~ c2 | df8 df8 df8 df8~ df2 | df8 df8 df8 df8~ df2 |
+  \bar "||-|."
+  
+  \textCodaBreak
+  
+  c'8 c8 c8 c8~ c2 | df8 df8 df8 df8~ df2 | df8 df8 df8 df8~ df2 |
   \break
   c8 c8 c8 c8~ c2 | r4 f,4 a8 f8 a4 | f1~ | f2. r4 |
 
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/verse.ily"
-
-\markup {
-  % Leave a gap after the verse
-  \vspace #1
-}
-
-\include "../Include/refrain.ily"
-
-\markup {
-  % Leave a gap before the coda
-  \vspace #2
-}
-
-\include "../Include/coda.ily"
+\include "../Include/verserefrain.ily"

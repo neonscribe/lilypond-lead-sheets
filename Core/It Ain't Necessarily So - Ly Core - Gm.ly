@@ -10,7 +10,7 @@ headerPoet = "Ira Gershwin"
 headerComposer = "George Gershwin"
 headerCopyright = "© 1935 Gershwin Publishing Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 It ain't ne -- ces -- sar -- i -- ly so.
@@ -194,6 +194,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -28,7 +28,6 @@ bassIntro = \relative f' {
   \repeat volta 2 {
   ef,8 bf'8 df8 ef8~ ef8 df4 bf8 | d,8 f8 a8 b8~ b8 a4 f8 |
   }
-
 }
 
 refrainChords = \chordmode {
@@ -108,10 +107,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
+afterText = \markup { "Solo " \bold \box "A1" \bold \box "A2" \bold \box "B" \bold \box "A3" 
+		      ". After solos, D.S. al Fine (take repeat)." }
 
-\include "../Include/bass-intro.ily"
-
-\include "../Include/refrain.ily"
-
-\markup { "Solo " \bold \box "A1" \bold \box "A2" \bold \box "B" \bold \box "A3" ". After solos, D.S. al Fine (take repeat)." }
+\include "../Include/bassintrorefrain.ily"

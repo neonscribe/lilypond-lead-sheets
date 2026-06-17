@@ -89,9 +89,8 @@ refrainBass = \relative f {
 
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain-with-bass-chord-middle.ily"
-
+afterText =
 \markup{ "Solo on form " \box \bold "A1" \box \bold "A2" \box \bold "B" \box \bold "C"
 	 ". D.C. al Coda after solos. Bass line as written throughout." }
+
+\include "../Include/refrainonly.ily"

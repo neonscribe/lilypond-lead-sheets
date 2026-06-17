@@ -107,10 +107,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \vspace #2
   \column {
@@ -129,3 +126,5 @@ refrainMelody = \relative f' {
     \line { \large { Help the poor; oh, baby, won't you help poor me. } }
   }
 }
+
+\include "../Include/refrainonly.ily"

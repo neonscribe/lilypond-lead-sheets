@@ -8,8 +8,8 @@ subtitle = "Standard Key, Bill Evans Chords"
 whatKey = af
 whatClef = "treble"
 
-TempoName = "Slow Ballad [Bill Evans 1960]"
-TempoBPM = 57
+tempoName = "Slow Ballad [Bill Evans 1960]"
+tempoBPM = 57
 
 alternateChords = "billevans"
 hideLyrics = ##t

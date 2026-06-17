@@ -10,6 +10,8 @@ headerPoet = ""
 headerComposer = "Bobby Troup"
 headerCopyright = "© 1946 Burke & Van Heusen, Inc."
 
+refrainGuitarTablature = ##t
+
 refrainChords = \chordmode {
   g8*5:7 cs8*3:9 c2.:9 s8 g8*7:7 s8 g8*5:13 s8 g8:13 s8 c8*9:9
   c4:9 s8 gs8*3:13 s8 g8*4:13 gs8*3:13 s8 b8*3:m7 s8 bf8*4:m7
@@ -43,12 +45,12 @@ refrainKicksOverTime = \relative f' {
   g4. g8~ g4 r8 g8~ | g1 | g4 g4 g4 g4 | g4 g4 g4 g4 |
 }
 
+afterText =
+\markup {
+  \column {
+    \line { "Original recording is in G major." }
+    \line { "Rhythm track and chords are Oscar Moore's guitar accompaniment to Nat King Cole's piano solo." }
+  }
+}
 
-
-\include "../Include/paper.ily"
-
-\include "../Include/refrain-guitar-tablature.ily"
-
-\markup "Original recording is in G major."
-
-\markup "Rhythm track and chords are Oscar Moore's guitar accompaniment to Nat King Cole's piano solo."
+\include "../Include/refrainonly.ily"

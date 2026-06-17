@@ -71,14 +71,11 @@ refrainMelody = \relative f' {
   } |
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \vspace #2
   \column {
@@ -119,3 +116,5 @@ refrainMelody = \relative f' {
     \line { \large { Better than anything except being in love. } }
   }
 }
+
+\include "../Include/refrainonly.ily"

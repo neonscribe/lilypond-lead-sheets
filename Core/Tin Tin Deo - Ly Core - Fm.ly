@@ -84,8 +84,6 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
+afterText = \markup "On solos, chords are aligned on beats 1 and 3."
 
-\include "../Include/refrain.ily"
-
-\markup "On solos, chords are aligned on beats 1 and 3."
+\include "../Include/refrainonly.ily"

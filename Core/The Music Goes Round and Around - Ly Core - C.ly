@@ -10,7 +10,7 @@ headerPoet = "“Red” Hodgson"
 headerComposer = "Edward Farley, Michael Riley"
 headerCopyright = "© 1935 Anne Rachel Music Corp."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 One night, while play -- ing in the band,
@@ -102,6 +102,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

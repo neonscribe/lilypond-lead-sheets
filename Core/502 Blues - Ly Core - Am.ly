@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "James Rowles"
 headerCopyright = "© 1958 Kudu Music"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s8
@@ -65,6 +65,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

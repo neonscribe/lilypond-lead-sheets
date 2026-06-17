@@ -75,9 +75,6 @@ refrainKicksOverTime = \relative f' {
   r4 r8 f8 r2 r4 r8 bf8 r2
 }
 
+afterText = \markup{ "Play head twice before and twice after solos." }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\markup{ "Play head twice before and twice after solos." }
+\include "../Include/refrainonly.ily"

@@ -81,10 +81,9 @@ refrainMelody = \relative f' {
   }
 }
 
-\include "../Include/paper.ily"
+afterText = 
+\markup { "Solo on" \box "A" \box "A" \box "B" \box "B" \box "C" \box "C" 
+	  "Afer last head, vamp intro to fade."
+	}
 
-\include "../Include/bass-intro.ily"
-
-\include "../Include/refrain.ily"
-
-\markup{ "Solo on" \box "A" \box "A" \box "B" \box "B" \box "C" \box "C" "Afer last head, vamp intro to fade." }
+\include "../Include/bassintrorefrain.ily"

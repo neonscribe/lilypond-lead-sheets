@@ -98,14 +98,11 @@ refrainMelody = \relative f' {
   a8 b4 b8 b8 fs8 gs8 a8 | a8 a8 a8 b8 b8 fs8 r4 | b8 b8 cs4 g8( fs8) e8 e8~ | e4 r4 r2 |
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   \bold
@@ -171,3 +168,5 @@ refrainMelody = \relative f' {
    \line { \large { \italic { (Chorus form, repeat) } } }
  }
 }
+
+\include "../Include/refrainonly.ily"

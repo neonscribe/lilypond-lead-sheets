@@ -75,14 +75,11 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column {
     \vspace #7
@@ -120,3 +117,5 @@ refrainMelody = \relative f' {
     \line { \large { I shot the sheriff but I did not shoot the deputy. } }
   }
 }
+
+\include "../Include/refrainonly.ily"

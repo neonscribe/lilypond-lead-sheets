@@ -1,15 +1,16 @@
 %% -*- Mode: LilyPond -*-
 
-newScore = \new Score \with {
+\new Score \with {
    \remove System_start_delimiter_engraver
-} <<
-   $(if (and (defined? 'refrainAltChords) refrainAltChords)
+}
+<<
+   #(if (and (defined? 'refrainAltChords) refrainAltChords)
      #{
     { \context ChordNames = "AltChords"
       \with { \consists #Bass_changes_equal_root_engraver }
       {
       \override ChordName.font-size = #+2.5
-      $(if (and (defined? 'altChordSize) AltChordSize)
+      #(if (and (defined? 'altChordSize) AltChordSize)
 	#{ \override ChordName.font-size = \altChordSize #} )
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
@@ -23,7 +24,7 @@ newScore = \new Score \with {
       \with { \consists #Bass_changes_equal_root_engraver }
       {
       \override ChordName.font-size = #+2.5
-      $(if (and (defined? 'chordSize) chordSize)
+      #(if (and (defined? 'chordSize) chordSize)
 	#{ \override ChordName.font-size = \chordSize #} )
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
@@ -32,7 +33,7 @@ newScore = \new Score \with {
 	}
       }
       }
-    $(if (and (defined? 'refrainKicksOverTime) refrainKicksOverTime)
+    #(if (and (defined? 'refrainKicksOverTime) refrainKicksOverTime)
       #{
     \new RhythmicStaff {
       \override Staff.VerticalAxisGroup.staff-staff-spacing =
@@ -49,7 +50,7 @@ newScore = \new Score \with {
       \improvisationOff
     }
     #} )
-    $(if (and (defined? 'printNoteNames) printNoteNames)
+    #(if (and (defined? 'printNoteNames) printNoteNames)
       #{ 
       \new NoteNames \tiedNoteToSkip { 
       \removeWithTag LLS \noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
@@ -60,17 +61,40 @@ newScore = \new Score \with {
     systemStartDelimiter = #'SystemStartBar
 }
 <<
+    #(if (and (defined? 'refrainGuitarTablature) refrainGuitarTablature)
+      #{
+      <<
+    \new Staff \with { \omit StringNumber } {
+      \clef "treble_8"
+      \include "../Include/staff-settings.ily"
+      \context Voice = "voiceMelody" { 
+	\transpose \refrainKey \whatKey {
+	  \refrainMelody
+	  }
+	}
+    }
+    \new TabStaff 
+      {
+	\clef moderntab
+	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
+	  \refrainMelody
+	}
+    }
+      >>
+      #} 
+      #{
     \new Staff 
     {
       \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelody" \with { \consists #ambitus-engraver } { 
-	$(ly:message "ambitus refrain")
+	#(ly:message "ambitus refrain")
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelody
 	  }
 	}
     }
-    $(if (and (defined? 'refrainBass) refrainBass)
+    #} )
+    #(if (and (defined? 'refrainBass) refrainBass)
       #{
     \new Staff {
       \include "../Include/staff-settings.ily"
@@ -80,7 +104,7 @@ newScore = \new Score \with {
 	}
     }
       #} )
-    $(if (and (not (and (defined? 'hideLyrics) hideLyrics))
+    #(if (and (not (and (defined? 'hideLyrics) hideLyrics))
 	  (defined? 'refrainLyrics) refrainLyrics)
       (if (and (defined? 'refrainLyricsTwo) refrainLyricsTwo)
        #{
@@ -116,19 +140,19 @@ newScore = \new Score \with {
       \refrainLyrics
     }
       #} ) )
-    $(if (and (defined? 'refrainMelodyTwo) refrainMelodyTwo)
+    #(if (and (defined? 'refrainMelodyTwo) refrainMelodyTwo)
       #{
     \new Staff {
       \include "../Include/staff-settings.ily"
       \context Voice = "voiceMelodyTwo" \with { \consists #ambitus-engraver } { 
-	$(ly:message "ambitus refrain melody two")
+	#(ly:message "ambitus refrain melody two")
 	\noDoubleAccidentalMusic \transpose \refrainKey \whatKey {
 	  \refrainMelodyTwo
 	  }
 	}
     }
       #} )
-    $(if (and (defined? 'refrainLyricsVoiceTwo) refrainLyricsVoiceTwo)
+    #(if (and (defined? 'refrainLyricsVoiceTwo) refrainLyricsVoiceTwo)
       (if (and (defined? 'refrainLyricsTwoVoiceTwo) refrainLyricsTwoVoiceTwo)
        #{
    \new Lyrics = "lyrics" {
@@ -163,7 +187,7 @@ newScore = \new Score \with {
       \refrainLyricsVoiceTwo
     }
       #} ) )
-    $(if (and (defined? 'refrainMelodyThree) refrainMelodyThree)
+    #(if (and (defined? 'refrainMelodyThree) refrainMelodyThree)
       #{
     \new Staff {
       \include "../Include/staff-settings.ily"
@@ -174,7 +198,7 @@ newScore = \new Score \with {
 	}
     }
       #} )
-    $(if (and (defined? 'refrainLyricsVoiceThree) refrainLyricsVoiceThree)
+    #(if (and (defined? 'refrainLyricsVoiceThree) refrainLyricsVoiceThree)
       (if (and (defined? 'refrainLyricsTwoVoiceThree) refrainLyricsTwoVoiceThree)
        #{
    \new Lyrics = "lyrics" {
@@ -210,6 +234,4 @@ newScore = \new Score \with {
     }
       #} ) )
   >>
- >>
-
-scores = #(append scores (list newScore))
+  >>

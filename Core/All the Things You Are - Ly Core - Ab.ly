@@ -27,8 +27,8 @@ verseChords = \chordmode {
   g4:6 c4:7 bf4:/d c4:/e
 }
 
-verseKey = g
 refrainKey = af
+verseKey = g
 
 whatKey = #(or whatKey refrainKey)
 
@@ -48,9 +48,6 @@ verseMelody = \relative f' {
   \bar "||-||"
 
   \key \refrainKey \major
-}
-
-introLyrics = \lyricmode {
 }
 
 introChords = \chordmode {
@@ -82,9 +79,8 @@ introMelody = \relative f' {
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 r8 |
 
   \bar "|."
-}
-
-outroLyrics = \lyricmode {
+  
+  \xPageBreak
 }
 
 outroChords = \chordmode {
@@ -204,26 +200,9 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
+%{
 \markup{ "Vocal performance is commonly optional verse, then refrain." }
 \markup{ "Instrumental performance is commonly intro, refrain, solos, refrain, outro." }
+%}
 
-\markup {
-  \vspace #1
-}
-
-savedWhatKey = \whatKey
-whatKey = \whatVerseKey
-\include "../Include/verse.ily"
-whatKey = \savedWhatKey
-
-\pageBreak
-
-\include "../Include/intro.ily"
-
-\include "../Include/outro.ily"
-
-\pageBreak
-
-\include "../Include/refrain.ily"
+\include "../Include/introrefrain.ily"

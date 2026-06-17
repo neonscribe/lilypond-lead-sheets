@@ -72,8 +72,6 @@ refrainMelody = \relative f' {
 } } }
 }
 
-\include "../Include/paper.ily"
+afterText = \markup{ "Top line is melody." }
 
-\include "../Include/refrain.ily"
-
-\markup{ "Top line is melody." }
+\include "../Include/refrainonly.ily"

@@ -145,10 +145,8 @@ refrainLeftHand = \relative f' {
 
 }
 
-\include "../Include/paper.ily"
-
 file = $(if wpb
-	 "../Include/piano-grand-staff.ily"
-	 "../Include/refrain.ily")
+	 "../Include/grandstaff.ily"
+	 "../Include/refrainonly.ily")
 
 \include \file

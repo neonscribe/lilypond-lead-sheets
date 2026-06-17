@@ -55,6 +55,11 @@ Ver -- da -- de que nin -- guém vê
 Se to -- dos fos -- sem no mun -- do i -- guais a vo -- cê
 }
 
+refrainLyrics = \refrainPortugueseLyrics
+refrainLyricsTwo = \refrainEnglishLyrics
+
+refrainTwoLanguages = ##t
+
 refrainChords = \chordmode {
   f1:9 f1:9 g1/f g1/f
   f1:9 f1:9 bf1:maj7 e1:m7.5-
@@ -129,11 +134,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

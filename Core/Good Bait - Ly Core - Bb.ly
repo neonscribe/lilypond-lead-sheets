@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Tadd Dameron/Count Basie"
 headerCopyright = "© 1944 Bregman-Vocco-Conn Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s8
@@ -73,6 +73,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

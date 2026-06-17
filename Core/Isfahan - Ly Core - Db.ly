@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Duke Ellington/Billy Strayhorn"
 headerCopyright = "© 1964 Famous Music LLC"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainHLChords = \chordmode {
   s4.
@@ -87,6 +87,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

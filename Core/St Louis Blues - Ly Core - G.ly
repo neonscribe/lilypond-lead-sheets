@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "W.C. Handy"
 headerCopyright = "© 1914 Handy Bros. Music Co. Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _
@@ -87,8 +87,6 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
+afterText = \markup{ "Solo on " \box{ "B" } " 12-bar blues." }
 
-\include "../Include/refrain.ily"
-
-\markup{ "Solo on " \box{ "B" } " 12-bar blues." }
+\include "../Include/refrainonly.ily"

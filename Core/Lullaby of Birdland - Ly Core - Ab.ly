@@ -134,13 +134,5 @@ refrainMelody = \relative c' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
 
-introInclude =
-#(if (and (defined? 'noIntro) noIntro)
-  "../Include/nothing.ily"
-  "../Include/intro.ily")
-
-\include \introInclude
-
-\include "../Include/refrain.ily"
+\include "../Include/introrefrain.ily"

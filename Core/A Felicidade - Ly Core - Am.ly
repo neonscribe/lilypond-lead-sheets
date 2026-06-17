@@ -11,7 +11,7 @@ headerComposer = "Antônio Carlos Jobim"
 headerCopyright = "© 1960 Editora Musical Arapuã Ltda"
 
 bossaRhythm = ##t
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 Tris -- te -- za não tem fim __
@@ -121,10 +121,4 @@ refrainMelody = \relative c' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\markup {
-  \vspace #1
-}
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -146,12 +146,7 @@ refrainMelody = \relative f' {
   \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \column
   \bold
@@ -216,3 +211,5 @@ refrainMelody = \relative f' {
     \line { \large { Oh, lonesome me. } }
   }
 }
+
+\include "../Include/introrefrain.ily"

@@ -25,10 +25,22 @@ whatKey =
   whatKey
   #f)
 
+bassKey =
+#(if (and (defined? 'bassKey) bassKey)
+  bassKey
+  #f)
+
 whatClef =
 #(if (and (defined? 'whatClef) whatClef)
   whatClef
   "treble")
+
+introLeadingEighth = ##f
+verseLeadingEighth = ##f
+refrainLeadingEighth = ##f
+bassLineLeadingEighth = ##f
+outroLeadingEighth = ##f
+codaLeadingEighth = ##f
 
 \include "ambitus-engraver.ily"
 \include "text-mark.ily"

@@ -82,11 +82,6 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-
 chordDiagrams = \chordmode {
   f1:maj7 fs:dim7 g:m7 gs:dim7
   a:m7 a:7.13- bf:maj7 bf:m6
@@ -98,9 +93,4 @@ chordDiagrams = \chordmode {
   g:13 g:7.13- c:7.9-
 }
 
-\markup {
-  % Leave a gap after the refrain
-  \vspace #2
-}
-
-\include "../Include/chord-diagrams.ily"
+\include "../Include/refrainonly.ily"

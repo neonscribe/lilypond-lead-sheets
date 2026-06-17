@@ -16,7 +16,7 @@ headerPoet = ""
 headerComposer = "Paul Francis Webster and Sonny Burke"
 headerCopyright = "© 1948 Webster Music Co. and Sondot Music Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainFemaleSingerLyrics = \lyricmode {
 I'm feel -- in' might -- y lone -- some,
@@ -201,6 +201,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

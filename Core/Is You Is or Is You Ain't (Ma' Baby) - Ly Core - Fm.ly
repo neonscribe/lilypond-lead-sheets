@@ -16,10 +16,33 @@ headerPoet = ""
 headerComposer = "Billy Austin and Louis Jordan"
 headerCopyright = "© 1944 Leeds Music Corporation"
 
-introLyrics = \lyricmode {
+verseObjectGenderFemaleLyrics = \lyricmode {
+  _ _ _ _
+  I got -- ta gal who's al -- ways late,
+  An -- y time we have a date,
+  But I love her, __ Yes I love her. __
+  I'm gon -- na walk up to her gate,
+  And see if I can get it straight,
+  'Cause I want her, __ I'm gon -- na ask her. __
 }
 
-introHLChords = \chordmode {
+verseObjectGenderMaleLyrics = \lyricmode {
+  _ _ _ _
+  I got -- ta man who's al -- ways late,
+  An -- y time we have a date,
+  But I love him, __ Yes I love him. __
+  I'm gon -- na walk up to his gate,
+  And see if I can get it straight,
+  'Cause I want him, __ I'm gon -- na ask him. __
+}
+
+verseLyrics =
+#(if (and (defined? 'singerGender)
+          (equal? singerGender "female"))
+  verseObjectGenderMaleLyrics
+  verseObjectGenderFemaleLyrics)
+
+verseHLChords = \chordmode {
   s1
   f2:m f2:m/ef df2:7 c2:7
   f2:m f2:m/ef df2:7 c2:7
@@ -30,9 +53,14 @@ introHLChords = \chordmode {
   f2:m f2:m/ef df2:7 c2:7
   f2:m f2:m/ef df2:7 c2:7
   %}
+
+  f2:m f2:m/ef df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
+  bf1:7 bf1:7 ef1:7 c1:7
+  f2:m f2:m/ef df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
+  bf1:7 bf1:7 ef1:7 c1:7
 }
 
-introNicoChords = \chordmode {
+verseNicoChords = \chordmode {
   s1
   f2:m ef2 df2:7 c2:7
   f2:m ef2 df2:7 c2:7
@@ -43,19 +71,24 @@ introNicoChords = \chordmode {
   f2:m ef2 df2:7 c2:7
   f2:m ef2 df2:7 c2:7
   %}
+
+  f2:m ef2 df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
+  bf1:7 bf1:7 ef1:7 c1:7
+  f2:m ef2 df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
+  bf1:7 bf1:7 ef1:7 c1:7
 }
 
-introChords = \introNicoChords
+verseChords = \verseNicoChords
 
-introKey = f
+verseKey = f
 
-introMelody = \relative g' {
+verseMelody = \relative g' {
   \time 4/4
-  \key \introKey \minor
+  \key \verseKey \minor
   \clef \whatClef
   \tempoFour "Medium-Slow [Diana Krall 1995]" 117
 
-  \xTextMark \markup{ "Intro" }
+  \sectNoBar "Intro"
 
   s1 |
  <<
@@ -77,56 +110,8 @@ introMelody = \relative g' {
   %}
 
   \bar "||"
-}
 
-verseObjectGenderFemaleLyrics = \lyricmode {
-  I got -- ta gal who's al -- ways late,
-  An -- y time we have a date,
-  But I love her, __ Yes I love her. __
-  I'm gon -- na walk up to her gate,
-  And see if I can get it straight,
-  'Cause I want her, __ I'm gon -- na ask her. __
-}
-
-verseObjectGenderMaleLyrics = \lyricmode {
-  I got -- ta man who's al -- ways late,
-  An -- y time we have a date,
-  But I love him, __ Yes I love him. __
-  I'm gon -- na walk up to his gate,
-  And see if I can get it straight,
-  'Cause I want him, __ I'm gon -- na ask him. __
-}
-
-verseLyrics =
-#(if (and (defined? 'singerGender)
-          (equal? singerGender "female"))
-  verseObjectGenderMaleLyrics
-  verseObjectGenderFemaleLyrics)
-
-verseHLChords = \chordmode {
-  f2:m f2:m/ef df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
-  bf1:7 bf1:7 ef1:7 c1:7
-  f2:m f2:m/ef df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
-  bf1:7 bf1:7 ef1:7 c1:7
-}
-
-verseNicoChords = \chordmode {
-  f2:m ef2 df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
-  bf1:7 bf1:7 ef1:7 c1:7
-  f2:m ef2 df2:7 c2:7 f2:m f2:m/ef df2:7 c2:7
-  bf1:7 bf1:7 ef1:7 c1:7
-}
-
-verseChords = \verseNicoChords
-
-verseKey = f
-
-verseMelody = \relative g' {
-  \time 4/4
-  \key \verseKey \minor
-  \clef \whatClef
-
-  \xTextMark \markup{ "Verse" }
+  \sect "Verse"
 
   c4 bf8 af8 bf4 af4 | bf8 af4 c4. r4 | r2 bf8 af8 bf8 af8 | bf8 af4 c4. f,8 af8 |
   \break
@@ -261,10 +246,4 @@ refrainKicksOverTime = \relative f' {
   s1*3 f4 f4 f8 f4.
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-
-\include "../Include/verse.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/verserefrain.ily"

@@ -36,7 +36,9 @@ bassIntro = \relative f {
 
   \xTextMark \markup{ "guitars join" }
 
+  \ambitusOff
   d''4 c4 bf4 a4 | d4 c4 bf4 a4 |
+  \ambitusOn
 
   \bar "||"
 }
@@ -134,15 +136,11 @@ bassOutro = \relative f {
 
   \xTextMark \markup{ "bass only" }
 
+  \ambitusOff
   d,,4 c4 bf4 a4 | d4 c4 bf4 a4 | d1
+  \ambitusOn
 
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/bass-intro.ily"
-
-\include "../Include/refrain.ily"
-
-\include "../Include/bass-outro.ily"
+\include "../Include/bassintrorefrainbassoutro.ily"

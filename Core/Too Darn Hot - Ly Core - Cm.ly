@@ -137,11 +137,10 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup { "Solo on " \bold \box "A" \bold \box "B" \bold \box "C"
 	  " after "
 	  \box "D" " with first ending and before "
 	  \box "D" " with second ending" }
+
+\include "../Include/refrainonly.ily"

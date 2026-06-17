@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Jay Bennett, Woody Guthrie and Jeff Tweedy"
 headerCopyright = "© 1998 Titanic Majesties Music, Woody Guthrie Publications, Words Ampersand Music"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I’d like to rest my heav -- y head to -- night, on a bed of Cal -- i -- for -- nia stars.
@@ -67,14 +67,11 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column {
    \vspace #2
@@ -121,3 +118,4 @@ refrainMelody = \relative f' {
    \line { \large { So I’d give this world just to dream a dream with you on our bed of California stars } }
    }
 }
+\include "../Include/refrainonly.ily"

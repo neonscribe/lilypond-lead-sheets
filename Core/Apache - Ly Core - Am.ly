@@ -144,6 +144,4 @@ refrainChords =  \chordmode {
   a1:m d1 a1:m d1 a1:m a1:m
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

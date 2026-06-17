@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Paul Sawyer"
 headerCopyright = "© 2019"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
   ''One __ in a mill -- ion,'' is what I thought the day __ your eyes met mine. __
@@ -91,6 +91,4 @@ refrainMelody = \relative f'' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -100,10 +100,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/bass-intro.ily"
-
-\include "../Include/refrain.ily"
-
-\include "../Include/bass-outro.ily"
+\include "../Include/bassintrorefrainbassoutro.ily"

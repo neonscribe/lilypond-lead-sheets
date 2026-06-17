@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Irving Berlin (arranged by Hank Mobley)"
 headerCopyright = "© 1925 Irving Berlin, Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s8
@@ -70,6 +70,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

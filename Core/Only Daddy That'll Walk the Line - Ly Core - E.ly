@@ -105,10 +105,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \column
   \bold
@@ -192,3 +189,5 @@ And a beggin' me to come back home
 'Cause ever since I was a little bitty teeny girl
 He's got the only mama that'll walk the line
 %}
+
+\include "../Include/refrainonly.ily"

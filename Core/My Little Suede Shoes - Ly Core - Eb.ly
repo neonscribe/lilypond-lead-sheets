@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Charlie Parker"
 headerCopyright = "© 1951 Atlantic Music Corp."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s4.
@@ -66,6 +66,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

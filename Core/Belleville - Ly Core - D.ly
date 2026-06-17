@@ -56,8 +56,6 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
+afterText = \markup "Solo over Rhythm Changes."
 
-\include "../Include/refrain.ily"
-
-\markup "Solo over Rhythm Changes."
+\include "../Include/refrainonly.ily"

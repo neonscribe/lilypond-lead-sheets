@@ -10,7 +10,7 @@ headerPoet = "Joe Young"
 headerComposer = "Fred E. Ahlert"
 headerCopyright = "© 1935 Crawford Music Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I'm gon -- na sit right down and write my -- self a let -- ter
@@ -88,6 +88,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

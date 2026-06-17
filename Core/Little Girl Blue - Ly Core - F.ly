@@ -104,6 +104,8 @@ verseMelody = \relative f' {
   a4 a4 a4 | a4 a4 a4 | f2.~ | f2. |
   a4 a4 a4 | a4 a4 a4 | c,2.~ | c2. |
   \bar "|."
+
+  \xPageBreak
 }
 
 refrainMelody = \relative f' {
@@ -134,8 +136,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/verse.ily"
-\pageBreak
-\include "../Include/refrain.ily"
+\include "../Include/verserefrain.ily"

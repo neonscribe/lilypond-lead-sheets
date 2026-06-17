@@ -10,7 +10,7 @@ headerPoet = "Jon Hendricks"
 headerComposer = "Harry Edison"
 headerCopyright = "© 1960 Marissa Music"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 The more I'm with you pret -- ty ba -- by
@@ -88,6 +88,4 @@ refrainMelody = \relative f' {
 
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

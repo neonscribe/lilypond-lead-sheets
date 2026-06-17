@@ -12,7 +12,7 @@ headerPoet = ""
 headerComposer = "Bobby Troup"
 headerCopyright = "© 1946 Burke & Van Heusen, Inc."
 
-leadingEighth = ##t
+introLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 If you ev -- er _ _ plan to mo -- tor west,
@@ -73,6 +73,8 @@ introMelody = \relative f' {
   \partial 2. <bf e, b>8 g8 a8 <bf gf ef>8~ <bf gf ef>8 e,8
 
   \bar "||"
+  
+  \xPageBreak
 }
 
 refrainNatKingColeChords = \chordmode {
@@ -175,14 +177,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-leadingEighth = ##t
-
-\include "../Include/intro.ily"
-
-leadingEighth = ##f
-
-\pageBreak
-
-\include "../Include/refrain.ily"
+\include "../Include/introrefrain.ily"

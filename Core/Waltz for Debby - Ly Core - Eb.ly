@@ -12,17 +12,21 @@ headerPoet = "Gene Lees"
 headerComposer = "Bill Evans"
 headerCopyright = "© 1964 Acorn Music Corp."
 
-refrainLyricsPre = \lyricmode {
-}
-
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
 In her own sweet world, __
 pop -- u -- lat -- ed by dolls and clowns
-and a
-}
+and a prince and a big pur -- ple bear, __
 
-refrainLyricsRepOne = \lyricmode {
-prince and a big pur -- ple bear, __
+wear -- y grown -- ups all wear. __
+In __ the sun, __ she danc -- es to si -- lent mu -- sic,
+songs that are spun of gold
+some -- where in her own lit -- tle head. __
+
+bear. __
+When she goes they will cry __
+as they whis -- per “good -- bye.” __
+They will miss her I fear
+but then so will I. __
 }
 
 refrainLyricsTwo = \lyricmode {
@@ -31,26 +35,11 @@ un -- a -- ware of the wor -- ried frowns
 that we
 }
 
-refrainLyricsRest = \lyricmode {
-wear -- y grown -- ups all wear. __
-In __ the sun, __ she danc -- es to si -- lent mu -- sic,
-songs that are spun of gold
-some -- where in her own lit -- tle head. __
-}
-
 refrainLyricsThree = \lyricmode {
 One day all too soon __
 she'll grow up and she'll leave her dolls
 and her
 prince and her sil -- ly old
-}
-
-refrainLyricsCoda = \lyricmode {
-bear. __
-When she goes they will cry __
-as they whis -- per “good -- bye.” __
-They will miss her I fear
-but then so will I. __
 }
 
 refrainChords = \chordmode {
@@ -105,6 +94,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain-three-coda.ily"
+\include "../Include/refrainonly.ily"

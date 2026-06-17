@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Clarence Willians and Fats Waller"
 headerCopyright = "© 1926 Clarence Williams Music Co., Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 Oh, dad -- dy squeeze me and squeeze me a -- gain. __
@@ -64,6 +64,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

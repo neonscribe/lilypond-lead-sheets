@@ -166,9 +166,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-%%% Leaving out the verse...
-%%% \include "../Include/verse.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

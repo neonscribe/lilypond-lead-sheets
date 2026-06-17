@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Freddie Green"
 headerCopyright = "© 1941 Regent Music Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s8
@@ -68,6 +68,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

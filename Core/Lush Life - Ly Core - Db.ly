@@ -12,7 +12,7 @@ headerPoet = ""
 headerComposer = "Billy Strayhorn"
 headerCopyright = "© 1949 Tempo Music Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I used to vis -- it all the ver -- y gay plac -- es, __
@@ -217,6 +217,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

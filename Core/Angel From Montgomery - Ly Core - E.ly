@@ -155,10 +155,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \column
   \bold
@@ -179,3 +176,5 @@ refrainMelody = \relative f' {
     \line { \large { those years just flow by like a broken down dam. } }
   }
 }
+
+\include "../Include/refrainonly.ily"

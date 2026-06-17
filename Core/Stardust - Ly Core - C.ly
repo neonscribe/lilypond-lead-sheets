@@ -10,7 +10,7 @@ headerPoet = "Mitchell Parish"
 headerComposer = "Hoagy Carmichael"
 headerCopyright = "© 1929 Mills Music Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 verseLyrics = \lyricmode {
   And now the pur -- ple dusk of twi -- light time
@@ -126,12 +126,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-leadingEighth = ##f
-
-\include "../Include/verse.ily"
-
-leadingEighth = ##t
-
-\include "../Include/refrain.ily"
+\include "../Include/verserefrain.ily"

@@ -10,7 +10,7 @@ headerPoet = "Tom Adair"
 headerComposer = "Matt Dennis"
 headerCopyright = "© 1941 Dorsey Bros. Music"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I
@@ -100,6 +100,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

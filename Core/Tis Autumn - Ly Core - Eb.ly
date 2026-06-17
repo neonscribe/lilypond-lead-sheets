@@ -59,6 +59,11 @@ refrainLyrics = \lyricmode {
   Ask the birds and the trees, and Ole __ Fath -- er Time.
   It's just to help the mer -- cu -- ry climb, __
   La -- de -- da, de -- da -- de -- dum, __ 'Tis Au -- tumn.
+
+  La -- de -- da, de -- da -- de -- dum, __
+  La -- de -- da, de -- da -- de -- dum, __
+  La -- de -- da, de -- da -- de -- dum, __
+  'Tis Au -- tumn.
 }
 
 refrainChords = \chordmode {
@@ -83,6 +88,12 @@ refrainChords = \chordmode {
   g2:m7 c2:7.9- f2:m7 df2:9.11+ c2:m7 f2:13
   f2:m7 bf2:13 ef2:6
   \chordInsideParens{ c4:aug7.9- }
+
+
+  f2:m7 bf2:13
+  g2:m7 c2:13
+  f2:m7 bf2:13
+  ef1:6
 }
 
 refrainKey = ef
@@ -130,34 +141,11 @@ refrainMelody = \relative f'' {
   c8 ef8 c8 af8 \tuplet 3/2 { g8 bf8 g8~ } g8 f8 |
   \partial 2. c8 ef4.~ ef4 |
 
-  \bar "|."
-}
+  \bar "||-|."
 
-codaLyrics = \lyricmode {
-  La -- de -- da, de -- da -- de -- dum, __
-  La -- de -- da, de -- da -- de -- dum, __
-  La -- de -- da, de -- da -- de -- dum, __
-  'Tis Au -- tumn.
+  \textCodaBreak
 
-}
-
-codaChords = \chordmode {
-  f2:m7 bf2:13
-  g2:m7 c2:13
-  f2:m7 bf2:13
-  ef1:6
-}
-
-codaKey = ef
-
-codaMelody = \relative f'' {
-  \time 2/2
-  \key \codaKey \major
-  \clef \whatClef
-
-  \textCoda
-
-  c8 ef8 c8 af8 \tuplet 3/2 { g8 bf8 g8~ } g4 |
+  c'8 ef8 c8 af8 \tuplet 3/2 { g8 bf8 g8~ } g4 |
   d'8 f8 d8 bf8 \tuplet 3/2 { a8 c8 a8~ } a4 |
   \break
   c8 ef8 c8 af8 \tuplet 3/2 { g8 bf8 g8~ } g8 f8 |
@@ -166,13 +154,4 @@ codaMelody = \relative f'' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-%%% \include "../Include/verse.ily"
-%%% \markup { \vspace #4 }
-
-\include "../Include/refrain.ily"
-
-\markup { \vspace #2 }
-
-\include "../Include/coda.ily"
+\include "../Include/refrainonly.ily"

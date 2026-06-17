@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "eden ahbez"
 headerCopyright = "© 1948 Crestview Music Corp."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 There was a boy, __ a ver -- y strange en -- chant -- ed boy. __
@@ -80,6 +80,4 @@ refrainMelody = \relative f' {
 \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

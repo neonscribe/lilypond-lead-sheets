@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Henry Creamer & Jimmy Johnson"
 headerCopyright = "© 1926 Jerome H. Remick & Co."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 If I could be with you I'd love you strong, if I could be with you I'd love you long.
@@ -69,6 +69,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

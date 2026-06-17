@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+\version "2.26.0"
+
 songID = "2026-06-01T22:16:33.679848Z"
 
 \include "../Include/lead-sheets.ily"
@@ -10,7 +12,7 @@ headerPoet = ""
 headerComposer = "Miles Davis"
 headerCopyright = "© 1963 Prestige Music Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 xrefrainLyrics = \lyricmode {
 Of the won -- der -- ful things that you get out of life there are four
@@ -75,6 +77,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -130,6 +130,4 @@ refrainKicksOverTime = \relative f' {
   a8 a8 a8 r8 g8 g8 g8 r8 | f8 f8 f8 e8~ e8 r8 r4 |
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

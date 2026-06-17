@@ -49,8 +49,6 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
+afterText = \markup "Play head twice before and twice after solos, to coda on the final repeat."
 
-\include "../Include/refrain.ily"
-
-\markup "Play head twice before and twice after solos, to coda on the final repeat."
+\include "../Include/refrainonly.ily"

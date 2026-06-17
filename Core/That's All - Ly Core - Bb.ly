@@ -33,6 +33,10 @@ you'll be glad to know that my de -- mands are small;
 Say it's me that you'll a -- dore
 For now and ev -- er more,
 That's all, that's all.
+
+all. Say it's me that you'll a -- dore
+For now and ev -- er more,
+That's all, that's all.
 }
 
 refrainChords = \chordmode {
@@ -59,6 +63,10 @@ refrainChords = \chordmode {
 
   \chordOpenParen{ c4:m7 }
   \chordCloseParen{ f4:7 }
+
+  d2:m7 g4:7 g4:7/f e2:m7.5- ef2:m7
+  bf2/d g2:7.5+.9+ c2:m7 f2:7
+  bf1:6
 }
 
 refrainKey = bf
@@ -86,42 +94,22 @@ refrainMelody = \relative f' {
   f8 a8 f8 d8 f8 a8 f8 d8 | f2. g8 a8 | bf8 d8 bf8 g8 bf4. g8 |
   bf8 d8 bf8 g8 bf4. g8 | f2. d4 | bf2. bf8 bf'8 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   g4 bf,8 bf'8 g4 bf,8 bf'8 | g4 g2 bf,8 bf'8 |
   g4 bf,8 bf'8 g4 bf,8 bf'8 | g2. c,8 c'8 |
   a4 c,8 c'8 a4 c,8 c'8 | a4 a2 c,8 c'8 |
   a4 c,8 c'8 a4 c,8 a'8 | f2. d8 ef8 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   f8 a8 f8 d8 f8 a8 f8 d8 | f8 f8~ f2 d8 ef8 | f8 a8 f8 d8 f8 a8 f8 d8
-  | f2. g8 a8 | bf8 d8 bf8 g8 bf4. g8 | bf8 d8 bf8 g8 bf4. g8 | f2. d4
-  | \textToCoda bf1 |
+  | f2. g8 a8 | bf8 d8 bf8 g8 bf4. g8 | bf8 d8 bf8 g8 bf4. g8 | f2. d4 \textToCodaLastTime |
+  bf1 |
 
-  \bar "|."
-}
+  \bar "||-|."
 
-codaLyrics = \lyricmode {
-all. Say it's me that you'll a -- dore
-For now and ev -- er more,
-That's all, that's all.
-}
-
-codaChords = \chordmode {
-  d2:m7 g4:7 g4:7/f e2:m7.5- ef2:m7
-  bf2/d g2:7.5+.9+ c2:m7 f2:7
-  bf1:6
-}
-
-codaKey = bf
-
-codaMelody = \relative f' {
-  \time 4/4
-  \key \codaKey \major
-  \clef \whatClef
-
-  \textCoda
+  \textCodaBreak
 
   d2. g8 a8 | bf8 d8 bf8 g8 bf4. g8 |
   \break
@@ -130,12 +118,4 @@ codaMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\markup {
-  \vspace #2
-}
-
-\include "../Include/coda.ily"
+\include "../Include/refrainonly.ily"

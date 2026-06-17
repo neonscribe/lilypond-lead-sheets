@@ -114,12 +114,7 @@ refrainMelody = \relative f' {
   }
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \column {
     \vspace #1
@@ -133,3 +128,4 @@ refrainMelody = \relative f' {
     \line { \large { Piano solo. } }
   } }
 
+\include "../Include/introrefrain.ily"

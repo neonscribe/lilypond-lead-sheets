@@ -148,6 +148,4 @@ refrainMelodyTwo = \relative f' {
 
 \include "english.ly"
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -16,7 +16,7 @@ headerPoet = ""
 headerComposer = "Ray Noble"
 headerCopyright = "© 1934 Campbell Connelly & Co. Ltd."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainMaleSingerLyrics = \lyricmode {
 The ve -- ry thought of you, __ and I for -- get to do __
@@ -105,9 +105,8 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup { "The" \noteName { \transpose \refrainKey \whatKey f } "note in measure 29 is sometimes sung as"
 	   \noteName { \transpose \refrainKey \whatKey g } "instead." }
+
+\include "../Include/refrainonly.ily"

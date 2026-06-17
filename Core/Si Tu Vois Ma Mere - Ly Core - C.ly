@@ -114,6 +114,4 @@ refrainMelody = \relative fis' {
     c1 )
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

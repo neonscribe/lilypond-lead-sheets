@@ -16,7 +16,7 @@ headerPoet = "Johnny Mercer"
 headerComposer = "Harold Arlen"
 headerCopyright = "© 1941 Warner Bros. Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = { \lyricmode {
 My ma -- ma done tol' me __ when I was in }
@@ -164,6 +164,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

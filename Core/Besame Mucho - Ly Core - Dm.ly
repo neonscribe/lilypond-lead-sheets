@@ -142,10 +142,8 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
 refrainLyrics = \refrainSpanishLyrics
 refrainLyricsTwo = \refrainEnglishLyrics
 refrainTwoLanguages = ##t
 
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -12,7 +12,7 @@ headerPoet = ""
 headerComposer = "Bobby Sharp/Teddy Powell"
 headerCopyright = "© 1960 B. Sharp Music"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _
@@ -157,6 +157,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

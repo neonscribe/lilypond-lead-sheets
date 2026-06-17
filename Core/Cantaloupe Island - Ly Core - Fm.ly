@@ -55,8 +55,6 @@ refrainMelody = \relative f' {
   }
 }
 
-\include "../Include/paper.ily"
+afterText = \markup{ "Play head twice before and twice after solos." }
 
-\include "../Include/refrain.ily"
-
-\markup{ "Play head twice before and twice after solos." }
+\include "../Include/refrainonly.ily"

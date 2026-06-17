@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Wes Montgomery"
 headerCopyright = "© 1968 Taggie Music Co."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s8
@@ -94,8 +94,6 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
+afterText = \markup "Use chords in parentheses on solos."
 
-\include "../Include/refrain.ily"
-
-\markup "Use chords in parentheses on solos."
+\include "../Include/refrainonly.ily"

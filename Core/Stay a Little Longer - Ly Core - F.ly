@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Tommy Duncan"
 headerCopyright = "© 1947 Red River Songs, Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 You ought to see my blue- eyed Sal -- ly,
@@ -78,14 +78,11 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   {
@@ -105,3 +102,5 @@ refrainMelody = \relative f' {
    \line { \large { Jump on a man like a dog on a bone. } }
    }
 }
+
+\include "../Include/refrainonly.ily"

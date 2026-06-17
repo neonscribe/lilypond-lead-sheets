@@ -133,14 +133,11 @@ refrainMelody = \relative f' {
   }
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   \bold
@@ -202,3 +199,5 @@ refrainMelody = \relative f' {
    \line { \large { To make you feel my love } }
    }
 }
+
+\include "../Include/refrainonly.ily"

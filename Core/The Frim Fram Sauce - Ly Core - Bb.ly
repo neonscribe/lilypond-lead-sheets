@@ -16,7 +16,7 @@ headerPoet = ""
 headerComposer = "Joe Ricardel and Redd Evans"
 headerCopyright = "© 1946 Music Sales Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainMaleSingerLyrics = \lyricmode {
 I don't want French fried po -- ta -- toes,
@@ -127,6 +127,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

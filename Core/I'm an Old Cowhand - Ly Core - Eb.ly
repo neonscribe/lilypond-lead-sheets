@@ -118,14 +118,11 @@ refrainMelody = \relative f' {
   ef2 r2 | g4 g2 f4 | ef2 f2 | ef'1~ | ef4 r4 r2 |
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   \bold
@@ -171,3 +168,5 @@ refrainMelody = \relative f' {
    \line { \large { Yipp-e-e-yi-o-o-ki-i-yay. } }
  }
 }
+
+\include "../Include/refrainonly.ily"

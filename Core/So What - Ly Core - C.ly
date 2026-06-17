@@ -105,10 +105,6 @@ refrainKicksOverTime = \relative f' {
 
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
 chordDiagrams = {
   <e a d' g' b'>1
   <d g c' f' a'>
@@ -116,4 +112,4 @@ chordDiagrams = {
   <ef af df' gf' bf'>
 }
 
-\include "../Include/chord-diagrams.ily"
+\include "../Include/refrainonly.ily"

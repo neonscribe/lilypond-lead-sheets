@@ -25,6 +25,10 @@ refrainLyrics = \lyricmode {
   Might have gone but what for?
   Aw -- f'lly dif -- f'rent with -- out you,
   Don't get a -- round much an -- y more.
+
+  Don't get a -- round much an -- y more.
+  Aw -- f'lly dif -- f'rent with -- out you,
+  Don't get a -- round much an -- y more.
 }
 
 refrainChords = \chordmode {
@@ -66,6 +70,25 @@ refrainChords = \chordmode {
   \chordOpenParen{ ef2:7 }
   d2:m7
   \chordCloseParen{ g2:7 }
+
+
+  c1:maj7 c1:maj7 c2:maj7 bf2:7 a1:7
+  d1:m7 g1:7 c1:6 g1:7
+
+  c1:maj7 c1:maj7 c2:maj7 bf2:7 a1:7
+  d1:m7 g1:7 c1:6 g2:m7 c2:7
+
+  f1:6 fs1:dim7 c1:maj7 c1:7
+  f1:6 fs2:m7.5- b2:7.9- e2:m7 ef2:dim7 d2:m7 g2:7
+
+  c1:maj7 c1:maj7 c2:maj7 bf2:7 a1:7
+  d1:m7 g1:7
+  c2:6 ef2:7 d2:m7 g2:7
+
+  c1:6 c1:7
+
+
+  g1:7 e1:m7 a1:7 d1:m7 g1:7 c1:6
 }
 
 refrainKey = c
@@ -107,7 +130,7 @@ refrainMelody = \relative c' {
   r8 e8 f fs g c, ds e | c1 |
   r8 e'4 d8 c g f e~ |
 
-  \sect "A2"
+  \sectNoBreak "A2"
 
   <<
     { \xVoiceTwoSmall {
@@ -134,12 +157,12 @@ refrainMelody = \relative c' {
   c4. a8~ a2 |
   r8 e8 f fs g c, ds e | c1~ | c2. r4
 
-  \sect "B"
+  \sectNoBreak "B"
 
   d'2 c8 a4 c8~ | c2. c4 | d2 c8 g4 e8~ | e2. c'4 |
   d2 c8 a4 c8~ | c1 | r8 b8 b b b a4 g8~ | g8 e'4 d8 c g f e~
 
-  \sect "C"
+  \sectNoBreak "C"
 
   <<
     { \xVoiceTwoSmall {
@@ -169,65 +192,12 @@ refrainMelody = \relative c' {
   r8 e8 f fs g c, ds e |
   c1 |
   r1 |
-  \bar "|."
-}
 
-codaLyrics = \lyricmode {
-  Don't get a -- round much an -- y more.
-  Aw -- f'lly dif -- f'rent with -- out you,
-  Don't get a -- round much an -- y more.
-}
+  \bar ".|:-|."
+  
+  \xPageBreak
 
-codaChords = \chordmode {
-  g1:7 e1:m7 a1:7 d1:m7 g1:7 c1:6
-}
-
-codaKey = c
-
-codaMelody = \relative c' {
-  \time 4/4
-  \key \codaKey \major
-  \clef \whatClef
-
-  \textCoda
-  r8 e,8 f fs g c, ds e |
-  e1 |
-  r8 g4 f8 e d c c'~ |
-  c4. a8~ a2 |
-  r8 e8 f fs g c, ds e |
-  c8
-  \magnifyMusic 0.63 {
-    c4. c4 c8 c8 | }
-  \bar "|."
-}
-
-soloChords = \chordmode {
-  c1:maj7 c1:maj7 c2:maj7 bf2:7 a1:7
-  d1:m7 g1:7 c1:6 g1:7
-
-  c1:maj7 c1:maj7 c2:maj7 bf2:7 a1:7
-  d1:m7 g1:7 c1:6 g2:m7 c2:7
-
-  f1:6 fs1:dim7 c1:maj7 c1:7
-  f1:6 fs2:m7.5- b2:7.9- e2:m7 ef2:dim7 d2:m7 g2:7
-
-  c1:maj7 c1:maj7 c2:maj7 bf2:7 a1:7
-  d1:m7 g1:7
-  c2:6 ef2:7 d2:m7 g2:7
-
-  c1:6 c1:7
-}
-
-soloKey = c
-
-soloMelody = \relative f' {
-  \time 4/4
-  \key \soloKey \major
-  \clef \whatClef
-
-  \xTextMark \markup{ "Solos" \bold \box "A1" }
-
-  \bar ".|:"
+  \sectStartSolos "A1"
 
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -252,12 +222,19 @@ soloMelody = \relative f' {
   { \volta 2 \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq^\markup{ "to " \bold \box "B" } | }
   }
 
+  \bar "||-|."
+
+  \textCodaBreak
+
+  r8 e8 f fs g c, ds e |
+  e1 |
+  r8 g4 f8 e d c c'~ |
+  c4. a8~ a2 |
+  r8 e8 f fs g c, ds e |
+  c8
+  \magnifyMusic 0.63 {
+    c4. c4 c8 c8 | }
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-
-\include "../Include/refrain.ily"
-\include "../Include/solo.ily"
-\include "../Include/coda.ily"
+\include "../Include/refrainonly.ily"

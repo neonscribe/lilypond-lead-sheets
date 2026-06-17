@@ -16,7 +16,7 @@ headerPoet = "Jacob Jacobs, translated by Sammy Cahn and Saul Chaplin"
 headerComposer = "Sholom Secunda"
 headerCopyright = "© 1932 J & J Kammen Music Company"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
 Of all the girls I've known and I've known some,
@@ -151,6 +151,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -11,7 +11,7 @@ headerComposer = "Horace Silver"
 headerCopyright = "© 1964 Ecaroh Music, Inc."
 
 bossaRhythm = ##t
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s8
@@ -115,6 +115,4 @@ refrainBass = \relative f' {
   f4 r8 c'8 c4 r8 f,8 | <f f,>4 r4 r2 |
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

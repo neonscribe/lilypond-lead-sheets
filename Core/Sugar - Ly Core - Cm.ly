@@ -131,10 +131,7 @@ refrainKicksOverTime = \relative f' {
   s8*7 c8\laissezVibrer s8*7 c8\laissezVibrer s8*15 c8\laissezVibrer
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup{ "Play head twice before and twice after solos." }
+
+\include "../Include/introrefrain.ily"

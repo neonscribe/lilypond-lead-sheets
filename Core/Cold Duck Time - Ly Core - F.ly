@@ -77,8 +77,6 @@ refrainBass = \relative f' {
   df2.. ef8~ | ef2.. f8 \textFine | r1 | r1 |
 }
 
-\include "../Include/paper.ily"
+afterText = \markup "Bass line, chord rhythms, and breaks continue for solos."
 
-\include "../Include/refrain.ily"
-
-\markup "Bass line, chord rhythms, and breaks continue for solos."
+\include "../Include/refrainonly.ily"

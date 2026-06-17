@@ -12,7 +12,7 @@ headerPoet = "Gus Kahn"
 headerComposer = "Matt Malneck and Frank Signorelli"
 headerCopyright = "© 1932 Robbins Music Corp."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I'll nev -- er be the same.
@@ -95,6 +95,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

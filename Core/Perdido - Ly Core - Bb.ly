@@ -10,7 +10,7 @@ headerPoet = "H.J Lengsfelder and Ervin Drake"
 headerComposer = "Juan Tizol"
 headerCopyright = "© 1942 Tempo Music, Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 Per -- di -- do, __
@@ -93,6 +93,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

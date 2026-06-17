@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+\version "2.26.0"
+
 %{
 
 "Customizer": { "choices": { "alternateChords": [ "hlrb", "original" ] } }
@@ -153,8 +155,4 @@ refrainMelody = \relative g' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/verse.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/verserefrain.ily"

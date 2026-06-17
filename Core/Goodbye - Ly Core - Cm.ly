@@ -12,7 +12,7 @@ headerPoet = ""
 headerComposer = "Gordon Jenkins"
 headerCopyright = "© 1935 Schuster and Miller, Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I'll nev -- er for -- get you, __ I'll nev -- er for -- get you, __
@@ -81,6 +81,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

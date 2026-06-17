@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Miles Davis, Victor Feldman"
 headerCopyright = "© 1963 Jazz Horn Music Corporation"
 
-leadingEighth = ##t
+introLeadingEighth = ##t
 
 introChords = \chordmode {
   s8
@@ -70,9 +70,11 @@ bassIntro = \relative f' {
   \bar ":..:"
   \clef \whatClef
   \key \refrainKey \major
+  \ambitusOff
   \repeat volta 4 {
   r4 <d ef g c c'>4 r8 <d ef g c c'>8 r4 |
   r4 <c df f c' c'>4 r8 <c df f c' c'>8 r4
+  \ambitusOn
   \xTextEndMark "4x"
   |
   }
@@ -171,12 +173,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-leadingEighth = ##t
-
-\include "../Include/bass-intro.ily"
-
-leadingEighth = ##f
-
-\include "../Include/refrain.ily"
+\include "../Include/bassintrorefrain.ily"

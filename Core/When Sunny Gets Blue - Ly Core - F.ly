@@ -10,7 +10,7 @@ headerPoet = "Jack Segal"
 headerComposer = "Marvin Fisher"
 headerCopyright = "© 1956 Marvin Music Company"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 When Sun -- ny gets blue
@@ -102,6 +102,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

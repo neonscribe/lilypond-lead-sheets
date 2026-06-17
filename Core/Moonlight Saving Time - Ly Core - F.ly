@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Irving Kahal and Harry Richman"
 headerCopyright = "© 1931 Leo Feist, Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 There ought to be a moon -- light sav -- ing time, __
@@ -107,6 +107,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

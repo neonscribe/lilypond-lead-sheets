@@ -10,7 +10,7 @@ headerPoet = "Johnny Burke"
 headerComposer = "Jimmy Van Heusen"
 headerCopyright = "© 1939 ABC Music Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 Im -- ag -- i -- na -- tion is fun -- ny, it makes a cloud -- y day sun -- ny,
@@ -87,6 +87,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

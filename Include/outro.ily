@@ -3,6 +3,7 @@
 midiKey = \outroKey
 midiChords = \outroChords
 midiMelody = \outroMelody
+leadingEighth = \outroLeadingEighth
 
 midiIncludeFile = 
 #(if (and (defined? 'midiOnly) midiOnly)

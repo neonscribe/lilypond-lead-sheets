@@ -57,8 +57,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup{"Syncopation in bars 7 and 8 of A sections on head only."}
+
+\include "../Include/refrainonly.ily"

@@ -57,6 +57,8 @@ refrainChords = \chordmode {
 
   \chordOpenParen{ d2:m7 }
   \chordCloseParen{ g:7 }
+
+  d2:m7 g2:7 c1:maj7 c1:maj7
 }
 
 refrainKey = c
@@ -98,34 +100,12 @@ refrainMelody = \relative g' {
   %% \break
   r8 a4.~ a2 \textToCodaLastTime |
   r8 a,8 \tuplet 3/2 { b8 c8 d8 } e4 g,8 c8~ | c2. r4 | r1 |
-  \bar "||-||"
-}
+  \bar "||-|."
 
-codaLyrics = \lyricmode {
-}
+  \textCodaBreak
 
-codaChords = \chordmode {
-  d2:m7 g2:7 c1:maj7 c1:maj7
-}
-
-codaKey = c
-
-codaMelody = \relative g' {
-  \time 4/4
-  \key \codaKey \major
-  \clef \whatClef
-
-  \textCoda
-  r8 a,8 \tuplet 3/2 { b8 c8 d8 } e8 f8 \tuplet 3/2 { g8 a8 b8 } | d1~ | d1\fermata
+  r8 a8 \tuplet 3/2 { b8 c8 d8 } e8 f8 \tuplet 3/2 { g8 a8 b8 } | d1~ | d1\fermata
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\markup {
-  \vspace #2
-}
-
-\include "../Include/coda.ily"
+\include "../Include/refrainonly.ily"

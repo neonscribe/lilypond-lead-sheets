@@ -155,6 +155,4 @@ refrainBass = \relative f' {
   f2 g2 | af4. g8~ g8 ef8 c4 |
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

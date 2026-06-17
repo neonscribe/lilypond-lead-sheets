@@ -12,7 +12,7 @@ headerPoet = ""
 headerComposer = "Dave Frishberg"
 headerCopyright = "© 1962 Swiftwater Music"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 Peel __ me a grape, crush __ me some ice,
@@ -137,6 +137,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

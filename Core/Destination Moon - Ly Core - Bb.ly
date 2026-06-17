@@ -68,6 +68,10 @@ A sup -- er -- son -- ic hon -- ey -- moon. __
 Leave your cares be -- low,
 Pull the switch, let's go
 Des -- ti -- na -- tion Moon.
+
+Des -- ti -- na -- tion Moon. __
+Des -- ti -- na -- tion Moon. __
+Des -- ti -- na -- tion Moon. __
 }
 
 refrainMillionDollarFakeChords = \chordmode {
@@ -109,20 +113,24 @@ refrainScribdChords = \chordmode {
 refrainMuseChords = \chordmode {
   s4
 
-  b2:m7.5- bf2:7 a2:m7 d2:7.9+ g2:m9 c2:7.9-
-  a2:m7 d2:7 g2:m9 c2:9 a2:m7 d2:7.9+ g2:7 c2:7.9- f1:6
+  e2:m7.5- ef2:7 e2:m7 g2:7.9+ c2:m9 f2:7.9-
+  d2:m7 g2:7 c2:m9 f2:9 d2:m7 g2:7.9+ c2:7 f2:7.9- bf1:6
 
-  b2:m7.5- bf2:7 a2:m7 d2:7.9+ g2:m9 c2:7.9-
-  a2:m7 d2:7 g2:m9 c2:9 a2:m7 d2:7.9+ g2:7 c2:7.9- f1:6
+  e2:m7.5- ef2:7 d2:m7 g2:7.9+ c2:m9 f2:7.9-
+  d2:m7 g2:7 c2:m9 f2:9 d2:m7 g2:7.9+ c2:7 f2:7.9- bf1:6
 
-  c2:m7 b2:m7.5- c2:m7 b2:7.11+ bf1:maj7 bf1:maj7
-  d2:m7 g2:9 e2:m7.5- a2:7 d2:m7 g2:13 g2:m7 c2:7
+  f2:m7 e2:m7.5- f2:m7 e2:7.11+ ef1:maj7 ef1:maj7
+  g2:m7 c2:9 a2:m7.5- d2:7 g2:m7 c2:13 c2:m7 f2:7
 
-  b2:m7.5- bf2:7 a2:m7 d2:7.9+ g2:m9 c2:7.9-
-  a2:m7 d2:7 g2:m9 c2:9 a2:m7 d2:7.9+ g2:7 c2:7.9- f1:6
+  e2:m7.5- ef2:7 d2:m7 g2:7.9+ c2:m9 f2:7.9-
+  d2:m7 g2:7 c2:m9 f2:9 d2:m7 g2:7.9+ c2:7 f2:7.9- bf1:6
+
+  c2:7 f2:7.9- d2:m7 g2:7
+  c2:7 f2:7.9- d2:m7 g2:7
+  c1:9 c2:m9 f2:7.9- bf2:6 ef2:m7 e4.:dim7 f4.:sus7 bf4:6
 }
 
-refrainChords = \transpose f bf \refrainMuseChords
+refrainChords = \refrainMuseChords
 
 refrainKey = bf
 
@@ -164,53 +172,15 @@ refrainMelody = \relative f' {
   \textToCodaLastTime |
   r4 cs8 d8 bf8 c4 bf8~ | bf2 r2 |
 
-  \bar "|."
-}
+  \bar "||-|."
 
-codaLyrics = \lyricmode {
-Des -- ti -- na -- tion Moon. __
-Des -- ti -- na -- tion Moon. __
-Des -- ti -- na -- tion Moon. __
-}
+  \textCodaBreak
 
-codaMuseChords = \chordmode {
-  g2:7 c2:7.9- a2:m7 d2:7
-  g2:7 c2:7.9- a2:m7 d2:7
-  g1:9 g2:m9 c2:7.9- f2:6 bf2:m7 b4.:dim7 c4.:7sus f4:6
-}
-
-codaChords = \transpose f bf \codaMuseChords
-
-codaKey = bf
-
-codaMelody = \relative f' {
-  \time 2/2
-  \key \codaKey \major
-  \clef \whatClef
-
-  \textCoda
-
-  | r4 cs'8 d8 bf8 c4 d8~ | d2. r4 |
+  | r4 cs8 d8 bf8 c4 d8~ | d2. r4 |
   | r4 cs8 d8 bf8 c4 d8~ | d2. r4 |
   r4 d2 g,4 | d'2 d2 | c8( bf4.) <ef bf>4 r4 | <e bf>4 r8 <f bf,>4. bf,,4\fermata |
 
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/verse.ily"
-
-\markup {
-  % Leave a gap after the verse
-  \vspace #2
-}
-
-\include "../Include/refrain.ily"
-
-\markup {
-  % Leave a gap before the coda
-  \vspace #2
-}
-
-\include "../Include/coda.ily"
+\include "../Include/verserefrain.ily"

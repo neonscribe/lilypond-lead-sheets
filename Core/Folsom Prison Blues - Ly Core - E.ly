@@ -83,14 +83,11 @@ refrainMelody = \relative f' {
   ds2 ds2 | b2 g2 | e1 | r1\fermata |
   \ambitusOn
   } } }
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   \bold
@@ -136,3 +133,5 @@ refrainMelody = \relative f' {
    \line { \large { And I'd let that lonesome whistle blow my blues away. } }
  }
 }
+
+\include "../Include/refrainonly.ily"

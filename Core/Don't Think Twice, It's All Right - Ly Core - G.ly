@@ -75,14 +75,11 @@ refrainMelody = \relative f' {
   \sect "C"
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   \bold
@@ -156,3 +153,5 @@ refrainMelody = \relative f' {
     \line { \large { But don't think twice, it's all right } }
   }
 }
+
+\include "../Include/refrainonly.ily"

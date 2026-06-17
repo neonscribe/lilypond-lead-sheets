@@ -12,31 +12,10 @@ headerCopyright = "© 1974 Universal Music Corp."
 
 straightEighths = ##t
 
-refrainLyricsPre = \lyricmode {
-}
-
-refrainLyricsOne = \lyricmode {
+refrainLyrics = \lyricmode {
   I could be wrong, but I have seen your face be -- fore;
   you were the man that I saw run -- ning from his door.
   You owed him mon -- ey, but you gave him some -- thing more
-}
-
-refrainLyricsRepOne = \lyricmode {
-}
-
-refrainLyricsTwo = \lyricmode {
-  You were the found -- ers of the clin -- ic on the hill
-  un -- til he caught you with your fin -- gers in the till.
-  He slapped your hand _ so you set -- tled up your bill
-}
-
-refrainLyricsThree = \lyricmode {
-  I un -- der -- stand that you will soon be leav -- in' town;
-  don't try to call me when they fi -- n'lly run you down.
-  Just give fair warn -- ing an -- y time you come a -- round
-}
-
-refrainLyricsRest = \lyricmode {
   with a gun. __
   With a gun __ you will be what you are just the same.
 
@@ -49,10 +28,20 @@ refrainLyricsRest = \lyricmode {
   and you've seen all the west -- ern mov -- ies,
   woe to the one who does you wrong.
   You'll hide in the bush -- es, mur -- der the man with Lu -- ger in hand.
+  
+  rain?
 }
 
-refrainLyricsCoda = \lyricmode {
-  rain?
+refrainLyricsTwo = \lyricmode {
+  You were the found -- ers of the clin -- ic on the hill
+  un -- til he caught you with your fin -- gers in the till.
+  He slapped your hand _ so you set -- tled up your bill
+}
+
+refrainLyricsThree = \lyricmode {
+  I un -- der -- stand that you will soon be leav -- in' town;
+  don't try to call me when they fi -- n'lly run you down.
+  Just give fair warn -- ing an -- y time you come a -- round
 }
 
 refrainChords = \chordmode {
@@ -135,6 +124,4 @@ refrainMelody = \relative f'' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain-three-coda.ily"
+\include "../Include/refrainonly.ily"

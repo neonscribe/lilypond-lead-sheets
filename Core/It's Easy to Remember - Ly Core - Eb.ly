@@ -10,7 +10,7 @@ headerPoet = "Lorenz Hart"
 headerComposer = "Richard Rodgers"
 headerCopyright = "© 1934 Famous Music Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 Your sweet ex -- pres -- sion, __ the smile you gave me, __ the way you looked when we met.
@@ -80,6 +80,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

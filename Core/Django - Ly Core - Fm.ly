@@ -39,6 +39,7 @@ refrainChords = \chordmode {
 refrainKey = f
 
 whatKey = #(or whatKey refrainKey)
+bassKey = #(or bassKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4
@@ -93,7 +94,7 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \daCapoAlFineAfterSolos |
 
-  \bar "|."
+  \bar "||-|."
 
   \sectNoBar "E"
   \xTextMark \markup{ \bold "Interlude between solos" }
@@ -164,21 +165,14 @@ bassLineMelody = \relative f {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
-  % Leave a gap
-  \vspace #1
+  \column {
+    \line { "16 bar head " \bold \box "A" " played slow, even eights, ritard at end." }
+    \line { "Solos medium swing, on " \bold \box "B1" \bold \box "B2" \bold \box "C" \bold \box "D" }
+    \line { "Play Interlude " \bold \box "E" " between (not before or after) solos, at the same medium swing tempo." }
+    \line { "After last solo, return to head at slow tempo." }
+  }
 }
 
-\include "../Include/bass-line.ily"
-
-\markup { "16 bar head " \bold \box "A" " played slow, even eights, ritard at end." }
-
-\markup { "Solos medium swing, on " \bold \box "B1" \bold \box "B2" \bold \box "C" \bold \box "D" }
-
-\markup { "Play Interlude " \bold \box "E" " between (not before or after) solos, at the same medium swing tempo." }
-
-\markup "After last solo, return to head at slow tempo."
+\include "../Include/refrainbassline.ily"

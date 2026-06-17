@@ -28,6 +28,10 @@ Some kiss may cloud my mem -- o -- ry.
 And oth -- er arms may hold a thrill.
 But please do noth -- in' till you hear it from me. __
 And you nev -- er will. __
+
+  And you nev -- er will,
+  But please do noth -- in' till you hear it from me. __
+  And you nev -- er will. __
 }
 
 refrainChords = \chordmode {
@@ -45,6 +49,27 @@ refrainChords = \chordmode {
   g2:maj7 e2:7.5+ a2:7 d2:7 g2:maj7 e2:7
   a2:m7
   d2:7
+
+  g1:maj7 d2:m7 g2:7 c1:maj7 c2:m7 f2:7
+  g2:maj7 e2:7 a2:7 d2:7
+
+  g1:maj7 a2:m7 d2:7
+
+  g1:maj7 d2:m7 g2:7 c1:maj7 c2:m7 f2:7
+  g2:maj7 e2:7 a2:7 d2:7
+
+  g1:maj7 f2:m7 bf2:7
+
+  ef1:maj7 f2:m7 bf2:7 ef1:maj7 ef1:7
+  g1:maj7 b2:m7 e2:7 a1:7 d1:7
+
+  g1:maj7 d2:m7 g2:7 c1:maj7 c2:m7 f2:7
+  g2:maj7 e2:7 a2:7 d2:7
+  g2:maj7 e2:7 a2:m7 d2:7
+
+  g1:maj7 d4:7 r2.
+
+  a2:7 d2:7 b1:7 e1:7 g2 e2:7.5+ a2:7 d2:7 g1:maj7
 }
 
 refrainKey = g
@@ -88,42 +113,11 @@ refrainMelody = \relative f' {
   \textToCodaLastTimeOptional
   r4 bf'4 b8 d,8 e8 g8~ | g1 | r1 |
 
-  \bar "|."
+  \bar ".|:-|."
   
   \xPageBreak
-}
 
-soloChords = \chordmode {
-  g1:maj7 d2:m7 g2:7 c1:maj7 c2:m7 f2:7
-  g2:maj7 e2:7 a2:7 d2:7
-
-  g1:maj7 a2:m7 d2:7
-
-  g1:maj7 d2:m7 g2:7 c1:maj7 c2:m7 f2:7
-  g2:maj7 e2:7 a2:7 d2:7
-
-  g1:maj7 f2:m7 bf2:7
-
-  ef1:maj7 f2:m7 bf2:7 ef1:maj7 ef1:7
-  g1:maj7 b2:m7 e2:7 a1:7 d1:7
-
-  g1:maj7 d2:m7 g2:7 c1:maj7 c2:m7 f2:7
-  g2:maj7 e2:7 a2:7 d2:7
-  g2:maj7 e2:7 a2:m7 d2:7
-
-  g1:maj7 d4:7 r2.
-}
-
-soloKey = g
-
-soloMelody = \relative f' {
-  \time 4/4
-  \key \soloKey \major
-  \clef \whatClef
-
-  \sectNoBar "A1"
-
-  \bar ".|:"
+  \sectStartSolos "A1"
 
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -153,28 +147,9 @@ soloMelody = \relative f' {
     { \rsq \rsq \rsq \rsq \dalSegno | \rsq \rsq \rsq \rsq | }
     }
 
-  \bar "|."
-}
+  \bar "||-|."
 
-codaLyrics = \lyricmode {
-  And you nev -- er will,
-  But please do noth -- in' till you hear it from me. __
-  And you nev -- er will. __
-}
-
-codaChords = \chordmode {
-  a2:7 d2:7 b1:7 e1:7 g2 e2:7.5+ a2:7 d2:7 g1:maj7
-}
-
-codaKey = g
-
-codaMelody = \relative f {
-  \time 4/4
-  \key \codaKey \major
-  \clef \whatClef
-  \textCoda
-
-  \set Score.currentBarNumber = #30
+  \textCodaBreak
 
   r4 bf4 b8 d,8 e8 b'8~ | b1 | r8 c8 a8 as8 b8 d8 c8 as8 |
   b8 g8 d8 c8~ c2 |
@@ -183,10 +158,4 @@ codaMelody = \relative f {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\include "../Include/solo.ily"
-
-\include "../Include/coda.ily"
+\include "../Include/refrainonly.ily"

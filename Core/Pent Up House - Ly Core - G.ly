@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
   \break
   r8 d,8 a'8 fs8 g8 a8 b8 d8 | g8 e4-. g8 ef4-. g8 e8 | r8 g8 ef4-. g8 ef4-. g8 | d1 |
   \break
-  f8 d4 f8 df2 | d8 b4-. d8 bf4-. d8 b8 | r8 d8 bf4-. d8 bf4-. d8 \textToCodaLastTime | a2. r4 |
+  f8 d4 f8 df2 | d8 b4-. d8 bf4-. d8 b8 | r8 d8 bf4-. d8 bf4-. d8 | a2. r4 |
   }
   \bar ":|.|:"
   \break
@@ -62,35 +62,6 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
 }
+afterText = \markup "Head is played twice before and twice after solos."
 
-
-codaLyrics = \lyricmode {
-}
-
-codaChords = \chordmode {
-  g1:maj7
-}
-
-codaKey = g
-
-codaMelody = \relative f' {
-  \time 4/4
-  \key \codaKey \major
-  \clef \whatClef
-
-  \textCodaBreak
-
-  a4. a8 r2 |
-
-  \bar "|."
-}
-
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-codaRaggedRight = ##t
-
-\include "../Include/coda.ily"
-
-\markup "Head is played twice before and twice after solos."
+\include "../Include/refrainonly.ily"

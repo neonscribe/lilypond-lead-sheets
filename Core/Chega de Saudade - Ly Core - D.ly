@@ -64,6 +64,11 @@ When we set -- tle down
 There'll be no more blues.
 }
 
+refrainLyrics = \refrainPortugueseLyrics
+refrainLyricsTwo = \refrainEnglishLyrics
+
+refrainTwoLanguages = ##t
+
 refrainNicoHLChords = \chordmode {
   d1:m d1:m7/c e1:7/b e1:7
   e1:m7.5- a1:7.9- d1:m e2:m7.5- a2:7.9-
@@ -210,11 +215,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

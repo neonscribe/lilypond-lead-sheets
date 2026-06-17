@@ -12,7 +12,7 @@ headerPoet = "Gus Kahn"
 headerComposer = "Walter Donaldson"
 headerCopyright = "© 1928 Donaldson, Douglas & Gumble, Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 An -- oth -- er bride, __ an -- oth -- er June, __ an -- oth -- er sun -- ny hon -- ey -- moon. __
@@ -87,6 +87,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

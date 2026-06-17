@@ -84,8 +84,6 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
+afterText = \markup {"Solo on ABCD. After solos, D.C. al Fine." }
 
-\include "../Include/refrain.ily"
-
-\markup {"Solo on ABCD. After solos, D.C. al Fine." }
+\include "../Include/refrainonly.ily"

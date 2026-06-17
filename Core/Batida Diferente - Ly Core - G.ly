@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Durval Ferreira & Maurício Einhorn"
 headerCopyright = "© 1963 Casa Editoras Musicais Brasileras Reunidas CEMBRA, São Paulo"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 unsynchronizedRefrainLyrics = \lyricmode {
   Veja como bate engraçado o meu coração assim
@@ -91,6 +91,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -13,6 +13,8 @@ headerCopyright = "© 1958 Upam Music Co."
 refrainChords = \chordmode {
   s2. bf1:m7 c2:m7.5- f2:7 bf1:m7 bf1:7.9+ ef1:7 ef1:7
   bf2:m7 f2:7 bf1:m7 c1:7.9+ f1:7 bf1:m7 c2:7.9+ f2:7
+
+  f1:7 bf1:m11
 }
 
 refrainKey = bf
@@ -66,30 +68,15 @@ refrainMelody = \relative f {
   \endParenthesis \parenthesize
   g4
   }
-}
+  \bar "||-:|."
 
-codaChords = \chordmode {
-  f1:7 bf1:m11
-}
-
-codaKey = bf
-
-codaMelody = \relative f' {
-  \time 4/4
-  \key \codaKey \minor
-  \clef \whatClef
-
-  \textCoda
+  \textCodaBreak
 
   af8 f4. af8 f8 af8 c8~ | c1 |
 
   \bar "|."
 }
 
-\include "../Include/paper.ily"
+afterText = \markup "Head is played twice before and twice after solos."
 
-\include "../Include/refrain.ily"
-
-\include "../Include/coda.ily"
-
-\markup "Head is played twice before and twice after solos."
+\include "../Include/refrainonly.ily"

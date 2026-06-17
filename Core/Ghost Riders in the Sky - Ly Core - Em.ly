@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Stan Jones"
 headerCopyright = "© 1949 Edwin H. Morris & Company, Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 An old cow -- poke went rid -- in' out one dark and wind -- y day.
@@ -108,14 +108,11 @@ refrainMelody = \relative f' {
   <g \har b \har d>1~( | <g \har b \har d>1 | <e \har g \har b>1~ | <e \har g \har b>2) r2 | r1 | r1 |
   } } }
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   \bold
@@ -177,3 +174,4 @@ refrainMelody = \relative f' {
  }
 }
 
+\include "../Include/refrainonly.ily"

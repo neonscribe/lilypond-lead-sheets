@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Sammy Fain, Irving Kahal and Pierre Norman"
 headerCopyright = "© 1931 Famous Music Corp."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 When I take my su -- gar to tea, __
@@ -86,6 +86,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

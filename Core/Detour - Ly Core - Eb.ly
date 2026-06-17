@@ -75,14 +75,11 @@ refrainMelody = \relative f' {
   bf1~ | bf4 g4 g4 f4 | ef1~ | ef4 r4 bf4 c4 |
 
   \bar ":|."
+  
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   \bold
@@ -141,3 +138,5 @@ refrainMelody = \relative f' {
    \line { \large { Detour, oh, these bitter things I find, should have read that detour sign } }
  }
 }
+
+\include "../Include/refrainonly.ily"

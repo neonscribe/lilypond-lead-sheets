@@ -57,16 +57,6 @@ refrainKicksOverTime = \relative f' {
   s8*8 r2 b4. b8 s8*8 r2 b4. b8 s8*8 r2 b4. b8
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\markup "Play head twice before and after solos. Bass plays kicks on head, walks on solo."
-
-\markup {
-  \vspace #1
-}
-
 pianoChordNames = \chordmode {
   ef1:7.9+ af1:7.11+ bf1:7.9+
 }
@@ -84,12 +74,6 @@ pianoChordLeftHand = \relative f' {
   <df g, ef>1 <gf, af,>1 <af bf,>1
 }
 
-\include "../Include/piano-chords.ily"
-
-\markup {
-  \vspace #1
-}
-
 chordDiagrams = \chordmode {
   ef:7.9+ af:7.11+ bf:7.9+
 }
@@ -98,4 +82,6 @@ chordChart = ##t
 guitarChords = ##t
 notationChords = ##f
 
-\include "../Include/chord-diagrams.ily"
+afterText = \markup "Play head twice before and after solos. Bass plays kicks on head, walks on solo."
+
+\include "../Include/refrainonly.ily"

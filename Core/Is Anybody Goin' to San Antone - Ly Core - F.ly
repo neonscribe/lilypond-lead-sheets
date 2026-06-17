@@ -71,10 +71,7 @@ refrainMelody = \relative f'' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \vspace #2
 
@@ -105,3 +102,5 @@ refrainMelody = \relative f'' {
     \line { \large { can forget I've ever known her. } }
   }
 }
+
+\include "../Include/refrainonly.ily"

@@ -10,7 +10,7 @@ headerPoet = "Ted Koehler"
 headerComposer = "Harold Arlen"
 headerCopyright = "© 1929 Warner Bros. Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 For -- get your trou -- bles and just get hap -- py, __ you bet -- ter chase all your cares a -- way. __
@@ -76,6 +76,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

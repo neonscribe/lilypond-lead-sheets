@@ -10,19 +10,27 @@ headerPoet = ""
 headerComposer = "Freddie Hubbard"
 headerCopyright = "© 1972 Hubtones Music Co."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
-bridgeKey = c
+introKey = c
 
-bridgeChords = \chordmode {
+introChords = \chordmode {
   c1:m7 af1:7 g1:7.5+ c1:m7
   s1*4
+
+  s2 c2:m11 s4. bf8*5:m11 s4 df4:sus7 s4 ef4:sus7 s4 f4:sus7 s8 g4.:sus7
 }
 
-bridgeMelody = \relative f' {
+introKicksOverTime = \relative f' {
+  s1*8 |
+  r2 c2 | r4 r8 c8~ c2 | r4 c4 r4 c4 | r4 c4 r8 c4. |
+}
+
+
+bassIntro = \relative f' {
   \time 4/4
-  \key \bridgeKey \minor
-  \clef \whatClef
+  \key \introKey \minor
+  \clef bass
   \tempo "Free Time"
 
   \xTextMark \markup{ \bold \box "Open Solos" }
@@ -35,29 +43,13 @@ bridgeMelody = \relative f' {
     }
   }
 
-  \bar "||"
-}
+  \bar ".|:-||"
+  \break
 
-introKey = c
-
-introChords = \chordmode {
-  s2 c2:m11 s4. bf8*5:m11 s4 df4:sus7 s4 ef4:sus7 s4 f4:sus7 s8 g4.:sus7
-}
-
-introKicksOverTime = \relative f' {
-  r2 c2 | r4 r8 c8~ c2 | r4 c4 r4 c4 | r4 c4 r8 c4. |
-}
-
-
-bassIntro = \relative f' {
-  \time 4/4
-  \key \introKey \minor
-  \clef bass
   \tempoFour "Medium Rock, Straight Eighths [Freddie Hubbard 1970]" 140
 
   \xTextMark \markup{ \bold \box "Intro" }
 
-  \bar ".|:"
   \repeat volta 2 {
   c,8 g'8 c8 g8 c4. f,8 | bf,8 f'8 bf4 bf4. af8 |
   df,8 af'8 df4 ef,8 bf'8 ef4 | f,8 c'8 f8 g,8 d'8 g4\bendAfter -4 r8 |
@@ -97,7 +89,7 @@ refrainMelody = \relative f' {
 
   \partial 8 c'8~ |
 
-  \xTextMark \markup{ \bold \box "Head" \bold \box "A1,A2" "Bass pattern contiues on head" }
+  \xTextMark \markup{ \bold \box "Head" \bold \box "A1,A2" "Bass pattern continues on head" }
 
   \bar ".|:"
   \repeat volta 2 {
@@ -167,18 +159,4 @@ bassOutro = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-leadingEighth = ##f
-
-\include "../Include/bridge.ily"
-
-\include "../Include/bass-intro.ily"
-
-leadingEighth = ##t
-
-\include "../Include/refrain.ily"
-
-leadingEighth = ##f
-
-\include "../Include/bass-outro.ily"
+\include "../Include/bassintrorefrainbassoutro.ily"

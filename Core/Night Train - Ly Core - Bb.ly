@@ -97,8 +97,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup "Additional solos 12-bar blues. After solos, D.C. al Coda"
+
+\include "../Include/refrainonly.ily"

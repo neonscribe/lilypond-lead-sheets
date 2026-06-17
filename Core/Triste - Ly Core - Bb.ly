@@ -43,6 +43,11 @@ refrainEnglishLyrics = \lyricmode {
   Sad is to live in sol -- i -- tude. __
 }
 
+refrainLyrics = \refrainPortugueseLyrics
+refrainLyricsTwo = \refrainEnglishLyrics
+
+refrainTwoLanguages = ##t
+
 refrainChords = \chordmode {
   bf1:maj7 bf1:maj7 gf1:maj7 b1:7.5-
   bf1:maj bf1:maj7 d1:m7 g1:7
@@ -94,11 +99,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

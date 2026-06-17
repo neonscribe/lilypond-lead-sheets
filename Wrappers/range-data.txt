@@ -361,26 +361,41 @@ g
 a'
 
 A Night in Tunisia - Ly - Dm Bass for Standard.ly
+intro
+d
+ees'
 refrain
 a,
 ees'
 
 A Night in Tunisia - Ly - Dm Standard for Viola.ly
+intro
+d
+ees'
 refrain
 a
 ees''
 
 A Night in Tunisia - Ly - Dm Standard.ly
+intro
+d
+ees'
 refrain
 a
 ees''
 
 A Night in Tunisia - Ly - Dm to Bm for Eb for Standard.ly
+intro
+b,
+c'
 refrain
 fis'
 c'''
 
 A Night in Tunisia - Ly - Dm to Em for Bb for Standard.ly
+intro
+e
+f'
 refrain
 b
 f''
@@ -1001,13 +1016,7 @@ c'
 f''
 
 All the Things You Are - Ly - Ab Bass for Standard.ly
-verse
-b,
-e'
 intro
-c
-a
-outro
 c
 a
 refrain
@@ -1015,13 +1024,7 @@ bes,
 f'
 
 All the Things You Are - Ly - Ab Standard for Viola.ly
-verse
-b
-e''
 intro
-c'
-a'
-outro
 c'
 a'
 refrain
@@ -1029,13 +1032,7 @@ bes
 f''
 
 All the Things You Are - Ly - Ab Standard.ly
-verse
-b
-e''
 intro
-c'
-a'
-outro
 c'
 a'
 refrain
@@ -1043,13 +1040,7 @@ bes
 f''
 
 All the Things You Are - Ly - Ab to Bb for Bb for Standard.ly
-verse
-cis'
-fis''
 intro
-d'
-b'
-outro
 d'
 b'
 refrain
@@ -1057,13 +1048,7 @@ c'
 g''
 
 All the Things You Are - Ly - Ab to F for Eb for Standard.ly
-verse
-gis
-cis''
 intro
-a
-fis'
-outro
 a
 fis'
 refrain
@@ -1071,13 +1056,7 @@ g
 d''
 
 All the Things You Are - Ly - Db Alto Voice.ly
-verse
-e
-a'
 intro
-f
-d'
-outro
 f
 d'
 refrain
@@ -1085,13 +1064,7 @@ ees
 bes'
 
 All the Things You Are - Ly - Eb Alto Voice.ly
-verse
-fis
-b'
 intro
-g
-e'
-outro
 g
 e'
 refrain
@@ -1099,13 +1072,7 @@ f
 c''
 
 All the Things You Are - Ly - Eb Bass for Alto Voice.ly
-verse
-fis,
-b
 intro
-g,
-e
-outro
 g,
 e
 refrain
@@ -1113,13 +1080,7 @@ f,
 c'
 
 All the Things You Are - Ly - Eb to F for Bb High for Alto Voice.ly
-verse
-gis'
-cis'''
 intro
-a'
-fis''
-outro
 a'
 fis''
 refrain
@@ -1127,13 +1088,7 @@ g'
 d'''
 
 All the Things You Are - Ly - Eb to F for Bb Low for Alto Voice.ly
-verse
-gis
-cis''
 intro
-a
-fis'
-outro
 a
 fis'
 refrain
@@ -1141,13 +1096,7 @@ g
 d''
 
 All the Things You Are - Ly - F Alto Voice.ly
-verse
-gis
-cis''
 intro
-a
-fis'
-outro
 a
 fis'
 refrain
@@ -2146,26 +2095,41 @@ d'
 fis''
 
 Baby Elephant Walk - Ly - F Bass for Standard.ly
+intro
+f,
+a,
 refrain
 f,
 b'
 
 Baby Elephant Walk - Ly - F Standard for Viola.ly
+intro
+f,
+a,
 refrain
 f
 b''
 
 Baby Elephant Walk - Ly - F Standard.ly
+intro
+f,
+a,
 refrain
 f
 b''
 
 Baby Elephant Walk - Ly - F to D for Eb for Standard.ly
+intro
+d
+fis
 refrain
 d'
 gis'''
 
 Baby Elephant Walk - Ly - F to G for Bb for Standard.ly
+intro
+g,
+b,
 refrain
 g
 cis'''
@@ -3323,29 +3287,59 @@ d'
 e''
 
 Blue Drag - Ly - Dm Bass for Standard.ly
+intro
+a,
+d
 refrain
 d
 bes
+outro
+a'
+d''
 
 Blue Drag - Ly - Dm Standard for Viola.ly
+intro
+a,
+d
 refrain
 d
 bes
+outro
+a'
+d''
 
 Blue Drag - Ly - Dm Standard.ly
+intro
+a,
+d
 refrain
 d'
 bes'
+outro
+a'
+d''
 
 Blue Drag - Ly - Dm to Bm for Eb for Standard.ly
+intro
+fis,
+b,
 refrain
 b
 g'
+outro
+fis'
+b'
 
 Blue Drag - Ly - Dm to Em for Bb for Standard.ly
+intro
+b,
+e
 refrain
 e'
 c''
+outro
+b'
+e''
 
 Blue in Green - Ly - Dm Bass for Standard.ly
 refrain
@@ -5378,26 +5372,41 @@ d'
 d''
 
 Con Alma - Ly - C Bass for Standard.ly
+intro
+c
+des'
 refrain
 d
 cis'
 
 Con Alma - Ly - C Standard for Viola.ly
+intro
+c
+des'
 refrain
 d
 cis'
 
 Con Alma - Ly - C Standard.ly
+intro
+c
+des'
 refrain
 d'
 cis''
 
 Con Alma - Ly - C to A for Eb for Standard.ly
+intro
+a
+bes'
 refrain
 b
 ais'
 
 Con Alma - Ly - C to D for Bb for Standard.ly
+intro
+d
+ees'
 refrain
 e'
 dis''
@@ -6377,9 +6386,6 @@ verse
 des
 d'
 refrain
-d
-d'
-coda
 bes,
 f'
 
@@ -6388,9 +6394,6 @@ verse
 des
 d'
 refrain
-d
-d'
-coda
 bes,
 f'
 
@@ -6399,9 +6402,6 @@ verse
 des'
 d''
 refrain
-d'
-d''
-coda
 bes
 f''
 
@@ -6410,9 +6410,6 @@ verse
 ees'
 e''
 refrain
-e'
-e''
-coda
 c'
 g''
 
@@ -6421,9 +6418,6 @@ verse
 bes
 b'
 refrain
-b
-b'
-coda
 g
 d''
 
@@ -6432,9 +6426,6 @@ verse
 ges
 g'
 refrain
-g
-g'
-coda
 ees
 bes'
 
@@ -6443,9 +6434,6 @@ verse
 ges,
 g
 refrain
-g,
-g
-coda
 ees,
 bes
 
@@ -6454,9 +6442,6 @@ verse
 aes'
 a''
 refrain
-a'
-a''
-coda
 f'
 c'''
 
@@ -6465,9 +6450,6 @@ verse
 aes
 a'
 refrain
-a
-a'
-coda
 f
 c''
 
@@ -6665,31 +6647,31 @@ Django - Ly - Fm Bass for Standard.ly
 refrain
 f,
 g'
-bass-line
+bassLine
 des
-fes'
+e'
 
 Django - Ly - Fm Standard for Viola.ly
 refrain
 f
 g''
-bass-line
+bassLine
 des
-fes'
+e'
 
 Django - Ly - Fm Standard.ly
 refrain
 f
 g''
-bass-line
+bassLine
 des
-fes'
+e'
 
 Django - Ly - Fm to Dm for Eb for Standard.ly
 refrain
 d'
 e'''
-bass-line
+bassLine
 bes,
 des'
 
@@ -6697,7 +6679,7 @@ Django - Ly - Fm to Gm for Bb for Standard.ly
 refrain
 g
 a''
-bass-line
+bassLine
 ees
 ges'
 
@@ -6775,19 +6757,9 @@ Do Nothin' Till You Hear From Me - Ly - Bb Alto Voice.ly
 refrain
 ees
 f'
-solo
-none
-coda
-ees
-f'
 
 Do Nothin' Till You Hear From Me - Ly - C Alto Voice.ly
 refrain
-f
-g'
-solo
-none
-coda
 f
 g'
 
@@ -6795,19 +6767,9 @@ Do Nothin' Till You Hear From Me - Ly - C Bass for Alto Voice.ly
 refrain
 f,
 g
-solo
-none
-coda
-f,
-g
 
 Do Nothin' Till You Hear From Me - Ly - C to D for Bb High for Alto Voice.ly
 refrain
-g'
-a''
-solo
-none
-coda
 g'
 a''
 
@@ -6815,19 +6777,9 @@ Do Nothin' Till You Hear From Me - Ly - C to D for Bb Low for Alto Voice.ly
 refrain
 g
 a'
-solo
-none
-coda
-g
-a'
 
 Do Nothin' Till You Hear From Me - Ly - F Bass for Standard.ly
 refrain
-bes,
-c'
-solo
-none
-coda
 bes,
 c'
 
@@ -6835,19 +6787,9 @@ Do Nothin' Till You Hear From Me - Ly - F Standard for Viola.ly
 refrain
 bes
 c''
-solo
-none
-coda
-bes
-c''
 
 Do Nothin' Till You Hear From Me - Ly - F Standard.ly
 refrain
-bes
-c''
-solo
-none
-coda
 bes
 c''
 
@@ -6855,19 +6797,9 @@ Do Nothin' Till You Hear From Me - Ly - F to D for Eb for Standard.ly
 refrain
 g'
 a''
-solo
-none
-coda
-g'
-a''
 
 Do Nothin' Till You Hear From Me - Ly - F to G for Bb for Standard.ly
 refrain
-c'
-d''
-solo
-none
-coda
 c'
 d''
 
@@ -6875,19 +6807,9 @@ Do Nothin' Till You Hear From Me - Ly - G Bass for Standard.ly
 refrain
 c
 d'
-solo
-none
-coda
-c
-d'
 
 Do Nothin' Till You Hear From Me - Ly - G Standard for Viola.ly
 refrain
-c
-d'
-solo
-none
-coda
 c
 d'
 
@@ -6895,29 +6817,14 @@ Do Nothin' Till You Hear From Me - Ly - G Standard.ly
 refrain
 c'
 d''
-solo
-none
-coda
-c'
-d''
 
 Do Nothin' Till You Hear From Me - Ly - G to A for Bb for Standard.ly
 refrain
 d'
 e''
-solo
-none
-coda
-d'
-e''
 
 Do Nothin' Till You Hear From Me - Ly - G to E for Eb for Standard.ly
 refrain
-a'
-b''
-solo
-none
-coda
 a'
 b''
 
@@ -7115,101 +7022,51 @@ Don't Get Around Much Anymore - Ly - C Bass for Standard.ly
 refrain
 c
 e'
-solo
-none
-coda
-c
-c'
 
 Don't Get Around Much Anymore - Ly - C Standard for Viola.ly
 refrain
 c
 e'
-solo
-none
-coda
-c
-c'
 
 Don't Get Around Much Anymore - Ly - C Standard.ly
 refrain
 c'
 e''
-solo
-none
-coda
-c'
-c''
 
 Don't Get Around Much Anymore - Ly - C to A for Eb for Standard.ly
 refrain
 a'
 cis'''
-solo
-none
-coda
-a'
-a''
 
 Don't Get Around Much Anymore - Ly - C to D for Bb for Standard.ly
 refrain
 d'
 fis''
-solo
-none
-coda
-d'
-d''
 
 Don't Get Around Much Anymore - Ly - F Alto Voice.ly
 refrain
 f
 a'
-solo
-none
-coda
-f
-f'
 
 Don't Get Around Much Anymore - Ly - G Alto Voice.ly
 refrain
 g
 b'
-solo
-none
-coda
-g
-g'
 
 Don't Get Around Much Anymore - Ly - G Bass for Alto Voice.ly
 refrain
 g,
 b
-solo
-none
-coda
-g,
-g
 
 Don't Get Around Much Anymore - Ly - G to A for Bb High for Alto Voice.ly
 refrain
 a'
 cis'''
-solo
-none
-coda
-a'
-a''
 
 Don't Get Around Much Anymore - Ly - G to A for Bb Low for Alto Voice.ly
 refrain
 a
 cis''
-solo
-none
-coda
-a
-a'
 
 Don't Worry 'Bout Me - Ly - Ab Bass for Standard.ly
 refrain
@@ -7870,51 +7727,81 @@ Equinox - Ly - Cm Bass for Standard.ly
 refrain
 g,
 f'
+bassLine
+g,
+aes
 
 Equinox - Ly - Cm Standard for Viola.ly
 refrain
 g
 f''
+bassLine
+g,
+aes
 
 Equinox - Ly - Cm Standard.ly
 refrain
 g
 f''
+bassLine
+g,
+aes
 
 Equinox - Ly - Cm to Am for Eb for Standard.ly
 refrain
 e
 d''
+bassLine
+e
+f'
 
 Equinox - Ly - Cm to Dm for Bb for Standard.ly
 refrain
 a
 g''
+bassLine
+a,
+bes
 
 Equinox - Ly - Csm Bass for Standard.ly
 refrain
 gis,
 fis'
+bassLine
+gis,
+a
 
 Equinox - Ly - Csm Standard for Viola.ly
 refrain
 gis
 fis''
+bassLine
+gis,
+a
 
 Equinox - Ly - Csm Standard.ly
 refrain
 gis
 fis''
+bassLine
+gis,
+a
 
 Equinox - Ly - Csm to Bbm for Eb for Standard.ly
 refrain
 f
 ees''
+bassLine
+f
+ges'
 
 Equinox - Ly - Csm to Dsm for Bb for Standard.ly
 refrain
 ais
 gis''
+bassLine
+ais,
+b
 
 ESP - Ly - C Bass for Standard.ly
 refrain
@@ -8728,51 +8615,33 @@ a''
 
 Friend of the Devil - Ly - D Alto Voice.ly
 refrain
-a
+e
 b'
-coda
-e'
-e'
 
 Friend of the Devil - Ly - G Bass for Standard.ly
 refrain
-d
+a,
 e'
-coda
-a
-a
 
 Friend of the Devil - Ly - G Standard for Viola.ly
 refrain
-d
+a,
 e'
-coda
-a
-a
 
 Friend of the Devil - Ly - G Standard.ly
 refrain
-d'
+a
 e''
-coda
-a'
-a'
 
 Friend of the Devil - Ly - G to A for Bb for Standard.ly
 refrain
-e'
+b
 fis''
-coda
-b'
-b'
 
 Friend of the Devil - Ly - G to E for Eb for Standard.ly
 refrain
-b
+fis
 cis''
-coda
-fis'
-fis'
 
 Gaby Glide - Ly - F Bass Line for Standard.ly
 refrain
@@ -11691,9 +11560,6 @@ g'
 refrain
 f
 bes'
-coda
-aes
-e'
 
 I Thought About You - Ly - Bb Alto Voice.ly
 verse
@@ -11702,9 +11568,6 @@ a'
 refrain
 g
 c''
-coda
-bes
-ges'
 
 I Thought About You - Ly - Bb Bass for Alto Voice.ly
 verse
@@ -11713,9 +11576,6 @@ a
 refrain
 g,
 c'
-coda
-bes,
-ges
 
 I Thought About You - Ly - Bb to C for Bb High for Alto Voice.ly
 verse
@@ -11724,9 +11584,6 @@ b''
 refrain
 a'
 d'''
-coda
-c''
-aes''
 
 I Thought About You - Ly - Bb to C for Bb Low for Alto Voice.ly
 verse
@@ -11735,9 +11592,6 @@ b'
 refrain
 a
 d''
-coda
-c'
-aes'
 
 I Thought About You - Ly - F Alto Voice.ly
 verse
@@ -11746,9 +11600,6 @@ e'
 refrain
 d
 g'
-coda
-f
-des'
 
 I Thought About You - Ly - F Bass for Standard.ly
 verse
@@ -11757,9 +11608,6 @@ e'
 refrain
 d
 g'
-coda
-f
-des'
 
 I Thought About You - Ly - F Standard for Viola.ly
 verse
@@ -11768,9 +11616,6 @@ e'
 refrain
 d
 g'
-coda
-f
-des'
 
 I Thought About You - Ly - F Standard.ly
 verse
@@ -11779,9 +11624,6 @@ e''
 refrain
 d'
 g''
-coda
-f'
-des''
 
 I Thought About You - Ly - F to D for Eb for Standard.ly
 verse
@@ -11790,9 +11632,6 @@ cis''
 refrain
 b
 e''
-coda
-d'
-bes'
 
 I Thought About You - Ly - F to G for Bb for Standard.ly
 verse
@@ -11801,9 +11640,6 @@ fis''
 refrain
 e'
 a''
-coda
-g'
-ees''
 
 I Thought About You - Ly - G Alto Voice.ly
 verse
@@ -11812,9 +11648,6 @@ fis'
 refrain
 e
 a'
-coda
-g
-ees'
 
 I Want to Be Happy - Ly - Ab Alto Voice.ly
 refrain
@@ -13839,99 +13672,72 @@ c'
 d''
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Am Alto Voice.ly
-intro
-e
-a
 verse
-a
+e
 e'
 refrain
 g
 e'
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Am Baritone Voice.ly
-intro
-e
-a
 verse
-a
+e
 e'
 refrain
 g
 e'
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Am Bass for Alto Voice.ly
-intro
-e,
-a,
 verse
-a,
+e,
 e
 refrain
 g,
 e
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Am to Bm for Bb for Alto Voice.ly
-intro
-fis
-b
 verse
-b
+fis
 fis'
 refrain
 a
 fis'
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm Bass for Standard.ly
-intro
-c,
-f,
 verse
-f,
+c,
 c
 refrain
 ees,
 c
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm Standard for Viola.ly
-intro
-c
-f
 verse
-f
+c
 c'
 refrain
 ees
 c'
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm Standard.ly
-intro
-c'
-f'
 verse
-f'
+c'
 c''
 refrain
 ees'
 c''
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm to Dm for Eb for Standard.ly
-intro
-a
-d'
 verse
-d'
+a
 a'
 refrain
 c'
 a'
 
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm to Gm for Bb for Standard.ly
-intro
-d'
-g'
 verse
-g'
+d'
 d''
 refrain
 f'
@@ -15278,56 +15084,104 @@ b
 cis''
 
 Killer Joe - Ly - C Bass for Standard.ly
+intro
+f,
+c
 refrain
 g,
 g
+outro
+f,
+c
 
 Killer Joe - Ly - C Standard for Viola.ly
+intro
+f,
+c
 refrain
 g
 g'
+outro
+f,
+c
 
 Killer Joe - Ly - C Standard.ly
+intro
+f,
+c
 refrain
 g'
 g''
+outro
+f,
+c
 
 Killer Joe - Ly - C to A for Eb for Standard.ly
+intro
+d
+a
 refrain
 e'
 e''
+outro
+d
+a
 
 Killer Joe - Ly - C to D for Bb for Standard.ly
+intro
+g,
+d
 refrain
 a'
 a''
+outro
+g,
+d
 
 King of the Road - Ly - Bb Bass for Standard.ly
+intro
+f,
+bes
 refrain
 a,
 fis'
 
 King of the Road - Ly - Bb Standard for Viola.ly
+intro
+f,
+bes
 refrain
 a
 fis''
 
 King of the Road - Ly - Bb Standard.ly
+intro
+f,
+bes
 refrain
 a
 fis''
 
 King of the Road - Ly - Bb to C for Bb for Standard.ly
+intro
+g,
+c'
 refrain
 b
 gis''
 
 King of the Road - Ly - Bb to G for Eb for Standard.ly
+intro
+d
+g'
 refrain
 fis'
 dis'''
 
 King of the Road - Ly - D Alto Voice.ly
+intro
+a,,
+d
 refrain
 cis
 ais'
@@ -15339,8 +15193,6 @@ cis''
 refrain
 d'
 cis''
-solo
-none
 
 Knee Deep in the Blues - Ly - Bb Baritone Voice.ly
 intro
@@ -15349,8 +15201,6 @@ d''
 refrain
 ees'
 d''
-solo
-none
 
 Knee Deep in the Blues - Ly - C Bass for Standard.ly
 intro
@@ -15359,8 +15209,6 @@ e'
 refrain
 f
 e'
-solo
-none
 
 Knee Deep in the Blues - Ly - C Standard for Viola.ly
 intro
@@ -15369,8 +15217,6 @@ e'
 refrain
 f
 e'
-solo
-none
 
 Knee Deep in the Blues - Ly - C Standard.ly
 intro
@@ -15379,8 +15225,6 @@ e''
 refrain
 f'
 e''
-solo
-none
 
 Knee Deep in the Blues - Ly - C to A for Eb for Standard.ly
 intro
@@ -15389,8 +15233,6 @@ cis''
 refrain
 d'
 cis''
-solo
-none
 
 Knee Deep in the Blues - Ly - C to D for Bb for Standard.ly
 intro
@@ -15399,8 +15241,6 @@ fis''
 refrain
 g'
 fis''
-solo
-none
 
 Knee Deep in the Blues - Ly - D Baritone Voice.ly
 intro
@@ -15409,8 +15249,6 @@ fis''
 refrain
 g'
 fis''
-solo
-none
 
 Lady Be Good - Ly - Bb Alto Voice.ly
 refrain
@@ -16224,26 +16062,41 @@ c'
 e''
 
 Little Sunflower - Ly - Dm Bass for Standard.ly
+intro
+d
+d'
 refrain
 bes,
 e'
 
 Little Sunflower - Ly - Dm Standard for Viola.ly
+intro
+d
+d'
 refrain
 bes
 e''
 
 Little Sunflower - Ly - Dm Standard.ly
+intro
+d
+d'
 refrain
 bes
 e''
 
 Little Sunflower - Ly - Dm to Bm for Eb for Standard.ly
+intro
+b
+b'
 refrain
 g'
 cis'''
 
 Little Sunflower - Ly - Dm to Em for Bb for Standard.ly
+intro
+e
+e'
 refrain
 c'
 fis''
@@ -17875,42 +17728,72 @@ c'
 ees''
 
 Money - Ly - Bm Bass for Standard.ly
+intro
+fis,
+b
 refrain
 e,
 fis
-coda
+bassLine
+e,
+e'
+outro
 e,
 e
 
 Money - Ly - Bm Standard for Viola.ly
+intro
+fis,
+b
 refrain
 e
 fis'
-coda
+bassLine
+e,
+e'
+outro
 e
 e'
 
 Money - Ly - Bm Standard.ly
+intro
+fis,
+b
 refrain
 e'
 fis''
-coda
+bassLine
+e,
+e'
+outro
 e'
 e''
 
 Money - Ly - Bm to Csm for Bb for Standard.ly
+intro
+gis,
+cis'
 refrain
 fis'
 gis''
-coda
+bassLine
+fis,
+fis'
+outro
 fis'
 fis''
 
 Money - Ly - Bm to Gsm for Eb for Standard.ly
+intro
+dis,
+gis
 refrain
 cis'
 dis''
-coda
+bassLine
+cis,
+cis'
+outro
 cis'
 cis''
 
@@ -18800,27 +18683,27 @@ d
 g'
 
 Naima - Ly - Ab Bass for Standard.ly
-refrain-with-bass-chord-middle
+refrain
 ees
 ees'
 
 Naima - Ly - Ab Standard for Viola.ly
-refrain-with-bass-chord-middle
+refrain
 ees
 ees'
 
 Naima - Ly - Ab Standard.ly
-refrain-with-bass-chord-middle
+refrain
 ees'
 ees''
 
 Naima - Ly - Ab to Bb for Bb for Standard.ly
-refrain-with-bass-chord-middle
+refrain
 f'
 f''
 
 Naima - Ly - Ab to F for Eb for Standard.ly
-refrain-with-bass-chord-middle
+refrain
 c'
 c''
 
@@ -20043,41 +19926,26 @@ fis'
 One for Daddy-O - Ly - Bbm Bass for Standard.ly
 refrain
 bes,
-bes
-coda
-f
 c'
 
 One for Daddy-O - Ly - Bbm Standard for Viola.ly
 refrain
 bes
-bes'
-coda
-f'
 c''
 
 One for Daddy-O - Ly - Bbm Standard.ly
 refrain
 bes
-bes'
-coda
-f'
 c''
 
 One for Daddy-O - Ly - Bbm to Cm for Bb for Standard.ly
 refrain
 c'
-c''
-coda
-g'
 d''
 
 One for Daddy-O - Ly - Bbm to Gm for Eb for Standard.ly
 refrain
 g'
-g''
-coda
-d''
 a''
 
 One Note Samba - Ly - Bb Bass for Standard.ly
@@ -20394,41 +20262,26 @@ Pent Up House - Ly - G Bass for Standard.ly
 refrain
 d
 g'
-coda
-a
-a
 
 Pent Up House - Ly - G Standard for Viola.ly
 refrain
 d
 g'
-coda
-a
-a
 
 Pent Up House - Ly - G Standard.ly
 refrain
 d'
 g''
-coda
-a'
-a'
 
 Pent Up House - Ly - G to A for Bb for Standard.ly
 refrain
 e'
 a''
-coda
-b'
-b'
 
 Pent Up House - Ly - G to E for Eb for Standard.ly
 refrain
 b
 e''
-coda
-fis'
-fis'
 
 Perdido - Ly - Bb Bass for Standard.ly
 refrain
@@ -20866,74 +20719,114 @@ a'
 c'''
 
 Red Clay - Ly - Cm Bass for Standard.ly
-bridge
-none
+intro
+bes,
+g'
 refrain
 c
 f'
+outro
+bes,
+g'
 
 Red Clay - Ly - Cm Standard for Viola.ly
-bridge
-none
+intro
+bes,
+g'
 refrain
 c
 f'
+outro
+bes,
+g'
 
 Red Clay - Ly - Cm Standard.ly
-bridge
-none
+intro
+bes,
+g'
 refrain
 c'
 f''
+outro
+bes,
+g'
 
 Red Clay - Ly - Cm to Am for Eb for Standard.ly
-bridge
-none
+intro
+g,
+e'
 refrain
 a'
 d'''
+outro
+g,
+e'
 
 Red Clay - Ly - Cm to Dm for Bb for Standard.ly
-bridge
-none
+intro
+c
+a'
 refrain
 d'
 g''
+outro
+c
+a'
 
 Red Clay - Ly - Csm Bass for Standard.ly
-bridge
-none
+intro
+b,
+gis'
 refrain
 cis
 fis'
+outro
+b,
+gis'
 
 Red Clay - Ly - Csm Standard for Viola.ly
-bridge
-none
+intro
+b,
+gis'
 refrain
 cis
 fis'
+outro
+b,
+gis'
 
 Red Clay - Ly - Csm Standard.ly
-bridge
-none
+intro
+b,
+gis'
 refrain
 cis'
 fis''
+outro
+b,
+gis'
 
 Red Clay - Ly - Csm to Bbm for Eb for Standard.ly
-bridge
-none
+intro
+aes,
+f'
 refrain
 bes
 ees''
+outro
+aes,
+f'
 
 Red Clay - Ly - Csm to Ebm for Bb for Standard.ly
-bridge
-none
+intro
+des
+bes'
 refrain
 ees'
 aes''
+outro
+des
+bes'
 
 Remember - Ly - Ab Bass for Standard.ly
 refrain
@@ -22050,26 +21943,41 @@ ees
 g'
 
 Seven Steps to Heaven - Ly - F Bass for Standard.ly
+intro
+ees
+c'
 refrain
 b,
 des'
 
 Seven Steps to Heaven - Ly - F Standard for Viola.ly
+intro
+ees
+c'
 refrain
 b
 des''
 
 Seven Steps to Heaven - Ly - F Standard.ly
+intro
+ees
+c'
 refrain
 b
 des''
 
 Seven Steps to Heaven - Ly - F to D for Eb for Standard.ly
+intro
+c
+a
 refrain
 gis'
 bes''
 
 Seven Steps to Heaven - Ly - F to G for Bb for Standard.ly
+intro
+f
+d'
 refrain
 cis'
 ees''
@@ -22146,7 +22054,7 @@ f'
 refrain
 des
 bes'
-coda
+outro
 ees
 ees'
 
@@ -22157,7 +22065,7 @@ f'
 refrain
 des
 bes'
-coda
+outro
 ees
 ees'
 
@@ -22168,7 +22076,7 @@ f''
 refrain
 des'
 bes''
-coda
+outro
 ees'
 ees''
 
@@ -22179,7 +22087,7 @@ d''
 refrain
 bes
 g''
-coda
+outro
 c'
 c''
 
@@ -22190,7 +22098,7 @@ g''
 refrain
 ees'
 c'''
-coda
+outro
 f'
 f''
 
@@ -22201,7 +22109,7 @@ g'
 refrain
 ees
 c''
-coda
+outro
 f
 f'
 
@@ -23752,9 +23660,6 @@ g
 b'
 
 Stars Fell on Alabama - Ly - C Bass for Standard.ly
-intro
-d
-d'
 verse
 d
 d'
@@ -23763,9 +23668,6 @@ c
 e'
 
 Stars Fell on Alabama - Ly - C Standard for Viola.ly
-intro
-d
-d'
 verse
 d
 d'
@@ -23774,9 +23676,6 @@ c
 e'
 
 Stars Fell on Alabama - Ly - C Standard.ly
-intro
-d'
-d''
 verse
 d'
 d''
@@ -23785,9 +23684,6 @@ c'
 e''
 
 Stars Fell on Alabama - Ly - C to A for Eb for Standard.ly
-intro
-b'
-b''
 verse
 b'
 b''
@@ -23796,9 +23692,6 @@ a'
 cis'''
 
 Stars Fell on Alabama - Ly - C to D for Bb for Standard.ly
-intro
-e'
-e''
 verse
 e'
 e''
@@ -23807,9 +23700,6 @@ d'
 fis''
 
 Stars Fell on Alabama - Ly - Eb Alto Voice.ly
-intro
-f
-f'
 verse
 f
 f'
@@ -23818,9 +23708,6 @@ ees
 g'
 
 Stars Fell on Alabama - Ly - F Alto Voice.ly
-intro
-g
-g'
 verse
 g
 g'
@@ -23829,9 +23716,6 @@ f
 a'
 
 Stars Fell on Alabama - Ly - G Alto Voice.ly
-intro
-a
-a'
 verse
 a
 a'
@@ -23840,9 +23724,6 @@ g
 b'
 
 Stars Fell on Alabama - Ly - G Bass for Alto Voice.ly
-intro
-a,
-a
 verse
 a,
 a
@@ -23851,9 +23732,6 @@ g,
 b
 
 Stars Fell on Alabama - Ly - G to A for Bb High for Alto Voice.ly
-intro
-b'
-b''
 verse
 b'
 b''
@@ -23862,9 +23740,6 @@ a'
 cis'''
 
 Stars Fell on Alabama - Ly - G to A for Bb Low for Alto Voice.ly
-intro
-b
-b'
 verse
 b
 b'
@@ -25173,15 +25048,9 @@ That's All - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 d'
-coda
-bes,
-d'
 
 That's All - Ly - Bb Standard for Viola.ly
 refrain
-bes
-d''
-coda
 bes
 d''
 
@@ -25189,15 +25058,9 @@ That's All - Ly - Bb Standard.ly
 refrain
 bes
 d''
-coda
-bes
-d''
 
 That's All - Ly - Bb to C for Bb for Standard.ly
 refrain
-c'
-e''
-coda
 c'
 e''
 
@@ -25205,15 +25068,9 @@ That's All - Ly - Bb to G for Eb for Standard.ly
 refrain
 g'
 b''
-coda
-g'
-b''
 
 That's All - Ly - G Alto Voice.ly
 refrain
-g
-b'
-coda
 g
 b'
 
@@ -25221,23 +25078,14 @@ That's All - Ly - G Bass for Alto Voice.ly
 refrain
 g,
 b
-coda
-g,
-b
 
 That's All - Ly - G to A for Bb High for Alto Voice.ly
 refrain
 a'
 cis'''
-coda
-a'
-cis'''
 
 That's All - Ly - G to A for Bb Low for Alto Voice.ly
 refrain
-a
-cis''
-coda
 a
 cis''
 
@@ -26579,9 +26427,6 @@ d''
 refrain
 g
 bes'
-coda
-bes
-f'
 
 The Way You Look Tonight - Ly - Bb Bass for Alto Voice.ly
 intro
@@ -26590,9 +26435,6 @@ d'
 refrain
 g,
 bes
-coda
-bes,
-f
 
 The Way You Look Tonight - Ly - Bb to C for Bb for Alto Voice.ly
 intro
@@ -26601,9 +26443,6 @@ e''
 refrain
 a
 c''
-coda
-c'
-g'
 
 The Way You Look Tonight - Ly - Eb Baritone Voice.ly
 intro
@@ -26612,9 +26451,6 @@ g''
 refrain
 c'
 ees''
-coda
-ees'
-bes'
 
 The Way You Look Tonight - Ly - Eb to F for Bb for Baritone Voice.ly
 intro
@@ -26623,9 +26459,6 @@ a''
 refrain
 d'
 f''
-coda
-f'
-c''
 
 The Way You Look Tonight - Ly - F Bass for Standard.ly
 intro
@@ -26634,9 +26467,6 @@ a'
 refrain
 d
 f'
-coda
-f
-c'
 
 The Way You Look Tonight - Ly - F Standard for Viola.ly
 intro
@@ -26645,9 +26475,6 @@ a'
 refrain
 d
 f'
-coda
-f
-c'
 
 The Way You Look Tonight - Ly - F Standard.ly
 intro
@@ -26656,9 +26483,6 @@ a''
 refrain
 d'
 f''
-coda
-f'
-c''
 
 The Way You Look Tonight - Ly - F to D for Eb for Standard.ly
 intro
@@ -26667,9 +26491,6 @@ fis''
 refrain
 b
 d''
-coda
-d'
-a'
 
 The Way You Look Tonight - Ly - F to G for Bb for Standard.ly
 intro
@@ -26678,9 +26499,6 @@ b''
 refrain
 e'
 g''
-coda
-g'
-d''
 
 The Weight Chorus - Ly - A Standard for Viola.ly
 refrain
@@ -27572,15 +27390,9 @@ Tis Autumn - Ly - Eb Bass for Standard.ly
 refrain
 c
 f'
-coda
-c
-f'
 
 Tis Autumn - Ly - Eb Standard for Viola.ly
 refrain
-c
-f'
-coda
 c
 f'
 
@@ -27588,15 +27400,9 @@ Tis Autumn - Ly - Eb Standard.ly
 refrain
 c'
 f''
-coda
-c'
-f''
 
 Tis Autumn - Ly - Eb to C for Eb for Standard.ly
 refrain
-a'
-d'''
-coda
 a'
 d'''
 
@@ -27604,15 +27410,9 @@ Tis Autumn - Ly - Eb to F for Bb for Standard.ly
 refrain
 d'
 g''
-coda
-d'
-g''
 
 Tis Autumn - Ly - G Alto Voice.ly
 refrain
-e
-a'
-coda
 e
 a'
 
@@ -27620,15 +27420,9 @@ Tis Autumn - Ly - G Bass for Alto Voice.ly
 refrain
 e,
 a
-coda
-e,
-a
 
 Tis Autumn - Ly - G to A for Bb for Alto Voice.ly
 refrain
-fis'
-b''
-coda
 fis'
 b''
 
@@ -27858,26 +27652,41 @@ gis
 c''
 
 Troublant Bolero - Ly - E Bass for Standard.ly
+intro
+e,
+e
 refrain
 b,
 e'
 
 Troublant Bolero - Ly - E Standard for Viola.ly
+intro
+e,
+e
 refrain
 b,
 e'
 
 Troublant Bolero - Ly - E Standard.ly
+intro
+e,
+e
 refrain
 b
 e''
 
 Troublant Bolero - Ly - E to Db for Eb for Standard.ly
+intro
+des,
+des
 refrain
 aes
 des''
 
 Troublant Bolero - Ly - E to Fs for Bb for Standard.ly
+intro
+fis
+fis'
 refrain
 cis'
 fis''
@@ -28203,69 +28012,33 @@ b
 aes''
 
 Vivo Sonhando - Ly - G Alto Voice.ly
-intro
-a
-a'
 refrain
 gis
-a'
-outro
-a
 a'
 
 Vivo Sonhando - Ly - G Bass for Standard.ly
-intro
-a,
-a
 refrain
 gis,
 a
-outro
-a,
-a
 
 Vivo Sonhando - Ly - G Standard for Viola.ly
-intro
-a
-a'
 refrain
 gis
-a'
-outro
-a
 a'
 
 Vivo Sonhando - Ly - G Standard.ly
-intro
-a
-a'
 refrain
 gis
 a'
-outro
-a
-a'
 
 Vivo Sonhando - Ly - G to A for Bb for Standard.ly
-intro
-b
-b'
 refrain
 ais
 b'
-outro
-b
-b'
 
 Vivo Sonhando - Ly - G to E for Eb for Standard.ly
-intro
-fis'
-fis''
 refrain
 f'
-fis''
-outro
-fis'
 fis''
 
 Wait Till You See Her (Him) - Ly - Bb Alto Voice.ly
@@ -28384,42 +28157,42 @@ fis
 a'
 
 Waltz for Debby - Ly - Bb Alto Voice.ly
-refrain-three-coda
+refrain
 a
 bes'
 
 Waltz for Debby - Ly - Bb Bass for Alto Voice.ly
-refrain-three-coda
+refrain
 a,
 bes
 
 Waltz for Debby - Ly - Bb to C for Bb for Alto Voice.ly
-refrain-three-coda
+refrain
 b
 c''
 
 Waltz for Debby - Ly - Eb Bass for Standard.ly
-refrain-three-coda
+refrain
 d
 ees'
 
 Waltz for Debby - Ly - Eb Standard for Viola.ly
-refrain-three-coda
+refrain
 d
 ees'
 
 Waltz for Debby - Ly - Eb Standard.ly
-refrain-three-coda
+refrain
 d'
 ees''
 
 Waltz for Debby - Ly - Eb to C for Eb for Standard.ly
-refrain-three-coda
+refrain
 b
 c''
 
 Waltz for Debby - Ly - Eb to F for Bb for Standard.ly
-refrain-three-coda
+refrain
 e'
 f''
 
@@ -29449,41 +29222,65 @@ dis'
 e''
 
 Wichita Lineman - Ly - Bb Baritone Voice.ly
+intro
+bes,
+ees'
 refrain
 f
 g'
 
 Wichita Lineman - Ly - C Alto Voice.ly
+intro
+c
+f'
 refrain
 g
 a'
 
 Wichita Lineman - Ly - C Baritone Voice.ly
+intro
+c
+f'
 refrain
 g
 a'
 
 Wichita Lineman - Ly - F Bass for Standard.ly
+intro
+f,
+bes
 refrain
 c
 d'
 
 Wichita Lineman - Ly - F Standard for Viola.ly
+intro
+f,
+bes
 refrain
 c
 d'
 
 Wichita Lineman - Ly - F Standard.ly
+intro
+f,
+bes
 refrain
 c'
 d''
 
 Wichita Lineman - Ly - F to D for Eb for Standard.ly
+intro
+d,
+g
 refrain
 a'
 b''
 
 Wichita Lineman - Ly - F to G for Bb for Standard.ly
+intro
+g,
+c'
 refrain
 d'
 e''
@@ -29604,17 +29401,17 @@ d'
 e''
 
 With a Gun - Ly - Am Standard for Viola.ly
-refrain-three-coda
+refrain
 g
 g' >[6
 
 With a Gun - Ly - Am Standard.ly
-refrain-three-coda
+refrain
 g'
 g'' >[6
 
 With a Gun - Ly - Em Baritone Voice.ly
-refrain-three-coda
+refrain
 d'
 d'' >[6
 
@@ -29731,49 +29528,31 @@ a'
 Yardbird Suite - Ly - C Bass for Standard.ly
 refrain
 g,
-c'
-coda
-a,
 d'
 
 Yardbird Suite - Ly - C Standard for Viola.ly
 refrain
 g
-c''
-coda
-a
 d''
 
 Yardbird Suite - Ly - C Standard.ly
 refrain
 g
-c''
-coda
-a
 d''
 
 Yardbird Suite - Ly - C to A for Eb for Standard.ly
 refrain
 e'
-a''
-coda
-fis'
 b''
 
 Yardbird Suite - Ly - C to D for Bb for Standard.ly
 refrain
 a
-d''
-coda
-b
 e''
 
 Yardbird Suite - Ly - G Alto Voice.ly
 refrain
 d
-g'
-coda
-e
 a'
 
 Yes Sir That's My Baby - Ly - Ab Alto Voice.ly

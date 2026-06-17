@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Sonny Rollins"
 headerCopyright = "© 1963 Prestige Music"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s8
@@ -50,8 +50,6 @@ refrainMelody = \relative f' {
   }
 }
 
-\include "../Include/paper.ily"
+afterText = \markup{ "Play head twice at the beginning, once after solos." }
 
-\include "../Include/refrain.ily"
-
-\markup{ "Play head twice at the beginning, once after solos." }
+\include "../Include/refrainonly.ily"

@@ -131,16 +131,21 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\markup { "Play " { \bold \box "Intro" } " then "
-	  { \bold \box "A1" } { \bold \box "A2" } { \bold \box "B" } { \bold \box "A3" }
-	  " and "
-	  { \bold \box "Verse" } " then a four-bar drum break, then repeat "
-	  { \bold \box "A1" } { \bold \box "A2" } { \bold \box "B" } { \bold \box "A3" }
+afterText =
+\markup {
+  \column {
+    \line { "Play " { \bold \box "Intro" } " then "
+	    { \bold \box "A1" } { \bold \box "A2" } { \bold \box "B" } { \bold \box "A3" }
+	    " and "
+	    { \bold \box "Verse" } " then a four-bar drum break," 
 	  }
-\markup { "with scatting and guitar soloing, then "
-	  { \bold \box "B" } { \bold \box "A3" } " again, then go to Coda. "
-	}
+    \line { "then repeat "
+	    { \bold \box "A1" } { \bold \box "A2" } { \bold \box "B" } { \bold \box "A3" }
+	    "with scatting and guitar soloing, then "
+	    { \bold \box "B" } { \bold \box "A3" } " again,"
+	  }
+    \line { "then go to Coda. " }
+  }
+}
+
+\include "../Include/refrainonly.ily"

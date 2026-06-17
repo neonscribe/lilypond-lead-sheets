@@ -10,7 +10,7 @@ headerPoet = "Ned Washington"
 headerComposer = "Hoagy Carmichael"
 headerCopyright = "© 1937 Famous Music Corp."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 It's not the
@@ -106,6 +106,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

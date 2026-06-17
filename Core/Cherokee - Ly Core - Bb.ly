@@ -84,9 +84,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"
 
 cliffordBrownCoda = \relative f' {
   r8 cs8 d8 f8 c8 bf8 g8 f8 | bf4-. bf8 af8 r8 af8 f4-. |

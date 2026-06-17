@@ -12,7 +12,7 @@ headerPoet = "Phil Silvers"
 headerComposer = "James Van Heusen"
 headerCopyright = "© 1944 Sands Music Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 If I don't see her each day __ I miss her. Gee! What a thrill __ each time I kiss her.
@@ -83,6 +83,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

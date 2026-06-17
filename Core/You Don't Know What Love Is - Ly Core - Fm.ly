@@ -12,7 +12,7 @@ headerPoet = "Don Raye"
 headerComposer = "Gene de Paul"
 headerCopyright = "© 1941 Universal Music Corp."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
   You don't know __ what love is, __
@@ -93,6 +93,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

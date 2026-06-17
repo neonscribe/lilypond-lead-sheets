@@ -27,6 +27,8 @@ The first one's named sweet Anne Ma -- rie __ and she's __ my heart's de -- ligh
 Se -- cond one __ is pri -- son ba -- by, __ sher -- iff's on __ my trail
 and if he catch -- es up with me __ I'll spend my life in jail.
 
+-night.
+
 }
 
 refrainChords = \chordmode {
@@ -40,12 +42,15 @@ refrainChords = \chordmode {
   d1 d1 d1 d1
 
   d1 d1 d1 d1
+  
 
   d1 d1 d1 d1
   c1 c1 c1 c2 cs2
   d1 d1 d1 d1
   a1:m a1:m c1
   c1 c1 c1 c1
+
+  d2 r2
 }
 
 refrainKey = g
@@ -87,6 +92,7 @@ refrainMelody = \relative f' {
   } \volta 3,5 {
   a'2.( d,4~ | d1) | r1 | r1 |
 
+
   \sectPageBreak "Bridge"
 
   d'4 d4 d4 b4 | c4 c4 c8( b8) a8 d8~ | d4 d4 e4 e8 d8~ | d4 r4 r4 r8 g,8 |
@@ -98,39 +104,13 @@ refrainMelody = \relative f' {
   c'4 c8 c8~ c8 c4. | b4 b8 a8~ a8 g4. | g4. a8 g4 e4 |
   \break
   d2 r2 | r1 | r1 | r1 |
-  } } }
-}
-
-codaLyrics = \lyricmode {
--night.
-}
-
-codaChords = \chordmode {
-  d2 r2
-}
-
-codaKey = g
-
-codaMelody = \relative f' {
-  \time 2/2
-  \key \codaKey \major
-  \clef \whatClef
-
-  \textCodaBreak
-
+  } \volta 6 {
   a2\fermata r2 |
-
+  } } }
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-codaRaggedRight = ##t
-
-\include "../Include/coda.ily"
-
+afterText =
 \markup {
   \column {
     \vspace #3
@@ -157,3 +137,5 @@ codaRaggedRight = ##t
     \line { \large { Instrumental solo } }
   }
 }
+
+\include "../Include/refrainonly.ily"

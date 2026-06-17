@@ -11,7 +11,7 @@ headerComposer = "Horace Silver"
 headerCopyright = "© 1964 Ecaroh Music, Inc."
 
 bossaRhythm = ##t
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 If there was ev -- er a man __
@@ -86,6 +86,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

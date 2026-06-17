@@ -11,7 +11,7 @@ headerComposer = "Jaime Silva, Neuza Teixera"
 headerCopyright = "© 1960 Fermata International Melodies, Inc."
 
 bossaRhythm = ##t
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyricsPortuguese = \lyricmode {
 O pa -- to, vi -- nha can -- tan -- do_a -- le -- gre -- men -- te,
@@ -102,6 +102,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

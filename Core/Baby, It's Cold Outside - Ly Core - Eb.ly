@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Frank Loesser"
 headerCopyright = "© 1948 Frank Music Corp."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I real -- ly can't stay, __ I've got to go 'way, __
@@ -129,6 +129,8 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { r4 bf'4 a4 } \tuplet 3/2 { af4 g4 df4 } | f1\fermata |
 
   \bar "|."
+
+  \xPageBreak
 }
 
 refrainMelodyTwo = \relative f' {
@@ -158,12 +160,7 @@ refrainMelodyTwo = \relative f' {
   r8 cf8 ef8 g8 ef4-. ef8 g8 | ef4-. ef4-. ef8 g8 ef4-. | r8 c8 ef8 g8 ef4-. ef8 g8 |
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   {
@@ -244,3 +241,5 @@ refrainMelodyTwo = \relative f' {
     \line { \large { Baby, it's cold outside } }
   }
 }
+
+\include "../Include/refrainonly.ily"

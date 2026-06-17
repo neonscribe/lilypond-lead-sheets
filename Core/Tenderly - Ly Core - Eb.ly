@@ -10,7 +10,7 @@ headerPoet = "Jack Lawrence"
 headerComposer = "Walter Gross"
 headerCopyright = "© 1946 Edwin H. Morris & Co."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 The eve -- ning breeze __ ca -- ressed the trees ten -- der -- ly,__
@@ -101,6 +101,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

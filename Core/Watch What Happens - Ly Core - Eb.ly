@@ -126,16 +126,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-performanceNotes =
-\markup {
-  \column {
-    \line { \huge { Bass & drum vamp on I, guitar joins, accordion joins, vocal full chorus } }
-    \line { \huge { Accordion solo full chorus, guitar solo full chorus. } }
-    \line { \huge { Vocal out chorus, repeat “Someone who cares like me” 3x, } }
-    \line { \huge { band only second time, vocal and ritard third time } }
-  }
-}
+\include "../Include/refrainonly.ily"

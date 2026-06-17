@@ -27,13 +27,6 @@ refrainChords = \chordmode {
   \chordInsideParens{ cs1*2:m }
 }
 
-solosChords = \chordmode {
-  cs1:m13 cs1:m13 cs1:m13 cs1:m13
-  fs1:m11 fs1:m11 cs1:m13 cs8*7:m13 a8:sus13
-  a8*7:sus13 gs8*9:13.9- cs1:m13 cs1:m13
-
-}
-
 refrainKey = cs
 
 whatKey = #(or whatKey refrainKey)
@@ -80,11 +73,18 @@ refrainMelody = \relative f' {
   \bar ":|."
 }
 
-solosKey = cs
+bassLineChords = \chordmode {
+  cs1:m13 cs1:m13 cs1:m13 cs1:m13
+  fs1:m11 fs1:m11 cs1:m13 cs8*7:m13 a8:sus13
+  a8*7:sus13 gs8*9:13.9- cs1:m13 cs1:m13
 
-bassSolos = \relative f' {
+}
+
+bassLineKey = cs
+
+bassLineMelody = \relative f' {
   \time 4/4
-  \key \solosKey \minor
+  \key \bassLineKey \minor
   \clef bass
 
   \xTextMark \markup{ \bold \box "Solos" }
@@ -97,10 +97,6 @@ bassSolos = \relative f' {
   }
 }
 
-\include "../Include/paper.ily"
+afterText = \markup "Play head twice before and twice after solos, tag last four bars for ending."
 
-\include "../Include/refrain.ily"
-
-\include "../Include/bass-solos.ily"
-
-\markup "Play head twice before and twice after solos, tag last four bars for ending."
+\include "../Include/refrainbassline.ily"

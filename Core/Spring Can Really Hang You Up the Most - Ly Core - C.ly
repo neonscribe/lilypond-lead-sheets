@@ -168,9 +168,8 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup{ "Solo on form " \box \bold "A1" \box \bold "A2" \box \bold "B" \box \bold "C"
 	 ". D.S. al Coda after solos." }
+
+\include "../Include/refrainonly.ily"

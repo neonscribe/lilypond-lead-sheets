@@ -146,10 +146,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \column
   \bold
@@ -212,3 +209,4 @@ refrainMelody = \relative f' {
  }
 }
 
+\include "../Include/refrainonly.ily"

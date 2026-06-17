@@ -157,6 +157,12 @@ sectStartRefrain =
   #{ \break
      \xTextMark \markup{ "Refrain" \bold \box #s } #} )
 
+sectStartSolos =
+#(define-music-function (s)
+   (string?)
+  #{ \break
+     \xTextMark \markup{ "Solos" \bold \box #s } #} )
+
 sectStartRefrainSegno =
 #(define-music-function (s)
    (string?)

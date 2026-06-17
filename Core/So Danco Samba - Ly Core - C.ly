@@ -16,7 +16,7 @@ headerPoet = "Vinicius de Moraes"
 headerComposer = "Antônio Carlos Jobim"
 headerCopyright = "© 1962 Corcovado Music Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 Só dan -- ço sam -- ba
@@ -131,6 +131,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

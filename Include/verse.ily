@@ -3,6 +3,7 @@
 midiKey = \verseKey
 midiChords = \verseChords
 midiMelody = \verseMelody
+leadingEighth = \verseLeadingEighth
 
 midiIncludeFile = 
 #(if (and (defined? 'midiOnly) midiOnly)

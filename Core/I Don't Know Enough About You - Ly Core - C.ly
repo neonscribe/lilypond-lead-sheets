@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Dave Barbour and Peggy Lee"
 headerCopyright = "© 1946 Denslow Music Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I know a lit -- tle bit a -- bout a lot of things,
@@ -96,6 +96,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

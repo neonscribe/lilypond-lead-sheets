@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Charlie Parker"
 headerCopyright = "© 1945 Atlantic Music Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s8
@@ -49,8 +49,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup{ "Play head twice before and twice after solos." }
+
+\include "../Include/refrainonly.ily"

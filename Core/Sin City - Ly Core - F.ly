@@ -83,14 +83,11 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   \bold
@@ -155,3 +152,5 @@ refrainMelody = \relative f' {
    \line { \large { won't keep out the Lord's burning rain. } }
  }
 }
+
+\include "../Include/refrainonly.ily"

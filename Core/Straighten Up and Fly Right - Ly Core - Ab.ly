@@ -12,7 +12,7 @@ headerPoet = ""
 headerComposer = "Nat King Cole and Irving Mills"
 headerCopyright = "© 1944 American Academy of Music, Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _
@@ -153,13 +153,16 @@ refrainKicksOverTime = \relative f' {
   s8 s1*8 af4 r4 r2 bf4 r4 r8 cf4. c4 r4 r2 r8 ff 4. r8 ef4. af,4 r4 r2 bf4 r4 r8 cf4. c4 r4 r2 r2 r8 gf8 g8 af8
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\markup { "Play " { \bold \box "Intro" } " then " { \bold \box "Verse" }
+afterText =
+\markup { 
+  \column {
+  \line { "Play " { \bold \box "Intro" } " then " { \bold \box "Verse" }
 	  { \bold \box "A1" } { \bold \box "A2" } { \bold \box "B" } { \bold \box "A3" }
 	  }
-\markup { "Solo over one or two " { \bold \box "A" } " sections, or the entire form,"
+  \line { "Solo over one or two " { \bold \box "A" } " sections, or the entire form,"
 	  "then play " { \bold \box "Intro" } " again, then " { \bold \box "A1" } " with the Coda."
 	}
+  }
+}
+
+\include "../Include/refrainonly.ily"

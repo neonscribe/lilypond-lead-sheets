@@ -80,8 +80,6 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
+afterText = \markup{ "Solo on " \box "Head" ", take repeat. Chords played on beat. After solos, D.S. al Coda." }
 
-\include "../Include/refrain.ily"
-
-\markup{ "Solo on " \box "Head" ", take repeat. Chords played on beat. After solos, D.S. al Coda." }
+\include "../Include/refrainonly.ily"

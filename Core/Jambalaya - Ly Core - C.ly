@@ -77,14 +77,11 @@ refrainMelody = \relative f' {
   b4. b8 a4 g4 | a2 g4. e8 | d4 c2.~ | c2 r2 |
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   \bold
@@ -163,3 +160,5 @@ refrainMelody = \relative f' {
    \line { \large { Pick guitar fill fruit jar and be gay-o } }
    \line { \large { Son of a gun we'll have big fun on the bayou } }
 %}
+
+\include "../Include/refrainonly.ily"

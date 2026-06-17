@@ -8,13 +8,14 @@ codaRaggedRight =
 midiKey = \codaKey
 midiChords = \codaChords
 midiMelody = \codaMelody
+leadingEighth = \codaLeadingEighth
 
 midiIncludeFile = 
 #(if (and (defined? 'midiOnly) midiOnly)
   "../Include/midi.ily"
   "../Include/nothing.ily")
 
-$(if (not (and (defined? 'midiOnly) midiOnly))
+#(if (not (and (defined? 'midiOnly) midiOnly))
   #{
 \score {
   <<

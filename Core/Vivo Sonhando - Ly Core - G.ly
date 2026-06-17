@@ -12,60 +12,6 @@ headerCopyright = "© 1963 Jobim Music Ltda."
 
 bossaRhythm = ##t
 
-introLyrics = \lyricmode {
-}
-
-introChords = \chordmode {
-  g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g
-  g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g
-}
-
-introKey = g
-
-introMelody = \relative g' {
-  \time 2/2
-  \key \introKey \major
-  \clef \whatClef
-  \tempoFour "Medium Bossa [Joe Henderson 1995]" 128
-
-  \xTextMark \markup { \bold \box "Intro" }
-
-  fs4. d4. b4~ | b8 d4. e4 g4 |
-  a4. g4. d4~ | d8 bf4. a4 bf4 |
-  \break
-  fs'4. d4. b4~ | b8 d4. e4 g4 |
-  f4. d4. bf4~ | bf8 a4. bf4 c4 |
-
-  \bar "||"
-}
-
-outroLyrics = \lyricmode {
-}
-
-outroChords = \chordmode {
-  g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g
-  g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g
-  g1:maj7 af1:7.11+ g1:maj7
-}
-
-outroKey = g
-
-outroMelody = \relative g' {
-  \time 2/2
-  \key \outroKey \major
-  \clef \whatClef
-  \xTextMark \markup { \bold \box "Outro" }
-
-  fs4. d4. b4~ | b8 d4. e4 g4 |
-  f4. d4. bf4~ | bf8 a4. bf4 c4 |
-  \break
-  fs4. d4. b4~ | b8 d4. e4 g4 |
-  a4. g4. d4~ | d8 bf4. a4 bf4 |
-  fs'8 fs8 fs8 fs4 fs8 fs8 fs8( | fs8) fs8 fs8 fs4 fs8 fs8 d8~ | d1~
-
-  \bar "|."
-}
-
 refrainLyricsAOneP = \lyricmode {
   Vi -- vo so -- nhan -- do, so -- nhan -- do Mil ho -- ras sem fim __
   Tem -- po_em que vou __ per -- gun -- tan -- do Se gos -- tas de mim __
@@ -73,7 +19,7 @@ refrainLyricsAOneP = \lyricmode {
 
 refrainLyricsAOneE = \lyricmode {
   Why are my eyes __ al -- ways full __ of this vi -- sion of you __
-  Why do I dream sil -- ly dreams that I fear won't come true
+  Why do I dream sil -- ly dreams that I fear won't come true __
 }
 
 refrainLyricsATwoP = \lyricmode {
@@ -98,15 +44,17 @@ refrainLyricsBE = \lyricmode {
 
 refrainLyricsCP = \lyricmode {
   E_eu a fa -- lar em es -- tre __ -- las, __ Mar, a -- mor, lu -- ar __
-  Po -- bre de mim __ Que só sei te_a -- mar __
+  Po -- bre de mim __ Que só sei te_a -- mar __ ""
 }
 
 refrainLyricsCE = \lyricmode {
   I am quite hope -- less it seems, __ _ Two_things I know how to_do __
-  One is to dream __ Two is lov -- ing you __
+  One is to dream __ Two is lov -- ing you __ ""
 }
 
 refrainPortugueseLyrics = \lyricmode {
+  _ _ _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _ _ _
   \refrainLyricsAOneP
   \refrainLyricsATwoP
   \refrainLyricsBP
@@ -114,13 +62,23 @@ refrainPortugueseLyrics = \lyricmode {
 }
 
 refrainEnglishLyrics = \lyricmode {
+  _ _ _ _ _ _ _ _ _ _ _ _
+  _ _ _ _ _ _ _ _ _ _ _ _
   \refrainLyricsAOneE
   \refrainLyricsATwoE
   \refrainLyricsBE
   \refrainLyricsCE
 }
 
+refrainLyrics = \refrainPortugueseLyrics
+refrainLyricsTwo = \refrainEnglishLyrics
+
+refrainTwoLanguages = ##t
+
 refrainChords = \chordmode {
+  g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g
+  g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g
+
   g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g
   g1:maj7 g1:maj7 b1:m7 e1:7.9-
   a1:m7 c2:m7 c2:m6 b1:m7 e1:7.9-
@@ -130,6 +88,10 @@ refrainChords = \chordmode {
   a1:m7 c2:m9 c2:m6 b1:m7 e1:7.9- a2:7.13 a2:7.13-
   a2:m7 d2:9 g1:6
   \chordInsideParens{ ef1:maj7/g }
+
+  g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g
+  g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g
+  g1:maj7 af1:7.11+ g1:maj7
 }
 
 refrainKey = g
@@ -140,40 +102,48 @@ refrainMelody = \relative g' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \set Score.currentBarNumber = #1
+  \tempoFour "Medium Bossa [Joe Henderson 1995]" 128
 
-  \sectNoBar "A1"
+  \sectNoBar "Intro"
 
-  fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
-  fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
+  fs4. d4. b4~ | b8 d4. e4 g4 |
+  a4. g4. d4~ | d8 bf4. a4 bf4 |
+  \break
+  fs'4. d4. b4~ | b8 d4. e4 g4 |
+  f4. d4. bf4~ | bf8 a4. bf4 c4 |
+
+  \sect "A1"
+
+  fs8 fs8 fs fs8~ fs8 fs8 fs8 fs8~ | fs8 fs8 fs8 fs8~ fs8 fs8 fs8 d8~ | d1~ | d2. r4 |
+  fs8 fs8 fs fs8~ fs8 fs8 fs8 fs8~ | fs8 fs8 fs8 fs8~ fs8 fs8 fs8 d8~ | d1~ | d2. r4 |
 
   \sect "B"
 
-  c8 c8 c8 c8 c8 b8 c8 d8~ | d4. d8~ d2 | b4. b8 b4 b8 c8~ | c2. r4 |
-  r8 a8 a8 a8 a8 gs8 a8 b8~ | b4. a8 \tuplet 3/2 { a4 b4 c4 } | d2. f4 | d2. r4 |
+  c8 c8 c8 c8~ c8 b8 c8 d8~ | d4. d8~ d2 | b4. b8 b4 b8 c8~ | c2. r4 |
+  r8 a8 a8 a8 a8 gs8 a8 b8~ | b4 a8 a8 \tuplet 3/2 { a4 b4 c4 } | d2. f4 | d2. r4 |
 
   \sectPageBreak "A2"
 
-  fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
-  fs8 fs8 fs fs4 fs8 fs8 fs8~ | fs8 fs8 fs8 fs4 fs8 fs8 d8~ | d1~ | d2. r4 |
+  fs8 fs8 fs fs8~ fs8 fs8 fs8 fs8~ | fs8 fs8 fs8 fs8~ fs8 fs8 fs8 d8~ | d1~ | d2. r4 |
+  fs8 fs8 fs fs8~ fs8 fs8 fs8 fs8~ | fs8 fs8 fs8 fs8~ fs8 fs8 fs8 d8~ | d1~ | d2. r4 |
 
   \sect "C"
 
   c8 c8 c8 c4 b8 c8 d8~ | d4. d8~ d2 | b4. b8 b4 b8 c8~ | c2 e8 fs8 g8 a8~ |
-  a2. r4 | r8 g4 fs8 e4 fs4 | g1~ | g1 |
+  a2. r4 | r8 g4 fs8 e4 fs8~ fs8 | g1~ | g1 |
+  
+  \bar "||-|."
 
-  \bar "||"
+  \sectNoBar "Outro"
+
+  fs4. d4. b4~ | b8 d4. e4 g4 |
+  f4. d4. bf4~ | bf8 a4. bf4 c4 |
+  \break
+  fs4. d4. b4~ | b8 d4. e4 g4 |
+  a4. g4. d4~ | d8 bf4. a4 bf4 |
+  fs'8 fs8 fs8 fs8~ fs8 fs8 fs8 fs8( | fs8) fs8 fs8 fs8~ fs8 fs8 fs8 d8~ | d1~
+
+  \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
-
-\include "../Include/refrain.ily"
-
-\include "../Include/outro.ily"
+\include "../Include/refrainonly.ily"

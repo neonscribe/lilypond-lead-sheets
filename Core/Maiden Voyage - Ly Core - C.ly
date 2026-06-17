@@ -152,9 +152,6 @@ refrainBass = \relative f' {
   %}
 }
 
+afterText = \markup { "Use chords and bass of " \bold \box "A" " for intro and outro." }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\markup { "Use chords and bass of " \bold \box "A" " for intro and outro." }
+\include "../Include/refrainonly.ily"

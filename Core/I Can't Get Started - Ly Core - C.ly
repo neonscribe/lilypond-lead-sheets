@@ -10,7 +10,7 @@ headerPoet = "Ira Gershwin"
 headerComposer = "Vernon Duke"
 headerCopyright = "© 1935 Chappell & Co."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
   I've flown a -- round the world __ in a plane. __
@@ -115,6 +115,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

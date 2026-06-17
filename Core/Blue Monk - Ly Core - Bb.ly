@@ -42,15 +42,13 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
 
-\include "../Include/refrain.ily"
-
-\markup "Bottom line is melody"
-
+afterText =
 \markup {
   \column {
     \vspace #1
+    \line { \large { "Bottom line is melody" } }
+    \vspace #2
     \line { \large { Goin' alone, life is your own, but the cost sometimes is dear. } }
     \line { \large { Bein' complete, knowin' defeat, keepin' on from year to year. } }
     \line { \large { It takes some doin'. } }
@@ -68,3 +66,5 @@ refrainMelody = \relative f' {
     \vspace #1
   }
 }
+
+\include "../Include/refrainonly.ily"

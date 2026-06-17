@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Bobby Timmons"
 headerCopyright = "© 1960 Upam Music Co."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   \set chordChanges = ##t
@@ -93,6 +93,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

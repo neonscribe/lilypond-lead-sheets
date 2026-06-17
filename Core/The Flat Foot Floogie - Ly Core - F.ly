@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Slim Gaillard, Slam Stewart and Bud Green"
 headerCopyright = "© 1938 Jewel Music Publishing Co., Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 The flat foot floo -- gie with the floy floy,
@@ -84,6 +84,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Oscar Pettiford"
 headerCopyright = "© 1955 Orpheus Music, Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s8
@@ -45,6 +45,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

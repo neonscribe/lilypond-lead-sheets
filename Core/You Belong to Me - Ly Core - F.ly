@@ -120,6 +120,5 @@ refrainMelody = \relative f' {
 refrainKicksOverTime = \relative f' {
   s1*52 r8 af8 df4 gf4 gf8 f8~ f4 f2.
 }
-\include "../Include/paper.ily"
 
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

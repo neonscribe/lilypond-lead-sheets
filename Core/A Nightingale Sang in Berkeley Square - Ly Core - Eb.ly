@@ -10,7 +10,7 @@ headerPoet = "Eric Maschwitz"
 headerComposer = "Manning Sherwin"
 headerCopyright = "© 1940 The Peter Maurice Music Co. Ltd."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 That cer -- tain night, the night we met, there was mag -- ic a -- broad in the air.
@@ -100,6 +100,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

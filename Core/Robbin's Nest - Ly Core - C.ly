@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Illinois Jacquet and Sir Charles Thompson"
 headerCopyright = "© 1947 Atlantic Music Corp."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s4.
@@ -69,14 +69,11 @@ refrainMelody = \relative f' {
   g4 e8 g8 gf8 ef8 c8 f8~ | f4 d8 f8 e8 g8 a8 c8~ | c1~ | c2. r4 |
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column {
 \vspace #2
@@ -94,7 +91,7 @@ refrainMelody = \relative f' {
 \line { \large { Give me something sweet and gentle. Make it sentimental. } }
 \line { \large { Whatever you could suggest, I'll take Robbin's Nest. } }
 \vspace #2
-\line { \large { \bold {((Why Have a Falling Out) Just When We're Falling in Love) } } }
+\line { \large { \bold {(Why Have a Falling Out) Just When We're Falling in Love } } }
 \line { \large { \bold { Lyrics by Bob Russell (1952) } } }
 \vspace #1
 \line { \large { You wouldn't be angry with me would you } }
@@ -114,3 +111,5 @@ refrainMelody = \relative f' {
 \line { \large { That's my point precisely } }
 \line { \large { So, why have a falling out just when we're falling in love? } }
 } }
+
+\include "../Include/refrainonly.ily"

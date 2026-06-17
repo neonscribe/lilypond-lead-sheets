@@ -10,38 +10,9 @@ headerPoet = "Mitchell Parish"
 headerComposer = "Frank Perkins"
 headerCopyright = "© 1934 by Mills Music Inc., 1619 Broadway, New York, N.Y."
 
-firehouseIntroChords = \chordmode {
-  f2 f2:dim7 c2 a4:m c4:5+ c2:6 g2:7 c1:7
-}
-
-sheetIntroChords = \chordmode {
-  d2:m7 g2:7.9- c2 a4:m c4:5+ a2:m7 d2:7 e2:m7 a2:7.9-
-}
-
-rbthreeIntroChords = \chordmode {
-  d2:m7 g2:7 c2:maj7 f2:maj7 a2:m7 d2:7 e2:m7 a2:7
-}
-
-introLyrics = \lyricmode {
-}
-
-introChords = \rbthreeIntroChords
-
-introKey = c
-
-introMelody = \relative f' {
-  \time 4/4
-  \key \introKey \major
-  \clef \whatClef
-  \tempoFour "Medium [Guy Lombardo 1934]" 116
-
-  \xTextMark \markup{ "Intro" }
-
-  f8 f8 d8 d8 af'8 af4. | g8 g8 e8 e8 c'2 | c8 c8 a8 a8 d4 b4 | g1 |
-  \bar "||"
-}
-
 verseLyrics = \lyricmode {
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
 Moon -- light and mag -- no -- lia,
 star -- light in your hair,
 All the world, a dream come true.
@@ -51,16 +22,22 @@ was I real -- ly there with you?
 }
 
 firehouseVerseChords = \chordmode {
+  f2 f2:dim7 c2 a4:m c4:5+ c2:6 g2:7 c1:7
+
   f2 f2:dim7 c2 c2:dim7 f2 g2:7 c1:7
   f2 f2:dim7 c2 a2:m c2 d2:7 g2:7 g2:7.9+
 }
 
 sheetVerseChords = \chordmode {
+  d2:m7 g2:7.9- c2 a4:m c4:5+ a2:m7 d2:7 e2:m7 a2:7.9-
+
   d2:m7 g2:7 c2 a2:7 d2.:m7 g4:7 c2 cs2:dim7
   d2:m7 g2:7 c2 a4:m c4:5+ a2:m7 d2:7 g2:7sus g2:7
 }
 
 rbthreeVerseChords = \chordmode {
+  d2:m7 g2:7 c2:maj7 f2:maj7 a2:m7 d2:7 e2:m7 a2:7
+
   d2:m7 g2:7 c2:maj7 a2:7 d2.:m7 g4:7 c2 cs2:dim7
   d2:m7 g2:7 c2:maj7 a4:m c4:5+ a2:m7 d2:7 g2:sus7 g2:7
 }
@@ -73,8 +50,13 @@ verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
+  \tempoFour "Medium [Guy Lombardo 1934]" 116
 
-  \xTextMark \markup{ "Verse" }
+  \sectNoBar "Intro"
+
+  f8 f8 d8 d8 af'8 af4. | g8 g8 e8 e8 c'2 | c8 c8 a8 a8 d4 b4 | g1 |
+
+  \sect "Verse"
 
   f8 f8 d8 d8 af'8 af4. | g8 g8 e8 e8 bf'2 |
   \break
@@ -151,11 +133,8 @@ realBookVolThreeRefrainChords = \chordmode {
 
   c2:maj7 a2:7 d2:m7 g2:7 c2:maj7 f2:maj7 e2:m7 ef2:dim7
   d1:m7 g1:7 c1:maj7
-  \chordOpenParen{ d4:m7 }
-  \chordCloseParen{ g4:7 }
-
-  \chordOpenParen{ e4:m7 }
-  \chordCloseParen{ a4:7 }
+  \chordOpenParen{ d2:m7 }
+  \chordCloseParen{ g2:7 }
 }
 
 newRealThreeRefrainChords = \chordmode {
@@ -187,8 +166,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Guy Lombardo 1934]" 116
 
-  \sectNoBarNoBreak "A1"
-  \set Score.currentBarNumber = #1
+  \sectNoBar "A1"
 
   e2 ds8 e8 ds8 e8 | a4 a2 g4 | e'2 ds8 e8 ds8 e8 | b2. bf4 |
   a2 gs8 a8 gs8 a8 | e4 e2 d4 | g1 | r1 |
@@ -206,13 +184,9 @@ refrainMelody = \relative f' {
   \sect "C"
 
   e2 ds8 e8 ds8 e8 | a4 a2 g4 | e'2 ds8 e8 ds8 e8 | b2. bf4 |
-  a2 gs8 a8 gs8 a8 | e4 e2 d4 | c1 | r2^\markup{ "to " \bold \box "A1" } r2^\markup{ "to " \bold \box "B" } |
+  a2 gs8 a8 gs8 a8 | e4 e2 d4 | c1 | r1 |
 
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-\include "../Include/verse.ily"
-\include "../Include/refrain.ily"
+\include "../Include/verserefrain.ily"

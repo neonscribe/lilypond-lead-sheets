@@ -73,8 +73,6 @@ refrainBass = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
+afterText = \markup{ "Top line is melody. Play head twice before and twice after solos." }
 
-\include "../Include/refrain.ily"
-
-\markup{ "Top line is melody. Play head twice before and twice after solos." }
+\include "../Include/refrainonly.ily"

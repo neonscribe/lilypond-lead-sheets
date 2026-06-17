@@ -12,7 +12,7 @@ headerPoet = "Don George"
 headerComposer = "Johnny Hodges, Duke Ellington, Harry James"
 headerCopyright = "© 1944 Famous Music Corporation"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
   I
@@ -150,6 +150,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

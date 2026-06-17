@@ -206,8 +206,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/introrefrain.ily"

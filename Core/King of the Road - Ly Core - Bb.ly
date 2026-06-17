@@ -12,7 +12,7 @@ headerCopyright = "© 1964 Tree Publishing Co. Inc."
 
 introKey = bf
 
-leadingEighth = ##t
+introLeadingEighth = ##t
 
 introChords = \chordmode {
   r4. \chordInsideParens{ bf1 } \chordInsideParens{ ef1 }
@@ -103,20 +103,11 @@ refrainMelody = \relative f' {
   \sect "Outro"
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-leadingEighth = ##t
-
-\include "../Include/bass-intro.ily"
-
-leadingEighth = ##f
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   \bold
@@ -165,3 +156,4 @@ leadingEighth = ##f
  }
 }
 
+\include "../Include/bassintrorefrain.ily"

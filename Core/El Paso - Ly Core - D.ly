@@ -92,14 +92,11 @@ refrainMelody = \relative f' {
   a4 cs4 e4 | g4^"ritardando" fs4 e4 | g4 fs4\fermata e4\fermata | d2.~ | d2.\fermata
 
   \bar "|."
+
+  \xPageBreak
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\pageBreak
-
+afterText =
 \markup {
   \column
   {
@@ -154,3 +151,5 @@ refrainMelody = \relative f' {
    \line { \large { Cradled by two loving arms that I'll die for, one little kiss and Felina, goodbye. } }
  }
 }
+
+\include "../Include/refrainonly.ily"

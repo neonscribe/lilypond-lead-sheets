@@ -30,6 +30,8 @@ Keep that breath -- less charm,
 Won't you please ar -- range it,
 'Cause I love you,
 Just the way you look to -- night,
+
+Just the way you look to -- night.
 }
 
 refrainLyricsTwo = \lyricmode {
@@ -83,6 +85,9 @@ refrainChords = \chordmode {
   f2:maj7 ef2:13 d1:7 g1:m7 c1:7
   c1:m7.11 f1:7 bf1:maj7 g2:m7 c2:7
   f2:6 d2:m7 g2:m9 c2:7 f2:maj7 d2:m7 g2:m9 c2:7
+
+
+  g1:m7 c1:7 f1:6 f1:6
 }
 
 refrainKey = f
@@ -172,7 +177,7 @@ refrainMelody = \relative g' {
   a4 bf4 c4 bf4 | a1 | bf4 c4 d4 c4 | bf4 c4 d4 e4 |
     \break
   f1 | f,1 | g4 a4 c4 bf4 | a2 g2 |
-
+  \break
     <<
       { \xVoiceTwo {
 	  \override Stem.direction = #UP
@@ -188,40 +193,15 @@ refrainMelody = \relative g' {
      \oneVoice
 
   \textToCodaLastTime
-  \bar "|."
-}
+  \bar "||-|."
 
-codaLyrics = \lyricmode {
-Just the way you look to -- night.
-}
+  \textCodaBreak
 
-codaChords = \chordmode {
-  g1:m7 c1:7 f1:6 f1:6
-}
-
-codaKey = f
-
-codaMelody = \relative g' {
-  \time 4/4
-  \key \codaKey \major
-  \clef \whatClef
-
+  g4
   \tempo "Slow"
-
-  \textCoda
-   g4 a4 c4 bf4 | a2 g2 | f1~ | f2 r2 |
+  a4 c4 bf4 | a2 g2 | f1~ | f2 r2 |
 
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-
-\include "../Include/refrain.ily"
-
-\markup {
-  \vspace #2
-}
-
-\include "../Include/coda.ily"
+\include "../Include/introrefrain.ily"

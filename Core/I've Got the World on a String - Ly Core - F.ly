@@ -10,7 +10,7 @@ headerPoet = "Ted Koehler"
 headerComposer = "Harold Arlen"
 headerCopyright = "© 1932 Ted Koehler Music and S.A. Music Co"
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
   I've got the
@@ -95,6 +95,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

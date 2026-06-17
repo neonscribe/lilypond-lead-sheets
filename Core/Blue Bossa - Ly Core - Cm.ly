@@ -82,10 +82,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup{ "Play head twice, before and after solos. After solos, second time D.S. al Coda" }
 
 %{
@@ -112,3 +109,5 @@ refrainMelody = \relative f' {
   }
 }
 %}
+
+\include "../Include/refrainonly.ily"

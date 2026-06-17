@@ -52,10 +52,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \column
   \bold
@@ -89,3 +86,5 @@ refrainMelody = \relative f' {
 \line { \large { I'd soar to the sun and look down at the sea, } }
 \line { \large { Then I'd sing 'cause I know how it feels to be free. } }
 } }
+
+\include "../Include/refrainonly.ily"

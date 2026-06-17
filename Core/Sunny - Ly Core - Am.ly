@@ -60,10 +60,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \column {
     \vspace #2
@@ -86,3 +83,5 @@ refrainMelody = \relative f' {
     \line { \large { Sunny one so true, I love you. } }
   }
 }
+
+\include "../Include/refrainonly.ily"

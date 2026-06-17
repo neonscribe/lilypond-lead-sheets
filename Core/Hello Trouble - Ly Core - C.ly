@@ -110,10 +110,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \column
   \bold
@@ -134,3 +131,5 @@ refrainMelody = \relative f' {
     \line { \large { But I'd rather have a little bit of trouble than to never know the love you give. } }
   }
 }
+
+\include "../Include/refrainonly.ily"

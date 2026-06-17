@@ -56,7 +56,7 @@ refrainChords = \chordmode {
   \chordInsideParens{ ef4:7 } d4:7 s8 ef8:7 s4
   s4 d4:7 s8 ef8:7 s4
   s4 d4:7 s8 ef8:7 s4
-  s4 g4:m7.5- s8 c8:7.9- s4
+  s8 g8*4:m7.5- c8*3:7.9-
   s4 f4 s8 g8:m/c s4
   s4 f4 s8 g8:m/c s4
   s4 f4 s8 g8:m/c s4
@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
   r8 f8 g4 af4 a4 | a8 bf8 af8 e8 r8 e8 df8 e8 |
 }
 
-codaChords = \chordmode {
+outroChords = \chordmode {
   \chordInsideParens{ ef4:7 } d4:7 s8 ef8:7 s4
   s4 d4:7 s8 ef8:7 s4
   ef4:7 r4*7
@@ -99,11 +99,11 @@ codaChords = \chordmode {
   ef4:7 r4*3
 }
 
-codaKey = ef
+outroKey = ef
 
-codaMelody = \relative f' {
+outroMelody = \relative f' {
   \time 4/4
-  \key \codaKey \major
+  \key \outroKey \major
   \clef \whatClef
 
   ef4 c'4-. r8 df8-> r4 | r4 c4-. r8 df8-> r4 |
@@ -113,9 +113,9 @@ codaMelody = \relative f' {
   \bar "|."
 }
 
-codaBass = \relative f' {
+outroBass = \relative f' {
   \time 4/4
-  \key \codaKey \major
+  \key \outroKey \major
   \clef bass
 
   ef,4 r8 ef8 bf4 df4 | ef4 r8 ef8 bf4 df4 |
@@ -123,10 +123,4 @@ codaBass = \relative f' {
   ef4 r4 r2 |
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/intro.ily"
-
-\include "../Include/refrain.ily"
-
-\include "../Include/coda.ily"
+\include "../Include/introrefrainoutro.ily"

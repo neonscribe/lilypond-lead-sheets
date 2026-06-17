@@ -10,14 +10,14 @@ songID = "2026-06-01T22:16:51.588539Z"
 
 \include "../Include/lead-sheets.ily"
 
-TempoName =
-#(if (and (defined? 'TempoName) TempoName)
-  TempoName
+tempoName =
+#(if (and (defined? 'tempoName) tempoName)
+  tempoName
   "Ballad [Ahmad Jamal 1955]")
 
-TempoBPM =
-#(if (and (defined? 'TempoBPM) TempoBPM)
-  TempoBPM
+tempoBPM =
+#(if (and (defined? 'tempoBPM) tempoBPM)
+  tempoBPM
   70)
 
 headerTitle = "Spring Is Here"
@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo \TempoName 4 = \TempoBPM
+  \tempo \tempoName 4 = \tempoBPM
 
   \sectNoBar "A1"
 
@@ -114,6 +114,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

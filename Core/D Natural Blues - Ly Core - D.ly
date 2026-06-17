@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Wes Montgomery"
 headerCopyright = "© 1961 Taggie Music Co."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s8
@@ -63,8 +63,4 @@ refrainKicksOverTime = \relative f' {
   s8 r2 r8 d8 r4 s4 r2 r8 d8 r4 r1 s4 r2 r8 d4.
 }
 
-
-
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
+\include "../Include/refrainonly.ily"

@@ -3,6 +3,7 @@
 midiKey = \refrainKey
 midiChords = \refrainChords
 midiMelody = \refrainMelody
+leadingEighth = \refrainLeadingEighth
 
 midiIncludeFile = 
 #(if (and (defined? 'midiOnly) midiOnly)

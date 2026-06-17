@@ -10,7 +10,7 @@ headerPoet = ""
 headerComposer = "Benny Golson"
 headerCopyright = "© 1955 Ibbob Music, Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainChords = \chordmode {
   s4.
@@ -69,9 +69,6 @@ refrainKicksOverTime = \relative f' {
   s4. s1*8 s8*7 df8 s1*11 s8*7 df8 s1*9 s8*7 df8
 }
 
+afterText = \markup{ "Solos swing only, chords on beat, no breaks." }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
-\markup{ "Solos swing only, chords on beat, no breaks." }
+\include "../Include/refrainonly.ily"

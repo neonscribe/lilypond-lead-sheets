@@ -61,8 +61,6 @@ refrainBass = \relative f' {
   g2 f2 | e2 c2 | f2 d2 | g2 r8 c,8 e4 |
 }
 
-\include "../Include/paper.ily"
+afterText = \markup "Play head twice before and twice after solos. Bass walks in four on solos."
 
-\include "../Include/refrain.ily"
-
-\markup "Play head twice before and twice after solos. Bass walks in four on solos."
+\include "../Include/refrainonly.ily"

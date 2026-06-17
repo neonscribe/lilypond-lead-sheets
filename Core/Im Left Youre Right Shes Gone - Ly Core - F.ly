@@ -106,10 +106,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \column
   \bold
@@ -165,3 +162,5 @@ refrainMelody = \relative f' {
    \line { \large { She's gone I know not where, but now I just don't care, for now I have fallen for you. } }
  }
 }
+
+\include "../Include/refrainonly.ily"

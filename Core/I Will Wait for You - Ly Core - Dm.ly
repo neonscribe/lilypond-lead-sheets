@@ -126,10 +126,7 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \column {
     \vspace #1
@@ -158,3 +155,5 @@ refrainMelody = \relative f' {
 \line { \large { oh, mon amour, ne me quitte pas. } }
   }
 }
+
+\include "../Include/refrainonly.ily"

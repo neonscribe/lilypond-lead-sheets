@@ -10,7 +10,7 @@ headerPoet = "Bob Dorough"
 headerComposer = "Ben Tucker"
 headerCopyright = "© 1960 Cotillion Music Inc."
 
-leadingEighth = ##t
+refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 Come on home, you know I'm wait -- in' here for you.
@@ -60,10 +60,7 @@ refrainMelody = \relative f' {
   }
 }
 
-\include "../Include/paper.ily"
-
-\include "../Include/refrain.ily"
-
+afterText =
 \markup {
   \column
   \bold
@@ -102,3 +99,5 @@ refrainMelody = \relative f' {
    \vspace #1
    }
 }
+
+\include "../Include/refrainonly.ily"
