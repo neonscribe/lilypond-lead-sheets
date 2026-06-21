@@ -12,7 +12,7 @@ songID = "2026-06-01T22:16:31.412247Z"
 
 \include "../Include/lead-sheets.ily"
 
-lyricsLanguage = #(if (defined? 'lyricsLanguage)
+lyricsLanguage = #(if (and (defined? 'lyricsLanguage) lyricsLanguage)
 		   lyricsLanguage
 		   "portuguese")
 

@@ -54,7 +54,7 @@ refrainHLChords = \chordmode {
   }
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 
@@ -66,6 +66,7 @@ refrainChords = #(let ((v (assoc alternateChords
 		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = c
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 

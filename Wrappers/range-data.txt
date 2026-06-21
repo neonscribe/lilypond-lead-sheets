@@ -14488,6 +14488,18 @@ refrain
 e,
 gis
 
+Jazz Blues - Ly - C Bass for Standard.ly
+
+Jazz Blues - Ly - C Standard for Viola.ly
+
+Jazz Blues - Ly - C Standard.ly
+
+Jazz Blues - Ly - C to A for Eb for Standard.ly
+
+Jazz Blues - Ly - C to D for Bb for Standard.ly
+
+Jazz Blues - Ly - G Standard.ly
+
 Jazz Blues Circle of Fifths - Ly - C Bass for Standard.ly
 
 Jazz Blues Circle of Fifths - Ly - C Standard for Viola.ly
@@ -17728,9 +17740,6 @@ c'
 ees''
 
 Money - Ly - Bm Bass for Standard.ly
-intro
-fis,
-b
 refrain
 e,
 fis
@@ -17740,11 +17749,6 @@ e'
 outro
 e,
 e
-
-Money - Ly - Bm Standard for Viola.ly
-intro
-fis,
-b
 refrain
 e
 fis'
@@ -17754,11 +17758,6 @@ e'
 outro
 e
 e'
-
-Money - Ly - Bm Standard.ly
-intro
-fis,
-b
 refrain
 e'
 fis''
@@ -17768,11 +17767,6 @@ e'
 outro
 e'
 e''
-
-Money - Ly - Bm to Csm for Bb for Standard.ly
-intro
-gis,
-cis'
 refrain
 fis'
 gis''
@@ -17782,11 +17776,6 @@ fis'
 outro
 fis'
 fis''
-
-Money - Ly - Bm to Gsm for Eb for Standard.ly
-intro
-dis,
-gis
 refrain
 cis'
 dis''
@@ -17796,8 +17785,6 @@ cis'
 outro
 cis'
 cis''
-
-Mood Indigo - Ly - Ab Bass for Standard.ly
 refrain
 d
 f'
@@ -21391,6 +21378,16 @@ Russian Lullaby Swing - Ly - Dm to Em for Bb for Standard.ly
 refrain
 e'
 g''
+
+Russian Lullaby Swing - Ly - Em Alto Voice.ly
+refrain
+e
+g'
+
+Russian Lullaby Swing - Ly - Fm Alto Voice.ly
+refrain
+f
+aes'
 
 Russian Lullaby Swing - Ly - Gm Alto Voice.ly
 refrain

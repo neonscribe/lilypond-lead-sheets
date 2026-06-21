@@ -82,7 +82,7 @@ refrainSimpleChords = \chordmode {
   \chordCloseParen{ a2:7.9- }
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 
@@ -96,6 +96,7 @@ refrainChords = #(let ((v (assoc alternateChords
 refrainKey = d
 
 whatKey = #(or whatKey refrainKey)
+isMinor = ##t
 
 refrainMelody = \relative f' {
   \time 4/4

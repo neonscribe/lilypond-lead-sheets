@@ -72,6 +72,7 @@ refrainChords = \chordmode {
 }
 
 refrainKey = a
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 

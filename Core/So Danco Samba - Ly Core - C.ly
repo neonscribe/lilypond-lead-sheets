@@ -78,7 +78,7 @@ refrainLRBChords = \chordmode {
   \chordInsideParens{ f1:9 }
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

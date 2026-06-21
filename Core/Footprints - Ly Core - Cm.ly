@@ -34,6 +34,7 @@ refrainMattRybickiReggieWorkmanChords = \chordmode {
 refrainChords = \refrainMattRybickiReggieWorkmanChords
 
 refrainKey = c
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 

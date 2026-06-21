@@ -54,7 +54,7 @@ refrainBillEvansChords = \chordmode {
   a2:m9 e2:7.9+.5+ a2:m9 d2:9 g2:maj7 c2:13 b2:m9 bf2:13
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

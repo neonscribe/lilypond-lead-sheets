@@ -413,3 +413,39 @@ context-property."
               (if (zero? alt)
                   empty-markup
                   (accidental->text-markup alt)))))))
+
+tocTruncateTitle =
+#(define-scheme-function (title sub)
+  (scheme? scheme?)
+  "Truncate to fit in toc entry"
+  (let* ((ismin (if (defined? 'isMinor) isMinor #f))
+	 (titlelen (string-length title))
+	 (sublen (string-length sub))
+	 (minorlen (if ismin 5 0))
+	 (limit (- 90 minorlen))
+	 (total (+ titlelen sublen)))
+    (if (<= total limit)
+     title
+     ;; first truncate subtitle
+     ;; shortest subtitle allowed is 12
+     (let ((subtrunc (max 12 (- limit titlelen))))
+      (if (> subtrunc 12)
+       title
+       (substring title 0 (- limit 12)))))))
+
+tocTruncateSubtitle =
+#(define-scheme-function (title sub)
+  (scheme? scheme?)
+  "Truncate to fit in toc entry"
+  (let* ((ismin (if (defined? 'isMinor) isMinor #f))
+	 (titlelen (string-length title))
+	 (sublen (string-length sub))
+	 (minorlen (if ismin 5 0))
+	 (limit (- 90 minorlen))
+	 (total (+ titlelen sublen)))
+    (if (<= total limit)
+     sub
+     ;; first truncate subtitle
+     ;; shortest subtitle allowed is 12
+     (let ((subtrunc (max 12 (- limit titlelen))))
+      (substring sub 0 subtrunc)))))

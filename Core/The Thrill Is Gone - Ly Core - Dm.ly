@@ -110,6 +110,7 @@ refrainNicoChords = \chordmode {
 refrainChords = \refrainNicoChords
 
 refrainKey = d
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 

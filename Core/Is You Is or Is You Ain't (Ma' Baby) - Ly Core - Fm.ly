@@ -123,6 +123,7 @@ verseMelody = \relative g' {
 
   \bar "|."
 
+  \xPageBreak
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
@@ -200,6 +201,7 @@ refrainNicoChords = \chordmode {
 refrainChords = \refrainNicoChords
 
 refrainKey = f
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 
@@ -216,13 +218,13 @@ refrainMelody = \relative g' {
   \break
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r1 |
 
-  \sectPageBreak "A2"
+  \sect "A2"
 
   c2. c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r1 |
   \break
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r2 r4 af4 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   bf8 af4. bf4 af4 | bf8 af4. bf4 af8 c8~ | c8 ef,4.~ ef4 f8 gf8~ | gf2. af4 |
   \break

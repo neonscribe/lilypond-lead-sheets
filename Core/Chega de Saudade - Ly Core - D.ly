@@ -159,6 +159,7 @@ refrainNewRealChords = \chordmode {
 refrainChords = \refrainNicoHLChords
 
 refrainKey = d
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 

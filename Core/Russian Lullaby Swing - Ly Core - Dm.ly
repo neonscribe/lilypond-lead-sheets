@@ -52,7 +52,7 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ a2:7 }
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 
@@ -64,6 +64,7 @@ refrainChords = #(let ((v (assoc alternateChords
 		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = d
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 

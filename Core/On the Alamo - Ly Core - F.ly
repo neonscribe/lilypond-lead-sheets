@@ -59,7 +59,7 @@ refrainFirehouseChords = \chordmode {
   g1:7 g2:m7 c2:7 f2 bf2:7 f4 r2.
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

@@ -133,6 +133,7 @@ refrainChordsHL = \chordmode {
 refrainChords = \refrainChordsHL
 
 refrainKey = d
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 

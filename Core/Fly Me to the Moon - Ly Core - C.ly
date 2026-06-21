@@ -65,7 +65,7 @@ refrainHLChords = \chordmode {
   e1:m7 a1:7 d1:m7 g1:7 c1:6 c1:6
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

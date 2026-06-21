@@ -75,7 +75,7 @@ refrainOldRealChords = \chordmode {
   ef1:maj7 d1:7.9- g1:m g1:m
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 
@@ -88,6 +88,7 @@ refrainChords = #(let ((v (assoc alternateChords
 		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = g
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 

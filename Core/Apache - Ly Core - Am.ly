@@ -13,6 +13,7 @@ headerCopyright = "© 1959 Francis, Day & Hunter, Ltd."
 straightEighths = ##t
 
 refrainKey = a
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 

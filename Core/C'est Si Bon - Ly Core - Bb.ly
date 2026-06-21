@@ -87,7 +87,7 @@ Cher -- chez pas la rai -- son: __
 C'est parc' -- que c'est si bon. __ ""
 }
 
-lyricsLanguage = #(if (defined? 'lyricsLanguage)
+lyricsLanguage = #(if (and (defined? 'lyricsLanguage) lyricsLanguage)
 		   lyricsLanguage
 		   "french")
 

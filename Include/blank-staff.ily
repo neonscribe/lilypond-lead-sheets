@@ -3,7 +3,7 @@
 \bookpart {
 \score {
   {
-    \repeat unfold 8 { s1 \break }
+    \repeat unfold 14 { s1 \break }
   }
   \layout {
     indent = 0\in
@@ -18,18 +18,5 @@
       \remove "Bar_number_engraver"
     }
   }
-}
-
-\paper {
-  ragged-last-bottom = ##f
-  tagline = ##f
-  oddHeaderMarkup = \markup { 
-    \fill-line {
-      ""
-      ""
-      ""
-    }
-  }
-  evenHeaderMarkup = \oddHeaderMarkup
 }
 }

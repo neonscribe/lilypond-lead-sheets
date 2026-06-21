@@ -45,7 +45,7 @@ refrainiRealChords = \chordmode {
   c1:7 f1:7 bf1:6 \chordInsideParens{ f1:7 }
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "ireal")
 

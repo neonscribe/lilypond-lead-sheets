@@ -73,7 +73,7 @@ refrainFirehouseChords = \chordmode {
   \chordCloseParen{ d2:7 }
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

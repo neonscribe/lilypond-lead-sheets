@@ -47,6 +47,7 @@ refrainMixedChords = \chordmode {
 refrainChords = \refrainMixedChords
 
 refrainKey = c
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 

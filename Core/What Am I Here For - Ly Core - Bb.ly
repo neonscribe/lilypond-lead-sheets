@@ -50,7 +50,7 @@ refrainSRBChords = \chordmode {
   \chordCloseParen{ f2:7.5+ }
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

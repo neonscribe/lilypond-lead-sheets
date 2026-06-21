@@ -102,6 +102,7 @@ refrainDjypsyDjazzChords = \chordmode {
 refrainChords = \refrainiRealChords
 
 refrainKey = g
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 

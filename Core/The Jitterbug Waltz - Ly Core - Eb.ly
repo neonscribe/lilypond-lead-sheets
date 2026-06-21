@@ -66,7 +66,7 @@ refrainHLChords = \chordmode {
   ef2.:6 af2.:7 ef2.:6 \chordInsideParens{ bf2.:7 }
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

@@ -74,7 +74,7 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ bf2:7 }
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

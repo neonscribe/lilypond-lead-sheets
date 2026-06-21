@@ -98,7 +98,7 @@ refrainOriginalChords = \chordmode {
   %% g1 a4:7.9- d4:13 g2
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

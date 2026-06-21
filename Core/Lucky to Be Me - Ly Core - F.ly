@@ -103,7 +103,7 @@ refrainSRBAlternateChords = \chordmode {
   \chordCloseParen{ c2:sus9 }
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

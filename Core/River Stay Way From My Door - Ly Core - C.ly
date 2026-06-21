@@ -72,7 +72,7 @@ refrainNOJamChords = \chordmode {
   c1 c1:7 f1 c1 d1:7 af2:7 g2:7 c1 c1
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

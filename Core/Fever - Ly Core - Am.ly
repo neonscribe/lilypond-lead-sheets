@@ -15,6 +15,8 @@ refrainLyrics = \lyricmode {
 
 refrainKey = a
 refrainKeyTwo = bf
+isMinor = ##t
+
 whatKey = #(or whatKey refrainKey)
 
 refrainKeyThree = b

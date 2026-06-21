@@ -76,7 +76,7 @@ refrainJazzChords = \chordmode {
   d1:7 d1:7 g1 g1
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "cowboy")
 

@@ -37,6 +37,7 @@ refrainKeyTwo = cs
 whatKey = #(or whatKey refrainKey)
 
 refrainKeyThree = d
+isMinor = ##t
 
 
 refrainMelody = \relative f' {

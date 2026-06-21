@@ -64,7 +64,7 @@ refrainDFBChords = \chordmode {
   c1:7 f1 f1
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

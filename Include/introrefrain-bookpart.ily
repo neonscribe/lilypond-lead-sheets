@@ -7,23 +7,10 @@ introFile =
   "../Include/nothing.ily"
   "../Include/intro-score.ily")
 
-beforeTextFile =
-#(if (and (defined? 'beforeText) beforeText)
-  "../Include/beforetext.ily"
-  "../Include/nothing.ily")
-
-betweenTextFile =
-#(if (and (defined? 'betweenText) betweenText)
-  "../Include/betweentext.ily"
-  "../Include/nothing.ily")
-
-afterTextFile =
-#(if (and (defined? 'afterText) afterText)
-  "../Include/aftertext.ily"
-  "../Include/nothing.ily")
+\include "pre-bookpart.ily"
 
 thisPart = \bookpart { 
-  \tocItem \markup { \headerTitle " - " \noteName { \whatKey } " - " \subtitle }
+  \include "../Include/toc-item.ily"
   \include \beforeTextFile
   \include \introFile
   \include \betweenTextFile
@@ -33,9 +20,4 @@ thisPart = \bookpart {
   \include "../Include/paperdef.ily"
 }
 
-processFile =
-#(if (and (defined? 'inBook) inBook)
-  "../Include/nothing.ily"
-  "../Include/bookpart.ily")
-
-\include \processFile
+\include "post-bookpart.ily"

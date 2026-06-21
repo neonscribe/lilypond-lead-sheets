@@ -83,7 +83,7 @@ refrainHLChords = \chordmode {
   \chordInsideParens{ g2:7 }
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

@@ -71,7 +71,7 @@ refrainiRealChords = \chordmode {
   a1:7 d1:7 g1:6 g1:6
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "ireal")
 

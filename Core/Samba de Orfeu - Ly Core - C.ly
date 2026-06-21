@@ -63,7 +63,7 @@ refrainSimpleChords = \chordmode {
   g1:7 c1:maj7 c4:maj7 r2.
 }
 
-alternateChords = #(if (defined? 'alternateChords)
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
 		    alternateChords
 		    "hlrb")
 

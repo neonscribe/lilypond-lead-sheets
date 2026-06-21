@@ -61,6 +61,7 @@ refrainChords = \chordmode {
 refrainKey = d
 
 whatKey = #(or whatKey refrainKey)
+isMinor = ##t
 
 refrainMelody = \relative f' {
   \time 4/4

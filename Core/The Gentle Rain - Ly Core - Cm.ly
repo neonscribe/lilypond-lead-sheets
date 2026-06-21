@@ -73,6 +73,7 @@ refrainRealLatinBookChords = \chordmode {
 refrainChords = \refrainRealLatinBookChords
 
 refrainKey = c
+isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 
