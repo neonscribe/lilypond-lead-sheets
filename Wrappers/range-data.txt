@@ -17740,6 +17740,9 @@ c'
 ees''
 
 Money - Ly - Bm Bass for Standard.ly
+intro
+fis,
+b
 refrain
 e,
 fis
@@ -17749,6 +17752,11 @@ e'
 outro
 e,
 e
+
+Money - Ly - Bm Standard for Viola.ly
+intro
+fis,
+b
 refrain
 e
 fis'
@@ -17758,6 +17766,11 @@ e'
 outro
 e
 e'
+
+Money - Ly - Bm Standard.ly
+intro
+fis,
+b
 refrain
 e'
 fis''
@@ -17767,6 +17780,11 @@ e'
 outro
 e'
 e''
+
+Money - Ly - Bm to Csm for Bb for Standard.ly
+intro
+gis,
+cis'
 refrain
 fis'
 gis''
@@ -17776,6 +17794,11 @@ fis'
 outro
 fis'
 fis''
+
+Money - Ly - Bm to Gsm for Eb for Standard.ly
+intro
+dis,
+gis
 refrain
 cis'
 dis''
@@ -17785,6 +17808,8 @@ cis'
 outro
 cis'
 cis''
+
+Mood Indigo - Ly - Ab Bass for Standard.ly
 refrain
 d
 f'
