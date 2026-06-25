@@ -62,7 +62,7 @@
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
 }
 
-% Multiple pages, only one entry
+% Multiple pages, only one entry, verso
 \newcommand{\dsong}[2]{ %
 \addtocounter{songs}{1}
 \clearemptytoevenpage %
@@ -72,7 +72,7 @@
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
 }
 
-% Multiple pages, first entry of multiples
+% Multiple pages, first entry of multiples, verso
 \newcommand{\dmsong}[2]{ %
 \addtocounter{songs}{1}
 \clearemptytoevenpage %
@@ -82,7 +82,7 @@
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
 }
 
-% Multiple pages, successive entry of multiples
+% Multiple pages, successive entry of multiples, verso
 \newcommand{\dxsong}[2]{ %
 \clearemptytoevenpage %
 \phantomsection %
@@ -90,3 +90,33 @@
 \pdfbookmark{#1}{#1}
 \includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
 }
+
+% Multiple pages, only one entry, recto
+\newcommand{\rsong}[2]{ %
+\addtocounter{songs}{1}
+\cleardoublepage %
+\phantomsection %
+\addcontentsline{toc}{section}{\thesongs. #1} %
+\pdfbookmark{#1}{#1}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
+}
+
+% Multiple pages, first entry of multiples, recto
+\newcommand{\rmsong}[2]{ %
+\addtocounter{songs}{1}
+\cleardoublepage %
+\phantomsection %
+\addcontentsline{toc}{section}{\thesongs. #1} %
+\pdfbookmark{#1}{#1}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
+}
+
+% Multiple pages, successive entry of multiples, recto
+\newcommand{\rxsong}[2]{ %
+\cleardoublepage %
+\phantomsection %
+\addcontentsline{toc}{section}{\phantom{\thesongs. }#1} %
+\pdfbookmark{#1}{#1}
+\includepdf[pages=-, pagecommand={\thispagestyle{plain}}]{#2} %
+}
+

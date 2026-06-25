@@ -27,12 +27,9 @@ with open(source_path) as tex_file:
             else:
                 match = re.search('song\\{([^\\}]+)\\}\\{"([^"]+)"\\}', line)
                 if match:
-                    titles.append(match.group(1))
+                    title = match.group(1).replace("\\", "")
+                    titles.append(title)
                     pdf_files.append(match.group(2))
-
-print(book_title)
-print(titles)
-print(pdf_files)
 
 ly_files = []
 
@@ -44,10 +41,12 @@ for file in pdf_files:
     dir = match.group(1)
     pdf_file = match.group(2)
     if "Chords" in dir:
-        sys:exit(f"Unable to convert chords files {file}")
-    ly_files.append('../Wrappers/' + pdf_file + ".ly")
-
-print(ly_files)
+        print(f"Chords pdf file {file} preserved")
+        pdf_path = pathlib.Path(file)
+        pdf_file_name = str(pdf_path.with_suffix(".pdf"))
+        ly_files.append(pdf_file_name)
+    else:
+        ly_files.append('../Wrappers/' + pdf_file + ".ly")
 
 with open(book_filename, "w") as f:
     f.write(book_title + '\n\n')

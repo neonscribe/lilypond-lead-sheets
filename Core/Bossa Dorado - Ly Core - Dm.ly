@@ -49,10 +49,11 @@ refrainMelody = \relative f' {
   \break
   a4 f'4 a,8 f'8 a,8 as8~ | as8 f'4 as,8 as4 f'8 as,8 | b4 f'4 b,8 f'8 b,8 bf8 | r8 g8 gs8 a8~ a2 |
 
-  \bar "||-|."
+  \bar ".|:-|."
 
   \sectNoBar "A1"
 
+  \repeat volta 2 {
   a8 f'8 a,8 f'8~ f2 | r8 a,8 a'8 bf8 a8 f8 d8 a8 | gs8 f'8 gs,8 e'8~ e2 | r8 gs,8 f'8 gs,8 f'8 gs,8 f'8 gs,8 |
   \break
   g8 f'8 g,8 e'8~ e2 | r8 e8 f8 fs8 g8 e8 c8 a8 | g8 a8 g8 f8~ f2 | r1 |
@@ -73,11 +74,12 @@ refrainMelody = \relative f' {
 
   a,8 f'8 a,8 f'8~ f2 | r8 a,8 a'8 bf8 a8 f8 d8 a8 | gs8 f'8 gs,8 e'8~ e2 | r8 gs,8 f'8 gs,8 f'8 gs,8 f'8 gs,8 |
   \break
-  g8 f'8 g,8 e'8~ e2 | r8 g8 g8 f8 g8 g8 f8 d8~ | d1-"play outro last time" | r1 |
+  g8 f'8 g,8 e'8~ e2 | r8 g8 g8 f8 g8 g8 f8 d8~ | d1 \textToCodaLastTime | r1 |
+  }
 
-  \bar ".|:-|."
+  \bar ":|.|:"
 
-  \sectNoBar "Outro"
+  \textCodaBreak
 
   \repeat volta 2 {
   a4 f'4 a,8 f'8 a,8 as8~ | as8 f'4 as,8 as4 f'8 as,8 | b4 f'4 b,8 f'8 b,8 bf8~ | bf8 f'4 bf,8 bf4 f'8 bf,8 |

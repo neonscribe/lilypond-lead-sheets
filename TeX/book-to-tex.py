@@ -102,28 +102,57 @@ texfile_start = f"""
 """
 
 texfile_end = """
-\\end{{document}}
+\\end{document}
 """
+
+rectoThrees = ['Django', "It Ain't Necessarily So", 
+               'Spring Can Really Hang You Up the Most',
+               "Is You Is, or Is You Ain't (Ma' Baby)"]
+versoThrees = ['Fever', "Moanin'", 'My Attorney Bernie', 'Oh Lonesome Me Four']
+eitherThrees = ['Twisted', 'You Belong to Me']
+
+def threepagetype(filename):
+    for name in rectoThrees:
+        pattern = '/' + name + ' - '
+        match = re.search(pattern, filename)
+        if match:
+            return 'recto'
+    for name in versoThrees:
+        pattern = '/' + name + ' - '
+        match = re.search(pattern, filename)
+        if match:
+            return 'verso'
+    return False
 
 def make_song_spec(file, title, previous_title_prefix):
     pdf_path = pathlib.Path(file).with_suffix(".pdf")
     page_count = 1
     same_title = title.startswith(previous_title_prefix)
-    print(pdf_path)
-    print(page_count)
-    print(previous_title_prefix)
-    print(f"is file {pdf_path.is_file()}")
-    print(f"is readable {os.access(pdf_path, os.R_OK)}")
     if pdf_path.is_file() and os.access(pdf_path, os.R_OK):
         reader = pypdf.PdfReader(pdf_path)
         page_count = len(reader.pages)
-    
-
-    if page_count > 1:
+    if page_count == 2:
         if same_title:
             return "dxsong"
         else:
             return "dsong"
+    elif page_count > 2:
+        pagetype = threepagetype(file)
+        if pagetype == 'verso':
+            if same_title:
+                return "dxsong"
+            else:
+                return "dsong"
+        elif pagetype == 'recto':
+            if same_title:
+                return "rxsong"
+            else:
+                return "rsong"
+        else:
+            if same_title:
+                return "xsong"
+            else:
+                return "song"
     else:
         if same_title:
             return "xsong"
@@ -135,6 +164,7 @@ with open(tex_filename, "w") as f:
     previous_title_prefix = 'No Such Title'
     for title, file in zip(titles, pdf_files):
         songspec = make_song_spec(file, title, previous_title_prefix)
+        title = title.replace("#", "\\#")
         f.write(f'\\{songspec}{{{title}}}{{"{file}"}}\n\n')
         match = re.search("^([^-]+ - )", title)
         if match:
