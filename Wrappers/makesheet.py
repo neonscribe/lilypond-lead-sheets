@@ -255,13 +255,11 @@ songID = "{song_id}"
 
 \\include "../Include/lead-sheets.ily"
 
-\\header {{
-  title = "{song_title}"
-  subtitle = \\subtitle
-  poet = "Lyricist"
-  composer = "Composer"
-  copyright = \\markup \\small {{ \\now " " "© 19xx Inc." }}
-}}
+headerTitle = "{song_title}"
+headerSubtitle = \\subtitle
+headerPoet = "Lyricist"
+headerComposer = "Composer"
+headerCopyright = "© 19xx Inc."
 
 refrainLyrics = \\lyricmode {{
 }}
@@ -292,9 +290,7 @@ refrainMelody = \\relative f' {{
   \\bar "|."
 }}
 
-\\include "../Include/paper.ily"
-
-\\include "../Include/refrain.ily"
+\\include "../Include/refrainonly.ily"
 """
 
 def save_wrapper_file(dict):

@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-subtitle = "with backdoor turnaround for each modulation, for concert key instruments"
+subtitle = ""
 whatKey = c,
 whatClef = "bass"
 

@@ -4,14 +4,14 @@
 
 \include "english.ly"
 
-subtitle = "Eb for Standard Key"
-whatKey = a
+subtitle = "Alternate Key"
+whatKey = d
 whatClef = "treble"
 
 \include "../Core/Jazz Blues - Ly Core - C.ly"
 
 %{
 
-\song{Jazz Blues - C to A}{"../Standard/Eb/Jazz Blues - Ly - C to A for Eb for Standard"}
+\song{Jazz Blues - D}{"../Standard/Jazz Blues - Ly - D Standard"}
 
 %}

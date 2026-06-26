@@ -99,6 +99,4 @@ refrainChords = \chordmode {
   }
 }
 
-\include "../Include/chord-paper.ily"
-
-\include "../Include/refrain-chords-only.ily"
+\include "../Include/chordsonly.ily"

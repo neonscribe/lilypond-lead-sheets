@@ -53,6 +53,7 @@
       \improvisationOff
     }
     #} )
+%{
  \new StaffGroup \with {
     systemStartDelimiter = #'SystemStartBar
 }
@@ -197,4 +198,5 @@
       #} ) )
     #} )
   >>
+ %}
   >>

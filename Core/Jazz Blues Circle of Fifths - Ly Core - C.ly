@@ -21,12 +21,12 @@ refrainChordsInC = \chordmode {
   c1:7 f1:7 c1:7 g2:m7 c2:7
 
   \bar "||-||"
-  f1:7 fs1:dim7 c1:7 e2:m7 a2:7
+  f1:7 fs1:dim7 c1:7/g e2:m7 a2:7
 
   \bar "||-||"
   d1:m7 g1:7 c1:7
-  bf2:m7
-  ef2:7
+  g2:m7
+  c2:7
 }
 
 refrainChordsInCNoTurn = \chordmode {
@@ -80,6 +80,8 @@ refrainChords = \chordmode {
   \transpose c df {
     \refrainChordsInC
   }
+  
+  \xPageBreak
 
   \set Score.currentBarNumber = #1
   \sectGap "Blues in Gb"
@@ -129,6 +131,4 @@ refrainChords = \chordmode {
     \refrainChordsInCNoTurn
 }
 
-\include "../Include/chord-paper.ily"
-
-\include "../Include/refrain-chords-only.ily"
+\include "../Include/chordsonly.ily"

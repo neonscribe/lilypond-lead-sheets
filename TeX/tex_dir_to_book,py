@@ -1,0 +1,17 @@
+# Convert all the .tex files in a directory to .book files
+
+import sys, pathlib, re, os
+import tex_to_book
+
+def convertdir(dir_filename):
+    dir_path = pathlib.Path(dir_filename)
+    if not (dir_path.is_dir() and os.access(dir_path, os.W_OK)):
+        sys.exit(f"{dir_filename} is not a writable directory")
+
+    tex_files = [f for f in dir_path.iterdir() if f.is_file() and f.suffix.lower() == ".tex"]
+
+    for source_path in tex_files:
+        tex_to_book.convert(source_path)
+
+if __name__ == "__main__":
+    convertdir(sys.argv[1])

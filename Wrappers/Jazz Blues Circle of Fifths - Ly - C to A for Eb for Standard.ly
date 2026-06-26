@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-subtitle = "with backdoor turnaround for each modulation, for Eb instruments"
+subtitle = "Transposed for Eb Instruments"
 whatKey = a
 whatClef = "treble"
 

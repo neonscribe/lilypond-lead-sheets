@@ -4,7 +4,7 @@ songID = "2026-06-01T22:16:26.931469Z"
 
 \include "../Include/lead-sheets.ily"
 
-headerTitle = "Black Orpheus (Manha de Carnival, A Day in the Life of a Fool)"
+headerTitle = "Black Orpheus (A Day in the Life of a Fool)"
 headerSubtitle = \subtitle
 headerPoet = "Carl Sigmand"
 headerComposer = "Luis Bonfa"

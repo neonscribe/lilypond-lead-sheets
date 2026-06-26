@@ -54,7 +54,7 @@ refrainChords = \chordmode {
     \refrainChordsInC
   }
   }
-
+  
   \xPageBreak
 
   \set Score.currentBarNumber = #1
@@ -98,6 +98,4 @@ refrainChords = \chordmode {
   }
 }
 
-\include "../Include/chord-paper.ily"
-
-\include "../Include/refrain-chords-only.ily"
+\include "../Include/chordsonly.ily"

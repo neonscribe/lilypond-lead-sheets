@@ -55,210 +55,213 @@ def threepagetype(filename):
             return 'verso'
     return False
 
-arg_filename = sys.argv[1]
-source_path = pathlib.Path(arg_filename)
+def book_to_pdf(arg_filename):
+    source_path = pathlib.Path(arg_filename)
 
-if not (source_path.is_file() and os.access(source_path, os.R_OK)):
-    source_path = source_path.with_suffix(".book")
     if not (source_path.is_file() and os.access(source_path, os.R_OK)):
-        sys.exit(f"{arg_filename} is not a readable book file")
+        source_path = source_path.with_suffix(".book")
+        if not (source_path.is_file() and os.access(source_path, os.R_OK)):
+            sys.exit(f"{arg_filename} is not a readable book file")
 
-current_directory = pathlib.Path.cwd()
-parent_directory = current_directory.parent
-working_directory = parent_directory / 'TeXify'
-output_directory = parent_directory / 'Book'
+    current_directory = pathlib.Path.cwd()
+    parent_directory = current_directory.parent
+    working_directory = parent_directory / 'TeXify'
+    output_directory = parent_directory / 'Book'
 
-base_name = pathlib.Path(source_path.name).with_suffix("")
-book_filename = base_name.with_suffix(".book")
-ly_filename = base_name.with_suffix(".ly")
-pdf_filename = base_name.with_suffix(".pdf")
-temp_pdf_filename = base_name.with_suffix(".pdftemp")
+    base_name = pathlib.Path(source_path.name).with_suffix("")
+    book_filename = base_name.with_suffix(".book")
+    ly_filename = base_name.with_suffix(".ly")
+    pdf_filename = base_name.with_suffix(".pdf")
+    temp_pdf_filename = base_name.with_suffix(".pdftemp")
 
-shutil.copy(source_path, working_directory / book_filename)
-os.chdir(working_directory)
+    shutil.copy(source_path, working_directory / book_filename)
+    os.chdir(working_directory)
 
-title = False
-bookmarks = ['Table of Contents'];
-includes = ['Table of Contents'];
+    title = False
+    bookmarks = ['Table of Contents'];
+    includes = ['Table of Contents'];
 
-include_next = False
+    include_next = False
 
-with open(book_filename) as book_file:
-    for l in book_file:
-        line = l.strip()
-        if line:
-            if not title:
-                title = line
-            elif include_next:
-                includes.append(line)
-                include_next = False
-            else:
-                bookmarks.append(line)
-                include_next = True
+    with open(book_filename) as book_file:
+        for l in book_file:
+            line = l.strip()
+            if line:
+                if not title:
+                    title = line
+                elif include_next:
+                    includes.append(line)
+                    include_next = False
+                else:
+                    bookmarks.append(line)
+                    include_next = True
 
-ly_file_start = f"""\\version "2.26.0"
+    ly_file_start = f"""\\version "2.26.0"
 
-inBook = ##t
+    inBook = ##t
 
-thisPart = ##f
-"""
+    thisPart = ##f
+    """
 
-ly_file_middle = f"""
-\\book {{
-  \\paper {{
-    tocItemMarkup = \\tocItemWithDotsMarkup
-    tocTitleMarkup = \\markup \\huge \\larger \\larger \\larger \\column {{
-      \\fill-line {{ \\null "{title}" \\null }}
-      \\hspace #1
+    ly_file_middle = f"""
+    \\book {{
+      \\paper {{
+        tocItemMarkup = \\tocItemWithDotsMarkup
+        tocTitleMarkup = \\markup \\huge \\larger \\larger \\larger \\column {{
+          \\fill-line {{ \\null "{title}" \\null }}
+          \\hspace #1
+        }}
+      }}
+
+      \\markuplist \\table-of-contents
+    """
+
+    ly_file_end = f"""
     }}
-  }}
+    """
 
-  \\markuplist \\table-of-contents
-"""
-
-ly_file_end = f"""
-}}
-"""
-
-alphadigits = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+    alphadigits = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 
 
-def varnum(index):
-    digits = ''
-    for i in range(6):
-        digits = alphadigits[index % 10] + digits
-        index = index // 10
-    return digits
+    def varnum(index):
+        digits = ''
+        for i in range(6):
+            digits = alphadigits[index % 10] + digits
+            index = index // 10
+        return digits
 
-def includes_and_sets(f):
-    for index, file in enumerate(includes[1:]):
-        songvar = 'song' + varnum(index)
-        f.write(f"""
-\\include "{file}"
+    def includes_and_sets(f):
+        for index, file in enumerate(includes[1:]):
+            songvar = 'song' + varnum(index)
+            f.write(f"""
+    \\include "{file}"
 
-{songvar} = \\bookpart {{ \\thisPart }}
-"""
-)
+    {songvar} = \\bookpart {{ \\thisPart }}
+    """
+    )
 
-def bookparts_firstpass(f):
-    for index, file in enumerate(includes[1:]):
-        songvar = 'song' + varnum(index)
-        f.write(f"""
-\\bookpart {{ \\{songvar} }}
-"""
-)
+    def bookparts_firstpass(f):
+        for index, file in enumerate(includes[1:]):
+            songvar = 'song' + varnum(index)
+            f.write(f"""
+    \\bookpart {{ \\{songvar} }}
+    """
+    )
 
-with tempfile.TemporaryDirectory() as temp_dir:
-    ly_path = os.path.join(temp_dir, ly_filename)
-    with open(ly_path, "w") as f:
-        f.write(ly_file_start)
-        includes_and_sets(f)
-        f.write(ly_file_middle)
-        bookparts_firstpass(f)
-        f.write(ly_file_end)
-    shutil.copy(ly_path, '.')
+    with tempfile.TemporaryDirectory() as temp_dir:
+        ly_path = os.path.join(temp_dir, ly_filename)
+        with open(ly_path, "w") as f:
+            f.write(ly_file_start)
+            includes_and_sets(f)
+            f.write(ly_file_middle)
+            bookparts_firstpass(f)
+            f.write(ly_file_end)
+        shutil.copy(ly_path, '.')
 
-# 1. Search for the absolute path of the executable
-executable_path = shutil.which("lilypond")
+    # 1. Search for the absolute path of the executable
+    executable_path = shutil.which("lilypond")
 
-if executable_path:
-    subprocess.run([executable_path, ly_filename], check=True)
-else:
-    sys.exit("lilypond not found in system PATH.")
+    if executable_path:
+        subprocess.run([executable_path, ly_filename], check=True)
+    else:
+        sys.exit("lilypond not found in system PATH.")
 
-def extract_start_pages(pdf_path):
-    reader = pypdf.PdfReader(pdf_path)
-    page_count = len(reader.pages)
-    start_pages = [1]
-    with pypdf.PdfReader(pdf_path) as reader:
-        pg_num = 0
-        for page_num, page in enumerate(reader.pages):
-            page = reader.pages[page_num]
-            if "/Annots" in page:
-                for annot in page["/Annots"]:
-                    annot_obj = annot.get_object()
-                    if annot_obj["/Subtype"] == "/Link":
-                        if "/Dest" in annot_obj:
-                            dest = annot_obj["/Dest"][0]
-                            new_pg_num = [ p.indirect_reference for p in reader.flattened_pages].index(dest)
-                            if new_pg_num != pg_num:
-                                start_pages.append(new_pg_num + 1)
-                                pg_num = new_pg_num
-    return start_pages, page_count
+    def extract_start_pages(pdf_path):
+        reader = pypdf.PdfReader(pdf_path)
+        page_count = len(reader.pages)
+        start_pages = [1]
+        with pypdf.PdfReader(pdf_path) as reader:
+            pg_num = 0
+            for page_num, page in enumerate(reader.pages):
+                page = reader.pages[page_num]
+                if "/Annots" in page:
+                    for annot in page["/Annots"]:
+                        annot_obj = annot.get_object()
+                        if annot_obj["/Subtype"] == "/Link":
+                            if "/Dest" in annot_obj:
+                                dest = annot_obj["/Dest"][0]
+                                new_pg_num = [ p.indirect_reference for p in reader.flattened_pages].index(dest)
+                                if new_pg_num != pg_num:
+                                    start_pages.append(new_pg_num + 1)
+                                    pg_num = new_pg_num
+        return start_pages, page_count
 
 
-page_numbers, pdf_page_count = extract_start_pages(pdf_filename)
+    page_numbers, pdf_page_count = extract_start_pages(pdf_filename)
 
-next_page_numbers = []
+    next_page_numbers = []
 
-for index, page in enumerate(page_numbers[1:]):
-    next_page_numbers.append(page)
+    for index, page in enumerate(page_numbers[1:]):
+        next_page_numbers.append(page)
 
-next_page_numbers.append(pdf_page_count + 1)
-    
+    next_page_numbers.append(pdf_page_count + 1)
 
-blank_page_inserts = [False]
-adjusted_page_numbers = [1]
 
-insert_count = 0
-# insert blank pages to start two page songs on even pages
-for page_number, next_page_number, filename in zip(page_numbers[1:], next_page_numbers[1:], includes[1:]):
-    page_count = next_page_number - page_number
-    mod2 = (page_number + insert_count) % 2
-    if page_count == 2 and mod2 == 1:
-        insert_count += 1
-        blank_page_inserts.append(True)
-    elif page_count == 3:
-        type = threepagetype(filename)
-        if type == 'verso' and mod2 == 1 or type == 'recto' and mod2 == 0:
+    blank_page_inserts = [False]
+    adjusted_page_numbers = [1]
+
+    insert_count = 0
+    # insert blank pages to start two page songs on even pages
+    for page_number, next_page_number, filename in zip(page_numbers[1:], next_page_numbers[1:], includes[1:]):
+        page_count = next_page_number - page_number
+        mod2 = (page_number + insert_count) % 2
+        if page_count == 2 and mod2 == 1:
             insert_count += 1
             blank_page_inserts.append(True)
+        elif page_count == 3:
+            type = threepagetype(filename)
+            if type == 'verso' and mod2 == 1 or type == 'recto' and mod2 == 0:
+                insert_count += 1
+                blank_page_inserts.append(True)
+            else:
+                blank_page_inserts.append(False)
         else:
             blank_page_inserts.append(False)
-    else:
-        blank_page_inserts.append(False)
-    adjusted_page_numbers.append(page_number + insert_count)
+        adjusted_page_numbers.append(page_number + insert_count)
 
-def bookparts_secondpass(f):
-    for index, (file, blank_page_insert) in enumerate(zip(includes[1:], blank_page_inserts[1:])):
-        songvar = 'song' + varnum(index)
-        if (blank_page_insert):
+    def bookparts_secondpass(f):
+        for index, (file, blank_page_insert) in enumerate(zip(includes[1:], blank_page_inserts[1:])):
+            songvar = 'song' + varnum(index)
+            if (blank_page_insert):
+                f.write(f"""
+    \\include "../Include/blank-staff.ily"
+    """
+    )
             f.write(f"""
-\\include "../Include/blank-staff.ily"
-"""
-)
-        f.write(f"""
-\\bookpart {{ \\{songvar} }}
-"""
-)
+    \\bookpart {{ \\{songvar} }}
+    """
+    )
 
-with tempfile.TemporaryDirectory() as temp_dir:
-    ly_path = os.path.join(temp_dir, ly_filename)
-    with open(ly_path, "w") as f:
-        f.write(ly_file_start)
-        includes_and_sets(f)
-        f.write(ly_file_middle)
-        bookparts_secondpass(f)
-        f.write(ly_file_end)
-    shutil.copy(ly_path, '.')
+    with tempfile.TemporaryDirectory() as temp_dir:
+        ly_path = os.path.join(temp_dir, ly_filename)
+        with open(ly_path, "w") as f:
+            f.write(ly_file_start)
+            includes_and_sets(f)
+            f.write(ly_file_middle)
+            bookparts_secondpass(f)
+            f.write(ly_file_end)
+        shutil.copy(ly_path, '.')
 
-# 1. Search for the absolute path of the executable
-executable_path = shutil.which("lilypond")
+    # 1. Search for the absolute path of the executable
+    executable_path = shutil.which("lilypond")
 
-if executable_path:
-    subprocess.run([executable_path, ly_filename], check=True)
-else:
-    sys.exit("lilypond not found in system PATH.")
+    if executable_path:
+        subprocess.run([executable_path, ly_filename], check=True)
+    else:
+        sys.exit("lilypond not found in system PATH.")
 
-os.rename(pdf_filename, temp_pdf_filename)
+    os.rename(pdf_filename, temp_pdf_filename)
 
-writer = pypdf.PdfWriter(clone_from=temp_pdf_filename)
+    writer = pypdf.PdfWriter(clone_from=temp_pdf_filename)
 
-for bookmark, page in zip(bookmarks, adjusted_page_numbers):
-    writer.add_outline_item(title=bookmark, page_number=(page - 1))
+    for bookmark, page in zip(bookmarks, adjusted_page_numbers):
+        writer.add_outline_item(title=bookmark, page_number=(page - 1))
 
-# Save the modified document
-with open(pdf_filename, "wb") as f:
-    writer.write(f)
+    # Save the modified document
+    with open(pdf_filename, "wb") as f:
+        writer.write(f)
 
-shutil.copy(pdf_filename, output_directory)
+    shutil.copy(pdf_filename, output_directory)
+
+if __name__ == "__main__":
+    book_to_pdf(sys.argv[1])

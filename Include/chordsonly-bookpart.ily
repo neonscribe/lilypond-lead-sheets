@@ -12,7 +12,7 @@ thisPart = \bookpart {
   \include \pianoChordsFile
   \include \guitarChordsFile
   \include "../Include/headerdef.ily"
-  \include "../Include/paperdef.ily"
+  \include "../Include/chordsonly-paperdef.ily"
 }
 
 \include "post-bookpart.ily"
