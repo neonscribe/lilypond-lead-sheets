@@ -82,7 +82,7 @@ refrainLyricsTwo = \lyricmode {
   %% Verse 2, 3
   I look __ at __ you all, __
   see the love __ there __ that's sleep -- ing
-  while my gui -- tar gen -- tly weeps. __ _ Look
+  while my gui -- tar gen -- tly weeps. __ "" Look
 }
 
 refrainLyricsThree = \lyricmode {

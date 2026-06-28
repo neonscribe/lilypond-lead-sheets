@@ -107,9 +107,6 @@ refrainMelody = \relative f' {
   \alternative { \volta 1 {
 
   cf'8 ef,8 ef8 ef8 ef8 ef8 ef4 | ef2. r8 ef8 |
-
-  \xPageBreak
-
   c'8 ef,8 ef4 ef4 ef4 | ef8 ef4. r4 r8 ef8 | c'8 f,8 f8 f8 f8 f8 f4 | f2. r8 bf,8 |
 
   } \volta 2 {
@@ -120,8 +117,9 @@ refrainMelody = \relative f' {
   \parenthesize bf8 |
   } } }
 
-  \textCodaBreak
   \bar "||-|."
+
+  \textCodaBreak
 
   bf'2\repeatTie g8 af8 bf8 a8~ | <a c>1~ | <a c>1 | <af cf>1~ | <af cf>1 | <g bf>1 |
   \break
@@ -129,8 +127,6 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { r4 bf'4 a4 } \tuplet 3/2 { af4 g4 df4 } | f1\fermata |
 
   \bar "|."
-
-  \xPageBreak
 }
 
 refrainMelodyTwo = \relative f' {

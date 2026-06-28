@@ -71,8 +71,6 @@ refrainMelody = \relative f' {
   } |
 
   \bar "|."
-
-  \xPageBreak
 }
 
 afterText =

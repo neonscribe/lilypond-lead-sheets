@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Bonnie Raitt 1974]" 125
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   \ambitusOff
   \bar ".|:"
@@ -93,7 +93,6 @@ refrainMelody = \relative f' {
 
   r4 b,8 gs'8 gs8 gs4 fs8 | e2 r2 | r4 gs8 gs8 fs8 e4 fs8 | e2 r2 |
   r4 b8 gs'8 gs4 fs8 e8 | fs8 e8~ e2. | g8( fs8) e8 e8~ e8 cs8( e4~ | e2) r2 |
-  \break
   r4 b8 g'8~ g4. e8 | fs8 e8~ e2. | r8 b8 g'8 g8~ g8 fs8 e8 fs8 | e2 r2 |
   r8 g8 g4 g4 fs8 e8 | fs4 e2 cs8( b8) \textToCodaI | gs'4 gs8( fs8) e8 e4.~ | e2 r2 |
 
@@ -102,7 +101,6 @@ refrainMelody = \relative f' {
 
   r4 gs4 e4 e8 fs8~ | fs4 d2 r8 cs8 | e2 fs4 e8 gs8~ | gs4 e2 r4 |
   r4 gs4 e4 e8 fs8~ | fs4 d2 e8 e8 | gs4 b4 gs4 fs8( e8~ | e2) r2 |
-  \break
   r4 gs4 gs8( fs8) e8 fs8~ | fs4 d2 r8 cs8 | e4 cs8 gs'8~ gs4 gs8( fs8 | e4) e2 r4 |
   r8 b8 cs8 gs'8~ gs8 fs8 e4 | fs8 e4 cs8 e4 cs8( b8) \textToCodaIIandIII |
   r4 gs'4 gs8( fs8) e8 e8~ | e2 r2 |
@@ -135,11 +133,9 @@ refrainMelody = \relative f' {
   }
   \ambitusOn
 
-  \break
 
   r4 b,8 gs'8~ gs4 gs8 gs8 | fs8 e4. r2 | r4 cs8 b8 e8 e8 e8 e8 | cs4 r4 r2 |
   r4 b16 b8. gs'8 gs4 fs8 | e4 r4 r8 b8 b4 | g'8 g8( fs8) e8 e2~ | e4 r4 r2 |
-  \break
   r4 r8 g8 g8 g4. | fs8 e8 fs8 e8~ e4 r4 | r4 fs8 e8 g8 g8 e8 fs8 | e2 r2 |
   r8 b8 cs8 gs'8~ gs4 fs8 e8 | fs8( e8) e4 r8 e8 cs8( b8) | gs'4 gs8( fs8) e8 e4.~ | e2 r2 \dalSegnoSegnoIII |
 

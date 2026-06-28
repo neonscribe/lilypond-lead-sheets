@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "noIntro" ] }
+
+%}
+
 songID = "2026-06-01T22:17:00.330311Z"
 
 \include "../Include/lead-sheets.ily"
@@ -49,7 +55,7 @@ verseMelody = \relative f' {
   \partial 2 g2
 
   \bar "||"
-  \xPageBreak
+  \xxPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -95,25 +101,21 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   c1 | b2~ b8 a4 gs8 | a2 e2~ | e2 ds4 e4 |
-  \break
   a1 | g2~ g8 e4 d8 | c1~ | c2 d4 e4 |
 
   \sect "B"
 
   f2. ds4 | e2~ e8 gs4 b8 | d2. b4 | c2~ c8 d4 cs8 |
-  \break
   e2. c4 | ef2 c4. b8 | b1~ | b2 a4 b4 |
 
-  \sect "A2"
+  \sectPageBreak "A2"
 
   c1 | b2~ b8 a4 gs8 | a2 e2~ | e2 \tuplet 3/2 { e4 f4 g4 } |
-  \break
   a4 c4 a2 | g2~ g8 e4 c8 | d1~ | d2 e4 f4 |
 
   \sect "C"
 
   a1 | g2 r8 a4 b8 | d2. c4 | a2 c4 d4 |
-  \break
   e2 ef2~ | ef2 d2 | c1~ | c4 r4 r2 |
 
   \bar "|."

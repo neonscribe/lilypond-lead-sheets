@@ -2,7 +2,8 @@
 
 %{
 
-"Customizer": { "choices": { "singerGender": [ "male", "female" ] } }
+"Customizer": { "toggles": [ "noIntro" ],
+		"choices": { "singerGender": [ "male", "female" ] } }
 
 %}
 

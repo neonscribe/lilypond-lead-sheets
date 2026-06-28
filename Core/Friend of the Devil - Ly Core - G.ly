@@ -92,7 +92,6 @@ refrainMelody = \relative f' {
   } \volta 3,5 {
   a'2.( d,4~ | d1) | r1 | r1 |
 
-
   \sectPageBreak "Bridge"
 
   d'4 d4 d4 b4 | c4 c4 c8( b8) a8 d8~ | d4 d4 e4 e8 d8~ | d4 r4 r4 r8 g,8 |

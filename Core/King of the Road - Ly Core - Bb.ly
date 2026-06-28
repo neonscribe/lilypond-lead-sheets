@@ -25,7 +25,7 @@ bassIntro = \relative f' {
   \clef bass
   \tempoFour "Medium [Roger Miller 1964]" 120
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   \partial 4. f,8 \tuplet 3/2 { g8 f8 ef8 } |
   \bar "||"
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \sectNoBarNoBreak "Verse"
+  \sectNoBar "Verse"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -103,8 +103,6 @@ refrainMelody = \relative f' {
   \sect "Outro"
 
   \bar "|."
-
-  \xPageBreak
 }
 
 afterText =

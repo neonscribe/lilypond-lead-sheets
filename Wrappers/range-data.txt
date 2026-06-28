@@ -760,6 +760,16 @@ refrain
 g
 a'
 
+Ain't Nobody Here but Us Chickens - Ly - F Bass for Standard.ly
+
+Ain't Nobody Here but Us Chickens - Ly - F Standard for Viola.ly
+
+Ain't Nobody Here but Us Chickens - Ly - F Standard.ly
+
+Ain't Nobody Here but Us Chickens - Ly - F to D for Eb for Standard.ly
+
+Ain't Nobody Here but Us Chickens - Ly - F to G for Bb for Standard.ly
+
 Ain't Nothin' Like Christmas - Ly - G Standard for Viola.ly
 refrain
 e,
@@ -2345,57 +2355,36 @@ f'
 d''
 
 Basin Street Blues - Ly - Bb Alto Voice.ly
-verse
-bes
-c''
 refrain
 bes
 c''
 
 Basin Street Blues - Ly - Bb Bass for Standard.ly
-verse
-bes,
-c'
 refrain
 bes,
 c'
 
 Basin Street Blues - Ly - Bb Standard for Viola.ly
-verse
-bes
-c''
 refrain
 bes
 c''
 
 Basin Street Blues - Ly - Bb Standard.ly
-verse
-bes
-c''
 refrain
 bes
 c''
 
 Basin Street Blues - Ly - Bb to C for Bb for Standard.ly
-verse
-c'
-d''
 refrain
 c'
 d''
 
 Basin Street Blues - Ly - Bb to G for Eb for Standard.ly
-verse
-g'
-a''
 refrain
 g'
 a''
 
 Basin Street Blues - Ly - G Alto Voice.ly
-verse
-g
-a'
 refrain
 g
 a'
@@ -9804,8 +9793,8 @@ f''
 
 Honeysuckle Rose - Ly - G Bass for Standard.ly
 refrain
-e
-f'
+e,
+f
 
 Honeysuckle Rose - Ly - G Standard.ly
 refrain
@@ -10126,6 +10115,11 @@ I Ain't Gonna Give Nobody None O' This Jelly Roll - Ly - F Alto Voice.ly
 refrain
 c'
 a'
+
+I Ain't Gonna Give Nobody None O' This Jelly Roll - Ly - F Bass for Alto Voice.ly
+refrain
+c
+a
 
 I Can't Believe That You're in Love With Me - Ly - C Bass for Standard.ly
 refrain
@@ -14488,17 +14482,27 @@ refrain
 e,
 gis
 
-Jazz Blues - Ly - C Bass for Standard.ly
+Jazz Blues - Ly - A Standard.ly
 
-Jazz Blues - Ly - C Standard for Viola.ly
+Jazz Blues - Ly - Ab Standard.ly
+
+Jazz Blues - Ly - Bb Standard.ly
 
 Jazz Blues - Ly - C Standard.ly
 
-Jazz Blues - Ly - C to A for Eb for Standard.ly
+Jazz Blues - Ly - D Standard.ly
 
-Jazz Blues - Ly - C to D for Bb for Standard.ly
+Jazz Blues - Ly - Db Standard.ly
+
+Jazz Blues - Ly - E Standard.ly
+
+Jazz Blues - Ly - Eb Standard.ly
+
+Jazz Blues - Ly - F Standard.ly
 
 Jazz Blues - Ly - G Standard.ly
+
+Jazz Blues - Ly - Gb Standard.ly
 
 Jazz Blues Circle of Fifths - Ly - C Bass for Standard.ly
 
@@ -14519,16 +14523,6 @@ Jazz Blues Flat Keys - Ly - C Standard.ly
 Jazz Blues Flat Keys - Ly - C to A for Eb for Standard.ly
 
 Jazz Blues Flat Keys - Ly - C to D for Bb for Standard.ly
-
-Jazz Blues in G - Ly - G Bass for Standard.ly
-
-Jazz Blues in G - Ly - G Standard for Viola.ly
-
-Jazz Blues in G - Ly - G Standard.ly
-
-Jazz Blues in G - Ly - G to A for Bb for Standard.ly
-
-Jazz Blues in G - Ly - G to E for Eb for Standard.ly
 
 Jazz Blues Sharp Keys - Ly - C Bass for Standard.ly
 
@@ -23230,6 +23224,56 @@ refrain
 d'
 f''
 
+Speak Softly, Love - Ly - Bbm Baritone Voice.ly
+refrain
+a
+des''
+
+Speak Softly, Love - Ly - Cm Bass for Standard.ly
+refrain
+b,
+ees'
+
+Speak Softly, Love - Ly - Cm Standard for Viola.ly
+refrain
+b
+ees''
+
+Speak Softly, Love - Ly - Cm Standard.ly
+refrain
+b
+ees''
+
+Speak Softly, Love - Ly - Cm to Am for Eb for Standard.ly
+refrain
+gis'
+c'''
+
+Speak Softly, Love - Ly - Cm to Dm for Bb for Standard.ly
+refrain
+cis'
+f''
+
+Speak Softly, Love - Ly - Dm Standard.ly
+refrain
+cis'
+f''
+
+Speak Softly, Love - Ly - Em Bass for Standard.ly
+refrain
+dis,
+g
+
+Speak Softly, Love - Ly - Em Standard.ly
+refrain
+dis'
+g''
+
+Speak Softly, Love - Ly - Gm Standard.ly
+refrain
+fis'
+bes''
+
 Spring Can Really Hang You Up the Most - Ly - Ab Alto Voice.ly
 refrain
 ees
@@ -26317,6 +26361,11 @@ refrain
 d
 f'
 
+The Thrill Is Gone - Ly - Dm Standard No Verse.ly
+refrain
+d'
+f''
+
 The Thrill Is Gone - Ly - Dm Standard.ly
 verse
 e'
@@ -27652,6 +27701,11 @@ Triste - Ly - F Alto Voice.ly
 refrain
 e
 gis'
+
+Triste - Ly - F Bass for Alto Voice.ly
+refrain
+e,
+gis
 
 Triste - Ly - G Alto Voice.ly
 refrain
@@ -30126,6 +30180,11 @@ refrain
 ees
 g'
 
+You'd Be So Nice to Come Home To - Ly - Dm Alto Voice No Verse.ly
+refrain
+f
+a'
+
 You'd Be So Nice to Come Home To - Ly - Dm Alto Voice.ly
 verse
 f
@@ -30133,6 +30192,11 @@ a'
 refrain
 f
 a'
+
+You'd Be So Nice to Come Home To - Ly - Dm Bass for Alto Voice No Verse.ly
+refrain
+f,
+a
 
 You'd Be So Nice to Come Home To - Ly - Ebm Alto Voice.ly
 verse

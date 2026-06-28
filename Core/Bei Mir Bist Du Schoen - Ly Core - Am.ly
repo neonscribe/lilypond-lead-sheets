@@ -105,9 +105,8 @@ refrainMelody = \relative f' {
   \xTextMark "Verse"
 
   \partial 4. e8 a8 b8 |
-  \bar "||"
 
-  \sectNoBarNoBreak "V1"
+  \sectNoBreak "V1"
 
   c8 c4 c8~ c8 b4 a8 | d4 b4~ b8 e,8 a8 b8 | c8 c4 c8~ c8 b4 a8 | d4 b4~ b8 e,8 a8 b8 |
   \break
@@ -120,30 +119,26 @@ refrainMelody = \relative f' {
   c8 c4 c8~ c8 b4 a8 | d8 d4 d8~ d8 c4 b8 | ef8 ef4 ef8~ ef8 d4 c8 | e4 r4 r8 e,4. |
   \bar "||"
 
-  \xPageBreak
+  \xxPageBreak
 
   \sectStartRefrain "A1"
 
   c'2 b8 a4 c8~ | c2 r8 e,4. | c'2 b8 a4 c8~ | c2 r8 c4. |
-  \break
   b2 gs8 e4 b'8~ | b8 b4 c8~ c8 b4 a8~ | a1 | r2 r8 e4. |
 
-  \sect "A2"
+  \sectNoBreak "A2"
 
   c'2 b8 a4 c8~ | c2 r8 e,4. | c'2 b8 a4 c8~ | c2 r8 c4. |
-  \break
   b2 gs8 e4 b'8~ | b8 b4 c8~ c8 b4 a8~ | a2 r2 | r4 r8 a8 b4 c4 |
 
   \sect "B"
 
   d2 a4 d4~ | d8 c8~ c4 b4 a4 | c2 c8 a4 c8~ | c4. a8 b4 c4 |
-  \break
   d2 a4 d4~ | d8 c8~ c4 b4 a4 | e'2 e8 e4 e8~ | e2 r8 e,4. |
 
   \sect "A3"
 
   c'2 b8 a4 c8~ | c2 r8 e,4. | c'2 b8 a4 c8~ | c2 r8 c4. |
-  \break
   b2 gs8 e4 b'8~ | b8 b4 c8~ c8 b4 a8~ | a1 | r2 r8
   \override Parentheses.font-size = #5
   \parenthesize

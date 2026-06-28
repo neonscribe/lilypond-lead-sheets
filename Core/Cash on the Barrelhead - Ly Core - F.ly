@@ -47,26 +47,21 @@ refrainMelody = \relative f' {
   \tempoFour "Fast [Gram Parsons 1973]" 235
 
   \partial 2. c'8 c8~ c8 c8 c8 bf8 |
-  \bar "||"
 
-  \sectNoBarNoBreak "Verse"
+  \sectNoBreak "Verse"
 
   a8 f4.~ f2 | r8 c'4 c8 c4 c8 c8~( | c8 a4.~ a2) | r8 c4 c8 c8 c8 c8 bf8 |
-  \break
   a8 f4.~ f2 | r8 c8 d8 f8 af4 g8 f8~ | f1 | r8 c'4 c8 c8 c4 bf8 |
   \break
   a8 f4.~ f2 | r8 a8 a8 c8 c4 c8 c8~( | c8 a4.~ a2) | r8 c8 c4 c8 c8 c8( bf8) |
-  \break
   a8 f4.~ f2 | r8 c8 d8 f8 af4 g8 f8 | f1 | r2 bf8 bf8 d4 |
 
   \sect "Chorus"
 
   f1~ | f4 ef8 d8 c8 bf8 a4 | f1 | r4 c'8 c8 c4 c4 |
-  \break
   g'1~ | g4 e4 c8 a4. | f1 | r4 bf4 bf8 bf4. |
   \break
   f'1~ | f4 ef4 c8 a4. | f1 | r4 c'4 e4. e8 |
-  \break
   e4 c2.~ | c8 a8 a8 a8 c8( bf8) a4 | f1 | r1 |
 
   \bar "|."

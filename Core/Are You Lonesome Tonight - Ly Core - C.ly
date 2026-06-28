@@ -58,21 +58,17 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A" }
 
   c4 g4. c8 | b2 e,8 g8 | b4 a4. b8 | a2 e8 g8 |
-  \break
   a4 g4 a4 | g4 f4. e8 | a2.~ | a2 f8 a8 |
   \break
   c4 b4. c8 | b2 f8 g8 | b4 a4. b8 | a2 d,8 e8 |
-  \break
   f4 g4 a4 | c4 b4 a4 | e2.~ | e2 g8 a8 |
 
-  \sectPageBreak "B"
+  \sect "B"
 
   bf4 a4 g4 | c4 a4. c8 | g4 f4 e4 | f2 f8 b8 |
-  \break
   c4 b4 a4 | d4 b4. d8 | a4 g4 fs4 | g2 e8 g8 |
   \break
   c4 b4. c8 | b2 c8 cs8 | e4 d4. e8 | d2 gs,8 a8 |
-  \break
   c4 b4 a4 | b4 c4 d4 \textToCodaLastTime | c2. | r2. |
 
   \bar "||-|."

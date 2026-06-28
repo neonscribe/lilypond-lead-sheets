@@ -80,7 +80,7 @@ introMelody = \relative f' {
 
   \bar "|."
   
-  \xPageBreak
+  \xxPageBreak
 }
 
 outroChords = \chordmode {

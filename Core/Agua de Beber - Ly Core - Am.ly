@@ -150,7 +150,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Bossa [Astrud Gilberto 1965]" 144
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   \repeat volta 2 {
   c'8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |

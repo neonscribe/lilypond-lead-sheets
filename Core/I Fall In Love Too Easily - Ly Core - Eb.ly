@@ -2,6 +2,12 @@
 
 songID = "2026-06-01T22:16:36.131795Z"
 
+%{
+
+"Customizer": { "toggles": [ "noIntro" ] }
+
+%}
+
 \include "../Include/lead-sheets.ily"
 
 headerTitle = "I Fall In Love Too Easily"

@@ -47,7 +47,7 @@ refrainMelody =  \relative a' {
   \bar ".|:"
   \repeat volta 2 {
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   \override MultiMeasureRest.expand-limit = 2
   \compressMMRests { R1*3_"(Drums)" }
@@ -78,6 +78,8 @@ refrainMelody =  \relative a' {
   <e g>8~\startTrillSpan <e g>2 | r8\stopTrillSpan d8 e8 f8 e4 d4 |
   c4 \tuplet 3/2 { d8 e8 d8 } c8 d4 c8~ | c8 g8 a8 b8 c8 d8 e8 f8 |
 
+  \xxPageBreak
+
   \sectPageBreak "B"
 
   g8( fs8 g8)
@@ -87,7 +89,6 @@ refrainMelody =  \relative a' {
   e8 <a c>8 r8 e8 <a c>2 | <a c>4( <gs b>8
   \once \override TrillSpanner.bound-details.left.text = ##f
   <a c>8~\startTrillSpan <a c>2) |
-  \break
   a8\stopTrillSpan f8 c8 a'8~ a8 f8 c4 | b'8 gs8 e8 b'8~ b8 gs8 e4 |
   \once \override TrillSpanner.bound-details.left.text = ##f
   <a c>2~\startTrillSpan <a c>4. e8~\stopTrillSpan | e4 d4 c4 b4 |
@@ -103,16 +104,12 @@ refrainMelody =  \relative a' {
   \once \override TrillSpanner.bound-details.left.text = ##f
   <e g>8~\startTrillSpan <e g>2 |
 
-  \break
-
   \alternative { \volta 1 {
 
   r8\stopTrillSpan d8 e8 f8 e4 d4 |
   c4 \tuplet 3/2 { d8 e8 d8 } c2 | r8 <e g c>8 r4 <g b d>4 <g b d>4 |
 
   <e g c>8 r8 r4 r2 |
-
-  \break
 
   } \volta 2 {
 

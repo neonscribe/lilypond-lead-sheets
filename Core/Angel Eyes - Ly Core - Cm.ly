@@ -89,7 +89,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Nat King Cole 1953]" 75
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   r8 c8 g'8 gf8~ gf4. f8 | ef4 \tuplet 3/2 { ef8 c8 ef8~ } ef2 |
   r8 c8 ef8 g8 d'8 df8 c8 g8~ |
@@ -117,7 +117,7 @@ refrainMelody = \relative f' {
   b2~ b8 a4 b16 a16 | d,8 d4.~ d4 r8 ff8 |
   gf8 gf8 gf8 gf8~ gf4 gf8 g8~ | g1 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   r8 c,8 g'8 gf8~ gf4. f8 | ef4 \tuplet 3/2 { ef8 c8 ef8~ } ef2 |
   r8 c8 ef8 g8 d'8 d8 c8 g8~ | g1 |

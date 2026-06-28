@@ -2,7 +2,8 @@
 
 %{
 
-"Customizer": { "choices": { "singerGender": [ "male", "female" ] } }
+"Customizer": { "toggles": [ "noIntro" ],
+		"choices": { "singerGender": [ "male", "female" ] } }
 
 %}
 
@@ -122,8 +123,8 @@ verseMelody = \relative g' {
   c8 c4.~ c2~ | c2~ c8 f,8 af8 f8 || c'8 c4.~ c2~ | c2. r4 |
 
   \bar "|."
-
-  \xPageBreak
+  
+  \xxPageBreak
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
@@ -211,8 +212,6 @@ refrainMelody = \relative g' {
   \clef \whatClef
 
   \sectStartRefrain "A1"
-
-  \set Score.currentBarNumber = #1
 
   c4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r2 r4 r8 f8 |
   \break

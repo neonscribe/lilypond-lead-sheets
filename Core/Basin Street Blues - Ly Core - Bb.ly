@@ -12,15 +12,15 @@ headerCopyright = "© 1928 - 1933 by Mayfair Music Corp., 1619 Broadway, New Yor
 
 verseProblematicLyrics = \lyricmode {
   Won't -- cha come a -- long with me,
-  \repeat unfold 5 { \skip 1 }
+  _ _ _ _ _
   To the Mis -- sis -- sip -- pi?
-  \repeat unfold 6 { \skip 1 }
+  _ _ _ _ _ _
   We'll take the boat to the land of dreams, __
   Steam down the riv -- er down __ to New __ Or -- leans. __
   The band's there to meet us,
-  \repeat unfold 5 { \skip 1 }
+  _ _ _ _ _
   Old friends to greet us,
-  \repeat unfold 5 { \skip 1 }
+  _ _ _ _ _
   Where all the light and the dark folks meet, __
   Heav -- en on earth, they call __ it Bas -- in Street. __
 }
@@ -40,55 +40,9 @@ verseLessRaciallyAwkwardLyrics = \lyricmode {
   Heav -- en on earth, they call __ it Bas -- in Street. __
 }
 
-verseLyrics = \verseLessRaciallyAwkwardLyrics
-
-verseChords = \chordmode {
-  \chordInsideParens{ f4:7 }
-  bf4 c4:m7 cs8:dim7 bf4./d bf4 c4:m7 cs8:dim7 bf4./d
-  bf4/d df4:m6 c8:m7 f4.:9 bf4/d df4:m6 c8:m7 f4.:9
-  bf2 bf2:7/af ef2:6/g ef2:m6/gf bf4/f r2. r2. f4:7
-
-  bf4 c4:m7 cs8:dim7 bf4./d bf4 c4:m7 cs8:dim7 bf4./d
-  bf4/d df4:m6 c8:m7 f4.:9 bf4/d df4:m6 c8:m7 f4.:9
-  bf2 bf2:7/af ef2:6/g ef2:m6/gf bf4/f r2. r1
-}
-
-verseKey = bf
-
-verseMelody = \relative f' {
-  \time 4/4
-  \key \verseKey \major
-  \clef \whatClef
-  \tempoFour "Medium Swing [Louis Armstrong 1929]" 122
-
-  \xTextMark \markup{ \bold \box "Verse" }
-
-  \partial 4 f8 f8 |
-  \bar "||"
-
-  d8 d8 ef4 e8 f4. | d8 d8 ef4 e8 f4. |
-  \break
-  bf8 bf8 af8 g8 f8 g4. | bf8 bf8 af8 g8 f8 g4. |
-  \break
-  f8 bf4 f8 bf4 f8 f8 | bf4 bf8 c8~ c2 |
-  \break
-  bf4 af8 g8 f8 g8 \tuplet 3/2 { d8( ef8) e8 } | f8( ef8) d8 bf8~ bf4 f'4 |
-  \break
-  d4 ef8 ef8 e8 f4. | d4 ef8 ef8 e8 f4. |
-  \break
-  bf4 af8 g8 f8 g4. | bf4 af8 g8 f8 g4. |
-  \break
-  f8 bf4 f8 bf4 f8 f8 | bf4 bf8 bf8~ bf2 |
-  \break
-  bf4 af8 g8 f8 g8 \tuplet 3/2 { d8( ef8) e8 } | f8( ef8) d8 bf8~ bf2 |
-
-
-  \bar "||"
-
-  \xPageBreak
-}
-
 refrainLyrics = \lyricmode {
+  \verseLessRaciallyAwkwardLyrics
+
   Ba -- sin Street __ is the street __ where the e -- lite __ al -- ways meet, __
   In New Or -- leans, __ Land of dreams, __
   You'll nev -- er know how nice it seems or just how much it real -- ly means,
@@ -98,6 +52,15 @@ refrainLyrics = \lyricmode {
 }
 
 refrainChords = \chordmode {
+  \chordInsideParens{ f4:7 }
+  bf4 c4:m7 cs8:dim7 bf4./d bf4 c4:m7 cs8:dim7 bf4./d
+  bf4/d df4:m6 c8:m7 f4.:9 bf4/d df4:m6 c8:m7 f4.:9
+  bf2 bf2:7/af ef2:6/g ef2:m6/gf bf4/f r2. r2. f4:7
+
+  bf4 c4:m7 cs8:dim7 bf4./d bf4 c4:m7 cs8:dim7 bf4./d
+  bf4/d df4:m6 c8:m7 f4.:9 bf4/d df4:m6 c8:m7 f4.:9
+  bf2 bf2:7/af ef2:6/g ef2:m6/gf bf4/f r2. r1
+
   bf1 d1:7 g1:9 g1:9
   c1:9 f1:13 bf2/d cs2:dim7 c2:m7 f2:9
   bf1 d1:7 g1:9 af2:7 g2:7
@@ -119,23 +82,34 @@ refrainMelody = \relative f' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \set Score.currentBarNumber = #1
+  \tempoFour "Medium Swing [Louis Armstrong 1929]" 122
 
-  \xTextMark \markup{ \bold \box "Refrain" }
+  \partial 4 f8 f8 |
+
+  \sectNoBreak "Verse"
+
+  d8 d8 ef4 e8 f4. | d8 d8 ef4 e8 f4. |
+  bf8 bf8 af8 g8 f8 g4. | bf8 bf8 af8 g8 f8 g4. |
+  f8 bf4 f8 bf4 f8 f8 | bf4 bf8 c8~ c2 |
+  bf4 af8 g8 f8 g8 \tuplet 3/2 { d8( ef8) e8 } | f8( ef8) d8 bf8~ bf4 f'4 |
+  d4 ef8 ef8 e8 f4. | d4 ef8 ef8 e8 f4. |
+  bf4 af8 g8 f8 g4. | bf4 af8 g8 f8 g4. |
+  f8 bf4 f8 bf4 f8 f8 | bf4 bf8 bf8~ bf2 |
+  bf4 af8 g8 f8 g8 \tuplet 3/2 { d8( ef8) e8 } |
+  f8( ef8) d8 bf8~ bf2 |
+  \bar "||"
+
+  \sectPageBreak "Refrain"
 
   d8 d4 d8~ d2 | d8 d4 d8~ d4 r8 d8 |
   d8 a'4 d,8~ d2 |
-  \break
   a'8 a4 g8~ g4 d4 |
   d8 d4 d8~ d2 | d8 f4 d8~ d4 f4 |
   c'8 c8 bf8 bf8 a8 a8 g8 g8 | bf8 bf8 a8 a8 g8 g8 f4 |
-  \break
   d8 d4 d8~ d2 | a'8 a4 fs8~ fs4 d4 |
   d8 a'4 g8~ g2 |
-  \break
   ef 8 ef4 d8~ d4 d4 |
   d8 a'4 g8~ g2 \textToCodaLastTime |
-  \break
   r4 d4 f8 d8 c8 bf8~ | bf1 | r1 |
   \bar "||-|."
 
@@ -146,4 +120,4 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-\include "../Include/verserefrain.ily"
+\include "../Include/refrainonly.ily"

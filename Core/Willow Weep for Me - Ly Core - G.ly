@@ -14,9 +14,7 @@ refrainLyrics = \lyricmode {
 Wil -- low weep for me, __ wil -- low weep for me, __
 Bend your branch -- es green __ a -- long the stream that runs to sea, __
 Lis -- ten to my plea,
-Lis -- ten wil -- low and weep for me. __
-
-_
+Lis -- ten wil -- low and weep for me. __ ""
 
 Whis -- per to the wind, __ and say that love has sinned, __
 To leave my heart a -- break -- ing and mak -- ing a moan, __
@@ -33,7 +31,7 @@ refrainLyricsTwo = \lyricmode {
 Gone my lov -- er's dream, __ love -- ly sum -- mer dream, __
 Gone and left me here __ to weep my tears in -- to the stream, __
 Sad as I can be,
-Hear me wil -- low and weep for me. __
+Hear me wil -- low and weep for me. __ ""
 }
 
 refrainChords = \chordmode {
@@ -83,7 +81,7 @@ refrainMelody = \relative f' {
   g8 c8 \tuplet 3/2 { d8 c8 ef8~ } ef4. c8 | bf8 g8 \tuplet 3/2 { bf8 g8 b8~ } b4. g8 |
   c8 c8 d8 c8 bf8 c4 bf8 | af8 bf8 \tuplet 3/2 { c8 ef8 d8~ } d4 d4 |
 
-  \sect "A2"
+  \sectPageBreak "A2"
 
   d8 d,8 \tuplet 3/2 { e8 g8 e8~ } e2 | d'8 d,8 \tuplet 3/2 { e8 g8 e8~ } e2 |
   d'8 d,8 \tuplet 3/2 { e8 g8 e8~ } e8 d8 \tuplet 3/2 { e8 g8 b8~ } | b8 g8 \tuplet 3/2 { e8 g8 e8~ } e2 |

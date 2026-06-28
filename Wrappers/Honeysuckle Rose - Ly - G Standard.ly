@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-subtitle = "Alernate Key Simple Chords"
+subtitle = "Alternate Key Simple Chords"
 whatKey = g
 whatClef = "treble"
 

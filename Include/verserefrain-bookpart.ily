@@ -2,12 +2,17 @@
 
 \version "2.26.0"
 
+verseFile =
+#(if (and (defined? 'noIntro) noIntro)
+  "../Include/nothing.ily"
+  "../Include/verse-score.ily")
+
 \include "pre-bookpart.ily"
 
 thisPart = \bookpart { 
   \include "../Include/toc-item.ily"
   \include \beforeTextFile
-  \include "../Include/verse-score.ily"
+  \include \verseFile
   \include \betweenTextFile
   \include "../Include/refrain-score.ily"
   \include \afterTextFile

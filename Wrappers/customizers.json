@@ -1,5 +1,9 @@
 [
 {
+    "toggles": [
+        "noIntro"
+    ]
+},{
     "choices": {
         "singerGender": [
             "male",
@@ -65,6 +69,10 @@
         ]
     }
 },{
+    "toggles": [
+        "noIntro"
+    ]
+},{
     "choices": {
         "alternateChords": [
             "hlrb",
@@ -110,6 +118,9 @@
         ]
     }
 },{
+    "toggles": [
+        "noIntro"
+    ],
     "choices": {
         "singerGender": [
             "male",
@@ -123,6 +134,14 @@
             "female"
         ]
     }
+},{
+    "toggles": [
+        "noIntro"
+    ]
+},{
+    "toggles": [
+        "noIntro"
+    ]
 },{
     "choices": {
         "alternateChords": [
@@ -145,6 +164,10 @@
             "newreal"
         ]
     }
+},{
+    "toggles": [
+        "noIntro"
+    ]
 },{
     "choices": {
         "alternateChords": [
@@ -189,6 +212,10 @@
             "male"
         ]
     }
+},{
+    "toggles": [
+        "noIntro"
+    ]
 },{
     "choices": {
         "alternateChords": [
@@ -269,6 +296,9 @@
         ]
     }
 },{
+    "toggles": [
+        "noIntro"
+    ],
     "choices": {
         "alternateChords": [
             "hlrb",
@@ -372,6 +402,10 @@
         ]
     }
 },{
+    "toggles": [
+        "noIntro"
+    ]
+},{
     "choices": {
         "singerGender": [
             "male",
@@ -440,12 +474,9 @@
         ]
     }
 },{
-    "choices": {
-        "singerGender": [
-            "male",
-            "female"
-        ]
-    }
+    "toggles": [
+        "noIntro"
+    ]
 },{
     "choices": {
         "singerGender": [
@@ -460,6 +491,17 @@
             "female"
         ]
     }
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "toggles": [
+        "noIntro"
+    ]
 },{
     "choices": {
         "singerGender": [
@@ -492,6 +534,9 @@
         ]
     }
 },{
+    "toggles": [
+        "noIntro"
+    ],
     "choices": {
         "singerGender": [
             "male",
@@ -503,6 +548,9 @@
         "withPianoAndBass"
     ]
 },{
+    "toggles": [
+        "noIntro"
+    ],
     "choices": {
         "singerGender": [
             "male",
@@ -521,6 +569,14 @@
         ]
     }
 },{
+    "toggles": [
+        "noIntro"
+    ]
+},{
+    "toggles": [
+        "noIntro"
+    ]
+},{
     "choices": {
         "singerGender": [
             "male",
@@ -535,6 +591,10 @@
             "simple"
         ]
     }
+},{
+    "toggles": [
+        "noIntro"
+    ]
 },{
     "choices": {
         "singerGender": [

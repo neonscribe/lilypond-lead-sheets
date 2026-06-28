@@ -4,7 +4,8 @@
 
 %{
 
-"Customizer": { "choices": { "alternateChords": [ "hlrb", "original" ] } }
+"Customizer": { "toggles": [ "noIntro" ],
+		"choices": { "alternateChords": [ "hlrb", "original" ] } }
 
 %}
 

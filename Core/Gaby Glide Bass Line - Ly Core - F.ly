@@ -82,8 +82,6 @@ refrainMelody = \relative f' {
   \break
   c'4 r4 c4 r4 | c4 r4 c4 r4 | c4 a4 g4 e4 | c4 r4 c4\sfz r4 |
 
-  \xPageBreak
-
   \bar ".|:-||"
   \repeat volta 2 {
 

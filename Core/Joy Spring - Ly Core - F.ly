@@ -60,7 +60,6 @@ refrainMelody = \relative f' {
   c2~ c8 a8 \tuplet 3/2 { g16 a16 g16 } f8 | g4. a8 r2 |
   r8 c,8 f8 d'8 c8 a8 \tuplet 3/2 { g16 a16 g16 } f8 |
   af8 f16 df16 bf8 g'8~ g4 \tuplet 3/2 { f8 g8 f8 } |
-  \break
   c'8 f,4. f4. f8~ | f8 c8 f8 bf8 \tuplet 3/2 { a16 bf16 a16 } f8 d8 c8 |
   f8 c8 g'8 f8 r2 | r8 bf8 af8 gf8 f8 df8 gf8 df'8~ |
 
@@ -69,7 +68,6 @@ refrainMelody = \relative f' {
   df2~ df8 bf8 \tuplet 3/2 { af16 bf16 af16 } gf8 | af4. bf8 r2 |
   r8 df,8 gf8 ef'8 df8 bf8 \tuplet 3/2 { af16 bf16 af16 } gf8 |
   a8 fs16 d16 b8 gs'8~ gs4 \tuplet 3/2 { fs8 gs8 fs8 } |
-  \break
   df'8 gf,4. gf4. gf8~ | gf8 df8 gf8 cf8 bf8 gf8 \tuplet 3/2 { ef16 f16 ef16 } df8 |
   gf8 df8 af'8 gf8 r2 | r8 b8 a8 e8 g8 f8 \tuplet 3/2 { fs8 a8 ef'8 } |
 
@@ -79,7 +77,6 @@ refrainMelody = \relative f' {
   bf8 f8 \tuplet 3/2 { e16 f16 e16 } d8 e8 df'8 \tuplet 3/2 { c16 df16 c16 } bf8 |
   c4. a8 \tuplet 3/2 { g16 a16 g16 } f8 af4~ |
   af8 ef8 \tuplet 3/2 { d16 ef16 d16 } c8 d8 df'8 \tuplet 3/2 { cf16 df16 cf16 } a8 |
-  \break
   bf4 \tuplet 3/2 { g8 f8 ef8 } f4 g8 af8 | r8 bf8 cf8 df8 bf8 af8 g8 af8 |
   df4 \tuplet 3/2 { bf8 af8 gf8 } af4 bf4-. | r8 a8 g8 f8 e8 c8 f8 c'8~ |
 
@@ -88,35 +85,27 @@ refrainMelody = \relative f' {
   c2~ c8 a8 \tuplet 3/2 { g16 a16 g16 } f8 | g4. a8 r2 |
   r8 c,8 f8 d'8 c8 a8 \tuplet 3/2 { g16 a16 g16 } f8 |
   af8 f16 df16 bf8 g'8~ g4 \tuplet 3/2 { f8 g8 f8 } |
-  \break
   c'8 f,4. f4. f8~ | f8 c8 f8 bf8 \tuplet 3/2 { a16 bf16 a16 } f8 d8 c8 |
   f8 c8 g'8 f8 r2 | r1 |
 
   \bar "|."
 
-  \xPageBreak
-
-  \sectNoBar "Solos"
+  \sect "Solos"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-
   \bar "||-||"
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-
   \bar "||-||"
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-
   \bar "||-||"
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-
-  \bar "||-||"
 
   \bar "|."
 }

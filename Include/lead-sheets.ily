@@ -2,6 +2,8 @@
 
 \pointAndClickOff
 
+inBook = #(and (defined? 'inBook) inBook)
+
 printNoteNames = 
   #(if (defined? 'printNoteNames)
     printNoteNames
@@ -44,11 +46,11 @@ codaLeadingEighth = ##f
 
 \include "ambitus-engraver.ily"
 \include "text-mark.ily"
+\include "utilities.ily"
 \include "modern-codas.ily"
 \include "jazz-chords.ily"
 \include "english.ly"
 \include "presets.ily"
-\include "utilities.ily"
 \include "scoop.ily"
 \include "swing.ly"
 \include "scoop.ily"

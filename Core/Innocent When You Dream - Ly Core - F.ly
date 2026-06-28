@@ -27,7 +27,7 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Waltz [Tom Waits 1987]" 153
 
-  \xTextMark \markup { "Intro" }
+  \sectNoBar "Intro"
 
   <f, a c>2.~ | <f a c>2 r8 <a c f>8 | <a c f>2.~ | <a c f>2 r8 <f' a c>8 |
   <f a c>2.~ | <f a c>2 r8 <a c f>8 | <a c f>2.~ |
@@ -71,39 +71,30 @@ refrainMelody = \relative f' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \xTextMark \markup { "Verse" }
 
   \partial 4 d4 |
-  \bar "||"
+
+  \sectNoBreak "Verse"
 
   c2 c4 | c2~ c8 c8 | c4 bf2 | r2 d4 |
   c2 d4 | c2~ c8 bf8 | a2. | r2 c4 |
-  \break
   cs2 bf4 | a2 g4 | g4 f2 | r2 d'4 |
   d2 bf4 | f2 d'4 | c2. | r2 d4 |
-  \break
   c2 bf4 | a2 g 4 | f2. | r2. | r2. |
   r4 a4 bf4 |
-  \bar "||-||"
-  \break
 
-  \xTextMark \markup { "Chorus" }
+  \sect "Chorus"
 
   c2 c4 | c2 c4 | c2 bf4 |
   r4 d4. d8 | c2 d4 | c2 bf4 | a2. | r2 c4 |
-  \break
   c8 a8 f2 | d'2 c4 | c4 bf2 | c2 bf4 |
   a8 g8 f4 r4 | f2 d4 | c2 r4 | f2 d4 |
-  \break
   c4 r4 c'4 | a8 g8 f4 r4 | f2 d4 | c2 r4 |
   f2 d4 | c4 r4 c'4 | a8 g8 f4 r4 | bf2 g4 |
-  \break
   f2.~ | f2 r4 | r2. |
   \partial 2 r2 |
 
   \bar "|."
-
-  \xPageBreak
 }
 
 afterText = \markup {
@@ -111,9 +102,7 @@ afterText = \markup {
     \line { \large { I made a golden promise, that we would never part. } }
     \line { \large { I gave my love a locket and then I broke her heart, } }
     \line { \large { and then I broke her heart. } }
-  }
-  \vspace #1
-  \column {
+    \vspace #1
     \line { \large { We're running through the graveyard and we laughed, my friends and I. } }
     \line { \large { We swore we'd be together until the day we died, } }
     \line { \large { until the day we died. } }

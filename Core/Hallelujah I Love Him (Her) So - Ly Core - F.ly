@@ -138,7 +138,6 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   r8 c'8 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 | r8 c8 d8 c8 af8 g8 f8 d8 | f4 f8 d8~( d8 c8) r4 |
-  \break
   r4 d'8 c8 af8 g8 f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
   \break
   a4( c4) r4 a8 a8 | g8( f4.) r4 af8 g8 |
@@ -159,10 +158,9 @@ refrainMelody = \relative f' {
 
   af8 g8 f8 d8 f4 f8 f8~ | f8 r8 r4 r2 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   r8 d8 f8 d8 f8 d8 f8 d8 | f8 f8 f4 r2 | r4 a4 d8 c8 a8 f8 | a4 f8 g8~ g4 r4 |
-  \break
   r4 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 g8 d8
   \override NoteHead.style = #'cross
   g8 g8 g8 g8 |
@@ -172,11 +170,9 @@ refrainMelody = \relative f' {
   \sect "A3"
 
   r4 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 |
-  \break
   r4 d8 c8 af8 g8 f8 d8 | f4 f8 d8~ d8( c8) r4 |
   \break
   r8 c'8 d8 c8 af8( g8) f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
-  \break
   a8( c4.) r4 a8 a8 | g8( f4.) r4 af8 g8 | af8 g8 f8 d8 f4 f8 f8~ | f1~ | f2 r2 |
 
   \bar "|."

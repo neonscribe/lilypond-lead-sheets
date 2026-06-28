@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "noIntro" ] }
+
+%}
+
 songID = "2026-06-01T22:16:55.465785Z"
 
 \include "../Include/lead-sheets.ily"
@@ -23,7 +29,7 @@ verseChords = \chordmode {
   d1 d1 b1:7 b1:7
   e2:m e:m7.5- a1:7 d1:7 a1:7.9- d1 d2 a2:7.5+
   d1 d1 b1:7 b1:7
-  e1:m7.5- a1:7 e1:m7.5- a1:7
+  e1:m7.5- a1:7 e1:m7.5- a2.:7
 }
 
 verseKey = d
@@ -71,7 +77,7 @@ refrainLyrics = \lyricmode {
   The thrill is gone! __
 }
 
-refrainHLChords = \chordmode {
+refrainChords = \chordmode {
   s4
 
   d1:m7 d1:m7 g1:7 g1:7
@@ -88,26 +94,6 @@ refrainHLChords = \chordmode {
   \chordOpenParen{ e2:m7.5- }
   \chordCloseParen{ a2:7.9- }
 }
-
-refrainNicoChords = \chordmode {
-  s4
-
-  d1:m7 d1:m7 g1:7 g1:7
-  g2:m7 c2:7 f1:maj7 e2:m7.5- a2:7.5+.9- d1:m7
-  e2:m7.5- a2:7.9- d2:m7 bf2:maj7 g1:m7 a1:7.5+
-
-  d1:m7 d1:m7 g1:7 g1:7
-  g2:m7 c2:7 f1:maj7 e2:m7.5- a2:7.5+.9- d1:m7
-  e2:m7.5- a2:7.9- d2:m7 bf2:maj7 g1:m7 a1:7.5+.9-
-
-  d2:m d2:m7/c b1:m7.5- bf1:9.11+ a1:sus7
-  g2:m7 g2:m7/f ef1:9.11+ e1:m7.5- a1:7.9- d1:m
-
-  \chordOpenParen{ e2:m7.5- }
-  \chordCloseParen{ a2:7.9- }
-}
-
-refrainChords = \refrainNicoChords
 
 refrainKey = d
 isMinor = ##t

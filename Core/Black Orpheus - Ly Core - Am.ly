@@ -60,36 +60,31 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   c'2. b8 a8 | a2. gs8 b8 | e,1~ | e2. e4 |
-  \break
   c'2. b8 a8 | a2. g8 b8 | e,1~ | e2 r8 e8 f8 g8 |
 
   \sect "B"
 
   a4. d,8 d2~ | d2 r8 d8 e8 f8 | g4. c,8 c2~ | c2 r8 c8 d8 e8 |
-  \break
   f4. b,8 b2~ | b2 r8 b8 c8 d8 | e1~ | e2. e4 |
 
   \sect "A2"
 
   c'2. b8 a8 | a2. gs8 b8 | e,1~ | e2. e4 |
-  \break
   bf'2. a8 g8 | g2. f8 e8 | a1~ | a2. d,4 |
 
   \sect "C"
 
   d2. e8 f8 | b1 | r4 c,4 c4 d8 e8 | a2. gs4 |
-  \break
   e1 \textToCodaLastTime | r2 e4 gs8 b8 | a1~ | a2. \parenthesize e4 |
 
   \bar "|."
 
-  \xPageBreak
+  \xxPageBreak
 
   \textCoda
 
   r2 e4 gs8 b8 | a1~ | a2. a8 b8 |
   c4 d8 c8 b4 a8 b8 |
-  \break
   c4 d8 c8 b4 a8 b8 |
   c4 d8 c8 b4 a8 g8 | a1~ | a2. r4 |
 

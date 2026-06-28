@@ -93,7 +93,15 @@ rsw = {
 }
 
 xPageBreak = {
-  \pageBreak
+  \autoPageBreaksOn
+  \autoPageBreaksOff
+  \allowPageTurn
+  \once \override Score.Clef.break-visibility = #begin-of-line-visible
+  \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
+}
+
+xxPageBreak = {
+  \pageTurn
   \once \override Score.Clef.break-visibility = #begin-of-line-visible
   \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
 }
@@ -116,6 +124,7 @@ sect =
 #(define-music-function (s)
    (string?)
   #{ \bar "||-||"
+     \autoPageBreaksOn
      \break
      \xTextMark \markup{ \bold \box #s } #} )
 
@@ -123,6 +132,7 @@ sectSegno =
 #(define-music-function (s)
    (string?)
   #{ \bar "||-||"
+     \autoPageBreaksOn
      \break
      \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
 
@@ -130,6 +140,7 @@ sectGap =
 #(define-music-function (s)
    (markup?)
   #{ \bar "||-||"
+     \autoPageBreaksOn
      \break
      \xTextMark \markup{ \pad-around #3 { \bold \box #s } } #} )
 
@@ -142,31 +153,36 @@ sectNoBreak =
 sectNoBar =
 #(define-music-function (s)
    (string?)
-  #{ \break
+  #{ \autoPageBreaksOn
+     \break
      \xTextMark \markup{ \bold \box #s } #} )
 
 sectNoBarSegno =
 #(define-music-function (s)
    (string?)
-  #{ \break
+  #{ \autoPageBreaksOn
+     \break
      \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
 
 sectStartRefrain =
 #(define-music-function (s)
    (string?)
-  #{ \break
+  #{ \autoPageBreaksOn
+     \break
      \xTextMark \markup{ "Refrain" \bold \box #s } #} )
 
 sectStartSolos =
 #(define-music-function (s)
    (string?)
-  #{ \break
+  #{ \autoPageBreaksOn
+     \break
      \xTextMark \markup{ "Solos" \bold \box #s } #} )
 
 sectStartRefrainSegno =
 #(define-music-function (s)
    (string?)
-  #{ \break
+  #{ \autoPageBreaksOn
+     \break
      \xTextMark \markup{ \musicglyph #"scripts.segno" "Refrain" \bold \box #s } #} )
 
 sectNoBarNoBreak =
@@ -183,6 +199,7 @@ sectPageBreak =
 #(define-music-function (s)
    (string?)
   #{ \bar "||"
+     \break
      \xPageBreak
      \xTextMark \markup{ \bold \box #s } #} )
 

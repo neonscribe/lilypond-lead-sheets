@@ -104,6 +104,8 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Lena Horne 1959]" 118
 
   \partial 8 g8 |
+  
+  \sectNoBreak "Verse 1&2"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -120,21 +122,18 @@ refrainMelody = \relative f' {
   } \volta 2 {
   g2. r4 |
   } } }
-  \bar "||-||"
 
-  \break
+  \sect "Solo"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq r8 d8 |
 
-  \break
+  \sect "Verse 3&4"
 
   \bar ".|:-||"
   \repeat volta 2 {
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
-
-  \break
 
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { bf4 g4 bf4 } |
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { bf4 g4 bf4 } |
@@ -146,13 +145,12 @@ refrainMelody = \relative f' {
   } } }
   \bar "||-||"
 
-  \xPageBreak
+  \sect "Solo"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq r8 d8 |
-  \bar "||-||"
 
-  \break
+  \sect "Chorus"
 
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
@@ -163,9 +161,8 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { bf4 g4 bf4 } |
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { f4 d4 f4 } |
   g2. r8 g'8 |
-  \bar "||-||"
   
-  \break
+  \sect "Bridge"
 
   \tuplet 3/2 { f4 ef4 df4 } \tuplet 3/2 { c4 bf4 af4 } |
   \tuplet 3/2 { g4 f4 g4 } \tuplet 3/2 { af4 bf4 c4 } |
@@ -173,9 +170,8 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { c4 bf4 a4 } \tuplet 3/2 { g4 f4 e4 } |
   \tuplet 3/2 { d4 c4 d4 } \tuplet 3/2 { e4 f4 g4 } |
   a4. a8 a4. a8 | bf2. d,4 |
-  \bar "||-||"
 
-  \xPageBreak
+  \sect "Verse 5"
 
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
   \tuplet 3/2 { d'4 df4 g,4 } \tuplet 3/2 { c4 cf4 g4 } | bf2. r8 g8 |
@@ -183,9 +179,8 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { bf4 g4 bf4 } |
   \tuplet 3/2 { g4 bf4 g4 } \tuplet 3/2 { f4 d4 f4 } |
   g1~ | g2 r4 g4 |
-  \bar "||-||"
 
-  \break
+  \sect "Outro"
 
   \tuplet 3/2 { a4 bf4 c4 } \tuplet 3/2 { a4 bf4 c4 } |
   d2~ \tuplet 3/2 { d4 r4 d,4 } | \tuplet 3/2 { e4 fs4 g4 } \tuplet 3/2 { gs4 b4 a4 } |

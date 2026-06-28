@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "noIntro" ] }
+
+%}
+
 songID = "2026-06-01T22:16:52.11297Z"
 
 \include "../Include/lead-sheets.ily"

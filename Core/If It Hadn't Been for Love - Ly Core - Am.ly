@@ -119,8 +119,6 @@ refrainMelody = \relative f' {
   \bar ":|."
   } \volta 2,3 {
 
-  \xPageBreak
-
   r1 |
   \sectNoBreak "Chorus"
 

@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Slow Waltz [Neil Young 1970]" 78
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   \ambitusOff
   b2~ b8 bf8 b2~ b8 bf8 | e,2.~ e2. | gs2. gs4 fs4 gs4 | e2. cs'4 b4 e,4 |
@@ -101,8 +101,7 @@ refrainMelody = \relative f' {
   \time 4/4
   b1~ | b1 | r1 | r2 r4 e,4 |
 
-  \segnoSign
-  \sect "Verse 2"
+  \sectSegno "Verse 2"
   \time 6/4
 
   gs4 b4 b4 b2 b4 | a4 b4 b4~ b4 r8 cs8~( cs8 b8~ | b4) b4 gs8 gs8~ gs2. | r2. r2 r8 e8 |
@@ -113,7 +112,7 @@ refrainMelody = \relative f' {
   \time 4/4
   b1~ | b1~ | b2 r2 | r1  \textToCoda |
 
-  \sect "Bridge"
+  \sectPageBreak "Bridge"
 
    r1 | r2 r4 gs4 |
   \time 6/4

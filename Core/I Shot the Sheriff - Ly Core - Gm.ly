@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \time 4/4
   g1 |
 
-  \bar "|."
+  \bar "||-|."
   \break
 
   \xTextMark \markup{ \bold \box "Outro" }

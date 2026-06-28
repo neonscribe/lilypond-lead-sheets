@@ -76,9 +76,9 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoTwo "Mexican Polka [Mariachi Mexico 1991]" 142
 
-  \xTextMark \markup{ \bold \box "A" }
-
   \partial 2. d4-.\upbow df4-. c4-. |
+
+  \sectNoBreak "A"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -103,7 +103,9 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   %% \break
   \key c \major
-  \xTextMark \markup{ \bold \box "B" }
+
+  \sect "B"
+
   \repeat volta 2 {
   g1~\downbow_\markup \italic { "Repeat 8va" } | g4 e4( f4 g4) | a1~ | a4 f4( g4 a4) |
   %% \break
@@ -120,7 +122,9 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   %% \break
   \key g \major
-  \xTextMark \markup{ \bold \box "C" }
+
+  \sect "C"
+
   \repeat volta 2 {
   d,8\downbow e8 fs8 g8 a8 b8 c8 d8 | e8 d8 b8 g8 d4 g'4 | fs8 e8 c8 a8 fs4 fs'4 | e8 d8 b8 g8 d4 r4 |
   %% \break
@@ -131,8 +135,9 @@ refrainMelody = \relative f' {
     g2 r4 \bar "!" d'4\upbow |
     }}
   \bar ".|:-||"
-  \xPageBreak
-  \xTextMark \markup{ \bold \box "A'" }
+
+  \sectPageBreak "A'"
+
   \repeat volta 2 {
     b'8\downbow d,8 d8 d8 a'8 d,8 d8 d8 | g8 d8 d8 d8 d8 d8 d8 d8 |
     g8 d8 d8 d8 fs8 d8 d8 d8 | e8 d8 d8 d8 d8 d8 d8 d8 |
@@ -153,7 +158,9 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   %% \break
   \key d \major
-  \xTextMark \markup{ \bold \box "D" }
+
+  \sect "D"
+
   \repeat volta 2 {
   a4\downbow r4 g4 r4 | fs4 e8 fs8 g4-.( fs4)-. | e4 d8 e8 fs4-.( e4)-. | d8 a8 fs8 a8 d8 e8 fs8 g8 |
   %% \break
