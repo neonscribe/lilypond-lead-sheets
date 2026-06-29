@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Fred Astaire 1935]" 160
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectNoBar "A1,A2"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -96,11 +96,9 @@ refrainMelody = \relative f' {
   c1\repeatTie | r2 r8 g'4 df8 |
   } } }
 
-  \break
+  \sectNoBar "B"
 
-  \xTextMark \markup{ \bold \box "B" }
-
-  \bar ".|:"
+  \bar ".|:-||"
   \repeat volta 2 {
   f4 g4 b4 d8 c8~ | c8 c4. r8 g4 gf8 | f4 g4 b8 d4 c8~ | c2 r8 g4 gf8 |
   \break

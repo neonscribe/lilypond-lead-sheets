@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+\version "2.26.0"
+
 songID = "2026-06-01T22:16:29.210373Z"
 
 \include "../Include/lead-sheets.ily"
@@ -173,6 +175,9 @@ refrainMelody = \relative f' {
 
   f2 a,4. d8~ | d2. f4 | e2 b4. d8~ | d2~ d8 e4. |
   f2 bf,4. cs8~ | cs2~ cs8 f4 e8~ | e8 d4 f8~ f8 e4 d8 | a2. r4 |
+
+  %% \break
+
   f'2 a,4. b8~ | b2. d4 | c4. e8~ e2~ | e4 e8 d8~ d8 c4 c8~ |
   c4. bf8~ bf2~ | bf4 f'8 e8~ e8 d4 d8~ | d4 cs8 e8~ e8 cs8 bf4~ | bf2. a4 |
 
@@ -180,23 +185,30 @@ refrainMelody = \relative f' {
 
   f'2 a,4. d8~ | d2. f4 | e2 b4. d8~ | d2~ d8 e4. |
   f2 bf,4. cs8~ | cs2~ cs8 f4 e8~ | e8 d4 cs8 d4 ef4~ | ef4 d8 fs8~ fs8 a4 g8~ |
+
+  %% \break
+
   g2 bf4. cs,8~ | cs2~ cs8 a'4 g8~ | g8 f4 a8~ a8 g8 f4 | e4 d8 cs8~ cs8 d4 f8~ |
   f8 d4 b8~ b8 d4. | f8 df4 bf8~ bf8 f'4 d8~ | d1 | r1 |
 
-  \xxPageBreak
-
-  \sect "C"
+  \sectPageBreak "C"
 
   \key \refrainKey \major
   fs2. a8 g8~ | g2~ g8 ds4 fs8~ | fs4. e8 ds8 e4 b'8~ | b4 g8 e8~ e8 b4 d8~ |
   d4. cs8~ cs2~ | cs4 e8 cs8~ cs8 a4 b8~ | b2~ b4. a8~ | a1 |
+
+  %% \break
+
   r8 cs8 e8 d8 cs8 d4 f8~ | f8 af4 cs8~ cs8 b4 a8~ | a8 g4 b,8~ b2~ | b4 b8 cs8~ cs8 d4 fs8~ |
   fs8 e4 d8 b4 gs4~ | gs4 b8 cs8~ cs8 e4 d8~ | d2~ d4. cs8~ | cs1 |
 
-  \sect "D"
+  \sectPageBreak "D"
 
   fs2 a,4. b8~ | b2. fs'4 | e2 b4. d8~ | d2~ d8 e4. |
   fs2 as,4. cs8~ | cs2~ cs8 fs4 e8~ | e8 d4 cs8 d4 e4~ | e4 d8 fs8~ fs8 b4 a8~ |
+
+  %% \break
+
   a8 fs4 d8~ d8 b4 a'8~ | a8 fs4 d8~ d8 bf4 gs'8~ | gs4 e8 cs8~ cs8 a4. | gs'8 b4 g8~ g8 b4 fs8~ |
   fs8 d4 b8 d4 fs4~ | fs4 d8 b8~ b8 d4 fs8~ | fs2~ fs8 fs8 g8 a8 | b4 a8 g8~ g8 fs4 d8~ |
   d8 b4 d8 fs4 d4~ | d4 b8 d8~ d8 fs4 d8~ | d1 | r1 |
