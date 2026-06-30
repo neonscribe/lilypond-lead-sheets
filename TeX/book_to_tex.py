@@ -1,6 +1,6 @@
 # Convert a .book file into a .tex file
 
-import sys, pathlib, re, os, pypdf
+import re, sys, os, tempfile, shutil, subprocess, pypdf, pathlib
 
 def book_to_tex(arg_filename):
     source_path = pathlib.Path(arg_filename)
@@ -82,7 +82,7 @@ def book_to_tex(arg_filename):
         if str(no_suffix_path).startswith("../Wrappers/"):
             pdf_files.append(source_to_dest(no_suffix_path))
         else:
-            pdf_files.append(no_suffix_path)
+            pdf_files.append(str(no_suffix_path))
 
 
     texfile_start = f"""
@@ -172,6 +172,40 @@ def book_to_tex(arg_filename):
             else:
                 previous_title_prefix = 'No Such Title'
         f.write(texfile_end)
+
+    return tex_filename
+
+def book_to_tex_to_pdf(arg_filename):
+    source_path = pathlib.Path(arg_filename)
+
+    if not (source_path.is_file() and os.access(source_path, os.R_OK)):
+        source_path = source_path.with_suffix(".book")
+        if not (source_path.is_file() and os.access(source_path, os.R_OK)):
+            sys.exit(f"{arg_filename} is not a readable book file")
+
+    current_directory = pathlib.Path.cwd()
+    parent_directory = current_directory.parent
+    working_directory = parent_directory / 'TeXify'
+    output_directory = parent_directory / 'Book'
+
+    base_name = pathlib.Path(source_path.name).with_suffix("")
+    book_filename = base_name.with_suffix(".book")
+
+    shutil.copy(source_path, working_directory / book_filename)
+    os.chdir(working_directory)
+
+    tex_filename = book_to_tex(working_directory / book_filename)
+    pdf_filename = tex_filename.with_suffix(".pdf")
+    
+    # 1. Search for the absolute path of the executable
+    executable_path = shutil.which("lualatex")
+
+    if executable_path:
+        subprocess.run([executable_path, "--output-format=pdf", tex_filename], check=True)
+    else:
+        sys.exit("lualatex not found in system PATH.")
+
+    shutil.copy(pdf_filename, output_directory)
 
 if __name__ == "__main__":
     book_to_tex(sys.argv[1])

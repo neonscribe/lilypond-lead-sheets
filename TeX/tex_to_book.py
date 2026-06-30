@@ -1,6 +1,6 @@
 # Convert a PDF-assembling .tex file into a .book file to use as input to lilybook.py
 
-import sys, pathlib, re, os
+import re, sys, os, tempfile, shutil, subprocess, pypdf, pathlib
 
 def convert(arg_filename):
     warned_about_bare_pdf = False

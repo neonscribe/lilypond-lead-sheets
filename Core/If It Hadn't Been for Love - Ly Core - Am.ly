@@ -11,7 +11,7 @@ headerComposer =  "Michael Henderson and Chris Stapleton"
 headerCopyright = "© 2004 Chicken Shack Songs"
 
 refrainLyrics = \lyricmode {
-\set stanza = "1. "
+\stanza "1. "
 Nev -- er would -- 've hitch -- hiked to Birm -- ing -- ham if it had -- n't been for love.
 Nev --er would -- 've caught the train to Lou -- 'si -- an', if it had -- n't been for love.
 Nev --er would -- 've run through the blind -- in' rain with -- out one dol -- lar to my name,
@@ -25,7 +25,7 @@ If it had -- n't been, if it had -- n't been for love.
 }
 
 refrainLyricsTwo = \lyricmode {
-\set stanza = "2. "
+\stanza "2. "
 Nev -- er would -- 've seen the trouble that I'm in if it had -- n't been for love.
 Would -- 've been _ gone _ like a way -- ward wind if it had -- n't been for love.
 No -- bod -- y knows it bet -- ter than me.
@@ -34,7 +34,7 @@ if it had -- n't been, if it had -- n't been for love.
 }
 
 refrainLyricsThree = \lyricmode {
-\set stanza = "3. "
+\stanza "3. "
 Nev -- er would -- 've gone to that side of town if it had -- n't been for love.
 Nev -- er would -- 've took a mind to track her down if it had -- n't been for love.
 Nev -- er would -- 've loaded up a four -- ty -- four, put my -- self behind a jail -- house door,
@@ -42,7 +42,7 @@ if it had -- n't been, if it had -- n't been for love.
 }
 
 refrainLyricsFour = \lyricmode {
-\set stanza = "4. "
+\stanza "4. "
 Nev -- er would -- 've hitch -- hiked to Birm -- ing -- ham if it had -- n't been for love.
 Nev --er would -- 've caught the train to Lou -- 'si -- an', if it had -- n't been for love.
 Nev -- er would -- 've loaded up a four -- ty -- four, put my -- self behind a jail -- house door,

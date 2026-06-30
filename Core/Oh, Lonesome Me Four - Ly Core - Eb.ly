@@ -42,7 +42,7 @@ introMelody = \relative f' {
 }
 
 refrainObjectGenderFemaleLyrics = \lyricmode {
-\set stanza = "1. "
+\stanza "1. "
 _ Ev  -- 'ry -- bod -- y's go -- in' out __ and hav -- in' fun. __
 I'm just a fool for stay -- in' home __ and hav -- in' none. __
 I can't get o -- ver how she set me free.
@@ -57,7 +57,7 @@ I'd wel -- come her __ right back here in __ my arms.
 }
 
 refrainObjectGenderMaleLyrics = \lyricmode {
-\set stanza = "1. "
+\stanza "1. "
 _ Ev  -- 'ry -- bod -- y's go -- in' out __ and hav -- in' fun. __
 I'm just a fool for stay -- in' home __ and hav -- in' none. __
 I can't get o -- ver how she set me free.
@@ -72,14 +72,14 @@ I'd wel -- come her __ right back here in __ my arms.
 }
 
 refrainLyricsTwo = \lyricmode {
-\set stanza = "2. "
+\stanza "2. "
 A bad mis -- take I'm mak -- in' by just hang -- in' 'round.
 I know that I should have some fun and paint the town.
 A love -- sick fool that's blind and just can't see.
 }
 
 refrainLyricsThree = \lyricmode {
-\set stanza = "3,4. "
+\stanza "3,4. "
 There must be some way I can lose these lone -- some blues. __
 For -- get a -- bout __ the past and find some -- bod -- y new. __
 I've thought of ev -- 'ry -- thing from A __ to Z.

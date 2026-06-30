@@ -29,7 +29,7 @@ introMelody = \relative f'' {
 }
 
 refrainLyrics = \lyricmode {
-\set stanza = "1. "
+\stanza "1. "
 You broke my heart in lit -- tle bit -- ty pie -- ces and spread them all o -- ver the ground.
 You come back to me and say your love in -- crea -- ses but each time you al -- ways let me down.
 You lied last night when you kissed me. I cried last night 'cause that's hist' -- ry to -- day.
@@ -42,12 +42,12 @@ All those shat -- tered dreams and tears that flood my heart that you broke in l
 refrainLyricsTwo =
 { \override Lyrics.LyricText.font-shape = #'italic
   \lyricmode {
-    \set stanza = "2. "
+    \stanza "2. "
     (solo)
 } }
 
 refrainLyricsThree = \lyricmode {
-\set stanza = "3. "
+\stanza "3. "
 There is -- n't any use to think about mend -- ing. It's bro -- ken too bad -- ly for re -- pair.
 Why take a -- buse _ and go on _ pre -- tend -- ing, hop -- ing that _ some -- day you might care.
 I guess I'll just go on weep -- in', hopin' that some -- day you'll come sweep -- in' a -- way.

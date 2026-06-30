@@ -15,14 +15,14 @@ headerCopyright = "© 1966 Northern Songs Ltd."
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _
 
-\set stanza = "1. "
+\stanza "1. "
 I once had a girl, or should I say she once had me.
 She showed me her room is -- n't it good Nor -- we -- gian wood.
 
 She asked me to stay and she told me to sit an -- y -- where.
 So I looked a -- round and I no -- ticed there was -- n't a chair.
 
-\set stanza = "2. "
+\stanza "2. "
 I sat on a rug, bid -- ing my time, drink -- ing her wine.
 We talked un -- til two and then she said, “It's time for bed.”
 }
@@ -30,7 +30,7 @@ We talked un -- til two and then she said, “It's time for bed.”
 refrainLyricsTwo = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _
 
-\set stanza = "3. "
+\stanza "3. "
 \once \override LyricText.font-shape = #'italic
 \once \override LyricText.self-alignment-X = #LEFT
 Instrumental _ _ _ _ _ _ _ _ _ _ _ _
@@ -42,7 +42,7 @@ _ _ _ _ _ _ _ _ _ _ _ _
 She told me she worked in the morn -- ing and start -- ed to laugh.
 I told her I did -- n't and crawled off to sleep in the bath.
 
-\set stanza = "4. "
+\stanza "4. "
 And when I a -- woke I was a -- lone, this bird had flown.
 So I lit a fire, is -- n't it good Nor -- we -- gian wood.
 }

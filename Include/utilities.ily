@@ -472,3 +472,10 @@ tocTruncateSubtitle =
      ;; shortest subtitle allowed is 12
      (let ((subtrunc (max 12 (- limit titlelen))))
       (substring sub 0 subtrunc)))))
+
+stanzaPatchFile = 
+#(if (ly:version? < '(2 27))
+     "../Include/stanza-patch.ily"
+     "../Include/nothing.ily")
+
+\include \stanzaPatchFile
