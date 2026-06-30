@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium" 120
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   c4 ef4 f4 af4 | c4 ef4~ \tuplet 3/2 { ef4 c4 b4 } |
   \tuplet 3/2 { c4 ef,4 f4 } af2~ | af2. r4 |
@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   c,4 ef4 f4 af4 | c4 f4~ \tuplet 3/2 { f4 ef4 c4 } |
   \tuplet 3/2 { ef4 c4 df4 } bf2~ | bf2. r4 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   c8 c8 c4 df4. b8 | c4 df2 c4 | d4 d4 d4 d4 | ef2. c4 |
   c,4 ef4 f4 af4 | c4 <ef ef,>2 ef,4 | c'4 c8 c8 c4 ef,8 f8 | c'2. e,8 f8 |

@@ -141,13 +141,7 @@ refrainDaveChords = \chordmode {
   \chordInsideParens{ d2:7 }
 }
 
-%% refrainChords = \refrainOriginalChords
-%% refrainChords = \refrainVanillaChords
-%% refrainChords = \refrainNewRealChords
-%% refrainChords = \refrainGalbraithChords
 refrainChords = \refrainRealBookSixthChords
-%% refrainChords = \refrainLearnJazzStandardsChords
-%% refrainChords = \refrainDaveChords
 
 refrainKey = g
 
@@ -159,7 +153,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Benny Goodman 1940]" 108
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   d4 g4 ef4. ef8 |
   e4 a4 f4. fs8 |
@@ -182,7 +176,7 @@ refrainMelody = \relative f' {
   \break
   r8 g4 g8 f4 ef4 | g4 a4 bf4. c8 | d8 d8 d8 d8~ d4 d,4 | bf'2 b2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   d,4 g4 ef4. ef8 | e4 a4 f4. fs8 |
   g4 b4 gs8 a8 b8 c8 | d4 e4 b2 |

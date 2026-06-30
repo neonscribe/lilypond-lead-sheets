@@ -143,73 +143,209 @@
                         #guitar-tuning
                         #"x;x;2;4;2;4;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { f:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { f:7 }
                         #guitar-tuning
-                        #"1;x;o;1;1;x;"
+                        #"1;x;1;2;1;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { fs:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { fs:7 }
                         #guitar-tuning
-                        #"2;x;1;2;2;x;"
+                        #"2;x;2;3;2;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { gf:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { gf:7 }
                         #guitar-tuning
-                        #"2;x;1;2;2;x;"
+                        #"2;x;2;3;2;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { g:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { g:7 }
                         #guitar-tuning
-                        #"3;x;2;3;3;x;"
+                        #"3;x;3;4;3;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { gs:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { gs:7 }
                         #guitar-tuning
-                        #"4;x;3;4;4;x;"
+                        #"4;x;4;5;4;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { af:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { af:7 }
                         #guitar-tuning
-                        #"4;x;3;4;4;x;"
+                        #"4;x;4;5;4;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { a:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { a:7 }
                         #guitar-tuning
-                        #"5;x;4;5;5;x;"
+                        #"5;x;5;6;5;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { as:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { as:7 }
                         #guitar-tuning
-                        #"6;x;5;6;6;x;"
+                        #"x;1;3;1;3;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { bf:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { bf:7 }
                         #guitar-tuning
-                        #"6;x;5;6;6;x;"
+                        #"x;1;3;1;3;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { b:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { b:7 }
                         #guitar-tuning
-                        #"7;x;6;7;7;x;"
+                        #"x;2;4;2;4;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { c:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { c:7 }
                         #guitar-tuning
-                        #"x;3;x;2;4;3;"
+                        #"x;3;5;3;5;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { cs:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { cs:7 }
                         #guitar-tuning
-                        #"x;4;x;3;5;4;"
+                        #"x;4;6;4;6;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { df:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { df:7 }
                         #guitar-tuning
-                        #"x;4;x;3;5;4;"
+                        #"x;4;6;4;6;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { d:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { d:7 }
                         #guitar-tuning
-                        #"x;5;x;4;6;5;"
+                        #"x;5;7;5;7;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { ds:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { ds:7 }
                         #guitar-tuning
-                        #"x;x;1;3;1;2;"
+                        #"x;x;1;3;2;3;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { ef:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { ef:7 }
                         #guitar-tuning
-                        #"x;x;1;3;1;2;"
+                        #"x;x;1;3;2;3;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { e:m6 }
+\storePredefinedDiagram #default-fret-table \chordmode { e:7 }
                         #guitar-tuning
-                        #"x;x;2;4;2;3;"
+                        #"x;x;2;4;3;4;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { f:7.5- }
+                        #guitar-tuning
+                        #"1;x;1;2;o;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { fs:7.5- }
+                        #guitar-tuning
+                        #"2;x;2;3;1;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { gf:7.5- }
+                        #guitar-tuning
+                        #"2;x;2;3;1;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { g:7.5- }
+                        #guitar-tuning
+                        #"3;x;3;4;2;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { gs:7.5- }
+                        #guitar-tuning
+                        #"4;x;4;5;3;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { af:7.5- }
+                        #guitar-tuning
+                        #"4;x;4;5;3;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { a:7.5- }
+                        #guitar-tuning
+                        #"5;x;5;6;4;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { as:7.5- }
+                        #guitar-tuning
+                        #"x;1;2;1;3;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { bf:7.5- }
+                        #guitar-tuning
+                        #"x;1;2;1;3;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { b:7.5- }
+                        #guitar-tuning
+                        #"x;2;3;2;4;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { c:7.5- }
+                        #guitar-tuning
+                        #"x;3;4;3;5;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { cs:7.5- }
+                        #guitar-tuning
+                        #"x;4;5;4;6;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { df:7.5- }
+                        #guitar-tuning
+                        #"x;4;5;4;6;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { d:7.5- }
+                        #guitar-tuning
+                        #"x;5;6;5;7;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { ds:7.5- }
+                        #guitar-tuning
+                        #"x;x;1;2;2;3;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { ef:7.5- }
+                        #guitar-tuning
+                        #"x;x;1;2;2;3;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { e:7.5- }
+                        #guitar-tuning
+                        #"x;x;2;3;3;4;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { f:7.11+ }
+                        #guitar-tuning
+                        #"1;x;1;2;o;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { fs:7.11+ }
+                        #guitar-tuning
+                        #"2;x;2;3;1;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { gf:7.11+ }
+                        #guitar-tuning
+                        #"2;x;2;3;1;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { g:7.11+ }
+                        #guitar-tuning
+                        #"3;x;3;4;2;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { gs:7.11+ }
+                        #guitar-tuning
+                        #"4;x;4;5;3;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { af:7.11+ }
+                        #guitar-tuning
+                        #"4;x;4;5;3;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { a:7.11+ }
+                        #guitar-tuning
+                        #"5;x;5;6;4;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { as:7.11+ }
+                        #guitar-tuning
+                        #"x;1;2;1;3;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { bf:7.11+ }
+                        #guitar-tuning
+                        #"x;1;2;1;3;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { b:7.11+ }
+                        #guitar-tuning
+                        #"x;2;3;2;4;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { c:7.11+ }
+                        #guitar-tuning
+                        #"x;3;4;3;5;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { cs:7.11+ }
+                        #guitar-tuning
+                        #"x;4;5;4;6;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { df:7.11+ }
+                        #guitar-tuning
+                        #"x;4;5;4;6;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { d:7.11+ }
+                        #guitar-tuning
+                        #"x;5;6;5;7;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { ds:7.11+ }
+                        #guitar-tuning
+                        #"x;x;1;2;2;3;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { ef:7.11+ }
+                        #guitar-tuning
+                        #"x;x;1;2;2;3;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { e:7.11+ }
+                        #guitar-tuning
+                        #"x;x;2;3;3;4;"
 
 \storePredefinedDiagram #default-fret-table \chordmode { as:9 }
                         #guitar-tuning
@@ -279,73 +415,141 @@
                         #guitar-tuning
                         #"5;x;5;4;2;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { f:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { as:7.9- }
                         #guitar-tuning
-                        #"1;x;1;1;1;x;"
+                        #"x;1;o;1;o;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { fs:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { bf:7.9- }
                         #guitar-tuning
-                        #"2;x;2;2;2;x;"
+                        #"x;1;o;1;o;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { gf:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { b:7.9- }
                         #guitar-tuning
-                        #"2;x;2;2;2;x;"
+                        #"x;2;1;2;1;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { g:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { c:7.9- }
                         #guitar-tuning
-                        #"3;x;3;3;3;x;"
+                        #"x;3;2;3;2;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { gs:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { cs:7.9- }
                         #guitar-tuning
-                        #"4;x;4;4;4;x;"
+                        #"x;4;3;4;3;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { af:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { df:7.9- }
                         #guitar-tuning
-                        #"4;x;4;4;4;x;"
+                        #"x;4;3;4;3;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { a:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { d:7.9- }
                         #guitar-tuning
-                        #"5;x;5;5;5;x;"
+                        #"x;5;4;5;4;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { as:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { ds:7.9- }
                         #guitar-tuning
-                        #"6;x;6;6;6;x;"
+                        #"x;6;5;6;5;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { bf:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { ef:7.9- }
                         #guitar-tuning
-                        #"6;x;6;6;6;x;"
+                        #"x;6;5;6;5;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { b:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { e:7.9- }
                         #guitar-tuning
-                        #"7;x;7;7;7;x;"
+                        #"x;7;6;7;6;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { c:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { f:7.9- }
                         #guitar-tuning
-                        #"8;x;8;8;8;x;"
+                        #"x;x;3;2;4;2;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { cs:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { fs:7.9- }
                         #guitar-tuning
-                        #"x;4;x;4;5;4;"
+                        #"x;x;4;3;5;3;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { df:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { gf:7.9- }
                         #guitar-tuning
-                        #"x;4;x;4;5;4;"
+                        #"x;x;4;3;5;3;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { d:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { g:7.9- }
                         #guitar-tuning
-                        #"x;5;x;5;6;5;"
+                        #"3;x;3;1;o;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { ds:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { gs:7.9- }
                         #guitar-tuning
-                        #"x;6;x;6;7;6;"
+                        #"4;x;4;2;1;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { ef:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { af:7.9- }
                         #guitar-tuning
-                        #"x;6;x;6;7;6;"
+                        #"4;x;4;2;1;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { e:m7 }
+\storePredefinedDiagram #default-fret-table \chordmode { a:7.9- }
                         #guitar-tuning
-                        #"x;7;x;7;8;7;"
+                        #"5;x;5;3;2;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { as:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;1;o;1;o;o;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { bf:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;1;o;1;o;o;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { b:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;2;1;2;1;1;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { c:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;3;2;3;2;2;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { cs:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;4;3;4;3;3;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { df:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;4;3;4;3;3;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { d:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;5;4;5;4;4;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { ds:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;6;5;6;5;5;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { ef:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;6;5;6;5;5;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { e:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;7;6;7;6;6;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { f:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;8;7;8;7;7;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { fs:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;9;8;9;8;8;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { gf:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;9;8;9;8;8;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { g:7.9-.11+ }
+                        #guitar-tuning
+                        #"3;x;3;1;o;2;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { gs:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;11;10;11;10;10;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { af:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;11;10;11;10;10;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { a:7.9-.11+ }
+                        #guitar-tuning
+                        #"x;12;11;12;11;11;"
 
 \storePredefinedDiagram #default-fret-table \chordmode { as:sus9 }
                         #guitar-tuning
@@ -415,73 +619,141 @@
                         #guitar-tuning
                         #"5;x;5;4;3;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { as:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { f:m7 }
                         #guitar-tuning
-                        #"x;1;o;1;o;x;"
+                        #"1;x;1;1;1;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { bf:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { fs:m7 }
                         #guitar-tuning
-                        #"x;1;o;1;o;x;"
+                        #"2;x;2;2;2;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { b:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { gf:m7 }
                         #guitar-tuning
-                        #"x;2;1;2;1;x;"
+                        #"2;x;2;2;2;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { c:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { g:m7 }
                         #guitar-tuning
-                        #"x;3;2;3;2;x;"
+                        #"3;x;3;3;3;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { cs:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { gs:m7 }
                         #guitar-tuning
-                        #"x;4;3;4;3;x;"
+                        #"4;x;4;4;4;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { df:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { af:m7 }
                         #guitar-tuning
-                        #"x;4;3;4;3;x;"
+                        #"4;x;4;4;4;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { d:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { a:m7 }
                         #guitar-tuning
-                        #"x;5;4;5;4;x;"
+                        #"5;x;5;5;5;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { ds:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { as:m7 }
                         #guitar-tuning
-                        #"x;6;5;6;5;x;"
+                        #"6;x;6;6;6;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { ef:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { bf:m7 }
                         #guitar-tuning
-                        #"x;6;5;6;5;x;"
+                        #"6;x;6;6;6;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { e:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { b:m7 }
                         #guitar-tuning
-                        #"x;7;6;7;6;x;"
+                        #"7;x;7;7;7;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { f:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { c:m7 }
                         #guitar-tuning
-                        #"x;x;3;2;4;2;"
+                        #"8;x;8;8;8;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { fs:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { cs:m7 }
                         #guitar-tuning
-                        #"x;x;4;3;5;3;"
+                        #"x;4;x;4;5;4;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { gf:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { df:m7 }
                         #guitar-tuning
-                        #"x;x;4;3;5;3;"
+                        #"x;4;x;4;5;4;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { g:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { d:m7 }
                         #guitar-tuning
-                        #"3;x;3;1;o;x;"
+                        #"x;5;x;5;6;5;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { gs:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { ds:m7 }
                         #guitar-tuning
-                        #"4;x;4;2;1;x;"
+                        #"x;6;x;6;7;6;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { af:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { ef:m7 }
                         #guitar-tuning
-                        #"4;x;4;2;1;x;"
+                        #"x;6;x;6;7;6;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { a:7.9- }
+\storePredefinedDiagram #default-fret-table \chordmode { e:m7 }
                         #guitar-tuning
-                        #"5;x;5;3;2;x;"
+                        #"x;7;x;7;8;7;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { f:m6 }
+                        #guitar-tuning
+                        #"1;x;o;1;1;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { fs:m6 }
+                        #guitar-tuning
+                        #"2;x;1;2;2;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { gf:m6 }
+                        #guitar-tuning
+                        #"2;x;1;2;2;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { g:m6 }
+                        #guitar-tuning
+                        #"3;x;2;3;3;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { gs:m6 }
+                        #guitar-tuning
+                        #"4;x;3;4;4;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { af:m6 }
+                        #guitar-tuning
+                        #"4;x;3;4;4;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { a:m6 }
+                        #guitar-tuning
+                        #"5;x;4;5;5;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { as:m6 }
+                        #guitar-tuning
+                        #"6;x;5;6;6;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { bf:m6 }
+                        #guitar-tuning
+                        #"6;x;5;6;6;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { b:m6 }
+                        #guitar-tuning
+                        #"7;x;6;7;7;x;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { c:m6 }
+                        #guitar-tuning
+                        #"x;3;x;2;4;3;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { cs:m6 }
+                        #guitar-tuning
+                        #"x;4;x;3;5;4;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { df:m6 }
+                        #guitar-tuning
+                        #"x;4;x;3;5;4;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { d:m6 }
+                        #guitar-tuning
+                        #"x;5;x;4;6;5;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { ds:m6 }
+                        #guitar-tuning
+                        #"x;x;1;3;1;2;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { ef:m6 }
+                        #guitar-tuning
+                        #"x;x;1;3;1;2;"
+
+\storePredefinedDiagram #default-fret-table \chordmode { e:m6 }
+                        #guitar-tuning
+                        #"x;x;2;4;2;3;"
 
 \storePredefinedDiagram #default-fret-table \chordmode { f:dim7.13- }
                         #guitar-tuning
@@ -663,17 +935,9 @@
                         #guitar-tuning
                         #"3;x;3;4;4;x;"
 
-\storePredefinedDiagram #default-fret-table \chordmode { c:7.9- }
-                        #guitar-tuning
-                        #"x;3;2;3;2;x;"
-
 \storePredefinedDiagram #default-fret-table \chordmode { ef:7.9+ }
                         #guitar-tuning
                         #"x;6;5;6;7;x;"
-
-\storePredefinedDiagram #default-fret-table \chordmode { af:7.11+ }
-                        #guitar-tuning
-                        #"4;x;4;5;3;x;"
 
 \storePredefinedDiagram #default-fret-table \chordmode { bf:7.9+ }
                         #guitar-tuning

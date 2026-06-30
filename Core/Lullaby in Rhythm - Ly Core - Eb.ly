@@ -7,7 +7,7 @@ songID = "2026-06-01T22:16:43.471057Z"
 headerTitle = "Lullaby in Rhythm"
 headerSubtitle = \subtitle
 headerPoet = ""
-headerComposer = "Benny Goodman, Edgar Sampson, Clarence Profit & Walter Hirsch"
+headerComposer = "Goodman, Sampson, Profit & Hirsch"
 headerCopyright = "© 1938 Robbins Music Corporation"
 
 refrainLyrics = \lyricmode {

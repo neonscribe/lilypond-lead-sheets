@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Dexter Gordon 1962]" 60
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   d'8 d8 d8 df8~ df2 | c8 d,8 e8 f8 g8 a4. | r8 bf8 bf8 bf8 a8 c,8 d8 e8~ | e1 |
   \break
@@ -115,7 +115,7 @@ refrainMelody = \relative f' {
   \break
   g4 a8 a8 g8 a4. | g4 a8 a8 g8 a4 gs8 | a8 g8 f8 e8 d4 d4 | d1 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   d'8 d8 d8 df8~ df2 | c8 d,8 e8 f8 g8 a4. | r8 bf8 bf8 bf8 a8 c,8 d8 e8~ | e1 |
   \break

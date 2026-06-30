@@ -68,6 +68,8 @@ refrainChords = \chordmode {
   }
   }
 
+  \xPageBreak
+
   \set Score.currentBarNumber = #1
   \sectGap "Blues in Ab"
 
@@ -77,6 +79,8 @@ refrainChords = \chordmode {
     \refrainChordsInC
   }
   }
+
+  \xPageBreak
 
   \set Score.currentBarNumber = #1
   \sectGap "Blues in Db"

@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   \break
   d'4. ef,8 ef4 d4 | ef2 f4 g4 | c1~ | c2 d,2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   c2 d4 ef4 | d4. ef8 d2 | ef2 f4 g4 | f4. g8 f2 |
   \break

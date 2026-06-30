@@ -125,7 +125,7 @@ refrainMelody = \relative f' {
   \break
   g8 fs8 g8 fs8 g8 fs8 g8 a8 | f2 r8 g8 a8 c8 | d4 r4 r8 b8 a8 g8 | c2. a8 bf8 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   c8 a8 f8 g8 a8 f4 g8 | a8 f8 d8 e8 f8 d4 d8 | c8 c8 c8 c8 c4.
   \ambitusOff

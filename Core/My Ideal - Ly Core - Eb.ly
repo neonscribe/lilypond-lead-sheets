@@ -49,28 +49,24 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Kenny Dorham 1960]" 70
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   c'8 bf8 g8 ef8 d'4. c8 | bf8 af8 bf8 af8~ af4. c,8 |
-  \break
   af'8 g8 af8 g8~ g4 c,4 | g'1 |
 
   \sect "B"
 
   g8 f8 d8 bf8 af'4. g8 | bf8 g8 bf8 g8~ g2 |
-  \break
   ef8 f8 g8 bf8 c8 c4. | b8 fs8 gs8 bf8~ bf2 |
 
   \sect "A2"
 
   c8 bf8 g8 ef8 d'4. c8 | bf8 af8 bf8 af8~ af4. c,8 |
-  \break
   af'8 g8 af8 g8~ g4 c,4 | c'2. c,4 |
 
   \sect "C"
 
   g'8 f8 ef8 c8 bf'4. af8 | g8 bf8 d8 c8 bf8 ef8 ef,8 c8 |
-  \break
   f2 g2 | ef2 r2 |
 
   \bar "|."

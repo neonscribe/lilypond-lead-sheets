@@ -156,7 +156,7 @@ refrainMelody = \relative f' {
   ef1~ | ef8 f4 g8 a8 g8 f4 | d1~ | d8 f4 g8 a8 g8 f4 |
   ef1~ | ef8 f8 g8 a8 d8 f4 f8~ | f1~ | f2 f4 e4 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   ef1~ | ef8 d4 c8 ef8 d8 c4 | d1~ | d8 d4 c8 bf8 a8 g4 |
   gf1~ | gf8 f8 g8 a8 d8 f,4 bf8~ |

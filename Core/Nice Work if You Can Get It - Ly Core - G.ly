@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up [Fred Astaire 1937]" 172
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   b4 c4 c4 b4 | a4 b2. | g4 a4 a4 g4 | fs1 |
   \break
@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \break
   r8 a4 f8 a4 f4 | a4. a8~ a4 a8 b8 | d4 d4 d8 e8 b4 | as1 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   b4 c4 c4 b4 | a4 b2. | g4 a4 \tuplet 3/2 { a4 af4 g4 } | fs1 |
   \break

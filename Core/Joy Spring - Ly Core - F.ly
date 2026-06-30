@@ -90,7 +90,7 @@ refrainMelody = \relative f' {
 
   \bar "|."
 
-  \sect "Solos"
+  \sectNoBarPageBreak "Solos"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

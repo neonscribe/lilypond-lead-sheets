@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Fast Swing [Miles Davis 1956]" 180
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   \ambitusOff
 	a'2 f2 | g2 c,2 | c2 g'2 | a2 f2 | a2 f2 | g2 c,2 | c2 g'2 |
@@ -68,11 +68,7 @@ refrainMelody = \relative f' {
     }
   >>
 
-  \bar "||-||"
-  \break
-
-
-  \sect "A1"
+  \sectStartRefrain "A1"
 
   a8 f8 f8 f8~ f8 a4 a8 | a8 f8 g4 a8 f8 g4 | a4. c,8~ c2~ | c4 r4 c'4 c4 |
   \break
@@ -90,7 +86,7 @@ refrainMelody = \relative f' {
   \break
   c8 a8 a8 a8~ a8 c8 c8 c8~ | c8 a8 a8 a8~ a8 c8 a4 | d4. g,8~ g2~ | g2 r8 a4 g8 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   f8 f8 f4 f4 f4 | bf2 d8 b8 d4 | c1~ | c4 r4 a4 a4 |
   \break

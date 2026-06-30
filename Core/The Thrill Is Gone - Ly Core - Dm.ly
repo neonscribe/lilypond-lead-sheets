@@ -55,6 +55,8 @@ verseMelody = \relative f' {
 
   \partial 2. g2. |
   \bar "||"
+  
+  \xxPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -111,23 +113,18 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   a4 d,4 f2~ | f2. a4 | a4 d,4 f2~ | f2. r4 |
-  \break
   a4 a4 d4 d4 | c4 c4 a2 | g4 g4 bf4 bf4 | a4 a4 f2 |
-  \break
   e4 e4 g4 g4 | f4 f4 d4 d4 | bf'2. e,4 | a2. a4 |
 
-  \sectPageBreak "A2"
+  \sect "A2"
 
   a4 d,4 f2~ | f2. a4 | a4 d,4 f2~ | f2. r4 |
-  \break
   a4 a4 d4 d4 | c4 c4 a2 | g4 g4 bf4 bf4 | a4 a4 f2 |
-  \break
   e4 e4 g4 g4 | f4 f4 d4 d4 | bf'2. a4 | bf2. a4 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   f'2. e4 | f2. e4 | e2. d4 | e2. d4 |
-  \break
   c2. bf4 | a2. g4 | a1~ | a4 e4 g4 f4 | d1~ | d2 r2 |
 
   \bar "|."

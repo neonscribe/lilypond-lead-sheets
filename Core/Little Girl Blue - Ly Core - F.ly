@@ -120,21 +120,21 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Nina Simone 1959]" 62
 
-  \xTextMark \markup{ "Refrain" \box \bold "A1" }
+  \sectStartRefrain "A1"
 
   f4 f2 f4 | a4 a4 g4 g4 | f4 f2 f4 | d'1 |
   f,4 f2 f4 | c'1 | f,4 f2 f4 | bf4 a4 g4 f4 |
   c4 c2 c4 | bf4 c4 d8 d8 e4 |
   f1~ | f1 |
 
-  \sect "A2"
+  \sectPageBreak "A2"
 
   f4 f2 f4 | a4 a4 g4 g4 | f4 f2 f4 | d'1 |
   f,4 f2 f4 | c'1 | f,4 f2 f4 | bf4 a4 g4 f4 |
   c4 c2 c4 | bf4 c4 d8 d8 e4 |
   f1~ | f4 c'4 c,4 d4 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   e2. c'4 | c,4 d4 e4 g4 | a4 a2 c4 | a4 c4 a4 c4 | a4 a2 cs4 | a4 cs4 a4 cs4 |
   a2 bf2 | g2 a2 | f4 f2 f4 | a4 a4 g8 g8 g4 | f1~ | f2 r2 |

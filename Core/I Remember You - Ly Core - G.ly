@@ -42,11 +42,11 @@ verseMelody = \relative g' {
 
   a4 a2 g8 a8 |
   b4 b2. | a4 a2 g8 e8 | fs1 |
-  \break
   e4 fs8 g8 a4 b8 c8 | d8. d16 d2. |
-  \break
   r4 c8 b8 a4 e8 g8 | b2. fs4 | g1~ | g2. r4
   \bar "||"
+  
+  \xxPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -121,35 +121,24 @@ refrainMelody = \relative g' {
   \tempoFour "Medium [Chet Baker 1955]" 182
 
   \sectStartRefrain "A1"
-  \set Score.currentBarNumber = #1
 
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
-  %% \break
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
 
   \sectPageBreak "A2"
 
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
-  %% \break
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
 
-  \sect "B"
+  \sectPageBreak "B"
 
   b' c g a | b4. b8 b4 a | gs1 | r4 b b a |
-  %% \break
   gs2. e4 | g2 \tuplet 3/2 { g4 a g } | fs1~ | fs2. r4
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   fs4 g d e | fs1 | fs4 g fs g | d' d d4. df8 |
-  %% \break
-  c1 | r4 c \tuplet 3/2 { c d c } | b1 | r4 b a
-  $(if (and (defined? 'rememberAllTheThings) rememberAllTheThings)
-    #{
-    \xTextMark \markup { \musicglyph #"scripts.coda" }
-    #} )
-  g |
-  %% \break
+  c1 | r4 c \tuplet 3/2 { c d c } | b1 | r4 b a g |
   fs g d e | g2 a2 |
   g1~ | g4 r4 r2 |
 

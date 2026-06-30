@@ -49,7 +49,7 @@ verseMelody = \relative f' {
 
   \bar "|."
 
-  \xPageBreak
+  \xxPageBreak
 }
 
 refrainLyrics = { \lyricmode {

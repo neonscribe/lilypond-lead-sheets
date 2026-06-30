@@ -10,8 +10,10 @@ headerPoet = ""
 headerComposer = "John Coltrane"
 headerCopyright = "© 1957 Jowcol Music"
 
+leadingEighth = ##t
+
 refrainChords = \chordmode {
-  s2.
+  s8*5
 
   ef1:7.9+ ef1:7.9+
   ef1:7.9+ ef1:7.9+ af1:7.11+ af1:7.11+
@@ -32,7 +34,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Blues [John Coltrane 1957]" 154
 
-  \partial 2. r8 bf8 df8 f8 df8 ef8~ |
+  \partial 8*5 bf8 df8 f8 df8 ef8~ |
 
   \bar ".|:"
   \override Score.VoltaBracket.musical-length = \musicLength 2
@@ -53,7 +55,7 @@ refrainMelody = \relative f' {
 }
 
 refrainKicksOverTime = \relative f' {
-  s2. r2 b4. b8 s8*8 r2 b4. b8 s8*8 r2 b4. b8
+  s8*5 r2 b4. b8 s8*8 r2 b4. b8 s8*8 r2 b4. b8
   s8*8 r2 b4. b8 s8*8 r2 b4. b8 s8*8 r2 b4. b8
 }
 

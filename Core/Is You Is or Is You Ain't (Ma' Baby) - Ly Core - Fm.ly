@@ -214,27 +214,22 @@ refrainMelody = \relative g' {
   \sectStartRefrain "A1"
 
   c4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r2 r4 r8 f8 |
-  \break
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r1 |
 
   \sect "A2"
 
   c2. c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r1 |
-  \break
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r2 r4 af4 |
 
   \sectPageBreak "B"
 
   bf8 af4. bf4 af4 | bf8 af4. bf4 af8 c8~ | c8 ef,4.~ ef4 f8 gf8~ | gf2. af4 |
-  \break
   bf4 af4 bf4 af4 | bf4 af4 bf4 af4 | c4 c4 c4 c8 c8~ | c4 r4 r2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   c4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r1 |
-  \break
   c'4 c4 c4 c4 | c4 c4 c8 c4 c8~ | c1~ | c2. f,4 |
-  \break
   c'4 c4 c4 c4 | c4 c4 c8 c4 af8~ | af1 | r1 |
 
   \bar "|."

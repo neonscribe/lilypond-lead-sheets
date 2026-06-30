@@ -89,14 +89,12 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Swing [Benny Goodman Trio 1947]" 100
 
-  \sectNoBarNoBreak "A"
+  \sectNoBar "A"
 
   f2. c4 | c4 c2 c4 | a'2. c,4 | c4 c2 c4 |
-  \break
   bf'2. a4 | c,4 c2 a'4 | g1~ | g2. e4 |
   \break
   g2. f4 | e2. d4 | g4 a4 g4 f4 | e2. d4 |
-  \break
   bf'4 c4 bf4 a4 | g2 f2 | c'1~ | c1 |
 
   \sectPageBreak "B"
@@ -105,7 +103,7 @@ refrainMelody = \relative f' {
   \break
   cs4 a4 d2 | e4 cs4 fs2 | gs4 e4 a2 | bf4 g4 c2 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   f,2. c4 | c4 c2 c4 | a'2. c,4 | c4 c2 c4 |
   \break

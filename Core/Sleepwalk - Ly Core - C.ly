@@ -38,7 +38,7 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempoFour "Slowly [Santo & Johnny 1959]" 68
 
-  \xTextMark \markup{ \bold \box "Intro" }
+  \sectNoBar "Intro"
 
   \tuplet 3/2 { r8 e8 e8 } \tuplet 3/2 { e8 e8 e8 } \tuplet 3/2 { r8 a8 a8 } \tuplet 3/2 { a8 a8 a8 } |
   \tuplet 3/2 { r8 af,8 af8 } \tuplet 3/2 { af8 af8 af8 } bf4 \ottava #1 { \tuplet 3/2 { g''8 a8 e'8~ } |
@@ -48,14 +48,12 @@ refrainMelody = \relative f'' {
   \sect "A1"
 
   c2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 | c'2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 |
-  \break
   g4 e16 g16 e16 c16 a2 | r4 \tuplet 3/2 { r8 c8 c8 } e8 e4 e16 e16 |
   r4 \tuplet 3/2 { g8 a8 e'8 } b2 | r4 \tuplet 3/2 { c8 d8 a'8 } g2 |
 
   \sect "A2"
 
   c,2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 | c'2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 |
-  \break
   g4 e16 g16 e16 c16 a2 | r4 \tuplet 3/2 { r8 c8 c8 } e8 e4 e16 e16 |
   c2 a8 a4 a16 a16 | c2~ c4. c8 |
 
@@ -63,14 +61,12 @@ refrainMelody = \relative f'' {
 
   a'8 a4. e'4~ \tuplet 3/2 { e8 d8 c8 } | af2 e'4~ \tuplet 3/2 { e8 d8 c8 } |
   g2 a4~ \tuplet 3/2 { a8 ds,8 e8 } | g2~ g4. c,8 |
-  \break
   a'8 a4. e'4~ \tuplet 3/2 { e8 d8 c8 } | af2 e'4~ \tuplet 3/2 { e8 d8 c8 } |
   g4. g8 bf8 bf8 r8 bf8 | g4 bf'8 g8~ g4 r4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   c,2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 | c'2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 |
-  \break
   g4 e16 g16 e16 c16 a2 ^\markup \italic "rit." | r4 \tuplet 3/2 { r8 c8 c8 }
   e8 e4 ef8 |
   d4 \ottava #1 { \tuplet 3/2 { g''8 a8 e'8\fermata } b2 } \ottava #0 | r1\fermata |

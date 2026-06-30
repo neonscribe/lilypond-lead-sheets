@@ -1,6 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
 \paper {
+  \include "../Include/margins.ily"
   print-page-number = \inBook
   print-first-page-number = ##f
   max-systems-per-page = 8

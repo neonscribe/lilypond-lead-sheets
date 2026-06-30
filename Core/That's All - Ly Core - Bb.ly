@@ -101,7 +101,7 @@ refrainMelody = \relative f' {
   a4 c,8 c'8 a4 c,8 c'8 | a4 a2 c,8 c'8 |
   a4 c,8 c'8 a4 c,8 a'8 | f2. d8 ef8 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   f8 a8 f8 d8 f8 a8 f8 d8 | f8 f8~ f2 d8 ef8 | f8 a8 f8 d8 f8 a8 f8 d8
   | f2. g8 a8 | bf8 d8 bf8 g8 bf4. g8 | bf8 d8 bf8 g8 bf4. g8 | f2. d4 \textToCodaLastTime |

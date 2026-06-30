@@ -65,9 +65,8 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Ballad [Mildred Bailey 1941]" 80
 
   \partial 4 a8 bf8 |
-  \bar "||"
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   c8 d,4.~ d4 g8 a8 | bf8 df,4.~ df4 a'8 g8 | e8 e8 e8 e8~ e8 f4 e8 | d8 e8 f8 g8 a8 bf4 c8 |
   g8 g8 g2 a4 | f8 f8 f2 g4 | e8 e8 e2 f4 | d2. a'8 bf8 |
@@ -76,7 +75,6 @@ refrainMelody = \relative f' {
 
   c8 d,4.~ d4 g8 a8 | bf8 df,4.~ df4 a'8 g8 | e8 e8 e8 e8~ e8 f4 e8 | d8 e8 f8 g8 a8 bf4 c8 |
   g8 g8 g2 a4 |
-  \break
   f8 f8 f2 e4 |
   d8 d8 d2 e4 | f1 |
 
@@ -85,11 +83,10 @@ refrainMelody = \relative f' {
   e8 e4. f8 a8 g8 f8 | e8 e4. f8 a8 g8 f8 | e4. e8 f8 a8 g8 f8 | e2. e8 e8 |
   f8 f4 a8~ a4 a8 a8 | c8 d4 a8~ a4. c8 | e8 e4 d8 e8 d8 c8 a8 | d8 bf4 e,8~ e4 a8 bf8 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   c8 d,4.~ d4 g8 a8 | bf8 df,4.~ df4 a'8 g8 | e8 e8 e8 e8~ e8 f4 e8 | d8 e8 f8 g8 a8 bf4 c8 |
   d8 d8 d8 d8 d4. e8 |
-  \break
   c8 c8 c8 c8 c4 d8 df8 |
   c8 d,4.~ d4 e8 f8 | g8 f4.~ f2 |
 

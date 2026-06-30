@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Bossa [Astrud Gilberto 1968]" 122
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   a,8 c8 d4 e8 ef8 d4 | a8 c8 d8 e8~ e8 ef8 d4 |
   a8 c8 d4 e8 ef8 d4 | gs,8 c8 d8 e8~ e8 ef8 d4 |
@@ -99,7 +99,7 @@ refrainMelody = \relative f' {
   d8 f8 g4 a8 af8 g4 | d8 f8 g8 a8~ a8 af8 g4 |
   df8 f8 g4 a8 af8 g4 | df8 f8 g8 a8~ a8 af8 g4 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   r4 c4 c,2~ | c2 ef'8 d8 c8 bf8 | a1 | a1 |
   \break

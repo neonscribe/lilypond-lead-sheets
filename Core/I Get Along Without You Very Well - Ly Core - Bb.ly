@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Frank Sinatra 1955] or Medium Fast [Red Norvo 1939]" 150
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   f4 f8 f8 f4 f4 | g4 f4 bf4 c4 | d1 | r4 a4 bf4 g4 |
   f1 | r4 c4 c4 d4 | ef4 f4 f2 | r4 c4 c4 d4 |
@@ -88,20 +88,16 @@ refrainMelody = \relative f' {
   f4 f4 f4 f4 | g4 f4 bf4 c4 | d1 | r4 a4 bf4 g4 |
   f1 | r4 c4 c4 d4 | ef4 f4 f2 | r4 c4 c4 d4 |
   ef4 f4 f4 g4 | g2. c,4 | c4 d4 ef4 f4 | g4 a4 bf4 c4 |
-  \bar "|o"
-
-  \xPageBreak
-
   d1 | r2 a4 bf4 | c,1 | r2 a'4 bf4 |
   c2 bf4 d,4~ | d2 r4 bf4 | c4 c4 c8 d4 ef8~ | ef4 ef4 d8 ef4 f8~ |
   f1 | r2 a4 bf4 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   c,1 | r2 a'4 bf4 | d2 c4 bf4~ | bf2 f4 fs4 |
   g2 g4 g4 | g4. a8~ a4 bf4 | c1 | r1 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   f,4 f8 f8 f4 f4 | g4 f4 bf4 c4 | d1 | r4 a4 bf4 g4 |
   f1 | r4 c4 c4 d4 | ef4 f4 f2 | r4 c4 c4 d4 |

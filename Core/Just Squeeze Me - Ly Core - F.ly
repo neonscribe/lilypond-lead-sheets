@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Paul Desmond 1975]" 125
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   a4 a4 a8 bf4 c8~ | c4. c8~ c2 | a4 a4 a8 bf4 c8~ | c4. c8~ c4. c8~ |
   %% \break
@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   %% \break
   f2 d4. fs,8 | g8 e'4 d8~ d2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   a4 a4 a8 bf4 c8~ | c4. c8~ c2 | a4 a4 a8 bf4 c8~ | c4. c8~ c4. c8~ |
   %% \break

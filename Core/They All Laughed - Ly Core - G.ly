@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   \break
   e2~ e8 cs4 a8 | b2~ b8 a4 b8 | c4 e4 e,4 g4 | a1 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   r8 d,8 e4 g4 a4 | b8 b8 a8 g8 a8 b4. | c8 b4 a8 b4 c4 | b2. a4 |
   \break

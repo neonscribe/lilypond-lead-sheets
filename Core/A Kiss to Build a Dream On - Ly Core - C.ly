@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Louis Armstrong 1952]" 88
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   c'8 g4 a8 b8 c8 b8 a8 | c8 g4 a8 b8 c8 b8 a8 | g8 d4 e8 f8 g8 f8 e8 |
   g1 |
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   \break
   f2~ f8 fs8 g4 | ef4 ef2. | d8 d4 d8 ds4 e4 | g1 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   c8 g4 a8 b8 c8 b8 a8 | c8 g4 a8 b8 c8 b8 a8 | g8 d4 e8 f8 g8 f8 e8 | g1 |
   \break

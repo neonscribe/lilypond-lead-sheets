@@ -120,7 +120,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Slow Swing [Louis Armstrong 1949]" 94
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq c8 d8 |
 
@@ -142,7 +142,7 @@ refrainMelody = \relative f' {
   \break
   b2~ b8 a8 fs8 d8 | e8 fs8 d8 e8~ e8 fs8 g8 b8 | c8 d8 b8 c8~ c4 b8 d8~ | d2 r4 c,8 d8 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   e8 g8 a8 b8~ b4. c8 | b8 a8 g8 a8~ a4. c8 | b8 a8 g8 a8~ a4 c4 | e,2. r8 ef8 |
   \break

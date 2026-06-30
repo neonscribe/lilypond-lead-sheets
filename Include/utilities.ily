@@ -93,11 +93,10 @@ rsw = {
 }
 
 xPageBreak = {
-  \autoPageBreaksOn
   \autoPageBreaksOff
   \allowPageTurn
-  \once \override Score.Clef.break-visibility = #begin-of-line-visible
-  \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
+  %% \once \override Score.Clef.break-visibility = #begin-of-line-visible
+  %% \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
 }
 
 xxPageBreak = {
@@ -198,9 +197,16 @@ sectNoBarNoBreakSegno =
 sectPageBreak =
 #(define-music-function (s)
    (string?)
-  #{ \bar "||"
-     \break
+  #{ \bar "||-||"
      \xPageBreak
+     \break
+     \xTextMark \markup{ \bold \box #s } #} )
+
+sectNoBarPageBreak =
+#(define-music-function (s)
+   (string?)
+  #{ \xPageBreak
+     \break
      \xTextMark \markup{ \bold \box #s } #} )
 
 #(define (no-double-accidental-pitch p)

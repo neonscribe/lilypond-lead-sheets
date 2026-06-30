@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Coleman Hawkins 1939]" 94
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectNoBar "A1,A2"
   \bar ".|:"
   \repeat volta 2 {
   r8 ef8 f8 ef8 f4 ef4 | bf'4 bf2. | r8 af8 bf8 af8 bf4 af4 | ef'4 df4 c4 bf4 |
@@ -75,17 +75,13 @@ refrainMelody = \relative f' {
   } \volta 2 {
   df2 r2 |
   } } }
+
   \sect "B"
-  %% \key \bridgeKeyOne \major
 
   r8 d8 e8 fs8 a8 a4 a8 | d8 d4 fs,8 a8 a4 g8 | fs8 fs4 d8 e4 cs8 a8~ | a1 |
-
-  %% \key \bridgeKeyTwo \major
-
   r8 d8 e8 f8 a8 a4 g8 | e'8 e4 b8 d8 d4 a8 | c8 c4 a8 b8 b4 g8 | e4 ds4 d4 bf4 |
 
-  \sect "A3"
-  %% \key \refrainKey \major
+  \sectPageBreak "A3"
 
   r8 ef8 f8 ef8 f4 ef4 | bf'4 bf2. | r8 af8 bf8 af8 bf4 af4 | ef'4 df4 c4 bf4 |
   r4 df4 bf8 gf4 bf,8 | f'2 ef2 | r8 df8 ef8 f8 af4 \tuplet 3/2 { af8 bf8 e,8 } | df1 |

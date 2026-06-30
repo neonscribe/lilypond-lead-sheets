@@ -195,6 +195,8 @@ refrainMelody = \relative c' {
 
   \bar ".|:-|."
   
+  \xPageBreak
+
   \sectStartSolos "A1"
 
   \repeat volta 2 {

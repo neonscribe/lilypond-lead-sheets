@@ -39,7 +39,7 @@ introMelody = \relative c' {
 
   \bar "||"
 
-  \xPageBreak
+  \xxPageBreak
 }
 
 refrainLyrics = \lyricmode {

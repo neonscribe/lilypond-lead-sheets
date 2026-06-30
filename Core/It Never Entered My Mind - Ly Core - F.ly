@@ -62,14 +62,12 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Frank Sinatra 1955]" 61
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectNoBar "A1,A2"
 
   \bar ".|:"
   \repeat volta 2 {
   a4 a4 a4 a4 | r8 a8 g8 f8 e4 e4 | r8 f8 e8 d8 c4 c4 | f4 e8 c8~ c2 |
-  \break
   r8 f8 e8 d8 c4 c4 | f4 e8 c8~ c2 |
-  \break
   \alternative { \volta 1 {
   r8 d8 f8 g8 a8 f8 a8 g8~ | g2 r2 |
   } \volta 2 {
@@ -78,15 +76,12 @@ refrainMelody = \relative f' {
   \sect "B"
 
   d2 f,4 f4~ | f2 r4 e4 | g2 f4 f4~ | f2 r4 e4 |
-  \break
   a4 a4 bf4 bf4 | c4 c4 d4 d4 | e2 c4 c4~ | c2 r2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   a4 a4 a4 a4 | r8 a8 g8 f8 e4 e4 | r8 f8 e8 d8 c4 c4 | f4 e8 c8~ c2 |
-  \break
   r8 f8 e8 d8 c4 c4 | c'4 bf8 a8~ a2 | r8 bf8 a8 g8 f4 e4 | a4 e8 e8~ e2 |
-  \break
   r8 d8 f8 g8 a8 f8 g8 f8~ | f2 r2 |
 
   \bar "|."

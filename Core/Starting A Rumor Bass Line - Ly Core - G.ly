@@ -115,7 +115,7 @@ refrainMelody = \relative g, {
   e4 e2 g4 | b4 b2. | c2. d8 e8 | g2 fs4 d4 |
   e4 e2. | b4 b2. | c4 e,4( a4) g4~ | g4 d'2 d4 |
 
-  \sect "Outro Solo"
+  \sectPageBreak "Outro Solo"
 
   g,4 g2~ g8 \xNote { g8 } | b4 b2. | c4 c2. | g4 g2. |
   g4 g2. | b4 b2. | c4 c2~ c8 e,8 | g8 e8 g4 b8 c8 d4 |

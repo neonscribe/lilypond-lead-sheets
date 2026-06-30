@@ -106,25 +106,25 @@ refrainMelody = \relative f' {
   %% \break
   d1~ | d4. g,8 a4. g8 | a1~ | a2 c,2 |
 
-  \sect "E"
+  \sectPageBreak "E"
 
   c'2 c4 c,4~ | c4 c4 \tuplet 3/2 { c4 f4 af4 } | cf1~ | cf4 f,4 \tuplet 3/2 { f4 f4 f4 } |
   %% \break
   af1~ | af4 cf,4 \tuplet 3/2 { cf4 cf4 cf4 } | g'1~ | g2 bf,2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   g'4. g8~ g4 g4~ | g4 g4 g4 bf,4 | g'4. g8~ g4 g4~ | g2. bf4 |
   %% \break
   df4. df8~ df4 df4~ | df4 df4 df4 bf4 | df4. df8~ df4 df4~ | df2. c4 |
 
-  \sect "F"
+  \sectPageBreak "F"
 
   ef4. ef8~ ef4 ef4~ | ef4 ef4 ef4 ef,4 | f1~ | f2 g4 af4 |
   %% \break
   bf4. bf8~ bf4 bf4~ | bf4 af4 f2 | f4. f8~ f4 f4~ | f4 ef4 c2 |
 
-  \sect "G"
+  \sectPageBreak "G"
 
   ef4. ef8~ ef4 ef4~ | ef2 \tuplet 3/2 { ef4 ef4 ef4 } |
   ef4. ef8~ ef4 ef4~ | ef2 \tuplet 3/2 { ef4 ef4 ef4 } |

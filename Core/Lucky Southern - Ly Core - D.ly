@@ -38,36 +38,32 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Latin Uptempo [Airto 1972]" 228
 
-  \xTextMark \markup{ \bold \box "Intro" }
+  \sectNoBar "Intro"
 
   \bar ".|:"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
-  \break
+  \bar "||-:|."
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   r4 a8 d8~ d8 e4 fs8~ | fs1 | fs4 e8 d8~ d8 e8 fs8 e8~ | e4 d2. |
-  \break
   r2 b4 d4 | f4. e8~ e4 d8 d8~ | d8 b8 a2. | r4 a'2.-> |
 
   \sect "A2"
 
   r4 a,8 d8~ d8 e4 fs8~ | fs1 | fs4 e8 d8~ d8 e8 fs8 e8~ | e4 d2. |
-  \break
   r2 b4 d4 | f4. e8~ e4 d8 d8~ | d8 e8 fs2.~ | fs1 |
 
   \sectPageBreak "B"
 
   r2 a4 a4 | b4. a8~ a4 fs8 e8~ | e1~ | e1 |
-  \break
   r2 a4 a4 | b4. a8~ a4 b8 c8~ | c8 b4 a8~ a8 b4 fs8~ | fs4 e8 d8~ d8 e8 d4~ |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   d2 b4 d4 | f8 e4 d8~ d8 e8 d4~ | d2. b4~ | b1 |
-  \break
   r2 b4 d4 | f8 e4 d8~ d8 e8 d4~ | d1 | r4 a'2.-> |
 
   \bar "|."

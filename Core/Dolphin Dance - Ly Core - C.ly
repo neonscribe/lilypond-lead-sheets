@@ -34,29 +34,24 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Herbie Hancock 1965]" 116
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   r2 g8 af8 bf8 f8~ | f1 | r2 g8 af8 bf8 f8~ | f1 |
 
-  \sect "A"
+  \sectStartRefrain "A"
 
   r2 ef8 f4-. g8 | d4-. d2. | r2 ef8 f8 g8 d8~ | d2. c4 |
-  \break
   b4. fs'8~ fs2 | gf4. gf8 af8 gf8 af8 bf8~ | bf1~ | bf1 |
-  \break
   g4. bf8~ bf2 | bf4-. bf8 bf8 c8 bf8 c8 d8~ | d1~ | d1 |
 
   \sectPageBreak "B1"
 
   r2 b8 c8 d8 a8~ | a1 | r2 g8 a8 b8 f8~ | f1 |
-  \break
   r2 ef8 f4-. g8 | d4-. d2. | r2 ef8 f8 g8 a8~ | a1 |
-  \break
   a8 bf8 \tuplet 3/2 { r8 a8 gs8 } a4 a8 d8 | r8 b4.~ b2 | b8 cs8 \tuplet 3/2 { r8 b8 a8 } b4 b8 e8~ | e2 f2 |
-  \break
   fs4. e8~ e8 b4-. gs8 | ds'2. fs,8 b8~ | b1~ | b1 | r1 | r1 |
 
-  \sect "B2"
+  \sectPageBreak "B2"
 
   r2 c8 df8 ef8 bf8~ | bf1 | r2 g8 af8 bf8 f8~ | f1 |
 

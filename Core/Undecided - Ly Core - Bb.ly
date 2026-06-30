@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Up [Ella Fitzgerald with Chick Webb 1939]" 206
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   c8 c8 bf8 g8 bf4 g8 bf8 | c8 c8 bf8 g8 bf8 g4 bf8 |
   c8 c8 a8 f8 a4 f8 a8 | c8 f,4.~ f2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |

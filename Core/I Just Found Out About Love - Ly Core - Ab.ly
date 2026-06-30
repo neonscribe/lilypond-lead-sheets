@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Nat King Cole 1956]" 124
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   c'4 d,2 ef4 | c'8 ef,8 c'8 bf8~ bf8 c8 bf8 af8~ | af8 f4.~ f4 g8 af8~ | af8 bf,4.~ bf2 |
   \break
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \break
   ef2 d4. bf8~ | bf2 r8 bf8 c8 ef8~ | ef8 bf8 c8 df8~ df8 af8 bf8 c8~ | c2. r4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   c4 d,2 ef4 | c'8 ef,8 c'8 bf8~ bf8 c8 bf8 af8~ | af8 f4.~ f4 af4 | ef'8 df4.~ df2 |
   \break

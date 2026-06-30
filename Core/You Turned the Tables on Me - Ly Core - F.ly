@@ -66,27 +66,22 @@ refrainMelody = \relative f' {
 
   \sectNoBreak "A1"
 
-  \set Score.currentBarNumber = #1
   d1 | r4 c'4 c4 c4 | c8 a8 a8 a8~ a2 | r8 c,8 d8 c8 d8 c8 ef8 d8~ |
-  \break
   d1~ | d4 c'4 c4 c4 | c8 a8 a8 a8~ a2~ | a4 a4 c4 bf4 |
 
   \sect "B"
 
   a8 f8 f8 f8~ f8 f8 f8 f8 | a8 f8 f8 f8~ f4. e8 | g8 e8 e8 e8~ e8 e4 e8~ | e2. r8 d8 |
-  \break
   f8 d8 d8 d8~ d8 d8 d8 d8 | f8 d8 d8 d8~ d8 e4 c8~ | c8 e4 c8~ c8 ef4 c8~ | c8 c8 d8 c8 d8 c8 ef8 d8~ |
 
   \sectPageBreak "A2"
 
   d1 | r4 c'4 c4 c4 | c8 a8 a8 a8~ a2 | r8 f8 g8 f8 g8 f8 af8 g8~ |
-  \break
   g1 | r4 c4 c4 c4 | c8 cf8 bf8 bf8~ bf2~ | bf2~ bf8 bf8 c8 bf8 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   c8 bf8 df8 c8~ c8 bf8 df8 c8~ | c4. bf8~ bf2 | bf8 a8 c8 a8 f8 a8 f8 d8~ | d2. r4 |
-  \break
   d8 c8 ef8 d8~ d8 c8 e8 d8~ | d8 c'8 c8 c8 c8 gs8 a8 f8~ | f1~ | f2 r2 |
 
   \bar "|."

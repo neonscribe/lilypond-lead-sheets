@@ -48,6 +48,15 @@ refrainHLChords = \chordmode {
   g1:m7 gf1:7.5- f1:maj7 \chordInsideParens{ gf1:7.5- }
 }
 
+chordDiagrams = \chordmode {
+  f1:maj7 g1:7
+  g1:m7 gf1:7.5-
+  gf1:maj7 b1:7
+  fs1:m7 d1:7
+  ef1:7
+  a1:m7 d1:7.9-.11+ g1:m7 c1:7.9-.11+
+}
+
 refrainChords = \refrainHLChords
 
 refrainKey = f

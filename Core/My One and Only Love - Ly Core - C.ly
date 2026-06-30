@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [John Coltrane and Johnny Hartman 1963]" 62
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   r8 g,8 a8 c8 d8 e8 b'8 g8 | a4 d4 b4~ \tuplet 3/2 { b8 g8 f8 } |
   %% \break
@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   %% \break
   \tuplet 3/2 { d4 d4 d4 } \tuplet 3/2 { f4 d4 f4 } | d1 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   r8 g,8 a8 c8 d8 e8 b'8 g8 | a4 d4 b4~ \tuplet 3/2 { b8 g8 f8 } |
   %% \break

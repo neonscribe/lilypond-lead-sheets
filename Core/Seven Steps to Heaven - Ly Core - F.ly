@@ -86,8 +86,7 @@ refrainMelody = \relative f' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \segnoSign
-  \sectNoBar "A1,A2"
+  \sectStartRefrainSegno "A1,A2"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -117,15 +116,13 @@ refrainMelody = \relative f' {
   |
   }
   \bar ":|."
-  r4 <d ef g c c'>4 r8 <d ef g c c'>8 r4 | r4 <c df f c' c'>4 r8 <c df f c' c'>8 r4 |
+  <d ef g c c'>4 r4 r2 | r1 |
 
-  \bar ".|:-||"
+  \bar ":..:"
 
   \ambitusOn
 
-  \xPageBreak
-
-  \sectNoBar "Solos"
+  \sectNoBarPageBreak "Solos"
 
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

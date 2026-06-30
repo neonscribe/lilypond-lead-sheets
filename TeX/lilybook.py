@@ -39,7 +39,8 @@ add pdf bookmarks using toc entries from bookfile
 rectoThrees = ['Django', "It Ain't Necessarily So", 
                'Spring Can Really Hang You Up the Most',
                "Is You Is, or Is You Ain't (Ma' Baby)"]
-versoThrees = ['Fever', "Moanin'", 'My Attorney Bernie', 'Oh Lonesome Me Four']
+versoThrees = ['Fever', "Moanin'", 'My Attorney Bernie', 
+               'Oh Lonesome Me Four', 'Dear Mr Fantasy']
 eitherThrees = ['Twisted', 'You Belong to Me']
 
 def threepagetype(filename):
@@ -106,6 +107,7 @@ def book_to_pdf(arg_filename):
     ly_file_middle = f"""
     \\book {{
       \\paper {{
+        \\include "../Include/toc-margins.ily"
         tocItemMarkup = \\tocItemWithDotsMarkup
         tocTitleMarkup = \\markup \\huge \\larger \\larger \\larger \\column {{
           \\fill-line {{ \\null "{title}" \\null }}
@@ -224,7 +226,7 @@ def book_to_pdf(arg_filename):
             songvar = 'song' + varnum(index)
             if (blank_page_insert):
                 f.write(f"""
-    \\include "../Include/blank-staff.ily"
+    \\include "../Include/blank-page.ily"
     """
     )
             f.write(f"""

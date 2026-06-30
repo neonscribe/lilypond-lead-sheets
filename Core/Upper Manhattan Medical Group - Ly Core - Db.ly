@@ -40,28 +40,24 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up [Tommy Flanagan 1975]" 192
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   bf2. af8 cf8~ | cf4. bf8~ bf2 | r8 af4.~ af4 gf8 f8~ | f2 r8 ef4. |
-  \break
   a,4. bf8~ bf4. c8~ | c4 df4 \tuplet 3/2 { f4 af4 c4 } | ef2. df8 g,8~ | g2 af2 |
 
   \sect "A2"
 
   bf2. af8 cf8~ | cf4. bf8~ bf2 | r8 af4.~ af4 gf8 f8~ | f2 r8 ef4. |
-  \break
   a,4. bf8~ bf4. c8~ | c4 df4 \tuplet 3/2 { f4 af4 df4 } | gf2. f8 gf8~ | gf2 f2 |
 
   \sect "B"
 
   f,2. e4 | c'4 bf4 af4 g4 | g2. f8 e8~ | e4. f8~ f2 |
-  \break
   gf2. f4 | df'4 cf4 a4 af4 | af2. gf8 f8~ | f1 |
 
   \sect "A3"
 
   bf2. af8 cf8~ | cf4. bf8~ bf2 | r8 af4.~ af4 gf8 f8~ | f2 r8 ef4. \textToCodaLastTime |
-  \break
   a,2. df8 bf8~ | bf1 | a2. df8 bf8~ | bf1 |
 
   \bar "|."
@@ -70,7 +66,6 @@ refrainMelody = \relative f' {
   \textCoda
 
   a1~ | a2. df8 bf8~ | bf1~ | bf1 |
-  \break
   a1~ | a2. df8 bf8~ | bf1~ | bf1 |
 
   \bar "|."

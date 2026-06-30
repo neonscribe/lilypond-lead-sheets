@@ -53,30 +53,25 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Julie London 1955]" 62
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   e8 e4 e8~ e2~ | e4 e4 a8 a8 e8 e8 | ef8 ef4.~ ef2~ | ef 4 ef4 af8 af8 ef8 ef8 |
-  \break
   d8 d4.~ d2~ | d4 d4 \tuplet 3/2 { e4 f4 g4 } | c1~ | c2 r2 |
 
   \sect "A2"
 
   c8 c4 c8~ c2~ | c4 c4 e8 e8 d8 d8 | bf8 bf4.~ bf2~ | bf4 bf4 d8 d8 c8 c8 |
-  \break
   a8 a4.~ a2~ | a4 a4 c8 bf8 a8 g8~ | g1~ | g4 a4 bf4 c4 |
 
   \sectPageBreak "B"
 
   c2~ c8 f,8 g8 a8 | c4 bf4 f4 g4 | a4. a8~ a2~ | a4 e4 f4 g4 |
-  \break
   a2~ a8 e8 f8 g8 | a4 g4 e4 f4 | d1 | e1 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   e8 e4 e8~ e2~ | e4 e4 a8 a8 e8 e8 | ef8 ef4 ef8~ ef2~ | ef4 ef4 af8 af8 ef8 ef8 |
-  \break
   d8 d4 d8~ d2~ | d4 d4 \tuplet 3/2 { e4 f4 g4 } | c1~ | c2 r4 c8 cs8 |
-  \break
   d8 f4.~ f2~ | f4 f,4 a8 a8 a4 | f1~ | f2 r2 |
 
   \bar "|."

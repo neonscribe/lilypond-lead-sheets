@@ -75,13 +75,11 @@ refrainMelody = \relative f' {
   r4 r8 ef,8 g8 bf8 \tuplet 3/2 { c8 bf8
   \endParenthesis \parenthesize ef8 } \dalSegnoAfterSolosWithRepeats |
 
-  \bar "|."
+  \bar "||-|."
 
   \textCodaBreak
 
   df,4 bf8 bf8 df8 ef8 r8 <a f,>8~ | <a f,>1\fermata |
-
-  \sect "C"
 
   \bar "|."
 }

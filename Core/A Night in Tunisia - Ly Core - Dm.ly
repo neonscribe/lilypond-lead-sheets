@@ -87,7 +87,7 @@ refrainMelody = \relative f' {
   bf2 g4. f8 | e4 df'8 b8 c8 bf4 gs8 | a4. f8 g4 f8 e8~ | e2 r4 r8 \dalSegno a,8 |
   \bar "|."
 
-  \xPageBreak
+  \xxPageBreak
 
   \textCodaBreak
 

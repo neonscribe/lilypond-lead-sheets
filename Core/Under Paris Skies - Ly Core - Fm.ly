@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Waltz [Edith Piaf 1955]" 180
 
-  \xTextMark \markup{ \bold \box "A1,A2,A4" }
+  \sectNoBar "A1,A2,A4"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -67,6 +67,7 @@ refrainMelody = \relative f' {
   } \volta 2 {
   f2.~ | f2.~ | f2 r4 | g4 af4 g4 |
   } } }
+
   \sect "B"
 
   f2. | f2. | f2. | g4 af4 g4 |
@@ -81,7 +82,7 @@ refrainMelody = \relative f' {
   c,4 e4 f4 | g2 af4 | bf4 df4 c4 | bf4 a4 g4 |
   a2.~ | a2.~ | a4 r4 c4 | c4 a4 f4 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   \key \refrainKey \major
 

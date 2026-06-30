@@ -150,7 +150,8 @@ refrainMelody = \relative f' {
   } \volta 2 {
   r1 | r2 r4 c'8 f,8 |
   } } }
-  \sect "B"
+
+  \sectPageBreak "B"
 
   c'4 bf8 a8 bf8 c8 r8 \parenthesize f,8 | c'4 bf8 af8 bf8 c8 r8 f,8 |
   c'8 c8 c8 c8 c8 d8 c8 ef8~ | ef4. d8 c8 f,8 f8 c'8~ |

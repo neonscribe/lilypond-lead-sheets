@@ -38,32 +38,30 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Slow Rumba [Los Lobos 1978]" 88
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   r1 | r1 | r1 | r4 b8 c8 d8. c16 b8 a8 |
 
-  \sect "A1"
+  \bar "||-||"
+
+  \sectStartRefrain "A1"
 
   b8 e,4 b'16 e,16 b'2~ | b4 a8 b8 c8. b16 a8 g8 | a8 d,4 a'8~ a2~ | a4 fs8 g8 a8 g8 fs8 e8 |
-  \break
   g4 e8 fs8 g8 fs8 e8 d8 | fs4. d8 fs4. d8 | e1~ | e8 r8 b'8 c8 d8. c16 b8 a8 |
 
   \sect "A2"
 
   b8 e,4 b'16 e,16 b'2~ | b4 a8 b8 c8. b16 a8 g8 | a8 d,4 a'8~ a2~ | a4 fs8 g8 a8 g8 fs8 e8 |
-  \break
   g4 e8 fs8 g8 fs8 e8 d8 | fs4. d8 b'4. b8 | g1~ | g2. a8 g8 |
 
   \sectPageBreak "B"
 
   a4 f2 a8 g8 | a4 f2 b8 g8 | a8 g8 b8 g8 a8 g8 b8 g8 | a2. e8 fs8 |
-  \break
   g4 a2 e8 fs8 | g4 b2 fs8 g8 | a8 b8 a8 b8 a8 b8 c8 b8 | a4 b8 c8 d8. c16 b8 a8 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   b8 e,4 b'16 e,16 b'2~ | b4 a8 b8 c8. b16 a8 g8 | a8 d,4 a'8~ a2~ | a4 fs8 g8 a8 g8 fs8 e8 |
-  \break
   g4 e8 fs8 g8 fs8 e8 d8 | fs4. b8 b4. b8 | g1~ | g2 r4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize a8

@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Slow [Ahmad Jamal 1958]" 95
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   \ambitusOff
   \repeat volta 2 {
@@ -83,7 +83,6 @@ refrainMelody = \relative f' {
   \sect "A1"
 
   a2 a2~ | a8 g8 a8 b8 d8 b8 a8 g8 | f1~ | f1 |
-  \break
   ef2 ef2~ | ef8 ef8 f8 g8 bf8 g8 f8 ef8 | d1~ |
 
   d4 r4 d'4. b8 |
@@ -91,7 +90,6 @@ refrainMelody = \relative f' {
   \sect "A2"
 
   a2 a2~ | a8 g8 a8 b8 d8 b8 a8 g8 | f1~ | f2. r8 f8 |
-  \break
   ef2 ef2~ | ef8 ef8 f8 g8 bf8 g8 f8 ef8 | d1~ |
 
   d2 r2 |
@@ -99,13 +97,11 @@ refrainMelody = \relative f' {
   \sectPageBreak "B"
 
   ef8 f8 g8 a8 bf4. a8 | c4. bf8 a8 g8 fs8 g8 | a1~ | a2. r4 |
-  \break
   ef8 f8 g8 a8 bf4. a8 | c4. bf8 a8 g8 fs8 g8 | d'1~ | d2 d4. b8 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   a2 a2~ | a8 g8 a8 b8 d8 b8 a8 g8 | f1~ | f1 |
-  \break
   ef2 ef2~ | ef8 ef8 f8 g8 bf8 g8 f8 ef8 | d1~ | d1 |
 
   \bar "|."

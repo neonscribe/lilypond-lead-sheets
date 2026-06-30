@@ -45,8 +45,8 @@ verseMelody = \relative g' {
   e8 g8 e8 g8 a2 | b4 b8 c8 a4. a8 | g8 b8 g8 b8 a4. a8 |
   b8 g8 a8 b8 c8 a8 b8 c8 | d8 c8 b8 a8 g4 fs4 | e1 |
   r4 e4 ds4 e4 | a2 a2 | e2 e2 | g1~ | g2 r2 |
-
-  \bar "||-||"
+  \bar "||"
+  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -95,10 +95,10 @@ refrainMelody = \relative g' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-
-  \xTextMark \markup{ "Refrain" \bold \box "A1" }
-  \set Score.currentBarNumber = #1
   \tempoFour "Medium [Peggy Lee 1953]" 150
+
+  \sectStartRefrain "A1"
+
 
   b2~ b8 fs4 g8 | a4 a4 a8 b8 g4 | b2~ b8 fs4 g8 | a1 |
   a2~ a8 e4 fs8 | g4 g4 g8 a8 fs4 | e4 e4 e8 fs8 d4 | c'1 |
@@ -108,21 +108,15 @@ refrainMelody = \relative g' {
   b2~ b8 fs4 g8 | a4 a4 a8 b8 g4 | b2~ b8 fs4 g8 | a1 |
   a2~ a8 e4 fs8 | g4 g4 g8 a8 fs4 | e4 e4 e8 fs8 d4 | d'1 |
 
-  \bar "||-||"
-  \break
-  \xTextMark \markup{ \bold \box "B" }
+  \sectPageBreak "B"
 
   e2~ e8 d8 c8 b8 | a4 a8 fs8 a4 a8 fs8 | a4 a8 fs8 a4 af4 | g1 |
   e'2~ e8 d8 c8 b8 | a4 a8 fs8 a4 a8 fs8 | a4 a8 fs8 a4 g4 | d'1 |
 
-  \bar "||-||"
-  \break
-  \xTextMark \markup{ \bold \box "A3" }
+  \sectPageBreak "A3"
 
   b2~ b8 fs4 g8 | a4 a4 a8 b8 g4 | b2~ b8 fs4 g8 | a1 |
-  \break
   a2~ a8 e4 fs8 | g4 g4 g8 a8 fs4 | e4 e4 e8 fs8 d4 | d'2. c4 |
-  \break
   b2~ b8 fs4 g8 | a4 a4 a8 b8 g4 | g1 | r1 |
 
   \bar "|."

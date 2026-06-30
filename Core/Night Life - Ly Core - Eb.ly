@@ -57,32 +57,30 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Ray Price 1963]" 66
 
-  \xTextMark \markup{ \bold \box "Intro" }
+  \sectNoBar "Intro"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq bf8 c8 |
 
-  \sect "A1"
+  \bar "||-||"
+
+  \sectStartRefrain "A1"
 
   bf8 g4 ef8~ ef4 ef'4 | df2. c8 c8 | bf8 af8~ af2  ef8 c8 | cf2. r8 bf8 |
-  \break
   g'8 g8~ g2 af8 g8 | f8 bf,4.~ bf4~ bf8 bf'16 g16 | bf8 g8~ g2. | r2 r4 bf8 c8 |
 
   \sect "A2"
 
   bf8 g8~ g2 ef8 ef'8 | df2. c8 c8 | bf2~ bf8 af8 ef8 c8 | cf2. r8 bf8 |
-  \break
   g'8 g8~ g2 af8 g8 | f8 bf,4.~ bf4~ bf8 d16 f16 | f8 ef8~ ef2. | r1 |
 
   \sectPageBreak "B"
 
   ef'8 bf8 c8 bf8 df4. bf8 | a8 bf8~ bf2. | r1 | r1 |
-  \break
   \tuplet 3/2 { bf8 bf8 bf8 } \tuplet 3/2 { af8 bf8 af8~ } af4. af8 | g8 bf,8~ bf2. | r1 | r2 r4 bf8 c8 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   bf'2~ bf8 g8 ef8 ef'8 | df2. c8 c8 | bf2~ bf8 af8 ef8 c8 | cf2. r8 bf8 |
-  \break
   g'8 g8~ g2 af8 g8 | f8 bf,4.~ bf4~ bf8 d16 f16 | f8 ef8~ ef2.~ | ef2. r4 |
 
   \bar "|."
