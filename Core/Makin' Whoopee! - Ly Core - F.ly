@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:43.869501Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Makin' Whoopee!"
 headerSubtitle = \subtitle
 headerPoet = "Gus Kahn"

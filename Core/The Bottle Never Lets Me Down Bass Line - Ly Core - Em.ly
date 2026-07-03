@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:53.992293Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "The Bottle Never Lets Me Down"
 headerSubtitle = "Bass Line from Sarah Shook's 2018 album Years"
 headerPoet = ""

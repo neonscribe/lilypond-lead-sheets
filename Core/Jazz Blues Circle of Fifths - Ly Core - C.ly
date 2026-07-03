@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:40.515157Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Jazz Blues Circle of Fifths"
 headerSubtitle = \subtitle
 headerPoet = ""

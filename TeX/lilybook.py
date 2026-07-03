@@ -37,11 +37,13 @@ add pdf bookmarks using toc entries from bookfile
 ## eithers don't have a strong two-page sequence
 
 rectoThrees = ['Django', "It Ain't Necessarily So", 
-               'Spring Can Really Hang You Up the Most',
                "Is You Is, or Is You Ain't (Ma' Baby)"]
 versoThrees = ['Fever', "Moanin'", 'My Attorney Bernie', 
-               'Oh Lonesome Me Four', 'Dear Mr Fantasy']
-eitherThrees = ['Twisted', 'You Belong to Me']
+               'Peel Me a Grape',
+               'Oh Lonesome Me Four', 'Dear Mr Fantasy',
+               "Do Nothin' Till You Hear From Me"]
+eitherThrees = ['Twisted', 'You Belong to Me'
+               'Spring Can Really Hang You Up the Most']
 
 def threepagetype(filename):
     for name in rectoThrees:

@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:49.046257Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Route 66"
 headerSubtitle = \subtitle
 headerPoet = ""
@@ -162,7 +160,7 @@ refrainMelody = \relative f' {
   c8 c8 bf8 a8 bf8 c8 r8 c8~ | c8 c8 bf8 a8 bf8 c4. |
   c8 c4. c8 c4 c8~ | c4 bf8 a8 bf8 c8 r8 f,8~ |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   f8 f4. f4 f4 | f4 f4 c4 e8 f8 | r1 | r2 r4 f4 |
   \break

@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:55.160385Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "The Night We Called It a Day"
 headerSubtitle = \subtitle
 headerPoet = "Tom Adair"

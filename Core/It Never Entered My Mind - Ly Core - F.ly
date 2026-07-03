@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:39.908809Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "It Never Entered My Mind"
 headerSubtitle = \subtitle
 headerPoet = "Lorenz Hart"

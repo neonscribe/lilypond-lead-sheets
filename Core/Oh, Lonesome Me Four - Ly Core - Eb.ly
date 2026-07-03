@@ -10,8 +10,6 @@ songID = "2026-06-01T22:16:46.839747Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Oh, Lonesome Me (in 4, Don Gibson Style)"
 headerSubtitle = \subtitle
 headerPoet = ""

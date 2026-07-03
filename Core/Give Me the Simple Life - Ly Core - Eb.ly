@@ -7,8 +7,6 @@
 
 %}
 
-#(set-global-staff-size 18)
-
 songID = "2026-06-01T22:16:34.11789Z"
 
 \include "../Include/lead-sheets.ily"
@@ -48,7 +46,7 @@ verseMelody = \relative f'' {
   a8 a8 a4~ a4. g8 | c8 c8 c8 af8 c8 c8 c8 af8 | f1 |
   \bar "||"
 
-  \xxPageBreak
+  \xPageBreak
 }
 
 refrainLyrics = \lyricmode {

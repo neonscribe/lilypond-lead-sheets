@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:59.376344Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Witchcraft"
 headerSubtitle = \subtitle
 headerPoet = "Carolyn Leigh"
@@ -79,7 +77,7 @@ refrainMelody = \relative f' {
   \break
   r8 bf4. bf4 a4 | a4 g8 g8~ g8 fs8 g4 | bf1~ | bf2 r2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   r8 d,4. d4 e4 | e8 f4 f8~ f2 | r8 d4. d4 e4 | e8 f4 f8~ f2 |
   \break

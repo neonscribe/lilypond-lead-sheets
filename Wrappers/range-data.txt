@@ -18013,6 +18013,18 @@ refrain
 fis
 a'
 
+Mr Blue Sky - Ly - F Bass for Standard.ly
+
+Mr Blue Sky - Ly - F Standard for Viola.ly
+
+Mr Blue Sky - Ly - F Standard.ly
+
+Mr Blue Sky - Ly - F to D for Eb for Standard.ly
+
+Mr Blue Sky - Ly - F to G for Bb High for Standard.ly
+
+Mr Blue Sky - Ly - F to G for Bb Low for Standard.ly
+
 Mr PC - Ly - Cm Bass for Standard.ly
 refrain
 bes,
@@ -20698,6 +20710,31 @@ Prelude to a Kiss - Ly - F to G for Bb Low for Alto Voice.ly
 refrain
 g
 ais'
+
+Recado Bossa Nova - Ly - Dm Bass for Standard.ly
+refrain
+bes,
+c'
+
+Recado Bossa Nova - Ly - Dm Standard for Viola.ly
+refrain
+bes
+c''
+
+Recado Bossa Nova - Ly - Dm Standard.ly
+refrain
+bes
+c''
+
+Recado Bossa Nova - Ly - Dm to Bm for Eb for Standard.ly
+refrain
+g'
+a''
+
+Recado Bossa Nova - Ly - Dm to Em for Bb for Standard.ly
+refrain
+c'
+d''
 
 Recorda-Me - Ly - Am Bass for Standard.ly
 refrain

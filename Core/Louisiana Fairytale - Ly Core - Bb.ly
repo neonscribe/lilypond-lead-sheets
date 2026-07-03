@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:42.767291Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Louisiana Fairytale"
 headerSubtitle = \subtitle
 headerPoet = "Mitchell Parish and J. Fred Coots"

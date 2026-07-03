@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:25.138715Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "April in Paris"
 headerSubtitle = \subtitle
 headerPoet = "E.Y. Harburg"
@@ -67,7 +65,7 @@ refrainMelody = \relative f' {
   \break
   e2 d8 as8 b8 d8 | c4 c4 c2 | c8 gs8 a8 c8 b4 b4 | gs2 g2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   \tuplet 3/2 { f4 f4 f4 } ds4 e4~ | e1 | \tuplet 3/2 { bf'4 bf4 bf4 } gs4 a4~ | a1 |
   \break

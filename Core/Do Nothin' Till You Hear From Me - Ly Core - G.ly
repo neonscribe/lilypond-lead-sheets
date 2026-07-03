@@ -4,9 +4,7 @@ songID = "2026-06-01T22:16:31.597574Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
-headerTitle = " Do Nothin' Till You Hear From Me"
+headerTitle = "Do Nothin' Till You Hear From Me"
 headerSubtitle = \subtitle
 headerPoet = "Bob Russell"
 headerComposer = "Duke Ellington"
@@ -90,20 +88,21 @@ refrainMelody = \relative f' {
 
   \sectNoBreak "A1"
 
-  \set Score.currentBarNumber = #1
-
   b1 | r8 c8 a8 as8 b8 d8 c8 a8 | b1 | r8 c8 a8 as8 b8 d8 c8 a8 |
   b8 g8 d8 c8~ c2 | r4 bf'4 b8 d,8 e8 g8~ | g1 | r8 c8 a8 as8 b8 d8 c8 a8 |
 
   \sectNoBreak "A2"
 
   b1 | r8 c8 a8 as8 b8 d8 c8 a8 | b1 | r8 c8 a8 as8 b8 d8 c8 a8 |
-  b8 g8 d8 c8~ c2 | r4 bf'4 b8 d,8 e8 g8~ | g1 | r2 r8 g8 g8 g8 |
+  b8 g8 d8 c8~ c2 | r4 bf'4 b8 d,8 e8 g8~ | g1 |
+  
+  r2 r8 g8 g8 g8 |
 
   \sectNoBreak "B"
 
   bf1 | g8 bf8 g8 g4 g8 g8 g8 | bf1 | g8 bf8 g8 g4 g8 g8 g8 |
   d'2. r8 d,8 | e8 g8 b8 fs2 g8 | a8 f8 fs8 a4 as8 b8 d8 |
+
   r8 c8 a8 as8 b8 d8 c8 a8 |
 
   \sectNoBreak "A3"
@@ -115,8 +114,6 @@ refrainMelody = \relative f' {
 
   \bar ".|:-|."
   
-  \xPageBreak
-
   \sectStartSolos "A1"
 
   \repeat volta 2 {
@@ -125,19 +122,19 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
   %% \break
-  \sect "A2"
+  \sectPageBreak "A2"
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
   %% \break
-  \sect "B"
+  \sectPageBreak "B"
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
   %% \break
-  \sect "A3"
+  \sectPageBreak "A3"
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

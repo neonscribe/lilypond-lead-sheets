@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
 
   \bar "|."
 
-  \xxPageBreak
+  \xPageBreak
 
   \textCoda
 

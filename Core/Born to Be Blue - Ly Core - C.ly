@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:27.837015Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Born to Be Blue"
 headerSubtitle = \subtitle
 headerPoet = ""
@@ -119,7 +117,7 @@ refrainMelody = \relative f' {
   \break
   bf8 f8 g8 af8 \tuplet 3/2 { bf4 bf4 bf4 } | g2 g2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   r8 c8 a8 g8 af8 df8 bf8 af8 | a8 c4.~ c2 |
   \break

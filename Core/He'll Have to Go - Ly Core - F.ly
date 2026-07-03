@@ -10,8 +10,6 @@ songID = "2026-06-01T22:16:34.770392Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "He'll Have to Go"
 headerSubtitle = \subtitle
 headerPoet = ""

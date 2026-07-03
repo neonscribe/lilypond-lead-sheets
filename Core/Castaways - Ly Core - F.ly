@@ -7,7 +7,7 @@ songID = "2026-06-01T22:16:28.826447Z"
 headerTitle = "Castaways, from The Backyardigans"
 headerSubtitle = \subtitle
 headerPoet = ""
-headerComposer = "Douglas Wieselman, Evan Lurie, Leslie Valdes and Paul Smith"
+headerComposer = "Wieselman, Lurie, Valdes and Smith"
 headerCopyright = "© 2005 Tunes by Nickleodeon, Inc."
 
 bossaRhythm = ##t

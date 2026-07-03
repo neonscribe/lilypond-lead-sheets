@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:57.800888Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Waltz for Debby"
 headerSubtitle = \subtitle
 headerPoet = "Gene Lees"

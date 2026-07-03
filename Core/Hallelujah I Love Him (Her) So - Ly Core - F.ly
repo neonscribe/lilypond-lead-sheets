@@ -167,7 +167,7 @@ refrainMelody = \relative f' {
   \revert NoteHead.style
   g8 a4 d8~( d4 c4) |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   r4 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 |
   r4 d8 c8 af8 g8 f8 d8 | f4 f8 d8~ d8( c8) r4 |

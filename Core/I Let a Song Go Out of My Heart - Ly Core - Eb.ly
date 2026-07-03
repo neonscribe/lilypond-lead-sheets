@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:36.656703Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "I Let a Song Go Out of My Heart"
 headerSubtitle = \subtitle
 headerPoet = "Henry Nemo"

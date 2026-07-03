@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:39.203264Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "In the Still of the Night"
 headerSubtitle = \subtitle
 headerPoet = ""
@@ -84,7 +82,7 @@ refrainMelody = \relative f' {
   r2 ds4 e4 | a2 gs4 a4 | fs2. gs4 | a4 b4 c4 d4 |
   e2. e4 | e1 | r1 | r1 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   f1~ | f2. e4 | e1 | d1 |
   r2 e,2 | d'2. c4 | c1 | r1 |
@@ -93,7 +91,7 @@ refrainMelody = \relative f' {
   r2 a2 | d2. c4 | c2. bf4 | bf1 |
   bf1 | r2 f4 g4 | a1 | r2 c,4 d4 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   f1 | r2 e4 f4 | d1 | r2 c4 d4 |
   f1 | r2 e4 f4 | d1 | r2 c4 d4 |

@@ -10,8 +10,6 @@ songID = "2026-06-01T22:16:45.540353Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "My Foolish Heart"
 headerSubtitle = \subtitle
 headerPoet = "Ned Washington"
@@ -104,12 +102,12 @@ refrainMelody = \relative f' {
   d4. d16 d16 d8 d8 c8 bf8 | d4 d4. d8 c8 bf8 | c4 c8 c8 c8 d8 c8 bf8 | c2. bf8 a8 |
   bf8 bf4 bf8 bf8 a8 g8 a8 | bf4 bf2 a8 g8 | a4 a8 a8 a8 f8 g8 f8 | a2. g4 |
 
-  \sect "A2"
+  \sectPageBreak "A2"
 
   f2~ f8 bf,8 d8 f8 | g8 a8 g2 g4 | g2~ g8 c,8 ef8 g8 | a2. a4 |
   a2~ a8 d,8 f8 a8 | bf8 c8 bf2 bf4 | bf2~ bf8 ef,8 g8 bf8 | d2. c4 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   bf4 bf8 bf8 bf8 a8 g8 a8 | bf4 bf2 bf8 c8 | d4 d8 d8 d8 d8 c8 bf8 | d,2. g4 |
   bf2~ bf8 ef,8 g8 bf8 | c4 d4 bf4 c4 | bf1 | r1 |

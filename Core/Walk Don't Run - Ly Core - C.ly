@@ -93,7 +93,7 @@ refrainMelody =  \relative a' {
   \once \override TrillSpanner.bound-details.left.text = ##f
   <a c>2~\startTrillSpan <a c>4. e8~\stopTrillSpan | e4 d4 c4 b4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   a'8 a,8 b8 c8~ c8 d8 e8 f8~ | f8 g8 a8
   \once \override TrillSpanner.bound-details.left.text = ##f

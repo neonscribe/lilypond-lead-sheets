@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:50.513806Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Smoke Gets in Your Eyes"
 headerSubtitle = \subtitle
 headerPoet = "Otto Harbach"

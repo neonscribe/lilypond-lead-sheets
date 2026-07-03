@@ -123,9 +123,7 @@ refrainMelody = \relative f' {
   \break
   a4 a4 a4 a4 | d2 e4 d8 d8~ | d4 b2 r4 | r2 r4 r8 b8 |
   a4 a4 a4 a8 cs8~ | cs2 r8 d4 d8~ | d1 | r2 r8 d4 b8 \dalSegnoFirstAndSecondTimes |
-  \bar "||"
-
-  \xPageBreak
+  \bar "||-||"
 
   \textCodaBreak
 
@@ -135,7 +133,6 @@ refrainMelody = \relative f' {
 
   \ambitusOff
   d4 d'8 g,8( a8) c4. | d,4 d'8 g,8( a8) c4. | g'4 g4 e8 d8 as8 b8 | g4 \textFine g4 fs4 e4 |
-  \break
   d4 d'8 g,8( a8) c4. | d,4 d'8 g,8( a8) c4. | g'4 g4 e8 d8 as8 b8 | g4 r8 a,8( b8) e8 d8
   \ambitusOn
   \autoBeamOff

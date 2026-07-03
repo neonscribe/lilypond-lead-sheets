@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:52.387547Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Stompin' at the Savoy"
 headerSubtitle = \subtitle
 headerPoet = "Andy Razaf"

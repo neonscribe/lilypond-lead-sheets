@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:46.346749Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Night Life"
 headerSubtitle = \subtitle
 headerPoet = ""

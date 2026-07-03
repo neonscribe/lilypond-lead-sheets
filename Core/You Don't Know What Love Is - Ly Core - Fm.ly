@@ -4,8 +4,6 @@ songID = "2026-06-01T22:17:00.056259Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "You Don't Know What Love Is"
 headerSubtitle = \subtitle
 headerPoet = "Don Raye"

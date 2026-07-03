@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:58.161876Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "We'll Be Together Again"
 headerSubtitle = \subtitle
 headerPoet = "Frankie Laine"

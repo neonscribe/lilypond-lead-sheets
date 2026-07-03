@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:51.273904Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Songe d'Automne (1947 Hubert Rostaing Clarinet Melody)"
 headerSubtitle = \subtitle
 headerPoet = ""

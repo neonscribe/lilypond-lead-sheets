@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Ella Fitzgerald 1960]" 91
 
-  \sect "A1, A2"
+  \sectNoBar "A1, A2"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   d1\repeatTie |
   } }
 
-  \sectPageBreak "B"
+  \sect "B"
 
   g8 c8 \tuplet 3/2 { d8 c8 ef8~ } ef4. c8 | bf8 g8 \tuplet 3/2 { bf8 g8 b8~ } b4. g8 |
   c8 c8 d8 c8 bf8 c4 bf8 | af8 bf8 af8 g8~ g4 r4 |

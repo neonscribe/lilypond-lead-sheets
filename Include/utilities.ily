@@ -92,17 +92,27 @@ rsw = {
   r1
 }
 
-xPageBreak = {
-  \autoPageBreaksOff
-  \allowPageTurn
-  %% \once \override Score.Clef.break-visibility = #begin-of-line-visible
-  %% \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
-}
-
+%% a mandatory page break
 xxPageBreak = {
   \pageTurn
   \once \override Score.Clef.break-visibility = #begin-of-line-visible
   \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
+}
+
+%% a good place for a page break
+xPageBreak = {
+  \break
+  \autoPageBreaksOff
+  \allowPageTurn
+%%  \autoPageBreaksOn
+}
+
+%% an okay place for a page break
+sPageBreak = {
+  \break
+%%  \autoPageBreaksOff
+  \allowPageTurn
+  \autoPageBreaksOn
 }
 
 invisEighth = {
@@ -123,24 +133,21 @@ sect =
 #(define-music-function (s)
    (string?)
   #{ \bar "||-||"
-     \autoPageBreaksOn
-     \break
+     \sPageBreak
      \xTextMark \markup{ \bold \box #s } #} )
 
 sectSegno =
 #(define-music-function (s)
    (string?)
   #{ \bar "||-||"
-     \autoPageBreaksOn
-     \break
+     \sPageBreak
      \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
 
 sectGap =
 #(define-music-function (s)
    (markup?)
   #{ \bar "||-||"
-     \autoPageBreaksOn
-     \break
+     \sPageBreak
      \xTextMark \markup{ \pad-around #3 { \bold \box #s } } #} )
 
 sectNoBreak =
@@ -152,36 +159,36 @@ sectNoBreak =
 sectNoBar =
 #(define-music-function (s)
    (string?)
-  #{ \autoPageBreaksOn
-     \break
+  #{
+     \sPageBreak
      \xTextMark \markup{ \bold \box #s } #} )
 
 sectNoBarSegno =
 #(define-music-function (s)
    (string?)
-  #{ \autoPageBreaksOn
-     \break
+  #{
+     \sPageBreak
      \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
 
 sectStartRefrain =
 #(define-music-function (s)
    (string?)
-  #{ \autoPageBreaksOn
-     \break
+  #{
+     \sPageBreak
      \xTextMark \markup{ "Refrain" \bold \box #s } #} )
 
 sectStartSolos =
 #(define-music-function (s)
    (string?)
-  #{ \autoPageBreaksOn
-     \break
+  #{
+     \sPageBreak
      \xTextMark \markup{ "Solos" \bold \box #s } #} )
 
 sectStartRefrainSegno =
 #(define-music-function (s)
    (string?)
-  #{ \autoPageBreaksOn
-     \break
+  #{
+     \xPageBreak
      \xTextMark \markup{ \musicglyph #"scripts.segno" "Refrain" \bold \box #s } #} )
 
 sectNoBarNoBreak =
@@ -199,14 +206,13 @@ sectPageBreak =
    (string?)
   #{ \bar "||-||"
      \xPageBreak
-     \break
      \xTextMark \markup{ \bold \box #s } #} )
 
 sectNoBarPageBreak =
 #(define-music-function (s)
    (string?)
-  #{ \xPageBreak
-     \break
+  #{
+     \xPageBreak
      \xTextMark \markup{ \bold \box #s } #} )
 
 #(define (no-double-accidental-pitch p)
@@ -445,7 +451,7 @@ tocTruncateTitle =
 	 (titlelen (string-length title))
 	 (sublen (string-length sub))
 	 (minorlen (if ismin 5 0))
-	 (limit (- 90 minorlen))
+	 (limit (- 79 minorlen))
 	 (total (+ titlelen sublen)))
     (if (<= total limit)
      title
@@ -464,7 +470,7 @@ tocTruncateSubtitle =
 	 (titlelen (string-length title))
 	 (sublen (string-length sub))
 	 (minorlen (if ismin 5 0))
-	 (limit (- 90 minorlen))
+	 (limit (- 79 minorlen))
 	 (total (+ titlelen sublen)))
     (if (<= total limit)
      sub
@@ -472,6 +478,22 @@ tocTruncateSubtitle =
      ;; shortest subtitle allowed is 12
      (let ((subtrunc (max 12 (- limit titlelen))))
       (substring sub 0 subtrunc)))))
+
+headerTitleAndKey =
+#(define-scheme-function (title key clef)
+  (scheme? ly:music? scheme?)
+  "Truncate to fit in toc entry"
+  (let* ((ismin (if (defined? 'isMinor) isMinor #f))
+	 (minstring (if ismin "m" ""))
+	 (clefstring
+	  (if (equal? clef "treble") ""
+	   (string-append " - " (string-capitalize clef) "Clef")))
+	 (pitch (first (music-pitches (no-double-accidental key))))
+	 (alt (ly:pitch-alteration pitch))
+         (keystring (string-append 
+		     (string-upcase (pitch->name pitch))
+		     (if (zero? alt) "" (accidental->text-markup alt)))))
+   (string-append title " - " keystring minstring clefstring)))
 
 stanzaPatchFile = 
 #(if (ly:version? < '(2 27))

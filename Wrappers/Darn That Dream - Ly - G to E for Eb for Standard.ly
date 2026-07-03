@@ -5,6 +5,4 @@ subtitle = "Eb for Standard Key"
 whatKey = e
 whatClef = "treble"
 
-#(set-global-staff-size 18)
-
 \include "../Core/Darn That Dream - Ly Core - G.ly"

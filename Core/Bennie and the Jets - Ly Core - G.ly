@@ -28,14 +28,14 @@ introMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Slow [Elton John 1973]" 66
 
-  \xTextMark \markup{ \bold \box "Intro" }
+  \sectNoBar "Intro"
 
   <b, d fs b>8 r8 <b d fs b>8 r8 <b d fs b>8 r8 <b d fs b>8 r8 |
   <b d fs b>8 r8 <b d fs b>8 r8 <e' e'>8-> <d d'>8-> <b b'>16-> <c c'>8.-> |
   <a, c e a>8\arpeggio r8 <a c e a>8 r8 <a c e a>8 r8 <a c e a>8 r8 |
   <a c e a>8 r8 <a c e a>8 r8 <a c e a>8 r8 <a c e a>8 r8 |
 
-  \bar "|."
+  \bar "||"
 }
 
 introBass = \relative f, {
@@ -85,21 +85,20 @@ refrainMelody = \relative f' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \xTextMark \markup{ \bold \box "Verse" }
+  \sectNoBar "Verse"
 
   e'8. e16~ e8 r16 e16~ e16. b32 d16. b32 d16 e16 b16 b16~ |
   b16 as16 b16 as16 b16 as16 b16 as16 b16 as16 b16 as16 b16 d8. |
   r16 a16 e'16 d16 e16 d8 e16~ e16 d16 d16 b16~ b8 \tuplet 3/2 { d16 b16 e16~( } |
   e16 b8.~ b8) r8 r4 r8 r16 d16 | e16 d16 e16 d16 e8 d16 e16~ e16 d16 d16 b16 d8 b16 e16~ | e2 r4 r16 g8. |
+  \bar "||"
 
-  \xxPageBreak
-
-  \sect "Pre-Chorus"
+  \sectPageBreak "Pre-Chorus"
 
   g16 g16 g16 g16( e16) e16 e16 d16 e16 d8 d16~ d8 g8 |
   r16 b,16 c16 e16~ e16 b8 a16~ a8 r16 a16 a16 a16 a16 a16 |
 
-  \sect "Chorus"
+  \sectPageBreak "Chorus"
 
   a16 a16 a16 b16 e,4 r4 r8 r16 g'16~ | g16 e16 e16 e16( d16) d16 d16 d16 b16 e8. r16 fs8 g16~ |
   g16 e16 e16( d16) e16 b16 a8 r4 r16 d16 e16 d16 |
@@ -131,3 +130,63 @@ afterText =
   } }
 
 \include "../Include/introrefrain.ily"
+
+%{
+[Verse 1]
+Hey kids, shake it loose together
+The spotlight's hittin' somethin' that's been known to change the weather
+We'll kill the fatted calf tonight, so stick around
+You're gonna hear electric music, solid walls of sound
+
+[Pre-Chorus]
+Say, Candy and Ronnie, have you seen them yet?
+Ooh, but they're so spaced out
+B-B-B-B-B-Bennie and the Jets
+Oh, but they're weird and they're wonderful
+Oh, Bennie, she's really keen
+
+[Chorus]
+She's got electric boots, a mohair suit
+You know, I read it in a magazine, oh-oh
+B-B-B-Bennie and the Jets
+
+[Verse 2]
+Hey kids, plug into the faithless
+Maybe they're blinded, but Bennie makes them ageless
+We shall survive, let us take ourselves along
+Where we fight our parents out in the streets
+To find who's right and who's wrong
+
+[Pre-Chorus]
+Oh, Candy and Ronnie, have you seen them yet?
+Oh, but they're so spaced out
+B-B-B-B-B-Bennie and the Jets
+Oh, but they're weird and they're wonderful
+Oh, Bennie, she's really keen
+[Chorus]
+She's got electric boots, a mohair suit
+You know, I read it in a magazine, oh-oh
+B-B-B-Bennie and the Jets
+
+[Piano Solo]
+
+[Pre-Chorus]
+Oh, Candy and Ronnie, have you seen them yet?
+Oh, but they're so spaced out
+B-B-B-B-B-Bennie and the Jets
+Oh, but they're weird and they're wonderful
+Oh, Bennie, she's really keen
+
+[Chorus]
+She's got electric boots, a mohair suit
+You know, I read it in a magazine, oh-oh
+B-B-B-Bennie and the Jets
+
+[Outro]
+Bennie, Bennie and the Jets
+Bennie, Bennie, Bennie, Bennie and the Jets
+Bennie, Bennie, Bennie, Bennie, Bennie and the Jets
+Bennie, Bennie, Bennie, Bennie and the Jets
+Bennie, Bennie, Bennie, Bennie, Bennie, Bennie, Bennie, Bennie and the Jets, the Jets, the Jets
+Bennie, Bennie, Bennie, Bennie, Bennie, Bennie, Bennie, Bennie, Bennie, Bennie, Bennie and the Jets
+%}

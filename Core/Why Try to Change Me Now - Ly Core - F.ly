@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Frank Sinatra 1952]" 77
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   r8 d8 f8 g8 a8 g8~ \tuplet 3/2 { g8 a8 bf8 } |
   c4~ \tuplet 3/2 { c8 a8 c8 } e,2 |
@@ -104,7 +104,8 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { f4 a4 c4 } b2 | \tuplet 3/2 { ef,4 g4 b4 } a2 |
   \break
   r8 d,8 f8 a8 g8 f8 e8 f8 | \tuplet 3/2 { g4 bf4 d4 } c4. cs,8 |
-  \sect "A3"
+
+  \sectPageBreak "A3"
 
   d4 f8 g8 a8 g8~ \tuplet 3/2 { g8 a8 bf8 } |
   c4~ \tuplet 3/2 { c8 a8 c8 } e,2 |

@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:52.433993Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Stormy Weather (Keeps Rainin' All the Time)"
 headerSubtitle = \subtitle
 headerPoet = "Ted Koehler"

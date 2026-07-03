@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:57.393194Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Unchain My Heart"
 headerSubtitle = \subtitle
 headerPoet = ""
@@ -135,7 +133,7 @@ refrainMelody = \relative f' {
   d8 a8) r4 r2 | r4 c8 d8 e8 d8 c8 e8~ | e4 r4 r2 | r4 a,8 d8 a4 c8( a8) |
   d8( a8) r4 r2 | r4 d8 c8 d4 d8 c8 | e4 r4 r2 | r8 a,8 a4 a4 c8 e8~ |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   e4 r4 r2 | r4 e8 c8 d8 a4 c8~ | c4 r4 r2 | r4 a4 a4 c8 d8~( |
   %% \break

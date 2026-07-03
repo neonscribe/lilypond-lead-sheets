@@ -193,7 +193,7 @@ refrainMelody = \relative f' {
   <a' e d bf>8 g8 <a e d bf>2. |
   \ambitusOn
 
-  \sect "C"
+  \sectPageBreak "C"
 
   c,8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |
   c8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |

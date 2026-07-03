@@ -43,7 +43,7 @@ refrainChords = \chordmode {
   \break
   f1:maj7 f1:m7 c2:maj7 bf2:7 a1:7
 
-  \sect "C"
+  \sectPageBreak "C"
 
   f1:m6 f1:m6 c2:maj7 bf2:7.5+ a1:9
   \break

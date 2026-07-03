@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:47.753058Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Peel Me a Grape"
 headerSubtitle = \subtitle
 headerPoet = ""
@@ -89,9 +87,8 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Blossom Dearie 1967]" 108
 
   \partial 4. r4. |
-  \bar "||"
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 r4 | r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 r4 |
   r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 d8 f8 | g4 f8 d8 f8 g4. |
@@ -110,18 +107,14 @@ refrainMelody = \relative f' {
   \sectPageBreak "B"
 
   d4 ef8 cs8 d4 ef8 cs8 | d8 ef8 cs8 d8~ d4 r4 | d4 ef8 cs8 d4 ef8 cs8 | d8 ef8 cs8 d8~ d4 r4 |
-  \break
   e4 f8 ds8 e8 b4. | e8 f8 ds8 e8~ e4 r8 e8 | f4 g4 af8 f8 r4 | r4 e4 f8 g8 r4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 r4 | r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 r4 |
   r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 d8 f8 | g4 f8 d8 f8 g4. |
-  \break
   r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 r4 | a8 f8 d8 g8~ g4 r4 | r8 f8 g8 d8 f4 g4 | r4 af4 f4 d4 |
-  \break
   f4 g8 d8 f4 g4 | r4 af8 f8~ f4 d4 | f4 g8 d8 f4 g4 | r4 af8 f8~ f4 d4 |
-  \break
   r8 a'8~ \tuplet 3/2 { a8 bf8 gs8 } a8 a,4.~ | a4 r4 c8 a8 cs8 d8~ \textToCodaLastTime | d4 r4 r2 | r2 r8 r4. |
 
   \bar "||-|."

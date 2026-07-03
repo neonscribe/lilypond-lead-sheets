@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \oneVoice
   c'4 c4 c4 c4 |
 
-   \sect "A3"
+   \sectPageBreak "A3"
 
    a'2 a4. g8 | f2 f,2 | f'2 e4. d8 | c4 f,4 f4 f8 f8 |
    f'4. f8 e4 d4 | c4 a4 f4 \tuplet 3/2 { d8 f8 a8 } | bf4 a4 f4 g4 | f2~ f4. r8 |

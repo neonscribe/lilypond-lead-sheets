@@ -129,7 +129,7 @@ refrainMelody = \relative f' {
   f4. af8 g4. ef8 | f4. c'8 bf4. ef,8 | f8 f8 f8 f8 f2~ | f2 r4 f4 |
   g4. bf8 a4. f8 | g4. d'8 c4. f,8 | bf8 bf8 bf8 bf8 df4 b4 | bf1 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   r8 bf8 g8 f8 ef8 ef4 ef8 | \tuplet 3/2 { c'4 af4 g4 } f2 |
   r8 bf8 g8 f8 ef8 ef4 ef8 | \tuplet 3/2 { c'4 c4 c4 } fs,2 |

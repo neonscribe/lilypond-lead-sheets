@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:46.571051Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Nobody Knows You When You're Down and Out"
 headerSubtitle = \subtitle
 headerPoet = ""

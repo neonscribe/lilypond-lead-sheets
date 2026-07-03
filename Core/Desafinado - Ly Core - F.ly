@@ -6,8 +6,6 @@
 
 %}
 
-#(set-global-staff-size 18)
-
 songID = "2026-06-01T22:16:31.166348Z"
 
 \include "../Include/lead-sheets.ily"

@@ -10,8 +10,6 @@ songID = "2026-06-01T22:16:47.215397Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "On the Sunny Side of the Street"
 headerSubtitle = \subtitle
 headerPoet = "Dorothy Fields"

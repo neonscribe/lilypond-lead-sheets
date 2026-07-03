@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:58.703307Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "When You Wish Upon a Star"
 headerSubtitle = \subtitle
 headerPoet = "Ned Washington"
@@ -71,7 +69,7 @@ refrainMelody = \relative f' {
   %% \break
   r4 e4 fs4 g4 | gs8 b8 a4 r8 a8 b8 c8 | c1 | b2. r4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   g,4 g'4 f4 e4 | cs4 d4 a'2 | b,4 b'4 a4 g4 | fs4 g4 c2 \textToCodaLastTime |
   %% \break

@@ -97,7 +97,7 @@ refrainMelody = \relative f' {
 
   df2 cf8 bf4 gf8~ | gf2 a8 g4 f8~ | f1^\markup { Latin } | r2 ef8 c8 ef4 |
 
-  \xTextMark \markup{ \bold \box "D" }
+  \sectPageBreak "D"
 
   f2 f2~ | f2 ef8 c8 ef4 | f1~ | f2 \tuplet 3/2 { ef'4 ef4 ef4 } |
   \break

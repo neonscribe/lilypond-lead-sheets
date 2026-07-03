@@ -10,8 +10,6 @@ songID = "2026-06-01T22:16:35.252334Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Honeysuckle Rose"
 headerSubtitle = \subtitle
 headerPoet = "Andy Razaf"

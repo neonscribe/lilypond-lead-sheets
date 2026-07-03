@@ -10,8 +10,6 @@ songID = "2026-06-01T22:16:50.944439Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Someday My Prince Will Come"
 headerSubtitle = \subtitle
 headerPoet = "Larry Morey"

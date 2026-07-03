@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
 
   \partial 4 g4 |
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectNoBreak "A1,A2"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -72,13 +72,14 @@ refrainMelody = \relative f' {
   } \volta 2 {
   g4 d2 e4 | a1~ | a1 |
   } } }
+
   \sect "B"
 
   b8 a8 f2 b8 a8 | f4 f2. | b8 a8 e2 b'8 a8 | e1 |
   \break
   c'8 b8 g2 c8 b8 | g4 g4~ g8 a8 b8 c8 | d2 c2 | f,2. g4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   e8 b'8 c2 e,4 | f8 b8 c2 fs,4 | g8 b8 c4 gs8 b8 c4 | a8 b8 c2 b4 |
   \break

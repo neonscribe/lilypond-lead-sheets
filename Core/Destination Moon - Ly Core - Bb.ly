@@ -6,8 +6,6 @@
 
 %}
 
-#(set-global-staff-size 18)
-
 songID = "2026-06-01T22:16:31.20916Z"
 
 \include "../Include/lead-sheets.ily"
@@ -170,7 +168,7 @@ refrainMelody = \relative f' {
   c8 c8 bf8 c4. bf8 g8~ | g1 | d'8 d8 c8 d4. c8 a8~ | a2. a8 bf8 |
   c8 bf8 c8 a4. g8 c8~ | c2. f,8 fs8 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   g8 d'4 c4. a8 g8 | f4 c'8 bf2 g8 |
   ef8 f8 g8 bf8 a4 f8 d8~ | d2. g8 d8 | ef4 f8 g4. a8 f8 |

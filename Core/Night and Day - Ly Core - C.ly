@@ -1,7 +1,5 @@
 %% -*- Mode: LilyPond -*-
 
-#(set-global-staff-size 18)
-
 songID = "2026-06-01T22:16:46.43611Z"
 
 \include "../Include/lead-sheets.ily"

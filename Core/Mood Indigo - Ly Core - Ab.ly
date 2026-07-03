@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:44.882561Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Mood Indigo"
 headerSubtitle = \subtitle
 headerPoet = ""
@@ -69,13 +67,13 @@ refrainMelody = \relative f' {
   %% \break
   c2 b8 c4 c8~ | c1 | ef2 b2 | \textFine c1 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   r4 ef,8 e8 f4. ef8 | d8 c'8 b8 bf8~ bf2 | c8 bf8 af8 f8 g4 bf4 | ef,2. r4 |
   \break
   r4 ef8 e8 f4. ef8 | d8 c'8 b8 bf8~ bf2 | c8 b8 c8 b8 c8 b4. | bf1 |
 
-  \sect "D"
+  \sectPageBreak "D"
 
   r8 af8 bf8 ef,8 af8 bf4 ef,8 | af8 bf8 ef,8 af8~ af2 | r8 af8 bf8 af8 b4. af8 | b8 af8 bf8 af8~ af8 e4 ef8 |
   \break

@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:44.740102Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "Moanin' Low"
 headerSubtitle = \subtitle
 headerPoet = "Howard Dietz"

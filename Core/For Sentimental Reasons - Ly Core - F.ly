@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { d'4 d4 d4 } e4. d8 | c4 c2. | \tuplet 3/2 { bf4 bf4 bf4 } d4. c8 | a1 |
   \tuplet 3/2 { g4 g4 g4 } bf4. a8 | g4 f2 a4 | d8 d4.~ d4 c8 b8 | c2. c4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   c8 c4.~ c2~ | c4 c4 bf8 a8 g8 f8 | a8 a4.~ a2~ | a4 bf4 a8 g8 a8 c,8 |
   f8 f4.~ f2~ | f4 a4 g8_"(rit. last time)" f8 e8 g8 \textToCodaLastTime | f1~ | f2. r4 \daCapoAfterSolos |

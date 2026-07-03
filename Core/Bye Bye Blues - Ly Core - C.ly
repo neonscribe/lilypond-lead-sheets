@@ -7,7 +7,7 @@ songID = "2026-06-01T22:16:28.366007Z"
 headerTitle = "Bye Bye Blues"
 headerSubtitle = \subtitle
 headerPoet = ""
-headerComposer = "Fred Hamm, Dave Bennett, Bert Lown and Chauncey Gray"
+headerComposer = "Hamm, Bennett, Lown and Gray"
 headerCopyright = "© 1930 Bourne Co."
 
 refrainLyrics = \lyricmode {

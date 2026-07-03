@@ -18,14 +18,14 @@
   oddHeaderMarkup = \markup { 
     \fill-line {
       ""
-      \unless \on-first-page-of-part \fromproperty #'header:title
+      \unless \on-first-page-of-part \fromproperty #'header:nextpage
       \if \should-print-page-number \fromproperty #'page:page-number-string
     }
   }
   evenHeaderMarkup = \markup
   \fill-line {
     \if \should-print-page-number \fromproperty #'page:page-number-string
-    \unless \on-first-page-of-part \fromproperty #'header:title
+    \unless \on-first-page-of-part \fromproperty #'header:nextpage
     ""
   }
 }

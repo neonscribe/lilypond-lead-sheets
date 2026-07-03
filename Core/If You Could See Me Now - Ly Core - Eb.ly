@@ -4,8 +4,6 @@ songID = "2026-06-01T22:16:38.743881Z"
 
 \include "../Include/lead-sheets.ily"
 
-#(set-global-staff-size 18)
-
 headerTitle = "If You Could See Me Now"
 headerSubtitle = \subtitle
 headerPoet = "Carl Sigman"

@@ -169,7 +169,7 @@ refrainMelody = \relative f' {
 
   f1~ | f2. r8 c8 |
 
-  \sect "A2"
+  \sectPageBreak "A2"
 
   f8 f8 f8 c8 ef8 c4. | f8 f8 f8 c8 ef4. c8 |
   f8 f8 f8 c8 ef8 ef8 ef8 c8 | f8 f8 f8 c8 ef4 f4 |
@@ -188,7 +188,7 @@ refrainMelody = \relative f' {
   df8 df8 df8 df8 df4. f8 | df8 df4.~ df4. bf8 |
   df8 df8 df8 df8 df,4. df'8 | \tuplet 3/2 { c8 c8 c8 } c8 c8 c,4. c8 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   f8 f8 f8 c8 ef8 c4 c8 | f8 f8 f8 c8 ef4. c8 |
   f8 f8 f8 c8 ef8 ef8 ef8 c8 | f8 f8 f8 c8 ef4 f4 |
