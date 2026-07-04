@@ -37,10 +37,10 @@ verseMelody = \relative f' {
   \clef \whatClef
   \tempo "Freely"
 
-  \xTextMark \markup{ "Verse" }
 
   \partial 4 af8 g8 |
-  \bar "||"
+
+  \sectNoBreak "Verse"
 
   f4 f8 f8 f4 f8 f8 | f8 g4.~ g4 af8 g8 |
   \break
@@ -107,21 +107,22 @@ refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
+
   \tempoFour "Ballad [Chet Baker 1954]" 70
 
-  \xTextMark \markup{ "Refrain" \bold \box "A" }
+  \sectNoBarGap "Refrain"
+
+  \bar ".|:"
+  \repeat volta 2 {
 
   r8 c8 b8 c8 bf4. af8 | g8 af8 g2. | r8 af8 g8 af8 g4. f8 | ef1 |
   \break
   r8 f8 e8 f8 ef4. d8 | c8 d8 ef8 g8~ g2 | r8 fs8 g8 a8 d4 d4 | d1 |
 
-  \sect "B"
-
   r8 ef8 d8 ef8 d4. c8 | b2~ b8 g8 af8 g8 | c2. bf8 c8 | af2~ af8 g8 af8 g8 |
   \break
   c4. c8 bf4. af8 | \tuplet 3/2 { g8 af8 g8~ } g2. | r8 g8 f8 ef8 g4. g8 | ef2. r4 |
-
-  \bar "|."
+  }
 }
 
 \include "../Include/verserefrain.ily"

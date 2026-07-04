@@ -54,6 +54,9 @@ refrainMelody = \relative f' {
 
   \sectNoBar "A1"
 
+  \bar ".|:"
+  \repeat volta 2 {
+
   \tuplet 3/2 { d4 d4 d4 } fs2~ | fs2 e2 | \tuplet 3/2 { b4 b4 b4 } fs'2~ | fs1 |
   \break
   \tuplet 3/2 { e4 e4 e4 } b'4 b4~ | b2 a2 | c1 | ef,1 |
@@ -78,8 +81,7 @@ refrainMelody = \relative f' {
   \break
 
   \tuplet 3/2 { c4 c4 c4 } e,4 e4 | b'2 b4 b4 | g1~ | g2. r4 |
-
-   \bar "|."
+  }
 }
 
 \include "../Include/refrainonly.ily"

@@ -58,7 +58,7 @@ refrainChords = \chordmode {
   d4:m7 r8*3 ef8*3:7 d4:m7 r8*3 ef8*3:7 d2:m7 c2:7  bf2:7 a8:7 ef8*3:7
   d4:m7 r8*3 ef8*3:7 d2:m7 c4:m7 f4:7 bf2:7 b2:dim7 f1:7.9+
   bf2:7 b2:dim7 f1:7.9+ bf2:7 b2:dim7 f1:7.9+
-  a1:7 a4:7 r2. d2:m7 c2:7 bf2:7 a4:7 d4:m7
+  a1:7 a4:7 r2. d2:m7 c2:7 bf4:7 \chordSlash 1 a4:7 d4:m7
 
   a2:m7 d2:7 a2:m7 d2:7 g2:m g2:m/fs g2:m/f c2:9/e
   b2:m7 e2:7 b2:m7 e2:7 bf1:7 a8*5:7 ef8*3:7
@@ -67,10 +67,10 @@ refrainChords = \chordmode {
   d4:m7 r8*3 ef8*3:7 d2:m7 c4:m7 f4:7 bf2:7 b2:dim7 f1:7.9+
   bf2:7 b2:dim7 f1:7.9+ bf2:7 b2:dim7 f1:7.9+
   a1:7 a4:7 r2. d2:m7
-  \chordOpenParen{ c2:7 }
+  c2:7
   bf2:7
   a8:7
-  \chordCloseParen{ ef8*3:7 }
+  ef8*3:7
 
   d2:m7 c2:7 bf2:7 a2:7 d2:m7 c2:7 bf2:7 a2:7 d1:m6.9
 }
@@ -96,7 +96,7 @@ refrainMelody = \relative f' {
   f4 g8 d8 f4 g4 | r4 af8 f8~ f4 d4 | f4 g8 d8 f4 g4 | r4 af8 f8~ f4 d4 |
   r8 a'8~ \tuplet 3/2 { a8 bf8 gs8 } a8 a,4.~ | a4 r4 c8 a8 cs8 d8~ | d4 r4 r2 | r2 r8 r4. |
 
-  \sect "A2"
+  \sectNoBreak "A2"
 
   r8 a'8~ \tuplet 3/2 { a8 f8 d8 } g4 r4 | r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 r4 |
   r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 d8 f8 | g4 f8 d8 f8 g4. |
@@ -104,12 +104,12 @@ refrainMelody = \relative f' {
   f4 g8 d8 f4 g4 | r4 af8 f8~ f4 d4 | f4 g8 d8 f4 g4 | r4 af8 f8~ f4 d4 |
   r8 a'8~ \tuplet 3/2 { a8 bf8 gs8 } a8 a,4.~ | a4 r4 c8 a8 cs8 d8~ | d4 r4 r2 | r1 |
 
-  \sectPageBreak "B"
+  \sectNoBreak "B"
 
   d4 ef8 cs8 d4 ef8 cs8 | d8 ef8 cs8 d8~ d4 r4 | d4 ef8 cs8 d4 ef8 cs8 | d8 ef8 cs8 d8~ d4 r4 |
   e4 f8 ds8 e8 b4. | e8 f8 ds8 e8~ e4 r8 e8 | f4 g4 af8 f8 r4 | r4 e4 f8 g8 r4 |
 
-  \sectPageBreak "A3"
+  \sectNoBreak "A3"
 
   r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 r4 | r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 r4 |
   r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 d8 f8 | g4 f8 d8 f8 g4. |

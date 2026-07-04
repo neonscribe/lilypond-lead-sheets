@@ -163,6 +163,13 @@ sectNoBar =
      \sPageBreak
      \xTextMark \markup{ \bold \box #s } #} )
 
+sectNoBarGap =
+#(define-music-function (s)
+   (string?)
+  #{
+     \sPageBreak
+     \xTextMark \markup{ \pad-around #3 { \bold \box #s } } #} )
+
 sectNoBarSegno =
 #(define-music-function (s)
    (string?)
@@ -176,6 +183,7 @@ sectStartRefrain =
   #{
      \sPageBreak
      \xTextMark \markup{ "Refrain" \bold \box #s } #} )
+
 
 sectStartSolos =
 #(define-music-function (s)
@@ -499,5 +507,13 @@ stanzaPatchFile =
 #(if (ly:version? < '(2 27))
      "../Include/stanza-patch.ily"
      "../Include/nothing.ily")
+
+#(define-syntax define-if-not-defined
+  (lambda (x)
+    (syntax-case x ()
+      ((_ sym val)
+       (if (module-defined? (current-module) (syntax->datum #'sym))
+           #'(begin) ; Do nothing if already defined
+           #'(define sym val))))))
 
 \include \stanzaPatchFile

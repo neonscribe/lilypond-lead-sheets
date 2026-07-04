@@ -147,7 +147,10 @@ refrainMelody = \relative f' {
   b2. d4 |
   \ambitusOn
 
-  \sect "A"
+  \sectNoBarGap "A"
+
+  \bar ".|:-||"
+  \repeat volta 2 {
 
   <<
     { \voiceOne
@@ -186,7 +189,7 @@ refrainMelody = \relative f' {
   g1~ | g2. r4 |
   \break
   r4 r8 a8 g8 f8 e8 d8 | c8 b4 c4 d4 c8~ |
-  \bar ":|."
+  }
   c1^"last time" |
   \bar "|."
 }

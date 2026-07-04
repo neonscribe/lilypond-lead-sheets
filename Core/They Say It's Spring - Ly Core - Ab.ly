@@ -96,6 +96,9 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Blossom Dearie 1958]" 110
 
   \sectNoBar "A1"
+  
+  \bar ".|:"
+  \repeat volta 2 {
 
   r4 ef4 af8 c,4 ef8~ | ef2. r4 | r4 ef4 af8 c,4 f8~ | f8 f4 ef8 c8 bf4. |
   r4 c4 f8 af,4 c8~ | c2. r4 | r4 c4 f8 af,4 c8~ | c8 c4 bf8 af8 g4 bf8~ |
@@ -118,8 +121,7 @@ refrainMelody = \relative f' {
   r4 c4 f8 af,4 c8~ | c2. r4 | r4 c4 f8 af,4 c8~ | c8 c4 bf8 af8 g4 bf8~ |
   bf8 bf4 af8 g8 af4 g'8~ | g2 r4 f4 | ef4 af2 c,8 ef8~ | ef2 r4 bf'8 af8~ | af1 |
   r1 \textToCodaLastTime |
-
-  \bar "|."
+  }
 
   \textCoda
 

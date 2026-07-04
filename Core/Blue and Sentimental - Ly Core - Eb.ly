@@ -73,7 +73,10 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq bf4 a4 af4 | g4 gf8 f8~ f2 |
 
-  \sect "A1"
+  \sectNoBarGap "A1"
+  
+  \bar ".|:-||"
+  \repeat volta 2 {
 
   g8 af8 a8 bf8 d8 c4. | r8 ef,8 ef8 c8 g'8 g4. |
   \break
@@ -98,8 +101,8 @@ refrainMelody = \relative f' {
   r8 ef8 ef8 c8 g'8 g4 f8 | bf4 a4 af4  g4 \textToCodaLastTime |
   \break
   c2~ c8 bf8 bf8 g8 | f8 ef4. r2 |
-
-  \bar "||-|."
+  }
+  \bar "||-:|."
 
   \textCodaBreak
 

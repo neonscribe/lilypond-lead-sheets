@@ -67,7 +67,10 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Latin to Swing [Chet Baker 1958]" 160
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
+
+  \bar ".|:"
+  \repeat volta 2 {
 
   f1^\markup { Latin } | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
   \break
@@ -103,7 +106,8 @@ refrainMelody = \relative f' {
   \break
 
   c2 \tuplet 3/2 { bf4 c4 bf4 } | a2 \tuplet 3/2 { f4 ef4 e4 } | f1~ | f2 r2 \textToCodaLastTime |
-  \bar ".|:-|."
+  }
+  \bar ":|.|:"
 
   \textCodaBreak
 

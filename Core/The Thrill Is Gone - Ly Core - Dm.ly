@@ -77,6 +77,8 @@ refrainLyrics = \lyricmode {
   This is the end,
   so why pre -- tend and let it lin -- ger on. __
   The thrill is gone! __
+  
+  (The)
 }
 
 refrainChords = \chordmode {
@@ -110,7 +112,10 @@ refrainMelody = \relative f' {
 
   \partial 4 a4 |
 
-  \sectNoBreak "A1"
+  \sectNoBarNoBreak "A1"
+  
+  \bar ".|:-||"
+  \repeat volta 2 {
 
   a4 d,4 f2~ | f2. a4 | a4 d,4 f2~ | f2. r4 |
   a4 a4 d4 d4 | c4 c4 a2 | g4 g4 bf4 bf4 | a4 a4 f2 |
@@ -125,9 +130,11 @@ refrainMelody = \relative f' {
   \sectPageBreak "B"
 
   f'2. e4 | f2. e4 | e2. d4 | e2. d4 |
-  c2. bf4 | a2. g4 | a1~ | a4 e4 g4 f4 | d1~ | d2 r2 |
-
-  \bar "|."
+  c2. bf4 | a2. g4 | a1~ | a4 e4 g4 f4 | d1~ | d2 r4
+  \override Parentheses.font-size = #5
+  \parenthesize a'4
+  |
+  }
 }
 
 \include "../Include/verserefrain.ily"

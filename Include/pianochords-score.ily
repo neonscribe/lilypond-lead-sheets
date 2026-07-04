@@ -10,7 +10,7 @@
       \override ChordName.font-series = #'bold
       \set chordChanges = ##f
       \transpose \refrainKey \whatKey {
-       \pianoChordNames
+       \pianoChordVoicings
 	}
       }
       }

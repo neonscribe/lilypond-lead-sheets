@@ -1,0 +1,11 @@
+\version "2.26.0"
+
+\include "english.ly"
+
+subtitle = "Sylvia Telles Key"
+whatKey = bf,
+whatClef = "treble_8"
+
+noChordDiagrams = ##t
+
+\include "../Core/Corcovado - Ly Core - C.ly"

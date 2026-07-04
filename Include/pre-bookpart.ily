@@ -14,19 +14,22 @@ afterTextFile =
   "../Include/nothing.ily")
 
 pianoChordsFile =
-#(if (and (defined? 'pianoChordNames) pianoChordNames)
+#(if (and (not (and (defined? 'noChordVoicings) noChordVoicings))
+          (defined? 'pianoChordVoicings) pianoChordVoicings)
   "../Include/pianochords-score.ily"
   "../Include/nothing.ily")
 
 guitarPresetsFile =
-#(if (and (defined? 'chordDiagrams) chordDiagrams)
+#(if (and (not (and (defined? 'noChordDiagrams) noChordDiagrams))
+          (defined? 'chordDiagrams) chordDiagrams)
   "../Include/guitar-chord-presets.ily"
   "../Include/nothing.ily")
 
 \include \guitarPresetsFile
 
 guitarChordsFile =
-#(if (and (defined? 'chordDiagrams) chordDiagrams)
+#(if (and (not (and (defined? 'noChordDiagrams) noChordDiagrams))
+          (defined? 'chordDiagrams) chordDiagrams)
   "../Include/chorddiagrams-score.ily"
   "../Include/nothing.ily")
 

@@ -59,7 +59,7 @@ refrainKicksOverTime = \relative f' {
   s8*8 r2 b4. b8 s8*8 r2 b4. b8 s8*8 r2 b4. b8
 }
 
-pianoChordNames = \chordmode {
+pianoChordVoicings = \chordmode {
   ef1:7.9+ af1:7.11+ bf1:7.9+
 }
 
