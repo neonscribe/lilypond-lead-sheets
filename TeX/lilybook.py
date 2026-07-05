@@ -40,10 +40,10 @@ rectoThrees = ['Django', "It Ain't Necessarily So",
                "Is You Is, or Is You Ain't (Ma' Baby)"]
 versoThrees = ['Fever', "Moanin'", 'My Attorney Bernie', 
                'Peel Me a Grape',
+               'Spring Can Really Hang You Up the Most',
                'Oh Lonesome Me Four', 'Dear Mr Fantasy',
                "Do Nothin' Till You Hear From Me"]
-eitherThrees = ['Twisted', 'You Belong to Me'
-               'Spring Can Really Hang You Up the Most']
+eitherThrees = ['Twisted', 'You Belong to Me']
 
 def threepagetype(filename):
     for name in rectoThrees:

@@ -108,12 +108,18 @@ xPageBreak = {
 }
 
 %% an okay place for a page break
+%% haven't figured this out yet
 sPageBreak = {
   \break
 %%  \autoPageBreaksOff
   \allowPageTurn
   \autoPageBreaksOn
 }
+
+%% anywhere else is a bad place for a page break
+%% but LilyPond puts page breaks in other places anyway
+%% haven't figured out a good way to really influence
+%% page breaks beyond mandatory and good.
 
 invisEighth = {
   % \once \omit Voice.Rest

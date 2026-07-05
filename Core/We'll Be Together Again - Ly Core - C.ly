@@ -63,13 +63,13 @@ refrainMelody = \relative f' {
   %% \break
   \tuplet 3/2 { c4 c4 c4 } bf4 g4 | ef1 | \tuplet 3/2 { af4 bf4 af4 } \tuplet 3/2 { g4 e4 e4 } | c1 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   \tuplet 3/2 { af'4 bf4 af4 } bf4 af8 bf8 | g4 g2. | \tuplet 3/2 { af4 bf4 af4 } b4 af8 bf8 | g1 |
   %% \break
   \tuplet 3/2 { f4 g4 f4 } \tuplet 3/2 { g4 f4 g4 } | ef4 ef2. | \tuplet 3/2 { d4 ef4 d4 } f4 ef8 f8 | d2. e4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   c2. bf'4 | g2~ g4. g8 | \tuplet 3/2 { c4 d4 c4 } \tuplet 3/2 { d4 e,4 g4 } | b4 gs2 a4 |
   %% \break

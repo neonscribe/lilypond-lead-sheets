@@ -50,34 +50,26 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [The Platters 1958]" 56
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
-  %% \break
   d2 c8 bf8 c,8 ef8 | bf'2 c8 bf8 bf,8 c8 | g'1( | f1) |
 
-  %% \break
-
-  \sectNoBreak "A2"
+  \sect "A2"
 
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
-  %% \break
   d2 c8 bf8 c,8 ef8 | bf'2 c8 bf8 bf,8 c8 | ef'1 | r1 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   ef,8 gf8 ef'4~ ef8 bf8 df8 cf8 |
   ef,8 gf8 bf4~ bf8 af8 \tuplet 3/2 { gf8 af,8 cf8 } |  gf'2 gf2 | gf1 |
-  %% \break
   ef8 gf8 ef'4~ ef8 bf8 df8 cf8 |
   ef,8 gf8 bf4~ bf8 af8 g8 f8 | g2 g2 | f1 |
 
-  %% \break
-
-  \sectNoBreak "A3"
+  \sectPageBreak "A3"
 
   ef2 d8 f8 ef8 c8 | af'2 g8 bf8 af8 f8 | ef'1~ | ef2 f8 ef8 b8 c8 |
-  %% \break
   d2 c8 bf8 \tuplet 3/2 { c,8 ef8 g8 } | bf2 c8 bf8 bf,8 c8 | ef1 | r1 |
 
   \bar "|."

@@ -31,12 +31,17 @@ I push the oth  -- er valve down.
 The mu -- sic goes down and a -- round, whoa -- ho -- ho -- ho -- ho -- ho
 and it comes up here.
 
-(One) night, while play -- ing in the band,
+One night, while play -- ing in the band,
 a girl came up; she said, “You're grand.”
 So I re -- plied in words low -- down,
 “Now, this is how the mu -- sic goes 'round:”
 
 (I)
+
+(I)
+
+here.
+
 _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _ _
 _ _ _ _ _ _ _ _
@@ -57,11 +62,18 @@ refrainChords = \chordmode {
 
   c1:6 c1:6 c2:6 d4:m7 ef4:dim7 e2:m7 ef2:dim7
   d1:m7 g1:9 c1:6
-  \chordOpenParen{ d2:m7 }
-  \chordCloseParen{ g2:7 }
+
+  d2:m7
+  g2:7
 
   c1:6 c1:6 d2:m7 g2:7 c2:6 g2:7
   c2:6 g2:aug/b bf2:dim7 a2:7 d2:7/a d2:7 g2 g2:7
+  
+  s1*4
+
+  c2:6 e2:7
+
+  c1:6
 
   c1:6 d4.:m7 g8*5:7 c1:6 d4.:m7 g8*5:7
   c1:6 d1:m7 g4:7 r2. c2:6 d2:m7 ef4.:dim7 c4.:6/e c4:maj9
@@ -85,7 +97,10 @@ refrainMelody = \relative f' {
   \ambitusOn
   g'8 |
 
-  \sect "A1"
+  \sectNoBar "A1"
+  
+  \bar ".|:-||"
+  \repeat volta 2 {
 
   c4 c4 c2~ | c2. r8 g8 | c8 c8 c4 c4 b8 b8 | d2 b4 a4 |
   \break
@@ -97,7 +112,7 @@ refrainMelody = \relative f' {
   \break
   c4 a2 e4 | g4 g8 g8 f4 e4 | c1~ | c2. e4 |
 
-  \sect "B"
+  \sectSegno "B"
 
   c'4 c4 b8 b8 b4 | a4( e2) r8 e8 | c'8 c8 c4 b4 a8 a8~ | a4 e8 e8~ e4 e8 e8~ |
   \break
@@ -107,17 +122,31 @@ refrainMelody = \relative f' {
 
   c4 c4 c8 c8 c4 | c2 r4 r8 g8 | c8 c8 c4 c4 b8 b8 | d2 b4 a4 |
   \break
-  c4 a2 e4 | g4 g8 g8 f4 e4 | c2 r2 | r2 r4 r8 \parenthesize g'8 |
+  c4 a2 e4 | g4 g8 g8 f4 e4 \textToCoda | c2 r2 |
+  \alternative { \volta 1 {
+  r2 r4 r8 g'8 |
 
-  \sectNoBarNoBreak "Verse"
+  \sectNoBreak "Verse"
 
   c4 g4 b4 a4 | a8 af4 g8~ g4. e8 | f4 d4 e4 f4 | e8 g4 g8~ g4. g8 |
-  c4 g4 b4 a4 | a8 af4 g8~ g4. e8 | d4 fs4 a4 c4 | b8 g8 a8 g8~ g4 r8 \parenthesize g8 |
+  c4 g4 b4 a4 | a8 af4 g8~ g4. e8 | d4 fs4 a4 c4 | b8 g8 a8 g8~ g4 r4 |
+
+  R1*3^"Drum Break" | r2 r4 r8 
+  \override Parentheses.font-size = #5
+  \parenthesize g8 |
+  } \volta 2 {
+  r2 r4 e4 \dalSegno |
+  } } }
+
+  \bar "||-||"
 
   \textCodaBreak
 
+  | c2 r2 |
+  \bar "||-||"
+  
   \ambitusOff
-  c8 c8 b8 b8 bf8 bf8 a4 | af4. g8~ g8 r8 r4 |
+  c'8 c8 b8 b8 bf8 bf8 a4 | af4. g8~ g8 r8 r4 |
   c8 c8 b8 b8 bf8 bf8 a4 | af4. g8~ g8 r8 r4 |
   \break
   c4 b4 bf4. a8~ | a8 af4.~ af8 af4. |
@@ -125,7 +154,7 @@ refrainMelody = \relative f' {
   \ambitusOn
   e'8 ef8 e4 g,4 | c2
   \ambitusOff
-  <f, c>4 r4 | <fs c>4 r8 <g c,>4 r8 c,,4\fermata |
+  <f, c>4 r4 | <fs c>4 r8 <g c,>8~ <g c,>8 r8 c,,4\fermata |
   \ambitusOn
 
   \bar "|."

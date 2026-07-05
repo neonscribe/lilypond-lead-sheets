@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
 
   f2. a,4 | e'1 | e2. g,4 | d'1 |
   \break
-  d2. a4 | c4 bf4 f4 g4 | a1 | a2  \textToCodaLastTime a2 |
+  d2. a4 | c4 bf4 f4 g4 | a1 | a2 a2 \textToCodaLastTime |
 
   \bar "|."
 

@@ -5525,6 +5525,11 @@ refrain
 c'
 g''
 
+Corcovado - Ly - Bb Alto Voice No Chord Chart.ly
+refrain
+a
+bes'
+
 Corcovado - Ly - Bb Alto Voice.ly
 refrain
 a

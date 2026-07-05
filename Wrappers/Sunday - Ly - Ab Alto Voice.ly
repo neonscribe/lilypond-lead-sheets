@@ -4,7 +4,7 @@
 
 \include "english.ly"
 
-subtitle = "Janey Klein Key"
+subtitle = "Janet Klein Key"
 whatKey = af
 whatClef = "treble_8"
 

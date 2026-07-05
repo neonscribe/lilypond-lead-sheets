@@ -109,31 +109,37 @@ refrainMelody = \relative f' {
   e8 e8 e8 f8 d4. a'8 | c4 g2. |
   g4 a4 f4 g4 | e1 |
 
+  \xxPageBreak
+
   \sectStartRefrain "A1"
+  
+  \bar ".|:-||"
+  \repeat volta 2 {
 
   e4 g8 c8~ c4. g8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 |
   g'2. f4 | e8 c8 c8 c8~ c4 c8 d8 | g8 c,8 c8 c8~ c8 d4. |
   e8 d8 c8 a8 g8 g8 g8 g8 | g1 |
 
-  \sect "A2"
+  \sectNoBreak "A2"
 
   e'4 g8 c8~ c4. g8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 |
   g'2. f4 | e8 c8 c8 c8~ c4 c8 d8 | g8 c,8 c8 c8~( c8 d4.) |
   e8 d8 c8 a8 g8 b8 d8 f8 | e1 |
 
-  \sectPageBreak "B"
+  \sectNoBreak "B"
 
   bf'4. g16 f16 g4. g8 | bf8( c4) a16 f16 g2 | bf4. g16 f16 g4. e16 g16 |
   bf8( c4) a16 f16 g2 | ef4. c16 bf16 c4. c8 | ef8( f4) d16 bf16 c2 |
   \tuplet 3/2 { b4 b4 b4 } \tuplet 3/2 { ds4 ds4 ds4 } | \tuplet 3/2 { e4 e4 e4 } fs2 |
 
-  \sectPageBreak "C"
+  \sectNoBreak "C"
 
   b,4 d8 g8~ g4. d8 | e4 g8 c8~( c8 d8) c4 | b8 g8 e8 c8 a'8 f8 d8 b8 |
   g'2. g8 f8 | e4 c8 c8~ c4 c8 d8 \textToCodaLastTime | g8 c,8 c8 c8 c8 d4. |
   e8 d8 c8 a8 g8 b8 d8 a'8 | g1 | e8 d8 c8 a8 g8 g8 g8 g8 | g1 |
 
-  \bar "||-|."
+  }
+  \bar "||-:|."
   \textCodaBreak
 
   af'8 df,8 df8 df8 df8 ef4. | e8 d8 c8 a8 g8 b8 d8 a'8 | g1 |
@@ -143,11 +149,8 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-%{
 afterText =
 \markup{ "Solo on form " \box \bold "A1" \box \bold "A2" \box \bold "B" \box \bold "C"
 	 ". D.S. al Coda after solos." }
-
-%}
 
 \include "../Include/refrainonly.ily"
