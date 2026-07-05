@@ -103,7 +103,7 @@ refrainMelody = \relative f' {
 
   \sect "Bridge 1,2"
 
-  \bar ":..:"
+  \bar ":|.|:"
   \repeat volta 2 {
     r8 bf'8 bf8 bf8 bf8 bf8 a8 g8 | f4 bf,8 bf8~ bf4 r4 |
     r8 d8 d8 ef8 d8 c8 c8 bf8 | bf2 r2 |

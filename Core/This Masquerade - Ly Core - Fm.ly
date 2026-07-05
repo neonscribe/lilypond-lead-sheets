@@ -110,7 +110,7 @@ refrainMelody = \relative f' {
   \rsq-"Vamp until cue" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
-  \bar ":..:"
+  \bar ":|.|:"
 
   \repeat volta 2 {
 
@@ -140,7 +140,7 @@ refrainMelody = \relative f' {
   r8 c,8 f8 g8 af8 bf4 c8~ | c8 g'4 f8~ f8 cf8( bf8) af8~ | af4 bf8 c4 af4 f8~ | f2 r4 c8 f8~ |
   f2 r8 af8 bf8 cf8~( | cf8 bf8~ bf2) af8 f'8~ | f1 | r1 |
   }
-  \bar ":..:"
+  \bar ":|.|:"
   
   \sectNoBar "Outro"
 

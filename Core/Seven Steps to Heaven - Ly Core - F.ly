@@ -67,7 +67,7 @@ bassIntro = \relative f' {
   \repeat volta 2 {
   f,4 c'4 r4 r8 bf8 | ef,4 bf'4 r4 r8 c8 |
   }
-  \bar ":..:"
+  \bar ":|.|:"
   \clef \whatClef
   \key \refrainKey \major
   \ambitusOff
@@ -118,7 +118,7 @@ refrainMelody = \relative f' {
   \bar ":|."
   <d ef g c c'>4 r4 r2 | r1 |
 
-  \bar ":..:"
+  \bar ":|.|:"
 
   \ambitusOn
 

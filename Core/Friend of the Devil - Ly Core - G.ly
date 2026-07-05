@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
   }
   \ambitusOn
 
-  \bar ":..:"
+  \bar ":|.|:"
   \repeat volta 6 {
   \sectNoBar "Verse"
 

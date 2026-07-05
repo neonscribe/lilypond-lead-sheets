@@ -10,19 +10,35 @@ headerPoet = ""
 headerComposer = "Eddie Cooley, Otis Blackwell"
 headerCopyright = "© 1956 Fort Knox Music Inc."
 
-refrainLyrics = \lyricmode {
+introKey = a
+
+introChords = \chordmode {
+  a1:m a1:m e1:7 a1:m
+}
+
+introMelody = \relative f' {
+  \time 4/4
+  \key \introKey \minor
+  \tempoFour "Medium [Peggy Lee 1958]" 135
+
+  \sectNoBar "Intro"
+  \clef "bass_8"
+  \bar ".|:"
+  \repeat volta 2 {
+  a,,2_"(Bass)" c2 | a4. c8~ c4 a4 | e'2 gs,4. a8~_"(Continues similar)" | a2. e4 |
+  }
 }
 
 refrainKey = a
 refrainKeyTwo = bf
+refrainKeyThree = b
+
 isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 
-refrainKeyThree = b
 
 refrainChords = \chordmode {
-  a1:m a1:m e1:7 a1:m
   a1:m a1:m a1:m a1:m a1:m a1:m e1:7 a1:m a1:m a1:m a1:m a1:m a1:m a1:m e1:7 a1:m
   a1:m a1:m a1:m a1:m a1:m a1:m e1:7 a1:m
 
@@ -40,22 +56,13 @@ refrainChords = \chordmode {
 refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
-  \tempoFour "Medium [Peggy Lee 1958]" 135
-
-  \sectNoBarNoBreak "Intro"
-  \ambitusOff
-  \clef "bass_8"
-  \bar ".|:"
-  \repeat volta 2 {
-  a,,2_"(Bass)" c2 | a4. c8~ c4 a4 | e'2 gs,4. a8~_"(Continues similar)" | a2. e4 |
-  }
-  \ambitusOn
-  \bar ":|.|:"
   \clef \whatClef
+
+  \bar ".|:"
   \sectNoBar "Verse 1 & 2"
 
   \repeat volta 2 {
-  d'''8 c8 d8 c8 d4 a8 c8~ | c8 d4. r2 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
+  d'8 c8 d8 c8 d4 a8 c8~ | c8 d4. r2 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
   d8 c8 d8 c8 d4 a8 c8~ | c8 d4. r8 a8 a8 a8 | d8 c8 d8 c8 d8 c8 a8 a8~ | a8 a8 a8 a8 c4 a4 |
   r1 | r8 ef'4 c8 d4 c4 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
   gs'8 a8 r4 r4 d,8 c8 | d8 c8 r4 r2 | d8 c8 d4 d8 c8 a8 a8~ | a4 r4 r2 |
@@ -193,4 +200,4 @@ afterText =
  }
 }
 
-\include "../Include/refrainonly.ily"
+\include "../Include/introrefrain.ily"
