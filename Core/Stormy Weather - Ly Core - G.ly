@@ -71,7 +71,6 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1,A2" }
 
   d2. as8 b8 | d8 b8 d8 df8 c4 as8 b8 | d8 d,4.~ d2 | a'8 a8 a8 a8 a4 g8 e8 |
-  \break
   g8 d4.~ d2 | c8 e8 g8 as8~ as4. as8 |
   \alternative { \volta 1 {
   b8( g4.~ g2) | r2 r4 as8 b8 |
@@ -82,14 +81,12 @@ refrainMelody = \relative f' {
 
   e8 fs8 \tuplet 3/2 { g8 a8 g8~ } g8 g8 g8 g8 | g4. g8 b8 g4. |
   e8 fs8 \tuplet 3/2 { g8 a8 g8~ } g8 g8 g8 g8 | g4. g8 e8 d4. |
-  \break
   e8 fs8 \tuplet 3/2 { g8 a8 g8~ } g8 g8 g8 g8 | g4. g8 c8 b4. |
   d4 b8 a8 g4 e4 | a2. as8 b8 |
 
   \sectPageBreak "C"
 
   d2. as8 b8 | d8 b8 d8 df8 c4 as8 b8 | d8 d,4.~ d2 | a'8 a8 a8 a8 a4 g8 e8 |
-  \break
   g8 d4.~ d2 | c8 e8 g8 as8~ as4. as8 | b8( g4.~ g2~ | g2) r2 |
 
   \bar "|."

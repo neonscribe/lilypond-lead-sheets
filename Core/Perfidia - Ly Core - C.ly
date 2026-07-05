@@ -60,25 +60,21 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   c1~ | c4. b8 c8 d8 c8 b8 | \tuplet 3/2 { c4 b4 a4~ } a2~ | a4. b8 c8 d8 c8 b8 |
-  \break
   \tuplet 3/2 { c4 b4 a4 } c4. a8 | \tuplet 3/2 { g4 f4 g4 } a4 f4 | e1~ | e2 r4 g4 |
 
   \sect "A2"
 
   c1~ | c4. b8 c8 d8 c8 b8 | \tuplet 3/2 { c4 b4 a4~ } a2~ | a4. b8 c8 d8 c8 b8 |
-  \break
   \tuplet 3/2 { c4 b4 a4 } c4. a8 | \tuplet 3/2 { g4 f4 g4 } a4 f4 | e1~ | e2 r4 d8 e8 |
 
   \sectPageBreak "B"
 
   f8 f8 f8 g8 a8 a8 a8 gs8 | a4. gs8 a8 gs8 a8 b8 | gs1~ | gs2 r4 b8 c8 |
-  \break
   d8 d8 d8 c8 b8 b8 b8 c8 | b8 b8 b8 a8 g8 a8 g8 f8 | e1~ | e8 r8 r4 r4 g4 |
 
   \sectPageBreak "A3"
 
   c1~ | c4. b8 c8 d8 c8 b8 | \tuplet 3/2 { c4 b4 a4~ } a2~ | a4. b8 c8 d8 c8 b8 |
-  \break
   \tuplet 3/2 { c4 b4 a4 } c4. a8 | \tuplet 3/2 { g4 f4 g4 } a4 f4 | e1~ | e2 r4
   \override Parentheses.font-size = #5
   \parenthesize g4 |

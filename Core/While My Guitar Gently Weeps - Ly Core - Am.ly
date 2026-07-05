@@ -191,7 +191,6 @@ refrainMelody = \relative f' {
   \ambitusOff
   a8. a16 a8. a16 a8. a16 a8. a16 | a8. a16 a8. a16 a16 a16 a8~ a16 a16 a8 |
   a8. a16 a8. a16 \tuplet 3/2 { a4 b4 c4 } | d2. c8 d8 |
-  \break
   e4. c8~ c4 a4 | d4. b8~ b4 g4 | d'4. a8~ a4 fs4 | gs2 r4
   \ambitusOn
   \bar "!"
@@ -202,7 +201,6 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \repeat volta 2 {
   a4. b8~ b4 c8 a8~ | a4 r4 b8 c4 a8~ | a4 r8 b8~ b8 c4 d8~ | d8 c4. r2 |
-  \break
   r4 e4 c4 a8 b8~ |
   \alternative { \volta 1 {
   b4 r8 a8~ a8 g4 a8~ | a2 r2 | r2 r4 e8 a8\laissezVibrer |
@@ -219,7 +217,6 @@ refrainMelody = \relative f' {
   r4
   r8 cs8~ cs16 b8. cs4 | gs4.( fs8~ fs8 e4.) |
   r4 r8 cs8~ cs16 b8. cs8 e8~ | e8 cs4. r2 | r4 r8 b8~ b4 a8 b8 |
-  \break
   e2~ e8 cs4 b8~ | b2 r2 |
   \alternative { \volta 1,3 {
   r1 |
@@ -235,9 +232,7 @@ refrainMelody = \relative f' {
 
   a4 r8 <b d>8~ <b d>4 <c e>8 <b d>8~ | <b d>4 r4 <b d>8 <c e>4 <a c>8~ |
   <a c>4 r8 <b d>8~ <b d>8 <c e>4 <d f>8~ | <d f>8 <c e>4. r2 |
-  \break
   r4 e4 c4 a8 b8~ | b4 r8 a8~ a8 g4 a8~ | a2 r2 | r2 r4 e8 <a c>8~ \textToCoda |
-  \break
   <a c>4 r8 <b d>8~ <b d>8 <c e>4 <a c>8~ | <a c>4 r8 <b d>8~ <b d>8 <c e>4 <a c>8~ |
   <a c>4 r8 <b d>8~ <b d>8 <c e>4 <d f>8~ | <d f>8 <c e>4. r2 |
   \break
@@ -255,7 +250,6 @@ refrainMelody = \relative f' {
   \textCodaBreak
 
   <a c>4\repeatTie r8 <b d>8~ <b d>4 <c e>8 <a c>8~ | <a c>4 r4 r2 | r1 | r1 |
-  \break
   r4 <e' a>4 <c e>4 <a c>8 <b d>8~ | <b d>4 r8 <a c>8~ <a c>8 <g b>4 <c e>8~( | <c e>1 | <e gs>1 |
 
   \sectNoBar "Outro - Guitar Solo"

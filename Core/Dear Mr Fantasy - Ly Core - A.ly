@@ -70,36 +70,32 @@ refrainMelody = \relative f' {
   \sectSegno "Verse 1"
 
   g''8 g8 g8 a8~ a8 g8 e4 | d8 cs8 d8 e8~( e16 d16 cs8) r4 |
-  \break
   cs8 d4 cs16 d16~ d8 cs16 d16~ d8 e8~ |
   e8 e8~( e16 d16 cs8)
   \ambitusOff
   e,,16 fs16 a16 c16~ c16 a16 c8 |
   \ambitusOn
-  \break
   g''8 g8 g8 a8~ a8 e8~ e16 e8. |
   d8 cs16 d16~ d8 e8~( e16 d16 cs8) d8 cs16 d16~ |
-  \break
   d4 d8 cs16 d16~ d4 cs16 d8 e16~ | e8 e8~( e16 d16 cs8) r2 |
 
   \sect "Verse 2"
 
   g'8 g8 g8 a8~ a8 e8~ e16 e8. | d8 cs16 d16~ d8 e8~( e16 d16 cs8) r8 cs8 |
-  \break
   c16 d8 d16~ d4 d8 cs8 d8 cs8 | e8.( d16 cs4)
   \ambitusOff
   e,,16 fs16 a16 c16~ c16 a16 c8 |
   \ambitusOn
-  \break
   g''8 g8 g8 a8~ a8 e16 d16~ d16 d8 c16 | d8 d8 c8 e16( d16~ d16 c16 a8) r8 a8 |
-  \break
   c16 d8. d8. d16~ d8 c8 e8 e8 | d16( cs16 a4.) r2 \textToCoda |
+  \bar "||"
 
-  \sectPageBreak "Bridge"
+  \xxPageBreak
+
+  \sectNoBar "Bridge"
 
   fs'2.( cs4) | <a' \tweak font-size #-2 cs \tweak font-size #-2 e,>2. r4 |
   fs2.( cs4) | <a' \tweak font-size #-2 cs \tweak font-size #-2 e,>2. r4 |
-  \break
   fs2.( cs4) | <a' \tweak font-size #-2 cs \tweak font-size #-2 e,>2. r4 |
   fs1 | <g \tweak font-size #-2 b \tweak font-size #-2 d,>1 |
   <gs \tweak font-size #-2 b \tweak font-size #-2 e,>1 |
@@ -107,16 +103,13 @@ refrainMelody = \relative f' {
   \sect "Verse 3"
 
   g8 g8 g8 a8~ a8 g8 e4 | d8 cs8 d8 e8~( e16 d16 cs8) r4 |
-  \break
   cs8 d4 cs16 d16~ d8 cs16 d16~ d8 e8~ |
   e8 e8~( e16 d16 cs8)
   \ambitusOff
   e,,16 fs16 a16 c16~ c16 a16 c8 |
   \ambitusOn
-  \break
   g''8 g8 g8 a8~ a8 e8~ e16 e8. |
   d8 cs16 d16~ d8 e8~( e16 d16 cs8) d8 cs16 d16~ |
-  \break
   d4 d8 cs16 d16~ d4 cs16 d8 e16~ | e8 e8~( e16 d16 cs8) r2 |
 
   \sect "Solos"
@@ -134,7 +127,6 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \xTextMark \markup{ \italic "Repeat until cue" } \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
-  \break
 }
 
 \include "../Include/refrainonly.ily"

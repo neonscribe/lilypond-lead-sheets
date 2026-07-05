@@ -14,7 +14,7 @@ refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
 I used to vis -- it all the ver -- y gay plac -- es, __
-those come- what- may plac --es __
+those come- what- may plac -- es __
 where one re -- lax -- es on the ax -- is of the wheel of life __
 to get the feel of life __ from jazz and cock -- tails.
 
@@ -132,7 +132,7 @@ refrainNicoChords = \chordmode {
   ef2:m7 af2:7 cf1:7.5- bf1:7 ef1:m7
   bff1:7.5- ef1:m7.11 af1:7
 
-  df2:6 d2:7 df2:6 d2:7 df4:6 \chordSlash 1 c4:7.5- cf4:13 ff2:maj7 ef4:7.5+ eff4:7
+  df2:6 d2:7 df2:6 d2:7 df4:6 \chordSlash 1 c4:7.5- cf4:13 ff4:maj7 \chordSlash 1 ef4:7.5+ eff4:7
   df2:6 d2:7 df2:6 d2:7 df4:6 \chordSlash 1 df4:7 c4:13 f4:maj7 \chordSlash 1 ff4:7.5+ ef4:7
 
   af2:6 ef2:7.9+ af4:6 \chordSlash 1 ff4:m7 bff4:7
@@ -165,21 +165,24 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { f4 f4 f4~ } f8 f8 ef8 ef8 | f8 f8 gf8 gf8 af8 af8 a8 a8 |
   b8 b8 b4~ b8 a8 b8 a8 | af8 af8 af4~ af8 bf8 e,8 e8 | ef8 ef4. r4 r8 af,8 |
 
-  \sect "A2"
+  \sectNoBreak "A2"
 
   df8 df8 df8 df8 ef8 ef8 ef8 ef8 | \tuplet 3/2 { f4 f4 f4~ } f8 f8 ef8 ef8 |
   \tuplet 3/2 { f4 f4 f4~ } f8 f8 ef8 ef8 | f8 f8 gf8 gf8 af8 af8 a8 a8 |
   b8 b8 b4~ b8 a8 b8 a8 | af8 af8 af4~ af8 bf8 e,8 e8 | ef8 ef4. r4 c'4 |
 
-  \sect "B"
+  \sectNoBreak "B"
 
   c,4 c8 c8 d4. d8 | f4 f8 f8 af4. af8 | \tuplet 3/2 { c4 d4 af4 } c4 c4~ | c2. c4 |
   c,4 c8 c8 d4. d8 | f4 f8 f8 af4. af8 | \tuplet 3/2 { c4 df4 bf4 } c4 c4 |
 
-  \sect "C"
+  \sectNoBreak "C"
 
   \tuplet 3/2 { bf4 c4 af4 } bf4 c8 f,8~ | f1 | r4 af4 af4 gf8 f8 | ef1 |
   r4 ef4 ef4 f8 df8 | af'1~ | af2. r4 |
+  \bar "||"
+
+  \xxPageBreak
 
   \sectStartRefrain "A"
 
@@ -188,14 +191,14 @@ refrainMelody = \relative f' {
   af4. bf8 \tuplet 3/2 { b4 e4 a,4 } | af4. bf8 \tuplet 3/2 { c4 e4 b4 } |
   bf4 \tuplet 3/2 { af8 df8 f8 } af4 a4 | c,2. df4 |
 
-  \sect "B"
+  \sectNoBreak "B"
 
   ef4. f8 gf8 gf4 ff8 | ef4. f8 \tuplet 3/2 { fs4 fs4 e4 } |
   a,4. b8 c8 c4 b8 | a4. b8 \tuplet 3/2 { c4 c4 bf4 } |
   af4. bf8 \tuplet 3/2 { b4 e4 a,4 } | af4. bf8 \tuplet 3/2 { c4 e4 b4 } |
   bf4 \tuplet 3/2 { af8 df8 f8 } gf4 af4 | bf2. r8 f8 |
 
-  \sect "C"
+  \sectNoBreak "C"
 
   af4. gf8 af4 af8 gf8 | f4 ef8 f8~ f4. c8 | ef4. df8 ef8 ef4 df8 | df8 cf4 bf'8~ bf4. f8 |
   af4. gf8 af4 af8 gf8 | f4 f8 ef8 f4. af,8 | b4 c4 cs4 d4 | ef4 e4 f2 |

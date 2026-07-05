@@ -113,13 +113,16 @@ refrainMelody = \relative f' {
   \break
   a8 a8 a8 a8 c4 d8 c8 | e4 d8 c8( a4) r8 a8 | e'4 d4 c8 d4. | g8 e4 d8~ d4 a8 g8 |
   \break
-  a8 a8 c4 r4 d8 d8 | e8 e8 d4( e4) a,8 c8( | a2) r2 |
+  a8 a8 c4 r4 d8 d8 | e8 e8 d4( e4) a,8 c8( | a2) r2 \textToCodaLastTime |
   \alternative { \volta 1 {
   r1 |
   \bar ":|."
   } \volta 2,3 {
 
   r1 |
+
+  \xxPageBreak
+
   \sectNoBreak "Chorus"
 
   g'2. e4 | d8( c4.) r4 d4 | d2. e4 | d8( c4.) r4 g'4 |

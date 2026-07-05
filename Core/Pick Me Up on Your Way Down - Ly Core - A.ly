@@ -77,7 +77,6 @@ refrainMelody = \relative f' {
 
   fs4 e4 e4 cs8 a8~ | a2 b8 cs4. | e8 d4. d4 a8 fs8~ | fs2 b4 cs4 |
   d4 cs4 d4 b4 | gs2 e'4 e4 | fs4 e4 e4 d8 cs8~ | cs2 e4 e4 |
-  \break
   fs8 e4. e4 cs8 a8~ | a2 b4 cs4 | e4 d4 d4 a8 fs8~ | fs2 b8 cs4. |
   d4 cs4 d4 cs8 gs8~ | gs2 e'8 e4. | e4 d4 fs,8 gs4 a8~ | a1~ | a2 e'8 e4. |
 
@@ -85,7 +84,6 @@ refrainMelody = \relative f' {
 
   fs8 e4. e4 cs8 a8~ | a2 b4 cs4 | e4 d4 d4 a8 fs8~ | fs2 cs'8 cs4. |
   d8 cs4. d4 b4 | gs4 e4 e'8 e4. | fs4 e4 e4 d4 | cs2 cs8 e4. |
-  \break
   fs4 e4 e4 cs4 | a2 b4 cs4 | e4. d8 d8 a4 fs8~ | fs2 b4 cs4 |
   d4 cs4 d4 b4 | gs2 e'4 e4 | e4 d4 fs,8 gs4 a8~ | a2. r4 | r2
   \override Parentheses.font-size = #5

@@ -60,25 +60,21 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   af8 af,8 bf8 f'8 c4 af8 bf8~ | bf2 f'4. af8~ | af8 af,8 bf8 f'8 c4 af8 bf8~ | bf2 f'4. af8~ |
-  \break
   af8 af,8 bf8 df8 gf4 df8 c8~ | c2 f4. df8~ | df1 | r2 f4. af8~ |
 
   \sect "A2"
 
   af8 af,8 bf8 f'8 c4 af8 bf8~ | bf2 f'4. af8~ | af8 af,8 bf8 f'8 c4 af8 bf8~ | bf2 f'4. af8~ |
-  \break
   af8 af,8 bf8 df8 gf4 df8 c8~ | c2 f4. df8~ | df1 | r1 |
 
   \sectPageBreak "B"
 
   af'8 gf4. a8 g4. | af8 gf4.~ gf4 r4 | gs8 fs4. b8 a4. | gs8 fs4.~ fs4 r4 |
-  \break
   fs8 e4. g8 f4. | fs8 e4.~ e4 e4 | fs8 a8 a8 a8~ a2 | f8 af8 af8 af8~ af4 f8 af8~ |
 
   \sectPageBreak "A3"
 
   af8 af,8 bf8 f'8 c4 af8 bf8~ | bf2 f'4. af8~ | af8 af,8 bf8 f'8 c4 af8 bf8~ | bf2 f'4. af8~ |
-  \break
   af8 af,8 bf8 df8 gf4 df8 c8~ | c2 f4. df8~ | df1 | r1 |
 
   \bar "|."

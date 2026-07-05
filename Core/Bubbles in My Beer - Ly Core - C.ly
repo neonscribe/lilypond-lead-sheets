@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
 
   \partial 4 g4 |
 
-  \sectNoBar "A1"
+  \sectNoBreak "A1"
 
   a2 g4 e4 | c4 c4 b4 c4 | e4 d2.~ | d2. g4 |
   g2 d4 e4 | f4 f4 g4. g8 | e1~ | e2 r4 g4 |
@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
   a2 g4 e4 | c2 b4 c4 | e4 d2.~ | d2. g4 |
   g2 d4 e4 | f4 f4 e4 d4 | c1~ | c2 r4 c4 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   f2 f4 a4 | c2 b4 a4 | e4 g2.~ | g2 g4 g4 |
   b2 a4 g4 | d2 g4 f4 | e1~ | e2 c4 c4 |

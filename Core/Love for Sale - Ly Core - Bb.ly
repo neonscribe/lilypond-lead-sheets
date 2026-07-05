@@ -124,7 +124,10 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up [Anita O'Day 1952]" 170
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBarGap "A1"
+
+  \bar ".|:"
+  \repeat volta 2 {
 
   bf1~ | bf2. g4 | f1~ | f1 |
   r4 bf8 bf8 bf4 bf4 | bf4 bf2 g4 | f1~ | f1 |
@@ -132,7 +135,7 @@ refrainMelody = \relative f' {
   r4 bf8 bf8 bf4 bf4 | bf4 c4 c2 | r4 af8 af8 af4 af4 | af4 gf4 gf2 |
   f1~ | f2. cs4 | bf1~ | bf1 |
 
-  \sect "A2"
+  \sectNoBreak "A2"
 
   bf'1~ | bf2. g4 | f1~ | f1 |
   r4 bf8 bf8 bf4 bf4 | ef4 c4 bf4 g4 | f1~ | f1 |
@@ -140,7 +143,7 @@ refrainMelody = \relative f' {
   r4 bf8 bf8 bf4 bf4 | bf4 c4 c2 | r4 df8 df8 df4 df4 | df4 gf,4 gf2 |
   f1~ | f2. cs4 | bf1~ | bf1 |
 
-  \sect "B"
+  \sectPageBreak "B"
 
   r4 bf8 c8 df4 ef4 | f4 ef4 ef2 | r4 c8 df8 ef4 f4 | af1 |
   r4 bf,8 c8 df4 ef4 | f4 ef4 ef2 | r4 c8 df8 ef4 f4 | bf1 |
@@ -148,15 +151,14 @@ refrainMelody = \relative f' {
   r4 bf,8 c8 d4 f4 | gf4 f4 f2 | r4 d4 \tuplet 3/2 { ef4 f4 gf4 } | bf4 bf4 bf2 |
   df2 c2 | df2 c2 | r4 b8 b8 b4 b4 | b2 b2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   bf1~ | bf2. g4 | f1~ | f1 |
   r4 bf8 bf8 bf4 bf4 | bf4 bf2 g4 | f1~ | f1 |
   \break
   r4 bf8 bf8 bf4 bf4 | bf4 c4 c2 | r4 df8 df8 df4 df4 | df4 ef4 ef2 |
   f1~ | f2. cs4 | bf1~ | bf1 |
-
-  \bar "|."
+  }
 }
 
 \include "../Include/verserefrain.ily"

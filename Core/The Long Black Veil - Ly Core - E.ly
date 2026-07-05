@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   g2 r2 | cs,4(  e4~ e8) e8 e8 fs8~( | fs4 b,2) cs8( e8) |
   fs8( e4.~ e2) \textToCoda | r2 r4 e4 \daCapoSecondEnding |
 
-  \bar "|."
+  \bar "||-|."
 
   \xPageBreak
 

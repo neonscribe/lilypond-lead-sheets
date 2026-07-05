@@ -43,6 +43,8 @@ You wor -- ry me night and day. __
 Why lead me through a life of mis -- er -- y __
 when you don't care a bag of beans for me? __
 So un -- chain __ my heart, oh, please, please set me free. __
+
+(Un -- chain my heart)
 }
 
 refrainChords = \chordmode {
@@ -80,21 +82,21 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Ray Charles 1961]" 152
 
-  \sectNoBarNoBreak "Intro"
+  \sectNoBar "Intro"
 
   \partial 8 gs,8(^"Piano" |
 
   a4-.) c8( d8-.) r8 c8( a8 g8 | a4-.) a'8^"Horns" e8 g8 a8 r8 gs8(^"Piano" |
   a4-.) c8( d8-.) r8 c8( a8 g8 | a4->) a4 a4 c8 e8~ |
 
-  \sect "A1"
+  \bar ".|:-||"
+  \repeat volta 2 {
+
+  \sectNoBar "A1"
 
   e4 r4 r2 | r4 e8 c8 d8 a4 c8~ | c4 r4 r2 | r4 a4 a4 c8 d8~( |
-  %% \break
   d8 a8) r4 r2 | r8 c8 d8 e8 d8 c8 a4 | c4 r4 r2 | r1 |
-  %% \break
   r8 c8 d8 c8 d8 c8 d8 c8 | e4 d8 c8( d8 a4.) | r4 d8 c8 d4 d8 c8 | e4 d8 c8( a8) a8 c8 ef8( |
-  %% \break
   d2) e8 c4 a8 | e4 e4 gs8 a4 a8~ |
   <<
     { \xVoiceTwoSmall {
@@ -110,11 +112,8 @@ refrainMelody = \relative f' {
   \sect "A2"
 
   e4 r4 r2 | r4 e8 c8 d8 a4 c8~ | c4 r4 r2 | r4 a4 a4 c8 d8~( |
-  %% \break
   d8 a8) r4 r2 | r8 c8 d8 e8 d8 c8 a8 d8~( | d8 a8) r4 r2 | r1 |
-  %% \break
   r4 d8 c8 d8 c8 d8 c8 | e4 d8 c8( d8 a4.) | r8 c8 d8 c8 d8 c8 d8 c8 | e4 d8 c8( a8) a8 c8 ef8( |
-  %% \break
   d2) e8 c4 a8 | e4 e4 gs8 a4 a8~ |
   <<
     { \xVoiceTwo {
@@ -136,11 +135,8 @@ refrainMelody = \relative f' {
   \sectPageBreak "A3"
 
   e4 r4 r2 | r4 e8 c8 d8 a4 c8~ | c4 r4 r2 | r4 a4 a4 c8 d8~( |
-  %% \break
   d8 a8) r4 r2 | r8 c8 d8 e8 d8 c8 a8 d8~( | d8 a8) r4 r2 | r1 |
-  %% \break
   r8 c8 d8 c8 d8 c8 d8 c8 | e4 d8 c8( d8 a4.) | r8 c8 d8 c8 d8 c8 d8 c8 | e4 d8 c8( a8) a8 c8 ef8( |
-  %% \break
   d2) e8 c4 a8 | e4 e4 gs8 a4 a8~ |
   <<
     { \xVoiceTwo {
@@ -148,12 +144,15 @@ refrainMelody = \relative f' {
       }
     }
     { \voiceOne
-      a'4 r4 r2 | r1 |
+      a'4 r4 r2 | r4 \textFine
+      \override Parentheses.font-size = #5
+      \startParenthesis \parenthesize
+      a4 a4 c8
+      \endParenthesis \parenthesize e8\laissezVibrer |
     }
   >>
   \oneVoice
-
-  \bar "|."
+  }
 }
 
 \include "../Include/refrainonly.ily"
