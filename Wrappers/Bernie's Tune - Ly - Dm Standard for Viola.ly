@@ -10,9 +10,3 @@ whatClef = "alto"
 hideLyrics = ##t
 
 \include "../Core/Bernie's Tune - Ly Core - Dm.ly"
-
-%{
-
-\song{Bernie's Tune - Dm}{"../Standard/Viola/Bernie's Tune - Ly - Dm Standard for Viola"}
-
-%}

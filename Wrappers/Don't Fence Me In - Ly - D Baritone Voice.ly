@@ -11,9 +11,3 @@ whatClef = "treble"
 alternateChords = "simple"
 
 \include "../Core/Don't Fence Me In - Ly Core - F.ly"
-
-%{
-
-\song{Don't Fence Me In - D}{"../Baritone Voice/Don't Fence Me In - Ly - D Baritone Voice"}
-
-%}

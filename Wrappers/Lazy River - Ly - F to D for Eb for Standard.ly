@@ -9,9 +9,3 @@ whatKey = d'
 whatClef = "treble"
 
 \include "../Core/Lazy River - Ly Core - F.ly"
-
-%{
-
-\song{(Up a) Lazy River - F to D}{"../Standard/Eb/Lazy River - Ly - F to D for Eb for Standard"}
-
-%}

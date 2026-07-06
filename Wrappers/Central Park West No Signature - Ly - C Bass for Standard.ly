@@ -9,9 +9,3 @@ whatKey = c,
 whatClef = "bass"
 
 \include "../Core/Central Park West No Signature - Ly Core - C.ly"
-
-%{
-
-\song{Central Park West No Signature - C Bass}{"../Standard/Bass/Central Park West No Signature - Ly - C Bass for Standard"}
-
-%}

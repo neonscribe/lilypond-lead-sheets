@@ -325,12 +325,6 @@ whatKey = {key}
 whatClef = "{clef}"
 
 \\include "{os.fsdecode(in_core_file_name)}"
-
-%{{
-
-\\song{{{nice_title} - {toc_desc}}}{{"../Standard/{subdir}{wrapper_file_base}"}}
-
-%}}
 """
 
     with open(in_file_name, 'w', encoding="utf-8") as wrapper_file:

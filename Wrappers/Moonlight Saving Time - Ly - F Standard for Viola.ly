@@ -9,9 +9,3 @@ whatKey = f,
 whatClef = "alto"
 
 \include "../Core/Moonlight Saving Time - Ly Core - F.ly"
-
-%{
-
-\song{Moonlight Saving Time - F}{"../Viola/Moonlight Saving Time - Ly - F Standard for Viola"}
-
-%}

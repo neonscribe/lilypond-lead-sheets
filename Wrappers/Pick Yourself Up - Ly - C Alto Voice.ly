@@ -9,9 +9,3 @@ whatKey = c
 whatClef = "treble_8"
 
 \include "../Core/Pick Yourself Up - Ly Core - F.ly"
-
-%{
-
-\song{Pick Yourself Up - C}{"../Alto Voice/Pick Yourself Up - Ly - C Alto Voice"}
-
-%}

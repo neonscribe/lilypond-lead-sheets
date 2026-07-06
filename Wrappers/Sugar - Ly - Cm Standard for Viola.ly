@@ -10,9 +10,3 @@ bassKey = c
 whatClef = "alto"
 
 \include "../Core/Sugar - Ly Core - Cm.ly"
-
-%{
-
-\song{Sugar - Cm}{"../Viola/Sugar - Ly - Cm Standard for Viola"}
-
-%}

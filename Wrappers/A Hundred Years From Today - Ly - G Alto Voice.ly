@@ -11,9 +11,3 @@ whatClef = "treble_8"
 alternateChords = "simple"
 
 \include "../Core/A Hundred Years From Today - Ly Core - Eb.ly"
-
-%{
-
-\song{A Hundred Years From Today - G}{"../Alto Voice/A Hundred Years From Today - Ly - G Alto Voice"}
-
-%}

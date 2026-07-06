@@ -9,9 +9,3 @@ whatKey = a
 whatClef = "treble"
 
 \include "../Core/Stolen Moments - Ly Core - Cm.ly"
-
-%{
-
-\song{Stolen Moments - Cm to Am}{"../Standard/Eb/Stolen Moments - Ly - Cm to Am for Eb for Standard"}
-
-%}

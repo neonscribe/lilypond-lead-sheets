@@ -9,9 +9,3 @@ whatKey = fs'
 whatClef = "treble"
 
 \include "../Core/Hard to Thrill - Ly Core - Am.ly"
-
-%{
-
-\song{Hard to Thrill - Am to F\#m}{"../Standard/Eb/Hard to Thrill - Ly - Am to Fsm for Eb for Standard"}
-
-%}

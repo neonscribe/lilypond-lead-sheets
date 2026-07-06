@@ -9,9 +9,3 @@ whatKey = d
 whatClef = "treble_8"
 
 \include "../Core/Who Walks In When I Walk Out - Ly Core - Gm.ly"
-
-%{
-
-\song{Who Walks In When I Walk Out? - Dm}{"../Standard/Who Walks In When I Walk Out - Ly - Dm Standard"}
-
-%}

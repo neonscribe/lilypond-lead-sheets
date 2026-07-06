@@ -9,9 +9,3 @@ whatKey = bf,
 whatClef = "treble_8"
 
 \include "../Core/June in January - Ly Core - Eb.ly"
-
-%{
-
-\song{June in January - Bb}{"../Alto Voice/June in January - Ly - Bb Alto Voice"}
-
-%}

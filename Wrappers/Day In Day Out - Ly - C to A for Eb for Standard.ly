@@ -9,9 +9,3 @@ whatKey = a,
 whatClef = "treble"
 
 \include "../Core/Day In Day Out - Ly Core - C.ly"
-
-%{
-
-\song{Day In, Day Out - C to A}{"../Standard/Eb/Day In Day Out - Ly - C to A for Eb for Standard"}
-
-%}

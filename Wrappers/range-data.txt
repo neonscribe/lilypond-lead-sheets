@@ -3815,6 +3815,31 @@ refrain
 dis'
 e'''
 
+Boplicity - Ly - F Bass for Standard.ly
+refrain
+c
+f'
+
+Boplicity - Ly - F Standard for Viola.ly
+refrain
+c
+f'
+
+Boplicity - Ly - F Standard.ly
+refrain
+c'
+f''
+
+Boplicity - Ly - F to D for Eb for Standard.ly
+refrain
+a'
+d'''
+
+Boplicity - Ly - F to G for Bb for Standard.ly
+refrain
+d'
+g''
+
 Born to Be Blue - Ly - C Bass for Standard.ly
 refrain
 b,
@@ -8183,26 +8208,41 @@ b
 c''
 
 Fever - Ly - Am Bass for Standard.ly
+intro
+e,,,
+e,,
 refrain
 g,
 b
 
 Fever - Ly - Am Standard for Viola.ly
+intro
+e,,,
+e,,
 refrain
 g,
 b
 
 Fever - Ly - Am Standard.ly
+intro
+e,,
+e,
 refrain
 g
 b'
 
 Fever - Ly - Am to Bm for Bb for Standard.ly
+intro
+fis,,
+fis,
 refrain
 a
 cis''
 
 Fever - Ly - Am to Fsm for Eb for Standard.ly
+intro
+cis,
+cis
 refrain
 e'
 gis''
@@ -18018,18 +18058,6 @@ refrain
 fis
 a'
 
-Mr Blue Sky - Ly - F Bass for Standard.ly
-
-Mr Blue Sky - Ly - F Standard for Viola.ly
-
-Mr Blue Sky - Ly - F Standard.ly
-
-Mr Blue Sky - Ly - F to D for Eb for Standard.ly
-
-Mr Blue Sky - Ly - F to G for Bb High for Standard.ly
-
-Mr Blue Sky - Ly - F to G for Bb Low for Standard.ly
-
 Mr PC - Ly - Cm Bass for Standard.ly
 refrain
 bes,
@@ -25089,8 +25117,6 @@ Tenor Madness - Ly - Bb to G for Eb for Standard.ly
 refrain
 a'
 b''
-
-test.ly
 
 That Old Black Magic - Ly - Bb Alto Voice.ly
 refrain

@@ -10,9 +10,3 @@ bassKey = d
 whatClef = "alto"
 
 \include "../Core/Little Sunflower - Ly Core - Dm.ly"
-
-%{
-
-\song{Little Sunflower - Dm}{"../Viola/Little Sunflower - Ly - Dm Standard for Viola"}
-
-%}

@@ -10,9 +10,3 @@ bassKey = f
 whatClef = "treble"
 
 \include "../Core/Cold Duck Time - Ly Core - F.ly"
-
-%{
-
-\song{Cold Duck Time - F}{"../Standard/Cold Duck Time - Ly - F Standard"}
-
-%}

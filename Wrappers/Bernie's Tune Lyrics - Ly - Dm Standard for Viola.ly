@@ -9,9 +9,3 @@ whatKey = d
 whatClef = "alto"
 
 \include "../Core/Bernie's Tune - Ly Core - Dm.ly"
-
-%{
-
-\song{Bernie's Tune Lyrics - Dm}{"../Standard/Viola/Bernie's Tune Lyrics - Ly - Dm Standard for Viola"}
-
-%}

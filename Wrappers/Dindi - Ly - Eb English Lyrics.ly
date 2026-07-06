@@ -11,9 +11,3 @@ whatClef = "treble"
 lyricsLanguage = "english"
 
 \include "../Core/Dindi - Ly Core - Eb.ly"
-
-%{
-
-\song{Dindi - Eb}{"../Others/Dindi - Ly - Eb English Lyrics"}
-
-%}

@@ -9,9 +9,3 @@ whatKey = bf,
 whatClef = "alto"
 
 \include "../Core/San Antonio Rose - Ly Core - Bb.ly"
-
-%{
-
-\song{San Antonio Rose - Bb}{"../Viola/San Antonio Rose - Ly - Bb Standard for Viola"}
-
-%}

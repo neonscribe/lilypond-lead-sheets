@@ -11,9 +11,3 @@ whatClef = "treble"
 hideLyrics = ##t
 
 \include "../Core/Well You Needn't - Ly Core - F.ly"
-
-%{
-
-\song{Well You Needn't - F}{"../Standard/Well You Needn't - Ly - F Standard"}
-
-%}

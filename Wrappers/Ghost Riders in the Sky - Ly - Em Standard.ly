@@ -9,9 +9,3 @@ whatKey = e
 whatClef = "treble"
 
 \include "../Core/Ghost Riders in the Sky - Ly Core - Em.ly"
-
-%{
-
-\song{(Ghost) Riders in the Sky (A Cowboy Legend) - Em}{"../Standard/Ghost Riders in the Sky - Ly - Em Standard"}
-
-%}

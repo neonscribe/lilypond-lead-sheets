@@ -10,9 +10,3 @@ bassKey = c
 whatClef = "treble"
 
 \include "../Core/Maiden Voyage - Ly Core - C.ly"
-
-%{
-
-\song{Maiden Voyage - C}{"../Standard/Maiden Voyage - Ly - C Standard"}
-
-%}

@@ -11,9 +11,3 @@ whatClef = "alto"
 alternateChords = "simple"
 
 \include "../Core/Blue Christmas - Ly Core - F.ly"
-
-%{
-
-\song{Blue Christmas - F Simple Chords}{"../Others/Blue Christmas - Ly - F Standard for Viola Simple Chords"}
-
-%}

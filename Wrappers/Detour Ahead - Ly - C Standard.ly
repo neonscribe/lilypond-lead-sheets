@@ -9,9 +9,3 @@ whatKey = c
 whatClef = "treble"
 
 \include "../Core/Detour Ahead - Ly Core - C.ly"
-
-%{
-
-\song{Detour Ahead - C}{"../Standard/Detour Ahead - Ly - C Standard"}
-
-%}

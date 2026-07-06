@@ -11,9 +11,3 @@ whatClef = "treble"
 alternateChords = "dfb"
 
 \include "../Core/Smile - Ly Core - F.ly"
-
-%{
-
-\song{Smile - C}{"../Standard/Smile - Ly - C Standard"}
-
-%}

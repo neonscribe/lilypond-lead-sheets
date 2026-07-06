@@ -9,9 +9,3 @@ whatKey = e'
 whatClef = "treble"
 
 \include "../Core/Too Marvelous for Words - Ly Core - Ab.ly"
-
-%{
-
-\song{Too Marvelous for Words - G to E}{"../Standard/Eb/Too Marvelous for Words - Ly - G to E for Eb for Standard"}
-
-%}

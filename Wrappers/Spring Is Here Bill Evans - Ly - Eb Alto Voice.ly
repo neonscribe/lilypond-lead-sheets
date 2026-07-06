@@ -14,9 +14,3 @@ tempoBPM = 72
 alternateChords = "billevans"
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"
-
-%{
-
-\song{Spring Is Here (Bill Evans Chords) - Eb}{"../Alto Voice/Spring Is Here Bill Evans - Ly - Eb Alto Voice"}
-
-%}

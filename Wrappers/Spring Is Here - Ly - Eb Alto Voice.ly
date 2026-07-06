@@ -11,9 +11,3 @@ tempoName = "Ballad [Ella Fitzgerald 1956]"
 tempoBPM = 72
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"
-
-%{
-
-\song{Spring Is Here - Eb}{"../Alto Voice/Spring Is Here - Ly - Eb Alto Voice"}
-
-%}

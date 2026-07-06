@@ -3,14 +3,14 @@ Baritone Voice Book
 Act Naturally - E
 ../Wrappers/Act Naturally - Ly - E Baritone Voice.ly
 
-Água de Beber (Water to Drink) - G#m
-../Wrappers/Agua de Beber - Ly - Gsm Baritone Voice.ly
-
 Água de Beber (Water to Drink) - Bm
 ../Wrappers/Agua de Beber - Ly - Bm Baritone Voice.ly
 
 Água de Beber (Water to Drink) - Dm
 ../Wrappers/Agua de Beber - Ly - Dm Baritone Voice.ly
+
+Água de Beber (Water to Drink) - G#m
+../Wrappers/Agua de Beber - Ly - Gsm Baritone Voice.ly
 
 Angel From Montgomery - G
 ../Wrappers/Angel From Montgomery - Ly - G Baritone Voice.ly
@@ -30,14 +30,11 @@ Can't We Be Friends - Db
 Cash on the Barrelhead - E
 ../Wrappers/Cash on the Barrelhead - Ly - E Baritone Voice.ly
 
-Chinatown, My Chinatown - G
-../Wrappers/Chinatown My Chinatown - Ly - G Baritone Voice.ly
-
 Chinatown, My Chinatown - Bb
 ../Wrappers/Chinatown My Chinatown - Ly - Bb Baritone Voice.ly
 
-City Lights - F
-../Wrappers/City Lights - Ly - F Baritone Voice.ly
+Chinatown, My Chinatown - G
+../Wrappers/Chinatown My Chinatown - Ly - G Baritone Voice.ly
 
 City Lights - A
 ../Wrappers/City Lights - Ly - A Baritone Voice.ly
@@ -45,14 +42,17 @@ City Lights - A
 City Lights - Bb
 ../Wrappers/City Lights - Ly - Bb Baritone Voice.ly
 
+City Lights - F
+../Wrappers/City Lights - Ly - F Baritone Voice.ly
+
 Crazy She Calls Me - Bb
 ../Wrappers/Crazy He Calls Me - Ly - Bb Baritone Voice.ly
 
-Crazy She Calls Me - F
-../Wrappers/Crazy He Calls Me - Ly - F Baritone Voice.ly
-
 Crazy She Calls Me - Eb
 ../Wrappers/Crazy He Calls Me - Ly - Eb Baritone Voice.ly
+
+Crazy She Calls Me - F
+../Wrappers/Crazy He Calls Me - Ly - F Baritone Voice.ly
 
 Deep in a Dream - Bb
 ../Wrappers/Deep in a Dream - Ly - Bb Baritone Voice.ly
@@ -72,26 +72,29 @@ El Paso - Bb
 El Paso - C
 ../Wrappers/El Paso - Ly - C Baritone Voice.ly
 
+(I Love You) For Sentimental Reasons - Db
+../Wrappers/For Sentimental Reasons - Ly - Db Baritone Voice.ly
+
 Gee Baby, Ain't I Good to You - Bb
 ../Wrappers/Gee Baby Ain't I Good to You - Ly - Bb Baritone Voice.ly
 
 The Gentle Rain - Fm
 ../Wrappers/The Gentle Rain - Ly - Fm Baritone Voice.ly
 
-Heartaches by the Number - D
-../Wrappers/Heartaches by the Number - Ly - D Baritone Voice.ly
-
-Heartaches by the Number - G
-../Wrappers/Heartaches by the Number - Ly - G Baritone Voice.ly
-
-Heartaches by the Number - A
-../Wrappers/Heartaches by the Number - Ly - A Baritone Voice.ly
-
 Hallelujah I Love Her So - Bb
 ../Wrappers/Hallelujah I Love Him (Her) So - Ly - Bb Baritone Voice.ly
 
 Hallelujah I Love Her So - C
 ../Wrappers/Hallelujah I Love Him (Her) So - Ly - C Baritone Voice.ly
+
+Heartaches by the Number - A
+../Wrappers/Heartaches by the Number - Ly - A Baritone Voice.ly
+
+Heartaches by the Number - D
+../Wrappers/Heartaches by the Number - Ly - D Baritone Voice.ly
+
+Heartaches by the Number - G
+../Wrappers/Heartaches by the Number - Ly - G Baritone Voice.ly
 
 He'll Have to Go - C
 ../Wrappers/He'll Have to Go - Ly - C Baritone Voice.ly
@@ -126,14 +129,14 @@ I Can't Stop Loving You - B
 I Can't Stop Loving You - F
 ../Wrappers/I Can't Stop Loving You - Ly - F Baritone Voice.ly
 
+If I Only Had a Brain - D
+../Wrappers/If I Only Had a Brain - Ly - D Baritone Voice.ly
+
 If It Hadn't Been for Love - Em
 ../Wrappers/If It Hadn't Been for Love - Ly - Em Baritone Voice.ly
 
 If It Hadn't Been for Love - F#m
 ../Wrappers/If It Hadn't Been for Love - Ly - Fsm Baritone Voice.ly
-
-If I Only Had a Brain - D
-../Wrappers/If I Only Had a Brain - Ly - D Baritone Voice.ly
 
 I Guess I'll Hang My Tears Out to Dry - Bb
 ../Wrappers/I Guess I'll Hang My Tears Out to Dry - Ly - Bb Baritone Voice.ly
@@ -147,17 +150,14 @@ I'll Be Around - Bb
 I'll Never Smile Again - C
 ../Wrappers/I'll Never Smile Again - Ly - C Baritone Voice.ly
 
-(I Love You) For Sentimental Reasons - Db
-../Wrappers/For Sentimental Reasons - Ly - Db Baritone Voice.ly
-
-I'm a Lonesome Fugitive - Gb
-../Wrappers/I'm a Lonesome Fugitive - Ly - Gb Baritone Voice.ly
+I'm a Lonesome Fugitive - A
+../Wrappers/I'm a Lonesome Fugitive - Ly - A Baritone Voice.ly
 
 I'm a Lonesome Fugitive - F#
 ../Wrappers/I'm a Lonesome Fugitive - Ly - Fs Baritone Voice.ly
 
-I'm a Lonesome Fugitive - A
-../Wrappers/I'm a Lonesome Fugitive - Ly - A Baritone Voice.ly
+I'm a Lonesome Fugitive - Gb
+../Wrappers/I'm a Lonesome Fugitive - Ly - Gb Baritone Voice.ly
 
 I'm in the Mood for Love - Db
 ../Wrappers/I'm in the Mood for Love - Ly - Db Baritone Voice.ly
@@ -195,11 +195,11 @@ It's All Your Fault - Eb
 It's Easy to Remember - C
 ../Wrappers/It's Easy to Remember - Ly - C Baritone Voice.ly
 
-I've Never Been in Love Before - G
-../Wrappers/I've Never Been in Love Before - Ly - G Baritone Voice.ly
-
 I've Never Been in Love Before - Ab
 ../Wrappers/I've Never Been in Love Before - Ly - Ab Baritone Voice.ly
+
+I've Never Been in Love Before - G
+../Wrappers/I've Never Been in Love Before - Ly - G Baritone Voice.ly
 
 I Wish I Knew - D
 ../Wrappers/I Wish I Knew - Ly - D Baritone Voice.ly
@@ -228,11 +228,11 @@ The Lamp Is Low - F
 Last Thing I Needed - C
 ../Wrappers/Last Thing I Needed - Ly - C Baritone Voice.ly
 
-Lazy Afternoon - Gm
-../Wrappers/Lazy Afternoon - Ly - Gm Baritone Voice.ly
-
 Lazy Afternoon - Bm
 ../Wrappers/Lazy Afternoon - Ly - Bm Baritone Voice.ly
+
+Lazy Afternoon - Gm
+../Wrappers/Lazy Afternoon - Ly - Gm Baritone Voice.ly
 
 Let's Do It - G
 ../Wrappers/Let's Do It - Ly - G Baritone Voice.ly
@@ -240,20 +240,20 @@ Let's Do It - G
 Let's Get Lost - C
 ../Wrappers/Let's Get Lost - Ly - C Baritone Voice.ly
 
-Like Someone in Love - G
-../Wrappers/Like Someone in Love - Ly - G Baritone Voice.ly
-
 Like Someone in Love - Ab
 ../Wrappers/Like Someone in Love - Ly - Ab Baritone Voice.ly
 
 Like Someone in Love - Bb
 ../Wrappers/Like Someone in Love - Ly - Bb Baritone Voice.ly
 
-The Long Black Veil - G
-../Wrappers/The Long Black Veil - Ly - G Baritone Voice.ly
+Like Someone in Love - G
+../Wrappers/Like Someone in Love - Ly - G Baritone Voice.ly
 
 The Long Black Veil - Bb
 ../Wrappers/The Long Black Veil - Ly - Bb Baritone Voice.ly
+
+The Long Black Veil - G
+../Wrappers/The Long Black Veil - Ly - G Baritone Voice.ly
 
 Love Letters (4/4) - Eb
 ../Wrappers/Love Letters - Ly - Eb Baritone Voice.ly
@@ -294,23 +294,23 @@ Night Life - D
 Nobody Knows You When You're Down and Out - C
 ../Wrappers/Nobody Knows You When You're Down and Out - Ly - C Baritone Voice.ly
 
+Oh, Lonesome Me (3/4) - C to E (Capo 4)
+../Wrappers/Oh Lonesome Me Waltz - Ly - C Baritone Voice.ly
+
+Oh, Lonesome Me (3/4) - E
+../Wrappers/Oh Lonesome Me Waltz - Ly - E Baritone Voice.ly
+
 Oh, Lonesome Me (4/4) - A
 ../Wrappers/Oh Lonesome Me Four - Ly - A Baritone Voice.ly
 
 Oh, Lonesome Me (4/4) - C
 ../Wrappers/Oh Lonesome Me Four - Ly - C Baritone Voice.ly
 
-Oh, Lonesome Me (4/4) - E
-../Wrappers/Oh Lonesome Me Four - Ly - E Baritone Voice.ly
-
 Oh, Lonesome Me (4/4) - D
 ../Wrappers/Oh Lonesome Me Four - Ly - D Baritone Voice.ly
 
-Oh, Lonesome Me (3/4) - C to E (Capo 4)
-../Wrappers/Oh Lonesome Me Waltz - Ly - C Baritone Voice.ly
-
-Oh, Lonesome Me (3/4) - E
-../Wrappers/Oh Lonesome Me Waltz - Ly - E Baritone Voice.ly
+Oh, Lonesome Me (4/4) - E
+../Wrappers/Oh Lonesome Me Four - Ly - E Baritone Voice.ly
 
 Only Daddy That'll Walk the Line - D
 ../Wrappers/Only Daddy That'll Walk the Line - Ly - D Baritone Voice.ly
@@ -330,6 +330,12 @@ Pick Me Up on Your Way Down - D
 Pick Me Up on Your Way Down - F
 ../Wrappers/Pick Me Up on Your Way Down - Ly - F Baritone Voice.ly
 
+Please Don't Talk About Me When I'm Gone - C
+../Wrappers/Please Don't Talk About Me When I'm Gone - Ly - C Baritone Voice.ly
+
+Please Don't Talk About Me When I'm Gone - G
+../Wrappers/Please Don't Talk About Me When I'm Gone - Ly - G Baritone Voice.ly
+
 The Rainbow Connection - A
 ../Wrappers/The Rainbow Connection - Ly - A Baritone Voice.ly
 
@@ -339,23 +345,23 @@ Right or Wrong - C
 River Stay Way From My Door - F
 ../Wrappers/River Stay Way From My Door - Ly - F Baritone Voice.ly
 
-Route 66 - D
-../Wrappers/Route 66 - Ly - D Baritone Voice.ly
-
-Route 66 - G
-../Wrappers/Route 66 - Ly - G Baritone Voice.ly
-
 Route 66 - A
 ../Wrappers/Route 66 - Ly - A Baritone Voice.ly
 
 Route 66 - Bb
 ../Wrappers/Route 66 - Ly - Bb Baritone Voice.ly
 
-San Antonio Rose - E
-../Wrappers/San Antonio Rose - Ly - E Baritone Voice.ly
+Route 66 - D
+../Wrappers/Route 66 - Ly - D Baritone Voice.ly
+
+Route 66 - G
+../Wrappers/Route 66 - Ly - G Baritone Voice.ly
 
 San Antonio Rose - A
 ../Wrappers/San Antonio Rose - Ly - A Baritone Voice.ly
+
+San Antonio Rose - E
+../Wrappers/San Antonio Rose - Ly - E Baritone Voice.ly
 
 Scotch and Soda - C
 ../Wrappers/Scotch and Soda - Ly - C Baritone Voice.ly
@@ -365,6 +371,9 @@ Sin City - Eb to D (Capo 1)
 
 Sin City - Eb
 ../Wrappers/Sin City - Ly - Eb Baritone Voice.ly
+
+Sixteen Tons - Am
+../Wrappers/Sixteen Tons - Ly - Am Baritone Voice.ly
 
 Sixteen Tons - Cm
 ../Wrappers/Sixteen Tons - Ly - Cm Baritone Voice.ly
@@ -381,9 +390,6 @@ Sixteen Tons - Fm
 Sixteen Tons - Gm
 ../Wrappers/Sixteen Tons - Ly - Gm Baritone Voice.ly
 
-Sixteen Tons - Am
-../Wrappers/Sixteen Tons - Ly - Am Baritone Voice.ly
-
 Small Day Tomorrow - Gm
 ../Wrappers/Small Day Tomorrow - Ly - Gm Baritone Voice.ly
 
@@ -396,14 +402,14 @@ They Say It's Spring - Eb
 This Is Always - F
 ../Wrappers/This Is Always - Ly - F Baritone Voice.ly
 
-Please Don't Talk About Me When I'm Gone - G
-../Wrappers/Please Don't Talk About Me When I'm Gone - Ly - G Baritone Voice.ly
-
-Please Don't Talk About Me When I'm Gone - C
-../Wrappers/Please Don't Talk About Me When I'm Gone - Ly - C Baritone Voice.ly
-
 The Thrill Is Gone - Cm
 ../Wrappers/The Thrill Is Gone - Ly - Cm Baritone Voice.ly
+
+Time Changes Everything - A
+../Wrappers/Time Changes Everything - Ly - A Baritone Voice.ly
+
+Time Changes Everything - Bb
+../Wrappers/Time Changes Everything - Ly - Bb Baritone Voice.ly
 
 Time Changes Everything - Db
 ../Wrappers/Time Changes Everything - Ly - Db Baritone Voice.ly
@@ -413,12 +419,6 @@ Time Changes Everything - E
 
 Time Changes Everything - G
 ../Wrappers/Time Changes Everything - Ly - G Baritone Voice.ly
-
-Time Changes Everything - A
-../Wrappers/Time Changes Everything - Ly - A Baritone Voice.ly
-
-Time Changes Everything - Bb
-../Wrappers/Time Changes Everything - Ly - Bb Baritone Voice.ly
 
 Too Darn Hot - Fm
 ../Wrappers/Too Darn Hot - Ly - Fm Baritone Voice.ly
@@ -432,11 +432,11 @@ Unchain My Heart - Fm
 Unchain My Heart - G#m
 ../Wrappers/Unchain My Heart - Ly - Gsm Baritone Voice.ly
 
-Walkin' My Baby Back Home - G
-../Wrappers/Walkin' My Baby Back Home - Ly - G Baritone Voice.ly
-
 Walkin' My Baby Back Home - Db
 ../Wrappers/Walkin' My Baby Back Home - Ly - Db Baritone Voice.ly
+
+Walkin' My Baby Back Home - G
+../Wrappers/Walkin' My Baby Back Home - Ly - G Baritone Voice.ly
 
 The Way You Look Tonight - Eb
 ../Wrappers/The Way You Look Tonight - Ly - Eb Baritone Voice.ly

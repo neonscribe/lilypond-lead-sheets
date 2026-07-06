@@ -9,9 +9,3 @@ whatKey = e
 whatClef = "treble"
 
 \include "../Core/Russian Lullaby Swing - Ly Core - Dm.ly"
-
-%{
-
-\song{Russian Lullaby (Swing) - Dm to Em}{"../Standard/Bb/Russian Lullaby Swing - Ly - Dm to Em for Bb for Standard"}
-
-%}

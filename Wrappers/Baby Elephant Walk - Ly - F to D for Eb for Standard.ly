@@ -10,9 +10,3 @@ bassKey = d'
 whatClef = "treble"
 
 \include "../Core/Baby Elephant Walk - Ly Core - F.ly"
-
-%{
-
-\song{Baby Elephant Walk - F to D}{"../Standard/Eb/Baby Elephant Walk - Ly - F to D for Eb for Standard"}
-
-%}

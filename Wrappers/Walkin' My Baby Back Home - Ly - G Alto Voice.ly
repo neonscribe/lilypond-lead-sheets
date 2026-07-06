@@ -11,9 +11,3 @@ whatClef = "treble_8"
 singerGender = "female"
 
 \include "../Core/Walkin' My Baby Back Home - Ly Core - Eb.ly"
-
-%{
-
-\song{Walkin' My Baby Back Home - G}{"../Alto Voice/Walkin' My Baby Back Home - Ly - G Alto Voice"}
-
-%}

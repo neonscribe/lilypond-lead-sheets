@@ -9,9 +9,3 @@ whatKey = fs
 whatClef = "treble"
 
 \include "../Core/It's Different for Girls - Ly Core - Fs.ly"
-
-%{
-
-\song{It's Different for Girls - F\#}{"../Standard/It's Different for Girls - Ly - Fs Standard"}
-
-%}

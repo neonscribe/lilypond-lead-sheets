@@ -9,9 +9,3 @@ whatKey = c,
 whatClef = "bass"
 
 \include "../Core/Bubbles in My Beer - Ly Core - C.ly"
-
-%{
-
-\song{Bubbles in My Beer - C Bass}{"../Standard/Bass/Bubbles in My Beer - Ly - C Bass for Standard"}
-
-%}

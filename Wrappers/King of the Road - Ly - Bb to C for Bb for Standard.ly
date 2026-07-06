@@ -10,9 +10,3 @@ bassKey = c'
 whatClef = "treble"
 
 \include "../Core/King of the Road - Ly Core - Bb.ly"
-
-%{
-
-\song{King of the Road - Bb to C}{"../Standard/Bb/King of the Road - Ly - Bb to C for Bb for Standard"}
-
-%}

@@ -9,9 +9,3 @@ whatKey = df
 whatClef = "treble"
 
 \include "../Core/Stablemates - Ly Core - Db.ly"
-
-%{
-
-\song{Stablemates - Db}{"../Standard/Stablemates - Ly - Db Standard"}
-
-%}

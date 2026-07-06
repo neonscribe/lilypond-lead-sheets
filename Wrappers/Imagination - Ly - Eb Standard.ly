@@ -9,9 +9,3 @@ whatKey = ef
 whatClef = "treble"
 
 \include "../Core/Imagination - Ly Core - Eb.ly"
-
-%{
-
-\song{Imagination - Eb}{"../Standard/Imagination - Ly - Eb Standard"}
-
-%}

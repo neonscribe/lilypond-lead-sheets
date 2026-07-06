@@ -10,9 +10,3 @@ bassKey = c
 whatClef = "treble"
 
 \include "../Core/Sidewinder - Ly Core - Eb.ly"
-
-%{
-
-\song{Sidewinder - Eb to C}{"../Standard/Eb/Sidewinder - Ly - Eb to C for Eb for Standard"}
-
-%}

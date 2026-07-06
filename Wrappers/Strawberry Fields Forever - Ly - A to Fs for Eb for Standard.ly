@@ -10,9 +10,3 @@ bassKey = fs
 whatClef = "treble"
 
 \include "../Core/Strawberry Fields Forever - Ly Core - A.ly"
-
-%{
-
-\song{Strawberry Fields Forever - A to F♯}{"../Standard/Eb/Strawberry Fields Forever - Ly - A to Fs for Eb for Standard"}
-
-%}

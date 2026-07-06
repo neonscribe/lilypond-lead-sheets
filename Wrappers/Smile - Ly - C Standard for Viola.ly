@@ -11,9 +11,3 @@ whatClef = "alto"
 alternateChords = "dfb"
 
 \include "../Core/Smile - Ly Core - F.ly"
-
-%{
-
-\song{Smile - C}{"../Viola/Smile - Ly - C Standard for Viola"}
-
-%}

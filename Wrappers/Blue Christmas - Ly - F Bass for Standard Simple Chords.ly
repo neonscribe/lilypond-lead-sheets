@@ -11,9 +11,3 @@ whatClef = "bass"
 alternateChords = "simple"
 
 \include "../Core/Blue Christmas - Ly Core - F.ly"
-
-%{
-
-\song{Blue Christmas - F Bass}{"../Others/Blue Christmas - Ly - F Bass for Standard Simple Chords"}
-
-%}

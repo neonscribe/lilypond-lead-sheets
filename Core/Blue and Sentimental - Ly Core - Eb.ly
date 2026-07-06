@@ -4,7 +4,7 @@ songID = "2026-06-01T22:16:27.369006Z"
 
 \include "../Include/lead-sheets.ily"
 
-headerTitle = " Blue and Sentimental"
+headerTitle = "Blue and Sentimental"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "Count Basie, Jerry Livingston, and Mack David"

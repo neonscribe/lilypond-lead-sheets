@@ -14,9 +14,3 @@ alternateChords = "billevans"
 hideLyrics = ##t
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"
-
-%{
-
-\song{Spring Is Here (Bill Evans Chords) - Ab Bass}{"../Standard/Bass/Spring Is Here Bill Evans - Ly - Ab Bass for Standard"}
-
-%}

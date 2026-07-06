@@ -11,9 +11,3 @@ whatClef = "treble"
 alternateChords = "557"
 
 \include "../Core/Blue Moon - Ly Core - Eb.ly"
-
-%{
-
-\song{Blue Moon - Eb}{"../Ohers/Blue Moon - Ly - Eb Alternate Chords"}
-
-%}

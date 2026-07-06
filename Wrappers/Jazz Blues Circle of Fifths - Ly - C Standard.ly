@@ -9,9 +9,3 @@ whatKey = c
 whatClef = "treble"
 
 \include "../Core/Jazz Blues Circle of Fifths - Ly Core - C.ly"
-
-%{
-
-\song{Jazz Blues Circle of Fifths - C}{"../Standard/Jazz Blues Circle of Fifths - Ly - C Standard"}
-
-%}

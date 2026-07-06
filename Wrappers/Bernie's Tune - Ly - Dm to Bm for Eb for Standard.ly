@@ -10,9 +10,3 @@ whatClef = "treble"
 hideLyrics = ##t
 
 \include "../Core/Bernie's Tune - Ly Core - Dm.ly"
-
-%{
-
-\song{Bernie's Tune - Dm to Bm}{"../Standard/Eb/Bernie's Tune - Ly - Dm to Bm for Eb for Standard"}
-
-%}

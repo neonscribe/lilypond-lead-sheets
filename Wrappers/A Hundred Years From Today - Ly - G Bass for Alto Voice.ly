@@ -11,10 +11,3 @@ whatClef = "bass"
 alternateChords = "simple"
 
 \include "../Core/A Hundred Years From Today - Ly Core - Eb.ly"
-
-%{
-
-
-\song{A Hundred Years From Today - G}{"../Alto Voice/Bass/A Hundred Years From Today - Ly - G Bass for Alto Voice"}
-
-%}

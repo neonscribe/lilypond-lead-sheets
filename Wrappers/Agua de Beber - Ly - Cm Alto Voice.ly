@@ -11,9 +11,3 @@ whatClef = "treble_8"
 lyricsLanguage = "english"
 
 \include "../Core/Agua de Beber - Ly Core - Am.ly"
-
-%{
-
-\song{Água de Beber (Water to Drink) - Cm}{"../Alto Voice/Agua de Beber - Ly - Cm Alto Voice"}
-
-%}

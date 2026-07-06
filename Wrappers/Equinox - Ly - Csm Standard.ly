@@ -10,9 +10,3 @@ bassKey = cs
 whatClef = "treble"
 
 \include "../Core/Equinox - Ly Core - Csm.ly"
-
-%{
-
-\song{Equinox - C♯m}{"../Standard/Equinox - Ly - Csm Standard"}
-
-%}

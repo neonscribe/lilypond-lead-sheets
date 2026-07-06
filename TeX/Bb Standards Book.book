@@ -15,14 +15,14 @@ After You've Gone - G to A
 Água de Beber (Water to Drink) - Am to Bm
 ../Wrappers/Agua de Beber - Ly - Am to Bm for Bb for Standard.ly
 
-Ain't Misbehavin' - Eb to F
-../Wrappers/Ain't Misbehavin' - Ly - Eb to F for Bb for Standard.ly
-
 Ain't Misbehavin' - C to D
 ../Wrappers/Ain't Misbehavin' - Ly - C to D for Bb for Standard.ly
 
 Ain't Misbehavin' - D to E
 ../Wrappers/Ain't Misbehavin' - Ly - D to E for Bb for Standard.ly
+
+Ain't Misbehavin' - Eb to F
+../Wrappers/Ain't Misbehavin' - Ly - Eb to F for Bb for Standard.ly
 
 Ain't She Sweet - Eb to F
 ../Wrappers/Ain't She Sweet - Ly - Eb to F for Bb for Standard.ly
@@ -117,11 +117,11 @@ Au Privave - F to G
 Autumn in New York - F to G
 ../Wrappers/Autumn in New York - Ly - F to G for Bb for Standard.ly
 
-Autumn Leaves - Em to F#m
-../Wrappers/Autumn Leaves - Ly - Em to Fsm for Bb for Standard.ly
-
 Autumn Leaves - Gm to Am
 ../Wrappers/Autumn Leaves - Ly - Gm to Am for Bb for Standard.ly
+
+Autumn Leaves - Em to F#m
+../Wrappers/Autumn Leaves - Ly - Em to Fsm for Bb for Standard.ly
 
 Avalon - F to G
 ../Wrappers/Avalon - Ly - F to G for Bb for Standard.ly
@@ -177,11 +177,11 @@ Bernie's Tune - Dm to Em
 Bernie's Tune Lyrics - Dm to Em
 ../Wrappers/Bernie's Tune Lyrics - Ly - Dm to Em for Bb for Standard.ly
 
-Besame Mucho - Dm to Em
-../Wrappers/Besame Mucho - Ly - Dm to Em for Bb for Standard.ly
-
 Besame Mucho - Am to Bm
 ../Wrappers/Besame Mucho - Ly - Am to Bm for Bb for Standard.ly
+
+Besame Mucho - Dm to Em
+../Wrappers/Besame Mucho - Ly - Dm to Em for Bb for Standard.ly
 
 Bessie's Blues - Eb to F High
 ../Wrappers/Bessie's Blues - Ly - Eb to F for Bb High for Standard.ly
@@ -240,17 +240,14 @@ Blue Lou - G to A
 Blue Monk - Bb to C
 ../Wrappers/Blue Monk - Ly - Bb to C for Bb for Standard.ly
 
-Blue Moon - Eb to F
-../Wrappers/Blue Moon - Ly - Eb to F for Bb for Standard.ly
-
 Blue Moon - Eb to F (alternate chords)
 ../Wrappers/Blue Moon - Ly - Eb to F for Bb for Alternate Chords.ly
 
+Blue Moon - Eb to F
+../Wrappers/Blue Moon - Ly - Eb to F for Bb for Standard.ly
+
 Blues by Five - Bb to C
 ../Wrappers/Blues by Five - Ly - Bb to C for Bb for Standard.ly
-
-Blues March - Bb to C
-../Wrappers/Blues March - Ly - Bb to C for Bb for Standard.ly
 
 Bluesette - Bb to C High
 ../Wrappers/Bluesette - Ly - Bb to C for Bb High for Standard.ly
@@ -272,6 +269,9 @@ Blue Skies - C to D High
 
 Blue Skies - C to D Low
 ../Wrappers/Blue Skies - Ly - C to D for Bb Low for Standard.ly
+
+Blues March - Bb to C
+../Wrappers/Blues March - Ly - Bb to C for Bb for Standard.ly
 
 Blue Train (Blue Trane) - Eb to F
 ../Wrappers/Blue Train (Blue Trane) - Ly - Eb to F for Bb for Standard.ly
@@ -330,11 +330,11 @@ Call Me - C to D
 Cantaloupe Island - Fm to Gm
 ../Wrappers/Cantaloupe Island - Ly - Fm to Gm for Bb for Standard.ly
 
-Can't Help Lovin' Dat Man - Eb to F
-../Wrappers/Can't Help Lovin' Dat Man - Ly - Eb to F for Bb for Standard.ly
-
 Can't Help Lovin' Dat Man - C to D
 ../Wrappers/Can't Help Lovin' Dat Man - Ly - C to D for Bb for Standard.ly
+
+Can't Help Lovin' Dat Man - Eb to F
+../Wrappers/Can't Help Lovin' Dat Man - Ly - Eb to F for Bb for Standard.ly
 
 Can't We Be Friends - F to G
 ../Wrappers/Can't We Be Friends - Ly - F to G for Bb for Standard.ly
@@ -345,11 +345,11 @@ Caravan - Fm to Gm
 Centerpiece - Ab to Bb
 ../Wrappers/Centerpiece - Ly - Ab to Bb for Bb for Standard.ly
 
-Central Park West (signature) - B to Db
-../Wrappers/Central Park West - Ly - B to Db for Bb for Standard.ly
-
 Central Park West (no signature)
 ../Wrappers/Central Park West No Signature - Ly - C to D for Bb for Standard.ly
+
+Central Park West (signature) - B to Db
+../Wrappers/Central Park West - Ly - B to Db for Bb for Standard.ly
 
 Ceora - Ab to Bb
 ../Wrappers/Ceora - Ly - Ab to Bb for Bb for Standard.ly
@@ -426,11 +426,11 @@ Cool Blues - C to D
 Coquette (1928 Sheet Music) - Eb to F
 ../Wrappers/Coquette - Ly - Eb to F for Bb for Standard.ly
 
-Coquette (Firehouse) - Eb to F
-../Wrappers/Coquette Firehouse - Ly - Eb to F for Bb for Standard.ly
-
 Coquette (Django Fakebook) - D to E
 ../Wrappers/Coquette DFB - Ly - D to E for Bb for Standard.ly
+
+Coquette (Firehouse) - Eb to F
+../Wrappers/Coquette Firehouse - Ly - Eb to F for Bb for Standard.ly
 
 Corcovado (Quiet Nights of Quiet Stars) - C to D
 ../Wrappers/Corcovado - Ly - C to D for Bb for Standard.ly
@@ -609,11 +609,11 @@ The End of a Love Affair - F to G
 Epistrophy - C to D
 ../Wrappers/Epistrophy - Ly - C to D for Bb for Standard.ly
 
-Equinox - C#m to D#m
-../Wrappers/Equinox - Ly - Csm to Dsm for Bb for Standard.ly
-
 Equinox - Cm to Dm
 ../Wrappers/Equinox - Ly - Cm to Dm for Bb for Standard.ly
+
+Equinox - C#m to D#m
+../Wrappers/Equinox - Ly - Csm to Dsm for Bb for Standard.ly
 
 E.S.P. - C to D
 ../Wrappers/ESP - Ly - C to D for Bb for Standard.ly
@@ -684,9 +684,6 @@ A Foggy Day (In London Town) - F to G
 The Folks Who Live on the Hill - C to D
 ../Wrappers/The Folks Who Live on the Hill - Ly - C to D for Bb for Standard.ly
 
-For All We Know - Eb to F
-../Wrappers/For All We Know - Ly - Eb to F for Bb for Standard.ly
-
 Fools Rush In - C to D
 ../Wrappers/Fools Rush In - Ly - C to D for Bb for Standard.ly
 
@@ -695,6 +692,9 @@ Footprints - Cm to Dm High
 
 Footprints - Cm to Dm Low
 ../Wrappers/Footprints - Ly - Cm to Dm for Bb Low for Standard.ly
+
+For All We Know - Eb to F
+../Wrappers/For All We Know - Ly - Eb to F for Bb for Standard.ly
 
 (I Love You) For Sentimental Reasons - F to G
 ../Wrappers/For Sentimental Reasons - Ly - F to G for Bb for Standard.ly
@@ -717,11 +717,11 @@ The Frim Fram Sauce - Bb to C
 Gee Baby, Ain't I Good to You - Eb to F
 ../Wrappers/Gee Baby Ain't I Good to You - Ly - Eb to F for Bb for Standard.ly
 
-The Gentle Rain - Cm to Dm
-../Wrappers/The Gentle Rain - Ly - Cm to Dm for Bb for Standard.ly
-
 The Gentle Rain - G#m to Bbm
 ../Wrappers/The Gentle Rain - Ly - Gsm to Bbm for Bb for Standard.ly
+
+The Gentle Rain - Cm to Dm
+../Wrappers/The Gentle Rain - Ly - Cm to Dm for Bb for Standard.ly
 
 Georgia on My Mind - F to G
 ../Wrappers/Georgia on My Mind - Ly - F to G for Bb for Standard.ly
@@ -738,11 +738,11 @@ Get Happy - F to G Low
 Giant Steps - for Bb
 ../Wrappers/Giant Steps - Ly - C to D for Bb for Standard.ly
 
-The Girl From Ipanema - F to G
-../Wrappers/The Girl From Ipanema - Ly - F to G for Bb for Standard.ly
-
 The Girl From Ipanema - Db to Eb
 ../Wrappers/The Girl From Ipanema - Ly - Db to Eb for Bb for Standard.ly
+
+The Girl From Ipanema - F to G
+../Wrappers/The Girl From Ipanema - Ly - F to G for Bb for Standard.ly
 
 Give Me the Simple Life - Eb to F
 ../Wrappers/Give Me the Simple Life - Ly - Eb to F for Bb for Standard.ly
@@ -942,14 +942,14 @@ Ill Wind - Bb to C
 I Love You - F to G
 ../Wrappers/I Love You - Ly - F to G for Bb for Standard.ly
 
-Imagination - Eb to F
-../Wrappers/Imagination - Ly - Eb to F for Bb for Standard.ly
+I'm a Fool to Want You - Em to F#m
+../Wrappers/I'm a Fool to Want You - Ly - Em to Fsm for Bb for Standard.ly
 
 Imagination - G to A
 ../Wrappers/Imagination - Ly - G to A for Bb for Standard.ly
 
-I'm a Fool to Want You - Em to F#m
-../Wrappers/I'm a Fool to Want You - Ly - Em to Fsm for Bb for Standard.ly
+Imagination - Eb to F
+../Wrappers/Imagination - Ly - Eb to F for Bb for Standard.ly
 
 I'm an Old Cowhand - C to D
 ../Wrappers/I'm an Old Cowhand - Ly - C to D for Bb for Standard.ly
@@ -1023,11 +1023,11 @@ I Only Have Eyes for You - C to D
 I Remember Clifford - Eb to F
 ../Wrappers/I Remember Clifford - Ly - Eb to F for Bb for Standard.ly
 
-I Remember You - F to G
-../Wrappers/I Remember You - Ly - F to G for Bb for Standard.ly
-
 I Remember You - G to A
 ../Wrappers/I Remember You - Ly - G to A for Bb for Standard.ly
+
+I Remember You - F to G
+../Wrappers/I Remember You - Ly - F to G for Bb for Standard.ly
 
 Isfahan - Db to Eb
 ../Wrappers/Isfahan - Ly - Db to Eb for Bb for Standard.ly
@@ -1035,11 +1035,11 @@ Isfahan - Db to Eb
 I Should Care - C to D
 ../Wrappers/I Should Care - Ly - C to D for Bb for Standard.ly
 
-Isn't It Romantic - Eb to F
-../Wrappers/Isn't It Romantic - Ly - Eb to F for Bb for Standard.ly
-
 Isn't It Romantic - Bb to C
 ../Wrappers/Isn't It Romantic - Ly - Bb to C for Bb for Standard.ly
+
+Isn't It Romantic - Eb to F
+../Wrappers/Isn't It Romantic - Ly - Eb to F for Bb for Standard.ly
 
 I Surrender, Dear - C to D
 ../Wrappers/I Surrender Dear - Ly - C to D for Bb for Standard.ly
@@ -1131,14 +1131,14 @@ I Wish You Love - Eb to F
 J'Attendrai - C to D
 ../Wrappers/J'Attendrai - Ly - C to D for Bb for Standard.ly
 
+Jazz Blues Circle of Fifths
+../Wrappers/Jazz Blues Circle of Fifths - Ly - C to D for Bb for Standard.ly
+
 Jazz Blues Flat Keys
 ../Wrappers/Jazz Blues Flat Keys - Ly - C to D for Bb for Standard.ly
 
 Jazz Blues Sharp Keys
 ../Wrappers/Jazz Blues Sharp Keys - Ly - C to D for Bb for Standard.ly
-
-Jazz Blues Circle of Fifths
-../Wrappers/Jazz Blues Circle of Fifths - Ly - C to D for Bb for Standard.ly
 
 Jeannine - Ab to Bb
 ../Wrappers/Jeannine - Ly - Ab to Bb for Bb for Standard.ly
@@ -1146,17 +1146,17 @@ Jeannine - Ab to Bb
 Jeepers Creepers - Bb to C
 ../Wrappers/Jeepers Creepers - Ly - Bb to C for Bb for Standard.ly
 
-The Jitterbug Waltz - Eb to F High
-../Wrappers/The Jitterbug Waltz - Ly - Eb to F for Bb High for Standard.ly
-
-The Jitterbug Waltz - Eb to F Low
-../Wrappers/The Jitterbug Waltz - Ly - Eb to F for Bb Low for Standard.ly
-
 The Jitterbug Waltz - C to D High
 ../Wrappers/The Jitterbug Waltz - Ly - C to D for Bb High for Standard.ly
 
 The Jitterbug Waltz - C to D Low
 ../Wrappers/The Jitterbug Waltz - Ly - C to D for Bb Low for Standard.ly
+
+The Jitterbug Waltz - Eb to F High
+../Wrappers/The Jitterbug Waltz - Ly - Eb to F for Bb High for Standard.ly
+
+The Jitterbug Waltz - Eb to F Low
+../Wrappers/The Jitterbug Waltz - Ly - Eb to F for Bb Low for Standard.ly
 
 Jive at Five - Eb to F
 ../Wrappers/Jive at Five - Ly - Eb to F for Bb for Standard.ly
@@ -1257,11 +1257,11 @@ Like Someone in Love - C to D
 Like Someone in Love - Eb to F
 ../Wrappers/Like Someone in Love - Ly - Eb to F for Bb for Standard.ly
 
-Limehouse Blues - Ab to Bb
-../Wrappers/Limehouse Blues - Ly - Ab to Bb for Bb for Standard.ly
-
 Limehouse Blues - G to A
 ../Wrappers/Limehouse Blues - Ly - G to A for Bb for Standard.ly
+
+Limehouse Blues - Ab to Bb
+../Wrappers/Limehouse Blues - Ly - Ab to Bb for Bb for Standard.ly
 
 Line for Lyons - G to A
 ../Wrappers/Line for Lyons - Ly - G to A for Bb for Standard.ly
@@ -1347,11 +1347,11 @@ Lullaby of the Leaves - Cm to Dm
 Lulu's Back in Town - Eb to F
 ../Wrappers/Lulu's Back in Town - Ly - Eb to F for Bb for Standard.ly
 
-Lush Life - Db to Eb
-../Wrappers/Lush Life - Ly - Db to Eb for Bb for Standard.ly
-
 Lush Life - C to D
 ../Wrappers/Lush Life - Ly - C to D for Bb for Standard.ly
+
+Lush Life - Db to Eb
+../Wrappers/Lush Life - Ly - Db to Eb for Bb for Standard.ly
 
 Mack the Knife - C to D
 ../Wrappers/Mack the Knife - Ly - C to D for Bb for Standard.ly
@@ -1464,11 +1464,11 @@ My Baby Just Cares for Me - G to A
 My Blue Heaven - Eb to F
 ../Wrappers/My Blue Heaven - Ly - Eb to F for Bb for Standard.ly
 
-My Buddy (Waltz) - G to A
-../Wrappers/My Buddy - Ly - G to A for Bb for Standard.ly
-
 My Buddy (Swing) - F to G
 ../Wrappers/My Buddy Swing - Ly - F to G for Bb for Standard.ly
+
+My Buddy (Waltz) - G to A
+../Wrappers/My Buddy - Ly - G to A for Bb for Standard.ly
 
 My Favorite Things - Em to F#m
 ../Wrappers/My Favorite Things - Ly - Em to Fsm for Bb for Standard.ly
@@ -1494,11 +1494,11 @@ My Old Flame - G to A
 My One and Only Love - C to D
 ../Wrappers/My One and Only Love - Ly - C to D for Bb for Standard.ly
 
-My Romance - C to D
-../Wrappers/My Romance - Ly - C to D for Bb for Standard.ly
-
 My Romance - Bb to C
 ../Wrappers/My Romance - Ly - Bb to C for Bb for Standard.ly
+
+My Romance - C to D
+../Wrappers/My Romance - Ly - C to D for Bb for Standard.ly
 
 My Shining Hour - Eb to F
 ../Wrappers/My Shining Hour - Ly - Eb to F for Bb for Standard.ly
@@ -1515,20 +1515,20 @@ Nancy With the Laughing Face - Eb to F
 Nardis - Em to F#m
 ../Wrappers/Nardis - Ly - Em to Fsm for Bb for Standard.ly
 
-Nature Boy (3/4) - Em to F#m
-../Wrappers/Nature Boy Three - Ly - Em to Fsm for Bb for Standard.ly
-
 Nature Boy (3/4) - Gm to Am
 ../Wrappers/Nature Boy Three - Ly - Gm to Am for Bb for Standard.ly
 
-Nature Boy (4/4) - Em to F#m
-../Wrappers/Nature Boy Four - Ly - Em to Fsm for Bb for Standard.ly
+Nature Boy (3/4) - Em to F#m
+../Wrappers/Nature Boy Three - Ly - Em to Fsm for Bb for Standard.ly
+
+Nature Boy (4/4) - Gm to Am
+../Wrappers/Nature Boy Four - Ly - Gm to Am for Bb for Standard.ly
 
 Nature Boy (4/4) - Dm to Em
 ../Wrappers/Nature Boy Four - Ly - Dm to Em for Bb for Standard.ly
 
-Nature Boy (4/4) - Gm to Am
-../Wrappers/Nature Boy Four - Ly - Gm to Am for Bb for Standard.ly
+Nature Boy (4/4) - Em to F#m
+../Wrappers/Nature Boy Four - Ly - Em to Fsm for Bb for Standard.ly
 
 The Nearness of You - F to G
 ../Wrappers/The Nearness of You - Ly - F to G for Bb for Standard.ly
@@ -1611,11 +1611,11 @@ On Green Dolphin Street - Eb to F
 Only Trust Your Heart - C to D
 ../Wrappers/Only Trust Your Heart - Ly - C to D for Bb for Standard.ly
 
-On the Alamo - Eb to F
-../Wrappers/On the Alamo - Ly - Eb to F for Bb for Standard.ly
-
 On the Alamo - C to D
 ../Wrappers/On the Alamo - Ly - C to D for Bb for Standard.ly
+
+On the Alamo - Eb to F
+../Wrappers/On the Alamo - Ly - Eb to F for Bb for Standard.ly
 
 On the Street Where You Live - Bb to C
 ../Wrappers/On the Street Where You Live - Ly - Bb to C for Bb for Standard.ly
@@ -1686,11 +1686,11 @@ The Rainbow Connection - G to A
 Recorda-Me - Am to Bm
 ../Wrappers/Recorda-Me - Ly - Am to Bm for Bb for Standard.ly
 
-Red Clay - C#m to Ebm
-../Wrappers/Red Clay - Ly - Csm to Ebm for Bb for Standard.ly
-
 Red Clay - Cm to Dm
 ../Wrappers/Red Clay - Ly - Cm to Dm for Bb for Standard.ly
+
+Red Clay - C#m to Ebm
+../Wrappers/Red Clay - Ly - Csm to Ebm for Bb for Standard.ly
 
 Remember - Ab to Bb
 ../Wrappers/Remember - Ly - Ab to Bb for Bb for Standard.ly
@@ -1773,11 +1773,11 @@ September Song - C to D
 Serenade to a Cuckoo - Ab to Bb
 ../Wrappers/Serenade to a Cuckoo - Ly - Ab to Bb for Bb for Standard.ly
 
-Seven Steps to Heaven - F to G
-../Wrappers/Seven Steps to Heaven - Ly - F to G for Bb for Standard.ly
-
 (Je Suis) Seul Ce Soir - C to D
 ../Wrappers/Seul Ce Soir - Ly - C to D for Bb for Standard.ly
+
+Seven Steps to Heaven - F to G
+../Wrappers/Seven Steps to Heaven - Ly - F to G for Bb for Standard.ly
 
 The Shadow of Your Smile - G to A
 ../Wrappers/The Shadow of Your Smile - Ly - G to A for Bb for Standard.ly
@@ -1812,11 +1812,11 @@ A Sleepin' Bee - Ab to Bb
 Small Day Tomorrow - Am to Bm
 ../Wrappers/Small Day Tomorrow - Ly - Am to Bm for Bb for Standard.ly
 
-Smile - F to G
-../Wrappers/Smile - Ly - F to G for Bb for Standard.ly
-
 Smile - C to D
 ../Wrappers/Smile - Ly - C to D for Bb for Standard.ly
+
+Smile - F to G
+../Wrappers/Smile - Ly - F to G for Bb for Standard.ly
 
 Smoke Gets in Your Eyes - Eb to F
 ../Wrappers/Smoke Gets in Your Eyes - Ly - Eb to F for Bb for Standard.ly
@@ -1905,15 +1905,6 @@ Stablemates - Db to Eb
 Stairway to the Stars - C to D
 ../Wrappers/Stairway to the Stars - Ly - C to D for Bb for Standard.ly
 
-St. James Infirmary - Dm to Em
-../Wrappers/St James Infirmary - Ly - Dm to Em for Bb for Standard.ly
-
-St. Louis Blues - G to A
-../Wrappers/St Louis Blues - Ly - G to A for Bb for Standard.ly
-
-St. Thomas - C to D
-../Wrappers/St Thomas - Ly - C to D for Bb for Standard.ly
-
 Stardust (Star Dust) - C to D
 ../Wrappers/Stardust - Ly - C to D for Bb for Standard.ly
 
@@ -1928,6 +1919,12 @@ Stars Fell on Alabama - C to D
 
 Stella by Starlight - Bb to C
 ../Wrappers/Stella by Starlight - Ly - Bb to C for Bb for Standard.ly
+
+St. James Infirmary - Dm to Em
+../Wrappers/St James Infirmary - Ly - Dm to Em for Bb for Standard.ly
+
+St. Louis Blues - G to A
+../Wrappers/St Louis Blues - Ly - G to A for Bb for Standard.ly
 
 Stolen Moments - Cm to Dm
 ../Wrappers/Stolen Moments - Ly - Cm to Dm for Bb for Standard.ly
@@ -1956,6 +1953,9 @@ Strode Rode - Fm to Gm
 Struttin' With Some Barbecue - F to G
 ../Wrappers/Struttin' With Some Berbecue - Ly - F to G for Bb for Standard.ly
 
+St. Thomas - C to D
+../Wrappers/St Thomas - Ly - C to D for Bb for Standard.ly
+
 Stumbling - G to A
 ../Wrappers/Stumbling - Ly - G to A for Bb for Standard.ly
 
@@ -1983,11 +1983,11 @@ Sway - Em to F#m
 Sweet and Lovely - C to D
 ../Wrappers/Sweet and Lovely - Ly - C to D for Bb for Standard.ly
 
-Sweet Georgia Brown - F to G
-../Wrappers/Sweet Georgia Brown - Ly - F to G for Bb for Standard.ly
-
 Sweet Georgia Brown - Ab to Bb
 ../Wrappers/Sweet Georgia Brown - Ly - Ab to Bb for Bb for Standard.ly
+
+Sweet Georgia Brown - F to G
+../Wrappers/Sweet Georgia Brown - Ly - F to G for Bb for Standard.ly
 
 Sweet Lorraine - G to A
 ../Wrappers/Sweet Lorraine - Ly - G to A for Bb for Standard.ly
@@ -2190,9 +2190,6 @@ Wave - D to E
 The Way You Look Tonight - F to G
 ../Wrappers/The Way You Look Tonight - Ly - F to G for Bb for Standard.ly
 
-What's New - C to D
-../Wrappers/What's New - Ly - C to D for Bb for Standard.ly
-
 We Kiss in a Shadow - F to G
 ../Wrappers/We Kiss in a Shadow - Ly - F to G for Bb for Standard.ly
 
@@ -2217,6 +2214,9 @@ What Is There to Say - Eb to F
 What Is This Thing Called Love? - C to D
 ../Wrappers/What Is This Thing Called Love - Ly - C to D for Bb for Standard.ly
 
+What's New - C to D
+../Wrappers/What's New - Ly - C to D for Bb for Standard.ly
+
 When I Fall in Love - Eb to F
 ../Wrappers/When I Fall in Love - Ly - Eb to F for Bb for Standard.ly
 
@@ -2238,11 +2238,11 @@ When You're Smiling - Bb to C
 When Your Lover Has Gone - G to A
 ../Wrappers/When Your Lover Has Gone - Ly - G to A for Bb for Standard.ly
 
-When Your Lover Has Gone - F to G
-../Wrappers/When Your Lover Has Gone - Ly - F to G for Bb for Standard.ly
-
 When Your Lover Has Gone - Ab to Bb
 ../Wrappers/When Your Lover Has Gone - Ly - Ab to Bb for Bb for Standard.ly
+
+When Your Lover Has Gone - F to G
+../Wrappers/When Your Lover Has Gone - Ly - F to G for Bb for Standard.ly
 
 When You Wish Upon a Star - C to D High
 ../Wrappers/When You Wish Upon a Star - Ly - C to D for Bb High for Standard.ly

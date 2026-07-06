@@ -9,9 +9,3 @@ whatKey = f
 whatClef = "treble_8"
 
 \include "../Core/It Don't Mean a Thing - Ly Core - Bb.ly"
-
-%{
-
-\song{It Don't Mean a Thing (If It Ain't Got That Swing) - F}{"../Alto Voice/It Don't Mean a Thing - Ly - F Alto Voice"}
-
-%}

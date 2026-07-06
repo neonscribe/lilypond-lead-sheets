@@ -10,9 +10,3 @@ bassKey = d
 whatClef = "treble"
 
 \include "../Core/Footprints - Ly Core - Cm.ly"
-
-%{
-
-\song{Footprints - Cm to Dm}{"../Standard/Bb/Footprints - Ly - Cm to Dm for Bb Low for Standard"}
-
-%}

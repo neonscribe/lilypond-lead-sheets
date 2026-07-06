@@ -9,9 +9,3 @@ whatKey = d'
 whatClef = "treble"
 
 \include "../Core/In the Still of the Night - Ly Core - F.ly"
-
-%{
-
-\song{In the Still of the Night - F to D}{"../Standard/Eb/In the Still of the Night - Ly - F to D for Eb for Standard"}
-
-%}

@@ -13,9 +13,3 @@ singerGender = "female"
 singerGender = "female"
 
 \include "../Core/I'll Be Around - Ly Core - C.ly"
-
-%{
-
-\song{I'll Be Around - E}{"../Alto Voice/I'll Be Around - Ly - E Alto Voice"}
-
-%}

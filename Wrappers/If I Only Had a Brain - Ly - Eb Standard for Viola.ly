@@ -11,9 +11,3 @@ whatClef = "alto"
 alternateChords = "dfb"
 
 \include "../Core/If I Only Had a Brain - Ly Core - F.ly"
-
-%{
-
-\song{If I Only Had a Brain - Eb}{"../Standard/Viola/If I Only Had a Brain - Ly - En Standard for Viola"}
-
-%}

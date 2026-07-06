@@ -9,9 +9,3 @@ whatKey = b
 whatClef = "treble"
 
 \include "../Core/O Pato - Ly Core - D.ly"
-
-%{
-
-\song{O Pato - D to B}{"../Standard/Eb/O Pato - Ly - D to B for Eb for Standard"}
-
-%}

@@ -11,9 +11,3 @@ whatClef = "bass"
 alternateChords = "firehouse"
 
 \include "../Core/On the Alamo - Ly Core - F.ly"
-
-%{
-
-\song{On the Alamo - C Bass}{"../Standard/Bass/On the Alamo - Ly - C Bass for Standard"}
-
-%}

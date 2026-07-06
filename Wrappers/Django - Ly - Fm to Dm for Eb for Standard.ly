@@ -10,9 +10,3 @@ bassKey = d
 whatClef = "treble"
 
 \include "../Core/Django - Ly Core - Fm.ly"
-
-%{
-
-\song{Django - Fm to Dm}{"../Standard/Eb/Django - Ly - Fm to Dm for Eb for Standard"}
-
-%}

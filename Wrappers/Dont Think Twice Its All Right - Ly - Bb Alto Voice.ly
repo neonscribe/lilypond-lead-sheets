@@ -9,9 +9,3 @@ whatKey = bf,
 whatClef = "treble_8"
 
 \include "../Core/Don't Think Twice, It's All Right - Ly Core - G.ly"
-
-%{
-
-\song{Don't Think Twice, It's All Right - Bb}{"../Alto Voice/Dont Think Twice Its All Right - Ly - Bb Alto Voice"}
-
-%}

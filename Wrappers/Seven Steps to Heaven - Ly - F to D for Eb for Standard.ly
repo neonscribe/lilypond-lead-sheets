@@ -10,9 +10,3 @@ bassKey = d
 whatClef = "treble"
 
 \include "../Core/Seven Steps to Heaven - Ly Core - F.ly"
-
-%{
-
-\song{Seven Steps to Heaven - F to D}{"../Standard/Eb/Seven Steps to Heaven - Ly - F to D for Eb for Standard"}
-
-%}

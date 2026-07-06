@@ -11,9 +11,3 @@ whatClef = "bass"
 alternateChords = "dfb"
 
 \include "../Core/The Jitterbug Waltz - Ly Core - Eb.ly"
-
-%{
-
-\song{The Jitterbug Waltz - C Bass}{"../Standard/Bass/The Jitterbug Waltz - Ly - C Bass for Standard"}
-
-%}

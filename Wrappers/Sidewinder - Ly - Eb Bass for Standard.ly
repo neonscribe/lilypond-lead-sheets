@@ -10,9 +10,3 @@ bassKey = ef
 whatClef = "bass"
 
 \include "../Core/Sidewinder - Ly Core - Eb.ly"
-
-%{
-
-\song{Sidewinder - Eb Bass}{"../Standard/Bass/Sidewinder - Ly - Eb Bass for Standard"}
-
-%}

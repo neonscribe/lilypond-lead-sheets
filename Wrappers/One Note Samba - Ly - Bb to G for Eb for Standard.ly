@@ -9,9 +9,3 @@ whatKey = g'
 whatClef = "treble"
 
 \include "../Core/One Note Samba - Ly Core - Bb.ly"
-
-%{
-
-\song{One Note Samba - Bb to G}{"../Standard/Eb/One Note Samba - Ly - Bb to G for Eb for Standard"}
-
-%}

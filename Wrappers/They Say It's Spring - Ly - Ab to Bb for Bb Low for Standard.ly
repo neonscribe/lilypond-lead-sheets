@@ -9,9 +9,3 @@ whatKey = bf
 whatClef = "treble"
 
 \include "../Core/They Say It's Spring - Ly Core - Ab.ly"
-
-%{
-
-\song{They Say It's Spring - Ab to Bb}{"../Standard/Bb/They Say It's Spring - Ly - Ab to Bb for Bb Low for Standard"}
-
-%}
