@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
 
   c8 c8 c4 b8 b8 b4 | a8 b8 a8 e8~ e2 | a8 b8 a4 e4 g4 | a1 |
   a4 c4 d8 d8 c8 c8 | af8 af8 c8 d8~ d2 |
-  r4 c8 a8 b8 a8 g4 \textToCodaLastTime | c2 r2 \daCapoWithRepeats |
+  r4 c8 a8 b8 a8 g4 \textToCodaLastTime | c2 r2 \daCapo |
   \bar "||-|."
 
   \textCodaPageBreak

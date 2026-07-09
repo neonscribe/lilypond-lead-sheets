@@ -78,8 +78,6 @@ refrainMelody =  \relative a' {
   <e g>8~\startTrillSpan <e g>2 | r8\stopTrillSpan d8 e8 f8 e4 d4 |
   c4 \tuplet 3/2 { d8 e8 d8 } c8 d4 c8~ | c8 g8 a8 b8 c8 d8 e8 f8 |
 
-  \xxPageBreak
-
   \sectPageBreak "B"
 
   g8( fs8 g8)

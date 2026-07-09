@@ -10,20 +10,12 @@ headerPoet = ""
 headerComposer = "Eric Clapton & John Mayer"
 headerCopyright = "© 2006 Inc."
 
-notrefrainAltChords = \chordmode {
-  a1:m7 a1:m7 a1:m7 a1:m7
-
-  a1:m7 a1:m7 a1:m7 a1:m7
-  d1:m7 g1:13 a1:m7 a1:m7
-  f1:9 b2:m7.5- e2:7.9- a1:m7 a1:m7
-}
-
 refrainChords = \chordmode {
   a1:m7 a1:m7 a1:m7 a1:m7
 
   a1:m7 a1:m7 a1:m7 a1:m7
   d1:m7 g1:13 a1:m7 a1:m7
-  f1:9 e1:9a1:m7 a1:m7
+  f1:9 b2:m7.5- e2:7.9+ a1:m7 a1:m7
 }
 
 refrainKey = a
@@ -41,15 +33,16 @@ refrainMelody = \relative f' {
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \sect "Head"
+  \bar ".|:-||"
+  \sectNoBar "Head"
+  \repeat volta 2 {
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-
-  \bar "|."
+  }
 }
 
 \include "../Include/refrainonly.ily"

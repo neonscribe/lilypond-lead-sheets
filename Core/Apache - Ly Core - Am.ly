@@ -90,8 +90,8 @@ refrainMelody =  \relative a' {
          e4  d4  c4 }
      a2 ~ | \barNumberCheck #40
     a1 | % 41
-    \bar "||-||"
-     \break
+    \bar "||"
+    \xxPageBreak
    \sectNoBar "B2"
      c,8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 42

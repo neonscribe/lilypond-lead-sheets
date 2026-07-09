@@ -13,19 +13,19 @@ headerCopyright = "© 1969 Famous Music LLC and Aspenfair Music"
 straightEighths = ##t
 
 refrainChords = \chordmode {
-  \chordInsideParens{ g2.:7 }
+  \chordInsideParens{ g1:7 }
   c1:m bf1 c1:m ef1
   c1:m bf1 ef1 g1:7
   c1:m c1:m f1 af2 bf2
-  c1:m af2 bf2 c2..:m gs8:7 gs1:7
+  c1:m af2 bf2 c2..:m gs8*9:7
 
-  gs1:7
+  \chordInsideParens{ gs1:7 }
   cs1:m b1 cs1:m e1
   cs1:m b1 e1 gs1:7
   cs1:m cs1:m fs1 a2 b2
-  cs1:m a2 b2 cs2..:m a8:7 a1:7
+  cs1:m a2 b2 cs2..:m a8*9:7
 
-  a1:7
+  \chordInsideParens{ a1:7 }
   d1:m c1 d1:m f1
   d1:m c1 f1 a1:7
   d1:m d1:m g1 bf2 c2
@@ -46,36 +46,32 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Straight Eighths [The Ventures 1969]" 162
 
-  \xTextMark \markup{ \bold \box "A" }
-  \partial 2. g8 g8 bf8 d4 c8~ |
-  \bar "||"
+  \sectNoBar "A"
 
-
+  r4 g8 g8 bf8 d4 c8~ |
   c4. g8~ g2 | r4 g8 g8 f8 bf4 g8~ | g1 | r4 g8 g8 bf8 d4 c8~ |
   c4. g'8~ g2 | r4 f8 f8 d8 bf8 r8 g'8~ | g1~ | g1 |
   r4 af4 g8 f8 ef8 c8 | g8 f8 ef8 c8~ c2 | r4 c''4 a8 g8 f8 d8 | c8 bf8 af8 bf8~ bf8 c8 d4 |
   c4. g'8~ g2 | r4 f8 f8 d8 bf4 c8~ | c2~ c8 c8 c8 af8~ | af1 |
-  \break
-  \xTextMark \markup{ \bold \box "B" }
+
+  \sect "B"
   \key \refrainKeyTwo \minor
 
   \transpose \refrainKey \refrainKeyTwo {
     \relative f' {
       r4 g8 g8 bf8 d4 c8~ |
-      \bar "||-||"
   c4. g8~ g2 | r4 g8 g8 f8 bf4 g8~ | g1 | r4 g8 g8 bf8 d4 c8~ |
   c4. g'8~ g2 | r4 f8 f8 d8 bf8 r8 g'8~ | g1~ | g1 |
   r4 af4 g8 f8 ef8 c8 | g8 f8 ef8 c8~ c2 | r4 c''4 a8 g8 f8 d8 | c8 bf8 af8 bf8~ bf8 c8 d4 |
   c4. g'8~ g2 | r4 f8 f8 d8 bf4 c8~ | c2. r8 af8~ | af1 |
   } }
-  \break
-  \xTextMark \markup{ \bold \box "C" }
+
+  \sectPageBreak "C"
   \key \refrainKeyThree \minor
 
   \transpose \refrainKey \refrainKeyThree {
     \relative f' {
       r4 g8 g8 bf8 d4 c8~ |
-      \bar "||-||"
   c4. g8~ g2 | r4 g8 g8 f8 bf4 g8~ | g1 | r4 g8 g8 bf8 d4 c8~ |
   c4. g'8~ g2 | r4 f8 f8 d8 bf8 r8 g'8~ | g1~ | g1 |
   r4 af4 g8 f8 ef8 c8 | g8 f8 ef8 c8~ c2 | r4 c''4 a8 g8 f8 d8 | c8 bf8 af8 bf8~ bf8 c8 d4 |

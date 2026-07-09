@@ -30,7 +30,9 @@ Soon it will be Christ -- mas Day. __
 }
 
 refrainLyricsTwo = \lyricmode {
-_ _ street -- lights, ev -- en stop -- lights
+(Strings of)
+
+street -- lights, ev -- en stop -- lights
 blink a bright red and green
 as the shop -- pers rush home with their trea -- sures. __
 Hear the snow crunch,
@@ -69,7 +71,10 @@ refrainMelody = \relative f' {
 
   \partial 4 bf8 g8 |
 
-  \sectNoBreak "A1"
+  \sectNoBarNoBreak "A1"
+  
+  \bar ".|:"
+  \repeat volta 2 {
 
   f4 d4 bf'8 g8 | f4 d4 d'8 c8 | bf4 g4 g4 | g2 c8 bf8 |
   a4 f4 e4 | ef4 f4. ef8 | ef4 d2~ | d4 r4 bf'8 g8 |
@@ -98,7 +103,7 @@ refrainMelody = \relative f' {
 
   a4 a4 bf4 | c2 bf8 a8 | bf4 f2~ | f2 r4 |
 
-  \sect "B2"
+  \sectPageBreak "B2"
 
     <<
       { \xVoiceTwo {
@@ -118,8 +123,7 @@ refrainMelody = \relative f' {
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize bf8
   \endParenthesis \parenthesize g8 |
-
-  \bar "|."
+  }
 }
 
 \include "../Include/refrainonly.ily"

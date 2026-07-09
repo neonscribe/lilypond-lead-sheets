@@ -87,9 +87,9 @@ refrainMelody = \relative f' {
 
   f1 | r4
   \ambitusOff
-  <a c>4_"(Pedal Steel}" <d f>4 <e g>4 |
+  <a, c>4_"(Pedal Steel}" <d f>4 <e g>4 |
 
-  \sectNoBreak "Interlude"
+  \sectPageBreak "Interlude"
 
   \acciaccatura <e g>8 <f a>2 \acciaccatura <e g>8 <f a>4 <a c>4 |
   <g bf>8( <f bf>8) \acciaccatura d8 <e g>4 <c e>4 <a' c>8( <g c>8) |

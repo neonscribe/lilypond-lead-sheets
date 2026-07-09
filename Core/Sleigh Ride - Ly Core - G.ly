@@ -50,7 +50,7 @@ refrainLyricsTwo = \lyricmode {
  _ _ _ _ _ _
  hap -- py feel -- ing noth -- ing in the world can buy,
  when they pass a -- round the cof -- fee and the pump -- kin pie.
- It --'ll near -- ly be like a pic -- ture print by Cur -- ri -- er and
+ It -- 'll near -- ly be like a pic -- ture print by Cur -- ri -- er and
 }
 
 refrainChords = \chordmode {
@@ -118,7 +118,7 @@ refrainMelody = \relative f' {
   >>
   \oneVoice
   } } }
-  \sect "B"
+  \sectNoBreak "B"
 
   %% \key b \major
 
@@ -133,9 +133,10 @@ refrainMelody = \relative f' {
 
   r4 a4 e8 d8 a4 | d4 e8 a8 e4 d8 a8 | d8 e8 a4 d4 a4 | d,4 d'4 d4 d4 |
 
-  \break
+  \xxPageBreak
 
-  \xTextMark \markup{ \bold \box "A3" }
+  \sectNoBar "A3"
+
   \bar ".|:-||"
   \repeat volta 2 {
   d4 e4 d8 b8 g4 | a4 b4 a8 fs8 e4 | d1~ | d4 e4 fs4 a4 |
@@ -148,9 +149,7 @@ refrainMelody = \relative f' {
   g,2.\repeatTie fs8 g8 |
   } } }
 
-  \break
-
-  \xTextMark \markup{ \bold \box "C" }
+  \sectNoBreak "C"
 
   \bar ".|:-||"
   \repeat volta 2 {
