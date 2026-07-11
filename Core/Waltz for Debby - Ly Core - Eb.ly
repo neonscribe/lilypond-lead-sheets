@@ -67,22 +67,28 @@ refrainMelody = \relative f' {
 
   \bar ".|:"
   \repeat volta 2 {
-  bf2. | ef,2. | af2. | d,2. | g2.~ | g2. | r4 f4 ef4 | d4 ef4 f4 | g2 f4 | ef4 f4 g4 |
+  bf2. | ef,2. | af2. | d,2. | g2.~ | g2. | r4 f4 ef4 | d4 ef4 f4 |
+  \break
+  g2 f4 | ef4 f4 g4 |
   \alternative { \volta 1,3 {
   af4 af g4 | f4 g4 af4 |
   \textToCoda
   bf2.~ | bf2.~ | bf2.~ | bf2. |
+  \break
   } \volta 2 {
   a2 g4 | fs4 g4 a4 |
   } } }
 
-  b2.~ | b2.~ | b2.~ | b2. | c2.~ | c2 bf4 |
+  b2.~ | b2.~ | b2.~ | b2. |
+  \xPageBreak
+  c2.~ | c2 bf4 |
   c2.~ | c2 bf4 | c4 bf4 af4 | g2 d4 | f2 ef4 | c'4 bf4 af4 |
   g2 af4 | g2 d4 | ef4 g4 bf4 | d4 ef4 c4 |
   bf2.~ | bf2.~ | bf2.~ | bf2. \daCapo |
 
   \bar "||-||"
 
+  \xPageBreak
   \textCodaBreak
 
   c2. ~ | c2. | r4 d4 c4 | d4 c4 d4 | bf2.~ | bf2. | r4 bf4 af4 |

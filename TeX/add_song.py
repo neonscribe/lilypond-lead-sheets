@@ -3,7 +3,7 @@ from anyascii import anyascii
 
 ## add a song to a book file in the correct alphabetical position
 ## check to see if it's already there!
-## build a title
+## supply a title or build a title
 ## if file is "name - Ly - XX Standard Key" then title is "name - XX"
 ## if book has Bb in the name, key becomes Concert Key (whole step lower) to Given Key for Bb
 ## if book has Eb in the name, key becomes Concert Key (minor third higher) to Given Key for Eb
@@ -40,3 +40,13 @@ from anyascii import anyascii
 
 ## if there are Baritone Voice wrappers, they go in Baritone Voice Book.
 ## Likewise Bass for Baritone Voice, Bb for Baritone Voice, Eb for Baritone Voice
+
+def make_song_name(wrapper_file, book_file):
+    wrapper_dict = get_wrapper_dict(wrapper_file)
+    core_dict = get_core_dict(wrapper_dict["core_file"])
+    core_title = core_dict["title"]
+    wrapper_subtitle = wrapper_dict["subtitle"]
+    
+
+
+def add_song(book_file, wrapper_file, name = make_song_name(wrapper_file, book_file)):
