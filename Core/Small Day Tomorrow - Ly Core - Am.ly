@@ -42,8 +42,7 @@ till to -- mor -- row.
 We can swing till broad day -- light, __
 I've got a small __ day to -- mor -- row. __
 
-Hon -- ey Chile, to -- night's the night,
-and there's a car I can bor -- row till day af -- ter to -- mor -- row.
+till day af -- ter to -- mor -- row.
 We can swing right out of sight; we've got a big night and a small __
 day to -- mor -- row. __
 }
