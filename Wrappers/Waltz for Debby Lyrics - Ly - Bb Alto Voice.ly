@@ -6,4 +6,4 @@ subtitle = "Alto Voice Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-\include "../Core/Waltz for Debby - Ly Core - Eb.ly"
+\include "../Core/Waltz for Debby Lyrics - Ly Core - Eb.ly"

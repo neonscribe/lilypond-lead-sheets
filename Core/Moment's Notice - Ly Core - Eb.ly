@@ -53,7 +53,8 @@ refrainMelody = \relative f' {
   \break
   g1 | f1 | ef2 f2 | g2 f4. ef8 | r1^"(Fill)" | r1 |
 
-  \sectPageBreak "Head"
+  \xxPageBreak
+  \sectNoBarSegno "Head"
 
   \bar ".|:-||"
   \repeat volta 2 {

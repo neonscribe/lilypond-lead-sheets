@@ -6,4 +6,4 @@ subtitle = "Standard Key for Viola"
 whatKey = ef,
 whatClef = "alto"
 
-\include "../Core/Waltz for Debby - Ly Core - Eb.ly"
+\include "../Core/Waltz for Debby Lyrics - Ly Core - Eb.ly"

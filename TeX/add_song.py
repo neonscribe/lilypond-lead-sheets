@@ -47,6 +47,16 @@ def make_song_name(wrapper_file, book_file):
     core_title = core_dict["title"]
     wrapper_subtitle = wrapper_dict["subtitle"]
     
+    line = wrapper_file.strip()
+    if not line:
+        sys.exit(f"{wrapper_file} invalid file name")
+    if 
+    match = re.search('(.+) - Ly - ([^ ]+ Standard Key', line)
+        if match:
+            return f"{match.group(1)} - {match.group(2)}"
+        
+    
+    
 
 
 def add_song(book_file, wrapper_file, name = make_song_name(wrapper_file, book_file)):

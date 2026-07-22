@@ -34,7 +34,7 @@ with all their big deals,
 are gon -- na need their sleep,
 but I'm a drop -- out
 who'd ra -- ther cop out
-Than run with all the sheep. __
+than run with all the sheep. __
 
 Hon -- ey Chile, to -- night's the night,
 and there's a car I can bor -- row

@@ -4,7 +4,7 @@ songID = "2026-06-01T22:16:57.800888Z"
 
 \include "../Include/lead-sheets.ily"
 
-headerTitle = "Waltz for Debby"
+headerTitle = "Waltz for Debby (Lyrics)"
 headerSubtitle = \subtitle
 headerPoet = "Gene Lees"
 headerComposer = "Bill Evans"
@@ -40,7 +40,7 @@ and her
 prince and her sil -- ly old
 }
 
-refrainChords = \chordmode {
+refrainJazzFakeChords = \chordmode {
   g2.:m7 c2.:m7 f2.:m7 bf2.:7 g2.:7 g2:m7.5- c4:7 f2.:7 bf2.:7 ef2.:7 af2.:maj7
 
   f2.:m7.5- bf2:7 bf4:7/af g2.:m7 c2.:7 f2.:m7 bf2.:7
@@ -54,6 +54,8 @@ refrainChords = \chordmode {
   g2.:m7 c2:7.5- c4:7 a2.:m7 d2.:7 g2.:m7 ef2:11 ef4:7 af2.:maj7
   df2.:9 c2.:m c2.:m7/bf f2.:7/a af2.:dim7 ef2.:6/g gf2.:dim7 f2.:m7 bf2:9 bf4:7.9- ef2. ef2.:6.9
 }
+
+refrainChords = \refrainJazzFakeChords
 
 refrainKey = ef
 
