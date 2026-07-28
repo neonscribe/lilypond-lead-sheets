@@ -6,6 +6,6 @@
 
 subtitle = "Jill Barber Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Petite Fleur - Ly Core - Gm.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Dinah Washington Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Smoke Gets in Your Eyes - Ly Core - Eb.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Sarah McLachlan Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Rainbow Connection - Ly Core - G.ly"

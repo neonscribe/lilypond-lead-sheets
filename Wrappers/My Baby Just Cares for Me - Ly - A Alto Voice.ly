@@ -6,7 +6,7 @@
 
 subtitle = "Nina Simone Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

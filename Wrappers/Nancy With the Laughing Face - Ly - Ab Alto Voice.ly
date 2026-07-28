@@ -6,6 +6,6 @@
 
 subtitle = "Karrin Allyson Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Nancy With the Laughing Face - Ly Core - Eb.ly"

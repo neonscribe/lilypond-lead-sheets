@@ -6,6 +6,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Tea for Two - Ly Core - Ab.ly"

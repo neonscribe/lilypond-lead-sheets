@@ -6,7 +6,7 @@
 
 subtitle = "Diana Krall Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

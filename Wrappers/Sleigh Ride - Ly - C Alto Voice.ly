@@ -6,6 +6,6 @@
 
 subtitle = "The Ronettes, Mariah Carey Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Sleigh Ride - Ly Core - G.ly"

@@ -4,6 +4,6 @@
 
 subtitle = "Nancy Wilson Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Folks Who Live on the Hill - Ly Core - C.ly"

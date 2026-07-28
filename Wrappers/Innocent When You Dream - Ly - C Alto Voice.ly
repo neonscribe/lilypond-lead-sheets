@@ -4,6 +4,6 @@
 
 subtitle = "Lisa Moscatiello Key"
 whatKey = c'
-whatClef = "treble"
+whatClef = "lowtreble"
 
 \include "../Core/Innocent When You Dream - Ly Core - F.ly"

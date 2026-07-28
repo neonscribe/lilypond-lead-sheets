@@ -6,6 +6,6 @@
 
 subtitle = "The Andrews Sisters, Bing Crosby Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Sleigh Ride - Ly Core - G.ly"

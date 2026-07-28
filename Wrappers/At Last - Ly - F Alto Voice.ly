@@ -6,6 +6,6 @@
 
 subtitle = "Etta James Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/At Last - Ly Core - C.ly"

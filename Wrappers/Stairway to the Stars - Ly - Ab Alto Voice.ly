@@ -6,6 +6,6 @@
 
 subtitle = "Ella Fitzgerald (with Chick Webb) Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Stairway to the Stars - Ly Core - C.ly"

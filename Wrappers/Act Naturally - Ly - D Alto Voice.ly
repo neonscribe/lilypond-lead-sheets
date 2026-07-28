@@ -6,6 +6,6 @@
 
 subtitle = "Jody Miller Key"
 whatKey = d,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Act Naturally - Ly Core - G.ly"

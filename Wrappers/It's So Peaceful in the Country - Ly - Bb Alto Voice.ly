@@ -6,6 +6,6 @@
 
 subtitle = "Lucy Yeghiazaryan Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/It's So Peaceful in the Country - Ly Core - F.ly"

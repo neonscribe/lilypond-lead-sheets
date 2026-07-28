@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Cover the Waterfront - Ly Core - G.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I'm a Fool to Want You - Ly Core - Em.ly"

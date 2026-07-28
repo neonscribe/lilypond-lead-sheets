@@ -6,6 +6,6 @@
 
 subtitle = "Rosemary Clooney Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Young at Heart - Ly Core - Bb.ly"

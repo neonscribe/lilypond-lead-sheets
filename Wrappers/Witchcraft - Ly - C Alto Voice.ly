@@ -6,6 +6,6 @@
 
 subtitle = "Chris Connor Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Witchcraft - Ly Core - F.ly"

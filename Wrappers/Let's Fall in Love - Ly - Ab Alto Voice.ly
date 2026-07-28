@@ -6,6 +6,6 @@
 
 subtitle = "Ella Fitzgerald, Shirley Bassey Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Let's Fall in Love - Ly Core - C.ly"

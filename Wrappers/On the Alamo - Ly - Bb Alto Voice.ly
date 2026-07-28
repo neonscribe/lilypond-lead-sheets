@@ -6,6 +6,6 @@
 
 subtitle = "Betty Carter Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/On the Alamo - Ly Core - F.ly"

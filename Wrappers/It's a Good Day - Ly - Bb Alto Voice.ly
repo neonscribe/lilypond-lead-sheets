@@ -6,6 +6,6 @@
 
 subtitle = "Patti Page Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/It's a Good Day - Ly Core - Eb.ly"

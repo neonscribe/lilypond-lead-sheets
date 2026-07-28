@@ -4,6 +4,6 @@
 
 subtitle = "Helen Humes Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Home When Shadows Fall - Ly Core - F.ly"

@@ -4,6 +4,6 @@
 
 subtitle = "Julie London, Shirley Horn Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/You Stepped Out of a Dream - Ly Core - C.ly"

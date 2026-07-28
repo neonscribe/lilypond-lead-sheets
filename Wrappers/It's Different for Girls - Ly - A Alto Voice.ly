@@ -6,6 +6,6 @@
 
 subtitle = "Galen Ayers (with Siskin) Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/It's Different for Girls - Ly Core - Fs.ly"

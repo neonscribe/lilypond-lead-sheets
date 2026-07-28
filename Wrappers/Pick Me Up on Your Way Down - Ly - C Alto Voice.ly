@@ -6,6 +6,6 @@
 
 subtitle = "Wanda Jackson, Martina McBride Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Pick Me Up on Your Way Down - Ly Core - A.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Judy Garland, Lena Horne Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Get the Blues When It Rains - Ly Core - G.ly"

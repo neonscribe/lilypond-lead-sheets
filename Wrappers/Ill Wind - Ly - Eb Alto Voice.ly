@@ -6,6 +6,6 @@
 
 subtitle = "Lena Horne, Ella Fitzgerald Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Ill Wind - Ly Core - Bb.ly"

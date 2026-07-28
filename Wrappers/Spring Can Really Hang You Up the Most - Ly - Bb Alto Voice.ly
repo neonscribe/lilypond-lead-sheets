@@ -6,6 +6,6 @@
 
 subtitle = "Jackie Cain (with Jackie & Roy), June Christy, Blossom Dearie, Norah Jones Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Spring Can Really Hang You Up the Most - Ly Core - C.ly"

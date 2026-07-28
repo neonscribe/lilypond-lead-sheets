@@ -6,6 +6,6 @@
 
 subtitle = "Connie Francis Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Please Don't Talk About Me When I'm Gone - Ly Core - Eb.ly"

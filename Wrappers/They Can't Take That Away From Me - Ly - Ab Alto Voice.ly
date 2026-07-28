@@ -6,6 +6,6 @@
 
 subtitle = "Chris Connor Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/They Can't Take That Away From Me - Ly Core - F.ly"

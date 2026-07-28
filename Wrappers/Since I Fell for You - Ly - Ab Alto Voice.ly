@@ -6,6 +6,6 @@
 
 subtitle = "Ella Johnson (with Buddy Johnson) Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Since I Fell for You - Ly Core - Eb.ly"

@@ -5,8 +5,8 @@
 \include "english.ly"
 
 subtitle = "Teddy Thompson Key"
-whatKey = gf
-whatClef = "treble"
+whatKey = gf,
+whatClef = "treble_8"
 
 keepWeirdAccidentals = ##t
 

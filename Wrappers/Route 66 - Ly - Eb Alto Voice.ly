@@ -6,6 +6,6 @@
 
 subtitle = "Dottie Smith (with Louis Jordan) Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Route 66 - Ly Core - F.ly"

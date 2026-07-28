@@ -6,6 +6,6 @@
 
 subtitle = "Patti Page Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Let's Get Away From It All - Ly Core - Eb.ly"

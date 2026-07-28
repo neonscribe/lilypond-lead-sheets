@@ -4,6 +4,6 @@
 
 subtitle = "Carmen McRae Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Yardbird Suite - Ly Core - C.ly"

@@ -31,6 +31,38 @@ The flat foot floo -- gie with the floy floy,
 floy doy, floy doy, floy doy, floy doy.
 }
 
+refrainFirehouseChordsAFlat = \chordmode {
+  s8
+  af2 af2/c df2 ef2:7 af1 e2:7 ef2:7
+  af2 af2/c df2 ef2:7 af2 df2:7 af2 ef2:7
+  af2 af2/c df2 ef2:7 af1 e2:7 ef2:7
+  af2 af2/c df2 ef2:7 af2 df2:7 af2 ef2:7
+  af2:7 ef2:m7 af1:7 df1:7 df4 df4:7 c4:7 b4:7
+  bf2:7 f2:m7 bf1:7 ef2:7 bf2:7 e2:7 ef2:7
+  af2 af2/c df2 ef2:7 af1 e2:7 ef2:7
+  af2 af2/c df2 ef2:7 af2 df2:7 af2 ef2:7
+}
+
+refrainDecadeSeriesChordsAFlat = \chordmode {
+  s8
+  af2 f2:m7.5- bf4.:m7 ef8:9 ef2:9
+  af2 f2:m7.5- e4.:9 ef8:9 ef2:9
+  af2 f2:m7.5- bf4.:m7 b2:dim7 af8:6
+  af4.:6 b2:dim7 bf8:m7 bf4:m7 b8:dim7 af8:6 af2:6
+
+  af2 f2:m7.5- bf4.:m7 ef8:9 ef2:9
+  af2 f2:m7.5- e4.:9 ef8:9 ef2:9
+  af2 f2:m7.5- bf4.:m7 b2:dim7 af8:6
+  af4.:6 b2:dim7 bf8:m7 bf4:m7 b8:dim7 af8:6 af2:6
+
+  af1:7 af1:7 df1:6 df1:6 bf1:7 bf1:7 ef2:7 df2 e2:7 ef2:7
+
+  af2 f2:m7.5- bf4.:m7 ef8:9 ef2:9
+  af2 f2:m7.5- e4.:9 ef8:9 ef2:9
+  af2 f2:m7.5- bf4.:m7 b2:dim7 af8:6
+  af4.:6 b2:dim7 bf8:m7 bf4:m7 b8:dim7 af8:6 af2:6
+}
+
 refrainChords = \chordmode {
   s8
 
@@ -76,7 +108,7 @@ refrainMelody = \relative f' {
   g4 f4 g4 bf4 | g4 g2. | g4 f4 g4 bf8 g8~ | g1 |
   a4 g4 a4 c4 | b4 b2. | c4 c,4 d4 f4 | af4 f8 g8~ g4. c,8 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   c'4 bf4 af8 f8 d8 c8 | f4. d8~ d4 r8 c8 | c'4 bf4 af8 f8 d8 c8 | af'4. g8~ g4 r8 c,8 |
   c'4 bf4 af8 f8 d8 c8 | f4. f8~( f8 c8) f8 f8~( | f8 c8) f8 f8~( f8 c8) f8 f8~( | f8 c8) f8 f8~ f4 r4 |

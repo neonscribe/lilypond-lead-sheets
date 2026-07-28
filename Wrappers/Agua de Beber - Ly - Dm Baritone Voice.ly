@@ -5,8 +5,8 @@
 \include "english.ly"
 
 subtitle = "Al Jarreau Key"
-whatKey = d
-whatClef = "treble"
+whatKey = d,
+whatClef = "treble_8"
 
 lyricsLanguage = "english"
 

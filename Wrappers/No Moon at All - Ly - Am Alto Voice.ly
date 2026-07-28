@@ -4,6 +4,6 @@
 
 subtitle = "Jeri Southern Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/No Moon at All - Ly Core - Dm.ly"

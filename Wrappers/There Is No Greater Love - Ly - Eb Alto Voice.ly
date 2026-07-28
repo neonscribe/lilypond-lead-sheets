@@ -4,6 +4,6 @@
 
 subtitle = "Billie Holiday Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/There Is No Greater Love - Ly Core - Bb.ly"

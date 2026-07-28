@@ -6,6 +6,6 @@
 
 subtitle = "Sarah Vaughan Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Call Me - Ly Core - C.ly"

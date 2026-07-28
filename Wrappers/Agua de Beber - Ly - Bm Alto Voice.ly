@@ -6,7 +6,7 @@
 
 subtitle = "Sophie Milman Key"
 whatKey = b,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 lyricsLanguage = "english"
 

@@ -6,6 +6,6 @@
 
 subtitle = "Ernestine Anderson, Stacey Kent Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My Ship - Ly Core - F.ly"

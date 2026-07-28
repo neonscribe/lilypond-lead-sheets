@@ -6,6 +6,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/You Don't Know What Love Is - Ly Core - Fm.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Diana Ross, Etta Jones Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Good Morning Heartache - Ly Core - F.ly"

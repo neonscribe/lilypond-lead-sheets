@@ -6,6 +6,6 @@
 
 subtitle = "Annie Ross Key"
 whatKey = c,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Twisted - Ly Core - C.ly"

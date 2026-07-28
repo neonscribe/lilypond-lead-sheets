@@ -6,6 +6,6 @@
 
 subtitle = "Jo Stafford, Etta Jones Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Fools Rush In - Ly Core - C.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Rosemary Clooney Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/A Nightingale Sang in Berkeley Square - Ly Core - Eb.ly"

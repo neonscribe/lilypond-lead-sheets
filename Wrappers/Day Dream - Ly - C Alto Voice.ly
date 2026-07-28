@@ -6,7 +6,7 @@
 
 subtitle = "June Christy, Ella Fitzgerald, Linda Ronstadt Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

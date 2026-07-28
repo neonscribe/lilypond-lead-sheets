@@ -6,6 +6,6 @@
 
 subtitle = "June Christy, Lady Gaga Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Get Happy - Ly Core - F.ly"

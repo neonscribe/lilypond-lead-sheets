@@ -6,6 +6,6 @@
 
 subtitle = "Keely Smith, Linda Ronstadt, Patti LuPone Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Guess I'll Hang My Tears Out to Dry - Ly Core - C.ly"

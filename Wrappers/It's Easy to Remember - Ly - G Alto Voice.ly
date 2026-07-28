@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday, Doris Day Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/It's Easy to Remember - Ly Core - Eb.ly"

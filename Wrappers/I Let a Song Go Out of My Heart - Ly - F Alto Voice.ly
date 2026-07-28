@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Let a Song Go Out of My Heart - Ly Core - Eb.ly"

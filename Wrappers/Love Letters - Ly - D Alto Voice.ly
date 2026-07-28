@@ -6,6 +6,6 @@
 
 subtitle = "Joni James Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Love Letters - Ly Core - G.ly"

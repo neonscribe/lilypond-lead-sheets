@@ -6,6 +6,6 @@
 
 subtitle = "Jo Stafford Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Let's Get Away From It All - Ly Core - Eb.ly"

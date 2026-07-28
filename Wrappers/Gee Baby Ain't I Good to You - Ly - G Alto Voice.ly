@@ -6,7 +6,7 @@
 
 subtitle = "Alto Voice Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

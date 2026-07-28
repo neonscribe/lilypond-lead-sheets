@@ -6,7 +6,7 @@
 
 subtitle = "Wanda Jackson Key"
 whatKey = g
-whatClef = "treble"
+whatClef = "lowtreble"
 
 keepWeirdAccidentals = ##t
 

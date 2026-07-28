@@ -6,6 +6,6 @@
 
 subtitle = "Monica Zetterlund Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/All Alone (Left Alone) - Ly Core - Dm.ly"

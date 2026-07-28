@@ -6,6 +6,6 @@
 
 subtitle = "Carmen McRae (with Cal Tjader) Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Besame Mucho - Ly Core - Dm.ly"

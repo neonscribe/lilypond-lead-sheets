@@ -5,8 +5,8 @@
 \include "english.ly"
 
 subtitle = "Ernest Tubb, Hank Thompson, Jim Reeves Key, Simple Chords"
-whatKey = c'
-whatClef = "treble"
+whatKey = c
+whatClef = "treble_8"
 
 alternateChords = "simple"
 

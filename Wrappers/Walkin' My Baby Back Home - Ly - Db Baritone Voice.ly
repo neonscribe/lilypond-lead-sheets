@@ -5,8 +5,8 @@
 \include "english.ly"
 
 subtitle = "Nat King Cole, John Pizzarelli Key"
-whatKey = df
-whatClef = "treble"
+whatKey = df,
+whatClef = "treble_8"
 
 singerGender = "female"
 

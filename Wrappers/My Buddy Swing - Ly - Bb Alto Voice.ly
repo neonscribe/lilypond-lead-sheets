@@ -6,6 +6,6 @@
 
 subtitle = "Nancy Sinatra Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My Buddy Swing - Ly Core - G.ly"

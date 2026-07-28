@@ -6,6 +6,6 @@
 
 subtitle = "Annette Hanshaw Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Am I Blue - Ly Core - F.ly"

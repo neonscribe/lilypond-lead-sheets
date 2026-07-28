@@ -6,6 +6,6 @@
 
 subtitle = "Carmen McRae Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My One and Only Love - Ly Core - C.ly"

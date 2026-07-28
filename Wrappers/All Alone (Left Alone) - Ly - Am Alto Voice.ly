@@ -6,6 +6,6 @@
 
 subtitle = "Kendra Shank Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/All Alone (Left Alone) - Ly Core - Dm.ly"

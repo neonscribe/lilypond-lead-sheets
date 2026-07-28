@@ -6,6 +6,6 @@
 
 subtitle = "Mary Martin, Peggy Lee, Ella Fitzgerald, Eydie Gormé Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Let's Do It - Ly Core - Bb.ly"

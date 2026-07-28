@@ -4,6 +4,6 @@
 
 subtitle = "Dakota Staton Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/East of the Sun - Ly Core - G.ly"

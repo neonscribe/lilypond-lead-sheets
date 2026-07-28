@@ -6,6 +6,6 @@
 
 subtitle = "Rosemary Clooney, June Christy Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/When You Wish Upon a Star - Ly Core - C.ly"

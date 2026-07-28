@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday, Peggy Lee, Carmen McRae Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Travlin Light - Ly Core - F.ly"

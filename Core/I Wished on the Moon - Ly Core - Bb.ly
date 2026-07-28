@@ -59,28 +59,24 @@ refrainMelody = \relative f' {
 
   \partial 4 e4 |
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   \tuplet 3/2 { f4 gf4 c,4 } f2~ | f4 g4 \tuplet 3/2 { a4 bf4 c4 } | bf4. a8 g2~ | g1 |
-  \break
   \tuplet 3/2 { f4 gf4 c,4 } f2~ | f4 g4 \tuplet 3/2 { a4 bf4 c4 } | cs4. ef8 d2~ | d2 c2 |
 
   \sect "B"
 
   b4. d8 c4. bf8 | a4. c8 bf4. af8 | g2 bf4 c,4~ | c2. d4 |
-  \break
   f4. f8 f2~ | f2 a2 | f1~ | f2. d4 |
 
   \sect "A2"
 
   \tuplet 3/2 { f4 gf4 c,4 } f2~ | f4 g4 \tuplet 3/2 { a4 bf4 c4 } | bf4. a8 g2~ | g1 |
-  \break
   \tuplet 3/2 { f4 gf4 c,4 } f2~ | f4 g4 \tuplet 3/2 { a4 bf4 c4 } | cs4. ef8 d2~ | d2 c2 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   b4. d8 c4. bf8 | a4. c8 bf4. af8 | g2 e'4 gf,4~ | gf2. c,4 |
-  \break
   \tuplet 3/2 { f4 gf4 c,4 } f2~ | f2 df'2 | bf1 | r1 |
 
   \bar "|."

@@ -6,6 +6,6 @@
 
 subtitle = "Julie London, Susie Arioli Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Travlin Light - Ly Core - F.ly"

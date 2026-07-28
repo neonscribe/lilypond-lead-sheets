@@ -4,6 +4,6 @@
 
 subtitle = "Diana Krall Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Autumn in New York - Ly Core - F.ly"

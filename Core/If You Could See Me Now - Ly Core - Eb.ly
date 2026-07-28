@@ -57,12 +57,11 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Bill Evans 1965]" 62
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectNoBar "A1,A2"
 
   \bar ".|:"
   \repeat volta 2 {
   r8 d8 ef8 g8 bf8 d8 c8 g8 | bf8 a8 af8 bf8 f2 | r8 d8 ef8 g8 bf8 d8 c8 g8 |
-  \break
    bf8 a8 af8 bf8 f4. g8 | bf4 g8 bf8 b8 e,8 ds4 | c'4 af8 f8 d'4. bf8 |
   \break
   \alternative { \volta 1 {
@@ -70,17 +69,17 @@ refrainMelody = \relative f' {
   } \volta 2 {
   ef'1~ | ef2 r4 ef4 |
   } } }
-  \sect "B"
+  \bar "||-:|."
+
+  \sectNoBar "B"
 
   d4 d8 d8 d4 ef8 c8 | \tuplet 3/2 { b4 b4 b4 } \tuplet 3/2 { b4 c4 d4 } |
   a4 a8 a8 a4 b8 c8 | d2. e,4 |
-  \break
   b'8 a8 g8 a8 bf8 c8 d8 ef8 | f2 r8 d8 c8 bf8 | ef2 r8 c8 bf8 a8 | bf1 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   r8 d,8 ef8 g8 bf8 d8 c8 g8 | bf8 a8 af8 bf8 f2 | r8 d8 ef8 g8 bf8 d8 c8 g8 | bf8 a8 af8 bf8 f4. g8 |
-  \break
   bf4 g8 bf8 b8 e,8 ds4 | c'4 af8 c8 d4. bf8 | ef1 | r1 |
 
   \bar "|."

@@ -6,6 +6,6 @@
 
 subtitle = "Chris Connor Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Where Are You - Ly Core - G.ly"

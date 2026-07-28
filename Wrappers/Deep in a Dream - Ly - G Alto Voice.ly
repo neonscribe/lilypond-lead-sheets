@@ -6,6 +6,6 @@
 
 subtitle = "Patti Page Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Deep in a Dream - Ly Core - C.ly"

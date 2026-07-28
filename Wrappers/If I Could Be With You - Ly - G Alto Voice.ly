@@ -6,6 +6,6 @@
 
 subtitle = "Ruth Etting Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/If I Could Be With You - Ly Core - Eb.ly"

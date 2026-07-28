@@ -4,6 +4,6 @@
 
 subtitle = "Peggy Lee, Ella Fitzgerald, Carmen McRae Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/What's New - Ly Core - C.ly"

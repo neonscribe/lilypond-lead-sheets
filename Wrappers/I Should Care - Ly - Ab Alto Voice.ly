@@ -4,6 +4,6 @@
 
 subtitle = "Jo Stafford, Jane Monheit Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Should Care - Ly Core - C.ly"

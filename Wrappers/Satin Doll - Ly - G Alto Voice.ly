@@ -4,6 +4,6 @@
 
 subtitle = "Nancy Wilson, Ella Fitzgerald, Blossom Dearie Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Satin Doll - Ly Core - C.ly"

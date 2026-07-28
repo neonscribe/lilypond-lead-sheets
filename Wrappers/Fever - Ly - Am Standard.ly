@@ -6,6 +6,6 @@
 
 subtitle = "Peggy Lee Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/Fever - Ly Core - Am.ly"

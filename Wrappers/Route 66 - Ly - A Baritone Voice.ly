@@ -5,7 +5,7 @@
 \include "english.ly"
 
 subtitle = "Mick Jagger (with the Rolling Stones) Key"
-whatKey = a
-whatClef = "treble"
+whatKey = a,
+whatClef = "treble_8"
 
 \include "../Core/Route 66 - Ly Core - F.ly"

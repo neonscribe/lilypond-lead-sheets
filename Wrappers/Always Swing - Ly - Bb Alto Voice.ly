@@ -6,6 +6,6 @@
 
 subtitle = "Patsy Cline Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Always Swing - Ly Core - F.ly"

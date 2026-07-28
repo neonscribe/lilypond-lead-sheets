@@ -6,6 +6,6 @@
 
 subtitle = "Brenda Lee Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Jingle Bell Rock - Ly Core - C.ly"

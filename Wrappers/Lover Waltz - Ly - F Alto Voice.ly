@@ -6,6 +6,6 @@
 
 subtitle = "Margaret Whiting Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Lover Waltz - Ly Core - C.ly"

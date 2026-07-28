@@ -6,6 +6,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = e,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Russian Lullaby Swing - Ly Core - Dm.ly"

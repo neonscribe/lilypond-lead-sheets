@@ -6,6 +6,6 @@
 
 subtitle = "Annie Ross Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/This Time the Dream's on Me - Ly Core - G.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Teri Thornton Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Devil May Care - Ly Core - Gm.ly"

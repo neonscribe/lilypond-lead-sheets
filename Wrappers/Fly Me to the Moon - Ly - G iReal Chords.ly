@@ -6,7 +6,7 @@
 
 subtitle = "Peggy Lee Key, iReal Pro Chords"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "treble"
 
 alternateChords = "ireal"
 

@@ -6,6 +6,6 @@
 
 subtitle = "Cleo Laine Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Jeepers Creepers - Ly Core - Bb.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Dinah Shore, Rosemary Clooney Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Get Along Without You Very Well - Ly Core - Bb.ly"

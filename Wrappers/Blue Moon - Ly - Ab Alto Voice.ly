@@ -6,7 +6,7 @@
 
 subtitle = "Billie Holiday Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 alternateChords = "557"
 

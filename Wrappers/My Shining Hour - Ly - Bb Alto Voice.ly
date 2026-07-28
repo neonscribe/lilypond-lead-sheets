@@ -6,6 +6,6 @@
 
 subtitle = "June Christy, Ella Fitzgerald Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My Shining Hour - Ly Core - Eb.ly"

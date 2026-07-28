@@ -6,6 +6,6 @@
 
 subtitle = "Andrews Sisters Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Straighten Up and Fly Right - Ly Core - Ab.ly"

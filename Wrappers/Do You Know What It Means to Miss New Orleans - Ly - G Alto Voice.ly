@@ -6,6 +6,6 @@
 
 subtitle = "Marilyn Maxwell Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Do You Know What It Means to Miss New Orleans - Ly Core - C.ly"

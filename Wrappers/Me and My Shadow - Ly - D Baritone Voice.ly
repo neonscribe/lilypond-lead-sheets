@@ -5,7 +5,7 @@
 \include "english.ly"
 
 subtitle = "Frank Sinatra and Sammy Davis, Jr, Low Rawls Key"
-whatKey = d
-whatClef = "treble"
+whatKey = d,
+whatClef = "treble_8"
 
 \include "../Core/Me and My Shadow - Ly Core - Eb.ly"

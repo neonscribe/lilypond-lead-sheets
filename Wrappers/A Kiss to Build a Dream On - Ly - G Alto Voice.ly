@@ -6,6 +6,6 @@
 
 subtitle = "Vera Lynn Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/A Kiss to Build a Dream On - Ly Core - C.ly"

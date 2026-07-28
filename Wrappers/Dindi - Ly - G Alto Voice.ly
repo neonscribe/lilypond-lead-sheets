@@ -6,6 +6,6 @@
 
 subtitle = "Denise Perrier Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Dindi - Ly Core - Eb.ly"

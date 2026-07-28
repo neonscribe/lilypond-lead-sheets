@@ -4,6 +4,6 @@
 
 subtitle = "Dusty Springfield Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Black Orpheus - Ly Core - Am.ly"

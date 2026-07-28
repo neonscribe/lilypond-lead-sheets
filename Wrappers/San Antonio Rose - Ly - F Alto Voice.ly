@@ -6,6 +6,6 @@
 
 subtitle = "Jo Stafford Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/San Antonio Rose - Ly Core - Bb.ly"

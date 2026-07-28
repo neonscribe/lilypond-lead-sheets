@@ -6,6 +6,6 @@
 
 subtitle = "Nina Simone, Diana Krall Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Look of Love - Ly Core - F.ly"

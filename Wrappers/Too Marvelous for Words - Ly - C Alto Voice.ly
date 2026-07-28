@@ -6,6 +6,6 @@
 
 subtitle = "Ella Fitzgerald, Jeri Southern Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Too Marvelous for Words - Ly Core - Ab.ly"

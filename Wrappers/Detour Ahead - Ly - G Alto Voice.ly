@@ -6,7 +6,7 @@
 
 subtitle = "Anita O'Day, Irene Kral Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

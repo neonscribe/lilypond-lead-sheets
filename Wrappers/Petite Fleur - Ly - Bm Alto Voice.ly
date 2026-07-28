@@ -6,7 +6,7 @@
 
 subtitle = "Petula Clark Key"
 whatKey = b,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 petulaLyrics = ##t
 

@@ -4,6 +4,6 @@
 
 subtitle = "Ivie Anderson (with Duke Ellington) Key"
 whatKey = bf
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Mood Indigo - Ly Core - Ab.ly"

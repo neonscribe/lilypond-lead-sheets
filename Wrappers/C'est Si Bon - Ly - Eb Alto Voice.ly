@@ -4,7 +4,7 @@
 
 subtitle = "Eartha Kitt Key in French"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 lyricsLanguage = "french"
 

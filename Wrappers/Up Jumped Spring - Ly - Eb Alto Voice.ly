@@ -4,6 +4,6 @@
 
 subtitle = "Cheryl Conley Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Up Jumped Spring - Ly Core - Bb.ly"

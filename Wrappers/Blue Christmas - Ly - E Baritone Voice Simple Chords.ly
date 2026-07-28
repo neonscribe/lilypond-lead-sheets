@@ -5,8 +5,8 @@
 \include "english.ly"
 
 subtitle = "Elvis Presley, Brian Setzer Key, Simple Chords"
-whatKey = e
-whatClef = "treble"
+whatKey = e,
+whatClef = "treble_8"
 
 alternateChords = "simple"
 

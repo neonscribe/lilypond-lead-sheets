@@ -6,6 +6,6 @@
 
 subtitle = "Ruth Etting, Billie Holiday, Ella Fitzgerald Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/More Than You Know - Ly Core - C.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Karen Carpenter Key"
 whatKey = b,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Sleigh Ride - Ly Core - G.ly"

@@ -4,6 +4,6 @@
 
 subtitle = "Adele Key"
 whatKey = bf
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Make You Feel My Love - Ly Core - Bb.ly"

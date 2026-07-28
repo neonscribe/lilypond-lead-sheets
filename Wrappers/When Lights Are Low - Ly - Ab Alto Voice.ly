@@ -6,6 +6,6 @@
 
 subtitle = "Catherine Russell, Helen Merrill Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/When Lights Are Low - Ly Core - Eb.ly"

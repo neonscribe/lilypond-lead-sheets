@@ -6,6 +6,6 @@
 
 subtitle = "Judy Niemack Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Well You Needn't - Ly Core - F.ly"

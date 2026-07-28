@@ -6,6 +6,6 @@
 
 subtitle = "Frances Langford (with Tommy Dorsey) Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I've Got You Under My Skin - Ly Core - Eb.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Cheek to Cheek - Ly Core - C.ly"

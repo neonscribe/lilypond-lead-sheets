@@ -4,6 +4,6 @@
 
 subtitle = "Ruth Etting Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Ain't Misbehavin' - Ly Core - C.ly"

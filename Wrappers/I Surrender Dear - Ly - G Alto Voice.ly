@@ -6,6 +6,6 @@
 
 subtitle = "Aretha Franklin Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Surrender Dear - Ly Core - C.ly"

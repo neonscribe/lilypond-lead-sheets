@@ -4,6 +4,6 @@
 
 subtitle = "Joni James Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/In Love In Vain - Ly Core - Eb.ly"

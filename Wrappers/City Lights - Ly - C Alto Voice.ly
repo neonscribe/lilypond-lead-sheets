@@ -6,7 +6,7 @@
 
 subtitle = "Jean Shepard Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

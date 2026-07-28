@@ -5,8 +5,8 @@
 \include "english.ly"
 
 subtitle = "Grady Tate Key, Cowboy Chords"
-whatKey = d
-whatClef = "treble"
+whatKey = d,
+whatClef = "treble_8"
 
 alternateChords = "simple"
 

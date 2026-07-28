@@ -6,6 +6,6 @@
 
 subtitle = "June Christy, Margaret Whiting Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/We Kiss in a Shadow - Ly Core - F.ly"

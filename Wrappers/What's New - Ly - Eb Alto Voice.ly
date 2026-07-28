@@ -4,6 +4,6 @@
 
 subtitle = "Billie Holiday, Julie London Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/What's New - Ly Core - C.ly"

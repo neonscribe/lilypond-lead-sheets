@@ -4,6 +4,6 @@
 
 subtitle = "Linda Ronstadt Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/What's New - Ly Core - C.ly"

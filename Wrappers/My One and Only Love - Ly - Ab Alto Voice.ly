@@ -6,6 +6,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My One and Only Love - Ly Core - C.ly"

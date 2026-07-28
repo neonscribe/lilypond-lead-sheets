@@ -6,6 +6,6 @@
 
 subtitle = "Dolly Houston (with Benny Goodman) Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Why Don't We Do This More Often - Ly Core - Bb.ly"

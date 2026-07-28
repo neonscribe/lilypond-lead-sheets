@@ -4,6 +4,6 @@
 
 subtitle = "Karrin Allyson Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Ask Me Now - Ly Core - Db.ly"

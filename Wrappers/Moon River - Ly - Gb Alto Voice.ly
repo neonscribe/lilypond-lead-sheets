@@ -6,6 +6,6 @@
 
 subtitle = "Audrey Hepburn Key"
 whatKey = gf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Moon River - Ly Core - C.ly"

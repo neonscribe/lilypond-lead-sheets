@@ -4,6 +4,6 @@
 
 subtitle = "Dinah Washington Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Just Friends - Ly Core - G.ly"

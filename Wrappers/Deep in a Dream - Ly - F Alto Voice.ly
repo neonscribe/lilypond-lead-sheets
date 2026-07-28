@@ -6,6 +6,6 @@
 
 subtitle = "k.d. lang Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Deep in a Dream - Ly Core - C.ly"

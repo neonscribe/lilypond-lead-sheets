@@ -6,6 +6,6 @@
 
 subtitle = "Maria Muldaur Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Squeeze Me - Ly Core - Db.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Eartha Kitt, Cyrille Aimée, Connie Evingson Key"
 whatKey = e
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Lazy Afternoon - Ly Core - Am.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Chris Connor, Karrin Allyson Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Spring Can Really Hang You Up the Most - Ly Core - C.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Anita O'Day, Ella Fitzgerald (solo), Sylvia Syms, Susie Arioli Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Can't We Be Friends - Ly Core - F.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Etta Jones Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Late Late Show - Ly Core - Ab.ly"

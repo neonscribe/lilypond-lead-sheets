@@ -6,6 +6,6 @@
 
 subtitle = "Connee Boswell Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Everything I've Got - Ly Core - Eb.ly"

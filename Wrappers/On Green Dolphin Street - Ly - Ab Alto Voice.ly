@@ -4,6 +4,6 @@
 
 subtitle = "Nancy Wilson (with George Shearing) Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/On Green Dolphin Street - Ly Core - C.ly"

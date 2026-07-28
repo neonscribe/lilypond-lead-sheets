@@ -4,6 +4,6 @@
 
 subtitle = "Doris Day, Peggy Lee Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/You Stepped Out of a Dream - Ly Core - C.ly"

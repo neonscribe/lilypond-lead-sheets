@@ -6,6 +6,6 @@
 
 subtitle = "Madeleine Peyroux Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Can't Stop Loving You - Ly Core - B.ly"

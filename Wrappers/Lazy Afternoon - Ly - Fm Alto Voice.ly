@@ -6,6 +6,6 @@
 
 subtitle = "Irene Kral, Jackie Cain (with Jackie and Roy) Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Lazy Afternoon - Ly Core - Am.ly"

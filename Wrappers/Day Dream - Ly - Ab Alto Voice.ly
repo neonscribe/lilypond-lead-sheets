@@ -6,7 +6,7 @@
 
 subtitle = "Marianne Solivan Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

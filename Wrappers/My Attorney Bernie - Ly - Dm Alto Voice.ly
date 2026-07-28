@@ -6,6 +6,6 @@
 
 subtitle = "Connie Evingson Key"
 whatKey = d
-whatClef = "treble"
+whatClef = "lowtreble"
 
 \include "../Core/My Attorney Bernie - Ly Core - Gm.ly"

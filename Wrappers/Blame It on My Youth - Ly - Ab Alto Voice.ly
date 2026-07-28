@@ -6,6 +6,6 @@
 
 subtitle = "Carmen McRae, Karrin Allyson Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Blame It on My Youth - Ly Core - Eb.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Ella Fitzgerald, Sarah Vaughan, Blossom Dearie, Nancy Wilson Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Someone to Watch Over Me - Ly Core - Eb.ly"

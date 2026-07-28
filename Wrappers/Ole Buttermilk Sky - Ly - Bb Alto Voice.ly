@@ -6,6 +6,6 @@
 
 subtitle = "Crystal Gayle Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Ole Buttermilk Sky - Ly Core - Eb.ly"

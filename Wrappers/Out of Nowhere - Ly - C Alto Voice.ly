@@ -4,6 +4,6 @@
 
 subtitle = "Ella Fitzgerald (with Chick Webb) Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Out of Nowhere - Ly Core - G.ly"

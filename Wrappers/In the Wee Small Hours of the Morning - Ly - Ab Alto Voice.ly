@@ -6,7 +6,7 @@
 
 subtitle = "Ella Fitzgerald, Stacey Kent Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

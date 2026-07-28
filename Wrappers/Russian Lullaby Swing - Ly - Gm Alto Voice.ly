@@ -6,6 +6,6 @@
 
 subtitle = "Joan Edwards (with Paul Whiteman) Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Russian Lullaby Swing - Ly Core - Dm.ly"

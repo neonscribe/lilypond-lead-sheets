@@ -6,6 +6,6 @@
 
 subtitle = "Peggy Lee Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Get Along Without You Very Well - Ly Core - Bb.ly"

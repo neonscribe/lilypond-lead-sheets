@@ -6,6 +6,6 @@
 
 subtitle = "LaVergne Smith, Carmen McRae, Diana Krall, Dianne Reeves Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Straighten Up and Fly Right - Ly Core - Ab.ly"

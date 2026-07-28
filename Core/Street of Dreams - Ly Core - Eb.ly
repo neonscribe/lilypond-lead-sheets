@@ -36,18 +36,25 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad or Medium [Stacey Kent 2004]" 120
 
-  \sectNoBarNoBreak "A"
+  \sectNoBar "A"
 
-  g2 \tuplet 3/2 { f4 fs4 g4 } | g2 f8 fs8 fs8 g8 | d2 c8 ef8 g8 c8 | c1 |
+  g2 \tuplet 3/2 { f4 fs4 g4 } | g2 f8 fs8 fs8 g8 |
   \break
-  g2 \tuplet 3/2 { f4 fs4 g4 } | g2 f8 fs8 fs8 g8 | g2 bf8 b8 c8 ef8 | ef1 |
+  d2 c8 ef8 g8 c8 | c1 |
+  \break
+  g2 \tuplet 3/2 { f4 fs4 g4 } | g2 f8 fs8 fs8 g8 |
+  \break
+  g2 bf8 b8 c8 ef8 | ef1 |
 
   \sect "B"
 
   f2 \tuplet 3/2 { ef4 c4 af4 } | f2 \tuplet 3/2 { af4 cf4 d4 } |
+  \break
   f2 \tuplet 3/2 { ef4 bf4 a4 } | af2 g2 |
   \break
-  g2 \tuplet 3/2 { f4 fs4 g4 } | g2 f8 fs8 g8 bf8 | bf2 bf8 b8 c8 ef8 | ef2 r2 |
+  g2 \tuplet 3/2 { f4 fs4 g4 } | g2 f8 fs8 g8 bf8 |
+  \break
+  bf2 bf8 b8 c8 ef8 | ef2 r2 |
 
   \bar "|."
 }

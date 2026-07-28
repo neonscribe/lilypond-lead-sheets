@@ -6,6 +6,6 @@
 
 subtitle = "Sarah Vaughan Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Comes Love - Ly Core - Gm.ly"

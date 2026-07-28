@@ -6,7 +6,7 @@
 
 subtitle = "Connie Francis, Wanda Jackson, Kitty Wells, Skeeter Davis Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

@@ -6,6 +6,6 @@
 
 subtitle = "Polly Bergen Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/June in January - Ly Core - Eb.ly"

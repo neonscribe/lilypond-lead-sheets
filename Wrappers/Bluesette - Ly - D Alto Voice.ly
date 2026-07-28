@@ -6,6 +6,6 @@
 
 subtitle = "Sue Raney, Blossom Dearie Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Bluesette - Ly Core - Bb.ly"

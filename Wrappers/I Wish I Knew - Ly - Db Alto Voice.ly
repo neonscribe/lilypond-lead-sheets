@@ -6,6 +6,6 @@
 
 subtitle = "Kitty Kallen (with Harry James) Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Wish I Knew - Ly Core - G.ly"

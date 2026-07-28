@@ -7,6 +7,6 @@
 subtitle = "Mildred Bailey, Helen Forrest, Elly Ameling Key"
 whatKey = f
 whatVerseKey = e
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/All the Things You Are - Ly Core - Ab.ly"

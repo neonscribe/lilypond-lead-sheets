@@ -6,6 +6,6 @@
 
 subtitle = "Ella Fitzgerald Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Isn't It Romantic - Ly Core - Eb.ly"

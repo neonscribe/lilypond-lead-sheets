@@ -6,6 +6,6 @@
 
 subtitle = "Helen O'Connell 1957 Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Tangerine - Ly Core - F.ly"

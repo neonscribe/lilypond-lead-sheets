@@ -6,6 +6,6 @@
 
 subtitle = "Molly Ringwald Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I'll Take Romance Waltz - Ly Core - F.ly"

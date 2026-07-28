@@ -7,6 +7,6 @@
 subtitle = "Ella Fitzgerald, Chris Connor, Helen Merrill Key"
 whatKey = df
 whatVerseKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/All the Things You Are - Ly Core - Ab.ly"

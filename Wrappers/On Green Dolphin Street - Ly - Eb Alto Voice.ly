@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/On Green Dolphin Street - Ly Core - C.ly"

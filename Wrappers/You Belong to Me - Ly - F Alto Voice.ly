@@ -6,6 +6,6 @@
 
 subtitle = "Joni James, Jo Stafford, Patti Page, Petula Clark Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/You Belong to Me - Ly Core - F.ly"

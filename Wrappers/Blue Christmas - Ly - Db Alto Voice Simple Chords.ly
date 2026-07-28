@@ -6,7 +6,7 @@
 
 subtitle = "Kelly Clarkson Key, Simple Chords"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 alternateChords = "simple"
 

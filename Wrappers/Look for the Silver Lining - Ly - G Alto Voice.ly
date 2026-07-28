@@ -6,6 +6,6 @@
 
 subtitle = "Etta Jones Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Look for the Silver Lining - Ly Core - Eb.ly"

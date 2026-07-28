@@ -6,7 +6,7 @@
 
 subtitle = "Irene Kral Key"
 whatKey = e
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

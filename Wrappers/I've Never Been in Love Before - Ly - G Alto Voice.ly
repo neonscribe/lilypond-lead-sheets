@@ -6,6 +6,6 @@
 
 subtitle = "Doris Day, Laufey Key"
 whatKey = g
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I've Never Been in Love Before - Ly Core - Bb.ly"

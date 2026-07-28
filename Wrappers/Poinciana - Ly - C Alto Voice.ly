@@ -6,6 +6,6 @@
 
 subtitle = "Anais Reno Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Poinciana - Ly Core - G.ly"

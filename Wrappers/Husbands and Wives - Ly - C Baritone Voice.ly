@@ -5,7 +5,7 @@
 \include "english.ly"
 
 subtitle = "Roger Miller, Brooks & Dunn, John Doe (and the Sadies) Key"
-whatKey = c
-whatClef = "treble"
+whatKey = c,
+whatClef = "treble_8"
 
 \include "../Core/Husbands and Wives - Ly Core - F.ly"

@@ -5,7 +5,7 @@
 \include "english.ly"
 
 subtitle = "Bing Crosby (with the Andrews Sisters) Key"
-whatKey = d
-whatClef = "treble"
+whatKey = d,
+whatClef = "treble_8"
 
 \include "../Core/Route 66 - Ly Core - F.ly"

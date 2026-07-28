@@ -6,6 +6,6 @@
 
 subtitle = "Jane Baxter-Miller (with The Pine Valley Cosmonauts) Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Time Changes Everything - Ly Core - F.ly"

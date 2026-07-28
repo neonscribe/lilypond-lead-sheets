@@ -4,7 +4,7 @@
 
 subtitle = "Chris Connor Key No Intro Simple Chords"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "treble"
 
 noIntro = ##t
 alternateChords = "simple"

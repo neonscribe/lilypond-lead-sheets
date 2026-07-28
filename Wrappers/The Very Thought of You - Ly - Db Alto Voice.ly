@@ -6,7 +6,7 @@
 
 subtitle = "Jeri Southern Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

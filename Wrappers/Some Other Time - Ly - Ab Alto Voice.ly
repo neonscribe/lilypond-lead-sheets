@@ -6,6 +6,6 @@
 
 subtitle = "Barbra Streisand Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Some Other Time - Ly Core - C.ly"

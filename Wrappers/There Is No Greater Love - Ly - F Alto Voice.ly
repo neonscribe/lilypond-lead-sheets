@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/There Is No Greater Love - Ly Core - Bb.ly"

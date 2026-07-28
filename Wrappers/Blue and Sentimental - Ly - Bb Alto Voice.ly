@@ -4,6 +4,6 @@
 
 subtitle = "Catherine Russell Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Blue and Sentimental - Ly Core - Eb.ly"

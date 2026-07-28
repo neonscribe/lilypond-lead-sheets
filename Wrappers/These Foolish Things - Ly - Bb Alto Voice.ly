@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/These Foolish Things - Ly Core - Eb.ly"

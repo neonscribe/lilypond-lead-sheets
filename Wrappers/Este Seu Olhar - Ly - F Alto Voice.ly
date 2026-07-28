@@ -3,7 +3,7 @@
 \include "english.ly"
 
 subtitle = "Rosa Passos Key"
-whatKey = f
-whatClef = "treble"
+whatKey = f,
+whatClef = "lowtreble"
 
 \include "../Core/Este Seu Olhar - Ly Core - F.ly"

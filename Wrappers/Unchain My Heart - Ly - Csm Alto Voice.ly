@@ -6,6 +6,6 @@
 
 subtitle = "Nancy Wilson Key"
 whatKey = cs
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Unchain My Heart - Ly Core - Am.ly"

@@ -4,6 +4,6 @@
 
 subtitle = "Julie London Key"
 whatKey = g
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Basin Street Blues - Ly Core - Bb.ly"

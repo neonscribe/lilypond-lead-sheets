@@ -4,6 +4,6 @@
 
 subtitle = "Sarah Vaughan Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/In a Sentimental Mood - Ly Core - F.ly"

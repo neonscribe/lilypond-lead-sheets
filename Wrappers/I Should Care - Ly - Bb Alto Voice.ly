@@ -4,6 +4,6 @@
 
 subtitle = "Bonnie Lou Williams (with Tommy Dorsey) Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Should Care - Ly Core - C.ly"

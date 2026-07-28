@@ -72,34 +72,30 @@ refrainMelody = \relative f' {
 
   \partial 2. bf4 bf4 d4 |
 
-  \sectNoBreak "A1,A2"
+  \sectNoBarNoBreak "A1,A2"
 
+  \bar ".|:-||"
   \repeat volta 2 {
   d1 | r4 bf4 bf4 g4 | g4 ef4 ef2 | r4 g4 g4 bf4 |
-  %% \break
   bf1 | r4 g4 g4 ef4 | ef4 c4 c2 | r4 ef4 ef4 g4 |
   g1 | r4 ef4 ef4 c4 | c4 bf4 bf2 | r4 c4 c4 ef4 |
   \alternative { \volta 1 {
-  %% \break
   ef1~ | ef1 | r1 | r4 bf'4 bf4 d4 |
   } \volta 2 {
-  %% \break
   ef,1~ | ef1 | r1 | r4 ef4 f4 g4 |
   } } }
+  \bar "||-:|."
 
-  \sect "B"
+  \sectNoBar "B"
 
   af4 g8 f8 g4 af4 | bf4 af8 g8 af4 bf4 | c4 bf8 af8 bf2~ | bf1 |
-  %% \break
   bf4 a8 g8 a4 bf4 | c4 bf8 a8 bf4 c4 | d4 ef8 c8 f2 | r4 bf,4 bf4 d4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   d1 | r4 bf4 bf4 g4 | g4 ef4 ef2 | r4 g4 g4 bf4 |
-  %% \break
   bf1 | r4 g4 g4 ef4 | ef4 c4 c2 | r4 ef4 ef4 g4 |
   g1 | r4 ef4 ef4 c4 | c4 bf4 bf2 | r4 c4 c4 ef4 |
-  %% \break
   ef1~ | ef1 | r1 | r1 |
 
   \bar "|."

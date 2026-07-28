@@ -6,6 +6,6 @@
 
 subtitle = "Phoebe Snow, Susie Arioli Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/No Regrets - Ly Core - G.ly"

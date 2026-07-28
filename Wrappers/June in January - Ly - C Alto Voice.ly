@@ -6,6 +6,6 @@
 
 subtitle = "Jo Stafford, Eydie Gormé Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/June in January - Ly Core - Eb.ly"

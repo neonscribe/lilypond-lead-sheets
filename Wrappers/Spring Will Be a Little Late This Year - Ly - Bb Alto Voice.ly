@@ -6,6 +6,6 @@
 
 subtitle = "Sarah Vaughan, Ella Fitzgerald Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Spring Will Be a Little Late This Year - Ly Core - Eb.ly"

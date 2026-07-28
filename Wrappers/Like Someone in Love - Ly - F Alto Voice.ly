@@ -4,6 +4,6 @@
 
 subtitle = "Sarah Vaughan, Etta Jones Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Like Someone in Love - Ly Core - C.ly"

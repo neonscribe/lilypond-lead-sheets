@@ -6,7 +6,7 @@
 
 subtitle = "Janis Hansen (with Sergio Mendes) Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 lyricsLanguage = "english"
 

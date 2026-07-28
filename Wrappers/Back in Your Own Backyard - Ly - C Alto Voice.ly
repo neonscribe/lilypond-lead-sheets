@@ -6,6 +6,6 @@
 
 subtitle = "Patti Page, Brenda Lee Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Back in Your Own Backyard - Ly Core - G.ly"

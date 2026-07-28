@@ -6,6 +6,6 @@
 
 subtitle = "Ailish McBride Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Hello Trouble - Ly Core - C.ly"

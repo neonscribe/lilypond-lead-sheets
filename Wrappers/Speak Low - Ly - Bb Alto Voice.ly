@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Speak Low - Ly Core - F.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Maggie Britton Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Hit That Jive Jack - Ly Core - F.ly"

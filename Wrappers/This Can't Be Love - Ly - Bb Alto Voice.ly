@@ -4,6 +4,6 @@
 
 subtitle = "Abbey Lincoln, Eliane Elias Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/This Can't Be Love - Ly Core - G.ly"

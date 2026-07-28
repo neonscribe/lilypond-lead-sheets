@@ -4,6 +4,6 @@
 
 subtitle = "Emmylou Harris Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/You Don't Know Me - Ly Core - Eb.ly"

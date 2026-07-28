@@ -6,6 +6,6 @@
 
 subtitle = "Alison Krause Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Do You Know What It Means to Miss New Orleans - Ly Core - C.ly"

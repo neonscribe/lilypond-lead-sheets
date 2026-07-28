@@ -3,8 +3,8 @@
 \include "english.ly"
 
 subtitle = "Bb for Baritone Voice Key"
-whatKey = g
-whatClef = "treble"
+whatKey = g,
+whatClef = "treble_8"
 
 alternateChords = "nico"
 

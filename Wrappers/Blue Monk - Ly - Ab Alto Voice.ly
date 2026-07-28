@@ -4,6 +4,6 @@
 
 subtitle = "Abbey Lincoln Key"
 whatKey = af
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Blue Monk - Ly Core - Bb.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Ketty Lester, Julie London, Chrissie Hynde Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Love Letters Three - Ly Core - G.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Sarah Vaughan Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Bluesette - Ly Core - Bb.ly"

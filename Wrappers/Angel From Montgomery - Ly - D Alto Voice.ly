@@ -6,6 +6,6 @@
 
 subtitle = "Bonnie Raitt Capo 2 Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Angel From Montgomery - Ly Core - E.ly"

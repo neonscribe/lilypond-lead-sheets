@@ -6,6 +6,6 @@
 
 subtitle = "Liz Anderson Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I'm a Lonesome Fugitive - Ly Core - G.ly"

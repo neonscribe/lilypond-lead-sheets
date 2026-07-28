@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = g
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Things Ain't What They Used to Be - Ly Core - Db.ly"

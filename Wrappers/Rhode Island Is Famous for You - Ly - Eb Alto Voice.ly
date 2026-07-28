@@ -6,6 +6,6 @@
 
 subtitle = "Amy Cervini Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Rhode Island Is Famous for You - Ly Core - G.ly"

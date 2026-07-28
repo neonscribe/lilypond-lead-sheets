@@ -6,6 +6,6 @@
 
 subtitle = "Anita O'Day, Julie London Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Bewitched - Ly Core - C.ly"

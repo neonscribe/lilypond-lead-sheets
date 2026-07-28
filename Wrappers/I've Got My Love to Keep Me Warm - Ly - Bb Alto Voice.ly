@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday, Sarah Vaughan, Ella Fitzgerald, Doris Day Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I've Got My Love to Keep Me Warm - Ly Core - Eb.ly"

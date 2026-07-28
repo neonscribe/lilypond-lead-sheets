@@ -4,6 +4,6 @@
 
 subtitle = "Gabrielle Cavassa (with Joshua Redman) Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Stars Fell on Alabama - Ly Core - C.ly"

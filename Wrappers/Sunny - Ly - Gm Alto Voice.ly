@@ -6,6 +6,6 @@
 
 subtitle = "Dusty Springfield Key"
 whatKey = g
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Sunny - Ly Core - Am.ly"

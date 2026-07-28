@@ -4,6 +4,6 @@
 
 subtitle = "Blossom Dearie Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/If I Were a Bell - Ly Core - F.ly"

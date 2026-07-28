@@ -51,30 +51,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Ruth Etting 1928]" 118
 
   \partial 2. d'4 d4 d4 |
-  \bar "||"
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   d4 ds,4 e4 d'4~ | d2 df2 | c4 ds,4 e4 c'4~ | c1 |
-  \break
   b4 cs,4 d4 a'4~ | a2 fs2 | e1~ | e4 d'4 d4 d4 |
 
   \sect "A2"
 
   d4 ds,4 e4 d'4~ | d2 df2 | c4 ds,4 e4 c'4~ | c1 |
-  \break
   b4 cs,4 d4 a'4~ | a2 b2 | g1~ | g4 d'4 d4 d4 |
 
   \sect "B"
 
   d4 b8 cs8 d2 | d4 b8 cs8 d4 d4 | d4 cs4 b4 e,4~ | e1 |
-  \break
   b'4 g8 a8 b2 | b4 g8 a8 b4 e4 | a,1~ | a4 d4 d4 d4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   d4 ds,4 e4 d'4~ | d2 df2 | c4 ds,4 e4 c'4~ | c1 |
-  \break
   b4 cs,4 d4 a'4~ | a2 b2 | g1 | r1 |
 
   \bar "|."

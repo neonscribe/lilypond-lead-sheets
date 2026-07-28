@@ -6,7 +6,7 @@
 
 subtitle = "Monica Zetterlund, Debby Moore, Brenda Lee Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

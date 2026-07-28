@@ -4,6 +4,6 @@
 
 subtitle = "Chris Connor, Judy Garland Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Alone Together - Ly Core - Dm.ly"

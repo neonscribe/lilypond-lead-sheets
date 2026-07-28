@@ -6,6 +6,6 @@
 
 subtitle = "Helen Forest (with Benny Goodman) Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Perfidia - Ly Core - C.ly"

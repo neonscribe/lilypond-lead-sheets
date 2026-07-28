@@ -6,6 +6,6 @@
 
 subtitle = "Dianne Reeves, Karrin Allyson, Norah Jones Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Christmas Time Is Here - Ly Core - F.ly"

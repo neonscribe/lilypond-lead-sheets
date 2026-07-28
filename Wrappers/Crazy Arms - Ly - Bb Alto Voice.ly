@@ -6,6 +6,6 @@
 
 subtitle = "Norma Jean Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Crazy Arms - Ly Core - F.ly"

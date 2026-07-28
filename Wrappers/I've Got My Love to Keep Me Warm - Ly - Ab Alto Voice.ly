@@ -6,6 +6,6 @@
 
 subtitle = "Alice Faye, Melissa Manchester Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I've Got My Love to Keep Me Warm - Ly Core - Eb.ly"

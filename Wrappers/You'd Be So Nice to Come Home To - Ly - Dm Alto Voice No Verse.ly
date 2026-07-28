@@ -4,7 +4,7 @@
 
 subtitle = "Jane Froman Key, No Verse"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 noIntro = ##t
 

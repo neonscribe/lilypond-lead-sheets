@@ -4,6 +4,6 @@
 
 subtitle = "Judy Garland Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Got Rhythm - Ly Core - Bb.ly"

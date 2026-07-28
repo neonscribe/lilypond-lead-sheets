@@ -4,6 +4,6 @@
 
 subtitle = "Sylvia Sims Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Darktown Strutters Ball - Ly Core - Bb.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Mary Ford (with Les Paul) Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "lowtreble"
 
 \include "../Core/Bye Bye Blues - Ly Core - C.ly"

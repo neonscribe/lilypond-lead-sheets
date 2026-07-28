@@ -6,6 +6,6 @@
 
 subtitle = "Dinah Washington Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Secret Love - Ly Core - Eb.ly"

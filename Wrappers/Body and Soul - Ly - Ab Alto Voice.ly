@@ -4,6 +4,6 @@
 
 subtitle = "Billie Holiday, Sarah Vaughan Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Body and Soul - Ly Core - Db.ly"

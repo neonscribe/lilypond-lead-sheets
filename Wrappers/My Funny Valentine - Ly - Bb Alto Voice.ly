@@ -4,6 +4,6 @@
 
 subtitle = "Carmen McRae, Ella Fitzgerald, Dinah Shore Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My Funny Valentine - Ly Core - Eb.ly"

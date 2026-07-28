@@ -6,6 +6,6 @@
 
 subtitle = "Diana Ross, Diane Schuur Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/God Bless the Child - Ly Core - Eb.ly"

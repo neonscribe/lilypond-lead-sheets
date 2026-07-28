@@ -5,8 +5,8 @@
 \include "english.ly"
 
 subtitle = "Frank Sinatra Key"
-whatKey = d
-whatClef = "treble"
+whatKey = d,
+whatClef = "treble_8"
 
 singerGender = "male"
 

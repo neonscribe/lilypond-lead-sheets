@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday, Karrin Allyson Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Good Morning Heartache - Ly Core - F.ly"

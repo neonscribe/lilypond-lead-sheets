@@ -4,6 +4,6 @@
 
 subtitle = "Laura Hubert Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/River Stay Way From My Door - Ly Core - C.ly"

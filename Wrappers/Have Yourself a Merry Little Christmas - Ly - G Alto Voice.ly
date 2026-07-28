@@ -6,6 +6,6 @@
 
 subtitle = "Ella Fitzgerald, Barbra Streisand Key"
 whatKey = g
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Have Yourself a Merry Little Christmas - Ly Core - Bb.ly"

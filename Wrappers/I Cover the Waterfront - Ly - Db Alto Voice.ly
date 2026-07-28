@@ -4,6 +4,6 @@
 
 subtitle = "Billie Holiday, Annie Lennox Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Cover the Waterfront - Ly Core - G.ly"

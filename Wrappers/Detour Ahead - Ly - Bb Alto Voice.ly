@@ -6,7 +6,7 @@
 
 subtitle = "Mary Ann McCall (with Woody Herman) Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Days of Wine and Roses - Ly Core - F.ly"

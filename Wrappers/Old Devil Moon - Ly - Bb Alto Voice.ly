@@ -4,6 +4,6 @@
 
 subtitle = "Carolyn Grey (with Gene Krupa) Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Old Devil Moon - Ly Core - F.ly"

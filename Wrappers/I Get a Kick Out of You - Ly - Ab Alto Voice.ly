@@ -6,6 +6,6 @@
 
 subtitle = "Dinah Washington, Billie Holiday, Ella Fitzgerald Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Get a Kick Out of You - Ly Core - Eb.ly"

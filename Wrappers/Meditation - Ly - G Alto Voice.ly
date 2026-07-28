@@ -6,6 +6,6 @@
 
 subtitle = "Astrud Gilberto Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Meditation - Ly Core - C.ly"

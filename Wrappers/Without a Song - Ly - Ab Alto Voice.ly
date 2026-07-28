@@ -6,6 +6,6 @@
 
 subtitle = "Dinah Washington Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Without a Song - Ly Core - Eb.ly"

@@ -61,36 +61,34 @@ refrainMelody = \relative f' {
 
   \partial 2 d4. e8 |
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectNoBarNoBreak "A1,A2"
 
-  \bar ".|:"
+  \bar ".|:-||"
   \repeat volta 2 {
   g2 f4. e8 | d2~ \tuplet 3/2 { d4 d4 e4 } |
   \tuplet 3/2 { g4 a4 g4 } \tuplet 3/2 { f4 g4 f4 } | d2~ \tuplet 3/2 { d4 g4 a4 } |
-  \break
   \tuplet 3/2 { b4 d4 c4 } b2~ | b2 c2 |
   \alternative { \volta 1 {
   b1 | bf2~ bf4. af8 |
   } \volta 2 {
   cs1~ | cs1 |
   } } }
-  \sect "B"
+  \bar "||-:|."
+
+  \sectNoBar "B"
 
   r4 d4 c4 a4 | g4 f4 e4 d4 | g2 g2~ | g1 |
-  \break
   r4 d'4 c4 af4 | g4 f4 e4 d4 | g1 | bf2~ bf4. af8 |
 
   \sect "A3"
 
   g2 f4. e8 | d2~ \tuplet 3/2 { d4 d4 e4 } |
   \tuplet 3/2 { g4 a4 g4 } \tuplet 3/2 { f4 g4 f4 } | d2~ \tuplet 3/2 { d4 g4 a4 } |
-  \break
   \tuplet 3/2 { b4 d4 c4 } b2~ | b2 c2 |
 
-  \sectNoBreak "C"
+  \sectPageBreak "C"
 
   ef1~ | ef2 f4. ef8 |
-  \break
   \tuplet 3/2 { d4 ef4 d4 } c2~ | c2 d2 |
   c1~ | c2 r2 |
 

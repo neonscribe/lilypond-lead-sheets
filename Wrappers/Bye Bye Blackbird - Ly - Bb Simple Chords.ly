@@ -4,7 +4,7 @@
 
 subtitle = "Etta Jones Key, Simple Chords"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 alternateChords = "simple"
 

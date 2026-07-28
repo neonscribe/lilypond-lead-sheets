@@ -6,6 +6,6 @@
 
 subtitle = "Dianne Reeves Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/A Child Is Born - Ly Core - Db.ly"

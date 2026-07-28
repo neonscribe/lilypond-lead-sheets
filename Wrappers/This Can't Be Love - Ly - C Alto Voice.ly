@@ -4,6 +4,6 @@
 
 subtitle = "Patti Page, Shirley Horn, Diana Krall, Stacey Kent Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/This Can't Be Love - Ly Core - G.ly"

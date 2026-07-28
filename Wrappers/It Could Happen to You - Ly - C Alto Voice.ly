@@ -4,6 +4,6 @@
 
 subtitle = "Anita O'Day, Laufey Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/It Could Happen to You - Ly Core - F.ly"

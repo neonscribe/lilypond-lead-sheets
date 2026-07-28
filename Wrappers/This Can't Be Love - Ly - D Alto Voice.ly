@@ -4,6 +4,6 @@
 
 subtitle = "Ella Fitzgerald, Doris Day, Peggy Lee, Helen Forrest (with Artie Shaw) Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/This Can't Be Love - Ly Core - G.ly"

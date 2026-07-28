@@ -4,6 +4,6 @@
 
 subtitle = "Dinah Washington Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "lowtreble"
 
 \include "../Core/Time After Time - Ly Core - C.ly"

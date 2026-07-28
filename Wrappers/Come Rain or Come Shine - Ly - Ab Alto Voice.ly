@@ -4,6 +4,6 @@
 
 subtitle = "Patti Page Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Come Rain or Come Shine - Ly Core - F.ly"

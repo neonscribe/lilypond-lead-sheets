@@ -6,6 +6,6 @@
 
 subtitle = "Jo Stafford, Nancy Wilson Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Young and Foolish - Ly Core - C.ly"

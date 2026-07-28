@@ -4,7 +4,7 @@
 
 subtitle = "Maryann Price (with Dan Hicks) Key, Cowboy Chords"
 whatKey = c
-whatClef = "treble"
+whatClef = "lowtreble"
 
 alternateChords = "simple"
 

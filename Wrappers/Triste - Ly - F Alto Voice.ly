@@ -4,6 +4,6 @@
 
 subtitle = "Susannah McCorkle Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Triste - Ly Core - Bb.ly"

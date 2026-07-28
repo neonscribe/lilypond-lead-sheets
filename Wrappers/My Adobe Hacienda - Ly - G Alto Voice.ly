@@ -4,6 +4,6 @@
 
 subtitle = "Louise Massey (with The Westerners) Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My Adobe Hacienda - Ly Core - C.ly"

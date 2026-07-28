@@ -4,6 +4,6 @@
 
 subtitle = "Eliane Elias Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Let's Get Lost - Ly Core - Eb.ly"

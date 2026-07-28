@@ -3,7 +3,7 @@
 \include "english.ly"
 
 subtitle = "Johnny Mathis Key"
-whatKey = d
-whatClef = "treble"
+whatKey = d,
+whatClef = "treble_8"
 
 \include "../Core/Winter Wonderland - Ly Core - Eb.ly"

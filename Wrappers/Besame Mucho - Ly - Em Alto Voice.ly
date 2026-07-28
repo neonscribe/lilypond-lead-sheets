@@ -6,6 +6,6 @@
 
 subtitle = "Cesária Évora, Julie London, Diana Krall Key"
 whatKey = e,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Besame Mucho - Ly Core - Dm.ly"

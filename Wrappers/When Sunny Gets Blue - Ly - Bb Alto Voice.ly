@@ -4,6 +4,6 @@
 
 subtitle = "Anita O'Day Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/When Sunny Gets Blue - Ly Core - F.ly"

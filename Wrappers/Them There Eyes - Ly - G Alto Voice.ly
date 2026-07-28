@@ -6,6 +6,6 @@
 
 subtitle = "Peggy Lee, Anita O'Day, Carmen McRae Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Them There Eyes - Ly Core - C.ly"

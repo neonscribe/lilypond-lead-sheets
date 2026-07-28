@@ -5,7 +5,7 @@
 \include "english.ly"
 
 subtitle = "Baritone Voice Key"
-whatKey = f,
-whatClef = "treble"
+whatKey = f,,
+whatClef = "treble_8"
 
 \include "../Core/Too Darn Hot - Ly Core - Cm.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Louis Armstrong & Ella Fitzgerald Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/Who Walks In When I Walk Out - Ly Core - Gm.ly"

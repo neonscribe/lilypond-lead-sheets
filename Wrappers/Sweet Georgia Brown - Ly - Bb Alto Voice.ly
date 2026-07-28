@@ -4,6 +4,6 @@
 
 subtitle = "Anita O'Day Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Sweet Georgia Brown - Ly Core - Ab.ly"

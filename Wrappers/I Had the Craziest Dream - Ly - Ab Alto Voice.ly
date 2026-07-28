@@ -6,7 +6,7 @@
 
 subtitle = "Helen Forrest (with Harry James) Key"
 whatKey = af,
-whatClef = "treble"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

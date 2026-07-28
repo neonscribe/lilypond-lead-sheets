@@ -6,6 +6,6 @@
 
 subtitle = "Janet Klein Key"
 whatKey = af
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Sunday - Ly Core - Bb.ly"

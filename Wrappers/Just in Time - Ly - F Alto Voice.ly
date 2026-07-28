@@ -6,6 +6,6 @@
 
 subtitle = "Sarah Vaughan, Peggy Lee, Blossom Dearie, Anita O'Day Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Just in Time - Ly Core - Bb.ly"

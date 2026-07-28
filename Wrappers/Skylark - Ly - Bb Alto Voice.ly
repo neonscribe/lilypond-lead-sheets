@@ -4,6 +4,6 @@
 
 subtitle = "Ella Fitzgerald, Helen Forrest Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Skylark - Ly Core - Eb.ly"

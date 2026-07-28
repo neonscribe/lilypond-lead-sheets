@@ -4,6 +4,6 @@
 
 subtitle = "Chris Connor, Julie London Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Thrill Is Gone - Ly Core - Dm.ly"

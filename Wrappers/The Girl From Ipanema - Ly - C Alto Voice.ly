@@ -6,6 +6,6 @@
 
 subtitle = "Rosa Passos Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Girl From Ipanema - Ly Core - F.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Bonnie Lake (with Artie Shaw) Key"
 whatKey = ef
-whatClef = "treble"
+whatClef = "lowtreble"
 
 \include "../Core/This Time the Dream's on Me - Ly Core - G.ly"

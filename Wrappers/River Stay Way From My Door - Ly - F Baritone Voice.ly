@@ -3,8 +3,8 @@
 \include "english.ly"
 
 subtitle = "Charlie Rich Key"
-whatKey = f
-whatClef = "treble"
+whatKey = f,
+whatClef = "treble_8"
 
 alternateChords = "nico"
 

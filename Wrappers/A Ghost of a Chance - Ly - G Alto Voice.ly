@@ -6,6 +6,6 @@
 
 subtitle = "Mildred Bailey Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/A Ghost of a Chance - Ly Core - C.ly"

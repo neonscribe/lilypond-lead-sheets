@@ -6,6 +6,6 @@
 
 subtitle = "Helen Ward (with Bob Crosby) Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Day In Day Out - Ly Core - C.ly"

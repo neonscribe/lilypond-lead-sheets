@@ -4,6 +4,6 @@
 
 subtitle = "Chris Connor Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Almost Like Being in Love - Ly Core - Bb.ly"

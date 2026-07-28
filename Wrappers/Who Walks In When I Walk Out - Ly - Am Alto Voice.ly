@@ -6,6 +6,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Who Walks In When I Walk Out - Ly Core - Gm.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Helen Merrill Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Beautiful Love - Ly Core - Dm.ly"

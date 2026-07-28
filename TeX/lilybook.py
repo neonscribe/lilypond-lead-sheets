@@ -37,10 +37,10 @@ add pdf bookmarks using toc entries from bookfile
 ## eithers don't have a strong two-page sequence
 
 rectoThrees = ['Django', "It Ain't Necessarily So", 
-               "Is You Is, or Is You Ain't (Ma' Baby)"]
+               "Is You Is, or Is You Ain't (Ma' Baby)",
+               'Spring Can Really Hang You Up the Most']
 versoThrees = ['Fever', "Moanin'", 'My Attorney Bernie', 
                'Peel Me a Grape',
-               'Spring Can Really Hang You Up the Most',
                'Oh Lonesome Me Four', 'Dear Mr Fantasy']
 eitherThrees = ['Twisted', 'You Belong to Me',
                "Do Nothin' Till You Hear From Me"]

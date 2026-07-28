@@ -6,6 +6,6 @@
 
 subtitle = "Linda Ronstadt Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Only Daddy That'll Walk the Line - Ly Core - E.ly"

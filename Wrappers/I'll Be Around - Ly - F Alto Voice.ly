@@ -6,7 +6,7 @@
 
 subtitle = "Billie Holiday, Peggy Lee, Chaka Khan Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

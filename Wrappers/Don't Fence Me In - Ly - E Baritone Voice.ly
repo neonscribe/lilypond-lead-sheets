@@ -5,8 +5,8 @@
 \include "english.ly"
 
 subtitle = "Roy Rogers Key, Cowboy Chords"
-whatKey = e
-whatClef = "treble"
+whatKey = e,
+whatClef = "treble_8"
 
 alternateChords = "simple"
 

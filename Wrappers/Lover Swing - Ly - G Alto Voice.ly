@@ -6,6 +6,6 @@
 
 subtitle = "Ella Fitzgerald, Peggy Lee 1952 Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Lover Swing - Ly Core - C.ly"

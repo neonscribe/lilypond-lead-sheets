@@ -5,6 +5,8 @@ mkdir -p 'Alto Voice/Bass'
 mkdir -p 'Alto Voice/Bb'
 mkdir -p 'Alto Voice/Eb'
 
+mkdir -p 'Alto Voice 8vb'
+
 mkdir -p 'Baritone Voice'
 mkdir -p 'Baritone Voice/Bass'
 mkdir -p 'Baritone Voice/Bb'
@@ -28,6 +30,8 @@ mkdir -p 'NoteNames/Alto Voice'
 mkdir -p 'NoteNames/Alto Voice/Bass'
 mkdir -p 'NoteNames/Alto Voice/Bb'
 mkdir -p 'NoteNames/Alto Voice/Eb'
+
+mkdir -p 'NoteNames/Alto Voice 8vb'
 
 mkdir -p 'NoteNames/Baritone Voice'
 mkdir -p 'NoteNames/Baritone Voice/Bass'

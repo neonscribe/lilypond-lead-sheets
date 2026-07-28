@@ -6,6 +6,6 @@
 
 subtitle = "Thelma Harper, Grace Kelly Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Unchain My Heart - Ly Core - Am.ly"

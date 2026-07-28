@@ -6,6 +6,6 @@
 
 subtitle = "Annette Hanshaw, Sue Raney Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Get the Blues When It Rains - Ly Core - G.ly"

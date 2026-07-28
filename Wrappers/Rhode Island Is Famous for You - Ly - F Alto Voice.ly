@@ -6,6 +6,6 @@
 
 subtitle = "Blossom Dearie Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Rhode Island Is Famous for You - Ly Core - G.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Ella Fitzgerald, Sarah Vaughan, Laufey Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Ev'ry Time We Say Goodbye - Ly Core - Eb.ly"

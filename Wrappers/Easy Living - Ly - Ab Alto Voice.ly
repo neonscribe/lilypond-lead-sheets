@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday (with Teddy Wilson) Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Easy Living - Ly Core - F.ly"

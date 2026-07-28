@@ -6,6 +6,6 @@
 
 subtitle = "Julie London Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Goodbye - Ly Core - Cm.ly"

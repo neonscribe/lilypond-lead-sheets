@@ -4,7 +4,7 @@
 
 subtitle = "Rosemary Clooney Key, Simple Chords"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 alternateChords = "simple"
 

@@ -4,6 +4,6 @@
 
 subtitle = "Ella Fitzgerald, Bing Crosby, Perry Como Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Winter Wonderland - Ly Core - Eb.ly"

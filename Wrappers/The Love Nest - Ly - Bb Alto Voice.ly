@@ -4,6 +4,6 @@
 
 subtitle = "Etta Jones Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Love Nest - Ly Core - Eb.ly"

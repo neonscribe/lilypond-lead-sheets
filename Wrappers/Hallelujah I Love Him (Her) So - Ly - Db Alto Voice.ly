@@ -6,7 +6,7 @@
 
 subtitle = "Peggy Lee, Ella Fitzgerald Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

@@ -4,6 +4,6 @@
 
 subtitle = "Doris Day, Ella Fitzgerald Key"
 whatKey = c,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Blue Skies - Ly Core - C.ly"

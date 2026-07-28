@@ -6,6 +6,6 @@
 
 subtitle = "Anne Murray Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Can't Stop Loving You - Ly Core - B.ly"

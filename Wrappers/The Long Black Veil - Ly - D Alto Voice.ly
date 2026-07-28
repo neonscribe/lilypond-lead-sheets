@@ -6,6 +6,6 @@
 
 subtitle = "Joan Baez Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Long Black Veil - Ly Core - E.ly"

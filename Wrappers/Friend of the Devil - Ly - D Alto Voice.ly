@@ -6,6 +6,6 @@
 
 subtitle = "Grace Potter Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Friend of the Devil - Ly Core - G.ly"

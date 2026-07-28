@@ -6,6 +6,6 @@
 
 subtitle = "Dakota Staton Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Invitation - Ly Core - Cm.ly"

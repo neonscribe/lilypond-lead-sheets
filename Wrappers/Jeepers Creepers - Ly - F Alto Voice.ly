@@ -6,6 +6,6 @@
 
 subtitle = "Ethel Waters Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Jeepers Creepers - Ly Core - Bb.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Silvia Telles, Sarah Vaughan Key"
 whatKey = g
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Someone to Light Up My Life - Ly Core - Bb.ly"

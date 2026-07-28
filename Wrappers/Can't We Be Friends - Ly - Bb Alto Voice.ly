@@ -6,6 +6,6 @@
 
 subtitle = "Libby Holman, Mildred Bailey, Betty Carter, Ella Fitzgerald, Linda Ronstadt Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Can't We Be Friends - Ly Core - F.ly"

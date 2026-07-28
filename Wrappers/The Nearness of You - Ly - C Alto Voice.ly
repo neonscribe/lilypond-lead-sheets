@@ -4,6 +4,6 @@
 
 subtitle = "Abbey Lincoln, Norah Jones, Laufey Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Nearness of You - Ly Core - F.ly"

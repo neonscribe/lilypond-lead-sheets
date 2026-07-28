@@ -6,6 +6,6 @@
 
 subtitle = "Eva Cassidy Key"
 whatKey = e
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Route 66 - Ly Core - F.ly"

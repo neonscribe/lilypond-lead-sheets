@@ -6,6 +6,6 @@
 
 subtitle = "Cyrille Aimée Key"
 whatKey = e,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Seul Ce Soir - Ly Core - C.ly"

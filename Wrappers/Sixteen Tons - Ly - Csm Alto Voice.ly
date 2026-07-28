@@ -6,6 +6,6 @@
 
 subtitle = "Kate Smith Key"
 whatKey = cs'
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Sixteen Tons - Ly Core - Bm.ly"

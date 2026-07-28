@@ -6,6 +6,6 @@
 
 subtitle = "Madeleine Peyroux Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I'm Gonna Sit Right Down and Write Myself a Letter - Ly Core - C.ly"

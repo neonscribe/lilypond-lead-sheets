@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday, Dinah Shore, Rosemary Clooney Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Do You Know What It Means to Miss New Orleans - Ly Core - C.ly"

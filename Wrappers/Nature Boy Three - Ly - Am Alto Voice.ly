@@ -6,6 +6,6 @@
 
 subtitle = "Annie Ross Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Nature Boy Three - Ly Core - Em.ly"

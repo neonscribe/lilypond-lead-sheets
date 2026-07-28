@@ -63,30 +63,25 @@ refrainMelody = \relative f' {
   \tempoFour "Fast [Bob Wills 1938]" 200
 
   \partial 2 f4 bf4 |
-  \bar "||"
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   d2. bf4 | f2 d4 bf4 | g'2. ef4 | c2. g'4 | a2. g4 | ef2 c4 cs4 | d1~ | d2 f4 bf4 |
-  \break
   d2. bf4 | f2 d4 bf4 | g'2. ef4 | c2. g'4 | a2. g4 | f2 g4 f4 | f4( bf2.~ | bf2) f4 ef4 |
 
   \sect "A2"
 
   d2. f4 | bf2. d,4 | ef4. f8 g4 ef4 | c2. g'4 | a2. g4 | f2 g4 f4 | d2 f4 bf4 | d,2. f4 |
-  \break
   d2. f4 | bf2. d,4 | ef4. f8 g4 ef4 | c2. g'4 | a2. g4 | f4 f4 g4 f4 | f4( bf2.~ | bf1) |
 
   \sect "B"
 
   c4 c4 c4 b4 | bf4 a2 c4 | e2( d8) e8 ef8 d8~ | d1 | r4 e4 e4 ef4 | d2 e4 d4 | c2. a4 | f1 |
-  \break
   c'4 c4 c4 b4 | bf4 a2 c4 | e4 e4 d8 e8 ef8 d8~ | d1 | r4 e4 e4 ef4 | d2 e4 d4 | c2. d4 | ef1 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   d2. bf4 | f2 d4 bf4 | g'2. ef4 | c2. g'4 | a2 g4 f4 | ef2 c4 cs4 | d1~ | d2 f4 bf4 |
-  \break
   d2. bf4 | f2 d4 bf4 | g'2. ef4 | c2. g'4 | a2. g4 | f4 f4 g4 f4 | f4( bf2.~ | bf2.) r4 |
 
   \bar "|."

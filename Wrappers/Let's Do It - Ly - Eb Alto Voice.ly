@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday, Eartha Kitt Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Let's Do It - Ly Core - Bb.ly"

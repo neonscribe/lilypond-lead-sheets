@@ -6,6 +6,6 @@
 
 subtitle = "Wanda Jackson Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Night Life - Ly Core - Eb.ly"

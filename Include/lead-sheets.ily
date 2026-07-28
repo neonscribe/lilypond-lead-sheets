@@ -9,6 +9,11 @@ printNoteNames =
     printNoteNames
     (ly:get-option 'print-note-names))
 
+lowTrebleEightVB =
+  #(if (defined? 'lowTrebleEightVB)
+    lowTrebleEightVB
+    (ly:get-option 'low-treble-8vb))
+
 midiOnly = 
   #(if (defined? 'midiOnly)
     midiOnly
@@ -34,7 +39,11 @@ bassKey =
 
 whatClef =
 #(if (and (defined? 'whatClef) whatClef)
-  whatClef
+  (if (equal? whatClef "lowtreble")
+   (if lowTrebleEightVB
+    "treble_8"
+    "treble")
+   whatClef)
   "treble")
 
 introLeadingEighth = ##f

@@ -6,6 +6,6 @@
 
 subtitle = "Lisa Loeb Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Rainbow Connection - Ly Core - G.ly"

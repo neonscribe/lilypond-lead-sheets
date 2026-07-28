@@ -49,30 +49,25 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Tommy Dorsey with Frank Sinatra 1939]" 68
 
   \partial 2. bf4 d4 c4 |
-  \bar "||"
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   ef4. f,8 f2 | r8 f8 f8 g8 f4 ef4 | g1~ | g4 bf4 d4 c4 |
-  \break
   ef4. f,8 f2~ | f4 g4 \tuplet 3/2 { f4 ef4 d4 } | c1~ | c2. c4 |
 
   \sect "B"
 
   g'4 g4 g4 f4 | ef2. g4 | bf4 bf4 bf4 bf4 | g2. b4 |
-  \break
   d4 d4 d2~ | d2 d2 | bf1~ | bf4 bf4 d4 c4 |
 
   \sect "A2"
 
   ef4. f,8 f2 | r8 f8 f8 g8 f4 ef4 | g1~ | g4 bf4 d4 bf4 |
-  \break
   ef4. f,8 f2~ | f4 g4 \tuplet 3/2 { f4 ef4 d4 } | g1~ | g2 r4 ef4 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   g2. f4 | af2. g4 | \tuplet 3/2 { d4 ef4 g4 } bf4 c4 | d2. c4 |
-  \break
   ef4. f,8 f2 | r8 c8 d8 ef8 g4 g4 | ef1~ | ef4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

@@ -4,6 +4,6 @@
 
 subtitle = "Lucy Yeghiazaryan Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My Blue Heaven - Ly Core - Eb.ly"

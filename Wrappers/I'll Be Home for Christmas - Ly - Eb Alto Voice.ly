@@ -6,6 +6,6 @@
 
 subtitle = "Doris Day Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I'll Be Home for Christmas - Ly Core - C.ly"

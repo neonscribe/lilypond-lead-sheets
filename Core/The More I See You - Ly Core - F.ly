@@ -50,30 +50,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Chet Baker 1958]" 150
 
   \partial 2. c4 f4. e8 |
-  \bar "||"
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   f2 c2~ | c4 f4 c'4. b8 | c2 g2~ | g4 c,4 f4. e8 |
-  \break
   f2 c2~ | c4 f4 c'4. b8 | c1~ | c4 c4 c4 c4 |
 
   \sect "B"
 
   c2 c4 c4 | c4 ef4 c4. bf8 | af2 af2~ | af4 c4 af4. g8 |
-  \break
   f2 f2~ | f4 a4 f4. d8 | g1~ | g4 c,4 f4. e8 |
 
   \sect "A2"
 
   f2 c2~ | c4 f4 c'4. b8 | c2 g2~ | g4 c,4 f4. e8 |
-  \break
   f2 c2~ | c4 f4 d'4. c8 | d1~ | d4 c4 bf4 a4 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   f'4 d4 c4 bf4 | df4 bf4 f4 g4 | c2 c,2~ | c4 c4 f4. g8 |
-  \break
   a2 c,2~ | c4 a'4 f4 g4 | f1~ | f2. r4 |
 
   \bar "|."

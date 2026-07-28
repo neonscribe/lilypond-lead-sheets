@@ -6,6 +6,6 @@
 
 subtitle = "Eugenie Baird (with Glen Gray and the Casa Loma Orchestra) Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My Shining Hour - Ly Core - Eb.ly"

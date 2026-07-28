@@ -6,6 +6,6 @@
 
 subtitle = "Diana Krall, Jeri Southern Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Let's Fall in Love - Ly Core - C.ly"

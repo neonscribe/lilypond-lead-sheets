@@ -4,6 +4,6 @@
 
 subtitle = "Annette Hanshaw, Judy Garland, Peggy Lee Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Can't Give You Anything but Love - Ly Core - G.ly"

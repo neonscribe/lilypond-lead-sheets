@@ -4,6 +4,6 @@
 
 subtitle = "Billie Holiday, Anita, O'Day Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Yesterdays - Ly Core - Dm.ly"

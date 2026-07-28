@@ -6,6 +6,6 @@
 
 subtitle = "Alexandra Ilieva Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Besame Mucho - Ly Core - Dm.ly"

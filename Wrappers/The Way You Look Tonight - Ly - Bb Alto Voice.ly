@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = bf,
-whatClef = "treble"
+whatClef = "lowtreble"
 
 \include "../Core/The Way You Look Tonight - Ly Core - F.ly"

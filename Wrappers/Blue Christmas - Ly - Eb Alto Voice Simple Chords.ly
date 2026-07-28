@@ -6,7 +6,7 @@
 
 subtitle = "Keely Smith Key, Simple Chords"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 alternateChords = "simple"
 

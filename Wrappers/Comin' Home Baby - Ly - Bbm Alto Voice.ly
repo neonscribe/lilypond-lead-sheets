@@ -6,6 +6,6 @@
 
 subtitle = "Dee Dee Sharp Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Comin' Home Baby - Ly Core - Gm.ly"

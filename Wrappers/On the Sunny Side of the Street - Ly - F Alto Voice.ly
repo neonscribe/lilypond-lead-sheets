@@ -4,7 +4,7 @@
 
 subtitle = "Patti Page Key, iReal Pro Chords"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 alternateChords = "ireal"
 

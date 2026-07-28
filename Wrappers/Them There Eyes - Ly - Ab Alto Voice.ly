@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Them There Eyes - Ly Core - C.ly"

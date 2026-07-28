@@ -6,6 +6,6 @@
 
 subtitle = "Eydie Gormé, Celia Cruz Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Sway - Ly Core - Em.ly"

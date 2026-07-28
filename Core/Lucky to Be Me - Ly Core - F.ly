@@ -125,7 +125,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Blossom Dearie 1959] or Medium [Tommy Flanagan 1959]" 160
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   c'4 a4 c,2 | d4 f4 d'4 c4 | a4 f4 c2 | bf4 d4 a'4 g4 |
   f4 g4 a4 e'4 | d2. d,8 f8 | g4 a4 f4 f4 | f2 r2 |
@@ -140,7 +140,7 @@ refrainMelody = \relative f' {
   e4 f4 fs4 g4 | af4 a4 a2 | bf4 b4 b2 | b4 c4 c2 |
   c,4 df4 d4 ef4 | e4 f4 f2 | fs4 g4 af4 bf4 | b4 c4 c2 |
 
-  \sect "A2"
+  \sectPageBreak "A2"
 
   c4 a4 c,2 | d4 f4 d'4 c4 | a4 f4 c2 | bf4 d4 a'4 g4 |
   f4 g4 a4 d4 | e2. d,8 f8 | g4 a4 f4 f4 | f1 | r1 |

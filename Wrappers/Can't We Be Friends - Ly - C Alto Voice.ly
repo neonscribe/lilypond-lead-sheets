@@ -6,6 +6,6 @@
 
 subtitle = "Jane Powell, Maria Postell Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Can't We Be Friends - Ly Core - F.ly"

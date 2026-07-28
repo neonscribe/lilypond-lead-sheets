@@ -6,6 +6,6 @@
 
 subtitle = "Holly Cole, Stacey Kent Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Christmas Time Is Here - Ly Core - F.ly"

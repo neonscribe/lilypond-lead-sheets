@@ -47,28 +47,24 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Chet Baker 1955]" 176
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   d2 c4 ef4~ | ef1 | \tuplet 3/2 { d4 d4 d4 } d4 c4 | ef1 |
-  \break
   bf2 af4 c4~ | c1 | \tuplet 3/2 { bf4 bf bf4 } bf4 af4 | c1 |
 
   \sect "B"
 
   r4 af4 c4 af4 | g4 f4 ef4 d4 | bf'1~ | bf2 r2 |
-  \break
   r4 bf4 d4 bf4 | a4 g4 a4 bf4 | d2 d2 | c1 |
 
   \sect "A2"
 
   d2 c4 ef4~ | ef1 | \tuplet 3/2 { d4 d4 d4 } d4 c4 | ef1 |
-  \break
   bf2 af4 c4~ | c1 | \tuplet 3/2 { bf4 bf bf4 } bf4 af4 | c1 |
 
-  \sect "C"
+  \sectPageBreak "C"
 
   r4 af4 c4 af4 | g4 f4 ef4 d4 | bf'2 c2 | d2 ef2 |
-  \break
   ef2( ef,4) g4~ | g2 g2 | ef1~ | ef2 r2 |
 
   \bar "|."

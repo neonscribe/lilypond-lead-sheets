@@ -4,6 +4,6 @@
 
 subtitle = "Ella Mae Morse Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/On the Sunny Side of the Street - Ly Core - C.ly"

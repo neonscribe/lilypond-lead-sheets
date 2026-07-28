@@ -4,6 +4,6 @@
 
 subtitle = "Victoria Spivey Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Ain't Gonna Give Nobody None O' This Jelly Roll - Ly Core - Bb.ly"

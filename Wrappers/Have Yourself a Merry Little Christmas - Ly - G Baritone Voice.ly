@@ -5,7 +5,7 @@
 \include "english.ly"
 
 subtitle = "Frank Sinatra Key"
-whatKey = g
-whatClef = "treble"
+whatKey = g,
+whatClef = "treble_8"
 
 \include "../Core/Have Yourself a Merry Little Christmas - Ly Core - Bb.ly"

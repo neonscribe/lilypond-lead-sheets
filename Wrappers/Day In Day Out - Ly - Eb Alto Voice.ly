@@ -6,6 +6,6 @@
 
 subtitle = "Chris Connor Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Day In Day Out - Ly Core - C.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Doris Day, Sarah Vaughan Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Day by Day - Ly Core - G.ly"

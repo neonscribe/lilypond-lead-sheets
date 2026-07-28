@@ -4,6 +4,6 @@
 
 subtitle = "Anita O'Day Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Lullaby of the Leaves - Ly Core - Cm.ly"

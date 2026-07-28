@@ -4,6 +4,6 @@
 
 subtitle = "Rosemary Clooney Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Like Someone in Love - Ly Core - C.ly"

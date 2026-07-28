@@ -6,6 +6,6 @@
 
 subtitle = "Julie London Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/In the Still of the Night - Ly Core - F.ly"

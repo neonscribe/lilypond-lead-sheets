@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday, Peggy Lee Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Back in Your Own Backyard - Ly Core - G.ly"

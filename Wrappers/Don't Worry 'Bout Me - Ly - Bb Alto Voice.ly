@@ -6,6 +6,6 @@
 
 subtitle = "Joni Mitchell, Tierney Sutton Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Don't Worry 'Bout Me - Ly Core - Ab.ly"

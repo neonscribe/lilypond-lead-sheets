@@ -6,6 +6,6 @@
 
 subtitle = "Dorothy Lamour Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Perfidia - Ly Core - C.ly"

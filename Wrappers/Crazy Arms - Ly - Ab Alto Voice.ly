@@ -6,6 +6,6 @@
 
 subtitle = "Tanya Tucker Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Crazy Arms - Ly Core - F.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Jane Fielding, Karrin Allyson Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Wish I Knew - Ly Core - G.ly"

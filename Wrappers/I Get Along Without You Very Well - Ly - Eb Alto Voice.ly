@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday, June Christy, Carly Simon Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Get Along Without You Very Well - Ly Core - Bb.ly"

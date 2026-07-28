@@ -6,6 +6,6 @@
 
 subtitle = "Eden Atwood Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Day by Day - Ly Core - G.ly"

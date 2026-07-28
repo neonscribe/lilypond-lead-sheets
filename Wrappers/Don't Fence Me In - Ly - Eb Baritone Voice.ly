@@ -5,7 +5,7 @@
 \include "english.ly"
 
 subtitle = "Bing Crosby, Gene Autry, Willie Nelson Key"
-whatKey = ef
-whatClef = "treble"
+whatKey = ef,
+whatClef = "treble_8"
 
 \include "../Core/Don't Fence Me In - Ly Core - F.ly"

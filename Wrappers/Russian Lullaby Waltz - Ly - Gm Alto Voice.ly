@@ -6,6 +6,6 @@
 
 subtitle = "Dinah Shore Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Russian Lullaby Waltz - Ly Core - Cm.ly"

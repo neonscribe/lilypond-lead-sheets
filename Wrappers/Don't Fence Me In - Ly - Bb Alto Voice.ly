@@ -6,6 +6,6 @@
 
 subtitle = "Ella Fitzgerald, Holly Cole Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Don't Fence Me In - Ly Core - F.ly"

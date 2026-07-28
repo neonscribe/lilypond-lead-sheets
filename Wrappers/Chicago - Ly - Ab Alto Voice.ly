@@ -6,6 +6,6 @@
 
 subtitle = "Judy Garland Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Chicago - Ly Core - C.ly"

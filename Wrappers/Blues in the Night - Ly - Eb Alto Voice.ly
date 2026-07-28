@@ -6,7 +6,7 @@
 
 subtitle = "Ella Fitzgerald, Julie London, Peggy Lee Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

@@ -6,6 +6,6 @@
 
 subtitle = "Adele Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/If It Hadn't Been for Love - Ly Core - Am.ly"

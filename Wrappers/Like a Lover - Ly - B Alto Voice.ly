@@ -6,6 +6,6 @@
 
 subtitle = "Lani Hall (with Sergio Mendes) Key"
 whatKey = b,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Like a Lover - Ly Core - D.ly"

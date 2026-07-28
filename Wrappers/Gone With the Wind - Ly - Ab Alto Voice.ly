@@ -6,6 +6,6 @@
 
 subtitle = "Maxine Sullivan (with Claude Thornhill), Sarah Vaughan Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Gone With the Wind - Ly Core - Eb.ly"

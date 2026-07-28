@@ -4,6 +4,6 @@
 
 subtitle = "Ella Fitzgerald Key"
 whatKey = c'
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Do Nothin' Till You Hear From Me - Ly Core - G.ly"

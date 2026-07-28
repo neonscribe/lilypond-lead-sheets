@@ -6,6 +6,6 @@
 
 subtitle = "Peggy Lee, Anita O'Day, Betty Carter, Annette Hanshaw Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Let's Fall in Love - Ly Core - C.ly"

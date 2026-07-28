@@ -6,6 +6,6 @@
 
 subtitle = "Julie London Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I've Got My Love to Keep Me Warm - Ly Core - Eb.ly"

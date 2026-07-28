@@ -6,6 +6,6 @@
 
 subtitle = "Julie London, Carmen McRae Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Spring Can Really Hang You Up the Most - Ly Core - C.ly"

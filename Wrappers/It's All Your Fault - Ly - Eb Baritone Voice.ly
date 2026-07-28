@@ -3,8 +3,8 @@
 \include "english.ly"
 
 subtitle = "Leon McAuliffe (with Bob Wills) Key"
-whatKey = ef
-whatClef = "treble"
+whatKey = ef,
+whatClef = "treble_8"
 
 singerGender = "male"
 

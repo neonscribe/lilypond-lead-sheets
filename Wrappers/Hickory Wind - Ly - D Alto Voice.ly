@@ -6,6 +6,6 @@
 
 subtitle = "Emmylou Harris (Capo 3) Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Hickory Wind - Ly Core - F.ly"

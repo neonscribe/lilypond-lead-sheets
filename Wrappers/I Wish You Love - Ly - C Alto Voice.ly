@@ -6,6 +6,6 @@
 
 subtitle = "Dionne Warwick, Laufey Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Wish You Love - Ly Core - Eb.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Doris Day, Patti Page, Ella Fitzgerald, Samara Joy Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Christmas Song - Ly Core - Eb.ly"

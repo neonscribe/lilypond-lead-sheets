@@ -4,6 +4,6 @@
 
 subtitle = "Sarah Vaughan Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Lullaby of Birdland - Ly Core - Ab.ly"

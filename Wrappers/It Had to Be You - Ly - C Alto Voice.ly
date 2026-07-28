@@ -6,6 +6,6 @@
 
 subtitle = "Doris Day, Helen Forrest Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/It Had to Be You - Ly Core - G.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Edyth Wright (with Tommy Dorsey) Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Music Goes Round and Around - Ly Core - C.ly"

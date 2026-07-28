@@ -4,6 +4,6 @@
 
 subtitle = "Standard Key"
 whatKey = g
-whatClef = "treble_8"
+whatClef = "treble"
 
 \include "../Core/Ain't Nothin' Like Christmas - Ly Core - G.ly"

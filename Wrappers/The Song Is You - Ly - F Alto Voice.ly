@@ -6,6 +6,6 @@
 
 subtitle = "Doris Day Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Song Is You - Ly Core - C.ly"

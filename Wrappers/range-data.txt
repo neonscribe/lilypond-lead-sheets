@@ -287,8 +287,8 @@ bes'
 
 A Hundred Years From Today - Ly - Bb Baritone Voice.ly
 refrain
-bes
-c''
+bes,
+c'
 
 A Hundred Years From Today - Ly - Eb Bass for Standard.ly
 refrain
@@ -507,8 +507,8 @@ b
 
 Act Naturally - Ly - E Baritone Voice.ly
 refrain
+cis
 cis'
-cis''
 
 Act Naturally - Ly - G Bass for Standard.ly
 refrain
@@ -657,8 +657,8 @@ b'
 
 Agua de Beber - Ly - Bm Baritone Voice.ly
 refrain
-gis
-b'
+gis,
+b
 
 Agua de Beber - Ly - Bm Standard.ly
 refrain
@@ -672,13 +672,13 @@ c''
 
 Agua de Beber - Ly - Dm Baritone Voice.ly
 refrain
-b
-d''
+b,
+d'
 
 Agua de Beber - Ly - Gsm Baritone Voice.ly
 refrain
-f'
-gis''
+f
+gis'
 
 Ain't Misbehavin' - Ly - C Bass for Standard.ly
 refrain
@@ -1195,8 +1195,8 @@ b'
 
 Almost Like Being in Love - Ly - G Baritone Voice.ly
 refrain
-d'
-cis''
+d
+cis'
 
 Alone Together - Ly - Am Alto Voice.ly
 refrain
@@ -1520,8 +1520,8 @@ cis''
 
 Angel From Montgomery - Ly - G Baritone Voice.ly
 refrain
+d
 d'
-d''
 
 Anthropology - Ly - Bb Bass for Standard.ly
 refrain
@@ -2196,8 +2196,8 @@ f'
 
 Baby Won't You Please Come Home - Ly - D Baritone Voice.ly
 refrain
+a,
 a
-a'
 
 Baby Won't You Please Come Home - Ly - F Bass for Standard.ly
 refrain
@@ -3192,13 +3192,13 @@ a'
 
 Blue Christmas - Ly - C Baritone Voice Simple Chords.ly
 refrain
-g'
-a''
+g
+a'
 
 Blue Christmas - Ly - C Baritone Voice.ly
 refrain
-g'
-a''
+g
+a'
 
 Blue Christmas - Ly - Db Alto Voice Simple Chords.ly
 refrain
@@ -3212,13 +3212,13 @@ bes'
 
 Blue Christmas - Ly - E Baritone Voice Simple Chords.ly
 refrain
-b
-cis''
+b,
+cis'
 
 Blue Christmas - Ly - E Baritone Voice.ly
 refrain
-b
-cis''
+b,
+cis'
 
 Blue Christmas - Ly - Eb Alto Voice Simple Chords.ly
 refrain
@@ -3737,8 +3737,8 @@ gis''
 
 Body and Soul - Ly - Bb Baritone Voice.ly
 refrain
-fis
-cis''
+fis,
+cis'
 
 Body and Soul - Ly - Db Bass for Standard.ly
 refrain
@@ -4347,8 +4347,8 @@ b'
 
 California Stars - Ly - G Baritone Voice.ly
 refrain
-e'
-c''
+e
+c'
 
 Call Me - Ly - C Bass for Standard.ly
 refrain
@@ -4472,8 +4472,8 @@ c''
 
 Can't We Be Friends - Ly - Db Baritone Voice.ly
 refrain
-aes
-des''
+aes,
+des'
 
 Can't We Be Friends - Ly - F Bass for Standard.ly
 refrain
@@ -4572,8 +4572,8 @@ d''
 
 Cash on the Barrelhead - Ly - E Baritone Voice.ly
 refrain
-b
-fis''
+b,
+fis'
 
 Cash on the Barrelhead - Ly - F Bass for Standard.ly
 refrain
@@ -4997,8 +4997,8 @@ f'
 
 Chinatown My Chinatown - Ly - Bb Baritone Voice.ly
 refrain
-bes
-d''
+bes,
+d'
 
 Chinatown My Chinatown - Ly - C Bass for Standard.ly
 refrain
@@ -5032,8 +5032,8 @@ a'
 
 Chinatown My Chinatown - Ly - G Baritone Voice.ly
 refrain
-g
-b'
+g,
+b
 
 Chitlins Con Carne - Ly - C Bass for Standard.ly
 refrain
@@ -5077,8 +5077,8 @@ cis'
 
 Christmas Time Is Here - Ly - Eb Baritone Voice.ly
 refrain
-c'
-d''
+c
+d'
 
 Christmas Time Is Here - Ly - F Bass for Standard.ly
 refrain
@@ -5107,13 +5107,13 @@ fis''
 
 City Lights - Ly - A Baritone Voice.ly
 refrain
-dis'
-d''
+dis
+d'
 
 City Lights - Ly - Bb Baritone Voice.ly
 refrain
-e'
-ees''
+e
+ees'
 
 City Lights - Ly - C Alto Voice.ly
 refrain
@@ -5132,8 +5132,8 @@ a'
 
 City Lights - Ly - F Baritone Voice.ly
 refrain
-b
-bes'
+b,
+bes
 
 City Lights - Ly - G Bass for Standard.ly
 refrain
@@ -5667,8 +5667,8 @@ bes'
 
 Crazy Arms - Ly - D Baritone Voice.ly
 refrain
-a
-c''
+a,
+c'
 
 Crazy Arms - Ly - F Bass for Standard.ly
 refrain
@@ -5697,8 +5697,8 @@ f''
 
 Crazy Arms - Ly - G Baritone Voice.ly
 refrain
-d'
-f''
+d
+f'
 
 Crazy He Calls Me - Ly - Bb Alto Voice.ly
 refrain
@@ -5707,8 +5707,8 @@ g'
 
 Crazy He Calls Me - Ly - Bb Baritone Voice.ly
 refrain
-f'
-g''
+f
+g'
 
 Crazy He Calls Me - Ly - C Alto Voice.ly
 refrain
@@ -5727,13 +5727,13 @@ c''
 
 Crazy He Calls Me - Ly - Eb Baritone Voice.ly
 refrain
-bes
-c''
+bes,
+c'
 
 Crazy He Calls Me - Ly - F Baritone Voice.ly
 refrain
-c'
-d''
+c
+d'
 
 Crazy He Calls Me - Ly - F Bass for Standard.ly
 refrain
@@ -6307,8 +6307,8 @@ a'
 
 Deep in a Dream - Ly - Bb Baritone Voice.ly
 refrain
-a
-des''
+a,
+des'
 
 Deep in a Dream - Ly - C Bass for Standard.ly
 refrain
@@ -6479,13 +6479,13 @@ c''
 
 Detour - Ly - Bb Baritone Voice.ly
 refrain
-f
-bes'
+f,
+bes
 
 Detour - Ly - D Baritone Voice.ly
 refrain
-a
-d''
+a,
+d'
 
 Detour - Ly - Eb Bass for Standard.ly
 refrain
@@ -6569,8 +6569,8 @@ bes'
 
 Devil May Care - Ly - Em Baritone Voice.ly
 refrain
-b
-d''
+b,
+d'
 
 Devil May Care - Ly - Gm Bass for Standard.ly
 refrain
@@ -6994,23 +6994,23 @@ bes'
 
 Don't Fence Me In - Ly - C Baritone Voice.ly
 refrain
-g
-bes'
+g,
+bes
 
 Don't Fence Me In - Ly - D Baritone Voice.ly
 refrain
-a
-c''
+a,
+c'
 
 Don't Fence Me In - Ly - E Baritone Voice.ly
 refrain
-b
-d''
+b,
+d'
 
 Don't Fence Me In - Ly - Eb Baritone Voice.ly
 refrain
-bes
-des''
+bes,
+des'
 
 Don't Fence Me In - Ly - F Bass for Standard.ly
 refrain
@@ -7039,8 +7039,8 @@ f''
 
 Don't Fence Me In - Ly - G Baritone Voice.ly
 refrain
-d'
-f''
+d
+f'
 
 Don't Get Around Much Anymore - Ly - C Bass for Standard.ly
 refrain
@@ -7174,8 +7174,8 @@ a'
 
 Dont Think Twice Its All Right - Ly - E Baritone Voice.ly
 refrain
-e
-b'
+e,
+b
 
 Dont Think Twice Its All Right - Ly - G Bass for Standard.ly
 refrain
@@ -7594,13 +7594,13 @@ c''
 
 El Paso - Ly - Bb Baritone Voice.ly
 refrain
-f
-d''
+f,
+d'
 
 El Paso - Ly - C Baritone Voice.ly
 refrain
-g
-e''
+g,
+e'
 
 El Paso - Ly - D Bass for Standard.ly
 refrain
@@ -7854,8 +7854,8 @@ f''
 
 Este Seu Olhar - Ly - F Alto Voice.ly
 refrain
-gis'
-a''
+gis
+a'
 
 Este Seu Olhar - Ly - F Bass for Standard.ly
 refrain
@@ -8429,8 +8429,8 @@ cis''
 
 Fools Rush In - Ly - A Baritone Voice.ly
 refrain
-a
-cis''
+a,
+cis'
 
 Fools Rush In - Ly - C Bass for Standard.ly
 refrain
@@ -8544,8 +8544,8 @@ a'
 
 For Sentimental Reasons - Ly - Db Baritone Voice.ly
 refrain
-aes
-c''
+aes,
+c'
 
 For Sentimental Reasons - Ly - F Bass for Standard.ly
 refrain
@@ -9173,8 +9173,8 @@ e''
 
 Hallelujah I Love Him (Her) So - Ly - Bb Baritone Voice.ly
 refrain
-f'
-g''
+f
+g'
 
 Hallelujah I Love Him (Her) So - Ly - C Alto Voice.ly
 refrain
@@ -9348,8 +9348,8 @@ c''
 
 Have Yourself a Merry Little Christmas - Ly - G Baritone Voice.ly
 refrain
-g
-c''
+g,
+c'
 
 Have Yourself a Merry Little Christmas - Ly - G Bass for Baritone Voice.ly
 refrain
@@ -9403,18 +9403,18 @@ a'
 
 He'll Have to Go - Ly - C Baritone Voice.ly
 refrain
-f
-bes'
+f,
+bes
 
 He'll Have to Go - Ly - D Baritone Voice.ly
 refrain
-g
-c''
+g,
+c'
 
 He'll Have to Go - Ly - Db Baritone Voice.ly
 refrain
-ges
-b'
+ges,
+b
 
 He'll Have to Go - Ly - F Bass for Standard.ly
 refrain
@@ -9473,8 +9473,8 @@ e''
 
 Heartaches by the Number - Ly - A Baritone Voice.ly
 refrain
-cis'
-d''
+cis
+d'
 
 Heartaches by the Number - Ly - Bb Bass for Standard.ly
 refrain
@@ -9508,8 +9508,8 @@ g'
 
 Heartaches by the Number - Ly - D Baritone Voice.ly
 refrain
-fis
-g'
+fis,
+g
 
 Heartaches by the Number - Ly - Eb Alto Voice.ly
 refrain
@@ -9523,13 +9523,13 @@ bes'
 
 Heartaches by the Number - Ly - G Baritone Voice.ly
 refrain
-b
-c''
+b,
+c'
 
 Hello Trouble - Ly - A Baritone Voice.ly
 refrain
-a
-cis''
+a,
+cis'
 
 Hello Trouble - Ly - C Bass for Standard.ly
 refrain
@@ -9558,8 +9558,8 @@ fis''
 
 Hello Trouble - Ly - Db Baritone Voice.ly
 refrain
-des'
-f''
+des
+f'
 
 Hello Trouble - Ly - F Alto Voice.ly
 refrain
@@ -9723,8 +9723,8 @@ e''
 
 Hickory Wind - Ly - G Baritone Voice.ly
 refrain
-c'
-e''
+c
+e'
 
 Hit That Jive Jack - Ly - Bb Alto Voice.ly
 refrain
@@ -9778,8 +9778,8 @@ ees'
 
 Home When Shadows Fall - Ly - Eb Baritone Voice.ly
 refrain
-c'
-ees''
+c
+ees'
 
 Home When Shadows Fall - Ly - F Bass for Standard.ly
 refrain
@@ -10068,13 +10068,13 @@ bes'
 
 Husbands and Wives - Ly - Bb Baritone Voice.ly
 refrain
-f
-bes'
+f,
+bes
 
 Husbands and Wives - Ly - C Baritone Voice.ly
 refrain
-g
-c''
+g,
+c'
 
 Husbands and Wives - Ly - F Bass for Standard.ly
 refrain
@@ -10318,8 +10318,8 @@ cis''
 
 I Can't Stop Loving You - Ly - B Baritone Voice.ly
 refrain
-b
-dis''
+b,
+dis'
 
 I Can't Stop Loving You - Ly - C Bass for Standard.ly
 refrain
@@ -10358,8 +10358,8 @@ a'
 
 I Can't Stop Loving You - Ly - F Baritone Voice.ly
 refrain
-f'
-a''
+f
+a'
 
 I Concentrate on You - Ly - Bb Alto Voice.ly
 refrain
@@ -11011,8 +11011,8 @@ bes'
 
 I Guess I'll Hang My Tears Out to Dry - Ly - Bb Baritone Voice.ly
 refrain
-a
-c''
+a,
+c'
 
 I Guess I'll Hang My Tears Out to Dry - Ly - C Bass for Standard.ly
 refrain
@@ -11499,8 +11499,8 @@ c''
 
 I Should Care - Ly - Bb Baritone Voice.ly
 refrain
-bes
-c''
+bes,
+c'
 
 I Should Care - Ly - C Bass for Standard.ly
 refrain
@@ -11765,8 +11765,8 @@ a'
 
 I Wish I Knew - Ly - D Baritone Voice.ly
 refrain
-gis
-b'
+gis,
+b
 
 I Wish I Knew - Ly - Db Alto Voice.ly
 refrain
@@ -11950,13 +11950,13 @@ c''
 
 I'll Be Around - Ly - Ab Baritone Voice.ly
 refrain
-aes
-c''
+aes,
+c'
 
 I'll Be Around - Ly - Bb Baritone Voice.ly
 refrain
-bes
-d''
+bes,
+d'
 
 I'll Be Around - Ly - C Bass for Standard.ly
 refrain
@@ -12000,8 +12000,8 @@ b'
 
 I'll Be Home for Christmas - Ly - Bb Baritone Voice.ly
 refrain
-c'
-d''
+c
+d'
 
 I'll Be Home for Christmas - Ly - C Bass for Standard.ly
 refrain
@@ -12040,8 +12040,8 @@ a'
 
 I'll Be Home for Christmas - Ly - G Baritone Voice.ly
 refrain
-a
-b'
+a,
+b
 
 I'll Feel a Whole Lot Better - Ly - A Bass Line for Standard.ly
 refrain
@@ -12085,8 +12085,8 @@ aes'
 
 I'll Never Smile Again - Ly - C Baritone Voice.ly
 refrain
-a
-c''
+a,
+c'
 
 I'll Never Smile Again - Ly - Eb Bass for Standard.ly
 refrain
@@ -12300,8 +12300,8 @@ fis''
 
 I'm a Lonesome Fugitive - Ly - A Baritone Voice.ly
 refrain
-d'
-e''
+d
+e'
 
 I'm a Lonesome Fugitive - Ly - D Alto Voice.ly
 refrain
@@ -12310,8 +12310,8 @@ a'
 
 I'm a Lonesome Fugitive - Ly - Fs Baritone Voice.ly
 refrain
-b
-cis''
+b,
+cis'
 
 I'm a Lonesome Fugitive - Ly - G Bass for Standard.ly
 refrain
@@ -12340,8 +12340,8 @@ b''
 
 I'm a Lonesome Fugitive - Ly - Gb Baritone Voice.ly
 refrain
-b
-des''
+b,
+des'
 
 I'm an Old Cowhand - Ly - C Alto Voice.ly
 refrain
@@ -12605,8 +12605,8 @@ e''
 
 I'm in the Mood for Love - Ly - Db Baritone Voice.ly
 refrain
-c'
-ees''
+c
+ees'
 
 I'm in the Mood for Love - Ly - F Alto Voice.ly
 refrain
@@ -12810,8 +12810,8 @@ g''
 
 I've Never Been in Love Before - Ly - Ab Baritone Voice.ly
 refrain
-aes
-des''
+aes,
+des'
 
 I've Never Been in Love Before - Ly - Bb Bass for Standard.ly
 refrain
@@ -12850,8 +12850,8 @@ c''
 
 I've Never Been in Love Before - Ly - G Baritone Voice.ly
 refrain
-g
-c''
+g,
+c'
 
 If I Could Be With You - Ly - Eb Bass for Standard.ly
 refrain
@@ -12945,8 +12945,8 @@ a'
 
 If I Only Had a Brain - Ly - D Baritone Voice.ly
 refrain
-a
-cis''
+a,
+cis'
 
 If I Only Had a Brain - Ly - Eb Standard for Viola.ly
 refrain
@@ -13160,8 +13160,8 @@ bes'
 
 Im Left Youre Right Shes Gone - Ly - E Baritone Voice.ly
 refrain
-b
-cis''
+b,
+cis'
 
 Im Left Youre Right Shes Gone - Ly - F Bass for Standard.ly
 refrain
@@ -13195,8 +13195,8 @@ e''
 
 Im Left Youre Right Shes Gone - Ly - Gb Baritone Voice.ly
 refrain
-des'
-ees''
+des
+ees'
 
 Imagination - Ly - Ab Alto Voice.ly
 refrain
@@ -13445,8 +13445,8 @@ bes'
 
 In the Wee Small Hours of the Morning - Ly - Bb Baritone Voice.ly
 refrain
-a
-c''
+a,
+c'
 
 In the Wee Small Hours of the Morning - Ly - C Bass for Standard.ly
 refrain
@@ -13702,8 +13702,8 @@ bes'
 
 Is Anybody Goin' to San Antone - Ly - D Baritone Voice.ly
 refrain
-a
-b'
+a,
+b
 
 Is Anybody Goin' to San Antone - Ly - F Standard for Viola.ly
 refrain
@@ -14079,13 +14079,13 @@ b'
 
 It Never Entered My Mind - Ly - D Baritone Voice.ly
 refrain
-a
-cis''
+a,
+cis'
 
 It Never Entered My Mind - Ly - Db Baritone Voice.ly
 refrain
-aes
-c''
+aes,
+c'
 
 It Never Entered My Mind - Ly - F Bass for Standard.ly
 refrain
@@ -14264,8 +14264,8 @@ a'
 
 It's All Your Fault - Ly - Eb Baritone Voice.ly
 refrain
+bes,
 bes
-bes'
 
 It's Always You - Ly - Ab Bass for Standard.ly
 refrain
@@ -14324,8 +14324,8 @@ ees''
 
 It's Easy to Remember - Ly - C Baritone Voice.ly
 refrain
-b
-c''
+b,
+c'
 
 It's Easy to Remember - Ly - Eb Bass for Standard.ly
 refrain
@@ -14524,8 +14524,8 @@ fis''
 
 Jambalaya - Ly - E Baritone Voice.ly
 refrain
-e'
-gis''
+e
+gis'
 
 Jambalaya - Ly - E Bass for Baritone Voice.ly
 refrain
@@ -14679,8 +14679,8 @@ gis''
 
 Jingle Bell Rock - Ly - Bb Baritone Voice.ly
 refrain
-c'
-cis''
+c
+cis'
 
 Jingle Bell Rock - Ly - C Bass for Standard.ly
 refrain
@@ -14709,8 +14709,8 @@ f''
 
 Jingle Bell Rock - Ly - D Baritone Voice.ly
 refrain
-e'
-f''
+e
+f'
 
 Jingle Bell Rock - Ly - D Bass for Baritone Voice.ly
 refrain
@@ -15069,8 +15069,8 @@ g''
 
 Just You Just Me - Ly - Bb Baritone Voice.ly
 refrain
-bes
-c''
+bes,
+c'
 
 Just You Just Me - Ly - C Bass for Standard.ly
 refrain
@@ -15252,19 +15252,19 @@ ais'
 
 Knee Deep in the Blues - Ly - A Baritone Voice.ly
 intro
-a
-cis''
+a,
+cis'
 refrain
-d'
-cis''
+d
+cis'
 
 Knee Deep in the Blues - Ly - Bb Baritone Voice.ly
 intro
-bes
-d''
+bes,
+d'
 refrain
-ees'
-d''
+ees
+d'
 
 Knee Deep in the Blues - Ly - C Bass for Standard.ly
 intro
@@ -15308,11 +15308,11 @@ fis''
 
 Knee Deep in the Blues - Ly - D Baritone Voice.ly
 intro
-d'
-fis''
+d
+fis'
 refrain
-g'
-fis''
+g
+fis'
 
 Lady Be Good - Ly - Bb Alto Voice.ly
 refrain
@@ -15466,8 +15466,8 @@ b'
 
 Last Thing I Needed - Ly - C Baritone Voice.ly
 refrain
-c'
-e''
+c
+e'
 
 Last Thing I Needed - Ly - E Standard for Viola.ly
 refrain
@@ -15531,8 +15531,8 @@ b''
 
 Lazy Afternoon - Ly - Bm Baritone Voice.ly
 refrain
-b
-e''
+b,
+e'
 
 Lazy Afternoon - Ly - Em Alto Voice.ly
 refrain
@@ -15546,8 +15546,8 @@ bes'
 
 Lazy Afternoon - Ly - Gm Baritone Voice.ly
 refrain
-g
-c''
+g,
+c'
 
 Lazy Bird - Ly - G Bass for Standard.ly
 refrain
@@ -15681,8 +15681,8 @@ bes'
 
 Let's Do It - Ly - G Baritone Voice.ly
 refrain
-bes
-c''
+bes,
+c'
 
 Let's Face the Music and Dance - Ly - C Bass for Standard.ly
 refrain
@@ -15796,8 +15796,8 @@ c'
 
 Let's Get Lost - Ly - C Baritone Voice.ly
 refrain
-b
-c''
+b,
+c'
 
 Let's Get Lost - Ly - C Bass for Alto Voice.ly
 refrain
@@ -15876,13 +15876,13 @@ e''
 
 Like Someone in Love - Ly - Ab Baritone Voice.ly
 refrain
-bes
-c''
+bes,
+c'
 
 Like Someone in Love - Ly - Bb Baritone Voice.ly
 refrain
-c'
-d''
+c
+d'
 
 Like Someone in Love - Ly - C Bass for Standard.ly
 refrain
@@ -16445,13 +16445,13 @@ aes'
 
 Love Letters - Ly - Eb Baritone Voice.ly
 refrain
+bes,
 bes
-bes'
 
 Love Letters - Ly - F Baritone Voice.ly
 refrain
+c
 c'
-c''
 
 Love Letters - Ly - G Bass for Standard.ly
 refrain
@@ -16490,8 +16490,8 @@ g'
 
 Love Letters Three - Ly - F Baritone Voice.ly
 refrain
+c
 c'
-c''
 
 Love Letters Three - Ly - G Bass for Standard.ly
 refrain
@@ -17228,13 +17228,13 @@ gis''
 
 Me and My Shadow - Ly - Bb Baritone Voice.ly
 refrain
+bes,
 bes
-bes'
 
 Me and My Shadow - Ly - D Baritone Voice.ly
 refrain
+d
 d'
-d''
 
 Me and My Shadow - Ly - Eb Bass for Standard.ly
 refrain
@@ -18458,8 +18458,8 @@ c''
 
 My Ideal - Ly - C Baritone Voice.ly
 refrain
-g
-c''
+g,
+c'
 
 My Ideal - Ly - Eb Bass for Standard.ly
 refrain
@@ -18713,8 +18713,8 @@ c''
 
 My Ship - Ly - D Baritone Voice.ly
 refrain
-a
-d''
+a,
+d'
 
 My Ship - Ly - F Bass for Standard.ly
 refrain
@@ -19053,8 +19053,8 @@ d''
 
 Night Life - Ly - A Baritone Voice.ly
 refrain
-e
-a'
+e,
+a
 
 Night Life - Ly - Bb Alto Voice.ly
 refrain
@@ -19063,13 +19063,13 @@ bes'
 
 Night Life - Ly - C Baritone Voice.ly
 refrain
-g
-c''
+g,
+c'
 
 Night Life - Ly - D Baritone Voice.ly
 refrain
-a
-d''
+a,
+d'
 
 Night Life - Ly - Eb Bass for Standard.ly
 refrain
@@ -19402,27 +19402,27 @@ bes'
 
 Oh Lonesome Me Four - Ly - C Baritone Voice.ly
 intro
-c'
-c'
+c
+c
 refrain
-b
-c''
+b,
+c'
 
 Oh Lonesome Me Four - Ly - D Baritone Voice.ly
 intro
-d'
-d'
+d
+d
 refrain
-cis'
-d''
+cis
+d'
 
 Oh Lonesome Me Four - Ly - E Baritone Voice.ly
 intro
-e'
-e'
+e
+e
 refrain
-dis'
-e''
+dis
+e'
 
 Oh Lonesome Me Four - Ly - Eb Bass for Standard.ly
 intro
@@ -19474,13 +19474,13 @@ g'
 
 Oh Lonesome Me Waltz - Ly - C Baritone Voice.ly
 refrain
-c'
-d''
+c
+d'
 
 Oh Lonesome Me Waltz - Ly - E Baritone Voice.ly
 refrain
-e'
-fis''
+e
+fis'
 
 Oh Lonesome Me Waltz - Ly - Eb Bass for Standard.ly
 refrain
@@ -19579,8 +19579,8 @@ c''
 
 Ole Buttermilk Sky - Ly - D Baritone Voice.ly
 refrain
-a
-d''
+a,
+d'
 
 Ole Buttermilk Sky - Ly - Eb Bass for Standard.ly
 refrain
@@ -19814,8 +19814,8 @@ c'''
 
 On the Street Where You Live - Ly - C Baritone Voice.ly
 refrain
-c'
-f''
+c
+f'
 
 On the Street Where You Live - Ly - F Alto Voice.ly
 refrain
@@ -20044,8 +20044,8 @@ c''
 
 Only Daddy That'll Walk the Line - Ly - D Baritone Voice.ly
 refrain
-d'
-e''
+d
+e'
 
 Only Daddy That'll Walk the Line - Ly - E Bass for Standard.ly
 refrain
@@ -20074,8 +20074,8 @@ gis''
 
 Only Daddy That'll Walk the Line - Ly - Eb Baritone Voice.ly
 refrain
-ees'
-f''
+ees
+f'
 
 Only Daddy That'll Walk the Line - Ly - G Alto Voice.ly
 refrain
@@ -20434,8 +20434,8 @@ c''
 
 Petite Fleur - Ly - Cm Baritone Voice.ly
 refrain
-g
-des''
+g,
+des'
 
 Petite Fleur - Ly - Gm Bass for Standard.ly
 refrain
@@ -20494,13 +20494,13 @@ a'
 
 Pick Me Up on Your Way Down - Ly - D Baritone Voice.ly
 refrain
-a
-b'
+a,
+b
 
 Pick Me Up on Your Way Down - Ly - F Baritone Voice.ly
 refrain
-c'
-d''
+c
+d'
 
 Pick Me Up on Your Way Down - Ly - G Standard for Viola.ly
 refrain
@@ -20554,8 +20554,8 @@ c''
 
 Please Don't Talk About Me When I'm Gone - Ly - C Baritone Voice.ly
 refrain
-c'
-d''
+c
+d'
 
 Please Don't Talk About Me When I'm Gone - Ly - Eb Bass for Standard.ly
 refrain
@@ -20589,8 +20589,8 @@ a'
 
 Please Don't Talk About Me When I'm Gone - Ly - G Baritone Voice.ly
 refrain
-g
-a'
+g,
+a
 
 Please Don't Talk About Me When I'm Gone - Ly - G Bass for Alto Voice.ly
 refrain
@@ -21030,13 +21030,13 @@ g'
 
 Right or Wrong - Ly - D Baritone Voice.ly
 refrain
-gis
-a'
+gis,
+a
 
 Right or Wrong - Ly - F Baritone Voice.ly
 refrain
-b
-c''
+b,
+c'
 
 Right or Wrong - Ly - G Standard for Viola.ly
 refrain
@@ -21095,13 +21095,13 @@ g''
 
 River Stay Way From My Door - Ly - F Baritone Voice.ly
 refrain
-f'
-g''
+f
+g'
 
 River Stay Way From My Door - Ly - F to G for Bb for Baritone Voice.ly
 refrain
-g'
-a''
+g
+a'
 
 River Stay Way From My Door - Ly - G Alto Voice.ly
 refrain
@@ -21340,11 +21340,11 @@ aes''
 
 Route 66 - Ly - A Baritone Voice.ly
 intro
-cis'
-d'''
+cis
+d''
 refrain
-e'
-g''
+e
+g'
 
 Route 66 - Ly - Bb Alto Voice.ly
 intro
@@ -21356,11 +21356,11 @@ aes'
 
 Route 66 - Ly - Bb Baritone Voice.ly
 intro
-d'
-ees'''
+d
+ees''
 refrain
-f'
-aes''
+f
+aes'
 
 Route 66 - Ly - C Alto Voice.ly
 intro
@@ -21382,11 +21382,11 @@ Route 66 - Ly - C Guitar Solo for Standard.ly
 
 Route 66 - Ly - D Baritone Voice.ly
 intro
-fis
-g''
+fis,
+g'
 refrain
-a
-c''
+a,
+c'
 
 Route 66 - Ly - E Alto Voice.ly
 intro
@@ -21448,11 +21448,11 @@ f''
 
 Route 66 - Ly - G Baritone Voice.ly
 intro
-b
-c'''
+b,
+c''
 refrain
-d'
-f''
+d
+f'
 
 Route 66 - Ly - G Guitar Solo for Standard.ly
 
@@ -21638,8 +21638,8 @@ fis''
 
 San Antonio Rose - Ly - A Baritone Voice.ly
 refrain
-a
-dis''
+a,
+dis'
 
 San Antonio Rose - Ly - Bb Bass for Standard.ly
 refrain
@@ -21678,8 +21678,8 @@ gis''
 
 San Antonio Rose - Ly - E Baritone Voice.ly
 refrain
-e'
-ais''
+e
+ais'
 
 San Antonio Rose - Ly - F Alto Voice.ly
 refrain
@@ -21768,8 +21768,8 @@ c''
 
 Scotch and Soda - Ly - C Baritone Voice.ly
 refrain
-aes
-c''
+aes,
+c'
 
 Scotch and Soda - Ly - Eb Bass for Standard.ly
 refrain
@@ -22214,8 +22214,8 @@ f'
 
 Silver Bells - Ly - Ab Baritone Voice.ly
 refrain
+c
 c'
-c''
 
 Silver Bells - Ly - Bb Bass for Standard.ly
 refrain
@@ -22264,13 +22264,13 @@ b'
 
 Sin City - Ly - D Baritone Voice.ly
 refrain
-fis
-g'
+fis,
+g
 
 Sin City - Ly - Eb Baritone Voice.ly
 refrain
-g
-aes'
+g,
+aes
 
 Sin City - Ly - F Bass for Standard.ly
 refrain
@@ -22369,8 +22369,8 @@ b'
 
 Sixteen Tons - Ly - Am Baritone Voice.ly
 refrain
-e
-a'
+e,
+a
 
 Sixteen Tons - Ly - Bm Bass for Standard.ly
 refrain
@@ -22404,8 +22404,8 @@ gis''
 
 Sixteen Tons - Ly - Cm Baritone Voice.ly
 refrain
-g
-c''
+g,
+c'
 
 Sixteen Tons - Ly - Csm Alto Voice.ly
 refrain
@@ -22414,23 +22414,23 @@ cis''
 
 Sixteen Tons - Ly - Dm Baritone Voice.ly
 refrain
-a
-d''
+a,
+d'
 
 Sixteen Tons - Ly - Em Baritone Voice.ly
 refrain
-b
-e''
+b,
+e'
 
 Sixteen Tons - Ly - Fm Baritone Voice.ly
 refrain
-c'
-f''
+c
+f'
 
 Sixteen Tons - Ly - Gm Baritone Voice.ly
 refrain
-d'
-g''
+d
+g'
 
 Skylark - Ly - Ab Alto Voice.ly
 refrain
@@ -22514,8 +22514,8 @@ bes'
 
 Sleigh Ride - Ly - E Baritone Voice.ly
 refrain
-fis
-cis''
+fis,
+cis'
 
 Sleigh Ride - Ly - Eb Alto Voice.ly
 refrain
@@ -22554,8 +22554,8 @@ cis''
 
 Sleigh Ride - Ly - Gb Baritone Voice.ly
 refrain
-aes
-ees''
+aes,
+ees'
 
 Small Day Tomorrow - Ly - Am Bass for Standard.ly
 refrain
@@ -22594,8 +22594,8 @@ bes'
 
 Small Day Tomorrow - Ly - Gm Baritone Voice.ly
 refrain
-g
-bes'
+g,
+bes
 
 Smile - Ly - C Alto Voice.ly
 refrain
@@ -22934,8 +22934,8 @@ c''
 
 Someday My Prince Will Come - Ly - Bb Baritone Voice.ly
 refrain
-f
-c''
+f,
+c'
 
 Someday My Prince Will Come - Ly - Bb Bass for Standard.ly
 refrain
@@ -23309,8 +23309,8 @@ f''
 
 Speak Softly, Love - Ly - Bbm Baritone Voice.ly
 refrain
-a
-des''
+a,
+des'
 
 Speak Softly, Love - Ly - Cm Bass for Standard.ly
 refrain
@@ -24553,8 +24553,8 @@ a''
 
 Sunday - Ly - C Baritone Voice.ly
 refrain
+d
 d'
-d''
 
 Sunday - Ly - F Alto Voice.ly
 refrain
@@ -25313,8 +25313,8 @@ g'
 
 The Christmas Song - Ly - A Baritone Voice.ly
 refrain
-gis'
-a''
+gis
+a'
 
 The Christmas Song - Ly - Ab Alto Voice.ly
 refrain
@@ -25328,13 +25328,13 @@ bes'
 
 The Christmas Song - Ly - C Baritone Voice.ly
 refrain
-b
-c''
+b,
+c'
 
 The Christmas Song - Ly - Db Baritone Voice.ly
 refrain
-c'
-des''
+c
+des'
 
 The Christmas Song - Ly - Eb Bass for Standard.ly
 refrain
@@ -25600,8 +25600,8 @@ bes'
 
 The Gentle Rain - Ly - Fm Baritone Voice.ly
 refrain
-g
-bes'
+g,
+bes
 
 The Gentle Rain - Ly - Fm Bass for Baritone Voice.ly
 refrain
@@ -25610,13 +25610,13 @@ bes
 
 The Gentle Rain - Ly - Fm to Gm for Bb High for Baritone Voice.ly
 refrain
-a'
-c'''
+a
+c''
 
 The Gentle Rain - Ly - Fm to Gm for Bb Low for Baritone Voice.ly
 refrain
-a
-c''
+a,
+c'
 
 The Gentle Rain - Ly - Gm Alto Voice.ly
 refrain
@@ -25855,13 +25855,13 @@ c''
 
 The Lamp Is Low - Ly - Eb Baritone Voice.ly
 refrain
-bes
-c''
+bes,
+c'
 
 The Lamp Is Low - Ly - F Baritone Voice.ly
 refrain
-c'
-d''
+c
+d'
 
 The Lamp Is Low - Ly - G Bass for Standard.ly
 refrain
@@ -25960,8 +25960,8 @@ dis''
 
 The Long Black Veil - Ly - G Baritone Voice.ly
 refrain
-d'
-e''
+d
+e'
 
 The Look of Love - Ly - Bb Alto Voice.ly
 refrain
@@ -26120,8 +26120,8 @@ e''
 
 The Music Goes Round and Around - Ly - Eb Baritone Voice.ly
 refrain
-ees
-f'
+ees,
+f
 
 The Music Goes Round and Around - Ly - F Alto Voice.ly
 refrain
@@ -26145,8 +26145,8 @@ e''
 
 The Music Goes Round Ella - Ly - Eb Baritone Voice.ly
 refrain
-ees'
-g''
+ees
+g'
 
 The Music Goes Round Ella - Ly - F Alto Voice.ly
 refrain
@@ -26295,8 +26295,8 @@ d''
 
 The Rainbow Connection - Ly - A Baritone Voice.ly
 refrain
-b
-cis''
+b,
+cis'
 
 The Rainbow Connection - Ly - C Alto Voice.ly
 refrain
@@ -26420,11 +26420,11 @@ bes'
 
 The Thrill Is Gone - Ly - Cm Baritone Voice.ly
 verse
-d'
-b'
+d
+b
 refrain
-c'
-ees''
+c
+ees'
 
 The Thrill Is Gone - Ly - Dm Bass for Standard.ly
 verse
@@ -26598,19 +26598,19 @@ c''
 
 The Way You Look Tonight - Ly - Eb Baritone Voice.ly
 intro
-f'
-g''
+f
+g'
 refrain
-c'
-ees''
+c
+ees'
 
 The Way You Look Tonight - Ly - Eb to F for Bb for Baritone Voice.ly
 intro
-g'
-a''
+g
+a'
 refrain
-d'
-f''
+d
+f'
 
 The Way You Look Tonight - Ly - F Bass for Standard.ly
 intro
@@ -27020,8 +27020,8 @@ g''
 
 They Say It's Spring - Ly - Eb Baritone Voice.ly
 refrain
-d'
-f''
+d
+f'
 
 Things Ain't What They Used to Be - Ly - Db Bass for Standard.ly
 refrain
@@ -27130,8 +27130,8 @@ bes'
 
 This Is Always - Ly - F Baritone Voice.ly
 refrain
-a
-c''
+a,
+c'
 
 This Is Always - Ly - G Bass for Standard.ly
 refrain
@@ -27375,13 +27375,13 @@ cis''
 
 Time Changes Everything - Ly - A Baritone Voice.ly
 refrain
+e
 e'
-e''
 
 Time Changes Everything - Ly - Bb Baritone Voice.ly
 refrain
+f
 f'
-f''
 
 Time Changes Everything - Ly - C Alto Voice.ly
 refrain
@@ -27400,8 +27400,8 @@ aes'
 
 Time Changes Everything - Ly - E Baritone Voice.ly
 refrain
+b,
 b
-b'
 
 Time Changes Everything - Ly - F Bass for Standard.ly
 refrain
@@ -27430,8 +27430,8 @@ d''
 
 Time Changes Everything - Ly - G Baritone Voice.ly
 refrain
+d
 d'
-d''
 
 Time on My Hands - Ly - C Alto Voice.ly
 refrain
@@ -27640,8 +27640,8 @@ d''
 
 Too Darn Hot - Ly - Fm Baritone Voice.ly
 refrain
-c'
-f''
+c
+f'
 
 Too Marvelous for Words - Ly - Ab Alto Voice.ly
 refrain
@@ -27665,8 +27665,8 @@ bes'
 
 Too Marvelous for Words - Ly - F Baritone Voice.ly
 refrain
-a
-c''
+a,
+c'
 
 Too Marvelous for Words - Ly - G Bass for Standard.ly
 refrain
@@ -28020,13 +28020,13 @@ gis'
 
 Unchain My Heart - Ly - Fm Baritone Voice.ly
 refrain
-ees
-c''
+ees,
+c'
 
 Unchain My Heart - Ly - Gsm Baritone Voice.ly
 refrain
-fis
-dis''
+fis,
+dis'
 
 Undecided - Ly - Bb Bass for Standard.ly
 refrain
@@ -28275,8 +28275,8 @@ bes'
 
 Walkin' My Baby Back Home - Ly - Db Baritone Voice.ly
 refrain
-c'
-ees''
+c
+ees'
 
 Walkin' My Baby Back Home - Ly - Eb Bass for Standard.ly
 refrain
@@ -28310,8 +28310,8 @@ a'
 
 Walkin' My Baby Back Home - Ly - G Baritone Voice.ly
 refrain
-fis
-a'
+fis,
+a
 
 Waltz for Debby Bill Evans - Ly - F Bass for Standard.ly
 refrain
@@ -28760,13 +28760,13 @@ bes'
 
 What's New - Ly - Ab Baritone Voice.ly
 refrain
-aes
-des''
+aes,
+des'
 
 What's New - Ly - Bb Baritone Voice.ly
 refrain
-bes
-ees''
+bes,
+ees'
 
 What's New - Ly - C Bass for Standard.ly
 refrain
@@ -29025,8 +29025,8 @@ e''
 
 When You Wish Upon a Star - Ly - E Baritone Voice.ly
 refrain
-b
-fis''
+b,
+fis'
 
 When You're Smiling - Ly - Bb Bass for Standard.ly
 refrain
@@ -29155,8 +29155,8 @@ a'
 
 Where Are You - Ly - E Baritone Voice.ly
 refrain
-ais
-b'
+ais,
+b
 
 Where Are You - Ly - G Bass for Standard.ly
 refrain
@@ -29424,8 +29424,8 @@ intro
 c
 f'
 refrain
-g
-a'
+g,
+a
 
 Wichita Lineman - Ly - F Bass for Standard.ly
 intro
@@ -29529,8 +29529,8 @@ bes'
 
 Winter Wonderland - Ly - D Baritone Voice.ly
 refrain
-cis'
-d''
+cis
+d'
 
 Winter Wonderland - Ly - Eb Standard for Viola.ly
 refrain
@@ -29594,8 +29594,8 @@ g'' >[6
 
 With a Gun - Ly - Em Baritone Voice.ly
 refrain
-d'
-d'' >[6
+d
+d' >[6
 
 Without a Song - Ly - Ab Alto Voice.ly
 refrain
@@ -29987,18 +29987,18 @@ fis''
 
 You Don't Know Me - Ly - Ab Baritone Voice.ly
 refrain
-ees
-f''
+ees,
+f'
 
 You Don't Know Me - Ly - Bb Baritone Voice.ly
 refrain
-f
-g''
+f,
+g'
 
 You Don't Know Me - Ly - C Baritone Voice.ly
 refrain
-g
-a''
+g,
+a'
 
 You Don't Know Me - Ly - Eb Bass for Standard.ly
 refrain
@@ -30346,8 +30346,8 @@ c''
 
 You're a Heavenly Thing - Ly - Bb Baritone Voice.ly
 refrain
-cis'
-d''
+cis
+d'
 
 You're a Heavenly Thing - Ly - C Bass for Standard.ly
 refrain

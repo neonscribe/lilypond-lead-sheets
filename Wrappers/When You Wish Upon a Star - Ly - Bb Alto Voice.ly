@@ -6,6 +6,6 @@
 
 subtitle = "Connie Francis Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/When You Wish Upon a Star - Ly Core - C.ly"

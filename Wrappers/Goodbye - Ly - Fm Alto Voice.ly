@@ -6,6 +6,6 @@
 
 subtitle = "Rosemary Clooney (with Benny Goodman) Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Goodbye - Ly Core - Cm.ly"

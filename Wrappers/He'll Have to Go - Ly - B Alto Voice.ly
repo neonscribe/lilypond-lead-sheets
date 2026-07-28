@@ -6,7 +6,7 @@
 
 subtitle = "Kitty Wells Key"
 whatKey = b,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

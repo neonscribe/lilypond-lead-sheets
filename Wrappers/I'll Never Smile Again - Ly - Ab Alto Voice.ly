@@ -6,6 +6,6 @@
 
 subtitle = "Anna Pauline Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I'll Never Smile Again - Ly Core - Eb.ly"

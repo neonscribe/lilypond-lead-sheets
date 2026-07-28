@@ -6,7 +6,7 @@
 
 subtitle = "Jeri Southern, Cécile McLorin Salvant Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

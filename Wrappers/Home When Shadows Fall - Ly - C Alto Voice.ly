@@ -4,6 +4,6 @@
 
 subtitle = "Della Reese Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Home When Shadows Fall - Ly Core - F.ly"

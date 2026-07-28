@@ -6,6 +6,6 @@
 
 subtitle = "Kay Starr Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Breezin' Along With the Breeze - Ly Core - F.ly"

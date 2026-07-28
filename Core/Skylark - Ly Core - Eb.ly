@@ -85,33 +85,30 @@ refrainMelody = \relative f'' {
   \clef \whatClef
   \tempoFour "Ballad [Gene Krupa 1941]" 82
 
-  \xTextMark \markup{ \bold \box "A1, A2" }
+  \sectNoBar "A1, A2"
 
   \bar ".|:"
   \repeat volta 2 {
   c2 c2~ | c4 bf8 ef8 d8 c8 bf8 af8 | g8 g4 g8~ g2~ | g4 f8 c'8 bf8 g8 ef8 c8 |
-  \break
   ef8 ef4 ef8~ ef2~ |
   ef4 \tuplet 3/2 { ef8 f8 ef8 } d8 af'8 c,8 d8 |
-  \break
   \alternative { \volta 1 {
   ef2 r8 g8 bf8 ef8 | d8 c8 d8 ef8 bf2 |
   } \volta 2 {
   ef,4 g8 bf8 df8 c8 bf8 af8 | bf2 r8 ef,8 g8 bf8 |
   } } }
+  \bar "||-:|."
 
-  \sectPageBreak "B"
+  \sect "B"
 
   ef8 ef4 ef8~ ef2~ | ef4 \tuplet 3/2 { f8 ef8 d8 } df8 ef,8 g8 df'8 |
   c8 c4 c8~ c2~ | c4 \tuplet 3/2 { df8 c8 bf8 } af8 g4. |
-  \break
   f4 af8 c8 \tuplet 3/2 { cf8 bf8 af8 } f4 | c'8 ef8 f8 b,8 ef2 |
   b8 d8 e8 b8~ b8 g8 e8 d8 | b'8 bf8 af8 g8~ g8 bf4. |
 
   \sectPageBreak "A3"
 
   c2 c2~ | c4 bf8 ef8 d8 c8 bf8 af8 | g8 g4 g8~ g2~ | g4 f8 c'8 bf8 g8 ef8 c8 |
-  \break
   ef8 ef4 ef8~ ef2~ | ef4 \tuplet 3/2 { ef8 f8 ef8 } d8 af'8 c,8 d8 | ef4 g8 bf8 df4 d4 | c2 r2 |
 
   \bar "|."

@@ -5,8 +5,8 @@
 \include "english.ly"
 
 subtitle = "Frank Sinatra, Yoshiro Nakamura Key"
-whatKey = b,
-whatClef = "treble"
+whatKey = b,,
+whatClef = "treble_8"
 
 lyricsLanguage = "french"
 

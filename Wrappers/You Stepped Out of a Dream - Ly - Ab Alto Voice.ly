@@ -4,6 +4,6 @@
 
 subtitle = "Sarah Vaughan, Samara Joy, Catherine Russell Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/You Stepped Out of a Dream - Ly Core - C.ly"

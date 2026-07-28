@@ -6,7 +6,7 @@
 
 subtitle = "Julie London Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

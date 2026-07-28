@@ -6,6 +6,6 @@
 
 subtitle = "June Christy, Peggy Lee, Patti Page Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Lullaby in Rhythm - Ly Core - Eb.ly"

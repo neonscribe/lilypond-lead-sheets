@@ -6,6 +6,6 @@
 
 subtitle = "Julie London, Gabrielle Cavassa (with Joshua Redman) Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Where Are You - Ly Core - G.ly"

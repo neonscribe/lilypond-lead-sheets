@@ -4,6 +4,6 @@
 
 subtitle = "Ella Fitzgerald, Sarah Vaughan Key"
 whatKey = bf,,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/There Will Never Be Another You - Ly Core - Eb.ly"

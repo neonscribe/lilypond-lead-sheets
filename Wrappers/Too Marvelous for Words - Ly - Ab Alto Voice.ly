@@ -6,6 +6,6 @@
 
 subtitle = "Diana Krall Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Too Marvelous for Words - Ly Core - Ab.ly"

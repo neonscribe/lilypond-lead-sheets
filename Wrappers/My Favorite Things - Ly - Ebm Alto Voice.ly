@@ -6,6 +6,6 @@
 
 subtitle = "Mary Martin, Julie Andrews Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My Favorite Things - Ly Core - Em.ly"

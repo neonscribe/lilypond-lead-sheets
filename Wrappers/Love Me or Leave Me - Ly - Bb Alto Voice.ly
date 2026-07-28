@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Love Me or Leave Me - Ly Core - Ab.ly"

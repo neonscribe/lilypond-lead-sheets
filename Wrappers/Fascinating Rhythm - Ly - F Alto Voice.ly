@@ -6,6 +6,6 @@
 
 subtitle = "Chris Connor Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Fascinating Rhythm - Ly Core - Eb.ly"

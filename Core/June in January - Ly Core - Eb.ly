@@ -64,27 +64,23 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   c2. bf4 | af4 g4 fs4 g4 | r4 bf4 \tuplet 3/2 { bf4 a4 af4 } | c,2. r4 |
-  \break
   r4 bf'4 \tuplet 3/2 { bf4 a4 af4 } | \tuplet 3/2 { c,4 cs4 d4 } g4. f8 |
   \tuplet 3/2 { f4 d4 ef4 } bf'2~ | bf2. b4 |
 
   \sect "A2"
 
   c2. bf4 | af4 g4 fs4 g4 | r4 bf4 \tuplet 3/2 { bf4 a4 af4 } | c,2. r4 |
-  \break
   r4 bf'4 \tuplet 3/2 { bf4 a4 af4 } | \tuplet 3/2 { c,4 cs4 d4 } g4. f8 |
   \tuplet 3/2 { f4 d4 f4 } ef2~ | ef2 r2 |
 
   \sect "B"
 
   r4 g4 af4. g8 | gf1 | r4 g4 af4. g8 | f1 |
-  \break
   r4 g4 af4 g4 | c4. g8 g4 c4 | d4 d2 f,8 g8 | bf2. b4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   c2. bf4 | af4 g4 fs4 g4 | r4 bf4 \tuplet 3/2 { bf4 a4 af4 } | c,2. r4 |
-  \break
   r4 bf'4 \tuplet 3/2 { bf4 a4 af4 } | \tuplet 3/2 { c,4 cs4 d4 } c'4 d,4 |
   ef1~ | ef4 r4 r4
   \override Parentheses.font-size = #5

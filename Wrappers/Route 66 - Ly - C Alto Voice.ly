@@ -6,6 +6,6 @@
 
 subtitle = "Rosemary Clooney 1956 Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Route 66 - Ly Core - F.ly"

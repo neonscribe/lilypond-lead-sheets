@@ -6,6 +6,6 @@
 
 subtitle = "Norah Jones Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Ill Wind - Ly Core - Bb.ly"

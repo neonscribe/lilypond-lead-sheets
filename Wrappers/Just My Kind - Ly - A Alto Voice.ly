@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Just My Kind - Ly Core - Ab.ly"

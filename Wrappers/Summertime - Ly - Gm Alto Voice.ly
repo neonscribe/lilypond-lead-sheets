@@ -4,6 +4,6 @@
 
 subtitle = "Janis Joplin Key"
 whatKey = g
-whatClef = "treble"
+whatClef = "lowtreble"
 
 \include "../Core/Summertime - Ly Core - Am.ly"

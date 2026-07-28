@@ -4,6 +4,6 @@
 
 subtitle = "Dinah Washington Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Destination Moon - Ly Core - Bb.ly"

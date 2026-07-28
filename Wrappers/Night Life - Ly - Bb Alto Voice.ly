@@ -6,6 +6,6 @@
 
 subtitle = "Doris Day, Norah Jones (with The Little Willies) Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Night Life - Ly Core - Eb.ly"

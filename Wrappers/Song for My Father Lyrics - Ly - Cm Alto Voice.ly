@@ -6,6 +6,6 @@
 
 subtitle = "Denise King Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Song for My Father Lyrics - Ly Core - Fm.ly"

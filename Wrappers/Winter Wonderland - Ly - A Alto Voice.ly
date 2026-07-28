@@ -4,6 +4,6 @@
 
 subtitle = "Norah Jones Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Winter Wonderland - Ly Core - Eb.ly"

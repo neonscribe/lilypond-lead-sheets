@@ -4,6 +4,6 @@
 
 subtitle = "Jo Stafford, Julie London Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Alone Together - Ly Core - Dm.ly"

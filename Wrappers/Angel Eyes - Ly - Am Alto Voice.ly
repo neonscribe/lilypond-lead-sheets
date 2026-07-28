@@ -4,6 +4,6 @@
 
 subtitle = "Ella Fitzgerald, Carmen McRae Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Angel Eyes - Ly Core - Cm.ly"

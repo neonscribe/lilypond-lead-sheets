@@ -6,7 +6,7 @@
 
 subtitle = "Ernestine Anderson, Helen Merrill, Toni Tennille Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 singerGender = "female"
 

@@ -6,6 +6,6 @@
 
 subtitle = "Connie Boswell Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Dinah - Ly Core - G.ly"

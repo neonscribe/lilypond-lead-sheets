@@ -4,6 +4,6 @@
 
 subtitle = "Sarah Vaughan Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I'll Remember April - Ly Core - G.ly"

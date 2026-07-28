@@ -6,6 +6,6 @@
 
 subtitle = "Blossom Dearie Key"
 whatKey = e
-whatClef = "treble"
+whatClef = "lowtreble"
 
 \include "../Core/My Attorney Bernie - Ly Core - Gm.ly"

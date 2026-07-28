@@ -6,6 +6,6 @@
 
 subtitle = "Fran Jeffries Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Just Found Out About Love - Ly Core - Ab.ly"

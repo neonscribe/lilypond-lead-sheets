@@ -4,6 +4,6 @@
 
 subtitle = "Etta Jones Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Cover the Waterfront - Ly Core - G.ly"

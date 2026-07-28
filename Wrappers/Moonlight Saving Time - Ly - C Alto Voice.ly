@@ -6,6 +6,6 @@
 
 subtitle = "Blossom Dearie Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Moonlight Saving Time - Ly Core - F.ly"

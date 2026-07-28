@@ -4,6 +4,6 @@
 
 subtitle = "Shirley Bassey, Eydie Gormé Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My Funny Valentine - Ly Core - Eb.ly"

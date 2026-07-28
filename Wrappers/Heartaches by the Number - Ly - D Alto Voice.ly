@@ -6,6 +6,6 @@
 
 subtitle = "Kitty Wells, Roseanne Cash Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Heartaches by the Number - Ly Core - Bb.ly"

@@ -3,7 +3,7 @@
 \include "english.ly"
 
 subtitle = "Vic Damone Key"
-whatKey = ef
-whatClef = "treble"
+whatKey = ef,
+whatClef = "treble_8"
 
 \include "../Core/Home When Shadows Fall - Ly Core - F.ly"

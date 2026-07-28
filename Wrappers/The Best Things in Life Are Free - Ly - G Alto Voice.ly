@@ -6,6 +6,6 @@
 
 subtitle = "Jo Stafford Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Best Things in Life Are Free - Ly Core - C.ly"

@@ -5,7 +5,7 @@
 \include "english.ly"
 
 subtitle = "Ernest Tubb, Hank Thompson, Jim Reeves, Brenda Lee, Tammy Wynette Key"
-whatKey = c'
-whatClef = "treble"
+whatKey = c
+whatClef = "treble_8"
 
 \include "../Core/Blue Christmas - Ly Core - F.ly"

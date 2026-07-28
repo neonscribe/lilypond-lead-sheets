@@ -4,6 +4,6 @@
 
 subtitle = "Miranda Sage, Diana Panton Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Up Jumped Spring - Ly Core - Bb.ly"

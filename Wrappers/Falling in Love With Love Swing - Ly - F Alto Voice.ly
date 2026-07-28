@@ -6,6 +6,6 @@
 
 subtitle = "Carmen McRae, Sarah Vaughan Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Falling in Love With Love Swing - Ly Core - Bb.ly"

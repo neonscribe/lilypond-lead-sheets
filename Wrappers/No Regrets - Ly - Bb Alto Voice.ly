@@ -6,6 +6,6 @@
 
 subtitle = "Cécile McLorin Salvant Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/No Regrets - Ly Core - G.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Eydie Gormé Key"
 whatKey = f,
-whatClef = "treble"
+whatClef = "lowtreble"
 
 \include "../Core/Bye Bye Blues - Ly Core - C.ly"

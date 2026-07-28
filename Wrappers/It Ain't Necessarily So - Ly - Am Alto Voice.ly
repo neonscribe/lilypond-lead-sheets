@@ -6,6 +6,6 @@
 
 subtitle = "Susannah McCorkle Key"
 whatKey = a,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/It Ain't Necessarily So - Ly Core - Gm.ly"

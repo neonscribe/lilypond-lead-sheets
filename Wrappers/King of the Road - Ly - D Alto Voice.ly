@@ -7,6 +7,6 @@
 subtitle = "Julie London Key"
 whatKey = d
 bassKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/King of the Road - Ly Core - Bb.ly"

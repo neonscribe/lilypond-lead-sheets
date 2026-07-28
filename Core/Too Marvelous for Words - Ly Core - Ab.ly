@@ -51,30 +51,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Nat King Cole 1947]" 138
 
   \partial 4 ef4 |
-  \bar "||"
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   bf'2. f4 | c'8 c8 c2 f,4 | bf4 c4 bf4 f4 | c'2. bf4 |
-  \break
   g4 af8 f8~ f2 | g4 af8 f8~ f4. g8 | c,4 ef4 f4 af4 | g8 af8 f2 ef4 |
 
   \sect "A2"
 
   bf'2. f4 | c'8 c8 c2 f,4 | bf4 c4 bf4 f4 | c'2. bf4 |
-  \break
   g4 af8 f8~ f2 | g4 af8 f8~ f4. g8 | e4 g4 a4 d4 | c8 d8 c2 c4 |
 
   \sect "B"
 
   ef2. bf4 | df2. c4 | ef4 ef4 ef4 bf4 | df4 df2 af4 |
-  \break
   c2. af4 | bf2. af4 | c4 bf4 af4 g4 | f4 g2 ef4 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   bf'2. f4 | c'8 c8 c2 bf4 | g4 af4 bf4 c4 | ef2. c4 |
-  \break
   ef4 d4 df4 f,4 | ef'4 d8 df8~ df4 c4 | bf4 c4 af4 bf4 | af2. r4 |
 
   \bar "|."

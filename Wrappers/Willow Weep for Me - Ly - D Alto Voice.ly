@@ -4,6 +4,6 @@
 
 subtitle = "Keely Smith Key"
 whatKey = d
-whatClef = "treble"
+whatClef = "lowtreble"
 
 \include "../Core/Willow Weep for Me - Ly Core - G.ly"

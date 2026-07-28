@@ -7,6 +7,6 @@
 subtitle = "Jeannie Seely Key"
 whatKey = c
 bassKey = c'
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Wichita Lineman - Ly Core - F.ly"

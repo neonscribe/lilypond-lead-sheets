@@ -4,6 +4,6 @@
 
 subtitle = "Barbra Streisand Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Autumn Leaves - Ly Core - Gm.ly"

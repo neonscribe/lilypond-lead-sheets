@@ -50,30 +50,25 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up [Judy Garland 1940]" 204
 
   \partial 4 d4 |
-  \bar "||"
 
-  \sectNoBarNoBreak "A"
+  \sectNoBreak "A"
 
   d'2~ d8 b8 a8 g8 | e2. d4 | g2~ g8 g8 a8 b8 | d2. d,8 e8 |
-  \break
   g2~ g8 a8 b4 | d2 b4 d4 | d2~ d8 b8 a4 | e2. d4 |
 
   \sect "B"
 
   d'2~ d8 b8 a4 | e2. d4 | d'2 b4. a8 | e2. d4 |
-  \break
   d'2~ d8 b8 e,4 | fs2~ fs8 b8 e,4 | g2~ g8 e8 g4 | e2. d8 e8 |
 
   \sect "C"
 
   g2~ g8 a8 b4 | d2. d,8 e8 | g2~ g8 a8 b4 | d2. d,4 |
-  \break
   g2~ g8 a8 b4 | d2 b4 d4 | d2~ d8 b8 a4 | e2. d4 |
 
-  \sect "D"
+  \sectPageBreak "D"
 
   d'2 b4. a8 | e2. d8 d8 | d'2~ d8 b8 a4 | e2. d4 |
-  \break
   d'8 d4.~ d4 d,4 | fs8 fs4 b8~ b4 d,4 | g1~ | g2 r2 |
 
   \bar "|."

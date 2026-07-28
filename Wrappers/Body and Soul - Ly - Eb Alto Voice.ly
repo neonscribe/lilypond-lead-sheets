@@ -4,6 +4,6 @@
 
 subtitle = "Julie London Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Body and Soul - Ly Core - Db.ly"

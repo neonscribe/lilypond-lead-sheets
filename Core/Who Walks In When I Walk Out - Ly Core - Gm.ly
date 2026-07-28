@@ -51,28 +51,24 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Ella Fitzgerald and Louis Armstrong 1953]" 140
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   d4 g4 bf4. g8 | d4 g4 bf4. g8 | d4 g4 bf4 g4 | cs8 d8 cs8 d8 bf8 g4. |
-  \break
   a4 a4 d,2 | a'4 a8 d,8~ d8 bf'8 a4 | g1~ | g2. r4 |
 
   \sect "A2"
 
   d4 g4 bf4. g8 | d4 g4 bf4. g8 | d4 g4 bf4 g4 | cs8 d8 cs8 d8 bf8 g4. |
-  \break
   a4 a4 d,2 | a'4 a8 d,8~ d8 bf'8 a4 | g1~ | g2. r4 |
 
   \sect "B"
 
   d'4 d4 g,2 | d'8 e4 d8 g,2 | g8 a4 g8 bf4 a8 g8~ | g1 |
-  \break
   c4 c4 f,2 | c'8 d4 c8 f,2 | r8 d8 g8 bf8 d8 bf8 g8 d8 | a'8 a4 d8~ d2 |
 
-  \sect "A3"
+  \sectPageBreak "A3"
 
   d,4 g4 bf4. g8 | d4 g4 bf4. g8 | d4 g4 bf4 g4 | cs8 d8 cs8 d8 bf8 g4. |
-  \break
   a4 a4 d,2 | a'4 a8 d,8~ d8 bf'8 a4 | g1~ | g2. r4 |
 
   \bar "|."

@@ -6,6 +6,6 @@
 
 subtitle = "June Christy, Linda Ronstadt Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Goodbye - Ly Core - Cm.ly"

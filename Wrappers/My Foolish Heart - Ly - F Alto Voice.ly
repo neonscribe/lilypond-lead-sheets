@@ -6,6 +6,6 @@ singerGender = "female"
 
 subtitle = "Ethel Ennis Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/My Foolish Heart - Ly Core - Bb.ly"

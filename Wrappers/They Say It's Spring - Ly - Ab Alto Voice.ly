@@ -6,6 +6,6 @@
 
 subtitle = "Blossom Dearie Key"
 whatKey = af
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/They Say It's Spring - Ly Core - Ab.ly"

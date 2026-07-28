@@ -6,6 +6,6 @@
 
 subtitle = "Doris Day, Diana Krall Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Night We Called It a Day - Ly Core - F.ly"

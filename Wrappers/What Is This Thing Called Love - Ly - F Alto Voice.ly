@@ -4,6 +4,6 @@
 
 subtitle = "Billie Holiday Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/What Is This Thing Called Love - Ly Core - C.ly"

@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Here Comes the Bride - Ly Core - Bb.ly"

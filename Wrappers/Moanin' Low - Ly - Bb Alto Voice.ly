@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday, Ella Fitzgerald Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Moanin' Low - Ly Core - F.ly"

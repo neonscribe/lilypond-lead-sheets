@@ -6,6 +6,6 @@
 
 subtitle = "Peggy Lee Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Christmas Song - Ly Core - Eb.ly"

@@ -4,6 +4,6 @@
 
 subtitle = "Mary Martin OBC 1943 Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Speak Low - Ly Core - F.ly"

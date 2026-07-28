@@ -6,6 +6,6 @@
 
 subtitle = "Dinah Washington, Dianne Schuur Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Just Found Out About Love - Ly Core - Ab.ly"

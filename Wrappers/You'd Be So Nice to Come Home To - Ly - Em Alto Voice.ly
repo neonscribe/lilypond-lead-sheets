@@ -4,6 +4,6 @@
 
 subtitle = "Joni James, Judy Niemack Key"
 whatKey = e
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/You'd Be So Nice to Come Home To - Ly Core - Am.ly"

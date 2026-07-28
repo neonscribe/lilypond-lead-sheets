@@ -6,6 +6,6 @@
 
 subtitle = "Doris Day Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/It's You or No One - Ly Core - Eb.ly"

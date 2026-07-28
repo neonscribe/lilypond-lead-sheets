@@ -5,8 +5,8 @@
 \include "english.ly"
 
 subtitle = "Vinícius de Moraes Key"
-whatKey = gs
-whatClef = "treble"
+whatKey = gs,
+whatClef = "treble_8"
 
 lyricsLanguage = "portuguese"
 

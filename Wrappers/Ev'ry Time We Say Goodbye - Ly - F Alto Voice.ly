@@ -6,6 +6,6 @@
 
 subtitle = "Julie London, Diana Krall Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Ev'ry Time We Say Goodbye - Ly Core - Eb.ly"

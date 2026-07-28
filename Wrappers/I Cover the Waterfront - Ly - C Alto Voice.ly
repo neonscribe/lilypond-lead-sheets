@@ -4,6 +4,6 @@
 
 subtitle = "Annette Hanshaw, Connie Boswell, Peggy Lee Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Cover the Waterfront - Ly Core - G.ly"

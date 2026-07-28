@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday, Anita O'Day, Dianne Reeves Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Some Other Spring - Ly Core - C.ly"

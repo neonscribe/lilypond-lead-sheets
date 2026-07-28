@@ -6,6 +6,6 @@
 
 subtitle = "Julie London, Peggy Lee Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/It Never Entered My Mind - Ly Core - F.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Nancy Wilson, June Christy, Alison Krause Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/This Time the Dream's on Me - Ly Core - G.ly"

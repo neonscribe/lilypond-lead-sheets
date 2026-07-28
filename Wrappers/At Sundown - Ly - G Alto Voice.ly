@@ -4,6 +4,6 @@
 
 subtitle = "Rosemary Clooney Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/At Sundown - Ly Core - F.ly"

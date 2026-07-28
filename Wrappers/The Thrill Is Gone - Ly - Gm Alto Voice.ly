@@ -4,6 +4,6 @@
 
 subtitle = "Ella Mae Morse (with Freddie Slack), Dinah Shore, Sarah Vaughan, Anita O'Day Key"
 whatKey = g,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Thrill Is Gone - Ly Core - Dm.ly"

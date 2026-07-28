@@ -4,6 +4,6 @@
 
 subtitle = "Sarah Vaughan, Margaret Whiting, Lena Horne Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/In Love In Vain - Ly Core - Eb.ly"

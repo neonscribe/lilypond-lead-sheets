@@ -6,6 +6,6 @@
 
 subtitle = "Nancy Wilson Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Husbands and Wives - Ly Core - F.ly"

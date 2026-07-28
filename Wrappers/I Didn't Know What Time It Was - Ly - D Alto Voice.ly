@@ -4,6 +4,6 @@
 
 subtitle = "Alto Voice Key"
 whatKey = d
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Didn't Know What Time It Was - Ly Core - G.ly"

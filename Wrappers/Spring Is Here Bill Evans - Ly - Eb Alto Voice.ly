@@ -6,7 +6,7 @@
 
 subtitle = "Ella Fitzgerald Key, Bill Evans Chords"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 tempoName = "Ballad [Ella Fitzgerald 1956]"
 tempoBPM = 72

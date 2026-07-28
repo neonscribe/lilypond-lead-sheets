@@ -6,6 +6,6 @@
 
 subtitle = "Ella Fitzgerald (with Chick Webb) Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I Want to Be Happy - Ly Core - C.ly"

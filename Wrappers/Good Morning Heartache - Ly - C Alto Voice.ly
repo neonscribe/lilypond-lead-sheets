@@ -6,6 +6,6 @@
 
 subtitle = "Ella Fitzgerald, Dinah Washington, Carmen McRae Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Good Morning Heartache - Ly Core - F.ly"

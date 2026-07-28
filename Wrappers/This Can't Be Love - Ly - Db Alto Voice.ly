@@ -4,6 +4,6 @@
 
 subtitle = "Rosemary Clooney Key"
 whatKey = df
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/This Can't Be Love - Ly Core - G.ly"

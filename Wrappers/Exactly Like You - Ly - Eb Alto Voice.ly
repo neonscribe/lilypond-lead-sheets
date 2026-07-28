@@ -6,6 +6,6 @@
 
 subtitle = "Ruth Etting, Sue Raney, Abbey Lincoln, Anita O'Day, Rebecca Kilgore Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Exactly Like You - Ly Core - C.ly"

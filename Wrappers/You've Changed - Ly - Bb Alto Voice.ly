@@ -6,6 +6,6 @@
 
 subtitle = "Billie Holiday, Sarah Vaughan Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/You've Changed - Ly Core - Eb.ly"

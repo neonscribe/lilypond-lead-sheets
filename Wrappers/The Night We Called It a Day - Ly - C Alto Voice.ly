@@ -6,6 +6,6 @@
 
 subtitle = "June Christy, Carmen McRae, Irene Kral Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Night We Called It a Day - Ly Core - F.ly"

@@ -4,6 +4,6 @@
 
 subtitle = "Usha Iyer, Teresa Bright Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Scotch and Soda - Ly Core - Eb.ly"

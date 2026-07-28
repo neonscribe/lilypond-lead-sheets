@@ -6,6 +6,6 @@
 
 subtitle = "Patti Page, Tina Turner (with Ike & Tina) Key"
 whatKey = c
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Love Letters Three - Ly Core - G.ly"

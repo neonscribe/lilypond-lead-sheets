@@ -2,6 +2,6 @@
 
 subtitle = "Patti Page Key"
 whatKey = f
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Don't Get Around Much Anymore - Ly Core - C.ly"

@@ -4,6 +4,6 @@
 
 subtitle = "Elizete Cardoso, Sylvia Telles, Rosemary Clooney, Vikki Carr Key"
 whatKey = e
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Black Orpheus - Ly Core - Am.ly"

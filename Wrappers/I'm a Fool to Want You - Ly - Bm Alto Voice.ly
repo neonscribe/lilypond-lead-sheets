@@ -6,6 +6,6 @@
 
 subtitle = "Linda Ronstadt Key"
 whatKey = b,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/I'm a Fool to Want You - Ly Core - Em.ly"

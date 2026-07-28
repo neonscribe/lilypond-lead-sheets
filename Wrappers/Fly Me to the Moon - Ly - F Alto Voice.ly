@@ -6,6 +6,6 @@
 
 subtitle = "Doris Day, Diana Krall, Julie London, Chris Connor Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Fly Me to the Moon - Ly Core - C.ly"

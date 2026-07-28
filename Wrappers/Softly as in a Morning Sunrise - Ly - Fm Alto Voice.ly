@@ -4,6 +4,6 @@
 
 subtitle = "Abbey Lincoln, June Christy Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Softly as in a Morning Sunrise - Ly Core - Cm.ly"

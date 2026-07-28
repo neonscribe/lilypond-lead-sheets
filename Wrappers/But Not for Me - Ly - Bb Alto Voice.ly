@@ -4,6 +4,6 @@
 
 subtitle = "Dinah Washington Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/But Not for Me - Ly Core - Eb.ly"

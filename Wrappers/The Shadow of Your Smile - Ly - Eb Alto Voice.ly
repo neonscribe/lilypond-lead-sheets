@@ -6,6 +6,6 @@
 
 subtitle = "Astrud Gilberto Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/The Shadow of Your Smile - Ly Core - G.ly"

@@ -4,6 +4,6 @@
 
 subtitle = "Sarah Vaughan Key"
 whatKey = ef
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/If I Had You - Ly Core - Bb.ly"

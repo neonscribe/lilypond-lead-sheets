@@ -4,6 +4,6 @@
 
 subtitle = "Peggy Lee (with Benny Goodman), Dinah Washington Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/On the Sunny Side of the Street - Ly Core - C.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Sarah Vaughan, Ella Fitzgerald, Peggy Lee Key"
 whatKey = bf,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/That Old Black Magic - Ly Core - Eb.ly"

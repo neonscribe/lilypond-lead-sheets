@@ -6,6 +6,6 @@
 
 subtitle = "Kay Starr, Maxine Sullivan, Cécile McLorin Salvant, Cynthia Sayer Key"
 whatKey = c,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Exactly Like You - Ly Core - C.ly"

@@ -3,9 +3,9 @@
 \version "2.26.0"
 
 \include "english.ly"
-
+ 
 subtitle = "Charley Pride, Johnny Russell Key"
-whatKey = e
-whatClef = "treble"
+whatKey = e,
+whatClef = "treble_8"
 
 \include "../Core/Act Naturally - Ly Core - G.ly"

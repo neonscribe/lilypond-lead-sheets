@@ -6,6 +6,6 @@
 
 subtitle = "Nina Simone Key"
 whatKey = af,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Little Girl Blue - Ly Core - F.ly"

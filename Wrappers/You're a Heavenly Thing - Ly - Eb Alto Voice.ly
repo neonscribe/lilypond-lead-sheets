@@ -6,6 +6,6 @@
 
 subtitle = "Carsie Blanton Key"
 whatKey = ef,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/You're a Heavenly Thing - Ly Core - C.ly"

@@ -6,6 +6,6 @@
 
 subtitle = "Judy Garland Key"
 whatKey = f,
-whatClef = "treble_8"
+whatClef = "lowtreble"
 
 \include "../Core/Liza (All the Clouds'll Roll Away) - Ly Core - Eb.ly"
