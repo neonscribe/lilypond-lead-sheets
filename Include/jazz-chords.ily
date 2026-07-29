@@ -293,6 +293,7 @@ jazzChordsMusic =
 	<c f g bes d' f' a'>-\markup{ \jcThirteenth \jcSus }
 	
 	<c e g bes des' a'>-\markup{ \jcThirteenth \jcFlatNinth }
+	<c e g bes dis' a'>-\markup{ \jcThirteenth \jcSharpNinth }
 	<c e g bes d' fis' a'>-\markup{ \jcThirteenth \jcSharpEleventh }
 
 	<c e g bes des' aes'>-\markup{ 
