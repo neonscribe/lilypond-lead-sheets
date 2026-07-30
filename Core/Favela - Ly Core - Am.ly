@@ -12,6 +12,23 @@ headerCopyright = "© 1962 Jobim Music"
 
 bossaRhythm = ##t
 
+refrainLyrics = \lyricmode {
+O mor -- ro não __ tem vez __
+e o que e -- le fez __ já foi __ de mais. __
+Mas o -- lhem bem __ vo -- cês __
+quan -- do de -- rem vez __ ao mor -- ro
+to -- da a cida -- de vai __ can -- tar. __
+Mor -- ro __ pe -- de pas -- sa -- gem.
+Mor -- ro __ quer __ se mo -- strar.
+A bram __ a -- las pro mor -- ro.
+Tam -- bo -- rim __ vai fa -- lar.
+É um, é dois, __ é três. __ é cem,
+é mil a ba -- tu -- car. __
+O mor -- ro não __ tem vez __
+mas se de -- rem vez __ ao mor -- ro
+to -- da a cida -- de vai __ can -- tar. __
+}
+
 refrainChords = \chordmode {
   s4
   
@@ -49,7 +66,7 @@ refrainMelody = \relative f' {
   
   a2. e4 | g2~ g8 e4 a8~ | a2 r8 e8 e8 e8 | g2~ g8 e4 a8~ |
   a2. e4 | g2~ g8 e4 c8~ | c1 | r2 r4 a4 |
-  
+  \break
   d2. c4 | e2~ e8 d4 e8~ | e2 r8 g4 a8 | c8 a4 g8~ g8 e4 d8~ |
   d8 c4 e8~ e8 d4 c8 | a8 g4 e8~ e8 g4 a8~ | a1 | r1 |
   
@@ -60,15 +77,15 @@ refrainMelody = \relative f' {
 
   \sect "A2"
 
-  a2. e4 | g2~ g8 e4 a8~ | a2 r8 e8 e8 e8 | g2~ g8 e4 a8~ |
+  a2. e4 | g2~ g8 e4 a8~ | a2 r8 e4. | g2~ g8 e4 a8~ |
   a2. e4 | g2~ g8 e4 c8~ | c1 | r2 r4 a4 |
-  
+  \break
   d2. c4 | e2~ e8 d4 e8~ | e2 r8 g4 a8 | c8 a4 g8~ g8 e4 d8~ |
   d8 c4 e8~ e8 d4 c8 | a8 g4 e8~ e8 g4 a8~ | a1 | r1 |
 
   \bar "|."
 }
 
-afterText = \markup "Many versions repeat A1, using an AABA instead of an ABA form."
+afterText = \markup "Some instrumental versions repeat A1, using an AABA instead of an ABA form."
 
 \include "../Include/refrainonly.ily"
