@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Jazz 5/4" 160
 
-  \xTextMark \markup{ \bold \box "A" }
+  \sectNoBar "A"
 
   b2 a4 g4 e4 | fs4 g4 fs4 e2 |
   \break

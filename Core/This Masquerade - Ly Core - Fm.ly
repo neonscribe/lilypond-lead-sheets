@@ -37,7 +37,7 @@ refrainNRChords = \chordmode {
   f1:m7 bf1:7 f1:m7 bf1:7
 
   f1:m f1:m7+ f1:m7 bf1:13
-  f1:m7 df1:9 g1:m7.11 c1:7.5+.9+
+  f1:m7 df1:9 g1:m11 c1:7.5+.9+
 
   f1:m f1:m7+ f1:m7 bf1:13
   df1:7 c1:7.5+ f1:m7 f2:m7 e4:m7 a4:7
@@ -49,7 +49,7 @@ refrainNRChords = \chordmode {
   g1:m7 g2:13 g2:7.5+ c1:sus9 c4:sus9 gf2.:13.11+
 
   f1:m f1:m7+ f1:m7 bf1:13
-  f1:m7 df1:9 g1:m7.11 c1:7.5+.9+
+  f1:m7 df1:9 g1:m11 c1:7.5+.9+
 
   f1:m f1:m7+ f1:m7 bf1:13
   df1:7 c1:7.5+ f1:m7 bf1:13

@@ -55,7 +55,7 @@ jcFlatEleventh = \markup{ \jcRaise{ "(" \jcFlat "11)" } }
 jcThirteenth = \markup{ \jcRaise{ "13" } }
 jcSharpThirteenth = \markup{ \jcRaise{ "(" \jcSharp "13)" } }
 jcFlatThirteenth = \markup{ \jcRaise{ "(" \jcFlat "13)" } }
-jcAugmented = \markup{ \jcRaise{ "(#5)" } }
+jcAugmented = \markup{ \jcRaise{ "(" \jcSharp "5)" } }
 jcSus = \markup{ \jcSmall{ "SUS" } }
 jcSusTwo = \markup{ \jcSmall{ "SUS2" } }
 

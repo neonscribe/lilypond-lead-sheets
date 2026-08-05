@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "singerGender": [ "female", "male" ] } }
+
+%}
+
 songID = "2026-06-01T22:16:53.715295Z"
 
 \include "../Include/lead-sheets.ily"
@@ -12,7 +18,7 @@ headerCopyright = "© 1948 Acuff-Rose Publications"
 
 straightEighths = ##t
 
-refrainLyrics = \lyricmode {
+refrainFemaleSingerLyrics = \lyricmode {
 I was dan -- cing with my dar -- ling to the Ten -- nes -- see Waltz
 when an old friend I hap -- pen'd to see. __
 In -- tro -- duced her to my loved one and while they were dan -- cing
@@ -23,6 +29,24 @@ Now I know just how much I have lost. __
 Yes, I lost my lit -- tle dar -- ling on the night they were play -- ing
 the beau -- ti -- ful Ten -- nes -- see Waltz. __
 }
+
+refrainMaleSingerLyrics = \lyricmode {
+I was dan -- cing with my dar -- ling to the Ten -- nes -- see Waltz
+when an old friend I hap -- pen'd to see. __
+In -- tro -- duced him to my loved one and while they were dan -- cing
+my friend stole my sweet -- heart from me. __
+
+I re -- mem -- ber the night and the Ten -- ne -- ssee Waltz.
+Now I know just how much I have lost. __
+Yes, I lost my lit -- tle dar -- ling on the night they were play -- ing
+the beau -- ti -- ful Ten -- nes -- see Waltz. __
+}
+
+refrainLyrics =
+#(if (and (defined? 'singerGender)
+          (equal? singerGender "male"))
+  refrainMaleSingerLyrics
+  refrainFemaleSingerLyrics)
 
 refrainChords = \chordmode {
   s4

@@ -71,7 +71,7 @@ halLeonardRefrainChords = \chordmode {
   c2:m7.5- f2:7.5- bf1:7.5-
   c2:m7.5- f2:7.5- bf1:7.5-
   af2:m7 f4:m7 bf4:7 c2:m7.5- f2:7.5-
-  df2:9 cf2:9 af2:m7 f4:m7.11 bf4:7.5-
+  df2:9 cf2:9 af2:m7 f4:m11 bf4:7.5-
 
   ef4:m ef4:m/d ef2:m/df c2:m7.5- af4:m7 df4:7
   c1:m7.5-

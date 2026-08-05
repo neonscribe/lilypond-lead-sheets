@@ -103,7 +103,7 @@ refrainNRChords = \chordmode {
   f2:m f2:m6 f2:m f2:m7 f1:m
 
   af2:13 af2:7 cf1:9.5- bf1:9 ef1:m7
-  bff1:9.5- ef1:m7.11 d1:13.11+
+  bff1:9.5- ef1:m11 d1:13.11+
 
   df2:maj7 d2:13.11+ df2:maj7 d2:13.11+ df4:6 \chordSlash 1 fs4:m7 cf4:13 ff2:maj7 d2:13.11+
   df2:maj7 d2:13.11+ df2:maj7 d2:13.11+ df4:6 \chordSlash 1 df4:9 c4:13 f2:maj7 bff2:13
@@ -111,7 +111,7 @@ refrainNRChords = \chordmode {
   af2:maj7 ef2:7.9+.5+ af4:maj7 \chordSlash 1 ff4:m7 bff4:7
   d4:maj7 \chordSlash 1 d4:m7 g4:7 c2:maj7 af2:13
 
-  df2:maj7 d2:13.11+ df2:maj7 d2:13.11+ df4:6 \chordSlash 1 c4:7.11+.9+ cf4:13 f2:m7.11 bf2:7
+  df2:maj7 d2:13.11+ df2:maj7 d2:13.11+ df4:6 \chordSlash 1 c4:7.11+.9+ cf4:13 f2:m11 bf2:7
   fs2:m9 b2:13 a2:9.5+ af2:13 df2:maj7 gf2:13 f2:m7 bf2:7
   fs2:m9 b2:13 a2:9.5+ af2:13 af4:7.9+ a4:7.9+ bf4:7.9+ b4:7.9+
   c4:7.9+ d4:13.11+ df4:maj7 \chordInsideParens{ af4:13 }
@@ -130,7 +130,7 @@ refrainNicoChords = \chordmode {
   f2:m f2:m6 f2:m f2:m7 f1:m
 
   ef2:m7 af2:7 cf1:7.5- bf1:7 ef1:m7
-  bff1:7.5- ef1:m7.11 af1:7
+  bff1:7.5- ef1:m11 af1:7
 
   df2:6 d2:7 df2:6 d2:7 df4:6 \chordSlash 1 c4:7.5- cf4:13 ff4:maj7 \chordSlash 1 ef4:7.5+ eff4:7
   df2:6 d2:7 df2:6 d2:7 df4:6 \chordSlash 1 df4:7 c4:13 f4:maj7 \chordSlash 1 ff4:7.5+ ef4:7

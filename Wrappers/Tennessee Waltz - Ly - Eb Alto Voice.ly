@@ -2,8 +2,8 @@
 
 \include "english.ly"
 
-subtitle = "Patti Page, Jo Stafford Key"
-whatKey = f,
+subtitle = "Anita O'Day Key"
+whatKey = ef,
 whatClef = "lowtreble"
 
 \include "../Core/Tennessee Waltz - Ly Core - C.ly"

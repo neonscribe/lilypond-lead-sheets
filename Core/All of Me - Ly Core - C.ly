@@ -2,7 +2,7 @@
 
 %{
 
-"Customizer": { "choices": { "alternateChords": [ "hlrb", "oldreal", "newreal" ] } }
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "oldreal", "newreal", "newrealalt" ] } }
 
 %}
 
@@ -61,14 +61,27 @@ refrainNewRealChords = \chordmode {
   c1:6 c1:6 e1:7 e1:7
   a1:7 a1:7 d1:m7 d1:m7
   e1:7 e1:7 a1:m7 a1:m7
-  d1:7 d1:7 d1:m7 g1:7
+  d1:13 d1:13 d1:m7 g1:7
 
   c1:6 c1:6 e1:7 e1:7
   a1:7 a1:7 d1:m7 d1:m7
-  f1:6 f1:m6 e1:m7 a1:7
-  d1:m7 g1:7 c2:6
-  \chordOpenParen{ ef2:dim7 }
-  d2:m7
+  f1:6 f1:m6 e1:m7 a1:9
+  d1:m7 g1:13 c1:6
+  \chordOpenParen{ d2:m7 }
+  \chordCloseParen{ g2:7 }
+}
+
+refrainNewRealAlternateChords = \chordmode {
+  c1:6 c1:6 e1:7 e1:7
+  a1:7 a1:7 cs1:dim7 d1:m7
+  e1:7 e1:7 gs1:dim7 a1:m7
+  d1:13 d1:13 d1:m7 g1:7
+
+  c1:6 c1:6 e1:7 e1:7
+  a1:7 a1:7 cs1:dim7 d1:m7
+  f1:6 f1:m6 e1:m7 a1:9
+  d1:m7 g1:13 c1:6
+  \chordOpenParen{ d2:m7 }
   \chordCloseParen{ g2:7 }
 }
 
@@ -103,6 +116,7 @@ refrainMelody = \relative f'' {
   \sect "B"
 
   e4. ef8 d2~ | d2 \tuplet 3/2 { e4 gs4 b4 } | d2 c2~ | c1 |
+  \break
   b4. bf8 a2~ | a2 \tuplet 3/2 { a4 d4 b4 } | a1 | b1 |
 
   \sect "A2"

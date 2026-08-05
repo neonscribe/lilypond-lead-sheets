@@ -8,7 +8,7 @@ subtitle = "Ella Fitzgerald Key, Bill Evans Chords"
 whatKey = ef
 whatClef = "lowtreble"
 
-tempoName = "Ballad [Ella Fitzgerald 1956]"
+tempoIndication = "Ballad [Ella Fitzgerald 1956]"
 tempoBPM = 72
 
 alternateChords = "billevans"

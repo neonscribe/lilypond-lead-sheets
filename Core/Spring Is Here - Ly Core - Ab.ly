@@ -10,16 +10,6 @@ songID = "2026-06-01T22:16:51.588539Z"
 
 \include "../Include/lead-sheets.ily"
 
-tempoName =
-#(if (and (defined? 'tempoName) tempoName)
-  tempoName
-  "Ballad [Ahmad Jamal 1955]")
-
-tempoBPM =
-#(if (and (defined? 'tempoBPM) tempoBPM)
-  tempoBPM
-  70)
-
 headerTitle = "Spring Is Here"
 headerSubtitle = \subtitle
 headerPoet = "Lorenz Hart"
@@ -85,7 +75,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempo \tempoName 4 = \tempoBPM
+  \tempoFour "Ballad [Ahmad Jamal 1955]" 70
 
   \sectNoBar "A1"
 

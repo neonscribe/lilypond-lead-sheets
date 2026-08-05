@@ -66,7 +66,7 @@ introMelody = \relative g' {
 refrainChords = \chordmode {
   f1:maj7 d1:m7 g1:m7 c1:7
   f2:maj7 ef2:13 d1:7 g1:m7 c1:7
-  c1:m7.11 f1:7 bf1:maj7 g2:m7 c2:7
+  c1:m11 f1:7 bf1:maj7 g2:m7 c2:7
   f2:6 d2:m7 g2:m9 c2:7 f2:maj7 d2:m7
 
   g2:m9 c2:7
@@ -76,11 +76,11 @@ refrainChords = \chordmode {
   af1:maj7 a1:dim7 bf1:m7 ef1:7
   af1:maj7 c2:m7 b2:dim7 bf1:m7 ef1:9
   af1:maj7 a1:dim7 bf1:m7 ef1:13
-  af1:maj7 df1:maj7 g1:m7.11 c1:7
+  af1:maj7 df1:maj7 g1:m11 c1:7
 
   f1:maj7 d1:m7 g1:m7 c1:7
   f2:maj7 ef2:13 d1:7 g1:m7 c1:7
-  c1:m7.11 f1:7 bf1:maj7 g2:m7 c2:7
+  c1:m11 f1:7 bf1:maj7 g2:m7 c2:7
   f2:6 d2:m7 g2:m9 c2:7 f2:maj7 d2:m7 g2:m9 c2:7
 
 

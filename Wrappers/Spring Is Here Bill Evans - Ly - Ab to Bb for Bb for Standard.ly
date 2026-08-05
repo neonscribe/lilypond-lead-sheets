@@ -8,7 +8,7 @@ subtitle = "Bb for Standard Key, Bill Evans Chords"
 whatKey = bf
 whatClef = "treble"
 
-tempoName = "Slow Ballad [Bill Evans 1960]"
+tempoIndication = "Slow Ballad [Bill Evans 1960]"
 tempoBPM = 57
 
 alternateChords = "billevans"

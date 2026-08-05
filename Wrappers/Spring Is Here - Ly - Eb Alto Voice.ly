@@ -7,7 +7,7 @@
 subtitle = "Ella Fitzgerald Key"
 whatKey = ef
 whatClef = "lowtreble"
-tempoName = "Ballad [Ella Fitzgerald 1956]"
+tempoIndication = "Ballad [Ella Fitzgerald 1956]"
 tempoBPM = 72
 
 \include "../Core/Spring Is Here - Ly Core - Ab.ly"

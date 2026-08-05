@@ -36,12 +36,12 @@ refrainChords = \chordmode {
   d2:9 g2:9 c2:7 f4:maj7
   \chordInsideParens{ bf4:7 }
   b2:9 e2:9 a2:7 d2:m7
-  d2:m7.11 g4:7 gs4:dim7 a2:m7 d2:13 d2:m7 g2:7.9- c2:maj7 e4:m7 a4:7
+  d2:m11 g4:7 gs4:dim7 a2:m7 d2:13 d2:m7 g2:7.9- c2:maj7 e4:m7 a4:7
 
   d2:9 g2:9 c2:7 f4:maj7
   \chordInsideParens{ bf4:7 }
   b2:9 e2:9 a2:7 d2:m7
-  d2:m7.11 g4:7 gs4:dim7 a2:m7 d2:13 d2:m7 g2:7.9- c2:maj7 fs4:m7 b4:7
+  d2:m11 g4:7 gs4:dim7 a2:m7 d2:13 d2:m7 g2:7.9- c2:maj7 fs4:m7 b4:7
 
   e2:maj7 cs2:m7 fs2:m7.5- b2:7 e2:maj7 cs2:m7 fs2:m7 b2:7
   e2:maj7 cs2:m7 fs2:m7.5- b2:7 e2:maj7 a2:7 d4:m11 ef4:m11 e4:m11 ef4:9
@@ -49,7 +49,7 @@ refrainChords = \chordmode {
   d2:9 g2:9 c2:7 f4:maj7
   \chordInsideParens{ bf4:7 }
   b2:9 e2:9 a2:7 d2:m7
-  d2:m7.11 g4:7 gs4:dim7 a2:m7 d2:13 d2:m7 g2:7.9- c2:maj7
+  d2:m11 g4:7 gs4:dim7 a2:m7 d2:13 d2:m7 g2:7.9- c2:maj7
   \chordOpenParen{ e4:m7 }
   \chordCloseParen{ a4:7 }
 }
