@@ -32,7 +32,9 @@ introMelody = \relative f' {
   \partial 2. g4 a4 c4 |
   \bar "||"
 
-  ds8 e4 c8~ c4. g8 | bf8 bf8 a4 g4 e4 | c2. b'4 | c2.
+  ds8 e4 c8~ c4. g8 | bf8 bf8 a4 g4 e4 | c2. b'4 | 
+  \partial 2. c2.
+  \bar "!"
 }
 
 refrainMartyRobbinsLyrics = \lyricmode {

@@ -25,7 +25,7 @@ def find_sheets_in_books(dir):
                         include_next = True
 
 find_sheets_in_books('../TeX')
-find_sheets_in_books('../TeX2')
+# find_sheets_in_books('../TeX2')
 
 ly_files_pattern = '../Wrappers/*.ly'
 ly_files = glob.glob(ly_files_pattern)

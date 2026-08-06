@@ -59,9 +59,7 @@ refrainMelody = \relative f' {
   r8 bf,8 c8 ef8 f8 f4. | r8 bf,8 c8 ef8 f8 f4. | r8 bf,8 c8 ef8 f8 f4.~ | f4 ef8 bf'8~ bf2 |
   r8 bf8 c8 bf8 c4. bf8 | g4 ef8 f8~ f4. ef8 | gf4 gf8 ef8 gf8 ef8 gf8 f8~ | f1 |
 
-  \xTextMark "Refrain"
-
-  \sect "A1"
+  \sectStartRefrain "A1"
 
   bf1~ | bf4 af8 bf8 df8 bf8 \tuplet 3/2 { df8( bf8) af8 } |
   bf1 | r8 ef,8 gf8 af8 bf8 af8 \tuplet 3/2 { gf8( f8) ef8 } |

@@ -58,7 +58,6 @@ refrainMelody = \relative f' {
 
   c'8 g4 a8 b8 c8 b8 a8 | c8 g4 a8 b8 c8 b8 a8 | g8 d4 e8 f8 g8 f8 e8 |
   g1 |
-  \break
   g8 d4 e8 f8 g8 f8 e8 | g4. d8 f8 e8 g8 e8 |
   d8 c4. r2 | r1 |
 
@@ -66,20 +65,17 @@ refrainMelody = \relative f' {
 
   c'8 g4 a8 b8 c8 b8 a8 | c8 g4 a8 b8 c8 b8 a8 | g8 d4 e8 f8 g8 f8 e8 |
   g1 |
-  \break
   g8 d4 e8 f8 g8 f8 e8 | g4. d8 f8 e8 g8 e8 |
   d8 c4.~ c2~ | c4 d4 e4 g4 |
 
   \sectPageBreak "B"
 
   c2~ c8 cs8 d4 | bf4 bf2. | af2~ af8 a8 bf4 | g1 |
-  \break
   f2~ f8 fs8 g4 | ef4 ef2. | d8 d4 d8 ds4 e4 | g1 |
 
   \sectPageBreak "A3"
 
   c8 g4 a8 b8 c8 b8 a8 | c8 g4 a8 b8 c8 b8 a8 | g8 d4 e8 f8 g8 f8 e8 | g1 |
-  \break
   g8 d4 e8 f8 g8 f8 e8 | g4. d8 f8 e8 g8 e8 | d8 c4. r2 | r1 |
 
   \bar "|."

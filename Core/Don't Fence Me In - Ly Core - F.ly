@@ -17,6 +17,11 @@ headerComposer = "Cole Porter"
 headerCopyright = "© 1944 Warner Bros, Inc."
 
 refrainLyrics = \lyricmode {
+Wild Cat Kel -- ley, look -- ing might -- y pale,
+was stand -- ing by the sher -- iff's side __
+and when that sher -- iff said I'm send -- ing you to jail,
+Wild Cat raised his head and cried:
+
 Oh, give me land, lots of land un -- der star -- ry skies a -- bove
 don't fence me in. __
 Let me ride thru the wide o -- pen coun -- try that I love,
@@ -36,7 +41,8 @@ don't fence me in.
 }
 
 refrainSimpleChords = \chordmode {
-  s2.
+  f1 bf1 f1 c1:7
+  f1 bf1 f1 f2 c2:7
 
   f1 f1 f1 c1:7
   c1:7 c1:7 c1:7 f1
@@ -51,7 +57,10 @@ refrainSimpleChords = \chordmode {
 }
 
 refrainHLChords = \chordmode {
-  s2.
+  f4:6 bf4:6 f2:6 bf2:6 f4/a c4:7/g f1:6 g1:m7
+  f4:6 bf4:6 f2:6 bf4:6 b4:dim7 f4:6/c c4:7/g 
+  f4:6 d4:m7 bf4:6 c4:7 f2:6 g4:m7 c4:7
+
 
   f2 f2:maj7 f2:6 f2:maj7 f2:6 d2:7.9- g2:m7 c2:7
   g2:m7 c2:7 g2:m7 c2:7 g2:m7 c2:7 f1:6
@@ -87,7 +96,18 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Ballad [Bing Crosby 1944]" 96
 
-  \partial 2. c4 f4 g4 |
+  \xTextMark "Verse"
+
+  c'4 d4 c8 a4. | g8 f8 e8 d8 c4. c8 | f8 g8 a8 bf8 c8 a4. | g2. r8 c,8 |
+  c'4 d4 c8 a8 g8 f8 | g8 f8 e8 d8 c2 | f4 a4 g8 f8 f8 e8 | f4
+  
+  \bar "!"
+
+  \xxPageBreak
+
+  \xTextMark "Refrain"
+
+  c4 f4 g4 |
 
   \sectNoBreak "A"
 

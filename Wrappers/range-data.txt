@@ -8187,6 +8187,36 @@ refrain
 c
 g'
 
+Favela - Ly - Am Bass for Standard.ly
+refrain
+e,
+c'
+
+Favela - Ly - Am Standard for Viola.ly
+refrain
+e
+c''
+
+Favela - Ly - Am Standard.ly
+refrain
+e'
+c'''
+
+Favela - Ly - Am to Bm for Bb High for Standard.ly
+refrain
+fis'
+d'''
+
+Favela - Ly - Am to Bm for Bb Low for Standard.ly
+refrain
+fis
+d''
+
+Favela - Ly - Am to Fsm for Eb for Standard.ly
+refrain
+cis'
+a''
+
 Fee-Fi-Fo-Fum - Ly - C Bass for Standard.ly
 refrain
 a,
@@ -25071,6 +25101,31 @@ refrain
 c'
 g''
 
+Tennessee Waltz - Ly - A Alto Voice.ly
+refrain
+a
+e''
+
+Tennessee Waltz - Ly - A Baritone Voice.ly
+refrain
+a,
+e'
+
+Tennessee Waltz - Ly - Ab Baritone Voice.ly
+refrain
+aes,
+ees'
+
+Tennessee Waltz - Ly - Bb Baritone Voice.ly
+refrain
+bes,
+f'
+
+Tennessee Waltz - Ly - C Baritone Voice.ly
+refrain
+c
+g'
+
 Tennessee Waltz - Ly - C Bass for Standard.ly
 refrain
 c
@@ -25096,6 +25151,11 @@ refrain
 d'
 a''
 
+Tennessee Waltz - Ly - Eb Alto Voice.ly
+refrain
+ees
+bes'
+
 Tennessee Waltz - Ly - F Alto Voice.ly
 refrain
 f
@@ -25105,6 +25165,11 @@ Tennessee Waltz - Ly - F Bass for Alto Voice.ly
 refrain
 f,
 c'
+
+Tennessee Waltz - Ly - G Alto Voice.ly
+refrain
+g
+d''
 
 Tenor Madness - Ly - Bb Bass for Standard.ly
 refrain
@@ -28758,6 +28823,41 @@ refrain
 f
 bes'
 
+What's Made Milwaukee Famous - Ly - A Baritone Voice.ly
+refrain
+gis
+e''
+
+What's Made Milwaukee Famous - Ly - C Bass for Standard.ly
+refrain
+b,
+g'
+
+What's Made Milwaukee Famous - Ly - C Standard for Viola.ly
+refrain
+b,
+g'
+
+What's Made Milwaukee Famous - Ly - C Standard.ly
+refrain
+b
+g''
+
+What's Made Milwaukee Famous - Ly - C to A for Eb for Standard.ly
+refrain
+gis'
+e'''
+
+What's Made Milwaukee Famous - Ly - C to D for Bb for Standard.ly
+refrain
+cis'
+a''
+
+What's Made Milwaukee Famous - Ly - F Baritone Voice.ly
+refrain
+e
+c''
+
 What's New - Ly - Ab Baritone Voice.ly
 refrain
 aes,
@@ -29585,17 +29685,17 @@ e''
 With a Gun - Ly - Am Standard for Viola.ly
 refrain
 g
-g' >[6
+g'
 
 With a Gun - Ly - Am Standard.ly
 refrain
 g'
-g'' >[6
+g''
 
 With a Gun - Ly - Em Baritone Voice.ly
 refrain
 d
-d' >[6
+d'
 
 Without a Song - Ly - Ab Alto Voice.ly
 refrain

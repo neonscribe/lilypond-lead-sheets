@@ -339,7 +339,8 @@
         "alternateChords": [
             "hlrb",
             "oldreal",
-            "newreal"
+            "newreal",
+            "newrealalt"
         ]
     }
 },{
@@ -517,6 +518,13 @@
             "newreal",
             "newrealalt",
             "557"
+        ]
+    }
+},{
+    "choices": {
+        "singerGender": [
+            "female",
+            "male"
         ]
     }
 },{
