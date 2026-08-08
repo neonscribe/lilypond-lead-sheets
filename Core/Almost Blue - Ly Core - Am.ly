@@ -53,20 +53,18 @@ refrainLyrics =
   refrainObjectGenderFemaleLyrics)
 
 refrainChords = \chordmode {
-  \set chordChanges = ##t
   a2:m a2:m7+/gs a2:m7/g b4:m7.5- e4:7.9- a2:m ef2:dim7 b2:m7.5- e2:7.9-
 
   a2:m a2:m7+/gs a2:m7/g b4:m7.5- e4:7 a2:m a2:m7+/gs a2:m7/g b4:m7.5- e4:7
   c2:maj7 f2:maj7 e2:7.9+ e2:7.9+/d a2:m b2:m7/a ds2:dim7/a d2:m/a
   c2 bf2:6 a2:7.9- a2:7.9-/g d2:m d2:m/c b2:m7.5- e2:7.5+
-  a2:m ef2:dim7 a2.:m a4:m/g f2 b2:m7.5- c2 cs2:dim7
+  a2:m ef2:dim7 a4:m \chordSlash 2 a4:m/g f2 b2:m7.5- c2 cs2:dim7
   d2:m b2:m7.5- e2:sus7 e2:7.9-
 
   a2:m a2:m7+/gs a2:m7/g b4:m7.5- e4:7 a2:m a2:m7+/gs a2:m7/g b4:m7.5- e4:7
   c2:maj7 f2:maj7 e2:7.9+ e2:7.9+/d a2:m b2:m7/a ds2:dim7/a d2:m/a
   c2 bf2:6 a2:7.9- a2:7.9-/g d2:m d2:m/c b2:m7.5- e2:7.5+
   a1:m9 b1:m7.5- e1:7.9- a1:m6.9
-  \set chordChanges = ##f
 }
 
 refrainKey = a
