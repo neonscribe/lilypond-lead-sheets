@@ -4,8 +4,8 @@
 
 \include "english.ly"
 
-subtitle = "Marsha Hunt, Sammi Smith Key"
-whatKey = c
-whatClef = "lowtreble"
+subtitle = "Bass for Standard Key"
+whatKey = d,,
+whatClef = "bass"
 
 \include "../Core/The Long Black Veil - Ly Core - D.ly"

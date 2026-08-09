@@ -151,6 +151,7 @@ refrainMelody = \relative f' {
   r4 d'8 c8 af8 g8 f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
 
   \bar "|o"
+
   \xPageBreak
 
   a4( c4) r4 a8 a8 | g8( f4.) r4 af8 g8 |

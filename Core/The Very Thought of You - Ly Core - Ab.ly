@@ -102,7 +102,7 @@ refrainMelody = \relative f' {
 }
 
 afterText =
-\markup { "The" \noteName { \transpose \refrainKey \whatKey f } "note in measure 29 is sometimes sung as"
-	   \noteName { \transpose \refrainKey \whatKey g } "instead." }
+\markup { "The" \tpNote { f } "note in measure 28 is sometimes sung as"
+	   \tpNote { g } "instead." }
 
 \include "../Include/refrainonly.ily"

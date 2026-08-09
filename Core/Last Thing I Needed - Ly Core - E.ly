@@ -295,10 +295,9 @@ refrainMelody = \relative f' {
   b16( a16 gs4) r4. r4. |
   r4. r4. r4 gs8 |
 
-  \bar "||-||"
   \break
 
-  \bar ".|:"
+  \bar ".|:-||"
   \xTextMark \markup "Chorus"
   \repeat volta 2 {
 

@@ -463,6 +463,23 @@ context-property."
                   empty-markup
                   (accidental->text-markup alt)))))))
 
+#(define-markup-command (tpNote layout props mus) (ly:music?)
+   ;; accept mus as music instead of pitch
+   ;; in order to allow for transposition
+  (ly:message "whatKey ~a refrainKey ~a" whatKey refrainKey)
+   (let*
+    ((pitch (first (music-pitches (ly:music-transpose (no-double-accidental mus)
+				   (- whatKey refrainKey)))))
+     (alt (ly:pitch-alteration pitch)))
+    (interpret-markup
+     layout
+     props
+     (markup #:concat
+             ((string-upcase (pitch->name pitch))
+              (if (zero? alt)
+                  empty-markup
+                  (accidental->text-markup alt)))))))
+
 tocTruncateTitle =
 #(define-scheme-function (title sub)
   (scheme? scheme?)

@@ -1,54 +1,55 @@
 %% -*- Mode: LilyPond -*-
 
-songID = "2026-06-01T22:16:54.735419Z"
+songID = "2026-08-09T17:51:09.409553Z"
 
 \include "../Include/lead-sheets.ily"
 
-headerTitle = "The Long Black Veil (Lefty Frizzell Arrangement)"
+headerTitle = "The Long Black Veil (The Country Gentlemen Arrangement)"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "Marijohn Wilkin and Danny Dill"
 headerCopyright = "© 1959 Cedarwood Publishing"
 
 refrainLyrics = \lyricmode {
-Ten years a -- go __ on a cold, dark night __
+Ten years a -- go _ on a cold, dark night __
 there was some -- one killed __ 'neath the town hall __ light.
-There were few at the scene, __ but they __ all a -- greed __
-that the slay -- er who ran __ looked a lot like __ me. __
+The peo -- ple that saw, _ they __ all a -- greed __
+that the slay -- er who ran __ looked a lot like __ me.
 
 The
 
-She walks these hills in a long __ black veil,
-she vis -- its my grave when the night winds wail. __
-No -- bod -- y knows, __ no -- bod -- y sees,
-No -- bod -- y knows __ but __ me.
+me.
+
+She walks these hills __ in a long __ black veil, __
+she vis -- its my grave __ when the night winds wail. __
+No -- bod -- y knows, __ no -- bod -- y sees, __
+No -- bod -- y knows __ but me. __
 
 The
 
-No -- bod -- y knows __ but __ me.
+No -- bod -- y knows __ but __ me. __
 }
 
 refrainChords = \chordmode {
-  e1 e1 e1 e1
-  b1:7 b1:7 a1 e1
+  d1 d1 d1 d1
+  a1 a1 g1 d1 d1
 
-  e1 e1 e1 e1
-  b1:7 b1:7 a1 e1
-
-  e1
-
-  e1
-
-  a1 e1 a1 e1
-  a1 e1 a1 e1
-
-  e1 e1 e1 a1
-  e1 a1 b1:7 e1 e1
-
-  e1 a1 b1:7 e1 e1
+  d1 d1 d1 d1
+  a1 a1 g1 
+  
+  d1 d1
+  
+  d1 d1
+  
+  g1 d1 g1 d1 d1
+  g1 d1 g1 d1 d1
+  d1 d1 d1 d1
+  g1 a1 d1 d1
+  
+  g1 a1 d1 d1
 }
 
-refrainKey = e
+refrainKey = d
 
 whatKey = #(or whatKey refrainKey)
 
@@ -56,35 +57,33 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Medium [Lefty Frizzell 1959]" 130
+  \tempoFour "Medium [The Band 1968]" 140
 
   \sectNoBarNoBreak "Verse"
 
   \bar ".|:"
   \repeat volta 2 {
-  e2 e4 e8 e8( | b2) r4 gs'8 gs8 | gs2 gs4. gs8( | e2) ds4 e4 |
+  d'2 d4 d8 d8~ d4 \parenthesize a4 d4 e8 fs8~ | fs2 fs2 | fs8( e8 d4) d4 d8 e8~ |
   \break
-  fs2 fs4. fs8~ | fs2 gs4 fs4 | e2 cs8( e4.) | b2 r8 b8 cs4 |
+  e2 e2 | e4 r4 a,4 a8 b8~( | b4 d4) d4( e4) | d1 | r2 r4 d8 d8~ |
   \break
-  e2 r8 e8 e8 e8~ | e2 r4 fs8 gs8~ | gs2 gs4 fs8 gs8( | e2) ds4 e4 |
+  d2 d4 d8 d8~ | d4 r4 \parenthesize d4 e4 | fs2 fs2 | fs8( e8 d4) d4 d4 | e2 e4 fs4 |
   \break
-  fs2 fs4 fs8 fs8~ | fs2 gs4 fs4 | e2 cs8( e4.) | e8( b4.~ b2) |
+  e4 r4 a,4 a8 b8~( | b4 d4) d4( e4) |
   \alternative { \volta 1 {
-  r2 r4 e4 |
+  d1 | r2 r4 d4 |
   \break
   } \volta 2 {
-  r2 r4 b4 |
+  d1 | r2 r4 a4 |
   } } }
   \sectNoBreak "Chorus"
 
-  cs2 e2 | b2 r4 b8. b16 | cs4.( e8~ e4) e4 | gs2. b,4 |
+  b2 d2 | b8( a4.) r4 a8 a8 | b2 d2 | fs2.~( fs8 e8 | d2) r4 a4 | b2 d8 d4. |
   \break
-  cs2 e4 e4 | b2 r4 b8 b8 | cs2 e2 | gs2~( gs8 fs8 gs8 fs8 |
+  b8( a4.) r4 a8 a8 | b2 d2 | fs2.~( fs8 e8 | d2) r2 | a'2 a4 b8 a8~ | a2 r2 |
   \break
-  e2) r2 | b'2~ b8 b8 cs8 b8~( | b8 gs4 fs8 e2) | r4 e2 e8 e8 |
-  \break
-  g2 r2 | cs,4(  e4~ e8) e8 e8 fs8~( | fs4 b,2) cs8( e8) |
-  fs8( e4.~ e2) \textToCoda | r2 r4 e4 \daCapoSecondEnding |
+  fs2 fs4 g8 fs8~ | fs2 r2 \textToCodaLastTime | d2 d4 d8 e8~ |
+  e2 r4 fs4 | fs8( e8 d2.) | r2 r4 d4 \daCapoThirdVerse |
 
   \bar "||-|."
 
@@ -92,10 +91,9 @@ refrainMelody = \relative f' {
 
   \textCodaBreak
 
-  r1 |
-\repeat volta 2 {
-  cs2 e4 e8 fs8~( | fs4 b,2) cs8( e8) | e1 | r1 |
-  }
+  d2 d4^"rit." d8 e8~ | e2 r4 fs4 | fs2.~( fs8 e8 | d2) r2\fermata |
+  
+  \bar "|."
 }
 
 afterText =
@@ -110,6 +108,8 @@ afterText =
    \vspace #4
    \line { \large { Chorus } }
    \vspace #4
+   \line { \large { Solo } }
+   \vspace #2
    \line { \large { Verse 3 } }
    \vspace #4
    \line { \large { Chorus } }
@@ -123,7 +123,7 @@ afterText =
    \vspace #2
    \line { \large { Ten years ago, on a cold dark night } }
    \line { \large { There was someone killed 'neath the town hall light } }
-   \line { \large { There were few at the scene, but they all agreed } }
+   \line { \large { The people that saw, they all agreed } }
    \line { \large { That the slayer who ran looked a lot like me } }
    \vspace #1
    \line { \large { The judge said, “Son what is your alibi? } }
@@ -136,10 +136,25 @@ afterText =
    \line { \large { Nobody knows, nobody sees } }
    \line { \large { Nobody knows but me } }
    \vspace #1
-   \line { \large { The scaffold is high, and eternity nears } }
+   \line { \large { \italic { "(First half of chorus, with extra bar of " \tpNote { d } " before and after)" } } }
+   \line { \large { \tpNote { d }
+		    " || " \tpNote { g }
+		    " | " \tpNote { d }
+		    " | " \tpNote { g }
+		    " | " \tpNote { d }
+		    " | " \tpNote { d }
+		    " || " \tpNote { g }
+		    " | " \tpNote { d }
+		    " | " \tpNote { g }
+		    " | " \tpNote { d }
+		    " | " \tpNote { d }
+		    " || " \tpNote { d }
+		  } }
+   \vspace #1
+   \line { \large { The scaffold was high, and eternity near } }
    \line { \large { She stood in the crowd and shed not a tear } }
-   \line { \large { But sometimes at night when the cold wind moans } }
-   \line { \large { In a long black veil she cries over my bones } }
+   \line { \large { And sometimes at night when the cold wind moans } }
+   \line { \large { In a long black veil she cries o'er my bones } }
    \vspace #1
    \line { \large { She walks these hills in a long black veil } }
    \line { \large { She visits my grave when the night winds wail } }
