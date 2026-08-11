@@ -272,6 +272,7 @@ refrainChords = \\chordmode {{
 refrainKey = {key}
 
 whatKey = #(or whatKey refrainKey)
+{'isMinor = ##t' if is_minor else ''}
 
 refrainMelody = \\relative f' {{
   \\time 4/4
