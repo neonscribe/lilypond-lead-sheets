@@ -9151,6 +9151,61 @@ refrain
 c'
 f''
 
+Greensleeves Coltrane - Ly - Dm Bass for Standard.ly
+intro
+d
+d'
+refrain
+a,,
+d'
+outro
+d
+d'
+
+Greensleeves Coltrane - Ly - Dm Standard for Viola.ly
+intro
+d
+d'
+refrain
+a,
+d''
+outro
+d
+d'
+
+Greensleeves Coltrane - Ly - Dm Standard.ly
+intro
+d
+d'
+refrain
+a
+d'''
+outro
+d
+d'
+
+Greensleeves Coltrane - Ly - Dm to Bm for Eb for Standard.ly
+intro
+b
+b'
+refrain
+fis
+b''
+outro
+b
+b'
+
+Greensleeves Coltrane - Ly - Dm to Em for Bb for Standard.ly
+intro
+e
+e'
+refrain
+b
+e'''
+outro
+e
+e'
+
 Groovin' High - Ly - Eb Bass for Standard.ly
 refrain
 c
@@ -25985,18 +26040,48 @@ a'
 
 The Long Black Veil - Ly - Bb Baritone Voice.ly
 refrain
-f
-g'
+f'
+g''
 
 The Long Black Veil - Ly - C Alto Voice.ly
 refrain
-g
-a'
+g'
+a''
 
 The Long Black Veil - Ly - D Alto Voice.ly
 refrain
+a'
+b''
+
+The Long Black Veil - Ly - D Bass for Standard.ly
+refrain
+a,
+b
+
+The Long Black Veil - Ly - D Standard for Viola.ly
+refrain
 a
 b'
+
+The Long Black Veil - Ly - D Standard.ly
+refrain
+a'
+b''
+
+The Long Black Veil - Ly - D to B for Eb for Standard.ly
+refrain
+fis'
+gis''
+
+The Long Black Veil - Ly - D to E for Bb for Standard.ly
+refrain
+b
+cis''
+
+The Long Black Veil - Ly - E Baritone Voice.ly
+refrain
+b
+cis''
 
 The Long Black Veil - Ly - E Bass for Standard.ly
 refrain
@@ -26023,10 +26108,15 @@ refrain
 cis'
 dis''
 
+The Long Black Veil - Ly - F Baritone Voice.ly
+refrain
+c'
+d''
+
 The Long Black Veil - Ly - G Baritone Voice.ly
 refrain
-d
-e'
+d'
+e''
 
 The Look of Love - Ly - Bb Alto Voice.ly
 refrain

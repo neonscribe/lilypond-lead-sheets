@@ -18,7 +18,9 @@ I __ got my man. __ Who could ask for any -- y -- thing more?
 Old __ Man Troub -- le, __ I __ don't mind him. __
 You __ won't find him __ 'round __ my door.
 I got star -- light, __ I __got sweet dreams, __
-I __ got my man. __ Who could ask for any -- y -- thing more?
+I __ got my man. __ Who could ask for an -- y -- thing more?
+
+more? Who could ask for an -- y -- thing more?
 }
 
 refrainChords = \chordmode {
@@ -32,6 +34,8 @@ refrainChords = \chordmode {
 
   bf2:6 g2:m7 c2:m7 f2:7 d2:m7 g2:m7 c2:m7 f2:7
   bf2:7 bf2:7/d ef2:7 e2:dim7 bf2:6/f f2:7 bf1:6
+  
+  ef2:7 e2:dim7 bf2:6/f f2:7 bf1:6
 }
 
 refrainKey = bf
@@ -44,29 +48,33 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Ella Fitzgerald 1959]" 144
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
+
+  \bar ".|:"
+  \repeat volta 2 {
 
   r4 f4~ f8 g4. | bf4. c8~ c2 | r4 c4~ c8 bf4. | g4. f8~ f2 |
-  \break
   r4 f4~ f8 g4. | bf4. c8~ c8 ef4 c8 | d4 d4 c8 d8 c4 | d2 r2 |
 
   \sect "A2"
 
   r4 f,4~ f8 g4. | bf4. c8~ c2 | r4 c4~ c8 bf4. | g4. f8~ f2 |
-  \break
   r4 f4~ f8 g4. | bf4. c8~ c8 ef4 c8 | d4 d4 c8 d8 c4 | d1 |
 
   \sect "B"
 
   r4 d4~ d8 d4. | d4. e8~ e2 | r4 d4~ d8 d4. | d4. g,8~ g2 |
-  \break
   r4 c4~ c8 c4. | c4. d8~ d2 | r4 c4~ c8 c4. | c4.( f,8~ f2) |
 
   \sect "A3"
 
   r4 f4~ f8 g4. | bf4. c8~ c2 | r4 c4~ c8 bf4. | g4. f8~ f2 |
-  \break
-  r4 f4~ f8 g4. | bf4. c8~ c8 ef4 c8 | d4 d4 c8 d8 c4 | bf1 |
+  r4 f4~ f8 g4. | bf4. c8~ c8 ef4 c8 | d4 d4 c8 d8 c4 \textToCodaLastTime | bf1 |
+  }
+
+  \textCoda
+  
+  d2~ d8 ef4 c8 | d4 d4 c8 d8 c4 | bf1 |
 
   \bar "|."
 }
