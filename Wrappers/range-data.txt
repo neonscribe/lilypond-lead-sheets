@@ -8242,6 +8242,51 @@ refrain
 b
 c''
 
+Feeling Good - Ly - Am Alto Voice.ly
+refrain
+e
+b'
+
+Feeling Good - Ly - Cm Baritone Voice.ly
+refrain
+g,
+d'
+
+Feeling Good - Ly - Dm Bass for Standard.ly
+refrain
+a,
+e'
+
+Feeling Good - Ly - Dm Standard for Viola.ly
+refrain
+a
+e''
+
+Feeling Good - Ly - Dm Standard.ly
+refrain
+a
+e''
+
+Feeling Good - Ly - Dm to Bm for Eb for Standard.ly
+refrain
+fis'
+cis'''
+
+Feeling Good - Ly - Dm to Em for Bb for Standard.ly
+refrain
+b
+fis''
+
+Feeling Good - Ly - Fm Alto Voice.ly
+refrain
+c
+g'
+
+Feeling Good - Ly - Gm Alto Voice.ly
+refrain
+d
+a'
+
 Fever - Ly - Am Bass for Standard.ly
 intro
 e,,,

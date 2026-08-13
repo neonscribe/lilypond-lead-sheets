@@ -116,8 +116,8 @@ for file in *.ly; do
     fi
 done
 
-python parse-log-ambitus.py > range-data.txt
-python collect-customizers.py > customizers.json
+python ../Scripts/parse-log-ambitus.py > range-data.txt
+python ../Scripts/collect-customizers.py > customizers.json
 check-jsonschema --schemafile customizers-schema.json customizers.json
 check-jsonschema --schemafile options-schema.json options.json
 check-jsonschema --schemafile choices-schema.json choices.json

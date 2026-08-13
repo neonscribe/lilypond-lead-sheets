@@ -2,7 +2,8 @@
 
 %{
 
-"Customizer": { "toggles": [ "noIntro" ] }
+"Customizer": { "toggles": [ "noIntro" ],
+		"choices": { "alternateChords": [ "hlrb", "newreal" ] } }
 
 %}
 
@@ -39,9 +40,9 @@ verseMelody = \relative g'' {
 
   \xTextMark \markup{ "Verse" }
 
-  d8 c8 a8 f2 g8 | a8 bf8 a8 a2 f8 |
+  d8 c8 a8 f8~ f4. g8 | a8 bf8 a8 a8~ a4. f8 |
   a8 bf8 a8 bf8 a4 e'8 d8~ | d1 |
-  d8 c8 a8 f2 f8 | e8 fs8 a8 cs4. d4 |
+  d8 c8 a8 f8~ f4. f8 | e8 fs8 a8 cs4. d4 |
   e8 e8 e8 cs8~ cs2 | c8 c8 c8 a8~ a2 |
 
   \bar "||"
@@ -72,24 +73,53 @@ What did I do?
 I thought a -- bout you. __
 }
 
-refrainChords = \chordmode {
-  f2:6 bf2:7 a2:7 d2:7 g2:7 af2:7 g1:7
+refrainHLChords = \chordmode {
+  f2:6 bf2:7 a2:7 d2:7 g2:7 af2:6 g1:7
   g1:m7 e2:m7.5- a2:7.9- d2:m7 df2:7 c2:m7 f2:7
 
   bf1:maj7 bf2:m7 ef2:7 f2:maj7 c2:7 f1:maj7
   b2:m7.5- e2:7.9- b2:m7.5- e2:7.9- a2:m7 d2:7 g2:m7 c2:7
 
-  f2:6 bf2:7 a2:7 d2:7 g2:7 af2:7 g1:7
+  f2:6 bf2:7 a2:7 d2:7 g2:7 af2:6 g1:7
   g1:m7 e2:m7.5- a2:7.9- d2:m7 df2:7 c2:m7 f2:7
 
   bf1:maj7 bf2:m7 ef2:7 f2:maj7 d2:m7 b2:m7.5- bf2:7.11+
   a2:m7 d2:7 g2:m7 c2:7 f2:6
-  d2:7.9-
+  \chordOpenParen{ d2:7.9- }
   g2:m7
-  c2:7
+  \chordCloseParen{ c2:7 }
 
   a2:m7 d2:7 bf2:m7 ef2:7 bf2:m7 ef2:7 a2:m7 d2:7 g4:m7 r2. f1:6 f1:6
 }
+
+refrainNRChords = \chordmode {
+  b2:m7.5- bf2:9.11+ a2:7 d2:7.5+ g2:9 af2:13 g1:9
+  g1:m7 e2:m7.5- a2:7 d2:m7 df2:7 c2:m7 f2:7
+
+  bf1:maj7 bf2:m7 ef2:13 f2:maj7 c2:7 f1:maj7
+  b2:m7.5- e4:7.5+ e4:7 b2:m7.5- e4:7.5+ e4:7 a2:m7 af2:7 g2:m7 c2:7
+
+  b2:m7.5- bf2:9.11+ a2:7 d2:7.5+ g2:9 af2:13 g1:9
+  g1:m7 e2:m7.5- a2:7 d2:m7 df2:7 c2:m7 f2:7
+
+  bf1:maj7 bf2:m7 ef2:13 f2:maj7 d2:m7/c b2:m7.5- bf2:9.11+
+  a2:m7 af2:7 g2:m7 c2:7 f1:6
+  \chordOpenParen{ g2:m7 }
+  \chordCloseParen{ c2:7 }
+
+  a2:m7 af2:7 bf2:m7 ef2:7 bf2:m7 ef2:7 a2:m7 af2:7 g4:m7 r2. f1:6 f1:6
+}
+
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "newreal" refrainNRChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = f
 

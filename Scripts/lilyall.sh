@@ -1,1 +1,1 @@
-sh lilyfy.sh > ../../lilyfy.log 2>&1
+sh ../Scripts/lilyfy.sh > ../../lilyfy.log 2>&1

@@ -12,6 +12,13 @@
     }
 },{
     "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal"
+        ]
+    }
+},{
+    "choices": {
         "singerGender": [
             "male",
             "female"
@@ -403,6 +410,13 @@
         ]
     }
 },{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal"
+        ]
+    }
+},{
     "toggles": [
         "noIntro"
     ]
@@ -590,7 +604,13 @@
 },{
     "toggles": [
         "noIntro"
-    ]
+    ],
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal"
+        ]
+    }
 },{
     "choices": {
         "singerGender": [

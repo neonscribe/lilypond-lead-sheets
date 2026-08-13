@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "newreal" ] } }
+
+%}
+
 songID = "2026-06-01T22:16:55.927273Z"
 
 \include "../Include/lead-sheets.ily"
@@ -27,16 +33,14 @@ refrainNRChords = \chordmode {
   s4
 
   ef1:maj7 ef1:maj7 d1:m7.5- g1:7
-  c1:m7
-  \chordInsideParens{ f1:7 }
+  c1:m7 c1:m7
   bf1:m9 ef1:13
 
   af1:maj7 df1:9.11+ ef1:maj7 c1:m7
   f1:9 f1:9 f1:m7 bf1:7
 
   ef1:maj7 ef1:maj7 d1:m7.5- g1:7
-  c1:m7
-  \chordInsideParens{ f1:7 }
+  c1:m7 c1:m7
   bf1:m9 ef1:13
 
   af1:maj7 df1:9.11+ ef1:maj7 a2:m7.5- d2:7
@@ -63,7 +67,16 @@ refrainHLChords = \chordmode {
   \chordInsideParens{ bf2:7 }
 }
 
-refrainChords = \refrainNRChords
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "newreal" refrainNRChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = ef
 
@@ -81,26 +94,26 @@ refrainMelody = \relative f' {
   \bar "||"
 
   c4 d4 ef4 f4 | g4 bf4 f4. ef8 | f1~ | f2. g4 |
-  %% \break
+  \break
   ef4 f4 g4 bf4 | c4 ef4 c4. bf8 | c1~ | c2. bf4 |
-  %% \break
+  \break
 
   \xTextMark \markup{ \bold \box "B1" }
 
   ef4 c4 bf4 af4 | g4 f4 g4 af4 | bf4 g4 f4 ef4 | f4 ef4 f4. ef8 |
-  %% \break
+  \break
   d'4 c4 bf4 a4 | g4 f4 g4 f4 | af1~ | af2. bf,4 |
   \sect "A2"
 
   c4 d4 ef4 f4 | g4 bf4 f4. ef8 | f1~ | f2. g4 |
-  %% \break
+  \break
   ef4 f4 g4 bf4 | c4 ef4 c4. bf8 | c1~ | c2. bf4 |
-  %% \break
+  \break
 
   \xTextMark \markup{ \bold \box "B2" }
 
   ef4 c4 bf4 af4 | g4 f4 g4. af8 | bf4 g4 f4 ef4 | d'2. c4 |
-  %% \break
+  \break
   bf4 ef4 d4 c4 | bf4 ef,4 bf'4 af4 | f2 g2 | ef1 |
 
   \bar "|."
