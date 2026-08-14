@@ -1,4 +1,3 @@
-<img width="835" height="1181" alt="At Sundown - Ly - F Standard" src="https://github.com/user-attachments/assets/897d774e-6339-4efd-a0a0-dc67c7f4586d" />
 # lilypond-lead-sheets
 
 Create lead sheets and collection books using LilyPond
@@ -48,7 +47,7 @@ We use `english.ly` note naming in LilyPond instead of the standard `nederlands.
 
 Here's an example of the output for a single song. Title and subtitle are centered at the top. Composer is right-justified and lyricist (if different from composer) is left-justified. There is a tempo marking with specific beats per minute, usually with a reference in square brackets to a particular well-known recording of the song. This refers only to the given tempo, not necessarily to the arrangement presented, and is only intended as a suggestion.
 
-<img width="835" height="1181" alt="At Sundown - Ly - F Standard" src="https://github.com/user-attachments/assets/ddb36f98-bb78-4184-9017-dc31501fe25e" />
+<img width="835" height="1181" alt="At Sundown - Ly - F Standard" src="https://github.com/user-attachments/assets/897d774e-6339-4efd-a0a0-dc67c7f4586d" />
 
 
 
