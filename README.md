@@ -1,3 +1,4 @@
+<img width="835" height="1181" alt="At Sundown - Ly - F Standard" src="https://github.com/user-attachments/assets/897d774e-6339-4efd-a0a0-dc67c7f4586d" />
 # lilypond-lead-sheets
 
 Create lead sheets and collection books using LilyPond
