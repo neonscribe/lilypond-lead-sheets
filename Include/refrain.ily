@@ -11,7 +11,7 @@
       \set chordChanges = ##f
      \transpose \refrainKey \whatKey {
        \refrainChords
-	}
+	} 
       }
       }
     \new Staff {
