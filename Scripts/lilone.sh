@@ -98,6 +98,18 @@ for file in *.ly; do
 	# $LILYPOND $ARGS "$file"
 	    cp "${file%.ly}.pdf" "../Baritone Voice/Eb/"
 	    rm "${file%.ly}.pdf"
+    elif [[ $file =~ "Chords Standard.ly" ]]; then
+	# $LILYPOND $ARGS "$file"
+	    cp "${file%.ly}.pdf" "../Standard/Chords/"
+	    rm "${file%.ly}.pdf"
+    elif [[ $file =~ "Chords Alto Voice.ly" ]]; then
+	# $LILYPOND $ARGS "$file"
+	    cp "${file%.ly}.pdf" "../Alto Voice/Chords/"
+	    rm "${file%.ly}.pdf"
+    elif [[ $file =~ "Chords Baritone Voice.ly" ]]; then
+	# $LILYPOND $ARGS "$file"
+	    cp "${file%.ly}.pdf" "../Baritone Voice/Chords/"
+	    rm "${file%.ly}.pdf"
     elif [[ $file =~ "Standard.ly" ]]; then
 	# $LILYPOND $ARGS "$file"
 	    cp "${file%.ly}.pdf" "../Standard/"

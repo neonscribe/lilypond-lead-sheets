@@ -6,6 +6,8 @@
 
 %}
 
+\version "2.26.0"
+
 songID = "2026-06-01T22:16:25.450611Z"
 
 \include "../Include/lead-sheets.ily"
@@ -105,6 +107,7 @@ refrainMelody = \relative f'' {
   \sect "B"
 
   d2 fs4 a4 | c2 b4 c4 | e2 b2~ | b2 e2 |
+  \break
   d2 e,2~ | e2 e'2 | d2 a2~ | a2 c8 b8 c8 cs8 |
 
   \sect "A2"

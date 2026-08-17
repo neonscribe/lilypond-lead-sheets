@@ -1,5 +1,7 @@
 %% -*- Mode: LilyPond -*-
 
+\version "2.26.0"
+
 songID = "2026-07-29T02:06:09.71791Z"
 
 \include "../Include/lead-sheets.ily"

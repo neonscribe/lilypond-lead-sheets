@@ -4,6 +4,7 @@ mkdir -p 'Alto Voice'
 mkdir -p 'Alto Voice/Bass'
 mkdir -p 'Alto Voice/Bb'
 mkdir -p 'Alto Voice/Eb'
+mkdir -p 'Alto Voice/Chords'
 
 mkdir -p 'Alto Voice 8vb'
 
@@ -11,6 +12,7 @@ mkdir -p 'Baritone Voice'
 mkdir -p 'Baritone Voice/Bass'
 mkdir -p 'Baritone Voice/Bb'
 mkdir -p 'Baritone Voice/Eb'
+mkdir -p 'Baritone Voice/Chords'
 
 mkdir -p Others
 mkdir -p Book
@@ -22,6 +24,7 @@ mkdir -p 'Standard/Bass Line'
 mkdir -p 'Standard/Guitar Solo'
 mkdir -p Standard/Bb
 mkdir -p Standard/Eb
+mkdir -p Standard/Chords
 mkdir -p Standard/Viola
 
 mkdir -p TeXify

@@ -8,7 +8,9 @@ ARGS='-dmidi-only -dno-print-pages'
 FILES=()
 for file in *.ly; do
     if [[ $file =~ ^$1 ]]; then
-	FILES+=("$file")
+	if [[ ! $file =~ Chords ]]; then
+	    FILES+=("$file")
+	fi
     fi
 done
 

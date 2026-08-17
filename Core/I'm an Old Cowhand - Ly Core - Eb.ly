@@ -6,6 +6,8 @@
 
 %}
 
+\version "2.26.0"
+
 songID = "2026-06-01T22:16:38.119982Z"
 
 \include "../Include/lead-sheets.ily"

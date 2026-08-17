@@ -1,13 +1,13 @@
 %% -*- Mode: LilyPond -*-
 
-\version "2.26.0"
-
 %{
 
 "Customizer": { "toggles": [ "noIntro" ],
 		"choices": { "alternateChords": [ "hlrb", "original" ] } }
 
 %}
+
+\version "2.26.0"
 
 songID = "2026-06-01T22:16:36.81878Z"
 

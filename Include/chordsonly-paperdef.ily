@@ -4,7 +4,7 @@
   \include "../Include/margins.ily"
   print-page-number = \inBook
   print-first-page-number = ##f
-  max-systems-per-page = 12
+  max-systems-per-page = 16
   system-system-spacing =
   #'((basic-distance . 8) 
      (minimum-distance . 6)
@@ -14,7 +14,7 @@
   tagline = ""
   ragged-bottom = ##t
   ragged-last-bottom = ##t
-  ragged-right = ##f
+  ragged-right = ##t
   oddHeaderMarkup = \markup { 
     \fill-line {
       ""

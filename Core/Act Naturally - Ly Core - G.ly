@@ -6,6 +6,8 @@
 
 %}
 
+\version "2.26.0"
+
 songID = "2026-06-01T22:16:23.926892Z"
 
 \include "../Include/lead-sheets.ily"
@@ -95,7 +97,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Medium-Up [The Beatles 1964]" 186
+  \tempoFour "Medium-Up Country Swing [The Beatles 1964]" 186
 
   \sectNoBarNoBreak "Intro"
 
