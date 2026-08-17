@@ -183,6 +183,12 @@ sectNoBarSegno =
      \sPageBreak
      \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
 
+sectNoBreakSegno =
+#(define-music-function (s)
+   (string?)
+  #{ \bar "||-||"
+     \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
+
 sectStartRefrain =
 #(define-music-function (s)
    (string?)
