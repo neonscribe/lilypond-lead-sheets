@@ -22,6 +22,7 @@
       }
     #(if (and (not (and (defined? 'hideLyrics) hideLyrics))
 	  (defined? 'refrainLyrics) refrainLyrics)
+      #{
       \new Lyrics = "lyrics"
     {
       \refrainLyrics

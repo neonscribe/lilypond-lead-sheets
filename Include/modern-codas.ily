@@ -81,6 +81,19 @@ dalSegnoSecondTime = {
   }
 }
 
+dalSegnoISecondTime = {
+  \once
+  \override Score.RehearsalMark.self-alignment-X = #RIGHT
+  \once
+  \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
+  \xTextEndMark
+  \markup {
+    \small
+    \bold
+    \italic "2nd x, D.S. al Coda 1"
+  }
+}
+
 dalSegnoLastTime = {
   \once
   \override Score.RehearsalMark.self-alignment-X = #RIGHT

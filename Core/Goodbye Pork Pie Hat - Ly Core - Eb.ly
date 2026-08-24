@@ -17,9 +17,9 @@ refrainLeadingEighth = ##t
 refrainChords = \chordmode {
   s8
 
-  ef2:7.9+ b2:9.13 e2:maj9 a2:7.11+ df2:sus9 b2:9.13
-  df2:sus7 ef2:7 af2:m11 b2:7.13 f2:m7.5- bf2:7.5+.9+
-  c2:13.11+ f2:7.13 b2:7 e2:maj7 a2:7.13 af2:7
+  ef2:7.9+ b2:13 e2:maj9 a2:7.11+ df2:sus9 b2:13
+  df2:sus7 ef2:7 af2:m11 b2:13 f2:m7.5- bf2:7.5+.9+
+  c2:13.11+ f2:13 b2:7 e2:maj7 a2:13 af2:7
   bf2:7 df2:7 ef2:7.9+ b2:7 e2:maj7.11+ a2:7.11+
 
   ef2:m7 af2:m7 ef2:m7 af2:m7 ef2:m7 af2:m7 ef2:m7 a2:7.5+ af1:m7 b2:7 bf2:7.5+

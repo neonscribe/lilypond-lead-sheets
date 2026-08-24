@@ -207,6 +207,9 @@ def book_to_tex_to_pdf(arg_filename):
         subprocess.run([executable_path, "--output-format=pdf", tex_filename], check=True)
     else:
         sys.exit("lualatex not found in system PATH.")
+        
+    # Run TeX twice to get the correct table of contents
+    subprocess.run([executable_path, "--output-format=pdf", tex_filename], check=True)
 
     shutil.copy(pdf_filename, output_directory)
 

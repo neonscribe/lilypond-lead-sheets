@@ -87,7 +87,7 @@ refrainChords = \chordmode {
   a1:m7 d1:7.9- g1:maj7 g1:m7
   g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g
   g1:maj7 g1:maj7 b1:m7 e1:7.9-
-  a1:m7 c2:m9 c2:m6 b1:m7 e1:7.9- a2:7.13 a2:7.13-
+  a1:m7 c2:m9 c2:m6 b1:m7 e1:7.9- a2:13 a2:7.13-
   a2:m7 d2:9 g1:6
   \chordInsideParens{ ef1:maj7/g }
 

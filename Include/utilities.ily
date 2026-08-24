@@ -149,6 +149,17 @@ sectSegno =
      \sPageBreak
      \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
 
+sectSegnoSegno =
+#(define-music-function (s)
+   (string?)
+  #{ \bar "||-||"
+     \sPageBreak
+     \xTextMark \markup{ 
+  \musicglyph #"scripts.segno"
+  \hspace #0.125
+  \musicglyph #"scripts.segno"
+  \bold \box #s } #} )
+
 sectGap =
 #(define-music-function (s)
    (markup?)
@@ -466,7 +477,7 @@ context-property."
 #(define-markup-command (tpNote layout props mus) (ly:music?)
    ;; accept mus as music instead of pitch
    ;; in order to allow for transposition
-  (ly:message "whatKey ~a refrainKey ~a" whatKey refrainKey)
+  '(ly:message "whatKey ~a refrainKey ~a" whatKey refrainKey)
    (let*
     ((pitch (first (music-pitches (ly:music-transpose (no-double-accidental mus)
 				   (- whatKey refrainKey)))))

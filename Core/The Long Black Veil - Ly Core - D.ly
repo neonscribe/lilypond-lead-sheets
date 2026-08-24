@@ -6,7 +6,7 @@ songID = "2026-08-09T17:51:09.409553Z"
 
 \include "../Include/lead-sheets.ily"
 
-headerTitle = "The Long Black Veil (The Country Gentlemen Arrangement)"
+headerTitle = "The Long Black Veil (Country Gentlemen Arrangement)"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "Marijohn Wilkin and Danny Dill"
