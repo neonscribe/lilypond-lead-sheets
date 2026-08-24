@@ -8,9 +8,9 @@
 <<
     { \context ChordNames = "StdChords"
       \with { \consists Bar_engraver
+	      \override BarLine.bar-extent = #'(-1 . 3)
 	    }
       {
-	\override BarLine.bar-extent = #'(0 . 2)
 	\override LyricText.parent-alignment-X = #LEFT
 	%% \override LyricText.self-alignment-X = #LEFT
       \override ChordName.font-series = #'bold

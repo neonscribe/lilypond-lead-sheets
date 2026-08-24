@@ -21,7 +21,9 @@ refrainChordsInC = \chordmode {
   c1:7 f1:7 c1:7 g2:m7 c2:7
 
   \bar "||-||"
-  f1:7 fs1:dim7 c1:7/g e2:m7 a2:7
+  f1:7 fs1:dim7
+  \break
+  c1:7/g e2:m7 a2:7
 
   \bar "||-||"
   d1:m7 g1:7 c1:7
@@ -33,7 +35,9 @@ refrainChordsInCNoTurn = \chordmode {
   c1:7 f1:7 c1:7 g2:m7 c2:7
 
   \bar "||-||"
-  f1:7 fs1:dim7 c1:7 e2:m7 a2:7
+  f1:7 fs1:dim7
+  \break
+  c1:7 e2:m7 a2:7
 
   \bar "||-||"
   d1:m7 g1:7 c1:7 c1:7
@@ -74,7 +78,7 @@ refrainChords = \chordmode {
     \refrainChordsInC
   }
 
-  \xPageBreak
+  \xxPageBreak
 
   \set Score.currentBarNumber = #1
   \sectGap "Blues in Db"
@@ -83,16 +87,12 @@ refrainChords = \chordmode {
     \refrainChordsInC
   }
   
-  \xPageBreak
-
   \set Score.currentBarNumber = #1
   \sectGap "Blues in Gb"
 
   \transpose c gf {
     \refrainChordsInC
   }
-
-  \xPageBreak
 
   \set Score.currentBarNumber = #1
   \sectGap "Blues in B"
@@ -114,6 +114,8 @@ refrainChords = \chordmode {
   \transpose c a {
     \refrainChordsInC
   }
+
+  \xxPageBreak
 
   \set Score.currentBarNumber = #1
   \sectGap "Blues in D"
