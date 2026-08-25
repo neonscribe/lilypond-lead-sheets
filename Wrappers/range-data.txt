@@ -510,6 +510,8 @@ refrain
 cis
 cis'
 
+Act Naturally - Ly - E Chords Baritone Voice.ly
+
 Act Naturally - Ly - G Bass for Standard.ly
 refrain
 e,
@@ -6667,6 +6669,31 @@ refrain
 f
 fis'
 
+Dinette - Ly - Ab Bass for Standard.ly
+refrain
+aes,
+g
+
+Dinette - Ly - Ab Standard for Viola.ly
+refrain
+aes
+g'
+
+Dinette - Ly - Ab Standard.ly
+refrain
+aes'
+g''
+
+Dinette - Ly - Ab to Bb for Bb for Standard.ly
+refrain
+bes
+a'
+
+Dinette - Ly - Ab to F for Eb for Standard.ly
+refrain
+f'
+e''
+
 Django - Ly - Fm Bass for Standard.ly
 refrain
 f,
@@ -8151,6 +8178,8 @@ Falling in Love With Love Waltz - Ly - Bb to G for Eb for Standard.ly
 refrain
 a'
 d'''
+
+Farewell Party - Ly - E Chords Baritone Voice.ly
 
 Fascinating Rhythm - Ly - Ab Alto Voice.ly
 refrain
@@ -21177,6 +21206,41 @@ Right or Wrong - Ly - G Standard.ly
 refrain
 cis'
 d''
+
+Ring of Fire - Ly - A Baritone Voice.ly
+refrain
+gis,
+e'
+
+Ring of Fire - Ly - G Bass for Standard.ly
+refrain
+fis,
+d'
+
+Ring of Fire - Ly - G Standard for Viola.ly
+refrain
+fis
+d''
+
+Ring of Fire - Ly - G Standard.ly
+refrain
+fis
+d''
+
+Ring of Fire - Ly - G to A for Bb High for Standard.ly
+refrain
+gis'
+e'''
+
+Ring of Fire - Ly - G to A for Bb Low for Standard.ly
+refrain
+gis
+e''
+
+Ring of Fire - Ly - G to E for Eb for Standard.ly
+refrain
+dis'
+b''
 
 River Stay Way From My Door - Ly - C Bass for Standard.ly
 refrain

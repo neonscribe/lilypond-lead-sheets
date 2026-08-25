@@ -82,6 +82,13 @@
 },{
     "choices": {
         "alternateChords": [
+            "dfb",
+            "djam"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
             "hlrb",
             "oldreal",
             "newreal"
@@ -122,6 +129,13 @@
             "portuguese",
             "french",
             "english"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "cowboy",
+            "jazz"
         ]
     }
 },{
