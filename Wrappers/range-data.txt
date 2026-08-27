@@ -3947,6 +3947,31 @@ refrain
 g
 c''
 
+Breezin' - Ly - D Bass for Standard.ly
+refrain
+fis,
+fis'
+
+Breezin' - Ly - D Standard for Viola.ly
+refrain
+fis
+fis''
+
+Breezin' - Ly - D Standard.ly
+refrain
+fis
+fis''
+
+Breezin' - Ly - D to B for Eb for Standard.ly
+refrain
+dis'
+dis'''
+
+Breezin' - Ly - D to E for Bb for Standard.ly
+refrain
+gis
+gis''
+
 Breezin' Along With the Breeze - Ly - Bb Alto Voice.ly
 refrain
 f
