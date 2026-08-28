@@ -7254,6 +7254,36 @@ refrain
 e'
 b''
 
+Double Scotch - Ly - C Bass for Standard.ly
+refrain
+g,
+d'
+
+Double Scotch - Ly - C Standard for Viola.ly
+refrain
+g
+d''
+
+Double Scotch - Ly - C Standard.ly
+refrain
+g
+d''
+
+Double Scotch - Ly - C to A for Eb for Standard.ly
+refrain
+e'
+b''
+
+Double Scotch - Ly - C to D for Bb High for Standard.ly
+refrain
+a'
+e'''
+
+Double Scotch - Ly - C to D for Bb Low for Standard.ly
+refrain
+a
+e''
+
 Douce Ambiance - Ly - Gm Bass for Standard.ly
 refrain
 f,
