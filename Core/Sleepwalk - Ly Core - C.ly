@@ -38,7 +38,7 @@ refrainMelody = \relative f'' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Slowly [Santo & Johnny 1959]" 68
+  \tempoFour "Slow Straight Eighths [Santo & Johnny 1959]" 68
 
   \sectNoBar "Intro"
 

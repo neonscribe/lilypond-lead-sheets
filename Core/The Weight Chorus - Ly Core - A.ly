@@ -42,7 +42,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Medium-Slow" 72
+  \tempoFour "Medium-Slow Straight Eighths" 72
 
   \sectNoBarNoBreak "Chorus"
 

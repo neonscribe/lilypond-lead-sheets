@@ -82,7 +82,7 @@ refrainMelody = \relative f'' {
   \time 2/2
   \key \refrainKey \minor
   \clef \whatClef
-  \tempoFour "Medium [Steely Dan 1973]" 220
+  \tempoFour "Medium Straight Eighths [Steely Dan 1973]" 220
 
   \sectNoBar "Intro"
 

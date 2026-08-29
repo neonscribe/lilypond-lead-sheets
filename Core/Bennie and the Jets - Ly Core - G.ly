@@ -28,7 +28,7 @@ introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempoFour "Slow [Elton John 1973]" 66
+  \tempoFour "Slow Straight Eighths [Elton John 1973]" 66
 
   \sectNoBar "Intro"
 

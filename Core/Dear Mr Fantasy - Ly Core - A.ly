@@ -12,6 +12,8 @@ headerPoet = ""
 headerComposer = "Steve Winwood, Chris Wood and Jim Capaldi"
 headerCopyright = "© 1968 F.S. Music, Ltd. and Island Music Ltd."
 
+straightEighths = ##t
+
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _
 Dear Mis -- ter Fan -- ta -- sy, play us a tune, __
@@ -60,7 +62,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Psychedelic Rock [Traffic 1967]" 167
+  \tempoFour "Psychedelic Rock Straight Eighths [Traffic 1967]" 167
 
   \xTextMark \markup{ \bold \box "Intro" }
 

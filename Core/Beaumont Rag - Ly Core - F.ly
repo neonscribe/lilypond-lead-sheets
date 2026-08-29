@@ -38,7 +38,7 @@ refrainMelody =  \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Hoedown [Smith's Garage Fiddle Band 1928]" 220
+  \tempoFour "Hoedown Straight Eighths [Smith's Garage Fiddle Band 1928]" 220
 
   \partial 2. c'4 b4 c4 |
   \bar "||"

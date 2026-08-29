@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Medium [Bonnie Raitt 1974]" 125
+  \tempoFour "Medium Straight Eighths [Bonnie Raitt 1974]" 125
 
   \sectNoBar "Intro"
 

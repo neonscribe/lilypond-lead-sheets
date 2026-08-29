@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Medium-Slow [Merle Haggard 1980]" 85
+  \tempoFour "Medium-Slow Straight Eighths [Merle Haggard 1980]" 85
 
   r8. a,16 cs8 e8 fs8 a8 b8 cs16 a16~ |
 

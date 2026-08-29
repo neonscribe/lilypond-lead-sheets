@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Slow, straight eighths [Adele 2008]" 76
+  \tempoFour "Slow, Straight Eighths [Adele 2008]" 76
 
   \sectNoBarNoBreak "Intro"
 

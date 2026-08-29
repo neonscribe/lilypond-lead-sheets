@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
-  \tempoFour "Slow 4, Even Eighths [MJQ 1954]" 75
+  \tempoFour "Slow 4, Straight Eighths [MJQ 1954]" 75
 
   \sectNoBarNoBreak "A"
   \xTextMark \markup{ \bold "Head" }

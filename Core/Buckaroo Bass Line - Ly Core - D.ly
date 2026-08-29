@@ -54,7 +54,7 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Medium-Up [Buck Owens 1965]" 190
+  \tempoFour "Medium-Up Straight Eighths [Buck Owens 1965]" 190
 
   \xTextMark \markup{ \bold \box "A1/1" }
 

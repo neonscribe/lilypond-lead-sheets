@@ -113,7 +113,7 @@ refrainMelody = \relative f' {
   \time 12/8
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFourDot "Slowly [Ray Charles 1962]" 70
+  \tempoFourDot "Slow [Ray Charles 1962]" 70
 
   \sectNoBarNoBreak "Intro"
 
