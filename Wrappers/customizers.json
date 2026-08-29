@@ -350,6 +350,13 @@
     }
 },{
     "choices": {
+        "alternateChords": [
+            "dfb",
+            "djam"
+        ]
+    }
+},{
+    "choices": {
         "singerGender": [
             "male",
             "female"
