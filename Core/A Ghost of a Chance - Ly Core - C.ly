@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "newreal" ] } }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:16:23.626162Z"
@@ -25,7 +31,7 @@ But what's the good of schem -- ing, I know I must be dream -- ing,
 for I don't stand a ghost of a chance with you.
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   s4
 
   c1:maj7 g1:7.5+ e2:m7.5- a2:7.9- d2:m7.5- g2:7.9-
@@ -43,6 +49,36 @@ refrainChords = \chordmode {
   d2:m7
   \chordCloseParen{ g2:7 }
 }
+
+refrainNRChords = \chordmode {
+  s4
+
+  c1:maj7 df1:9.11+ g2:m7 c2:7.9- f2:m7 bf2:9
+  e2:m7 ef2:dim7 d2:m9 g2:7 e2:7 a2:7 d2:m7 g2:7
+
+  c1:maj7 df1:9.11+ g2:m7 c2:7.9- f2:m7 bf2:9
+  e2:m7 ef2:dim7 d2:m9 g2:7 c2:maj7 bf2:9 c4:maj7 \chordSlash 1 e4:m7.5- a4:7
+
+  d1:m7 g1:7.5+ c4:maj7 \chordSlash 1 d4:m7 g4:7 c2:maj7 a2:m7
+  fs1:m7.5- b1:7.9- e2:m7 a2:13 d2:m7 g2:7.5+
+
+  c1:maj7 df1:9.11+ g2:m7 c2:7.9- f2:m7 bf2:9
+  e2:m7 ef2:dim7 d2:m9 g2:7 c2:maj7
+  \chordOpenParen{ cs2:dim7 }
+  d2:m7
+  \chordCloseParen{ g2:7 }
+}
+
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "newreal" refrainNRChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = c
 
