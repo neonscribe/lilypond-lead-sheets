@@ -27,7 +27,7 @@ refrainChords = \chordmode {
 
   bf2 g2:7 c2:7 f2:7 bf2 g2:7 c2:7 f2:7
   bf2 g2:7 c2:7 f2:7 bf2 ef2 bf2
-  \chordCloseParen{ f2:7 }
+  \chordInsideParens{ f2:7 }
 }
 
 refrainKey = bf
