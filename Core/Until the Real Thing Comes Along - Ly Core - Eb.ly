@@ -8,7 +8,7 @@ headerTitle = "Until the Real Thing Comes Along"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "Holiner/Nichols/Chaplin/Freeman/Cahn"
-headerCopyright = "© 19xx Inc."
+headerCopyright = "© 1936 Chappel & Co. and Cahn Music Company"
 
 refrainLyrics = \lyricmode {
 I'd work for you, I'd slave for you,

@@ -12,7 +12,7 @@ headerPoet = ""
 headerComposer = "Django Reinhardt"
 headerCopyright = "© 1944 Publications Francis Day S.A."
 
-leadingEighth= ##t
+leadingEighth = ##t
 
 refrainChords = \chordmode {
   s4.

@@ -43,7 +43,7 @@ refrainChords = \chordmode {
 
   f1:m9
 
-  ef1:m9 ef1:m9 f1:m9 f1:9
+  ef1:9 ef1:9 f1:m9 f1:9
   ef2:9 df2:9 c4:7 r2. f1:m9 f1:m9
 }
 

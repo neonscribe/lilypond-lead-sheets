@@ -28,7 +28,7 @@ I'm goin' to tel -- e -- graph you, ba -- by, ask you won't you please come home
 Ba -- by, won't you please come home, 'cause your mom -- ma's all a -- lone.
 I have tried in vain, nev -- er no more to call your name.
 When you left, you broke my heart, 'cause I nev -- er thought we'd part.
-Ev -- 'ry hour in the day, you will hear me say, ba -- by won't you please come home.
+Ev -- 'ry hour in the day, you will hear me say, ba -- by won't you please come
 home, Dad -- dy needs mam -- ma, ba -- by won't you please come home. __
 }
 
@@ -42,7 +42,7 @@ I'm goin' to tel -- e -- graph you, ba -- by, ask you won't you please come home
 Ba -- by, won't you please come home, 'cause your dad -- dy's all a -- lone.
 I have tried in vain, nev -- er no more to call your name.
 When you left, you broke my heart, 'cause I nev -- er thought we'd part.
-Ev -- 'ry hour in the day, you will hear me say, ba -- by won't you please come home.
+Ev -- 'ry hour in the day, you will hear me say, ba -- by won't you please come
 home, Dad -- dy needs ba -- by, ba -- by won't you please come home. __
 }
 
@@ -63,9 +63,8 @@ refrainChords = \chordmode {
   d2:7 b2:7 e1:m a1:7 d1:7
 
   g2 b2:7 e1:7 c1:7 b1:7
-  c2 cs2:dim7 g4 b4:7 e2:7 a2:7 d2:7 g2 \chordInsideParens{ d2:7 }
-
-  g4 b4:7 e2:7 a2:7 d2:7 g1:6
+  c2 cs2:dim7 g4 b4:7 e2:7 a2:7 d2:7
+  g4 b4:7 e2:7 a2:7 d2:7  g2:6 \chordInsideParens{ d2:7 }
 }
 
 refrainKey = g
@@ -78,7 +77,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Slow Blues [Bessie Smith 1923]" 80
 
-  \sectNoBarNoBreak "Verse"
+  \sectNoBar "Verse"
 
   r8 g8 a8 g8 fs4 e4 | f8 fs4 b8~ b4 a4 | r8 g8 a8 g8 fs4 e4 | f8 fs4 b8~ b4 a4 |
   \break
@@ -87,11 +86,12 @@ refrainMelody = \relative f' {
   r8 g8 a8 g8 fs4 e4 | f8 fs4 b8~ b4 a4 | g8 a8 b8 g8 a8 b4 a8~ | a2. b4 |
   \break
   a8 b4 a8~ a4 e4 | a8 b4 a8~ a4. e8 | a4 a4 a8 a4. | a2. r4 |
-  \bar "||"
-  
-  \xxPageBreak
 
-  \sectStartRefrain "A"
+  \bar ".|:-||"
+  \xxPageBreak
+  \repeat volta 2 {
+  
+  \sectNoBar "Refrain"
 
   b8 as8 b8 as8 b4 fs4 | b1 | b8 as8 b8 as8 b4 fs4 | fs8( e4.~ e2) |
   \break
@@ -101,16 +101,10 @@ refrainMelody = \relative f' {
 
   b8 as8 b8 as8 b4 fs4 | fs8( e4.~ e2) | a8 g8 a8 g8 a4 bf4 | b2. fs8 g8 |
   \break
-  a8 gs8 a8 bf8~ bf4 a8 g8 | b4 b8 b8~ b2 | b8 as8 b8 as8 b8 d,4. \textToCodaLastTime | g2. r4 |
-
-
-  \bar "||-|."
-
-  \textCodaBreak
-
+  a8 gs8 a8 bf8~ bf4 a8 g8 | b4 b8 b8~ b2 | b8 as8 b8 as8 b8 d,4. |
   g4 \tuplet 3/2 { a8 as8 b8 } fs8 e4. | a8 b8 c8 cs8 d4 b8 g8~ | g2. r4 |
-
-  \bar "|."
+  }
+  \bar ":|."
 }
 
 \include "../Include/refrainonly.ily"

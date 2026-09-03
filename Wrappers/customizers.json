@@ -58,6 +58,13 @@
     "choices": {
         "alternateChords": [
             "hlrb",
+            "newreal"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
             "simple"
         ]
     }

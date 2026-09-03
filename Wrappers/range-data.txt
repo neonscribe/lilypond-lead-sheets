@@ -7569,6 +7569,36 @@ refrain
 gis'
 b''
 
+East St Louis Toodle-Oo - Ly - Cm Bass for Standard.ly
+refrain
+c
+aes'
+
+East St Louis Toodle-Oo - Ly - Cm Standard for Viola.ly
+refrain
+c
+aes'
+
+East St Louis Toodle-Oo - Ly - Cm Standard.ly
+refrain
+c'
+aes''
+
+East St Louis Toodle-Oo - Ly - Cm to Am for Eb for Standard.ly
+refrain
+a'
+f'''
+
+East St Louis Toodle-Oo - Ly - Cm to Dm for Bb High for Standard.ly
+refrain
+d'
+bes''
+
+East St Louis Toodle-Oo - Ly - Cm to Dm for Bb Low for Standard.ly
+refrain
+d
+bes'
+
 Easy Living - Ly - Ab Alto Voice.ly
 refrain
 f
@@ -19210,6 +19240,31 @@ refrain
 b
 e''
 
+New Orleans - Ly - Bb Bass for Standard.ly
+refrain
+d
+d'
+
+New Orleans - Ly - Bb Standard for Viola.ly
+refrain
+d
+d'
+
+New Orleans - Ly - Bb Standard.ly
+refrain
+d'
+d''
+
+New Orleans - Ly - Bb to C for Bb for Standard.ly
+refrain
+e'
+e''
+
+New Orleans - Ly - Bb to G for Eb for Standard.ly
+refrain
+b
+b'
+
 Nica's Dream - Ly - Bbm Bass for Standard.ly
 refrain
 bes,
@@ -22239,6 +22294,11 @@ September in the Rain - Ly - Eb to F for Bb for Standard.ly
 refrain
 c'
 f''
+
+September in the Rain - Ly - G Alto Voice.ly
+refrain
+d
+g'
 
 September Song - Ly - Bb Standard for Viola.ly
 refrain
@@ -28487,6 +28547,31 @@ refrain
 d'
 g''
 
+Until the Real Thing Comes Along - Ly - Eb Bass for Standard.ly
+refrain
+c
+e'
+
+Until the Real Thing Comes Along - Ly - Eb Standard for Viola.ly
+refrain
+c
+e'
+
+Until the Real Thing Comes Along - Ly - Eb Standard.ly
+refrain
+c'
+e''
+
+Until the Real Thing Comes Along - Ly - Eb to C for Eb for Standard.ly
+refrain
+a'
+cis'''
+
+Until the Real Thing Comes Along - Ly - Eb to F for Bb for Standard.ly
+refrain
+d'
+fis''
+
 Up Jumped Spring - Ly - Bb Alto Voice.ly
 refrain
 d
@@ -29701,6 +29786,11 @@ Whisper Not - Ly - Cm to Dm for Bb for Standard.ly
 refrain
 d'
 e''
+
+Whisper Not - Ly - Gm Alto Voice.ly
+refrain
+g
+a'
 
 Whispering - Ly - Eb Bass for Standard.ly
 refrain
