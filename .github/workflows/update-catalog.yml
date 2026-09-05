@@ -28,24 +28,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout lilypond-lead-sheets
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           path: lilypond-data
-          # Full history is required: build_catalog.py derives each song's
+          # Full history is required: build_catalog.py stamps each song's
           # coreModified from `git log -1 -- <core file>`. A shallow clone
           # makes every file appear last-touched by HEAD, which restamps the
           # whole catalog on every push and stales the entire PDF cache.
           fetch-depth: 0
 
       - name: Checkout musicforge
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: nicolovejoy/musicforge
           token: ${{ secrets.MUSICFORGE_REPO_TOKEN }}
           path: musicforge
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
 
@@ -60,7 +60,7 @@ jobs:
           ls -la catalog.db
 
       - name: Configure AWS credentials (OIDC)
-        uses: aws-actions/configure-aws-credentials@v4
+        uses: aws-actions/configure-aws-credentials@v6
         with:
           role-to-assume: arn:aws:iam::218141621131:role/musicforge-catalog-updater
           aws-region: us-east-1
@@ -80,6 +80,11 @@ jobs:
       - name: Install Fly CLI
         uses: superfly/flyctl-actions/setup-flyctl@master
 
+      - name: Run catalog smoke tests
+        run: |
+          cd musicforge
+          python test_catalog.py
+
       - name: Deploy to Fly
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
@@ -87,3 +92,29 @@ jobs:
           cd musicforge
           flyctl deploy
           echo "Deployed with updated Core/Include files"
+
+      - name: Post-deploy smoke test
+        run: |
+          echo "Waiting for deploy to stabilize..."
+          sleep 15
+          # Verify catalog API returns songs
+          CATALOG=$(curl -sf https://www.musicforge.org/api/v2/catalog)
+          SONG_COUNT=$(echo "$CATALOG" | python3 -c "import sys,json; print(json.load(sys.stdin)['total'])")
+          echo "Catalog returned $SONG_COUNT songs"
+          if [ "$SONG_COUNT" -lt 100 ]; then
+            echo "FAIL: expected 700+ songs, got $SONG_COUNT"
+            exit 1
+          fi
+          # Guard against the duplicate-title regression (#57): the catalog must
+          # not return two entries that share a title.
+          echo "$CATALOG" | python3 -c "
+          import sys, json
+          from collections import Counter
+          songs = json.load(sys.stdin)['songs']
+          dupes = [t for t, n in Counter(s['title'] for s in songs).items() if n > 1]
+          if dupes:
+              print('FAIL: duplicate titles in catalog:', dupes)
+              sys.exit(1)
+          print('No duplicate titles')
+          "
+          echo "Post-deploy smoke test passed"
