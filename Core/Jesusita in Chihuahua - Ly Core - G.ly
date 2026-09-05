@@ -106,7 +106,7 @@ refrainMelody = \relative f' {
   %% \break
   \key c \major
 
-  \sect "B"
+  \sectNoBar "B"
 
   \repeat volta 2 {
   g1~\downbow_\markup \italic { "Repeat 8va" } | g4 e4( f4 g4) | a1~ | a4 f4( g4 a4) |
