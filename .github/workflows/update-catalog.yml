@@ -43,6 +43,10 @@ jobs:
           repository: nicolovejoy/musicforge
           token: ${{ secrets.MUSICFORGE_REPO_TOKEN }}
           path: musicforge
+          # Full history here too (#413): custom-charts/ songs take their
+          # coreModified from `git log -1` in THIS checkout, so a shallow clone
+          # restamps them on every run and flips them to "updated" in What's New.
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -59,6 +63,16 @@ jobs:
           echo "Catalog built successfully"
           ls -la catalog.db
 
+      - name: Export song corpus
+        # Derived artifact consumed by split-recording (repertoire matching).
+        # Built from the same catalog.db + Core/ this run just produced so it
+        # can never be staler than the catalog. --min-songs fails the job on a
+        # broken build before anything is uploaded. See
+        # docs/superpowers/specs/2026-09-05-song-corpus-export-automation-design.md
+        run: |
+          cd musicforge
+          python tools/export_lyric_corpus.py --db catalog.db --out build/song-corpus.json --min-songs 100
+
       - name: Configure AWS credentials (OIDC)
         uses: aws-actions/configure-aws-credentials@v6
         with:
@@ -69,6 +83,13 @@ jobs:
         run: |
           aws s3 cp musicforge/catalog.db s3://musicforge-pdfs/catalog.db
           echo "Catalog uploaded to S3"
+
+      - name: Upload song corpus to S3
+        # Same bucket, same role, beside catalog.db. Private object; consumers
+        # read it with their own credentials and use the ETag for freshness.
+        run: |
+          aws s3 cp musicforge/build/song-corpus.json s3://musicforge-pdfs/song-corpus.json --content-type application/json
+          echo "Song corpus uploaded to S3"
 
       - name: Upload Core and Include to S3
         run: |
