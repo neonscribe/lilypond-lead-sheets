@@ -113,7 +113,17 @@ jazzChordsMusic =
 	<c ees bes>-\markup{ \jcMinorSeventh \jcRaise{ "(OMIT 5)" } }
 	
 	<c ees g b>-\markup{ \jcMinorMajorSeventh }
-	
+
+	%% Extra-weird Monk chord from Ruby, My Dear
+	<c ees g bes ces'>-\markup{
+	    \jcMinor
+	    {\larger\larger\normal-weight "(" } 
+	      \tiny { \column{ 
+	        \raise #1.2 \line{ "MA 7" } % the upper tension in the bracket
+	        \raise #2.5 \line{ "7" }  % the lower tension in the bracket
+	      } }
+	     \larger\larger\normal-weight ")" }
+
 	<c ees ges bes>-\markup{ \jcMinorSeventh \jcFlatFive }
 	<c ees gis bes>-\markup{ \jcMinorSeventh \jcSharpFive }
 	<c ees ges beses>-\markup{ \jcDiminishedSeventh }
@@ -122,8 +132,8 @@ jazzChordsMusic =
 	    \jcMinorSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ "11" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcFlat "5" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ "11" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "5" }  % the lower tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" } 
 	
@@ -153,40 +163,40 @@ jazzChordsMusic =
 	    \jcSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcSharp "5" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcSharp "9" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcSharp "5" }  % the lower tension in the bracket
 	      } }
 	     \larger\larger\normal-weight ")" }
 	<c e ges bes dis'>-\markup{ 
 	    \jcSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcFlat "5" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcSharp "9" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "5" }  % the lower tension in the bracket
 	      } }
 	     \larger\larger\normal-weight ")" }
 	<c e gis bes des'>-\markup{ 
 	    \jcSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcFlat "9" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcSharp "5" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcFlat "9" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcSharp "5" }  % the lower tension in the bracket
 	      } }
 	     \larger\larger\normal-weight ")" }
 	<c e ges bes des'>-\markup{ 
 	    \jcSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcFlat "9" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcFlat "5" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcFlat "9" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "5" }  % the lower tension in the bracket
 	      } }
 	     \larger\larger\normal-weight ")" }
 	<c e g bes cis' dis'>-\markup {
 	    \jcSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcSharp "9" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "9" }  % the lower tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" }
 	
@@ -194,8 +204,8 @@ jazzChordsMusic =
 	    \jcSeventh \jcAugmented
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcSharp "9" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "9" }  % the lower tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" }
 	
@@ -203,8 +213,8 @@ jazzChordsMusic =
 	    \jcSeventh \jcFlatFive
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcSharp "9" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcSharp "9" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "9" }  % the lower tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" }
 	
@@ -212,8 +222,8 @@ jazzChordsMusic =
 	    \jcSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcSharp "11" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcSharp "9" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcSharp "11" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcSharp "9" }  % the lower tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" }
 	
@@ -221,8 +231,8 @@ jazzChordsMusic =
 	    \jcSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcSharp "11" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcSharp "11" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "9" }  % the lower tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" }
 	
@@ -300,8 +310,8 @@ jazzChordsMusic =
 	    \jcSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcFlat "13" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcFlat "13" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "9" }  % the lower tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" } 
 	
@@ -309,8 +319,8 @@ jazzChordsMusic =
 	    \jcSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcSharp "13" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcFlat "9" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcSharp "13" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "9" }  % the lower tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" } 
 	
@@ -318,8 +328,8 @@ jazzChordsMusic =
 	    \jcSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcFlat "13" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcSharp "9" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcFlat "13" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcSharp "9" }  % the lower tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" } 
 	
@@ -327,8 +337,8 @@ jazzChordsMusic =
 	    \jcSeventh
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcSharp "13" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcSharp "9" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcSharp "13" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcSharp "9" }  % the lower tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" } 
 	
@@ -336,8 +346,8 @@ jazzChordsMusic =
 	    \jcThirteenth
 	    {\larger\larger\normal-weight "(" } 
 	      \tiny { \column{ 
-	        \raise #1.2 \line{ \jcFlat "9" } % the lower tension in the bracket
-	        \raise #2.5 \line{ \jcFlat "5" }  % the upper tension in the bracket
+	        \raise #1.2 \line{ \jcFlat "9" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcFlat "5" }  % the lower tension in the bracket
 	      } } 
 	     \larger\larger\normal-weight ")" } 
 	
