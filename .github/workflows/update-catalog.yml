@@ -135,6 +135,12 @@ jobs:
           dupes = [t for t, n in Counter(s['title'] for s in songs).items() if n > 1]
           if dupes:
               print('FAIL: duplicate titles in catalog:', dupes)
+              for t in dupes:
+                  entries = ', '.join(
+                      '{}/owner={}'.format(s.get('format'), s.get('owner_id'))
+                      for s in songs if s['title'] == t
+                  )
+                  print('  {}: {}'.format(t, entries))
               sys.exit(1)
           print('No duplicate titles')
           "
