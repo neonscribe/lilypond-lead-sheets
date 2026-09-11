@@ -15,6 +15,7 @@ headerCopyright = "© 1970 Ice Nine Publishing Co., Inc."
 refrainLyrics = \lyricmode {
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
+\stanza "1. "
 I lit out __ from Re -- no, I __ was trailed __ by twen -- ty hounds. __
 Did -- n't get __ to sleep __ that night till the morn -- ing came a -- round. __
 
@@ -28,9 +29,6 @@ Got two rea -- sons why I cry __ a -- way __ each lone -- ly night. __
 The first one's named sweet Anne Ma -- rie __ and she's __ my heart's de -- light. __
 Se -- cond one __ is pri -- son ba -- by, __ sher -- iff's on __ my trail
 and if he catch -- es up with me __ I'll spend my life in jail.
-
--night.
-
 }
 
 refrainChords = \chordmode {
@@ -50,9 +48,7 @@ refrainChords = \chordmode {
   c1 c1 c1 c2 cs2
   d1 d1 d1 d1
   a1:m a1:m c1
-  c1 c1 c1 c1
-
-  d2 r2
+  d1 d1 d1 d1
 }
 
 refrainKey = g
@@ -87,10 +83,10 @@ refrainMelody = \relative f' {
 
   d8 a'4. a8 a8 a8 g8 | a4 a4 a8( b4) b8 | a4 g8 g8 g8 g8 g8 e8 | e8( g4) g8 g8( a4) a8 |
   \break
-  a4 a8 a8( g4) g8 a8~ | a8 a4. a8( b4) b8 | a4 g4 g4 e4 | g2 r4 a4 \textToCodaLastTime |
+  a4 a8 a8( g4) g8 a8~ | a8 a4. a8( b4) b8 | a4 g4 g4 e4 | g2 r4 a4 |
   \break
-  \alternative { \volta 1,2,4 {
-  a2.( d,4~ | d1) | r1 | r1 |
+  \alternative { \volta 1,2,4,6 {
+  a2.( d,4~ | d1) \textFine | r1 | r1 |
   } \volta 3,5 {
   a'2.( d,4~ | d1) | r1 | r1 |
 
@@ -105,27 +101,31 @@ refrainMelody = \relative f' {
   c'4 c8 c8~ c8 c4. | b4 b8 a8~ a8 g4. | g4. a8 g4 e4 |
   \break
   d2 r2 | r1 | r1 | r1 |
-  } \volta 6 {
-  a2\fermata r2 |
   } } }
-  \bar "|."
 }
 
 afterText =
 \markup {
   \column {
     \vspace #3
+    \line { \large { \bold "1." } }
+    \vspace #2
     \line { \large { \bold "2." } }
     \vspace #2
     \line { \large { \bold "3." } }
     \vspace #2
-    \line { \large { \bold "4,6." } }
+    \line { \large { \bold "4." } }
     \vspace #2
     \line { \large { \bold "5." } }
+    \vspace #1
+    \line { \large { \bold "6." } }
   }
   \column { \hspace #6 }
   \column {
     \vspace #3
+    \line { \large { I lit out from Reno, I was trailed by twenty hounds.} }
+    \line { \large { Didn't get to sleep that night till the morning came around. } }
+    \vspace #1
     \line { \large { Ran into the devil, babe, and he loaned me twenty bills. } }
     \line { \large { Spent the night in Utah in a cave up in the hills. } }
     \vspace #1
@@ -135,7 +135,10 @@ afterText =
     \line { \large { Got a wife in Chino, babe, and one in Cherokee. } }
     \line { \large { First one says she's got my child but it don't look like me. } }
     \vspace #1
-    \line { \large { Instrumental solo } }
+    \line { \large { \italic { Guitar solo } } }
+    \vspace #1
+    \line { \large { Got a wife in Chino, babe, and one in Cherokee. } }
+    \line { \large { First one says she's got my child but it don't look like me. } }
   }
 }
 
