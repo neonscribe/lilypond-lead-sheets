@@ -8,7 +8,7 @@ $(if (not (and (defined? 'midiOnly) midiOnly))
       {
       \override ChordName.font-size = #+2.5
       \override ChordName.font-series = #'bold
-      \set chordChanges = ##f
+      \set chordChanges = #multiMeasureChords
      \transpose \bassLineKey \bassKey {
        \bassLineChords
 	}
@@ -43,7 +43,7 @@ $(if (not (and (defined? 'midiOnly) midiOnly))
       {
       \override ChordName.font-size = #+2.5
       \override ChordName.font-series = #'bold
-      \set chordChanges = ##f
+      \set chordChanges = #multiMeasureChords
      \transpose \bassLineKey \bassKey {
        \bassLineChords
 	}

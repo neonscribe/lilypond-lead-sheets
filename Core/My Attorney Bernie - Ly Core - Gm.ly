@@ -67,7 +67,7 @@ refrainChords = \chordmode {
   g1:m f2:m9 bf2:13 ef1 d1:7.9+
 
   ef2.. d8:7.9- r4*8 <g>1
-  \set chordChanges = ##f
+  \set chordChanges = #multiMeasureChords
 }
 
 refrainKey = g

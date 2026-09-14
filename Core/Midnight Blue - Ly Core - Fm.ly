@@ -34,7 +34,7 @@ refrainChords = \chordmode {
 
   s4 c2.:7.9+
 
-  \set chordChanges = ##f
+  \set chordChanges = #multiMeasureChords
 
   f2:m7
   \chordOpenParen{ g2:m7 }

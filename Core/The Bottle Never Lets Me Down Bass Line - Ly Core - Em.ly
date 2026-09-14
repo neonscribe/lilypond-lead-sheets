@@ -13,7 +13,7 @@ headerComposer = "Sarah Shook"
 headerCopyright = ""
 
 refrainChords = \chordmode {
-  \set chordChanges = ##f
+  \set chordChanges = #multiMeasureChords
 
   c1:7 b1:7 e1:m e1:m
 

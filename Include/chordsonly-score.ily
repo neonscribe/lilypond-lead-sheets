@@ -14,7 +14,7 @@
 	\override LyricText.parent-alignment-X = #LEFT
 	%% \override LyricText.self-alignment-X = #LEFT
       \override ChordName.font-series = #'bold
-      \set chordChanges = ##f
+      \set chordChanges = #multiMeasureChords
      \transpose \refrainKey \whatKey {
        \refrainChords
 	}

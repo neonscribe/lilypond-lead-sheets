@@ -23,7 +23,7 @@ chordSlash = #(define-music-function (count) (integer?)
   ragged-last = ##f
   \context {
     \ChordNames
-    chordChanges = ##f
+    chordChanges = #multiMeasureChords
     \consists Percent_repeat_engraver
     \override VerticalAxisGroup.staff-affinity = #DOWN
     \override VerticalAxisGroup.nonstaff-relatedstaff-spacing.padding = #1

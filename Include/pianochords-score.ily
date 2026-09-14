@@ -8,7 +8,7 @@
       {
       \override ChordName.font-size = #+2.5
       \override ChordName.font-series = #'bold
-      \set chordChanges = ##f
+      \set chordChanges = #multiMeasureChords
       \transpose \refrainKey \whatKey {
        \pianoChordVoicings
 	}

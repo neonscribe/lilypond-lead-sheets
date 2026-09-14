@@ -32,7 +32,7 @@ refrainChords = \chordmode {
   c2:m7 c2:m7/bf a2:m7.5- af2:maj7 a2:m7.5- d2:7.9+ d2:m7.5- g2:7.9-
   c2:m7 c2:m7/bf a2:m7.5- af2:maj7 d2:m7.5- g2:7.5+ c2:m7
   \chordInsideParens{ g2:7.5+ }
-  \set chordChanges = ##f
+  \set chordChanges = #multiMeasureChords
 }
 
 refrainKey = c

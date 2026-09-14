@@ -55,7 +55,7 @@ refrainNicoChords = \chordmode {
   c4:m7 c4:m7/bf af2:7 c4:m7 c4:m7/bf a2:m7.5- af2:7 g2:7.5+ c2:m7 c2:m7/bf
 
   af2:7 g2:7.5+ c1:m6
-  \set chordChanges = ##f
+  \set chordChanges = #multiMeasureChords
 }
 
 refrainHLChords = \chordmode {

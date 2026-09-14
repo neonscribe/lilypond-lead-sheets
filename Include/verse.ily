@@ -26,7 +26,7 @@ $(if (not (and (defined? 'midiOnly) midiOnly))
       $(if (and (defined? 'altChordSize) AltChordSize)
 	#{ \override ChordName.font-size = \altChordSize #} )
       \override ChordName.font-series = #'bold
-      \set chordChanges = ##f
+      \set chordChanges = #multiMeasureChords
      \transpose \verseKey \whatKey {
        \verseAltChords
 	}
@@ -40,7 +40,7 @@ $(if (not (and (defined? 'midiOnly) midiOnly))
       $(if (and (defined? 'chordSize) chordSize)
 	#{ \override ChordName.font-size = \chordSize #} )
       \override ChordName.font-series = #'bold
-      \set chordChanges = ##f
+      \set chordChanges = #multiMeasureChords
      \transpose \verseKey \whatKey {
        \verseChords
 	}

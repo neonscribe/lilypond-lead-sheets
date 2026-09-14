@@ -9,10 +9,10 @@ printNoteNames =
     printNoteNames
     (ly:get-option 'print-note-names))
 
-noChordRepeats = 
-  #(if (defined? 'noChordRepeats)
-    noChordRepeats
-    (ly:get-option 'no-chord-repeats))
+multiMeasureChords = 
+  #(if (defined? 'multiMeasureChords)
+    multiMeasureChords
+    (ly:get-option 'multi-measure-chords))
 
 lowTrebleEightVB =
   #(if (defined? 'lowTrebleEightVB)

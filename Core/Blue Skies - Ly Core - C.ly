@@ -42,7 +42,7 @@ refrainChords = \chordmode {
   c2 a2:7 d2:m7 g2:7 c1
   \chordOpenParen{ b2:m7.5- }
   \chordCloseParen{ e2:7 }
-  \set chordChanges = ##f
+  \set chordChanges = #multiMeasureChords
 }
 
 refrainKey = c

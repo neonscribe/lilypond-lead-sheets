@@ -71,17 +71,17 @@ myChords = \chordmode {
   d2:m d:m/cis
 
   d:m/c
-  \set chordChanges = ##f
+  \set chordChanges = #multiMeasureChords
   d:m/b
 
   e1:7
   \set chordChanges = ##t
   e
   \break
-  \once \set chordChanges = ##f
+  \once \set chordChanges = #multiMeasureChords
   e1/f
   e2/gis e/+gis e e:m/f d:m d:m/cis d:m/c
-  \set chordChanges = ##f
+  \set chordChanges = #multiMeasureChords
   d:m/b
 }
 

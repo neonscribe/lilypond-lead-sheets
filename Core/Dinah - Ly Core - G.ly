@@ -44,7 +44,7 @@ refrainChords = \chordmode {
 
   \chordOpenParen{ a2:m7 }
   \chordCloseParen{ d2:7 }
-  \set chordChanges = ##f
+  \set chordChanges = #multiMeasureChords
 }
 
 refrainKey = g
