@@ -3,7 +3,7 @@
 \include "english.ly"
 
 subtitle = "Alto Voice Key"
-whatKey = ef,
+whatKey = ef
 whatClef = "lowtreble"
 
 \include "../Core/Here Comes the Bride - Ly Core - Bb.ly"
