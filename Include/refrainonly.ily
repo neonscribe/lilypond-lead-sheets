@@ -2,7 +2,7 @@
 
 \version "2.26.0"
 
-thisKey = \refrainKey
+thisKey = \whatKey
 
 includeFile = 
 #(if (and (defined? 'midiOnly) midiOnly)
