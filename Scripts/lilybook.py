@@ -1,7 +1,7 @@
 import re, sys, os, tempfile, shutil, subprocess, pypdf, pathlib
 
 """
-lilybook bookfile
+lilybook [options] bookfile
 
 bookfile format is
 
@@ -58,7 +58,10 @@ def threepagetype(filename):
             return 'verso'
     return False
 
-def book_to_pdf(arg_filename):
+def book_to_pdf(*arguments):
+    arg_filename = arguments[-1]
+    options = arguments[:-1]
+
     source_path = pathlib.Path(arg_filename)
 
     if not (source_path.is_file() and os.access(source_path, os.R_OK)):
@@ -164,9 +167,13 @@ def book_to_pdf(arg_filename):
 
     # 1. Search for the absolute path of the executable
     executable_path = shutil.which("lilypond")
+    lilypond_command = [executable_path]
+
+    lilypond_command.extend(options)
+    lilypond_command.append(ly_filename)
 
     if executable_path:
-        subprocess.run([executable_path, ly_filename], check=True)
+        subprocess.run(lilypond_command, check=True)
     else:
         sys.exit("lilypond not found in system PATH.")
 
@@ -246,13 +253,7 @@ def book_to_pdf(arg_filename):
             f.write(ly_file_end)
         shutil.copy(ly_path, '.')
 
-    # 1. Search for the absolute path of the executable
-    executable_path = shutil.which("lilypond")
-
-    if executable_path:
-        subprocess.run([executable_path, ly_filename], check=True)
-    else:
-        sys.exit("lilypond not found in system PATH.")
+    subprocess.run(lilypond_command, check=True)
 
     os.rename(pdf_filename, temp_pdf_filename)
 
@@ -268,4 +269,4 @@ def book_to_pdf(arg_filename):
     shutil.copy(pdf_filename, output_directory)
 
 if __name__ == "__main__":
-    book_to_pdf(sys.argv[1])
+    book_to_pdf(*sys.argv[1:])
