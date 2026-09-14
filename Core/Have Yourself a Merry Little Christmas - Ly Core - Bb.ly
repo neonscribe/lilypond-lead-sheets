@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Straight Eighths [Ella Fitzgerald 1960]" 112
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   bf,4 d4 f4 bf4 | f8 ef8 d8 c8 bf4 c4 | bf4 d4 f4 bf4 | f2. r4 |
   d4 f4 bf4 d4 | c8 bf8 a8 g8 f4 ef4 | d1~ | d2. r4 |
@@ -71,7 +71,9 @@ refrainMelody = \relative f' {
   d4 d4 d4 c8 bf8 | a8 bf8 c2 bf8 a8 | g8 a8 bf2 a4 | a2. r4 |
   bf4 bf4 bf4 a8 g8 | f8 g8 a2 f8 g8 | a8 bf8 c2 c,4 | f2. r4 |
 
-  \sectPageBreak "A3"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "A3"
 
   bf,4 d4 f4 bf4 | f8 ef8 d8 c8 bf4 c4 | bf4 d4 f4 bf4 | f2. r4 |
   d4 f4 bf4 d4 | ef8 d8 c8 bf8 a4 c4 | d1~ | d2 r4 d4 |

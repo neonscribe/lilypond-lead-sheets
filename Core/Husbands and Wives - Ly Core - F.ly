@@ -97,7 +97,9 @@ refrainMelody = \relative f' {
   bf4 <d g>8 bf8 <d g>4 |
   \ambitusOn
 
-  \sectPageBreak "C"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "C"
 
   e4 e4 e8 f8~ | f4 e4 d8 c8 | d4 c4 c8 c8 | c8 bf4. bf8 a8 |
   \break

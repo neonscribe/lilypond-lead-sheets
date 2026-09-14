@@ -91,13 +91,15 @@ refrainMelody = \relative f' {
   \break
   a4 a4 a4 g4 | a4 b4 c4 d4 | d1~ | d4 c4 b4 c4 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   d4 d,8 d8 d8 d8 d8 d8 | f4 f2. | d'4 d,8 d8 d8 d8 d8 d8 | f1 |
   \break
   d'4 d,8 d8 d8 d8 d8 d8 | b'4 b4 bf4 bf4 | a1~ | a2 r4 g4 |
 
-  \sect "A3"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "A3"
 
   a1~ | a2. g4 | a1~ | a2. g4 |
   \break

@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
 
   \sectNoBar "A"
 
-  c2 b8 c4 c8~ | c1 | ef2 b2 | c1 |
+  c'2 b8 c4 c8~ | c1 | ef2 b2 | c1 |
   c2 b8 c4 c8~ | c1 | b8 b4 a8~ a4 af4 | g2 f8 gf8 g4 |
 
   \sect "B"

@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
 
   \sectNoBarNoBreak "A1"
 
-  r8 c8 a8 g8 af8 df8 bf8 af8 | a8 c4.~ c2 |
+  r8 c'8 a8 g8 af8 df8 bf8 af8 | a8 c4.~ c2 |
   \break
   r8 g8 f8 ef8 g8 c8 g8 f8 | ef2. r8 d8 |
   \break

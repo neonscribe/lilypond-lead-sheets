@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Ray Price 1959]" 128
 
-  \sectNoBarNoBreak "Intro - Solo"
+  \sectNoBar "Intro - Solo"
 
   \partial 2 \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -67,7 +67,9 @@ refrainMelody = \relative f' {
   \break
   ef'4 d4 ef4. c8~ | c8 a8 f4 g4 a8 bf8~ | bf1 | r4 f4 bf4 c4 |
 
-  \sectPageBreak "Chorus"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "Chorus"
 
   d8 ef4. d4. c8 | c8 bf4.~ bf2 | ef,8 ef4. ef4 f8 g8~ | g1 |
   \break

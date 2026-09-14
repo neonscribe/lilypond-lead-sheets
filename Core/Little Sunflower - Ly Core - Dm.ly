@@ -18,6 +18,12 @@ introChords = \chordmode {
 
 introKey = d
 
+refrainKey = d
+isMinor = ##t
+
+whatKey = #(or whatKey refrainKey)
+bassKey = #(or bassKey refrainKey)
+
 bassIntro = \relative f' {
   \time 4/4
   \key \introKey \minor
@@ -37,11 +43,6 @@ refrainChords = \chordmode {
   ef1:maj7 ef1:maj7 ef1:maj7 ef1:maj7 ef1:maj7 ef1:maj7 ef1:maj7 ef1:maj7 ef1:maj7
   d1:m7 d1:m7 d1:m7 d1:m7 d1:m7 d1:m7 d1:m7 d1:m7
 }
-
-refrainKey = d
-isMinor = ##t
-
-whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
   \key \refrainKey \minor

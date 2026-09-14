@@ -51,8 +51,9 @@ refrainKey = e
 isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
+bassKey = #(or bassKey refrainKey)
 
-refrainMelody = \relative g, {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef bass
@@ -60,7 +61,7 @@ refrainMelody = \relative g, {
 
   \sectNoBar "Intro"
 
-  c4 c4 c4 c4 | b4 b4 b4 g4 | e2 b'2 | e,2 b'4 g4 |
+  c,4 c4 c4 c4 | b4 b4 b4 g4 | e2 b'2 | e,2 b'4 g4 |
 
   \sect "Verse 1"
 

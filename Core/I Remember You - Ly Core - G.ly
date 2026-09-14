@@ -33,7 +33,7 @@ verseChords = \chordmode {
 
 verseKey = g
 
-verseMelody = \relative g' {
+verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
@@ -114,7 +114,7 @@ refrainKey = g
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative g' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef

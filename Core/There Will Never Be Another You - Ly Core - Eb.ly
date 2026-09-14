@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "A1" }
 
-  \partial 4 bf4 |
+  \partial 4 bf,4 |
   \bar "||"
 
   c4 d4 ef4 f4 | g4 bf4 f4. ef8 | f1~ | f2. g4 |

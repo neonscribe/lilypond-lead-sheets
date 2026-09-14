@@ -96,7 +96,9 @@ refrainMelody = \relative f {
   \break
   gf2 f2 | ef1~ | ef4 r4 ef4 ef4 |
 
-  \sectPageBreak "B"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "B"
 
   c'2. c4 | cf2. cf4 | cf2 bf2~ | bf2 bf,4. bf8 |
   \break
@@ -108,7 +110,7 @@ refrainMelody = \relative f {
   \break
   bf2. bf4 | c2. bf8 c8 | d1~ | d2 r2 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   r4 ef4 ef4 ef4 | d2. bf4 | c4. c8 c2~ | c2. r4 |
   \break

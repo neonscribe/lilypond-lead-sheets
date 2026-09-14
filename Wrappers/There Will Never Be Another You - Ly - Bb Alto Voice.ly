@@ -3,7 +3,7 @@
 \include "english.ly"
 
 subtitle = "Ella Fitzgerald, Sarah Vaughan Key"
-whatKey = bf,,
+whatKey = bf,
 whatClef = "lowtreble"
 
 \include "../Core/There Will Never Be Another You - Ly Core - Eb.ly"

@@ -78,7 +78,7 @@ isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative f'' {
+refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \minor
   \clef \whatClef
@@ -97,7 +97,7 @@ refrainMelody = \relative f'' {
 
   \sectNoBreak "Verse"
 
-  c4 c4 c4 | b4 a4 a4 b4 | c4 c4 b4 a4 | a2 r2 |
+  c'4 c4 c4 | b4 a4 a4 b4 | c4 c4 b4 a4 | a2 r2 |
   r4 c4 c4 c4 | b4 a4 a4 b4 | c4 c4 b4 c4 | d2 r2 |
   r4 f4 f4 e4 | d4 d4 c4 d4 | e4 e4 d4 c4 | d2 r2 |
 

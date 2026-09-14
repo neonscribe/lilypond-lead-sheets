@@ -3,7 +3,7 @@
 \include "english.ly"
 
 subtitle = "Standard Key"
-whatKey = g'
+whatKey = g
 whatClef = "treble"
 
 \include "../Core/Do Nothin' Till You Hear From Me - Ly Core - G.ly"

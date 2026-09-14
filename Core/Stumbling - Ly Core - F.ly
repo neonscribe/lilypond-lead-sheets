@@ -33,7 +33,7 @@ whatKey = #(or whatKey refrainKey)
 
 \include "nederlands.ly"
 
-refrainMelody = \relative c' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef

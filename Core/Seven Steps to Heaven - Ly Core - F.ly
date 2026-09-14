@@ -54,6 +54,7 @@ introKey = f
 refrainKey = f
 
 whatKey = #(or whatKey refrainKey)
+bassKey = #(or bassKey refrainKey)
 
 bassIntro = \relative f' {
   \time 4/4

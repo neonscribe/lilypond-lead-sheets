@@ -14,4 +14,4 @@ headerCopyright = "© 1944 Advanced Music Corporation"
 
 tonality = \major
 
-\include "../Core/Round Midnight - Ly Core - Eb both.ly"
+\include "../Core/Round Midnight - Ly Core - Eb both.ily"

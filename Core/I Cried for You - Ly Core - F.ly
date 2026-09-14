@@ -47,34 +47,42 @@ refrainKey = f
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative c'' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium-Fast [Benny Goodman Quintet 1938]" 206
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
+
   a2 e'2~ | e2 d2 | d,1~ | d2 e4 f4 |
-  \break
+  %% \break
   c'2 a4 g4 | c4 a2 g4 | d1~ | d1 |
+
   \sect "B"
+
   e2 f2 | g2 a4 bf4 | c1 | e,1 |
-  \break
+  %% \break
   c2 e2 | g2 bf2 | d1 | c1 |
 
-  \sectPageBreak "A2"
+  \sect "A2"
 
   a2 e'2~ | e2 d2 | d,1~ | d2 e4 f4 |
-  \break
+  %% \break
   c'2 c2 | c2 bf2 | a1~ | a2 gs4 a4 |
+
   \sect "C"
+
   d2 d2 | d2 d4 cs4 | d4 cs4 d4 d4~ | d4 a2 gs4 |
-  \break
+  %% \break
   a2 a2 | a2 a4 gs4 | a4 gs4 a4 a4~ | a4 d,2. |
+
   \sect "A3"
+
   a'2 e'2~ | e2 d2 | d,1~ | d2 e4 f4 |
-  \break
+  %% \break
   c'2 a4 g4 | c4 a2 g4 | f1~ | f4 r4 r2 |
+
   \bar "|."
 }
 

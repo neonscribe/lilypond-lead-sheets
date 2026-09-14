@@ -68,7 +68,9 @@ refrainMelody = \relative f' {
   c4. g'8~ g2 | r4 f8 f8 d8 bf4 c8~ | c2. r8 af8~ | af1 |
   } }
 
-  \sectPageBreak "C"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "C"
   \key \refrainKeyThree \minor
 
   \transpose \refrainKey \refrainKeyThree {

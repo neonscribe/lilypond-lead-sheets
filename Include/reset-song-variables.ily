@@ -116,4 +116,4 @@ verseTwoLanguagesVoiceTwo = ##f
 withPianoAndBass = ##f
 whatClef = ##f
 thisKey = \whatKey
-%% whatKey = ##f
+whatKey = ##f

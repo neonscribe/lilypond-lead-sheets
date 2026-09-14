@@ -65,7 +65,7 @@ refrainKey = c
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative g' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
@@ -75,7 +75,7 @@ refrainMelody = \relative g' {
   \bar ".|:"
 
   \repeat volta 2 {
-    r8 c4. g4 a4 | bf4. af4 ef8 f8 g8~ | g2 g4. e8~ | e4. e8 f8 e8 f8 g8 |
+    r8 c'4. g4 a4 | bf4. af4 ef8 f8 g8~ | g2 g4. e8~ | e4. e8 f8 e8 f8 g8 |
     %% \break
     e8 c8 r8 c8~ c2 |
   }

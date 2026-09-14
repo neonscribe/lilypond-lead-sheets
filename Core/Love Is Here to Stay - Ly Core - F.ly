@@ -36,7 +36,7 @@ verseChords = \chordmode {
 
 verseKey = f
 
-verseMelody = \relative g' {
+verseMelody = \relative f' {
   \time 2/2
   \key f \major
   \clef \whatClef
@@ -58,6 +58,8 @@ verseMelody = \relative g' {
   \partial 4 a4
 
   \bar "||"
+  
+  \xxPageBreak
 }
 
 refrainLyrics = \lyricmode {
@@ -100,7 +102,7 @@ refrainKey = f
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative g {
+refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
@@ -131,4 +133,4 @@ refrainMelody = \relative g {
   \bar "|."
 }
 
-\include "../Include/refrainonly.ily"
+\include "../Include/verserefrain.ily"

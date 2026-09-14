@@ -46,7 +46,7 @@ refrainKey = f
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative f'' {
+refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
@@ -54,7 +54,7 @@ refrainMelody = \relative f'' {
 
   \xTextMark \markup{ \bold \box "Verse 1" }
 
-  c2 c8 bf8 a8 a8 | bf8 bf8 a4 g4. g8 | c,4 e4 g4. c8 | a1 |
+  c'2 c8 bf8 a8 a8 | bf8 bf8 a4 g4. g8 | c,4 e4 g4. c8 | a1 |
   \break
   c8 c8 c8 c8 c8 bf8 a4~ | a8 bf4 a8 f2 | c8 c8 e8 g8 bf8 a8 g4 | f2. a8 bf8 |
 

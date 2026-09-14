@@ -34,7 +34,7 @@ verseChords = \chordmode {
 
 verseKey = f
 
-verseMelody = \relative g'' {
+verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
@@ -42,7 +42,7 @@ verseMelody = \relative g'' {
 
   \xTextMark \markup{ "Verse" }
 
-  d8 c8 a8 f8~ f4. g8 | a8 bf8 a8 a8~ a4. f8 |
+  d'8 c8 a8 f8~ f4. g8 | a8 bf8 a8 a8~ a4. f8 |
   a8 bf8 a8 bf8 a4 e'8 d8~ | d1 |
   d8 c8 a8 f8~ f4. f8 | e8 fs8 a8 cs4. d4 |
   e8 e8 e8 cs8~ cs2 | c8 c8 c8 a8~ a2 |

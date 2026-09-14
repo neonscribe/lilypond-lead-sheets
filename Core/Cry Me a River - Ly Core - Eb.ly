@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "A1" }
 
-  d2~ d8 c8 g8 ef8 | d8 c8~ c2. | r8 c8 ef8 c'8 bf4 bf4 |
+  d'2~ d8 c8 g8 ef8 | d8 c8~ c2. | r8 c8 ef8 c'8 bf4 bf4 |
   g2~ g8 g8 fs8 g8 | c4~ \tuplet 3/2 { c8 df8 c8 } df8 c4. |
   r8 g8~ \tuplet 3/2 { g8 f8 ef8 } f8 g4. |
   r8 gf8 f8 ef8 f8 ef8 c8 ef8 | ef1 |

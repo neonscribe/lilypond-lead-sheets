@@ -3,11 +3,6 @@ refrain
 dis
 gis'
 
-502 Blues - Ly - Am Standard for Viola.ly
-refrain
-dis
-gis'
-
 502 Blues - Ly - Am Standard.ly
 refrain
 dis'
@@ -53,11 +48,6 @@ refrain
 b,
 d'
 
-A Beautiful Friendship - Ly - C Standard for Viola.ly
-refrain
-b
-d''
-
 A Beautiful Friendship - Ly - C Standard.ly
 refrain
 b
@@ -93,11 +83,6 @@ f'
 piano-grand-staff left hand
 d
 bes
-
-A Child Is Born - Ly - Bb Standard for Viola.ly
-refrain
-d
-f'
 
 A Child Is Born - Ly - Bb Standard.ly
 refrain
@@ -145,11 +130,6 @@ refrain
 g,
 c'
 
-A Felicidade - Ly - Am Standard for Viola.ly
-refrain
-g
-c''
-
 A Felicidade - Ly - Am Standard.ly
 refrain
 g
@@ -190,11 +170,6 @@ refrain
 b,
 e'
 
-A Fine Romance - Ly - C Standard for Viola.ly
-refrain
-b
-e''
-
 A Fine Romance - Ly - C Standard.ly
 refrain
 b
@@ -230,11 +205,6 @@ refrain
 c
 f'
 
-A Foggy Day - Ly - F Standard for Viola.ly
-refrain
-c
-f'
-
 A Foggy Day - Ly - F Standard.ly
 refrain
 c'
@@ -251,11 +221,6 @@ d'
 g''
 
 A Ghost of a Chance - Ly - C Bass for Standard.ly
-refrain
-d
-e'
-
-A Ghost of a Chance - Ly - C Standard for Viola.ly
 refrain
 d
 e'
@@ -295,11 +260,6 @@ refrain
 ees
 f'
 
-A Hundred Years From Today - Ly - Eb Standard for Viola.ly
-refrain
-ees
-f'
-
 A Hundred Years From Today - Ly - Eb Standard.ly
 refrain
 ees'
@@ -335,11 +295,6 @@ refrain
 c
 d'
 
-A Kiss to Build a Dream On - Ly - C Standard for Viola.ly
-refrain
-c
-d'
-
 A Kiss to Build a Dream On - Ly - C Standard.ly
 refrain
 c'
@@ -367,14 +322,6 @@ ees'
 refrain
 a,
 ees'
-
-A Night in Tunisia - Ly - Dm Standard for Viola.ly
-intro
-d
-ees'
-refrain
-a
-ees''
 
 A Night in Tunisia - Ly - Dm Standard.ly
 intro
@@ -405,11 +352,6 @@ refrain
 bes,
 ees'
 
-A Nightingale Sang in Berkeley Square - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 A Nightingale Sang in Berkeley Square - Ly - Eb Standard.ly
 refrain
 bes
@@ -431,11 +373,6 @@ d
 g'
 
 A Sleepin' Bee - Ly - Ab Bass for Standard.ly
-refrain
-c
-f'
-
-A Sleepin' Bee - Ly - Ab Standard for Viola.ly
 refrain
 c
 f'
@@ -466,11 +403,6 @@ f
 g'
 
 Across the Alley From the Alamo - Ly - F Bass for Standard.ly
-refrain
-c
-d'
-
-Across the Alley From the Alamo - Ly - F Standard for Viola.ly
 refrain
 c
 d'
@@ -517,11 +449,6 @@ refrain
 e,
 e
 
-Act Naturally - Ly - G Standard for Viola.ly
-refrain
-e
-e'
-
 Act Naturally - Ly - G Standard.ly
 refrain
 e'
@@ -536,11 +463,6 @@ Act Naturally - Ly - G to E for Eb for Standard.ly
 refrain
 cis'
 cis''
-
-After You've Gone - Ly - Bb Standard for Viola.ly
-refrain
-cis
-ees'
 
 After You've Gone - Ly - Bb Standard.ly
 refrain
@@ -562,11 +484,6 @@ refrain
 dis'
 f''
 
-After You've Gone - Ly - C Standard for Viola.ly
-refrain
-dis
-f'
-
 After You've Gone - Ly - C Standard.ly
 refrain
 dis'
@@ -576,11 +493,6 @@ After You've Gone - Ly - G Bass for Standard.ly
 refrain
 ais,
 c'
-
-After You've Gone - Ly - G Standard for Viola.ly
-refrain
-ais
-c''
 
 After You've Gone - Ly - G Standard.ly
 refrain
@@ -601,11 +513,6 @@ Afternoon in Paris - Ly - C Bass for Standard.ly
 refrain
 f,
 g
-
-Afternoon in Paris - Ly - C Standard for Viola.ly
-refrain
-f
-g'
 
 Afternoon in Paris - Ly - C Standard.ly
 refrain
@@ -631,11 +538,6 @@ Agua de Beber - Ly - Am Bass for Standard.ly
 refrain
 fis,
 a
-
-Agua de Beber - Ly - Am Standard for Viola.ly
-refrain
-fis
-a'
 
 Agua de Beber - Ly - Am Standard.ly
 refrain
@@ -687,11 +589,6 @@ refrain
 c
 d'
 
-Ain't Misbehavin' - Ly - C Standard for Viola.ly
-refrain
-c
-d'
-
 Ain't Misbehavin' - Ly - C Standard.ly
 refrain
 c'
@@ -712,11 +609,6 @@ refrain
 d,
 e
 
-Ain't Misbehavin' - Ly - D Standard for Viola.ly
-refrain
-d
-e'
-
 Ain't Misbehavin' - Ly - D Standard.ly
 refrain
 d'
@@ -733,11 +625,6 @@ e'
 fis''
 
 Ain't Misbehavin' - Ly - Eb Bass for Standard.ly
-refrain
-ees
-f'
-
-Ain't Misbehavin' - Ly - Eb Standard for Viola.ly
 refrain
 ees
 f'
@@ -764,30 +651,18 @@ a'
 
 Ain't Nobody Here but Us Chickens - Ly - F Bass for Standard.ly
 
-Ain't Nobody Here but Us Chickens - Ly - F Standard for Viola.ly
-
 Ain't Nobody Here but Us Chickens - Ly - F Standard.ly
 
 Ain't Nobody Here but Us Chickens - Ly - F to D for Eb for Standard.ly
 
 Ain't Nobody Here but Us Chickens - Ly - F to G for Bb for Standard.ly
 
-Ain't Nothin' Like Christmas - Ly - G Standard for Viola.ly
-refrain
-e,
-fis
-
 Ain't Nothin' Like Christmas - Ly - G Standard.ly
 refrain
-e
-fis'
+e'
+fis''
 
 Ain't She Sweet - Ly - Eb Bass for Standard.ly
-refrain
-ees
-ees'
-
-Ain't She Sweet - Ly - Eb Standard for Viola.ly
 refrain
 ees
 ees'
@@ -817,11 +692,6 @@ refrain
 c
 aes'
 
-Airegin - Ly - Fm Standard for Viola.ly
-refrain
-c
-aes'
-
 Airegin - Ly - Fm Standard.ly
 refrain
 c'
@@ -846,11 +716,6 @@ Alice in Wonderland - Ly - C Bass for Standard.ly
 refrain
 g,
 c'
-
-Alice in Wonderland - Ly - C Standard for Viola.ly
-refrain
-g
-c''
 
 Alice in Wonderland - Ly - C Standard.ly
 refrain
@@ -892,11 +757,6 @@ refrain
 c
 d'
 
-All Alone (Left Alone) - Ly - Dm Standard for Viola.ly
-refrain
-c
-d'
-
 All Alone (Left Alone) - Ly - Dm Standard.ly
 refrain
 c'
@@ -918,11 +778,6 @@ f
 g'
 
 All Blues - Ly - G Bass for Standard.ly
-refrain
-d
-d'
-
-All Blues - Ly - G Standard for Viola.ly
 refrain
 d
 d'
@@ -953,11 +808,6 @@ d
 e'
 
 All of Me - Ly - C Bass for Standard.ly
-refrain
-d
-e'
-
-All of Me - Ly - C Standard for Viola.ly
 refrain
 d
 e'
@@ -1007,11 +857,6 @@ refrain
 bes,
 ees'
 
-All of You - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 All of You - Ly - Eb Standard.ly
 refrain
 bes
@@ -1034,14 +879,6 @@ a
 refrain
 bes,
 f'
-
-All the Things You Are - Ly - Ab Standard for Viola.ly
-intro
-c'
-a'
-refrain
-bes
-f''
 
 All the Things You Are - Ly - Ab Standard.ly
 intro
@@ -1120,11 +957,6 @@ refrain
 a,
 c'
 
-Almost Blue - Ly - Am Standard for Viola.ly
-refrain
-a
-c''
-
 Almost Blue - Ly - Am Standard.ly
 refrain
 a
@@ -1154,11 +986,6 @@ Almost Like Being in Love - Ly - Bb Bass for Standard.ly
 refrain
 f,
 e
-
-Almost Like Being in Love - Ly - Bb Standard for Viola.ly
-refrain
-f
-e'
 
 Almost Like Being in Love - Ly - Bb Standard.ly
 refrain
@@ -1210,11 +1037,6 @@ refrain
 d
 f'
 
-Alone Together - Ly - Dm Standard for Viola.ly
-refrain
-d
-f'
-
 Alone Together - Ly - Dm Standard.ly
 refrain
 d'
@@ -1241,11 +1063,6 @@ g
 bes'
 
 Along Came Betty - Ly - Ab Bass for Standard.ly
-refrain
-c
-ees'
-
-Along Came Betty - Ly - Ab Standard for Viola.ly
 refrain
 c
 ees'
@@ -1295,11 +1112,6 @@ refrain
 bes,
 ees'
 
-Alright Okay You Win - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Alright Okay You Win - Ly - Eb Standard.ly
 refrain
 bes
@@ -1325,11 +1137,6 @@ refrain
 c
 ees'
 
-Always Swing - Ly - F Standard for Viola.ly
-refrain
-c
-ees'
-
 Always Swing - Ly - F Standard.ly
 refrain
 c'
@@ -1351,11 +1158,6 @@ f
 aes'
 
 Always Waltz - Ly - F Bass for Standard.ly
-refrain
-c
-ees'
-
-Always Waltz - Ly - F Standard for Viola.ly
 refrain
 c
 ees'
@@ -1395,11 +1197,6 @@ refrain
 c
 e'
 
-Am I Blue - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 Am I Blue - Ly - F Standard.ly
 refrain
 c'
@@ -1420,17 +1217,32 @@ refrain
 d
 fis'
 
+Amie - Ly - A Bass for Standard.ly
+refrain
+d
+a'
+
+Amie - Ly - A Standard.ly
+refrain
+d'
+a''
+
+Amie - Ly - A to B for Bb for Standard.ly
+refrain
+e'
+b''
+
+Amie - Ly - A to Fs for Eb for Standard.ly
+refrain
+b
+fis''
+
 Angel Eyes - Ly - Am Alto Voice.ly
 refrain
 a
 b'
 
 Angel Eyes - Ly - Cm Bass for Standard.ly
-refrain
-c
-d'
-
-Angel Eyes - Ly - Cm Standard for Viola.ly
 refrain
 c
 d'
@@ -1459,11 +1271,6 @@ Angel Eyes - Ly - Fm Bass for Standard.ly
 refrain
 f,
 g
-
-Angel Eyes - Ly - Fm Standard for Viola.ly
-refrain
-f
-g'
 
 Angel Eyes - Ly - Fm Standard.ly
 refrain
@@ -1500,11 +1307,6 @@ refrain
 b,
 b
 
-Angel From Montgomery - Ly - E Standard for Viola.ly
-refrain
-b,
-b
-
 Angel From Montgomery - Ly - E Standard.ly
 refrain
 b
@@ -1529,11 +1331,6 @@ Anthropology - Ly - Bb Bass for Standard.ly
 refrain
 f,
 a
-
-Anthropology - Ly - Bb Standard for Viola.ly
-refrain
-f
-a'
 
 Anthropology - Ly - Bb Standard.ly
 refrain
@@ -1574,14 +1371,6 @@ refrain
 c
 e'
 
-Any Time - Ly - F Standard for Viola.ly
-intro
-f
-f'
-refrain
-c
-e'
-
 Any Time - Ly - F Standard.ly
 intro
 f'
@@ -1611,11 +1400,6 @@ refrain
 dis
 e'
 
-Anything Goes - Ly - C Standard for Viola.ly
-refrain
-dis
-e'
-
 Anything Goes - Ly - C Standard.ly
 refrain
 dis'
@@ -1641,11 +1425,6 @@ refrain
 a,
 a'
 
-Apache - Ly - Am Standard for Viola.ly
-refrain
-a,
-a'
-
 Apache - Ly - Am Standard.ly
 refrain
 a
@@ -1665,11 +1444,6 @@ April in Paris - Ly - C Bass for Standard.ly
 refrain
 b,
 e'
-
-April in Paris - Ly - C Standard for Viola.ly
-refrain
-b
-e''
 
 April in Paris - Ly - C Standard.ly
 refrain
@@ -1706,11 +1480,6 @@ refrain
 d,
 e
 
-Are You Lonesome Tonight - Ly - C Standard for Viola.ly
-refrain
-d
-e'
-
 Are You Lonesome Tonight - Ly - C Standard.ly
 refrain
 d'
@@ -1736,11 +1505,6 @@ refrain
 g,
 ees
 
-Artillerie Lourde - Ly - C Standard for Viola.ly
-refrain
-g
-ees'
-
 Artillerie Lourde - Ly - C Standard.ly
 refrain
 g'
@@ -1757,11 +1521,6 @@ a'
 f''
 
 As Time Goes By - Ly - Eb Bass for Standard.ly
-refrain
-ees
-f'
-
-As Time Goes By - Ly - Eb Standard for Viola.ly
 refrain
 ees
 f'
@@ -1787,11 +1546,6 @@ g
 a'
 
 Ashokan Farewell - Ly - D Bass for Standard.ly
-refrain
-g,
-d''
-
-Ashokan Farewell - Ly - D Standard for Viola.ly
 refrain
 g,
 d''
@@ -1826,11 +1580,6 @@ refrain
 fis,
 f'
 
-Ask Me Now - Ly - Db Standard for Viola.ly
-refrain
-fis
-f''
-
 Ask Me Now - Ly - Db Standard.ly
 refrain
 fis
@@ -1856,11 +1605,6 @@ refrain
 c
 e'
 
-At Last - Ly - C Standard for Viola.ly
-refrain
-c
-e'
-
 At Last - Ly - C Standard.ly
 refrain
 c'
@@ -1882,11 +1626,6 @@ f
 a'
 
 At Sundown - Ly - F Bass for Standard.ly
-refrain
-d
-e'
-
-At Sundown - Ly - F Standard for Viola.ly
 refrain
 d
 e'
@@ -1922,11 +1661,6 @@ e
 fis'
 
 Au Privave - Ly - F Bass for Standard.ly
-refrain
-c
-f'
-
-Au Privave - Ly - F Standard for Viola.ly
 refrain
 c
 f'
@@ -1970,11 +1704,6 @@ Autumn in New York - Ly - F Bass for Standard.ly
 refrain
 bes,
 e'
-
-Autumn in New York - Ly - F Standard for Viola.ly
-refrain
-bes
-e''
 
 Autumn in New York - Ly - F Standard.ly
 refrain
@@ -2031,11 +1760,6 @@ refrain
 b,
 d'
 
-Autumn Leaves - Ly - Em Standard for Viola.ly
-refrain
-b
-d''
-
 Autumn Leaves - Ly - Em Standard.ly
 refrain
 b
@@ -2061,11 +1785,6 @@ refrain
 d'
 f''
 
-Autumn Leaves - Ly - Gm Standard for Viola.ly
-refrain
-d
-f'
-
 Autumn Leaves - Ly - Gm Standard.ly
 refrain
 d'
@@ -2087,11 +1806,6 @@ g
 b'
 
 Avalon - Ly - F Bass for Standard.ly
-refrain
-c
-e'
-
-Avalon - Ly - F Standard for Viola.ly
 refrain
 c
 e'
@@ -2119,14 +1833,6 @@ refrain
 f,
 b'
 
-Baby Elephant Walk - Ly - F Standard for Viola.ly
-intro
-f,
-a,
-refrain
-f
-b''
-
 Baby Elephant Walk - Ly - F Standard.ly
 intro
 f,
@@ -2152,14 +1858,6 @@ g
 cis'''
 
 Baby Its Cold Outside - Ly - Eb Bass for Standard.ly
-refrain
-bes,
-des' >[3
-refrain melody two
-bes,
-c'
-
-Baby Its Cold Outside - Ly - Eb Standard for Viola.ly
 refrain
 bes,
 des' >[3
@@ -2206,11 +1904,6 @@ refrain
 c
 c'
 
-Baby Won't You Please Come Home - Ly - F Standard for Viola.ly
-refrain
-c
-c'
-
 Baby Won't You Please Come Home - Ly - F Standard.ly
 refrain
 c'
@@ -2227,11 +1920,6 @@ d'
 d''
 
 Baby Won't You Please Come Home - Ly - G Bass for Standard.ly
-refrain
-d
-d'
-
-Baby Won't You Please Come Home - Ly - G Standard for Viola.ly
 refrain
 d
 d'
@@ -2256,11 +1944,6 @@ refrain
 a,
 e''
 
-Back Home Again in Turkey - Ly - F Standard for Viola.ly
-refrain
-a
-e'''
-
 Back Home Again in Turkey - Ly - F Standard.ly
 refrain
 a
@@ -2277,11 +1960,6 @@ b
 fis'''
 
 Back in the Saddle Again - Ly - C Bass for Standard.ly
-refrain
-c
-c'
-
-Back in the Saddle Again - Ly - C Standard for Viola.ly
 refrain
 c
 c'
@@ -2316,11 +1994,6 @@ refrain
 cis
 e'
 
-Back in Your Own Backyard - Ly - G Standard for Viola.ly
-refrain
-cis
-e'
-
 Back in Your Own Backyard - Ly - G Standard.ly
 refrain
 cis'
@@ -2337,11 +2010,6 @@ ais
 cis''
 
 Bags Groove - Ly - F Bass for Standard.ly
-refrain
-ees
-c'
-
-Bags Groove - Ly - F Standard for Viola.ly
 refrain
 ees
 c'
@@ -2371,11 +2039,6 @@ refrain
 bes,
 c'
 
-Basin Street Blues - Ly - Bb Standard for Viola.ly
-refrain
-bes
-c''
-
 Basin Street Blues - Ly - Bb Standard.ly
 refrain
 bes
@@ -2401,11 +2064,6 @@ refrain
 a,
 c'
 
-Batida Diferente - Ly - G Standard for Viola.ly
-refrain
-a
-c''
-
 Batida Diferente - Ly - G Standard.ly
 refrain
 a
@@ -2422,11 +2080,6 @@ fis'
 a''
 
 Beale Street Blues - Ly - Bb Bass for Standard.ly
-refrain
-d
-f'
-
-Beale Street Blues - Ly - Bb Standard for Viola.ly
 refrain
 d
 f'
@@ -2451,11 +2104,6 @@ refrain
 f,
 a
 
-Beatrice - Ly - F Standard for Viola.ly
-refrain
-f
-a'
-
 Beatrice - Ly - F Standard.ly
 refrain
 f'
@@ -2476,22 +2124,12 @@ refrain
 g
 b'
 
-Beaumont Rag - Ly - F Standard for Viola.ly
-refrain
-d
-bes'
-
 Beaumont Rag - Ly - F Standard.ly
 refrain
 d'
 bes''
 
 Beautiful Love - Ly - Dm Bass for Standard.ly
-refrain
-cis
-e'
-
-Beautiful Love - Ly - Dm Standard for Viola.ly
 refrain
 cis
 e'
@@ -2526,11 +2164,6 @@ refrain
 e
 e'
 
-Bei Mir Bist Du Schoen - Ly - Am Standard for Viola.ly
-refrain
-e
-e'
-
 Bei Mir Bist Du Schoen - Ly - Am Standard.ly
 refrain
 e'
@@ -2561,11 +2194,6 @@ refrain
 d
 e'
 
-Belleville - Ly - D Standard for Viola.ly
-refrain
-d
-e'
-
 Belleville - Ly - D Standard.ly
 refrain
 d'
@@ -2585,11 +2213,6 @@ Bemsha Swing - Ly - C Bass for Standard.ly
 refrain
 b,
 f'
-
-Bemsha Swing - Ly - C Standard for Viola.ly
-refrain
-b
-f''
 
 Bemsha Swing - Ly - C Standard.ly
 refrain
@@ -2621,14 +2244,6 @@ e'
 refrain
 e,
 d'
-
-Bennie and the Jets - Ly - G Standard for Viola.ly
-intro
-a,
-e''
-refrain
-e
-d''
 
 Bennie and the Jets - Ly - G Standard.ly
 intro
@@ -2667,11 +2282,6 @@ refrain
 a,
 a
 
-Bernie's Tune - Ly - Dm Standard for Viola.ly
-refrain
-a
-a'
-
 Bernie's Tune - Ly - Dm Standard.ly
 refrain
 a
@@ -2691,11 +2301,6 @@ Bernie's Tune Lyrics - Ly - Dm Bass for Standard.ly
 refrain
 a,
 a
-
-Bernie's Tune Lyrics - Ly - Dm Standard for Viola.ly
-refrain
-a
-a'
 
 Bernie's Tune Lyrics - Ly - Dm Standard.ly
 refrain
@@ -2722,11 +2327,6 @@ refrain
 gis'
 b''
 
-Besame Mucho - Ly - Am Standard for Viola.ly
-refrain
-gis
-b'
-
 Besame Mucho - Ly - Am Standard.ly
 refrain
 gis'
@@ -2743,11 +2343,6 @@ e'
 g''
 
 Besame Mucho - Ly - Dm Bass for Standard.ly
-refrain
-cis
-e'
-
-Besame Mucho - Ly - Dm Standard for Viola.ly
 refrain
 cis
 e'
@@ -2787,11 +2382,6 @@ refrain
 ees
 c''
 
-Bessie's Blues - Ly - Eb Standard for Viola.ly
-refrain
-ees
-c''
-
 Bessie's Blues - Ly - Eb Standard.ly
 refrain
 ees'
@@ -2822,11 +2412,6 @@ refrain
 a,
 b
 
-Better Than Anything - Ly - D Standard for Viola.ly
-refrain
-a
-b'
-
 Better Than Anything - Ly - D Standard.ly
 refrain
 a
@@ -2852,11 +2437,6 @@ refrain
 c
 f'
 
-Between the Devil and the Deep Blue Sea - Ly - F Standard for Viola.ly
-refrain
-c
-f'
-
 Between the Devil and the Deep Blue Sea - Ly - F Standard.ly
 refrain
 c'
@@ -2878,11 +2458,6 @@ bes
 bes'
 
 Bewitched - Ly - C Bass for Standard.ly
-refrain
-d
-d'
-
-Bewitched - Ly - C Standard for Viola.ly
 refrain
 d
 d'
@@ -2932,11 +2507,6 @@ refrain
 c
 e'
 
-Beyond the Sea - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 Beyond the Sea - Ly - F Standard.ly
 refrain
 c'
@@ -2957,11 +2527,6 @@ refrain
 b,
 g'
 
-Billie's Bounce - Ly - F Standard for Viola.ly
-refrain
-b
-g''
-
 Billie's Bounce - Ly - F Standard.ly
 refrain
 b
@@ -2978,11 +2543,6 @@ cis'
 a''
 
 Birk's Works - Ly - Fm Bass for Standard.ly
-refrain
-ees
-c'
-
-Birk's Works - Ly - Fm Standard for Viola.ly
 refrain
 ees
 c'
@@ -3017,11 +2577,6 @@ refrain
 c
 f'
 
-Black Coffee - Ly - F Standard for Viola.ly
-refrain
-c
-f'
-
 Black Coffee - Ly - F Standard.ly
 refrain
 c'
@@ -3041,11 +2596,6 @@ Black Orpheus - Ly - Am Bass for Standard.ly
 refrain
 b,
 d'
-
-Black Orpheus - Ly - Am Standard for Viola.ly
-refrain
-b
-d''
 
 Black Orpheus - Ly - Am Standard.ly
 refrain
@@ -3107,11 +2657,6 @@ refrain
 bes,
 ees'
 
-Blame It on My Youth - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Blame It on My Youth - Ly - Eb Standard.ly
 refrain
 bes
@@ -3142,11 +2687,6 @@ refrain
 c
 d'
 
-Blue and Sentimental - Ly - Eb Standard for Viola.ly
-refrain
-c
-d'
-
 Blue and Sentimental - Ly - Eb Standard.ly
 refrain
 c'
@@ -3163,11 +2703,6 @@ d'
 e''
 
 Blue Bossa - Ly - Cm Bass for Standard.ly
-refrain
-f
-g'
-
-Blue Bossa - Ly - Cm Standard for Viola.ly
 refrain
 f
 g'
@@ -3242,16 +2777,6 @@ refrain
 c
 d'
 
-Blue Christmas - Ly - F Standard for Viola Simple Chords.ly
-refrain
-c
-d'
-
-Blue Christmas - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Blue Christmas - Ly - F Standard Simple Chords.ly
 refrain
 c'
@@ -3283,17 +2808,6 @@ d'
 e''
 
 Blue Drag - Ly - Dm Bass for Standard.ly
-intro
-a,
-d
-refrain
-d
-bes
-outro
-a'
-d''
-
-Blue Drag - Ly - Dm Standard for Viola.ly
 intro
 a,
 d
@@ -3342,11 +2856,6 @@ refrain
 cis
 f'
 
-Blue in Green - Ly - Dm Standard for Viola.ly
-refrain
-cis
-f'
-
 Blue in Green - Ly - Dm Standard.ly
 refrain
 cis'
@@ -3366,11 +2875,6 @@ Blue Lou - Ly - G Bass for Standard.ly
 refrain
 ais,
 bes
-
-Blue Lou - Ly - G Standard for Viola.ly
-refrain
-ais
-bes'
 
 Blue Lou - Ly - G Standard.ly
 refrain
@@ -3407,11 +2911,6 @@ refrain
 e,
 des'
 
-Blue Monk - Ly - Bb Standard for Viola.ly
-refrain
-e
-des''
-
 Blue Monk - Ly - Bb Standard.ly
 refrain
 e
@@ -3443,11 +2942,6 @@ des
 c'
 
 Blue Moon - Ly - Eb Bass for Standard.ly
-refrain
-des
-c'
-
-Blue Moon - Ly - Eb Standard for Viola.ly
 refrain
 des
 c'
@@ -3487,11 +2981,6 @@ refrain
 g,
 aes
 
-Blue Skies - Ly - C Standard for Viola.ly
-refrain
-g
-aes'
-
 Blue Skies - Ly - C Standard.ly
 refrain
 g'
@@ -3517,11 +3006,6 @@ refrain
 ees
 ges'
 
-Blue Train (Blue Trane) - Ly - Eb Standard for Viola.ly
-refrain
-ees
-ges'
-
 Blue Train (Blue Trane) - Ly - Eb Standard.ly
 refrain
 ees'
@@ -3541,11 +3025,6 @@ Blues by Five - Ly - Bb Bass for Standard.ly
 refrain
 f,
 ees
-
-Blues by Five - Ly - Bb Standard for Viola.ly
-refrain
-f
-ees'
 
 Blues by Five - Ly - Bb Standard.ly
 refrain
@@ -3567,11 +3046,6 @@ refrain
 bes,
 f'
 
-Blues for Alice - Ly - F Standard for Viola.ly
-refrain
-bes
-f''
-
 Blues for Alice - Ly - F Standard.ly
 refrain
 bes
@@ -3588,11 +3062,6 @@ c'
 g''
 
 Blues in the Closet - Ly - G Bass for Standard.ly
-refrain
-d
-c'
-
-Blues in the Closet - Ly - G Standard for Viola.ly
 refrain
 d
 c'
@@ -3616,11 +3085,6 @@ Blues in the Night - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 f'
-
-Blues in the Night - Ly - Bb Standard for Viola.ly
-refrain
-bes
-f''
 
 Blues in the Night - Ly - Bb Standard.ly
 refrain
@@ -3652,11 +3116,6 @@ refrain
 cis
 f'
 
-Blues March - Ly - Bb Standard for Viola.ly
-refrain
-cis
-f'
-
 Blues March - Ly - Bb Standard.ly
 refrain
 cis'
@@ -3673,11 +3132,6 @@ ais
 d''
 
 Bluesette - Ly - Bb Bass for Standard.ly
-refrain
-c
-g'
-
-Bluesette - Ly - Bb Standard for Viola.ly
 refrain
 c
 g'
@@ -3747,11 +3201,6 @@ refrain
 a,
 e'
 
-Body and Soul - Ly - Db Standard for Viola.ly
-refrain
-a
-e''
-
 Body and Soul - Ly - Db Standard.ly
 refrain
 a
@@ -3797,11 +3246,6 @@ refrain
 fis,
 g'
 
-Bohemia After Dark - Ly - Gm Standard for Viola.ly
-refrain
-fis
-g''
-
 Bohemia After Dark - Ly - Gm Standard.ly
 refrain
 fis
@@ -3827,11 +3271,6 @@ refrain
 c
 f'
 
-Boplicity - Ly - F Standard for Viola.ly
-refrain
-c
-f'
-
 Boplicity - Ly - F Standard.ly
 refrain
 c'
@@ -3851,11 +3290,6 @@ Born to Be Blue - Ly - C Bass for Standard.ly
 refrain
 b,
 des'
-
-Born to Be Blue - Ly - C Standard for Viola.ly
-refrain
-b
-des''
 
 Born to Be Blue - Ly - C Standard.ly
 refrain
@@ -3884,18 +3318,13 @@ aes
 
 Born to Be Blue - Ly - G to A for Bb for Alto Voice.ly
 refrain
-gis
-bes'
+gis'
+bes''
 
 Bossa Antigua - Ly - Ab Bass for Standard.ly
 refrain
 g,
 bes
-
-Bossa Antigua - Ly - Ab Standard for Viola.ly
-refrain
-g
-bes'
 
 Bossa Antigua - Ly - Ab Standard.ly
 refrain
@@ -3922,11 +3351,6 @@ refrain
 f,
 bes
 
-Bossa Dorado - Ly - Dm Standard for Viola.ly
-refrain
-f
-bes'
-
 Bossa Dorado - Ly - Dm Standard.ly
 refrain
 f'
@@ -3952,11 +3376,6 @@ refrain
 fis,
 fis'
 
-Breezin' - Ly - D Standard for Viola.ly
-refrain
-fis
-fis''
-
 Breezin' - Ly - D Standard.ly
 refrain
 fis
@@ -3978,11 +3397,6 @@ f
 g'
 
 Breezin' Along With the Breeze - Ly - F Bass for Standard.ly
-refrain
-c
-d'
-
-Breezin' Along With the Breeze - Ly - F Standard for Viola.ly
 refrain
 c
 d'
@@ -4017,11 +3431,6 @@ refrain
 bes,
 c'
 
-Broadway - Ly - Eb Standard for Viola.ly
-refrain
-bes
-c''
-
 Broadway - Ly - Eb Standard.ly
 refrain
 bes
@@ -4041,11 +3450,6 @@ Bubbles in My Beer - Ly - C Bass for Standard.ly
 refrain
 g,
 c'
-
-Bubbles in My Beer - Ly - C Standard for Viola.ly
-refrain
-g
-c''
 
 Bubbles in My Beer - Ly - C Standard.ly
 refrain
@@ -4072,11 +3476,6 @@ refrain
 a,
 a
 
-Buckaroo - Ly - D Standard for Viola.ly
-refrain
-a,
-e'
-
 Buckaroo - Ly - D Standard.ly
 refrain
 a
@@ -4086,11 +3485,6 @@ Bunko - Ly - F Bass for Standard.ly
 refrain
 a,
 c''
-
-Bunko - Ly - F Standard for Viola.ly
-refrain
-a
-c'''
 
 Bunko - Ly - F Standard.ly
 refrain
@@ -4137,11 +3531,6 @@ refrain
 cis
 e'
 
-But Beautiful - Ly - G Standard for Viola.ly
-refrain
-cis
-e'
-
 But Beautiful - Ly - G Standard.ly
 refrain
 cis'
@@ -4168,11 +3557,6 @@ bes
 c''
 
 But Not for Me - Ly - Eb Bass for Standard.ly
-refrain
-ees
-f'
-
-But Not for Me - Ly - Eb Standard for Viola.ly
 refrain
 ees
 f'
@@ -4207,11 +3591,6 @@ refrain
 d
 c'
 
-Bye Bye Blackbird - Ly - F Standard for Viola.ly
-refrain
-d
-c'
-
 Bye Bye Blackbird - Ly - F Standard.ly
 refrain
 d'
@@ -4237,11 +3616,6 @@ refrain
 g,
 e
 
-Bye Bye Blues - Ly - C Standard for Viola.ly
-refrain
-g
-e'
-
 Bye Bye Blues - Ly - C Standard.ly
 refrain
 g'
@@ -4266,11 +3640,6 @@ C Jam Blues - Ly - C Bass for Standard.ly
 refrain
 g,
 c
-
-C Jam Blues - Ly - C Standard for Viola.ly
-refrain
-g
-c'
 
 C Jam Blues - Ly - C Standard.ly
 refrain
@@ -4301,16 +3670,6 @@ C'est Si Bon - Ly - Bb Standard English.ly
 refrain
 des'
 f''
-
-C'est Si Bon - Ly - Bb Standard for Viola English.ly
-refrain
-des
-f'
-
-C'est Si Bon - Ly - Bb Standard for Viola.ly
-refrain
-des
-f'
 
 C'est Si Bon - Ly - Bb Standard.ly
 refrain
@@ -4352,11 +3711,6 @@ refrain
 fis,
 d
 
-California Stars - Ly - A Standard for Viola.ly
-refrain
-fis
-d'
-
 California Stars - Ly - A Standard.ly
 refrain
 fis'
@@ -4378,11 +3732,6 @@ e
 c'
 
 Call Me - Ly - C Bass for Standard.ly
-refrain
-ees
-e'
-
-Call Me - Ly - C Standard for Viola.ly
 refrain
 ees
 e'
@@ -4427,11 +3776,6 @@ refrain
 aes,
 d'
 
-Can't Help Lovin' Dat Man - Ly - C Standard for Viola.ly
-refrain
-aes
-d''
-
 Can't Help Lovin' Dat Man - Ly - C Standard.ly
 refrain
 aes
@@ -4451,11 +3795,6 @@ Can't Help Lovin' Dat Man - Ly - Eb Bass for Standard.ly
 refrain
 b,
 f'
-
-Can't Help Lovin' Dat Man - Ly - Eb Standard for Viola.ly
-refrain
-b
-f''
 
 Can't Help Lovin' Dat Man - Ly - Eb Standard.ly
 refrain
@@ -4507,11 +3846,6 @@ refrain
 c
 f'
 
-Can't We Be Friends - Ly - F Standard for Viola.ly
-refrain
-c
-f'
-
 Can't We Be Friends - Ly - F Standard.ly
 refrain
 c'
@@ -4542,11 +3876,6 @@ refrain
 ees
 ees'
 
-Cantaloupe Island - Ly - Fm Standard for Viola.ly
-refrain
-ees
-ees'
-
 Cantaloupe Island - Ly - Fm Standard.ly
 refrain
 ees'
@@ -4566,11 +3895,6 @@ Caravan - Ly - Fm Bass for Standard.ly
 refrain
 c,
 g
-
-Caravan - Ly - Fm Standard for Viola.ly
-refrain
-c
-g'
 
 Caravan - Ly - Fm Standard.ly
 refrain
@@ -4603,11 +3927,6 @@ b,
 fis'
 
 Cash on the Barrelhead - Ly - F Bass for Standard.ly
-refrain
-c
-g'
-
-Cash on the Barrelhead - Ly - F Standard for Viola.ly
 refrain
 c
 g'
@@ -4652,11 +3971,6 @@ refrain
 g,
 c'
 
-Castaways - Ly - F Standard for Viola.ly
-refrain
-g,
-c'
-
 Castaways - Ly - F Standard.ly
 refrain
 g
@@ -4678,11 +3992,6 @@ a
 d''
 
 Centerpiece - Ly - Ab Bass for Standard.ly
-refrain
-ees
-b
-
-Centerpiece - Ly - Ab Standard for Viola.ly
 refrain
 ees
 b
@@ -4727,11 +4036,6 @@ refrain
 b,
 c'
 
-Central Park West - Ly - B Standard for Viola.ly
-refrain
-b
-c''
-
 Central Park West - Ly - B Standard.ly
 refrain
 b
@@ -4752,11 +4056,6 @@ refrain
 gis,
 c'
 
-Central Park West No Signature - Ly - C Standard for Viola.ly
-refrain
-gis
-c''
-
 Central Park West No Signature - Ly - C Standard.ly
 refrain
 gis
@@ -4776,11 +4075,6 @@ Ceora - Ly - Ab Bass for Standard.ly
 refrain
 aes,
 ges'
-
-Ceora - Ly - Ab Standard for Viola.ly
-refrain
-aes
-ges''
 
 Ceora - Ly - Ab Standard.ly
 refrain
@@ -4807,11 +4101,6 @@ refrain
 c
 e'
 
-Change Partners - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 Change Partners - Ly - F Standard.ly
 refrain
 c'
@@ -4831,11 +4120,6 @@ Charade - Ly - Am Bass for Standard.ly
 refrain
 a,
 c'
-
-Charade - Ly - Am Standard for Viola.ly
-refrain
-a
-c''
 
 Charade - Ly - Am Standard.ly
 refrain
@@ -4861,11 +4145,6 @@ Cheek to Cheek - Ly - C Bass for Standard.ly
 refrain
 b,
 e'
-
-Cheek to Cheek - Ly - C Standard for Viola.ly
-refrain
-b
-e''
 
 Cheek to Cheek - Ly - C Standard.ly
 refrain
@@ -4917,11 +4196,6 @@ refrain
 gis,
 cis'
 
-Chega de Saudade - Ly - D Standard for Viola.ly
-refrain
-gis
-cis''
-
 Chega de Saudade - Ly - D Standard.ly
 refrain
 gis'
@@ -4942,11 +4216,6 @@ refrain
 bes,
 gis'
 
-Chelsea Bridge - Ly - Db Standard for Viola.ly
-refrain
-bes
-gis''
-
 Chelsea Bridge - Ly - Db Standard.ly
 refrain
 bes
@@ -4966,11 +4235,6 @@ Cherokee - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 dis'
-
-Cherokee - Ly - Bb Standard for Viola.ly
-refrain
-bes
-dis''
 
 Cherokee - Ly - Bb Standard.ly
 refrain
@@ -4996,11 +4260,6 @@ Chicago - Ly - C Bass for Standard.ly
 refrain
 a,
 c'
-
-Chicago - Ly - C Standard for Viola.ly
-refrain
-a
-c''
 
 Chicago - Ly - C Standard.ly
 refrain
@@ -5032,11 +4291,6 @@ refrain
 c
 e'
 
-Chinatown My Chinatown - Ly - C Standard for Viola.ly
-refrain
-c
-e'
-
 Chinatown My Chinatown - Ly - C Standard.ly
 refrain
 c'
@@ -5063,11 +4317,6 @@ g,
 b
 
 Chitlins Con Carne - Ly - C Bass for Standard.ly
-refrain
-c
-bes
-
-Chitlins Con Carne - Ly - C Standard for Viola.ly
 refrain
 c
 bes
@@ -5108,11 +4357,6 @@ c
 d'
 
 Christmas Time Is Here - Ly - F Bass for Standard.ly
-refrain
-d
-e'
-
-Christmas Time Is Here - Ly - F Standard for Viola.ly
 refrain
 d
 e'
@@ -5167,11 +4411,6 @@ refrain
 cis
 c'
 
-City Lights - Ly - G Standard for Viola.ly
-refrain
-cis
-c'
-
 City Lights - Ly - G Standard.ly
 refrain
 cis'
@@ -5187,11 +4426,6 @@ refrain
 ais
 a'
 
-Close Your Eyes - Ly - Ebm Standard for Viola.ly
-refrain
-d
-ees'
-
 Close Your Eyes - Ly - Ebm Standard.ly
 refrain
 d'
@@ -5201,11 +4435,6 @@ Close Your Eyes - Ly - Fm Bass for Standard.ly
 refrain
 e,
 f
-
-Close Your Eyes - Ly - Fm Standard for Viola.ly
-refrain
-e
-f'
 
 Close Your Eyes - Ly - Fm Standard.ly
 refrain
@@ -5242,11 +4471,6 @@ refrain
 f,
 c'
 
-Cold Duck Time - Ly - F Standard for Viola.ly
-refrain
-f
-c''
-
 Cold Duck Time - Ly - F Standard.ly
 refrain
 f
@@ -5277,11 +4501,6 @@ refrain
 d
 f'
 
-Come Rain or Come Shine - Ly - F Standard for Viola.ly
-refrain
-d
-f'
-
 Come Rain or Come Shine - Ly - F Standard.ly
 refrain
 d'
@@ -5301,11 +4520,6 @@ Come Sunday - Ly - Bb Bass for Standard.ly
 refrain
 g,
 ees'
-
-Come Sunday - Ly - Bb Standard for Viola.ly
-refrain
-g
-ees''
 
 Come Sunday - Ly - Bb Standard.ly
 refrain
@@ -5367,11 +4581,6 @@ refrain
 d
 ees'
 
-Comes Love - Ly - Gm Standard for Viola.ly
-refrain
-d
-ees'
-
 Comes Love - Ly - Gm Standard.ly
 refrain
 d'
@@ -5397,11 +4606,6 @@ refrain
 f
 f'
 
-Comin' Home Baby - Ly - Gm Standard for Viola.ly
-refrain
-f
-f'
-
 Comin' Home Baby - Ly - Gm Standard.ly
 refrain
 f'
@@ -5418,14 +4622,6 @@ d'
 d''
 
 Con Alma - Ly - C Bass for Standard.ly
-intro
-c
-des'
-refrain
-d
-cis'
-
-Con Alma - Ly - C Standard for Viola.ly
 intro
 c
 des'
@@ -5462,11 +4658,6 @@ refrain
 c
 e'
 
-Confirmation - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 Confirmation - Ly - F Standard.ly
 refrain
 c'
@@ -5486,11 +4677,6 @@ Cool Blues - Ly - C Bass for Standard.ly
 refrain
 a,
 c'
-
-Cool Blues - Ly - C Standard for Viola.ly
-refrain
-a
-c''
 
 Cool Blues - Ly - C Standard.ly
 refrain
@@ -5512,11 +4698,6 @@ refrain
 bes,
 f'
 
-Coquette - Ly - Eb Standard for Viola.ly
-refrain
-bes
-f''
-
 Coquette - Ly - Eb Standard.ly
 refrain
 bes
@@ -5524,8 +4705,8 @@ f''
 
 Coquette - Ly - Eb to C for Eb for Standard.ly
 refrain
-g
-d''
+g'
+d'''
 
 Coquette - Ly - Eb to F for Bb for Standard.ly
 refrain
@@ -5536,11 +4717,6 @@ Coquette DFB - Ly - D Bass for Standard.ly
 refrain
 a,
 e'
-
-Coquette DFB - Ly - D Standard for Viola.ly
-refrain
-a
-e''
 
 Coquette DFB - Ly - D Standard.ly
 refrain
@@ -5561,11 +4737,6 @@ Coquette Firehouse - Ly - Eb Bass for Standard.ly
 refrain
 bes,
 f'
-
-Coquette Firehouse - Ly - Eb Standard for Viola.ly
-refrain
-bes
-f''
 
 Coquette Firehouse - Ly - Eb Standard.ly
 refrain
@@ -5597,11 +4768,6 @@ refrain
 b,
 c'
 
-Corcovado - Ly - C Standard for Viola.ly
-refrain
-b
-c''
-
 Corcovado - Ly - C Standard.ly
 refrain
 b
@@ -5622,11 +4788,6 @@ refrain
 ees,
 g
 
-Cotton Tail - Ly - Bb Standard for Viola.ly
-refrain
-ees
-g'
-
 Cotton Tail - Ly - Bb Standard.ly
 refrain
 ees'
@@ -5646,11 +4807,6 @@ Countdown - Ly - C Bass for Standard.ly
 refrain
 b,
 d'
-
-Countdown - Ly - C Standard for Viola.ly
-refrain
-b
-d''
 
 Countdown - Ly - C Standard.ly
 refrain
@@ -5698,11 +4854,6 @@ a,
 c'
 
 Crazy Arms - Ly - F Bass for Standard.ly
-refrain
-c
-ees'
-
-Crazy Arms - Ly - F Standard for Viola.ly
 refrain
 c
 ees'
@@ -5767,11 +4918,6 @@ refrain
 c
 d'
 
-Crazy He Calls Me - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Crazy He Calls Me - Ly - F Standard.ly
 refrain
 c'
@@ -5802,11 +4948,6 @@ refrain
 c'
 aes'
 
-Crazy Rhythm - Ly - F Standard for Viola.ly
-refrain
-e
-c'
-
 Crazy Rhythm - Ly - F Standard.ly
 refrain
 e'
@@ -5816,11 +4957,6 @@ Crazy Rhythm - Ly - G Bass for Standard.ly
 refrain
 fis,
 d
-
-Crazy Rhythm - Ly - G Standard for Viola.ly
-refrain
-fis
-d'
 
 Crazy Rhythm - Ly - G Standard.ly
 refrain
@@ -5838,11 +4974,6 @@ dis'
 b'
 
 Cry Me a River - Ly - Eb Bass for Standard.ly
-refrain
-c
-d'
-
-Cry Me a River - Ly - Eb Standard for Viola.ly
 refrain
 c
 d'
@@ -5874,18 +5005,13 @@ fis
 
 Cry Me a River - Ly - G to A for Bb for Alto Voice.ly
 refrain
-fis
-gis'
+fis'
+gis''
 
 D Natural Blues - Ly - D Bass for Standard.ly
 refrain
 g,
 f'
-
-D Natural Blues - Ly - D Standard for Viola.ly
-refrain
-g
-f''
 
 D Natural Blues - Ly - D Standard.ly
 refrain
@@ -5903,11 +5029,6 @@ a
 g''
 
 Dance of the Sugar Plum Fairy - Ly - Em Bass for Standard.ly
-refrain
-e,
-c''
-
-Dance of the Sugar Plum Fairy - Ly - Em Standard for Viola.ly
 refrain
 e,
 c''
@@ -5936,11 +5057,6 @@ Dancing in the Dark - Ly - C Bass for Standard.ly
 refrain
 a,
 c'
-
-Dancing in the Dark - Ly - C Standard for Viola.ly
-refrain
-a
-c''
 
 Dancing in the Dark - Ly - C Standard.ly
 refrain
@@ -5972,11 +5088,6 @@ refrain
 b,
 ees'
 
-Daphne - Ly - D Standard for Viola.ly
-refrain
-b
-ees''
-
 Daphne - Ly - D Standard.ly
 refrain
 b
@@ -5997,11 +5108,6 @@ refrain
 gis,
 g
 
-Dark Eyes - Ly - Dm Standard for Viola.ly
-refrain
-gis
-g'
-
 Dark Eyes - Ly - Dm Standard.ly
 refrain
 gis'
@@ -6018,11 +5124,6 @@ ais
 a'
 
 Darktown Strutters Ball - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-Darktown Strutters Ball - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -6082,11 +5183,6 @@ refrain
 d
 e'
 
-Darn That Dream - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 Darn That Dream - Ly - G Standard.ly
 refrain
 d'
@@ -6106,11 +5202,6 @@ Dat Dere - Ly - Cm Bass for Standard.ly
 refrain
 g,
 g'
-
-Dat Dere - Ly - Cm Standard for Viola.ly
-refrain
-g
-g''
 
 Dat Dere - Ly - Cm Standard.ly
 refrain
@@ -6147,11 +5238,6 @@ refrain
 b,
 d'
 
-Day by Day - Ly - G Standard for Viola.ly
-refrain
-b
-d''
-
 Day by Day - Ly - G Standard.ly
 refrain
 b
@@ -6187,11 +5273,6 @@ refrain
 c
 e'
 
-Day Dream - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 Day Dream - Ly - F Standard.ly
 refrain
 c'
@@ -6213,11 +5294,6 @@ d
 fis'
 
 Day In Day Out - Ly - C Bass for Standard.ly
-refrain
-d
-f'
-
-Day In Day Out - Ly - C Standard for Viola.ly
 refrain
 d
 f'
@@ -6252,11 +5328,6 @@ refrain
 a,
 cis'
 
-Dear Mr Fantasy - Ly - A Standard for Viola.ly
-refrain
-a
-cis''
-
 Dear Mr Fantasy - Ly - A Standard.ly
 refrain
 a'
@@ -6273,11 +5344,6 @@ ges'
 bes''
 
 Dearly Beloved - Ly - C Bass for Standard.ly
-refrain
-c
-d'
-
-Dearly Beloved - Ly - C Standard for Viola.ly
 refrain
 c
 d'
@@ -6303,11 +5369,6 @@ g
 a'
 
 Deed I Do - Ly - C Bass for Standard.ly
-refrain
-c
-d'
-
-Deed I Do - Ly - C Standard for Viola.ly
 refrain
 c
 d'
@@ -6341,11 +5402,6 @@ Deep in a Dream - Ly - C Bass for Standard.ly
 refrain
 b,
 ees'
-
-Deep in a Dream - Ly - C Standard for Viola.ly
-refrain
-b
-ees''
 
 Deep in a Dream - Ly - C Standard.ly
 refrain
@@ -6382,11 +5438,6 @@ refrain
 c
 g'
 
-Deep Purple - Ly - F Standard for Viola.ly
-refrain
-c
-g'
-
 Deep Purple - Ly - F Standard.ly
 refrain
 c'
@@ -6412,11 +5463,6 @@ refrain
 b
 d''
 
-Desafinado - Ly - F Standard for Viola.ly
-refrain
-b
-d''
-
 Desafinado - Ly - F Standard.ly
 refrain
 b
@@ -6433,14 +5479,6 @@ cis'
 e''
 
 Destination Moon - Ly - Bb Bass for Standard.ly
-verse
-des
-d'
-refrain
-bes,
-f'
-
-Destination Moon - Ly - Bb Standard for Viola.ly
 verse
 des
 d'
@@ -6519,11 +5557,6 @@ refrain
 bes,
 ees'
 
-Detour - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Detour - Ly - Eb Standard.ly
 refrain
 bes
@@ -6550,11 +5583,6 @@ bes
 bes'
 
 Detour Ahead - Ly - C Bass for Standard.ly
-refrain
-c
-c'
-
-Detour Ahead - Ly - C Standard for Viola.ly
 refrain
 c
 c'
@@ -6604,11 +5632,6 @@ refrain
 d
 f'
 
-Devil May Care - Ly - Gm Standard for Viola.ly
-refrain
-d
-f'
-
 Devil May Care - Ly - Gm Standard.ly
 refrain
 d'
@@ -6630,11 +5653,6 @@ a
 a'
 
 Dinah - Ly - G Bass for Standard.ly
-refrain
-d
-d'
-
-Dinah - Ly - G Standard for Viola.ly
 refrain
 d
 d'
@@ -6669,11 +5687,6 @@ refrain
 cis'
 d''
 
-Dindi - Ly - Eb Standard for Viola.ly
-refrain
-cis
-d'
-
 Dindi - Ly - Eb Standard.ly
 refrain
 cis'
@@ -6699,11 +5712,6 @@ refrain
 aes,
 g
 
-Dinette - Ly - Ab Standard for Viola.ly
-refrain
-aes
-g'
-
 Dinette - Ly - Ab Standard.ly
 refrain
 aes'
@@ -6723,14 +5731,6 @@ Django - Ly - Fm Bass for Standard.ly
 refrain
 f,
 g'
-bassLine
-des
-e'
-
-Django - Ly - Fm Standard for Viola.ly
-refrain
-f
-g''
 bassLine
 des
 e'
@@ -6764,11 +5764,6 @@ refrain
 e,
 b
 
-Djangology - Ly - G Standard for Viola.ly
-refrain
-e
-b'
-
 Djangology - Ly - G Standard.ly
 refrain
 e'
@@ -6795,11 +5790,6 @@ aes
 c''
 
 Do I Love You - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-Do I Love You - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -6859,11 +5849,6 @@ refrain
 bes,
 c'
 
-Do Nothin' Till You Hear From Me - Ly - F Standard for Viola.ly
-refrain
-bes
-c''
-
 Do Nothin' Till You Hear From Me - Ly - F Standard.ly
 refrain
 bes
@@ -6880,11 +5865,6 @@ c'
 d''
 
 Do Nothin' Till You Hear From Me - Ly - G Bass for Standard.ly
-refrain
-c
-d'
-
-Do Nothin' Till You Hear From Me - Ly - G Standard for Viola.ly
 refrain
 c
 d'
@@ -6919,11 +5899,6 @@ refrain
 c
 e'
 
-Do You Know What It Means to Miss New Orleans - Ly - C Standard for Viola.ly
-refrain
-c
-e'
-
 Do You Know What It Means to Miss New Orleans - Ly - C Standard.ly
 refrain
 c'
@@ -6954,11 +5929,6 @@ refrain
 b,
 fis'
 
-Dolphin Dance - Ly - C Standard for Viola.ly
-refrain
-b
-fis''
-
 Dolphin Dance - Ly - C Standard.ly
 refrain
 b
@@ -6984,11 +5954,6 @@ refrain
 aes,
 d'
 
-Don't Be That Way - Ly - Db Standard for Viola.ly
-refrain
-aes
-d''
-
 Don't Be That Way - Ly - Db Standard.ly
 refrain
 aes
@@ -7005,11 +5970,6 @@ bes
 e''
 
 Don't Blame Me - Ly - C Bass for Standard.ly
-refrain
-c
-d'
-
-Don't Blame Me - Ly - C Standard for Viola.ly
 refrain
 c
 d'
@@ -7069,11 +6029,6 @@ refrain
 c
 ees'
 
-Don't Fence Me In - Ly - F Standard for Viola.ly
-refrain
-c
-ees'
-
 Don't Fence Me In - Ly - F Standard.ly
 refrain
 c'
@@ -7095,11 +6050,6 @@ d
 f'
 
 Don't Get Around Much Anymore - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-Don't Get Around Much Anymore - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -7149,11 +6099,6 @@ refrain
 ees
 ees'
 
-Don't Worry 'Bout Me - Ly - Ab Standard for Viola.ly
-refrain
-ees
-ees'
-
 Don't Worry 'Bout Me - Ly - Ab Standard.ly
 refrain
 ees'
@@ -7188,11 +6133,6 @@ Donna Lee - Ly - Ab Bass for Standard.ly
 refrain
 a,
 aes'
-
-Donna Lee - Ly - Ab Standard for Viola.ly
-refrain
-a
-aes''
 
 Donna Lee - Ly - Ab Standard.ly
 refrain
@@ -7234,11 +6174,6 @@ refrain
 g,
 d'
 
-Dont Think Twice Its All Right - Ly - G Standard for Viola.ly
-refrain
-g,
-d'
-
 Dont Think Twice Its All Right - Ly - G Standard.ly
 refrain
 g
@@ -7258,11 +6193,6 @@ Double Scotch - Ly - C Bass for Standard.ly
 refrain
 g,
 d'
-
-Double Scotch - Ly - C Standard for Viola.ly
-refrain
-g
-d''
 
 Double Scotch - Ly - C Standard.ly
 refrain
@@ -7289,11 +6219,6 @@ refrain
 f,
 g
 
-Douce Ambiance - Ly - Gm Standard for Viola.ly
-refrain
-f
-g'
-
 Douce Ambiance - Ly - Gm Standard.ly
 refrain
 f'
@@ -7315,11 +6240,6 @@ d'
 e''
 
 Down for Double - Ly - Bb Bass for Standard.ly
-refrain
-ees
-a'
-
-Down for Double - Ly - Bb Standard for Viola.ly
 refrain
 ees
 a'
@@ -7349,11 +6269,6 @@ refrain
 e,
 g
 
-Doxy - Ly - Bb Standard for Viola.ly
-refrain
-e
-g'
-
 Doxy - Ly - Bb Standard.ly
 refrain
 e'
@@ -7370,11 +6285,6 @@ cis'
 e''
 
 Dream - Ly - Bb Bass for Standard.ly
-refrain
-d
-d'
-
-Dream - Ly - Bb Standard for Viola.ly
 refrain
 d
 d'
@@ -7429,11 +6339,6 @@ refrain
 c
 e'
 
-Dream a Little Dream of Me - Ly - G Standard for Viola.ly
-refrain
-c
-e'
-
 Dream a Little Dream of Me - Ly - G Standard.ly
 refrain
 c'
@@ -7453,11 +6358,6 @@ Duff - Ly - Bb Bass for Standard.ly
 refrain
 f,
 d
-
-Duff - Ly - Bb Standard for Viola.ly
-refrain
-f
-d'
 
 Duff - Ly - Bb Standard.ly
 refrain
@@ -7488,11 +6388,6 @@ East of the Sun - Ly - C Bass for Standard.ly
 refrain
 e,
 g
-
-East of the Sun - Ly - C Standard for Viola.ly
-refrain
-e
-g'
 
 East of the Sun - Ly - C Standard.ly
 refrain
@@ -7549,11 +6444,6 @@ refrain
 b,
 d'
 
-East of the Sun - Ly - G Standard for Viola.ly
-refrain
-b
-d''
-
 East of the Sun - Ly - G Standard.ly
 refrain
 b
@@ -7570,11 +6460,6 @@ gis'
 b''
 
 East St Louis Toodle-Oo - Ly - Cm Bass for Standard.ly
-refrain
-c
-aes'
-
-East St Louis Toodle-Oo - Ly - Cm Standard for Viola.ly
 refrain
 c
 aes'
@@ -7605,11 +6490,6 @@ f
 bes'
 
 Easy Living - Ly - F Bass for Standard.ly
-refrain
-d
-g'
-
-Easy Living - Ly - F Standard for Viola.ly
 refrain
 d
 g'
@@ -7654,11 +6534,6 @@ refrain
 c
 ees'
 
-Easy Street - Ly - Eb Standard for Viola.ly
-refrain
-c
-ees'
-
 Easy Street - Ly - Eb Standard.ly
 refrain
 c'
@@ -7675,11 +6550,6 @@ d'
 f''
 
 Easy to Love - Ly - C Bass for Standard.ly
-refrain
-d
-a'
-
-Easy to Love - Ly - C Standard for Viola.ly
 refrain
 d
 a'
@@ -7719,11 +6589,6 @@ refrain
 a,
 fis'
 
-El Paso - Ly - D Standard for Viola.ly
-refrain
-a
-fis''
-
 El Paso - Ly - D Standard.ly
 refrain
 a
@@ -7743,11 +6608,6 @@ Elena's Bossa - Ly - Am Bass for Standard.ly
 refrain
 a,,
 f
-
-Elena's Bossa - Ly - Am Standard for Viola.ly
-refrain
-a
-f''
 
 Elena's Bossa - Ly - Am Standard.ly
 refrain
@@ -7784,11 +6644,6 @@ refrain
 d
 ees'
 
-Embraceable You - Ly - G Standard for Viola.ly
-refrain
-d
-ees'
-
 Embraceable You - Ly - G Standard.ly
 refrain
 d'
@@ -7808,11 +6663,6 @@ Emily - Ly - C Bass for Standard.ly
 refrain
 a,
 e'
-
-Emily - Ly - C Standard for Viola.ly
-refrain
-a
-e''
 
 Emily - Ly - C Standard.ly
 refrain
@@ -7839,11 +6689,6 @@ refrain
 cis
 e'
 
-Epistrophy - Ly - C Standard for Viola.ly
-refrain
-cis
-e'
-
 Epistrophy - Ly - C Standard.ly
 refrain
 cis'
@@ -7863,14 +6708,6 @@ Equinox - Ly - Cm Bass for Standard.ly
 refrain
 g,
 f'
-bassLine
-g,
-aes
-
-Equinox - Ly - Cm Standard for Viola.ly
-refrain
-g
-f''
 bassLine
 g,
 aes
@@ -7907,14 +6744,6 @@ bassLine
 gis,
 a
 
-Equinox - Ly - Csm Standard for Viola.ly
-refrain
-gis
-fis''
-bassLine
-gis,
-a
-
 Equinox - Ly - Csm Standard.ly
 refrain
 gis
@@ -7944,11 +6773,6 @@ refrain
 d
 ees'
 
-ESP - Ly - C Standard for Viola.ly
-refrain
-d
-ees'
-
 ESP - Ly - C Standard.ly
 refrain
 d'
@@ -7968,11 +6792,6 @@ Estate - Ly - Dm Bass for Standard.ly
 refrain
 a,
 d'
-
-Estate - Ly - Dm Standard for Viola.ly
-refrain
-a
-d''
 
 Estate - Ly - Dm Standard.ly
 refrain
@@ -7998,11 +6817,6 @@ Este Seu Olhar - Ly - F Bass for Standard.ly
 refrain
 gis,
 a
-
-Este Seu Olhar - Ly - F Standard for Viola.ly
-refrain
-gis
-a'
 
 Este Seu Olhar - Ly - F Standard.ly
 refrain
@@ -8034,11 +6848,6 @@ refrain
 d
 f'
 
-Ev'ry Time We Say Goodbye - Ly - Eb Standard for Viola.ly
-refrain
-d
-f'
-
 Ev'ry Time We Say Goodbye - Ly - Eb Standard.ly
 refrain
 d'
@@ -8065,11 +6874,6 @@ fis
 a'
 
 Everything Happens to Me - Ly - Bb Bass for Standard.ly
-refrain
-d
-ees'
-
-Everything Happens to Me - Ly - Bb Standard for Viola.ly
 refrain
 d
 ees'
@@ -8124,11 +6928,6 @@ refrain
 dis
 ees'
 
-Everything I've Got - Ly - Eb Standard for Viola.ly
-refrain
-dis
-ees'
-
 Everything I've Got - Ly - Eb Standard.ly
 refrain
 dis'
@@ -8178,11 +6977,6 @@ Exactly Like You - Ly - C Simple Chords.ly
 refrain
 c'
 g''
-
-Exactly Like You - Ly - C Standard for Viola.ly
-refrain
-c
-g'
 
 Exactly Like You - Ly - C Standard.ly
 refrain
@@ -8234,11 +7028,6 @@ refrain
 c
 f'
 
-Falling in Love With Love Swing - Ly - Bb Standard for Viola.ly
-refrain
-c
-f'
-
 Falling in Love With Love Swing - Ly - Bb Standard.ly
 refrain
 c'
@@ -8265,11 +7054,6 @@ g
 c''
 
 Falling in Love With Love Waltz - Ly - Bb Bass for Standard.ly
-refrain
-c
-f'
-
-Falling in Love With Love Waltz - Ly - Bb Standard for Viola.ly
 refrain
 c
 f'
@@ -8301,11 +7085,6 @@ refrain
 bes,,
 f
 
-Fascinating Rhythm - Ly - Eb Standard for Viola.ly
-refrain
-bes
-f''
-
 Fascinating Rhythm - Ly - Eb Standard.ly
 refrain
 bes
@@ -8331,11 +7110,6 @@ refrain
 e,
 c'
 
-Favela - Ly - Am Standard for Viola.ly
-refrain
-e
-c''
-
 Favela - Ly - Am Standard.ly
 refrain
 e'
@@ -8360,11 +7134,6 @@ Fee-Fi-Fo-Fum - Ly - C Bass for Standard.ly
 refrain
 a,
 bes
-
-Fee-Fi-Fo-Fum - Ly - C Standard for Viola.ly
-refrain
-a
-bes'
 
 Fee-Fi-Fo-Fum - Ly - C Standard.ly
 refrain
@@ -8396,11 +7165,6 @@ refrain
 a,
 e'
 
-Feeling Good - Ly - Dm Standard for Viola.ly
-refrain
-a
-e''
-
 Feeling Good - Ly - Dm Standard.ly
 refrain
 a
@@ -8427,14 +7191,6 @@ d
 a'
 
 Fever - Ly - Am Bass for Standard.ly
-intro
-e,,,
-e,,
-refrain
-g,
-b
-
-Fever - Ly - Am Standard for Viola.ly
 intro
 e,,,
 e,,
@@ -8471,11 +7227,6 @@ refrain
 b,
 d'
 
-Five Spot After Dark - Ly - Bm Standard for Viola.ly
-refrain
-b
-d''
-
 Five Spot After Dark - Ly - Bm Standard.ly
 refrain
 b
@@ -8497,11 +7248,6 @@ g
 e''
 
 Flamingo - Ly - F Bass for Standard.ly
-refrain
-c
-a'
-
-Flamingo - Ly - F Standard for Viola.ly
 refrain
 c
 a'
@@ -8532,11 +7278,6 @@ aes
 c''
 
 Fly Me to the Moon - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-Fly Me to the Moon - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -8586,11 +7327,6 @@ refrain
 g,
 bes
 
-Flying Home - Ly - Eb Standard for Viola.ly
-refrain
-g
-bes'
-
 Flying Home - Ly - Eb Standard.ly
 refrain
 g
@@ -8615,11 +7351,6 @@ Folsom Prison Blues - Ly - E Bass for Standard.ly
 refrain
 e,
 b
-
-Folsom Prison Blues - Ly - E Standard for Viola.ly
-refrain
-e
-b'
 
 Folsom Prison Blues - Ly - E Standard.ly
 refrain
@@ -8647,11 +7378,6 @@ a,
 cis'
 
 Fools Rush In - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-Fools Rush In - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -8686,11 +7412,6 @@ refrain
 g,
 ees'
 
-Footprints - Ly - Cm Standard for Viola.ly
-refrain
-g
-ees''
-
 Footprints - Ly - Cm Standard.ly
 refrain
 g
@@ -8720,11 +7441,6 @@ For All We Know - Ly - Eb Bass for Standard.ly
 refrain
 bes,
 d'
-
-For All We Know - Ly - Eb Standard for Viola.ly
-refrain
-bes
-d''
 
 For All We Know - Ly - Eb Standard.ly
 refrain
@@ -8766,11 +7482,6 @@ refrain
 c
 e'
 
-For Sentimental Reasons - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 For Sentimental Reasons - Ly - F Standard.ly
 refrain
 c'
@@ -8787,11 +7498,6 @@ d'
 ges''
 
 For Sephora - Ly - Em Bass for Standard.ly
-refrain
-cis
-d''
-
-For Sephora - Ly - Em Standard for Viola.ly
 refrain
 cis
 d''
@@ -8816,11 +7522,6 @@ refrain
 bes,
 ees'
 
-Four - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Four - Ly - Eb Standard.ly
 refrain
 bes
@@ -8840,11 +7541,6 @@ Freddie Freeloader - Ly - Bb Bass for Standard.ly
 refrain
 fis,
 c'
-
-Freddie Freeloader - Ly - Bb Standard for Viola.ly
-refrain
-fis
-c''
 
 Freddie Freeloader - Ly - Bb Standard.ly
 refrain
@@ -8868,32 +7564,27 @@ a''
 
 Friend of the Devil - Ly - D Alto Voice.ly
 refrain
-e
+a
 b'
 
 Friend of the Devil - Ly - G Bass for Standard.ly
 refrain
-a,
-e'
-
-Friend of the Devil - Ly - G Standard for Viola.ly
-refrain
-a,
+d
 e'
 
 Friend of the Devil - Ly - G Standard.ly
 refrain
-a
+d'
 e''
 
 Friend of the Devil - Ly - G to A for Bb for Standard.ly
 refrain
-b
+e'
 fis''
 
 Friend of the Devil - Ly - G to E for Eb for Standard.ly
 refrain
-fis
+b
 cis''
 
 Gaby Glide - Ly - F Bass Line for Standard.ly
@@ -8912,11 +7603,6 @@ a
 g'
 
 Gee Baby Ain't I Good to You - Ly - Eb Bass for Standard.ly
-refrain
-d
-c'
-
-Gee Baby Ain't I Good to You - Ly - Eb Standard for Viola.ly
 refrain
 d
 c'
@@ -8956,11 +7642,6 @@ refrain
 d
 e'
 
-Georgia on My Mind - Ly - F Standard for Viola.ly
-refrain
-d
-e'
-
 Georgia on My Mind - Ly - F Standard.ly
 refrain
 d'
@@ -8987,11 +7668,6 @@ f
 d''
 
 Get Happy - Ly - F Bass for Standard.ly
-refrain
-c
-a'
-
-Get Happy - Ly - F Standard for Viola.ly
 refrain
 c
 a'
@@ -9026,11 +7702,6 @@ refrain
 b,
 e'
 
-Ghost Riders in the Sky - Ly - Em Standard for Viola.ly
-refrain
-b
-e''
-
 Ghost Riders in the Sky - Ly - Em Standard.ly
 refrain
 b
@@ -9047,11 +7718,6 @@ cis'
 fis''
 
 Giant Steps - Ly - C Bass for Standard.ly
-refrain
-dis
-bes'
-
-Giant Steps - Ly - C Standard for Viola.ly
 refrain
 dis
 bes'
@@ -9103,14 +7769,6 @@ refrain
 ees
 ees'
 
-Give Me the Simple Life - Ly - Eb Standard for Viola.ly
-verse
-f
-d'
-refrain
-ees
-ees'
-
 Give Me the Simple Life - Ly - Eb Standard.ly
 verse
 f'
@@ -9150,11 +7808,6 @@ refrain
 bes,
 ees'
 
-God Bless the Child - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 God Bless the Child - Ly - Eb Standard.ly
 refrain
 bes
@@ -9180,11 +7833,6 @@ refrain
 e,
 f
 
-Gone With the Wind - Ly - Eb Standard for Viola.ly
-refrain
-e
-f'
-
 Gone With the Wind - Ly - Eb Standard.ly
 refrain
 e'
@@ -9209,11 +7857,6 @@ Good Bait - Ly - Bb Bass for Standard.ly
 refrain
 b,
 aes'
-
-Good Bait - Ly - Bb Standard for Viola.ly
-refrain
-b
-aes''
 
 Good Bait - Ly - Bb Standard.ly
 refrain
@@ -9250,11 +7893,6 @@ refrain
 c
 cis'
 
-Good Morning Heartache - Ly - F Standard for Viola.ly
-refrain
-c
-cis'
-
 Good Morning Heartache - Ly - F Standard.ly
 refrain
 c'
@@ -9276,11 +7914,6 @@ bes
 d''
 
 Goodbye - Ly - Cm Bass for Standard.ly
-refrain
-c
-e'
-
-Goodbye - Ly - Cm Standard for Viola.ly
 refrain
 c
 e'
@@ -9315,11 +7948,6 @@ refrain
 bes,
 ees'
 
-Goodbye Pork Pie Hat - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Goodbye Pork Pie Hat - Ly - Eb Standard.ly
 refrain
 bes
@@ -9342,17 +7970,6 @@ d'
 refrain
 a,,
 d'
-outro
-d
-d'
-
-Greensleeves Coltrane - Ly - Dm Standard for Viola.ly
-intro
-d
-d'
-refrain
-a,
-d''
 outro
 d
 d'
@@ -9395,11 +8012,6 @@ refrain
 c
 f'
 
-Groovin' High - Ly - Eb Standard for Viola.ly
-refrain
-c
-f'
-
 Groovin' High - Ly - Eb Standard.ly
 refrain
 c'
@@ -9416,11 +8028,6 @@ d'
 g''
 
 Half Nelson - Ly - C Bass for Standard.ly
-refrain
-cis
-d'
-
-Half Nelson - Ly - C Standard for Viola.ly
 refrain
 cis
 d'
@@ -9465,11 +8072,6 @@ refrain
 c
 d'
 
-Hallelujah I Love Him (Her) So - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Hallelujah I Love Him (Her) So - Ly - F Standard.ly
 refrain
 c'
@@ -9489,10 +8091,6 @@ Hard to Thrill - Ly - Am Bass for Standard.ly
 refrain
 none
 
-Hard to Thrill - Ly - Am Standard for Viola.ly
-refrain
-none
-
 Hard to Thrill - Ly - Am Standard.ly
 refrain
 none
@@ -9509,11 +8107,6 @@ Harlem Nocturne - Ly - Gm Bass for Standard.ly
 refrain
 g,
 f'
-
-Harlem Nocturne - Ly - Gm Standard for Viola.ly
-refrain
-g
-f''
 
 Harlem Nocturne - Ly - Gm Standard.ly
 refrain
@@ -9545,11 +8138,6 @@ refrain
 c
 e'
 
-Have You Met Miss Jones - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 Have You Met Miss Jones - Ly - F Standard.ly
 refrain
 c'
@@ -9566,11 +8154,6 @@ d'
 fis''
 
 Have Yourself a Merry Little Christmas - Ly - Bb Bass for Standard.ly
-refrain
-bes,
-ees'
-
-Have Yourself a Merry Little Christmas - Ly - Bb Standard for Viola.ly
 refrain
 bes,
 ees'
@@ -9635,11 +8218,6 @@ refrain
 c,
 d'
 
-Hawaii Five-O Theme - Ly - Cm Standard for Viola.ly
-refrain
-c
-d''
-
 Hawaii Five-O Theme - Ly - Cm Standard.ly
 refrain
 c'
@@ -9690,11 +8268,6 @@ refrain
 bes,
 ees'
 
-He'll Have to Go - Ly - F Standard for Viola.ly
-refrain
-bes,
-ees'
-
 He'll Have to Go - Ly - F Standard.ly
 refrain
 bes
@@ -9720,11 +8293,6 @@ refrain
 c
 d'
 
-Heart and Soul - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Heart and Soul - Ly - F Standard.ly
 refrain
 c'
@@ -9746,11 +8314,6 @@ cis
 d'
 
 Heartaches by the Number - Ly - Bb Bass for Standard.ly
-refrain
-d
-ees'
-
-Heartaches by the Number - Ly - Bb Standard for Viola.ly
 refrain
 d
 ees'
@@ -9805,11 +8368,6 @@ refrain
 c
 e'
 
-Hello Trouble - Ly - C Standard for Viola.ly
-refrain
-c
-e'
-
 Hello Trouble - Ly - C Standard.ly
 refrain
 c'
@@ -9840,11 +8398,6 @@ refrain
 g,
 d'
 
-Hello Walls - Ly - C Standard for Viola.ly
-refrain
-g
-d''
-
 Hello Walls - Ly - C Standard.ly
 refrain
 g
@@ -9870,11 +8423,6 @@ refrain
 d
 f'
 
-Help the Poor - Ly - Dm Standard for Viola.ly
-refrain
-d
-f'
-
 Help the Poor - Ly - Dm Standard.ly
 refrain
 d'
@@ -9892,43 +8440,38 @@ g''
 
 Here Comes the Bride - Ly - Bb Bass for Standard.ly
 refrain
+f,,
 f,
-f
-
-Here Comes the Bride - Ly - Bb Standard for Viola.ly
-refrain
-f
-f'
 
 Here Comes the Bride - Ly - Bb Standard.ly
 refrain
+f
 f'
-f''
 
 Here Comes the Bride - Ly - Bb to C for Bb for Standard.ly
 refrain
+g
 g'
-g''
 
 Here Comes the Bride - Ly - Bb to G for Eb for Standard.ly
 refrain
+d'
 d''
-d'''
 
 Here Comes the Bride - Ly - Eb Alto Voice.ly
-refrain
-bes
-bes'
-
-Here Comes the Bride - Ly - Eb Bass for Alto Voice.ly
 refrain
 bes,
 bes
 
+Here Comes the Bride - Ly - Eb Bass for Alto Voice.ly
+refrain
+bes,,
+bes,
+
 Here Comes the Bride - Ly - Eb to F for Bb for Alto Voice.ly
 refrain
+c
 c'
-c''
 
 Here's That Rainy Day - Ly - Bb Alto Voice.ly
 refrain
@@ -9936,11 +8479,6 @@ f
 g'
 
 Here's That Rainy Day - Ly - G Bass for Standard.ly
-refrain
-d
-e'
-
-Here's That Rainy Day - Ly - G Standard for Viola.ly
 refrain
 d
 e'
@@ -9969,11 +8507,6 @@ Hickory Wind - Ly - F Bass for Standard.ly
 refrain
 bes,
 d'
-
-Hickory Wind - Ly - F Standard for Viola.ly
-refrain
-bes
-d''
 
 Hickory Wind - Ly - F Standard.ly
 refrain
@@ -10006,11 +8539,6 @@ g
 c''
 
 Hit That Jive Jack - Ly - F Bass for Standard.ly
-refrain
-c
-f'
-
-Hit That Jive Jack - Ly - F Standard for Viola.ly
 refrain
 c
 f'
@@ -10055,11 +8583,6 @@ refrain
 d,
 f
 
-Home When Shadows Fall - Ly - F Standard for Viola.ly
-refrain
-d
-f'
-
 Home When Shadows Fall - Ly - F Standard.ly
 refrain
 d'
@@ -10086,11 +8609,6 @@ bes
 b'
 
 Honeysuckle Rose - Ly - F Bass for Standard.ly
-refrain
-d
-ees'
-
-Honeysuckle Rose - Ly - F Standard for Viola.ly
 refrain
 d
 ees'
@@ -10125,11 +8643,6 @@ refrain
 c
 a'
 
-Hot House - Ly - C Standard for Viola.ly
-refrain
-c
-a'
-
 Hot House - Ly - C Standard.ly
 refrain
 c'
@@ -10149,11 +8662,6 @@ How About You - Ly - G Bass for Standard.ly
 refrain
 e,
 e
-
-How About You - Ly - G Standard for Viola.ly
-refrain
-e
-e'
 
 How About You - Ly - G Standard.ly
 refrain
@@ -10186,11 +8694,6 @@ b
 c''
 
 How Deep Is the Ocean - Ly - Eb Bass for Standard.ly
-refrain
-d
-ees'
-
-How Deep Is the Ocean - Ly - Eb Standard for Viola.ly
 refrain
 d
 ees'
@@ -10245,11 +8748,6 @@ refrain
 c
 d'
 
-How High the Moon - Ly - G Standard for Viola.ly
-refrain
-c
-d'
-
 How High the Moon - Ly - G Standard.ly
 refrain
 c'
@@ -10281,11 +8779,6 @@ b
 a'
 
 How Insensitive - Ly - Dm Bass for Standard.ly
-refrain
-d
-c'
-
-How Insensitive - Ly - Dm Standard for Viola.ly
 refrain
 d
 c'
@@ -10330,11 +8823,6 @@ refrain
 d
 e'
 
-How Long Has This Been Going On - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 How Long Has This Been Going On - Ly - G Standard.ly
 refrain
 d'
@@ -10375,11 +8863,6 @@ refrain
 c,
 f
 
-Husbands and Wives - Ly - F Standard for Viola.ly
-refrain
-c
-f'
-
 Husbands and Wives - Ly - F Standard.ly
 refrain
 c'
@@ -10405,11 +8888,6 @@ refrain
 d
 a'
 
-Hymn to Freedom - Ly - F Standard for Viola.ly
-refrain
-d
-a'
-
 Hymn to Freedom - Ly - F Standard.ly
 refrain
 d'
@@ -10431,11 +8909,6 @@ e
 b'
 
 I Ain't Gonna Give Nobody None O' This Jelly Roll - Ly - Bb Bass for Standard.ly
-refrain
-f
-d'
-
-I Ain't Gonna Give Nobody None O' This Jelly Roll - Ly - Bb Standard for Viola.ly
 refrain
 f
 d'
@@ -10466,11 +8939,6 @@ c
 a
 
 I Can't Believe That You're in Love With Me - Ly - C Bass for Standard.ly
-refrain
-d
-e'
-
-I Can't Believe That You're in Love With Me - Ly - C Standard for Viola.ly
 refrain
 d
 e'
@@ -10506,11 +8974,6 @@ aes
 des''
 
 I Can't Get Started - Ly - C Bass for Standard.ly
-refrain
-c
-f'
-
-I Can't Get Started - Ly - C Standard for Viola.ly
 refrain
 c
 f'
@@ -10575,22 +9038,12 @@ refrain
 b
 c''
 
-I Can't Give You Anything but Love - Ly - F Standard for Viola.ly
-refrain
-cis
-d'
-
 I Can't Give You Anything but Love - Ly - F Standard.ly
 refrain
 cis'
 d''
 
 I Can't Give You Anything but Love - Ly - G Bass for Standard.ly
-refrain
-dis
-e'
-
-I Can't Give You Anything but Love - Ly - G Standard for Viola.ly
 refrain
 dis
 e'
@@ -10616,11 +9069,6 @@ b,
 dis'
 
 I Can't Stop Loving You - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-I Can't Stop Loving You - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -10680,11 +9128,6 @@ refrain
 bes,
 ees'
 
-I Concentrate on You - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 I Concentrate on You - Ly - Eb Standard.ly
 refrain
 bes
@@ -10701,11 +9144,6 @@ c'
 f''
 
 I Could Write a Book - Ly - C Bass for Standard.ly
-refrain
-d
-d'
-
-I Could Write a Book - Ly - C Standard for Viola.ly
 refrain
 d
 d'
@@ -10780,11 +9218,6 @@ refrain
 d
 e'
 
-I Cover the Waterfront - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 I Cover the Waterfront - Ly - G Standard.ly
 refrain
 d'
@@ -10821,11 +9254,6 @@ g
 b'
 
 I Cried for You - Ly - F Bass for Standard.ly
-refrain
-c
-e'
-
-I Cried for You - Ly - F Standard for Viola.ly
 refrain
 c
 e'
@@ -10901,14 +9329,6 @@ refrain
 d
 e'
 
-I Didn't Know What Time It Was - Ly - G Standard for Viola.ly
-verse
-dis
-d'
-refrain
-d
-e'
-
 I Didn't Know What Time It Was - Ly - G Standard.ly
 verse
 dis'
@@ -10958,11 +9378,6 @@ refrain
 b,
 d'
 
-I Don't Know Enough About You - Ly - F Standard for Viola.ly
-refrain
-b
-d''
-
 I Don't Know Enough About You - Ly - F Standard.ly
 refrain
 b
@@ -10984,11 +9399,6 @@ f
 a'
 
 I Don't Want to Set the World on Fire - Ly - F Bass for Standard.ly
-refrain
-c
-e'
-
-I Don't Want to Set the World on Fire - Ly - F Standard for Viola.ly
 refrain
 c
 e'
@@ -11056,14 +9466,6 @@ refrain
 c
 ees'
 
-I Fall In Love Too Easily - Ly - Eb Standard for Viola.ly
-verse
-cis
-bes
-refrain
-c
-ees'
-
 I Fall In Love Too Easily - Ly - Eb Standard.ly
 verse
 cis'
@@ -11089,11 +9491,6 @@ d'
 f''
 
 I Found a Million Dollar Baby - Ly - F Bass for Standard.ly
-refrain
-c
-e'
-
-I Found a Million Dollar Baby - Ly - F Standard for Viola.ly
 refrain
 c
 e'
@@ -11128,11 +9525,6 @@ refrain
 c
 f'
 
-I Get a Kick Out of You - Ly - Eb Standard for Viola.ly
-refrain
-c
-f'
-
 I Get a Kick Out of You - Ly - Eb Standard.ly
 refrain
 c'
@@ -11152,11 +9544,6 @@ I Get Along Without You Very Well - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 d'
-
-I Get Along Without You Very Well - Ly - Bb Standard for Viola.ly
-refrain
-bes
-d''
 
 I Get Along Without You Very Well - Ly - Bb Standard.ly
 refrain
@@ -11208,11 +9595,6 @@ refrain
 d
 e'
 
-I Get the Blues When It Rains - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 I Get the Blues When It Rains - Ly - G Standard.ly
 refrain
 d'
@@ -11243,11 +9625,6 @@ refrain
 cis
 fis'
 
-I Got It Bad and That Ain't Good - Ly - G Standard for Viola.ly
-refrain
-cis
-fis'
-
 I Got It Bad and That Ain't Good - Ly - G Standard.ly
 refrain
 cis'
@@ -11264,11 +9641,6 @@ ais
 dis''
 
 I Got Rhythm - Ly - Bb Bass for Standard.ly
-refrain
-f
-e'
-
-I Got Rhythm - Ly - Bb Standard for Viola.ly
 refrain
 f
 e'
@@ -11312,11 +9684,6 @@ I Guess I'll Hang My Tears Out to Dry - Ly - C Bass for Standard.ly
 refrain
 b,
 d'
-
-I Guess I'll Hang My Tears Out to Dry - Ly - C Standard for Viola.ly
-refrain
-b
-d''
 
 I Guess I'll Hang My Tears Out to Dry - Ly - C Standard.ly
 refrain
@@ -11362,14 +9729,6 @@ bes
 c''
 
 I Had the Craziest Dream - Ly - C Bass for Standard.ly
-verse
-d
-d'
-refrain
-d
-e'
-
-I Had the Craziest Dream - Ly - C Standard for Viola.ly
 verse
 d
 d'
@@ -11427,11 +9786,6 @@ refrain
 c
 ees'
 
-I Hear a Rhapsody - Ly - Eb Standard for Viola.ly
-refrain
-c
-ees'
-
 I Hear a Rhapsody - Ly - Eb Standard.ly
 refrain
 c'
@@ -11451,11 +9805,6 @@ I Just Found Out About Love - Ly - Ab Bass for Standard.ly
 refrain
 bes,
 ees'
-
-I Just Found Out About Love - Ly - Ab Standard for Viola.ly
-refrain
-bes
-ees''
 
 I Just Found Out About Love - Ly - Ab Standard.ly
 refrain
@@ -11483,11 +9832,6 @@ f
 bes'
 
 I Know That You Know - Ly - Eb Bass for Standard.ly
-refrain
-ees
-g'
-
-I Know That You Know - Ly - Eb Standard for Viola.ly
 refrain
 ees
 g'
@@ -11537,11 +9881,6 @@ refrain
 d
 ees'
 
-I Let a Song Go Out of My Heart - Ly - Eb Standard for Viola.ly
-refrain
-d
-ees'
-
 I Let a Song Go Out of My Heart - Ly - Eb Standard.ly
 refrain
 d'
@@ -11577,11 +9916,6 @@ refrain
 bes,
 f'
 
-I Love You - Ly - F Standard for Viola.ly
-refrain
-bes
-f''
-
 I Love You - Ly - F Standard.ly
 refrain
 bes
@@ -11598,11 +9932,6 @@ c'
 g''
 
 I Only Have Eyes for You - Ly - C Bass for Standard.ly
-refrain
-d
-f'
-
-I Only Have Eyes for You - Ly - C Standard for Viola.ly
 refrain
 d
 f'
@@ -11628,11 +9957,6 @@ a
 c''
 
 I Remember Clifford - Ly - Eb Bass for Standard.ly
-refrain
-c
-f'
-
-I Remember Clifford - Ly - Eb Standard for Viola.ly
 refrain
 c
 f'
@@ -11684,14 +10008,6 @@ refrain
 bes,
 c'
 
-I Remember You - Ly - F Standard for Viola.ly
-verse
-d
-c'
-refrain
-bes,
-c'
-
 I Remember You - Ly - F Standard.ly
 verse
 d'
@@ -11724,14 +10040,6 @@ refrain
 c
 d'
 
-I Remember You - Ly - G Standard for Viola.ly
-verse
-e
-d'
-refrain
-c
-d'
-
 I Remember You - Ly - G Standard.ly
 verse
 e'
@@ -11757,11 +10065,6 @@ a
 b'
 
 I Shot the Sheriff - Ly - Gm Bass for Standard.ly
-refrain
-g,
-d'
-
-I Shot the Sheriff - Ly - Gm Standard for Viola.ly
 refrain
 g,
 d'
@@ -11801,11 +10104,6 @@ refrain
 c
 d'
 
-I Should Care - Ly - C Standard for Viola.ly
-refrain
-c
-d'
-
 I Should Care - Ly - C Standard.ly
 refrain
 c'
@@ -11832,11 +10130,6 @@ g
 a'
 
 I Surrender Dear - Ly - C Bass for Standard.ly
-refrain
-d
-e'
-
-I Surrender Dear - Ly - C Standard for Viola.ly
 refrain
 d
 e'
@@ -11870,11 +10163,6 @@ I Think I'll Just Stay Here and Drink - Ly - A Bass for Standard.ly
 refrain
 a,
 cis'
-
-I Think I'll Just Stay Here and Drink - Ly - A Standard for Viola.ly
-refrain
-a
-cis''
 
 I Think I'll Just Stay Here and Drink - Ly - A Standard.ly
 refrain
@@ -11947,14 +10235,6 @@ refrain
 d
 g'
 
-I Thought About You - Ly - F Standard for Viola.ly
-verse
-e
-e'
-refrain
-d
-g'
-
 I Thought About You - Ly - F Standard.ly
 verse
 e'
@@ -11997,11 +10277,6 @@ refrain
 d
 d'
 
-I Want to Be Happy - Ly - C Standard for Viola.ly
-refrain
-d
-d'
-
 I Want to Be Happy - Ly - C Standard.ly
 refrain
 d'
@@ -12026,11 +10301,6 @@ I Will Wait for You - Ly - Dm Bass for Standard.ly
 refrain
 a,
 d'
-
-I Will Wait for You - Ly - Dm Standard for Viola.ly
-refrain
-a
-d''
 
 I Will Wait for You - Ly - Dm Standard.ly
 refrain
@@ -12077,11 +10347,6 @@ refrain
 cis'
 e''
 
-I Wish I Knew - Ly - G Standard for Viola.ly
-refrain
-cis
-e'
-
 I Wish I Knew - Ly - G Standard.ly
 refrain
 cis'
@@ -12107,11 +10372,6 @@ refrain
 c
 d'
 
-I Wish I Knew How It Would Feel to Be Free - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 I Wish I Knew How It Would Feel to Be Free - Ly - F Standard.ly
 refrain
 c'
@@ -12131,11 +10391,6 @@ I Wish I Were Twins - Ly - C Bass for Standard.ly
 refrain
 b,
 d'
-
-I Wish I Were Twins - Ly - C Standard for Viola.ly
-refrain
-b
-d''
 
 I Wish I Were Twins - Ly - C Standard.ly
 refrain
@@ -12172,11 +10427,6 @@ refrain
 c
 c'
 
-I Wish You Love - Ly - Eb Standard for Viola.ly
-refrain
-c
-c'
-
 I Wish You Love - Ly - Eb Standard.ly
 refrain
 c'
@@ -12198,11 +10448,6 @@ e
 e'
 
 I Wished on the Moon - Ly - Bb Bass for Standard.ly
-refrain
-c
-e'
-
-I Wished on the Moon - Ly - Bb Standard for Viola.ly
 refrain
 c
 e'
@@ -12257,11 +10502,6 @@ refrain
 c
 e'
 
-I'll Be Around - Ly - C Standard for Viola.ly
-refrain
-c
-e'
-
 I'll Be Around - Ly - C Standard.ly
 refrain
 c'
@@ -12298,11 +10538,6 @@ c
 d'
 
 I'll Be Home for Christmas - Ly - C Bass for Standard.ly
-refrain
-d
-e'
-
-I'll Be Home for Christmas - Ly - C Standard for Viola.ly
 refrain
 d
 e'
@@ -12352,11 +10587,6 @@ refrain
 c
 d'
 
-I'll Never Be the Same - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 I'll Never Be the Same - Ly - F Standard.ly
 refrain
 c'
@@ -12383,11 +10613,6 @@ a,
 c'
 
 I'll Never Smile Again - Ly - Eb Bass for Standard.ly
-refrain
-c
-ees'
-
-I'll Never Smile Again - Ly - Eb Standard for Viola.ly
 refrain
 c
 ees'
@@ -12442,11 +10667,6 @@ refrain
 e,
 e
 
-I'll Remember April - Ly - G Standard for Viola.ly
-refrain
-e
-e'
-
 I'll Remember April - Ly - G Standard.ly
 refrain
 e'
@@ -12468,11 +10688,6 @@ a
 b'
 
 I'll See You in My Dreams - Ly - F Bass for Standard.ly
-refrain
-d
-e'
-
-I'll See You in My Dreams - Ly - F Standard for Viola.ly
 refrain
 d
 e'
@@ -12502,11 +10717,6 @@ refrain
 d
 ees'
 
-I'll Take Romance Swing - Ly - F Standard for Viola.ly
-refrain
-d
-ees'
-
 I'll Take Romance Swing - Ly - F Standard.ly
 refrain
 d'
@@ -12528,11 +10738,6 @@ g
 aes'
 
 I'll Take Romance Waltz - Ly - F Bass for Standard.ly
-refrain
-d
-ees'
-
-I'll Take Romance Waltz - Ly - F Standard for Viola.ly
 refrain
 d
 ees'
@@ -12572,11 +10777,6 @@ refrain
 bes,
 e'
 
-I'm a Fool to Want You - Ly - Em Standard for Viola.ly
-refrain
-bes
-e''
-
 I'm a Fool to Want You - Ly - Em Standard.ly
 refrain
 bes
@@ -12612,11 +10812,6 @@ refrain
 c
 d'
 
-I'm a Lonesome Fugitive - Ly - G Standard for Viola.ly
-refrain
-c
-d'
-
 I'm a Lonesome Fugitive - Ly - G Standard.ly
 refrain
 c'
@@ -12647,11 +10842,6 @@ refrain
 c
 c'
 
-I'm an Old Cowhand - Ly - C Standard for Viola.ly
-refrain
-c
-c'
-
 I'm an Old Cowhand - Ly - C Standard.ly
 refrain
 c'
@@ -12668,11 +10858,6 @@ d'
 d''
 
 I'm an Old Cowhand - Ly - Eb Bass for Standard.ly
-refrain
-ees
-ees'
-
-I'm an Old Cowhand - Ly - Eb Standard for Viola.ly
 refrain
 ees
 ees'
@@ -12717,11 +10902,6 @@ refrain
 cis
 d'
 
-I'm Beginning to See the Light - Ly - G Standard for Viola.ly
-refrain
-cis
-d'
-
 I'm Beginning to See the Light - Ly - G Standard.ly
 refrain
 cis'
@@ -12743,11 +10923,6 @@ g
 a'
 
 I'm Confessin' - Ly - G Bass for Standard.ly
-refrain
-d
-e'
-
-I'm Confessin' - Ly - G Standard for Viola.ly
 refrain
 d
 e'
@@ -12776,11 +10951,6 @@ I'm Getting Sentimental Over You - Ly - F Bass for Standard.ly
 refrain
 bes,
 e'
-
-I'm Getting Sentimental Over You - Ly - F Standard for Viola.ly
-refrain
-bes
-e''
 
 I'm Getting Sentimental Over You - Ly - F Standard.ly
 refrain
@@ -12817,11 +10987,6 @@ refrain
 d
 f'
 
-I'm Glad There Is You - Ly - F Standard for Viola.ly
-refrain
-d
-f'
-
 I'm Glad There Is You - Ly - F Standard.ly
 refrain
 d'
@@ -12838,11 +11003,6 @@ e'
 g''
 
 I'm Gonna Sit Right Down and Write Myself a Letter - Ly - C Bass for Standard.ly
-refrain
-dis
-e'
-
-I'm Gonna Sit Right Down and Write Myself a Letter - Ly - C Standard for Viola.ly
 refrain
 dis
 e'
@@ -12876,11 +11036,6 @@ I'm in the Mood for Love - Ly - C Bass for Standard.ly
 refrain
 b,
 d'
-
-I'm in the Mood for Love - Ly - C Standard for Viola.ly
-refrain
-b
-d''
 
 I'm in the Mood for Love - Ly - C Standard.ly
 refrain
@@ -12932,11 +11087,6 @@ refrain
 a,
 d'
 
-I'm Old Fashioned - Ly - F Standard for Viola.ly
-refrain
-a
-d''
-
 I'm Old Fashioned - Ly - F Standard.ly
 refrain
 a
@@ -12952,7 +11102,7 @@ refrain
 b
 e''
 
-I've Enjoyed as Much of This as I Can Stand - G Bass Line for Standard.ly
+I've Enjoyed as Much of This as I Can Stand - Ly - G Bass Line for Standard.ly
 refrain
 g,
 g
@@ -12963,11 +11113,6 @@ bes
 c''
 
 I've Found a New Baby - Ly - F Bass for Standard.ly
-refrain
-f
-g'
-
-I've Found a New Baby - Ly - F Standard for Viola.ly
 refrain
 f
 g'
@@ -13001,11 +11146,6 @@ I've Got My Love to Keep Me Warm - Ly - Eb Bass for Standard.ly
 refrain
 bes,
 ees'
-
-I've Got My Love to Keep Me Warm - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
 
 I've Got My Love to Keep Me Warm - Ly - Eb Standard.ly
 refrain
@@ -13052,11 +11192,6 @@ refrain
 c
 f'
 
-I've Got the World on a String - Ly - F Standard for Viola.ly
-refrain
-c
-f'
-
 I've Got the World on a String - Ly - F Standard.ly
 refrain
 c'
@@ -13082,11 +11217,6 @@ refrain
 bes,
 f'
 
-I've Got You Under My Skin - Ly - Eb Standard for Viola.ly
-refrain
-bes
-f''
-
 I've Got You Under My Skin - Ly - Eb Standard.ly
 refrain
 bes
@@ -13111,11 +11241,6 @@ I've Never Been in Love Before - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 ees'
-
-I've Never Been in Love Before - Ly - Bb Standard for Viola.ly
-refrain
-bes
-ees''
 
 I've Never Been in Love Before - Ly - Bb Standard.ly
 refrain
@@ -13152,11 +11277,6 @@ refrain
 ees,
 g
 
-If I Could Be With You - Ly - Eb Standard for Viola.ly
-refrain
-ees
-g'
-
 If I Could Be With You - Ly - Eb Standard.ly
 refrain
 ees'
@@ -13183,11 +11303,6 @@ g
 b'
 
 If I Had You - Ly - Bb Bass for Standard.ly
-refrain
-d
-e'
-
-If I Had You - Ly - Bb Standard for Viola.ly
 refrain
 d
 e'
@@ -13242,22 +11357,12 @@ refrain
 a,
 cis'
 
-If I Only Had a Brain - Ly - Eb Standard for Viola.ly
-refrain
-bes
-d''
-
 If I Only Had a Brain - Ly - Eb Standard.ly
 refrain
 bes
 d''
 
 If I Only Had a Brain - Ly - F Bass for Standard.ly
-refrain
-c
-e'
-
-If I Only Had a Brain - Ly - F Standard for Viola.ly
 refrain
 c
 e'
@@ -13281,11 +11386,6 @@ If I Should Lose You - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 d'
-
-If I Should Lose You - Ly - Bb Standard for Viola.ly
-refrain
-bes
-d''
 
 If I Should Lose You - Ly - Bb Standard.ly
 refrain
@@ -13322,11 +11422,6 @@ refrain
 c
 e'
 
-If I Were a Bell - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 If I Were a Bell - Ly - F Standard.ly
 refrain
 c'
@@ -13346,11 +11441,6 @@ If It Hadn't Been for Love - Ly - Am Bass for Standard.ly
 refrain
 g,
 g
-
-If It Hadn't Been for Love - Ly - Am Standard for Viola.ly
-refrain
-g
-g'
 
 If It Hadn't Been for Love - Ly - Am Standard.ly
 refrain
@@ -13387,11 +11477,6 @@ refrain
 d
 f'
 
-If You Could See Me Now - Ly - Eb Standard for Viola.ly
-refrain
-d
-f'
-
 If You Could See Me Now - Ly - Eb Standard.ly
 refrain
 d'
@@ -13413,11 +11498,6 @@ fis
 a'
 
 Ill Wind - Ly - Bb Bass for Standard.ly
-refrain
-d
-f'
-
-Ill Wind - Ly - Bb Standard for Viola.ly
 refrain
 d
 f'
@@ -13462,11 +11542,6 @@ refrain
 c
 d'
 
-Im Left Youre Right Shes Gone - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Im Left Youre Right Shes Gone - Ly - F Standard.ly
 refrain
 c'
@@ -13502,11 +11577,6 @@ refrain
 d
 ees'
 
-Imagination - Ly - Eb Standard for Viola.ly
-refrain
-d
-ees'
-
 Imagination - Ly - Eb Standard.ly
 refrain
 d'
@@ -13527,11 +11597,6 @@ refrain
 fis,
 g
 
-Imagination - Ly - G Standard for Viola.ly
-refrain
-fis
-g'
-
 Imagination - Ly - G Standard.ly
 refrain
 fis'
@@ -13551,11 +11616,6 @@ Impressions - Ly - Dm Bass for Standard.ly
 refrain
 d,
 c'
-
-Impressions - Ly - Dm Standard for Viola.ly
-refrain
-d
-c''
 
 Impressions - Ly - Dm Standard.ly
 refrain
@@ -13578,11 +11638,6 @@ e
 d''
 
 In a Mellow Tone - Ly - Ab Bass for Standard.ly
-refrain
-ees
-f'
-
-In a Mellow Tone - Ly - Ab Standard for Viola.ly
 refrain
 ees
 f'
@@ -13616,11 +11671,6 @@ In a Sentimental Mood - Ly - F Bass for Standard.ly
 refrain
 c,
 aes
-
-In a Sentimental Mood - Ly - F Standard for Viola.ly
-refrain
-c
-aes'
 
 In a Sentimental Mood - Ly - F Standard.ly
 refrain
@@ -13672,11 +11722,6 @@ refrain
 bes,
 ees'
 
-In Love In Vain - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 In Love In Vain - Ly - Eb Standard.ly
 refrain
 bes
@@ -13703,11 +11748,6 @@ g
 c''
 
 In the Still of the Night - Ly - F Bass for Standard.ly
-refrain
-c
-f'
-
-In the Still of the Night - Ly - F Standard for Viola.ly
 refrain
 c
 f'
@@ -13747,11 +11787,6 @@ refrain
 b,
 d'
 
-In the Wee Small Hours of the Morning - Ly - C Standard for Viola.ly
-refrain
-b
-d''
-
 In the Wee Small Hours of the Morning - Ly - C Standard.ly
 refrain
 b
@@ -13782,11 +11817,6 @@ refrain
 aes,
 c'
 
-In Walked Bud - Ly - Fm Standard for Viola.ly
-refrain
-aes
-c''
-
 In Walked Bud - Ly - Fm Standard.ly
 refrain
 aes
@@ -13802,11 +11832,6 @@ refrain
 bes
 d''
 
-In Your Own Sweet Way - Ly - Bb Standard for Viola.ly
-refrain
-c
-d'
-
 In Your Own Sweet Way - Ly - Bb Standard.ly
 refrain
 c'
@@ -13816,11 +11841,6 @@ In Your Own Sweet Way - Ly - Eb Bass for Standard.ly
 refrain
 f,
 g
-
-In Your Own Sweet Way - Ly - Eb Standard for Viola.ly
-refrain
-f
-g'
 
 In Your Own Sweet Way - Ly - Eb Standard.ly
 refrain
@@ -13847,11 +11867,6 @@ refrain
 c
 d'
 
-Indiana - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Indiana - Ly - F Standard.ly
 refrain
 c'
@@ -13871,11 +11886,6 @@ Inner Urge - Ly - C Bass for Standard.ly
 refrain
 a,
 dis''
-
-Inner Urge - Ly - C Standard for Viola.ly
-refrain
-a
-dis'''
 
 Inner Urge - Ly - C Standard.ly
 refrain
@@ -13932,14 +11942,6 @@ refrain
 c
 d'
 
-Innocent When You Dream - Ly - F Standard for Viola.ly
-intro
-f
-f''
-refrain
-c
-d'
-
 Innocent When You Dream - Ly - F Standard.ly
 intro
 f'
@@ -13969,11 +11971,6 @@ refrain
 c
 f'
 
-Invitation - Ly - Cm Standard for Viola.ly
-refrain
-c
-f'
-
 Invitation - Ly - Cm Standard.ly
 refrain
 c'
@@ -13998,11 +11995,6 @@ Is Anybody Goin' to San Antone - Ly - D Baritone Voice.ly
 refrain
 a,
 b
-
-Is Anybody Goin' to San Antone - Ly - F Standard for Viola.ly
-refrain
-c
-d'
 
 Is Anybody Goin' to San Antone - Ly - F Standard.ly
 refrain
@@ -14049,14 +12041,6 @@ refrain
 ees,
 c
 
-Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm Standard for Viola.ly
-verse
-c
-c'
-refrain
-ees
-c'
-
 Is You Is or Is You Ain't (Ma' Baby) - Ly - Fm Standard.ly
 verse
 c'
@@ -14086,11 +12070,6 @@ refrain
 gis,
 ees'
 
-Isfahan - Ly - Db Standard for Viola.ly
-refrain
-gis
-ees''
-
 Isfahan - Ly - Db Standard.ly
 refrain
 gis
@@ -14116,11 +12095,6 @@ refrain
 g,
 c'
 
-Isn't It Romantic - Ly - Bb Standard for Viola.ly
-refrain
-g
-c''
-
 Isn't It Romantic - Ly - Bb Standard.ly
 refrain
 g'
@@ -14137,11 +12111,6 @@ e'
 a''
 
 Isn't It Romantic - Ly - Eb Bass for Standard.ly
-refrain
-c
-f'
-
-Isn't It Romantic - Ly - Eb Standard for Viola.ly
 refrain
 c
 f'
@@ -14172,11 +12141,6 @@ f
 c''
 
 It Ain't Necessarily So - Ly - Gm Bass for Standard.ly
-refrain
-c
-g'
-
-It Ain't Necessarily So - Ly - Gm Standard for Viola.ly
 refrain
 c
 g'
@@ -14226,11 +12190,6 @@ refrain
 c
 c'
 
-It Could Happen to You - Ly - F Standard for Viola.ly
-refrain
-c
-c'
-
 It Could Happen to You - Ly - F Standard.ly
 refrain
 c'
@@ -14250,11 +12209,6 @@ It Don't Mean a Thing - Ly - Bb Bass for Standard.ly
 refrain
 f,
 d
-
-It Don't Mean a Thing - Ly - Bb Standard for Viola.ly
-refrain
-f
-d'
 
 It Don't Mean a Thing - Ly - Bb Standard.ly
 refrain
@@ -14287,11 +12241,6 @@ g
 a'
 
 It Had to Be You - Ly - G Bass for Standard.ly
-refrain
-d
-e'
-
-It Had to Be You - Ly - G Standard for Viola.ly
 refrain
 d
 e'
@@ -14332,11 +12281,6 @@ c'
 c''
 
 It Might as Well Be Spring - Ly - G Bass for Standard.ly
-refrain
-d
-d'
-
-It Might as Well Be Spring - Ly - G Standard for Viola.ly
 refrain
 d
 d'
@@ -14386,11 +12330,6 @@ refrain
 c
 e'
 
-It Never Entered My Mind - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 It Never Entered My Mind - Ly - F Standard.ly
 refrain
 c'
@@ -14421,11 +12360,6 @@ refrain
 bes,
 ees'
 
-It's a Good Day - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 It's a Good Day - Ly - Eb Standard.ly
 refrain
 bes
@@ -14442,11 +12376,6 @@ c'
 f''
 
 It's a Sin to Tell a Lie - Ly - C Bass for Standard.ly
-refrain
-d
-e'
-
-It's a Sin to Tell a Lie - Ly - C Standard for Viola.ly
 refrain
 d
 e'
@@ -14501,11 +12430,6 @@ refrain
 c
 ees'
 
-It's All Right With Me - Ly - Eb Standard for Viola.ly
-refrain
-c
-ees'
-
 It's All Right With Me - Ly - Eb Standard.ly
 refrain
 c'
@@ -14527,11 +12451,6 @@ g
 g'
 
 It's All Your Fault - Ly - C Bass for Standard.ly
-refrain
-g,
-g
-
-It's All Your Fault - Ly - C Standard for Viola.ly
 refrain
 g,
 g
@@ -14566,11 +12485,6 @@ refrain
 c
 ees'
 
-It's Always You - Ly - Ab Standard for Viola.ly
-refrain
-c'
-ees''
-
 It's Always You - Ly - Ab Standard.ly
 refrain
 c'
@@ -14596,11 +12510,6 @@ refrain
 fis,
 fis
 
-It's Different for Girls - Ly - Fs Standard for Viola.ly
-refrain
-fis
-fis'
-
 It's Different for Girls - Ly - Fs Standard.ly
 refrain
 fis'
@@ -14622,11 +12531,6 @@ b,
 c'
 
 It's Easy to Remember - Ly - Eb Bass for Standard.ly
-refrain
-d
-ees'
-
-It's Easy to Remember - Ly - Eb Standard for Viola.ly
 refrain
 d
 ees'
@@ -14676,11 +12580,6 @@ refrain
 d
 e'
 
-It's Only a Paper Moon - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 It's Only a Paper Moon - Ly - G Standard.ly
 refrain
 d'
@@ -14716,11 +12615,6 @@ refrain
 des
 e'
 
-It's So Peaceful in the Country - Ly - F Standard for Viola.ly
-refrain
-des
-e'
-
 It's So Peaceful in the Country - Ly - F Standard.ly
 refrain
 des'
@@ -14746,11 +12640,6 @@ refrain
 bes,
 ees'
 
-It's You or No One - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 It's You or No One - Ly - Eb Standard.ly
 refrain
 bes
@@ -14771,11 +12660,6 @@ refrain
 g,
 e
 
-J'Attendrai - Ly - C Standard for Viola.ly
-refrain
-g
-e'
-
 J'Attendrai - Ly - C Standard.ly
 refrain
 g'
@@ -14792,11 +12676,6 @@ a'
 fis''
 
 Jambalaya - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-Jambalaya - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -14850,8 +12729,6 @@ Jazz Blues - Ly - Gb Standard.ly
 
 Jazz Blues Circle of Fifths - Ly - C Bass for Standard.ly
 
-Jazz Blues Circle of Fifths - Ly - C Standard for Viola.ly
-
 Jazz Blues Circle of Fifths - Ly - C Standard.ly
 
 Jazz Blues Circle of Fifths - Ly - C to A for Eb for Standard.ly
@@ -14860,8 +12737,6 @@ Jazz Blues Circle of Fifths - Ly - C to D for Bb for Standard.ly
 
 Jazz Blues Flat Keys - Ly - C Bass for Standard.ly
 
-Jazz Blues Flat Keys - Ly - C Standard for Viola.ly
-
 Jazz Blues Flat Keys - Ly - C Standard.ly
 
 Jazz Blues Flat Keys - Ly - C to A for Eb for Standard.ly
@@ -14869,8 +12744,6 @@ Jazz Blues Flat Keys - Ly - C to A for Eb for Standard.ly
 Jazz Blues Flat Keys - Ly - C to D for Bb for Standard.ly
 
 Jazz Blues Sharp Keys - Ly - C Bass for Standard.ly
-
-Jazz Blues Sharp Keys - Ly - C Standard for Viola.ly
 
 Jazz Blues Sharp Keys - Ly - C Standard.ly
 
@@ -14891,11 +12764,6 @@ refrain
 aes,
 b
 
-Jeannine - Ly - Ab Standard for Viola.ly
-refrain
-aes
-b'
-
 Jeannine - Ly - Ab Standard.ly
 refrain
 aes
@@ -14912,11 +12780,6 @@ f'
 gis''
 
 Jeepers Creepers - Ly - Bb Bass for Standard.ly
-refrain
-c
-d'
-
-Jeepers Creepers - Ly - Bb Standard for Viola.ly
 refrain
 c
 d'
@@ -14951,11 +12814,6 @@ refrain
 d,
 b
 
-Jesusita in Chihuahua - Ly - G Standard for Viola.ly
-refrain
-d
-b'
-
 Jesusita in Chihuahua - Ly - G Standard.ly
 refrain
 d'
@@ -14977,11 +12835,6 @@ c
 cis'
 
 Jingle Bell Rock - Ly - C Bass for Standard.ly
-refrain
-d
-dis'
-
-Jingle Bell Rock - Ly - C Standard for Viola.ly
 refrain
 d
 dis'
@@ -15021,11 +12874,6 @@ refrain
 bes,
 ees'
 
-Jive at Five - Ly - Eb Standard for Viola.ly
-refrain
-bes,
-ees'
-
 Jive at Five - Ly - Eb Standard.ly
 refrain
 bes
@@ -15046,11 +12894,6 @@ refrain
 g,
 g'
 
-Jordu - Ly - Eb Standard for Viola.ly
-refrain
-g
-g''
-
 Jordu - Ly - Eb Standard.ly
 refrain
 g
@@ -15070,11 +12913,6 @@ Joseph Joseph - Ly - Bm Bass for Standard.ly
 refrain
 fis,
 b
-
-Joseph Joseph - Ly - Bm Standard for Viola.ly
-refrain
-fis
-b'
 
 Joseph Joseph - Ly - Bm Standard.ly
 refrain
@@ -15100,11 +12938,6 @@ Joy Spring - Ly - F Bass for Standard.ly
 refrain
 bes,
 ees'
-
-Joy Spring - Ly - F Standard for Viola.ly
-refrain
-bes
-ees''
 
 Joy Spring - Ly - F Standard.ly
 refrain
@@ -15137,11 +12970,6 @@ a
 b'
 
 June in January - Ly - Eb Bass for Standard.ly
-refrain
-c
-d'
-
-June in January - Ly - Eb Standard for Viola.ly
 refrain
 c
 d'
@@ -15186,11 +13014,6 @@ refrain
 des
 e'
 
-Just Friends - Ly - G Standard for Viola.ly
-refrain
-des
-e'
-
 Just Friends - Ly - G Standard.ly
 refrain
 des'
@@ -15207,11 +13030,6 @@ bes
 cis''
 
 Just in Time - Ly - Bb Bass for Standard.ly
-refrain
-cis
-d'
-
-Just in Time - Ly - Bb Standard for Viola.ly
 refrain
 cis
 d'
@@ -15238,62 +13056,57 @@ a'
 
 Just My Kind - Ly - A Alto Voice.ly
 refrain
-fis
+cis
 b'
 
 Just My Kind - Ly - Ab Bass for Standard.ly
 refrain
-f,
+c,
 bes
-
-Just My Kind - Ly - Ab Standard for Viola.ly
-refrain
-f
-bes'
 
 Just My Kind - Ly - Ab Standard.ly
 refrain
-f'
+c'
 bes''
 
 Just My Kind - Ly - Ab to Bb for Bb High for Standard.ly
 refrain
-g'
+d'
 c'''
 
 Just My Kind - Ly - Ab to Bb for Bb Low for Standard.ly
 refrain
-g
+d
 c''
 
 Just My Kind - Ly - Ab to F for Eb for Standard.ly
 refrain
-d'
+a
 g''
 
 Just My Kind - Ly - Bb Alto Voice.ly
 refrain
-g
+d
 c''
 
 Just My Kind - Ly - Bb Bass for Alto Voice.ly
 refrain
-g,
+d,
 c'
 
 Just My Kind - Ly - Bb to C for Bb High for Alto Voice.ly
 refrain
-a'
+e'
 d'''
 
 Just My Kind - Ly - Bb to C for Bb Low for Alto Voice.ly
 refrain
-a
+e
 d''
 
 Just My Kind - Ly - G Alto Voice.ly
 refrain
-e
+b,
 a'
 
 Just One of Those Things - Ly - Bb Alto Voice.ly
@@ -15310,11 +13123,6 @@ Just One of Those Things - Ly - F Bass for Standard.ly
 refrain
 bes,
 f'
-
-Just One of Those Things - Ly - F Standard for Viola.ly
-refrain
-bes
-f''
 
 Just One of Those Things - Ly - F Standard.ly
 refrain
@@ -15341,11 +13149,6 @@ refrain
 fis,
 f
 
-Just Squeeze Me - Ly - F Standard for Viola.ly
-refrain
-fis
-f'
-
 Just Squeeze Me - Ly - F Standard.ly
 refrain
 fis'
@@ -15367,11 +13170,6 @@ bes,
 c'
 
 Just You Just Me - Ly - C Bass for Standard.ly
-refrain
-c
-d'
-
-Just You Just Me - Ly - C Standard for Viola.ly
 refrain
 c
 d'
@@ -15421,11 +13219,6 @@ refrain
 d
 e'
 
-Kansas City Kitty - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 Kansas City Kitty - Ly - G Standard.ly
 refrain
 d'
@@ -15448,17 +13241,6 @@ c
 refrain
 g,
 g
-outro
-f,
-c
-
-Killer Joe - Ly - C Standard for Viola.ly
-intro
-f,
-c
-refrain
-g
-g'
 outro
 f,
 c
@@ -15503,14 +13285,6 @@ bes
 refrain
 a,
 fis'
-
-King of the Road - Ly - Bb Standard for Viola.ly
-intro
-f,
-bes
-refrain
-a
-fis''
 
 King of the Road - Ly - Bb Standard.ly
 intro
@@ -15561,14 +13335,6 @@ ees
 d'
 
 Knee Deep in the Blues - Ly - C Bass for Standard.ly
-intro
-c
-e'
-refrain
-f
-e'
-
-Knee Deep in the Blues - Ly - C Standard for Viola.ly
 intro
 c
 e'
@@ -15628,11 +13394,6 @@ refrain
 d'
 e''
 
-Lady Be Good - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 Lady Be Good - Ly - G Standard.ly
 refrain
 d'
@@ -15649,11 +13410,6 @@ b
 cis''
 
 Lady Bird - Ly - C Bass for Standard.ly
-refrain
-c
-c'
-
-Lady Bird - Ly - C Standard for Viola.ly
 refrain
 c
 c'
@@ -15683,17 +13439,6 @@ fis
 outro
 a,
 ees
-
-Lady Madonna - Ly - A Standard for Viola.ly
-intro
-gis
-cis'
-refrain
-fis
-fis'
-outro
-a
-ees'
 
 Lady Madonna - Ly - A Standard.ly
 intro
@@ -15733,11 +13478,6 @@ refrain
 f,
 a
 
-Lament - Ly - F Standard for Viola.ly
-refrain
-f
-a'
-
 Lament - Ly - F Standard.ly
 refrain
 f'
@@ -15763,22 +13503,12 @@ refrain
 c
 e'
 
-Last Thing I Needed - Ly - E Standard for Viola.ly
-refrain
-e
-gis'
-
 Last Thing I Needed - Ly - E Standard.ly
 refrain
 e'
 gis''
 
 Laura - Ly - C Bass for Standard.ly
-refrain
-d
-e'
-
-Laura - Ly - C Standard for Viola.ly
 refrain
 d
 e'
@@ -15802,11 +13532,6 @@ Lazy Afternoon - Ly - Am Bass for Standard.ly
 refrain
 a,
 d'
-
-Lazy Afternoon - Ly - Am Standard for Viola.ly
-refrain
-a
-d''
 
 Lazy Afternoon - Ly - Am Standard.ly
 refrain
@@ -15848,11 +13573,6 @@ refrain
 f,
 fis
 
-Lazy Bird - Ly - G Standard for Viola.ly
-refrain
-f
-fis'
-
 Lazy Bird - Ly - G Standard.ly
 refrain
 f'
@@ -15882,11 +13602,6 @@ Lazy River - Ly - F Bass for Standard.ly
 refrain
 a,
 f'
-
-Lazy River - Ly - F Standard for Viola.ly
-refrain
-a
-f''
 
 Lazy River - Ly - F Standard.ly
 refrain
@@ -15918,11 +13633,6 @@ refrain
 d,
 e
 
-Let's Call the Whole Thing Off - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 Let's Call the Whole Thing Off - Ly - G Standard.ly
 refrain
 d'
@@ -15939,11 +13649,6 @@ b
 cis''
 
 Let's Do It - Ly - Bb Bass for Standard.ly
-refrain
-des
-ees'
-
-Let's Do It - Ly - Bb Standard for Viola.ly
 refrain
 des
 ees'
@@ -15983,11 +13688,6 @@ refrain
 c
 e'
 
-Let's Face the Music and Dance - Ly - C Standard for Viola.ly
-refrain
-c
-e'
-
 Let's Face the Music and Dance - Ly - C Standard.ly
 refrain
 c'
@@ -16014,11 +13714,6 @@ g
 c''
 
 Let's Fall in Love - Ly - C Bass for Standard.ly
-refrain
-b,
-e'
-
-Let's Fall in Love - Ly - C Standard for Viola.ly
 refrain
 b,
 e'
@@ -16054,11 +13749,6 @@ a
 bes'
 
 Let's Get Away From It All - Ly - Eb Bass for Standard.ly
-refrain
-d
-ees'
-
-Let's Get Away From It All - Ly - Eb Standard for Viola.ly
 refrain
 d
 ees'
@@ -16113,11 +13803,6 @@ refrain
 d
 ees'
 
-Let's Get Lost - Ly - Eb Standard for Viola.ly
-refrain
-d
-ees'
-
 Let's Get Lost - Ly - Eb Standard.ly
 refrain
 d'
@@ -16144,11 +13829,6 @@ gis
 b'
 
 Like a Lover - Ly - D Bass for Standard.ly
-refrain
-b,
-d'
-
-Like a Lover - Ly - D Standard for Viola.ly
 refrain
 b,
 d'
@@ -16183,11 +13863,6 @@ refrain
 d
 e'
 
-Like Someone in Love - Ly - C Standard for Viola.ly
-refrain
-d
-e'
-
 Like Someone in Love - Ly - C Standard.ly
 refrain
 d'
@@ -16209,11 +13884,6 @@ f
 g'
 
 Like Someone in Love - Ly - Eb Bass for Standard.ly
-refrain
-f
-g'
-
-Like Someone in Love - Ly - Eb Standard for Viola.ly
 refrain
 f
 g'
@@ -16268,11 +13938,6 @@ refrain
 ees
 f'
 
-Limehouse Blues - Ly - Ab Standard for Viola.ly
-refrain
-ees
-f'
-
 Limehouse Blues - Ly - Ab Standard.ly
 refrain
 ees'
@@ -16289,11 +13954,6 @@ c'
 d''
 
 Limehouse Blues - Ly - G Bass for Standard.ly
-refrain
-d
-e'
-
-Limehouse Blues - Ly - G Standard for Viola.ly
 refrain
 d
 e'
@@ -16318,11 +13978,6 @@ refrain
 fis,
 g
 
-Line for Lyons - Ly - G Standard for Viola.ly
-refrain
-fis
-g'
-
 Line for Lyons - Ly - G Standard.ly
 refrain
 fis'
@@ -16342,11 +13997,6 @@ Little Boat - Ly - Bb Bass for Standard.ly
 refrain
 b,
 ees'
-
-Little Boat - Ly - Bb Standard for Viola.ly
-refrain
-b
-ees''
 
 Little Boat - Ly - Bb Standard.ly
 refrain
@@ -16387,14 +14037,6 @@ refrain
 bes,
 d'
 
-Little Girl Blue - Ly - F Standard for Viola.ly
-verse
-c'
-c''
-refrain
-bes
-d''
-
 Little Girl Blue - Ly - F Standard.ly
 verse
 c'
@@ -16427,14 +14069,6 @@ refrain
 bes,
 e'
 
-Little Sunflower - Ly - Dm Standard for Viola.ly
-intro
-d
-d'
-refrain
-bes
-e''
-
 Little Sunflower - Ly - Dm Standard.ly
 intro
 d
@@ -16460,11 +14094,6 @@ c'
 fis''
 
 Liza (All the Clouds'll Roll Away) - Ly - Eb Bass for Standard.ly
-refrain
-d
-f'
-
-Liza (All the Clouds'll Roll Away) - Ly - Eb Standard for Viola.ly
 refrain
 d
 f'
@@ -16514,11 +14143,6 @@ refrain
 bes,
 ees'
 
-Long Ago and Far Away - Ly - F Standard for Viola.ly
-refrain
-bes
-ees''
-
 Long Ago and Far Away - Ly - F Standard.ly
 refrain
 bes
@@ -16535,11 +14159,6 @@ c'
 f''
 
 Look for the Silver Lining - Ly - Eb Bass for Standard.ly
-refrain
-c
-f'
-
-Look for the Silver Lining - Ly - Eb Standard for Viola.ly
 refrain
 c
 f'
@@ -16565,11 +14184,6 @@ e
 a'
 
 Louisiana Fairytale - Ly - Bb Bass for Standard.ly
-refrain
-d
-d'
-
-Louisiana Fairytale - Ly - Bb Standard for Viola.ly
 refrain
 d
 d'
@@ -16601,14 +14215,6 @@ ees'
 refrain
 bes,
 f'
-
-Love for Sale - Ly - Bb Standard for Viola.ly
-verse
-bes
-ees''
-refrain
-bes
-f''
 
 Love for Sale - Ly - Bb Standard.ly
 verse
@@ -16643,51 +14249,73 @@ f
 c''
 
 Love Is Here to Stay - Ly - Bb Alto Voice.ly
+verse
+f
+g'
 refrain
 f
 a'
 
 Love Is Here to Stay - Ly - C Alto Voice.ly
+verse
+g
+a'
 refrain
 g
 b'
 
 Love Is Here to Stay - Ly - C Bass for Alto Voice.ly
+verse
+g,
+a
 refrain
 g,
 b
 
 Love Is Here to Stay - Ly - C to D for Bb High for Alto Voice.ly
+verse
+a'
+b''
 refrain
 a'
 cis'''
 
 Love Is Here to Stay - Ly - C to D for Bb Low for Alto Voice.ly
+verse
+a
+b'
 refrain
 a
 cis''
 
 Love Is Here to Stay - Ly - F Bass for Standard.ly
-refrain
+verse
 c
-e'
-
-Love Is Here to Stay - Ly - F Standard for Viola.ly
+d'
 refrain
 c
 e'
 
 Love Is Here to Stay - Ly - F Standard.ly
+verse
+c'
+d''
 refrain
 c'
 e''
 
 Love Is Here to Stay - Ly - F to D for Eb for Standard.ly
+verse
+a'
+b''
 refrain
 a'
 cis'''
 
 Love Is Here to Stay - Ly - F to G for Bb for Standard.ly
+verse
+d'
+e''
 refrain
 d'
 fis''
@@ -16698,11 +14326,6 @@ f
 g'
 
 Love Is Just Around the Corner - Ly - F Bass for Standard.ly
-refrain
-c
-d'
-
-Love Is Just Around the Corner - Ly - F Standard for Viola.ly
 refrain
 c
 d'
@@ -16752,11 +14375,6 @@ refrain
 d
 d'
 
-Love Letters - Ly - G Standard for Viola.ly
-refrain
-d
-d'
-
 Love Letters - Ly - G Standard.ly
 refrain
 d'
@@ -16792,11 +14410,6 @@ refrain
 d
 d'
 
-Love Letters Three - Ly - G Standard for Viola.ly
-refrain
-d
-d'
-
 Love Letters Three - Ly - G Standard.ly
 refrain
 d'
@@ -16813,11 +14426,6 @@ b
 b'
 
 Love Me or Leave Me - Ly - Ab Bass for Standard.ly
-refrain
-c
-ees'
-
-Love Me or Leave Me - Ly - Ab Standard for Viola.ly
 refrain
 c
 ees'
@@ -16857,11 +14465,6 @@ refrain
 g,
 d'
 
-Love Walked In - Ly - C Standard for Viola.ly
-refrain
-g
-d''
-
 Love Walked In - Ly - C Standard.ly
 refrain
 g'
@@ -16881,11 +14484,6 @@ Love Walked In - Ly - Eb Bass for Standard.ly
 refrain
 bes,
 f'
-
-Love Walked In - Ly - Eb Standard for Viola.ly
-refrain
-bes
-f''
 
 Love Walked In - Ly - Eb Standard.ly
 refrain
@@ -16927,11 +14525,6 @@ refrain
 bes,
 ees'
 
-Lover Come Back to Me - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Lover Come Back to Me - Ly - Eb Standard.ly
 refrain
 bes
@@ -16967,11 +14560,6 @@ refrain
 des
 d'
 
-Lover Man - Ly - F Standard for Viola.ly
-refrain
-des
-d'
-
 Lover Man - Ly - F Standard.ly
 refrain
 des'
@@ -16991,11 +14579,6 @@ Lover Swing - Ly - C Bass for Standard.ly
 refrain
 g,
 e
-
-Lover Swing - Ly - C Standard for Viola.ly
-refrain
-g
-e'
 
 Lover Swing - Ly - C Standard.ly
 refrain
@@ -17027,11 +14610,6 @@ refrain
 g,
 e
 
-Lover Waltz - Ly - C Standard for Viola.ly
-refrain
-g
-e'
-
 Lover Waltz - Ly - C Standard.ly
 refrain
 g'
@@ -17056,11 +14634,6 @@ Lucky Southern - Ly - D Bass for Standard.ly
 refrain
 a,
 c'
-
-Lucky Southern - Ly - D Standard for Viola.ly
-refrain
-a
-c''
 
 Lucky Southern - Ly - D Standard.ly
 refrain
@@ -17092,11 +14665,6 @@ refrain
 bes,
 e'
 
-Lucky to Be Me - Ly - F Standard for Viola.ly
-refrain
-bes,
-e'
-
 Lucky to Be Me - Ly - F Standard.ly
 refrain
 bes
@@ -17116,11 +14684,6 @@ Lucy in the Sky With Diamonds - Ly - A Bass for Standard.ly
 refrain
 e,
 b
-
-Lucy in the Sky With Diamonds - Ly - A Standard for Viola.ly
-refrain
-e
-b'
 
 Lucy in the Sky With Diamonds - Ly - A Standard.ly
 refrain
@@ -17147,11 +14710,6 @@ refrain
 ees
 des'
 
-Lullaby in Rhythm - Ly - Eb Standard for Viola.ly
-refrain
-ees
-des'
-
 Lullaby in Rhythm - Ly - Eb Standard.ly
 refrain
 ees'
@@ -17168,14 +14726,6 @@ f'
 ees''
 
 Lullaby of Birdland - Ly - Ab Bass for Standard.ly
-intro
-c
-g
-refrain
-c
-ees'
-
-Lullaby of Birdland - Ly - Ab Standard for Viola.ly
 intro
 c
 g
@@ -17270,11 +14820,6 @@ refrain
 c
 ees'
 
-Lullaby of the Leaves - Ly - Cm Standard for Viola.ly
-refrain
-c
-ees'
-
 Lullaby of the Leaves - Ly - Cm Standard.ly
 refrain
 c'
@@ -17296,11 +14841,6 @@ g
 bes'
 
 Lulu's Back in Town - Ly - Eb Bass for Standard.ly
-refrain
-ees
-ees'
-
-Lulu's Back in Town - Ly - Eb Standard for Viola.ly
 refrain
 ees
 ees'
@@ -17340,11 +14880,6 @@ refrain
 g,
 cis'
 
-Lush Life - Ly - C Standard for Viola.ly
-refrain
-g
-cis''
-
 Lush Life - Ly - C Standard.ly
 refrain
 g
@@ -17365,11 +14900,6 @@ refrain
 aes,
 d'
 
-Lush Life - Ly - Db Standard for Viola.ly
-refrain
-aes
-d''
-
 Lush Life - Ly - Db Standard.ly
 refrain
 aes
@@ -17386,11 +14916,6 @@ bes
 e''
 
 Mack the Knife - Ly - C Bass for Standard.ly
-refrain
-d
-d'
-
-Mack the Knife - Ly - C Standard for Viola.ly
 refrain
 d
 d'
@@ -17414,11 +14939,6 @@ Made for Wesley - Ly - Em Bass for Standard.ly
 refrain
 e,
 dis''
-
-Made for Wesley - Ly - Em Standard for Viola.ly
-refrain
-e
-dis'''
 
 Made for Wesley - Ly - Em Standard.ly
 refrain
@@ -17444,11 +14964,6 @@ Maiden Voyage - Ly - C Bass for Standard.ly
 refrain
 a,
 ges
-
-Maiden Voyage - Ly - C Standard for Viola.ly
-refrain
-a
-ges'
 
 Maiden Voyage - Ly - C Standard.ly
 refrain
@@ -17480,11 +14995,6 @@ refrain
 c'
 d''
 
-Make You Feel My Love - Ly - G Standard for Viola.ly
-refrain
-g
-a'
-
 Make You Feel My Love - Ly - G Standard.ly
 refrain
 g'
@@ -17496,11 +15006,6 @@ g
 bes'
 
 Makin' Whoopee! - Ly - F Bass for Standard.ly
-refrain
-c
-ees'
-
-Makin' Whoopee! - Ly - F Standard for Viola.ly
 refrain
 c
 ees'
@@ -17526,11 +15031,6 @@ d
 f'
 
 Manoir de Mes Reves - Ly - D Bass for Standard.ly
-refrain
-cis
-fis'
-
-Manoir de Mes Reves - Ly - D Standard for Viola.ly
 refrain
 cis
 fis'
@@ -17561,11 +15061,6 @@ d
 d'
 
 Me and My Shadow - Ly - Eb Bass for Standard.ly
-refrain
-ees
-ees'
-
-Me and My Shadow - Ly - Eb Standard for Viola.ly
 refrain
 ees
 ees'
@@ -17615,11 +15110,6 @@ refrain
 c
 d'
 
-Mean to Me - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Mean to Me - Ly - F Standard.ly
 refrain
 c'
@@ -17636,11 +15126,6 @@ d'
 e''
 
 Meditation - Ly - C Bass for Standard.ly
-refrain
-c
-d'
-
-Meditation - Ly - C Standard for Viola.ly
 refrain
 c
 d'
@@ -17670,11 +15155,6 @@ refrain
 bes,
 f'
 
-Memories of You - Ly - Eb Standard for Viola.ly
-refrain
-bes
-f''
-
 Memories of You - Ly - Eb Standard.ly
 refrain
 bes
@@ -17699,11 +15179,6 @@ Mercy Mercy Mercy - Ly - Bb Bass for Standard.ly
 refrain
 f,
 bes
-
-Mercy Mercy Mercy - Ly - Bb Standard for Viola.ly
-refrain
-f
-bes'
 
 Mercy Mercy Mercy - Ly - Bb Standard.ly
 refrain
@@ -17730,11 +15205,6 @@ refrain
 c
 f'
 
-Midnight Blue - Ly - Fm Standard for Viola.ly
-refrain
-c
-f'
-
 Midnight Blue - Ly - Fm Standard.ly
 refrain
 c'
@@ -17754,11 +15224,6 @@ Midnight in Moscow - Ly - Dm Bass for Standard.ly
 refrain
 a,
 e'
-
-Midnight in Moscow - Ly - Dm Standard for Viola.ly
-refrain
-a
-e''
 
 Midnight in Moscow - Ly - Dm Standard.ly
 refrain
@@ -17800,11 +15265,6 @@ refrain
 b,
 d'
 
-Midnight Sun - Ly - C Standard for Viola.ly
-refrain
-b
-d''
-
 Midnight Sun - Ly - C Standard.ly
 refrain
 b
@@ -17824,11 +15284,6 @@ Milestones 1947 - Ly - Bb Bass for Standard.ly
 refrain
 b,
 ges'
-
-Milestones 1947 - Ly - Bb Standard for Viola.ly
-refrain
-b
-ges''
 
 Milestones 1947 - Ly - Bb Standard.ly
 refrain
@@ -17850,11 +15305,6 @@ refrain
 bes,
 d'
 
-Milestones 1958 - Ly - Gm Standard for Viola.ly
-refrain
-bes
-d''
-
 Milestones 1958 - Ly - Gm Standard.ly
 refrain
 bes
@@ -17874,11 +15324,6 @@ Mimosa - Ly - Gm Bass for Standard.ly
 refrain
 e,,
 f
-
-Mimosa - Ly - Gm Standard for Viola.ly
-refrain
-e,
-f'
 
 Mimosa - Ly - Gm Standard.ly
 refrain
@@ -17900,11 +15345,6 @@ refrain
 fis,
 g''
 
-Minor Blues - Ly - Gm Standard for Viola.ly
-refrain
-fis
-g'''
-
 Minor Blues - Ly - Gm Standard.ly
 refrain
 fis
@@ -17925,11 +15365,6 @@ refrain
 a,,
 c'
 
-Minor Swing - Ly - Am Standard for Viola.ly
-refrain
-a,
-c''
-
 Minor Swing - Ly - Am Standard.ly
 refrain
 a
@@ -17946,11 +15381,6 @@ fis
 a''
 
 Minority - Ly - Fm Bass for Standard.ly
-refrain
-c
-f'
-
-Minority - Ly - Fm Standard for Viola.ly
 refrain
 c
 f'
@@ -17976,11 +15406,6 @@ bes
 bes'
 
 Miss Otis Regrets - Ly - Eb Bass for Standard.ly
-refrain
-ees
-ees'
-
-Miss Otis Regrets - Ly - Eb Standard for Viola.ly
 refrain
 ees
 ees'
@@ -18015,11 +15440,6 @@ refrain
 g,
 f'
 
-Misty - Ly - Eb Standard for Viola.ly
-refrain
-g
-f''
-
 Misty - Ly - Eb Standard.ly
 refrain
 g
@@ -18036,11 +15456,6 @@ a
 g''
 
 Moanin' - Ly - Fm Bass for Standard.ly
-refrain
-c
-ees'
-
-Moanin' - Ly - Fm Standard for Viola.ly
 refrain
 c
 ees'
@@ -18070,11 +15485,6 @@ refrain
 c
 f'
 
-Moanin' Low - Ly - F Standard for Viola.ly
-refrain
-c
-f'
-
 Moanin' Low - Ly - F Standard.ly
 refrain
 c'
@@ -18094,11 +15504,6 @@ Moment's Notice - Ly - Eb Bass for Standard.ly
 refrain
 bes,
 des'
-
-Moment's Notice - Ly - Eb Standard for Viola.ly
-refrain
-bes
-des''
 
 Moment's Notice - Ly - Eb Standard.ly
 refrain
@@ -18128,20 +15533,6 @@ e'
 outro
 e,
 e
-
-Money - Ly - Bm Standard for Viola.ly
-intro
-fis,
-b
-refrain
-e
-fis'
-bassLine
-e,
-e'
-outro
-e
-e'
 
 Money - Ly - Bm Standard.ly
 intro
@@ -18190,11 +15581,6 @@ refrain
 d
 f'
 
-Mood Indigo - Ly - Ab Standard for Viola.ly
-refrain
-d
-f'
-
 Mood Indigo - Ly - Ab Standard.ly
 refrain
 d'
@@ -18235,11 +15621,6 @@ refrain
 c
 d'
 
-Moon River - Ly - C Standard for Viola.ly
-refrain
-c
-d'
-
 Moon River - Ly - C Standard.ly
 refrain
 c'
@@ -18271,11 +15652,6 @@ fis
 g'
 
 Moonglow - Ly - G Bass for Standard.ly
-refrain
-cis
-d'
-
-Moonglow - Ly - G Standard for Viola.ly
 refrain
 cis
 d'
@@ -18315,11 +15691,6 @@ refrain
 b,
 ees'
 
-Moonlight in Vermont - Ly - Eb Standard for Viola.ly
-refrain
-b
-ees''
-
 Moonlight in Vermont - Ly - Eb Standard.ly
 refrain
 b
@@ -18345,11 +15716,6 @@ refrain
 c
 d'
 
-Moonlight Saving Time - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Moonlight Saving Time - Ly - F Standard.ly
 refrain
 c'
@@ -18369,11 +15735,6 @@ More Than You Know - Ly - C Bass for Standard.ly
 refrain
 b,
 d'
-
-More Than You Know - Ly - C Standard for Viola.ly
-refrain
-b
-d''
 
 More Than You Know - Ly - C Standard.ly
 refrain
@@ -18400,11 +15761,6 @@ refrain
 bes,
 c'
 
-Mr PC - Ly - Cm Standard for Viola.ly
-refrain
-bes
-c''
-
 Mr PC - Ly - Cm Standard.ly
 refrain
 bes
@@ -18421,11 +15777,6 @@ c'
 d''
 
 My Adobe Hacienda - Ly - C Bass for Standard.ly
-refrain
-c
-c'
-
-My Adobe Hacienda - Ly - C Standard for Viola.ly
 refrain
 c
 c'
@@ -18470,11 +15821,6 @@ refrain
 d
 c'
 
-My Attorney Bernie - Ly - Gm Standard for Viola.ly
-refrain
-d
-c'
-
 My Attorney Bernie - Ly - Gm Standard.ly
 refrain
 d'
@@ -18500,11 +15846,6 @@ refrain
 dis
 fis'
 
-My Baby Just Cares for Me - Ly - G Standard for Viola.ly
-refrain
-dis
-fis'
-
 My Baby Just Cares for Me - Ly - G Standard.ly
 refrain
 dis'
@@ -18524,11 +15865,6 @@ My Blue Heaven - Ly - Eb Bass for Standard.ly
 refrain
 bes,
 ees'
-
-My Blue Heaven - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
 
 My Blue Heaven - Ly - Eb Standard.ly
 refrain
@@ -18560,11 +15896,6 @@ refrain
 d
 e'
 
-My Buddy - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 My Buddy - Ly - G Standard.ly
 refrain
 d'
@@ -18586,11 +15917,6 @@ f
 g'
 
 My Buddy Swing - Ly - F Bass for Standard.ly
-refrain
-c
-d'
-
-My Buddy Swing - Ly - F Standard for Viola.ly
 refrain
 c
 d'
@@ -18620,11 +15946,6 @@ refrain
 b,
 c'
 
-My Favorite Things - Ly - Em Standard for Viola.ly
-refrain
-b
-c''
-
 My Favorite Things - Ly - Em Standard.ly
 refrain
 b
@@ -18644,11 +15965,6 @@ My Foolish Heart - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 d'
-
-My Foolish Heart - Ly - Bb Standard for Viola.ly
-refrain
-bes
-d''
 
 My Foolish Heart - Ly - Bb Standard.ly
 refrain
@@ -18715,11 +16031,6 @@ refrain
 c
 ees'
 
-My Funny Valentine - Ly - Eb Standard for Viola.ly
-refrain
-c
-ees'
-
 My Funny Valentine - Ly - Eb Standard.ly
 refrain
 c'
@@ -18741,11 +16052,6 @@ g
 a'
 
 My Heart Stood Still - Ly - F Bass for Standard.ly
-refrain
-c
-d'
-
-My Heart Stood Still - Ly - F Standard for Viola.ly
 refrain
 c
 d'
@@ -18790,11 +16096,6 @@ refrain
 bes,
 ees'
 
-My Ideal - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 My Ideal - Ly - Eb Standard.ly
 refrain
 bes
@@ -18820,11 +16121,6 @@ refrain
 bes,
 ees'
 
-My Little Suede Shoes - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 My Little Suede Shoes - Ly - Eb Standard.ly
 refrain
 bes
@@ -18846,11 +16142,6 @@ fis
 g'
 
 My Old Flame - Ly - G Bass for Standard.ly
-refrain
-cis
-d'
-
-My Old Flame - Ly - G Standard for Viola.ly
 refrain
 cis
 d'
@@ -18880,11 +16171,6 @@ refrain
 g,
 d'
 
-My One and Only Love - Ly - C Standard for Viola.ly
-refrain
-g
-d''
-
 My One and Only Love - Ly - C Standard.ly
 refrain
 g
@@ -18910,11 +16196,6 @@ refrain
 bes,
 d'
 
-My Romance - Ly - Bb Standard for Viola.ly
-refrain
-bes
-d''
-
 My Romance - Ly - Bb Standard.ly
 refrain
 bes
@@ -18931,11 +16212,6 @@ g'
 b''
 
 My Romance - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-My Romance - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -18995,11 +16271,6 @@ refrain
 bes,
 ees'
 
-My Shining Hour - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 My Shining Hour - Ly - Eb Standard.ly
 refrain
 bes
@@ -19045,11 +16316,6 @@ refrain
 c
 f'
 
-My Ship - Ly - F Standard for Viola.ly
-refrain
-c
-f'
-
 My Ship - Ly - F Standard.ly
 refrain
 c'
@@ -19071,11 +16337,6 @@ d
 g'
 
 Naima - Ly - Ab Bass for Standard.ly
-refrain
-ees
-ees'
-
-Naima - Ly - Ab Standard for Viola.ly
 refrain
 ees
 ees'
@@ -19105,11 +16366,6 @@ refrain
 bes,
 f'
 
-Nancy With the Laughing Face - Ly - Eb Standard for Viola.ly
-refrain
-bes
-f''
-
 Nancy With the Laughing Face - Ly - Eb Standard.ly
 refrain
 bes
@@ -19129,11 +16385,6 @@ Nardis - Ly - Em Bass for Standard.ly
 refrain
 b,
 e'
-
-Nardis - Ly - Em Standard for Viola.ly
-refrain
-b
-e''
 
 Nardis - Ly - Em Standard.ly
 refrain
@@ -19160,11 +16411,6 @@ refrain
 a,
 d'
 
-Nature Boy Four - Ly - Dm Standard for Viola.ly
-refrain
-a
-d''
-
 Nature Boy Four - Ly - Dm Standard.ly
 refrain
 a
@@ -19185,11 +16431,6 @@ refrain
 b,
 e'
 
-Nature Boy Four - Ly - Em Standard for Viola.ly
-refrain
-b
-e''
-
 Nature Boy Four - Ly - Em Standard.ly
 refrain
 b
@@ -19206,11 +16447,6 @@ cis'
 fis''
 
 Nature Boy Four - Ly - Gm Bass for Standard.ly
-refrain
-d
-g'
-
-Nature Boy Four - Ly - Gm Standard for Viola.ly
 refrain
 d
 g'
@@ -19245,11 +16481,6 @@ refrain
 b,
 e'
 
-Nature Boy Three - Ly - Em Standard for Viola.ly
-refrain
-b
-e''
-
 Nature Boy Three - Ly - Em Standard.ly
 refrain
 b
@@ -19266,11 +16497,6 @@ cis'
 fis''
 
 Nature Boy Three - Ly - Gm Bass for Standard.ly
-refrain
-d
-g'
-
-Nature Boy Three - Ly - Gm Standard for Viola.ly
 refrain
 d
 g'
@@ -19295,11 +16521,6 @@ refrain
 d
 d'
 
-New Orleans - Ly - Bb Standard for Viola.ly
-refrain
-d
-d'
-
 New Orleans - Ly - Bb Standard.ly
 refrain
 d'
@@ -19319,11 +16540,6 @@ Nica's Dream - Ly - Bbm Bass for Standard.ly
 refrain
 bes,
 des'
-
-Nica's Dream - Ly - Bbm Standard for Viola.ly
-refrain
-bes
-des''
 
 Nica's Dream - Ly - Bbm Standard.ly
 refrain
@@ -19350,11 +16566,6 @@ refrain
 b,
 e'
 
-Nice Work if You Can Get It - Ly - G Standard for Viola.ly
-refrain
-b
-e''
-
 Nice Work if You Can Get It - Ly - G Standard.ly
 refrain
 b
@@ -19379,11 +16590,6 @@ Night and Day - Ly - C Bass for Standard.ly
 refrain
 g,
 c'
-
-Night and Day - Ly - C Standard for Viola.ly
-refrain
-g
-c''
 
 Night and Day - Ly - C Standard.ly
 refrain
@@ -19425,11 +16631,6 @@ refrain
 bes,
 ees'
 
-Night Life - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Night Life - Ly - Eb Standard.ly
 refrain
 bes
@@ -19456,11 +16657,6 @@ d
 g'
 
 Night Train - Ly - Bb Bass for Standard.ly
-refrain
-c
-b'
-
-Night Train - Ly - Bb Standard for Viola.ly
 refrain
 c
 b'
@@ -19505,11 +16701,6 @@ refrain
 b,
 d'
 
-No Moon at All - Ly - Dm Standard for Viola.ly
-refrain
-b
-d''
-
 No Moon at All - Ly - Dm Standard.ly
 refrain
 b
@@ -19549,11 +16740,6 @@ No Regrets - Ly - G Bass for Standard.ly
 refrain
 b,
 d'
-
-No Regrets - Ly - G Standard for Viola.ly
-refrain
-b
-d''
 
 No Regrets - Ly - G Standard.ly
 refrain
@@ -19605,11 +16791,6 @@ refrain
 c
 e'
 
-Nobody Knows You When You're Down and Out - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 Nobody Knows You When You're Down and Out - Ly - F Standard.ly
 refrain
 c'
@@ -19626,11 +16807,6 @@ d'
 fis''
 
 Norwegian Wood - Ly - E Bass for Standard.ly
-refrain
-b,
-cis'
-
-Norwegian Wood - Ly - E Standard for Viola.ly
 refrain
 b,
 cis'
@@ -19655,11 +16831,6 @@ refrain
 bes,
 bes
 
-Now's the Time - Ly - F Standard for Viola.ly
-refrain
-bes
-bes'
-
 Now's the Time - Ly - F Standard.ly
 refrain
 bes
@@ -19680,11 +16851,6 @@ refrain
 ais,
 g'
 
-Nuages - Ly - G Standard for Viola.ly
-refrain
-ais
-g''
-
 Nuages - Ly - G Standard.ly
 refrain
 ais
@@ -19704,11 +16870,6 @@ O Pato - Ly - D Bass for Standard.ly
 refrain
 g,
 d'
-
-O Pato - Ly - D Standard for Viola.ly
-refrain
-g
-d''
 
 O Pato - Ly - D Standard.ly
 refrain
@@ -19781,14 +16942,6 @@ refrain
 d
 ees'
 
-Oh Lonesome Me Four - Ly - Eb Standard for Viola.ly
-intro
-ees
-ees
-refrain
-d
-ees'
-
 Oh Lonesome Me Four - Ly - Eb Standard.ly
 intro
 ees'
@@ -19832,11 +16985,6 @@ e
 fis'
 
 Oh Lonesome Me Waltz - Ly - Eb Bass for Standard.ly
-refrain
-ees
-f'
-
-Oh Lonesome Me Waltz - Ly - Eb Standard for Viola.ly
 refrain
 ees
 f'
@@ -19891,11 +17039,6 @@ refrain
 c
 ees'
 
-Old Devil Moon - Ly - F Standard for Viola.ly
-refrain
-c
-ees'
-
 Old Devil Moon - Ly - F Standard.ly
 refrain
 c'
@@ -19936,11 +17079,6 @@ refrain
 bes,
 ees'
 
-Ole Buttermilk Sky - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Ole Buttermilk Sky - Ly - Eb Standard.ly
 refrain
 bes
@@ -19961,11 +17099,6 @@ refrain
 f,
 ees
 
-Oleo - Ly - Bb Standard for Viola.ly
-refrain
-f
-ees'
-
 Oleo - Ly - Bb Standard.ly
 refrain
 f'
@@ -19982,11 +17115,6 @@ d'
 c''
 
 On a Slow Boat to China - Ly - Bb Bass for Standard.ly
-refrain
-d
-f'
-
-On a Slow Boat to China - Ly - Bb Standard for Viola.ly
 refrain
 d
 f'
@@ -20018,20 +17146,15 @@ c''
 
 On Green Dolphin Street - Ly - Ab Bass for Alto Voice.ly
 refrain
-aes,
-c'
+aes
+c''
 
 On Green Dolphin Street - Ly - Ab to Bb for Bb for Alto Voice.ly
 refrain
-bes
-d''
+bes'
+d'''
 
 On Green Dolphin Street - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-On Green Dolphin Street - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -20057,11 +17180,6 @@ ees
 g'
 
 On Green Dolphin Street - Ly - Eb Bass for Standard.ly
-refrain
-ees,
-g
-
-On Green Dolphin Street - Ly - Eb Standard for Viola.ly
 refrain
 ees
 g'
@@ -20091,11 +17209,6 @@ refrain
 b,
 e'
 
-On the Alamo - Ly - C Standard for Viola.ly
-refrain
-b
-e''
-
 On the Alamo - Ly - C Standard.ly
 refrain
 b
@@ -20112,11 +17225,6 @@ cis'
 fis''
 
 On the Alamo - Ly - Eb Bass for Standard.ly
-refrain
-d
-g'
-
-On the Alamo - Ly - Eb Standard for Viola.ly
 refrain
 d
 g'
@@ -20140,11 +17248,6 @@ On the Street Where You Live - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 ees'
-
-On the Street Where You Live - Ly - Bb Standard for Viola.ly
-refrain
-bes
-ees''
 
 On the Street Where You Live - Ly - Bb Standard.ly
 refrain
@@ -20177,11 +17280,6 @@ bes
 d''
 
 On the Sunny Side of the Street - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-On the Sunny Side of the Street - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -20226,40 +17324,32 @@ refrain
 c
 f'
 refrain melody two
-bes
-ges'
-
-On the Trail - Ly - F Standard for Viola.ly
-refrain
-c
-f'
-refrain melody two
-bes
-ges'
+bes,
+ges
 
 On the Trail - Ly - F Standard.ly
 refrain
 c'
 f''
 refrain melody two
-bes'
-ges''
+bes
+ges'
 
 On the Trail - Ly - F to D for Eb for Standard.ly
 refrain
 a
 d''
 refrain melody two
-g'
-ees''
+g
+ees'
 
 On the Trail - Ly - F to G for Bb for Standard.ly
 refrain
 c'
 f''
 refrain melody two
-bes'
-ges''
+bes
+ges'
 
 Once I Loved (Amor Em Paz) - Ly - Fsm Alto Voice.ly
 refrain
@@ -20267,11 +17357,6 @@ f
 a'
 
 Once I Loved (Amor Em Paz) - Ly - Fsm Bass for Standard.ly
-refrain
-f
-a'
-
-Once I Loved (Amor Em Paz) - Ly - Fsm Standard for Viola.ly
 refrain
 f
 a'
@@ -20306,11 +17391,6 @@ refrain
 d
 d'
 
-Once in a While - Ly - Eb Standard for Viola.ly
-refrain
-d
-d'
-
 Once in a While - Ly - Eb Standard.ly
 refrain
 d'
@@ -20341,11 +17421,6 @@ refrain
 bes,
 c'
 
-One for Daddy-O - Ly - Bbm Standard for Viola.ly
-refrain
-bes
-c''
-
 One for Daddy-O - Ly - Bbm Standard.ly
 refrain
 bes
@@ -20365,11 +17440,6 @@ One Note Samba - Ly - Bb Bass for Standard.ly
 refrain
 aes,
 ees'
-
-One Note Samba - Ly - Bb Standard for Viola.ly
-refrain
-aes
-ees''
 
 One Note Samba - Ly - Bb Standard.ly
 refrain
@@ -20401,11 +17471,6 @@ refrain
 e,
 fis
 
-Only Daddy That'll Walk the Line - Ly - E Standard for Viola.ly
-refrain
-e
-fis'
-
 Only Daddy That'll Walk the Line - Ly - E Standard.ly
 refrain
 e'
@@ -20435,11 +17500,6 @@ Only Trust Your Heart - Ly - C Bass for Standard.ly
 refrain
 a,
 d'
-
-Only Trust Your Heart - Ly - C Standard for Viola.ly
-refrain
-a
-d''
 
 Only Trust Your Heart - Ly - C Standard.ly
 refrain
@@ -20480,11 +17540,6 @@ Ornithology - Ly - G Bass for Standard.ly
 refrain
 bes,
 fis'
-
-Ornithology - Ly - G Standard for Viola.ly
-refrain
-bes
-fis''
 
 Ornithology - Ly - G Standard.ly
 refrain
@@ -20531,11 +17586,6 @@ refrain
 d
 e'
 
-Out of Nowhere - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 Out of Nowhere - Ly - G Standard.ly
 refrain
 d'
@@ -20552,11 +17602,6 @@ b
 cis''
 
 Over the Rainbow - Ly - Eb Bass for Standard.ly
-refrain
-c
-f'
-
-Over the Rainbow - Ly - Eb Standard for Viola.ly
 refrain
 c
 f'
@@ -20581,11 +17626,6 @@ refrain
 e,
 d'
 
-Paquito - Ly - Em Standard for Viola.ly
-refrain
-e
-d''
-
 Paquito - Ly - Em Standard.ly
 refrain
 e'
@@ -20607,11 +17647,6 @@ fis
 e''
 
 Peace - Ly - Bb Bass for Standard.ly
-refrain
-c
-ees'
-
-Peace - Ly - Bb Standard for Viola.ly
 refrain
 c
 ees'
@@ -20656,11 +17691,6 @@ refrain
 a,
 bes
 
-Peel Me a Grape - Ly - Dm Standard for Viola.ly
-refrain
-a
-bes'
-
 Peel Me a Grape - Ly - Dm Standard.ly
 refrain
 a
@@ -20681,11 +17711,6 @@ refrain
 e,
 e
 
-Pennies From Heaven - Ly - C Standard for Viola.ly
-refrain
-e
-e'
-
 Pennies From Heaven - Ly - C Standard.ly
 refrain
 e'
@@ -20702,11 +17727,6 @@ fis'
 fis''
 
 Pent Up House - Ly - G Bass for Standard.ly
-refrain
-d
-g'
-
-Pent Up House - Ly - G Standard for Viola.ly
 refrain
 d
 g'
@@ -20730,11 +17750,6 @@ Perdido - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 e'
-
-Perdido - Ly - Bb Standard for Viola.ly
-refrain
-bes
-e''
 
 Perdido - Ly - Bb Standard.ly
 refrain
@@ -20762,11 +17777,6 @@ d
 d'
 
 Perfidia - Ly - C Bass for Standard.ly
-refrain
-d
-d'
-
-Perfidia - Ly - C Standard for Viola.ly
 refrain
 d
 d'
@@ -20821,11 +17831,6 @@ refrain
 d
 aes'
 
-Petite Fleur - Ly - Gm Standard for Viola.ly
-refrain
-d
-aes'
-
 Petite Fleur - Ly - Gm Standard.ly
 refrain
 d'
@@ -20845,11 +17850,6 @@ Pick Me Up on Your Way Down - Ly - A Bass for Standard.ly
 refrain
 e,
 fis
-
-Pick Me Up on Your Way Down - Ly - A Standard for Viola.ly
-refrain
-e
-fis'
 
 Pick Me Up on Your Way Down - Ly - A Standard.ly
 refrain
@@ -20881,11 +17881,6 @@ refrain
 c
 d'
 
-Pick Me Up on Your Way Down - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 Pick Me Up on Your Way Down - Ly - G Standard.ly
 refrain
 d'
@@ -20897,11 +17892,6 @@ g
 b'
 
 Pick Yourself Up - Ly - F Bass for Standard.ly
-refrain
-c
-e'
-
-Pick Yourself Up - Ly - F Standard for Viola.ly
 refrain
 c
 e'
@@ -20937,11 +17927,6 @@ c
 d'
 
 Please Don't Talk About Me When I'm Gone - Ly - Eb Bass for Standard.ly
-refrain
-ees
-f'
-
-Please Don't Talk About Me When I'm Gone - Ly - Eb Standard for Viola.ly
 refrain
 ees
 f'
@@ -20986,11 +17971,6 @@ refrain
 d
 d'
 
-Poinciana - Ly - G Standard for Viola.ly
-refrain
-d
-d'
-
 Poinciana - Ly - G Standard.ly
 refrain
 d'
@@ -21016,11 +17996,6 @@ refrain
 c
 e'
 
-Polkadots and Moonbeams - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 Polkadots and Moonbeams - Ly - F Standard.ly
 refrain
 c'
@@ -21040,11 +18015,6 @@ Poor Butterfly - Ly - Ab Bass for Standard.ly
 refrain
 b,
 ees'
-
-Poor Butterfly - Ly - Ab Standard for Viola.ly
-refrain
-b
-ees''
 
 Poor Butterfly - Ly - Ab Standard.ly
 refrain
@@ -21071,11 +18041,6 @@ refrain
 bes,
 ees'
 
-Portrait of Jennie - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Portrait of Jennie - Ly - Eb Standard.ly
 refrain
 bes
@@ -21092,11 +18057,6 @@ c'
 f''
 
 Prelude to a Kiss - Ly - C Bass for Standard.ly
-refrain
-c
-dis'
-
-Prelude to a Kiss - Ly - C Standard for Viola.ly
 refrain
 c
 dis'
@@ -21141,11 +18101,6 @@ refrain
 bes,
 c'
 
-Recado Bossa Nova - Ly - Dm Standard for Viola.ly
-refrain
-bes
-c''
-
 Recado Bossa Nova - Ly - Dm Standard.ly
 refrain
 bes
@@ -21166,11 +18121,6 @@ refrain
 c
 ees'
 
-Recorda-Me - Ly - Am Standard for Viola.ly
-refrain
-c
-ees'
-
 Recorda-Me - Ly - Am Standard.ly
 refrain
 c'
@@ -21187,17 +18137,6 @@ a'
 c'''
 
 Red Clay - Ly - Cm Bass for Standard.ly
-intro
-bes,
-g'
-refrain
-c
-f'
-outro
-bes,
-g'
-
-Red Clay - Ly - Cm Standard for Viola.ly
 intro
 bes,
 g'
@@ -21252,17 +18191,6 @@ outro
 b,
 gis'
 
-Red Clay - Ly - Csm Standard for Viola.ly
-intro
-b,
-gis'
-refrain
-cis
-fis'
-outro
-b,
-gis'
-
 Red Clay - Ly - Csm Standard.ly
 intro
 b,
@@ -21301,11 +18229,6 @@ refrain
 c
 aes'
 
-Remember - Ly - Ab Standard for Viola.ly
-refrain
-c
-aes'
-
 Remember - Ly - Ab Standard.ly
 refrain
 c'
@@ -21325,11 +18248,6 @@ Repetition - Ly - Eb Bass for Standard.ly
 refrain
 bes,
 d'
-
-Repetition - Ly - Eb Standard for Viola.ly
-refrain
-bes
-d''
 
 Repetition - Ly - Eb Standard.ly
 refrain
@@ -21370,14 +18288,6 @@ refrain
 b,
 d'
 
-Rhode Island Is Famous for You - Ly - G Standard for Viola.ly
-verse
-b
-b'
-refrain
-b
-d''
-
 Rhode Island Is Famous for You - Ly - G Standard.ly
 verse
 b
@@ -21417,11 +18327,6 @@ refrain
 b,
 c'
 
-Right or Wrong - Ly - G Standard for Viola.ly
-refrain
-cis
-d'
-
 Right or Wrong - Ly - G Standard.ly
 refrain
 cis'
@@ -21436,11 +18341,6 @@ Ring of Fire - Ly - G Bass for Standard.ly
 refrain
 fis,
 d'
-
-Ring of Fire - Ly - G Standard for Viola.ly
-refrain
-fis
-d''
 
 Ring of Fire - Ly - G Standard.ly
 refrain
@@ -21472,11 +18372,6 @@ refrain
 c'
 d''
 
-River Stay Way From My Door - Ly - C Standard for Viola.ly
-refrain
-c
-d'
-
 River Stay Way From My Door - Ly - C Standard.ly
 refrain
 c'
@@ -21491,11 +18386,6 @@ River Stay Way From My Door - Ly - C to D for Bb for Standard.ly
 refrain
 d'
 e''
-
-River Stay Way From My Door - Ly - Eb Standard for Viola.ly
-refrain
-ees
-f'
 
 River Stay Way From My Door - Ly - Eb Standard.ly
 refrain
@@ -21527,11 +18417,6 @@ refrain
 des
 d'
 
-Road Song - Ly - Gm Standard for Viola.ly
-refrain
-des
-d'
-
 Road Song - Ly - Gm Standard.ly
 refrain
 des'
@@ -21551,11 +18436,6 @@ Robbin's Nest - Ly - C Bass for Standard.ly
 refrain
 b,
 ees'
-
-Robbin's Nest - Ly - C Standard for Viola.ly
-refrain
-b
-ees''
 
 Robbin's Nest - Ly - C Standard.ly
 refrain
@@ -21587,11 +18467,6 @@ refrain
 ees
 f'
 
-Rose Room - Ly - Ab Standard for Viola.ly
-refrain
-ees
-f'
-
 Rose Room - Ly - Ab Standard.ly
 refrain
 ees'
@@ -21617,11 +18492,6 @@ refrain
 c
 d'
 
-Rose Room - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Rose Room - Ly - F Standard.ly
 refrain
 c'
@@ -21638,11 +18508,6 @@ d'
 e''
 
 Rosetta - Ly - F Bass for Standard.ly
-refrain
-d
-e'
-
-Rosetta - Ly - F Standard for Viola.ly
 refrain
 d
 e'
@@ -21707,11 +18572,6 @@ refrain
 bes,
 ges'
 
-Round Midnight - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ges''
-
 Round Midnight - Ly - Eb Standard.ly
 refrain
 bes
@@ -21731,11 +18591,6 @@ Round Midnight - Ly - Ebm Bass for Standard.ly
 refrain
 bes,
 ges'
-
-Round Midnight - Ly - Ebm Standard for Viola.ly
-refrain
-bes
-ges''
 
 Round Midnight - Ly - Ebm Standard.ly
 refrain
@@ -21828,14 +18683,6 @@ ees'
 
 Route 66 - Ly - F Guitar Solo for Standard.ly
 
-Route 66 - Ly - F Standard for Viola.ly
-intro
-a,
-bes'
-refrain
-c
-ees'
-
 Route 66 - Ly - F Standard.ly
 intro
 a
@@ -21875,11 +18722,6 @@ refrain
 f,
 c'
 
-Ruby, My Dear - Ly - C Standard for Viola.ly
-refrain
-f
-c''
-
 Ruby, My Dear - Ly - C Standard.ly
 refrain
 f'
@@ -21901,11 +18743,6 @@ g
 d''
 
 Russian Lullaby Swing - Ly - Dm Bass for Standard.ly
-refrain
-d
-f'
-
-Russian Lullaby Swing - Ly - Dm Standard for Viola.ly
 refrain
 d
 f'
@@ -21945,11 +18782,6 @@ refrain
 c
 ees'
 
-Russian Lullaby Waltz - Ly - Cm Standard for Viola.ly
-refrain
-c
-ees'
-
 Russian Lullaby Waltz - Ly - Cm Standard.ly
 refrain
 c'
@@ -21966,11 +18798,6 @@ d'
 f''
 
 Russian Lullaby Waltz - Ly - Dm Bass for Standard.ly
-refrain
-d
-f'
-
-Russian Lullaby Waltz - Ly - Dm Standard for Viola.ly
 refrain
 d
 f'
@@ -22005,11 +18832,6 @@ refrain
 ees
 e'
 
-S Wonderful - Ly - Eb Standard for Viola.ly
-refrain
-ees
-e'
-
 S Wonderful - Ly - Eb Standard.ly
 refrain
 ees'
@@ -22026,11 +18848,6 @@ f'
 fis''
 
 Sabor a Mi - Ly - G Bass for Standard.ly
-refrain
-d
-d'
-
-Sabor a Mi - Ly - G Standard for Viola.ly
 refrain
 d
 d'
@@ -22060,11 +18877,6 @@ refrain
 b
 e''
 
-Samba de Orfeu - Ly - C Standard for Viola.ly
-refrain
-b
-e''
-
 Samba de Orfeu - Ly - C Standard.ly
 refrain
 b
@@ -22090,11 +18902,6 @@ refrain
 bes,
 e'
 
-San Antonio Rose - Ly - Bb Standard for Viola.ly
-refrain
-bes,
-e'
-
 San Antonio Rose - Ly - Bb Standard.ly
 refrain
 bes
@@ -22109,11 +18916,6 @@ San Antonio Rose - Ly - Bb to G for Eb for Standard.ly
 refrain
 g'
 cis'''
-
-San Antonio Rose - Ly - D Standard for Viola.ly
-refrain
-d
-gis'
 
 San Antonio Rose - Ly - D Standard.ly
 refrain
@@ -22140,11 +18942,6 @@ refrain
 f,
 ees'
 
-Sandu - Ly - Eb Standard for Viola.ly
-refrain
-f,
-ees'
-
 Sandu - Ly - Eb Standard.ly
 refrain
 f
@@ -22164,11 +18961,6 @@ Satin Doll - Ly - C Bass for Standard.ly
 refrain
 g,
 d
-
-Satin Doll - Ly - C Standard for Viola.ly
-refrain
-g
-d'
 
 Satin Doll - Ly - C Standard.ly
 refrain
@@ -22220,11 +19012,6 @@ refrain
 b,
 ees'
 
-Scotch and Soda - Ly - Eb Standard for Viola.ly
-refrain
-b
-ees''
-
 Scotch and Soda - Ly - Eb Standard.ly
 refrain
 b
@@ -22241,11 +19028,6 @@ des'
 f''
 
 Scrapple From the Apple - Ly - F Bass for Standard.ly
-refrain
-c
-f'
-
-Scrapple From the Apple - Ly - F Standard for Viola.ly
 refrain
 c
 f'
@@ -22280,11 +19062,6 @@ refrain
 bes,
 ees'
 
-Secret Love - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Secret Love - Ly - Eb Standard.ly
 refrain
 bes
@@ -22311,11 +19088,6 @@ aes
 bes'
 
 Sentimental Journey - Ly - C Bass for Standard.ly
-refrain
-c
-d'
-
-Sentimental Journey - Ly - C Standard for Viola.ly
 refrain
 c
 d'
@@ -22355,11 +19127,6 @@ refrain
 bes,
 ees'
 
-September in the Rain - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 September in the Rain - Ly - Eb Standard.ly
 refrain
 bes
@@ -22380,22 +19147,12 @@ refrain
 d
 g'
 
-September Song - Ly - Bb Standard for Viola.ly
-refrain
-bes,
-des'
-
 September Song - Ly - Bb Standard.ly
 refrain
 bes
 des''
 
 September Song - Ly - C Bass for Standard.ly
-refrain
-c
-ees'
-
-September Song - Ly - C Standard for Viola.ly
 refrain
 c
 ees'
@@ -22420,22 +19177,12 @@ refrain
 f
 aes'
 
-September Song - Ly - G Standard for Viola.ly
-refrain
-g
-bes'
-
 September Song - Ly - G Standard.ly
 refrain
 g'
 bes''
 
 Serenade to a Cuckoo - Ly - Ab Bass for Standard.ly
-refrain
-ees
-f'
-
-Serenade to a Cuckoo - Ly - Ab Standard for Viola.ly
 refrain
 ees
 f'
@@ -22456,11 +19203,6 @@ c'
 d''
 
 Seul Ce Soir - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-Seul Ce Soir - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -22498,14 +19240,6 @@ refrain
 b,
 des'
 
-Seven Steps to Heaven - Ly - F Standard for Viola.ly
-intro
-ees
-c'
-refrain
-b
-des''
-
 Seven Steps to Heaven - Ly - F Standard.ly
 intro
 ees
@@ -22540,11 +19274,6 @@ refrain
 ees
 f'
 
-She's Funny That Way - Ly - Eb Standard for Viola.ly
-refrain
-ees
-f'
-
 She's Funny That Way - Ly - Eb Standard.ly
 refrain
 ees'
@@ -22570,11 +19299,6 @@ refrain
 a,
 f'
 
-Si Tu Vois Ma Mere - Ly - Bb Standard for Viola.ly
-refrain
-a
-f''
-
 Si Tu Vois Ma Mere - Ly - Bb Standard.ly
 refrain
 a
@@ -22596,17 +19320,6 @@ dis
 b'
 
 Sidewinder - Ly - Eb Bass for Standard.ly
-intro
-bes
-f'
-refrain
-des
-bes'
-outro
-ees
-ees'
-
-Sidewinder - Ly - Eb Standard for Viola.ly
 intro
 bes
 f'
@@ -22671,11 +19384,6 @@ refrain
 d
 d'
 
-Silver Bells - Ly - Bb Standard for Viola.ly
-refrain
-d
-d'
-
 Silver Bells - Ly - Bb Standard.ly
 refrain
 d'
@@ -22726,11 +19434,6 @@ refrain
 a,
 bes
 
-Sin City - Ly - F Standard for Viola.ly
-refrain
-a
-bes'
-
 Sin City - Ly - F Standard.ly
 refrain
 a
@@ -22760,11 +19463,6 @@ Since I Fell for You - Ly - Eb Bass for Standard.ly
 refrain
 bes,
 des'
-
-Since I Fell for You - Ly - Eb Standard for Viola.ly
-refrain
-bes
-des''
 
 Since I Fell for You - Ly - Eb Standard.ly
 refrain
@@ -22796,11 +19494,6 @@ refrain
 d
 d'
 
-Singin' in the Rain - Ly - G Standard for Viola.ly
-refrain
-d
-d'
-
 Singin' in the Rain - Ly - G Standard.ly
 refrain
 d'
@@ -22822,11 +19515,6 @@ e,
 a
 
 Sixteen Tons - Ly - Bm Bass for Standard.ly
-refrain
-fis,
-b
-
-Sixteen Tons - Ly - Bm Standard for Viola.ly
 refrain
 fis,
 b
@@ -22896,11 +19584,6 @@ refrain
 c
 f'
 
-Skylark - Ly - Eb Standard for Viola.ly
-refrain
-c
-f'
-
 Skylark - Ly - Eb Standard.ly
 refrain
 c'
@@ -22917,11 +19600,6 @@ d'
 g''
 
 Sleepwalk - Ly - C Bass for Standard.ly
-refrain
-a,
-e'''
-
-Sleepwalk - Ly - C Standard for Viola.ly
 refrain
 a,
 e'''
@@ -22976,11 +19654,6 @@ refrain
 a,
 e'
 
-Sleigh Ride - Ly - G Standard for Viola.ly
-refrain
-a,
-e'
-
 Sleigh Ride - Ly - G Standard.ly
 refrain
 a
@@ -23010,11 +19683,6 @@ Small Day Tomorrow - Ly - Am Bass for Standard.ly
 refrain
 a,
 c'
-
-Small Day Tomorrow - Ly - Am Standard for Viola.ly
-refrain
-a
-c''
 
 Small Day Tomorrow - Ly - Am Standard.ly
 refrain
@@ -23056,11 +19724,6 @@ refrain
 g,
 a
 
-Smile - Ly - C Standard for Viola.ly
-refrain
-g
-a'
-
 Smile - Ly - C Standard.ly
 refrain
 g'
@@ -23077,11 +19740,6 @@ a
 b'
 
 Smile - Ly - F Bass for Standard.ly
-refrain
-c
-d'
-
-Smile - Ly - F Standard for Viola.ly
 refrain
 c
 d'
@@ -23106,11 +19764,6 @@ refrain
 aes,
 f'
 
-Smoke Gets in Your Eyes - Ly - Eb Standard for Viola.ly
-refrain
-aes
-f''
-
 Smoke Gets in Your Eyes - Ly - Eb Standard.ly
 refrain
 aes
@@ -23132,11 +19785,6 @@ bes,
 g'
 
 So Danco Samba - Ly - C Bass for Standard.ly
-refrain
-d
-e'
-
-So Danco Samba - Ly - C Standard for Viola.ly
 refrain
 d
 e'
@@ -23166,11 +19814,6 @@ refrain
 gis,
 ees'
 
-So Nice - Ly - F Standard for Viola.ly
-refrain
-gis
-ees''
-
 So Nice - Ly - F Standard.ly
 refrain
 gis
@@ -23191,11 +19834,6 @@ refrain
 d
 f'
 
-So What - Ly - C Standard for Viola.ly
-refrain
-d
-f'
-
 So What - Ly - C Standard.ly
 refrain
 d
@@ -23212,11 +19850,6 @@ e
 g'
 
 Softly as in a Morning Sunrise - Ly - Cm Bass for Standard.ly
-refrain
-c
-f'
-
-Softly as in a Morning Sunrise - Ly - Cm Standard for Viola.ly
 refrain
 c
 f'
@@ -23251,11 +19884,6 @@ refrain
 c
 d'
 
-Solar - Ly - Cm Standard for Viola.ly
-refrain
-c
-d'
-
 Solar - Ly - Cm Standard.ly
 refrain
 c'
@@ -23272,11 +19900,6 @@ d'
 e''
 
 Solitude - Ly - Eb Bass for Standard.ly
-refrain
-ees
-ees'
-
-Solitude - Ly - Eb Standard for Viola.ly
 refrain
 ees
 ees'
@@ -23321,11 +19944,6 @@ refrain
 a,
 c'
 
-Some Other Spring - Ly - C Standard for Viola.ly
-refrain
-a
-c''
-
 Some Other Spring - Ly - C Standard.ly
 refrain
 a
@@ -23347,11 +19965,6 @@ aes
 c''
 
 Some Other Time - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-Some Other Time - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -23391,11 +20004,6 @@ refrain
 f,
 c'
 
-Someday My Prince Will Come - Ly - Bb Standard for Viola.ly
-refrain
-f
-c''
-
 Someday My Prince Will Come - Ly - Bb Standard.ly
 refrain
 f'
@@ -23421,11 +20029,6 @@ refrain
 a,
 c'
 
-Someone to Light Up My Life - Ly - Bb Standard for Viola.ly
-refrain
-a
-c''
-
 Someone to Light Up My Life - Ly - Bb Standard.ly
 refrain
 a
@@ -23447,11 +20050,6 @@ fis
 a'
 
 Someone to Watch Over Me - Ly - Eb Bass for Standard.ly
-refrain
-ees
-f'
-
-Someone to Watch Over Me - Ly - Eb Standard for Viola.ly
 refrain
 ees
 f'
@@ -23481,11 +20079,6 @@ refrain
 d
 g'
 
-Something to Live For - Ly - D Standard for Viola.ly
-refrain
-d
-g'
-
 Something to Live For - Ly - D Standard.ly
 refrain
 d'
@@ -23510,11 +20103,6 @@ Sometime Ago - Ly - C Bass for Standard.ly
 refrain
 f,
 b
-
-Sometime Ago - Ly - C Standard for Viola.ly
-refrain
-f
-b'
 
 Sometime Ago - Ly - C Standard.ly
 refrain
@@ -23541,11 +20129,6 @@ refrain
 f,
 des'
 
-Song for My Father - Ly - Fm Standard for Viola.ly
-refrain
-f
-des''
-
 Song for My Father - Ly - Fm Standard.ly
 refrain
 f
@@ -23566,11 +20149,6 @@ refrain
 c
 g'
 
-Song for My Father Lyrics - Ly - Fm Standard for Viola.ly
-refrain
-f
-c''
-
 Song for My Father Lyrics - Ly - Fm Standard.ly
 refrain
 f
@@ -23580,11 +20158,6 @@ Songe d'Automne Swing - Ly - Cm Bass for Standard.ly
 refrain
 ges,
 bes'
-
-Songe d'Automne Swing - Ly - Cm Standard for Viola.ly
-refrain
-ges
-bes''
 
 Songe d'Automne Swing - Ly - Cm Standard.ly
 refrain
@@ -23602,11 +20175,6 @@ aes
 c'''
 
 Songe d'Automne Waltz - Ly - Cm Bass for Standard.ly
-refrain
-ees
-bes'
-
-Songe d'Automne Waltz - Ly - Cm Standard for Viola.ly
 refrain
 ees
 bes'
@@ -23631,11 +20199,6 @@ refrain
 bes,
 bes
 
-Sonnymoon for Two - Ly - Bb Standard for Viola.ly
-refrain
-bes
-bes'
-
 Sonnymoon for Two - Ly - Bb Standard.ly
 refrain
 bes
@@ -23655,11 +20218,6 @@ Sophisticated Lady - Ly - Ab Bass for Standard.ly
 refrain
 b,
 ges'
-
-Sophisticated Lady - Ly - Ab Standard for Viola.ly
-refrain
-b
-ges''
 
 Sophisticated Lady - Ly - Ab Standard.ly
 refrain
@@ -23685,11 +20243,6 @@ Soul Eyes - Ly - Eb Bass for Standard.ly
 refrain
 b,
 ees'
-
-Soul Eyes - Ly - Eb Standard for Viola.ly
-refrain
-b
-ees''
 
 Soul Eyes - Ly - Eb Standard.ly
 refrain
@@ -23736,11 +20289,6 @@ refrain
 c
 ees'
 
-Speak Low - Ly - F Standard for Viola.ly
-refrain
-c
-ees'
-
 Speak Low - Ly - F Standard.ly
 refrain
 c'
@@ -23765,11 +20313,6 @@ Speak Softly, Love - Ly - Cm Bass for Standard.ly
 refrain
 b,
 ees'
-
-Speak Softly, Love - Ly - Cm Standard for Viola.ly
-refrain
-b
-ees''
 
 Speak Softly, Love - Ly - Cm Standard.ly
 refrain
@@ -23821,11 +20364,6 @@ refrain
 g,
 d'
 
-Spring Can Really Hang You Up the Most - Ly - C Standard for Viola.ly
-refrain
-g
-d''
-
 Spring Can Really Hang You Up the Most - Ly - C Standard.ly
 refrain
 g
@@ -23856,11 +20394,6 @@ refrain
 c
 ees'
 
-Spring Is Here - Ly - Ab Standard for Viola.ly
-refrain
-c
-ees'
-
 Spring Is Here - Ly - Ab Standard.ly
 refrain
 c'
@@ -23882,11 +20415,6 @@ g
 bes'
 
 Spring Is Here Bill Evans - Ly - Ab Bass for Standard.ly
-refrain
-c
-ees'
-
-Spring Is Here Bill Evans - Ly - Ab Standard for Viola.ly
 refrain
 c
 ees'
@@ -23921,11 +20449,6 @@ refrain
 bes,
 d'
 
-Spring Will Be a Little Late This Year - Ly - Eb Standard for Viola.ly
-refrain
-bes
-d''
-
 Spring Will Be a Little Late This Year - Ly - Eb Standard.ly
 refrain
 bes
@@ -23951,11 +20474,6 @@ refrain
 bes,
 bes
 
-Squeeze Me - Ly - Db Standard for Viola.ly
-refrain
-bes
-bes'
-
 Squeeze Me - Ly - Db Standard.ly
 refrain
 bes
@@ -23972,11 +20490,6 @@ c'
 c''
 
 St James Infirmary - Ly - Dm Bass for Standard.ly
-refrain
-d
-d'
-
-St James Infirmary - Ly - Dm Standard for Viola.ly
 refrain
 d
 d'
@@ -24001,11 +20514,6 @@ refrain
 c
 d'
 
-St Louis Blues - Ly - G Standard for Viola.ly
-refrain
-c
-d'
-
 St Louis Blues - Ly - G Standard.ly
 refrain
 c'
@@ -24026,11 +20534,6 @@ refrain
 e,
 g
 
-St Thomas - Ly - C Standard for Viola.ly
-refrain
-e
-g'
-
 St Thomas - Ly - C Standard.ly
 refrain
 e'
@@ -24047,11 +20550,6 @@ fis'
 a''
 
 Stablemates - Ly - Db Bass for Standard.ly
-refrain
-c
-ees'
-
-Stablemates - Ly - Db Standard for Viola.ly
 refrain
 c
 ees'
@@ -24081,11 +20579,6 @@ refrain
 c
 d'
 
-Stairway to the Stars - Ly - C Standard for Viola.ly
-refrain
-c
-d'
-
 Stairway to the Stars - Ly - C Standard.ly
 refrain
 c'
@@ -24102,11 +20595,6 @@ d'
 e''
 
 Star Eyes - Ly - Eb Bass for Standard.ly
-refrain
-des
-ees'
-
-Star Eyes - Ly - Eb Standard for Viola.ly
 refrain
 des
 ees'
@@ -24141,11 +20629,6 @@ refrain
 f,
 a
 
-Star Trek - Ly - Bb Standard for Viola.ly
-refrain
-f
-a'
-
 Star Trek - Ly - Bb Standard.ly
 refrain
 f'
@@ -24168,14 +20651,6 @@ e'
 refrain
 c
 e'
-
-Stardust - Ly - C Standard for Viola.ly
-verse
-b
-e''
-refrain
-c'
-e''
 
 Stardust - Ly - C Standard.ly
 verse
@@ -24202,14 +20677,6 @@ d'
 fis''
 
 Stardust - Ly - Db Bass for Standard.ly
-verse
-c
-f'
-refrain
-des
-f'
-
-Stardust - Ly - Db Standard for Viola.ly
 verse
 c
 f'
@@ -24258,14 +20725,6 @@ g
 b'
 
 Stars Fell on Alabama - Ly - C Bass for Standard.ly
-verse
-d
-d'
-refrain
-c
-e'
-
-Stars Fell on Alabama - Ly - C Standard for Viola.ly
 verse
 d
 d'
@@ -24355,11 +20814,6 @@ refrain
 d
 d'
 
-Stay a Little Longer - Ly - G Standard for Viola.ly
-refrain
-d
-d'
-
 Stay a Little Longer - Ly - G Standard.ly
 refrain
 d'
@@ -24375,30 +20829,15 @@ refrain
 b'
 b''
 
-Steel Guitar Rag - Ly - E Standard for Viola.ly
-refrain
-e,
-e'
-
 Steel Guitar Rag - Ly - E Standard.ly
 refrain
 e
 e''
 
-Steel Guitar Rag - Ly - F Standard for Viola.ly
-refrain
-f,
-f'
-
 Steel Guitar Rag - Ly - F Standard.ly
 refrain
 f
 f''
-
-Steel Guitar Rag - Ly - G Standard for Viola.ly
-refrain
-g,
-g'
 
 Steel Guitar Rag - Ly - G Standard.ly
 refrain
@@ -24409,11 +20848,6 @@ Stella by Starlight - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 f'
-
-Stella by Starlight - Ly - Bb Standard for Viola.ly
-refrain
-bes
-f''
 
 Stella by Starlight - Ly - Bb Standard.ly
 refrain
@@ -24460,11 +20894,6 @@ refrain
 c
 ees'
 
-Stolen Moments - Ly - Cm Standard for Viola.ly
-refrain
-c
-ees'
-
 Stolen Moments - Ly - Cm Standard.ly
 refrain
 c'
@@ -24489,11 +20918,6 @@ Stompin' at the Savoy - Ly - Db Bass for Standard.ly
 refrain
 aes,
 b
-
-Stompin' at the Savoy - Ly - Db Standard for Viola.ly
-refrain
-aes
-b'
 
 Stompin' at the Savoy - Ly - Db Standard.ly
 refrain
@@ -24525,11 +20949,6 @@ refrain
 c
 d'
 
-Stormy Weather - Ly - G Standard for Viola.ly
-refrain
-c
-d'
-
 Stormy Weather - Ly - G Standard.ly
 refrain
 c'
@@ -24549,11 +20968,6 @@ Straight No Chaser - Ly - Bb Bass for Standard.ly
 refrain
 f,
 ees
-
-Straight No Chaser - Ly - Bb Standard for Viola.ly
-refrain
-f
-ees'
 
 Straight No Chaser - Ly - Bb Standard.ly
 refrain
@@ -24575,11 +20989,6 @@ refrain
 c
 bes
 
-Straight No Chaser - Ly - F Standard for Viola.ly
-refrain
-c
-bes
-
 Straight No Chaser - Ly - F Standard.ly
 refrain
 c'
@@ -24596,11 +21005,6 @@ d'
 c''
 
 Straighten Up and Fly Right - Ly - Ab Bass for Standard.ly
-refrain
-ees
-ees'
-
-Straighten Up and Fly Right - Ly - Ab Standard for Viola.ly
 refrain
 ees
 ees'
@@ -24643,14 +21047,6 @@ refrain
 e,
 e
 
-Strawberry Fields Forever - Ly - A Standard for Viola.ly
-intro
-d
-b
-refrain
-e
-e'
-
 Strawberry Fields Forever - Ly - A Standard.ly
 intro
 d'
@@ -24680,11 +21076,6 @@ refrain
 c
 f'
 
-Street of Dreams - Ly - Eb Standard for Viola.ly
-refrain
-c
-f'
-
 Street of Dreams - Ly - Eb Standard.ly
 refrain
 c'
@@ -24710,11 +21101,6 @@ refrain
 c
 c''
 
-Strode Rode - Ly - Fm Standard for Viola.ly
-refrain
-c
-c''
-
 Strode Rode - Ly - Fm Standard.ly
 refrain
 c'
@@ -24735,11 +21121,6 @@ refrain
 e,
 f
 
-Struttin' With Some Berbecue - Ly - F Standard for Viola.ly
-refrain
-e
-f'
-
 Struttin' With Some Berbecue - Ly - F Standard.ly
 refrain
 e'
@@ -24756,14 +21137,6 @@ fis'
 g''
 
 Stumbling - Ly - F Bass for Standard.ly
-refrain
-c
-c'
-refrain melody two
-d
-f'
-
-Stumbling - Ly - F Standard for Viola.ly
 refrain
 c
 c'
@@ -24800,11 +21173,6 @@ refrain
 d
 d'
 
-Stumbling - Ly - G Standard for Viola.ly
-refrain
-d
-d'
-
 Stumbling - Ly - G Standard.ly
 refrain
 d'
@@ -24827,14 +21195,6 @@ g
 refrain
 bes,
 f'
-
-Sugar - Ly - Cm Standard for Viola.ly
-intro
-f
-g'
-refrain
-bes
-f''
 
 Sugar - Ly - Cm Standard.ly
 intro
@@ -24866,11 +21226,6 @@ f
 g'
 
 Sugar (That Sugar Baby O' Mine) - Ly - G Bass for Standard.ly
-refrain
-d
-e'
-
-Sugar (That Sugar Baby O' Mine) - Ly - G Standard for Viola.ly
 refrain
 d
 e'
@@ -24910,11 +21265,6 @@ refrain
 e'
 e''
 
-Summertime - Ly - Am Standard for Viola.ly
-refrain
-e
-e'
-
 Summertime - Ly - Am Standard.ly
 refrain
 e'
@@ -24931,11 +21281,6 @@ cis'
 cis''
 
 Summertime - Ly - Bbm Alto Voice.ly
-refrain
-f
-f'
-
-Summertime - Ly - Bbm Standard for Viola.ly
 refrain
 f
 f'
@@ -24980,11 +21325,6 @@ refrain
 c
 c'
 
-Sunday - Ly - Bb Standard for Viola.ly
-refrain
-c
-c'
-
 Sunday - Ly - Bb Standard.ly
 refrain
 c'
@@ -25020,11 +21360,6 @@ refrain
 a,
 a
 
-Sunny - Ly - Am Standard for Viola.ly
-refrain
-a
-a'
-
 Sunny - Ly - Am Standard.ly
 refrain
 a
@@ -25055,11 +21390,6 @@ refrain
 e,
 e
 
-Sway - Ly - Em Standard for Viola.ly
-refrain
-e
-e'
-
 Sway - Ly - Em Standard.ly
 refrain
 e'
@@ -25084,11 +21414,6 @@ Sweet and Lovely - Ly - C Bass for Standard.ly
 refrain
 b,
 d'
-
-Sweet and Lovely - Ly - C Standard for Viola.ly
-refrain
-b
-d''
 
 Sweet and Lovely - Ly - C Standard.ly
 refrain
@@ -25150,11 +21475,6 @@ refrain
 c'
 d''
 
-Sweet Georgia Brown - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Sweet Georgia Brown - Ly - F Standard.ly
 refrain
 c'
@@ -25185,11 +21505,6 @@ refrain
 d
 f'
 
-Sweet Lorraine - Ly - G Standard for Viola.ly
-refrain
-d
-f'
-
 Sweet Lorraine - Ly - G Standard.ly
 refrain
 d'
@@ -25215,11 +21530,6 @@ refrain
 d
 d'
 
-Sweet Sue - Ly - G Standard for Viola.ly
-refrain
-d
-d'
-
 Sweet Sue - Ly - G Standard.ly
 refrain
 d'
@@ -25239,11 +21549,6 @@ Swing 42 - Ly - C Bass for Standard.ly
 refrain
 g,
 a
-
-Swing 42 - Ly - C Standard for Viola.ly
-refrain
-g
-a'
 
 Swing 42 - Ly - C Standard.ly
 refrain
@@ -25270,11 +21575,6 @@ refrain
 aes,
 bes
 
-Swing Gitan - Ly - Gm Standard for Viola.ly
-refrain
-aes
-bes'
-
 Swing Gitan - Ly - Gm Standard.ly
 refrain
 aes'
@@ -25291,11 +21591,6 @@ f'
 g''
 
 Swing Guitars - Ly - C Bass for Standard.ly
-refrain
-c
-ees'
-
-Swing Guitars - Ly - C Standard for Viola.ly
 refrain
 c
 ees'
@@ -25320,11 +21615,6 @@ refrain
 aes,
 ges'
 
-Take Five - Ly - Ebm Standard for Viola.ly
-refrain
-aes
-ges''
-
 Take Five - Ly - Ebm Standard.ly
 refrain
 aes
@@ -25345,11 +21635,6 @@ refrain
 a,
 g'
 
-Take Five - Ly - Em Standard for Viola.ly
-refrain
-a
-g''
-
 Take Five - Ly - Em Standard.ly
 refrain
 a
@@ -25366,11 +21651,6 @@ b
 a''
 
 Take the A Train - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-Take the A Train - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -25404,11 +21684,6 @@ Taking a Chance on Love - Ly - C Bass for Standard.ly
 refrain
 b,
 e'
-
-Taking a Chance on Love - Ly - C Standard for Viola.ly
-refrain
-b
-e''
 
 Taking a Chance on Love - Ly - C Standard.ly
 refrain
@@ -25445,11 +21720,6 @@ refrain
 c
 d'
 
-Tangerine - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Tangerine - Ly - F Standard.ly
 refrain
 c'
@@ -25471,11 +21741,6 @@ d
 e'
 
 Tea for Two - Ly - Ab Bass for Standard.ly
-refrain
-ees
-f'
-
-Tea for Two - Ly - Ab Standard for Viola.ly
 refrain
 ees
 f'
@@ -25525,11 +21790,6 @@ refrain
 bes,
 f'
 
-Tenderly - Ly - Eb Standard for Viola.ly
-refrain
-bes
-f''
-
 Tenderly - Ly - Eb Standard.ly
 refrain
 bes
@@ -25575,11 +21835,6 @@ refrain
 c
 g'
 
-Tennessee Waltz - Ly - C Standard for Viola.ly
-refrain
-c
-g'
-
 Tennessee Waltz - Ly - C Standard.ly
 refrain
 c'
@@ -25620,11 +21875,6 @@ refrain
 c
 d'
 
-Tenor Madness - Ly - Bb Standard for Viola.ly
-refrain
-c
-d'
-
 Tenor Madness - Ly - Bb Standard.ly
 refrain
 c'
@@ -25650,11 +21900,6 @@ refrain
 bes,
 ees'
 
-That Old Black Magic - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 That Old Black Magic - Ly - Eb Standard.ly
 refrain
 bes
@@ -25671,11 +21916,6 @@ c'
 f''
 
 That Old Feeling - Ly - Eb Bass for Standard.ly
-refrain
-ees
-ees'
-
-That Old Feeling - Ly - Eb Standard for Viola.ly
 refrain
 ees
 ees'
@@ -25704,11 +21944,6 @@ That's All - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 d'
-
-That's All - Ly - Bb Standard for Viola.ly
-refrain
-bes
-d''
 
 That's All - Ly - Bb Standard.ly
 refrain
@@ -25750,11 +21985,6 @@ refrain
 b,
 e'
 
-The Best Things in Life Are Free - Ly - C Standard for Viola.ly
-refrain
-b
-e''
-
 The Best Things in Life Are Free - Ly - C Standard.ly
 refrain
 b
@@ -25786,11 +22016,6 @@ e,
 fis
 
 The Boulevard of Broken Dreams - Ly - Dm Bass for Standard.ly
-refrain
-c
-d'
-
-The Boulevard of Broken Dreams - Ly - Dm Standard for Viola.ly
 refrain
 c
 d'
@@ -25850,11 +22075,6 @@ refrain
 d
 ees'
 
-The Christmas Song - Ly - Eb Standard for Viola.ly
-refrain
-d
-ees'
-
 The Christmas Song - Ly - Eb Standard.ly
 refrain
 d'
@@ -25890,11 +22110,6 @@ refrain
 c
 e'
 
-The Days of Wine and Roses - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 The Days of Wine and Roses - Ly - F Standard.ly
 refrain
 c'
@@ -25919,11 +22134,6 @@ The End of a Love Affair - Ly - F Bass for Standard.ly
 refrain
 bes,
 e'
-
-The End of a Love Affair - Ly - F Standard for Viola.ly
-refrain
-bes
-e''
 
 The End of a Love Affair - Ly - F Standard.ly
 refrain
@@ -25950,11 +22160,6 @@ refrain
 c
 c'
 
-The Flat Foot Floogie - Ly - F Standard for Viola.ly
-refrain
-c
-c'
-
 The Flat Foot Floogie - Ly - F Standard.ly
 refrain
 c'
@@ -25977,14 +22182,6 @@ e'
 refrain
 b,
 e'
-
-The Folks Who Live on the Hill - Ly - C Standard for Viola.ly
-verse
-b
-e''
-refrain
-b
-e''
 
 The Folks Who Live on the Hill - Ly - C Standard.ly
 verse
@@ -26047,11 +22244,6 @@ refrain
 cis
 d'
 
-The Frim Fram Sauce - Ly - Bb Standard for Viola.ly
-refrain
-cis
-d'
-
 The Frim Fram Sauce - Ly - Bb Standard.ly
 refrain
 cis'
@@ -26073,11 +22265,6 @@ fis
 g'
 
 The Gentle Rain - Ly - Cm Bass for Standard.ly
-refrain
-d
-f'
-
-The Gentle Rain - Ly - Cm Standard for Viola.ly
 refrain
 d
 f'
@@ -26147,11 +22334,6 @@ refrain
 ais,
 cis'
 
-The Gentle Rain - Ly - Gsm Standard for Viola.ly
-refrain
-ais
-cis''
-
 The Gentle Rain - Ly - Gsm Standard.ly
 refrain
 ais
@@ -26177,11 +22359,6 @@ refrain
 ges,
 aes
 
-The Girl From Ipanema - Ly - Db Standard for Viola.ly
-refrain
-ges,
-aes
-
 The Girl From Ipanema - Ly - Db Standard.ly
 refrain
 ges
@@ -26201,11 +22378,6 @@ The Girl From Ipanema - Ly - F Bass for Standard.ly
 refrain
 bes,
 c'
-
-The Girl From Ipanema - Ly - F Standard for Viola.ly
-refrain
-bes
-c''
 
 The Girl From Ipanema - Ly - F Standard.ly
 refrain
@@ -26227,11 +22399,6 @@ refrain
 d,
 e'
 
-The In Crowd - Ly - D Standard for Viola.ly
-refrain
-d
-e''
-
 The In Crowd - Ly - D Standard.ly
 refrain
 d
@@ -26251,11 +22418,6 @@ The Jitterbug Waltz - Ly - C Bass for Standard.ly
 refrain
 e,
 e'
-
-The Jitterbug Waltz - Ly - C Standard for Viola.ly
-refrain
-e
-e''
 
 The Jitterbug Waltz - Ly - C Standard.ly
 refrain
@@ -26282,11 +22444,6 @@ refrain
 g,
 g'
 
-The Jitterbug Waltz - Ly - Eb Standard for Viola.ly
-refrain
-g
-g''
-
 The Jitterbug Waltz - Ly - Eb Standard.ly
 refrain
 g
@@ -26308,11 +22465,6 @@ a
 a''
 
 The Lady Is a Tramp - Ly - C Bass for Standard.ly
-refrain
-c
-d'
-
-The Lady Is a Tramp - Ly - C Standard for Viola.ly
 refrain
 c
 d'
@@ -26377,11 +22529,6 @@ refrain
 d
 e'
 
-The Lamp Is Low - Ly - G Standard for Viola.ly
-refrain
-d
-e'
-
 The Lamp Is Low - Ly - G Standard.ly
 refrain
 d'
@@ -26401,11 +22548,6 @@ The Late Late Show - Ly - Ab Bass for Standard.ly
 refrain
 ees,
 f
-
-The Late Late Show - Ly - Ab Standard for Viola.ly
-refrain
-ees
-f'
 
 The Late Late Show - Ly - Ab Standard.ly
 refrain
@@ -26447,11 +22589,6 @@ refrain
 a,
 b
 
-The Long Black Veil - Ly - D Standard for Viola.ly
-refrain
-a
-b'
-
 The Long Black Veil - Ly - D Standard.ly
 refrain
 a'
@@ -26473,11 +22610,6 @@ b
 cis''
 
 The Long Black Veil - Ly - E Bass for Standard.ly
-refrain
-b,
-cis'
-
-The Long Black Veil - Ly - E Standard for Viola.ly
 refrain
 b,
 cis'
@@ -26522,11 +22654,6 @@ refrain
 a,
 d'
 
-The Look of Love - Ly - F Standard for Viola.ly
-refrain
-a
-d''
-
 The Look of Love - Ly - F Standard.ly
 refrain
 a
@@ -26552,11 +22679,6 @@ refrain
 bes,
 ees'
 
-The Love Nest - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 The Love Nest - Ly - Eb Standard.ly
 refrain
 bes
@@ -26578,11 +22700,6 @@ aes
 aes'
 
 The Man I Love - Ly - Eb Bass for Standard.ly
-refrain
-ees
-ees'
-
-The Man I Love - Ly - Eb Standard for Viola.ly
 refrain
 ees
 ees'
@@ -26612,11 +22729,6 @@ refrain
 bes,
 ees'
 
-The More I See You - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 The More I See You - Ly - Eb Standard.ly
 refrain
 bes
@@ -26638,11 +22750,6 @@ aes
 bes'
 
 The Music Goes Round and Around - Ly - C Bass for Standard.ly
-refrain
-c
-d'
-
-The Music Goes Round and Around - Ly - C Standard for Viola.ly
 refrain
 c
 d'
@@ -26676,11 +22783,6 @@ The Music Goes Round Ella - Ly - Ab Alto Voice.ly
 refrain
 aes
 c''
-
-The Music Goes Round Ella - Ly - C Standard for Viola.ly
-refrain
-c
-e'
 
 The Music Goes Round Ella - Ly - C Standard.ly
 refrain
@@ -26732,11 +22834,6 @@ refrain
 c
 d'
 
-The Nearness of You - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 The Nearness of You - Ly - F Standard.ly
 refrain
 c'
@@ -26756,11 +22853,6 @@ The Night Has a Thousand Eyes - Ly - C Bass for Standard.ly
 refrain
 a,
 d'
-
-The Night Has a Thousand Eyes - Ly - C Standard for Viola.ly
-refrain
-a
-d''
 
 The Night Has a Thousand Eyes - Ly - C Standard.ly
 refrain
@@ -26792,11 +22884,6 @@ refrain
 c
 d'
 
-The Night We Called It a Day - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 The Night We Called It a Day - Ly - F Standard.ly
 refrain
 c'
@@ -26813,11 +22900,6 @@ d'
 e''
 
 The Preacher - Ly - F Bass for Standard.ly
-refrain
-c
-c'
-
-The Preacher - Ly - F Standard for Viola.ly
 refrain
 c
 c'
@@ -26857,11 +22939,6 @@ refrain
 a,
 b
 
-The Rainbow Connection - Ly - G Standard for Viola.ly
-refrain
-a
-b'
-
 The Rainbow Connection - Ly - G Standard.ly
 refrain
 a
@@ -26887,11 +22964,6 @@ refrain
 ais,
 e'
 
-The Shadow of Your Smile - Ly - G Standard for Viola.ly
-refrain
-ais
-e''
-
 The Shadow of Your Smile - Ly - G Standard.ly
 refrain
 ais
@@ -26912,11 +22984,6 @@ refrain
 f,
 ees
 
-The Shiek of Araby - Ly - Bb Standard for Viola.ly
-refrain
-f
-ees'
-
 The Shiek of Araby - Ly - Bb Standard.ly
 refrain
 f'
@@ -26933,11 +23000,6 @@ d'
 c''
 
 The Song Is You - Ly - C Bass for Standard.ly
-refrain
-c
-f'
-
-The Song Is You - Ly - C Standard for Viola.ly
 refrain
 c
 f'
@@ -26971,14 +23033,6 @@ c
 ees'
 
 The Thrill Is Gone - Ly - Dm Bass for Standard.ly
-verse
-e
-cis'
-refrain
-d
-f'
-
-The Thrill Is Gone - Ly - Dm Standard for Viola.ly
 verse
 e
 cis'
@@ -27041,11 +23095,6 @@ refrain
 b,
 e'
 
-The Touch of Your Lips - Ly - C Standard for Viola.ly
-refrain
-b
-e''
-
 The Touch of Your Lips - Ly - C Standard.ly
 refrain
 b
@@ -27080,11 +23129,6 @@ The Very Thought of You - Ly - Ab Bass for Standard.ly
 refrain
 bes,
 ees'
-
-The Very Thought of You - Ly - Ab Standard for Viola.ly
-refrain
-bes
-ees''
 
 The Very Thought of You - Ly - Ab Standard.ly
 refrain
@@ -27164,14 +23208,6 @@ refrain
 d
 f'
 
-The Way You Look Tonight - Ly - F Standard for Viola.ly
-intro
-g
-a'
-refrain
-d
-f'
-
 The Way You Look Tonight - Ly - F Standard.ly
 intro
 g'
@@ -27196,14 +23232,6 @@ refrain
 e'
 g''
 
-The Weight Chorus - Ly - A Standard for Viola.ly
-refrain
-fis
-e'
-refrain melody two
-b
-a'
-
 The Weight Chorus - Ly - A Standard.ly
 refrain
 fis'
@@ -27213,11 +23241,6 @@ b'
 a''
 
 The World Is Waiting for the Sunrise 1919 - Ly - C Bass for Standard.ly
-refrain
-d
-e'
-
-The World Is Waiting for the Sunrise 1919 - Ly - C Standard for Viola.ly
 refrain
 d
 e'
@@ -27247,11 +23270,6 @@ refrain
 bes,
 d'
 
-The World Is Waiting for the Sunrise Firehouse - Ly - Bb Standard for Viola.ly
-refrain
-bes
-d''
-
 The World Is Waiting for the Sunrise Firehouse - Ly - Bb Standard.ly
 refrain
 bes
@@ -27268,11 +23286,6 @@ g'
 b''
 
 The World Is Waiting for the Sunrise Les Paul - Ly - C Bass for Standard.ly
-refrain
-e
-a'
-
-The World Is Waiting for the Sunrise Les Paul - Ly - C Standard for Viola.ly
 refrain
 e
 a'
@@ -27302,11 +23315,6 @@ refrain
 c
 d'
 
-Them There Eyes - Ly - C Standard for Viola.ly
-refrain
-c
-d'
-
 Them There Eyes - Ly - C Standard.ly
 refrain
 c'
@@ -27331,11 +23339,6 @@ There Is No Greater Love - Ly - Bb Bass for Standard.ly
 refrain
 bes,
 ees'
-
-There Is No Greater Love - Ly - Bb Standard for Viola.ly
-refrain
-bes
-ees''
 
 There Is No Greater Love - Ly - Bb Standard.ly
 refrain
@@ -27402,11 +23405,6 @@ refrain
 bes,
 ees'
 
-There Will Never Be Another You - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 There Will Never Be Another You - Ly - Eb Standard.ly
 refrain
 bes
@@ -27447,11 +23445,6 @@ refrain
 c
 ees'
 
-These Foolish Things - Ly - Eb Standard for Viola.ly
-refrain
-c
-ees'
-
 These Foolish Things - Ly - Eb Standard.ly
 refrain
 c'
@@ -27473,11 +23466,6 @@ f
 g'
 
 They All Laughed - Ly - G Bass for Standard.ly
-refrain
-d
-e'
-
-They All Laughed - Ly - G Standard for Viola.ly
 refrain
 d
 e'
@@ -27507,11 +23495,6 @@ refrain
 bes,
 ees'
 
-They Can't Take That Away From Me - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 They Can't Take That Away From Me - Ly - Eb Standard.ly
 refrain
 bes
@@ -27536,11 +23519,6 @@ They Say It's Spring - Ly - Ab Bass for Standard.ly
 refrain
 g,
 bes
-
-They Say It's Spring - Ly - Ab Standard for Viola.ly
-refrain
-g
-bes'
 
 They Say It's Spring - Ly - Ab Standard.ly
 refrain
@@ -27571,11 +23549,6 @@ Things Ain't What They Used to Be - Ly - Db Bass for Standard.ly
 refrain
 aes,
 e'
-
-Things Ain't What They Used to Be - Ly - Db Standard for Viola.ly
-refrain
-aes
-e''
 
 Things Ain't What They Used to Be - Ly - Db Standard.ly
 refrain
@@ -27642,11 +23615,6 @@ refrain
 cis
 e'
 
-This Can't Be Love - Ly - G Standard for Viola.ly
-refrain
-cis
-e'
-
 This Can't Be Love - Ly - G Standard.ly
 refrain
 cis'
@@ -27682,11 +23650,6 @@ refrain
 b,
 d'
 
-This Is Always - Ly - G Standard for Viola.ly
-refrain
-b
-d''
-
 This Is Always - Ly - G Standard.ly
 refrain
 b
@@ -27703,11 +23666,6 @@ gis'
 b''
 
 This Masquerade - Ly - Fm Bass for Standard.ly
-refrain
-c
-aes'
-
-This Masquerade - Ly - Fm Standard for Viola.ly
 refrain
 c
 aes'
@@ -27777,11 +23735,6 @@ refrain
 d
 d'
 
-This Time the Dream's on Me - Ly - G Standard for Viola.ly
-refrain
-d
-d'
-
 This Time the Dream's on Me - Ly - G Standard.ly
 refrain
 d'
@@ -27807,11 +23760,6 @@ refrain
 bes,
 ees'
 
-Thou Swell - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Thou Swell - Ly - Eb Standard.ly
 refrain
 bes
@@ -27828,11 +23776,6 @@ c'
 f''
 
 Three Little Words - Ly - C Bass for Standard.ly
-refrain
-d
-e'
-
-Three Little Words - Ly - C Standard for Viola.ly
 refrain
 d
 e'
@@ -27871,11 +23814,6 @@ Time After Time - Ly - C Bass for Standard.ly
 refrain
 b,
 e'
-
-Time After Time - Ly - C Standard for Viola.ly
-refrain
-b
-e''
 
 Time After Time - Ly - C Standard.ly
 refrain
@@ -27952,11 +23890,6 @@ refrain
 c
 c'
 
-Time Changes Everything - Ly - F Standard for Viola.ly
-refrain
-c
-c'
-
 Time Changes Everything - Ly - F Standard.ly
 refrain
 c'
@@ -27987,11 +23920,6 @@ refrain
 c
 e'
 
-Time on My Hands - Ly - F Standard for Viola.ly
-refrain
-c
-e'
-
 Time on My Hands - Ly - F Standard.ly
 refrain
 c'
@@ -28012,11 +23940,6 @@ refrain
 bes,
 bes
 
-Tin Roof Blues - Ly - Bb Standard for Viola.ly
-refrain
-bes
-bes'
-
 Tin Roof Blues - Ly - Bb Standard.ly
 refrain
 bes
@@ -28033,11 +23956,6 @@ g'
 g''
 
 Tin Tin Deo - Ly - Fm Bass for Standard.ly
-refrain
-c
-ees'
-
-Tin Tin Deo - Ly - Fm Standard for Viola.ly
 refrain
 c
 ees'
@@ -28062,11 +23980,6 @@ refrain
 g,
 f
 
-Tired of Waiting for You - Ly - G Standard for Viola.ly
-refrain
-g
-f'
-
 Tired of Waiting for You - Ly - G Standard.ly
 refrain
 g'
@@ -28083,41 +23996,57 @@ e'
 d''
 
 Tis Autumn - Ly - Eb Bass for Standard.ly
-refrain
+verse
 c
-f'
-
-Tis Autumn - Ly - Eb Standard for Viola.ly
+e'
 refrain
 c
 f'
 
 Tis Autumn - Ly - Eb Standard.ly
+verse
+c'
+e''
 refrain
 c'
 f''
 
 Tis Autumn - Ly - Eb to C for Eb for Standard.ly
+verse
+a'
+cis'''
 refrain
 a'
 d'''
 
 Tis Autumn - Ly - Eb to F for Bb for Standard.ly
+verse
+d'
+fis''
 refrain
 d'
 g''
 
 Tis Autumn - Ly - G Alto Voice.ly
+verse
+e
+gis'
 refrain
 e
 a'
 
 Tis Autumn - Ly - G Bass for Alto Voice.ly
+verse
+e,
+gis
 refrain
 e,
 a
 
 Tis Autumn - Ly - G to A for Bb for Alto Voice.ly
+verse
+fis'
+ais''
 refrain
 fis'
 b''
@@ -28126,11 +24055,6 @@ Too Close for Comfort - Ly - C Bass for Standard.ly
 refrain
 b,
 ees'
-
-Too Close for Comfort - Ly - C Standard for Viola.ly
-refrain
-b
-ees''
 
 Too Close for Comfort - Ly - C Standard.ly
 refrain
@@ -28161,11 +24085,6 @@ Too Darn Hot - Ly - Cm Bass for Standard.ly
 refrain
 g,
 c'
-
-Too Darn Hot - Ly - Cm Standard for Viola.ly
-refrain
-g
-c''
 
 Too Darn Hot - Ly - Cm Standard.ly
 refrain
@@ -28217,11 +24136,6 @@ refrain
 b,
 d'
 
-Too Marvelous for Words - Ly - G Standard for Viola.ly
-refrain
-b
-d''
-
 Too Marvelous for Words - Ly - G Standard.ly
 refrain
 b
@@ -28241,11 +24155,6 @@ Topsy - Ly - Dm Bass for Standard.ly
 refrain
 a,
 des'
-
-Topsy - Ly - Dm Standard for Viola.ly
-refrain
-a
-des''
 
 Topsy - Ly - Dm Standard.ly
 refrain
@@ -28277,11 +24186,6 @@ refrain
 c
 f'
 
-Travlin Light - Ly - F Standard for Viola.ly
-refrain
-c
-f'
-
 Travlin Light - Ly - F Standard.ly
 refrain
 c'
@@ -28301,11 +24205,6 @@ Triste - Ly - Bb Bass for Standard.ly
 refrain
 a,
 cis'
-
-Triste - Ly - Bb Standard for Viola.ly
-refrain
-a
-cis''
 
 Triste - Ly - Bb Standard.ly
 refrain
@@ -28360,14 +24259,6 @@ refrain
 b,
 e'
 
-Troublant Bolero - Ly - E Standard for Viola.ly
-intro
-e,
-e
-refrain
-b,
-e'
-
 Troublant Bolero - Ly - E Standard.ly
 intro
 e,
@@ -28402,11 +24293,6 @@ refrain
 c
 c'
 
-True Love - Ly - G Standard for Viola.ly
-refrain
-c
-c'
-
 True Love - Ly - G Standard.ly
 refrain
 c'
@@ -28427,11 +24313,6 @@ refrain
 e,
 cis
 
-Tulsa Time - Ly - E Standard for Viola.ly
-refrain
-e
-cis'
-
 Tulsa Time - Ly - E Standard.ly
 refrain
 e'
@@ -28448,11 +24329,6 @@ fis'
 dis''
 
 Tumbling Tumbleweeds - Ly - D Bass for Standard.ly
-refrain
-d
-e'
-
-Tumbling Tumbleweeds - Ly - D Standard for Viola.ly
 refrain
 d
 e'
@@ -28476,11 +24352,6 @@ Tune Up - Ly - D Bass for Standard.ly
 refrain
 a,
 d'
-
-Tune Up - Ly - D Standard for Viola.ly
-refrain
-a
-d''
 
 Tune Up - Ly - D Standard.ly
 refrain
@@ -28507,11 +24378,6 @@ refrain
 dis
 d''
 
-Twisted - Ly - C Standard for Viola.ly
-refrain
-dis'
-d'''
-
 Twisted - Ly - C Standard.ly
 refrain
 dis'
@@ -28531,11 +24397,6 @@ Unchain My Heart - Ly - Am Bass for Standard.ly
 refrain
 g,,
 e
-
-Unchain My Heart - Ly - Am Standard for Viola.ly
-refrain
-g,
-e'
 
 Unchain My Heart - Ly - Am Standard.ly
 refrain
@@ -28577,11 +24438,6 @@ refrain
 f,
 des
 
-Undecided - Ly - Bb Standard for Viola.ly
-refrain
-f
-des'
-
 Undecided - Ly - Bb Standard.ly
 refrain
 f'
@@ -28607,11 +24463,6 @@ refrain
 c
 f'
 
-Under Paris Skies - Ly - Fm Standard for Viola.ly
-refrain
-c
-f'
-
 Under Paris Skies - Ly - Fm Standard.ly
 refrain
 c'
@@ -28628,11 +24479,6 @@ d'
 g''
 
 Until the Real Thing Comes Along - Ly - Eb Bass for Standard.ly
-refrain
-c
-e'
-
-Until the Real Thing Comes Along - Ly - Eb Standard for Viola.ly
 refrain
 c
 e'
@@ -28658,11 +24504,6 @@ d
 ees'
 
 Up Jumped Spring - Ly - Bb Bass for Standard.ly
-refrain
-d
-ees'
-
-Up Jumped Spring - Ly - Bb Standard for Viola.ly
 refrain
 d
 ees'
@@ -28717,11 +24558,6 @@ refrain
 a,
 ges'
 
-Upper Manhattan Medical Group - Ly - Db Standard for Viola.ly
-refrain
-a
-ges''
-
 Upper Manhattan Medical Group - Ly - Db Standard.ly
 refrain
 a
@@ -28746,11 +24582,6 @@ Vivo Sonhando - Ly - G Bass for Standard.ly
 refrain
 gis,
 a
-
-Vivo Sonhando - Ly - G Standard for Viola.ly
-refrain
-gis
-a'
 
 Vivo Sonhando - Ly - G Standard.ly
 refrain
@@ -28787,11 +24618,6 @@ refrain
 c
 f'
 
-Wait Till You See Her (Him) - Ly - Eb Standard for Viola.ly
-refrain
-c
-f'
-
 Wait Till You See Her (Him) - Ly - Eb Standard.ly
 refrain
 c'
@@ -28813,11 +24639,6 @@ e
 a'
 
 Walk Don't Run - Ly - C Bass for Standard.ly
-refrain
-g,
-c''
-
-Walk Don't Run - Ly - C Standard for Viola.ly
 refrain
 g,
 c''
@@ -28852,11 +24673,6 @@ refrain
 d
 f'
 
-Walkin' My Baby Back Home - Ly - Eb Standard for Viola.ly
-refrain
-d
-f'
-
 Walkin' My Baby Back Home - Ly - Eb Standard.ly
 refrain
 d'
@@ -28883,11 +24699,6 @@ fis,
 a
 
 Waltz for Debby Bill Evans - Ly - F Bass for Standard.ly
-refrain
-aes,
-f'
-
-Waltz for Debby Bill Evans - Ly - F Standard for Viola.ly
 refrain
 aes,
 f'
@@ -28927,11 +24738,6 @@ refrain
 d
 ees'
 
-Waltz for Debby Lyrics - Ly - Eb Standard for Viola.ly
-refrain
-d
-ees'
-
 Waltz for Debby Lyrics - Ly - Eb Standard.ly
 refrain
 d'
@@ -28967,11 +24773,6 @@ refrain
 c
 c'
 
-Watch What Happens - Ly - Eb Standard for Viola.ly
-refrain
-c
-c'
-
 Watch What Happens - Ly - Eb Standard.ly
 refrain
 c'
@@ -28991,11 +24792,6 @@ Watermelon Man - Ly - F Bass for Standard.ly
 refrain
 bes,,
 a
-
-Watermelon Man - Ly - F Standard for Viola.ly
-refrain
-bes,
-a'
 
 Watermelon Man - Ly - F Standard.ly
 refrain
@@ -29021,11 +24817,6 @@ Wave - Ly - D Bass for Standard.ly
 refrain
 d,
 b
-
-Wave - Ly - D Standard for Viola.ly
-refrain
-d
-b'
 
 Wave - Ly - D Standard.ly
 refrain
@@ -29067,11 +24858,6 @@ refrain
 c
 d'
 
-We Kiss in a Shadow - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 We Kiss in a Shadow - Ly - F Standard.ly
 refrain
 c'
@@ -29087,20 +24873,10 @@ refrain
 d'
 e''
 
-We Three Kings Five Four - Ly - Em Standard for Viola.ly
-refrain
-d
-d'
-
 We Three Kings Five Four - Ly - Em Standard.ly
 refrain
 d'
 d''
-
-We Three Kings Waltz - Ly - Em Standard for Viola.ly
-refrain
-d
-d'
 
 We Three Kings Waltz - Ly - Em Standard.ly
 refrain
@@ -29113,11 +24889,6 @@ aes
 bes'
 
 We'll Be Together Again - Ly - C Bass for Standard.ly
-refrain
-c
-d'
-
-We'll Be Together Again - Ly - C Standard for Viola.ly
 refrain
 c
 d'
@@ -29147,11 +24918,6 @@ refrain
 gis,
 ees'
 
-Well You Needn't - Ly - F Standard for Viola.ly
-refrain
-gis
-ees''
-
 Well You Needn't - Ly - F Standard.ly
 refrain
 gis
@@ -29177,11 +24943,6 @@ refrain
 gis,
 ees'
 
-Well You Needn't Lyrics - Ly - F Standard for Viola.ly
-refrain
-gis
-ees''
-
 Well You Needn't Lyrics - Ly - F Standard.ly
 refrain
 gis
@@ -29202,11 +24963,6 @@ refrain
 ees
 g'
 
-West Coast Blues - Ly - Bb Standard for Viola.ly
-refrain
-ees
-g'
-
 West Coast Blues - Ly - Bb Standard.ly
 refrain
 ees'
@@ -29222,11 +24978,6 @@ refrain
 c'
 e''
 
-West Coast Blues - Ly - G Standard for Viola.ly
-refrain
-c
-e'
-
 West Coast Blues - Ly - G Standard.ly
 refrain
 c'
@@ -29238,11 +24989,6 @@ a,
 b
 
 What Am I Here For - Ly - Bb Sher Chords.ly
-refrain
-a
-b'
-
-What Am I Here For - Ly - Bb Standard for Viola.ly
 refrain
 a
 b'
@@ -29277,11 +25023,6 @@ refrain
 bes,
 ees'
 
-What Is There to Say - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 What Is There to Say - Ly - Eb Standard.ly
 refrain
 bes
@@ -29301,11 +25042,6 @@ What Is This Thing Called Love - Ly - C Bass for Standard.ly
 refrain
 c,
 f
-
-What Is This Thing Called Love - Ly - C Standard for Viola.ly
-refrain
-c
-f'
 
 What Is This Thing Called Love - Ly - C Standard.ly
 refrain
@@ -29333,11 +25069,6 @@ gis
 e''
 
 What's Made Milwaukee Famous - Ly - C Bass for Standard.ly
-refrain
-b,
-g'
-
-What's Made Milwaukee Famous - Ly - C Standard for Viola.ly
 refrain
 b,
 g'
@@ -29373,11 +25104,6 @@ bes,
 ees'
 
 What's New - Ly - C Bass for Standard.ly
-refrain
-c
-f'
-
-What's New - Ly - C Standard for Viola.ly
 refrain
 c
 f'
@@ -29442,11 +25168,6 @@ refrain
 bes,
 d'
 
-When I Fall in Love - Ly - Eb Standard for Viola.ly
-refrain
-bes
-d''
-
 When I Fall in Love - Ly - Eb Standard.ly
 refrain
 bes
@@ -29463,11 +25184,6 @@ c'
 e''
 
 When I Take My Sugar to Tea - Ly - F Bass for Standard.ly
-refrain
-c
-d'
-
-When I Take My Sugar to Tea - Ly - F Standard for Viola.ly
 refrain
 c
 d'
@@ -29491,11 +25207,6 @@ When It's Sleepy Time Down South - Ly - C Bass for Standard.ly
 refrain
 a,
 d'
-
-When It's Sleepy Time Down South - Ly - C Standard for Viola.ly
-refrain
-a
-d''
 
 When It's Sleepy Time Down South - Ly - C Standard.ly
 refrain
@@ -29532,11 +25243,6 @@ refrain
 ees
 e'
 
-When Lights Are Low - Ly - Eb Standard for Viola.ly
-refrain
-ees
-e'
-
 When Lights Are Low - Ly - Eb Standard.ly
 refrain
 ees'
@@ -29558,11 +25264,6 @@ f
 aes'
 
 When Sunny Gets Blue - Ly - F Bass for Standard.ly
-refrain
-c
-ees'
-
-When Sunny Gets Blue - Ly - F Standard for Viola.ly
 refrain
 c
 ees'
@@ -29602,11 +25303,6 @@ refrain
 g,
 d'
 
-When You Wish Upon a Star - Ly - C Standard for Viola.ly
-refrain
-g
-d''
-
 When You Wish Upon a Star - Ly - C Standard.ly
 refrain
 g
@@ -29637,11 +25333,6 @@ refrain
 d
 e'
 
-When You're Smiling - Ly - Bb Standard for Viola.ly
-refrain
-d
-e'
-
 When You're Smiling - Ly - Bb Standard.ly
 refrain
 d'
@@ -29667,11 +25358,6 @@ refrain
 ees
 f'
 
-When Your Lover Has Gone - Ly - Ab Standard for Viola.ly
-refrain
-ees
-f'
-
 When Your Lover Has Gone - Ly - Ab Standard.ly
 refrain
 ees'
@@ -29692,11 +25378,6 @@ refrain
 c
 d'
 
-When Your Lover Has Gone - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 When Your Lover Has Gone - Ly - F Standard.ly
 refrain
 c'
@@ -29713,11 +25394,6 @@ d'
 e''
 
 When Your Lover Has Gone - Ly - G Bass for Standard.ly
-refrain
-d
-e'
-
-When Your Lover Has Gone - Ly - G Standard for Viola.ly
 refrain
 d
 e'
@@ -29767,11 +25443,6 @@ refrain
 cis
 d'
 
-Where Are You - Ly - G Standard for Viola.ly
-refrain
-cis
-d'
-
 Where Are You - Ly - G Standard.ly
 refrain
 cis'
@@ -29797,11 +25468,6 @@ refrain
 bes,
 ees'
 
-Where or When - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 Where or When - Ly - Eb Standard.ly
 refrain
 bes
@@ -29822,11 +25488,6 @@ refrain
 a,,
 c'
 
-While My Guitar Gently Weeps - Ly - Am Standard for Viola.ly
-refrain
-a,
-c''
-
 While My Guitar Gently Weeps - Ly - Am Standard.ly
 refrain
 a
@@ -29843,11 +25504,6 @@ fis
 a''
 
 Whisper Not - Ly - Cm Bass for Standard.ly
-refrain
-c
-d'
-
-Whisper Not - Ly - Cm Standard for Viola.ly
 refrain
 c
 d'
@@ -29877,11 +25533,6 @@ refrain
 ees
 f'
 
-Whispering - Ly - Eb Standard for Viola.ly
-refrain
-ees
-f'
-
 Whispering - Ly - Eb Standard.ly
 refrain
 ees'
@@ -29902,22 +25553,12 @@ refrain
 e
 fis'
 
-Who Walks In When I Walk Out - Ly - Dm Standard for Viola.ly
-refrain
-a,
-b
-
 Who Walks In When I Walk Out - Ly - Dm Standard.ly
 refrain
 a
 b'
 
 Who Walks In When I Walk Out - Ly - Gm Bass for Standard.ly
-refrain
-d
-e'
-
-Who Walks In When I Walk Out - Ly - Gm Standard for Viola.ly
 refrain
 d
 e'
@@ -29938,11 +25579,6 @@ b
 cis''
 
 Why Don't We Do This More Often - Ly - Bb Bass for Standard.ly
-refrain
-d
-ees'
-
-Why Don't We Do This More Often - Ly - Bb Standard for Viola.ly
 refrain
 d
 ees'
@@ -29992,11 +25628,6 @@ refrain
 cis
 d'
 
-Why Try to Change Me Now - Ly - F Standard for Viola.ly
-refrain
-cis
-d'
-
 Why Try to Change Me Now - Ly - F Standard.ly
 refrain
 cis'
@@ -30037,14 +25668,6 @@ g,
 a
 
 Wichita Lineman - Ly - F Bass for Standard.ly
-intro
-f,
-bes
-refrain
-c
-d'
-
-Wichita Lineman - Ly - F Standard for Viola.ly
 intro
 f,
 bes
@@ -30101,11 +25724,6 @@ refrain
 d
 ees'
 
-Willow Weep for Me - Ly - G Standard for Viola.ly
-refrain
-d
-ees'
-
 Willow Weep for Me - Ly - G Standard.ly
 refrain
 d'
@@ -30141,11 +25759,6 @@ refrain
 cis
 d'
 
-Winter Wonderland - Ly - Eb Standard for Viola.ly
-refrain
-d
-ees'
-
 Winter Wonderland - Ly - Eb Standard.ly
 refrain
 d'
@@ -30171,11 +25784,6 @@ refrain
 c
 d'
 
-Witchcraft - Ly - F Standard for Viola.ly
-refrain
-c
-d'
-
 Witchcraft - Ly - F Standard.ly
 refrain
 c'
@@ -30190,11 +25798,6 @@ Witchcraft - Ly - F to G for Bb for Standard.ly
 refrain
 d'
 e''
-
-With a Gun - Ly - Am Standard for Viola.ly
-refrain
-g
-g'
 
 With a Gun - Ly - Am Standard.ly
 refrain
@@ -30216,11 +25819,6 @@ refrain
 bes,
 f'
 
-Without a Song - Ly - Eb Standard for Viola.ly
-refrain
-bes
-f''
-
 Without a Song - Ly - Eb Standard.ly
 refrain
 bes
@@ -30241,11 +25839,6 @@ refrain
 b,
 g'
 
-Woody 'n' You - Ly - Db Standard for Viola.ly
-refrain
-b
-g''
-
 Woody 'n' You - Ly - Db Standard.ly
 refrain
 b
@@ -30262,11 +25855,6 @@ des'
 a''
 
 Work Song - Ly - Fm Bass for Standard.ly
-refrain
-ees
-f'
-
-Work Song - Ly - Fm Standard for Viola.ly
 refrain
 ees
 f'
@@ -30290,11 +25878,6 @@ Wrap Your Troubles in Dreams - Ly - C Bass for Standard.ly
 refrain
 e,
 e
-
-Wrap Your Troubles in Dreams - Ly - C Standard for Viola.ly
-refrain
-e
-e'
 
 Wrap Your Troubles in Dreams - Ly - C Standard.ly
 refrain
@@ -30320,11 +25903,6 @@ Yardbird Suite - Ly - C Bass for Standard.ly
 refrain
 g,
 d'
-
-Yardbird Suite - Ly - C Standard for Viola.ly
-refrain
-g
-d''
 
 Yardbird Suite - Ly - C Standard.ly
 refrain
@@ -30356,11 +25934,6 @@ refrain
 ees
 ees'
 
-Yes Sir That's My Baby - Ly - Eb Standard for Viola.ly
-refrain
-ees
-ees'
-
 Yes Sir That's My Baby - Ly - Eb Standard.ly
 refrain
 ees'
@@ -30377,11 +25950,6 @@ f'
 f''
 
 Yesterdays - Ly - Dm Bass for Standard.ly
-refrain
-d
-f'
-
-Yesterdays - Ly - Dm Standard for Viola.ly
 refrain
 d
 f'
@@ -30411,11 +25979,6 @@ refrain
 e,
 f
 
-You and the Night and the Music - Ly - Cm Standard for Viola.ly
-refrain
-e
-f'
-
 You and the Night and the Music - Ly - Cm Standard.ly
 refrain
 e'
@@ -30440,11 +26003,6 @@ You Belong to Me - Ly - Bb Bass for Vanilla.ly
 refrain
 c
 d'
-
-You Belong to Me - Ly - Bb Standard for Viola.ly
-refrain
-c
-f'
 
 You Belong to Me - Ly - Bb Standard.ly
 refrain
@@ -30514,14 +26072,6 @@ refrain
 g,
 a
 
-You Broke My Heart in Little Bitty Pieces - Ly - G Standard for Viola.ly
-intro
-g'
-g''
-refrain
-g
-a'
-
 You Broke My Heart in Little Bitty Pieces - Ly - G Standard.ly
 intro
 g'
@@ -30569,11 +26119,6 @@ refrain
 bes,
 ees'
 
-You Do Something to Me - Ly - Eb Standard for Viola.ly
-refrain
-bes
-ees''
-
 You Do Something to Me - Ly - Eb Standard.ly
 refrain
 bes
@@ -30613,11 +26158,6 @@ You Don't Know Me - Ly - Eb Bass for Standard.ly
 refrain
 bes,
 c''
-
-You Don't Know Me - Ly - Eb Standard for Viola.ly
-refrain
-bes
-c'''
 
 You Don't Know Me - Ly - Eb Standard.ly
 refrain
@@ -30669,11 +26209,6 @@ refrain
 c
 e'
 
-You Don't Know What Love Is - Ly - Fm Standard for Viola.ly
-refrain
-c
-e'
-
 You Don't Know What Love Is - Ly - Fm Standard.ly
 refrain
 c'
@@ -30696,55 +26231,45 @@ fis'
 
 You Go To My Head - Ly - Bb Alto Voice.ly
 refrain
-f
-c''
-
-You Go To My Head - Ly - Bb Bass for Alto Voice.ly
-refrain
 f,
 c'
 
-You Go To My Head - Ly - Bb to C for Bb High for Alto Voice.ly
+You Go To My Head - Ly - Bb Bass for Alto Voice.ly
 refrain
-g'
-d'''
+f,,
+c
 
-You Go To My Head - Ly - Bb to C for Bb Low for Alto Voice.ly
+You Go To My Head - Ly - Bb to C for Bb High for Alto Voice.ly
 refrain
 g
 d''
 
+You Go To My Head - Ly - Bb to C for Bb Low for Alto Voice.ly
+refrain
+g,
+d'
+
 You Go To My Head - Ly - Eb Bass for Standard.ly
+refrain
+bes,,
+f
+
+You Go To My Head - Ly - Eb Standard.ly
 refrain
 bes,
 f'
 
-You Go To My Head - Ly - Eb Standard for Viola.ly
-refrain
-bes
-f''
-
-You Go To My Head - Ly - Eb Standard.ly
-refrain
-bes
-f''
-
 You Go To My Head - Ly - Eb to C for Eb for Standard.ly
 refrain
-g'
-d'''
+g
+d''
 
 You Go To My Head - Ly - Eb to F for Bb for Standard.ly
 refrain
-c'
-g''
+c
+g'
 
 You Make Me Feel So Young - Ly - Bb Bass for Standard.ly
-refrain
-cis
-f'
-
-You Make Me Feel So Young - Ly - Bb Standard for Viola.ly
 refrain
 cis
 f'
@@ -30775,11 +26300,6 @@ aes
 bes'
 
 You Stepped Out of a Dream - Ly - C Bass for Standard.ly
-refrain
-c
-d'
-
-You Stepped Out of a Dream - Ly - C Standard for Viola.ly
 refrain
 c
 d'
@@ -30819,11 +26339,6 @@ refrain
 c
 des'
 
-You Turned the Tables on Me - Ly - F Standard for Viola.ly
-refrain
-c
-des'
-
 You Turned the Tables on Me - Ly - F Standard.ly
 refrain
 c'
@@ -30840,14 +26355,6 @@ d'
 ees''
 
 You'd Be So Nice to Come Home To - Ly - Am Bass for Standard.ly
-verse
-c
-e'
-refrain
-c
-e'
-
-You'd Be So Nice to Come Home To - Ly - Am Standard for Viola.ly
 verse
 c
 e'
@@ -30963,11 +26470,6 @@ refrain
 dis
 e'
 
-You're a Heavenly Thing - Ly - C Standard for Viola.ly
-refrain
-dis
-e'
-
 You're a Heavenly Thing - Ly - C Standard.ly
 refrain
 dis'
@@ -31003,11 +26505,6 @@ refrain
 d
 e'
 
-You're Driving Me Crazy - Ly - F Standard for Viola.ly
-refrain
-d
-e'
-
 You're Driving Me Crazy - Ly - F Standard.ly
 refrain
 d'
@@ -31033,11 +26530,6 @@ refrain
 c
 d'
 
-You've Changed - Ly - Eb Standard for Viola.ly
-refrain
-c
-d'
-
 You've Changed - Ly - Eb Standard.ly
 refrain
 c'
@@ -31059,11 +26551,6 @@ e
 fis'
 
 Young and Foolish - Ly - C Bass for Standard.ly
-refrain
-c
-e'
-
-Young and Foolish - Ly - C Standard for Viola.ly
 refrain
 c
 e'
@@ -31094,11 +26581,6 @@ g
 b'
 
 Young at Heart - Ly - Bb Bass for Standard.ly
-refrain
-c
-ees'
-
-Young at Heart - Ly - Bb Standard for Viola.ly
 refrain
 c
 ees'

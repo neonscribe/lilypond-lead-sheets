@@ -3,7 +3,7 @@
 \include "english.ly"
 
 subtitle = "Bass for Alto Voice Key"
-whatKey = ef
+whatKey = ef,
 whatClef = "bass"
 
 \include "../Core/Mood Indigo - Ly Core - Ab.ly"

@@ -72,9 +72,8 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Frank Sinatra 1957]" 70
 
   \partial 4 f8 g8 |
-  \bar "||"
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   a4. a8 \tuplet 3/2 { a4 g4 f4 } | e2 r4 d8 c8 | g'4. g8 \tuplet 3/2 { g4 f4 ef4 } | d2 r4 c8 bf8 |
   \break

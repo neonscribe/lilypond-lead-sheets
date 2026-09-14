@@ -80,7 +80,7 @@ refrainKey = ef
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative f'' {
+refrainMelody = \relative f' {
   \time 3/4
   \key \refrainKey \major
   \clef \whatClef
@@ -88,7 +88,7 @@ refrainMelody = \relative f'' {
 
   \sectNoBarNoBreak "A1"
 
-  c4 c4. af8 | g2 f4 | ef4 ef4. f8 | c2. |
+  c'4 c4. af8 | g2 f4 | ef4 ef4. f8 | c2. |
   %% \break
   c4 ef4. af8 | c2 c4 | bf2.~ | bf2. |
 

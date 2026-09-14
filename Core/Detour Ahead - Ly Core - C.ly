@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Woody Herman 1949]" 70
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   e4 g2. | b4 g2~ g8 g8 | a8 c8 b8 g8 a16 g16 e4. | \tuplet 3/2 { d4 e4 d4 } e2 |
   \break
@@ -110,13 +110,15 @@ refrainMelody = \relative f' {
   \break
   r8 g8 g8 a8 bf8 a8 g8 e8 | c4. c8 g'8 f4. | c8 d8 e8 a8 e8 c4 e8 | c2 r4 r8 b'8 |
 
-  \sectPageBreak "B"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "B"
 
   \tuplet 3/2 { b4 g4 a4 } b8 c4 b8 | a8 g8 f8 g8 a8 b4 a8 | gs2 r8 e8 fs8 gs8 | fs4 fs2 r8 b8 |
   \break
   \tuplet 3/2 { b4 g4 a4 } b4 c8 b8 | a8 g8 f8 g8 a4. b8 | gs4 gs2 gs4 | g4 g2. |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   e4 g2. | b4 g2~ g8 g8 | a8 c8 b8 g8 a16 g16 e4. | \tuplet 3/2 { d4 e4 d4 } e2 |
   \break

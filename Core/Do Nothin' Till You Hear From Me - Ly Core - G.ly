@@ -84,7 +84,7 @@ refrainMelody = \relative f' {
 
   \segnoSign
 
-  r8 c8 a8 as8 b8 d8 c8 a8 |
+  r8 c'8 a8 as8 b8 d8 c8 a8 |
 
   \bar "||-||"
 

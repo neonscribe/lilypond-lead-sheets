@@ -152,16 +152,14 @@ refrainMelody = \relative f' {
 
   r4 d'8 c8 af8 g8 f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
 
-  \bar "|o"
-
-  \xPageBreak
-
   a4( c4) r4 a8 a8 | g8( f4.) r4 af8 g8 |
 
 
   af8 g8 f8 d8 f4 f8 f8~ | f8 r8 r4 r2 |
 
-  \sectPageBreak "B"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "B"
 
   r8 d8 f8 d8 f8 d8 f8 d8 | f8 f8 f4 r2 | r4 a4 d8 c8 a8 f8 | a4 f8 g8~ g4 r4 |
   r4 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 g8 d8
@@ -170,7 +168,7 @@ refrainMelody = \relative f' {
   \revert NoteHead.style
   g8 a4 d8~( d4 c4) |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   r4 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 |
   r4 d8 c8 af8 g8 f8 d8 | f4 f8 d8~ d8( c8) r4 |

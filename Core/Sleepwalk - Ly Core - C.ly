@@ -34,7 +34,7 @@ refrainKey = c
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative f'' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
@@ -42,7 +42,7 @@ refrainMelody = \relative f'' {
 
   \sectNoBar "Intro"
 
-  \tuplet 3/2 { r8 e8 e8 } \tuplet 3/2 { e8 e8 e8 } \tuplet 3/2 { r8 a8 a8 } \tuplet 3/2 { a8 a8 a8 } |
+  \tuplet 3/2 { r8 e'8 e8 } \tuplet 3/2 { e8 e8 e8 } \tuplet 3/2 { r8 a8 a8 } \tuplet 3/2 { a8 a8 a8 } |
   \tuplet 3/2 { r8 af,8 af8 } \tuplet 3/2 { af8 af8 af8 } bf4 \ottava #1 { \tuplet 3/2 { g''8 a8 e'8~ } |
   \tuplet 3/2 { e8 b4~ } b4~ b2 } \ottava #0 |
   \tuplet 3/2 { a,,4 a8~ } \tuplet 3/2 { a8 a8 a8 } b4. r8 |

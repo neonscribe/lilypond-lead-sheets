@@ -99,9 +99,8 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Ray Bolger, Wizard of Oz 1939]" 128
 
   \partial 4 a8 bf8 |
-  \bar "||"
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   c8 a8 f8 g8 a8 f4 g8 | a8 f8 d8 e8 f8 d4 d8 | c8 c8 c8 c8 c4.
   \ambitusOff
@@ -121,13 +120,15 @@ refrainMelody = \relative f' {
   \break
   d4 d'8 c8 bf8 a8 g8 f8 | e8 e8 e'8 d8 c8 bf8 a8 g8 | f8 f8 f8 f8 f2~ | f2 r4 f4 |
 
-  \sectPageBreak "B"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "B"
 
   d'2~ d8 cs8 d8 e8 | c2. d4 | bf4 bf4 bf4 c4 | a2. bf8 a8 |
   \break
   g8 fs8 g8 fs8 g8 fs8 g8 a8 | f2 r8 g8 a8 c8 | d4 r4 r8 b8 a8 g8 | c2. a8 bf8 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   c8 a8 f8 g8 a8 f4 g8 | a8 f8 d8 e8 f8 d4 d8 | c8 c8 c8 c8 c4.
   \ambitusOff

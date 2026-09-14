@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Up [Bob Dorough 1957]" 210
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   d2 d'4 d,4 | e2 \tuplet 3/2 { fs4 g4 a4 } | d,4. d'8~ d4 d,4 | e2 \tuplet 3/2 { fs4 g4 a4 } |
   \break
@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \break
   \tuplet 3/2 { d4 d4 d4 } d2~ | d2 \tuplet 3/2 { c4 bf4 d,4 } | g1~ | g2 r8 g4 f8 |
 
-  \sectPageBreak "B"
+  \sect "B"
 
   g4 g4 g2~ | g2 \tuplet 3/2 { g4 a4 bf4 } | g4 g4 g2 | r8 g4. a4 bf4 |
   \break
@@ -80,7 +80,9 @@ refrainMelody = \relative f' {
   \break
   \tuplet 3/2 { c4 c4 c4 } \tuplet 3/2 { c4 c4 c4 } | c4 ef4 d4 c4 | b1 | r1 |
 
-  \sectPageBreak "A3"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "A3"
 
   d,4 r8 d'8~ d4 d,8 e8~ e2 \tuplet 3/2 { fs4 g4. a8 } | d,4 d'2 d,4 | e2 \tuplet 3/2 { fs4 g4 a4 } |
   \break

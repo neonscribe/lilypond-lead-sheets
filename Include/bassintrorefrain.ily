@@ -2,6 +2,8 @@
 
 \version "2.26.0"
 
+thisKey = \whatKey
+
 includeFile = 
 #(if (and (defined? 'midiOnly) midiOnly)
   "../Include/bassintrorefrain-midi.ily"

@@ -48,7 +48,7 @@ refrainKey = c
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative c' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef

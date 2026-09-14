@@ -68,14 +68,14 @@ refrainKey = df
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative c'' {
+refrainMelody = \relative f' {
   \time 4/4
   \clef \whatClef
   \tempoFour "Ballad [Carmen McRae 1990]" 58
 
   \sectNoBar "A1"
 
-  c8 g8 e8 c8 b8 b'4. | bf8 f8 d8 bf8 a8 a'4. |
+  c'8 g8 e8 c8 b8 b'4. | bf8 f8 d8 bf8 a8 a'4. |
   af8 bf8 af8 bf8 af4 e!4 | f1 |
   f8 df8 bf8 g8 fs8 e'!4. | ef8 df8 \tuplet 3/2 { c8 df8 f8 } c'8 bf4. |
   df8 bf8 \tuplet 3/2 { gf8 ef8 bf8 } f'4 e4 | f4 bf4 ef,4 af4 |

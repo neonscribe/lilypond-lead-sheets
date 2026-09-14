@@ -18,15 +18,15 @@ introChords = \chordmode {
   d1 d1:7 g1 g1
 }
 
-introMelody = \relative f'' {
+introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
-  \tempoFour "Western Swing [Hank Thomson 1949]" 155
+  \tempoFour "Western Swing [Hank Thompson 1949]" 155
 
   \mark \markup { "Intro" }
 
-  fs2-"(accordion)" e4 d4 | c4 d4 b4 a4 | g2 fs'2(-"(steel guitar)" | g1) |
+  fs'2-"(accordion)" e4 d4 | c4 d4 b4 a4 | g2 fs'2(-"(steel guitar)" | g1) |
   \bar "||"
 }
 

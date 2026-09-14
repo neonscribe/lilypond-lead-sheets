@@ -55,8 +55,9 @@ refrainChords = \chordmode {
 refrainKey = g
 
 whatKey = #(or whatKey refrainKey)
+bassKey = #(or bassKey refrainKey)
 
-refrainMelody = \relative g, {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef bass
@@ -71,7 +72,7 @@ refrainMelody = \relative g, {
       \new CueVoice
       {
 	\ottava #1
-	  d''8\rest^"steel guitar" d8 \tuplet 3/2 { fs8 g8 a8 } b8 d8 fs4 |
+	  d8\rest^"steel guitar" d8 \tuplet 3/2 { fs8 g8 a8 } b8 d8 fs4 |
 	\ottava #0
       }
       >>
@@ -120,7 +121,7 @@ refrainMelody = \relative g, {
       g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4
       r4 | g4 d4 e4 fs4 |
 
-      \sect "Solo"
+      \sectPageBreak "Solo"
 
       g4 r4 d4 r4 | c4 r4 e4 fs4 | g4 r4 d4 r4 | g4 d4 e4 fs4 |
       \break

@@ -97,13 +97,13 @@ refrainKey = c
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative c' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium Swing [Ink Spots 1942]" 104
 
-  r8 e4 d8 c8 g8 f8 e8~ |
+  r8 e'4 d8 c8 g8 f8 e8~ |
 
   \sectNoBreak "A1"
   <<

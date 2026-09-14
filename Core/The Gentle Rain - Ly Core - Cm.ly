@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Bossa [Astrud Gilberto 1965]" 100
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   g2~ \tuplet 3/2 { g4 f4 ef4 } | ef2~ \tuplet 3/2 { ef4 f4 g4 } |
   g2~ \tuplet 3/2 { g4 f4 ef4 } | d2~ \tuplet 3/2 { d4 ef4 f4 } |
@@ -100,14 +100,16 @@ refrainMelody = \relative f' {
   cf2~  \tuplet 3/2 { cf4 bf4 af4 } | af2~ \tuplet 3/2 { af4 g4 f4 } |
   g1~ | g1 |
 
-  \sectPageBreak "A2"
+  \sect "A2"
 
   g2~ \tuplet 3/2 { g4 f4 ef4 } | ef2~ \tuplet 3/2 { ef4 f4 g4 } |
   g2~ \tuplet 3/2 { g4 f4 ef4 } | d2~ \tuplet 3/2 { d4 ef4 f4 } |
   \break
   g1~ | g2 g8 bf8 g8 ef8 | f1~ | f1 |
 
-  \sectPageBreak "B2"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "B2"
 
   ef'2~ \tuplet 3/2 { ef4 d4 c4 } | c2~ \tuplet 3/2 { c4 bf4 a4 } |
   df2~ \tuplet 3/2 { df4 c4 bf4 } | bf2~ \tuplet 3/2 { bf4 af4 g4 } |

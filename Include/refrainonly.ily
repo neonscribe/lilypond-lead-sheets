@@ -2,6 +2,8 @@
 
 \version "2.26.0"
 
+thisKey = \refrainKey
+
 includeFile = 
 #(if (and (defined? 'midiOnly) midiOnly)
   "../Include/refrainonly-midi.ily"

@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium Swing [Peggy Lee 1958]" 140
 
-  \partial 4. bf8 c8 ef8~ |
+  \partial 4. bf,8 c8 ef8~ |
 
   \sectNoBreak "A1"
 

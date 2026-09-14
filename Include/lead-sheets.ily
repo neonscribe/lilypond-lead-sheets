@@ -9,6 +9,11 @@ printNoteNames =
     printNoteNames
     (ly:get-option 'print-note-names))
 
+noChordRepeats = 
+  #(if (defined? 'noChordRepeats)
+    noChordRepeats
+    (ly:get-option 'no-chord-repeats))
+
 lowTrebleEightVB =
   #(if (defined? 'lowTrebleEightVB)
     lowTrebleEightVB
@@ -31,6 +36,8 @@ whatKey =
 #(if (and (defined? 'whatKey) whatKey)
   whatKey
   #f)
+
+thisKey = \whatKey
 
 bassKey =
 #(if (and (defined? 'bassKey) bassKey)

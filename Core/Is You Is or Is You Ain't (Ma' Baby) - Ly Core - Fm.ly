@@ -85,7 +85,7 @@ verseChords = \verseNicoChords
 
 verseKey = f
 
-verseMelody = \relative g' {
+verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \minor
   \clef \whatClef
@@ -208,14 +208,14 @@ isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative g' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
 
   \sectStartRefrain "A1"
 
-  c4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r2 r4 r8 f8 |
+  c'4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r2 r4 r8 f8 |
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r1 |
 
   \sect "A2"

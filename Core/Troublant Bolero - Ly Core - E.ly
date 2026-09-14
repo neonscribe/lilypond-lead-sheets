@@ -52,6 +52,7 @@ refrainChords = \chordmode {
 refrainKey = e
 
 whatKey = #(or whatKey refrainKey)
+bassKey = #(or bassKey refrainKey)
 
 refrainMelody = \relative f' {
   \time 4/4

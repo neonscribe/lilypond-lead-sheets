@@ -26,9 +26,11 @@ verseChords = \chordmode {
   ef1:6.9 a2:m11 d2:13 g2:maj7 e2:m7 a1:m7 d2:sus9 d2:aug7 g1:m7 c2:13 c4:aug9
 }
 
+verseKey = ef
+
 verseMelody = \relative f' {
   \time 2/2
-  \key ef \major
+  \key \verseKey \major
   \clef \whatClef
   \tempo "Medium Ballad or Freely"
 
@@ -102,7 +104,7 @@ refrainKey = ef
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative f'' {
+refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef
@@ -112,7 +114,7 @@ refrainMelody = \relative f'' {
 
   \sectNoBreak "A1"
 
-  ef8 c8 ef8 c8~ c4~ \tuplet 3/2 { c8 af8 g8 } | fs8 d'4 c8~ c2 |
+  ef'8 c8 ef8 c8~ c4~ \tuplet 3/2 { c8 af8 g8 } | fs8 d'4 c8~ c2 |
   r8 d8 bf8 g8 bf8 bf4. | r8 d8 bf8 g8 e2 |
   r8 c'8 af8 bf8 g4. f8 | ef8 g8 f'8 d8~ d2 |
   c8 ef8 c8 af8 \tuplet 3/2 { g8 bf8 g8~ } g8 f8 | c8 ef4.~ ef4 r8 c'8 |
@@ -136,10 +138,8 @@ refrainMelody = \relative f'' {
 
   ef8 c8 ef8 c8~ c4~ \tuplet 3/2 { c8 af8 g8 } | fs8 d'4 c8~ c4 d8 bf8 |
   d4 bf8 g8 bf4. bf8 |
-  \break
   d4~ \tuplet 3/2 { d8 bf8 g8 } e2 |
   r8 c'8 af8 bf8 g4. f8 | ef8 g8 f'8 d8~ d2 \textToCodaLastTime |
-  \break
   c8 ef8 c8 af8 \tuplet 3/2 { g8 bf8 g8~ } g8 f8 |
   \partial 2. c8 ef4.~ ef4 |
 
@@ -149,11 +149,10 @@ refrainMelody = \relative f'' {
 
   c'8 ef8 c8 af8 \tuplet 3/2 { g8 bf8 g8~ } g4 |
   d'8 f8 d8 bf8 \tuplet 3/2 { a8 c8 a8~ } a4 |
-  \break
   c8 ef8 c8 af8 \tuplet 3/2 { g8 bf8 g8~ } g8 f8 |
   c8 ef4.~ ef2 |
 
   \bar "|."
 }
 
-\include "../Include/refrainonly.ily"
+\include "../Include/verserefrain.ily"

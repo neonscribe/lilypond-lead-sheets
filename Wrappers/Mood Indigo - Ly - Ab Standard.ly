@@ -3,7 +3,7 @@
 \include "english.ly"
 
 subtitle = "Standard Key"
-whatKey = af'
+whatKey = af
 whatClef = "treble"
 
 \include "../Core/Mood Indigo - Ly Core - Ab.ly"

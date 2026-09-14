@@ -59,9 +59,8 @@ refrainMelody = \relative f' {
   \tempoFour "Ballad [Chet Baker 1959, 54 BPM] or Medium [Artie Shaw 1939]" 115
 
   \partial 4 g4 |
-  \bar "||"
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   e8 e8 e8 e8~ \tuplet 3/2 { e4 d4 c4 } | e8 f8 g8 e8~ e4. c8 |
   \break
@@ -77,7 +76,9 @@ refrainMelody = \relative f' {
   d'8 d8 d8 bf8~ \tuplet 3/2 { bf4 a4 g4 } | f8 f8 f8 d8~ d4 c8 d8 |
   \tuplet 3/2 { e4 e4 e4 } a4 b,8 c8~ | c2 r8 c8 c8 c8 |
 
-  \sectPageBreak "B"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "B"
 
   ef8 ef8~ ef2 e4 | \tuplet 3/2 { f4 g4 af4 } \tuplet 3/2 { bf4 c4 df4 } |
   \break
@@ -85,7 +86,7 @@ refrainMelody = \relative f' {
   ef8 ef8~ ef2 e4 | \tuplet 3/2 { f4 g4 af4 } \tuplet 3/2 { bf4 c4 df4 } |
   \tuplet 3/2 { ef4 c4 af4 } \tuplet 3/2 { ef'4 c4 af4 } | g2. r8 g8 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   e8 e8 e8 e8~ \tuplet 3/2 { e4 d4 c4 } | e8 f8 g8 e8~ e4. c8 |
   \break

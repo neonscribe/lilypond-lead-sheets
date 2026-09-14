@@ -47,6 +47,7 @@ refrainKey = f
 whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
+  \numericTimeSignature
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
@@ -69,6 +70,7 @@ refrainMelody = \relative f' {
   a8 a4 a8 c4. a8 | g8 a8 g8 f8 d4 f4 | c4 c4 d8 d8 f4 |
   \time 2/4
   g8 a8 g8 f8 |
+  \numericTimeSignature
   \time 4/4
   d4 f2. |
   \sect "Solo"

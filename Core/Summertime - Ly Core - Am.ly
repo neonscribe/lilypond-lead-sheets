@@ -178,13 +178,13 @@ isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative f'' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \minor
   \clef \whatClef
   \tempoFour "Medium [Miles Davis and Gil Evans 1959]" 110
 
-  \partial 2 e4 c4 |
+  \partial 2 e'4 c4 |
 
   \sectNoBreak "A1"
 

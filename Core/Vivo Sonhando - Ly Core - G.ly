@@ -100,7 +100,7 @@ refrainKey = g
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative g' {
+refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef \whatClef

@@ -44,7 +44,7 @@ refrainKey = c
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative c'' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
@@ -52,7 +52,7 @@ refrainMelody = \relative c'' {
   \tempoFour "Latin [Miles Davis 1958]" 160
   \sectNoBarNoBreak "A1"
 
-  c2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |
+  c'2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |
   \break
 
   a2 a2~ | a2 \tuplet 3/2 { af4 f4 df4 } | g1~ | g2 r2

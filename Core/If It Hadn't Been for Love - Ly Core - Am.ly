@@ -123,9 +123,9 @@ refrainMelody = \relative f' {
 
   r1 |
 
+  \bar "||"
   \xxPageBreak
-
-  \sectNoBreak "Chorus"
+  \sectNoBar "Chorus"
 
   g'2. e4 | d8( c4.) r4 d4 | d2. e4 | d8( c4.) r4 g'4 |
   \break

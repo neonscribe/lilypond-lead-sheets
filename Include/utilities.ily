@@ -477,10 +477,10 @@ context-property."
 #(define-markup-command (tpNote layout props mus) (ly:music?)
    ;; accept mus as music instead of pitch
    ;; in order to allow for transposition
-  '(ly:message "whatKey ~a refrainKey ~a" whatKey refrainKey)
+  '(ly:message "whatKey ~a refrainKey ~a" thisKey refrainKey)
    (let*
     ((pitch (first (music-pitches (ly:music-transpose (no-double-accidental mus)
-				   (- whatKey refrainKey)))))
+				   (- thisKey refrainKey)))))
      (alt (ly:pitch-alteration pitch)))
     (interpret-markup
      layout

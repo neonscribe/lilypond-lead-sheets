@@ -3,7 +3,7 @@
 \include "english.ly"
 
 subtitle = "Eb for Standard Key"
-whatKey = a'
+whatKey = a
 whatClef = "treble"
 
 \include "../Core/Born to Be Blue - Ly Core - C.ly"

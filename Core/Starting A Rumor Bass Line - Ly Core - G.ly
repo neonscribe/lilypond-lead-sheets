@@ -59,7 +59,7 @@ refrainKey = g
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative g, {
+refrainMelody = \relative f' {
   \time 2/2
   \key \refrainKey \major
   \clef bass
@@ -67,7 +67,7 @@ refrainMelody = \relative g, {
 
   \sectNoBar "Intro"
 
-  e4 e4 g4 a4 | b4 b2. | c4 c2 g4~ | g1 |
+  e,,4 e4 g4 a4 | b4 b2. | c4 c2 g4~ | g1 |
 
   \sect "Verse 1"
 

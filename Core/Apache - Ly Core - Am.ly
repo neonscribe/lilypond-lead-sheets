@@ -19,7 +19,7 @@ isMinor = ##t
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody =  \relative a' {
+refrainMelody =  \relative f' {
     \clef \whatClef
     \time 4/4
     \key a \minor

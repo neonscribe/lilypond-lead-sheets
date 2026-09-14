@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { ef8 f8 ef8 } bf'4 \tuplet 3/2 { gf16 f16 ef16 } c8 \tuplet 3/2 { bf8 g8 c8~ } |
   c2 r4 c'4 |
 
-  \sectPageBreak "B"
+  \sect "B"
 
   g'16 f16 ef16 c16 f8 ef8~ \tuplet 3/2 { ef8 g,8 g8 } \tuplet 3/2 { g8 g8 g8 } |
   d'16 c16 bf16 g16 c8 bf8~ \tuplet 3/2 { bf8 c,8 d8 } \tuplet 3/2 { ef8 g8 a8 } |
@@ -82,7 +82,9 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { ef8 f8 ef8 } bf'4 \tuplet 3/2 { f8 ef8 c8 } \tuplet 3/2 { bf8 g8 c8~ } |
   c2 r4 r8 c8 |
 
-  \sectPageBreak "A3"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "A3"
 
   f8-. g8 \tuplet 3/2 { c,8 f8 ef8~ } ef4. c8 |
   f8-. g8 \tuplet 3/2 { c,8 f8 ef8~ } \tuplet 3/2 { ef8 c8 d8 } \tuplet 3/2 { ef8 g8 a8 } |

@@ -35,7 +35,7 @@ refrainKey = g
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative f'' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
@@ -49,7 +49,7 @@ refrainMelody = \relative f'' {
   \sect "A1"
   \tempoFour "Easy Swing [Django Reinhardt 1935]" 184
 
-  cs8 e8 g8 b8 r8 b4 r8 | c,8 ef8 f8 b8~ b4. r8 | b,8 d8 fs8 a8 r8 a4 r8 | bf,8 df8 e8 a8~ a4 g4 |
+  cs'8 e8 g8 b8 r8 b4 r8 | c,8 ef8 f8 b8~ b4. r8 | b,8 d8 fs8 a8 r8 a4 r8 | bf,8 df8 e8 a8~ a4 g4 |
   \break
   c,4 e2 c4 | b4 d2 b4 | fs4. e8~ e2 | r1 |
 

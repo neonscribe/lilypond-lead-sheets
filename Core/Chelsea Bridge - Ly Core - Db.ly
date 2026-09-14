@@ -60,7 +60,9 @@ refrainMelody = \relative f' {
   } \volta 2 {
   df,2.\repeatTie af'8 a8 |
   } } }
-  \sect "B"
+
+  \bar "||"
+  \sectNoBar "B"
 
   \key e \major
 

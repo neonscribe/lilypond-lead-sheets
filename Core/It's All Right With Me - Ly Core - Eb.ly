@@ -18,14 +18,16 @@ headerPoet = ""
 headerComposer = "Cole Porter"
 headerCopyright = "© 1953 Chappell & Co."
 
-peggyLeeIntroChords = \chordmode {
+introKey = ef
+
+introChords = \chordmode {
   c1:m c1:m7+ c1:m7 c1:m6
   f1:m7.5- bf1:7.9- d1:m7.5- g4:7.9- r4
 }
 
-peggyLeeIntroMelody = \relative f'' {
+introMelody = \relative f' {
   \time 2/2
-  \key ef \major
+  \key \introKey \major
   \clef \whatClef
   \tempoFour "Fast Swing [Peggy Lee 1957]" 276
 

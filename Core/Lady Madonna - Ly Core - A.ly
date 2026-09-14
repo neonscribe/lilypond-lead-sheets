@@ -51,6 +51,7 @@ introKey = a
 refrainKey = a
 outroKey = a
 whatKey = #(or whatKey refrainKey)
+bassKey = #(or bassKey refrainKey)
 
 
 introBass = \relative f' {

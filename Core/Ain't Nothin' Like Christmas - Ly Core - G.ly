@@ -55,7 +55,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Bluesy Country Swing [Shelby Lynne 2010]" 128
 
-  \partial 2. e4 e8 d8 e4 |
+  \partial 2. e'4 e8 d8 e4 |
 
   \sectNoBarNoBreak "Chorus"
 

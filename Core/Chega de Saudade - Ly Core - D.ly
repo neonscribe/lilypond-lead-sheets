@@ -191,7 +191,10 @@ refrainMelody = \relative f' {
   g2 bf4. cs,8~ | cs2~ cs8 a'4 g8~ | g8 f4 a8~ a8 g8 f4 | e4 d8 cs8~ cs8 d4 f8~ |
   f8 d4 b8~ b8 d4. | f8 df4 bf8~ bf8 f'4 d8~ | d1 | r1 |
 
-  \sectPageBreak "C"
+  \bar "||"
+  \xxPageBreak
+
+  \sectNoBar "C"
 
   \key \refrainKey \major
   fs2. a8 g8~ | g2~ g8 ds4 fs8~ | fs4. e8 ds8 e4 b'8~ | b4 g8 e8~ e8 b4 d8~ |
@@ -202,7 +205,7 @@ refrainMelody = \relative f' {
   r8 cs8 e8 d8 cs8 d4 f8~ | f8 af4 cs8~ cs8 b4 a8~ | a8 g4 b,8~ b2~ | b4 b8 cs8~ cs8 d4 fs8~ |
   fs8 e4 d8 b4 gs4~ | gs4 b8 cs8~ cs8 e4 d8~ | d2~ d4. cs8~ | cs1 |
 
-  \sectPageBreak "D"
+  \sect "D"
 
   fs2 a,4. b8~ | b2. fs'4 | e2 b4. d8~ | d2~ d8 e4. |
   fs2 as,4. cs8~ | cs2~ cs8 fs4 e8~ | e8 d4 cs8 d4 e4~ | e4 d8 fs8~ fs8 b4 a8~ |

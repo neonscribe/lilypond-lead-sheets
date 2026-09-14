@@ -38,7 +38,7 @@ verseChords = \chordmode {
 
 verseKey = c
 
-verseMelody = \relative g' {
+verseMelody = \relative f' {
   \time 2/2
   \key \verseKey \major
   \clef \whatClef
@@ -46,7 +46,7 @@ verseMelody = \relative g' {
 
   \xTextMark \markup{ "Verse" }
 
-  c4 g4 g4 c4 | c4 g4 g2 | c4 g4 g4 b4 | b1 |
+  c'4 g4 g4 c4 | c4 g4 g2 | c4 g4 g4 b4 | b1 |
   \break
   b4 g4 g4 b4 | b4 g4 g2 | b4 g4 g4 a4 | a1 |
   \break
@@ -115,7 +115,7 @@ refrainKey = c
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative g' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
@@ -150,7 +150,9 @@ refrainMelody = \relative g' {
     c1\repeatTie | r1 |
   } } }
 
-  \sectPageBreak "B"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "B"
 
   \set Score.currentBarNumber = #13
   g'2~ g8 b8 c8 b8 | fs8 b8 c8 b8 b,8 fs'8 g8 fs8 | g2~ g8 g8 a8 g8 | b8 g8 a8 g8 b8 g8 a4 |

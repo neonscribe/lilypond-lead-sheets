@@ -50,7 +50,7 @@ introChords = \chordmode {
 
 introKey = f
 
-introMelody = \relative g' {
+introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
@@ -61,7 +61,7 @@ introMelody = \relative g' {
   \bar ".|:"
 
   \repeat volta 2 {
-    r4 c4 d2 | r4 a'4 g2 | r4 e4 d2 | r4 a4 g2 |
+    r4 c'4 d2 | r4 a'4 g2 | r4 e4 d2 | r4 a4 g2 |
   }
 }
 
@@ -93,7 +93,7 @@ refrainKey = f
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative g' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
@@ -103,7 +103,7 @@ refrainMelody = \relative g' {
   \bar ".|:"
 
   \repeat volta 2 {
-    c1 | f,1 | g4 a4 bf4 a4 | g1 |
+    c'1 | f,1 | g4 a4 bf4 a4 | g1 |
     a4 bf4 c4 bf4 | a1 | bf4 c4 d4 c4 | bf4 c4 d4 e4 |
     f1 | f,1 | g4 a4 c4 bf4 | a2 g2 |
 

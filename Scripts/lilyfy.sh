@@ -116,6 +116,14 @@ for file in *.ly; do
     fi
 done
 
+python ../Scripts/all_wrappers_book.py
+python ../Scripts/sort_book.py ../TeX/All\ Songs\ All\ Versions.book
+mv ../TeX/All\ Songs\ All\ Versions.sortedbook ../TeX/All\ Songs\ All\ Versions.book
+
+python ../Scripts/all_core_book.py
+python ../Scripts/sort_book.py ../TeX/All\ Songs.book
+mv ../TeX/All\ Songs.sortedbook ../TeX/All\ Songs.book
+
 python ../Scripts/parse-log-ambitus.py > range-data.txt
 python ../Scripts/collect-customizers.py > customizers.json
 check-jsonschema --schemafile customizers-schema.json customizers.json

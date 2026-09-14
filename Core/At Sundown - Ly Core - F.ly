@@ -91,13 +91,13 @@ refrainKey = f
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative f'' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium-Up [Artie Shaw 1939]" 176
 
-  \partial 2 c8 b8 c8 cs8 |
+  \partial 2 c'8 b8 c8 cs8 |
 
   \sectNoBreak "A1"
 

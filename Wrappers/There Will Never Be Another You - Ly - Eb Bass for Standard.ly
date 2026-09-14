@@ -3,7 +3,7 @@
 \include "english.ly"
 
 subtitle = "Bass for Standard Key"
-whatKey = ef,,
+whatKey = ef,
 whatClef = "bass"
 
 \include "../Core/There Will Never Be Another You - Ly Core - Eb.ly"

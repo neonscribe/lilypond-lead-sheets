@@ -40,7 +40,7 @@ refrainKey = a
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative g {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef "bass"
@@ -56,7 +56,7 @@ refrainMelody = \relative g {
 
   \repeat volta 2 {
 
-    a4
+    a,4
 
     \segnoSign
 
@@ -95,7 +95,7 @@ refrainMelody = \relative g {
   \break
   a4 \xNote { a8 } a8~ a8 fs8 e8 fs8 | e4 \xNote { e8 } e8~ e4 e4 |
   d4 \xNote { d8 } d8~ d4 d4 |
-
+  \break
   g8 g8 g8 g8 d4 g4 |
   a4 a4 e8 fs8 gs8 a8~ | a4 a4 e8 e8 gs8
   \dalSegno

@@ -31,7 +31,7 @@ introChords = \chordmode {
 
 introKey = af
 
-introMelody = \relative c' {
+introMelody = \relative f' {
   \time 4/4
   \key \introKey \major
   \clef \whatClef
@@ -102,7 +102,7 @@ refrainKey = af
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative c' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef

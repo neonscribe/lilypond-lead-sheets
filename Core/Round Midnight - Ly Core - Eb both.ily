@@ -147,14 +147,14 @@ refrainKey = ef
 
 whatKey = #(or whatKey refrainKey)
 
-refrainMelody = \relative c' {
+refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \tonality
   \clef \whatClef
   \tempoFour "Ballad [Miles Davis Quintet 1956]" 57
 
   \sectNoBarNoBreak "A1"
-    r4 bf16 ef16 f16 bf16 gf4. bf,8 | ef8 ef4 ef8 bf'8 af4. |
+    r4 bf,16 ef16 f16 bf16 gf4. bf,8 | ef8 ef4 ef8 bf'8 af4. |
     r4 ef16 gf16 bf16 df16 c4. gf8 | a4 af4 af4 g4 |
     r4 af16 cf16 ef16 gf16 f4. cf8 | bf2 r4 ef,8
     f8 |

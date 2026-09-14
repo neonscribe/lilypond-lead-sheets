@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   bf1~ | bf1~ | bf4 c4 b4 bf4 | a4 af4 gf4 e4 |
   f1~ | f1~ | f1~ | f2. r4 |
 
-  \sectPageBreak "B"
+  \sect "B"
 
   %% Vocal bridge
   f'1~ | f4 gf4 f4 c4 | ef1 | df1 |
@@ -95,7 +95,9 @@ refrainMelody = \relative f' {
   ef1~ | ef4 f4 ef4 c4 | bf1 | f'2 e2 |
   ef2. f,4~ | f4 g4 af4 bf4 | c1~ | c2 c2 |
 
-  \sectPageBreak "A3"
+  \bar "||"
+  \xxPageBreak
+  \sectNoBar "A3"
 
   c1~ | c1~ | c4 df4 c4 g4 | bf4 c4 e4 g,4 |
   bf1~ | bf1~ | bf4 c4 df4 c4 | df4 c4 b4 g4 |
