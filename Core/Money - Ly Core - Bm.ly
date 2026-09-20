@@ -25,7 +25,7 @@ bassIntro = \relative f' {
 
   \clef bass
 
-  \sect "Intro"
+  \sectNoBar "Intro"
 
   \bar ".|:"
   \repeat volta 2 {

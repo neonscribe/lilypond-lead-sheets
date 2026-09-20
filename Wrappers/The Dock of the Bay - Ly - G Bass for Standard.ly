@@ -5,7 +5,8 @@
 \include "english.ly"
 
 subtitle = "Bass for Standard Key"
-whatKey = c,
+whatKey = g,,
+bassKey = g
 whatClef = "bass"
 
-\include "../Core/Are You Lonesome Tonight - Ly Core - C.ly"
+\include "../Core/The Dock of the Bay - Ly Core - G.ly"
