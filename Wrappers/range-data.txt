@@ -606,8 +606,8 @@ e''
 
 Ain't Misbehavin' - Ly - D Bass for Standard.ly
 refrain
-d,
-e
+d
+e'
 
 Ain't Misbehavin' - Ly - D Standard.ly
 refrain
@@ -656,6 +656,11 @@ Ain't Nobody Here but Us Chickens - Ly - F Standard.ly
 Ain't Nobody Here but Us Chickens - Ly - F to D for Eb for Standard.ly
 
 Ain't Nobody Here but Us Chickens - Ly - F to G for Bb for Standard.ly
+
+Ain't Nothin' Like Christmas - Ly - G Alto Voice.ly
+refrain
+e
+fis'
 
 Ain't Nothin' Like Christmas - Ly - G Standard.ly
 refrain
@@ -1477,8 +1482,8 @@ b'
 
 Are You Lonesome Tonight - Ly - C Bass for Standard.ly
 refrain
-d,
-e
+d
+e'
 
 Are You Lonesome Tonight - Ly - C Standard.ly
 refrain
@@ -5612,6 +5617,31 @@ refrain
 g
 g'
 
+Devil in Disguise - Ly - E Standard.ly
+refrain
+b
+e''
+
+Devil in Disguise - Ly - F Bass for Standard.ly
+refrain
+c
+f'
+
+Devil in Disguise - Ly - F Standard.ly
+refrain
+c'
+f''
+
+Devil in Disguise - Ly - F to D for Eb for Standard.ly
+refrain
+a'
+d'''
+
+Devil in Disguise - Ly - F to G for Bb for Standard.ly
+refrain
+d'
+g''
+
 Devil May Care - Ly - Bbm Alto Voice.ly
 refrain
 f
@@ -8027,6 +8057,26 @@ refrain
 d'
 g''
 
+Half as Much - Ly - D Bass for Standard.ly
+refrain
+a,
+d'
+
+Half as Much - Ly - D Standard.ly
+refrain
+a
+d''
+
+Half as Much - Ly - D to B for Eb for Standard.ly
+refrain
+fis'
+b''
+
+Half as Much - Ly - D to E for Bb for Standard.ly
+refrain
+b
+e''
+
 Half Nelson - Ly - C Bass for Standard.ly
 refrain
 cis
@@ -8440,18 +8490,18 @@ g''
 
 Here Comes the Bride - Ly - Bb Bass for Standard.ly
 refrain
-f,,
 f,
+f
 
 Here Comes the Bride - Ly - Bb Standard.ly
 refrain
-f
 f'
+f''
 
 Here Comes the Bride - Ly - Bb to C for Bb for Standard.ly
 refrain
-g
 g'
+g''
 
 Here Comes the Bride - Ly - Bb to G for Eb for Standard.ly
 refrain
@@ -8460,18 +8510,18 @@ d''
 
 Here Comes the Bride - Ly - Eb Alto Voice.ly
 refrain
-bes,
 bes
+bes'
 
 Here Comes the Bride - Ly - Eb Bass for Alto Voice.ly
 refrain
-bes,,
 bes,
+bes
 
 Here Comes the Bride - Ly - Eb to F for Bb for Alto Voice.ly
 refrain
-c
 c'
+c''
 
 Here's That Rainy Day - Ly - Bb Alto Voice.ly
 refrain
@@ -11965,6 +12015,36 @@ g'''
 refrain
 d'
 e''
+
+Into the Mystic - Ly - A Standard.ly
+refrain
+c'
+cis'''
+
+Into the Mystic - Ly - C Standard.ly
+refrain
+dis
+e''
+
+Into the Mystic - Ly - Eb Bass for Standard.ly
+refrain
+fis,
+g'
+
+Into the Mystic - Ly - Eb Standard.ly
+refrain
+fis
+g''
+
+Into the Mystic - Ly - Eb to C for Eb for Standard.ly
+refrain
+dis'
+e'''
+
+Into the Mystic - Ly - Eb to F for Bb for Standard.ly
+refrain
+gis
+a''
 
 Invitation - Ly - Cm Bass for Standard.ly
 refrain
@@ -21136,38 +21216,6 @@ refrain
 fis'
 g''
 
-Stumbling - Ly - F Bass for Standard.ly
-refrain
-c
-c'
-refrain melody two
-d
-f'
-
-Stumbling - Ly - F Standard.ly
-refrain
-c'
-c''
-refrain melody two
-d'
-f''
-
-Stumbling - Ly - F to D for Eb for Standard.ly
-refrain
-a'
-a''
-refrain melody two
-b'
-d'''
-
-Stumbling - Ly - F to G for Bb for Standard.ly
-refrain
-d'
-d''
-refrain melody two
-e'
-g''
-
 Stumbling - Ly - G Bass for Standard.ly
 refrain
 d
@@ -21187,6 +21235,38 @@ Stumbling - Ly - G to E for Eb for Standard.ly
 refrain
 b
 b'
+
+Stumbling Harmony - Ly - F Bass for Standard.ly
+refrain
+c
+c'
+refrain melody two
+d
+f'
+
+Stumbling Harmony - Ly - F Standard.ly
+refrain
+c'
+c''
+refrain melody two
+d'
+f''
+
+Stumbling Harmony - Ly - F to D for Eb for Standard.ly
+refrain
+a'
+a''
+refrain melody two
+b'
+d'''
+
+Stumbling Harmony - Ly - F to G for Bb for Standard.ly
+refrain
+d'
+d''
+refrain melody two
+e'
+g''
 
 Sugar - Ly - Cm Bass for Standard.ly
 intro
@@ -22124,6 +22204,46 @@ The Days of Wine and Roses - Ly - F to G for Bb for Standard.ly
 refrain
 d'
 fis''
+
+The Dock of the Bay - Ly - E Baritone Voice.ly
+intro
+e,
+b,
+refrain
+cis
+e'
+
+The Dock of the Bay - Ly - G Bass for Standard.ly
+intro
+g,
+d
+refrain
+e,
+g
+
+The Dock of the Bay - Ly - G Standard.ly
+intro
+g,
+d
+refrain
+e'
+g''
+
+The Dock of the Bay - Ly - G to A for Bb for Standard.ly
+intro
+a,
+e
+refrain
+fis'
+a''
+
+The Dock of the Bay - Ly - G to E for Eb for Standard.ly
+intro
+e,
+b,
+refrain
+cis'
+e''
 
 The End of a Love Affair - Ly - Bb Alto Voice.ly
 refrain
@@ -26231,43 +26351,43 @@ fis'
 
 You Go To My Head - Ly - Bb Alto Voice.ly
 refrain
-f,
-c'
+f
+c''
 
 You Go To My Head - Ly - Bb Bass for Alto Voice.ly
 refrain
-f,,
-c
+f,
+c'
 
 You Go To My Head - Ly - Bb to C for Bb High for Alto Voice.ly
+refrain
+g'
+d'''
+
+You Go To My Head - Ly - Bb to C for Bb Low for Alto Voice.ly
 refrain
 g
 d''
 
-You Go To My Head - Ly - Bb to C for Bb Low for Alto Voice.ly
-refrain
-g,
-d'
-
 You Go To My Head - Ly - Eb Bass for Standard.ly
-refrain
-bes,,
-f
-
-You Go To My Head - Ly - Eb Standard.ly
 refrain
 bes,
 f'
 
+You Go To My Head - Ly - Eb Standard.ly
+refrain
+bes
+f''
+
 You Go To My Head - Ly - Eb to C for Eb for Standard.ly
 refrain
-g
-d''
+g'
+d'''
 
 You Go To My Head - Ly - Eb to F for Bb for Standard.ly
 refrain
-c
-g'
+c'
+g''
 
 You Make Me Feel So Young - Ly - Bb Bass for Standard.ly
 refrain

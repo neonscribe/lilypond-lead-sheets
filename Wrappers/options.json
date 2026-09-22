@@ -27,6 +27,11 @@
 { "name": "alternateChords",
   "category": "chords",
   "type":"choice",
-  "description": "Choose a different set of chords" }
+  "description": "Choose a different set of chords" },
+
+{ "name": "isMinor",
+  "category": "structure",
+  "type":"toggle",
+  "description": "Use minor key signature instead of major" }
 
 ]

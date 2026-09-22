@@ -8,4 +8,4 @@ subtitle = "Two Parts, in F, to G for Bb"
 whatKey = g
 whatClef = "treble"
 
-\include "../Core/Stumbling - Ly Core - F.ly"
+\include "../Core/Stumbling Harmony - Ly Core - F.ly"

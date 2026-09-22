@@ -6,4 +6,7 @@ subtitle = "Bass for Standard Key (Minor)"
 whatKey = ef,
 whatClef = "bass"
 
-\include "../Core/Round Midnight - Ly Core - Ebm.ly"
+isMinor = ##t
+tonality = \minor
+
+\include "../Core/Round Midnight - Ly Core - Eb.ly"

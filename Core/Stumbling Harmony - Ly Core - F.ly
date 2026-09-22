@@ -6,7 +6,7 @@ songID = "2026-06-01T22:16:52.774436Z"
 
 \include "../Include/lead-sheets.ily"
 
-headerTitle = "Stumbling"
+headerTitle = "Stumbling (with harmony)"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "Zez Confrey"

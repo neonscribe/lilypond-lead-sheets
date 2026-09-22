@@ -2,8 +2,10 @@
 
 \include "english.ly"
 
-subtitle = "Bass for Alto Voice Key"
+subtitle = "Bass for Ella Fitzgerald Key (Major)"
 whatKey = bf,,
 whatClef = "bass"
+
+isMinor = ##f
 
 \include "../Core/Round Midnight - Ly Core - Eb.ly"

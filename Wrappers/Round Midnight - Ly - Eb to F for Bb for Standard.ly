@@ -6,4 +6,6 @@ subtitle = "Bb for Standard (Major)"
 whatKey = f
 whatClef = "treble"
 
+isMinor = ##f
+
 \include "../Core/Round Midnight - Ly Core - Eb.ly"

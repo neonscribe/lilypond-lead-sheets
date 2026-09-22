@@ -6,4 +6,6 @@ subtitle = "Bass for Standard Key (Major)"
 whatKey = ef,
 whatClef = "bass"
 
+isMinor = ##f
+
 \include "../Core/Round Midnight - Ly Core - Eb.ly"

@@ -673,6 +673,18 @@
         ]
     }
 },{
+    "toggles": [
+        "isMinor"
+    ],
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal",
+            "monk",
+            "hein"
+        ]
+    }
+},{
     "choices": {
         "singerGender": [
             "male",

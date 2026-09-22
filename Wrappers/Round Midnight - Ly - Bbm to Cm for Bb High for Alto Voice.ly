@@ -2,8 +2,11 @@
 
 \include "english.ly"
 
-subtitle = "Bb High for Alto Voice Key"
+subtitle = "Bb High for Ella Fitzgerald Key (Minor)"
 whatKey = c'
 whatClef = "treble"
 
-\include "../Core/Round Midnight - Ly Core - Ebm.ly"
+isMinor = ##t
+tonality = \minor
+
+\include "../Core/Round Midnight - Ly Core - Eb.ly"

@@ -6,4 +6,7 @@ subtitle = "Eb for Standard (Minor)"
 whatKey = c'
 whatClef = "treble"
 
-\include "../Core/Round Midnight - Ly Core - Ebm.ly"
+isMinor = ##t
+tonality = \minor
+
+\include "../Core/Round Midnight - Ly Core - Eb.ly"

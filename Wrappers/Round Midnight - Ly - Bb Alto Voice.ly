@@ -2,8 +2,10 @@
 
 \include "english.ly"
 
-subtitle = "Ella Fitzgerald Key"
+subtitle = "Ella Fitzgerald Key (Major)"
 whatKey = bf,
 whatClef = "lowtreble"
+
+isMinor = ##f
 
 \include "../Core/Round Midnight - Ly Core - Eb.ly"
