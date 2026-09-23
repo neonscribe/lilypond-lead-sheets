@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "ray", "simple" ] } }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:17:00.009117Z"
@@ -79,7 +85,7 @@ refrainChordsRayAndDiana = \chordmode {
 }
 
 refrainChordsRay = \chordmode {
-  ef1./bf bf1.:7 ef1./bf bf1.:7
+  ef1./bf bf1.:7 ef1.:6/bf bf1.:7
 
   ef2. ef2.:maj7 ef2.:6 ef2. af2. af2.:maj7 af2.:6 a2.:dim7
   ef2.:6/bf c2.:7 f2.:m7 bf2.:7
@@ -103,7 +109,43 @@ refrainChordsRay = \chordmode {
   \chordCloseParen{ ef8.:9 }
 }
 
-refrainChords = \refrainChordsRay
+refrainChordsSimple = \chordmode {
+  ef1./bf bf1.:7 ef1./bf bf1.:7
+
+  ef8*12 ef8*12 af8*12 af8*12
+  ef2./bf c2.:7 f2.:m bf2.:7
+  g2.:7 c2.:7 f2.:m bf2.:7
+
+  ef8*12 ef8*12 af8*12 af8*12
+  ef2./bf c2.:7 f2.:m bf2.:7
+  ef8*6 af8*6/ef ef8*6 ef8*6:7
+
+  af8*12 ef8*6/bf c8*6:7
+  f8*6:m bf8*6:7 ef8*6 ef8*6:7
+  c8*12:m g8*6:m c8*6:7
+  f8*12:7 bf8*12:7
+
+  ef8*12 ef8*12 af8*12 af8*12
+  ef2./bf c2.:7 f2.:m bf2.:7
+  ef4.
+  \chordOpenParen{ c4.:7 }
+  f4.:m
+  \chordCloseParen{ bf4.:7 }
+  \chordOpenParen{ af4./ef }
+  ef4.
+  \chordCloseParen{ ef8.:7 }
+}
+
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
+		    alternateChords
+		    "ray")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "ray" refrainChordsRay)
+			    (cons "simple" refrainChordsSimple)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = ef
 

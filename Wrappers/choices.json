@@ -56,6 +56,11 @@
 
 {
     "option": "alternateChords",
+    "name": "ray",
+    "description": "Ray Charles Chords" },
+
+{
+    "option": "alternateChords",
     "name": "oldreal",
     "description": "Old (illegal) Real Book Chords" },
 

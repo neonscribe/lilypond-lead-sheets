@@ -9,8 +9,8 @@ songID = "2026-06-01T22:16:58.11616Z"
 headerTitle = "We Three Kings of Orient Are"
 headerSubtitle = \subtitle
 headerPoet = ""
-headerComposer = ""
-headerCopyright = ""
+headerComposer = "John Henry Hopkins Jr."
+headerCopyright = "1857"
 
 refrainLyrics = \lyricmode {
   We three kings of O -- ri -- ent are

@@ -162,7 +162,7 @@ afterText =
    \line { \large { 'cause i learned them all on the radio. Yippee-yi-o-ki-yay, yippee-yi-o-ki-yay. } }
    \vspace #1
    \line { \large { I'm an old cowhand from the Rio Grande. Where the west is wild, 'round the border land. } }
-   \line { \large { Where the buffalo roam around the zoon and the indians make you a rug or two. } }
+   \line { \large { Where the buffalo roam around the zoo and the indians make you a rug or two. } }
    \line { \large { And the old Bar-X is a Bar-B-Q. Yippee-yi-o-ki-yay, yippee-yi-o-ki-yay. } }
    \vspace #1
    \line { \large { Yipp-e-e-yi-o-o-ki-i-yay. } }
