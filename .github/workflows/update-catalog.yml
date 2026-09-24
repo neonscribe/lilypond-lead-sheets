@@ -104,6 +104,9 @@ jobs:
       - name: Run catalog smoke tests
         run: |
           cd musicforge
+          # test_catalog.py imports pytest at module level since musicforge #615 (2026-09-22);
+          # musicforge's own CI installs it, this workflow did not, so every run since then died here.
+          pip install pytest
           python test_catalog.py
 
       - name: Deploy to Fly
