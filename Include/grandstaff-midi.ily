@@ -4,7 +4,7 @@
 
 midiKey = \refrainKey
 midiChords = \refrainChords
-midiMelody = \refrainMelody
+midiMelody = \refrainRightHand
 leadingEighth = \refrainLeadingEighth
 
 \include "../Include/midi.ily"

@@ -86,11 +86,6 @@
 
 {
     "option": "alternateChords",
-    "name": "djam",
-    "description": "Djypsy Djazz Djam Book Chords" },
-
-{
-    "option": "alternateChords",
     "name": "557",
     "description": "557 Jazz Standards Chords" },
 
@@ -108,6 +103,16 @@
     "option": "alternateChords",
     "name": "nico",
     "description": "Nico Lovejoy Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "grassel",
+    "description": "Jack Grassel Reharmonized Chords" },
+
+{
+    "option": "alternateChords",
+    "name": "fifties",
+    "description": "Jazz of the 50s Fake Book Chords" },
 
 {
     "option": "alternateChords",

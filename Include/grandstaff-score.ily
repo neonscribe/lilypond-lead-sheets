@@ -61,6 +61,8 @@
     systemStartDelimiter = #'SystemStartBar
 }
 <<
+    #(if (and (defined? 'refrainMelody) refrainMelody)
+      #{
     \new Staff 
     {
       \include "../Include/staff-settings.ily"
@@ -71,6 +73,7 @@
 	  }
 	}
     }
+    #} )
     #(if (and (defined? 'refrainBass) refrainBass)
       #{
     \new Staff {

@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "grassel", "fifties", "nico" ] } }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:17:00.552222Z"
@@ -74,14 +80,14 @@ refrainJazzFiftiesChords = \chordmode {
 refrainNicoChords = \chordmode {
   s4
 
-  bf2:maj7 bf2:6 bf4:maj7 \chordSlash 2 df4:dim7 c1:m7 c1:m7
+  bf2:maj7 bf2:6 bf4:maj7 \chordSlash 2 df4:dim7 c2:m7 f2:7 c2:m7 f2:7
   f2:7 c2:m7 f4:7 \chordSlash 2 f4:7.5+ bf2:maj7 bf2:6 bf2:maj7 bf2:6
 
   d2:m7.5- g2:7 d2:m7.5- g2:7 g2:m7 c2:7
   g2:m7 c2:7 f1:7 c4.:m7 f8*5:7
   bf1:6 c4.:m7 f8*5:7
 
-  bf2:maj7 bf2:6 bf4:maj7 \chordSlash 2 df4:dim7 c1:m7 c1:m7
+  bf2:maj7 bf2:6 bf4:maj7 \chordSlash 2 df4:dim7 c2:m7 f2:7 c2:m7 f2:7
   f2:7 c2:m7 f4:7 \chordSlash 2 f4:7.5+ bf2:maj7 bf2:6 bf2:maj7 bf2:6
 
   d2:m7.5- g2:7 d2:m7.5- g2:7 g2:m7 c2:7
@@ -91,7 +97,32 @@ refrainNicoChords = \chordmode {
   \chordInsideParens{ f4:7 }
 }
 
-refrainChords = \refrainNicoChords
+refrainGrasselChords = \chordmode {
+  s4
+
+  bf2:maj7 c2:m7 d2:m7 df2:dim7 c2:m7 f2:9 c2:m7 f2:9 
+  f2:9 c2:m7 b1:7.5+ bf2:maj7 ef2:maj9 bf2:maj7 ef2:maj9
+  af2:13 g2:13 af2:13 g2:13 c1:7 bf4:7 c2.:7
+  f4:7 e4:7 f4:7 e4:7 f2:7 b2:7.5+ g4:m7 fs4:m7 g4:m7 fs4:m7 c2:m7 f2:7.5-
+
+  bf2:maj7 c2:m7 d2:m7 df2:dim7 c2:m7 f2:9 c2:m7 f2:9 
+  f2:9 c2:m7 b1:7.5+ bf2:maj7 ef2:maj9 bf2:maj7 ef2:maj9
+  af2:13 g2:13 af2:13 g2:13 c1:7 ef4:maj7 af2.:9
+  bf2:maj7 g2:m7 c2:m7 f2:7 bf2:7 ef2:7 ef2:7 bf2:6
+}
+
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "hlrb" refrainHLChords)
+			    (cons "fifties" refrainJazzFiftiesChords)
+			    (cons "grassel" refrainGrasselChords)
+			    (cons "nico" refrainNicoChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = bf
 

@@ -7,9 +7,9 @@
 %%% 19 Nov 2011
 %%% address@hidden
 %%%
-%%% tested against lilypond v2.14.2
+%%% tested against lilypond v2.26.0
 
-%%% extensively modified by Eric Benson (ebseattle@gmail.com) 2020-2026
+%%% extensively modified by Eric Benson (https://github.com/neonscribe) 2020-2026
 %%% We are trying to adhere to the Brandt-Roemer chord notation standard
 %%% as it appears in the Sher Music New Real books.
 
@@ -37,7 +37,7 @@ jcMajorSeventhFlatFive = \markup{ \jcMajor \jcRaise{ "7(" \jcFlat "5)" } }
 jcMajorSeventhModifier = \markup{ \jcRaise{ "(MA 7)" } }
 jcMajorNinthModifier = \markup{ \jcRaise{ "(MA 9)" } }
 jcMinorMajorSeventh = \markup{ \jcMinor \jcMajorSeventhModifier }
-jcMinorMajorNinth = \markup{ \jcMinor \jcMajorNinthModifier }
+jcMinorMajorNinth = \markup{ \jcMinor \jcRaise{ "9(MA 7)" } }
 jcSeventh = \markup{ \jcRaise{ "7" } }
 jcSixth = \markup{ \jcRaise{ "6" } }
 jcMinorSixth = \markup{ \jcMinor \jcRaise{ "6" } }

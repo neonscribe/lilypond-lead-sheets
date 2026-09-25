@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "alternateChords": [ "hlrb", "newreal", "fifties" ] } }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:16:44.228388Z"
@@ -125,7 +131,17 @@ refrainHLChords = \chordmode {
   \chordCloseParen{ g2:7 }
 }
 
-refrainChords = \refrainHLChords
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "hlrb" refrainHLChords)
+			    (cons "fifties" refrainJazzFiftiesChords)
+			    (cons "newreal" refrainNewRealChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = c
 
