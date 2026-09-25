@@ -97,6 +97,15 @@
     "choices": {
         "alternateChords": [
             "hlrb",
+            "grassel",
+            "fifties",
+            "nico"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
             "oldreal",
             "newreal"
         ]
@@ -114,6 +123,14 @@
         "alternateChords": [
             "hlrb",
             "newreal"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal",
+            "fifties"
         ]
     }
 },{
@@ -491,6 +508,13 @@
     "choices": {
         "alternateChords": [
             "hlrb",
+            "simple"
+        ]
+    }
+},{
+    "choices": {
+        "alternateChords": [
+            "ray",
             "simple"
         ]
     }

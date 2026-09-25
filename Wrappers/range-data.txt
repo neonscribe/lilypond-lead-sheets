@@ -1242,6 +1242,26 @@ refrain
 b
 fis''
 
+And It Stoned Me - Ly - G Bass for Standard.ly
+refrain
+d
+e'
+
+And It Stoned Me - Ly - G Standard.ly
+refrain
+d'
+e''
+
+And It Stoned Me - Ly - G to A for Bb for Standard.ly
+refrain
+e'
+fis''
+
+And It Stoned Me - Ly - G to E for Eb for Standard.ly
+refrain
+b
+cis''
+
 Angel Eyes - Ly - Am Alto Voice.ly
 refrain
 a
@@ -23018,6 +23038,34 @@ The Night We Called It a Day - Ly - F to G for Bb for Standard.ly
 refrain
 d'
 e''
+
+The Pink Panther - Ly - Em Bass for Standard.ly
+refrain
+d
+e'
+
+The Pink Panther - Ly - Em Standard.ly
+refrain
+d'
+e''
+
+The Pink Panther - Ly - Em to Csm for Eb for Standard.ly
+refrain
+b
+cis''
+
+The Pink Panther - Ly - Em to Fsm for Bb for Standard.ly
+refrain
+e'
+fis''
+
+The Pink Panther Piano - Ly - Em Standard.ly
+piano-grand-staff right hand
+b,
+e'
+piano-grand-staff left hand
+e,,
+e'
 
 The Preacher - Ly - F Bass for Standard.ly
 refrain
