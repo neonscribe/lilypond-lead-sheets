@@ -5,7 +5,7 @@
 \include "english.ly"
 
 subtitle = "Bass for Standard Key"
-whatKey = e
+whatKey = e,
 whatClef = "bass"
 
 \include "../Core/The Pink Panther - Ly Core - Em.ly"
