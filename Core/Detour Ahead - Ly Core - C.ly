@@ -122,9 +122,9 @@ refrainMelody = \relative f' {
 
   e4 g2. | b4 g2~ g8 g8 | a8 c8 b8 g8 a16 g16 e4. | \tuplet 3/2 { d4 e4 d4 } e2 |
   \break
-  r8 g8 g8 a8 bf8 a8 g8 e8 | c4. c8 g'8 f4. | e4 g2. |
+  r8 g8 g8 a8 bf8 a8 g8 e8 | c4. c8 g'8 f4. |
   \break
-  a4 c2 r8 a8 | a4 c,2 c4 | c1 |
+  e4 g2. | a4 c2 r8 a8 | a4 c,2 c4 | c1 |
 
   \bar "|."
 }

@@ -76,14 +76,12 @@ refrainMelody = \relative f' {
   e4 b8 a8~ a2 | r8 a'8 g8 f8 e8 d4. | c'4 e,8 e8~ e2 | r8 af8 g8 f8 ef8 d4. |
   g4 b,8 a8~ a2 | r8 c'8 b8 a8 g8 e4. | d1~ | d2~ d8 c8 d8 e8 |
 
-  \sect "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   g8 g8 g8 g8 g8 f8 c8 d8 | g8 g8 g8 g8 g8 f8 c8 d8 | e4 e4 e4 b8 d8~ | d2 r8 c8 d8 e8 |
   g8 g8 g8 g8 g8 f8 c8 d8 | g8 g8 g8 g8 g8 f8 c8 d8 | e4 e8 c'4 b8 a4 | d,2 ds2 |
 
-  \bar "||"
-  \xxPageBreak
-  \sectNoBar "A3"
+  \sect "A3"
 
   e4 b8 a8~ a2 | r8 a'8 g8 f8 e8 d4. | c'4 e,8 e8~ e2 | r8 af8 g8 f8 ef8 d4. \textToCodaLastTime |
   g4 b,8 a8~ a4. c'8 | c8 c8 bf8 af8 g4 ef4 | c4. d8 c4. d8 | c2. r4 |
@@ -93,6 +91,7 @@ refrainMelody = \relative f' {
   \textCodaBreak
 
   g'4 b,8 a8~ a4. c'8 | c8 c8 bf8 af8 g4 ef4 | e2.. c'8 |
+  \break
   c8 c8 bf8 af8 g4 ef4 | c4. d8 c4. d8 | c2. r4 |
   \bar "|."
 }

@@ -19550,31 +19550,49 @@ b
 c''
 
 Since I Fell for You - Ly - Ab Alto Voice.ly
+verse
+ees
+f'
 refrain
 ees
 ges'
 
 Since I Fell for You - Ly - Bb Alto Voice.ly
+verse
+f
+g'
 refrain
 f
 aes'
 
 Since I Fell for You - Ly - Eb Bass for Standard.ly
+verse
+bes,
+c'
 refrain
 bes,
 des'
 
 Since I Fell for You - Ly - Eb Standard.ly
+verse
+bes
+c''
 refrain
 bes
 des''
 
 Since I Fell for You - Ly - Eb to C for Eb for Standard.ly
+verse
+g'
+a''
 refrain
 g'
 bes''
 
 Since I Fell for You - Ly - Eb to F for Bb for Standard.ly
+verse
+c'
+d''
 refrain
 c'
 ees''
@@ -19608,6 +19626,31 @@ Singin' in the Rain - Ly - G to E for Eb for Standard.ly
 refrain
 b
 b'
+
+Singing the Blues - Ly - D Baritone Voice.ly
+refrain
+b,
+d'
+
+Singing the Blues - Ly - F Bass for Standard.ly
+refrain
+d
+f'
+
+Singing the Blues - Ly - F Standard.ly
+refrain
+d'
+f''
+
+Singing the Blues - Ly - F to D for Eb for Standard.ly
+refrain
+b
+d''
+
+Singing the Blues - Ly - F to G for Bb for Standard.ly
+refrain
+e'
+g''
 
 Sixteen Tons - Ly - Am Baritone Voice.ly
 refrain

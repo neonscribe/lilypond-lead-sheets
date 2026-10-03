@@ -64,14 +64,14 @@ refrainMelody = \relative f' {
   \break
   a8 c8 a8 c8~ c2 | r4 a4 c8 cs8 d8 f,8~ | f1~ | f1 |
 
-  \sectPageBreak "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   g8 g8 g8 d'8~ d8 d4 f,8 | g8 g8 g8 d'8~ d2 | c8 c8 bf8 bf8 a8 a8 d8 d8 | a2. g4 |
   \break
   a8 a8 a8 e'8~ e8 e4 g,8 | a8 a8 a8 e'8~ e2 |
   d8 cs8 d8 cs8 d8 cs8 \tuplet 3/2 { d8 ds8 e8~ } | e4 d8 a8~ a8 af4. |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   a4 c4 c,8 d8 f8 a8 | c2 cf2 | bf4 d2.~ | d2 bf2 |
   \break

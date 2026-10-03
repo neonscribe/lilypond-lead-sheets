@@ -119,16 +119,19 @@ refrainMelody = \relative f' {
   c8 c4 c8~ c8 b4 a8 | d4 b4~ b8 e,8 a8 b8 | c8 c4 c8~ c8 b4 a8 | d4 b4~ b8 e,8 a8 b8 |
   \break
   c8 c4 c8~ c8 b4 a8 | d8 d4 d8~ d8 c4 b8 | ef8 ef4 ef8~ ef8 d4 c8 | e4 r4 r8 e,4. |
-  \bar "||"
+
+  \bar ".|:-||"
 
   \xxPageBreak
 
-  \sectStartRefrain "A1"
+  \repeat volta 2 {
+
+  \sectNoBar "A1"
 
   c'2 b8 a4 c8~ | c2 r8 e,4. | c'2 b8 a4 c8~ | c2 r8 c4. |
   b2 gs8 e4 b'8~ | b8 b4 c8~ c8 b4 a8~ | a1 | r2 r8 e4. |
 
-  \sectNoBreak "A2"
+  \sect "A2"
 
   c'2 b8 a4 c8~ | c2 r8 e,4. | c'2 b8 a4 c8~ | c2 r8 c4. |
   b2 gs8 e4 b'8~ | b8 b4 c8~ c8 b4 a8~ | a2 r2 | r4 r8 a8 b4 c4 |
@@ -146,7 +149,8 @@ refrainMelody = \relative f' {
   \parenthesize
   e4. |
 
-  \bar "|."
+  \bar ":|."
+  }
 }
 
 \include "../Include/refrainonly.ily"

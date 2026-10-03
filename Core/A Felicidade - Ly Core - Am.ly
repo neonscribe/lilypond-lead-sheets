@@ -91,6 +91,7 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
     a1 | r8 c4 b4 g4 e8~ | e1 | r2 r8 e4 g8~ |
+    \break
     g2. e4 | fs2~ fs8 ds4 e8~ | e1 |
   }
   \alternative {
@@ -101,24 +102,30 @@ refrainMelody = \relative f' {
   \sect "B"
 
   e1 | r8 g4 f4 e4 e8~ | e8 d4 cs4 d4 f8~ | f4. f8 r8 e4 d8~ |
+  \break
   d8 c4 b4 c4 e8~ | e8 d4 c4 b4 bf8~ | bf1 | r1 |
 
   \break
   \bar "||-||"
 
   r8 a4 c4 d4 e8~ | e4. e4 c4 a8~ | a8 c4 d8~ d8 e4 d8~ | d4. d8 r8 e4 a8~ |
+  \break
   a8 gs4 g4 c,4 e8~ | e8 ef4 d4 c4 a8~ | a1 | r1 |
 
-  \sectPageBreak"C"
+  \alwaysPageBreak "C" "||" "||-||"
 
   r8 g4 a8 b8 c4 a8~ | \tuplet 3/2 { a4 b4 c4 } \tuplet 3/2 { d4 b4 a4 } | b4. b8~ b2 | r2 r4 r8 c8~ |
+  \break
   c8 d4 e4 f4 d8~ | d8 e4 c4 e4 d8~ | d4. d8~ d2 | r2 r8 g4 g8~ |
+  \break
   g4. d4 g4 g8~ | g4. g4 a4 a8~ | a4. e4 a4 a8~ | a4. a4. b4 |
+  \break
   b4 a4 \tuplet 3/2 { g4 fs4 g4 } | a4. a8 r8 g4 fs8 | g8 g4 f4 e4 f8~ | f4. f4 e4 c8~ |
 
   \sectNoBreak "D"
 
   c8 d4 e4 a4 e8~ | e8 d4 c4 a4 d8~ | d2 d2 | r2 r8 e4 a8~ |
+  \break
   a8 gs4 g4 c,4 e8~ | e8 ds4 d4 c4 a8~ | a2 a2~ | a2 r2 |
 
   \bar "|."

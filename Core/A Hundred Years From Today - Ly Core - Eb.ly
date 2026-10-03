@@ -116,6 +116,7 @@ refrainMelody = \relative f' {
 
   r8 bf8 g8 f8 ef8 ef4 ef8 | \tuplet 3/2 { c'4 af4 g4 } f2 |
   r8 bf8 g8 f8 ef8 ef4 ef8 | \tuplet 3/2 { c'4 c4 c4 } fs,2 |
+  \break
   r8 g8 af8 bf8 c8 d4 ef8 |  \tuplet 3/2 { f4 ef4 c4 } bf4. af8 |
   g8 c4. \tuplet 3/2 { g4 ef4 g4 } | bf1 |
 
@@ -123,20 +124,21 @@ refrainMelody = \relative f' {
 
   r8 bf8 g8 f8 ef8 ef4 ef8 | \tuplet 3/2 { c'4 af4 g4 } f2 |
   r8 bf8 g8 f8 ef8 ef4 ef8 | \tuplet 3/2 { c'4 c4 c4 } fs,2 |
+  \break
   r8 g8 af8 bf8 c8 d4 ef8 |  \tuplet 3/2 { f4 ef4 c4 } bf4. af8 |
   g8 c4. \tuplet 3/2 { g4 g4 g4 } | ef2. ef4 |
 
-  \sect "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   f4. af8 g4. ef8 | f4. c'8 bf4. ef,8 | f8 f8 f8 f8 f2~ | f2 r4 f4 |
+  \break
   g4. bf8 a4. f8 | g4. d'8 c4. f,8 | bf8 bf8 bf8 bf8 df4 b4 | bf1 |
 
-  \bar "||"
-  \xxPageBreak
-  \sectNoBar "A3"
+  \sect "A3"
 
   r8 bf8 g8 f8 ef8 ef4 ef8 | \tuplet 3/2 { c'4 af4 g4 } f2 |
   r8 bf8 g8 f8 ef8 ef4 ef8 | \tuplet 3/2 { c'4 c4 c4 } fs,2 |
+  \break
   r8 g8 af8 bf8 c8 d4 ef8 |  \tuplet 3/2 { f4 ef4 c4 } bf4. af8 \textToCodaLastTime |
   g8 c4. \tuplet 3/2 { g4 g4 g4 } | ef2 r2 |
 

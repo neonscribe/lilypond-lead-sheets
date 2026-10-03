@@ -75,51 +75,49 @@ refrainMelody = \relative f {
   \xTextMark \markup{ \bold \box "A1" }
 
   r4 bf4 c4 ef4 | d2. c4 | d4. d8 d2~ | d2. r4 |
-  \break
+  %% \break
   r4 ef4 \tuplet 3/2 { gf4 af4 bf4 } |
   af2. gf4 | af1~ | af2. r4 |
-  \break
+  %% \break
   r4 af4 \tuplet 3/2 { af4 bf4 cf4 } | bf4 a4 af2 |
   r4 af4 gf4 f4 | gf1 |
-  \break
+  %% \break
   r4 f4 af4 g4 | gf2 f2 | ef1~ | ef2 r2 |
 
   \sect "A2"
 
   r4 bf4 c4 ef4 | d2. c4 | d4. d8 d2~ | d2. r4 |
-  \break
+  %% \break
   r4 ef4 \tuplet 3/2 { gf4 af4 bf4 } |
   af2. gf4 | af1~ | af2. r4 | r4 af4 \tuplet 3/2 { af4 bf4 cf4 } |
-  \break
+  %% \break
   bf4 a4 af2 |
   r4 cf4 bf4 a4 | bf1 | r4 f4 af4 g4 |
-  \break
+  %% \break
   gf2 f2 | ef1~ | ef4 r4 ef4 ef4 |
 
-  \bar "||"
-  \xxPageBreak
-  \sectNoBar "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   c'2. c4 | cf2. cf4 | cf2 bf2~ | bf2 bf,4. bf8 |
-  \break
+  %% \break
   af'2. af4 | af2 g4. fs8 |
   g1~ | g2 ef4. ef8 |
-  \break
+  %% \break
   c'2 c4 c4 | cf2 \tuplet 3/2 { cf4 df4 cf4 } | cf2 bf2~ |
   bf4 bf4 bf4 bf4 |
-  \break
+  %% \break
   bf2. bf4 | c2. bf8 c8 | d1~ | d2 r2 |
 
   \sect "C"
 
   r4 ef4 ef4 ef4 | d2. bf4 | c4. c8 c2~ | c2. r4 |
-  \break
+  %% \break
   r4 c4 b4 c4 |
   bf2 \tuplet 3/2 { bf,4 c4 ef4 } | g1~ | g2. r4 |
-  \break
+  %% \break
   r4 g4 bf4 a4  af2 g2 |
   g4 f4 e4 f4 | c'1 | r4 f,4 af4 g4 |
-  \break
+  %% \break
   gf2 f2 | ef1~ | ef2 r2 |
 
   \bar "|."

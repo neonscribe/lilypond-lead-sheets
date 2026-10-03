@@ -150,21 +150,25 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   bf1 | r8 af8 bf8 c8 bf8 bf8 af8 bf8~ | bf1 | r8 f8 g8 af8 g8 g8 f8 g8~ |
+  \break
   g1 | r8 ef8 f8 g8 ef8 ef8 ef8 ef8~ | ef1 | r2 r4 bf'4 |
 
   \sect "A2"
 
   bf1 | r8 af8 bf8 c8 bf8 bf8 af8 bf8~ | bf8 bf4.~ bf2 | r8 f8 g8 af8 g8 g8 f8 g8~ |
+  \break
   g8 g4.~ g2 | r8 ef8 f8 g8 ef8 ef8 ef8 ef8~ | ef8 ef4.~ ef2 | r2 r8 ef8 ef8 ef8 |
 
-  \sectPageBreak "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   f8 f8 f8 f8 g4 g4 | ef8 ef4.~ ef8 ef8 ef8 ef8 | f8 f8 f8 f8 g4 g4 | ef2 r8 ef8 ef8 ef8 |
+  \break
   ef8 ef8 ef8 ef8 f4 f4 | df8 df4.~ df8 df8 df8 df8 | d8 d8 d8 d8 f4 f4 | bf2. bf4 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   bf1 | r8 af8 bf8 c8 bf8 bf8 af8 bf8~ | bf1 | r8 f8 g8 af8 g8 g8 f8 g8~ |
+  \break
   g1 | r8 ef8 f8 g8 ef8 ef8 ef8 ef8~ | ef1 | r1 |
 
   \bar "|."

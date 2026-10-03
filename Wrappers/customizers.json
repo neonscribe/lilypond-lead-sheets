@@ -325,6 +325,10 @@
         ]
     }
 },{
+    "toggles": [
+        "noIntro"
+    ]
+},{
     "choices": {
         "alternateChords": [
             "hlrb",

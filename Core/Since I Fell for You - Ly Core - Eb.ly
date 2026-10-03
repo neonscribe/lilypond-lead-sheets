@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "toggles": [ "noIntro" ] }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:16:50.162184Z"
@@ -12,10 +18,33 @@ headerPoet = ""
 headerComposer = "Buddy Johnson"
 headerCopyright = "© 1945 Warner Bros Inc."
 
-refrainLyrics = \lyricmode {
+verseLyrics = \lyricmode {
 When you just give love and nev -- er get love, you'd bet -- ter let love __ de -- part. __
 I know it's so, and yet I know, __ I can't get you out of my heart. __
+}
 
+verseChords = \chordmode {
+  ef2:maj7 c2:m7 f2:m7 bf2:9 ef2:maj7 c2:m7 f2:m7 bf2:9
+  bf2:m7 ef2:13 af2:maj9 df2:9 cf1:9 bf2:sus9 bf2:9
+}
+
+verseKey = ef
+
+verseMelody = \relative f' {
+  \time 2/2
+  \key \verseKey \major
+  \clef \whatClef
+  \tempoFour "Freely" 62
+
+  \sectNoBar "Verse"
+
+  r8 bf,8 c8 ef8 f8 f4. | r8 bf,8 c8 ef8 f8 f4. | r8 bf,8 c8 ef8 f8 f4.~ | f4 ef8 bf'8~ bf2 |
+  r8 bf8 c8 bf8 c4. bf8 | g4 ef8 f8~ f4. ef8 | gf4 gf8 ef8 gf8 ef8 gf8 f8~ | f1 |
+
+  \bar "|."
+}
+
+refrainLyrics = \lyricmode {
 You __ made me leave my hap -- py home, you took my love and now you're gone since I fell for you. __
 
 Love __ brings such mis -- er -- y and pain. I know I'll nev -- er be __ the same since I fell for you. __
@@ -27,9 +56,6 @@ I __ guess I'll nev -- er see the light. I get the blues most ev -- 'ry night si
 }
 
 refrainChords = \chordmode {
-  ef2:maj7 c2:m7 f2:m7 bf2:9 ef2:maj7 c2:m7 f2:m7 bf2:9
-  bf2:m7 ef2:13 af2:maj9 df2:9 cf1:9 bf2:sus9 bf2:9
-
   ef2:maj7 c2:m7 f2:m7 bf2:7.9+.5+ ef2:maj7 c2:m7 f2:m7 bf4:9 \chordInsideParens{ bff4:9 }
   af2:9 gf2:9 f4.:7 bf8*5:sus9 g2:7.5+ c2:7.9- f4:7 \chordSlash 1 bf4:sus9 \chordInsideParens{ ff4:9 }
 
@@ -56,18 +82,16 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Bluesy Ballad [Lenny Welch 1963]" 62
 
-  \xTextMark "Verse"
+  \bar ".|:"
+  \repeat volta 2 {
 
-  r8 bf,8 c8 ef8 f8 f4. | r8 bf,8 c8 ef8 f8 f4. | r8 bf,8 c8 ef8 f8 f4.~ | f4 ef8 bf'8~ bf2 |
-  r8 bf8 c8 bf8 c4. bf8 | g4 ef8 f8~ f4. ef8 | gf4 gf8 ef8 gf8 ef8 gf8 f8~ | f1 |
-
-  \sectStartRefrain "A1"
+  \sectNoBar "A1"
 
   bf1~ | bf4 af8 bf8 df8 bf8 \tuplet 3/2 { df8( bf8) af8 } |
   bf1 | r8 ef,8 gf8 af8 bf8 af8 \tuplet 3/2 { gf8( f8) ef8 } |
   ef1 | r4 c8 ef8~ ef8 f4 ef8 | g1~ | g2 r2 |
 
-  \sectPageBreak "A2"
+  \sect "A2"
 
   bf1~ | bf4 af8 bf8 df8 bf8 \tuplet 3/2 { df8( bf8) af8 } |
   bf1 | r8 ef,8 gf8 af8 bf8 af8 \tuplet 3/2 { gf8( f8) ef8 } |
@@ -78,13 +102,12 @@ refrainMelody = \relative f' {
   gf8 af4.~ af4 r8 ef8 | gf8 af4.~ af4 r8 ef8 | bf'4 af4 gf4 \tuplet 3/2 { ef8( c8) bf8~ } | bf2. r8 ef8 |
   gf8 af4.~ af4 r8 ef8 | gf8 af4.~ af4 r8 ef8 | g8 bf8 c8 bf8~ bf4. ef,8 | g8 bf8 c8 g8 bf2 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   bf1~ | bf4 af8 bf8 df8 bf8 \tuplet 3/2 { df8( bf8) af8 } |
   bf1 | r8 ef,8 gf8 af8 bf8 af8 \tuplet 3/2 { gf8( f8) ef8 } |
   ef1 | r4 c8 ef8~ ef8 f4 ef8 | ef1 | r1 |
-
-  \bar "|."
+  }
 }
 
-\include "../Include/refrainonly.ily"
+\include "../Include/verserefrain.ily"

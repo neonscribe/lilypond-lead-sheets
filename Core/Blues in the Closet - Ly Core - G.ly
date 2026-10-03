@@ -36,11 +36,17 @@ refrainMelody = \relative f' {
 
   \xTextMark \markup{ \bold \box "Head" }
 
-  g4 b8 g8 c4 b8 g8 | c4 b8 g8 r8 d4 g8~ | g4 b8 g8 c4 b8 g8 | r8 d4. r4 r8 g8~ |
+  g4 b8 g8 c4 b8 g8 | c4 b8 g8 r8 d4 g8~ |
   \break
-  g4 bf8 g8 c4 bf8 g8 | c4 bf8 g8 r8 d4 g8~ | g4 b8 g8 c4 b8 g8 | r8 d4. r4 r8 g8~ |
+  g4 b8 g8 c4 b8 g8 | r8 d4. r4 r8 g8~ |
   \break
-  g4 b8 g8 c4 b8 g8 | c4 b8 g8 r8 d4 g8~ | g4 b8 g8 c4 b8 g8 | r8 d4. r4 r8
+  g4 bf8 g8 c4 bf8 g8 | c4 bf8 g8 r8 d4 g8~ |
+  \break
+  g4 b8 g8 c4 b8 g8 | r8 d4. r4 r8 g8~ |
+  \break
+  g4 b8 g8 c4 b8 g8 | c4 b8 g8 r8 d4 g8~ |
+  \break
+  g4 b8 g8 c4 b8 g8 | r8 d4. r4 r8
   \override Parentheses.font-size = #5
   \parenthesize g8\laissezVibrer |
 

@@ -71,7 +71,9 @@ refrainMelody = \relative f' {
   r4 cs8 d8 as'8 b4. | cs,8 d8 as'8 b8~ b4 r4 |
   r4 cs,8 d8 bf'8 e,4. \textToCodaLastTime | cs8 d8 bf'8 e,8~ e4 r4 |
 
-  \bar "||-|."
+  \bar "|."
+  
+  \xxPageBreak
 
   \textCodaBreak
 

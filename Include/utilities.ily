@@ -99,6 +99,35 @@ xxPageBreak = {
   \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
 }
 
+%% a mandatory page break unless lyrics are hidden
+alwaysPageBreak =
+#(define-music-function (sec barbreak barnobreak)
+   (string? string? string?)
+    #{
+    \bar #barbreak
+    \pageTurn
+    \once \override Score.Clef.break-visibility = #begin-of-line-visible
+    \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
+    \sectNoBar #sec
+    #} )
+
+%% a mandatory page break unless lyrics are hidden
+lyricsPageBreak =
+#(define-music-function (sec barbreak barnobreak)
+   (string? string? string?)
+  (if (and (defined? 'hideLyrics) hideLyrics)
+    #{
+    \bar #barnobreak
+    \sectNoBar #sec
+    #}
+    #{
+    \bar #barbreak
+    \pageTurn
+    \once \override Score.Clef.break-visibility = #begin-of-line-visible
+    \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
+    \sectNoBar #sec
+    #} ) )
+
 %% a good place for a page break
 xPageBreak = {
   \break

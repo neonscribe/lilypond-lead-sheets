@@ -61,6 +61,10 @@ refrainMelody = \relative f' {
   g2 ef4. d8~ | d2 \tuplet 3/2 { f4 bf4 d4 } | ef4. bf8~ bf4. a8~ \daCapoAfterSolos | a8 d4. d2 |
   \bar "||-||"
 
+  \bar "|."
+  
+  \xxPageBreak
+
   \textCodaBreak
 
   a8\repeatTie d4.~ d2~ | d1\fermata |

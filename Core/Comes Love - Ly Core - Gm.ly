@@ -128,13 +128,13 @@ refrainMelody = \relative f' {
   \break
   d'1~ | d8 c4 c8 bf4 a4 | g1~ | g2 r2 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   d'4. b8~ b4 r4 | d4. b8~ b8 ef4 d8 | ef4 d4 c4 b8 c8~ | c2. r4 |
   \break
   c4. a8~ a4 r4 | c4. a8~ a4 r4 | d8 d4 d8~ d8 d4 d8~ | d8 d,4 d8~ d4 d8 d8 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   g4 bf2 d,8 d8 | g8 g8 bf8 bf8 g4 d8 d8 | fs4 a2 d,8 d8 | fs8 fs8 a8 a8 fs4 d4 |
   \break

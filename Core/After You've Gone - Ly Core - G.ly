@@ -98,8 +98,8 @@ refrainMelody = \relative f' {
 
 
   e4 b'2 b4~ | b1 | e,4 a2 a4~ | a1 |
-  r4
-  e4 e4 d4 | fs4 d4 e4 d4 | g4 b,2 d4~ | d1  |
+  \break
+  r4 e4 e4 d4 | fs4 d4 e4 d4 | g4 b,2 d4~ | d1  |
 
 } \volta 2 {
 
