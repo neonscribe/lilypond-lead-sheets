@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   r8 f4. f4 r8 f8~ | f4 f4 r8 f4 r8 | r8 f4. g4 af4 | g2 f8 g4 f8 |
   \break
   ef2~ ef4. c'8~ | c2~ c4. bf8~ | bf2 g4. ef8~ | ef2 f2 |
-
+  \break
   \alternative { \volta 1 {
   r8 g4. af4. bf8~ | bf2 cf4. df8~ | df4. bf8 gf8 ef8 gf8 ef8~ | ef4. f8 r2 |
   \break

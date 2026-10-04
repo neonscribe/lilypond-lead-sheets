@@ -136,21 +136,25 @@ refrainMelody = \relative f' {
   \sectStartRefrain "A1"
 
   r8 f8 a8 c8 e8 ef8 d8 a8~ | a2 bf4 a4 | a8 f8 f8 f8~ f2~ | f2. r4 |
+  \break
   r8 d8 f8 a8 c8 b8 bf8 a8~ | a2 g4 a4 | g8 gf8 f8 f8~ f2~ | f2. r4 |
 
-  \sectPageBreak "B"
+  \sect "B"
 
   d'8 c8 d8 c4. bf4 | df8 c8 df8 c2 bf8 | a4 c4 c2~ | c1 |
+  \break
   e8 f8 e8 c4. b4 | e8 f8 e8 c4. b4 | a4 c8 c8~ c2 | g4 a8 a8~ a2 |
 
-  \sectPageBreak "A2"
+  \alwaysPageBreak "A2" "||" "||-||"
 
   r8 f8 a8 c8 e8 ef8 d8 a8~ | a2 bf4 a4 | a8 f8 f8 f8~ f2~ | f2. r4 |
+  \break
   r8 d8 f8 a8 c8 b8 bf8 a8~ | a2 g4 a4 | g8 gf8 f8 f8~ f2~ | f2. r8 f8 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   d'8 c8 d8 c4. bf4 | df8 c8 df8 c2 bf8 | a8 c8 d8 f4. g4 | e2. d4 |
+  \break
   c8 c8 c8 c8~ c2 \textToCodaLastTime | r4 f,4 a8 a8 a8 f8~ | f1~ | f2. r4 |
 
   \bar "||-|."

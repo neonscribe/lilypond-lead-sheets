@@ -56,43 +56,35 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   r8 g,8 a8 c8 d8 e8 b'8 g8 | a4 d4 b4~ \tuplet 3/2 { b8 g8 f8 } |
-  %% \break
   e4 c'4 a4~ \tuplet 3/2 { a8 f8 e8 } | d4 b'4 g2 |
-  %% \break
+  \break
   r8 a8 g8 f8 e8 d8 g8 e8 | c8 a4.~ a2 |
-  %% \break
   r8 f'8 g8 a8 g4 d4 | g1 |
 
   \sect "A2"
 
   r8 g,8 a8 c8 d8 e8 b'8 g8 | a4 d4 b4~ \tuplet 3/2 { b8 g8 f8 } |
-  %% \break
   e4 c'4 a4~ \tuplet 3/2 { a8 f8 e8 } | d4 b'4 g2 |
-  %% \break
+  \break
   r8 a8 g8 f8 e8 d8 g8 e8 | c8 a4.~ a2 |
-  %% \break
   r8 f'8 g8 a8 g4 e4 | c2. r8 b8 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   b'4~ \tuplet 3/2 { b8 a8 g8 } b4~ \tuplet 3/2 { b8 a8 g8 } |
   b,8 b4.~ b4 r8 b8 |
-  %% \break
   b'4~ \tuplet 3/2 { b8 a8 g8 } b4~ \tuplet 3/2 { b8 a8 g8 } |
   b,2. r8 b8 |
-  %% \break
+  \break
   e4~ \tuplet 3/2 { e8 fs8 g8 } e4. b8 | e4~ \tuplet 3/2 { e8 fs8 g8 } e2 |
-  %% \break
   \tuplet 3/2 { d4 d4 d4 } \tuplet 3/2 { f4 d4 f4 } | d1 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   r8 g,8 a8 c8 d8 e8 b'8 g8 | a4 d4 b4~ \tuplet 3/2 { b8 g8 f8 } |
-  %% \break
   e4 c'4 a4~ \tuplet 3/2 { a8 f8 e8 } | d4 b'4 g2 |
-  %% \break
+  \break
   r8 a8 g8 f8 e8 d8 g8 e8 | c8 a4.~ a2 |
-  %% \break
   r8 f'8 g8 f8 af4 b4 | c2. r4 |
 
   \bar "|."

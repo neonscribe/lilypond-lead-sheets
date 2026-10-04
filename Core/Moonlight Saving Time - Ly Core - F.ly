@@ -81,29 +81,30 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   a8 d8 c8 a8 e4 e4 | d8 d4 e8~ e4 r8 c8 | d4 d4 e4 e4 |
+  d8 d4 e8~ e4 r8 c8 | 
   \break
-  d8 d4 e8~ e4 r8 c8 | d4 d4 g4 g4 | d8 ds4 e8~ e4 c4 |
-  \break
+  d4 d4 g4 g4 | d8 ds4 e8~ e4 c4 |
   \alternative { \volta 1 {
   d4 a'2. | r2 r4 r8 gs8 |
   } \volta 2 {
   d4 f2. | r4 f4 g4 gs4 |
   } } }
 
-  \sectPageBreak "B"
+  \sect "B"
 
   a8 c8 a4 g8 c8 g4 | f8 fs8 g8 gs8 a8 c8 a4 | g1 |
+  r4 g4 a4 bf4 |
   \break
-  r4 g4 a4 bf4 | b8 d8 b4 a8 d8 a4 | g8 gs8 a8 as8 b8 a8 g4 |
-  \break
+  b8 d8 b4 a8 d8 a4 | g8 gs8 a8 as8 b8 a8 g4 |
   r4 d'8 c8~ c8 bf8 g4 | d2( e4) r8 gs8 |
 
-  \sectPageBreak "A3"
+  %% \lyricsPageBreak "A3" "||" "||-||"
+  \sect "A3"
 
   a8 d8 c8 a8 e4 e4 | d8 d4 e8~ e4 r8 c8 | d4 d4 e4 e4 |
+  d8 d4 e8~ e4 r8 c8 |
   \break
-  d8 d4 e8~ e4 r8 c8 | d4 d4 ds4 ds4 |
-  \break
+  d4 d4 ds4 ds4 |
   e8 e4 c'8~ c4 a4 | g1 | f2 r2 |
 
   \bar "|."

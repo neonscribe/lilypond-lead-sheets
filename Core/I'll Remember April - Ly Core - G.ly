@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Bing Crosby 1944]" 118
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   r4 b4 c4 d4 | c4 b4 a4 g4 | a2. g4 | fs4 e2. |
   \break
@@ -87,7 +87,7 @@ refrainMelody = \relative f' {
   \break
   b4 b2.~ | b2 \tuplet 3/2 { b4 a4 gs4 } | b1~ | b1 |
 
-  \sectPageBreak "A2"
+  \alwaysPageBreak "A2" "||" "||-||"
 
   \tempo "Latin"
 

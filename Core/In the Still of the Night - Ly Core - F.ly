@@ -65,7 +65,7 @@ refrainKey = f
 whatKey = #(or whatKey refrainKey)
 
 refrainMelody = \relative f' {
-  \time 4/4
+  \time 2/2
   \key \refrainKey \major
   \clef \whatClef
   \tempoFour "Medium [Ella Fitzgerald 1956]" 126
@@ -74,6 +74,7 @@ refrainMelody = \relative f' {
 
   r2 c4 d4 | f2 e4 f4 | d1 | r1 |
   r2 c4 d4 | f2 e4 f4 | d2 d2 | r1 |
+  \break
   r2 cs4 d4 | bf'2 a4 bf4 | g2. a4 | bf2 c2 |
   c2. c4 | c1 | r1 | r1 |
 
@@ -81,22 +82,26 @@ refrainMelody = \relative f' {
 
   r2 c,4 d4 | f2 e4 f4 | d1 | r1 |
   r2 c4 d4 | f2 e4 f4 | d1 | e1 |
+  \break
   r2 ds4 e4 | a2 gs4 a4 | fs2. gs4 | a4 b4 c4 d4 |
   e2. e4 | e1 | r1 | r1 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   f1~ | f2. e4 | e1 | d1 |
   r2 e,2 | d'2. c4 | c1 | r1 |
+  \break
   f1 | f2. e4 | e2. d4 | d1 |
   r2 e,2 | d'2. c4 | c1 | r1 |
+  \break
   r2 a2 | d2. c4 | c2. bf4 | bf1 |
   bf1 | r2 f4 g4 | a1 | r2 c,4 d4 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   f1 | r2 e4 f4 | d1 | r2 c4 d4 |
   f1 | r2 e4 f4 | d1 | r2 c4 d4 |
+  \break
   f1 | r1 | g1 | r2 a4 bf4 |
   c1~ | c1 | r1 | r1 |
 

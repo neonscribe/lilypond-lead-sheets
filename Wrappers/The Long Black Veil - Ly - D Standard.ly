@@ -8,4 +8,4 @@ subtitle = "The Country Gentlemen Key"
 whatKey = d
 whatClef = "treble"
 
-\include "../Core/The Long Black Veil - Ly Core - D.ly"
+\include "../Core/The Long Black Veil Long Chorus - Ly Core - D.ly"

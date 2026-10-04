@@ -18,9 +18,8 @@ refrainLyrics = \lyricmode {
 Im -- ag -- i -- na -- tion is fun -- ny, it makes a cloud -- y day sun -- ny,
 makes a bee think of hon -- ey, just as I __ think of you.
 
-Im -- ag -- i
-
-_ _ _ _
+Im -- ag -- i -- na -- tion is cra -- zy, your whole per -- spec -- tive gets ha -- zy,
+starts you ask -- ing a dais -- y what to do, what to do. __
 
 Have you ev -- er felt a gen -- tle touch and then a kiss and then,
 and then find it's on -- ly your im -- ag -- i -- na -- tion a -- gain? Oh well.
@@ -32,10 +31,6 @@ And yet I can't im -- ag -- ine that you want me, too. __
 
 refrainLyricsTwo = \lyricmode {
 _ _ _
-na -- tion is cra -- zy, your whole per -- spec -- tive gets ha -- zy,
-starts you ask -- ing a dais -- y what to do,
-_ _ _ _ _ _ _
-what to do. __ ""
 }
 
 refrainChords = \chordmode {
@@ -45,6 +40,9 @@ refrainChords = \chordmode {
   f2:m f2:m7+ f2:m7 bf2:7
 
   g2:m7 c2:7 f2:m7 bf2:7
+
+  ef2:maj7 e2:dim7 f2:m7 bf2:7 ef2:maj7 bf2:m7 g2:m7.5- c2:7.9-
+  f2:m f2:m7+ f2:m7 bf2:7
 
   ef1:maj7 bf2:m7 ef2:7
 
@@ -70,20 +68,19 @@ refrainMelody = \relative f' {
 
   \partial 4. d8 ef8 f8 |
 
-  \bar ".|:"
-  \repeat volta 2 {
-
-  \sectNoBarNoBreak "A1,A2"
+  \sectNoBreak "A1"
 
   g4 g2 bf4 | af4 af2 c4 | bf4 bf4 \tuplet 3/2 { bf4 c4 df4 } |
   bf4 bf2. | af4 af4 \tuplet 3/2 { af4 bf4 c4 } | af4 af4 c4 bf8 g8~ |
-  \alternative { \volta 1 {
   g2 bf4 af8 f8~ | f2 r8 d8 ef8 f8 |
-  } \volta 2 {
-  g2\repeatTie bf4 g8 f8~ | f2. r4 |
-  } } }
 
-  \sect "B"
+  \sect "A2"
+
+  g4 g2 bf4 | af4 af2 c4 | bf4 bf4 \tuplet 3/2 { bf4 c4 df4 } |
+  bf4 bf2. | af4 af4 \tuplet 3/2 { af4 bf4 c4 } | af4 af4 c4 bf8 g8~ |
+  g2 bf4 g8 f8~ | f2. r4 |
+
+  \alwaysPageBreak "B" "||" "||-||"
 
   r4 ef8 f8 g8 af8 bf8 c8 | d4 d4 a4. bf8 | c4 c4 g4. a8 | bf4 r8 bf8 e,2 |
   r4 f8 g8 a8 bf8 c8 d8 | ef4 ef4 \tuplet 3/2 { a,4 bf4 c4 } | bf2. c4 | fs,2 r8 d8 ef8 f8 |

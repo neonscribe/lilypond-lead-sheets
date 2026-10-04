@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \key \refrainKey \minor
   \clef \whatClef
 
-  \sectNoBarNoBreak "Head A"
+  \sectStartRefrain "A"
 
   \bar ".|:"
   \repeat volta 2 {

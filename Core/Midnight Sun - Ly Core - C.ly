@@ -170,15 +170,11 @@ refrainMelody = \relative f' {
 
   d8 df8 c8 b8 bf8 a8 af8 e8 | g8 e4. g8 gf8 f8 e8 | ef4 d'8 b8~ b2~ | b2 r4 a4 |
   c8 b8 bf8 a8 af8 g8 gf8 d8 | f8 d4. f8 e8 ef8 d8 | df4 c'8 a8~ a2~ | a2 r4 g4 |
-  \bar "|o"
-
-  \xPageBreak
-
   bf8 a8 af8 g8 gf8 f8 e8 c8 | ef8 c4. ef8 d8 df8 c8 | cf4 bf'8 g8~ g2~ | g2 bf8 g8 e8 f8 |
 
   g8 g4 g8~ g2 | r1 |
 
-  \sect "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   b8 cs8 gs8 a8 b4 g8 a8 | b8 cs8 g8 a8 b4 c4 | a1~ | a2 r4 fs4 |
   a8 b8 fs8 g8 a4 fs8 g8 | a8 b8 f8 g8 a4 b8 g8~ | g1~ | g2 r4

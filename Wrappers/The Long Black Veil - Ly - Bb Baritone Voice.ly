@@ -8,4 +8,4 @@ subtitle = "Johnny Cash, Roseanne Cash Key"
 whatKey = bf,
 whatClef = "treble_8"
 
-\include "../Core/The Long Black Veil - Ly Core - D.ly"
+\include "../Core/The Long Black Veil Long Chorus - Ly Core - D.ly"

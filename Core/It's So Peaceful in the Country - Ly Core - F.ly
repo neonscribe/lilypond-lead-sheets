@@ -71,23 +71,27 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   c8 d,4.~ d4 g8 a8 | bf8 df,4.~ df4 a'8 g8 | e8 e8 e8 e8~ e8 f4 e8 | d8 e8 f8 g8 a8 bf4 c8 |
+  \break
   g8 g8 g2 a4 | f8 f8 f2 g4 | e8 e8 e2 f4 | d2. a'8 bf8 |
 
   \sect "A2"
 
   c8 d,4.~ d4 g8 a8 | bf8 df,4.~ df4 a'8 g8 | e8 e8 e8 e8~ e8 f4 e8 | d8 e8 f8 g8 a8 bf4 c8 |
+  \break
   g8 g8 g2 a4 |
   f8 f8 f2 e4 |
   d8 d8 d2 e4 | f1 |
 
-  \sectPageBreak "B"
+  \lyricsPageBreak "B""||" "||-||"
 
   e8 e4. f8 a8 g8 f8 | e8 e4. f8 a8 g8 f8 | e4. e8 f8 a8 g8 f8 | e2. e8 e8 |
+  \break
   f8 f4 a8~ a4 a8 a8 | c8 d4 a8~ a4. c8 | e8 e4 d8 e8 d8 c8 a8 | d8 bf4 e,8~ e4 a8 bf8 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   c8 d,4.~ d4 g8 a8 | bf8 df,4.~ df4 a'8 g8 | e8 e8 e8 e8~ e8 f4 e8 | d8 e8 f8 g8 a8 bf4 c8 |
+  \break
   d8 d8 d8 d8 d4. e8 |
   c8 c8 c8 c8 c4 d8 df8 |
   c8 d,4.~ d4 e8 f8 | g8 f4.~ f2 |

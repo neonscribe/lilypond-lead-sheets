@@ -14,22 +14,22 @@ headerCopyright = "© 1936 Irving Berlin"
 
 refrainLyrics = \lyricmode {
 The snow is snow -- ing, the wind is blow -- ing
-But I can weath -- er the storm
-What do I care how much it may storm?
-I've got my love to keep me warm
+but I can weath -- er the storm. __
+What do I care how much it may storm? __
+I've got my love to keep me warm. __
 
-I can't re -- mem -- ber a worse De -- cem -- ber
-Just watch those ic -- i -- cles form
-What do I care if i -- ci -- cles form?
-I've got my love to keep me warm
+I can't re -- mem -- ber a worse De -- cem -- ber.
+Just watch those ic -- i -- cles form. __
+What do I care if i -- ci -- cles form? __
+I've got my love to keep me warm. __
 
-Off with my o-- ver -- coat, off with my gloves
-I need no o -- ver -- coat, I'm burn -- ing with love
+Off with my o -- ver -- coat, __ off with my gloves. __
+I need no o -- ver -- coat, __ I'm burn -- ing with love.
 
 My heart's on fi -- re, the flame grows high -- er
-So I will weath -- er the storm
-What do I care how much it may storm?
-I've got my love to keep me warm
+so I will weath -- er the storm. __
+What do I care how much it may storm? __
+I've got my love to keep me warm. __
 }
 
 refrainChords = \chordmode {
@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
 
   \partial 4 bf,4 |
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBreak "A1"
 
   ef2 ef2 | d4 df2 c4 | f2 f2 | e4 ef2 d4 |
   \break
@@ -89,13 +89,13 @@ refrainMelody = \relative f' {
   \break
   r8 bf4. bf4 bf4 | c4 af4 f4 d8 ef8~ | ef1~ | ef2 r2 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   d2 g4 bf4 | d8 d4 d8~ d2 | d2 d8 d,4 e8~ | e2. r4 |
   \break
   c'2 c8 c,4. | d8 d4 e8~ e2 | r8 f4. f8 g8 f4 | bf2. bf,4 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   ef2 ef2 | d4 df2 c4 | f2 f2 | e4 ef2 d4 |
   \break

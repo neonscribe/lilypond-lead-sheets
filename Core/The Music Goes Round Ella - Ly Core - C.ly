@@ -120,7 +120,7 @@ refrainMelody = \relative f' {
   \break
   e4 e8 e8~ e4 \tuplet 3/2 { c'8 d8 c8 } | b4 d4 b2 | a8 a8 a8 a8 a8 g8 r8 g8 | g4 r4 r4 g4 |
 
-  \sectPageBreak "A3"
+  \alwaysPageBreak "A3" "||" "||-||"
 
   c4 c4 c8 c8 c4 | c2 r4 r8 g8 | c8 c8 c4 c4 b8 b8 | d2 b4 a4 |
   \break
@@ -128,7 +128,7 @@ refrainMelody = \relative f' {
   \alternative { \volta 1 {
   r2 r4 r8 g'8 |
 
-  \sectNoBreak "Verse"
+  \sect "Verse"
 
   c4 g4 b4 a4 | a8 af4 g8~ g4. e8 | f4 d4 e4 f4 | e8 g4 g8~ g4. g8 |
   c4 g4 b4 a4 | a8 af4 g8~ g4. e8 | d4 fs4 a4 c4 | b8 g8 a8 g8~ g4 r4 |

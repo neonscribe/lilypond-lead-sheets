@@ -110,7 +110,6 @@ refrainMelody = \relative f' {
   e1~ | e2 d4 c4 | e2 d4 c4 | e2 d4 c4 |
   \break
   g8 g8 g4-. g2~ | g2 g4 b4 | a2 g4 b4 | a2 e'4 g,4 |
-  \break
   c2 r2 | r1 |
 
   \bar "|."

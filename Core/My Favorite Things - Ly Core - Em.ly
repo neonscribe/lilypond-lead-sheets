@@ -34,7 +34,7 @@ Cream col -- ored po -- nies and crisp ap -- ple strud -- els,
 door -- bells and sleigh bells and schnit -- zel with noo -- dles;
 
 Wild geese that fly with the moon on their wings,
-these are a few of my fa -- vor -- ite things.
+%% these are a few of my fa -- vor -- ite things.
 }
 
 refrainChords = \chordmode {
@@ -67,32 +67,39 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   e4 b'4 b4 | fs4 e4 e4 | b4 e4 e4 | fs4 e2 |
+  \break
   e4 b'4 b4 | fs4 e4 e4 | b4 e4 e4 | fs4 e2 |
   \break
   e4 b'4 a4 | e4 fs4 d4 | d4 a'4 g4 | c,2. |
+  \break
   b4 c4 d4 | e4  fs4 g4 | a4 b4 a4 | ds,2. |
   }
-  \bar ":|."
+  \bar "||-:|."
 
   \sectNoBar "Major A"
 
   e4 b'4 b4 | fs4 e4 e4 | b4 e4 e4 | fs4 e2 |
+  \break
   e4 b'4 b4 | fs4 e4 e4 | b4 e4 e4 | fs4 e2 |
   \break
   e4 b'4 a4 | e4 fs4 d4 | d4 a'4 g4 | c,2. |
+  \break
   b4 c4 d4 | e4 fs4 g4 | a4 as4 b4 | c2. |
 
-  \sectPageBreak "Minor B"
+  \alwaysPageBreak "Minor B" "||" "||-||"
 
   r4 b4 b4 | b2 e,4 | r4 a4 a4 | a2 ds,4 |
+  \break
   r4 g4 g4 | g2 b,4 | e2.~ | e2 e4 |
 
-  \sectPageBreak "Major C"
+  \sect "Major C"
 
   e4 fs4 e4 | e4 d4 e4 | g4 a4 g4 | a2 g4 |
+  \break
   b4 c4 b4 | c2.~ | c2. | b2. |
   \break
   g2.~ | g2.~ | g2.~ | g2. |
+  \break
   R2.*1 | R2.*1 | R2.*1 | R2.*1_"D.C. for solos" \textToCodaLastTime |
 
   \bar "|."

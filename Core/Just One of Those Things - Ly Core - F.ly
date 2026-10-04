@@ -13,19 +13,19 @@ headerComposer = "Cole Porter"
 headerCopyright = "© 1935 HARMS Inc."
 
 refrainLyrics = \lyricmode {
-It was just one __ of those things, __
-Just one fo those cra -- zy flings. __
-One of those bells that now and then rings,
+It was just one __ of those things. __
+Just one of those cra -- zy flings. __
+One of those bells that now and then rings.
 Just one __ of those things. __
-It was just one __ of those nights, __
+It was just one __ of those nights. __
 Just one __ of those fab -- u -- lous flights.
-A trip to the moon on gos -- sa -- mer wings,
+A trip to the moon on gos -- sa -- mer wings.
 Just one __ of those things.
 If we'd thought a bit __ of the end of it __
-When we start -- ed paint -- ing the town, __
-We'd have been a -- ware __
-That our love af -- fair, __
-Was too hot not __ to cool down. __
+when we start -- ed paint -- ing the town, __
+we'd have been a -- ware __
+that our love af -- fair __
+was too hot not __ to cool down. __
 So good -- bye, dear, __ and A -- men. __
 Here's hop -- ing we meet now and then. __
 It was great fun __ but it was
@@ -68,34 +68,42 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   a2 r4 a4~ | a4 gs4 a2 | a1~ | a2 r2 |
+  \break
   a2 r4 a4~ | a4 gs4 a2 | a2 a4 g4~ | g1 |
   \break
   g4 e4 f2 | c'2. f,4 | f4 d4 f2 | e1 |
+  \break
   d2 r4 d4~ | d4 cs4 d2 | c1~ | c2 bf'4 a4 |
 
   \sect "A2"
 
   a2 r4 a4~ | a4 gs4 a2 | a1~ | a2 r2 |
+  \break
   a2 r4 a4~ | a4 gs4 a2 | a4 gs4 a2 | g2. e4 |
   \break
   \tuplet 3/2 { g2 e2 f2 } | d'2. c4 |
   \tuplet 3/2 { f,2 d2 f2 } | e1 |
+  \break
   d2 r4 d4~ | d4 cs4 d2 | c1 | r4 c2 bf4 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   g'2 g4 g4~ | g4 fs2 g4 | c2 c4 c4~ | c4 cf2 bf4 |
+  \break
   c,2 d4 ef4~ | ef4 f2 fs4 | g1~ | g2 g4 gs4 |
   \break
   a2 a4 a4~ | a4 gs2 a4 | e'2 e4 e4~ | e4 ef2 d4 |
+  \break
   d2 r4 d4~ | d4 c4 a2 | c1~ | c2 bf4 a4 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   a2 r4 a4~ | a4 gs4 a2 | a1~ | a2 r2 |
+  \break
   a2 r4 f'4~ | f4 d2 c4 | a4 gs4 a4 g4~ | g2 fs4 g4 |
   \break
   e'2 r4 d4~ | d4 d,4 cs4 d4 | c'2 r4 bf4~ | bf4 g4 a2 |
+  \break
   f1~ | f1 | r1 | r2
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

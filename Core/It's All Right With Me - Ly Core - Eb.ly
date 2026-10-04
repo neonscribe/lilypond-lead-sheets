@@ -206,45 +206,36 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   ef2 g2~ | g2 c,4 d4 | ef2 g2~ | g2 c,4 d4 |
-  %% \break
   ef2 f4 g4~ | g4 ef4 f4 g4 |  af2 c2~ | c2 b4 c4 |
   \break
   d2 c2~ | c4 d,4 cs4 d4 | r4 c'2 b4 | bf2 c,4 d4 |
-  %% \break
   ef2 g2~ | g2 f2 | d1~ | d4 r4 c4 d4 |
 
   \sect "A2"
 
   ef2 g2~ | g2 c,4 d4 |  ef2 g2~ | g2 c,4 d4 |
-  %% \break
   ef2 f4 g4~ | g4 ef4 f4 g4 |  af2 c2~ | c2 b4 c4 |
   \break
   d2 c2~ | c4 d,4 cs4 d4 |  r4 c'2 b4 | bf2 c,4 d4 |
-  %% \break
   ef2 g2~ | g2 f2 | ef1~ | ef4 r4 r4 ef4 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   bf'2 bf4 c4 | df4 df2 bf4 |  a2 a4 bf4 |  c2. a4 |
-  %% \break
   af2 af4 bf4 | cf4 cf2 af4 | g1~ | g4 r4 r4 ef4 |
   \break
   bf'2 bf4 c4 | df4 df2 bf4 | a2 a4 bf4 | c2. a4 |
-  %% \break
   af2 af8 af4 af8 | af4 bf2 af4 | g1~ | g4 r4 c,4 d4 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   ef2 g2~ | g2 c,4 d4 | ef2 g2~ | g2 c,4 d4 |
-  %% \break
   ef2 f4 g4~ | g4 ef4 f4 g4 |  af2 c2~ | c2 b4 c4 |
   \break
   d2 c2~ | c4 d,4 cs4 d4 | r4 c'2 b4 | bf2 c,4 d4 |
-  %% \break
   ef2 g2~ | g2 f2 | d1 | r2 ef4 f4 |
   \break
   g2 bf2~ | bf2. b4 | c2 ef2~ | ef2 c2 |
-  \break
   ef1~ | ef1~ | ef4 r4 r2 | r1 |
 
   \bar "|."

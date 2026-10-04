@@ -46,6 +46,9 @@ refrainChords = \chordmode {
   a1:m7.5- d1:7.9- g2:m6 d2:7.9- g1:m6
   g1:m7.5- c1:7.9- f1:6 e2:m7.5- a2:7.5-
 
+  ef1:7 d1:m ef1:7 d1:m
+  ef1:7 d1:m e2:m7.5- a2:7.5-
+
   d1:m
 
   e1:m7.5- e1:m7.5- ef1:7.11+ ef1:7.11+
@@ -68,7 +71,7 @@ refrainMelody = \relative f' {
 
   \partial 8 a,8 |
 
-  \sectNoBarNoBreakSegno "A1,A2,A3"
+  \sectStartRefrain "A1,A2"
 
   \bar ".|:"
   \repeat volta 2 {
@@ -76,7 +79,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { bf8 df8 f8 } c'8 c4. bf8 f8 | a2 r4 r8 a,8 |
   \break
   \tuplet 3/2 { bf8 df8 f8 } c'2 bf8 f8 | gs8 a4.~ a2 |
-  a8 bf8 a8 g8 ef4 cs8 d8~ \textToCoda |
+  a8 bf8 a8 g8 ef4 cs8 d8~ |
   } \alternative { {
   d2 r4 r8 a8 |
   } {
@@ -87,18 +90,19 @@ refrainMelody = \relative f' {
 
   c4. a8~ a4. g8 | fs4 ef'8 df8 d8 c4 a8 | bf8 g4 fs8~ fs4 a8 f8 | g8 a8 e4 r4 r8 bf'8~ |
   \break
-  bf2 g4. f8 | e4 df'8 b8 c8 bf4 gs8 | a4. f8 g4 f8 e8~ | e2 r4 r8 \dalSegno a,8 |
-  \bar "|."
+  bf2 g4. f8 | e4 df'8 b8 c8 bf4 gs8 | a4. f8 g4 f8 e8~ | e2 r4 r8 a,8 |
 
-  \xxPageBreak
+  \sect "A3"
 
-  \textCodaBreak
+  \tuplet 3/2 { bf8 df8 f8 } c'2 bf8 f8 | gs8 a4.~ a4. a,8 |
+  \tuplet 3/2 { bf8 df8 f8 } c'8 c4. bf8 f8 | a2 r4 r8 a,8 |
+  \break
+  \tuplet 3/2 { bf8 df8 f8 } c'2 bf8 f8 | gs8 a4.~ a2 |
+  a8 bf8 a8 g8 ef4 cs8 d8~ |
 
-  d4.\repeatTie a'8 r8 a4 a8~ |
-  \bar "||-||"
+  d4. a'8 r8 a4 a8~ |
 
-
-  \xTextMark \markup{ \bold \box "C" }
+  \alwaysPageBreak "C" "||" "||-||"
 
   a4 g8 e8 a4 g8 e8 | a8 g8 e8 a8 r4 r8 a8~ | a4 g8 ef8 a4 g8 ef8 | a8 g8 ef8 a8 r4 r8 a8~ |
   \break
@@ -111,7 +115,6 @@ refrainMelody = \relative f' {
   \bar "|."
 }
 
-afterText = \markup { "Solo " \bold \box "A1" \bold \box "A2" \bold \box "B" \bold \box "A3" 
-		      ". After solos, D.S. al Fine (take repeat)." }
+afterText = \markup { "Solo " \bold \box "A1" \bold \box "A2" \bold \box "B" \bold \box "A3" }
 
 \include "../Include/bassintrorefrain.ily"

@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   \sect "B"
 
   a1 | b1 | b4 g4 e4 a4~ | a1 |
-  %% \break
+  \break
   a4 f4 d4 g4~ | g1 | r8 g4 a8~ a2 | r8 a4 b8~ b2 |
 
   \sect "A3"

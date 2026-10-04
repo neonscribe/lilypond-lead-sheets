@@ -8,4 +8,4 @@ subtitle = "Bb High for Alto Voice Key"
 whatKey = g'
 whatClef = "treble"
 
-\include "../Core/You Belong to Me - Ly Core - F.ly"
+\include "../Core/You Belong to Me Jo Stafford - Ly Core - F.ly"

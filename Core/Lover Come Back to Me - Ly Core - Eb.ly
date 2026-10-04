@@ -145,21 +145,23 @@ refrainMelody = \relative f' {
   ef1 | d1 |
 
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   c4 d4 ef4 f4 | g4 c4 b4 c4 | af4 c4 b4 c4 | g1 |
+  \break
   g1 | d1 | ef1 | d1 |
   \break
   c4 d4 ef4 f4 | g4 c4 b4 c4 | af4 c4 b4 c4 | g1 |
   \break
   g1 | c,4 d4 ef4 g4 | bf1 | f1 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 |
-  r4 ef4 ef4 f4 | g1 |
   \break
+  r4 ef4 ef4 f4 | g1 |
   r4 g4 g4 af4 | bf1 |
+  \break
   r4 af4 af4 bf4 | c4 ef4 c4 af4 |
   g4 bf4 g4 ef4 | f2 g2 |
   \break

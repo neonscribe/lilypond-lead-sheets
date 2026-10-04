@@ -13,21 +13,20 @@ headerComposer = "Cole Porter"
 headerCopyright = "© 1932 Warner Bros. Inc."
 
 refrainLyrics = \lyricmode {
-  Night and day, you are the one.
-  On -- ly you be -- neath the moon and un -- der the sun.
-  Wheth -- er near to me or far, it's no mat -- ter dar -- ling, where you are,
+  Night and day, __ you are the one.
+  On -- ly you __ be -- neath the moon and un -- der the sun.
+  Wheth -- er near __ to me or far, it's no mat -- ter dar -- ling, where you are, __
   I think of you night and day.
 
-  Day and night, why is it so, that this long -- ing for you follows where -- ev -- er I go?
+  Day and night, __ why is it so, that this long -- ing for you follows where -- ev -- er I go?
   In the roar -- ing traf -- fic's boom, In the si -- lence of my lone -- ly room,
-  I think of you night and day.
+  I think of you __ night and day.
 
-  Night and
-  day, un -- der the hide of me, There's an
-  Oh, such a hung -- ry yearn -- ing, burn -- ing in -- side of me.
+  Night and day, __ un -- der the hide of me, There's an
+  oh, such a hung -- ry yearn -- ing, burn -- ing in -- side of me. __
   And its tor -- ment won't be through
-  'til you let me spend my life mak -- ing love to you,
-  day and night. Night and day.
+  'til you let me spend my life mak -- ing love __ to you,
+  day and night, __ night and day. __
 }
 
 refrainChords = \chordmode {
@@ -69,24 +68,33 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   g1~ | g2 \tuplet 3/2 { f4 e4 ds4 } | e1 | r2 g4 g8 g8~ |
+  \break
   g4 g4 g4 g4 | g4 f4 \tuplet 3/2 { f4 e4 ds4 } | e1 | r2 e8 e4 e8~ |
+  \break
   e4 e4 e4 e4 | ef2 ef4 ef4 | d4 d4 d4 d4 | d4 df8 c8~ c4 b4 |
+  \break
   a4 af8 g8~ g2~ | g2 g'4 g8 g8~ | g1 |
   r2 g4 g4 |
 
   \sect "A2"
 
   g1~ | g2 \tuplet 3/2 { f4 e4 ds4 } | e1 | r2 g4 g8 g8~ |
+  \break
   g4 g4 g4 g4 | g4 f4 \tuplet 3/2 { f4 e4 ds4 } | e1 | r2 e8 e4 e8~ |
+  \break
   e4 e4 e4 e4 | ef2 ef4 ef4 | d4 d4 d4 d4 | d4 df8 c8~ c4 b4 |
+  \break
   a4 af8 g8~ g2~ | g2 g'4 g8 g8~ | g1 |
   r2 g4 g4 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   bf1~ | bf2 \tuplet 3/2 { g4 f4 ef4 } | g4 g4 g2 | r2 g4 g4 |
+  \break
   bf8 c4 bf8 c4 bf8 c8~ | c8 bf4 g8~ \tuplet 3/2 { g4 f4 ef4 } | g4 g8 g8~ g2 | r2 e4. e8 |
+  \break
   e4 e4 e4 e4 | ef2 ef4 ef4 | d4 d4 d4 d4 | d8 df8 c8 b'8~ b8 bf8 a4 |
+  \break
   g4 g8 g8~ g2~ | g2 c4 c8 c8~ | c1 | r1 |
 
   \bar "|."

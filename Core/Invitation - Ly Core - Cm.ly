@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Cal Tjader 1956]" 100
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   \tuplet 3/2 { d4 ef4 d'4 } a2~ | a4 g8 bf8 a8 g4 c,8 |
   d2 d2~ | d2 \tuplet 3/2 { d4 c4 g'4 } |
@@ -84,7 +84,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { fs,4 a4 b4 } cs2~ | cs4 fs,8 cs'8 c4 f,8 c'8 |
   b1~ | b2 r4 e,4 |
 
-  \sectPageBreak "C2"
+  \alwaysPageBreak "C2" "||" "||-||"
 
   \tuplet 3/2 { e4 g4 a4 } b2~ | b4 e,8 b'8 bf4 ef,8 bf'8 |
   a2 a2~ | a4 g4 a4 bf4 |

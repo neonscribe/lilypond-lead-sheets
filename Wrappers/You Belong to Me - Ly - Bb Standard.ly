@@ -8,4 +8,4 @@ subtitle = "Standard Key"
 whatKey = bf
 whatClef = "treble"
 
-\include "../Core/You Belong to Me - Ly Core - F.ly"
+\include "../Core/You Belong to Me Jo Stafford - Ly Core - F.ly"

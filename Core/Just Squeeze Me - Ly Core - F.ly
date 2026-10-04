@@ -57,29 +57,27 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   a4 a4 a8 bf4 c8~ | c4. c8~ c2 | a4 a4 a8 bf4 c8~ | c4. c8~ c4. c8~ |
-  %% \break
+  \break
   c4. bf8~ bf2 | r8 c4. c4 c4 | c4. a8~ a2 | r1 |
 
   \sect "A2"
 
   a4 a4 a8 bf4 c8~ | c4. c8~ c2 | a4 a4 a8 bf4 c8~ | c4. c8~ c4. c8~ |
-  %% \break
+  \break
   c4. bf8~ bf2 | r8 c4. c4 c4 | c4. a8~ a2 | r1 |
 
-  \sectPageBreak "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   \tuplet 3/2 { a8 bf8 b8 } c8 c8 c8 d8 c4 | \tuplet 3/2 { a8 bf8 b8 } c8 c8 c8 d8 c4 |
-  %% \break
   \tuplet 3/2 { bf8 c8 cs8 } d8 ef8 d8 bf8 g8 bf8~ | bf1 |
-  %% \break
+  \break
   \tuplet 3/2 { b8 c8 cs8 } d8 d8 d8 e8 d4 | \tuplet 3/2 { b8 c8 cs8 } d8 d8 d8 e8 d4 |
-  %% \break
   f2 d4. fs,8 | g8 e'4 d8~ d2 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   a4 a4 a8 bf4 c8~ | c4. c8~ c2 | a4 a4 a8 bf4 c8~ | c4. c8~ c4. c8~ |
-  %% \break
+  \break
   c4. bf8~ bf2 | r8 c4. c4 c4 | c4. a8~ a2 | r1 |
 
   \bar "|."

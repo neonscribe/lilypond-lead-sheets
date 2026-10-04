@@ -15,32 +15,24 @@ headerCopyright = "© 1935 Milsons Music Publishing Corp."
 refrainLyrics = \lyricmode {
 In a sen -- ti -- men -- tal mood __
 I can see the stars come thru my room __
-While your lov -- ing at -- ti -- tude __
-Is like a flame that lights the gloom.
+while your lov -- ing at -- ti -- tude __
+is like a flame that lights the gloom.
 
 On the wings of ev -- 'ry kiss __
-Drifts a mel -- o -- dy so strange and sweet. __
+drifts a mel -- o -- dy so strange and sweet. __
 In this sen -- ti -- men -- tal bliss __
 You make my par -- a -- dise com -- plete.
 
 Rose pet -- als seem to fall.
 It's all like a dream to call you mine.
+_ _ _ _ _ _ _ _ _
 My heart's a light -- er thing
 since you made this night a thing di -- vine.
 
 In a sen -- ti -- men -- tal mood __
 I'm with -- in a world so heav -- en -- ly __
-For I never dreamt that you'd __
-Be lov -- ing sen -- ti -- men -- tal me.
-}
-
-refrainLyricsTwo = \lyricmode {
-_ _ _ _ _ _ 
-Drifts a mel -- o -- dy so strange and sweet. __
-In this sen -- ti -- men -- tal bliss __
-You make my par -- a -- dise com-
-_ _ _ _ _ _ _
-plete.
+for I nev -- er dreamt that you'd __
+be lov -- ing sen -- ti -- men -- tal me.
 }
 
 refrainChords = \chordmode {
@@ -78,25 +70,29 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   g1~ | g4 f8 g8 f8 e8 d8 c8 | a4 d8 a8~ a2~ | a4 a8 c8 d8 af8 g8 f8 |
+  \break
   d2~ d8 f8 a8 c8 | e2. d4 | bf2 e,2 |
   g4 f8 g8 a8 c8 d8 f8 |
 
   \sect "A2"
 
   g1~ | g4 f8 g8 f8 e8 d8 c8 | a4 d8 a8~ a2~ | a4 a8 c8 d8 af8 g8 f8 |
+  \break
   d2~ d8 f8 a8 c8 | e2. d4 | bf2 e,2 |
   f2. r4 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   c'4 bf8 c8 ef8 df8 c8 bf8 | f4 ef8 f8 gf8 af8 f8 ef8 |
   df2 \tuplet 3/2 { fs4 g4 bf4 } | \tuplet 3/2 { b4 c4 ef4 } \tuplet 3/2 { e4 f4 af4 } |
+  \break
   c,4 bf8 c8 ef8 df8 c8 bf8 | f4 ef8 f8 gf8 af8 f8 ef8 |
   c1 | r4 f8 g8 a8 c8 d8 f8 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   g1~ | g4 f8 g8 f8 e8 d8 c8 | a4 d8 a8~ a2~ | a4 a8 c8 d8 af8 g8 f8 |
+  \break
   d2~ d8 f8 a8 c8 | e2. d4 | bf2 e,2 | f1 |
 
   \bar "|."
