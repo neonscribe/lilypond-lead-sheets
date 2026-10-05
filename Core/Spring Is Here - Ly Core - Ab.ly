@@ -20,7 +20,7 @@ headerCopyright = "© 1938 Chappell & Co."
 
 refrainLyrics = \lyricmode {
 Spring is here, why does -- n't my heart go danc -- ing?
-Spring is here, whi is -- n't the waltz en -- tranc -- ing?
+Spring is here, why is -- n't the waltz en -- tranc -- ing?
 No de -- sire, __ _ no am -- bi -- tion leads me,
 May -- be it's be -- cause no -- bod -- y needs me.
 Spring is here, why does -- n't the breeze de -- light me?
@@ -91,13 +91,13 @@ refrainMelody = \relative f' {
   \break
   c,4 d4 e4 f4 | g4 af4 bf4 c4 | d1 | ef1 |
 
-  \sectPageBreak "A2"
+  \alwaysPageBreak "A2" "||" "||-||"
 
   g,2. af4 | f1 | g4 \tuplet 3/2 { g8 g8 g8 } g4 af4 | f4 f2. |
   \break
   ef2. f4 | df1 | ef4 \tuplet 3/2 { ef8 ef8 ef8 } ef4 f4 | df4 df2. |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   c4 df4 ef4 f4 | g4 af4 bf4 c4 | d1 | ef1 |
   \break

@@ -57,17 +57,20 @@ refrainMelody = \relative f' {
   
   r8 b,8 d8 fs8 a8 g8 \tuplet 3/2 { d8 b8 d8~ } | d2 e2 |
   r8 c8 e8 g8 b8 g8 \tuplet 3/2 { e8 c8 e8~ } | e2 fs2 |
+  \break
   d2. e4 | d2. df4 | c8 e8 g8 b8 d4 d4 | b2 bf2 |
   
   \sect "A2"
   
   r8 b,8 d8 fs8 a8 g8 \tuplet 3/2 { d8 b8 d8~ } | d2 e2 |
   r8 c8 e8 g8 b8 g8 \tuplet 3/2 { e8 c8 e8~ } | e2 fs2 |
+  \break
   d2. e4 | d2. e4 | d8 e8 g8 b8 d4 d4 | c2. b4 |
   
   \sect "B"
   
   b4 a4 b4. a8 | c4 d4 b4. fs8 | a4 g4 a4 b4 | fs2 f2 |
+  \break
   r8 e8 g8 b8 d8 b8 g8 e8 | b'2 fs2 | fs4 g2. | r1 |
 
   \bar "|."

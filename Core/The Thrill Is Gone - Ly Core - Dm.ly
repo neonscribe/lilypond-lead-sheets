@@ -12,7 +12,7 @@ songID = "2026-06-01T22:16:55.465785Z"
 
 \include "../Include/lead-sheets.ily"
 
-headerTitle = "The Thrill Is Gone (not B.B. King)"
+headerTitle = "The Thrill Is Gone"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "Ray Henderson/Lew Brown"

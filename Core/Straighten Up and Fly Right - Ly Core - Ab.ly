@@ -12,6 +12,8 @@ headerPoet = ""
 headerComposer = "Nat King Cole and Irving Mills"
 headerCopyright = "© 1944 American Academy of Music, Inc."
 
+chordSize = #-1
+
 refrainLeadingEighth = ##t
 
 refrainLyrics = \lyricmode {
@@ -102,14 +104,10 @@ refrainMelody = \relative f' {
   r4 f8 af8 bf4 f8 af8~ | af8 bf4.~ bf2 |
   r4 f8 af8 bf4 f8 af8~ | af8 f4.~ f2 |
   r4 f8 af8 bf4 f8 af8~ | af8 bf4.~ bf4 r8 af8~ |
-  \bar "|o"
-
-  \xPageBreak
-
   af8 af4. f8 g8 af8 bf8 \textToCodaLastTime |
   cf8 af4 bf8~ bf2 |
 
-  \sectNoBreak "A2"
+  \alwaysPageBreak "A2" "||" "||-||"
 
   r4 f8 af8 bf4 f8 af8~ | af8 bf4.~ bf2 |
   r4 f8 af8 bf4 f8 af8~ | af8 f4.~ f2 |

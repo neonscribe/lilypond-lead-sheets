@@ -60,24 +60,28 @@ refrainMelody = \relative f' {
 
   c4 ef4 f4 af4 | c4 ef4~ \tuplet 3/2 { ef4 c4 b4 } |
   \tuplet 3/2 { c4 ef,4 f4 } af2~ | af2. r4 |
+  \break
   c,4 ef4 f4 af4 | c4 f4~ \tuplet 3/2 { f4 ef4 c4 } |
   \tuplet 3/2 { ef4 c4 df4 } bf2~ | bf2. r4 |
 
   \sect "B"
 
   c4 c4 df4. b8 | c8 ef8 df2. | bf4 bf4 c4. bf8 | c2. bf4 |
+  \break
   af4 af4 bf4. g8 | af8 cf8 bf2 af4 | df,4 ef8 ef8 f8 f8 g4 | af4( bf2.) |
 
-  \sectPageBreak "A2"
+  \alwaysPageBreak "A2" "||" "||-||"
 
   c,4 ef4 f4 af4 | c4 ef4~ \tuplet 3/2 { ef4 c4 b4 } |
   \tuplet 3/2 { c4 ef,4 f4 } af2~ | af2. r4 |
+  \break
   c,4 ef4 f4 af4 | c4 f4~ \tuplet 3/2 { f4 ef4 c4 } |
   \tuplet 3/2 { ef4 c4 df4 } bf2~ | bf2. r4 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   c8 c8 c4 df4. b8 | c4 df2 c4 | d4 d4 d4 d4 | ef2. c4 |
+  \break
   c,4 ef4 f4 af4 | c4 <ef ef,>2 ef,4 | c'4 c8 c8 c4 ef,8 f8 | c'2. e,8 f8 |
   c'2 c2 | c2 ef,4 f4 | af1 | r1 |
 

@@ -96,6 +96,8 @@ refrainMelody = \relative f' {
   \break
   bf2. bf4 | af2 g2 | r4 f4 \tuplet 3/2 { af4 c4 ef4 } \textToCodaLastTime | ef2 r2 |
   \bar "|."
+  
+  \xxPageBreak
 
   \textCodaBreak
 

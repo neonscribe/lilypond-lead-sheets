@@ -69,7 +69,7 @@ refrainMelody = \relative f' {
   \break
   a8 bf8 a8 bf8 g4. bf8 | c8 c8 bf4 df4 c8 bf8~ | bf1~ | bf2 r4 bf8 bf8 |
 
-  \sectPageBreak "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   c8 c8 bf8 af8 bf4 af8 bf8 | c8 c8 bf8 af8 bf8 af4 bf8 |
   c8 c8 bf8 g8 bf4 g8 bf8 | c8 bf4.~ bf4 g8 bf8 |
@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
   c8 c8 bf8 g8 bf4 g8 bf8 | c8 c8 bf8 g8 bf8 g4 bf8 |
   c8 c8 a8 f8 a4 f8 a8 | c8 f,4.~ f2 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |
   a8 bf8 a8 bf8 g4. bf8 | a8 bf8 g4~ g8 g4. |

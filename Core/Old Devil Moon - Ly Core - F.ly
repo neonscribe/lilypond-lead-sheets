@@ -74,28 +74,37 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
 
-  f1^\markup { Latin } | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
+  f1 | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
   \break
-  a1 | bf8 bf8 bf8 bf8 bf4 d4 | c1~ | c2 c4^\markup { Swing } c4 |
+  a1 | bf8 bf8 bf8 bf8 bf4 d4 | c1~ | c2 
+  \tempo "Swing"
+  c4 c4 |
 
   \sect "B1"
 
   c2 bf8 a4 f 8~ | f2 a4 bf4 | c2 bf8 a4 f8~ | f2 a4 bf4 |
   \break
-  df2 cf8 bf4 gf8~ | gf2 a8 g4 f8~ | f1^\markup { Latin } | r2 ef8 c8 ef8 f8~ |
+  df2 cf8 bf4 gf8~ | gf2 a8 g4 f8~ |
+  \tempo "Latin"
+  f1 | r2 ef8 c8 ef8 f8~ |
 
   \sect "C"
 
-  f2 ef8 c8 ef8 g8~ | g2 \tuplet 3/2 { ef4 c4 ef4 } | a2^\markup { Swing } a2~ | a2 f8 d8 f8 a8~ |
+  f2 ef8 c8 ef8 g8~ | g2 \tuplet 3/2 { ef4 c4 ef4 } |
+  \tempo "Swing"
+  a2 a2~ | a2 f8 d8 f8 a8~ |
   \break
   a2 f8 d8 f8 b8~ | b2 \tuplet 3/2 { f4 d4 f4 } | c'2 c2~ |
   c8^\markup { Stop (head only) } d4 af8 g8 f8 d8 c8 |
 
   \sect "A2"
 
-  f1^\markup { Latin } | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
+  \tempo "Latin"
+  f1 | ef8 ef8 ef8 ef8 ef4 g4 | f1 | g8 g8 g8 g8 g4 bf4 |
   \break
-  a1 | bf8 bf8 bf8 bf8 bf4 d4 | c1~ | c2 c4^\markup { Swing } c4 |
+  a1 | bf8 bf8 bf8 bf8 bf4 d4 | c1~ | c2
+  \tempo "Swing"
+  c4 c4 |
 
   \bar "||"
   \xxPageBreak
@@ -103,7 +112,9 @@ refrainMelody = \relative f' {
 
   c2 bf8 a4 f 8~ | f2 a4 bf4 | c2 bf8 a4 f8~ | f2 a4 bf4 |
   \break
-  df2 cf8 bf4 gf8~ | gf2 a8 g4 f8~ | f1^\markup { Latin } | r2 ef8 c8 ef4 |
+  df2 cf8 bf4 gf8~ | gf2 a8 g4 f8~ |
+  \tempo "Latin"
+  f1 | r2 ef8 c8 ef4 |
 
   \sect "D"
 

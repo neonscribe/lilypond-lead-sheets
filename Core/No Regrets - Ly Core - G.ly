@@ -13,8 +13,8 @@ headerComposer = "Roy Ingraham"
 headerCopyright = "© 1936 Tobias Harry Music"
 
 refrainLyrics = \lyricmode {
-No re -- rets, al -- though our love af -- fair has gone a -- stray.
-No re -- rets, I know I'll al -- ways care though you're a -- way.
+No re -- grets, al -- though our love af -- fair has gone a -- stray.
+No re -- grets, I know I'll al -- ways care though you're a -- way.
 Some -- how our hap -- py ro -- mance end -- ed sud -- den -- ly.
 Still in my heart you'll be for -- ev -- er mine.
 No re -- rets, be -- cause some -- bod -- y new looks good to you.
@@ -56,21 +56,25 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   d1 | r4 b4 a8 g8 fs8 e8 | ds4. b'8 b4. bf8 | a2 g4. g8 |
+  \break
   b1 | r4 g4 fs8 e8 d8 c8 | b4. fs'8 fs4. f8 | e2. b4 |
 
   \sect "B"
 
   c4 d4 ds4 e4 | b'4 b4 b4 fs4 | a4. af8 g2 | r4 g4 b4 g4 |
+  \break
   fs4. f8 e2 | r4 e4 g4 b4 | a1~ | a4 r4 b4. b8 |
 
   \sect "A2"
 
   d1 | r4 b4 a8 g8 fs8 e8 | ds4. b'8 b4. bf8 | a2 g4. g8 |
+  \break
   b1 | r4 g4 fs8 e8 d8 c8 | b4. fs'8 fs4. f8 | e2. b4 |
 
   \sectPageBreak "C"
 
   c4 d4 ds4 e4 | b'4 b2 a8 a8 | fs4 g4 a4 b4 | d2. df4 |
+  \break
   c2 ds,4 e4 | b'4. b8 b4. b8 | g1~ | g2 r2 |
 
   \bar "|."

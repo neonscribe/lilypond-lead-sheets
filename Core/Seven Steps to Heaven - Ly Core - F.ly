@@ -121,11 +121,7 @@ refrainMelody = \relative f' {
   \bar ":|."
   <d ef g c c'>4 r4 r2 | r1 |
 
-  \bar ":|.|:"
-
-  \ambitusOn
-
-  \sectNoBarPageBreak "Solos"
+  \alwaysPageBreak "Solos" ":|.|:" ":|.|:"
 
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

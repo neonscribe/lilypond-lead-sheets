@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   r1^"Solo break" | r1 |
   } } }
 
-  \sectPageBreak "Solos"
+  \sect "Solos"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \break
@@ -77,7 +77,8 @@ refrainMelody = \relative f' {
   r4 r8 ef,8 g8 bf8 \tuplet 3/2 { c8 bf8
   \endParenthesis \parenthesize ef8 } \dalSegnoAfterSolosWithRepeats |
 
-  \bar "||-|."
+  \bar "|."
+  \xxPageBreak
 
   \textCodaBreak
 

@@ -116,6 +116,10 @@ refrainMelody = \relative f' {
   e4 r4 r2 | r4 e8 c8 d8 a4 c8~ | c4 r4 r2 | r4 a4 a4 c8 d8~( |
   d8 a8) r4 r2 | r8 c8 d8 e8 d8 c8 a8 d8~( | d8 a8) r4 r2 | r1 |
   r4 d8 c8 d8 c8 d8 c8 | e4 d8 c8( d8 a4.) | r8 c8 d8 c8 d8 c8 d8 c8 | e4 d8 c8( a8) a8 c8 ef8( |
+
+  \bar "|o"
+  \xxPageBreak
+
   d2) e8 c4 a8 | e4 e4 gs8 a4 a8~ |
   <<
     { \xVoiceTwo {

@@ -160,13 +160,13 @@ refrainMelody = \relative f' {
   \break
   b'4 a4 b8 a8 b8 a8 | e2 r8 a8 e8 c8 | ef2 d4. c8 | a8 a4.~ a2 |
 
-  \sect "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   r8 g'8 g8 g8 bf8 bf4. | r8 g8 g8 g8 bf8 bf4. | r8 g8 g8 g8 bf4 bf4 | g1 |
   \break
   r8 a8 a8 a8 c8 c4. | r8 a8 a8 a8 c8 c4 c8 | a4 a4 c4 c4 | a2( as2) |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   \tuplet 3/2 { r4
 		\once \omit Accidental b4

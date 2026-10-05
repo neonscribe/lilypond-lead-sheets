@@ -57,20 +57,24 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
 
   r4 g'4~ g8 f4 b,8 | bf2 r2 | r4 af'4~ af8 g8 df4 | c2. r4 |
+  \break
   c'2 bf4. e,8 | ef2 r8 f8 c8 d8 | ef2 r8 fs8 cs8 d8 |
   \alternative { \volta 1 {
   e2 r4 fs4 |
   } \volta 2 {
   e2. r4 |
   } } }
+
   \sect "B"
   
   e2 fs4 cs4 | b2 f4 cs'4 | fs,4 fs2 gs4 | g4 g2. |
+  \break
   c2. d8 c8 | g2 r4 a4 | ef'2 f4 ef4 | bf8 f'4. r4 fs4 |
 
-  \sectPageBreak "A3"
+  \alwaysPageBreak "A3" "||" "||-||"
 
   r4 g4~ g8 f4 b,8 | bf2 r2 | r4 af'4~ af8 g8 df4 | c2. r4 |
+  \break
   c'2 bf4. e,8 | ef2 r8 f8 c8 d8 |
   ef2 r8 fs8 \tuplet 3/2 { e8 cs8 a8 } \textToCodaLastTime | af1 \daCapoAfterSolos |
 

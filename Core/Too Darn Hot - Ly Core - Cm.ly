@@ -100,15 +100,14 @@ refrainMelody = \relative f' {
   \sect "C"
 
   c4 d8 e8~ e8 e4 c8 | e8 d8 c8 d8~ d8 r8 g,4 | e'4 f8 g8~ g8 g4 e8 | g8 f8 e8 f8~ f4 d4 |
-  %% \break
   g4 a8 bf8~ bf8 bf4 g8 | bf8 a8 g8 a8~ a8 g4 f8 | ef2 d2 |
   c4 r4 r4 g'4 |
   }
 
-  \sectPageBreak "D"
+  \alwaysPageBreak "D" ":|.|:" ":|.|:"
 
   \key \refrainKey \major
-  \bar ":|.|:"
+
   \repeat volta 2 {
   a4 g4 e4 a8 g8~ | g8 e8 a8 g8 r8 a4 g8 | a8 a8 g4 e4 d8 e8~ | e4 r4 r8 a4 g8 |
   \override Score.Clef.break-visibility = #all-invisible

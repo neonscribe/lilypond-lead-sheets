@@ -104,7 +104,10 @@ refrainMelody = \relative f' {
   r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 d8 f8 | g4 f8 d8 f8 g4. |
   r8 a8~ \tuplet 3/2 { a8 f8 d8 } g4 r4 | a8 f8 d8 g8~ g4 r4 | r8 f8 g8 d8 f4 g4 | r4 af4 f4 d4 |
   f4 g8 d8 f4 g4 | r4 af8 f8~ f4 d4 | f4 g8 d8 f4 g4 | r4 af8 f8~ f4 d4 |
-  r8 a'8~ \tuplet 3/2 { a8 bf8 gs8 } a8 a,4.~ | a4 r4 c8 a8 cs8 d8~ | d4 r4 r2 | r1 |
+  r8 a'8~ \tuplet 3/2 { a8 bf8 gs8 } a8 a,4.~ |
+  \bar "|o"
+  \xxPageBreak
+  a4 r4 c8 a8 cs8 d8~ | d4 r4 r2 | r1 |
 
   \sectNoBreak "B"
 

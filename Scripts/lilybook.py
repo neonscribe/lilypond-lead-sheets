@@ -40,7 +40,7 @@ rectoThrees = ['Django', "It Ain't Necessarily So",
                "Is You Is, or Is You Ain't (Ma' Baby)",
                'Spring Can Really Hang You Up the Most']
 versoThrees = ['Fever', "Moanin'", 'My Attorney Bernie', 
-               'Peel Me a Grape',
+               'Peel Me a Grape', 'Straighten Up and Fly Right',
                'Oh Lonesome Me Four', 'Dear Mr Fantasy']
 eitherThrees = ['Twisted', 'You Belong to Me',
                "Do Nothin' Till You Hear From Me"]

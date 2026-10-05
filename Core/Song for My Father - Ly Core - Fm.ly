@@ -113,10 +113,13 @@ refrainBass = \relative f' {
 
   ef4 r8 bf'8 bf4 r8 ef,8 | ef4 r8 bf'8 bf4 r8 ef,8 | f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 ef,8 |
   ef4 r8 bf'8 bf8 ef,8 af8 df,8 | c4 r4 r4 r8 f8 |
-  f4_"Play head twice before and twice after solos, solo on A1-A2-B" r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 |
+  f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 |
 
   f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 | f4 r8 c'8 c4 r8 f,8 |
   f4 r8 c'8 c4 r8 f,8 | <f f,>4 r4 r2 |
 }
+
+afterText = \markup { "Play head twice before and twice after solos, solo on "
+		      \bold \box "A1" \bold \box "A2" \bold \box "B" }
 
 \include "../Include/refrainonly.ily"

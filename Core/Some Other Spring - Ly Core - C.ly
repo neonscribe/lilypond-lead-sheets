@@ -56,10 +56,11 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Billie Holiday 1939]" 78
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   e8 f8 g8 a8~ a4. af8 | g4 a8 e8~ e2 |
   d8 f8 a8 c8~ c4. bf8 | bf4 af4 af4 g4 |
+  \break
   a4 g4 g4. f8 | g8 bf4 bf8~ bf2 |
   a4 g4 gf4 ef4 | d4 d8 ds8~ ds2 |
 
@@ -67,24 +68,24 @@ refrainMelody = \relative f' {
 
   e8 f8 g8 a8~ a4. af8 | g4 a8 e8~ e2 |
   d8 f8 a8 c8~ c4. bf8 | bf4 af4 af4 g4 |
-  a4 g4 g4. f8 | g8 bf4 bf8~ bf2 |
   \break
+  a4 g4 g4. f8 | g8 bf4 bf8~ bf2 |
   c4 c4 g4 g4 | ef4 f8 d8~ d2 |
 
-  \sectPageBreak "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   a'4 a2 af4 | g4 g2 fs4 |
   \tuplet 3/2 { a4 af4 g4 } gf4 f4 | e8 a4 d,8~ d2 |
-  b'4 b2 bf4 | a4 a2 fs4 |
   \break
+  b'4 b2 bf4 | a4 a2 fs4 |
   g4 a4 fs4 fs4 | d4 d8 ds8~ ds2 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   e8 f8 g8 a8~ a4. af8 | g4 a8 e8~ e2 |
   d8 f8 a8 c8~ c4. bf8 | bf4 af4 af4 g4 |
-  a4 g4 g4. f8 | ef8 g4 c,8~ c4. d8 |
   \break
+  a4 g4 g4. f8 | ef8 g4 c,8~ c4. d8 |
   e8 a4 a,8 e'4 e4 | c2 r2 |
 
   \bar "|."

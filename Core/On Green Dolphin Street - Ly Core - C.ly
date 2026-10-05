@@ -49,7 +49,7 @@ refrainMelody = \relative f' {
   \key \refrainKey \major
   \clef \whatClef
 
-  \tempoFour "Latin [Miles Davis 1958]" 160
+  \tempoFour "Latin to Swing [Miles Davis 1958]" 160
   \sectNoBarNoBreak "A1"
 
   c'2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |

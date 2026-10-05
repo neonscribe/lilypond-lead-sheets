@@ -57,39 +57,40 @@ refrainMelody = \relative f' {
 
   \partial 4. d'8^\markup { Latin } d8 bf8 |
 
-  \xTextMark \markup{ \bold \box "A1, A2" }
+  \sectNoBarNoBreak "Intro"
 
   \bar ".|:"
   \repeat volta 2 {
   d8 d4.~ d2 | r8 c8 c8 cs8 d8 bf4. | a1 | r2 r8 c8 c8 a8 |
-  %% \break
+  \break
   c8 c4.~ c2 | r8 c8 c8 cs8 d8 a4.
   } \alternative { {
   | g1 | r2 r8 d'8 d8 bf8 |
   } {
   g2 a2 | d4. c8~ c2 |
   } }
+  \once \override Score.Clef.break-visibility = #begin-of-line-visible
+  \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
+  \bar "||"
 
-  \sect "B"
+  \sectNoBar "Head"
   \key \refrainKey \major
 
   b8^\markup { Swing } d8 b8 g8~ g2 | r8 ds8 e8 g8 bf4 a8 g8~ | g1 | r1 |
-  %% \break
+  \break
   r8 e8 g8 a8~ a2 | r8 e8 g8 a8 bf4 a8 g8~ | g1 | r1 |
-  %% \break
+  \break
   fs8 a8 fs8 d8~ d2 | r8 bf'4 bf8 bf4 a8 g8~ | g1 | r1 |
 
-  \sect "C"
+  \sect "Interlude"
 
   g4 bf8 b8 g4 a8 b8 | g4 bf8 b8 g8 a8 b8 g8~ | g1 | r2 r4 bf8 b8 |
-  %% \break
+  \break
   a4 g8 e8 g4 a8 bf8 | a4 g8 e8 g8 a8 bf8 g8~ | g1 | r2 r4 bf8 b8 |
-  %% \break
-  d4 bf8 b8 d,8 bf'8 b8 c,8~ | c8 bf'8 b8 d,8~ d8 bf'8 b8 g8~ | g1 | r1 |
+  \break
+  d4 bf8 b8 d,8 bf'8 b8 c,8~ | c8 bf'8 b8 d,8~ d8 bf'8 b8 g8~ | g1_"Solo on head, 12 bar blues" | r1 |
 
   \bar "|."
 }
-
-afterText = \markup{ "Solo on " \box{ "B" } " 12-bar blues." }
 
 \include "../Include/refrainonly.ily"

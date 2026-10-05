@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { r8 bf8 df8 } \tuplet 3/2 { d8 ef8 e8 } \tuplet 3/2 { f8 e8 f8 } \tuplet 3/2 { e8 f8 g8 } |
   \tuplet 3/2 { af8 bf8 cf8 } \tuplet 3/2 { bf8 af8 f8 } \tuplet 3/2 { e8 ef8 df8 } \tuplet 3/2 { bf8 af8 f8 } |
 
-  \sect "Solo"
+  \alwaysPageBreak "Solo" "||" "||-||"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq

@@ -49,6 +49,8 @@ refrainChords = \chordmode {
 
   d1:6.9 d1:6.9
 
+  d1:6.9 d1:6.9 e1:9 e1:9 ef1:7.9+ ef1:7.9+
+
   d1:6.9 d1:6.9
 
   d1:7 d2:7 af2:7.11+ g1:maj9 g1:maj9 e1:9 e1:9 a1:13 d2:sus9 d2:7
@@ -70,30 +72,37 @@ refrainMelody = \relative f' {
   \tempoFour "Medium-Up Bossa [João Gilberto 1960]" 175
 
   \partial 4. a,8 d4 |
-  \repeat volta 2 {
-  \sectNoBarNoBreak "A1,A2"
+
+  \sectNoBreak "A1"
 
   fs4. fs8~ fs4. fs8~ | fs8 d8 e8 d8 fs8 d8 b8 a8 | gs8 fs'4. fs4. fs8~ |
+  fs8 d8 e8 d8 fs8 d8 b8 a8 |
   \break
-  fs8 d8 e8 d8 fs8 d8 b8 a8 | g8 fs'4. fs4. fs8~ | fs8 a8~ a8 b16 a16 fs8 d8 b8 a8 |
-  \break
-  \alternative { \volta 1 {
+  g8 fs'4. fs4. fs8~ | fs8 a8~ a8 b16 a16 fs8 d8 b8 a8 |
   cs8 d8 r8 a8 cs8 d8 r8 b8 | cs8 d8 r8 e8 r8 f4. |
-  } \volta 2 {
+
+  \sect "A2"
+
+  fs4. fs8~ fs4. fs8~ | fs8 d8 e8 d8 fs8 d8 b8 a8 | gs8 fs'4. fs4. fs8~ |
+  fs8 d8 e8 d8 fs8 d8 b8 a8 |
+  \break
+  g8 fs'4. fs4. fs8~ | fs8 a8~ a8 b16 a16 fs8 d8 b8 a8 |
   cs8 d8 r8 a8 cs8 d8 r4 | r2 r4 r8 d8 |
-  } } }
+
   \sect "B"
 
-  c8 d8 fs8 b8 r8 a4. | r1 | a8 g8 r8 b,8 d4 fs8 e8 | r8 a,8 b8 d8 e8 fs8 e8 d8 | b8 d8 e8 fs8 e8 d8 b8 d8 |
-  e8 fs8 e8 d8 b8 d8 e8 fs8 | a8 a8 a8 a8 r8 a8 b8 a8 | d8 c8 r8 a8~ a4 r8 d,8 |
+  c8 d8 fs8 b8 r8 a4. | r1 | a8 g8 r8 b,8 d4 fs8 e8 | r8 a,8 b8 d8 e8 fs8 e8 d8 |
+  \break
+  b8 d8 e8 fs8 e8 d8 b8 d8 | e8 fs8 e8 d8 b8 d8 e8 fs8 | a8 a8 a8 a8 r8 a8 b8 a8 | d8 c8 r8 a8~ a4 r8 d,8 |
 
-  \sectPageBreak "C"
+  \alwaysPageBreak "C" "||" "||-||"
 
   b8 d8 e8 d8 bf8 d8 e8 d8 | a4 r4 r8 d8 \tuplet 3/2 { e16 f16 e16 } d8 |
   b8 d8 e8 d8 bf8 d8 e8 d8 | a4 r4 r8 d8 e8 d8 |
+  \break
   b8 d8 e8 d8 bf8 d8 e8 d8 | fs8 d8 r8 fs8 a8 fs8 a8 cs8 | r8 b4. r2 | r8 d,8 a'8 b8 a8 a,8 cs8 d8 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   r8 fs4. fs2 | fs4. fs8~ fs2 | r8 fs4. fs2 | c'4 b8 fs8~ fs2 |
   \break

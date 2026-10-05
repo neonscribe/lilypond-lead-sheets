@@ -90,27 +90,37 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
   
   d2~ d8 bf'4 a8~ | a2 f8 d4 cs8~ | cs2. bf'4 | a1 |
+  \break
   r4 c,4 d8 fs4 a8~ | a4 fs4 d8 c4 bf8~ | bf2~ bf8 a'4 g8~ | g1 |
+  \break
   r4 g4 a8 bf4 c8~ | c2 bf8 a4 g8~ | g2 f8 e4 d8~ | d2 f8 f4 e8~ |
+  \break
   e4 b4 e2~ | e2 r8 e4 e8~ | e4 bf4 e2~ | e2 r8 d4 d8~ |
   
   \sect "A2"
 
   d2~ d8 bf'4 a8~ | a2 f8 d4 cs8~ | cs2. bf'4 | a1 |
+  \break
   r4 c,4 d8 fs4 a8~ | a4 fs4 d8 c4 bf8~ | bf2~ bf8 a'4 g8~ | g1 |
+  \break
   r4 g4 a8 bf4 c8~ | c2 bf8 a4 g8~ | g2 f8 e4 d8~ | d4 e4 f8 d4 ef8~ |
+  \break
   ef4 bf'4 g8 ef4 d8 | cs2~ cs8 d8 e8 f8 | d1~ | d2 r4 d4 |
   
-  \sect "B"
+  \alwaysPageBreak "B" "||" "||-||"
   
   ef4 d4 cs8 d4 g8~ | g4 fs4 es8 fs4 a8~ | a1 | g2 r4 e4 |
+  \break
   f4 e4 ds8 e4 a8~ | a4 gs4 g8 gs4 b8~ | b1 | a2 r8 d,4 d8~ |
   
   \sect "A3"
 
   d2~ d8 bf'4 a8~ | a2 f8 d4 cs8~ | cs2. bf'4 | a1 |
+  \break
   r4 c,4 d8 fs4 a8~ | a4 fs4 d8 c4 bf8~ | bf2~ bf8 a'4 g8~ | g1 |
+  \break
   r4 g4 a8 bf4 c8~ | c2 bf8 a4 g8~ | g2 f8 e4 d8~ | d4 e4 f8 d4 ef8~ |
+  \break
   ef4 bf'4 g8 ef4 d8 | cs2~ cs8 d8 e8 f8 | d1~ | d4 r4 r2 |
   
   \bar "|."

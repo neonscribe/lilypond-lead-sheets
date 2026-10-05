@@ -81,9 +81,9 @@ refrainMelody = \relative f' {
 
   \bar "|."
 
-  \xPageBreak
+  \xxPageBreak
 
-  \textCoda
+  \textCodaBreak
 
   a4. g8 a4 | b4. a8 g4 | d2 d4 | e4. fs8 g4 | d4 g4 fs4 | g2.~ | g2. |
 

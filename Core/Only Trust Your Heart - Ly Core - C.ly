@@ -105,20 +105,20 @@ refrainMelody = \relative f' {
   e4 f4 g2~ | g2 r4 c,4 |
   } } }
 
-  \sectPageBreak "C"
+  \sect "C"
 
   a'1~ | a2 c4 a4 | f1~ | f2 a4 f4 |
   \break
   d2 d'4 df4 | c2. b4 | e,2 c'4 b4 | bf1 |
 
-  \sectPageBreak "A3"
+  \alwaysPageBreak "A3" "||" "||-||"
 
   a4 b4 c4 b4 | d2~ d8 c8 b8 a8 | g4 a4 b4 a4 | c1 |
   \break
   f,4 g4 a4 g4 | b2~ b8 a8 g8 f8 |
   e1~ | e2. a,4 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   d4 e4 f2~ | f1 | e4 f4 g2~ | g1 |
   \break

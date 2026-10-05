@@ -111,7 +111,8 @@ def book_to_tex(arg_filename):
     rectoThrees = ['Django', "It Ain't Necessarily So", 
                    'Spring Can Really Hang You Up the Most',
                    "Is You Is, or Is You Ain't (Ma' Baby)"]
-    versoThrees = ['Fever', "Moanin'", 'My Attorney Bernie', 'Oh Lonesome Me Four']
+    versoThrees = ['Fever', "Moanin'", 'Straighten Up and Fly Right',
+                   'My Attorney Bernie', 'Oh Lonesome Me Four']
     eitherThrees = ['Twisted', 'You Belong to Me']
 
     def threepagetype(filename):

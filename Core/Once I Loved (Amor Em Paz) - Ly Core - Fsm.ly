@@ -111,32 +111,33 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   fs1~ | fs2~ fs8 e4 cs8~ | cs1~ | cs2 \tuplet 3/2 { r4 d4 e4 } |
-
+  \break
   \tuplet 3/2 { fs4 fs4 fs4 } \tuplet 3/2 { fs4 fs4 fs4 } |
   fs2 \tuplet 3/2 { a4 gs4 fs4 } |
   \tuplet 3/2 { gs4 e4 cs4~ } cs2~ | cs2. r4 |
-
+  \break
   e1~ | e2~ e8 d4 b8~ | b1~ | b2 \tuplet 3/2 { r4 b4 cs4 } |
+  \break
   \tuplet 3/2 { d4 d4 cs4 } \tuplet 3/2 { e4 e4 d4 } |
   cs2 \tuplet 3/2 { b4 d4 cs4 } |
 
   b8 as4 as8~ as2~ | as2. r4 |
-  \bar "||"
 
-  \xxPageBreak
-
-  \sectNoBar "A2"
+  \sect "A2"
 
   fs'1~ | fs2~ fs8 e4 cs8~ | cs1~ | cs2 \tuplet 3/2 { r4 d4 e4 } |
-
+  \break
   \tuplet 3/2 { fs4 fs4 fs4 } \tuplet 3/2 { fs4 fs4 fs4 } |
   fs2 \tuplet 3/2 { a4 gs4 fs4 } |
   \tuplet 3/2 { gs4 e4 cs4~ } cs2~ | cs2. r4 |
 
+  \bar "|o"
+  \xxPageBreak
+
   e1~ | e2~ e8 d4 b8~ | b1~ | b2 \tuplet 3/2 { r4 b4 cs4 } |
+  \break
   \tuplet 3/2 { d4 d4 cs4 } \tuplet 3/2 { e4 e4 d4 } |
   cs2 \tuplet 3/2 { b4 d4 cs4 } |
-
   b8 as4 cs8~ cs2 | b8 a4 cs4 b4 gs8~ |
 
   \sect "B"
@@ -144,9 +145,10 @@ refrainMelody = \relative f' {
   gs1 | b2~ b8 a4 fs8~ |
 
   fs1~ | fs2 \tuplet 3/2 { r4 fs4 gs4 } |
+  \break
   \tuplet 3/2 { a4 a4 gs4 } \tuplet 3/2 { gs4 b4 bf4 } | a2 a8 a4 es8 |
-
   gs4 fs8 fs8~ fs2~ | fs2 \tuplet 3/2 { r4 fs4 gs4 } |
+  \break
   \tuplet 3/2 { a4 a4 gs4} \tuplet 3/2 { gs4 b4 bf4 } |
 
   a2 a8 a8 es4 | gs4. fs8 fs2~ | fs2. r4 |

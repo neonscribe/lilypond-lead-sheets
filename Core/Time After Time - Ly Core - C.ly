@@ -6,7 +6,7 @@ songID = "2026-06-01T22:16:56.498868Z"
 
 \include "../Include/lead-sheets.ily"
 
-headerTitle = "Time After Time (not Cyndi Lauper!)"
+headerTitle = "Time After Time"
 headerSubtitle = \subtitle
 headerPoet = "Sammy Cahn"
 headerComposer = "Jule Styne"

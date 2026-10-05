@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   f4 f8 f8~ f8 f4 f8~ | f4. f8 r8 f4 f8 | f4 f8 f8~ f8 f4 f8~ | f2 r8 f4 f8 |
-  \break
+  %% \break
   f4 f8 f8~ f8 f4 f8~ | f4. f8 r8 f4 f8 | f4 f8 f8~ f8 f4 f8~ | f2 r8 bf4 bf8 |
 
   \sect "B1"
@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
   \break
   f4 f8 f8~ f8 f4 f8~ | f8 f4 f8~ f8 f8 f4 | f4 f8 f8~ f8 f4 bf8 | r1 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   bf8 c8 df8 ef8 df8 c8 bf8 af8 | gf8 f8 ef8 df8 c8 df8 ef8 f8 |
   c4. bf8 r8 c8 df8 f8 | c4. bf8 r2 |
@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   af'8 bf8 cf8 df8 cf8 bf8 af8 gf8 | ff8 ef8 df8 cf8 bf8 cf8 df8 ef8 |
   bf4. af8 r8 bf8 cf8 ef8 | gf4. f8 r8 f4 f8 |
 
-  \sect "A2"
+  \alwaysPageBreak "A2" "||" "||-||"
 
   f4 f8 f8~ f8 f4 f8~ | f4. f8 r8 f4 f8 | f4 f8 f8~ f8 f4 f8~ | f2 r8 f4 f8 |
   \break

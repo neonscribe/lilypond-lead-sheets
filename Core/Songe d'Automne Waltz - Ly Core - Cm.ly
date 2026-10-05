@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
 
   \sect "E"
 
-  \bar ".|:"
+  \bar ".|:-||"
   \repeat volta 2 {
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
   %% \break

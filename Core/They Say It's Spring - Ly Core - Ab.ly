@@ -103,24 +103,29 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
 
   r4 ef4 af8 c,4 ef8~ | ef2. r4 | r4 ef4 af8 c,4 f8~ | f8 f4 ef8 c8 bf4. |
+  \break
   r4 c4 f8 af,4 c8~ | c2. r4 | r4 c4 f8 af,4 c8~ | c8 c4 bf8 af8 g4 bf8~ |
   bf8 bf4 af8 g8 af4 f'8~ | f2 r2 |
 
   \sect "A2"
 
   r4 ef4 af8 c,4 ef8~ | ef2. r4 | r4 ef4 af8 c,4 f8~ | f8 f4 ef8 c8 bf4. |
+  \break
   r4 c4 f8 af,4 c8~ | c2. r4 | r4 c4 f8 af,4 c8~ | c8 c4 bf8 af8 g4 bf8~ |
   bf8 bf4 af8 g8 af4 f'8~ | f2 r8 ef8 f8 g8~ |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   g2 r8 ef8 f8 g8~ | g2 r8 e8 f8 af8~ | af8 f8 fs8 g8~ \tuplet 3/2 { g4 ef4 f4 } | g2 r8 f8 ef8 f8~ |
+  \break
   f2 r8 ef8 df8 ef8~ | ef2 r8 df8 c8 df8~ | df8 df8 df8 df8~ df8 af8 bf8 c8~ | c2 r2 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   r4 ef4 af8 c,4 ef8~ | ef2. r4 | r4 ef4 af8 c,4 f8~ | f8 f4 ef8 c8 bf4. |
+  \break
   r4 c4 f8 af,4 c8~ | c2. r4 | r4 c4 f8 af,4 c8~ | c8 c4 bf8 af8 g4 bf8~ |
+  \break
   bf8 bf4 af8 g8 af4 g'8~ | g2 r4 f4 | ef4 af2 c,8 ef8~ | ef2 r4 bf'8 af8~ | af1 |
   r1 \textToCodaLastTime |
   }

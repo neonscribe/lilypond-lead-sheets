@@ -61,8 +61,9 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   \tuplet 3/2 { e4 f4 g4 } g4 g4 | a4 g2. | \tuplet 3/2 { c4 bf4 a4 } g4 g4 |
+  f4 e4 d4 c4 |
   \break
-  f4 e4 d4 c4 | r4 e'4 e,2 | f8 g8 a2 c4 |
+  r4 e'4 e,2 | f8 g8 a2 c4 |
   \alternative { \volta 1 {
   c,8 d8 e2.~ | e1 |
   } \volta 2 {
