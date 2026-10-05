@@ -101,28 +101,28 @@ refrainMelody = \relative f' {
 
   g4. g8 g2~ | \tuplet 3/2 { g4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g1 |
   \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } |
-  %% \break
+  \break
   g1 | \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g2 gs2 | a2 gs2 |
-  %% \break
+  \break
 
   g4. g8 g2~ | \tuplet 3/2 { g4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g1 |
   \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } |
-  %% \break
+  \break
   g1 | \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g2 gs2 | a2 bf2 |
 
-  \sect "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   b1 | r4 d,8 g8 c8 b8 a8 g8 | bf4. a8 bf2~ | bf2 a4 g4 |
-  %% \break
+  \break
   c,4. a'8 a2~ | \tuplet 3/2 { a4 c,4 f4 } \tuplet 3/2 { a4 g4 f4 } | af1~ | af1 |
 
   \sect "C"
 
   g4. g8 g2~ | \tuplet 3/2 { g4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | g1 |
   \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } |
-  %% \break
+  \break
   g1 | \tuplet 3/2 { r4 c,4 ef4 } \tuplet 3/2 { g4 f4 ef4 } | ef2. ef4 | e4 e4 d8 d4 ef8~ |
-  %% \break
+  \break
   ef2. ef4 | e4 e4 d8 d4 ef8~ | ef1~ | ef1
 
   \bar "|."

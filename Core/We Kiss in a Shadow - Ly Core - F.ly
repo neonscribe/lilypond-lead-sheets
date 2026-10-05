@@ -61,19 +61,21 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad or Medium [Martin Denny 1958]" 122
 
-  \xTextMark \markup{ \bold \box "A1,A2" }
+  \sectNoBarNoBreak "A1,A2"
 
   \bar ".|:"
   \repeat volta 2 {
   r4 c'4 c4 bf8 a8 | g4 g2. | r4 bf4 bf4 a8 g8 |
+  c,1 |
   \break
-  c,1 | r4 bf'4 bf4 a8 g8 | c,4 c4 c4 d8 e8 |
+  r4 bf'4 bf4 a8 g8 | c,4 c4 c4 d8 e8 |
   \break
   \alternative { \volta 1 {
   f1~ | f2 r2 |
   } \volta 2 {
   f1~ | f2 r2 |
   } } }
+
   \sect "B"
 
   r4 a4 a4 b8 a8 | fs4 fs2. | r4 g4 g4 a8 g8 | e2. e4 |

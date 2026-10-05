@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   d2.~ | d2 c4 | d2.~ d2 c4 | d4 c4 bf4 | a2. | g2 f4 | d'4 c4 bf4 |
   a2 bf4 | g2 e4 | f4 a4 c4 | e4 f4 d4 | c2. | af,4 bf4 c4 | d4 e4 f4 | g4 a4 bf4 |
   
-  \sect "A3"
+  \alwaysPageBreak "A3" "||" "||-||"
 
   c2. | f,2. | bf2. | e,2. | a2.~ | a2. | r4 g4 f4 | e4 f4 g4 |
   a2 g4 | f4 g4 a4 | bf4 a4 g4 | a4 bf4 c4 | d2.~ | d2. | r4 e4 d4 | e4 d4 e4 |

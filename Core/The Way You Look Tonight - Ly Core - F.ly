@@ -154,14 +154,14 @@ refrainMelody = \relative f' {
      }
   }
 
-  \sectPageBreak "B"
+  \sect "B"
 
   c'2 c2 | c2 c2 | c4 ef4 df4 bf4~ | bf1 |
   bf4 c4 af4 g4~ | g2 af2 | f'1~ | f2. r4 |
   ef2 ef2 | ef2 ef2 | ef4 f4 df4 c4~ | c1 |
   bf4 c2 af4 | g2 af2 | c1~ | c2. r4 |
 
-  \sectPageBreak "C"
+  \alwaysPageBreak "C" "||" "||-||"
 
   c1 | f,1 | g4 a4 bf4 a4 | g1 |
   a4 bf4 c4 bf4 | a1 | bf4 c4 d4 c4 | bf4 c4 d4 e4 |

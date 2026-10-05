@@ -95,7 +95,7 @@ refrainMelody = \relative f' {
   \break
   d4 f8 d8 a'4. a8 | f1 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   r8 ef8 g8 bf8 a4~ \tuplet 3/2 { a8 g8 f8 } |
   \tuplet 3/2 { g8 g8 g8~ } g2 \tuplet 3/2 { r8 a8 bf8 } |
@@ -107,7 +107,7 @@ refrainMelody = \relative f' {
   \break
   r8 d,8 f8 a8 g8 f8 e8 f8 | \tuplet 3/2 { g4 bf4 d4 } c4. cs,8 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   d4 f8 g8 a8 g8~ \tuplet 3/2 { g8 a8 bf8 } |
   c4~ \tuplet 3/2 { c8 a8 c8 } e,2 |

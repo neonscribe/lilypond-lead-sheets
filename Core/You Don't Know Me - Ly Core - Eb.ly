@@ -193,7 +193,7 @@ refrainMelody = \relative f' {
   af4 g8~ g4.~ g2.~ |
   g2. r4. r4 ef8 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   c'4.~ c8 c8 d8 ef4.~ ef4 ef8 |
   d4 d8~ d8 c8 bf8 bf4.~ bf8 c8 bf8 |
