@@ -40,7 +40,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Up [John Coltrane 1957]" 250
 
-  \sectNoBarNoBreak "A1"
+  \sectNoBar "A1"
 
   b2. a4 | d2 c4. bf8~ | bf2~ bf4. f8~ | f2 g4 af8 bf8~ |
   \break
@@ -58,13 +58,14 @@ refrainMelody = \relative f' {
   \break
   c1~ | \tuplet 3/2 { c4 a4 b4 } \tuplet 3/2 { c4 e4 d4 } | b1~ | b1 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   b2. a4 | d2 c4. bf8~ | bf2~ bf4. f8~ | f2 g4 af8 bf8~ |
   \break
   bf2 g4 bf8 c8~ | c2 a4 c8 d8~ \textToCodaLastTime | d1~ | d1 \daCapoAfterSolos |
-  \bar "||-|."
+  \bar "|."
 
+  \xxPageBreak
   \textCodaBreak
 
   d2. d8 f8~ | f2. e8 c8~ | c2. r4 | r4 ef2 d4 |

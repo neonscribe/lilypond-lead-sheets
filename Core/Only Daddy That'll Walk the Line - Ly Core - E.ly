@@ -90,7 +90,7 @@ refrainMelody = \relative f' {
 
   e2 r2 | r1 | r1 | r1 |
 
-  \sectPageBreak "Solo"
+  \alwaysPageBreak "Solo" "||" "||-||"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

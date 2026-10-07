@@ -76,12 +76,12 @@ refrainMelody = \relative f' {
   d2. f4 | bf2. d,4 | ef4. f8 g4 ef4 | c2. g'4 | a2. g4 | f2 g4 f4 | d2 f4 bf4 | d,2. f4 |
   d2. f4 | bf2. d,4 | ef4. f8 g4 ef4 | c2. g'4 | a2. g4 | f4 f4 g4 f4 | f4( bf2.~ | bf1) |
 
-  \sect "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   c4 c4 c4 b4 | bf4 a2 c4 | e2( d8) e8 ef8 d8~ | d1 | r4 e4 e4 ef4 | d2 e4 d4 | c2. a4 | f1 |
   c'4 c4 c4 b4 | bf4 a2 c4 | e4 e4 d8 e8 ef8 d8~ | d1 | r4 e4 e4 ef4 | d2 e4 d4 | c2. d4 | ef1 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   d2. bf4 | f2 d4 bf4 | g'2. ef4 | c2. g'4 | a2 g4 f4 | ef2 c4 cs4 | d1~ | d2 f4 bf4 |
   d2. bf4 | f2 d4 bf4 | g'2. ef4 | c2. g'4 | a2. g4 | f4 f4 g4 f4 | f4( bf2.~ | bf2.) r4 |
@@ -90,25 +90,3 @@ refrainMelody = \relative f' {
 }
 
 \include "../Include/refrainonly.ily"
-
-%{
-Deep within my heart lies a melody
-A song of old San Antone
-Where in dreams I live with a memory
-Beneath the stars all alone
-
-It was there I found beside the Alamo
-Enchantment strange as the blue, up above
-A moonlit path that only she would know
-Still hears my broken song of love
-
-Moon in all your splendor knows only my heart
-Call back my Rose, Rose of San Antone
-Lips so sweet and tender like petals fallin' apart
-Speak once again of my love, my own
-
-Broken song, empty words I know
-Still live in my heart all alone
-For that moonlit pass by the Alamo
-And Rose, my Rose of San Antone
-%}

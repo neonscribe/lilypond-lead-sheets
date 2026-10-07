@@ -131,7 +131,7 @@ refrainMelody = \relative f' {
   } 4 = 180
     a4 r4 r2 |
 
-  \sectPageBreak "Chorus"
+  \alwaysPageBreak "Chorus" "||" "||-||"
 
   \key \chorusKey \major
   g'8 g8 g8 g8 g8( fs4) e8 | d8( c16 b16) a4 r2 |

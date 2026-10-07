@@ -54,7 +54,10 @@ refrainMelody =  \relative f' {
   \override MultiMeasureRest.expand-limit = 2
   \compressMMRests { R1*3_"(Drums)" }
 
-  r1 | r1 | r1 | r2 r8 e4 a8~ |
+  a8 a8 a8 r8 g8 g8 g8 r8 | f8 f8 f8 e8~ e8 r8 r4 |
+  a8 a8 a8 r8 g8 g8 g8 r8 | f8 f8 f8 e8~ e8 
+  
+  e4 a8~ |
 
   \sect "A1"
 
@@ -80,7 +83,7 @@ refrainMelody =  \relative f' {
   <e g>8~\startTrillSpan <e g>2 | r8\stopTrillSpan d8 e8 f8 e4 d4 |
   c4 \tuplet 3/2 { d8 e8 d8 } c8 d4 c8~ | c8 g8 a8 b8 c8 d8 e8 f8 |
 
-  \sectPageBreak "B"
+  \sect "B"
 
   g8( fs8 g8)
   \once \override TrillSpanner.bound-details.left.text = ##f
@@ -93,7 +96,7 @@ refrainMelody =  \relative f' {
   \once \override TrillSpanner.bound-details.left.text = ##f
   <a c>2~\startTrillSpan <a c>4. e8~\stopTrillSpan | e4 d4 c4 b4 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   a'8 a,8 b8 c8~ c8 d8 e8 f8~ | f8 g8 a8
   \once \override TrillSpanner.bound-details.left.text = ##f
@@ -120,7 +123,7 @@ refrainMelody =  \relative f' {
   \bar "|."
 }
 
-refrainKicksOverTime = \relative f' {
+notrefrainKicksOverTime = \relative f' {
   s1*3
 
   a8 a8 a8 r8 g8 g8 g8 r8 | f8 f8 f8 e8~ e8 r8 r4 |

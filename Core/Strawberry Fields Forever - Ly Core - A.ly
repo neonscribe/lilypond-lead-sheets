@@ -162,7 +162,7 @@ refrainMelody = \relative f' {
   r8 a8 a8 a8 gs8. fs16 e8 cs'8 | a8 a16 a16 a16( b16) a16( gs16) fs4 r4 |
   r8 a8 a8 a8 b8 a8 gs8 a8 | a1 |
 
-  \sectPageBreak "Pre-Chorus"
+  \alwaysPageBreak "Pre-Chorus" "||" "||-||"
 
   r4 cs8 cs8 d8 cs4 a8~ | a4 e8 fs8 b8 a4 g8~ |
 

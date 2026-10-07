@@ -59,14 +59,14 @@ refrainMelody = \relative f' {
   g4 e16 g16 e16 c16 a2 | r4 \tuplet 3/2 { r8 c8 c8 } e8 e4 e16 e16 |
   c2 a8 a4 a16 a16 | c2~ c4. c8 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   a'8 a4. e'4~ \tuplet 3/2 { e8 d8 c8 } | af2 e'4~ \tuplet 3/2 { e8 d8 c8 } |
   g2 a4~ \tuplet 3/2 { a8 ds,8 e8 } | g2~ g4. c,8 |
   a'8 a4. e'4~ \tuplet 3/2 { e8 d8 c8 } | af2 e'4~ \tuplet 3/2 { e8 d8 c8 } |
   g4. g8 bf8 bf8 r8 bf8 | g4 bf'8 g8~ g4 r4 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   c,2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 | c'2 g2 | r4 \tuplet 3/2 { r8 f8 g8 } af8 g4 f8 |
   g4 e16 g16 e16 c16 a2 ^\markup \italic "rit." | r4 \tuplet 3/2 { r8 c8 c8 }

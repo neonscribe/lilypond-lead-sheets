@@ -62,14 +62,14 @@ refrainMelody = \relative f' {
   r4 g4 gs4 a4 | c8 c8 c8 c8 a2 | r4 e4 e4 e4 | g8 g8 g8 g8 e2 |
   r8 c8 c8 c8 c8 e4 c8 | g'4 g8 g8~ g8 gs8 a4 | c1~ | c4 r4 r2 |
 
-  \sect "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   b8 b8 b8 b8 b2 | b8 a8 g8 fs8 e8 fs8 g8 a8 |
   \tuplet 3/2 { b4 b4 b4 } \tuplet 3/2 { b4 a4 fs4 } | e1 |
   a8 a8 a8 a8 a2 | a8 g8 f8 e8 d8 e8 f8 g8 |
   \tuplet 3/2 { a4 a4 a4 } \tuplet 3/2 { c4 c4 c4 } | d1 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   r4 g,4 gs4 a4 | c8 c8 c8 c8 a2 | r4 e4 e4 e4 | g8 g8 g8 g8 e2 |
   r8 c8 c8 c8 c8 e4 c8 | g'4 g8 g8~ g8 gs8 a4 | c1~ | c2. r4 |

@@ -73,7 +73,7 @@ refrainMelody =  \relative f' {
      f16  f16 ] | % 27
     e1 ~ | % 28
     e1 | % 29
-   \sectPageBreak "C1"
+   \alwaysPageBreak "C1" "||" "||-||"
     r4  f4  a4  c4 | \barNumberCheck #30
      b2  c4  d4 | % 31
     \times 2/3  {
@@ -93,8 +93,7 @@ refrainMelody =  \relative f' {
      a2 ~ | \barNumberCheck #40
     a1 | % 41
     \bar "||"
-    \xxPageBreak
-   \sectNoBar "B2"
+   \sect "B2"
      c,8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 42
      c8 [  f16  f16 ]  f8 [  f8 ]

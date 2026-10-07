@@ -90,9 +90,7 @@ refrainMelody = \relative f' {
   c'8 f,4. f4. f8~ | f8 c8 f8 bf8 \tuplet 3/2 { a16 bf16 a16 } f8 d8 c8 |
   f8 c8 g'8 f8 r2 | r1 |
 
-  \bar "|."
-
-  \sectNoBarPageBreak "Solos"
+  \alwaysPageBreak "Solos" "||" "||-||"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

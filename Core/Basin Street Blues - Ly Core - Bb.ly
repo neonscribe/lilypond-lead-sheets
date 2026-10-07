@@ -101,7 +101,7 @@ refrainMelody = \relative f' {
   f8( ef8) d8 bf8~ bf2 |
   \bar "||"
 
-  \sectPageBreak "Refrain"
+  \alwaysPageBreak "Refrain" "||" "||-||"
 
   d8 d4 d8~ d2 | d8 d4 d8~ d4 r8 d8 |
   d8 a'4 d,8~ d2 |

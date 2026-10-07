@@ -133,12 +133,12 @@ refrainMelody = \relative f' {
   \oneVoice
 
 
-  \sectPageBreak "B"
+  \sect "B"
 
   d8 a8) r4 r2 | r4 c8 d8 e8 d8 c8 e8~ | e4 r4 r2 | r4 a,8 d8 a4 c8( a8) |
   d8( a8) r4 r2 | r4 d8 c8 d4 d8 c8 | e4 r4 r2 | r8 a,8 a4 a4 c8 e8~ |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   e4 r4 r2 | r4 e8 c8 d8 a4 c8~ | c4 r4 r2 | r4 a4 a4 c8 d8~( |
   d8 a8) r4 r2 | r8 c8 d8 e8 d8 c8 a8 d8~( | d8 a8) r4 r2 | r1 |

@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   } } }
 
-  \sectPageBreak "C"
+  \alwaysPageBreak "C" "||" "||-||"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
@@ -147,7 +147,7 @@ bassLineMelody = \relative f {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   } } }
 
-  \sect "C"
+  \alwaysPageBreak "C" "||" "||-||"
 
   f4_"Bass pedal" f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 |
   \break

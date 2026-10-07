@@ -110,6 +110,8 @@ refrainMelody = \relative f' {
   \sectNoBreak "A3"
 
   b1 | r8 c8 a8 as8 b8 d8 c8 a8 | b1 | r8 c8 a8 as8 b8 d8 c8 a8 |
+  \bar "|o"
+  \xxPageBreak
   b8 g8 d8 c8~ c2 |
   \textToCodaLastTimeOptional
   r4 bf'4 b8 d,8 e8 g8~ | g1 | r1 |
@@ -124,19 +126,19 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
   %% \break
-  \sectPageBreak "A2"
+  \sect "A2"
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
   %% \break
-  \sectPageBreak "B"
+  \sect "B"
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
   %% \break
-  \sectPageBreak "A3"
+  \sect "A3"
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   %% \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

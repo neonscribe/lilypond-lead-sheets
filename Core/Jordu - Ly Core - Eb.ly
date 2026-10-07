@@ -83,7 +83,7 @@ refrainMelody = \relative f' {
   fs2 f4. ef8 | r2 \tuplet 3/2 { ef16 f16 ef16 } c8 ef8 c8~ \textToCodaLastTime |
   c1 | r1 |
 
-  \sectPageBreak "Solos"
+  \alwaysPageBreak "Solos" "||" "||-||"
 
   \bar ".|:-|."
   \repeat volta 2 {

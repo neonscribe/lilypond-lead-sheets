@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   f4 d4 bf'8 g8 | f4 d4 d'8 c8 | bf4 g4 g4 | g2 c8 bf8 |
   a4 f4 e4 | ef4 f4 c'4 | bf2.~ | bf2. |
 
-  \sectPageBreak "B1"
+  \alwaysPageBreak "B1" "||" "||-||"
 
     <<
       { \xVoiceTwo {
@@ -105,7 +105,7 @@ refrainMelody = \relative f' {
 
   a4 a4 bf4 | c2 bf8 a8 | bf4 f2~ | f2 r4 |
 
-  \sectPageBreak "B2"
+  \sect "B2"
 
     <<
       { \xVoiceTwo {

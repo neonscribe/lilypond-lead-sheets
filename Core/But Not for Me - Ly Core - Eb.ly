@@ -96,12 +96,12 @@ refrainMelody = \relative f' {
   b2 c4 ef4 | r4 f,4 g4 af4 | a2 bf4 ef4 | r4 ef,4 f4 g4 |
   g2 af4 ef'4 | r4 ef4 c4 af4 | f1 | r4 f4 g4 f4 |
 
-  \sectPageBreak "A2"
+  \lyricsPageBreak "A2" "||" "||-||"
 
   g2 f4 ef4~ | ef4 f4 g4 f4 | g1 | r4 f4 g4 f4 |
   g2 f4 ef4~ | ef4 f4 g4 f4 | g1 | r4 g4 af4 bf4 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   b2 c4 ef4 | r4 f,4 g4 af4 | a2 bf4 f'4 | r4 ef4 c4 af4 |
   g1 | f1 | ef1 | r4

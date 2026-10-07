@@ -89,13 +89,13 @@ refrainMelody = \relative f' {
   ef4. c8 ef4. c8 | bf4 bf2 af4 | c4. af8 c4. af8 | g2. f4 |
   ef4. c8 ef4. f8 | g4 g2 af4 | bf2~ bf8 af8 f8 df8 | bf2 r8 c8 ef8 c8 |
 
-  \sectPageBreak "A2"
+  \lyricsPageBreak "A2" "||" "||-||"
 
   ef8 ef8 ef2.~ | ef2~ ef8 c8 ef8 c8 | f8 f8 f2.~ | f2~ f8 f8 af8 f8 |
   af4. f8 af4. f8 | af4. f8 \tuplet 3/2 { af4 f4 af4 } |
   c8 c8 c2.~ | c2~ c8 c8 ef8 c8 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   ef4. c8 ef4. c8 | bf4 bf2 af4 | c4. af8 c4. af8 | f2~ f8 c8 ef8 c8 |
   ef8 ef8 ef4~ ef8 c8 ef8 c8 | ef8 ef8 ef2 c'4 | af1~ | af2 r2 |

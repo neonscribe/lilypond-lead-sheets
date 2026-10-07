@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
   bf8 bf4 bf8 g4 f4 | ef2. ef8 ef8 | ef'4 ef4 ef4 ef4 | d4 d4 c4 c4 | bf1 |
   f8 af4.~ af4 f4 | g8 g4 g8 g4 g8 g8 | g8 g4 g8 f4. ef8 | ef1~ | ef2 r4 g8 af8 |
 
-  \sectPageBreak "A2,A3"
+  \sect "A2,A3"
 
   \bar ".|:-||"
   \repeat volta 2 {

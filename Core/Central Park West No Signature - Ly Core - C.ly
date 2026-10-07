@@ -60,13 +60,13 @@ refrainMelody = \relative f' {
   \endParenthesis \parenthesize cs4 |
 
 
-  \sectPageBreak "Solos"
+  \sect "Solos"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \bar "|."
+  \bar "||-|."
 
   \textCodaBreak
 

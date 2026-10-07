@@ -104,14 +104,14 @@ refrainMelody = \relative f' {
   bf4 r4 r4 r8 ef,8 | bf'4 af8 bf8 gf4 ef8 ef8~ |
   ef4 r4 r2 |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   r8 c'4 bf8~ bf8 g8 c,8 ef8~ | ef8 gf8 r4 r2 | r8 c8 bf8 gf8~ gf4 ef8 ef8~ | ef4 r4 r2 |
   \break
   r8 c'4 bf8~ bf8 gf8 ef4 | r8 c'4 bf8~ bf8 ef,8 ef8 ef8 |
   gf4 ef4 ef4 ef8 f8~ | f4 r4 r8 bf,8 c8 ef8~ |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   ef4 r4 r4 gf8 ef8~ | ef4 r4 r4 fs8 g8~ | g4 r4 r8 bf,8 c4 |
   \bar "|"

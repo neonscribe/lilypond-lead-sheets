@@ -114,7 +114,7 @@ refrainMelody = \relative f' {
   \time 4/4
   b1~ | b1~ | b2 r2 | r1  \textToCoda |
 
-  \sectPageBreak "Bridge"
+  \alwaysPageBreak "Bridge" "||" "||-||"
 
    r1 | r2 r4 gs4 |
   \time 6/4

@@ -65,13 +65,13 @@ refrainMelody = \relative f' {
   \break
   d4 c4 b4 a4 | g4 f4 e4 d4 | a'2 b,2 | c1 |
 
-  \sectPageBreak "B"
+  \sect "B"
 
   d2 e2 | g1 | r4 d4 e4 f4 | fs8 a8 g2. |
   \break
   r4 e4 fs4 g4 | gs8 b8 a4 r8 a8 b8 c8 | c1 | b2. r4 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   g,4 g'4 f4 e4 | cs4 d4 a'2 | b,4 b'4 a4 g4 | fs4 g4 c2 \textToCodaLastTime |
   \break

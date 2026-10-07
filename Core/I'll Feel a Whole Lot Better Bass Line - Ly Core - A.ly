@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
       a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |
     } } }
 
-  \sectPageBreak "Solo"
+  \alwaysPageBreak "Solo" "||" "||-||"
 
   a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |
   a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |

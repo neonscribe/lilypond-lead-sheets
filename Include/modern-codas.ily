@@ -410,22 +410,6 @@ textCodaBreak = {
   }
 }
 
-textCodaPageBreak = {
-  \xPageBreak
-  \once \override Score.RehearsalMark.self-alignment-X = #-0.15
-  \xTextMark
-  \markup {
-    \pad-around #3 {
-    \line
-    \general-align #Y #CENTER {
-      \musicglyph #"scripts.coda"
-      \large
-      \bold "Coda"
-      }
-    }
-  }
-}
-
 %%% includes the word "Coda" after the coda sign
 
 textCodaIBreak = {

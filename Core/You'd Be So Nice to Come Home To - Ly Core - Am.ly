@@ -110,13 +110,13 @@ refrainMelody = \relative f' {
   f2. ds4 | e2~ e8 gs4 b8 | d2. b4 | c2~ c8 d4 cs8 |
   e2. c4 | ef2 c4. b8 | b1~ | b2 a4 b4 |
 
-  \sectPageBreak "A2"
+  \sect "A2"
 
   c1 | b2~ b8 a4 gs8 | a2 e2~ | e2 \tuplet 3/2 { e4 f4 g4 } |
   \break
   a4 c4 a2 | g2~ g8 e4 c8 | d1~ | d2 e4 f4 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   a1 | g2 r8 a4 b8 | d2. c4 | a2 c4 d4 |
   \break

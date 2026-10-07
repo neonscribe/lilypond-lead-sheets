@@ -135,7 +135,7 @@ refrainMelody = \relative f' {
   \break
   r4 ds4 cs2 | r8 cs8 cs8 cs8 ds8( cs8) cs4 | ds4.( cs8) cs4. cs8 | e8 e8 e8 e8 ds8 cs8 b8( cs8) |
 
-  \sectPageBreak "Chorus"
+  \alwaysPageBreak "Chorus" "||" "||-||"
 
   \segnoSign
 

@@ -98,12 +98,12 @@ refrainMelody = \relative f' {
   c1 | r4 \tuplet 3/2 { c8 bf8 af8 } g8 f8 e8 ef8~ | ef1 | r8 d8 ef8 d8 cs4 d4 |
   g1 | r8 f8 g8 f8 ef4 d4 | d8 c8 c8 c8~ c2 | r2 e'4. f8~ |
 
-  \sect "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   f1 | r4 \tuplet 3/2 { f8 ef8 df8 } c8 bf8 a8 af8~ | af1 | r8 g8 af8 g8 fs4 g4 |
   c1 | r8 bf8 c8 bf8 af4 g4 | g8 f8 c8 f8~ f2 | af8 g8 d8 g8~ g4 b4 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   c1 | r4 \tuplet 3/2 { c8 bf8 af8 } g8 f8 e8 ef8~ | ef1 | r8 d8 ef8 d8 cs4 d4 |
   g1 | r8 f8 g8 f8 ef4 d4 | d8 c8 c8 c8~ c2 | r1 |

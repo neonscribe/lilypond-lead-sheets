@@ -51,7 +51,7 @@ refrainMelody = \relative f' {
   df'2.~ \tuplet 3/2 { df8 bf8 df8 } | bf2. \tuplet 3/2 { r8 gf8 bf8 } |
   g2.~ \tuplet 3/2 { g8 ef8 g8 } | ef1 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   c'2.~ \tuplet 3/2 { c8 bf8 ef8 } | f,1 | af2 gf4~ \tuplet 3/2 { gf8 ef8 gf8 } | ef1 \textToCodaLastTime |
   \bar "||-|."

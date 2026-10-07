@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
   e8 g4. r2 | r4 g4 a8 c4. | g1 | r2 c8 a4. |
   a8 a4. a8 a4. | b8 b4. d4 b4 \textToCoda | c1~ | c4 r2. |
 
-  \sectPageBreak "Solos"
+  \alwaysPageBreak "Solos" "||" "||-||"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

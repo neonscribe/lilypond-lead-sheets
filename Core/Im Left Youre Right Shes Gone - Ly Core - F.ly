@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
   g2 a4 bf4 | a4( c,4) e4 g4 | f1~ | f2 r2 |
 
 
-  \sectPageBreak "Solo"
+  \sect "Solo"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

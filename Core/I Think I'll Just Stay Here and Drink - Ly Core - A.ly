@@ -87,7 +87,7 @@ refrainMelody = \relative f' {
   r4 e8 e8 e16 cs16 e16 cs16 e16( cs8) b16 | b16 b8 b16~ b4 r2 |
   r8 a'8 a16 a8 a16~ a8 g8 e8 c8 | a1 | r1 |
 
-  \sectPageBreak "Solos"
+  \sect "Solos"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

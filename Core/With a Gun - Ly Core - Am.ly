@@ -115,7 +115,7 @@ refrainMelody = \relative f' {
     { a2 r2 | r2 c4 d4 | }
   }
 
-  \sectPageBreak "Bridge"
+  \alwaysPageBreak "Bridge" "||" "||-||"
 
   e4. e8 e4 e4 | e2 c4 d4 | e2 e4 g4 | f4 e4 d4 c4 |
   e2 d4 c4 | b4 b4 b4 a4 | cs2 r2 | r2 r4 e4 | e2 e4. e8 |

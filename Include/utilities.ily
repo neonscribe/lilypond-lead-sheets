@@ -128,6 +128,23 @@ lyricsPageBreak =
     \sectNoBar #sec
     #} ) )
 
+%% a mandatory page break if it's a piano part
+pianoPageBreak =
+#(define-music-function (sec barbreak barnobreak)
+   (string? string? string?)
+  (if (not (and (defined? 'withPianoAndBass) withPianoAndBass))
+    #{
+    \bar #barnobreak
+    \sectNoBar #sec
+    #}
+    #{
+    \bar #barbreak
+    \pageTurn
+    \once \override Score.Clef.break-visibility = #begin-of-line-visible
+    \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
+    \sectNoBar #sec
+    #} ) )
+
 %% a good place for a page break
 xPageBreak = {
   \break
@@ -235,6 +252,14 @@ sectStartRefrain =
   #{
      \sPageBreak
      \xTextMark \markup{ "Refrain" \bold \box #s } #} )
+
+
+sectStartRefrainGap =
+#(define-music-function (s)
+   (string?)
+  #{
+     \sPageBreak
+     \xTextMark \markup{ "Refrain" \pad-around #3 { \bold \box #s } } #} )
 
 
 sectStartSolos =

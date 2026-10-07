@@ -215,29 +215,29 @@ refrainMelody = \relative f' {
 
   \sectStartRefrain "A1"
 
-  c'4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r2 r4 r8 f8 |
+  c'4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r2 r8 r4 f8 |
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r1 |
 
   \sect "A2"
 
-  c2. c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r1 |
+  c2. c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r2 r8 r4 r8 |
   c'4 c4 c4 c4 | c4 c4 c4 c8 af8~ | af4 r4 r2 | r2 r4 af4 |
 
-  \sectPageBreak "B"
+  \sect "B"
 
   bf8 af4. bf4 af4 | bf8 af4. bf4 af8 c8~ | c8 ef,4.~ ef4 f8 gf8~ | gf2. af4 |
   bf4 af4 bf4 af4 | bf4 af4 bf4 af4 | c4 c4 c4 c8 c8~ | c4 r4 r2 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
-  c4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r1 |
+  c4 c4 c4 c4 | c4 c4 c4 bf8 af8~ | af8 f4. r2 | r2 r8 r4 r8 |
   c'4 c4 c4 c4 | c4 c4 c8 c4 c8~ | c1~ | c2. f,4 |
   c'4 c4 c4 c4 | c4 c4 c8 c4 af8~ | af1 | r1 |
 
   \bar "|."
 }
 
-refrainKicksOverTime = \relative f' {
+notrefrainKicksOverTime = \relative f' {
   s1*3 f4 f4 f8 f4. s1*4
   s1*3 f4 f4 f8 f4. s1*4
   s1*8

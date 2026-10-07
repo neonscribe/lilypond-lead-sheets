@@ -136,9 +136,8 @@ refrainMelody = \relative f' {
     }{
     g2 r4 \bar "!" d'4\upbow |
     }}
-  \bar ".|:-||"
 
-  \sectPageBreak "A'"
+  \alwaysPageBreak "A'" ".|:-||" ".|:-||"
 
   \repeat volta 2 {
     b'8\downbow d,8 d8 d8 a'8 d,8 d8 d8 | g8 d8 d8 d8 d8 d8 d8 d8 |

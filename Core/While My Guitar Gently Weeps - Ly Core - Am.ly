@@ -228,7 +228,7 @@ refrainMelody = \relative f' {
   e8 a8~ |
   } } }
 
-  \sectPageBreak "Verse 2, 3"
+  \alwaysPageBreak "Verse 2, 3" "||" "||-||"
 
   \key \refrainKey \minor
 

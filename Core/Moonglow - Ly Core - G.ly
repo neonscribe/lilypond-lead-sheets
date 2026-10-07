@@ -101,9 +101,8 @@ refrainMelody = \relative f' {
   \break
   r4 r8 e,8 g8 e8 g4 | b4 b2. | r8 g4. g4 g4 | g4 g8 g8~ g2 |
 
-  \sectPageBreak "Solos"
+  \alwaysPageBreak "Solos" ".|:-|." ".|:-|."
 
-  \bar ".|:-|."
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

@@ -90,7 +90,7 @@ refrainMelody = \relative f' {
   \textToCoda
   a2 e'2 | a,2 a4 b4 | e,2 b'2 | e,4 e4 b'4 g4 |
 
-  \sectPageBreak "Verse Solo"
+  \alwaysPageBreak "Verse Solo" "||" "||-||"
 
   e2 e4 g4 | a2 a4 b4 | e2 b2 | e,2 b'4 g4 |
   e2 e4 g4 | a4 a4 b4 d4 | e2 b4 d4 | e4 e4 d4 b4 |

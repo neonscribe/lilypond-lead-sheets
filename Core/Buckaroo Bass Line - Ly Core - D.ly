@@ -78,12 +78,12 @@ refrainMelody = \relative f' {
   d2 a'2 | a,2 e'2 | d2 g2 | a2 a2 |
   d,2 g2 | d2 cs4 b4 |
 
-  \sectPageBreak "B/1"
+  \sect "B/1"
 
   a2 e'2 | a2 e2 | d2 a'2 | d,2 d2 |
   e2 r2 | r1 | r1 | r1 |
 
-  \sect "A3/1"
+  \alwaysPageBreak "A3/1" "||" "||-||"
 
   d2 a'2 | d,2 a'2 | g2 d2 | g2 g2 |
   d2 a'2 | a,2 b4 cs4 | d2 g2 | a2 a2 |

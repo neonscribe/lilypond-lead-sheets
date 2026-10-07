@@ -121,7 +121,7 @@ refrainMelody = \relative f' {
       g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4
       r4 | g4 d4 e4 fs4 |
 
-      \sectPageBreak "Solo"
+      \alwaysPageBreak "Solo" "||" "||-||"
 
       g4 r4 d4 r4 | c4 r4 e4 fs4 | g4 r4 d4 r4 | g4 d4 e4 fs4 |
       \break

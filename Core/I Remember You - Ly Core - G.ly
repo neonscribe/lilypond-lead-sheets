@@ -22,8 +22,8 @@ headerCopyright = "© 1942 by Paramount Music Corporation"
 verseLyrics = \lyricmode {
   Was it in Ta -- hi -- ti?
   Were we on the Nile?
-  Long, long a -- go, say an hour or so
-  I re -- call that I saw your smile
+  Long, long a -- go, say an hour or so,
+  I re -- call that I saw your smile.
 }
 
 verseChords = \chordmode {
@@ -37,28 +37,27 @@ verseMelody = \relative f' {
   \time 4/4
   \key \verseKey \major
   \clef \whatClef
+  \tempo "Freely"
 
-  \xTextMark \markup{ \bold \box "Verse" }
+  \xTextMark \markup{ "Verse" }
 
   a4 a2 g8 a8 |
   b4 b2. | a4 a2 g8 e8 | fs1 |
   e4 fs8 g8 a4 b8 c8 | d8. d16 d2. |
   r4 c8 b8 a4 e8 g8 | b2. fs4 | g1~ | g2. r4
   \bar "||"
-  
-  \xxPageBreak
 }
 
 refrainLyrics = \lyricmode {
-  I Re -- mem -- ber You.
+  I re -- mem -- ber you.
   You're the one who made my dreams come true a few kiss -- es a -- go.
-  I Re -- mem -- ber You.
-  You're the one who said: ''I Love you, too.'' I do. Did -- n't you know?
+  I re -- mem -- ber you.
+  You're the one who said: “I love you, too.” I do. Did -- n't you know?
   I re -- mem -- ber too a dis -- tant bell and stars that fell like rain,
   out of the blue.
   When my life is through and the an -- gels ask me to re -- call
   the thrill of them all,
-  then I shall tell them I Re -- mem -- ber You.
+  then I shall tell them i re -- mem -- ber you.
 }
 
 refrainHLChords = \chordmode {
@@ -120,29 +119,35 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium [Chet Baker 1955]" 182
 
+  \bar ".|:"
+  \repeat volta 2 {
+
   \sectStartRefrain "A1"
 
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
+  \break
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
 
-  \sectPageBreak "A2"
+  \sect "A2"
 
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
+  \break
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   b' c g a | b4. b8 b4 a | gs1 | r4 b b a |
+  \break
   gs2. e4 | g2 \tuplet 3/2 { g4 a g } | fs1~ | fs2. r4
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   fs4 g d e | fs1 | fs4 g fs g | d' d d4. df8 |
+  \break
   c1 | r4 c \tuplet 3/2 { c d c } | b1 | r4 b a g |
   fs g d e | g2 a2 |
   g1~ | g4 r4 r2 |
-
-  \bar "|."
+  }
 }
 
 \include "../Include/verserefrain.ily"

@@ -24,7 +24,7 @@ is the hea -- vy tread of the hea -- vy feet
 that be -- long to a lone -- some cop,
 I o -- pen shop.
 When the moon so long has been gaz -- ing down
-on the way -- ward ways od this way -- ward town
+on the way -- ward ways of this way -- ward town
 that her smile be -- comes a smirk,
 I go to work.
 }
@@ -133,11 +133,11 @@ refrainMelody = \relative f' {
 
   bf1~ | bf2. g4 | f1~ | f1 |
   r4 bf8 bf8 bf4 bf4 | bf4 bf2 g4 | f1~ | f1 |
-  %% \break
+  \break
   r4 bf8 bf8 bf4 bf4 | bf4 c4 c2 | r4 af8 af8 af4 af4 | af4 gf4 gf2 |
   f1~ | f2. cs4 | bf1~ | bf1 |
 
-  \sectNoBreak "A2"
+  \sect "A2"
 
   bf'1~ | bf2. g4 | f1~ | f1 |
   r4 bf8 bf8 bf4 bf4 | ef4 c4 bf4 g4 | f1~ | f1 |
@@ -148,19 +148,19 @@ refrainMelody = \relative f' {
   r4 bf8 bf8 bf4 bf4 | bf4 c4 c2 | r4 df8 df8 df4 df4 | df4 gf,4 gf2 |
   f1~ | f2. cs4 | bf1~ | bf1 |
 
-  \sectPageBreak "B"
+  \sect "B"
 
   r4 bf8 c8 df4 ef4 | f4 ef4 ef2 | r4 c8 df8 ef4 f4 | af1 |
   r4 bf,8 c8 df4 ef4 | f4 ef4 ef2 | r4 c8 df8 ef4 f4 | bf1 |
-  %% \break
+  \break
   r4 bf,8 c8 d4 f4 | gf4 f4 f2 | r4 d4 \tuplet 3/2 { ef4 f4 gf4 } | bf4 bf4 bf2 |
   df2 c2 | df2 c2 | r4 b8 b8 b4 b4 | b2 b2 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   bf1~ | bf2. g4 | f1~ | f1 |
   r4 bf8 bf8 bf4 bf4 | bf4 bf2 g4 | f1~ | f1 |
-  %% \break
+  \break
   r4 bf8 bf8 bf4 bf4 | bf4 c4 c2 | r4 df8 df8 df4 df4 | df4 ef4 ef2 |
   f1~ | f2. cs4 | bf1~ | bf1 |
   }

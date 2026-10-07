@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   a,,2 c2 | a4. c8~ c4 a4 | e'2 gs,4. a8~ | a8 e'8 d4 c4 b4 |
   \ambitusOn
 
-  \sectPageBreak "Verse 3"
+  \alwaysPageBreak "Verse 3" "||" "||-||"
 
   \clef \whatClef
   d''8 c8 d8 c8 d4 a8 c8~ | c8 d4. r2 | d8 c8 d8 c8 d8 c8 a8 a8~ | a4 r4 r2 |
@@ -132,7 +132,7 @@ refrainMelody = \relative f' {
 
   \bar "|."
   
-  \xPageBreak
+  \xxPageBreak
 }
 
 afterText =

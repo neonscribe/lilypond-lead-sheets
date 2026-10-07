@@ -10,7 +10,7 @@ headerTitle = "Starting A Rumor"
 headerSubtitle = "Steve Mackey's bass line from Delbert McClinton's 2009 album Acquired Taste"
 headerPoet = ""
 headerComposer = "Delbert McClinton / Gary Nicholson / Guy Clark"
-headerCopyright = "© 2009 EMI April Music Inc., Sony/ATV Cross Keys Publishing, Gary NicholsheaderOn Music"
+headerCopyright = "© 2009 EMI April Music Inc., Sony/ATV Cross Keys Publishing, Gary Nichols"
 
 refrainChords = \chordmode {
   e1:m b1:m c2. g4 g1
@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
   \break
   a1 | a8 e8 a2 e'4 | a1 | a8 e8 a,2 b8 g8 | c2. c4~ | c8 g8 c2 c4 | d4 d2 d4~ | d4 d2 d4 |
 
-  \sect "Solo"
+  \alwaysPageBreak "Solo" "||" "||-||"
 
   g,4 g2. | b2.. \xNote { b8 } | c4 c2~ c8 b8 | g4 g2 d'4 |
   g,4 g2~ g8 \xNote { g8 } | b4 b2~ b8 \xNote { b8 } | c4 c2. | d8 d8 d8 d8 a8 b8 d4 |
@@ -108,7 +108,7 @@ refrainMelody = \relative f' {
   a4 a2 a4~ | a8 e8 a2 b8 c8 | d2.. c8 | a4. e8 a,4 b4 |
   c4 c2 c4~ | c8 g8 a8 b8 c4 a4 | d4 d8 d8 d4 d4~ | d4 d8 a8 d2 |
 
-  \sectPageBreak "Verse 3"
+  \sect "Verse 3"
 
   g,4 g2. | b4 b2. | c4 c2. | g4 g2 d'4 | g,4 g2. | b4 b2. | c4 c2. | d4 d2 b4 |
   \break
@@ -117,7 +117,7 @@ refrainMelody = \relative f' {
   e4 e2 g4 | b4 b2. | c2. d8 e8 | g2 fs4 d4 |
   e4 e2. | b4 b2. | c4 e,4( a4) g4~ | g4 d'2 d4 |
 
-  \sectPageBreak "Outro Solo"
+  \alwaysPageBreak "Outro Solo" "||" "||-||"
 
   g,4 g2~ g8 \xNote { g8 } | b4 b2. | c4 c2. | g4 g2. |
   g4 g2. | b4 b2. | c4 c2~ c8 e,8 | g8 e8 g4 b8 c8 d4 |

@@ -48,13 +48,13 @@ refrainMelody = \relative f' {
   \break
   g2. b8 g8 | f4 d'4 b4 g8 f8~ | f4. d8~ d4 r4 | r1 |
 
-  \sectPageBreak "A2"
+  \sect "A2"
 
   c'4. g8~ g4. d8~ | d4. g8~ g4 c8 g8~ | g4. d8~ d4. c'8~ | c8 g4.~ g4 r4 |
   \break
   r4 r8 c8~ c4 g8 d8~ | d4. g8~ g4 c8 a8~ | a4. f8~ f4. g8~ | g8 f4.~ f4 r4 |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   d'2~ d4. c8 | a2. g8 f8 | d4. d8~ d4 g8 e8~ | e2 f4. bf8 |
   \break

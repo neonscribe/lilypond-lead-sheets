@@ -64,19 +64,20 @@ refrainMelody =  \relative f' {
   \break
   bf2 d,8 ds8 e8 c'8 | a2 g2 | f1~ | f1 |
 
-  \sectPageBreak "B"
+  \sect "B"
 
   f4 f4 g4 g4 | bf4 bf4 df4 df4 | c1~ | c1 |
   \break
   f,4 f4 g4 g4 | bf4 bf4 df4 df4 | c1~ | c1 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   c2 a4 c4 | e2. d4 | bf2 d,8 ds8 e8 c'8 | a2 g2 |
   \break
   bf2 d,8 ds8 e8 c'8 | a2 g2 | f2 r2 | r1 \textToCodaLastTime |
 
-  \bar "||-|."
+  \bar "|."
+  \xxPageBreak
 
   \textCodaBreak
 

@@ -57,7 +57,7 @@ refrainMelody = \relative f' {
   <g g,>4 <g g,>2. |
   r2 r8 g8 bf8 df8 |
 
-  \sectPageBreak "Chorus 2"
+  \alwaysPageBreak "Chorus 2" "||" "||-||"
 
   \tuplet 3/2 { c16( df16 c8) g8 } bf8 df8 \tuplet 3/2 { c16( df16 c8) g8 } bf8 df8 |
   \pitchedTrill c2\startTrillSpan df bf4\stopTrillSpan g4 |

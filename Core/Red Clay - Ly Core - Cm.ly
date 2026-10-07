@@ -105,7 +105,7 @@ refrainMelody = \relative f' {
   ef,2\repeatTie r2 |
   } } }
 
-  \sectPageBreak "B"
+  \sect "B"
 
   \bar ".|:-||"
   \repeat volta 2 {
@@ -116,13 +116,13 @@ refrainMelody = \relative f' {
   r4 bf4 r8 c8 r8 c8~ |
   } } }
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   c8 bf8 c8 bf8 g8 f8 ef8 f8~ | f4. ef8~ ef2 | r8 df8 ef8 gf8 af4 f8 ef8 | bf'4 g8 f8 c'8 d16 ef16 f4 |
   r2 f8 ef16 c16 bf8 f8 | g8 ef8 c8 f8~ f8 ef4.~ |
   ef1~_"First Time, to Solos. Last Time, to Outro" | ef2 r2 |
 
-  \break
+  \xxPageBreak
 
   \xTextMark \markup{ \bold \box "Solos" "Two-feel bass" }
 

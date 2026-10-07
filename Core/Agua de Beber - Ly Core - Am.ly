@@ -186,7 +186,7 @@ refrainMelody = \relative f' {
   \break
   c''8 c4 c8~ c8 d8 c4 | b4. fs8~ fs8 a4 c8~ | c8 b8 a2. | r4 a8 a8 c8 e8 d4~ |
 
-  \sectPageBreak "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   d1~ | d4 e8 d8 c8 a8 c4~ | c8 a8 a8 a8 r2 | r4 a8 a8 c8 e8 d4~ |
   \break
@@ -195,7 +195,7 @@ refrainMelody = \relative f' {
   <a' e d bf>8 g8 <a e d bf>2. |
   \ambitusOn
 
-  \sectPageBreak "C"
+  \sect "C"
 
   c,8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |
   c8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |

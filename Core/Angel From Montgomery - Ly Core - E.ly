@@ -107,7 +107,7 @@ refrainMelody = \relative f' {
   r8 b8 cs8 gs'8~ gs8 fs8 e4 | fs8 e4 cs8 e4 cs8( b8) \textToCodaIIandIII |
   r4 gs'4 gs8( fs8) e8 e8~ | e2 r2 |
 
-  \sectPageBreak "Intro No Repeat"
+  \alwaysPageBreak "Intro No Repeat" "||" "||-||"
 
   \ambitusOff
   r4_"(Guitar)" b8 e8 <gs b,>4 <a cs,>4~ | <a cs,>2. e,8 a8 |
@@ -118,7 +118,7 @@ refrainMelody = \relative f' {
   \textCodaI
 
   gs4 gs8 gs16( fs16 e4) e4~ | e2 r2 \dalSegnoSegnoII |
-  \bar "||-||"
+  \bar "||"
 
   \textCodaIIBreak
 

@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   f,2. | g4 af4 df4 | f2. | af,2~ af8 gf8 |
   \bar "||"
 
-  \sectPageBreak "A2"
+  \pianoPageBreak "A2" "||" "||-||"
 
   f2. | gf4 af4 df4 | f,2. | gf4 af4 df4 |
   \break

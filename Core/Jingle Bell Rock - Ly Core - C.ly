@@ -71,19 +71,21 @@ refrainMelody = \relative f' {
   c8 c8 c4 b8 b8 b4 | a8 b8 a8 e8~ e2 | a8 b8 a4 e4 g4 | a8 b8 a4 f2 |
   d8 e4 f8 g8 a4 g8 | d8 e8 f4 g2 | r4 a8 a8 b8 g4 c8~ | c2. c8 c8 |
 
-  \sectPageBreak "B"
+  \sect "B"
 
   c8( d4) c8~ c4 a8 c8 | c8( d4) c8~ c4. c8 | c4 b4 a4 g4 | e2. c'8 c8 |
   c8( d4) c8~ c4 a8 c8 | d4. c8~ c2 | r8 g8 g4 a8 a8 a8 a8 | b8 a4 g8~ g4 r4 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   c8 c8 c4 b8 b8 b4 | a8 b8 a8 e8~ e2 | a8 b8 a4 e4 g4 | a1 |
   a4 c4 d8 d8 c8 c8 | af8 af8 c8 d8~ d2 |
   r4 c8 a8 b8 a8 g4 \textToCodaLastTime | c2 r2 \daCapo |
-  \bar "||-|."
 
-  \textCodaPageBreak
+  \bar "|."
+  \xxPageBreak
+
+  \textCodaBreak
 
   r4 c8 a8 b8 a8 g4 | r4 c8 a8 b8 c8 d4 | c1 |
 

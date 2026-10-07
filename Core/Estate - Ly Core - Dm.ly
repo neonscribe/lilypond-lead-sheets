@@ -58,12 +58,12 @@ refrainMelody = \relative f' {
   a8 a4.~ a4. a,8 | bf8 bf8 d8 d8 f8 f8 e8 e8 | a,8 a4.~ a4. a8 | bf8 bf8 d8 d8 a'8 a8 g8 g8 |
   c,8 c4.~ c4. c8 | d8 d8 f8 f8 c'8 bf8 f8 d8 | a'1~ | a4 a8 b8 cs4 b8 cs8 |
   
-  \sectPageBreak "B"
+  \sect "B"
   
   a8 a4.~ a4. a8 | b8 b8 d8 d8 cs8 cs8 b8 cs8 | a8 a4.~ a4. a8 | g8 g8 bf8 bf8 a8 a8 g8 a8 |
   c,8 c4.~ c4. c8 | d8 d8 f8 f8 c'8 bf8 f8 d8 | a'1~ | a2 \tuplet 3/2 { c4 bf4 f4 } |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   a8 a4.~ a4. a,8 | bf8 bf8 d8 d8 f8 f8 e8 e8 | a,8 a4.~ a4. a8 | bf8 bf8 d8 d8 a'8 a8 g8 g8 |
   c,8 c4.~ c4. c8 | d8 d8 f8 f8 c'8 bf8 f8 d8 | a'1~ | a2 \tuplet 3/2 { c4 bf4 f4 } |

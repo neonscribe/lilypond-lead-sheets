@@ -119,13 +119,13 @@ refrainMelody = \relative f' {
   \break
   d8 bf'4 a8 fs4 g4 | c4 cs4 d8 a4. | \tuplet 3/2 { d4 c4 bf4 } a4 a8 f8~ | f1 |
 
-  \sectPageBreak "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   f8 g8 ef2 f4 | g8 af8 f2 a4 | g4 g4 g4 g4 | g2. r8 a8 |
   \break
   g8 d8 d2 b'4 | a8 e8 e2 c'8 c8 | b8 b8 f8 f8 d'8 d8 a8 a8 | c2. r8 c,8 |
 
-  \sectPageBreak "A3"
+  \sect "A3"
 
   c'8 a8 bf8 g8 a8 f4. | g8 e8 f8 d8 e8 c4. | g'8 e8 f8 d8 \tuplet 3/2 { e4 e4 c4 } | e1 |
   \break

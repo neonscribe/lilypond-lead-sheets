@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \override Staff.NoteHead.style = #'default
   |
 
-  \sectPageBreak "C"
+  \sect "C"
 
   \tuplet 3/2 { r8 bf8 df8 } \tuplet 3/2 { d8 ef8 e8 } \tuplet 3/2 { f8 e8 f8 } \tuplet 3/2 { df8 d8 r8 } |
   \tuplet 3/2 { r8 bf8 df8 } \tuplet 3/2 { d8 ef8 e8 } \tuplet 3/2 { f8 e8 f8 } \tuplet 3/2 { df8 d8 r8 } |
