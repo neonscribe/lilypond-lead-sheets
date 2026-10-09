@@ -4,6 +4,9 @@
 # Setup required in lilypond-lead-sheets repo:
 # 1. Copy this file to .github/workflows/update-catalog.yml
 # 2. Add secret: FLY_API_TOKEN (generate with: fly tokens create deploy -a musicforge)
+# 3. The chart id map must exist in S3 before the first run with this step:
+#    tools/seed_chart_ids.py writes catalog/chart_ids.json; upload it once by
+#    hand (see docs/chart-library-model.md).
 #
 # No AWS secrets needed - uses OIDC for secure, keyless authentication.
 
@@ -26,6 +29,11 @@ permissions:
 jobs:
   update-catalog:
     runs-on: ubuntu-latest
+    # Two pushes in quick succession must not race on the id map: each run
+    # reads chart_ids.json from S3, mints, and writes it back. Queue, never cancel.
+    concurrency:
+      group: update-catalog
+      cancel-in-progress: false
     steps:
       - name: Checkout lilypond-lead-sheets
         uses: actions/checkout@v6
@@ -53,13 +61,29 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::218141621131:role/musicforge-catalog-updater
+          aws-region: us-east-1
+
+      - name: Fetch the chart id map
+        # The live map lives beside catalog.db in S3 (ruled 2026-10-08); the
+        # repo's catalog/chart_ids.json is only the seed. Strict on purpose:
+        # building without the live map would re-mint every id minted since
+        # the seed and then overwrite S3 with that. Fail here instead.
+        run: |
+          mkdir -p musicforge/build
+          aws s3 cp s3://musicforge-pdfs/chart_ids.json musicforge/build/chart_ids.json
+          echo "Chart id map fetched"
+
       - name: Build catalog
         run: |
           cd musicforge
           # Replace submodule with fresh checkout (copy, not symlink, for Docker)
           rm -rf lilypond-data
           cp -r ../lilypond-data .
-          python build_catalog.py --ranges-file lilypond-data/Wrappers/range-data.txt --custom-dir custom-charts
+          python build_catalog.py --ranges-file lilypond-data/Wrappers/range-data.txt --custom-dir custom-charts --chart-ids build/chart_ids.json --write-chart-ids build/chart_ids.json
           echo "Catalog built successfully"
           ls -la catalog.db
 
@@ -68,16 +92,21 @@ jobs:
         # Built from the same catalog.db + Core/ this run just produced so it
         # can never be staler than the catalog. --min-songs fails the job on a
         # broken build before anything is uploaded. See
-        # docs/superpowers/specs/2026-09-05-song-corpus-export-automation-design.md
+        # docs/archive.md
         run: |
           cd musicforge
           python tools/export_lyric_corpus.py --db catalog.db --out build/song-corpus.json --min-songs 100
 
-      - name: Configure AWS credentials (OIDC)
-        uses: aws-actions/configure-aws-credentials@v6
-        with:
-          role-to-assume: arn:aws:iam::218141621131:role/musicforge-catalog-updater
-          aws-region: us-east-1
+      - name: Upload the chart id map
+        # Before catalog.db, on purpose: if the catalog upload then fails, S3
+        # holds a map with a few extra append-only ids no catalog serves yet
+        # (harmless; the next run reuses them), never a catalog serving ids the
+        # live map forgot (the next run would re-mint them differently).
+        # Append-only: this file only ever gains keys. A diff of the two
+        # uploads is the list of charts minted by this push.
+        run: |
+          aws s3 cp musicforge/build/chart_ids.json s3://musicforge-pdfs/chart_ids.json --content-type application/json
+          echo "Chart id map uploaded"
 
       - name: Upload catalog to S3
         run: |
@@ -138,6 +167,12 @@ jobs:
           dupes = [t for t, n in Counter(s['title'] for s in songs).items() if n > 1]
           if dupes:
               print('FAIL: duplicate titles in catalog:', dupes)
+              for t in dupes:
+                  entries = ', '.join(
+                      '{}/owner={}'.format(s.get('format'), s.get('owner_id'))
+                      for s in songs if s['title'] == t
+                  )
+                  print('  {}: {}'.format(t, entries))
               sys.exit(1)
           print('No duplicate titles')
           "
