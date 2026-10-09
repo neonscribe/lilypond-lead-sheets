@@ -68,9 +68,7 @@ refrainMelody = \relative f' {
   \sect "Solos"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
@@ -78,6 +76,7 @@ refrainMelody = \relative f' {
   \endParenthesis \parenthesize ef8 } \dalSegnoAfterSolosWithRepeats |
 
   \bar "|."
+
   \xxPageBreak
 
   \textCodaBreak

@@ -92,9 +92,9 @@ refrainMelody = \relative f' {
   \ambitusOn
 
   b2~ b4. b8 |
-  \bar "||-|."
+  \bar "|."
 
-  \xPageBreak
+  \xxPageBreak
 
   \textCodaBreak
 
