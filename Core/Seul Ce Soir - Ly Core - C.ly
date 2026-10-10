@@ -15,23 +15,23 @@ headerCopyright = "© 1940 Editions Musicales Europa"
 refrainLyrics = \lyricmode {
 Je suis
 
-seul ce soir a -- vec mes rê -- ê -- ves,
-Je suis seul ce soir sans ton a -- mour.
+seul ce soir __ a -- vec mes rê -- ê -- ves, __
+Je suis seul ce soir __ sans ton a -- mour. __
 
-Le jour tombe,
+Le jour tombe, __
 
-ma joie s'a -- chè -- ve,
-Tout se brise dans mon coeur lourd.
+ma joie s'a -- chè -- ve, __
+Tout se brise __ dans mon coeur lourd. __
 
 Je suis
 
-_ je -- e t'aim' en -- core et pour tou -- jours
+__ _ je -- e t'aim' en -- core et pour tou -- jours
 Ne me lais -- se pas seul sans ton a -- mour.
 }
 
 refrainLyricsTwo = \lyricmode {
-_ _ seul ce soir a -- vec ma pei -- ei -- ne,
-J'ai per -- du l'es -- poir de ton re -- tour,
+_ _ seul ce soir __ a -- vec ma pei -- ei -- ne, __
+J'ai per -- du l'es -- poir __ de ton re -- tour, __
 Et pour -- tant
 }
 
@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
 
   \sectNoBar "C"
 
-  f2 a4 c4 | e2. ef4 | d4 a4 g4 gf4 | f2. d4 |
+  f2\repeatTie a4 c4 | e2. ef4 | d4 a4 g4 gf4 | f2. d4 |
   \break
   e4 d4 f4 a4 | e'2 \tuplet 3/2 { b4 c4 d4 } | c1 | r1 |
   } } }

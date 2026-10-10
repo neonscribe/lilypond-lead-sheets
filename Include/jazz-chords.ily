@@ -351,6 +351,15 @@ jazzChordsMusic =
 	      } } 
 	     \larger\larger\normal-weight ")" } 
 	
+	<c e g bes des' fis' a'>-\markup{ 
+	    \jcThirteenth
+	    {\larger\larger\normal-weight "(" } 
+	      \tiny { \column{ 
+	        \raise #1.2 \line{ \jcFlat "9" } % the upper tension in the bracket
+	        \raise #2.5 \line{ \jcSharp "11" }  % the lower tension in the bracket
+	      } } 
+	     \larger\larger\normal-weight ")" } 
+	
 	<c e g bes ais'>-\markup{ \jcSeventh \jcSharpThirteenth }
 	<c e g bes aes'>-\markup{ \jcSeventh \jcFlatThirteenth }
 

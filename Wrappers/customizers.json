@@ -532,6 +532,13 @@
     }
 },{
     "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
+    "choices": {
         "lyricsLanguage": [
             "portuguese",
             "english"
