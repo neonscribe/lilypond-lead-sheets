@@ -63,11 +63,10 @@ refrainMelody = \relative f' {
   \break
   bf4 bf4 c4 f,8 f8 | d'8 d4 d8~ d4. c8 | bf8 g4 f8~ f8 g4. | bf2 r4 d,8 d8 |
 
-  \bar ".|:-||"
+  \lyricsPageBreak "Refrain" ".|:-||" ".|:-||"
+
   \repeat volta 2 {
 
-  \sectNoBar "Chorus"
-  
   g8. a16 bf8 d8 e,8. f16 g8 a8 | d,8 d4.~ d8 ef8 f8 g8 | d2 f2 | d2. d8 d8 |
   \break
   g8 a8 bf8 d8 e,8 f8 g8 a8 | d,8 d4.~ d8 ef8 f8 g8 | d2 f8 f4. | bf2~ bf8 d8 c8 bf8 |

@@ -92,28 +92,37 @@ refrainMelody = \relative f' {
 
   d8 d8 ef4 e8 f4. | d8 d8 ef4 e8 f4. |
   bf8 bf8 af8 g8 f8 g4. | bf8 bf8 af8 g8 f8 g4. |
+  \break
   f8 bf4 f8 bf4 f8 f8 | bf4 bf8 c8~ c2 |
   bf4 af8 g8 f8 g8 \tuplet 3/2 { d8( ef8) e8 } | f8( ef8) d8 bf8~ bf4 f'4 |
+  \break
   d4 ef8 ef8 e8 f4. | d4 ef8 ef8 e8 f4. |
   bf4 af8 g8 f8 g4. | bf4 af8 g8 f8 g4. |
+  \break
   f8 bf4 f8 bf4 f8 f8 | bf4 bf8 bf8~ bf2 |
   bf4 af8 g8 f8 g8 \tuplet 3/2 { d8( ef8) e8 } |
   f8( ef8) d8 bf8~ bf2 |
   \bar "||"
 
-  \alwaysPageBreak "Refrain" "||" "||-||"
+  \alwaysPageBreak "Refrain" ".|:-||" ".|:-||"
+  
+  \repeat volta 2 {
 
   d8 d4 d8~ d2 | d8 d4 d8~ d4 r8 d8 |
   d8 a'4 d,8~ d2 |
   a'8 a4 g8~ g4 d4 |
+  \break
   d8 d4 d8~ d2 | d8 f4 d8~ d4 f4 |
   c'8 c8 bf8 bf8 a8 a8 g8 g8 | bf8 bf8 a8 a8 g8 g8 f4 |
+  \break
   d8 d4 d8~ d2 | a'8 a4 fs8~ fs4 d4 |
   d8 a'4 g8~ g2 |
   ef 8 ef4 d8~ d4 d4 |
+  \break
   d8 a'4 g8~ g2 \textToCodaLastTime |
   r4 d4 f8 d8 c8 bf8~ | bf1 | r1 |
-  \bar "||-|."
+  }
+  \bar "||-:|."
 
   \textCodaBreak
 

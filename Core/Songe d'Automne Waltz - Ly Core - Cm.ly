@@ -27,6 +27,9 @@ refrainChords = \chordmode {
 
   f2.:m f2.:m c2.:m c2.:m
   d2.:7 g2.:7 c2.:m c2.:m
+
+  f2.:m f2.:m c2.:m c2.:m
+  d2.:7 g2.:7 c2.:m c2.:m
 }
 
 refrainKey = c
@@ -43,35 +46,38 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A" }
 
   g2. | c2. | ef2. | g2. |
-  %% \break
+  \break
   g2. f2 c4 | ef2. d2 g,4 |
 
   \sect "B"
 
   c2. | ef2. | g2. | bf2. |
-  %% \break
+  \break
   bf2.~ | bf2 af4 | g2. | r8 g,8 a8 b8 c8 d8 |
 
   \sect "C"
 
   ef2. | d2. | d2. | c2. |
-  %% \break
+  \break
   c2. bf2 g4 | ef2. | f2. |
 
-  \sect "D"
+  \alwaysPageBreak "D" "||" "||-||"
 
   g2. | gf2. | g2. | af2 c4 |
-  %% \break
+  \break
   ef2. | d2. | c2.~ | c2. |
 
-  \sect "E"
+  \sect "E1"
 
-  \bar ".|:-||"
-  \repeat volta 2 {
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
-  %% \break
+  \break
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
-  }
+
+  \sect "E2"
+
+  \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
+  \break
+  \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
 }
 
 \include "../Include/refrainonly.ily"

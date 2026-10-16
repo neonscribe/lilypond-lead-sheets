@@ -82,17 +82,22 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   bf8 bf4 bf8 bf4 bf8 bf8 | bf8 bf4 bf8 af4. f8 | ef1 | f8 af4.~ af4. f8 |
+  \break
   g8 g4 g8 g4 g8 af8 | bf8 a4 bf8 c4. bf8 | f1~ | f2 g4. af8 |
+  \break
   bf8 bf4 bf8 g4 f4 | ef2. ef8 ef8 | ef'4 ef4 ef4 ef4 | d4 d4 c4 c4 | bf1 |
+  \break
   f8 af4.~ af4 f4 | g8 g4 g8 g4 g8 g8 | g8 g4 g8 f4. ef8 | ef1~ | ef2 r4 g8 af8 |
 
-  \sect "A2,A3"
+  \alwaysPageBreak "A2,A3" ".|:-||" ".|:-||"
 
-  \bar ".|:-||"
   \repeat volta 2 {
   bf8 bf4 bf8 bf4 bf8 bf8 | bf4 bf4 af4 f4 | ef1 | f8 af4.~ af4. f8 |
+  \break
   g8 g4 g8 g4 g8 af8 | bf8 a4 bf8 c4. bf8 | f1~ | f2 g4. af8 |
+  \break
   bf8 bf4 bf8 g4 f4 | ef2. ef4 | ef'4 ef4 ef4 ef4 | d4 d4 c4 c4 | bf1 |
+  \break
   f8 af4.~ af4 f4 | g8 g4 g8 g4 g8 g8 | g8 g4 g8 f4. ef8 |
   \alternative { \volta 1 {
   ef1~ | ef2 r4 g8 af8 |

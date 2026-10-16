@@ -70,7 +70,7 @@ whatKey = #(or whatKey refrainKey)
 refrainMelody = \relative f' {
   \time 4/4
   \key g \major
-  \clef treble
+  \clef \whatClef
 
   \repeat volta 3 {
   \sectNoBarNoBreak "Verse"
@@ -78,19 +78,19 @@ refrainMelody = \relative f' {
   d2 g4 b,8 d8~ | d2. g4 | a8 a2 fs8 e8 fs8~ | fs8 e8~ e2 d4 |
   fs2 e8 d4. | c4 fs2 e4 | b1 | r1 |
 
-  \bar "||"
+  \bar "||-||"
 
   d4 d4 g4 b,8 d8~ | d2. g4 | a4 a4 fs4 e4 | fs4 e2 r8 d8 |
   fs2 e4. d8 | c4 d4 b8 a4. | g1 | r1 |
 
-  \bar "||"
+  \bar "||-||"
 
   \break
 
   g2 c4 e4 | g2 fs4 e4 | g4 b,2. | r1 |
   a2 cs4 e4 | a2 fs4 a4 | fs4 d2 e8 fs8~ | fs1 |
 
-  \bar "||"
+  \bar "||-||"
 
   \alternative { \volta 1,2 {
   d2 g4 b,8 d8~ | d2. g4 | a8 a4.~  a8 fs8 e8 fs8~ | fs8 e8~ e2 d4 |

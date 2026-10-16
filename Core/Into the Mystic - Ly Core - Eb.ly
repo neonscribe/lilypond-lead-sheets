@@ -110,7 +110,7 @@ refrainMelody = \relative f' {
   r4 r8 g8 bf8 bf8 c8 bf8 | g8( ef8~ ef4) r8 c8 ef8 ef8 |
   g8 f8 r4 r2 | r8 bf8 \tuplet 3/2 { g'8 g8 g8 } g8 f8~ f16 f16 g8~( |
   
-  \sect "Verse"
+  \alwaysPageBreak "Verse" "||" "||-||"
   
   g4. f8) f16 ef16 ef8 f8( ef8) | ef4 ef8 c8~( c8 bf16 g16 bf4) |
   r2 r8 ef16 ef16 ef16 ef16 c16 bf16 | c8 g16 bf16~ bf4 r2 |

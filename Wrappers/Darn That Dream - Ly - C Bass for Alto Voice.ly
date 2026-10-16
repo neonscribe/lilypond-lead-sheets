@@ -1,7 +1,7 @@
 \version "2.26.0"
 \include "english.ly"
 
-subtitle = "Bass for Alto Voice Key"
+subtitle = "Bass for Billie Holiday Key"
 whatKey = c,
 whatClef = "bass"
 

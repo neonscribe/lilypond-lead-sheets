@@ -13,7 +13,7 @@ headerComposer = "Paul Westmoreland"
 headerCopyright = "© 1945 Hill and Range Songs, Inc."
 
 refrainLyrics = \lyricmode {
-Head -- ed down life'd crook -- ed road, lot of things I nev -- er knowed,
+Head -- ed down life's crook -- ed road, lot of things I nev -- er knowed,
 and 'cause of me not know -- in' I now pine. __
 
 Trou -- ble got in the trail, spent the next five years in jail,
@@ -59,17 +59,21 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "Verse"
 
   ef4 ef4 f4 ef4 | g2 bf,4 c4 | ef4 ef4 f4 ef4 | g2. bf,4 |
+  \break
   ef4 ef4 ef4 ef4 | bf'4 bf4 c4 c4 | bf1~ | bf4 r4 bf4 c4 |
   \break
   ef2 c4 bf4 | c2 g4 ef4 | g4 gf4 f4 ef4 | c4( bf4) c'4 c4 |
+  \break
   bf1~ | bf4 g4 g4 f4 | ef1~ | ef4 r4 c'2 |
 
   \sect "Chorus"
 
   ef1~ | ef2 c4. c8 | ef4 ef4 ef4 c4 | ef2 g,2 |
+  \break
   bf1~ | bf2 g4. af8 | bf4 bf4 bf4 g4 | bf2 c2 |
   \break
   ef1~ | ef2 c4. c8 | ef4 ef4 ef4 c4 | ef2 c4 c4 |
+  \break
   bf1~ | bf4 g4 g4 f4 | ef1~ | ef4 r4 bf4 c4 |
 
   \bar ":|."

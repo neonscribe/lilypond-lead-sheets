@@ -90,29 +90,27 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Medium-Up [Chet Baker 1954]" 170
 
-  \xTextMark \markup{ \bold \box "A1" }
-
   \partial 4 bf,4 |
-  \bar "||"
+
+  \sectNoBreak "A1"
 
   c4 d4 ef4 f4 | g4 bf4 f4. ef8 | f1~ | f2. g4 |
   \break
   ef4 f4 g4 bf4 | c4 ef4 c4. bf8 | c1~ | c2. bf4 |
-  \break
 
-  \xTextMark \markup{ \bold \box "B1" }
+  \sect "B1"
 
   ef4 c4 bf4 af4 | g4 f4 g4 af4 | bf4 g4 f4 ef4 | f4 ef4 f4. ef8 |
   \break
   d'4 c4 bf4 a4 | g4 f4 g4 f4 | af1~ | af2. bf,4 |
+
   \sect "A2"
 
   c4 d4 ef4 f4 | g4 bf4 f4. ef8 | f1~ | f2. g4 |
   \break
   ef4 f4 g4 bf4 | c4 ef4 c4. bf8 | c1~ | c2. bf4 |
-  \break
 
-  \xTextMark \markup{ \bold \box "B2" }
+  \sect "B2"
 
   ef4 c4 bf4 af4 | g4 f4 g4. af8 | bf4 g4 f4 ef4 | d'2. c4 |
   \break

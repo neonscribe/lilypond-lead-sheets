@@ -48,7 +48,7 @@ refrainMelody = \relative f' {
   \clef \whatClef
   \tempoFour "Ballad [Linda Ronstadt 2000]" 50
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBreak "A1"
 
   c'2. b4 | d2. c4 | g2 g2~ | g1 |
   \break
@@ -57,9 +57,10 @@ refrainMelody = \relative f' {
   \sect "B"
 
   d2. e4 | g2. f4 | e2. g4 | c2. b4 |
+  \break
   d2 d2 | b2. b4 | a1~ | a2. r4 |
 
-  \sect "A2"
+  \alwaysPageBreak "A2" "||" "||-||"
 
   c2. b4 | d2. c4 | g2 g2~ | g1 |
   \break

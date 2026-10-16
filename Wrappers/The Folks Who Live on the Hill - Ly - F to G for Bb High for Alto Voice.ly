@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-subtitle = "Bb High for Alto Voice Key"
+subtitle = "Bb High for Nancy Wilson Key"
 whatKey = g
 whatClef = "treble"
 

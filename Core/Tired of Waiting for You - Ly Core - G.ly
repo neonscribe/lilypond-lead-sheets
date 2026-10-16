@@ -101,9 +101,9 @@ refrainMelody = \relative f' {
 
   }
 
-  \bar "||-:|."
+  \bar ":|."
 
-  \xPageBreak
+  \xxPageBreak
 
   \textCodaBreak
 

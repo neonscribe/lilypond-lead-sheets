@@ -54,25 +54,24 @@ refrainMelody = \relative f' {
 
   c'2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |
   \break
-
   a2 a2~ | a2 \tuplet 3/2 { af4 f4 df4 } | g1~ | g2 r2
 
-  \tempo "Swing"
   \sect "B"
+  \tempo "Swing"
 
   g2 d4 e4 | f4 g4 af4 bf4 | g2 g2~ | g2. g4 |
   \break
   bf4 f2 g4 | af4 bf4 cf4 df4 | bf2 bf2~ | bf2 b2
 
+  \lyricsPageBreak "A2" "||" "||-||"
   \tempo "Latin"
-  \sect "A2"
 
   c2 c2~ | c2 \tuplet 3/2 { b4 g4 e4 } | bf'1~ | bf1 |
   \break
   a2 a2~ | a2 \tuplet 3/2 { af4 f4 df4 } | g1~ | g2 r2
 
-  \tempo "Swing"
   \sect "C"
+  \tempo "Swing"
 
   g2 d4 e4 | f4 g4 gs4 e'4 | d2 c2 | c,4 d4 ds4 b'4 |
   \break

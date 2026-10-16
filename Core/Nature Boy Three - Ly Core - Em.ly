@@ -63,21 +63,25 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   b'8 g8 e2~ | e8 b8 fs'8 g8 a8 c8 | b8 g8 e2~ | e8 b8 fs'8 g8 a8 c8 |
+  \break
   b8 e8 ds2 | b8 d8 cs2 | a8 c8 b4~ b8 e,8 | fs2 r8 b,8 |
 
   \sect "B"
 
   b'8 g8 fs2~ | fs2 r8 b,8 | a'8 g8 e2~ | e2 r8 b8 |
+  \break
   g'8 fs8 cs2~ | cs2 d4 | ds2.~ | ds2 r8 b8 |
 
-  \sect "A2"
+  \lyricsPageBreak "A2" "||" "||-||"
 
   b'8 g8 e2~ | e8 b8 fs'8 g8 a8 c8 | b8 g8 e2~ | e8 b8 fs'8 g8 a8 c8 |
+  \break
   b8 e8 ds2 | b8 d8 cs2 | a8 c8 b4~ b8 e,8 | fs2 r8 b,8 |
 
   \sect "C"
 
   b'8 g8 fs2~ | fs2 r8 b,8 | a'8 g8 e2~ | e2 r8 b8 |
+  \break
   g'8 fs8 cs4~ cs8 b8 | a'8_\markup{ \italic "ritard last time" } g4. b,8 fs'8 | e2.~ | e2 r4 |
 
 \bar "|."

@@ -2,7 +2,7 @@
 
 \include "english.ly"
 
-subtitle = "Alto Voice Key"
+subtitle = "Connie Francis Key"
 whatKey = c
 whatClef = "lowtreble"
 

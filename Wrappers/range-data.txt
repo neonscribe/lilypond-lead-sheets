@@ -12402,8 +12402,8 @@ b'
 
 It Never Entered My Mind - Ly - Ab Alto Voice.ly
 refrain
-ees'
-g''
+ees
+g'
 
 It Never Entered My Mind - Ly - Bb Alto Voice.ly
 refrain
@@ -16170,6 +16170,11 @@ My Funny Valentine - Ly - Eb to F for Bb for Standard.ly
 refrain
 d'
 f''
+
+My Heart Stood Still - Ly - Bb Alto Voice.ly
+refrain
+f
+g'
 
 My Heart Stood Still - Ly - C Alto Voice.ly
 refrain

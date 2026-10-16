@@ -121,14 +121,13 @@ refrainMelody = \relative f' {
     r4 ef8 ef8 ef8 d8 d8 c8 | d8 bf4 bf8~ bf2 |
     r8 bf8 bf8 d8 bf8 bf4 bf8~ | bf2. r4 |
   }
-  \alternative {
-    {
+  \alternative { \volta 1 {
       \sect "Solo"
       \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
       \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
       }
-    {
-      \textCodaBreak
+   \volta 2 {
+      \sectNoBar "Outro"
 
       r8 bf8^\markup \italic "rit." bf8 d8 bf8 bf4 bf8~ | bf2\fermata r2 |
       }

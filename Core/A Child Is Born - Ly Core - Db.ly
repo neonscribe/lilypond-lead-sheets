@@ -83,7 +83,10 @@ refrainMelody = \relative f' {
   af2. | gf4 af4 df4 | f,2. | g4 bf4 ef4 |
   f2. | af,2. \textToCodaLastTime |
 
-  \bar "||-|."
+  \bar "|."
+
+  \once \override Score.Clef.break-visibility = #begin-of-line-visible
+  \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
 
   \textCodaBreak
 

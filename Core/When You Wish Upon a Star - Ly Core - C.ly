@@ -65,7 +65,7 @@ refrainMelody = \relative f' {
   \break
   d4 c4 b4 a4 | g4 f4 e4 d4 | a'2 b,2 | c1 |
 
-  \sect "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   d2 e2 | g1 | r4 d4 e4 f4 | fs8 a8 g2. |
   \break
@@ -76,9 +76,6 @@ refrainMelody = \relative f' {
   g,4 g'4 f4 e4 | cs4 d4 a'2 | b,4 b'4 a4 g4 | fs4 g4 c2 \textToCodaLastTime |
   \break
   d4 c4 b4 a4 | g4 f4 e4 d4 | a'2 b,2 | g'2. r4 |
-
-  \bar "||"
-  \xxPageBreak
 
   \textCodaBreak
 

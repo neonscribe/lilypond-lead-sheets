@@ -125,10 +125,8 @@ bassLineMelody = \relative f' {
   \time 4/4
   \tuplet 3/2 { b8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } |
   \tuplet 3/2 { b8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } |
-  \bar ".|:-||"
 
-  \xPageBreak
-  \sectNoBar "Guitar Solo - ad lib."
+  \alwaysPageBreak "Guitar Solo - ad lib." ".|:-||" ".|:-||"
 
   \repeat volta 2 {
   b4_"(Bass)" d4 cs4 c8 as8 | b4 d4 cs4 c8 as8 | b4 d4 cs4 c8 as8 | b4 d4 cs4 c8 as8 |

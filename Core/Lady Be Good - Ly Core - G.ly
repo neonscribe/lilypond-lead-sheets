@@ -154,7 +154,7 @@ refrainMelody = \relative f' {
   \break
   \tuplet 3/2 { d4 c4 a4 } d,2~ | d2 b'2 | g1~ | g2 r2 |
 
-  \sect "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   e'1 | r4 e4 e4 e4 | e2 d2~ | d2 r2 |
   \break

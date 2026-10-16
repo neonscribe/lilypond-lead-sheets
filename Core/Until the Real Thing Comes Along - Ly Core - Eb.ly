@@ -65,21 +65,25 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
   
   bf4 bf4 bf4. g8 | bf4 bf4 bf2 | r8 d8 d8 c8 \tuplet 3/2 { d4 d4 c8 c8 } | d4 bf4 g4. c8 |
+  \break
   ef8 c8 ef8 c8~ c4 fs,8 g8 | bf4 bf4 g2 | r8 ef8 ef8 c8 ef8 ef8 c8 ef8 | f2. g4 |
 
   \sect "A2"
 
   bf4 bf4 bf4. g8 | bf4 bf4 bf2 | r8 d8 d8 c8 \tuplet 3/2 { d4 d4 c8 c8 } | d4 bf4 g4. c8 |
+  \break
   ef8 c8 ef8 c8~ c4 fs,8 g8 | bf4 bf4 g2 | r8 ef8 ef8 ef8 f8 f8 c8 c8 | ef2 r2 |
 
   \sect "B"
   
   r8 d'8 d8 b8 d4 as8 b8 | e4 e4 b2 | r8 g8 g8 e8 g4 e4 | g4 gf4 e2 |
+  \break
   r8 d'8 d8 b8 d8 d8 as8 b8 | e4 e4 b2 | r8 g8 g8 e8 g4 fs8 g8 | bf4 bf4 bf4. g8 |
   
   \sect "A3"
 
   bf4 bf4 bf4. g8 | bf4 bf4 bf2 | r8 d8 d8 c8 \tuplet 3/2 { d4 d4 c8 c8 } | d4 bf4 g4. c8 |
+  \break
   ef8 c8 ef8 c8~ c4 fs,8 g8 | bf4 bf4 g2 | r8 ef8 ef8 ef8 f8 f8 c8 c8 | ef2 r2 |
 
   \bar "|."

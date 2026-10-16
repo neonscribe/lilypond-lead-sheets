@@ -75,6 +75,8 @@ Leave your cares be -- low,
 Pull the switch, let's go
 Des -- ti -- na -- tion Moon.
 
+(Come and)
+
 Des -- ti -- na -- tion Moon. __
 Des -- ti -- na -- tion Moon. __
 Des -- ti -- na -- tion Moon. __
@@ -152,7 +154,10 @@ refrainMelody = \relative f' {
 
   \partial 4 f8 fs8 |
 
-  \sectNoBreak "A1"
+  \bar ".|:"
+  \repeat volta 2 {
+
+  \sectNoBarNoBreak "A1"
 
   g8 d'4 c4. a8 g8 | f8 c'4 bf2 g8 |
   ef8 f8 g8 bf8 a4 f8 d8~ | d2. g8 d8 | ef4 f8 g4. a8 f8 |
@@ -178,13 +183,16 @@ refrainMelody = \relative f' {
   ef8 f8 g8 bf8 a4 f8 d8~ | d2. g8 d8 | ef4 f8 g4. a8 f8 |
   bf4 c8 d4. r4
   \textToCodaLastTime |
-  r4 cs8 d8 bf8 c4 bf8~ | bf2 r2 |
-
-  \bar "||-|."
+  r4 cs8 d8 bf8 c4 bf8~ | bf2 r4
+  \override Parentheses.font-size = #5
+  \startParenthesis \parenthesize f8
+  \endParenthesis \parenthesize fs8 |
+  }
+  \bar "||-:|."
 
   \textCodaBreak
 
-  | r4 cs8 d8 bf8 c4 d8~ | d2. r4 |
+  | r4 cs'8 d8 bf8 c4 d8~ | d2. r4 |
   | r4 cs8 d8 bf8 c4 d8~ | d2. r4 |
   r4 d2 g,4 | d'2 d2 | c8( bf4.) <ef bf>4 r4 | <e bf>4 r8 <f bf,>4. bf,,4\fermata |
 

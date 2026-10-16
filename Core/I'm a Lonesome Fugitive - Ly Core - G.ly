@@ -72,14 +72,14 @@ refrainMelody = \relative f' {
   \break
   c'4 c8 c8~ c4 c4 | b4 a4 g4 fs4 | g2. r4 | r2 r4 d'4 |
 
-  \sect "Chorus"
+  \lyricsPageBreak "Chorus" "||" "||-||"
 
   d4 b4 b8 g4 a8~ | a4. g8 g4 e4 | d8 fs4.~ fs2~ | fs4 r4 r4 r8 a8 |
-  %% \break
+  \break
   g8 g4 e8~ e4 d4 | c4. c8 e8 g4 fs8~ | fs1~ | fs4 r4 r4 d'4 |
   \break
   d4 b4 b4. a8 | a4 g4 g4 e8( d8) | d8 fs4.~ fs2~ | fs4 r4 r4 c4 |
-  %% \break
+  \break
   c4. e8 e4. e8 | d4 fs2 e8 fs8 | g1~ | g4 r4 r4
   \override Parentheses.font-size = #5
   \parenthesize d4 |

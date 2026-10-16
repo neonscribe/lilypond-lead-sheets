@@ -8,9 +8,9 @@ songID = "2026-06-01T22:16:33.82001Z"
 
 headerTitle = "The Gaby Glide"
 headerSubtitle = \subtitle
-headerPoet = ""
-headerComposer = "Louis H. Hirsch"
-headerCopyright = ""
+headerPoet = "Harry Pilcer"
+headerComposer = "Louis A. Hirsch"
+headerCopyright = "© 1911 Shapiro Music Pub Co."
 
 refrainMaybeChords = \chordmode {
   f1 f1 f1 f1

@@ -51,22 +51,27 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
   
   a8 a4.~ a4. a8 | bf8 bf8 d8 d8 f8 f8 e8 e8 | a,8 a4.~ a4. a8 | bf8 bf8 d8 d8 a'8 a8 g8 g8 |
+  \break
   c,8 c4.~ c4. c8 | d8 d8 f8 f8 c'8 bf8 f8 d8 | a'1~ | a2 \tuplet 3/2 { c4 bf4 f4 } |
   
   \sect "A2"
 
   a8 a4.~ a4. a,8 | bf8 bf8 d8 d8 f8 f8 e8 e8 | a,8 a4.~ a4. a8 | bf8 bf8 d8 d8 a'8 a8 g8 g8 |
+  \break
   c,8 c4.~ c4. c8 | d8 d8 f8 f8 c'8 bf8 f8 d8 | a'1~ | a4 a8 b8 cs4 b8 cs8 |
   
-  \sect "B"
+  \alwaysPageBreak "B" "||" "||-||"
   
   a8 a4.~ a4. a8 | b8 b8 d8 d8 cs8 cs8 b8 cs8 | a8 a4.~ a4. a8 | g8 g8 bf8 bf8 a8 a8 g8 a8 |
+  \break
   c,8 c4.~ c4. c8 | d8 d8 f8 f8 c'8 bf8 f8 d8 | a'1~ | a2 \tuplet 3/2 { c4 bf4 f4 } |
 
   \sect "A3"
 
   a8 a4.~ a4. a,8 | bf8 bf8 d8 d8 f8 f8 e8 e8 | a,8 a4.~ a4. a8 | bf8 bf8 d8 d8 a'8 a8 g8 g8 |
+  \break
   c,8 c4.~ c4. c8 | d8 d8 f8 f8 c'8 bf8 f8 d8 | a'1~ | a2 \tuplet 3/2 { c4 bf4 f4 } |
+  \break
   a8 a4.~ a2~ | a2 \tuplet 3/2 { c,4_\markup \italic { "Last time 8va" } bf4 c4 } | 
   a8~ a4.~ a8
   \override Parentheses.font-size = #5
@@ -74,7 +79,6 @@ refrainMelody = \relative f' {
   e8 f8 | a8 g4 d8
   \endParenthesis \parenthesize f4
   r4 |
-  
 
   \bar "|."
 }

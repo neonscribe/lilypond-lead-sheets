@@ -2,6 +2,7 @@
 
 \include "english.ly"
 
+subtitle = "Bass Line"
 whatKey = d,
 whatClef = "bass"
 

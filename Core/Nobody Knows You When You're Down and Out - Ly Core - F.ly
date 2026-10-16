@@ -59,16 +59,22 @@ refrainMelody = \relative f' {
   \sectNoBreak "Verse"
 
   a'4 a8 a8 g4 g8 g8 | fs4 fs8 d8~ d2 | d'8 d8 d8 c8~ c8 c4 c8 | bf4 bf8 g8~ g2 |
+  \break
   d'8 d8 \tuplet 3/2 { d8 d8 d8 } e8 d4. | c8 c8 c8 a8~ a2 | a8 a8 a8 a8~ a2 | a8 f4 g8~ g4 r8 c,8 |
+  \break
   a'4 a8 g8~ g4 g8 g8 | fs4 fs8 d8~ d4. d8 | d'8 d8 d8 d8 c4. c8 | bf4 bf8 g8~ g4 \tuplet 3/2 { r8 f8 f8 } |
+  \break
   d'8 d8 d8 d8 e4 d8 d8 | c8 c8 c8 a8~ a4 \tuplet 3/2 { d,8 a'8 d,8 } |
   a'8 a4 d,8 a'8 a8~ \tuplet 3/2 { a8 d,8 f8 } | a8 f4 g8~ g2 |
 
-  \alwaysPageBreak "Chorus" "||" "||-||"
+  \alwaysPageBreak "Refrain" "||" "||-||"
 
   a2 g4. a8 | fs2 d2 | r8 d'4 d8 c4 c4 | bf1 |
+  \break
   r8 d4 d8 e8 d4. | r8 c4 c8 c8 a4. | r8 a4 a8 a2 | r8 d,8 a'8 d,8 a'8 g4 c,8 |
+  \break
   a'4 a8 a8 g8 g4 g8 | fs4 fs8 d8~ d2 | r8 bf'4 bf8 a8 a8 a8 a8 | g8 a4 bf8~ bf2 |
+  \break
   r8 f8 d'8 d8 e4. d8 | c4 c8 a8~ a4. d,8 | a'4 f8 d8 a'8 a8~ \tuplet 3/2 { a8 f8 d8 } | a'4 a8 f8~ f4 r4 |
 
   \bar "|."

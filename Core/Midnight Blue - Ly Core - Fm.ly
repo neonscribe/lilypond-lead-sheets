@@ -107,9 +107,7 @@ refrainMelody = \relative f' {
   r4 \rsq \rsq \rsq |
   } } }
 
-  \xPageBreak
-
-  \sect  "Solos A1,A2"
+  \alwaysPageBreak  "Solos A1,A2" "||" "||-||"
 
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

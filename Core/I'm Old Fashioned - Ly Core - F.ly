@@ -94,12 +94,14 @@ refrainMelody = \relative f' {
   \sectNoBar "A"
 
   f2. c4 | c4 c2 c4 | a'2. c,4 | c4 c2 c4 |
+  \break
   bf'2. a4 | c,4 c2 a'4 | g1~ | g2. e4 |
   \break
   g2. f4 | e2. d4 | g4 a4 g4 f4 | e2. d4 |
+  \break
   bf'4 c4 bf4 a4 | g2 f2 | c'1~ | c1 |
 
-  \sect "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   d2. f,4 | f4 f2 e4 | a2. e4 | e4 e2 d4 |
   \break

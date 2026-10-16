@@ -95,26 +95,25 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   c2 c'2 | \tuplet 3/2 { bf4 c4 bf4 } cs4 a8 f8~ | f1 | \tuplet 3/2 { f4 g4 f4 } af4. af8 |
-  f2. c4 |
-
-  \tuplet 3/2 { f4 g4 f4 } g4. f8 | c'1 | r1 |
+  \break
+  f2. c4 | \tuplet 3/2 { f4 g4 f4 } g4. f8 | c'1 | r1 |
 
   \sect "A2"
 
   c,2 c'2 | \tuplet 3/2 { bf4 c4 bf4 } cs4 a8 f8~ | f1 | \tuplet 3/2 { f4 g4 f4 } af4. af8 |
-  f2. c4 |
+  \break
+  f2. c4 | \tuplet 3/2 { f4 g4 f4 } c'4. c8 | a1 | r1 |
 
-  \tuplet 3/2 { f4 g4 f4 } c'4. c8 | a1 | r1 |
-
-  \sect "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   d2 e4. e8 | cs2 ef4. ef8 | c2 d4. d8 | b1 |
+  \break
   bf2 c4. c8 | a2 d2 | \tuplet 3/2 { e4 e4 e4 } \tuplet 3/2 { e4 ef4 d4 } | g,2 gs2 |
 
   \sect "A3"
 
   c,2 c'2 | \tuplet 3/2 { bf4 c4 bf4 } cs4 a8 f8~ | f1 | \tuplet 3/2 { f4 g4 f4 } af4. af8 |
-
+  \break
   f2. c4 | \tuplet 3/2 { f4 g4 f4 } c'4 c8 c8~ | c1 | r1 |
 
   \bar "|."

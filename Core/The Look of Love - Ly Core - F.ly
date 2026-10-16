@@ -73,10 +73,11 @@ refrainMelody = \relative f' {
   \sect "B"
 
   d2 r4 a'8 c8~ | c2 r2 | r4 r8 bf8 c8 d4 c8~ | c8 bf4 a8~ a8 g4 c,8 |
+  \break
   bf'4 a8 a8~ a8 g8 a4~ | a2 r2 | r4 r8 f8 g8 a4 bf8~ | bf8 a4 g8~ g8 f4 d8 |
   a'4 g8 g8~ g8 fs8 g4~ | g4 r4 r8 a8 f8 d8~ |
 
-  \sect "C"
+  \alwaysPageBreak "C" "||" "||-||"
 
   d8 c8 c8 a8 c4 a8 g'8~ g8 a8 a8 g8 a4 bf4 |
   r4 a8 c8~ c8 bf4 a8 |
@@ -95,9 +96,7 @@ refrainMelody = \relative f' {
   bf'4\repeatTie r4 r2 |
   } } }
 
-  \bar ":|."
-
-  \xxPageBreak
+  \bar "||-:|."
 
   \textCodaBreak
 

@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   d8 bf4. \tuplet 3/2 { r4 g4 c4 } | af2 \tuplet 3/2 { r4 f4 d4 } |
   ef1 | r4 d8 g8 \tuplet 3/2 { e4 a4 fs4 } |
 
-  \sect "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   e4 d8 d8 d2 | r4 f8 bf8 \tuplet 3/2 { g4 c4 a4 } | g4 f8 f8 f2 | r2 d'2 |
   \break

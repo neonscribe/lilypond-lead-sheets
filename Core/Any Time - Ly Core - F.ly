@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
 
 afterText =
 \markup {
-  \vspace #1
+  \vspace #2
   \column {
     \line { \large { Anytime your world is lonely, } }
     \line { \large { and you find true friends are few, } }

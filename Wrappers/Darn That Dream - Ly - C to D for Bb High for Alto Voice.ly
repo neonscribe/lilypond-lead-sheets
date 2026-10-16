@@ -1,7 +1,7 @@
 \version "2.26.0"
 \include "english.ly"
 
-subtitle = "Bb High for Alto Voice Key"
+subtitle = "Bb High for Billie Holiday Key"
 whatKey = d'
 whatClef = "treble"
 

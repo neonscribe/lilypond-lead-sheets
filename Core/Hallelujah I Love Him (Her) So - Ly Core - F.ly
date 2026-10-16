@@ -155,7 +155,6 @@ refrainMelody = \relative f' {
   \bar "|o"
   \xxPageBreak
   r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
-  \break
   a4( c4) r4 a8 a8 | g8( f4.) r4 af8 g8 |
 
 
@@ -175,9 +174,7 @@ refrainMelody = \relative f' {
 
   r4 d8 c8 af8 g8 f8 d8 | f4 f8 af8~ af8 r8 r4 |
   r4 d8 c8 af8 g8 f8 d8 | f4 f8 d8~ d8( c8) r4 |
-  \break
   r8 c'8 d8 c8 af8( g8) f8 d8 | f4 f8 f8~ f8 r8 r4 | r8 d8 f8 d8 f8 d8 f8 d8 | f4 f8 f8~ f8 c8 d8 f8 |
-  \break
   a8( c4.) r4 a8 a8 | g8( f4.) r4 af8 g8 | af8 g8 f8 d8 f4 f8 f8~ | f1~ | f2 r2 |
 
   \bar "|."

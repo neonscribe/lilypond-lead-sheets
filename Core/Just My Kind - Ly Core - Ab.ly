@@ -66,6 +66,7 @@ refrainMelody = \relative f' {
 
   c'4 df8 b8 c8 af4 f8 | c'8 c4 bf4. ef8 c8~ |
   c4 af8 f4. df'8 bf~ | bf2. r8 c8 |
+  \break
   bf4 b8 c2 af8 | g4 af8 f8~ f4. c'8 |
   bf4 c4 d4 bf8 ef8~ | ef2. r8 c8~ |
 
@@ -73,13 +74,15 @@ refrainMelody = \relative f' {
 
   c4 df8 b8 c8 af8 f8 af8 | c8 c4 bf4. ef8 c8~ |
   c4 af8 f4. ef'8 f~ | f2. r8 ef8 |
+  \break
   f8 af4. g4 f4 | ef8 gf4. f4 c4 |
   ef8 df4. c4 c8 af8~ | af2. af8 bf8~ |
 
-  \sect "B"
+  \lyricsPageBreak "B" "||" "||-||"
 
   bf4 bf8 f'4. bf,8 f'8~ | f4 ef8 c8 bf4. af8 |
   bf4 bf4 f'4 ff8 ef8~ | ef2. r8 ef8 |
+  \break
   c4 c4 g'4 c,4 | g'4 gf8 f8~ f4. af8 |
   bf4 af4 g4 f4 | ef4 df8 bf8~ bf4. c8~ |
 
@@ -87,6 +90,7 @@ refrainMelody = \relative f' {
 
   c4 df8 b8 c8 af8 f8 af8 | c8 c4 bf4. ef8 c8~ |
   c4 af8 f4. ef'8 f~ | f2. r8 ef8 |
+  \break
   f8 af4. g4 f4 | ef8 gf4. f4 c4 |
   ef8 df4. c4 c8 af8~ | af2. r4 |
 

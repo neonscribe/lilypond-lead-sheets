@@ -85,9 +85,8 @@ refrainMelody = \relative f' {
   bf16 af16 f8 f2. | r8 f8 r8 f8 c'4 ef8 c16 cf16 |
   bf16 af16 f8 f2. | r8 f8 r8 f8 af8 af8 f8 c8 \textToCodaLastTime | ef4 f2. | r1 |
 
-  \sect "Solos A1, A2"
+  \alwaysPageBreak "Solos A1, A2" ".|:-||" ".|:-||"
 
-  \bar ".|:-||"
   \repeat volta 2 {
   \rsq_"(bass walks in four on solos)" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
