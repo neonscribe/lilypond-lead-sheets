@@ -325,6 +325,13 @@
         ]
     }
 },{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
+},{
     "toggles": [
         "noIntro"
     ]

@@ -253,6 +253,12 @@ sectStartRefrain =
      \sPageBreak
      \xTextMark \markup{ "Refrain" \bold \box #s } #} )
 
+sectStartRefrainNoBreak =
+#(define-music-function (s)
+   (string?)
+  #{
+     \xTextMark \markup{ "Refrain" \bold \box #s } #} )
+
 
 sectStartRefrainGap =
 #(define-music-function (s)

@@ -7637,6 +7637,31 @@ refrain
 b
 cis''
 
+Funny How Time Slips Away - Ly - D Baritone Voice.ly
+refrain
+a
+cis''
+
+Funny How Time Slips Away - Ly - F Bass for Standard.ly
+refrain
+c
+e'
+
+Funny How Time Slips Away - Ly - F Standard.ly
+refrain
+c'
+e''
+
+Funny How Time Slips Away - Ly - F to D for Eb for Standard.ly
+refrain
+a'
+cis'''
+
+Funny How Time Slips Away - Ly - F to G for Bb for Standard.ly
+refrain
+d'
+fis''
+
 Gaby Glide - Ly - F Bass Line for Standard.ly
 refrain
 f,
@@ -11201,6 +11226,70 @@ I've Found a New Baby - Ly - F to G for Bb for Standard.ly
 refrain
 g'
 a''
+
+I've Got a Crush on You - Ly - Bb Bass for Standard.ly
+verse
+d
+ees'
+refrain
+d
+f'
+
+I've Got a Crush on You - Ly - Bb Standard.ly
+verse
+d'
+ees''
+refrain
+d'
+f''
+
+I've Got a Crush on You - Ly - Bb to C for Bb for Standard.ly
+verse
+e'
+f''
+refrain
+e'
+g''
+
+I've Got a Crush on You - Ly - Bb to G for Eb for Standard.ly
+verse
+b
+c''
+refrain
+b
+d''
+
+I've Got a Crush on You - Ly - C Alto Voice.ly
+verse
+e
+f'
+refrain
+e
+g'
+
+I've Got a Crush on You - Ly - D Alto Voice.ly
+verse
+fis
+g'
+refrain
+fis
+a'
+
+I've Got a Crush on You - Ly - Db Alto Voice.ly
+verse
+f
+ges'
+refrain
+f
+aes'
+
+I've Got a Crush on You - Ly - Eb Baritone Voice.ly
+verse
+g
+aes'
+refrain
+g
+bes'
 
 I've Got My Love to Keep Me Warm - Ly - Ab Alto Voice.ly
 refrain
