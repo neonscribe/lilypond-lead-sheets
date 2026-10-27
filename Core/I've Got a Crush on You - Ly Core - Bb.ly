@@ -3,7 +3,8 @@
 %{
 
 "Customizer": { "toggles": [ "noIntro" ],
-		"choices": { "singerGender": [ "male", "female" ] } }
+		"choices": { "singerGender": [ "male", "female" ],
+			     "alternateChords": [ "hlrb", "newreal" ] } }
 
 %}
 
@@ -94,9 +95,11 @@ Could you coo, __ could you care, __ for a cun -- ning cot -- tage we could shar
 The world will par -- don my mush, 'cause I've got a crush, my ba -- by on you.
 
 (I've got a)
+
+mush, 'cause I've got a crush, my ba -- by on you. __
 }
 
-refrainChords = \chordmode {
+refrainSRBChords = \chordmode {
   \chordInsideParens{ f4.:9 }
   
   bf2:maj7 df2:dim7 c2:m7 f2:13.9- bf2:maj7 df2:dim7 c2:m7 f2:13.9-
@@ -105,7 +108,40 @@ refrainChords = \chordmode {
   bf2:maj7 df2:dim7 c2:m7 f2:13.9- bf2:maj7 df2:dim7 c2:m7 af2:9
   bf2:maj7 g2:m7 c2:13 d4:m7 g4:m7 c2:9 f2:13 bf2:6 
   \chordInsideParens{ f2:7 }
+  
+  c2:13 \chordInsideParens{ a2:7.9- } d2:m7 g2:m7 c2:9 f2:13 bf2:6
+  \chordOpenParen{ g2:m7 }
+  c4:9 \chordSlash 1 f4:sus9 
+  \chordCloseParen{ f4:7 }
 }
+
+refrainHLChords = \chordmode {
+  s4.
+  
+  bf2:maj7 df2:dim7 c2:m7 f2:13 d2:m7 df2:dim7 c2:m7 f2:7
+  bf4/f fs4:dim7 g4:m d4:7.13- g2:m7 c2:7 
+  g4:m7 g4:m7.5- c2:7 c4:m7/g af4/gf f2:7 
+  
+  bf2:maj7 df2:dim7 c2:m7 f2:13 d2:m7 df2:dim7 c2:m7 c4:m7.5-/f f4:7.9-
+  g1:m7 c1:7 d2:m7 g2:m7 c2:9
+  \chordInsideParens{ f2:7 }
+  
+  c1:7 d2:m7 g2:m7 c2:9 f4:sus7 f4:7  bf2:6
+  \chordOpenParen{ g2:m7 }
+  c4:9 \chordSlash 1 f4:sus9 
+  \chordCloseParen{ f4:7 }
+}
+
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "newreal" refrainSRBChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = bf
 
@@ -133,13 +169,19 @@ refrainMelody = \relative f' {
 
   a4 c8 a8~ a2 | g8 bf4 d8~ d2 | a8 a8 c8 c8 a8 a4. | g8 bf4 ef8~ ef4. d8 |
   \break
-  f4 d8 c8~ c8 bf8 d4 | a4 r4 d,8 f8 g8 bf8 | d4 cs8 d8~ d8 cs8 d4 | bf2
+  f4 d8 c8~ c8 bf8 d4 \textToCodaLastTimeOptional | a4 r4 d,8 f8 g8 bf8 | d4 cs8 d8~ d8 cs8 d4 | bf2
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize
   r8 f8 g8
   \endParenthesis \parenthesize gs8 |
   }
-  \bar ":|."
+  \bar "||-:|."
+
+  \textCodaBreak
+  
+  a2. r4 | d,4 f4 g4 bf4 | d4 cs8 d8~ d8 c8 d4 | bf1~ | bf2 r2 |
+  
+  \bar "|."
 }
 
 \include "../Include/verserefrain.ily"
