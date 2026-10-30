@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "singerGender": [ "male", "female" ] } }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:16:29.301688Z"
@@ -11,6 +17,34 @@ headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "Ray Noble"
 headerCopyright = "© 1938 The Peter Maurice Music Co. Ltd."
+
+refrainObjectGenderMaleLyrics = \lyricmode {
+Brave In -- dian war -- rior, since first I met you I can't for -- get you, Cher -- o -- kee sweet -- heart.
+
+Child of the prai -- rie, your love keeps call -- ing, my heart en -- thral -- ling, Cher -- o -- kee. __
+
+Dreams __ of sum -- mer -- time, __ of lov -- er time __ gone by __
+throng __ my mem -- o -- ry __ so ten -- der -- ly __ and sigh.
+
+My brave In -- dian war -- rior, one day I'll hold you. In my arms fold you Cher -- o -- kee. __
+}
+
+refrainObjectGenderFemaleLyrics = \lyricmode {
+Sweet In -- dian maid -- en, since first I met you I can't for -- get you, Cher -- o -- kee sweet -- heart.
+
+Child of the prai -- rie, your love keeps call -- ing, my heart en -- thral -- ling, Cher -- o -- kee. __
+
+Dreams __ of sum -- mer -- time, __ of lov -- er time __ gone by __
+throng __ my mem -- o -- ry __ so ten -- der -- ly __ and sigh.
+
+My sweet In -- dian maid -- en, one day I'll hold you. In my arms fold you Cher -- o -- kee. __
+}
+
+refrainLyrics =
+#(if (and (defined? 'singerGender)
+          (equal? singerGender "female"))
+  refrainObjectGenderMaleLyrics
+  refrainObjectGenderFemaleLyrics)
 
 refrainChords = \chordmode {
   bf1:maj7 bf2:maj7 f2:7.5+ f1:m7 bf1:7
@@ -47,25 +81,29 @@ refrainMelody = \relative f' {
   \time 4/4
   \key \refrainKey \major
   \clef \whatClef
-  \tempoFour "Fast [Clifford Brown 1953]" 320
+  \tempoFour "Medium (180 BPM) or Fast [Clifford Brown 1953]" 320
 
-  \xTextMark \markup{ \bold \box "A1" }
+  \sectNoBar "A1"
 
   d1 | f2 g2 | bf1 | g1 |
+  \break
   f1 | d2 f2 | d1 | c1 |
   \break
   bf1 | d2 f2 | d'1 | bf1 |
+  \break
   g1 | f2 d2 | c1 | cs1 |
 
   \sect "A2"
 
   d1 | f2 g2 | bf1 | g1 |
+  \break
   f1 | d2 f2 | d1 | c1 |
   \break
   bf1 | d2 f2 | d'1 | bf1 |
+  \break
   g1 | d1 | bf1~ | bf1 |
 
-  \sect "B"
+  \alwaysPageBreak "B" "||" "||-||"
 
   ds'1~ | ds2 cs2 | cs4 as4 fs2~ | fs2 cs'2 |
   \break
@@ -75,15 +113,14 @@ refrainMelody = \relative f' {
   \break
   a4 f4 d2~ | d2 g2 | c,1 | cs1 |
 
-  \bar "||"
-  \xxPageBreak
-
-  \sectNoBar "A3"
+  \sect "A3"
 
   d1 | f2 g2 | bf1 | g1 |
+  \break
   f1 | d2 f2 | d1 | c1 |
   \break
   bf1 | d2 f2 | d'1 | bf1 |
+  \break
   g1 | d1 | bf1~ | bf1 |
 
   \bar "|."
