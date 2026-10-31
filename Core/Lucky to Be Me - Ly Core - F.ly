@@ -17,7 +17,7 @@ headerTitle = "Lucky to Be Me"
 headerSubtitle = \subtitle
 headerPoet = "Adolph Green, Betty Comden"
 headerComposer = "Leonard Bernstein"
-headerCopyright = "© 1944 Warner Bros, Inc."
+headerCopyright = "© 1944 Warner Bros Inc."
 
 refrainMaleSingerLyrics = \lyricmode {
 What a day! For -- tune smiled and came my way,

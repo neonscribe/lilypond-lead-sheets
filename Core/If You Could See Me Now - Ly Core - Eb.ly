@@ -10,7 +10,7 @@ headerTitle = "If You Could See Me Now"
 headerSubtitle = \subtitle
 headerPoet = "Carl Sigman"
 headerComposer = "Tadd Dameron"
-headerCopyright = "© 1946 Warner Bros. Corporation"
+headerCopyright = "© 1946 Warner Bros Corporation"
 
 refrainLyrics = \lyricmode {
 If you could see me now you'd know how blue I've been.

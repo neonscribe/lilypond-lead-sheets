@@ -10,7 +10,7 @@ headerTitle = "Day In, Day Out"
 headerSubtitle = \subtitle
 headerPoet = "Johnny Mercer"
 headerComposer = "Rube Bloom"
-headerCopyright = "© 1939 Warner Bros, Inc."
+headerCopyright = "© 1939 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 Day in, __ day out, __ the same old hoo -- doo fol -- lows me a -- bout. __

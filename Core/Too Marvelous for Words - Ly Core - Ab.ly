@@ -10,7 +10,7 @@ headerTitle = "Too Marvelous for Words"
 headerSubtitle = \subtitle
 headerPoet = "Johnny Mercer"
 headerComposer = "Richard A. Whiting"
-headerCopyright = "© 1937 Warner Bros. Inc."
+headerCopyright = "© 1937 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 You're just too mar -- vel -- ous, too mar -- vel -- ous for words,

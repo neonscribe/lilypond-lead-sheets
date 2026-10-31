@@ -10,7 +10,7 @@ headerTitle = "You and the Night and the Music"
 headerSubtitle = \subtitle
 headerPoet = "Howard Dietz"
 headerComposer = "Arthur Schwartz"
-headerCopyright = "© 1934 Warner Bros. Inc."
+headerCopyright = "© 1934 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 You and the night and the mu -- sic fill me with flam -- ing de -- sire,

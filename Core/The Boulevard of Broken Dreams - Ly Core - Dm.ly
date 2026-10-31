@@ -10,7 +10,7 @@ headerTitle = "The Boulevard of Broken Dreams"
 headerSubtitle = \subtitle
 headerPoet = "Al Dubin"
 headerComposer = "Harry Warren"
-headerCopyright = "© 1934 Warner Bros. Inc."
+headerCopyright = "© 1934 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 I walk a -- long the street of sor -- row. __

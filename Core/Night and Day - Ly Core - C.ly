@@ -10,7 +10,7 @@ headerTitle = "Night and Day"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "Cole Porter"
-headerCopyright = "© 1932 Warner Bros. Inc."
+headerCopyright = "© 1932 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
   Night and day, __ you are the one.

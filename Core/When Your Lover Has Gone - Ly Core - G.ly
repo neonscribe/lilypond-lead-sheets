@@ -10,7 +10,7 @@ headerTitle = "When Your Lover Has Gone"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "E.A. Swan"
-headerCopyright = "© 1931 Warner Bros. Inc."
+headerCopyright = "© 1931 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 When you're a -- lone who cares for star -- lit skies?

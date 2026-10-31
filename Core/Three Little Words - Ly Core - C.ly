@@ -10,7 +10,7 @@ headerTitle = "Three Little Words"
 headerSubtitle = \subtitle
 headerPoet = "Bert Kalmar"
 headerComposer = "Harry Ruby"
-headerCopyright = "© 1930 Warner Bros. Inc."
+headerCopyright = "© 1930 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 Three lit -- tle words, __ oh, what I'd give for that won -- der -- ful phrase, __

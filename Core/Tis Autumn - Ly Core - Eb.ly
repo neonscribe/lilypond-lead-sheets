@@ -10,7 +10,7 @@ headerTitle = "'Tis Autumn"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "Henry Nemo"
-headerCopyright = "© 1941 Warner Bros. Inc."
+headerCopyright = "© 1941 Warner Bros Inc."
 
 verseLyrics = \lyricmode {
   You tell me I'm act -- ing sil -- ly,

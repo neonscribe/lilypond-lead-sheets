@@ -10,7 +10,7 @@ headerTitle = "You Turned the Tables on Me"
 headerSubtitle = \subtitle
 headerPoet = "Sidney D. Mitchell"
 headerComposer = "Louis Alter"
-headerCopyright = "© 1936 Warner Bros, Inc."
+headerCopyright = "© 1936 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 You turned the ta -- bles on me __

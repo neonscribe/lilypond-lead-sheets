@@ -10,7 +10,7 @@ headerTitle = "Fools Rush In (Where Angels Fear to Tread)"
 headerSubtitle = \subtitle
 headerPoet = "Johnny Mercer"
 headerComposer = "Rube Bloom"
-headerCopyright = "© 1940 Warner Bros, Inc."
+headerCopyright = "© 1940 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 Fools rush in where an -- gels fear to tread, and so I come to you, my love, my heart a -- bove my head.

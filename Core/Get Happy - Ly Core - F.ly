@@ -10,7 +10,7 @@ headerTitle = "Get Happy"
 headerSubtitle = \subtitle
 headerPoet = "Ted Koehler"
 headerComposer = "Harold Arlen"
-headerCopyright = "© 1929 Warner Bros. Inc."
+headerCopyright = "© 1929 Warner Bros Inc."
 
 refrainLeadingEighth = ##t
 

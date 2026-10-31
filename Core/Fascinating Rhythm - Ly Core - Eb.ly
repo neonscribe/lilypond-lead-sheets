@@ -10,7 +10,7 @@ headerTitle = "Fascinating Rhythm"
 headerSubtitle = \subtitle
 headerPoet = "Ira Gershwin"
 headerComposer = "George Gershwin"
-headerCopyright = "© 1924 Warner Bros., Inc."
+headerCopyright = "© 1924 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 Fas -- ci -- nat -- ing rhy -- thm, you've got me on the go.

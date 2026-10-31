@@ -16,7 +16,7 @@ headerTitle = "Sweet Georgia Brown"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "Ben Bernie, Maceo Pinkard, Kenneth Casey"
-headerCopyright = "© 1925 Warner Bros., Inc."
+headerCopyright = "© 1925 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
   No gal made has got a shade on Sweet Geor -- gia Brown. __

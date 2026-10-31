@@ -10,7 +10,7 @@ headerTitle = "This Time the Dream's on Me"
 headerSubtitle = \subtitle
 headerPoet = "Johnny Mercer"
 headerComposer = "Harold Arlen"
-headerCopyright = "© 1941 Warner Bros. Inc."
+headerCopyright = "© 1941 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 Some -- where, some -- day __ we'll be close to -- geth -- er, wait and see. __

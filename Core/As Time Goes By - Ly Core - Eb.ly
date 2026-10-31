@@ -10,7 +10,7 @@ headerTitle = "As Time Goes By"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "Herman Hupfeld"
-headerCopyright = "© 1931 Warner Bros. Inc."
+headerCopyright = "© 1931 Warner Bros Inc."
 
 refrainLeadingEighth = ##t
 

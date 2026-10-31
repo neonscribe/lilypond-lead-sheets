@@ -16,7 +16,7 @@ headerTitle = "Don't Fence Me In"
 headerSubtitle = \subtitle
 headerPoet = "Bob Fletcher"
 headerComposer = "Cole Porter"
-headerCopyright = "© 1944 Warner Bros, Inc."
+headerCopyright = "© 1944 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 Wild Cat Kel -- ley, look -- ing might -- y pale,

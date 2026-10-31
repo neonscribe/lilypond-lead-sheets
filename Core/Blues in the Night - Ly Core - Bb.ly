@@ -16,7 +16,7 @@ headerTitle = "Blues in the Night"
 headerSubtitle = \subtitle
 headerPoet = "Johnny Mercer"
 headerComposer = "Harold Arlen"
-headerCopyright = "© 1941 Warner Bros. Inc."
+headerCopyright = "© 1941 Warner Bros Inc."
 
 refrainLeadingEighth = ##t
 

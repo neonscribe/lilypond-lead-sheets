@@ -10,7 +10,7 @@ headerTitle = "It's You or No One"
 headerSubtitle = \subtitle
 headerPoet = "Sammy Cahn"
 headerComposer = "Jule Styne"
-headerCopyright = "© 1948 Warner Bros, Inc."
+headerCopyright = "© 1948 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 It's you or no one for me. __ I'm sure of this, __ each time we kiss. __

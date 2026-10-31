@@ -10,7 +10,7 @@ headerTitle = "Some Other Time"
 headerSubtitle = \subtitle
 headerPoet = "Betty Comden & Adolph Green"
 headerComposer = "Leonard Bernstein"
-headerCopyright = "© 1945 Warner Bros. Inc."
+headerCopyright = "© 1945 Warner Bros Inc."
 
 refrainLyrics = \lyricmode {
 Where has the time all gone to?
