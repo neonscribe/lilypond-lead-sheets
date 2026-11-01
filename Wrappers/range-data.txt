@@ -4276,6 +4276,11 @@ refrain
 g'
 c'''
 
+Cherokee - Ly - F Alto Voice.ly
+refrain
+f
+ais'
+
 Chicago - Ly - Ab Alto Voice.ly
 refrain
 f
@@ -7271,6 +7276,36 @@ cis
 refrain
 e'
 gis''
+
+Fine and Dandy - Ly - Bb Alto Voice.ly
+refrain
+f
+g'
+
+Fine and Dandy - Ly - C Alto Voice.ly
+refrain
+g
+a'
+
+Fine and Dandy - Ly - F Bass for Standard.ly
+refrain
+c
+d'
+
+Fine and Dandy - Ly - F Standard.ly
+refrain
+c'
+d''
+
+Fine and Dandy - Ly - F to D for Eb for Standard.ly
+refrain
+a'
+b''
+
+Fine and Dandy - Ly - F to G for Bb for Standard.ly
+refrain
+d'
+e''
 
 Five Spot After Dark - Ly - Bm Bass for Standard.ly
 refrain
@@ -22878,8 +22913,8 @@ a''
 
 The Long Black Veil - Ly - D Alto Voice.ly
 refrain
-a'
-b''
+a
+b'
 
 The Long Black Veil - Ly - D Bass for Standard.ly
 refrain
@@ -26428,6 +26463,41 @@ e'''
 refrain
 e'
 fis''
+
+You Can Depend on Me - Ly - Bb Alto Voice.ly
+refrain
+f
+f'
+
+You Can Depend on Me - Ly - Db Alto Voice.ly
+refrain
+aes
+aes'
+
+You Can Depend on Me - Ly - Eb Alto Voice.ly
+refrain
+bes
+bes'
+
+You Can Depend on Me - Ly - F Bass for Standard.ly
+refrain
+c
+c'
+
+You Can Depend on Me - Ly - F Standard.ly
+refrain
+c'
+c''
+
+You Can Depend on Me - Ly - F to D for Eb for Standard.ly
+refrain
+a'
+a''
+
+You Can Depend on Me - Ly - F to G for Bb for Standard.ly
+refrain
+d'
+d''
 
 You Do Something to Me - Ly - Ab Alto Voice.ly
 refrain

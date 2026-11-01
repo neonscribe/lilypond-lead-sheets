@@ -325,10 +325,17 @@
         ]
     }
 },{
+    "toggles": [
+        "noIntro"
+    ],
     "choices": {
         "singerGender": [
             "male",
             "female"
+        ],
+        "alternateChords": [
+            "hlrb",
+            "newreal"
         ]
     }
 },{
@@ -562,6 +569,13 @@
     "toggles": [
         "noIntro"
     ]
+},{
+    "choices": {
+        "singerGender": [
+            "male",
+            "female"
+        ]
+    }
 },{
     "choices": {
         "singerGender": [

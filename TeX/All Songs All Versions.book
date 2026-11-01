@@ -2334,6 +2334,9 @@ Cherokee - Bb Bass
 Cherokee - Bb to C
 ../Wrappers/Cherokee - Ly - Bb to C for Bb for Standard.ly
 
+Cherokee - F
+../Wrappers/Cherokee - Ly - F Alto Voice.ly
+
 Cherokee - Bb to G
 ../Wrappers/Cherokee - Ly - Bb to G for Eb for Standard.ly
 
@@ -4226,6 +4229,24 @@ Fever - Am
 
 Fever - Am to Bm
 ../Wrappers/Fever - Ly - Am to Bm for Bb for Standard.ly
+
+Fine and Dandy - Bb
+../Wrappers/Fine and Dandy - Ly - Bb Alto Voice.ly
+
+Fine and Dandy - F Bass
+../Wrappers/Fine and Dandy - Ly - F Bass for Standard.ly
+
+Fine and Dandy - C
+../Wrappers/Fine and Dandy - Ly - C Alto Voice.ly
+
+Fine and Dandy - F to D
+../Wrappers/Fine and Dandy - Ly - F to D for Eb for Standard.ly
+
+Fine and Dandy - F
+../Wrappers/Fine and Dandy - Ly - F Standard.ly
+
+Fine and Dandy - F to G
+../Wrappers/Fine and Dandy - Ly - F to G for Bb for Standard.ly
 
 A Fine Romance - C to A
 ../Wrappers/A Fine Romance - Ly - C to A for Eb for Standard.ly
@@ -15221,6 +15242,27 @@ You Broke My Heart in Little Bitty Pieces - G to E
 
 You Broke My Heart in Little Bitty Pieces - G
 ../Wrappers/You Broke My Heart in Little Bitty Pieces - Ly - G Standard.ly
+
+You Can Depend on Me - Bb
+../Wrappers/You Can Depend on Me - Ly - Bb Alto Voice.ly
+
+You Can Depend on Me - F Bass
+../Wrappers/You Can Depend on Me - Ly - F Bass for Standard.ly
+
+You Can Depend on Me - Db
+../Wrappers/You Can Depend on Me - Ly - Db Alto Voice.ly
+
+You Can Depend on Me - F to D
+../Wrappers/You Can Depend on Me - Ly - F to D for Eb for Standard.ly
+
+You Can Depend on Me - Eb
+../Wrappers/You Can Depend on Me - Ly - Eb Alto Voice.ly
+
+You Can Depend on Me - F
+../Wrappers/You Can Depend on Me - Ly - F Standard.ly
+
+You Can Depend on Me - F to G
+../Wrappers/You Can Depend on Me - Ly - F to G for Bb for Standard.ly
 
 You'd Be So Nice to Come Home To - Dm Bass
 ../Wrappers/You'd Be So Nice to Come Home To - Ly - Dm Bass for Alto Voice No Verse.ly
