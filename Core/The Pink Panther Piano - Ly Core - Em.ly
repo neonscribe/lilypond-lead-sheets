@@ -63,14 +63,13 @@ refrainRightHand = \relative f' {
   \tuplet 3/2 { g8-> e8 d8 } e8 e8~-> e2~ | e2 r2 |
   \tuplet 3/2 { g8-> e8 d8 } e8 e8~-> e2~ | e2 r4 r8. ds16 \dalSegno |
   
-  \bar "|o"
-  \xxPageBreak
-
   \textCodaBreak
   
   \tuplet 3/2 { g8-> e8 d8 } e8 e8~-> e2~ | e2 r2 |
   \tuplet 3/2 { g8-> e8 d8 } e8 e8~-> e2~ | e2 r2 |
-  \tuplet 3/2 { g8-> e8 d8 } e8 e8~-> e2 | r2 r4 <b d fs a>4\fermata |
+  \tuplet 3/2 { g8-> e8 d8 } e8 e8~-> e2 | r2 r4
+  \clef "treble"
+  <g' b ds fs>4\fermata |
   
 
   \bar "|."
