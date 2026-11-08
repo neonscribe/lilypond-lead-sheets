@@ -6,11 +6,15 @@
 # only asset. The MusicForge app reads the latest release of this repo through
 # the public GitHub API, compares its ordinal (the number in the tag) with the
 # release the user last imported, and offers the download on sign-in and from
-# Settings > Library updates. Nothing in this repo is modified; the release is
-# the only output.
+# Settings > Library updates. The zip is also copied to the MusicForge bucket
+# (s3://musicforge-pdfs/bundles/<tag>.musicforge.zip) so the app imports it in
+# one tap. The copy runs after the release, so a failed copy leaves the release
+# up and the app falls back to the file picker. Nothing in this repo is
+# modified.
 #
 # Secrets used: MUSICFORGE_REPO_TOKEN (already present for update-catalog.yml),
 # to check out the private musicforge repo that holds the builder.
+# No AWS secrets needed - uses OIDC, same role as update-catalog.yml.
 
 name: Publish MusicForge Bundle
 
@@ -24,6 +28,7 @@ on:
   workflow_dispatch: # Allow manual trigger
 
 permissions:
+  id-token: write # OIDC to AWS for the S3 copy
   contents: write # create the release and upload the zip
 
 # One release at a time: two pushes in quick succession publish in order, and
@@ -90,3 +95,16 @@ jobs:
           COUNT=$(python3 -c "import json,zipfile,sys; print(len(json.loads(zipfile.ZipFile(sys.argv[1]).read('manifest.json'))['charts']))" "neonscribe-$TAG.musicforge.zip")
           gh release create "$TAG" "neonscribe-$TAG.musicforge.zip" --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" --title "MusicForge bundle $ORDINAL" --notes "$COUNT charts from $GITHUB_SHA. Import this zip in MusicForge (Setlists > Import, or accept the update offer on sign-in)."
           echo "Published $TAG"
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v6
+        with:
+          role-to-assume: arn:aws:iam::218141621131:role/musicforge-catalog-updater
+          aws-region: us-east-1
+
+      - name: Copy the zip to S3
+        # After the release, on purpose: a failed copy leaves the release up and
+        # the app falls back to the file picker.
+        run: |
+          aws s3 cp "neonscribe-$TAG.musicforge.zip" "s3://musicforge-pdfs/bundles/$TAG.musicforge.zip" --content-type application/zip
+          echo "Copied $TAG to S3"
