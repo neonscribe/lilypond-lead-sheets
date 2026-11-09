@@ -206,6 +206,15 @@ sectSegnoSegno =
   \musicglyph #"scripts.segno"
   \bold \box #s } #} )
 
+sectNoBarNoBreakSegnoSegno =
+#(define-music-function (s)
+   (string?)
+  #{ \xTextMark \markup{ 
+  \musicglyph #"scripts.segno"
+  \hspace #0.125
+  \musicglyph #"scripts.segno"
+  \bold \box #s } #} )
+
 sectGap =
 #(define-music-function (s)
    (markup?)

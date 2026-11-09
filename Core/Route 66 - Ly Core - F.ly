@@ -53,6 +53,8 @@ introMelody = \relative f' {
   \clef "treble"
   \tempoFour "Medium [Nat King Cole 1946]" 146
 
+  \ambitusOff
+
   \sectNoBarNoBreak "Intro"
 
   \partial 4. g8 \acciaccatura gs8 \tuplet 3/2 { b8 d8 e8 } |
@@ -73,11 +75,11 @@ introMelody = \relative f' {
   \partial 2. <bf e, b>8 g8 a8 <bf gf ef>8~ <bf gf ef>8 e,8
 
   \bar "||"
-  
-  \xPageBreak
+
+  \ambitusOn
 }
 
-refrainNatKingColeChords = \chordmode {
+refrainChords = \chordmode {
   s4
   f1:6 bf1:7 f1:6 f1:7
   bf1:7 bf1:7 f1:6 d1:7.9+
@@ -97,33 +99,9 @@ refrainNatKingColeChords = \chordmode {
   \chordOpenParen{ af2:7 }
   g2:m7
   \chordCloseParen{ c2:7 }
+
+  r8*11 f8*5:1.5
 }
-
-refrainNatalieColeChords = \chordmode {
-  s4
-  f1:6 bf1:7 f1:6 f1:7
-  bf1:7 bf1:7 f1:6 a2:m7 d2:7
-  g1:m7 c1:7
-
-  f2:6 d2:7 g2:m7 c2:7
-
-  f2:6 d2:7 g2:m7 c2:7
-
-  f4:7 r2. bf4:7 r2. f4:7 r4*7
-  bf1:7 bf1:7 f1:6 a2:m7 d2:7
-  g1:m7 c1:7 f2:7 d2:7 g2:m7 c2:7
-
-  f1:6 bf1:7 f1:6 f1:7
-  bf1:7 bf1:7 f1:6 a2:m7 d2:7
-  g1:m7 c1:7 f2:6
-  \chordOpenParen{ d2:7 }
-  g2:m7
-  \chordCloseParen{ c2:7 }
-
-  r8*11 g8*5:1.5
-}
-
-refrainChords = \refrainNatalieColeChords
 
 refrainKey = f
 
