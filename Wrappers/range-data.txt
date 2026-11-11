@@ -10397,6 +10397,46 @@ refrain
 e
 a'
 
+I Walk the Line - Ly - A Bass for Standard.ly
+refrain
+e,
+cis'
+
+I Walk the Line - Ly - A Standard.ly
+refrain
+e
+cis''
+
+I Walk the Line - Ly - A to B for Bb High for Standard.ly
+refrain
+fis'
+dis'''
+
+I Walk the Line - Ly - A to B for Bb Low for Standard.ly
+refrain
+fis
+dis''
+
+I Walk the Line - Ly - A to Fs for Eb for Standard.ly
+refrain
+cis'
+ais''
+
+I Walk the Line - Ly - Bb Baritone Voice.ly
+refrain
+f
+d''
+
+I Walk the Line - Ly - D Alto Voice.ly
+refrain
+a,
+fis'
+
+I Walk the Line - Ly - D Baritone Voice.ly
+refrain
+a
+fis''
+
 I Want to Be Happy - Ly - Ab Alto Voice.ly
 refrain
 bes
@@ -18863,40 +18903,35 @@ aes''
 
 Route 66 - Ly - A Baritone Voice.ly
 intro
-cis
-d''
+none
 refrain
 e
 g'
 
 Route 66 - Ly - Bb Alto Voice.ly
 intro
-d
-ees''
+none
 refrain
 f
 aes'
 
 Route 66 - Ly - Bb Baritone Voice.ly
 intro
-d
-ees''
+none
 refrain
 f
 aes'
 
 Route 66 - Ly - C Alto Voice.ly
 intro
-e
-f''
+none
 refrain
 g
 bes'
 
 Route 66 - Ly - C Bass for Alto Voice.ly
 intro
-e,
-f'
+none
 refrain
 g,
 bes
@@ -18905,32 +18940,28 @@ Route 66 - Ly - C Guitar Solo for Standard.ly
 
 Route 66 - Ly - D Baritone Voice.ly
 intro
-fis,
-g'
+none
 refrain
 a,
 c'
 
 Route 66 - Ly - E Alto Voice.ly
 intro
-gis
-a''
+none
 refrain
 b
 d''
 
 Route 66 - Ly - Eb Alto Voice.ly
 intro
-g
-aes''
+none
 refrain
 bes
 des''
 
 Route 66 - Ly - F Bass for Standard.ly
 intro
-a,
-bes'
+none
 refrain
 c
 ees'
@@ -18939,32 +18970,28 @@ Route 66 - Ly - F Guitar Solo for Standard.ly
 
 Route 66 - Ly - F Standard.ly
 intro
-a
-bes''
+none
 refrain
 c'
 ees''
 
 Route 66 - Ly - F to D for Eb for Standard.ly
 intro
-fis'
-g'''
+none
 refrain
 a'
 c'''
 
 Route 66 - Ly - F to G for Bb for Standard.ly
 intro
-b
-c'''
+none
 refrain
 d'
 f''
 
 Route 66 - Ly - G Baritone Voice.ly
 intro
-b,
-c''
+none
 refrain
 d
 f'
@@ -23253,8 +23280,8 @@ fis''
 
 The Pink Panther Piano - Ly - Em Standard.ly
 piano-grand-staff right hand
-b,
-e'
+c
+fis''
 piano-grand-staff left hand
 e,,
 e'
@@ -26058,6 +26085,41 @@ c'
 refrain
 d'
 e''
+
+Will You Still Be Mine - Ly - Bb Baritone Voice.ly
+refrain
+d'
+f''
+
+Will You Still Be Mine - Ly - Eb Bass for Standard.ly
+refrain
+g,
+bes
+
+Will You Still Be Mine - Ly - Eb Standard.ly
+refrain
+g'
+bes''
+
+Will You Still Be Mine - Ly - Eb to C for Eb for Standard.ly
+refrain
+e'
+g''
+
+Will You Still Be Mine - Ly - Eb to F for Bb High for Standard.ly
+refrain
+a'
+c'''
+
+Will You Still Be Mine - Ly - Eb to F for Bb Low for Standard.ly
+refrain
+a
+c''
+
+Will You Still Be Mine - Ly - F Alto Voice.ly
+refrain
+a
+c''
 
 Willow Weep for Me - Ly - Ab Alto Voice.ly
 refrain

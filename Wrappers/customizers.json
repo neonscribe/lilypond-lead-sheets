@@ -813,6 +813,13 @@
     }
 },{
     "choices": {
+        "alternateChords": [
+            "hlrb",
+            "newreal"
+        ]
+    }
+},{
+    "choices": {
         "singerGender": [
             "male",
             "female"
