@@ -6,11 +6,12 @@
 # only asset. The MusicForge app reads the latest release of this repo through
 # the public GitHub API, compares its ordinal (the number in the tag) with the
 # release the user last imported, and offers the download on sign-in and from
-# Settings > Library updates. The zip is also copied to the MusicForge bucket
-# (s3://musicforge-pdfs/bundles/<tag>.musicforge.zip) so the app imports it in
-# one tap. The copy runs after the release, so a failed copy leaves the release
-# up and the app falls back to the file picker. Nothing in this repo is
-# modified.
+# Settings > Library updates. The zip is also copied to two MusicForge buckets
+# so the app imports it in one tap: the public bucket the app reads
+# (s3://musicforge-bundles/<tag>.musicforge.zip) and, until the app's older
+# signed route is retired, s3://musicforge-pdfs/bundles/<tag>.musicforge.zip.
+# The copies run after the release, so a failed copy leaves the release up and
+# the app falls back to the file picker. Nothing in this repo is modified.
 #
 # Secrets used: MUSICFORGE_REPO_TOKEN (already present for update-catalog.yml),
 # to check out the private musicforge repo that holds the builder.
@@ -104,7 +105,11 @@ jobs:
 
       - name: Copy the zip to S3
         # After the release, on purpose: a failed copy leaves the release up and
-        # the app falls back to the file picker.
+        # the app falls back to the file picker. The older copy runs first, so a
+        # failure of the public-bucket copy still leaves the signed route with
+        # its zip. A tag's bytes never change, hence the year-long cache header.
         run: |
           aws s3 cp "neonscribe-$TAG.musicforge.zip" "s3://musicforge-pdfs/bundles/$TAG.musicforge.zip" --content-type application/zip
-          echo "Copied $TAG to S3"
+          echo "Copied $TAG to musicforge-pdfs"
+          aws s3 cp "neonscribe-$TAG.musicforge.zip" "s3://musicforge-bundles/$TAG.musicforge.zip" --content-type application/zip --cache-control "public, max-age=31536000, immutable"
+          echo "Copied $TAG to musicforge-bundles"
