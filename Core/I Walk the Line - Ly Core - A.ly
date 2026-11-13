@@ -4,7 +4,7 @@ songID = "2026-11-07T00:35:08.37043Z"
 
 \include "../Include/lead-sheets.ily"
 
-headerTitle = "I Walk the Line"
+headerTitle = "I Walk the Line (Tennessee Two 1956 Arrangement)"
 headerSubtitle = \subtitle
 headerPoet = ""
 headerComposer = "John R. Cash"

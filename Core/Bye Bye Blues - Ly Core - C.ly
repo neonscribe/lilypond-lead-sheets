@@ -19,9 +19,6 @@ Just we two. __ Smil -- ing thru. __ Don't sigh, don't cry,
 Bye bye blues. __
 }
 
-refrainLyricsTwo = \lyricmode {
-}
-
 refrainAGJChords = \chordmode {
   %% Anthologie des Grilles de Jazz
 
@@ -88,7 +85,23 @@ refrainUGChords = \chordmode {
   c1 f1:m7 c1:6 c1:6
 }
 
-refrainChords = \refrainUGChords
+refrainAotJSChords = \chordmode {
+  %% All of the Jazz Standards, Vol. 1
+
+  c1 c1 af1:7 af1:7
+  c1 c1 a1:7 a1:7
+
+  d1:7 d1:7 g1:7 g1:7
+  c1 ef1:dim7 d2:m7 g2:7 d2:m7 g2:7
+
+  c1 c1 af1:7 af1:7
+  c1 c1 a1:7 a1:7
+
+  d1:7 d1:7 g1:7 g1:7
+  c1 af1:7 c1 c1
+}
+
+refrainChords = \refrainAotJSChords
 
 refrainKey = c
 
