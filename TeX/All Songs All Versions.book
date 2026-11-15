@@ -2235,6 +2235,9 @@ C'est Si Bon - Eb
 C'est Si Bon - Eb
 ../Wrappers/C'est Si Bon - Ly - Eb Alto Voice.ly
 
+C'est Si Bon - G
+../Wrappers/C'est Si Bon - Ly - G Standard.ly
+
 C'est Si Bon - Bb to G
 ../Wrappers/C'est Si Bon - Ly - Bb to G for Eb for Standard English.ly
 
@@ -3245,6 +3248,9 @@ Devil May Care - Gm to Em
 
 Devil May Care - Gm
 ../Wrappers/Devil May Care - Ly - Gm Standard.ly
+
+Dinah - Ab
+../Wrappers/Dinah - Ly - Ab Standard.ly
 
 Dinah - G to A
 ../Wrappers/Dinah - Ly - G to A for Bb for Standard.ly
@@ -5814,6 +5820,9 @@ If I Had You - Bb Bass
 If I Had You - Bb to C
 ../Wrappers/If I Had You - Ly - Bb to C for Bb for Standard.ly
 
+If I Had You - C
+../Wrappers/If I Had You - Ly - C Standard.ly
+
 If I Had You - Db
 ../Wrappers/If I Had You - Ly - Db Alto Voice.ly
 
@@ -7550,6 +7559,27 @@ I Walk the Line - D
 
 I Walk the Line - A to Fs
 ../Wrappers/I Walk the Line - Ly - A to Fs for Eb for Standard.ly
+
+I Walk the Line Vanilla - A
+../Wrappers/I Walk the Line Vanilla - Ly - A Standard.ly
+
+I Walk the Line Vanilla - Bb
+../Wrappers/I Walk the Line Vanilla - Ly - Bb Baritone Voice.ly
+
+I Walk the Line Vanilla - A Bass
+../Wrappers/I Walk the Line Vanilla - Ly - A Bass for Standard.ly
+
+I Walk the Line Vanilla - A to B
+../Wrappers/I Walk the Line Vanilla - Ly - A to B for Bb for Standard.ly
+
+I Walk the Line Vanilla - D
+../Wrappers/I Walk the Line Vanilla - Ly - D Alto Voice.ly
+
+I Walk the Line Vanilla - D
+../Wrappers/I Walk the Line Vanilla - Ly - D Baritone Voice.ly
+
+I Walk the Line Vanilla - A to Fs
+../Wrappers/I Walk the Line Vanilla - Ly - A to Fs for Eb for Standard.ly
 
 I Want to Be Happy - Ab
 ../Wrappers/I Want to Be Happy - Ly - Ab Alto Voice.ly
@@ -12286,6 +12316,9 @@ Someday My Prince Will Come - Bb to G
 ../Wrappers/Someday My Prince Will Come - Ly - Bb to G for Eb for Standard.ly
 
 Someone to Light Up My Life - Bb
+../Wrappers/Someone to Light Up My Life - Ly - Bb Baritone Voice.ly
+
+Someone to Light Up My Life - Bb
 ../Wrappers/Someone to Light Up My Life - Ly - Bb Standard.ly
 
 Someone to Light Up My Life - Bb Bass
@@ -12440,6 +12473,9 @@ So Nice - Bb
 
 So Nice - F Bass
 ../Wrappers/So Nice - Ly - F Bass for Standard.ly
+
+So Nice - Db
+../Wrappers/So Nice - Ly - Db Alto Voice.ly
 
 So Nice - F to D
 ../Wrappers/So Nice - Ly - F to D for Eb for Standard.ly
@@ -14066,6 +14102,9 @@ Travlin Light - F to G
 
 Triste - G to A
 ../Wrappers/Triste - Ly - G to A for Bb High for Alto Voice.ly
+
+Triste - A
+../Wrappers/Triste - Ly - A Baritone Voice.ly
 
 Triste - G to A
 ../Wrappers/Triste - Ly - G to A for Bb Low for Alto Voice.ly

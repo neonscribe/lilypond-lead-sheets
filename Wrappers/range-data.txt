@@ -3731,6 +3731,11 @@ refrain
 ges
 bes'
 
+C'est Si Bon - Ly - G Standard.ly
+refrain
+bes'
+d'''
+
 California Stars - Ly - A Bass for Standard.ly
 refrain
 fis,
@@ -5701,6 +5706,11 @@ Devil May Care - Ly - Gm to Em for Eb for Standard.ly
 refrain
 b
 d''
+
+Dinah - Ly - Ab Standard.ly
+refrain
+ees'
+ees''
 
 Dinah - Ly - D Alto Voice.ly
 refrain
@@ -10437,6 +10447,41 @@ refrain
 a
 fis''
 
+I Walk the Line Vanilla - Ly - A Bass for Standard.ly
+refrain
+e,
+fis
+
+I Walk the Line Vanilla - Ly - A Standard.ly
+refrain
+e'
+fis''
+
+I Walk the Line Vanilla - Ly - A to B for Bb for Standard.ly
+refrain
+fis'
+gis''
+
+I Walk the Line Vanilla - Ly - A to Fs for Eb for Standard.ly
+refrain
+cis'
+dis''
+
+I Walk the Line Vanilla - Ly - Bb Baritone Voice.ly
+refrain
+f
+g'
+
+I Walk the Line Vanilla - Ly - D Alto Voice.ly
+refrain
+a
+b'
+
+I Walk the Line Vanilla - Ly - D Baritone Voice.ly
+refrain
+a
+b'
+
 I Want to Be Happy - Ly - Ab Alto Voice.ly
 refrain
 bes
@@ -11555,6 +11600,11 @@ If I Had You - Ly - Bb to G for Eb for Standard.ly
 refrain
 b
 cis''
+
+If I Had You - Ly - C Standard.ly
+refrain
+e'
+fis''
 
 If I Had You - Ly - Db Alto Voice.ly
 refrain
@@ -20133,6 +20183,11 @@ refrain
 cis
 aes'
 
+So Nice - Ly - Db Alto Voice.ly
+refrain
+e
+b'
+
 So Nice - Ly - F Bass for Standard.ly
 refrain
 gis,
@@ -20347,6 +20402,11 @@ Someday My Prince Will Come - Ly - Bb to G for Eb for Standard.ly
 refrain
 d'
 a''
+
+Someone to Light Up My Life - Ly - Bb Baritone Voice.ly
+refrain
+a
+c''
 
 Someone to Light Up My Life - Ly - Bb Bass for Standard.ly
 refrain
@@ -24587,6 +24647,11 @@ Travlin Light - Ly - F to G for Bb for Standard.ly
 refrain
 d'
 g''
+
+Triste - Ly - A Baritone Voice.ly
+refrain
+gis
+c''
 
 Triste - Ly - Bb Bass for Standard.ly
 refrain

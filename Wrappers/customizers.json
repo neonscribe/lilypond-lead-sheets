@@ -70,6 +70,13 @@
     }
 },{
     "choices": {
+        "lyricsLanguage": [
+            "portuguese",
+            "english"
+        ]
+    }
+},{
+    "choices": {
         "singerGender": [
             "male",
             "female"
@@ -91,6 +98,13 @@
         "alternateChords": [
             "dfb",
             "djam"
+        ]
+    }
+},{
+    "choices": {
+        "lyricsLanguage": [
+            "portuguese",
+            "english"
         ]
     }
 },{
@@ -225,6 +239,10 @@
         "lyricsLanguage": [
             "french",
             "english"
+        ],
+        "alternateChords": [
+            "hlrb",
+            "dfb"
         ]
     }
 },{
@@ -241,6 +259,13 @@
             "simple",
             "newreal",
             "dfb"
+        ]
+    }
+},{
+    "choices": {
+        "lyricsLanguage": [
+            "portuguese",
+            "english"
         ]
     }
 },{
@@ -312,6 +337,10 @@
     }
 },{
     "choices": {
+        "lyricsLanguage": [
+            "spanish",
+            "english"
+        ],
         "alternateChords": [
             "hlrb",
             "simple"
@@ -716,6 +745,13 @@
     ]
 },{
     "choices": {
+        "lyricsLanguage": [
+            "portuguese",
+            "english"
+        ]
+    }
+},{
+    "choices": {
         "singerGender": [
             "male",
             "female"
@@ -738,6 +774,13 @@
             "newreal",
             "monk",
             "hein"
+        ]
+    }
+},{
+    "choices": {
+        "lyricsLanguage": [
+            "portuguese",
+            "english"
         ]
     }
 },{
@@ -774,6 +817,13 @@
         "alternateChords": [
             "hlrb",
             "dfb"
+        ]
+    }
+},{
+    "choices": {
+        "lyricsLanguage": [
+            "portuguese",
+            "english"
         ]
     }
 },{
