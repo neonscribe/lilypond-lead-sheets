@@ -97,6 +97,24 @@ jobs:
           cd musicforge
           python tools/export_lyric_corpus.py --db catalog.db --out build/song-corpus.json --min-songs 100
 
+      - name: Stage the device library (Cores and Include set by hash)
+        # Every Core and the Include set under names made from their hashes,
+        # for devices that draw charts themselves. The tool refuses (exit 2)
+        # when a Core's bytes do not match its catalog row.
+        run: |
+          cd musicforge
+          python tools/stage_device_library.py --db catalog.db --repo lilypond-data --out build/device-library
+
+      - name: Copy the device library to S3
+        # Before catalog.db goes to S3: the backend reads it from there when a
+        # machine starts, and a row's hash must never name a file that is not
+        # in the bucket yet. The role can put but not list, so every file is
+        # copied each run; a file named by its hash never changes.
+        run: |
+          aws s3 cp --recursive musicforge/build/device-library/ly/ s3://musicforge-bundles/ --content-type "text/plain; charset=utf-8" --cache-control "public, max-age=31536000, immutable" --only-show-errors
+          aws s3 cp --recursive musicforge/build/device-library/zip/ s3://musicforge-bundles/ --content-type application/zip --cache-control "public, max-age=31536000, immutable" --only-show-errors
+          echo "Device library copied"
+
       - name: Upload the chart id map
         # Before catalog.db, on purpose: if the catalog upload then fails, S3
         # holds a map with a few extra append-only ids no catalog serves yet
