@@ -18,6 +18,8 @@ headerPoet = ""
 headerComposer = "Sidney Bechet"
 headerCopyright = "© 1952 Chappell & Co."
 
+lyricsLanguage = "french"
+
 refrainLyricsPetula = \lyricmode {
 _ _ _
 J'ai ca -- ché mieux que par -- tout ail -- leurs

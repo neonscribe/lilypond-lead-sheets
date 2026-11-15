@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "lyricsLanguage": [ "portuguese", "english" ] } }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:16:50.990562Z"
@@ -14,7 +20,11 @@ headerCopyright = "© 1958 Antônio Carlos Jobim and Vinícius de Moraes"
 
 bossaRhythm = ##t
 
-refrainEnglishLyrics = \lyricmode {
+lyricsLanguage = #(if (and (defined? 'lyricsLanguage) lyricsLanguage)
+		   lyricsLanguage
+		   "portuguese")
+
+refrainLyricsEnglish = \lyricmode {
 Go on your way with the cloud -- less blue sky a -- bove
 May all your days be a won -- der -- ful song of love
 O -- pen your arms _ and sing of all the hid -- den hopes you've ev -- er trea -- sured
@@ -33,7 +43,7 @@ Search -- ing for some -- thing un -- known
 Search -- ing for some -- thing or some -- one to light up my life
 }
 
-refrainPortugueseLyrics = \lyricmode {
+refrainLyricsPortuguese = \lyricmode {
 Vai tu -- a vida
 Teu ca -- mi -- nho_é de paz e_a -- mor
 A tu -- a vida
@@ -57,10 +67,12 @@ Ver -- da -- de que nin -- guém vê
 Se to -- dos fos -- sem no mun -- do i -- guais a vo -- cê
 }
 
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
+refrainLyrics = #(let ((v (assoc lyricsLanguage
+			   (list
+			    (cons "portuguese" refrainLyricsPortuguese)
+			    (cons "english" refrainLyricsEnglish)
+			  ))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
 
 refrainChords = \chordmode {
   f1:9 f1:9 g1/f g1/f

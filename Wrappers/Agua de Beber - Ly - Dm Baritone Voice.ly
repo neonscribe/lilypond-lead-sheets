@@ -8,6 +8,4 @@ subtitle = "Al Jarreau Key"
 whatKey = d,
 whatClef = "treble_8"
 
-lyricsLanguage = "english"
-
 \include "../Core/Agua de Beber - Ly Core - Am.ly"

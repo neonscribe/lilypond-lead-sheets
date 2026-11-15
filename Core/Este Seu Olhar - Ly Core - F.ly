@@ -14,6 +14,8 @@ headerCopyright = "© 1959 Editora Musical Arapuã"
 
 bossaRhythm = ##t
 
+lyricsLanguage = "portuguese"
+
 refrainLyrics = \lyricmode {
 Es -- te seu ol -- har __
 Quan -- do_en contra o meu __
@@ -48,8 +50,6 @@ refrainChords = \chordmode {
 
   \chordInsideParens{ c1:7.13- }
 }
-
-bossaRhythm = ##t
 
 refrainKey = f
 

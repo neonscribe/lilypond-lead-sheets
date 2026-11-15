@@ -15,7 +15,7 @@ headerCopyright = "© 1960 Fermata International Melodies, Inc."
 bossaRhythm = ##t
 refrainLeadingEighth = ##t
 
-refrainLyricsPortuguese = \lyricmode {
+unsynchronizedRefrainLyricsPortuguese = \lyricmode {
 O pa -- to, vi -- nha can -- tan -- do_a -- le -- gre -- men -- te,
 quen, quen, quen, quan do_um mar -- re -- co sor -- ri -- den -- te, pe -- diu,
 pra en -- trat tam -- bém no sam -- ba, no sam -- ba.
@@ -34,13 +34,6 @@ en -- sai -- an -- do_o vo -- cal,
 quen, quen, quen, quen, quen, quen, quen, quen, quen, quen, quen, quen,
 O pa -- to.
 }
-
-refrainLyricsEnglish = \lyricmode {
-}
-
-refrainLyricsLanguageOne = \refrainLyricsPortuguese
-
-refrainLyricsLanguageTwo = \refrainLyricsEnglish
 
 refrainChords = \chordmode {
   s4.

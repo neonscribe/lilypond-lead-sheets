@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "lyricsLanguage": [ "portuguese", "english" ] } }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:16:50.601749Z"
@@ -14,7 +20,11 @@ headerCopyright = "© 1965 Marcos Valle and Paulo Sérgio Valle"
 
 bossaRhythm = ##t
 
-refrainPortugueseLyrics = \lyricmode {
+lyricsLanguage = #(if (and (defined? 'lyricsLanguage) lyricsLanguage)
+		   lyricsLanguage
+		   "portuguese")
+
+refrainLyricsPortuguese = \lyricmode {
 Vo -- cê viu só que~_a -- mor. Nun -- ca vi coisa as -- sim
 E pas -- sou, nem pa -- rou. Mas o -- lhou só __ pra mim.
 Se vol -- tar vou a -- trás, Vou pe -- dir, vou __ fa -- lar,
@@ -29,7 +39,7 @@ Pe -- ço, mas vo -- cê não vem, bem
 dei -- xo~_en -- tão, fa -- lo só, di -- go~_ao céu, mas vo -- cê vem
 }
 
-refrainEnglishLyrics = \lyricmode {
+refrainLyricsEnglish = \lyricmode {
 Some -- one to hold me tight.
 That would be ver -- y nice.
 Some -- one to love me right.
@@ -48,10 +58,12 @@ Should it be, you and me,
 I could see, it would be nice.
 }
 
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
+refrainLyrics = #(let ((v (assoc lyricsLanguage
+			   (list
+			    (cons "portuguese" refrainLyricsPortuguese)
+			    (cons "english" refrainLyricsEnglish)
+			  ))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
 
 refrainChords = \chordmode {
   f1:maj7 f1:6 b1:m7 e1:7

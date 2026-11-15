@@ -12,6 +12,8 @@ headerPoet = "Jean Broussole"
 headerComposer = "Sidney Bechet"
 headerCopyright = "© 1952"
 
+lyricsLanguage = "french"
+
 refrainLyrics = \lyricmode {
     Quand je pense "à" toi Aus -- si -- "tôt" "je " vois Je ne sais pour
     -- quoi Le bal -- con fleur -- i "Où" tu "m'as" sour -- i Quand je

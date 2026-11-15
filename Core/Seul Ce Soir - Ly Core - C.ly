@@ -12,6 +12,8 @@ headerPoet = "Rose Noel and Jean Casanova"
 headerComposer = "Paul Durand"
 headerCopyright = "© 1940 Editions Musicales Europa"
 
+lyricsLanguage = "french"
+
 refrainLyrics = \lyricmode {
 Je suis
 

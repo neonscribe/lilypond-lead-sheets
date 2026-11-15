@@ -18,8 +18,9 @@ lyricsLanguage = #(if (and (defined? 'lyricsLanguage) lyricsLanguage)
 
 lyricsCredit = #(let ((v (assoc lyricsLanguage
 			  '(
+			    ("portuguese" . "Portuguese lyrics by Aloysio de Oliveira")
 			    ("english" . "English lyrics by Ray Gilbert")
-			    ("portuguese" . "Portuguese lyrics by Aloysio de Oliveira")))))
+			  ))))
 		 (if v (cdr v) ""))
 
 headerTitle = "Dindi"
@@ -58,8 +59,8 @@ that would be me~_without you, my Din -- di.
 
 refrainLyrics = #(let ((v (assoc lyricsLanguage
 			   (list
-			    (cons "english" refrainLyricsEnglish)
 			    (cons "portuguese" refrainLyricsPortuguese)
+			    (cons "english" refrainLyricsEnglish)
 			  ))))
 		  (if v (cdr v) #{ \lyricmode { } #}))
 

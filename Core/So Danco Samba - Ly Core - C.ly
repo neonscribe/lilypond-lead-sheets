@@ -20,6 +20,10 @@ headerCopyright = "© 1962 Corcovado Music Corporation"
 
 refrainLeadingEighth = ##t
 
+bossaRhythm = ##t
+
+lyricsLanguage = "portuguese"
+
 refrainLyrics = \lyricmode {
 Só dan -- ço sam -- ba
 Só dan -- ço sam -- ba

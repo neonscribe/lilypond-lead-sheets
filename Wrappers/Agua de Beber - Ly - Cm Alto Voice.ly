@@ -8,6 +8,4 @@ subtitle = "Janis Hansen (with Sergio Mendes) Key"
 whatKey = c
 whatClef = "lowtreble"
 
-lyricsLanguage = "english"
-
 \include "../Core/Agua de Beber - Ly Core - Am.ly"

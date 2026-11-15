@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "lyricsLanguage": [ "portuguese", "english" ] } }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:16:30.123694Z"
@@ -14,7 +20,11 @@ headerCopyright = "© 1960 Jobim Music Ltda."
 
 bossaRhythm = ##t
 
-refrainPortugueseLyrics = \lyricmode {
+lyricsLanguage = #(if (and (defined? 'lyricsLanguage) lyricsLanguage)
+		   lyricsLanguage
+		   "portuguese")
+
+refrainLyricsPortuguese = \lyricmode {
   _ _ _ _ _ _ _ _ _ _
   _ _ _ _ _ _ _ _ _ _
   _ _ _ _ _ _ _ _ _ _
@@ -37,7 +47,7 @@ refrainPortugueseLyrics = \lyricmode {
   O que_é fe -- li -- ci -- da -- de, Meu a -- mor__
 }
 
-refrainEnglishLyrics = \lyricmode {
+refrainLyricsEnglish = \lyricmode {
   _ _ _ _ _ _ _ _ _ _
   _ _ _ _ _ _ _ _ _ _
   _ _ _ _ _ _ _ _ _ _
@@ -60,6 +70,13 @@ refrainEnglishLyrics = \lyricmode {
   Oh, my love. __
 }
 
+refrainLyrics = #(let ((v (assoc lyricsLanguage
+			   (list
+			    (cons "english" refrainLyricsEnglish)
+			    (cons "portuguese" refrainLyricsPortuguese)
+			  ))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
+
 refrainChordsBossaSongbook = \chordmode {
   s1 s1
   a1:m6 af1:dim7.13- g1:m6 c1:9
@@ -77,11 +94,6 @@ refrainChordsBossaSongbook = \chordmode {
   d1:m7 g2:sus9 af2:dim7
   c1:6
 }
-
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
 
 refrainChordsRealBookSixth = \chordmode {
   s1 s1

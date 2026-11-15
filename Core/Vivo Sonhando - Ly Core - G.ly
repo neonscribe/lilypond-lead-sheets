@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "lyricsLanguage": [ "portuguese", "english" ] } }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:16:57.616311Z"
@@ -13,6 +19,10 @@ headerComposer = "Antônio Carlos Jobim"
 headerCopyright = "© 1963 Jobim Music Ltda."
 
 bossaRhythm = ##t
+
+lyricsLanguage = #(if (and (defined? 'lyricsLanguage) lyricsLanguage)
+		   lyricsLanguage
+		   "portuguese")
 
 refrainLyricsAOneP = \lyricmode {
   Vi -- vo so -- nhan -- do, so -- nhan -- do Mil ho -- ras sem fim __
@@ -54,7 +64,7 @@ refrainLyricsCE = \lyricmode {
   One is to dream __ Two is lov -- ing you __ ""
 }
 
-refrainPortugueseLyrics = \lyricmode {
+refrainLyricsPortuguese = \lyricmode {
   _ _ _ _ _ _ _ _ _ _ _ _
   _ _ _ _ _ _ _ _ _ _ _ _
   \refrainLyricsAOneP
@@ -63,7 +73,7 @@ refrainPortugueseLyrics = \lyricmode {
   \refrainLyricsCP
 }
 
-refrainEnglishLyrics = \lyricmode {
+refrainLyricsEnglish = \lyricmode {
   _ _ _ _ _ _ _ _ _ _ _ _
   _ _ _ _ _ _ _ _ _ _ _ _
   \refrainLyricsAOneE
@@ -72,10 +82,12 @@ refrainEnglishLyrics = \lyricmode {
   \refrainLyricsCE
 }
 
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
+refrainLyrics = #(let ((v (assoc lyricsLanguage
+			   (list
+			    (cons "portuguese" refrainLyricsPortuguese)
+			    (cons "english" refrainLyricsEnglish)
+			  ))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
 
 refrainChords = \chordmode {
   g1:maj7 g1:maj7 ef1:maj7/g ef1:maj7/g

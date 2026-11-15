@@ -14,6 +14,8 @@ headerCopyright = "© 1962 Jobim Music"
 
 bossaRhythm = ##t
 
+lyricsLanguage = "portuguese"
+
 refrainLyrics = \lyricmode {
 O mor -- ro não __ tem vez __
 e o que e -- le fez __ já foi __ de mais. __

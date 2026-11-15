@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "lyricsLanguage": [ "portuguese", "english" ] } }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:16:57.072457Z"
@@ -14,7 +20,11 @@ headerCopyright = "© 1967 Corcovado Music Corp."
 
 bossaRhythm = ##t
 
-refrainPortugueseLyrics = \lyricmode {
+lyricsLanguage = #(if (and (defined? 'lyricsLanguage) lyricsLanguage)
+		   lyricsLanguage
+		   "portuguese")
+
+refrainLyricsPortuguese = \lyricmode {
   Tris -- te_é vi -- ver na so -- li -- dão __
   Na dor cru -- el de_u -- ma pai -- xão __
   Trist -- e_é sa -- ber __ que nin -- guém
@@ -29,7 +39,7 @@ refrainPortugueseLyrics = \lyricmode {
   Trist -- e_é vi -- ver na so -- li -- dão __
 }
 
-refrainEnglishLyrics = \lyricmode {
+refrainLyricsEnglish = \lyricmode {
   Sad is to live in sol -- i -- tude __
   Far from your tran -- quil al -- ti -- tude, __
   Sad is to know __ that no one ev -- er can live on a dream __
@@ -43,10 +53,12 @@ refrainEnglishLyrics = \lyricmode {
   Sad is to live in sol -- i -- tude. __
 }
 
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
+refrainLyrics = #(let ((v (assoc lyricsLanguage
+			   (list
+			    (cons "portuguese" refrainLyricsPortuguese)
+			    (cons "english" refrainLyricsEnglish)
+			  ))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
 
 refrainChords = \chordmode {
   bf1:maj7 bf1:maj7 gf1:maj7 b1:7.5-
@@ -77,21 +89,21 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A"
 
   r4 r8 bf4 a4 bf8 | a4 g8 d4 ef4 f8~ | f1~ | f1 |
-  %% \break
+  \break
   r4 r8 bf4 a4 bf8 | a4 g8 d4 ef4 f8~ | f1~ | f1 |
-  %% \break
+  \break
   r4 r8 g8 f8 g4 f8~ | f8 ef4 d4 a4 c8~ | c8 a8 bf8 d8 f8 a4 c8~ | c2~ c8 bf4 cs8~ |
-  %% \break
+  \break
   cs8 a8 a8 a8~ a2 | a8 fs8 fs8 fs8~ fs4. e8~ | e8 d8 d8 d8~ d4 g4~ | g8 f8 f8 f8~ f2 |
 
   \sect "B"
 
   r4 r8 bf4 a4 bf8 | a4 g8 d4 ef4 f8~ | f1~ | f1 |
-  %% \break
+  \break
   r4 r8 bf4 a4 bf8 | a4 g8 d4 ef4 f8~ | f1~ | f1 |
-  %% \break
+  \break
   r8 bf8 bf,8 c8 d8 ef4 f8~ | f8 e4 ef8~ ef4 f4~ | f4 ef8 d8 c8 bf4 c8~ | c1 |
-  %% \break
+  \break
   r4 r8 ef4 d4 ef8 c4 d8 bf4 c4 bf8~ | bf1~ | bf1 |
 
   r1 | r1 |

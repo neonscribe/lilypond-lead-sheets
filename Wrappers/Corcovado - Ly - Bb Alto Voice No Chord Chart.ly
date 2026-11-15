@@ -7,5 +7,4 @@ whatKey = bf,
 whatClef = "lowtreble"
 
 noChordDiagrams = ##t
-
 \include "../Core/Corcovado - Ly Core - C.ly"

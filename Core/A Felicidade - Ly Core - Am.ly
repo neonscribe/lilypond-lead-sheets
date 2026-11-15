@@ -15,6 +15,8 @@ headerCopyright = "© 1960 Editora Musical Arapuã Ltda"
 bossaRhythm = ##t
 refrainLeadingEighth = ##t
 
+lyricsLanguage = "portuguese"
+
 refrainLyrics = \lyricmode {
 Tris -- te -- za não tem fim __
 Fe -- li -- ci -- da -- de sim. __

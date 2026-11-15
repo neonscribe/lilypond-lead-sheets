@@ -1,5 +1,11 @@
 %% -*- Mode: LilyPond -*-
 
+%{
+
+"Customizer": { "choices": { "lyricsLanguage": [ "portuguese", "english" ] } }
+
+%}
+
 \version "2.26.0"
 
 songID = "2026-06-01T22:16:29.210373Z"
@@ -14,7 +20,11 @@ headerCopyright = "© 1958 Editora Musical Arapuã, Sao Paulo, Brazil. © 1967 T
 
 bossaRhythm = ##t
 
-refrainPortugueseLyrics = \lyricmode {
+lyricsLanguage = #(if (and (defined? 'lyricsLanguage) lyricsLanguage)
+		   lyricsLanguage
+		   "portuguese")
+
+refrainLyricsPortuguese = \lyricmode {
 Vai, mi -- nha tris -- te -- za_E diz a e -- la que sem e -- la não po -- de ser
 Diz -- lhe nu -- ma pre -- ce
 Que_e -- la re -- gres -- se
@@ -36,7 +46,7 @@ A -- bra -- ços e bei -- ji -- nhos e ca -- ri -- nhos sem ter fim
 Que_é pra_a -- ca -- bar com_es -- se ne -- gó -- cio De vo -- cê vi -- ver sem mim
 }
 
-refrainEnglishLyrics = \lyricmode {
+refrainLyricsEnglish = \lyricmode {
 No more blues,
 I'm goin' back home,
 No, no more blues,
@@ -66,10 +76,12 @@ When we set -- tle down
 There'll be no more blues.
 }
 
-refrainLyrics = \refrainPortugueseLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-
-refrainTwoLanguages = ##t
+refrainLyrics = #(let ((v (assoc lyricsLanguage
+			   (list
+			    (cons "english" refrainLyricsEnglish)
+			    (cons "portuguese" refrainLyricsPortuguese)
+			  ))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
 
 refrainNicoHLChords = \chordmode {
   d1:m d1:m7/c e1:7/b e1:7

@@ -8,6 +8,4 @@ subtitle = "Sophie Milman Key"
 whatKey = b,
 whatClef = "lowtreble"
 
-lyricsLanguage = "english"
-
 \include "../Core/Agua de Beber - Ly Core - Am.ly"

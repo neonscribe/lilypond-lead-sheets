@@ -2,7 +2,8 @@
 
 %{
 
-"Customizer": { "choices": { "alternateChords": [ "hlrb", "simple" ] } }
+"Customizer": { "choices": { "lyricsLanguage": [ "spanish", "english" ],
+			     "alternateChords": [ "hlrb", "simple" ] } }
 
 %}
 
@@ -18,7 +19,7 @@ headerPoet = "Consuelo Velázquez/Sunny Skylar"
 headerComposer = "Consuelo Velázquez"
 headerCopyright = "© 1941 Promotora Hispano Americana de Musica, S.A."
 
-refrainSpanishLyrics = \lyricmode {
+refrainLyricsSpanish = \lyricmode {
 Bé -- sa -- me, __ bé -- sa -- me mu -- cho, __
 co -- mo si fue -- ra~_es -- ta no -- che la úl -- ti -- ma vez. __
 Bé -- sa -- me  mu -- cho, __
@@ -32,7 +33,7 @@ Bé -- sa -- me  mu -- cho, __
 que ten -- go mie -- do per -- der -- te, per -- der -- te des -- pués. __
 }
 
-refrainEnglishLyrics = \lyricmode {
+refrainLyricsEnglish = \lyricmode {
 Bé -- sa -- me, __ bé -- sa -- me mu -- cho. __
 Each time I cling to your kiss I hear mu -- sic di -- vine. __
 Bé -- sa -- me  mu -- cho, __
@@ -46,6 +47,16 @@ each lit -- tle dream would take wing and my life would be through. __
 Bé -- sa -- me  mu -- cho, __
 Love me for -- ev -- er and make all my dreams _ come true. __
 }
+
+lyricsLanguage = #(if (and (defined? 'lyricsLanguage) lyricsLanguage)
+		   lyricsLanguage
+		   "spanish")
+
+refrainLyrics = #(let ((v (assoc lyricsLanguage
+			   (list
+			    (cons "spanish" refrainLyricsSpanish)
+			    (cons "english" refrainLyricsEnglish)))))
+		  (if v (cdr v) #{ \lyricmode { } #}))
 
 refrainHLChords = \chordmode {
   d1:m6 d1:m6 g1:m6 g1:m6
@@ -144,9 +155,5 @@ refrainMelody = \relative f' {
 
   \bar "|."
 }
-
-refrainLyrics = \refrainSpanishLyrics
-refrainLyricsTwo = \refrainEnglishLyrics
-refrainTwoLanguages = ##t
 
 \include "../Include/refrainonly.ily"

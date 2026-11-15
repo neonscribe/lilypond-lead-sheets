@@ -8,6 +8,4 @@ subtitle = "Standard Key, English Lyrics"
 whatKey = ef
 whatClef = "treble"
 
-lyricsLanguage = "english"
-
 \include "../Core/Dindi - Ly Core - Eb.ly"
