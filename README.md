@@ -29,7 +29,7 @@ The LilyPond code that specifies the overall layout, lyrics, chords and melody f
 
 There is also a `Wrappers` folder that holds small LilyPond files where various parameters can be set, using `\include` to process the corresponding `Core` file. Key, octave, clef, tempo and subtitle can be adjusted, alternate sets of chords can be selected, intros and/or lyrics can be removed.
 
-The `Include` folder is where most of the real work happens. The file `Include/lead-sheets.ily` is included at the beginning of every core file, and it in turn includes several other files. There is another file included at the end of each core file that does the formatting for the sections in that file. The most commonly used one is `Include/refrainonly.ily` and there are a few others. They handle the case of a song being processed as a single file as well as within a collection.
+The `Include` folder is where most of the real typesetting work happens. The file `Include/lead-sheets.ily` is included at the beginning of every core file, and it in turn includes several other files. There is another file included at the end of each core file that does the formatting for the sections in that file. The most commonly used one is `Include/refrainonly.ily` and there are a few others. They handle the case of a song being processed as a single file as well as within a collection.
 
 The Python script `Scripts/makesheet.py` is used to generate a core file and wrapper files for one song. Title, (standard) key, and range are prompted for. These can then be edited as needed.
 
