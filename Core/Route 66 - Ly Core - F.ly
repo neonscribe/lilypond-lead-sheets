@@ -57,7 +57,7 @@ introMelody = \relative f' {
 
   \sectNoBarNoBreak "Intro"
 
-  \partial 4. g8 \acciaccatura gs8 \tuplet 3/2 { b8 d8 e8 } |
+  \partial 4. g8 \acciaccatura as8 \tuplet 3/2 { b8 d8 e8 } |
   \bar "||"
 
   <g d>8 <g d>4 <e b>8->~ <e b>8 g,8 \acciaccatura gs8 \tuplet 3/2 { b8 d8 e8 } |
