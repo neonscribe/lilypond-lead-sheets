@@ -105,25 +105,25 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
 
   c4 c4 c2~ | c2. r8 g8 | c8 c8 c4 c4 b8 b8 | d2 b4 a4 |
-  \break
+  \xBreak
   c4 a2 e4 | g4 g8 g8 f4 e4 | c1~ | c2. r8 g'8 |
 
   \sect "A2"
 
   c4 c4 c4 c4 | c2 r4 r8 g8 | c8 c8 c4 c4 b8 b8 | d2 b4 a4 |
-  \break
+  \xBreak
   c4 a2 e4 | g4 g8 g8 f4 e4 | c1~ | c2. e4 |
 
   \sectSegno "B"
 
   c'4 c4 b8 b8 b4 | a4( e2) r8 e8 | c'8 c8 c4 b4 a8 a8~ | a4 e8 e8~ e4 e8 e8~ |
-  \break
+  \xBreak
   e4 e8 e8~ e4 \tuplet 3/2 { c'8 d8 c8 } | b4 d4 b2 | a8 a8 a8 a8 a8 g8 r8 g8 | g4 r4 r4 g4 |
 
   \alwaysPageBreak "A3" "||" "||-||"
 
   c4 c4 c8 c8 c4 | c2 r4 r8 g8 | c8 c8 c4 c4 b8 b8 | d2 b4 a4 |
-  \break
+  \xBreak
   c4 a2 e4 | g4 g8 g8 f4 e4 \textToCoda | c2 r2 |
   \alternative { \volta 1 {
   r2 r4 r8 g'8 |
@@ -150,7 +150,7 @@ refrainMelody = \relative f' {
   \ambitusOff
   c'8 c8 b8 b8 bf8 bf8 a4 | af4. g8~ g8 r8 r4 |
   c8 c8 b8 b8 bf8 bf8 a4 | af4. g8~ g8 r8 r4 |
-  \break
+  \xBreak
   c4 b4 bf4. a8~ | a8 af4.~ af8 af4. |
   g4-.
   \ambitusOn

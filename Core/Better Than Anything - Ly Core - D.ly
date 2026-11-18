@@ -51,19 +51,19 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A"
 
   d4 fs4. d8 | e8 c8 r4 \tuplet 3/2 { a8 c8 e8 } | d8 fs8~ fs4 d4 | e4 r4 \tuplet 3/2 { a,8 c8 e8 } |
-  \break
+  \xBreak
   d4 fs4. d8 | e8 c8 r4 \tuplet 3/2 { a8 c8 e8 } | d8 fs8~ fs4. d8 | e4 r4 \tuplet 3/2 { d8 fs8 a8 } |
 
   \sect "B"
 
   g4 b4. g8 | a8 f8 r4 \tuplet 3/2 { d8 fs8 a8 } | g4 b4 g8 a8~ | a4 r4 \tuplet 3/2 { a,8 b8 cs8 } |
-  \break
+  \xBreak
   d4 fs4. d8 | e8 c8 r4 \tuplet 3/2 { a8 c8 e8 } | d4 fs4 d8 e8~ | e4 r8 f8 d8 c8 |
 
   \sect "C"
 
   d8 f4 d4 c8 | d4 r8 f8 d8 c8 | d8 f4 d4 c8 | d4 r8 f8 d8 c8 |
-  \break
+  \xBreak
   d8 f4 d4 c8 | d8 f4 d4 c8 | d2. | R2.*1 | r2.*1 | r4 r4
   \override Parentheses.font-size = #5
   \tuplet 3/2 {

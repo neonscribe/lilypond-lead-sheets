@@ -44,11 +44,11 @@ refrainMelody = \relative f' {
   \bar "||"
 
   c'2 a8 g4 f8~ | f2 d8 f4 f8~ | f2 d8 f4 f8~ | f2 r4 f4 |
-  \break
+  \xBreak
   c'2 d8 c4 a8~ | a2 g8 a4 g8~ | g2 e8 d4 c8~ | c2 r4 f4 |
-  \break
+  \xBreak
   c'2 a8 g4 f8~ | f2 d8 f4 f8~ | f2 d8 f4 f8~ | f2 f8 f4 a8~ |
-  \break
+  \xBreak
   a2 g8 g4 f8~ | f2 d8 d4 c8~ | c2 f8 f4 f8~ | f2. r4 |
 
   \bar "|."

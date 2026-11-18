@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   d2. a8 c8 | d8. f32 d32 c8 d8 r4 a8 c8 | d2. a8 c8 | d8. f32 d32 c8 d8 r8
   \ambitusOn
   \bar "!-!"
-  \break
+  \xBreak
 
   d,8 f8 a8~ |
 
@@ -81,11 +81,11 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   a4 r4 r2 | r4 d,8 f8 g8 f4. | d2 r2 | r2 r8 d'8 d8 d8~ |
-  \break
+  \xBreak
   d4 c8 a8 c4 d4 | r2 r8 c8 c8 c8 | c8 cs8( a2.) | r8 f'4.~ f8 e8 d8 f8( |
-  \break
+  \xBreak
   d4) r4 r8 e8 e8 d8 | f4 r4 r8 f8 e8 e8 | d8 f8 d8 d8 bf8 e8 d8 f8 | d2 r8 d,8 f8 a8~ |
-  \break
+  \xBreak
   a2 r8 d4. | a8 f8 r4 g8 f4 f8( | d2) r2 \textToCoda |
   \alternative { \volta 1 {
   r2 r8 d8 f8 a8\laissezVibrer |
@@ -95,7 +95,7 @@ refrainMelody = \relative f' {
   \sect "Bridge"
 
   r8 f8 g8 g8 g8 f8 g8 a8~ | a2 r2 | r8 f8 f8 a8 a8 g8 f8 a8~ | a2 r2 |
-  \break
+  \xBreak
   r8 d8 d16 d16 e8 e8 e8 d8 f8 | d2 r8 d8 e8 d8 |
   e8 d8 e4 r8 e8 e8 f8~ | f4\bendAfter #-1 r4 r8 d,8 f8 a8\laissezVibrer \dalSegno |
 

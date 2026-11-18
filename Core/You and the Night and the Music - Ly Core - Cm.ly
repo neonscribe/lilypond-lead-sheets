@@ -56,28 +56,28 @@ refrainMelody = \relative f' {
 
   \tuplet 3/2 { g4 af4 fs4 } \tuplet 3/2 { g4 af4 fs4 } | g4 g2. |
   \tuplet 3/2 { g4 af4 fs4 } g8 c4 g8 | f1 |
-  \break
+  \xBreak
   \tuplet 3/2 { f4 g4 e4 } \tuplet 3/2 { f4 g4 e4 } | f4 f2 g4 | e1 | r1 |
 
   \sect "A2"
 
   \tuplet 3/2 { g4 af4 fs4 } \tuplet 3/2 { g4 af4 fs4 } | g4 g2. |
   \tuplet 3/2 { g4 af4 fs4 } g8 c4 g8 | f1 |
-  \break
+  \xBreak
   \tuplet 3/2 { f4 g4 e4 } \tuplet 3/2 { f4 g4 e4 } | f4 f2 g4 | e1 | r4 g4 a4 c4 |
 
   \sect "B"
 
   \tuplet 3/2 { ef4 f4 d4 } \tuplet 3/2 { ef4 f4 d4 } | ef4 ef2 c4 |
   \tuplet 3/2 { d4 ef4 cs4 } \tuplet 3/2 { d4 ef4 cs4 } | d1 |
-  \break
+  \xBreak
   \tuplet 3/2 { c4 d4 b4 } \tuplet 3/2 { c4 d4 b4 } | c4 c2 d4 | b4. g8 af4. f8 | g1 |
 
   \sect "A3"
 
   \tuplet 3/2 { g4 af4 fs4 } \tuplet 3/2 { g4 af4 fs4 } | g4 g2. |
   \tuplet 3/2 { g4 af4 fs4 } g8 c4 g8 | f1 |
-  \break
+  \xBreak
   \tuplet 3/2 { f4 g4 e4 } \tuplet 3/2 { f4 g4 af4 } | g4 a4 b4 c4 | ef2 d2 | c2. r4 |
 
   \bar "|."

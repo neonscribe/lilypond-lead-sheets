@@ -95,27 +95,27 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   g4 g4 g4 g4 | g4 g2 g4 | g4 g4 bf4 a4 | af4 af2 af4 |
-  \break
+  \xBreak
   g4 g4 d'4. c8 | \tuplet 3/2 { e4 c4 a4 } g4 a4 | e1 | r2 r4 g4 |
 
   \sect "A2"
 
   g4 g4 g4 g4 | g4 g2 g4 | g4 g4 bf4 a4 | af4 af2 af4 |
-  \break
+  \xBreak
   g4 g4 d'4. c8 | \tuplet 3/2 { e4 c4 a4 } g4 a4 | c1 | r1 |
 
   \lyricsPageBreak "B" "||" "||-||"
 
   \tuplet 3/2 { d,4 e4 f4 } a8 a4. | \tuplet 3/2 { ef4 f4 g4 } b8 bf4. |
   a4. e8 e2~ | e2 r2 |
-  \break
+  \xBreak
   \tuplet 3/2 { fs4 g4 a4 } c8 c4. | \tuplet 3/2 { fs,4 g4 a4 } c8 c4. |
   b4. fs8 fs4 fs4 | a4. ef8 ef4 g4 |
 
   \sect "A3"
 
   g4 g4 g4 g4 | g4 g2 g4 | g4 g4 bf4 a4 | af4 af2 af4 |
-  \break
+  \xBreak
   g4 g4 d'4. c8 | \tuplet 3/2 { e4 c4 a4 } g4 a4 | c1 | r1 |
 
   \bar "|."

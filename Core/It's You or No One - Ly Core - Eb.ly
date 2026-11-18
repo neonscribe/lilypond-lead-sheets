@@ -49,25 +49,25 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   r4 bf4 bf4 bf4 | bf4 f2 g4 | bf,1~ | bf4 c4 bf4 g'4 |
-  \break
+  \xBreak
   f1~ | f4 ef4 d4 c'4 | bf1~ | bf1 |
 
   \sect "B"
 
   r4 df4 df4 df4 | df4 af2 bf4 | cf4 bf4 af4 gf4 | df2. ef4 |
-  \break
+  \xBreak
   f4 g4 f4 d'4 | c2. a4 | f1~ | f1|
 
   \sect "A2"
 
   r4 bf4 bf4 bf4 | bf4 f2 g4 | bf,1~ | bf4 c4 bf4 g'4 |
-  \break
+  \xBreak
   f1~ | f4 ef4 d4 c'4 | bf1~ | bf1 |
 
   \sect "C"
 
   r4 ef4 ef4 ef4 | ef4 ef,2 f4 | g4 af4 bf4 ef4 df4 cf4 df4 cf4 |
-  \break
+  \xBreak
   r4 bf4 bf4 bf4 | bf4 f2 g4 | ef1~ | ef2 r2 |
 
   \bar "|."

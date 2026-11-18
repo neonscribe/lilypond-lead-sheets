@@ -35,26 +35,26 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
   
   fs'8 fs8 e8 fs8~-> fs8 r8 r4 | r4 r8 f8 fs4 e4 | d8 d8 c8 d8~ d8 r8 r4 | r4 r8 df8 d4 c4 |
-  \break
+  \xBreak
   b8 b8 a8 b8~ b8 r8 r4 | r4 r8 a8 g4 a8 fs8~ | fs1 | r2 r4 as8 b8 |
   
   \sect "A2"
 
   fs'8 fs8 e8 fs8~-> fs8 r8 r4 | r4 r8 f8 fs4 e4 | d8 d8 c8 d8~ d8 r8 r4 | r4 r8 df8 d4 c4 |
-  \break
+  \xBreak
   b8 b8 a8 b8~ b8 r8 r4 | r4 r8 a8 g4 a8 fs8~ | fs2. e4 | f2. r4 |
   
   \sect "B"
   
   a4 c8 g'8~ g8 fs8~ fs4 | fs8 e8~ e4 r2 | b4 d8 a'8~ a8 g8~ g4 | g8 fs8~ fs4 r2 |
-  \break
+  \xBreak
   cs4 e8 b'8~ b8 as8~ as4 | gs8 as4 b8~ b4~ b8 b8~ |
   b4 r8 <fs d'>8~ <fs d'>4. <e c'>8~ | <e c'>2 r4 as,8 b8 |
   
   \sect "A3"
 
   fs'8 fs8 e8 fs8~-> fs8 r8 r4 | r4 r8 f8 fs4 e4 | d8 d8 c8 d8~ d8 r8 r4 | r4 r8 df8 d4 c4 |
-  \break
+  \xBreak
   b8 b8 a8 b8~ b8 r8 r4 | r4 r8 a8 g4 a8 fs8~ | fs1 | r2 r4 
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

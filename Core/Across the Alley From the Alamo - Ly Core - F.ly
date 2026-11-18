@@ -63,25 +63,25 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   c'4 c4 c8 c8 b8 c8 | d4 c8 a8~ a4 c,8 c8 | a'4 a4 a8 a8 gs8 a8 | bf4 a8 f8~ f4 c4 |
-  \break
+  \xBreak
   g'8 g8 fs8 g8 fs8 fs8 g4 | c4 bf8 g8~ g4 g8 g8 | g8 g4. f4 g8 a8~ | a2. c,4 |
 
   \sect "A2"
 
   c'4 c4 c8 c8 b8 c8 | d4 c8 a8~ a4 c,8 c8 | a'8 a8 a4 gs4 a4 | bf4 a8 f8~ f4 c4 |
-  \break
+  \xBreak
   g'8 g8 fs8 g8 fs8 fs8 g8 g8 | c4 bf8 g8~ g4 g8 g8 | g8 bf4. a4 g8 f8~ | f2. f4 |
 
   \sect "B"
 
   bf4 bf4 c4 bf4 | a8 c4.~ c4. f,8 | bf4 bf4 bf8 a4 c8~ | c2. a8 a8 |
-  \break
+  \xBreak
   a8 a4. r8 g4. | g8 f4.~ f8 d'4 d8~ | d4 r8 a8 a8 g8 f8 g8~ | g2. r8 c,8 |
 
   \sect "A3"
 
   c'4 c4 c8 c8 b8 c8 | d4 c8 a8~ a4 c,8 c8 | a'4 a4 a8 a8 gs8 a8 | bf4 a8 f8~ f4 c4 |
-  \break
+  \xBreak
   g'4 g8 g8 fs8 fs8 g4 | c4 bf8 g8~ g4 g8 g8 | g8 bf4. a4 g8 f8~ | f4 r4 r2 |
 
   \bar "|."

@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
     r4 f8 f8 f8 f8 ef8 d8 | f8 bf,4 bf8~ bf2 |
     r4 f'8 f8 f8 f8 ef8 d8 | ef8 bf4 bf8~ bf2 |
-    %% \break
+    %% \xBreak
     r4 ef8 ef8 ef8 d8 d8 c8 | d8 bf4 bf8~ bf2 |
     r8 bf8 bf8 d8 bf8 bf4 bf8~ | bf2. r4 |
   }
@@ -109,7 +109,7 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
     r8 bf'8 bf8 bf8 bf8 bf8 a8 g8 | f4 bf,8 bf8~ bf4 r4 |
     r8 d8 d8 ef8 d8 c8 c8 bf8 | bf2 r2 |
-    %% \break
+    %% \xBreak
     r8 bf'8 bf8 bf8 c8 bf8 a8 g8 | f8 bf,4 bf8~ bf2 |
     d8 d8 d8 d8 d8 c8 bf8 c8 | c1 |
 
@@ -117,7 +117,7 @@ refrainMelody = \relative f' {
 
     r4 f8 f8 f8 f8 ef8 d8 | f8 bf,4 bf8~ bf2 |
     r4 f'8 f8 f8 f8 ef8 d8 | ef8 bf4 bf8~ bf2 |
-    %% \break
+    %% \xBreak
     r4 ef8 ef8 ef8 d8 d8 c8 | d8 bf4 bf8~ bf2 |
     r8 bf8 bf8 d8 bf8 bf4 bf8~ | bf2. r4 |
   }

@@ -36,13 +36,13 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "Head"
 
   \tuplet 3/2 { ef4 ef4 ef4 } ef4~ \tuplet 3/2 { ef8 d8 c8 } | d16 c16 bf8~ bf4 bf4. bf8 |
-  \break
+  \xBreak
   bf16 af16 gf8~ gf4 gf4 af4 | f2. \tuplet 3/2 { r8 d8 e8 } |
-  \break
+  \xBreak
   \tuplet 3/2 { fs4 fs4 fs4 } fs4~ \tuplet 3/2 { fs8 e8 d8 } | cs8 e8 af8 b8 cs4~ \tuplet 3/2 { cs8 b8 af8 } |
-  \break
+  \xBreak
   \tuplet 3/2 { af4 b4 a4 } af4 af4 | af1 |
-  \break
+  \xBreak
   \tuplet 3/2 { gf4 af4 gf4 } f4 f4 | f2. \textFine
   \tuplet 3/2 {
   \override Parentheses.font-size = #5

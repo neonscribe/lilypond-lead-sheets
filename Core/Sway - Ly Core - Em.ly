@@ -65,25 +65,25 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   c4 b8 a8 r2 | c4 b8 a8 r2 | b4 a8 g8~ g2 | r4 g8 g8 g8 g8 g8 g8 |
-  %% \break
+  %% \xBreak
   a4 g8 fs8 r2 | a4 g8 fs8 r2 | g4 fs8 e8~ e2~ | e4 b'8 b8 b8 b8 b8 b8 |
 
   \sect "A2"
 
   c4 b8 a8 r2 | c4 b8 a8 r2 | b4 a8 g8~ g2 | r4 g8 g8 g8 g8 g8 g8 |
-  %% \break
+  %% \xBreak
   a4 g8 fs8 r2 | a4 g8 fs8 r2 | g4 fs8 e8~ e2~ | e4  e8 fs8 g4 fs8 e8 |
 
   \sect "B"
 
   fs4 fs8 g8 a2 | r4 fs8 g8 a4 b8 c8 | d4 d8 b8 d2~ | d4 b8 c8 b4 c8 b8 |
-  %% \break
+  %% \xBreak
   ds4 ds8 b8 ds2~ | ds4 b8 cs8 ds4 cs8 b8 | e4 b8 b8 d4 c4 | b4 b8 b8 b8 b8 b8 b8 |
 
   \sect "A3"
 
   c4 b8 a8 r2 | c4 b8 a8 r2 | b4 a8 g8~ g2 | r4 g8 g8 g8 g8 g8 g8 |
-  %% \break
+  %% \xBreak
   a4 g8 fs8 r2 | a4 g8 fs8 r2 | g4 fs8 e8~ e2~ | e4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

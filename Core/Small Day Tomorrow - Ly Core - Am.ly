@@ -151,19 +151,19 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
 
   b4 a4 b8 a8 b8 a8 | e2 r8 e8 e8 d8 | e4~ \tuplet 3/2 { e8 d8 e8 } d8 b4. | r4 \tuplet 3/2 { e8 d8 e8 } d8 b4. |
-  \break
+  \xBreak
   b'4 a4 b8 a8 b8 a8 | e2 r8 a,8 c8 d8 | ef2 d4. c8 | a8 a4.~ a4 r4 |
 
   \sect "A2"
 
   b'4 a4 b8 a8 b8 a8 | e2 r8 e8 e8 d8 | e4~ \tuplet 3/2 { e8 d8 e8 } d8 b4. | r4 e8 d8 d8 b4. |
-  \break
+  \xBreak
   b'4 a4 b8 a8 b8 a8 | e2 r8 a8 e8 c8 | ef2 d4. c8 | a8 a4.~ a2 |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   r8 g'8 g8 g8 bf8 bf4. | r8 g8 g8 g8 bf8 bf4. | r8 g8 g8 g8 bf4 bf4 | g1 |
-  \break
+  \xBreak
   r8 a8 a8 a8 c8 c4. | r8 a8 a8 a8 c8 c4 c8 | a4 a4 c4 c4 | a2( as2) |
 
   \sect "A3"
@@ -173,11 +173,11 @@ refrainMelody = \relative f' {
 		\once \omit Accidental a4 } b8 a8 b8 a8 |
   e2 r8 a,8 c8 d8 |
   e4~ \tuplet 3/2 { e8 d8 e8 } d8 b4. |
-  \break
+  \xBreak
   \alternative { \volta 1 {
   r4 e8 d8 d8 b4. |
   r8 b'4 a8 b8 a8 b8 a8 | e2 r8 a8 c8 a8 | g4( f4) e4. c8 | a8 a4.~ a2 |
-  \break
+  \xBreak
   } \volta 2 {
 
   \tuplet 3/2 { r8 e'8 e8 } \tuplet 3/2 { e8 d8 e8 } d8 b4. |

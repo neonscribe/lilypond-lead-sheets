@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
 
   c2 c4 d8 ef8~ | ef2 r8 d4 c8 | bf2~ bf8 f8 d4 | c2 r4 a'8 a8 |
   a2 c8 c4 d8~ | d8 c4. bf4 a4 | g1 | r1 |
-  \break
+  \xBreak
   c2 c4 d4 | ef4 ef8 d8~ d4 c4 | bf2~ bf8 f8 d4 | c2 r4 af'4 |
   a8 a4 c8~ c4 a4 | bf8 g4. f8 e4. | f1 | r1 |
 

@@ -42,13 +42,13 @@ refrainMelody = \relative f' {
   \bar "||"
 
   e2. g4 | a2. g4 | e4 g4 a4 c4 | e2 d2 |
-  \break
+  \xBreak
   c2. a4 | g2. e4 | e4 d2 e4 | d2. ds4 |
   \bar "||-||"
-  \break
+  \xBreak
 
   e2. g4 | a2. g4 | e4 g4 a4 c4 | e2 d2 |
-  \break
+  \xBreak
   c2. a4 | g2. e4 | f2. g4 | e'2. r4 |
 
   \bar "|."

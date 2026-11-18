@@ -84,22 +84,22 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A"
 
   c'4~ \tuplet 3/2 { c8 g8 af8 } bf8 ef,4 f8 | g4~ \tuplet 3/2 { g8 af8 fs8 } g2 |
-  %% \break
+  %% \xBreak
   gf4 \tuplet 3/2 { gf8 ef4 } \tuplet 3/2 { gf8 gf8 f8~ } f8 ef8 | ef2 r8 g4. |
-  \break
+  \xBreak
   c4~ \tuplet 3/2 { c8 g8 af8 } bf8 ef,4 f8 | g4~ \tuplet 3/2 { g8 af8 fs8 } g2 |
-  \break
+  \xBreak
   gf4 \tuplet 3/2 { gf8 ef4 } \tuplet 3/2 { gf8 gf8 f8~ } f8 ef8 | ef2. r4 |
 
   \sect "B"
 
   r8 f8 \tuplet 3/2 { f8 e8 f8 } \tuplet 3/2 { f8 ef8 gf8~ } gf8 f8 |
   r8 fs8 \tuplet 3/2 { g8 c8 bf8~ } bf2 |
-  \break
+  \xBreak
   r8 c8 \tuplet 3/2 { gf8 gf8 gf8 } gf2 | r8 f8 \tuplet 3/2 { f8 ef8 d8~ } d2 |
-  \break
+  \xBreak
   c'4~ \tuplet 3/2 { c8 g8 af8 } bf8 ef,4 f8 | g4~ \tuplet 3/2 { g8 af8 fs8 } g2 |
-  \break
+  \xBreak
   gf4 \tuplet 3/2 { gf8 ef4 } \tuplet 3/2 { gf8 gf8 f8~ } f8 ef8 | ef2 r2 |
 
   \bar "|."

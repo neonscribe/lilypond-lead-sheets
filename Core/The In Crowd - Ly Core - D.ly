@@ -52,26 +52,26 @@ refrainMelody = \relative f' {
 
   r4 \acciaccatura af'8 a4 g8 f8 d8 f8 | r8 g4.~ g2 |
   r4 \acciaccatura af8 a4 g8 f8 d8 f8~ | f8 d8 c8 <d c>8~ <d c>2 |
-  \break
+  \xBreak
   r4 \acciaccatura af'8 a4 g8 f8 d8 f8 | r8 g4.~ g2 |
   r8 gs8 a8 c8~ c4 \tuplet 3/2 { a16 g16 f16 } d8 | g8 d8 f4 d2 |
 
   \bar "||-||"
-  \break
+  \xBreak
 
   r2 r8 f8 e8 d8~ | d8 f8 r8 e8 r8 d8 f4 |
   f4 e8 d8 e8 d8 r8 d8~ | d8 r8 d8 f4-. d4. |
-  \break
+  \xBreak
   <a' fs>4 r4 r8 d,8 f4 | r8 d8 f4-. d4 r8 f8-. |
   r8 d4. \acciaccatura e8 <f d>8 e8 c8 d8~ | d8 c8 c8 b8 c4. r8 |
-  \break
+  \xBreak
   r4 fs4 r8 fs8 r4 | as4 fs8 e8 fs4 r4 | r2 b8 a8 b8 b8 | fs8 d8 e8 d8 r2 |
-  \break
+  \xBreak
   r4 e2 fs4 | e8 d8 b8 e8 r2 | r8 e8 e8 d8 e4 r8 d8 |
   <a' e>8 <b fs>8~ <b fs>8 <c g>8~ <c g>2 |
 
   \bar "||-||"
-  %% \break
+  %% \xBreak
 
 
 

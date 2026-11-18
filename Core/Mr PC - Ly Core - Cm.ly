@@ -30,9 +30,9 @@ refrainMelody = \relative f' {
   \tempoFour "Fast [John Coltrane 1959]" 262
 
   c8 c8 d8 d8 ef8 ef8 f8 f8 | g4. f8 ef8 c4 bf8 | c2 bf4. c8~ | c4 r4 r2 |
-  \break
+  \xBreak
   f8 f8 g8 g8 af8 af8 bf8 bf8 | c4. bf8 g8 f4 ef8 | c2 bf4. c8~ | c4 r4 ef8 c8 ef8 gf8~ |
-  \break
+  \xBreak
   gf8 f4.~ f4. gf8~ | gf8 f4 ef8 f4 ef4 | c2 bf4. c8~ | c4 r4 r2 |
 
   \bar "|."

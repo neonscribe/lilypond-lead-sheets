@@ -32,19 +32,6 @@ make second pass pdf output
 add pdf bookmarks using toc entries from bookfile
 """
 
-def threepagetype(filename):
-    for name in threepagers.rectoThrees:
-        pattern = '/' + name + ' - '
-        match = re.search(pattern, filename)
-        if match:
-            return 'recto'
-    for name in threepagers.versoThrees:
-        pattern = '/' + name + ' - '
-        match = re.search(pattern, filename)
-        if match:
-            return 'verso'
-    return False
-
 def book_to_pdf(*arguments):
     arg_filename = arguments[-1]
     options = arguments[:-1]
@@ -207,7 +194,7 @@ def book_to_pdf(*arguments):
             insert_count += 1
             blank_page_inserts.append(True)
         elif page_count == 3:
-            type = threepagetype(filename)
+            type = threepagers.threepagetype(filename)
             if type == 'verso' and mod2 == 1 or type == 'recto' and mod2 == 0:
                 insert_count += 1
                 blank_page_inserts.append(True)

@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
 
   ef4 ef2. | d8 ef8 c8 d8 ef4 f4 | g4. g8 bf4. bf8 | g2 d8 ef8 c8 d8 |
-  \break
+  \xBreak
   ef4 ef2. | d8 ef8 c8 d8 ef4 f4 | g4. g8 bf4. bf8 | df1 |
 
   \sect "B"
@@ -78,17 +78,17 @@ refrainMelody = \relative f' {
   \alternative { \volta 1 {
 
   c1 | d8 c8 bf8 af8 g4 f4 | ef4. ef8 g4. g8 | ef1 |
-  \break
+  \xBreak
   c'1 | d8 c8 bf8 af8 g4 f4 | ef4. ef8 c'4. c8 | df,2 d8 ef8 c8 d8 |
 
-  \break
+  \xBreak
 
   } \volta 2 {
 
   \xTextMark \markup{ \bold \box "C" }
 
   c'1 | d8 c8 bf8 af8 g4 f4 | ef4. ef8 g4. g8 | c4. c8 ef4. ef8 |
-  \break
+  \xBreak
   f4 ef4 bf2~ | bf2 d8 ef8 c8 d8 | ef1~ | ef2
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

@@ -44,16 +44,16 @@ refrainMelody = \relative f' {
   \endParenthesis \parenthesize
   c8 |
   }
-  \break
+  \xBreak
 
   \sectNoBarNoBreakSegno "A"
 
   \bar ":|.|:"
   \repeat volta 2 {
   g'4 c,8 ef8~ ef4 r4 | r4 c8 c8 ef8 c8 f8 c8~ | c4 r4 r2 | r4 c8 c8 ef8 c8 f8 c8 |
-  \break
+  \xBreak
   g'4 c,8 ef8~ ef4 r4 | r4 c8 c8 ef8 c8 f8 c8~ | c4 r4 r2 | r4 c8 c8 ef8 c8 f8 c8 \textToCodaLastTime |
-  \break
+  \xBreak
   g'8 bf4.~ bf4 gf8 f8~ | f4. c8 ef8 c8 f8 c8~ | c4 r4 r2 | r4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

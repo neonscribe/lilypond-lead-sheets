@@ -62,20 +62,20 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   f2. | gf4 af4 df4 | f,2. | gf4 af4 df4 |
-  \break
+  \xBreak
   f,2. | gf4 af4 df4 | f2. | ef2. |
 
   \sect "B"
 
   f,2. | gf4 af4 df4 | f,2. | gf4 af4 df4 |
-  \break
+  \xBreak
   f,2. | g4 af4 df4 | f2. | af,2~ af8 gf8 |
   \bar "||"
 
   \pianoPageBreak "A2" "||" "||-||"
 
   f2. | gf4 af4 df4 | f,2. | gf4 af4 df4 |
-  \break
+  \xBreak
   f,2. | af4 df4 f4 | af2. | gf2 a,4 |
 
   \sect "C"

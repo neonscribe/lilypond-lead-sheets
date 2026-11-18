@@ -113,13 +113,13 @@ refrainMelody = \relative f' {
   \sect "A2"
 
   c1 | b2~ b8 a4 gs8 | a2 e2~ | e2 \tuplet 3/2 { e4 f4 g4 } |
-  \break
+  \xBreak
   a4 c4 a2 | g2~ g8 e4 c8 | d1~ | d2 e4 f4 |
 
   \sect "C"
 
   a1 | g2 r8 a4 b8 | d2. c4 | a2 c4 d4 |
-  \break
+  \xBreak
   e2 ef2~ | ef2 d2 | c1~ | c4 r4 r2 |
 
   \bar "|."

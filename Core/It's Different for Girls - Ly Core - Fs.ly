@@ -112,7 +112,7 @@ refrainMelody = \relative f' {
   \sect "A1"
 
   r2 as8 as8 as8 b8 | gs4 gs4 gs8 b8 as4 | r2 as8 as8 as8 b8 |
-  \break
+  \xBreak
   gs4 gs4 gs8 b8 as4 |
   fs1 |
   \time 2/4
@@ -122,7 +122,7 @@ refrainMelody = \relative f' {
   \sect "A2"
 
   r2 as8 as8 as8 b8 | gs4 gs4 gs8 b8 as4 | r2 as8 as8 as8 b8 |
-  \break
+  \xBreak
   gs4 gs4 gs8 b8 as4 |
   fs1 |
   \time 2/4
@@ -132,7 +132,7 @@ refrainMelody = \relative f' {
   \sect "B"
 
   r4 ds'4 cs2~ | cs8 cs8 cs8 cs8 ds4 cs4 | ds4.( cs8) cs2 | r8 cs8 cs8 cs8 ds4 cs4 |
-  \break
+  \xBreak
   r4 ds4 cs2 | r8 cs8 cs8 cs8 ds8( cs8) cs4 | ds4.( cs8) cs4. cs8 | e8 e8 e8 e8 ds8 cs8 b8( cs8) |
 
   \alwaysPageBreak "Chorus" "||" "||-||"
@@ -140,19 +140,19 @@ refrainMelody = \relative f' {
   \segnoSign
 
   cs1 | cs4 as4 gs8 fs8 fs8( gs8) | r4 cs8 e8 fs4 ds8 b8 | a8 a8 a8 a8~ a8 b8 b8 cs8 |
-  \break
+  \xBreak
   cs1 | cs4 as4 gs8 fs8 fs8( gs8) | r4 cs8 e8 fs4 ds8 b8 | a8 a8 a8 a8~ a2~ | a4 r8 cs8 b4 e8 cs8~ \textToCoda |
 
-  \break
+  \xBreak
   \alternative { \volta 1 {
 
   cs1 | r1 |
 
-  \break
+  \xBreak
   } \volta 2 {
 
   cs4\repeatTie cs8 b8~ b4 e8 cs8~ | cs4 cs8 b8~ b4 e8 cs8~ | cs4 cs8 b8~ b4 e8 cs8~ | cs4 cs8 b8~ b4 e8 cs8~ |
-  \break
+  \xBreak
   cs4 cs8 b8~ b4 e8 cs8~ | cs4 cs8 b8~ b4 e8 cs8~ | cs4 cs8 b8~ b4 e8 cs8 | e8 e8 cs8 a8 b8 a8 b8( a8) \dalSegno |
   } } }
   \bar "||-||"

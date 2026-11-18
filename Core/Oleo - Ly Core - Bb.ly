@@ -38,25 +38,25 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
 
   r8 bf4 g8 c4. bf8~ | bf8 g8 d'2 ef8 d8 | r8 bf4 g8 d'8 ef8 d8 c8 | bf8 g8 gs8 a8 r8 bf4 g8 |
-  \break
+  \xBreak
   c4. bf8~ bf8 g8 bf4 | r8 bf4 g8 ef'8 d8 bf8 c8 | r4 r8 g8~ g8 bf4 g8 | d'4 r8 c8 d8 c8 a8 f8 |
 
   \sect "A2"
 
   r8 bf4 g8 c4. bf8~ | bf8 g8 d'2 ef8 d8 | r8 bf4 g8 d'8 ef8 d8 c8 | bf8 g8 gs8 a8 r8 bf4 g8 |
-  \break
+  \xBreak
   c4. bf8~ bf8 g8 bf4 | r8 bf4 g8 ef'8 d8 bf8 c8 | r4 r8 g8~ g8 bf4 g8 | df'8 bf8 c8 bf8 r2 |
 
   \sect "B"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \sect "A3"
 
   r8 bf4 g8 c4. bf8~ | bf8 g8 d'2 ef8 d8 | r8 bf4 g8 d'8 ef8 d8 c8 | bf8 g8 gs8 a8 r8 bf4 g8 |
-  \break
+  \xBreak
   c4. bf8~ bf8 g8 bf4 | r8 bf4 g8 ef'8 d8 bf8 c8 | r4 r8 g8~ g8 bf4 g8 | df'8 bf8 c8 bf8 r2 |
 
   \bar "|."

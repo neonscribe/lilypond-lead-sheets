@@ -72,27 +72,27 @@ refrainMelody = \relative f' {
 
   \tuplet 3/2 { a8 gs8 a8~ } a4 r8 gs8 a8 as8 | \tuplet 3/2 { b8 as8 b8~ } b4 r4 r8 g8 |
   a8 g8 a8 g8 a8 b8 c8 cs8~ | cs2 r8 a'8 gs8 a8 |
-  \break
+  \xBreak
   e8 e8 e4 r8 a,8 gs8 a8 | e'8 e8 e2 r8 g,8 | a8 c4 ef8~ 8 c8 ef8 d8~ | d2 r8 fs,8 g8 gs8 |
 
   \sect "A2"
 
   \tuplet 3/2 { a8 gs8 a8~ } a4 r8 gs8 a8 as8 | \tuplet 3/2 { b8 as8 b8~ } b4 r4 r8 g8 |
   a8 g8 a8 g8 a8 b8 c8 cs8~ | cs2 r8 a'8 gs8 a8 |
-  \break
+  \xBreak
   e8 e8 e4 r8 a,8 gs8 a8 | e'8 e8 e2 r8 g,8 | a8 b8 c8 d8 e8 c8 a8 c8~ | c2. r4 |
 
   \lyricsPageBreak "B" "||" "||-||"
 
   e8 f8 ds8 e8~ e2 | e8 f8 ds8 e8~ e2 | r4 a,4 cs8 d8 e8 d8 | cs1 |
-  \break
+  \xBreak
   d4 b8 a8~ a8 a8 b8 a8 | d4 b8 a8~ a2 | r4 g8 a8 \tuplet 3/2 { b8 d8 b8~ } b8 g8 | g2 r8 fs8 g8 gs8 |
 
   \sect "A3"
 
   \tuplet 3/2 { a8 gs8 a8~ } a4 r8 gs8 a8 as8 | \tuplet 3/2 { b8 as8 b8~ } b4 r4 r8 g8 |
   a8 g8 a8 g8 a8 b8 c8 cs8~ | cs2 r8 a'8 gs8 a8 |
-  \break
+  \xBreak
   e8 e8 e4 r8 a,8 gs8 a8 | e'8 e8 e2 r8 g,8 | a8 b8 c8 d8 e8 c8 a8 c8~ | c2. r4
 
   \bar "|."

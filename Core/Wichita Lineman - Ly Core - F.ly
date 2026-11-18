@@ -82,7 +82,7 @@ refrainMelody = \relative f' {
   \repeat volta 3 {
 
   a8 c4.~ c4 r4 | r4 f,8 g8 bf8 a8 f8 c8 | c2. r4 |
-  \break
+  \xBreak
   \set melismaBusyProperties = #'()
   \slurDashed
   f16( f16)
@@ -92,17 +92,17 @@ refrainMelody = \relative f' {
   \unset melismaBusyProperties
   c8 c8 | c8 d4. b8( a8) g8 a8~ | a2. r4 |
 
-  \break
+  \xBreak
 
   r8 a8 a8 a8 a8 a8 g8 fs8 |
 
   d8 e4.~ e4 r4 | r4 a8 a8 a8 a8 g8 fs8 |
 
-  \break
+  \xBreak
 
   g8( fs8 d2) r4 | r4 d8 d8 \tuplet 3/2 { a'4 g4 fs4 } | g8( fs8) d2 r4 |
 
-  \break
+  \xBreak
 
   r4 r8 d8 e8 d8 d8 d'8~ | d1~ | d4 r4 r2 | r1 |
 
@@ -115,7 +115,7 @@ refrainMelody = \relative f' {
   r1 |
 
   } } }
-  \break
+  \xBreak
   \repeat volta 2 {
 
   \ambitusOff

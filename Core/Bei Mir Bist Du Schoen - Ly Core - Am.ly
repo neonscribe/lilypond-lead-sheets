@@ -111,13 +111,13 @@ refrainMelody = \relative f' {
   \sectNoBreak "V1"
 
   c8 c4 c8~ c8 b4 a8 | d4 b4~ b8 e,8 a8 b8 | c8 c4 c8~ c8 b4 a8 | d4 b4~ b8 e,8 a8 b8 |
-  \break
+  \xBreak
   c8 c4 c8~ c8 b4 a8 | d8 d4 d8~ d8 c4 b8 | c8 c4 c8~ c8 b4 a8 | b2 r8 e,8 a8 b8 |
 
   \sect "V2"
 
   c8 c4 c8~ c8 b4 a8 | d4 b4~ b8 e,8 a8 b8 | c8 c4 c8~ c8 b4 a8 | d4 b4~ b8 e,8 a8 b8 |
-  \break
+  \xBreak
   c8 c4 c8~ c8 b4 a8 | d8 d4 d8~ d8 c4 b8 | ef8 ef4 ef8~ ef8 d4 c8 | e4 r4 r8 e,4. |
 
   \bar ".|:-||"

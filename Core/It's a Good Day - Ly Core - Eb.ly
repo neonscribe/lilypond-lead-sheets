@@ -61,41 +61,41 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   g2 g2~ | g2. fs4 | g4 f4 ef4 g4~ | g4 ef4 f4 ef4 |
-  \break
+  \xBreak
   f2 f2~ | f2. ef4 | g4 ef4 c4 ef4~ | ef4 bf'4 c4 bf4 |
-  \break
+  \xBreak
   c4 g2.~ | g4 g2 fs4 | g4 f4 ef4 c4 | ef2. c4 |
-  \break
+  \xBreak
   f4 f2 ef4 | f4 ef4 c4 ef4~ | ef1 | r4 bf'4 c4 bf4 |
 
   \sect "A2"
 
   c2. c4~( | c4 g2) fs4 | g4 bf4 c4 g4~ | g4 ef4 f4 ef4 |
-  \break
+  \xBreak
   f2 f2~ | f2. ef4 | g4 ef4 c4 ef4~ | ef1 |
-  \break
+  \xBreak
   c'4 bf4 c4 bf4 | g2. fs4 | g4 bf4 c4 g4~ | g4 ef4 f4 ef4 |
-  \break
+  \xBreak
   f4 f2 ef4 | f4 ef4 c4 ef4~ | ef1~ | ef2. ef4 |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   f4 ef4 gf4 f4~ | f2. ef4 | ef'2 c2 | gf4( f2.) |
-  \break
+  \xBreak
   r4 f2 ef4 | f2 ef4 f4~ | f1 | r4 bf4 c4 bf4 |
-  \break
+  \xBreak
   c4 bf4 c2 | c4 bf4 c4 bf4 | c4 bf4 c4 bf4 | c4 bf2. |
-  \break
+  \xBreak
   c4 bf4 c4 bf4 | c4 bf4 df4 c4 | bf1 | r4 bf4 c4 bf4 |
 
   \sect "A3"
 
   c4 g2.~ | g2. fs4 | g4 bf4 c4 g4~ | g4 ef4 f4 ef4 |
-  \break
+  \xBreak
   f2 f2~ | f2. ef4 | g4 ef4 c4 ef4~ | ef4 bf'4 c4 bf4 |
-  \break
+  \xBreak
   c2 g2~ | g2. fs4 | g4 f4 ef4 c4 | ef4 bf4 c4 ef4 |
-  \break
+  \xBreak
   f4 f2 ef4 | f4 ef4 c4 ef4~ | ef1~ | ef2 r2 |
 
   \bar "|."

@@ -44,7 +44,7 @@ refrainMelody = \relative f' {
     \relative { bf2_"Top line is melody" af2~ | af2. r4 | bf2 af2~ | af2. r4 | }
   >>
   \bar "||-||"
-  \break
+  \xBreak
 
   <<
     \relative { c''2 bf2~ | bf2. r4 | g2 f2~ | f2. af4 | }
@@ -52,7 +52,7 @@ refrainMelody = \relative f' {
     \relative { ef'2 df2~ | df2. r4 | bf2 af2~ | af2. af4 | }
   >>
   \bar "||-||"
-  \break
+  \xBreak
   <<
     \relative { a'2. af4 | }
     \relative { ef'2. d4 | }
@@ -69,14 +69,14 @@ refrainMelody = \relative f' {
     \relative { gf1~ | gf2. r4 | }
   >>
   \bar "||-||"
-  \break
+  \xBreak
   <<
     \relative { g'2 f2~ | f2. r4 | g2 f2~ | f2. r4 | }
     \relative { d'2 c2~ | c2. r4 | d2 c2 | c2. r4 | }
     \relative { bf2 af2~ | af2. r4 | bf2 af2~ | af2. r4 | }
   >>
   \bar "||-||"
-  \break
+  \xBreak
 
   <<
     \relative { c''2 bf2~ | bf2. r4 | g2 f2~ | f2. af4 | }
@@ -84,7 +84,7 @@ refrainMelody = \relative f' {
     \relative { ef'2 df2~ | df2. r4 | bf2 af2~ | af2. af4 \textToCodaLastTime | }
   >>
   \bar "||-||"
-  \break
+  \xBreak
   <<
     \relative { a'2. af4 | }
     \relative { ef'2. d4 | }

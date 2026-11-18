@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \unset melismaBusyProperties
   e8 ef8 | d8 ef8 e8 af8 e4 r4 |
 
-  \break
+  \xBreak
   r8 g8 af8 bf8 \tuplet 3/2 { af8 bf8 af8 } g8 b8-> | r8 bf8 r8 af8 g8 f8 ef8 df8 |
   c8 gf'8 f4~ f4. \acciaccatura ds8 e8-> | r8 c8-> r4 r8 c8-> r4 |
 
@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
 
   r8 g'8 af8 bf8 c8 bf8 fs8 g8 | \tuplet 3/2 { bf8 d8 g8 } fs8 d8 r2 |
   r8 f,8 g8 af8 bf8 af8 e8 f8 | \tuplet 3/2 { af8 c8 f8 } e8 c8 r2 |
-  \break
+  \xBreak
   g8-. g8 f8 g8 bf8 af8 g8 f8 | b8-. b8 a8 b8 d8 c8 bf8 af8 |
   g4 d'8\glissando b8 c4 a'8\glissando fs8 | g4 r4 r4 r8 f,8-> |
 
@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
 
   r8 c8 r8 d8 ef8 f8 fs8 a8 | d8 a8 fs8 ef8 d'4 \tuplet 3/2 { a8 fs8 ef8 } |
   a8\glissando fs8 g8 a8 c8\glissando a8 bf8 c8 | ef8\glissando cs8 d8 g8 f8 \parenthesize f,8 r4 |
-  \break
+  \xBreak
   r8 gf4 a16 \parenthesize d16 f8 d8 a8 gf8 | f'4 d8 a8~ a4 r4 |
   r8 f4 af16 \parenthesize df16 e8 df8 af8 f8 | e'4 df8 af8~ af4  r8 bf8~-> |
 
@@ -117,7 +117,7 @@ refrainMelody = \relative f' {
   \unset melismaBusyProperties
   e8 ef8 | d8 ef8 e8 af8 e4 r4 |
 
-  \break
+  \xBreak
   r8 g8 af8 bf8 \tuplet 3/2 { af8 bf8 af8 } g8 b8-> | r8 bf8 r8 af8 g8 f8 ef8 df8 |
   c8 gf'8 f4 f4. \acciaccatura ds8 e8-> | r8 c8->
   \override Parentheses.font-size = #5

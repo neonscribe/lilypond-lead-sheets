@@ -110,11 +110,11 @@ refrainMelody = \relative f' {
   >>
   \oneVoice
   c8 | e8 d4 c8~ c4 a8 a8 | c8 a8 a2 g8 a8~ | a2 r2 |
-  \break
+  \xBreak
   a8 a8 a8 a8 c8 c8 d8 c8 | e8 d4 c8~ c4 a8 g8 | c8 a8 a2 g8 a8~( | a8 c4.) r2 |
-  \break
+  \xBreak
   a8 a8 a8 a8 c4 d8 c8 | e4 d8 c8( a4) r8 a8 | e'4 d4 c8 d4. | g8 e4 d8~ d4 a8 g8 |
-  \break
+  \xBreak
   a8 a8 c4 r4 d8 d8 | e8 e8 d4( e4) a,8 c8( | a2) r2 \textToCodaLastTime |
   \alternative { \volta 1 {
   r1 |
@@ -128,18 +128,18 @@ refrainMelody = \relative f' {
   \sectNoBar "Chorus"
 
   g'2. e4 | d8( c4.) r4 d4 | d2. e4 | d8( c4.) r4 g'4 |
-  \break
+  \xBreak
   g2. e4 | d8( c4.) r4 e4 | d4( c2) a4 | a2 r2 | r1 |
-  \break
+  \xBreak
   g'2. e4 | d8( c4.) r4 d4 | d2. e4 | d8( c4.) r2 |
-  \break
+  \xBreak
   g'2. e4 | d8( c4.~ c4) e4 | d4( c2) a4 | a2 r2 | r1 |
 
   \sect "Solo"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -148,7 +148,7 @@ refrainMelody = \relative f' {
   } \volta 4 {
   \sectNoBar "Coda"
   r2 r4 a8 g8 | a8 a8 c4 r4 d8 d8 | e8 e8 d4( e4) a,8 c8( | a2) r2 | r2 r4 a8 g8 |
-  \break
+  \xBreak
   a8 a8 c4\fermata r4 d8 d8 | e8 e8\fermata d4( e4\fermata) a,8 c8( | a2\fermata) r2 | r1 |
   } } }
   \bar ":|."

@@ -112,25 +112,25 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   c'4 g8 e8~ e2~ | e2 \tuplet 3/2 { c'4 d4 c4 } | b4 gs8 e8~ e2~ | e1 |
-  \break
+  \xBreak
   a4. g8 e2~ | e4 ds4 \tuplet 3/2 { e4 bf'4 a4 } | g2 f2~ | f1 |
 
   \sect "B"
 
   e4. ef8 d2~ | d2 \tuplet 3/2 { e4 gs4 b4 } | d2 c2~ | c1 |
-  \break
+  \xBreak
   b4. bf8 a2~ | a2 \tuplet 3/2 { a4 d4 b4 } | a1 | b1 |
 
   \sect "A2"
 
   c4 g8 e8~ e2~ | e2 \tuplet 3/2 { c'4 d4 c4 } | b4 gs8 e8~ e2~ | e1 |
-  \break
+  \xBreak
   a4. g8 e2~ | e4 ds4 \tuplet 3/2 { e4 bf'4 a4 } | g2 f2~ | f1 |
 
   \sect "C"
 
   d'2 c4 b4 | d2. c4 | b2 e,4 g4 | b2. a4 |
-  \break
+  \xBreak
   c2 a4 c4 | e2 e2 | c1~ | c1 |
 
   \bar "|."

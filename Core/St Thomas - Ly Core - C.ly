@@ -38,25 +38,25 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   r4 g8 c8 r8 b8 r8 a8 | g4-. a4-. e4-. f4-. | g4-. c4-. b4-. c4-- | r1
-  \break
+  \xBreak
   r4 g8 c8 r8 b8 r8 a8 | g4-. a4-. e4-. f4-. | g4-. c4-. b4-. c4-- | r1
-  \break
+  \xBreak
   e2 f4. g8 | r1 | f2 e4. d8 | r1 |
-  \break
+  \xBreak
   e2 d2 | c4. a8~ a2 | g4-. c4-. b4-. c4-- \textFine | r1 |
   }
-  \break
+  \xBreak
 
   \sectNoBar "Solos"
 
   \bar ":|.|:"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq_"After solos, D.C. al Fine on repeat." \rsq \rsq |
   }

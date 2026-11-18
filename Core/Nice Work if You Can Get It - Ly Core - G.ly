@@ -68,27 +68,27 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   b4 c4 c4 b4 | a4 b2. | g4 a4 a4 g4 | fs1 |
-  \break
+  \xBreak
   d4. e8~ e8 d8 e8 g8 | a8 b4. r8 d,8 e8 g8 | a8 b4. g4 g8 g8~ | g2. r4 |
 
   \sect "A2"
 
   b4 c4 c4 b4 | a4 b2. | g4 a4 \tuplet 3/2 { a4 af4 g4 } | fs1 |
-  \break
+  \xBreak
   d4. e8~ e8 d8 e8 g8 | a8 b4. r8 d,8 e8 g8 | a8 b4. g4 g8 g8~ | g1 |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   r8 b4 g8 b4 g4 | bf4. g8~ g2 | b8 b8 b,8 b8 e8 g4. | fs1 |
-  \break
+  \xBreak
   r8 a4 f8 a4 f4 | a4. a8~ a4 a8 b8 | d4 d4 d8 e8 b4 | as1 |
 
   \sect "C"
 
   b4 c4 c4 b4 | a4 b2. | g4 a4 \tuplet 3/2 { a4 af4 g4 } | fs1 |
-  \break
+  \xBreak
   d4. e8~ e8 d8 e8 g8 | a8 b4. r8 d,8 e8 g8 | a8 b4.~ b2 |
-  \break
+  \xBreak
   d4 b4 g4 e4 | g1 | r1 |
 
   \bar "|."

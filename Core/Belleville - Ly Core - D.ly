@@ -38,21 +38,21 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   r8 d'8 cs4 c4 b4 | bf4 gs8 a8~ a4 r4 | r8 d8 cs4 c4 b4 | bf4 gs8 a8~ a4 r4 |
-  \break
+  \xBreak
   r8 d8 cs4 c4 b4 | bf4 gs8 a8~ a4 r4 | d,8 d8 r8 d8 fs4-. a4-. | d,4-. r8 d8 r2 |
   }
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "B" }
 
   r8 g4. bf4 d4 | e4. d8~ d4 r4 | r4 r8 f,8 fs4 a8 cs8~ | cs2 r2 |
-  \break
+  \xBreak
   cs8 cs8 cs8 cs8~ cs4 r4 | cs8 cs8 cs8 cs8~ cs4 r4 | r8 cs4 cs8 b4 as4 | fs2 a2 |
 
   \sect "A3"
 
   r8 d8 cs4 c4 b4 | bf4 gs8 a8~ a4 r4 | r8 d8 cs4 c4 b4 | bf4 gs8 a8~ a4 r4 |
-  \break
+  \xBreak
   r8 d8 cs4 c4 b4 | bf4 gs8 a8~ a4 r4 | d,8 d8 r8 d8 fs4-. a4-. | d,4-. r8 d8 r2 |
 
   \bar "|."

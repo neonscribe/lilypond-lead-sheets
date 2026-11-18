@@ -80,11 +80,11 @@ refrainMelody = \relative f' {
   \sectNoBar "Verse"
 
   r8 g8 a8 g8 fs4 e4 | f8 fs4 b8~ b4 a4 | r8 g8 a8 g8 fs4 e4 | f8 fs4 b8~ b4 a4 |
-  \break
+  \xBreak
   b4 b4 b8 b4. | b1 | r8 g8 fs8 f8 e8 g4. | a2. r4 |
-  \break
+  \xBreak
   r8 g8 a8 g8 fs4 e4 | f8 fs4 b8~ b4 a4 | g8 a8 b8 g8 a8 b4 a8~ | a2. b4 |
-  \break
+  \xBreak
   a8 b4 a8~ a4 e4 | a8 b4 a8~ a4. e8 | a4 a4 a8 a4. | a2. r4 |
 
   \bar ".|:-||"
@@ -94,13 +94,13 @@ refrainMelody = \relative f' {
   \sectNoBar "Refrain"
 
   b8 as8 b8 as8 b4 fs4 | b1 | b8 as8 b8 as8 b4 fs4 | fs8( e4.~ e2) |
-  \break
+  \xBreak
   f8 fs4 b8~ b4 a4 | g2. \tuplet 3/2 { e8 fs8 g8 } | a4 e4 a8 a4 a8~ | a1 |
 
   \sect "B"
 
   b8 as8 b8 as8 b4 fs4 | fs8( e4.~ e2) | a8 g8 a8 g8 a4 bf4 | b2. fs8 g8 |
-  \break
+  \xBreak
   a8 gs8 a8 bf8~ bf4 a8 g8 | b4 b8 b8~ b2 | b8 as8 b8 as8 b8 d,4. |
   g4 \tuplet 3/2 { a8 as8 b8 } fs8 e4. | a8 b8 c8 cs8 d4 b8 g8~ | g2. r4 |
   }

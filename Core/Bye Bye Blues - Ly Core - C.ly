@@ -116,25 +116,25 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
 
   e'1 | g,1 | af1~ | af1 |
-  \break
+  \xBreak
   e'1 | g,1 | a1~ | a1 |
 
   \sect "B"
 
   e'1 | a,1 | e'1 | b1 |
-  \break
+  \xBreak
   d2 c2 | b2 a2 | c2 b2 | a2 g2 |
 
   \sect "A2"
 
   e'1 | g,1 | af1~ | af1 |
-  \break
+  \xBreak
   e'1 | g,1 | a1~ | a1 |
 
   \sect "C"
 
   e'1 | a,1 | e'1 | b1 |
-  \break
+  \xBreak
   c1 | af1 | c1 | r1 |
 
   \bar "|."

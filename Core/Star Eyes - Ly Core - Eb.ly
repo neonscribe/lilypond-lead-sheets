@@ -77,22 +77,22 @@ refrainMelody = \relative f' {
 
   \repeat volta 2 {
   f2 ef2 | r4 ef8 f8 g8 bf8 g8 bf8 | f2 ef2 | r4 ef8 f8 gf8 af8 bf8 c8 |
-  \break
+  \xBreak
   bf2 af2 | r4 df8 c8 bf8 c8 df8 ef8 | c2.. c8 | cf8 df8 cf8 df8 bf2 |
   }
 
   \sect "B"
 
   ef4 ef4 ef4. af,8 | bf2. af4 | ef'4. ef8 cf8 ef,8 gf8 df'8 | bf1 |
-  \break
+  \xBreak
   df4. df,8 ef8 f8 gf8 af8 | bf2.. bf8 | af8 af4. bf4 af4 | f1 |
 
   \sect "C"
 
   f2 ef2 | r4 ef8 f8 g8 bf8 g8 bf8 | f2 ef2 | r4 ef8 f8 gf8 af8 bf8 c8 |
-  \break
+  \xBreak
   bf2 af2 | r4 df8 c8 bf8 c8 df8 ef8 | c2.. c8 | cf8 df8 cf8 df8 bf4 bf4 |
-  \break
+  \xBreak
   bf2. bf4 | af2 g2 | r4 f4 \tuplet 3/2 { af4 c4 ef4 } \textToCodaLastTime | ef2 r2 |
   
   \xxPageBreak

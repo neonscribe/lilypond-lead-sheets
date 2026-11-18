@@ -45,13 +45,13 @@ refrainMelody = \relative f' {
   
   c8 a8~ a2. | g8 f8 g8 f8 g4. f8 | d8( c8~ c2.~ | c2.) c'8 a8 |
   \bar "||-||"
-  \break
+  \xBreak
   c8 a8~ a2. | g8 f8 g8 f8 g4. f8 | d8 c8~ c2.~ | c2 r8 a'8 a8 c8 |
   \bar "||-||"
-  \break
+  \xBreak
   c8 a8~ a2 c8 a8 | c4 a2 f8 f8 | g2~ g8 a8 g8 a8 | g2~ g8 e'8 e8 d8 |
   \bar "||-||"
-  \break
+  \xBreak
   d8 c4.~ c4. c,8 | bf'2. a8 a8 | f1~ | f2 r4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize c'8

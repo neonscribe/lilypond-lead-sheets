@@ -43,11 +43,11 @@ verseMelody = \relative f' {
   \xTextMark \markup{ \bold "Verse" }
 
   a4 fs4 d4 b4 | c4 e2 g4 | a8 a8 fs4 d4 b4 | c4 e2. |
-  \break
+  \xBreak
   r4 fs4 d4 b4 | c4 e4 g2 | r4 fs8 a8~ a8 fs4 a8 | b2 e,2 |
-  \break
+  \xBreak
   r4 d4 \tuplet 3/2 { d4 e4 d4 } | f8 e4. d4 d4 | b'1~ | b2. b4 |
-  \break
+  \xBreak
   a4 a4 a8 d,4. | fs8 fs8 fs2 cs4 | e1 | r1 |
 
   \bar "|."
@@ -93,25 +93,25 @@ refrainMelody = \relative f' {
   \sectStartRefrain "A1"
 
   d4 b2. | c4 b4 c4 d4 | e4 b2. | d4 c4 d4 e4 |
-  \break
+  \xBreak
   fs4 d2 fs4 | g4 e4 fs4 g4 | a1~ | a2. g4 |
 
   \sect "B"
 
   b4. b8~ b8 fs4 g8 | a4. a8~ a8 e4 fs8 | g4. g8~ g2 | r2 r4 fs4 |
-  \break
+  \xBreak
   a4. a8~ a8 e4 fs8 | g4. g8~ g8 d4 e8 | fs1~ | fs2 r4 e4 |
 
   \sect "A2"
 
   d4 b2. | c4 b4 c4 d4 | e4 b2. | d4 c4 d4 e4 |
-  \break
+  \xBreak
   fs4 d2 fs4 | g4 e4 fs4 g4 | a1~ | a2. g4 |
 
   \sect "C"
 
   b1 | b4 d4 b4 a4 | g4 e2 g4 | b8 d8 b2 a4 |
-  \break
+  \xBreak
   g4 e2 g4 | c4 g4 a2 | g1 | r1 |
 
   \bar "|."

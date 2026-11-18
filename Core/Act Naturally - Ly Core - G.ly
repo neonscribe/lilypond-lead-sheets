@@ -114,7 +114,7 @@ refrainMelody = \relative f' {
 
   d'2. d8 b8 | d4 d4 d4 d8 e8~ | e4 c2. | r1 |
   d4 d8 d8 d4 d8 e8~ | e4 d4 d4 b4 | a2. r4 | r2 r4 r8 b8 |
-  \break
+  \xBreak
   d4 d8 d8~ d8 d8 d8 d8 | d4 d4 d4 d8 e8~ | e4 c2. | r2 r4 r8 c8 |
   d8 cs8 d8 cs8 d8 d4 r8 | r8 d4 b8~( b8 a4) g8 | g2. r4 \textToCodaSecondAndFourthTime | r2 r8 b8 b4 |
 
@@ -122,7 +122,7 @@ refrainMelody = \relative f' {
 
   a4 a4 r8 a4. | d4 d4 e4 d8 d8~ | d4 b2 r4 | r2 r8 b4. |
   a4 a8 a8~ a8 a4. | d4 e4~ e8 d8 c8 b8~ | b2 r2 | r2 r4 r8 a8 |
-  \break
+  \xBreak
   a4 a4 a4 a4 | d2 e4 d8 d8~ | d4 b2 r4 | r2 r4 r8 b8 |
   a4 a4 a4 a8 cs8~ | cs2 r8 d4 d8~ | d1 | r2 r8 d4 b8 \dalSegnoFirstAndSecondTimes |
   \bar "||"

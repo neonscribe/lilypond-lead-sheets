@@ -66,7 +66,7 @@ refrainMelody = \relative f' {
 
   g4 g2. | g2 g4 a4 | b2. b4 | b1 |
   r4 g4 g4 g4 | g4 g4 a2~ | a4 b2 b4 | b1 |
-  \break
+  \xBreak
   r4 g2 g4 | g4 g4 g2 | g4 g2. | e1 |
   r4 g2 g4 | d2 d4 d4 | g,1 | r1 |
 

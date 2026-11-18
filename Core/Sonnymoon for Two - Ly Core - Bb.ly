@@ -36,10 +36,10 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   r8 bf4.-> af4 f4 | ef4 df4 bf8 bf4-. bf8 |
   r4 r8 ef8~-> ef4 df8 bf8-> | \tuplet 3/2 { r4 bf4 df8 bf8 } ef4 df8 bf8 |
-  \break
+  \xBreak
   r8 bf'4.-> af4 f4 | ef4 df4 bf8 bf4-. bf8 |
   r4 r8 ef8~-> ef4 df8 bf8-> | \tuplet 3/2 { r4 bf4 df8 bf8 } ef4 df8 bf8 |
-  \break
+  \xBreak
   r8 bf'4.-> af4 f4 | ef4 df4 bf8 bf4-. bf8 \textToCodaLastTime |
   r4 r8 ef8~-> ef4 df8 bf8-> | \tuplet 3/2 { r4 bf4 df8 bf8 } ef4 df8 bf8 |
   }

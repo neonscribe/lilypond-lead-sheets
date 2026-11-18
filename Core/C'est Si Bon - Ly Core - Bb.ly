@@ -174,31 +174,31 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   ef1~ | ef8 f4 g8 a8 g8 f4 | d1~ | d8 f4 g8 a8 g8 f4 |
-  \break
+  \xBreak
   ef1~ | ef8 f8 g8 a8 d8 a4 g8~ | g1~ | g2 f4 e4 |
 
   \sect "A2"
 
   ef1~ | ef8 f4 g8 a8 g8 f4 | d1~ | d8 f4 g8 a8 g8 f4 |
-  \break
+  \xBreak
   ef1~ | ef8 f8 g8 a8 d8 f,4 bf8~ | bf1~ | bf4 r4 bf4 b4 |
 
   \sect "B"
 
   df2 bf4 af4 | gf 2 f4 ef4 | ef2 df2~ | df4 r4 bf'4 b4 |
-  \break
+  \xBreak
   c2 bf4 a4 | g2 a4 bf4 | d1 | c4 r4 f,4 e4 |
 
   \alwaysPageBreak "A3" "||" "||-||"
 
   ef1~ | ef8 f4 g8 a8 g8 f4 | d1~ | d8 f4 g8 a8 g8 f4 |
-  \break
+  \xBreak
   ef1~ | ef8 f8 g8 a8 d8 f4 f8~ | f1~ | f2 f4 e4 |
 
   \sect "C"
 
   ef1~ | ef8 d4 c8 ef8 d8 c4 | d1~ | d8 d4 c8 bf8 a8 g4 |
-  \break
+  \xBreak
   gf1~ | gf8 f8 g8 a8 d8 f,4 bf8~ |
   bf1 | r2 f4 e4 |
 

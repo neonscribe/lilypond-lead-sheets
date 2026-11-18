@@ -154,7 +154,7 @@ refrainMelody = \relative f' {
   b8 a4 e4 d4 e8~ | e1~ |
   e8 b4 e4 ef4 d8~ |  d2 \tuplet 3/2 { g4 a4 bf4 } |
   a8 g4 c4 a4 g8~ |
-  \break
+  \xBreak
   g4 a4~ \tuplet 3/2 { a4 d,4 c4 } |
   d2. c4 | d2 e2~ |
   e2 \tuplet 3/2 { g4 d4 c4 } | d2 \tuplet 3/2 { c4 b4 c4 } |
@@ -178,13 +178,13 @@ refrainMelody = \relative f' {
   r8 e4 d8 e8 d4 e8~ | e8 d8 e2. |
   \override Score.Clef.break-visibility = #all-invisible
   \override Score.KeySignature.break-visibility = #all-invisible
-  \break
+  \xBreak
   r8 d4 c8 d8 c4 d8~ | d8 c4 f4 e4 e8~ |
   e4. d8~ d2~ | d2. r4 |
-  \break
+  \xBreak
   r8 g4 f8 g8 f4 g8~ | g8 f4 g8~ g2 |
   r8 f4 e8 f8 e4 f8~ | f8 e8 f2. |
-  \break
+  \xBreak
   r8 e4 d8 e8 d4 e8~ | e8 d4 e4 d8 f4~ |
   f8 e4 f8 e4 f4~ | f8 e4 d4 c4. |
 
@@ -195,16 +195,16 @@ refrainMelody = \relative f' {
 
   r8 e4 d8 e8 d4 e8~ | e8 d4 e8~ e2 |
   r8 e4 d8 e8 d4 e8~ | e8 d8 e4. g4 d8~ |
-  \break
+  \xBreak
   d2 \tuplet 3/2 { c4 d4 c4 } | d8 c4 f4 e4 e8~ |
   e4. d8~ d2~ | d2. r4 |
-  \break
+  \xBreak
   r8 c'4 bf4 af8 g8 f8 | e4. d8~ d2 |
   r4 r8 b'8 a8 g8 f8 e8 | d4. c8~ c2 |
-  \break
+  \xBreak
   r4 r8 a'8 g8 f8 e8 d8 | c8 b4 c4 d4 g8~ |
   g1~ | g2. r4 |
-  \break
+  \xBreak
   r4 r8 a8 g8 f8 e8 d8 | c8 b4 c4 d4 c8~ |
   }
   c1^"last time" |

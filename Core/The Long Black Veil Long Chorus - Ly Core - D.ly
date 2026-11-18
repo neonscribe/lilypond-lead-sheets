@@ -66,24 +66,24 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   d'2 d4 d8 d8~ d4 \parenthesize a4 d4 e8 fs8~ | fs2 fs2 | fs8( e8 d4) d4 d8 e8~ |
-  \break
+  \xBreak
   e2 e2 | e4 r4 a,4 a8 b8~( | b4 d4) d4( e4) | d1 | r2 r4 d8 d8~ |
-  \break
+  \xBreak
   d2 d4 d8 d8~ | d4 r4 \parenthesize d4 e4 | fs2 fs2 | fs8( e8 d4) d4 d4 | e2 e4 fs4 |
-  \break
+  \xBreak
   e4 r4 a,4 a8 b8~( | b4 d4) d4( e4) |
   \alternative { \volta 1 {
   d1 | r2 r4 d4 |
-  \break
+  \xBreak
   } \volta 2 {
   d1 | r2 r4 a4 |
   } } }
   \sectNoBreak "Chorus"
 
   b2 d2 | b8( a4.) r4 a8 a8 | b2 d2 | fs2.~( fs8 e8 | d2) r4 a4 | b2 d8 d4. |
-  \break
+  \xBreak
   b8( a4.) r4 a8 a8 | b2 d2 | fs2.~( fs8 e8 | d2) r2 | a'2 a4 b8 a8~ | a2 r2 |
-  \break
+  \xBreak
   fs2 fs4 g8 fs8~ | fs2 r2 \textToCodaLastTime | d2 d4 d8 e8~ |
   e2 r4 fs4 | fs8( e8 d2.) | r2 r4 d4 \daCapoThirdVerse |
 

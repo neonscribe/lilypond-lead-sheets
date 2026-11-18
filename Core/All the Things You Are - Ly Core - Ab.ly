@@ -77,7 +77,7 @@ introMelody = \relative f' {
 
   \partial 8 a8 |
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 a'8 |
-  \break
+  \xBreak
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 r8 |
 
   \bar "|."
@@ -110,7 +110,7 @@ outroMelody = \relative f' {
 
   \partial 8 a8 |
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2~ c8 af'8 | g8 c,4 af'8 g8 c,4 a'8 |
-  \break
+  \xBreak
   af8 df,8~ df2~ df8 a'8 | af8 df,4 a'8 af8 df,4 af'8 | g8 c,8~ c2\fermata r4 | r1 |
 
   \bar "|."
@@ -175,27 +175,27 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ "Refrain" \bold \box "A1" }
 
   af1 | df2. af4 | g4 g4 g4 g4 | g4 c2 g4 |
-  %% \break
+  %% \xBreak
   f4 f4 f4 f4 | f4 b2 f4 | e1~ | e1 |
 
   \sect "A2"
 
   ef1 | af2. ef4 | d4 d4 d4 d4 | d4 g2 d4 |
-  %% \break
+  %% \xBreak
   c4 c4 c4 c4 | c4 d8 ef8 d4 c4 | b1~ | b4 d4 g4 d'4 |
 
   \sect "B"
 
   d4. c8 c2~ | c4 ds,4 e4 c'4 | b1~ | b4 d,4 g4 b4 |
-  \break
+  \xBreak
   b4. a8 a2~ | a4 bf,4 b4 a'4 | gs1~ | gs1 |
 
   \sect "A3"
 
   af1 | df2. af4 | g4 g4 g4 g4 | g4 c2 g4 |
-  %% \break
+  %% \xBreak
   f1 | ef'2. df4 | ef,4 ef4 \tuplet 3/2 { ef4 ef4 ef4 } | g2. f4 |
-  %% \break
+  %% \xBreak
 
   df4 df4 f4 af4 | f'2 g,2 | af1 | r1 |
 

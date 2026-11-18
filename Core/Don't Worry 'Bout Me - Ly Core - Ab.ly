@@ -54,26 +54,26 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   \tuplet 3/2 { ef'4 ef4 ef4 } ef2~ | ef2 df2 | c4. c8 c2~ | c2. ef,4 |
-  \break
+  \xBreak
   \tuplet 3/2 { c'4 c4 c4 } c2~ | c4 b4 \tuplet 3/2 { bf4 af4 g4 } | f1~ | f4 f4 af4 g4 |
 
   \sect "B"
 
   \tuplet 3/2 { f4 g4 ef4 } f4 af4 | \tuplet 3/2 { bf4 c4 af4 } bf4 c4 | df4. ff,8 ff2~ | ff2 f4 g4 |
-  \break
+  \xBreak
   \tuplet 3/2 { af4 bf4 g4 } af4 bf4 | \tuplet 3/2 { b4 c4 af4 } bf4 c4 | bf4. ef,8 ef2~ | ef2. ef4 |
 
   \lyricsPageBreak "A2" "||" "||-||"
 
   \tuplet 3/2 { ef'4 ef4 ef4 } ef2~ | ef2 df2 | c4. c8 c2~ | c2 c4 df4 |
-  \break
+  \xBreak
   \tuplet 3/2 { ef4 ef4 ef4 } \tuplet 3/2 { ef4 d4 df4 } | \tuplet 3/2 { c4 c4 c4 } c4 bf4 |
   af4. af8 af2~ | af2 f4 g4 |
 
   \sect "C"
 
   \tuplet 3/2 { af4 bf4 g4 } af4 bf4 | \tuplet 3/2 { c4 df4 bf4 } c4 df4 | ef4. ef,8 ef2~ | ef2. ef4 |
-  \break
+  \xBreak
   \tuplet 3/2 { ef'4 ef4 ef4 } ef2~ | ef4 c4 \tuplet 3/2 { c4 c4 c4 } | af1 | r1 |
 
   \bar "|."

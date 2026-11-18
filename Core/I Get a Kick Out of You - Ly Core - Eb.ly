@@ -65,41 +65,41 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
 
   r4 c4 d4 ef4 | \tuplet 3/2 { f2 g2 af2 } | bf1~ | bf1 |
-  \break
+  \xBreak
   r4 c,4 d4 ef4 | \tuplet 3/2 { f2 g2 af2 } | \tuplet 3/2 { bf2 af2 g2 } | g2. g4 |
-  \break
+  \xBreak
   \tuplet 3/2 { af2 g2 f2 } | \tuplet 3/2 { f2 ef2 f2 } | g1~ | g2 r4 c,4 |
-  \break
+  \xBreak
   f4 g4 af4 bf4~ | bf4 af2 g4 | ef1~ | ef4 r4 r2 |
 
   \sect "A2"
 
   r4 c4 d4 ef4 | \tuplet 3/2 { f2 g2 af2 } | bf1~ | bf1 |
-  \break
+  \xBreak
   r4 c,4 d4 ef4 | \tuplet 3/2 { f2 g2 af2 } | \tuplet 3/2 { bf2 c2 a2 } | \tuplet 3/2 { bf2 c2 a2 } |
-  \break
+  \xBreak
   \tuplet 3/2 { bf2 c2 a2 } | \tuplet 3/2 { bf2 a2 af2 } | g1~ | g2 r4 c,4 |
-  \break
+  \xBreak
   f4 g4 af4 bf4~ | bf4 af2 g4 | ef1~ | ef4 r4 r2 |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   r4 ef4 f4 g4 | \tuplet 3/2 { af2 bf2 c2 } | df2. c4 | df2. c4 |
-  \break
+  \xBreak
   c2. bf4 | c2. bf4 | bf1 | c,1 |
-  \break
+  \xBreak
   r4 c4 d4 e4 | \tuplet 3/2 { f2 g2 af2 } | bf2. af4 | bf2 r4 af4 |
-  \break
+  \xBreak
   g2. f4 | f4 c'2 f,4 | ef1 | d1 |
 
   \sect "A3"
 
   r4 c4 d4 ef4 | \tuplet 3/2 { f2 g2 af2 } | bf1~ | bf1 |
-  \break
+  \xBreak
   r4 c,4 d4 ef4 | \tuplet 3/2 { f2 g2 af2 } | \tuplet 3/2 { bf2 c2 d2 } | \tuplet 3/2 { ef2 f2 d2 } |
-  \break
+  \xBreak
   \tuplet 3/2 { ef2 d2 c2 } | \tuplet 3/2 { d2 c2 bf2 } | g1~ | g2 r4 c,4 |
-  \break
+  \xBreak
   \tuplet 3/2 { f2 g2 af2 } | bf4 c2 d4 | ef1 | r1 |
 
   \bar "|."

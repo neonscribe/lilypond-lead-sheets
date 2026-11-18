@@ -138,14 +138,14 @@ refrainMelody = \relative f' {
   \sectNoBreak "Chorus"
 
   g2 \tuplet 3/2 { g4 a4 b4 } | e,2 r2 |
-  \break
+  \xBreak
   r2 \tuplet 3/2 { g4 a4 bf4 } | e,2 r4 r8 e8 |
   \time 2/4
   e'8 d8 cs8 b8 |
   \numericTimeSignature
   \time 4/4
   as16 b16 cs4. r2 |
-  \break
+  \xBreak
   \time 3/4
   cs8 a8 fs8 cs'8( a8) e8 |
   \numericTimeSignature
@@ -169,7 +169,7 @@ refrainMelody = \relative f' {
   \sectNoBreak "Chorus"
 
   g2 \tuplet 3/2 { g4 a4 b4 } | e,2 r2 |
-  \break
+  \xBreak
   r2 \tuplet 3/2 { g4 a4 bf4 } | e,2 r4 r8 e8 |
   \time 2/4
   e'8 d8 cs8 b8 |
@@ -185,7 +185,7 @@ refrainMelody = \relative f' {
   \ambitusOff
   d8 cs8 a8 g8 e8 d8 cs8 a8 |
   \ambitusOn
-  \break
+  \xBreak
   } \volta 3 {
   \time 3/4
   cs'8 a8 fs8 cs'8( a8) e8 |
@@ -197,7 +197,7 @@ refrainMelody = \relative f' {
   \numericTimeSignature
   \time 4/4
   b'8 a4.~ a2 |
-  \break
+  \xBreak
   \time 3/4
   cs8 a8 fs8 e'8( d8) e,8 |
   \numericTimeSignature

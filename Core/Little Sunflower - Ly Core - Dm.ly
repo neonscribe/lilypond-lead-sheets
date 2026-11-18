@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   r2_"Bass continues" a8 bf4 bf8~ | bf8 c4 c8~ c2~ | c4 r4 c8 d4 d8~ | d8 e4 e8~ e4 d8 c8 |
-  \break
+  \xBreak
   b4-. g4 a2~ | a1~ | a1~ |
   \alternative { \volta 1 {
   a1
@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
 
   \repeat volta 2 {
   g4. ef8 ef2~ | ef1~ | ef1 | r4 r8 bf8 ef8 f8 g8 bf8 |
-  \break
+  \xBreak
   a4. fs8 fs2~ | fs1~ | fs1~
   \alternative { \volta 1 {
   fs2 a8 bf8 a8 f8 |
@@ -80,7 +80,7 @@ refrainMelody = \relative f' {
 
   \repeat volta 2 {
   r2 a8 b4 b8~ | b8 c4 c8~ c2~ | c4 r4 c8 d4 d8~ | d8 e4 e8~ e4 d8 c8 |
-  \break
+  \xBreak
   b4-. g4 g2~ | g1~ | g1~ | g1 |
   }
 }

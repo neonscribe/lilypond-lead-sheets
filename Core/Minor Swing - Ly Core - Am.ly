@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   <e a>4 <a c>4 \afterGrace <c e>2( { <d f>8 <c e>8) } | <b d>4 <d f>8 <f a>8 r2 |
   <e, a>4 <a c>4 \afterGrace <c e>2( { <d f>8 <c e>8) } | <b d>4 <d f>8 <f a>8 r2 |
-  \break
+  \xBreak
   <e, a>4 <a c>4 \afterGrace <c e>2( { <d f>8 <c e>8) } | <b d>4 <d f>8 <f a>8 r2 |
   <d fs b>4 r4^"Bass Break" r2 | r1 |
   }
@@ -57,13 +57,13 @@ refrainMelody = \relative f' {
   \bar ":|.|:"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
-  \break
+  \xBreak
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
 
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   \bar ":|.|:"
   \repeat volta 2 {
   a4 c4 e2 | a,4 c8 e8 r8 e4. | d4 f4 a2 | d,4 f8 a8 r8 a4. |
-  \break
+  \xBreak
   e4 gs4 b2 | e,4 gs8 b8 r4 c4 |
   \alternative { \volta 1 {
   a4 r4^"Bass Break" r2 | r1 |

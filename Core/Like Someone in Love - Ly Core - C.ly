@@ -79,25 +79,25 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   e4 e2 e4 | e4 a4 g4 e4 | d4 d2 b'4 | g1 |
-  \break
+  \xBreak
   f4 f2 c'4 | b2. a4 | g4 g2 e'4 | d1 |
 
   \sect "B"
 
   d4 d2 cs4 | e4 d4 cs4 b4 | e,2 e2~ | e1 |
-  \break
+  \xBreak
   c'4 c2 b4 | d4 c4 b4 a4 | d,1 | ds1 |
 
   \sect "A2"
 
   e4 e2 e4 | e4 a4 g4 e4 | d4 d2 b'4 | g1 |
-  \break
+  \xBreak
   f4 f2 c'4 | b2. a4 | g4 g2 e'4 | d1 |
 
   \sect "C"
 
   d4 d2 cs4 | e4 d4 cs4 b4 | e,4 e2 e4 | fs2. fs4 |
-  \break
+  \xBreak
   g4 g2 g4 | f4 d'2 b4 \textToCodaLastTime |
   c1 | r1 |
   }

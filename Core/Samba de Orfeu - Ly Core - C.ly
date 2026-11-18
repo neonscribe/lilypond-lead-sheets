@@ -93,13 +93,13 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \repeat volta 2 {
     b1 | a4. g8 r8 e4 b8~ | b1 | r4 c8 e8 r8 g4 b8~ |
-    \break
+    \xBreak
     b8 b4 b8 b8 b4 b8~ | b4 a8 g8 r8 e4 g8~ | g2 d2 | r4 d8 f8 r8 a4 c8~ |
-    \break
+    \xBreak
     c1 | a2 f8 e4 d8~ | d1 | r4 r8 f8 a8 c4 b8~ |
     b8 b4 g8 b8 b4 g8 |
   } \alternative { {
-    \break
+    \xBreak
     b4. g8 b8 g4 e8~ | e1 | r4 c8 e8 r8 g4 b8\laissezVibrer |
   } {
     b4. g8 e'8 d4 c8~ | c1 |
@@ -109,17 +109,17 @@ refrainMelody = \relative f' {
   \alwaysPageBreak "B" "||" "||-||"
 
     bf1 | r8 e,4 f8~ f8 g4 a8~ | a1 | r2 a8 a4 af8~ |
-  \break
+  \xBreak
     af1 | r4 af8 c8 r8 b4 g8~ | g1 | r4 c,8 e8 r8 g4 b8~ |
 
   \sect "A3"
 
   b1 | a4. g8 r8 e4 b8~ | b1 | r4 c8 e8 r8 g4 b8~ |
-  \break
+  \xBreak
   b8 b4 b8 b8 b4 b8~ | b4 a8 g8 r8 e4 g8~ | g2 d2 | r4 d8 f8 r8 a4 c8~ |
-  \break
+  \xBreak
   c1 | a2 f8 e4 d8~ | d1 | r4 r8 f8 a8 c4 b8~ |
-  \break
+  \xBreak
   b8 b4 g8 b8 b4 g8 | b4. g8 e'8 d4 c8~ | c1~ | c4 r4 r2 |
 
   \bar "|."

@@ -53,11 +53,11 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Bobby Hebb 1966]" 130
 
   e8 e4. r2 | r2 a8 g8 e8 d8 | c4 a4 c4 d8 e8~ | e2 r2 |
-  \break
+  \xBreak
   e8 e4. r2 | r4 r8 e8 a8 g8 e8 d8 | c4 a4 c4 d8 e8~ | e2 r4 e8 d8 |
-  \break
+  \xBreak
   e8 c8 d8 c8~ c4 d8 c8 | e8 c8 d8 e8~ e2 | e8 c8 d8 c8~ c4 d4 | e4 d4 c2 |
-  \break
+  \xBreak
   e8 e4. e8 e4 d8~ | d2 c4 d4 | c8( a4.~ a2) | r1 |
 
   \bar "|."

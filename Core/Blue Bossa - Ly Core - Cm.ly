@@ -57,15 +57,15 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   g'4. f8 ef8 d8 r8 c8~ | c2~ c8 bf8 r8 af8~ |
   af2~ af8 g'8 r8 f8~ | f2. r4 |
-  \break
+  \xBreak
 
   f4. ef8 d8 c8 r8 bf8~ | bf2~ bf8 af8 r8 g8~ |
   g2~ g8 f'8 r8 ef8~ | ef2. r4 |
-  \break
+  \xBreak
 
   ef4. df8 c8 bf8 r8 af8~ | af2~ af8 gf8 r8 gf8~ |
   gf4. f8 bf4. af8 | af2. r4 |
-  \break
+  \xBreak
 
   af4 g8 bf8~ bf4. af8 | af4 g8 bf8~ bf4. af8 \textToCodaLastTime |
   g1~ | g2 r4
@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
   \bar "||-:|."
 
   g1 | r1 | af4 g8 bf8~ bf4. af8 | af4 g8 bf8~ bf4. af8 |
-  \break
+  \xBreak
   g1 | r1 | af4 g8 bf8~ bf4. af8 | af4 g8 ef'8~ ef4. b8 |
   d1 |
 

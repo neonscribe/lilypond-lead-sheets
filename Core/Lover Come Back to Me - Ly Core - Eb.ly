@@ -120,13 +120,13 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 |
-  \break
+  \xBreak
   r4 ef4 ef4 f4 | g1 |
   r4 c,4 c4 d4 | ef1 |
-  \break
+  \xBreak
   r4 bf4 bf4 c4 | ef4 f4 g4 bf4 |
   g1 | f1 |
-  \break
+  \xBreak
   bf,4 c4 ef2 | ef2 ef2 |
   ef1 |
   r1 |
@@ -134,13 +134,13 @@ refrainMelody = \relative f' {
   \sect "A2"
 
   r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 |
-  \break
+  \xBreak
   r4 ef4 ef4 f4 | g1 |
   r4 c,4 c4 d4 | ef1 |
-  \break
+  \xBreak
   r4 bf4 bf4 c4 | ef4 f4 g4 bf4 |
   g1 | f1 |
-  \break
+  \xBreak
   bf,4 c4 ef2 | ef2 ef2 |
   ef1 | d1 |
 
@@ -148,23 +148,23 @@ refrainMelody = \relative f' {
   \alwaysPageBreak "B" "||" "||-||"
 
   c4 d4 ef4 f4 | g4 c4 b4 c4 | af4 c4 b4 c4 | g1 |
-  \break
+  \xBreak
   g1 | d1 | ef1 | d1 |
-  \break
+  \xBreak
   c4 d4 ef4 f4 | g4 c4 b4 c4 | af4 c4 b4 c4 | g1 |
-  \break
+  \xBreak
   g1 | c,4 d4 ef4 g4 | bf1 | f1 |
 
   \sect "A3"
 
   r4 ef4 ef4 f4 | g1 | r4 d4 d4 ef4 | f1 |
-  \break
+  \xBreak
   r4 ef4 ef4 f4 | g1 |
   r4 g4 g4 af4 | bf1 |
-  \break
+  \xBreak
   r4 af4 af4 bf4 | c4 ef4 c4 af4 |
   g4 bf4 g4 ef4 | f2 g2 |
-  \break
+  \xBreak
   bf,4 c4 ef2 | ef2 ef2 | ef1 | r1 |
 
   \bar "|."

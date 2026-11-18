@@ -51,13 +51,13 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   c2. d4 | f8 g8 a8 c8~ c8 a8 c4 | a1~ | a2 c8 a8 c4 |
-  \break
+  \xBreak
   a1~ | a2 a8 f8 a4 | f1~ | f4 r4 r2 |
 
   \sect "A2"
 
   c2. d4 | f8 g8 a8 c8~ c8 a8 c4 | a1~ | a2 c8 a8 c4 |
-  \break
+  \xBreak
   a1~ | a2 a8 f8 a4 | f1~ | f4 r4 r4 f4 |
 
   \sect "B"
@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   \sect "A3"
 
   c,2. d4 | f8 g8 a8 c8~ c8 a8 c4 | a1~ | a2 c8 a8 c4 |
-  \break
+  \xBreak
   d1~ | d2 c8 a4. | f1~ | f2. r4 |
 
   \bar "|."

@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   g2 fs8 g8 fs8 e8 | g2 fs2 | g2 fs8 g8 fs8 e8 | \tuplet 3/2 { gs4 b4 gs4 } f4 e4 |
   a2 g8 a8 g8 e8 | \tuplet 3/2 { a4 g4 ef4 } g2 |
-  \break
+  \xBreak
   \alternative { \volta 1 {
   d8 e8 g8 a8 b4 e4 | d1 |
   } \volta 2 {
@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
 
   ef'2 \tuplet 3/2 { c4 ef4 c4 } | \tuplet 3/2 { bf4 g4 bf4 } c,4 d4 |
   ef'2 \tuplet 3/2 { c4 ef4 c4 } | bf1 |
-  \break
+  \xBreak
   ef2 \tuplet 3/2 { c4 ef4 c4 } | \tuplet 3/2 { bf4 g4 bf4 } c,4 d4 |
   ef'2 bf4 c4 | d1 |
 

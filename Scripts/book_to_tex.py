@@ -109,19 +109,6 @@ def book_to_tex(arg_filename):
     \\end{document}
     """
 
-    def threepagetype(filename):
-        for name in threepagers.rectoThrees:
-            pattern = '/' + name + ' - '
-            match = re.search(pattern, filename)
-            if match:
-                return 'recto'
-        for name in threepagers.versoThrees:
-            pattern = '/' + name + ' - '
-            match = re.search(pattern, filename)
-            if match:
-                return 'verso'
-        return False
-
     def make_song_spec(file, title, previous_title_prefix):
         pdf_path = pathlib.Path(file).with_suffix(".pdf")
         page_count = 1
@@ -135,7 +122,7 @@ def book_to_tex(arg_filename):
             else:
                 return "dsong"
         elif page_count > 2:
-            pagetype = threepagetype(file)
+            pagetype = threepagers.threepagetype(file)
             if pagetype == 'verso':
                 if same_title:
                     return "dxsong"

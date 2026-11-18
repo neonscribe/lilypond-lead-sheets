@@ -54,13 +54,13 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold "Head" }
 
   r4 af2 g4 | <f df>4. <e c>8 <f df>4 <df bf>4 | r4 bf'2 df4 | <af f>4. <g e>8 <af f>4 <f c>4 |
-  \break
+  \xBreak
   r4 c'2 ef4 | <df bf>4. <c a>8 <df bf>4 <bf f>4 | r4 bf2 df4 | <c af>4. <b g>8 <c af>4 <af f>4 |
-  \break
+  \xBreak
   r4 af2 c4 | bf4. a8 bf4 g4 | b4. as8 b4 g4 | c4. b8 c4 g'4 |
-  \break
+  \xBreak
   r4 <g e>2 f4 | r4 <ef c>2 <df bf>4 | r4 <c af>2 <bf g>4 | <bf g>2 <af f>2 |
-  \break
+  \xBreak
   r4 <g e>2 f4 | r4 <ef c>2 <df bf>4 | r4 <c af>2_"rit." <bf g>4 | <bf g>2 <af f>2_"Fine" |
 
   \sectNoBar "B1,B2"
@@ -71,7 +71,7 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \alternative { \volta 1 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   } \volta 2 {
@@ -82,17 +82,17 @@ refrainMelody = \relative f' {
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \break
+  \xBreak
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \break
+  \xBreak
 
   \sect "D"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \break
+  \xBreak
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \daCapoAlFineAfterSolos |
@@ -103,7 +103,7 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold "Interlude between solos" }
 
   r8 <g'' e>4 f8 r8 <ef c>4 <df bf>8 | r8 <c af>4 <bf g>8 <bf g>4 <af f>4 |
-  \break
+  \xBreak
   r8 <g e>4 f8 r8 <ef c>4 <df bf>8 | r8 <c af>4 <bf g>8 <bf g>4 <af f>4 |
 
   \bar "|."
@@ -140,7 +140,7 @@ bassLineMelody = \relative f {
   \bar ".|:-||"
   \repeat volta 2 {
   \rsq_"Bass walks" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \alternative { \volta 1 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   } \volta 2 {
@@ -150,18 +150,18 @@ bassLineMelody = \relative f {
   \alwaysPageBreak "C" "||" "||-||"
 
   f4_"Bass pedal" f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 |
-  \break
+  \xBreak
   f4 f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 | f4 f4 f4 f4 |
 
   \sect "D"
 
   \rsq_"Bass walks" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \break
+  \xBreak
 
   gf8_"Boogie-woogie bass" df'8 ef8 df8 ff4 ef4 | gf,8 df'8 ef8 df8 ff4 ef4 |
   df,8 af'8 bf8 af8 cf4 bf4 | df,8 af'8 bf8 af8 cf4 bf4 |
-  \break
+  \xBreak
   gf8 df'8 ef8 df8 ff4 ef4 | gf,8 df'8 ef8 df8 ff4 ef4 | df,8 af'8 bf8 af8 cf4 bf4 | df,8 af'8 bf8 af8 cf4 bf4 |
 
 

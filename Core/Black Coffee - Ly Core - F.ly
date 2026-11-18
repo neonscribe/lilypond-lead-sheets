@@ -163,10 +163,10 @@ refrainMelody = \relative f' {
 
   f8 f8 f8 c8 ef8 c4. | f8 f8 f8 c8 ef4. c8 |
   f8 f8 f8 c8 ef8 ef8 ef8 c8 | f8 f8 f8 c8 ef4 f4 |
-  \break
+  \xBreak
   af8 d,4.~ d2 | \tuplet 3/2 { r4 c'4 bf4 } \tuplet 3/2 { af4 f4 d4 } |
   c1~ | c2. r8 c8 |
-  \break
+  \xBreak
   g'8 a8 bf8 c8 a8 f4. | r8 d8 d8 af'8 g4 f8 f8~ |
 
   f1~ | f2. r8 c8 |
@@ -175,10 +175,10 @@ refrainMelody = \relative f' {
 
   f8 f8 f8 c8 ef8 c4. | f8 f8 f8 c8 ef4. c8 |
   f8 f8 f8 c8 ef8 ef8 ef8 c8 | f8 f8 f8 c8 ef4 f4 |
-  \break
+  \xBreak
   af8 d,4.~ d2 | \tuplet 3/2 { r4 c'4 bf4 } \tuplet 3/2 { af4 f4 d4 } |
   c1~ | c2. r8 c8 |
-  \break
+  \xBreak
   g'8 a8 bf8 c8 a8 f4. | r8 d8 d8 af'8 g4 f8 f8~ |
 
   f1~ | f2 r4 f8 f8 |
@@ -190,7 +190,7 @@ refrainMelody = \relative f' {
   \sectNoBar "B"
 
   bf8 c8 bf8 af8 bf4. c8 | af8 f4.~ f4. f8 | bf8 c8 bf8 c8 df4 ef4 | c2~ c4. c8 |
-  \break
+  \xBreak
   df8 df8 df8 df8 df4. f8 | df8 df4.~ df4. bf8 |
   df8 df8 df8 df8 df,4. df'8 | \tuplet 3/2 { c8 c8 c8 } c8 c8 c,4. c8 |
 
@@ -198,10 +198,10 @@ refrainMelody = \relative f' {
 
   f8 f8 f8 c8 ef8 c4 c8 | f8 f8 f8 c8 ef4. c8 |
   f8 f8 f8 c8 ef8 ef8 ef8 c8 | f8 f8 f8 c8 ef4 f4 |
-  \break
+  \xBreak
   af8 d,4.~ d2 | \tuplet 3/2 { r4 c'4 bf4 } \tuplet 3/2 { af4 f4 d4 } |
   c1 | r8 d8 \tuplet 3/2 { f8 a8 c8 } ef8 d4 a8 |
-  \break
+  \xBreak
   bf8 a8 bf8 c8 a8 f4. | r8 d8 f8 af8 g4 f8 f8~ | f1~ | f2 r2 |
 
   \bar "|."

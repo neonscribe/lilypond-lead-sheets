@@ -62,7 +62,7 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   r4 bf,4 bf4 bf4 | c4 c4 c4 c4 | d2. bf4 | d2. bf4 |
-  \break
+  \xBreak
   ef4 ef8 ef8 ef8 ef8 ef8 ef8 | ef4 af4 c,2 | ef8 ef8 ef8 ef8 ef4 af4 | c,2. ef4 |
   \alternative { \volta 1 {
   g1~ | g2 r2 |
@@ -72,15 +72,15 @@ refrainMelody = \relative f' {
   \sect "B"
 
   r4 g4 fs4 g4 | bf4 af4 c,4. ef8 | g2 g2~ | g1 |
-  \break
+  \xBreak
   r4 g4 fs4 g4 | c4 af4 c,4. ef8 | f1~ | f1 |
 
   \sect "C"
 
   r4 bf,4 bf4 bf4 | c4 c4 c4 c4 | d2. d4 | ef2. ef4 |
-  \break
+  \xBreak
   f2. f4 | g2. g4 | af2. af4 | bf2. bf4 |
-  \break
+  \xBreak
   c2 c2 | d2 d2 | ef1~ | ef2 r2 |
 
   \bar "|."

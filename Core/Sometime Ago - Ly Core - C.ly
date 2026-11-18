@@ -85,27 +85,27 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   r4 g8 b8 d4 | r4 f,8 a8 c4 | r8 g4 b8~ b8 d8 | f,2. |
-  \break
+  \xBreak
   r4 g8 b8 d4 | r4 f,8 a8 c4 | r8 bf4 d8~ d8 f8 | a,2. |
 
   \sect "B"
 
   r8 a4 a'8~ a8 g8 | f8 e8 d2 | e2~ e8 g8 | c,2. |
-  \break
+  \xBreak
   r8 fs,4 e'8~ e8 d8 | c8 b8 a2 | bf2~ bf8 f'8 | a,2. |
 
   \alwaysPageBreak "A2" "||" "||-||"
 
   r4 g8 b8 d4 | r4 f,8 a8 c4 | r8 g4 b8~ b8 d8 | f,2. |
-  \break
+  \xBreak
   r4 g8 b8 d4 | r4 f,8 a8 c4 | r8 bf4 d8~ d8 f8 | a,2. |
 
   \sect "C"
 
   r8 a4 a'8~ a8 g8 | f8 e8 d2 | r8 b4 b'8~ b8 a8 | g8 f8 e2 |
-  \break
+  \xBreak
   g2 f8 e8 | f8 e4 c8~ c8 d8 | e2.~ | e2.|
-  \break
+  \xBreak
   g2 f8 e8 | f8 e8 c4. d8 | c2.~ | c2. |
   \bar "|."
 }

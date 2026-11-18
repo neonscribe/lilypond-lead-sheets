@@ -140,25 +140,25 @@ refrainMelody = \relative f' {
 
   d'4~ \tuplet 3/2 { d8 e,8 f8 } c'4~ \tuplet 3/2 { c8 e,8 f8 } |
   \tuplet 3/2 { bf8 e,8 f8 } a2 \tuplet 3/2 { r8 g8 fs8 } |
-  \break
+  \xBreak
   g4 bf8 g8~ g2~ | g2. \tuplet 3/2 { r8 d8 ef8 } |
-  \break
+  \xBreak
   c'4~ \tuplet 3/2 { c8 d,8 ef8 } bf'4~ \tuplet 3/2 { bf8 d,8 ef8 } |
   \tuplet 3/2 { a8 d,8 ef8 } g2 \tuplet 3/2 { r8 f8 e8 } |
-  \break
+  \xBreak
   f4 a8 f8~ f2~ | f2. \tuplet 3/2 { r8 cs8 d8 } |
 
   \sect "B"
 
   af'4~ \tuplet 3/2 { af8 cs,8 d8 } g4~ \tuplet 3/2 { g8 c,8 d8 } |
   \tuplet 3/2 { af'8 cs,8 d8 } g2 \tuplet 3/2 { r8 fs8 g8 } |
-  \break
+  \xBreak
   d'4~ \tuplet 3/2 { d8 fs,8 g8 } c4~ \tuplet 3/2 { c8 fs,8 g8 } |
   \tuplet 3/2 { d'8 fs,8 g8 } c2 bf4 |
-  \break
+  \xBreak
   a8 a8 gs8 gs8 a8 a8 gs8 gs8 |
   a4 c8 g8~ g4. fs8 |
-  \break
+  \xBreak
   g8 g8 fs8 fs8 g8 g8 fs8 fs8 |
   g4 bf8 f8~ f4  \tuplet 3/2 { r8 e8 f8 } |
 
@@ -166,25 +166,25 @@ refrainMelody = \relative f' {
 
   d'4~ \tuplet 3/2 { d8 e,8 f8 } c'4~ \tuplet 3/2 { c8 e,8 f8 } |
   \tuplet 3/2 { bf8 e,8 f8 } a2 \tuplet 3/2 { r8 g8 fs8 } |
-  \break
+  \xBreak
   g4 bf8 g8~ g2~ | g2. \tuplet 3/2 { r8 d8 ef8 } |
-  \break
+  \xBreak
   c'4~ \tuplet 3/2 { c8 d,8 ef8 } bf'4~ \tuplet 3/2 { bf8 d,8 ef8 } |
   \tuplet 3/2 { a8 d,8 ef8 } g2 \tuplet 3/2 { r8 f8 e8 } |
-  \break
+  \xBreak
   f4 a8 f8~ f2~ | f2. \tuplet 3/2 { r8 cs8 d8 } |
 
   \sect "C"
 
   af'4~ \tuplet 3/2 { af8 cs,8 d8 } g4~ \tuplet 3/2 { g8 c,8 d8 } |
   \tuplet 3/2 { af'8 cs,8 d8 } g2 \tuplet 3/2 { r8 fs8 g8 } |
-  \break
+  \xBreak
   d'4~ \tuplet 3/2 { d8 fs,8 g8 } c4~ \tuplet 3/2 { c8 fs,8 g8 } |
   \tuplet 3/2 { d'8 b8 c8 } ef2 r8 cs8 |
-  \break
+  \xBreak
   \tuplet 3/2 { d8 f,8 d'8 } c8 bf8~ bf2 |
   \tuplet 3/2 { c8 ef,8 c'8 } bf8 a8~ a2 |
-  \break
+  \xBreak
   bf8 bf8 g8 g8 bf8 bf8 g8 g8 | bf4 g8 bf8~ bf4 r4 |
 
   \bar "|."

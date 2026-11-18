@@ -60,13 +60,13 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "Verse" }
 
   f4 f4 f4 d4 | f4 f4 f8 d4 c8 | f8 f8 f4 g4 a4 | c,4 d4 f8 f4 d8 |
-  \break
+  \xBreak
   f8 d8 f8 g8 f4. d8 | f8 d8 f8 g8 f4 d8 c8 | f4 f4 g8 g8 a8 a8 | c,4 d4 f2 |
 
   \sect "Chorus"
 
   a8 a4. c2 | g8 a8 g8 f8 d4 f4 | a4 a4 g4. f8 | g8 a8 g8 f8 d4 f4 |
-  \break
+  \xBreak
   a8 a4 a8 c4. a8 | g8 a8 g8 f8 d4 f4 | c4 c4 d8 d8 f4 |
   \time 2/4
   g8 a8 g8 f8 |
@@ -77,7 +77,7 @@ refrainMelody = \relative f' {
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 

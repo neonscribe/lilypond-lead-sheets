@@ -85,20 +85,20 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   r4 r8 e8 g8 e8 g4 | b4 b2. | r4 r8 e,8 g8 e8 g4 | b1 |
-  \break
+  \xBreak
   r4 r8 e,8 g8 e8 g4 | b4 b2. | r8 g4. g4 g4 | g4 g8 g8~ g2 |
   }
 
   \sectNoBar "B"
 
   d'1~ | d4 d8 d8 cs8 cs8 c8 c8 | b1~ | b1 |
-  \break
+  \xBreak
   b8 b8 b8 b8~ b2~ | b2 cs,8 e8 g8 b8 | b2. bf4 | a1 |
 
   \sect "A3"
 
   r4 r8 e8 g8 e8 g4 | b4 b2. | r4 r8 e,8 g8 e8 g4 | b1 |
-  \break
+  \xBreak
   r4 r8 e,8 g8 e8 g4 | b4 b2. | r8 g4. g4 g4 | g4 g8 g8~ g2 |
 
   \alwaysPageBreak "Solos" ".|:-|." ".|:-|."
@@ -107,11 +107,11 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \bar "||-||"
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 

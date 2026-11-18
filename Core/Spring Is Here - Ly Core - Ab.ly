@@ -82,25 +82,25 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   g2. af4 | f1 | g4 \tuplet 3/2 { g8 g8 g8 } g4 af4 | f4 f2. |
-  \break
+  \xBreak
   ef2. f4 | df1 | ef4 \tuplet 3/2 { ef8 ef8 ef8 } ef4 f4 | df4 df2. |
 
   \sect "B"
 
   c4 df4 ef4 f4 | g4 af4 bf4 c4 | f,1 | af1 |
-  \break
+  \xBreak
   c,4 d4 e4 f4 | g4 af4 bf4 c4 | d1 | ef1 |
 
   \alwaysPageBreak "A2" "||" "||-||"
 
   g,2. af4 | f1 | g4 \tuplet 3/2 { g8 g8 g8 } g4 af4 | f4 f2. |
-  \break
+  \xBreak
   ef2. f4 | df1 | ef4 \tuplet 3/2 { ef8 ef8 ef8 } ef4 f4 | df4 df2. |
 
   \sect "C"
 
   c4 df4 ef4 f4 | g4 af4 bf4 c4 | d1 | ef1 |
-  \break
+  \xBreak
   ef2. af,4 | c2. bf4 | af1 | r1 |
 
   \bar "|."

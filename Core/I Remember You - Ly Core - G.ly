@@ -125,25 +125,25 @@ refrainMelody = \relative f' {
   \sectStartRefrain "A1"
 
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
-  \break
+  \xBreak
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
 
   \sect "A2"
 
   fs4 g d e | fs1 | fs4 g d e | f g c, d |
-  \break
+  \xBreak
   e2. g4 | ef2 \tuplet 3/2 { ef4 f ef } | d1~ | d2. r4
 
   \alwaysPageBreak "B" "||" "||-||"
 
   b' c g a | b4. b8 b4 a | gs1 | r4 b b a |
-  \break
+  \xBreak
   gs2. e4 | g2 \tuplet 3/2 { g4 a g } | fs1~ | fs2. r4
 
   \sect "A3"
 
   fs4 g d e | fs1 | fs4 g fs g | d' d d4. df8 |
-  \break
+  \xBreak
   c1 | r4 c \tuplet 3/2 { c d c } | b1 | r4 b a g |
   fs g d e | g2 a2 |
   g1~ | g4 r4 r2 |

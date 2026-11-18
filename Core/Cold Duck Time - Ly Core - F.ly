@@ -42,7 +42,7 @@ refrainMelody = \relative f' {
   \endParenthesis \parenthesize
   af8 |
   }
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "Head" }
 
@@ -52,12 +52,12 @@ refrainMelody = \relative f' {
   r4 r8 \parenthesize f8 ef'8 f8 f8 af8 |
   r8 bf8 r8 c8 af4 f8 ef8 |
   f4 r8 \parenthesize f,8 ef'8 f8 f8 af8 |
-  \break
+  \xBreak
   r4 r8 \parenthesize f,8 ef'8 f8 f8 af,8 |
   r4 r8 \parenthesize f8 ef'8 f8 ef8 af8 |
   r8 bf8 r8 c8 af4 f8 ef8 |
   f4 r8 \parenthesize f,8 ef'8 f8 f8 af8~ |
-  \break
+  \xBreak
   af2.. f8~ | f2.. f8-^ | r1 |
   r4 r8
   \override Parentheses.font-size = #5

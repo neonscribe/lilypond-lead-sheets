@@ -70,13 +70,13 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   g4 a4 e4 g4 | a4 g8 a8~ a8 g8 e4 | g8 a4 e8 g4 a8 c8~ | c8 a8 c4 d4 e4 |
-  \break
+  \xBreak
   d1~ | d4 r4 c8 c8 c4 | c1~ | c4 r4 r4 g4 |
 
   \sect "A2"
 
   g4 a4 e4 g4 | a4 g8 a8~ a8 g8 e4 | g8 a4 e8 g4 a8 c8~ | c8 a8 c4 d4 e4 |
-  \break
+  \xBreak
   d1~ | d4 r4 c8 c8 c4 | c1 | r4 b8 b8~ b8 b8 b4 |
 
   \bar "||"
@@ -86,13 +86,13 @@ refrainMelody = \relative f' {
   \sectNoBar "B"
 
   b4 b8 b8~ b8 b8 b4 | cs4 b8 b8~ b8 b8 b4 | d4 b8 b8~ b8 b8 b4 | ds4 b8 b8~ b8 b8 b4 |
-  \break
+  \xBreak
   e4 b8 b8~ b8 as8 b8 as8 | b4 e,8 e8~ e8 ds8 e4 | e8 e8 ds4 e4 g4~ g2 r4 g4 |
 
   \sect "A3"
 
   g4 a4 e4 g4 | a4 g8 a8~ a8 g8 e4 | g8 a4 e8 g4 a8 c8~ | c8 a8 c4 d4 e4 |
-  \break
+  \xBreak
   d1~ | d4 r4 e8 d8 c4 | c1~ | c4 r4 r4
   \override Parentheses.font-size = #5
   \parenthesize g4

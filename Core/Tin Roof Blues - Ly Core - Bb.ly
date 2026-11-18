@@ -40,21 +40,21 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "Verse"
 
   bf1 | r8 f8 g8 af8 g8 f8 cs8 d8 | f2. cs8 d8 | af'1 |
-  \break
+  \xBreak
   \tuplet 3/2 { g8 fs8 g8 } fs8 g8 f8 ef4. | \tuplet 3/2 { g8 fs8 g8 } fs8 g8 f8 cs8 d8 f8~ |
   f1~ | f4 cs8 d8 a'4 g4 |
-  \break
+  \xBreak
   g4. f8~ f2~ | f8 cs8 d8 g8 f d4 bf8~ | bf1~ | bf4 r4 r4 f'4 |
-  \break
+  \xBreak
 
   \bar ".|:-||"
   \repeat volta 2 {
   \sectNoBar "Refrain"
 
   f8 e8 ef8 d8 f8 e8 ef8 d8 | f4 bf,8 d8~ d2 | f8 e8 ef8 d8 f8 e8 ef8 d8 | f4 bf,8 d8~ d2 |
-  \break
+  \xBreak
   bf'8 a8 af8 g8 bf8 a8 af8 g8 | bf4 ef,8 g8~ g2 | f8 e8 ef8 d8 f8 e8 ef8 d8 | f4 d8 g8~ g2 |
-  \break
+  \xBreak
   bf1~ | bf8 cs,8 c8 d8 f4 cs4 | bf1~ | bf4 r4 r4
   \override Parentheses.font-size = #5
   \parenthesize f'4 |

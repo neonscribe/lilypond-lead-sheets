@@ -86,41 +86,41 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   d1 | f2 g2 | bf1 | g1 |
-  \break
+  \xBreak
   f1 | d2 f2 | d1 | c1 |
-  \break
+  \xBreak
   bf1 | d2 f2 | d'1 | bf1 |
-  \break
+  \xBreak
   g1 | f2 d2 | c1 | cs1 |
 
   \sect "A2"
 
   d1 | f2 g2 | bf1 | g1 |
-  \break
+  \xBreak
   f1 | d2 f2 | d1 | c1 |
-  \break
+  \xBreak
   bf1 | d2 f2 | d'1 | bf1 |
-  \break
+  \xBreak
   g1 | d1 | bf1~ | bf1 |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   ds'1~ | ds2 cs2 | cs4 as4 fs2~ | fs2 cs'2 |
-  \break
+  \xBreak
   cs4 a4 fs2~ | fs2 b2 | e,1~ | e1 |
-  \break
+  \xBreak
   b'1~ | b2 a2 | a4 fs4 d2~ | d2 a'2 |
-  \break
+  \xBreak
   a4 f4 d2~ | d2 g2 | c,1 | cs1 |
 
   \sect "A3"
 
   d1 | f2 g2 | bf1 | g1 |
-  \break
+  \xBreak
   f1 | d2 f2 | d1 | c1 |
-  \break
+  \xBreak
   bf1 | d2 f2 | d'1 | bf1 |
-  \break
+  \xBreak
   g1 | d1 | bf1~ | bf1 |
 
   \bar "|."

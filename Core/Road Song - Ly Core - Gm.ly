@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   g8 bf8 bf8 g8 bf4 g4 | r1 | d8 f8 f8 d8 f2 | r2 r4 r8 d8 |
-  \break
+  \xBreak
   g8 bf8 bf8 bf8~ bf8 c4 d8~ | d8 c4 bf8~ bf8 g4 a8 | bf4. g8~ g4. d8 |
   \alternative { \volta 1 {
   f4 g2 d4-. |
@@ -77,13 +77,13 @@ refrainMelody = \relative f' {
   \sect "B"
 
   r4 r8 ef8 r8 g4-. bf8 | d4. c8 a4 g8 f8~ | f1 | e4 gs8 e8 d2 |
-  \break
+  \xBreak
   r4 r8 df8 r8 f4-. af8 | c4. bf8 g4 f8 ef8~ | ef1 | r2 r4 d4 |
 
   \sect "A3"
 
   g8 bf8 bf8 g8 bf4 g4 | r1 | d8 f8 f8 d8 f2 | r2 r4 r8 d8 |
-  \break
+  \xBreak
   g8 bf8 bf8 bf8~ bf8 c4 d8~ | d8 c4 bf8~ bf8 g4 a8 | bf4. g8~ g4. d8 \textToCodaLastTime | f4 g4 r4 r8
   \override Parentheses.font-size = #5
   \parenthesize d8 |

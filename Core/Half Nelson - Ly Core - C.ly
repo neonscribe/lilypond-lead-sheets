@@ -33,13 +33,13 @@ refrainMelody = \relative f' {
 
   r8 g8 e8 f8~ f8 f16 a16 b8 c8~ | c8 d16 c16 b2. |
   bf4 \tuplet 3/2 { af8 bf8 af8 } g8 f8 r4 | r2 r8 c'16 b16 bf8 af8 |
-  \break
+  \xBreak
   g4 r8 a8~ a8 b4 c8 | d8 c8 d8 c8 b8 a4 fs8~ |
   \tuplet 3/2 { fs8 g8 gs8 } a8 fs8~ \tuplet 3/2 { fs8 g8 gs8 } a8 f8~ |
   \tuplet 3/2 { f8 fs8 g8 } af8 f8~ \tuplet 3/2 { f8 fs8 g8 } a8 g8~ |
-  \break
+  \xBreak
   g4 ef4 f4 r4 | r8 ef8 f8 g8 bf8 g8 a8 bf8 | \tuplet 3/2 { c8 d8 c8 } b8 a8 gs8 e4 g16 a16 | fs4 r4 r2 |
-  \break
+  \xBreak
   \tuplet 3/2 { f8 g8 f8 } e8 d8 g8 f4. | \tuplet 3/2 { e8 f8 e8 } cs8 e8 d8 e8 f8 fs8 |
   g8 e8 \textFine r4 ef8 g8 bf8 g8 | af8 df,8 f8 af8 bf8 af16 bf16 g8 f8 |
 

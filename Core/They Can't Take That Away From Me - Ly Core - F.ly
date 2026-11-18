@@ -60,7 +60,7 @@ refrainMelody = \relative f' {
 
   a1 | r8 f8 f8 f8 f4 f8 c8~ | c1 |
   r8 f8 f8 f8 f4 f8 c'8~ |
-  \break
+  \xBreak
   c1~ | c8 r8 d4 d4 d4 | f8 d8 c8 bf8 c4 a8 f8~ |
   f8 f8 f8 f8 f4 f8 a8~ |
 
@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
 
   a1 | r8 f8 f8 f8 f4 f8 c8~ | c1 |
   r8 f8 f8 f8 f4 f8 c'8~ |
-  \break
+  \xBreak
   c1~ | c8 r8 d4 d4 d4 | f8 d8 c8 bf8 c4 a8 f8~ |
   f2. a8 b8 |
 
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
 
   c4 a4 e'4 d4 | c4 a4 e'4 d8 c8 | a8 a8 a2 g4 |
   e2. a8 b8 |
-  \break
+  \xBreak
   c4 a4 e'4 d4 | c4 a4 d4 d4 | g,1 |
   r8 f8 f8 f8 f4 f8 a8~ |
 
@@ -84,10 +84,10 @@ refrainMelody = \relative f' {
 
   a1 | r8 f8 f8 f8 f4 f8 c8~ | c1 |
   r8 f8 f8 f8 f4 f8 d'8~ |
-  \break
+  \xBreak
   d1~ | d4 f4 f4 f4 | f8 d8 c8 bf8 c4 a8 f8~ |
   f8 r8 c'2 bf4 |
-  \break
+  \xBreak
   f4 bf4 a4 c4 | g2 a2 | f1~ | f2. r4 |
   \bar "|."
 }

@@ -44,9 +44,9 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A"
 
   d'2~ d4. d8~ | d2 r4 r8 bf8 | d8 c8 bf8 af8 f8 ef8 df8 c8~ | c2. r4 |
-  \break
+  \xBreak
   df'2~ df4. df8~ | df2 r4 r8 bf8 | d8 c8 bf8 af8 f8 ef8 df8 c8~ | c2. r4 \textToCodaLastTime |
-  \break
+  \xBreak
   df'2~ df4. df8~ | df2 r4 r8 bf8 | d8 c8 bf8 af8 f8 ef8 df8 c8~ | c2. r8 f8 |
 
   \sect "B"
@@ -55,12 +55,12 @@ refrainMelody = \relative f' {
   \ambitusOff
   \magnifyMusic 0.63 { bf,8 r8 r4 | bf8 r8 r8 bf8 } r4 r8 f'8 |
   \ambitusOn
-  \break
+  \xBreak
   bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 r4
   \ambitusOff
   \magnifyMusic 0.63 { bf,8 r8 r4 | bf8 r8 r8 bf8 } r4 r8 f'8 |
   \ambitusOn
-  \break
+  \xBreak
   bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 r4
   \ambitusOff
   \magnifyMusic 0.63 { bf,8 r8 r4 | bf8 r8 r8 bf8 } r8
@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
 
   \tuplet 3/2 { r8 bf8 df8 } \tuplet 3/2 { d8 ef8 e8 } \tuplet 3/2 { f8 e8 f8 } \tuplet 3/2 { df8 d8 r8 } |
   \tuplet 3/2 { r8 bf8 df8 } \tuplet 3/2 { d8 ef8 e8 } \tuplet 3/2 { f8 e8 f8 } \tuplet 3/2 { df8 d8 r8 } |
-  \break
+  \xBreak
   \tuplet 3/2 { r8 bf8 df8 } \tuplet 3/2 { d8 ef8 e8 } \tuplet 3/2 { f8 e8 f8 } \tuplet 3/2 { e8 f8 g8 } |
   \tuplet 3/2 { af8 bf8 cf8 } \tuplet 3/2 { bf8 af8 f8 } \tuplet 3/2 { e8 ef8 df8 } \tuplet 3/2 { bf8 af8 f8 } |
 
@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
 
   bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 df8 df8 bf8 bf8 g8 f8 |
   bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 df8 df8 bf8 bf8 g8 f8 |
-  \break
+  \xBreak
   bf8 bf8 df8 df8 bf8 bf8 g8 f8 | bf8 bf8 df8 df8 bf8 bf8 g8 f8 |
   bf8 bf8 r4
   \ambitusOff

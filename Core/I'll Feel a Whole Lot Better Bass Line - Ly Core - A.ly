@@ -62,19 +62,19 @@ refrainMelody = \relative f' {
 
     a4 e8 fs8 gs8 a8~ | a4 a4 e8 e8 fs8 e8 |
     a4 a4 e8 fs8 gs8 a8~ | a4 a4~ a8 a8 gs8 fs8 |
-    \break
+    \xBreak
     e4 e4 b8 b8 cs8 e8~ | e4 \xNote { e8 } e8~ e8 e8 e8 es8 |
     fs4 \xNote { fs8 } fs4 fs8 fs8 a8 | b8 b8 b8 b8 b8 b8 b8 b8 |
-    \break
+    \xBreak
     a4 a4 e8 fs8 gs8 a8~ | a4 \xNote { a8 } a8~ a8 fs8 e8 fs8 |
     d4 \xNote { d8 } d8~ d8 d8 cs4( | fs4) \xNote { fs8 } fs8~ fs4 fs4 |
-    \break
+    \xBreak
     a,4 \xNote { a8 } a8~ a8 cs8 e8 cs8 | e4 \xNote { e8 } e8~ e4 \xNote { e8 } e8 |
     d4 \xNote { d8 } d8~ d4 d4 \textToCoda |
 
     \alternative { \volta 1 {
       e8 e8 e8 e8 e8 e8 e8 gs8 |
-      \break
+      \xBreak
       a4 a4 e8 fs8 gs8 a8~ | a4 a4 e8 e8 fs8 e8 |
     }
     \volta 2 {
@@ -86,16 +86,16 @@ refrainMelody = \relative f' {
 
   a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |
   a4. a8 e4. fs8 | a4. a8 e8 e8 fs8 e8 |
-  \break
+  \xBreak
   e4. e8 b4. b8 | e4. e8 b8 d8 e8 es8 |
   fs4 \xNote { fs8 } fs8~ fs8 fs8 fs8 a8 | b8 b8 b8 b8 b8 b8 b8 b8 |
-  \break
+  \xBreak
   a4 \xNote { a8 } a8 e4. fs8 | a4 \xNote { a8 } a8 e8 e8 fs8 e8 |
   d4 \xNote { d8 } d8~ d8 d8 cs4( | fs4) \xNote { fs8 } fs8~ fs4 fs4 |
-  \break
+  \xBreak
   a4 \xNote { a8 } a8~ a8 fs8 e8 fs8 | e4 \xNote { e8 } e8~ e4 e4 |
   d4 \xNote { d8 } d8~ d4 d4 |
-  \break
+  \xBreak
   g8 g8 g8 g8 d4 g4 |
   a4 a4 e8 fs8 gs8 a8~ | a4 a4 e8 e8 gs8
   \dalSegno

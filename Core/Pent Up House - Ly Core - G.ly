@@ -42,22 +42,22 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   r8 d8 e8 fs8 g8 a8 b8 c8 | d8 b4-. d8 bf4-. d8 b8 | r8 d8 bf4-. d8 bf4-. d8 | a2 bf4. a8 |
-  \break
+  \xBreak
   r8 d,8 e8 fs8 g8 a8 b8 c8 | d8 b4-. d8 bf4-. d8 b8 | r8 d8 bf4-. d8 bf4-. d8 | a2 bf4. a8 |
-  \break
+  \xBreak
   r8 d,8 a'8 fs8 g8 a8 b8 d8 | g8 e4-. g8 ef4-. g8 e8 | r8 g8 ef4-. g8 ef4-. g8 | d1 |
-  \break
+  \xBreak
   f8 d4 f8 df2 | d8 b4-. d8 bf4-. d8 b8 | r8 d8 bf4-. d8 bf4-. d8 | a2. r4 |
   }
   \bar ":|.|:"
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "Solos" }
 
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }

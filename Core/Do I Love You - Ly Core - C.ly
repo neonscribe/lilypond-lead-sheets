@@ -93,21 +93,21 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   g1 | g1 | g4 bf2.~ | bf2 a4 g4 |
-  \break
+  \xBreak
   f2. f4 | f2 f2 | f1~ | f2 c4 d4 |
-  \break
+  \xBreak
   e1 | e1 | e4 g2.~ | g2 f4 e4 |
-  \break
+  \xBreak
   d4 d2 d4 | d2 d4 d4~ | d1~ | d4 r4 e4 f4 |
 
   \sect "B"
 
   g1 | g1 | g4 c2.~ | c2 b4 bf4 |
-  \break
+  \xBreak
   a4 gs2 a4 | d2. c4 | g1~ | g4 r4 c,4 d4 |
-  \break
+  \xBreak
   e4 ds4 e4 a4~ | a2. g4 | c,2. g'4~ | g4 e4 f2 |
-  \break
+  \xBreak
   d1~ | d1~ | d4 r4 r2 | r2 e4 f4 |
 
   \bar "||"
@@ -115,21 +115,21 @@ refrainMelody = \relative f' {
   \sectNoBar "A2"
 
   g1 | g1 | g4 bf2.~ | bf2 a4 g4 |
-  \break
+  \xBreak
   f2. f4 | f2 f2 | f1~ | f2 c4 d4 |
-  \break
+  \xBreak
   e2. e4 | e2. e4 | e4 g2.~ | g2 f4 e4 |
-  \break
+  \xBreak
   d4 d2 d4 | d2 d4 d4~ | d1~ | d4 r4 e4 f4 |
 
   \sect "C"
 
   g1 | g1 | g4 e'2.~ | e2 d4 c4 |
-  \break
+  \xBreak
   a4. gs8~ gs4 a4 | d4. df8~ df4 c4 | f,1~ | f2 c4 d4 |
-  \break
+  \xBreak
   e2 e4 e4~ | e2 c4 d4 | e4 e4 e4 e4~ | e2 c4 d4 |
-  \break
+  \xBreak
   e1 | e1 | c1~ | c2 r2 |
 
   \bar "|."

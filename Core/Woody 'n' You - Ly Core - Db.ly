@@ -39,25 +39,25 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   r4 f'4 g4. f8 | ef8 c8 r4 r2 | r4 ef4  f4. ef8 | df8 bf8 r4 r2 |
-  \break
+  \xBreak
   r4 df4 ef4. df8 | cf8 af8 r4 r4 g8 e8 | f8 af8 c8 ef8~ ef4 d8 c8 | df8 bf8 r4 r2 |
 
   \sect "A2"
 
   r4 f'4 g4. f8 | ef8 c8 r4 r2 | r4 ef4  f4. ef8 | df8 bf8 r4 r2 |
-  \break
+  \xBreak
   r4 df4 ef4. df8 | cf8 af8 r4 r4 g8 e8 | f8 af8 c8 ef8~ ef4 d8 c8 | df8 bf8 r4 r2 |
 
   \sect "B"
 
   bf4 af8 gf8 f4 gf8 af8 | bf4 af8 gf8 f4 gf8 af8 | bf8 gf8 ef8 cf8 d8 a'8 r8 d,8 | bf'1 |
-  \break
+  \xBreak
   c4 bf8 af8 g4 af8 bf8 | c4 bf8 af8 g4 af8 bf8 | c8 af8 f8 df8 e8 b'8 r8 e,8 | c'1 |
 
   \sect "A3"
 
   r4 f4 g4. f8 | ef8 c8 r4 r2 | r4 ef4  f4. ef8 | df8 bf8 r4 r2 |
-  \break
+  \xBreak
   r4 df4 ef4. df8 | cf8 af8 r4 r4 g8 e8 | f8 af8 c8 ef8~ ef4 d8 c8 | df8 bf8 r4 r2 |
 
   \bar "|."

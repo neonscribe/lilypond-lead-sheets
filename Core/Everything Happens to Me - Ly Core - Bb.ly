@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
 
   d'8 d8 d8 ef8 c8 c8 bf8 a8 | c8 c8 c8 d8 bf4. g8 | bf8 bf8 bf8 c8 a8 a8 g8 f8 |
   af8 af8 af8 bf8 g4 r8 d8 |
-  \break
+  \xBreak
   f8 f8 f8 g8 ef8 fs8 a8 bf8 |
   c8 c8 \tuplet 3/2 { c8 c8 a8~ } a2 |
   g8 g8 g8 a8~ a8 a8 a8 f8~ | f2. r8 g8 |
@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
 
   d'8 d8 d8 ef8 c8 c8 bf8 a8 | c8 c8 c8 d8 bf4. g8 | bf8 bf8 bf8 c8 a8 a8 g8 f8 |
   af8 af8 af8 bf8 g4 r8 d8 |
-  \break
+  \xBreak
   f8 f8 f8 g8 ef8 fs8 a8 bf8 |
   c8 c8 \tuplet 3/2 { c8 c8 a8~ } a2 |
   g8 g8 g8 a8~ a8 a8 a8 bf8~ | bf2. r8 bf8 |
@@ -96,7 +96,7 @@ refrainMelody = \relative f' {
 
   bf8 bf8 bf8 bf8 df8 df8 cf8 df8 | bf8 bf8 bf2 r8 bf8 | bf8 bf8 bf8 bf8 cf8 gf8 f8 ef8 |
   bf'2. r8 bf8 |
-  \break
+  \xBreak
   a8 a8 a8 a8 c8 c8 bf8 c8 | a8 a8 a2 r8 a8 |
   bf8 bf8 bf8 bf8 bf8 g8 a8 bf8 | c2. r8 g8 |
 
@@ -104,7 +104,7 @@ refrainMelody = \relative f' {
 
   d'8 d8 d8 ef8 c8 c8 bf8 a8 | c8 c8 c8 d8 bf4. g8 | bf8 bf8 bf8 c8 a8 a8 g8 f8 |
   af8 af8 af8 bf8 g4 r8 d8 |
-  \break
+  \xBreak
   f8 f8 f8 g8 ef8 fs8 a8 bf8 |
   c8 c8 \tuplet 3/2 { c8 c8 a8~ } a2 |
   g8 g8 g8 d'8~ d8 d8 d8 bf8~ | bf1 |

@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
 
   bf'2.~ \tuplet 3/2 { bf8 bf8 bf8 } | g2. \tuplet 3/2 { r8 ef8 f8 } |
   bf2.~ \tuplet 3/2 { bf8 bf8 bf8 } | g2. \tuplet 3/2 { r8 f8 ef8 } |
-  \break
+  \xBreak
   df'2.~ \tuplet 3/2 { df8 bf8 df8 } | bf2. \tuplet 3/2 { r8 gf8 bf8 } |
   g2.~ \tuplet 3/2 { g8 ef8 g8 } | ef1 |
 
@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
   \textCoda
 
   af2 gf4~ \tuplet 3/2 { gf8 ef8 gf8 } | ef1 | af2 gf4~ \tuplet 3/2 { gf8 ef8 gf8 } | ef1 |
-  \break
+  \xBreak
   af2 gf4~ \tuplet 3/2 { gf8 ef8 gf8 } | ef2 f2 | g2 af2 | bf2 c2 | ef1\fermata |
 
   \bar "|."

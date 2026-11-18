@@ -60,29 +60,29 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
 
   r8 d4. d4 e4 | e8 f4 f8~ f2 | r8 d4. d4 e4 | e8 f4 f8~ f2 |
-  \break
+  \xBreak
   r8 d4. d4 e4 | e8 f4 f8~ f4 e4 | e4. d8~ d2~ | d2 r2 |
 
   \sect "A2"
 
   r8 f4. f4 g4 | g4 a8 a8~ a8 af8 g4 | r8 f4. f4 g4 | g4 af8 af8~ af8 g8 gf4 |
-  \break
+  \xBreak
   r8 f4. f4 g4 | g4 af8 af8~ af8 g8 f4 | e1 | r4 r8 c8~ c4 d4 |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   c'4. g8~ g2 | r4 r8 c,8~ c4 d4 | c'4. g8~ g2 | r4 r8 c,8~ c4 d4 |
-  \break
+  \xBreak
   c'4. g8~ g4 c4~ | c8 g4. \tuplet 3/2 { f4 a4 c4 } | d1~ | d2 r2 |
-  \break
+  \xBreak
   r8 c4. c4 b4 | b4 a8 a8~ a8 gs8 a4 | r8 c4. c4 b4 | b4 a8 a8~ a8 gs8 a4 |
-  \break
+  \xBreak
   r8 bf4. bf4 a4 | a4 g8 g8~ g8 fs8 g4 | bf1~ | bf2 r2 |
 
   \sect "A3"
 
   r8 d,4. d4 e4 | e8 f4 f8~ f2 | r8 d4. d4 e4 | e8 f4 f8~ f2 |
-  \break
+  \xBreak
   r8 d4. d4 e4 | e8 f4 d'8~ d4 e,4 | f1~ | f2 r2 |
 
   \bar "|."

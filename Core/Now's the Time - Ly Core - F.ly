@@ -45,24 +45,24 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   f8 f8 g8 c,8 f4-. r8 c8 | f8 f8 g8 c,8 f4-. r8 c8 | f8 f8 g8 c,8 f8 f8 g8 c,8 | f8 f8 g8 c,8 f4-. r8 c8 |
-  \break
+  \xBreak
   f8 f8 g8 c,8 f8 bf,4.-> | f'8 f8 g8 c,8 f8 b,4.-> | f'8 f8 g8 c,8 f8 f8 g8 c,8 | f8 f8 g8 c,8 f4-. r8 af8~-> |
-  \break
+  \xBreak
   \tuplet 3/2 { af16 bf16 af16 } f8 d8 c8 d4-. r4 | r8 g4.-> f8 g8 f8 ef8 \textToCodaLastTime |
   r8 c4-. bf8 c4-. r4 | r2 r4 r8
   \once \override Parentheses.font-size = #5
   \parenthesize c8 |
   }
-  \break
+  \xBreak
 
   \xTextMark \markup { \bold \box "Solos" }
 
   \bar ":|.|:"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
   \bar "||-:|."

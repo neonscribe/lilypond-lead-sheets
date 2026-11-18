@@ -71,41 +71,41 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   d4 g4 g2~ | g4 r4 f4 ef4 | d4 bf4 bf2~ | bf4 r4 bf4 c4 |
-  \break
+  \xBreak
   d4 a'4 a4 a4 | a4 bf4 a4 bf4 | g4 f4 f2~ | f4 r4 c4 d4 |
-  \break
+  \xBreak
   ef4 d'4 d2~ | d4 r4 c4 d4 | c4 bf4 bf2~ | bf4 r4 d4 c4 |
-  \break
+  \xBreak
   bf2 c4 bf4 | a2 bf4 a4 | g1~ | g4 r4 bf,4 c4 |
 
   \sect "A2"
 
   d4 g4 g2~ | g4 r4 f4 ef4 | d4 bf4 bf2~ | bf4 r4 bf4 c4 |
-  \break
+  \xBreak
   d4 a'4 a4 a4 | a4 bf4 a4 bf4 | g4 f4 f2~ | f4 r4 c4 d4 |
-  \break
+  \xBreak
   ef4 d'4 d2~ | d4 r4 c4 d4 | c4 bf4 bf2~ | bf4 r4 d4 c4 |
-  \break
+  \xBreak
   bf2 c4 bf4 | a2 bf4 c4 | bf1~ | bf4 r4 r4 c4 |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   d1~ | d4 c4 \tuplet 3/2 { c4 bf4 a4 } | c2 g2~ | g4 r4 a4 bf4 |
-  \break
+  \xBreak
   c1~ | c4 bf4 \tuplet 3/2 { bf4 a4 g4 } | bf1~ | bf4 r4 r4 bf4 |
-  \break
+  \xBreak
   bf1~ | bf4 a4 \tuplet 3/2 { a4 g4 fs4 } | a2 e2~ | e4 e4 fs4 g4 |
-  \break
+  \xBreak
   a4 a4 a4 a4 | a4 e4 f4 g4 | a1~ | a4 r4 bf,4 c4 |
 
   \sect "A3"
 
   d4 g4 g2~ | g4 r4 f4 ef4 | d4 bf4 bf2~ | bf4 r4 bf4 c4 |
-  \break
+  \xBreak
   d4 a'4 a4 a4 | a4 bf4 a4 bf4 | g4 f4 f2~ | f4 r4 c4 d4 |
-  \break
+  \xBreak
   ef4 d'4 d2~ | d4 r4 ef4 d4 | c4 bf4 bf2~ | bf4 r4 d4 c4 |
-  \break
+  \xBreak
   bf2 c4 bf4 | a2 bf4 c4 | bf1~ | bf2 r2 |
 
   \bar "|."

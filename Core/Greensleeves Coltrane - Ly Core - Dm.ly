@@ -103,7 +103,7 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "B"
   
   c,2 c4 | c4 b4 a4 | g2 e4 | c4 d4 e4 | f2 d4 | d4 cs4 d4 |
-  \break
+  \xBreak
   e4 cs8 a8 r4 | R2.*1 | r8 c'4.~ c8 c8 | c4 b4 a4 |
   g2 e4 | c4 d4 e4 | f4 e4 d4 | cs4 b4 cs4 |
   

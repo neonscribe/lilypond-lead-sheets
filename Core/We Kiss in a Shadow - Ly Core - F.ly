@@ -67,9 +67,9 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   r4 c'4 c4 bf8 a8 | g4 g2. | r4 bf4 bf4 a8 g8 |
   c,1 |
-  \break
+  \xBreak
   r4 bf'4 bf4 a8 g8 | c,4 c4 c4 d8 e8 |
-  \break
+  \xBreak
   \alternative { \volta 1 {
   f1~ | f2 r2 |
   } \volta 2 {
@@ -79,15 +79,15 @@ refrainMelody = \relative f' {
   \lyricsPageBreak "B" "||" "||-||"
 
   r4 a4 a4 b8 a8 | fs4 fs2. | r4 g4 g4 a8 g8 | e2. e4 |
-  \break
+  \xBreak
   f2 g4 a4 | b2 c4 d4 | c1~ | c2. r4 |
 
   \sect "A3"
 
   r4 c4 c4 bf8 a8 | g4 g2. | r4 bf4 bf4 a8 g8 | c,1~ |
-  \break
+  \xBreak
   c8 r8 c'4 c4 e,8 f8 | g4 c2 bf4 | a1~ | a2. a4 |
-  \break
+  \xBreak
   a2 f4. g8 | a4 c2 e,4 | f1~ | f2 r2 |
 
   \bar "|."

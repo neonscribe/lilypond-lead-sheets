@@ -90,7 +90,7 @@ refrainMelody = \relative f' {
 
   \bar ".|:-||"
 
-  \break
+  \xBreak
   \segnoSign
   \repeat volta 2 {
   r4
@@ -120,7 +120,7 @@ refrainMelody = \relative f' {
   e4. e8 e4 e4 | e2 c4 d4 | e2 e4 g4 | f4 e4 d4 c4 |
   e2 d4 c4 | b4 b4 b4 a4 | cs2 r2 | r2 r4 e4 | e2 e4. e8 |
   d2 d2 | e2 d4 c4 | a2 r4 a4 | e'2 d4 c4 | a2 r2 |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \dalSegno |
   \bar "||-||"
 

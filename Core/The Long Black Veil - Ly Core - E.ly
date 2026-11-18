@@ -65,26 +65,26 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   e2 e4 e8 e8( | b2) r4 gs'8 gs8 | gs2 gs4. gs8( | e2) ds4 e4 |
-  \break
+  \xBreak
   fs2 fs4. fs8~ | fs2 gs4 fs4 | e2 cs8( e4.) | b2 r8 b8 cs4 |
-  \break
+  \xBreak
   e2 r8 e8 e8 e8~ | e2 r4 fs8 gs8~ | gs2 gs4 fs8 gs8( | e2) ds4 e4 |
-  \break
+  \xBreak
   fs2 fs4 fs8 fs8~ | fs2 gs4 fs4 | e2 cs8( e4.) | e8( b4.~ b2) |
   \alternative { \volta 1 {
   r2 r4 e4 |
-  \break
+  \xBreak
   } \volta 2 {
   r2 r4 b4 |
   } } }
   \sectNoBreak "Chorus"
 
   cs2 e2 | b2 r4 b8. b16 | cs4.( e8~ e4) e4 | gs2. b,4 |
-  \break
+  \xBreak
   cs2 e4 e4 | b2 r4 b8 b8 | cs2 e2 | gs2~( gs8 fs8 gs8 fs8 |
-  \break
+  \xBreak
   e2) r2 | b'2~ b8 b8 cs8 b8~( | b8 gs4 fs8 e2) | r4 e2 e8 e8 |
-  \break
+  \xBreak
   g2 r2 | cs,4(  e4~ e8) e8 e8 fs8~( | fs4 b,2) cs8( e8) |
   fs8( e4.~ e2) \textToCoda | r2 r4 e4 \daCapoSecondEnding |
 

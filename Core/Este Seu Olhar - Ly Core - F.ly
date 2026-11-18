@@ -65,19 +65,19 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
 
     a4 bf8 c8~ c8 d4 c8~ | c1 | bf4 c8 d8~ d8 e4 d8~ | d1 |
-    \break
+    \xBreak
     c4 d8 e8~ e8 f4 e8~ | e8 f4 g8~ g8 a4 g8~ | g2 \tuplet 3/2 { f4 g4 a4 } | g1 |
-    \break
+    \xBreak
 
     }
   \alternative { {
     g2~ g8 f4 e8 | f2~ f8 e4 d8 | f2~ f8 e4 d8 | e1 |
-    \break
+    \xBreak
     e2~ e8 d4 c8 | d2~ d8 gs,4 a8 | d2~ d8 c4 d8 | c1 |
-    \break
+    \xBreak
   } {
     g'2~ g8 f4 e8 | f2~ f8 e4 d8 | c1 | r2 r8 cs4 d8 |
-    \break
+    \xBreak
     g4. g8~ g2~ | g4. g8~ g8 a4 g8~ | g4 f4~ f2 | r1 |
   } }
 

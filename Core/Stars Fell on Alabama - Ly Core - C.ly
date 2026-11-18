@@ -57,11 +57,11 @@ verseMelody = \relative f' {
   \sect "Verse"
 
   f8 f8 d8 d8 af'8 af4. | g8 g8 e8 e8 bf'2 |
-  \break
+  \xBreak
   a8 a8 f8 f8 c'4 b4 | g1 |
-  \break
+  \xBreak
   f8 f8 d8 d8 af'8 af4. | g8 g8 e8 e8 c'2 |
-  \break
+  \xBreak
   c8 c8 a8 a8 d4 b4 | g1 |
 
   \bar "||"
@@ -188,19 +188,19 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   e2 ds8 e8 ds8 e8 | a4 a2 g4 | e'2 ds8 e8 ds8 e8 | b2. bf4 |
-  \break
+  \xBreak
   a2 gs8 a8 gs8 a8 | e4 e2 d4 | g1 | r1 |
 
   \sect "A2"
 
   e2 ds8 e8 ds8 e8 | a4 a2 g4 | e'2 ds8 e8 ds8 e8 | b2. bf4 |
-  \break
+  \xBreak
   a2 gs8 a8 gs8 a8 | e4 e2 d4 | c1 | r2 r8 e8 f8 g8 |
 
   \sect "B"
 
   a4. a8 g8 f8 e8 d8 | b'4 b4. c8 d8 c8 | g4 g4. a8 b8 g8 | e2 r8 e8 f8 g8 |
-  \break
+  \xBreak
   a4. a8 g8 f8 e8 d8 |
   \noBreak
   c'4 c4. d8 e8 c8 |
@@ -212,7 +212,7 @@ refrainMelody = \relative f' {
   \sect "C"
 
   e2 ds8 e8 ds8 e8 | a4 a2 g4 | e'2 ds8 e8 ds8 e8 | b2. bf4 |
-  \break
+  \xBreak
   a2 gs8 a8 gs8 a8 | e4 e2 d4 | c1 | r1 |
 
   \bar "|."

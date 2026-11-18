@@ -44,17 +44,17 @@ refrainMelody = \relative f' {
   \sect "Chorus"
 
   c,4 c4 c8 a'8 g8 e8 | c4 c4 c8 a'8 g8 e8 | c4 c4 f4 f4 | c4 c4 c8 a'8 g8 e8 |
-  \break
+  \xBreak
   c4 c4 b4 b4 | a4 a4 e'4 a4 | f4 f4 g4 a,8 b8 | c4 c4 c8 a'8 g8 a8 |
 
   \sect "Verse"
 
   g2 g2 | g2 f4 f4 | c4 c4 c4 c8 g8 | c4 c4 f4 c4 |
-  \break
+  \xBreak
   g'2 g2 | g2 f4 f4 | c4 c4 c4 c4 | c4 c4 f4 a4 |
-  \break
+  \xBreak
   g2 g2 | g2 f4 f4 | c4 c4 c4 c8 g8 | c4 c4 f4 a4 |
-  \break
+  \xBreak
   g2 g2 | g2 f4 f4 | c4 c4 c8 a'8 g8 e8 | c4 c4 c8 a'8 g8 a8 |
 
   \sect "Outro"

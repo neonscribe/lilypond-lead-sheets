@@ -48,15 +48,15 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | r2 r8 b8 d8 cs8 |
 
-  %% \break
+  %% \xBreak
 
   \bar ".|:-||"
   \xTextMark \markup{ \bold \box "A1, A2" }
   \repeat volta 2 {
   a2. r8 fs8 | g8 bf8 cs8 e8 g8 fs4 a8~ | a1 | r4 a8 a8~ a8 b4 a8~ |
-  %% \break
+  %% \xBreak
   a8 g4 g8 fs4 g4~ | g4 fs8 g8~ g8 a4 fs8~ | fs1 | r8 fs8 a8 af8 g8 fs4 fs8~ |
-  %% \break
+  %% \xBreak
   fs8 d8 d8 d8~ d8 b8 d8 e8 | f8 d8 c8 af8 g8 f4 f8~ | f8 d4.~ d2~ |
   \alternative { \volta 1 {
   d2 r8 b'8 d8 cs8 |
@@ -67,16 +67,16 @@ refrainMelody = \relative f' {
 
   d2 \tuplet 3/2 { c4 bf4 a4 } | g2 \tuplet 3/2 { a4 bf4 d4 } |
   c4. c8 c2~ | c1 |
-  %% \break
+  %% \xBreak
   c2~ c8 bf8 af8 g8 | f2 \tuplet 3/2 { g4 af4 c4 } | bf4. bf8 bf2~ | bf2 r8 bf8 d8 cs8 |
 
 
   \sect "A3"
 
   a2. r8 fs8 | g8 bf8 cs8 e8 g8 fs4 a8~ | a1 | r4 a8 a8~ a8 b4 a8~ |
-  %% \break
+  %% \xBreak
   a8 g4 g8 fs4 g4~ | g4 fs8 g8~ g8 a4 fs8~ | fs1 | r8 fs8 a8 af8 g8 fs4 fs8~ |
-  %% \break
+  %% \xBreak
   fs8 d8 d8 d8~ d8 b8 d8 e8 | f8 d8 c8 af8 g8 f4 f8~ | f8 d4.~ d2~ | d1 |
 
   \bar "|."

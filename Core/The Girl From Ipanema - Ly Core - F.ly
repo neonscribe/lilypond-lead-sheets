@@ -74,33 +74,33 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
 
   g4. e8 e8 d4 g8~ | g4 e8 e8~ e8 e8 d8 g8~ | g4 e4 e4 d8 g8~ | g8 g8 e8 e8~ e8 e8 d8 f8~ |
-  \break
+  \xBreak
   f8 d4 d8~ d8 d8 c8 e8~ | e8 c4 c8~ c8 c8 bf4 | r4 c2.~ | c2 r2 |
 
   \sect "A2"
 
   g'4. e8 e8 d4 g8~ | g4 e8 e8~ e8 e8 d8 g8~ | g4 e4 e4 d8 g8~ | g8 g8 e8 e8~ e8 e8 d8 f8~ |
-  \break
+  \xBreak
   f8 d4 d8~ d8 d8 c8 e8~ | e8 c4 c8~ c8 c8 bf4 | r4 c2.~ | c2 r2 |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   f1~ | \tuplet 3/2 { f4 gf4 f4 } \tuplet 3/2 { ef4 f4 ef4 } |
   cs4. ds8~ ds2~ | ds2. r8 gs8~ |
-  \break
+  \xBreak
   gs1~ | \tuplet 3/2 { gs4 a4 gs4 } \tuplet 3/2 { fs4 gs4 fs4 } |
   e4. fs8~ fs2~ | fs2. r8 a8~ |
-  \break
+  \xBreak
   a1~ | \tuplet 3/2 { a4 bf4 a4 } \tuplet 3/2 { g4 a4 g4 } |
   f4. g8~ g2~ | g2 \tuplet 3/2 { r4 a4 bf4 } |
-  \break
+  \xBreak
   \tuplet 3/2 { c4 c,4 d4 } \tuplet 3/2 { e4 f4 g4 } | gs2. a4 |
   \tuplet 3/2 { bf4 bf,4 c4 } \tuplet 3/2 { d4 e4 f4 } | fs1 |
 
   \sect "A3"
 
   g4. e8 e8 d4 g8~ | g4 e8 e8~ e8 e8 d8 g8~ | g4 e4 e4 d8 g8~ | g8 g8 e8 e8~ e8 e8 d8 a'8~ |
-  \break
+  \xBreak
   a4. f8 f8 f8 d8 c'8~ | c4. e,8 \tuplet 3/2 { e4 e4 d4 } | e1 | r1 |
 
   \bar "|."

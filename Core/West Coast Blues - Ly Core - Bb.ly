@@ -42,24 +42,24 @@ refrainMelody = \relative f' {
 
   d'4 d4 bf8 f8 | af4 bf4 \tuplet 3/2 { ef,8 f8 af8 } | c4 c4 af8 ef8 | gf4 af4 \tuplet 3/2 { f8 g8 bf8 } |
   d4 d4 bf8 f8 | af4 bf4 r8 cs8 |
-  \break
+  \xBreak
   e8 fs8 e8 d8 r8 fs,8 | r8 cs'8 r8 a8 b8 a8 | df4 df4 bf8 f8 |
   af4 bf4 \tuplet 3/2 { f8 g8 bf8 } | df4 df4 bf8 f8 | af4 bf4 \tuplet 3/2 { f8 g8 bf8 } |
-  \break
+  \xBreak
   d4 d4 bf8 f8 | af4 bf4 \tuplet 3/2 { f8 g8 bf8 } |
   d4 d4 bf8 f8 | af4 bf4 r8 d8 | f8 g8 f8 ef8 r8 fs,8 | g8 bf8 d8 c8 af8 f8 |
-  \break
+  \xBreak
   ef'8 f8 ef8 df8 r8 e,8 | f8 af8 c8 bf8 g8 e8 | d'4 d4 bf8 f8 | af4 bf4 \tuplet 3/2 { f8 g8 bf8 } |
   d4 d4 bf8 f8 | af4 bf4 r4 |
 
   \sect "Solos"
 
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
 
   \bar "|."

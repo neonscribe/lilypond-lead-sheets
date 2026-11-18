@@ -30,7 +30,7 @@ verseMelody = \relative f' {
 
   \tuplet 3/2 { c4 r4 c'4 } \tuplet 3/2 { c,4 r4 c'4 } | \tuplet 3/2 { c,4 r4 c'4 } \tuplet 3/2 { d,4 e4 f4 } |
   \tuplet 3/2 { c4 r4 c'4 } \tuplet 3/2 { c,4 r4 c'4 } | \tuplet 3/2 { c,4 r4 c'4 } \tuplet 3/2 { d,4 e4 f4 } |
-  \break
+  \xBreak
   \tuplet 3/2 { c4 r4 c'4 } \tuplet 3/2 { d,4 e4 f4 } | \tuplet 3/2 { c4 r4 c'4 } \tuplet 3/2 { d,4 e4 f4 } |
   \tuplet 3/2 { c4 d4 e4 } \tuplet 3/2 { f4 g4 a4 } | \tuplet 3/2 { c4 a4 g4 } \tuplet 3/2 { f4 e4 a4 } |
 
@@ -68,13 +68,13 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ "Refrain" \bold \box "A" }
 
   c1 | r2 r4 a4 | c,1 | r2 r4 a'4 |
-  \break
+  \xBreak
   c4 f8 d8~ d2~ | d4. c8 a8 f8 d8 g8~ | g1 | r2 r4 b4 |
 
   \sect "B"
 
   df1 | r2 r4 b4 | af1 | r2 r4 a4 |
-  \break
+  \xBreak
   c1 | r4 r8 a8 g8 f8 d8 f8~ | f1 | r2 r4 \parenthesize a4 |
 
   \bar "|."

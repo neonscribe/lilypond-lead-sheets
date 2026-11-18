@@ -42,7 +42,7 @@ refrainMelody = \relative f' {
 
   a8 bf8 a8 af8 gf4 bf,4 df4 | ef2. f16( gf16 f16 ef16) df4 |
   ef2. df16( ef16 df16 bf16) af4 | bf2. bf8 ef8 gf8 af8 |
-  \break
+  \xBreak
   a8 bf8 a8 af8 gf4 bf,4 df4 | ef2. df16( ef16 df16 bf16) af4
   bf2. f'16( gf16 f16 ef16) df4 | ef2. r2 |
 
@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
 
   ef'8 gf4 ef8 cf4 af8 bf8 cf8 c8 | df8 f4 df8 bf4 gf8 af8 a8 bf8 |
   cf8 ef4 cf8 af4 f8 gf8 af8 a8 | bf8 a8 bf8 cf8 df4 df8 c8 df8 d8 |
-  \break
+  \xBreak
   ef8 gf4 ef8 cf4 af8 bf8 cf8 c8 | df8 f4 df8 bf4 gf8 af8 a8 bf8 |
   cf8 ef4 cf8 af4 f8 af8 df8 cf8 | bf2. bf,8 ef8 gf8 af8 |
 
@@ -59,7 +59,7 @@ refrainMelody = \relative f' {
 
   a8 bf8 a8 af8 gf4 bf,4 df4 | ef2. f16( gf16 f16 ef16) df4 |
   ef2. df16( ef16 df16 bf16) af4 | bf2. bf8 ef8 gf8 af8 |
-  \break
+  \xBreak
   a8 bf8 a8 af8 gf4 bf,4 df4 | ef2. df16( ef16 df16 bf16) af4
   bf2. f'16( gf16 f16 ef16) df4 | ef2. r2 |
 

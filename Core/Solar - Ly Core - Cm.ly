@@ -60,17 +60,17 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Miles Davis Quintet 1954]" 165
 
   r4 r8 c'8 b4-. d8 c8 | r8 g4.~ g4. a8 | bf4-. bf4 a4 c8 bf8~ | bf1 |
-  \break
+  \xBreak
   r8 a4. gs4-. bf8 a8 | r8 c,4.~ c4 f8 g8 | af4-. af4 g4 bf8 af8~ | af2 r2 |
-  \break
+  \xBreak
   r8 g8 f8 ef8 d4 c4-. | gf'4 f8 ef8 df4 c4-. | f2 r2 | r8 d8 d8 e8 f8 g8 af8 bf8 |
   \bar "||-||"
-  \break
+  \xBreak
 
   b4 c4 d4. c8 | r8 c,4. f4. g8 | af4 af4 g4 bf8 af8~ | af2 r2 |
-  \break
+  \xBreak
   r8 a4. gs4 bf8 a8 | r8 c,4.~ c4 f8 g8 | af4 af4 g4 bf8 af8~ | af2 r2 |
-  \break
+  \xBreak
   r8 g8 f8 ef8 d4 c4-. | gf'4 f8 ef8 df4 c4-. | f1 | r1 |
 
   \bar "|."

@@ -40,13 +40,13 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   bf8 d8 bf8 g8 bf4 r8 f8 | bf8 g8 bf8 df8 r8 g,4-. f8 |
   e8 g8 bf8 df8 \tuplet 3/2 { c8 df8 c8 } g8 bf8 | r2 r4 r8 f8 |
-  \break
+  \xBreak
   bf8 d8 bf8 g8 bf4 r8 f8 | bf8 g8 bf8 df8 r8 g,4-. f8 |
   e8 g8 bf8 df8 \tuplet 3/2 { c8 df8 c8 } g8 a8 | r1 |
-  \break
+  \xBreak
   g'4 r8 f8 r4 df4~ | df4. g,8 r8 df'8 r8 g,8 |
   df'4 df8 df8 g,4 c4 | r2 r4 r8 f,8 |
-  \break
+  \xBreak
   bf8 d8 bf8 g8 bf4 r8 f8 | bf8 g8 bf8 df8 r8 g,4-. f8 |
   e8 g8 bf8 df8 \tuplet 3/2 { c8 df8 c8 } g8 bf8 | r2 r4 r8 f8 |
   }

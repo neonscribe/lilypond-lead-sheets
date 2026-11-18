@@ -76,15 +76,15 @@ refrainMelody = \relative f' {
   \sectNoBar "Verse"
 
   b,4_"6x" b8 b8~ b8 b4. | b8 b4 a8~ a8 g4 a8~ | a4 b4 g8 a4 g8~ | g2 r2 |
-  \break
+  \xBreak
   b8 b4 b8~ b8 b4 b8~ | b8 b4. b4 b8 g8 | a4 b4 g4 a8 g8~ | g2 r2 |
 
   \sect "Chorus"
 
   d8 a'4. a8 a8 a8 g8 | a4 a4 a8( b4) b8 | a4 g8 g8 g8 g8 g8 e8 | e8( g4) g8 g8( a4) a8 |
-  \break
+  \xBreak
   a4 a8 a8( g4) g8 a8~ | a8 a4. a8( b4) b8 | a4 g4 g4 e4 | g2 r4 a4 |
-  \break
+  \xBreak
   \alternative { \volta 1,2,4,6 {
   a2.( d,4~ | d1) \textFine | r1 | r1 |
   } \volta 3,5 {
@@ -93,13 +93,13 @@ refrainMelody = \relative f' {
   \alwaysPageBreak "Bridge" "||" "||-||"
 
   d'4 d4 d4 b4 | c4 c4 c8( b8) a8 d8~ | d4 d4 e4 e8 d8~ | d4 r4 r4 r8 g,8 |
-  \break
+  \xBreak
   c4 c4 c4 c4 | b4. b8 a8( g8) g8 c8~ | c8 b4. a4 a8 g8~ | g4 r4 r2 |
-  \break
+  \xBreak
   b8 d4. d8( c8) b4 | c8 c4 b8~ b8 a8~ a8 r8 | d8 d4 e8~ e8 e4. | d2 r4 r8 e,8 |
-  \break
+  \xBreak
   c'4 c8 c8~ c8 c4. | b4 b8 a8~ a8 g4. | g4. a8 g4 e4 |
-  \break
+  \xBreak
   d2 r2 | r1 | r1 | r1 |
   } } }
 }

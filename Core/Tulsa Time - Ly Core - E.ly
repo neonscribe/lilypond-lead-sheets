@@ -83,20 +83,20 @@ refrainMelody = \relative f' {
 
   b8 b8 b8 a8 b8 gs4 as8( | b8) a8 b8 a8 b8 g8 gs8 r8 |
   b8 a8 b8 a8 b8( a8) g8 b8~ | b4 r4 r4 gs8 gs8 |
-  \break
+  \xBreak
   a16 a16 a8 b8 b8 b8 fs8 gs8 a8 | a8 a8 a8 b8 b8 fs8 r8 b16 b16 |
   b8 b8 cs4 g8( fs8) e8 gs8~ | gs4 r4 r4 r8 b8 |
-  \break
+  \xBreak
   b8 a8 b8 b8 a8 g8 r8 b8 | b8 a8 b8 b8 b8 gs8 r8 b16 b16 |
   b8 b8 b8 b8 b8( a8) gs8 b8~ | b4 r4 r4 gs8 a8 |
-  \break
+  \xBreak
   a8 a8 a8 b8 b8 fs8 a8 a8 | a8 b4 b8 b8 fs8 r8 b16 b16
   b8 b8 cs4 g8( fs8) e8 e8~ | e4 r4 r2 |
 
   \sect "Chorus"
 
   b'8 b8 b4 b8( a8) gs8 b8~ | b4 r4 r2 | gs8 b8 b4 b8( a8) gs8 b8~ | b4 r4 r4 gs8 a8 |
-  \break
+  \xBreak
   a8 b4 b8 b8 fs8 gs8 a8 | a8 a8 a8 b8 b8 fs8 r4 | b8 b8 cs4 g8( fs8) e8 e8~ | e4 r4 r2 |
 
   \bar "|."

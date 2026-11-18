@@ -36,15 +36,15 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "Head"
 
   af4. bf8~ bf4 f4-. | af4. bf8~ bf4 f4-. |
-  \break
+  \xBreak
   af8 bf8 af4 bf4 af8 f8 | r4 r8 bf8~ bf4 bf4-. |
-  \break
+  \xBreak
   df4. ef8~ ef4 bf4-. | df4. ef8~ ef4 f,4-. |
-  \break
+  \xBreak
   af8 bf8 af4 bf4 af8 f8 | r2 r4 bf4-. |
-  \break
+  \xBreak
   df4. bf8~ bf4 df4~ | df8 bf4. af4-. a8 bf8 \textFine |
-  \break
+  \xBreak
   r4 r8 af8 r4 r8 g8 | r4 r8 gf8 r4
   \override Parentheses.font-size = #5 \parenthesize f4-. |
 

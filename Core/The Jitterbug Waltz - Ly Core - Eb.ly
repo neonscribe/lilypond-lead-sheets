@@ -96,32 +96,32 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   r8 ef'8 g8 d8 f8 c8 | ef8 bf8 d8 af8 c8 g8 |
   bf8 f8 af8 ef8 g8 d8 | f8 c8 ef8 bf8 d8 bf8 |
-  %% \break
+  %% \xBreak
   c8 c4.~ c4~ | c2 \tuplet 3/2 { bf8 c8 ef8 } | bf'2~ bf8 c8 | gf2. |
 
   \sect "B"
 
   r8 ef'8 g8 d8 f8 c8 | ef8 bf8 d8 af8 c8 g8 |
   bf8 f8 af8 ef8 g8 d8 | f8 c8 ef8 bf8 d8 g,8 |
-  %% \break
+  %% \xBreak
   c8 c4.~ c4~ | c2 \tuplet 3/2 { bf8 c8 e8 } | bf'2~ bf8 c8 | g2. |
 
   \sect "C"
 
   r8 c,8 ef8 c8 ef8 c8 | ef8 c8 ef8 c8 ef8 c8 | g'8 g4.~ g4~ | g2 r4 |
-  %% \break
+  %% \xBreak
   r8 cf,8 ef8 cf8 ef8 cf8 | ef8 cf8 ef8 cf8 ef8 cf8 | g'8 g4.~ g4~ | g2 r4 |
 
   \sect "D"
 
   \alternative { \volta 1 {
   r8 c,8 ef8 c8 ef8 c8 | ef8 c8 ef8 c8 ef8 c8 | d4 ef4 e4 | f4. d8 c8 cf8 |
-  %% \break
+  %% \xBreak
   bf2.~ | bf2.~ | bf2.~ | bf2 r4 |
-  %% \break
+  %% \xBreak
   } \volta 2 {
   r8 c8 ef8 c8 ef8 c8 | ef8 c8 ef8 c8 ef8 c8 | g'8 g4.~ g4~ | g2 bf,4 |
-  %% \break
+  %% \xBreak
   ef2 g8 bf8 | af2 c8 ef8 | ef2. | R2.*1 |
   } } }
   \bar "|."

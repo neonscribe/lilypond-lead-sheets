@@ -1,3 +1,5 @@
+import re
+
 ## Three page songs get different treatment depending on the song
 ## rectos usually start with a verse or intro
 ## versos usually end with a coda or a lyrics page
@@ -13,3 +15,15 @@ versoThrees = ['Fever', "Moanin'", 'My Attorney Bernie',
 eitherThrees = ['Twisted', 'You Belong to Me',
                "Do Nothin' Till You Hear From Me"]
 
+def threepagetype(filename):
+    for name in rectoThrees:
+        pattern = '/' + name + ' - '
+        match = re.search(pattern, filename)
+        if match:
+            return 'recto'
+    for name in versoThrees:
+        pattern = '/' + name + ' - '
+        match = re.search(pattern, filename)
+        if match:
+            return 'verso'
+    return False

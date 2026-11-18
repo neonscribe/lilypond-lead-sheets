@@ -47,11 +47,11 @@ verseMelody = \relative f' {
   \xTextMark \markup{ "Verse" }
 
   c'4 g4 g4 c4 | c4 g4 g2 | c4 g4 g4 b4 | b1 |
-  \break
+  \xBreak
   b4 g4 g4 b4 | b4 g4 g2 | b4 g4 g4 a4 | a1 |
-  \break
+  \xBreak
   c,4 c4 c4 c4 | g'4 g4 g2 | b,4 b4 b4 b4 | a'1 |
-  \break
+  \xBreak
   g4 g4 g4 g4 | d'4 e4 d2\fermata | r4 ef,4 \tuplet 3/2 { ef4 ef4 ef4 } | g1 |
 
   \bar "||"
@@ -140,9 +140,9 @@ refrainMelody = \relative f' {
     }
 
     f8 a8~ a2 |
-    \break
+    \xBreak
     g8 a8 g8 c8~ c4 c4 | e,8 f8 e8 a8~ a4 a4 | e1 | r8 f8 g8 a8 b8 a8 b8 g8~ |
-    \break
+    \xBreak
     g1 | r8 f8 g8 a8 d,8 c8 d8 c8~ |
     \alternative { \volta 1 {
     c1 | r1 |
@@ -159,9 +159,9 @@ refrainMelody = \relative f' {
   \sect "A3"
 
   e2 e2 | r8 f8 g8 a8 c8 c4 b8 | d4 a8 c8~ c2 | b4 f8 a8~ a2 |
-  \break
+  \xBreak
   g8 a8 g8 c8~ c4 c4 | e,8 f8 e8 a8~ a4 a4 | e1 | r8 f8 g8 a8 b8 a8 b8 g8~ |
-  \break
+  \xBreak
   g1 | r8 f8 g8 a8 d8 c8 d8 e8~ | e1 | r8 c8 d8 e8 d8 c8 d8 c8~ | c1 | r1 |
 
   \bar "|."

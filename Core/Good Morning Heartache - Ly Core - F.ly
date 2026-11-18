@@ -88,7 +88,7 @@ refrainMelody = \relative f' {
   r8 c8 g'8 f8 ef8 c4. | c8 c8~ \tuplet 3/2 { c8 g'8 f8 } ef2 |
   r8 c8 a'8 g8 f8 c8~ \tuplet 3/2 { c8 a'8 bf8 } |
   c8 c8 bf8 c8 a2 |
-  \break
+  \xBreak
   r8 d,8 c'8 bf8 a8 g8 f8 e8 | e4 g8 e8 ef2 |
 
   r8 c8 c8 c8 ef8 c4 ef8 | c1 |
@@ -98,7 +98,7 @@ refrainMelody = \relative f' {
   r8 c8 g'8 f8 ef8 c4. | c8 c8~ \tuplet 3/2 { c8 g'8 f8 } ef2 |
   r8 c8 a'8 g8 f8 c8~ \tuplet 3/2 { c8 a'8 bf8 } |
   c8 c8 bf8 c8 a2 |
-  \break
+  \xBreak
   r8 d,8 c'8 bf8 a8 g8 f8 e8 | e4 g8 e8 ef2 |
 
   r8 c8 c8 c8 ef8 c4 e8 | f1 |
@@ -108,18 +108,18 @@ refrainMelody = \relative f' {
   \sectNoBar "B"
 
   r4 a4 \tuplet 3/2 { c4 a4 c4 } | a1 |
-  \break
+  \xBreak
   r4 a4 \tuplet 3/2 { cs4 a4 c4 } | a1 |
-  \break
+  \xBreak
   r4 g4 \tuplet 3/2 { bf4 g4 bf4 } | g2. r8 g8 |
-  \break
+  \xBreak
   gf8 gf4 gf8~ gf8 af8 gf4 | f8 f4 f8~ f8 g8 f4 |
 
   \sect "A3"
 
   r8 c8 g'8 f8 ef8 c4. | c8 c8~ \tuplet 3/2 { c8 g'8 f8 } ef2 |
   r8 c8 a'8 g8 f8 c8~ \tuplet 3/2 { c8 a'8 bf8 } | c8 c8 bf8 c8 a2 |
-  \break
+  \xBreak
   r8 d,8 c'8 bf8 a8 g8 f8 e8 | e4 g8 e8 ef2 |
   r8 c8 c8 c8 a'8 c,4 a'8 | f1
 

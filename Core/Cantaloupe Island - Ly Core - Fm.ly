@@ -37,18 +37,18 @@ refrainMelody = \relative f' {
 
   r1^"(Vamp)" | r1 | r1 | r2 r4 f8 f8 |
 
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "Refrain" }
 
   \bar ".|:-||"
   \repeat volta 2 {
   r2 af8 bf8 bf4 | r4 r8 af8 bf8 c8 ef,8 f8~ | f4 r4 r2 | r2 r4 f8 f8 |
-  \break
+  \xBreak
   r2 af8 bf8 bf4 | r4 r8 af8 bf8 c8 ef,8 f8~ | f4 r4 r2 | r2 c'8 ef8 c8 ef8 |
-  \break
+  \xBreak
   f,4. f8~ f2~ | f4 r4 c'8 ef8 c8 ef8 | f,4. f8~ f2~ | f2. r4 |
-  \break
+  \xBreak
   r1^"(Intro Vamp)" | r1 | r1 | r2 r4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

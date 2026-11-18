@@ -395,7 +395,7 @@ textCoda = {
 
 textCodaBreak = {
   \autoPageBreaksOn
-  \break
+  \sBreak
   \once \override Score.RehearsalMark.self-alignment-X = #-0.15
   \xTextMark
   \markup {
@@ -413,7 +413,7 @@ textCodaBreak = {
 %%% includes the word "Coda" after the coda sign
 
 textCodaIBreak = {
-  \break
+  \sBreak
   \once \override Score.RehearsalMark.self-alignment-X = #-0.15
   \xTextMark
   \markup {
@@ -431,7 +431,7 @@ textCodaIBreak = {
 %%% includes the word "Coda" after the coda sign
 
 textCodaIIBreak = {
-  \break
+  \sBreak
   \once \override Score.RehearsalMark.self-alignment-X = #-0.15
   \xTextMark
   \markup {
@@ -449,7 +449,7 @@ textCodaIIBreak = {
 %%% includes the word "Coda" after the coda sign
 
 textCodaIIIBreak = {
-  \break
+  \sBreak
   \once \override Score.RehearsalMark.self-alignment-X = #-0.15
   \xTextMark
   \markup {

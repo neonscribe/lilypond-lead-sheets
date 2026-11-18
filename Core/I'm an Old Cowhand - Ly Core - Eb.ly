@@ -94,13 +94,13 @@ refrainMelody = \relative f' {
   \sect "Refrain"
 
   f1~ | f4 f8 f8 af4 g4 | ef1~ | ef4 bf'8 bf8 g4 ef4 |
-  \break
+  \xBreak
   f1~ | f4 f8 f8 af4 g4 | bf1~ | bf2 r4 g8 bf8 |
-  \break
+  \xBreak
   c4 c4 c4 d8 c8 | bf4 g4 g4 g8 bf8 | c4 c4 c4 d8 c8 | bf4 g4 g4 g8 bf8 |
-  \break
+  \xBreak
   c4 c4 c4 d8 c8 | bf4 g4 g2 |
-  \break
+  \xBreak
   g8 g8 f4 ef4 f4 | ef1 |
   g8 g8 f4 ef4 f4 \textToCodaLastTime |
 

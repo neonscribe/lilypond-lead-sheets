@@ -33,11 +33,11 @@ refrainMelody = \relative f' {
   \tempoFour "Medium [Tadd Dameron 1948]" 174
 
   r8 g4. g4-. g4-. | g4. g8~ g4 g4-. | bf2 \tuplet 3/2 { af4 c,4 ef4 } | g4. e8~ e4 r4 |
-  \break
+  \xBreak
   r8 g4. g4-. g4-. | g4. g8~ g4 g4-. | c2 \tuplet 3/2 { bf4 df,4 f4 } | c'4. a8~ a4 r4 |
-  \break
+  \xBreak
   r8 bf4. a4-. af4-. | bf4-- a8 af8 r2 | r8 b4. bf4-. a4-. | b4-- bf8 a8 r2 |
-  \break
+  \xBreak
   c2~ c8 a8 f8 e8~ | e2  cs4 d8 g8~ | g1~ | g2. r4 |
 
   \bar "|."

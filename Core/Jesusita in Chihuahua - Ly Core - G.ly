@@ -86,13 +86,13 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
 
   b2 c4-.( e4)-. | d2 cs4-.( d4)-. | g4 r8 d8( cs4 d4) | fs4-. e4-. ds4-. e4-. |
-  %% \break
+  %% \xBreak
   a2 \appoggiatura{ g16 a16 } g4-.( e4)-. | g2 fs4-.( c4)-. |
   fs4 r8 \appoggiatura{ c16 d16 } c8( b4 c4)-. | e4-. d4-. df4-. c4-. |
-  %% \break
+  %% \xBreak
   b2 c4-.( e4)-. | d2 cs4-.( d4)-. | b'4 r8 \appoggiatura{ g16 a16 } g8( fs4-. g4)-. |
   a4-. e4-. ds4-. e4-. |
-  %% \break
+  %% \xBreak
   a4 r8 g8 fs4-. e4-. |
   g4-. d4-. cs4-. d4-. |
   e8 g8 fs8 e8 d8 c8 b8 a8 |
@@ -103,18 +103,18 @@ refrainMelody = \relative f' {
   \bar "!"
   e4( f4 fs4) |
   \bar ".|:-||"
-  %% \break
+  %% \xBreak
   \key c \major
 
   \sectNoBar "B"
 
   \repeat volta 2 {
   g1~\downbow_\markup \italic { "Repeat 8va" } | g4 e4( f4 g4) | a1~ | a4 f4( g4 a4) |
-  %% \break
+  %% \xBreak
   b1 | a2( b2) | a4 r8 g8( fs4 a4) | g4-. e4( f4 fs4) |
-  %% \break
+  %% \xBreak
   g4-. g8( fs8 g4)-. g8( f8 | g4)-. e4( f4 g4) | a4-. a8( gs8 a4)-. a8( g8 | a4)-. f4( g4 a4) |
-  %% \break
+  %% \xBreak
   b1 | a2( b2) |
   } \alternative {{
     d4 r8 c8 b4-. d4-. | c4-. \ottava #1 e4( f4 fs4) \ottava #0 |
@@ -122,14 +122,14 @@ refrainMelody = \relative f' {
     d4 r8 c8 b4 d4 | c4 r4 r2 |
     }}
   \bar ".|:-||"
-  %% \break
+  %% \xBreak
   \key g \major
 
   \sect "C"
 
   \repeat volta 2 {
   d,8\downbow e8 fs8 g8 a8 b8 c8 d8 | e8 d8 b8 g8 d4 g'4 | fs8 e8 c8 a8 fs4 fs'4 | e8 d8 b8 g8 d4 r4 |
-  %% \break
+  %% \xBreak
   d8\downbow e8 fs8 g8 a8 b8 c8 d8 | e8 d8 b8 g8 d4 g'4 | fs8 e8 c8 a8 e'8 d8 c8 a8 |
   } \alternative {{
     g2 r2 |
@@ -142,13 +142,13 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
     b'8\downbow d,8 d8 d8 a'8 d,8 d8 d8 | g8 d8 d8 d8 d8 d8 d8 d8 |
     g8 d8 d8 d8 fs8 d8 d8 d8 | e8 d8 d8 d8 d8 d8 d8 d8 |
-    %% \break
+    %% \xBreak
     a'8 c,8 c8 c8 g'8 c,8 c8 c8 | fs8 c8 c8 c8 c8 c8 c8 c8 |
     fs8 c8 c8 c8 e8 c8 c8 c8 | d8 b8 b8 b8 b8 b8 b8 b8 |
-    %% \break
+    %% \xBreak
     b'8 d,8 d8 d8 a'8 d,8 d8 d8 | g8 d8 d8 d8 d8 d8 d8 d8 |
     g4. a16( g16 fs8 g8) fs8 g8 | a4 e2 ds8 e8 |
-    %% \break
+    %% \xBreak
     a2 \appoggiatura{ g16 a16 } fs4-.( e4)-. | g4-. d4-. cs4-. d4-. |
     e8 g8 fs8 e8 d8 c8 b8 a8 |
   } \alternative {{
@@ -157,14 +157,14 @@ refrainMelody = \relative f' {
       g2 r2 |
   }}
   \bar ".|:-||"
-  %% \break
+  %% \xBreak
   \key d \major
 
   \sect "D"
 
   \repeat volta 2 {
   a4\downbow r4 g4 r4 | fs4 e8 fs8 g4-.( fs4)-. | e4 d8 e8 fs4-.( e4)-. | d8 a8 fs8 a8 d8 e8 fs8 g8 |
-  %% \break
+  %% \xBreak
   a4 r4 g4 r4 | fs4 e8 fs8 g4-.( fs4)-. | e4 d8 e8 fs4-.( e4)-. |
   } \alternative {{
     d2 r2 |
@@ -175,13 +175,13 @@ refrainMelody = \relative f' {
   \sect "A"
 
   b2 c4-.( e4)-. | d2 cs4-.( d4)-. | g4 r8 d8( cs4 d4) | fs4-. e4-. ds4-. e4-. |
-  %% \break
+  %% \xBreak
   a2 \appoggiatura{ g16 a16 } g4-.( e4)-. | g2 fs4-.( c4)-. |
   fs4 r8 \appoggiatura{ c16 d16 } c8( b4 c4)-. | e4-. d4-. df4-. c4-. |
-  %% \break
+  %% \xBreak
   b2 c4-.( e4)-. | d2 cs4-.( d4)-. | b'4 r8 \appoggiatura{ g16 a16 } g8( fs4-. g4)-. |
   a4-. e4-. ds4-. e4-. |
-  %% \break
+  %% \xBreak
   a4 r8 g8 fs4-. e4-. |
   g4-. d4-. cs4-. d4-. |
   e8 g8 fs8 e8 d8 c8 b8 a8 |

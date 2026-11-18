@@ -69,15 +69,15 @@ refrainMelody = \relative f' {
   d2. b4 | a8 a8 fs8 fs8 e4 d4 | a1~ | a2 r8 d'8 d8 d8 |
   d2. b4 | a4 fs8 fs8 e8 e8 d4 | a'1~ | a4 a4 fs4 e4 |
   \bar "||-||"
-  \break
+  \xBreak
   d2. e8 e8 | fs4 fs4 e4 d4 | g1~ | g4 b4 b4 b4 |
   e,2. gs4 | b4 b4 cs4 d4 | cs1~ | cs2 d4 d4 |
   \bar "||-||"
-  \break  
+  \xBreak  
   d2. b4 | a8 a8 fs8 fs8 e4 d4 | a1~ | a2 r8 d'8 d8 d8 |
   d2. b4 | a4 fs8 fs8 e8 e8 d4 | a'1~ | a4 a4 fs4 e4 |
   \bar "||-||"
-  \break  
+  \xBreak  
   d2. e4 | fs4 fs4 e4 d4 | g1~ | g2 b4 b4 |
   a4 a4 a4 a4 | cs8 cs8 b8 a8 g4 e4 | d1~ | d2 
   \override Parentheses.font-size = #5

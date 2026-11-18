@@ -45,13 +45,13 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   g4 a4 b4 c4 | d4 c8 b8~ b8 a4. | r4 g8 a8 bf8 c4 d8~ | d4 c8 bf8~ bf8 a4. |
-  \break
+  \xBreak
   r4 f8 g8 a8 bf4 c8~ | c4 bf8 a8~ a8 g4. | r4 f8 g8 af8 bf4 c8~ | c4 bf4 af4 bf4 |
 
   \sect "Chorus"
 
   bf4. ef,8~ ef2 | bf'8 c8 bf8 af8~ af8 bf8 af4 | bf4. ef,8~ ef2 | bf'8 c8 bf8 af8~ af8 bf8 af4 |
-  \break
+  \xBreak
   bf4. ef,8~ ef2 | bf'8 c8 bf8 af8~ af8 bf8 af4 |
   \alternative { \volta 1 {
   g1~^"Turnaround to verse" | g2. \textFine r4 |
@@ -61,7 +61,7 @@ refrainMelody = \relative f' {
   \sect "Bridge (9 bars)"
 
   d'4. e8~ e8 g,8 g8 g8 | d'4. e8~ e2 | r4 c8 c8 b8 b8 a8 a8 | g2 r8 g8 g8 g8 |
-  \break
+  \xBreak
   d'4. e8~ e8 g,8 g8 g8 | d'4. e8~ e2 | r4 c8 c8 b8 b8 a8 a8 | d1~ | d2 \daCapoAlFine r2 |
 
   \bar "|."

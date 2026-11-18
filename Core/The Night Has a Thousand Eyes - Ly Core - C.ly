@@ -49,11 +49,11 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \repeat volta 2 {
   a'1~ | a2 fs4 d8 e8~ | e1~ | e2 r8 b'4 g8 |
-  \break
+  \xBreak
   a4. a8 a8 a4 a8~ | a8 a4. fs4 d8 e8~ | e4. c8 b8 a4 d8~ | d2. d4 |
-  \break
+  \xBreak
   d'1~ | d4 c8 b8 c8 d4 b8~ | b1~ | b2 a4 g4 |
-  \break
+  \xBreak
   d4. d8~ d4 d4~ | d8 e8 fs8 d8 c8 fs4 g8~ | g1 |
   \alternative { \volta 1 {
   r2 r4 d4 |
@@ -64,13 +64,13 @@ refrainMelody = \relative f' {
   \sect "B"
 
   bf4. bf8~ bf4 bf4~ | bf8 a8 bf8 df8~ df8 c4. | a1~ | a2 r4 a4 |
-  \break
+  \xBreak
   af4. af8~ af4 af4~ | af8 g8 af8 b8~ b8 bf4. | g1~ | g1 |
 
   \sect "C"
 
   g2 g4. g8~ | g4. a8 b4 g4 | d'1~ | d2 c4 b4 |
-  \break
+  \xBreak
   d,2 d4. d8~ | d8 e8 fs8 d8 c8 f4 g8~ | g1 | r2 r4
   \override Parentheses.font-size = #5
   \parenthesize d4 |

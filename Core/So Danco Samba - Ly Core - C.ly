@@ -111,27 +111,27 @@ refrainMelody = \relative f' {
   
   a8 g8 a8 a8 r8 g8 a8 g8 | a8 a8 r4 r2 | 
   \tuplet 3/2 { r4 e'4 ef4 } \tuplet 3/2 { d4 b4 a4~ } | a2. r8 g8 |
-  \break
+  \xBreak
   a8 g8 a8 a8 r8 g8 a8 g8 | a8 a8 r4 r4 c4~ | c1~ | c4 r4 r4 r8 g8 |
   
   \sect "A2"
 
   a8 g8 a8 a8 r8 g8 a8 g8 | a8 a8 r4 r2 | 
   \tuplet 3/2 { r4 e'4 ef4 } \tuplet 3/2 { d4 b4 a4~ } | a2. r8 g8 |
-  \break
+  \xBreak
   a8 g8 a8 a8 r8 g8 a8 g8 | a8 a8 r4 r4 c4~ | c1~ | c4 r4 r2 |
   
   \lyricsPageBreak "B" "||" "||-||"
 
   d,8 d4 d8~ d8 d4 a'8~ | a8 a4 af8~ af8 e4 d8~ | d1~ | d2 r2 |
-  \break
+  \xBreak
   e8 e4 e8~( e8 d4.) | b'8 bf4 a8~ a4 d,8 d8 | g4 g8 gf8 f8 e8 d4~ | d2 r4 r8 g8 |
 
   \sect "C"
 
   a4 g8 a8~ a8 a4 g8 | a4 g8 a8~ a8 a4. |
   \tuplet 3/2 { r4 e'4 ef4 } \tuplet 3/2 { d4 b4 a4~ } | a2. r8 g8 |
-  \break
+  \xBreak
   a4 g8 a8~ a8 a4 g8 | a4 g8 a8~ a8 a4. | r4 c2.~ | c4 r4 r2 |
 
   \bar "|."

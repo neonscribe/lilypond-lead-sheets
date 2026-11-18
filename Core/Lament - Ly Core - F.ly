@@ -43,26 +43,26 @@ refrainMelody = \relative f' {
 
   r4 r8 c'8 c4~ \tuplet 3/2 { c8 af8 c8 } | f8 f4.~ f4~ \tuplet 3/2 { f8 ef8 df8 } |
   c2. \tuplet 3/2 { r8 ef8 df8 } | \tuplet 3/2 { c8 df8 bf8~ } bf2. |
-  \break
+  \xBreak
   r4 r8 a8 a4~ \tuplet 3/2 { a8 bf8 c8 } | c2. a4 | g1~ | g1 |
 
   \sect "B"
 
   r4 f8 g8 a4. bf8 | c4 d4 e4 f4 | g2. d4 | e1 |
-  \break
+  \xBreak
   r4 f4 f4. f8 | f4~ \tuplet 3/2 { f8 df8 bf8 } ef2 | r4 c4 c4. c8 | c8 df4-. ef8 ef8 df4. |
 
   \sect "A2"
 
   r4 r8 c8 c4~ \tuplet 3/2 { c8 af8 c8 } | f8 f4.~ f4~ \tuplet 3/2 { f8 ef8 df8 } |
   c2. \tuplet 3/2 { r8 ef8 df8 } | \tuplet 3/2 { c8 df8 bf8~ } bf2. |
-  \break
+  \xBreak
   r4 r8 a8 a4~ \tuplet 3/2 { a8 bf8 c8 } | c2. a4 | g1~ | g1 |
 
   \sect "C"
 
   r4 f8 g8 a4. bf8 | c4 d4 e4 f4 | a2. g8 f8 | ef8 df8 r8 af16 f16 c'8 bf4. |
-  \break
+  \xBreak
   r4 r8 a8 a4~ \tuplet 3/2 { a8 c8 f8 } | f4 g,2 a4 | f1~ | f1 |
 
   \bar "|."

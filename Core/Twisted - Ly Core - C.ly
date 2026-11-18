@@ -108,7 +108,7 @@ refrainMelody = \relative f' {
   \tuplet 3/2 { e8 g8 a8 } |
 
   \bar ".|:-||"
-  \break
+  \xBreak
 
   \sect "A1"
 

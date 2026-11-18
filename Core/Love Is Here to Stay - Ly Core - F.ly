@@ -48,11 +48,11 @@ verseMelody = \relative f' {
   \bar "||"
 
   c4 c4 a4 d,4 | e4 e2 a4 | c4 c4 a4 d,4 | e2. a4 |
-  \break
+  \xBreak
   c4 c4 a4 c,4 | d4 d2 e4 | g8 g8 g2 f4 | g1 | d'4 c4 bf8 a8 bf4 |
-  \break
+  \xBreak
   c4 c2 f,4 | \tuplet 3/2 { e4 e4 e4 } e4 d4 | e1 | d'4 c4 bf4 a4 |
-  \break
+  \xBreak
   g8 g8 g2 a4 | fs8 fs4 a8 d,2~ | d2 f2 | a1~ |
 
   \partial 4 a4

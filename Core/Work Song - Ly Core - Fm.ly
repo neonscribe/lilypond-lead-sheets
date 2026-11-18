@@ -39,12 +39,12 @@ refrainMelody = \relative f' {
   \bar "||"
 
   r4 f8 f8 af8 bf4 c8~ | c4 c8 bf8 c4 ef4 | r4 f,8 f8 af8 bf4 f8~ | f4 f8 ef8 f4 r4 |
-  \break
+  \xBreak
   r4 f8 f8 af8 bf4 c8~ | c4 c8 bf8 c4 ef4 | r4 c8 c8 ef8 c4 e8~ | e4 c8 bf8 c4 r4 |
-  \break
+  \xBreak
   r4 f8 ef8 \tuplet 3/2 { bf16 cf16 bf16 } af8 bf8 af8~ | af4 af8 f8 af4 bf4 |
   r4 f8 f8 af8 bf4 f8~ | f4 f8 ef8 f8 ef8 f4 |
-  \break
+  \xBreak
   b8-- c8-^ r4 r4 f,4 | bf8-- cf8-^ r4 r8 f,8 af8 b8 |
   r8 bf8 r8 af8 \tuplet 3/2 { bf16 cf16 bf16 } af16 f16 ef8 f8~ | f1 |
 

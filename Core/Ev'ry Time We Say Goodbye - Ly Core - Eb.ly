@@ -53,25 +53,25 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
 
   g4. g8 g2~ | g4 g4 g4 g4 | g2. g4 | af2~ af8 f8 ef8 d8 |
-  \break
+  \xBreak
   r8 bf'4 bf8 bf2~ | bf4 bf4 bf4 bf4 | bf2~ bf8 g8 af8 bf8 | cf2~ cf8 af8 g8 f8 |
 
   \sect "B"
 
   r8 ef'4 ef8 ef4 ef4 | ef4 d2 bf4 | df2 \tuplet 3/2 { g,4 af4 bf4 } | c1 |
-  \break
+  \xBreak
   r8 cf4 cf8 cf8 cf4. | cf4 bf2 ef,8 f8 | gf8 gf4 ef8 gf4( f4~ | f2.) r4 |
 
   \sect "A2"
 
   g4. g8 g2~ | g4 g4 g4 g4 | g2. g4 | af2~ af8 f8 ef8 d8 |
-  \break
+  \xBreak
   r8 bf'4 bf8 bf2~ | bf4 bf4 bf4 bf4 | bf2~ bf8 g8 af8 bf8 | c2~ c8 af8 g8 f8 |
 
   \sect "C"
 
   r8 ef'4 ef8 ef4 f4 | ef4 d2 bf8 c8 | df4. g,8 c4. f,8 | ef8 d8 ef8 bf'8~ bf4 af4 |
-  \break
+  \xBreak
   g4. g8 g2~ | g4 f4 ef4 d4 | ef1~ | ef2 r2 |
 
   \bar "|."

@@ -120,27 +120,27 @@ refrainMelody = \relative f' {
   \sectNoBar "Chorus"
 
   d4 g4 b4. g8 | g8 g4. g4. g8 | a4 e4 e4. e8 | e2. b'8 b8 |
-  \break
+  \xBreak
   c4 b4 c2 | a4 fs8 fs8 fs4. e8 | e4 d4 cs4 e4 | d2. d8 d8 |
-  \break
+  \xBreak
   d4 g4 b4. g8 | g8 g8 g4~ g4. a8 | a8 e4. e4. e8 | e2. b'8 b8 |
-  \break
+  \xBreak
   c4 b4 c4. a8 | a4. fs8 fs4 e8 e8 | d4 d4 fs8 a4. | g2. r4 | r1 |
 
   \alwaysPageBreak "Verse" "||" "||-||"
 
   c4. c8 c4. b8 | b8 a4. a4 e8 e8 | e4 d2 cs8 e8 | d2. r4 |
-  \break
+  \xBreak
   c'4. c8 c4. a8 | a8 fs4. fs4. e8 | e4 d4 cs4 e4 | d2. d4 |
-  \break
+  \xBreak
   d4 g4 b4. fs8 | a4 g4 g4. g8 | a4 e4 e4 fs4 | e2. b'8 b8 |
-  \break
+  \xBreak
   c4. b8 c4. b8 | b4 a4 a4 e4 | d4 c'4 b8 a4. | g2. \textFine r4 |
 
   \sect "Solo"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq d4 |
   }

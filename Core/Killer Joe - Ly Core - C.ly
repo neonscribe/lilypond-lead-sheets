@@ -83,21 +83,21 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   r2 f'4-. e8 g8~ | g1 | r2 e4-. c8 bf8~ | bf1 |
-  \break
+  \xBreak
   r2 f'4-. e8 g8~ | g2. e8 g8~ | g1~ | g1 |
   }
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "B" }
 
   g,1~ | g2 a2 | bf1~ | bf2 c2 |
-  \break
+  \xBreak
   cs1~ | cs2 ef2 | e1~ | e1 |
 
   \sect "A3"
 
   r2 f4-. e8 g8~ | g1 | r2 e4-. c8 bf8~ | bf1 |
-  \break
+  \xBreak
   r2 f'4-. e8 g8~ | g2. e8 g8~ | g1~ | g1 |
 
   \bar "|."

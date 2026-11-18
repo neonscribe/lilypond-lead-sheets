@@ -85,9 +85,9 @@ refrainMelody = \relative f' {
 
   ef4 r4 r4 gf8 ef8~ | ef4 r4 r4 fs8 g8~ | g4 r4 r8 bf,8 c4 |
   ef4 f8 gf8~ gf8 b,8 c8 ef8~ |
-  \break
+  \xBreak
   ef4 r4 r4 f8 ef8~ | ef4 r4 r4 c'8 bf8~ | bf4 r4 r8 g4 fs8 | g8 ef8 c8 bf8~ bf4 r8 af'8~ |
-  \break
+  \xBreak
   af8 g8 \tuplet 3/2 { af8 g8 af8~ } af4 a8 bf8~ |
   bf4 r4 r4 r8 ef,8 | bf'4 af8 bf8 gf4 ef8 ef8~ |
   ef4 r4 r8 bf8 c8 ef8~ |
@@ -97,9 +97,9 @@ refrainMelody = \relative f' {
   ef4 r4 r4 gf8 ef8~ | ef4 r4 r4 fs8 g8~ | g4 r4 r8 bf,8 c4 |
   \bar "|"
   ef4 f8 gf8~ gf8 b,8 c8 ef8~ |
-  \break
+  \xBreak
   ef4 r4 r4 f8 ef8~ | ef4 r4 r4 c'8 bf8~ | bf4 r4 r8 g4 fs8 | g8 ef8 c8 bf8~ bf4 r8 af'8~ |
-  \break
+  \xBreak
   af8 g8 \tuplet 3/2 { af8 g8 af8~ } af4 a8 bf8~ |
   bf4 r4 r4 r8 ef,8 | bf'4 af8 bf8 gf4 ef8 ef8~ |
   ef4 r4 r2 |
@@ -107,7 +107,7 @@ refrainMelody = \relative f' {
   \alwaysPageBreak "B" "||" "||-||"
 
   r8 c'4 bf8~ bf8 g8 c,8 ef8~ | ef8 gf8 r4 r2 | r8 c8 bf8 gf8~ gf4 ef8 ef8~ | ef4 r4 r2 |
-  \break
+  \xBreak
   r8 c'4 bf8~ bf8 gf8 ef4 | r8 c'4 bf8~ bf8 ef,8 ef8 ef8 |
   gf4 ef4 ef4 ef8 f8~ | f4 r4 r8 bf,8 c8 ef8~ |
 
@@ -116,9 +116,9 @@ refrainMelody = \relative f' {
   ef4 r4 r4 gf8 ef8~ | ef4 r4 r4 fs8 g8~ | g4 r4 r8 bf,8 c4 |
   \bar "|"
   ef4 f8 gf8~ gf8 b,8 c8 ef8~ |
-  \break
+  \xBreak
   ef4 r4 r4 f8 ef8~ | ef4 r4 r4 c'8 bf8~ | bf4 r4 r8 g4 fs8 | g8 ef8 c8 bf8~ bf4 r8 af'8~ |
-  \break
+  \xBreak
   af8 g8 \tuplet 3/2 { af8 g8 af8~ } af4 a8 bf8~ |
   bf4 r4 r8 ef4 ef8~ | ef8 c8 bf8 gf8 f4 ef8 ef8~ \textToCodaLastTime |
   ef4 r4 r2 |

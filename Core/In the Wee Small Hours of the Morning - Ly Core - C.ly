@@ -86,7 +86,7 @@ refrainMelody = \relative f' {
 
   e4 e4 c8( d8) e8 f8 | e8 c4.~ c4 c8 d8 |
   e4 e4 c8 d8 e8 f8 | d2. r8 d8 |
-  \break
+  \xBreak
   a'4 a4 a4. a8 | g8 f8 e8 f8 g4. g8 |
   fs8 e8 ds8 e8 fs8 b,8 b'8 a8 | g2. c,8 d8 |
 
@@ -94,7 +94,7 @@ refrainMelody = \relative f' {
 
   e4 e4 c8 d8 e8 f8 | e8 c4.~ c4 c8 d8 |
   g4. g8 d'8 g,8 g8 g8 | a2. a8 b8 |
-  \break
+  \xBreak
   c4 c4 a8( b8) c8 d8 | c8 g4.~ g4 f8 e8 \textToCodaLastTime |
   f8 c'8 a8 f8 d4 e4 | c2 r4
   \override Parentheses.font-size = #5

@@ -105,7 +105,7 @@ verseMelody = \relative f' {
   \oneVoice
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   %{
   %% Extended intro
   f8 g8~ g2.~ | g2  af8 g8 f8 df8 | c4. f8 d2 | r2 r4 c4 |
@@ -117,11 +117,11 @@ verseMelody = \relative f' {
   \sect "Verse"
 
   c4 bf8 af8 bf4 af4 | bf8 af4 c4. r4 | r2 bf8 af8 bf8 af8 | bf8 af4 c4. f,8 af8 |
-  \break
+  \xBreak
   c8 c4.~ c2~ | c2. f,8 af8 | c8 c4.~ c2~ | c2. r4 |
-  \break
+  \xBreak
   c4 bf8 af8 bf4 af4 | bf8 af4 c4. r4 | r4 r8 af8 bf8 af8 bf8 af8 | bf8 af4 c4. f,8 af8 |
-  \break
+  \xBreak
   c8 c4.~ c2~ | c2~ c8 f,8 af8 f8 || c'8 c4.~ c2~ | c2. r4 |
 
   \bar "|."

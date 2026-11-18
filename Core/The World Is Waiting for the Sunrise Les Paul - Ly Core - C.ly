@@ -53,7 +53,7 @@ refrainMelody = \relative f' {
   <g \har c \har e>2 |
   <a \har c \har ef>2 r2 | r2
   <g \har c \har e>2 |
-  %% \break
+  %% \xBreak
   <e \har g \har c>2
   <a \har c \har ef>2 |
   <a \har c \har ef>2
@@ -72,7 +72,7 @@ refrainMelody = \relative f' {
   <a \har d \har f>4(
   <g \har d' \har f>4) r2 | r2
   <e' \har g, \har g'>2 |
-  %% \break
+  %% \xBreak
   <e \har c \har f>2
   <d \har a \har f'>2~ |
   <d \har a \har f'>2
@@ -92,7 +92,7 @@ refrainMelody = \relative f' {
   <c \har a \har ef'>4(
   <a \har fs \har c'>2) r4 | r2
   <g \har c \har e>2 |
-  %% \break
+  %% \xBreak
   <e \har g \har c>2
   <g \har c \har e>2 |
   <a \har c \har e>2
@@ -110,7 +110,7 @@ refrainMelody = \relative f' {
   <a \har d \har f>4(
   <g \har c \har e>4) r2 | r2
   <e' \har c \har g'>2 |
-  %% \break
+  %% \xBreak
   <f \har c \har af'>2(
   <c \har af \har f'>2) |
   \acciaccatura a8

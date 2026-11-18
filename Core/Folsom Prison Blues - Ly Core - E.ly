@@ -64,13 +64,13 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \repeat volta 4 {
   gs4 gs4 a4 b4 | e,8 e4. r4 gs4 | gs4 gs4 a4 b8 e,8~ | e2 r4 gs4 |
-  \break
+  \xBreak
   gs4 gs4 a4 as8 b8~ | b4 e,2 e4 | r4 g8 g8~ g4 g4 | g2 r4 gs4 |
-  \break
+  \xBreak
   fs4 e4 fs4 e4 | fs4 e4 r2 | r4 fs4 fs4 e4 | r4 g2 e8 b8~ |
-  \break
+  \xBreak
   b1 | r1 | r1 | r2 gs'8 gs4. |
-  \break
+  \xBreak
   fs2 fs4 e8 fs8~ | fs4 b,2. | r4 b4 b4 b4 | b4( a4) g4( fs4) |
   e1 |
   \alternative { \volta 1,2,3 {

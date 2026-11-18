@@ -207,7 +207,7 @@ refrainMelody = \relative f' {
 
   ef2 g2~ | g2 c,4 d4 | ef2 g2~ | g2 c,4 d4 |
   ef2 f4 g4~ | g4 ef4 f4 g4 |  af2 c2~ | c2 b4 c4 |
-  \break
+  \xBreak
   d2 c2~ | c4 d,4 cs4 d4 | r4 c'2 b4 | bf2 c,4 d4 |
   ef2 g2~ | g2 f2 | d1~ | d4 r4 c4 d4 |
 
@@ -215,7 +215,7 @@ refrainMelody = \relative f' {
 
   ef2 g2~ | g2 c,4 d4 |  ef2 g2~ | g2 c,4 d4 |
   ef2 f4 g4~ | g4 ef4 f4 g4 |  af2 c2~ | c2 b4 c4 |
-  \break
+  \xBreak
   d2 c2~ | c4 d,4 cs4 d4 |  r4 c'2 b4 | bf2 c,4 d4 |
   ef2 g2~ | g2 f2 | ef1~ | ef4 r4 r4 ef4 |
 
@@ -223,7 +223,7 @@ refrainMelody = \relative f' {
 
   bf'2 bf4 c4 | df4 df2 bf4 |  a2 a4 bf4 |  c2. a4 |
   af2 af4 bf4 | cf4 cf2 af4 | g1~ | g4 r4 r4 ef4 |
-  \break
+  \xBreak
   bf'2 bf4 c4 | df4 df2 bf4 | a2 a4 bf4 | c2. a4 |
   af2 af8 af4 af8 | af4 bf2 af4 | g1~ | g4 r4 c,4 d4 |
 
@@ -231,10 +231,10 @@ refrainMelody = \relative f' {
 
   ef2 g2~ | g2 c,4 d4 | ef2 g2~ | g2 c,4 d4 |
   ef2 f4 g4~ | g4 ef4 f4 g4 |  af2 c2~ | c2 b4 c4 |
-  \break
+  \xBreak
   d2 c2~ | c4 d,4 cs4 d4 | r4 c'2 b4 | bf2 c,4 d4 |
   ef2 g2~ | g2 f2 | d1 | r2 ef4 f4 |
-  \break
+  \xBreak
   g2 bf2~ | bf2. b4 | c2 ef2~ | ef2 c2 |
   ef1~ | ef1~ | ef4 r4 r2 | r1 |
 

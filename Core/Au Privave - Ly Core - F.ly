@@ -35,12 +35,12 @@ refrainMelody = \relative f' {
   f8 e8 f8 c8 r4 a'8 gs8 | a8 c,8 r8 e8 r8 g8 f8 c8 |
   g'8 f8 a8 bf8 a8 f8 g8 ef8 | r8 d'4 r8 r8 df4 f,8 |
 
-  \break
+  \xBreak
 
   b4.\lheel f'8 r8 b,8 bf4~ | bf2 af8 f8 g8 f8 |
   c'4 r8 a8 bf4 r8 g8 | c4 c4~ c8 a8 bf8 c8 |
 
-  \break
+  \xBreak
 
   a8 g8 f8 e8 f4 r8 c'8 | bf4 r8 f'8~ f8 c8 e8 f8 |
   r4 r8 c8 c4. a8 \textToCodaLastTime |

@@ -157,7 +157,7 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   c'8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |
   c8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |
-  \break
+  \xBreak
   c8 a8 g8 a8 r2 | a8 g8 a2. | a8 g8 a2. |
   \alternative { \volta 1 {
     \ambitusOff
@@ -170,9 +170,9 @@ refrainMelody = \relative f' {
   \sectStartRefrainSegno "A"
 
   ds4. e8~ e4. c8~ | c2~ c8 a4 c8~ | c8 a4.~ a2 | r4 a8 c8~ c8 e4 g8~ |
-  \break
+  \xBreak
   g2~ g8 a4 e8~ | e2~ e8 d4 e8~ | e1 | r4 a,8 c8~ c8 e4 ds8~ |
-  \break
+  \xBreak
   ds4. e8~ e4. c8~ | c2~ c8 d4 c8~ |
 
   <<
@@ -183,13 +183,13 @@ refrainMelody = \relative f' {
   >>
   \oneVoice
 
-  \break
+  \xBreak
   c''8 c4 c8~ c8 d8 c4 | b4. fs8~ fs8 a4 c8~ | c8 b8 a2. | r4 a8 a8 c8 e8 d4~ |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   d1~ | d4 e8 d8 c8 a8 c4~ | c8 a8 a8 a8 r2 | r4 a8 a8 c8 e8 d4~ |
-  \break
+  \xBreak
   d1~ | d4 e8 d8 c8 a8 c4~ | c8 a8 a8 a8 r2 |
   \ambitusOff
   <a' e d bf>8 g8 <a e d bf>2. |
@@ -199,7 +199,7 @@ refrainMelody = \relative f' {
 
   c,8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |
   c8 a8 g8 a8 r4 r8 c8 | ds16( e16 ds8) d8 ef8 d4 c4 |
-  \break
+  \xBreak
   c8 a8 g8 a8 r2 | a8 g8 a2. | a8 g8 a2. \textFine |
   r4
   a8 c8~ c8 e4

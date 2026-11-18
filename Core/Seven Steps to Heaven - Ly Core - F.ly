@@ -100,7 +100,7 @@ refrainMelody = \relative f' {
   \sectNoBar "B"
 
   b,8 c8 d8 e8 r8 f8 g8 a8~ | a4 g8 f8 e8 d4 g8~ | g1 | r2 r8 e8 f8 bf8~ |
-  \break
+  \xBreak
   bf1 | r2 r8 a8 bf8 df8~ | df1 | r1 |
 
   \sect "A3"
@@ -125,21 +125,21 @@ refrainMelody = \relative f' {
 
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
   \bar "||-:|."
-  \break
+  \xBreak
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
-  \break
+  \xBreak
   \bar "||-||"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq
   \dalSegnoAfterSolos
   |

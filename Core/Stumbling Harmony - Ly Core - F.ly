@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
     bes8 a8 g4 r4 c4 % 17
 
     \bar "||-||"
-    \break
+    \xBreak
     \xTextMark \markup{ \bold \box "A2" }
 
     c,8 d8 f8 g8 a4

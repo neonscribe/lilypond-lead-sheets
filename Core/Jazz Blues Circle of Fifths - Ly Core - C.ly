@@ -22,7 +22,7 @@ refrainChordsInC = \chordmode {
 
   \bar "||-||"
   f1:7 fs1:dim7
-  \break
+  \xBreak
   c1:7/g e2:m7 a2:7
 
   \bar "||-||"
@@ -36,7 +36,7 @@ refrainChordsInCNoTurn = \chordmode {
 
   \bar "||-||"
   f1:7 fs1:dim7
-  \break
+  \xBreak
   c1:7 e2:m7 a2:7
 
   \bar "||-||"

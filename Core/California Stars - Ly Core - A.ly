@@ -55,11 +55,11 @@ refrainMelody = \relative f' {
 
 
   a4 r4 r8 a8 cs8 d8 | cs8( b8) a8 a8~ a8 a8 b8 gs8~ | gs4 r4 r8 gs8 b8 cs8 | d8( cs8) cs8 b8~ b8 a8 a8 fs8 |
-  \break
+  \xBreak
   a4 a8( fs8) a8 b4 cs8~( | cs8 b8) b8 a8~ a8 a8 b8 a8~ | a4 r4 r8 a8 cs8 d8 | cs8( b8) b8 a8~ a8 a8 a8 b8 |
-  \break
+  \xBreak
   a4 r4 r8 a8 d4 | cs8 b8( a8) a8~ a8 a8 a8 b8 | gs4 r4 r8 gs8 b8 cs8 | d8 cs4 b8~ b8 a8 fs8 a8~ |
-  \break
+  \xBreak
   a8 a4 a8~ a4 r8 a8 | cs8 b8 b8 a8 a8 a8 b8 a8~ | a4 r4 r8 a8 cs8 d8 | cs8( b8) b8 a8~ a4 r4 |
 
   \sect "Piano Solo"

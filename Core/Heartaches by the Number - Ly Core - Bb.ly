@@ -64,17 +64,17 @@ refrainMelody = \relative f' {
   \sectNoBreakSegno "Intro - Solo"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \sect "Verse"
 
   d'8 ef4. d4 c4 | c4 bf4 f4 d4 | r4 ef4 g2~ | g2 r4 d'4 |
-  \break
+  \xBreak
   ef8 d4 ef8~ ef4. c8 | a8 f4 a8~ a4 g8 f8~ | f1 | r2 r4 d'4 |
-  \break
+  \xBreak
   d8 ef4. d4 c4 | c4 bf4 f4 d4 | r4 ef4 ef4 f8 g8~ | g1 |
-  \break
+  \xBreak
   ef'4 d4 ef4. c8~ | c8 a8 f4 g4 a8 bf8~ | bf1 | r4 f4 bf4 c4 |
 
   \bar "||"
@@ -82,11 +82,11 @@ refrainMelody = \relative f' {
   \sectNoBar "Chorus"
 
   d8 ef4. d4. c8 | c8 bf4.~ bf2 | ef,8 ef4. ef4 f8 g8~ | g1 |
-  \break
+  \xBreak
   c8 d4 c8~ c4 bf4 | bf4 a8 a8~ a4 r8 a8~ | a8 a8 bf4 a4 g4 | f1 | r4 f4 bf4 c4 |
-  \break
+  \xBreak
   d8 ef4. d4. c8 | c8 bf4.~ bf4. ef,8 | ef4. ef8 ef8 f4 g8~ | g2 r4 c8 bf8 |
-  \break
+  \xBreak
   c4. d8 c4 bf4 | bf8 a4. r4 a8 g8 | f4 a4 g4 a8 bf8~ \textToCodaLastTime | bf1~ | bf4 r4 r2 \dalSegno |
   \bar "||-|."
 

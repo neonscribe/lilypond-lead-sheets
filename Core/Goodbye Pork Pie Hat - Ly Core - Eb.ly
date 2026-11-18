@@ -45,17 +45,17 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreakSegno "Head"
 
   ef8 gf4 ef16 gf16 af8 gf4 ef16 df16 | ef8 gf4 ef16 df16 ef4. bf8 |
-  %% \break
+  %% \xBreak
   ef8 gf4 ef16 gf16 a8 af4 ef16 df16 | ef8 gf4 ef16 df16 ef4. ef8 |
-  \break
+  \xBreak
   bf'8 df4 ef,16 gf16 af8 gf4 ef16 gf16 |
   bf8 ef4 gf,16 af16 \tuplet 3/2 { df4 bf8 } \tuplet 3/2 { gf8 d8 b8 } |
-  %% \break
+  %% \xBreak
   \tuplet 3/2 { fs'4 a8~ } a8 <e ds>8 \tuplet 3/2 { d4 a'8~ } a8 f8 |
   fs2 ds4. a'16 gs16 |
-  \break
+  \xBreak
   fs2 ef2 | af8 gf8 ef8 df8 a'8 af8 gf8 ef8 |
-  %% \break
+  %% \xBreak
   fs2 ds2 \textToCodaLastTime | \tuplet 3/2 { as'4 gs4 fs4 } \tuplet 3/2 { ds4 cs4 bf4 } |
 
   \sect "Solos"
@@ -63,9 +63,9 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \repeat volta 2 {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq
   c8\rest
   \override Parentheses.font-size = #5

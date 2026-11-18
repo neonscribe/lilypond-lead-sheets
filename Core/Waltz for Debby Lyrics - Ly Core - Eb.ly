@@ -72,13 +72,13 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   bf2. | ef,2. | af2. | d,2. | g2.~ | g2. | r4 f4 ef4 | d4 ef4 f4 |
-  \break
+  \xBreak
   g2 f4 | ef4 f4 g4 |
   \alternative { \volta 1,3 {
   af4 af g4 | f4 g4 af4 |
   \textToCoda
   bf2.~ | bf2.~ | bf2.~ | bf2. |
-  \break
+  \xBreak
   } \volta 2 {
   a2 g4 | fs4 g4 a4 |
   } } }

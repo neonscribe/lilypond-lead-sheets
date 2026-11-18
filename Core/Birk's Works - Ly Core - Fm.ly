@@ -39,15 +39,15 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "Head"
 
   b8-. c8 \tuplet 3/2 { b16 c16 b16 } bf8 af8 f8 af8-. bf8 | bf4 af8 c8 r8 f,8 af8-. bf8 |
-  \break
+  \xBreak
   b8-. c8 \tuplet 3/2 { b16 c16 b16 } bf8 af8 f8 af8 bf8 | r2 r8 f8 af8-. bf8 |
-  \break
+  \xBreak
   bf8-. b8 \tuplet 3/2 { b16 c16 b16 } bf8 af8 f8 af8-. bf8 | bf4 af8 cf8 r8 f,8 af8-. bf8 |
-  \break
+  \xBreak
   b8-. c8 \tuplet 3/2 { b16 c16 b16 } bf8 af8 f8 af8 bf8 | r2 r8 f8 af8 bf8 |
-  \break
+  \xBreak
   r8 bf4. r8 f8 af8 bf8 | r8 bf4. \tuplet 3/2 { af16 bf16 af16 } f8 ef8 f8~ |
-  \break
+  \xBreak
   f2. ef8 f8 | r2 r8
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize f8

@@ -33,25 +33,25 @@ refrainChords = \chordmode {
   \sectNoBreak "A1"
 
   c1 c1:maj7 c1:6 c1:7
-  \break
+  \xBreak
   f1:maj7 f1:m7 c2:maj7 g2:7.5+ c1:maj7
 
   \sect "B"
 
   e1:7.9- e1:7.9- a2:m11 e2:7 a1:m11
-  \break
+  \xBreak
   d1:9 d1:9 d2.:m7 g4:7 d2.:m7 g4:7.5+
 
   \lyricsPageBreak "A2" "||" "||-||"
 
   c1 c1:maj7 c1:6 c1:7
-  \break
+  \xBreak
   f1:maj7 f1:m7 c2:maj7 bf2:7 a1:7
 
   \sect "C"
 
   f1:m6 f1:m6 c2:maj7 bf2:7.5+ a1:9
-  \break
+  \xBreak
   f1:m6 d2:m7 g2:7 c1:maj7 c1:maj7
   \bar "|."
 }

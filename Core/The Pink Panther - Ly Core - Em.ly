@@ -48,15 +48,15 @@ refrainMelody = \relative f' {
   
   e4-. r8. fs16-> g4-. r8. ds16-> | e8.-. fs16-> g8.-. c16-> b8.-. e,16-> g8.-. b16 |
   bf2~ \tuplet 3/2 { bf8 a8 g8 } \tuplet 3/2 { e8 d8 e8~ } | e2 r4 r8. ds16 |
-  \break
+  \xBreak
   e4 r8. fs16 g4 r8. ds16 | e8. fs16 g8. c16 b8. g16 b8. e16 | ef1~ | ef2. r8. ds,16 |
-  \break
+  \xBreak
   e4-. r8. fs16-> g4-. r8. ds16-> | e8. fs16 g8. c16 b8. e,16 g8. b16 |
   bf2~ \tuplet 3/2 { bf8 a8 g8 } \tuplet 3/2 { e8 d8 e8~ } | e2 r2 |
-  \break
+  \xBreak
   r4 e'8. d16 b8. a16 g8. e16 | bf'16-> a8. bf16-> a8. bf16-> a8. bf16-> a8. \textToCodaLastTime |
   \tuplet 3/2 { g8-> e8 d8 } e8 e8~-> e2~ | e2 r2 |
-  \break
+  \xBreak
   \tuplet 3/2 { g8-> e8 d8 } e8 e8~-> e2~ | e2 r2 |
   \tuplet 3/2 { g8-> e8 d8 } e8 e8~-> e2~ | e2 r4 r8. ds16 \dalSegno |
   

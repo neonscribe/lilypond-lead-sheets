@@ -189,43 +189,43 @@ refrainMelody = \relative f' {
 
   \sectNoBarNoBreak "A1"
     r4 bf,16 ef16 f16 bf16 gf4. bf,8 | ef8 ef4 ef8 bf'8 af4. |
-  \break
+  \xBreak
     r4 ef16 gf16 bf16 df16 c4. gf8 | a4 af4 af4 g4 |
-  \break
+  \xBreak
     r4 af16 cf16 ef16 gf16 f4. cf8 | bf2 r4 ef,8
     f8 |
-  \break
+  \xBreak
       \tuplet 3/2 { gf8 f8 gf8 } f4~ f4. ef8 | d8 <bf' bf,>8~ <bf bf,>2. |
 
   \sect "A2"
 
     r4 bf,16 ef16 f16 bf16 gf4. bf,8 | ef8 ef4 ef8 bf'8 af4. |
-  \break
+  \xBreak
     r4 ef16 gf16 bf16 df16 c4. gf8 | a4 af4 af4 g4 |
-  \break
+  \xBreak
     r4 af16 cf16 ef16 gf16 f4. cf8 | bf2 r4 ef,8
     f8 |
-  \break
+  \xBreak
       gf4 f4 ef4 d4 | ef2 r4 ef8 f8 |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   \tuplet 3/2 { gf8 f8 gf8 } f4~ f4. ef8 | d8 bf8~ bf2 ef8 f8 |
-  \break
+  \xBreak
   \tuplet 3/2 { gf8 f8 gf8 } f4~ f4. ef8 | d8 bf'4. r2 |
-  \break
+  \xBreak
   cf4 cf8 cf8 bf8 bf4. | gf8 gf4 gf8 f4. bf8 |
-  \break
+  \xBreak
   ef4 ef8 ef8 df4 df8 df8 | cf4 df8 cf8 bf2 |
 
   \sect "A3"
 
     r4 bf,16 ef16 f16 bf16 gf4. bf,8 | ef8 ef4 ef8 bf'8 af4. |
-  \break
+  \xBreak
     r4 ef16 gf16 bf16 df16 c4. gf8 | a4 af4 af4 g4 |
-  \break
+  \xBreak
     r4 af16 cf16 ef16 gf16 f4. cf8 | bf2 r4 ef,8 f8 |
-  \break
+  \xBreak
   gf4 f4 ef4 d4 | ef1 |
 
   \bar "|."

@@ -43,11 +43,11 @@ refrainMelody = \relative f' {
   \bar "||"
 
   a2 a4 g4 | f2 c4 f4 | e4 g2.~ | g2 e4 f4 |
-  \break
+  \xBreak
   g2 g4 g4 | c2~ c4 c4 | a1~ | a2 a4 bf4 |
-  \break
+  \xBreak
   c2 c4 c4 | a2 g4 f4 | bf2 bf4~ bf4 | f2. g4 |
-  \break
+  \xBreak
   a2 bf4 a4 | g2. e4 | f1~ f4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

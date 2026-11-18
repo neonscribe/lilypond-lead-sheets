@@ -62,17 +62,17 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   c4 d4 d4 | d2 d4 | d2 d4 | d4 ef4 f4 |
   f2 g4 | c,2.~ | c2.~ | c4 r4 r4 |
-  \break
+  \xBreak
   ef4 f4 f4 | f2 f4 | f2 f4 | f4 g4 a4 |
   d2.~ | d2.~ | d2.~ | d4 r4 r4 |
-  \break
+  \xBreak
   c4 d4 d4 | d2 d4 | d2 d4 | d4 c4 bf4 |
   \alternative { \volta 1 {
   d,2. | d2.~ | d2.~ | d4 r4 r4 |
-  \break
+  \xBreak
   bf'4 c4 c4 | c2 c4 | c2 c4 | c4 bf4 a4 |
   c,2.~ | c2.~ | c2.~ | c4 r4 r4 |
-  \break
+  \xBreak
   } \volta 2 {
   d2. | d2.~ | d2. | d'2. |
   c2. | d2. | ef2. | f2. |

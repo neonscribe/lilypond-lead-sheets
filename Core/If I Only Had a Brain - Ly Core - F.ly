@@ -107,7 +107,7 @@ refrainMelody = \relative f' {
   \magnifyMusic 0.63 { d'8 | c8 a8 \tuplet 3/2 { g8 f8 d8 } c4 }
   \ambitusOn
   f8 f8
-  \break
+  \xBreak
   d4 d'8 c8 bf8 a8 g8 f8 | e8 e8 e'8 d8 c8 bf8 a8 g8 | f8 f8 f8 f8 f2~ | f2 r4 a8 bf8 |
 
   \sect "A2"
@@ -117,7 +117,7 @@ refrainMelody = \relative f' {
   \magnifyMusic 0.63 { d'8 | c8 a8 \tuplet 3/2 { g8 f8 d8 } c4 }
   \ambitusOn
   f8 f8
-  \break
+  \xBreak
   d4 d'8 c8 bf8 a8 g8 f8 | e8 e8 e'8 d8 c8 bf8 a8 g8 | f8 f8 f8 f8 f2~ | f2 r4 f4 |
 
   \bar "||"
@@ -125,7 +125,7 @@ refrainMelody = \relative f' {
   \sectNoBar "B"
 
   d'2~ d8 cs8 d8 e8 | c2. d4 | bf4 bf4 bf4 c4 | a2. bf8 a8 |
-  \break
+  \xBreak
   g8 fs8 g8 fs8 g8 fs8 g8 a8 | f2 r8 g8 a8 c8 | d4 r4 r8 b8 a8 g8 | c2. a8 bf8 |
 
   \sect "A3"
@@ -135,7 +135,7 @@ refrainMelody = \relative f' {
   \magnifyMusic 0.63 { d'8 | c8 a8 \tuplet 3/2 { g8 f8 d8 } c4 }
   \ambitusOn
   f8 f8
-  \break
+  \xBreak
   d4 d'8 c8 bf8 a8 g8 f8 | e8 e8 e'8 d8 c8 bf8 a8 g8 | f8 f8 f8 f8 f2~ | f2 r2 |
 
   \bar "|."

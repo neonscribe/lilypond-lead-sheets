@@ -40,26 +40,26 @@ refrainMelody = \relative f' {
   \bar "||"
 
   a2 a2~ | a2 e4. g8 | a2 a2~ | a2 d,4. f8 |
-  \break
+  \xBreak
   a2 a2~ | a2 d,4. f8 | a1~ | a2 g4. b8 |
 
-  \break
+  \xBreak
 
   d2 c2~ | c2 b4. a8 | c2  d,2~ | d2 e4. f8 |
-  \break
+  \xBreak
   c'2 d,2~ | d2 c'4 b4 | a1~ | a2 e4. g8 |
 
-  \break
+  \xBreak
   \bar "||-||"
 
   a2 a2~ | a2 e4. g8 | a2 a2~ | a2 d,4. f8 |
-  \break
+  \xBreak
   a2 a2~ | a2 d,4. f8 | a1~ | a2 g4. b8 |
 
-  \break
+  \xBreak
 
   d2 c2~ | c2 b4. a8 | c2  d,2~ | d2 e4. f8 |
-  \break
+  \xBreak
   c'2 d,2~ | d2 c'4 b4 | a1~ | a2
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

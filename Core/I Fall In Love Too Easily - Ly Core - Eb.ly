@@ -45,9 +45,9 @@ verseMelody = \relative f' {
   \sectNoBreak "Verse"
 
   f4 f8 f8 f4 f8 f8 | f8 g4.~ g4 af8 g8 |
-  \break
+  \xBreak
   f4. f8 f4 ef8 d8 | d8 ef4.~ ef2 | f4 d8 f8 bf4 a8 f8 |
-  \break
+  \xBreak
   d4( cs4 d4.) d8 | ef4 f8 g8 d8 ef4. | f1
 
   \bar "|."
@@ -118,11 +118,11 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
 
   r8 c'8 b8 c8 bf4. af8 | g8 af8 g2. | r8 af8 g8 af8 g4. f8 | ef1 |
-  \break
+  \xBreak
   r8 f8 e8 f8 ef4. d8 | c8 d8 ef8 g8~ g2 | r8 fs8 g8 a8 d4 d4 | d1 |
 
   r8 ef8 d8 ef8 d4. c8 | b2~ b8 g8 af8 g8 | c2. bf8 c8 | af2~ af8 g8 af8 g8 |
-  \break
+  \xBreak
   c4. c8 bf4. af8 | \tuplet 3/2 { g8 af8 g8~ } g2. | r8 g8 f8 ef8 g4. g8 | ef2. r4 |
   }
 }

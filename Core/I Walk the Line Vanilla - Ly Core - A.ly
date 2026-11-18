@@ -47,13 +47,13 @@ refrainMelody = \relative f' {
   
   b2 b2 | b4 d4 cs4 b4 |
   a1 | r4 a4 a4 a4 |
-  \break
+  \xBreak
   b2 b2 | b4 d4 cs4 b4 |
   a1 | r4 a4 b4 cs4 |
-  \break
+  \xBreak
   d2 d2 | d4 fs4 e4 d4 |
   cs1 | r4 a4 gs4 fs4 |
-  \break
+  \xBreak
   e1 | r4 b'4 a4 gs4 |
   a1 | r4 
   \override Parentheses.font-size = #5

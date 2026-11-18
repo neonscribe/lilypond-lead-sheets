@@ -93,15 +93,15 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   g4.\repeatTie f8 \tuplet 3/2 { g16 af16 g16 } f8 ef8 f8~ |
   f4. ef8 \tuplet 3/2 { f16 g16 f16 } ef8 c8 ef8~ | ef1~ | ef4 r8 c8 ef8 f8-. r8 g8~ |
-  \break
+  \xBreak
   g4. f8 \tuplet 3/2 { g16 af16 g16 } f8 ef8 f8~ |
   f4. g8 \tuplet 3/2 { bf16 c16 bf16 } g8 f8 g8~ | g1~ | g4 r8 g8 bf8 c8-. r8 ef8~ |
-  \break
+  \xBreak
   ef4. c8 \tuplet 3/2 { ef16 f16 ef16 } c8 bf8 c8~ |
   c4. bf8 \tuplet 3/2 { c16 d16 c16 } bf8 g8 bf8~ |
   bf4. g8 \tuplet 3/2 { bf16 c16 bf16 } g8 f8 g8~ |
   g4. f8 \tuplet 3/2 { g16 af16 g16 } f8 ef8 f8~ |
-  \break
+  \xBreak
   f4. ef8 \tuplet 3/2 { f16 g16 f16 } ef8 c8 ef8~ |
   ef4. c8 \tuplet 3/2 { ef16 f16 ef16 } c8 bf8 c8~ | c1 |
   r4 r8

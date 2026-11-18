@@ -35,7 +35,7 @@ refrainMelody =  \relative f' {
     r4  a8 [  d8 ]  a'8 [  g8 ]
      e4 | % 5
     \bar ".|:-||"
-    \break
+    \xBreak
     \repeat volta 2 {
     \sectNoBar "A1"
     a,2  e4  a4 | % 6
@@ -46,7 +46,7 @@ refrainMelody =  \relative f' {
      fs2  e4  d4 | % 11
      e2. r4 | % 12
     r2 r4  a4 | % 13
-    %% \break
+    %% \xBreak
      d2  a4  d4 | % 14
      b2  a4  g4 | % 15
      a2. r4 | % 16
@@ -56,7 +56,7 @@ refrainMelody =  \relative f' {
      e2. r4 | \barNumberCheck #20
     R1 | % 21
     \bar "||-||"
-     \break
+     \xBreak
    \sectNoBar "B1"
      c8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 22
@@ -65,7 +65,7 @@ refrainMelody =  \relative f' {
      f16  f16 ] | % 23
      e2  a,2 ~ | % 24
     a1 | % 25
-      \break
+      \xBreak
    c8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 26
      c8 [  f16  f16 ]  f8 [  f8 ]
@@ -80,12 +80,12 @@ refrainMelody =  \relative f' {
          e4  d4  c4 }
      a2 ~ | % 32
     a1 | % 33
-    \break
+    \xBreak
     r4  f4  a4  c4 | % 34
      b2  c4  d4 | % 35
     g,1 ~ | % 36
     g1 | % 37
-    \break
+    \xBreak
     r4  f4  a4  c4 | % 38
      b2  c4  d4 | % 39
     \times 2/3  {
@@ -101,7 +101,7 @@ refrainMelody =  \relative f' {
      f16  f16 ] | % 43
      e2  a,2 ~ | % 44
     a1 | % 45
-    \break
+    \xBreak
      c8 [  f16  f16 ]  f8 [  f8 ]
      c8 [  f16  f16 ]  f8 [  f8 ] | % 46
      c8 [  f16  f16 ]  f8 [  f8 ]
@@ -111,7 +111,7 @@ refrainMelody =  \relative f' {
     a1 | % 49
   }
     \bar "||-:|."
-    \break
+    \xBreak
     \sectNoBar "Outro"
     r4  a'8 [  c8 ]  d8 [  ef8 ]
      d4 | % 94

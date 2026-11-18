@@ -35,25 +35,25 @@ refrainMelody = \relative f' {
 
 
   f2 bf4. bf8 | bf2. r4 | f2 c'4. a8 | bf2. r4 |
-  \break
+  \xBreak
   f2 bf4. ef8 | ef2 d4. c8 | bf2 \grace { c8( bf8 } a4.) bf8 | c2. r4 |
-  \break
+  \xBreak
   f,2 bf4. bf8 | bf2. r4 | f2 c'4. a8 | bf2. r4 |
-  \break
+  \xBreak
   f2 bf4. d8 | f2 d4. bf8 | g2 c4. d8 | bf2. r4 |
 
-  \break
+  \xBreak
 
   \tempoFour "Swing" 216
 
   \bar ".|:-||"
   \repeat volta 2 {
   r8 f4. bf4-. bf8 bf8~ | bf1 | r8 f4. c'4-. a8 bf8~ | bf1 |
-  \break
+  \xBreak
   r8 f4. bf4 ef4 | ef2 d4 c8 bf8~ | bf4 c8 bf8 a8 bf4 c8~ | c1 |
-  \break
+  \xBreak
   r8 f,4. bf4-. bf8 bf8~ | bf1 | r8 f4. c'4-. a8 bf8~ | bf1 |
-  \break
+  \xBreak
 
   r8 f4.-"ritard last time" bf4 d8 f8~ | f2 d4 bf4 | g2 c4 bf8 bf8~ |
   bf1 |

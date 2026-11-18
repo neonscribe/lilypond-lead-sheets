@@ -68,7 +68,7 @@ refrainMelody = \relative f' {
   r8. d,16 fs8 a8 b16 cs16 b8~ b16 fs16 fs8 | fs16 a16 fs16( e16~ e4) r2 |
   r4 cs8 e8 e16 cs16 cs8 d16 cs8 b16~ | b2 r2 |
   r4 gs'16 a8 a16~ a8 g8 e8 cs8 | a2 r2 |
-  \break
+  \xBreak
   r8 cs8 cs16 cs16 e8 fs8 a8 b8 cs16 a16~ |
 
   \sectNoBreak "Verse 2"
@@ -76,7 +76,7 @@ refrainMelody = \relative f' {
   a2 r2 | r4 fs8 a8 c8. b16 a8 g8 | d8( c4.) r2 |
   r8 cs8 d16 e8 cs16 e16 cs8.~ cs8 cs16 b16 | b4 r4 r2 |
   r4 fs'16 a8 a16~ a8 g8 e8 c8 | a1 |
-  \break
+  \xBreak
   r8 cs8 cs16 e8 fs16~ fs8 a8 b8 cs8 |
 
   \sectNoBreak "Verse 3"
@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 

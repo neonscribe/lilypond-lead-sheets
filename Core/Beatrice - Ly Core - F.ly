@@ -30,11 +30,11 @@ refrainMelody = \relative f' {
   \tempoFour "Medium Swing [Sam Rivers 1965]" 124
 
   r4 r8 c'8 c4 c4 | f4 c4 c4 bf4 | c4. a8 f4 f4 | f4 g2. |
-  \break
+  \xBreak
   r4 r8 a8 a4 a4 | d4 c4 ef4 g4 | f2 f,2 | \tuplet 3/2 { c'8 bf8 c8~ } c4~ c4 bf4 |
-  \break
+  \xBreak
   a2. c4 | f2. g4 | a1~ | a2. g4 |
-  \break
+  \xBreak
   r8 f4. f4 f4 | f2~ f8 c8 bf8 c8~ | c4. bf8 c8 bf8 af4~ | af1 |
 
   \bar "|."

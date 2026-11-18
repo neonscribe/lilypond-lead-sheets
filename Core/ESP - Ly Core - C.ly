@@ -39,25 +39,25 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   c'4. g8~ g4. d8~ | d4. g8~ g4 c8 g8~ | g4. d8~ d4. c'8~ | c8 g4.~ g4 r4 |
-  \break
+  \xBreak
   r4 r8 c8~ c4 g8 d8~ | d4. g8~ g4 c8 a8~ | a4. f8~ f4. g8~ | g8 f4.~ f4 r4 |
 
   \sect "B"
 
   d'2~ d4. c8 | a2. g8 f8 | d4. d8~ d4 g8 e8~ | e2 f4. bf8 |
-  \break
+  \xBreak
   g2. b8 g8 | f4 d'4 b4 g8 f8~ | f4. d8~ d4 r4 | r1 |
 
   \sect "A2"
 
   c'4. g8~ g4. d8~ | d4. g8~ g4 c8 g8~ | g4. d8~ d4. c'8~ | c8 g4.~ g4 r4 |
-  \break
+  \xBreak
   r4 r8 c8~ c4 g8 d8~ | d4. g8~ g4 c8 a8~ | a4. f8~ f4. g8~ | g8 f4.~ f4 r4 |
 
   \sect "C"
 
   d'2~ d4. c8 | a2. g8 f8 | d4. d8~ d4 g8 e8~ | e2 f4. bf8 |
-  \break
+  \xBreak
   g2 ef4. d8~ | d2 \tuplet 3/2 { f4 bf4 d4 } | ef4. bf8~ bf4. a8~ \daCapoAfterSolos | a8 d4. d2 |
   \bar "||-||"
 

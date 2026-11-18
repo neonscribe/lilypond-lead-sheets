@@ -60,18 +60,18 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   r8 bf8 c8 d8 r8 bf8 c8 d8 | r8 f8 ef8 d8 r8 bf8 c8 df8~ |
   df1 | r2 r8 ef8 f8 g8 |
-  \break
+  \xBreak
   r8 ef8 f8 g8 r8 ef8 f8 g8 | r8 bf8 af8 g8 r8 ef8 f8 gf8~ |
   gf1 | r2 f8 g8 af8 a8 |
-  \break
+  \xBreak
   bf2 ef,8 g8 bf8 b8 | r8 e,4. ds2 |
   r8 c'4. bf4 a8 g8~ | g2 r8 f8 g8 af8 |
-  \break
+  \xBreak
   } \alternative { {
   bf4 r4 ef,8 g8 bf8 b8~ | b4 e,8 ds8~ ds4 r4 |
   r8 c'4. bf4. af8 | g4 r4 r8 bf,8 c8 d8 |
   } {
-  \break
+  \xBreak
   bf'4 g8 bf8 b8 e,8 ds4 | c'4 af8 f8 d'4 bf8 ef8 \textFine | r1^"(Solo Break)" | r1 |
   } }
   \bar "|."

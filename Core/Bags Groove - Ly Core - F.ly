@@ -41,11 +41,11 @@ refrainMelody = \relative f' {
   c'2. \tuplet 3/2 { bf16 c16 bf16 } af8 |
   bf4 \tuplet 3/2 { af16 bf16 af16 } f8 af4 \tuplet 3/2 { f16 bf16 af16 } ef8 |
   f4. ef8~ ef2~ | ef2. f4-^ |
-  \break
+  \xBreak
   c'2. \tuplet 3/2 { bf16 c16 bf16 } af8 |
   bf4 \tuplet 3/2 { af16 bf16 af16 } f8 af4 \tuplet 3/2 { f16 bf16 af16 } ef8 |
   f4. ef8~ ef2~ | ef2. f4-^ |
-  \break
+  \xBreak
   c'2. \tuplet 3/2 { bf16 c16 bf16 } af8 |
   bf4 \tuplet 3/2 { af16 bf16 af16 } f8 af4 \tuplet 3/2 { f16 bf16 af16 } ef8 |
   f4. ef8~ ef2~ | ef2.

@@ -92,30 +92,36 @@ rsw = {
   r1
 }
 
-%% a mandatory page break
-xxPageBreak = {
-  \pageTurn
-  \once \override Score.Clef.break-visibility = #begin-of-line-visible
-  \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
-}
+%% a section break
+sBreak =
+#(define-music-function ()
+   ()
+  (if (and (defined? 'noSectionBreaks) noSectionBreaks)
+    #{
+    #}
+    #{
+      \break
+    #} ) )
+
+%% a mandatory page break, usually at a section change
+xxPageBreak =
+#(define-music-function ()
+   ()
+  (if (and (defined? 'noManualPageBreaks) noManualPageBreaks)
+    #{
+   \sBreak
+    #}
+    #{
+   \pageTurn
+   \once \override Score.Clef.break-visibility = #begin-of-line-visible
+   \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
+    #} ) )
 
 %% a mandatory page break unless lyrics are hidden
 alwaysPageBreak =
 #(define-music-function (sec barbreak barnobreak)
    (string? string? string?)
-    #{
-    \bar #barbreak
-    \pageTurn
-    \once \override Score.Clef.break-visibility = #begin-of-line-visible
-    \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
-    \sectNoBar #sec
-    #} )
-
-%% a mandatory page break unless lyrics are hidden
-lyricsPageBreak =
-#(define-music-function (sec barbreak barnobreak)
-   (string? string? string?)
-  (if (and (defined? 'hideLyrics) hideLyrics)
+  (if (and (defined? 'noManualPageBreaks) noManualPageBreaks)
     #{
     \bar #barnobreak
     \sectNoBar #sec
@@ -126,6 +132,39 @@ lyricsPageBreak =
     \once \override Score.Clef.break-visibility = #begin-of-line-visible
     \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
     \sectNoBar #sec
+    #} ) )
+
+%% a mandatory page break unless lyrics are hidden
+lyricsPageBreak =
+#(define-music-function (sec barbreak barnobreak)
+   (string? string? string?)
+  (if (and (defined? 'noManualPageBreaks) noManualPageBreaks)
+    #{
+    \bar #barnobreak
+    \sectNoBar #sec
+    #}
+   (if (and (defined? 'hideLyrics) hideLyrics)
+    #{
+    \bar #barnobreak
+    \sectNoBar #sec
+    #}
+    #{
+    \bar #barbreak
+    \pageTurn
+    \once \override Score.Clef.break-visibility = #begin-of-line-visible
+    \once \override Score.KeySignature.break-visibility = #begin-of-line-visible
+    \sectNoBar #sec
+    #} ) ) )
+
+%% a mandatory line break unless noManualBreaks is set
+xBreak =
+#(define-music-function ()
+   ()
+  (if (and (defined? 'noManualBreaks) noManualBreaks)
+    #{
+    #}
+    #{
+      \break
     #} ) )
 
 %% a mandatory page break if it's a piano part
@@ -145,27 +184,12 @@ pianoPageBreak =
     \sectNoBar #sec
     #} ) )
 
-%% a good place for a page break
+%% a good place for a page break, usually at a section change
 xPageBreak = {
-  \break
+  \sBreak
   \autoPageBreaksOff
   \allowPageTurn
-%%  \autoPageBreaksOn
 }
-
-%% an okay place for a page break
-%% haven't figured this out yet
-sPageBreak = {
-  \break
-%%  \autoPageBreaksOff
-  \allowPageTurn
-  \autoPageBreaksOn
-}
-
-%% anywhere else is a bad place for a page break
-%% but LilyPond puts page breaks in other places anyway
-%% haven't figured out a good way to really influence
-%% page breaks beyond mandatory and good.
 
 invisEighth = {
   % \once \omit Voice.Rest
@@ -185,21 +209,21 @@ sect =
 #(define-music-function (s)
    (string?)
   #{ \bar "||-||"
-     \sPageBreak
+     \sBreak
      \xTextMark \markup{ \bold \box #s } #} )
 
 sectSegno =
 #(define-music-function (s)
    (string?)
   #{ \bar "||-||"
-     \sPageBreak
+     \sBreak
      \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
 
 sectSegnoSegno =
 #(define-music-function (s)
    (string?)
   #{ \bar "||-||"
-     \sPageBreak
+     \sBreak
      \xTextMark \markup{ 
   \musicglyph #"scripts.segno"
   \hspace #0.125
@@ -219,7 +243,7 @@ sectGap =
 #(define-music-function (s)
    (markup?)
   #{ \bar "||-||"
-     \sPageBreak
+     \sBreak
      \xTextMark \markup{ \pad-around #3 { \bold \box #s } } #} )
 
 sectNoBreak =
@@ -232,21 +256,21 @@ sectNoBar =
 #(define-music-function (s)
    (string?)
   #{
-     \sPageBreak
+     \sBreak
      \xTextMark \markup{ \bold \box #s } #} )
 
 sectNoBarGap =
 #(define-music-function (s)
    (string?)
   #{
-     \sPageBreak
+     \sBreak
      \xTextMark \markup{ \pad-around #3 { \bold \box #s } } #} )
 
 sectNoBarSegno =
 #(define-music-function (s)
    (string?)
   #{
-     \sPageBreak
+     \sBreak
      \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
 
 sectNoBreakSegno =
@@ -259,7 +283,7 @@ sectStartRefrain =
 #(define-music-function (s)
    (string?)
   #{
-     \sPageBreak
+     \sBreak
      \xTextMark \markup{ "Refrain" \bold \box #s } #} )
 
 sectStartRefrainNoBreak =
@@ -273,7 +297,7 @@ sectStartRefrainGap =
 #(define-music-function (s)
    (string?)
   #{
-     \sPageBreak
+     \sBreak
      \xTextMark \markup{ "Refrain" \pad-around #3 { \bold \box #s } } #} )
 
 
@@ -281,14 +305,14 @@ sectStartSolos =
 #(define-music-function (s)
    (string?)
   #{
-     \sPageBreak
+     \sBreak
      \xTextMark \markup{ "Solos" \bold \box #s } #} )
 
 sectStartRefrainSegno =
 #(define-music-function (s)
    (string?)
   #{
-     \xPageBreak
+     \sBreak
      \xTextMark \markup{ \musicglyph #"scripts.segno" "Refrain" \bold \box #s } #} )
 
 sectNoBarNoBreak =
@@ -300,20 +324,6 @@ sectNoBarNoBreakSegno =
 #(define-music-function (s)
    (string?)
   #{ \xTextMark \markup{ \musicglyph #"scripts.segno" \bold \box #s } #} )
-
-sectPageBreak =
-#(define-music-function (s)
-   (string?)
-  #{ \bar "||-||"
-     \xPageBreak
-     \xTextMark \markup{ \bold \box #s } #} )
-
-sectNoBarPageBreak =
-#(define-music-function (s)
-   (string?)
-  #{
-     \xPageBreak
-     \xTextMark \markup{ \bold \box #s } #} )
 
 #(define (no-double-accidental-pitch p)
    (let ((o (ly:pitch-octave p))

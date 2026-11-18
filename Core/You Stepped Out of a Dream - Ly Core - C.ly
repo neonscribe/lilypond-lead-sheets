@@ -64,25 +64,25 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
 
   e1~ | e4 e4 \tuplet 3/2 { e4 e4 e4 } | | f1~ | f2 \tuplet 3/2 { f4 f4 f4 } |
-  \break
+  \xBreak
   g4. g8 g2~ | g4 g4 \tuplet 3/2 { g4 f4 ef4 } | c'1~ | c2 \tuplet 3/2 { c4 c4 c4 } |
 
   \sect "B"
 
   c4. c,8 c2~ | c2 \tuplet 3/2 { c'4 c4 c4 } | c4. c,8  c2~ | c2 \tuplet 3/2 { c'4 c4 c4 } |
-  \break
+  \xBreak
   c4. c,8  c2~ | c2 \tuplet 3/2 { c4 d4 c4 } | ef1 | e2. r4 |
 
   \sect "A2"
 
   e1~ | e4 e4 \tuplet 3/2 { e4 e4 e4 } | | f1~ | f2 \tuplet 3/2 { f4 f4 f4 } |
-  \break
+  \xBreak
   \tuplet 3/2 { g4 g4 g4 } g2~ | g4 g4 \tuplet 3/2 { g4 f4 ef4 } | c'1 | r4 c4 c4 c4 |
 
   \sect "C"
 
   c2 bf4 af4 | g2. af4 | \tuplet 3/2 { b4 b4 b4 } b2~ | b2 \tuplet 3/2 { d4 c4 e,4 } |
-  \break
+  \xBreak
   g1~ | g2 \tuplet 3/2 { g4 g4 g4 } g1 | r1 |
 
   \bar "|."

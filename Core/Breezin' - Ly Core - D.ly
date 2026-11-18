@@ -76,11 +76,11 @@ refrainMelody = \relative f' {
   a4. \acciaccatura e8 fs8 r8 d8 r8 b8 | a2 r2 | r1 |
   \acciaccatura { a16 b16 } a4. \acciaccatura { a16 b16 } a8~ a4 \acciaccatura { a16 b16 } a4~ |
   a4 b8 cs8 d8 e8 fs8 g8 |
-  \break
+  \xBreak
   \acciaccatura { a16 b16 } a1 | r2 r8 \acciaccatura { a16 b16 } a4.~ | a2 r2 |
   r8 b8 r8 \acciaccatura e,8 fs8 r8 d8 r8 b8 | a2 r2 | r1 | r1 |
   r4 b8 cs8 d8 e8 fs8 g8 |
-  \break
+  \xBreak
   \acciaccatura { a16 b16 } a2. \acciaccatura { a16 b16 } a4~ |
   a8 \acciaccatura { a16 b16 } a4.~ \tuplet 3/2 { a4 d4 cs4 } |
   \acciaccatura { a16 b16 } a1~ | a4. \acciaccatura e8 fs8 r8 d8 r8 b8 |
@@ -96,22 +96,22 @@ refrainMelody = \relative f' {
   \sectNoBar "B"
   
   r8 d8 r8 b8 d8 d8 b4 | r2 a8 b8 d8 fs8 | r8 d8 r8 d8 fs4 d'4~ | d4 r4 a,8 b8 d8 fs8 |
-  \break
+  \xBreak
   r8 d8 r8 b8 d8 d8 b4 | r2 a8 b8 d8 fs8 | r8 d8 r8 b8 d4 b4 | r2 r8 a8 b8 fs'8 |
-  \break
+  \xBreak
   r8 d8 r8 b8 d8 d8 b4 | r2 a8 b8 d8 f8( | e8) d8 r8 b8 fs'4 a4 | r4 g8 f8 fs8 a,8 b8 fs'8 |
-  \break
+  \xBreak
   r8 d8 r8 b8 d8 d8 b4 | r2 a8 b8 d8 f8( | e8) d8 r8 d8 fs4 r4 | g4 b,8 cs8 d8 e8 fs8 g8 |
 
   a1 | r1 | r1 | r4 r8 \acciaccatura e8 fs8 r8 d8 r8 b8 |
-  \break
+  \xBreak
   a2 r2 | r2 a8 b8 fs8 g8 | a4. a8~ a4 a4 | r8 a8 b8 cs8 d8 e8 fs8 g8 |
-  \break
+  \xBreak
   \acciaccatura { a16 b16 } a4. \acciaccatura { a16 b16 } a8~ a4 \acciaccatura { a16 b16 } a4~ |
   a8 \acciaccatura { a16 b16 } a4.~ a8 d4 cs8 |
   \acciaccatura { a16 b16 } a4. \acciaccatura { a16 b16 } a8~ a4 \acciaccatura { a16 b16 } a4~ |
   a4. \acciaccatura e8 fs8 r8 d8 r8 b8 |
-  \break
+  \xBreak
   <<
     { \voiceOne
       d1 |

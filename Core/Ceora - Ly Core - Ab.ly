@@ -56,7 +56,7 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   r8 ef8 d'8 ef8 r8 ef,8 r8 ef'16 d16 | df2. r4 | r8 ef,8 b'8 c8 r8 ef,8 r8 \scoop bf'8~ | bf2. r4 |
-  %% \break
+  %% \xBreak
   r8 af,8 g'8 af8 r8 af,8 r8 af'8 | g2. r8 g16 af16 | ef2 r4 r8 c16 ef16 |
   \trillDoubleFlat af4.\startTrillSpan gf8\stopTrillSpan \tuplet 3/2 { b16 c16 b16 } a8 af8 gf8 |
 
@@ -64,14 +64,14 @@ refrainMelody = \relative f' {
 
   f8 af8 r8 c8 r8 df8 r8 ef16 c16 | bf2 r4 bf16 af16 g16 f16 |
   g8 bf8 r8 d8 r8 ef8 r8 f16 df16 | c2 r4 c16 d16 bf16 c16 |
-  %% \break
+  %% \xBreak
   a8 c8 r8 e8 r8 f8 e16 d16 c16 a16 | d4. e8 r8 d8 \tuplet 3/2 { c16 d16 c16 } b8 |
   c4. f8 \tuplet 3/2 { df16 ef16 df16 } f,8 a8 c8 | bf4. df8 r8 e16 gf16 ef8 df8 |
 
   \sect "A2"
 
   \scoop c8-. ef,8 d'8 ef8 r8 ef,8 r8 ef'16 d16 | df2. r4 | r8 ef,8 b'8 c8 r8 ef,8 r8 \scoop bf'8~ | bf2. r4 |
-  %% \break
+  %% \xBreak
   r8 af,8 g'8 af8 r8 af,8 r8 af'8 | g2. r8 g16 af16 | ef2 r4 r8 c16 ef16 |
   \trillDoubleFlat af4.\startTrillSpan gf8\stopTrillSpan \tuplet 3/2 { b16 c16 b16 } a8 af8 gf8 |
 
@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
 
   f8 af8 r8 c8 r8 df8 r8 ef16 f16 | bf,2 r4 bf16 af16 g16 f16 |
   gf2 \tuplet 3/2 { gf16 af16 gf16 } f8 e8 f8 | \scoop f'4. \scoop c8 \tuplet 3/2 { r8 f,8 af8 } df8 \scoop c8 |
-  %% \break
+  %% \xBreak
   af2 r8 f8-. af16 bf16 af8~ | af2 r8 af16 g16 bf16 af16 ef16 f16 \textToCodaLastTime |
   g2 r4 c,16 ef16 g16 gf16 | f4. e8 r8 e8-. \tuplet 3/2 { fs16 g16 fs16 } ef8 |
 
@@ -87,24 +87,24 @@ refrainMelody = \relative f' {
   \alwaysPageBreak "Solos" "||" "||-||"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  %% \break
+  %% \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \bar "||-||" \break
+  \bar "||-||" \xBreak
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  %% \break
+  %% \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \bar "||-||" \break
-  %% \break
+  \bar "||-||" \xBreak
+  %% \xBreak
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  %% \break
+  %% \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \bar "||-||" \break
-  %% \break
+  \bar "||-||" \xBreak
+  %% \xBreak
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  %% \break
+  %% \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq \daCapoAfterSolos |
 
   \textCodaBreak

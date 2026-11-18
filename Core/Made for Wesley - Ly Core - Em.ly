@@ -38,7 +38,7 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   e,8 b'8 fs'8 g8~ g8 b8 fs8 g8 | e,8 b'8 fs'8 g8~ g8 b8 fs8 g8 |
   e,8 b'8 fs'8 g8~ g8 b8 fs8 g8 | e,8 b'8 fs'8 g8~ g8 b8 fs8 g8 |
-  \break
+  \xBreak
   a,8 e'8 fs8 g8~ g8 b8 fs8 g8 | a,8 e'8 fs8 g8~ g8 b8 fs8 g8 |
   b,8 d8 fs8 g8~ g8 b8 fs8 g8 | b,8 ds8 fs8 g8~ g8 b8 fs8 g8 |
   }
@@ -47,13 +47,13 @@ refrainMelody = \relative f' {
   \sectNoBar "Head"
   
   b8 e8 fs8 g8~ g2 | r8 b,8 e8 fs8 g8 fs8 g8 fs8 | c8 e8 fs8 g8~ g2 | r8 b,8 e8 fs8 g8 fs8 g8 fs8 |
-  \break
+  \xBreak
   g16( a8.) g8 a8~ a2 | r8 d,8 e8 fs8 g8 a8 b8 d8 | b32( d32 b8.) a8 b8~ b2 |
   r8 d8 c32( d32 c16) b8 a8 gs8 b8 gs8 |
-  \break
+  \xBreak
   a8 e8 c8 b8~ b2 | r4 r8 a,16 as16 b16 ds16 fs16 a16 b16 ds16 fs8 | g32( a8..~ a8) g8 e8 b8 a8 g8 |
   a8 g8 e8 e8 r8 e'8 b8 g8 |
-  \break
+  \xBreak
   g'8 e8 cs8 as8 cs8 e8 g8 fs8~ | fs8 ds8 c8 a8 c8 d8 fs8 fs8 | r8 g8 e8~ e2 ds'16 d16 |
   b16 a16 g16 ef16 d16 c16 b8~ b2 |
   }

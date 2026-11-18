@@ -121,7 +121,7 @@ refrainMelody = \relative f' {
 
   g4 bf4 bf4 bf4 | g8 bf4 bf8~ bf4 bf4 | af8 bf4 bf8~ bf4 r4 | r2 r4 bf4 |
   af4 bf4 bf4 bf4 | af8 bf4 bf8~ bf4 r8 ef,8 | g8 bf4 c8~( c8 bf4.) | r2 r4 r8 ef,8 |
-  \break
+  \xBreak
   g4 bf8 bf8~ bf8 bf4. | bf4 bf4 ef4 ef4 | c1 | r1 |
   bf1~ | bf4 r4 bf4 bf4
   bf2\bendAfter #-4 r2 | r1 |
@@ -134,7 +134,7 @@ refrainMelody = \relative f' {
 
   f4 f8 f8~ f4 f4 | f4 r4 r4 f4 | f4 f8 f8~ f4 f4 | f4 r4 r4 g4 |
   f4 d4 f4 d8 f8~ | f4 f8 g8~ g8 bf4. | g2 \bendAfter #-4 r2 | r1 |
-  \break
+  \xBreak
   f4 f4 f8 d4 f8~ | f4 r4 r4 f4 | f8 d4 f8~ f4 f4 | f4 r4 r4 f4 |
   f4 d8 f8~ f8 f4. | f4 f8 g8~ g8 bf4. | bf2 r2 | r1 |
   \bar "|."

@@ -119,9 +119,9 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   f8 f8 r4 f4 f4 | f4 f4 c4 e8 f8 | r1 | r2 f4 f4 |
-  \break
+  \xBreak
   f8 f4. f4 f4 | f8 f4. f8( c8) e8 f8 | r1 | r2 f4 f4 |
-  \break
+  \xBreak
   a2. f4 | a8 c4. f,4 f8 f8 |
   \alternative { \volta 1 {
   r1 | r2 r4 f4 |
@@ -133,19 +133,19 @@ refrainMelody = \relative f' {
 
   c'4 bf8 a8 bf8 c8 r8 \parenthesize f,8 | c'4 bf8 af8 bf8 c8 r8 f,8 |
   c'8 c8 c8 c8 c8 d8 c8 ef8~ | ef4. d8 c8 f,8 f8 c'8~ |
-  \break
+  \xBreak
   c2. bf8 af8 | bf8 c4.~ c2 |
   r2 \tuplet 3/2 { a4 c4 a4 } | f4 d8 c8~ c4. c'8~ |
-  \break
+  \xBreak
   c8 c8 bf8 a8 bf8 c8 r8 c8~ | c8 c8 bf8 a8 bf8 c4. |
   c8 c4. c8 c4 c8~ | c4 bf8 a8 bf8 c8 r8 f,8~ |
 
   \sect "A3"
 
   f8 f4. f4 f4 | f4 f4 c4 e8 f8 | r1 | r2 r4 f4 |
-  \break
+  \xBreak
   f2 f4 f4 | f4 f4 f8( c8) e8 f8 | r1 | r2 f4 f4 |
-  \break
+  \xBreak
   a2. f4 | a8 c4. f,4 f8 f8 \textToCodaLastTime | r1 | r1 |
   \bar "|."
 

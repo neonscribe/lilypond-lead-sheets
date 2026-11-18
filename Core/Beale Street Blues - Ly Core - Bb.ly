@@ -53,23 +53,23 @@ refrainMelody = \relative f' {
 
   cs'8 |
 
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "A" }
 
   \bar ".|:-||"
   \repeat volta 3 {
   d8 bf8 g8 bf8~ bf4. cs8 | d8 bf8 g8 bf8~ bf4 bf8 bf8 | ef4 d4 c4 bf4 |
-  \break
+  \xBreak
   a4 g8 f8~ f4. cs'8 | d8 bf8 g8 bf8~ bf4. f'8 | f8 ef8 f8 ef8~ ef8 bf8 c8 cs8 |
-  \break
+  \xBreak
   d8 bf8 c8 cs8 d8 bf8 c8 cs8 |
   \alternative { \volta 1,2 {
   d8 df8 c8 bf8~ bf4. cs8 |
   } \volta 3 {
   d8 df8 c8 bf8~ bf8 bf8 bf8 g8 |
   } } }
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "B" }
 
@@ -77,9 +77,9 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \repeat volta 3 {
   bf8 g8 bf8 bf8~ bf2 | r8 c8 bf8 c8 gf4 f8 ef8~ | ef1~ | ef2 r8 bf'8 bf8 bf8 |
-  \break
+  \xBreak
   bf8 af8 bf8 af8~ af2 | r8 ef8 f8 ef8 gf4 f8 ef8~ | ef1~ ef2 r8 bf'8 bf8 bf8 |
-  \break
+  \xBreak
   df4 bf8 c4 bf8~ bf4 | r8 ef4 c8 gf4 f8 ef8~ | ef1~ | ef2.
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize bf'8

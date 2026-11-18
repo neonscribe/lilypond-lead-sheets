@@ -51,25 +51,25 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   c'2. b4 | d2. c4 | g2 g2~ | g1 |
-  \break
+  \xBreak
   a2. g4 | bf2. a4 | d,1~ | d2. r4 |
 
   \sect "B"
 
   d2. e4 | g2. f4 | e2. g4 | c2. b4 |
-  \break
+  \xBreak
   d2 d2 | b2. b4 | a1~ | a2. r4 |
 
   \alwaysPageBreak "A2" "||" "||-||"
 
   c2. b4 | d2. c4 | g2 g2~ | g1 |
-  \break
+  \xBreak
   a2. g4 | bf2. a4 | f1~ | f2 r2 |
 
   \sect "C"
 
   d'2. c4 | d2. c4 | g1 | a2. a4 |
-  \break
+  \xBreak
   d2 e2 | c2 d2 \textToCodaLastTime | c1~ | c2 r2 |
 
   \bar "||-|."

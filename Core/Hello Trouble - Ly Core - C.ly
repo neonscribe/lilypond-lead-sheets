@@ -68,28 +68,28 @@ refrainMelody = \relative f' {
   \segnoSign
 
   e,8 g4. r2 | r4 g8 g8 a4 c8 g8~ | g1 | r4 c8 c8~ c8 d4. |
-  \break
+  \xBreak
   d4. d8~ d2 | r8 g,8 g4 a8 c4. | c1 | r8 c8 d8 c8 d8 c4. |
-  \break
+  \xBreak
   e,4 g4 r2 | r4 g8 g8 a8 c4. | g1 | r4 g4 g8 a4 c8~ |
-  \break
+  \xBreak
   c8 c8 c8 c8 c8 c8 c8 c8 | d4 g,8 g8 a4 g8 c8~ | c1 | r2 e8 c,4. |
 
   \sect "Chorus"
 
   e8 g4. r2 | r2 a8 c4. | g2 r2 | r4 r8 g8 c8 a8 c4 |
-  \break
+  \xBreak
   d4. d8~ d2 | r4 g,8 g8 a4 g8 c8~ | c1 | r4 d8 c8 d4 c8 e,8~ |
-  \break
+  \xBreak
   e8 g4. r2 | r4 g4 a8 c4. | g1 | r2 c8 a4. |
-  \break
+  \xBreak
   a8 a4. a8 a4. | b8 b4. d4 b4 \textToCoda | c1~ | c4 r2. |
 
   \alwaysPageBreak "Solos" "||" "||-||"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   r4

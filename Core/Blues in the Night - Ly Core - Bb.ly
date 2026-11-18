@@ -114,10 +114,10 @@ refrainMelody = \relative f' {
 
   \tuplet 3/2 { a8 bf8 f8 } a8 bf8~ bf4. f8 | \tuplet 3/2 { a8 bf8 f8 } a8 bf8~ bf4. f8 |
   \tuplet 3/2 { a8 bf8 f8 } a8 bf8~ bf2 | d,2~ d4. bf8 |
-  \break
+  \xBreak
   \tuplet 3/2 { f'8 ef8 bf8 } f'8 ef8~ ef4. bf8 | \tuplet 3/2 { f'8 ef8 bf8 } f'8 ef8~ ef2 |
   r8 bf'8 af8 g8 f8 g8 cs,8 d8~ | d2~ d4. f8 |
-  \break
+  \xBreak
   \tuplet 3/2 { b8 c8 f,8 } b8 c8~ c4. f,8 |
   \tuplet 3/2 { df'8 c8 df8 } bf8 bf8 \tuplet 3/2 { af8 g8 af8 } f8 f8 |
   a8( bf4.~ bf4~ \tuplet 3/2 { bf8) g8 f8 } | bf,1 |
@@ -126,10 +126,10 @@ refrainMelody = \relative f' {
 
   d'4. f8 d8 bf8 g8 f8 | df'4. f8 df8 bf8 g8 f8 | cs'8 d4.~ d4. f,8 |
   \tuplet 3/2 { a8 bf8 f8 } a8 bf8~ bf2 |
-  \break
+  \xBreak
   df4. f8 df8 bf8 g8 f8 | ef'4. f8 ef8 df8 bf8 gf8 | cs8 d4.~ d4. f,8 |
   \tuplet 3/2 { a8 bf8 f8 } a8 bf8~ bf4. f8 |
-  \break
+  \xBreak
   \tuplet 3/2 { e'8 f8 f,8 } e'8 f8~ f4. f,8 |
   \tuplet 3/2 { df'8 c8 df8 } bf8 bf8 \tuplet 3/2 { af8 g8 af8 } f8 f8 |
   a8( bf4.~ bf4~ \tuplet 3/2 { bf8) g8 f8 } | bf,2~ bf8 f'8 g8 bf8 |

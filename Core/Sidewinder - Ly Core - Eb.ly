@@ -77,18 +77,18 @@ refrainMelody = \relative f' {
 
   r4_"Bass & Rhythm - Continue Simile" c'4-. r8 df8-> r4 | r4 c4-. r8 df8-> r4 |
   r8 c8 df4 ef4 f4 | fs8 g8 ef8 df8 r8 a4.->
-  \break
+  \xBreak
 
   af4 f'4-. r8 gf8-> r4 | r4 f4-. r8 gf8-> r4 |
   r8 f8 gf8 af8 bf8 af8 gf8 f8 | af8 ef8 f8
   \override Glissando.style = #'zigzag
   gf8~ gf8\glissando
   bf,8 af8 bf8 |
-  \break
+  \xBreak
 
   ef,4 c'4-. r8 df8-> r4 | r4 c4-. r8 df8-> r4 |
   r8 bf8 c8 df8 ef8 f4. | r8 g,8 af8 a8 bf8 c4. |
-  \break
+  \xBreak
 
   r4 f,4-. r8 g8-> r4 | r4 f4-. r8 g8-> r4 |
   r8 f8 g4 af4 a4 | a8 bf8 af8 e8 r8 e8 df8 e8 |

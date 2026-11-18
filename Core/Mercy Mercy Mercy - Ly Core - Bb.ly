@@ -37,17 +37,17 @@ refrainMelody = \relative f' {
 
   r4 g8 f8~ f4 d8 bf8 | c8 bf8 bf8 g8 bf4 c4 |
   r4 g'8 f8~ f4 d8 bf8 | c8 bf8 bf8 g8 bf4 c4 |
-  \break
+  \xBreak
   r4 g'8 f8~ f4 d8 bf8 | c8 bf8 bf8 g8 bf4 c4 |
   r4 g'8 f8~ f4 d8 bf8 | c8 bf8 bf8 g8 bf4 c4 |
 
   \sect "B"
 
   f4 f4 g8 g4 af8~ | af4 af4 g8 g4 f8~ | f4 f4 g8 g4 af8~ | af4 af4 g8 g4 f8~ |
-  \break
+  \xBreak
   f4 bf,8 bf8 d8 d8 ef8 ef8 | f8-^ r8 bf4 bf8 bf8 bf8 bf8 |
   r4 bf,8 bf8 d8 d8 ef8 ef8 | f8-^ r8 r4 r8 f,8 g8 bf8 |
-  \break
+  \xBreak
   c4. c8 r4 r8 bf8 | d4. d8 r8 c8 d8 f8 | g4. f8 g4. f8 | g4 r4 r2 |
 
   \bar "|."

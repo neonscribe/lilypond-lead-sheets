@@ -72,31 +72,31 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   fs8 e4.~ e2 | r4 ds8 e8 c'4. gs8 | b8 a4.~ a2 | r4 a4 b4 c4 |
-  \break
+  \xBreak
   c4 b4 fs4 g4 | a4. e8 fs4 g4 | a4. g8 fs8 e4 fs8~ | fs4 bf,8 b8 g'4. ds8 |
 
   \sect "A2"
 
   fs8 e4.~ e2 | r4 ds8 e8 c'4. gs8 | b8 a4.~ a2 | r4 a4 b4 c4 |
-  \break
+  \xBreak
   c4 b4 fs4 g4 | a4. e8 fs4 g4 | b4. b8 b8 fs4 g8 | e2. r4 |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   e'4. e8 e4. e8 | e2 \tuplet 3/2 { e4 e4 e4 } | e4 e2.~ | e2. r4 |
-  \break
+  \xBreak
   c4. c8 c4. c8 | c2 \tuplet 3/2 { c4 d4 c4 } | b1~ | b2 r4 b4 |
-  \break
+  \xBreak
   a4. a8 a4. a8 | a4. a8 a4. a8 | a4 g2.~ | g2 r4 e4 |
-  \break
+  \xBreak
   g4. g8 g4. g8 | g4 e4 fs4 e4 | fs1 | r4 bf,8 b8 g'4. ds8 |
 
   \sect "A3"
 
   fs8 e4.~ e2 | r4 ds8 e8 c'4. gs8 | b8 a4.~ a2 | r4 a4 b4 c4 |
-  \break
+  \xBreak
   c4. b8 fs4 g4 | a4. e8 fs4 g4 | d'4. d8 \tuplet 3/2 { c4 d4 c4 } |
-  \break
+  \xBreak
   b2~ b8 fs8 g4 |
   e1~ | e2 r2 |
 

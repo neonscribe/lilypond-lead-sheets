@@ -43,25 +43,25 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   b2. a4 | d2 c4. bf8~ | bf2~ bf4. f8~ | f2 g4 af8 bf8~ |
-  \break
+  \xBreak
   bf2 g4 bf8 c8~ | c2 a4 c8 d8~ | d1~ | d2 r2 |
 
   \sect "A2"
 
   b2. a4 | d2 c4. bf8~ | bf2~ bf4. f8~ | f2 g4 af8 bf8~ |
-  \break
+  \xBreak
   bf2 g4 bf8 c8~ | c2 a4 c8 d8~ | d1~ | d2 r4 b4 |
 
   \sect "B"
 
   d1~ | \tuplet 3/2 { d4 b4 cs4 } \tuplet 3/2 { d4 fs4 e4 } | cs1~ | cs1 |
-  \break
+  \xBreak
   c1~ | \tuplet 3/2 { c4 a4 b4 } \tuplet 3/2 { c4 e4 d4 } | b1~ | b1 |
 
   \sect "A3"
 
   b2. a4 | d2 c4. bf8~ | bf2~ bf4. f8~ | f2 g4 af8 bf8~ |
-  \break
+  \xBreak
   bf2 g4 bf8 c8~ | c2 a4 c8 d8~ \textToCodaLastTime | d1~ | d1 \daCapoAfterSolos |
   \bar "|."
 
@@ -69,9 +69,9 @@ refrainMelody = \relative f' {
   \textCodaBreak
 
   d2. d8 f8~ | f2. e8 c8~ | c2. r4 | r4 ef2 d4 |
-  \break
+  \xBreak
   b1_"Gradual ritardando to end" | bf1 | a1 | af1 |
-  \break
+  \xBreak
   g1 | g2. r4 | g1\fermata |
 
   \bar "|."

@@ -46,37 +46,37 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A" }
 
   g2. | c2. | ef2. | g2. |
-  \break
+  \xBreak
   g2. f2 c4 | ef2. d2 g,4 |
 
   \sect "B"
 
   c2. | ef2. | g2. | bf2. |
-  \break
+  \xBreak
   bf2.~ | bf2 af4 | g2. | r8 g,8 a8 b8 c8 d8 |
 
   \sect "C"
 
   ef2. | d2. | d2. | c2. |
-  \break
+  \xBreak
   c2. bf2 g4 | ef2. | f2. |
 
   \alwaysPageBreak "D" "||" "||-||"
 
   g2. | gf2. | g2. | af2 c4 |
-  \break
+  \xBreak
   ef2. | d2. | c2.~ | c2. |
 
   \sect "E1"
 
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
 
   \sect "E2"
 
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq | \rsq \rsq \rsq |
 }
 

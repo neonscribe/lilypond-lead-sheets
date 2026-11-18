@@ -45,23 +45,23 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   gf2. d8 f8 | r8 ef4. b'4 df8 af8~ | af2. b8 af8~ | af2. b8 af8~ | af2~ \tuplet 3/2 { af4 g4 af4 } |
-  %% \break
+  %% \xBreak
   bf2 af4. df8~ | df2 \tuplet 3/2 { r4 bf4 b4 } | c4 f,8 e8~ e4 bf'8 af8~ | af1 | r2 bf4 gf8 f8~ |
-  %% \break
+  %% \xBreak
   f2~^"(Latin)" \tuplet 3/2 { f4 d4 ef4 } | e2 c2 | ef1~ | ef2 r2 |
 
   \sect "B"
 
   af4.^"(Swing)" c8 r8 af8 r8 f8 | af2. af4 | ef'4. b8 r8 g8 r8 b8 | c2. af4 |
-  %% \break
+  %% \xBreak
   b2~ b4. af8 | r2 r4 af4 | cs4. a8~ a4 cs8 c8 | r2 r8 d,8 f8 gf8~ |
 
   \sect "A2"
 
   gf2. d8 f8 | r8 ef4. b'4 df8 af8~ | af2. b8 af8~ | af2. b8 af8~ | af2~ \tuplet 3/2 { af4 g4 af4 } |
-  %% \break
+  %% \xBreak
   bf2 af4. df8~ | df2 \tuplet 3/2 { r4 bf4 b4 } | c4 f,8 e8~ e4 bf'8 af8~ | af1 | r2 bf4 gf8 f8~ |
-  %% \break
+  %% \xBreak
   f2~^"(Latin)" \tuplet 3/2 { f4 d4 ef4 } | e2 c2 | ef1~ | ef2 r2 |
 
   \bar "|."

@@ -90,15 +90,15 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   f4 g4 a4 | bf4 c4 d4 | ef2 g,4 | fs2. |
-  %% \break
+  %% \xBreak
   d'2 f,4 | e2. | c'2 ef,4 | d2. |
-  \break
+  \xBreak
   bf'2 d,4 | ef4. f8 gf8 af8 | bf2 gf'4 | f2 ef4 |
-  %% \break
+  %% \xBreak
   af,2 f'4 | ef2 df4 | af2 ff'4 | ef2 df4 \textToCodaLastTime |
-  \break
+  \xBreak
   gf,4 af4 bf4 | cf4 df4 ef4 | f2 ef4 | d2 c4 |
-  %% \break
+  %% \xBreak
   f,2.~ | f2.~ | f2. | R2.*1 |
   }
   \bar "||-:|."
@@ -107,10 +107,10 @@ refrainMelody = \relative f' {
 
   bf4 c4 d4 | f4 r4 r4 | ef4 d4 c4 | bf2 a4 | g4 a4 bf4 | d2. |
   c4 bf4 af4 | g2 f4 |
-  \break
+  \xBreak
   bf2 d,4 | ef4. d8 ef8 f8 | gf4. af8 bf8 df8 | c4 df4 ef4 |
   af,2 c,4 | df4. ef8 ff8 gf8 | af2 ff'4 | ef2 df4 |
-  \break
+  \xBreak
   gf,8 gf8 af8 af8 bf8 bf8 | cf8 cf8 df8 df8 ef8 ef8 |
   f2 \tuplet 3/2 { ef8( f8 ef8) } | d2 c4 | f,2.~ | f2.~ | f2. | R2.*1 |
 
@@ -118,10 +118,10 @@ refrainMelody = \relative f' {
 
   r4 f'8 f8 f8 f8 | ef4 d2 | r4 ef8 ef8 ef8 ef8 |
   d4 c2 | r4 d8 d8 d8 d8 | c4 bf2 | r4 c8 c8 c8 c8 | bf4 af2 |
-  \break
+  \xBreak
   g4 af4 a4 | bf4 c4 d4 | ef4 e4 f4 | gf4 f4 ef4 |
   af,4 bf4 c4 | df4 d4 ef4 | ff4 f4 gf4 | g4 gf4 ff4 |
-  \break
+  \xBreak
   ef4 r8 df4. | cf4 r8 df4 ef8 | f4 r8 ef4 d8 | c4 r4 a8 g8 |
   f4 f4 f4 | af4 f4. ef8 | f2.~_\markup{ "Solo on " \box "C" ". After solos, D.C. al Coda." }  | f2 r4|
   \bar "||-|."

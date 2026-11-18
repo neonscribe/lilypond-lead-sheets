@@ -39,13 +39,13 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   fs1~ | fs2 af4 bf4 |
-  \break
+  \xBreak
   c4 c4 c4 c4 | a4. r8 ds,4 cs4 |
-  \break
+  \xBreak
   fs1~ | fs4. r8 ds4. cs8 |
-  \break
+  \xBreak
   ds2.~ ds16 gs16 fs16 ds16 | cs2. \tuplet 3/2 { r8 b8 cs8 } |
-  \break
+  \xBreak
   ds2.~ ds16 as'16 fs16 ds16 | cs4.  r8 ds4 cs4 |
   }
 

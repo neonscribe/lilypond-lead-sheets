@@ -122,7 +122,7 @@ refrainMelody = \relative f' {
   R8*9 |
 
   \bar "||-||"
-  \break
+  \xBreak
 
   \xTextMark \markup "Verse"
 
@@ -131,7 +131,7 @@ refrainMelody = \relative f' {
   r4. r16 fs,16 gs4 b8. b16~ b8 |
   cs8 b4 r4. r4. |
 
-  \break
+  \xBreak
 
   r4. r8 e,8 e8 cs'8. cs16~ cs8 |
   cs8( b8) cs8 b4. fs8( e8 fs8) |
@@ -139,14 +139,14 @@ refrainMelody = \relative f' {
   R8*9 |
 
   \bar "||-||"
-  \break
+  \xBreak
 
   r4. r4 e8 gs8 b8 b8 |
   cs8 b4~ b4.~ b8 b8 b16( gs16 |
   fs4.) r4. r8 fs8 fs8 |
   cs'8 b8( cs8) r4. r4. |
 
-  \break
+  \xBreak
 
   r4. r4 e,16 e16 cs'8 cs8 cs16( b16) |
   cs8 b4~( b8 gs8 fs8 e8) e8 fs8~ |
@@ -164,7 +164,7 @@ refrainMelody = \relative f' {
   r4. r8 cs4 e8 cs8 fs8 |
   e4. r4. r4 e,16 e16 |
 
-  \break
+  \xBreak
 
   b'8 b4~ b4.~ b8 b8 b8~ |
   b8 b4~ b4 cs8 gs4. |
@@ -172,7 +172,7 @@ refrainMelody = \relative f' {
   r4. r4 gs8~ gs8 a16 a8. |
 
   \bar "||-||"
-  \break
+  \xBreak
 
   \xTextMark \markup "Chorus"
 
@@ -181,7 +181,7 @@ refrainMelody = \relative f' {
   gs4 gs8~ gs4.~ gs8 gs8 fs8 |
   e4. r4. r8 e8 e8 |
 
-  \break
+  \xBreak
 
   fs4. gs4. a4. |
   gs2. gs8( fs8) e8~ |
@@ -189,7 +189,7 @@ refrainMelody = \relative f' {
   R8*9 |
 
   \bar "||-||"
-  \break
+  \xBreak
 
   \xTextMark \markup "Solo - Chorus"
   \repeat unfold 8 { R8*9 | }
@@ -205,7 +205,7 @@ refrainMelody = \relative f' {
   r4. r8 fs8 b8~ b8 b8 b8 |
   cs8 b16( a16 fs8) r4. r8 cs'8 cs8 |
 
-  \break
+  \xBreak
 
   cs2.~ cs8 cs8 b8 |
   cs8 b4~( b8 gs8 fs8 e4) fs8 |
@@ -213,14 +213,14 @@ refrainMelody = \relative f' {
   R8*9 |
 
   \bar "||-||"
-  \break
+  \xBreak
 
   r4. r4 e8 gs8 b8 b8 |
   cs8( b8) cs8 r4. r4. |
   r4. r8. e,16 fs16 e16 gs16 b16 b4 |
   cs8( b8) cs8 r4. r4. |
 
-  \break
+  \xBreak
 
   r4. r8 e,16 e16 cs'8~ cs8 cs8 b8 |
   cs8 b4~ b4. fs8( e8 fs8) |
@@ -228,7 +228,7 @@ refrainMelody = \relative f' {
   r4. r4. r8 b8 b8 |
 
   \bar "||-||"
-  \break
+  \xBreak
 
   \xTextMark \markup "Pre-Chorus"
 
@@ -237,7 +237,7 @@ refrainMelody = \relative f' {
   cs8 e4~ e8 gs4~ gs4 fs8 |
   e4. r4. r4 b8 |
 
-  \break
+  \xBreak
 
   b8 b4~ b4.~ b8 b8 cs8 |
   b8( a4~ a4.) r8 gs8 gs8~ |
@@ -245,7 +245,7 @@ refrainMelody = \relative f' {
   r4. r4. a8 a8 a8 |
 
   \bar "||-||"
-  \break
+  \xBreak
 
   \xTextMark \markup "Chorus"
 
@@ -254,7 +254,7 @@ refrainMelody = \relative f' {
   gs4 gs8~ gs4.~ gs8 gs8 fs8 |
   e4. r4. r8 e8 e8 |
 
-  \break
+  \xBreak
 
   fs4. gs4. a4. |
   gs2. fs8( e8) e8~ |
@@ -272,7 +272,7 @@ refrainMelody = \relative f' {
   r4. r4 cs8~ cs8 e4 |
   e8( ds8 cs8 b4.) a8 b8( a8) |
 
-  \break
+  \xBreak
 
   gs4. r4. r4. |
   r4. r4. r8 b8 b8 |
@@ -280,14 +280,14 @@ refrainMelody = \relative f' {
   fs8 e16( cs16 b16 a16) r4. r4. |
 
   \bar "||-||"
-  \break
+  \xBreak
 
   r4. r4 cs8~ cs8 e8 e8 |
   ds8( cs8 b8~ b4) b8~ b8 b4 |
   gs8( fs8 e8) r4. r4. |
   r4. r4. r4 b'16 b16 |
 
-  \break
+  \xBreak
 
   cs4 e8~ e4.~ e8 cs8 fs8 |
   e4. r8 cs8 cs16 cs16 gs'4. |
@@ -297,7 +297,7 @@ refrainMelody = \relative f' {
   b16( a16 gs4) r4. r4. |
   r4. r4. r4 gs8 |
 
-  \break
+  \xBreak
 
   \bar ".|:-||"
   \xTextMark \markup "Chorus"
@@ -308,7 +308,7 @@ refrainMelody = \relative f' {
     gs4 gs8~ gs4.~ gs8 b8 fs8 |
     e4. r4. r8 e8 e8 |
 
-    \break
+    \xBreak
 
     fs4. gs4. a4. |
     gs2.  gs8( fs8 e8) |

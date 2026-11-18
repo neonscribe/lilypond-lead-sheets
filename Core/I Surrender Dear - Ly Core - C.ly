@@ -52,25 +52,25 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
 
   r8 f8 f8 f8 a2 | r8 g8 g8 g8 bf2 | r8 a8 a8 a8 b2 | r8 c8 c8 c8 e2 |
-  \break
+  \xBreak
   r8 e8 e8 c8 c8 a8 a8 e8 | e1 | r4 d8 e8 g4 g4 | g1 |
 
   \sect "A2"
 
   r8 f8 f8 f8 a2 | r8 g8 g8 g8 bf2 | r8 a8 a8 a8 b2 | r8 c8 c8 c8 e2 |
-  \break
+  \xBreak
   r8 e8 e8 c8 c8 a8 a8 e8 | e1 | r4 d8 e8 g4 g4 | g1 |
 
   \sect "B"
 
   b8 b4 b8 b8 c4 d8 | c8 c4.~ c2 | b8 b4 b8 b8 c4 d8 | c1 |
-  \break
+  \xBreak
   b8 b4 b8 b8 c4 d8 | c8 c4.~ c4 c8 c8 | e4 e4 e4 a,4 | d1 |
 
   \sect "A3"
 
   r8 f,8 f8 f8 a2 | r8 g8 g8 g8 bf2 | r8 a8 a8 a8 b2 | r8 c8 c8 c8 e2 |
-  \break
+  \xBreak
   r8 e8 e8 c8 c8 a8 a8 e8 | e1 | r4 d8 e8 g4 g4 | g2. r4 |
 
   \bar "|."

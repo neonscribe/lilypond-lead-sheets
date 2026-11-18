@@ -52,13 +52,13 @@ refrainMelody = \relative f' {
 
   r8 g8 bf8 d8-. r8 c8-. r8 bf8 | c8 a8~ a8 f16 c16 ef8 g4. |
   r8 g8 bf8 d8-. r8 c8-. r8 bf8 | c8 a4. g2 |
-  \break
+  \xBreak
   r8 af8 c8 ef8-. r8 d8-. r8 c8 | d8 bf4. f8 af4. |
   r8 ef8 g8 bf8-. r8 a8-. r8 g8 | a8 f4. ef4 g8 bf8 |
-  \break
+  \xBreak
   c8 ef8 c8 c8~ c8 ef8 c8 c8~ | c8 ef8 c8 c8~ c8 ef8 c8 c8~ |
   c8 ef8 c8 c8~ c8 ef8 c8 c8~ | c8 ef8 c8 c8~ c8 ef,8 c8 c8~ |
-  \break
+  \xBreak
   c8 ef8 c8 c8~ c8 ef8 c8 c8~ | c8 ef8 c8 c8~ c8 g'8 a8 g8 |
   \scoop bf4 a8 g8~ g4. g8~ \textToCoda | g1 |
 

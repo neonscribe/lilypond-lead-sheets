@@ -100,9 +100,9 @@ refrainMelody = \relative f' {
   \sectNoBreak "Intro"
 
   a4  <a' cs e>4 e,4 <a' cs e>4 | a,4 a4 b4 cs4 | d4 <a' d fs>4 a,4 <a' d fs>4 | d,4 d4 cs4 b4 |
-  \break
+  \xBreak
   a4  <a' cs e>4 e4 <a cs e>4 | a,4 a4 gs4 fs4 | e4 <gs' b e>4 b,4 <gs' b e>4 | b,4 e,4 fs4 e4 |
-  \break
+  \xBreak
   b'4 <a' b fs'>4 ds,4 <a' b fs'>4 | b,4 a4 gs4 fs4 |
 
   \sectNoBarNoBreakSegnoSegno "Interlude"
@@ -122,13 +122,13 @@ refrainMelody = \relative f' {
   
   fs2 fs2 | fs4 a4 gs4 fs4 |
   e1 | r4 e4 e4 e4 |
-  \break
+  \xBreak
   fs2 fs2 | fs4 a4 gs4 fs4 |
   e1 | r4 e4 fs4 gs4 |
-  \break
+  \xBreak
   a2 a2 | a4 cs8 b8~ b4 a4 | 
   gs1 | r4 e4 ds4 cs4 |
-  \break
+  \xBreak
   b1 | r4 fs'4 e4 ds4 |
   e1 \textToCodaII |
 
@@ -153,13 +153,13 @@ refrainMelody = \relative f' {
   
   b4 b4 b4 b4 | b4 d4 cs4 b4 |
   a1 | r4 a4 a4 a4 |
-  \break
+  \xBreak
   b2. b4 | b4 d4 cs4 b4 |
   a1 | r4 a4 b4 cs4 |
-  \break
+  \xBreak
   d2 r4 d4 | d4 fs4 e4 d4 |
   cs1 | r4 a4 gs4 fs4 |
-  \break
+  \xBreak
   e1 | r4 b'4 a4 gs4 |
   a1 \textToCodaI |
 
@@ -184,13 +184,13 @@ refrainMelody = \relative f' {
 
   e2 e2 | e4 g4 fs4 e4 |
   d1 | r4 d4 d4 d4 |
-  \break
+  \xBreak
   e2 e2 | e4 g4 fs4 e4 |
   d1 | r4 d4 e4 fs4 |
-  \break
+  \xBreak
   g2 g2 | g4 b4~ b8 a8 g4 |
   fs1 | r4 d4 cs4 b4 |
-  \break
+  \xBreak
   a1 | r4 e'4 d4 cs4 |
   d1 |
 

@@ -34,12 +34,12 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "Head" }
 
   e'2. d4 | c2. bf4 | a2.  g4 | f4 d'2. |
-  \break
+  \xBreak
   e,4. d8 cs8 d8 f8 a8 | c2. a4 | g2. f4 |
-  \break
+  \xBreak
   c'2. gs4 | b2. a4 \textToCodaLastTime | f'1 |
 
-  \break
+  \xBreak
 
   \textCodaBreak
   \bar "||-|."
@@ -47,7 +47,7 @@ refrainMelody = \relative f' {
   f2. cs4 | e2. d4 | c2. bf4 | a1\fermata |
 
   \bar "|."
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "A2" }
 

@@ -33,15 +33,15 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "Refrain"
 
   r8 c'8-. r8 f,8 c'4. f,8 | c'8 c8 bf8 bf8 af8 f8 r8 ef8 | f4 f8 f8 af8 af8 r8 c8~ | c1 |
-  \break
+  \xBreak
   r8 c8-. r8 f,8 c'4. f,8 | c'8 c8 bf8 bf8 af8 f8 r8 ef8 | f4 f8 f8 af8 f8 ef8 f8~ | f2. r4 |
-  \break
+  \xBreak
   r8 f'8-^ r4 bf,2 | r8 ef8-^ r4 af,2 | r8 df8-^ r4 g,2 | g8 af8 bf8 c8~ c2 |
-  \break
+  \xBreak
   r8 f8-^ r4 bf,2 | r8 ef8-^ r4 af,2 | r8 df8-^ r4 g,2 | g8 af8 g8 f8~ f2 |
 
   \bar "||-|."
-  \break
+  \xBreak
 
   \sectNoBar "Outro"
 

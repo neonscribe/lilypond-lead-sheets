@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   \tuplet 3/2 { bf8 df8 f8 } c'2 bf8 f8 | gs8 a4.~ a4. a,8 |
   \tuplet 3/2 { bf8 df8 f8 } c'8 c4. bf8 f8 | a2 r4 r8 a,8 |
-  \break
+  \xBreak
   \tuplet 3/2 { bf8 df8 f8 } c'2 bf8 f8 | gs8 a4.~ a2 |
   \tempo "Swing"
   a8 bf8 a8 g8 ef4 cs8 d8~ |
@@ -93,7 +93,7 @@ refrainMelody = \relative f' {
   \tempo "Swing"
 
   c4. a8~ a4. g8 | fs4 ef'8 df8 d8 c4 a8 | bf8 g4 fs8~ fs4 a8 f8 | g8 a8 e4 r4 r8 bf'8~ |
-  \break
+  \xBreak
   bf2 g4. f8 | e4 df'8 b8 c8 bf4 gs8 | a4. f8 g4 f8 e8~ | e2 r4 r8 a,8 |
 
   \sect "A3"
@@ -101,7 +101,7 @@ refrainMelody = \relative f' {
 
   \tuplet 3/2 { bf8 df8 f8 } c'2 bf8 f8 | gs8 a4.~ a4. a,8 |
   \tuplet 3/2 { bf8 df8 f8 } c'8 c4. bf8 f8 | a2 r4 r8 a,8 |
-  \break
+  \xBreak
   \tuplet 3/2 { bf8 df8 f8 } c'2 bf8 f8 | gs8 a4.~ a2 |
   \tempo "Swing"
   a8 bf8 a8 g8 ef4 cs8 d8~ |
@@ -112,11 +112,11 @@ refrainMelody = \relative f' {
   \tempo "Latin"
 
   a4 g8 e8 a4 g8 e8 | a8 g8 e8 a8 r4 r8 a8~ | a4 g8 ef8 a4 g8 ef8 | a8 g8 ef8 a8 r4 r8 a8~ |
-  \break
+  \xBreak
   a4 f8 d8 a'4 f8 d8 | a'8 f8 d8 a'8 r4 r8 a8~ | a4 g8 ef8 a4 g8 ef8 | a8 f8 df8 a'8 r4 r8 a8~ |
-  \break
+  \xBreak
   a4 fs8 d8 a'4 fs8 d8 | a'8 f8 d8 a'8 r4 r8 a8~ | a4 ff8 df8 a'4 ff8 df8 | a'8 ff8 df8 a'8 r4 a8 c8 |
-  \break
+  \xBreak
   \rsq^"solo break" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \bar "|."

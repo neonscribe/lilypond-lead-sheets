@@ -94,7 +94,7 @@ refrainMelody = \relative f' {
   \sect "B"
 
   c4 d8 ef8~ ef4 r4 | r4 ef8 d8 ef8 d8 c8 d8~ | d8 r8 r4 r2 | r2 r4 g,4 |
-  %% \break
+  %% \xBreak
   c4 d8 ef8~ ef4 r4 | r4 ef8 d8 ef8 d8 c8 d8~ | d8 r8 r4 r2 | r2 r4 g,4 |
 
   \sect "C"
@@ -112,28 +112,28 @@ refrainMelody = \relative f' {
   a4 g4 e4 a8 g8~ | g8 e8 a8 g8 r8 a4 g8 | a8 a8 g4 e4 d8 e8~ | e4 r4 r8 a4 g8 |
   \override Score.Clef.break-visibility = #all-invisible
   \override Score.KeySignature.break-visibility = #all-invisible
-  %% \break
+  %% \xBreak
   a4 g4 e4 a8 g8~ | g8 e8 a8 g8 r8 a4 g8 | a8 a8 g8 e8~ e4 c4 | d4 r4 r4 g,4 |
-  %% \break
+  %% \xBreak
   c4 c8 d8 e8 d8 c4 | f4 g4 a4 a8 b8 | c8 c8 a4 g4 a4 | ef4 r4 r4 c8 d8 |
-  %% \break
+  %% \xBreak
   \alternative { \volta 1 {
   e4 r4 c4 d4 | ef4 r4 r4 d4 |
   c4 r4 g'4. gs8 | a2 b2 |
-  %% \break
+  %% \xBreak
   c2 bf2 | g4 r4 r4 g4 | c2 bf2 | g4 r4 r4 c,4 |
-  %% \break
+  %% \xBreak
   gf'1 | f4( ef2.) | c4 r4 r2 | r2 r4 g'4 |
-  %% \break
+  %% \xBreak
   } \volta 2 {
   e4 r4 c4 d4 | ef4 r4 r4 c8 d8 |
   e4 r4 r4 c8 d8 | ef4 r4 r4 c8 d8 |
-  %% \break
+  %% \xBreak
   e4 r4 r4 c8 d8 | ef8 ef4 ef8~ ef4 d4 |
   c4 r4 g'4. gs8 | a2 b2 |
-  %% \break
+  %% \xBreak
   c2 bf2 | g4 r4 r4 g4 | c2 bf2 | g4 r4 r4 c,4 |
-  %% \break
+  %% \xBreak
   gf'1 | f4( ef2.) | c4 r4 r2 | r1 |
   } } }
   \bar "|."

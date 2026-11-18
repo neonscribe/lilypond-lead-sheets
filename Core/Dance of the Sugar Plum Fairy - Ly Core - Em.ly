@@ -47,26 +47,26 @@ refrainMelody = \relative f' {
   r4 e4 r4 fs4 | r4 g4 r4 ds4 |
   }
 
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "A" }
 
   r4 fs'8 e8 g4 fs4 | ds4 e4 d8 d8 d4 |
-  \break
+  \xBreak
   cs8 cs8 cs4 c8 c8 c4 | b8 e8 c8 e8 b4 e,16 d16 c16 b16 |
-  \break
+  \xBreak
   bf4 g''8 e8 g4 fs4 | c'4 b4 g8 g8 g4 |
-  \break
+  \xBreak
   fs8 fs8 fs4 e8 e8 e4 | ds8 fs8 e8 fs8 ds4 b,16 a16 g16 fs16 |
 
   \sect "B"
 
   e4 g''8 e8 g4 fs4 | ds4 e4 d8 d8 d4 |
-  \break
+  \xBreak
   cs8 cs8 cs4 c8 c8 c4 | b8 e8 c8 e8 b4 g16 fs16 e16 d16 |
-  \break
+  \xBreak
   cs4 e'8 cs8 e4 ds4 | b,4 d'8 b8 d4 cs4 |
-  %% \break
+  %% \xBreak
   a,4 c'8 a8 c4 b4 | b,4 b'16 ds16 fs16 b16 e,4 e,4 |
 
   \bar "|."

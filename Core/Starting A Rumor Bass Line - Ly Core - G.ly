@@ -73,7 +73,7 @@ refrainMelody = \relative f' {
 
   g1 | b1 | c1 | g1 | g1 b1 | c1 | d1 |
 
-  \break
+  \xBreak
 
   e1 | b1 | c1 | g'2 fs2 | e1 | b1 | c2. d8( e8) | g2. d4 |
 
@@ -81,7 +81,7 @@ refrainMelody = \relative f' {
 
   g,1 | b1 | c1 | g1 | g1 | b1 | c2. g8( b8) | d2. c8( d8) |
 
-  \break
+  \xBreak
 
   e1 | b1 | c1 | g'2 fs2 | e2.. e8 | b1 | c2. g4~ | g4 g4 a4 b4 |
 
@@ -89,14 +89,14 @@ refrainMelody = \relative f' {
 
   c4 c2 c4~ | c8 \xNote { c8 } a'4 g4 a4 | c,4 c2 c4~ | c4 d8 e8 g4 e4 |
   g1 | fs4 fs2 d4 | e2.. b8 | e8 \xNote { b8 } e2 b4 |
-  \break
+  \xBreak
   a1 | a8 e8 a2 e'4 | a1 | a8 e8 a,2 b8 g8 | c2. c4~ | c8 g8 c2 c4 | d4 d2 d4~ | d4 d2 d4 |
 
   \alwaysPageBreak "Solo" "||" "||-||"
 
   g,4 g2. | b2.. \xNote { b8 } | c4 c2~ c8 b8 | g4 g2 d'4 |
   g,4 g2~ g8 \xNote { g8 } | b4 b2~ b8 \xNote { b8 } | c4 c2. | d8 d8 d8 d8 a8 b8 d4 |
-  \break
+  \xBreak
   e4 e2. | b4 b2. | c2 d8 e8 a4 | g2 fs2 |
   e1 | b4 b2~ b8 \xNote { b8 } | c2 c4 g4~ | g8 e8 g2 a8 b8 |
 
@@ -104,16 +104,16 @@ refrainMelody = \relative f' {
 
   c4 c2 c4~ | c8 \xNote { c8 } a'4 g4 a4 | c,4 c2 c4~ | c4 d8 e8 g4 e4 |
   g1 | fs4 fs2 d4 | e4 e2~ e8 b8 | e4 e4. fs8 g4 |
-  \break
+  \xBreak
   a4 a2 a4~ | a8 e8 a2 b8 c8 | d2.. c8 | a4. e8 a,4 b4 |
   c4 c2 c4~ | c8 g8 a8 b8 c4 a4 | d4 d8 d8 d4 d4~ | d4 d8 a8 d2 |
 
   \sect "Verse 3"
 
   g,4 g2. | b4 b2. | c4 c2. | g4 g2 d'4 | g,4 g2. | b4 b2. | c4 c2. | d4 d2 b4 |
-  \break
+  \xBreak
   e4 e2. | b4 b2. | c2 c8 b8 a4 | g2 fs2 |
-  \break
+  \xBreak
   e4 e2 g4 | b4 b2. | c2. d8 e8 | g2 fs4 d4 |
   e4 e2. | b4 b2. | c4 e,4( a4) g4~ | g4 d'2 d4 |
 
@@ -121,13 +121,13 @@ refrainMelody = \relative f' {
 
   g,4 g2~ g8 \xNote { g8 } | b4 b2. | c4 c2. | g4 g2. |
   g4 g2. | b4 b2. | c4 c2~ c8 e,8 | g8 e8 g4 b8 c8 d4 |
-  \break
+  \xBreak
   g4 g2. | b,4 b2. | c8 g8 c2~ c8 d8 | g4 g4 g4 d4 |
   g,4 g2~ g8 g8 | b4 b2~ b8 g8 | c8 g8 e4. e8 a8 e8 | g8 g8 g8 g8 d'8 e8 d4 |
-  \break
+  \xBreak
   g,4^"begin slow fade out" g2. | b4 b2. | c4 c2~ c8 e,8 | g4 b4 d4 e4 |
   g,4 g2. | b4 b2. | c2 d4 e8 fs8 | g2 d8 e8 g8 e8 |
-  \break
+  \xBreak
   g4 g2 d4 | b4 b2. | c8 g8 c2~ c8 e,8 | g8 a8 g2. |
 
   \bar "|."

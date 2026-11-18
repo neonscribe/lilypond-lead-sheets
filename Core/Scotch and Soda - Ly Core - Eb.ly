@@ -70,28 +70,28 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   r8 g8 f8 g8~ g8 f4. | r4 \tuplet 3/2 { cf8 ef8 f8 } g2 |
   r4 \tuplet 3/2 { ef8 f8 g8 } bf8 c4. | d4 c8 bf8~ bf8 c4. |
-  \break
+  \xBreak
   c,1 | r8 bf'8 g8( bf8~ bf8) g4. |
   \alternative { \volta 1 {
   f1~ | f2. r4 |
   } \volta 2 {
   f1~ | f2. r4 |
   } } }
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "B" }
 
   r8 ef8 f8 af8~ af4 bf4 | c4. ef,8~ ef4. af8 | bf4. c8 af4 bf8 g8~ | g8 bf4.~ bf4 r8 g8 |
-  \break
+  \xBreak
   g8 g4 f8~ f4. c8 | g'8 g4 f8~ f4. f8 | c'4 bf4 af4 g4 | f4. bf8~ bf4 r4 |
 
   \sect "C"
 
   r8 g8 f8 g8~ g8 f4. | r4 \tuplet 3/2 { cf8 ef8 f8 } g2 |
   r8 ef4 f8 g8 bf4 d8~ | d4 c8 bf8~ bf8 c4. |
-  \break
+  \xBreak
   c,1 | r8 bf'8 g8( bf8~ bf8) g4. | bf8 bf8 \tuplet 3/2 { bf8 bf8 bf8~ } bf8 g4. | d'8( c4.~ c2) |
-  \break
+  \xBreak
   r8 ef4 c8 ef8 c4. | bf8 c4. gf4 ef8 ef8~ | ef1 | r1 |
 
   \bar "|."

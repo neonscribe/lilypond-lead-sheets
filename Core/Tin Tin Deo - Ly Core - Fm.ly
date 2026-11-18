@@ -50,7 +50,7 @@ refrainMelody = \relative f' {
 
   \tuplet 3/2 { c4 c4 bf4 } \tuplet 3/2 { c4 c4 bf4 } | c2 r8 bf8 c8 bf8 |
   \tuplet 3/2 { f4 f4 af4 } f2~ | f2 \tuplet 3/2 { r4 f4 af4 } |
-  %% \break
+  %% \xBreak
   \tuplet 3/2 { c4 c4 bf4 } \tuplet 3/2 { c4 c4 bf4 } | c2 bf8 c4 bf8 |
   \tuplet 3/2 { f4 f4 af4 } f2~ | f2 \tuplet 3/2 { f4 af4 f4 } |
 
@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
 
   ef8 ef4.~ ef2 | r2 \tuplet 3/2 { ef4 c4 ef4 } |
   f8 f4.~ f2 | r2 \tuplet 3/2 { f4 af4 f4 } |
-  %% \break
+  %% \xBreak
   ef8 ef4.~ ef2 | r2 \tuplet 3/2 { ef4 c4 ef4 } |
   \alternative { \volta 1 {
   f8 f4.~ f2 | r2 \tuplet 3/2 { r4 f4 af4 } |
@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   \tempo "Swing"
 
   c'4. bf8 r8 ef4 df8 | c16 df16 c16 bf16 c4 r8 bf8 af8 g8~ | g8 bf8 af8 g8~ g8 f8 g4 | r2 r4 f4 |
-  %% \break
+  %% \xBreak
   c'4. bf8 r8 ef4 df8 | c16 df16 c16 bf16 c4 \tuplet 3/2 { r4 bf4 af4 } |
   \tuplet 3/2 { g4 ef4 f4 } \tuplet 3/2 { g4 ef4 f4 } | g4 r4 \tuplet 3/2 { f4 c4 f4 } |
 
@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
 
   ef8 ef4.~ ef2 | r2 \tuplet 3/2 { ef4 c4 ef4 } |
   f8 f4.~ f2 | r2 \tuplet 3/2 { f4 af4 f4 } |
-  %% \break
+  %% \xBreak
   ef8 ef4.~ ef2 | r2 \tuplet 3/2 { ef4 c4 ef4 } |
   f8 f4.~ f2~ | f2. r4 |
 

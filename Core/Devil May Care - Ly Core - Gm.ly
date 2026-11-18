@@ -61,23 +61,23 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   d2 d'4 d,4 | e2 \tuplet 3/2 { fs4 g4 a4 } | d,4. d'8~ d4 d,4 | e2 \tuplet 3/2 { fs4 g4 a4 } |
-  \break
+  \xBreak
   \tuplet 3/2 { bf4 bf4 bf4 } bf2~ | bf2 c8 bf8 g8 a8~ | a1~ | a2 r2 |
 
   \sect "A2"
 
   d,4. d'8~ d4 d,4 | e2 \tuplet 3/2 { fs4 g4 a4 } | d,2 d'8 d,4 e8~ | e4 fs4 g4 a4 |
-  \break
+  \xBreak
   \tuplet 3/2 { d4 d4 d4 } d2~ | d2 \tuplet 3/2 { c4 bf4 d,4 } | g1~ | g2 r8 g4 f8 |
 
   \sect "B"
 
   g4 g4 g2~ | g2 \tuplet 3/2 { g4 a4 bf4 } | g4 g4 g2 | r8 g4. a4 bf4 |
-  \break
+  \xBreak
   g4 g4 g2 | r4 r8 a8~ \tuplet 3/2 { a4 bf4 c4 } | d1~ | d2 r8 d4. |
-  \break
+  \xBreak
   ef8 ef8 ef8 ef8~ ef2~ | ef4. f8~ f4 ef8 df8 | \tuplet 3/2 { c4 c4 c4 } c2~ | c2 \tuplet 3/2 { g4 af4 bf4 } |
-  \break
+  \xBreak
   \tuplet 3/2 { c4 c4 c4 } \tuplet 3/2 { c4 c4 c4 } | c4 ef4 d4 c4 | b1 | r1 |
 
   \bar "||"
@@ -85,9 +85,9 @@ refrainMelody = \relative f' {
   \sectNoBar "A3"
 
   d,4 r8 d'8~ d4 d,8 e8~ e2 \tuplet 3/2 { fs4 g4. a8 } | d,4 d'2 d,4 | e2 \tuplet 3/2 { fs4 g4 a4 } |
-  \break
+  \xBreak
   \tuplet 3/2 { bf4 bf4 bf4 } bf2~ | bf4 g4 a4 bf4 | \tuplet 3/2 { c4 c4 c4 } c2~ | c4 a4 bf4 c4 |
-  \break
+  \xBreak
   \tuplet 3/2 { d4 d4 d4 } d2~ | d2 \tuplet 3/2 { c4 bf4 d,4 } | g1~ | g2 r2 |
 
   \bar "|."

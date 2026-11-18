@@ -78,7 +78,7 @@ refrainMelody = \relative f' {
       >>
 
    g,,4 r4 d4 r4 | c4 r4 e4 fs4 | g4 r4 d4 r4 | g4 c,4 d4 fs4 |
-  \break
+  \xBreak
   g4 r4 d4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 | g4 r4 c,4 r4 |
 
   g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 | g4 d4 e4 fs4 |
@@ -108,14 +108,14 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
 
   c4 r4 g'4 r4 | c,4 r4 g'4 r4 | g4 r4 d4 r4 | g4 d4 e4 fs4 |
-  \break
+  \xBreak
   g4 r8 g8( d4) r4 | g4 r8 g8( d4) r4 | d4 r8 d8( a4) r4 |
 
   \alternative {
     \volta 1 {
       d4 d4 e4 fs4 |
 
-      \break
+      \xBreak
       g4 r4 d4 r4 | c4 r4 e4 fs4 | g4 r4 d4 r4 | g4 r4 c,4 r4 |
 
       g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4
@@ -124,7 +124,7 @@ refrainMelody = \relative f' {
       \alwaysPageBreak "Solo" "||" "||-||"
 
       g4 r4 d4 r4 | c4 r4 e4 fs4 | g4 r4 d4 r4 | g4 d4 e4 fs4 |
-      \break
+      \xBreak
       g4 r4 d4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 | g4 g,4 a4 b4 |
     }
     \volta 2 {
@@ -133,10 +133,10 @@ refrainMelody = \relative f' {
   } }
 
   \bar "||-||"
-  \break
+  \xBreak
 
   g'4 r4 d4 r4 | c4 r4 c4 r4 | g'4 r4 d4 r4 | g4 r4 c,4 c4 |
-  \break
+  \xBreak
   g'4 r4 g4 r4 | d4 r4 e4 fs4 | g4 r4 d4 r4 | g4 d4 g2 |
 
   \bar "|."

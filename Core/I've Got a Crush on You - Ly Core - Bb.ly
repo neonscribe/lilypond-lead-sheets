@@ -72,14 +72,14 @@ verseMelody = \relative f' {
   \sectNoBreak "Verse"
   
   bf8 c8 d8 c8 ef8 d4 c8 | bf8 a8 c8 bf8 a8 g4 f8 | d2~ d8 g8 f8 ef8 | f2. r8 f8 |
-  \break
+  \xBreak
   bf8 c8 d8 c8 ef8 d8 r8 c8 | bf8 a8 c8 bf8 a8 g8 r8 f8 | fs2~ fs8 b8 a8 g8 | a1 |
 
-  \break
+  \xBreak
   \bar "||-||"
 
   c4 d4 bf8 bf8 bf8 bf8 | bf8 bf8 c8 c8 d2 | c4 d4 bf8 bf8 bf8 bf8 | bf8 bf8 a8 a8 f4. f8 |
-  \break
+  \xBreak
   bf8 c8 d8 c8 ef8 d4 c8 | bf8 a8 c8 bf8 a8 g4 f8 | e2~ e8 d'8 c8 bf8 |
   \partial 8*5 c2~ c8\fermata |
 
@@ -162,13 +162,13 @@ refrainMelody = \relative f' {
   \sectStartRefrainNoBreak "A1"
   
   a4 c8 a8~ a2 | g8 bf4 d8~ d2 | a8 a8 c8 c8 a8 a4. | g8 bf4 d8~ d4. c8 |
-  \break
+  \xBreak
   f4 d8 c8~ c8 bf8 d4 | a4 g4~ g8 c8 d8 c8 | a4. g8~ g8 c8 d8 c8 | d4 c2 r4 |
   
   \sect "A2"
 
   a4 c8 a8~ a2 | g8 bf4 d8~ d2 | a8 a8 c8 c8 a8 a4. | g8 bf4 ef8~ ef4. d8 |
-  \break
+  \xBreak
   f4 d8 c8~ c8 bf8 d4 \textToCodaLastTimeOptional | a4 r4 d,8 f8 g8 bf8 | d4 cs8 d8~ d8 cs8 d4 | bf2
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

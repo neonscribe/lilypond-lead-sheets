@@ -60,25 +60,25 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
 
   r8 ef8 f8 g8 f8 ef8 c8 ef8 | g4 g4 g8 f4. | r8 ef8 f8 g8 f8 ef8 c8 ef8 | c'4 c4 c8 bf4. |
-  \break
+  \xBreak
   r8 bf8 c8 bf8 ef4 ef8 ef8~ | ef2 \tuplet 3/2 { g,4 af4 bf4 } | c4. c,8 \tuplet 3/2 { c4 ef4 g4 } | f1 |
 
   \sect "A2"
 
   r8 ef8 f8 g8 f8 ef8 c8 ef8 | g4 g4 g8 f4. | r8 ef8 f8 g8 f8 ef8 c8 ef8 | c'4 c4 c8 bf4. |
-  \break
+  \xBreak
   r8 bf8 c8 bf8 ef4 ef8 ef8~ | ef2 \tuplet 3/2 { g,4 af4 bf4 } | c4. c,8 \tuplet 3/2 { c4 ef4 g4 } | ef1 |
 
   \lyricsPageBreak "B" "||" "||-||"
 
   r4 bf'4 g2 | r4 c4 a2 | r4 bf4 c4 d4 | d1 |
-  \break
+  \xBreak
   r4 d4 c4 bf4 | c8 d8 c2 f,4 | bf4 bf4 bf4 a4 | af8 bf8 af2. |
 
   \sect "A3"
 
   r8 ef8 f8 g8 f8 ef8 c8 ef8 | g4 g4 g8 f4. | r8 ef8 f8 g8 f8 ef8 c8 ef8 | c'4 c4 c8 bf4. |
-  \break
+  \xBreak
   r8 bf8 c8 bf8 ef8 ef8 ef8 ef8~ | ef2 \tuplet 3/2 { g,4 af4 bf4 } | c4. c,8 \tuplet 3/2 { c4 ef4 g4 } | ef1 |
 
   \bar "|."

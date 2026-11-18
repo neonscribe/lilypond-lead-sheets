@@ -48,9 +48,9 @@ refrainMelody = \relative f' {
   r4 c'4-^^"w/ drum rim shots" r8 c4-> r8 | c4.-> c8~-> c8 c4-^ r8 |
   r8 c4-^ r8 r8 c4.-> | c4-> df4-> af4-> bf4-> |
   c1_"Swing" |
-  \break
+  \xBreak
   r1 | r1 | r2 r4 r8 f,8 | cf'4\repeatTie->( bf2) r8 f8 |
-  \break
+  \xBreak
   \tuplet 3/2 { af4-> bf4( af4) } \tuplet 3/2 { f4( ef4 c4) } | \tuplet 3/2 { e4\repeatTie( f2~) } f2 |
   \alternative { \volta 1 {
   r1 |
@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
   r4 c,4-^^"w/ drum rim shots" r8 c4-> r8 | c4.-> c8~-> c8 c4-^ r8 |
   r8 c4-^ r8 r8 c4.-> | c4-> df4-> af4-> bf4-> |
   c1_"Swing" |
-  \break
+  \xBreak
   r1 | r1 | r2 r4 r8 f,8 | cf'4\repeatTie->( bf2) r8 f8 |
   \tuplet 3/2 { af4-> bf4( af4) } \tuplet 3/2 { f4( ef4 c4) } | \tuplet 3/2 { e4\repeatTie( f2~) } f2 | r1 |
 

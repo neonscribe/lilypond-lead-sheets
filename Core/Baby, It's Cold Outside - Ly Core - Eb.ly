@@ -124,7 +124,7 @@ refrainMelody = \relative f' {
   \textCodaBreak
 
   bf'2\repeatTie g8 af8 bf8 a8~ | <a c>1~ | <a c>1 | <af cf>1~ | <af cf>1 | <g bf>1 |
-  \break
+  \xBreak
   ef4-. ef8 a8~ \tuplet 3/2 { a8 af8 gf8 } ef8 ef8 |
   \tuplet 3/2 { r4 bf'4 a4 } \tuplet 3/2 { af4 g4 df4 } | f1\fermata |
 

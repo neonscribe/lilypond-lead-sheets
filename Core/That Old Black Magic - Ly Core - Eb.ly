@@ -81,56 +81,56 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   g'4. g8~ g4 g4~ | g4 g4 g4 bf,4 | g'4. g8~ g4 g4~ | g2. bf,4 |
-  %% \break
+  %% \xBreak
   g'4. g8~ g4 g4~ | g4 af4 bf4 bf,4 | f'4. f8~ f4 f4~ | f2. bf,4 |
 
   \sect "B"
 
   f'4. f8~ f4 f4~ | f4 f4 f4 bf,4 | f'4. f8~ f4 f4~ | f2. bf4 |
-  %% \break
+  %% \xBreak
   c4. c8~ c4 c4~ | c4 bf4 c4 bf4 | c4. c8~ c4 c4~ | c2. bf,4 |
 
   \sect "A2"
 
   g'4. g8~ g4 g4~ | g4 af4 bf4 df4 | g,4. g8~ g4 g4~ | g2. bf,4 |
-  %% \break
+  %% \xBreak
   g'4. g8~ g4 g4~ | g4 af4 bf4 ef4 | f,4. f8~ f4 f4~ | f2. ef4 |
 
   \sect "C"
 
   bf'4. bf8~ bf4 bf4~ | bf4 af4 f2 | f4. f8~ f4 f4~ | f4 ef4 c2 |
-  %% \break
+  %% \xBreak
   ef4. ef8~ ef4 ef4~ | ef4 ef4 \tuplet 3/2 { ef4 ef4 ef4 } | ef1~ | ef2 g4 bf4 |
 
   \alwaysPageBreak "D" "||" "||-||"
 
   ef2 ef4 ef,4~ | ef4 ef4 \tuplet 3/2 { ef4 g4 bf4 } | d1~ | d4. c8 d4. c8 |
-  %% \break
+  %% \xBreak
   d1~ | d4. g,8 a4. g8 | a1~ | a2 c,2 |
 
   \sect "E"
 
   c'2 c4 c,4~ | c4 c4 \tuplet 3/2 { c4 f4 af4 } | cf1~ | cf4 f,4 \tuplet 3/2 { f4 f4 f4 } |
-  %% \break
+  %% \xBreak
   af1~ | af4 cf,4 \tuplet 3/2 { cf4 cf4 cf4 } | g'1~ | g2 bf,2 |
 
   \sect "A3"
 
   g'4. g8~ g4 g4~ | g4 g4 g4 bf,4 | g'4. g8~ g4 g4~ | g2. bf4 |
-  %% \break
+  %% \xBreak
   df4. df8~ df4 df4~ | df4 df4 df4 bf4 | df4. df8~ df4 df4~ | df2. c4 |
 
   \sect "F"
 
   ef4. ef8~ ef4 ef4~ | ef4 ef4 ef4 ef,4 | f1~ | f2 g4 af4 |
-  %% \break
+  %% \xBreak
   bf4. bf8~ bf4 bf4~ | bf4 af4 f2 | f4. f8~ f4 f4~ | f4 ef4 c2 |
 
   \sect "G"
 
   ef4. ef8~ ef4 ef4~ | ef2 \tuplet 3/2 { ef4 ef4 ef4 } |
   ef4. ef8~ ef4 ef4~ | ef2 \tuplet 3/2 { ef4 ef4 ef4 } |
-  %% \break
+  %% \xBreak
   ef4. ef8~ ef4 ef4~ | ef4 ef4 ef2 | ef1~ | ef2 r2 |
 
   \bar "|."

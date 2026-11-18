@@ -122,7 +122,7 @@ refrainMelody = \relative f' {
 
   fs4. d4. b4~ | b8 d4. e4 g4 |
   a4. g4. d4~ | d8 bf4. a4 bf4 |
-  \break
+  \xBreak
   fs'4. d4. b4~ | b8 d4. e4 g4 |
   f4. d4. bf4~ | bf8 a4. bf4 c4 |
 
@@ -152,7 +152,7 @@ refrainMelody = \relative f' {
 
   fs4. d4. b4~ | b8 d4. e4 g4 |
   f4. d4. bf4~ | bf8 a4. bf4 c4 |
-  \break
+  \xBreak
   fs4. d4. b4~ | b8 d4. e4 g4 |
   a4. g4. d4~ | d8 bf4. a4 bf4 |
   fs'8 fs8 fs8 fs8~ fs8 fs8 fs8 fs8( | fs8) fs8 fs8 fs8~ fs8 fs8 fs8 d8~ | d1~

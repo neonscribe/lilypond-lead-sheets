@@ -76,25 +76,25 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   a1~ | a2. g4 | a1~ | a2. g4 |
-  \break
+  \xBreak
   a4 a4 a4 g4 | a4 b4 c4 d4 | d1~ | d4 c4 d4 c4 |
 
   \sect "B"
 
   b4 b4 b4 b4 | b4 c4 \tuplet 3/2 { b4 a4 g4 } | a4 a4 a2~ | a4 c4 \tuplet 3/2 { b4 a4 g4 } |
-  \break
+  \xBreak
   a4 a4 a2~ | a4 c4 \tuplet 3/2 { b4 a4 g4 } | e1~ | e2 r4 g4 |
 
   \sect "A2"
 
   a1~ | a2. g4 | a1~ | a2. g4 |
-  \break
+  \xBreak
   a4 a4 a4 g4 | a4 b4 c4 d4 | d1~ | d4 c4 b4 c4 |
 
   \sect "C"
 
   d4 d,8 d8 d8 d8 d8 d8 | f4 f2. | d'4 d,8 d8 d8 d8 d8 d8 | f1 |
-  \break
+  \xBreak
   d'4 d,8 d8 d8 d8 d8 d8 | b'4 b4 bf4 bf4 | a1~ | a2 r4 g4 |
 
   \bar "||"
@@ -102,19 +102,19 @@ refrainMelody = \relative f' {
   \sectNoBar "A3"
 
   a1~ | a2. g4 | a1~ | a2. g4 |
-  \break
+  \xBreak
   a4 a4 a4 g4 | a4 b4 c4 d4 | e1~ | e2 f4 e4 |
 
   \sect "D1"
 
   d4 d4 d2~ | \tuplet 3/2 { d4 c4 d4 } \tuplet 3/2 { ef4 d4 c4 } | b1~ | b4 a4 b4 a4 |
-  \break
+  \xBreak
   b1~ | b4 a4 b4 a4 | b1~ | b2 f'4 e4 |
 
   \sect "D2"
 
   d4 d4 d2~ | \tuplet 3/2 { d4 c4 d4 } \tuplet 3/2 { ef4 d4 c4 } | a1~ | a4 g4 e4 f4 |
-  \break
+  \xBreak
   g2. a4 | c2. e4 | c1 | r1 |
 
   \bar "|."

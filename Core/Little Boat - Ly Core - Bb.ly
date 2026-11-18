@@ -38,13 +38,13 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   a8 bf4 a8 c4 a8 bf8~ | bf8 a8 c4 b4 bf4 | a8 a8 a8 a8 a4 ef8 e8 | a8 a8 a8 a8 a2 |
-  \break
+  \xBreak
   g8 af4 g8 bf4 g8 af8~ | af8 g8 bf4 a4 af4 | g8 g8 g8 g8 g4 df8 d8 | g8 g8 g8 g8 g2 |
-  \break
+  \xBreak
   f8 gf4 f8 af4 f8 gf8~ | gf8 f8 af4 g4 gf4 | f8 f8 f8 f8 f4 cf8 c8 | f2 r8 c'4 bf8 |
-  \break
+  \xBreak
   f2. g4 af2~ af8 ef'4 d8 | ef,2. f4 | gf2. r4 |
-  \break
+  \xBreak
   }
 
   \xTextMark \markup { \bold \box "Outro" }

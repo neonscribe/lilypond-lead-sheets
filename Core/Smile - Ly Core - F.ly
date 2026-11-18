@@ -91,11 +91,11 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   f2 g4 a4 | g4 f4 e4 d4 | e2 f4 g4 | f4 e4 d4 c4 |
-  \break
+  \xBreak
   d2 e4 f4 | d2 e4 f4 | g2 a4 bf4 | fs2 g4 a4 |
-  \break
+  \xBreak
   bf2 c4 d4 | c4 bf4 a4 g4 | bf2 c4 df4 | c4 bf4 a4 g4 |
-  \break
+  \xBreak
   a2 bf4 a4 | bf4 a4 g4 f4 | g2. d4 \textToCodaLastTime | a'2. r4 |
   }
   \bar "||-:|."

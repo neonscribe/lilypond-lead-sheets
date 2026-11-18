@@ -56,11 +56,11 @@ refrainMelody = \relative f' {
   \sectNoBreak "Verse"
   
   g8 bf4 g8 bf4 c4 | d4 d2 d,8 d8 | g8 bf4 g8 bf4 c4 | a2. f8 f8 |
-  \break
+  \xBreak
   bf4 bf4 c4 f,8 f8 | d'8 d4 d8~ d4. c8 | bf8 g4 f8~ f8 ef4 d8~ | d2. d8 d8 |
-  \break
+  \xBreak
   g8 bf4 g8 bf4 c4 | d4 d2 d,8 d8 | g8 bf8 g8 bf8~ bf4 c4 | a2. f8 f8 |
-  \break
+  \xBreak
   bf4 bf4 c4 f,8 f8 | d'8 d4 d8~ d4. c8 | bf8 g4 f8~ f8 g4. | bf2 r4 d,8 d8 |
 
   \lyricsPageBreak "Refrain" ".|:-||" ".|:-||"
@@ -68,11 +68,11 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
 
   g8. a16 bf8 d8 e,8. f16 g8 a8 | d,8 d4.~ d8 ef8 f8 g8 | d2 f2 | d2. d8 d8 |
-  \break
+  \xBreak
   g8 a8 bf8 d8 e,8 f8 g8 a8 | d,8 d4.~ d8 ef8 f8 g8 | d2 f8 f4. | bf2~ bf8 d8 c8 bf8 |
-  \break
+  \xBreak
   a8 d,8 e8 fs8 g4 bf4 | a2~ a8 c8 bf8 a8 | g8 d8 e8 g8 ef4 bf'4 | a2~ a8 d,8 e8 fs8 |
-  \break
+  \xBreak
   g8 a8 bf8 d8 e,8 f8 g8 a8 | d,8 d4.~ d8 ef8 f8 g8 | d2 f2 | bf2 r4
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize d,8

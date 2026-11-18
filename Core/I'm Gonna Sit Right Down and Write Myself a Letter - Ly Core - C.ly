@@ -62,25 +62,25 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   g4 a4 e4 g4 | a4 e4 g4 a4 | b2 b2~ | b2. d4 |
-  \break
+  \xBreak
   d4 c4 c4 b4 | b2. gs4 | a1~ | a2 r8 b8 c8 b8 |
 
   \sect "B"
 
   c4 a4 a4 f4 | f2 r8 b8 c8 b8 | c4 a4 a4 e4 | e2 r8 ds8 e8 fs8 |
-  \break
+  \xBreak
   g4 a4 e4 fs4 | g4 a2. | b4 c4 a4 b4 | c4 d4~ d8 fs,8 g8 fs8 |
 
   \sect "A2"
 
   g4 a4 e4 g4 | a4 e4 g4 a4 | b2 b2~ | b2. d4 |
-  \break
+  \xBreak
   d4 c4 c4 b4 | b2. gs4 | a1~ | a2 r8 gs8 a8 b8 |
 
   \sect "C"
 
   c4 d4 a4 c4 | d4 c4 ef4 d4 | c2 g2~ | g2. e'4 |
-  \break
+  \xBreak
   e4 c4 c4 a4 | a2. g4 | c1~ | c2 r8
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize fs,8

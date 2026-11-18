@@ -40,11 +40,11 @@ refrainMelody = \relative f' {
   bf8 c8 df8 d8 r8 f,8 bf8 c8 | df8 d8 ef8 df8 r4 r8 f,8 |
   bf8 c8 df8 d8 r8 f,8 bf8 c8 | df8 d8 r8 f,8 bf8 c8 df4 |
   \bar "||-||"
-  \break
+  \xBreak
   r8 f,8 bf8 c8 df8 d8 ef8 df8 | r1 |
   r8 f,8 bf8 c8 df8 d8 r8 f,8 | bf8 c8 df8 d8 r8 f,8 bf8 c8 \textToCodaLastTime |
   \bar "||-||"
-  \break
+  \xBreak
   df8 d8 ef8 f,8 fs8 g8 gs8 a8~ | a8 bf8 b8 c8 cs8 d8 ef8 f,8 |
   bf8 c8 df8 d8 r2 | r1 |
   \bar "||-|."

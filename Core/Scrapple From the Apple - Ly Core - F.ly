@@ -39,7 +39,7 @@ refrainMelody = \relative f' {
 
   r8 fs8 g8 bf8 a8 g8 f8 d8 | g8 c8 r4 r8 bf4 a8 |
   bf8 f'8 \tuplet 3/2 { d8 bf8 g8 } a8 d,8 g8 df8 | r4 r8 a'8~ a8 bf4 a8 |
-  \break
+  \xBreak
   c8 a8 \tuplet 3/2 { g8 f8 g8~ } g4 r8 f'8 | d4 r8 e8~ e8 d8 \tuplet 3/2 { a8 bf8 b8 } |
   c4. a8 bf8 a8 gs8 a8 | c8 a8 bf8 c8 r2 |
 
@@ -47,21 +47,21 @@ refrainMelody = \relative f' {
 
   r8 fs,8 g8 bf8 a8 g8 f8 d8 | g8 c8 r4 r8 bf4 a8 |
   bf8 f'8 \tuplet 3/2 { d8 bf8 g8 } a8 d,8 g8 df8 | r4 r8 a'8~ a8 bf4 a8 |
-  \break
+  \xBreak
   c8 a8 \tuplet 3/2 { g8 f8 g8~ } g4 r8 f'8 | d4 r8 e8~ e8 d8 \tuplet 3/2 { a8 bf8 b8 } |
   c4. a8 bf8 a8 gs8 a8 | f8 c8 e8 f8 r2 |
 
   \sect "B"
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \sect "A3"
 
   r8 fs8 g8 bf8 a8 g8 f8 d8 | g8 c8 r4 r8 bf4 a8 |
   bf8 f'8 \tuplet 3/2 { d8 bf8 g8 } a8 d,8 g8 df8 | r4 r8 a'8~ a8 bf4 a8 |
-  \break
+  \xBreak
   c8 a8 \tuplet 3/2 { g8 f8 g8~ } g4 r8 f'8 | d4 r8 e8~ e8 d8 \tuplet 3/2 { a8 bf8 b8 } |
   c4. a8 bf8 a8 gs8 a8 | f8 c8 e8 f8 r2 |
 

@@ -25,15 +25,15 @@ refrainChords = \chordmode {
   \repeat volta 2 {
 
   f1:6 f1:6 f1:6 f1:7
-  \break
+  \xBreak
   bf1:7 bf1:7 g4:7 r2. r1
 
   \sect "B"
 
   f1:6 f1:6 f1:6 f1:7
-  \break
+  \xBreak
   bf1:7 bf1:7 f1:6 f1:6
-  \break
+  \xBreak
   c1:7 c1:7 f1:6 f1:6
   }
 }

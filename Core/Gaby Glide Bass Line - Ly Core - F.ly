@@ -62,26 +62,26 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A" }
 
   f4\mf r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
-  \break
+  \xBreak
   d4 r4 a4 r4 | d4 r4 a4 r4 | d4 r4 a4 r4 | d4 r4 a4 r4 |
-  \break
+  \xBreak
   f'4 r4 d4 r4 | f4 r4 d4 r4 | f4 r4 d4 r4 | f4 r4 d4 r4 |
-  \break
+  \xBreak
   g4 r4 c,4 r4 | g'4 r4 c,4 r4 |
   c4 r4 c2 | c2 c2 |
-  \break
+  \xBreak
   f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
-  \break
+  \xBreak
   d4 r4 a4 r4 | d4 r4 a4 r4 | d4 r4 a4 r4 | d4 r4 a4 r4 |
-  \break
+  \xBreak
   e'4 r4 g4 r4 | c,4 r4 e4 r4 | ef4 r4 a4 r4 | c,4 r4 ef4 r4 |
 
   \sect "B"
 
   d4 r4 g4 r4 | d4 r4 g4 r4 | c4 a4 g4 e4 | c4 r4 c4\sfz r4 |
-  \break
+  \xBreak
   d4 r4 d4 r4 | d4 r4 d4 r4 | c4 g'4 af4 a4 | bf,4 r4 c4\sfz r4 |
-  \break
+  \xBreak
   c'4 r4 c4 r4 | c4 r4 c4 r4 | c4 a4 g4 e4 | c4 r4 c4\sfz r4 |
 
   \bar ".|:-||"
@@ -91,36 +91,36 @@ refrainMelody = \relative f' {
 
   f4\mf r4 c4\ff r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
   f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
-  \break
+  \xBreak
   bf4 r4 f'4 r4 | bf,4 r4 f'4 r4 | bf,4 r4 f'4 r4 | bf,4 r4 f'4 r4 |
-  \break
+  \xBreak
   b,4 r4 f'4 r4 | b,4 r4 f'4 r4 | b,4 r4 f'4 r4 | b,4 r4 f'4 r4 |
-  \break
+  \xBreak
   f1 | e1 | d1 | c4 r4 c4\sfz r4 | f1 | e1 | d1 | c4 r4 c4\sfz r4 |
-  \break
+  \xBreak
   d4 r4 g,4 r4 | d'4 r4 g,4 r4 | d'4 r4 g,4 r4 | d'4 r4 g,4 r4 |
-  \break
+  \xBreak
   d'4 r4 g,4 r4 | d'4 r4 g4 r4 | c4 bf4 g4 e4 | c4 r4 c4\sfz r4 |
 
   \sect "D"
 
   f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
   f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 | f4 r4 c4 r4 |
-  \break
+  \xBreak
   bf4 r4 f'4 r4 | bf,4 r4 f'4 r4 | bf,4 r4 f'4 r4 | bf,4 r4 f'4 r4 |
-  \break
+  \xBreak
   b,4 r4 f'4 r4 | b,4 r4 f'4 r4 | b,4 r4 f'4 r4 | b,4 r4 f'4 r4 |
-  \break
+  \xBreak
   f1 | e1 | d1 | c4 r4 c4\sfz r4 | f1 | e1 | d1 | c4 r4 c4\sfz r4 |
-  \break
+  \xBreak
   a'4 r4 d,4 r4 | a'4 r4 d,4 r4 | g4 r4 d4 r4 | df2 c2 |
-  \break
+  \xBreak
   }
 
   \alternative {
     {
       f2\< b,4 c4~ | c4 d4 e4 f4 | fs4 g2 a4 | bf4 a4 bf4 b4\! |
-      \break
+      \xBreak
     } {
       f2\< b,4 c4~ | c4 cs4 d4 e4 | f4 r4 c4\sfz r4 | f,4\sfz r4 r2\! |
     } }

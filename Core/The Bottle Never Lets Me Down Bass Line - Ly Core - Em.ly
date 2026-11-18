@@ -67,7 +67,7 @@ refrainMelody = \relative f' {
 
   e2 e2 | a2 a2 | e2 b'2 | e,2 b'2 |
   e,2 e2 | a2 a2 | e2 b'2 | e,2 fs4 g4 |
-  \break
+  \xBreak
   a2 e2 | a2 a4 b4 | e,2 b'2 | e,2 a4 b4 |
   c2 c2 | b2 b4 g4 | e2. b'4 | e4 d4 b4 g4 |
 
@@ -75,7 +75,7 @@ refrainMelody = \relative f' {
 
   e2 e2 | a2 a2 | e2 b'2 | e,2 b'4 g4 |
   e2 e2 | a2 a2 | e2 b'2 | e,2 fs4 g4 |
-  \break
+  \xBreak
   a2 e2 | a2 a4 b4 | e2 b4 d4 | e2 a,4 b4 |
   c2 c2 | b2 b4 g4 | e1 | e4 e4 fs4 g4 |
 
@@ -84,7 +84,7 @@ refrainMelody = \relative f' {
   a4 a4 c4 e4 | a,4 a4 c4 d4 | e4 e4 b4 d4 | e4 e4 d4 b4 |
   a4 a4 c4 e4 | a,4 a4 c4 e4 | b4 b4 fs'4 fs4 |
   \tuplet 3/2 { b,8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } \tuplet 3/2 { b8 b8 b8 } |
-  \break
+  \xBreak
   a4 a4 c4 e4 | a,4 a4 c4 d4 | e4 e4 b4 d4 | e4 e4 d4 b4 |
   c4 c4 c4 c4 | b4 b4 b4 b4 |
   \textToCoda
@@ -94,7 +94,7 @@ refrainMelody = \relative f' {
 
   e2 e4 g4 | a2 a4 b4 | e2 b2 | e,2 b'4 g4 |
   e2 e4 g4 | a4 a4 b4 d4 | e2 b4 d4 | e4 e4 d4 b4 |
-  \break
+  \xBreak
   a2 e2 | a4 a4 b4 d4 | e2 b4 d4 | e4 e4 a,4 b4 |
   c2 c4 g4 | b2 b4 fs4 | e2 b'2 | e,1 |
 
@@ -102,7 +102,7 @@ refrainMelody = \relative f' {
 
   e2 e2 | a2 a2 | e2 b'2 | e,2 b'2 |
   e,2 e2 | a2 a2 | e2 b'2 | e,2 fs4 g4 |
-  \break
+  \xBreak
   a2 e2 | a2 a4 b4 | e,2 b'2 | e,2 a4 b4 |
   c2 c2 | b2 b4 g4 | e1 |
   e4 e4 fs4 g4 \dalSegno |

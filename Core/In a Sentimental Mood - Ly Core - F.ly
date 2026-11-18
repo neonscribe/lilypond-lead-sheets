@@ -70,14 +70,14 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   g1~ | g4 f8 g8 f8 e8 d8 c8 | a4 d8 a8~ a2~ | a4 a8 c8 d8 af8 g8 f8 |
-  \break
+  \xBreak
   d2~ d8 f8 a8 c8 | e2. d4 | bf2 e,2 |
   g4 f8 g8 a8 c8 d8 f8 |
 
   \sect "A2"
 
   g1~ | g4 f8 g8 f8 e8 d8 c8 | a4 d8 a8~ a2~ | a4 a8 c8 d8 af8 g8 f8 |
-  \break
+  \xBreak
   d2~ d8 f8 a8 c8 | e2. d4 | bf2 e,2 |
   f2. r4 |
 
@@ -85,14 +85,14 @@ refrainMelody = \relative f' {
 
   c'4 bf8 c8 ef8 df8 c8 bf8 | f4 ef8 f8 gf8 af8 f8 ef8 |
   df2 \tuplet 3/2 { fs4 g4 bf4 } | \tuplet 3/2 { b4 c4 ef4 } \tuplet 3/2 { e4 f4 af4 } |
-  \break
+  \xBreak
   c,4 bf8 c8 ef8 df8 c8 bf8 | f4 ef8 f8 gf8 af8 f8 ef8 |
   c1 | r4 f8 g8 a8 c8 d8 f8 |
 
   \sect "A3"
 
   g1~ | g4 f8 g8 f8 e8 d8 c8 | a4 d8 a8~ a2~ | a4 a8 c8 d8 af8 g8 f8 |
-  \break
+  \xBreak
   d2~ d8 f8 a8 c8 | e2. d4 | bf2 e,2 | f1 |
 
   \bar "|."

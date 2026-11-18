@@ -46,7 +46,7 @@ bassIntro = \relative f' {
   }
 
   \bar ".|:-||"
-  \break
+  \xBreak
 
   \tempoFour "Medium Rock, Straight Eighths [Freddie Hubbard 1970]" 140
 

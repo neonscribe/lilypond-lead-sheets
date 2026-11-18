@@ -97,11 +97,11 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "A1"
 
   c4. c8 c2~ | c1 | d4. d8 d2~ | d1 |
-  \break
+  \xBreak
   e4. e8 e2~ | e2 \tuplet 3/2 { d4 e4 f4 } | bf1~ | bf2 a4 g4 |
-  \break
+  \xBreak
   c2. f,4 | \tuplet 3/2 { e4 g4 f4 } \tuplet 3/2 { e4 f4 d4 } | c1~ | c2 d4 f4 |
-  \break
+  \xBreak
   g1 | gs4 a2 c,4 |
 
   d4. d8 d2~ | d1 |
@@ -109,11 +109,11 @@ refrainMelody = \relative f' {
   \sect "A2"
 
   c4. c8 c2~ | c1 | d4. d8 d2~ | d1 |
-  \break
+  \xBreak
   e4. e8 e2~ | e2 \tuplet 3/2 { d4 e4 f4 } | bf1~ | bf2 a4 g4 |
-  \break
+  \xBreak
   c2. f,4 | \tuplet 3/2 { e4 g4 f4 } \tuplet 3/2 { e4 f4 d4 } | c1~ | c2 d4 f4 |
-  \break
+  \xBreak
   g1 | gs4 a2 c,4 |
 
   f4. f8 f2~ | f1 |
@@ -121,17 +121,17 @@ refrainMelody = \relative f' {
   \alwaysPageBreak "B" "||" "||-||"
 
   ef2 af4 bf4 | \tuplet 3/2 { c4 df4 c4 } \tuplet 3/2 { bf4 af4 bf4 } | c4. c8 c2~ | c1 |
-  \break
+  \xBreak
   ef,2 af4 bf4 | \tuplet 3/2 { c4 df4 c4 } \tuplet 3/2 { bf4 af4 bf4 } | c4. c8 bf4. bf8 | a4. a8 g2 |
 
   \sect "A3"
 
   c,4. c8 c2~ | c1 | d4. d8 d2~ | d1 |
-  \break
+  \xBreak
   e4. e8 e2~ | e2 \tuplet 3/2 { d4 e4 f4 } | bf1~ | bf2 a4 g4 |
-  \break
+  \xBreak
   c1 | cs4 e2 d4 | a1~ | a2 bf4 c4 |
-  \break
+  \xBreak
   cs8 d4 bf8~ bf8 g4 f8~ | f2 \tuplet 3/2 { e4 f4 g4 } | f1 | r1 |
   \bar "|."
 }

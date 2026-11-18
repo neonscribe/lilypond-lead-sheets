@@ -55,19 +55,19 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "Verse 1" }
 
   c'2 c8 bf8 a8 a8 | bf8 bf8 a4 g4. g8 | c,4 e4 g4. c8 | a1 |
-  \break
+  \xBreak
   c8 c8 c8 c8 c8 bf8 a4~ | a8 bf4 a8 f2 | c8 c8 e8 g8 bf8 a8 g4 | f2. a8 bf8 |
 
   \sect "Verse 2"
 
   c8 c8 c8 c8~ c8 bf8 a8 a8 | bf4 a4 g4. g8 | c,4. e8 g8 c4 a8~ | a2. a8 bf8 |
-  \break
+  \xBreak
   c4 c8 c8 c8( bf8) a4~ | a8 bf8 a8 g8~ g2  | c,8 c8 e8 g8 bf4 a4 | f2. r8 c8 |
 
   \xTextMark \markup{ \bold \box "Chorus" }
 
   a'8 g8 a8 g8 a8 g4 f8 | g4 bf8 d,8~ d4. d8 | c4 e4 g4. c8 | d4 c2. |
-  \break
+  \xBreak
   a8 g8 a8 g8 a4 g8 f8 | g4 bf8 d,8~ d4. d8 | c4 e4 a4. g8 | g4 f2. |
 
   \bar "|."

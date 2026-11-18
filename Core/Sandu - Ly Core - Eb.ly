@@ -51,13 +51,13 @@ refrainMelody = \relative f' {
   \repeat volta 2 {
   r4 r8 ef,8 g4 bf8 af8 | r4 r8 ef'8~ ef4 gf,8 ef8 |
   ef'4 r8 ef,8 g4 bf8 ef8 | r4 r8 df8~ df8 bf8 af8 ef8 |
-  \break
+  \xBreak
   gf16 ef16  af4.~ af4 gf4 | r8 ef'4 df8 bf8 af8 gf8 ef8 |
   af16 ef16 g4.~ g4 ef4 | r8 ef'4 df8 bf8 af8 gf8 ef8 |
-  \break
+  \xBreak
   <a fs>8 <a fs>8  <af f>8 <af f>8 <gf ef>4 <ef c>8 bf8 \textToCodaLastTime |
   df4 bf8 bf8 \tuplet 3/2 { df16 ef16 df16} bf8 d8 ef8 |
-  \break
+  \xBreak
   \alternative { \volta 1 {
   r8 <g bf,>8 <gf a,>8 <f af>8 r8 <g bf,>8 <af c,>8 <bf d,>8 |
   r4 r8 ef,8 g8 bf8 \tuplet 3/2 { c8 bf8 ef8 } |

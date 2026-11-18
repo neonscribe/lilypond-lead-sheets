@@ -74,11 +74,11 @@ refrainMelody = \relative f' {
   \sectNoBar "Verse"
 
   gs'8 g8 gs8 gs8 gs4 gs8 g8 | gs8 g8 gs8 g8 gs8( fs8) e8 e8 | gs8 e8 gs8 gs8 b8 a8 gs8 gs8 | r2 r8 b8 b8 b8 |
-  \break
+  \xBreak
   cs8 c8 cs8 cs8 cs4 cs8 cs8 | c8 cs8 cs8 cs8 b4 a8 a8 | cs8 c8 cs8 e8~ e8 b4 cs8 | a4 r4 r4 r8 e8 |
-  \break
+  \xBreak
   ds'8 ds8 ds8 ds8 ds8 ds8 ds8 ds8 | d8 ds8 d8 ds8 b4 r8 b8 | ds8 d8 ds8 b8 cs8 b8 cs8 b8 | fs'8 ds4 b8~ b4. b8 |
-  \break
+  \xBreak
   cs8 ds8 ds8 ds8 cs8 b8 cs8 b8 | fs'8 ds4 b8~ b8 b8 cs8 b8 |
   e1~ | e4 d8( cs8) b8 cs8 b8 e,8 |
   \time 2/4
@@ -94,12 +94,12 @@ refrainMelody = \relative f' {
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
-  \break
+  \xBreak
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \time 2/4
   \rsq \rsq |
-  \break
+  \xBreak
   \numericTimeSignature
   \time 4/4
   \rsq^"(guitar riff)" \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |

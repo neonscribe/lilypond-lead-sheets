@@ -80,30 +80,30 @@ refrainMelody = \relative f' {
   }
   \ambitusOn
 
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "Verse" }
 
   \bar ":|.|:"
   \repeat volta 2 {
   b'4. cs8 b8 a8 gs4. fs8 a8 gs8 | e4. d8 a'8 cs,8 b2. |
-  %% \break
+  %% \xBreak
   b'4. cs8 b8 a8 gs4. fs8 a8 gs8 | e4. d8 a'8 cs,8 b4. r4 e8 |
 
   \sect "Bridge"
 
   b'8 b8 b8 b8 a8 a8 a8 g8 g8 g8 a8. g16 | a4. r4. r4. r4 b,8 |
-  \break
+  \xBreak
   b'8 b8 b8 b8 a8 a8 a8 g8 g8 g8 a8. g16 | a2. r2. |
 
   \sect "Verse"
 
   b4. cs8 b8 a8 gs4. fs8 a8 gs8 | e4. d8 a'8 cs,8 b2. |
-  %% \break
+  %% \xBreak
   b'4. cs8 b8 a8 gs4. fs8 a8 gs8 | e4. d8 a'8 cs,8 b4. r4 e8 |
   }
 
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "Outro" }
 

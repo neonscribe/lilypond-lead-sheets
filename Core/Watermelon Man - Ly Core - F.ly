@@ -41,7 +41,7 @@ refrainMelody = \relative f' {
   \afterGrace f1\glissando { \hideNotes bf,8 \unHideNotes }
   \cadenzaOff
   r1 |
-  \break
+  \xBreak
   f''1~\< | f4\! f,8 f8 <c' af>8-- <d bf>4-> f,8~ |
   \override Glissando.style = #'zigzag
   \cadenzaOn
@@ -49,9 +49,9 @@ refrainMelody = \relative f' {
   \cadenzaOff
   \bar "|"
   r1 |
-  \break
+  \xBreak
   r4 c'8 c8 g'4 a4-. | af8 g8 f8 d8 f4 g4-. | r4 c,8 c8 g'4 a4-. | af8 g8 f8 d8 c4 d4-. |
-  \break
+  \xBreak
   r4 c8 c8 g'4 af4 | f4-^ f,8 f8 <c' af>8-- <d bf>4-> f,8~ |
   \override Glissando.style = #'zigzag
   \cadenzaOn

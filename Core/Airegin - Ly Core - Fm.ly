@@ -43,7 +43,7 @@ refrainMelody = \relative f' {
   \sectNoBar "A1,A2"
 
   r4 \tuplet 3/2 { f8 g8 f8 } c8 f8 af8 c8 | gf4 ef'2 df4 | r1 | r8 c,8 f4 g4 a4 |
-  \break
+  \xBreak
   r4 \tuplet 3/2 { bf8 c8 bf8 } f8 bf8 df8 f8 | b,4 af'2 gf4 | r1 | r8 f,8 bf4 c4 df4 |
 
   \alternative { \volta 1 {
@@ -51,9 +51,9 @@ refrainMelody = \relative f' {
   \sect "B"
 
   r4 f2. | g4 g2 f4 | e1 | fs4 fs2 e4 |
-  \break
+  \xBreak
   ds1 | f4 f2 ef4 | d1~ | d2. r4 |
-  \break
+  \xBreak
   df1 | ef4 ef2 df4 | c1~ | c2. r4 |
 
   \bar "||-:|."
@@ -63,7 +63,7 @@ refrainMelody = \relative f' {
   \sectNoBar "C"
 
   r4 f2. | g4 g2 f8 ef8 | r4 r8 c8~ c8 gf'4 ef8 | f4 f4 bf,4 b4 |
-  \break
+  \xBreak
   c4 r8 af8 r8 f8 bf4 | r8  af8 r8 f8 e4. d8 | ef4 af4 r2 | r1 |
   } } }
   \bar ":|."

@@ -68,42 +68,42 @@ refrainMelody = \relative f' {
   \sectNoBreak "A1"
 
   a2 r4 a4~ | a4 gs4 a2 | a1~ | a2 r2 |
-  \break
+  \xBreak
   a2 r4 a4~ | a4 gs4 a2 | a2 a4 g4~ | g1 |
-  \break
+  \xBreak
   g4 e4 f2 | c'2. f,4 | f4 d4 f2 | e1 |
-  \break
+  \xBreak
   d2 r4 d4~ | d4 cs4 d2 | c1~ | c2 bf'4 a4 |
 
   \sect "A2"
 
   a2 r4 a4~ | a4 gs4 a2 | a1~ | a2 r2 |
-  \break
+  \xBreak
   a2 r4 a4~ | a4 gs4 a2 | a4 gs4 a2 | g2. e4 |
-  \break
+  \xBreak
   \tuplet 3/2 { g2 e2 f2 } | d'2. c4 |
   \tuplet 3/2 { f,2 d2 f2 } | e1 |
-  \break
+  \xBreak
   d2 r4 d4~ | d4 cs4 d2 | c1 | r4 c2 bf4 |
 
   \alwaysPageBreak "B" "||" "||-||"
 
   g'2 g4 g4~ | g4 fs2 g4 | c2 c4 c4~ | c4 cf2 bf4 |
-  \break
+  \xBreak
   c,2 d4 ef4~ | ef4 f2 fs4 | g1~ | g2 g4 gs4 |
-  \break
+  \xBreak
   a2 a4 a4~ | a4 gs2 a4 | e'2 e4 e4~ | e4 ef2 d4 |
-  \break
+  \xBreak
   d2 r4 d4~ | d4 c4 a2 | c1~ | c2 bf4 a4 |
 
   \sect "A3"
 
   a2 r4 a4~ | a4 gs4 a2 | a1~ | a2 r2 |
-  \break
+  \xBreak
   a2 r4 f'4~ | f4 d2 c4 | a4 gs4 a4 g4~ | g2 fs4 g4 |
-  \break
+  \xBreak
   e'2 r4 d4~ | d4 d,4 cs4 d4 | c'2 r4 bf4~ | bf4 g4 a2 |
-  \break
+  \xBreak
   f1~ | f1 | r1 | r2
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

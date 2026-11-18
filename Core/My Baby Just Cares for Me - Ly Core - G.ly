@@ -34,7 +34,7 @@ My ba -- by don't care who knows it, my ba -- by just cares for me. __
 
 refrainChords = \chordmode {
   g2:6 d2:7.5+ g2:maj7 d2:7.5+ g2:6 d2:7.5+ g2:maj7 d2:7.5+
-  \break
+  \xBreak
   g2:6 c2:9.11+ b2:m7 bf2:dim7 a2:m7 e2:7.5+ a2:m7 a2:m7/g
 
   fs1:m7.5- b1:7 e1:m7 e1:7
@@ -63,25 +63,25 @@ refrainMelody = \relative f' {
   \xTextMark \markup{ \bold \box "A1" }
 
   r4 g4 fs8 fs8 e4 | fs4 g4 fs4 r4 | r4 g4 fs8 fs8 e4 | fs4 g4 fs4 r4 |
-  \break
+  \xBreak
   r4 g4 fs8 fs8 g4 | fs2 e2 c'1~ | c1 |
 
   \sect "B"
 
   r4 c4 c8 b8 c4 | b2 fs2 | a4. g8~ g2 | a4. g8~ g2 |
-  \break
+  \xBreak
   r4 a4 a8 gs8 a4 | ds,2 e2 | b'4. d8~ d2 | b4. a8~ a2 |
 
   \sect "A2"
 
   r4 g4 fs8 fs8 e4 | fs4 g4 fs4 r4 | r4 g4 fs8 fs8 e4 | fs4 g4 fs4 r4 |
-  \break
+  \xBreak
   r4 f4 f8 f8 e4 | ds2 e2 | c'1~ | c1 |
 
   \sect "C"
 
   r4 e4 e8 ds8 e4 | fs2 cs2 | d1 | e1 |
-  \break
+  \xBreak
   r4 c4 c8 e8 e,4 | b'2 b2 | g1~ | g2 r2 |
 
   \bar "|."

@@ -67,11 +67,11 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   e4 b'4 b4 | fs4 e4 e4 | b4 e4 e4 | fs4 e2 |
-  \break
+  \xBreak
   e4 b'4 b4 | fs4 e4 e4 | b4 e4 e4 | fs4 e2 |
-  \break
+  \xBreak
   e4 b'4 a4 | e4 fs4 d4 | d4 a'4 g4 | c,2. |
-  \break
+  \xBreak
   b4 c4 d4 | e4  fs4 g4 | a4 b4 a4 | ds,2. |
   }
   \bar "||-:|."
@@ -79,27 +79,27 @@ refrainMelody = \relative f' {
   \sectNoBar "Major A"
 
   e4 b'4 b4 | fs4 e4 e4 | b4 e4 e4 | fs4 e2 |
-  \break
+  \xBreak
   e4 b'4 b4 | fs4 e4 e4 | b4 e4 e4 | fs4 e2 |
-  \break
+  \xBreak
   e4 b'4 a4 | e4 fs4 d4 | d4 a'4 g4 | c,2. |
-  \break
+  \xBreak
   b4 c4 d4 | e4 fs4 g4 | a4 as4 b4 | c2. |
 
   \alwaysPageBreak "Minor B" "||" "||-||"
 
   r4 b4 b4 | b2 e,4 | r4 a4 a4 | a2 ds,4 |
-  \break
+  \xBreak
   r4 g4 g4 | g2 b,4 | e2.~ | e2 e4 |
 
   \sect "Major C"
 
   e4 fs4 e4 | e4 d4 e4 | g4 a4 g4 | a2 g4 |
-  \break
+  \xBreak
   b4 c4 b4 | c2.~ | c2. | b2. |
-  \break
+  \xBreak
   g2.~ | g2.~ | g2.~ | g2. |
-  \break
+  \xBreak
   R2.*1 | R2.*1 | R2.*1 | R2.*1_"D.C. for solos" \textToCodaLastTime |
 
   \bar "|."

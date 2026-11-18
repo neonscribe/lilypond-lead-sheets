@@ -104,11 +104,11 @@ refrainMelody = \relative f' {
   \bar ".|:-||"
   \repeat volta 2 {
   cs4 cs4 cs4 | cs4 b4 a4 | cs4 b4 a4 | cs8 b8 r4 a4 |
-  \break
+  \xBreak
   cs4 b8 a4. | cs2 cs4 | e4 d8 cs4. | a2. |
-  \break
+  \xBreak
   R2.*1 | cs4 d4 e8 cs8~ | cs4 b4 a4 | cs4 b8 a8~ a4 |
-  \break
+  \xBreak
   cs4 b4 r8 a8 | cs4 b4 a4 | e'4 d4 cs4 \textToCoda | a2.~ | a2.~ | a2 r4 | R2. |
 
   \sect "Pre-Chorus"
@@ -136,7 +136,7 @@ refrainMelody = \relative f' {
   \key \chorusKey \major
   g'8 g8 g8 g8 g8( fs4) e8 | d8( c16 b16) a4 r2 |
   g'8 g8 g8 g8 g8( fs4) e8 | d8( c16 b16) a4 r2 |
-  \break
+  \xBreak
   <g' b>8 <g b>8 <g b>8 <g b>8 <g b>8(  <fs a>4) <e g>8 | <d fs>8( <c e>16 <b d>16) <a c>4 r2 |
   <fs' a>1
   \dalSegnoSecondTime
@@ -162,7 +162,7 @@ refrainMelody = \relative f' {
   } 4 = 180
   a2 r2 |
 
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "Outro" }
 

@@ -34,9 +34,9 @@ refrainMelody = \relative f' {
   \sectNoBarNoBreak "Head"
 
   r8 b,8 d8 fs8 b4-. b4-. | b4 d8 b8 r2 | r8 b,8 d8 fs8 b4-. b4-. | b4 d8 b8 r2 |
-  \break
+  \xBreak
   r8 e,8 g8 b8 cs4 b4-. | r8 e,8 g8 b8 cs4 b4-. | r8 b,8 d8 fs8 b4-. b4-. | b4 d8 b8 r4 fs8 e8 |
-  \break
+  \xBreak
   f4. d'8~ d4 f,8 ds8 | e4. cs'8~ cs4 e,8 cs8 | d4. b'8~ b2 | r1 |
 
   \bar "|."

@@ -94,25 +94,25 @@ refrainMelody = \relative f' {
   \bar ".|"
   \repeat volta 2 {
   bf8 bf4 c8~ c4 bf8 c8 | d8 ef8 d8 c8~ c2 | d8 ef8 d8 c8~ c8 bf8 c4 | g1 |
-  \break
+  \xBreak
   f8 f4 g8~ g4 f8 g8 | af8 bf8 g8 f8~ f2 | af8 bf8 g8 f8~ f8 ef8 f4 |
   \alternative { \volta 1 {
   ef2 r2 |
   } \volta 2 {
   ef2 r4 r8 ef'8 |
   } } }
-  \break
+  \xBreak
 
   \xTextMark \markup{ \bold \box "B" }
 
   d8 bf8 c8 d8~ d4. c8 | bf8 g8 a8 bf8~ bf4. a8 | g8 ef8 f8 g8~ g8 f8 ef4 | d2. r8 ef'8 |
-  \break
+  \xBreak
   d8 bf8 c8 d8~ d4. c8 | bf8 g8 a8 bf8~ bf2 | r4 c8 c8~ c8 d8 ef4 | f8 d8 c8 bf8~ bf2 |
 
   \sect "A3"
 
   bf8 bf4 c8~ c4 bf8 c8 | d8 ef8 d8 c8~ c2 | d8 ef8 d8 c8~ c8 bf8 c4 | g1 |
-  \break
+  \xBreak
   f8 f4 g8~ g4 f8 g8 | af8 bf8 g8 f8~ f2 | af8 bf8 g8 f8~ f8 ef8 f4 | ef2 r2 |
   \bar "|."
 }

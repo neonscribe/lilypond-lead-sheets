@@ -42,11 +42,11 @@ refrainMelody = \relative f' {
   \override Score.VoltaBracket.musical-length = \musicLength 2
   \repeat volta 2 {
   ef1 | r4 r8 bf8 df8 f8 df8 ef8~ |
-  \break
+  \xBreak
   ef1 | r4 r8 ef,8 gf8 bf8 gf8 af8~ | af1 | r4 r8 bf8 df8 f8 df8 ef8~ |
-  \break
+  \xBreak
   ef1 | r4 r8 bf8 df8 gf8 ef8 df8~ | df1 | r4 r8 bf8 df8 f8 df8 ef8~ |
-  \break
+  \xBreak
   \alternative {
     \volta 1 {
   ef1 | r4 r8 bf8 df8 f8 df8 ef8\laissezVibrer |

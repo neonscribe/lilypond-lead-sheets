@@ -50,9 +50,9 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   r1 | r8 g,8 bf8 df8 c8 bf8 g8 f8 | g4 r4 r2 | r2 r8 g8 bf8 c8 |
-  \break
+  \xBreak
   r1 | r8 g8 bf8 df8 c8 bf8 g8 f8 | g4 r4 r2 | r2 g8 bf8 c8 bf8 |
-  \break
+  \xBreak
   <d f>1 | <cs e>2 <c ef>2 | <bf d>4 r4 r2 | r2 r8
   \override Parentheses.font-size = #5
   \startParenthesis \parenthesize

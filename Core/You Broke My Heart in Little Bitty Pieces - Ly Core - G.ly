@@ -85,7 +85,7 @@ refrainMelody = \relative f' {
 
   \bar "||-||"
 
-  \break
+  \xBreak
 
   g2 c4 e4 | g2 fs4 e4 | g4 b,2. | r1 |
   a2 cs4 e4 | a2 fs4 a4 | fs4 d2 e8 fs8~ | fs1 |

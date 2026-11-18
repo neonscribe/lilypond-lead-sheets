@@ -22,10 +22,10 @@ refrainChords = \chordmode {
   \bar ".|:"
   \repeat volta 2 {
   c1:m7 c1:m7 c1:m7 c1:m7
-  \break
+  \xBreak
   \bar "||-||"
   f1:m7 f1:m7 c1:m7 c1:m7
-  \break
+  \xBreak
   \bar "||-||"
   af1:7 g1:7.13- c1:m7 c1:m7
   }
@@ -37,10 +37,10 @@ refrainChords = \chordmode {
   \bar ":|.|:"
   \repeat volta 2 {
   c1:m6 d2:m7.5- g2:7.9- c1:m6 g2:m7.5- c2:7.9-
-  \break
+  \xBreak
   \bar "||-||"
   f1:m7 f1:m7 c1:m6 c1:m6
-  \break
+  \xBreak
   \bar "||-||"
   ef2:m7 af2:7 d2:m7.5- g2:7.9- c1:m6 c1:m6
   }

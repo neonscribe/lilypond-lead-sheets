@@ -73,7 +73,7 @@ refrainBass = \relative f' {
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
 
   \bar "||-||"
-  \break
+  \xBreak
 
   g,8. d'16 e16 d16 f8. d16 e16 d16 |
   g,8. d'16 e16 d16 f8. d16 e16 d16 |

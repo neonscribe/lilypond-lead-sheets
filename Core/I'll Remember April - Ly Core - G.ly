@@ -65,26 +65,26 @@ refrainMelody = \relative f' {
   \sectNoBar "A1"
 
   r4 b4 c4 d4 | c4 b4 a4 g4 | a2. g4 | fs4 e2. |
-  \break
+  \xBreak
   r4 a4 bf4 c4 | bf4 a4 g4 f4 | g8 a8 g2.~ | g2 r8 g4. |
   \bar "||-||"
-  \break
+  \xBreak
 
   \tempo "Swing"
 
   a2. a4 | a4 a4 b4 c4 | d4. d8~ d2~ | d2 e4. d8 |
-  \break
+  \xBreak
   b4 c4 d4 c4~ | c2 b4 as4 | b1~ | b2 r8 b4. |
 
   \sect "B"
 
   g4 g4 g2~ | g4 a4 bf4 c4 | d2. c4 | bf4 g2 f4 |
-  \break
+  \xBreak
   g4 g4 g2~ | g4 a4 bf4 c4 | d2 d4 d4~ | d4 d4 \tuplet 3/2 { d4 d4 d4 } |
-  \break
+  \xBreak
 
   d2. d4 | e4 c4 d4. b8 | a4 b2.~ | b4 b4 d4 c4 |
-  \break
+  \xBreak
   b4 b2.~ | b2 \tuplet 3/2 { b4 a4 gs4 } | b1~ | b1 |
 
   \alwaysPageBreak "A2" "||" "||-||"
@@ -92,15 +92,15 @@ refrainMelody = \relative f' {
   \tempo "Latin"
 
   r4 b4 c4 d4 | c4 b4 a4 g4 | a2. g4 | fs4 e2. |
-  \break
+  \xBreak
   r4 a4 bf4 c4 | bf2 \tuplet 3/2 { a4 g4 f4 } | g8 a8 g2.~ | g2 r8 g4. |
   \bar "||-||"
-  \break
+  \xBreak
 
   \tempo "Swing"
 
   a4. a8 a2~ | a4 a4 \tuplet 3/2 { a4 b4 c4 } | d2 d2~ | d2 e4. d8 |
-  \break
+  \xBreak
   b4 c4 d4 c4~ | c2 b4 b4 | g1~ | g4 r4 r2 |
 
   \bar "|."

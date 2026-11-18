@@ -197,13 +197,13 @@ refrainMelody = \relative f' {
 
   c'4.~ c8 c8 d8 ef4.~ ef4 ef8 |
   d4 d8~ d8 c8 bf8 bf4.~ bf8 c8 bf8 |
-  \break
+  \xBreak
   af4 g4 af4 c4.~ c4 af8 |
   g4( bf8~ bf4.~ bf4.~ bf4) g8 |
-  \break
+  \xBreak
   ef'4.~ ef4 ef8 ef4.~ ef4 ef8 |
   d4 d8 d4 d8 d4.~ d4 bf8 |
-  \break
+  \xBreak
   c4.~ c4 c8 c4 bf4 a8 c8 |
   bf2. r4 bf8 bf4 c8 |
 

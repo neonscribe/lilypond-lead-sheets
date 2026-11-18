@@ -91,7 +91,7 @@ refrainMelody = \relative f' {
   \textCodaBreak
 
   g'4 b,8 a8~ a4. c'8 | c8 c8 bf8 af8 g4 ef4 | e2.. c'8 |
-  \break
+  \xBreak
   c8 c8 bf8 af8 g4 ef4 | c4. d8 c4. d8 | c2. r4 |
   \bar "|."
 }

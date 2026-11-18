@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   \ambitusOff
   \repeat volta 2 {
   d'1~ | d2 c4 e4 | d1~ | d2 c4 e4 |
-  \break
+  \xBreak
   d1~ | d2 c4 a4 | g1~ |
   \alternative { \volta 1 {
   g2. r4 |
@@ -87,7 +87,7 @@ refrainMelody = \relative f' {
   \sect "A1"
 
   a2 a2~ | a8 g8 a8 b8 d8 b8 a8 g8 | f1~ | f1 |
-  \break
+  \xBreak
   ef2 ef2~ | ef8 ef8 f8 g8 bf8 g8 f8 ef8 | d1~ |
 
   d4 r4 d'4. b8 |
@@ -95,7 +95,7 @@ refrainMelody = \relative f' {
   \sect "A2"
 
   a2 a2~ | a8 g8 a8 b8 d8 b8 a8 g8 | f1~ | f2. r8 f8 |
-  \break
+  \xBreak
   ef2 ef2~ | ef8 ef8 f8 g8 bf8 g8 f8 ef8 | d1~ |
 
   d2 r2 |
@@ -103,13 +103,13 @@ refrainMelody = \relative f' {
   \alwaysPageBreak "B" "||" "||-||"
 
   ef8 f8 g8 a8 bf4. a8 | c4. bf8 a8 g8 fs8 g8 | a1~ | a2. r4 |
-  \break
+  \xBreak
   ef8 f8 g8 a8 bf4. a8 | c4. bf8 a8 g8 fs8 g8 | d'1~ | d2 d4. b8 |
 
   \sect "A3"
 
   a2 a2~ | a8 g8 a8 b8 d8 b8 a8 g8 | f1~ | f1 |
-  \break
+  \xBreak
   ef2 ef2~ | ef8 ef8 f8 g8 bf8 g8 f8 ef8 | d1~ | d1 |
 
   \bar "|."

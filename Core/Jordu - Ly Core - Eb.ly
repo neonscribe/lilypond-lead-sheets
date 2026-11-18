@@ -58,7 +58,7 @@ refrainMelody = \relative f' {
   \bar ".|:"
   \repeat volta 2 {
   fs2 f4. ef8 | r8 g,8 c8 d8 ef8 f8 g8 bf8 | a2 af4. g8 | r8 g,8 c8 d8 ef8 f8 g8 ef8 |
-  \break
+  \xBreak
   fs2 f4. ef8 | r2 \tuplet 3/2 { ef16 f16 ef16 } c8 ef8 c8~ |
   \alternative { \volta 1 {
   c1 | r8 g8 c8 d8 ef8 f8 g8 ef8 |
@@ -70,7 +70,7 @@ refrainMelody = \relative f' {
   g4 \tuplet 3/2 { b,16 c16 b16 } a8 bf4 g'8 e8 |
   f4 \tuplet 3/2 { a,16 bf16 a16 } g8 af4 f'8 d8 |
   ef4 \tuplet 3/2 { g,16 af16 g16 } f8 gf4 e4 | f2 r8 f'4 f8~ |
-  \break
+  \xBreak
   f4 \tuplet 3/2 { a,16 bf16 a16 } g8 af4 f'8 d8 |
   ef4 \tuplet 3/2 { g,16 af16 g16 } f8 gf4 ef'8 c8 |
   df4 \tuplet 3/2 { f,16 gf16 f16 } ef8 e4. ef8 |
@@ -79,7 +79,7 @@ refrainMelody = \relative f' {
   \sect "A3"
 
   fs2 f4. ef8 | r8 g,8 c8 d8 ef8 f8 g8 bf8 | a2 af4. g8 | r8 g,8 c8 d8 ef8 f8 g8 ef8 |
-  \break
+  \xBreak
   fs2 f4. ef8 | r2 \tuplet 3/2 { ef16 f16 ef16 } c8 ef8 c8~ \textToCodaLastTime |
   c1 | r1 |
 
@@ -90,13 +90,13 @@ refrainMelody = \relative f' {
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   }
-  \break
+  \xBreak
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
 
   \bar "||-||"
-  \break
+  \xBreak
 
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
   \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq | \rsq \rsq \rsq \rsq |
@@ -107,7 +107,7 @@ refrainMelody = \relative f' {
 
   c1\repeatTie |
   r2 \tuplet 3/2 { ef16 f16 ef16 } c8 ef8 c8~ | c1 |
-  \break
+  \xBreak
   r2 \tuplet 3/2 { ef16 f16 ef16 } c8 ef8 c8~ | c1 |
   r4 r8 g'8 \tuplet 3/2 { bf16 c16 bf16 } g8 bf8 b8~ | b1 |
 

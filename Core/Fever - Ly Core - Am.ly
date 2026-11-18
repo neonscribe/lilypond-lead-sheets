@@ -74,7 +74,7 @@ refrainMelody = \relative f' {
   \sectNoBar "Bridge"
 
   r8 c4 a8 a4 g4 | r8 a4 g8 a4 c4 | r8 c8 a4 a4 g4 | a8 g4 a8~ a4 r4 |
-  \break
+  \xBreak
   r8 c4 a8 a4 g4 | g8 a4 g8 a4 c4 | d8 c8 d8 c8 d8( c8) a8 a8~ | a4 r4 r2 |
   \bar "||"
 

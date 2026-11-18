@@ -95,28 +95,28 @@ refrainMelody = \relative f' {
 
   a,8 c8 d4 e8 ef8 d4 | a8 c8 d8 e8~ e8 ef8 d4 |
   a8 c8 d4 e8 ef8 d4 | gs,8 c8 d8 e8~ e8 ef8 d4 |
-  \break
+  \xBreak
   d8 f8 g4 a8 af8 g4 | d8 f8 g8 a8~ a8 af8 g4 |
   df8 f8 g4 a8 af8 g4 | df8 f8 g8 a8~ a8 af8 g4 |
 
   \sect "B"
 
   r4 c4 c,2~ | c2 ef'8 d8 c8 bf8 | a1~ | a2 c8 b8 bf8 a8 |
-  \break
+  \xBreak
   g1~ | g2 a8 af8 g8 gf8 | f8 d8 f8 d8 f8 d8 f8 af8~ | af8 f8 g4 r2 |
 
   \alwaysPageBreak "A2" "||" "||-||"
 
   a,8 c8 d4 e8 ef8 d4 | a8 c8 d8 e8~ e8 ef8 d4 |
   a8 c8 d4 e8 ef8 d4 | gs,8 c8 d8 e8~ e8 ef8 d4 |
-  \break
+  \xBreak
   d8 f8 g4 a8 af8 g4 | d8 f8 g8 a8~ a8 af8 g4 |
   df8 f8 g4 a8 af8 g4 | df8 f8 g8 a8~ a8 af8 g4 |
 
   \sect "C"
 
   r4 c4 c,2~ | c2 ef'8 d8 c8 bf8 | a1 | a1 |
-  \break
+  \xBreak
   g8 gf8 f4 f8 fs8 g4 | g8 gf8 f4 f8 fs8 g4 | f1 | r1 |
 
   \bar "|."

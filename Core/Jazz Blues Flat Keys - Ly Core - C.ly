@@ -18,10 +18,10 @@ whatKey = #(or whatKey refrainKey)
 
 refrainChordsInC = \chordmode {
   c1:7 f1:7 c1:7 g2:m7 c2:7
-  \break
+  \xBreak
   \bar "||-||"
   f1:7 fs1:dim7 c1:7 e2:m7 a2:7
-  \break
+  \xBreak
   \bar "||-||"
   d1:m7 g1:7 c2:7
   \chordOpenParen{ a2:7 }

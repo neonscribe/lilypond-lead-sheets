@@ -30,11 +30,11 @@ refrainMelody = \relative f' {
   \tempoFour "Up [John Coltrane 1959]" 320
 
   fs'2 d2 | b2 g4. bf8~ | bf1 | b4. a8~ a2 |
-  \break
+  \xBreak
   d2 bf2 | g2 ds4. fs8~ | fs1 | g2 f4. bf8~ |
-  \break
+  \xBreak
   bf1 | b2 a4. d8~ | d1 | ds2 ds4. fs8~ |
-  \break
+  \xBreak
   fs1 | g2 g4. bf8~ | bf1 \textFine | fs4. fs8 r2 |
   \bar "|."
 }

@@ -66,25 +66,25 @@ refrainMelody = \relative f' {
 
   \repeat volta 2 {
   g2. fs8 f8~ | f8 e4. ds4 e4 | f4. g8~ g2~ | g1 |
-  \break
+  \xBreak
   d2. e8 f8~ | f4 g4 a4 b8 a8~ | a1~ | a2~ a8 r8 r4 |
 
   \sect "A2"
 
   g2. fs8 f8~ | f8 e4. ds4 e4 | f4. g8~ g2~ | g1 |
-  %% \break
+  %% \xBreak
   d2. e8 f8~ | f4 g4 a4 b8 c8~ | c1~ | c1 |
 
   \sect "B"
 
   c2 d,8 e4 d8~ | d2 e4 c4 | c'2 d,8 e4 d8~ | d1 |
-  \break
+  \xBreak
   d2 e8 d4. | fs4 d4 a'4 d,4 | b'1~ | b2. e,4 |
 
   \sect "A3"
 
   g2. fs8 f8~ | f8 e4. ds4 e4 | f4. g8~ g2~ | g1 |
-  \break
+  \xBreak
   d2. e8 f8~ | f4 g4 a4 b8 c8~ |
   c1~ \textFine | c2 r4
   \override Parentheses.font-size = #5
