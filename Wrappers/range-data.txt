@@ -8083,6 +8083,46 @@ refrain
 c'
 f''
 
+Goodnight Irene - Ly - A Baritone Voice.ly
+refrain
+e
+cis''
+
+Goodnight Irene - Ly - Bb Baritone Voice.ly
+refrain
+f
+d''
+
+Goodnight Irene - Ly - C Alto Voice.ly
+refrain
+g
+e''
+
+Goodnight Irene - Ly - E Bass for Standard.ly
+refrain
+b,
+gis'
+
+Goodnight Irene - Ly - E Standard.ly
+refrain
+b
+gis''
+
+Goodnight Irene - Ly - E to Db for Eb for Standard.ly
+refrain
+aes'
+f'''
+
+Goodnight Irene - Ly - E to Fs for Bb for Standard.ly
+refrain
+cis'
+ais''
+
+Goodnight Irene - Ly - F Standard.ly
+refrain
+c'
+a''
+
 Greensleeves Coltrane - Ly - Dm Bass for Standard.ly
 intro
 d
