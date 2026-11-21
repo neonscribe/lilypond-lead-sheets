@@ -6,6 +6,8 @@ songID = "2026-06-01T22:16:51.54406Z"
 
 \include "../Include/lead-sheets.ily"
 
+bookFirstPageOrientation = "recto"
+
 headerTitle = "Spring Can Really Hang You Up the Most"
 headerSubtitle = \subtitle
 headerPoet = "Fran Landesman"

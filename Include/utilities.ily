@@ -84,7 +84,20 @@ rss = {
   r16
 }
 
-% Macros to print slashes
+rsh = {
+  %% \once \override Rest.stencil = #ly:percent-repeat-interface::beat-slash
+  \once \override Rest.thickness = #0.48
+  \once \override Rest.slope = #1.7
+  r2
+}
+
+rsdh = {
+  %% \once \override Rest.stencil = #ly:percent-repeat-interface::beat-slash
+  \once \override Rest.thickness = #0.48
+  \once \override Rest.slope = #1.7
+  r2.
+}
+
 rsw = {
   %% \once \override Rest.stencil = #ly:percent-repeat-interface::beat-slash
   \once \override Rest.thickness = #0.48

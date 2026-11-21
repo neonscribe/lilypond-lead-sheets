@@ -12,6 +12,8 @@ songID = "2026-06-01T22:16:46.839747Z"
 
 \include "../Include/lead-sheets.ily"
 
+bookFirstPageOrientation = "verso"
+
 headerTitle = "Oh, Lonesome Me (in 4, Don Gibson Style)"
 headerSubtitle = \subtitle
 headerPoet = ""

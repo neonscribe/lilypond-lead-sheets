@@ -6,6 +6,8 @@ songID = "2026-06-01T22:16:39.679402Z"
 
 \include "../Include/lead-sheets.ily"
 
+bookFirstPageOrientation = "recto"
+
 headerTitle = "It Ain't Necessarily So"
 headerSubtitle = \subtitle
 headerPoet = "Ira Gershwin"

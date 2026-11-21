@@ -6,6 +6,8 @@ songID = "2026-06-01T22:16:52.547374Z"
 
 \include "../Include/lead-sheets.ily"
 
+bookFirstPageOrientation = "verso"
+
 headerTitle = "Straighten Up and Fly Right"
 headerSubtitle = \subtitle
 headerPoet = ""

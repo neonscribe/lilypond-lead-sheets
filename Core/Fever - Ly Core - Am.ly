@@ -6,6 +6,8 @@ songID = "2026-06-01T22:16:33.208646Z"
 
 \include "../Include/lead-sheets.ily"
 
+bookFirstPageOrientation = "verso"
+
 headerTitle = "Fever"
 headerSubtitle = \subtitle
 headerPoet = ""

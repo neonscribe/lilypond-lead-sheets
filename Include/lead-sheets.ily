@@ -60,6 +60,11 @@ bassLineLeadingEighth = ##f
 outroLeadingEighth = ##f
 codaLeadingEighth = ##f
 
+%% turn on all three for maximum compression
+%% noManualPageBreaks = ##t
+%% noManualBreaks = ##t
+%% noSectionBreaks = ##t
+
 \include "ambitus-engraver.ily"
 \include "text-mark.ily"
 \include "utilities.ily"

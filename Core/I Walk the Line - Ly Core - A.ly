@@ -4,6 +4,8 @@ songID = "2026-11-07T00:35:08.37043Z"
 
 \include "../Include/lead-sheets.ily"
 
+bookFirstPageOrientation = "verso"
+
 headerTitle = "I Walk the Line (Tennessee Two 1956 Arrangement)"
 headerSubtitle = \subtitle
 headerPoet = ""

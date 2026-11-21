@@ -346,7 +346,8 @@ textToCodaFourthTime = {
   }
 }
 
-%%% includes the words "To Coda Last Time" before the Coda sign and centers the coda sign horizontally on the barline
+%%% includes the words "To Coda Last Time" before the Coda sign
+%%% and centers the coda sign horizontally on the barline
 
 textToCodaLastTime = {
   \once

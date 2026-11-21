@@ -13,6 +13,8 @@ songID = "2026-06-01T22:16:39.542212Z"
 
 \include "../Include/lead-sheets.ily"
 
+bookFirstPageOrientation = "recto"
+
 headerTitle = "Is You Is, or Is You Ain't (Ma' Baby)"
 headerSubtitle = \subtitle
 headerPoet = ""
