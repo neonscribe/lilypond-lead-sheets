@@ -1,4 +1,4 @@
-# Convert a PDF-assembling .tex file into a .book file to use as input to lilybook.py
+# Convert a PDF-assembling .tex file into a .book file to use as input to book_to_ly.py
 
 import re, sys, os, tempfile, shutil, subprocess, pypdf, pathlib
 

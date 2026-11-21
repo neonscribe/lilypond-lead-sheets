@@ -2,7 +2,7 @@ import re, sys, os, tempfile, shutil, subprocess, pypdf, pathlib
 import threepagers
 
 """
-lilybook [options] bookfile
+book_to_ly [options] bookfile
 
 bookfile format is
 
@@ -32,7 +32,7 @@ make second pass pdf output
 add pdf bookmarks using toc entries from bookfile
 """
 
-def book_to_pdf(*arguments):
+def book_to_ly_to_pdf(*arguments):
     arg_filename = arguments[-1]
     options = arguments[:-1]
 
@@ -243,4 +243,4 @@ def book_to_pdf(*arguments):
     shutil.copy(pdf_filename, output_directory)
 
 if __name__ == "__main__":
-    book_to_pdf(*sys.argv[1:])
+    book_to_ly_to_pdf(*sys.argv[1:])
