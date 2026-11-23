@@ -2,7 +2,8 @@
 
 %{
 
-"Customizer": { "toggles": [ "noIntro" ] }
+"Customizer": { "toggles": [ "noIntro" ],
+		"choices": { "alternateChords": [ "hlrb", "hazeltine" ] } }
 
 %}
 
@@ -29,7 +30,7 @@ verseChords = \chordmode {
   d4 a2:7.5+
 
   d1 d1 b1:7 b1:7
-  e2:m e:m7.5- a1:7 d1:7 a1:7.9- d1 d2 a2:7.5+
+  e2:m e:m7.5- a1:7 d1 d2 a2:7.9- d1 d2 a2:7.5+
   d1 d1 b1:7 b1:7
   e1:m7.5- a1:7 e1:m7.5- a2.:7
 }
@@ -83,7 +84,7 @@ refrainLyrics = \lyricmode {
   (The)
 }
 
-refrainChords = \chordmode {
+refrainHLChords = \chordmode {
   s4
 
   d1:m7 d1:m7 g1:7 g1:7
@@ -100,6 +101,38 @@ refrainChords = \chordmode {
   \chordOpenParen{ e2:m7.5- }
   \chordCloseParen{ a2:7.9- }
 }
+
+refrainHazeltineChords = \chordmode {
+  s4
+
+  d2:m7 b2:7.9+.5- e2:13.9- a2:7.9+.5+ d2:m7 af2:13.5- g2:sus7 af2:dim7
+  g2:m7 c2:7 f2:maj7 fs4:m7 b4:7 bf2:6 a2:13.9- ef2:7.11+ d4:m7 c4:m11
+  b4:m11 e4:13 e4:m7 a4:7.5- af2:13.5- g4:7 fs4:dim7
+  f2:m7 bf2:13.5- e2:m11 ef2:maj7.11+
+
+  d2:m7 b2:7.9+.5- e2:13.9- a2:7.9+.5+ d2:m7 af2:13.5- g2:sus7 af2:dim7
+  g2:m7 c2:7 f2:maj7 fs4:m7 b4:7 bf2:6 a2:13.9- ef2:7.11+ d4:m7 c4:m11
+  b4:m11 e4:13 e4:m7 a4:7.5- af2:13.5- g4:7 fs4:dim7
+  g2:m7 a2:m7 bf2:m7 ef2:13.5-
+
+  f2.:maj7/c cs4:m7 c2:m11 f2:7.9-.5- b2:m11 bf2:13.5- a2:m13 af2:13.5+
+  g2:m11 gf2:13.5- fs2:maj7.5+ bf2:maj7.5+ e2:m7.5- bf2:maj7.11+
+  e2:m7.5-/a a2:7.9-.5- af2:13.5- g4:m7 f4:7
+
+  \chordOpenParen{ e2:m7.5- }
+  \chordCloseParen{ ef2:maj7 }
+}
+
+alternateChords = #(if (and (defined? 'alternateChords) alternateChords)
+		    alternateChords
+		    "hlrb")
+
+refrainChords = #(let ((v (assoc alternateChords
+			   (list
+			    (cons "hazeltine" refrainHazeltineChords)
+			    (cons "hlrb" refrainHLChords)
+			  ))))
+		  (if v (cdr v) #{ \chordmode { } #}))
 
 refrainKey = d
 isMinor = ##t

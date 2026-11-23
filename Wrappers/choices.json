@@ -101,6 +101,11 @@
 
 {
     "option": "alternateChords",
+    "name": "hazeltine",
+    "description": "David Hazeltine Chords" },
+
+{
+    "option": "alternateChords",
     "name": "nico",
     "description": "Nico Lovejoy Chords" },
 

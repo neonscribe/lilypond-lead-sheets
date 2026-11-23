@@ -1,7 +1,8 @@
 %% -*- Mode: LilyPond -*-
 
 %%% now = #(strftime "%Y-%m-%d %H:%M" (localtime (current-time)))
-now = ""
+
+now = #(if (defined? 'now) now "")
 
 
 emphasize = {

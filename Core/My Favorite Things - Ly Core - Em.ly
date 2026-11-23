@@ -44,7 +44,7 @@ refrainChords = \chordmode {
   e2.:maj7 fs2.:m7 e2.:maj7 fs2.:m7 a2.:maj7 a2.:maj7 a2.:maj7 a2.:maj7
   a2.:m7 d2.:7 g2.:maj7 c2.:maj7 g2.:maj7 c2.:maj7 fs2.:m7.5- b2.:7
 
-  e2.:m7 e2.:m7 f2.:m7.5- b2.:7 e2.:m7 e2.:m7 c2.:maj7 c2.:maj7
+  e2.:m7 e2.:m7 fs2.:m7.5- b2.:7 e2.:m7 e2.:m7 c2.:maj7 c2.:maj7
 
   c2.:maj7 c2.:maj7 a2.:7 a2.:7 g2.:maj7 c2.:maj7 c2.:maj7 d2.:7
   g2.:6 c2.:maj7 g2.:6 c2.:maj7 g2.:6 c2.:maj7 f2.:m7.5- b2.:7

@@ -297,6 +297,8 @@ jazzChordsMusic =
 	<c ees g bes d' a'>-\markup{ \jcMinor \jcThirteenth }
 	<c e g bes d' f' a'>-\markup{ \jcThirteenth }
 	<c e g bes d' a'>-\markup{ \jcThirteenth }
+	<c e ges bes d' a'>-\markup{ \jcThirteenth \jcFlatFive }
+	<c e gis bes d' a'>-\markup{ \jcThirteenth \jcSharpFive }
 
 	<c f g a'>-\markup{ \jcThirteenth \jcSus }
 	<c f g bes d' a'>-\markup{ \jcThirteenth \jcSus }
