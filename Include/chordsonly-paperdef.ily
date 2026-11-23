@@ -2,7 +2,7 @@
 
 \paper {
   \include "../Include/margins.ily"
-  print-page-number = \inBook
+  print-page-number = #(if (defined? 'printPageNumbers) printPageNumbers inBook)
   print-first-page-number = ##f
   max-systems-per-page = 16
   system-system-spacing =
